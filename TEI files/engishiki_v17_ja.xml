@@ -1,0 +1,471 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>延喜式ファイル</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>国立歴史民俗博物館メタ資料学研究センター</publisher>
+                <idno type="PID">o:depcha.engi_shiki.1</idno>
+                <availability>
+                    <p/>
+                </availability>
+                <date when="2020-03-31">31 March 2020</date>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <settlement>千葉県佐倉市</settlement>
+                        <repository>国立歴史民俗博物館</repository>
+                        <collection>集英社版延喜式</collection>
+                    </msIdentifier>
+                    <msContents>
+                        <msItem>
+                            <author>藤原時平・藤原忠平</author>
+                            <title>延喜式</title>
+                            <note>
+                                <p>ここに史料の説明が入る。</p>
+                            </note>
+                        </msItem>
+                    </msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <variantEncoding method="location-referenced" location="external"/>
+        </encodingDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div ana="内匠" n="17" subtype="条" type="式">
+                <head>内匠</head>
+                <div ana="内匠" n="17.1" subtype="項" type="条">
+                    <head ana="大極殿飾"/>
+                    <note type="summary">条文概要</note>
+                    <p ana="項" corresp="engishiki.xml#item17100101 engishiki_en.xml#item17100101"
+                        xml:id="item17100101">本文</p>
+                </div>
+                <div ana="内匠" n="17.2" subtype="項" type="条">
+                    <head ana="御斎会"/>
+                    <note type="summary">条文概要</note>
+                    <p ana="項" corresp="engishiki.xml#item17100201 engishiki_en.xml#item17100201"
+                        xml:id="item17100201">本文</p>
+                </div>
+                <div ana="内匠" n="17.3" subtype="項" type="条">
+                    <head ana="諸節"/>
+                    <note type="summary">条文概要</note>
+                    <p ana="項" corresp="engishiki.xml#item17100301 engishiki_en.xml#item17100301"
+                        xml:id="item17100301">本文</p>
+                </div>
+                <div ana="内匠" n="17.4" subtype="項" type="条">
+                    <head ana="五月五日"/>
+                    <note type="summary">条文概要</note>
+                    <p ana="項" corresp="engishiki.xml#item17100401 engishiki_en.xml#item17100401"
+                        xml:id="item17100401">本文</p>
+                </div>
+                <div ana="内匠" n="17.5" subtype="項" type="条">
+                    <head ana="銀器"/>
+                    <note type="summary">条文概要</note>
+                    <p ana="項" corresp="engishiki.xml#item17100501 engishiki_en.xml#item17100501"
+                        xml:id="item17100501">本文</p>
+                    <p ana="項" corresp="engishiki.xml#item17100502 engishiki_en.xml#item17100502"
+                        xml:id="item17100502">本文</p>
+                    <p ana="項" corresp="engishiki.xml#item17100503 engishiki_en.xml#item17100503"
+                        xml:id="item17100503">本文</p>
+                    <p ana="項" corresp="engishiki.xml#item17100504 engishiki_en.xml#item17100504"
+                        xml:id="item17100504">本文</p>
+                    <p ana="項" corresp="engishiki.xml#item17100505 engishiki_en.xml#item17100505"
+                        xml:id="item17100505">本文</p>
+                    <p ana="項" corresp="engishiki.xml#item17100506 engishiki_en.xml#item17100506"
+                        xml:id="item17100506">本文</p>
+                    <p ana="項" corresp="engishiki.xml#item17100507 engishiki_en.xml#item17100507"
+                        xml:id="item17100507">本文</p>
+                </div>
+                <div ana="内匠" n="17.6" subtype="項" type="条">
+                    <head ana="漆器"/>
+                    <note type="summary">条文概要</note>
+                    <p ana="項" corresp="engishiki.xml#item17100601 engishiki_en.xml#item17100601"
+                        xml:id="item17100601">本文</p>
+                    <p ana="項" corresp="engishiki.xml#item17100602 engishiki_en.xml#item17100602"
+                        xml:id="item17100602">本文</p>
+                    <p ana="項" corresp="engishiki.xml#item17100603 engishiki_en.xml#item17100603"
+                        xml:id="item17100603">本文</p>
+                    <p ana="項" corresp="engishiki.xml#item17100604 engishiki_en.xml#item17100604"
+                        xml:id="item17100604">本文</p>
+                    <p ana="項" corresp="engishiki.xml#item17100605 engishiki_en.xml#item17100605"
+                        xml:id="item17100605">本文</p>
+                    <p ana="項" corresp="engishiki.xml#item17100606 engishiki_en.xml#item17100606"
+                        xml:id="item17100606">本文</p>
+                    <p ana="項" corresp="engishiki.xml#item17100607 engishiki_en.xml#item17100607"
+                        xml:id="item17100607">本文</p>
+                    <p ana="項" corresp="engishiki.xml#item17100608 engishiki_en.xml#item17100608"
+                        xml:id="item17100608">本文</p>
+                </div>
+                <div ana="内匠" n="17.7" subtype="項" type="条">
+                    <head ana="朱漆器"/>
+                    <note type="summary">条文概要</note>
+                    <p ana="項" corresp="engishiki.xml#item17100701 engishiki_en.xml#item17100701"
+                        xml:id="item17100701">本文</p>
+                    <p ana="項" corresp="engishiki.xml#item17100702 engishiki_en.xml#item17100702"
+                        xml:id="item17100702">本文</p>
+                    <p ana="項" corresp="engishiki.xml#item17100703 engishiki_en.xml#item17100703"
+                        xml:id="item17100703">本文</p>
+                    <p ana="項" corresp="engishiki.xml#item17100704 engishiki_en.xml#item17100704"
+                        xml:id="item17100704">本文</p>
+                    <p ana="項" corresp="engishiki.xml#item17100705 engishiki_en.xml#item17100705"
+                        xml:id="item17100705">本文</p>
+                    <p ana="項" corresp="engishiki.xml#item17100706 engishiki_en.xml#item17100706"
+                        xml:id="item17100706">本文</p>
+                    <p ana="項" corresp="engishiki.xml#item17100707 engishiki_en.xml#item17100707"
+                        xml:id="item17100707">本文</p>
+                    <p ana="項" corresp="engishiki.xml#item17100708 engishiki_en.xml#item17100708"
+                        xml:id="item17100708">本文</p>
+                    <p ana="項" corresp="engishiki.xml#item17100709 engishiki_en.xml#item17100709"
+                        xml:id="item17100709">本文</p>
+                    <p ana="項" corresp="engishiki.xml#item17100710 engishiki_en.xml#item17100710"
+                        xml:id="item17100710">本文</p>
+                    <p ana="項" corresp="engishiki.xml#item17100711 engishiki_en.xml#item17100711"
+                        xml:id="item17100711">本文</p>
+                    <p ana="項" corresp="engishiki.xml#item17100712 engishiki_en.xml#item17100712"
+                        xml:id="item17100712">本文</p>
+                    <p ana="項" corresp="engishiki.xml#item17100713 engishiki_en.xml#item17100713"
+                        xml:id="item17100713">本文</p>
+                    <p ana="項" corresp="engishiki.xml#item17100714 engishiki_en.xml#item17100714"
+                        xml:id="item17100714">本文</p>
+                </div>
+                <div ana="内匠" n="17.8" subtype="項" type="条">
+                    <head ana="瓜刀"/>
+                    <note type="summary">条文概要</note>
+                    <p ana="項" corresp="engishiki.xml#item17100801 engishiki_en.xml#item17100801"
+                        xml:id="item17100801">本文</p>
+                </div>
+                <div ana="内匠" n="17.9" subtype="項" type="条">
+                    <head ana="革筥"/>
+                    <note type="summary">条文概要</note>
+                    <p ana="項" corresp="engishiki.xml#item17100901 engishiki_en.xml#item17100901"
+                        xml:id="item17100901">本文</p>
+                </div>
+                <div ana="内匠" n="17.10" subtype="項" type="条">
+                    <head ana="柳筥"/>
+                    <note type="summary">条文概要</note>
+                    <p ana="項" corresp="engishiki.xml#item17101001 engishiki_en.xml#item17101001"
+                        xml:id="item17101001">本文</p>
+                </div>
+                <div ana="内匠" n="17.11" subtype="項" type="条">
+                    <head ana="年料屏風"/>
+                    <note type="summary">条文概要</note>
+                    <p ana="項" corresp="engishiki.xml#item17101101 engishiki_en.xml#item17101101"
+                        xml:id="item17101101">本文</p>
+                </div>
+                <div ana="内匠" n="17.12" subtype="項" type="条">
+                    <head ana="年料几帳"/>
+                    <note type="summary">条文概要</note>
+                    <p ana="項" corresp="engishiki.xml#item17101201 engishiki_en.xml#item17101201"
+                        xml:id="item17101201">本文</p>
+                </div>
+                <div ana="内匠" n="17.13" subtype="項" type="条">
+                    <head ana="御鏡"/>
+                    <note type="summary">条文概要</note>
+                    <p ana="項" corresp="engishiki.xml#item17101301 engishiki_en.xml#item17101301"
+                        xml:id="item17101301">本文</p>
+                </div>
+                <div ana="内匠" n="17.14" subtype="項" type="条">
+                    <head ana="御帯"/>
+                    <note type="summary">条文概要</note>
+                    <p ana="項" corresp="engishiki.xml#item17101401 engishiki_en.xml#item17101401"
+                        xml:id="item17101401">本文</p>
+                </div>
+                <div ana="内匠" n="17.15" subtype="項" type="条">
+                    <head ana="御大刀"/>
+                    <note type="summary">条文概要</note>
+                    <p ana="項" corresp="engishiki.xml#item17101501 engishiki_en.xml#item17101501"
+                        xml:id="item17101501">本文</p>
+                </div>
+                <div ana="内匠" n="17.16" subtype="項" type="条">
+                    <head ana="内印"/>
+                    <note type="summary">条文概要</note>
+                    <p ana="項" corresp="engishiki.xml#item17101601 engishiki_en.xml#item17101601"
+                        xml:id="item17101601">本文</p>
+                </div>
+                <div ana="内匠" n="17.17" subtype="項" type="条">
+                    <head ana="外印"/>
+                    <note type="summary">条文概要</note>
+                    <p ana="項" corresp="engishiki.xml#item17101701 engishiki_en.xml#item17101701"
+                        xml:id="item17101701">本文</p>
+                </div>
+                <div ana="内匠" n="17.18" subtype="項" type="条">
+                    <head ana="諸司印"/>
+                    <note type="summary">条文概要</note>
+                    <p ana="項" corresp="engishiki.xml#item17101801 engishiki_en.xml#item17101801"
+                        xml:id="item17101801">本文</p>
+                </div>
+                <div ana="内匠" n="17.19" subtype="項" type="条">
+                    <head ana="諸国印"/>
+                    <note type="summary">条文概要</note>
+                    <p ana="項" corresp="engishiki.xml#item17101901 engishiki_en.xml#item17101901"
+                        xml:id="item17101901">本文</p>
+                </div>
+                <div ana="内匠" n="17.20" subtype="項" type="条">
+                    <head ana="御帳"/>
+                    <note type="summary">条文概要</note>
+                    <p ana="項" corresp="engishiki.xml#item17102001 engishiki_en.xml#item17102001"
+                        xml:id="item17102001">本文</p>
+                </div>
+                <div ana="内匠" n="17.21" subtype="項" type="条">
+                    <head ana="御輿"/>
+                    <note type="summary">条文概要</note>
+                    <p ana="項" corresp="engishiki.xml#item17102101 engishiki_en.xml#item17102101"
+                        xml:id="item17102101">本文</p>
+                </div>
+                <div ana="内匠" n="17.22" subtype="項" type="条">
+                    <head ana="腰輿"/>
+                    <note type="summary">条文概要</note>
+                    <p ana="項" corresp="engishiki.xml#item17102201 engishiki_en.xml#item17102201"
+                        xml:id="item17102201">本文</p>
+                </div>
+                <div ana="内匠" n="17.23" subtype="項" type="条">
+                    <head ana="腰車"/>
+                    <note type="summary">条文概要</note>
+                    <p ana="項" corresp="engishiki.xml#item17102301 engishiki_en.xml#item17102301"
+                        xml:id="item17102301">本文</p>
+                </div>
+                <div ana="内匠" n="17.24" subtype="項" type="条">
+                    <head ana="牛車"/>
+                    <note type="summary">条文概要</note>
+                    <p ana="項" corresp="engishiki.xml#item17102401 engishiki_en.xml#item17102401"
+                        xml:id="item17102401">本文</p>
+                </div>
+                <div ana="内匠" n="17.25" subtype="項" type="条">
+                    <head ana="屏風"/>
+                    <note type="summary">条文概要</note>
+                    <p ana="項" corresp="engishiki.xml#item17102501 engishiki_en.xml#item17102501"
+                        xml:id="item17102501">本文</p>
+                </div>
+                <div ana="内匠" n="17.26" subtype="項" type="条">
+                    <head ana="厨子"/>
+                    <note type="summary">条文概要</note>
+                    <p ana="項" corresp="engishiki.xml#item17102601 engishiki_en.xml#item17102601"
+                        xml:id="item17102601">本文</p>
+                </div>
+                <div ana="内匠" n="17.27" subtype="項" type="条">
+                    <head ana="幄"/>
+                    <note type="summary">条文概要</note>
+                    <p ana="項" corresp="engishiki.xml#item17102701 engishiki_en.xml#item17102701"
+                        xml:id="item17102701">本文</p>
+                </div>
+                <div ana="内匠" n="17.28" subtype="項" type="条">
+                    <head ana="樋類"/>
+                    <note type="summary">条文概要</note>
+                    <p ana="項" corresp="engishiki.xml#item17102801 engishiki_en.xml#item17102801"
+                        xml:id="item17102801">本文</p>
+                </div>
+                <div ana="内匠" n="17.29" subtype="項" type="条">
+                    <head ana="毬子"/>
+                    <note type="summary">条文概要</note>
+                    <p ana="項" corresp="engishiki.xml#item17102901 engishiki_en.xml#item17102901"
+                        xml:id="item17102901">本文</p>
+                </div>
+                <div ana="内匠" n="17.30" subtype="項" type="条">
+                    <head ana="偶人"/>
+                    <note type="summary">条文概要</note>
+                    <p ana="項" corresp="engishiki.xml#item17103001 engishiki_en.xml#item17103001"
+                        xml:id="item17103001">本文</p>
+                </div>
+                <div ana="内匠" n="17.31" subtype="項" type="条">
+                    <head ana="伊勢初斎院"/>
+                    <note type="summary">条文概要</note>
+                    <p ana="項" corresp="engishiki.xml#item17103101 engishiki_en.xml#item17103101"
+                        xml:id="item17103101">本文</p>
+                    <p ana="項" corresp="engishiki.xml#item17103102 engishiki_en.xml#item17103102"
+                        xml:id="item17103102">本文</p>
+                    <p ana="項" corresp="engishiki.xml#item17103103 engishiki_en.xml#item17103103"
+                        xml:id="item17103103">本文</p>
+                    <p ana="項" corresp="engishiki.xml#item17103104 engishiki_en.xml#item17103104"
+                        xml:id="item17103104">本文</p>
+                    <p ana="項" corresp="engishiki.xml#item17103105 engishiki_en.xml#item17103105"
+                        xml:id="item17103105">本文</p>
+                    <p ana="項" corresp="engishiki.xml#item17103106 engishiki_en.xml#item17103106"
+                        xml:id="item17103106">本文</p>
+                    <p ana="項" corresp="engishiki.xml#item17103107 engishiki_en.xml#item17103107"
+                        xml:id="item17103107">本文</p>
+                    <p ana="項" corresp="engishiki.xml#item17103108 engishiki_en.xml#item17103108"
+                        xml:id="item17103108">本文</p>
+                    <p ana="項" corresp="engishiki.xml#item17103109 engishiki_en.xml#item17103109"
+                        xml:id="item17103109">本文</p>
+                    <p ana="項" corresp="engishiki.xml#item17103110 engishiki_en.xml#item17103110"
+                        xml:id="item17103110">本文</p>
+                    <p ana="項" corresp="engishiki.xml#item17103111 engishiki_en.xml#item17103111"
+                        xml:id="item17103111">本文</p>
+                    <p ana="項" corresp="engishiki.xml#item17103112 engishiki_en.xml#item17103112"
+                        xml:id="item17103112">本文</p>
+                    <p ana="項" corresp="engishiki.xml#item17103113 engishiki_en.xml#item17103113"
+                        xml:id="item17103113">本文</p>
+                    <p ana="項" corresp="engishiki.xml#item17103114 engishiki_en.xml#item17103114"
+                        xml:id="item17103114">本文</p>
+                    <p ana="項" corresp="engishiki.xml#item17103115 engishiki_en.xml#item17103115"
+                        xml:id="item17103115">本文</p>
+                    <p ana="項" corresp="engishiki.xml#item17103116 engishiki_en.xml#item17103116"
+                        xml:id="item17103116">本文</p>
+                    <p ana="項" corresp="engishiki.xml#item17103117 engishiki_en.xml#item17103117"
+                        xml:id="item17103117">本文</p>
+                    <p ana="項" corresp="engishiki.xml#item17103118 engishiki_en.xml#item17103118"
+                        xml:id="item17103118">本文</p>
+                    <p ana="項" corresp="engishiki.xml#item17103119 engishiki_en.xml#item17103119"
+                        xml:id="item17103119">本文</p>
+                    <p ana="項" corresp="engishiki.xml#item17103120 engishiki_en.xml#item17103120"
+                        xml:id="item17103120">本文</p>
+                    <p ana="項" corresp="engishiki.xml#item17103121 engishiki_en.xml#item17103121"
+                        xml:id="item17103121">本文</p>
+                    <p ana="項" corresp="engishiki.xml#item17103122 engishiki_en.xml#item17103122"
+                        xml:id="item17103122">本文</p>
+                    <p ana="項" corresp="engishiki.xml#item17103123 engishiki_en.xml#item17103123"
+                        xml:id="item17103123">本文</p>
+                    <p ana="項" corresp="engishiki.xml#item17103124 engishiki_en.xml#item17103124"
+                        xml:id="item17103124">本文</p>
+                </div>
+                <div ana="内匠" n="17.32" subtype="項" type="条">
+                    <head ana="野宮装束"/>
+                    <note type="summary">条文概要</note>
+                    <p ana="項" corresp="engishiki.xml#item17103201 engishiki_en.xml#item17103201"
+                        xml:id="item17103201">本文</p>
+                    <p ana="項" corresp="engishiki.xml#item17103202 engishiki_en.xml#item17103202"
+                        xml:id="item17103202">本文</p>
+                    <p ana="項" corresp="engishiki.xml#item17103203 engishiki_en.xml#item17103203"
+                        xml:id="item17103203">本文</p>
+                    <p ana="項" corresp="engishiki.xml#item17103204 engishiki_en.xml#item17103204"
+                        xml:id="item17103204">本文</p>
+                    <p ana="項" corresp="engishiki.xml#item17103205 engishiki_en.xml#item17103205"
+                        xml:id="item17103205">本文</p>
+                    <p ana="項" corresp="engishiki.xml#item17103206 engishiki_en.xml#item17103206"
+                        xml:id="item17103206">本文</p>
+                    <p ana="項" corresp="engishiki.xml#item17103207 engishiki_en.xml#item17103207"
+                        xml:id="item17103207">本文</p>
+                    <p ana="項" corresp="engishiki.xml#item17103208 engishiki_en.xml#item17103208"
+                        xml:id="item17103208">本文</p>
+                    <p ana="項" corresp="engishiki.xml#item17103209 engishiki_en.xml#item17103209"
+                        xml:id="item17103209">本文</p>
+                    <p ana="項" corresp="engishiki.xml#item17103210 engishiki_en.xml#item17103210"
+                        xml:id="item17103210">本文</p>
+                    <p ana="項" corresp="engishiki.xml#item17103211 engishiki_en.xml#item17103211"
+                        xml:id="item17103211">本文</p>
+                </div>
+                <div ana="内匠" n="17.33" subtype="項" type="条">
+                    <head ana="賀茂装束"/>
+                    <note type="summary">条文概要</note>
+                    <p ana="項" corresp="engishiki.xml#item17103301 engishiki_en.xml#item17103301"
+                        xml:id="item17103301">本文</p>
+                    <p ana="項" corresp="engishiki.xml#item17103302 engishiki_en.xml#item17103302"
+                        xml:id="item17103302">本文</p>
+                    <p ana="項" corresp="engishiki.xml#item17103303 engishiki_en.xml#item17103303"
+                        xml:id="item17103303">本文</p>
+                    <p ana="項" corresp="engishiki.xml#item17103304 engishiki_en.xml#item17103304"
+                        xml:id="item17103304">本文</p>
+                    <p ana="項" corresp="engishiki.xml#item17103305 engishiki_en.xml#item17103305"
+                        xml:id="item17103305">本文</p>
+                    <p ana="項" corresp="engishiki.xml#item17103306 engishiki_en.xml#item17103306"
+                        xml:id="item17103306">本文</p>
+                    <p ana="項" corresp="engishiki.xml#item17103307 engishiki_en.xml#item17103307"
+                        xml:id="item17103307">本文</p>
+                    <p ana="項" corresp="engishiki.xml#item17103308 engishiki_en.xml#item17103308"
+                        xml:id="item17103308">本文</p>
+                    <p ana="項" corresp="engishiki.xml#item17103309 engishiki_en.xml#item17103309"
+                        xml:id="item17103309">本文</p>
+                    <p ana="項" corresp="engishiki.xml#item17103310 engishiki_en.xml#item17103310"
+                        xml:id="item17103310">本文</p>
+                    <p ana="項" corresp="engishiki.xml#item17103311 engishiki_en.xml#item17103311"
+                        xml:id="item17103311">本文</p>
+                    <p ana="項" corresp="engishiki.xml#item17103312 engishiki_en.xml#item17103312"
+                        xml:id="item17103312">本文</p>
+                    <p ana="項" corresp="engishiki.xml#item17103313 engishiki_en.xml#item17103313"
+                        xml:id="item17103313">本文</p>
+                    <p ana="項" corresp="engishiki.xml#item17103314 engishiki_en.xml#item17103314"
+                        xml:id="item17103314">本文</p>
+                    <p ana="項" corresp="engishiki.xml#item17103315 engishiki_en.xml#item17103315"
+                        xml:id="item17103315">本文</p>
+                    <p ana="項" corresp="engishiki.xml#item17103316 engishiki_en.xml#item17103316"
+                        xml:id="item17103316">本文</p>
+                    <p ana="項" corresp="engishiki.xml#item17103317 engishiki_en.xml#item17103317"
+                        xml:id="item17103317">本文</p>
+                    <p ana="項" corresp="engishiki.xml#item17103318 engishiki_en.xml#item17103318"
+                        xml:id="item17103318">本文</p>
+                </div>
+                <div ana="内匠" n="17.34" subtype="項" type="条">
+                    <head ana="親王頓料"/>
+                    <note type="summary">条文概要</note>
+                    <p ana="項" corresp="engishiki.xml#item17103401 engishiki_en.xml#item17103401"
+                        xml:id="item17103401">本文</p>
+                </div>
+                <div ana="内匠" n="17.35" subtype="項" type="条">
+                    <head ana="位記料"/>
+                    <note type="summary">条文概要</note>
+                    <p ana="項" corresp="engishiki.xml#item17103501 engishiki_en.xml#item17103501"
+                        xml:id="item17103501">本文</p>
+                </div>
+                <div ana="内匠" n="17.36" subtype="項" type="条">
+                    <head ana="黄楊"/>
+                    <note type="summary">条文概要</note>
+                    <p ana="項" corresp="engishiki.xml#item17103601 engishiki_en.xml#item17103601"
+                        xml:id="item17103601">本文</p>
+                </div>
+                <div ana="内匠" n="17.37" subtype="項" type="条">
+                    <head ana="的"/>
+                    <note type="summary">条文概要</note>
+                    <p ana="項" corresp="engishiki.xml#item17103701 engishiki_en.xml#item17103701"
+                        xml:id="item17103701">本文</p>
+                </div>
+                <div ana="内匠" n="17.38" subtype="項" type="条">
+                    <head ana="番上工"/>
+                    <note type="summary">条文概要</note>
+                    <p ana="項" corresp="engishiki.xml#item17103801 engishiki_en.xml#item17103801"
+                        xml:id="item17103801">本文</p>
+                </div>
+                <div ana="内匠" n="17.39" subtype="項" type="条">
+                    <head ana="作物衣"/>
+                    <note type="summary">条文概要</note>
+                    <p ana="項" corresp="engishiki.xml#item17103901 engishiki_en.xml#item17103901"
+                        xml:id="item17103901">本文</p>
+                </div>
+                <div ana="内匠" n="17.40" subtype="項" type="条">
+                    <head ana="史生以下禄"/>
+                    <note type="summary">条文概要</note>
+                    <p ana="項" corresp="engishiki.xml#item17104001 engishiki_en.xml#item17104001"
+                        xml:id="item17104001">本文</p>
+                </div>
+                <div ana="内匠" n="17.41" subtype="項" type="条">
+                    <head ana="雑工"/>
+                    <note type="summary">条文概要</note>
+                    <p ana="項" corresp="engishiki.xml#item17104101 engishiki_en.xml#item17104101"
+                        xml:id="item17104101">本文</p>
+                </div>
+                <div ana="内匠" n="17.42" subtype="項" type="条">
+                    <head ana="典薬直"/>
+                    <note type="summary">条文概要</note>
+                    <p ana="項" corresp="engishiki.xml#item17104201 engishiki_en.xml#item17104201"
+                        xml:id="item17104201">本文</p>
+                </div>
+                <div ana="内匠" n="17.43" subtype="項" type="条">
+                    <head ana="六衛府直"/>
+                    <note type="summary">条文概要</note>
+                    <p ana="項" corresp="engishiki.xml#item17104301 engishiki_en.xml#item17104301"
+                        xml:id="item17104301">本文</p>
+                </div>
+                <div ana="内匠" n="17.44" subtype="項" type="条">
+                    <head ana="縫物"/>
+                    <note type="summary">条文概要</note>
+                    <p ana="項" corresp="engishiki.xml#item17104401 engishiki_en.xml#item17104401"
+                        xml:id="item17104401">本文</p>
+                </div>
+                <div ana="内匠" n="17.45" subtype="項" type="条">
+                    <head ana="不仕"/>
+                    <note type="summary">条文概要</note>
+                    <p ana="項" corresp="engishiki.xml#item17104501 engishiki_en.xml#item17104501"
+                        xml:id="item17104501">本文</p>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>
