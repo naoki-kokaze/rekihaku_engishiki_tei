@@ -1,0 +1,709 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>延喜式ファイル</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>国立歴史民俗博物館メタ資料学研究センター</publisher>
+                <idno type="PID">o:depcha.engi_shiki.1</idno>
+                <availability>
+                    <p/>
+                </availability>
+                <date when="2020-03-31">31 March 2020</date>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <settlement>千葉県佐倉市</settlement>
+                        <repository>国立歴史民俗博物館</repository>
+                        <collection>集英社版延喜式</collection>
+                    </msIdentifier>
+                    <msContents>
+                        <msItem>
+                            <author>藤原時平・藤原忠平</author>
+                            <title>延喜式</title>
+                            <note>
+                                <p>ここに史料の説明が入る。</p>
+                            </note>
+                        </msItem>
+                    </msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <variantEncoding method="location-referenced" location="external"/>
+        </encodingDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div ana="内匠" n="17" subtype="条" type="式">
+                <head>the Royal Craft Bureau</head>
+                <div ana="内匠" n="17.1" subtype="項" type="条">
+                    <head ana="大極殿飾"/>
+                    <note type="summary">Regulations on Preparation for New Year's Day Celebration
+                        Ritual</note>
+                    <p ana="項" corresp="engishiki.xml#item17100101 engishiki_ja.xml#item17100101"
+                        xml:id="item17100101">On the first day of every year, in preparation for the
+                        ceremony of the Emperor receiving congratulations from his subjects,
+                        officials from the Royal Craft Bureau led the official woodworkers and
+                        various craftsmen the day before to decorate <seg xml:id="note1710010101"
+                            >the Throne</seg> of the <seg xml:id="note1710010102">Daigokuden</seg>
+                        Hall.（the canopy is made into an octagonal shape, with a small phoenix
+                        statue on each corner and a jade banner suspended below. Three mirrors are
+                        attached to each of the eight sides of the canopy, and one large mirror is
+                        attached to the top. Set up a large statue of a phoenix on top of the
+                        canopy. In total, there are nine phoenix statues and twenty-five mirrors.
+                        Twelve drapery stands are set up in the east and west quadrants of the
+                        throne to divide the space.） Also, in the south garden of the Daigoku-den,
+                        set up two large whitish bronze furnaces.（equipped with a stand and placed
+                        in an iron fire bag.） They should be placed 10 jō south of the central
+                        stairs of the Daigokuden, and 6 jō east and west of each other. Also,
+                        dispatch a craftsman to the place where the banner of the crow statue and
+                        the banner of the treasure are to be placed. The same should be done when
+                        receiving foreign envoys. Items to decorate the throne on New Year's Day
+                        should be stored in the Royal Storehouse Bureau and taken out for use. Store
+                        the drapery stand and furnace in the Royal Craft Bureau. </p>
+                    <note type="translatorsNotes" target="#note1710010101">The original text is
+                        "Takamikura". It is the symbol of the emperor's throne and is used for
+                        accession to the throne and state ceremonies.</note>
+                    <note type="translatorsNotes" target="#note1710010102">The main hall of the main
+                        government office where government affairs and ceremonies are held. The name
+                        comes from a word meaning the center of the sky.</note>
+                </div>
+                <div ana="内匠" n="17.2" subtype="項" type="条">
+                    <head ana="御斎会"/>
+                    <note type="summary">Regulations Concerning the High Seat of Monk Used in New
+                        Year's Buddhist Rituals</note>
+                    <p ana="項" corresp="engishiki.xml#item17100201 engishiki_ja.xml#item17100201"
+                        xml:id="item17100201">To prepare for <seg xml:id="note1710010201">New Year's
+                            Buddhist Rituals</seg>, on the day before the ritual, the official
+                        craftsmen should lead various craftsmen, and carry the parts for the monks'
+                        seats from the Library Bureau and assemble them in the Daigokuden. Return it
+                        to the Library Bureau after the ceremony. </p>
+                    <note type="translatorsNotes" target="#note1710010201">A Buddhist event to be
+                        held in the palace from January 8th to 14th. It is called "Gosaie".</note>
+                </div>
+                <div ana="内匠" n="17.3" subtype="項" type="条">
+                    <head ana="諸節"/>
+                    <note type="summary">Regulations on Setting Up for the Official Ceremony
+                        Days</note>
+                    <p ana="項" corresp="engishiki.xml#item17100301 engishiki_ja.xml#item17100301"
+                        xml:id="item17100301">To prepare for <seg xml:id="note1710030101">the
+                            official ceremony days</seg>, on the day before the ceremony, an
+                        official from the Royal Craft Bureau led a group of various craftsmen to
+                        erect six soft-sided stands to partition the space of the throne in the <seg
+                            xml:id="note1710030102">Burakuden</seg> Hall.（Three of them will be set
+                        up in the three sections east of the throne, and one will be set up in the
+                        one section west of the throne.The two units will be placed in two sections
+                        on the west side of the main building.） For the <seg xml:id="note1710030103"
+                            >Koadono</seg>, use Shinano cloth as a partition and cover for the east
+                        side, and remove it after the ceremony. The size of the mudguard board to be
+                        placed on the stage shall be 3 jō square, and have the Painting Studio draw
+                        it two days before the Emperor's visit. However, when foreign envoys are
+                        participating in the ceremony, the painting should be 6 jō square. </p>
+                    <note type="translatorsNotes" target="#note1710030101">Court holidays with
+                        ceremonies and feasts. It is called "Setchi" or "Setie".</note>
+                    <note type="translatorsNotes" target="#note1710030102">The main hall of the
+                        facility where national feasts are held.</note>
+                    <note type="translatorsNotes" target="#note1710030103">The building behind
+                        Daigokuden, where the emperor takes a rest.</note>
+                </div>
+                <div ana="内匠" n="17.4" subtype="項" type="条">
+                    <head ana="五月五日"/>
+                    <note type="summary">Regulations concerning the set-up of the May 5th Official
+                        Ceremony held at Butokuden Hall and the rituals held at Shinsenen
+                        Park</note>
+                    <p ana="項" corresp="engishiki.xml#item17100401 engishiki_ja.xml#item17100401"
+                        xml:id="item17100401">As for preparations for <seg xml:id="note1710040101"
+                            >the May 5th Official Ceremony</seg>, assemble the throne canopy stand
+                        in the <seg xml:id="note1710040102">Butokuden</seg> Hall the day before. In
+                        addition, there should be two soft-sided stands dividing the space of the
+                        throne.（Stand in two sections on the west side, south of the throne
+                        platform.） The same should be done for <seg xml:id="note1710040103"
+                            >Shinsenen</seg> Park. However, in Shinsenen, there should be no more
+                        than 10 soft-sided stands.（Five units will be set up on the east and west
+                        sides of the throne canopy stand.） </p>
+                    <note type="translatorsNotes" target="#note1710040101">Court holidays with
+                        ceremonies and feasts. It is called "Setchi" or "Setie".</note>
+                    <note type="translatorsNotes" target="#note1710040102">The main hall of the
+                        facility where national feasts are held.</note>
+                    <note type="translatorsNotes" target="#note1710040103">The building behind
+                        Daigokuden, where the emperor takes a rest.</note>
+                </div>
+                <div ana="内匠" n="17.5" subtype="項" type="条">
+                    <head ana="銀器"/>
+                    <note type="summary">Materials and Labor Required to Manufacture
+                        Silverware</note>
+                    <p ana="項" corresp="engishiki.xml#item17100501 engishiki_ja.xml#item17100501"
+                        xml:id="item17100501">Silverware <lb/>For the production of a silver bowl
+                        for serving rice (caliber 6 sun, depth 1 sun 7 bu ) , silver, 2 large kin 8
+                        ryō ; charcoal, 1 koku 2 to ; charcoal for blacksmithing, 2 koku ; oil, 3 gō
+                        5 shaku. <seg xml:id="note1710050101">The total number of workers</seg> in <seg xml:id="note1710050102">months with long days</seg> is 16 (5
+                        foundry workers, 4 lathe workers, 3 polishers, 4 miscellaneous workers) , in
+                        <seg xml:id="note1710050103">months with normal days</seg> is 19 (14 workers , 5 miscellaneous workers) , and
+                        in <seg xml:id="note1710050104">months with short days</seg> is 22 (16 workers , 6 miscellaneous workers) .</p>
+                    <note type="translatorsNotes" target="#note1710050101">In terms of the amount of work to be completed in a day.</note>
+                    <note type="translatorsNotes" target="#note1710050102">From April to July.</note>
+                    <note type="translatorsNotes" target="#note1710050103">From February, March, August, and September.</note>
+                    <note type="translatorsNotes" target="#note1710050104">From October to New Year.</note>
+                    <p ana="項" corresp="engishiki.xml#item17100502 engishiki_ja.xml#item17100502"
+                        xml:id="item17100502">For the production of a sake jar (capacity 1 to 5 shō)
+                        , silver, 7 large kin 8 ryō ; charcoal, 2 koku ; charcoal for blacksmithing,
+                        7 koku 5 to ; oil, 8 gō 6 shaku. The total number of workers in months with
+                        long days is 34 (12 foundry workers, 6 lathe workers, 4 polishers, 12
+                        miscellaneous workers) , in months with normal days is 39 (26 craftsmen , 13
+                        miscellaneous workers) , and in months with short days is 43 (29 craftsmen ,
+                        14 miscellaneous workers).</p>
+                    <p ana="項" corresp="engishiki.xml#item17100503 engishiki_ja.xml#item17100503"
+                        xml:id="item17100503">For the production of a ladle (handle length: 1 shaku
+                        7 sun, capacity 3 gō) , silver, 10 large ryō ; charcoal for blacksmithing, 7
+                        to ; oil, 7 shaku. The total number of workers in months with long days is
+                        4(1 foundry workers, 3 polishers) , in months with normal days is 4.5 , and
+                        in months with short days is 5.</p>
+                    <p ana="項" corresp="engishiki.xml#item17100504 engishiki_ja.xml#item17100504"
+                        xml:id="item17100504">For the production of a sake stand (high 6 sun 3 bu,
+                        wide 6 sun 3 bu ), silver, 1 large kin 4 ryō ; charcoal, 6 to ; charcoal for
+                        blacksmithing, 1 koku 3 to ; oil, 1 gō. The total number of workers in
+                        months with long days is 10 (5 foundry workers, 1 lathe workers, 2
+                        polishers, 2 miscellaneous workers) , in months with normal days is 12 (9.5
+                        craftsmen , 2.5 miscellaneous workers) , and in months with short days is 13
+                        and 2/3 workers (11 craftsmen, 2 and 2/3 miscellaneous workers).</p>
+                    <p ana="項" corresp="engishiki.xml#item17100505 engishiki_ja.xml#item17100505"
+                        xml:id="item17100505">For the production of a sake cup (capacity 3 gō, with
+                        a lid and bottom plate) , silver, 1 large kin ; charcoal, 6 to ; charcoal
+                        for blacksmithing, 1 koku 2 to ; oil, 1 gō 5 shaku. The total number of
+                        workers in months with long days is 10 (2 foundry workers, 3 lathe workers,
+                        2 polishers, 3 miscellaneous workers), in months with normal days is 11 (8
+                        craftsmen, 3 miscellaneous workers) , and in months with short days is 12 (9
+                        craftsmen, 3 miscellaneous workers).</p>
+                    <p ana="項" corresp="engishiki.xml#item17100506 engishiki_ja.xml#item17100506"
+                        xml:id="item17100506">For the production of a water bowl (diameter 6 sun 5
+                        bu, depth 1 sun 5 bu) , silver, 1 large kin 2 ryō ; charcoal, 5 to ;
+                        charcoal for blacksmithing, 1 koku 2 to ; oil, 1 gō 5 shaku. The total
+                        number of workers in months with long days is 9 (2.5 foundry workers, 2.5
+                        lathe workers, 2 polishers, 2 miscellaneous workers), in months with normal
+                        days is 17.5 (12 and 2/3 craftsmen, 4 and 2/3 miscellaneous workers) , and
+                        in months with short days is 12 (10 craftsmen, 2 miscellaneous workers).</p>
+                    <p ana="項" corresp="engishiki.xml#item17100507 engishiki_ja.xml#item17100507"
+                        xml:id="item17100507">For the production of a dish (caliber 7 sun 5 bu) ,
+                        silver, 1 large 14 ryō ; charcoal, 4 to ; charcoal for blacksmithing, 8 to ;
+                        oil, 1 gō 6 shaku. The total number of workers in months with long days is 7
+                        (2 foundry workers, 2 lathe workers, 1 polishers, 2 miscellaneous workers) ,
+                        in months with normal days is 7 and 1/3, and in months with short days is 7
+                        and 2/3. </p>
+                </div>
+                <div ana="内匠" n="17.6" subtype="項" type="条">
+                    <head ana="漆器"/>
+                    <note type="summary">天皇が使用する容器類の漆塗りに必要な物品と作業量</note>
+                    <p ana="項" corresp="engishiki.xml#item17100601 engishiki_ja.xml#item17100601"
+                        xml:id="item17100601">天皇がお使いになる様々な漆器
+                        <lb/>膳櫃一合〈長さ三尺三寸、深さ八寸五分、幅二尺三寸〉、脚付きの台一脚〈長さ五尺四寸、幅二尺四寸、高さ一尺七寸〉、これらを赤漆で塗るために必要な物品は、漆一升二合、エゴマ油四合、真綿六両、絁・布それぞれ一尺二寸、炭一斗五升。作業量は、一日で仕上げる労働量に換算した場合、六人と二分の一人。 </p>
+                    <p ana="項" corresp="engishiki.xml#item17100602 engishiki_ja.xml#item17100602"
+                        xml:id="item17100602"
+                        >手湯戸一口〈周りの長さ五尺八寸五分、高さ二尺五寸五分〉・蓋一枚〈周りの長さ三尺五分〉の漆塗りに必要な物品は、漆三升、掃墨五合、貲布九尺、真綿一斤四両、絁・布それぞれ一尺二寸、油二合。作業量は五人と三分の二人。 </p>
+                    <p ana="項" corresp="engishiki.xml#item17100603 engishiki_ja.xml#item17100603"
+                        xml:id="item17100603"
+                        >水槽一口〈周りの長さ三尺五寸、高さ一尺二寸五分〉の漆塗りに必要な物品は、漆一升一合、貲布四尺、掃墨三合、真綿一〇両、絁・布それぞれ一尺二寸、油二合、炭一斗。作業量は二人。 </p>
+                    <p ana="項" corresp="engishiki.xml#item17100604 engishiki_ja.xml#item17100604"
+                        xml:id="item17100604"
+                        >手洗槽一口〈周りの長さ七尺一寸、高さ九寸。以上の膳櫃から手洗槽までの四種は木工寮が製作する〉の漆塗りに必要な物品は、漆二升五合、貲布八尺五寸、掃墨五合、真綿一斤、絁・布それぞれ一尺二寸、油二合、炭二斗。作業量は四人。 </p>
+                    <p ana="項" corresp="engishiki.xml#item17100605 engishiki_ja.xml#item17100605"
+                        xml:id="item17100605"
+                        >大椀一口〈口径八寸六分、深さ三寸〉の漆塗りに必要な物品は、漆一合七夕、貲布一尺、掃墨四夕、真綿二両。作業量は二分の一人。 </p>
+                    <p ana="項" corresp="engishiki.xml#item17100606 engishiki_ja.xml#item17100606"
+                        xml:id="item17100606"
+                        >中椀一口〈口径七寸八分、深さ二寸〉の漆塗りに必要な物品は、漆一合四夕、貲布九寸、掃墨四夕、真綿二両。作業量は二分の一人。 </p>
+                    <p ana="項" corresp="engishiki.xml#item17100607 engishiki_ja.xml#item17100607"
+                        xml:id="item17100607">盤一枚〈口径八寸〉の漆塗りに必要な物品は、漆一合一夕、貲布五寸、掃墨三夕。作業量は二分の一人。 </p>
+                    <p ana="項" corresp="engishiki.xml#item17100608 engishiki_ja.xml#item17100608"
+                        xml:id="item17100608">窪杯一口〈口径五寸、深さ一寸五分〉の漆塗りに必要な物品は、漆七夕、貲布三寸、掃墨二夕。作業量は三分の一人。
+                    </p>
+                </div>
+                <div ana="内匠" n="17.7" subtype="項" type="条">
+                    <head ana="朱漆器"/>
+                    <note type="summary">朱漆の器物の漆塗りに必要な物品と作業量</note>
+                    <p ana="項" corresp="engishiki.xml#item17100701 engishiki_ja.xml#item17100701"
+                        xml:id="item17100701">朱漆の器
+                        <lb/>台盤一面〈長さ八尺、幅三尺三寸三分〉の漆塗りに必要な物品は、漆一斗一升二合、朱沙一斤四両、帛四尺、真綿三斤一二両、貲布二丈、調布六尺、掃墨二升、油二合、小麦一升、青砥・伊予砥〈その数は実際の使用数に従う。これ以降の条文で個数を明記しないものもまたこれに準ずる〉、炭一石。作業量は、一日で仕上げる労働量に換算した場合、日が長い四～七月は三八人、二・三・八・九月は四四人、日が短い十～正月は五〇人。 </p>
+                    <p ana="項" corresp="engishiki.xml#item17100702 engishiki_ja.xml#item17100702"
+                        xml:id="item17100702"
+                        >台盤一面〈長さ四尺、幅三尺二寸五分〉の漆塗りに必要な物品は、漆五升六合、朱沙一〇両、帛二尺、真綿二斤、貲布一丈、調布三尺、掃墨一升、油一合、小麦五合、青砥・伊予砥、炭五斗。作業量は、日が長い四～七月は一九人、二・三・八・九月は二二人、日が短い十～正月は二五人。 </p>
+                    <p ana="項" corresp="engishiki.xml#item17100703 engishiki_ja.xml#item17100703"
+                        xml:id="item17100703"
+                        >長さ八尺の台盤の台一脚〈長さ七尺六分、幅二尺五寸七分、高さ一尺五寸五分〉の漆塗りに必要な物品は、漆五升、絹一尺五寸、布二尺、真綿一斤一〇両、掃墨一升、油二合、細布五尺〈貼り付けに用いる〉、伊予砥・青砥それぞれ三分の一個、炭五斗。作業量は、延べ二五人。 </p>
+                    <p ana="項" corresp="engishiki.xml#item17100704 engishiki_ja.xml#item17100704"
+                        xml:id="item17100704"
+                        >長さ四尺の台盤の台一脚〈長さ三尺二寸、幅二尺三寸、高さ一尺五寸五分〉の漆塗りに必要な物品は、漆二升五合、絹・布それぞれ一尺、真綿一三両、掃墨五合、油一合、細布三尺〈貼り付けに用いる〉、伊予砥・青砥それぞれ三分の一個、炭二斗五升。作業量は、延べ一三人。 </p>
+                    <p ana="項" corresp="engishiki.xml#item17100705 engishiki_ja.xml#item17100705"
+                        xml:id="item17100705"
+                        >酒海一合〈容量は一斗五升〉の漆塗りに必要な物品は、漆一升六合、朱沙六両、貲布五尺、絁・布それぞれ二尺、真綿八両、掃墨二合、油一合。作業量は、日が長い四～七月は三四人、二・三・八・九月は四〇人、日が短い十～正月は四六人。 </p>
+                    <p ana="項" corresp="engishiki.xml#item17100706 engishiki_ja.xml#item17100706"
+                        xml:id="item17100706"
+                        >花盤一枚〈口径九寸〉の漆塗りに必要な物品は、漆一合五夕二撮、朱沙一分四銖、貲布九寸、絁・布それぞれ二寸、真綿三分、掃墨二夕、油一夕。作業量は、日が長い四～七月は一人と三分の二人、二・三・八・九月は二人、日が短い十～正月は二人と三分の一人。 </p>
+                    <p ana="項" corresp="engishiki.xml#item17100707 engishiki_ja.xml#item17100707"
+                        xml:id="item17100707"
+                        >ご飯を盛る椀一口〈口径八寸〉の漆塗りに必要な物品は、漆一合二夕、朱沙一分、貲布五寸、絁・布それぞれ一寸、真綿三分、掃墨二夕、油一夕、炭一升。作業量は、日が長い四～七月は一人と三分の二人、二・三・八・九月は二人、日が短い十～正月は二人と三分の一人。 </p>
+                    <p ana="項" corresp="engishiki.xml#item17100708 engishiki_ja.xml#item17100708"
+                        xml:id="item17100708"
+                        >お吸い物用の椀一口〈口径七寸〉の漆塗りに必要な物品は、漆一合二夕、朱沙一分、貲布五寸、絁・布それぞれ一寸、真綿三分、掃墨二夕、油一夕、炭一升。作業量は、日が長い四～七月は一人と三分の一人、二・三・八・九月は一人と三分の二人、日が短い十～正月は二人。 </p>
+                    <p ana="項" corresp="engishiki.xml#item17100709 engishiki_ja.xml#item17100709"
+                        xml:id="item17100709"
+                        >食器等をのせる擎子一口〈径七寸〉の漆塗りに必要な物品は、漆一合一夕、朱沙一分、貲布五寸、絁・布それぞれ一寸、真綿二分、掃墨一夕、油一夕、炭一升。作業量は、日が長い四～七月は一人、二・三・八・九月は一人と三分の一人、日が短い十～正月は一人と三分の二人。 </p>
+                    <p ana="項" corresp="engishiki.xml#item17100710 engishiki_ja.xml#item17100710"
+                        xml:id="item17100710"
+                        >盞一口〈口径五寸〉の漆塗りに必要な物品は、漆七夕、朱沙一分、貲布二寸四分、絁・布それぞれ一寸、真綿二分、掃墨一夕、油一夕、炭一升。作業量は、日が長い四～七月は一人、二・三・八・九月は一人と三分の一人、日が短い十～正月は一人と三分の二人。 </p>
+                    <p ana="項" corresp="engishiki.xml#item17100711 engishiki_ja.xml#item17100711"
+                        xml:id="item17100711"
+                        >盤一枚〈口径八寸〉の漆塗りに必要な物品は、漆一合一夕、朱沙一分、貲布五寸、絁・布それぞれ一寸、真綿二両、掃墨一夕、油一夕、炭一升。作業量は、日が長い四～七月は一人、二・三・八・九月は一人と二分の一人、日が短い十～正月は二人。 </p>
+                    <p ana="項" corresp="engishiki.xml#item17100712 engishiki_ja.xml#item17100712"
+                        xml:id="item17100712"
+                        >盤一枚〈口径七寸〉の漆塗りに必要な物品は、漆一合、朱沙一分、貲布四寸、絁・布それぞれ一寸、真綿二分、掃墨一夕、油一夕、炭一升。作業量は、日が長い四～七月は一人、二・三・八・九月は一人と二分の一人、日が短い十～正月は二人。 </p>
+                    <p ana="項" corresp="engishiki.xml#item17100713 engishiki_ja.xml#item17100713"
+                        xml:id="item17100713"
+                        >盤一枚〈口径六寸〉の漆塗りに必要な物品は、漆七夕、朱沙一分、貲布二寸四分、絁・布それぞれ一寸、真綿二分、掃墨一夕、油一夕、炭一升。作業量は、日が長い四～七月は一人、二・三・八・九月は一人と三分の一人、日が短い十～正月は一人と三分の二人。 </p>
+                    <p ana="項" corresp="engishiki.xml#item17100714 engishiki_ja.xml#item17100714"
+                        xml:id="item17100714"
+                        >盤一枚〈口径五寸〉の漆塗りに必要な物品は、漆六夕、朱沙一分、貲布二寸、絁・布それぞれ一寸、真綿一分、掃墨一夕、油一夕、炭一升。作業量は、日が長い四～七月は一人、二・三・八・九月は一人と三分の一人、日が短い十～正月は一人と三分の二人。
+                    </p>
+                </div>
+                <div ana="内匠" n="17.8" subtype="項" type="条">
+                    <head ana="瓜刀"/>
+                    <note type="summary">瓜を割る小刀の製造に必要な物品と作業量</note>
+                    <p ana="項" corresp="engishiki.xml#item17100801 engishiki_ja.xml#item17100801"
+                        xml:id="item17100801"
+                        >瓜を割る小刀二〇本〈刃の長さは五寸。毎年五月一日・七月一日の二度、楊筥一合に入れて進上する。筥は所定の年間製造数の中から用いる〉の製造に必要な物品は、堅い鉄大六斤四両、膠小一二両、木賊小八両、伊予砥二個、ヒノキの材三分の一本〈鞘の材料〉、紙一〇枚〈小刀の筥に敷く〉、和炭三斛。作業量は、延べ七五人〈工七〇人、夫五人〉。
+                    </p>
+                </div>
+                <div ana="内匠" n="17.9" subtype="項" type="条">
+                    <head ana="革筥"/>
+                    <note type="summary">毎年一定数を納める革筥の製造に必要な物品と作業量</note>
+                    <p ana="項" corresp="engishiki.xml#item17100901 engishiki_ja.xml#item17100901"
+                        xml:id="item17100901"
+                        >毎年製造する革筥は二〇合。このうち夜着を入れる筥四合〈二合はそれぞれ長さ二尺、幅一尺八寸五分、深さ五寸。二合はそれぞれ長さ二尺、幅一尺七寸、深さ四寸〉、衣の筥六合〈雁鼻。それぞれ長さ一尺五寸五分、幅一尺三寸、深さ二寸五分〉、刀を下げる緒の筥一合〈長さ一尺二寸二分、幅一尺一寸二分、深さ二寸〉、手ぬぐいの筥二合〈それぞれ一尺二分四方、深さ八分〉、唾巾の筥二合〈それぞれ長さ一尺五分、幅八寸、深さ八分〉、櫛の筥四合〈それぞれ長さ一尺一寸五分、幅一尺三寸、深さ一寸五分〉、小刀の筥一合〈雁鼻。長さ一尺二寸、幅一尺、深さ一寸二分〉。これらの製造に必要な物品は、牛の皮一〇枚〈それぞれ長さ八尺以下七尺以上〉、鹿の皮一〇枚〈それぞれ長さ五尺以上〉、漆六斗六升四合、熟麻二〇斤七両〈革を張る縄に用いる〉、帛一丈五尺、石見の庸の真綿二二斤一〇両、掃墨二斗四合、貼り付けに用いる信濃調布四端二丈五尺、小麦二斗四合、伊予砥五個、青砥四枚、橡の絁一疋三丈〈革筥工三人の衣・袴に用いる〉、苧四斤九両〈革筥の縁に用いる〉、絹六尺四寸、油三升三合、鉄二廷〈皮焼と皮刀に用いる〉、調布八尺八寸、炭九斛二斗五升、和炭二斛二斗三升、歩板六枚〈筥の成形に用いる〉。作業量は、延べ七六一人〈工七一〇人、夫五一人〉。
+                    </p>
+                </div>
+                <div ana="内匠" n="17.10" subtype="項" type="条">
+                    <head ana="柳筥"/>
+                    <note type="summary">毎年一定数を納める柳筥の製造に必要な物品と作業量</note>
+                    <p ana="項" corresp="engishiki.xml#item17101001 engishiki_ja.xml#item17101001"
+                        xml:id="item17101001"
+                        >毎年製造する柳筥一六八合〈一尺六寸以下一尺以上〉に必要な物品は、ヤナギ一〇三連〈山城国が進上する〉、筥の編み上げに用いる生糸一二斤、拭き取りに用いる調布一丈、ヤナギの水漬けに用いる商布一段。作業量は、一日で仕上げる労働量に換算した場合、日が長い四～七月は三三六人〈工〉、二・三・八・九月は三九二人、日が短い十～正月は四四八人。
+                    </p>
+                </div>
+                <div ana="内匠" n="17.11" subtype="項" type="条">
+                    <head ana="年料屏風"/>
+                    <note type="summary">毎年一定数を納める屏風の骨組みの製造に必要な材料と作業量</note>
+                    <p ana="項" corresp="engishiki.xml#item17101101 engishiki_ja.xml#item17101101"
+                        xml:id="item17101101"
+                        >毎年製造する高さ五尺の屏風五〇帖の骨組みに必要な物品は、スギの材木は大七五本〈一本半を一帖に充てる。五〇本は近江国が進上し、二五本は天皇への上奏を必要とする請求〉、ヒノキの材木一〇本〈七本は枠木一二〇〇本に用いる。三本は釘を鋳造する鋳型を成型するための押形に用いる〉、波多板四枚〈鋳物の押形の製作に用いる〉、純度の高い銅一三二斤一三両二分〈三九斤一三両二分は角金具一二〇〇枚の製作に用いる。一二両を二四枚分に充て、斤ごとに損分として一両を加える。九三斤は長さ五分の花釘一八六〇〇本の鋳造に用いる。一斤で二〇〇本を製作することができる〉、金アマルガム一〇三両四銖〈五〇両は角金具の金メッキに用いる。一両を二四枚分に充てる。五三両四銖は花形の釘の金メッキに用いる。一両を三五〇本分に充てる〉、銀アマルガム二五両二分〈角金具の文様の一部の銀メッキに用いる。二分を二四枚分に充てる〉、水銀八三両二分二銖〈二五両は角金具の金メッキに用いる。三九両三分二銖は釘の金メッキに用いる。一八両三分は銀と混ぜて銀アマルガムの製作に用いる〉、鉄四廷〈三廷は釘を鋳造する湯鑵に用いる。一廷は釘を鋳造する押形の補強に用いる〉、漆一斗二升五合〈二合五夕を枠木二四本分に充てる〉、絹一丈、布二端二丈、石見の真綿四斤二両、麻大一〇斤、掃墨四升、油一升、酢九升三合、猪の毛一〇把、矢竹一五〇株〈花形の釘の金メッキに用いる〉、筆一五本〈角金具の作画に用いる〉、墨二廷、〈筆と同じ用途〉、洗革四枚、伊予砥七個、青砥三枚、炭七一斛七斗、和炭六七斛九斗。作業量は、延べ二〇八四人〈骨組みを作る工二五〇人。一帖の製作に五人を充てる。角金具を作る工一三〇〇人の内訳は、角金具を鍛造する工人四〇〇人、やすりがけ・研磨を行う工人四〇〇人、銀メッキ・彫金・磨き上げを行う工人五〇〇人。花形の釘を作る四三四人の内訳は、釘を鋳造する工人六二人、やすりがけを行う工人三一〇人、金メッキと磨き上げを行う工人六二人。夫一〇〇人〉。
+                    </p>
+                </div>
+                <div ana="内匠" n="17.12" subtype="項" type="条">
+                    <head ana="年料几帳"/>
+                    <note type="summary">毎年一定数を納める几帳の骨組みの製造に必要な材料と作業量</note>
+                    <p ana="項" corresp="engishiki.xml#item17101201 engishiki_ja.xml#item17101201"
+                        xml:id="item17101201"
+                        >毎年製造する几帳八基〈高さ四尺のもの四基、三尺のもの四基〉の骨組みに必要な物品は、ヒノキの材木八本〈柱を立てる台と柱・横木に用いる。内匠寮が管理する山林から調達する〉、純度の高い銅一四両、金アマルガム一両一分、水銀二分、漆二升、帛一尺二寸、絹二尺、布一尺二寸、石見の真綿一〇両、掃墨六合、油三合、伊予砥半個、青砥一枚、炭八斗、和炭一斛。作業量は、延べ七七人〈木工三〇人、漆工三二人、金物工一五人〉。
+                    </p>
+                </div>
+                <div ana="内匠" n="17.13" subtype="項" type="条">
+                    <head ana="御鏡"/>
+                    <note type="summary">天皇の鏡の製造に必要な物品と作業量</note>
+                    <p ana="項" corresp="engishiki.xml#item17101301 engishiki_ja.xml#item17101301"
+                        xml:id="item17101301"
+                        >天皇の鏡一面〈七寸四方〉の製造に必要な物品は、純度の高い銅大四斤、錫大一斤四両、銀大一二両、熬炭五斗、和炭五斗、伊予砥、青砥、鉄精二分、帛二尺五寸、真綿四両、調布二尺、油一合。作業量は、一日で仕上げる労働量に換算した場合、日が長い四～七月は二二人〈鋳造工二人、研磨工一八人、夫二人〉、二・三・八・九月は二五人と三分の二人〈工二三人と三分の一人、夫二人と三分の一人〉、日が短い十～正月は二九人と三分の一人〈工二七人、夫二人と三分の一人〉。
+                    </p>
+                </div>
+                <div ana="内匠" n="17.14" subtype="項" type="条">
+                    <head ana="御帯"/>
+                    <note type="summary">メノウを用いた天皇の腰帯の製造に必要な物品と作業量</note>
+                    <p ana="項" corresp="engishiki.xml#item17101401 engishiki_ja.xml#item17101401"
+                        xml:id="item17101401"
+                        >メノウを用いた天皇の腰帯一条〈六道〉の製造に必要な物品は、馬の革一条〈長さ七尺、幅六寸〉、縫製に用いる生糸一分、拭き取りに用いる調布五寸、革帯の上下の縁に入れる苧小一両、革を張る縄に用いる麻小七両、貼り付けに用いる米一合、革のなめしに用いる油一合、塩三合、糟三升、染めに用いる酢一合、漆三夕、炭五升、帯を飾る石一個〈四寸四方〉、石の加工に用いる大坂の沙一石、鉄三廷半、裏側の座金と留め金に用いる銀大六両。作業量は、一日で仕上げる労働量に換算した場合、日が長い四～七月は一七五人〈革工七人、石工七二人、銀工一五人、夫八一人〉、二・三・八・九月は二〇四人と三分の一人〈工一〇九人と三分の二人、夫九四人と二分の一人〉、日が短い十～正月は二三三人と三分の一人〈工一二五人と三分の一人、夫一〇八人〉。
+                    </p>
+                </div>
+                <div ana="内匠" n="17.15" subtype="項" type="条">
+                    <head ana="御大刀"/>
+                    <note type="summary">天皇が佩用する大刀の製造に必要な物品と作業量</note>
+                    <p ana="項" corresp="engishiki.xml#item17101501 engishiki_ja.xml#item17101501"
+                        xml:id="item17101501"
+                        >天皇が佩用する大刀一口の製造に必要な物品は、堅い鉄一〇斤五両、装飾に用いる銀大五両、鮫の皮一条〈長さ六寸、幅三寸五分〉、シイの材一本〈長さ二尺五寸、幅三寸、厚さ一寸〉、鹿の革一条〈長さ三尺五寸、幅七寸〉、膠小二両、漆二合、漆の濾過に用いる帛二尺、真綿六両、調布三尺。作業量は、一日で仕上げる労働量に換算した場合、日が長い四～七月は四三人〈鉄工一八人、銀工九人、革工二人、漆工六人、夫八人〉、二・三・八・九月は五〇人と三分の一人〈工四一人、夫九人と三分の一人〉、日が短い十～正月は五七人と二分の一人〈工四七人、夫一〇人と二分の一人〉。
+                    </p>
+                </div>
+                <div ana="内匠" n="17.16" subtype="項" type="条">
+                    <head ana="内印"/>
+                    <note type="summary">天皇御璽の製造に必要な物品と作業量</note>
+                    <p ana="項" corresp="engishiki.xml#item17101601 engishiki_ja.xml#item17101601"
+                        xml:id="item17101601"
+                        >天皇御璽一面の製造に必要な物品は、純度の高い銅大一斤八両、錫大三両、蜜蠟大三両、調布二尺、炭三斗、和炭二斗。作業量は、一日で仕上げる労働量に換算した場合、日が長い四～七月は七人〈蜜蠟で型を取る工二人、鋳造工二人、研磨工三人〉、二・三・八・九月は八人と三分の一人、日が短い十～正月は九人と三分の二人。
+                    </p>
+                </div>
+                <div ana="内匠" n="17.17" subtype="項" type="条">
+                    <head ana="外印"/>
+                    <note type="summary">太政官印の製造に必要な物品と作業量</note>
+                    <p ana="項" corresp="engishiki.xml#item17101701 engishiki_ja.xml#item17101701"
+                        xml:id="item17101701"
+                        >太政官印一面の製造に必要な物品は、純度の高い銅大一斤、錫大二両、蜜蠟大二両、調布二尺、炭二斗、和炭二斗。作業量は、一日で仕上げる労働量に換算した場合、日が長い四～七月は七人〈蜜蠟で型を取る工二人、鋳造工二人、研磨工三人〉、二・三・八・九月は八人と三分の一人、日が短い十～正月は九人と三分の二人。
+                    </p>
+                </div>
+                <div ana="内匠" n="17.18" subtype="項" type="条">
+                    <head ana="諸司印"/>
+                    <note type="summary">諸官司の印の製造に必要な物品と作業量</note>
+                    <p ana="項" corresp="engishiki.xml#item17101801 engishiki_ja.xml#item17101801"
+                        xml:id="item17101801"
+                        >諸官司の印一面の製造に必要な物品は、純度の高い銅大一四両、錫大一両二分、蜜蠟大一両二分、調布二尺、炭二斗、和炭二斗。作業量は、一日で仕上げる労働量に換算した場合、日が長い四～七月は六人〈蜜蠟で型を取る工二人、鋳造工二人、研磨工二人〉、二・三・八・九月は七人と三分の一人、日が短い十～正月は八人と三分の二人。
+                    </p>
+                </div>
+                <div ana="内匠" n="17.19" subtype="項" type="条">
+                    <head ana="諸国印"/>
+                    <note type="summary">諸国の印の製造に必要な物品と作業量</note>
+                    <p ana="項" corresp="engishiki.xml#item17101901 engishiki_ja.xml#item17101901"
+                        xml:id="item17101901"
+                        >諸国の印一面の製造に必要な物品は、純度の高い銅大一二両、錫大一両一分、蜜蠟大一両一分、調布二尺、炭二斗、和炭二斗。作業量は、一日で仕上げる労働量に換算した場合、日が長い四～七月は五人〈蜜蠟で型を取る工一人、鋳造工二人、研磨工二人〉、二・三・八・九月は六人と三分の二人、日が短い十～正月は七人と三分の一人。
+                    </p>
+                </div>
+                <div ana="内匠" n="17.20" subtype="項" type="条">
+                    <head ana="御帳"/>
+                    <note type="summary">天皇が使う斗帳の製造に必要な物品と作業量</note>
+                    <p ana="項" corresp="engishiki.xml#item17102001 engishiki_ja.xml#item17102001"
+                        xml:id="item17102001"
+                        >天皇がお使いになる斗帳一具〈高さ八尺一寸、一丈二尺二寸四方〉の製造に必要な物品は、柱を立てる台の製作に用いる木口の寸法が横六寸・縦七寸の角材二本、柱の製作に用いる四寸四方の角材一四本、天井の製作に用いるヒノキの材木八本、純度の高い銅大八斤、金アマルガム小六両二分、水銀小三両一分、鉄二廷、膠小一二両、漆一斗四升、掃墨四升、刷毛の洗浄に用いる油四合、木賊四両、矢竹一〇株、洗革一尺四方、酢二合、天井の裏に用いる白の綾一疋五丈三尺、天井の表に用いる帛一疋五丈三尺、縫製に用いる糸三両、漆の濾過に用いる帛三尺、石見の真綿四斤、調布三尺、溶解した銅を注ぐ際に用いる調布三尺、拭き取りに用いる布三尺、貼り付けに用いるモチ米二升、伊予砥一個半、青砥一枚、漆と混ぜる焼土一斗四升、炭二斛、和炭一一斛七斗五升。作業量は、一日で仕上げる労働量に換算した場合、日が長い四～七月は二四二人〈木工七一人と二分の一人、銅工四二人と二分の一人、鉄工八人、画工三人、漆工一〇一人、天井に布帛を張る工二人、夫一四人〉、二・三・八・九月は二八二人と三分の一人〈工二六六人、夫一六人と三分の一人〉、日が短い十～正月は三二三人〈工三〇四人、夫一九人〉。
+                    </p>
+                </div>
+                <div ana="内匠" n="17.21" subtype="項" type="条">
+                    <head ana="御輿"/>
+                    <note type="summary">天皇が乗る輿の製造に必要な物品と作業量</note>
+                    <p ana="項" corresp="engishiki.xml#item17102101 engishiki_ja.xml#item17102101"
+                        xml:id="item17102101"
+                        >天皇がお乗りになる輿一具〈長さ一丈四尺、幅三尺一寸、柱の高さ四尺八寸、斗の内の長さ三尺三寸、幅三尺一寸、脚の高さ六寸〉の製造に必要な物品は、障子四枚〈一枚は長さ五尺、高さ二尺。一枚は高さ四尺三寸、幅三尺五寸。二枚はそれぞれ高さ三尺二寸、幅九寸〉、屋根一枚〈長さ六尺、幅五尺四寸〉、長桁と梁・脚に用いる木口が横五寸・縦六寸の角材二本、壁代と平帖・束柱に用いる歩板二枚、担ぎ棒に用いる四寸四方の角材二本、柱・桁と屋根の頂上に据える飾りの葱花に用いるケヤキの材一三本、簀子敷と棉梠・障子の枠木に用いるヒノキの材木二本、障子の骨に用いるスギの材木二本、屋根を支える垂木に用いる四寸四方の角材二六本〈笠縫氏が提供する〉、屋根の下の桟に用いる真竹一〇本、屋根を葺く菅一囲〈山城国が進上する〉、純度の高い銅大二三斤、水銀小一五両、銀大一両二分、金アマルガム小一斤一四両、釘に用いる鉄三廷、膠小四両、漆一斗、掃墨三升、油四合、伊予砥一個半、青砥一枚、障子に用いる紫の綾四丈、障子の下張に用いる東絁三丈五尺六寸、障子の縁に用いる錦一丈三尺、縫製に用いる紫の糸二両、生糸六両、漆の濾過に用いる帛三尺、石見の真綿三斤、調布一尺五寸、溶解した銅を注ぐ際に用いる調布六尺、拭き取りに用いる調布六尺、菅の水漬けと拭き取りに用いる商布一段、障子の縁に貼る薄紙一六枚、モチ米一升三合、小麦五合、焼土一斗、炭二斛七斗、和炭五二斛五斗。作業量は、一日で仕上げる労働量に換算した場合、日が長い四～七月は三四〇人〈木工五五人、銅工一四七人、鉄工七人、漆工六〇人、画工七人、布帛を張る工五人、縫笠工二〇人、夫三九人〉、二・三・八・九月は三九四人と三分の二人〈工三五一人と三分の一人、夫四三人と三分の一人〉、日が短い十～正月は四五三人と三分の一人〈工四〇一人と三分の二人、夫五〇人〉。
+                    </p>
+                </div>
+                <div ana="内匠" n="17.22" subtype="項" type="条">
+                    <head ana="腰輿"/>
+                    <note type="summary">天皇が乗る腰輿の製造に必要な物品と作業量</note>
+                    <p ana="項" corresp="engishiki.xml#item17102201 engishiki_ja.xml#item17102201"
+                        xml:id="item17102201"
+                        >天皇がお乗りになる腰輿一具〈桁の長さ一丈四尺、幅二尺九寸、脚の高さ五寸〉の製造に必要な物品は、桁・脚の製作に用いる四寸四方の角材二本、平帖・束柱の製作に用いる歩板一枚、鳥居・高欄の製作に用いるヒノキの材木一本、純度の高い銅大一斤一〇両、金アマルガム小一両一分、水銀小二分三銖、鉄一廷、漆四升、掃墨一升五合、油二合、帛一尺二寸、石見の真綿一斤八両、調布四尺二寸、伊予砥半個、青砥一枚、焼土七升、炭六斗、和炭三斛二升。作業量は、一日で仕上げる労働量に換算した場合、日が長い四～七月は七八人〈木工二四人、銅工九人、鉄工二人、画工二分の一人、漆工三六人、夫六人と二分の一人〉、二・三・八・九月は九一人〈工八三人と三分の一人、夫七人と三分の二人〉、日が短い十～正月は一〇四人〈工九五人と二分の一人、夫八人と二分の一人〉。
+                    </p>
+                </div>
+                <div ana="内匠" n="17.23" subtype="項" type="条">
+                    <head ana="腰車"/>
+                    <note type="summary">腰車の製造に必要な物品と作業量</note>
+                    <p ana="項" corresp="engishiki.xml#item17102301 engishiki_ja.xml#item17102301"
+                        xml:id="item17102301"
+                        >腰車一具の製造に必要な物品は、屋形〈長さ六尺、幅五尺〉、障子六枚〈二枚はそれぞれ高さ二尺六寸、幅二尺、四枚はそれぞれ高さ二尺六寸、幅六寸五分〉の製作に用いるケヤキの材二四本〈四本はそれぞれ長さ八尺五寸、二寸五分四方、四本はそれぞれ長さ五尺、二寸五分四方、八本はそれぞれ長さ四尺五寸、一寸五分四方、二本はそれぞれ長さ五尺、幅一尺一寸、厚さ二寸五分、四本はそれぞれ長さ三尺五寸、二寸五分四方、二本はそれぞれ長さ二尺、径七寸〉、轅と車輪の製作に用いるイチイガシの材七二本、柱と高欄・鳥居の製作に用いるヒノキの材木二本、桁と垂木・箕形の製作に用いる歩板四枚、純度の高い銅大一一斤二両、金アマルガム小一〇両三分、水銀小三両三分三銖、鉄一一廷、漆四升、掃墨一升五合、ゴマ油・エゴマ油それぞれ三合、帛一尺二寸、石見の真綿一斤八両、伊予砥一個半、青砥一枚、白の綾四丈、油絹二丈八尺、両面錦一丈一尺二寸、錦七尺五寸、東絁二丈二尺四寸、練糸二両、調布三丈二寸、東席二枚、苧大五両、屋根を葺くための草二囲半、モチ米一升、小麦一升、炭九斗、和炭二四斛六斗、熬炭五斗、焼土五升。作業量は、一日で仕上げる労働量に換算した場合、日が長い四～七月は二九二人と二分の一人〈木工一一九人、銅工五六人と二分の一人、鉄工三五人と二分の一人、画工三人、釭工四人、布帛を張る工一二人、漆工二二人、夫四〇人と二分の一人〉、二・三・八・九月は三四一人、〈工二九四人、夫四七人〉、日が短い十～正月は三八九人と三分の二人〈工三三六人、夫五三人と三分の二人〉。
+                    </p>
+                </div>
+                <div ana="内匠" n="17.24" subtype="項" type="条">
+                    <head ana="牛車"/>
+                    <note type="summary">牛車の製造に必要な物品と作業量</note>
+                    <p ana="項" corresp="engishiki.xml#item17102401 engishiki_ja.xml#item17102401"
+                        xml:id="item17102401"
+                        >牛車一具の製造に必要な物品は、屋形〈長さ八尺、高さ三尺四寸、幅三尺二寸〉の車輪の製作に用いるイチイガシの材二八本、轅・輻の製作に用いるカシの材九七本、橧の製作に用いるケヤキの材二本、博風四枚の製作に用いる歩板四枚、ヒノキの材木五本、車軸の木一本、純度の高い銅大四〇斤、金アマルガム小二〇両、水銀小八両、鉄四廷、漆五升、ゴマ油・エゴマ油それぞれ四合、掃墨二升五合、帛三尺、石見の真綿八両、調布一端一丈二尺、伊予砥二個、青砥二枚、焼土五升、白の綾五丈、油絹五丈、練糸五両、出雲の席二枚半、屋根を葺く染苧四四両、炭一一斛、和炭五〇斛、銀小八両〈銅に混ぜる〉、洗革一枚、木賊七両、モチ米三升、猪の毛二把、釭一具、絹三尺、糸一斤四両、矢竹二〇株、染めに用いる茜大三〇〇斤、白米九斗〈茜を煮る際に用いる〉、酢一斛二斗、生絹四尺〈茜を篩うのに用いる〉、庸布四尺〈黒い不純物を篩うのに用いる〉、灰四五斛〈斤ごとに一斗五升〉、薪一五〇荷〈斤ごとに半荷を充てる〉、染色に用いる容器一隻〈長さ一丈以下八尺以上、幅三尺以下二尺以上〉、柴一五荷、ひしゃく二本、水麻笥一口〈容量は四斗以下〉、水𤭖麻笥一口〈容量は二斛〉。苧割の雇女、延べ三〇人の食料は、米二斗四升〈人ごとに八合〉、酒一斗八升〈人ごとに六合〉、魚六升〈人ごとに二合〉、塩六合〈人ごとに二夕〉、海藻三連〈人ごとに一把〉。賃金は新銭六〇文〈人ごとに二文〉。工一〇三人、夫九〇人〈日の長短に関わらず、一日で仕上げる労働量に換算した場合の人数である〉。
+                    </p>
+                </div>
+                <div ana="内匠" n="17.25" subtype="項" type="条">
+                    <head ana="屏風"/>
+                    <note type="summary">屏風の製造に必要な物品と作業量</note>
+                    <p ana="項" corresp="engishiki.xml#item17102501 engishiki_ja.xml#item17102501"
+                        xml:id="item17102501"
+                        >屏風一帖〈高さ五尺、雁や草木などを描く〉の製造に必要な物品は、骨組みの製作に用いるスギの材木二本半、ヒノキの材木一本〈長さ五尺二寸、二寸四方〉、角金具の製作に用いる純度の高い銅大一斤、花形の釘の製作に用いる純度の低い銅大三斤、金アマルガム小二両二分、水銀小一両一分、屏風の表面に用いる白絹三丈、屏風の裏面に用いる縹の帛三丈、番に用いる緋の帛五尺二寸、縁に用いる紫の綾一丈四尺、朱沙一両、金青一両、白青一両二分、緑青六両、白緑二両、丹三両、同黄三分、青黛二分、胡粉五両、中烟子二枚、紫の土二両、金箔三〇枚、墨一廷、膠一四両、筆の製作に用いる鹿の毛二両、金箔を切るための革一枚〈一尺四方〉、練糸一両、漆二合、掃墨一合、漆の濾過に用いる帛一尺、石見の真綿四両、調布一尺、刷毛の洗浄に用いる油五夕、金箔の貼り付けに用いる真綿二両、中子に用いる調布二尺五寸、釘の磨きに用いる調布三尺、溶解した銅を注ぐ際に用いる調布一尺、下張に用いる商布二段一丈、縁に貼り付ける薄紙一四枚、中張に用いる紙六五枚、番の中に貼り付ける紙五枚、石灰二合、紫の革一枚〈長さ一尺、幅八寸〉、モチ米二升、小麦三升、炭五斛三斗、和炭一斛三斗。作業量は、一日で仕上げる労働量に換算した場合、日が長い四～七月は五二人〈木工三人、銅工一五人、画工二〇人、漆工二人、屏風に布帛を張る工一一人、夫一人〉、二・三・八・九月は六〇人と三分の二人〈工五九人と三分の一人、夫一人と三分の一人〉、日が短い十～正月は六九人と三分の一人〈工六七人と三分の二人、夫一人と三分の二人〉。
+                    </p>
+                </div>
+                <div ana="内匠" n="17.26" subtype="項" type="条">
+                    <head ana="厨子"/>
+                    <note type="summary">厨子の製造に必要な物品と作業量</note>
+                    <p ana="項" corresp="engishiki.xml#item17102601 engishiki_ja.xml#item17102601"
+                        xml:id="item17102601"
+                        >厨子一基〈高さ四尺、長さ五尺、幅二尺二寸、牙床の高さ三寸五分〉、脚付きの台一脚〈長さ五尺三寸、幅二尺五寸、高さ八寸〉、牙床の製造に用いるヒノキの材木一本、脚付きの台に用いる歩板一枚、脚付きの台の天板一枚〈長さ五尺六寸、幅二尺五寸、厚さ三寸〉、棚に用いる板三枚〈それぞれ長さ五尺三寸、幅二尺四寸、厚さ一寸五分〉、壁と戸に用いる板八枚〈それぞれ長さ五尺、幅二尺、厚さ一寸五分〉、膠小四両、漆一斗、掃墨三升、焼土七升、純度の高い銅大三斤、鉄一廷、金アマルガム小五両二分、銀大三分、水銀小二両三分、伊予砥一個半、青砥一枚、油四合、帛一尺五寸、石見の真綿三斤、調布九尺五寸、炭一斛七斗、和炭四斛五斗。作業量は、一日で仕上げる労働量に換算した場合、日が長い四～七月は一六二人〈木工五〇人、銅工四九人、鉄工四人、画工一人と二分の一人、漆工四七人、夫一〇人と二分の一人〉、二・三・八・九月は一八九人〈工一七六人と三分の二人、夫一二人と三分の一人〉、日が短い十～正月は二一六人〈工二〇一人、夫一五人〉。
+                    </p>
+                </div>
+                <div ana="内匠" n="17.27" subtype="項" type="条">
+                    <head ana="幄"/>
+                    <note type="summary">仮設屋舎の柱等の漆塗りに必要な物品と作業量</note>
+                    <p ana="項" corresp="engishiki.xml#item17102701 engishiki_ja.xml#item17102701"
+                        xml:id="item17102701"
+                        >仮設屋舎一具の柱一八本〈六本はそれぞれ長さ一丈四尺、外周一尺二寸、一二本はそれぞれ長さ一丈、外周一尺〉の漆塗りに必要な物品は、漆四升五合、掃墨二升。作業量は、延べ七人。仮設屋舎の周囲等に張る幔の柱一本〈長さ一丈、外周七寸〉あたりの漆塗りに必要な物品は、漆二合二夕、掃墨一合。作業量は、一日で仕上げる労働量に換算した場合、三分の一人。上を覆う幕の桁一本〈長さ一丈三尺、外周一尺五分〉、柱二本〈それぞれ長さ九尺、外周七寸〉の漆塗りに必要な物品は、漆七合、掃墨五合。作業量は一人。
+                    </p>
+                </div>
+                <div ana="内匠" n="17.28" subtype="項" type="条">
+                    <head ana="樋類"/>
+                    <note type="summary">便器類の漆塗りに必要な物品と作業量</note>
+                    <p ana="項" corresp="engishiki.xml#item17102801 engishiki_ja.xml#item17102801"
+                        xml:id="item17102801"
+                        >雕木一脚〈長さ一尺七寸、幅一尺三寸、高さ一尺一寸、木工寮が製造する〉、樋一合〈高さ九寸、径九寸五分〉、虎子一合の漆塗りに必要な物品は、漆二升四合〈雕木に八合、樋に一升二合、虎子に四合〉、石見の真綿一斤、絹一尺五寸、貲布八尺、調布一尺五寸、掃墨一升、油二合、伊予砥半個、青砥半枚、炭八斗。作業量は、延べ一七人〈雕木に六人、樋に八人、虎子に三人〉。
+                    </p>
+                </div>
+                <div ana="内匠" n="17.29" subtype="項" type="条">
+                    <head ana="毬子"/>
+                    <note type="summary">五月五日節で六日に使用する毬子の献上に関する規定</note>
+                    <p ana="項" corresp="engishiki.xml#item17102901 engishiki_ja.xml#item17102901"
+                        xml:id="item17102901"
+                        >五月六日に用いる毬子二〇個〈楊筥に入れる〉は、事前に造り備えておけ。騎射終了後ただちに武徳殿の南の階段の西側で、内匠寮の允以上の官人一人が番上一人を率いて毬子を入れた楊筥を持って控え、殿上からの召喚にしたがってこれを献上せよ。
+                    </p>
+                </div>
+                <div ana="内匠" n="17.30" subtype="項" type="条">
+                    <head ana="偶人"/>
+                    <note type="summary">大寒に宮城十二門に立てる人形の製造に必要な物品と作業量</note>
+                    <p ana="項" corresp="engishiki.xml#item17103001 engishiki_ja.xml#item17103001"
+                        xml:id="item17103001"
+                        >大寒の日に諸門に立てる土製の人形一二体〈それぞれ高さ二尺〉、土製の牛一二頭〈それぞれ高さ二尺、長さ三尺〉の製造に必要な物品は、青土二升、赤土二升、白土二升、黄土四升、掃墨二升、酒一升、モチ米一斗二升、藁八囲、板二四枚〈一二枚は人形を立てるのに用いる。それぞれ一尺五寸四方、厚さ二寸。一二枚は牛を立てるのに用いる。それぞれ長さ三尺五寸、幅一尺五寸、厚さ二寸。木工寮が毎年製造する〉。作業量は、一日で仕上げる労働量に換算した場合、一三四人〈工九六人、夫三八人〉。
+                    </p>
+                </div>
+                <div ana="内匠" n="17.31" subtype="項" type="条">
+                    <head ana="伊勢初斎院"/>
+                    <note type="summary">伊勢斎王の初斎院の調度品の製造に必要な物品と作業量</note>
+                    <p ana="項" corresp="engishiki.xml#item17103101 engishiki_ja.xml#item17103101"
+                        xml:id="item17103101">伊勢斎王の初斎院の調度品
+                        <lb/>白木の斗帳一具〈高さ八尺、一丈四方〉の製造に必要な物品は、木口が横五寸・縦六寸の角材二本、四寸四方の角材一〇本、ヒノキの材木四本、純度の高い銅大七斤、金アマルガム小五両、水銀小二両二分、鉄一廷半、調布五尺五寸、伊予砥、膠小六両、木賊小三両、帛一疋五尺、白の絁一疋五尺、練糸三両、モチ米二升、炭七斗五升、和炭九斛二斗五升。作業量は、一日で仕上げる労働量に換算した場合、日が長い四～七月は一一三人〈木工五三人と二分の一人、銅工四一人と二分の一人、鉄工七人、画工二人、夫九人〉、二・三・八・九月は一三二人〈工一二一人と三分の一人、夫一〇人と三分の二人〉、日が短い十～正月は一五一人〈工一三八人と三分の二人、夫一二人と三分の一人〉。 </p>
+                    <p ana="項" corresp="engishiki.xml#item17103102 engishiki_ja.xml#item17103102"
+                        xml:id="item17103102"
+                        >几帳六基〈高さ四尺のもの二基、三尺のもの二基、二尺のもの二基〉の骨組みの製造に必要な物品は、ヒノキの材木三本〈柱・横木に用いる〉、木口の寸法が横一尺・縦九寸の角材一本〈長さ三尺〉、木口の寸法が横七寸・縦六寸の角材一本〈長さ五尺、みな柱を立てる台に用いる〉、純度の高い銅大八両、金アマルガム小一両、水銀二分、漆一升五合、絹一尺五寸、細布一尺五寸、真綿一〇両、掃墨五合、油三合、伊予砥半個、青砥一枚、炭六斗、和炭五斗。作業量は、延べ五三人〈木工二〇人、漆工二〇人、銅工一三人〉。 </p>
+                    <p ana="項" corresp="engishiki.xml#item17103103 engishiki_ja.xml#item17103103"
+                        xml:id="item17103103"
+                        >高さ五尺の屏風四帖の製造に必要な物品は、スギの材木一〇本〈骨に用いる〉、ヒノキの材木一本〈枠木に用いる〉、炭三斛〈釘の鋳造および金メッキに用いる〉、和炭六斛〈角金具の製作に用いる〉、純度の高い銅大三斤一二両〈角金具の製作に用いる〉、純度の低い銅大一二斤〈釘の鋳造に用いる〉、金アマルガム一〇両三分、水銀五両二分、一窠の白の綾一二丈四尺〈屏風の表面に用いる〉、縹の絁一二丈四尺〈屏風の裏面に用いる〉、紫の綾五丈六尺〈縁に用いる〉、緋の絁二丈〈番に用いる〉、調布二丈〈番の中張に用いる〉、商布九段一丈五尺〈下張に用いる〉、練糸一両〈中張の布の縫製に用いる〉、紙二五〇枚〈中張に用いる〉、薄紙五六枚〈縁に用いる〉、紫の革一枚〈長さ二尺五寸、銭形に用いる〉、膠小四両〈縁に塗る〉、石灰八合〈麦粉に混ぜる〉、モチ米八升〈布を張るのに用いる〉、小麦一斗〈紙を張るのに用いる〉。作業量は、延べ一四九人〈木工一六人、漆工五人、鍛冶工一七人、細工五六人、鋳造工三人、屏風に布帛を張る工四八人、夫四人〉。 </p>
+                    <p ana="項" corresp="engishiki.xml#item17103104 engishiki_ja.xml#item17103104"
+                        xml:id="item17103104"
+                        >移動の際の目隠しに用いる小型の行障四具の製造に必要な物品は、ヒノキの材木二本、純度の高い銅大三斤、金アマルガム小八両、鑑銀小四両、信濃布一尺、錫の薄板六枚〈八寸四方〉、細布六尺、阿膠六両、漆一升六合、絹一尺六寸、掃墨四合五夕、炭一斛、和炭四斛。作業量は、延べ六〇人〈木工一〇人、漆工一〇人、銅工二八人、錫工一二人〉。 </p>
+                    <p ana="項" corresp="engishiki.xml#item17103105 engishiki_ja.xml#item17103105"
+                        xml:id="item17103105"
+                        >大翳の筥二合の製造に必要な物品は、波太板四枚〈長さ六尺、厚さ一寸五分、幅二尺〉、阿膠二〇両、炭四斗、錫の薄板一〇枚〈八寸四方〉、阿膠一〇両、信濃布四尺、炭四斗、漆四升、絹四尺、真綿二屯、細布四尺、信濃布六尺、調布六尺、掃墨二升、焼土二升、油一合、伊予砥半個、青砥一枚、炭二斗。作業量は、延べ六五人〈木工二〇人、漆工二〇人、錫工二五人〉。 </p>
+                    <p ana="項" corresp="engishiki.xml#item17103106 engishiki_ja.xml#item17103106"
+                        xml:id="item17103106"
+                        >大笠の柄二本〈志部も付ける〉の製造に必要な物品は、ヒノキの材木一本、錫の薄板四枚〈八寸四方〉、阿膠四両、純度の高い銅大一二両、金アマルガム小一両二分、鑑銀三分二銖、水銀三分、炭二斗、和炭八斗、漆六合、掃墨三合。作業量は、延べ二四人〈木工四人、漆工四人、銅工八人、錫工八人〉。 </p>
+                    <p ana="項" corresp="engishiki.xml#item17103107 engishiki_ja.xml#item17103107"
+                        xml:id="item17103107"
+                        >捧壺二口〈それぞれ周りの長さ一尺九寸、高さ六寸〉、捧壺の柄二本〈それぞれ長さ八尺〉の製造に必要な物品は、ケヤキの材一本〈長さ三尺、厚さ七寸〉、ヒノキの材木一本、錫の薄板四枚〈八寸四方〉、阿膠四両、純度の高い銅大一二両、金アマルガム小一両二分、鑑銀三分三銖、炭二斗、和炭八斗、漆六合、絹八寸、真綿四両、掃墨二合、焼土二合。作業量は、延べ二七人〈木工六人、漆工四人、銅工八人、錫工九人〉。 </p>
+                    <p ana="項" corresp="engishiki.xml#item17103108 engishiki_ja.xml#item17103108"
+                        xml:id="item17103108"
+                        >沓筥一合の製造に必要な物品は、波太板半枚、阿膠五両、炭一斗、錫の薄板二枚半〈八寸四方〉、阿膠二両二分、炭一斗、漆六合、絹八寸、真綿四両、掃墨三合、焼土二合。作業量は、延べ一〇人〈木工二人と二分の一人、漆工三人、錫工四人と二分の一人〉。 </p>
+                    <p ana="項" corresp="engishiki.xml#item17103109 engishiki_ja.xml#item17103109"
+                        xml:id="item17103109"
+                        >車の榻一脚の製造に必要な物品は、ケヤキの材二本〈それぞれ長さ五尺、幅四寸、厚さ二寸〉、ヒノキの材木一本、阿膠五両、鉄一廷、炭二斗、純度の高い銅二斤一〇両、金アマルガム四両、鑑銀一両二分、鉄半廷、伊予砥一個、信濃布二丈、調布二丈、錫の薄板三枚〈八寸四方〉、阿膠三両、信濃布五尺、漆一升五合、絹一尺五寸、真綿七両、細布一尺五寸、信濃布二尺、掃墨五合、焼土五合。作業量は、延べ四〇人〈木工八人、漆工七人、銅工一六人、錫工九人〉。 </p>
+                    <p ana="項" corresp="engishiki.xml#item17103110 engishiki_ja.xml#item17103110"
+                        xml:id="item17103110"
+                        >膳櫃四合〈それぞれ長さ三尺二寸五分、幅二尺二寸、深さ九寸〉、脚付きの台四脚〈それぞれ長さ五尺六寸、高さ一尺七寸〉、これらに赤漆を塗るのに必要な物品は、漆二升五合〈膳櫃に一升六合、脚付きの台に九合〉、朱砂二〇両、絹二尺、真綿一屯半、掃墨一升、エゴマ油一升二合、阿膠八両、炭一斛。作業量は、延べ一二人。 </p>
+                    <p ana="項" corresp="engishiki.xml#item17103111 engishiki_ja.xml#item17103111"
+                        xml:id="item17103111"
+                        >台盤二面〈それぞれ長さ四尺〉、ご飯を盛る銀の器一合、銀の水鋎一合、銀の盞一具〈以上四種の製造に必要な物品と標準作業量は既出〉。 </p>
+                    <p ana="項" corresp="engishiki.xml#item17103112 engishiki_ja.xml#item17103112"
+                        xml:id="item17103112"
+                        >銀の鍋一口の製造に必要な物は、銀四〇両、純度の高い銅大一斤一〇両、金アマルガム小三両、信濃布一丈、炭一石、和炭二石五斗。作業量は、延べ一二人。 </p>
+                    <p ana="項" corresp="engishiki.xml#item17103113 engishiki_ja.xml#item17103113"
+                        xml:id="item17103113">銀のさじ四本の製造に必要な物品は、銀二四両、信濃布四尺、炭五斗、和炭一石。作業量は、延べ八人。 </p>
+                    <p ana="項" corresp="engishiki.xml#item17103114 engishiki_ja.xml#item17103114"
+                        xml:id="item17103114"
+                        >手湯戸一合〈胴周り五尺、高さ一尺四寸〉、台一脚の漆塗りに必要な物品は、漆二升五合、絹一尺五寸、真綿一屯、細布一尺五寸、貲布八尺、掃墨五合、焼土一升、油二合、炭五斗。作業量は、延べ八人。 </p>
+                    <p ana="項" corresp="engishiki.xml#item17103115 engishiki_ja.xml#item17103115"
+                        xml:id="item17103115"
+                        >手洗一口〈径一尺七寸、深さ六寸〉の漆塗りに必要な物品は、漆一升、絹一尺、真綿八両、細布三尺、調布四尺、掃墨五合、焼土六合、炭五斗。作業量は、延べ七人。 </p>
+                    <p ana="項" corresp="engishiki.xml#item17103116 engishiki_ja.xml#item17103116"
+                        xml:id="item17103116"
+                        >楾一合〈高さ一尺、周りの長さ二尺四寸〉の漆塗りに必要な物品は、漆七合、絹一尺、真綿七両、細布二尺、掃墨四合、焼土五合。作業量は、延べ六人。 </p>
+                    <p ana="項" corresp="engishiki.xml#item17103117 engishiki_ja.xml#item17103117"
+                        xml:id="item17103117"
+                        >大壺一合の漆塗りに必要な物品は、漆四合、絹一尺、真綿六両、細布一尺五寸、掃墨三合、焼土五合。作業量は、延べ四人。 </p>
+                    <p ana="項" corresp="engishiki.xml#item17103118 engishiki_ja.xml#item17103118"
+                        xml:id="item17103118"
+                        >雕木一脚〈長さ一尺四寸、幅一尺八分、高さ八寸〉、樋一合〈径八寸、高さ七寸〉の漆塗りに必要な物品は、漆一升八合、絹一尺五寸、細布三尺、掃墨六合、焼土一升。作業量は、延べ一一人。 </p>
+                    <p ana="項" corresp="engishiki.xml#item17103119 engishiki_ja.xml#item17103119"
+                        xml:id="item17103119"
+                        >灯明台四基の漆塗りに必要な物品は、漆一升二合、絹一尺、真綿六両、細布一尺、掃墨四合、焼土五合。作業量は、延べ一二人。 </p>
+                    <p ana="項" corresp="engishiki.xml#item17103120 engishiki_ja.xml#item17103120"
+                        xml:id="item17103120"
+                        >斎王の居所に張る蓋代の製造に必要な物品は、調布一〇端、練糸一絇、苧小五斤。作業量は、延べ一四人〈木工一二人、夫二人〉。 </p>
+                    <p ana="項" corresp="engishiki.xml#item17103121 engishiki_ja.xml#item17103121"
+                        xml:id="item17103121"
+                        >簡易な仮設屋舎の骨組み一具の漆塗りに必要な物品は、漆七升、絹五尺、真綿二屯半、掃墨二升、焼土二升、青砥一枚、炭一斛。作業量は、延べ四〇人。 </p>
+                    <p ana="項" corresp="engishiki.xml#item17103122 engishiki_ja.xml#item17103122"
+                        xml:id="item17103122"
+                        >脚付きの腰掛け一脚〈六尺四方〉の漆塗りに必要な物品は、漆四升、絹三尺、真綿一二両、細布三尺、信濃布六尺、掃墨一升、焼土一升、伊予砥半個、青砥一枚、炭五斗。作業量は、延べ一二人。 </p>
+                    <p ana="項" corresp="engishiki.xml#item17103123 engishiki_ja.xml#item17103123"
+                        xml:id="item17103123"
+                        >鎮子一二個の製造に必要な物品は、純度の高い銅大一四斤、錫一二両、鉄二廷、炭一二斛、和炭二斛。作業量は、延べ一〇〇人。 </p>
+                    <p ana="項" corresp="engishiki.xml#item17103124 engishiki_ja.xml#item17103124"
+                        xml:id="item17103124"
+                        >薬袋三四枚の製造に必要な物品は、木口の寸法が横七寸・縦六寸の角材一本、錫の薄板一七枚〈八寸四方〉、阿膠九両、炭一斛、漆六升八合、絹五尺、真綿二斤、調布二丈、掃墨三升、焼土二升、油五合、炭一斛。作業量は、延べ一〇〇人〈木工四八人、漆工三四人、錫工一八人〉。
+                    </p>
+                </div>
+                <div ana="内匠" n="17.32" subtype="項" type="条">
+                    <head ana="野宮装束"/>
+                    <note type="summary">伊勢斎王の野宮における調度品の製造に必要な物品と作業量</note>
+                    <p ana="項" corresp="engishiki.xml#item17103201 engishiki_ja.xml#item17103201"
+                        xml:id="item17103201">野宮の調度品
+                        <lb/>白木の斗帳一具、几帳四基〈高さ三尺のもの二基、二尺のもの二基〉の骨組み、高さ五尺の屏風四帖、膳櫃四合、台盤四面〈それぞれ長さ四尺〉、雕木一具、大壺一合〈以上七種の製造に必要な物品と標準作業量は初斎院と同じ〉。 </p>
+                    <p ana="項" corresp="engishiki.xml#item17103202 engishiki_ja.xml#item17103202"
+                        xml:id="item17103202"
+                        >輿一具〈長さ一丈四尺、幅三尺、高さ五尺四寸、斗の内の長さ三尺一寸〉、障子四枚〈一枚は長さ四尺八寸、幅一尺八寸、一枚は高さ四尺一寸、幅三尺三寸五分、二枚はそれぞれ高さ三尺、幅六寸五分〉の製造に必要な物品は、木口が横五寸・縦六寸の角材二本、壁代・束柱・鳥居に用いる歩板二枚、平帖に用いるヒノキの材木二本、ケヤキの材一三本〈それぞれ長さ五尺、二寸四方。ただし一本は一尺四方〉、担ぎ棒に用いる四寸四方の角材二本、障子の骨組みに用いるスギの材木二本、純度の高い銅大四六斤、金アマルガム小一斤一二両、銀大一両、水銀小一四両、鉄三廷、炭二斛一斗、和炭五〇斛五斗、漆九升、掃墨二升、焼土一斗、帛三尺、油三合、浅紫の纈の帛三丈六尺、東絁三丈六尺、錦一丈三尺、紫の糸二両、生糸六両、石見の真綿三斤、調布一丈三尺五寸、商布一段、苧小一斤、薄紙一五枚、膠小四両、伊予砥一個、モチ米一升三合、小麦五合。作業量は、一日で仕上げる労働量に換算した場合、日が長い四～七月は三二九人〈木工四七人、銅工一四七人、鉄工七人、漆工一〇人、画工七人、布帛を張る工五人、笠を作る工二〇人、夫三八人〉、二・三・八・九月は三八四人〈工三三八人と二分の一人、夫四五人と二分の一人〉、日が短い十～正月は四四八人〈工三九五人、夫五三人〉。 </p>
+                    <p ana="項" corresp="engishiki.xml#item17103203 engishiki_ja.xml#item17103203"
+                        xml:id="item17103203"
+                        >腰輿一具〈長さ一丈二尺、幅二尺九寸、斗の内の長さ三尺、脚の高さ五寸〉、障子二枚〈一枚は長さ五尺、幅二尺、一枚は長さ五尺、幅二尺二寸〉、桁に用いる四寸四方の角材二本、壁代・梁に用いる歩板一枚、高欄・鳥居等に用いるヒノキの材木半本、障子の骨組みに用いるスギの材木一本、純度の高い銅大一二斤、金アマルガム小七両、水銀小三両二分、鉄一廷、漆四升、掃墨一升、帛一尺二寸、石見の真綿一斤八両、調布七尺二寸、油二合、浅紫の纈の帛二丈六尺、東絁二丈六尺、錦八尺、浅紫の糸二分、練糸二分、薄紙八枚、阿膠小二分、伊予砥、青砥、モチ米六合、小麦五合、炭一石、和炭一四斛二斗五升。作業量は、日が長い四～七月は一五一人と二分の一人〈木工二五人、銅工五九人、鉄工二人、漆工三六人、画工三人、布帛を張る工三人、夫一三人と二分の一人〉、二・三・八・九月は一八〇人〈工一六三人と三分の一人、夫一六人と三分の二人〉、日が短い十～正月は二〇五人と三分の二人〈工一八六人と三分の二人、夫一九人〉。 </p>
+                    <p ana="項" corresp="engishiki.xml#item17103204 engishiki_ja.xml#item17103204"
+                        xml:id="item17103204"
+                        >斎王の輿の中央部の菅の屋根一具〈菅と骨組みの部材は摂津国が進上し、笠縫氏が内匠寮に参上して製作する〉に必要な物品は、生糸六両、苧小一〇両〈以上の二種類は骨組みの部材を結ぶのに用いる〉。作業に従事する延べ一〇人分の食料は、白米二斗〈人ごとに二升〉、塩二合〈人ごとに二夕〉、醤滓二升〈人ごとに二合〉、魚二升〈人ごとに二合〉、海藻一斤四両、酒六升〈人ごとに六合〉。 </p>
+                    <p ana="項" corresp="engishiki.xml#item17103205 engishiki_ja.xml#item17103205"
+                        xml:id="item17103205"
+                        >菅の翳二柄〈同じく笠縫氏が作る。作業量は、延べ一〇人〉に必要な物品は、漆四合、掃墨二合、苧小一斤〈結ぶのに用いる〉、生糸五両、石見の庸の真綿四両〈漆の濾過に用いる〉、商布一丈〈菅の拭き取りに用いる〉、白米二斗、塩二合、酒六升、海藻一斤四両、醤滓二升、魚二升、翳の柏形四枚・管金二口・筋金四枚の必要物は純度の高い銅大一斤八両、金アマルガム一両、水銀二分、炭一斗、和炭一石五斗。作業量は、延べ三〇人〈木工八人、漆工四人、鍛冶工四人、細工一三人、夫一人〉。 </p>
+                    <p ana="項" corresp="engishiki.xml#item17103206 engishiki_ja.xml#item17103206"
+                        xml:id="item17103206"
+                        >斎王の居所に張る蓋代に必要な物品は、調布八端四尺〈切って二〇条にする。一条は長さ一丈七尺〉、練糸一絇、苧小五斤。 </p>
+                    <p ana="項" corresp="engishiki.xml#item17103207 engishiki_ja.xml#item17103207"
+                        xml:id="item17103207">同じく斎王が伊勢の斎宮から都に入る際に準備すべきものは、斎王の輿一具〈必要な物品と作業量は野宮と同じ〉。 </p>
+                    <p ana="項" corresp="engishiki.xml#item17103208 engishiki_ja.xml#item17103208"
+                        xml:id="item17103208"
+                        >高さ四尺の屏風四帖に必要な物品は、スギの材木八本〈屏風の骨の製作に用いる〉、ヒノキの材木半本〈枠木に用いる〉、純度の高い銅大四斤〈角金具の製作に用いる〉、純度の低い銅大一二斤〈花形の釘の鋳造に用いる〉、炭五斛五斗〈一斛五斗は花形の釘の鋳造に用いる。一斛五斗は金メッキに用いる。二斛は屏風の骨を焼くのに用いる。五斗は漆の濾過に用いる〉、和炭五斛五斗〈四斛は角金具の製作に用いる。一斛五斗は釘の鋳造に用いる〉、モチ米八升〈布を張るのに用いる〉、掃墨八合〈漆に混ぜ合わせる〉、白の綾一疋三丈六尺〈屏風の表面に用いる〉、縹の絁一疋三丈六尺〈屏風の裏面に用いる〉、調布一丈六尺八寸〈番の中張に用いる〉、黒紫の絁四丈九尺六寸〈縁に用いる〉、緋の絁一丈六尺八寸〈番に用いる〉、商布七段一丈〈下張に用いる〉、紙二一二枚〈中張に用いる〉、薄紙四六枚〈縁と番に用いる〉、紫の革一枚〈銭形に用いる〉、小麦一斗二升〈紙を貼り付けるのに用いる〉、漆八合〈枠木を塗るのに用いる〉、金アマルガム一〇両二分、水銀五両一分〈釘と角金具の金メッキに用いる〉。作業量は、延べ一四九人〈木工一六人、漆工五人、鍛冶工一七人、夫四人、細工五六人、鋳工三人、布帛を張る工四八人〉。 </p>
+                    <p ana="項" corresp="engishiki.xml#item17103209 engishiki_ja.xml#item17103209"
+                        xml:id="item17103209">斎王の輿の屋根一枚に必要な物品は、油絁一丈六尺二寸、調布一丈六尺二寸。作業量は、延べ三人〈漆工〉。 </p>
+                    <p ana="項" corresp="engishiki.xml#item17103210 engishiki_ja.xml#item17103210"
+                        xml:id="item17103210"
+                        >赤漆を塗る斎王の膳櫃六合〈それぞれ長さ二尺三寸、幅二尺二寸、深さ八寸二分〉、脚付きの台六脚〈それぞれ長さ五尺七寸五分、幅二尺三寸、高さ一尺七寸〉、担ぎ棒一六本〈それぞれ長さ九尺、周りの長さ六寸五分〉、韓櫃一合〈長さ二尺六寸、幅一尺七寸、深さ一尺一寸〉に必要な物品は、漆六升六合、石見の庸の真綿二斤、エゴマ油一升八合、炭一斛〈漆の濾過と塗りに用いる〉。作業量は、延べ四九人〈斎王の膳櫃と脚付きの台に三六人、担ぎ棒一六本に五人、韓櫃に三人、夫五人〉。 </p>
+                    <p ana="項" corresp="engishiki.xml#item17103211 engishiki_ja.xml#item17103211"
+                        xml:id="item17103211"
+                        >黒漆を塗る斎王の輿の前櫃一合〈長さ三尺、幅九寸、深さ八寸〉、小型の辛櫃一合〈長さ一尺五寸、幅一尺一寸、深さ八寸〉、捧壺二合〈それぞれ周りの長さ一尺九寸、高さ六寸〉、捧壺の柄二本〈それぞれ長さ八尺〉、大笠の柄一本〈長さ八尺〉、上を覆う幕の柱二本、桁一本〈長さ一丈五尺五寸〉、周囲に張る幔の柱二四本〈それぞれ長さ八尺六寸〉の漆塗りに必要な物品は、漆六升、石見の庸の真綿二斤、貼り付けなどに用いる調布二尺七寸〈一尺五寸は壺に貼り、一尺二寸は漆の濾過に用いる〉、油五合、掃墨一升、炭一斛五斗。作業量は、延べ二一人〈斎王の輿の前櫃に四人、小型の辛櫃に二人、捧壺に五人、柄に二人、大笠の柄一本・幕の桁一本に六人、幔の柱二四本に六人、夫四人〉。
+                    </p>
+                </div>
+                <div ana="内匠" n="17.33" subtype="項" type="条">
+                    <head ana="賀茂装束"/>
+                    <note type="summary">賀茂斎王の初斎院・野宮における調度品の製造に必要な物品と作業量</note>
+                    <p ana="項" corresp="engishiki.xml#item17103301 engishiki_ja.xml#item17103301"
+                        xml:id="item17103301">賀茂の初斎院と野宮の調度品
+                        <lb/>斗帳二具〈白木一具、漆一具〉、几帳一〇基〈高さ三尺のもの六基、一尺五寸のもの四基〉の骨組み。 </p>
+                    <p ana="項" corresp="engishiki.xml#item17103302 engishiki_ja.xml#item17103302"
+                        xml:id="item17103302"
+                        >屏風六帖〈高さ五尺のもの二帖、四尺のもの四帖〉、金銅で装飾した牛車一具、移動の際の目隠しに用いる小型の行障二枚、大翳二枚〈平文の筥に入れる〉、大笠の柄二本〈平文、志部も付ける〉、銀の捧壺二口〈平文の柄と志部も付ける〉、平文の筥二合、輿一具、腰輿一具、屏繖二枚、大型の行障四 </p>
+                    <p ana="項" corresp="engishiki.xml#item17103303 engishiki_ja.xml#item17103303"
+                        xml:id="item17103303"
+                        >櫛の机一具〈長さ一尺五寸、幅一尺三寸、足の高さ九寸〉の製造に必要な物品は、波多板一枚、ヒノキの材木半本、阿膠一〇両、炭二斗一升、切釘二〇本、漆一升二合、掃墨三合、焼土三合、真綿六両、絹一尺、手作の布一尺。作業量は、延べ九人〈木工六人、漆工三人〉。 </p>
+                    <p ana="項" corresp="engishiki.xml#item17103304 engishiki_ja.xml#item17103304"
+                        xml:id="item17103304"
+                        >膳櫃三合〈脚付きの台と担ぎ棒も付ける〉、樽一荷、ご飯を盛る銀の鋺一合、銀の水鋎一合、銀の盞一合、銀の盤二枚〈以上の製造に必要な物品と標準作業量は既出〉。 </p>
+                    <p ana="項" corresp="engishiki.xml#item17103305 engishiki_ja.xml#item17103305"
+                        xml:id="item17103305"
+                        >銀の箸三具〈それぞれ長さ八寸四分〉の製造に必要な物品は、銀小十二両、和炭三斗。作業量は、一日で仕上げる労働量に換算した場合、日が長い四～七月は三人、二・三・八・九月は四人と二分の一人、日が短い十～正月は六人。 </p>
+                    <p ana="項" corresp="engishiki.xml#item17103306 engishiki_ja.xml#item17103306"
+                        xml:id="item17103306"
+                        >銀のさじ二本の製造に必要な物品は、銀小一八両、和炭二斗、油一合。作業量は、日が長い四～七月は四人、二・三・八・九月は六人、日が短い十～正月は八人。 </p>
+                    <p ana="項" corresp="engishiki.xml#item17103307 engishiki_ja.xml#item17103307"
+                        xml:id="item17103307"
+                        >銀の箸台二口の製造に必要な物品は、銀小四八両、炭四斗、和炭一斛、油二合、塩二升。作業量は、日が長い四～七月は八人、二・三・八・九月は一〇人、日が短い十～正月は一二人。 </p>
+                    <p ana="項" corresp="engishiki.xml#item17103308 engishiki_ja.xml#item17103308"
+                        xml:id="item17103308"
+                        >銀の唾壺一口〈口径八寸五分〉の製造に必要な物品は、銀小七八両、炭二斗、和炭一石五斗、油一合五夕、鉄半廷。作業量は、日が長い四～七月は五人、二・三・八・九月は六人、日が短い十～正月は七人。 </p>
+                    <p ana="項" corresp="engishiki.xml#item17103309 engishiki_ja.xml#item17103309"
+                        xml:id="item17103309"
+                        >白銅の酒壺一合〈容量は一斗〉の製造に必要な物品は、白銅大二〇斤、油五合、鉄三廷、炭三〇斛、和炭一斛、信濃布一丈五尺、麻縄一了、伊予砥一個。作業量は、日が長い四～七月は五〇人、二・三・八・九月は五五人、日が短い十～正月は六〇人。 </p>
+                    <p ana="項" corresp="engishiki.xml#item17103310 engishiki_ja.xml#item17103310"
+                        xml:id="item17103310"
+                        >白銅のひしゃく一本〈盤も付ける〉の製造に必要な物品は、白銅大一〇両、炭四斛、油一合、信濃布一丈。作業量は、日が長い四～七月は一〇人、二・三・八・九月は一二人、日が短い十～正月は一四人。 </p>
+                    <p ana="項" corresp="engishiki.xml#item17103311 engishiki_ja.xml#item17103311"
+                        xml:id="item17103311"
+                        >白銅の風炉一具の製造に必要な物品は、白銅大三斤、炭四斛、油一合五夕、信濃布七尺五寸。作業量は、日が長い四～七月は一〇人、二・三・八・九月は一二人、日が短い十～正月は一四人。 </p>
+                    <p ana="項" corresp="engishiki.xml#item17103312 engishiki_ja.xml#item17103312"
+                        xml:id="item17103312"
+                        >白銅の火炉一具の製造に必要な物品は、白銅三斤、炭四斛、油一合五夕、信濃布七尺五寸。作業量は、日が長い四～七月は一〇人、二・三・八・九月は一二人、日が短い十～正月は一四人。 </p>
+                    <p ana="項" corresp="engishiki.xml#item17103313 engishiki_ja.xml#item17103313"
+                        xml:id="item17103313"
+                        >朱漆の台盤三面〈それぞれ長さ三尺、台も付ける〉の漆塗りに必要な物品は、漆九升、朱砂三〇両、掃墨三升、油五合、焼土五升、真綿三屯、絹七尺、細布一丈二尺、信濃布一丈二尺、調布一丈五尺、伊予砥一個、青砥二枚、阿膠一〇両、炭一斛。作業量は、延べ二五人。 </p>
+                    <p ana="項" corresp="engishiki.xml#item17103314 engishiki_ja.xml#item17103314"
+                        xml:id="item17103314"
+                        >酒海三合〈それぞれ容量は二斗〉は、二合に朱漆を塗るのに必要な物品として、漆四升、朱砂一六両、貲布一丈、絹・布それぞれ四尺、真綿一斤、油四合、炭一斛。一合に黒漆を塗るのに必要な物品として、漆二升、掃墨七合、焼土八合、貲布五尺、絹・布それぞれ一尺五寸、油一合、炭二斗五升。作業量は、延べ一三人〈朱漆に八人、墨漆に五人〉。 </p>
+                    <p ana="項" corresp="engishiki.xml#item17103315 engishiki_ja.xml#item17103315"
+                        xml:id="item17103315"
+                        >下食盤一〇枚〈それぞれ一尺七寸四方〉に漆を塗るのに必要な物品は、漆五升、朱砂一二両、掃墨二升、焼土二升、油三合、貲布一丈、絹六尺、真綿三屯、炭一斛。作業量は、延べ三〇人。 </p>
+                    <p ana="項" corresp="engishiki.xml#item17103316 engishiki_ja.xml#item17103316"
+                        xml:id="item17103316"
+                        >白銅の箸四具の製造に必要な物品は、白銅大八両、細布三尺、信濃布五尺、油二合、炭一斛。作業量は、日が長い四～七月は一二人、二・三・八・九月は一四人、日が短い十～正月は一六人。 </p>
+                    <p ana="項" corresp="engishiki.xml#item17103317 engishiki_ja.xml#item17103317"
+                        xml:id="item17103317"
+                        >白銅のさじ八本の製造に必要な物品は、白銅大九六両、鉄一廷半、細布五尺、信濃布七尺、油四合、炭八斗。作業量は、日が長い四～七月は六四人、二・三・八・九月は七二人、日が短い十～正月は八〇人。 </p>
+                    <p ana="項" corresp="engishiki.xml#item17103318 engishiki_ja.xml#item17103318"
+                        xml:id="item17103318"
+                        >白銅のひしゃく二本、台盤七面〈長さ八尺のもの一面、四尺のもの六面〉、薬袋三四枚〈以上は人々に支給するもの。ただし白銅のひしゃく以下の製造に必要な物品と標準作業量は既出〉。
+                    </p>
+                </div>
+                <div ana="内匠" n="17.34" subtype="項" type="条">
+                    <head ana="親王頓料"/>
+                    <note type="summary">親王となった時に支給する当座の品</note>
+                    <p ana="項" corresp="engishiki.xml#item17103401 engishiki_ja.xml#item17103401"
+                        xml:id="item17103401"
+                        >親王となった時に支給する当座の品は、斗帳一具〈高さ八尺、一丈四方〉、高さ五尺の屏風一〇帖〈製造に必要な物品と標準作業量は既出〉。 </p>
+                </div>
+                <div ana="内匠" n="17.35" subtype="項" type="条">
+                    <head ana="位記料"/>
+                    <note type="summary">内記局に渡す位記の材料の物品と納品期日の規定</note>
+                    <p ana="項" corresp="engishiki.xml#item17103501 engishiki_ja.xml#item17103501"
+                        xml:id="item17103501"
+                        >内記局が請求する位記の材料は、赤木の軸七本、黄楊の軸二〇本、ホオノキの軸一〇〇本。これらは毎年十二月に納品せよ。 </p>
+                </div>
+                <div ana="内匠" n="17.36" subtype="項" type="条">
+                    <head ana="黄楊"/>
+                    <note type="summary">内匠寮に収納される黄楊の木に関する規定</note>
+                    <p ana="項" corresp="engishiki.xml#item17103601 engishiki_ja.xml#item17103601"
+                        xml:id="item17103601">毎年内匠寮に納入される黄楊の木の数量は、参河国からは六本、土左国からは七本。 </p>
+                </div>
+                <div ana="内匠" n="17.37" subtype="項" type="条">
+                    <head ana="的"/>
+                    <note type="summary">大射等の的を描く画師を木工寮に派遣する規定</note>
+                    <p ana="項" corresp="engishiki.xml#item17103701 engishiki_ja.xml#item17103701"
+                        xml:id="item17103701">木工寮が製造する、大射・賭射・騎射で使う的は、内匠寮の画師を派遣して塗り描かせよ。 </p>
+                </div>
+                <div ana="内匠" n="17.38" subtype="項" type="条">
+                    <head ana="番上工"/>
+                    <note type="summary">番上工に支給する食料米の額に関する規定</note>
+                    <p ana="項" corresp="engishiki.xml#item17103801 engishiki_ja.xml#item17103801"
+                        xml:id="item17103801">番上工四八人には、それぞれ一日に玄米二升を支給せよ。 </p>
+                </div>
+                <div ana="内匠" n="17.39" subtype="項" type="条">
+                    <head ana="作物衣"/>
+                    <note type="summary">長上工・番上工への作業着の支給に関する規定</note>
+                    <p ana="項" corresp="engishiki.xml#item17103901 engishiki_ja.xml#item17103901"
+                        xml:id="item17103901">長上工・番上工に支給する作業着は、五月十一日に奏上せよ〈調布で支給する〉。 </p>
+                </div>
+                <div ana="内匠" n="17.40" subtype="項" type="条">
+                    <head ana="史生以下禄"/>
+                    <note type="summary">史生以下雑工以上の給与に関する規定</note>
+                    <p ana="項" corresp="engishiki.xml#item17104001 engishiki_ja.xml#item17104001"
+                        xml:id="item17104001">史生以下雑工以上に支給する勤務成績・技能水準別の給与は、五月十六日に奏上せよ〈庸布で支給する〉。 </p>
+                </div>
+                <div ana="内匠" n="17.41" subtype="項" type="条">
+                    <head ana="雑工"/>
+                    <note type="summary">雑工の転任、解任、交替に関する規定</note>
+                    <p ana="項" corresp="engishiki.xml#item17104101 engishiki_ja.xml#item17104101"
+                        xml:id="item17104101"
+                        >雑工は内匠寮の提出する申請書によらなければ他の職種に遷ってはならない。高齢であったり体が弱く出仕できない者は、郷土に帰還することを許可し、その後替わりの者を報告して任命せよ。
+                    </p>
+                </div>
+                <div ana="内匠" n="17.42" subtype="項" type="条">
+                    <head ana="典薬直"/>
+                    <note type="summary">典薬寮の医師一人を内匠寮に置く規定</note>
+                    <p ana="項" corresp="engishiki.xml#item17104201 engishiki_ja.xml#item17104201"
+                        xml:id="item17104201">典薬寮の医師一人を内匠寮に勤務させよ。 </p>
+                </div>
+                <div ana="内匠" n="17.43" subtype="項" type="条">
+                    <head ana="六衛府直"/>
+                    <note type="summary">六衛府の舎人を内匠寮に置く規定</note>
+                    <p ana="項" corresp="engishiki.xml#item17104301 engishiki_ja.xml#item17104301"
+                        xml:id="item17104301">六衛府の舎人それぞれ二人を内匠寮に勤務させよ。 </p>
+                </div>
+                <div ana="内匠" n="17.44" subtype="項" type="条">
+                    <head ana="縫物"/>
+                    <note type="summary">裁縫を要する物品を大蔵省に送る規定</note>
+                    <p ana="項" corresp="engishiki.xml#item17104401 engishiki_ja.xml#item17104401"
+                        xml:id="item17104401"
+                        >裁縫を必要とする物品がある場合には、その物品を大蔵省に持って行き、大蔵省は量にかかわらず受け取って宮人に裁縫させよ。 </p>
+                </div>
+                <div ana="内匠" n="17.45" subtype="項" type="条">
+                    <head ana="不仕"/>
+                    <note type="summary">欠勤者分の食料米を内匠寮内の雑用に充てる規定</note>
+                    <p ana="項" corresp="engishiki.xml#item17104501 engishiki_ja.xml#item17104501"
+                        xml:id="item17104501">支給されずに残った欠勤者分の食料米や追加支給米は、内匠寮内の雑用に充てよ。 </p>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>
