@@ -64,12 +64,12 @@
           </app>
           <app from="#app1410010102" to="#app1410010102e">
             <lem wit="#土本">備</lem>
-            <rdg wit="#剛本">備之</rdg>
+            <rdg wit="#剛本 #訳注本">備之</rdg>
             <note>備　剛本はこの下に「之」あり。訳注本は剛本に従い補う。</note>
           </app>
           <app from="#app1410010201" to="#app1410010201e">
             <lem wit="#土本">木綿</lem>
-            <rdg wit="#考異">五色薄絁各□尺木綿</rdg>
+            <rdg/>
             <note>木綿　考異はこの上に「五色薄絁各□尺」の脱落を想定する。</note>
           </app>
         </div>
@@ -118,17 +118,23 @@
           <app from="#app1410040101" to="#app1410040101e">
             <lem wit="#剛本 #近本朱傍書 #京博本朱傍書">紐</lem>
             <rdg wit="#土本 #等">細</rdg>
+            <note place="傍">近本朱傍書「<seg style="color:red">紐</seg>」</note>
+            <note place="傍">京博本朱傍書「<seg style="color:red">紐</seg>」</note>
             <note>紐　土本等「細」。剛本、近本・京博本朱傍書により改める。</note>
           </app>
           <app from="#app1410040102" to="#app1410040102e">
             <lem wit="#剛本 #近本朱傍書 #京博本朱傍書">紐</lem>
             <rdg wit="#土本 #等">細</rdg>
+            <note place="傍">近本朱傍書「<seg style="color:red">紐</seg>」</note>
+            <note place="傍">京博本朱傍書「<seg style="color:red">紐</seg>」</note>
             <note>紐　土本等「細」。剛本、近本・京博本朱傍書により改める。</note>
           </app>
           <app from="#app1410040103" to="#app1410040103e">
             <lem wit="#剛本">屜</lem>
             <rdg wit="#土本 #等"/>
             <rdg wit="#勢多本頭書 #鈴鹿本頭書">拠上条履二両下字備字内蔵寮弁備之義乎</rdg>
+            <note place="頭">勢多本頭書「拠上条履二両下字備字内蔵寮弁備之義乎」</note>
+            <note place="頭">鈴鹿本頭書「拠上条履二両下字備字内蔵寮弁備之義乎」</note>
             <note>屜　土本等無し。剛本により補う。勢多本・鈴鹿本頭書「拠上条履二両下字備字内蔵寮弁備之義乎」。</note>
           </app>
         </div>
@@ -152,6 +158,7 @@
           <app from="app1410050102" to="#app1410050102e">
             <lem wit="#剛本 #貞享本 #京博本朱傍書">枚</lem>
             <rdg wit="#土本 #近本 #壬本 #慶長本 #梵本">枝</rdg>
+            <note place="傍">京博本朱傍書「<seg style="color:red">枚</seg>」</note>
             <note>枚　土本・近本・壬本・慶長本・梵本「枝」。剛本・貞享本、京博本朱傍書により改める。</note>
           </app>
           <app from="#app1410050103" to="#app1410050103e">
@@ -181,7 +188,9 @@
           </app>
           <app from="#app1410060102" to="#app1410060102e">
             <lem wit="#土本">帔</lem>
-            <rdg wit="#壬本傍書 #京博本傍書">如裲襠也、或曰被也イ</rdg>
+            <rdg/>
+            <note place="傍">壬本傍書「如裲襠也、或曰被也イ」</note>
+            <note place="傍">京博本傍書「如裲襠也、或曰被也イ」</note>
             <note>帔　壬本・京博本傍書「如裲襠也、或曰被也イ」。</note>
           </app>
         </div>
@@ -217,7 +226,7 @@
           </app>
           <app from="#app1410070104" to="#app1410070104e">
             <lem wit="#土本">五両三分二銖</lem>
-            <rdg wit="#考異">八両一分二銖</rdg>
+            <rdg/>
             <note>五両三分二銖　考異は計算により「八両一分二銖」の誤りとする。</note>
           </app>
           <app from="#app1410070105" to="#app1410070105e">
@@ -228,7 +237,8 @@
           <app from="#app1410070106" to="#app1410070106e">
             <lem wit="#壬本 #等 #近本傍書">亮</lem>
             <rdg wit="#土本">高</rdg>
-            <rdg wit="#剛本">高儿</rdg>
+            <rdg wit="#剛本">【高＋儿】</rdg>
+            <note place="傍">近本傍書「亮」</note>
             <note>亮　土本「高」。剛本は「高」に朱で「儿」を補筆する。壬本等、近本傍書により改める。</note>
           </app>
           <app from="#app1410070107" to="app1410070107e">
@@ -260,49 +270,62 @@
           <app from="#app1410080101" to="#app1410080101e">
             <lem wit="#剛本 #壬本 #等 #近本傍書">講</lem>
             <rdg wit="#土本">読</rdg>
+            <note place="傍">近本傍書「講」</note>
             <note>講　土本「読」。剛本・壬本等、近本傍書により改める。</note>
           </app>
           <app from="#app1410080102" to="#app1410080102e">
             <lem wit="#土本">四</lem>
-            <rdg wit="#剛本朱傍書">小〈或本〉</rdg>
-            <rdg wit="#剛本朱頭書">本無小字</rdg>
+            <rdg/>
+            <note place="傍">剛本朱傍書「<seg style="color:red">小〈或本〉</seg>」</note>
+            <note place="頭">剛本朱頭書「<seg style="color:red">本無小字</seg>」</note>
             <note>四　剛本朱傍書「小〈或本〉」、朱頭書「本無小字」。</note>
           </app>
           <app from="#app1410080103" to="#app1410080103e">
             <lem wit="#土本">帔</lem>
-            <rdg wit="#剛本朱傍書">如被物云々</rdg>
-            <rdg wit="#京博本傍書 #壬本傍書">此字ウチカハ、横被類也イ</rdg>
+            <rdg/>
+            <note place="傍">剛本朱傍書「<seg style="color:red">如被物云々</seg>」</note>
+            <note place="傍">京博本傍書「此字ウチカハ、横被類也イ」</note>
+            <note place="傍">壬本傍書「此字ウチカハ、横被類也イ」</note>
             <note>帔　剛本朱傍書「如被物云々」。京博本・壬生本傍書「此字ウチカハ、横被類也イ」。</note>
           </app>
           <app from="#app1410080104" to="#app1410080104e">
             <lem wit="#土本">蔭脊</lem>
             <rdg/>
+            <note place="頭">剛本頭書「方言要目云、上又為裙、廕字於鴆反、履背衣也、其形如礼服、被大領寛也」</note>
+            <note place="傍">壬本傍書「横被別名」</note>
+            <note place="傍">京博本傍書「横被別名」</note>
             <note>蔭脊　剛本頭書「方言要目云、上又為裙、廕字於鴆反、履背衣也、其形如礼服、被大領寛也」。壬本・京博本傍書「横被別名」。</note>
           </app>
           <app from="app1410080105" to="#app1410080105e">
             <lem wit="#剛本 #近本傍書">施</lem>
             <rdg wit="#土本 #等">絁</rdg>
+            <note place="傍">近本傍書「施」</note>
             <note>施　土本等「絁」。剛本、近本傍書により改める。</note>
           </app>
           <app from="#app1410080106" to="#app1410080106e">
             <lem wit="#剛本 #近本傍書">施</lem>
             <rdg wit="#土本 #等">絁</rdg>
+            <note place="傍">近本傍書「施」</note>
             <note>施　土本等「絁」。剛本、近本傍書により改める。</note>
           </app>
           <app from="#app1410080107" to="#app1410080107e">
             <lem wit="#剛本">櫃</lem>
             <rdg wit="#土本 #等"/>
             <rdg wit="#近本傍書 #京博本朱傍書">筥</rdg>
+            <note place="傍">近本傍書「筥」</note>
+            <note place="傍">京博本朱傍書「<seg style="color:rd">筥</seg>」</note>
             <note>櫃　土本等無し。剛本により補う。近本傍書・京博本朱傍書「筥」。</note>
           </app>
           <app from="#app1410080108" to="#app1410080108e">
             <lem wit="#剛本 #近本傍書">施</lem>
             <rdg wit="#土本 #等">絁</rdg>
+            <note place="傍">近本傍書「施」</note>
             <note>施　土本等「絁」。剛本、近本傍書により改める。</note>
           </app>
           <app from="#app1410080109" to="#app1410080109e">
             <lem wit="#剛本 #近本傍書">施</lem>
             <rdg wit="#土本 #等">絁</rdg>
+            <note place="傍">近本傍書「施」</note>
             <note>施　土本等「絁」。剛本、近本傍書により改める。</note>
           </app>
           <app from="#app1410080110" to="#app1410080110e">
@@ -349,22 +372,24 @@
             <lem wit="#土本 #剛本朱傍書">淡</lem>
             <rdg wit="#剛本">深</rdg>
             <rdg wit="#訳注本">浅</rdg>
+            <note style="傍">剛本朱傍書「<seg style="color:red">淡</seg>」</note>
             <note>淡　剛本「深」に朱傍書「淡」、訳注本「浅」。</note>
           </app>
           <app from="#app1410090102" to="#app1410090102e">
             <lem wit="#土本">𧜣</lem>
-            <rdg wit="#剛本朱傍書">都聊反、短衣也</rdg>
+            <rdg/>
+            <note place="傍">剛本朱傍書「<seg style="color:red">都聊反、短衣也</seg>」</note>
             <note>𧜣　剛本朱傍書「都聊反、短衣也」。</note>
           </app>
           <app from="#app1410090103" to="#app1410090103e">
-            <lem wit="#訳注本">四</lem>
+            <lem wit="#訳注本" cause="計算">四</lem>
             <rdg wit="#土本 #等">三</rdg>
             <rdg wit="#剛本">二</rdg>
             <note>四　土本等「三」。剛本「二」。計算により意改する訳注本に従う。</note>
           </app>
           <app from="#app1410090104" to="#app1410090104e">
-            <lem wit="#土本">糸二両三銖〈別五銖〉</lem>
-            <rdg wit="#考異">「案蓋本文注文共誤、恐弐両弐分別参銖之誤」</rdg>
+            <lem wit="#土本">糸二両三銖、〈別五銖、〉</lem>
+            <rdg/>
             <note>糸二両三銖〈別五銖〉　考異「案蓋本文注文共誤、恐弐両弐分別参銖之誤」。</note>
           </app>
           <app from="#app1410090201" to="#app1410090201e">
@@ -374,12 +399,15 @@
           </app>
           <app from="#app1410090202" to="#app1410090202e">
             <lem wit="#剛本 #近本傍書 #京博本朱傍書">領</lem>
-            <rdg/>
+            <rdg wit="#土本 #等"/>
+            <note place="傍">近本傍書「領」</note>
+            <note place="傍">京博本朱傍書「<seg style="color:red">領</seg>」</note>
             <note>領　土本等無し。剛本、近本傍書、京博本朱傍書により補う。</note>
           </app>
           <app from="#app1410090203" to="#app1410090203e">
             <lem wit="#剛本傍書 #近本傍書">表</lem>
             <rdg wit="#土本 #等">𧜣</rdg>
+            <note place="傍">近本傍書「表」</note>
             <note>表　土本等「𧜣」。剛本・近本傍書により改める。</note>
           </app>
         </div>
@@ -415,17 +443,20 @@
             />依数、従内蔵寮受之、准例染縫、〈臨時定色、〉月別一日・十六日両般均分供進、若数不等者、上般加之、</p>
           <app from="#app1410100101" to="#app1410100101e">
             <lem wit="#土本">背子</lem>
-            <rdg wit="#剛本朱傍書">唐衣云々</rdg>
+            <rdg/>
+            <note place="傍">剛本朱傍書「<seg style="color:red">唐衣云々</seg>」</note>
             <note>背子　剛本朱傍書「唐衣云々」。</note>
           </app>
           <app from="#app1410100102" to="#app1410100102e">
             <lem wit="#土本">作目</lem>
-            <rdg wit="#剛本朱傍書">謂目染</rdg>
+            <rdg/>
+            <note place="傍">剛本朱傍書「<seg style="color:red">謂目染</seg>」</note>
             <note>作目　剛本朱傍書「謂目染」。</note>
           </app>
           <app from="#app1410100103" to="#app1410100103e">
             <lem wit="#土本">絹</lem>
             <rdg wit="#剛本朱傍書">白絹</rdg>
+            <note place="傍">剛本朱傍書「<seg style="color:red">白</seg>」</note>
             <note>絹　剛本は朱傍書してこの上に「白」を補う。</note>
           </app>
           <app from="#app1410100104" to="#app1410100104e">
@@ -459,7 +490,7 @@
             <note>同　諸本無し。考異に従い意補する。</note>
           </app>
           <app from="#app1410100302" to="#app1410100302e">
-            <lem wit="#訳注本 #内蔵式41条">季</lem>
+            <lem wit="#訳注本">季</lem>
             <rdg wit="#諸本">年</rdg>
             <note>季　諸本「年」。訳注本にならい内蔵式41条により意改する。</note>
           </app>
@@ -495,12 +526,15 @@
           </app>
           <app from="#app1410120102" to="#app1410120102e">
             <lem wit="#土本">蔭脊</lem>
-            <rdg wit="#剛本朱傍書">横被名云々</rdg>
+            <rdg/>
+            <note place="傍">剛本朱傍書「<seg style="color:red">横被名云々</seg>」</note>
             <note>蔭脊　剛本朱傍書「横被名云々」。</note>
           </app>
           <app from="#app1410120103" to="#app1410120103e">
             <lem wit="#近本傍書 #京博本朱傍書">小</lem>
             <rdg wit="#諸本"/>
+            <note place="傍">近本傍書「小」</note>
+            <note place="傍">京博本朱傍書「<seg style="color:red">小</seg>」</note>
             <note>小　諸本無し。近本傍書、京博本朱傍書により補う。</note>
           </app>
           <app from="#app1410120104" to="#app1410120104e">
@@ -606,7 +640,8 @@
           </app>
           <app from="#app1410130301" to="#app1410130301e">
             <lem wit="#土本">深滅紫</lem>
-            <rdg wit="#剛本朱傍書">弾式云、滅紫着半臂云々、案是紫歟、即知黒半□定是歟</rdg>
+            <rdg/>
+            <note place="傍">剛本朱傍書「<seg style="color:red">弾式云、滅紫着半臂云々、案是紫歟、即知黒半□定是歟</seg>」</note>
             <note>深滅紫　剛本朱傍書「弾式云、滅紫着半臂云々、案是紫歟、即知黒半□定是歟」。</note>
           </app>
           <app from="#app1410130302" to="#app1410130302e">
@@ -622,6 +657,7 @@
           <app from="#app1410130401" to="#app1410130401e">
             <lem wit="#剛本 #壬本 #京博本 #貞享本 #近本傍書">升</lem>
             <rdg wit="#土本 #慶長本 #梵本"/>
+            <note place="傍">近本傍書「升」</note>
             <note>升　土本・慶長本・梵本無し。剛本・壬本・京博本・貞享本、近本傍書により補う。</note>
           </app>
           <app from="#app1410130402" to="#app1410130402e">
@@ -631,7 +667,8 @@
           </app>
           <app from="#app1410130403" to="#app1410130403e">
             <lem wit="#土本">東絁</lem>
-            <rdg wit="#剛本朱傍書">糸紬</rdg>
+            <rdg/>
+            <note place="傍">剛本朱傍書「<seg style="color:red">糸紬</seg>」</note>
             <note>東絁　剛本朱傍書「糸紬」。</note>
           </app>
           <app from="#app1410130501" to="#app1410130501e">
@@ -641,12 +678,12 @@
           </app>
           <app from="#app1410130601" to="#app1410130601e">
             <lem wit="#土本">大</lem>
-            <rdg wit="#考異">大当作小</rdg>
+            <rdg/>
             <note>大　考異「大当作小」とする。</note>
           </app>
           <app from="#app1410130701" to="#app1410130701e">
             <lem wit="#土本">三</lem>
-            <rdg wit="考異">三当作二</rdg>
+            <rdg/>
             <note>三　考異「三当作二」とする。</note>
           </app>
           <app from="#app1410130801" to="#app1410130801e">
