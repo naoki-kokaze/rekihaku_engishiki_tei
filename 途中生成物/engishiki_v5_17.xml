@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
       <teiHeader>
@@ -35,7 +36,7 @@
                   </sourceDesc>
             </fileDesc>
             <encodingDesc>
-                  <variantEncoding location="external" method="double-end-point"/>
+                  <variantEncoding method="double-end-point" location="external"/>
             </encodingDesc>
       </teiHeader>
       <text>
@@ -1707,7 +1708,7 @@
                                     <lem wit="#土本 #諸本">段</lem>
                                     <rdg wit="#訳注本">端</rdg>
                                     <rdg wit="#京博本左傍書 #九冊本左傍書">端イニ</rdg>
-                                    <rdg wit="#鈴鹿本書入">端同上</rdg>
+                                    <rdg wit="#鈴鹿本書入">端同上</rdg>                                    
                                     <note>段　訳注本「端」に意改。諸本「段」。京博本左傍書・九冊本左傍書「端イニ」、鈴鹿本書入「端同上」。</note>
                               </app>
                               <app from="#app0510540307" to="#app0510540307e">
@@ -2044,10 +2045,8 @@
                               <p ana="項"
                                     corresp="engishiki_ja.xml#item05106301 engishiki_en.xml#item05106301"
                                     xml:id="item05106301"> 毎月晦日卜庭神祭〈斎王参三時祭卜庭神祭准此、〉<lb/>
-                                    <anchor xml:id="app0510630101"/>米・酒各四升<anchor
-                                          xml:id="app0510630101e"/>、堅魚・海藻各一斤、腊二升、<anchor
-                                          xml:id="app0510630102"/>塩一升<anchor xml:id="app0510630102e"
-                                    />、</p>
+                                    <anchor xml:id="app0510630101"/>米・酒各四升<anchor xml:id="app0510630101e"/>、堅魚・海藻各一斤、腊二升、<anchor xml:id="app0510630102"
+                                          />塩一升<anchor xml:id="app0510630102e"/>、</p>
                               <app from="#app0510630101" to="#app0510630101e">
                                     <lem>米・酒各四升</lem>
                                     <note>米酒各四升　考異はこの前後に脱文有らんと推測する。訳注本も従うべきかとする。</note>
@@ -2525,9 +2524,9 @@
                                           xml:id="app0510710907"/>二斤一分<anchor
                                           xml:id="app0510710907e"/>、白芷<anchor xml:id="app0510710908"
                                           />二斤一分<anchor xml:id="app0510710908e"
-                                    />、当帰四両二分、蒴藋一斤一分、商陸四両一分、 <anchor xml:id="app0510710909"
-                                          />妨<anchor xml:id="app0510710909e"
-                                          />草三斤五両、黄耆四両一分、牡丹四両一分、地楡四両一分、大戟五両一分、玄参三両三分、白頭公三両一分、躑躅花九両一分、<anchor
+                                    />、当帰四両二分、蒴藋一斤一分、商陸四両一分、
+                                    <anchor xml:id="app0510710909"/>妨<anchor xml:id="app0510710909e"
+                                    />草三斤五両、黄耆四両一分、牡丹四両一分、地楡四両一分、大戟五両一分、玄参三両三分、白頭公三両一分、躑躅花九両一分、<anchor
                                           xml:id="app0510710910"/>抜<anchor xml:id="app0510710910e"
                                     />葜一両一分、
                                     酢二斗五升、砥一顆、両面九尺六寸、油絁九尺六寸、帛四丈一尺、緋帛一丈五寸、絹八尺、紗三尺、布三丈五尺、糸二両、木綿七両、紙八十四張、〈已上寮充之、〉
@@ -2576,7 +2575,7 @@
                               <app from="#app0510710908" to="#app0510710908e">
                                     <lem wit="#考異">二斤一分</lem>
                                     <rdg wit="#諸本">二升一合</rdg>
-                                    <note>二斤一分　諸本「二升一合」。考異に従い意改する。</note>
+                                    <note>二斤一分　諸本「二升一合」。考異に従い意改する。</note>                              
                               </app>
                               <app from="#app0510710909" to="#app0510710909e">
                                     <lem wit="#土本">妨</lem>
@@ -2744,6 +2743,7 @@
                                     <rdg wit="#土本 #等">准</rdg>
                                     <note>雑　土本等「准」。近本・京博本傍書により改める。</note>
                               </app>
+                              
                         </div>
                         <div ana="斎宮" n="5.78" subtype="項" type="条">
                               <head ana="調庸雑物"/>
@@ -3091,8 +3091,7 @@
                         </div>
                   </div>
                   <div ana="内匠" n="17" subtype="条" type="式">
-                        <pb
-                              facs="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-17%2F00002.tif/full/full/0/default.jpg"/>
+                        <pb facs="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-17%2F00002.tif/full/full/0/default.jpg"/>
                         <head>内匠</head>
                         <div ana="内匠" n="17.1" subtype="項" type="条">
                               <head ana="大極殿飾"/>
@@ -3108,10 +3107,8 @@
                                           xml:id="app1710010104e"
                                           />鉄火袋、〉中階以南相去十丈、東西之間相去六丈、又建烏像・宝幢等之処差向工一人、其蕃客朝参之時亦同、元日<anchor
                                           xml:id="app1710010105"/>御座<anchor xml:id="app1710010105e"
-                                          />飾物収内蔵寮、<pb
-                                          facs="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-17%2F00003.tif/full/full/0/default.jpg"
-                                    />当時出用、幔台及火炉収寮、</p>
-                              <app from="#app1710010101" to="#app1710010101e" type="標注">
+                                          />飾物収内蔵寮、<pb facs="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-17%2F00003.tif/full/full/0/default.jpg"/>当時出用、幔台及火炉収寮、</p>
+                              <app from="#app1710010101" to="#app1710010101e">
                                     <lem wit="#壬本 #京博本 #等">弘イ貞イ</lem>
                                     <rdg wit="#土本"/>
                                     <note>「弘イ貞イ」　土本無し。壬本・京博本等による。</note>
@@ -3145,7 +3142,7 @@
                                     xml:id="item17100201">
                                     <anchor xml:id="app1710020101"/><anchor xml:id="app1710020101e"
                                     />凡正月斎会、前一日長上率雑工等、従図書寮運高座具、構立大極殿、事了返送本寮、</p>
-                              <app from="#app1710020101" to="#app1710020101e" type="標注">
+                              <app from="#app1710020101" to="#app1710020101e">
                                     <lem wit="#壬本 #京博本 #等">弘イ貞イ</lem>
                                     <rdg wit="#土本"/>
                                     <note>土本無し。壬本・京博本等による。</note>
@@ -3162,7 +3159,7 @@
                                     />、〉小安殿以信濃布張東隔蓋代、 事了却収、儛台障泥板方三丈、行幸之前二日令画所絵、但蕃<anchor
                                           xml:id="app1710030103"/>客<anchor xml:id="app1710030103e"
                                     />之時画方六丈、</p>
-                              <app from="#app1710030101" to="#app1710030101e" type="標注">
+                              <app from="#app1710030101" to="#app1710030101e">
                                     <lem wit="#壬本 #京博本 #等">弘イ貞イ</lem>
                                     <rdg wit="#土本"/>
                                     <note>弘イ貞イ　土本無し。壬本・京博本等による。</note>
@@ -3205,20 +3202,19 @@
                                     <anchor xml:id="app1710050101"/><anchor xml:id="app1710050101e"
                                     />御飯笥一合〈径六寸、深一寸七分、〉料、銀大二斤八両、炭一石二斗、和炭二石、油三合五夕、長功日十六人、〈火工五人、轆轤工四人、磨三人、夫四人、〉
                                     中功日十九人、〈工十四人、夫五人、〉短功日廿二人、〈工十六人、夫六人、〉</p>
-                              <app from="#app1710050101" to="#app1710050101e" type="標注">
+                              <app from="#app1710050101" to="#app1710050101e">
                                     <lem wit="#壬本 #京博本 #等">弘貞イ</lem>
                                     <rdg wit="#土本"/>
                                     <note>「弘貞イ」　土本無し。壬本・京博本等による。</note>
                               </app>
-                              <pb
-                                    facs="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-17%2F00004.tif/full/full/0/default.jpg"/>
+                              <pb facs="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-17%2F00004.tif/full/full/0/default.jpg"/>
                               <p ana="項"
                                     corresp="engishiki_ja.xml#item17100502 engishiki_en.xml#item17100502"
                                     xml:id="item17100502">
                                     <anchor xml:id="app1710050201"/><anchor xml:id="app1710050201e"
                                     />酒壺一合〈受一斗五升、〉料、銀大七斤八両、炭二石、和炭七斛五斗、油八合六夕、長功卅四人、〈火工十二人、轆轤六人、磨四人、夫十二人、〉
                                     中功卅九人、〈工廿六人、夫十三人、〉短功卌三人、〈工廿九人、夫十四人、〉</p>
-                              <app from="#app1710050201" to="#app1710050201e" type="標注">
+                              <app from="#app1710050201" to="#app1710050201e">
                                     <lem wit="#壬本 #京博本 #等">弘貞イ</lem>
                                     <rdg wit="#土本"/>
                                     <note>「弘貞イ」　土本無し。壬本・京博本等による。</note>
@@ -3235,14 +3231,14 @@
                                           />炭六斗<anchor xml:id="app1710050402e"
                                     />、和炭一斛三斗、油一合四夕、長功一十人、〈火工五人、轆轤一人、磨二人、夫二人、〉
                                     中功一十二人、〈工九人半、夫二人半、〉短功十三人大半、〈工十一人、夫二人大半、〉</p>
-                              <app from="#app1710050401" to="#app1710050401e" type="標注">
+                              <app from="#app1710050401" to="#app1710050401e">
                                     <lem wit="#壬本 #京博本 #等">弘貞イ</lem>
                                     <rdg wit="#土本"/>
                                     <note>「弘貞イ」　土本無し。壬本・京博本等による。</note>
                               </app>
                               <app from="#app1710050402" to="#app1710050402e">
                                     <lem>炭六斗</lem>
-                                    <rdg/>
+                                    <rdg></rdg>
                                     <note>炭六斗　土本本文「六斗炭」に作るも朱線にて訂正。</note>
                               </app>
                               <p ana="項"
@@ -3252,7 +3248,7 @@
                                           />盞一口〈受三合、加蓋盤、〉料、銀大<anchor xml:id="app1710050502"
                                           />一<anchor xml:id="app1710050502e"
                                     />斤、炭六斗、和炭一石二斗、油一合五夕、長功一十人、〈火工二人、轆轤三人、磨二人、夫三人、〉中功一十一人、〈工八人、夫三人、〉短功一十二人、〈工九人、夫三人、〉</p>
-                              <app from="#app1710050501" to="#app1710050501e" type="標注">
+                              <app from="#app1710050501" to="#app1710050501e">
                                     <lem wit="#壬本 #京博本 #等">弘貞イ</lem>
                                     <rdg wit="#土本"/>
                                     <note>「弘貞イ」　土本無し。壬本・京博本等による。</note>
@@ -3270,7 +3266,7 @@
                                           <anchor xml:id="app1710050602"/>中功一十七人半<anchor
                                           xml:id="app1710050602e"
                                     />、〈工一十二人大半、夫四人大半、〉短功十二人、〈工一十人、夫二人、〉</p>
-                              <app from="#app1710050601" to="#app1710050601e" type="標注">
+                              <app from="#app1710050601" to="#app1710050601e">
                                     <lem wit="#壬本 #京博本 #等">弘貞イ</lem>
                                     <rdg wit="#土本"/>
                                     <note>「弘貞イ」　土本無し。壬本・京博本等による。</note>
@@ -3285,22 +3281,21 @@
                                     xml:id="item17100507">
                                     <anchor xml:id="app1710050701"/><anchor xml:id="app1710050701e"
                                     />盤一口〈径七寸五分、〉料、銀大十四両、炭四斗、和炭八斗、油一合六夕、長功七人、〈火工二人、轆轤二人、磨一人、夫二人、〉中功七人小半、短功七人大半、</p>
-                              <app from="#app1710050701" to="#app1710050701e" type="標注">
+                              <app from="#app1710050701" to="#app1710050701e">
                                     <lem wit="#壬本 #京博本 #等">弘貞イ</lem>
                                     <rdg wit="#土本"/>
                                     <note>「弘貞イ」　土本無し。壬本・京博本等による。</note>
                               </app>
                         </div>
                         <div ana="内匠" n="17.6" subtype="項" type="条">
-                              <pb
-                                    facs="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-17%2F00005.tif/full/full/0/default.jpg"/>
+                              <pb facs="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-17%2F00005.tif/full/full/0/default.jpg"/>
                               <head ana="漆器"/>
                               <p ana="項"
                                     corresp="engishiki_ja.xml#item17100601 engishiki_en.xml#item17100601"
                                     xml:id="item17100601"> 漆供御雑器<lb/>
                                     <anchor xml:id="app1710060101"/><anchor xml:id="app1710060101e"
                                     />膳櫃一合、〈長三尺三寸、深八寸五分、広二尺三寸、〉下案一脚、〈長五尺四寸、広二尺四寸、高一尺七寸、〉並塗赤漆料、漆一升二合、荏油四合、綿六両、絁・布各一尺二寸、炭一斗五升、功六人半、</p>
-                              <app from="#app1710060101" to="#app1710060101e" type="標注">
+                              <app from="#app1710060101" to="#app1710060101e">
                                     <lem wit="#壬本 #京博本 #等">弘</lem>
                                     <rdg wit="#土本"/>
                                     <note>「弘」　土本無し。壬本・京博本等による。</note>
@@ -3310,7 +3305,7 @@
                                     xml:id="item17100602">
                                     <anchor xml:id="app1710060201"/><anchor xml:id="app1710060201e"
                                     />手湯戸一口、〈周五尺八寸五分、高二尺五寸五分、〉蓋一枚〈周三尺五分〉料、漆三升、掃墨五合、貲布九尺、綿一斤四両、絁・布各一尺二寸、油二合、功五人大半、</p>
-                              <app from="#app1710060201" to="#app1710060201e" type="標注">
+                              <app from="#app1710060201" to="#app1710060201e">
                                     <lem wit="#壬本 #京博本 #等">弘イ</lem>
                                     <rdg wit="#土本"/>
                                     <note>「弘イ」　土本無し。壬本・京博本等による。</note>
@@ -3320,7 +3315,7 @@
                                     xml:id="item17100603">
                                     <anchor xml:id="app1710060301"/><anchor xml:id="app1710060301e"
                                     />水槽一口〈周三尺五寸、高一尺二寸五分、〉料、漆一升一合、貲布四尺、掃墨三合、綿十両、絁・布各一尺二寸、油二合、炭一斗、功二人、</p>
-                              <app from="#app1710060301" to="#app1710060301e" type="標注">
+                              <app from="#app1710060301" to="#app1710060301e">
                                     <lem wit="#壬本 #京博本 #等">弘イ</lem>
                                     <rdg wit="#土本"/>
                                     <note>「弘イ」　土本無し。壬本・京博本等による。</note>
@@ -3330,7 +3325,7 @@
                                     xml:id="item17100604">
                                     <anchor xml:id="app1710060401"/><anchor xml:id="app1710060401e"
                                     />手洗槽一口〈周七尺一寸、高九寸、已上四種木工寮所作、〉料、漆二升五合、貲布八尺五寸、掃墨五合、綿一斤、絁・布各一尺二寸、油二合、炭二斗、功四人、</p>
-                              <app from="#app1710060401" to="#app1710060401e" type="標注">
+                              <app from="#app1710060401" to="#app1710060401e">
                                     <lem wit="#壬本 #京博本 #等">弘</lem>
                                     <rdg wit="#土本"/>
                                     <note>「弘」　土本無し。壬本・京博本等による。</note>
@@ -3340,7 +3335,7 @@
                                     xml:id="item17100605">
                                     <anchor xml:id="app1710060501"/><anchor xml:id="app1710060501e"
                                     />大椀一口〈径八寸六分、深三寸、〉料、漆一合七夕、貲布一尺、掃墨四夕、綿二両、功半人、</p>
-                              <app from="#app1710060501" to="#app1710060501e" type="標注">
+                              <app from="#app1710060501" to="#app1710060501e">
                                     <lem wit="#壬本 #京博本 #等">弘</lem>
                                     <rdg wit="#土本"/>
                                     <note>「弘」　土本無し。壬本・京博本等による。</note>
@@ -3350,7 +3345,7 @@
                                     xml:id="item17100606">
                                     <anchor xml:id="app1710060601"/><anchor xml:id="app1710060601e"
                                     />中椀一口〈径七寸八分、深二寸、〉料、漆一合四夕、貲布九寸、掃墨四夕、綿二両、功半人、</p>
-                              <app from="#app1710060601" to="#app1710060601e" type="標注">
+                              <app from="#app1710060601" to="#app1710060601e">
                                     <lem wit="#壬本 #京博本 #等">弘</lem>
                                     <rdg wit="#土本"/>
                                     <note>「弘」　土本無し。壬本・京博本等による。</note>
@@ -3360,13 +3355,12 @@
                                     xml:id="item17100607">
                                     <anchor xml:id="app1710060701"/><anchor xml:id="app1710060701e"
                                     />盤一口〈径八寸、〉料、漆一合一夕、貲布五寸、掃墨三夕、功半人、</p>
-                              <app from="#app1710060701" to="#app1710060701e" type="標注">
+                              <app from="#app1710060701" to="#app1710060701e">
                                     <lem wit="#壬本 #京博本 #等">弘</lem>
                                     <rdg wit="#土本"/>
                                     <note>「弘」　土本無し。壬本・京博本等による。</note>
                               </app>
-                              <pb
-                                    facs="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-17%2F00006.tif/full/full/0/default.jpg"/>
+                              <pb facs="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-17%2F00006.tif/full/full/0/default.jpg"/>
                               <p ana="項"
                                     corresp="engishiki_ja.xml#item17100608 engishiki_en.xml#item17100608"
                                     xml:id="item17100608">
@@ -3374,7 +3368,7 @@
                                           />窪<anchor xml:id="app1710060802"/>杯<anchor
                                           xml:id="app1710060802e"
                                     />一口〈径五寸、深一寸五分、〉料、漆七夕、貲布三寸、掃墨二夕、功小半人、</p>
-                              <app from="#app1710060801" to="#app1710060801e" type="標注">
+                              <app from="#app1710060801" to="#app1710060801e">
                                     <lem wit="#壬本 #京博本 #等">弘</lem>
                                     <rdg wit="#土本"/>
                                     <note>「弘」　土本無し。壬本・京博本等による。</note>
@@ -3393,7 +3387,7 @@
                                     <anchor xml:id="app1710070101"/><anchor xml:id="app1710070101e"
                                     />台盤一面〈長八尺、広三尺三寸三分、〉料、漆一斗一升二合、朱沙一斤四両、帛四尺、綿三斤十二両、貲布二丈、調布六尺、掃墨二升、油二合、
                                     小麦一升、青砥・伊予砥、〈其数随用、下条不顕顆数者、亦准此、〉炭一石、長功卅八人、中功卌四人、短功五十人、</p>
-                              <app from="#app1710070101" to="#app1710070101e" type="標注">
+                              <app from="#app1710070101" to="#app1710070101e">
                                     <lem wit="#壬本 #京博本 #等">弘貞イ</lem>
                                     <rdg wit="#土本"/>
                                     <note>「弘貞イ」　土本無し。壬本・京博本等による。</note>
@@ -3403,7 +3397,7 @@
                                     xml:id="item17100702">
                                     <anchor xml:id="app1710070201"/><anchor xml:id="app1710070201e"
                                     />台盤一面〈長四尺、広三尺二寸五分、〉料、漆五升六合、朱沙十両、帛二尺、綿二斤、貲布一丈、調布三尺、掃墨一升、油一合、小麦五合、青砥・伊予砥、炭五斗、長功十九人、中功廿二人、短功廿五人、</p>
-                              <app from="#app1710070201" to="#app1710070201e" type="標注">
+                              <app from="#app1710070201" to="#app1710070201e">
                                     <lem wit="#壬本 #京博本 #等">弘</lem>
                                     <rdg wit="#土本"/>
                                     <note>「弘」　土本無し。壬本・京博本等による。</note>
@@ -3414,15 +3408,14 @@
                                     八尺台盤台一脚〈長七尺六分、広二尺五寸七分、高一尺五寸五分、〉料、漆五升、絹一尺五寸、布二尺、綿一斤十両、掃墨一升、油二合、細布五尺、〈黏料、〉伊予砥・青砥各小半顆、炭五斗、単功廿五人、</p>
                               <p ana="項"
                                     corresp="engishiki_ja.xml#item17100704 engishiki_en.xml#item17100704"
-                                    xml:id="item17100704"> 四尺台盤台一脚〈長三尺二寸、広二尺三寸、高一尺五寸五分、〉<pb
-                                          facs="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-17%2F00007.tif/full/full/0/default.jpg"
-                                    />料、漆二升五合、絹・布各一尺、綿十三両、掃墨五合、油一合、細布三尺、〈黏料、〉伊予砥・青砥各小半顆、炭二斗五升、単功十三人、</p>
+                                    xml:id="item17100704">
+                                    四尺台盤台一脚〈長三尺二寸、広二尺三寸、高一尺五寸五分、〉<pb facs="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-17%2F00007.tif/full/full/0/default.jpg"/>料、漆二升五合、絹・布各一尺、綿十三両、掃墨五合、油一合、細布三尺、〈黏料、〉伊予砥・青砥各小半顆、炭二斗五升、単功十三人、</p>
                               <p ana="項"
                                     corresp="engishiki_ja.xml#item17100705 engishiki_en.xml#item17100705"
                                     xml:id="item17100705">
                                     <anchor xml:id="app1710070501"/><anchor xml:id="app1710070501e"
                                     />酒海一合〈受一斗五升、〉料、漆一升六合、朱沙六両、貲布五尺、絁・布各二尺、綿八両、掃墨二合、油一合、長功卅四人、中功卌人、短功卌六人、</p>
-                              <app from="#app1710070501" to="#app1710070501e" type="標注">
+                              <app from="#app1710070501" to="#app1710070501e">
                                     <lem wit="#壬本 #京博本 #等">弘貞</lem>
                                     <rdg wit="#土本"/>
                                     <note>「弘貞」　土本無し。壬本・京博本等による。</note>
@@ -3432,7 +3425,7 @@
                                     xml:id="item17100706">
                                     <anchor xml:id="app1710070601"/><anchor xml:id="app1710070601e"
                                     />花盤一口〈径九寸、〉料、漆一合五夕二撮、朱沙一分四銖、貲布九寸、絁・布各二寸、綿三分、掃墨二夕、油一夕、長功一人大半、中功二人、短功二人小半、</p>
-                              <app from="#app1710070601" to="#app1710070601e" type="標注">
+                              <app from="#app1710070601" to="#app1710070601e">
                                     <lem wit="#壬本 #京博本 #等">弘貞イ</lem>
                                     <rdg wit="#土本"/>
                                     <note>「弘貞イ」　土本無し。壬本・京博本等による。</note>
@@ -3442,7 +3435,7 @@
                                     xml:id="item17100707">
                                     <anchor xml:id="app1710070701"/><anchor xml:id="app1710070701e"
                                     />飯椀一口〈径八寸、〉料、漆一合二夕、朱沙一分、貲布五寸、絁・布各一寸、綿三分、掃墨二夕、油一夕、炭一升、長功一人大半、中功二人、短功二人小半、</p>
-                              <app from="#app1710070701" to="#app1710070701e" type="標注">
+                              <app from="#app1710070701" to="#app1710070701e">
                                     <lem wit="#壬本 #京博本 #等">弘貞</lem>
                                     <rdg wit="#土本"/>
                                     <note>「弘貞」　土本無し。壬本・京博本等による。</note>
@@ -3451,10 +3444,8 @@
                                     corresp="engishiki_ja.xml#item17100708 engishiki_en.xml#item17100708"
                                     xml:id="item17100708">
                                     <anchor xml:id="app1710070801"/><anchor xml:id="app1710070801e"
-                                          />羮椀一口〈径七寸、〉料、漆一合二夕、朱沙一分、貲布五寸、絁・布各一寸、綿三分、掃墨二夕、油一夕、炭一升、長功一人小半、中功一人大<pb
-                                          facs="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-17%2F00008.tif/full/full/0/default.jpg"
-                                    />半、短功二人、</p>
-                              <app from="#app1710070801" to="#app1710070801e" type="標注">
+                                    />羮椀一口〈径七寸、〉料、漆一合二夕、朱沙一分、貲布五寸、絁・布各一寸、綿三分、掃墨二夕、油一夕、炭一升、長功一人小半、中功一人大<pb facs="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-17%2F00008.tif/full/full/0/default.jpg"/>半、短功二人、</p>
+                              <app from="#app1710070801" to="#app1710070801e">
                                     <lem wit="#壬本 #京博本 #等">弘貞イ</lem>
                                     <rdg wit="#土本"/>
                                     <note>「弘貞イ」　土本無し。壬本・京博本等による。</note>
@@ -3470,8 +3461,7 @@
                                     <rdg wit="#土本">敬王子</rdg>
                                     <note>擎子　土本「敬王子」。近本・壬本・京博本等により改める。土本等傍書「音強」、脚書「盛御膳盤、謂之擎子、覆膳上、謂之蓋擎子」あり。</note>
                               </app>
-                              <pb
-                                    facs="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-17%2F00009.tif/full/full/0/default.jpg"/>
+                              <pb facs="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-17%2F00009.tif/full/full/0/default.jpg"/>
                               <p ana="項"
                                     corresp="engishiki_ja.xml#item17100710 engishiki_en.xml#item17100710"
                                     xml:id="item17100710">
@@ -3479,7 +3469,7 @@
                                           />盞一口〈径五寸、〉料、漆七夕、朱沙一分、貲布二寸四分、絁・布各一寸、綿二分、掃墨一夕、油一夕、炭一升、長功一人、<anchor
                                           xml:id="app1710071002"/>中功一人<anchor
                                           xml:id="app1710071002e"/>小半、短功一人大半、</p>
-                              <app from="#app1710071001" to="#app1710071001e" type="標注">
+                              <app from="#app1710071001" to="#app1710071001e">
                                     <lem wit="#壬本 #京博本 #等">弘貞イ</lem>
                                     <rdg wit="#土本"/>
                                     <note>「弘貞イ」　土本無し。壬本・京博本等による。</note>
@@ -3505,7 +3495,7 @@
                                     xml:id="item17100712">
                                     <anchor xml:id="app1710071201"/><anchor xml:id="app1710071201e"
                                     />盤一口〈径七寸、〉料、漆一合、朱沙一分、貲布四寸、絁・布各一寸、綿二分、掃墨一夕、油一夕、炭一升、長功一人、中功一人半、短功二人、</p>
-                              <app from="#app1710071201" to="#app1710071201e" type="標注">
+                              <app from="#app1710071201" to="#app1710071201e">
                                     <lem wit="#壬本 #京博本 #等">弘貞イ</lem>
                                     <rdg wit="#土本"/>
                                     <note>「弘貞イ」　土本無し。壬本・京博本等による。</note>
@@ -3515,7 +3505,7 @@
                                     xml:id="item17100713">
                                     <anchor xml:id="app1710071301"/><anchor xml:id="app1710071301e"
                                     />盤一口〈径六寸、〉料、漆七夕、朱沙一分、貲布二寸四分、絁・布各一寸、綿二分、掃墨一夕、油一夕、炭一升、長功一人、中功一人小半、短功一人大半、</p>
-                              <app from="#app1710071301" to="#app1710071301e" type="標注">
+                              <app from="#app1710071301" to="#app1710071301e">
                                     <lem wit="#壬本 #京博本">弘</lem>
                                     <rdg wit="#土本"/>
                                     <note>「弘」　土本無し。壬本・京博本による。</note>
@@ -3525,7 +3515,7 @@
                                     xml:id="item17100714">
                                     <anchor xml:id="app1710071401"/><anchor xml:id="app1710071401e"
                                     />盤一口〈径五寸、〉料、漆六夕、朱沙一分、貲布二寸、絁・布各一寸、綿一分、掃墨一夕、油一夕、炭一升、長功一人、中功一人小半、短功一人大半、</p>
-                              <app from="#app1710071401" to="#app1710071401e" type="標注">
+                            <app from="#app1710071401" to="#app1710071401e">
                                     <lem wit="#壬本 #京博本 #等">弘貞イ</lem>
                                     <rdg wit="#土本"/>
                                     <note>「弘貞イ」　土本無し。壬本・京博本等による。</note>
@@ -3548,9 +3538,7 @@
                                     釼緒筥一合、〈長一尺二寸二分、広一尺一寸二分、深二寸、〉巾筥二合、〈各方一尺二分、深八分、〉唾巾筥二合、〈各長一尺五分、広八寸、深八分、〉
                                     【木節】筥四合、〈各長一尺一寸五分、広一尺三寸、深一寸五分、〉刀子筥一合〈雁鼻、長一尺二寸、広一尺、深一寸二分、〉料、牛皮十張、〈各長八尺已下七尺已上、〉鹿皮十張、〈各長五尺已上、〉
                                     漆六斗六升四合、熟麻廿斤七両、〈張縄料、〉帛一丈五尺、石見庸綿廿二斤十両、掃墨二斗四合、粘料信濃調布四端二丈五尺、小麦二斗四合、伊予砥五顆、青砥四枚、
-                                          橡絁<pb
-                                          facs="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-17%2F00010.tif/full/full/0/default.jpg"
-                                          />一疋三丈、〈革筥<anchor xml:id="app1710090101"/>工<anchor
+                                    橡絁<pb facs="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-17%2F00010.tif/full/full/0/default.jpg"/>一疋三丈、〈革筥<anchor xml:id="app1710090101"/>工<anchor
                                           xml:id="app1710090101e"/>三人衣・袴料、〉苧四斤九両、〈<anchor
                                           xml:id="app1710090102"/>縁<anchor xml:id="app1710090102e"
                                           />料、〉絹六尺四寸、油三升<anchor xml:id="app1710090103"/>三合<anchor
@@ -3571,7 +3559,7 @@
                               </app>
                               <app from="#app1710090103" to="#app1710090103e">
                                     <lem wit="#土本 #訳注本">三合</lem>
-                                    <rdg/>
+                                    <rdg></rdg>
                                     <note>三合　訳注本は「主殿式12条「五合」」と考異の指摘を紹介する。</note>
                               </app>
                               <app from="#app1710090104" to="#app1710090104e">
@@ -3596,7 +3584,7 @@
                                           />下一尺以上、〉料、柳一百三連、〈山城国進之、〉織筥料生糸一十二斤、巾料調布一丈、浸柳料商布一段、長功三百卅六人、<anchor
                                           xml:id="app1710100103"/>〈工、〉<anchor
                                           xml:id="app1710100103e"/>中功三百九十二人、短功四百卌八人、</p>
-                              <app from="#app1710100101" to="#app1710100101e" type="標注">
+                              <app from="#app1710100101" to="#app1710100101e">
                                     <lem wit="#壬本 #京博本">弘</lem>
                                     <rdg wit="#土本"/>
                                     <note>「弘」　土本無し。壬本・京博本による。</note>
@@ -3632,9 +3620,7 @@
                                           />、〈廿五両塗肱金料、卅九両三分<anchor xml:id="app1710110107"/>二銖<anchor
                                           xml:id="app1710110107e"
                                     />塗釘料、十八両三分合銀滅料、〉鉄四廷、〈三廷鋳釘湯鑵料、一廷鋳釘押形固料、〉
-                                          漆一斗二升五合、〈以二合五夕、充押木廿四枚、〉絹一丈、布二端二丈、石見綿四斤二両、麻大十斤、掃墨四升、油一升、酢九升三<pb
-                                          facs="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-17%2F00011.tif/full/full/0/default.jpg"
-                                    />合、猪髪十把、
+                                    漆一斗二升五合、〈以二合五夕、充押木廿四枚、〉絹一丈、布二端二丈、石見綿四斤二両、麻大十斤、掃墨四升、油一升、酢九升三<pb facs="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-17%2F00011.tif/full/full/0/default.jpg"/>合、猪髪十把、
                                     篦百五十株、〈塗花形釘金料、〉筆十五管、〈画肱金料、〉墨二廷、〈同料、〉洗革四枚、伊予砥七顆、青砥三枚、炭七十一斛七斗、和炭六十七斛九斗、
                                           単功二千八十四人、〈作骨工二百五十人、以一帖充五人、作肱金工千三百人、火作四百人、錯磨四百人、鏤打堺瑩五百人、作花形釘四百卅四人、鋳六十二人、錯三百十人、塗瑩六十<anchor
                                           xml:id="app1710110108"/>二<anchor xml:id="app1710110108e"
@@ -3646,7 +3632,7 @@
                               </app>
                               <app from="#app1710110102" to="#app1710110102e">
                                     <lem wit="#特記なし">四</lem>
-                                    <rdg/>
+                                    <rdg></rdg>
                                     <note>四　壬本・京博本朱傍書「或本ニイ」あり。</note>
                               </app>
                               <app from="#app1710110103" to="#app1710110103e">
@@ -3704,14 +3690,14 @@
                                           xml:id="app1710130102"/>精<anchor xml:id="app1710130102e"
                                     />二分、帛二尺五寸、綿四両、調布二尺、
                                     油一合、長功廿二人、〈鋳工二人、磨十八人、夫二人、〉中功廿五人大半、〈工廿三人小半、夫二人小半、〉短功廿九人小半、〈工廿七人、夫二人小半、〉</p>
-                              <app from="#app1710130101" to="#app1710130101e" type="標注">
+                              <app from="#app1710130101" to="#app1710130101e">
                                     <lem wit="#壬本 #京博本">弘</lem>
                                     <rdg wit="#土本"/>
                                     <note>「弘」　土本無し。壬本・京博本による。</note>
                               </app>
                               <app from="#app1710130102" to="#app1710130102e">
                                     <lem wit="#特記なし">精</lem>
-                                    <rdg/>
+                                    <rdg></rdg>
                                     <note>精　土本・近本・壬本等朱傍書「音掌」。</note>
                               </app>
                         </div>
@@ -3719,9 +3705,8 @@
                               <head ana="御帯"/>
                               <p ana="項"
                                     corresp="engishiki_ja.xml#item17101401 engishiki_en.xml#item17101401"
-                                    xml:id="item17101401"> 馬瑙御腰帯一条〈六道、〉料、馬革一条、〈長七尺、広六寸、〉<pb
-                                          facs="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-17%2F00012.tif/full/full/0/default.jpg"
-                                    />縫料生糸一分、拭料調布五寸、入革脈料苧小一両、張革縄料麻小七両、粘料米一合、
+                                    xml:id="item17101401">
+                                    馬瑙御腰帯一条〈六道、〉料、馬革一条、〈長七尺、広六寸、〉<pb facs="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-17%2F00012.tif/full/full/0/default.jpg"/>縫料生糸一分、拭料調布五寸、入革脈料苧小一両、張革縄料麻小七両、粘料米一合、
                                           作革料油一合、塩三合、糟三升、染料酢一合、漆<anchor xml:id="app1710140101"
                                           />三<anchor xml:id="app1710140101e"/>夕、炭五升、<anchor
                                           xml:id="app1710140102"/>銙具石<anchor xml:id="app1710140102e"
@@ -3730,7 +3715,7 @@
                                     長功一百七十五人、〈革工七人、石七十二人、銀十五人、夫八十一人、〉中功二百四人小半、〈工一百九人大半、夫九十四人半、〉短功二百卅三人小半、〈工一百廿五人小半、夫一百八人、〉</p>
                               <app from="#app1710140101" to="#app1710140101e">
                                     <lem wit="#特記なし">三</lem>
-                                    <rdg/>
+                                    <rdg></rdg>
                                     <note>三　壬本・京博本等朱傍書「二イ」。</note>
                               </app>
                               <app from="#app1710140102" to="#app1710140102e">
@@ -3740,7 +3725,7 @@
                               </app>
                               <app from="#app1710140103" to="#app1710140103e">
                                     <lem wit="#特記なし">鈌</lem>
-                                    <rdg/>
+                                    <rdg></rdg>
                                     <note>鈌　土本等朱傍書「音決、可勘」。</note>
                               </app>
                         </div>
@@ -3761,7 +3746,7 @@
                                     />一面料、熟銅大一斤八両、白【金葛】大三両、﨟大三両、調布二尺、炭三斗、和炭二斗、長功七人、〈取﨟様工二人、鋳二人、磨三人、〉中功八人小半、短功九人大半、</p>
                               <app from="#app1710160101" to="#app1710160101e">
                                     <lem>印</lem>
-                                    <rdg/>
+                                    <rdg></rdg>
                                     <note>印　土本は「仰」に近い字体をとる。</note>
                               </app>
                         </div>
@@ -3769,9 +3754,8 @@
                               <head ana="外印"/>
                               <p ana="項"
                                     corresp="engishiki_ja.xml#item17101701 engishiki_en.xml#item17101701"
-                                    xml:id="item17101701"> 外印一面料、熟銅大一斤、白【金葛】大二両、﨟大<pb
-                                          facs="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-17%2F00013.tif/full/full/0/default.jpg"
-                                    />二両、調布二尺、炭二斗、和炭二斗、長功七人、〈﨟工二人、鋳二人、磨三人、〉中功八人小半、短功九人大半、</p>
+                                    xml:id="item17101701">
+                                    外印一面料、熟銅大一斤、白【金葛】大二両、﨟大<pb facs="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-17%2F00013.tif/full/full/0/default.jpg"/>二両、調布二尺、炭二斗、和炭二斗、長功七人、〈﨟工二人、鋳二人、磨三人、〉中功八人小半、短功九人大半、</p>
                         </div>
                         <div ana="内匠" n="17.18" subtype="項" type="条">
                               <head ana="諸司印"/>
@@ -3810,9 +3794,7 @@
                                           xml:id="app1710200101"/>十<anchor xml:id="app1710200101e"
                                     />四枝、天井料檜榑八村、熟銅大八斤、滅金小六両二分、水銀小三両一分、
                                     鉄二廷、膠小十二両、漆一斗四升、掃墨四升、洗刷料油四合、木賊四両、篦十株、洗革方一尺、酢二合、天井裏料白綾一疋五丈三尺、表料帛一疋五丈三尺、縫料糸三両、
-                                          絞漆料帛三尺、石見綿四<pb
-                                          facs="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-17%2F00014.tif/full/full/0/default.jpg"
-                                    />斤、調布三尺、下銅湯料調布三尺、巾料布三尺、粘料糯米二升、伊予砥一顆半、青砥一枚、合漆料焼土一斗四升、炭二斛、和炭十一斛七斗五升、
+                                    絞漆料帛三尺、石見綿四<pb facs="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-17%2F00014.tif/full/full/0/default.jpg"/>斤、調布三尺、下銅湯料調布三尺、巾料布三尺、粘料糯米二升、伊予砥一顆半、青砥一枚、合漆料焼土一斗四升、炭二斛、和炭十一斛七斗五升、
                                     長功二百卌二人、〈木工七十一人半、銅卌二人半、鉄八人、画三人、漆百一人、張二人、夫十四人、〉中功二百八十二人小半、〈工二百六十六人、夫十六人小半、〉短功三百廿三人、〈工三百四人、夫十九人、〉</p>
                               <app from="#app1710200101" to="#app1710200101e">
                                     <lem wit="#近本 #壬本 #等">十</lem>
@@ -3834,9 +3816,7 @@
                                           xml:id="app1710210103e"
                                     />・障子押等料檜榑二村、骨料榲榑二村、蓋椽料簀子木廿六枝、〈笠縫氏供、〉蓋下桟料川竹十株、蓋料菅一囲、〈山城国進、〉
                                     熟銅大廿三斤、水銀小十五両、銀大一両二分、滅金小一斤十四両、釘料鉄三廷、膠小四両、漆一斗、掃墨三升、油四合、伊予砥一顆半、青砥一枚、障子料紫綾四丈、
-                                          <pb
-                                          facs="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-17%2F00015.tif/full/full/0/default.jpg"
-                                    />下張料東絁三丈五尺六寸、縁料錦一丈三尺、縫料紫糸二両、生糸六両、絞漆料帛三尺、石見綿三斤、調布一尺五寸、下銅湯料調布六尺、巾料調布六尺、
+                                    <pb facs="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-17%2F00015.tif/full/full/0/default.jpg"/>下張料東絁三丈五尺六寸、縁料錦一丈三尺、縫料紫糸二両、生糸六両、絞漆料帛三尺、石見綿三斤、調布一尺五寸、下銅湯料調布六尺、巾料調布六尺、
                                     浸菅并拭料商布一段、粘縁料薄紙十六張、糯米一升三合、小麦五合、焼土一斗、炭二斛七斗、和炭五十二斛五斗、
                                     長功三百卌人、〈木工五十五人、銅百卌七人、鉄七人、漆六十人、画七人、張五人、縫笠廿人、夫卅九人、〉
                                           中功三百九十四人大半、〈工三百五十一人小半、夫<anchor xml:id="app1710210104"
@@ -3866,7 +3846,7 @@
                               </app>
                               <app from="#app1710210105" to="#app1710210105e">
                                     <lem wit="#特記なし">四百五十三人小半、〈工四百一人大半、夫五十人、〉</lem>
-                                    <rdg/>
+                                    <rdg></rdg>
                                     <note>四百五十三人小半、〈工四百一人大半、夫五十人、〉　本文と分注とで計算が合わず、どちらかに誤あり。なお土本等には分注の下に空白符あり。</note>
                               </app>
                         </div>
@@ -3881,12 +3861,10 @@
                                           />、鳥居・高<anchor xml:id="app1710220103"/>欄<anchor
                                           xml:id="app1710220103e"/>料檜榑一村、熟銅大一斤十両、滅金小一両一分、
                                     水銀小二分三銖、鉄一廷、漆四升、掃墨一升五合、油二合、帛一尺二寸、石見綿一斤八両、調布四尺二寸、伊予砥半顆、青砥一枚、焼土七升、炭六斗、
-                                          和炭三斛二升、長功七十八人、〈木工廿四人、銅九人、鉄二人、画半人、漆卅六人、夫六<pb
-                                          facs="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-17%2F00016.tif/full/full/0/default.jpg"
-                                          />人半、〉中功九十一人、〈工八十三人小半、夫七人大半、〉短功一百四人、〈工九十<anchor
+                                    和炭三斛二升、長功七十八人、〈木工廿四人、銅九人、鉄二人、画半人、漆卅六人、夫六<pb facs="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-17%2F00016.tif/full/full/0/default.jpg"/>人半、〉中功九十一人、〈工八十三人小半、夫七人大半、〉短功一百四人、〈工九十<anchor
                                           xml:id="app1710220104"/>五人半<anchor xml:id="app1710220104e"
                                     />、夫八人半、〉</p>
-                              <app from="#app1710220101" to="#app1710220101e" type="標注">
+                              <app from="#app1710220101" to="#app1710220101e">
                                     <lem wit="#壬本 #京博本 #等">弘</lem>
                                     <rdg wit="#土本"/>
                                     <note>「弘」　土本無し。壬本・京博本等による。</note>
@@ -3932,15 +3910,12 @@
                                           />大<anchor xml:id="app1710230109e"
                                     />五両、毛料草二囲半、糯米一升、小麦一升、炭九斗、和炭廿四斛六斗、熬炭五斗、焼土五升、
                                     長功二百九十二人半、〈木工一百十九人、銅五十六人半、鉄卅五人半、画三人、釭四人、張十二人、漆廿二人、夫卌人半、〉
-                                          中功三百卌一人、〈工二百九十四人、夫<pb
-                                          facs="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-17%2F00017.tif/full/full/0/default.jpg"
-                                    />卌七人、〉短功三百八十九人大半、〈工三百卅六人、夫五十三人大半、〉</p>
+                                    中功三百卌一人、〈工二百九十四人、夫<pb facs="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-17%2F00017.tif/full/full/0/default.jpg"/>卌七人、〉短功三百八十九人大半、〈工三百卅六人、夫五十三人大半、〉</p>
                               <app from="#app1710230101" to="#app1710230101e">
                                     <lem wit="#特記なし">腰車</lem>
                                     <rdg wit="#土本等朱傍書">輦</rdg>
                                     <note place="傍">土本等朱傍書「<seg style="color:red">輦也</seg>」</note>
-                                    <note place="脚">朱脚書「<seg style="color:red"
-                                                >近代不知其様、或云、唐車也、今案輦也</seg>」あり。</note>
+                                    <note place="脚">朱脚書「<seg style="color:red">近代不知其様、或云、唐車也、今案輦也</seg>」あり。</note>
                               </app>
                               <app from="#app1710230102" to="#app1710230102e">
                                     <lem wit="#版本">高</lem>
@@ -4003,12 +3978,12 @@
                                           xml:id="app1710240106"/>充<anchor xml:id="app1710240106e"
                                     />半荷、〉染槽一隻、〈長一丈已下八尺以上、広三尺已下二尺以上、〉
                                           柴十五荷、杓二柄、水麻笥一口、〈受四斗已下、〉水<anchor xml:id="app1710240107"
-                                          />𤭖<anchor xml:id="app1710240107e"/>麻笥一口、〈受二斛、〉苧割雇女<pb
-                                          facs="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-17%2F00018.tif/full/full/0/default.jpg"
-                                          />単卅人食料、<anchor xml:id="app1710240108"/>米<anchor
-                                          xml:id="app1710240108e"/>二斗四升、〈人別八合、〉酒一斗八升、〈人別六合、〉
+                                          />𤭖<anchor xml:id="app1710240107e"
+                                          />麻笥一口、〈受二斛、〉苧割雇女<pb facs="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-17%2F00018.tif/full/full/0/default.jpg"/>単卅人食料、<anchor xml:id="app1710240108"
+                                          />米<anchor xml:id="app1710240108e"
+                                    />二斗四升、〈人別八合、〉酒一斗八升、〈人別六合、〉
                                     魚六升、〈人別二合、〉塩六合、〈人別二夕、〉海藻三連、〈人別一把、〉功新銭六十文、〈人別二文、〉工百三人、夫九十人、〈不論長短功、〉</p>
-                              <app from="#app1710240101" to="#app1710240101e" type="標注">
+                              <app from="#app1710240101" to="#app1710240101e">
                                     <lem wit="#壬本 #京博本 #等">「弘貞」</lem>
                                     <rdg wit="土本"/>
                                     <note>「弘貞」　土本無し。壬本・京博本等による。</note>
@@ -4061,10 +4036,8 @@
                                     />両、同黄三分、青黛二分、胡粉五両、中烟子二枚、紫土二両、金薄卅枚、墨一廷、膠十四両、筆料鹿毛二両、
                                           切金薄革一条、〈方一尺、〉練糸一両、漆二合、掃墨一合、絞漆料帛一尺、石見綿四両、調布一尺、洗刷料油五夕、金薄料綿二両、<anchor
                                           xml:id="app1710250102"/>中子<anchor xml:id="app1710250102e"
-                                    />料調布二尺五寸、 瑩釘料調布三尺、下銅湯料調布一尺、<pb
-                                          facs="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-17%2F00019.tif/full/full/0/default.jpg"
-                                          />下張料商布二段一<anchor xml:id="app1710250103"/>丈<anchor
-                                          xml:id="app1710250103e"
+                                          />料調布二尺五寸、 瑩釘料調布三尺、下銅湯料調布一尺、<pb facs="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-17%2F00019.tif/full/full/0/default.jpg"/>下張料商布二段一<anchor
+                                          xml:id="app1710250103"/>丈<anchor xml:id="app1710250103e"
                                     />、粘縁料薄紙十四張、中張料紙六十五張、番中粘料紙五張、石灰二合、紫革一条、〈長一尺、広八寸、〉
                                           糯米二升、小麦三升、炭五斛三斗、和炭一斛<anchor xml:id="app1710250104"
                                           />三<anchor xml:id="app1710250104e"
@@ -4104,7 +4077,7 @@
                                           中功<anchor xml:id="app1710260102"/>百<anchor
                                           xml:id="app1710260102e"
                                     />八十九人、〈工百七十六人大半、夫一十二人小半、〉短功二百一十六人、〈工二百一人、夫十五人、〉</p>
-                              <app from="#app1710260101" to="#app1710260101e" type="標注">
+                              <app from="#app1710260101" to="#app1710260101e">
                                     <lem wit="#壬本 #京博本 #等">「弘」</lem>
                                     <rdg wit="#土本"/>
                                     <note>「弘」　土本無し。壬本・京博本等による。</note>
@@ -4116,8 +4089,7 @@
                               </app>
                         </div>
                         <div ana="内匠" n="17.27" subtype="項" type="条">
-                              <pb
-                                    facs="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-17%2F00020.tif/full/full/0/default.jpg"/>
+                              <pb facs="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-17%2F00020.tif/full/full/0/default.jpg"/>
                               <head ana="幄"/>
                               <p ana="項"
                                     corresp="engishiki_ja.xml#item17102701 engishiki_en.xml#item17102701"
@@ -4162,8 +4134,7 @@
                               </app>
                         </div>
                         <div ana="内匠" n="17.31" subtype="項" type="条">
-                              <pb
-                                    facs="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-17%2F00021.tif/full/full/0/default.jpg"/>
+                              <pb facs="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-17%2F00021.tif/full/full/0/default.jpg"/>
                               <head ana="伊勢初斎院"/>
                               <p ana="項"
                                     corresp="engishiki_ja.xml#item17103101 engishiki_en.xml#item17103101"
@@ -4191,9 +4162,8 @@
                                     corresp="engishiki_ja.xml#item17103103 engishiki_en.xml#item17103103"
                                     xml:id="item17103103"> 五尺屏風四帖料、榲榑十村、〈骨料、〉檜榑一村、〈押料、〉炭<anchor
                                           xml:id="app1710310301"/>三<anchor xml:id="app1710310301e"
-                                    />斛、〈鋳釘并塗金料、〉和炭六斛、〈作肱金料、〉熟銅大三斤十二両、〈作肱金料、〉 半熟銅大十二斤、〈鋳釘料、〉<pb
-                                          facs="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-17%2F00022.tif/full/full/0/default.jpg"
-                                          />滅金十両三分、水銀五両二分、一窠白綾十二丈四尺、〈表料、〉縹絁十二丈四尺、〈裏料、〉紫綾五<anchor
+                                    />斛、〈鋳釘并塗金料、〉和炭六斛、〈作肱金料、〉熟銅大三斤十二両、〈作肱金料、〉
+                                    半熟銅大十二斤、〈鋳釘料、〉<pb facs="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-17%2F00022.tif/full/full/0/default.jpg"/>滅金十両三分、水銀五両二分、一窠白綾十二丈四尺、〈表料、〉縹絁十二丈四尺、〈裏料、〉紫綾五<anchor
                                           xml:id="app1710310302"/>丈<anchor xml:id="app1710310302e"
                                     />六尺、〈縁料、〉
                                           緋絁二丈、〈番料、〉調布二丈、〈番中張料、〉商布九段一丈五尺、〈下張料、〉練糸一両、〈中張布縫料、〉紙二百五十張、〈中張料、〉薄紙五十六張、〈<anchor
@@ -4219,9 +4189,7 @@
                                     xml:id="item17103105">
                                     大翳筥二合料、波太板四枚、〈長六尺、厚一寸五分、広二尺、〉阿膠廿両、炭四斗、白【金葛】薄十枚、〈方八寸、〉阿膠十両、信濃布四尺、炭四斗、
                                     漆四升、絹四尺、綿二屯、細布四尺、信濃布六尺、調布六尺、掃墨二升、焼土二升、油一合、伊予砥半顆、青砥一枚、炭二斗、
-                                          単功六十五人、〈木工廿人、漆廿人、白【金葛】廿<pb
-                                          facs="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-17%2F00023.tif/full/full/0/default.jpg"
-                                    />五人、〉</p>
+                                    単功六十五人、〈木工廿人、漆廿人、白【金葛】廿<pb facs="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-17%2F00023.tif/full/full/0/default.jpg"/>五人、〉</p>
                               <p ana="項"
                                     corresp="engishiki_ja.xml#item17103106 engishiki_en.xml#item17103106"
                                     xml:id="item17103106"> 大笠柄二枝〈加志部、〉料、檜榑一村、白<anchor
@@ -4247,9 +4215,7 @@
                                     corresp="engishiki_ja.xml#item17103109 engishiki_en.xml#item17103109"
                                     xml:id="item17103109">
                                     車榻一脚料、槻二枝、〈各長五尺、広四寸、厚二寸、〉檜榑一村、阿膠五両、鉄一廷、炭二斗、熟銅二斤十両、滅金四両、鑑銀一両二分、鉄半廷、
-                                          伊予砥一顆、<pb
-                                          facs="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-17%2F00024.tif/full/full/0/default.jpg"
-                                    />信濃布二丈、調布二丈、白【金葛】薄三枚、〈方八寸、〉阿膠三両、信濃布五尺、漆一升五合、絹一尺五寸、綿七両、細布一尺五寸、
+                                    伊予砥一顆、<pb facs="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-17%2F00024.tif/full/full/0/default.jpg"/>信濃布二丈、調布二丈、白【金葛】薄三枚、〈方八寸、〉阿膠三両、信濃布五尺、漆一升五合、絹一尺五寸、綿七両、細布一尺五寸、
                                     信濃布二尺、掃墨五合、焼土五合、単功卌人、〈木工八人、漆七人、銅十六人、白【金葛】九人、〉</p>
                               <p ana="項"
                                     corresp="engishiki_ja.xml#item17103110 engishiki_en.xml#item17103110"
@@ -4271,9 +4237,7 @@
                               <p ana="項"
                                     corresp="engishiki_ja.xml#item17103114 engishiki_en.xml#item17103114"
                                     xml:id="item17103114">
-                                          手湯戸一合、〈腹周五尺、高一尺四寸、〉台一脚料、漆二升五合、絹一尺五寸、綿一屯、細布一尺五寸、貲布八尺、掃墨五合、焼土一升、油二合、炭五斗、<pb
-                                          facs="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-17%2F00025.tif/full/full/0/default.jpg"
-                                    />単功八人、</p>
+                                    手湯戸一合、〈腹周五尺、高一尺四寸、〉台一脚料、漆二升五合、絹一尺五寸、綿一屯、細布一尺五寸、貲布八尺、掃墨五合、焼土一升、油二合、炭五斗、<pb facs="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-17%2F00025.tif/full/full/0/default.jpg"/>単功八人、</p>
                               <p ana="項"
                                     corresp="engishiki_ja.xml#item17103115 engishiki_en.xml#item17103115"
                                     xml:id="item17103115">
@@ -4306,8 +4270,7 @@
                                     corresp="engishiki_ja.xml#item17103121 engishiki_en.xml#item17103121"
                                     xml:id="item17103121">
                                     軽幄骨一具料、漆七升、絹五尺、綿二屯半、掃墨二升、焼土二升、青砥一枚、炭一斛、単功卌人、</p>
-                              <pb
-                                    facs="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-17%2F00026.tif/full/full/0/default.jpg"/>
+                              <pb facs="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-17%2F00026.tif/full/full/0/default.jpg"/>
                               <p ana="項"
                                     corresp="engishiki_ja.xml#item17103122 engishiki_en.xml#item17103122"
                                     xml:id="item17103122"> 床一脚〈方六尺、〉料、漆四升、絹三尺、綿十<anchor
@@ -4427,7 +4390,7 @@
                                     <rdg/>
                                     <note>楾　土本等朱傍書「半挿」。</note>
                               </app>
-                              <app from="#app1710311801" to="#app1710311801e" type="標注">
+                              <app from="#app1710311801" to="#app1710311801e">
                                     <lem wit="#壬本 #京博本">「貞イ」</lem>
                                     <rdg wit="#土本 #等"/>
                                     <note>「貞イ」　土本等無し。壬本・京博本による。</note>
@@ -4479,9 +4442,7 @@
                                           xml:id="app1710320202e"/>寸、但一<anchor
                                           xml:id="app1710320203"/>枝<anchor xml:id="app1710320203e"/>
                                     <anchor xml:id="app1710320204"/>方一尺<anchor
-                                          xml:id="app1710320204e"/>、〉朸料簀子二枚、障<pb
-                                          facs="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-17%2F00027.tif/full/full/0/default.jpg"
-                                    />子骨料榲榑二村、
+                                          xml:id="app1710320204e"/>、〉朸料簀子二枚、障<pb facs="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-17%2F00027.tif/full/full/0/default.jpg"/>子骨料榲榑二村、
                                     熟銅大卌六斤、滅金小一斤十二両、銀大一両、水銀小十四両、鉄三廷、炭二斛一斗、和炭五十斛五斗、漆九升、掃墨二升、焼土一斗、帛三尺、油三合、
                                           浅紫纈帛三丈六尺、東絁三丈六尺、錦一丈三尺、紫<anchor xml:id="app1710320205"
                                           />糸<anchor xml:id="app1710320205e"
@@ -4497,11 +4458,10 @@
                                           壁代・梁料歩板一枚、高<anchor xml:id="app1710320301"/>欄<anchor
                                           xml:id="app1710320301e"
                                     />・鳥居等料檜榑半村、障子骨料榲榑一村、熟銅大十二斤、滅金小七両、水銀小三両二分、鉄一廷、漆四升、掃墨一升、帛一尺二寸、
-                                          石見綿一斤八両、調布七尺二寸、油二合、浅紫纈帛二丈六尺、東絁二丈六<pb
-                                          facs="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-17%2F00028.tif/full/full/0/default.jpg"
-                                    />尺、錦八尺、浅紫糸二分、練糸二分、薄紙八張、阿膠小二分、伊予砥、青砥、糯米六合、 小麦五合、炭一石、和炭十四斛<anchor
-                                          xml:id="app1710320302"/>二<anchor xml:id="app1710320302e"
-                                          />斗五升、長功<anchor xml:id="app1710320303"/>一百五十一人半<anchor
+                                    石見綿一斤八両、調布七尺二寸、油二合、浅紫纈帛二丈六尺、東絁二丈六<pb facs="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-17%2F00028.tif/full/full/0/default.jpg"/>尺、錦八尺、浅紫糸二分、練糸二分、薄紙八張、阿膠小二分、伊予砥、青砥、糯米六合、
+                                          小麦五合、炭一石、和炭十四斛<anchor xml:id="app1710320302"/>二<anchor
+                                          xml:id="app1710320302e"/>斗五升、長功<anchor
+                                          xml:id="app1710320303"/>一百五十一人半<anchor
                                           xml:id="app1710320303e"
                                     />、〈木工廿五人、銅五十九人、鉄二人、漆卅六人、画三人、張三人、夫十三人半、〉
                                     中功百八十人、〈工一百六十三人小半、夫十六人大半、〉短功二百五人大半、〈工一百八十六人大半、夫十九人、〉</p>
@@ -4525,10 +4485,9 @@
                                     />別長一丈七尺、〉練糸一絇、苧小五斤、</p>
                               <p ana="項"
                                     corresp="engishiki_ja.xml#item17103207 engishiki_en.xml#item17103207"
-                                    xml:id="item17103207"> 同宮<pb
-                                          facs="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-17%2F00029.tif/full/full/0/default.jpg"
-                                          />自伊勢斎宮<anchor xml:id="app1710320701"/>入京<anchor
-                                          xml:id="app1710320701e"/>儲料、御輿一具、〈並料物単功、同野宮、〉</p>
+                                    xml:id="item17103207"> 同宮<pb facs="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-17%2F00029.tif/full/full/0/default.jpg"/>自伊勢斎宮<anchor xml:id="app1710320701"
+                                          />入京<anchor xml:id="app1710320701e"
+                                    />儲料、御輿一具、〈並料物単功、同野宮、〉</p>
                               <p ana="項"
                                     corresp="engishiki_ja.xml#item17103208 engishiki_en.xml#item17103208"
                                     xml:id="item17103208"> 四尺屏風四帖料榲榑八村、〈作骨料、〉檜榑半村、〈押料、〉熟銅大四斤、〈作肱金料、〉
@@ -4558,9 +4517,7 @@
                                     xml:id="item17103210">
                                     塗赤漆御膳櫃六合、〈各長二尺三寸、広二尺二寸、深八寸二分、〉下居机六脚、〈各長五尺七寸五分、広二尺三寸、高一尺七寸、〉朸十六枚、〈各長九尺、周六寸五分、〉
                                     韓櫃一合、〈長二尺六寸、広一尺七寸、深一尺一寸、〉料、漆六升六合、石見庸綿二斤、荏油一升八合、炭一斛、〈絞漆并塗料、〉
-                                          単功<pb
-                                          facs="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-17%2F00030.tif/full/full/0/default.jpg"
-                                    />卌九人、〈御膳櫃并下机卅六人、朸十六枚五人、韓櫃三人、夫五人、〉</p>
+                                    単功<pb facs="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-17%2F00030.tif/full/full/0/default.jpg"/>卌九人、〈御膳櫃并下机卅六人、朸十六枚五人、韓櫃三人、夫五人、〉</p>
                               <p ana="項"
                                     corresp="engishiki_ja.xml#item17103211 engishiki_en.xml#item17103211"
                                     xml:id="item17103211">
@@ -4670,12 +4627,12 @@
                                     <rdg wit="#土本">卅</rdg>
                                     <note>卌　土本「卅」。近本・壬本等により改める。</note>
                               </app>
-                              <app from="#app1710320901" to="#app1710320901e" type="標注">
+                              <app from="#app1710320901" to="#app1710320901e">
                                     <lem wit="#壬本 #京博本 #等">「弘」</lem>
                                     <rdg wit="#土本"/>
                                     <note>「弘」　土本無し。壬本・京博本等による。</note>
                               </app>
-                              <app from="#app1710321101" to="#app1710321101e" type="標注">
+                              <app from="#app1710321101" to="#app1710321101e">
                                     <lem wit="#壬本 #京博本 #等">「弘」</lem>
                                     <rdg wit="#土本"/>
                                     <note>「弘」　土本無し。壬本・京博本等による。</note>
@@ -4719,10 +4676,9 @@
                                     xml:id="item17103303">
                                           【木節】机一具〈長一尺五寸、広一尺三寸、足高九寸、〉料、波多板一枚、檜榑半村、阿膠十両、炭二斗一<anchor
                                           xml:id="app1710330301"/>升<anchor xml:id="app1710330301e"
-                                    />、切釘廿隻、漆一升二合、掃墨三合、 焼土三合、綿六両、絹一尺、<pb
-                                          facs="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-17%2F00031.tif/full/full/0/default.jpg"
-                                          />手作布一尺、単<anchor xml:id="app1710330302"/>功<anchor
-                                          xml:id="app1710330302e"/>九人、〈木工六人、漆三人、〉</p>
+                                          />、切釘廿隻、漆一升二合、掃墨三合、 焼土三合、綿六両、絹一尺、<pb facs="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-17%2F00031.tif/full/full/0/default.jpg"/>手作布一尺、単<anchor
+                                          xml:id="app1710330302"/>功<anchor xml:id="app1710330302e"
+                                    />九人、〈木工六人、漆三人、〉</p>
                               <p ana="項"
                                     corresp="engishiki_ja.xml#item17103304 engishiki_en.xml#item17103304"
                                     xml:id="item17103304"> 膳櫃三合、〈加榻并朸、〉樽一荷、銀飯<anchor
@@ -4755,10 +4711,10 @@
                                     白銅酒壺一合〈受一斗、〉料、白銅大廿斤、油五合、鉄三廷、炭卅斛、和炭一斛、信濃布一丈五尺、麻縄一了、伊予砥一顆、長功五十人、中功五十五人、短功六十人、</p>
                               <p ana="項"
                                     corresp="engishiki_ja.xml#item17103310 engishiki_en.xml#item17103310"
-                                    xml:id="item17103310"> 白銅杓一柄〈加盤、〉料、白銅大十両、炭四斛、油<pb
-                                          facs="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-17%2F00032.tif/full/full/0/default.jpg"
-                                          />一合、信濃布一丈、長功十人、中功十二人、短<anchor xml:id="app1710331001"
-                                          />功<anchor xml:id="app1710331001e"/>十四人、</p>
+                                    xml:id="item17103310">
+                                    白銅杓一柄〈加盤、〉料、白銅大十両、炭四斛、油<pb facs="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-17%2F00032.tif/full/full/0/default.jpg"/>一合、信濃布一丈、長功十人、中功十二人、短<anchor
+                                          xml:id="app1710331001"/>功<anchor xml:id="app1710331001e"
+                                    />十四人、</p>
                               <p ana="項"
                                     corresp="engishiki_ja.xml#item17103311 engishiki_en.xml#item17103311"
                                     xml:id="item17103311">
@@ -4776,8 +4732,7 @@
                                     xml:id="item17103314">
                                     酒海三合、〈各受二斗、〉二合料、漆四升、朱砂十六両、貲布一丈、絹・布各四尺、綿一斤、油四合、炭一斛、
                                     一合料、漆二升、掃墨七合、焼土八合、貲布五尺、絹・布各一尺五寸、油一合、炭二斗五升、単功十三人、〈朱漆八人、墨漆五人、〉</p>
-                              <pb
-                                    facs="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-17%2F00033.tif/full/full/0/default.jpg"/>
+                              <pb facs="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-17%2F00033.tif/full/full/0/default.jpg"/>
                               <p ana="項"
                                     corresp="engishiki_ja.xml#item17103315 engishiki_en.xml#item17103315"
                                     xml:id="item17103315">
@@ -4865,7 +4820,7 @@
                                     xml:id="item17103501">
                                     <anchor xml:id="app1710350101"/><anchor xml:id="app1710350101e"
                                     />凡内記局所請位記料、赤木軸七枚、黄楊軸廿枚、厚朴軸百枚、毎年十二月充行之、</p>
-                              <app from="#app1710350101" to="#app1710350101e" type="標注">
+                              <app from="#app1710350101" to="#app1710350101e">
                                     <lem wit="#壬本 #京博本 #等">「延イ」</lem>
                                     <rdg wit="#土本 #等"/>
                                     <note>「延イ」　土本等無し。壬本・京博本等による。</note>
@@ -4890,10 +4845,8 @@
                                     corresp="engishiki_ja.xml#item17103701 engishiki_en.xml#item17103701"
                                     xml:id="item17103701">
                                     <anchor xml:id="app1710370101"/><anchor xml:id="app1710370101e"
-                                          />凡木工寮造大射・賭射・騎射等的、皆差<pb
-                                          facs="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-17%2F00034.tif/full/full/0/default.jpg"
-                                    />向画師使塗画、</p>
-                              <app from="#app1710370101" to="#app1710370101e" type="標注">
+                                    />凡木工寮造大射・賭射・騎射等的、皆差<pb facs="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-17%2F00034.tif/full/full/0/default.jpg"/>向画師使塗画、</p>
+                              <app from="#app1710370101" to="#app1710370101e">
                                     <lem wit="#壬本 #等">「弘」</lem>
                                     <rdg wit="#土本 #等"/>
                                     <rdg wit="#京博本朱書">「弘イ」</rdg>
@@ -4913,7 +4866,7 @@
                                     xml:id="item17103901">
                                     <anchor xml:id="app1710390101"/><anchor xml:id="app1710390101e"
                                     />凡長上・番上給作物衣者、五月十一日奏之、〈以調布給之、〉</p>
-                              <app from="#app1710390101" to="#app1710390101e" type="標注">
+                              <app from="#app1710390101" to="#app1710390101e">
                                     <lem wit="#京博本朱書">「貞」</lem>
                                     <rdg wit="#土本 #等"/>
                                     <note>「貞」　土本等無し。京博本朱書による。</note>
@@ -4926,7 +4879,7 @@
                                     xml:id="item17104001">
                                     <anchor xml:id="app1710400101"/><anchor xml:id="app1710400101e"
                                     />凡史生以下雑工已上給等第禄、五月十六日奏之、〈以庸布給之、〉</p>
-                              <app from="#app1710400101" to="#app1710400101e" type="標注">
+                              <app from="#app1710400101" to="#app1710400101e">
                                     <lem wit="#壬本 #京博本 #等">「貞」</lem>
                                     <rdg wit="#土本 #等"/>
                                     <note>「貞」　土本等無し。壬本・京博本等による。</note>
@@ -4939,7 +4892,7 @@
                                     xml:id="item17104101">
                                     <anchor xml:id="app1710410101"/><anchor xml:id="app1710410101e"
                                     />凡雑工自非寮申文、不聴遷他色、其年老身尫不堪出仕、永許還郷、然後申補其替、</p>
-                              <app from="#app1710410101" to="#app1710410101e" type="標注">
+                              <app from="#app1710410101" to="#app1710410101e">
                                     <lem wit="壬本 #京博本 #等">「延イ」</lem>
                                     <rdg wit="#土本 #等"/>
                                     <note>「延イ」　土本等無し。壬本・京博本等による。</note>
@@ -4977,7 +4930,7 @@
                                     xml:id="item17104501">
                                     <anchor xml:id="app1710450101"/><anchor xml:id="app1710450101e"
                                     />凡粮米并間食不仕料、充寮中雑用、</p>
-                              <app from="#app1710450101" to="#app1710450101e" type="標注">
+                              <app from="#app1710450101" to="#app1710450101e">
                                     <lem wit="#壬本 #京博本 #等">「貞イ」</lem>
                                     <rdg wit="#土本 #等"/>
                                     <note>「貞イ」　土本等無し。壬本・京博本等による。</note>
