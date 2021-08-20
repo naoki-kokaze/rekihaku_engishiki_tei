@@ -74,7 +74,7 @@
           <app from="#app1110020103" to="#app1110020103e">
             <lem>遣諸国使人</lem>
             <rdg wit="#土本 #諸本"/>
-            <note>遣諸国使人　諸本なし。類聚符宣抄第六外記職掌所収延喜七年七月十七日宣旨所引「先式」により補う。</note>
+            <note>遣諸国使人　諸本無し。類聚符宣抄第六外記職掌所収延喜七年七月十七日宣旨所引「先式」により補う。</note>
           </app>
         </div>
         <div ana="太政官" n="11.3" subtype="項" type="条">
@@ -135,7 +135,11 @@
           </app>
           <app from="#app1110070102" to="#app1110070102e">
             <lem wit="#土本">上庁</lem>
-            <note place="傍">土本・近本・壬本・京博本・慶長本傍書「上庁正庁也」</note>
+            <note place="傍">土本傍書「上庁正庁也」</note>
+            <note place="傍">近本傍書「上庁正庁也」</note>
+            <note place="傍">壬本傍書「上庁正庁也」</note>
+            <note place="傍">京博本傍書「上庁正庁也」</note>
+            <note place="傍">慶長本傍書「上庁正庁也」</note>
             <note>上庁　土本・近本・壬本・京博本・慶長本傍書「上庁正庁也」。</note>
           </app>
         </div>
@@ -232,13 +236,13 @@
           <app from="#app1110100101" to="#app1110100101e" type="標注">
             <lem wit="#諸本"/>
             <rdg wit="#訳注本">弘</rdg>
-            <note>訳注本、鼇頭標目「弘」を記すも諸本無し。</note>
+            <note>弘　訳注本、鼇頭標目「弘」を記すも諸本無し。</note>
           </app>
           <app from="#app1110100102" to="#app1110100102e">
             <lem wit="#近本訂正書 #京博本朱訂">勅使</lem>
             <rdg wit="#土本 #近本 #壬本 #京博本 #慶長本 #梵本 #藤波本 #島原本">使勅</rdg>
             <rdg wit="#九本">使</rdg>
-            <note>土本等「使勅」。九本は「勅」まで欠損し、「使参議」と記す。近本訂正書・京博本朱訂により改める。</note>
+            <note>勅使　土本等「使勅」。九本は「勅」まで欠損し、「使参議」と記す。近本訂正書・京博本朱訂により改める。</note>
           </app>
           <app from="#app1110100103" to="#app1110100103e">
             <lem wit="#九本">帰</lem>
@@ -249,7 +253,7 @@
           <app from="#app1110100104" to="#app1110100104e">
             <lem wit="#九本 #近本等訂正書">遣</lem>
             <rdg wit="#土本 #近本 #壬本 #京博本 #慶長本 #梵本 #藤波本 #島原本">違</rdg>
-            <note>遣　土本等「違」。九本・近本等訂正書により改める。</note>
+            <note>遣　土本等「違」。九本、近本等訂正書により改める。</note>
           </app>
           <app from="#app1110100105" to="#app1110100105e">
             <lem wit="#九本 #京博本朱傍書">然後太政官牒送僧綱、其告牒式如</lem>
@@ -309,7 +313,7 @@
             <lem wit="#近本傍書 #京博本朱傍書">諸</lem>
             <rdg wit="#土本 #近本 #壬本 #京博本 #慶長本 #梵本 #藤波本 #島原本">請</rdg>
             <note place="傍">近本傍書「諸」</note>
-            <note place="傍">・京博本朱傍書「<seg style="color:red">諸</seg>」</note>
+            <note place="傍">京博本朱傍書「<seg style="color:red">諸</seg>」</note>
             <note>諸　土本等「請」。近本傍書・京博本朱傍書により改める。</note>
           </app>
           <app from="#app1110110104" type="#app1110110104e">
@@ -447,10 +451,10 @@
           <app from="#app1110220103" to="#app1110220103e">
             <lem wit="#九本 #壬本訂正書">長</lem>
             <rdg wit="#土本 #近本 #壬本 #京博本 #慶長本 #梵本 #藤波本 #島原本">長官</rdg>
-            <note place="傍">土本「延」</note>
-            <note place="傍">近本「延」</note>
-            <note place="傍">京博本朱傍書「<seg style="color:red">符</seg>」</note>
-            <note>官長　土本等「長官」。九本、壬本訂正書により改める。土本・近本は「長」に傍書「延」、京博本は「官」を朱傍書にて「符」に訂正。</note>
+            <note place="傍">土本は「長」に傍書「延」</note>
+            <note place="傍">近本は「長」に傍書「延」</note>
+            <note place="傍">京博本は「官」に朱傍書「<seg style="color:red">符</seg>」</note>
+            <note>長　土本等「長官」。九本、壬本訂正書により改める。土本・近本は「長」に傍書「延」、京博本は「官」を朱傍書にて「符」に訂正。</note>
           </app>
         </div>
         <div ana="太政官" n="11.23" subtype="項" type="条">
@@ -519,8 +523,7 @@
           <app from="#app1110290101" to="#app1110290101e">
             <lem wit="#九本 #近本傍書">召</lem>
             <rdg wit="#土本 #近本 #壬本 #京博本 #慶長本 #梵本 #藤波本 #島原本">石</rdg>
-            <note place="傍">近本傍書「召」</note>
-            <note>土本等「石」。九本、近本傍書により改める。</note>
+            <note>召　土本等「石」。九本、近本傍書により改める。</note>
           </app>
           <app from="#app1110290102" to="#app1110290102e">
             <lem wit="#九本">令</lem>
@@ -569,7 +572,7 @@
           </app>
           <app from="#app1110310102" to="#app1110310102e">
             <lem wit="#九本">亦</lem>
-            <rdg wit="#土本 #近本 #壬本 #京博本 #慶長本 #梵本 #藤波本 #島原本"/>
+            <rdg wit="#土本 #近本 #壬本 #京博本 #慶長本 #梵本 #藤波本 #島原本">品</rdg>
             <note>亦　土本等「品」。九本により改める。</note>
           </app>
         </div>
@@ -803,6 +806,14 @@
             <anchor xml:id="app1110500101"/><anchor xml:id="app1110500101e"/>
               凡諸国依異損申請正税・雑稲未納者、率勘定損田一千町令申未納五万束以下、奏定<anchor xml:id="app1110500102"/>之<anchor
               xml:id="app1110500102e"/>後修符下知、</p>
+          <app from="#app1110500101" to="#app1110500101e" type="標注">
+            <lem>延</lem>
+          </app>
+          <app from="#app1110500102" to="#app1110500102e">
+            <lem wit="#九本">之</lem>
+            <rdg wit="#土本 #近本 #壬本 #京博本 #慶長本 #梵本 #藤波本 #島原本"/>
+            <note>之　土本等無し。九本により補う。</note>
+          </app>
         </div>
         <div ana="太政官" n="11.51" subtype="項" type="条">
           <head ana="蕃客"/>
@@ -810,12 +821,18 @@
             xml:id="item11105101">
             <anchor xml:id="app1110510101"/><anchor xml:id="app1110510101e"/>
             凡蕃客入朝、任存問使・掌客使・領帰郷客使各二人、随使各一人、通事一人、〈入京之時、令存問使兼領客使、〉又預差定郊労使・慰労使・労問使・賜衣服使各一人、宣命使・供食使各二人、〈豊楽院各一人、朝集堂各一人、〉賜勅書使・賜太政官牒使各二人、〈史一人随官牒使到客館、〉</p>
+          <app from="#app1110510101" to="#app1110510101e" type="標注">
+            <lem>貞延</lem>
+          </app>
         </div>
         <div ana="太政官" n="11.52" subtype="項" type="条">
           <head ana="報書条"/>
           <p ana="項" corresp="engishiki_ja.xml#item11105201 engishiki_en.xml#item11105201"
             xml:id="item11105201">
             <anchor xml:id="app1110520101"/><anchor xml:id="app1110520101e"/> 凡出使申報書者、皆作解、</p>
+          <app from="#app1110520101" to="#app1110520101e" type="標注">
+            <lem>弘</lem>
+          </app>
         </div>
         <div ana="太政官" n="11.53" subtype="項" type="条">
           <head ana="出納条"/>
@@ -825,6 +842,14 @@
               凡応出納官物者、本司当日申弁官、弁官及中務・監物・民部・主計等与本司共検出納、其大蔵絹・綿・糸・布等物、五位以上臨検、案記同署、〈若五位以上有障者、<anchor
               xml:id="app1110530102"/>先申障<anchor xml:id="app1110530102e"
             />由、然後六位以下判官代、〉自余雑物及余司物者、史并主典以上出納、</p>
+          <app from="#app1110530101" to="#app1110530101e" type="標注">
+            <lem>弘</lem>
+          </app>
+          <app from="#app1110530102" to="#app1110530102e">
+            <lem wit="#壬本書入 #京博本書入">先申障</lem>
+            <rdg wit="#土本 #近本 #壬本 #京博本 #慶長本 #梵本 #藤波本 #島原本">先申障先申障</rdg>
+            <note>先申障　土本等弥書。壬本・京博本書入に従い、衍と見て削る。</note>
+          </app>
         </div>
         <div ana="太政官" n="11.54" subtype="項" type="条">
           <head ana="登庫検校"/>
@@ -832,6 +857,9 @@
             xml:id="item11105401">
             <anchor xml:id="app1110540101"/><anchor xml:id="app1110540101e"/>
             凡検出納絹・糸・綿・布、弁大夫毎旬登庫検校、若所納物有狼藉者、勘責出納諸司、</p>
+          <app from="#app1110540101" to="#app1110540101e" type="標注">
+            <lem>貞</lem>
+          </app>
         </div>
         <div ana="太政官" n="11.55" subtype="項" type="条">
           <head ana="雑物下符"/>
@@ -839,6 +867,9 @@
             xml:id="item11105501">
             <anchor xml:id="app1110550101"/><anchor xml:id="app1110550101e"/>
             凡供御例用并臨時所須、及給諸司・諸家雑物等、下符之後、若無物実、准其価直以銭行之、又或停給甲司更下乙司、或停給内官改賜外国、如此之類弁官直令進本符、具注改行之由及年月日、即題史名、登時返下、</p>
+          <app from="#app1110550101" to="#app1110550101e" type="標注">
+            <lem>貞</lem>
+          </app>
         </div>
         <div ana="太政官" n="11.56" subtype="項" type="条">
           <head ana="社寺借物"/>
@@ -851,6 +882,9 @@
             xml:id="item11105701">
             <anchor xml:id="app1110570101"/><anchor xml:id="app1110570101e"/>
             凡諸司当色、七位已上内蔵寮行之、八位已下大蔵省行之、</p>
+          <app from="#app1110570101" to="#app1110570101e" type="標注">
+            <lem>貞</lem>
+          </app>
         </div>
         <div ana="太政官" n="11.58" subtype="項" type="条">
           <head ana="進薪"/>
@@ -859,6 +893,14 @@
             <anchor xml:id="app1110580101"/><anchor xml:id="app1110580101e"/>
               凡大臣以下応進薪数、正月十五日下式部省、即弁・史及左右史生・官掌各一人就宮内省、与式部・兵部及本司共検校諸司応進薪数、〈事見儀式、〉事畢諸司帰去、其後式部・兵部勘造惣目、申<anchor
               xml:id="app1110580102"/>送<anchor xml:id="app1110580102e"/>弁官、</p>
+          <app from="#app1110580101" to="#app1110580101e" type="標注">
+            <lem>弘</lem>
+          </app>
+          <app from="#app1110580102" to="#app1110580102e">
+            <lem wit="#九本 #近本等傍書">送</lem>
+            <rdg wit="#土本 #近本 #壬本 #京博本 #慶長本 #梵本 #藤波本 #島原本">返</rdg>
+            <note>送　土本等「返」。九本、近本等傍書により改める。</note>
+          </app>
         </div>
         <div ana="太政官" n="11.59" subtype="項" type="条">
           <head ana="拝除"/>
@@ -866,6 +908,11 @@
             xml:id="item11105901">
             <anchor xml:id="app1110590101"/><anchor xml:id="app1110590101e"/>
             凡国司秩満者、式部造簿、正月一日進太政官、外記覆勘、訖進大臣、奏聞拝除、〈事見儀式、〉自余解闕、臨時奏補、</p>
+          <app from="#app1110590101" to="#app1110590101e" type="標注">
+            <lem wit="#近本 #壬本 #等">弘延</lem>
+            <rdg wit="#土本"/>
+            <note>弘延　土本無し。近本・壬本等により補う。</note>
+          </app>
         </div>
         <div ana="太政官" n="11.60" subtype="項" type="条">
           <head ana="召使任官"/>
@@ -873,6 +920,9 @@
             xml:id="item11106001">
             <anchor xml:id="app1110600101"/><anchor xml:id="app1110600101e"/>
             凡太政官并左右弁官史生・召使等、毎年一人除諸国主典、〈召使拝五畿内・志摩・伊豆・飛騨・佐渡・隠岐・淡路等十一国、〉其労成任官者、並不依年労、只計上日、</p>
+          <app from="#app1110600101" to="#app1110600101e" type="標注">
+            <lem>貞</lem>
+          </app>
         </div>
         <div ana="太政官" n="11.61" subtype="項" type="条">
           <head ana="三省史生"/>
@@ -889,6 +939,9 @@
           <p ana="項" corresp="engishiki_ja.xml#item11106301 engishiki_en.xml#item11106301"
             xml:id="item11106301">
             <anchor xml:id="app1110630101"/><anchor xml:id="app1110630101e"/> 凡鎮守府権任官人籖符、注替人姓名、</p>
+          <app from="#app1110630101" to="#app1110630101e" type="標注">
+            <lem>延</lem>
+          </app>
         </div>
         <div ana="太政官" n="11.64" subtype="項" type="条">
           <head ana="祈年班幣"/>
@@ -896,6 +949,9 @@
             xml:id="item11106401">
             <anchor xml:id="app1110640101"/><anchor xml:id="app1110640101e"/>
             凡二月四日奉班祈年幣帛、大臣及参議以上赴神祇官、弁・外記・史各一人及諸司五位以上・六位以下各一人共集、〈事見儀式、〉</p>
+          <app from="#app1110640101" to="#app1110640101e" type="標注">
+            <lem>弘延</lem>
+          </app>
         </div>
         <div ana="太政官" n="11.65" subtype="項" type="条">
           <head ana="春日祭"/>
@@ -904,6 +960,22 @@
             <anchor xml:id="app1110650101"/><anchor xml:id="app1110650101e"/>
             <anchor xml:id="app1110650102"/>凡<anchor xml:id="app1110650102e"/>春日祭、二月・十一月上申<anchor
               xml:id="app1110650103"/>日<anchor xml:id="app1110650103e"/>、参議以上参会、〈事見儀式、〉</p>
+          <app from="#app1110650101" to="#app1110650101e" type="標注">
+            <lem>弘延</lem>
+          </app>
+          <app from="#app1110650102" to="#app1110650102e">
+            <lem/>
+            <rdg/>
+            <note place="頭">土本頭書「二」</note>
+            <note place="頭">等頭書「二」</note>
+            <note place="頭">慶長本頭書「二」</note>
+            <note>凡　本条、土本等71条の後に配列、頭書「二」（慶長本は「八」）あり。66～71条とともに九本の配列に改める。土本等は64条の後、69条（頭書「六」）・71条（頭書「八」）・65条（頭書「二」）・66条（頭書「三」）・68条（頭書「五」）・67条（頭書「四」）・70条（頭書「七」）・72条（頭書「九」）・73条（頭書「十」）・74条（頭書「十一」）の順に配列する。</note>
+          </app>
+          <app from="#app1110650103" to="#app1110650103e">
+            <lem wit="#土本">日</lem>
+            <rdg wit="#訳注本"/>
+            <note>日　訳注本は66条以下の例により削る。</note>
+          </app>
         </div>
         <div ana="太政官" n="11.66" subtype="項" type="条">
           <head ana="大原野祭"/>
@@ -912,6 +984,17 @@
             <anchor xml:id="app1110660101"/><anchor xml:id="app1110660101e"/>
             <anchor xml:id="app1110660102"/>凡<anchor xml:id="app1110660102e"
             />大原野祭、春二月上卯、冬十一月中子、参議以上参、〈事見儀式、〉</p>
+          <app from="#app1110660101" to="#app1110660101e" type="標注">
+            <lem>貞延</lem>
+          </app>
+          <app from="#app1110660102" to="#app1110660102e">
+            <lem/>
+            <rdg/>
+            <note place="頭">土本頭書「三」</note>
+            <note place="頭">等頭書「三」</note>
+            <note place="頭">慶長本頭書「二」</note>
+            <note>凡　土本等頭書「三」（慶長本は「二」）。65条校異注参照。</note>
+          </app>
         </div>
         <div ana="太政官" n="11.67" subtype="項" type="条">
           <head ana="薗韓神祭"/>
@@ -919,6 +1002,18 @@
             xml:id="item11106701"><anchor xml:id="app1110670101"/>凡<anchor xml:id="app1110670101e"
               /><anchor xml:id="app1110670102"/>園<anchor xml:id="app1110670102e"
             />并韓神祭、二月春日祭後丑、十一月新嘗会前丑、参議以上一人参、〈事見儀式、〉</p>
+          <app from="#app1110670101" to="#app1110670101e">
+            <lem/>
+            <rdg/>
+            <note place="頭">土本頭書「四」</note>
+            <note place="頭">等頭書「四」</note>
+            <note>凡　本条、土本等68条の後に配列、頭書「四」あり。九本の配列に改める。65条校異注参照。</note>
+          </app>
+          <app from="#app1110670102" to="#app1110670102e">
+            <lem wit="#土本">園</lem>
+            <rdg wit="#訳注本">薗</rdg>
+            <note>園　訳注本「薗」。</note>
+          </app>
         </div>
         <div ana="太政官" n="11.68" subtype="項" type="条">
           <head ana="祭所行事"/>
@@ -928,6 +1023,29 @@
               />・韓神、平野<anchor xml:id="app1110680103"/>等<anchor xml:id="app1110680103e"
               />祭、弁・外記・史・<anchor xml:id="app1110680104"/>史生<anchor xml:id="app1110680104e"
             />・左右史生・官掌各一人参祭所行事、</p>
+          <app from="#app1110680101" to="#app1110680101e">
+            <lem/>
+            <rdg/>
+            <note place="頭">土本頭書「五」</note>
+            <note place="頭">等頭書「五」</note>
+            <note place="頭">慶長本頭書「三」</note>
+            <note>凡　本条、土本等66条の後に配列、頭書「五」（慶長本は「三」）あり。九本の配列に改める。65条校異注参照。</note>
+          </app>
+          <app from="#app1110680102" to="#app1110680102e">
+            <lem wit="#土本">園</lem>
+            <rdg wit="#訳注本">薗</rdg>
+            <note>園　訳注本「薗」。</note>
+          </app>
+          <app from="#app1110680103" to="#app1110680103e">
+            <lem wit="#九本">等</lem>
+            <rdg wit="#土本 #近本 #壬本 #京博本 #慶長本 #梵本 #藤波本 #島原本"/>
+            <note>等　土本等無し。九本により補う。</note>
+          </app>
+          <app from="#app1110680104" to="#app1110680104e">
+            <lem wit="#土本">史生</lem>
+            <rdg wit="#訳注本"/>
+            <note>史生　訳注本無し。</note>
+          </app>
         </div>
         <div ana="太政官" n="11.69" subtype="項" type="条">
           <head ana="大忌風神"/>
@@ -937,6 +1055,21 @@
             <anchor xml:id="app1110690102"/>凡<anchor xml:id="app1110690102e"
               />大忌・風神二社者、四月・七月四日祭之、式部省四月・七月朔日点定社別王・臣五位已上各一人、申送弁官、<anchor xml:id="app1110690103"
               />弁官<anchor xml:id="app1110690103e"/>下知大和国、〈事見神祇式、〉</p>
+          <app from="#app1110690101" to="#app1110690101e" type="標注">
+            <lem>弘貞延</lem>
+          </app>
+          <app from="#app1110690102" to="#app1110690102e">
+            <lem/>
+            <rdg/>
+            <note place="頭">土本頭書「六」</note>
+            <note place="頭">等頭書「六」</note>
+            <note>凡　本条、土本等64条の後に配列、頭書「六」あり。九本の配列に改める。65条校異注参照。</note>
+          </app>
+          <app from="#app1110690103" to="#app1110690103e">
+            <lem wit="#土本">弁官</lem>
+            <rdg wit="#九本 #慶長本"/>
+            <note>弁官　九本・慶長本無し。</note>
+          </app>
         </div>
         <div ana="太政官" n="11.70" subtype="項" type="条">
           <head ana="松尾祭"/>
