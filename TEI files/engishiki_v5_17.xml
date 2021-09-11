@@ -1921,6 +1921,7 @@
                                           />席<anchor xml:id="app0510590104e"/>一枚、夫三人、</p>
                               <app from="#app0510590101" to="#app0510590101e">
                                     <lem wit="#土本">城</lem>
+                                    <rdg wit="#貞享本傍書">□川歟</rdg>
                                     <note place="傍">貞享本傍書「□川歟」</note>
                                     <note>城　この下に脱字あるか。貞享本傍書「□川歟」。</note>
                               </app>
@@ -3094,12 +3095,12 @@
                                     />理、其立用帳、請寮吏判、 若不<anchor xml:id="app0510890103"/>営<anchor
                                           xml:id="app0510890103e"/>小破、妄致大損者、科処勾当官人、但至于非常異損、随申処分、</p>
                               <app from="#app0510890101" to="#app0510890101e">
-                                    <lem wit="#条本右傍転倒符号 #近本傍書指示 #等">分充</lem>
+                                    <lem wit="#条本右傍転倒符号 #近本傍書 #等">分充</lem>
                                     <rdg wit="#土本 #等">充分</rdg>
                                     <note>分充　土本等「充分」。条本右傍転倒符号および近本傍書指示等により改める。</note>
                               </app>
                               <app from="#app0510890102" to="#app0510890102e">
-                                    <lem wit="#近本・京博本傍書">修</lem>
+                                    <lem wit="#近本傍書 #京博本傍書">修</lem>
                                     <rdg wit="#土本 #等">條</rdg>
                                     <note>修　土本等「條」。近本・京博本傍書により改める。</note>
                               </app>
@@ -3249,7 +3250,7 @@
                               <app from="#app1710010105" to="#app1710010105e">
                                     <lem wit="#諸写本">御座</lem>
                                     <rdg wit="#版本">高御座</rdg>
-                                    <rdg wit="#近本"><add place="right?">高御座</add></rdg>
+                                    <rdg wit="#近本"><add place="right?">高</add>御座</rdg>
                                     <note>御座　版本以下「高御座」とするも諸写本「高」字無し。近本補入あるも版本によったか。</note>
                               </app>
                         </div>
@@ -3263,7 +3264,7 @@
                               <app from="#app1710020101" to="#app1710020101e" type="標注">
                                     <lem wit="#壬本 #京博本 #等">弘イ貞イ</lem>
                                     <rdg wit="#土本"/>
-                                    <note>土本無し。壬本・京博本等による。</note>
+                                    <note>弘イ貞イ　土本無し。壬本・京博本等による。</note>
                               </app>
                         </div>
                         <div ana="内匠" n="17.3" subtype="項" type="条">
@@ -3288,7 +3289,7 @@
                                     <note>間　土本「門」。近本・壬本等により改める。</note>
                               </app>
                               <app from="#app1710030103" to="#app1710030103e">
-                                    <lem wit="#近本 #京博本朱傍書 #版本">客</lem>
+                                    <lem wit="#近本朱傍書 #京博本朱傍書 #版本">客</lem>
                                     <rdg wit="#土本 #等">寮</rdg>
                                     <note>客　土本等「寮」。近本・京博本朱傍書により改める。版本もまた「客」に作る。</note>
                               </app>
@@ -3356,9 +3357,9 @@
                                     <note>「弘貞イ」　土本無し。壬本・京博本等による。</note>
                               </app>
                               <app from="#app1710050402" to="#app1710050402e">
-                                    <lem>炭六斗</lem>
-                                    <rdg/>
-                                    <note>炭六斗　土本本文「六斗炭」に作るも朱線にて訂正。</note>
+                                    <lem wit="#近本朱訂正 #壬本 #京博本 #等">炭六斗</lem>
+                                    <rdg wit="#土本">六斗炭</rdg>
+                                    <note>炭六斗　土本「六斗炭」に誤る。近本朱訂正・壬本・京博本等による。</note>
                               </app>
                               <p ana="項"
                                     corresp="engishiki_ja.xml#item17100505 engishiki_en.xml#item17100505"
@@ -3583,6 +3584,9 @@
                               <app from="#app1710070901" to="#app1710070901e">
                                     <lem wit="#近本 #壬本 #京博本 #等">擎子</lem>
                                     <rdg wit="#土本">敬王子</rdg>
+                                    <note place="傍">土本傍書「音強」</note>
+                                    <note place="傍">等傍書「音強」</note>
+                                    <note place="脚">土本脚書「盛御膳盤、謂之擎子、覆膳上、謂之蓋擎子」</note>
                                     <note>擎子　土本「敬王子」。近本・壬本・京博本等により改める。土本等傍書「音強」、脚書「盛御膳盤、謂之擎子、覆膳上、謂之蓋擎子」あり。</note>
                               </app>
                               <pb
@@ -3613,6 +3617,8 @@
                               <app from="#app1710071101" to="#app1710071101e">
                                     <lem wit="#諸本 #土本">両</lem>
                                     <rdg wit="#明暦以降版本 #訳注本">分</rdg>
+                                    <note place="傍">壬本朱傍書「<seg style="color:red">或本分イ</seg>」</note>
+                                    <note place="傍">京博本朱傍書「<seg style="color:red">或本分イ</seg>」</note>
                                     <note>両　諸本「両」。字形の類似による「分」の誤写か。壬本・京博本朱傍書「或本分イ」あり、明暦以降版本も「分」に作る。訳注本は「分」を採用する。</note>
                               </app>
                               <p ana="項"
@@ -3762,11 +3768,15 @@
                               <app from="#app1710110102" to="#app1710110102e">
                                     <lem wit="#土本">四</lem>
                                     <rdg/>
+                                    <note place="傍">壬本朱傍書「<seg style="color:red">或本ニイ</seg>」</note>
+                                    <note place="傍">京博本朱傍書「<seg style="color:red">或本ニイ</seg>」</note>
                                     <note>四　壬本・京博本朱傍書「或本ニイ」あり。</note>
                               </app>
                               <app from="#app1710110103" to="#app1710110103e">
                                     <lem wit="#土本">一</lem>
-                                    <rdg wit="#壬本朱傍書 #京博本朱傍書">十八イ</rdg>
+                                    <rdg wit="#壬本朱傍書イ #京博本朱傍書イ">十八</rdg>
+                                    <note place="傍">壬本朱傍書「<seg style="color:red">十八イ</seg>」</note>
+                                    <note place="傍">京博本朱傍書「<seg style="color:red">十八イ</seg>」</note>
                                     <note>一　壬本・京博本朱傍書「十八イ」あり。</note>
                               </app>
                               <app from="#app1710110104" to="#app1710110104e">
@@ -3776,7 +3786,7 @@
                               </app>
                               <app from="#app1710110105" to="#app1710110105e">
                                     <lem wit="#土本">二分</lem>
-                                    <rdg wit="#訳注本 #考異"/>
+                                    <rdg wit="#訳注本"/>
                                     <note>二分　この二字、訳注本は考異の説により「分注ニヨルニ衍。ヨリテ削ル」として削除する。</note>
                               </app>
                               <app from="#app1710110106" to="#app1710110106e">
@@ -3827,6 +3837,10 @@
                               <app from="#app1710130102" to="#app1710130102e">
                                     <lem wit="#土本">精</lem>
                                     <rdg/>
+                                    <note place="傍">土本朱傍書「<seg style="color:red">音掌</seg>」</note>
+                                    <note place="傍">近本朱傍書「<seg style="color:red">音掌</seg>」</note>
+                                    <note place="傍">壬本朱傍書「<seg style="color:red">音掌</seg>」</note>
+                                    <note place="傍">等朱傍書「<seg style="color:red">音掌</seg>」</note>
                                     <note>精　土本・近本・壬本等朱傍書「音掌」。</note>
                               </app>
                         </div>
@@ -3845,17 +3859,24 @@
                                     長功一百七十五人、〈革工七人、石七十二人、銀十五人、夫八十一人、〉中功二百四人小半、〈工一百九人大半、夫九十四人半、〉短功二百卅三人小半、〈工一百廿五人小半、夫一百八人、〉</p>
                               <app from="#app1710140101" to="#app1710140101e">
                                     <lem wit="#土本">三</lem>
-                                    <rdg/>
+                                    <rdg wit="#壬本朱傍書イ #京博本朱傍書イ #等朱傍書イ">二</rdg>
+                                    <note place="傍">壬本朱傍書「<seg style="color:red">二イ</seg>」</note>
+                                    <note place="傍">京博本朱傍書「<seg style="color:red">二イ</seg>」</note>
+                                    <note place="傍">等朱傍書「<seg style="color:red">二イ</seg>」</note>
                                     <note>三　壬本・京博本等朱傍書「二イ」。</note>
                               </app>
                               <app from="#app1710140102" to="#app1710140102e">
                                     <lem wit="#土本">銙具石</lem>
                                     <rdg/>
+                                    <note place="傍">土本傍書「或説云、帯石之惣名也、只可用音読云々、此説此善」</note>
+                                    <note place="傍">等傍書「或説云、帯石之惣名也、只可用音読云々、此説此善」</note>
                                     <note>銙具石　土本等傍書「或説云、帯石之惣名也、只可用音読云々、此説此善」。</note>
                               </app>
                               <app from="#app1710140103" to="#app1710140103e">
                                     <lem wit="#土本">鈌</lem>
                                     <rdg/>
+                                    <note place="傍">土本朱傍書「<seg style="color:red">音決、可勘</seg>」</note>
+                                    <note place="傍">等朱傍書「<seg style="color:red">音決、可勘</seg>」</note>
                                     <note>鈌　土本等朱傍書「音決、可勘」。</note>
                               </app>
                         </div>
@@ -3911,8 +3932,8 @@
                                     <note>【金葛】　土本等「﨟」。誤写と判断して改める。</note>
                               </app>
                               <app from="#app1710190102" to="#app1710190102e">
-                                    <lem wit="#土本">中功六人大半、短功七人小半</lem>
-                                    <rdg wit="#訳注本">中功六人小半、短半七人大半</rdg>
+                                    <lem wit="#土本 #訳注本">中功六人大半、短功七人小半</lem>
+                                    <rdg/>
                                     <note>中功六人大半短功七人小半　訳注本「中功六人小半、短半七人大半」に改めれば公差一人小半の等差級数となることを指摘する。</note>
                               </app>
                         </div>
@@ -3969,7 +3990,7 @@
                                     <note>枚　土本等「枝」。分注ならびに慶長本等に従い改める。</note>
                               </app>
                               <app from="#app1710210103" to="#app1710210103e">
-                                    <lem wit="#土本朱傍書 #近本 #壬本本文 #等">棉梠</lem>
+                                    <lem wit="#土本朱傍書 #近本 #壬本 #等">棉梠</lem>
                                     <rdg wit="#土本">棍梠</rdg>
                                     <note>棉梠　土本「棍梠」。同本朱傍書および近本・壬本本文等により改める。</note>
                               </app>
