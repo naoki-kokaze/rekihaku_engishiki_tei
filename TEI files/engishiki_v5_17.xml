@@ -745,10 +745,10 @@
                               </app>
                               <app from="#app0510340102" to="#app0510340102e">
                                     <lem wit="#土本">二</lem>
-                                    <rdg wit="#条本朱傍書 #京博本墨傍書">一</rdg>
-                                    <rdg wit="#鈴鹿本書入">一、祢傍書</rdg>
+                                    <rdg wit="#条本朱傍書 #京博本墨傍書 #鈴鹿本書入">一</rdg>
                                     <note place="傍">条本朱傍書「<seg style="color:red">一</seg>」</note>
                                     <note place="傍">京博本墨傍書「一」</note>
+                                    <note>鈴鹿本書入「一、祢傍書」</note>
                                     <note>二　条本朱傍書・京博本墨傍書「一」。鈴鹿本書入「一、祢傍書」。</note>
                               </app>
                         </div>
@@ -763,6 +763,7 @@
                               <app from="#app0510350101" to="#app0510350101e">
                                     <lem wit="#条本傍書">畢即</lem>
                                     <rdg wit="#土本朱傍書 #近本朱傍書 #等朱傍書">即</rdg>
+                                    <note place="傍">条本傍書「即」</note>
                                     <note place="傍">土本朱傍書「<seg style="color:red">即</seg>」</note>
                                     <note place="傍">近本朱傍書「<seg style="color:red">即</seg>」</note>
                                     <note place="傍">等朱傍書「<seg style="color:red">即</seg>」</note>
@@ -986,6 +987,7 @@
                                     <rdg wit="#九冊本傍書 #勢多本朱書">扇蝿云</rdg>
                                     <rdg wit="#京博本傍書">扇蝿云々本定</rdg>
                                     <note place="傍">九冊本傍書「扇蝿云」</note>
+                                    <note>勢多本朱書「<seg style="color:red">扇蝿云</seg>」</note>
                                     <note place="傍">京博本傍書「扇蝿云々本定」</note>
                                     <note>檳榔葉　九冊本傍書・勢多本朱書「扇蝿云」、京博本傍書「扇蝿云々本定」。</note>
                               </app>
@@ -1063,11 +1065,11 @@
                               </app>
                               <app from="#app0510380106" to="#app0510380106e">
                                     <lem wit="#土本">雑魚鮨</lem>
-                                    <rdg wit="#九冊本傍書イ本ニ #京博本傍書イ本ニ">課時鮮物云々</rdg>
-                                    <rdg wit="#鈴鹿本書入イ本ニ">祢本傍注、課時鮮物云々</rdg>
-                                    <rdg wit="#勢多本書入イ本">課時鮮物云フ、</rdg>
+                                    <rdg/>
                                     <note place="傍">九冊本傍書「課時鮮物云々イ本ニ」</note>
                                     <note place="傍">京博本傍書「課時鮮物云々イ本ニ」</note>
+                                    <note>鈴鹿本書入「祢本傍注、課時鮮物云々イ本ニ」</note>
+                                    <note>勢多本書入「課時鮮物云フ、イ本」</note>
                                     <note>雑魚鮨　九冊本・京博本傍書「課時鮮物云々イ本ニ」、鈴鹿本書入「祢本傍注、課時鮮物云々イ本ニ」、勢多本書入「課時鮮物云フ、イ本」。</note>
                               </app>
                               <app from="#app0510380107" to="#app0510380107e">
@@ -1152,7 +1154,7 @@
                                     <note>段　訳注本「端」に意改。諸本「段」。</note>
                               </app>
                               <app from="#app0510400103" to="#app0510400103e">
-                                    <lem>三丈二尺釆女二人・女孺二人褠・襅料</lem>
+                                    <lem wit="#条本">三丈二尺釆女二人・女孺二人褠・襅料</lem>
                                     <rdg wit="#土本 #等">三丈二尺釆女二人・女孺二人褠・襅料三丈二尺釆女二人・女孺二人褠・襅料</rdg>
                                     <rdg wit="#条本補筆">三丈二尺釆女二人・女孺二人褠・襅料</rdg>
                                     <note>三丈二尺釆女二人・女孺二人褠・襅料　土本等弥書あり、削除する。条本は弥書部分を補筆。</note>
@@ -1299,9 +1301,10 @@
                                           xml:id="app0510430708e"
                                     />、菅廿把、荒炭廿二石二斗、和炭九十四石一斗、針卌枚、頭巾八十八条、〈已上申官請受、〉</p>
                               <app from="#app0510430201" to="#app0510430201e">
-                                    <lem wit="#諸本傍訓">緌</lem>
+                                    <lem cause="#諸本傍訓">緌</lem>
                                     <rdg wit="#土本 #等">綏</rdg>
                                     <rdg wit="#諸本傍訓">ヲイカケ</rdg>
+                                    <note place="傍">諸本傍訓「ヲイカケ」</note>
                                     <note>緌　土本等「綏」。諸本傍訓「ヲイカケ」より推し改める。</note>
                               </app>
                               <app from="#app0510430202" to="#app0510430202e">
@@ -1418,8 +1421,7 @@
                               </app>
                               <app from="#app0510430705" to="#app0510430705e">
                                     <lem wit="#土本 #諸本">方</lem>
-                                    <rdg wit="#訳注本 #島原本傍書">長</rdg>
-                                    <note place="傍">島原本傍書「長」</note>
+                                    <rdg wit="#訳注本">長</rdg>
                                     <note>方　訳注本島原本傍書により「長」に改める。諸本「方」。</note>
                               </app>
                               <app from="#app0510430706" to="#app0510430706e">
@@ -1495,6 +1497,7 @@
                                     />斎王出自野宮、入大神宮、臨於川頭、在前為禊、〈定日時方同上、〉</p>
                               <app from="#app0510470101" to="#app0510470101e">
                                     <lem wit="#土本">凡</lem>
+                                    <rdg/>
                                     <note place="頭">京博本朱頭書「群行御禊事」</note>
                                     <note place="頭">九冊本頭書「行御撰事」</note>
                                     <note>凡　京博本朱頭書「群行御禊事」、九冊本頭書「行御撰事」、鈴鹿本書入「祢本、群行御禊事」。</note>
@@ -1513,9 +1516,10 @@
                                     />、匏二柄、稲二束、鍬四口、祝詞料庸布二段、夫二人、朸二枝、</p>
                               <app from="#app0510480101" to="#app0510480101e">
                                     <lem wit="#土本">料</lem>
-                                    <rdg wit="#京博本">料件二〈イ本ニ〉</rdg>
-                                    <rdg wit="#京博本朱注">件二字今加</rdg>
-                                    <rdg wit="#九冊本注">料件二〈イ本ニ、字令加、〉</rdg>
+                                    <rdg/>
+                                    <note>京博本墨書「件二〈イ本ニ〉」</note>
+                                    <note>京博本朱注「<seg style="color:red">件二字今加</seg>」</note>
+                                    <note>九冊本注「件二〈イ本ニ、字令加、〉」</note>
                                     <note>料　この下に京博本墨書「件二〈イ本ニ〉」および朱注「件二字今加」、九冊本注「件二〈イ本ニ、字令加、〉」あり。</note>
                               </app>
                               <app from="#app0510480102" to="#app0510480102e">
@@ -1598,6 +1602,7 @@
                                     />斎王将入大神宮之時、自九月一日迄卅日、京・畿内・伊勢・近江等国、不得奉燈北辰及挙哀改葬、</p>
                               <app from="#app0510520101" to="#app0510520101e">
                                     <lem wit="#土本">凡</lem>
+                                    <rdg/>
                                     <note place="頭">九冊本頭書「群行イニ」</note>
                                     <note>凡　九冊本頭書「群行イニ」。</note>
                               </app>
@@ -1614,8 +1619,7 @@
                                           xml:id="app0510530103e"/>千束、鋪設・雑器及供給、総用此内、</p>
                               <app from="#app0510530101" to="#app0510530101e">
                                     <lem wit="#土本">凡</lem>
-                                    <rdg wit="#京博本朱頭書 #九冊本頭書">頓宮事</rdg>
-                                    <rdg wit="#鈴鹿本書入">祢　事</rdg>
+                                    <rdg/>
                                     <note place="頭">京博本朱頭書「<seg style="color:red">頓宮事</seg>」</note>
                                     <note place="頭">九冊本頭書「頓宮事」</note>
                                     <note>凡　京博本朱頭書・九冊本頭書「頓宮事」。鈴鹿本書入「祢　事」。</note>
