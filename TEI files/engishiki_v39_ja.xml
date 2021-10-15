@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="file:/C:/Users/engishiki1/Downloads/tei_all_420_ja.rnc" type="application/relax-ng-compact-syntax"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -47,8 +47,22 @@
                     <head ana="諸王年満"/>
                     <note type="summary">衣替え手当ての受給年齢に達する皇族への支給開始手続きに関する規定</note>
                     <p ana="項" corresp="engishiki.xml#item39100101 engishiki_en.xml#item39100101"
-                        xml:id="item39100101"
-                        >皇族の年齢が数えで十二歳に達したら、十二月に京職が宮内省に通知し、宮内省は京職の通知書類を正親司に下して正親司が保管する皇族の台帳と照合させよ。正親司はこの作業が終わったら通知書類を宮内省に送れ。翌年正月に太政官の通達を受領してから、衣替え手当ての支給を開始せよ。</p>
+                        xml:id="item39100101">皇族の年齢が数えで十二歳に達したら、十二月に<ruby>
+                            <rb>京職</rb>
+                            <rt place="right">きょうしき</rt>
+                        </ruby>が宮内省に通知し、宮内省は<ruby>
+                            <rb>京職</rb>
+                            <rt place="right">きょうしき</rt>
+                        </ruby>の通知書類を<ruby>
+                            <rb>正親司</rb>
+                            <rt place="right">せいしんし</rt>
+                        </ruby>に下して<ruby>
+                            <rb>正親司</rb>
+                            <rt place="right">せいしんし</rt>
+                        </ruby>が保管する皇族の台帳と照合させよ。<ruby>
+                            <rb>正親司</rb>
+                            <rt place="right">せいしんし</rt>
+                        </ruby>はこの作業が終わったら通知書類を宮内省に送れ。翌年正月に太政官の通達を受領してから、衣替え手当ての支給を開始せよ。</p>
                 </div>
                 <div ana="正親" n="39.2" subtype="項" type="条">
                     <head ana="王定"/>
@@ -61,8 +75,16 @@
                     <head ana="諸王計帳"/>
                     <note type="summary">皇族の台帳の作成と宮内省への提出までの手続きに関する規定</note>
                     <p ana="項" corresp="engishiki.xml#item39100301 engishiki_en.xml#item39100301"
-                        xml:id="item39100301"
-                        >皇族の台帳は二通作成せよ。正親司の官人が署名し、京職の処理が終わったら、一通は正親司に留め、皇族が衣替え手当ての受給年齢に達する旨の宮内省の通達の受領後、これと台帳とを照合の上で宮内省に報告せよ。</p>
+                        xml:id="item39100301">皇族の台帳は二通作成せよ。<ruby>
+                            <rb>正親司</rb>
+                            <rt place="right">せいしんし</rt>
+                        </ruby>の官人が署名し、<ruby>
+                            <rb>京職</rb>
+                            <rt place="right">きょうしき</rt>
+                        </ruby>の処理が終わったら、一通は<ruby>
+                            <rb>正親司</rb>
+                            <rt place="right">せいしんし</rt>
+                        </ruby>に留め、皇族が衣替え手当ての受給年齢に達する旨の宮内省の通達の受領後、これと台帳とを照合の上で宮内省に報告せよ。</p>
                 </div>
                 <div ana="正親" n="39.4" subtype="項" type="条">
                     <head ana="同世同名"/>
@@ -75,8 +97,43 @@
                     <head ana="女王禄"/>
                     <note type="summary">正月八日に女性皇族への給与を支給する儀式の次第</note>
                     <p ana="項" corresp="engishiki.xml#item39100501 engishiki_en.xml#item39100501"
-                        xml:id="item39100501"
-                        >正月八日に給与を女性皇族に支給せよ。担当官司は座を紫宸殿の南庭に設営し、仮設屋舎二棟を安福殿の前に立て、給付物を紫宸殿南庭に常設されている標識の南に積み、また紫宸殿上の設営にも奉仕せよ。天皇が紫宸殿に出御したら、内侍は女官を率いて座に着け。正親司の官人は対象の女性皇族を引率し月華門から参入せよ。女性皇族は仮設屋舎の座に着き〈年齢にかかわらず世代を順番の基準とする〉、次に正親司の官人はみなともに速やかに移動し安福殿前庭の座に着け。佑一人が名簿をとり、「某の親王の子孫」と唱えよ。該当の女性皇族は立ち上がり応答して、紫宸殿南庭の座に着け。着座し終えたら名簿をとり一人一人名を呼べ。呼ばれた女性皇族は応答し、進み出て給付物を受け取り退出せよ。以下の者も同様にせよ。その給付額は、人ごとに絹二疋、真綿六屯〈十一月の新嘗会の下賜品も同様にする〉。</p>
+                        xml:id="item39100501">正月八日に給与を女性皇族に支給せよ。担当官司は座を<ruby>
+                            <rb>紫宸殿</rb>
+                            <rt place="right">ししいでん</rt>
+                        </ruby>の南庭に設営し、仮設屋舎二棟を<ruby>
+                            <rb>安福殿</rb>
+                            <rt place="right">あんぷくでん</rt>
+                        </ruby>の前に立て、給付物を<ruby>
+                            <rb>紫宸殿</rb>
+                            <rt place="right">ししいでん</rt>
+                        </ruby>南庭に常設されている標識の南に積み、また<ruby>
+                            <rb>紫宸殿</rb>
+                            <rt place="right">ししいでん</rt>
+                        </ruby>上の設営にも奉仕せよ。天皇が<ruby>
+                            <rb>紫宸殿</rb>
+                            <rt place="right">ししいでん</rt>
+                        </ruby>に出御したら、<ruby>
+                            <rb>内侍</rb>
+                            <rt place="right">ないし</rt>
+                        </ruby>は女官を率いて座に着け。<ruby>
+                            <rb>正親司</rb>
+                            <rt place="right">せいしんし</rt>
+                        </ruby>の官人は対象の女性皇族を引率し<ruby>
+                            <rb>月華門</rb>
+                            <rt place="right">げっかもん</rt>
+                        </ruby>から参入せよ。女性皇族は仮設屋舎の座に着き〈年齢にかかわらず世代を順番の基準とする〉、次に<ruby>
+                            <rb>正親司</rb>
+                            <rt place="right">せいしんし</rt>
+                        </ruby>の官人はみなともに速やかに移動し<ruby>
+                            <rb>安福殿</rb>
+                            <rt place="right">あんぷくでん</rt>
+                        </ruby>前庭の座に着け。佑一人が名簿をとり、「某の親王の子孫」と唱えよ。該当の女性皇族は立ち上がり応答して、<ruby>
+                            <rb>紫宸殿</rb>
+                            <rt place="right">ししいでん</rt>
+                        </ruby>南庭の座に着け。着座し終えたら名簿をとり一人一人名を呼べ。呼ばれた女性皇族は応答し、進み出て給付物を受け取り退出せよ。以下の者も同様にせよ。その給付額は、人ごとに絹二疋、真綿六屯〈十一月の<ruby>
+                            <rb>新嘗会</rb>
+                            <rt place="right">しんじょうえ</rt>
+                        </ruby>の下賜品も同様にする〉。</p>
                 </div>
                 <div ana="正親" n="39.6" subtype="項" type="条">
                     <head ana="女王定"/>
@@ -89,28 +146,43 @@
                     <head ana="諸王時服"/>
                     <note type="summary">皇族の衣替え手当ての受給者名簿の申請と手当ての受け取りに関する規定</note>
                     <p ana="項" corresp="engishiki.xml#item39100701 engishiki_en.xml#item39100701"
-                        xml:id="item39100701"
-                        >皇族に支給する衣替え手当ては、天皇から二世代降った皇族に絹六疋、糸一二絇、調布一八端、鍬三〇本。三・四世代降った皇族の支給額は禄令に準拠せよ。正月二十日に受給者等を記録して宮内省に送れ。秋冬分も同様にせよ〈ただし糸の代わりに真綿を、鍬五本の代わりに鉄二廷を支給する〉。受給者はみな大蔵省に赴き受け取れ。代理人を派遣して代わりに受け取らせてはならない。</p>
+                        xml:id="item39100701">皇族に支給する衣替え手当ては、天皇から二世代降った皇族に絹六疋、糸一二<ruby>
+                            <rb>絇</rb>
+                            <rt place="right">く</rt>
+                        </ruby>、調布一八端、鍬三〇本。三・四世代降った皇族の支給額は<ruby>
+                            <rb>禄令</rb>
+                            <rt place="right">ろくりょう</rt>
+                        </ruby>に準拠せよ。正月二十日に受給者等を記録して宮内省に送れ。秋冬分も同様にせよ〈ただし糸の代わりに真綿を、鍬五本の代わりに鉄二廷を支給する〉。受給者はみな大蔵省に赴き受け取れ。代理人を派遣して代わりに受け取らせてはならない。</p>
                 </div>
                 <div ana="正親" n="39.8" subtype="項" type="条">
                     <head ana="女王節禄"/>
                     <note type="summary">節会に参加する女性皇族の名簿に関する規定</note>
                     <p ana="項" corresp="engishiki.xml#item39100801 engishiki_en.xml#item39100801"
-                        xml:id="item39100801"
-                        >女性皇族に正月七日の節会・新嘗会における下賜品を支給するために用いる参加者名簿は、当日の早朝に天皇に奏上せよ。</p>
+                        xml:id="item39100801">女性皇族に正月七日の節会・<ruby>
+                            <rb>新嘗会</rb>
+                            <rt place="right">しんじょうえ</rt>
+                        </ruby>における下賜品を支給するために用いる参加者名簿は、当日の早朝に天皇に奏上せよ。</p>
                 </div>
                 <div ana="正親" n="39.9" subtype="項" type="条">
                     <head ana="平野祭"/>
                     <note type="summary">平野祭の参加者名簿に関する規定</note>
                     <p ana="項" corresp="engishiki.xml#item39100901 engishiki_en.xml#item39100901"
-                        xml:id="item39100901">平野祭に参加する官人と皇族の名簿は、太政官に提出せよ。</p>
+                        xml:id="item39100901"><ruby>
+                            <rb>平野祭</rb>
+                            <rt place="right">ひらのさい</rt>
+                        </ruby>に参加する官人と皇族の名簿は、太政官に提出せよ。</p>
                 </div>
                 <div ana="正親" n="39.10" subtype="項" type="条">
                     <head ana="薬師寺"/>
                     <note type="summary">薬師寺最勝会に参加する皇族の選定に関する規定</note>
                     <p ana="項" corresp="engishiki.xml#item39101001 engishiki_en.xml#item39101001"
-                        xml:id="item39101001"
-                        >薬師寺最勝会に参加する皇族は、官職に就いていない六位以下の者を、二〇人以下一六人以上、正親司があらかじめ選定し、三月一日に名簿を太政官に提出せよ。</p>
+                        xml:id="item39101001"><ruby>
+                            <rb>薬師寺最勝会</rb>
+                            <rt place="right">やくしじさいしょうえ</rt>
+                        </ruby>に参加する皇族は、官職に就いていない六位以下の者を、二〇人以下一六人以上、<ruby>
+                            <rb>正親司</rb>
+                            <rt place="right">せいしんし</rt>
+                        </ruby>があらかじめ選定し、三月一日に名簿を太政官に提出せよ。</p>
                 </div>
                 <div ana="正親" n="39.11" subtype="項" type="条">
                     <head ana="諸王出家"/>
@@ -122,20 +194,31 @@
                     <head ana="諸王死去"/>
                     <note type="summary">六位以下の皇族の死亡を報告する規定</note>
                     <p ana="項" corresp="engishiki.xml#item39101201 engishiki_en.xml#item39101201"
-                        xml:id="item39101201">六位以下の皇族が死亡した場合、その家は正親司に申告し、正親司はただちに宮内省に報告せよ。</p>
+                        xml:id="item39101201">六位以下の皇族が死亡した場合、その家は<ruby>
+                            <rb>正親司</rb>
+                            <rt place="right">せいしんし</rt>
+                        </ruby>に申告し、<ruby>
+                            <rb>正親司</rb>
+                            <rt place="right">せいしんし</rt>
+                        </ruby>はただちに宮内省に報告せよ。</p>
                 </div>
                 <div ana="正親" n="39.13" subtype="項" type="条">
                     <head ana="女王地"/>
                     <note type="summary">女性皇族への給付財源としての土地の規模と位置</note>
                     <p ana="項" corresp="engishiki.xml#item39101301 engishiki_en.xml#item39101301"
-                        xml:id="item39101301">女性皇族への給付財源としての土地は一町〈左京の北辺三坊にある〉。</p>
+                        xml:id="item39101301">女性皇族への給付財源としての土地は一<ruby>
+                            <rb>町</rb>
+                            <rt place="right">ちょう</rt>
+                        </ruby>〈左京の北辺三坊にある〉。</p>
                 </div>
                 <div ana="正親" n="39.14" subtype="項" type="条">
                     <head ana="闕官"/>
                     <note type="summary">欠員や欠勤者の食料を別の用途に充てる規定</note>
                     <p ana="項" corresp="engishiki.xml#item39101401 engishiki_en.xml#item39101401"
-                        xml:id="item39101401"
-                        >常勤および非常勤の官人に支給される激務に対する特別手当てのうち、欠員や欠勤している者の分は、正親司庁舎の軽微な破損の修理やその他の雑用に充てよ。</p>
+                        xml:id="item39101401">常勤および非常勤の官人に支給される激務に対する特別手当てのうち、欠員や欠勤している者の分は、<ruby>
+                            <rb>正親司</rb>
+                            <rt place="right">せいしんし</rt>
+                        </ruby>庁舎の軽微な破損の修理やその他の雑用に充てよ。</p>
                 </div>
             </div>
         </body>
