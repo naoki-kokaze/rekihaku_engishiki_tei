@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<?xml-model href="file:/C:/Users/engishiki1/Downloads/tei_all_420_ja.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="file:/C:/Users/user/Downloads/tei_all_420_ja.rnc" type="application/relax-ng-compact-syntax"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -370,7 +370,9 @@
                         </ruby>・布それぞれ一尺二寸、油二合。作業量は五人と三分の二人。 </p>
                     <p ana="項" corresp="engishiki.xml#item17100603 engishiki_en.xml#item17100603"
                         xml:id="item17100603"><ruby>
-                            <rb>水槽</rb><rt>みずぶね</rt></ruby>一口〈周りの長さ三尺五寸、高さ一尺二寸五分〉の漆塗りに必要な物品は、漆一升一合、<ruby>
+                            <rb>水槽</rb>
+                            <rt place="right">みずぶね</rt>
+                        </ruby>一口〈周りの長さ三尺五寸、高さ一尺二寸五分〉の漆塗りに必要な物品は、漆一升一合、<ruby>
                             <rb>貲布</rb>
                             <rt place="right">さよみのぬの</rt>
                         </ruby>四尺、<ruby>
@@ -738,14 +740,17 @@
                             <rt place="right">いよと</rt>
                         </ruby>五個、青砥四枚、<ruby>
                             <rb>橡</rb>
-                            <rt>つるばみ</rt>
+                            <rt place="right">つるばみ</rt>
                         </ruby>の<ruby>
                             <rb>絁</rb>
                             <rt place="right">あしぎぬ</rt>
                         </ruby>一疋三丈〈革筥工三人の衣・袴に用いる〉、<ruby>
                             <rb>苧</rb>
                             <rt place="right">からむし</rt>
-                        </ruby>四斤九両〈革筥の<ruby><rb>縁</rb><rt>へり</rt></ruby>に用いる〉、絹六尺四寸、油三升三合、鉄二廷〈皮焼と皮刀に用いる〉、<ruby>
+                        </ruby>四斤九両〈革筥の<ruby>
+                            <rb>縁</rb>
+                            <rt place="right">へり</rt>
+                        </ruby>に用いる〉、絹六尺四寸、油三升三合、鉄二廷〈皮焼と皮刀に用いる〉、<ruby>
                             <rb>調布</rb>
                             <rt place="right">ちょうふ</rt>
                         </ruby>八尺八寸、炭九斛二斗五升、<ruby>
@@ -893,7 +898,10 @@
                         xml:id="item17101401">メノウを用いた天皇の腰帯一条〈六道〉の製造に必要な物品は、馬の革一条〈長さ七尺、幅六寸〉、縫製に用いる生糸一分、拭き取りに用いる<ruby>
                             <rb>調布</rb>
                             <rt place="right">ちょうふ</rt>
-                        </ruby>五寸、革帯の上下の縁に入れる<ruby>
+                        </ruby>五寸、革帯の上下の<ruby>
+                            <rb>縁</rb>
+                            <rt place="right">へり</rt>
+                        </ruby>に入れる<ruby>
                             <rb>苧</rb>
                             <rt place="right">からむし</rt>
                         </ruby>小一両、革を張る縄に用いる麻小七両、貼り付けに用いる米一合、革のなめしに用いる油一合、塩三合、<ruby>
@@ -1123,7 +1131,7 @@
                             <rt place="right">かさぬいし</rt>
                         </ruby>が提供する〉、屋根の下の<ruby>
                             <rb>桟</rb>
-                            <rt>えつり</rt>
+                            <rt place="right">えつり</rt>
                         </ruby>に用いる真竹一〇本、屋根を葺く<ruby>
                             <rb>菅</rb>
                             <rt place="right">すげ</rt>
@@ -1258,7 +1266,7 @@
                             <rt place="right">けた</rt>
                         </ruby>と垂木・<ruby>
                             <rb>箕形</rb>
-                            <rt>みかた</rt>
+                            <rt place="right">みかた</rt>
                         </ruby>の製作に用いる<ruby>
                             <rb>歩板</rb>
                             <rt place="right">あゆみいた</rt>
@@ -1421,7 +1429,10 @@
                         </ruby>に用いる緋の<ruby>
                             <rb>帛</rb>
                             <rt place="right">はく</rt>
-                        </ruby>五尺二寸、<ruby><rb>縁</rb><rt>へり</rt></ruby>に用いる紫の綾一丈四尺、<ruby>
+                        </ruby>五尺二寸、<ruby>
+                            <rb>縁</rb>
+                            <rt place="right">へり</rt>
+                        </ruby>に用いる紫の綾一丈四尺、<ruby>
                             <rb>朱沙</rb>
                             <rt place="right">しゅしゃ</rt>
                         </ruby>一両、<ruby>
@@ -1484,7 +1495,10 @@
                         </ruby>一尺、下張に用いる<ruby>
                             <rb>商布</rb>
                             <rt place="right">しょうふ</rt>
-                        </ruby>二段一丈、縁に貼り付ける薄紙一四枚、<ruby>
+                        </ruby>二段一丈、<ruby>
+                            <rb>縁</rb>
+                            <rt place="right">へり</rt>
+                        </ruby>に貼り付ける薄紙一四枚、<ruby>
                             <rb>中張</rb>
                             <rt place="right">なかばり</rt>
                         </ruby>に用いる紙六五枚、<ruby>
@@ -1764,7 +1778,10 @@
                         </ruby>の<ruby>
                             <rb>絁</rb>
                             <rt place="right">あしぎぬ</rt>
-                        </ruby>一二丈四尺〈屏風の裏面に用いる〉、紫の綾五丈六尺〈縁に用いる〉、緋の<ruby>
+                        </ruby>一二丈四尺〈屏風の裏面に用いる〉、紫の綾五丈六尺〈<ruby>
+                            <rb>縁</rb>
+                            <rt place="right">へり</rt>
+                        </ruby>に用いる〉、緋の<ruby>
                             <rb>絁</rb>
                             <rt place="right">あしぎぬ</rt>
                         </ruby>二丈〈<ruby>
@@ -1788,13 +1805,19 @@
                         </ruby>の布の縫製に用いる〉、紙二五〇枚〈<ruby>
                             <rb>中張</rb>
                             <rt place="right">なかばり</rt>
-                        </ruby>に用いる〉、薄紙五六枚〈縁に用いる〉、紫の革一枚〈長さ二尺五寸、<ruby>
+                        </ruby>に用いる〉、薄紙五六枚〈<ruby>
+                            <rb>縁</rb>
+                            <rt place="right">へり</rt>
+                        </ruby>に用いる〉、紫の革一枚〈長さ二尺五寸、<ruby>
                             <rb>銭形</rb>
                             <rt place="right">ぜにがた</rt>
                         </ruby>に用いる〉、<ruby>
                             <rb>膠</rb>
                             <rt place="right">にかわ</rt>
-                        </ruby>小四両〈縁に塗る〉、石灰八合〈麦粉に混ぜる〉、モチ米八升〈布を張るのに用いる〉、小麦一斗〈紙を張るのに用いる〉。作業量は、延べ一四九人〈<ruby>
+                        </ruby>小四両〈<ruby>
+                            <rb>縁</rb>
+                            <rt place="right">へり</rt>
+                        </ruby>に塗る〉、石灰八合〈麦粉に混ぜる〉、モチ米八升〈布を張るのに用いる〉、小麦一斗〈紙を張るのに用いる〉。作業量は、延べ一四九人〈<ruby>
                             <rb>木工</rb>
                             <rt place="right">もく</rt>
                         </ruby>一六人、漆工五人、鍛冶工一七人、細工五六人、鋳造工三人、屏風に布帛を張る工四八人、<ruby>
@@ -2327,7 +2350,10 @@
                         xml:id="item17103205"><ruby>
                             <rb>菅</rb>
                             <rt place="right">すげ</rt>
-                        </ruby>の翳二<ruby>
+                        </ruby>の<ruby>
+                            <rb>翳</rb>
+                            <rt place="right">さしば</rt>
+                        </ruby>二<ruby>
                             <rb>柄</rb>
                             <rt place="right">え</rt>
                         </ruby>〈同じく<ruby>
@@ -2396,7 +2422,7 @@
                             <rt place="right">さいおう</rt>
                         </ruby>が<ruby>
                             <rb>伊勢</rb>
-                            <rt place="right">すじがね</rt>
+                            <rt place="right">いせ</rt>
                         </ruby>の<ruby>
                             <rb>斎宮</rb>
                             <rt place="right">さいぐう</rt>
@@ -2435,7 +2461,10 @@
                         </ruby>に用いる〉、黒紫の<ruby>
                             <rb>絁</rb>
                             <rt place="right">あしぎぬ</rt>
-                        </ruby>四丈九尺六寸〈縁に用いる〉、緋の<ruby>
+                        </ruby>四丈九尺六寸〈<ruby>
+                            <rb>縁</rb>
+                            <rt place="right">へり</rt>
+                        </ruby>に用いる〉、緋の<ruby>
                             <rb>絁</rb>
                             <rt place="right">あしぎぬ</rt>
                         </ruby>一丈六尺八寸〈<ruby>
@@ -2447,7 +2476,10 @@
                         </ruby>七段一丈〈下張に用いる〉、紙二一二枚〈<ruby>
                             <rb>中張</rb>
                             <rt place="right">なかばり</rt>
-                        </ruby>に用いる〉、薄紙四六枚〈縁と<ruby>
+                        </ruby>に用いる〉、薄紙四六枚〈<ruby>
+                            <rb>縁</rb>
+                            <rt place="right">へり</rt>
+                        </ruby>と<ruby>
                             <rb>番</rb>
                             <rt place="right">つがい</rt>
                         </ruby>に用いる〉、紫の革一枚〈<ruby>
@@ -2467,7 +2499,10 @@
                         </ruby>の<ruby>
                             <rb>輿</rb>
                             <rt place="right">こし</rt>
-                        </ruby>の屋根一枚に必要な物品は、油絁一丈六尺二寸、<ruby>
+                        </ruby>の屋根一枚に必要な物品は、<ruby>
+                            <rb>油絁</rb>
+                            <rt place="right">あぶらぎぬ</rt>
+                        </ruby>一丈六尺二寸、<ruby>
                             <rb>調布</rb>
                             <rt place="right">ちょうふ</rt>
                         </ruby>一丈六尺二寸。作業量は、延べ三人〈漆工〉。 </p>
@@ -2911,7 +2946,10 @@
                         xml:id="item17104001"><ruby>
                             <rb>史生</rb>
                             <rt place="right">ししょう</rt>
-                        </ruby>以下雑工以上に支給する勤務成績・技能水準別の給与は、五月十六日に奏上せよ〈<ruby>
+                        </ruby>以下<ruby>
+                            <rb>雑工</rb>
+                            <rt place="right">ざっく</rt>
+                        </ruby>以上に支給する勤務成績・技能水準別の給与は、五月十六日に奏上せよ〈<ruby>
                             <rb>庸布</rb>
                             <rt place="right">ようふ</rt>
                         </ruby>で支給する〉。 </p>
