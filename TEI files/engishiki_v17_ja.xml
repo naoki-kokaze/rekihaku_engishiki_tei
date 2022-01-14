@@ -41,8 +41,15 @@
     </teiHeader>
     <text>
         <body>
+            <div type="首題">
+                <p>延喜式巻第十七</p>
+            </div>
             <div ana="内匠" n="17" subtype="条" type="式">
-                <head>内匠</head>
+                <head ana="内匠"/>
+                <!-- このheadタグが必要かどうか（ビューアの見出し表示に用いているかどうか）、中村さんと要確認 -->
+                <div type="式題">
+                    <p>内匠寮</p>
+                </div>
                 <div ana="内匠" n="17.1" subtype="項" type="条">
                     <head ana="大極殿飾"/>
                     <note type="summary">元日の祝賀儀礼の準備に関する規定</note>
@@ -3015,6 +3022,50 @@
                             <rt place="right">たくみりょう</rt>
                         </ruby>内の雑用に充てよ。 </p>
                 </div>
+            </div>
+            <div type="尾題">
+                <p>延喜式巻第十七</p>
+            </div>
+            <div type="本奥書">
+                <!-- インデントの表示方法は考える必要あり -->
+                <p>　　延長五年十二月廿六日<ruby><rb>外従五位下</rb><rt place="right"
+                            >げじゅごいのげ</rt></ruby><ruby><rb>行</rb><rt place="right"
+                            >ぎょう</rt></ruby><ruby><rb>左大史</rb><rt place="right"
+                            >さだいし</rt></ruby><ruby><rb>臣</rb><rt place="right"
+                            >しん</rt></ruby><ruby><rb>阿刀宿祢</rb><rt place="right"
+                            >あとのすくね</rt></ruby><ruby><rb>忠行</rb><rt place="right">ただゆき</rt></ruby>
+                    　　　　　　　 <lb/><ruby><rb>従五位上</rb><rt place="right"
+                            >じゅごいのじょう</rt></ruby><ruby><rb>行</rb><rt place="right"
+                            >ぎょう</rt></ruby><ruby><rb>勘解由次官</rb><rt place="right"
+                            >かげゆのすけ</rt></ruby>兼<ruby><rb>大外記</rb><rt place="right"
+                            >だいげき</rt></ruby>･<ruby><rb>紀伊</rb><rt place="right"
+                            >きい</rt></ruby><ruby><rb>権介</rb><rt place="right"
+                            >ごんのすけ</rt></ruby><ruby><rb>臣</rb><rt place="right"
+                            >しん</rt></ruby><ruby><rb>伴宿祢</rb><rt place="right"
+                            >とものすくね</rt></ruby><ruby><rb>久永</rb><rt place="right">ひさなが</rt></ruby>
+                            　　　　　　　<lb/><ruby><rb>従四位上</rb><rt place="right"
+                            >じゅしいのじょう</rt></ruby><ruby><rb>行</rb><rt place="right"
+                            >ぎょう</rt></ruby><ruby><rb>神祇伯</rb><rt place="right"
+                            >じんぎはく</rt></ruby><ruby><rb>臣</rb><rt place="right"
+                            >しん</rt></ruby><ruby><rb>大中臣朝臣</rb><rt place="right"
+                        >おおなかとみのあそん</rt></ruby><ruby><rb>安則</rb><rt place="right">やすのり</rt></ruby>
+                            　　　　　　　<lb/><ruby><rb>大納言</rb><rt place="right"
+                            >だいなごん</rt></ruby><ruby><rb>正三位</rb><rt>しょうさんみ</rt></ruby>兼<ruby><rb>行</rb><rt
+                            place="right">ぎょう</rt></ruby><ruby><rb>民部卿</rb><rt place="right"
+                            >みんぶきょう</rt></ruby><ruby><rb>臣</rb><rt place="right"
+                            >しん</rt></ruby><ruby><rb>藤原朝臣</rb><rt place="right"
+                            >ふじわらのあそん</rt></ruby><ruby><rb>清貫</rb><rt place="right">きよつら</rt></ruby>
+                            　　　　　　　<lb/><ruby><rb>左大臣</rb><rt place="right"
+                            >さだいじん</rt></ruby><ruby><rb>正二位</rb><rt place="right"
+                            >しょうにい</rt></ruby>兼<ruby><rb>行</rb><rt place="right"
+                            >ぎょう</rt></ruby><ruby><rb>左近衛</rb><rt place="right"
+                            >さこのえ</rt></ruby><ruby><rb>大将</rb><rt place="right"
+                            >たいしょう</rt></ruby>･<ruby><rb>皇太子</rb><rt place="right"
+                            >こうたいし</rt></ruby><ruby><rb>傅</rb><rt place="right"
+                            >ふ</rt></ruby><ruby><rb>臣</rb><rt place="right"
+                            >しん</rt></ruby><ruby><rb>藤原朝臣</rb><rt place="right"
+                            >ふじわらのあそん</rt></ruby><ruby><rb>忠平</rb><rt place="right"
+                    >ただひら</rt></ruby></p>
             </div>
         </body>
     </text>
