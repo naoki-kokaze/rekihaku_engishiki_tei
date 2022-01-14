@@ -40,8 +40,15 @@
       </teiHeader>
       <text>
             <body>
+                  <div type="首題">
+                        <p>延喜式巻第五〈神祇五〉</p>
+                  </div>
                   <div ana="斎宮" n="5" subtype="条" type="式">
-                        <head>斎宮</head>
+                        <head ana="斎宮"/>
+                        <!-- このheadタグが必要かどうか（ビューアの見出し表示に用いているかどうか）、中村さんと要確認 -->
+                        <div type="式題">
+                              <p>斎宮</p>
+                        </div>
                         <div ana="斎宮" n="5.1" subtype="項" type="条">
                               <head ana="定斎王"/>
                               <p ana="項"
@@ -3210,10 +3217,20 @@
                                     凡斎内親王還京、所有雑物、寮官以下及近宮百姓等普分給之、其寝殿物給忌部、出居殿物給中臣、但金・銀器納斎王家、又幃・幄・釜・沒之類応長用者、皆付国司令収掌、</p>
                         </div>
                   </div>
+                  <div type="尾題">
+                        <p>延喜式巻第五</p>
+                  </div>
+                  <div type="首題">
+                        <p>延喜式巻第十七</p>
+                  </div>
                   <div ana="内匠" n="17" subtype="条" type="式">
                         <pb
                               facs="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-17%2F00002.tif/full/full/0/default.jpg"/>
-                        <head>内匠</head>
+                        <head ana="内匠"/>
+                        <!-- このheadタグが必要かどうか（ビューアの見出し表示に用いているかどうか）、中村さんと要確認 -->
+                        <div type="式題">
+                              <p>内匠寮</p>
+                        </div>
                         <div ana="内匠" n="17.1" subtype="項" type="条">
                               <head ana="大極殿飾"/>
                               <p ana="項"
@@ -5167,6 +5184,21 @@
                                     <note>「貞イ」　土本等無し。壬本・京博本等による。</note>
                               </app>
                         </div>
+                  </div>
+                  <div type="尾題">
+                        <p>延喜式巻第十七</p>
+                  </div>
+                  <div type="本奥書">
+                        <!-- インデントの表示方法は考える必要あり -->
+                        <p>延長五年十二月廿六日外従五位下行左大史臣阿<anchor xml:id="app1799990101"/>刀<anchor
+                                    xml:id="app1799990101e"/>宿祢忠行
+                              　　　　　　<lb/>従五位上行勘解由次官兼大外記紀伊権介臣伴宿祢久永 　　　　　　<lb/>従四位上行神祇伯臣大中臣朝臣安則 　　　　　　
+                              <lb/>大納言正三位兼行民部卿臣藤原朝臣清貫 　　　　　　 <lb/>左大臣正二位兼行左近衛大将皇太子傅臣藤原朝臣忠平</p>
+                        <app from="#app1799990101" to="#app1799990101e">
+                              <lem wit="#近本 #壬生本 #等">刀</lem>
+                              <rdg wit="#土本">力</rdg>
+                              <note>刀　土本「力」。近本・壬生本等により改める。</note>
+                  </app>
                   </div>
             </body>
       </text>
