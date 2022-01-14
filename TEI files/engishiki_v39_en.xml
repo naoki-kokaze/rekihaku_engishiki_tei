@@ -40,8 +40,14 @@
     </teiHeader>
     <text>
         <body>
+            <div type="首題">
+                <p>*Engi shiki/*, scroll39 〈Royal Family Register Office・Royal Meal Office〉</p>
+            </div>
             <div ana="正親" n="39" subtype="条" type="式">
-                <head>Royal Family Register Office</head>
+                <head ana="正親"/>
+                <!-- このheadタグが必要かどうか（ビューアの見出し表示に用いているかどうか）、中村さんと要確認 -->
+                <div type="式題"><p>Royal Family Register Office</p>
+                </div>
                 <div ana="正親" n="39.1" subtype="項" type="条">
                     <head ana="諸王年満"/>
                     <note type="summary">Age of Royal Recipients for Seasonal Clothing</note>
