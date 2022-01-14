@@ -41,8 +41,15 @@
     </teiHeader>
     <text>
         <body>
+            <div type="首題">
+                <p>延喜式巻第十一</p>
+            </div>
             <div ana="太政官" n="11" subtype="条" type="式">
-                <head>太政官</head>
+                <head ana="太政官"/>
+                <!-- このheadタグが必要かどうか（ビューアの見出し表示に用いているかどうか）、中村さんと要確認 -->
+                <div type="式題">
+                    <p>太政官</p>
+                </div>
                 <div ana="太政官" n="11.1" subtype="項" type="条">
                     <head ana="庶務"/>
                     <note type="summary">中央諸官司・諸国の上申文書を弁官が太政官に報告する規定</note>
@@ -872,7 +879,7 @@
                             <rb>史</rb>
                             <rt place="right">し</rt>
                         </ruby>による日常の政務報告を行え。</p>
-                       </div>
+                </div>
                 <div ana="太政官" n="11.46" subtype="項" type="条">
                     <head ana="遣和泉使"/>
                     <note type="summary">和泉国に派遣する使者に駅鈴を与える規定</note>
@@ -2999,7 +3006,7 @@
                         xml:id="item11113901"><ruby>
                             <rb>諸国</rb>
                             <rt place="right">しょこく</rt>
-                        </ruby>の人口集計書、地方政務一般に関する文書、地方財務報告書とその関連書類は、太政官に提出された後、受理した旨を書き付けて文書管理部局に送付せよ。文書を運んできた使者とその下僚が、二か月以内に文書管理部局に来なかった場合は、そのまま担当官司に送付せよ。</p>                     
+                        </ruby>の人口集計書、地方政務一般に関する文書、地方財務報告書とその関連書類は、太政官に提出された後、受理した旨を書き付けて文書管理部局に送付せよ。文書を運んできた使者とその下僚が、二か月以内に文書管理部局に来なかった場合は、そのまま担当官司に送付せよ。</p>
                 </div>
                 <div ana="太政官" n="11.140" subtype="項" type="条">
                     <head ana="公文下省"/>
@@ -3181,6 +3188,50 @@
                             <rt place="right">ぶにん</rt>
                         </ruby>が死去した場合の弔問もこれに準拠せよ〈詳細は儀式書を参照〉。</p>
                 </div>
+            </div>
+            <div type="尾題">
+                <p>延喜式巻第十一</p>
+            </div>
+            <div type="本奥書">
+                <!-- インデントの表示方法は考える必要あり -->
+                <p>　　延長五年十二月廿六日<ruby><rb>外従五位下</rb><rt place="right"
+                            >げじゅごいのげ</rt></ruby><ruby><rb>行</rb><rt place="right"
+                            >ぎょう</rt></ruby><ruby><rb>左大史</rb><rt place="right"
+                            >さだいし</rt></ruby><ruby><rb>臣</rb><rt place="right"
+                            >しん</rt></ruby><ruby><rb>阿刀宿祢</rb><rt place="right"
+                            >あとのすくね</rt></ruby><ruby><rb>忠行</rb><rt place="right">ただゆき</rt></ruby>
+                    　　　　　　　 <lb/><ruby><rb>従五位上</rb><rt place="right"
+                            >じゅごいのじょう</rt></ruby><ruby><rb>行</rb><rt place="right"
+                            >ぎょう</rt></ruby><ruby><rb>勘解由次官</rb><rt place="right"
+                            >かげゆのすけ</rt></ruby>兼<ruby><rb>大外記</rb><rt place="right"
+                            >だいげき</rt></ruby>･<ruby><rb>紀伊</rb><rt place="right"
+                            >きい</rt></ruby><ruby><rb>権介</rb><rt place="right"
+                            >ごんのすけ</rt></ruby><ruby><rb>臣</rb><rt place="right"
+                            >しん</rt></ruby><ruby><rb>伴宿祢</rb><rt place="right"
+                            >とものすくね</rt></ruby><ruby><rb>久永</rb><rt place="right">ひさなが</rt></ruby>
+                            　　　　　　　<lb/><ruby><rb>従四位上</rb><rt place="right"
+                            >じゅしいのじょう</rt></ruby><ruby><rb>行</rb><rt place="right"
+                            >ぎょう</rt></ruby><ruby><rb>神祇伯</rb><rt place="right"
+                            >じんぎはく</rt></ruby><ruby><rb>臣</rb><rt place="right"
+                            >しん</rt></ruby><ruby><rb>大中臣朝臣</rb><rt place="right"
+                        >おおなかとみのあそん</rt></ruby><ruby><rb>安則</rb><rt place="right">やすのり</rt></ruby>
+                            　　　　　　　<lb/><ruby><rb>大納言</rb><rt place="right"
+                            >だいなごん</rt></ruby><ruby><rb>正三位</rb><rt>しょうさんみ</rt></ruby>兼<ruby><rb>行</rb><rt
+                            place="right">ぎょう</rt></ruby><ruby><rb>民部卿</rb><rt place="right"
+                            >みんぶきょう</rt></ruby><ruby><rb>臣</rb><rt place="right"
+                            >しん</rt></ruby><ruby><rb>藤原朝臣</rb><rt place="right"
+                            >ふじわらのあそん</rt></ruby><ruby><rb>清貫</rb><rt place="right">きよつら</rt></ruby>
+                            　　　　　　　<lb/><ruby><rb>左大臣</rb><rt place="right"
+                            >さだいじん</rt></ruby><ruby><rb>正二位</rb><rt place="right"
+                            >しょうにい</rt></ruby>兼<ruby><rb>行</rb><rt place="right"
+                            >ぎょう</rt></ruby><ruby><rb>左近衛</rb><rt place="right"
+                            >さこのえ</rt></ruby><ruby><rb>大将</rb><rt place="right"
+                            >たいしょう</rt></ruby>･<ruby><rb>皇太子</rb><rt place="right"
+                            >こうたいし</rt></ruby><ruby><rb>傅</rb><rt place="right"
+                            >ふ</rt></ruby><ruby><rb>臣</rb><rt place="right"
+                            >しん</rt></ruby><ruby><rb>藤原朝臣</rb><rt place="right"
+                            >ふじわらのあそん</rt></ruby><ruby><rb>忠平</rb><rt place="right"
+                    >ただひら</rt></ruby></p>
             </div>
         </body>
     </text>
