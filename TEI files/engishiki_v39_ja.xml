@@ -41,8 +41,15 @@
     </teiHeader>
     <text>
         <body>
+            <div type="首題">
+                <p>延喜式巻第三十九〈正親 内膳〉</p>
+            </div>
             <div ana="正親" n="39" subtype="条" type="式">
-                <head>正親</head>
+                <head ana="正親"/>
+                <!-- このheadタグが必要かどうか（ビューアの見出し表示に用いているかどうか）、中村さんと要確認 -->
+                <div type="式題">
+                    <p>正親司</p>
+                </div>
                 <div ana="正親" n="39.1" subtype="項" type="条">
                     <head ana="諸王年満"/>
                     <note type="summary">衣替え手当ての受給年齢に達する皇族への支給開始手続きに関する規定</note>
