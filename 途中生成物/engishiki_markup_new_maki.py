@@ -28,7 +28,7 @@ def generate_TEIheader(output_filename):
 
 file_volume = input('読み込む巻を入力してください\n')
 
-input_filename = f'metadata_v{file_volume}.tsv'
+input_filename = f'../vol_metadata/metadata_v{file_volume}.tsv'
 # 巻11.csv
 output_filename = f'engishiki_v{file_volume}.xml'
 # engishiki_v11.xml
