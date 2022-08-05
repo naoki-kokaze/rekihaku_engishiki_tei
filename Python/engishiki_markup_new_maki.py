@@ -56,10 +56,10 @@ for content_line in contents_list[1:]:
     content.append(content_rstrip)
     
 # bodyを書き込む
-# 1. フレームの式<div ana="斎宮" n="5" subtype="条" type="式"><head>斎宮</head>
+# 1. フレームの式<div ana="斎宮" n="5" subtype="条" type="式"><div type="式題"><p>式題</p></div>
 shiki_name = contents_list2[0][1]
 shiki_no = contents_list2[0][0]
-result.write(f'<div ana="{shiki_name}" n="{shiki_no}" subtype="条" type="式"><head>{shiki_name}</head>\n')
+result.write(f'<div ana="{shiki_name}" n="{shiki_no}" subtype="条" type="式"><div type="式題"><p>式題</p></div>\n')
 
 for content in contents_list2:
     # 2. その下に条の構造を作る (ここはループする)
