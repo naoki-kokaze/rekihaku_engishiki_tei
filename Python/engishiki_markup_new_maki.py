@@ -7,7 +7,7 @@ def generate_TEIheader(output_filename):
 
     output_file = open(output_filename, 'w', encoding='utf-8')
 
-    header_file = open('engishiki_header.xml', 'r', encoding='utf-8')
+    header_file = open('../TEI files/engishiki_header.xml', 'r', encoding='utf-8')
     header = header_file.read()
     header_file.close()
     
@@ -30,7 +30,7 @@ file_volume = input('読み込む巻を入力してください\n')
 
 input_filename = f'../vol_metadata/metadata_v{file_volume}.tsv'
 # 巻11.csv
-output_filename = f'engishiki_v{file_volume}.xml'
+output_filename = f'../途中生成物/engishiki_v{file_volume}.xml'
 # engishiki_v11.xml
 
 
