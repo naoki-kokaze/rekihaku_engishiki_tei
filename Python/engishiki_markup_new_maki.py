@@ -56,10 +56,13 @@ for content_line in contents_list[1:]:
     content.append(content_rstrip)
     
 # bodyを書き込む
-# 1. フレームの式<div ana="斎宮" n="5" subtype="条" type="式"><div type="式題"><p>式題</p></div>
+# 首題と式題を入れてから本文を始める
+# <div ana="斎宮" n="5" subtype="式" type="巻"><div type="首題"><p>首題</p></div>
+# <div ana="斎宮" n="5" subtype="条" type="式"><div type="式題"><p>式題</p></div>
 shiki_name = contents_list2[0][1]
 shiki_no = contents_list2[0][0]
-result.write(f'<div ana="{shiki_name}" n="{shiki_no}" subtype="条" type="式"><div type="式題"><p>式題</p></div>\n')
+result.write(f'''<div ana="{shiki_name}" n="{shiki_no}" subtype="式" type="巻"><div type="首題"><p>首題</p></div>
+<div ana="{shiki_name}" n="{shiki_no}" subtype="条" type="式"><div type="式題"><p>式題</p></div>\n''')
 
 for content in contents_list2:
     # 2. その下に条の構造を作る (ここはループする)
@@ -82,7 +85,10 @@ for content in contents_list2:
     for kou in range(kous):    
         item_id = f'item{shiki_no.zfill(2)}{content[2]}{jou_no_raw.zfill(3)}{str(kou+1).zfill(2)}'
         result.write(f'<p ana="項" corresp="engishiki_ja.xml#{item_id} engishiki_en.xml#{item_id}" xml:id="{item_id}">本文</p>')
-    result.write(f'</div>')
+    result.write(f'</div>') #条の閉じタグ
+
+# すべて閉じるところに尾題と本奥書を入れる。直前には、式全体の閉じタグも入れておく
+result.write('</div><div type="尾題"><p>尾題</p></div><div type="本奥書"><p>本奥書</p></div>')
 result.write('</div></body></text></TEI>')
 print('body書き込み完了')
 result.close()
