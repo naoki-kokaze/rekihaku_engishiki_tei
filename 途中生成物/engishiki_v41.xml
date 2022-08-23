@@ -1,0 +1,1072 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>延喜式ファイル</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>国立歴史民俗博物館メタ資料学研究センター</publisher>
+                <idno type="PID">o:depcha.engi_shiki.1</idno>
+                <availability>
+                    <p/>
+                </availability>
+                <date when="2020-03-31">31 March 2020</date>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <settlement>千葉県佐倉市</settlement>
+                        <repository>国立歴史民俗博物館</repository>
+                        <collection>集英社版延喜式</collection>
+                    </msIdentifier>
+                    <msContents>
+                        <msItem>
+                            <author>藤原時平・藤原忠平</author>
+                            <title>延喜式</title>
+                            <note>
+                                <p>ここに史料の説明が入る。</p>
+                            </note>
+                        </msItem>
+                    </msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <variantEncoding method="location-referenced" location="external"/>
+        </encodingDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div ana="弾正" n="41" subtype="式" type="巻">
+                <div type="首題">
+                    <p>延喜式巻第卌一</p>
+                </div>
+                <div ana="弾正" n="41" subtype="条" type="式">
+                    <div type="式題">
+                        <p>弾正台</p>
+                    </div>
+                    <div ana="弾正" n="41.1" subtype="項" type="条">
+                        <head ana="台弾人"/>
+                        <p ana="項"
+                            corresp="engishiki_ja.xml#item41100101 engishiki_en.xml#item41100101"
+                            xml:id="item41100101">凡台弾人者、詞容端厳、依理糺弾、其受弾者、敬慎容止、恭声称唯、乃陳所問、違者復弾、</p>
+                    </div>
+                    <div ana="弾正" n="41.2" subtype="項" type="条">
+                        <head ana="糺弾不当"/>
+                        <p ana="項"
+                            corresp="engishiki_ja.xml#item41100201 engishiki_en.xml#item41100201"
+                            xml:id="item41100201">凡台糺弾不当者、即有得弾之官、其台弾不論合不、慎須受弾、</p>
+                    </div>
+                    <div ana="弾正" n="41.3" subtype="項" type="条">
+                        <head ana="弾正得不得"/>
+                        <p ana="項"
+                            corresp="engishiki_ja.xml#item41100301 engishiki_en.xml#item41100301"
+                            xml:id="item41100301">凡弾正不得弾太政大臣、太政大臣得弾弾正、其左右大臣与弾正、若有非違者、各得互弾、</p>
+                    </div>
+                    <div ana="弾正" n="41.4" subtype="項" type="条">
+                        <head ana="弾親王"/>
+                        <p ana="項"
+                            corresp="engishiki_ja.xml#item41100401 engishiki_en.xml#item41100401"
+                            xml:id="item41100401"
+                            >凡弾親王及左右大臣者、弼已上在台座、而遣忠一人於堂上弾之、諸王・諸臣三位已上及参議者、就其前座弾之、〈預仰所司令設座、〉四位已下不問王臣、皆喚其身於台弾之、〈五位已上設座、〉其被弾人者、起座称唯、弾竟之後、亦起称唯、若不起者亦弾之、</p>
+                    </div>
+                    <div ana="弾正" n="41.5" subtype="項" type="条">
+                        <head ana="弾大納言以下"/>
+                        <p ana="項"
+                            corresp="engishiki_ja.xml#item41100501 engishiki_en.xml#item41100501"
+                            xml:id="item41100501">凡弾大納言以下者、就第二堂座弾之、太政官庁不得、</p>
+                    </div>
+                    <div ana="弾正" n="41.6" subtype="項" type="条">
+                        <head ana="弾参議已上"/>
+                        <p ana="項"
+                            corresp="engishiki_ja.xml#item41100601 engishiki_en.xml#item41100601"
+                            xml:id="item41100601">凡為弾参議已上、差忠一人令度馳道、〈厳敬徐歩、〉</p>
+                    </div>
+                    <div ana="弾正" n="41.7" subtype="項" type="条">
+                        <head ana="威儀進退"/>
+                        <p ana="項"
+                            corresp="engishiki_ja.xml#item41100701 engishiki_en.xml#item41100701"
+                            xml:id="item41100701"><anchor/>凡親王・諸王・諸臣威儀進退、不合礼、若式部不糺者、喚省而弾之、<anchor/></p>
+                    </div>
+                    <div ana="弾正" n="41.8" subtype="項" type="条">
+                        <head ana="三位已上"/>
+                        <p ana="項"
+                            corresp="engishiki_ja.xml#item41100801 engishiki_en.xml#item41100801"
+                            xml:id="item41100801"
+                            >凡三位已上有可糺弾、而其身不在朝座者、台喚家令勘問、若家令告於本主、猶不肯答、如此之類、遣忠已下、就其家対弾、若事大者奏聞、</p>
+                    </div>
+                    <div ana="弾正" n="41.9" subtype="項" type="条">
+                        <head ana="奏弾事"/>
+                        <p ana="項"
+                            corresp="engishiki_ja.xml#item41100901 engishiki_en.xml#item41100901"
+                            xml:id="item41100901"
+                            >凡台奏弾事者、不経太政官而直奏聞、〈将奏事者、忠詣閤門、告大舎人令伺奏事状、有可召者、尹已下忠已上共入上聞、若御大極殿者、忠就大舎人処伺奏事状、舎人召台者、准前上聞、但臨時奏事者、忠以上一人詣内侍所、令内侍奏聞之、〉</p>
+                    </div>
+                    <div ana="弾正" n="41.10" subtype="項" type="条">
+                        <head ana="官司枉判"/>
+                        <p ana="項"
+                            corresp="engishiki_ja.xml#item41101001 engishiki_en.xml#item41101001"
+                            xml:id="item41101001">凡台聞官司枉判及閭里犯法者、追所由人勘問其由、得実応奏者、随即奏聞、</p>
+                    </div>
+                    <div ana="弾正" n="41.11" subtype="項" type="条">
+                        <head ana="弾官人"/>
+                        <p ana="項"
+                            corresp="engishiki_ja.xml#item41101101 engishiki_en.xml#item41101101"
+                            xml:id="item41101101">凡弾官人及雑色人者、具録犯状、移刑部省、令断罪状、応附考殿、即移本司并式兵部等省、</p>
+                    </div>
+                    <div ana="弾正" n="41.12" subtype="項" type="条">
+                        <head ana="就台版位"/>
+                        <p ana="項"
+                            corresp="engishiki_ja.xml#item41101201 engishiki_en.xml#item41101201"
+                            xml:id="item41101201">凡諸司人等就台版位、皆向正北、</p>
+                    </div>
+                    <div ana="弾正" n="41.13" subtype="項" type="条">
+                        <head ana="尹有犯"/>
+                        <p ana="項"
+                            corresp="engishiki_ja.xml#item41101301 engishiki_en.xml#item41101301"
+                            xml:id="item41101301">凡尹若有犯者、弼以下忠以上、共判奏弾、〈弾当理者、下座而退、〉其弾正之内有非違者、各相弾之、</p>
+                    </div>
+                    <div ana="弾正" n="41.14" subtype="項" type="条">
+                        <head ana="入朝堂"/>
+                        <p ana="項"
+                            corresp="engishiki_ja.xml#item41101401 engishiki_en.xml#item41101401"
+                            xml:id="item41101401"
+                            >凡親王・太政大臣・左右大臣入朝堂者、諸司皆起座、〈親王・太政大臣者、<anchor/>磬<anchor/>折而立、〉坐定乃以次復座、退出亦同、</p>
+                    </div>
+                    <div ana="弾正" n="41.15" subtype="項" type="条">
+                        <head ana="開門時"/>
+                        <p ana="項"
+                            corresp="engishiki_ja.xml#item41101501 engishiki_en.xml#item41101501"
+                            xml:id="item41101501">凡開門時者、令忠已下立宮<anchor/>閤<anchor/>門、糺弾非違、</p>
+                    </div>
+                    <div ana="弾正" n="41.16" subtype="項" type="条">
+                        <head ana="親王就庁座"/>
+                        <p ana="項"
+                            corresp="engishiki_ja.xml#item41101601 engishiki_en.xml#item41101601"
+                            xml:id="item41101601">凡親王就庁座者、前階・後階随便、但五位以上、初終必自前階、</p>
+                    </div>
+                    <div ana="弾正" n="41.17" subtype="項" type="条">
+                        <head ana="申政太政官"/>
+                        <p ana="項"
+                            corresp="engishiki_ja.xml#item41101701 engishiki_en.xml#item41101701"
+                            xml:id="item41101701"
+                            >凡申政於太政官者、外記立於弁官史上、八省丞亦立史下、唯依考選事、被率之日、外記・史並立式部下、</p>
+                    </div>
+                    <div ana="弾正" n="41.18" subtype="項" type="条">
+                        <head ana="諸堂官人道"/>
+                        <p ana="項"
+                            corresp="engishiki_ja.xml#item41101801 engishiki_en.xml#item41101801"
+                            xml:id="item41101801"
+                            >凡含嘉堂并顕章堂官人、不得従暉章堂・修式堂後通東門、承光堂官人、不得通<anchor/>西<anchor/>門、</p>
+                    </div>
+                    <div ana="弾正" n="41.19" subtype="項" type="条">
+                        <head ana="官政未竟"/>
+                        <p ana="項"
+                            corresp="engishiki_ja.xml#item41101901 engishiki_en.xml#item41101901"
+                            xml:id="item41101901">凡官政未竟、諸司不得退座、若有違者、即糺弾之、</p>
+                    </div>
+                    <div ana="弾正" n="41.20" subtype="項" type="条">
+                        <head ana="開門以後就座"/>
+                        <p ana="項"
+                            corresp="engishiki_ja.xml#item41102001 engishiki_en.xml#item41102001"
+                            xml:id="item41102001">凡諸司官人、開門以後就朝座者、即加糺弾、但参議以上、左右大弁・八省卿・弾正尹、不在弾限、</p>
+                    </div>
+                    <div ana="弾正" n="41.21" subtype="項" type="条">
+                        <head ana="未閉門下去"/>
+                        <p ana="項"
+                            corresp="engishiki_ja.xml#item41102101 engishiki_en.xml#item41102101"
+                            xml:id="item41102101">凡諸司官人等、未閉門之間下去、宜厳糺之、</p>
+                    </div>
+                    <div ana="弾正" n="41.22" subtype="項" type="条">
+                        <head ana="京官五位已上"/>
+                        <p ana="項"
+                            corresp="engishiki_ja.xml#item41102201 engishiki_en.xml#item41102201"
+                            xml:id="item41102201"
+                            >凡京官五位已上、先参朝堂、後<anchor/>赴<anchor/>曹司、或三日頻不参、而式部不勘者、台喚式部勘之、</p>
+                    </div>
+                    <div ana="弾正" n="41.23" subtype="項" type="条">
+                        <head ana="空朝座"/>
+                        <p ana="項"
+                            corresp="engishiki_ja.xml#item41102301 engishiki_en.xml#item41102301"
+                            xml:id="item41102301">凡諸司或空朝座、台即弾之、</p>
+                    </div>
+                    <div ana="弾正" n="41.24" subtype="項" type="条">
+                        <head ana="朝庭容儀"/>
+                        <p ana="項"
+                            corresp="engishiki_ja.xml#item41102401 engishiki_en.xml#item41102401"
+                            xml:id="item41102401">凡朝庭容儀、若有怠緩者、可<anchor/>弾弾<anchor/>之、可笞笞之、</p>
+                    </div>
+                    <div ana="弾正" n="41.25" subtype="項" type="条">
+                        <head ana="致敬礼"/>
+                        <p ana="項"
+                            corresp="engishiki_ja.xml#item41102501 engishiki_en.xml#item41102501"
+                            xml:id="item41102501"
+                            >凡致敬礼者、三位已下拝親王・大臣及一位、〈参議已上、唯拝親王・大臣、〉四位拝二位并三位参議已上、五位拝三位并四位参議、六位拝四位、七位拝五位、神<anchor/>祇<anchor/>官祐・史拝次官已上、太政官外記拝少納言、左右史拝弁、省・台・職・坊・使・寮・司判官・主典、諸衛府監・曹・尉・志、大宰監・典拝次官已上、助教・直講拝博士、東宮官拝傅、六位已下拝学士、国介拝守、鎮守監・曹拝将軍、官人見本国守、官卑者致敬、位同者不拝、若就国見猶拝、〈諸司・諸国史生及諸衛府府生已下、二宮舎人等、於判官已上不論位高卑皆拝、〉以外任随私礼、不拘此制、</p>
+                    </div>
+                    <div ana="弾正" n="41.26" subtype="項" type="条">
+                        <head ana="親王等答拝"/>
+                        <p ana="項"
+                            corresp="engishiki_ja.xml#item41102601 engishiki_en.xml#item41102601"
+                            xml:id="item41102601"
+                            >凡親王・大臣及一位・二位、於五位以上答拝、於六位以下不須、五位以上於六位以下答拝、〈低頭高下亦同上、〉</p>
+                    </div>
+                    <div ana="弾正" n="41.27" subtype="項" type="条">
+                        <head ana="路遇親王"/>
+                        <p ana="項"
+                            corresp="engishiki_ja.xml#item41102701 engishiki_en.xml#item41102701"
+                            xml:id="item41102701">凡三位已下於路遇親王者、下馬而立、但大臣斂馬側立、</p>
+                    </div>
+                    <div ana="弾正" n="41.28" subtype="項" type="条">
+                        <head ana="下馬"/>
+                        <p ana="項"
+                            corresp="engishiki_ja.xml#item41102801 engishiki_en.xml#item41102801"
+                            xml:id="item41102801"
+                            >凡四位已下逢一位、五位已下逢三位已上、六位已下逢四位已上、七位已下逢五位已上、皆下馬、余応致敬者、皆不下、〈其不下者、斂馬側立、〉応下者乗車及陪従、不下、〈中宮・東宮陪従准此、〉</p>
+                    </div>
+                    <div ana="弾正" n="41.29" subtype="項" type="条">
+                        <head ana="無位孫王"/>
+                        <p ana="項"
+                            corresp="engishiki_ja.xml#item41102901 engishiki_en.xml#item41102901"
+                            xml:id="item41102901">凡無位孫王逢三位已上下馬、六位以下逢無位孫王不下、</p>
+                    </div>
+                    <div ana="弾正" n="41.30" subtype="項" type="条">
+                        <head ana="元正"/>
+                        <p ana="項"
+                            corresp="engishiki_ja.xml#item41103001 engishiki_en.xml#item41103001"
+                            xml:id="item41103001">凡元正之日、糺弾五位以上諸王・諸臣威儀、并着用物色違制、及朝拝刀祢等非違、〈諸節准此、〉</p>
+                    </div>
+                    <div ana="弾正" n="41.31" subtype="項" type="条">
+                        <head ana="朝拝"/>
+                        <p ana="項"
+                            corresp="engishiki_ja.xml#item41103101 engishiki_en.xml#item41103101"
+                            xml:id="item41103101">凡朝拝之時、式部省引刀祢列朱雀門外、訖忠以下左右分列、糺弾非違、</p>
+                    </div>
+                    <div ana="弾正" n="41.32" subtype="項" type="条">
+                        <head ana="正月十五日"/>
+                        <p ana="項"
+                            corresp="engishiki_ja.xml#item41103201 engishiki_en.xml#item41103201"
+                            xml:id="item41103201">凡正月十五日、忠以下向主殿寮、糺検文武官人等進薪違制、</p>
+                    </div>
+                    <div ana="弾正" n="41.33" subtype="項" type="条">
+                        <head ana="釈奠"/>
+                        <p ana="項"
+                            corresp="engishiki_ja.xml#item41103301 engishiki_en.xml#item41103301"
+                            xml:id="item41103301">凡春秋釈奠、検察祭儀、</p>
+                    </div>
+                    <div ana="弾正" n="41.34" subtype="項" type="条">
+                        <head ana="二季大祓"/>
+                        <p ana="項"
+                            corresp="engishiki_ja.xml#item41103401 engishiki_en.xml#item41103401"
+                            xml:id="item41103401">凡二季大祓日、〈六月・十二月晦日、〉忠以下向祓所、糺弾非違、</p>
+                    </div>
+                    <div ana="弾正" n="41.35" subtype="項" type="条">
+                        <head ana="京中巡察"/>
+                        <p ana="項"
+                            corresp="engishiki_ja.xml#item41103501 engishiki_en.xml#item41103501"
+                            xml:id="item41103501"
+                            ><anchor/>凡京中、弼以下毎月巡察、勘弾非違、〈東西市并諸寺非違、及客館・路橋破穢之類、〉<anchor/></p>
+                    </div>
+                    <div ana="弾正" n="41.36" subtype="項" type="条">
+                        <head ana="巡検日"/>
+                        <p ana="項"
+                            corresp="engishiki_ja.xml#item41103601 engishiki_en.xml#item41103601"
+                            xml:id="item41103601">凡巡検之日、京職若承勘当者、依下馬法行之、其史生・坊令、不論位階皆下馬、</p>
+                    </div>
+                    <div ana="弾正" n="41.37" subtype="項" type="条">
+                        <head ana="非違汚穢"/>
+                        <p ana="項"
+                            corresp="engishiki_ja.xml#item41103701 engishiki_en.xml#item41103701"
+                            xml:id="item41103701">凡宮城内外非違及汚穢者、毎日忠已下糺察、但禁中者不須、</p>
+                    </div>
+                    <div ana="弾正" n="41.38" subtype="項" type="条">
+                        <head ana="調宿処"/>
+                        <p ana="項"
+                            corresp="engishiki_ja.xml#item41103801 engishiki_en.xml#item41103801"
+                            xml:id="item41103801">凡諸国調宿処者、忠已下執問非違、</p>
+                    </div>
+                    <div ana="弾正" n="41.39" subtype="項" type="条">
+                        <head ana="位禄季禄"/>
+                        <p ana="項"
+                            corresp="engishiki_ja.xml#item41103901 engishiki_en.xml#item41103901"
+                            xml:id="item41103901"
+                            >凡賜位禄・季禄者、向大蔵省検察非違、若有五位以上不参者、台即勘録、移刑部省、但左右近衛不在此限、</p>
+                    </div>
+                    <div ana="弾正" n="41.40" subtype="項" type="条">
+                        <head ana="不得権任"/>
+                        <p ana="項"
+                            corresp="engishiki_ja.xml#item41104001 engishiki_en.xml#item41104001"
+                            xml:id="item41104001">凡台疏以上、自非別勅、不得権任他務、</p>
+                    </div>
+                    <div ana="弾正" n="41.41" subtype="項" type="条">
+                        <head ana="召式部省"/>
+                        <p ana="項"
+                            corresp="engishiki_ja.xml#item41104101 engishiki_en.xml#item41104101"
+                            xml:id="item41104101">凡台召式部省者、只可称省、若省召台者、可称疏名、</p>
+                    </div>
+                    <div ana="弾正" n="41.42" subtype="項" type="条">
+                        <head ana="立制宣旨"/>
+                        <p ana="項"
+                            corresp="engishiki_ja.xml#item41104201 engishiki_en.xml#item41104201"
+                            xml:id="item41104201">凡新有立制宣旨者、告示検非違使、</p>
+                    </div>
+                    <div ana="弾正" n="41.43" subtype="項" type="条">
+                        <head ana="宮中諸司廻"/>
+                        <p ana="項"
+                            corresp="engishiki_ja.xml#item41104301 engishiki_en.xml#item41104301"
+                            xml:id="item41104301">凡宮中諸司、各令本司掃除其廻、〈所所亦同、〉</p>
+                    </div>
+                    <div ana="弾正" n="41.44" subtype="項" type="条">
+                        <head ana="八省院廻"/>
+                        <p ana="項"
+                            corresp="engishiki_ja.xml#item41104401 engishiki_en.xml#item41104401"
+                            xml:id="item41104401">凡八省院廻、左右衛門相分掃除、〈豊楽院亦同、〉</p>
+                    </div>
+                    <div ana="弾正" n="41.45" subtype="項" type="条">
+                        <head ana="運出穢物"/>
+                        <p ana="項"
+                            corresp="engishiki_ja.xml#item41104501 engishiki_en.xml#item41104501"
+                            xml:id="item41104501">凡諸司官人等曹司、或馬子或女人居住、運出穢物置其垣外、宜重加禁断、</p>
+                    </div>
+                    <div ana="弾正" n="41.46" subtype="項" type="条">
+                        <head ana="不得充別当"/>
+                        <p ana="項"
+                            corresp="engishiki_ja.xml#item41104601 engishiki_en.xml#item41104601"
+                            xml:id="item41104601">凡台官人、不得充所<anchor/>所<anchor/>別当、</p>
+                    </div>
+                    <div ana="弾正" n="41.47" subtype="項" type="条">
+                        <head ana="臨時別勅"/>
+                        <p ana="項"
+                            corresp="engishiki_ja.xml#item41104701 engishiki_en.xml#item41104701"
+                            xml:id="item41104701">凡臨時別勅、莫承弁史伝宣、</p>
+                    </div>
+                    <div ana="弾正" n="41.48" subtype="項" type="条">
+                        <head ana="牙笏木笏"/>
+                        <p ana="項"
+                            corresp="engishiki_ja.xml#item41104801 engishiki_en.xml#item41104801"
+                            xml:id="item41104801"
+                            >凡五位以上通用牙笏・白木笏、前<anchor/>詘<anchor/>後直、六位以下官人用木、前挫後方、</p>
+                    </div>
+                    <div ana="弾正" n="41.49" subtype="項" type="条">
+                        <head ana="衣服食物"/>
+                        <p ana="項"
+                            corresp="engishiki_ja.xml#item41104901 engishiki_en.xml#item41104901"
+                            xml:id="item41104901">凡諸王・諸臣衣服・食物、不得盛案以行宮中、違者弾之、</p>
+                    </div>
+                    <div ana="弾正" n="41.50" subtype="項" type="条">
+                        <head ana="朝庭儀式"/>
+                        <p ana="項"
+                            corresp="engishiki_ja.xml#item41105001 engishiki_en.xml#item41105001"
+                            xml:id="item41105001">凡朝庭儀式、衣冠形製、台并式部惣知糺正、</p>
+                    </div>
+                    <div ana="弾正" n="41.51" subtype="項" type="条">
+                        <head ana="衣袖口闊"/>
+                        <p ana="項"
+                            corresp="engishiki_ja.xml#item41105101 engishiki_en.xml#item41105101"
+                            xml:id="item41105101">凡衣袖口闊、無問高下、同作一尺二寸已下、其腋闊者一尺四寸、其表衣長纔着地、</p>
+                    </div>
+                    <div ana="弾正" n="41.52" subtype="項" type="条">
+                        <head ana="不得著羅"/>
+                        <p ana="項"
+                            corresp="engishiki_ja.xml#item41105201 engishiki_en.xml#item41105201"
+                            xml:id="item41105201">凡除礼服并参議已上半臂、五位已上幞頭之外、不得着羅、</p>
+                    </div>
+                    <div ana="弾正" n="41.53" subtype="項" type="条">
+                        <head ana="衣服色"/>
+                        <p ana="項"
+                            corresp="engishiki_ja.xml#item41105301 engishiki_en.xml#item41105301"
+                            xml:id="item41105301">凡無品親王・諸王・内親王・女王等衣服色、親王着紫以下、孫王准五位、諸王准六位、〈其服色者、用纁
+                            、〉</p>
+                    </div>
+                    <div ana="弾正" n="41.54" subtype="項" type="条">
+                        <head ana="婦人衣服色"/>
+                        <p ana="項"
+                            corresp="engishiki_ja.xml#item41105401 engishiki_en.xml#item41105401"
+                            xml:id="item41105401">凡婦人得着夫衣服色、但節会之日、不在此例、</p>
+                    </div>
+                    <div ana="弾正" n="41.55" subtype="項" type="条">
+                        <head ana="朝服色"/>
+                        <p ana="項"
+                            corresp="engishiki_ja.xml#item41105501 engishiki_en.xml#item41105501"
+                            xml:id="item41105501">凡大臣帯二位者朝服、着深紫、諸王二位已下五位已上、諸臣二位・三位、並着中紫、</p>
+                    </div>
+                    <div ana="弾正" n="41.56" subtype="項" type="条">
+                        <head ana="庶人以上"/>
+                        <p ana="項"
+                            corresp="engishiki_ja.xml#item41105601 engishiki_en.xml#item41105601"
+                            xml:id="item41105601">凡庶人以上、不得襖子重着、</p>
+                    </div>
+                    <div ana="弾正" n="41.57" subtype="項" type="条">
+                        <head ana="綾"/>
+                        <p ana="項"
+                            corresp="engishiki_ja.xml#item41105701 engishiki_en.xml#item41105701"
+                            xml:id="item41105701">凡綾者、聴用五位已上朝服、六位以下<anchor/>不<anchor/>得服用、</p>
+                    </div>
+                    <div ana="弾正" n="41.58" subtype="項" type="条">
+                        <head ana="五位以上女"/>
+                        <p ana="項"
+                            corresp="engishiki_ja.xml#item41105801 engishiki_en.xml#item41105801"
+                            xml:id="item41105801"
+                            >凡五位以上<anchor/>女<anchor/>、依父蔭得<anchor/>着<anchor/>禁物、〈雖為六位以下妻、猶得依父蔭、〉</p>
+                    </div>
+                    <div ana="弾正" n="41.59" subtype="項" type="条">
+                        <head ana="紵布衣"/>
+                        <p ana="項"
+                            corresp="engishiki_ja.xml#item41105901 engishiki_en.xml#item41105901"
+                            xml:id="item41105901">凡紵布衣者、雖<anchor/>染<anchor/>退紅、自非軽細、不在制限、</p>
+                    </div>
+                    <div ana="弾正" n="41.60" subtype="項" type="条">
+                        <head ana="揩染成文"/>
+                        <p ana="項"
+                            corresp="engishiki_ja.xml#item41106001 engishiki_en.xml#item41106001"
+                            xml:id="item41106001">凡揩染成文衣・袴者、並不得着用、但縁公事所着、并婦女衣・裙、不在禁限、</p>
+                    </div>
+                    <div ana="弾正" n="41.61" subtype="項" type="条">
+                        <head ana="浅杉染袴"/>
+                        <p ana="項"
+                            corresp="engishiki_ja.xml#item41106101 engishiki_en.xml#item41106101"
+                            xml:id="item41106101">凡浅杉染袴、朝座・公会、悉聴服用、</p>
+                    </div>
+                    <div ana="弾正" n="41.62" subtype="項" type="条">
+                        <head ana="錦衣"/>
+                        <p ana="項"
+                            corresp="engishiki_ja.xml#item41106201 engishiki_en.xml#item41106201"
+                            xml:id="item41106201">凡錦衣者、内命婦及女王并五位以上嫡妻子、並節会之日、聴通服、繍者不在聴限、</p>
+                    </div>
+                    <div ana="弾正" n="41.63" subtype="項" type="条">
+                        <head ana="鈍紫裙"/>
+                        <p ana="項"
+                            corresp="engishiki_ja.xml#item41106301 engishiki_en.xml#item41106301"
+                            xml:id="item41106301">凡深浅鈍紫裙者、聴庶女以上通着、</p>
+                    </div>
+                    <div ana="弾正" n="41.64" subtype="項" type="条">
+                        <head ana="蘇芳色"/>
+                        <p ana="項"
+                            corresp="engishiki_ja.xml#item41106401 engishiki_en.xml#item41106401"
+                            xml:id="item41106401">凡蘇芳色者、親王以下参議以上、非参議三位及嫡妻女子并孫王、並聴着用、</p>
+                    </div>
+                    <div ana="弾正" n="41.65" subtype="項" type="条">
+                        <head ana="衛府舎人刀緒"/>
+                        <p ana="項"
+                            corresp="engishiki_ja.xml#item41106501 engishiki_en.xml#item41106501"
+                            xml:id="item41106501">凡衛府舎人刀緒、左近衛緋絁、右近衛緋纈、左兵衛深緑、右兵衛深緑纈、左門部浅<anchor/>縹<anchor/>、右門部浅縹纈、</p>
+                    </div>
+                    <div ana="弾正" n="41.66" subtype="項" type="条">
+                        <head ana="囚獄司物部"/>
+                        <p ana="項"
+                            corresp="engishiki_ja.xml#item41106601 engishiki_en.xml#item41106601"
+                            xml:id="item41106601">凡囚獄司物部横刀緒色胡桃染、帯刀資人黄、</p>
+                    </div>
+                    <div ana="弾正" n="41.67" subtype="項" type="条">
+                        <head ana="諸禁色"/>
+                        <p ana="項"
+                            corresp="engishiki_ja.xml#item41106701 engishiki_en.xml#item41106701"
+                            xml:id="item41106701">凡諸禁色者、惣雖下衣不聴服用、</p>
+                    </div>
+                    <div ana="弾正" n="41.68" subtype="項" type="条">
+                        <head ana="支子染色"/>
+                        <p ana="項"
+                            corresp="engishiki_ja.xml#item41106801 engishiki_en.xml#item41106801"
+                            xml:id="item41106801">凡支子<anchor/>染<anchor/>色可濫黄丹者、不得服用、</p>
+                    </div>
+                    <div ana="弾正" n="41.69" subtype="項" type="条">
+                        <head ana="滅紫色"/>
+                        <p ana="項"
+                            corresp="engishiki_ja.xml#item41106901 engishiki_en.xml#item41106901"
+                            xml:id="item41106901">凡滅紫色者、参議已上聴通用、五位已上聴着半臂、</p>
+                    </div>
+                    <div ana="弾正" n="41.70" subtype="項" type="条">
+                        <head ana="赤白橡袍"/>
+                        <p ana="項"
+                            corresp="engishiki_ja.xml#item41107001 engishiki_en.xml#item41107001"
+                            xml:id="item41107001">凡赤白橡袍、聴参議已上着用、</p>
+                    </div>
+                    <div ana="弾正" n="41.71" subtype="項" type="条">
+                        <head ana="公私奴婢服"/>
+                        <p ana="項"
+                            corresp="engishiki_ja.xml#item41107101 engishiki_en.xml#item41107101"
+                            xml:id="item41107101"
+                            >凡公私奴婢服、黄・葡萄・浅紅・赤練・橡・白橡・墨染、其裙、青・赤絁・布等色聴之、紫・緋・緑・紺・縹等、不須全色、唯得纈紕裁縫、</p>
+                    </div>
+                    <div ana="弾正" n="41.72" subtype="項" type="条">
+                        <head ana="車馬従服色"/>
+                        <p ana="項"
+                            corresp="engishiki_ja.xml#item41107201 engishiki_en.xml#item41107201"
+                            xml:id="item41107201"
+                            >凡親王以下車馬従服色、通着皀及躑躅染・青褐、自余色皆断之、其女従衣者、通着黄・赤練・葡萄・退紅・中緑・浅緑・橡・白橡・墨染等色、</p>
+                    </div>
+                    <div ana="弾正" n="41.73" subtype="項" type="条">
+                        <head ana="染袴"/>
+                        <p ana="項"
+                            corresp="engishiki_ja.xml#item41107301 engishiki_en.xml#item41107301"
+                            xml:id="item41107301"
+                            >凡親王以下五位以上、及内親王・孫王・女御・内命婦、并参議以上、非参議三位嫡妻・女子、大臣孫・女蔵人等従、並聴着染袴、</p>
+                    </div>
+                    <div ana="弾正" n="41.74" subtype="項" type="条">
+                        <head ana="金銀薄泥"/>
+                        <p ana="項"
+                            corresp="engishiki_ja.xml#item41107401 engishiki_en.xml#item41107401"
+                            xml:id="item41107401">凡金銀薄泥、不得為服用并雑器飾、但五月五日諸衛府甲冑之飾、不在制限、</p>
+                    </div>
+                    <div ana="弾正" n="41.75" subtype="項" type="条">
+                        <head ana="純素金銀"/>
+                        <p ana="項"
+                            corresp="engishiki_ja.xml#item41107501 engishiki_en.xml#item41107501"
+                            xml:id="item41107501">凡純素金銀及白𨭛、聴為五位已上服用之飾、</p>
+                    </div>
+                    <div ana="弾正" n="41.76" subtype="項" type="条">
+                        <head ana="縹色藍揩"/>
+                        <p ana="項"
+                            corresp="engishiki_ja.xml#item41107601 engishiki_en.xml#item41107601"
+                            xml:id="item41107601">凡縹色以藍揩者、衛府舎人等儀服、他人不得輙用、</p>
+                    </div>
+                    <div ana="弾正" n="41.77" subtype="項" type="条">
+                        <head ana="画餝大刀"/>
+                        <p ana="項"
+                            corresp="engishiki_ja.xml#item41107701 engishiki_en.xml#item41107701"
+                            xml:id="item41107701">凡画飾大刀、五位以上聴之、</p>
+                    </div>
+                    <div ana="弾正" n="41.78" subtype="項" type="条">
+                        <head ana="刻鏤大刀"/>
+                        <p ana="項"
+                            corresp="engishiki_ja.xml#item41107801 engishiki_en.xml#item41107801"
+                            xml:id="item41107801">凡刻鏤大刀、非新作、聴五位已上着用、</p>
+                    </div>
+                    <div ana="弾正" n="41.79" subtype="項" type="条">
+                        <head ana="刀子刃長"/>
+                        <p ana="項"
+                            corresp="engishiki_ja.xml#item41107901 engishiki_en.xml#item41107901"
+                            xml:id="item41107901">凡刀子刃長五寸以上、不得輙帯、但衛府者聴之、</p>
+                    </div>
+                    <div ana="弾正" n="41.80" subtype="項" type="条">
+                        <head ana="象牙櫛"/>
+                        <p ana="項"
+                            corresp="engishiki_ja.xml#item41108001 engishiki_en.xml#item41108001"
+                            xml:id="item41108001">凡内命婦三位以上、聴用象牙櫛、</p>
+                    </div>
+                    <div ana="弾正" n="41.81" subtype="項" type="条">
+                        <head ana="虎皮豹皮"/>
+                        <p ana="項"
+                            corresp="engishiki_ja.xml#item41108101 engishiki_en.xml#item41108101"
+                            xml:id="item41108101">凡五位以上、聴用虎皮、但豹皮者、参議以上及非参議三位聴之、自余不在聴限、</p>
+                    </div>
+                    <div ana="弾正" n="41.82" subtype="項" type="条">
+                        <head ana="白玉腰帯"/>
+                        <p ana="項"
+                            corresp="engishiki_ja.xml#item41108201 engishiki_en.xml#item41108201"
+                            xml:id="item41108201">凡白玉腰帯、聴三位以上及四位参議着用、玳瑁・瑪瑙・斑犀・象牙・沙魚皮・紫檀、五位已上通用、</p>
+                    </div>
+                    <div ana="弾正" n="41.83" subtype="項" type="条">
+                        <head ana="紀伊石帯隠文"/>
+                        <p ana="項"
+                            corresp="engishiki_ja.xml#item41108301 engishiki_en.xml#item41108301"
+                            xml:id="item41108301"
+                            ><anchor/>凡紀伊石帯隠文者及定<anchor/>摺<anchor/>石帯参議已上、刻鏤金銀帯及唐帯五位已上、並聴着用、紀伊石帯白晢者、六位已下不得用之、<anchor/></p>
+                    </div>
+                    <div ana="弾正" n="41.84" subtype="項" type="条">
+                        <head ana="烏犀帯"/>
+                        <p ana="項"
+                            corresp="engishiki_ja.xml#item41108401 engishiki_en.xml#item41108401"
+                            xml:id="item41108401">凡烏犀帯聴六位以下着用、但有通天文者、不在聴限、</p>
+                    </div>
+                    <div ana="弾正" n="41.85" subtype="項" type="条">
+                        <head ana="魚袋"/>
+                        <p ana="項"
+                            corresp="engishiki_ja.xml#item41108501 engishiki_en.xml#item41108501"
+                            xml:id="item41108501">凡魚袋者、参議已上及着紫諸王五位已上金装、自余四位・五位銀装、</p>
+                    </div>
+                    <div ana="弾正" n="41.86" subtype="項" type="条">
+                        <head ana="鞍褥"/>
+                        <p ana="項"
+                            corresp="engishiki_ja.xml#item41108601 engishiki_en.xml#item41108601"
+                            xml:id="item41108601">凡以独窠錦為鞍褥者、禁之、</p>
+                    </div>
+                    <div ana="弾正" n="41.87" subtype="項" type="条">
+                        <head ana="鞍鞦総"/>
+                        <p ana="項"
+                            corresp="engishiki_ja.xml#item41108701 engishiki_en.xml#item41108701"
+                            xml:id="item41108701"
+                            >凡六位以下、鞍鞦総不得連着、但聴着鞦衢及後末、紫鞍褥、紫籠頭・鞍把、緋鞦等、皆禁断之、纁鞦者、不在制限、</p>
+                    </div>
+                    <div ana="弾正" n="41.88" subtype="項" type="条">
+                        <head ana="緋鞦"/>
+                        <p ana="項"
+                            corresp="engishiki_ja.xml#item41108801 engishiki_en.xml#item41108801"
+                            xml:id="item41108801">凡参議已上、検非違使別当已下府生已上、聴著緋鞦、</p>
+                    </div>
+                    <div ana="弾正" n="41.89" subtype="項" type="条">
+                        <head ana="貂裘"/>
+                        <p ana="項"
+                            corresp="engishiki_ja.xml#item41108901 engishiki_en.xml#item41108901"
+                            xml:id="item41108901">凡貂裘者、参議已上、聴着用之、</p>
+                    </div>
+                    <div ana="弾正" n="41.90" subtype="項" type="条">
+                        <head ana="羆皮障泥"/>
+                        <p ana="項"
+                            corresp="engishiki_ja.xml#item41109001 engishiki_en.xml#item41109001"
+                            xml:id="item41109001">凡羆皮障泥、聴五位以上着之、</p>
+                    </div>
+                    <div ana="弾正" n="41.91" subtype="項" type="条">
+                        <head ana="金銀装車屋形"/>
+                        <p ana="項"
+                            corresp="engishiki_ja.xml#item41109101 engishiki_en.xml#item41109101"
+                            xml:id="item41109101">凡内親王・孫王・女御及内命婦、并参議以上非参議三位嫡妻・女子、大臣孫、並聴乗用金銀装車屋形、</p>
+                    </div>
+                    <div ana="弾正" n="41.92" subtype="項" type="条">
+                        <head ana="糸葺庇車"/>
+                        <p ana="項"
+                            corresp="engishiki_ja.xml#item41109201 engishiki_en.xml#item41109201"
+                            xml:id="item41109201">凡内親王、三位已上内命婦、及更衣已上、並聴乗糸葺有庇之車、并着緋牛鞦、</p>
+                    </div>
+                    <div ana="弾正" n="41.93" subtype="項" type="条">
+                        <head ana="車屋形裏"/>
+                        <p ana="項"
+                            corresp="engishiki_ja.xml#item41109301 engishiki_en.xml#item41109301"
+                            xml:id="item41109301">凡市 人、不得以白綾夾纈等為車屋形裏、以雑楷色為従者衣、以綵色編竹成文為簾、及将従四人以上、</p>
+                    </div>
+                    <div ana="弾正" n="41.94" subtype="項" type="条">
+                        <head ana="車馬従"/>
+                        <p ana="項"
+                            corresp="engishiki_ja.xml#item41109401 engishiki_en.xml#item41109401"
+                            xml:id="item41109401"
+                            >凡車馬従者、親王及左右大臣十四人、大納言十二人、中納言十人、参議八人、一位十二人、二位十人、三位八人、四位六人、五位四人、〈陪従之日、二位已上八人、三位六人、四位・五位四人、〉六位以下二人、其妃廿二人、夫人廿人、嬪十八人、女御十六人、内親王廿人、二世女王十人、内命婦一位十八人、二位十六人、三位十四人、四位十人、五位八人、〈陪従之日、内親王十人、三位已上六人、四位・五位四人、〉六位以下四人、更衣十人、女蔵人六人、女孺四人、庶女二人、外命婦准夫従数、左右大臣女九人、大納言八人、中納言七人、参議六人、一位八人、二位七人、三位六人、四位五人、五位四人、女孺亦四人、女従者各減車馬従半、</p>
+                    </div>
+                    <div ana="弾正" n="41.95" subtype="項" type="条">
+                        <head ana="東西仕丁坊"/>
+                        <p ana="項"
+                            corresp="engishiki_ja.xml#item41109501 engishiki_en.xml#item41109501"
+                            xml:id="item41109501"
+                            >凡東西仕<anchor/>丁<anchor/>坊販<anchor/>鬻<anchor/>者、一切禁断、但酒食者不在禁断、</p>
+                    </div>
+                    <div ana="弾正" n="41.96" subtype="項" type="条">
+                        <head ana="禁断青刈"/>
+                        <p ana="項"
+                            corresp="engishiki_ja.xml#item41109601 engishiki_en.xml#item41109601"
+                            xml:id="item41109601">凡禁断刈大小麦青苗、為馬草売買、并桑・棗木鞍橋、</p>
+                    </div>
+                    <div ana="弾正" n="41.97" subtype="項" type="条">
+                        <head ana="鈍縹并宝髻"/>
+                        <p ana="項"
+                            corresp="engishiki_ja.xml#item41109701 engishiki_en.xml#item41109701"
+                            xml:id="item41109701">凡<anchor/>鈍<anchor/>縹并宝髻、及紕裙、剪綵作釼等莫禁、</p>
+                    </div>
+                    <div ana="弾正" n="41.98" subtype="項" type="条">
+                        <head ana="婦人袷裳"/>
+                        <p ana="項"
+                            corresp="engishiki_ja.xml#item41109801 engishiki_en.xml#item41109801"
+                            xml:id="item41109801">凡婦人袷裳、不論貴賎、一裳之外、不得重着、単裳不在制限、</p>
+                    </div>
+                    <div ana="弾正" n="41.99" subtype="項" type="条">
+                        <head ana="裁絹絁"/>
+                        <p ana="項"
+                            corresp="engishiki_ja.xml#item41109901 engishiki_en.xml#item41109901"
+                            xml:id="item41109901">凡裁絹・絁為猟衣袴、縫白絹・縑着従女衣裳、以糸葺車、及用金銀飾等、悉皆禁断、〈但金埿
+                            釘非制限、〉</p>
+                    </div>
+                    <div ana="弾正" n="41.100" subtype="項" type="条">
+                        <head ana="双六"/>
+                        <p ana="項"
+                            corresp="engishiki_ja.xml#item41110001 engishiki_en.xml#item41110001"
+                            xml:id="item41110001">凡双六者、無論高下、一切禁断、</p>
+                    </div>
+                    <div ana="弾正" n="41.101" subtype="項" type="条">
+                        <head ana="京都踏歌"/>
+                        <p ana="項"
+                            corresp="engishiki_ja.xml#item41110101 engishiki_en.xml#item41110101"
+                            xml:id="item41110101">凡京都踏歌、一切禁断、</p>
+                    </div>
+                    <div ana="弾正" n="41.102" subtype="項" type="条">
+                        <head ana="私鷹"/>
+                        <p ana="項"
+                            corresp="engishiki_ja.xml#item41110201 engishiki_en.xml#item41110201"
+                            xml:id="item41110201">凡私養鷹・鸇、台加禁弾、</p>
+                    </div>
+                    <div ana="弾正" n="41.103" subtype="項" type="条">
+                        <head ana="右大臣已上薨"/>
+                        <p ana="項"
+                            corresp="engishiki_ja.xml#item41110301 engishiki_en.xml#item41110301"
+                            xml:id="item41110301">凡右大臣已上薨者、発哀三日内、諸司理事如常、不可問獄行刑、</p>
+                    </div>
+                    <div ana="弾正" n="41.104" subtype="項" type="条">
+                        <head ana="喪葬盛餝"/>
+                        <p ana="項"
+                            corresp="engishiki_ja.xml#item41110401 engishiki_en.xml#item41110401"
+                            xml:id="item41110401">凡喪葬盛飾・奢僭、及淫祀之類、左右京職若不禁者弾之、</p>
+                    </div>
+                    <div ana="弾正" n="41.105" subtype="項" type="条">
+                        <head ana="進告朔函"/>
+                        <p ana="項"
+                            corresp="engishiki_ja.xml#item41110501 engishiki_en.xml#item41110501"
+                            xml:id="item41110501"
+                            >凡進告朔函時者、弁官・式部・兵部・弾正五位已上者、立本司庁前、他司五位已上者、立東西庁前、諸六位已下、立弁官・式部庁後、</p>
+                    </div>
+                    <div ana="弾正" n="41.106" subtype="項" type="条">
+                        <head ana="五月五日走馬"/>
+                        <p ana="項"
+                            corresp="engishiki_ja.xml#item41110601 engishiki_en.xml#item41110601"
+                            xml:id="item41110601"
+                            >凡五月五日、五位以上諸王・諸臣、献走馬時、兵部省分頭陣列朱雀東西、訖省申台云、列馬訖、即忠以下分立左右、巡検禁物、其走馬装束、聴用純素金銀、乗人装束、不聴禁色、若有違犯兵部不勘者、喚省及主弾之、</p>
+                    </div>
+                    <div ana="弾正" n="41.107" subtype="項" type="条">
+                        <head ana="供節衛府官人"/>
+                        <p ana="項"
+                            corresp="engishiki_ja.xml#item41110701 engishiki_en.xml#item41110701"
+                            xml:id="item41110701"
+                            >凡五月五日、供節諸衛府官人以下、除甲冑飾之外、不聴用金銀、縦有違犯、只弾禁色、不得抑留、〈五<anchor/>品<anchor/>以上走馬装束、禁色亦准此、〉</p>
+                    </div>
+                    <div ana="弾正" n="41.108" subtype="項" type="条">
+                        <head ana="市人集時"/>
+                        <p ana="項"
+                            corresp="engishiki_ja.xml#item41110801 engishiki_en.xml#item41110801"
+                            xml:id="item41110801"
+                            >凡市人集時、入市召市司、令市<anchor/>厘<anchor/>静定、毎肆巡行糺弾非違、〈謂錦・紗・綾・紵、若闊不盈一尺九寸、長不盈六丈、又売物者有行濫、及横刀・鞍等不題鑿造者姓名之類、〉又問有皇親及五位以上遣帳内・資人若家人・奴婢等、興販与百姓、倶争利者耶、</p>
+                    </div>
+                    <div ana="弾正" n="41.109" subtype="項" type="条">
+                        <head ana="覆鞍"/>
+                        <p ana="項"
+                            corresp="engishiki_ja.xml#item41110901 engishiki_en.xml#item41110901"
+                            xml:id="item41110901"
+                            >凡大臣已上覆鞍者、用浅紫、参議已上<anchor/>深<anchor/>緋、諸王五位以上緑色、諸臣黄色、六位已下不得用、</p>
+                    </div>
+                    <div ana="弾正" n="41.110" subtype="項" type="条">
+                        <head ana="京職栽柳"/>
+                        <p ana="項"
+                            corresp="engishiki_ja.xml#item41111001 engishiki_en.xml#item41111001"
+                            xml:id="item41111001">凡神泉苑廻地十町内、令京職栽柳、〈町別七株、〉</p>
+                    </div>
+                    <div ana="弾正" n="41.111" subtype="項" type="条">
+                        <head ana="神泉大学廻地"/>
+                        <p ana="項"
+                            corresp="engishiki_ja.xml#item41111101 engishiki_en.xml#item41111101"
+                            xml:id="item41111101">凡神泉・大学廻地、令京職掃除之、穀倉院亦同、</p>
+                    </div>
+                    <div ana="弾正" n="41.112" subtype="項" type="条">
+                        <head ana="勘収貢物"/>
+                        <p ana="項"
+                            corresp="engishiki_ja.xml#item41111201 engishiki_en.xml#item41111201"
+                            xml:id="item41111201"
+                            >凡諸司勘収諸国貢物、不合留難、若有作逗留百姓辛苦者、台即巡検随事糺弾、但忠已下之外、弼時時監臨、</p>
+                    </div>
+                    <div ana="弾正" n="41.113" subtype="項" type="条">
+                        <head ana="巡検左右京"/>
+                        <p ana="項"
+                            corresp="engishiki_ja.xml#item41111301 engishiki_en.xml#item41111301"
+                            xml:id="item41111301">凡巡検左右京之日、量状決罰、</p>
+                    </div>
+                    <div ana="弾正" n="41.114" subtype="項" type="条">
+                        <head ana="東西二寺斎会"/>
+                        <p ana="項"
+                            corresp="engishiki_ja.xml#item41111401 engishiki_en.xml#item41111401"
+                            xml:id="item41111401"
+                            >凡東西二寺斎会日、〈四月八日、七月十五日、〉忠已下向寺糺弾非違、〈糺衆僧及男女禁色并男女交雑之類、〉前三日、喚左右京職云、将依例巡検、宜使条令、告寺家弁備之、</p>
+                    </div>
+                    <div ana="弾正" n="41.115" subtype="項" type="条">
+                        <head ana="獄中非違"/>
+                        <p ana="項"
+                            corresp="engishiki_ja.xml#item41111501 engishiki_en.xml#item41111501"
+                            xml:id="item41111501"
+                            >凡台官等、検校獄中非違、〈謂杖・笞大小、安置罪人、及給薦・席・薬、合法以不之類<anchor/>也<anchor/>、〉</p>
+                    </div>
+                    <div ana="弾正" n="41.116" subtype="項" type="条">
+                        <head ana="禁色"/>
+                        <p ana="項"
+                            corresp="engishiki_ja.xml#item41111601 engishiki_en.xml#item41111601"
+                            xml:id="item41111601">凡禁色惣従破却、但五位已上并律師已上、録名奏聞、僧尼依法苦使、</p>
+                    </div>
+                    <div ana="弾正" n="41.117" subtype="項" type="条">
+                        <head ana="喚左右京職"/>
+                        <p ana="項"
+                            corresp="engishiki_ja.xml#item41111701 engishiki_en.xml#item41111701"
+                            xml:id="item41111701"
+                            >凡喚左右京職云、将遣忠以下検京中非違・道橋及諸寺、宜厳仰条令、預定便処会集男女、亦告諸寺三綱等、令弁備如上、即忠以下到彼会所問云、有<anchor/>京職<anchor/>官人及坊令等、冤枉百姓、凌侮長幼耶、又有孝子・順孫・義父・節婦以不、又有悪女・擾乱・閭巷以不、又到寺家遣条令告三綱、即撃鐘会僧、訖条令申云、坐定、即忠以下入着座、問衆僧云、三綱供養衆僧有所闕失耶、又有罵辱衆僧、并将三宝物餉送官人耶、又有三宝燃燈所闕失耶、次問三綱云、有衆僧乖違法式、擾乱徒衆、及罵詈三綱、凌突長宿、好小道卜吉凶、懐巫術救疾病者耶、又有飲酒酔乱、及与人闘乱者耶、又有着禁色者耶、〈謂綾・羅・錦・綺之類、〉</p>
+                    </div>
+                    <div ana="弾正" n="41.118" subtype="項" type="条">
+                        <head ana="大営造時"/>
+                        <p ana="項"
+                            corresp="engishiki_ja.xml#item41111801 engishiki_en.xml#item41111801"
+                            xml:id="item41111801"
+                            >凡大営造時、工匠・役夫之処、遣忠以下糺弾非違、〈仰所司令移役夫散帳并人数、遣忠糺訪郡司・部領等、勘糺私駆役之類、〉</p>
+                    </div>
+                    <div ana="弾正" n="41.119" subtype="項" type="条">
+                        <head ana="非違人"/>
+                        <p ana="項"
+                            corresp="engishiki_ja.xml#item41111901 engishiki_en.xml#item41111901"
+                            xml:id="item41111901">凡有非違人、召其本司及管省、而弾之、</p>
+                    </div>
+                    <div ana="弾正" n="41.120" subtype="項" type="条">
+                        <head ana="記非違"/>
+                        <p ana="項"
+                            corresp="engishiki_ja.xml#item41112001 engishiki_en.xml#item41112001"
+                            xml:id="item41112001">凡記非違者、不必<anchor/>封<anchor/>記、</p>
+                    </div>
+                    <div ana="弾正" n="41.121" subtype="項" type="条">
+                        <head ana="僧尼不可売買"/>
+                        <p ana="項"
+                            corresp="engishiki_ja.xml#item41112101 engishiki_en.xml#item41112101"
+                            xml:id="item41112101">凡僧尼等不可売買、但随身品物、便得売買、又薬丹等聴着身、</p>
+                    </div>
+                    <div ana="弾正" n="41.122" subtype="項" type="条">
+                        <head ana="宮城墻内"/>
+                        <p ana="項"
+                            corresp="engishiki_ja.xml#item41112201 engishiki_en.xml#item41112201"
+                            xml:id="item41112201">凡宮城四面墻内、不得積物、不聴停馬、</p>
+                    </div>
+                    <div ana="弾正" n="41.123" subtype="項" type="条">
+                        <head ana="娶宮人"/>
+                        <p ana="項"
+                            corresp="engishiki_ja.xml#item41112301 engishiki_en.xml#item41112301"
+                            xml:id="item41112301"
+                            >凡娶宮人為妻妾者、容隠私舎不肯出仕者、依法科罪、又娶親王及諸臣等駆使婦女、不令仕其主者、令本主具状送京職、量加決罰、</p>
+                    </div>
+                    <div ana="弾正" n="41.124" subtype="項" type="条">
+                        <head ana="隊仗"/>
+                        <p ana="項"
+                            corresp="engishiki_ja.xml#item41112401 engishiki_en.xml#item41112401"
+                            xml:id="item41112401">凡隊仗内有非違、而台不弁姓名者、直至仗頭、就主司問之、</p>
+                    </div>
+                    <div ana="弾正" n="41.125" subtype="項" type="条">
+                        <head ana="在京倉蔵"/>
+                        <p ana="項"
+                            corresp="engishiki_ja.xml#item41112501 engishiki_en.xml#item41112501"
+                            xml:id="item41112501">凡在京倉蔵、並令台巡検之、</p>
+                    </div>
+                    <div ana="弾正" n="41.126" subtype="項" type="条">
+                        <head ana="決死囚"/>
+                        <p ana="項"
+                            corresp="engishiki_ja.xml#item41112601 engishiki_en.xml#item41112601"
+                            xml:id="item41112601">凡決死囚、皆令台・左右衛門府監決、若囚有冤枉灼然者、停決奏聞、</p>
+                    </div>
+                    <div ana="弾正" n="41.127" subtype="項" type="条">
+                        <head ana="遣五畿内"/>
+                        <p ana="項"
+                            corresp="engishiki_ja.xml#item41112701 engishiki_en.xml#item41112701"
+                            xml:id="item41112701"
+                            >凡遣台官人於五畿内之儀、預定忠一人、然後尹若弼一人・忠一人、参太政官請進止、訖即参入被唱定、訖還出即作下国符、請官印及官符、訖教使忠云、除殺罪之外、悉決之、</p>
+                    </div>
+                    <div ana="弾正" n="41.128" subtype="項" type="条">
+                        <head ana="遣隣国使"/>
+                        <p ana="項"
+                            corresp="engishiki_ja.xml#item41112801 engishiki_en.xml#item41112801"
+                            xml:id="item41112801">凡被遣隣国之使、着正官座者、不禁、</p>
+                    </div>
+                    <div ana="弾正" n="41.129" subtype="項" type="条">
+                        <head ana="弁官有犯"/>
+                        <p ana="項"
+                            corresp="engishiki_ja.xml#item41112901 engishiki_en.xml#item41112901"
+                            xml:id="item41112901">凡弁官有犯、挙弁官名喚之、若有身犯、指其人喚之、</p>
+                    </div>
+                    <div ana="弾正" n="41.130" subtype="項" type="条">
+                        <head ana="中納言以上"/>
+                        <p ana="項"
+                            corresp="engishiki_ja.xml#item41113001 engishiki_en.xml#item41113001"
+                            xml:id="item41113001">凡中納言以上召台者、疏以上参、</p>
+                    </div>
+                    <div ana="弾正" n="41.131" subtype="項" type="条">
+                        <head ana="諸司五位以上"/>
+                        <p ana="項"
+                            corresp="engishiki_ja.xml#item41113101 engishiki_en.xml#item41113101"
+                            xml:id="item41113101"><anchor/>凡諸司五位以上、共率僚下、且就朝座、然後行曹司政、怠慢政事有闕、厳加禁制、<anchor/></p>
+                    </div>
+                    <div ana="弾正" n="41.132" subtype="項" type="条">
+                        <head ana="侍医"/>
+                        <p ana="項"
+                            corresp="engishiki_ja.xml#item41113201 engishiki_en.xml#item41113201"
+                            xml:id="item41113201">凡侍医・近衛府生以上、并検非違使等者、並除節会之外不必着朝服、〈申諸司政之日、不在此限、〉</p>
+                    </div>
+                    <div ana="弾正" n="41.133" subtype="項" type="条">
+                        <head ana="近衛兼雅楽"/>
+                        <p ana="項"
+                            corresp="engishiki_ja.xml#item41113301 engishiki_en.xml#item41113301"
+                            xml:id="item41113301">凡聴左右近衛兼雅楽<anchor/>才伎<anchor/>長上者、令帯剣・把笏、</p>
+                    </div>
+                    <div ana="弾正" n="41.134" subtype="項" type="条">
+                        <head ana="蕃客朝拝"/>
+                        <p ana="項"
+                            corresp="engishiki_ja.xml#item41113401 engishiki_en.xml#item41113401"
+                            xml:id="item41113401">凡蕃客朝拝之日、仮内舎人得着金銀飾仗<anchor/>也<anchor/>、</p>
+                    </div>
+                    <div ana="弾正" n="41.135" subtype="項" type="条">
+                        <head ana="建礼門南庭"/>
+                        <p ana="項"
+                            corresp="engishiki_ja.xml#item41113501 engishiki_en.xml#item41113501"
+                            xml:id="item41113501">凡建礼門南庭者、除中央之外、悉令生草、</p>
+                    </div>
+                    <div ana="弾正" n="41.136" subtype="項" type="条">
+                        <head ana="衛府五位以上"/>
+                        <p ana="項"
+                            corresp="engishiki_ja.xml#item41113601 engishiki_en.xml#item41113601"
+                            xml:id="item41113601"
+                            >凡諸衛府五位以上、通着朝服、其着胡<anchor/>禄<anchor/>并立仗之日、着位襖、但参議已上、不在此例、</p>
+                    </div>
+                    <div ana="弾正" n="41.137" subtype="項" type="条">
+                        <head ana="諸司著靴"/>
+                        <p ana="項"
+                            corresp="engishiki_ja.xml#item41113701 engishiki_en.xml#item41113701"
+                            xml:id="item41113701"
+                            >凡内外諸司、不論把笏・非把笏者、公事・公会之所、悉着靴、自余時、着履、〈把笏者、雖非公会、雨泥之日、聴着靴、〉又庶人等通着履、</p>
+                    </div>
+                    <div ana="弾正" n="41.138" subtype="項" type="条">
+                        <head ana="文武官人以下"/>
+                        <p ana="項"
+                            corresp="engishiki_ja.xml#item41113801 engishiki_en.xml#item41113801"
+                            xml:id="item41113801">凡文武官人以下、把笏番上以上八位以下之輩、毎年待式兵両省移、遣忠等就本司、糺弾其服色違濫、</p>
+                    </div>
+                    <div ana="弾正" n="41.139" subtype="項" type="条">
+                        <head ana="一世源氏"/>
+                        <p ana="項"
+                            corresp="engishiki_ja.xml#item41113901 engishiki_en.xml#item41113901"
+                            xml:id="item41113901">凡一世源氏有犯、遣疏就弾之、</p>
+                    </div>
+                    <div ana="弾正" n="41.140" subtype="項" type="条">
+                        <head ana="犯重応捕"/>
+                        <p ana="項"
+                            corresp="engishiki_ja.xml#item41114001 engishiki_en.xml#item41114001"
+                            xml:id="item41114001">凡犯重応補而拒捍者、発当処兵補之、若犯状灼然不肯伏弁事争訴者、累加本罪、</p>
+                    </div>
+                    <div ana="弾正" n="41.141" subtype="項" type="条">
+                        <head ana="犯人逃走"/>
+                        <p ana="項"
+                            corresp="engishiki_ja.xml#item41114101 engishiki_en.xml#item41114101"
+                            xml:id="item41114101">凡犯人逃走、令検非違使追捕、</p>
+                    </div>
+                    <div ana="弾正" n="41.142" subtype="項" type="条">
+                        <head ana="米穀出入門"/>
+                        <p ana="項"
+                            corresp="engishiki_ja.xml#item41114201 engishiki_en.xml#item41114201"
+                            xml:id="item41114201"
+                            >凡運民部廩院米車馬、自美福門脇門、運大膳職雑物・大炊寮米并雑穀、自郁芳門、運在中院西木工寮木屋材瓦・造酒司米、自談天門、運春宮坊雑物、自待賢門、並聴出入、</p>
+                    </div>
+                    <div ana="弾正" n="41.143" subtype="項" type="条">
+                        <head ana="王臣馬数"/>
+                        <p ana="項"
+                            corresp="engishiki_ja.xml#item41114301 engishiki_en.xml#item41114301"
+                            xml:id="item41114301">凡王臣馬数、依格有限、過此以外、不聴蓄馬、</p>
+                    </div>
+                    <div ana="弾正" n="41.144" subtype="項" type="条">
+                        <head ana="随身兵"/>
+                        <p ana="項"
+                            corresp="engishiki_ja.xml#item41114401 engishiki_en.xml#item41114401"
+                            xml:id="item41114401"><anchor/>凡随身之兵、各有儲法、過此以外、不聴貯蓄、<anchor/></p>
+                    </div>
+                    <div ana="弾正" n="41.145" subtype="項" type="条">
+                        <head ana="六位以下朝服"/>
+                        <p ana="項"
+                            corresp="engishiki_ja.xml#item41114501 engishiki_en.xml#item41114501"
+                            xml:id="item41114501">凡六位・七位朝服、同着深緑、八位・初位、共服深縹、</p>
+                    </div>
+                    <div ana="弾正" n="41.146" subtype="項" type="条">
+                        <head ana="門屋"/>
+                        <p ana="項"
+                            corresp="engishiki_ja.xml#item41114601 engishiki_en.xml#item41114601"
+                            xml:id="item41114601"
+                            >凡三位以上、聴建門屋於大路、四位参議<anchor/>准<anchor/>此、<anchor/>其<anchor/>聴建之人、雖身薨卒、子孫居住之間亦聴、自余除非門屋不在制限、其坊城垣、不聴開、</p>
+                    </div>
+                    <div ana="弾正" n="41.147" subtype="項" type="条">
+                        <head ana="所職官名"/>
+                        <p ana="項"
+                            corresp="engishiki_ja.xml#item41114701 engishiki_en.xml#item41114701"
+                            xml:id="item41114701">凡職事親王及三位以上諸王・諸臣者、各以所職官名為号、</p>
+                    </div>
+                    <div ana="弾正" n="41.148" subtype="項" type="条">
+                        <head ana="庁座"/>
+                        <p ana="項"
+                            corresp="engishiki_ja.xml#item41114801 engishiki_en.xml#item41114801"
+                            xml:id="item41114801">凡庁座者、親王及中納言已上倚子、五位以上漆塗床子、自余素木床子、</p>
+                    </div>
+                    <div ana="弾正" n="41.149" subtype="項" type="条">
+                        <head ana="諸衛府生以上"/>
+                        <p ana="項"
+                            corresp="engishiki_ja.xml#item41114901 engishiki_en.xml#item41114901"
+                            xml:id="item41114901"
+                            >凡諸衛府生以上、〈左右馬寮准此、〉除衛仗日之外、皆着靴、但着布帯時、<anchor/>須<anchor/>麻鞋、</p>
+                    </div>
+                    <div ana="弾正" n="41.150" subtype="項" type="条">
+                        <head ana="除著靴"/>
+                        <p ana="項"
+                            corresp="engishiki_ja.xml#item41115001 engishiki_en.xml#item41115001"
+                            xml:id="item41115001">凡除着靴之外、通着麻鞋、</p>
+                    </div>
+                    <div ana="弾正" n="41.151" subtype="項" type="条">
+                        <head ana="鴻臚館"/>
+                        <p ana="項"
+                            corresp="engishiki_ja.xml#item41115101 engishiki_en.xml#item41115101"
+                            xml:id="item41115101">凡臨時検校鴻臚館、</p>
+                    </div>
+                    <div ana="弾正" n="41.152" subtype="項" type="条">
+                        <head ana="薄朝服"/>
+                        <p ana="項"
+                            corresp="engishiki_ja.xml#item41115201 engishiki_en.xml#item41115201"
+                            xml:id="item41115201">凡聴内外諸司人等、着薄朝服、</p>
+                    </div>
+                    <div ana="弾正" n="41.153" subtype="項" type="条">
+                        <head ana="出棄病人"/>
+                        <p ana="項"
+                            corresp="engishiki_ja.xml#item41115301 engishiki_en.xml#item41115301"
+                            xml:id="item41115301"
+                            >凡部内百姓出棄病人者、五位以上取名奏聞、六位以下不論蔭贖決杖一百、其職司知而不糺、及条令・坊長・隣保相隠不告、並与同罪、</p>
+                    </div>
+                    <div ana="弾正" n="41.154" subtype="項" type="条">
+                        <head ana="散斎"/>
+                        <p ana="項"
+                            corresp="engishiki_ja.xml#item41115401 engishiki_en.xml#item41115401"
+                            xml:id="item41115401"
+                            >凡散斎之内、不得弔喪、問疾、食宍、不判刑殺、不決罰罪人、不作音楽、不預穢悪之事、若有違犯厳加禁制、</p>
+                    </div>
+                    <div ana="弾正" n="41.155" subtype="項" type="条">
+                        <head ana="大宿"/>
+                        <p ana="項"
+                            corresp="engishiki_ja.xml#item41115501 engishiki_en.xml#item41115501"
+                            xml:id="item41115501">凡十一月中卯日、応宿官人歴名、上左弁官、</p>
+                    </div>
+                    <div ana="弾正" n="41.156" subtype="項" type="条">
+                        <head ana="台所犯"/>
+                        <p ana="項"
+                            corresp="engishiki_ja.xml#item41115601 engishiki_en.xml#item41115601"
+                            xml:id="item41115601">凡台有所犯者、式部省加教正、</p>
+                    </div>
+                    <div ana="弾正" n="41.157" subtype="項" type="条">
+                        <head ana="宮城衛廬"/>
+                        <p ana="項"
+                            corresp="engishiki_ja.xml#item41115701 engishiki_en.xml#item41115701"
+                            xml:id="item41115701"
+                            >凡宮城衛廬、東面五宇、南北面各二宇、東北・東南隅各曲舎一宇、西面五宇、南北面各二宇、西北・西南隅各曲舎一宇、並檜皮葺、但直南一面廬四宇、東西両隅<anchor/>曲<anchor/>舎二宇、特瓦葺、</p>
+                    </div>
+                    <div ana="弾正" n="41.158" subtype="項" type="条">
+                        <head ana="巡行京裏"/>
+                        <p ana="項"
+                            corresp="engishiki_ja.xml#item41115801 engishiki_en.xml#item41115801"
+                            xml:id="item41115801"
+                            >凡台巡行京裏、厳加決罰令掃清、在宮外諸司并諸家、掃除当路、又置樋通水、勿露汚穢、又条令・坊長等依例、毎旬巡検催掃、若不従此制、諸家司并内外主<anchor/>典<anchor/>以上、移式部・兵部、貶考奪禄、四位・五位、録名奏聞、無品親王家及所々院家、以其別当官准諸家司、亦移省貶奪、其雑色番上以下、不論蔭贖決笞、</p>
+                    </div>
+                    <div ana="弾正" n="41.159" subtype="項" type="条">
+                        <head ana="男入尼寺"/>
+                        <p ana="項"
+                            corresp="engishiki_ja.xml#item41115901 engishiki_en.xml#item41115901"
+                            xml:id="item41115901">凡男入尼寺、女入僧寺之事、除非夜時、任令出入、</p>
+                    </div>
+                    <div ana="弾正" n="41.160" subtype="項" type="条">
+                        <head ana="弾正巡察"/>
+                        <p ana="項"
+                            corresp="engishiki_ja.xml#item41116001 engishiki_en.xml#item41116001"
+                            xml:id="item41116001">凡弾正者、月別三度巡察諸司、糺正非違、若有廃闕者、仍具事状移式部、考日勘問、</p>
+                    </div>
+                    <div ana="弾正" n="41.161" subtype="項" type="条">
+                        <head ana="闕官"/>
+                        <p ana="項"
+                            corresp="engishiki_ja.xml#item41116101 engishiki_en.xml#item41116101"
+                            xml:id="item41116101">凡闕官・不仕要劇者、充台中雑用、</p>
+                    </div>
+                </div>
+                <div type="尾題">
+                    <p>延喜式巻第卌一</p>
+                </div>
+                <div type="本奥書">
+                    <p>本奥書</p>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

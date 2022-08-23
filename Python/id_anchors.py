@@ -3,7 +3,7 @@ from bs4 import BeautifulSoup as BS
 vol = input('巻数は?\n')
 output_filename = f'engishiki_v{vol}.xml'
 
-f_input = open(output_filename, 'rb')
+f_input = open(f'../TEI files/{output_filename}', 'rb')
 soup = BS(f_input, 'xml')
 f_input.close()
 
@@ -18,6 +18,6 @@ for p in paragraphs:
         else:
             anchor["xml:id"] = anchor_id + 'e'
 
-f_output = open(output_filename, 'w', encoding='utf-8')
+f_output = open(f'../途中生成物/appID_{output_filename}', 'w', encoding='utf-8')
 f_output.write(str(soup))
 f_output.close()
