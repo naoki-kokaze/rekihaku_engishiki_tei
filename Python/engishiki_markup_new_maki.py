@@ -1,4 +1,5 @@
-import os
+from bs4 import BeautifulSoup as BS
+import csv
 
 def generate_TEIheader(output_filename):
     """ ヘッダーの記述
@@ -37,58 +38,81 @@ output_filename = f'../途中生成物/engishiki_v{file_volume}.xml'
 # headerを書き込む
 generate_TEIheader(output_filename)
 # 関数は別ファイルとして保存してある
-result = open(output_filename, 'a', encoding='utf-8')
-# 書き出しファイルを作る
+result = open(output_filename, 'r', encoding='utf-8')
+soup = BS(result, 'xml')
 
-result.write(f'<text><body>\n')
+# <teiHeader>の後、<text><body></text>タグを挿入
+root = soup.TEI
+t_text = soup.new_tag("text")
+t_body = soup.new_tag('body')
+root.append(t_text)
+t_text.append(t_body)
 
+# https://note.nkmk.me/python-csv-reader-writer/
+# CSVリーダーで見出し行のカラム名をキーとする順序付き辞書を取得し、巻のメタデータをリストとして保持
+f = open(input_filename, 'r', encoding='utf-8')
+reader = csv.DictReader(f, delimiter='\t')
+metadata = [row for row in reader]
+f.close()
+shiki_name = metadata[0]['式名']
+shiki_no = metadata[0]['巻']
 
+### 全体構造について確認
+# 最上位はdivタグのtype="巻"
+# その子要素にdivが4つ、それぞれtype="首題", "式名", "尾題", "本奥書"
+# type="式名"のdivタグの子要素には、type="式題"のdivがあり、その兄弟要素として本文が条数分だけある
 
-with open(input_filename, 'r', encoding='utf-8') as f:
-    contents_list = f.readlines()
+# 最上位のdivタグから生成
+t_div_maki = soup.new_tag('div', ana=f"{shiki_name}", n=f"{shiki_no}", type="巻", subtype="式")
+t_body.append(t_div_maki)
+
+# 4つのdivタグをその子要素に。それぞれ変数名で区別できるように
+t_div_shudai = soup.new_tag('div', type="首題")
+t_div_shiki = soup.new_tag('div', ana=f"{shiki_name}", n=f"{shiki_no}", type="式", subtype="条")
+t_div_bidai = soup.new_tag('div', type="尾題")
+t_div_okugaki = soup.new_tag('div', type="本奥書")
+
+# 首題のdivタグを最上位の子要素にし、自身の子要素にpタグと文字列を挿入。尾題と本奥書についても同様
+t_div_maki.append(t_div_shudai)
+t_div_shudai.append(soup.new_tag('p'))
+t_div_shudai.p.string = '首題'
+
+# 本文を格納する式タグを生成
+t_div_maki.append(t_div_shiki)
+
+# 尾題
+t_div_maki.append(t_div_bidai)
+t_div_bidai.append(soup.new_tag('p'))
+t_div_bidai.p.string = '尾題'
+
+# 本奥書
+t_div_maki.append(t_div_okugaki)
+t_div_okugaki.append(soup.new_tag('p'))
+t_div_okugaki.p.string = '本奥書'
+
+### メインの式タグの中身を格納していく
+# 条数分だけdivタグを生成する必要があるので、上記で定義した巻のmetadataのリストをすべてforループ
+for data in metadata:
+    t_div_shiki.append(soup.new_tag('div', ana=f"{shiki_name}", n=f"{shiki_no}.{data['条']}", type="条", subtype="項"))
+    # ポイントは、ここで末尾のdivを指定しないといけないこと。以下、同様
+    t_div_shiki.select('div')[-1].append(soup.new_tag('head', ana=f'{data["新条文名"]}'))
     
-contents_list2 = []
-for content_line in contents_list[1:]:
-    content = content_line.split('\t')
-    contents_list2.append(content)
-    content_rstrip = content[-1].rstrip()
-    content.pop(-1)
-    content.append(content_rstrip)
-    
-# bodyを書き込む
-# 首題と式題を入れてから本文を始める
-# <div ana="斎宮" n="5" subtype="式" type="巻"><div type="首題"><p>首題</p></div>
-# <div ana="斎宮" n="5" subtype="条" type="式"><div type="式題"><p>式題</p></div>
-shiki_name = contents_list2[0][1]
-shiki_no = contents_list2[0][0]
-result.write(f'''<div ana="{shiki_name}" n="{shiki_no}" subtype="式" type="巻"><div type="首題"><p>首題</p></div>
-<div ana="{shiki_name}" n="{shiki_no}" subtype="条" type="式"><div type="式題"><p>式題</p></div>\n''')
+    # 次に、項数文だけpタグを追加
+    kous = int(data["項"])
+    for kou in range(kous):
+        item_id = f'item{shiki_no.zfill(2)}{data["式順"]}{data["条"].zfill(3)}{str(kou+1).zfill(2)}'
+        t_div_shiki.select('div')[-1].append(soup.new_tag('p', ana="項", id=f"{item_id}", corresp=f"engishiki_ja.xml#{item_id} engishiki_en.xml#{item_id}"))
+        t_div_shiki.select('div')[-1].p.string = "本文"
 
-for content in contents_list2:
-    # 2. その下に条の構造を作る (ここはループする)
-    '''
-    <div ana="斎宮" n="5.1" subtype="項" type="条">
-                    <head ana="定斎王"/>
-                    <p ana="項" corresp="engishiki_ja.xml#item05100101 engishiki_en.xml#item05100101"
-                        xml:id="item05100101"> 凡天皇即位者、定伊勢大神宮斎王、仍簡内親王未嫁者卜之、〈<span type="割書"/>〉訖即遣勅使於彼家、
-                            告示事由、神祇祐已上一人、率僚下随勅使共向、卜部解除、神部以木綿着賢木、立殿四面及内外門、〈<span type="割書"/>〉
-                            其後択日時、百官為大祓、〈<span type="割書"/>〉<lb/>
-                    </p>
-                </div>
-    '''
-    jou_no_raw = content[3]
-    jou_no = f'{shiki_no}.{jou_no_raw}'
-    jou_name = content[4] #新条文名
-    result.write(f'<div ana="{shiki_name}" n="{jou_no}" subtype="項" type="条"><head ana="{jou_name}"/>')
-    
-    kous = int(content[-1])
-    for kou in range(kous):    
-        item_id = f'item{shiki_no.zfill(2)}{content[2]}{jou_no_raw.zfill(3)}{str(kou+1).zfill(2)}'
-        result.write(f'<p ana="項" corresp="engishiki_ja.xml#{item_id} engishiki_en.xml#{item_id}" xml:id="{item_id}">本文</p>')
-    result.write(f'</div>') #条の閉じタグ
+# あとは、名前空間の問題でエラーになってしまったxml:idの処理
+whole_text = str(soup)
+rep_text = whole_text.replace('id=', 'xml:id=')
 
-# すべて閉じるところに尾題と本奥書を入れる。直前には、式全体の閉じタグも入れておく
-result.write('</div><div type="尾題"><p>尾題</p></div><div type="本奥書"><p>本奥書</p></div>')
-result.write('</div></body></text></TEI>')
-print('body書き込み完了')
+# すべての結果の書き込み
+result = open(output_filename, 'w', encoding='utf-8')
+result.write(rep_text)
 result.close()
+
+
+
+
