@@ -101,16 +101,14 @@ for data in metadata:
     kous = int(data["項"])
     for kou in range(kous):
         item_id = f'item{shiki_no.zfill(2)}{data["式順"]}{data["条"].zfill(3)}{str(kou+1).zfill(2)}'
-        t_div_shiki.select('div')[-1].append(soup.new_tag('p', ana="項", id=f"{item_id}", corresp=f"engishiki_ja.xml#{item_id} engishiki_en.xml#{item_id}"))
+        # BSでxml:id属性値を与える方法について。https://zenn.dev/nakamura196/articles/ed3c614b08b0c4
+        # https://stackoverflow.com/questions/38379451/using-beautiful-soup-to-create-new-tag-with-attribute-named-name
+        t_div_shiki.select('div')[-1].append(soup.new_tag('p', **{"ana":"項", "xml:id":f"{item_id}", "corresp":f"engishiki_ja.xml#{item_id} engishiki_en.xml#{item_id}"}))
         t_div_shiki.select('div')[-1].p.string = "本文"
-
-# あとは、名前空間の問題でエラーになってしまったxml:idの処理
-whole_text = str(soup)
-rep_text = whole_text.replace('id=', 'xml:id=')
 
 # すべての結果の書き込み
 result = open(output_filename, 'w', encoding='utf-8')
-result.write(rep_text)
+result.write(str(soup))
 result.close()
 
 
