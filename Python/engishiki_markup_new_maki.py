@@ -23,8 +23,6 @@ def generate_TEIheader(output_filename):
 ######################################################################
 
 
-
-#os.chdir('/Users/kokaze/Documents/延喜式引継ぎ/対照コーパス/基礎データ/項目数')
 #作業者が適切なディレクトリを指定する
 
 file_volume = input('読み込む巻を入力してください\n')
