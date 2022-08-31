@@ -8,7 +8,7 @@ def generate_TEIheader(output_filename):
 
     output_file = open(output_filename, 'w', encoding='utf-8')
 
-    header_file = open('../TEI files/engishiki_header.xml', 'r', encoding='utf-8')
+    header_file = open('../TEI編集用/engishiki_header.xml', 'r', encoding='utf-8')
     header = header_file.read()
     header_file.close()
     
@@ -18,24 +18,17 @@ def generate_TEIheader(output_filename):
 
     print('TEIヘッダー情報書き込み完了')
 
-######################################################################
-################### 読み込み＆書き出しファイルの指定 ########################
-######################################################################
-
 
 #作業者が適切なディレクトリを指定する
 
 file_volume = input('読み込む巻を入力してください\n')
 
 input_filename = f'../vol_metadata/metadata_v{file_volume}.tsv'
-# 巻11.csv
 output_filename = f'../途中生成物/engishiki_v{file_volume}.xml'
-# engishiki_v11.xml
 
 
 # headerを書き込む
 generate_TEIheader(output_filename)
-# 関数は別ファイルとして保存してある
 result = open(output_filename, 'r', encoding='utf-8')
 soup = BS(result, 'xml')
 
@@ -54,19 +47,27 @@ metadata = [row for row in reader]
 f.close()
 shiki_name = metadata[0]['式名']
 shiki_no = metadata[0]['巻']
+shiki_order = metadata[0]['式順']
 
-### 全体構造について確認
+### 全体構造について確認 ###
 # 最上位はdivタグのtype="巻"
 # その子要素にdivが4つ、それぞれtype="首題", "式名", "尾題", "本奥書"
 # type="式名"のdivタグの子要素には、type="式題"のdivがあり、その兄弟要素として本文が条数分だけある
 
+### 参考情報 ###
+# BSでxml:id属性値を与える方法について。https://zenn.dev/nakamura196/articles/ed3c614b08b0c4
+# https://stackoverflow.com/questions/38379451/using-beautiful-soup-to-create-new-tag-with-attribute-named-name
+
+
+### メインの処理 ###
 # 最上位のdivタグから生成
 t_div_maki = soup.new_tag('div', ana=f"{shiki_name}", n=f"{shiki_no}", type="巻", subtype="式")
 t_body.append(t_div_maki)
 
 # 4つのdivタグをその子要素に。それぞれ変数名で区別できるように
 t_div_shudai = soup.new_tag('div', type="首題")
-t_div_shiki = soup.new_tag('div', ana=f"{shiki_name}", n=f"{shiki_no}", type="式", subtype="条")
+protocol_id = f'protocol{shiki_no.zfill(2)}{shiki_order}'
+t_div_shiki = soup.new_tag('div', **{"ana":f"{shiki_name}", "xml:id":f"{protocol_id}", "n":f"{shiki_no}", "type":"式", "subtype":"条", "corresp":f"engishiki_ja.xml#{protocol_id} engishiki_en.xml#{protocol_id}"})
 t_div_bidai = soup.new_tag('div', type="尾題")
 t_div_okugaki = soup.new_tag('div', type="本奥書")
 
@@ -91,16 +92,15 @@ t_div_okugaki.p.string = '本奥書'
 ### メインの式タグの中身を格納していく
 # 条数分だけdivタグを生成する必要があるので、上記で定義した巻のmetadataのリストをすべてforループ
 for data in metadata:
-    t_div_shiki.append(soup.new_tag('div', ana=f"{shiki_name}", n=f"{shiki_no}.{data['条']}", type="条", subtype="項"))
+    article_id = f'article{protocol_id[-3:]}{data["条"].zfill(3)}'
+    t_div_shiki.append(soup.new_tag('div', **{"ana":f"{shiki_name}", "xml:id":f"{article_id}", "n":f"{shiki_no}.{data['条']}", "type":"条", "subtype":"項", "corresp":f"engishiki_ja.xml#{article_id} engishiki_en.xml#{article_id}"}))
     # ポイントは、ここで末尾のdivを指定しないといけないこと。以下、同様
     t_div_shiki.select('div')[-1].append(soup.new_tag('head', ana=f'{data["新条文名"]}'))
     
     # 次に、項数文だけpタグを追加
     kous = int(data["項"])
     for kou in range(kous):
-        item_id = f'item{shiki_no.zfill(2)}{data["式順"]}{data["条"].zfill(3)}{str(kou+1).zfill(2)}'
-        # BSでxml:id属性値を与える方法について。https://zenn.dev/nakamura196/articles/ed3c614b08b0c4
-        # https://stackoverflow.com/questions/38379451/using-beautiful-soup-to-create-new-tag-with-attribute-named-name
+        item_id = f'item{article_id[-6:]}{str(kou+1).zfill(2)}'
         t_div_shiki.select('div')[-1].append(soup.new_tag('p', **{"ana":"項", "xml:id":f"{item_id}", "corresp":f"engishiki_ja.xml#{item_id} engishiki_en.xml#{item_id}"}))
         t_div_shiki.select('div')[-1].p.string = "本文"
 
