@@ -813,6 +813,16 @@
                                 xml:id="app3920231001e"/>蠣料、四枚打古毛料、二枚切鰒料、二枚打加自米<anchor
                                 xml:id="app3920231002"/>料<anchor xml:id="app3920231002e"
                             />、二枚打魚骨料、一枚作折餅料、一枚餛飩料、五十五枚雑用料、長廿枚、短卅五枚、〉</p>
+                        <app from="#app3920231001" to="#app3920231001e">
+                            <lem wit="#九本 #梵本">刺</lem>
+                            <rdg wit="#土本 #近本 #壬本 #慶長本">判</rdg>
+                            <note>刺　土本・近本・壬本・慶長本「判」。九本・梵本により改める。</note>
+                        </app>
+                        <app from="#app3920231002" to="#app3920231002e">
+                            <lem wit="#九本 #近本 #等">料</lem>
+                            <rdg wit="#土本"/>
+                            <note>料　土本無し。九本・近本等により補う。</note>
+                        </app>
                         <p ana="項"
                             corresp="engishiki_ja.xml#item39202311 engishiki_en.xml#item39202311"
                             xml:id="item39202311"
@@ -821,6 +831,11 @@
                             corresp="engishiki_ja.xml#item39202312 engishiki_en.xml#item39202312"
                             xml:id="item39202312">熬笥廿四口、〈熬雑糒料、〉<anchor xml:id="app3920231201"
                                 />太<anchor xml:id="app3920231201e"/>蓋十一枚、〈樽料、〉漉籠廿四口、〈漉雑煠餅料、〉</p>
+                        <app from="#app3920231201" to="#app3920231201e">
+                            <lem>太</lem>
+                            <rdg wit="#九本 #島原本 #訳注本">大</rdg>
+                            <note>太　訳注本は九本・島原本により「大」に改める。</note>
+                        </app>
                         <p ana="項"
                             corresp="engishiki_ja.xml#item39202313 engishiki_en.xml#item39202313"
                             xml:id="item39202313">暴布<anchor xml:id="app3920231301"/>九<anchor
@@ -837,6 +852,57 @@
                                 xml:id="app3920231309e"/>一丈八尺、<anchor xml:id="app3920231310"
                                 />宮<anchor xml:id="app3920231310e"
                             />人十人襅料、各長六尺、一丈八尺仕女四人襅料、各長四尺五寸、一端一丈四尺衫四領料、各長一丈四尺、八尺冠四条料、各長二尺、〉</p>
+                        <app from="#app3920231301" to="#app3920231301e">
+                            <lem wit="#九本 #近本 #等">九</lem>
+                            <rdg wit="#土本">几</rdg>
+                            <note>九　土本「几」。九本・近本等により改める。</note>
+                        </app>
+                        <app from="#app3920231302" to="#app3920231302e">
+                            <lem wit="#九本 #近本 #等">九</lem>
+                            <rdg wit="#土本">几</rdg>
+                            <note>九　土本「几」。九本・近本等により改める。</note>
+                        </app>
+                        <app from="#app3920231303" to="#app3920231303e">
+                            <lem wit="#九本">端</lem>
+                            <rdg wit="#土本 #近本 #壬本">段</rdg>
+                            <rdg wit="#梵本 #慶長本">内</rdg>
+                            <note>端　土本・近本・壬本「段」、梵本・慶長本「内」。九本により改める。</note>
+                        </app>
+                        <app from="#app3920231304" to="#app3920231304e">
+                            <lem wit="#九本">丈</lem>
+                            <rdg wit="#土本 #等">尺</rdg>
+                            <note>丈　土本等「尺」。九本により改める。</note>
+                        </app>
+                        <app from="#app3920231305" to="#app3920231305e">
+                            <lem wit="#九本残画 #考異">折</lem>
+                            <rdg wit="#土本 #等">料</rdg>
+                            <note>折　土本等「料」。九本残画および考異により改める。</note>
+                        </app>
+                        <app from="#app3920231306" to="#app3920231306e">
+                            <lem wit="#九本">端</lem>
+                            <rdg wit="#土本 #等">段</rdg>
+                            <note>端　土本等「段」。九本により改める。</note>
+                        </app>
+                        <app from="#app3920231307" to="#app3920231307e">
+                            <lem wit="#九本">一</lem>
+                            <rdg wit="#土本 #等"/>
+                            <note>一　土本等無し。九本により補う。</note>
+                        </app>
+                        <app from="#app3920231308" to="#app3920231308e">
+                            <lem wit="#九本">端</lem>
+                            <rdg wit="#土本 #等">段</rdg>
+                            <note>端　土本等「段」。九本により改める。</note>
+                        </app>
+                        <app from="#app3920231309" to="#app3920231309e">
+                            <lem wit="#九本">一端</lem>
+                            <rdg wit="#土本 #等"/>
+                            <note>一端　土本等無し。九本により補う。</note>
+                        </app>
+                        <app from="#app3920231310" to="#app3920231310e">
+                            <lem wit="#九本">宮</lem>
+                            <rdg wit="#土本 #等">官</rdg>
+                            <note>宮　土本等「官」。九本により改める。</note>
+                        </app>
                         <p ana="項"
                             corresp="engishiki_ja.xml#item39202314 engishiki_en.xml#item39202314"
                             xml:id="item39202314">　右、起十一月供用、明年十月請替、</p>
@@ -847,13 +913,27 @@
                             corresp="engishiki_ja.xml#item39202401 engishiki_en.xml#item39202401"
                             xml:id="item39202401">供御料雑器 <lb/>朱漆台盤四面、〈二面尋常料、二面節会料、〉
                             <lb/>黒漆台盤二面、〈潔斎料、〉 <lb/>金・銀・朱漆・瓷雑器、
-                            <lb/>　右、供御雑器従蔵人所請、但尋常料台盤二面【巾＋巴】料油絁二丈五尺二寸、随破損申請、受内蔵寮、</p>
+                            <lb/>　右、供御雑器従蔵人所請、但尋常料台盤二面帊料油絁二丈五尺二寸、随破損申請、受内蔵寮、</p>
                         <p ana="項"
                             corresp="engishiki_ja.xml#item39202402 engishiki_en.xml#item39202402"
                             xml:id="item39202402">朱漆椀五口、〈各深三寸五分、口径一尺一寸、〉中宮・東宮各三口、 <lb/><anchor
                                 xml:id="app3920240201"/>金銅界文台<anchor xml:id="app3920240201e"
                                 />五基、〈各高一尺、径八<anchor xml:id="app3920240202"/>寸<anchor
                                 xml:id="app3920240202e"/>、〉中宮・東宮各三基、 <lb/>　右、日供諸節通用、並随破請換、</p>
+                        <app from="#app3920240201" to="#app3920240201e">
+                            <lem>金銅界文台</lem>
+                            <rdg/>
+                            <note place="傍">土本傍書「カナワニスエタル台也、其金輪打堺」</note>
+                            <note place="傍">近本傍書「カナワニスエタル台也、其金輪打堺」</note>
+                            <note place="傍">壬本傍書「カナワニスエタル台也、其金輪打堺」</note>
+                            <note place="傍">慶長本傍書「カナワニスエタル台也、其金輪打堺」</note>
+                            <note>金銅界文台　土本・近本・壬本・慶長本傍書「カナワニスエタル台也、其金輪打堺」。</note>
+                        </app>
+                        <app from="#app3920240202" to="#app3920240202e">
+                            <lem wit="#九本">寸</lem>
+                            <rdg wit="#土本 #等">尺</rdg>
+                            <note>寸　土本等「尺」。九本により改める。</note>
+                        </app>
                         <p ana="項"
                             corresp="engishiki_ja.xml#item39202403 engishiki_en.xml#item39202403"
                             xml:id="item39202403">荷櫃三具、〈御并中宮・東宮日供料、〉長櫃四合、〈運送盂蘭<anchor
@@ -861,6 +941,16 @@
                                 />并諸節雑菜料、〉中取二脚、〈芼御菜料、〉酒槽一口、〈洗御菜料、〉中荷水桶一合、〈<anchor
                                 xml:id="app3920240302"/>汲<anchor xml:id="app3920240302e"
                             />洗御菜水料、〉布一端、〈二丈芼洗御菜夫二人襅・襷料、二丈二尺荷櫃四合帯料、〉 <lb/>　右毎年請用、但長櫃・酒槽三年一請、</p>
+                        <app from="#app3920240301" to="#app3920240301e">
+                            <lem>瓫</lem>
+                            <rdg wit="#貞享本 #訳注本">盆</rdg>
+                            <note>瓫　訳注本は貞享本により「盆」に改める。</note>
+                        </app>
+                        <app from="#app3920240302" to="#app3920240302e">
+                            <lem wit="#九本">汲</lem>
+                            <rdg wit="#土本 #等"/>
+                            <note>汲　土本等無し。九本により補う。</note>
+                        </app>
                     </div>
                     <div ana="内膳" n="39.25" subtype="項" type="条">
                         <head ana="帷料"/>
@@ -875,6 +965,18 @@
                             xml:id="item39202601">凡供雑物標緋幡一十六<anchor xml:id="app3920260101"/>流<anchor
                                 xml:id="app3920260101e"/>、〈各長一尺九寸、広<anchor xml:id="app3920260102"
                                 />五寸五分<anchor xml:id="app3920260102e"/>、〉毎年請内侍所、以内侍印印之、</p>
+                        <app from="#app3920260101" to="#app3920260101e">
+                            <lem>流</lem>
+                            <rdg wit="#九本 #訳注本">旒</rdg>
+                            <note>流　九本「旒」。訳注本は「旒」に改める。</note>
+                        </app>
+                        <app from="#app3920260102" to="#app3920260102e">
+                            <lem wit="#九本">五寸五分</lem>
+                            <rdg wit="#土本 #京博本 #等">五寸五寸</rdg>
+                            <note place="傍">京博本二つめの「寸」に朱傍書「<seg style="color:red">分イ</seg>」</note>
+                            <note>五寸五分　土本等「五寸五寸」。九本により改める。なお京博本は二つめの「寸」に朱傍書「分イ」。訳注本は「考異は主水式25運氷駄条において本条に触れ、ここは『四寸五分』に作るべきとする。確かに一理あるが、九本ほか諸本に異同がないので、しばらく旧を存することとする」と述べる。
+                            </note>
+                        </app>
                     </div>
                     <div ana="内膳" n="39.27" subtype="項" type="条">
                         <head ana="造粉熟料"/>
@@ -889,9 +991,14 @@
                         <p ana="項"
                             corresp="engishiki_ja.xml#item39202801 engishiki_en.xml#item39202801"
                             xml:id="item39202801">供奉雑菜
-                                <lb/>日別一斗、韲料三升、生瓜卅顆、〈准三升、自五月迄八月所進、〉茄子卌顆、〈准二升、六・七・八・九月、〉莧四升、〈五・六・七・八月、〉【草冠＋角（最終画は突き出す）＋力】六把、〈准六升自二月迄九月、〉蕗二把、〈准二升、五・六・七・八月、〉蔓菁四把、〈准四升、自正月迄十二月、〉茎立四把、〈准四升、二・三月、〉薺四升、〈正・二・十一・十二月、〉萵苣四把、〈准二升、三・四・五月、〉葵四把、〈准二升、五・八・九・十月、〉羊蹄四把、〈准二升、四・五・八・九・十月、〉韮二把、〈准二升、自二月迄九月、〉䓗二把、〈准一升、正・四・五・九・十・十一・十二月、〉蒜一百根、〈准二升、正・二・三・四・十一・十二<anchor
+                                <lb/>日別一斗、韲料三升、生瓜卅顆、〈准三升、自五月迄八月所進、〉茄子卌顆、〈准二升、六・七・八・九月、〉莧四升、〈五・六・七・八月、〉葪六把、〈准六升自二月迄九月、〉蕗二把、〈准二升、五・六・七・八月、〉蔓菁四把、〈准四升、自正月迄十二月、〉茎立四把、〈准四升、二・三月、〉薺四升、〈正・二・十一・十二月、〉萵苣四把、〈准二升、三・四・五月、〉葵四把、〈准二升、五・八・九・十月、〉羊蹄四把、〈准二升、四・五・八・九・十月、〉韮二把、〈准二升、自二月迄九月、〉䓗二把、〈准一升、正・四・五・九・十・十一・十二月、〉蒜一百根、〈准二升、正・二・三・四・十一・十二<anchor
                                 xml:id="app3920280101"/>月<anchor xml:id="app3920280101e"
-                            />青進、五・六・七・八・九月干進、〉生薑八房、〈准二升、六・七・八月、〉蜀椒二合、〈三・四月稚葉、五・六月子、〉蓼十把、〈准二升、自四月迄九月、〉蘭二把、〈准一升、自正月迄十二月、〉胡【にし】二合、〈正・二・九・十・十一・十二月、〉蘿菔根四把、〈准四升、正・二・十・十一・十二月、〉芹四把、〈准四升、自正月迄六月、〉水䓗四把、〈准四升、五・六・七・八月、〉芋茎二把、〈六・七・八・九月、〉</p>
+                            />青進、五・六・七・八・九月干進、〉生薑八房、〈准二升、六・七・八月、〉蜀椒二合、〈三・四月稚葉、五・六月子、〉蓼十把、〈准二升、自四月迄九月、〉蘭二把、〈准一升、自正月迄十二月、〉胡䕑二合、〈正・二・九・十・十一・十二月、〉蘿菔根四把、〈准四升、正・二・十・十一・十二月、〉芹四把、〈准四升、自正月迄六月、〉水䓗四把、〈准四升、五・六・七・八月、〉芋茎二把、〈六・七・八・九月、〉</p>
+                        <app from="#app3920280101" to="#app3920280101e">
+                            <lem wit="#九本 #壬本 #等">月</lem>
+                            <rdg wit="#土本"/>
+                            <note>月　土本無し。九本、壬本等により補う。</note>
+                        </app>
                         <p ana="項"
                             corresp="engishiki_ja.xml#item39202802 engishiki_en.xml#item39202802"
                             xml:id="item39202802">雑菓子五升、生大豆・小豆各六把、〈並六・七・八・九月、〉生大角豆六把、〈六・七月、〉<anchor
@@ -902,6 +1009,26 @@
                                 />八顆、〈六・七・八月、〉栗子三升、〈七・八・九月、〉桃子四升、〈七・八・九月、〉柚子十顆、〈九・十月、〉柿子二升、〈九・十・十一月、〉枇杷十房、〈五・六月、〉李<anchor
                                 xml:id="app3920280204"/>子<anchor xml:id="app3920280204e"
                             />二升、〈五・六月、〉覆瓫子二升、〈五月、〉笋四把、〈五・六月、〉中宮准此、</p>
+                        <app from="#app3920280201" to="#app3920280201e">
+                            <lem/>
+                            <rdg/>
+                            <note>芋子四升正九十十一十二月　訳注本は九本により「波波古五升〈二・三月〉」の下に移動する。本条後文の配列は波々古・芋子の順。</note>
+                        </app>
+                        <app from="#app3920280202" to="#app3920280202e">
+                            <lem wit="#九本">波々古</lem>
+                            <rdg wit="#土本 #等">䜵々古</rdg>
+                            <note>波々古　土本等「䜵々古」。九本により改める。本条後文および和名抄にも「波々古」と見える。 </note>
+                        </app>
+                        <app from="#app3920280203" to="#app3920280203e">
+                            <lem>苽</lem>
+                            <rdg wit="#訳注本">瓜</rdg>
+                            <note>苽　訳注本は「瓜」に意改する。</note>
+                        </app>
+                        <app from="#app3920280204" to="#app3920280204e">
+                            <lem wit="#九本">子</lem>
+                            <rdg wit="#土本 #等"/>
+                            <note>子　土本等無し。九本により補う。</note>
+                        </app>
                         <p ana="項"
                             corresp="engishiki_ja.xml#item39202803 engishiki_en.xml#item39202803"
                             xml:id="item39202803"
@@ -914,6 +1041,11 @@
                             xml:id="item39202901">年中七節料生菜、節別<anchor xml:id="app3920290101"
                                 />一石五斗九合<anchor xml:id="app3920290101e"
                             />、〈本司五斗一升、中宮亦同、東宮二斗四升九合、〉</p>
+                        <app from="#app3920290101" to="#app3920290101e">
+                            <lem>一石五斗九合</lem>
+                            <rdg/>
+                            <note>一石五斗九合　分注の内訳と合わない。どちらかに誤りあるか。</note>
+                        </app>
                     </div>
                     <div ana="内膳" n="39.30" subtype="項" type="条">
                         <head ana="山科園早瓜"/>
@@ -927,6 +1059,11 @@
                             corresp="engishiki_ja.xml#item39203101 engishiki_en.xml#item39203101"
                             xml:id="item39203101">年料<anchor xml:id="app3920310101"/>雑<anchor
                                 xml:id="app3920310101e"/>菜八十四石四斗、</p>
+                        <app from="#app3920310101" to="#app3920310101e">
+                            <lem wit="#九本">雑</lem>
+                            <rdg wit="#土本 #等">新</rdg>
+                            <note>雑　土本等「新」。九本により改める。</note>
+                        </app>
                     </div>
                     <div ana="内膳" n="39.32" subtype="項" type="条">
                         <head ana="量雑菜"/>
@@ -934,6 +1071,11 @@
                             corresp="engishiki_ja.xml#item39203201 engishiki_en.xml#item39203201"
                             xml:id="item39203201">凡量年中所供雑菜、停斗用称、其斗・<anchor xml:id="app3920320101"
                                 />斛<anchor xml:id="app3920320101e"/>所准、本司与受物所司相共量定、</p>
+                        <app from="#app3920320101" to="#app3920320101e">
+                            <lem>斛</lem>
+                            <rdg wit="#訳注本">称</rdg>
+                            <note>斛　訳注本は「称」に意改する。</note>
+                        </app>
                     </div>
                     <div ana="内膳" n="39.33" subtype="項" type="条">
                         <head ana="行幸雑菜"/>
@@ -946,12 +1088,29 @@
                         <p ana="項"
                             corresp="engishiki_ja.xml#item39203401 engishiki_en.xml#item39203401"
                             xml:id="item39203401">漬年料雑菜
-                                <lb/>蕨二石、〈料塩一斗、〉薺蒿一石五斗、〈料塩六升、〉【草冠＋角（最終画は突き出す）＋力】二石四斗、〈料塩七升二合、〉芹十石、〈料塩八斗、〉蕗二石五斗、〈料塩一斗・米六升、〉蘇羅自六斗、〈料塩二升四合、〉虎<anchor
+                                <lb/>蕨二石、〈料塩一斗、〉薺蒿一石五斗、〈料塩六升、〉葪二石四斗、〈料塩七升二合、〉芹十石、〈料塩八斗、〉蕗二石五斗、〈料塩一斗・米六升、〉蘇羅自六斗、〈料塩二升四合、〉虎<anchor
                                 xml:id="app3920340101"/>杖<anchor xml:id="app3920340101e"
                                 />三斗、〈料塩一升二合、〉多多良比売花搗三斗、〈料塩三升、〉竜葵味葅六斗、〈料塩四斗八合・楡三升、〉瓜味漬一石、〈料塩<anchor
                                 xml:id="app3920340102"/>三斗<anchor xml:id="app3920340102e"/>、〉<anchor
                                 xml:id="app3920340103"/>蒜房六斗、〈料塩五升、〉<anchor xml:id="app3920340103e"
                             />蒜英五斗、〈料塩四升四合、〉韮搗四斗、〈料塩四升、〉蔓菁黄菜五斗、〈料塩三升・粟三升、〉 <lb/>　右、漬春菜料、 </p>
+                        <app from="#app3920340101" to="#app3920340101e">
+                            <lem wit="#九本 #梵本">杖</lem>
+                            <rdg wit="#土本 #近本 #壬本 #慶長本">枚</rdg>
+                            <note>杖　土本・近本・壬本・慶長本「枚」。九本・梵本により改める。</note>
+                        </app>
+                        <app from="#app3920340102" to="#app3920340102e">
+                            <lem wit="#土本朱訂正書">三斗</lem>
+                            <rdg wit="#土本本文">五升</rdg>
+                            <note>土本朱訂正書「<seg style="color:red">三斗</seg>」</note>
+                            <note>三斗　土本本文「五升」に誤る。朱書にて訂正。</note>
+                        </app>
+                        <app from="#app3920340103" to="#app3920340103e">
+                            <lem wit="#土本朱補書">蒜房六斗料塩五升</lem>
+                            <rdg wit="#土本本文"/>
+                            <note>土本朱補書「<seg style="color:red">蒜房六斗料塩五升</seg>」</note>
+                            <note>蒜房六斗料塩五升　土本脱字。朱にて補書する。</note>
+                        </app>
                         <p ana="項"
                             corresp="engishiki_ja.xml#item39203402 engishiki_en.xml#item39203402"
                             xml:id="item39203402">瓜八石、〈料塩四斗八升、〉<anchor xml:id="app3920340201"
@@ -967,13 +1126,48 @@
                                 xml:id="app3920340206"/>一<anchor xml:id="app3920340206e"
                                 />斗五升、〉糟菁根五斗、〈料塩九升・汁糟一斗五升、〉蔓菁切葅一石四斗、〈料塩二升四合・<anchor
                                 xml:id="app3920340207"/>楡<anchor xml:id="app3920340207e"/>二升、〉</p>
+                        <app from="#app3920340201" to="app3920340201e">
+                            <lem>糟</lem>
+                            <rdg wit="#訳注本">槽</rdg>
+                            <note>糟　訳注本「槽」（誤植）。</note>
+                        </app>
+                        <app from="#app3920340202" to="#app3920340202e">
+                            <lem wit="#九本">未</lem>
+                            <rdg wit="#土本 #等">各未</rdg>
+                            <note>未　土本等この上に「各」あり。九本無し。衍と見て削る。</note>
+                        </app>
+                        <app from="#app3920340203" to="#app3920340203e">
+                            <lem wit="#九本">楡</lem>
+                            <rdg wit="#土本 #等">棯</rdg>
+                            <note>楡　土本等「棯」。九本により改める。</note>
+                        </app>
+                        <app from="#app3920340204" to="#app3920340204e">
+                            <lem wit="#九本">菁</lem>
+                            <rdg wit="#土本 #等">根</rdg>
+                            <note>菁　土本等「根」。九本により改める。</note>
+                        </app>
+                        <app from="#app3920340205" to="#app3920340205e">
+                            <lem wit="#九本">楡</lem>
+                            <rdg wit="#土本 #等">棯</rdg>
+                            <note>楡　土本等「棯」。九本により改める。</note>
+                        </app>
+                        <app from="#app3920340206" to="#app3920340206e">
+                            <lem>一</lem>
+                            <rdg wit="#梵本">二</rdg>
+                            <note>一　梵本「二」。</note>
+                        </app>
+                        <app from="#app3920340207" to="#app3920340207e">
+                            <lem wit="#九本">楡</lem>
+                            <rdg wit="#土本 #等">棯</rdg>
+                            <note>楡　土本等「棯」。九本により改める。</note>
+                        </app>
                         <p ana="項"
                             corresp="engishiki_ja.xml#item39203403 engishiki_en.xml#item39203403"
                             xml:id="item39203403">茄子五石、〈料塩三斗、〉醤茄子六斗、〈料塩一斗二升、汁糟・<anchor
                                 xml:id="app3920340301"/>未<anchor xml:id="app3920340301e"
                                 />醤・滓醤各一斗八升、〉糟茄子六斗、〈料塩一斗二升・汁糟一斗八升、〉竜葵葅六斗、〈料塩六升・<anchor
                                 xml:id="app3920340302"/>楡<anchor xml:id="app3920340302e"
-                                />二升四合、〉竜葵子漬三斗、〈料塩九升、〉水【草冠＋忩】十石、〈料塩七升、〉糟漬小水【草冠＋忩】一石、〈料塩一斗二升・汁糟五斗、〉蘭葅三斗、〈料塩二升四合・<anchor
+                                />二升四合、〉竜葵子漬三斗、〈料塩九升、〉水䓗十石、〈料塩七升、〉糟漬小水【草冠＋忩】一石、〈料塩一斗二升・汁糟五斗、〉蘭葅三斗、〈料塩二升四合・<anchor
                                 xml:id="app3920340303"/>楡<anchor xml:id="app3920340303e"
                                 />一升二合、〉大豆六斗、〈料塩六升・汁糟一斗八升、〉山蘭二斗、〈料塩四升、〉蓼葅四斗、〈料塩四升・<anchor
                                 xml:id="app3920340304"/>楡<anchor xml:id="app3920340304e"/><anchor
@@ -983,16 +1177,71 @@
                                 />薑三斗、〈料塩六升・汁糟一斗五升、〉鬱萌草搗三斗、〈料塩四升五合、〉和太太備二斗、〈料塩二升、〉舌附一斗、〈料塩二升二合、〉桃子二石、〈料塩一斗二升、〉柿子五升、〈料塩二升、〉梨子六升、〈料塩三升六合、〉蜀椒子一石、〈料塩二斗四升、〉荏<anchor
                                 xml:id="app3920340307"/>裹<anchor xml:id="app3920340307e"
                             />六斗、〈料瓜九斗、冬瓜七斗、茄子六斗、菁根四斗、塩一斗二升、醤・未醤・滓醤各一石、〉 　<lb/>右、漬秋菜料、 </p>
+                        <app from="#app3920340301" to="#app3920340301e">
+                            <lem wit="#九本">未</lem>
+                            <rdg wit="#土本 #等">味</rdg>
+                            <note>未　土本等「味」。九本により改める。</note>
+                        </app>
+                        <app from="#app3920340302" to="#app3920340302e">
+                            <lem wit="#九本">楡</lem>
+                            <rdg wit="#土本 #等">棯</rdg>
+                            <note>楡　土本等「棯」。九本により改める。</note>
+                        </app>
+                        <app from="#app3920340303" to="#app3920340303e">
+                            <lem wit="#九本">楡</lem>
+                            <rdg wit="#土本 #等">棯</rdg>
+                            <note>楡　土本等「棯」。九本により改める。</note>
+                        </app>
+                        <app from="#app3920340304" to="#app3920340304e">
+                            <lem wit="#九本">楡</lem>
+                            <rdg wit="#土本 #等">棯</rdg>
+                            <note>楡　土本等「棯」。九本により改める。</note>
+                        </app>
+                        <app from="#app3920340305" to="#app3920340305e">
+                            <lem>一</lem>
+                            <rdg wit="#九本">六</rdg>
+                            <note>一　九本「六」。</note>
+                        </app>
+                        <app from="#app3920340306" to="#app3920340306e">
+                            <lem wit="#九本 #近本 #等">稚</lem>
+                            <rdg wit="#土本">椎</rdg>
+                            <note>稚　土本「椎」。九本・近本等により改める。</note>
+                        </app>
+                        <app from="#app3920340307" to="#app3920340307e">
+                            <lem>裹</lem>
+                            <rdg wit="#訳注本">裹二石</rdg>
+                            <note>裹　この下、脱字の可能性あり。訳注本は考異に従い「二石」を補う。</note>
+                        </app>
                         <p ana="項"
                             corresp="engishiki_ja.xml#item39203404 engishiki_en.xml#item39203404"
                             xml:id="item39203404">生薑四石五斗、〈料塩一石四斗二升・汁糟四石二斗、〉柏卅五把、〈<anchor
-                                xml:id="app3920340401"/>【巾＋巴】<anchor xml:id="app3920340401e"
+                                xml:id="app3920340401"/>帊<anchor xml:id="app3920340401e"
                             />瓼口料、〉匏二柄、〈汲汁料、〉択薑女孺単五十人、女丁十二人半給間食、〈人別日八合、〉 <lb/>右、年料請内侍司漬造、至于明年<anchor
                                 xml:id="app3920340402"/>三<anchor xml:id="app3920340402e"
                                 />月更易塩糟、<anchor xml:id="app3920340403"/>其<anchor
                                 xml:id="app3920340403e"/>数随残多少、〈仮如残薑一石、料塩一斗、<anchor
                                 xml:id="app3920340404"/>糟<anchor xml:id="app3920340404e"
                             />五斗之類、〉始当年九月迄明年七月供之、 </p>
+                        <app from="#app3920340401" to="#app3920340401e">
+                            <lem wit="#九本">帊</lem>
+                            <rdg wit="#土本 #等">把</rdg>
+                            <note>帊　土本等「把」。九本により改める。</note>
+                        </app>
+                        <app from="#app3920340402" to="#app3920340402e">
+                            <lem wit="#九本 #近本 #等">三</lem>
+                            <rdg wit="#土本">二</rdg>
+                            <note>三　土本「二」。九本・近本等により改める。</note>
+                        </app>
+                        <app from="#app3920340403" to="#app3920340403e">
+                            <lem wit="#九本">其</lem>
+                            <rdg wit="#土本 #等"/>
+                            <note>其　土本等無し。九本により補う。</note>
+                        </app>
+                        <app from="#app3920340404" to="#app3920340404e">
+                            <lem wit="#九本">糟</lem>
+                            <rdg wit="#土本 #等">糒</rdg>
+                            <note>糟　土本等「糒」。九本により改める。</note>
+                        </app>
                     </div>
                     <div ana="内膳" n="39.35" subtype="項" type="条">
                         <head ana="楡皮"/>
