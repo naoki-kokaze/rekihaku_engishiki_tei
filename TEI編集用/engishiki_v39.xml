@@ -36,13 +36,35 @@
         </fileDesc>
         <encodingDesc>
             <variantEncoding location="external" method="location-referenced"/>
+            <editorialDecl>
+                <p>校訂文凡例<lb/>
+                    ・原則として土本（以下、略称は下記「主要写本・版本・刊本等略称・底本一覧」参照）を底本とし、九本・剛本・条本・花本等の古写本や近本・壬本・京博本等の写本によって対校しました（巻によって使用した対校本は異なります）。<lb/>
+                    ・条文番号・条文名称は原則として訳注本に拠りましたが、一部を修正しています（※参照）。なお１条が長い場合など、必要に応じ「項」に分割して示すこととしました。<lb/>
+                    ・校異は原則として底本の文字を改変する場合、あるいは写本間に参考とすべき異同がある場合、参考とすべき傍書等がある場合に付すこととしました。必ずしもその校異に関する写本をすべて網羅することはせず、主要写本のみを取り上げています。ただし訳注本と校訂文に異同が生じた場合には、できる限り校異にて言及するよう心がけました（単なる字体の相違については省略しています）。<lb/>
+                    ・校訂文は『延喜式』撰上当初の姿の復元を目標としています。標注や傍書は、条文名称に関わるものは省略し、中世以前にさかのぼることが想定されるものに限って、校異注で言及することとしました。ただし標注のうち「弘」「貞」「延」等については便宜を考え、鉤括弧で括って校訂本文に掲げることとしました。<lb/>
+                    ・字体は常用漢字体を原則としました。「大」と「太」、「座」と「坐」、「絇」と「約」、「績」と「續（続）」、「色」と「包」、「細」と「紬」、「鈍」と「純」、「冑」と「胃」、「絁」と「絶」、草冠と竹冠、木偏と手偏等、容易に判定される誤字や誤用・通用については、校異を省略して適宜置き換える場合があります。ただし巻９・10においては「大」「太」の差異も校異にて触れることとしました。<lb/>
+                    ・校訂文中の細字・割書は、「〈〉」で括って表現することとしました。<lb/>
+                    ・本文に誤字・脱字等が想定される場合であっても、置き換えるべき文字や補うべき文字が明確でない場合は、校異注での言及にとどめた場合があります。<lb/>
+                    ・ユニコードにて表示されない漢字は以下のように示すことにしました。<lb/> 　【Ａ+Ｂ】＝扁がＡ、つくりがＢ<lb/> 　【Ａ/Ｂ】＝上にＡ、下にＢ<lb/>
+                    　【Ａ-Ｂ】＝Ａの字画よりＢにあたる字画を除く<lb/>
+                </p>
+            </editorialDecl>
         </encodingDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2023-03-31"
+                    ><date>2023年3月31日</date>巻39正親の校異注において、「解説」以外では「等」「諸本」の表現を使用しないこととし、また傍書の「○○イ」「○○イニ」等は「採用」や「校異」ではなく、「解説」にて指摘することに改めました。<lb/>
+                    この他、全般にわたり、誤字の訂正や外字表記のユニコード文字への変更、文章表現の修正、言及写本の変更などをおこなっています。 </change>
+            </listChange>
+        </revisionDesc>
     </teiHeader>
     <text>
         <body>
-            <pb facs="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-39%2F00001.tif/full/full/0/default.jpg"/>
+            <pb
+                facs="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-39%2F00001.tif/full/full/0/default.jpg"/>
             <div n="39" type="巻" subtype="式">
-                <pb facs="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-39%2F00002.tif/full/full/0/default.jpg"/>
+                <pb
+                    facs="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-39%2F00002.tif/full/full/0/default.jpg"/>
                 <div type="首題">
                     <p>延喜式巻第卅九 〈正親 内膳〉</p>
                 </div>
@@ -69,7 +91,8 @@
                             corresp="engishiki_ja.xml#item39100301 engishiki_en.xml#item39100301"
                             xml:id="item39100301">凡諸王計帳者、令造二通、司加押署、京職判畢一通留司、待年足符、即勘会申省、</p>
                     </div>
-                    <pb facs="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-39%2F00003.tif/full/full/0/default.jpg"/>
+                    <pb
+                        facs="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-39%2F00003.tif/full/full/0/default.jpg"/>
                     <div ana="正親" n="39.4" subtype="項" type="条">
                         <head ana="同世同名"/>
                         <p ana="項"
@@ -148,7 +171,9 @@
                         <head ana="平野祭"/>
                         <p ana="項"
                             corresp="engishiki_ja.xml#item39100901 engishiki_en.xml#item39100901"
-                            xml:id="item39100901">凡参平野祭所官人并諸王見参歴名、進<pb facs="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-39%2F00004.tif/full/full/0/default.jpg"/>太政官、</p>
+                            xml:id="item39100901">凡参平野祭所官人并諸王見参歴名、進<pb
+                                facs="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-39%2F00004.tif/full/full/0/default.jpg"
+                            />太政官、</p>
                     </div>
                     <div ana="正親" n="39.10" subtype="項" type="条">
                         <head ana="薬師寺"/>
@@ -184,93 +209,181 @@
             </div>
         </body>
     </text>
-    <facsimile source="https://khirin-a.rekihaku.ac.jp/iiif/rekihaku/H-743-74-39/manifest.json"><!--  巻39-2内膳とまったく同じなので、後ほど統合 -->
-        <surface source="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-39/page5068" xml:id="page5068">
-            <graphic url="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-39%2F00001.tif/full/full/0/default.jpg"/>
+    <facsimile source="https://khirin-a.rekihaku.ac.jp/iiif/rekihaku/H-743-74-39/manifest.json">
+        <!--  巻39-2内膳とまったく同じなので、後ほど統合 -->
+        <surface source="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-39/page5068"
+            xml:id="page5068">
+            <graphic
+                url="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-39%2F00001.tif/full/full/0/default.jpg"
+            />
         </surface>
-        <surface source="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-39/page5069" xml:id="page5069">
-            <graphic url="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-39%2F00002.tif/full/full/0/default.jpg"/>
+        <surface source="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-39/page5069"
+            xml:id="page5069">
+            <graphic
+                url="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-39%2F00002.tif/full/full/0/default.jpg"
+            />
         </surface>
-        <surface source="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-39/page5070" xml:id="page5070">
-            <graphic url="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-39%2F00003.tif/full/full/0/default.jpg"/>
+        <surface source="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-39/page5070"
+            xml:id="page5070">
+            <graphic
+                url="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-39%2F00003.tif/full/full/0/default.jpg"
+            />
         </surface>
-        <surface source="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-39/page5071" xml:id="page5071">
-            <graphic url="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-39%2F00004.tif/full/full/0/default.jpg"/>
+        <surface source="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-39/page5071"
+            xml:id="page5071">
+            <graphic
+                url="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-39%2F00004.tif/full/full/0/default.jpg"
+            />
         </surface>
-        <surface source="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-39/page5072" xml:id="page5072">
-            <graphic url="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-39%2F00005.tif/full/full/0/default.jpg"/>
+        <surface source="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-39/page5072"
+            xml:id="page5072">
+            <graphic
+                url="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-39%2F00005.tif/full/full/0/default.jpg"
+            />
         </surface>
-        <surface source="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-39/page5073" xml:id="page5073">
-            <graphic url="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-39%2F00006.tif/full/full/0/default.jpg"/>
+        <surface source="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-39/page5073"
+            xml:id="page5073">
+            <graphic
+                url="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-39%2F00006.tif/full/full/0/default.jpg"
+            />
         </surface>
-        <surface source="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-39/page5074" xml:id="page5074">
-            <graphic url="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-39%2F00007.tif/full/full/0/default.jpg"/>
+        <surface source="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-39/page5074"
+            xml:id="page5074">
+            <graphic
+                url="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-39%2F00007.tif/full/full/0/default.jpg"
+            />
         </surface>
-        <surface source="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-39/page5075" xml:id="page5075">
-            <graphic url="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-39%2F00008.tif/full/full/0/default.jpg"/>
+        <surface source="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-39/page5075"
+            xml:id="page5075">
+            <graphic
+                url="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-39%2F00008.tif/full/full/0/default.jpg"
+            />
         </surface>
-        <surface source="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-39/page5076" xml:id="page5076">
-            <graphic url="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-39%2F00009.tif/full/full/0/default.jpg"/>
+        <surface source="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-39/page5076"
+            xml:id="page5076">
+            <graphic
+                url="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-39%2F00009.tif/full/full/0/default.jpg"
+            />
         </surface>
-        <surface source="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-39/page5077" xml:id="page5077">
-            <graphic url="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-39%2F00010.tif/full/full/0/default.jpg"/>
+        <surface source="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-39/page5077"
+            xml:id="page5077">
+            <graphic
+                url="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-39%2F00010.tif/full/full/0/default.jpg"
+            />
         </surface>
-        <surface source="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-39/page5078" xml:id="page5078">
-            <graphic url="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-39%2F00011.tif/full/full/0/default.jpg"/>
+        <surface source="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-39/page5078"
+            xml:id="page5078">
+            <graphic
+                url="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-39%2F00011.tif/full/full/0/default.jpg"
+            />
         </surface>
-        <surface source="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-39/page5079" xml:id="page5079">
-            <graphic url="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-39%2F00012.tif/full/full/0/default.jpg"/>
+        <surface source="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-39/page5079"
+            xml:id="page5079">
+            <graphic
+                url="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-39%2F00012.tif/full/full/0/default.jpg"
+            />
         </surface>
-        <surface source="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-39/page5080" xml:id="page5080">
-            <graphic url="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-39%2F00013.tif/full/full/0/default.jpg"/>
+        <surface source="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-39/page5080"
+            xml:id="page5080">
+            <graphic
+                url="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-39%2F00013.tif/full/full/0/default.jpg"
+            />
         </surface>
-        <surface source="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-39/page5081" xml:id="page5081">
-            <graphic url="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-39%2F00014.tif/full/full/0/default.jpg"/>
+        <surface source="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-39/page5081"
+            xml:id="page5081">
+            <graphic
+                url="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-39%2F00014.tif/full/full/0/default.jpg"
+            />
         </surface>
-        <surface source="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-39/page5082" xml:id="page5082">
-            <graphic url="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-39%2F00015.tif/full/full/0/default.jpg"/>
+        <surface source="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-39/page5082"
+            xml:id="page5082">
+            <graphic
+                url="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-39%2F00015.tif/full/full/0/default.jpg"
+            />
         </surface>
-        <surface source="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-39/page5083" xml:id="page5083">
-            <graphic url="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-39%2F00016.tif/full/full/0/default.jpg"/>
+        <surface source="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-39/page5083"
+            xml:id="page5083">
+            <graphic
+                url="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-39%2F00016.tif/full/full/0/default.jpg"
+            />
         </surface>
-        <surface source="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-39/page5084" xml:id="page5084">
-            <graphic url="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-39%2F00017.tif/full/full/0/default.jpg"/>
+        <surface source="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-39/page5084"
+            xml:id="page5084">
+            <graphic
+                url="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-39%2F00017.tif/full/full/0/default.jpg"
+            />
         </surface>
-        <surface source="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-39/page5085" xml:id="page5085">
-            <graphic url="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-39%2F00018.tif/full/full/0/default.jpg"/>
+        <surface source="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-39/page5085"
+            xml:id="page5085">
+            <graphic
+                url="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-39%2F00018.tif/full/full/0/default.jpg"
+            />
         </surface>
-        <surface source="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-39/page5086" xml:id="page5086">
-            <graphic url="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-39%2F00019.tif/full/full/0/default.jpg"/>
+        <surface source="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-39/page5086"
+            xml:id="page5086">
+            <graphic
+                url="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-39%2F00019.tif/full/full/0/default.jpg"
+            />
         </surface>
-        <surface source="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-39/page5087" xml:id="page5087">
-            <graphic url="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-39%2F00020.tif/full/full/0/default.jpg"/>
+        <surface source="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-39/page5087"
+            xml:id="page5087">
+            <graphic
+                url="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-39%2F00020.tif/full/full/0/default.jpg"
+            />
         </surface>
-        <surface source="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-39/page5088" xml:id="page5088">
-            <graphic url="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-39%2F00021.tif/full/full/0/default.jpg"/>
+        <surface source="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-39/page5088"
+            xml:id="page5088">
+            <graphic
+                url="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-39%2F00021.tif/full/full/0/default.jpg"
+            />
         </surface>
-        <surface source="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-39/page5089" xml:id="page5089">
-            <graphic url="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-39%2F00022.tif/full/full/0/default.jpg"/>
+        <surface source="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-39/page5089"
+            xml:id="page5089">
+            <graphic
+                url="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-39%2F00022.tif/full/full/0/default.jpg"
+            />
         </surface>
-        <surface source="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-39/page5090" xml:id="page5090">
-            <graphic url="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-39%2F00023.tif/full/full/0/default.jpg"/>
+        <surface source="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-39/page5090"
+            xml:id="page5090">
+            <graphic
+                url="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-39%2F00023.tif/full/full/0/default.jpg"
+            />
         </surface>
-        <surface source="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-39/page5091" xml:id="page5091">
-            <graphic url="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-39%2F00024.tif/full/full/0/default.jpg"/>
+        <surface source="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-39/page5091"
+            xml:id="page5091">
+            <graphic
+                url="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-39%2F00024.tif/full/full/0/default.jpg"
+            />
         </surface>
-        <surface source="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-39/page5092" xml:id="page5092">
-            <graphic url="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-39%2F00025.tif/full/full/0/default.jpg"/>
+        <surface source="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-39/page5092"
+            xml:id="page5092">
+            <graphic
+                url="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-39%2F00025.tif/full/full/0/default.jpg"
+            />
         </surface>
-        <surface source="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-39/page5093" xml:id="page5093">
-            <graphic url="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-39%2F00026.tif/full/full/0/default.jpg"/>
+        <surface source="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-39/page5093"
+            xml:id="page5093">
+            <graphic
+                url="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-39%2F00026.tif/full/full/0/default.jpg"
+            />
         </surface>
-        <surface source="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-39/page5094" xml:id="page5094">
-            <graphic url="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-39%2F00027.tif/full/full/0/default.jpg"/>
+        <surface source="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-39/page5094"
+            xml:id="page5094">
+            <graphic
+                url="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-39%2F00027.tif/full/full/0/default.jpg"
+            />
         </surface>
-        <surface source="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-39/page5095" xml:id="page5095">
-            <graphic url="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-39%2F00028.tif/full/full/0/default.jpg"/>
+        <surface source="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-39/page5095"
+            xml:id="page5095">
+            <graphic
+                url="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-39%2F00028.tif/full/full/0/default.jpg"
+            />
         </surface>
-        <surface source="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-39/page5096" xml:id="page5096">
-            <graphic url="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-39%2F00029.tif/full/full/0/default.jpg"/>
+        <surface source="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-39/page5096"
+            xml:id="page5096">
+            <graphic
+                url="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-39%2F00029.tif/full/full/0/default.jpg"
+            />
         </surface>
     </facsimile>
 </TEI>
