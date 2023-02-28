@@ -36,7 +36,29 @@
       </fileDesc>
       <encodingDesc>
          <variantEncoding location="external" method="double-end-point"/>
+         <editorialDecl>
+            <p>校訂文凡例<lb/>
+               ・原則として土本（以下、略称は下記「主要写本・版本・刊本等略称・底本一覧」参照）を底本とし、九本・剛本・条本・花本等の古写本や近本・壬本・京博本等の写本によって対校しました（巻によって使用した対校本は異なります）。<lb/>
+               ・条文番号・条文名称は原則として訳注本に拠りましたが、一部を修正しています（※参照）。なお１条が長い場合など、必要に応じ「項」に分割して示すこととしました。<lb/>
+               ・校異は原則として底本の文字を改変する場合、あるいは写本間に参考とすべき異同がある場合、参考とすべき傍書等がある場合に付すこととしました。必ずしもその校異に関する写本をすべて網羅することはせず、主要写本のみを取り上げています。ただし訳注本と校訂文に異同が生じた場合には、できる限り校異にて言及するよう心がけました（単なる字体の相違については省略しています）。<lb/>
+               ・校訂文は『延喜式』撰上当初の姿の復元を目標としています。標注や傍書は、条文名称に関わるものは省略し、中世以前にさかのぼることが想定されるものに限って、校異注で言及することとしました。ただし標注のうち「弘」「貞」「延」等については便宜を考え、鉤括弧で括って校訂本文に掲げることとしました。<lb/>
+               ・字体は常用漢字体を原則としました。「大」と「太」、「座」と「坐」、「絇」と「約」、「績」と「續（続）」、「色」と「包」、「細」と「紬」、「鈍」と「純」、「冑」と「胃」、「絁」と「絶」、草冠と竹冠、木偏と手偏等、容易に判定される誤字や誤用・通用については、校異を省略して適宜置き換える場合があります。ただし巻９・10においては「大」「太」の差異も校異にて触れることとしました。<lb/>
+               ・校訂文中の細字・割書は、「〈〉」で括って表現することとしました。<lb/>
+               ・本文に誤字・脱字等が想定される場合であっても、置き換えるべき文字や補うべき文字が明確でない場合は、校異注での言及にとどめた場合があります。<lb/>
+               ・ユニコードにて表示されない漢字は以下のように示すことにしました。<lb/> 　【Ａ+Ｂ】＝扁がＡ、つくりがＢ<lb/> 　【Ａ/Ｂ】＝上にＡ、下にＢ<lb/>
+               　【Ａ-Ｂ】＝Ａの字画よりＢにあたる字画を除く<lb/>
+            </p>
+         </editorialDecl>
       </encodingDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2023-03-31"
+               ><date>2023年3月31日</date>巻５の校異注において、「解説」以外では「等」「諸本」の表現を使用しないこととし、また傍書の「○○イ」「○○イニ」等は「採用」や「校異」ではなく、「解説」にて指摘することに改めました。<lb/>
+               この他、全般にわたり、誤字の訂正や外字表記のユニコード文字への変更、文章表現の修正、言及写本の変更などをおこなっています。 </change>
+            <change when="2023-03-31" target="#app0510710909"
+               ><date>2023年3月31日</date>第71年料供物条(9所須薬種)「妨草三斤五両」および「妨」の校異注を「𦬣草三斤五両」および「𦬣　条本「苬」とするも、「亡〈和〉」と訓を示す。」に改めました。</change>
+         </listChange>
+      </revisionDesc>
    </teiHeader>
    <text>
       <body>
@@ -198,9 +220,8 @@
                <div ana="斎宮" n="5.9" subtype="項" type="条">
                   <head ana="初斎院大殿祭"/>
                   <p ana="項" corresp="engishiki_ja.xml#item05100901 engishiki_en.xml#item05100901"
-                     xml:id="item05100901"> 大殿祭〈野宮・伊勢斎宮准此〉<lb/>
-                     糸二両、安芸木綿七両、米・酒各二升、𤭅一口、筥四合、小<anchor xml:id="app0510090101"/>杯<anchor
-                        xml:id="app0510090101e"
+                     xml:id="item05100901"> 大殿祭〈野宮・伊勢斎宮准此〉<lb/> 糸二両、安芸木綿七両、米・酒各二升、𤭅一口、筥四合、小<anchor
+                        xml:id="app0510090101"/>杯<anchor xml:id="app0510090101e"
                      />二口、案二脚、〈高三尺、〉給禄、中臣・忌部各絁二疋、宮主一疋、執案神部四人、各給調布一段、〈野宮給二人、〉</p>
                   <app from="#app0510090101" to="#app0510090101e">
                      <lem wit="#土本 #条本">杯</lem>
@@ -219,7 +240,7 @@
                   <p ana="項" corresp="engishiki_ja.xml#item05101101 engishiki_en.xml#item05101101"
                      xml:id="item05101101"> 朔日庭火祭〈野宮・斎宮准此、〉<lb/>
                         五色薄絁各四尺、倭文二尺、木綿八両、麻一斤、庸布二段、鍬四口、米・酒各四升、鰒二斤、堅魚・海藻各三斤、腊四升、塩二升二合、<anchor
-                           xml:id="app0510110101"/>柏二把<anchor xml:id="app0510110101e"/>、𤭅・坏各<pb
+                        xml:id="app0510110101"/>柏二把<anchor xml:id="app0510110101e"/>、𤭅・坏各<pb
                         facs="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-5%2F00007.tif/full/full/0/default.jpg"
                      />二口、水瓫一口、</p>
                   <app from="#app0510110101" to="#app0510110101e">
@@ -416,7 +437,7 @@
                      xml:id="item05102001"> 祓料<lb/> 五色絁各一尺、荒服料布一<anchor xml:id="app0510200101"
                         />段<anchor xml:id="app0510200101e"/>、筥一合、木綿四両、麻一斤、鉄人像<anchor
                         xml:id="app0510200102"/>二<anchor xml:id="app0510200102e"
-                        />枚、黄蘗四枚、鰒・堅魚・海藻各二斤、腊四升、塩二升、米・酒各四升、 𤭅一口、食薦二枚、柏四把、瓫四口、坏四口、輦籠一<anchor
+                     />枚、黄蘗四枚、鰒・堅魚・海藻各二斤、腊四升、塩二升、米・酒各四升、 𤭅一口、食薦二枚、柏四把、瓫四口、坏四口、輦籠一<anchor
                         xml:id="app0510200103"/>腰<anchor xml:id="app0510200103e"
                         />、匏二柄、鍬四口、祝詞料庸布二段、夫二人、朸二<anchor xml:id="app0510200104"/>枝<anchor
                         xml:id="app0510200104e"/>、</p>
@@ -803,10 +824,10 @@
                      大笥二合、〈戸座所料、〉酒台五十口、酒盞百五口、〈酒部所料、〉楊筥卅合、〈九合各方一尺五寸、十一合各方一尺、五合各方一尺二寸、五合長各一尺二寸、広五寸、一合主神司料、廿合膳部所料、五合酒部所料、二合水部所料、二合戸座所料、〉
                      供飯被料帛一疋一丈五尺、綿十二屯、〈膳部所料、〉砥二顆、〈同所料、〉</p>
                   <p ana="項" corresp="engishiki_ja.xml#item05103706 engishiki_en.xml#item05103706"
-                     xml:id="item05103706"> 銀盞一合、銀鋺一合、銀<anchor xml:id="app0510370601"
-                        />匕四枚、銀<anchor xml:id="app0510370601e"/>鍋子一口、〈並供御料、長用、〉<anchor
-                        xml:id="app0510370602"/>梹榔葉<anchor xml:id="app0510370602e"/>二枚、〈戸座所料、〉
-                        <anchor xml:id="app0510370603"/>坩<anchor xml:id="app0510370603e"
+                     xml:id="item05103706"> 銀盞一合、銀鋺一合、銀<anchor xml:id="app0510370601"/>匕四枚、銀<anchor
+                        xml:id="app0510370601e"/>鍋子一口、〈並供御料、長用、〉<anchor xml:id="app0510370602"
+                        />梹榔葉<anchor xml:id="app0510370602e"/>二枚、〈戸座所料、〉 <anchor
+                        xml:id="app0510370603"/>坩<anchor xml:id="app0510370603e"
                         />三合、〈一合受一斗、二合受五升、〉陶手洗十六口、臼八口、𤭅五口、〈一口受二升、四口<anchor xml:id="app0510370604"
                         />各<anchor xml:id="app0510370604e"/>受一升、〉叩戸十四口、塩坏六<anchor
                         xml:id="app0510370605"/>合<anchor xml:id="app0510370605e"/>、埦卅合、罇二口、
@@ -1949,10 +1970,9 @@
                   </app>
                   <p ana="項" corresp="engishiki_ja.xml#item05106105 engishiki_en.xml#item05106105"
                      xml:id="item05106105"> 　右祭、二月四日供祭、其六月・十二月月次・鎮火・<anchor xml:id="app0510610501"
-                     />道饗<anchor xml:id="app0510610501e"/>・大殿・御贖・大祓并朔日忌火・<pb
+                        />道饗<anchor xml:id="app0510610501e"/>・大殿・御贖・大祓并朔日忌火・<pb
                         facs="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-5%2F00034.tif/full/full/0/default.jpg"
-                     />庭火等祭供神<anchor
-                        xml:id="app0510610502"/>雑<anchor xml:id="app0510610502e"
+                        />庭火等祭供神<anchor xml:id="app0510610502"/>雑<anchor xml:id="app0510610502e"
                      />物及明衣・祝詞料皆准在京、但月次祭加火雷神一座、</p>
                   <app from="#app0510610501" to="#app0510610501e">
                      <lem wit="#訳注本">道饗</lem>
@@ -1984,7 +2004,7 @@
                   <p ana="項" corresp="engishiki_ja.xml#item05106203 engishiki_en.xml#item05106203"
                      xml:id="item05106203">
                      　右五月・十一月晦日、隨近川頭為禊、八月晦日、臨尾野湊為禊、其三時祭月十五日、斎内親王向離宮、行路之間有二処堺祭、〈宮東堭外及多気・度会両郡堺祭之、料物色目在上、〉
-                     <pb
+                        <pb
                         facs="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-5%2F00035.tif/full/full/0/default.jpg"
                      />到着禊殿、〈神宮司并掃部司供奉装束、〉主神司中臣為禊、〈料物神宮司儲之、〉大神宮司奉斎王膳、兼賜酒肴勅使已下、次主神司供奉内院大殿祭、〈所須祭物、神宮司儲之、〉
                      然後斎王遷内院〈装束雑具一同禊殿、〉奉夕膳、〈神宮司以料物附所司、但男女官供給弁備行之、〉</p>
@@ -1994,7 +2014,7 @@
                         />神宮司<anchor xml:id="app0510620401e"/>執鬘木綿、入外玉垣門而跪、命婦出受以奉斎王、拍手而執著鬘、
                         又神宮司持太玉串、入同門而跪、命婦亦転奉斎王、拍手而執、捧入内玉垣<anchor xml:id="app0510620402"/>門<anchor
                         xml:id="app0510620402e"/>内就座席、〈命婦若女孺二人陪従、〉避席進前再拝両段、訖玉串授命婦、
-                     受転授物忌、受執立瑞垣門西頭、斎王還就本座、宮司宣祝詞、訖物忌・内人奉幣帛案、<pb
+                        受転授物忌、受執立瑞垣門西頭、斎王還就本座、宮司宣祝詞、訖物忌・内人奉幣帛案、<pb
                         facs="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-5%2F00036.tif/full/full/0/default.jpg"
                      />斎王并衆官以下再拝、拍八開手、次拍短手再拝、如此両遍、既而衆官退出、
                      就解斎殿給酒食、訖入外玉垣門供倭舞、先神宮司以下及主神司・寮官次第舞、次斎宮女孺四人供五節舞、訖給禄有差、其後斎王還着離宮、主神司中臣候南門奉御麻、</p>
@@ -2042,8 +2062,8 @@
                   <p ana="項" corresp="engishiki_ja.xml#item05106501 engishiki_en.xml#item05106501"
                      xml:id="item05106501"> 新嘗祭神百十五座〈大十七座、小九十八座、〉<lb/> 　<pb
                         facs="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-5%2F00037.tif/full/full/0/default.jpg"
-                     />右、供祭雑物、並准祈年、但鎮炊殿并忌<anchor
-                        xml:id="app0510650101"/>火<anchor xml:id="app0510650101e"/>・庭火・大殿祭等、皆准在京、</p>
+                        />右、供祭雑物、並准祈年、但鎮炊殿并忌<anchor xml:id="app0510650101"/>火<anchor
+                        xml:id="app0510650101e"/>・庭火・大殿祭等、皆准在京、</p>
                   <app from="#app0510650101" to="#app0510650101e">
                      <lem wit="#条本 #近本">火</lem>
                      <rdg wit="#土本">大</rdg>
@@ -2065,8 +2085,8 @@
                         />杯<anchor xml:id="app0510660105e"/>廿口、陶埦八口、多志良加四口、 瓶六口、陶鉢八口、盤廿口、高<anchor
                         xml:id="app0510660106"/>杯<anchor xml:id="app0510660106e"
                         />十口、酒盞十口、油三升、切机二脚、叩盆四口、〈已上美濃国充之、〉東鰒二斤十両、薄鰒・隠伎鰒各二<pb
-                           facs="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-5%2F00038.tif/full/full/0/default.jpg"
-                        />斤、堅魚五斤、
+                        facs="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-5%2F00038.tif/full/full/0/default.jpg"
+                     />斤、堅魚五斤、
                      煮堅魚十斤、烏賊・螺各十両、鮨鰒二升、干海松二斤、紫菜一斤、海松纏鰒一升、煮塩年魚・醤鮒各二升、干薑二両、清酒・濁酒各二升、米・糯米各一升、
                         大豆・小豆・小麦・胡麻子各二升、糯稲四束、糯糒一升、粟糒・葟子糒・黍子糒各二升、椎子・菱子各五升、蓮子・干棗各一升、生<anchor
                         xml:id="app0510660107"/>栗<anchor xml:id="app0510660107e"/>一斗、搗<anchor
@@ -2125,14 +2145,13 @@
                      　右、酒部所請、</p>
                   <p ana="項" corresp="engishiki_ja.xml#item05106604 engishiki_en.xml#item05106604"
                      xml:id="item05106604"> 絹五丈一尺、曝布六<anchor xml:id="app0510660401"/>段<anchor
-                        xml:id="app0510660401e"
-                     />二丈八尺五寸、紵布六尺、糸十両、篩二口、麻笥二口、楉案一脚、土大<pb
+                        xml:id="app0510660401e"/>二丈八尺五寸、紵布六尺、糸十両、篩二口、麻笥二口、楉案一脚、土大<pb
                         facs="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-5%2F00039.tif/full/full/0/default.jpg"
                      />盤二口、油一升、小豆一升、〈以上寮充之、〉
                      湯槽・円槽・洗足槽各一隻、棚案一脚、板蓋五枚、明櫃二合、筥一合、麁筥一合、灯台二具、匏三柄、菲一両、〈以上当国充之、〉池由加一口、由加四口、 叩<anchor
-                        xml:id="app0510660402"/>盆<anchor xml:id="app0510660402e"
-                        />四口、油𤭅一口、油<anchor xml:id="app0510660403"/>杯<anchor
-                        xml:id="app0510660403e"/>・盤各二口、鋺形一口、陶鉢一口、〈以上美濃国充之、〉<lb/> 　右、殿部所請、</p>
+                        xml:id="app0510660402"/>盆<anchor xml:id="app0510660402e"/>四口、油𤭅一口、油<anchor
+                        xml:id="app0510660403"/>杯<anchor xml:id="app0510660403e"
+                     />・盤各二口、鋺形一口、陶鉢一口、〈以上美濃国充之、〉<lb/> 　右、殿部所請、</p>
                   <app from="#app0510660401" to="#app0510660401e">
                      <lem wit="#土本 #条本">段</lem>
                      <rdg wit="#訳注本">端</rdg>
@@ -2197,8 +2216,8 @@
                         xml:id="app0510660701"/>段<anchor xml:id="app0510660701e"
                      />三丈四尺、紅花六斤、〈已上青摺衣料、〉絹二疋四丈、 曝布六<anchor xml:id="app0510660702"/>段<anchor
                         xml:id="app0510660702e"/>六尺、〈已上膳部并女孺等褠・襅料、〉<lb/> 　右、小斎人等祭服、寮依例充、其賜禄<pb
-                           facs="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-5%2F00040.tif/full/full/0/default.jpg"
-                        />一准元日、</p>
+                        facs="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-5%2F00040.tif/full/full/0/default.jpg"
+                     />一准元日、</p>
                   <app from="#app0510660701" to="#app0510660701e">
                      <lem wit="#土本 #条本 #九冊本 #京博本">段</lem>
                      <rdg wit="#訳注本">端</rdg>
@@ -2227,8 +2246,8 @@
                      xml:id="item05106703"> 酒部神祭<lb/>
                      五色薄絁各六寸、倭文六寸、木綿・麻各八両、庸布一段、鍬一口、米・酒各六升、糯米四升、大豆・小豆各一升、鰒・堅魚各一斤、鮨・腊各四升、塩一升、盤五口、食薦一枚、</p>
                   <pb
-                     facs="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-5%2F00041.tif/full/full/0/default.jpg"
-                  /><p ana="項" corresp="engishiki_ja.xml#item05106704 engishiki_en.xml#item05106704"
+                     facs="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-5%2F00041.tif/full/full/0/default.jpg"/>
+                  <p ana="項" corresp="engishiki_ja.xml#item05106704 engishiki_en.xml#item05106704"
                      xml:id="item05106704"> 水部神祭<lb/>
                      五色薄絁各六寸、倭文六寸、木綿八両、麻四両、庸布一段、鍬一口、米・酒各二升、鰒・堅魚各八両、鮨一升、海藻八両、塩五合、</p>
                   <p ana="項" corresp="engishiki_ja.xml#item05106705 engishiki_en.xml#item05106705"
@@ -2252,8 +2271,8 @@
                </div>
                <div ana="斎宮" n="5.69" subtype="項" type="条">
                   <pb
-                     facs="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-5%2F00042.tif/full/full/0/default.jpg"
-                  /><head ana="斎宮諸神幣"/>
+                     facs="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-5%2F00042.tif/full/full/0/default.jpg"/>
+                  <head ana="斎宮諸神幣"/>
                   <p ana="項" corresp="engishiki_ja.xml#item05106901 engishiki_en.xml#item05106901"
                      xml:id="item05106901"> 斎宮内諸神十七座幣<lb/> 座別絹五尺、糸一絇、綿一屯、庸布一丈四尺、木綿二両、麻五両、</p>
                </div>
@@ -2285,8 +2304,7 @@
                </div>
                <div ana="斎宮" n="5.71" subtype="項" type="条">
                   <pb
-                     facs="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-5%2F00043.tif/full/full/0/default.jpg"
-                  />
+                     facs="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-5%2F00043.tif/full/full/0/default.jpg"/>
                   <head ana="年料供物"/>
                   <p ana="項" corresp="engishiki_ja.xml#item05107101 engishiki_en.xml#item05107101"
                      xml:id="item05107101"> 年料供物<lb/> 寝殿壁代帳料絹十三疋一尺七寸、綿卅七屯、蓋代料調布十五<anchor
@@ -2326,8 +2344,7 @@
                      xml:id="item05107102">
                      両面一疋四丈、緋帛五丈七尺、油絁一疋三尺、絹三丈四尺、細布一丈六尺、曝布二丈四尺、綿一屯、糸一絇、麻一斤、水甕二口、水甕麻笥三口、韓竈四具、長刀子二枚、
                         短刀子五枚、砥一顆、〈以上寮充之、〉膳案一脚、菓案一脚、筥笥三合、<anchor xml:id="app0510710201"/>板<anchor
-                        xml:id="app0510710201e"/>笥二合、筯筥一合、麁筥五合、切案二脚、槲案二脚、大案二脚、韓櫃三合、
-                     明櫃八合、<pb
+                        xml:id="app0510710201e"/>笥二合、筯筥一合、麁筥五合、切案二脚、槲案二脚、大案二脚、韓櫃三合、 明櫃八合、<pb
                         facs="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-5%2F00044.tif/full/full/0/default.jpg"
                      />大笥五合、別脚案二脚、横筥二合、缶十口、槽一隻、円槽二隻、席八枚、置簀六枚、臼一口、杵二枝、匏廿柄、笥杓廿柄、箕二枚、輦籠四脚、〈以上当国充之、〉<lb/>
                      　右、膳部司所請、</p>
@@ -2379,8 +2396,7 @@
                   <p ana="項" corresp="engishiki_ja.xml#item05107105 engishiki_en.xml#item05107105"
                      xml:id="item05107105"> 両面三丈六寸、緋帛二丈四尺七寸、油絁四丈<pb
                         facs="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-5%2F00045.tif/full/full/0/default.jpg"
-                     />四尺、絹二丈四尺、薄<anchor
-                        xml:id="app0510710501"/>絹<anchor xml:id="app0510710501e"
+                        />四尺、絹二丈四尺、薄<anchor xml:id="app0510710501"/>絹<anchor xml:id="app0510710501e"
                         />一丈二尺、糸一両、曝布三丈四尺、細布三丈四尺、紵<anchor xml:id="app0510710502"/>布<anchor
                         xml:id="app0510710502e"/>一丈、釿一<anchor xml:id="app0510710503"/>柄<anchor
                         xml:id="app0510710503e"/>、小刀子二柄、 水甕麻笥二口、〈已上寮充之、〉坩一口、陶<anchor
@@ -2430,10 +2446,9 @@
                         xml:id="app0510710601"/>段<anchor xml:id="app0510710601e"
                      />二丈一尺七寸、紵布六尺、調布二丈九尺、糸二分、楉案一脚、
                      油坏・盤各三口、鉄火取堝一口、鉄五廷、鍬二口、〈以上寮充之、〉湯槽一隻、洗床一張、大案二脚、木蓋五枚、洗頭槽一隻、洗足槽一隻、
-                     洗物槽一隻、韓櫃二合、灯台二具、明櫃二合、筥二合、麁筥二合、匏三柄、〈已上当国充之、〉池由加一口、由加四口、匜一口、𤭅一口、缶二口、叩盆四口、〈以上美濃国充之、〉<lb/><pb
+                        洗物槽一隻、韓櫃二合、灯台二具、明櫃二合、筥二合、麁筥二合、匏三柄、〈已上当国充之、〉池由加一口、由加四口、匜一口、𤭅一口、缶二口、叩盆四口、〈以上美濃国充之、〉<lb/><pb
                         facs="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-5%2F00046.tif/full/full/0/default.jpg"
-                     />
-                     　右、殿部司所請、</p>
+                     /> 　右、殿部司所請、</p>
                   <app from="#app0510710601" to="#app0510710601e">
                      <lem wit="#土本 #条本">段</lem>
                      <rdg wit="#訳注本">端</rdg>
@@ -2463,8 +2478,7 @@
                         xml:id="app0510710902"/>七<anchor xml:id="app0510710902e"
                      />両四銖、防風一両二分四銖、麻黄二両三分四銖、 蛇銜九両一分、石膏一両三分、芎藭七両三分、大黄一斤四両二分四銖、人参十両、紫<anchor
                         xml:id="app0510710903"/>菀<anchor xml:id="app0510710903e"
-                     />二両二分、茈胡五両、黄芩十一両二分二銖、
-                     黄連一<pb
+                     />二両二分、茈胡五両、黄芩十一両二分二銖、 黄連一<pb
                         facs="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-5%2F00047.tif/full/full/0/default.jpg"
                      />両二銖、皂莢二分一銖、勺薬六両、漏蘆六両一分、連翹十五両、白薟十両二分、蘆茹四両一分、附子九斤十五両、干薑七両二分、
                      猪膏六十四斤八両、白朮七斤十両二分、烏頭十四斤四両、半夏二両二分、桔梗九斤五両二分、細辛七斤十四両、呉茱萸一斤六両、 <anchor
@@ -2475,10 +2489,10 @@
                         />枚、升麻十一両二銖、干藍二分、豉一合一夕、前胡<anchor xml:id="app0510710907"/>二斤一分<anchor
                         xml:id="app0510710907e"/>、白芷<anchor xml:id="app0510710908"/>二斤一分<anchor
                         xml:id="app0510710908e"/>、当帰四両二分、蒴藋一斤一分、商陸四両一分、 <anchor
-                           xml:id="app0510710909"/>𦬣<anchor xml:id="app0510710909e"
+                        xml:id="app0510710909"/>𦬣<anchor xml:id="app0510710909e"
                         />草三斤五両、黄耆四両一分、牡丹四両一分、地楡四両一分、大戟五両一分、玄参三両三分、白頭公三両一分、躑躅花九両一分、<anchor
                         xml:id="app0510710910"/>抜<anchor xml:id="app0510710910e"/>葜一両一分、
-                     酢二斗五升、砥一顆、両面九尺六寸、油絁九尺六寸、帛四丈一尺、緋帛一丈五寸、絹八尺、紗三尺、布三丈五尺、糸二両、木綿七両、紙八十四張、〈已上<pb
+                        酢二斗五升、砥一顆、両面九尺六寸、油絁九尺六寸、帛四丈一尺、緋帛一丈五寸、絹八尺、紗三尺、布三丈五尺、糸二両、木綿七両、紙八十四張、〈已上<pb
                         facs="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-5%2F00048.tif/full/full/0/default.jpg"
                      />寮充之、〉
                      陶坩・叩盆各四口、陶手洗一口、陶椀二合、盤二口、〈已上美濃国充之、〉筥二合、机二脚、折櫃一合、明櫃一合、大案一脚、麻笥一口、杓一柄、大笥一合、〈已上当国充之、〉
@@ -2557,7 +2571,7 @@
                      xml:id="item05107201">
                      凡斎内親王月料及節料等、皆准在京、其官人主典已上廿六人、番上一百一人、命婦一人、乳母三人、女孺卅九人、御厠人二人、御洗二人、〈別米二升、塩二夕、〉
                      仕丁十五人、駆使丁廿五人、飼丁八人、〈取神郡并神戸仕丁充之、〉今良八人、〈別米二升、塩二夕、〉女丁十人、将従二百七十三人、〈別米一升五合、塩一夕五撮、〉
-                     戸座一人、<pb
+                        戸座一人、<pb
                         facs="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-5%2F00049.tif/full/full/0/default.jpg"
                      />火炬小女二人、〈別米一升四合、塩一夕四撮、〉宮主并卜部家口四人、〈別米一升五合、塩一夕五撮、〉</p>
                </div>
@@ -2619,7 +2633,7 @@
                   <p ana="項" corresp="engishiki_ja.xml#item05107401 engishiki_en.xml#item05107401"
                      xml:id="item05107401">
                      凡六月斎内親王参神宮、陪従皆給装束、〈十二月准此、〉諸司主典已上、人別絹三丈五尺、〈供膳官人加褌料布、〉神部六人・卜部三人・膳部八人・炊部三人・
-                     酒部四人・水部四人・蔵部六人・殿部六人・掃部<pb
+                        酒部四人・水部四人・蔵部六人・殿部六人・掃部<pb
                         facs="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-5%2F00050.tif/full/full/0/default.jpg"
                      />四人・今良四人各布二丈、戸座一人布一丈四尺、奏舞女孺四人各絹一疋、自外不給、</p>
                </div>
@@ -2663,8 +2677,7 @@
                <div ana="斎宮" n="5.77" subtype="項" type="条">
                   <head ana="供田墾田"/>
                   <p ana="項" corresp="engishiki_ja.xml#item05107701 engishiki_en.xml#item05107701"
-                     xml:id="item05107701">
-                     凡斎内親王到国、初年割正税七百束、供用年料之膳、当郡毎月舂送寮家、後年用供<pb
+                     xml:id="item05107701"> 凡斎内親王到国、初年割正税七百束、供用年料之膳、当郡毎月舂送寮家、後年用供<pb
                         facs="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-5%2F00051.tif/full/full/0/default.jpg"
                      />田稲、其供田二町、〈一町在多気郡、一町在度会郡、〉
                         外供田四町、〈三町在多気郡、一町在飯野郡、〉墾田廿七町八段一百十七歩、〈十七町七十一歩在多気郡、十町八段<anchor
@@ -2756,7 +2769,7 @@
                   <p ana="項" corresp="engishiki_ja.xml#item05107803 engishiki_en.xml#item05107803"
                      xml:id="item05107803"> 庸米一千六百六十七石五斗、〈伊賀三百<anchor xml:id="app0510780301"
                         />卌<anchor xml:id="app0510780301e"/>二石、伊勢四百七十三石二斗、参河五百五十九石三斗、美濃二百九十三石、〉
-                     舂米一千<pb
+                        舂米一千<pb
                         facs="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-5%2F00052.tif/full/full/0/default.jpg"
                      />三百卅四石八斗、〈伊勢五百卅四石八斗、就中黒米三百九十五石、尾張二百石、参河二百石、美濃四百石、〉
                      糯米十石、小麦十石、大麦一石、粟三石六斗、大豆・小豆各六石、醤大豆十八石、胡麻子一石、葟子一石、〈已上伊勢、〉
@@ -2792,8 +2805,8 @@
                      xml:id="item05107805"> 馬秣稲百廿束、〈大神宮司所充、三時祭別<anchor xml:id="app0510780501"
                         />卌<anchor xml:id="app0510780501e"/>束、〉蒭四千八<anchor xml:id="app0510780502"
                         />百<anchor xml:id="app0510780502e"/>囲、〈半分大神宮司以神郡浪人刈<pb
-                           facs="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-5%2F00053.tif/full/full/0/default.jpg"
-                        />送、半分国司以国内浪人刈送、〉</p>
+                        facs="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-5%2F00053.tif/full/full/0/default.jpg"
+                     />送、半分国司以国内浪人刈送、〉</p>
                   <app from="#app0510780501" to="#app0510780501e">
                      <lem wit="#条本 #九冊本">卌</lem>
                      <rdg wit="#土本 #近本">卅</rdg>
@@ -2843,8 +2856,7 @@
                </div>
                <div ana="斎宮" n="5.83" subtype="項" type="条">
                   <pb
-                     facs="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-5%2F00054.tif/full/full/0/default.jpg"
-                  />
+                     facs="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-5%2F00054.tif/full/full/0/default.jpg"/>
                   <head ana="封戸"/>
                   <p ana="項" corresp="engishiki_ja.xml#item05108301 engishiki_en.xml#item05108301"
                      xml:id="item05108301"> 凡以大神宮封戸百姓、不得輙補寮舎人、</p>
@@ -2896,8 +2908,8 @@
                         xml:id="app0510890102"/>修<anchor xml:id="app0510890102e"/>理、其立用帳、請寮吏判、
                         若不<anchor xml:id="app0510890103"/>営<anchor xml:id="app0510890103e"
                         />小破、妄致大損者、科処勾当官人、但<pb
-                           facs="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-5%2F00055.tif/full/full/0/default.jpg"
-                        />至于非常異損、随申処分、</p>
+                        facs="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-5%2F00055.tif/full/full/0/default.jpg"
+                     />至于非常異損、随申処分、</p>
                   <app from="#app0510890101" to="#app0510890101e">
                      <lem wit="#条本右傍転倒符号 #近本傍書指示">分充</lem>
                      <rdg wit="#土本 #条本 #近本">充分</rdg>
@@ -2952,8 +2964,7 @@
                </div>
                <div ana="斎宮" n="5.97" subtype="項" type="条">
                   <pb
-                     facs="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-5%2F00056.tif/full/full/0/default.jpg"
-                  />
+                     facs="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-5%2F00056.tif/full/full/0/default.jpg"/>
                   <head ana="斎王相代"/>
                   <p ana="項" corresp="engishiki_ja.xml#item05109701 engishiki_en.xml#item05109701"
                      xml:id="item05109701"> 凡斎王相代応<anchor xml:id="app0510970101"/>帰<anchor
@@ -2998,8 +3009,7 @@
             </div>
             <div type="尾題">
                <pb
-                  facs="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-5%2F00057.tif/full/full/0/default.jpg"
-               />
+                  facs="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-5%2F00057.tif/full/full/0/default.jpg"/>
                <p>延喜式巻第五</p>
             </div>
          </div>
