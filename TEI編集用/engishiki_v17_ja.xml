@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<?xml-model href="file:/C:/Users/user/Downloads/tei_all_420_ja.rnc" type="application/relax-ng-compact-syntax"?>
+<!--  <?xml-model href="file:/C:/Users/user/Downloads/tei_all_420_ja.rnc" type="application/relax-ng-compact-syntax"?>-->
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -44,9 +44,9 @@
                     ・校訂文の標注は現代文では省略しています。<lb/>
                     ・度量衡はそのまま表記しています。<lb/>
                     （参考）『延喜式』の度量衡（訳注本掲載の正倉院伝来容器計測結果等に基づく）<lb/>
-                    　長さ　1尺＝約29.7㎝　（１丈＝10尺、１尺＝10寸）<lb/>
+                    　長さ　1尺＝約29.7㎝　（1丈＝10尺、1尺＝10寸）<lb/>
                     　距離　1里＝300歩＝約534ｍ　（1歩＝6尺）<lb/>
-                    　面積　1町＝約1.2㏊　（1町＝10段、1段＝360歩）<lb/>
+                    　面積　1町＝約1.2ha　（1町＝10段、1段＝360歩）<lb/>
                     　容積　1升＝約800mℓ＝約0.8ℓ　（1斛＝10斗＝100升、1升＝10合＝100夕（勺））<lb/>
                     　重さ　大1斤＝約674グラム　（1斤＝16両、1両＝4分、1分＝6銖）<lb/>
                     　　　　大1斤＝小3斤<lb/>
@@ -61,9 +61,7 @@
             </editorialDecl>
         </encodingDesc>
         <revisionDesc>
-            <listChange>
-                <change when="2023-03-31"><date>2023年3月31日</date>全般にわたり、誤字の訂正や外字表記のユニコード文字への変更、ルビの修正などをおこなっています。</change>
-            </listChange>
+            <change when="2023-03-31"><date>2023年3月31日</date>全般にわたり、誤字の訂正やルビの修正などをおこなっています。</change>
         </revisionDesc>
     </teiHeader>
     <text>
