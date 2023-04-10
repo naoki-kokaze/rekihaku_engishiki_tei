@@ -24,7 +24,6 @@ def generate_TEIheader(output_filename):
 file_volume = input('読み込む巻を入力してください\n')
 
 input_filename = f'../vol_metadata/metadata_v{file_volume}.tsv'
-output_filename = f'../途中生成物/engishiki_v{file_volume}.xml'
 
 lang_choice = input('ファイルの種別はどれですか（校訂文→何も入力しない、英訳→_en、現代語訳→_ja）\n')
 
@@ -40,6 +39,8 @@ def lang_corresp(lang_choice):
     return corresp_list
 
 corresp_list = lang_corresp(lang_choice)
+output_filename = f'../途中生成物/engishiki_v{file_volume}{lang_choice}.xml'
+
 
 # headerを書き込む
 generate_TEIheader(output_filename)
