@@ -26,6 +26,20 @@ file_volume = input('読み込む巻を入力してください\n')
 input_filename = f'../vol_metadata/metadata_v{file_volume}.tsv'
 output_filename = f'../途中生成物/engishiki_v{file_volume}.xml'
 
+lang_choice = input('ファイルの種別はどれですか（校訂文→何も入力しない、英訳→_en、現代語訳→_ja）\n')
+
+
+# パラレルコーパス用の@corresp属性値をファイルの種別で分けてリストで出力する関数
+def lang_corresp(lang_choice):
+    lang_list = ["", "_en", "_ja"]
+    corresp_list = []
+    for index, lang in enumerate(lang_list):
+        if index != lang_list.index(lang_choice):
+            corresp_list.append(f"engishiki{lang}.xml")
+
+    return corresp_list
+
+corresp_list = lang_corresp(lang_choice)
 
 # headerを書き込む
 generate_TEIheader(output_filename)
@@ -68,7 +82,7 @@ t_body.append(t_div_maki)
 shiki_order_id = f"{shiki_no.zfill(2)}{shiki_order}"
 t_div_shudai = soup.new_tag('div', **{"type":"首題", "xml:id":f"shudai{shiki_order_id}"})
 protocol_id = f'protocol{shiki_order_id}'
-t_div_shiki = soup.new_tag('div', **{"ana":f"{shiki_name}", "xml:id":f"{protocol_id}", "n":f"{shiki_no}", "type":"式", "subtype":"条", "corresp":f"engishiki_ja.xml#{protocol_id} engishiki_en.xml#{protocol_id}"})
+t_div_shiki = soup.new_tag('div', **{"ana":f"{shiki_name}", "xml:id":f"{protocol_id}", "n":f"{shiki_no}", "type":"式", "subtype":"条", "corresp":f"{corresp_list[0]}#{protocol_id} {corresp_list[1]}#{protocol_id}"})
 t_div_bidai = soup.new_tag('div', **{"type":"首題", "xml:id":f"bidai{shiki_order_id}"})
 t_div_okugaki = soup.new_tag('div', **{"type":"本奥書", "xml:id":f"okugaki{shiki_order_id}"})
 
@@ -94,7 +108,7 @@ t_div_okugaki.p.string = '本奥書'
 # 条数分だけdivタグを生成する必要があるので、上記で定義した巻のmetadataのリストをすべてforループ
 for data in metadata:
     article_id = f'article{protocol_id[-3:]}{data["条"].zfill(3)}'
-    t_div_shiki.append(soup.new_tag('div', **{"ana":f"{shiki_name}", "xml:id":f"{article_id}", "n":f"{shiki_no}.{data['条']}", "type":"条", "subtype":"項", "corresp":f"engishiki_ja.xml#{article_id} engishiki_en.xml#{article_id}"}))
+    t_div_shiki.append(soup.new_tag('div', **{"ana":f"{shiki_name}", "xml:id":f"{article_id}", "n":f"{shiki_no}.{data['条']}", "type":"条", "subtype":"項", "corresp":f"{corresp_list[0]}#{article_id} {corresp_list[1]}#{article_id}"}))
     # ポイントは、ここで末尾のdivを指定しないといけないこと。以下、同様
     t_div_shiki.select('div')[-1].append(soup.new_tag('head', ana=f'{data["新条文名"]}'))
     
@@ -102,7 +116,7 @@ for data in metadata:
     kous = int(data["項"])
     for kou in range(kous):
         item_id = f'item{article_id[-6:]}{str(kou+1).zfill(2)}'
-        t_div_shiki.select('div')[-1].append(soup.new_tag('p', **{"ana":"項", "xml:id":f"{item_id}", "corresp":f"engishiki_ja.xml#{item_id} engishiki_en.xml#{item_id}"}))
+        t_div_shiki.select('div')[-1].append(soup.new_tag('p', **{"ana":"項", "xml:id":f"{item_id}", "corresp":f"{corresp_list[0]}#{item_id} {corresp_list[1]}#{item_id}"}))
         t_div_shiki.select('div')[-1].p.string = "本文"
 
 # すべての結果の書き込み
