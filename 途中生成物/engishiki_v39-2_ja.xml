@@ -1,0 +1,833 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>延喜式ファイル</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>国立歴史民俗博物館メタ資料学研究センター</publisher>
+                <idno type="PID">o:depcha.engi_shiki.1</idno>
+                <availability>
+                    <p/>
+                </availability>
+                <date when="2020-03-31">31 March 2020</date>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <settlement>千葉県佐倉市</settlement>
+                        <repository>国立歴史民俗博物館</repository>
+                        <collection>集英社版延喜式</collection>
+                    </msIdentifier>
+                    <msContents>
+                        <msItem>
+                            <author>藤原時平・藤原忠平</author>
+                            <title>延喜式</title>
+                            <note>
+                                <p>ここに史料の説明が入る。</p>
+                            </note>
+                        </msItem>
+                    </msContents>
+                </msDesc>
+                <listWit>
+                    <listWit xml:id="写本">
+                        <head>写本</head>
+                        <witness xml:id="土本"><abbr>土本</abbr>：国立歴史民俗博物館所蔵土御門家旧蔵本（H-743-74）</witness>
+                        <witness xml:id="近本"><abbr>近本</abbr>：京都大学附属図書館所蔵近衛文庫本（2-03/エ/1貴）</witness>
+                        <witness xml:id="壬本"><abbr>壬本</abbr>：宮内庁書陵部図書寮文庫所蔵壬生家旧蔵本（F10-287）</witness>
+                        <witness xml:id="京博本"><abbr>京博本</abbr>：京都国立博物館所蔵旧京都博物館本</witness>
+                        <witness xml:id="慶長本"><abbr>慶長本</abbr>：国立公文書館所蔵慶長写本（特102-8）</witness>
+                        <witness xml:id="梵本"
+                            ><abbr>梵本</abbr>：天理大学附属天理図書館所蔵吉田文庫梵舜等筆本（吉16-8。巻8は173-ｲ5（Ⅲ524)もあり）</witness>
+                        <witness xml:id="九本"><abbr>九本</abbr>：東京国立博物館所蔵九条家旧蔵巻子本（B-2370）</witness>
+                        <witness xml:id="剛本"><abbr>剛本</abbr>：天野山金剛寺所蔵本</witness>
+                        <witness xml:id="条本"
+                            ><abbr>条本</abbr>：一条家旧蔵巻子本（巻1～3は無窮会専門図書館所蔵模写本、巻4・5は神宮司庁刊影印本）</witness>
+                        <witness xml:id="花本"><abbr>花本</abbr>：花山院家・武田祐吉旧蔵本（神宮皇学館刊影印本による）</witness>
+                        <witness xml:id="九冊本"
+                            ><abbr>九冊本</abbr>：國學院大學所蔵九条家・西田長男旧蔵冊子本（巻5は西田長男刊影印本による）</witness>
+                        <witness xml:id="永本"
+                            ><abbr>永本</abbr>：巻8は國學院大學図書館所蔵（091.2/322.135/1）、巻9・10は現蔵不明(神宮文庫所蔵写真帳1門16974）</witness>
+                        <witness xml:id="右本"><abbr>右本</abbr>：巻8は國學院大學図書館所蔵（貴62）</witness>
+                        <witness xml:id="吉本"
+                            ><abbr>吉本</abbr>：天理大学附属天理図書館所蔵吉田家旧蔵本巻9・10（328.1-ｲ17(Ⅲ1219)）</witness>
+                        <witness xml:id="三条本"
+                            ><abbr>三条本</abbr>：天理大学附属天理図書館所蔵三条家旧蔵本（328.1-ｲ11(Ⅲ1218)）</witness>
+                        <witness xml:id="西本"
+                            ><abbr>西本</abbr>：巻9・10は國學院大學図書館所蔵（貴107～108）。巻50は国立歴史民俗博物館所蔵（H-1588）。抄出本は國學院大學所蔵（木村大樹「〔西田長男旧蔵〕三条西実隆筆『延喜式』(抄)の翻刻・紹介」『國學院大學研究開発推進機構紀要』14、2022年） </witness>
+                        <witness xml:id="時慶本"
+                            ><abbr>時慶本</abbr>：静嘉堂文庫所蔵西洞院時慶写本（延喜格式表18352、延喜式序18353）</witness>
+                        <witness xml:id="島原本"
+                            ><abbr>島原本</abbr>：東京大学史料編纂所所蔵松平忠房・和学講談所・水野忠央旧蔵本（貴45-2）</witness>
+                        <witness xml:id="貞享本"
+                            ><abbr>貞享本</abbr>：宮内庁書陵部図書寮文庫所蔵和学講談所旧蔵本（457-116）</witness>
+                        <witness xml:id="玄梁本"><abbr>玄梁本</abbr>：無窮会専門図書館所蔵神習文庫玄梁記名本（神習3666）</witness>
+                        <witness xml:id="尾張本"
+                            ><abbr>尾張本</abbr>：東京大学総合図書館所蔵尾張家旧蔵本（巻13）（A00-6122）</witness>
+                    </listWit>
+                    <listWit xml:id="版本">
+                        <head>版本：慶安版本も含めた流布版本</head>
+                        <witness xml:id="慶安版本"
+                            ><abbr>慶安版本</abbr>：大和文華館所蔵鈴鹿連胤旧蔵版本（1/741～790）</witness>
+                        <witness xml:id="明暦版本"
+                            ><abbr>明暦版本</abbr>：明暦修訂版本　国立公文書館所蔵紅葉山文庫旧蔵版本（特26-1）等</witness>
+                        <witness xml:id="明暦以降版本"><abbr>明暦以降版本</abbr>：明暦修訂本以降の版本</witness>
+                        <witness xml:id="寛文版本"
+                            ><abbr>寛文版本</abbr>：寛文修訂版本　筑波大学附属図書館所蔵版本20冊本（ム212-7）等</witness>
+                        <witness xml:id="享保版本"
+                            ><abbr>享保版本</abbr>：享保修訂版本　筑波大学附属図書館所蔵版本五〇冊本（ム212-6）等</witness>
+                        <witness xml:id="雲本"
+                            ><abbr>雲本</abbr>：松江藩文政11年(1828)刊本（雲州本）　早稲田大学図書館所蔵本（ワ03-01594）等</witness>
+                        <witness xml:id="考異"
+                            ><abbr>考異</abbr>：雲州本附録『延喜式考異』　早稲田大学図書館所蔵本（ワ03-01594）等</witness>
+                        <witness xml:id="鈴鹿本"
+                            ><abbr>鈴鹿本</abbr>：大和文華館所蔵鈴鹿連胤旧蔵慶安版本（1/741～790）書入</witness>
+                        <witness xml:id="勢多本"
+                            ><abbr>勢多本</abbr>：宮内庁書陵部図書寮文庫所蔵勢多家旧蔵明暦等版本（172-123）書入</witness>
+                        <witness xml:id="筑波寛文本"
+                            ><abbr>筑波寛文本</abbr>：筑波大学附属図書館所蔵寛文版本20冊本（ム212-7）書入</witness>
+                    </listWit>
+                    <listWit xml:id="刊本">
+                        <head>刊本</head>
+                        <witness xml:id="旧大系本"><abbr>旧大系本</abbr>：旧輯国史大系第13巻（経済雑誌社　1900年刊）</witness>
+                        <witness xml:id="叢書本"><abbr>叢書本</abbr>：新註皇学叢書第3巻（広文庫刊行会　1927年刊）</witness>
+                        <witness xml:id="全集本"
+                            ><abbr>全集本</abbr>：日本古典全集『延喜式』（日本古典全集刊行会　1927～1929年刊）</witness>
+                        <witness xml:id="皇典本"
+                            ><abbr>皇典本</abbr>：『校訂延喜式』（皇典講究所・全国神職会　1929～1932年刊）</witness>
+                        <witness xml:id="国史大系本"
+                            ><abbr>国史大系本</abbr>：新訂増補国史大系第26巻（吉川弘文館　1937年刊）</witness>
+                        <witness xml:id="神道大系本"
+                            ><abbr>神道大系本</abbr>：神道大系古典編11・12『延喜式』（神道大系編纂会、1991・1993年刊）</witness>
+                        <witness xml:id="訳注本"
+                            ><abbr>訳注本</abbr>：訳注日本史料『延喜式』上～下（集英社、2000～2017年刊）</witness>
+                    </listWit>
+                    <listWit xml:id="その他">
+                        <head>その他</head>
+                        <witness xml:id="本朝月令"
+                            ><abbr>本朝月令</abbr>：清水潔編『新校本朝月令』（皇學館大學神道研究所　2002年刊）</witness>
+                        <witness xml:id="儀式"><abbr>儀式</abbr>：※※</witness>
+                        <witness xml:id="皇太神宮儀式帳"><abbr>皇太神宮儀式帳</abbr>：</witness>
+                        <witness xml:id="止由気宮儀式帳"><abbr>止由気宮儀式帳</abbr>：</witness>
+                        <witness xml:id="新撰年中行事"
+                            ><abbr>新撰年中行事</abbr>：西本昌弘編『新撰年中行事』（八木書店　2010年刊）</witness>
+                        <witness xml:id="小野宮年中行事"><abbr>小野宮年中行事</abbr>：</witness>
+                        <witness xml:id="小野宮年中行事裏書"
+                            ><abbr>小野宮年中行事裏書</abbr>：国立歴史民俗博物館所蔵本（H-1762）</witness>
+                        <witness xml:id="勘例"><abbr>勘例（陽明文庫所蔵）</abbr>：</witness>
+                        <witness xml:id="政事要略"
+                            ><abbr>政事要略</abbr>：新訂増補国史大系（吉川弘文館　1935年刊。適宜、写本を参照）</witness>
+                        <witness xml:id="法曹至要抄"><abbr>法曹至要抄</abbr>：中世法制史料集（岩波書店　2005年刊）</witness>
+                        <witness xml:id="本草和名"
+                            ><abbr>本草和名</abbr>：丸山裕美子・武倩編著『本草和名』（汲古書院　2021年刊）</witness>
+                    </listWit>
+                </listWit>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <variantEncoding location="external" method="location-referenced"/>
+            <tagsDecl>
+                <rendition xml:id="indent">text-indent: 1em;</rendition>
+            </tagsDecl>
+            <editorialDecl>
+                <p/>
+            </editorialDecl>
+        </encodingDesc>
+        <revisionDesc>
+            <change/>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div ana="内膳" n="39" subtype="式" type="巻" xml:id="volume39">
+                <div type="首題" xml:id="shudai392">
+                    <p>首題</p>
+                </div>
+                <div ana="内膳" corresp="engishiki.xml#protocol392 engishiki_en.xml#protocol392"
+                    n="39" subtype="条" type="式" xml:id="protocol392">
+                    <div ana="内膳"
+                        corresp="engishiki.xml#article392001 engishiki_en.xml#article392001"
+                        n="39.1" subtype="項" type="条" xml:id="article392001">
+                        <head ana="春日春祭"/>
+                        <p ana="項"
+                            corresp="engishiki.xml#item39200101 engishiki_en.xml#item39200101"
+                            xml:id="item39200101">本文</p>
+                    </div>
+                    <div ana="内膳"
+                        corresp="engishiki.xml#article392002 engishiki_en.xml#article392002"
+                        n="39.2" subtype="項" type="条" xml:id="article392002">
+                        <head ana="大原野祭"/>
+                        <p ana="項"
+                            corresp="engishiki.xml#item39200201 engishiki_en.xml#item39200201"
+                            xml:id="item39200201">本文</p>
+                    </div>
+                    <div ana="内膳"
+                        corresp="engishiki.xml#article392003 engishiki_en.xml#article392003"
+                        n="39.3" subtype="項" type="条" xml:id="article392003">
+                        <head ana="月日春祭"/>
+                        <p ana="項"
+                            corresp="engishiki.xml#item39200301 engishiki_en.xml#item39200301"
+                            xml:id="item39200301">本文</p>
+                    </div>
+                    <div ana="内膳"
+                        corresp="engishiki.xml#article392004 engishiki_en.xml#article392004"
+                        n="39.4" subtype="項" type="条" xml:id="article392004">
+                        <head ana="園神祭"/>
+                        <p ana="項"
+                            corresp="engishiki.xml#item39200401 engishiki_en.xml#item39200401"
+                            xml:id="item39200401">本文</p>
+                    </div>
+                    <div ana="内膳"
+                        corresp="engishiki.xml#article392005 engishiki_en.xml#article392005"
+                        n="39.5" subtype="項" type="条" xml:id="article392005">
+                        <head ana="諸祭雑菜"/>
+                        <p ana="項"
+                            corresp="engishiki.xml#item39200501 engishiki_en.xml#item39200501"
+                            xml:id="item39200501">本文</p>
+                    </div>
+                    <div ana="内膳"
+                        corresp="engishiki.xml#article392006 engishiki_en.xml#article392006"
+                        n="39.6" subtype="項" type="条" xml:id="article392006">
+                        <head ana="神今食"/>
+                        <p ana="項"
+                            corresp="engishiki.xml#item39200601 engishiki_en.xml#item39200601"
+                            xml:id="item39200601">本文</p>
+                    </div>
+                    <div ana="内膳"
+                        corresp="engishiki.xml#article392007 engishiki_en.xml#article392007"
+                        n="39.7" subtype="項" type="条" xml:id="article392007">
+                        <head ana="新嘗夜料"/>
+                        <p ana="項"
+                            corresp="engishiki.xml#item39200701 engishiki_en.xml#item39200701"
+                            xml:id="item39200701">本文</p>
+                    </div>
+                    <div ana="内膳"
+                        corresp="engishiki.xml#article392008 engishiki_en.xml#article392008"
+                        n="39.8" subtype="項" type="条" xml:id="article392008">
+                        <head ana="新嘗解斎"/>
+                        <p ana="項"
+                            corresp="engishiki.xml#item39200801 engishiki_en.xml#item39200801"
+                            xml:id="item39200801">本文</p>
+                    </div>
+                    <div ana="内膳"
+                        corresp="engishiki.xml#article392009 engishiki_en.xml#article392009"
+                        n="39.9" subtype="項" type="条" xml:id="article392009">
+                        <head ana="新嘗豊楽"/>
+                        <p ana="項"
+                            corresp="engishiki.xml#item39200901 engishiki_en.xml#item39200901"
+                            xml:id="item39200901">本文</p>
+                    </div>
+                    <div ana="内膳"
+                        corresp="engishiki.xml#article392010 engishiki_en.xml#article392010"
+                        n="39.10" subtype="項" type="条" xml:id="article392010">
+                        <head ana="新嘗中宮豊楽"/>
+                        <p ana="項"
+                            corresp="engishiki.xml#item39201001 engishiki_en.xml#item39201001"
+                            xml:id="item39201001">本文</p>
+                    </div>
+                    <div ana="内膳"
+                        corresp="engishiki.xml#article392011 engishiki_en.xml#article392011"
+                        n="39.11" subtype="項" type="条" xml:id="article392011">
+                        <head ana="御斎会料"/>
+                        <p ana="項"
+                            corresp="engishiki.xml#item39201101 engishiki_en.xml#item39201101"
+                            xml:id="item39201101">本文</p>
+                    </div>
+                    <div ana="内膳"
+                        corresp="engishiki.xml#article392012 engishiki_en.xml#article392012"
+                        n="39.12" subtype="項" type="条" xml:id="article392012">
+                        <head ana="盂蘭盆料"/>
+                        <p ana="項"
+                            corresp="engishiki.xml#item39201201 engishiki_en.xml#item39201201"
+                            xml:id="item39201201">本文</p>
+                    </div>
+                    <div ana="内膳"
+                        corresp="engishiki.xml#article392013 engishiki_en.xml#article392013"
+                        n="39.13" subtype="項" type="条" xml:id="article392013">
+                        <head ana="正月三節"/>
+                        <p ana="項"
+                            corresp="engishiki.xml#item39201301 engishiki_en.xml#item39201301"
+                            xml:id="item39201301">本文</p>
+                    </div>
+                    <div ana="内膳"
+                        corresp="engishiki.xml#article392014 engishiki_en.xml#article392014"
+                        n="39.14" subtype="項" type="条" xml:id="article392014">
+                        <head ana="元二三日料"/>
+                        <p ana="項"
+                            corresp="engishiki.xml#item39201401 engishiki_en.xml#item39201401"
+                            xml:id="item39201401">本文</p>
+                    </div>
+                    <div ana="内膳"
+                        corresp="engishiki.xml#article392015 engishiki_en.xml#article392015"
+                        n="39.15" subtype="項" type="条" xml:id="article392015">
+                        <head ana="三四五月料"/>
+                        <p ana="項"
+                            corresp="engishiki.xml#item39201501 engishiki_en.xml#item39201501"
+                            xml:id="item39201501">本文</p>
+                    </div>
+                    <div ana="内膳"
+                        corresp="engishiki.xml#article392016 engishiki_en.xml#article392016"
+                        n="39.16" subtype="項" type="条" xml:id="article392016">
+                        <head ana="五月五日"/>
+                        <p ana="項"
+                            corresp="engishiki.xml#item39201601 engishiki_en.xml#item39201601"
+                            xml:id="item39201601">本文</p>
+                    </div>
+                    <div ana="内膳"
+                        corresp="engishiki.xml#article392017 engishiki_en.xml#article392017"
+                        n="39.17" subtype="項" type="条" xml:id="article392017">
+                        <head ana="七月七日"/>
+                        <p ana="項"
+                            corresp="engishiki.xml#item39201701 engishiki_en.xml#item39201701"
+                            xml:id="item39201701">本文</p>
+                    </div>
+                    <div ana="内膳"
+                        corresp="engishiki.xml#article392018 engishiki_en.xml#article392018"
+                        n="39.18" subtype="項" type="条" xml:id="article392018">
+                        <head ana="九月九日"/>
+                        <p ana="項"
+                            corresp="engishiki.xml#item39201801 engishiki_en.xml#item39201801"
+                            xml:id="item39201801">本文</p>
+                    </div>
+                    <div ana="内膳"
+                        corresp="engishiki.xml#article392019 engishiki_en.xml#article392019"
+                        n="39.19" subtype="項" type="条" xml:id="article392019">
+                        <head ana="供御月料"/>
+                        <p ana="項"
+                            corresp="engishiki.xml#item39201901 engishiki_en.xml#item39201901"
+                            xml:id="item39201901">本文</p>
+                        <p ana="項"
+                            corresp="engishiki.xml#item39201902 engishiki_en.xml#item39201902"
+                            xml:id="item39201902"/>
+                        <p ana="項"
+                            corresp="engishiki.xml#item39201903 engishiki_en.xml#item39201903"
+                            xml:id="item39201903"/>
+                        <p ana="項"
+                            corresp="engishiki.xml#item39201904 engishiki_en.xml#item39201904"
+                            xml:id="item39201904"/>
+                        <p ana="項"
+                            corresp="engishiki.xml#item39201905 engishiki_en.xml#item39201905"
+                            xml:id="item39201905"/>
+                    </div>
+                    <div ana="内膳"
+                        corresp="engishiki.xml#article392020 engishiki_en.xml#article392020"
+                        n="39.20" subtype="項" type="条" xml:id="article392020">
+                        <head ana="供御日料"/>
+                        <p ana="項"
+                            corresp="engishiki.xml#item39202001 engishiki_en.xml#item39202001"
+                            xml:id="item39202001">本文</p>
+                    </div>
+                    <div ana="内膳"
+                        corresp="engishiki.xml#article392021 engishiki_en.xml#article392021"
+                        n="39.21" subtype="項" type="条" xml:id="article392021">
+                        <head ana="七八九十月料"/>
+                        <p ana="項"
+                            corresp="engishiki.xml#item39202101 engishiki_en.xml#item39202101"
+                            xml:id="item39202101">本文</p>
+                    </div>
+                    <div ana="内膳"
+                        corresp="engishiki.xml#article392022 engishiki_en.xml#article392022"
+                        n="39.22" subtype="項" type="条" xml:id="article392022">
+                        <head ana="荷葉"/>
+                        <p ana="項"
+                            corresp="engishiki.xml#item39202201 engishiki_en.xml#item39202201"
+                            xml:id="item39202201">本文</p>
+                    </div>
+                    <div ana="内膳"
+                        corresp="engishiki.xml#article392023 engishiki_en.xml#article392023"
+                        n="39.23" subtype="項" type="条" xml:id="article392023">
+                        <head ana="年料"/>
+                        <p ana="項"
+                            corresp="engishiki.xml#item39202301 engishiki_en.xml#item39202301"
+                            xml:id="item39202301">本文</p>
+                        <p ana="項"
+                            corresp="engishiki.xml#item39202302 engishiki_en.xml#item39202302"
+                            xml:id="item39202302"/>
+                        <p ana="項"
+                            corresp="engishiki.xml#item39202303 engishiki_en.xml#item39202303"
+                            xml:id="item39202303"/>
+                        <p ana="項"
+                            corresp="engishiki.xml#item39202304 engishiki_en.xml#item39202304"
+                            xml:id="item39202304"/>
+                        <p ana="項"
+                            corresp="engishiki.xml#item39202305 engishiki_en.xml#item39202305"
+                            xml:id="item39202305"/>
+                        <p ana="項"
+                            corresp="engishiki.xml#item39202306 engishiki_en.xml#item39202306"
+                            xml:id="item39202306"/>
+                        <p ana="項"
+                            corresp="engishiki.xml#item39202307 engishiki_en.xml#item39202307"
+                            xml:id="item39202307"/>
+                        <p ana="項"
+                            corresp="engishiki.xml#item39202308 engishiki_en.xml#item39202308"
+                            xml:id="item39202308"/>
+                        <p ana="項"
+                            corresp="engishiki.xml#item39202309 engishiki_en.xml#item39202309"
+                            xml:id="item39202309"/>
+                        <p ana="項"
+                            corresp="engishiki.xml#item39202310 engishiki_en.xml#item39202310"
+                            xml:id="item39202310"/>
+                        <p ana="項"
+                            corresp="engishiki.xml#item39202311 engishiki_en.xml#item39202311"
+                            xml:id="item39202311"/>
+                        <p ana="項"
+                            corresp="engishiki.xml#item39202312 engishiki_en.xml#item39202312"
+                            xml:id="item39202312"/>
+                        <p ana="項"
+                            corresp="engishiki.xml#item39202313 engishiki_en.xml#item39202313"
+                            xml:id="item39202313"/>
+                        <p ana="項"
+                            corresp="engishiki.xml#item39202314 engishiki_en.xml#item39202314"
+                            xml:id="item39202314"/>
+                    </div>
+                    <div ana="内膳"
+                        corresp="engishiki.xml#article392024 engishiki_en.xml#article392024"
+                        n="39.24" subtype="項" type="条" xml:id="article392024">
+                        <head ana="供御料雑器"/>
+                        <p ana="項"
+                            corresp="engishiki.xml#item39202401 engishiki_en.xml#item39202401"
+                            xml:id="item39202401">本文</p>
+                        <p ana="項"
+                            corresp="engishiki.xml#item39202402 engishiki_en.xml#item39202402"
+                            xml:id="item39202402"/>
+                        <p ana="項"
+                            corresp="engishiki.xml#item39202403 engishiki_en.xml#item39202403"
+                            xml:id="item39202403"/>
+                    </div>
+                    <div ana="内膳"
+                        corresp="engishiki.xml#article392025 engishiki_en.xml#article392025"
+                        n="39.25" subtype="項" type="条" xml:id="article392025">
+                        <head ana="帷料"/>
+                        <p ana="項"
+                            corresp="engishiki.xml#item39202501 engishiki_en.xml#item39202501"
+                            xml:id="item39202501">本文</p>
+                    </div>
+                    <div ana="内膳"
+                        corresp="engishiki.xml#article392026 engishiki_en.xml#article392026"
+                        n="39.26" subtype="項" type="条" xml:id="article392026">
+                        <head ana="標緋幡"/>
+                        <p ana="項"
+                            corresp="engishiki.xml#item39202601 engishiki_en.xml#item39202601"
+                            xml:id="item39202601">本文</p>
+                    </div>
+                    <div ana="内膳"
+                        corresp="engishiki.xml#article392027 engishiki_en.xml#article392027"
+                        n="39.27" subtype="項" type="条" xml:id="article392027">
+                        <head ana="造粉熟料"/>
+                        <p ana="項"
+                            corresp="engishiki.xml#item39202701 engishiki_en.xml#item39202701"
+                            xml:id="item39202701">本文</p>
+                    </div>
+                    <div ana="内膳"
+                        corresp="engishiki.xml#article392028 engishiki_en.xml#article392028"
+                        n="39.28" subtype="項" type="条" xml:id="article392028">
+                        <head ana="供奉雑菜"/>
+                        <p ana="項"
+                            corresp="engishiki.xml#item39202801 engishiki_en.xml#item39202801"
+                            xml:id="item39202801">本文</p>
+                        <p ana="項"
+                            corresp="engishiki.xml#item39202802 engishiki_en.xml#item39202802"
+                            xml:id="item39202802"/>
+                        <p ana="項"
+                            corresp="engishiki.xml#item39202803 engishiki_en.xml#item39202803"
+                            xml:id="item39202803"/>
+                    </div>
+                    <div ana="内膳"
+                        corresp="engishiki.xml#article392029 engishiki_en.xml#article392029"
+                        n="39.29" subtype="項" type="条" xml:id="article392029">
+                        <head ana="年中七節料"/>
+                        <p ana="項"
+                            corresp="engishiki.xml#item39202901 engishiki_en.xml#item39202901"
+                            xml:id="item39202901">本文</p>
+                    </div>
+                    <div ana="内膳"
+                        corresp="engishiki.xml#article392030 engishiki_en.xml#article392030"
+                        n="39.30" subtype="項" type="条" xml:id="article392030">
+                        <head ana="山科園早瓜"/>
+                        <p ana="項"
+                            corresp="engishiki.xml#item39203001 engishiki_en.xml#item39203001"
+                            xml:id="item39203001">本文</p>
+                    </div>
+                    <div ana="内膳"
+                        corresp="engishiki.xml#article392031 engishiki_en.xml#article392031"
+                        n="39.31" subtype="項" type="条" xml:id="article392031">
+                        <head ana="年料雑菜"/>
+                        <p ana="項"
+                            corresp="engishiki.xml#item39203101 engishiki_en.xml#item39203101"
+                            xml:id="item39203101">本文</p>
+                    </div>
+                    <div ana="内膳"
+                        corresp="engishiki.xml#article392032 engishiki_en.xml#article392032"
+                        n="39.32" subtype="項" type="条" xml:id="article392032">
+                        <head ana="量雑菜"/>
+                        <p ana="項"
+                            corresp="engishiki.xml#item39203201 engishiki_en.xml#item39203201"
+                            xml:id="item39203201">本文</p>
+                    </div>
+                    <div ana="内膳"
+                        corresp="engishiki.xml#article392033 engishiki_en.xml#article392033"
+                        n="39.33" subtype="項" type="条" xml:id="article392033">
+                        <head ana="行幸雑菜"/>
+                        <p ana="項"
+                            corresp="engishiki.xml#item39203301 engishiki_en.xml#item39203301"
+                            xml:id="item39203301">本文</p>
+                    </div>
+                    <div ana="内膳"
+                        corresp="engishiki.xml#article392034 engishiki_en.xml#article392034"
+                        n="39.34" subtype="項" type="条" xml:id="article392034">
+                        <head ana="漬年料雑菜"/>
+                        <p ana="項"
+                            corresp="engishiki.xml#item39203401 engishiki_en.xml#item39203401"
+                            xml:id="item39203401">本文</p>
+                        <p ana="項"
+                            corresp="engishiki.xml#item39203402 engishiki_en.xml#item39203402"
+                            xml:id="item39203402"/>
+                        <p ana="項"
+                            corresp="engishiki.xml#item39203403 engishiki_en.xml#item39203403"
+                            xml:id="item39203403"/>
+                        <p ana="項"
+                            corresp="engishiki.xml#item39203404 engishiki_en.xml#item39203404"
+                            xml:id="item39203404"/>
+                    </div>
+                    <div ana="内膳"
+                        corresp="engishiki.xml#article392035 engishiki_en.xml#article392035"
+                        n="39.35" subtype="項" type="条" xml:id="article392035">
+                        <head ana="楡皮"/>
+                        <p ana="項"
+                            corresp="engishiki.xml#item39203501 engishiki_en.xml#item39203501"
+                            xml:id="item39203501">本文</p>
+                    </div>
+                    <div ana="内膳"
+                        corresp="engishiki.xml#article392036 engishiki_en.xml#article392036"
+                        n="39.36" subtype="項" type="条" xml:id="article392036">
+                        <head ana="山城大和"/>
+                        <p ana="項"
+                            corresp="engishiki.xml#item39203601 engishiki_en.xml#item39203601"
+                            xml:id="item39203601">本文</p>
+                    </div>
+                    <div ana="内膳"
+                        corresp="engishiki.xml#article392037 engishiki_en.xml#article392037"
+                        n="39.37" subtype="項" type="条" xml:id="article392037">
+                        <head ana="造雑味塩魚"/>
+                        <p ana="項"
+                            corresp="engishiki.xml#item39203701 engishiki_en.xml#item39203701"
+                            xml:id="item39203701">本文</p>
+                    </div>
+                    <div ana="内膳"
+                        corresp="engishiki.xml#article392038 engishiki_en.xml#article392038"
+                        n="39.38" subtype="項" type="条" xml:id="article392038">
+                        <head ana="造雑魚鮨"/>
+                        <p ana="項"
+                            corresp="engishiki.xml#item39203801 engishiki_en.xml#item39203801"
+                            xml:id="item39203801">本文</p>
+                    </div>
+                    <div ana="内膳"
+                        corresp="engishiki.xml#article392039 engishiki_en.xml#article392039"
+                        n="39.39" subtype="項" type="条" xml:id="article392039">
+                        <head ana="造醤鮒"/>
+                        <p ana="項"
+                            corresp="engishiki.xml#item39203901 engishiki_en.xml#item39203901"
+                            xml:id="item39203901">本文</p>
+                    </div>
+                    <div ana="内膳"
+                        corresp="engishiki.xml#article392040 engishiki_en.xml#article392040"
+                        n="39.40" subtype="項" type="条" xml:id="article392040">
+                        <head ana="諸国貢進御贄"/>
+                        <p ana="項"
+                            corresp="engishiki.xml#item39204001 engishiki_en.xml#item39204001"
+                            xml:id="item39204001">本文</p>
+                        <p ana="項"
+                            corresp="engishiki.xml#item39204002 engishiki_en.xml#item39204002"
+                            xml:id="item39204002"/>
+                    </div>
+                    <div ana="内膳"
+                        corresp="engishiki.xml#article392041 engishiki_en.xml#article392041"
+                        n="39.41" subtype="項" type="条" xml:id="article392041">
+                        <head ana="淡路国御贄"/>
+                        <p ana="項"
+                            corresp="engishiki.xml#item39204101 engishiki_en.xml#item39204101"
+                            xml:id="item39204101">本文</p>
+                    </div>
+                    <div ana="内膳"
+                        corresp="engishiki.xml#article392042 engishiki_en.xml#article392042"
+                        n="39.42" subtype="項" type="条" xml:id="article392042">
+                        <head ana="年料御贄"/>
+                        <p ana="項"
+                            corresp="engishiki.xml#item39204201 engishiki_en.xml#item39204201"
+                            xml:id="item39204201">本文</p>
+                        <p ana="項"
+                            corresp="engishiki.xml#item39204202 engishiki_en.xml#item39204202"
+                            xml:id="item39204202"/>
+                        <p ana="項"
+                            corresp="engishiki.xml#item39204203 engishiki_en.xml#item39204203"
+                            xml:id="item39204203"/>
+                        <p ana="項"
+                            corresp="engishiki.xml#item39204204 engishiki_en.xml#item39204204"
+                            xml:id="item39204204"/>
+                        <p ana="項"
+                            corresp="engishiki.xml#item39204205 engishiki_en.xml#item39204205"
+                            xml:id="item39204205"/>
+                        <p ana="項"
+                            corresp="engishiki.xml#item39204206 engishiki_en.xml#item39204206"
+                            xml:id="item39204206"/>
+                        <p ana="項"
+                            corresp="engishiki.xml#item39204207 engishiki_en.xml#item39204207"
+                            xml:id="item39204207"/>
+                        <p ana="項"
+                            corresp="engishiki.xml#item39204208 engishiki_en.xml#item39204208"
+                            xml:id="item39204208"/>
+                        <p ana="項"
+                            corresp="engishiki.xml#item39204209 engishiki_en.xml#item39204209"
+                            xml:id="item39204209"/>
+                    </div>
+                    <div ana="内膳"
+                        corresp="engishiki.xml#article392043 engishiki_en.xml#article392043"
+                        n="39.43" subtype="項" type="条" xml:id="article392043">
+                        <head ana="山城国江御贄"/>
+                        <p ana="項"
+                            corresp="engishiki.xml#item39204301 engishiki_en.xml#item39204301"
+                            xml:id="item39204301">本文</p>
+                    </div>
+                    <div ana="内膳"
+                        corresp="engishiki.xml#article392044 engishiki_en.xml#article392044"
+                        n="39.44" subtype="項" type="条" xml:id="article392044">
+                        <head ana="氷魚網代"/>
+                        <p ana="項"
+                            corresp="engishiki.xml#item39204401 engishiki_en.xml#item39204401"
+                            xml:id="item39204401">本文</p>
+                    </div>
+                    <div ana="内膳"
+                        corresp="engishiki.xml#article392045 engishiki_en.xml#article392045"
+                        n="39.45" subtype="項" type="条" xml:id="article392045">
+                        <head ana="参河国保夜"/>
+                        <p ana="項"
+                            corresp="engishiki.xml#item39204501 engishiki_en.xml#item39204501"
+                            xml:id="item39204501">本文</p>
+                    </div>
+                    <div ana="内膳"
+                        corresp="engishiki.xml#article392046 engishiki_en.xml#article392046"
+                        n="39.46" subtype="項" type="条" xml:id="article392046">
+                        <head ana="伊豆国貢進"/>
+                        <p ana="項"
+                            corresp="engishiki.xml#item39204601 engishiki_en.xml#item39204601"
+                            xml:id="item39204601">本文</p>
+                    </div>
+                    <div ana="内膳"
+                        corresp="engishiki.xml#article392047 engishiki_en.xml#article392047"
+                        n="39.47" subtype="項" type="条" xml:id="article392047">
+                        <head ana="御厨御贄"/>
+                        <p ana="項"
+                            corresp="engishiki.xml#item39204701 engishiki_en.xml#item39204701"
+                            xml:id="item39204701">本文</p>
+                    </div>
+                    <div ana="内膳"
+                        corresp="engishiki.xml#article392048 engishiki_en.xml#article392048"
+                        n="39.48" subtype="項" type="条" xml:id="article392048">
+                        <head ana="青槲干槲"/>
+                        <p ana="項"
+                            corresp="engishiki.xml#item39204801 engishiki_en.xml#item39204801"
+                            xml:id="item39204801">本文</p>
+                    </div>
+                    <div ana="内膳"
+                        corresp="engishiki.xml#article392049 engishiki_en.xml#article392049"
+                        n="39.49" subtype="項" type="条" xml:id="article392049">
+                        <head ana="木盤"/>
+                        <p ana="項"
+                            corresp="engishiki.xml#item39204901 engishiki_en.xml#item39204901"
+                            xml:id="item39204901">本文</p>
+                    </div>
+                    <div ana="内膳"
+                        corresp="engishiki.xml#article392050 engishiki_en.xml#article392050"
+                        n="39.50" subtype="項" type="条" xml:id="article392050">
+                        <head ana="木器土器"/>
+                        <p ana="項"
+                            corresp="engishiki.xml#item39205001 engishiki_en.xml#item39205001"
+                            xml:id="item39205001">本文</p>
+                    </div>
+                    <div ana="内膳"
+                        corresp="engishiki.xml#article392051 engishiki_en.xml#article392051"
+                        n="39.51" subtype="項" type="条" xml:id="article392051">
+                        <head ana="膳部"/>
+                        <p ana="項"
+                            corresp="engishiki.xml#item39205101 engishiki_en.xml#item39205101"
+                            xml:id="item39205101">本文</p>
+                    </div>
+                    <div ana="内膳"
+                        corresp="engishiki.xml#article392052 engishiki_en.xml#article392052"
+                        n="39.52" subtype="項" type="条" xml:id="article392052">
+                        <head ana="仕丁"/>
+                        <p ana="項"
+                            corresp="engishiki.xml#item39205201 engishiki_en.xml#item39205201"
+                            xml:id="item39205201">本文</p>
+                    </div>
+                    <div ana="内膳"
+                        corresp="engishiki.xml#article392053 engishiki_en.xml#article392053"
+                        n="39.53" subtype="項" type="条" xml:id="article392053">
+                        <head ana="江網曳御厨"/>
+                        <p ana="項"
+                            corresp="engishiki.xml#item39205301 engishiki_en.xml#item39205301"
+                            xml:id="item39205301">本文</p>
+                    </div>
+                    <div ana="内膳"
+                        corresp="engishiki.xml#article392054 engishiki_en.xml#article392054"
+                        n="39.54" subtype="項" type="条" xml:id="article392054">
+                        <head ana="筑摩長"/>
+                        <p ana="項"
+                            corresp="engishiki.xml#item39205401 engishiki_en.xml#item39205401"
+                            xml:id="item39205401">本文</p>
+                    </div>
+                    <div ana="内膳"
+                        corresp="engishiki.xml#article392055 engishiki_en.xml#article392055"
+                        n="39.55" subtype="項" type="条" xml:id="article392055">
+                        <head ana="膳部労"/>
+                        <p ana="項"
+                            corresp="engishiki.xml#item39205501 engishiki_en.xml#item39205501"
+                            xml:id="item39205501">本文</p>
+                    </div>
+                    <div ana="内膳"
+                        corresp="engishiki.xml#article392056 engishiki_en.xml#article392056"
+                        n="39.56" subtype="項" type="条" xml:id="article392056">
+                        <head ana="膳部不仕"/>
+                        <p ana="項"
+                            corresp="engishiki.xml#item39205601 engishiki_en.xml#item39205601"
+                            xml:id="item39205601">本文</p>
+                    </div>
+                    <div ana="内膳"
+                        corresp="engishiki.xml#article392057 engishiki_en.xml#article392057"
+                        n="39.57" subtype="項" type="条" xml:id="article392057">
+                        <head ana="作園牛"/>
+                        <p ana="項"
+                            corresp="engishiki.xml#item39205701 engishiki_en.xml#item39205701"
+                            xml:id="item39205701">本文</p>
+                    </div>
+                    <div ana="内膳"
+                        corresp="engishiki.xml#article392058 engishiki_en.xml#article392058"
+                        n="39.58" subtype="項" type="条" xml:id="article392058">
+                        <head ana="営園仕丁"/>
+                        <p ana="項"
+                            corresp="engishiki.xml#item39205801 engishiki_en.xml#item39205801"
+                            xml:id="item39205801">本文</p>
+                    </div>
+                    <div ana="内膳"
+                        corresp="engishiki.xml#article392059 engishiki_en.xml#article392059"
+                        n="39.59" subtype="項" type="条" xml:id="article392059">
+                        <head ana="川船"/>
+                        <p ana="項"
+                            corresp="engishiki.xml#item39205901 engishiki_en.xml#item39205901"
+                            xml:id="item39205901">本文</p>
+                    </div>
+                    <div ana="内膳"
+                        corresp="engishiki.xml#article392060 engishiki_en.xml#article392060"
+                        n="39.60" subtype="項" type="条" xml:id="article392060">
+                        <head ana="園地"/>
+                        <p ana="項"
+                            corresp="engishiki.xml#item39206001 engishiki_en.xml#item39206001"
+                            xml:id="item39206001">本文</p>
+                    </div>
+                    <div ana="内膳"
+                        corresp="engishiki.xml#article392061 engishiki_en.xml#article392061"
+                        n="39.61" subtype="項" type="条" xml:id="article392061">
+                        <head ana="雑果樹"/>
+                        <p ana="項"
+                            corresp="engishiki.xml#item39206101 engishiki_en.xml#item39206101"
+                            xml:id="item39206101">本文</p>
+                    </div>
+                    <div ana="内膳"
+                        corresp="engishiki.xml#article392062 engishiki_en.xml#article392062"
+                        n="39.62" subtype="項" type="条" xml:id="article392062">
+                        <head ana="芹水䓗田"/>
+                        <p ana="項"
+                            corresp="engishiki.xml#item39206201 engishiki_en.xml#item39206201"
+                            xml:id="item39206201">本文</p>
+                    </div>
+                    <div ana="内膳"
+                        corresp="engishiki.xml#article392063 engishiki_en.xml#article392063"
+                        n="39.63" subtype="項" type="条" xml:id="article392063">
+                        <head ana="耕種園圃"/>
+                        <p ana="項"
+                            corresp="engishiki.xml#item39206301 engishiki_en.xml#item39206301"
+                            xml:id="item39206301">本文</p>
+                        <p ana="項"
+                            corresp="engishiki.xml#item39206302 engishiki_en.xml#item39206302"
+                            xml:id="item39206302"/>
+                        <p ana="項"
+                            corresp="engishiki.xml#item39206303 engishiki_en.xml#item39206303"
+                            xml:id="item39206303"/>
+                        <p ana="項"
+                            corresp="engishiki.xml#item39206304 engishiki_en.xml#item39206304"
+                            xml:id="item39206304"/>
+                        <p ana="項"
+                            corresp="engishiki.xml#item39206305 engishiki_en.xml#item39206305"
+                            xml:id="item39206305"/>
+                        <p ana="項"
+                            corresp="engishiki.xml#item39206306 engishiki_en.xml#item39206306"
+                            xml:id="item39206306"/>
+                        <p ana="項"
+                            corresp="engishiki.xml#item39206307 engishiki_en.xml#item39206307"
+                            xml:id="item39206307"/>
+                        <p ana="項"
+                            corresp="engishiki.xml#item39206308 engishiki_en.xml#item39206308"
+                            xml:id="item39206308"/>
+                        <p ana="項"
+                            corresp="engishiki.xml#item39206309 engishiki_en.xml#item39206309"
+                            xml:id="item39206309"/>
+                        <p ana="項"
+                            corresp="engishiki.xml#item39206310 engishiki_en.xml#item39206310"
+                            xml:id="item39206310"/>
+                        <p ana="項"
+                            corresp="engishiki.xml#item39206311 engishiki_en.xml#item39206311"
+                            xml:id="item39206311"/>
+                        <p ana="項"
+                            corresp="engishiki.xml#item39206312 engishiki_en.xml#item39206312"
+                            xml:id="item39206312"/>
+                        <p ana="項"
+                            corresp="engishiki.xml#item39206313 engishiki_en.xml#item39206313"
+                            xml:id="item39206313"/>
+                        <p ana="項"
+                            corresp="engishiki.xml#item39206314 engishiki_en.xml#item39206314"
+                            xml:id="item39206314"/>
+                        <p ana="項"
+                            corresp="engishiki.xml#item39206315 engishiki_en.xml#item39206315"
+                            xml:id="item39206315"/>
+                        <p ana="項"
+                            corresp="engishiki.xml#item39206316 engishiki_en.xml#item39206316"
+                            xml:id="item39206316"/>
+                        <p ana="項"
+                            corresp="engishiki.xml#item39206317 engishiki_en.xml#item39206317"
+                            xml:id="item39206317"/>
+                        <p ana="項"
+                            corresp="engishiki.xml#item39206318 engishiki_en.xml#item39206318"
+                            xml:id="item39206318"/>
+                        <p ana="項"
+                            corresp="engishiki.xml#item39206319 engishiki_en.xml#item39206319"
+                            xml:id="item39206319"/>
+                        <p ana="項"
+                            corresp="engishiki.xml#item39206320 engishiki_en.xml#item39206320"
+                            xml:id="item39206320"/>
+                        <p ana="項"
+                            corresp="engishiki.xml#item39206321 engishiki_en.xml#item39206321"
+                            xml:id="item39206321"/>
+                        <p ana="項"
+                            corresp="engishiki.xml#item39206322 engishiki_en.xml#item39206322"
+                            xml:id="item39206322"/>
+                        <p ana="項"
+                            corresp="engishiki.xml#item39206323 engishiki_en.xml#item39206323"
+                            xml:id="item39206323"/>
+                        <p ana="項"
+                            corresp="engishiki.xml#item39206324 engishiki_en.xml#item39206324"
+                            xml:id="item39206324"/>
+                    </div>
+                </div>
+                <div type="首題" xml:id="bidai392">
+                    <p>尾題</p>
+                </div>
+                <div type="本奥書" xml:id="okugaki392">
+                    <p>本奥書</p>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>
