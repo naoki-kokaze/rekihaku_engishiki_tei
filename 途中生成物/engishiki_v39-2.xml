@@ -1,6 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
@@ -33,639 +32,800 @@
                         </msItem>
                     </msContents>
                 </msDesc>
+                <listWit>
+                    <listWit xml:id="写本">
+                        <head>写本</head>
+                        <witness xml:id="土本"><abbr>土本</abbr>：国立歴史民俗博物館所蔵土御門家旧蔵本（H-743-74）</witness>
+                        <witness xml:id="近本"><abbr>近本</abbr>：京都大学附属図書館所蔵近衛文庫本（2-03/エ/1貴）</witness>
+                        <witness xml:id="壬本"><abbr>壬本</abbr>：宮内庁書陵部図書寮文庫所蔵壬生家旧蔵本（F10-287）</witness>
+                        <witness xml:id="京博本"><abbr>京博本</abbr>：京都国立博物館所蔵旧京都博物館本</witness>
+                        <witness xml:id="慶長本"><abbr>慶長本</abbr>：国立公文書館所蔵慶長写本（特102-8）</witness>
+                        <witness xml:id="梵本"
+                            ><abbr>梵本</abbr>：天理大学附属天理図書館所蔵吉田文庫梵舜等筆本（吉16-8。巻8は173-ｲ5（Ⅲ524)もあり）</witness>
+                        <witness xml:id="九本"><abbr>九本</abbr>：東京国立博物館所蔵九条家旧蔵巻子本（B-2370）</witness>
+                        <witness xml:id="剛本"><abbr>剛本</abbr>：天野山金剛寺所蔵本</witness>
+                        <witness xml:id="条本"
+                            ><abbr>条本</abbr>：一条家旧蔵巻子本（巻1～3は無窮会専門図書館所蔵模写本、巻4・5は神宮司庁刊影印本）</witness>
+                        <witness xml:id="花本"><abbr>花本</abbr>：花山院家・武田祐吉旧蔵本（神宮皇学館刊影印本による）</witness>
+                        <witness xml:id="九冊本"
+                            ><abbr>九冊本</abbr>：國學院大學所蔵九条家・西田長男旧蔵冊子本（巻5は西田長男刊影印本による）</witness>
+                        <witness xml:id="永本"
+                            ><abbr>永本</abbr>：巻8は國學院大學図書館所蔵（091.2/322.135/1）、巻9・10は現蔵不明(神宮文庫所蔵写真帳1門16974）</witness>
+                        <witness xml:id="右本"><abbr>右本</abbr>：巻8は國學院大學図書館所蔵（貴62）</witness>
+                        <witness xml:id="吉本"
+                            ><abbr>吉本</abbr>：天理大学附属天理図書館所蔵吉田家旧蔵本巻9・10（328.1-ｲ17(Ⅲ1219)）</witness>
+                        <witness xml:id="三条本"
+                            ><abbr>三条本</abbr>：天理大学附属天理図書館所蔵三条家旧蔵本（328.1-ｲ11(Ⅲ1218)）</witness>
+                        <witness xml:id="西本"
+                            ><abbr>西本</abbr>：巻9・10は國學院大學図書館所蔵（貴107～108）。巻50は国立歴史民俗博物館所蔵（H-1588）。抄出本は國學院大學所蔵（木村大樹「〔西田長男旧蔵〕三条西実隆筆『延喜式』(抄)の翻刻・紹介」『國學院大學研究開発推進機構紀要』14、2022年） </witness>
+                        <witness xml:id="時慶本"
+                            ><abbr>時慶本</abbr>：静嘉堂文庫所蔵西洞院時慶写本（延喜格式表18352、延喜式序18353）</witness>
+                        <witness xml:id="島原本"
+                            ><abbr>島原本</abbr>：東京大学史料編纂所所蔵松平忠房・和学講談所・水野忠央旧蔵本（貴45-2）</witness>
+                        <witness xml:id="貞享本"
+                            ><abbr>貞享本</abbr>：宮内庁書陵部図書寮文庫所蔵和学講談所旧蔵本（457-116）</witness>
+                        <witness xml:id="玄梁本"><abbr>玄梁本</abbr>：無窮会専門図書館所蔵神習文庫玄梁記名本（神習3666）</witness>
+                        <witness xml:id="尾張本"
+                            ><abbr>尾張本</abbr>：東京大学総合図書館所蔵尾張家旧蔵本（巻13）（A00-6122）</witness>
+                    </listWit>
+                    <listWit xml:id="版本">
+                        <head>版本：慶安版本も含めた流布版本</head>
+                        <witness xml:id="慶安版本"
+                            ><abbr>慶安版本</abbr>：大和文華館所蔵鈴鹿連胤旧蔵版本（1/741～790）</witness>
+                        <witness xml:id="明暦版本"
+                            ><abbr>明暦版本</abbr>：明暦修訂版本　国立公文書館所蔵紅葉山文庫旧蔵版本（特26-1）等</witness>
+                        <witness xml:id="明暦以降版本"><abbr>明暦以降版本</abbr>：明暦修訂本以降の版本</witness>
+                        <witness xml:id="寛文版本"
+                            ><abbr>寛文版本</abbr>：寛文修訂版本　筑波大学附属図書館所蔵版本20冊本（ム212-7）等</witness>
+                        <witness xml:id="享保版本"
+                            ><abbr>享保版本</abbr>：享保修訂版本　筑波大学附属図書館所蔵版本五〇冊本（ム212-6）等</witness>
+                        <witness xml:id="雲本"
+                            ><abbr>雲本</abbr>：松江藩文政11年(1828)刊本（雲州本）　早稲田大学図書館所蔵本（ワ03-01594）等</witness>
+                        <witness xml:id="考異"
+                            ><abbr>考異</abbr>：雲州本附録『延喜式考異』　早稲田大学図書館所蔵本（ワ03-01594）等</witness>
+                        <witness xml:id="鈴鹿本"
+                            ><abbr>鈴鹿本</abbr>：大和文華館所蔵鈴鹿連胤旧蔵慶安版本（1/741～790）書入</witness>
+                        <witness xml:id="勢多本"
+                            ><abbr>勢多本</abbr>：宮内庁書陵部図書寮文庫所蔵勢多家旧蔵明暦等版本（172-123）書入</witness>
+                        <witness xml:id="筑波寛文本"
+                            ><abbr>筑波寛文本</abbr>：筑波大学附属図書館所蔵寛文版本20冊本（ム212-7）書入</witness>
+                    </listWit>
+                    <listWit xml:id="刊本">
+                        <head>刊本</head>
+                        <witness xml:id="旧大系本"><abbr>旧大系本</abbr>：旧輯国史大系第13巻（経済雑誌社　1900年刊）</witness>
+                        <witness xml:id="叢書本"><abbr>叢書本</abbr>：新註皇学叢書第3巻（広文庫刊行会　1927年刊）</witness>
+                        <witness xml:id="全集本"
+                            ><abbr>全集本</abbr>：日本古典全集『延喜式』（日本古典全集刊行会　1927～1929年刊）</witness>
+                        <witness xml:id="皇典本"
+                            ><abbr>皇典本</abbr>：『校訂延喜式』（皇典講究所・全国神職会　1929～1932年刊）</witness>
+                        <witness xml:id="国史大系本"
+                            ><abbr>国史大系本</abbr>：新訂増補国史大系第26巻（吉川弘文館　1937年刊）</witness>
+                        <witness xml:id="神道大系本"
+                            ><abbr>神道大系本</abbr>：神道大系古典編11・12『延喜式』（神道大系編纂会、1991・1993年刊）</witness>
+                        <witness xml:id="訳注本"
+                            ><abbr>訳注本</abbr>：訳注日本史料『延喜式』上～下（集英社、2000～2017年刊）</witness>
+                    </listWit>
+                    <listWit xml:id="その他">
+                        <head>その他</head>
+                        <witness xml:id="本朝月令"
+                            ><abbr>本朝月令</abbr>：清水潔編『新校本朝月令』（皇學館大學神道研究所　2002年刊）</witness>
+                        <witness xml:id="儀式"><abbr>儀式</abbr>：※※</witness>
+                        <witness xml:id="皇太神宮儀式帳"><abbr>皇太神宮儀式帳</abbr>：</witness>
+                        <witness xml:id="止由気宮儀式帳"><abbr>止由気宮儀式帳</abbr>：</witness>
+                        <witness xml:id="新撰年中行事"
+                            ><abbr>新撰年中行事</abbr>：西本昌弘編『新撰年中行事』（八木書店　2010年刊）</witness>
+                        <witness xml:id="小野宮年中行事"><abbr>小野宮年中行事</abbr>：</witness>
+                        <witness xml:id="小野宮年中行事裏書"
+                            ><abbr>小野宮年中行事裏書</abbr>：国立歴史民俗博物館所蔵本（H-1762）</witness>
+                        <witness xml:id="勘例"><abbr>勘例（陽明文庫所蔵）</abbr>：</witness>
+                        <witness xml:id="政事要略"
+                            ><abbr>政事要略</abbr>：新訂増補国史大系（吉川弘文館　1935年刊。適宜、写本を参照）</witness>
+                        <witness xml:id="法曹至要抄"><abbr>法曹至要抄</abbr>：中世法制史料集（岩波書店　2005年刊）</witness>
+                        <witness xml:id="本草和名"
+                            ><abbr>本草和名</abbr>：丸山裕美子・武倩編著『本草和名』（汲古書院　2021年刊）</witness>
+                    </listWit>
+                </listWit>
             </sourceDesc>
         </fileDesc>
         <encodingDesc>
-            <variantEncoding method="location-referenced" location="external"/>
+            <variantEncoding location="external" method="location-referenced"/>
+            <tagsDecl>
+                <rendition xml:id="indent">text-indent: 1em;</rendition>
+            </tagsDecl>
+            <editorialDecl>
+                <p/>
+            </editorialDecl>
         </encodingDesc>
+        <revisionDesc>
+            <change/>
+        </revisionDesc>
     </teiHeader>
     <text>
         <body>
-            <div n="39" type="巻" subtype="式">
-            <div ana="内膳" n="39" subtype="条" type="式">
-                <div type="式題">
-                    <p>内膳司</p>
+            <div ana="内膳" n="39" subtype="式" type="巻" xml:id="volume39">
+                <div type="首題" xml:id="shudai392">
+                    <p>首題</p>
                 </div>
-                <div ana="内膳" n="39.1" subtype="項" type="条">
-                    <head ana="春日春祭"/>
-                    <p ana="項" corresp="engishiki_ja.xml#item39200101 engishiki_en.xml#item39200101"
-                        xml:id="item39200101">春日春祭
-                        <lb/>絁一疋、綿二屯、〈官人一人当色料、〉調布四端、〈膳部八人衫料、各二丈一尺、〉紅花一斤、〈染膳部衫料、〉紺布一端、〈女丁裳料、〉商布六段、〈四段仕丁・担夫各二人衫料、二段膳部・仕女等巾料、〉
-                        <lb/>　右、雑物預前申省、自大蔵省請受、〈但供神物見神祇式、〉官人率膳部・仕丁等赴向祭所、以供其事、秋祭准此、〈担夫臨時申省、〉</p>
-                </div>
-                <div ana="内膳" n="39.2" subtype="項" type="条">
-                    <head ana="大原野祭"/>
-                    <p ana="項" corresp="engishiki_ja.xml#item39200201 engishiki_en.xml#item39200201"
-                        xml:id="item39200201">大原野祭 <lb/>　右、一物以上同春日祭、</p>
-                </div>
-                <div ana="内膳" n="39.3" subtype="項" type="条">
-                    <head ana="月日春祭"/>
-                    <p ana="項" corresp="engishiki_ja.xml#item39200301 engishiki_en.xml#item39200301"
-                        xml:id="item39200301">月日春祭
-                        <lb/>高案二脚、〈木工寮所充、〉調布四条、〈各長五尺、覆敷案料、〉陶高盤八口、筥瓶二口、飯笥二合、木綿小一斤、〈已上内蔵寮所充、〉
-                        <lb/>　右、雑物申請内侍、其供神物者、割取供奉月料雑物未御者料理、盛備高案送縫殿寮、秋祭准此、</p>
-                </div>
-                <div ana="内膳" n="39.4" subtype="項" type="条">
-                    <head ana="園神祭"/>
-                    <p ana="項" corresp="engishiki_ja.xml#item39200401 engishiki_en.xml#item39200401"
-                        xml:id="item39200401">園神祭〈春秋並同、〉
-                        <lb/>十四座、〈京北園二座、長岡園三座、奈良園三座、山科園一座、羽束志園三座、奈癸園一座、<anchor/>政所一座<anchor/>、〉
-                        <lb/>　右、五位一座、〈京北園、〉六位十三座、 <lb/>五位神一座料
-                        <lb/>五色絁各三尺、倭文一尺、木綿・麻各八両、鍬一口、白米三斗、糯米一斗、<anchor/>大<anchor/>・小豆各三升、酒一斗、鰒二斤、堅魚・腊各六斤、雑鮨十一斤、海藻四斤、塩六升、
-                        <lb/>六位神料
-                        <lb/>座別五色薄絁各一尺、倭文一尺、鍬一口、木綿・麻各一両、米一升、酒七合、鰒・堅魚・腊・海藻各五両、塩七合、祝料庸布二段、</p>
-                </div>
-                <div ana="内膳" n="39.5" subtype="項" type="条">
-                    <head ana="諸祭雑菜"/>
-                    <p ana="項" corresp="engishiki_ja.xml#item39200501 engishiki_en.xml#item39200501"
-                        xml:id="item39200501">諸祭雑菜〈春秋並同、〉
-                        <lb/><anchor/>園<anchor/>韓神祭三斛、春日祭四斛、平野祭三斛、大原野祭三斛、釈奠祭四斗、〈色目見大膳式、〉</p>
-                </div>
-                <div ana="内膳" n="39.6" subtype="項" type="条">
-                    <head ana="神今食"/>
-                    <p ana="項" corresp="engishiki_ja.xml#item39200601 engishiki_en.xml#item39200601"
-                        xml:id="item39200601">六月神今食料〈十二月准此、〉
-                        <lb/>淡路塩二升、東鰒七斤五両、薄鰒六斤十両、堅魚五斤、干鯛六隻、干鯵卅隻、鮨鰒・煮塩年魚・<anchor/>醤鮒<anchor/>各二升、甘塩鯛四隻、海松・海藻各六斤十両、干棗子・生栗子・搗栗子・菱子各二升、〈十二月以橘子代菱子、〉瓫四口、堝十口、〈大四、小六、〉松明八束、供奉官人二人、膳部六人、各給暴布襅一条、〈長八尺、〉</p>
-                </div>
-                <div ana="内膳" n="39.7" subtype="項" type="条">
-                    <head ana="新嘗夜料"/>
-                    <p ana="項" corresp="engishiki_ja.xml#item39200701 engishiki_en.xml#item39200701"
-                        xml:id="item39200701">新嘗祭供御料
-                        <lb/>塩二升、東鰒六斤十両二分四銖、堅魚五斤、鮨鰒・煮塩年魚・醤鮒各二升、甘塩鯛四隻、海松・海藻各六斤十両二分四銖、干棗子二升、干栗子二升、搗栗子四升、生<anchor/>栗<anchor/>一斗、椎子・菱子各四升、橘子四蔭、瓫四口、醤・油各五升、
-                        <lb/>　右、夜料、</p>
-                </div>
-                <div ana="内膳" n="39.8" subtype="項" type="条">
-                    <head ana="新嘗解斎"/>
-                    <p ana="項" corresp="engishiki_ja.xml#item39200801 engishiki_en.xml#item39200801"
-                        xml:id="item39200801"
-                        >米二斗、糯米二斗、糯・粟<anchor/>子<anchor/>等糒各二升、糯稲十束、小麦四升、大豆二升二合、小豆一升六合、胡麻子二升八合、荏子三升、清酒・濁酒各一斗、酢・醤各五升、塩二升、東鰒一斤十両二分四銖、薄鰒十三斤五両一分二銖、隠伎鰒二斤五両一分二銖、煮堅魚・螺各十三両一分二銖、烏賊十両二分四銖、腊五升、紫菜十両二分四銖、海松・海藻各六斤十両二分四銖、干薑三両、干羊蹄一籠、干<anchor/>棗<anchor/>二升、搗栗子六升、干栗子二升、生栗子二斗二升八合、干柿子二連、椎子四升、菱子・蓮子各二升、<anchor/>橘子廿四蔭<anchor/>、桙橘子十<anchor/>枝<anchor/>、明櫃十合、陶大盤十九口、麻笥盤十二口、鉢廿六口、大瓶七口、筥瓶六口、<anchor/>酢瓶<anchor/>十口、洗盤十二口、燼瓫・臼各八口、土熬堝卅口、大洗盤・小洗盤各四口、大盤八口、火蓋十二口、瓫十口、堝五十口、〈大十二口、小卅八口、〉柏卌二俵、〈一度惣請、通用七節、〉
-                        <lb/>　右、解斎料、但雑器年中七節通用、〈次条准此、〉</p>
-                </div>
-                <div ana="内膳" n="39.9" subtype="項" type="条">
-                    <head ana="新嘗豊楽"/>
-                    <p ana="項" corresp="engishiki_ja.xml#item39200901 engishiki_en.xml#item39200901"
-                        xml:id="item39200901"
-                        >米一斗、糯米二斗、粟<anchor/>子<anchor/>糒二升、小麦四升、胡麻子二升八合、荏子三升、塩二升、東鰒六斤十両二分四銖、堅魚五斤、海松六斤十両二分四銖、海藻十両四分八銖、鮨鰒・煮塩年魚・醤鮒各二升、干羊蹄一籠、干<anchor/>棗<anchor/>・干栗子各二升、搗栗子四升、生栗子一斗、干柿子二連、椎子・菱子各四升、橘子四蔭、<anchor/>桙橘子<anchor/>十枝、明櫃十合、陶大盤十九口、麻笥盤十二口、鉢廿六口、大瓶七口、筥瓶六口、酢瓶十口、洗盤十二口、燼瓫・臼各八口、土熬堝卅口、大洗盤・小洗盤各四口、大盤八口、火蓋十二口、瓫十口、松明八束、炭四石、薪六百斤、供奉官人二人・膳部六人各給衫・襅、
-                        <lb/>　右、豊楽料、</p>
-                </div>
-                <div ana="内膳" n="39.10" subtype="項" type="条">
-                    <head ana="新嘗中宮豊楽"/>
-                    <p ana="項" corresp="engishiki_ja.xml#item39201001 engishiki_en.xml#item39201001"
-                        xml:id="item39201001"
-                        >塩二升、東鰒六斤十両二分四銖、堅魚五斤、海松・海藻各六斤十両二分四銖、鮨鰒・醤鮒・煮塩年魚各二升、干羊蹄一籠、搗栗子四升、生栗子一斗、椎子四升、菱子二升、橘子四<anchor/>蔭<anchor/>、明櫃十合、陶大盤十九口、麻笥盤十二口、鉢廿<anchor/>四<anchor/>口、大瓶七口、筥瓶六口、酢瓶十口、洗盤十二口、臼八口、土熬堝卅口、大洗盤・小洗盤各四口、大盤八口、火蓋十二口、瓫十口、松明八束、炭四石、薪六十斤、
-                        <lb/>　右、同中宮豊楽料、</p>
-                </div>
-                <div ana="内膳" n="39.11" subtype="項" type="条">
-                    <head ana="御斎会料"/>
-                    <p ana="項" corresp="engishiki_ja.xml#item39201101 engishiki_en.xml#item39201101"
-                        xml:id="item39201101"
-                        >最勝王経斎会料、雑菜六石五斗四升五合<anchor/>度<anchor/>大膳職、同会料理仏聖供養官人二人・膳部四人各給調布衫一領、〈別二丈一尺、〉調布四条、〈長各八尺、膳部四人襅料、〉</p>
-                </div>
-                <div ana="内膳" n="39.12" subtype="項" type="条">
-                    <head ana="盂蘭盆料"/>
-                    <p ana="項" corresp="engishiki_ja.xml#item39201201 engishiki_en.xml#item39201201"
-                        xml:id="item39201201"
-                        >七寺七月十五日盂蘭<anchor/>瓫<anchor/>料、<anchor/>雑<anchor/>菜三石二斗、〈寺別四斗五升七合、〉菓子二石四斗三升、〈寺別三斗四升七合、〉</p>
-                </div>
-                <div ana="内膳" n="39.13" subtype="項" type="条">
-                    <head ana="正月三節"/>
-                    <p ana="項" corresp="engishiki_ja.xml#item39201301 engishiki_en.xml#item39201301"
-                        xml:id="item39201301">諸節供御料、〈中宮亦同、下皆准此、〉 <lb/>正月三節
-                        <lb/>米三斗、糯米四斗六升五合、糯稲十五束、<anchor/>糯糒<anchor/>三升、粟<anchor/>子<anchor/>糒六升、小麦一斗二升、荏子九升、胡麻子八升四合、大豆三升三合、小豆二升四合、清酒・濁酒・酢・油各一斗五升、醤三斗、塩六升、東鰒八斤四両、隠伎鰒十一斤一両、煮堅魚四斤二両、螺四斤三両、紫菜一斤、干薑一斤、干棗子三升、搗栗子九升、生栗子六斗四升二合、干柿子六連、椎子六升、菱子三升、橘子卅六蔭、桙橘子十五枝、掇橘子一斗、長櫃五合、熬堝十八口、竹三囲、料理所炭十二石、薪一千八百斤、供奉膳部卌人〈卅人御、十人中宮、〉各給紺布衫一領、〈通用三節、〉其下番膳部卅人、節別各限二箇日給食、人別日飯二升、〈余節准此、〉
-                        <lb/>　右、三節料、依前件一度請受、節別分供、但射礼料用此内、又十八日賭射、弁備肴物給王卿及近衛次将等、</p>
-                </div>
-                <div ana="内膳" n="39.14" subtype="項" type="条">
-                    <head ana="元二三日料"/>
-                    <p ana="項" corresp="engishiki_ja.xml#item39201401 engishiki_en.xml#item39201401"
-                        xml:id="item39201401"
-                        >蘿蔔・味醤<anchor/>漬<anchor/><anchor/>苽<anchor/>・糟漬<anchor/>苽<anchor/>・鹿宍・猪宍・押<anchor/>鮎<anchor/>・煮塩鮎瓷盤七口、高案一脚、〈長三尺五寸、広一尺七寸、高四尺、〉
-                        <lb/>　右、従元日至于三日供之、</p>
-                </div>
-                <div ana="内膳" n="39.15" subtype="項" type="条">
-                    <head ana="三四五月料"/>
-                    <p ana="項" corresp="engishiki_ja.xml#item39201501 engishiki_en.xml#item39201501"
-                        xml:id="item39201501"
-                        >粽料糯米二石、〈日別二升五合、〉大角豆六斗、〈<anchor/>日別六合六夕<anchor/>、〉苧大二斤、薪六十荷、〈直、<anchor/>物<anchor/>、〉蔣六十束、
-                        <lb/>　右、従三月十日迄五月卅日供料、</p>
-                </div>
-                <div ana="内膳" n="39.16" subtype="項" type="条">
-                    <head ana="五月五日"/>
-                    <p ana="項" corresp="engishiki_ja.xml#item39201601 engishiki_en.xml#item39201601"
-                        xml:id="item39201601">五月五日節
-                        <lb/>米一斗三升、糯米一斗七升、糯稲五束、〈焼米料、〉糯・粟糒各二升、大豆二升、小麦四升、胡麻子・荏子各四升、酒一斗、酢・油各五升、醤一斗、塩二升、鳥腊四斤、東鰒一斤十両、長門鰒・阿波鰒・出雲鰒・隠伎鰒各二斤五両、鮭二隻、烏賊一斤五両、煮堅魚・螺各十三両、腊五升、紫菜五両、海藻一斤五両、干栗子一斗、生<anchor/>栗<anchor/>一斗七升四合、麁筥二合、生糸二分四銖、青蔣十囲、竹一囲、<anchor/>炭<anchor/>四石、薪六十斤、供奉膳部卌人〈卅人御、十人中宮、〉各給紺布衫一領、</p>
-                </div>
-                <div ana="内膳" n="39.17" subtype="項" type="条">
-                    <head ana="七月七日"/>
-                    <p ana="項" corresp="engishiki_ja.xml#item39201701 engishiki_en.xml#item39201701"
-                        xml:id="item39201701">七月七日
-                        <lb/>米・糯米各六升、糯糒八斗、粟糒三升、黍子・小麦各六升、小豆一升、酒二斗、酢・油各五升、醤一斗、塩一升、東鰒一斤十両、<anchor/>隠岐<anchor/>鰒二斤五両、烏賊・螺各一斤五両、煮堅魚十三両、腊五升、紫菜四両、海藻一斤、竈一具、炭四石、薪六百斤、</p>
-                </div>
-                <div ana="内膳" n="39.18" subtype="項" type="条">
-                    <head ana="九月九日"/>
-                    <p ana="項" corresp="engishiki_ja.xml#item39201801 engishiki_en.xml#item39201801"
-                        xml:id="item39201801">九月九日節
-                        <lb/>米二斗三升、糯稲五束、糯糒一斗、<anchor/>粟<anchor/><anchor/>子<anchor/>糒二升、小麦・胡麻子各四升、大豆二升、小豆一斗、荏子六升、酒一斗、酢・油各五升、醤一斗、塩二升、東鰒一斤十二両、<anchor/>隠岐<anchor/>鰒二斤五両、烏賊一斤五両、煮<anchor/>堅<anchor/>魚・螺各十三両、押年魚・鳥腊各八両、腊五升、紫菜五両、海藻一斤五両、炭三石、薪六百斤、</p>
-                </div>
-                <div ana="内膳" n="39.19" subtype="項" type="条">
-                    <head ana="供御月料"/>
-                    <p ana="項" corresp="engishiki_ja.xml#item39201901 engishiki_en.xml#item39201901"
-                        xml:id="item39201901">供御月料
-                        <lb/>糯米二斗四升七合五夕、<anchor/>粟<anchor/>三斗四升五合、糯糒一斗二升七合五夕、<anchor/>粟<anchor/>糒三升七合五夕、米三斗六升四合、<anchor/>【のぎへん＋朮】<anchor/>米一斗五升、黍子三斗、糖一斗四升二合五夕、小麦一石四斗一升、<anchor/>葟<anchor/>子七升五合、<anchor/>大<anchor/>・小豆各二斗二升五合、胡麻子・荏子各一斗一升二合五夕、大角豆一斗三升五合、酒七斗五升、搗糟六斗七升五合、汁糟六斗、酢三斗七升七合五夕、胡麻油一斗五升、未醤一斗五升、醤八斗<anchor/>三升<anchor/>、滓醤七升五合、塩一石一斗八升五合、</p>
-                    <p ana="項" corresp="engishiki_ja.xml#item39201902 engishiki_en.xml#item39201902"
-                        xml:id="item39201902"
-                        >脯九斤、鳥腊・押年魚各十六斤八両、東鰒卌五斤、薄鰒十一斤四両、<anchor/>隠岐<anchor/>鰒卌五斤、醤鰒廿一条、堅魚二百廿五斤、煮堅魚・熬海鼠各八斤四両、蛸・烏賊各廿三斤四両、鮭卌五隻、腊四斗五升、乞魚皮廿斤十三両、堅魚煎・海鼠<anchor/>腹<anchor/>各四升五合、安房雑鰒廿三斤四両、<anchor/>腹<anchor/>漬鰒二斗三升二合五夕、久恵【月＋肅】十三斤八両、雑鮨二斗三升二合五夕、鮐皮廿一斤十二両、能登鯖一百卌二隻、紫菜十二両、海松二斤四両、滑海<anchor/>藻<anchor/>十三斤八両、海藻廿二斤八両、大凝菜四斤八両、於期五斤四両、鹿角菜十二斤、伊祇須九斤、</p>
-                    <p ana="項" corresp="engishiki_ja.xml#item39201903 engishiki_en.xml#item39201903"
-                        xml:id="item39201903"
-                        >芥子・豉各四升五合、醤<anchor/>瓜<anchor/>廿三顆、干棗子一斗四升二合五夕、搗<anchor/>栗<anchor/>二斗九升三合五夕、干栗子七斗五升、生栗子二石二斗五升、干柿子廿九連、椎子四斗五升、呉桃子一斗五升、橘子卌五蔭、掇橘子・菱子各二斗二升五合、蓮子一斗五升七合五夕、</p>
-                    <p ana="項" corresp="engishiki_ja.xml#item39201904 engishiki_en.xml#item39201904"
-                        xml:id="item39201904"
-                        >帛七尺、〈拭金銀朱漆御坏料、〉灯油六升、〈盛所・進物所各三升、〉箸竹四百五十株、〈九十株山城国乙訓<anchor/>園<anchor/>、三百六十株相楽郡鹿鷺園、〉</p>
-                    <p ana="項" corresp="engishiki_ja.xml#item39201905 engishiki_en.xml#item39201905"
-                        xml:id="item39201905">　右、月料、小月減卅分之一、</p>
-                </div>
-                <div ana="内膳" n="39.20" subtype="項" type="条">
-                    <head ana="供御日料"/>
-                    <p ana="項" corresp="engishiki_ja.xml#item39202001 engishiki_en.xml#item39202001"
-                        xml:id="item39202001"
-                        >炭一石四斗、〈盛所四斗、進物所并菓子所各五斗、〉松明三把、〈盛・進物・菓子所各一把、〉薪一百廿斤、〈大炊所并煮雑物所各六十斤、〉造雑餅料甘醴一升、
-                        <lb/>　右、<anchor/>日<anchor/>料、</p>
-                </div>
-                <div ana="内膳" n="39.21" subtype="項" type="条">
-                    <head ana="七八九十月料"/>
-                    <p ana="項" corresp="engishiki_ja.xml#item39202101 engishiki_en.xml#item39202101"
-                        xml:id="item39202101">盛餅・甜物・菓子柳筥各二合、〈各長一尺、広九寸、〉麁筥廿一合、円櫃廿四合、檳榔葉十枚、
-                        <lb/>　右、起七月七日尽十月供料、</p>
-                </div>
-                <div ana="内膳" n="39.22" subtype="項" type="条">
-                    <head ana="荷葉"/>
-                    <p ana="項" corresp="engishiki_ja.xml#item39202201 engishiki_en.xml#item39202201"
-                        xml:id="item39202201">荷葉
-                        <lb/>稚葉七十五枚、波斐四把半、〈並起五月中旬<anchor/>尽<anchor/>六月中旬、〉壮葉七十五枚、蓮子廿房、稚藕十五条、〈起六月下旬尽七月下旬、〉黄葉七十五枚、蓮子廿房、稚藕十五条、〈起八月上旬尽九月下旬、〉
-                        <lb/>　右、河内国所進、各随月限隔一日供之、</p>
-                </div>
-                <div ana="内膳" n="39.23" subtype="項" type="条">
-                    <head ana="年料"/>
-                    <p ana="項" corresp="engishiki_ja.xml#item39202301 engishiki_en.xml#item39202301"
-                        xml:id="item39202301">年料
-                        <lb/>御飯帛被三領、〈二領別綿五屯、一領三屯一両二銖、並長二丈五尺、〉裹<anchor/>【衤＋干】<anchor/>麺帛帷一条、〈長七尺、〉絹大篩四口、〈水瓶麻笥料、口別各長三尺五寸、〉絹小篩九十五口、〈煮雑羹所十三口、漬菜所十四口、菓餅所十三口、麦粉所<anchor/>十<anchor/>口、糯粉所七口、油所三口、<anchor/>甘<anchor/>葛煎所三口、醤所八口、雑用廿四口、並長二尺、〉薄絁篩廿五口、〈搗胡麻子料四口、各長四尺、胡桃料三口、各長二尺、甘葛煎料二口、各長二尺五寸、漉蓼料五口、各長四尺、芥子料三口、各長三尺、已上十七口、並二重、醤料八口、各長二尺、〉外居案十二脚、【巾＋巴】料油絁十二条、〈各長五尺一寸、広一<anchor/>幅<anchor/>半、〉</p>
-                    <p ana="項" corresp="engishiki_ja.xml#item39202302 engishiki_en.xml#item39202302"
-                        xml:id="item39202302"
-                        >御膳櫃十二合料暴布綱廿四条、〈長一丈、中割一年二換、〉<anchor/>曝<anchor/>布篩十四口、〈御井大篩十口、各長三尺五寸、並二重、水篩四口、各長四尺、〉磨御飯暴布袋一口、〈長一丈、〉暴布巾<anchor/>卅<anchor/>六条、〈拭銀御飯鋺料十二条、各長二尺、作薄餅料二条、各長一丈二尺五寸、裹【衤＋干】麺料一条、長四尺、拭御案料六条、各長五尺、拭釜料一条、長四尺、拭臼料二条、各長二尺五寸、押鮒料三条、各長二尺、押焼漬鮒料三条、各長二尺、拭瓼料五条、各長五尺、押麦袋料一条、長六尺、〉案<anchor/>【巾＋巴】<anchor/>布三条、〈作餅案料一条、長一丈四尺、大炊殿案二脚料<anchor/>二<anchor/>条、<anchor/>長<anchor/>六尺、〉纏竈<anchor/>盎<anchor/>暴布十二条、〈各長一尺五寸、〉</p>
-                    <p ana="項" corresp="engishiki_ja.xml#item39202303 engishiki_en.xml#item39202303"
-                        xml:id="item39202303"
-                        ><anchor/>生<anchor/>糸三絇、〈<anchor/>縫<anchor/>案<anchor/>【巾＋巴】<anchor/>并篩料、〉練糸一分二銖、〈縫裹御飯被料、〉砥三顆、〈磨刀子料、〉檳榔葉廿八枚、〈八枚扇涼御飯料、廿枚扇雑膳火料、〉麻六斤三両、〈竈盎廿四条料、以四両三銖作一条、〉</p>
-                    <p ana="項" corresp="engishiki_ja.xml#item39202304 engishiki_en.xml#item39202304"
-                        xml:id="item39202304"
-                        >韓櫃五合、〈四合納醤・酢・未醤并漬物料、一合納御米料、〉中取案廿四脚、〈三脚雑器櫃料、二脚置雑魚料、四脚雑菓子櫃料、四脚洗雑菜<anchor/>槽<anchor/>料、三脚<anchor/>収<anchor/>雑魚櫃料、二脚雑韲櫃料、三脚御米櫃料、三脚儲料、〉切案十六脚、〈二脚料理雑韲料、二脚料理肴料、二脚料理雑滑海藻料、二脚料理雑菜料、四脚<anchor/>料<anchor/>理<anchor/>鮮<anchor/>魚料、二脚料理雑菓子料、二脚儲料、〉</p>
-                    <p ana="項" corresp="engishiki_ja.xml#item39202305 engishiki_en.xml#item39202305"
-                        xml:id="item39202305"
-                        >大槽八隻、〈四隻洗雑漬菜料、一隻洗雑菓子料、一隻洗雑羹菜料、二隻洗御<anchor/>案<anchor/><anchor/>【巾＋巴】<anchor/>布并巾等料、〉円槽十三隻、〈二隻洗雑生菜料、五隻洗漬薑料、二隻洗雑生魚料、二隻洗雑菜料、二隻洗雑<anchor/>韲<anchor/>料、〉</p>
-                    <p ana="項" corresp="engishiki_ja.xml#item39202306 engishiki_en.xml#item39202306"
-                        xml:id="item39202306"
-                        >木臼四口、〈二口舂塩<anchor/>并楡<anchor/>等料、二口舂粉料、〉杵八<anchor/>枝<anchor/>、〈舂雑物料、〉箕五枚、〈二枚簸択塩并<anchor/>楡<anchor/>等料、三枚簸択粉<anchor/>米<anchor/>料、〉匏一百九十柄、〈汲雑物汁料、〉</p>
-                    <p ana="項" corresp="engishiki_ja.xml#item39202307 engishiki_en.xml#item39202307"
-                        xml:id="item39202307"
-                        >席十六枚、〈四枚張大炊殿上料、四枚暴涼雑菜料、四枚<anchor/>【巾＋巴】<anchor/>御案料、四枚舂塩并楡料、〉薦十六枚、〈八枚張大炊殿上料、八枚翳御膳所料、〉黒葛六斤、〈結大炊殿上張席料、〉</p>
-                    <p ana="項" corresp="engishiki_ja.xml#item39202308 engishiki_en.xml#item39202308"
-                        xml:id="item39202308"
-                        >酢・醤<anchor/>瓶<anchor/>卅口、鉢八口、負瓶四口、大瓶八口、小瓶八口、筥瓶八口、陶臼四口、〈已上八種納韲物料、〉洗盤十二口、〈四口磨御飯料、八口洗作雑滓漬物料、〉麻笥盤十二口、〈四口漬御菜料、八口納滓醤・未醤料、〉缶廿口、〈<anchor/>十口<anchor/>納醤并雑醤漬物料、<anchor/>十口<anchor/>納雑滓漬物料、〉壺八口、〈納醤漬并滓漬物料、〉瓼十一口、〈汲運水料、〉由加十六口、〈汲運水料、〉叩瓫二口、〈洗納泔料、〉火蓋二口、〈蓋火炉料、〉</p>
-                    <p ana="項" corresp="engishiki_ja.xml#item39202309 engishiki_en.xml#item39202309"
-                        xml:id="item39202309"
-                        >明櫃卌七合、〈四合納羹堝料、四合納汁漬物料、二合納雑洗菜料、六合納雑魚料、三合納御<anchor/>菜<anchor/>料、四合納雑韲物器料、四合納柏料、四合納菜料、十六合儲料、〉荒筥五十七合、〈十二合<anchor/>涼<anchor/>御飯料、四合洗納雑韲物料、四合洗納雑羹菜料、卅七合儲料、〉筥廿合、〈二合納蘿蔔料、四合納餅料、四合納甜物料、四合納志登<anchor/>伎<anchor/>料、二合納刀子料、四合納菓子料、〉円櫃卅八合、〈従御贄殿納雑物運御膳所料、〉</p>
-                    <p ana="項" corresp="engishiki_ja.xml#item39202310 engishiki_en.xml#item39202310"
-                        xml:id="item39202310"
-                        >刀子七十七枚、〈十枚<anchor/>刺<anchor/>蠣料、四枚打古毛料、二枚切鰒料、二枚打加自米<anchor/>料<anchor/>、二枚打魚骨料、一枚作折餅料、一枚餛飩料、五十五枚雑用料、長廿枚、短卅五枚、〉</p>
-                    <p ana="項" corresp="engishiki_ja.xml#item39202311 engishiki_en.xml#item39202311"
-                        xml:id="item39202311">案十脚、〈四脚料理雑菓子料、二脚居御膳櫃料、二脚置御案料、二脚盛御膳料、〉足高案二脚、〈涼暴御坏料、〉水樽案七脚、</p>
-                    <p ana="項" corresp="engishiki_ja.xml#item39202312 engishiki_en.xml#item39202312"
-                        xml:id="item39202312">熬笥廿四口、〈熬雑糒料、〉<anchor/>太<anchor/>蓋十一枚、〈樽料、〉漉籠廿四口、〈漉雑煠餅料、〉</p>
-                    <p ana="項" corresp="engishiki_ja.xml#item39202313 engishiki_en.xml#item39202313"
-                        xml:id="item39202313">暴布<anchor/>九<anchor/>端二丈<anchor/>九<anchor/>尺、〈二<anchor/>端<anchor/>一丈六尺巾十条料、長各一丈、三<anchor/>丈<anchor/>六尺作<anchor/>折<anchor/>餅膳部二人衫料、長各一丈八尺、一<anchor/>端<anchor/>四尺襷十<anchor/>一<anchor/>条料、各長四尺、一丈二尺襅二条料、各長六尺、一<anchor/>端<anchor/>二丈三尺駆使十三人襅料、各長五尺、<anchor/>一端<anchor/>一丈八尺、<anchor/>宮<anchor/>人十人襅料、各長六尺、一丈八尺仕女四人襅料、各長四尺五寸、一端一丈四尺衫四領料、各長一丈四尺、八尺冠四条料、各長二尺、〉</p>
-                    <p ana="項" corresp="engishiki_ja.xml#item39202314 engishiki_en.xml#item39202314"
-                        xml:id="item39202314">　右、起十一月供用、明年十月請替、</p>
-                </div>
-                <div ana="内膳" n="39.24" subtype="項" type="条">
-                    <head ana="供御料雑器"/>
-                    <p ana="項" corresp="engishiki_ja.xml#item39202401 engishiki_en.xml#item39202401"
-                        xml:id="item39202401">供御料雑器
-                        <lb/>朱漆台盤四面、〈二面尋常料、二面節会料、〉
-                        <lb/>黒漆台盤二面、〈潔斎料、〉
-                        <lb/>金・銀・朱漆・瓷雑器、
-                        <lb/>　右、供御雑器従蔵人所請、但尋常料台盤二面【巾＋巴】料油絁二丈五尺二寸、随破損申請、受内蔵寮、</p>
-                    <p ana="項" corresp="engishiki_ja.xml#item39202402 engishiki_en.xml#item39202402"
-                        xml:id="item39202402">朱漆椀五口、〈各深三寸五分、口径一尺一寸、〉中宮・東宮各三口、
-                        <lb/><anchor/>金銅界文台<anchor/>五基、〈各高一尺、径八<anchor/>寸<anchor/>、〉中宮・東宮各三基、
-                        <lb/>　右、日供諸節通用、並随破請換、</p>
-                    <p ana="項" corresp="engishiki_ja.xml#item39202403 engishiki_en.xml#item39202403"
-                        xml:id="item39202403">荷櫃三具、〈御并中宮・東宮日供料、〉長櫃四合、〈運送盂蘭<anchor/>瓫<anchor/>并諸節雑菜料、〉中取二脚、〈芼御菜料、〉酒槽一口、〈洗御菜料、〉中荷水桶一合、〈<anchor/>汲<anchor/>洗御菜水料、〉布一端、〈二丈芼洗御菜夫二人襅・襷料、二丈二尺荷櫃四合帯料、〉
-                        <lb/>　右毎年請用、但長櫃・酒槽三年一請、</p>
-                </div>
-                <div ana="内膳" n="39.25" subtype="項" type="条">
-                    <head ana="帷料"/>
-                    <p ana="項" corresp="engishiki_ja.xml#item39202501 engishiki_en.xml#item39202501"
-                        xml:id="item39202501">凡採菓子并暴雑穀帷料、庸布四段、三年一請、</p>
-                </div>
-                <div ana="内膳" n="39.26" subtype="項" type="条">
-                    <head ana="標緋幡"/>
-                    <p ana="項" corresp="engishiki_ja.xml#item39202601 engishiki_en.xml#item39202601"
-                        xml:id="item39202601">凡供雑物標緋幡一十六<anchor/>流<anchor/>、〈各長一尺九寸、広<anchor/>五寸五分<anchor/>、〉毎年請内侍所、以内侍印印之、</p>
-                </div>
-                <div ana="内膳" n="39.27" subtype="項" type="条">
-                    <head ana="造粉熟料"/>
-                    <p ana="項" corresp="engishiki_ja.xml#item39202701 engishiki_en.xml#item39202701"
-                        xml:id="item39202701">造粉熟料
-                        <lb/>白米四石、大角豆一石八斗、漉粉薄絹袋・水篩各二口、〈袋各長六尺、篩各一尺五寸、〉干粉暴布帳一条、〈長三丈、〉【巾＋巴】水瓶暴布一条、〈長四尺、〉挙粉暴布袋二口、〈各長六尺、〉水瓶麻笥一口、酒槽一隻、由加二口、杓一柄、席二枚、簀二枚、薪日別卅斤、
-                        <lb/>　右、起三月一日尽八月卅日供之、</p>
-                </div>
-                <div ana="内膳" n="39.28" subtype="項" type="条">
-                    <head ana="供奉雑菜"/>
-                    <p ana="項" corresp="engishiki_ja.xml#item39202801 engishiki_en.xml#item39202801"
-                        xml:id="item39202801">供奉雑菜
-                        <lb/>日別一斗、韲料三升、生瓜卅顆、〈准三升、自五月迄八月所進、〉茄子卌顆、〈准二升、六・七・八・九月、〉莧四升、〈五・六・七・八月、〉【草冠＋角（最終画は突き出す）＋力】六把、〈准六升自二月迄九月、〉蕗二把、〈准二升、五・六・七・八月、〉蔓菁四把、〈准四升、自正月迄十二月、〉茎立四把、〈准四升、二・三月、〉薺四升、〈正・二・十一・十二月、〉萵苣四把、〈准二升、三・四・五月、〉葵四把、〈准二升、五・八・九・十月、〉羊蹄四把、〈准二升、四・五・八・九・十月、〉韮二把、〈准二升、自二月迄九月、〉䓗二把、〈准一升、正・四・五・九・十・十一・十二月、〉蒜一百根、〈准二升、正・二・三・四・十一・十二<anchor/>月<anchor/>青進、五・六・七・八・九月干進、〉生薑八房、〈准二升、六・七・八月、〉蜀椒二合、〈三・四月稚葉、五・六月子、〉蓼十把、〈准二升、自四月迄九月、〉蘭二把、〈准一升、自正月迄十二月、〉胡【にし】二合、〈正・二・九・十・十一・十二月、〉蘿菔根四把、〈准四升、正・二・十・十一・十二月、〉芹四把、〈准四升、自正月迄六月、〉水䓗四把、〈准四升、五・六・七・八月、〉芋茎二把、〈六・七・八・九月、〉</p>
-                    <p ana="項" corresp="engishiki_ja.xml#item39202802 engishiki_en.xml#item39202802"
-                        xml:id="item39202802">雑菓子五升、生大豆・小豆各六把、〈並六・七・八・九月、〉生大角豆六把、〈六・七月、〉<anchor/>芋子四升、〈正・九・十・十一・十二月、〉<anchor/><anchor/>波々古<anchor/>五升、〈二・三月、〉熟<anchor/>苽<anchor/>八顆、〈六・七・八月、〉栗子三升、〈七・八・九月、〉桃子四升、〈七・八・九月、〉柚子十顆、〈九・十月、〉柿子二升、〈九・十・十一月、〉枇杷十房、〈五・六月、〉李<anchor/>子<anchor/>二升、〈五・六月、〉覆瓫子二升、〈五月、〉笋四把、〈五・六月、〉中宮准此、</p>
-                    <p ana="項" corresp="engishiki_ja.xml#item39202803 engishiki_en.xml#item39202803"
-                        xml:id="item39202803">其東宮雑菜五升、韲料二升、雑菓子三升、生大豆・小豆・大角豆各三把、波々古・芋子各二升、栗子一升、桃子二升、柚子五顆、柿子・李子各一升、枇杷十房、笋二把、</p>
-                </div>
-                <div ana="内膳" n="39.29" subtype="項" type="条">
-                    <head ana="年中七節料"/>
-                    <p ana="項" corresp="engishiki_ja.xml#item39202901 engishiki_en.xml#item39202901"
-                        xml:id="item39202901">年中七節料生菜、節別<anchor/>一石五斗九合<anchor/>、〈本司五斗一升、中宮亦同、東宮二斗四升九合、〉</p>
-                </div>
-                <div ana="内膳" n="39.30" subtype="項" type="条">
+                <div ana="内膳" corresp="engishiki.xml#protocol392 engishiki_en.xml#protocol392"
+                    n="39" subtype="条" type="式" xml:id="protocol392">
+                    <div ana="内膳"
+                        corresp="engishiki.xml#article392001 engishiki_en.xml#article392001"
+                        n="39.1" subtype="項" type="条" xml:id="article392001">
+                        <head ana="春日春祭"/>
+                        <p ana="項"
+                            corresp="engishiki.xml#item39200101 engishiki_en.xml#item39200101"
+                            xml:id="item39200101">本文</p>
+                    </div>
+                    <div ana="内膳"
+                        corresp="engishiki.xml#article392002 engishiki_en.xml#article392002"
+                        n="39.2" subtype="項" type="条" xml:id="article392002">
+                        <head ana="大原野祭"/>
+                        <p ana="項"
+                            corresp="engishiki.xml#item39200201 engishiki_en.xml#item39200201"
+                            xml:id="item39200201">本文</p>
+                    </div>
+                    <div ana="内膳"
+                        corresp="engishiki.xml#article392003 engishiki_en.xml#article392003"
+                        n="39.3" subtype="項" type="条" xml:id="article392003">
+                        <head ana="月日春祭"/>
+                        <p ana="項"
+                            corresp="engishiki.xml#item39200301 engishiki_en.xml#item39200301"
+                            xml:id="item39200301">本文</p>
+                    </div>
+                    <div ana="内膳"
+                        corresp="engishiki.xml#article392004 engishiki_en.xml#article392004"
+                        n="39.4" subtype="項" type="条" xml:id="article392004">
+                        <head ana="園神祭"/>
+                        <p ana="項"
+                            corresp="engishiki.xml#item39200401 engishiki_en.xml#item39200401"
+                            xml:id="item39200401">本文</p>
+                    </div>
+                    <div ana="内膳"
+                        corresp="engishiki.xml#article392005 engishiki_en.xml#article392005"
+                        n="39.5" subtype="項" type="条" xml:id="article392005">
+                        <head ana="諸祭雑菜"/>
+                        <p ana="項"
+                            corresp="engishiki.xml#item39200501 engishiki_en.xml#item39200501"
+                            xml:id="item39200501">本文</p>
+                    </div>
+                    <div ana="内膳"
+                        corresp="engishiki.xml#article392006 engishiki_en.xml#article392006"
+                        n="39.6" subtype="項" type="条" xml:id="article392006">
+                        <head ana="神今食"/>
+                        <p ana="項"
+                            corresp="engishiki.xml#item39200601 engishiki_en.xml#item39200601"
+                            xml:id="item39200601">本文</p>
+                    </div>
+                    <div ana="内膳"
+                        corresp="engishiki.xml#article392007 engishiki_en.xml#article392007"
+                        n="39.7" subtype="項" type="条" xml:id="article392007">
+                        <head ana="新嘗夜料"/>
+                        <p ana="項"
+                            corresp="engishiki.xml#item39200701 engishiki_en.xml#item39200701"
+                            xml:id="item39200701">本文</p>
+                    </div>
+                    <div ana="内膳"
+                        corresp="engishiki.xml#article392008 engishiki_en.xml#article392008"
+                        n="39.8" subtype="項" type="条" xml:id="article392008">
+                        <head ana="新嘗解斎"/>
+                        <p ana="項"
+                            corresp="engishiki.xml#item39200801 engishiki_en.xml#item39200801"
+                            xml:id="item39200801">本文</p>
+                    </div>
+                    <div ana="内膳"
+                        corresp="engishiki.xml#article392009 engishiki_en.xml#article392009"
+                        n="39.9" subtype="項" type="条" xml:id="article392009">
+                        <head ana="新嘗豊楽"/>
+                        <p ana="項"
+                            corresp="engishiki.xml#item39200901 engishiki_en.xml#item39200901"
+                            xml:id="item39200901">本文</p>
+                    </div>
+                    <div ana="内膳"
+                        corresp="engishiki.xml#article392010 engishiki_en.xml#article392010"
+                        n="39.10" subtype="項" type="条" xml:id="article392010">
+                        <head ana="新嘗中宮豊楽"/>
+                        <p ana="項"
+                            corresp="engishiki.xml#item39201001 engishiki_en.xml#item39201001"
+                            xml:id="item39201001">本文</p>
+                    </div>
+                    <div ana="内膳"
+                        corresp="engishiki.xml#article392011 engishiki_en.xml#article392011"
+                        n="39.11" subtype="項" type="条" xml:id="article392011">
+                        <head ana="御斎会料"/>
+                        <p ana="項"
+                            corresp="engishiki.xml#item39201101 engishiki_en.xml#item39201101"
+                            xml:id="item39201101">本文</p>
+                    </div>
+                    <div ana="内膳"
+                        corresp="engishiki.xml#article392012 engishiki_en.xml#article392012"
+                        n="39.12" subtype="項" type="条" xml:id="article392012">
+                        <head ana="盂蘭盆料"/>
+                        <p ana="項"
+                            corresp="engishiki.xml#item39201201 engishiki_en.xml#item39201201"
+                            xml:id="item39201201">本文</p>
+                    </div>
+                    <div ana="内膳"
+                        corresp="engishiki.xml#article392013 engishiki_en.xml#article392013"
+                        n="39.13" subtype="項" type="条" xml:id="article392013">
+                        <head ana="正月三節"/>
+                        <p ana="項"
+                            corresp="engishiki.xml#item39201301 engishiki_en.xml#item39201301"
+                            xml:id="item39201301">本文</p>
+                    </div>
+                    <div ana="内膳"
+                        corresp="engishiki.xml#article392014 engishiki_en.xml#article392014"
+                        n="39.14" subtype="項" type="条" xml:id="article392014">
+                        <head ana="元二三日料"/>
+                        <p ana="項"
+                            corresp="engishiki.xml#item39201401 engishiki_en.xml#item39201401"
+                            xml:id="item39201401">本文</p>
+                    </div>
+                    <div ana="内膳"
+                        corresp="engishiki.xml#article392015 engishiki_en.xml#article392015"
+                        n="39.15" subtype="項" type="条" xml:id="article392015">
+                        <head ana="三四五月料"/>
+                        <p ana="項"
+                            corresp="engishiki.xml#item39201501 engishiki_en.xml#item39201501"
+                            xml:id="item39201501">本文</p>
+                    </div>
+                    <div ana="内膳"
+                        corresp="engishiki.xml#article392016 engishiki_en.xml#article392016"
+                        n="39.16" subtype="項" type="条" xml:id="article392016">
+                        <head ana="五月五日"/>
+                        <p ana="項"
+                            corresp="engishiki.xml#item39201601 engishiki_en.xml#item39201601"
+                            xml:id="item39201601">本文</p>
+                    </div>
+                    <div ana="内膳"
+                        corresp="engishiki.xml#article392017 engishiki_en.xml#article392017"
+                        n="39.17" subtype="項" type="条" xml:id="article392017">
+                        <head ana="七月七日"/>
+                        <p ana="項"
+                            corresp="engishiki.xml#item39201701 engishiki_en.xml#item39201701"
+                            xml:id="item39201701">本文</p>
+                    </div>
+                    <div ana="内膳"
+                        corresp="engishiki.xml#article392018 engishiki_en.xml#article392018"
+                        n="39.18" subtype="項" type="条" xml:id="article392018">
+                        <head ana="九月九日"/>
+                        <p ana="項"
+                            corresp="engishiki.xml#item39201801 engishiki_en.xml#item39201801"
+                            xml:id="item39201801">本文</p>
+                    </div>
+                    <div ana="内膳"
+                        corresp="engishiki.xml#article392019 engishiki_en.xml#article392019"
+                        n="39.19" subtype="項" type="条" xml:id="article392019">
+                        <head ana="供御月料"/>
+                        <p ana="項"
+                            corresp="engishiki.xml#item39201901 engishiki_en.xml#item39201901"
+                            xml:id="item39201901">本文</p>
+                        <p ana="項"
+                            corresp="engishiki.xml#item39201902 engishiki_en.xml#item39201902"
+                            xml:id="item39201902"/>
+                        <p ana="項"
+                            corresp="engishiki.xml#item39201903 engishiki_en.xml#item39201903"
+                            xml:id="item39201903"/>
+                        <p ana="項"
+                            corresp="engishiki.xml#item39201904 engishiki_en.xml#item39201904"
+                            xml:id="item39201904"/>
+                        <p ana="項"
+                            corresp="engishiki.xml#item39201905 engishiki_en.xml#item39201905"
+                            xml:id="item39201905"/>
+                    </div>
+                    <div ana="内膳"
+                        corresp="engishiki.xml#article392020 engishiki_en.xml#article392020"
+                        n="39.20" subtype="項" type="条" xml:id="article392020">
+                        <head ana="供御日料"/>
+                        <p ana="項"
+                            corresp="engishiki.xml#item39202001 engishiki_en.xml#item39202001"
+                            xml:id="item39202001">本文</p>
+                    </div>
+                    <div ana="内膳"
+                        corresp="engishiki.xml#article392021 engishiki_en.xml#article392021"
+                        n="39.21" subtype="項" type="条" xml:id="article392021">
+                        <head ana="七八九十月料"/>
+                        <p ana="項"
+                            corresp="engishiki.xml#item39202101 engishiki_en.xml#item39202101"
+                            xml:id="item39202101">本文</p>
+                    </div>
+                    <div ana="内膳"
+                        corresp="engishiki.xml#article392022 engishiki_en.xml#article392022"
+                        n="39.22" subtype="項" type="条" xml:id="article392022">
+                        <head ana="荷葉"/>
+                        <p ana="項"
+                            corresp="engishiki.xml#item39202201 engishiki_en.xml#item39202201"
+                            xml:id="item39202201">本文</p>
+                    </div>
+                    <div ana="内膳"
+                        corresp="engishiki.xml#article392023 engishiki_en.xml#article392023"
+                        n="39.23" subtype="項" type="条" xml:id="article392023">
+                        <head ana="年料"/>
+                        <p ana="項"
+                            corresp="engishiki.xml#item39202301 engishiki_en.xml#item39202301"
+                            xml:id="item39202301">本文</p>
+                        <p ana="項"
+                            corresp="engishiki.xml#item39202302 engishiki_en.xml#item39202302"
+                            xml:id="item39202302"/>
+                        <p ana="項"
+                            corresp="engishiki.xml#item39202303 engishiki_en.xml#item39202303"
+                            xml:id="item39202303"/>
+                        <p ana="項"
+                            corresp="engishiki.xml#item39202304 engishiki_en.xml#item39202304"
+                            xml:id="item39202304"/>
+                        <p ana="項"
+                            corresp="engishiki.xml#item39202305 engishiki_en.xml#item39202305"
+                            xml:id="item39202305"/>
+                        <p ana="項"
+                            corresp="engishiki.xml#item39202306 engishiki_en.xml#item39202306"
+                            xml:id="item39202306"/>
+                        <p ana="項"
+                            corresp="engishiki.xml#item39202307 engishiki_en.xml#item39202307"
+                            xml:id="item39202307"/>
+                        <p ana="項"
+                            corresp="engishiki.xml#item39202308 engishiki_en.xml#item39202308"
+                            xml:id="item39202308"/>
+                        <p ana="項"
+                            corresp="engishiki.xml#item39202309 engishiki_en.xml#item39202309"
+                            xml:id="item39202309"/>
+                        <p ana="項"
+                            corresp="engishiki.xml#item39202310 engishiki_en.xml#item39202310"
+                            xml:id="item39202310"/>
+                        <p ana="項"
+                            corresp="engishiki.xml#item39202311 engishiki_en.xml#item39202311"
+                            xml:id="item39202311"/>
+                        <p ana="項"
+                            corresp="engishiki.xml#item39202312 engishiki_en.xml#item39202312"
+                            xml:id="item39202312"/>
+                        <p ana="項"
+                            corresp="engishiki.xml#item39202313 engishiki_en.xml#item39202313"
+                            xml:id="item39202313"/>
+                        <p ana="項"
+                            corresp="engishiki.xml#item39202314 engishiki_en.xml#item39202314"
+                            xml:id="item39202314"/>
+                    </div>
+                    <div ana="内膳"
+                        corresp="engishiki.xml#article392024 engishiki_en.xml#article392024"
+                        n="39.24" subtype="項" type="条" xml:id="article392024">
+                        <head ana="供御料雑器"/>
+                        <p ana="項"
+                            corresp="engishiki.xml#item39202401 engishiki_en.xml#item39202401"
+                            xml:id="item39202401">本文</p>
+                        <p ana="項"
+                            corresp="engishiki.xml#item39202402 engishiki_en.xml#item39202402"
+                            xml:id="item39202402"/>
+                        <p ana="項"
+                            corresp="engishiki.xml#item39202403 engishiki_en.xml#item39202403"
+                            xml:id="item39202403"/>
+                    </div>
+                    <div ana="内膳"
+                        corresp="engishiki.xml#article392025 engishiki_en.xml#article392025"
+                        n="39.25" subtype="項" type="条" xml:id="article392025">
+                        <head ana="帷料"/>
+                        <p ana="項"
+                            corresp="engishiki.xml#item39202501 engishiki_en.xml#item39202501"
+                            xml:id="item39202501">本文</p>
+                    </div>
+                    <div ana="内膳"
+                        corresp="engishiki.xml#article392026 engishiki_en.xml#article392026"
+                        n="39.26" subtype="項" type="条" xml:id="article392026">
+                        <head ana="標緋幡"/>
+                        <p ana="項"
+                            corresp="engishiki.xml#item39202601 engishiki_en.xml#item39202601"
+                            xml:id="item39202601">本文</p>
+                    </div>
+                    <div ana="内膳"
+                        corresp="engishiki.xml#article392027 engishiki_en.xml#article392027"
+                        n="39.27" subtype="項" type="条" xml:id="article392027">
+                        <head ana="造粉熟料"/>
+                        <p ana="項"
+                            corresp="engishiki.xml#item39202701 engishiki_en.xml#item39202701"
+                            xml:id="item39202701">本文</p>
+                    </div>
+                    <div ana="内膳"
+                        corresp="engishiki.xml#article392028 engishiki_en.xml#article392028"
+                        n="39.28" subtype="項" type="条" xml:id="article392028">
+                        <head ana="供奉雑菜"/>
+                        <p ana="項"
+                            corresp="engishiki.xml#item39202801 engishiki_en.xml#item39202801"
+                            xml:id="item39202801">本文</p>
+                        <p ana="項"
+                            corresp="engishiki.xml#item39202802 engishiki_en.xml#item39202802"
+                            xml:id="item39202802"/>
+                        <p ana="項"
+                            corresp="engishiki.xml#item39202803 engishiki_en.xml#item39202803"
+                            xml:id="item39202803"/>
+                    </div>
+                    <div ana="内膳"
+                        corresp="engishiki.xml#article392029 engishiki_en.xml#article392029"
+                        n="39.29" subtype="項" type="条" xml:id="article392029">
+                        <head ana="年中七節料"/>
+                        <p ana="項"
+                            corresp="engishiki.xml#item39202901 engishiki_en.xml#item39202901"
+                            xml:id="item39202901">本文</p>
+                    </div>
+                    <div ana="内膳"
+                        corresp="engishiki.xml#article392030 engishiki_en.xml#article392030"
+                        n="39.30" subtype="項" type="条" xml:id="article392030">
                         <head ana="山科園早瓜"/>
                         <p ana="項"
-                            corresp="engishiki_ja.xml#item39203001 engishiki_en.xml#item39203001"
-                            xml:id="item39203001">五月五日、山科園進早瓜一捧、〈若不実者、献花根、〉</p>
+                            corresp="engishiki.xml#item39203001 engishiki_en.xml#item39203001"
+                            xml:id="item39203001">本文</p>
                     </div>
-                    <div ana="内膳" n="39.31" subtype="項" type="条">
+                    <div ana="内膳"
+                        corresp="engishiki.xml#article392031 engishiki_en.xml#article392031"
+                        n="39.31" subtype="項" type="条" xml:id="article392031">
                         <head ana="年料雑菜"/>
                         <p ana="項"
-                            corresp="engishiki_ja.xml#item39203101 engishiki_en.xml#item39203101"
-                            xml:id="item39203101">年料<anchor/>雑<anchor/>菜八十四石四斗、</p>
+                            corresp="engishiki.xml#item39203101 engishiki_en.xml#item39203101"
+                            xml:id="item39203101">本文</p>
                     </div>
-                    <div ana="内膳" n="39.32" subtype="項" type="条">
+                    <div ana="内膳"
+                        corresp="engishiki.xml#article392032 engishiki_en.xml#article392032"
+                        n="39.32" subtype="項" type="条" xml:id="article392032">
                         <head ana="量雑菜"/>
                         <p ana="項"
-                            corresp="engishiki_ja.xml#item39203201 engishiki_en.xml#item39203201"
-                            xml:id="item39203201"
-                            >凡量年中所供雑菜、停斗用称、其斗・<anchor/>斛<anchor/>所准、本司与受物所司相共量定、</p>
+                            corresp="engishiki.xml#item39203201 engishiki_en.xml#item39203201"
+                            xml:id="item39203201">本文</p>
                     </div>
-                    <div ana="内膳" n="39.33" subtype="項" type="条">
+                    <div ana="内膳"
+                        corresp="engishiki.xml#article392033 engishiki_en.xml#article392033"
+                        n="39.33" subtype="項" type="条" xml:id="article392033">
                         <head ana="行幸雑菜"/>
                         <p ana="項"
-                            corresp="engishiki_ja.xml#item39203301 engishiki_en.xml#item39203301"
-                            xml:id="item39203301">凡行幸料雑菜、預備供之、</p>
+                            corresp="engishiki.xml#item39203301 engishiki_en.xml#item39203301"
+                            xml:id="item39203301">本文</p>
                     </div>
-                    <div ana="内膳" n="39.34" subtype="項" type="条">
+                    <div ana="内膳"
+                        corresp="engishiki.xml#article392034 engishiki_en.xml#article392034"
+                        n="39.34" subtype="項" type="条" xml:id="article392034">
                         <head ana="漬年料雑菜"/>
                         <p ana="項"
-                            corresp="engishiki_ja.xml#item39203401 engishiki_en.xml#item39203401"
-                            xml:id="item39203401">漬年料雑菜
-                            <lb/>蕨二石、〈料塩一斗、〉薺蒿一石五斗、〈料塩六升、〉【草冠＋角（最終画は突き出す）＋力】二石四斗、〈料塩七升二合、〉芹十石、〈料塩八斗、〉蕗二石五斗、〈料塩一斗・米六升、〉蘇羅自六斗、〈料塩二升四合、〉虎<anchor/>杖<anchor/>三斗、〈料塩一升二合、〉多多良比売花搗三斗、〈料塩三升、〉竜葵味葅六斗、〈料塩四斗八合・楡三升、〉瓜味漬一石、〈料塩<anchor/>三斗<anchor/>、〉<anchor/>蒜房六斗、〈料塩五升、〉<anchor/>蒜英五斗、〈料塩四升四合、〉韮搗四斗、〈料塩四升、〉蔓菁黄菜五斗、〈料塩三升・粟三升、〉
-                            <lb/>　右、漬春菜料、 </p>
+                            corresp="engishiki.xml#item39203401 engishiki_en.xml#item39203401"
+                            xml:id="item39203401">本文</p>
                         <p ana="項"
-                            corresp="engishiki_ja.xml#item39203402 engishiki_en.xml#item39203402"
-                            xml:id="item39203402"
-                            >瓜八石、〈料塩四斗八升、〉<anchor/>糟<anchor/>漬瓜九斗、〈料塩一斗九升八合・汁糟一斗九升八合・滓醤二斗七升・醤二斗七升、〉醤漬瓜九斗、〈料塩・醤・滓醤各一斗九升八合、〉糟漬冬瓜一石、〈料塩二斗二升・汁糟四斗六升、〉醤漬冬瓜四斗、〈料塩八升八合、醤・滓醤・<anchor/>未<anchor/>醤各一斗六升八合、〉菘葅三石、〈料塩二斗四升・<anchor/>楡<anchor/>一斗五升、〉蔓<anchor/>菁<anchor/>須須保利六石、〈料塩六升・大豆一斗五升、〉蔓菁葅十石、〈料塩八升・<anchor/>楡<anchor/>五升、〉菁根搗五斗、〈料塩三升、〉菁根須須保利一石、〈料塩六升・米五升、〉醤菁根三斗、〈料塩五升四合・滓醤<anchor/>一<anchor/>斗五升、〉糟菁根五斗、〈料塩九升・汁糟一斗五升、〉蔓菁切葅一石四斗、〈料塩二升四合・<anchor/>楡<anchor/>二升、〉</p>
+                            corresp="engishiki.xml#item39203402 engishiki_en.xml#item39203402"
+                            xml:id="item39203402"/>
                         <p ana="項"
-                            corresp="engishiki_ja.xml#item39203403 engishiki_en.xml#item39203403"
-                            xml:id="item39203403"
-                            >茄子五石、〈料塩三斗、〉醤茄子六斗、〈料塩一斗二升、汁糟・<anchor/>未<anchor/>醤・滓醤各一斗八升、〉糟茄子六斗、〈料塩一斗二升・汁糟一斗八升、〉竜葵葅六斗、〈料塩六升・<anchor/>楡<anchor/>二升四合、〉竜葵子漬三斗、〈料塩九升、〉水【草冠＋忩】十石、〈料塩七升、〉糟漬小水【草冠＋忩】一石、〈料塩一斗二升・汁糟五斗、〉蘭葅三斗、〈料塩二升四合・<anchor/>楡<anchor/>一升二合、〉大豆六斗、〈料塩六升・汁糟一斗八升、〉山蘭二斗、〈料塩四升、〉蓼葅四斗、〈料塩四升・<anchor/>楡<anchor/><anchor/>一<anchor/>升六合、〉芡一石五斗、〈料塩一斗五升・米七升五合、〉蘘荷六斗、〈料塩六升・汁糟二斗四升、〉<anchor/>稚<anchor/>薑三斗、〈料塩六升・汁糟一斗五升、〉鬱萌草搗三斗、〈料塩四升五合、〉和太太備二斗、〈料塩二升、〉舌附一斗、〈料塩二升二合、〉桃子二石、〈料塩一斗二升、〉柿子五升、〈料塩二升、〉梨子六升、〈料塩三升六合、〉蜀椒子一石、〈料塩二斗四升、〉荏<anchor/>裹<anchor/>六斗、〈料瓜九斗、冬瓜七斗、茄子六斗、菁根四斗、塩一斗二升、醤・未醤・滓醤各一石、〉
-                            　<lb/>右、漬秋菜料、 </p>
+                            corresp="engishiki.xml#item39203403 engishiki_en.xml#item39203403"
+                            xml:id="item39203403"/>
                         <p ana="項"
-                            corresp="engishiki_ja.xml#item39203404 engishiki_en.xml#item39203404"
-                            xml:id="item39203404"
-                            >生薑四石五斗、〈料塩一石四斗二升・汁糟四石二斗、〉柏卅五把、〈<anchor/>【巾＋巴】<anchor/>瓼口料、〉匏二柄、〈汲汁料、〉択薑女孺単五十人、女丁十二人半給間食、〈人別日八合、〉
-                            <lb/>右、年料請内侍司漬造、至于明年<anchor/>三<anchor/>月更易塩糟、<anchor/>其<anchor/>数随残多少、〈仮如残薑一石、料塩一斗、<anchor/>糟<anchor/>五斗之類、〉始当年九月迄明年七月供之、
-                        </p>
+                            corresp="engishiki.xml#item39203404 engishiki_en.xml#item39203404"
+                            xml:id="item39203404"/>
                     </div>
-                    <div ana="内膳" n="39.35" subtype="項" type="条">
+                    <div ana="内膳"
+                        corresp="engishiki.xml#article392035 engishiki_en.xml#article392035"
+                        n="39.35" subtype="項" type="条" xml:id="article392035">
                         <head ana="楡皮"/>
                         <p ana="項"
-                            corresp="engishiki_ja.xml#item39203501 engishiki_en.xml#item39203501"
-                            xml:id="item39203501">楡皮一千枚、〈別長一尺五寸、広四寸、〉搗得粉二石、〈枚別二合、〉
-                            <lb/>　右、楡皮年中雑御菜并羹等料、 </p>
+                            corresp="engishiki.xml#item39203501 engishiki_en.xml#item39203501"
+                            xml:id="item39203501">本文</p>
                     </div>
-                    <div ana="内膳" n="39.36" subtype="項" type="条">
+                    <div ana="内膳"
+                        corresp="engishiki.xml#article392036 engishiki_en.xml#article392036"
+                        n="39.36" subtype="項" type="条" xml:id="article392036">
                         <head ana="山城大和"/>
                         <p ana="項"
-                            corresp="engishiki_ja.xml#item39203601 engishiki_en.xml#item39203601"
-                            xml:id="item39203601"
-                            >山城国〈山蘭二斗、〉大和国〈<anchor/>乾<anchor/><anchor/>鱉<anchor/>四担、已上年料所進、〉</p>
+                            corresp="engishiki.xml#item39203601 engishiki_en.xml#item39203601"
+                            xml:id="item39203601">本文</p>
                     </div>
-                    <div ana="内膳" n="39.37" subtype="項" type="条">
+                    <div ana="内膳"
+                        corresp="engishiki.xml#article392037 engishiki_en.xml#article392037"
+                        n="39.37" subtype="項" type="条" xml:id="article392037">
                         <head ana="造雑味塩魚"/>
                         <p ana="項"
-                            corresp="engishiki_ja.xml#item39203701 engishiki_en.xml#item39203701"
-                            xml:id="item39203701"
-                            >造雑味塩魚廿石六斗〈和泉国<anchor/>網<anchor/>曳厨所造、〉料、商布十六段、信濃麻百斤、塩二石、</p>
+                            corresp="engishiki.xml#item39203701 engishiki_en.xml#item39203701"
+                            xml:id="item39203701">本文</p>
                     </div>
-                    <div ana="内膳" n="39.38" subtype="項" type="条">
+                    <div ana="内膳"
+                        corresp="engishiki.xml#article392038 engishiki_en.xml#article392038"
+                        n="39.38" subtype="項" type="条" xml:id="article392038">
                         <head ana="造雑魚鮨"/>
                         <p ana="項"
-                            corresp="engishiki_ja.xml#item39203801 engishiki_en.xml#item39203801"
-                            xml:id="item39203801"
-                            >造雑魚鮨十石・味塩魚六斗〈河内国江厨所進、〉料、<anchor/>商<anchor/>布十六段、信濃麻百斤、白米一石、塩一石三斗、</p>
+                            corresp="engishiki.xml#item39203801 engishiki_en.xml#item39203801"
+                            xml:id="item39203801">本文</p>
                     </div>
-                    <div ana="内膳" n="39.39" subtype="項" type="条">
+                    <div ana="内膳"
+                        corresp="engishiki.xml#article392039 engishiki_en.xml#article392039"
+                        n="39.39" subtype="項" type="条" xml:id="article392039">
                         <head ana="造醤鮒"/>
                         <p ana="項"
-                            corresp="engishiki_ja.xml#item39203901 engishiki_en.xml#item39203901"
-                            xml:id="item39203901"
-                            >造醤鮒・鮨鮒各十石、味塩鮒三石四斗〈近江国筑<anchor/>麻<anchor/>厨所進、〉<anchor/>料<anchor/>、<anchor/>缶<anchor/>卅口、商布十八段、信濃麻一百斤、酒五斗、米一石、塩八石、醤大豆二石五斗、</p>
+                            corresp="engishiki.xml#item39203901 engishiki_en.xml#item39203901"
+                            xml:id="item39203901">本文</p>
                     </div>
-                    <div ana="内膳" n="39.40" subtype="項" type="条">
+                    <div ana="内膳"
+                        corresp="engishiki.xml#article392040 engishiki_en.xml#article392040"
+                        n="39.40" subtype="項" type="条" xml:id="article392040">
                         <head ana="諸国貢進御贄"/>
                         <p ana="項"
-                            corresp="engishiki_ja.xml#item39204001 engishiki_en.xml#item39204001"
-                            xml:id="item39204001">諸国貢進御贄<anchor/>〈中宮准此、〉<anchor/>
-                            <lb/>旬料
-                            <lb/>大和国吉野御厨所進鳩、従九月至明年四月、年魚鮨・火干、従四月至八月、月別上下旬各三担、但蜷并<anchor/>伊<anchor/>具比魚煮凝等随得加進、志摩国御厨鮮鰒・螺、起九月尽明年三月、月別上下旬各二担、味漬・<anchor/>腹<anchor/>漬・蒸鰒・<anchor/>玉貫<anchor/>・御取・夏鰒等月別惣五担、雑魚十三担、〈並以徭丁運進、〉若狭国雑魚上下旬各七担、〈司受取課丁百十六人、以其調物交易鮮物、徭丁運進、〉紀伊国雑魚上中下旬各三担半、〈司受取課丁七十四人、以其調物交易鮮物、徭丁運進、〉淡路国雑魚二担半、〈一旬料、〉 </p>
+                            corresp="engishiki.xml#item39204001 engishiki_en.xml#item39204001"
+                            xml:id="item39204001">本文</p>
                         <p ana="項"
-                            corresp="engishiki_ja.xml#item39204002 engishiki_en.xml#item39204002"
-                            xml:id="item39204002">節料
-                            <lb/>山城・大和・河内・和泉・摂津・近江、〈正月元日・七日・十六日・五月五日・七月七日・九月九日・十一月新嘗会節、別各七荷、並以正税交易、令徭丁運進、〉志摩国、〈正月元日・<anchor/>新<anchor/>嘗会二節各八担、正月七日・十六日・五月五日・七月七日・九月九日五節各三担、〉参河国、〈正月三節各三担、〉若狭国、〈三節各十担、〉紀伊・淡路両国、〈三節各五担、〉
-                            <lb/>　右、参河国進雉、余国雑鮮味物、但近江国元日副進猪・鹿、其旬料已下並<anchor/>収<anchor/>司家、随事供之、 </p>
+                            corresp="engishiki.xml#item39204002 engishiki_en.xml#item39204002"
+                            xml:id="item39204002"/>
                     </div>
-                    <div ana="内膳" n="39.41" subtype="項" type="条">
+                    <div ana="内膳"
+                        corresp="engishiki.xml#article392041 engishiki_en.xml#article392041"
+                        n="39.41" subtype="項" type="条" xml:id="article392041">
                         <head ana="淡路国御贄"/>
                         <p ana="項"
-                            corresp="engishiki_ja.xml#item39204101 engishiki_en.xml#item39204101"
-                            xml:id="item39204101">凡淡路国進中宮御贄者、貢正月三節料、</p>
+                            corresp="engishiki.xml#item39204101 engishiki_en.xml#item39204101"
+                            xml:id="item39204101">本文</p>
                     </div>
-                    <div ana="内膳" n="39.42" subtype="項" type="条">
+                    <div ana="内膳"
+                        corresp="engishiki.xml#article392042 engishiki_en.xml#article392042"
+                        n="39.42" subtype="項" type="条" xml:id="article392042">
                         <head ana="年料御贄"/>
                         <p ana="項"
-                            corresp="engishiki_ja.xml#item39204201 engishiki_en.xml#item39204201"
-                            xml:id="item39204201">年料
-                            <lb/>山城国、〈<anchor/>氷<anchor/>魚、鱸魚、〉摂津国、〈<anchor/>擁<anchor/>釼、皮<anchor/>菌<anchor/>、〉和泉国、〈鯛、鰺、〉 </p>
+                            corresp="engishiki.xml#item39204201 engishiki_en.xml#item39204201"
+                            xml:id="item39204201">本文</p>
                         <p ana="項"
-                            corresp="engishiki_ja.xml#item39204202 engishiki_en.xml#item39204202"
-                            xml:id="item39204202"
-                            >伊賀国、〈鮨年魚二担四壺、塩塗年魚二担、<anchor/>入<anchor/>折櫃、〉伊勢国、〈鯛舂酢二担廿籠二度、鮨年魚二担四壺二度、蠣、礒蠣、〉志摩国、〈深海松、〉尾張国、〈為伊二担廿壺、白<anchor/>貝<anchor/>二担四壺、蠏蜷二担四壺、雉腊納十八籠、籠別六翼、〉参河国、〈穉海藻一担四籠、籠様長一尺二寸、広八寸、深四寸、<anchor/>他<anchor/>皆同此、〉遠江国、〈稚海藻、〉下総国、〈稚海藻六籠、〉常陸国、〈<anchor/>稚海藻二担<anchor/>廿籠、〉</p>
+                            corresp="engishiki.xml#item39204202 engishiki_en.xml#item39204202"
+                            xml:id="item39204202"/>
                         <p ana="項"
-                            corresp="engishiki_ja.xml#item39204203 engishiki_en.xml#item39204203"
-                            xml:id="item39204203"
-                            >近江国、〈煮塩年魚二石、鮒、鱒、阿米魚、<anchor/>氷<anchor/>魚、〉美濃国、〈鮨鮒隔月三缶、<anchor/>火<anchor/>干年魚一担八籠、鮨年魚四担八壺、〉信濃国、〈梨子、干<anchor/>棗<anchor/>、姫胡桃子、楚割鮭、其荷数者、梨子一荷、納八籠、籠別七十<anchor/>果<anchor/>、大<anchor/>棗<anchor/>一荷、納八籠、籠別一斗、胡桃子一荷、納八籠、籠別一斗、楚割鮭一荷、納九籠、籠別六隻、例貢十月進之、梨子三荷、納八籠、籠別七十<anchor/>果<anchor/>、大<anchor/>棗<anchor/>一荷、納八籠、籠別一斗、別貢十一月進之、〉陸奥国、〈<anchor/>索<anchor/>昆布卌二斤、<anchor/>細<anchor/>昆布<anchor/>一<anchor/>百廿斤、広昆布<anchor/>卅<anchor/>斤、〉</p>
+                            corresp="engishiki.xml#item39204203 engishiki_en.xml#item39204203"
+                            xml:id="item39204203"/>
                         <p ana="項"
-                            corresp="engishiki_ja.xml#item39204204 engishiki_en.xml#item39204204"
-                            xml:id="item39204204"
-                            >若狭国、〈生鮭三担十<anchor/>二<anchor/>隻三度、山薑一斗五升三度、穉海藻二籠十二斤、毛都久、於己、〉越前国、〈穉海藻二担十籠、<anchor/>別<anchor/>一斗、又二捧、<anchor/>別<anchor/>一斗、生鮭三担十二隻三度、山薑一斗五升三度、鮭児、氷頭、背腸、〉能登国、〈穉海藻一輿六籠、〉越中国、〈穉海藻一輿五籠、雉腊一輿五籠、〉越後国、〈楚割鮭八籠八十隻、鮭児・氷頭・<anchor/>脊<anchor/><anchor/>腹<anchor/>各四麻笥、別一斗、〉佐渡国、〈穉海藻一担十二籠、〉</p>
+                            corresp="engishiki.xml#item39204204 engishiki_en.xml#item39204204"
+                            xml:id="item39204204"/>
                         <p ana="項"
-                            corresp="engishiki_ja.xml#item39204205 engishiki_en.xml#item39204205"
-                            xml:id="item39204205"
-                            >丹波国、〈生鮭三<anchor/>捧<anchor/>六隻三度、鮨年魚二担<anchor/>四壺<anchor/>、塩塗年魚二担、<anchor/>入<anchor/>折櫃、〉丹後国、〈生鮭三<anchor/>捧<anchor/>十二隻三度、氷頭一壺、背<anchor/>腹<anchor/>一壺、山薑一斗五升三度、小鯛腊一石一斗、〉但馬国、〈穉海藻四担十六籠、生鮭三担十二隻三度、鮨年魚二缶、山薑一斗五升三度、〉因幡国、〈穉海藻十二籠、生鮭三<anchor/>捧<anchor/>十二隻三度、山薑一斗五升三度、〉伯耆国、〈穉海藻一担十籠、海藻根一担十籠、〉</p>
+                            corresp="engishiki.xml#item39204205 engishiki_en.xml#item39204205"
+                            xml:id="item39204205"/>
                         <p ana="項"
-                            corresp="engishiki_ja.xml#item39204206 engishiki_en.xml#item39204206"
-                            xml:id="item39204206"
-                            >播磨国、〈鮨年魚二担四壺、〉美作国、〈鮨鮎、〉備前国、〈水<anchor/>母<anchor/>十缶二度、〉備中国、〈煮塩年魚八缶、〉長門国、〈穉海藻一百四籠、〉</p>
+                            corresp="engishiki.xml#item39204206 engishiki_en.xml#item39204206"
+                            xml:id="item39204206"/>
                         <p ana="項"
-                            corresp="engishiki_ja.xml#item39204207 engishiki_en.xml#item39204207"
-                            xml:id="item39204207"
-                            >紀伊国、〈鮨年魚二担四壺、〉讃岐国、〈鯛塩作廿隻、<anchor/>白<anchor/>干十二籠、〉土左国、〈押年魚一千隻、煮塩年魚五缶、〉</p>
+                            corresp="engishiki.xml#item39204207 engishiki_en.xml#item39204207"
+                            xml:id="item39204207"/>
                         <p ana="項"
-                            corresp="engishiki_ja.xml#item39204208 engishiki_en.xml#item39204208"
-                            xml:id="item39204208"
-                            >大宰府、〈御取鰒四百五十九斤五裹、短鰒五百十八斤十二裹、薄鰒八百五十五斤十五裹、陰鰒八十六斤三裹、羽割鰒卅九斤一裹、火焼鰒三百卅五斤四裹、已上調物、鮒鮨一百七十八斤五缶、<anchor/>鮨<anchor/>鰒一百八斤三缶、<anchor/>腹<anchor/>漬鰒二百九十六斤九缶、<anchor/>耳<anchor/>腐鰒九十八斤二缶、已上中男作物、鮨年魚二百廿三斤六缶、煮塩年魚八百卅九斤廿缶、内子鮨年魚卅六斤一缶、已上梁作、鯛醤四斗八升二缶、宍醢二斗三升一缶、蒜房漬一石五斗七升六缶、以上厨作、雉<anchor/>腊<anchor/>二輿六十籠、別三翼、腹赤魚筑後・肥後両国所進出、其数随得、已上別貢、〉</p>
+                            corresp="engishiki.xml#item39204208 engishiki_en.xml#item39204208"
+                            xml:id="item39204208"/>
                         <p ana="項"
-                            corresp="engishiki_ja.xml#item39204209 engishiki_en.xml#item39204209"
-                            xml:id="item39204209"
-                            >右、諸国所貢、並依前件、仍収贄殿、<anchor/>以<anchor/>擬供御、〈但腹赤魚収司家、〉</p>
+                            corresp="engishiki.xml#item39204209 engishiki_en.xml#item39204209"
+                            xml:id="item39204209"/>
                     </div>
-                    <div ana="内膳" n="39.43" subtype="項" type="条">
+                    <div ana="内膳"
+                        corresp="engishiki.xml#article392043 engishiki_en.xml#article392043"
+                        n="39.43" subtype="項" type="条" xml:id="article392043">
                         <head ana="山城国江御贄"/>
                         <p ana="項"
-                            corresp="engishiki_ja.xml#item39204301 engishiki_en.xml#item39204301"
-                            xml:id="item39204301">山城国江御贄者、国司率預人漁捕進之、</p>
+                            corresp="engishiki.xml#item39204301 engishiki_en.xml#item39204301"
+                            xml:id="item39204301">本文</p>
                     </div>
-                    <div ana="内膳" n="39.44" subtype="項" type="条">
+                    <div ana="内膳"
+                        corresp="engishiki.xml#article392044 engishiki_en.xml#article392044"
+                        n="39.44" subtype="項" type="条" xml:id="article392044">
                         <head ana="氷魚網代"/>
                         <p ana="項"
-                            corresp="engishiki_ja.xml#item39204401 engishiki_en.xml#item39204401"
-                            xml:id="item39204401"
-                            >山城国・近江国氷魚網代各一<anchor/>処<anchor/>、其氷魚始九月迄十二月卅日貢之、</p>
+                            corresp="engishiki.xml#item39204401 engishiki_en.xml#item39204401"
+                            xml:id="item39204401">本文</p>
                     </div>
-                    <div ana="内膳" n="39.45" subtype="項" type="条">
+                    <div ana="内膳"
+                        corresp="engishiki.xml#article392045 engishiki_en.xml#article392045"
+                        n="39.45" subtype="項" type="条" xml:id="article392045">
                         <head ana="参河国保夜"/>
                         <p ana="項"
-                            corresp="engishiki_ja.xml#item39204501 engishiki_en.xml#item39204501"
-                            xml:id="item39204501"
-                            >参河国保夜一斛、土左国<anchor/>腹<anchor/>漬小鰒四缶、〈缶別納三斗、〉毎年交易進上、</p>
+                            corresp="engishiki.xml#item39204501 engishiki_en.xml#item39204501"
+                            xml:id="item39204501">本文</p>
                     </div>
-                    <div ana="内膳" n="39.46" subtype="項" type="条">
+                    <div ana="内膳"
+                        corresp="engishiki.xml#article392046 engishiki_en.xml#article392046"
+                        n="39.46" subtype="項" type="条" xml:id="article392046">
                         <head ana="伊豆国貢進"/>
                         <p ana="項"
-                            corresp="engishiki_ja.xml#item39204601 engishiki_en.xml#item39204601"
-                            xml:id="item39204601">凡伊豆国貢進堅魚<anchor/>煎<anchor/>一斛四斗六升、以中男作物内進之、</p>
+                            corresp="engishiki.xml#item39204601 engishiki_en.xml#item39204601"
+                            xml:id="item39204601">本文</p>
                     </div>
-                    <div ana="内膳" n="39.47" subtype="項" type="条">
+                    <div ana="内膳"
+                        corresp="engishiki.xml#article392047 engishiki_en.xml#article392047"
+                        n="39.47" subtype="項" type="条" xml:id="article392047">
                         <head ana="御厨御贄"/>
                         <p ana="項"
-                            corresp="engishiki_ja.xml#item39204701 engishiki_en.xml#item39204701"
-                            xml:id="item39204701"
-                            >凡諸国貢進御厨御贄結番者、和泉国、〈子、巳、〉紀伊国、〈丑、午、酉、〉淡路<anchor/>国<anchor/>、〈寅、未、戌、〉近江国、〈卯、〉若狭国、〈辰、申、亥、〉毎<anchor/>当<anchor/>件日、依次貢進、預計行程莫致闕怠、</p>
+                            corresp="engishiki.xml#item39204701 engishiki_en.xml#item39204701"
+                            xml:id="item39204701">本文</p>
                     </div>
-                    <div ana="内膳" n="39.48" subtype="項" type="条">
+                    <div ana="内膳"
+                        corresp="engishiki.xml#article392048 engishiki_en.xml#article392048"
+                        n="39.48" subtype="項" type="条" xml:id="article392048">
                         <head ana="青槲干槲"/>
                         <p ana="項"
-                            corresp="engishiki_ja.xml#item39204801 engishiki_en.xml#item39204801"
-                            xml:id="item39204801"
-                            >山城国所進供御料青槲、毎日一荷、〈五十把、〉始五月五日終十一月四日、丹波国干槲毎日一荷、始十一月五日終五月四日、中宮准此、</p>
+                            corresp="engishiki.xml#item39204801 engishiki_en.xml#item39204801"
+                            xml:id="item39204801">本文</p>
                     </div>
-                    <div ana="内膳" n="39.49" subtype="項" type="条">
+                    <div ana="内膳"
+                        corresp="engishiki.xml#article392049 engishiki_en.xml#article392049"
+                        n="39.49" subtype="項" type="条" xml:id="article392049">
                         <head ana="木盤"/>
                         <p ana="項"
-                            corresp="engishiki_ja.xml#item39204901 engishiki_en.xml#item39204901"
-                            xml:id="item39204901">木盤一百廿口、〈料理所雑用料、木工寮毎年所進、〉</p>
+                            corresp="engishiki.xml#item39204901 engishiki_en.xml#item39204901"
+                            xml:id="item39204901">本文</p>
                     </div>
-                    <div ana="内膳" n="39.50" subtype="項" type="条">
+                    <div ana="内膳"
+                        corresp="engishiki.xml#article392050 engishiki_en.xml#article392050"
+                        n="39.50" subtype="項" type="条" xml:id="article392050">
                         <head ana="木器土器"/>
                         <p ana="項"
-                            corresp="engishiki_ja.xml#item39205001 engishiki_en.xml#item39205001"
-                            xml:id="item39205001"
-                            >作木器二人、〈一人贄殿、一人司家、〉作土器九人、月別一人所造、折櫃卅合、土器七百八十口、〈大坏・中坏・窪坏・平坏・埦形・片盤・瓫・堝等類、〉作土器人充商布九段〈埴器料、〉・鍬九口、〈納旧請新、〉粮人別日黒米二升・塩二夕、時服夏各絁四丈五尺、冬絁一疋三丈・綿四屯、</p>
+                            corresp="engishiki.xml#item39205001 engishiki_en.xml#item39205001"
+                            xml:id="item39205001">本文</p>
                     </div>
-                    <div ana="内膳" n="39.51" subtype="項" type="条">
+                    <div ana="内膳"
+                        corresp="engishiki.xml#article392051 engishiki_en.xml#article392051"
+                        n="39.51" subtype="項" type="条" xml:id="article392051">
                         <head ana="膳部"/>
                         <p ana="項"
-                            corresp="engishiki_ja.xml#item39205101 engishiki_en.xml#item39205101"
-                            xml:id="item39205101"
-                            >膳部<anchor/>卅<anchor/>人粮、白米人別日一升、塩一夕、仕丁十七人粮、黒米人別日二升、塩二夕、膳部卌人給衣服、</p>
+                            corresp="engishiki.xml#item39205101 engishiki_en.xml#item39205101"
+                            xml:id="item39205101">本文</p>
                     </div>
-                    <div ana="内膳" n="39.52" subtype="項" type="条">
+                    <div ana="内膳"
+                        corresp="engishiki.xml#article392052 engishiki_en.xml#article392052"
+                        n="39.52" subtype="項" type="条" xml:id="article392052">
                         <head ana="仕丁"/>
                         <p ana="項"
-                            corresp="engishiki_ja.xml#item39205201 engishiki_en.xml#item39205201"
-                            xml:id="item39205201"
-                            >仕丁十七人、紺布衫一領、〈別二丈、〉調布袴一腰、〈別七尺、〉調布帯一条、〈別長八尺四寸、中割、〉三年一請、</p>
+                            corresp="engishiki.xml#item39205201 engishiki_en.xml#item39205201"
+                            xml:id="item39205201">本文</p>
                     </div>
-                    <div ana="内膳" n="39.53" subtype="項" type="条">
+                    <div ana="内膳"
+                        corresp="engishiki.xml#article392053 engishiki_en.xml#article392053"
+                        n="39.53" subtype="項" type="条" xml:id="article392053">
                         <head ana="江網曳御厨"/>
                         <p ana="項"
-                            corresp="engishiki_ja.xml#item39205301 engishiki_en.xml#item39205301"
-                            xml:id="item39205301"
-                            >凡山城・河内・摂津・和泉等国、江・網曳御厨所請徭丁、江<anchor/>卌<anchor/>人、網曳五十人、</p>
+                            corresp="engishiki.xml#item39205301 engishiki_en.xml#item39205301"
+                            xml:id="item39205301">本文</p>
                     </div>
-                    <div ana="内膳" n="39.54" subtype="項" type="条">
+                    <div ana="内膳"
+                        corresp="engishiki.xml#article392054 engishiki_en.xml#article392054"
+                        n="39.54" subtype="項" type="条" xml:id="article392054">
                         <head ana="筑摩長"/>
                         <p ana="項"
-                            corresp="engishiki_ja.xml#item39205401 engishiki_en.xml#item39205401"
-                            xml:id="item39205401">凡筑摩長、択膳部中補之、</p>
+                            corresp="engishiki.xml#item39205401 engishiki_en.xml#item39205401"
+                            xml:id="item39205401">本文</p>
                     </div>
-                    <div ana="内膳" n="39.55" subtype="項" type="条">
+                    <div ana="内膳"
+                        corresp="engishiki.xml#article392055 engishiki_en.xml#article392055"
+                        n="39.55" subtype="項" type="条" xml:id="article392055">
                         <head ana="膳部労"/>
                         <p ana="項"
-                            corresp="engishiki_ja.xml#item39205501 engishiki_en.xml#item39205501"
-                            xml:id="item39205501">凡膳部労十年已上者、隔三年一人預勘籍例、</p>
+                            corresp="engishiki.xml#item39205501 engishiki_en.xml#item39205501"
+                            xml:id="item39205501">本文</p>
                     </div>
-                    <div ana="内膳" n="39.56" subtype="項" type="条">
+                    <div ana="内膳"
+                        corresp="engishiki.xml#article392056 engishiki_en.xml#article392056"
+                        n="39.56" subtype="項" type="条" xml:id="article392056">
                         <head ana="膳部不仕"/>
                         <p ana="項"
-                            corresp="engishiki_ja.xml#item39205601 engishiki_en.xml#item39205601"
-                            xml:id="item39205601">凡膳部・仕丁・仕女等不仕之物者、充司中雑用、</p>
+                            corresp="engishiki.xml#item39205601 engishiki_en.xml#item39205601"
+                            xml:id="item39205601">本文</p>
                     </div>
-                    <div ana="内膳" n="39.57" subtype="項" type="条">
+                    <div ana="内膳"
+                        corresp="engishiki.xml#article392057 engishiki_en.xml#article392057"
+                        n="39.57" subtype="項" type="条" xml:id="article392057">
                         <head ana="作園牛"/>
                         <p ana="項"
-                            corresp="engishiki_ja.xml#item39205701 engishiki_en.xml#item39205701"
-                            xml:id="item39205701"
-                            >凡作園所須牛十一頭、以左右馬寮牛充之、其死老者、申省請替、官験其実、然後充之、其鍬七十四口・鍬柄卌枝・鋤柄卅四枝、並二年一請、〈旧鍬返上、〉馬鍬二具、〈旧返上、〉辛鉏閉良二枚、鋒四枚、〈已上随損請、〉車二両、〈年別請、〉</p>
+                            corresp="engishiki.xml#item39205701 engishiki_en.xml#item39205701"
+                            xml:id="item39205701">本文</p>
                     </div>
-                    <div ana="内膳" n="39.58" subtype="項" type="条">
+                    <div ana="内膳"
+                        corresp="engishiki.xml#article392058 engishiki_en.xml#article392058"
+                        n="39.58" subtype="項" type="条" xml:id="article392058">
                         <head ana="営園仕丁"/>
                         <p ana="項"
-                            corresp="engishiki_ja.xml#item39205801 engishiki_en.xml#item39205801"
-                            xml:id="item39205801">営園仕丁十四人〈一人直丁、十三人駆<anchor/>使<anchor/>丁、〉</p>
+                            corresp="engishiki.xml#item39205801 engishiki_en.xml#item39205801"
+                            xml:id="item39205801">本文</p>
                     </div>
-                    <div ana="内膳" n="39.59" subtype="項" type="条">
+                    <div ana="内膳"
+                        corresp="engishiki.xml#article392059 engishiki_en.xml#article392059"
+                        n="39.59" subtype="項" type="条" xml:id="article392059">
                         <head ana="川船"/>
                         <p ana="項"
-                            corresp="engishiki_ja.xml#item39205901 engishiki_en.xml#item39205901"
-                            xml:id="item39205901">川船一艘、〈長三丈、〉在与等津、 　<lb/>右、漕奈良・奈癸等園供御雑菜、 </p>
+                            corresp="engishiki.xml#item39205901 engishiki_en.xml#item39205901"
+                            xml:id="item39205901">本文</p>
                     </div>
-                    <div ana="内膳" n="39.60" subtype="項" type="条">
+                    <div ana="内膳"
+                        corresp="engishiki.xml#article392060 engishiki_en.xml#article392060"
+                        n="39.60" subtype="項" type="条" xml:id="article392060">
                         <head ana="園地"/>
                         <p ana="項"
-                            corresp="engishiki_ja.xml#item39206001 engishiki_en.xml#item39206001"
-                            xml:id="item39206001"
-                            >園地卅九町五段二百歩〈京北園十八町三段、奈良園六町八段三百廿歩、山科園九段、奈癸園五町五段二百卌歩、羽束志園四町九段、泉園一町、平城園二町、〉</p>
+                            corresp="engishiki.xml#item39206001 engishiki_en.xml#item39206001"
+                            xml:id="item39206001">本文</p>
                     </div>
-                    <div ana="内膳" n="39.61" subtype="項" type="条">
+                    <div ana="内膳"
+                        corresp="engishiki.xml#article392061 engishiki_en.xml#article392061"
+                        n="39.61" subtype="項" type="条" xml:id="article392061">
                         <head ana="雑果樹"/>
                         <p ana="項"
-                            corresp="engishiki_ja.xml#item39206101 engishiki_en.xml#item39206101"
-                            xml:id="item39206101"
-                            >雑果樹四百六十株、〈続梨百株、桃百株、柑卌株、小柑卌株、柿百株、橘廿株、大棗卅株、郁卅株、〉覆<anchor/>瓫<anchor/>園二段、</p>
+                            corresp="engishiki.xml#item39206101 engishiki_en.xml#item39206101"
+                            xml:id="item39206101">本文</p>
                     </div>
-                    <div ana="内膳" n="39.62" subtype="項" type="条">
+                    <div ana="内膳"
+                        corresp="engishiki.xml#article392062 engishiki_en.xml#article392062"
+                        n="39.62" subtype="項" type="条" xml:id="article392062">
                         <head ana="芹水䓗田"/>
                         <p ana="項"
-                            corresp="engishiki_ja.xml#item39206201 engishiki_en.xml#item39206201"
-                            xml:id="item39206201">田六段二百<anchor/>卅<anchor/>四歩、〈種芹水䓗料、在乙訓郡、〉</p>
+                            corresp="engishiki.xml#item39206201 engishiki_en.xml#item39206201"
+                            xml:id="item39206201">本文</p>
                     </div>
-                    <div ana="内膳" n="39.63" subtype="項" type="条">
+                    <div ana="内膳"
+                        corresp="engishiki.xml#article392063 engishiki_en.xml#article392063"
+                        n="39.63" subtype="項" type="条" xml:id="article392063">
                         <head ana="耕種園圃"/>
                         <p ana="項"
-                            corresp="engishiki_ja.xml#item39206301 engishiki_en.xml#item39206301"
-                            xml:id="item39206301">耕種園圃<lb/>
-                            営大麦一段、種子一斗五升、惣単功十四人半、耕地一遍、<anchor/>把<anchor/>犂一人、馭牛一人、牛一頭、料理一人、畦上作二人、下子半人、刈功二人、択功五人、搗功二人、〈小麦亦同、〉 </p>
+                            corresp="engishiki.xml#item39206301 engishiki_en.xml#item39206301"
+                            xml:id="item39206301">本文</p>
                         <p ana="項"
-                            corresp="engishiki_ja.xml#item39206302 engishiki_en.xml#item39206302"
-                            xml:id="item39206302"
-                            >営大豆一段、種子八升、惣単功十三人、耕地一遍、把犂一人、馭牛一人、<anchor/>牛<anchor/>一頭、料理平和一人、畦上作二人、殖功二人、〈三月、〉芸一遍二人、採功二人、打功二人、</p>
+                            corresp="engishiki.xml#item39206302 engishiki_en.xml#item39206302"
+                            xml:id="item39206302"/>
                         <p ana="項"
-                            corresp="engishiki_ja.xml#item39206303 engishiki_en.xml#item39206303"
-                            xml:id="item39206303"
-                            >営小豆一段、種子五升五合、惣単功十三人半、耕地一遍、把犂一人、馭牛一人、<anchor/>牛一頭<anchor/>、料理一人、畦上作二人、〈五月、〉下子半人、芸二遍四人、採功二人、打功二人、</p>
+                            corresp="engishiki.xml#item39206303 engishiki_en.xml#item39206303"
+                            xml:id="item39206303"/>
                         <p ana="項"
-                            corresp="engishiki_ja.xml#item39206304 engishiki_en.xml#item39206304"
-                            xml:id="item39206304"
-                            >営大角豆一段、種子八升、惣単功十三人、耕地一遍、把犂一人、馭牛一人、牛<anchor/>一頭<anchor/>、料理一人、畦上作二人、殖功二人、芸一遍三人、採功三人、</p>
+                            corresp="engishiki.xml#item39206304 engishiki_en.xml#item39206304"
+                            xml:id="item39206304"/>
                         <p ana="項"
-                            corresp="engishiki_ja.xml#item39206305 engishiki_en.xml#item39206305"
-                            xml:id="item39206305"
-                            >営蔓菁一段、種子八合、惣単功卅<anchor/>二<anchor/>人半、耕地五遍、把犂二人半、馭牛二人半、牛二頭半、料理平和一人、<anchor/>糞<anchor/>百廿担、〈担別准重六斤、〉運功廿人、〈人別日六度、従左右馬寮運北園、下皆准此、〉下子半人、〈七・八月、〉採功六人、</p>
+                            corresp="engishiki.xml#item39206305 engishiki_en.xml#item39206305"
+                            xml:id="item39206305"/>
                         <p ana="項"
-                            corresp="engishiki_ja.xml#item39206306 engishiki_en.xml#item39206306"
-                            xml:id="item39206306"
-                            >営蒜一段、種子三石、惣単功九十三人、耕地七遍、把犂三人半、馭牛三人半、牛三頭半、料理平和二人、分畦三人、糞二百十担、運功卅五人、殖功六人、〈八月、〉芸三遍、第一遍十人、第二遍八人、第三遍七人、採功十五人、</p>
+                            corresp="engishiki.xml#item39206306 engishiki_en.xml#item39206306"
+                            xml:id="item39206306"/>
                         <p ana="項"
-                            corresp="engishiki_ja.xml#item39206307 engishiki_en.xml#item39206307"
-                            xml:id="item39206307"
-                            >営韮一段、種子五石、惣単功七十五人、耕地三遍、把犂一人半、馭牛一人半、牛一頭半、料理平和二人、畦上作二人、糞二百十担、運功卅五人、択苗子功六人、殖功六人、〈九月、〉芸三遍廿一人、〈度別七人、〉</p>
+                            corresp="engishiki.xml#item39206307 engishiki_en.xml#item39206307"
+                            xml:id="item39206307"/>
                         <p ana="項"
-                            corresp="engishiki_ja.xml#item39206308 engishiki_en.xml#item39206308"
-                            xml:id="item39206308"
-                            >営䓗一段、種子四升、苗一千二百把、惣単功八十七人<anchor/>半<anchor/>、耕地三遍、把犂一人半、馭牛一人半、牛一頭半、料理平和一人、畦上作二人、糞二百十担、運功卅五人、下子半人、〈八月、〉殖功廿人、〈二月、〉芸三遍、第一遍十人、第二遍九人、第三遍七人、</p>
+                            corresp="engishiki.xml#item39206308 engishiki_en.xml#item39206308"
+                            xml:id="item39206308"/>
                         <p ana="項"
-                            corresp="engishiki_ja.xml#item39206309 engishiki_en.xml#item39206309"
-                            xml:id="item39206309"
-                            >営薑一段、種子四石、惣単功七十八人、耕地五遍、把犂二人半、馭牛二人半、牛二頭半、料理平和二人、糞二百十担、運功卅五人、分畦四人、殖功四人、〈四月、〉芸三遍、第一遍九人、第二遍七人、第三遍六人、採択功六人、</p>
+                            corresp="engishiki.xml#item39206309 engishiki_en.xml#item39206309"
+                            xml:id="item39206309"/>
                         <p ana="項"
-                            corresp="engishiki_ja.xml#item39206310 engishiki_en.xml#item39206310"
-                            xml:id="item39206310"
-                            >営蕗一段、種子二石、惣単功卅四人、耕地二遍、把犂一人、馭牛一人、牛一頭、料理平和二人、糞百廿担、運功廿人、殖功二人、〈九月、〉芸二遍、第一遍二人、〈三月、〉第二遍二人、〈六月、〉刈功四人、三年一殖、</p>
+                            corresp="engishiki.xml#item39206310 engishiki_en.xml#item39206310"
+                            xml:id="item39206310"/>
                         <p ana="項"
-                            corresp="engishiki_ja.xml#item39206311 engishiki_en.xml#item39206311"
-                            xml:id="item39206311"
-                            >営【草冠＋角（最終画は突き出す）＋力】一段、種子三石五斗、惣単功卌四人、耕地二遍、把犂一人、馭牛一人、牛一頭、料理平和二人、糞百<anchor/>廿<anchor/>担、運功廿人、殖功二人、芸二遍、第一遍三人、〈二月、〉第<anchor/>二遍<anchor/>三人、〈七月、〉刈功四人、択功八人、三年一度遷殖、</p>
+                            corresp="engishiki.xml#item39206311 engishiki_en.xml#item39206311"
+                            xml:id="item39206311"/>
                         <p ana="項"
-                            corresp="engishiki_ja.xml#item39206312 engishiki_en.xml#item39206312"
-                            xml:id="item39206312"
-                            >営早瓜一段、種子四合五夕、惣単功卌六人、耕地二遍、把犂一人、馭牛一人、牛一頭、料理平和三人、掘畦溝三人、糞七十五担、運功十二人半、位三百六十座、踏位一人、下子半人、〈二月、〉払虫十二人、壅并芸三遍、第一遍五人、〈三月上、〉第二遍四人、〈三月下、〉第三遍三人、〈四月、〉</p>
+                            corresp="engishiki.xml#item39206312 engishiki_en.xml#item39206312"
+                            xml:id="item39206312"/>
                         <p ana="項"
-                            corresp="engishiki_ja.xml#item39206313 engishiki_en.xml#item39206313"
-                            xml:id="item39206313"
-                            >営晩瓜一段、種子四合五夕、惣単功卅五人半、<anchor/>耕<anchor/>地二遍、把犂一人、馭牛一人、牛一頭、料理平和三人、掘畦溝三人、位三百六十座、踏位一人、下子半人、壅一人、〈三度、〉芸三遍、第一遍十人、〈三月、〉第二遍八人、〈四月、〉第三遍七人、〈五月、〉</p>
+                            corresp="engishiki.xml#item39206313 engishiki_en.xml#item39206313"
+                            xml:id="item39206313"/>
                         <p ana="項"
-                            corresp="engishiki_ja.xml#item39206314 engishiki_en.xml#item39206314"
-                            xml:id="item39206314"
-                            >営茄一段、種子二升、惣単功卌一人、耕地二遍、把犂一人、馭牛一人、牛一頭、畦料理平和三人、下子半人、〈三月、〉採苗一人半、殖功十人、〈四月、〉壅二遍、第一遍三人、〈五月、〉第二遍三人、〈六月、〉芸三遍十八人、〈度別六人、〉</p>
+                            corresp="engishiki.xml#item39206314 engishiki_en.xml#item39206314"
+                            xml:id="item39206314"/>
                         <p ana="項"
-                            corresp="engishiki_ja.xml#item39206315 engishiki_en.xml#item39206315"
-                            xml:id="item39206315"
-                            >営蘿菔一段、種子三斗、惣単功十八人半、<anchor/>耕<anchor/>地三遍、把犂一人半、馭牛一人半、牛一頭半、料理平和一人、下子半人、〈六月、〉採功十四人、</p>
+                            corresp="engishiki.xml#item39206315 engishiki_en.xml#item39206315"
+                            xml:id="item39206315"/>
                         <p ana="項"
-                            corresp="engishiki_ja.xml#item39206316 engishiki_en.xml#item39206316"
-                            xml:id="item39206316"
-                            >営萵苣一段、種<anchor/>子<anchor/>三升、苗一千五百把、惣単功卅九人半、耕地二遍、把犂一人、馭牛一人、牛一頭、料理平和二人、畦上作二人、糞百卅二担、運功廿二人、下子半人、〈八月、〉採苗功二人、殖功六人、〈九月、〉芸一遍三人、</p>
+                            corresp="engishiki.xml#item39206316 engishiki_en.xml#item39206316"
+                            xml:id="item39206316"/>
                         <p ana="項"
-                            corresp="engishiki_ja.xml#item39206317 engishiki_en.xml#item39206317"
-                            xml:id="item39206317"
-                            >営葵一段、種子二升、惣単功卅一人半、耕地二遍、把犂一人、馭牛一人、牛一頭、料理平和二人、畦上作二人、糞百卅二担、運功廿二人、下子半人、〈八月、〉芸一遍三人、</p>
+                            corresp="engishiki.xml#item39206317 engishiki_en.xml#item39206317"
+                            xml:id="item39206317"/>
                         <p ana="項"
-                            corresp="engishiki_ja.xml#item39206318 engishiki_en.xml#item39206318"
-                            xml:id="item39206318"
-                            >営胡【〓】一段、種子二斗五升、惣単功廿八人、耕地二遍、把犂一人、馭牛一人、牛一頭、料理平和二人、畦上作二人、糞百卅二担、運功廿二人、下子半人、〈三月、八月、〉</p>
+                            corresp="engishiki.xml#item39206318 engishiki_en.xml#item39206318"
+                            xml:id="item39206318"/>
                         <p ana="項"
-                            corresp="engishiki_ja.xml#item39206319 engishiki_en.xml#item39206319"
-                            xml:id="item39206319"
-                            >営<anchor/>蕓薹<anchor/>一段、種子一升、惣単功廿八人、耕地二遍、把犂一人、馭牛一人、牛一頭、料理平和二人、畦上作二人、糞百卅二担、運功廿二人、下子半人、〈三月、八月、〉</p>
+                            corresp="engishiki.xml#item39206319 engishiki_en.xml#item39206319"
+                            xml:id="item39206319"/>
                         <p ana="項"
-                            corresp="engishiki_ja.xml#item39206320 engishiki_en.xml#item39206320"
-                            xml:id="item39206320"
-                            >営蘇良自一段、種子三石五斗、惣単功卅五人、耕地二遍、把犂一人、馭牛一人、牛一頭、料理平和二人、畦上作二人、糞百卅二担、運功廿二人、殖功三人、〈九月、〉芸一遍二人、刈功二人、</p>
+                            corresp="engishiki.xml#item39206320 engishiki_en.xml#item39206320"
+                            xml:id="item39206320"/>
                         <p ana="項"
-                            corresp="engishiki_ja.xml#item39206321 engishiki_en.xml#item39206321"
-                            xml:id="item39206321"
-                            >営襄荷一段、種子三石、惣単功卅五人、耕地二遍、把犂一人、馭牛一人、牛一頭、料理平和二人、畦上作二人、〈九月、〉糞百卅二担、運功廿二人、殖功三人、芸二人、採功二人、</p>
+                            corresp="engishiki.xml#item39206321 engishiki_en.xml#item39206321"
+                            xml:id="item39206321"/>
                         <p ana="項"
-                            corresp="engishiki_ja.xml#item39206322 engishiki_en.xml#item39206322"
-                            xml:id="item39206322"
-                            >営芋一段、種子二石、惣単功卅五人、耕地二遍、把犂一人、馭牛一人、牛一頭、畦上作・料理功四人、殖功三人、〈三月、〉壅功六人、芸三遍六人、〈五・六・七月、度別<anchor/>二<anchor/>人、〉掘功四人、択功十人、</p>
+                            corresp="engishiki.xml#item39206322 engishiki_en.xml#item39206322"
+                            xml:id="item39206322"/>
                         <p ana="項"
-                            corresp="engishiki_ja.xml#item39206323 engishiki_en.xml#item39206323"
-                            xml:id="item39206323"
-                            >営水䓗一段、苗廿囲、惣単功五十三人、耕地二遍、把犂一人、馭牛一人、牛一頭、料理平和一人、糞百廿担、運単功廿人、殖功十五人、〈五月、〉<anchor/>播殖三度十五人、〈<anchor/>度<anchor/>別五人、〉<anchor/>採功十五人、〈三度、〉</p>
+                            corresp="engishiki.xml#item39206323 engishiki_en.xml#item39206323"
+                            xml:id="item39206323"/>
                         <p ana="項"
-                            corresp="engishiki_ja.xml#item39206324 engishiki_en.xml#item39206324"
-                            xml:id="item39206324"
-                            >営芹一段、苗五石、惣単功卌四人、耕地二遍、把犂一人、馭牛一人、牛一頭、料理平和一人、糞百廿担、運単功廿人、殖功六人、〈二月、〉採苗功十人、刈功五人、</p>
+                            corresp="engishiki.xml#item39206324 engishiki_en.xml#item39206324"
+                            xml:id="item39206324"/>
                     </div>
                 </div>
-                <div type="尾題">
-                    <p><anchor/>延<anchor/>喜式巻第卅九</p>
+                <div type="首題" xml:id="bidai392">
+                    <p>尾題</p>
+                </div>
+                <div type="本奥書" xml:id="okugaki392">
+                    <p>本奥書</p>
                 </div>
             </div>
         </body>
