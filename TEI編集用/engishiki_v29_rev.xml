@@ -142,12 +142,15 @@
     </teiHeader>
     <text>
         <body>
-            <div ana="刑部・判事・囚獄" n="29" subtype="式" type="巻" xml:id="volume29">
+            <div ana="刑部" n="29" subtype="式" type="巻" xml:id="volume29">
                 <div type="首題" xml:id="shudai29">
                     <p>首題</p>
                 </div>
                 <div ana="刑部" corresp="engishiki_en.xml#protocol291 engishiki_ja.xml#protocol291"
                     n="29" subtype="条" type="式" xml:id="protocol291">
+                    <div type="式題" xml:id="shikidai291">
+                        <p>式題</p>
+                    </div>
                     <div ana="刑部"
                         corresp="engishiki_en.xml#article291001 engishiki_ja.xml#article291001"
                         n="29.1" subtype="項" type="条" xml:id="article291001">
@@ -415,6 +418,9 @@
                 </div>
                 <div ana="判事" corresp="engishiki_en.xml#protocol292 engishiki_ja.xml#protocol292"
                     n="29" subtype="条" type="式" xml:id="protocol292">
+                    <div type="式題" xml:id="shikidai292">
+                        <p>式題</p>
+                    </div>
                     <div ana="判事"
                         corresp="engishiki_en.xml#article292001 engishiki_ja.xml#article292001"
                         n="29.1" subtype="項" type="条" xml:id="article292001">
@@ -474,6 +480,9 @@
                 </div>
                 <div ana="囚獄" corresp="engishiki_en.xml#protocol293 engishiki_ja.xml#protocol293"
                     n="29" subtype="条" type="式" xml:id="protocol293">
+                    <div type="式題" xml:id="shikidai293">
+                        <p>式題</p>
+                    </div>
                     <div ana="囚獄"
                         corresp="engishiki_en.xml#article293001 engishiki_ja.xml#article293001"
                         n="29.1" subtype="項" type="条" xml:id="article293001">
@@ -547,7 +556,7 @@
                             xml:id="item29300901">本文</p>
                     </div>
                 </div>
-                <div type="首題" xml:id="bidai29">
+                <div type="尾題" xml:id="bidai29">
                     <p>尾題</p>
                 </div>
                 <div type="本奥書" xml:id="okugaki29">
