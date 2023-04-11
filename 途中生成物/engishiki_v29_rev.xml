@@ -1,0 +1,568 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>延喜式ファイル</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>国立歴史民俗博物館メタ資料学研究センター</publisher>
+                <idno type="PID">o:depcha.engi_shiki.1</idno>
+                <availability>
+                    <p/>
+                </availability>
+                <date when="2020-03-31">31 March 2020</date>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <settlement>千葉県佐倉市</settlement>
+                        <repository>国立歴史民俗博物館</repository>
+                        <collection>集英社版延喜式</collection>
+                    </msIdentifier>
+                    <msContents>
+                        <msItem>
+                            <author>藤原時平・藤原忠平</author>
+                            <title>延喜式</title>
+                            <note>
+                                <p>ここに史料の説明が入る。</p>
+                            </note>
+                        </msItem>
+                    </msContents>
+                </msDesc>
+                <listWit>
+                    <listWit xml:id="写本">
+                        <head>写本</head>
+                        <witness xml:id="土本"><abbr>土本</abbr>：国立歴史民俗博物館所蔵土御門家旧蔵本（H-743-74）</witness>
+                        <witness xml:id="近本"><abbr>近本</abbr>：京都大学附属図書館所蔵近衛文庫本（2-03/エ/1貴）</witness>
+                        <witness xml:id="壬本"><abbr>壬本</abbr>：宮内庁書陵部図書寮文庫所蔵壬生家旧蔵本（F10-287）</witness>
+                        <witness xml:id="京博本"><abbr>京博本</abbr>：京都国立博物館所蔵旧京都博物館本</witness>
+                        <witness xml:id="慶長本"><abbr>慶長本</abbr>：国立公文書館所蔵慶長写本（特102-8）</witness>
+                        <witness xml:id="梵本"
+                            ><abbr>梵本</abbr>：天理大学附属天理図書館所蔵吉田文庫梵舜等筆本（吉16-8。巻8は173-ｲ5（Ⅲ524)もあり）</witness>
+                        <witness xml:id="九本"><abbr>九本</abbr>：東京国立博物館所蔵九条家旧蔵巻子本（B-2370）</witness>
+                        <witness xml:id="剛本"><abbr>剛本</abbr>：天野山金剛寺所蔵本</witness>
+                        <witness xml:id="条本"
+                            ><abbr>条本</abbr>：一条家旧蔵巻子本（巻1～3は無窮会専門図書館所蔵模写本、巻4・5は神宮司庁刊影印本）</witness>
+                        <witness xml:id="花本"><abbr>花本</abbr>：花山院家・武田祐吉旧蔵本（神宮皇学館刊影印本による）</witness>
+                        <witness xml:id="九冊本"
+                            ><abbr>九冊本</abbr>：國學院大學所蔵九条家・西田長男旧蔵冊子本（巻5は西田長男刊影印本による）</witness>
+                        <witness xml:id="永本"
+                            ><abbr>永本</abbr>：巻8は國學院大學図書館所蔵（091.2/322.135/1）、巻9・10は現蔵不明(神宮文庫所蔵写真帳1門16974）</witness>
+                        <witness xml:id="右本"><abbr>右本</abbr>：巻8は國學院大學図書館所蔵（貴62）</witness>
+                        <witness xml:id="吉本"
+                            ><abbr>吉本</abbr>：天理大学附属天理図書館所蔵吉田家旧蔵本巻9・10（328.1-ｲ17(Ⅲ1219)）</witness>
+                        <witness xml:id="三条本"
+                            ><abbr>三条本</abbr>：天理大学附属天理図書館所蔵三条家旧蔵本（328.1-ｲ11(Ⅲ1218)）</witness>
+                        <witness xml:id="西本"
+                            ><abbr>西本</abbr>：巻9・10は國學院大學図書館所蔵（貴107～108）。巻50は国立歴史民俗博物館所蔵（H-1588）。抄出本は國學院大學所蔵（木村大樹「〔西田長男旧蔵〕三条西実隆筆『延喜式』(抄)の翻刻・紹介」『國學院大學研究開発推進機構紀要』14、2022年） </witness>
+                        <witness xml:id="時慶本"
+                            ><abbr>時慶本</abbr>：静嘉堂文庫所蔵西洞院時慶写本（延喜格式表18352、延喜式序18353）</witness>
+                        <witness xml:id="島原本"
+                            ><abbr>島原本</abbr>：東京大学史料編纂所所蔵松平忠房・和学講談所・水野忠央旧蔵本（貴45-2）</witness>
+                        <witness xml:id="貞享本"
+                            ><abbr>貞享本</abbr>：宮内庁書陵部図書寮文庫所蔵和学講談所旧蔵本（457-116）</witness>
+                        <witness xml:id="玄梁本"><abbr>玄梁本</abbr>：無窮会専門図書館所蔵神習文庫玄梁記名本（神習3666）</witness>
+                        <witness xml:id="尾張本"
+                            ><abbr>尾張本</abbr>：東京大学総合図書館所蔵尾張家旧蔵本（巻13）（A00-6122）</witness>
+                    </listWit>
+                    <listWit xml:id="版本">
+                        <head>版本：慶安版本も含めた流布版本</head>
+                        <witness xml:id="慶安版本"
+                            ><abbr>慶安版本</abbr>：大和文華館所蔵鈴鹿連胤旧蔵版本（1/741～790）</witness>
+                        <witness xml:id="明暦版本"
+                            ><abbr>明暦版本</abbr>：明暦修訂版本　国立公文書館所蔵紅葉山文庫旧蔵版本（特26-1）等</witness>
+                        <witness xml:id="明暦以降版本"><abbr>明暦以降版本</abbr>：明暦修訂本以降の版本</witness>
+                        <witness xml:id="寛文版本"
+                            ><abbr>寛文版本</abbr>：寛文修訂版本　筑波大学附属図書館所蔵版本20冊本（ム212-7）等</witness>
+                        <witness xml:id="享保版本"
+                            ><abbr>享保版本</abbr>：享保修訂版本　筑波大学附属図書館所蔵版本五〇冊本（ム212-6）等</witness>
+                        <witness xml:id="雲本"
+                            ><abbr>雲本</abbr>：松江藩文政11年(1828)刊本（雲州本）　早稲田大学図書館所蔵本（ワ03-01594）等</witness>
+                        <witness xml:id="考異"
+                            ><abbr>考異</abbr>：雲州本附録『延喜式考異』　早稲田大学図書館所蔵本（ワ03-01594）等</witness>
+                        <witness xml:id="鈴鹿本"
+                            ><abbr>鈴鹿本</abbr>：大和文華館所蔵鈴鹿連胤旧蔵慶安版本（1/741～790）書入</witness>
+                        <witness xml:id="勢多本"
+                            ><abbr>勢多本</abbr>：宮内庁書陵部図書寮文庫所蔵勢多家旧蔵明暦等版本（172-123）書入</witness>
+                        <witness xml:id="筑波寛文本"
+                            ><abbr>筑波寛文本</abbr>：筑波大学附属図書館所蔵寛文版本20冊本（ム212-7）書入</witness>
+                    </listWit>
+                    <listWit xml:id="刊本">
+                        <head>刊本</head>
+                        <witness xml:id="旧大系本"><abbr>旧大系本</abbr>：旧輯国史大系第13巻（経済雑誌社　1900年刊）</witness>
+                        <witness xml:id="叢書本"><abbr>叢書本</abbr>：新註皇学叢書第3巻（広文庫刊行会　1927年刊）</witness>
+                        <witness xml:id="全集本"
+                            ><abbr>全集本</abbr>：日本古典全集『延喜式』（日本古典全集刊行会　1927～1929年刊）</witness>
+                        <witness xml:id="皇典本"
+                            ><abbr>皇典本</abbr>：『校訂延喜式』（皇典講究所・全国神職会　1929～1932年刊）</witness>
+                        <witness xml:id="国史大系本"
+                            ><abbr>国史大系本</abbr>：新訂増補国史大系第26巻（吉川弘文館　1937年刊）</witness>
+                        <witness xml:id="神道大系本"
+                            ><abbr>神道大系本</abbr>：神道大系古典編11・12『延喜式』（神道大系編纂会、1991・1993年刊）</witness>
+                        <witness xml:id="訳注本"
+                            ><abbr>訳注本</abbr>：訳注日本史料『延喜式』上～下（集英社、2000～2017年刊）</witness>
+                    </listWit>
+                    <listWit xml:id="その他">
+                        <head>その他</head>
+                        <witness xml:id="本朝月令"
+                            ><abbr>本朝月令</abbr>：清水潔編『新校本朝月令』（皇學館大學神道研究所　2002年刊）</witness>
+                        <witness xml:id="儀式"><abbr>儀式</abbr>：※※</witness>
+                        <witness xml:id="皇太神宮儀式帳"><abbr>皇太神宮儀式帳</abbr>：</witness>
+                        <witness xml:id="止由気宮儀式帳"><abbr>止由気宮儀式帳</abbr>：</witness>
+                        <witness xml:id="新撰年中行事"
+                            ><abbr>新撰年中行事</abbr>：西本昌弘編『新撰年中行事』（八木書店　2010年刊）</witness>
+                        <witness xml:id="小野宮年中行事"><abbr>小野宮年中行事</abbr>：</witness>
+                        <witness xml:id="小野宮年中行事裏書"
+                            ><abbr>小野宮年中行事裏書</abbr>：国立歴史民俗博物館所蔵本（H-1762）</witness>
+                        <witness xml:id="勘例"><abbr>勘例（陽明文庫所蔵）</abbr>：</witness>
+                        <witness xml:id="政事要略"
+                            ><abbr>政事要略</abbr>：新訂増補国史大系（吉川弘文館　1935年刊。適宜、写本を参照）</witness>
+                        <witness xml:id="法曹至要抄"><abbr>法曹至要抄</abbr>：中世法制史料集（岩波書店　2005年刊）</witness>
+                        <witness xml:id="本草和名"
+                            ><abbr>本草和名</abbr>：丸山裕美子・武倩編著『本草和名』（汲古書院　2021年刊）</witness>
+                    </listWit>
+                </listWit>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <variantEncoding location="external" method="location-referenced"/>
+            <tagsDecl>
+                <rendition xml:id="indent">text-indent: 1em;</rendition>
+            </tagsDecl>
+            <editorialDecl>
+                <p/>
+            </editorialDecl>
+        </encodingDesc>
+        <revisionDesc>
+            <change/>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div ana="刑部" n="29" subtype="式" type="巻" xml:id="volume29">
+                <div type="首題" xml:id="shudai29">
+                    <p>首題</p>
+                </div>
+                <div ana="刑部" corresp="engishiki_en.xml#protocol291 engishiki_ja.xml#protocol291"
+                    n="29" subtype="条" type="式" xml:id="protocol291">
+                    <div type="式題" xml:id="shikidai291">
+                        <p>式題</p>
+                    </div>
+                    <div ana="刑部"
+                        corresp="engishiki_en.xml#article291001 engishiki_ja.xml#article291001"
+                        n="29.1" subtype="項" type="条" xml:id="article291001">
+                        <head ana="盗取仏像"/>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item29100101 engishiki_ja.xml#item29100101"
+                            xml:id="item29100101">本文</p>
+                    </div>
+                    <div ana="刑部"
+                        corresp="engishiki_en.xml#article291002 engishiki_ja.xml#article291002"
+                        n="29.2" subtype="項" type="条" xml:id="article291002">
+                        <head ana="僧尼犯罪"/>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item29100201 engishiki_ja.xml#item29100201"
+                            xml:id="item29100201">本文</p>
+                    </div>
+                    <div ana="刑部"
+                        corresp="engishiki_en.xml#article291003 engishiki_ja.xml#article291003"
+                        n="29.3" subtype="項" type="条" xml:id="article291003">
+                        <head ana="訴訟人"/>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item29100301 engishiki_ja.xml#item29100301"
+                            xml:id="item29100301">本文</p>
+                    </div>
+                    <div ana="刑部"
+                        corresp="engishiki_en.xml#article291004 engishiki_ja.xml#article291004"
+                        n="29.4" subtype="項" type="条" xml:id="article291004">
+                        <head ana="勘事"/>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item29100401 engishiki_ja.xml#item29100401"
+                            xml:id="item29100401">本文</p>
+                    </div>
+                    <div ana="刑部"
+                        corresp="engishiki_en.xml#article291005 engishiki_ja.xml#article291005"
+                        n="29.5" subtype="項" type="条" xml:id="article291005">
+                        <head ana="五位以上犯罪"/>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item29100501 engishiki_ja.xml#item29100501"
+                            xml:id="item29100501">本文</p>
+                    </div>
+                    <div ana="刑部"
+                        corresp="engishiki_en.xml#article291006 engishiki_ja.xml#article291006"
+                        n="29.6" subtype="項" type="条" xml:id="article291006">
+                        <head ana="流罪以下"/>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item29100601 engishiki_ja.xml#item29100601"
+                            xml:id="item29100601">本文</p>
+                    </div>
+                    <div ana="刑部"
+                        corresp="engishiki_en.xml#article291007 engishiki_ja.xml#article291007"
+                        n="29.7" subtype="項" type="条" xml:id="article291007">
+                        <head ana="流移罪人"/>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item29100701 engishiki_ja.xml#item29100701"
+                            xml:id="item29100701">本文</p>
+                    </div>
+                    <div ana="刑部"
+                        corresp="engishiki_en.xml#article291008 engishiki_ja.xml#article291008"
+                        n="29.8" subtype="項" type="条" xml:id="article291008">
+                        <head ana="格式立制"/>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item29100801 engishiki_ja.xml#item29100801"
+                            xml:id="item29100801">本文</p>
+                    </div>
+                    <div ana="刑部"
+                        corresp="engishiki_en.xml#article291009 engishiki_ja.xml#article291009"
+                        n="29.9" subtype="項" type="条" xml:id="article291009">
+                        <head ana="柵戸逃亡"/>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item29100901 engishiki_ja.xml#item29100901"
+                            xml:id="item29100901">本文</p>
+                    </div>
+                    <div ana="刑部"
+                        corresp="engishiki_en.xml#article291010 engishiki_ja.xml#article291010"
+                        n="29.10" subtype="項" type="条" xml:id="article291010">
+                        <head ana="私鋳銭"/>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item29101001 engishiki_ja.xml#item29101001"
+                            xml:id="item29101001">本文</p>
+                    </div>
+                    <div ana="刑部"
+                        corresp="engishiki_en.xml#article291011 engishiki_ja.xml#article291011"
+                        n="29.11" subtype="項" type="条" xml:id="article291011">
+                        <head ana="会赦"/>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item29101101 engishiki_ja.xml#item29101101"
+                            xml:id="item29101101">本文</p>
+                    </div>
+                    <div ana="刑部"
+                        corresp="engishiki_en.xml#article291012 engishiki_ja.xml#article291012"
+                        n="29.12" subtype="項" type="条" xml:id="article291012">
+                        <head ana="会赦即免"/>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item29101201 engishiki_ja.xml#item29101201"
+                            xml:id="item29101201">本文</p>
+                    </div>
+                    <div ana="刑部"
+                        corresp="engishiki_en.xml#article291013 engishiki_ja.xml#article291013"
+                        n="29.13" subtype="項" type="条" xml:id="article291013">
+                        <head ana="無罪合免"/>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item29101301 engishiki_ja.xml#item29101301"
+                            xml:id="item29101301">本文</p>
+                    </div>
+                    <div ana="刑部"
+                        corresp="engishiki_en.xml#article291014 engishiki_ja.xml#article291014"
+                        n="29.14" subtype="項" type="条" xml:id="article291014">
+                        <head ana="告罪名"/>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item29101401 engishiki_ja.xml#item29101401"
+                            xml:id="item29101401">本文</p>
+                    </div>
+                    <div ana="刑部"
+                        corresp="engishiki_en.xml#article291015 engishiki_ja.xml#article291015"
+                        n="29.15" subtype="項" type="条" xml:id="article291015">
+                        <head ana="罪人尫弱"/>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item29101501 engishiki_ja.xml#item29101501"
+                            xml:id="item29101501">本文</p>
+                    </div>
+                    <div ana="刑部"
+                        corresp="engishiki_en.xml#article291016 engishiki_ja.xml#article291016"
+                        n="29.16" subtype="項" type="条" xml:id="article291016">
+                        <head ana="不進罪人位記"/>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item29101601 engishiki_ja.xml#item29101601"
+                            xml:id="item29101601">本文</p>
+                    </div>
+                    <div ana="刑部"
+                        corresp="engishiki_en.xml#article291017 engishiki_ja.xml#article291017"
+                        n="29.17" subtype="項" type="条" xml:id="article291017">
+                        <head ana="毀罪人位記"/>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item29101701 engishiki_ja.xml#item29101701"
+                            xml:id="item29101701">本文</p>
+                    </div>
+                    <div ana="刑部"
+                        corresp="engishiki_en.xml#article291018 engishiki_ja.xml#article291018"
+                        n="29.18" subtype="項" type="条" xml:id="article291018">
+                        <head ana="遠近"/>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item29101801 engishiki_ja.xml#item29101801"
+                            xml:id="item29101801">本文</p>
+                    </div>
+                    <div ana="刑部"
+                        corresp="engishiki_en.xml#article291019 engishiki_ja.xml#article291019"
+                        n="29.19" subtype="項" type="条" xml:id="article291019">
+                        <head ana="決死囚"/>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item29101901 engishiki_ja.xml#item29101901"
+                            xml:id="item29101901">本文</p>
+                    </div>
+                    <div ana="刑部"
+                        corresp="engishiki_en.xml#article291020 engishiki_ja.xml#article291020"
+                        n="29.20" subtype="項" type="条" xml:id="article291020">
+                        <head ana="決罪"/>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item29102001 engishiki_ja.xml#item29102001"
+                            xml:id="item29102001">本文</p>
+                    </div>
+                    <div ana="刑部"
+                        corresp="engishiki_en.xml#article291021 engishiki_ja.xml#article291021"
+                        n="29.21" subtype="項" type="条" xml:id="article291021">
+                        <head ana="徒罪以上"/>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item29102101 engishiki_ja.xml#item29102101"
+                            xml:id="item29102101">本文</p>
+                    </div>
+                    <div ana="刑部"
+                        corresp="engishiki_en.xml#article291022 engishiki_ja.xml#article291022"
+                        n="29.22" subtype="項" type="条" xml:id="article291022">
+                        <head ana="徒人年限"/>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item29102201 engishiki_ja.xml#item29102201"
+                            xml:id="item29102201">本文</p>
+                    </div>
+                    <div ana="刑部"
+                        corresp="engishiki_en.xml#article291023 engishiki_ja.xml#article291023"
+                        n="29.23" subtype="項" type="条" xml:id="article291023">
+                        <head ana="罪人勘籍"/>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item29102301 engishiki_ja.xml#item29102301"
+                            xml:id="item29102301">本文</p>
+                    </div>
+                    <div ana="刑部"
+                        corresp="engishiki_en.xml#article291024 engishiki_ja.xml#article291024"
+                        n="29.24" subtype="項" type="条" xml:id="article291024">
+                        <head ana="未発遣"/>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item29102401 engishiki_ja.xml#item29102401"
+                            xml:id="item29102401">本文</p>
+                    </div>
+                    <div ana="刑部"
+                        corresp="engishiki_en.xml#article291025 engishiki_ja.xml#article291025"
+                        n="29.25" subtype="項" type="条" xml:id="article291025">
+                        <head ana="罪人逃亡"/>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item29102501 engishiki_ja.xml#item29102501"
+                            xml:id="item29102501">本文</p>
+                    </div>
+                    <div ana="刑部"
+                        corresp="engishiki_en.xml#article291026 engishiki_ja.xml#article291026"
+                        n="29.26" subtype="項" type="条" xml:id="article291026">
+                        <head ana="獄囚衣粮"/>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item29102601 engishiki_ja.xml#item29102601"
+                            xml:id="item29102601">本文</p>
+                    </div>
+                    <div ana="刑部"
+                        corresp="engishiki_en.xml#article291027 engishiki_ja.xml#article291027"
+                        n="29.27" subtype="項" type="条" xml:id="article291027">
+                        <head ana="売児"/>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item29102701 engishiki_ja.xml#item29102701"
+                            xml:id="item29102701">本文</p>
+                    </div>
+                    <div ana="刑部"
+                        corresp="engishiki_en.xml#article291028 engishiki_ja.xml#article291028"
+                        n="29.28" subtype="項" type="条" xml:id="article291028">
+                        <head ana="良賤判"/>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item29102801 engishiki_ja.xml#item29102801"
+                            xml:id="item29102801">本文</p>
+                    </div>
+                    <div ana="刑部"
+                        corresp="engishiki_en.xml#article291029 engishiki_ja.xml#article291029"
+                        n="29.29" subtype="項" type="条" xml:id="article291029">
+                        <head ana="贖罪無銅"/>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item29102901 engishiki_ja.xml#item29102901"
+                            xml:id="item29102901">本文</p>
+                    </div>
+                    <div ana="刑部"
+                        corresp="engishiki_en.xml#article291030 engishiki_ja.xml#article291030"
+                        n="29.30" subtype="項" type="条" xml:id="article291030">
+                        <head ana="贖銅銭"/>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item29103001 engishiki_ja.xml#item29103001"
+                            xml:id="item29103001">本文</p>
+                    </div>
+                    <div ana="刑部"
+                        corresp="engishiki_en.xml#article291031 engishiki_ja.xml#article291031"
+                        n="29.31" subtype="項" type="条" xml:id="article291031">
+                        <head ana="因事相喚"/>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item29103101 engishiki_ja.xml#item29103101"
+                            xml:id="item29103101">本文</p>
+                    </div>
+                    <div ana="刑部"
+                        corresp="engishiki_en.xml#article291032 engishiki_ja.xml#article291032"
+                        n="29.32" subtype="項" type="条" xml:id="article291032">
+                        <head ana="諸司治務"/>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item29103201 engishiki_ja.xml#item29103201"
+                            xml:id="item29103201">本文</p>
+                    </div>
+                    <div ana="刑部"
+                        corresp="engishiki_en.xml#article291033 engishiki_ja.xml#article291033"
+                        n="29.33" subtype="項" type="条" xml:id="article291033">
+                        <head ana="大臣薨"/>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item29103301 engishiki_ja.xml#item29103301"
+                            xml:id="item29103301">本文</p>
+                    </div>
+                </div>
+                <div ana="判事" corresp="engishiki_en.xml#protocol292 engishiki_ja.xml#protocol292"
+                    n="29" subtype="条" type="式" xml:id="protocol292">
+                    <div type="式題" xml:id="shikidai292">
+                        <p>式題</p>
+                    </div>
+                    <div ana="判事"
+                        corresp="engishiki_en.xml#article292001 engishiki_ja.xml#article292001"
+                        n="29.1" subtype="項" type="条" xml:id="article292001">
+                        <head ana="訊獄書"/>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item29200101 engishiki_ja.xml#item29200101"
+                            xml:id="item29200101">本文</p>
+                    </div>
+                    <div ana="判事"
+                        corresp="engishiki_en.xml#article292002 engishiki_ja.xml#article292002"
+                        n="29.2" subtype="項" type="条" xml:id="article292002">
+                        <head ana="弾正移"/>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item29200201 engishiki_ja.xml#item29200201"
+                            xml:id="item29200201">本文</p>
+                    </div>
+                    <div ana="判事"
+                        corresp="engishiki_en.xml#article292003 engishiki_ja.xml#article292003"
+                        n="29.3" subtype="項" type="条" xml:id="article292003">
+                        <head ana="隠截租税"/>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item29200301 engishiki_ja.xml#item29200301"
+                            xml:id="item29200301">本文</p>
+                    </div>
+                    <div ana="判事"
+                        corresp="engishiki_en.xml#article292004 engishiki_ja.xml#article292004"
+                        n="29.4" subtype="項" type="条" xml:id="article292004">
+                        <head ana="僧尼犯徒"/>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item29200401 engishiki_ja.xml#item29200401"
+                            xml:id="item29200401">本文</p>
+                    </div>
+                    <div ana="判事"
+                        corresp="engishiki_en.xml#article292005 engishiki_ja.xml#article292005"
+                        n="29.5" subtype="項" type="条" xml:id="article292005">
+                        <head ana="良賤訴"/>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item29200501 engishiki_ja.xml#item29200501"
+                            xml:id="item29200501">本文</p>
+                    </div>
+                    <div ana="判事"
+                        corresp="engishiki_en.xml#article292006 engishiki_ja.xml#article292006"
+                        n="29.6" subtype="項" type="条" xml:id="article292006">
+                        <head ana="盗人"/>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item29200601 engishiki_ja.xml#item29200601"
+                            xml:id="item29200601">本文</p>
+                    </div>
+                    <div ana="判事"
+                        corresp="engishiki_en.xml#article292007 engishiki_ja.xml#article292007"
+                        n="29.7" subtype="項" type="条" xml:id="article292007">
+                        <head ana="平贓布"/>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item29200701 engishiki_ja.xml#item29200701"
+                            xml:id="item29200701">本文</p>
+                    </div>
+                </div>
+                <div ana="囚獄" corresp="engishiki_en.xml#protocol293 engishiki_ja.xml#protocol293"
+                    n="29" subtype="条" type="式" xml:id="protocol293">
+                    <div type="式題" xml:id="shikidai293">
+                        <p>式題</p>
+                    </div>
+                    <div ana="囚獄"
+                        corresp="engishiki_en.xml#article293001 engishiki_ja.xml#article293001"
+                        n="29.1" subtype="項" type="条" xml:id="article293001">
+                        <head ana="笞杖"/>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item29300101 engishiki_ja.xml#item29300101"
+                            xml:id="item29300101">本文</p>
+                    </div>
+                    <div ana="囚獄"
+                        corresp="engishiki_en.xml#article293002 engishiki_ja.xml#article293002"
+                        n="29.2" subtype="項" type="条" xml:id="article293002">
+                        <head ana="着鈦盤枷"/>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item29300201 engishiki_ja.xml#item29300201"
+                            xml:id="item29300201">本文</p>
+                    </div>
+                    <div ana="囚獄"
+                        corresp="engishiki_en.xml#article293003 engishiki_ja.xml#article293003"
+                        n="29.3" subtype="項" type="条" xml:id="article293003">
+                        <head ana="罪人死亡"/>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item29300301 engishiki_ja.xml#item29300301"
+                            xml:id="item29300301">本文</p>
+                    </div>
+                    <div ana="囚獄"
+                        corresp="engishiki_en.xml#article293004 engishiki_ja.xml#article293004"
+                        n="29.4" subtype="項" type="条" xml:id="article293004">
+                        <head ana="毎夜巡検"/>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item29300401 engishiki_ja.xml#item29300401"
+                            xml:id="item29300401">本文</p>
+                    </div>
+                    <div ana="囚獄"
+                        corresp="engishiki_en.xml#article293005 engishiki_ja.xml#article293005"
+                        n="29.5" subtype="項" type="条" xml:id="article293005">
+                        <head ana="看侍獄囚"/>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item29300501 engishiki_ja.xml#item29300501"
+                            xml:id="item29300501">本文</p>
+                    </div>
+                    <div ana="囚獄"
+                        corresp="engishiki_en.xml#article293006 engishiki_ja.xml#article293006"
+                        n="29.6" subtype="項" type="条" xml:id="article293006">
+                        <head ana="徒役人"/>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item29300601 engishiki_ja.xml#item29300601"
+                            xml:id="item29300601">本文</p>
+                    </div>
+                    <div ana="囚獄"
+                        corresp="engishiki_en.xml#article293007 engishiki_ja.xml#article293007"
+                        n="29.7" subtype="項" type="条" xml:id="article293007">
+                        <head ana="徒人役満"/>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item29300701 engishiki_ja.xml#item29300701"
+                            xml:id="item29300701">本文</p>
+                    </div>
+                    <div ana="囚獄"
+                        corresp="engishiki_en.xml#article293008 engishiki_ja.xml#article293008"
+                        n="29.8" subtype="項" type="条" xml:id="article293008">
+                        <head ana="戮罪人"/>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item29300801 engishiki_ja.xml#item29300801"
+                            xml:id="item29300801">本文</p>
+                    </div>
+                    <div ana="囚獄"
+                        corresp="engishiki_en.xml#article293009 engishiki_ja.xml#article293009"
+                        n="29.9" subtype="項" type="条" xml:id="article293009">
+                        <head ana="物部"/>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item29300901 engishiki_ja.xml#item29300901"
+                            xml:id="item29300901">本文</p>
+                    </div>
+                </div>
+                <div type="尾題" xml:id="bidai29">
+                    <p>尾題</p>
+                </div>
+                <div type="本奥書" xml:id="okugaki29">
+                    <p>本奥書</p>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>
