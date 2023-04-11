@@ -79,12 +79,13 @@ shiki_order = metadata[0]['式順']
 t_div_maki = soup.new_tag('div', **{"ana":f"{shiki_name}", "xml:id":f"volume{shiki_no}", "n":f"{shiki_no}", "type":"巻", "subtype":"式"})
 t_body.append(t_div_maki)
 
-# 4つのdivタグをその子要素に。それぞれ変数名で区別できるように
+# 5つのdivタグ（首題・式・式題・尾題・本奥書）をその子要素に。それぞれ変数名で区別できるように
 shiki_order_id = f"{shiki_no.zfill(2)}{shiki_order}"
 t_div_shudai = soup.new_tag('div', **{"type":"首題", "xml:id":f"shudai{shiki_no.zfill(2)}"})
 protocol_id = f'protocol{shiki_order_id}'
 t_div_shiki = soup.new_tag('div', **{"ana":f"{shiki_name}", "xml:id":f"{protocol_id}", "n":f"{shiki_no}", "type":"式", "subtype":"条", "corresp":f"{corresp_list[0]}#{protocol_id} {corresp_list[1]}#{protocol_id}"})
-t_div_bidai = soup.new_tag('div', **{"type":"首題", "xml:id":f"bidai{shiki_no.zfill(2)}"})
+t_div_shikidai = soup.new_tag('div', **{"type":"式題", "xml:id":f"shikidai{shiki_order_id}"})
+t_div_bidai = soup.new_tag('div', **{"type":"尾題", "xml:id":f"bidai{shiki_no.zfill(2)}"})
 t_div_okugaki = soup.new_tag('div', **{"type":"本奥書", "xml:id":f"okugaki{shiki_no.zfill(2)}"})
 
 # 首題のdivタグを最上位の子要素にし、自身の子要素にpタグと文字列を挿入。尾題と本奥書についても同様
@@ -94,6 +95,11 @@ t_div_shudai.p.string = '首題'
 
 # 本文を格納する式タグを生成
 t_div_maki.append(t_div_shiki)
+
+# 式タグの子要素に、式題のdivタグを挿入
+t_div_shiki.append(t_div_shikidai)
+t_div_shikidai.append(soup.new_tag('p'))
+t_div_shikidai.p.string = '式題'
 
 # 尾題
 t_div_maki.append(t_div_bidai)
@@ -118,7 +124,12 @@ for data in metadata:
     for kou in range(kous):
         item_id = f'item{article_id[-6:]}{str(kou+1).zfill(2)}'
         t_div_shiki.select('div')[-1].append(soup.new_tag('p', **{"ana":"項", "xml:id":f"{item_id}", "corresp":f"{corresp_list[0]}#{item_id} {corresp_list[1]}#{item_id}"}))
-        t_div_shiki.select('div')[-1].p.string = "本文"
+        # t_div_shiki.select('div')[-1].p.string = "本文"
+
+# 項の本文がうまく書き込まれないので、生成したあとに追加する
+items = soup.select('p[ana="項"]')
+for item in items:
+    item.append('本文')
 
 # すべての結果の書き込み
 result = open(output_filename, 'w', encoding='utf-8')
