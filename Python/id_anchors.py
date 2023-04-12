@@ -18,6 +18,34 @@ for p in paragraphs:
         else:
             anchor["xml:id"] = anchor_id + 'e'
 
+
+# 尾題と本奥書内のanchorへのID付与
+bidai_paras = soup.select('div[type="尾題"] p')
+
+for num, para in enumerate(bidai_paras):
+    anchors = para.select('anchor')
+    for index, anchor in enumerate(anchors):
+        anchor_id = 'app' + para.parent["xml:id"][-2:] + '8888' + str((num // 2) + 1).zfill(2) + str((index // 2) + 1).zfill(2)
+        if index % 2 == 0:
+            anchor["xml:id"] = anchor_id
+        else:
+            anchor["xml:id"] = anchor_id + 'e'
+
+
+okugaki_paras = soup.select('div[type="本奥書"] p')
+
+for num, para in enumerate(okugaki_paras):
+    anchors = para.select('anchor')
+    for index, anchor in enumerate(anchors):
+        anchor_id = 'app' + para.parent["xml:id"][-2:] + '9999' + str((num // 2) + 1).zfill(2) + str((index // 2) + 1).zfill(2)
+        if index % 2 == 0:
+            anchor["xml:id"] = anchor_id
+        else:
+            anchor["xml:id"] = anchor_id + 'e'
+
+
+
+
 f_output = open(f'../途中生成物/appID_{output_filename}', 'w', encoding='utf-8')
 f_output.write(str(soup))
 f_output.close()
