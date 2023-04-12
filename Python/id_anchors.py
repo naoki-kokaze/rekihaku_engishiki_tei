@@ -3,7 +3,7 @@ from bs4 import BeautifulSoup as BS
 vol = input('巻数は?\n')
 output_filename = f'engishiki_v{vol}.xml'
 
-f_input = open(f'../TEI files/{output_filename}', 'rb')
+f_input = open(f'../TEI編集用/{output_filename}', 'rb')
 soup = BS(f_input, 'xml')
 f_input.close()
 
