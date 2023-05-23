@@ -130,7 +130,9 @@
         <encodingDesc>
             <variantEncoding location="external" method="location-referenced"/>
             <tagsDecl>
-                <rendition xml:id="indent">text-indent: 1em;</rendition>
+                <rendition xml:id="indent1">text-indent: 1em;</rendition>
+                <rendition xml:id="indent2">text-indent: 2em;</rendition>
+                <rendition xml:id="kokumei">width:20%</rendition>
             </tagsDecl>
             <editorialDecl>
                 <p/>
@@ -157,11 +159,19 @@
                         <head ana="畿内"/>
                         <p ana="項"
                             corresp="engishiki_en.xml#item22100101 engishiki_ja.xml#item22100101"
-                            xml:id="item22100101">畿内 <lb/>山城国上〈管　乙訓　葛野　愛宕　紀伊　宇治　久世　綴喜　相楽〉
-                            <lb/>大和国大〈管　添上　添下　平群　広瀬　葛上　葛下　忍海　宇智　吉野　宇陀　城上　城下　山辺　十市　高市〉
-                            <lb/>河内国大〈管　錦部　石川　古市　安宿　大県　高安　河内　讃良　茨田　交野　若江　渋川　志紀　丹比〉
-                            <lb/>和泉国下〈管　大鳥　和泉　日根〉
-                            <lb/>摂津国上〈管　住吉　百済　東生　西成　島上　島下　豊島　河辺　武庫　兎原　八部　有馬　能勢〉 </p>
+                            xml:id="item22100101">畿内 
+                            <table rendition="#indent1">
+                                <row><cell rendition="#kokumei">山城国上</cell><cell>〈管　乙訓　葛野　愛宕　紀伊　宇治　久世　綴喜　相楽〉</cell></row>
+                                <row><cell rendition="#kokumei">大和国大</cell><cell>〈管　添上　添下　平群　広瀬　葛上　葛下　忍海　宇智　吉野　宇陀　城上　城下　山辺　十市　高市〉</cell></row>
+                                <row><cell rendition="#kokumei">河内国大</cell><cell>〈管　錦部　石川　古市　安宿　大県　高安　河内　讃良　茨田　交野　若江　渋川　志紀　丹比〉</cell></row>
+                                <row><cell rendition="#kokumei">和泉国下</cell><cell>〈管　大鳥　和泉　日根〉</cell></row>
+                                <row><cell rendition="#kokumei">摂津国上</cell><cell>〈管　住吉　百済　東生　西成　島上　島下　豊島　河辺　武庫　兎原　八部　有馬　能勢〉</cell></row>
+                            </table> </p>
+                        <app>
+                            <lem></lem>
+                            <rdg></rdg>
+                            <note></note>
+                        </app>
                     </div>
                     <div ana="民部上"
                         corresp="engishiki_en.xml#article221002 engishiki_ja.xml#article221002"
@@ -169,22 +179,34 @@
                         <head ana="東海道"/>
                         <p ana="項"
                             corresp="engishiki_en.xml#item22100201 engishiki_ja.xml#item22100201"
-                            xml:id="item22100201">東海道 <lb/>伊賀国下〈管　阿拝　山田　伊賀　名張〉
-                            <lb/>伊勢国大〈管　桑名　員弁　朝明　三重　河曲　鈴鹿　奄芸　安濃　壱志　飯高　飯野　多気　度会〉 <lb/>志摩国下〈管　答志　英虞〉
-                            <lb/>尾張国上〈管　海部　中島　葉栗　丹羽　春部　山田　愛智　知多〉 <lb/><anchor xml:id="app2210020101"
-                                />参<anchor xml:id="app2210020101e"/>河国上〈管　碧海　賀茂　額田　幡豆　宝<anchor
-                                xml:id="app2210020102"/>飫<anchor xml:id="app2210020102e"/>　設楽　八名　渥美〉
-                            <lb/>右為近国。 <lb/><anchor xml:id="app2210020103"/>遠<anchor
-                                xml:id="app2210020103e"
-                            />江国上〈管　浜名　敷智　引佐　麁玉　長上　長下　磐田　山香　周智　山名　佐野　城飼　蓁原〉
-                            <lb/>駿河国上〈管　志太　益頭　有度　安倍　廬原　富士　駿河〉 <lb/>伊豆国下〈管　田方　那賀　賀茂〉
-                            <lb/>甲斐国上〈管　山梨　八代　巨麻　都留〉 <lb/>右為中国、 <lb/>相模国上〈管　足上　足下　余綾　大住　愛甲　高座　鎌倉　御浦〉
-                            <lb/>武蔵国大〈管　久良　都筑　多麻　橘樹　荏原　豊島　足立　新座　入間　高麗　比企　横見　埼玉　大里　男衾　幡羅　榛沢　那珂　児玉　賀美　秩父〉
-                            <lb/>安房国中〈管　平群　安房　朝夷　長狭〉 <lb/>上総国大〈管　市原　海上　畦蒜　望陀　周准　天羽　夷灊　<anchor
-                                xml:id="app2210020104"/>埴<anchor xml:id="app2210020104e"
-                            />生　長柄　山辺　武射〉 <lb/><anchor xml:id="app2210020105"/>下<anchor
-                                xml:id="app2210020105e"/>総国大〈管　葛飾　千葉　印播　匝瑳　海上　香取　埴生　相馬　猿島　結城　豊田〉
-                            <lb/>常陸国大〈管　新治　真壁　筑波　河内　信太　茨城　行方　鹿島　那珂　久慈　多珂〉 </p>
+                            xml:id="item22100201">東海道 
+                            <table rendition="#indent1">
+                                <row><cell rendition="#kokumei">伊賀国下</cell><cell>〈管　阿拝　山田　伊賀　名張〉</cell></row>
+                                <row><cell rendition="#kokumei">伊勢国大</cell><cell>〈管　桑名　員弁　朝明　三重　河曲　鈴鹿　奄芸　安濃　壱志　飯高　飯野　多気　度会〉</cell></row> 
+                                <row><cell rendition="#kokumei">志摩国下</cell><cell>〈管　答志　英虞〉</cell></row>
+                                <row><cell rendition="#kokumei">尾張国上</cell><cell>〈管　海部　中島　葉栗　丹羽　春部　山田　愛智　知多〉</cell></row> 
+                                <row><cell rendition="#kokumei"><anchor xml:id="app2210020101"/>参<anchor xml:id="app2210020101e"/>河国上</cell><cell>〈管　碧海　賀茂　額田　幡豆　宝<anchor xml:id="app2210020102"/>飫<anchor xml:id="app2210020102e"/>　設楽　八名　渥美〉</cell></row></table>
+                            <s rendition="indent2">右為近国。</s> 
+                            <table>
+                                <row><cell rendition="#kokumei"><anchor xml:id="app2210020103"/>遠<anchor xml:id="app2210020103e"/>江国上</cell><cell>〈管　浜名　敷智　引佐　麁玉　長上　長下　磐田　山香　周智　山名　佐野　城飼　蓁原〉</cell></row>
+                                <row><cell rendition="#kokumei">駿河国上</cell><cell>〈管　志太　益頭　有度　安倍　廬原　富士　駿河〉</cell></row> 
+                                <row><cell rendition="#kokumei">伊豆国下</cell><cell>〈管　田方　那賀　賀茂〉</cell></row>
+                                <row><cell rendition="#kokumei">甲斐国上</cell><cell>〈管　山梨　八代　巨麻　都留〉</cell></row>
+                            </table> 
+                            <s rendition="#indent2">右為中国、</s> 
+                            <table rendition="#indent1">
+                                <row><cell rendition="#kokumei">相模国上</cell><cell>〈管　足上　足下　余綾　大住　愛甲　高座　鎌倉　御浦〉</cell></row>
+                                <row><cell rendition="#kokumei">武蔵国大</cell><cell>〈管　久良　都筑　多麻　橘樹　荏原　豊島　足立　新座　入間　高麗　比企　横見　埼玉　大里　男衾　幡羅　榛沢　那珂　児玉　賀美　秩父〉</cell></row>
+                                <row><cell rendition="#kokumei">安房国中</cell><cell>〈管　平群　安房　朝夷　長狭〉</cell></row>
+                                <row><cell rendition="#kokumei">上総国大</cell><cell>〈管　市原　海上　畦蒜　望陀　周准　天羽　夷灊　<anchor xml:id="app2210020104"/>埴<anchor xml:id="app2210020104e"/>生　長柄　山辺　武射〉</cell></row>
+                                <row><cell rendition="#kokumei"><anchor xml:id="app2210020105"/>下<anchor xml:id="app2210020105e"/>総国大</cell><cell>〈管　葛飾　千葉　印播　匝瑳　海上　香取　埴生　相馬　猿島　結城　豊田〉</cell></row>
+                                <row><cell rendition="#kokumei">常陸国大</cell><cell>〈管　新治　真壁　筑波　河内　信太　茨城　行方　鹿島　那珂　久慈　多珂〉</cell></row>
+                            </table> </p>
+                        <app>
+                            <lem></lem>
+                            <rdg></rdg>
+                            <note></note>
+                        </app>
                     </div>
                     <div ana="民部上"
                         corresp="engishiki_en.xml#article221003 engishiki_ja.xml#article221003"
@@ -211,7 +233,16 @@
                                 <lb/><anchor xml:id="app2210030108"/>出<anchor
                                 xml:id="app2210030108e"/>羽国上〈管　最上　村山　置賜　雄勝　平鹿　山本　飽海　河辺　田<anchor
                                 xml:id="app2210030109"/>川<anchor xml:id="app2210030109e"/>　出羽　秋田〉
-                            <lb/>右為遠国。 </p>
+                            <lb/>右為遠国。 
+                        <table><row rendition="indent"><cell></cell></row></table>
+                            
+                        </p>
+                        <app>
+                            <lem></lem>
+                            <rdg></rdg>
+                            <note></note>
+                        </app>
+                        
                     </div>
                     <div ana="民部上"
                         corresp="engishiki_en.xml#article221004 engishiki_ja.xml#article221004"
@@ -224,6 +255,11 @@
                             <lb/>能登国中〈管　羽咋　能登　鳳至　珠洲〉 <lb/>越中国上〈管　砺波　射水　婦負　新川〉 <lb/>右為中国。
                                 <lb/>越後国上〈管　頸城　古志　三島　魚沼　蒲原　<anchor xml:id="app2210040101"/>沼<anchor
                                 xml:id="app2210040101e"/>垂　石船〉 <lb/>佐渡国中〈管　羽茂　雑太　賀茂〉 <lb/>右為遠国。 </p>
+                        <app>
+                            <lem></lem>
+                            <rdg></rdg>
+                            <note></note>
+                        </app>
                     </div>
                     <div ana="民部上"
                         corresp="engishiki_en.xml#article221005 engishiki_ja.xml#article221005"
@@ -241,6 +277,11 @@
                                 <lb/>石見国中〈管　安濃　<anchor xml:id="app2210050103"/>邇<anchor
                                 xml:id="app2210050103e"/>摩　那賀　邑知　美濃　鹿足〉 <lb/>隠伎国下〈管　知夫　海部　周吉　穏地〉
                             <lb/>右為遠国。 </p>
+                        <app>
+                            <lem></lem>
+                            <rdg></rdg>
+                            <note></note>
+                        </app>
                     </div>
                     <div ana="民部上"
                         corresp="engishiki_en.xml#article221006 engishiki_ja.xml#article221006"
@@ -261,6 +302,11 @@
                             <lb/>周防国上〈管　大島　玖珂　熊毛　都濃　佐波　吉敷〉 <lb/>長門国中〈管　厚狭　豊浦　美<anchor
                                 xml:id="app2210060104"/>禰<anchor xml:id="app2210060104e"/>　大津　阿武〉
                             <lb/>右為遠国。 </p>
+                        <app>
+                            <lem></lem>
+                            <rdg></rdg>
+                            <note></note>
+                        </app>
                     </div>
                     <div ana="民部上"
                         corresp="engishiki_en.xml#article221007 engishiki_ja.xml#article221007"
@@ -276,6 +322,11 @@
                                 xml:id="app2210070102"/>刈田<anchor xml:id="app2210070102e"/>〉
                             <lb/>右為中国。 <lb/>伊予国上〈管　宇麻　新居　周敷　桑村　越智　野間　風早　和気　温泉　久米　浮穴　伊予　喜多　宇和〉
                             <lb/>土左国中〈管　安芸　香美　長岡　土左　吾川　高岡　播多〉 <lb/>右為遠国。 </p>
+                        <app>
+                            <lem></lem>
+                            <rdg></rdg>
+                            <note></note>
+                        </app>
                     </div>
                     <div ana="民部上"
                         corresp="engishiki_en.xml#article221008 engishiki_ja.xml#article221008"
@@ -300,6 +351,11 @@
                                 />　揖宿　給黎　谿山　<anchor xml:id="app2210080107"/>麑<anchor
                                 xml:id="app2210080107e"/>島〉 <lb/>壱伎島下〈管　壱伎　石田〉 <lb/>対馬島下〈管　上県　下県〉
                             <lb/>右為遠国。 </p>
+                        <app>
+                            <lem></lem>
+                            <rdg></rdg>
+                            <note></note>
+                        </app>
                     </div>
                     <div ana="民部上"
                         corresp="engishiki_en.xml#article221009 engishiki_ja.xml#article221009"
@@ -308,6 +364,11 @@
                         <p ana="項"
                             corresp="engishiki_en.xml#item22100901 engishiki_ja.xml#item22100901"
                             xml:id="item22100901">陸奥国　出羽国　佐渡国　隠伎国　壱伎島　対馬島 <lb/>右四国二島為辺要。 </p>
+                        <app>
+                            <lem></lem>
+                            <rdg></rdg>
+                            <note></note>
+                        </app>
                     </div>
                     <div ana="民部上"
                         corresp="engishiki_en.xml#article221010 engishiki_ja.xml#article221010"
@@ -318,6 +379,11 @@
                             xml:id="item22101001"
                                 >凡郡、不得過千戸。若余五十戸以上者、分隷比郡。地勢不宜分者、随状立別郡。其不満百戸者、隷入他郡。若不得已而応分者、別録申<anchor
                                 xml:id="app2210100101"/>官<anchor xml:id="app2210100101e"/>。</p>
+                        <app>
+                            <lem></lem>
+                            <rdg></rdg>
+                            <note></note>
+                        </app>
                     </div>
                     <div ana="民部上"
                         corresp="engishiki_en.xml#article221011 engishiki_ja.xml#article221011"
@@ -326,6 +392,11 @@
                         <p ana="項"
                             corresp="engishiki_en.xml#item22101101 engishiki_ja.xml#item22101101"
                             xml:id="item22101101">凡諸国部内郡・里等名、並用二字。必取嘉名。</p>
+                        <app>
+                            <lem></lem>
+                            <rdg></rdg>
+                            <note></note>
+                        </app>
                     </div>
                     <div ana="民部上"
                         corresp="engishiki_en.xml#article221012 engishiki_ja.xml#article221012"
@@ -337,6 +408,11 @@
                                 >凡諸国貢調庸者、越後・佐渡・隠伎三国並限明年七月。長門国限四月。伊予国限二月。但宇和・喜多両郡限三月。土左国限二月納訖。自余如令。其陸奥・出羽両国便納当国。西海道納大<anchor
                                 xml:id="app2210120101"/>宰<anchor xml:id="app2210120101e"
                             />府。〈其出納帳並附正税帳使申送。〉</p>
+                        <app>
+                            <lem></lem>
+                            <rdg></rdg>
+                            <note></note>
+                        </app>
                     </div>
                     <div ana="民部上"
                         corresp="engishiki_en.xml#article221013 engishiki_ja.xml#article221013"
