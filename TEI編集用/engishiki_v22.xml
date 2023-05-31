@@ -132,6 +132,7 @@
             <tagsDecl>
                 <rendition xml:id="indent1">margin-top: 1em;</rendition>
                 <rendition xml:id="indent2">margin-top: 2em;</rendition>
+                <rendition xml:id="indent5">margin-top: 5em;</rendition>
                 <rendition xml:id="kokumei">width: 80px;</rendition>
             </tagsDecl>
             <editorialDecl>
@@ -1652,6 +1653,23 @@
                                 xml:id="app2210820101"/>府<anchor xml:id="app2210820101e"
                                 />付貢綿使申送。検領訖即録白返<anchor xml:id="app2210820102"/>抄<anchor
                                 xml:id="app2210820102e"/>。</p>
+                        <app from="#app2210820101" to="#app2210820101e">
+                            <lem wit="#九本">府</lem>
+                            <rdg wit="#土本 #近本 #壬本 #京博本 #慶長本 #梵本"></rdg>
+                            <note>府　土本・近本・壬本・京博本・慶長本・梵本無し。九本により補う。</note>
+                        </app>
+                        <app from="#app2210820102" to="#app2210820102e">
+                            <lem>抄</lem>
+                            <rdg/>
+                            <note place="脚">土本細字注「関市令云、行人賷過所所出入関者、関司勘過、録白案記、義云、直於白紙録之、不点林印故云録白也、択云、録白々紙也」</note>
+                            <note place="脚">近本細字注「関市令云、行人賷過所所出入関者、関司勘過、録白案記、義云、直於白紙録之、不点林印故云録白也、択云、録白々紙也」</note>
+                            <note place="脚">壬本細字注「関市令云、行人賷過所所出入関者、関司勘過、録白案記、義云、直於白紙録之、不点林印故云録白也、択云、録白々紙也」</note>
+                            <note place="脚">京博本細字注「関市令云、行人賷過所所出入関者、関司勘過、録白案記、義云、直於白紙録之、不点林印故云録白也、択云、録白々紙也」</note>
+                            <note place="脚">慶長本細字注「関市令云、行人賷過所所出入関者、関司勘過、録白案記、義云、直於白紙録之、不点林印故云録白也、択云、録白々紙也」</note>
+                            <note place="脚">梵本細字注「関市令云、行人賷過所所出入関者、関司勘過、録白案記、義云、直於白紙録之、不点林印故云録白也、択云、録白々紙也」</note>
+                            <note>九本「録白返抄〈関市令云、行人及乗駅伝度関、々司皆写其過所、若官符以立案記、直於白紙録之、不点朱印、故云録白」</note>
+                            <note>抄　土本・近本・壬本・京博本・慶長本・梵本この下に細字注「関市令云、行人賷過所所出入関者、関司勘過、録白案記、義云、直於白紙録之、不点林印故云録白也、択云、録白々紙也」あり。九本は少し離れた位置に「録白返抄〈関市令云、行人及乗駅伝度関、々司皆写其過所、若官符以立案記、直於白紙録之、不点朱印、故云録白」とあり。</note>
+                        </app>
                     </div>
                     <div ana="民部上"
                         corresp="engishiki_en.xml#article221083 engishiki_ja.xml#article221083"
@@ -1661,6 +1679,11 @@
                             corresp="engishiki_en.xml#item22108301 engishiki_ja.xml#item22108301"
                             xml:id="item22108301">凡籍<anchor xml:id="app2210830101"/>書<anchor
                                 xml:id="app2210830101e"/>者、国家重案、其所須紙染黄蘗、必須堅厚。有不如法随即勘却。但西海道諸国書白紙。</p>
+                        <app from="#app2210830101" to="#app2210830101e">
+                            <lem wit="#九本 #壬本 #京博本 #慶長本 #梵本">書</lem>
+                            <rdg wit="#土本 #近本"></rdg>
+                            <note>書　土本・近本無し。九本・壬本・京博本・慶長本・梵本により補う。</note>
+                        </app>
                     </div>
                     <div ana="民部上"
                         corresp="engishiki_en.xml#article221084 engishiki_ja.xml#article221084"
@@ -1703,6 +1726,12 @@
                             xml:id="item22108801">凡雑色人等応勘籍者、式部・治部・兵部具<anchor xml:id="app2210880101"
                                 />注<anchor xml:id="app2210880101e"
                             />夾名申官。々下省訖、三省先遣史生告可勘籍之状。即丞・録各一人相共対勘、訖更造解文、同署申官。</p>
+                        <app from="#app2210880101" to="#app2210880101e">
+                            <lem wit="#土本 #九本 #近本 #壬本 #京博本 #慶長本 #梵本">注</lem>
+                            <rdg></rdg>
+                            <note place="傍">京博本朱傍書「<seg style="color:red">イ無</seg>」</note>
+                            <note>注　京博本朱傍書「イ無」。</note>
+                        </app>
                     </div>
                     <div ana="民部上"
                         corresp="engishiki_en.xml#article221089 engishiki_ja.xml#article221089"
@@ -1714,6 +1743,16 @@
                                 xml:id="app2210890101"/>符<anchor xml:id="app2210890101e"
                                 />、乃得奉行。但前後両籍<anchor xml:id="app2210890102"/>符<anchor
                                 xml:id="app2210890102e"/>合中間籍不合、依中納言以上宣行之。</p>
+                        <app from="#app2210890101" to="#app2210890101e">
+                            <lem wit="#九本 #慶長本訂正書">符</lem>
+                            <rdg wit="#土本 #近本 #壬本 #京博本 #梵本">府</rdg>
+                            <note>符　土本・近本・壬本・京博本・梵本「府」。九本、慶長本訂正書により改める。</note>
+                        </app>
+                        <app from="#app2210890102" to="#app2210890102e">
+                            <lem wit="#九本 #慶長本訂正書">符</lem>
+                            <rdg wit="#土本 #近本 #壬本 #京博本 #梵本">府</rdg>
+                            <note>符　土本・近本・壬本・京博本・梵本「府」。九本、慶長本訂正書により改める。</note>
+                        </app>
                     </div>
                     <div ana="民部上"
                         corresp="engishiki_en.xml#article221090 engishiki_ja.xml#article221090"
@@ -1748,6 +1787,11 @@
                             xml:id="item22109301">凡式部・治部・兵部等入色之徒応徴免課役季帳者、四孟月十六日各申官。々<anchor
                                 xml:id="app2210930101"/>符<anchor xml:id="app2210930101e"
                             />幷帳下省、々更勘弁、毎国造符、至後孟月申官行下。</p>
+                        <app from="#app2210930101" to="#app2210930101e">
+                            <lem wit="#九本 #慶長本訂正書">符</lem>
+                            <rdg wit="#土本 #近本 #壬本 #京博本 #梵本">府</rdg>
+                            <note>符　土本・近本・壬本・京博本・梵本「府」。九本、慶長本訂正書により改める。</note>
+                        </app>
                     </div>
                     <div ana="民部上"
                         corresp="engishiki_en.xml#article221094 engishiki_ja.xml#article221094"
@@ -1758,6 +1802,11 @@
                             xml:id="item22109401">凡毎年所載蠲符雑色人数、大国六十人、〈式部省<anchor
                                 xml:id="app2210940101"/>卌<anchor xml:id="app2210940101e"
                             />四人、治部省四人、兵部省十二人。〉上国卌人、〈式部省廿七人、治部省三人、兵部省十人。〉中国卅人、〈式部省廿一人、治部省二人、兵部省七人。〉下国廿人。〈式部省十三人、治部省一人、兵部省六人。〉</p>
+                        <app from="#app2210940101" to="#app2210940101e">
+                            <lem wit="#九本 #近本 #壬本 #京博本 #梵本">卌</lem>
+                            <rdg wit="#土本 #慶長本">卅</rdg>
+                            <note>卌　土本・慶長本「卅」。九本・近本・壬本・京博本・梵本により改める。</note>
+                        </app>
                     </div>
                     <div ana="民部上"
                         corresp="engishiki_en.xml#article221095 engishiki_ja.xml#article221095"
@@ -1767,6 +1816,12 @@
                             corresp="engishiki_en.xml#item22109501 engishiki_ja.xml#item22109501"
                             xml:id="item22109501">凡春季<anchor xml:id="app2210950101"/>破除<anchor
                                 xml:id="app2210950101e"/>者全免。夏季破除者徴調。秋季以後破除者全徴。</p>
+                        <app from="#app2210950101" to="#app2210950101e">
+                            <lem wit="#土本 #九本 #近本 #壬本 #京博本 #慶長本 #梵本">破除</lem>
+                            <rdg></rdg>
+                            <note place="頭">九本頭書「破除見考課令、減損之意也、死与逃之二事也者」</note>
+                            <note>破除　九本頭書「破除見考課令、減損之意也、死与逃之二事也者」。</note>
+                        </app>
                     </div>
                     <div ana="民部上"
                         corresp="engishiki_en.xml#article221096 engishiki_ja.xml#article221096"
@@ -1778,6 +1833,11 @@
                                 >凡官田者、山城国廿町、〈宮内省営八町、国営十二町。〉大和国十六町、〈省営九町、国営七町。〉河内国十八町、〈省営八町、国営十町。〉和泉国二町、〈国営。〉摂津国卅町。〈省営十五町、国営十五町。〉其営種料稲町別一百五十束、〈和泉国一百廿束。〉所<anchor
                                 xml:id="app2210960101"/>獲<anchor xml:id="app2210960101e"
                             />苗子五百束。〈和泉国四百束。〉国別長官主当其事。</p>
+                        <app from="#app2210960101" to="#app2210960101e">
+                            <lem wit="#土本 #九本 #近本 #壬本 #京博本 #慶長本 #梵本">獲</lem>
+                            <rdg></rdg>
+                            <note>獲　訳注本は「穫」と意改する。</note>
+                        </app>
                     </div>
                     <div ana="民部上"
                         corresp="engishiki_en.xml#article221097 engishiki_ja.xml#article221097"
@@ -1790,11 +1850,16 @@
                     <div ana="民部上"
                         corresp="engishiki_en.xml#article221098 engishiki_ja.xml#article221098"
                         n="22.98" subtype="項" type="条" xml:id="article221098">
-                        <head ana="外五位位田"/>
+                        <head ana="外五#位位田"/>
                         <p ana="項"
                             corresp="engishiki_en.xml#item22109801 engishiki_ja.xml#item22109801"
                             xml:id="item22109801">凡外五位<anchor xml:id="app2210980101"/>々<anchor
                                 xml:id="app2210980101e"/>田者、減内位半。</p>
+                        <app from="#app2210980101" to="#app2210980101e">
+                            <lem wit="土本 #近本 #壬本 #京博本 #慶長本 #梵本">々</lem>
+                            <rdg wit="#九本"/>
+                            <note>々（位）　九本無し。</note>
+                        </app>
                     </div>
                     <div ana="民部上"
                         corresp="engishiki_en.xml#article221099 engishiki_ja.xml#article221099"
@@ -1806,6 +1871,11 @@
                                 >凡位田者、各為二分、一分給畿内、一分外国。其一処所置不得過十町。但授給之後、偏号成川、不可必改給。若非常流損之国明成渕潭之処、依実<anchor
                                 xml:id="app2210990101"/>許<anchor xml:id="app2210990101e"
                             />相換。荒田不在此限。</p>
+                        <app from="#app2210990101" to="#app2210990101e">
+                            <lem wit="土本 #近本 #壬本 #京博本 #慶長本 #梵本">許</lem>
+                            <rdg wit="#九本">聴</rdg>
+                            <note>許　九本・訳注本「聴」。</note>
+                        </app>
                     </div>
                     <div ana="民部上"
                         corresp="engishiki_en.xml#article221100 engishiki_ja.xml#article221100"
@@ -1847,6 +1917,11 @@
                             corresp="engishiki_en.xml#item22110401 engishiki_ja.xml#item22110401"
                             xml:id="item22110401"><anchor xml:id="app2211040101"/>凡<anchor
                                 xml:id="app2211040101e"/>乗田可充品・位田者、以全町給之。</p>
+                        <app from="#app2211040101" to="#app2211040101e">
+                            <lem>凡</lem>
+                            <rdg></rdg>
+                            <note>凡　九本は本条を前条の前に置く。</note>
+                        </app>
                     </div>
                     <div ana="民部上"
                         corresp="engishiki_en.xml#article221105 engishiki_ja.xml#article221105"
@@ -1856,6 +1931,12 @@
                             corresp="engishiki_en.xml#item22110501 engishiki_ja.xml#item22110501"
                             xml:id="item22110501">凡六月・十二月御体御卜之<anchor xml:id="app2211050101"
                                 />間<anchor xml:id="app2211050101e"/>、不得奏授封戸及田。</p>
+                        <app from="#app2211050101" to="#app2211050101e">
+                            <lem wit="#土本 #九本 #近本 #壬本 #京博本 #慶長本 #梵本">間</lem>
+                            <rdg></rdg>
+                            <note place="傍">九本傍書「神祇官式云、始自朔日迄于十日云々」</note>
+                            <note>間　九本傍書「神祇官式云、始自朔日迄于十日云々」。</note>
+                        </app>
                     </div>
                     <div ana="民部上"
                         corresp="engishiki_en.xml#article221106 engishiki_ja.xml#article221106"
@@ -1865,6 +1946,11 @@
                             corresp="engishiki_en.xml#item22110601 engishiki_ja.xml#item22110601"
                             xml:id="item22110601"><anchor xml:id="app2211060101"/>凡<anchor
                                 xml:id="app2211060101e"/>諸国品・位田帳、附税帳使毎年進之。</p>
+                        <app from="#app2211060101" to="#app2211060101e">
+                            <lem>凡</lem>
+                            <rdg></rdg>
+                            <note>凡　土本改行せず前行と追い込む。九本・壬本・京博本・慶長本により改める。近本・梵本は前条が地につく。</note>
+                        </app>
                     </div>
                     <div ana="民部上"
                         corresp="engishiki_en.xml#article221107 engishiki_ja.xml#article221107"
@@ -1924,6 +2010,12 @@
                             xml:id="item22111301">凡貢采女郡者、各置養田三町。仍令郡司主帳已上作<anchor
                                 xml:id="app2211130101"/>差<anchor xml:id="app2211130101e"
                             />営種、各割穫稲以充佃料。所残舂米、若交易軽物送納其主。運賃便用稲内。路程僻遠傭費雖多、勿割二町之内。</p>
+                        <app from="#app2211130101" to="#app2211130101e">
+                            <lem wit="#土本 #九本 #近本 #壬本 #京博本 #慶長本 #梵本">差</lem>
+                            <rdg></rdg>
+                            <note>近本訂正「其」</note>
+                            <note>差　近本「差」を「其」に訂正。</note>
+                        </app>
                     </div>
                     <div ana="民部上"
                         corresp="engishiki_en.xml#article221114 engishiki_ja.xml#article221114"
@@ -1939,8 +2031,7 @@
                         <head ana="惸独"/>
                         <p ana="項"
                             corresp="engishiki_en.xml#item22111501 engishiki_ja.xml#item22111501"
-                            xml:id="item22111501">凡摂津国<anchor xml:id="app2211150101"/>惸<anchor
-                                xml:id="app2211150101e"/>独田、国司営種。所穫苗子毎年申官、待有処分乃後充用。</p>
+                            xml:id="item22111501">凡摂津国惸独田、国司営種。所穫苗子毎年申官、待有処分乃後充用。</p>
                     </div>
                     <div ana="民部上"
                         corresp="engishiki_en.xml#article221116 engishiki_ja.xml#article221116"
@@ -1982,6 +2073,11 @@
                             corresp="engishiki_en.xml#item22112001 engishiki_ja.xml#item22112001"
                             xml:id="item22112001">凡陸奥鎮守・大宰等府<anchor xml:id="app2211200101"/>国<anchor
                                 xml:id="app2211200101e"/>府掌各二人、毎人給職田二町。</p>
+                        <app from="#app2211200101" to="#app2211200101e">
+                            <lem wit="#土本 #九本 #近本 #壬本 #京博本 #慶長本 #梵本">国</lem>
+                            <rdg></rdg>
+                            <note>国　訳注本は考異に従い削る。</note>
+                        </app>
                     </div>
                     <div ana="民部上"
                         corresp="engishiki_en.xml#article221121 engishiki_ja.xml#article221121"
@@ -1991,6 +2087,12 @@
                             corresp="engishiki_en.xml#item22112101 engishiki_ja.xml#item22112101"
                             xml:id="item22112101">凡佐渡国雑太団、給軍<anchor xml:id="app2211210101"/>毅<anchor
                                 xml:id="app2211210101e"/>職田二町。主帳一町。</p>
+                        <app from="#app2211210101" to="#app2211210101e">
+                            <lem wit="#土本 #九本 #近本 #壬本 #京博本 #慶長本 #梵本">毅</lem>
+                            <rdg></rdg>
+                            <note place="傍">京博本左朱傍書「<seg style="color:red">殷イ</seg>」</note>
+                            <note>毅　京博本左朱傍書「殷イ」。</note>
+                        </app>
                     </div>
                     <div ana="民部上"
                         corresp="engishiki_en.xml#article221122 engishiki_ja.xml#article221122"
@@ -2001,6 +2103,11 @@
                             xml:id="item22112201">凡諸国<anchor xml:id="app2211220101"/>校<anchor
                                 xml:id="app2211220101e"
                             />田者、皆校応堪見営之田。其常荒・成川・不用等地、各造別簿、並倶申上。不得隠没。若有違犯者随状科罪。</p>
+                        <app from="#app2211220101" to="#app2211220101e">
+                            <lem wit="#九本 #近本 #壬本 #京博本 #慶長本 #梵本">校</lem>
+                            <rdg wit="#土本">授</rdg>
+                            <note>校　土本「授」。九本・近本・壬本・京博本・慶長本・梵本により改める。</note>
+                        </app>
                     </div>
                     <div ana="民部上"
                         corresp="engishiki_en.xml#article221123 engishiki_ja.xml#article221123"
@@ -2014,6 +2121,29 @@
                                 xml:id="app2211230103"/>授<anchor xml:id="app2211230103e"
                                 />口帳言上、待報符即班給。自十月始班授。〈其畿内遣使<anchor xml:id="app2211230104"/>校<anchor
                                 xml:id="app2211230104e"/>班。〉</p>
+                        <app from="#app2211230101" to="#app2211230101e">
+                            <lem wit="#九本傍書 #近本訂正書">校</lem>
+                            <rdg wit="#土本 #九本 #近本 #壬本 #京博本 #慶長本 #梵本">授</rdg>
+                            <note place="傍">九本傍書「校」</note>
+                            <note>近本訂正書「校」</note>
+                            <note>校　土本・壬本・京博本・慶長本・梵本「授」。九本傍書・近本訂正書により改める。</note>
+                        </app>
+                        <app from="#app2211230102" to="#app2211230102e">
+                            <lem wit="#九本 #近本 #壬本 #京博本 #慶長本 #梵本">副</lem>
+                            <rdg wit="#土本">制</rdg>
+                            <note>副　土本「制」。九本・近本・壬本・京博本・慶長本・梵本により改める。</note>
+                        </app>
+                        <app from="#app2211230103" to="#app2211230103e">
+                            <lem wit="#九本">授</lem>
+                            <rdg wit="#土本 #近本 #壬本 #京博本 #慶長本 #梵本">校</rdg>
+                            <note>授　土本・近本・壬本・京博本・慶長本・梵本「校」。九本により改める。</note>
+                        </app>
+                        <app from="#app2211230104" to="#app2211230104e">
+                            <lem wit="#九本 #壬本 #京博本 #慶長本 #梵本 #近本訂正書">校</lem>
+                            <rdg wit="#土本 #近本">授</rdg>
+                            <note>近本訂正書「校」</note>
+                            <note>校　土本「授」。九本・壬本・京博本・慶長本・梵本、近本訂正書により改める。</note>
+                        </app>
                     </div>
                     <div ana="民部上"
                         corresp="engishiki_en.xml#article221124 engishiki_ja.xml#article221124"
@@ -2025,6 +2155,22 @@
                                 xml:id="app2211240101e"/>諸国<anchor xml:id="app2211240102"/>校<anchor
                                 xml:id="app2211240102e"/>田・授口等帳、下省之日、比<anchor xml:id="app2211240103"
                                 />校<anchor xml:id="app2211240103e"/>前班田帳。若乗田之数有減省者、折不課分満本数。</p>
+                        <app from="#app2211240101" to="#app2211240101e">
+                            <lem>凡</lem>
+                            <rdg></rdg>
+                            <note>凡　土本改行せず前条に追い込む。九本・壬本・京博本・慶長本・梵本により改める。近本前条地につく。</note>
+                        </app>
+                        <app from="#app2211240102" to="#app2211240102e">
+                            <lem wit="#九本 #近本 #壬本 #京博本 #慶長本 #梵本">校</lem>
+                            <rdg wit="#土本 #近本傍書">授</rdg>
+                            <note place="傍">近本傍書「授」</note>
+                            <note>校　土本「授」。九本・壬本・京博本・慶長本・梵本により改める。近本は「校」とし「授」と傍書。</note>
+                        </app>
+                        <app from="#app2211240103" to="#app2211240103e">
+                            <lem wit="#九本 #近本 #壬本 #京博本 #慶長本 #梵本">校</lem>
+                            <rdg wit="#土本">授</rdg>
+                            <note>校　土本「授」。九本・近本・壬本・京博本・慶長本・梵本により改める。</note>
+                        </app>
                     </div>
                     <div ana="民部上"
                         corresp="engishiki_en.xml#article221125 engishiki_ja.xml#article221125"
@@ -2034,6 +2180,11 @@
                             corresp="engishiki_en.xml#item22112501 engishiki_ja.xml#item22112501"
                             xml:id="item22112501">凡<anchor xml:id="app2211250101"/>校<anchor
                                 xml:id="app2211250101e"/>田帳、比校前帳、若有損返其帳。</p>
+                        <app from="#app2211250101" to="#app2211250101e">
+                            <lem wit="#九本 #近本 #壬本 #京博本 #慶長本 #梵本">校</lem>
+                            <rdg wit="#土本">授</rdg>
+                            <note>校　土本「授」。九本・近本・壬本・京博本・慶長本・梵本により改める。</note>
+                        </app>
                     </div>
                     <div ana="民部上"
                         corresp="engishiki_en.xml#article221126 engishiki_ja.xml#article221126"
@@ -2045,6 +2196,17 @@
                                 xml:id="app2211260101e"/>田・授口帳之日、若大帳<anchor xml:id="app2211260102"
                                 />与<anchor xml:id="app2211260102e"
                             />授口帳男数不等者、宜返其帳。但女人縦雖授口帳数少、依例勘之。</p>
+                        <app from="#app2211260101" to="#app2211260101e">
+                            <lem wit="#九本 #近本 #壬本 #京博本 #慶長本 #梵本">校</lem>
+                            <rdg wit="#土本">授</rdg>
+                            <note>校　土本「授」。九本・近本・壬本・京博本・慶長本・梵本により改める。</note>
+                        </app>
+                        <app from="#app2211260102" to="#app2211260102e">
+                            <lem wit="#土本 #九本 #近本 #壬本 #京博本 #慶長本 #梵本">与</lem>
+                            <rdg></rdg>
+                            <note place="傍">京博本朱傍書「<seg style="color:red">子イ</seg>」</note>
+                            <note>与　京博本朱傍書「子イ」。</note>
+                        </app>
                     </div>
                     <div ana="民部上"
                         corresp="engishiki_en.xml#article221127 engishiki_ja.xml#article221127"
@@ -2070,6 +2232,11 @@
                             corresp="engishiki_en.xml#item22112901 engishiki_ja.xml#item22112901"
                             xml:id="item22112901">凡諸国班田簿帳目録、進官、外題下省。々依<anchor xml:id="app2211290101"
                                 />色<anchor xml:id="app2211290101e"/>数勘会、訖即録白返抄。</p>
+                        <app from="#app2211290101" to="#app2211290101e">
+                            <lem wit="#九本">色</lem>
+                            <rdg wit="#土本 #近本 #壬本 #京博本 #慶長本 #梵本">邑</rdg>
+                            <note>色　土本・近本・壬本・京博本・慶長本・梵本「邑」。九本により改める。</note>
+                        </app>
                     </div>
                     <div ana="民部上"
                         corresp="engishiki_en.xml#article221130 engishiki_ja.xml#article221130"
@@ -2136,6 +2303,23 @@
                             xml:id="item22113701"><anchor xml:id="app2211370101"/>凡<anchor
                                 xml:id="app2211370101e"/>遭水旱災蝗不<anchor xml:id="app2211370102"
                                 />熟<anchor xml:id="app2211370102e"/>田、一処五十戸以上者馳駅申上。</p>
+                        <app from="#app2211370101" to="#app2211370101e">
+                            <lem>凡</lem>
+                            <rdg></rdg>
+                            <note place="頭">土本頭書「在格」</note>
+                            <note place="頭">近本頭書「在格」</note>
+                            <note place="頭">壬本頭書「在格」</note>
+                            <note place="頭">京博本頭書「在格」</note>
+                            <note place="頭">慶長本頭書「在格」</note>
+                            <note place="頭">梵本頭書「在格」</note>
+                            <note>凡　土本・近本・壬本・京博本・慶長本・梵本頭書「在格」。</note>
+                        </app>
+                        <app from="#app2211370102" to="#app2211370102e">
+                            <lem wit="#土本 #九本 #近本 #壬本 #京博本 #慶長本 #梵本">熟</lem>
+                            <rdg></rdg>
+                            <note place="傍">京博本左朱傍書「<seg style="color:red">勢イ</seg>」</note>
+                            <note>熟　京博本左朱傍書「勢イ」。</note>
+                        </app>
                     </div>
                     <div ana="民部上"
                         corresp="engishiki_en.xml#article221138 engishiki_ja.xml#article221138"
@@ -2200,9 +2384,16 @@
                     <p>延喜式巻第廿二</p>
                 </div>
                 <div type="本奥書" xml:id="okugaki22">
-                    <p>延長五年十二月廿六日<anchor xml:id="app2299990101"/>外<anchor xml:id="app2299990101e"
-                        />従五位下行左大史阿刀宿禰忠行 <lb/>従五位上行勘解由次官兼大外記紀伊権介伴宿禰久永 <lb/>従四位上行神祇伯臣大中臣朝臣安則
-                        <lb/>大納言正三位兼行民部卿臣藤原朝臣清貫 <lb/>左大臣正二位兼行左近衛大将皇太子傅臣藤原朝臣忠平 </p>
+                    <p><table rendition="#indent5"><row><cell>延長五年十二月廿六日</cell><cell><anchor xml:id="app2299990101"/>外従五位下行左大史阿刀宿禰忠行 <lb/>従五位上行勘解由次官兼大外記紀伊権介伴宿禰久永 <lb/>従四位上行神祇伯臣大中臣朝臣安則
+                        <lb/>大納言正三位兼行民部卿臣藤原朝臣清貫 <lb/>左大臣正二位兼行左近衛大将皇太子傅臣藤原朝臣忠平<anchor xml:id="app2299990101e"
+                        /></cell></row></table></p>
+                    <app from="#app2299990101" to="#app2299990101e">
+                        <lem wit="#九本 #慶長本">外従五位下行左大史阿刀宿禰忠行 <lb/>従五位上行勘解由次官兼大外記紀伊権介伴宿禰久永 <lb/>従四位上行神祇伯臣大中臣朝臣安則
+                            <lb/>大納言正三位兼行民部卿臣藤原朝臣清貫 <lb/>左大臣正二位兼行左近衛大将皇太子傅臣藤原朝臣忠平</lem>
+                        <rdg wit="#土本 #近本 #壬本 #梵本">署所同前</rdg>
+                        <note>京博本「従是ハイ本」</note>
+                        <note>外…　以下忠平まで、土本・近本・壬本・梵本「署所同前」。九本・慶長本により改める。京博本は「従是ハイ本」としてあり。</note>
+                    </app>
                 </div>
             </div>
         </body>
