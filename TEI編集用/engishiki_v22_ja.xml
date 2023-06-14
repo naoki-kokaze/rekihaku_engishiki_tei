@@ -130,7 +130,10 @@
         <encodingDesc>
             <variantEncoding location="external" method="location-referenced"/>
             <tagsDecl>
-                <rendition xml:id="indent">text-indent: 1em;</rendition>
+                <rendition xml:id="indent1">margin-top: 1em;</rendition>
+                <rendition xml:id="indent2">margin-top: 2em;</rendition>
+                <rendition xml:id="indent5">margin-top: 5em;</rendition>
+                <rendition xml:id="kokumei">width: 80px;</rendition>
             </tagsDecl>
             <editorialDecl>
                 <p/>
@@ -144,1315 +147,1762 @@
         <body>
             <div ana="民部上" n="22" subtype="式" type="巻" xml:id="volume22">
                 <div type="首題" xml:id="shudai22">
-                    <p>首題</p>
+                    <p>延喜式巻第廿二</p>
                 </div>
                 <div ana="民部上" corresp="engishiki.xml#protocol221 engishiki_en.xml#protocol221"
                     n="22" subtype="条" type="式" xml:id="protocol221">
                     <div type="式題" xml:id="shikidai221">
-                        <p>式題</p>
+                        <p>民部上</p>
                     </div>
                     <div ana="民部上"
                         corresp="engishiki.xml#article221001 engishiki_en.xml#article221001"
                         n="22.1" subtype="項" type="条" xml:id="article221001">
                         <head ana="畿内"/>
-                        <note type="summary">条文概要</note>
+                        <note type="summary">畿内の国の種別と管轄する郡のリスト</note>
                         <p ana="項"
                             corresp="engishiki.xml#item22100101 engishiki_en.xml#item22100101"
-                            xml:id="item22100101">本文</p>
+                            xml:id="item22100101">畿内 <table rendition="#indent1">
+                                <row>
+                                    <cell rendition="#kokumei">山城国上</cell>
+                                    <cell>〈管轄する郡　乙訓<rt>おとくに</rt>　葛野<rt>かどの</rt>　愛宕<rt>おたぎ</rt>　紀伊<rt>き</rt>　宇治　久世<rt>くぜ</rt>　綴喜<rt>つづき</rt>　相楽<rt>さからか</rt>〉</cell>
+                                </row>
+                                <row>
+                                    <cell rendition="#kokumei">大和国大</cell>
+                                    <cell>〈管轄する郡　添上<rt>そうのかみ</rt>　添下<rt>そうのしも</rt>　平群<rt>へぐり</rt>　広瀬　葛上<rt>かずらきのかみ</rt>　葛下<rt>かずらきのしも</rt>　忍海<rt>おしのみ</rt>　宇智　吉野　宇陀　城上<rt>しきのかみ</rt>　城下<rt>しきのしも</rt>　山辺<rt>やまのべ</rt>　十市<rt>とおち</rt>　高市<rt>たけち</rt>〉</cell>
+                                </row>
+                                <row>
+                                    <cell rendition="#kokumei">河内国大</cell>
+                                    <cell>〈管轄する郡　錦部<rt>にしこり</rt>　石川　古市<rt>ふるち</rt>　安宿<rt>あすかべ</rt>　　大県<rt>おおかた</rt>　高安　河内<rt>かわち</rt>　讃良<rt>さらら</rt>　茨田<rt>まんた</rt>　交野<rt>かたの</rt>　若江　渋川　志紀　丹比<rt>たじひ</rt>〉</cell>
+                                </row>
+                                <row>
+                                    <cell rendition="#kokumei">和泉国下</cell>
+                                    <cell>〈管轄する郡　大鳥　和泉　日根〉</cell>
+                                </row>
+                                <row>
+                                    <cell rendition="#kokumei">摂津国上</cell>
+                                    <cell>〈管轄する郡　住吉　百済<rt>くだら</rt>　東生<rt>ひがしなり</rt>　西成<rt>にしなり</rt>　島上<rt>しまのかみ</rt>　島下<rt>しまのしも</rt>　豊島<rt>てしま</rt>　河辺<rt>かわのべ</rt>　武庫<rt>むこ</rt>　兎原<rt>うはら</rt>　八部<rt>やたべ</rt>　有馬<rt>ありま</rt>　能勢<rt>のせ</rt>〉</cell>
+                                </row>
+                            </table></p>
                     </div>
                     <div ana="民部上"
                         corresp="engishiki.xml#article221002 engishiki_en.xml#article221002"
                         n="22.2" subtype="項" type="条" xml:id="article221002">
                         <head ana="東海道"/>
-                        <note type="summary">条文概要</note>
+                        <note type="summary">東海道の国の種別と管轄する郡のリスト</note>
                         <p ana="項"
                             corresp="engishiki.xml#item22100201 engishiki_en.xml#item22100201"
-                            xml:id="item22100201">本文</p>
+                            xml:id="item22100201">東海道<table rendition="#indent1">
+                                <row>
+                                    <cell rendition="#kokumei">伊賀国下</cell>
+                                    <cell>〈管轄する郡　阿拝<rt>あべ</rt>　山田　伊賀　名張<rt>なばり</rt>〉</cell>
+                                </row>
+                                <row>
+                                    <cell rendition="#kokumei">伊勢国大</cell>
+                                    <cell>〈管轄する郡　桑名　員弁<rt>いなべ</rt>　朝明<rt>あさけ</rt>　三重<rt>みえ</rt>　河曲<rt>かわわ</rt>　鈴鹿<rt>すずか</rt>　奄芸<rt>あんき</rt>　安濃<rt>あの</rt>　壱志<rt>いちし</rt>　飯高<rt>いいたか</rt>　飯野<rt>いいの</rt>　多気<rt>たけ</rt>　度会<rt>わたらい</rt>〉</cell>
+                                </row>
+                                <row>
+                                    <cell rendition="#kokumei">志摩国下</cell>
+                                    <cell>〈管轄する郡　答志<rt>とうし</rt>　英虞<rt>あご</rt>〉</cell>
+                                </row>
+                                <row>
+                                    <cell rendition="#kokumei">尾張国上</cell>
+                                    <cell>〈管轄する郡　海部<rt>あま</rt>　中島　葉栗<rt>はくり</rt>　丹羽<rt>にわ</rt>　春部<rt>かすかべ</rt>　山田　愛智<rt>あいち</rt>　知多<rt>ちた</rt>〉</cell>
+                                </row>
+                                <row>
+                                    <cell rendition="#kokumei">参河国上</cell>
+                                    <cell>〈管轄する郡　碧海<rt>あおみ</rt>　賀茂　額田<rt>ぬかた</rt>　幡豆<rt>はず</rt>　宝飫<rt>ほお</rt>　設楽<rt>したら</rt>　八名<rt>やな</rt>　渥美<rt>あつみ</rt>〉</cell>
+                                </row>
+                            </table>
+                            <s rendition="#indent2">以上は近国とせよ。</s>
+                            <table rendition="#indent1">
+                                <row>
+                                    <cell rendition="#kokumei">遠江国上</cell>
+                                    <cell>〈管轄する郡　浜名　敷智<rt>ふち</rt>　引佐<rt>いなさ</rt>　麁玉<rt>あらたま</rt>　長上<rt>ながのかみ</rt>　長下<rt>ながのしも</rt>　磐田<rt>いわた</rt>　山香<rt>やまか</rt>　周智<rt>すち</rt>　山名<rt>やまな</rt>　佐野<rt>さや</rt>　城飼<rt>きこう</rt>　蓁原<rt>あいはら</rt>〉</cell>
+                                </row>
+                                <row>
+                                    <cell rendition="#kokumei">駿河国上</cell>
+                                    <cell>〈管轄する郡　志太<rt>しだ</rt>　益頭<rt>ましず</rt>　有度<rt>うど</rt>　安倍　廬原<rt>いおはら</rt>　富士　駿河<rt>するが</rt>〉</cell>
+                                </row>
+                                <row>
+                                    <cell rendition="#kokumei">伊豆国下</cell>
+                                    <cell>〈管轄する郡　田方<rt>たかた</rt>　那賀　賀茂〉</cell>
+                                </row>
+                                <row>
+                                    <cell rendition="#kokumei">甲斐国上</cell>
+                                    <cell>〈管轄する郡　山梨　八代<rt>やつしろ</rt>　巨麻<rt>こま</rt>　都留<rt>つる</rt>〉</cell>
+                                </row>
+                            </table>
+                            <s rendition="#indent2">以上は中国とせよ。</s>
+                            <table rendition="#indent1">
+                                <row>
+                                    <cell rendition="#kokumei">相模国上</cell>
+                                    <cell>〈管轄する郡　足上<rt>あしがらのかみ</rt>　足下<rt>あしがらのしも</rt>　余綾<rt>よろき</rt>　大住<rt>おおすみ</rt>　愛甲<rt>あゆかわ</rt>　高座<rt>たかくら</rt>　鎌倉　御浦<rt>みうら</rt>〉</cell>
+                                </row>
+                                <row>
+                                    <cell rendition="#kokumei">武蔵国大</cell>
+                                    <cell>〈管轄する郡　久良<rt>くらき</rt>　都筑<rt>つづき</rt>　多麻　橘樹<rt>たちばな</rt>　荏原<rt>えはら</rt>　豊島<rt>としま</rt>　足立<rt>あだち</rt>　新座<rt>にいくら</rt>　入間<rt>いるま</rt>　高麗<rt>こま</rt>　比企<rt>ひき</rt>　横見　埼玉<rt>さきたま</rt>　大里<rt>おおさと</rt>　男衾<rt>おぶすま</rt>　幡羅<rt>はら</rt>　榛沢<rt>はんざわ</rt>　那珂<rt>なか</rt>　児玉<rt>こだま</rt>　賀美<rt>かみ</rt>　秩父<rt>ちちぶ</rt>〉</cell>
+                                </row>
+                                <row>
+                                    <cell rendition="#kokumei">安房国中</cell>
+                                    <cell>〈管轄する郡　平群<rt>へぐり</rt>　安房<rt>あわ</rt>　朝夷<rt>あさひな</rt>　長狭<rt>ながさ</rt>〉</cell>
+                                </row>
+                                <row>
+                                    <cell rendition="#kokumei">上総国大</cell>
+                                    <cell>〈管轄する郡　市原　海上<rt>うなかみ</rt>　畦蒜<rt>あひる</rt>　望陀<rt>もうだ</rt>　周准<rt>すえ</rt>　天羽<rt>あまは</rt>　夷灊<rt>いすみ</rt>　埴生<rt>はにう</rt>　長柄<rt>ながら</rt>　山辺<rt>やまのべ</rt>　武射<rt>むさ</rt>〉</cell>
+                                </row>
+                                <row>
+                                    <cell rendition="#kokumei">下総国大</cell>
+                                    <cell>〈管轄する郡　葛飾<rt>かつしか</rt>　千葉　印播<rt>いんば</rt>　匝瑳<rt>そうさ</rt>　海上　香取　埴生　相馬<rt>そうま</rt>　猿島<rt>さしま</rt>　結城<rt>ゆうき</rt>　豊田〉</cell>
+                                </row>
+                                <row>
+                                    <cell rendition="#kokumei">常陸国大</cell>
+                                    <cell>〈管轄する郡　新治<rt>にいはり</rt>　真壁<rt>まかべ</rt>　筑波<rt>つくば</rt>　河内<rt>こうち</rt>　信太<rt>しだ</rt>　茨城<rt>うばらぎ</rt>　行方<rt>なめかた</rt>　鹿島<rt>かしま</rt>　那珂<rt>なか</rt>　久慈<rt>くじ</rt>　多珂<rt>たか</rt>〉</cell>
+                                </row>
+                            </table>
+                            <s rendition="#indent2">以上は遠国とせよ。</s></p>
                     </div>
                     <div ana="民部上"
                         corresp="engishiki.xml#article221003 engishiki_en.xml#article221003"
                         n="22.3" subtype="項" type="条" xml:id="article221003">
                         <head ana="東山道"/>
-                        <note type="summary">条文概要</note>
+                        <note type="summary">東山道の国の種別と管轄する郡のリスト</note>
                         <p ana="項"
                             corresp="engishiki.xml#item22100301 engishiki_en.xml#item22100301"
-                            xml:id="item22100301">本文</p>
+                            xml:id="item22100301">東山道 <table rendition="#indent1">
+                                <row>
+                                    <cell rendition="#kokumei">近江国大</cell>
+                                    <cell>〈管轄する郡　滋賀　栗太<rt>くるもと</rt>　甲賀　野洲<rt>やす</rt>　蒲生<rt>がもう</rt>　神崎　愛智<rt>えち</rt>　犬上　坂田　浅井　伊香<rt>いかご</rt>　高島〉</cell>
+                                </row>
+                                <row>
+                                    <cell rendition="#kokumei">美濃国上</cell>
+                                    <cell>〈管轄する郡　多芸<rt>たき</rt>　石津　不破<rt>ふわ</rt>　安八<rt>あはち</rt>　池田　大野　本巣<rt>もとす</rt>　席田<rt>むしろた</rt>　方県<rt>かたがた</rt>　厚見<rt>あつみ</rt>　各務<rt>かがみ</rt>　山県<rt>やまがた</rt>　武義<rt>むげ</rt>　郡上<rt>ぐじょう</rt>　賀茂　可児<rt>かに</rt>　土岐<rt>とき</rt>　恵奈<rt>えな</rt>〉</cell>
+                                </row>
+                            </table>
+                            <s rendition="#indent2">以上は近国とせよ。</s>
+                            <table rendition="#indent1">
+                                <row>
+                                    <cell rendition="#kokumei">飛騨国下</cell>
+                                    <cell>〈管轄する郡　大野　益田<rt>ました</rt>　荒城<rt>あらき</rt>〉</cell>
+                                </row>
+                                <row>
+                                    <cell rendition="#kokumei">信濃国上</cell>
+                                    <cell>〈管轄する郡　伊那<rt>いな</rt>　諏方<rt>すわ</rt>　筑摩<rt>つかま</rt>　安曇<rt>あずみ</rt>　更級<rt>さらしな</rt>　水内<rt>みのち</rt>　高井　埴科<rt>はにしな</rt>　小県<rt>ちいさがた</rt>　佐久〉</cell>
+                                </row>
+                            </table>
+                            <s rendition="#indent2">以上は中国とせよ。</s>
+                            <table rendition="#indent1">
+                                <row>
+                                    <cell rendition="#kokumei">上野国大</cell>
+                                    <cell>〈管轄する郡　碓氷<rt>うすい</rt>　片岡　甘楽<rt>かんら</rt>　多胡<rt>たご</rt>　緑野<rt>みどの</rt>　那波　群馬<rt>くるま</rt>　吾妻<rt>あがつま</rt>　利根<rt>とね</rt>　勢多<rt>せた</rt>　佐位<rt>さい</rt>　新田<rt>にうた</rt>　山田　邑楽<rt>おはらき</rt>〉</cell>
+                                </row>
+                                <row>
+                                    <cell rendition="#kokumei">下野国上</cell>
+                                    <cell>〈管轄する郡　足利<rt>あしかが</rt>　梁田<rt>やなだ</rt>　安蘇<rt>あそ</rt>　都賀<rt>つが</rt>　寒川<rt>さむかわ</rt>　河内<rt>かわち</rt>　芳賀<rt>はが</rt>　塩屋<rt>しおのや</rt>　那須〉</cell>
+                                </row>
+                                <row>
+                                    <cell rendition="#kokumei">陸奥国大</cell>
+                                    <cell>〈管轄する郡　白河　磐瀬<rt>いわせ</rt>　会津　耶麻<rt>やま</rt>　安積<rt>あさか</rt>　安達　信夫<rt>しのぶ</rt>　刈田<rt>かつた</rt>　柴田　名取　菊多　磐城<rt>いわき</rt>　標葉<rt>しめは</rt>　行方<rt>なめかた</rt>　宇多　伊具<rt>いぐ</rt>　曰理<rt>わたり</rt>　宮城　黒川　賀美<rt>かみ</rt>　色麻<rt>しかま</rt>　玉造<rt>たまつくり</rt>　志太<rt>しだ</rt>　栗原　磐井<rt>いわい</rt>　江刺<rt>えざし</rt>　胆沢<rt>いさわ</rt>　長岡　新田<rt>にいだ</rt>　小田　遠田<rt>とおだ</rt>　登米<rt>とよま</rt>　桃生<rt>ものう</rt>　気仙<rt>けせ</rt>　牡鹿<rt>おじか</rt>〉</cell>
+                                </row>
+                                <row>
+                                    <cell rendition="#kokumei">出羽国上</cell>
+                                    <cell>〈管轄する郡　最上<rt>もかみ</rt>　村山　置賜<rt>おいたみ</rt>　雄勝<rt>おかち</rt>　平鹿<rt>ひらか</rt>　山本　飽海<rt>あくみ</rt>　河辺<rt>かわのべ</rt>　田川　出羽　秋田〉</cell>
+                                </row>
+                            </table>
+                            <s rendition="#indent2">以上は遠国とせよ。</s>
+                        </p>
                     </div>
                     <div ana="民部上"
                         corresp="engishiki.xml#article221004 engishiki_en.xml#article221004"
                         n="22.4" subtype="項" type="条" xml:id="article221004">
                         <head ana="北陸道"/>
-                        <note type="summary">条文概要</note>
+                        <note type="summary">北陸道の国の種別と管轄する郡のリスト</note>
                         <p ana="項"
                             corresp="engishiki.xml#item22100401 engishiki_en.xml#item22100401"
-                            xml:id="item22100401">本文</p>
+                            xml:id="item22100401">北陸道 <table rendition="#indent1">
+                                <row>
+                                    <cell rendition="#kokumei">若狭国中</cell>
+                                    <cell>〈管轄する郡　遠敷<rt>おにう</rt>　大飯<rt>おおい</rt>　三方<rt>みかた</rt>〉</cell>
+                                </row>
+                            </table>
+                            <s rendition="#indent2">以上は近国とせよ。</s>
+                            <table rendition="#indent1">
+                                <row>
+                                    <cell rendition="#kokumei">越前国大</cell>
+                                    <cell>〈管轄する郡　敦賀<rt>つるが</rt>　丹生<rt>にう</rt>　今立<rt>いまたち</rt>　足羽<rt>あすわ</rt>　大野　坂井<rt>さかのい</rt>〉</cell>
+                                </row>
+                                <row>
+                                    <cell rendition="#kokumei">加賀国上</cell>
+                                    <cell>〈管轄する郡　江沼<rt>えぬ</rt>　能美<rt>のみ</rt>　加賀　石川〉</cell>
+                                </row>
+                                <row>
+                                    <cell rendition="#kokumei">能登国中</cell>
+                                    <cell>〈管轄する郡　羽咋<rt>はくい</rt>　能登<rt>のと</rt>　鳳至<rt>ふけし</rt>　珠洲<rt>すず</rt>〉</cell>
+                                </row>
+                                <row>
+                                    <cell rendition="#kokumei">越中国上</cell>
+                                    <cell>〈管轄する郡　砺波<rt>となみ</rt>　射水<rt>いみず</rt>　婦負<rt>ねい</rt>　新川<rt>にいかわ</rt>〉</cell>
+                                </row>
+                            </table>
+                            <s rendition="#indent2">以上は中国とせよ。</s>
+                            <table rendition="#indent1">
+                                <row>
+                                    <cell rendition="#kokumei">越後国上</cell>
+                                    <cell>〈管轄する郡　頸城<rt>くびき</rt>　古志<rt>こし</rt>　三島　魚沼<rt>いおの</rt>　蒲原<rt>かんばら</rt>　沼垂<rt>ぬたり</rt>　石船<rt>いわふね</rt>〉</cell>
+                                </row>
+                                <row>
+                                    <cell rendition="#kokumei">佐渡国中</cell>
+                                    <cell>〈管轄する郡　羽茂<rt>うも</rt>　雑太<rt>さわた</rt>　賀茂〉</cell>
+                                </row>
+                            </table>
+                            <s rendition="#indent2">以上は遠国とせよ。</s>
+                        </p>
                     </div>
                     <div ana="民部上"
                         corresp="engishiki.xml#article221005 engishiki_en.xml#article221005"
                         n="22.5" subtype="項" type="条" xml:id="article221005">
                         <head ana="山陰道"/>
-                        <note type="summary">条文概要</note>
+                        <note type="summary">山陽道の国の種別と管轄する郡のリスト</note>
                         <p ana="項"
                             corresp="engishiki.xml#item22100501 engishiki_en.xml#item22100501"
-                            xml:id="item22100501">本文</p>
+                            xml:id="item22100501">山陰道 <table rendition="#indent1">
+                                <row>
+                                    <cell rendition="#kokumei">丹波国上</cell>
+                                    <cell>〈管轄する郡　桑田　船井　多紀　氷上　天田<rt>あまた</rt>　何鹿<rt>いかるが</rt>〉</cell>
+                                </row>
+                                <row>
+                                    <cell rendition="#kokumei">丹後国中</cell>
+                                    <cell>〈管轄する郡　加佐<rt>かさ</rt>　与謝<rt>よさ</rt>　丹波<rt>たんば</rt>　竹野<rt>たかの</rt>　熊野〉</cell>
+                                </row>
+                                <row>
+                                    <cell rendition="#kokumei">但馬国上</cell>
+                                    <cell>〈管轄する郡　朝来<rt>あさこ</rt>　養父<rt>やぶ</rt>　出石<rt>いずし</rt>　気多<rt>けた</rt>　城埼<rt>きのさき</rt>　美含<rt>みくみ</rt>　二方<rt>ふたかた</rt>　七美<rt>しつみ</rt>〉</cell>
+                                </row>
+                                <row>
+                                    <cell rendition="#kokumei">因幡国上</cell>
+                                    <cell>〈管轄する郡　巨濃<rt>この</rt>　法美<rt>ほうみ</rt>　八上<rt>やかみ</rt>　智頭<rt>ちず</rt>　邑美<rt>おうみ</rt>　高草　気多<rt>けた</rt>〉</cell>
+                                </row>
+                            </table>
+                            <s rendition="#indent2">以上は近国とせよ。</s>
+                            <table rendition="#indent1">
+                                <row>
+                                    <cell rendition="#kokumei">伯耆国上</cell>
+                                    <cell>〈管轄する郡　河村　久米　八橋<rt>やはし</rt>　汗入<rt>あせり</rt>　会見<rt>あうみ</rt>　日野〉</cell>
+                                </row>
+                                <row>
+                                    <cell rendition="#kokumei">出雲国上</cell>
+                                    <cell>〈管轄する郡　意宇<rt>おう</rt>　能義<rt>のぎ</rt>　島根　秋鹿<rt>あいか</rt>　楯縫<rt>たてぬい</rt>　出雲　神門<rt>かんど</rt>　飯石<rt>いいし</rt>　仁多<rt>にいた</rt>　大原〉</cell>
+                                </row>
+                            </table>
+                            <s rendition="#indent2">以上は中国とせよ。</s>
+                            <table rendition="#indent1">
+                                <row>
+                                    <cell rendition="#kokumei">石見国中</cell>
+                                    <cell>〈管轄する郡　安濃<rt>あの</rt>　邇摩<rt>にま</rt>　那賀　邑知<rt>おおち</rt>　美濃　鹿足<rt>かのあし</rt>〉</cell>
+                                </row>
+                                <row>
+                                    <cell rendition="#kokumei">隠伎国下</cell>
+                                    <cell>〈管轄する郡　知夫<rt>ちふり</rt>　海部<rt>あま</rt>　周吉<rt>すき</rt>　穏地<rt>おち</rt>〉</cell>
+                                </row>
+                            </table>
+                            <s rendition="#indent2">以上は遠国とせよ。</s>
+                        </p>
                     </div>
                     <div ana="民部上"
                         corresp="engishiki.xml#article221006 engishiki_en.xml#article221006"
                         n="22.6" subtype="項" type="条" xml:id="article221006">
                         <head ana="山陽道"/>
-                        <note type="summary">条文概要</note>
+                        <note type="summary">山陽道の国の種別と管轄する郡のリスト</note>
                         <p ana="項"
                             corresp="engishiki.xml#item22100601 engishiki_en.xml#item22100601"
-                            xml:id="item22100601">本文</p>
+                            xml:id="item22100601">山陽道 <table rendition="#indent1">
+                                <row>
+                                    <cell rendition="#kokumei">播磨国大</cell>
+                                    <cell>〈管轄する郡　明石<rt>あかし</rt>　賀古<rt>かこ</rt>　印南<rt>いなみ</rt>　飾磨<rt>しかま</rt>　揖保<rt>いいぼ</rt>　赤穂<rt>あかほ</rt>　佐用<rt>さよ</rt>　宍粟<rt>しさわ</rt>　神埼<rt>かんざき</rt>　多可<rt>たか</rt>　賀茂　美嚢<rt>みなぎ</rt>〉</cell>
+                                </row>
+                                <row>
+                                    <cell rendition="#kokumei">美作国上</cell>
+                                    <cell>〈管轄する郡　英多<rt>あいた</rt>　勝田<rt>かつまた</rt>　苫東<rt>とまひがし</rt>　苫西<rt>とまにし</rt>　久米　大庭<rt>おおんば</rt>　真島〉</cell>
+                                </row>
+                                <row>
+                                    <cell rendition="#kokumei">備前国上</cell>
+                                    <cell>〈管轄する郡　和気<rt>わけ</rt>　磐<rt>いわ</rt>梨<rt>なす</rt>　邑入<rt>おおく</rt>　赤坂　上道<rt>かみつみち</rt>　御野<rt>みの</rt>　津高　児島〉</cell>
+                                </row>
+                            </table>
+                            <s rendition="#indent2">以上は近国とせよ。</s>
+                            <table rendition="#indent1">
+                                <row>
+                                    <cell rendition="#kokumei">備中国上</cell>
+                                    <cell>〈管轄する郡　都宇<rt>つ</rt>　窪屋<rt>くぼや</rt>　賀夜<rt>かや</rt>　下道<rt>しもつみち</rt>　浅口<rt>あさくち</rt>　小田　後月<rt>しつき</rt>　哲多<rt>てた</rt>　英賀<rt>あか</rt>〉</cell>
+                                </row>
+                                <row>
+                                    <cell rendition="#kokumei">備後国上</cell>
+                                    <cell>〈管轄する郡　安那<rt>やすな</rt>　深津　神石<rt>かめし</rt>　奴可<rt>ぬか</rt>　沼隈<rt>ぬのくま</rt>　品治<rt>ほんち</rt>　葦田　甲奴<rt>こうの</rt>　三上　恵蘇<rt>えそ</rt>　御調<rt>みつき</rt>　世羅<rt>せら</rt>　三谿<rt>みたに</rt>　三次<rt>みよし</rt>〉</cell>
+                                </row>
+                            </table>
+                            <s rendition="#indent2">以上は中国とせよ。</s>
+                            <table rendition="#indent1">
+                                <row>
+                                    <cell rendition="#kokumei">安芸国上</cell>
+                                    <cell>〈管轄する郡　沼田<rt>ぬた</rt>　賀茂　安芸　佐伯　山県<rt>やまかた</rt>　高宮　高田　沙田<rt>ますた</rt>〉</cell>
+                                </row>
+                                <row>
+                                    <cell rendition="#kokumei">周防国上</cell>
+                                    <cell>〈管轄する郡　大島　玖珂<rt>くが</rt>　熊毛<rt>くまけ</rt>　都濃<rt>つの</rt>　佐波<rt>さば</rt>　吉敷<rt>よしき</rt>〉</cell>
+                                </row>
+                                <row>
+                                    <cell rendition="#kokumei">長門国中</cell>
+                                    <cell>〈管轄する郡　厚狭<rt>あつさ</rt>　豊浦<rt>とよら</rt>　美禰<rt>みね</rt>　大津　阿武<rt>あむ</rt>〉</cell>
+                                </row>
+                            </table>
+                            <s rendition="#indent2">以上は遠国とせよ。</s>
+                        </p>
                     </div>
                     <div ana="民部上"
                         corresp="engishiki.xml#article221007 engishiki_en.xml#article221007"
                         n="22.7" subtype="項" type="条" xml:id="article221007">
                         <head ana="南海道"/>
-                        <note type="summary">条文概要</note>
+                        <note type="summary">南海道の国の種別と管轄する郡のリスト</note>
                         <p ana="項"
                             corresp="engishiki.xml#item22100701 engishiki_en.xml#item22100701"
-                            xml:id="item22100701">本文</p>
+                            xml:id="item22100701">南海道 <table rendition="#indent1">
+                                <row>
+                                    <cell rendition="#kokumei">紀伊国上</cell>
+                                    <cell>〈管轄する郡　伊都<rt>いと</rt>　那賀　名草　海部<rt>あま</rt>　在田<rt>ありた</rt>　日高　牟婁<rt>むろ</rt>〉</cell>
+                                </row>
+                                <row>
+                                    <cell rendition="#kokumei">淡路国下</cell>
+                                    <cell>〈管轄する郡　津名　三原〉</cell>
+                                </row>
+                            </table>
+                            <s rendition="#indent2">以上は近国とせよ。</s>
+                            <table rendition="#indent1">
+                                <row>
+                                    <cell rendition="#kokumei">阿波国上</cell>
+                                    <cell>〈管轄する郡　板野　阿波　美馬<rt>みま</rt>　三好　麻殖<rt>おえ</rt>　名東<rt>なひがし</rt>　名西<rt>なにし</rt>　勝浦<rt>かつら</rt>　那賀〉</cell>
+                                </row>
+                                <row>
+                                    <cell rendition="#kokumei">讃岐国上</cell>
+                                    <cell>〈管轄する郡　大内<rt>おうち</rt>　寒川<rt>さむかわ</rt>　三木　山田　香川　阿野<rt>あや</rt>　鵜足<rt>うたり</rt>　那珂<rt>なか</rt>　多度<rt>たど</rt>　三野<rt>みの</rt>　刈田<rt>かつた</rt>〉</cell>
+                                </row>
+                            </table>
+                            <s rendition="#indent2">以上は中国とせよ。</s>
+                            <table rendition="#indent1">
+                                <row>
+                                    <cell rendition="#kokumei">伊予国上</cell>
+                                    <cell>〈管轄する郡　宇麻<rt>うま</rt>　新居<rt>にいい</rt>　周敷<rt>すふ</rt>　桑村　越智<rt>おち</rt>　野間　風早<rt>かざはや</rt>　和気<rt>わけ</rt>　温泉<rt>ゆ</rt>　久米　浮穴<rt>うきあな</rt>　伊予　喜多<rt>きた</rt>　宇和〉</cell>
+                                </row>
+                                <row>
+                                    <cell rendition="#kokumei">土左国中</cell>
+                                    <cell>〈管轄する郡　安芸　香美<rt>かがみ</rt>　長岡　土左　吾川<rt>あかわ</rt>　高岡　播多<rt>はた</rt>〉</cell>
+                                </row>
+                            </table>
+                            <s rendition="#indent2">以上は遠国とせよ。</s>
+                        </p>
                     </div>
                     <div ana="民部上"
                         corresp="engishiki.xml#article221008 engishiki_en.xml#article221008"
                         n="22.8" subtype="項" type="条" xml:id="article221008">
                         <head ana="西海道"/>
-                        <note type="summary">条文概要</note>
+                        <note type="summary">西海道の国の種別と管轄する郡のリスト</note>
                         <p ana="項"
                             corresp="engishiki.xml#item22100801 engishiki_en.xml#item22100801"
-                            xml:id="item22100801">本文</p>
+                            xml:id="item22100801">西海道 <table rendition="#indent1">
+                                <row>
+                                    <cell rendition="#kokumei">筑前国上</cell>
+                                    <cell>〈管轄する郡　怡土<rt>いと</rt>　志麻　早良<rt>さわら</rt>　那珂<rt>なか</rt>　席田<rt>むしろた</rt>　糟屋<rt>かすや</rt>　宗像<rt>むなかた</rt>　遠賀<rt>おか</rt>　鞍手<rt>くらて</rt>　嘉麻<rt>かま</rt>　穂波<rt>ほなみ</rt>　夜須<rt>やす</rt>　下座<rt>しもつあさくら</rt>　上座<rt>かみつあさくら</rt>　御笠<rt>みかさ</rt>〉</cell>
+                                </row>
+                                <row>
+                                    <cell rendition="#kokumei">筑後国上</cell>
+                                    <cell>〈管轄する郡　御原<rt>みはら</rt>　生葉<rt>いくは</rt>　竹野<rt>たかの</rt>　山本　御井<rt>みい</rt>　三瀦<rt>みぬま</rt>　上妻<rt>かんつま</rt>　下妻<rt>しもつま</rt>　山門<rt>やまと</rt>　三毛<rt>みけ</rt>〉</cell>
+                                </row>
+                                <row>
+                                    <cell rendition="#kokumei">豊前国上</cell>
+                                    <cell>〈管轄する郡　田河　企救<rt>きく</rt>　京都<rt>みやこ</rt>　仲津　築城<rt>ついき</rt>　上毛<rt>かんつみけ</rt>　下毛<rt>しもつみけ</rt>　宇佐〉</cell>
+                                </row>
+                                <row>
+                                    <cell rendition="#kokumei">豊後国上</cell>
+                                    <cell>〈管轄する郡　日田<rt>ひた</rt>　球珠<rt>くす</rt>　直入<rt>なおり</rt>　大野　海部<rt>あま</rt>　大分<rt>おおいた</rt>　速見<rt>はやみ</rt>　国埼<rt>くんさき</rt>〉</cell>
+                                </row>
+                                <row>
+                                    <cell rendition="#kokumei">肥前国上</cell>
+                                    <cell>〈管轄する郡　基肄<rt>きい</rt>　養父<rt>やぶ</rt>　三根<rt>みね</rt>　神埼　佐嘉<rt>さか</rt>　小城<rt>おぎ</rt>　松浦<rt>まつら</rt>　杵島<rt>きしま</rt>　藤津<rt>ふじつ</rt>　彼杵<rt>そのぎ</rt>　高来<rt>たかく</rt>〉</cell>
+                                </row>
+                                <row>
+                                    <cell rendition="#kokumei">肥後国大</cell>
+                                    <cell>〈管轄する郡　玉名<rt>たまいな</rt>　山鹿<rt>やまが</rt>　菊池<rt>くくち</rt>　阿蘇<rt>あそ</rt>　合志<rt>かわし</rt>　山本　飽田<rt>あきた</rt>　託麻<rt>たくま</rt>　益城<rt>ましき</rt>　宇土<rt>うと</rt>　八代<rt>やつしろ</rt>　天草　葦北<rt>あしきた</rt>　球磨<rt>くま</rt>〉</cell>
+                                </row>
+                                <row>
+                                    <cell rendition="#kokumei">日向国中</cell>
+                                    <cell>〈管轄する郡　臼杵<rt>うすき</rt>　児湯<rt>こゆ</rt>　那珂<rt>なか</rt>　宮埼　諸県<rt>むらがた</rt>〉</cell>
+                                </row>
+                                <row>
+                                    <cell rendition="#kokumei">大隅国中</cell>
+                                    <cell>〈管轄する郡　菱苅<rt>ひしかり</rt>　桑原　贈於<rt>そお</rt>　大隅<rt>おおすみ</rt>　姶羅<rt>あいら</rt>　肝属<rt>きもつき</rt>　馭謨<rt>こむ</rt>　熊毛<rt>くまけ</rt>〉</cell>
+                                </row>
+                                <row>
+                                    <cell rendition="#kokumei">薩摩国中</cell>
+                                    <cell>〈管轄する郡　出水<rt>いずみ</rt>　高城<rt>たかき</rt>　薩摩　甑島<rt>こしきじま</rt>　日置<rt>ひおき</rt>　伊作<rt>いさく</rt>　阿多<rt>あた</rt>　河辺<rt>かわのべ</rt>　穎娃<rt>えの</rt>　揖宿<rt>いぶすき</rt>　給黎<rt>きいれ</rt>　谿山<rt>たにやま</rt>　麑島<rt>かごしま</rt>〉</cell>
+                                </row>
+                                <row>
+                                    <cell rendition="#kokumei">壱伎島下</cell>
+                                    <cell>〈管轄する郡　壱伎<rt>いしだ</rt>　石田〉</cell>
+                                </row>
+                                <row>
+                                    <cell rendition="#kokumei">対馬島下</cell>
+                                    <cell>〈管轄する郡　上県<rt>かみつあがた</rt>　下県<rt>しもつあがた</rt>〉</cell>
+                                </row>
+                            </table>
+                            <s rendition="#indent2">以上は遠国とせよ。</s>
+                        </p>
                     </div>
                     <div ana="民部上"
                         corresp="engishiki.xml#article221009 engishiki_en.xml#article221009"
                         n="22.9" subtype="項" type="条" xml:id="article221009">
                         <head ana="辺要"/>
-                        <note type="summary">条文概要</note>
+                        <note type="summary">辺要に分類される国のリスト</note>
                         <p ana="項"
                             corresp="engishiki.xml#item22100901 engishiki_en.xml#item22100901"
-                            xml:id="item22100901">本文</p>
+                            xml:id="item22100901">出羽国　佐渡国　隠伎国　壱伎島　対馬島 　<lb/><s rendition="#indent1"
+                                >以上の四国二島は辺要とせよ。</s>
+                        </p>
                     </div>
                     <div ana="民部上"
                         corresp="engishiki.xml#article221010 engishiki_en.xml#article221010"
                         n="22.10" subtype="項" type="条" xml:id="article221010">
                         <head ana="郡戸"/>
-                        <note type="summary">条文概要</note>
+                        <note type="summary">一郡の戸数に関する規定</note>
                         <p ana="項"
                             corresp="engishiki.xml#item22101001 engishiki_en.xml#item22101001"
-                            xml:id="item22101001">本文</p>
+                            xml:id="item22101001"
+                            >郡は、千戸を超過してはならない。もし五十戸以上余る場合には、分割して近隣の郡に所属させよ。地理的に分割するのが適切でない場合には、状況に応じて別の郡を立てよ。その場合でも百戸未満の場合には、他の郡に所属させよ。もしやむを得ず分割する場合には、個別に太政官<rt>だいじょうかん</rt>に報告せよ。</p>
                     </div>
                     <div ana="民部上"
                         corresp="engishiki.xml#article221011 engishiki_en.xml#article221011"
                         n="22.11" subtype="項" type="条" xml:id="article221011">
                         <head ana="郡里名"/>
-                        <note type="summary">条文概要</note>
+                        <note type="summary">郡里の命名法に関する規定</note>
                         <p ana="項"
                             corresp="engishiki.xml#item22101101 engishiki_en.xml#item22101101"
-                            xml:id="item22101101">本文</p>
+                            xml:id="item22101101">諸国の郡・里の名称は、二文字とせよ。必ずめでたい名称を採用せよ。</p>
                     </div>
                     <div ana="民部上"
                         corresp="engishiki.xml#article221012 engishiki_en.xml#article221012"
                         n="22.12" subtype="項" type="条" xml:id="article221012">
                         <head ana="貢限"/>
-                        <note type="summary">条文概要</note>
+                        <note type="summary">調庸の納期に関する規定</note>
                         <p ana="項"
                             corresp="engishiki.xml#item22101201 engishiki_en.xml#item22101201"
-                            xml:id="item22101201">本文</p>
+                            xml:id="item22101201"
+                            >諸国が貢納する調庸は、越後・佐渡・隠伎の三国は翌年七月までに中央に納入せよ。長門国は四月まで。伊予国は二月まで。ただし伊予国のうち宇和・喜多の二郡は三月まで。土左国は二月までに納入せよ。その他の国の納入期限は令の規定のとおりとせよ。陸奥・出羽の二国は中央に送らず便宜的に現地に納め留めよ。西海道は大宰府<rt>だざいふ</rt>に納入せよ。〈現地での出納記録は正税帳<rt>しょうぜいちょう</rt>を都に送る使者にさずけて中央に報告する。〉</p>
                     </div>
                     <div ana="民部上"
                         corresp="engishiki.xml#article221013 engishiki_en.xml#article221013"
                         n="22.13" subtype="項" type="条" xml:id="article221013">
                         <head ana="未進調庸物"/>
-                        <note type="summary">条文概要</note>
+                        <note type="summary">未納の調庸の納期に関する規定</note>
                         <p ana="項"
                             corresp="engishiki.xml#item22101301 engishiki_en.xml#item22101301"
-                            xml:id="item22101301">本文</p>
+                            xml:id="item22101301"
+                            >未納の調庸物は、長門国および伊予国の宇和・喜多の二郡は翌年六月三十日まで、越後・佐渡・隠伎の三国は十二月三十日までに納入を完了せよ。〈その他の国は交替式の規定のとおり。〉</p>
                     </div>
                     <div ana="民部上"
                         corresp="engishiki.xml#article221014 engishiki_en.xml#article221014"
                         n="22.14" subtype="項" type="条" xml:id="article221014">
                         <head ana="調庸米塩"/>
-                        <note type="summary">条文概要</note>
+                        <note type="summary">調庸の米・塩の納期に関する規定</note>
                         <p ana="項"
                             corresp="engishiki.xml#item22101401 engishiki_en.xml#item22101401"
-                            xml:id="item22101401">本文</p>
+                            xml:id="item22101401">諸国の調庸の米・塩は、令の規定の期日から七箇月以内に納入を完了せよ。</p>
                     </div>
                     <div ana="民部上"
                         corresp="engishiki.xml#article221015 engishiki_en.xml#article221015"
                         n="22.15" subtype="項" type="条" xml:id="article221015">
                         <head ana="絹絁尺寸"/>
-                        <note type="summary">条文概要</note>
+                        <note type="summary">調の梱包料に関する規定</note>
                         <p ana="項"
                             corresp="engishiki.xml#item22101501 engishiki_en.xml#item22101501"
-                            xml:id="item22101501">本文</p>
+                            xml:id="item22101501"
+                            >諸国の調の絹・絁<rt>あしぎぬ</rt>は、六丈という規定の輸納量のほか一疋を包む分を加えさせよ。包む分の規格は制限しない。</p>
                     </div>
                     <div ana="民部上"
                         corresp="engishiki.xml#article221016 engishiki_en.xml#article221016"
                         n="22.16" subtype="項" type="条" xml:id="article221016">
                         <head ana="練糸"/>
-                        <note type="summary">条文概要</note>
+                        <note type="summary">調の練り糸の調製に関する規定</note>
                         <p ana="項"
                             corresp="engishiki.xml#item22101601 engishiki_en.xml#item22101601"
-                            xml:id="item22101601">本文</p>
+                            xml:id="item22101601"
+                            >調の染色した練り糸は、国が雑徭<rt>ぞうよう</rt>により徴発した人夫を使役し粗悪品を除去して四本練り合わせて一本の糸とせよ。練り糸とし染色し終えた後でさらに練り取り、その後絇<rt>く</rt>という規格にせよ。</p>
                     </div>
                     <div ana="民部上"
                         corresp="engishiki.xml#article221017 engishiki_en.xml#article221017"
                         n="22.17" subtype="項" type="条" xml:id="article221017">
                         <head ana="損益"/>
-                        <note type="summary">条文概要</note>
+                        <note type="summary">地方が提出する帳簿の受理に関する記千枝</note>
                         <p ana="項"
                             corresp="engishiki.xml#item22101701 engishiki_en.xml#item22101701"
-                            xml:id="item22101701">本文</p>
+                            xml:id="item22101701"
+                            >大帳・調庸帳・正税帳<rt>しょうぜいちょう</rt>の前年度帳簿との比較における記載数値の増減は、全国の数値をとりまとめた目録を作成し、大帳・税帳は翌年正月、調帳は七月に民部省<rt>みんぶしょう</rt>に報告せよ。民部省は署名し太政官<rt>だいじょうかん</rt>に報告せよ。〈その他の帳簿の数値の増減もこれに準ずる。〉</p>
                     </div>
                     <div ana="民部上"
                         corresp="engishiki.xml#article221018 engishiki_en.xml#article221018"
                         n="22.18" subtype="項" type="条" xml:id="article221018">
                         <head ana="調庸専当"/>
-                        <note type="summary">条文概要</note>
+                        <note type="summary">調庸納入を担当する郡司に関する規定</note>
                         <p ana="項"
                             corresp="engishiki.xml#item22101801 engishiki_en.xml#item22101801"
-                            xml:id="item22101801">本文</p>
+                            xml:id="item22101801"
+                            >諸国の調庸納入を担当する者は、国司の目<rt>さかん</rt>以上および郡司の少領<rt>しょうりょう</rt>以上で有能な者を選び、毎年交替せよ。ただし小規模な郡の場合は、二年間は郡領を選び、一年間は主帳<rt>しゅちょう</rt>を選べ。その名簿は大帳を送る使者にさずけて太政官に送れ。</p>
                     </div>
                     <div ana="民部上"
                         corresp="engishiki.xml#article221019 engishiki_en.xml#article221019"
                         n="22.19" subtype="項" type="条" xml:id="article221019">
                         <head ana="畿内調物"/>
-                        <note type="summary">条文概要</note>
+                        <note type="summary">畿内の調の納入方法に関する規定</note>
                         <p ana="項"
                             corresp="engishiki.xml#item22101901 engishiki_en.xml#item22101901"
-                            xml:id="item22101901">本文</p>
+                            xml:id="item22101901">畿内の調物は、担当の国司が引率し中央の倉庫に納入せよ。郡司は入京してはならない。</p>
                     </div>
                     <div ana="民部上"
                         corresp="engishiki.xml#article221020 engishiki_en.xml#article221020"
                         n="22.20" subtype="項" type="条" xml:id="article221020">
                         <head ana="運脚"/>
-                        <note type="summary">条文概要</note>
+                        <note type="summary">調庸等の運送に関する規定</note>
                         <p ana="項"
                             corresp="engishiki.xml#item22102001 engishiki_en.xml#item22102001"
-                            xml:id="item22102001">本文</p>
+                            xml:id="item22102001"
+                            >調庸および中男作物<rt>ちゅうなんさくもつ</rt>を中央に送る際には、成人男性を選び運送の人夫に充てよ。充てられなかった者は運送費を負担し人夫の資養に充てよ。運送費は事前に必要数を明らかにして負担する者に告知せよ。期限に応じて領収し、都までの距離に準じて便宜をはかり行程の所々で支給せよ。出発する日から中央に納入する日まで、一人につき一日に米二升・塩二夕を支給せよ。帰還する際の支給量は半分とせよ。運送費が余る場合は翌年分に回し、帳簿により報告せよ。</p>
                     </div>
                     <div ana="民部上"
                         corresp="engishiki.xml#article221021 engishiki_en.xml#article221021"
                         n="22.21" subtype="項" type="条" xml:id="article221021">
                         <head ana="貢調庸使"/>
-                        <note type="summary">条文概要</note>
+                        <note type="summary">調庸納入時に帳簿を同時に送る規定</note>
                         <p ana="項"
                             corresp="engishiki.xml#item22102101 engishiki_en.xml#item22102101"
-                            xml:id="item22102101">本文</p>
+                            xml:id="item22102101"
+                            >調庸を中央に貢納する使者は、実物と帳簿を同時に率いて入京せよ。別々に送ることで人夫を苦しませてはならない。</p>
                     </div>
                     <div ana="民部上"
                         corresp="engishiki.xml#article221022 engishiki_en.xml#article221022"
                         n="22.22" subtype="項" type="条" xml:id="article221022">
                         <head ana="調庸専当郡司"/>
-                        <note type="summary">条文概要</note>
+                        <note type="summary">調庸納入を担当する郡司を民部省に参向させる規定</note>
                         <p ana="項"
                             corresp="engishiki.xml#item22102201 engishiki_en.xml#item22102201"
-                            xml:id="item22102201">本文</p>
+                            xml:id="item22102201"
+                            >調庸納入を担当する郡司が都に到着したら、使者の国司が引率して民部省<rt>みんぶしょう</rt>に参向せよ。もし勝手に帰還する者がいれば、民部省はその名簿を作成して九月三十日までに太政官<rt>だいじょうかん</rt>に報告せよ。</p>
                     </div>
                     <div ana="民部上"
                         corresp="engishiki.xml#article221023 engishiki_en.xml#article221023"
                         n="22.23" subtype="項" type="条" xml:id="article221023">
                         <head ana="勘納調庸物"/>
-                        <note type="summary">条文概要</note>
+                        <note type="summary">調庸を納入する際の検査に関する規定</note>
                         <p ana="項"
                             corresp="engishiki.xml#item22102301 engishiki_en.xml#item22102301"
-                            xml:id="item22102301">本文</p>
+                            xml:id="item22102301"
+                            >調庸物を検査し納入する際には、郡司が民部省に見参する日に、民部省の録<rt>さかん</rt>が史生<rt>ししょう</rt>を率いて大蔵省<rt>おおくらしょう</rt>の倉庫に参向し、大蔵省の録と共に実物と帳簿の照合を行ない、その後調物の納入を許可する旨を大蔵省に通達せよ。</p>
                     </div>
                     <div ana="民部上"
                         corresp="engishiki.xml#article221024 engishiki_en.xml#article221024"
                         n="22.24" subtype="項" type="条" xml:id="article221024">
                         <head ana="調庸違期郡司"/>
-                        <note type="summary">条文概要</note>
+                        <note type="summary">調庸の納期に違反した郡司に対する罰則に関する規定</note>
                         <p ana="項"
                             corresp="engishiki.xml#item22102401 engishiki_en.xml#item22102401"
-                            xml:id="item22102401">本文</p>
+                            xml:id="item22102401"
+                            >期限を守らずに調庸を貢納した郡司を断罪する際には、懲役刑に相当するものは杖で打つ肉刑一〇〇回にとどめ、杖罪以下に相当するものはそれぞれ罪を一段階減らして断罪せよ。ただし期日を過ぎること十日以内であれば教え諭して罪に問わないこととせよ。</p>
                     </div>
                     <div ana="民部上"
                         corresp="engishiki.xml#article221025 engishiki_en.xml#article221025"
                         n="22.25" subtype="項" type="条" xml:id="article221025">
                         <head ana="畿内四度使"/>
-                        <note type="summary">条文概要</note>
+                        <note type="summary">畿内の政務報告に国司を充てる規定</note>
                         <p ana="項"
                             corresp="engishiki.xml#item22102501 engishiki_en.xml#item22102501"
-                            xml:id="item22102501">本文</p>
+                            xml:id="item22102501">畿内諸国は、国司の目<rt>さかん</rt>以上一人を選び中央への政務報告をさせよ。</p>
                     </div>
                     <div ana="民部上"
                         corresp="engishiki.xml#article221026 engishiki_en.xml#article221026"
                         n="22.26" subtype="項" type="条" xml:id="article221026">
                         <head ana="不得差使"/>
-                        <note type="summary">条文概要</note>
+                        <note type="summary">兼任の国司を政務報告の使者に選ぶことを禁止する規定</note>
                         <p ana="項"
                             corresp="engishiki.xml#item22102601 engishiki_en.xml#item22102601"
-                            xml:id="item22102601">本文</p>
+                            xml:id="item22102601"
+                            >参議および左右大弁・八省の卿<rt>かみ</rt>・弾正台の尹<rt>かみ</rt>で赴任しない国司を兼任している者は、政務を報告する使者に選ぶことはできない。</p>
                     </div>
                     <div ana="民部上"
                         corresp="engishiki.xml#article221027 engishiki_en.xml#article221027"
                         n="22.27" subtype="項" type="条" xml:id="article221027">
                         <head ana="志摩国使"/>
-                        <note type="summary">条文概要</note>
+                        <note type="summary">志摩国の政務報告の使者を一度に任せる規定</note>
                         <p ana="項"
                             corresp="engishiki.xml#item22102701 engishiki_en.xml#item22102701"
-                            xml:id="item22102701">本文</p>
+                            xml:id="item22102701">志摩国の中央への政務報告の使者は、すべて一度の使者に任せよ。</p>
                     </div>
                     <div ana="民部上"
                         corresp="engishiki.xml#article221028 engishiki_en.xml#article221028"
                         n="22.28" subtype="項" type="条" xml:id="article221028">
                         <head ana="諸蕃国司"/>
-                        <note type="summary">条文概要</note>
+                        <note type="summary">渡来系氏族出身の国司を政務報告の使者に充てない規定</note>
                         <p ana="項"
                             corresp="engishiki.xml#item22102801 engishiki_en.xml#item22102801"
-                            xml:id="item22102801">本文</p>
+                            xml:id="item22102801"
+                            >渡来系氏族の出身者を国司に任命する場合には、その者を中央への政務報告の使者に選ぶことはできない。</p>
                     </div>
                     <div ana="民部上"
                         corresp="engishiki.xml#article221029 engishiki_en.xml#article221029"
                         n="22.29" subtype="項" type="条" xml:id="article221029">
                         <head ana="四度使還国"/>
-                        <note type="summary">条文概要</note>
+                        <note type="summary">政務報告の使者の帰還に関する規定</note>
                         <p ana="項"
                             corresp="engishiki.xml#item22102901 engishiki_en.xml#item22102901"
-                            xml:id="item22102901">本文</p>
+                            xml:id="item22102901"
+                            >諸国の中央への政務報告の使者が他事につき任務完了前に国に帰還しなければならない場合には、天皇の仰せを受けた宣旨が出た後で許可せよ。</p>
                     </div>
                     <div ana="民部上"
                         corresp="engishiki.xml#article221030 engishiki_en.xml#article221030"
                         n="22.30" subtype="項" type="条" xml:id="article221030">
                         <head ana="請暇文"/>
-                        <note type="summary">条文概要</note>
+                        <note type="summary">諸国の使者の休暇申請に関する規定</note>
                         <p ana="項"
                             corresp="engishiki.xml#item22103001 engishiki_en.xml#item22103001"
-                            xml:id="item22103001">本文</p>
+                            xml:id="item22103001"
+                            >諸国の使者が休暇を請求する文書は、民部省<rt>みんぶしょう</rt>の輔<rt>すけ</rt>以下が共に決裁し署名した上で主計寮<rt>しゅけいりょう</rt>・主税寮<rt>しゅぜいりょう</rt>に下達せよ。</p>
                     </div>
                     <div ana="民部上"
                         corresp="engishiki.xml#article221031 engishiki_en.xml#article221031"
                         n="22.31" subtype="項" type="条" xml:id="article221031">
                         <head ana="貢調使公文"/>
-                        <note type="summary">条文概要</note>
+                        <note type="summary">調を貢納する使者が主計寮に出頭する規定</note>
                         <p ana="項"
                             corresp="engishiki.xml#item22103101 engishiki_en.xml#item22103101"
-                            xml:id="item22103101">本文</p>
+                            xml:id="item22103101"
+                            >調を貢納する使者は、関連書類が太政官<rt>だいじょうかん</rt>から民部省<rt>みんぶしょう</rt>に下達されたらただちに主計寮<rt>しゅけいりょう</rt>に出頭せよ。もし出頭しなかった場合は、太政官が書類に外題を加えた日から不参の日数を計算せよ。</p>
                     </div>
                     <div ana="民部上"
                         corresp="engishiki.xml#article221032 engishiki_en.xml#article221032"
                         n="22.32" subtype="項" type="条" xml:id="article221032">
                         <head ana="朝集使還国"/>
-                        <note type="summary">条文概要</note>
+                        <note type="summary">朝集使がもたらす文書の照合に関する規定</note>
                         <p ana="項"
                             corresp="engishiki.xml#item22103201 engishiki_en.xml#item22103201"
-                            xml:id="item22103201">本文</p>
+                            xml:id="item22103201"
+                            >朝集使<rt>ちょうしゅうし</rt>が任務を終え帰還する際には、主計寮<rt>しゅけいりょう</rt>・主計寮<rt>しゅけいりょう</rt>に地方官衙の修理状況の報告書・用水施設の現状に関する報告書・桑漆の栽培状況に関する報告書・麦畑の播種状況に関する報告書・鶏の飼育に関する報告書・調度品に関する報告書を照合させ、その事務が終了した後で式部省に通達せよ。</p>
                     </div>
                     <div ana="民部上"
                         corresp="engishiki.xml#article221033 engishiki_en.xml#article221033"
                         n="22.33" subtype="項" type="条" xml:id="article221033">
                         <head ana="奥羽朝集使"/>
-                        <note type="summary">条文概要</note>
+                        <note type="summary">陸奥・出羽の朝集使の帰還に関する規定</note>
                         <p ana="項"
                             corresp="engishiki.xml#item22103301 engishiki_en.xml#item22103301"
-                            xml:id="item22103301">本文</p>
+                            xml:id="item22103301"
+                            >陸奥・出羽の二国の朝集使<rt>ちょうしゅうし</rt>は、任務を完了したとしても、調の領収証を得ていなければ、帰還のために式部省<rt>しきぶしょう</rt>に通達する手続きを進めてはならない。</p>
                     </div>
                     <div ana="民部上"
                         corresp="engishiki.xml#article221034 engishiki_en.xml#article221034"
                         n="22.34" subtype="項" type="条" xml:id="article221034">
                         <head ana="佐渡国大帳"/>
-                        <note type="summary">条文概要</note>
+                        <note type="summary">佐渡国の大帳の送付に関する規定</note>
                         <p ana="項"
                             corresp="engishiki.xml#item22103401 engishiki_en.xml#item22103401"
-                            xml:id="item22103401">本文</p>
+                            xml:id="item22103401">佐渡国の大帳は、便宜的に去年の調を貢納する使者にさずけてよい。</p>
                     </div>
                     <div ana="民部上"
                         corresp="engishiki.xml#article221035 engishiki_en.xml#article221035"
                         n="22.35" subtype="項" type="条" xml:id="article221035">
                         <head ana="雑掌勘申"/>
-                        <note type="summary">条文概要</note>
+                        <note type="summary">大宰府管内諸国が提出する政務報告文書の検査に関する規定</note>
                         <p ana="項"
                             corresp="engishiki.xml#item22103501 engishiki_en.xml#item22103501"
-                            xml:id="item22103501">本文</p>
+                            xml:id="item22103501"
+                            >大宰府管内の諸国・島の大帳・調帳・正税帳<rt>しょうぜいちょう</rt>は、大宰府の雑掌<rt>ざっしょう</rt>に検査させよ。ただし筑前・筑後・豊前・豊後・肥前・肥後の六国は、その国の雑掌が検査に対する答弁を行なってよい。</p>
                     </div>
                     <div ana="民部上"
                         corresp="engishiki.xml#article221036 engishiki_en.xml#article221036"
                         n="22.36" subtype="項" type="条" xml:id="article221036">
                         <head ana="戸損"/>
-                        <note type="summary">条文概要</note>
+                        <note type="summary">下総・讃岐の調庸の控除に関する規定</note>
                         <p ana="項"
                             corresp="engishiki.xml#item22103601 engishiki_en.xml#item22103601"
-                            xml:id="item22103601">本文</p>
+                            xml:id="item22103601">下野・讃岐の二国は、大国に準じて四十九戸分の調庸負担の控除を許可せよ。</p>
                     </div>
                     <div ana="民部上"
                         corresp="engishiki.xml#article221037 engishiki_en.xml#article221037"
                         n="22.37" subtype="項" type="条" xml:id="article221037">
                         <head ana="国栖"/>
-                        <note type="summary">条文概要</note>
+                        <note type="summary">吉野葛の調と雑徭を免除する規定</note>
                         <p ana="項"
                             corresp="engishiki.xml#item22103701 engishiki_en.xml#item22103701"
-                            xml:id="item22103701">本文</p>
+                            xml:id="item22103701">吉野国栖<rt>よしののくず</rt>は、永久に調と雑徭を免除せよ。</p>
                     </div>
                     <div ana="民部上"
                         corresp="engishiki.xml#article221038 engishiki_en.xml#article221038"
                         n="22.38" subtype="項" type="条" xml:id="article221038">
                         <head ana="駅子"/>
-                        <note type="summary">条文概要</note>
+                        <note type="summary">特定の駅に勤務する者の租税を免除する規定</note>
                         <p ana="項"
                             corresp="engishiki.xml#item22103801 engishiki_en.xml#item22103801"
-                            xml:id="item22103801">本文</p>
+                            xml:id="item22103801"
+                            >美濃国の坂本・土岐・大井の三駅と、信濃国阿知駅に勤務する者は、課役を免除せよ。畿内の駅に勤務する者も調と雑徭<rt>ぞうよう</rt>を免除せよ。</p>
                     </div>
                     <div ana="民部上"
                         corresp="engishiki.xml#article221039 engishiki_en.xml#article221039"
                         n="22.39" subtype="項" type="条" xml:id="article221039">
                         <head ana="渡子"/>
-                        <note type="summary">条文概要</note>
+                        <note type="summary">飛騨国金河村の人夫の徭役を免除する規定</note>
                         <p ana="項"
                             corresp="engishiki.xml#item22103901 engishiki_en.xml#item22103901"
-                            xml:id="item22103901">本文</p>
+                            xml:id="item22103901">飛騨国の金山河で船を漕ぐ人夫二人は、徭役を免除せよ。</p>
                     </div>
                     <div ana="民部上"
                         corresp="engishiki.xml#article221040 engishiki_en.xml#article221040"
                         n="22.40" subtype="項" type="条" xml:id="article221040">
                         <head ana="守辰丁"/>
-                        <note type="summary">条文概要</note>
+                        <note type="summary">大宰府・陸奥国の水時計で勤務する者の課役を免除する規定</note>
                         <p ana="項"
                             corresp="engishiki.xml#item22104001 engishiki_en.xml#item22104001"
-                            xml:id="item22104001">本文</p>
+                            xml:id="item22104001">大宰府および陸奥国の水時計で勤務する者それぞれ六人は、課役を免除せよ。毎年交替せよ。</p>
                     </div>
                     <div ana="民部上"
                         corresp="engishiki.xml#article221041 engishiki_en.xml#article221041"
                         n="22.41" subtype="項" type="条" xml:id="article221041">
                         <head ana="免父課役"/>
-                        <note type="summary">条文概要</note>
+                        <note type="summary">多産の父の課役を免除する規定</note>
                         <p ana="項"
                             corresp="engishiki.xml#item22104101 engishiki_en.xml#item22104101"
-                            xml:id="item22104101">本文</p>
+                            xml:id="item22104101"
+                            >男子五人を産んで全員成人した場合は、その父の課役を免除せよ。その後一人が死亡したとしても継続して免除せよ。</p>
                     </div>
                     <div ana="民部上"
                         corresp="engishiki.xml#article221042 engishiki_en.xml#article221042"
                         n="22.42" subtype="項" type="条" xml:id="article221042">
                         <head ana="勲九等"/>
-                        <note type="summary">条文概要</note>
+                        <note type="summary">勲位九等以下の官人の課役を免除する規定</note>
                         <p ana="項"
                             corresp="engishiki.xml#item22104201 engishiki_en.xml#item22104201"
-                            xml:id="item22104201">本文</p>
+                            xml:id="item22104201">勲位<rt>くんい</rt>九等以下で常勤の官人に任命された者は、みな課役を免除せよ。</p>
                     </div>
                     <div ana="民部上"
                         corresp="engishiki.xml#article221043 engishiki_en.xml#article221043"
                         n="22.43" subtype="項" type="条" xml:id="article221043">
                         <head ana="朝集雑掌"/>
-                        <note type="summary">条文概要</note>
+                        <note type="summary">諸国の使者の随員の調庸を免除する規定</note>
                         <p ana="項"
                             corresp="engishiki.xml#item22104301 engishiki_en.xml#item22104301"
-                            xml:id="item22104301">本文</p>
+                            xml:id="item22104301"
+                            >諸国の朝集使<rt>ちょうしゅうし</rt>・税帳使<rt>ぜいちょうし</rt>の雑掌<rt>ざっしょう</rt>それぞれ一人は、出勤日数が百二十日以上ならば調庸を免除せよ。</p>
                     </div>
                     <div ana="民部上"
                         corresp="engishiki.xml#article221044 engishiki_en.xml#article221044"
                         n="22.44" subtype="項" type="条" xml:id="article221044">
                         <head ana="諸国鼓生"/>
-                        <note type="summary">条文概要</note>
+                        <note type="summary">諸国の楽器練習生の徭役を免除する規定</note>
                         <p ana="項"
                             corresp="engishiki.xml#item22104401 engishiki_en.xml#item22104401"
-                            xml:id="item22104401">本文</p>
+                            xml:id="item22104401"
+                            >国ごとに置く太鼓の練習生二人・大きい角笛の練習生五人・小さい角笛の練習生三人は、徭役を免除せよ。</p>
                     </div>
                     <div ana="民部上"
                         corresp="engishiki.xml#article221045 engishiki_en.xml#article221045"
                         n="22.45" subtype="項" type="条" xml:id="article221045">
                         <head ana="健児"/>
-                        <note type="summary">条文概要</note>
+                        <note type="summary">健児の徭役免除と食料支給に関する規定</note>
                         <p ana="項"
                             corresp="engishiki.xml#item22104501 engishiki_en.xml#item22104501"
-                            xml:id="item22104501">本文</p>
+                            xml:id="item22104501"
+                            >諸国の健児<rt>こんでい</rt>は、みな徭役を免除せよ。ただし志摩・駿河・武蔵・飛騨・上野・下野・佐渡・播磨・長門・阿波・讃岐などの国は雑徭<rt>ぞうよう</rt>のみ免除し、畿内は課役を免除せよ。健児の食料は、畿内は余剰田を貸し出して得た賃料を用い、その他の国は健児田を経営して得た利益を充てよ。出羽国は正税<rt>しょうぜい</rt>の出挙利稲を支給し、隠伎国は国造田三町の賃料を充てよ。</p>
                     </div>
                     <div ana="民部上"
                         corresp="engishiki.xml#article221046 engishiki_en.xml#article221046"
                         n="22.46" subtype="項" type="条" xml:id="article221046">
                         <head ana="斎宮守衛"/>
-                        <note type="summary">条文概要</note>
+                        <note type="summary">斎宮を守衛する戸の庸を免除する規定</note>
                         <p ana="項"
                             corresp="engishiki.xml#item22104601 engishiki_en.xml#item22104601"
-                            xml:id="item22104601">本文</p>
+                            xml:id="item22104601"
+                            >伊勢斎宮<rt>さいぐう</rt>は、神宮に奉仕する戸の百姓一三二人を選び順番に守衛させよ。彼らの庸は免除せよ。</p>
                     </div>
                     <div ana="民部上"
                         corresp="engishiki.xml#article221047 engishiki_en.xml#article221047"
                         n="22.47" subtype="項" type="条" xml:id="article221047">
                         <head ana="飛騨匠丁"/>
-                        <note type="summary">条文概要</note>
+                        <note type="summary">飛騨国による工人の貢上に関する規定</note>
                         <p ana="項"
                             corresp="engishiki.xml#item22104701 engishiki_en.xml#item22104701"
-                            xml:id="item22104701">本文</p>
+                            xml:id="item22104701">飛騨国は、毎年工人一〇〇人を貢上せよ。その領収証は諸国の調庸の例に準拠せよ。</p>
                     </div>
                     <div ana="民部上"
                         corresp="engishiki.xml#article221048 engishiki_en.xml#article221048"
                         n="22.48" subtype="項" type="条" xml:id="article221048">
                         <head ana="役中死"/>
-                        <note type="summary">条文概要</note>
+                        <note type="summary">飛騨国が貢上する工人の在役中の死亡と帰還時の徭役免除に関する規定</note>
                         <p ana="項"
                             corresp="engishiki.xml#item22104801 engishiki_en.xml#item22104801"
-                            xml:id="item22104801">本文</p>
+                            xml:id="item22104801"
+                            >飛騨国の工人が在役中に死亡した場合は、その代役を貢上する必要はない。役務が終わり帰還した者はその年の徭役を免除せよ。</p>
                     </div>
                     <div ana="民部上"
                         corresp="engishiki.xml#article221049 engishiki_en.xml#article221049"
                         n="22.49" subtype="項" type="条" xml:id="article221049">
                         <head ana="客作児"/>
-                        <note type="summary">条文概要</note>
+                        <note type="summary">諸国から送られる雇用労働者に関する規定</note>
                         <p ana="項"
                             corresp="engishiki.xml#item22104901 engishiki_en.xml#item22104901"
-                            xml:id="item22104901">本文</p>
+                            xml:id="item22104901"
+                            >諸国の雇用労働者の役務が終わり帰還する際には、その年の雑徭を免除せよ。実役に堪えない者は雑徭と労働対価に相当する稲を用いてその土地の産物を購入し、二月以前に任地に送らせよ。もし未進があれば調庸返抄の発給をとどめよ。</p>
                     </div>
                     <div ana="民部上"
                         corresp="engishiki.xml#article221050 engishiki_en.xml#article221050"
                         n="22.50" subtype="項" type="条" xml:id="article221050">
                         <head ana="膂力婦女"/>
-                        <note type="summary">条文概要</note>
+                        <note type="summary">諸国が貢上する女性労働者の家族への保障と資養に関する規定</note>
                         <p ana="項"
                             corresp="engishiki.xml#item22105001 engishiki_en.xml#item22105001"
-                            xml:id="item22105001">本文</p>
+                            xml:id="item22105001"
+                            >諸国が貢上する力があり後宮に勤める女性は、その家族の雑徭を免除し田二町を支給し、資養に充てよ。</p>
                     </div>
                     <div ana="民部上"
                         corresp="engishiki.xml#article221051 engishiki_en.xml#article221051"
                         n="22.51" subtype="項" type="条" xml:id="article221051">
                         <head ana="食封"/>
-                        <note type="summary">条文概要</note>
+                        <note type="summary">封戸の支給額に関する規定</note>
                         <p ana="項"
                             corresp="engishiki.xml#item22105101 engishiki_en.xml#item22105101"
-                            xml:id="item22105101">本文</p>
+                            xml:id="item22105101"
+                            >封戸<rt>ふこ</rt>は、東宮に二千戸、無品親王に二百戸、〈内親王はその半分。〉中納言に四百戸、参議に八十戸とせよ。〈正当な理由で官職を退いた者および引退した者はその半分。〉</p>
                     </div>
                     <div ana="民部上"
                         corresp="engishiki.xml#article221052 engishiki_en.xml#article221052"
                         n="22.52" subtype="項" type="条" xml:id="article221052">
                         <head ana="封戸定数"/>
-                        <note type="summary">条文概要</note>
+                        <note type="summary">封戸を構成する戸口の数に関する規定</note>
                         <p ana="項"
                             corresp="engishiki.xml#item22105201 engishiki_en.xml#item22105201"
-                            xml:id="item22105201">本文</p>
+                            xml:id="item22105201"
+                            >封戸<rt>ふこ</rt>は、一戸の構成を正丁四人・中男一人とせよ。田租は各戸ごとに四十束を基準とせよ。郷ごとに課口二百人・中男五十人・租稲二千束を満たすようにせよ。この数を満たさない場合は、国内全体を計算して補填するようにせよ。ただし災害により収穫が減少した年は、通計して補填することは認めない。〈悲田院の封戸五十戸もこれに準ずる。〉寺社の封戸は正丁五・六人とし、一般封戸に準じて増減してはならない。</p>
                     </div>
                     <div ana="民部上"
                         corresp="engishiki.xml#article221053 engishiki_en.xml#article221053"
                         n="22.53" subtype="項" type="条" xml:id="article221053">
                         <head ana="封戸三分"/>
-                        <note type="summary">条文概要</note>
+                        <note type="summary">封戸を充てる国に関する規定</note>
                         <p ana="項"
                             corresp="engishiki.xml#item22105301 engishiki_en.xml#item22105301"
-                            xml:id="item22105301">本文</p>
+                            xml:id="item22105301"
+                            >各所に充てる封戸<rt>ふこ</rt>は、それぞれ三等分し、三分の一は絁<rt>あしぎぬ</rt>を貢納する国に充て、三分の二は布を貢納する国に充てよ。ただし伊賀・伊勢・参河・近江・美濃・越中・石見・備前・周防・長門・紀伊・阿波の国は封戸を充てることはできない。</p>
                     </div>
                     <div ana="民部上"
                         corresp="engishiki.xml#article221054 engishiki_en.xml#article221054"
                         n="22.54" subtype="項" type="条" xml:id="article221054">
                         <head ana="中宮封"/>
-                        <note type="summary">条文概要</note>
+                        <note type="summary">中宮・東宮の封戸の収穫が減少した場合の規定</note>
                         <p ana="項"
                             corresp="engishiki.xml#item22105401 engishiki_en.xml#item22105401"
-                            xml:id="item22105401">本文</p>
+                            xml:id="item22105401"
+                            >中宮に支給する封戸<rt>ふこ</rt>は、災害により収穫が減少した年には、その国に正税<rt>しょうぜい</rt>を用いて封戸収入分を購入させて進上させよ。春宮坊の封戸もこれに準拠せよ。</p>
                     </div>
                     <div ana="民部上"
                         corresp="engishiki.xml#article221055 engishiki_en.xml#article221055"
                         n="22.55" subtype="項" type="条" xml:id="article221055">
                         <head ana="中宮封租"/>
-                        <note type="summary">条文概要</note>
+                        <note type="summary">中宮・東宮の封戸の租の進上方法に関する規定</note>
                         <p ana="項"
                             corresp="engishiki.xml#item22105501 engishiki_en.xml#item22105501"
-                            xml:id="item22105501">本文</p>
+                            xml:id="item22105501"
+                            >中宮の封戸<rt>ふこ</rt>の租は、白米に精米して進上せよ。精米の費用と運賃は封戸の租の中から支出せよ。春宮坊もこれに準拠せよ。</p>
                     </div>
                     <div ana="民部上"
                         corresp="engishiki.xml#article221056 engishiki_en.xml#article221056"
                         n="22.56" subtype="項" type="条" xml:id="article221056">
                         <head ana="職封"/>
-                        <note type="summary">条文概要</note>
+                        <note type="summary">封戸の支給を受けた者が死亡した場合の規定</note>
                         <p ana="項"
                             corresp="engishiki.xml#item22105601 engishiki_en.xml#item22105601"
-                            xml:id="item22105601">本文</p>
+                            xml:id="item22105601"
+                            >公卿に与えられる封戸<rt>ふこ</rt>は、解任もしくは死亡した場合はただちに返還させよ。もし解任もしくは死亡の時点が調物を納入する期限の月より後であった場合は、その年の封物を支給せよ。〈天皇の命により特別に支給する封戸もこれに準拠する。〉品位・位階に応じて与えられる封戸は、死亡した年の分は全てその家に納入せよ。無品の親王・内親王に与えられる封戸もこれに準拠せよ。</p>
                     </div>
                     <div ana="民部上"
                         corresp="engishiki.xml#article221057 engishiki_en.xml#article221057"
                         n="22.57" subtype="項" type="条" xml:id="article221057">
                         <head ana="別勅封"/>
-                        <note type="summary">条文概要</note>
+                        <note type="summary">天皇の命により支給した封戸とその他の封戸の重複支給に関する規定</note>
                         <p ana="項"
                             corresp="engishiki.xml#item22105701 engishiki_en.xml#item22105701"
-                            xml:id="item22105701">本文</p>
+                            xml:id="item22105701"
+                            >天皇の命により特別に支給する封戸<rt>ふこ</rt>は、もし対象の人の位階や官職が変わったことによりそれに応じた封戸を得ることになった場合、既得の封戸をその分に充当せよ。</p>
                     </div>
                     <div ana="民部上"
                         corresp="engishiki.xml#article221058 engishiki_en.xml#article221058"
                         n="22.58" subtype="項" type="条" xml:id="article221058">
                         <head ana="食封収給"/>
-                        <note type="summary">条文概要</note>
+                        <note type="summary">封戸・田地の接収・支給手続きに関する規定</note>
                         <p ana="項"
                             corresp="engishiki.xml#item22105801 engishiki_en.xml#item22105801"
-                            xml:id="item22105801">本文</p>
+                            xml:id="item22105801"
+                            >任官・叙位および死亡により封戸<rt>ふこ</rt>や田地を接収ないし支給する際には、太政官<rt>だいじょうかん</rt>が文書を民部省<rt>みんぶしょう</rt>に下し、民部省が上奏文を作成し、内侍<rt>ないし</rt>にさずけてそのまま奏上させよ。その後ただちに施行せよ。〈直奏<rt>じきそう</rt>と称する手続きは、この他の場合でもみなこれに準拠せよ。〉みな便宜をはかり適正に支給し、高位の者におもねってはならない。</p>
                     </div>
                     <div ana="民部上"
                         corresp="engishiki.xml#article221059 engishiki_en.xml#article221059"
                         n="22.59" subtype="項" type="条" xml:id="article221059">
                         <head ana="功封伝子"/>
-                        <note type="summary">条文概要</note>
+                        <note type="summary">功臣に与えられる封戸の子孫への伝承に関する規定</note>
                         <p ana="項"
                             corresp="engishiki.xml#item22105901 engishiki_en.xml#item22105901"
-                            xml:id="item22105901">本文</p>
+                            xml:id="item22105901"
+                            >功労の臣に与えられる封戸<rt>ふこ</rt>を子に伝承する際には、子がいない場合には伝承できない。ただし兄弟の子を養子とする場合はその養子に伝承せよ。封戸を伝承した者に子がいない場合もその養子に伝承してよい。世代の数え方は実子と同じとせよ。ただし嫡孫に継承させた場合は封戸を伝承することはできない。</p>
                     </div>
                     <div ana="民部上"
                         corresp="engishiki.xml#article221060 engishiki_en.xml#article221060"
                         n="22.60" subtype="項" type="条" xml:id="article221060">
                         <head ana="官丁"/>
-                        <note type="summary">条文概要</note>
+                        <note type="summary">封戸の仕丁は名簿にその旨を記す規定</note>
                         <p ana="項"
                             corresp="engishiki.xml#item22106001 engishiki_en.xml#item22106001"
-                            xml:id="item22106001">本文</p>
+                            xml:id="item22106001"
+                            >民部省<rt>みんぶしょう</rt>発給の文書に載せて徴発を行なう諸院・諸家の封戸<rt>ふこ</rt>の仕丁<rt>じちょう</rt>は、名簿の頭にその旨を注記せよ。</p>
                     </div>
                     <div ana="民部上"
                         corresp="engishiki.xml#article221061 engishiki_en.xml#article221061"
                         n="22.61" subtype="項" type="条" xml:id="article221061">
                         <head ana="仕丁"/>
-                        <note type="summary">条文概要</note>
+                        <note type="summary">仕丁の点定に関する規定</note>
                         <p ana="項"
                             corresp="engishiki.xml#item22106101 engishiki_en.xml#item22106101"
-                            xml:id="item22106101">本文</p>
+                            xml:id="item22106101"
+                            >仕丁<rt>じちょう</rt>を点定する際には、五十戸ごとに二人とせよ。〈采女<rt>うねめ</rt>で薪を採取する者や庵を守る者はこの数に入れない。〉補助の者は点定しない。仕丁の交替の前年四月に民部省<rt>みんぶしょう</rt>が事前に点定すべき人数を調べ、太政官<rt>だいじょうかん</rt>に報告し民部省発給の文書を下達せよ。国司は計帳を作成する際に仕丁を点定し、十二月下旬までに郡司に引率させて民部省に送れ。月の途中で交替した場合でも、その月の食料を支給してよい。名簿は事前に大帳を運ぶ使者にさずけて民部省に提出せよ。ただし志摩・飛騨・陸奥・出羽・佐渡・隠伎・長門・大宰府管内諸国は仕丁を点定しない。近国は十月中旬、中国は十一月、遠国は十二月下旬までに仕丁を貢上せよ。</p>
                     </div>
                     <div ana="民部上"
                         corresp="engishiki.xml#article221062 engishiki_en.xml#article221062"
                         n="22.62" subtype="項" type="条" xml:id="article221062">
                         <head ana="女丁"/>
-                        <note type="summary">条文概要</note>
+                        <note type="summary">女丁の点定方法に関する規定</note>
                         <p ana="項"
                             corresp="engishiki.xml#item22106201 engishiki_en.xml#item22106201"
-                            xml:id="item22106201">本文</p>
+                            xml:id="item22106201"
+                            >女丁<rt>にょちょう</rt>を点定する際には、全国の総計が九十人を超えてはならない。ただし志摩・飛騨・陸奥・出羽・佐渡・隠伎・大宰府管内諸国からは女丁を点定しない。</p>
                     </div>
                     <div ana="民部上"
                         corresp="engishiki.xml#article221063 engishiki_en.xml#article221063"
                         n="22.63" subtype="項" type="条" xml:id="article221063">
                         <head ana="神寺封丁"/>
-                        <note type="summary">条文概要</note>
+                        <note type="summary">寺社の封戸の者を雑役務者に点定しない規定</note>
                         <p ana="項"
                             corresp="engishiki.xml#item22106301 engishiki_en.xml#item22106301"
-                            xml:id="item22106301">本文</p>
+                            xml:id="item22106301"
+                            >神社や寺院の封戸<rt>ふこ</rt>の者は、衛士<rt>えじ</rt>・仕丁<rt>じちょう</rt>・事力<rt>じりき</rt>に点定してはならない。</p>
                     </div>
                     <div ana="民部上"
                         corresp="engishiki.xml#article221064 engishiki_en.xml#article221064"
                         n="22.64" subtype="項" type="条" xml:id="article221064">
                         <head ana="馬寮仕丁"/>
-                        <note type="summary">条文概要</note>
+                        <note type="summary">左右馬寮に所属する仕丁の分配に関する規定</note>
                         <p ana="項"
                             corresp="engishiki.xml#item22106401 engishiki_en.xml#item22106401"
-                            xml:id="item22106401">本文</p>
+                            xml:id="item22106401"
+                            >左右馬寮<rt>めりょう</rt>に所属し草を刈る任務にあたる仕丁<rt>じちょう</rt>一四八人は、均等に左右各寮に配属せよ。</p>
                     </div>
                     <div ana="民部上"
                         corresp="engishiki.xml#article221065 engishiki_en.xml#article221065"
                         n="22.65" subtype="項" type="条" xml:id="article221065">
                         <head ana="仕丁逃死"/>
-                        <note type="summary">条文概要</note>
+                        <note type="summary">仕丁に欠員が生じた際の手続きに関する規定</note>
                         <p ana="項"
                             corresp="engishiki.xml#item22106501 engishiki_en.xml#item22106501"
-                            xml:id="item22106501">本文</p>
+                            xml:id="item22106501"
+                            >諸司に配属されている仕丁<rt>じちょう</rt>が逃亡・死亡した場合は、季ごとに調査して諸国に通達せよ。その代わりの者が到来したらただちにもとの官司に配属せよ。ただし逃亡の場合は、そのときの法に準じて日数分の労働対価を徴収せよ。</p>
                     </div>
                     <div ana="民部上"
                         corresp="engishiki.xml#article221066 engishiki_en.xml#article221066"
                         n="22.66" subtype="項" type="条" xml:id="article221066">
                         <head ana="養物"/>
-                        <note type="summary">条文概要</note>
+                        <note type="summary">衛士・仕丁の資養物に関する規定</note>
                         <p ana="項"
                             corresp="engishiki.xml#item22106601 engishiki_en.xml#item22106601"
-                            xml:id="item22106601">本文</p>
+                            xml:id="item22106601"
+                            >衛士<rt>えじ</rt>・仕丁<rt>じちょう</rt>の資養物は、出身郷土の土産に従え。その分量は正丁七人半の雑徭<rt>ぞうよう</rt>分の稲一五〇束とし、その土地の相場に準じて布など軽物を購入するか精米せよ。その物はそのまま本人に与えよ。〈女丁<rt>にょちょう</rt>も同様とする。〉納入の検査は官司・諸家それぞれに委ね、すべて調を輸送する使者にさずけて民部省<rt>みんぶしょう</rt>に報告せよ。〈ただし衛士はそれぞれの所属の衛府に送る。〉逃亡者の資養物は代わりの者に与えよ。代わりの者がいない場合は国庫に入れよ。諸家の封戸仕丁は、逃亡かどうかにかかわらず主人の家に与えよ。</p>
                     </div>
                     <div ana="民部上"
                         corresp="engishiki.xml#article221067 engishiki_en.xml#article221067"
                         n="22.67" subtype="項" type="条" xml:id="article221067">
                         <head ana="給商布綿"/>
-                        <note type="summary">条文概要</note>
+                        <note type="summary">衛士・仕丁の食料の一部を繊維品で支給する規定</note>
                         <p ana="項"
                             corresp="engishiki.xml#item22106701 engishiki_en.xml#item22106701"
-                            xml:id="item22106701">本文</p>
+                            xml:id="item22106701"
+                            >衛士<rt>えじ</rt>・仕丁<rt>じちょう</rt>の食料の中から割き取り、正月から六月までは商布<rt>しょうふ</rt>を支給し、七月から十二月までは綿を支給せよ。〈木工寮<rt>もくりょう</rt>の工部<rt>たくみべ</rt>もこれに準ずる。〉</p>
                     </div>
                     <div ana="民部上"
                         corresp="engishiki.xml#article221068 engishiki_en.xml#article221068"
                         n="22.68" subtype="項" type="条" xml:id="article221068">
                         <head ana="給公粮"/>
-                        <note type="summary">条文概要</note>
+                        <note type="summary">下級労働者の食料給の支給手続きに関する規定</note>
                         <p ana="項"
                             corresp="engishiki.xml#item22106801 engishiki_en.xml#item22106801"
-                            xml:id="item22106801">本文</p>
+                            xml:id="item22106801"
+                            >食料給を支給する際には、所属の官司が毎月十一日に文書を作成して民部省<rt>みんぶしょう</rt>に送れ。民部省は全体の目録を作成して十六日に太政官<rt>だいじょうかん</rt>に報告し、太政官発給の文書の到来を待ち支給せよ。ただし六・九・十二月の三ヶ月は十三日を民部省に報告する期日とせよ。</p>
                     </div>
                     <div ana="民部上"
                         corresp="engishiki.xml#article221069 engishiki_en.xml#article221069"
                         n="22.69" subtype="項" type="条" xml:id="article221069">
                         <head ana="遭喪"/>
-                        <note type="summary">条文概要</note>
+                        <note type="summary">仕丁・女丁の父母が死亡した場合に交替する規定</note>
                         <p ana="項"
                             corresp="engishiki.xml#item22106901 engishiki_en.xml#item22106901"
-                            xml:id="item22106901">本文</p>
+                            xml:id="item22106901"
+                            >仕丁<rt>じちょう</rt>・女丁<rt>にょちょう</rt>に父母の喪が生じた場合は、国司が事実を調べ、代わりの者を選び送り、服喪期間を全うできるようにせよ。</p>
                     </div>
                     <div ana="民部上"
                         corresp="engishiki.xml#article221070 engishiki_en.xml#article221070"
                         n="22.70" subtype="項" type="条" xml:id="article221070">
                         <head ana="匠丁還郷"/>
-                        <note type="summary">条文概要</note>
+                        <note type="summary">諸国から出仕した技術労働者の帰郷に関する規定</note>
                         <p ana="項"
                             corresp="engishiki.xml#item22107001 engishiki_en.xml#item22107001"
-                            xml:id="item22107001">本文</p>
+                            xml:id="item22107001"
+                            >諸国から出仕する技術労働者が帰郷する際には、所属の官司が文書を作成して民部省<rt>みんぶしょう</rt>に送り、民部省が太政官<rt>だいじょうかん</rt>に報告して路程の食料を支給せよ。一人につき一日に米一升、塩一夕とせよ。〈仕丁<rt>じちょう</rt>もこれに準ずる。〉</p>
                     </div>
                     <div ana="民部上"
                         corresp="engishiki.xml#article221071 engishiki_en.xml#article221071"
                         n="22.71" subtype="項" type="条" xml:id="article221071">
                         <head ana="重病"/>
-                        <note type="summary">条文概要</note>
+                        <note type="summary">仕丁が重病により帰郷する場合の規定</note>
                         <p ana="項"
                             corresp="engishiki.xml#item22107101 engishiki_en.xml#item22107101"
-                            xml:id="item22107101">本文</p>
+                            xml:id="item22107101"
+                            >仕丁<rt>じちょう</rt>が重病により労役ができない場合には、所属の官司が民部省<rt>みんぶしょう</rt>に通達し、民部省が事実を確認した上で太政官<rt>だいじょうかん</rt>に報告し、食料・馬を支給して郷土まで送れ。〈諸家の仕丁は家に送らせる。〉</p>
                     </div>
                     <div ana="民部上"
                         corresp="engishiki.xml#article221072 engishiki_en.xml#article221072"
                         n="22.72" subtype="項" type="条" xml:id="article221072">
                         <head ana="斎宮仕丁"/>
-                        <note type="summary">条文概要</note>
+                        <note type="summary">伊勢斎宮の仕丁の点定に関する規定</note>
                         <p ana="項"
                             corresp="engishiki.xml#item22107201 engishiki_en.xml#item22107201"
-                            xml:id="item22107201">本文</p>
+                            xml:id="item22107201"
+                            >伊勢斎宮<rt>さいぐう</rt>の仕丁<rt>じちょう</rt>四八人は、神宮所属の郡と神宮に奉仕する戸の百姓を充てよ。</p>
                     </div>
                     <div ana="民部上"
                         corresp="engishiki.xml#article221073 engishiki_en.xml#article221073"
                         n="22.73" subtype="項" type="条" xml:id="article221073">
                         <head ana="充副丁"/>
-                        <note type="summary">条文概要</note>
+                        <note type="summary">事力の補助人員を支給する規定</note>
                         <p ana="項"
                             corresp="engishiki.xml#item22107301 engishiki_en.xml#item22107301"
-                            xml:id="item22107301">本文</p>
+                            xml:id="item22107301">国司の事力<rt>じりき</rt>には、補助の人員を与えよ。一人につき六人とせよ。</p>
                     </div>
                     <div ana="民部上"
                         corresp="engishiki.xml#article221074 engishiki_en.xml#article221074"
                         n="22.74" subtype="項" type="条" xml:id="article221074">
                         <head ana="停給事力"/>
-                        <note type="summary">条文概要</note>
+                        <note type="summary">故なく京に留まる国司への給与を停止する規定</note>
                         <p ana="項"
                             corresp="engishiki.xml#item22107401 engishiki_en.xml#item22107401"
-                            xml:id="item22107401">本文</p>
+                            xml:id="item22107401"
+                            >国司以下が赴任した後で帰京し都に留まる場合は、事力<rt>じりき</rt>と俸禄としての田地の支給を停止せよ。ただし特別に召集され、一年以内に国に帰還した場合はこの限りではない。</p>
                     </div>
                     <div ana="民部上"
                         corresp="engishiki.xml#article221075 engishiki_en.xml#article221075"
                         n="22.75" subtype="項" type="条" xml:id="article221075">
                         <head ana="堀江寺"/>
-                        <note type="summary">条文概要</note>
+                        <note type="summary">摂津国堀江寺を守護する者の租税を免除する規定</note>
                         <p ana="項"
                             corresp="engishiki.xml#item22107501 engishiki_en.xml#item22107501"
-                            xml:id="item22107501">本文</p>
+                            xml:id="item22107501"
+                            >摂津国堀江寺には、その土地の者二人・本国を離れて摂津国に居住する者一〇人を充てて仏像と経典を守護させ、調と雑徭<rt>ぞうよう</rt>を免除せよ。死亡による欠員があればただちに選び替えよ。</p>
                     </div>
                     <div ana="民部上"
                         corresp="engishiki.xml#article221076 engishiki_en.xml#article221076"
                         n="22.76" subtype="項" type="条" xml:id="article221076">
                         <head ana="鼓吹丁"/>
-                        <note type="summary">条文概要</note>
+                        <note type="summary">大宰府に所属する鼓吹の教習生の人数と徭役免除に関する規定</note>
                         <p ana="項"
                             corresp="engishiki.xml#item22107601 engishiki_en.xml#item22107601"
-                            xml:id="item22107601">本文</p>
+                            xml:id="item22107601"
+                            >大宰府に所属する鼓吹の教習生は、筑前・肥後からそれぞれ七二人、筑後・肥前からそれぞれ五四人、豊前・豊後からそれぞれ三六人とし、徭役を免除せよ。</p>
                     </div>
                     <div ana="民部上"
                         corresp="engishiki.xml#article221077 engishiki_en.xml#article221077"
                         n="22.77" subtype="項" type="条" xml:id="article221077">
                         <head ana="賜徭丁"/>
-                        <note type="summary">条文概要</note>
+                        <note type="summary">大宰府管内の選抜された丙子に補助要員を支給する規定</note>
                         <p ana="項"
                             corresp="engishiki.xml#item22107701 engishiki_en.xml#item22107701"
-                            xml:id="item22107701">本文</p>
+                            xml:id="item22107701"
+                            >大宰府および管内の九国二島の選抜された兵士の補助要員には、雑徭<rt>ぞうよう</rt>により徴発した者一人を与えよ。</p>
                     </div>
                     <div ana="民部上"
                         corresp="engishiki.xml#article221078 engishiki_en.xml#article221078"
                         n="22.78" subtype="項" type="条" xml:id="article221078">
                         <head ana="芸掃"/>
-                        <note type="summary">条文概要</note>
+                        <note type="summary">中央官衙における仕丁による清掃に関する規定</note>
                         <p ana="項"
                             corresp="engishiki.xml#item22107801 engishiki_en.xml#item22107801"
-                            xml:id="item22107801">本文</p>
+                            xml:id="item22107801"
+                            >朝堂および朝集院の場は、みな諸司の仕丁<rt>じちょう</rt>に草刈りや掃除をさせよ。太政官<rt>だいじょうかん</rt>・左右弁官および内記<rt>ないき</rt>・内膳司<rt>ないぜんし</rt>・造酒司<rt>ぞうしゅし</rt>・主水司<rt>しゅすいし</rt>の仕丁は清掃を免除せよ。</p>
                     </div>
                     <div ana="民部上"
                         corresp="engishiki.xml#article221079 engishiki_en.xml#article221079"
                         n="22.79" subtype="項" type="条" xml:id="article221079">
                         <head ana="晦掃丁"/>
-                        <note type="summary">条文概要</note>
+                        <note type="summary">仕丁による宮中の清掃に関する規定</note>
                         <p ana="項"
                             corresp="engishiki.xml#item22107901 engishiki_en.xml#item22107901"
-                            xml:id="item22107901">本文</p>
+                            xml:id="item22107901"
+                            >毎月末日には、諸司の仕丁<rt>じちょう</rt>に宮中を清掃させよ。〈主殿寮<rt>とのもりょう</rt>の仕丁は二十五人を充てる。〉もし怠りがあれば、その月の食料給のうち一斗を留め、太政官<rt>だいじょうかん</rt>に報告して返上せよ。ただし太政官・左右弁官・内記<rt>ないき</rt>・主鈴<rt>しゅれい</rt>・中宮職<rt>ちゅうぐうしき</rt>・内膳司<rt>ないぜんし</rt>・造酒司<rt>ぞうしゅし</rt>・主水司<rt>しゅすいし</rt>に所属する仕丁は清掃を免除せよ。内蔵寮<rt>くらりょう</rt>は三月から九月まで清掃を免除せよ。清掃を監督する左右衛門府<rt>えもんふ</rt>・左右兵衛府<rt>ひょうえふ</rt>の府生<rt>ふしょう</rt>の名簿は弾正台<rt>だんじょうだい</rt>に送付せよ。</p>
                     </div>
                     <div ana="民部上"
                         corresp="engishiki.xml#article221080 engishiki_en.xml#article221080"
                         n="22.80" subtype="項" type="条" xml:id="article221080">
                         <head ana="太政官掃丁"/>
-                        <note type="summary">条文概要</note>
+                        <note type="summary">太政官の庁舎を仕丁に清掃させる規定</note>
                         <p ana="項"
                             corresp="engishiki.xml#item22108001 engishiki_en.xml#item22108001"
-                            xml:id="item22108001">本文</p>
+                            xml:id="item22108001"
+                            >太政官<rt>だいじょうかん</rt>の庁舎は、毎月末日の掃除をする仕丁<rt>じちょう</rt>のうち二十人を割いて掃除せよ。</p>
                     </div>
                     <div ana="民部上"
                         corresp="engishiki.xml#article221081 engishiki_en.xml#article221081"
                         n="22.81" subtype="項" type="条" xml:id="article221081">
                         <head ana="大学寮掃丁"/>
-                        <note type="summary">条文概要</note>
+                        <note type="summary">大学寮の庁舎を清掃する仕丁の請求に関する規定</note>
                         <p ana="項"
                             corresp="engishiki.xml#item22108101 engishiki_en.xml#item22108101"
-                            xml:id="item22108101">本文</p>
+                            xml:id="item22108101"
+                            >大学寮<rt>だいがくりょう</rt>の庁舎は、毎月末日に民部省<rt>みんぶしょう</rt>に赴き、掃除のための仕丁<rt>じちょう</rt>一〇人を請求して掃除せよ。</p>
                     </div>
                     <div ana="民部上"
                         corresp="engishiki.xml#article221082 engishiki_en.xml#article221082"
                         n="22.82" subtype="項" type="条" xml:id="article221082">
                         <head ana="造籍"/>
-                        <note type="summary">条文概要</note>
+                        <note type="summary">戸籍の作成・送付・受領の手続きに関する規定</note>
                         <p ana="項"
                             corresp="engishiki.xml#item22108201 engishiki_en.xml#item22108201"
-                            xml:id="item22108201">本文</p>
+                            xml:id="item22108201"
+                            >戸籍を作成する際には、一年前に民部省<rt>みんぶしょう</rt>が太政官<rt>だいじょうかん</rt>に申請し、返答を待ち実施せよ。京職<rt>きょうしき</rt>および諸国の役所は常例に則り調査し作成せよ。諸国は調を輸送する使者にさずけ、大宰府は調の綿を輸送する使者にさずけて送付せよ。検査し受領したらただちに朱印を捺さない受領証を発行せよ。</p>
                     </div>
                     <div ana="民部上"
                         corresp="engishiki.xml#article221083 engishiki_en.xml#article221083"
                         n="22.83" subtype="項" type="条" xml:id="article221083">
                         <head ana="籍書紙"/>
-                        <note type="summary">条文概要</note>
+                        <note type="summary">戸籍の料紙に関する規定</note>
                         <p ana="項"
                             corresp="engishiki.xml#item22108301 engishiki_en.xml#item22108301"
-                            xml:id="item22108301">本文</p>
+                            xml:id="item22108301"
+                            >戸籍は、国家にとって重要な文書であるから、その紙は黄蘗で染め、必ず堅く厚いものを用いよ。規定に反するものは調査のうえ返却せよ。ただし西海道諸国は染めていない紙に書写せよ。</p>
                     </div>
                     <div ana="民部上"
                         corresp="engishiki.xml#article221084 engishiki_en.xml#article221084"
                         n="22.84" subtype="項" type="条" xml:id="article221084">
                         <head ana="五位造籍"/>
-                        <note type="summary">条文概要</note>
+                        <note type="summary">五位以上の子孫の戸籍の記述に関する規定</note>
                         <p ana="項"
                             corresp="engishiki.xml#item22108401 engishiki_en.xml#item22108401"
-                            xml:id="item22108401">本文</p>
+                            xml:id="item22108401">五位以上の者の子と孫は、戸籍を作成する際に、父や祖父の位階と名前を明記せよ。</p>
                     </div>
                     <div ana="民部上"
                         corresp="engishiki.xml#article221085 engishiki_en.xml#article221085"
                         n="22.85" subtype="項" type="条" xml:id="article221085">
                         <head ana="蔭子孫"/>
-                        <note type="summary">条文概要</note>
+                        <note type="summary">五位以上の子・孫の戸籍の照合に関する規定</note>
                         <p ana="項"
                             corresp="engishiki.xml#item22108501 engishiki_en.xml#item22108501"
-                            xml:id="item22108501">本文</p>
+                            xml:id="item22108501"
+                            >五位以上の者の子と孫は、仕官のために本籍地が推挙してきた際には、戸籍の照合作業をしなくてよい。もし戸籍を偽り父や祖父の位階により出仕しようとすることや、孫を子として偽るようなことがあれば、推挙した官人を法により処罰せよ。</p>
                     </div>
                     <div ana="民部上"
                         corresp="engishiki.xml#article221086 engishiki_en.xml#article221086"
                         n="22.86" subtype="項" type="条" xml:id="article221086">
                         <head ana="八位嫡子"/>
-                        <note type="summary">条文概要</note>
+                        <note type="summary">八位以上の嫡子の出仕に関する規定</note>
                         <p ana="項"
                             corresp="engishiki.xml#item22108601 engishiki_en.xml#item22108601"
-                            xml:id="item22108601">本文</p>
+                            xml:id="item22108601"
+                            >八位以上の者の嫡子が規定以外の方法で出仕した場合は、庶子がいたとしても、位子として推挙することはしない。</p>
                     </div>
                     <div ana="民部上"
                         corresp="engishiki.xml#article221087 engishiki_en.xml#article221087"
                         n="22.87" subtype="項" type="条" xml:id="article221087">
                         <head ana="勘籍"/>
-                        <note type="summary">条文概要</note>
+                        <note type="summary">戸籍の照会手続きで遡る年次に関する規定</note>
                         <p ana="項"
                             corresp="engishiki.xml#item22108701 engishiki_en.xml#item22108701"
-                            xml:id="item22108701">本文</p>
+                            xml:id="item22108701"
+                            >戸籍の照会作業は、有位者の子および下級職員は三回分、衛府<rt>えふ</rt>官人は五回分の戸籍を調査せよ。もし合致しない場合はただちに地元に送り返せ。</p>
                     </div>
                     <div ana="民部上"
                         corresp="engishiki.xml#article221088 engishiki_en.xml#article221088"
                         n="22.88" subtype="項" type="条" xml:id="article221088">
                         <head ana="雑色人勘籍"/>
-                        <note type="summary">条文概要</note>
+                        <note type="summary">戸籍の照会作業の手続きに関する規定</note>
                         <p ana="項"
                             corresp="engishiki.xml#item22108801 engishiki_en.xml#item22108801"
-                            xml:id="item22108801">本文</p>
+                            xml:id="item22108801"
+                            >下級職員の戸籍の照合作業は、式部省<rt>しきぶしょう</rt>・治部省<rt>じぶしょう</rt>・兵部省<rt>ひょうぶしょう</rt>が名簿を作成して太政官<rt>だいじょうかん</rt>に報告せよ。太政官が民部省<rt>みんぶしょう</rt>に下達した後、三省は先に史生<rt>ししょう</rt>を派遣して戸籍の照合作業を実施すべき旨を告知せよ。丞<rt>じょう</rt>・録<rt>さかん</rt>それぞれ一人が共に照合し、その後さらに文書を作成し、共同で署名して太政官に報告せよ。</p>
                     </div>
                     <div ana="民部上"
                         corresp="engishiki.xml#article221089 engishiki_en.xml#article221089"
                         n="22.89" subtype="項" type="条" xml:id="article221089">
                         <head ana="勘籍不合"/>
-                        <note type="summary">条文概要</note>
+                        <note type="summary">戸籍の照合作業で不備が発覚した場合の規定</note>
                         <p ana="項"
                             corresp="engishiki.xml#item22108901 engishiki_en.xml#item22108901"
-                            xml:id="item22108901">本文</p>
+                            xml:id="item22108901"
+                            >下級職員の戸籍の照合作業で不備が見つかれば、再度照合作業をすることはできない。もし天皇の命による太政官<rt>だいじょうかん</rt>発給の文書がある場合は実施することができる。ただし最初と最後の戸籍が合致し中間に不備がある場合には、中納言以上の指示により再度の照合作業を行え。</p>
                     </div>
                     <div ana="民部上"
                         corresp="engishiki.xml#article221090 engishiki_en.xml#article221090"
                         n="22.90" subtype="項" type="条" xml:id="article221090">
                         <head ana="入色"/>
-                        <note type="summary">条文概要</note>
+                        <note type="summary">戸籍の照合作業を省略する場合の規定</note>
                         <p ana="項"
                             corresp="engishiki.xml#item22109001 engishiki_en.xml#item22109001"
-                            xml:id="item22109001">本文</p>
+                            xml:id="item22109001"
+                            >既に官人身分となっている物が僧侶や左右近衛<rt>このえ</rt>・兵衛<rt>ひょうえ</rt>・門部<rt>かどべ</rt>になる場合には、あらためて戸籍の照合作業は行わない。それ以外に補任される場合も同様とせよ。</p>
                     </div>
                     <div ana="民部上"
                         corresp="engishiki.xml#article221091 engishiki_en.xml#article221091"
                         n="22.91" subtype="項" type="条" xml:id="article221091">
                         <head ana="得度"/>
-                        <note type="summary">条文概要</note>
+                        <note type="summary">僧侶になる場合の戸籍の照合作業に関する規定</note>
                         <p ana="項"
                             corresp="engishiki.xml#item22109101 engishiki_en.xml#item22109101"
-                            xml:id="item22109101">本文</p>
+                            xml:id="item22109101">僧侶となる場合には、三回分の戸籍を照合せよ。もし一回分でも合格すれば許可せよ。</p>
                     </div>
                     <div ana="民部上"
                         corresp="engishiki.xml#article221092 engishiki_en.xml#article221092"
                         n="22.92" subtype="項" type="条" xml:id="article221092">
                         <head ana="勘籍徒"/>
-                        <note type="summary">条文概要</note>
+                        <note type="summary">戸籍照合作業において表記を問題としない規定</note>
                         <p ana="項"
                             corresp="engishiki.xml#item22109201 engishiki_en.xml#item22109201"
-                            xml:id="item22109201">本文</p>
+                            xml:id="item22109201"
+                            >戸籍の照合作業を受ける者は、たとえば蝮部<rt>たじひべ</rt>を丹比部と記すことや、永吉を長善と記すなど、表記の問題の場合は不合格としてはならない。</p>
                     </div>
                     <div ana="民部上"
                         corresp="engishiki.xml#article221093 engishiki_en.xml#article221093"
                         n="22.93" subtype="項" type="条" xml:id="article221093">
                         <head ana="入色課役"/>
-                        <note type="summary">条文概要</note>
+                        <note type="summary">官人身分の変化による課役の徴収・免除の変更手続きに関する規定</note>
                         <p ana="項"
                             corresp="engishiki.xml#item22109301 engishiki_en.xml#item22109301"
-                            xml:id="item22109301">本文</p>
+                            xml:id="item22109301"
+                            >式部省<rt>しきぶしょう</rt>・治部省<rt>じぶしょう</rt>・兵部省<rt>ひょうぶしょう</rt>を通じて官人身分になった者で課役を徴収免除の変化があった者の手続きのために作成する季帳は、四季のはじめの月の十六日に太政官<rt>だいじょうかん</rt>に報告せよ。太政官は太政官の発給文書と季帳を民部省<rt>みんぶしょう</rt>に下達し、民部省がさらに確認し、国ごとに文書を作成し、次の四季のはじめの月に太政官に報告して実施せよ。</p>
                     </div>
                     <div ana="民部上"
                         corresp="engishiki.xml#article221094 engishiki_en.xml#article221094"
                         n="22.94" subtype="項" type="条" xml:id="article221094">
                         <head ana="雑色人数"/>
-                        <note type="summary">条文概要</note>
+                        <note type="summary">毎年の課役免除の対象となる人数に関する規定</note>
                         <p ana="項"
                             corresp="engishiki.xml#item22109401 engishiki_en.xml#item22109401"
-                            xml:id="item22109401">本文</p>
+                            xml:id="item22109401"
+                            >毎年課役免除のための文書に載せる下級職員の人数は、大国は六〇人、〈式部省<rt>しきぶしょう</rt>の管轄は三四人、治部省<rt>じぶしょう</rt>の管轄は四人、兵部省<rt>ひょうぶしょう</rt>の管轄は一二人。〉上国四〇人、〈式部省は二七人、治部省は三人、兵部省は一〇人。〉中国三〇人、〈式部省は二一人、治部省は二人、兵部省は七人。〉下国二〇人。〈式部省は一三人、治部省は一人、兵部省は六人。〉</p>
                     </div>
                     <div ana="民部上"
                         corresp="engishiki.xml#article221095 engishiki_en.xml#article221095"
                         n="22.95" subtype="項" type="条" xml:id="article221095">
                         <head ana="破除"/>
-                        <note type="summary">条文概要</note>
+                        <note type="summary">任官等の時期による租税免除の方法に関する規定</note>
                         <p ana="項"
                             corresp="engishiki.xml#item22109501 engishiki_en.xml#item22109501"
-                            xml:id="item22109501">本文</p>
+                            xml:id="item22109501"
+                            >任官などにより春に計帳から除かれた場合は全ての租税を免除せよ。夏に除かれた場合は調を徴収せよ。秋以後に除かれた場合は全ての租税を徴収せよ。</p>
                     </div>
                     <div ana="民部上"
                         corresp="engishiki.xml#article221096 engishiki_en.xml#article221096"
                         n="22.96" subtype="項" type="条" xml:id="article221096">
                         <head ana="官田"/>
-                        <note type="summary">条文概要</note>
+                        <note type="summary">供御料田の面積と収穫稲に関する規定</note>
                         <p ana="項"
                             corresp="engishiki.xml#item22109601 engishiki_en.xml#item22109601"
-                            xml:id="item22109601">本文</p>
+                            xml:id="item22109601"
+                            >天皇供御料田は、山城国に二〇町、〈宮内省<rt>くないしょう</rt>所管が八町、山城国所管が一二町。〉大和国に一六町、〈宮内省所管が九町、大和国所管が七町。〉河内国に一八町、〈宮内省所管が八町、河内国所管が一〇町。〉和泉国に二町、〈和泉国の所管。〉摂津国に三〇町。〈宮内省所管が一五町、摂津国所管が一五町。〉耕営経費としての稲は町ごとに一五〇束、〈和泉国は一二〇束。〉収穫稲は五〇〇束。〈和泉国は四〇〇束。〉国ごとに長官が主として担当せよ。</p>
                     </div>
                     <div ana="民部上"
                         corresp="engishiki.xml#article221097 engishiki_en.xml#article221097"
                         n="22.97" subtype="項" type="条" xml:id="article221097">
                         <head ana="位田本地"/>
-                        <note type="summary">条文概要</note>
+                        <note type="summary">各種の賜与田の土地を改めることを禁止する規定</note>
                         <p ana="項"
                             corresp="engishiki.xml#item22109701 engishiki_en.xml#item22109701"
-                            xml:id="item22109701">本文</p>
+                            xml:id="item22109701"
+                            >位階に応じて支給される田・功績ある者に支給される田・天皇の特別な許しにより支給される田および神社や寺院の田は、それぞれ与えられた本来の土地とし、簡単に改めてはならない。</p>
                     </div>
                     <div ana="民部上"
                         corresp="engishiki.xml#article221098 engishiki_en.xml#article221098"
                         n="22.98" subtype="項" type="条" xml:id="article221098">
                         <head ana="外五位位田"/>
-                        <note type="summary">条文概要</note>
+                        <note type="summary">外位に支給する田を内位の半分とする規定</note>
                         <p ana="項"
                             corresp="engishiki.xml#item22109801 engishiki_en.xml#item22109801"
-                            xml:id="item22109801">本文</p>
+                            xml:id="item22109801">外五位の者の位階に応じて支給される田は、内位の者の半分とせよ。</p>
                     </div>
                     <div ana="民部上"
                         corresp="engishiki.xml#article221099 engishiki_en.xml#article221099"
                         n="22.99" subtype="項" type="条" xml:id="article221099">
                         <head ana="位田二分"/>
-                        <note type="summary">条文概要</note>
+                        <note type="summary">位階に応じて支給される田の所在地に関する規定</note>
                         <p ana="項"
                             corresp="engishiki.xml#item22109901 engishiki_en.xml#item22109901"
-                            xml:id="item22109901">本文</p>
+                            xml:id="item22109901"
+                            >位階に応じて支給される田は、それぞれ二等分し、一方は畿内に支給し、一方は畿外に支給せよ。一箇所に一〇町以上を置いてはならない。ただし支給した後で、水害により田地が川原となったと称する場合は、必ずしも別の場所に改めて支給せずともよい。もし甚大なる水害により明らかに深刻な被害を受けた場所については、実情により交換を許可せよ。不熟田が荒廃した場合はこの限りではない。</p>
                     </div>
                     <div ana="民部上"
                         corresp="engishiki.xml#article221100 engishiki_en.xml#article221100"
                         n="22.100" subtype="項" type="条" xml:id="article221100">
                         <head ana="不置位田"/>
-                        <note type="summary">条文概要</note>
+                        <note type="summary">位階に応じて支給する田を置かない地域に関する規定</note>
                         <p ana="項"
                             corresp="engishiki.xml#item22110001 engishiki_en.xml#item22110001"
-                            xml:id="item22110001">本文</p>
+                            xml:id="item22110001">但馬国・紀伊国・阿波国には、位階に応じて支給する田を置くことはできない。</p>
                     </div>
                     <div ana="民部上"
                         corresp="engishiki.xml#article221101 engishiki_en.xml#article221101"
                         n="22.101" subtype="項" type="条" xml:id="article221101">
                         <head ana="賜田"/>
-                        <note type="summary">条文概要</note>
+                        <note type="summary">天皇の特別な許しにより与えられる田と他の賜与田との関係についての規定</note>
                         <p ana="項"
                             corresp="engishiki.xml#item22110101 engishiki_en.xml#item22110101"
-                            xml:id="item22110101">本文</p>
+                            xml:id="item22110101"
+                            >天皇の特別な許しにより与えられる田は、対象人物が位階を受けた場合には、その田を含めて位階に応じて支給される田の数を満たすようにせよ。〈官職に応じて支給される田の場合も同様である。〉</p>
                     </div>
                     <div ana="民部上"
                         corresp="engishiki.xml#article221102 engishiki_en.xml#article221102"
                         n="22.102" subtype="項" type="条" xml:id="article221102">
                         <head ana="位田薨卒"/>
-                        <note type="summary">条文概要</note>
+                        <note type="summary">位階に応じて支給される田を死亡後一年は収公しない規定</note>
                         <p ana="項"
                             corresp="engishiki.xml#item22110201 engishiki_en.xml#item22110201"
-                            xml:id="item22110201">本文</p>
+                            xml:id="item22110201">位階に応じて支給される田は、死亡の後一年は収公してはならない。</p>
                     </div>
                     <div ana="民部上"
                         corresp="engishiki.xml#article221103 engishiki_en.xml#article221103"
                         n="22.103" subtype="項" type="条" xml:id="article221103">
                         <head ana="品田"/>
-                        <note type="summary">条文概要</note>
+                        <note type="summary">親王・内親王で支給する田を同数とする規定</note>
                         <p ana="項"
                             corresp="engishiki.xml#item22110301 engishiki_en.xml#item22110301"
-                            xml:id="item22110301">本文</p>
+                            xml:id="item22110301">品階に応じて支給される田を授与する際には、親王・内親王でその数は同じとせよ。</p>
                     </div>
                     <div ana="民部上"
                         corresp="engishiki.xml#article221104 engishiki_en.xml#article221104"
                         n="22.104" subtype="項" type="条" xml:id="article221104">
                         <head ana="乗田"/>
-                        <note type="summary">条文概要</note>
+                        <note type="summary">余剰田を賜与田に充てる場合の規定</note>
                         <p ana="項"
                             corresp="engishiki.xml#item22110401 engishiki_en.xml#item22110401"
-                            xml:id="item22110401">本文</p>
+                            xml:id="item22110401"
+                            >余剰田を品階に応じて支給される田・位階に応じて支給される田に充てる場合は、町を分割せずに支給せよ。</p>
                     </div>
                     <div ana="民部上"
                         corresp="engishiki.xml#article221105 engishiki_en.xml#article221105"
                         n="22.105" subtype="項" type="条" xml:id="article221105">
                         <head ana="御体御卜"/>
-                        <note type="summary">条文概要</note>
+                        <note type="summary">御体御卜の最中に封戸や田地に関する奏上を禁止する規定</note>
                         <p ana="項"
                             corresp="engishiki.xml#item22110501 engishiki_en.xml#item22110501"
-                            xml:id="item22110501">本文</p>
+                            xml:id="item22110501"
+                            >六月・十二月の御体御卜<rt>ごたいのみうら</rt>の間は、封戸<rt>ふこ</rt>や田地の授与について奏上してはならない。</p>
                     </div>
                     <div ana="民部上"
                         corresp="engishiki.xml#article221106 engishiki_en.xml#article221106"
                         n="22.106" subtype="項" type="条" xml:id="article221106">
                         <head ana="品位田帳"/>
-                        <note type="summary">条文概要</note>
+                        <note type="summary">賜与田についての帳簿の提出方法に関する規定</note>
                         <p ana="項"
                             corresp="engishiki.xml#item22110601 engishiki_en.xml#item22110601"
-                            xml:id="item22110601">本文</p>
+                            xml:id="item22110601"
+                            >諸国の品階に応じて支給される田・位階に応じて支給される田に関する帳簿は、正税帳<rt>しょうぜいちょう</rt>を運ぶ使者にさずけて毎年提出せよ。</p>
                     </div>
                     <div ana="民部上"
                         corresp="engishiki.xml#article221107 engishiki_en.xml#article221107"
                         n="22.107" subtype="項" type="条" xml:id="article221107">
                         <head ana="無主品位田"/>
-                        <note type="summary">条文概要</note>
+                        <note type="summary">受給者不在の賜与田の賃料を収納する規定</note>
                         <p ana="項"
                             corresp="engishiki.xml#item22110701 engishiki_en.xml#item22110701"
-                            xml:id="item22110701">本文</p>
+                            xml:id="item22110701"
+                            >受給者がいなくなった品階に応じて支給さえる田・位階に応じて支給される田は、穀倉院<rt>こくそういん</rt>に通知して賃料を収納させよ。</p>
                     </div>
                     <div ana="民部上"
                         corresp="engishiki.xml#article221108 engishiki_en.xml#article221108"
                         n="22.108" subtype="項" type="条" xml:id="article221108">
                         <head ana="無主職田"/>
-                        <note type="summary">条文概要</note>
+                        <note type="summary">官職に応じて支給される田の受給者に欠員が生じた場合の規定</note>
                         <p ana="項"
                             corresp="engishiki.xml#item22110801 engishiki_en.xml#item22110801"
-                            xml:id="item22110801">本文</p>
+                            xml:id="item22110801"
+                            >畿外諸国にある受給者がいなくなった官職に応じて支給される田は、受給者の欠があるごとに、式部省<rt>しきぶしょう</rt>が主税寮<rt>しゅぜいりょう</rt>に通達し、賃料を納入させて正税<rt>しょうぜい</rt>に混ぜ合わせよ。</p>
                     </div>
                     <div ana="民部上"
                         corresp="engishiki.xml#article221109 engishiki_en.xml#article221109"
                         n="22.109" subtype="項" type="条" xml:id="article221109">
                         <head ana="藺田"/>
-                        <note type="summary">条文概要</note>
+                        <note type="summary">藺草を植える田の経営に関する規定</note>
                         <p ana="項"
                             corresp="engishiki.xml#item22110901 engishiki_en.xml#item22110901"
-                            xml:id="item22110901">本文</p>
+                            xml:id="item22110901"
+                            >掃部寮<rt>かもんりょう</rt>が藺草を植える田一町は、山城国の近く便利な場所に設置せよ。経営料は山城国の正税三〇〇束を毎年充てよ。収穫には掃部寮の仕丁<rt>じちょう</rt>を使役せよ。</p>
                     </div>
                     <div ana="民部上"
                         corresp="engishiki.xml#article221110 engishiki_en.xml#article221110"
                         n="22.110" subtype="項" type="条" xml:id="article221110">
                         <head ana="遥授国司"/>
-                        <note type="summary">条文概要</note>
+                        <note type="summary">現地に赴任しない国司への給付を制限する規定</note>
                         <p ana="項"
                             corresp="engishiki.xml#item22111001 engishiki_en.xml#item22111001"
-                            xml:id="item22111001">本文</p>
+                            xml:id="item22111001">赴任していない国司は、俸禄としての田地と事力<rt>じりき</rt>を支給しない。</p>
                     </div>
                     <div ana="民部上"
                         corresp="engishiki.xml#article221111 engishiki_en.xml#article221111"
                         n="22.111" subtype="項" type="条" xml:id="article221111">
                         <head ana="巫田"/>
-                        <note type="summary">条文概要</note>
+                        <note type="summary">巫女に田地を賜与する規定</note>
                         <p ana="項"
                             corresp="engishiki.xml#item22111101 engishiki_en.xml#item22111101"
-                            xml:id="item22111101">本文</p>
+                            xml:id="item22111101"
+                            >宮中祭祀に奉仕する巫女には、それぞれ畿内の田一町を賜与せよ。〈中宮・東宮に奉仕する巫女もこれに準ずる。〉</p>
                     </div>
                     <div ana="民部上"
                         corresp="engishiki.xml#article221112 engishiki_en.xml#article221112"
                         n="22.112" subtype="項" type="条" xml:id="article221112">
                         <head ana="日置田"/>
-                        <note type="summary">条文概要</note>
+                        <note type="summary">出雲国に日置田を置く規定</note>
                         <p ana="項"
                             corresp="engishiki.xml#item22111201 engishiki_en.xml#item22111201"
-                            xml:id="item22111201">本文</p>
+                            xml:id="item22111201">出雲国には、内外の日置田二町を設置せよ。</p>
                     </div>
                     <div ana="民部上"
                         corresp="engishiki.xml#article221113 engishiki_en.xml#article221113"
                         n="22.113" subtype="項" type="条" xml:id="article221113">
                         <head ana="養田"/>
-                        <note type="summary">条文概要</note>
+                        <note type="summary">采女の資養田の経営に関する規定</note>
                         <p ana="項"
                             corresp="engishiki.xml#item22111301 engishiki_en.xml#item22111301"
-                            xml:id="item22111301">本文</p>
+                            xml:id="item22111301"
+                            >采女<rt>うねめ</rt>を貢上する郡には、資養のための田三町を設置せよ。郡司の主帳<rt>しゅちょう</rt>以上が身分ごとに差をもうけて経営させ、収穫稲の中から耕作料を充てよ。残りは精米するか、布などの軽い物を購入して采女の主に送り納めよ。運賃は収穫稲の中から用いよ。道のりが遠いことにより輸送費が多くかかるとしても、二町分の収穫稲を費やしてはならない。</p>
                     </div>
                     <div ana="民部上"
                         corresp="engishiki.xml#article221114 engishiki_en.xml#article221114"
                         n="22.114" subtype="項" type="条" xml:id="article221114">
                         <head ana="放生田"/>
-                        <note type="summary">条文概要</note>
+                        <note type="summary">出雲国に放生会のための田を置く規定</note>
                         <p ana="項"
                             corresp="engishiki.xml#item22111401 engishiki_en.xml#item22111401"
-                            xml:id="item22111401">本文</p>
+                            xml:id="item22111401">出羽国の放生会の財源のための田一町は、余剰田を割いて永く充てよ。</p>
                     </div>
                     <div ana="民部上"
                         corresp="engishiki.xml#article221115 engishiki_en.xml#article221115"
                         n="22.115" subtype="項" type="条" xml:id="article221115">
                         <head ana="惸独"/>
-                        <note type="summary">条文概要</note>
+                        <note type="summary">摂津国に身寄りのない者のための田を置く木エチ</note>
                         <p ana="項"
                             corresp="engishiki.xml#item22111501 engishiki_en.xml#item22111501"
-                            xml:id="item22111501">本文</p>
+                            xml:id="item22111501"
+                            >摂津国の身寄りのない者に施すための田は、国司が経営せよ。収穫稲は毎年太政官<rt>だいじょうかん</rt>に報告し、処分を待ちその後使用せよ。</p>
                     </div>
                     <div ana="民部上"
                         corresp="engishiki.xml#article221116 engishiki_en.xml#article221116"
                         n="22.116" subtype="項" type="条" xml:id="article221116">
                         <head ana="博士職田"/>
-                        <note type="summary">条文概要</note>
+                        <note type="summary">文章博士・算博士に田地を支給する規定</note>
                         <p ana="項"
                             corresp="engishiki.xml#item22111601 engishiki_en.xml#item22111601"
-                            xml:id="item22111601">本文</p>
+                            xml:id="item22111601"
+                            >文章博士<rt>もんじょうはかせ</rt>には官職に応じて支給する田として五町、算博士<rt>さんはかせ</rt>には四町支給せよ。</p>
                     </div>
                     <div ana="民部上"
                         corresp="engishiki.xml#article221117 engishiki_en.xml#article221117"
                         n="22.117" subtype="項" type="条" xml:id="article221117">
                         <head ana="志摩国司"/>
-                        <note type="summary">条文概要</note>
+                        <note type="summary">志摩国司への給付に関する規定</note>
                         <p ana="項"
                             corresp="engishiki.xml#item22111701 engishiki_en.xml#item22111701"
-                            xml:id="item22111701">本文</p>
+                            xml:id="item22111701"
+                            >志摩国の国司には、事力<rt>じりき</rt>を与えない。官職に応じて支給される田五町は伊勢国の田を支給せよ。</p>
                     </div>
                     <div ana="民部上"
                         corresp="engishiki.xml#article221118 engishiki_en.xml#article221118"
                         n="22.118" subtype="項" type="条" xml:id="article221118">
                         <head ana="甲斐牧監"/>
-                        <note type="summary">条文概要</note>
+                        <note type="summary">牧監に田地を支給する規定</note>
                         <p ana="項"
                             corresp="engishiki.xml#item22111801 engishiki_en.xml#item22111801"
-                            xml:id="item22111801">本文</p>
+                            xml:id="item22111801"
+                            >甲斐国の牧監<rt>もくげん</rt>には、官職に応じて支給される田六町を支給せよ。上野国の牧監も同じとせよ。</p>
                     </div>
                     <div ana="民部上"
                         corresp="engishiki.xml#article221119 engishiki_en.xml#article221119"
                         n="22.119" subtype="項" type="条" xml:id="article221119">
                         <head ana="権任郡司"/>
-                        <note type="summary">条文概要</note>
+                        <note type="summary">正員でない郡司に田地を支給しない規定</note>
                         <p ana="項"
                             corresp="engishiki.xml#item22111901 engishiki_en.xml#item22111901"
-                            xml:id="item22111901">本文</p>
+                            xml:id="item22111901"
+                            >正員でない郡司には、官職に応じて支給される田を支給しない。ただし大宰府の書生<rt>しょしょう</rt>が郡司を兼帯している場合にはこの限りではない。</p>
                     </div>
                     <div ana="民部上"
                         corresp="engishiki.xml#article221120 engishiki_en.xml#article221120"
                         n="22.120" subtype="項" type="条" xml:id="article221120">
                         <head ana="府掌職田"/>
-                        <note type="summary">条文概要</note>
+                        <note type="summary">鎮守府・大宰府の府掌に田地を支給する規定</note>
                         <p ana="項"
                             corresp="engishiki.xml#item22112001 engishiki_en.xml#item22112001"
-                            xml:id="item22112001">本文</p>
+                            xml:id="item22112001"
+                            >陸奥鎮守府<rt>ちんじゅふ</rt>・大宰府の国の府掌<rt>ふしょう</rt>各二人は、人ごとに官職に応じて支給される田二町を支給せよ。</p>
                     </div>
                     <div ana="民部上"
                         corresp="engishiki.xml#article221121 engishiki_en.xml#article221121"
                         n="22.121" subtype="項" type="条" xml:id="article221121">
                         <head ana="佐渡国"/>
-                        <note type="summary">条文概要</note>
+                        <note type="summary">佐渡国雑太田の官人に田地を支給する規定</note>
                         <p ana="項"
                             corresp="engishiki.xml#item22112101 engishiki_en.xml#item22112101"
-                            xml:id="item22112101">本文</p>
+                            xml:id="item22112101"
+                            >佐渡国の雑太<rt>さわた</rt>団には、軍毅<rt>ぐんき</rt>に官職に応じて支給される田二町を支給せよ。主帳<rt>しゅちょう</rt>には一町を支給せよ。</p>
                     </div>
                     <div ana="民部上"
                         corresp="engishiki.xml#article221122 engishiki_en.xml#article221122"
                         n="22.122" subtype="項" type="条" xml:id="article221122">
                         <head ana="校田"/>
-                        <note type="summary">条文概要</note>
+                        <note type="summary">田地調査の手続きに関する規定</note>
                         <p ana="項"
                             corresp="engishiki.xml#item22112201 engishiki_en.xml#item22112201"
-                            xml:id="item22112201">本文</p>
+                            xml:id="item22112201"
+                            >諸国の田地調査は、耕作可能な田地を調査せよ。荒廃田・水地化した田・使用していない土地などは、それぞれ別の帳簿を作成し、中央に報告せよ。隠して私的に利用してはならない。もし違犯することがあればその事情によって罪を科せ。</p>
                     </div>
                     <div ana="民部上"
                         corresp="engishiki.xml#article221123 engishiki_en.xml#article221123"
                         n="22.123" subtype="項" type="条" xml:id="article221123">
                         <head ana="班田"/>
-                        <note type="summary">条文概要</note>
+                        <note type="summary">班田手続きに関する規定</note>
                         <p ana="項"
                             corresp="engishiki.xml#item22112301 engishiki_en.xml#item22112301"
-                            xml:id="item22112301">本文</p>
+                            xml:id="item22112301"
+                            >口分田<rt>くぶんでん</rt>の班給は、諸国はその時期がきたら国内の田を調査し、口分田を受ける者の人数を記した帳簿を副えて報告し、太政官<rt>だいじょうかん</rt>発給の文書を待ち班給せよ。十月から班給を開始せよ。〈畿内には使者を派遣して田地の調査と班給をする。〉</p>
                     </div>
                     <div ana="民部上"
                         corresp="engishiki.xml#article221124 engishiki_en.xml#article221124"
                         n="22.124" subtype="項" type="条" xml:id="article221124">
                         <head ana="校田授口帳"/>
-                        <note type="summary">条文概要</note>
+                        <note type="summary">諸国が提出する班田関連帳簿の照合に関する規定</note>
                         <p ana="項"
                             corresp="engishiki.xml#item22112401 engishiki_en.xml#item22112401"
-                            xml:id="item22112401">本文</p>
+                            xml:id="item22112401"
+                            >諸国の田地の調査結果をまとめた帳簿と口分田を受ける者の人数を記した帳簿は、民部省<rt>みんぶしょう</rt>に下達し、以前の班田帳と照合せよ。もし余剰田の数が減少していた場合は、課役を負担しない者の口分田を減らしてもとの余剰田の数を満たせ。</p>
                     </div>
                     <div ana="民部上"
                         corresp="engishiki.xml#article221125 engishiki_en.xml#article221125"
                         n="22.125" subtype="項" type="条" xml:id="article221125">
                         <head ana="校田返帳"/>
-                        <note type="summary">条文概要</note>
+                        <note type="summary">田地調査の帳簿の検査に関する規定</note>
                         <p ana="項"
                             corresp="engishiki.xml#item22112501 engishiki_en.xml#item22112501"
-                            xml:id="item22112501">本文</p>
+                            xml:id="item22112501">諸国の田地の調査結果をまとめた帳簿は、前回の帳簿と比較し、もし損がある場合は帳簿を返却せよ。</p>
                     </div>
                     <div ana="民部上"
                         corresp="engishiki.xml#article221126 engishiki_en.xml#article221126"
                         n="22.126" subtype="項" type="条" xml:id="article221126">
                         <head ana="授口返帳"/>
-                        <note type="summary">条文概要</note>
+                        <note type="summary">班田関連の帳簿を計帳と照合する規定</note>
                         <p ana="項"
                             corresp="engishiki.xml#item22112601 engishiki_en.xml#item22112601"
-                            xml:id="item22112601">本文</p>
+                            xml:id="item22112601"
+                            >諸国の田地の調査結果をまとめた帳簿と口分田を受ける者の人数を記した帳簿を検査する際には、もし計帳をとりまとめた帳簿と口分田を受ける者の人数を記した帳簿の男性の人数が同じでない場合には、帳簿を返却せよ。ただし女性は口分田を受ける者の人数を記した帳簿の人数より少ない場合でも、通常どおり検査せよ。</p>
                     </div>
                     <div ana="民部上"
                         corresp="engishiki.xml#article221127 engishiki_en.xml#article221127"
                         n="22.127" subtype="項" type="条" xml:id="article221127">
                         <head ana="田九歩"/>
-                        <note type="summary">条文概要</note>
+                        <note type="summary">面積が小さい田地を口分田に充てない規定</note>
                         <p ana="項"
                             corresp="engishiki.xml#item22112701 engishiki_en.xml#item22112701"
-                            xml:id="item22112701">本文</p>
+                            xml:id="item22112701"
+                            >面積が九歩以下の田は、口分田<rt>くぶんでん</rt>に加え支給することなく、分割して余剰田とせよ。ただし男子一人の分が二段に満たない国は、その数に応じて支給せよ。</p>
                     </div>
                     <div ana="民部上"
                         corresp="engishiki.xml#article221128 engishiki_en.xml#article221128"
                         n="22.128" subtype="項" type="条" xml:id="article221128">
                         <head ana="荒田"/>
-                        <note type="summary">条文概要</note>
+                        <note type="summary">開墾田を子孫に伝える場合の規定</note>
                         <p ana="項"
                             corresp="engishiki.xml#item22112801 engishiki_en.xml#item22112801"
-                            xml:id="item22112801">本文</p>
+                            xml:id="item22112801">荒田を開墾した者は、六年未満で死亡した場合、さらに六年間延長し子孫の耕作を許可せよ。</p>
                     </div>
                     <div ana="民部上"
                         corresp="engishiki.xml#article221129 engishiki_en.xml#article221129"
                         n="22.129" subtype="項" type="条" xml:id="article221129">
                         <head ana="班田目録"/>
-                        <note type="summary">条文概要</note>
+                        <note type="summary">班田関連の帳簿の受理に関する規定</note>
                         <p ana="項"
                             corresp="engishiki.xml#item22112901 engishiki_en.xml#item22112901"
-                            xml:id="item22112901">本文</p>
+                            xml:id="item22112901"
+                            >諸国が班田に際して提出する帳簿や目録は、太政官<rt>だいじょうかん</rt>に提出し、太政官で外題を書き加えて民部省<rt>みんぶしょう</rt>に下達せよ。民部省は項目や数量を検査し、終了後ただちに朱印を捺さない受領証を発行せよ。</p>
                     </div>
                     <div ana="民部上"
                         corresp="engishiki.xml#article221130 engishiki_en.xml#article221130"
                         n="22.130" subtype="項" type="条" xml:id="article221130">
                         <head ana="陸田班授"/>
-                        <note type="summary">条文概要</note>
+                        <note type="summary">山城・阿波の班田に畑と水田を混合する規定</note>
                         <p ana="項"
                             corresp="engishiki.xml#item22113001 engishiki_en.xml#item22113001"
-                            xml:id="item22113001">本文</p>
+                            xml:id="item22113001">山城国・阿波国の班田は、畑・水田を混ぜて支給せよ。</p>
                     </div>
                     <div ana="民部上"
                         corresp="engishiki.xml#article221131 engishiki_en.xml#article221131"
                         n="22.131" subtype="項" type="条" xml:id="article221131">
                         <head ana="志摩口分田"/>
-                        <note type="summary">条文概要</note>
+                        <note type="summary">志摩国の口分田を伊勢・尾張に支給する規定</note>
                         <p ana="項"
                             corresp="engishiki.xml#item22113101 engishiki_en.xml#item22113101"
-                            xml:id="item22113101">本文</p>
+                            xml:id="item22113101"
+                            >志摩国の百姓の口分田は、便宜的に伊勢・尾張の二国に支給せよ。ただし伊勢神宮の財政に充てる郡には支給しない。</p>
                     </div>
                     <div ana="民部上"
                         corresp="engishiki.xml#article221132 engishiki_en.xml#article221132"
                         n="22.132" subtype="項" type="条" xml:id="article221132">
                         <head ana="流移人"/>
-                        <note type="summary">条文概要</note>
+                        <note type="summary">流刑人に田地を支給する規定</note>
                         <p ana="項"
                             corresp="engishiki.xml#item22113201 engishiki_en.xml#item22113201"
-                            xml:id="item22113201">本文</p>
+                            xml:id="item22113201"
+                            >流罪あるいは強制移住の罪に処された者は、配地に到着したら田地を支給せよ。秋の収穫までは食料を給付せよ。</p>
                     </div>
                     <div ana="民部上"
                         corresp="engishiki.xml#article221133 engishiki_en.xml#article221133"
                         n="22.133" subtype="項" type="条" xml:id="article221133">
                         <head ana="墾田"/>
-                        <note type="summary">条文概要</note>
+                        <note type="summary">口分田と開墾田を交換する場合の規定</note>
                         <p ana="項"
                             corresp="engishiki.xml#item22113301 engishiki_en.xml#item22113301"
-                            xml:id="item22113301">本文</p>
+                            xml:id="item22113301">熟田を宅地とし新たな開墾地と交換する場合は、田の質が同格以上ならば許可せよ。</p>
                     </div>
                     <div ana="民部上"
                         corresp="engishiki.xml#article221134 engishiki_en.xml#article221134"
                         n="22.134" subtype="項" type="条" xml:id="article221134">
                         <head ana="廃池"/>
-                        <note type="summary">条文概要</note>
+                        <note type="summary">廃池の開墾を禁止する規定</note>
                         <p ana="項"
                             corresp="engishiki.xml#item22113401 engishiki_en.xml#item22113401"
-                            xml:id="item22113401">本文</p>
+                            xml:id="item22113401">荒廃した池は、使用していない場合でも、簡単に開墾して田地としてはならない。</p>
                     </div>
                     <div ana="民部上"
                         corresp="engishiki.xml#article221135 engishiki_en.xml#article221135"
                         n="22.135" subtype="項" type="条" xml:id="article221135">
                         <head ana="公水"/>
-                        <note type="summary">条文概要</note>
+                        <note type="summary">公用の水を用いた開墾地を収公する規定</note>
                         <p ana="項"
                             corresp="engishiki.xml#item22113501 engishiki_en.xml#item22113501"
-                            xml:id="item22113501">本文</p>
+                            xml:id="item22113501"
+                            >私的な開墾に公共の用水を使用する場合は、その量にかかわらず国が回収し公田とせよ。ただし水が豊富で支障のない場合には、年の遠近にかかわらず私田とすることを許可せよ。</p>
                     </div>
                     <div ana="民部上"
                         corresp="engishiki.xml#article221136 engishiki_en.xml#article221136"
                         n="22.136" subtype="項" type="条" xml:id="article221136">
                         <head ana="口分田崩埋"/>
-                        <note type="summary">条文概要</note>
+                        <note type="summary">口分田が崩壊した場合に余剰田を支給する規定</note>
                         <p ana="項"
                             corresp="engishiki.xml#item22113601 engishiki_en.xml#item22113601"
-                            xml:id="item22113601">本文</p>
+                            xml:id="item22113601"
+                            >口分田<rt>くぶんでん</rt>が崩壊し耕作不能となった場合は、班田を行なう年でなくとも余剰田を支給せよ。</p>
                     </div>
                     <div ana="民部上"
                         corresp="engishiki.xml#article221137 engishiki_en.xml#article221137"
                         n="22.137" subtype="項" type="条" xml:id="article221137">
                         <head ana="水旱災蝗"/>
-                        <note type="summary">条文概要</note>
+                        <note type="summary">災害による大規模な不作を報告させる規定</note>
                         <p ana="項"
                             corresp="engishiki.xml#item22113701 engishiki_en.xml#item22113701"
-                            xml:id="item22113701">本文</p>
+                            xml:id="item22113701">自然災害により不作となった田は、一箇所で五十戸以上が対象となる場合には早急に報告せよ。</p>
                     </div>
                     <div ana="民部上"
                         corresp="engishiki.xml#article221138 engishiki_en.xml#article221138"
                         n="22.138" subtype="項" type="条" xml:id="article221138">
                         <head ana="西海道墾田"/>
-                        <note type="summary">条文概要</note>
+                        <note type="summary">西海道の開墾を制限する規定</note>
                         <p ana="項"
                             corresp="engishiki.xml#item22113801 engishiki_en.xml#item22113801"
-                            xml:id="item22113801">本文</p>
+                            xml:id="item22113801"
+                            >西海道管内の諸国は、その土地の百姓でない場合は、開墾田を売買することや田地を占有し開墾することはできない。</p>
                     </div>
                     <div ana="民部上"
                         corresp="engishiki.xml#article221139 engishiki_en.xml#article221139"
                         n="22.139" subtype="項" type="条" xml:id="article221139">
                         <head ana="国営田"/>
-                        <note type="summary">条文概要</note>
+                        <note type="summary">畿内の官田の経営に関する規定</note>
                         <p ana="項"
                             corresp="engishiki.xml#item22113901 engishiki_en.xml#item22113901"
-                            xml:id="item22113901">本文</p>
+                            xml:id="item22113901"
+                            >畿内の国が経営する官田は、耕作の費用を除く以外は、精米して毎年内蔵寮<rt>くらりょう</rt>に送納せよ。その収納を記した帳簿は正税帳<rt>しょうぜいちょう</rt>を運ぶ使者にさずけて太政官<rt>だいじょうかん</rt>に提出し、正税帳を運ぶ使が内蔵寮に赴き検査を受けよ。その後受領証を受け取り、主計寮<rt>しゅけいりょう</rt>に赴き帳簿と照合せよ。</p>
                     </div>
                     <div ana="民部上"
                         corresp="engishiki.xml#article221140 engishiki_en.xml#article221140"
                         n="22.140" subtype="項" type="条" xml:id="article221140">
                         <head ana="国営田地子米"/>
-                        <note type="summary">条文概要</note>
+                        <note type="summary">畿内の官田の賃料に未納がある場合の規定</note>
                         <p ana="項"
                             corresp="engishiki.xml#item22114001 engishiki_en.xml#item22114001"
-                            xml:id="item22114001">本文</p>
+                            xml:id="item22114001">畿内の国が経営する官田の賃料の米に未納がある場合は、調の受領証の発行を拘留せよ。</p>
                     </div>
                     <div ana="民部上"
                         corresp="engishiki.xml#article221141 engishiki_en.xml#article221141"
                         n="22.141" subtype="項" type="条" xml:id="article221141">
                         <head ana="供御料"/>
-                        <note type="summary">条文概要</note>
+                        <note type="summary">畿内の官田から供御料を進上する規定</note>
                         <p ana="項"
                             corresp="engishiki.xml#item22114101 engishiki_en.xml#item22114101"
-                            xml:id="item22114101">本文</p>
+                            xml:id="item22114101"
+                            >天皇および中宮・東宮に供する稲・粟・もちごめは、宮内省<rt>くないしょう</rt>が経営する田の収穫物を使用せよ。太政官<rt>だいじょうかん</rt>発給の文書の到来を待ち、畿内に命じて進上させよ。ただし粟は山城国が進上せよ。</p>
                     </div>
                     <div ana="民部上"
                         corresp="engishiki.xml#article221142 engishiki_en.xml#article221142"
                         n="22.142" subtype="項" type="条" xml:id="article221142">
                         <head ana="御酒米"/>
-                        <note type="summary">条文概要</note>
+                        <note type="summary">畿内官田から酒用の米を進上する費用に関する規定</note>
                         <p ana="項"
                             corresp="engishiki.xml#item22114201 engishiki_en.xml#item22114201"
-                            xml:id="item22114201">本文</p>
+                            xml:id="item22114201"
+                            >畿内が納入する天皇の酒用の米の精米費・運賃は、もし不足があれば正税<rt>しょうぜい</rt>を充当せよ。ただし宮内省<rt>くないしょう</rt>が経営する田の稲が残っている場合はこの限りではない。</p>
                     </div>
                     <div ana="民部上"
                         corresp="engishiki.xml#article221143 engishiki_en.xml#article221143"
                         n="22.143" subtype="項" type="条" xml:id="article221143">
                         <head ana="新嘗酒米"/>
-                        <note type="summary">条文概要</note>
+                        <note type="summary">新嘗会で用いる造酒用の米を畿内から調達する規定</note>
                         <p ana="項"
                             corresp="engishiki.xml#item22114301 engishiki_en.xml#item22114301"
-                            xml:id="item22114301">本文</p>
+                            xml:id="item22114301"
+                            >十一月の新嘗会<rt>にいなめえ</rt>で使用する黒酒・白酒を作るための米は、九月下旬に民部省<rt>みんぶしょう</rt>が文書を畿内に下達し、宮内省<rt>くないしょう</rt>が経営する田の稲を精米して造酒司<rt>ぞうしゅし</rt>に送れ。</p>
                     </div>
                     <div ana="民部上"
                         corresp="engishiki.xml#article221144 engishiki_en.xml#article221144"
                         n="22.144" subtype="項" type="条" xml:id="article221144">
                         <head ana="正月三節酒"/>
-                        <note type="summary">条文概要</note>
+                        <note type="summary">節会で用いる酒を畿内に醸造させる規定</note>
                         <p ana="項"
                             corresp="engishiki.xml#item22114401 engishiki_en.xml#item22114401"
-                            xml:id="item22114401">本文</p>
+                            xml:id="item22114401"
+                            >正月の三つの節会<rt>せちえ</rt>と十一月の新嘗会<rt>にいなめえ</rt>で使用する酒は、事前に畿内に命じ、正税<rt>しょうぜい</rt>を用いて醸造し造酒司<rt>ぞうしゅし</rt>に送れ。〈山城国は四石二斗一升、大和国・河内国・摂津国はそれぞれ四石。〉</p>
                     </div>
                 </div>
                 <div type="尾題" xml:id="bidai22">
-                    <p>尾題</p>
+                    <p>延喜式巻第廿二</p>
                 </div>
                 <div type="本奥書" xml:id="okugaki22">
-                    <p>本奥書</p>
+                    <p><table rendition="#indent5">
+                            <row>
+                                <cell>延長五年十二月廿六日</cell>
+                                <cell>外従五位下<rt>げじゅごいのげ</rt>行<rt>ぎょう</rt>左大史<rt>さだいし</rt>阿刀宿禰<rt>あとのすくね</rt>忠行<rt>ただゆき</rt>
+                                    　　　　　　　　　　　　　　　<lb/>従五位上<rt>じゅごいのじょう</rt>行勘解由次官兼<rt>かげゆじかんけん?</rt>大外記<rt>だいげき</rt>)紀伊<rt>きい</rt>権介<rt>ごんのすけ</rt>伴宿禰<rt>とものすくね</rt>久永<rt>ひさなが</rt>
+                                    　　　　　　　　　　　　　　　<lb/>従四位上<rt>じゅしいのじょう</rt>行神祇伯<rt>じんぎはく</rt>臣大中臣朝臣<rt>おおなかとみのあそん</rt>安則<rt>やすのり</rt>
+                                    　　　　　　　　　　　　　　　<lb/>大納言正三位<rt>しょうさんみ</rt>兼行民部卿<rt>みんぶきょう</rt>臣藤原朝臣<rt>ふじわらあそん</rt>清貫<rt>きよつら</rt>
+                                    　　　　　　　　　　　　　　　<lb/>左大臣正二位<rt>しょうにい</rt>)兼行左近衛<rt>さこのえ</rt>大将<rt>たいしょう</rt>皇太子<rt>こうたいし</rt>傅<rt>ふ</rt>臣藤原朝臣<rt>ふじわらあそん</rt>)忠平<rt>ただひら</rt></cell>
+                            </row>
+                        </table>
+                    </p>
                 </div>
             </div>
         </body>
