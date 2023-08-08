@@ -561,7 +561,7 @@
                         </app>
                         <app from="#app2210050102" to="#app2210050102e">
                             <lem wit="#土本 #近本 #壬本 #京博本 #慶長本 #梵本">仁多　大原</lem>
-                            <rdg wit="#九本">大原仁多</rdg>
+                            <rdg wit="#九本">大原　仁多</rdg>
                             <note>仁多　大原　九本「大原　仁多」。</note>
                         </app>
                         <app from="#app2210050103" to="#app2210050103e">
@@ -723,13 +723,13 @@
                                             xml:id="app2210080101"/>須<anchor xml:id="app2210080101e"
                                         />　下座　上座　御笠〉</cell>
                                 </row>
-                                <pb/><row>
+                                <row>
                                     <cell rendition="#kokumei">筑後国上</cell>
                                     <cell>〈</cell><cell>管　<anchor xml:id="app2210080102"
                                             />御原　生葉　竹野　山本　御井　三瀦<anchor xml:id="app2210080102e"
                                         />　上妻　下妻　山門　三毛〉</cell>
                                 </row>
-                                <row>
+                                <pb/><row>
                                     <cell rendition="#kokumei">豊前国上</cell>
                                     <cell>〈</cell><cell>管　田河　<anchor xml:id="app2210080103"/>企救<anchor
                                             xml:id="app2210080103e"/>　京都　仲津　築城　上毛　下毛　宇佐〉</cell>
@@ -846,11 +846,12 @@
                     <div ana="民部上"
                         corresp="engishiki_en.xml#article221012 engishiki_ja.xml#article221012"
                         n="22.12" subtype="項" type="条" xml:id="article221012">
+                        <pb/>
                         <head ana="貢限"/>
                         <p ana="項"
                             corresp="engishiki_en.xml#item22101201 engishiki_ja.xml#item22101201"
                             xml:id="item22101201"
-                            ><pb/>凡諸国貢調庸者、越後・佐渡・隠伎三国並限明年七月。長門国限四月。伊予国限二月。但宇和・喜多両郡限三月。土左国限二月納訖。自余如令。其陸奥・出羽両国便納当国。西海道納大<anchor
+                            >凡諸国貢調庸者、越後・佐渡・隠伎三国並限明年七月。長門国限四月。伊予国限二月。但宇和・喜多両郡限三月。土左国限二月納訖。自余如令。其陸奥・出羽両国便納当国。西海道納大<anchor
                                 xml:id="app2210120101"/>宰<anchor xml:id="app2210120101e"
                             />府。〈其出納帳並附正税帳使申送。〉</p>
                         <app from="#app2210120101" to="#app2210120101e">
@@ -1010,10 +1011,11 @@
                     <div ana="民部上"
                         corresp="engishiki_en.xml#article221027 engishiki_ja.xml#article221027"
                         n="22.27" subtype="項" type="条" xml:id="article221027">
+                        <pb/>
                         <head ana="志摩国使"/>
                         <p ana="項"
                             corresp="engishiki_en.xml#item22102701 engishiki_ja.xml#item22102701"
-                            xml:id="item22102701"><pb/>凡志摩国四度使、惣付一使。</p>
+                            xml:id="item22102701">凡志摩国四度使、惣付一使。</p>
                     </div>
                     <div ana="民部上"
                         corresp="engishiki_en.xml#article221028 engishiki_ja.xml#article221028"
@@ -1193,8 +1195,9 @@
                             <note>徭　土本・近本・壬本・京博本・慶長本・梵本「役」。九本により改める。</note>
                         </app>
                         <app from="#app2210450102" to="#app2210450102e">
-                            <lem wit="#土本 #九本 #壬本 #京博本 #慶長本 #梵本">余</lem>
-                            <rdg wit="#近本">余以</rdg>
+                            <lem wit="#土本 #近本 #九本 #壬本 #京博本 #慶長本 #梵本">余</lem>
+                            <rdg/>
+                            <note>近本挿入書「以」</note>
                             <note>余　近本この下に「以」を挿入。訳注本は島原本により「以」を補う。</note>
                         </app>
                     </div>
@@ -1277,10 +1280,11 @@
                     <div ana="民部上"
                         corresp="engishiki_en.xml#article221054 engishiki_ja.xml#article221054"
                         n="22.54" subtype="項" type="条" xml:id="article221054">
+                        <pb/>
                         <head ana="中宮封"/>
                         <p ana="項"
                             corresp="engishiki_en.xml#item22105401 engishiki_ja.xml#item22105401"
-                            xml:id="item22105401"><pb/>凡中宮封、若当有損年、令当国以正税交易弁進。春宮坊准此。</p>
+                            xml:id="item22105401">凡中宮封、若当有損年、令当国以正税交易弁進。春宮坊准此。</p>
                     </div>
                     <div ana="民部上"
                         corresp="engishiki_en.xml#article221055 engishiki_ja.xml#article221055"
@@ -1337,9 +1341,9 @@
                         <head ana="官丁"/>
                         <p ana="項"
                             corresp="engishiki_en.xml#item22106001 engishiki_ja.xml#item22106001"
-                            xml:id="item22106001">凡載省符所行諸院・<anchor xml:id="app2210600102"
-                                />諸<anchor xml:id="app2210600102e"/>家官丁者、各注其散行之頭附。</p>
-                        <app from="#app2210600102" to="#app2210600102e">
+                            xml:id="item22106001">凡載省符所行諸院・<anchor xml:id="app2210600101"
+                                />諸<anchor xml:id="app2210600101e"/>家官丁者、各注其散行之頭附。</p>
+                        <app from="#app2210600101" to="#app2210600101e">
                             <lem wit="#九本 #壬本 #京博本 #慶長本 #梵本 #近本挿入書">諸</lem>
                             <rdg wit="#土本 #近本"/>
                             <note>諸　土本無し。九本・壬本・京博本・慶長本・梵本、近本挿入書により補う。訳注本指摘なし。</note>
@@ -1640,10 +1644,11 @@
                     <div ana="民部上"
                         corresp="engishiki_en.xml#article221083 engishiki_ja.xml#article221083"
                         n="22.83" subtype="項" type="条" xml:id="article221083">
+                        <pb/>
                         <head ana="籍書紙"/>
                         <p ana="項"
                             corresp="engishiki_en.xml#item22108301 engishiki_ja.xml#item22108301"
-                            xml:id="item22108301"><pb/>凡籍<anchor xml:id="app2210830101"/>書<anchor
+                            xml:id="item22108301">凡籍<anchor xml:id="app2210830101"/>書<anchor
                                 xml:id="app2210830101e"/>者、国家重案、其所須紙染黄蘗、必須堅厚。有不如法随即勘却。但西海道諸国書白紙。</p>
                         <app from="#app2210830101" to="#app2210830101e">
                             <lem wit="#九本 #壬本 #京博本 #慶長本 #梵本">書</lem>
@@ -1723,10 +1728,11 @@
                     <div ana="民部上"
                         corresp="engishiki_en.xml#article221091 engishiki_ja.xml#article221091"
                         n="22.91" subtype="項" type="条" xml:id="article221091">
+                        <pb/>
                         <head ana="得度"/>
                         <p ana="項"
                             corresp="engishiki_en.xml#item22109101 engishiki_ja.xml#item22109101"
-                            xml:id="item22109101"><pb/>凡得度者、勘籍三比。若有一比相合者聴之。</p>
+                            xml:id="item22109101">凡得度者、勘籍三比。若有一比相合者聴之。</p>
                     </div>
                     <div ana="民部上"
                         corresp="engishiki_en.xml#article221092 engishiki_ja.xml#article221092"
@@ -1822,11 +1828,12 @@
                     <div ana="民部上"
                         corresp="engishiki_en.xml#article221099 engishiki_ja.xml#article221099"
                         n="22.99" subtype="項" type="条" xml:id="article221099">
+                        <pb/>
                         <head ana="位田二分"/>
                         <p ana="項"
                             corresp="engishiki_en.xml#item22109901 engishiki_ja.xml#item22109901"
                             xml:id="item22109901"
-                            ><pb/>凡位田者、各為二分、一分給畿内、一分外国。其一処所置不得過十町。但授給之後、偏号成川、不可必改給。若非常流損之国明成渕潭之処、依実<anchor
+                            >凡位田者、各為二分、一分給畿内、一分外国。其一処所置不得過十町。但授給之後、偏号成川、不可必改給。若非常流損之国明成渕潭之処、依実<anchor
                                 xml:id="app2210990101"/>許<anchor xml:id="app2210990101e"
                             />相換。荒田不在此限。</p>
                         <app from="#app2210990101" to="#app2210990101e">
@@ -1940,10 +1947,11 @@
                     <div ana="民部上"
                         corresp="engishiki_en.xml#article221111 engishiki_ja.xml#article221111"
                         n="22.111" subtype="項" type="条" xml:id="article221111">
+                        <pb/>
                         <head ana="巫田"/>
                         <p ana="項"
                             corresp="engishiki_en.xml#item22111101 engishiki_ja.xml#item22111101"
-                            xml:id="item22111101"><pb/>凡諸御巫、各賜畿内田一町。〈中宮・東宮御巫亦准此。〉</p>
+                            xml:id="item22111101">凡諸御巫、各賜畿内田一町。〈中宮・東宮御巫亦准此。〉</p>
                     </div>
                     <div ana="民部上"
                         corresp="engishiki_en.xml#article221112 engishiki_ja.xml#article221112"
@@ -2034,6 +2042,7 @@
                     <div ana="民部上"
                         corresp="engishiki_en.xml#article221121 engishiki_ja.xml#article221121"
                         n="22.121" subtype="項" type="条" xml:id="article221121">
+                        <pb/>
                         <head ana="佐渡国"/>
                         <p ana="項"
                             corresp="engishiki_en.xml#item22112101 engishiki_ja.xml#item22112101"
@@ -2096,16 +2105,16 @@
                         <head ana="校田授口帳"/>
                         <p ana="項"
                             corresp="engishiki_en.xml#item22112401 engishiki_ja.xml#item22112401"
-                            xml:id="item22112401">凡諸国<anchor xml:id="app2211240102"/>校<anchor
-                                xml:id="app2211240102e"/>田・授口等帳、下省之日、比<anchor xml:id="app2211240103"
-                                />校<anchor xml:id="app2211240103e"/>前班田帳。若乗田之数有減省者、折不課分満本数。</p>
-                        <app from="#app2211240102" to="#app2211240102e">
+                            xml:id="item22112401">凡諸国<anchor xml:id="app2211240101"/>校<anchor
+                                xml:id="app2211240101e"/>田・授口等帳、下省之日、比<anchor xml:id="app2211240102"
+                                />校<anchor xml:id="app2211240102e"/>前班田帳。若乗田之数有減省者、折不課分満本数。</p>
+                        <app from="#app2211240101" to="#app2211240101e">
                             <lem wit="#九本 #近本 #壬本 #京博本 #慶長本 #梵本">校</lem>
                             <rdg wit="#土本 #近本傍書">授</rdg>
                             <note place="傍">近本傍書「授」</note>
                             <note>校　土本「授」。九本・壬本・京博本・慶長本・梵本により改める。近本は「校」とし「授」と傍書。</note>
                         </app>
-                        <app from="#app2211240103" to="#app2211240103e">
+                        <app from="#app2211240102" to="#app2211240102e">
                             <lem wit="#九本 #近本 #壬本 #京博本 #慶長本 #梵本">校</lem>
                             <rdg wit="#土本">授</rdg>
                             <note>校　土本「授」。九本・近本・壬本・京博本・慶長本・梵本により改める。</note>
@@ -2172,6 +2181,7 @@
                     <div ana="民部上"
                         corresp="engishiki_en.xml#article221130 engishiki_ja.xml#article221130"
                         n="22.130" subtype="項" type="条" xml:id="article221130">
+                        <pb/>
                         <head ana="陸田班授"/>
                         <p ana="項"
                             corresp="engishiki_en.xml#item22113001 engishiki_ja.xml#item22113001"
