@@ -136,9 +136,11 @@
 				<rendition xml:id="indent5">margin-top: 5em;</rendition>
 				<rendition xml:id="indent95">margin-top: 9.5em;</rendition>
 				<rendition xml:id="kokumei">width: 80px;</rendition>
+				<rendition xml:id="width100">width: 100px;</rendition>
+				<rendition xml:id="jinnmyou">width: 200px;</rendition>
 			</tagsDecl>
 			<editorialDecl>
-				<p>校訂文凡例 <table>
+				<p>校訂文凡例<table>
 						<row>
 							<cell>・</cell>
 							<cell>底本には国立歴史民俗博物館所蔵の土御門家旧蔵本を使用した。対校本としては、小倉慈司氏の『延喜式』写本系統の研究等に基づき、巻二十四が現存している諸写本のうち、兄弟本もしくは親本が近い関係にあったと思われる京都大学附属図書館所蔵近衛家旧蔵本のほか、比較的系統が近い宮内庁書陵部所蔵壬生家旧蔵本、新たに紹介された京都国立博物館所蔵京都博物館旧蔵本を主要写本として校合した。末流本と判断されるその他の写本や版本については、校訂に資する場合や内容理解に関わる場合のほか、主要写本間に異同がある場合や底本を改めた場合に限り、校異を掲示した。</cell>
@@ -1466,9 +1468,9 @@
 						<app from="#app2410290102" to="#app2410290102e">
 							<lem wit="#壬本 #京博本 #島原本 #玄梁本 #享保版本">百疋</lem>
 							<rdg wit="#土本 #近本 #藤波本 #貞享本 #泉亭本">疋百</rdg>
-							<note>土本は「疋百」にそれぞれ「<seg style="color:red">下上</seg>」を朱で書き入れ。</note>
+							<note place="傍">土本左朱傍書「<seg style="color:red">下上</seg>」</note>
 							<note>近本は「疋」の上に助詞「ノ」を書き入れ。</note>
-							<note>百疋　土本・近本「疋百」。土本は「疋」に「下」、「百」に「上」とそれぞれ朱で書き入れ。近本は「疋」の上に助詞「ノ」を書き入れ。壬本・京博本により改める。</note>
+							<note>百疋　土本・近本「疋百」。土本は「疋」に「下」、「百」に「上」とそれぞれ左朱傍書。近本は「疋」の上に助詞「ノ」を書き入れ。壬本・京博本により改める。</note>
 						</app>
 						<app from="#app2410290103" to="#app2410290103e">
 							<lem wit="#土本 #近本 #壬本 #京博本 #藤波本 #貞享本 #玄梁本 #泉亭本">𡊖</lem>
@@ -2214,7 +2216,7 @@
 						<app from="#app2410670102" to="#app2410670102e">
 							<lem wit="#土本 #近本 #島原本 #藤波本 #貞享本 #享保版本">雑</lem>
 							<rdg wit="#壬本 #京博本 #玄梁本 #泉亭本">【（立/木）+付】</rdg>
-							<note place="傍">京博本傍書「雑イ」</note>
+							<note place="傍">京博本朱傍書「<seg style="color:red">雑イ</seg>」</note>
 							<note>雑　壬本・京博本「【（立/木）+付】」。</note>
 						</app>
 					</div>
@@ -2308,6 +2310,7 @@
 							<lem wit="#土本 #近本 #壬本 #京博本 #藤波本 #貞享本 #玄梁本 #泉亭本">卌</lem>
 							<rdg wit="#島原本 #貞享本 #享保版本">四十</rdg>
 							<note place="傍">京博本傍書「卅イ」</note>
+							<note>卌　京博本は「卅イ」と傍書。</note>
 						</app>
 						<app from="#app2410710102" to="#app2410710102e">
 							<lem wit="#土本 #近本 #京博本 #島原本 #藤波本 #貞享本 #玄梁本 #泉亭本 #享保版本">脯</lem>
