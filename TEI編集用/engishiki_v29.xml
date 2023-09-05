@@ -131,9 +131,121 @@
             <variantEncoding location="external" method="location-referenced"/>
             <tagsDecl>
                 <rendition xml:id="indent">text-indent: 1em;</rendition>
+                <rendition xml:id="indent1">margin-top: 1em;</rendition>
+                <rendition xml:id="indent2">margin-top: 2em;</rendition>
+                <rendition xml:id="indent3">margin-top: 3em;</rendition>
+                <rendition xml:id="indent5">margin-top: 5em;</rendition>
+                <rendition xml:id="indent95">margin-top: 9.5em;</rendition>
+                <rendition xml:id="kokumei">width: 80px;</rendition>
+                <rendition xml:id="width100">width: 100px;</rendition>
+                <rendition xml:id="jinnmyou">width: 200px;</rendition>
             </tagsDecl>
             <editorialDecl>
-                <p/>
+                <p>校訂文凡例 <table>
+                        <row>
+                            <cell>・</cell>
+                            <cell>対校に用いた諸本の略称は以下の通りです。</cell>
+                        </row>
+                    </table>
+                    <table rendition="indent2">
+                        <row>
+                            <cell rendition="width100">土本</cell>
+                            <cell>国立歴史民俗博物館蔵土御門家旧蔵本（H-743-74）</cell>
+                            <cell rendition="width100">九本</cell>
+                            <cell>東京国立博物館所蔵九条家旧蔵巻子本（B-2370）</cell>
+                            <cell rendition="width100">近本</cell>
+                            <cell>京都大学附属図書館蔵近衛家旧蔵本（2-03/エ/1貴）</cell>
+                            <cell rendition="width100">壬本</cell>
+                            <cell>宮内庁書陵部図書寮文庫所蔵壬生家旧蔵本（F10-287）</cell>
+                            <cell rendition="width100">京博本</cell>
+                            <cell>京都国立博物館蔵旧京都博物館本</cell>
+                            <cell rendition="width100">慶長本</cell>
+                            <cell>国立公文書館所蔵慶長写本（特102-8）</cell>
+                            <cell rendition="width100">梵本</cell>
+                            <cell>天理大学附属天理大図書館蔵吉田文庫梵舜等筆本（吉16-8）</cell>
+                            <cell rendition="width100">島原本</cell>
+                            <cell>東京大学史料編纂所所蔵松平忠房・和学講談所・水野忠央旧蔵本（貴45-2）</cell>
+                        </row>
+                    </table>
+                    <table>
+                        <row>
+                            <cell>　</cell>
+                            <cell>版本　慶安版本・明暦以降版本の総称</cell>
+                        </row>
+                    </table>
+                    <table rendition="indent2">
+                        <row>
+                            <cell rendition="width100">慶安版本</cell>
+                            <cell>大和文華館所蔵鈴鹿連胤旧蔵版本（1/741～790）</cell>
+                        </row>
+                        <row>
+                            <cell rendition="width100">鈴鹿本</cell>
+                            <cell>大和文華館所蔵鈴鹿連胤旧蔵慶安版本（1/741～790）書入</cell>
+                        </row>
+                    </table>
+                    <table>
+                        <row>
+                            <cell>　</cell>
+                            <cell>明暦以降版本　次の各版本の総称</cell>
+                        </row>
+                    </table>
+                    <table rendition="indent2">
+                        <row>
+                            <cell rendition="width100">明暦版本</cell>
+                            <cell>明暦3年(1657)林和泉掾(松柏堂)刊本</cell>
+                        </row>
+                        <row>
+                            <cell rendition="width100">寛文版本</cell>
+                            <cell>寛文7年(1667)林和泉掾(松柏堂)刊本</cell>
+                        </row>
+                        <row>
+                            <cell rendition="width100">筑波寛文本</cell>
+                            <cell>筑波大学附属図書館所蔵寛文版本20冊本</cell>
+                        </row>
+                        <row>
+                            <cell rendition="width100">享保版本</cell>
+                            <cell>享保8年(1723)出雲寺和泉掾(松柏堂)刊本</cell>
+                        </row>
+                    </table>
+                    <table rendition="indent2">
+                        <row>
+                            <cell rendition="width100">雲州本</cell>
+                            <cell>文政11年(1828)松江藩刊本</cell>
+                            <cell rendition="width100">考異</cell>
+                            <cell>雲州本考異</cell>
+                            <cell rendition="width100">国史大系本</cell>
+                            <cell>新訂増補国史大系第26巻（吉川弘文館　1937年刊）</cell>
+                            <cell rendition="width100">訳注本</cell>
+                            <cell>訳注日本史料『延喜式』下（集英社　2017年刊）</cell>
+                            <cell rendition="width100">要略</cell>
+                            <cell>政事要略(特に注記がない限り新訂増補国史大系第28巻　吉川弘文館　1935年刊)</cell>
+                        </row>
+                    </table>
+                    <table>
+                        <row>
+                            <cell>・</cell>
+                            <cell>底本には土本を使用し、九本、近本、壬本、京博本、慶長本、梵舜本によって対校しました。その他、校訂に資する場合や内容理解に関わる場合に限り、他本を掲示しました。また、必要に応じて政事要略等の関連史料が引く式文も掲示しました。</cell>
+                            <cell>・</cell>
+                            <cell>集英社刊訳注本の校訂と異なる場合は、その旨明記しました。</cell>
+                            <cell>・</cell>
+                            <cell>条文番号・条文名称は原則として虎尾俊哉編『訳注日本史料　延喜式』〔集英社、「訳注本」と略称〕に従います。ただし、囚獄式着鈦盤枷条の条文名のみ「著鈦盤枷」より「着鈦盤枷」に変更しました。</cell>
+                            <cell>・</cell>
+                            <cell>活字本との異同は原則として訳注本を示すにとどめます。</cell>
+                            <cell>・</cell>
+                            <cell>明らかに誤字・脱字が推測される場合でも、補うべき字あるいは改めるべき字の根拠が充分でない場合には、注で示すにとどめます。</cell>
+                            <cell>・</cell>
+                            <cell>同じ字が連続する場合、多くの写本では踊り字が用いられていますが、巻二九においてはもとの字に置き換えます。</cell>
+                            <cell>・</cell>
+                            <cell>原則として常用字を使用します。</cell>
+                            <cell>・</cell>
+                            <cell>「大」と「太」、「少」と「小」等、容易に判定される誤字や誤用・通用については、校異を省略して適宜置き換えた場合があります。</cell>
+                            <cell>・</cell>
+                            <cell>条文名に関する鼇頭標目については省略します。鼇頭標柱については「　」で括って示します。</cell>
+                            <cell>・</cell>
+                            <cell>書式や表の形式をとる条文の形態については、必ずしも底本によらず、意をもって形式を整えた場合があります。細字は〈　〉で括って示します。</cell>
+                        </row>
+                    </table>
+                </p>
             </editorialDecl>
         </encodingDesc>
         <revisionDesc>
