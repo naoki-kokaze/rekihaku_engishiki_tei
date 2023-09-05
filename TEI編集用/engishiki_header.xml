@@ -61,16 +61,16 @@
                             ><abbr>西本</abbr>：巻9・10は國學院大學図書館所蔵（貴107～108）。巻50は国立歴史民俗博物館所蔵（H-1588）。抄出本は國學院大學所蔵（木村大樹「〔西田長男旧蔵〕三条西実隆筆『延喜式』(抄)の翻刻・紹介」『國學院大學研究開発推進機構紀要』14、2022年） </witness>
                         <witness xml:id="時慶本"
                             ><abbr>時慶本</abbr>：静嘉堂文庫所蔵西洞院時慶写本（延喜格式表18352、延喜式序18353）</witness>
-                        <witness xml:id="藤波本"><abbr>藤波本</abbr>：宮内庁書陵部図書寮文庫所蔵藤波家旧蔵本（217
-                            -473）</witness>
                         <witness xml:id="島原本"
                             ><abbr>島原本</abbr>：東京大学史料編纂所所蔵松平忠房・和学講談所・水野忠央旧蔵本（貴45-2）</witness>
+                        <witness xml:id="藤波本"><abbr>藤波本</abbr>：宮内庁書陵部図書寮文庫所蔵藤波家旧蔵本（217
+                            -473）</witness>
                         <witness xml:id="貞享本"
-                            ><abbr>貞享本</abbr>：宮内庁書陵部図書寮文庫所蔵和学講談所旧蔵本（457-116）</witness>
+                            ><abbr>貞享本</abbr>：宮内庁書陵部図書寮文庫所蔵和学講談所旧蔵坊城俊方貞享本（457-116）</witness>
                         <witness xml:id="玄梁本"><abbr>玄梁本</abbr>：無窮会専門図書館所蔵神習文庫玄梁記名本（神習3666）</witness>
                         <witness xml:id="尾張本"
                             ><abbr>尾張本</abbr>：東京大学総合図書館所蔵尾張家旧蔵本（巻13）（A00-6122）</witness>
-                        <witness xml:id="泉亭本"><abbr>泉亭本</abbr>：賀茂三手文庫所蔵賀茂三手文庫泉亭本「制度／加」</witness>
+                        <witness xml:id="泉亭本"><abbr>泉亭本</abbr>：賀茂三手文庫所蔵泉亭本（制度／加）</witness>
                     </listWit>
                     <listWit xml:id="版本">
                         <head>版本：慶安版本も含めた流布版本</head>
@@ -135,6 +135,11 @@
             <variantEncoding method="location-referenced" location="external"/>
             <tagsDecl>
                 <rendition xml:id="indent">margin-top: 1em;</rendition>
+                <rendition xml:id="indent2">margin-top: 2em;</rendition>
+                <rendition xml:id="indent5">margin-top: 5em;</rendition>
+                <rendition xml:id="kokumei">width: 80px;</rendition>
+                <rendition xml:id="width100">width: 100px;</rendition>
+                <rendition xml:id="jinnmyou">width: 200px;</rendition>
             </tagsDecl>
             <editorialDecl>
                 <p/>
