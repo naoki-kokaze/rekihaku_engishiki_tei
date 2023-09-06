@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>延喜式ファイル</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>国立歴史民俗博物館メタ資料学研究センター</publisher>
+                <idno type="PID">o:depcha.engi_shiki.1</idno>
+                <availability>
+                    <p/>
+                </availability>
+                <date when="2020-03-31">31 March 2020</date>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <settlement>千葉県佐倉市</settlement>
+                        <repository>国立歴史民俗博物館</repository>
+                        <collection>集英社版延喜式</collection>
+                    </msIdentifier>
+                    <msContents>
+                        <msItem>
+                            <author>藤原時平・藤原忠平</author>
+                            <title>延喜式</title>
+                            <note>
+                                <p>ここに史料の説明が入る。</p>
+                            </note>
+                        </msItem>
+                    </msContents>
+                </msDesc>
+                <listWit>
+                    <listWit xml:id="写本">
+                        <head>写本</head>
+                        <witness xml:id="土本"><abbr>土本</abbr>：国立歴史民俗博物館所蔵土御門家旧蔵本（H-743-74）</witness>
+                        <witness xml:id="近本"><abbr>近本</abbr>：京都大学附属図書館所蔵近衛文庫本（2-03/エ/1貴）</witness>
+                        <witness xml:id="壬本"><abbr>壬本</abbr>：宮内庁書陵部図書寮文庫所蔵壬生家旧蔵本（F10-287）</witness>
+                        <witness xml:id="京博本"><abbr>京博本</abbr>：京都国立博物館所蔵旧京都博物館本</witness>
+                        <witness xml:id="慶長本"><abbr>慶長本</abbr>：国立公文書館所蔵慶長写本（特102-8）</witness>
+                        <witness xml:id="梵本"
+                            ><abbr>梵本</abbr>：天理大学附属天理図書館所蔵吉田文庫梵舜等筆本（吉16-8。巻8は173-ｲ5（Ⅲ524)もあり）</witness>
+                        <witness xml:id="九本"><abbr>九本</abbr>：東京国立博物館所蔵九条家旧蔵巻子本（B-2370）</witness>
+                        <witness xml:id="剛本"><abbr>剛本</abbr>：天野山金剛寺所蔵本</witness>
+                        <witness xml:id="条本"
+                            ><abbr>条本</abbr>：一条家旧蔵巻子本（巻1～3は無窮会専門図書館所蔵模写本、巻4・5は神宮司庁刊影印本）</witness>
+                        <witness xml:id="花本"><abbr>花本</abbr>：花山院家・武田祐吉旧蔵本（神宮皇学館刊影印本による）</witness>
+                        <witness xml:id="九冊本"
+                            ><abbr>九冊本</abbr>：國學院大學所蔵九条家・西田長男旧蔵冊子本（巻5は西田長男刊影印本による）</witness>
+                        <witness xml:id="永本"
+                            ><abbr>永本</abbr>：巻8は國學院大學図書館所蔵（091.2/322.135/1）、巻9・10は現蔵不明(神宮文庫所蔵写真帳1門16974）</witness>
+                        <witness xml:id="右本"><abbr>右本</abbr>：巻8は國學院大學図書館所蔵（貴62）</witness>
+                        <witness xml:id="吉本"
+                            ><abbr>吉本</abbr>：天理大学附属天理図書館所蔵吉田家旧蔵本巻9・10（328.1-ｲ17(Ⅲ1219)）</witness>
+                        <witness xml:id="三条本"
+                            ><abbr>三条本</abbr>：天理大学附属天理図書館所蔵三条家旧蔵本（328.1-ｲ11(Ⅲ1218)）</witness>
+                        <witness xml:id="西本"
+                            ><abbr>西本</abbr>：巻9・10は國學院大學図書館所蔵（貴107～108）。巻50は国立歴史民俗博物館所蔵（H-1588）。抄出本は國學院大學所蔵（木村大樹「〔西田長男旧蔵〕三条西実隆筆『延喜式』(抄)の翻刻・紹介」『國學院大學研究開発推進機構紀要』14、2022年） </witness>
+                        <witness xml:id="時慶本"
+                            ><abbr>時慶本</abbr>：静嘉堂文庫所蔵西洞院時慶写本（延喜格式表18352、延喜式序18353）</witness>
+                        <witness xml:id="島原本"
+                            ><abbr>島原本</abbr>：東京大学史料編纂所所蔵松平忠房・和学講談所・水野忠央旧蔵本（貴45-2）</witness>
+                        <witness xml:id="藤波本"><abbr>藤波本</abbr>：宮内庁書陵部図書寮文庫所蔵藤波家旧蔵本（217
+                            -473）</witness>
+                        <witness xml:id="貞享本"
+                            ><abbr>貞享本</abbr>：宮内庁書陵部図書寮文庫所蔵和学講談所旧蔵坊城俊方貞享本（457-116）</witness>
+                        <witness xml:id="玄梁本"><abbr>玄梁本</abbr>：無窮会専門図書館所蔵神習文庫玄梁記名本（神習3666）</witness>
+                        <witness xml:id="尾張本"
+                            ><abbr>尾張本</abbr>：東京大学総合図書館所蔵尾張家旧蔵本（巻13）（A00-6122）</witness>
+                        <witness xml:id="泉亭本"><abbr>泉亭本</abbr>：賀茂三手文庫所蔵泉亭本（制度／加）</witness>
+                    </listWit>
+                    <listWit xml:id="版本">
+                        <head>版本：慶安版本も含めた流布版本</head>
+                        <witness xml:id="慶安版本"
+                            ><abbr>慶安版本</abbr>：大和文華館所蔵鈴鹿連胤旧蔵版本（1/741～790）</witness>
+                        <witness xml:id="明暦版本"
+                            ><abbr>明暦版本</abbr>：明暦修訂版本　国立公文書館所蔵紅葉山文庫旧蔵版本（特26-1）等</witness>
+                        <witness xml:id="明暦以降版本"><abbr>明暦以降版本</abbr>：明暦修訂本以降の版本</witness>
+                        <witness xml:id="寛文版本"
+                            ><abbr>寛文版本</abbr>：寛文修訂版本　筑波大学附属図書館所蔵版本20冊本（ム212-7）等</witness>
+                        <witness xml:id="享保版本"
+                            ><abbr>享保版本</abbr>：享保修訂版本　筑波大学附属図50書館所蔵版本冊本（ム212-6）等</witness>
+                        <witness xml:id="雲本"
+                            ><abbr>雲本</abbr>：松江藩文政11年(1828)刊本（雲州本）　早稲田大学図書館所蔵本（ワ03-01594）等</witness>
+                        <witness xml:id="考異"
+                            ><abbr>考異</abbr>：雲州本附録『延喜式考異』　早稲田大学図書館所蔵本（ワ03-01594）等</witness>
+                        <witness xml:id="鈴鹿本"
+                            ><abbr>鈴鹿本</abbr>：大和文華館所蔵鈴鹿連胤旧蔵慶安版本（1/741～790）書入</witness>
+                        <witness xml:id="勢多本"
+                            ><abbr>勢多本</abbr>：宮内庁書陵部図書寮文庫所蔵勢多家旧蔵明暦等版本（172-123）書入</witness>
+                        <witness xml:id="筑波寛文本"
+                            ><abbr>筑波寛文本</abbr>：筑波大学附属図書館所蔵寛文版本20冊本（ム212-7）書入</witness>
+                    </listWit>
+                    <listWit xml:id="刊本">
+                        <head>刊本</head>
+                        <witness xml:id="旧大系本"><abbr>旧大系本</abbr>：旧輯国史大系第13巻（経済雑誌社　1900年刊）</witness>
+                        <witness xml:id="叢書本"><abbr>叢書本</abbr>：新註皇学叢書第3巻（広文庫刊行会　1927年刊）</witness>
+                        <witness xml:id="全集本"
+                            ><abbr>全集本</abbr>：日本古典全集『延喜式』（日本古典全集刊行会　1927～1929年刊）</witness>
+                        <witness xml:id="皇典本"
+                            ><abbr>皇典本</abbr>：『校訂延喜式』（皇典講究所・全国神職会　1929～1932年刊）</witness>
+                        <witness xml:id="国史大系本"
+                            ><abbr>国史大系本</abbr>：新訂増補国史大系第26巻（吉川弘文館　1937年刊）</witness>
+                        <witness xml:id="神道大系本"
+                            ><abbr>神道大系本</abbr>：神道大系古典編11・12『延喜式』（神道大系編纂会、1991・1993年刊）</witness>
+                        <witness xml:id="訳注本"
+                            ><abbr>訳注本</abbr>：訳注日本史料『延喜式』上～下（集英社、2000～2017年刊）</witness>
+                    </listWit>
+                    <listWit xml:id="その他">
+                        <head>その他</head>
+                        <witness xml:id="本朝月令"
+                            ><abbr>本朝月令</abbr>：清水潔編『新校本朝月令』（皇學館大學神道研究所　2002年刊）</witness>
+                        <witness xml:id="儀式"><abbr>儀式</abbr>：※※</witness>
+                        <witness xml:id="皇太神宮儀式帳"><abbr>皇太神宮儀式帳</abbr>：</witness>
+                        <witness xml:id="止由気宮儀式帳"><abbr>止由気宮儀式帳</abbr>：</witness>
+                        <witness xml:id="新撰年中行事"
+                            ><abbr>新撰年中行事</abbr>：西本昌弘編『新撰年中行事』（八木書店　2010年刊）</witness>
+                        <witness xml:id="小野宮年中行事"><abbr>小野宮年中行事</abbr>：</witness>
+                        <witness xml:id="小野宮年中行事裏書"
+                            ><abbr>小野宮年中行事裏書</abbr>：国立歴史民俗博物館所蔵本（H-1762）</witness>
+                        <witness xml:id="勘例"><abbr>勘例（陽明文庫所蔵）</abbr>：</witness>
+                        <witness xml:id="政事要略"
+                            ><abbr>政事要略</abbr>：新訂増補国史大系（吉川弘文館　1935年刊。適宜、写本を参照）</witness>
+                        <witness xml:id="法曹至要抄"><abbr>法曹至要抄</abbr>：中世法制史料集（岩波書店　2005年刊）</witness>
+                        <witness xml:id="本草和名"
+                            ><abbr>本草和名</abbr>：丸山裕美子・武倩編著『本草和名』（汲古書院　2021年刊）</witness>
+                    </listWit>
+                </listWit>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <variantEncoding method="location-referenced" location="external"/>
+            <tagsDecl>
+                <rendition xml:id="indent">margin-top: 1em;</rendition>
+                <rendition xml:id="indent2">margin-top: 2em;</rendition>
+                <rendition xml:id="indent5">margin-top: 5em;</rendition>
+                <rendition xml:id="kokumei">width: 80px;</rendition>
+                <rendition xml:id="width100">width: 100px;</rendition>
+                <rendition xml:id="jinnmyou">width: 200px;</rendition>
+            </tagsDecl>
+            <editorialDecl>
+                <p/>
+                <p ana="個別"/>
+            </editorialDecl>
+        </encodingDesc>
+        <revisionDesc ana="個別">
+            <change/>
+        </revisionDesc>
+    </teiHeader>
+</TEI>
