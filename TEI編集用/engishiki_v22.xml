@@ -138,39 +138,40 @@
                 <rendition xml:id="jinnmyou">width: 200px;</rendition>
             </tagsDecl>
             <editorialDecl>
-                <p>校訂文凡例<table>
+                <p/>
+                <p ana="個別">校訂文凡例<table>
                         <row>
                             <cell>・</cell>
                             <cell>校訂に使用した写本とその略称は以下のとおりです。</cell>
                         </row>
                     </table>
-                    <table rendition="indent2">
+                    <table rendition="#indent2">
                         <row>
                             <cell>土本</cell>
                             <cell>国立歴史民俗博物館所蔵土御門家旧蔵本（H-743-74）</cell>
                         </row>
                         <row>
-                            <cell rendition="width100">九本</cell>
+                            <cell rendition="#width100">九本</cell>
                             <cell>東京国立博物館所蔵九条家旧蔵巻子本（B-2370）</cell>
                         </row>
                         <row>
-                            <cell rendition="width100">近本</cell>
+                            <cell rendition="#width100">近本</cell>
                             <cell>京都大学附属図書館所蔵近衛文庫本（2-03/エ/1貴）</cell>
                         </row>
                         <row>
-                            <cell rendition="width100">壬本</cell>
+                            <cell rendition="#width100">壬本</cell>
                             <cell>宮内庁書陵部所蔵図書寮文庫所蔵壬生家旧蔵本（F10-287）</cell>
                         </row>
                         <row>
-                            <cell rendition="width100">京博本</cell>
+                            <cell rendition="#width100">京博本</cell>
                             <cell>京都国立博物館所蔵旧京都博物館本</cell>
                         </row>
                         <row>
-                            <cell rendition="width100">梵本</cell>
+                            <cell rendition="#width100">梵本</cell>
                             <cell>天理大学附属天理図書館所蔵吉田文庫梵舜等筆本（吉16-8）</cell>
                         </row>
                         <row>
-                            <cell rendition="width100">慶長本</cell>
+                            <cell rendition="#width100">慶長本</cell>
                             <cell>国立公文書館所蔵慶長写本（特102-8）</cell>
                         </row>
                     </table>
@@ -199,7 +200,7 @@
                 </p>
             </editorialDecl>
         </encodingDesc>
-        <revisionDesc>
+        <revisionDesc ana="個別">
             <change/>
         </revisionDesc>
     </teiHeader>

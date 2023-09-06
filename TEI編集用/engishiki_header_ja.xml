@@ -144,69 +144,67 @@
                 <rendition xml:id="width300">width: 300px;</rendition>
             </tagsDecl>
             <editorialDecl>
-                <p>校訂文全体凡例<table>
+                <p>現代語訳凡例<table>
                         <row>
                             <cell>・</cell>
-                            <cell>原則として土本（以下、略称は「主要写本・版本・刊本等略称・底本一覧」参照）を底本とし、九本・剛本・条本・花本等の古写本や近本・壬本・京博本等の写本によって対校しました（巻によって使用した対校本は異なります）。</cell>
+                            <cell>校訂文に基づいて現代語訳を作成しました。条文番号・条文名称および項番号、また訳で使用する漢字の字体等は校訂文に従っています。原文の細字・割書を〈〉で括って示すことも校訂文と同様です。</cell>
                         </row>
                         <row>
                             <cell>・</cell>
-                            <cell>条文番号・条文名称は原則として訳注本に拠りましたが、一部を修正しています（※下記「条文番号・条文名称修正一覧」参照）。なお1条が長い場合など、必要に応じ「項」に分割して示すこととしました。</cell>
+                            <cell>各条条文番号・条文名にポインターを当てると、条文内容の把握の一助として条文概要がポップアップ表示されます。</cell>
                         </row>
                         <row>
                             <cell>・</cell>
-                            <cell>校異は原則として底本の文字を改変する場合、あるいは写本間に参考とすべき異同がある場合、参考とすべき傍書等がある場合に付すこととしました。必ずしもその校異に関する写本をすべて網羅することはせず、主要写本のみを取り上げています。ただし訳注本と校訂文に異同が生じた場合には、できる限り校異にて言及するよう心がけました（単なる字体の相違については省略しています）。</cell>
+                            <cell>本文のみで簡便に読み進めていける訳文を目指しました。訳出が困難な語句は原文（校訂文）のまま表示して適宜ルビを付し、補足的な説明を加えましたが、意訳で対応した場合もあります。</cell>
                         </row>
                         <row>
                             <cell>・</cell>
-                            <cell>校訂文は『延喜式』撰上当初の姿の復元を目標としています。標注や傍書は、条文名称に関わるものは省略し、中世以前にさかのぼることが想定されるものに限って、校異注で言及することとしました。ただし標注のうち「弘」「貞」「延」等については便宜を考え、鉤括弧で括って校訂本文に掲げることとしました。</cell>
+                            <cell>校訂文の標注は現代文では省略しています。</cell>
                         </row>
                         <row>
                             <cell>・</cell>
-                            <cell>字体は常用漢字体を原則としました。「大」と「太」、「座」と「坐」、「絇」と「約」、「績」と「續（続）」、「色」と「包」、「細」と「紬」、「鈍」と「純」、「冑」と「胃」、「絁」と「絶」、草冠と竹冠、木偏と手偏等、容易に判定される誤字や誤用・通用については、校異を省略して適宜置き換える場合があります。ただし巻9・10においては「大」「太」の差異も校異にて触れることとしました。</cell>
+                            <cell>度量衡はそのまま表記しています。</cell>
                         </row>
+                    </table>
+                    <table rendition="#indent1">
                         <row>
-                            <cell>・</cell>
-                            <cell>校訂文中の細字・割書は、「〈〉」で括って表現することとしました。</cell>
-                        </row>
-                        <row>
-                            <cell>・</cell>
-                            <cell>本文に誤字・脱字等が想定される場合であっても、置き換えるべき文字や補うべき文字が明確でない場合は、校異注での言及にとどめた場合があります。</cell>
-                        </row>
-                        <row>
-                            <cell>・</cell>
-                            <cell>ユニコードにて表示されない漢字は以下のように示すことにしました。</cell>
+                            <cell rendition="#width100">（参考）</cell>
+                            <cell>『延喜式』の度量衡（訳注本掲載の正倉院伝来容器計測結果等に基づく）</cell>
                         </row>
                     </table>
                     <table rendition="#indent2">
                         <row>
-                            <cell rendition="#width100">【Ａ+Ｂ】</cell>
-                            <cell rendition="#width300">＝扁がＡ、つくりがＢ</cell>
-                            <cell rendition="#width300">例）村【木+寸】</cell>
+                            <cell rendition="#width100">長さ</cell>
+                            <cell>1尺＝約29.7㎝　（1丈＝10尺、1尺＝10寸）</cell>
                         </row>
                         <row>
-                            <cell rendition="#width100">【Ａ/Ｂ】</cell>
-                            <cell rendition="#width300">＝上にＡ、下にＢ</cell>
-                            <cell rendition="#width300">例）雲【雨/云】</cell>
+                            <cell rendition="#width100">距離</cell>
+                            <cell>1里＝300歩＝約534ｍ　（1歩＝6尺）</cell>
                         </row>
                         <row>
-                            <cell rendition="#width100">【Ａ-Ｂ】</cell>
-                            <cell rendition="#width300">＝Ａの字画よりＢにあたる字画を除く</cell>
-                            <cell rendition="#width300">例）門【閉-オ】</cell>
+                            <cell rendition="#width100">面積</cell>
+                            <cell>1町＝約1.2ha　（1町＝10段、1段＝360歩）</cell>
                         </row>
                         <row>
-                            <cell rendition="#width100">【Ａ⊃Ｂ】</cell>
-                            <cell rendition="#width300">＝Aの字画のなかにBの字画が含まれる</cell>
-                            <cell rendition="#width300">例）閉【門⊃オ】、国【囗⊃玉】</cell>
+                            <cell rendition="#width100">容積</cell>
+                            <cell>1升＝約800mℓ＝約0.8ℓ　（1斛＝10斗＝100升、1升＝10合＝100夕（勺））</cell>
+                        </row>
+                        <row>
+                            <cell rendition="#width100">重さ</cell>
+                            <cell>大1斤＝約674グラム　（1斤＝16両、1両＝4分、1分＝6銖）</cell>
+                        </row>
+                        <row>
+                            <cell rendition="#width100"/>
+                            <cell>大1斤＝小3斤</cell>
+                        </row>
+                        <row>
+                            <cell rendition="#width100">ほか</cell>
+                            <cell>稲1束＝10把＝100分＝1000毛＝10000厘 <lb/>調綿1屯＝大4両 <lb/>細屯綿1屯＝大3両1分2銖＝小10両
+                                <lb/>庸綿1屯＝大5両2分＝小1斤2分 <lb/>糸1絇＝上糸大4両、中糸大5両、麁糸大7両 <lb/>鉄1廷＝大3斤5両
+                                <lb/>銭1貫＝1000文</cell>
                         </row>
                     </table>
-                    <table><row><cell>・</cell><cell>条文番号・条文名称修正一覧</cell></row></table>
-                    <table rendition="#indent2"><row><cell rendition="#width100">巻番号</cell><cell rendition="#width100">旧番号</cell><cell rendition="#width100">旧条文名</cell><cell rendition="#width50">番号</cell><cell rendition="#width100">訂正条文名</cell></row>
-                        <row><cell rendition="#width100">111太政官</cell><cell rendition="#width100">67</cell><cell rendition="#width100">薗韓神祭</cell><cell rendition="#width50">67</cell><cell rendition="#width100">園韓神祭</cell></row>
-                        <row><cell rendition="#width100">111太政官</cell><cell rendition="#width100">112</cell><cell rendition="#width100">薗韓神祭</cell><cell rendition="#width50">112</cell><cell rendition="#width100">行幸経旬</cell></row>
-                        <row><cell rendition="#width100">171内匠</cell><cell rendition="#width100">39</cell><cell rendition="#width100">作物衣服</cell><cell rendition="#width50">39</cell><cell rendition="#width100">作物衣</cell></row>
-                        <row><cell rendition="#width100">411弾正</cell><cell rendition="#width100">68</cell><cell rendition="#width100">支子染深色</cell><cell rendition="#width50">39</cell><cell rendition="#width100">支子染色</cell></row>
-                    </table></p>
+                </p>
                 <p ana="個別"/>
             </editorialDecl>
         </encodingDesc>
