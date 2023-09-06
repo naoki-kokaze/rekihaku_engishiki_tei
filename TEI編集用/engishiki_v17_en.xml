@@ -37,7 +37,23 @@
         </fileDesc>
         <encodingDesc>
             <variantEncoding method="location-referenced" location="external"/>
+            <tagsDecl>
+                <rendition xml:id="indent">margin-top: 1em;</rendition>
+                <rendition xml:id="indent2">margin-top: 2em;</rendition>
+                <rendition xml:id="indent5">margin-top: 5em;</rendition>
+                <rendition xml:id="kokumei">width: 80px;</rendition>
+                <rendition xml:id="width100">width: 100px;</rendition>
+                <rendition xml:id="jinnmyou">width: 200px;</rendition>
+                <rendition xml:id="width300">width: 300px;</rendition>
+            </tagsDecl>
+            <editorialDecl>
+                <p/>
+                <p ana="個別"/>
+            </editorialDecl>
         </encodingDesc>
+        <revisionDesc ana="個別">
+            <change/>
+        </revisionDesc>
     </teiHeader>
     <text>
         <body>
@@ -128,9 +144,14 @@
                             >Shinsenen</seg> Park. However, in Shinsenen, there should be no more
                         than 10 soft-sided stands.（Five units will be set up on the east and west
                         sides of the throne canopy stand.） </p>
-                    <note type="translatorsNotes" target="#note1710040101">Every year on May 5th, the emperor would come to Butokuden to give a banquet to his subjects and hold a shooting event. The people attending the event wear irises in their wigs.</note>
-                    <note type="translatorsNotes" target="#note1710040102">A hall where the emperor observes equestrian archery and horse races.</note>
-                    <note type="translatorsNotes" target="#note1710040103">The Forbidden Garden was built on the land bordering the south of the Palace.</note>
+                    <note type="translatorsNotes" target="#note1710040101">Every year on May 5th,
+                        the emperor would come to Butokuden to give a banquet to his subjects and
+                        hold a shooting event. The people attending the event wear irises in their
+                        wigs.</note>
+                    <note type="translatorsNotes" target="#note1710040102">A hall where the emperor
+                        observes equestrian archery and horse races.</note>
+                    <note type="translatorsNotes" target="#note1710040103">The Forbidden Garden was
+                        built on the land bordering the south of the Palace.</note>
                 </div>
                 <div ana="内匠" n="17.5" subtype="項" type="条">
                     <head ana="銀器"/>
@@ -140,14 +161,21 @@
                         xml:id="item17100501">Silverware <lb/>For the production of a silver bowl
                         for serving rice (caliber 6 sun, depth 1 sun 7 bu ) , silver, 2 large kin 8
                         ryō ; charcoal, 1 koku 2 to ; charcoal for blacksmithing, 2 koku ; oil, 3 gō
-                        5 shaku. <seg xml:id="note1710050101">The total number of workers</seg> in <seg xml:id="note1710050102">months with long days</seg> is 16 (5
+                        5 shaku. <seg xml:id="note1710050101">The total number of workers</seg> in
+                            <seg xml:id="note1710050102">months with long days</seg> is 16 (5
                         foundry workers, 4 lathe workers, 3 polishers, 4 miscellaneous workers) , in
-                        <seg xml:id="note1710050103">months with normal days</seg> is 19 (14 workers , 5 miscellaneous workers) , and
-                        in <seg xml:id="note1710050104">months with short days</seg> is 22 (16 workers , 6 miscellaneous workers) .</p>
-                    <note type="translatorsNotes" target="#note1710050101">In terms of the amount of work to be completed in a day.</note>
-                    <note type="translatorsNotes" target="#note1710050102">From April to July.</note>
-                    <note type="translatorsNotes" target="#note1710050103">From February, March, August, and September.</note>
-                    <note type="translatorsNotes" target="#note1710050104">From October to New Year.</note>
+                            <seg xml:id="note1710050103">months with normal days</seg> is 19 (14
+                        workers , 5 miscellaneous workers) , and in <seg xml:id="note1710050104"
+                            >months with short days</seg> is 22 (16 workers , 6 miscellaneous
+                        workers) .</p>
+                    <note type="translatorsNotes" target="#note1710050101">In terms of the amount of
+                        work to be completed in a day.</note>
+                    <note type="translatorsNotes" target="#note1710050102">From April to
+                        July.</note>
+                    <note type="translatorsNotes" target="#note1710050103">From February, March,
+                        August, and September.</note>
+                    <note type="translatorsNotes" target="#note1710050104">From October to New
+                        Year.</note>
                     <p ana="項" corresp="engishiki.xml#item17100502 engishiki_ja.xml#item17100502"
                         xml:id="item17100502">For the production of a sake jar (capacity 1 to 5 shō)
                         , silver, 7 large kin 8 ryō ; charcoal, 2 koku ; charcoal for blacksmithing,
