@@ -18,6 +18,7 @@ for p in paragraphs:
         else:
             anchor["xml:id"] = anchor_id + 'e'
 
+# 以下、関数でまとめておきたい。首題と式題の校異註についても同様に対応したいところ
 # 尾題と本奥書内のanchorへのID付与
 bidai_paras = soup.select('div[type="尾題"] p')
 
