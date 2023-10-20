@@ -1,0 +1,1575 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>延喜式ファイル</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>国立歴史民俗博物館メタ資料学研究センター</publisher>
+                <idno type="PID">o:depcha.engi_shiki.1</idno>
+                <availability>
+                    <p/>
+                </availability>
+                <date when="2020-03-31">31 March 2020</date>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <settlement>千葉県佐倉市</settlement>
+                        <repository>国立歴史民俗博物館</repository>
+                        <collection>集英社版延喜式</collection>
+                    </msIdentifier>
+                    <msContents>
+                        <msItem>
+                            <author>藤原時平・藤原忠平</author>
+                            <title>延喜式</title>
+                            <note>
+                                <p>ここに史料の説明が入る。</p>
+                            </note>
+                        </msItem>
+                    </msContents>
+                </msDesc>
+                <listWit>
+                    <listWit xml:id="写本">
+                        <head>写本</head>
+                        <witness xml:id="土本"><abbr>土本</abbr>：国立歴史民俗博物館所蔵土御門家旧蔵本（H-743-74）</witness>
+                        <witness xml:id="近本"><abbr>近本</abbr>：京都大学附属図書館所蔵近衛文庫本（2-03/エ/1貴）</witness>
+                        <witness xml:id="壬本"><abbr>壬本</abbr>：宮内庁書陵部図書寮文庫所蔵壬生家旧蔵本（F10-287）</witness>
+                        <witness xml:id="京博本"><abbr>京博本</abbr>：京都国立博物館所蔵旧京都博物館本</witness>
+                        <witness xml:id="慶長本"><abbr>慶長本</abbr>：国立公文書館所蔵慶長写本（特102-8）</witness>
+                        <witness xml:id="梵本"
+                            ><abbr>梵本</abbr>：天理大学附属天理図書館所蔵吉田文庫梵舜等筆本（吉16-8。巻8は173-ｲ5（Ⅲ524)もあり）</witness>
+                        <witness xml:id="九本"><abbr>九本</abbr>：東京国立博物館所蔵九条家旧蔵巻子本（B-2370）</witness>
+                        <witness xml:id="剛本"><abbr>剛本</abbr>：天野山金剛寺所蔵本</witness>
+                        <witness xml:id="条本"
+                            ><abbr>条本</abbr>：一条家旧蔵巻子本（巻1～3は無窮会専門図書館所蔵模写本、巻4・5は神宮司庁刊影印本）</witness>
+                        <witness xml:id="花本"><abbr>花本</abbr>：花山院家・武田祐吉旧蔵本（神宮皇学館刊影印本による）</witness>
+                        <witness xml:id="九冊本"
+                            ><abbr>九冊本</abbr>：國學院大學所蔵九条家・西田長男旧蔵冊子本（巻5は西田長男刊影印本による）</witness>
+                        <witness xml:id="永本"
+                            ><abbr>永本</abbr>：巻8は國學院大學図書館所蔵（091.2/322.135/1）、巻9・10は現蔵不明(神宮文庫所蔵写真帳1門16974）</witness>
+                        <witness xml:id="右本"><abbr>右本</abbr>：巻8は國學院大學図書館所蔵（貴62）</witness>
+                        <witness xml:id="吉本"
+                            ><abbr>吉本</abbr>：天理大学附属天理図書館所蔵吉田家旧蔵本巻9・10（328.1-ｲ17(Ⅲ1219)）</witness>
+                        <witness xml:id="三条本"
+                            ><abbr>三条本</abbr>：天理大学附属天理図書館所蔵三条家旧蔵本（328.1-ｲ11(Ⅲ1218)）</witness>
+                        <witness xml:id="西本"
+                            ><abbr>西本</abbr>：巻9・10は國學院大學図書館所蔵（貴107～108）。巻50は国立歴史民俗博物館所蔵（H-1588）。抄出本は國學院大學所蔵（木村大樹「〔西田長男旧蔵〕三条西実隆筆『延喜式』(抄)の翻刻・紹介」『國學院大學研究開発推進機構紀要』14、2022年） </witness>
+                        <witness xml:id="時慶本"
+                            ><abbr>時慶本</abbr>：静嘉堂文庫所蔵西洞院時慶写本（延喜格式表18352、延喜式序18353）</witness>
+                        <witness xml:id="島原本"
+                            ><abbr>島原本</abbr>：東京大学史料編纂所所蔵松平忠房・和学講談所・水野忠央旧蔵本（貴45-2）</witness>
+                        <witness xml:id="藤波本"
+                            ><abbr>藤波本</abbr>：宮内庁書陵部図書寮文庫所蔵藤波家旧蔵本（217-473）</witness>
+                        <witness xml:id="貞享本"
+                            ><abbr>貞享本</abbr>：宮内庁書陵部図書寮文庫所蔵和学講談所旧蔵坊城俊方貞享本（457-116）</witness>
+                        <witness xml:id="玄梁本"><abbr>玄梁本</abbr>：無窮会専門図書館所蔵神習文庫玄梁記名本（神習3666）</witness>
+                        <witness xml:id="尾張本"
+                            ><abbr>尾張本</abbr>：東京大学総合図書館所蔵尾張家旧蔵本（巻13）（A00-6122）</witness>
+                        <witness xml:id="泉亭本"><abbr>泉亭本</abbr>：賀茂三手文庫所蔵泉亭本（制度/加）</witness>
+                    </listWit>
+                    <listWit xml:id="版本">
+                        <head>版本：慶安版本も含めた流布版本</head>
+                        <witness xml:id="慶安版本"
+                            ><abbr>慶安版本</abbr>：大和文華館所蔵鈴鹿連胤旧蔵版本（1/741～790）</witness>
+                        <witness xml:id="明暦版本"
+                            ><abbr>明暦版本</abbr>：明暦修訂版本　国立公文書館所蔵紅葉山文庫旧蔵版本（特26-1）等</witness>
+                        <witness xml:id="明暦以降版本"><abbr>明暦以降版本</abbr>：明暦修訂本以降の版本</witness>
+                        <witness xml:id="寛文版本"
+                            ><abbr>寛文版本</abbr>：寛文修訂版本　筑波大学附属図書館所蔵版本20冊本（ム212-7）等</witness>
+                        <witness xml:id="享保版本"
+                            ><abbr>享保版本</abbr>：享保修訂版本　筑波大学附属図書館所蔵版本50冊本（ム212-6）等</witness>
+                        <witness xml:id="雲本"
+                            ><abbr>雲本</abbr>：松江藩文政11年(1828)刊本（雲州本）　早稲田大学図書館所蔵本（ワ03-01594）等</witness>
+                        <witness xml:id="考異"
+                            ><abbr>考異</abbr>：雲州本附録『延喜式考異』　早稲田大学図書館所蔵本（ワ03-01594）等</witness>
+                        <witness xml:id="鈴鹿本"
+                            ><abbr>鈴鹿本</abbr>：大和文華館所蔵鈴鹿連胤旧蔵慶安版本（1/741～790）書入</witness>
+                        <witness xml:id="勢多本"
+                            ><abbr>勢多本</abbr>：宮内庁書陵部図書寮文庫所蔵勢多家旧蔵明暦等版本（172-123）書入</witness>
+                        <witness xml:id="筑波寛文本"
+                            ><abbr>筑波寛文本</abbr>：筑波大学附属図書館所蔵寛文版本20冊本（ム212-7）書入</witness>
+                    </listWit>
+                    <listWit xml:id="刊本">
+                        <head>刊本</head>
+                        <witness xml:id="旧大系本"><abbr>旧大系本</abbr>：旧輯国史大系第13巻（経済雑誌社　1900年刊）</witness>
+                        <witness xml:id="叢書本"><abbr>叢書本</abbr>：新註皇学叢書第3巻（広文庫刊行会　1927年刊）</witness>
+                        <witness xml:id="全集本"
+                            ><abbr>全集本</abbr>：日本古典全集『延喜式』（日本古典全集刊行会　1927～1929年刊）</witness>
+                        <witness xml:id="皇典本"
+                            ><abbr>皇典本</abbr>：『校訂延喜式』（皇典講究所・全国神職会　1929～1932年刊）</witness>
+                        <witness xml:id="国史大系本"
+                            ><abbr>国史大系本</abbr>：新訂増補国史大系第26巻（吉川弘文館　1937年刊）</witness>
+                        <witness xml:id="神道大系本"
+                            ><abbr>神道大系本</abbr>：神道大系古典編11・12『延喜式』（神道大系編纂会、1991・1993年刊）</witness>
+                        <witness xml:id="訳注本"
+                            ><abbr>訳注本</abbr>：訳注日本史料『延喜式』上～下（集英社、2000～2017年刊）</witness>
+                    </listWit>
+                    <listWit xml:id="その他">
+                        <head>その他</head>
+                        <witness xml:id="本朝月令"
+                            ><abbr>本朝月令</abbr>：清水潔編『新校本朝月令』（皇學館大學神道研究所　2002年刊）</witness>
+                        <witness xml:id="儀式"
+                            ><abbr>儀式</abbr>：神道大系朝儀祭祀編1『儀式・内裏式』（神道大系編纂会　1980年刊）</witness>
+                        <witness xml:id="皇太神宮儀式帳"
+                            ><abbr>皇太神宮儀式帳</abbr>：佐野真人「『皇太神宮儀式帳』校訂試案」（『皇學館大学研究開発推進センター紀要』2　2016年）</witness>
+                        <witness xml:id="止由気宮儀式帳"
+                            ><abbr>止由気宮儀式帳</abbr>：佐野真人「『止由気宮儀式帳』校訂試案」（『皇學館大学研究開発推進センター紀要』3　2017年）</witness>
+                        <witness xml:id="新撰年中行事"
+                            ><abbr>新撰年中行事</abbr>：西本昌弘編『新撰年中行事』（八木書店　2010年刊）</witness>
+                        <witness xml:id="小野宮年中行事"><abbr>小野宮年中行事</abbr>：群書類従第6輯 律令部
+                            公事部（続群書類従完成会　1932年刊）</witness>
+                        <witness xml:id="小野宮年中行事裏書"
+                            ><abbr>小野宮年中行事裏書</abbr>：国立歴史民俗博物館所蔵本（H-1762）</witness>
+                        <witness xml:id="勘例"
+                            ><abbr>勘例（陽明文庫所蔵）</abbr>：大日本古記録『勘例』上・下（岩波書店　2018・2023年刊）</witness>
+                        <witness xml:id="政事要略"
+                            ><abbr>政事要略</abbr>：新訂増補国史大系第28巻（吉川弘文館　1935年刊。適宜、写本を参照）</witness>
+                        <witness xml:id="法曹至要抄"><abbr>法曹至要抄</abbr>：中世法制史料集（岩波書店　2005年刊）</witness>
+                        <witness xml:id="本草和名"
+                            ><abbr>本草和名</abbr>：丸山裕美子・武倩編著『本草和名』（汲古書院　2021年刊）</witness>
+                    </listWit>
+                </listWit>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <variantEncoding location="external" method="location-referenced"/>
+            <tagsDecl>
+                <rendition xml:id="indent">margin-top: 1em;</rendition>
+                <rendition xml:id="indent2">margin-top: 2em;</rendition>
+                <rendition xml:id="indent5">margin-top: 5em;</rendition>
+                <rendition xml:id="width50">width: 50px;</rendition>
+                <rendition xml:id="kokumei">width: 80px;</rendition>
+                <rendition xml:id="width100">width: 100px;</rendition>
+                <rendition xml:id="jinnmyou">width: 200px;</rendition>
+                <rendition xml:id="width300">width: 300px;</rendition>
+            </tagsDecl>
+            <editorialDecl>
+                <p>校訂文全体凡例<table>
+                        <row>
+                            <cell>・</cell>
+                            <cell>原則として土本（以下、略称は「主要写本・版本・刊本等略称・底本一覧」参照）を底本とし、九本・剛本・条本・花本等の古写本や近本・壬本・京博本等の写本によって対校しました（巻によって使用した対校本は異なります）。</cell>
+                        </row>
+                        <row>
+                            <cell>・</cell>
+                            <cell>条文番号・条文名称は原則として訳注本に拠りましたが、一部を修正しています（※下記「条文名称修正一覧」参照）。なお1条が長い場合など、必要に応じ「項」に分割して示すこととしました。</cell>
+                        </row>
+                        <row>
+                            <cell>・</cell>
+                            <cell>校異は原則として底本の文字を改変する場合、あるいは写本間に参考とすべき異同がある場合、参考とすべき傍書等がある場合に付すこととしました。必ずしもその校異に関する写本をすべて網羅することはせず、主要写本のみを取り上げています。ただし訳注本と校訂文に異同が生じた場合には、できる限り校異にて言及するよう心がけました（単なる字体の相違については省略しています）。</cell>
+                        </row>
+                        <row>
+                            <cell>・</cell>
+                            <cell>校訂文は『延喜式』撰上当初の姿の復元を目標としています。標注や傍書は、条文名称に関わるものは省略し、中世以前にさかのぼることが想定されるものに限って、校異注で言及することとしました。ただし標注のうち「弘」「貞」「延」等については便宜を考え、鉤括弧で括って校訂本文に掲げることとしました。</cell>
+                        </row>
+                        <row>
+                            <cell>・</cell>
+                            <cell>字体は常用漢字体を原則としました。「大」と「太」、「座」と「坐」、「絇」と「約」、「績」と「續（続）」、「色」と「包」、「細」と「紬」、「鈍」と「純」、「冑」と「胃」、「絁」と「絶」、草冠と竹冠、木偏と手偏等、容易に判定される誤字や誤用・通用については、校異を省略して適宜置き換える場合があります。ただし巻9・10においては「大」「太」の差異も校異にて触れることとしました。</cell>
+                        </row>
+                        <row>
+                            <cell>・</cell>
+                            <cell>校訂文中の細字・割書は、〈　〉で括って表現することとしました。</cell>
+                        </row>
+                        <row>
+                            <cell>・</cell>
+                            <cell>本文に誤字・脱字等が想定される場合であっても、置き換えるべき文字や補うべき文字が明確でない場合は、校異注での言及にとどめた場合があります。</cell>
+                        </row>
+                        <row>
+                            <cell>・</cell>
+                            <cell>ユニコードにて表示されない漢字は以下のように示すことにしました。</cell>
+                        </row>
+                    </table>
+                    <table rendition="#indent2">
+                        <row>
+                            <cell rendition="#width100">【Ａ+Ｂ】</cell>
+                            <cell rendition="#width300">＝扁がＡ、つくりがＢ</cell>
+                            <cell rendition="#width300">例）村【木+寸】</cell>
+                        </row>
+                        <row>
+                            <cell rendition="#width100">【Ａ/Ｂ】</cell>
+                            <cell rendition="#width300">＝上にＡ、下にＢ</cell>
+                            <cell rendition="#width300">例）雲【雨/云】</cell>
+                        </row>
+                        <row>
+                            <cell rendition="#width100">【Ａ-Ｂ】</cell>
+                            <cell rendition="#width300">＝Ａの字画よりＢにあたる字画を除く</cell>
+                            <cell rendition="#width300">例）門【閉-オ】</cell>
+                        </row>
+                        <row>
+                            <cell rendition="#width100">【Ａ⊃Ｂ】</cell>
+                            <cell rendition="#width300">＝Ａの字画のなかにＢの字画が含まれる</cell>
+                            <cell rendition="#width300">例）閉【門⊃オ】、国【囗⊃玉】</cell>
+                        </row>
+                    </table>
+                    <table>
+                        <row>
+                            <cell>・</cell>
+                            <cell>校異註の付く文字は赤字で表示され、クリックすると註が表示されます。表示内容は以下の通りです。</cell>
+                        </row>
+                    </table>
+                    <table rendition="#indent2">
+                        <row>
+                            <cell rendition="#width100">採用</cell>
+                            <cell>写本名と校訂文にて採用した文字</cell>
+                        </row>
+                        <row>
+                            <cell rendition="#width100">校異</cell>
+                            <cell>写本名と対校箇所の文字</cell>
+                        </row>
+                        <row>
+                            <cell rendition="#width100">解説</cell>
+                            <cell>各写本の傍書や頭書等の提示、校異註の本文（最下部の解説）</cell>
+                        </row>
+                    </table>
+                    <table>
+                        <row>
+                            <cell>・</cell>
+                            <cell>条文名称修正一覧</cell>
+                        </row>
+                    </table>
+                    <table rendition="#indent2">
+                        <row>
+                            <cell rendition="#width100">巻番号</cell>
+                            <cell rendition="#width100">旧番号</cell>
+                            <cell rendition="#width100">旧条文名</cell>
+                            <cell rendition="#width50">番号</cell>
+                            <cell rendition="#width100">訂正条文名</cell>
+                        </row>
+                        <row>
+                            <cell rendition="#width100">111太政官</cell>
+                            <cell rendition="#width100">67</cell>
+                            <cell rendition="#width100">薗韓神祭</cell>
+                            <cell rendition="#width50">67</cell>
+                            <cell rendition="#width100">園韓神祭</cell>
+                        </row>
+                        <row>
+                            <cell rendition="#width100">111太政官</cell>
+                            <cell rendition="#width100">112</cell>
+                            <cell rendition="#width100">行幸経宿</cell>
+                            <cell rendition="#width50">112</cell>
+                            <cell rendition="#width100">行幸経旬</cell>
+                        </row>
+                        <row>
+                            <cell rendition="#width100">171内匠</cell>
+                            <cell rendition="#width100">39</cell>
+                            <cell rendition="#width100">作物衣服</cell>
+                            <cell rendition="#width50">39</cell>
+                            <cell rendition="#width100">作物衣</cell>
+                        </row>
+                        <row>
+                            <cell rendition="#width100">293囚獄</cell>
+                            <cell rendition="#width100">2</cell>
+                            <cell rendition="#width100">著鈦盤枷</cell>
+                            <cell rendition="#width50">2</cell>
+                            <cell rendition="#width100">着鈦盤枷</cell>
+                        </row>
+                        <row>
+                            <cell rendition="#width100">321大膳上</cell>
+                            <cell rendition="#width100">5</cell>
+                            <cell rendition="#width100">新嘗祭</cell>
+                            <cell rendition="#width50">5･6</cell>
+                            <cell rendition="#width100">新嘗祭と新嘗小斎解斎に分割</cell>
+                        </row>
+                        <row>
+                            <cell rendition="#width100">411弾正</cell>
+                            <cell rendition="#width100">68</cell>
+                            <cell rendition="#width100">支子染深色</cell>
+                            <cell rendition="#width50">68</cell>
+                            <cell rendition="#width100">支子染色</cell>
+                        </row>
+                    </table></p>
+                <p ana="個別"/>
+            </editorialDecl>
+        </encodingDesc>
+        <revisionDesc ana="個別">
+            <change/>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div ana="神名下" n="10" subtype="式" type="巻" xml:id="volume10">
+                <div type="首題" xml:id="shudai10">
+                    <p xml:id="shudai1001">首題</p>
+                </div>
+                <div ana="神名下" corresp="engishiki_en.xml#protocol101 engishiki_ja.xml#protocol101"
+                    n="10" subtype="条" type="式" xml:id="protocol101">
+                    <div type="式題" xml:id="shikidai101">
+                        <p xml:id="shikidai10101">式題</p>
+                    </div>
+                    <div ana="神名下"
+                        corresp="engishiki_en.xml#article101001 engishiki_ja.xml#article101001"
+                        n="10.1" subtype="項" type="条" xml:id="article101001">
+                        <head ana="東山道"/>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item10100101 engishiki_ja.xml#item10100101"
+                            xml:id="item10100101">本文</p>
+                    </div>
+                    <div ana="神名下"
+                        corresp="engishiki_en.xml#article101002 engishiki_ja.xml#article101002"
+                        n="10.2" subtype="項" type="条" xml:id="article101002">
+                        <head ana="近江国"/>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item10100201 engishiki_ja.xml#item10100201"
+                            xml:id="item10100201">本文</p>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item10100202 engishiki_ja.xml#item10100202"
+                            xml:id="item10100202">本文</p>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item10100203 engishiki_ja.xml#item10100203"
+                            xml:id="item10100203">本文</p>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item10100204 engishiki_ja.xml#item10100204"
+                            xml:id="item10100204">本文</p>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item10100205 engishiki_ja.xml#item10100205"
+                            xml:id="item10100205">本文</p>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item10100206 engishiki_ja.xml#item10100206"
+                            xml:id="item10100206">本文</p>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item10100207 engishiki_ja.xml#item10100207"
+                            xml:id="item10100207">本文</p>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item10100208 engishiki_ja.xml#item10100208"
+                            xml:id="item10100208">本文</p>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item10100209 engishiki_ja.xml#item10100209"
+                            xml:id="item10100209">本文</p>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item10100210 engishiki_ja.xml#item10100210"
+                            xml:id="item10100210">本文</p>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item10100211 engishiki_ja.xml#item10100211"
+                            xml:id="item10100211">本文</p>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item10100212 engishiki_ja.xml#item10100212"
+                            xml:id="item10100212">本文</p>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item10100213 engishiki_ja.xml#item10100213"
+                            xml:id="item10100213">本文</p>
+                    </div>
+                    <div ana="神名下"
+                        corresp="engishiki_en.xml#article101003 engishiki_ja.xml#article101003"
+                        n="10.3" subtype="項" type="条" xml:id="article101003">
+                        <head ana="美濃国"/>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item10100301 engishiki_ja.xml#item10100301"
+                            xml:id="item10100301">本文</p>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item10100302 engishiki_ja.xml#item10100302"
+                            xml:id="item10100302">本文</p>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item10100303 engishiki_ja.xml#item10100303"
+                            xml:id="item10100303">本文</p>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item10100304 engishiki_ja.xml#item10100304"
+                            xml:id="item10100304">本文</p>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item10100305 engishiki_ja.xml#item10100305"
+                            xml:id="item10100305">本文</p>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item10100306 engishiki_ja.xml#item10100306"
+                            xml:id="item10100306">本文</p>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item10100307 engishiki_ja.xml#item10100307"
+                            xml:id="item10100307">本文</p>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item10100308 engishiki_ja.xml#item10100308"
+                            xml:id="item10100308">本文</p>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item10100309 engishiki_ja.xml#item10100309"
+                            xml:id="item10100309">本文</p>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item10100310 engishiki_ja.xml#item10100310"
+                            xml:id="item10100310">本文</p>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item10100311 engishiki_ja.xml#item10100311"
+                            xml:id="item10100311">本文</p>
+                    </div>
+                    <div ana="神名下"
+                        corresp="engishiki_en.xml#article101004 engishiki_ja.xml#article101004"
+                        n="10.4" subtype="項" type="条" xml:id="article101004">
+                        <head ana="飛騨国"/>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item10100401 engishiki_ja.xml#item10100401"
+                            xml:id="item10100401">本文</p>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item10100402 engishiki_ja.xml#item10100402"
+                            xml:id="item10100402">本文</p>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item10100403 engishiki_ja.xml#item10100403"
+                            xml:id="item10100403">本文</p>
+                    </div>
+                    <div ana="神名下"
+                        corresp="engishiki_en.xml#article101005 engishiki_ja.xml#article101005"
+                        n="10.5" subtype="項" type="条" xml:id="article101005">
+                        <head ana="信濃国"/>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item10100501 engishiki_ja.xml#item10100501"
+                            xml:id="item10100501">本文</p>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item10100502 engishiki_ja.xml#item10100502"
+                            xml:id="item10100502">本文</p>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item10100503 engishiki_ja.xml#item10100503"
+                            xml:id="item10100503">本文</p>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item10100504 engishiki_ja.xml#item10100504"
+                            xml:id="item10100504">本文</p>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item10100505 engishiki_ja.xml#item10100505"
+                            xml:id="item10100505">本文</p>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item10100506 engishiki_ja.xml#item10100506"
+                            xml:id="item10100506">本文</p>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item10100507 engishiki_ja.xml#item10100507"
+                            xml:id="item10100507">本文</p>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item10100508 engishiki_ja.xml#item10100508"
+                            xml:id="item10100508">本文</p>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item10100509 engishiki_ja.xml#item10100509"
+                            xml:id="item10100509">本文</p>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item10100510 engishiki_ja.xml#item10100510"
+                            xml:id="item10100510">本文</p>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item10100511 engishiki_ja.xml#item10100511"
+                            xml:id="item10100511">本文</p>
+                    </div>
+                    <div ana="神名下"
+                        corresp="engishiki_en.xml#article101006 engishiki_ja.xml#article101006"
+                        n="10.6" subtype="項" type="条" xml:id="article101006">
+                        <head ana="上野国"/>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item10100601 engishiki_ja.xml#item10100601"
+                            xml:id="item10100601">本文</p>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item10100602 engishiki_ja.xml#item10100602"
+                            xml:id="item10100602">本文</p>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item10100603 engishiki_ja.xml#item10100603"
+                            xml:id="item10100603">本文</p>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item10100604 engishiki_ja.xml#item10100604"
+                            xml:id="item10100604">本文</p>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item10100605 engishiki_ja.xml#item10100605"
+                            xml:id="item10100605">本文</p>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item10100606 engishiki_ja.xml#item10100606"
+                            xml:id="item10100606">本文</p>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item10100607 engishiki_ja.xml#item10100607"
+                            xml:id="item10100607">本文</p>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item10100608 engishiki_ja.xml#item10100608"
+                            xml:id="item10100608">本文</p>
+                    </div>
+                    <div ana="神名下"
+                        corresp="engishiki_en.xml#article101007 engishiki_ja.xml#article101007"
+                        n="10.7" subtype="項" type="条" xml:id="article101007">
+                        <head ana="下野国"/>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item10100701 engishiki_ja.xml#item10100701"
+                            xml:id="item10100701">本文</p>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item10100702 engishiki_ja.xml#item10100702"
+                            xml:id="item10100702">本文</p>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item10100703 engishiki_ja.xml#item10100703"
+                            xml:id="item10100703">本文</p>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item10100704 engishiki_ja.xml#item10100704"
+                            xml:id="item10100704">本文</p>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item10100705 engishiki_ja.xml#item10100705"
+                            xml:id="item10100705">本文</p>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item10100706 engishiki_ja.xml#item10100706"
+                            xml:id="item10100706">本文</p>
+                    </div>
+                    <div ana="神名下"
+                        corresp="engishiki_en.xml#article101008 engishiki_ja.xml#article101008"
+                        n="10.8" subtype="項" type="条" xml:id="article101008">
+                        <head ana="陸奥国"/>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item10100801 engishiki_ja.xml#item10100801"
+                            xml:id="item10100801">本文</p>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item10100802 engishiki_ja.xml#item10100802"
+                            xml:id="item10100802">本文</p>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item10100803 engishiki_ja.xml#item10100803"
+                            xml:id="item10100803">本文</p>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item10100804 engishiki_ja.xml#item10100804"
+                            xml:id="item10100804">本文</p>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item10100805 engishiki_ja.xml#item10100805"
+                            xml:id="item10100805">本文</p>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item10100806 engishiki_ja.xml#item10100806"
+                            xml:id="item10100806">本文</p>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item10100807 engishiki_ja.xml#item10100807"
+                            xml:id="item10100807">本文</p>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item10100808 engishiki_ja.xml#item10100808"
+                            xml:id="item10100808">本文</p>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item10100809 engishiki_ja.xml#item10100809"
+                            xml:id="item10100809">本文</p>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item10100810 engishiki_ja.xml#item10100810"
+                            xml:id="item10100810">本文</p>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item10100811 engishiki_ja.xml#item10100811"
+                            xml:id="item10100811">本文</p>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item10100812 engishiki_ja.xml#item10100812"
+                            xml:id="item10100812">本文</p>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item10100813 engishiki_ja.xml#item10100813"
+                            xml:id="item10100813">本文</p>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item10100814 engishiki_ja.xml#item10100814"
+                            xml:id="item10100814">本文</p>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item10100815 engishiki_ja.xml#item10100815"
+                            xml:id="item10100815">本文</p>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item10100816 engishiki_ja.xml#item10100816"
+                            xml:id="item10100816">本文</p>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item10100817 engishiki_ja.xml#item10100817"
+                            xml:id="item10100817">本文</p>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item10100818 engishiki_ja.xml#item10100818"
+                            xml:id="item10100818">本文</p>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item10100819 engishiki_ja.xml#item10100819"
+                            xml:id="item10100819">本文</p>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item10100820 engishiki_ja.xml#item10100820"
+                            xml:id="item10100820">本文</p>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item10100821 engishiki_ja.xml#item10100821"
+                            xml:id="item10100821">本文</p>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item10100822 engishiki_ja.xml#item10100822"
+                            xml:id="item10100822">本文</p>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item10100823 engishiki_ja.xml#item10100823"
+                            xml:id="item10100823">本文</p>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item10100824 engishiki_ja.xml#item10100824"
+                            xml:id="item10100824">本文</p>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item10100825 engishiki_ja.xml#item10100825"
+                            xml:id="item10100825">本文</p>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item10100826 engishiki_ja.xml#item10100826"
+                            xml:id="item10100826">本文</p>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item10100827 engishiki_ja.xml#item10100827"
+                            xml:id="item10100827">本文</p>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item10100828 engishiki_ja.xml#item10100828"
+                            xml:id="item10100828">本文</p>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item10100829 engishiki_ja.xml#item10100829"
+                            xml:id="item10100829">本文</p>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item10100830 engishiki_ja.xml#item10100830"
+                            xml:id="item10100830">本文</p>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item10100831 engishiki_ja.xml#item10100831"
+                            xml:id="item10100831">本文</p>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item10100832 engishiki_ja.xml#item10100832"
+                            xml:id="item10100832">本文</p>
+                    </div>
+                    <div ana="神名下"
+                        corresp="engishiki_en.xml#article101009 engishiki_ja.xml#article101009"
+                        n="10.9" subtype="項" type="条" xml:id="article101009">
+                        <head ana="出羽国"/>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item10100901 engishiki_ja.xml#item10100901"
+                            xml:id="item10100901">本文</p>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item10100902 engishiki_ja.xml#item10100902"
+                            xml:id="item10100902">本文</p>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item10100903 engishiki_ja.xml#item10100903"
+                            xml:id="item10100903">本文</p>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item10100904 engishiki_ja.xml#item10100904"
+                            xml:id="item10100904">本文</p>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item10100905 engishiki_ja.xml#item10100905"
+                            xml:id="item10100905">本文</p>
+                    </div>
+                    <div ana="神名下"
+                        corresp="engishiki_en.xml#article101010 engishiki_ja.xml#article101010"
+                        n="10.10" subtype="項" type="条" xml:id="article101010">
+                        <head ana="北陸道"/>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item10101001 engishiki_ja.xml#item10101001"
+                            xml:id="item10101001">本文</p>
+                    </div>
+                    <div ana="神名下"
+                        corresp="engishiki_en.xml#article101011 engishiki_ja.xml#article101011"
+                        n="10.11" subtype="項" type="条" xml:id="article101011">
+                        <head ana="若狭国"/>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item10101101 engishiki_ja.xml#item10101101"
+                            xml:id="item10101101">本文</p>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item10101102 engishiki_ja.xml#item10101102"
+                            xml:id="item10101102">本文</p>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item10101103 engishiki_ja.xml#item10101103"
+                            xml:id="item10101103">本文</p>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item10101104 engishiki_ja.xml#item10101104"
+                            xml:id="item10101104">本文</p>
+                    </div>
+                    <div ana="神名下"
+                        corresp="engishiki_en.xml#article101012 engishiki_ja.xml#article101012"
+                        n="10.12" subtype="項" type="条" xml:id="article101012">
+                        <head ana="越前国"/>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item10101201 engishiki_ja.xml#item10101201"
+                            xml:id="item10101201">本文</p>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item10101202 engishiki_ja.xml#item10101202"
+                            xml:id="item10101202">本文</p>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item10101203 engishiki_ja.xml#item10101203"
+                            xml:id="item10101203">本文</p>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item10101204 engishiki_ja.xml#item10101204"
+                            xml:id="item10101204">本文</p>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item10101205 engishiki_ja.xml#item10101205"
+                            xml:id="item10101205">本文</p>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item10101206 engishiki_ja.xml#item10101206"
+                            xml:id="item10101206">本文</p>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item10101207 engishiki_ja.xml#item10101207"
+                            xml:id="item10101207">本文</p>
+                    </div>
+                    <div ana="神名下"
+                        corresp="engishiki_en.xml#article101013 engishiki_ja.xml#article101013"
+                        n="10.13" subtype="項" type="条" xml:id="article101013">
+                        <head ana="加賀国"/>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item10101301 engishiki_ja.xml#item10101301"
+                            xml:id="item10101301">本文</p>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item10101302 engishiki_ja.xml#item10101302"
+                            xml:id="item10101302">本文</p>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item10101303 engishiki_ja.xml#item10101303"
+                            xml:id="item10101303">本文</p>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item10101304 engishiki_ja.xml#item10101304"
+                            xml:id="item10101304">本文</p>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item10101305 engishiki_ja.xml#item10101305"
+                            xml:id="item10101305">本文</p>
+                    </div>
+                    <div ana="神名下"
+                        corresp="engishiki_en.xml#article101014 engishiki_ja.xml#article101014"
+                        n="10.14" subtype="項" type="条" xml:id="article101014">
+                        <head ana="能登国"/>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item10101401 engishiki_ja.xml#item10101401"
+                            xml:id="item10101401">本文</p>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item10101402 engishiki_ja.xml#item10101402"
+                            xml:id="item10101402">本文</p>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item10101403 engishiki_ja.xml#item10101403"
+                            xml:id="item10101403">本文</p>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item10101404 engishiki_ja.xml#item10101404"
+                            xml:id="item10101404">本文</p>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item10101405 engishiki_ja.xml#item10101405"
+                            xml:id="item10101405">本文</p>
+                    </div>
+                    <div ana="神名下"
+                        corresp="engishiki_en.xml#article101015 engishiki_ja.xml#article101015"
+                        n="10.15" subtype="項" type="条" xml:id="article101015">
+                        <head ana="越中国"/>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item10101501 engishiki_ja.xml#item10101501"
+                            xml:id="item10101501">本文</p>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item10101502 engishiki_ja.xml#item10101502"
+                            xml:id="item10101502">本文</p>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item10101503 engishiki_ja.xml#item10101503"
+                            xml:id="item10101503">本文</p>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item10101504 engishiki_ja.xml#item10101504"
+                            xml:id="item10101504">本文</p>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item10101505 engishiki_ja.xml#item10101505"
+                            xml:id="item10101505">本文</p>
+                    </div>
+                    <div ana="神名下"
+                        corresp="engishiki_en.xml#article101016 engishiki_ja.xml#article101016"
+                        n="10.16" subtype="項" type="条" xml:id="article101016">
+                        <head ana="越後国"/>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item10101601 engishiki_ja.xml#item10101601"
+                            xml:id="item10101601">本文</p>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item10101602 engishiki_ja.xml#item10101602"
+                            xml:id="item10101602">本文</p>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item10101603 engishiki_ja.xml#item10101603"
+                            xml:id="item10101603">本文</p>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item10101604 engishiki_ja.xml#item10101604"
+                            xml:id="item10101604">本文</p>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item10101605 engishiki_ja.xml#item10101605"
+                            xml:id="item10101605">本文</p>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item10101606 engishiki_ja.xml#item10101606"
+                            xml:id="item10101606">本文</p>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item10101607 engishiki_ja.xml#item10101607"
+                            xml:id="item10101607">本文</p>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item10101608 engishiki_ja.xml#item10101608"
+                            xml:id="item10101608">本文</p>
+                    </div>
+                    <div ana="神名下"
+                        corresp="engishiki_en.xml#article101017 engishiki_ja.xml#article101017"
+                        n="10.17" subtype="項" type="条" xml:id="article101017">
+                        <head ana="佐渡国"/>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item10101701 engishiki_ja.xml#item10101701"
+                            xml:id="item10101701">本文</p>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item10101702 engishiki_ja.xml#item10101702"
+                            xml:id="item10101702">本文</p>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item10101703 engishiki_ja.xml#item10101703"
+                            xml:id="item10101703">本文</p>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item10101704 engishiki_ja.xml#item10101704"
+                            xml:id="item10101704">本文</p>
+                    </div>
+                    <div ana="神名下"
+                        corresp="engishiki_en.xml#article101018 engishiki_ja.xml#article101018"
+                        n="10.18" subtype="項" type="条" xml:id="article101018">
+                        <head ana="山陰道"/>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item10101801 engishiki_ja.xml#item10101801"
+                            xml:id="item10101801">本文</p>
+                    </div>
+                    <div ana="神名下"
+                        corresp="engishiki_en.xml#article101019 engishiki_ja.xml#article101019"
+                        n="10.19" subtype="項" type="条" xml:id="article101019">
+                        <head ana="丹波国"/>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item10101901 engishiki_ja.xml#item10101901"
+                            xml:id="item10101901">本文</p>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item10101902 engishiki_ja.xml#item10101902"
+                            xml:id="item10101902">本文</p>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item10101903 engishiki_ja.xml#item10101903"
+                            xml:id="item10101903">本文</p>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item10101904 engishiki_ja.xml#item10101904"
+                            xml:id="item10101904">本文</p>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item10101905 engishiki_ja.xml#item10101905"
+                            xml:id="item10101905">本文</p>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item10101906 engishiki_ja.xml#item10101906"
+                            xml:id="item10101906">本文</p>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item10101907 engishiki_ja.xml#item10101907"
+                            xml:id="item10101907">本文</p>
+                    </div>
+                    <div ana="神名下"
+                        corresp="engishiki_en.xml#article101020 engishiki_ja.xml#article101020"
+                        n="10.20" subtype="項" type="条" xml:id="article101020">
+                        <head ana="丹後国"/>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item10102001 engishiki_ja.xml#item10102001"
+                            xml:id="item10102001">本文</p>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item10102002 engishiki_ja.xml#item10102002"
+                            xml:id="item10102002">本文</p>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item10102003 engishiki_ja.xml#item10102003"
+                            xml:id="item10102003">本文</p>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item10102004 engishiki_ja.xml#item10102004"
+                            xml:id="item10102004">本文</p>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item10102005 engishiki_ja.xml#item10102005"
+                            xml:id="item10102005">本文</p>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item10102006 engishiki_ja.xml#item10102006"
+                            xml:id="item10102006">本文</p>
+                    </div>
+                    <div ana="神名下"
+                        corresp="engishiki_en.xml#article101021 engishiki_ja.xml#article101021"
+                        n="10.21" subtype="項" type="条" xml:id="article101021">
+                        <head ana="但馬国"/>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item10102101 engishiki_ja.xml#item10102101"
+                            xml:id="item10102101">本文</p>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item10102102 engishiki_ja.xml#item10102102"
+                            xml:id="item10102102">本文</p>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item10102103 engishiki_ja.xml#item10102103"
+                            xml:id="item10102103">本文</p>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item10102104 engishiki_ja.xml#item10102104"
+                            xml:id="item10102104">本文</p>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item10102105 engishiki_ja.xml#item10102105"
+                            xml:id="item10102105">本文</p>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item10102106 engishiki_ja.xml#item10102106"
+                            xml:id="item10102106">本文</p>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item10102107 engishiki_ja.xml#item10102107"
+                            xml:id="item10102107">本文</p>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item10102108 engishiki_ja.xml#item10102108"
+                            xml:id="item10102108">本文</p>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item10102109 engishiki_ja.xml#item10102109"
+                            xml:id="item10102109">本文</p>
+                    </div>
+                    <div ana="神名下"
+                        corresp="engishiki_en.xml#article101022 engishiki_ja.xml#article101022"
+                        n="10.22" subtype="項" type="条" xml:id="article101022">
+                        <head ana="因幡国"/>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item10102201 engishiki_ja.xml#item10102201"
+                            xml:id="item10102201">本文</p>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item10102202 engishiki_ja.xml#item10102202"
+                            xml:id="item10102202">本文</p>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item10102203 engishiki_ja.xml#item10102203"
+                            xml:id="item10102203">本文</p>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item10102204 engishiki_ja.xml#item10102204"
+                            xml:id="item10102204">本文</p>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item10102205 engishiki_ja.xml#item10102205"
+                            xml:id="item10102205">本文</p>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item10102206 engishiki_ja.xml#item10102206"
+                            xml:id="item10102206">本文</p>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item10102207 engishiki_ja.xml#item10102207"
+                            xml:id="item10102207">本文</p>
+                    </div>
+                    <div ana="神名下"
+                        corresp="engishiki_en.xml#article101023 engishiki_ja.xml#article101023"
+                        n="10.23" subtype="項" type="条" xml:id="article101023">
+                        <head ana="伯耆国"/>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item10102301 engishiki_ja.xml#item10102301"
+                            xml:id="item10102301">本文</p>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item10102302 engishiki_ja.xml#item10102302"
+                            xml:id="item10102302">本文</p>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item10102303 engishiki_ja.xml#item10102303"
+                            xml:id="item10102303">本文</p>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item10102304 engishiki_ja.xml#item10102304"
+                            xml:id="item10102304">本文</p>
+                    </div>
+                    <div ana="神名下"
+                        corresp="engishiki_en.xml#article101024 engishiki_ja.xml#article101024"
+                        n="10.24" subtype="項" type="条" xml:id="article101024">
+                        <head ana="出雲国"/>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item10102401 engishiki_ja.xml#item10102401"
+                            xml:id="item10102401">本文</p>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item10102402 engishiki_ja.xml#item10102402"
+                            xml:id="item10102402">本文</p>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item10102403 engishiki_ja.xml#item10102403"
+                            xml:id="item10102403">本文</p>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item10102404 engishiki_ja.xml#item10102404"
+                            xml:id="item10102404">本文</p>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item10102405 engishiki_ja.xml#item10102405"
+                            xml:id="item10102405">本文</p>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item10102406 engishiki_ja.xml#item10102406"
+                            xml:id="item10102406">本文</p>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item10102407 engishiki_ja.xml#item10102407"
+                            xml:id="item10102407">本文</p>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item10102408 engishiki_ja.xml#item10102408"
+                            xml:id="item10102408">本文</p>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item10102409 engishiki_ja.xml#item10102409"
+                            xml:id="item10102409">本文</p>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item10102410 engishiki_ja.xml#item10102410"
+                            xml:id="item10102410">本文</p>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item10102411 engishiki_ja.xml#item10102411"
+                            xml:id="item10102411">本文</p>
+                    </div>
+                    <div ana="神名下"
+                        corresp="engishiki_en.xml#article101025 engishiki_ja.xml#article101025"
+                        n="10.25" subtype="項" type="条" xml:id="article101025">
+                        <head ana="石見国"/>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item10102501 engishiki_ja.xml#item10102501"
+                            xml:id="item10102501">本文</p>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item10102502 engishiki_ja.xml#item10102502"
+                            xml:id="item10102502">本文</p>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item10102503 engishiki_ja.xml#item10102503"
+                            xml:id="item10102503">本文</p>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item10102504 engishiki_ja.xml#item10102504"
+                            xml:id="item10102504">本文</p>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item10102505 engishiki_ja.xml#item10102505"
+                            xml:id="item10102505">本文</p>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item10102506 engishiki_ja.xml#item10102506"
+                            xml:id="item10102506">本文</p>
+                    </div>
+                    <div ana="神名下"
+                        corresp="engishiki_en.xml#article101026 engishiki_ja.xml#article101026"
+                        n="10.26" subtype="項" type="条" xml:id="article101026">
+                        <head ana="隠伎国"/>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item10102601 engishiki_ja.xml#item10102601"
+                            xml:id="item10102601">本文</p>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item10102602 engishiki_ja.xml#item10102602"
+                            xml:id="item10102602">本文</p>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item10102603 engishiki_ja.xml#item10102603"
+                            xml:id="item10102603">本文</p>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item10102604 engishiki_ja.xml#item10102604"
+                            xml:id="item10102604">本文</p>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item10102605 engishiki_ja.xml#item10102605"
+                            xml:id="item10102605">本文</p>
+                    </div>
+                    <div ana="神名下"
+                        corresp="engishiki_en.xml#article101027 engishiki_ja.xml#article101027"
+                        n="10.27" subtype="項" type="条" xml:id="article101027">
+                        <head ana="山陽道"/>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item10102701 engishiki_ja.xml#item10102701"
+                            xml:id="item10102701">本文</p>
+                    </div>
+                    <div ana="神名下"
+                        corresp="engishiki_en.xml#article101028 engishiki_ja.xml#article101028"
+                        n="10.28" subtype="項" type="条" xml:id="article101028">
+                        <head ana="播磨国"/>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item10102801 engishiki_ja.xml#item10102801"
+                            xml:id="item10102801">本文</p>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item10102802 engishiki_ja.xml#item10102802"
+                            xml:id="item10102802">本文</p>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item10102803 engishiki_ja.xml#item10102803"
+                            xml:id="item10102803">本文</p>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item10102804 engishiki_ja.xml#item10102804"
+                            xml:id="item10102804">本文</p>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item10102805 engishiki_ja.xml#item10102805"
+                            xml:id="item10102805">本文</p>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item10102806 engishiki_ja.xml#item10102806"
+                            xml:id="item10102806">本文</p>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item10102807 engishiki_ja.xml#item10102807"
+                            xml:id="item10102807">本文</p>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item10102808 engishiki_ja.xml#item10102808"
+                            xml:id="item10102808">本文</p>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item10102809 engishiki_ja.xml#item10102809"
+                            xml:id="item10102809">本文</p>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item10102810 engishiki_ja.xml#item10102810"
+                            xml:id="item10102810">本文</p>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item10102811 engishiki_ja.xml#item10102811"
+                            xml:id="item10102811">本文</p>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item10102812 engishiki_ja.xml#item10102812"
+                            xml:id="item10102812">本文</p>
+                    </div>
+                    <div ana="神名下"
+                        corresp="engishiki_en.xml#article101029 engishiki_ja.xml#article101029"
+                        n="10.29" subtype="項" type="条" xml:id="article101029">
+                        <head ana="美作国"/>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item10102901 engishiki_ja.xml#item10102901"
+                            xml:id="item10102901">本文</p>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item10102902 engishiki_ja.xml#item10102902"
+                            xml:id="item10102902">本文</p>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item10102903 engishiki_ja.xml#item10102903"
+                            xml:id="item10102903">本文</p>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item10102904 engishiki_ja.xml#item10102904"
+                            xml:id="item10102904">本文</p>
+                    </div>
+                    <div ana="神名下"
+                        corresp="engishiki_en.xml#article101030 engishiki_ja.xml#article101030"
+                        n="10.30" subtype="項" type="条" xml:id="article101030">
+                        <head ana="備前国"/>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item10103001 engishiki_ja.xml#item10103001"
+                            xml:id="item10103001">本文</p>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item10103002 engishiki_ja.xml#item10103002"
+                            xml:id="item10103002">本文</p>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item10103003 engishiki_ja.xml#item10103003"
+                            xml:id="item10103003">本文</p>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item10103004 engishiki_ja.xml#item10103004"
+                            xml:id="item10103004">本文</p>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item10103005 engishiki_ja.xml#item10103005"
+                            xml:id="item10103005">本文</p>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item10103006 engishiki_ja.xml#item10103006"
+                            xml:id="item10103006">本文</p>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item10103007 engishiki_ja.xml#item10103007"
+                            xml:id="item10103007">本文</p>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item10103008 engishiki_ja.xml#item10103008"
+                            xml:id="item10103008">本文</p>
+                    </div>
+                    <div ana="神名下"
+                        corresp="engishiki_en.xml#article101031 engishiki_ja.xml#article101031"
+                        n="10.31" subtype="項" type="条" xml:id="article101031">
+                        <head ana="備中国"/>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item10103101 engishiki_ja.xml#item10103101"
+                            xml:id="item10103101">本文</p>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item10103102 engishiki_ja.xml#item10103102"
+                            xml:id="item10103102">本文</p>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item10103103 engishiki_ja.xml#item10103103"
+                            xml:id="item10103103">本文</p>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item10103104 engishiki_ja.xml#item10103104"
+                            xml:id="item10103104">本文</p>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item10103105 engishiki_ja.xml#item10103105"
+                            xml:id="item10103105">本文</p>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item10103106 engishiki_ja.xml#item10103106"
+                            xml:id="item10103106">本文</p>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item10103107 engishiki_ja.xml#item10103107"
+                            xml:id="item10103107">本文</p>
+                    </div>
+                    <div ana="神名下"
+                        corresp="engishiki_en.xml#article101032 engishiki_ja.xml#article101032"
+                        n="10.32" subtype="項" type="条" xml:id="article101032">
+                        <head ana="備後国"/>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item10103201 engishiki_ja.xml#item10103201"
+                            xml:id="item10103201">本文</p>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item10103202 engishiki_ja.xml#item10103202"
+                            xml:id="item10103202">本文</p>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item10103203 engishiki_ja.xml#item10103203"
+                            xml:id="item10103203">本文</p>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item10103204 engishiki_ja.xml#item10103204"
+                            xml:id="item10103204">本文</p>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item10103205 engishiki_ja.xml#item10103205"
+                            xml:id="item10103205">本文</p>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item10103206 engishiki_ja.xml#item10103206"
+                            xml:id="item10103206">本文</p>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item10103207 engishiki_ja.xml#item10103207"
+                            xml:id="item10103207">本文</p>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item10103208 engishiki_ja.xml#item10103208"
+                            xml:id="item10103208">本文</p>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item10103209 engishiki_ja.xml#item10103209"
+                            xml:id="item10103209">本文</p>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item10103210 engishiki_ja.xml#item10103210"
+                            xml:id="item10103210">本文</p>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item10103211 engishiki_ja.xml#item10103211"
+                            xml:id="item10103211">本文</p>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item10103212 engishiki_ja.xml#item10103212"
+                            xml:id="item10103212">本文</p>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item10103213 engishiki_ja.xml#item10103213"
+                            xml:id="item10103213">本文</p>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item10103214 engishiki_ja.xml#item10103214"
+                            xml:id="item10103214">本文</p>
+                    </div>
+                    <div ana="神名下"
+                        corresp="engishiki_en.xml#article101033 engishiki_ja.xml#article101033"
+                        n="10.33" subtype="項" type="条" xml:id="article101033">
+                        <head ana="安芸国"/>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item10103301 engishiki_ja.xml#item10103301"
+                            xml:id="item10103301">本文</p>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item10103302 engishiki_ja.xml#item10103302"
+                            xml:id="item10103302">本文</p>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item10103303 engishiki_ja.xml#item10103303"
+                            xml:id="item10103303">本文</p>
+                    </div>
+                    <div ana="神名下"
+                        corresp="engishiki_en.xml#article101034 engishiki_ja.xml#article101034"
+                        n="10.34" subtype="項" type="条" xml:id="article101034">
+                        <head ana="周防国"/>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item10103401 engishiki_ja.xml#item10103401"
+                            xml:id="item10103401">本文</p>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item10103402 engishiki_ja.xml#item10103402"
+                            xml:id="item10103402">本文</p>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item10103403 engishiki_ja.xml#item10103403"
+                            xml:id="item10103403">本文</p>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item10103404 engishiki_ja.xml#item10103404"
+                            xml:id="item10103404">本文</p>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item10103405 engishiki_ja.xml#item10103405"
+                            xml:id="item10103405">本文</p>
+                    </div>
+                    <div ana="神名下"
+                        corresp="engishiki_en.xml#article101035 engishiki_ja.xml#article101035"
+                        n="10.35" subtype="項" type="条" xml:id="article101035">
+                        <head ana="長門国"/>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item10103501 engishiki_ja.xml#item10103501"
+                            xml:id="item10103501">本文</p>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item10103502 engishiki_ja.xml#item10103502"
+                            xml:id="item10103502">本文</p>
+                    </div>
+                    <div ana="神名下"
+                        corresp="engishiki_en.xml#article101036 engishiki_ja.xml#article101036"
+                        n="10.36" subtype="項" type="条" xml:id="article101036">
+                        <head ana="南海道"/>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item10103601 engishiki_ja.xml#item10103601"
+                            xml:id="item10103601">本文</p>
+                    </div>
+                    <div ana="神名下"
+                        corresp="engishiki_en.xml#article101037 engishiki_ja.xml#article101037"
+                        n="10.37" subtype="項" type="条" xml:id="article101037">
+                        <head ana="紀伊国"/>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item10103701 engishiki_ja.xml#item10103701"
+                            xml:id="item10103701">本文</p>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item10103702 engishiki_ja.xml#item10103702"
+                            xml:id="item10103702">本文</p>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item10103703 engishiki_ja.xml#item10103703"
+                            xml:id="item10103703">本文</p>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item10103704 engishiki_ja.xml#item10103704"
+                            xml:id="item10103704">本文</p>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item10103705 engishiki_ja.xml#item10103705"
+                            xml:id="item10103705">本文</p>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item10103706 engishiki_ja.xml#item10103706"
+                            xml:id="item10103706">本文</p>
+                    </div>
+                    <div ana="神名下"
+                        corresp="engishiki_en.xml#article101038 engishiki_ja.xml#article101038"
+                        n="10.38" subtype="項" type="条" xml:id="article101038">
+                        <head ana="淡路国"/>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item10103801 engishiki_ja.xml#item10103801"
+                            xml:id="item10103801">本文</p>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item10103802 engishiki_ja.xml#item10103802"
+                            xml:id="item10103802">本文</p>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item10103803 engishiki_ja.xml#item10103803"
+                            xml:id="item10103803">本文</p>
+                    </div>
+                    <div ana="神名下"
+                        corresp="engishiki_en.xml#article101039 engishiki_ja.xml#article101039"
+                        n="10.39" subtype="項" type="条" xml:id="article101039">
+                        <head ana="阿波国"/>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item10103901 engishiki_ja.xml#item10103901"
+                            xml:id="item10103901">本文</p>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item10103902 engishiki_ja.xml#item10103902"
+                            xml:id="item10103902">本文</p>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item10103903 engishiki_ja.xml#item10103903"
+                            xml:id="item10103903">本文</p>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item10103904 engishiki_ja.xml#item10103904"
+                            xml:id="item10103904">本文</p>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item10103905 engishiki_ja.xml#item10103905"
+                            xml:id="item10103905">本文</p>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item10103906 engishiki_ja.xml#item10103906"
+                            xml:id="item10103906">本文</p>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item10103907 engishiki_ja.xml#item10103907"
+                            xml:id="item10103907">本文</p>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item10103908 engishiki_ja.xml#item10103908"
+                            xml:id="item10103908">本文</p>
+                    </div>
+                    <div ana="神名下"
+                        corresp="engishiki_en.xml#article101040 engishiki_ja.xml#article101040"
+                        n="10.40" subtype="項" type="条" xml:id="article101040">
+                        <head ana="讃岐国"/>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item10104001 engishiki_ja.xml#item10104001"
+                            xml:id="item10104001">本文</p>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item10104002 engishiki_ja.xml#item10104002"
+                            xml:id="item10104002">本文</p>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item10104003 engishiki_ja.xml#item10104003"
+                            xml:id="item10104003">本文</p>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item10104004 engishiki_ja.xml#item10104004"
+                            xml:id="item10104004">本文</p>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item10104005 engishiki_ja.xml#item10104005"
+                            xml:id="item10104005">本文</p>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item10104006 engishiki_ja.xml#item10104006"
+                            xml:id="item10104006">本文</p>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item10104007 engishiki_ja.xml#item10104007"
+                            xml:id="item10104007">本文</p>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item10104008 engishiki_ja.xml#item10104008"
+                            xml:id="item10104008">本文</p>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item10104009 engishiki_ja.xml#item10104009"
+                            xml:id="item10104009">本文</p>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item10104010 engishiki_ja.xml#item10104010"
+                            xml:id="item10104010">本文</p>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item10104011 engishiki_ja.xml#item10104011"
+                            xml:id="item10104011">本文</p>
+                    </div>
+                    <div ana="神名下"
+                        corresp="engishiki_en.xml#article101041 engishiki_ja.xml#article101041"
+                        n="10.41" subtype="項" type="条" xml:id="article101041">
+                        <head ana="伊予国"/>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item10104101 engishiki_ja.xml#item10104101"
+                            xml:id="item10104101">本文</p>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item10104102 engishiki_ja.xml#item10104102"
+                            xml:id="item10104102">本文</p>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item10104103 engishiki_ja.xml#item10104103"
+                            xml:id="item10104103">本文</p>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item10104104 engishiki_ja.xml#item10104104"
+                            xml:id="item10104104">本文</p>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item10104105 engishiki_ja.xml#item10104105"
+                            xml:id="item10104105">本文</p>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item10104106 engishiki_ja.xml#item10104106"
+                            xml:id="item10104106">本文</p>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item10104107 engishiki_ja.xml#item10104107"
+                            xml:id="item10104107">本文</p>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item10104108 engishiki_ja.xml#item10104108"
+                            xml:id="item10104108">本文</p>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item10104109 engishiki_ja.xml#item10104109"
+                            xml:id="item10104109">本文</p>
+                    </div>
+                    <div ana="神名下"
+                        corresp="engishiki_en.xml#article101042 engishiki_ja.xml#article101042"
+                        n="10.42" subtype="項" type="条" xml:id="article101042">
+                        <head ana="土左国"/>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item10104201 engishiki_ja.xml#item10104201"
+                            xml:id="item10104201">本文</p>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item10104202 engishiki_ja.xml#item10104202"
+                            xml:id="item10104202">本文</p>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item10104203 engishiki_ja.xml#item10104203"
+                            xml:id="item10104203">本文</p>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item10104204 engishiki_ja.xml#item10104204"
+                            xml:id="item10104204">本文</p>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item10104205 engishiki_ja.xml#item10104205"
+                            xml:id="item10104205">本文</p>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item10104206 engishiki_ja.xml#item10104206"
+                            xml:id="item10104206">本文</p>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item10104207 engishiki_ja.xml#item10104207"
+                            xml:id="item10104207">本文</p>
+                    </div>
+                    <div ana="神名下"
+                        corresp="engishiki_en.xml#article101043 engishiki_ja.xml#article101043"
+                        n="10.43" subtype="項" type="条" xml:id="article101043">
+                        <head ana="西海道"/>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item10104301 engishiki_ja.xml#item10104301"
+                            xml:id="item10104301">本文</p>
+                    </div>
+                    <div ana="神名下"
+                        corresp="engishiki_en.xml#article101044 engishiki_ja.xml#article101044"
+                        n="10.44" subtype="項" type="条" xml:id="article101044">
+                        <head ana="筑前国"/>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item10104401 engishiki_ja.xml#item10104401"
+                            xml:id="item10104401">本文</p>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item10104402 engishiki_ja.xml#item10104402"
+                            xml:id="item10104402">本文</p>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item10104403 engishiki_ja.xml#item10104403"
+                            xml:id="item10104403">本文</p>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item10104404 engishiki_ja.xml#item10104404"
+                            xml:id="item10104404">本文</p>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item10104405 engishiki_ja.xml#item10104405"
+                            xml:id="item10104405">本文</p>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item10104406 engishiki_ja.xml#item10104406"
+                            xml:id="item10104406">本文</p>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item10104407 engishiki_ja.xml#item10104407"
+                            xml:id="item10104407">本文</p>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item10104408 engishiki_ja.xml#item10104408"
+                            xml:id="item10104408">本文</p>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item10104409 engishiki_ja.xml#item10104409"
+                            xml:id="item10104409">本文</p>
+                    </div>
+                    <div ana="神名下"
+                        corresp="engishiki_en.xml#article101045 engishiki_ja.xml#article101045"
+                        n="10.45" subtype="項" type="条" xml:id="article101045">
+                        <head ana="筑後国"/>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item10104501 engishiki_ja.xml#item10104501"
+                            xml:id="item10104501">本文</p>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item10104502 engishiki_ja.xml#item10104502"
+                            xml:id="item10104502">本文</p>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item10104503 engishiki_ja.xml#item10104503"
+                            xml:id="item10104503">本文</p>
+                    </div>
+                    <div ana="神名下"
+                        corresp="engishiki_en.xml#article101046 engishiki_ja.xml#article101046"
+                        n="10.46" subtype="項" type="条" xml:id="article101046">
+                        <head ana="豊前国"/>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item10104601 engishiki_ja.xml#item10104601"
+                            xml:id="item10104601">本文</p>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item10104602 engishiki_ja.xml#item10104602"
+                            xml:id="item10104602">本文</p>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item10104603 engishiki_ja.xml#item10104603"
+                            xml:id="item10104603">本文</p>
+                    </div>
+                    <div ana="神名下"
+                        corresp="engishiki_en.xml#article101047 engishiki_ja.xml#article101047"
+                        n="10.47" subtype="項" type="条" xml:id="article101047">
+                        <head ana="豊後国"/>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item10104701 engishiki_ja.xml#item10104701"
+                            xml:id="item10104701">本文</p>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item10104702 engishiki_ja.xml#item10104702"
+                            xml:id="item10104702">本文</p>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item10104703 engishiki_ja.xml#item10104703"
+                            xml:id="item10104703">本文</p>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item10104704 engishiki_ja.xml#item10104704"
+                            xml:id="item10104704">本文</p>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item10104705 engishiki_ja.xml#item10104705"
+                            xml:id="item10104705">本文</p>
+                    </div>
+                    <div ana="神名下"
+                        corresp="engishiki_en.xml#article101048 engishiki_ja.xml#article101048"
+                        n="10.48" subtype="項" type="条" xml:id="article101048">
+                        <head ana="肥前国"/>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item10104801 engishiki_ja.xml#item10104801"
+                            xml:id="item10104801">本文</p>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item10104802 engishiki_ja.xml#item10104802"
+                            xml:id="item10104802">本文</p>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item10104803 engishiki_ja.xml#item10104803"
+                            xml:id="item10104803">本文</p>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item10104804 engishiki_ja.xml#item10104804"
+                            xml:id="item10104804">本文</p>
+                    </div>
+                    <div ana="神名下"
+                        corresp="engishiki_en.xml#article101049 engishiki_ja.xml#article101049"
+                        n="10.49" subtype="項" type="条" xml:id="article101049">
+                        <head ana="肥後国"/>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item10104901 engishiki_ja.xml#item10104901"
+                            xml:id="item10104901">本文</p>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item10104902 engishiki_ja.xml#item10104902"
+                            xml:id="item10104902">本文</p>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item10104903 engishiki_ja.xml#item10104903"
+                            xml:id="item10104903">本文</p>
+                    </div>
+                    <div ana="神名下"
+                        corresp="engishiki_en.xml#article101050 engishiki_ja.xml#article101050"
+                        n="10.50" subtype="項" type="条" xml:id="article101050">
+                        <head ana="日向国"/>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item10105001 engishiki_ja.xml#item10105001"
+                            xml:id="item10105001">本文</p>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item10105002 engishiki_ja.xml#item10105002"
+                            xml:id="item10105002">本文</p>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item10105003 engishiki_ja.xml#item10105003"
+                            xml:id="item10105003">本文</p>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item10105004 engishiki_ja.xml#item10105004"
+                            xml:id="item10105004">本文</p>
+                    </div>
+                    <div ana="神名下"
+                        corresp="engishiki_en.xml#article101051 engishiki_ja.xml#article101051"
+                        n="10.51" subtype="項" type="条" xml:id="article101051">
+                        <head ana="大隅国"/>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item10105101 engishiki_ja.xml#item10105101"
+                            xml:id="item10105101">本文</p>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item10105102 engishiki_ja.xml#item10105102"
+                            xml:id="item10105102">本文</p>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item10105103 engishiki_ja.xml#item10105103"
+                            xml:id="item10105103">本文</p>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item10105104 engishiki_ja.xml#item10105104"
+                            xml:id="item10105104">本文</p>
+                    </div>
+                    <div ana="神名下"
+                        corresp="engishiki_en.xml#article101052 engishiki_ja.xml#article101052"
+                        n="10.52" subtype="項" type="条" xml:id="article101052">
+                        <head ana="薩摩国"/>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item10105201 engishiki_ja.xml#item10105201"
+                            xml:id="item10105201">本文</p>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item10105202 engishiki_ja.xml#item10105202"
+                            xml:id="item10105202">本文</p>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item10105203 engishiki_ja.xml#item10105203"
+                            xml:id="item10105203">本文</p>
+                    </div>
+                    <div ana="神名下"
+                        corresp="engishiki_en.xml#article101053 engishiki_ja.xml#article101053"
+                        n="10.53" subtype="項" type="条" xml:id="article101053">
+                        <head ana="壱伎島"/>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item10105301 engishiki_ja.xml#item10105301"
+                            xml:id="item10105301">本文</p>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item10105302 engishiki_ja.xml#item10105302"
+                            xml:id="item10105302">本文</p>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item10105303 engishiki_ja.xml#item10105303"
+                            xml:id="item10105303">本文</p>
+                    </div>
+                    <div ana="神名下"
+                        corresp="engishiki_en.xml#article101054 engishiki_ja.xml#article101054"
+                        n="10.54" subtype="項" type="条" xml:id="article101054">
+                        <head ana="対馬島"/>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item10105401 engishiki_ja.xml#item10105401"
+                            xml:id="item10105401">本文</p>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item10105402 engishiki_ja.xml#item10105402"
+                            xml:id="item10105402">本文</p>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item10105403 engishiki_ja.xml#item10105403"
+                            xml:id="item10105403">本文</p>
+                    </div>
+                </div>
+                <div type="尾題" xml:id="bidai10">
+                    <p xml:id="bidai1001">尾題</p>
+                </div>
+                <div type="本奥書" xml:id="okugaki10">
+                    <p xml:id="okugaki1001">本奥書</p>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>
