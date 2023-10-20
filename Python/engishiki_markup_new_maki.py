@@ -90,7 +90,7 @@ t_div_okugaki = soup.new_tag('div', **{"type":"本奥書", "xml:id":f"okugaki{sh
 
 # 首題のdivタグを最上位の子要素にし、自身の子要素にpタグと文字列を挿入。尾題と本奥書についても同様
 t_div_maki.append(t_div_shudai)
-t_div_shudai.append(soup.new_tag('p'))
+t_div_shudai.append(soup.new_tag('p', **{"xml:id":f"shudai{shiki_no.zfill(2)}01"}))
 t_div_shudai.p.string = '首題'
 
 # 本文を格納する式タグを生成
@@ -98,17 +98,17 @@ t_div_maki.append(t_div_shiki)
 
 # 式タグの子要素に、式題のdivタグを挿入
 t_div_shiki.append(t_div_shikidai)
-t_div_shikidai.append(soup.new_tag('p'))
+t_div_shikidai.append(soup.new_tag('p', **{"xml:id":f"shikidai{shiki_order_id}01"}))
 t_div_shikidai.p.string = '式題'
 
 # 尾題
 t_div_maki.append(t_div_bidai)
-t_div_bidai.append(soup.new_tag('p'))
+t_div_bidai.append(soup.new_tag('p', **{"xml:id":f"bidai{shiki_no.zfill(2)}01"}))
 t_div_bidai.p.string = '尾題'
 
 # 本奥書
 t_div_maki.append(t_div_okugaki)
-t_div_okugaki.append(soup.new_tag('p'))
+t_div_okugaki.append(soup.new_tag('p', **{"xml:id":f"okugaki{shiki_no.zfill(2)}01"}))
 t_div_okugaki.p.string = '本奥書'
 
 ### メインの式タグの中身を格納していく
@@ -117,7 +117,7 @@ for data in metadata:
     article_id = f'article{protocol_id[-3:]}{data["条"].zfill(3)}'
     t_div_shiki.append(soup.new_tag('div', **{"ana":f"{shiki_name}", "xml:id":f"{article_id}", "n":f"{shiki_no}.{data['条']}", "type":"条", "subtype":"項", "corresp":f"{corresp_list[0]}#{article_id} {corresp_list[1]}#{article_id}"}))
     # ポイントは、ここで末尾のdivを指定しないといけないこと。以下、同様
-    t_div_shiki.select('div')[-1].append(soup.new_tag('head', ana=f'{data["新条文名"]}'))
+    t_div_shiki.select('div')[-1].append(soup.new_tag('head', ana=f'{data["条文名"]}'))
     if lang_choice == "_ja":
         t_div_shiki.select('div')[-1].append(soup.new_tag('note', **{"type":"summary"}))
     
