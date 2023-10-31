@@ -144,7 +144,7 @@
                 <rendition xml:id="width50">width: 50px;</rendition>
                 <rendition xml:id="kokumei">width: 80px;</rendition>
                 <rendition xml:id="width100">width: 100px;</rendition>
-                <rendition xml:id="jinnmyou">width: 200px;</rendition>
+                <rendition xml:id="width200">width: 200px;</rendition>
                 <rendition xml:id="width300">width: 300px;</rendition>
             </tagsDecl>
             <editorialDecl>
@@ -508,12 +508,12 @@
                                     <cell rendition="#width300"/>
                                 </row>
                             </table>
-                            <lb/>主水司坐<anchor/>神<anchor/>一座<anchor/>〈小、〉<anchor/>
                             <table>
                                 <row>
-                                    <cell rendition="#width300">鳴雷神社</cell>
+                                    <cell rendition="#width300"
+                                        >主水司坐<anchor/>神<anchor/>一座<anchor/>〈小、〉<anchor/></cell>
                                     <cell rendition="#width50"/>
-                                    <cell rendition="#width300"/>
+                                    <cell rendition="#width300">鳴雷神社</cell>
                                     <cell rendition="#width50"/>
                                     <cell rendition="#width300"/>
                                 </row>
@@ -538,13 +538,12 @@
                                     <cell rendition="#width300"/>
                                 </row>
                             </table>
-                            <lb/><s rendition="#indent"
-                                ><anchor/><anchor/>同京四条坐神一座〈<anchor/>月次、新嘗<anchor/>、〉</s>
-                            <table>
+                            <table rendition="#indent">
                                 <row>
-                                    <cell rendition="#width300"><anchor/>隼神社<anchor/></cell>
+                                    <cell rendition="#width300"
+                                        ><anchor/><anchor/>同京四条坐神一座〈<anchor/>月次、新嘗<anchor/>、〉</cell>
                                     <cell rendition="#width50"/>
-                                    <cell rendition="#width300"/>
+                                    <cell rendition="#width300"><anchor/>隼神社<anchor/></cell>
                                     <cell rendition="#width50"/>
                                     <cell rendition="#width300"/>
                                 </row>
@@ -575,36 +574,36 @@
                                     <cell rendition="#width50"/>
                                     <cell rendition="#width300">与杼神社</cell>
                                     <cell rendition="#width50"/>
-                                    <cell rendition="#width300">大井神社</cell>
+                                    <cell rendition="#width300"/>
                                 </row>
                                 <row>
+                                    <cell rendition="#width300">大井神社</cell>
+                                    <cell rendition="#width50"/>
                                     <cell rendition="#width300"
                                         >乙訓坐<anchor/>火<anchor/>雷神社〈名神大、月次、新嘗、〉</cell>
                                     <cell rendition="#width50"/>
                                     <cell rendition="#width300">石作神社</cell>
-                                    <cell rendition="#width50"/>
-                                    <cell rendition="#width300">走田神社</cell>
                                 </row>
                                 <row>
+                                    <cell rendition="#width300">走田神社</cell>
+                                    <cell rendition="#width50"/>
                                     <cell rendition="#width300">御谷神社</cell>
                                     <cell rendition="#width50"/>
                                     <cell rendition="#width300">国中神社</cell>
-                                    <cell rendition="#width50"/>
-                                    <cell rendition="#width300">向神社</cell>
                                 </row>
                                 <row>
+                                    <cell rendition="#width300">向神社</cell>
+                                    <cell rendition="#width50"/>
                                     <cell rendition="#width300">大歳神社〈大、月次、新嘗、〉</cell>
                                     <cell rendition="#width50"/>
                                     <cell rendition="#width300">茨田神社</cell>
-                                    <cell rendition="#width50"/>
-                                    <cell rendition="#width300">石井神社</cell>
                                 </row>
                                 <row>
+                                    <cell rendition="#width300">石井神社</cell>
+                                    <cell rendition="#width50"/>
                                     <cell rendition="#width300">神川神社</cell>
                                     <cell rendition="#width50"/>
                                     <cell rendition="#width300">久何神社</cell>
-                                    <cell rendition="#width50"/>
-                                    <cell rendition="#width300"/>
                                 </row>
                                 <row>
                                     <cell rendition="#width300"><anchor/><anchor/>簀原神社</cell>
@@ -683,30 +682,36 @@
                                     <cell rendition="#width300"
                                         ><anchor/>出雲井於神社<anchor/>〈大、月次、<anchor/>相嘗<anchor/>、新嘗、〉</cell>
                                     <cell rendition="#width50"/>
-                                    <cell rendition="#width300"
-                                        ><anchor/>賀茂御<anchor/>祖<anchor/>神社<anchor/>二座〈並名神大、月次、相嘗、新嘗、〉</cell>
+                                    <cell rendition="#width300"/>
                                 </row>
                                 <row>
+                                    <cell rendition="#width300"
+                                        ><anchor/>賀茂御<anchor/>祖<anchor/>神社<anchor/>二座〈並名神大、月次、相嘗、新嘗、〉</cell>
+                                    <cell rendition="#width50"/>
                                     <cell rendition="#width300">出雲高野神社</cell>
                                     <cell rendition="#width50"/>
+                                    <cell rendition="#width300"/>
+                                </row>
+                                <row>
                                     <cell rendition="#width300">賀茂山口神社</cell>
                                     <cell rendition="#width50"/>
                                     <cell rendition="#width300">賀茂波爾神社</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300">小野神社二座〈鍬、靫、〉</cell>
                                 </row>
                                 <row>
-                                    <cell rendition="#width300">小野神社二座〈鍬、靫、〉</cell>
-                                    <cell rendition="#width50"/>
                                     <cell rendition="#width300">久我神社</cell>
                                     <cell rendition="#width50"/>
                                     <cell rendition="#width300"><anchor/>末<anchor/>刀神社</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300">須波神社</cell>
                                 </row>
                                 <row>
-                                    <cell rendition="#width300">須波神社</cell>
-                                    <cell rendition="#width50"/>
                                     <cell rendition="#width300">伊多<anchor/>太<anchor/>神社</cell>
                                     <cell rendition="#width50"/>
-                                    <cell rendition="#width300"
-                                        ><anchor/>貴布禰神社<anchor/>〈名神大、月次、新嘗、〉</cell>
+                                    <cell rendition="#width300">貴布禰神社<anchor/>〈名神大、月次、新嘗、〉</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300"><anchor/></cell>
                                 </row>
                                 <row>
                                     <cell rendition="#width300"
@@ -715,15 +720,16 @@
                                     <cell rendition="#width300"
                                         ><anchor/>鴨岡<anchor/>太<anchor/>神社<anchor/></cell>
                                     <cell rendition="#width50"/>
-                                    <cell rendition="#width300"><anchor/>大田神社<anchor/></cell>
+                                    <cell rendition="#width300"/>
                                 </row>
                                 <row>
                                     <cell rendition="#width300"
-                                        ><anchor/>三井神社<anchor/>〈名神大、月次、新<anchor/>嘗<anchor/>、〉</cell>
+                                        ><anchor/><anchor/>大田神社<anchor/></cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300"
+                                        >三井神社<anchor/>〈名神大、月次、新<anchor/>嘗<anchor/>、〉</cell>
                                     <cell rendition="#width50"/>
                                     <cell rendition="#width300">大<anchor/>柴<anchor/>神社</cell>
-                                    <cell rendition="#width50"/>
-                                    <cell rendition="#width300"/>
                                 </row>
                                 <row>
                                     <cell rendition="#width300"><anchor/><anchor/>高橋神社</cell>
@@ -792,23 +798,30 @@
                                     <cell rendition="#width300"
                                         >水主神社十座〈並大、月次、新嘗、就中同水主坐天照御魂神・<anchor/>三伴託<anchor/>山背大国魂命神二座預相嘗<anchor/>祭<anchor/>、〉</cell>
                                     <cell rendition="#width50"/>
-                                    <cell rendition="#width300">荒見神社</cell>
+                                    <cell rendition="#width300"/>
                                 </row>
                                 <row>
+                                    <cell rendition="#width300">荒見神社</cell>
+                                    <cell rendition="#width50"/>
                                     <cell rendition="#width300"><anchor/>双栗神社<anchor/>三座</cell>
                                     <cell rendition="#width50"/>
                                     <cell rendition="#width300"
                                         ><anchor/>水度神社<anchor/>三座〈鍬、靫、〉</cell>
-                                    <cell rendition="#width50"/>
-                                    <cell rendition="#width300">旦椋神社</cell>
                                 </row>
                                 <row>
+                                    <cell rendition="#width300">旦椋神社</cell>
+                                    <cell rendition="#width50"/>
                                     <cell rendition="#width300"
                                         >伊勢田神社三座〈<anchor/>鍬、靫<anchor/>、〉</cell>
                                     <cell rendition="#width50"/>
                                     <cell rendition="#width300">巨椋神社</cell>
-                                    <cell rendition="#width50"/>
+                                </row>
+                                <row>
                                     <cell rendition="#width300">室城神社</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300"/>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300"/>
                                 </row>
                             </table>
                         </p>
@@ -866,15 +879,22 @@
                                     <cell rendition="#width50"/>
                                     <cell rendition="#width300">和伎坐天乃夫支売神社〈大、月次、新嘗、〉</cell>
                                     <cell rendition="#width50"/>
-                                    <cell rendition="#width300">綺原坐健伊那大比売神社</cell>
+                                    <cell rendition="#width300"/>
                                 </row>
                                 <row>
+                                    <cell rendition="#width300">綺原坐健伊那大比売神社</cell>
+                                    <cell rendition="#width50"/>
                                     <cell rendition="#width300">相楽神社</cell>
                                     <cell rendition="#width50"/>
+                                    <cell rendition="#width300"/>
+                                </row>
+                                <row>
                                     <cell rendition="#width300">岡田鴨神社〈大、月次、新嘗、〉</cell>
                                     <cell rendition="#width50"/>
                                     <cell rendition="#width300"
                                         ><anchor/>岡田国神社<anchor/>〈大、月次、新嘗、〉</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300"/>
                                 </row>
                             </table>
                         </p>
@@ -900,59 +920,66 @@
                                     <cell rendition="#width300"
                                         ><anchor/>率川坐大神神御子神社<anchor/>三座</cell>
                                     <cell rendition="#width50"/>
-                                    <cell rendition="#width300">狭岡神社八座</cell>
+                                    <cell rendition="#width300"/>
                                 </row>
                                 <row>
+                                    <cell rendition="#width300">狭岡神社八座</cell>
+                                    <cell rendition="#width50"/>
                                     <cell rendition="#width300">率川阿波神社</cell>
                                     <cell rendition="#width50"/>
                                     <cell rendition="#width300"
                                         >宇奈<anchor/>大<anchor/>理坐高御魂神社〈大、月次、相嘗、新嘗、〉</cell>
-                                    <cell rendition="#width50"/>
-                                    <cell rendition="#width300">和爾坐赤坂比古神社〈大、月次、新嘗、〉</cell>
                                 </row>
                                 <row>
+                                    <cell rendition="#width300">和爾坐赤坂比古神社〈大、月次、新嘗、〉</cell>
+                                    <cell rendition="#width50"/>
                                     <cell rendition="#width300">穴<anchor/>吹<anchor/>神社</cell>
                                     <cell rendition="#width50"/>
                                     <cell rendition="#width300">和爾下神社二座</cell>
-                                    <cell rendition="#width50"/>
-                                    <cell rendition="#width300">奈良豆比古神社〈鍬、靫、〉</cell>
                                 </row>
                                 <row>
+                                    <cell rendition="#width300">奈良豆比古神社〈鍬、靫、〉</cell>
+                                    <cell rendition="#width50"/>
                                     <cell rendition="#width300"><anchor/>神波多神社<anchor/>〈鍬、〉</cell>
                                     <cell rendition="#width50"/>
                                     <cell rendition="#width300">高橋神社</cell>
-                                    <cell rendition="#width50"/>
-                                    <cell rendition="#width300"
-                                        ><anchor/>太<anchor/>祝詞神社〈大、月次、新嘗、〉</cell>
                                 </row>
                                 <row>
+                                    <cell rendition="#width300"
+                                        ><anchor/>太<anchor/>祝詞神社〈大、月次、新嘗、〉</cell>
+                                    <cell rendition="#width50"/>
                                     <cell rendition="#width300">宅布世神社</cell>
                                     <cell rendition="#width50"/>
                                     <cell rendition="#width300">大和日向神社〈鍬、靫、〉</cell>
-                                    <cell rendition="#width50"/>
-                                    <cell rendition="#width300">夜支布山口神社〈大、月次、新嘗、〉</cell>
                                 </row>
                                 <row>
+                                    <cell rendition="#width300">夜支布山口神社〈大、月次、新嘗、〉</cell>
+                                    <cell rendition="#width50"/>
                                     <cell rendition="#width300">春日神社</cell>
                                     <cell rendition="#width50"/>
                                     <cell rendition="#width300">売<anchor/>太<anchor/>神社</cell>
-                                    <cell rendition="#width50"/>
-                                    <cell rendition="#width300"
-                                        ><anchor/>春日祭<anchor/>神<anchor/><anchor/>四座〈並名神大、月次、新嘗、〉</cell>
                                 </row>
                                 <row>
+                                    <cell rendition="#width300"
+                                        ><anchor/>春日祭<anchor/>神<anchor/><anchor/>四座〈並名神大、月次、新嘗、〉</cell>
+                                    <cell rendition="#width50"/>
                                     <cell rendition="#width300">赤穂神社</cell>
                                     <cell rendition="#width50"/>
                                     <cell rendition="#width300">島田神社</cell>
-                                    <cell rendition="#width50"/>
-                                    <cell rendition="#width300">御前<anchor/>社<anchor/>石立命神社</cell>
                                 </row>
                                 <row>
+                                    <cell rendition="#width300">御前<anchor/>社<anchor/>石立命神社</cell>
+                                    <cell rendition="#width50"/>
                                     <cell rendition="#width300">天乃石吸神社</cell>
                                     <cell rendition="#width50"/>
                                     <cell rendition="#width300">五百立神社</cell>
-                                    <cell rendition="#width50"/>
+                                </row>
+                                <row>
                                     <cell rendition="#width300">天乃石立神社</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300"/>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300"/>
                                 </row>
                             </table>
                         </p>
@@ -967,22 +994,22 @@
                                     <cell rendition="#width300"
                                         >添御<anchor/>県<anchor/>坐神社〈大、月次、新嘗、〉</cell>
                                     <cell rendition="#width50"/>
-                                    <cell rendition="#width300">菅田比売神社二座〈鍬、靫、〉</cell>
+                                    <cell rendition="#width300"/>
                                 </row>
                                 <row>
+                                    <cell rendition="#width300">菅田比売神社二座〈鍬、靫、〉</cell>
+                                    <cell rendition="#width50"/>
                                     <cell rendition="#width300">佐紀神社</cell>
                                     <cell rendition="#width50"/>
                                     <cell rendition="#width300">菅原神社</cell>
-                                    <cell rendition="#width50"/>
-                                    <cell rendition="#width300">登弥神<anchor/>社<anchor/></cell>
                                 </row>
                                 <row>
+                                    <cell rendition="#width300">登弥神<anchor/>社<anchor/></cell>
+                                    <cell rendition="#width50"/>
                                     <cell rendition="#width300">菅田神社</cell>
                                     <cell rendition="#width50"/>
                                     <cell rendition="#width300"
                                         >伊射奈<anchor/>岐<anchor/>神社〈大、月次、新嘗、〉</cell>
-                                    <cell rendition="#width50"/>
-                                    <cell rendition="#width300"/>
                                 </row>
                             </table>
                         </p>
@@ -996,37 +1023,37 @@
                                     <cell rendition="#width50"/>
                                     <cell rendition="#width300">竜田比古竜田比女神社二座</cell>
                                     <cell rendition="#width50"/>
-                                    <cell rendition="#width300"
-                                        ><anchor/>往馬坐伊古麻<anchor/>都<anchor/>比古神<anchor/>社<anchor/><anchor/>二座〈並大、月次、新嘗、〉</cell>
+                                    <cell rendition="#width300"/>
                                 </row>
                                 <row>
+                                    <cell rendition="#width300"
+                                        ><anchor/>往馬坐伊古麻<anchor/>都<anchor/>比古神<anchor/>社<anchor/><anchor/>二座〈並大、月次、新嘗、〉</cell>
+                                    <cell rendition="#width50"/>
                                     <cell rendition="#width300"
                                         >平<anchor/>群<anchor/>石床神社〈大、月次、新嘗、〉</cell>
                                     <cell rendition="#width50"/>
+                                    <cell rendition="#width300"/>
+                                </row>
+                                <row>
                                     <cell rendition="#width300">伊古麻山口神社〈大、月次、新嘗、〉</cell>
                                     <cell rendition="#width50"/>
                                     <cell rendition="#width300">平群神社五座〈並大、月次、新嘗、〉</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300">久度神社</cell>
                                 </row>
                                 <row>
-                                    <cell rendition="#width300">久度神社</cell>
-                                    <cell rendition="#width50"/>
                                     <cell rendition="#width300">平群坐紀氏神社〈名神大、月次、新嘗、〉</cell>
                                     <cell rendition="#width50"/>
                                     <cell rendition="#width300">猪上神社</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300">船山神社</cell>
                                 </row>
                                 <row>
-                                    <cell rendition="#width300">船山神社</cell>
-                                    <cell rendition="#width50"/>
                                     <cell rendition="#width300">御櫛神社</cell>
                                     <cell rendition="#width50"/>
                                     <cell rendition="#width300">神岳神社</cell>
-                                </row>
-                                <row>
+                                    <cell rendition="#width50"/>
                                     <cell rendition="#width300">雲甘<anchor/>寺坐<anchor/>楢本神社</cell>
-                                    <cell rendition="#width50"/>
-                                    <cell rendition="#width300"/>
-                                    <cell rendition="#width50"/>
-                                    <cell rendition="#width300"/>
                                 </row>
                             </table>
                         </p>
@@ -1062,31 +1089,31 @@
                                     <cell rendition="#width300"
                                         ><anchor/>葛木御歳神社<anchor/>〈名神大、月次、新嘗、〉</cell>
                                     <cell rendition="#width50"/>
-                                    <cell rendition="#width300"
-                                        >葛木坐<anchor/>一言主<anchor/>神社〈名神大、月次、<anchor/>新<anchor/>嘗、〉</cell>
+                                    <cell rendition="#width300"/>
                                 </row>
                                 <row>
+                                    <cell rendition="#width300"
+                                        >葛木坐<anchor/>一言主<anchor/>神社〈名神大、月次、<anchor/>新<anchor/>嘗、〉</cell>
+                                    <cell rendition="#width50"/>
                                     <cell rendition="#width300">多太神社〈<anchor/>鍬、靫<anchor/>、〉</cell>
                                     <cell rendition="#width50"/>
                                     <cell rendition="#width300"><anchor/>長柄神社<anchor/>〈鍬、靫、〉</cell>
-                                    <cell rendition="#width50"/>
-                                    <cell rendition="#width300">巨勢山口神社〈大、月次、新嘗、〉</cell>
                                 </row>
                                 <row>
+                                    <cell rendition="#width300">巨勢山口神社〈大、月次、新嘗、〉</cell>
+                                    <cell rendition="#width50"/>
                                     <cell rendition="#width300"
                                         ><anchor/>葛木水分神社<anchor/>〈名神大、月次、新嘗、〉</cell>
                                     <cell rendition="#width50"/>
                                     <cell rendition="#width300"
                                         ><anchor/>鴨山口神社<anchor/>〈大、月次、新嘗、〉</cell>
-                                    <cell rendition="#width50"/>
-                                    <cell rendition="#width300">高天彦神社〈名神大、月次、相嘗、新嘗、〉</cell>
                                 </row>
                                 <row>
+                                    <cell rendition="#width300">高天彦神社〈名神大、月次、相嘗、新嘗、〉</cell>
+                                    <cell rendition="#width50"/>
                                     <cell rendition="#width300">葛木<anchor/>大<anchor/>重神社</cell>
                                     <cell rendition="#width50"/>
                                     <cell rendition="#width300">大穴持神社</cell>
-                                    <cell rendition="#width50"/>
-                                    <cell rendition="#width300"/>
                                 </row>
                                 <row>
                                     <cell rendition="#width300"
@@ -1109,40 +1136,47 @@
                                     <cell rendition="#width300"
                                         >片岡坐神社〈名神大、<anchor/>月<anchor/>次、新嘗、〉</cell>
                                     <cell rendition="#width50"/>
-                                    <cell rendition="#width300">長尾神社〈大、月次、新嘗、〉</cell>
+                                    <cell rendition="#width300"/>
                                 </row>
                                 <row>
+                                    <cell rendition="#width300">長尾神社〈大、月次、新嘗、〉</cell>
+                                    <cell rendition="#width50"/>
                                     <cell rendition="#width300"
                                         >石薗坐<anchor/>多久虫玉<anchor/>神社二座〈並大、月次、新嘗、〉</cell>
                                     <cell rendition="#width50"/>
+                                    <cell rendition="#width300"/>
+                                </row>
+                                <row>
                                     <cell rendition="#width300"
                                         >調田坐一事<anchor/>尼<anchor/>古神社〈大、月次、新嘗、〉</cell>
                                     <cell rendition="#width50"/>
                                     <cell rendition="#width300">金村神社〈大、月次、新嘗、〉</cell>
-                                </row>
-                                <row>
+                                    <cell rendition="#width50"/>
                                     <cell rendition="#width300"
                                         >葛木御県神社〈<anchor/>大、月次、新嘗<anchor/>、〉</cell>
-                                    <cell rendition="#width50"/>
+                                </row>
+                                <row>
                                     <cell rendition="#width300">深溝神社</cell>
                                     <cell rendition="#width50"/>
                                     <cell rendition="#width300"
                                         >火幡神社〈<anchor/>名神大、月次、新嘗<anchor/>、〉</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300">志都美神<anchor/>社<anchor/></cell>
                                 </row>
                                 <row>
-                                    <cell rendition="#width300">志都美神<anchor/>社<anchor/></cell>
-                                    <cell rendition="#width50"/>
                                     <cell rendition="#width300">伊射奈岐神社</cell>
                                     <cell rendition="#width50"/>
                                     <cell rendition="#width300">当麻都比古神社二座</cell>
-                                </row>
-                                <row>
+                                    <cell rendition="#width50"/>
                                     <cell rendition="#width300"
                                         >当麻山口神社〈<anchor/>大、月次、新嘗<anchor/>、〉</cell>
-                                    <cell rendition="#width50"/>
+                                </row>
+                                <row>
                                     <cell rendition="#width300">大坂山口神社〈大、月次、新嘗、〉</cell>
                                     <cell rendition="#width50"/>
                                     <cell rendition="#width300">葛木二上神社二座〈大、月次、新嘗、〉</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300"/>
                                 </row>
                             </table>
                         </p>
@@ -1313,43 +1347,43 @@
                                     <cell rendition="#width50"/>
                                     <cell rendition="#width300">忍坂坐生根神社〈大、月次、新嘗、〉</cell>
                                     <cell rendition="#width50"/>
-                                    <cell rendition="#width300">長谷山口坐神社〈大、月次、新嘗、〉</cell>
+                                    <cell rendition="#width300"/>
                                 </row>
                                 <row>
+                                    <cell rendition="#width300">長谷山口坐神社〈大、月次、新嘗、〉</cell>
+                                    <cell rendition="#width50"/>
                                     <cell rendition="#width300">忍坂山口坐神社〈大、月次、新嘗、〉</cell>
                                     <cell rendition="#width50"/>
                                     <cell rendition="#width300">等弥神社</cell>
-                                    <cell rendition="#width50"/>
-                                    <cell rendition="#width300">殖栗神社</cell>
                                 </row>
                                 <row>
+                                    <cell rendition="#width300">殖栗神社</cell>
+                                    <cell rendition="#width50"/>
                                     <cell rendition="#width300">水口神社</cell>
                                     <cell rendition="#width50"/>
                                     <cell rendition="#width300">桑内神社二座〈鍬、靫、〉</cell>
-                                    <cell rendition="#width50"/>
-                                    <cell rendition="#width300">曳田神社二座〈鍬、靫、〉</cell>
                                 </row>
                                 <row>
+                                    <cell rendition="#width300">曳田神社二座〈鍬、靫、〉</cell>
+                                    <cell rendition="#width50"/>
                                     <cell rendition="#width300">宇太依田神社</cell>
                                     <cell rendition="#width50"/>
                                     <cell rendition="#width300">玉<anchor/>烈<anchor/>神社</cell>
-                                    <cell rendition="#width50"/>
-                                    <cell rendition="#width300">伊射奈岐神社</cell>
                                 </row>
                                 <row>
+                                    <cell rendition="#width300">伊射奈岐神社</cell>
+                                    <cell rendition="#width50"/>
                                     <cell rendition="#width300">綱越神社</cell>
                                     <cell rendition="#width50"/>
                                     <cell rendition="#width300"><anchor/>稔<anchor/>代神社</cell>
-                                    <cell rendition="#width50"/>
-                                    <cell rendition="#width300">穴師大兵主神社</cell>
                                 </row>
                                 <row>
+                                    <cell rendition="#width300">穴師大兵主神社</cell>
+                                    <cell rendition="#width50"/>
                                     <cell rendition="#width300">若桜神社</cell>
                                     <cell rendition="#width50"/>
                                     <cell rendition="#width300"
                                         ><anchor/>堝<anchor/><anchor/>倉<anchor/>神社</cell>
-                                    <cell rendition="#width50"/>
-                                    <cell rendition="#width300"/>
                                 </row>
                                 <row>
                                     <cell rendition="#width300"
@@ -1421,83 +1455,83 @@
                                     <cell rendition="#width300"
                                         >飛鳥坐神社四座〈並名神大、月次、相嘗、新<anchor/>嘗<anchor/>、〉</cell>
                                     <cell rendition="#width50"/>
-                                    <cell rendition="#width300"
-                                        >宗我坐宗我都比古神社二座〈並大、月次、新<anchor/>嘗<anchor/>、〉</cell>
+                                    <cell rendition="#width300"/>
                                 </row>
                                 <row>
+                                    <cell rendition="#width300"
+                                        >宗我坐宗我都比古神社二座〈並大、月次、新<anchor/>嘗<anchor/>、〉</cell>
+                                    <cell rendition="#width50"/>
                                     <cell rendition="#width300">飛鳥山口坐神社〈大、月次、新嘗、〉</cell>
                                     <cell rendition="#width50"/>
+                                    <cell rendition="#width300"/>
+                                </row>
+                                <row>
                                     <cell rendition="#width300"
                                         ><anchor/>甘樫坐神社<anchor/>四座〈並大、月次、<anchor/>相嘗<anchor/>、<anchor/>新嘗<anchor/>、〉</cell>
                                     <cell rendition="#width50"/>
                                     <cell rendition="#width300"
                                         ><anchor/>稌<anchor/>代坐神社〈大、月次、<anchor/>新<anchor/>嘗、〉</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300">牟佐坐神社〈大、月次、新嘗、〉</cell>
                                 </row>
                                 <row>
-                                    <cell rendition="#width300">牟佐坐神社〈大、月次、新嘗、〉</cell>
-                                    <cell rendition="#width50"/>
                                     <cell rendition="#width300"
                                         >畝<anchor/>火<anchor/>山口<anchor/>坐<anchor/>神社〈大、月次、新嘗、〉</cell>
                                     <cell rendition="#width50"/>
                                     <cell rendition="#width300">高市御県神社〈名神大、月次、新嘗、〉</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300"><anchor/>巨<anchor/>勢山坐石椋孫神社</cell>
                                 </row>
                                 <row>
-                                    <cell rendition="#width300"><anchor/>巨<anchor/>勢山坐石椋孫神社</cell>
-                                    <cell rendition="#width50"/>
                                     <cell rendition="#width300">鷺栖神社〈靫、〉</cell>
                                     <cell rendition="#width50"/>
                                     <cell rendition="#width300"
                                         >軽樹<anchor/>村<anchor/>坐神社二座〈並大、月次、新嘗、〉</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300">天高市神社〈大、月次、新嘗、〉</cell>
                                 </row>
                                 <row>
-                                    <cell rendition="#width300">天高市神社〈大、月次、新嘗、〉</cell>
-                                    <cell rendition="#width50"/>
                                     <cell rendition="#width300">治田神社〈鍬、靫、〉</cell>
                                     <cell rendition="#width50"/>
                                     <cell rendition="#width300"
                                         ><anchor/>太玉命神社<anchor/>四座〈並<anchor/>大<anchor/>、月次、新嘗、〉</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300">櫛玉命神社四座〈並大、月次、新嘗、〉</cell>
                                 </row>
                                 <row>
-                                    <cell rendition="#width300">櫛玉命神社四座〈並大、月次、新嘗、〉</cell>
-                                    <cell rendition="#width50"/>
                                     <cell rendition="#width300">加夜奈留美命神社</cell>
                                     <cell rendition="#width50"/>
                                     <cell rendition="#width300">飛鳥川上坐宇須多伎比売命神社</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300">東大谷日女<anchor/>命神社<anchor/></cell>
                                 </row>
                                 <row>
-                                    <cell rendition="#width300">東大谷日女<anchor/>命神社<anchor/></cell>
-                                    <cell rendition="#width50"/>
                                     <cell rendition="#width300">呉津孫神社</cell>
                                     <cell rendition="#width50"/>
                                     <cell rendition="#width300">川俣神社三座〈並大、月次、新嘗、〉</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300">気都和既神社</cell>
                                 </row>
                                 <row>
-                                    <cell rendition="#width300">気都和既神社</cell>
-                                    <cell rendition="#width50"/>
                                     <cell rendition="#width300">大歳神社二座</cell>
                                     <cell rendition="#width50"/>
                                     <cell rendition="#width300">波多神社〈鍬、靫、〉</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300">御歳神社〈鍬、靫、〉</cell>
                                 </row>
                                 <row>
-                                    <cell rendition="#width300">御歳神社〈鍬、靫、〉</cell>
-                                    <cell rendition="#width50"/>
                                     <cell rendition="#width300">於美阿志神社</cell>
                                     <cell rendition="#width50"/>
                                     <cell rendition="#width300">鳥坂神社二座〈鍬、靫、〉</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300">滝本神社</cell>
                                 </row>
                                 <row>
-                                    <cell rendition="#width300">滝本神社</cell>
-                                    <cell rendition="#width50"/>
                                     <cell rendition="#width300">許世都比古<anchor/>命<anchor/>神社</cell>
                                     <cell rendition="#width50"/>
                                     <cell rendition="#width300">天津石門別神社</cell>
-                                </row>
-                                <row>
+                                    <cell rendition="#width50"/>
                                     <cell rendition="#width300">波多𤭖井神社〈大、月次、新嘗、〉</cell>
-                                    <cell rendition="#width50"/>
-                                    <cell rendition="#width300"/>
-                                    <cell rendition="#width50"/>
-                                    <cell rendition="#width300"/>
                                 </row>
                                 <row>
                                     <cell rendition="#width300"
@@ -1520,22 +1554,22 @@
                                     <cell rendition="#width300"
                                         >十市御<anchor/>県<anchor/>坐神社〈大、月次、新嘗、〉</cell>
                                     <cell rendition="#width50"/>
-                                    <cell rendition="#width300">目原坐高御魂神社二座〈並大、月次、新嘗、〉</cell>
+                                    <cell rendition="#width300"/>
                                 </row>
                                 <row>
+                                    <cell rendition="#width300">目原坐高御魂神社二座〈並大、月次、新嘗、〉</cell>
+                                    <cell rendition="#width50"/>
                                     <cell rendition="#width300"
                                         >石<anchor/>寸<anchor/>山口神社〈大、月次、新嘗、〉</cell>
                                     <cell rendition="#width50"/>
+                                    <cell rendition="#width300"/>
+                                </row>
+                                <row>
                                     <cell rendition="#width300">畝尾坐健土安神社〈大、月次、新嘗、〉</cell>
                                     <cell rendition="#width50"/>
                                     <cell rendition="#width300">耳成山口神社〈大、月次、新嘗、〉</cell>
-                                </row>
-                                <row>
+                                    <cell rendition="#width50"/>
                                     <cell rendition="#width300"><anchor/>竹田神社<anchor/></cell>
-                                    <cell rendition="#width50"/>
-                                    <cell rendition="#width300"/>
-                                    <cell rendition="#width50"/>
-                                    <cell rendition="#width300"/>
                                 </row>
                                 <row>
                                     <cell rendition="#width300"><anchor/><anchor/>坂門神社〈鍬、靫、〉</cell>
@@ -1551,14 +1585,14 @@
                                     <cell rendition="#width50"/>
                                     <cell rendition="#width300"><anchor/>皇<anchor/>子神命神社</cell>
                                     <cell rendition="#width50"/>
-                                    <cell rendition="#width300">姫皇子命神社</cell>
+                                    <cell rendition="#width300"/>
                                 </row>
                                 <row>
+                                    <cell rendition="#width300">姫皇子命神社</cell>
+                                    <cell rendition="#width50"/>
                                     <cell rendition="#width300">小社<anchor/>神<anchor/>命神社</cell>
                                     <cell rendition="#width50"/>
                                     <cell rendition="#width300">屋就神命神社〈已上四神、大社皇子神、〉</cell>
-                                    <cell rendition="#width50"/>
-                                    <cell rendition="#width300"/>
                                 </row>
                                 <row>
                                     <cell rendition="#width300"><anchor/><anchor/>下居神社</cell>
@@ -1580,21 +1614,21 @@
                                     <cell rendition="#width300"
                                         ><anchor/>石上坐布都御魂神社<anchor/>〈<anchor/>名神<anchor/>大、月次、相嘗、新嘗、〉</cell>
                                     <cell rendition="#width50"/>
-                                    <cell rendition="#width300">都祁水分神社〈大、月次、新嘗、〉</cell>
+                                    <cell rendition="#width300"/>
                                 </row>
                                 <row>
+                                    <cell rendition="#width300">都祁水分神社〈大、月次、新嘗、〉</cell>
+                                    <cell rendition="#width50"/>
                                     <cell rendition="#width300">山辺御県坐神社〈大、月次、新嘗、〉</cell>
                                     <cell rendition="#width50"/>
                                     <cell rendition="#width300">白堤神社</cell>
-                                    <cell rendition="#width50"/>
-                                    <cell rendition="#width300"><anchor/>夜<anchor/>都伎神社</cell>
                                 </row>
                                 <row>
+                                    <cell rendition="#width300"><anchor/>夜<anchor/>都伎神社</cell>
+                                    <cell rendition="#width50"/>
                                     <cell rendition="#width300">都祁山口神社〈大、月次、新嘗、〉</cell>
                                     <cell rendition="#width50"/>
                                     <cell rendition="#width300">祝田神社</cell>
-                                    <cell rendition="#width50"/>
-                                    <cell rendition="#width300"/>
                                 </row>
                                 <row>
                                     <cell rendition="#width300"><anchor/><anchor/>石上市神社</cell>
@@ -1940,7 +1974,14 @@
                                     <cell rendition="#width50"/>
                                     <cell rendition="#width300"><anchor/>櫟<anchor/>本神社〈鍬、靫、〉</cell>
                                     <cell rendition="#width50"/>
+                                    <cell rendition="#width300"/>
+                                </row>
+                                <row>
                                     <cell rendition="#width300">田坐神社</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300"/>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300"/>
                                 </row>
                             </table>
                         </p>
@@ -2168,7 +2209,14 @@
                                     <cell rendition="#width300"
                                         ><anchor/>比売許曾神社<anchor/>〈名神大、月次、相嘗、新嘗、〉</cell>
                                     <cell rendition="#width50"/>
+                                    <cell rendition="#width300"/>
+                                </row>
+                                <row>
                                     <cell rendition="#width300">阿遅速雄神社</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300"/>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300"/>
                                 </row>
                             </table>
                         </p>
@@ -2210,34 +2258,34 @@
                                     <cell rendition="#width50"/>
                                     <cell rendition="#width300">天石門別神社</cell>
                                     <cell rendition="#width50"/>
-                                    <cell rendition="#width300">須久久神社二座〈鍬、靫、〉</cell>
+                                    <cell rendition="#width300"/>
                                 </row>
                                 <row>
-                                    <cell rendition="#width300"> 阿為神社〈鍬、靫、〉</cell>
+                                    <cell rendition="#width300">須久久神社二座〈鍬、靫、〉</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300">阿為神社〈鍬、靫、〉</cell>
                                     <cell rendition="#width50"/>
                                     <cell rendition="#width300">井於神社〈鍬、靫、〉</cell>
-                                    <cell rendition="#width50"/>
-                                    <cell rendition="#width300">走落神社〈鍬、靫、〉</cell>
                                 </row>
                                 <row>
+                                    <cell rendition="#width300">走落神社〈鍬、靫、〉</cell>
+                                    <cell rendition="#width50"/>
                                     <cell rendition="#width300">佐和良<anchor/>義<anchor/>神社</cell>
                                     <cell rendition="#width50"/>
                                     <cell rendition="#width300">幣久良神社〈鍬、靫、〉</cell>
-                                    <cell rendition="#width50"/>
-                                    <cell rendition="#width300">牟礼神社</cell>
                                 </row>
                                 <row>
+                                    <cell rendition="#width300">牟礼神社</cell>
+                                    <cell rendition="#width50"/>
                                     <cell rendition="#width300">三島鴨<anchor/>神<anchor/>社</cell>
                                     <cell rendition="#width50"/>
                                     <cell rendition="#width300"
                                         >伊射奈岐神社二座〈<anchor/>並<anchor/>大、月次、新嘗、〉</cell>
-                                    <cell rendition="#width50"/>
-                                    <cell rendition="#width300">溝咋神社〈鍬、靫、〉</cell>
                                 </row>
                                 <row>
-                                    <cell rendition="#width300"><anchor/>大<anchor/>田神社〈鍬、靫、〉</cell>
+                                    <cell rendition="#width300">溝咋神社〈鍬、靫、〉</cell>
                                     <cell rendition="#width50"/>
-                                    <cell rendition="#width300"/>
+                                    <cell rendition="#width300"><anchor/>大<anchor/>田神社〈鍬、靫、〉</cell>
                                     <cell rendition="#width50"/>
                                     <cell rendition="#width300"/>
                                 </row>
@@ -2496,113 +2544,113 @@
                                     <cell rendition="#width50"/>
                                     <cell rendition="#width300">荒祭宮〈大、月次、新嘗、〉</cell>
                                     <cell rendition="#width50"/>
-                                    <cell rendition="#width300">滝原宮〈大、月次、新嘗、〉</cell>
+                                    <cell rendition="#width300"/>
                                 </row>
                                 <row>
+                                    <cell rendition="#width300">滝原宮〈大、月次、新嘗、〉</cell>
+                                    <cell rendition="#width50"/>
                                     <cell rendition="#width300"
                                         >伊佐奈岐宮二座〈伊佐奈<anchor/>弥<anchor/>命一座、並大、月次、新嘗、〉</cell>
                                     <cell rendition="#width50"/>
+                                    <cell rendition="#width300"/>
+                                </row>
+                                <row>
                                     <cell rendition="#width300">月読宮二座〈荒御魂命一座、並大、月次、新嘗、〉</cell>
                                     <cell rendition="#width50"/>
                                     <cell rendition="#width300">度会宮四座〈相殿坐神三座、並大、月次、新嘗、〉</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300">高宮〈大、月次、新嘗、〉</cell>
                                 </row>
                                 <row>
-                                    <cell rendition="#width300">高宮〈大、月次、新嘗、〉</cell>
-                                    <cell rendition="#width50"/>
                                     <cell rendition="#width300">朝熊神社</cell>
                                     <cell rendition="#width50"/>
                                     <cell rendition="#width300"><anchor/>蚊野神社<anchor/></cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300">鴨神社</cell>
                                 </row>
                                 <row>
-                                    <cell rendition="#width300">鴨神社</cell>
-                                    <cell rendition="#width50"/>
                                     <cell rendition="#width300">狭田国<anchor/>生<anchor/>神社</cell>
                                     <cell rendition="#width50"/>
                                     <cell rendition="#width300">田乃家神社</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300"><anchor/>草名伎神社<anchor/></cell>
                                 </row>
                                 <row>
-                                    <cell rendition="#width300"><anchor/>草名伎神社<anchor/></cell>
-                                    <cell rendition="#width50"/>
                                     <cell rendition="#width300">薗相神社</cell>
                                     <cell rendition="#width50"/>
                                     <cell rendition="#width300">礒神社</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300">多<anchor/>伎<anchor/>原神社</cell>
                                 </row>
                                 <row>
-                                    <cell rendition="#width300">多<anchor/>伎<anchor/>原神社</cell>
-                                    <cell rendition="#width50"/>
                                     <cell rendition="#width300">月夜見神社</cell>
                                     <cell rendition="#width50"/>
                                     <cell rendition="#width300">湯田神社</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300">奈良波良<anchor/>神社<anchor/></cell>
                                 </row>
                                 <row>
-                                    <cell rendition="#width300">奈良波良<anchor/>神社<anchor/></cell>
-                                    <cell rendition="#width50"/>
                                     <cell rendition="#width300">大水<anchor/>神<anchor/>社</cell>
                                     <cell rendition="#width50"/>
                                     <cell rendition="#width300">津長大水神社</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300">大国玉比売神社</cell>
                                 </row>
                                 <row>
-                                    <cell rendition="#width300">大国玉比売神社</cell>
-                                    <cell rendition="#width50"/>
                                     <cell rendition="#width300">御食神社</cell>
                                     <cell rendition="#width50"/>
                                     <cell rendition="#width300">大土御祖神社</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300"><anchor/>田上大水神社<anchor/></cell>
                                 </row>
                                 <row>
-                                    <cell rendition="#width300"><anchor/>田上大水神社<anchor/></cell>
-                                    <cell rendition="#width50"/>
                                     <cell rendition="#width300">国津<anchor/>御<anchor/>神社</cell>
                                     <cell rendition="#width50"/>
                                     <cell rendition="#width300">坂手国生神社</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300">粟皇子神社</cell>
                                 </row>
                                 <row>
-                                    <cell rendition="#width300">粟皇子神社</cell>
-                                    <cell rendition="#width50"/>
                                     <cell rendition="#width300">久久都比売神社</cell>
                                     <cell rendition="#width50"/>
                                     <cell rendition="#width300">川原坐国生神社</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300"><anchor/>大間国生神社<anchor/></cell>
                                 </row>
                                 <row>
-                                    <cell rendition="#width300"><anchor/>大間国生神社<anchor/></cell>
-                                    <cell rendition="#width50"/>
                                     <cell rendition="#width300">江神社</cell>
                                     <cell rendition="#width50"/>
                                     <cell rendition="#width300">神前神社</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300">朽羅神社</cell>
                                 </row>
                                 <row>
-                                    <cell rendition="#width300">朽羅神社</cell>
-                                    <cell rendition="#width50"/>
                                     <cell rendition="#width300">榎村神社</cell>
                                     <cell rendition="#width50"/>
                                     <cell rendition="#width300">度会<anchor/>国<anchor/>御神社</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300">度会乃大国玉比売神社</cell>
                                 </row>
                                 <row>
-                                    <cell rendition="#width300">度会乃大国玉比売神社</cell>
-                                    <cell rendition="#width50"/>
                                     <cell rendition="#width300">清野井庭神社</cell>
                                     <cell rendition="#width50"/>
                                     <cell rendition="#width300">志等美神社</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300"><anchor/>川原神社<anchor/></cell>
                                 </row>
                                 <row>
-                                    <cell rendition="#width300"><anchor/>川原神社<anchor/></cell>
-                                    <cell rendition="#width50"/>
                                     <cell rendition="#width300">山末神社</cell>
                                     <cell rendition="#width50"/>
                                     <cell rendition="#width300">大川内神社</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300"><anchor/>捧<anchor/>原神社</cell>
                                 </row>
                                 <row>
-                                    <cell rendition="#width300"><anchor/>捧<anchor/>原神社</cell>
-                                    <cell rendition="#width50"/>
                                     <cell rendition="#width300">川原<anchor/>大神社<anchor/></cell>
                                     <cell rendition="#width50"/>
                                     <cell rendition="#width300">宇須乃野神社</cell>
-                                </row>
-                                <row>
+                                    <cell rendition="#width50"/>
                                     <cell rendition="#width300">小俣神社</cell>
-                                    <cell rendition="#width50"/>
-                                    <cell rendition="#width300"/>
-                                    <cell rendition="#width50"/>
-                                    <cell rendition="#width300"/>
                                 </row>
                                 <row>
                                     <cell rendition="#width300"><anchor/><anchor/>川原淵神社</cell>
@@ -2734,21 +2782,23 @@
                         </p>
                         <p ana="項"
                             corresp="engishiki_en.xml#item09101204 engishiki_ja.xml#item09101204"
-                            xml:id="item09101204"><s rendition="#indent">飯野郡四座〈並小、〉</s>
+                            xml:id="item09101204">
+                            <table rendition="#indent">
+                                <row>
+                                    <cell rendition="#width300">飯野郡四座〈並小、〉</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300"/>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300">意非多神社</cell>
+                                </row>
+                            </table>
                             <table>
                                 <row>
-                                    <cell rendition="#width300">意非多神社</cell>
-                                    <cell rendition="#width50"/>
                                     <cell rendition="#width300">神山神社</cell>
                                     <cell rendition="#width50"/>
                                     <cell rendition="#width300">石前神社</cell>
-                                </row>
-                                <row>
+                                    <cell rendition="#width50"/>
                                     <cell rendition="#width300">神<anchor/>垣<anchor/>神社</cell>
-                                    <cell rendition="#width50"/>
-                                    <cell rendition="#width300"/>
-                                    <cell rendition="#width50"/>
-                                    <cell rendition="#width300"/>
                                 </row>
                             </table>
                         </p>
@@ -2784,18 +2834,13 @@
                             xml:id="item09101206"><s rendition="#indent">壱志郡十三座〈大三座、小十座、〉</s>
                             <table>
                                 <row>
-                                    <cell rendition="#width300">波多神社</cell>
+                                    <cell rendition="#width200">波多神社</cell>
                                     <cell rendition="#width50"/>
-                                    <cell rendition="#width300">物部神社</cell>
+                                    <cell rendition="#width200">物部神社</cell>
                                     <cell rendition="#width50"/>
-                                    <cell rendition="#width300">稲葉神社二座</cell>
-                                </row>
-                                <row>
-                                    <cell rendition="#width300"><anchor/>須加神社<anchor/></cell>
+                                    <cell rendition="#width200">稲葉神社二座</cell>
                                     <cell rendition="#width50"/>
-                                    <cell rendition="#width300"/>
-                                    <cell rendition="#width50"/>
-                                    <cell rendition="#width300"/>
+                                    <cell rendition="#width200"><anchor/>須加神社<anchor/></cell>
                                 </row>
                                 <row>
                                     <cell rendition="#width300"
@@ -2810,7 +2855,14 @@
                                     <cell rendition="#width50"/>
                                     <cell rendition="#width300">川併神社</cell>
                                     <cell rendition="#width50"/>
+                                    <cell rendition="#width300"/>
+                                </row>
+                                <row>
                                     <cell rendition="#width300">敏太神社</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300"/>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300"/>
                                 </row>
                             </table>
                         </p>
@@ -3202,15 +3254,8 @@
                                 <row>
                                     <cell rendition="#width300">伊久波神社</cell>
                                     <cell rendition="#width50"/>
-                                    <cell rendition="#width300"/>
-                                    <cell rendition="#width50"/>
-                                    <cell rendition="#width300"/>
-                                </row>
-                                <row>
                                     <cell rendition="#width300"
                                         ><anchor/><anchor/>憶<anchor/>感<anchor/>神社</cell>
-                                    <cell rendition="#width50"/>
-                                    <cell rendition="#width300"/>
                                     <cell rendition="#width50"/>
                                     <cell rendition="#width300"/>
                                 </row>
@@ -4355,12 +4400,12 @@
                             xml:id="item09102001">相摸国十三座〈大一座、小十二座、〉</p>
                         <p ana="項"
                             corresp="engishiki_en.xml#item09102002 engishiki_ja.xml#item09102002"
-                            xml:id="item09102002"><s rendition="#indent">足上郡一座〈小、〉</s>
-                            <table>
+                            xml:id="item09102002">
+                            <table rendition="#indent">
                                 <row>
-                                    <cell rendition="#width300">寒田神社</cell>
+                                    <cell rendition="#width300">足上郡一座〈小、〉</cell>
                                     <cell rendition="#width50"/>
-                                    <cell rendition="#width300"/>
+                                    <cell rendition="#width300">寒田神社</cell>
                                     <cell rendition="#width50"/>
                                     <cell rendition="#width300"/>
                                 </row>
@@ -4368,12 +4413,12 @@
                         </p>
                         <p ana="項"
                             corresp="engishiki_en.xml#item09102003 engishiki_ja.xml#item09102003"
-                            xml:id="item09102003"><s rendition="#indent">余綾郡一座〈小、〉</s>
-                            <table>
+                            xml:id="item09102003">
+                            <table rendition="#indent">
                                 <row>
-                                    <cell rendition="#width300">川勾神社</cell>
+                                    <cell rendition="#width300">余綾郡一座〈小、〉</cell>
                                     <cell rendition="#width50"/>
-                                    <cell rendition="#width300"/>
+                                    <cell rendition="#width300">川勾神社</cell>
                                     <cell rendition="#width50"/>
                                     <cell rendition="#width300"/>
                                 </row>
@@ -4401,12 +4446,12 @@
                         </p>
                         <p ana="項"
                             corresp="engishiki_en.xml#item09102005 engishiki_ja.xml#item09102005"
-                            xml:id="item09102005"><s rendition="#indent">愛甲郡一座〈小、〉</s>
-                            <table>
+                            xml:id="item09102005">
+                            <table rendition="#indent">
                                 <row>
-                                    <cell rendition="#width300">小野神社</cell>
+                                    <cell rendition="#width300">愛甲郡一座〈小、〉</cell>
                                     <cell rendition="#width50"/>
-                                    <cell rendition="#width300"/>
+                                    <cell rendition="#width300">小野神社</cell>
                                     <cell rendition="#width50"/>
                                     <cell rendition="#width300"/>
                                 </row>
@@ -4455,12 +4500,12 @@
                         </p>
                         <p ana="項"
                             corresp="engishiki_en.xml#item09102103 engishiki_ja.xml#item09102103"
-                            xml:id="item09102103"><s rendition="#indent">都筑郡一座〈小、〉</s>
-                            <table>
+                            xml:id="item09102103">
+                            <table rendition="#indent">
                                 <row>
-                                    <cell rendition="#width300"><anchor/>杉<anchor/>山神社</cell>
+                                    <cell rendition="#width300">都筑郡一座〈小、〉</cell>
                                     <cell rendition="#width50"/>
-                                    <cell rendition="#width300"/>
+                                    <cell rendition="#width300"><anchor/>杉<anchor/>山神社</cell>
                                     <cell rendition="#width50"/>
                                     <cell rendition="#width300"/>
                                 </row>
@@ -4631,13 +4676,12 @@
                         </p>
                         <p ana="項"
                             corresp="engishiki_en.xml#item09102113 engishiki_ja.xml#item09102113"
-                            xml:id="item09102113"><s rendition="#indent"
-                                >児<anchor/>玉<anchor/>郡一座〈大、〉</s>
-                            <table>
+                            xml:id="item09102113">
+                            <table rendition="#indent">
                                 <row>
-                                    <cell rendition="#width300">金佐奈神社〈<anchor/>名神大<anchor/>、〉</cell>
+                                    <cell rendition="#width300">児<anchor/>玉<anchor/>郡一座〈大、〉</cell>
                                     <cell rendition="#width50"/>
-                                    <cell rendition="#width300"/>
+                                    <cell rendition="#width300">金佐奈神社〈<anchor/>名神大<anchor/>、〉</cell>
                                     <cell rendition="#width50"/>
                                     <cell rendition="#width300"/>
                                 </row>
@@ -4645,13 +4689,12 @@
                         </p>
                         <p ana="項"
                             corresp="engishiki_en.xml#item09102114 engishiki_ja.xml#item09102114"
-                            xml:id="item09102114"><s rendition="#indent"
-                                >大里郡一座〈<anchor/>小<anchor/>、〉</s>
-                            <table>
+                            xml:id="item09102114">
+                            <table rendition="#indent">
                                 <row>
-                                    <cell rendition="#width300">高城神社</cell>
+                                    <cell rendition="#width300">大里郡一座〈<anchor/>小<anchor/>、〉</cell>
                                     <cell rendition="#width50"/>
-                                    <cell rendition="#width300"/>
+                                    <cell rendition="#width300">高城神社</cell>
                                     <cell rendition="#width50"/>
                                     <cell rendition="#width300"/>
                                 </row>
@@ -4659,12 +4702,12 @@
                         </p>
                         <p ana="項"
                             corresp="engishiki_en.xml#item09102115 engishiki_ja.xml#item09102115"
-                            xml:id="item09102115"><s rendition="#indent">比企郡一座〈小、〉</s>
-                            <table>
+                            xml:id="item09102115">
+                            <table rendition="#indent">
                                 <row>
-                                    <cell rendition="#width300">伊<anchor/>古<anchor/>乃速御玉比売神社</cell>
+                                    <cell rendition="#width300">比企郡一座〈小、〉</cell>
                                     <cell rendition="#width50"/>
-                                    <cell rendition="#width300"/>
+                                    <cell rendition="#width300">伊<anchor/>古<anchor/>乃速御玉比売神社</cell>
                                     <cell rendition="#width50"/>
                                     <cell rendition="#width300"/>
                                 </row>
@@ -4672,12 +4715,12 @@
                         </p>
                         <p ana="項"
                             corresp="engishiki_en.xml#item09102116 engishiki_ja.xml#item09102116"
-                            xml:id="item09102116"><s rendition="#indent">那珂郡一座〈小、〉</s>
-                            <table>
+                            xml:id="item09102116">
+                            <table rendition="#indent">
                                 <row>
-                                    <cell rendition="#width300">𤭖𦼆神社</cell>
+                                    <cell rendition="#width300">那珂郡一座〈小、〉</cell>
                                     <cell rendition="#width50"/>
-                                    <cell rendition="#width300"/>
+                                    <cell rendition="#width300">𤭖𦼆神社</cell>
                                     <cell rendition="#width50"/>
                                     <cell rendition="#width300"/>
                                 </row>
@@ -4736,12 +4779,12 @@
                             xml:id="item09102301">上総国五座〈大一座、小四座、〉</p>
                         <p ana="項"
                             corresp="engishiki_en.xml#item09102302 engishiki_ja.xml#item09102302"
-                            xml:id="item09102302"><s rendition="#indent">埴生郡一座〈大、〉</s>
-                            <table>
+                            xml:id="item09102302">
+                            <table rendition="#indent">
                                 <row>
-                                    <cell rendition="#width300">玉前神社〈名神大、〉</cell>
+                                    <cell rendition="#width300">埴生郡一座〈大、〉</cell>
                                     <cell rendition="#width50"/>
-                                    <cell rendition="#width300"/>
+                                    <cell rendition="#width300">玉前神社〈名神大、〉</cell>
                                     <cell rendition="#width50"/>
                                     <cell rendition="#width300"/>
                                 </row>
@@ -4749,12 +4792,12 @@
                         </p>
                         <p ana="項"
                             corresp="engishiki_en.xml#item09102303 engishiki_ja.xml#item09102303"
-                            xml:id="item09102303"><s rendition="#indent">長柄郡一座〈小、〉</s>
-                            <table>
+                            xml:id="item09102303">
+                            <table rendition="#indent">
                                 <row>
-                                    <cell rendition="#width300">橘神社</cell>
+                                    <cell rendition="#width300">長柄郡一座〈小、〉</cell>
                                     <cell rendition="#width50"/>
-                                    <cell rendition="#width300"/>
+                                    <cell rendition="#width300">橘神社</cell>
                                     <cell rendition="#width50"/>
                                     <cell rendition="#width300"/>
                                 </row>
@@ -4775,13 +4818,12 @@
                         </p>
                         <p ana="項"
                             corresp="engishiki_en.xml#item09102305 engishiki_ja.xml#item09102305"
-                            xml:id="item09102305"><s rendition="#indent"
-                                >望<anchor/>陀<anchor/>郡一座〈小、〉</s>
-                            <table>
+                            xml:id="item09102305">
+                            <table rendition="#indent">
                                 <row>
-                                    <cell rendition="#width300">飫富神社</cell>
+                                    <cell rendition="#width300">望<anchor/>陀<anchor/>郡一座〈小、〉</cell>
                                     <cell rendition="#width50"/>
-                                    <cell rendition="#width300"/>
+                                    <cell rendition="#width300">飫富神社</cell>
                                     <cell rendition="#width50"/>
                                     <cell rendition="#width300"/>
                                 </row>
@@ -4797,12 +4839,12 @@
                             xml:id="item09102401">下総国十一座〈大一座、小十座、〉</p>
                         <p ana="項"
                             corresp="engishiki_en.xml#item09102402 engishiki_ja.xml#item09102402"
-                            xml:id="item09102402"><s rendition="#indent">香取郡一座〈大、〉</s>
-                            <table>
+                            xml:id="item09102402">
+                            <table rendition="#indent">
                                 <row>
-                                    <cell rendition="#width300">香取神宮〈名神大、月次、新嘗、〉</cell>
+                                    <cell rendition="#width300">香取郡一座〈大、〉</cell>
                                     <cell rendition="#width50"/>
-                                    <cell rendition="#width300"/>
+                                    <cell rendition="#width300">香取神宮〈名神大、月次、新嘗、〉</cell>
                                     <cell rendition="#width50"/>
                                     <cell rendition="#width300"/>
                                 </row>
@@ -4824,12 +4866,12 @@
                         </p>
                         <p ana="項"
                             corresp="engishiki_en.xml#item09102404 engishiki_ja.xml#item09102404"
-                            xml:id="item09102404"><s rendition="#indent">匝瑳郡一座〈小、〉</s>
-                            <table>
+                            xml:id="item09102404">
+                            <table rendition="#indent">
                                 <row>
-                                    <cell rendition="#width300">老尾神社</cell>
+                                    <cell rendition="#width300">匝瑳郡一座〈小、〉</cell>
                                     <cell rendition="#width50"/>
-                                    <cell rendition="#width300"/>
+                                    <cell rendition="#width300">老尾神社</cell>
                                     <cell rendition="#width50"/>
                                     <cell rendition="#width300"/>
                                 </row>
@@ -4837,13 +4879,13 @@
                         </p>
                         <p ana="項"
                             corresp="engishiki_en.xml#item09102405 engishiki_ja.xml#item09102405"
-                            xml:id="item09102405"><s rendition="#indent"
-                                ><anchor/>印播<anchor/>郡一座〈小、〉</s>
-                            <table>
+                            xml:id="item09102405"><s
+                                ></s>
+                            <table rendition="#indent">
                                 <row>
-                                    <cell rendition="#width300">麻賀多神社</cell>
+                                    <cell rendition="#width300"><anchor/>印播<anchor/>郡一座〈小、〉</cell>
                                     <cell rendition="#width50"/>
-                                    <cell rendition="#width300"/>
+                                    <cell rendition="#width300">麻賀多神社</cell>
                                     <cell rendition="#width50"/>
                                     <cell rendition="#width300"/>
                                 </row>
@@ -4864,13 +4906,12 @@
                         </p>
                         <p ana="項"
                             corresp="engishiki_en.xml#item09102407 engishiki_ja.xml#item09102407"
-                            xml:id="item09102407"><s rendition="#indent"
-                                ><anchor/>岡田郡<anchor/>一座〈小、〉</s>
-                            <table>
+                            xml:id="item09102407">
+                            <table rendition="#indent">
                                 <row>
-                                    <cell rendition="#width300">桑原神社</cell>
+                                    <cell rendition="#width300"><anchor/>岡田郡<anchor/>一座〈小、〉</cell>
                                     <cell rendition="#width50"/>
-                                    <cell rendition="#width300"/>
+                                    <cell rendition="#width300">桑原神社</cell>
                                     <cell rendition="#width50"/>
                                     <cell rendition="#width300"/>
                                 </row>
@@ -4891,13 +4932,13 @@
                         </p>
                         <p ana="項"
                             corresp="engishiki_en.xml#item09102409 engishiki_ja.xml#item09102409"
-                            xml:id="item09102409"><s rendition="#indent"
-                                >相馬郡一座〈<anchor/>小<anchor/>、〉</s>
-                            <table>
+                            xml:id="item09102409"><s
+                                ></s>
+                            <table rendition="#indent">
                                 <row>
-                                    <cell rendition="#width300">蛟<anchor/>𧍑<anchor/>神社</cell>
+                                    <cell rendition="#width300">相馬郡一座〈<anchor/>小<anchor/>、〉</cell>
                                     <cell rendition="#width50"/>
-                                    <cell rendition="#width300"/>
+                                    <cell rendition="#width300">蛟<anchor/>𧍑<anchor/>神社</cell>
                                     <cell rendition="#width50"/>
                                     <cell rendition="#width300"/>
                                 </row>
@@ -4928,12 +4969,12 @@
                         </p>
                         <p ana="項"
                             corresp="engishiki_en.xml#item09102503 engishiki_ja.xml#item09102503"
-                            xml:id="item09102503"><s rendition="#indent">真壁郡一座〈小、〉</s>
-                            <table>
+                            xml:id="item09102503">
+                            <table rendition="#indent">
                                 <row>
-                                    <cell rendition="#width300">大国玉神社</cell>
+                                    <cell rendition="#width300">真壁郡一座〈小、〉</cell>
                                     <cell rendition="#width50"/>
-                                    <cell rendition="#width300"/>
+                                    <cell rendition="#width300">大国玉神社</cell>
                                     <cell rendition="#width50"/>
                                     <cell rendition="#width300"/>
                                 </row>
@@ -4982,13 +5023,13 @@
                         </p>
                         <p ana="項"
                             corresp="engishiki_en.xml#item09102506 engishiki_ja.xml#item09102506"
-                            xml:id="item09102506"><s rendition="#indent">筑波郡二座〈大一座、小一座、〉</s>
-                            <table>
+                            xml:id="item09102506">
+                            <table rendition="#indent">
                                 <row>
                                     <cell rendition="#width300"
-                                        >筑波山神社二座〈一名神大、一<anchor/>小<anchor/>、〉</cell>
+                                        >筑波郡二座〈大一座、小一座、〉</cell>
                                     <cell rendition="#width50"/>
-                                    <cell rendition="#width300"/>
+                                    <cell rendition="#width300">筑波山神社二座〈一名神大、一<anchor/>小<anchor/>、〉</cell>
                                     <cell rendition="#width50"/>
                                     <cell rendition="#width300"/>
                                 </row>
@@ -5011,12 +5052,12 @@
                                     <cell rendition="#width300"
                                         >酒烈礒前薬<anchor/>師<anchor/>菩薩神社〈名神大、〉</cell>
                                     <cell rendition="#width50"/>
-                                    <cell rendition="#width300">藤内神社</cell>
+                                    <cell rendition="#width300"></cell>
                                 </row>
                                 <row>
-                                    <cell rendition="#width300">石船神社</cell>
+                                    <cell rendition="#width300">藤内神社</cell>
                                     <cell rendition="#width50"/>
-                                    <cell rendition="#width300"/>
+                                    <cell rendition="#width300">石船神社</cell>
                                     <cell rendition="#width50"/>
                                     <cell rendition="#width300"/>
                                 </row>
@@ -5051,12 +5092,12 @@
                         </p>
                         <p ana="項"
                             corresp="engishiki_en.xml#item09102510 engishiki_ja.xml#item09102510"
-                            xml:id="item09102510"><s rendition="#indent">多珂郡一座〈小、〉</s>
-                            <table>
+                            xml:id="item09102510">
+                            <table rendition="#indent">
                                 <row>
-                                    <cell rendition="#width300">佐波波地<anchor/>祇<anchor/>社</cell>
+                                    <cell rendition="#width300">多珂郡一座〈小、〉</cell>
                                     <cell rendition="#width50"/>
-                                    <cell rendition="#width300"/>
+                                    <cell rendition="#width300">佐波波地<anchor/>祇<anchor/>社</cell>
                                     <cell rendition="#width50"/>
                                     <cell rendition="#width300"/>
                                 </row>
@@ -5077,7 +5118,8 @@
                                     <lb/>左大臣正二位兼行左近衛大将皇太子傅<anchor/>臣<anchor/>藤<anchor/>原<anchor/><anchor/>朝臣<anchor/>忠平<anchor/>
                                 </cell>
                             </row>
-                        </table></p>
+                        </table>
+                    </p>
                 </div>
             </div>
         </body>
