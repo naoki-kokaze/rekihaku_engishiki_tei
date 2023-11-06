@@ -148,139 +148,67 @@
                 <rendition xml:id="width300">width: 300px;</rendition>
             </tagsDecl>
             <editorialDecl>
-                <p>校訂文全体凡例<table>
+                <p>現代語訳凡例<table>
                         <row>
                             <cell>・</cell>
-                            <cell>原則として土本（以下、略称は「主要写本・版本・刊本等略称・底本一覧」参照）を底本とし、九本・剛本・条本・花本等の古写本や近本・壬本・京博本等の写本によって対校しました（巻によって使用した対校本は異なります）。</cell>
+                            <cell>校訂文に基づいて現代語訳を作成しました。条文番号・条文名称および項番号等は校訂文に従っています。原文の細字・割書を〈　〉で括って示すことも校訂文と同様です。</cell>
                         </row>
                         <row>
                             <cell>・</cell>
-                            <cell>条文番号・条文名称は原則として訳注本に拠りましたが、一部を修正しています（※下記「条文名称修正一覧」参照）。なお1条が長い場合など、必要に応じ「項」に分割して示すこととしました。</cell>
+                            <cell>各条条文番号・条文名にポインターを当てると、条文内容の把握の一助として条文概要がポップアップ表示されます。</cell>
                         </row>
                         <row>
                             <cell>・</cell>
-                            <cell>校異は原則として底本の文字を改変する場合、あるいは写本間に参考とすべき異同がある場合、参考とすべき傍書等がある場合に付すこととしました。必ずしもその校異に関する写本をすべて網羅することはせず、主要写本のみを取り上げています。ただし訳注本と校訂文に異同が生じた場合には、できる限り校異にて言及するよう心がけました（単なる字体の相違については省略しています）。</cell>
+                            <cell>本文のみで簡便に読み進めていける訳文を目指しました。訳出が困難な語句は原文（校訂文）のまま表示して適宜ルビを付し、補足的な説明を加えましたが、意訳で対応した場合もあります。</cell>
                         </row>
                         <row>
                             <cell>・</cell>
-                            <cell>校訂文は『延喜式』撰上当初の姿の復元を目標としています。標注や傍書は、条文名称に関わるものは省略し、中世以前にさかのぼることが想定されるものに限って、校異注で言及することとしました。ただし標注のうち「弘」「貞」「延」等については便宜を考え、鉤括弧で括って校訂本文に掲げることとしました。</cell>
+                            <cell>校訂文の標注は現代文では省略しています。</cell>
                         </row>
                         <row>
                             <cell>・</cell>
-                            <cell>字体は常用漢字体を原則としました。「大」と「太」、「座」と「坐」、「絇」と「約」、「績」と「續（続）」、「色」と「包」、「細」と「紬」、「鈍」と「純」、「冑」と「胃」、「絁」と「絶」、草冠と竹冠、木偏と手偏等、容易に判定される誤字や誤用・通用については、校異を省略して適宜置き換える場合があります。ただし巻9・10においては「大」「太」の差異も校異にて触れることとしました。</cell>
+                            <cell>度量衡はそのまま表記しています。</cell>
                         </row>
+                    </table>
+                    <table rendition="#indent1">
                         <row>
-                            <cell>・</cell>
-                            <cell>校訂文中の細字・割書は、〈　〉で括って表現することとしました。</cell>
-                        </row>
-                        <row>
-                            <cell>・</cell>
-                            <cell>本文に誤字・脱字等が想定される場合であっても、置き換えるべき文字や補うべき文字が明確でない場合は、校異注での言及にとどめた場合があります。</cell>
-                        </row>
-                        <row>
-                            <cell>・</cell>
-                            <cell>ユニコードにて表示されない漢字は以下のように示すことにしました。</cell>
+                            <cell rendition="#width100">（参考）</cell>
+                            <cell>『延喜式』の度量衡（訳注本掲載の正倉院伝来容器計測結果等に基づく）</cell>
                         </row>
                     </table>
                     <table rendition="#indent2">
                         <row>
-                            <cell rendition="#width100">【Ａ+Ｂ】</cell>
-                            <cell rendition="#width300">＝扁がＡ、つくりがＢ</cell>
-                            <cell rendition="#width300">例）村【木+寸】</cell>
+                            <cell rendition="#width100">長さ</cell>
+                            <cell>1尺＝約29.7㎝　（1丈＝10尺、1尺＝10寸）</cell>
                         </row>
                         <row>
-                            <cell rendition="#width100">【Ａ/Ｂ】</cell>
-                            <cell rendition="#width300">＝上にＡ、下にＢ</cell>
-                            <cell rendition="#width300">例）雲【雨/云】</cell>
+                            <cell rendition="#width100">距離</cell>
+                            <cell>1里＝300歩＝約534ｍ　（1歩＝6尺）</cell>
                         </row>
                         <row>
-                            <cell rendition="#width100">【Ａ-Ｂ】</cell>
-                            <cell rendition="#width300">＝Ａの字画よりＢにあたる字画を除く</cell>
-                            <cell rendition="#width300">例）門【閉-オ】</cell>
+                            <cell rendition="#width100">面積</cell>
+                            <cell>1町＝約1.2ha　（1町＝10段、1段＝360歩）</cell>
                         </row>
                         <row>
-                            <cell rendition="#width100">【Ａ⊃Ｂ】</cell>
-                            <cell rendition="#width300">＝Ａの字画のなかにＢの字画が含まれる</cell>
-                            <cell rendition="#width300">例）閉【門⊃オ】、国【囗⊃玉】</cell>
+                            <cell rendition="#width100">容積</cell>
+                            <cell>1升＝約800mℓ＝約0.8ℓ　（1斛＝10斗＝100升、1升＝10合＝100夕（勺））</cell>
+                        </row>
+                        <row>
+                            <cell rendition="#width100">重さ</cell>
+                            <cell>大1斤＝約674グラム　（1斤＝16両、1両＝4分、1分＝6銖）</cell>
+                        </row>
+                        <row>
+                            <cell rendition="#width100"/>
+                            <cell>大1斤＝小3斤</cell>
+                        </row>
+                        <row>
+                            <cell rendition="#width100">ほか</cell>
+                            <cell>稲1束＝10把＝100分＝1000毛＝10000厘 <lb/>調綿1屯＝大4両 <lb/>細屯綿1屯＝大3両1分2銖＝小10両
+                                <lb/>庸綿1屯＝大5両2分＝小1斤2分 <lb/>糸1絇＝上糸大4両、中糸大5両、麁糸大7両 <lb/>鉄1廷＝大3斤5両
+                                <lb/>銭1貫＝1000文</cell>
                         </row>
                     </table>
-                    <table>
-                        <row>
-                            <cell>・</cell>
-                            <cell>校異註の付く文字は赤字で表示され、クリックすると註が表示されます。表示内容は以下の通りです。</cell>
-                        </row>
-                    </table>
-                    <table rendition="#indent2">
-                        <row>
-                            <cell rendition="#width100">採用</cell>
-                            <cell>写本名と校訂文にて採用した文字</cell>
-                        </row>
-                        <row>
-                            <cell rendition="#width100">校異</cell>
-                            <cell>写本名と対校箇所の文字</cell>
-                        </row>
-                        <row>
-                            <cell rendition="#width100">解説</cell>
-                            <cell>各写本の傍書や頭書等の提示、校異註の本文（最下部の解説）</cell>
-                        </row>
-                    </table>
-                    <table>
-                        <row>
-                            <cell>・</cell>
-                            <cell>条文名称修正一覧</cell>
-                        </row>
-                    </table>
-                    <table rendition="#indent2">
-                        <row>
-                            <cell rendition="#width100">巻番号</cell>
-                            <cell rendition="#width100">旧番号</cell>
-                            <cell rendition="#width100">旧条文名</cell>
-                            <cell rendition="#width50">番号</cell>
-                            <cell rendition="#width100">訂正条文名</cell>
-                        </row>
-                        <row>
-                            <cell rendition="#width100">111太政官</cell>
-                            <cell rendition="#width100">67</cell>
-                            <cell rendition="#width100">薗韓神祭</cell>
-                            <cell rendition="#width50">67</cell>
-                            <cell rendition="#width100">園韓神祭</cell>
-                        </row>
-                        <row>
-                            <cell rendition="#width100">111太政官</cell>
-                            <cell rendition="#width100">112</cell>
-                            <cell rendition="#width100">行幸経宿</cell>
-                            <cell rendition="#width50">112</cell>
-                            <cell rendition="#width100">行幸経旬</cell>
-                        </row>
-                        <row>
-                            <cell rendition="#width100">171内匠</cell>
-                            <cell rendition="#width100">39</cell>
-                            <cell rendition="#width100">作物衣服</cell>
-                            <cell rendition="#width50">39</cell>
-                            <cell rendition="#width100">作物衣</cell>
-                        </row>
-                        <row>
-                            <cell rendition="#width100">293囚獄</cell>
-                            <cell rendition="#width100">2</cell>
-                            <cell rendition="#width100">著鈦盤枷</cell>
-                            <cell rendition="#width50">2</cell>
-                            <cell rendition="#width100">着鈦盤枷</cell>
-                        </row>
-                        <row>
-                            <cell rendition="#width100">321大膳上</cell>
-                            <cell rendition="#width100">5</cell>
-                            <cell rendition="#width100">新嘗祭</cell>
-                            <cell rendition="#width50">5･6</cell>
-                            <cell rendition="#width100">新嘗祭と新嘗小斎解斎に分割</cell>
-                        </row>
-                        <row>
-                            <cell rendition="#width100">411弾正</cell>
-                            <cell rendition="#width100">68</cell>
-                            <cell rendition="#width100">支子染深色</cell>
-                            <cell rendition="#width50">68</cell>
-                            <cell rendition="#width100">支子染色</cell>
-                        </row>
-                    </table></p>
+                </p>
                 <p ana="個別"/>
             </editorialDecl>
         </encodingDesc>
@@ -292,108 +220,1434 @@
         <body>
             <div ana="神名上" n="9" subtype="式" type="巻" xml:id="volume9">
                 <div type="首題" xml:id="shudai09">
-                    <p xml:id="shudai0901">首題</p>
+                    <p xml:id="shudai0901">延喜式巻第九〈神祇九〉</p>
                 </div>
                 <div ana="神名上" corresp="engishiki.xml#protocol091 engishiki_en.xml#protocol091"
                     n="9" subtype="条" type="式" xml:id="protocol091">
                     <div type="式題" xml:id="shikidai091">
-                        <p xml:id="shikidai09101">式題</p>
+                        <p xml:id="shikidai09101">神名上〈宮中 京中 五畿内 東海道〉</p>
                     </div>
                     <div ana="神名上"
                         corresp="engishiki.xml#article091001 engishiki_en.xml#article091001" n="9.1"
                         subtype="項" type="条" xml:id="article091001">
                         <head ana="天神地祇"/>
-                        <note type="summary">条文概要</note>
+                        <note type="summary">全国官社数の内訳</note>
                         <p ana="項"
                             corresp="engishiki.xml#item09100101 engishiki_en.xml#item09100101"
-                            xml:id="item09100101">本文</p>
+                            xml:id="item09100101">天神地祇総計三千一百三十二座 <lb/><s rendition="#indent"
+                                >社二千八百六十一処</s>
+                            <lb/><s rendition="#indent"><ruby>
+                                    <rb>前</rb>
+                                    <rt place="right">まえ</rt>
+                                </ruby>二百七十一座</s>
+                            <lb/>大四百九十二座 <lb/><s rendition="#indent"
+                                >三百四座〈みな祈年・月次・新嘗等の祭において神祇官にて案の上に幣帛が置かれて捧げられる。このうち七十一座は相嘗祭の対象でもある。〉</s>
+                            <lb/><s rendition="#indent">一百八十八座〈みな祈年祭において国司から幣帛が捧げられる。〉</s>
+                            <lb/>小二千六百四十座 <lb/><s rendition="#indent"
+                                >四百三十三座〈みな祈年祭において神祇官にて案が用いられずに幣帛が置かれて捧げられる。〉</s>
+                            <lb/><s rendition="#indent">二千二百七座〈みな祈年祭において国司から幣帛が捧げられる。〉</s>
+                        </p>
                     </div>
                     <div ana="神名上"
                         corresp="engishiki.xml#article091002 engishiki_en.xml#article091002" n="9.2"
                         subtype="項" type="条" xml:id="article091002">
                         <head ana="宮中"/>
-                        <note type="summary">条文概要</note>
+                        <note type="summary">宮中の官社</note>
                         <p ana="項"
                             corresp="engishiki.xml#item09100201 engishiki_en.xml#item09100201"
-                            xml:id="item09100201">本文</p>
+                            xml:id="item09100201">宮中神三十六座 <lb/>神祇官西院に鎮座する<ruby>
+                                <rb>御巫</rb>
+                                <rt place="right">みかんなぎ</rt>
+                            </ruby>らが祭る神二十三座〈みな大。月次祭と新嘗祭の班幣対象でもある。〉 <lb/><s rendition="#indent"
+                                >御巫が祭る神八座〈みな大。月次祭と新嘗祭の班幣対象でもある。中宮・東宮の御巫が祭る神も同じく班幣の対象となる。〉</s>
+                            <table>
+                                <row>
+                                    <cell rendition="#width300"><ruby>
+                                            <rb>神産日</rb>
+                                            <rt place="right">かみむすひ</rt>
+                                        </ruby>神</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300"><ruby>
+                                            <rb>高御産日</rb>
+                                            <rt place="right">たかみむすひ</rt>
+                                        </ruby>神</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300"><ruby>
+                                            <rb>玉積産日</rb>
+                                            <rt place="right">たまるむすひ</rt>
+                                        </ruby>神</cell>
+                                </row>
+                                <row>
+                                    <cell rendition="#width300"><ruby>
+                                            <rb>生産日</rb>
+                                            <rt place="right">いくむすひ</rt>
+                                        </ruby>神</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300"><ruby>
+                                            <rb>足産日</rb>
+                                            <rt place="right">たるむすひ</rt>
+                                        </ruby>神</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300"><ruby>
+                                            <rb>大宮売</rb>
+                                            <rt place="right">おおみやのめ</rt>
+                                        </ruby>神</cell>
+                                </row>
+                                <row>
+                                    <cell rendition="#width300"><ruby>
+                                            <rb>御食津</rb>
+                                            <rt place="right">みけつ</rt>
+                                        </ruby>神</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300"><ruby>
+                                            <rb>事代主</rb>
+                                            <rt place="right">ことしろぬし</rt>
+                                        </ruby>神</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300"/>
+                                </row>
+                            </table>
+                            <lb/><s rendition="#indent"><ruby>
+                                    <rb>座摩</rb>
+                                    <rt place="right">いかすり</rt>
+                                </ruby>の<ruby>
+                                    <rb>巫</rb>
+                                    <rt place="right">みかんなぎ</rt>
+                                </ruby>が祭る神五座〈みな大。月次祭と新嘗祭の班幣対象でもある。〉</s>
+                            <table>
+                                <row>
+                                    <cell rendition="#width300"><ruby>
+                                            <rb>生井</rb>
+                                            <rt place="right">いくい</rt>
+                                        </ruby>神</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300"><ruby>
+                                            <rb>福井</rb>
+                                            <rt place="right">さくい</rt>
+                                        </ruby>神</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300"><ruby>
+                                            <rb>綱長井</rb>
+                                            <rt place="right">つながい</rt>
+                                        </ruby>神</cell>
+                                </row>
+                                <row>
+                                    <cell rendition="#width300"><ruby>
+                                            <rb>波比祇</rb>
+                                            <rt place="right">はひき</rt>
+                                        </ruby>神</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300"><ruby>
+                                            <rb>阿須波</rb>
+                                            <rt place="right">あすは</rt>
+                                        </ruby>神</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300"/>
+                                </row>
+                            </table>
+                            <lb/><s rendition="#indent"><ruby>
+                                    <rb>御門</rb>
+                                    <rt place="right">みかど</rt>
+                                </ruby>の巫が祭る神八座〈みな大。月次祭と新嘗祭の班幣対象でもある。〉</s>
+                            <table>
+                                <row>
+                                    <cell rendition="#width300"><ruby>
+                                            <rb>櫛石窓</rb>
+                                            <rt place="right">くしいわまど</rt>
+                                        </ruby>神〈四面門各一座。〉</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300"><ruby>
+                                            <rb>豊石窓</rb>
+                                            <rt place="right">とよいわまど</rt>
+                                        </ruby>神〈四面門各一座。〉</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300"/>
+                                </row>
+                            </table>
+                            <lb/><s rendition="#indent"><ruby>
+                                    <rb>生島</rb>
+                                    <rt place="right">いくしま</rt>
+                                </ruby>の巫が祭る神二座〈ともに大。月次祭と新嘗祭の班幣対象でもある。〉</s>
+                            <table>
+                                <row>
+                                    <cell rendition="#width300">生島神</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300"><ruby>
+                                            <rb>足島</rb>
+                                            <rt place="right">たるしま</rt>
+                                        </ruby>神</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300"/>
+                                </row>
+                            </table>
+                            <lb/><ruby>
+                                <rb>宮内省</rb>
+                                <rt>くないしょう</rt>
+                            </ruby>に鎮座する神三座〈みな名神・大。月次祭と新嘗祭の班幣対象でもある。〉 <table>
+                                <row>
+                                    <cell rendition="#width300"><ruby>
+                                            <rb>園</rb>
+                                            <rt place="right">その</rt>
+                                        </ruby>神の社</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300"><ruby>
+                                            <rb>韓</rb>
+                                            <rt place="right">から</rt>
+                                        </ruby>神の社二座</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300"/>
+                                </row>
+                            </table>
+                            <lb/><ruby>
+                                <rb>大膳職</rb>
+                                <rt place="right">だいぜんしき</rt>
+                            </ruby>に鎮座する神三座〈みな小。〉 <table>
+                                <row>
+                                    <cell rendition="#width300">御食津神の社</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300"><ruby>
+                                            <rb>火雷</rb>
+                                            <rt place="right">ほのいかずち</rt>
+                                        </ruby>神の社</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300"><ruby>
+                                            <rb>高倍</rb>
+                                            <rt place="right">たかべ</rt>
+                                        </ruby>神の社</cell>
+                                </row>
+                            </table>
+                            <lb/>造酒（さけ）司に鎮座する神六座〈大四座。小二座。〉 <lb/>大宮売神の社四座〈みな大。月次祭と新嘗祭の班幣対象でもある。〉 <table>
+                                <row>
+                                    <cell rendition="#width300"><ruby>
+                                            <rb>酒殿</rb>
+                                            <rt place="right">さかとの</rt>
+                                        </ruby>神の社二座〈小。〉</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300"><ruby>
+                                            <rb>酒弥豆男</rb>
+                                            <rt place="right">さかみずのお</rt>
+                                        </ruby>神。<ruby>
+                                            <rb>酒弥豆女</rb>
+                                            <rt place="right">さかみずのめ</rt>
+                                        </ruby>神。</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300"/>
+                                </row>
+                            </table>
+                            <table>
+                                <row>
+                                    <cell rendition="#width300">主水（もいとり）司に鎮座する神一座〈小。〉</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300"><ruby>
+                                            <rb>鳴雷</rb>
+                                            <rt place="right">なるいかずち</rt>
+                                        </ruby>神の社</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300"/>
+                                </row>
+                            </table>
+                        </p>
                     </div>
                     <div ana="神名上"
                         corresp="engishiki.xml#article091003 engishiki_en.xml#article091003" n="9.3"
                         subtype="項" type="条" xml:id="article091003">
                         <head ana="京中"/>
-                        <note type="summary">条文概要</note>
+                        <note type="summary">京中の官社</note>
                         <p ana="項"
                             corresp="engishiki.xml#item09100301 engishiki_en.xml#item09100301"
-                            xml:id="item09100301">本文</p>
+                            xml:id="item09100301">京中に鎮座する神三座〈みな大。〉 <lb/><s rendition="#indent"
+                                >左京二条に鎮座する神の社二座〈月次祭と相嘗祭・新嘗祭の対象でもある。〉</s>
+                            <table>
+                                <row>
+                                    <cell rendition="#width300"><ruby>
+                                            <rb>太詔戸命</rb>
+                                            <rt place="right">ふとのりとのみこと</rt>
+                                        </ruby>神</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300"><ruby>
+                                            <rb>久慈真智命</rb>
+                                            <rt place="right">くしまちのみこと</rt>
+                                        </ruby>神</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300"/>
+                                </row>
+                            </table>
+                            <table rendition="#indent">
+                                <row>
+                                    <cell rendition="#width300"
+                                        >同京四条に鎮座する神一座〈月次祭と新嘗祭の班幣対象でもある。〉</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300"><ruby>
+                                            <rb>隼</rb>
+                                            <rt place="right">はやぶさ</rt>
+                                        </ruby>神の社</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300"/>
+                                </row>
+                            </table>
+                        </p>
                     </div>
                     <div ana="神名上"
                         corresp="engishiki.xml#article091004 engishiki_en.xml#article091004" n="9.4"
                         subtype="項" type="条" xml:id="article091004">
                         <head ana="畿内"/>
-                        <note type="summary">条文概要</note>
+                        <note type="summary">畿内の官社数</note>
                         <p ana="項"
                             corresp="engishiki.xml#item09100401 engishiki_en.xml#item09100401"
-                            xml:id="item09100401">本文</p>
+                            xml:id="item09100401">畿内神六百五十八座〈大二百三十一座。小四百二十七座。〉</p>
                     </div>
                     <div ana="神名上"
                         corresp="engishiki.xml#article091005 engishiki_en.xml#article091005" n="9.5"
                         subtype="項" type="条" xml:id="article091005">
                         <head ana="山城国"/>
-                        <note type="summary">条文概要</note>
+                        <note type="summary">山城国の官社</note>
                         <p ana="項"
                             corresp="engishiki.xml#item09100501 engishiki_en.xml#item09100501"
-                            xml:id="item09100501">本文</p>
+                            xml:id="item09100501">山城国一百二十二座 <lb/><s rendition="#indent"
+                                >大五十三座〈みな月次祭と新嘗祭の対象でもある。このうち十一座は相嘗祭の対象。〉　小六十九座〈みな官幣。〉</s>
+                        </p>
                         <p ana="項"
                             corresp="engishiki.xml#item09100502 engishiki_en.xml#item09100502"
-                            xml:id="item09100502">本文</p>
+                            xml:id="item09100502"><s rendition="#indent"><ruby>
+                                    <rb>乙訓郡</rb>
+                                    <rt place="right">おとくにぐん</rt>
+                                </ruby>十九座〈大五座。小十四座。〉</s>
+                            <table>
+                                <row>
+                                    <cell rendition="#width300"><ruby>
+                                            <rb>羽束師</rb>
+                                            <rt place="right">はつかし</rt>
+                                        </ruby>に鎮座する<ruby>
+                                            <rb>高御産日</rb>
+                                            <rt place="right">たかみむすひ</rt>
+                                        </ruby>神の社〈大。月次祭と新嘗祭の班幣対象でもある。〉</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300"><ruby>
+                                            <rb>与杼</rb>
+                                            <rt place="right">よど</rt>
+                                        </ruby>神の社</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300"/>
+                                </row>
+                                <row>
+                                    <cell rendition="#width300"><ruby>
+                                            <rb>大井</rb>
+                                            <rt place="right">おおい</rt>
+                                        </ruby>神の社</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300">乙訓に鎮座する<ruby>
+                                            <rb>火雷</rb>
+                                            <rt place="right">ほのいかずち</rt>
+                                        </ruby>神の社〈名神・大。月次祭と新嘗祭の班幣対象でもある。〉</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300"><ruby>
+                                            <rb>石作</rb>
+                                            <rt place="right">いしつくり</rt>
+                                        </ruby>神の社</cell>
+                                </row>
+                                <row>
+                                    <cell rendition="#width300"><ruby>
+                                            <rb>走田</rb>
+                                            <rt place="right">はしりた</rt>
+                                        </ruby>神の社</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300"><ruby>
+                                            <rb>御谷</rb>
+                                            <rt place="right">みたに</rt>
+                                        </ruby>神の社</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300"><ruby>
+                                            <rb>国中</rb>
+                                            <rt place="right">くになか</rt>
+                                        </ruby>神の社</cell>
+                                </row>
+                                <row>
+                                    <cell rendition="#width300"><ruby>
+                                            <rb>向</rb>
+                                            <rt place="right">むかい</rt>
+                                        </ruby>神の社</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300"><ruby>
+                                            <rb>大歳</rb>
+                                            <rt place="right">おおとし</rt>
+                                        </ruby>神の社〈大。月次祭と新嘗祭の班幣対象でもある。〉</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300"><ruby>
+                                            <rb>茨田</rb>
+                                            <rt place="right">まんた</rt>
+                                        </ruby>神の社</cell>
+                                </row>
+                                <row>
+                                    <cell rendition="#width300"><ruby>
+                                            <rb>石井</rb>
+                                            <rt place="right">いわい</rt>
+                                        </ruby>神の社</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300"><ruby>
+                                            <rb>神川</rb>
+                                            <rt place="right">かみかわ</rt>
+                                        </ruby>神の社</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300"><ruby>
+                                            <rb>久何</rb>
+                                            <rt place="right">こが</rt>
+                                        </ruby>神の社</cell>
+                                </row>
+                                <row>
+                                    <cell rendition="#width300"><ruby>
+                                            <rb>簀原</rb>
+                                            <rt place="right">すはら</rt>
+                                        </ruby>神の社</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300"><ruby>
+                                            <rb>小倉</rb>
+                                            <rt place="right">おぐら</rt>
+                                        </ruby>神の社〈大。月次祭と新嘗祭の班幣対象でもある。〉</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300"><ruby>
+                                            <rb>入野</rb>
+                                            <rt place="right">いりの</rt>
+                                        </ruby>神の社</cell>
+                                </row>
+                                <row>
+                                    <cell rendition="#width300"><ruby>
+                                            <rb>玉手</rb>
+                                            <rt place="right">たまて</rt>
+                                        </ruby>より祭り来た<ruby>
+                                            <rb>酒解</rb>
+                                            <rt place="right">さかとけ</rt>
+                                        </ruby>神の社〈名神・大。月次祭と新嘗祭の班幣対象でもある。元の名は<ruby>
+                                            <rb>山埼</rb>
+                                            <rt place="right">やまさき</rt>
+                                        </ruby>の社。〉</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300"><ruby>
+                                            <rb>神足</rb>
+                                            <rt place="right">かんたり</rt>
+                                        </ruby>神の社</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300"/>
+                                </row>
+                            </table>
+                        </p>
                         <p ana="項"
                             corresp="engishiki.xml#item09100503 engishiki_en.xml#item09100503"
-                            xml:id="item09100503">本文</p>
+                            xml:id="item09100503"><s rendition="#indent"><ruby>
+                                    <rb>葛野郡</rb>
+                                    <rt place="right">かどのぐん</rt>
+                                </ruby>二十座〈大十四座。小六座。〉</s>
+                            <table>
+                                <row>
+                                    <cell rendition="#width300">葛野に鎮座する<ruby>
+                                            <rb>月読</rb>
+                                            <rt place="right">つきよみ</rt>
+                                        </ruby>神の社〈名神・大。月次祭と新嘗祭の班幣対象でもある。〉</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300"><ruby>
+                                            <rb>木島</rb>
+                                            <rt place="right">このしま</rt>
+                                        </ruby>に鎮座する<ruby>
+                                            <rb>天照御魂</rb>
+                                            <rt place="right">あまてるみむすひ</rt>
+                                        </ruby>神の社〈名神。大。月次祭と相嘗祭・新嘗祭の対象でもある。〉</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300"/>
+                                </row>
+                                <row>
+                                    <cell rendition="#width300"><ruby>
+                                            <rb>墮川</rb>
+                                            <rt place="right">おちかわ</rt>
+                                        </ruby>神の社</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300"><ruby>
+                                            <rb>阿刀</rb>
+                                            <rt place="right">あと</rt>
+                                        </ruby>神の社</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300"><ruby>
+                                            <rb>松尾</rb>
+                                            <rt place="right">まつのお</rt>
+                                        </ruby>神の社二座〈ともに名神・大。月次祭と相嘗祭・新嘗祭の対象でもある。〉</cell>
+                                </row>
+                                <row>
+                                    <cell rendition="#width300"><ruby>
+                                            <rb>深川</rb>
+                                            <rt place="right">ふかがわ</rt>
+                                        </ruby>神の社</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300">墮川<ruby>
+                                            <rb>御上</rb>
+                                            <rt place="right">みかみ</rt>
+                                        </ruby>神の社</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300"><ruby>
+                                            <rb>櫟谷</rb>
+                                            <rt place="right">いちいたに</rt>
+                                        </ruby>神の社</cell>
+                                </row>
+                                <row>
+                                    <cell rendition="#width300"><ruby>
+                                            <rb>平野</rb>
+                                            <rt place="right">ひらの</rt>
+                                        </ruby>祭の神四社〈みな名神・大。月次祭と新嘗祭の班幣対象でもある。〉</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300"><ruby>
+                                            <rb>梅宮</rb>
+                                            <rt place="right">うめのみや</rt>
+                                        </ruby>に鎮座する神四社〈みな名神・大。月次祭と新嘗祭の班幣対象でもある。〉</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300"><ruby>
+                                            <rb>天津石門別稚姫</rb>
+                                            <rt place="right">あまついわとわけわかひめ</rt>
+                                        </ruby>神の社〈名神・大。月次祭と新嘗祭の班幣対象でもある。〉</cell>
+                                </row>
+                                <row>
+                                    <cell rendition="#width300"><ruby>
+                                            <rb>伴氏</rb>
+                                            <rt place="right">ともうじ</rt>
+                                        </ruby>神の社〈大。月次祭と新嘗祭の班幣対象でもある。〉</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300"><ruby>
+                                            <rb>大酒</rb>
+                                            <rt place="right">おおさけ</rt>
+                                        </ruby>神の社〈元の名は<ruby>
+                                            <rb>大辟</rb>
+                                            <rt place="right">おおさけ</rt>
+                                        </ruby>神。〉</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300"/>
+                                </row>
+                            </table>
+                        </p>
                         <p ana="項"
                             corresp="engishiki.xml#item09100504 engishiki_en.xml#item09100504"
-                            xml:id="item09100504">本文</p>
+                            xml:id="item09100504"><s rendition="#indent"><ruby>
+                                    <rb>愛宕郡</rb>
+                                    <rt place="right">おたぎぐん</rt>
+                                </ruby>二十一座〈大八座。小十三座。〉</s>
+                            <table>
+                                <row>
+                                    <cell rendition="#width300"><ruby>
+                                            <rb>賀茂別雷</rb>
+                                            <rt place="right">かもわけいかずち</rt>
+                                        </ruby>神の社〈または若雷。名神・大。月次祭と相嘗祭・新嘗祭の対象でもある。〉</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300"><ruby>
+                                            <rb>出雲井於</rb>
+                                            <rt place="right">いずものいのえ</rt>
+                                        </ruby>神の社〈大。月次祭と相嘗祭・新嘗祭の対象でもある。〉</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300"/>
+                                </row>
+                                <row>
+                                    <cell rendition="#width300"><ruby>
+                                            <rb>賀茂御祖</rb>
+                                            <rt place="right">かものみおや</rt>
+                                        </ruby>神の社二座〈ともに名神・大。月次祭と相嘗祭・新嘗祭の対象でもある。〉</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300"><ruby>
+                                            <rb>出雲高野</rb>
+                                            <rt place="right">いずものたかの</rt>
+                                        </ruby>神の社</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300"/>
+                                </row>
+                                <row>
+                                    <cell rendition="#width300"><ruby>
+                                            <rb>賀茂山口</rb>
+                                            <rt place="right">かものやまのくち</rt>
+                                        </ruby>神の社</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300"><ruby>
+                                            <rb>賀茂波爾</rb>
+                                            <rt place="right">かものはに</rt>
+                                        </ruby>神の社</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300"><ruby>
+                                            <rb>小野</rb>
+                                            <rt place="right">おの</rt>
+                                        </ruby>神の社二座〈幣帛に鍬・靫が加えられる。〉</cell>
+                                </row>
+                                <row>
+                                    <cell rendition="#width300"><ruby>
+                                            <rb>久我</rb>
+                                            <rt place="right">こが</rt>
+                                        </ruby>神の社</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300"><ruby>
+                                            <rb>末刀</rb>
+                                            <rt place="right">まと</rt>
+                                        </ruby>神の社</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300"><ruby>
+                                            <rb>須波</rb>
+                                            <rt place="right">すわ</rt>
+                                        </ruby>神の社</cell>
+                                </row>
+                                <row>
+                                    <cell rendition="#width300"><ruby>
+                                            <rb>伊多太</rb>
+                                            <rt place="right">いたた</rt>
+                                        </ruby>神の社</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300"><ruby>
+                                            <rb>貴布禰</rb>
+                                            <rt place="right">きふね</rt>
+                                        </ruby>神の社〈名神・大。月次祭と新嘗祭の班幣対象でもある。〉</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300"/>
+                                </row>
+                                <row>
+                                    <cell rendition="#width300"><ruby>
+                                            <rb>鴨川合</rb>
+                                            <rt place="right">かものかわい</rt>
+                                        </ruby>に鎮座する<ruby>
+                                            <rb>小社宅</rb>
+                                            <rt place="right">おこそやけ</rt>
+                                        </ruby>神の社〈名神・大。月次祭と相嘗祭・新嘗祭の対象でもある。〉</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300"><ruby>
+                                            <rb>鴨岡太</rb>
+                                            <rt place="right">かものおかもと</rt>
+                                        </ruby>神の社</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300"/>
+                                </row>
+                                <row>
+                                    <cell rendition="#width300"><ruby>
+                                            <rb>大田</rb>
+                                            <rt place="right">おおた</rt>
+                                        </ruby>神の社</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300"><ruby>
+                                            <rb>三井</rb>
+                                            <rt place="right">みい</rt>
+                                        </ruby>神の社〈名神・大。月次祭と新嘗祭の班幣対象でもある。〉</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300"><ruby>
+                                            <rb>大柴</rb>
+                                            <rt place="right">おおしば</rt>
+                                        </ruby>神の社</cell>
+                                </row>
+                                <row>
+                                    <cell rendition="#width300"><ruby>
+                                            <rb>高橋</rb>
+                                            <rt place="right">たかはし</rt>
+                                        </ruby>神の社</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300"><ruby>
+                                            <rb>片山御子</rb>
+                                            <rt place="right">かたやまのみこ</rt>
+                                        </ruby>神の社〈大。月次祭と相嘗祭・新嘗祭の対象でもある。〉</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300"/>
+                                </row>
+                            </table>
+                        </p>
                         <p ana="項"
                             corresp="engishiki.xml#item09100505 engishiki_en.xml#item09100505"
-                            xml:id="item09100505">本文</p>
+                            xml:id="item09100505"><s rendition="#indent"><ruby>
+                                    <rb>紀伊郡</rb>
+                                    <rt place="right">きいぐん</rt>
+                                </ruby>八座〈大三座。小五座。〉</s>
+                            <table>
+                                <row>
+                                    <cell rendition="#width300"><ruby>
+                                            <rb>御諸</rb>
+                                            <rt place="right">みもろ</rt>
+                                        </ruby>神の社</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300"><ruby>
+                                            <rb>稲荷</rb>
+                                            <rt place="right">いなり</rt>
+                                        </ruby>神三社〈みな名神・大。月次祭と新嘗祭の班幣対象でもある。〉</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300"><ruby>
+                                            <rb>大椋</rb>
+                                            <rt place="right">おおくら</rt>
+                                        </ruby>神の社</cell>
+                                </row>
+                                <row>
+                                    <cell rendition="#width300"><ruby>
+                                            <rb>飛鳥田</rb>
+                                            <rt place="right">あすかた</rt>
+                                        </ruby>神の社〈一名<ruby>
+                                            <rb>柿本</rb>
+                                            <rt place="right">かきのもと</rt>
+                                        </ruby>社。〉</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300"><ruby>
+                                            <rb>真幡寸</rb>
+                                            <rt place="right">まはたき</rt>
+                                        </ruby>神の社二座</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300"/>
+                                </row>
+                            </table></p>
                         <p ana="項"
                             corresp="engishiki.xml#item09100506 engishiki_en.xml#item09100506"
-                            xml:id="item09100506">本文</p>
+                            xml:id="item09100506"><s rendition="#indent"><ruby>
+                                    <rb>宇治郡</rb>
+                                    <rt place="right">うじぐん</rt>
+                                </ruby>十座〈大五座。小五座。〉</s>
+                            <table>
+                                <row>
+                                    <cell rendition="#width300">宇治神の社二座〈幣帛に鍬・靫が加えられる。〉</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300"><ruby>
+                                            <rb>日向</rb>
+                                            <rt place="right">ひむかい</rt>
+                                        </ruby>神の社</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300"><ruby>
+                                            <rb>許波多</rb>
+                                            <rt place="right">こはた</rt>
+                                        </ruby>神の社三座〈みな名神・大。月次祭と新嘗祭の班幣対象でもある。〉</cell>
+                                </row>
+                                <row>
+                                    <cell rendition="#width300"><ruby>
+                                            <rb>天穂日命</rb>
+                                            <rt place="right">あめのほひのみこと</rt>
+                                        </ruby>神の社</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300"><ruby>
+                                            <rb>宇治彼方</rb>
+                                            <rt place="right">うじのおちかた</rt>
+                                        </ruby>神の社〈幣帛に鍬・靫が加えられる。〉</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300"><ruby>
+                                            <rb>山科</rb>
+                                            <rt place="right">やましな</rt>
+                                        </ruby>神の社二座〈ともに名神・大。月次祭と新嘗祭の班幣対象でもある。〉</cell>
+                                </row>
+                            </table></p>
                         <p ana="項"
                             corresp="engishiki.xml#item09100507 engishiki_en.xml#item09100507"
-                            xml:id="item09100507">本文</p>
+                            xml:id="item09100507"><s rendition="#indent"><ruby>
+                                    <rb>久世郡</rb>
+                                    <rt place="right">くぜぐん</rt>
+                                </ruby>二十四座〈大十一座。小十三座。〉</s>
+                            <table>
+                                <row>
+                                    <cell rendition="#width300"><ruby>
+                                            <rb>石田</rb>
+                                            <rt place="right">いわた</rt>
+                                        </ruby>神の社〈大。月次祭と新嘗祭の班幣対象でもある。〉</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300"><ruby>
+                                            <rb>水主</rb>
+                                            <rt place="right">みぬし</rt>
+                                        </ruby>神の社十座〈みな大。月次祭と新嘗祭の班幣対象でもある。このうち同じく水主に鎮座する<ruby>
+                                            <rb>天照御魂</rb>
+                                            <rt place="right">あまてるみむすひ</rt>
+                                        </ruby>神・ 三伴託<ruby>
+                                            <rb>山背大国魂命</rb>
+                                            <rt place="right">やましろのおおくにたま</rt>
+                                        </ruby>神二座は相嘗祭の対象。〉</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300"/>
+                                </row>
+                                <row>
+                                    <cell rendition="#width300"><ruby>
+                                            <rb>荒見</rb>
+                                            <rt place="right">あらみ</rt>
+                                        </ruby>神の社</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300"><ruby>
+                                            <rb>双栗</rb>
+                                            <rt place="right">なくり</rt>
+                                        </ruby>神の社三座</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300"><ruby>
+                                            <rb>水度</rb>
+                                            <rt place="right">みと</rt>
+                                        </ruby>神の社三座〈幣帛に鍬・靫が加えられる。〉</cell>
+                                </row>
+                                <row>
+                                    <cell rendition="#width300"><ruby>
+                                            <rb>旦椋</rb>
+                                            <rt place="right">あさくら</rt>
+                                        </ruby>神の社</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300"><ruby>
+                                            <rb>伊勢田</rb>
+                                            <rt place="right">いせた</rt>
+                                        </ruby>神の社三座〈幣帛に鍬・靫が加えられる。〉</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300"><ruby>
+                                            <rb>巨椋</rb>
+                                            <rt place="right">おぐら</rt>
+                                        </ruby>神の社</cell>
+                                </row>
+                                <row>
+                                    <cell rendition="#width300"><ruby>
+                                            <rb>室城</rb>
+                                            <rt place="right">むろき</rt>
+                                        </ruby>神の社</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300"/>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300"/>
+                                </row>
+                            </table></p>
                         <p ana="項"
                             corresp="engishiki.xml#item09100508 engishiki_en.xml#item09100508"
-                            xml:id="item09100508">本文</p>
+                            xml:id="item09100508"><s rendition="#indent"><ruby>
+                                    <rb>綴憙郡</rb>
+                                    <rt place="right">つづきぐん</rt>
+                                </ruby>十四座〈大三座。小十一座。〉</s>
+                            <table>
+                                <row>
+                                    <cell rendition="#width300"><ruby>
+                                            <rb>樺井月</rb>
+                                            <rt place="right">かばいのつき</rt>
+                                        </ruby>神の社〈大。月次祭と新嘗祭の班幣対象でもある。〉</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300"><ruby>
+                                            <rb>朱智</rb>
+                                            <rt place="right">すち</rt>
+                                        </ruby>神の社</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300"><ruby>
+                                            <rb>月読</rb>
+                                            <rt place="right">つきよみ</rt>
+                                        </ruby>神の社〈大。月次祭と新嘗祭の班幣対象でもある。〉</cell>
+                                </row>
+                                <row>
+                                    <cell rendition="#width300"><ruby>
+                                            <rb>咋岡</rb>
+                                            <rt place="right">くいおか</rt>
+                                        </ruby>神の社〈幣帛に鍬・靫が加えられる。〉</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300"><ruby>
+                                            <rb>高</rb>
+                                            <rt place="right">たか</rt>
+                                        </ruby>神の社〈幣帛に鍬・靫が加えられる。〉</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300"><ruby>
+                                            <rb>内</rb>
+                                            <rt place="right">うち</rt>
+                                        </ruby>神の社二座</cell>
+                                </row>
+                                <row>
+                                    <cell rendition="#width300"><ruby>
+                                            <rb>粟</rb>
+                                            <rt place="right">あわ</rt>
+                                        </ruby>神の社</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300"><ruby>
+                                            <rb>棚倉孫</rb>
+                                            <rt place="right">たなくらひこ</rt>
+                                        </ruby>神の社〈大。月次祭と新嘗祭の班幣対象でもある。〉</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300"><ruby>
+                                            <rb>佐牙乃</rb>
+                                            <rt place="right">さがの</rt>
+                                        </ruby>神の社〈幣帛に鍬・靫が加えられる。〉</cell>
+                                </row>
+                                <row>
+                                    <cell rendition="#width300"><ruby>
+                                            <rb>酒屋</rb>
+                                            <rt place="right">さかや</rt>
+                                        </ruby>神の社</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300"><ruby>
+                                            <rb>甘南備</rb>
+                                            <rt place="right">かんなび</rt>
+                                        </ruby>神の社</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300"><ruby>
+                                            <rb>天</rb>
+                                            <rt place="right">あまつ</rt>
+                                        </ruby>神の社</cell>
+                                </row>
+                                <row>
+                                    <cell rendition="#width300"><ruby>
+                                            <rb>地祇</rb>
+                                            <rt place="right">くにつ</rt>
+                                        </ruby>神の社</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300"/>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300"/>
+                                </row>
+                            </table></p>
                         <p ana="項"
                             corresp="engishiki.xml#item09100509 engishiki_en.xml#item09100509"
-                            xml:id="item09100509">本文</p>
+                            xml:id="item09100509"><s rendition="#indent"><ruby>
+                                    <rb>相楽郡</rb>
+                                    <rt place="right">さからかぐん</rt>
+                                </ruby>六座〈大四座。小二座。〉</s>
+                            <table>
+                                <row>
+                                    <cell rendition="#width300"><ruby>
+                                            <rb>祝園</rb>
+                                            <rt place="right">はふりその</rt>
+                                        </ruby>神の社〈大。月次祭と新嘗祭の班幣対象でもある。〉</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300"><ruby>
+                                            <rb>和伎</rb>
+                                            <rt place="right">わき</rt>
+                                        </ruby>に鎮座する<ruby>
+                                            <rb>天乃夫支売</rb>
+                                            <rt place="right">あめのふきめ</rt>
+                                        </ruby>神の社〈大。月次祭と新嘗祭の班幣対象でもある。〉</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300"/>
+                                </row>
+                                <row>
+                                    <cell rendition="#width300"><ruby>
+                                            <rb>綺原</rb>
+                                            <rt place="right">かんばら</rt>
+                                        </ruby>に鎮座する<ruby>
+                                            <rb>健伊那大比売</rb>
+                                            <rt place="right">たけいなたひめ</rt>
+                                        </ruby>神の社</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300"><ruby>
+                                            <rb>相楽</rb>
+                                            <rt place="right">さからか</rt>
+                                        </ruby>神の社</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300"/>
+                                </row>
+                                <row>
+                                    <cell rendition="#width300"><ruby>
+                                            <rb>岡田鴨</rb>
+                                            <rt place="right">おかだのかも</rt>
+                                        </ruby>神の社〈大。月次祭と新嘗祭の班幣対象でもある。〉</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300"><ruby>
+                                            <rb>岡田国</rb>
+                                            <rt place="right">おかだのくに</rt>
+                                        </ruby>神の社〈大。月次祭と新嘗祭の班幣対象でもある。〉</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300"/>
+                                </row>
+                            </table></p>
                     </div>
                     <div ana="神名上"
                         corresp="engishiki.xml#article091006 engishiki_en.xml#article091006" n="9.6"
                         subtype="項" type="条" xml:id="article091006">
                         <head ana="大和国"/>
-                        <note type="summary">条文概要</note>
+                        <note type="summary">大和国の官社</note>
                         <p ana="項"
                             corresp="engishiki.xml#item09100601 engishiki_en.xml#item09100601"
-                            xml:id="item09100601">本文</p>
+                            xml:id="item09100601">大和国二百八十六座<lb/><s rendition="#indent"
+                                >大一百二十八座〈月次祭と新嘗祭の班幣対象でもある。このうち三十一座は相嘗祭の対象。〉</s>
+                            <lb/><s rendition="#indent">小一百五十八座〈みな官幣。〉</s></p>
                         <p ana="項"
                             corresp="engishiki.xml#item09100602 engishiki_en.xml#item09100602"
-                            xml:id="item09100602">本文</p>
+                            xml:id="item09100602"><s rendition="#indent"><ruby>
+                                    <rb>添上郡</rb>
+                                    <rt place="right">そうのかみぐん</rt>
+                                </ruby>三十七座〈大九座。小二十八座。〉</s>
+                            <table>
+                                <row>
+                                    <cell rendition="#width300"><ruby>
+                                            <rb>鳴雷</rb>
+                                            <rt place="right">なるいかずち</rt>
+                                        </ruby>神の社〈大。月次祭と新嘗祭の班幣対象でもある。〉</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300"><ruby>
+                                            <rb>率川</rb>
+                                            <rt place="right">いざかわ</rt>
+                                        </ruby>に鎮座する<ruby>
+                                            <rb>大神神御子</rb>
+                                            <rt place="right">おおみわのかみのみこ</rt>
+                                        </ruby>神の社三座</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300"/>
+                                </row>
+                                <row>
+                                    <cell rendition="#width300"><ruby>
+                                            <rb>狭岡</rb>
+                                            <rt place="right">さおか</rt>
+                                        </ruby>神の社八座</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300"><ruby>
+                                            <rb>率川阿波</rb>
+                                            <rt place="right">いざかわあわ</rt>
+                                        </ruby>神の社</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300"><ruby>
+                                            <rb>宇奈大理</rb>
+                                            <rt place="right">うなたり</rt>
+                                        </ruby>に鎮座する<ruby>
+                                            <rb>高御魂</rb>
+                                            <rt place="right">たかみむすひ</rt>
+                                        </ruby>神の社〈大。月次祭と相嘗祭・新嘗祭の対象でもある。〉</cell>
+                                </row>
+                                <row>
+                                    <cell rendition="#width300"><ruby>
+                                            <rb>和爾</rb>
+                                            <rt place="right">わに</rt>
+                                        </ruby>に鎮座する<ruby>
+                                            <rb>赤坂比古</rb>
+                                            <rt place="right">あかさかひこ</rt>
+                                        </ruby>神の社〈大。月次祭と新嘗祭の班幣対象でもある。〉</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300"><ruby>
+                                            <rb>穴吹</rb>
+                                            <rt place="right">あなふき</rt>
+                                        </ruby>神の社</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300"><ruby>
+                                            <rb>和爾下</rb>
+                                            <rt place="right">わにのしも</rt>
+                                        </ruby>神の社二座</cell>
+                                </row>
+                                <row>
+                                    <cell rendition="#width300"><ruby>
+                                            <rb>奈良豆比古</rb>
+                                            <rt place="right">ならつひこ</rt>
+                                        </ruby>神の社〈幣帛に鍬・靫が加えられる。〉</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300"><ruby>
+                                            <rb>神波多</rb>
+                                            <rt place="right">かんはた</rt>
+                                        </ruby>神の社〈幣帛に鍬が加えられる。〉</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300"><ruby>
+                                            <rb>高橋</rb>
+                                            <rt place="right">たかはし</rt>
+                                        </ruby>神の社</cell>
+                                </row>
+                                <row>
+                                    <cell rendition="#width300"><ruby>
+                                            <rb>太祝詞</rb>
+                                            <rt place="right">ふとのりと</rt>
+                                        </ruby>神の社〈大。月次祭と新嘗祭の班幣対象でもある。〉</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300"><ruby>
+                                            <rb>宅布世</rb>
+                                            <rt place="right">いえふせ</rt>
+                                        </ruby>神の社</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300"><ruby>
+                                            <rb>大和日向</rb>
+                                            <rt place="right">やまとのひむかい</rt>
+                                        </ruby>神の社〈幣帛に鍬・靫が加えられる。〉</cell>
+                                </row>
+                                <row>
+                                    <cell rendition="#width300"><ruby>
+                                            <rb>夜支布山口</rb>
+                                            <rt place="right">やぎうのやまのくち</rt>
+                                        </ruby>神の社〈大。月次祭と新嘗祭の班幣対象でもある。〉</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300"><ruby>
+                                            <rb>春日</rb>
+                                            <rt place="right">かすが</rt>
+                                        </ruby>神の社</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300"><ruby>
+                                            <rb>売太</rb>
+                                            <rt place="right">ひめた</rt>
+                                        </ruby>神の社</cell>
+                                </row>
+                                <row>
+                                    <cell rendition="#width300"
+                                        >春日祭の神四座〈みな名神・大。月次祭と新嘗祭の班幣対象でもある。〉</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300"><ruby>
+                                            <rb>赤穂</rb>
+                                            <rt place="right">あかほ</rt>
+                                        </ruby>神の社</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300"><ruby>
+                                            <rb>島田</rb>
+                                            <rt place="right">しまだ</rt>
+                                        </ruby>神の社</cell>
+                                </row>
+                                <row>
+                                    <cell rendition="#width300"><ruby>
+                                            <rb>御前社石立命</rb>
+                                            <rt place="right">みさきのやしろのいわたちのみこと</rt>
+                                        </ruby>神の社</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300"><ruby>
+                                            <rb>天乃石吸</rb>
+                                            <rt place="right">あめのいわすい</rt>
+                                        </ruby>神の社</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300"><ruby>
+                                            <rb>五百立</rb>
+                                            <rt place="right">いおたち</rt>
+                                        </ruby>神の社</cell>
+                                </row>
+                                <row>
+                                    <cell rendition="#width300"><ruby>
+                                            <rb>天乃石立</rb>
+                                            <rt place="right">あめのいわたち</rt>
+                                        </ruby>神の社</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300"/>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300"/>
+                                </row>
+                            </table></p>
                         <p ana="項"
                             corresp="engishiki.xml#item09100603 engishiki_en.xml#item09100603"
-                            xml:id="item09100603">本文</p>
+                            xml:id="item09100603"><s rendition="#indent"><ruby>
+                                    <rb>添下郡</rb>
+                                    <rt place="right">そうのしもぐん</rt>
+                                </ruby>十座〈大四座。小六座。〉</s>
+                            <table>
+                                <row>
+                                    <cell rendition="#width300"><ruby>
+                                            <rb>矢田</rb>
+                                            <rt place="right">やた</rt>
+                                        </ruby>に鎮座する<ruby>
+                                            <rb>久志玉比古</rb>
+                                            <rt place="right">くしたまひこ</rt>
+                                        </ruby>神の社二座〈ともに大。月次祭と新嘗祭の班幣対象でもある。〉</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300"><ruby>
+                                            <rb>添御県</rb>
+                                            <rt place="right">そうのみあがた</rt>
+                                        </ruby>に鎮座する神の社〈大。月次祭と新嘗祭の班幣対象でもある。〉</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300"/>
+                                </row>
+                                <row>
+                                    <cell rendition="#width300"><ruby>
+                                            <rb>菅田比売</rb>
+                                            <rt place="right">すがたひめ</rt>
+                                        </ruby>神の社二座〈幣帛に鍬・靫が加えられる。〉</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300"><ruby>
+                                            <rb>佐紀</rb>
+                                            <rt place="right">さき</rt>
+                                        </ruby>神の社</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300"><ruby>
+                                            <rb>菅原</rb>
+                                            <rt place="right">すがわら</rt>
+                                        </ruby>神の社</cell>
+                                </row>
+                                <row>
+                                    <cell rendition="#width300"><ruby>
+                                            <rb>登弥</rb>
+                                            <rt place="right">とみ</rt>
+                                        </ruby>神の社</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300"><ruby>
+                                            <rb>菅田</rb>
+                                            <rt place="right">すがた</rt>
+                                        </ruby>神の社</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300"><ruby>
+                                            <rb>伊射奈岐</rb>
+                                            <rt place="right">いざなき</rt>
+                                        </ruby>神の社〈大。月次祭と新嘗祭の班幣対象でもある。〉</cell>
+                                </row>
+                            </table></p>
                         <p ana="項"
                             corresp="engishiki.xml#item09100604 engishiki_en.xml#item09100604"
-                            xml:id="item09100604">本文</p>
+                            xml:id="item09100604"><s rendition="#indent"><ruby>
+                                    <rb>平群郡</rb>
+                                    <rt place="right">へぐりぐん</rt>
+                                </ruby>二十座〈大十二座。小八座。〉</s>
+                            <table>
+                                <row>
+                                    <cell rendition="#width300"><ruby>
+                                            <rb>竜田</rb>
+                                            <rt place="right">たつた</rt>
+                                        </ruby>に鎮座する<ruby>
+                                            <rb>天御柱</rb>
+                                            <rt place="right">あめのみはしら</rt>
+                                        </ruby>国御柱神の社二座〈ともに名神・大。月次祭と新嘗祭の班幣対象でもある。〉</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300"><ruby>
+                                            <rb>竜田比古</rb>
+                                            <rt place="right">たつたひこ</rt>
+                                        </ruby>竜田比女神の社二座</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300"/>
+                                </row>
+                                <row>
+                                    <cell rendition="#width300"><ruby>
+                                            <rb>往馬</rb>
+                                            <rt place="right">いこま</rt>
+                                        </ruby>に鎮座する<ruby>
+                                            <rb>伊古麻都比古</rb>
+                                            <rt place="right">いこまつひこ</rt>
+                                        </ruby>神社二座〈ともに大。月次祭と新嘗祭の班幣対象でもある。〉</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300">平群<ruby>
+                                            <rb>石床</rb>
+                                            <rt place="right">いわとこ</rt>
+                                        </ruby>神の社〈大。月次祭と新嘗祭の班幣対象でもある。〉</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300"/>
+                                </row>
+                                <row>
+                                    <cell rendition="#width300">伊古麻<ruby>
+                                            <rb>山口</rb>
+                                            <rt place="right">やまのくち</rt>
+                                        </ruby>神の社〈大。月次祭と新嘗祭の班幣対象でもある。〉</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300"
+                                        >平群神の社五座〈みな大。月次祭と新嘗祭の班幣対象でもある。〉</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300"><ruby>
+                                            <rb>久度</rb>
+                                            <rt place="right">くど</rt>
+                                        </ruby>神の社</cell>
+                                </row>
+                                <row>
+                                    <cell rendition="#width300">平群に鎮座する<ruby>
+                                            <rb>紀氏</rb>
+                                            <rt place="right">きうじ</rt>
+                                        </ruby>神の社〈名神・大。月次祭と新嘗祭の班幣対象でもある。〉</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300"><ruby>
+                                            <rb>猪上</rb>
+                                            <rt place="right">いかみ</rt>
+                                        </ruby>神の社</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300"><ruby>
+                                            <rb>船山</rb>
+                                            <rt place="right">ふなやま</rt>
+                                        </ruby>神の社</cell>
+                                </row>
+                                <row>
+                                    <cell rendition="#width300"><ruby>
+                                            <rb>御櫛</rb>
+                                            <rt place="right">みくし</rt>
+                                        </ruby>神の社</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300"><ruby>
+                                            <rb>神岳</rb>
+                                            <rt place="right">かみおか</rt>
+                                        </ruby>神の社</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300"><ruby>
+                                            <rb>雲甘寺</rb>
+                                            <rt place="right">うんかんじ</rt>
+                                        </ruby>に鎮座する<ruby>
+                                            <rb>楢本</rb>
+                                            <rt place="right">ならもと</rt>
+                                        </ruby>神の社</cell>
+                                </row>
+                            </table></p>
                         <p ana="項"
                             corresp="engishiki.xml#item09100605 engishiki_en.xml#item09100605"
-                            xml:id="item09100605">本文</p>
+                            xml:id="item09100605"><s rendition="#indent"><ruby>
+                                    <rb>広瀬郡</rb>
+                                    <rt place="right">ひろせぐん</rt>
+                                </ruby>五座〈大一座。小四座。〉</s>
+                            <table>
+                                <row>
+                                    <cell rendition="#width300">広瀬に鎮座する<ruby>
+                                            <rb>和加宇加乃売命</rb>
+                                            <rt place="right">わかうかめのかみのみこ</rt>
+                                        </ruby>神の社〈名神・大。月次祭と新嘗祭の班幣対象でもある。〉</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300"><ruby>
+                                            <rb>讃岐</rb>
+                                            <rt place="right">さぬき</rt>
+                                        </ruby>神の社</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300"/>
+                                </row>
+                                <row>
+                                    <cell rendition="#width300"><ruby>
+                                            <rb>櫛玉比女命</rb>
+                                            <rt place="right">くしたまひめのみこと</rt>
+                                        </ruby>神の社</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300"><ruby>
+                                            <rb>穂雷命</rb>
+                                            <rt place="right">ほのいかづちのことの</rt>
+                                        </ruby>神の社</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300">於神の社〈幣帛に鍬が加えられる。〉</cell>
+                                </row>
+                            </table></p>
                         <p ana="項"
                             corresp="engishiki.xml#item09100606 engishiki_en.xml#item09100606"
-                            xml:id="item09100606">本文</p>
+                            xml:id="item09100606"><s rendition="#indent"><ruby>
+                                    <rb>葛上郡</rb>
+                                    <rt place="right">かずらきのかみのぐん</rt>
+                                </ruby>十七座〈大十二座。小五座。〉</s>
+                            <table>
+                                <row>
+                                    <cell rendition="#width300"><ruby>
+                                            <rb>鴨都波八重事代主命</rb>
+                                            <rt place="right">かもつばやえことしろぬしのみこと</rt>
+                                        </ruby>神社二座〈ともに名神・大。月次祭と相嘗祭・新嘗祭の対象でもある。〉</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300">葛木<ruby>
+                                            <rb>御歳</rb>
+                                            <rt place="right">のみとしの</rt>
+                                        </ruby>神の社〈名神・大。月次祭と新嘗祭の班幣対象でもある。〉</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300"/>
+                                </row>
+                                <row>
+                                    <cell rendition="#width300">葛木に鎮座する<ruby>
+                                            <rb>一言主</rb>
+                                            <rt place="right">ひとことぬし</rt>
+                                        </ruby>神の社〈名神・大。月次祭と新嘗祭の班幣対象でもある。〉</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300"><ruby>
+                                            <rb>多太</rb>
+                                            <rt place="right">ただ</rt>
+                                        </ruby>神の社〈幣帛に鍬・靫が加えられる。〉</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300"><ruby>
+                                            <rb>長柄</rb>
+                                            <rt place="right">ながら</rt>
+                                        </ruby>神の社〈幣帛に鍬・靫が加えられる。〉</cell>
+                                </row>
+                                <row>
+                                    <cell rendition="#width300">巨勢<ruby>
+                                            <rb>山口</rb>
+                                            <rt place="right">やまのくち</rt>
+                                        </ruby>神の社〈大。月次祭と新嘗祭の班幣対象でもある。〉</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300">葛木<ruby>
+                                            <rb>水分</rb>
+                                            <rt place="right">みくまり</rt>
+                                        </ruby>神の社〈名神・大。月次祭と新嘗祭の班幣対象でもある。〉</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300">鴨山口神の社〈大。月次祭と新嘗祭の班幣対象でもある。〉</cell>
+                                </row>
+                                <row>
+                                    <cell rendition="#width300"><ruby>
+                                            <rb>高天彦神</rb>
+                                            <rt place="right">たかまひこ</rt>
+                                        </ruby>の社〈名神・大。月次祭と相嘗祭・新嘗祭の対象でもある。〉</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300"><ruby>
+                                            <rb>葛木大重</rb>
+                                            <rt place="right">かずらきのおおえ</rt>
+                                        </ruby>神の社</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300"><ruby>
+                                            <rb>大穴持</rb>
+                                            <rt place="right">おおあなもち</rt>
+                                        </ruby>神の社</cell>
+                                </row>
+                                <row>
+                                    <cell rendition="#width300"><ruby>
+                                            <rb>太倉比売命</rb>
+                                            <rt place="right">おおくらひめのみこと</rt>
+                                        </ruby>神の社</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300"><ruby>
+                                            <rb>高鴨阿治須岐託彦根命</rb>
+                                            <rt place="right">たかがもあじすきたかひこねのみこと</rt>
+                                        </ruby>神の社四座〈名神・大。月次祭と相嘗祭・新嘗祭の対象でもある。〉</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300"/>
+                                </row>
+                            </table></p>
                         <p ana="項"
                             corresp="engishiki.xml#item09100607 engishiki_en.xml#item09100607"
-                            xml:id="item09100607">本文</p>
+                            xml:id="item09100607"><s rendition="#indent"><ruby>
+                                    <rb>葛下郡</rb>
+                                    <rt place="right">かずらきのしもぐん</rt>
+                                </ruby>十八座〈大十三座。小五座。〉</s>
+                            <table>
+                                <row>
+                                    <cell rendition="#width300">葛木<ruby>
+                                            <rb>倭文</rb>
+                                            <rt place="right">しとり</rt>
+                                        </ruby>に鎮座する<ruby>
+                                            <rb>天羽雷命</rb>
+                                            <rt place="right">あめのはずちのみこと</rt>
+                                        </ruby>神の社〈大。月次祭と新嘗祭の班幣対象でもある。〉</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300"><ruby>
+                                            <rb>片岡</rb>
+                                            <rt place="right">かたおか</rt>
+                                        </ruby>に鎮座する神の社〈名神。大。月次祭と新嘗祭の班幣対象でもある。〉</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300"/>
+                                </row>
+                                <row>
+                                    <cell rendition="#width300"><ruby>
+                                            <rb>長尾</rb>
+                                            <rt place="right">ながお</rt>
+                                        </ruby>神の社〈大。月次祭と新嘗祭の班幣対象でもある。〉</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300"><ruby>
+                                            <rb>石薗</rb>
+                                            <rt place="right">いその</rt>
+                                        </ruby>に鎮座する<ruby>
+                                            <rb>多久虫玉</rb>
+                                            <rt place="right">たくむしたま</rt>
+                                        </ruby>神の社二座〈みな大。月次祭と新嘗祭の班幣対象でもある。〉</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300"/>
+                                </row>
+                                <row>
+                                    <cell rendition="#width300"><ruby>
+                                            <rb>調田</rb>
+                                            <rt place="right">つきた</rt>
+                                        </ruby>に鎮座する<ruby>
+                                            <rb>一事尼古</rb>
+                                            <rt place="right">ひとことねこ</rt>
+                                        </ruby>神の社〈大。月次祭と新嘗祭の班幣対象でもある。〉</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300"><ruby>
+                                            <rb>金村</rb>
+                                            <rt place="right">かなむら</rt>
+                                        </ruby>神の社〈大。月次祭と新嘗祭の班幣対象でもある。〉</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300">葛木<ruby>
+                                            <rb>御県</rb>
+                                            <rt place="right">みあがた</rt>
+                                        </ruby>神の社〈大。月次祭と新嘗祭の班幣対象でもある。〉</cell>
+                                </row>
+                                <row>
+                                    <cell rendition="#width300"><ruby>
+                                            <rb>深溝</rb>
+                                            <rt place="right">ふかみぞ</rt>
+                                        </ruby>神の社</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300"><ruby>
+                                            <rb>火幡</rb>
+                                            <rt place="right">ほはた</rt>
+                                        </ruby>神の社〈名神・大。月次祭と新嘗祭の班幣対象でもある。〉</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300"><ruby>
+                                            <rb>志都美</rb>
+                                            <rt place="right">しつみ</rt>
+                                        </ruby>神社</cell>
+                                </row>
+                                <row>
+                                    <cell rendition="#width300"><ruby>
+                                            <rb>伊射奈岐</rb>
+                                            <rt place="right">いざなき</rt>
+                                        </ruby>神の社</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300"><ruby>
+                                            <rb>当麻都比古</rb>
+                                            <rt place="right">たいまつひこ</rt>
+                                        </ruby>神の社二座</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300">当麻<ruby>
+                                            <rb>山口</rb>
+                                            <rt place="right">やまのくち</rt>
+                                        </ruby>神の社〈大。月次祭と新嘗祭の班幣対象でもある。〉</cell>
+                                </row>
+                                <row>
+                                    <cell rendition="#width300"><ruby>
+                                            <rb>大坂山口</rb>
+                                            <rt place="right">おおさかのやまのくち</rt>
+                                        </ruby>神の社〈大。月次祭と新嘗祭の班幣対象でもある。〉</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300"><ruby>
+                                            <rb>葛木二上</rb>
+                                            <rt place="right">かずらきのふたかみ</rt>
+                                        </ruby>神の社二座〈大。月次祭と新嘗祭の班幣対象でもある。〉</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300"/>
+                                </row>
+                            </table></p>
                         <p ana="項"
                             corresp="engishiki.xml#item09100608 engishiki_en.xml#item09100608"
                             xml:id="item09100608">本文</p>
