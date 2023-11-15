@@ -19,6 +19,33 @@ for p in paragraphs:
             anchor["xml:id"] = anchor_id + 'e'
 
 # 以下、関数でまとめておきたい。首題と式題の校異註についても同様に対応したいところ
+
+# 首題と式題内のanchorへのID付与
+shudai_paras = soup.select('div[type="首題"] p')
+
+for num, para in enumerate(shudai_paras):
+    anchors = para.select('anchor')
+    for index, anchor in enumerate(anchors):
+        anchor_id = 'app' + para.parent["xml:id"][-2:] + '6666' + str((num // 2) + 1).zfill(2) + str((index // 2) + 1).zfill(2)
+        if index % 2 == 0:
+            anchor["xml:id"] = anchor_id
+        else:
+            anchor["xml:id"] = anchor_id + 'e'
+
+
+shikidai_paras = soup.select('div[type="式題"] p')
+
+for num, para in enumerate(shikidai_paras):
+    anchors = para.select('anchor')
+    for index, anchor in enumerate(anchors):
+        anchor_id = 'app' + para.parent["xml:id"][-2:] + '7777' + str((num // 2) + 1).zfill(2) + str((index // 2) + 1).zfill(2)
+        if index % 2 == 0:
+            anchor["xml:id"] = anchor_id
+        else:
+            anchor["xml:id"] = anchor_id + 'e'
+
+
+
 # 尾題と本奥書内のanchorへのID付与
 bidai_paras = soup.select('div[type="尾題"] p')
 
