@@ -2,8 +2,8 @@
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-                            <teiHeader>
-                                                  <fileDesc>
+                      <teiHeader>
+                                            <fileDesc>
                                                   <titleStmt>
                                                   <title>延喜式ファイル</title>
                                                   </titleStmt>
@@ -150,8 +150,8 @@
                                                   </listWit>
                                                   </listWit>
                                                   </sourceDesc>
-                                                  </fileDesc>
-                                                  <encodingDesc>
+                                            </fileDesc>
+                                            <encodingDesc>
                                                   <variantEncoding location="external"
                                                   method="location-referenced"/>
                                                   <tagsDecl>
@@ -400,13 +400,13 @@
                                                   </table>
                                                   </p>
                                                   </editorialDecl>
-                                                  </encodingDesc>
-                                                  <revisionDesc ana="個別">
+                                            </encodingDesc>
+                                            <revisionDesc ana="個別">
                                                   <change/>
-                                                  </revisionDesc>
-                            </teiHeader>
-                            <text>
-                                                  <body>
+                                            </revisionDesc>
+                      </teiHeader>
+                      <text>
+                                            <body>
                                                   <div ana="神名上" n="9" subtype="式" type="巻"
                                                   xml:id="volume9">
                                                   <div type="首題" xml:id="shudai09">
@@ -434,7 +434,8 @@
                                                   <lb/>大四百九十二座 <lb/><s rendition="#indent"
                                                   >三百四座〈並預祈年・月次・新嘗等祭之案上官幣、就中七十一座預相嘗祭、〉</s>
                                                   <lb/><s rendition="#indent">一百八十八座〈並預祈年国幣、〉</s>
-                                                  <lb/>小二千六百卌座 <lb/><s><anchor
+                                                  <lb/>小二千六百卌座 <lb/>
+                                                  <s>四百卅三座〈並預祈年案下官幣、〉</s><s><anchor
                                                   xml:id="app0910010102"/>二<anchor
                                                   xml:id="app0910010102e"/>千二百七座〈並預祈年国幣、〉</s>
                                                   </p>
@@ -583,13 +584,12 @@
                                                   <lb/>造酒司坐神六座〈大四座、小二座、〉 <lb/><s rendition="#indent"
                                                   ><anchor xml:id="app0910020128"/><anchor
                                                   xml:id="app0910020128e"/>大宮売神社四座〈並大、月次、新嘗、〉</s>
-                                                  <lb/><s rendition="#indent">酒殿神社二座〈並小、〉</s>
                                                   <table rendition="#indent2">
                                                   <row>
-                                                  <cell rendition="#width300"><anchor
-                                                  xml:id="app0910020129"/>酒弥豆男神、</cell>
+                                                  <cell rendition="#width300">酒殿神社二座〈並小、〉</cell>
                                                   <cell rendition="#width50"/>
-                                                  <cell rendition="#width300">酒弥豆女神<anchor
+                                                  <cell rendition="#width300"><anchor
+                                                  xml:id="app0910020129"/>酒弥豆男神、酒弥豆女神<anchor
                                                   xml:id="app0910020129e"/>、</cell>
                                                   <cell rendition="#width50"/>
                                                   <cell rendition="#width300"/>
@@ -874,11 +874,11 @@
                                                   xml:id="app0910050409"/>太<anchor
                                                   xml:id="app0910050409e"/>神社</cell>
                                                   <cell rendition="#width50"/>
-                                                  <cell rendition="#width300">貴布禰神社<anchor
-                                                  xml:id="app0910050410"/>〈名神大、月次、新嘗、〉</cell>
-                                                  <cell rendition="#width50"/>
                                                   <cell rendition="#width300"><anchor
-                                                  xml:id="app0910050410e"/></cell>
+                                                  xml:id="app0910050410"/>貴布禰神社<anchor
+                                                  xml:id="app0910050410e"/>〈名神大、月次、新嘗、〉</cell>
+                                                  <cell rendition="#width50"/>
+                                                  <cell rendition="#width300"/>
                                                   </row>
                                                   <row>
                                                   <cell rendition="#width300"><anchor
@@ -895,11 +895,11 @@
                                                   </row>
                                                   <row>
                                                   <cell rendition="#width300"><anchor
-                                                  xml:id="app0910050414"/><anchor
-                                                  xml:id="app0910050414e"/>大田神社<anchor
-                                                  xml:id="app0910050415"/></cell>
+                                                  xml:id="app0910050414"/>大田神社<anchor
+                                                  xml:id="app0910050414e"/></cell>
                                                   <cell rendition="#width50"/>
-                                                  <cell rendition="#width300">三井神社<anchor
+                                                  <cell rendition="#width300"><anchor
+                                                  xml:id="app0910050415"/>三井神社<anchor
                                                   xml:id="app0910050415e"/>〈名神大、月次、新<anchor
                                                   xml:id="app0910050416"/>嘗<anchor
                                                   xml:id="app0910050416e"/>、〉</cell>
@@ -1320,7 +1320,7 @@
                                                   >広瀬郡五座〈大一座、小四座、〉</s>
                                                   <table>
                                                   <row>
-                                                  <cell rendition="#width300">広瀬坐和加宇加1<anchor
+                                                  <cell rendition="#width300">広瀬坐和加宇加<anchor
                                                   xml:id="app0910060501"/>乃<anchor
                                                   xml:id="app0910060501e"/>売命神社〈名神大、月次、新嘗、〉</cell>
                                                   <cell rendition="#width50"/>
@@ -4427,7 +4427,8 @@
                                                   xml:id="item09101501">参河国廿六座〈並小、〉</p>
                                                   <p ana="項"
                                                   corresp="engishiki_en.xml#item09101502 engishiki_ja.xml#item09101502"
-                                                  xml:id="item09101502"><s rendition="#indent"/>
+                                                  xml:id="item09101502"><s rendition="#indent"
+                                                  >賀茂郡七座〈並小、〉</s>
                                                   <table>
                                                   <row>
                                                   <cell rendition="#width300">野見神社</cell>
@@ -4846,7 +4847,8 @@
                                                   xml:id="item09101701">駿河国廿二座〈大一座、小廿一座、〉</p>
                                                   <p ana="項"
                                                   corresp="engishiki_en.xml#item09101702 engishiki_ja.xml#item09101702"
-                                                  xml:id="item09101702"><s rendition="#indent"/>
+                                                  xml:id="item09101702"><s rendition="#indent"
+                                                  >益頭郡四座〈並小、〉</s>
                                                   <table>
                                                   <row>
                                                   <cell rendition="#width300">神神社</cell>
@@ -5879,7 +5881,7 @@
                                                   </p>
                                                   <p ana="項"
                                                   corresp="engishiki_en.xml#item09102405 engishiki_ja.xml#item09102405"
-                                                  xml:id="item09102405"><s/>
+                                                  xml:id="item09102405">
                                                   <table rendition="#indent">
                                                   <row>
                                                   <cell rendition="#width300"><anchor
@@ -5939,7 +5941,7 @@
                                                   </p>
                                                   <p ana="項"
                                                   corresp="engishiki_en.xml#item09102409 engishiki_ja.xml#item09102409"
-                                                  xml:id="item09102409"><s/>
+                                                  xml:id="item09102409">
                                                   <table rendition="#indent">
                                                   <row>
                                                   <cell rendition="#width300">相馬郡一座〈<anchor
@@ -6176,6 +6178,6 @@
                                                   </p>
                                                   </div>
                                                   </div>
-                                                  </body>
-                            </text>
+                                            </body>
+                      </text>
 </TEI>
