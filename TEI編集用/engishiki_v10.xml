@@ -2,8 +2,8 @@
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-                            <teiHeader>
-                                                  <fileDesc>
+                      <teiHeader>
+                                            <fileDesc>
                                                   <titleStmt>
                                                   <title>延喜式ファイル</title>
                                                   </titleStmt>
@@ -150,8 +150,8 @@
                                                   </listWit>
                                                   </listWit>
                                                   </sourceDesc>
-                                                  </fileDesc>
-                                                  <encodingDesc>
+                                            </fileDesc>
+                                            <encodingDesc>
                                                   <variantEncoding location="external"
                                                   method="location-referenced"/>
                                                   <tagsDecl>
@@ -308,7 +308,7 @@
                                                   <cell rendition="#width100">支子染色</cell>
                                                   </row>
                                                   </table></p>
-                                                  <p ana="個別"> 校訂文凡例<table>
+                                                  <p ana="個別">校訂文凡例<table>
                                                   <row>
                                                   <cell>・</cell>
                                                   <cell>校訂に使用した写本とその略称は以下のとおりです。</cell>
@@ -321,7 +321,7 @@
                                                   </row>
                                                   <row>
                                                   <cell rendition="#width100">永本</cell>
-                                                  <cell>鈴鹿義鯨旧蔵卜部兼永筆本（神宮文庫所蔵写真帳（一門一六九七四）により、同文庫所蔵写本（一門一二一八七）も参照した）</cell>
+                                                  <cell>鈴鹿義鯨旧蔵卜部兼永筆本（神宮文庫所蔵写真帳（1門16974）により、同文庫所蔵写本（1門12187）も参照した）</cell>
                                                   </row>
                                                   <row>
                                                   <cell rendition="#width100">九本</cell>
@@ -333,7 +333,7 @@
                                                   </row>
                                                   <row>
                                                   <cell rendition="#width100">吉本</cell>
-                                                  <cell>天理大学附属天理図書館所蔵フランク・ホーレー旧蔵吉田兼倶修補本（三二八・一―イ一七）</cell>
+                                                  <cell>天理大学附属天理図書館所蔵フランク・ホーレー旧蔵吉田兼倶修補本（328.1-イ17）</cell>
                                                   </row>
                                                   <row>
                                                   <cell rendition="#width100">京博本</cell>
@@ -341,29 +341,29 @@
                                                   </row>
                                                   <row>
                                                   <cell rendition="#width100">西本</cell>
-                                                  <cell>國學院大学図書館所蔵三条西家旧蔵本（貴一〇七～一〇八）</cell>
+                                                  <cell>國學院大学図書館所蔵三条西家旧蔵本（貴107～108）</cell>
                                                   </row>
                                                   <row>
                                                   <cell rendition="#width100">貞享本</cell>
-                                                  <cell>宮内庁書陵部所蔵和学講談所旧蔵坊城俊方奥書本（四五七―一一六）</cell>
+                                                  <cell>宮内庁書陵部所蔵和学講談所旧蔵坊城俊方奥書本（457-116）</cell>
                                                   </row>
                                                   <row>
                                                   <cell rendition="#width100">藤波本</cell>
-                                                  <cell>宮内庁書陵部所蔵藤波家旧蔵本（二一七―四七三）</cell>
+                                                  <cell>宮内庁書陵部所蔵藤波家旧蔵本（217-473）</cell>
                                                   </row>
                                                   <row>
                                                   <cell rendition="#width100">玄梁本</cell>
-                                                  <cell>無窮会専門図書館所蔵神習文庫玄梁記名本（神習三六六八）</cell>
+                                                  <cell>無窮会専門図書館所蔵神習文庫玄梁記名本（神習3668）</cell>
                                                   </row>
                                                   </table>
                                                   <table>
                                                   <row>
                                                   <cell>・</cell>
-                                                  <cell>土本を底本とします。永本・九本・花本・吉本・京博本との校異は傍訓・傍書等を除き、できる限り網羅的に紹介することに努めました。永本の誤写が疑われる場合には、西本にも言及しました。なお、九条家巻子本の補写部分（巻一〇１東山道～２近江国条）は対校に使用しません。また京博本の朱書は版本との校合結果を記したものが多いため、言及するのは一部にとどめました。</cell>
+                                                  <cell>土本を底本とします。永本・九本・花本・吉本・京博本との校異は傍訓・傍書等を除き、できる限り網羅的に紹介することに努めました。永本の誤写が疑われる場合には、西本にも言及しました。なお、九条家巻子本の補写部分（1東山道～2近江国条）は対校に使用しません。また京博本の朱書は版本との校合結果を記したものが多いため、言及するのは一部にとどめました。</cell>
                                                   </row>
                                                   <row>
                                                   <cell>・</cell>
-                                                  <cell>条文番号・条文名称は原則として虎尾俊哉編『訳注日本史料　延喜式』〔集英社、「訳注本」と略称〕に従います。一条文が長文にわたる場合には、適宜（１）（２）等の項目番号を私に付し、分割して表示します。</cell>
+                                                  <cell>条文番号・条文名称は原則として虎尾俊哉編『訳注日本史料　延喜式』（集英社、「訳注本」と略称）に従います。一条文が長文にわたる場合には、適宜（1）（2）等の項目番号を私に付し、分割して表示します。</cell>
                                                   </row>
                                                   <row>
                                                   <cell>・</cell>
@@ -383,11 +383,11 @@
                                                   </row>
                                                   <row>
                                                   <cell>・</cell>
-                                                  <cell>「少」と「小」等、容易に判定される誤字や誤用・通用については、校異を省略して適宜置き換えた場合があります。ただし「𤭖」「瓺」、「兎」「菟」は区別し、「大」「太」も巻九・一〇に限っては区別することとしました（「𤭖」「瓺」、「兎」「菟」の訳注本との異同についての校異は省略）。また「廿」「二十」、「卅」「三十」、「卌」「四十」の相違については校異を省略し、底本の文字にかかわらず原則として「廿」「卅」「卌」を採用することとしました。</cell>
+                                                  <cell>「少」と「小」等、容易に判定される誤字や誤用・通用については、校異を省略して適宜置き換えた場合があります。ただし「𤭖」「瓺」、「兎」「菟」は区別し、「大」「太」も巻9・10に限っては区別することとしました（「𤭖」「瓺」、「兎」「菟」の訳注本との異同についての校異は省略）。また「廿」「二十」、「卅」「三十」、「卌」「四十」の相違については校異を省略し、底本の文字にかかわらず原則として「廿」「卅」「卌」を採用することとしました。</cell>
                                                   </row>
                                                   <row>
                                                   <cell>・</cell>
-                                                  <cell>条文名に関する鼇頭標目については省略します。金剛寺本・花山院本のみに見られる「貞」「延」「府」等の朱筆標注は、「」で括って校訂本文に記しました。</cell>
+                                                  <cell>条文名に関する鼇頭標目については省略します。金剛寺本・花山院本のみに見られる「貞」「延」「府」等の朱筆標注は、「　」で括って校訂本文に記しました。</cell>
                                                   </row>
                                                   <row>
                                                   <cell>・</cell>
@@ -400,13 +400,13 @@
                                                   </table>
                                                   </p>
                                                   </editorialDecl>
-                                                  </encodingDesc>
-                                                  <revisionDesc ana="個別">
+                                            </encodingDesc>
+                                            <revisionDesc ana="個別">
                                                   <change/>
-                                                  </revisionDesc>
-                            </teiHeader>
-                            <text>
-                                                  <body>
+                                            </revisionDesc>
+                      </teiHeader>
+                      <text>
+                                            <body>
                                                   <div ana="神名下" n="10" subtype="式" type="巻"
                                                   xml:id="volume10">
                                                   <div type="首題" xml:id="shudai10">
@@ -543,7 +543,7 @@
                                                   <cell rendition="#width50"/>
                                                   <cell rendition="#width300">比利多神社</cell>
                                                   <cell rendition="#width50"/>
-                                                  <cell rendition="#width300">比利多神社　</cell>
+                                                  <cell rendition="#width300">上新川神社</cell>
                                                   </row>
                                                   <row>
                                                   <cell rendition="#width300">馬路石辺神社</cell>
@@ -728,7 +728,7 @@
                                                   <row>
                                                   <cell rendition="#width300">走落神社</cell>
                                                   <cell rendition="#width50"/>
-                                                  <cell rendition="#width300">走落神社</cell>
+                                                  <cell rendition="#width300">足前神社</cell>
                                                   <cell rendition="#width50"/>
                                                   <cell rendition="#width300">久留弥多神社</cell>
                                                   </row>
@@ -742,7 +742,7 @@
                                                   <cell rendition="#width300">阿加穂神社</cell>
                                                   </row>
                                                   <row>
-                                                  <cell rendition="#width300">阿加穂神社</cell>
+                                                  <cell rendition="#width300">桜市神社</cell>
                                                   <cell rendition="#width50"/>
                                                   <cell rendition="#width300"><anchor
                                                   xml:id="app1010021203"/>等波神社<anchor
@@ -788,7 +788,7 @@
                                                   <cell rendition="#width300">玉作神社</cell>
                                                   </row>
                                                   <row>
-                                                  <cell rendition="#width300">玉作神社</cell>
+                                                  <cell rendition="#width300">意富布良神社</cell>
                                                   <cell rendition="#width50"/>
                                                   <cell rendition="#width300">伊波太岐神社</cell>
                                                   <cell rendition="#width50"/>
@@ -836,8 +836,8 @@
                                                   <table>
                                                   <row>
                                                   <cell rendition="#width300"><anchor
-                                                  xml:id="app1010021301"/>水尾神社二座<anchor
-                                                  xml:id="app1010021301e"/>〈並名神大、月次、新嘗、〉</cell>
+                                                  xml:id="app1010021301"/>水尾神社<anchor
+                                                  xml:id="app1010021301e"/>二座〈並名神大、月次、新嘗、〉</cell>
                                                   <cell rendition="#width50"/>
                                                   <cell rendition="#width300">阿志都<anchor
                                                   xml:id="app1010021302"/>弥<anchor
@@ -881,6 +881,7 @@
                                                   <cell rendition="#width300">大前神社</cell>
                                                   <cell rendition="#width50"/>
                                                   <cell rendition="#width300">坂本神社</cell>
+                                                  <cell rendition="#width50"/>
                                                   <cell rendition="#width300">大処神社</cell>
                                                   </row>
                                                   <row>
@@ -1190,8 +1191,8 @@
                                                   xml:id="app1010050301e"/>、〉</cell>
                                                   <cell rendition="#width50"/>
                                                   <cell rendition="#width300"><anchor
-                                                  xml:id="app1010050302"/>南方刀美神社二座<anchor
-                                                  xml:id="app1010050302e"/>〈名神大、〉</cell>
+                                                  xml:id="app1010050302"/>南方刀美神社<anchor
+                                                  xml:id="app1010050302e"/>二座〈名神大、〉</cell>
                                                   <cell rendition="#width50"/>
                                                   <cell rendition="#width300"/>
                                                   </row>
@@ -1289,9 +1290,16 @@
                                                   xml:id="app1010050701"/>白玉<anchor
                                                   xml:id="app1010050701e"/>足穂命神社</cell>
                                                   <cell rendition="#width50"/>
+                                                  <cell rendition="#width300"/>
+                                                  </row>
+                                                  <row>
                                                   <cell rendition="#width300"><anchor
                                                   xml:id="app1010050702"/>健御名方富命彦神別神社<anchor
                                                   xml:id="app1010050702e"/>〈名神大、〉</cell>
+                                                  <cell rendition="#width50"/>
+                                                  <cell rendition="#width300"/>
+                                                  <cell rendition="#width50"/>
+                                                  <cell rendition="#width300"/>
                                                   </row>
                                                   </table></p>
                                                   <p ana="項"
@@ -1468,7 +1476,7 @@
                                                   <p ana="項"
                                                   corresp="engishiki_en.xml#item10100608 engishiki_ja.xml#item10100608"
                                                   xml:id="item10100608">
-                                                  <table>
+                                                  <table rendition="#indent">
                                                   <row>
                                                   <cell rendition="#width300">佐位郡一座〈小、〉</cell>
                                                   <cell rendition="#width50"/>
@@ -1616,8 +1624,7 @@
                                                   xml:id="item10100803">
                                                   <table rendition="#indent">
                                                   <row>
-                                                  <cell rendition="#width300"
-                                                  >苅田郡一座〈大、〉苅田嶺神社〈名神大、〉</cell>
+                                                  <cell rendition="#width300">苅田郡一座〈大、〉</cell>
                                                   <cell rendition="#width50"/>
                                                   <cell rendition="#width300">苅田嶺神社〈名神大、〉</cell>
                                                   <cell rendition="#width50"/>
@@ -8414,6 +8421,6 @@
                                                   </table></p>
                                                   </div>
                                                   </div>
-                                                  </body>
-                            </text>
+                                            </body>
+                      </text>
 </TEI>
