@@ -785,7 +785,18 @@
               xml:id="item09100501">山城国一百廿二座 <lb/><s rendition="#indent"
                   >大五十三座〈並月次・新嘗、就中十一座預相嘗祭、〉　小六十<anchor xml:id="app0910050101"/>九<anchor
                   xml:id="app0910050101e"/>座〈<anchor xml:id="app0910050102"/>並官幣<anchor
-                  xml:id="app0910050102e"/>、〉</s></p>
+                  xml:id="app0910050102e"/>、〉</s>
+            </p>
+            <app from="#app0910050201" to="#app0910050201e">
+              <lem wit="#土本 #永本 #吉本 #京博本">九</lem>
+              <rdg wit="#剛本"/>
+              <note>九　剛本無し、土本・永本・吉本・京博本あり。</note>
+            </app>
+            <app from="#app0910050102" to="#app0910050102e">
+              <lem wit="#永本">並官幣</lem>
+              <rdg wit="#土本 #剛本 #吉本 #京博本"/>
+              <note>並官幣　永本あり、土本・剛本・吉本・京博本なし。</note>
+            </app>
             <p ana="項" corresp="engishiki_en.xml#item09100502 engishiki_ja.xml#item09100502"
               xml:id="item09100502"><s rendition="#indent">乙訓郡十九座〈大五座、小十四座、〉</s><table>
                 <row>
@@ -843,7 +854,38 @@
                   <cell rendition="#width50"/>
                   <cell rendition="#width300"/>
                 </row>
-              </table></p>
+              </table>
+            </p>
+            <app from="#app0910050201" to="#app0910050201e">
+              <lem wit="#永本 #剛本">火</lem>
+              <rdg wit="#土本 #吉本 #京博本">大</rdg>
+              <note place="左傍">剛本左傍書「或本火」</note>
+              <note>火　吉本・京博本・土本「大」。永本・剛本「火」による。剛本左傍書も「或本火」。</note>
+            </app>
+            <app from="#app0910050202" to="#app0910050202e" type="標注">
+              <lem>貞</lem>
+            </app>
+            <app from="#app0910050203" to="#app0910050203e">
+              <lem wit="#土本 #永本 #剛本 #京博本">大、月次、新嘗</lem>
+              <rdg wit="#吉本"/>
+              <note>大月次新嘗　吉本なし。土本・剛本・永本・京博本あり。</note>
+            </app>
+            <app from="#app0910050204" to="#app0910050204e" type="標注">
+              <lem>貞</lem>
+            </app>
+            <app from="#app0910050205" to="#app0910050205e">
+              <lem wit="#土本 #永本 #剛本 #吉本 #京博本">酒解</lem>
+              <rdg/>
+              <note place="傍">剛本傍書「字ヤマサキノカミ」</note>
+              <note place="左傍">吉本左傍書「字ヤマサキノカミ」</note>
+              <note place="傍">永本傍書「ウテヤマサキノカミ」</note>
+            </app>
+            <app from="#app0910050206" to="#app0910050206e">
+              <lem wit="#剛本 #永本 #吉本">名神大、月次、新嘗、元名山埼社</lem>
+              <rdg wit="#土本"/>
+              <rdg wit="#京博本">名神大、月次、新嘗、元名山崎社</rdg>
+              <note>名神大月次新嘗元名山埼社　土本なし。剛本・永本・吉本あり。京博本は「埼」を「崎」に作る。</note>
+            </app>
             <p ana="項" corresp="engishiki_en.xml#item09100503 engishiki_ja.xml#item09100503"
               xml:id="item09100503"><s rendition="#indent">葛野郡廿座〈大十四座、小六座、〉</s>
               <table>
@@ -900,6 +942,87 @@
                 </row>
               </table>
             </p>
+            <app from="#app0910050301" to="#app0910050301e">
+              <lem wit="#土本 #永本 #剛本 #吉本 #京博本">葛野坐月読神社</lem>
+              <rdg/>
+              <note place="頭">永本頭注「松尾末社」</note>
+              <note place="頭">吉本頭注「松尾末社」</note>
+            </app>
+            <app from="#app0910050302" to="#app0910050302e">
+              <lem wit="#土本 #永本 #剛本 #吉本 #京博本">木島坐天照御魂神社</lem>
+              <rdg/>
+              <note place="脚">吉本脚書「新嘗無官、」</note>
+            </app>
+            <app from="#app0910050303" to="#app0910050303e">
+              <lem wit="#永本 #剛本 #吉本 #京博本">相嘗</lem>
+              <rdg wit="#土本">想</rdg>
+              <note>相嘗　土本「想」。剛本・永本・吉本・京博本「相嘗」</note>
+            </app>
+            <app from="#app0910050304" to="#app0910050304e" type="標注">
+              <lem>貞</lem>
+            </app>
+            <app from="#app0910050305" to="#app0910050305e">
+              <lem wit="#土本 #永本 #吉本 #京博本">相嘗</lem>
+              <rdg wit="#剛本"/>
+              <note>相嘗　土本・永本・吉本・京博本「相嘗」、剛本なし。</note>
+            </app>
+            <app from="#app0910050306" to="#app0910050306e" type="標注">
+              <lem>貞</lem>
+            </app>
+            <app from="#app0910050307" to="#app0910050307e">
+              <lem wit="#土本 #永本 #剛本 #吉本 #京博本">櫟谷神社</lem>
+              <rdg/>
+              <note place="脚">永本脚書「松尾末社」</note>
+              <note place="頭">吉本頭注「松尾末社」</note>
+            </app><app from="#app0910050308" to="#app0910050308e" type="標注">
+              <lem>貞</lem>
+            </app>
+            <app from="#app0910050309" to="#app0910050309e">
+              <lem wit="#土本 #永本 #剛本 #吉本 #京博本">平野祭神</lem>
+              <rdg/>
+              <note place="左傍">永本左傍書「合波比咩神一座」</note>
+              <note place="左傍">吉本左傍書「合波比咩神一座」</note>
+            </app>
+            <app from="#app0910050310" to="#app0910050310e">
+              <lem wit="#土本 #永本 #剛本 #京博本">社</lem>
+              <rdg wit="#吉本">座</rdg>
+              <note>社　訳注本は吉本により「座」を採用する。永本・剛本・京博本・土本「社」。</note>
+            </app>
+            <app from="#app0910050311" to="#app0910050311e">
+              <lem wit="#土本 #永本 #剛本 #京博本">社</lem>
+              <rdg wit="#吉本">座</rdg>
+              <note>社　訳注本は吉本により「座」を採用する。永本・剛本・京博本・土本「社」。</note>
+            </app>
+            <app from="#app0910050312" to="#app0910050312e">
+              <lem wit="#土本 #永本 #剛本 #京博本">天津石門別稚姫神社</lem>
+              <rdg wit="#吉本">天津石門別推姫神社</rdg>
+              <note place="左傍">吉本左傍書「稚」</note>
+              <note place="傍">剛本傍書「字トクノヲカノカミ」</note>
+              <note place="左傍">永本左傍書「ウトケノヲカノカミ」</note>
+              <note place="傍">吉本朱傍書「<seg style="color:red">ウトクノヲカノ</seg>」</note>
+              <note place="裏">吉本裏書「天津石門別稚姫神社、神式第三不載名神祭者也、」</note>
+              <note>天津石門別稚姫神社　「稚」字吉本「推」、左傍書「稚」。土本・永本・剛本・京博本「稚」。剛本傍書・永本左傍書・吉本朱傍書「字トクノヲカノ」（永本左傍書・吉本朱傍書は「字」を「ウ」に誤り、末尾に「カミ」二字あり、永本左傍書はさらに「ク」を「ケ」に誤る）。吉本裏書「天津石門別稚姫神社、神式第三不載名神祭者也、」。</note>
+            </app>
+            <app from="#app0910050313" to="#app0910050313e">
+              <lem wit="#永本 #剛本 #吉本 #京博本">名神大、月次、新嘗</lem>
+              <rdg wit="#土本"/>
+              <note>名神大月次新嘗　土本なし。剛本・永本・吉本・京博本あり。</note>
+            </app>
+            <app from="#app0910050314" to="#app0910050314e" type="標注">
+              <lem>貞</lem>
+            </app>
+            <app from="#app0910050315" to="#app0910050315e">
+              <lem wit="#土本 #永本 #剛本 #吉本 #京博本">伴氏神社</lem>
+              <rdg/>
+              <note place="左傍">永本左朱傍書「<seg style="color:red">トクノヲカノ</seg>」</note>
+              <note place="傍">吉本傍書「トクノヲカノ」</note>
+              <note>伴氏神社　永本左朱傍書・吉本傍書「トクノヲカノ」。正しくは天津石門別稚姫神社にかかるべきものか。</note>
+            </app>
+            <app from="#app0910050316" to="#app0910050316e">
+              <lem wit="#土本 #剛本 #吉本 #京博本">辟</lem>
+              <rdg wit="#永本 #西本">砕</rdg>
+              <note>辟　永本・西本「砕」。剛本・吉本・京博本・土本「辟」。</note>
+            </app>
             <p ana="項" corresp="engishiki_en.xml#item09100504 engishiki_ja.xml#item09100504"
               xml:id="item09100504"><s rendition="#indent">愛宕郡廿一座〈大八座、小十三座、〉</s>
               <table>
@@ -917,8 +1040,8 @@
                 </row>
                 <row>
                   <cell rendition="#width300"><anchor xml:id="app0910050406"/>賀茂御<anchor
-                      xml:id="app0910050406e"/>祖<anchor xml:id="app0910050407"/>神社<anchor
-                      xml:id="app0910050407e"/>二座〈並名神大、月次、相嘗、新嘗、〉</cell>
+                      xml:id="app0910050407"/>祖<anchor xml:id="app0910050407e"/>神社<anchor
+                      xml:id="app0910050406e"/>二座〈並名神大、月次、相嘗、新嘗、〉</cell>
                   <cell rendition="#width50"/>
                   <cell rendition="#width300">出雲高野神社</cell>
                   <cell rendition="#width50"/>
@@ -980,6 +1103,106 @@
                 </row>
               </table>
             </p>
+            <app from="#app0910050401" to="#app0910050401e">
+              <lem wit="#土本 #永本 #剛本 #吉本 #京博本">賀茂別雷神社</lem>
+              <rdg/>
+              <note place="頭">永本頭注「上社」</note>
+              <note place="頭">吉本頭注「上社」</note>
+            </app>
+            <app from="#app0910050402" to="#app0910050402e">
+              <lem wit="#土本 #永本 #剛本 #吉本 #京博本">亦若</lem>
+              <rdg/>
+              <note place="傍">永本朱傍書「<seg style="color:red">名</seg>」</note>
+              <note>亦若　土本・永本・剛本・吉本・京博本「亦若」。永本朱傍書「名」。</note>
+            </app>
+            <app from="#app0910050403" to="#app0910050403e">
+              <lem wit="#土本 #永本 #剛本 #吉本 #京博本">名</lem>
+              <rdg/>
+              <note place="傍">永本朱傍書「<seg style="color:red">名ノ字ナシ、</seg>」</note>
+            </app>
+            <app from="#app0910050404" to="#app0910050404e">
+              <lem wit="#土本 #永本 #剛本 #吉本 #京博本">出雲井於神社</lem>
+              <rdg/>
+              <note place="傍">永本傍書「私云、神式第二相嘗祭出雲井上社一座是也、」</note>
+              <note place="脚">吉本脚書「私云、神式第二相嘗祭出雲井上社一座是也、」</note>
+            </app>
+            <app from="#app0910050405" to="#app0910050405e">
+              <lem wit="#土本 #永本 #吉本 #京博本">相嘗</lem>
+              <rdg wit="#剛本"/>
+              <note>相嘗　剛本なし。永本・土本・吉本・京博本「相嘗」。</note>
+            </app>
+            <app from="#app0910050406" to="#app0910050406e">
+              <lem wit="#土本 #永本 #剛本 #吉本 #京博本">賀茂御祖神社</lem>
+              <rdg/>
+              <note place="頭">永本頭注「下社」</note>
+              <note place="頭">吉本頭注「下社」</note>
+            </app>
+            <app from="#app0910050407" to="#app0910050407e">
+              <lem wit="#土本 #永本 #剛本 #京博本">祖</lem>
+              <rdg wit="#吉本">社</rdg>
+              <note>祖　吉本「社」、土本・永本・剛本・京博本「祖」。</note>
+            </app>
+            <app from="#app0910050408" to="#app0910050408e">
+              <lem wit="#土本 #永本 #剛本 #京博本">末</lem>
+              <rdg wit="#吉本">未</rdg>
+              <note>末　吉本「未」。土本・永本・剛本・京博本「末」。</note>
+            </app>
+            <app from="#app0910050409" to="#app0910050409e">
+              <lem wit="#土本 #剛本 #京博本 #吉本朱傍書">太</lem>
+              <rdg wit="#永本 #吉本">大</rdg>
+              <note place="傍">吉本朱傍書「<seg style="color:red">太</seg>」</note>
+              <note>太　永本、吉本本文「大」。土本・剛本・京博本、吉本朱傍書「太」。</note>
+            </app>
+            <app from="#" to="#e">
+              <lem></lem>
+              <rdg></rdg>
+              <note></note>
+            </app>
+            <app from="#" to="#e">
+              <lem></lem>
+              <rdg></rdg>
+              <note></note>
+            </app>
+            <app from="#" to="#e">
+              <lem></lem>
+              <rdg></rdg>
+              <note></note>
+            </app>
+            <app from="#" to="#e">
+              <lem></lem>
+              <rdg></rdg>
+              <note></note>
+            </app>
+            <app from="#" to="#e">
+              <lem></lem>
+              <rdg></rdg>
+              <note></note>
+            </app>
+            <app from="#" to="#e">
+              <lem></lem>
+              <rdg></rdg>
+              <note></note>
+            </app>
+            <app from="#" to="#e">
+              <lem></lem>
+              <rdg></rdg>
+              <note></note>
+            </app>
+            <app from="#" to="#e">
+              <lem></lem>
+              <rdg></rdg>
+              <note></note>
+            </app>
+            <app from="#" to="#e">
+              <lem></lem>
+              <rdg></rdg>
+              <note></note>
+            </app>
+            <app from="#" to="#e">
+              <lem></lem>
+              <rdg></rdg>
+              <note></note>
+            </app>
             <p ana="項" corresp="engishiki_en.xml#item09100505 engishiki_ja.xml#item09100505"
               xml:id="item09100505"><s rendition="#indent">紀伊郡八座〈大三座、小五座、〉</s>
               <table>
