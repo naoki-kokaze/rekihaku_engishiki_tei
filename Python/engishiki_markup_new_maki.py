@@ -39,7 +39,7 @@ def lang_corresp(lang_choice):
     return corresp_list
 
 corresp_list = lang_corresp(lang_choice)
-output_filename = f'../途中生成物/engishiki_v{file_volume}{lang_choice}.xml'
+output_filename = f'../TEI編集用/engishiki_v{file_volume}{lang_choice}.xml'
 
 
 # headerを書き込む
