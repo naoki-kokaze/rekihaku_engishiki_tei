@@ -292,363 +292,1811 @@
         <body>
             <div ana="神名下" n="10" subtype="式" type="巻" xml:id="volume10">
                 <div type="首題" xml:id="shudai10">
-                    <p xml:id="shudai1001">首題</p>
+                    <p xml:id="shudai1001">延喜式巻第十〈神祇十〉</p>
                 </div>
                 <div ana="神名下" corresp="engishiki.xml#protocol101 engishiki_en.xml#protocol101"
                     n="10" subtype="条" type="式" xml:id="protocol101">
                     <div type="式題" xml:id="shikidai101">
-                        <p xml:id="shikidai10101">式題</p>
+                        <p xml:id="shikidai10101">神名下〈東山 北陸 山陰 山陽 南海 西海〉</p>
                     </div>
                     <div ana="神名下"
                         corresp="engishiki.xml#article101001 engishiki_en.xml#article101001"
                         n="10.1" subtype="項" type="条" xml:id="article101001">
                         <head ana="東山道"/>
-                        <note type="summary">条文概要</note>
+                        <note type="summary">東山道の官社数</note>
                         <p ana="項"
                             corresp="engishiki.xml#item10100101 engishiki_en.xml#item10100101"
-                            xml:id="item10100101">本文</p>
+                            xml:id="item10100101">東山道神三百八十二座 <lb/><s rendition="#indent"
+                                >大四十二座〈このうち五座は月次祭・新嘗祭にて案上の班幣の対象。〉</s>
+                            <lb/><s rendition="#indent">小三百四十座</s>
+                        </p>
                     </div>
                     <div ana="神名下"
                         corresp="engishiki.xml#article101002 engishiki_en.xml#article101002"
                         n="10.2" subtype="項" type="条" xml:id="article101002">
                         <head ana="近江国"/>
-                        <note type="summary">条文概要</note>
+                        <note type="summary">近江国の官社</note>
                         <p ana="項"
                             corresp="engishiki.xml#item10100201 engishiki_en.xml#item10100201"
-                            xml:id="item10100201">本文</p>
+                            xml:id="item10100201"><ruby>
+                                <rb>近江国</rb>
+                                <rt>おうみのくに</rt>
+                            </ruby>一百五十五座〈大十三座。小一百四十二座。〉</p>
                         <p ana="項"
                             corresp="engishiki.xml#item10100202 engishiki_en.xml#item10100202"
-                            xml:id="item10100202">本文</p>
+                            xml:id="item10100202"><s rendition="#indent">滋賀郡（しがぐん）八座〈大三座。小五座。〉</s>
+                            <table>
+                                <row>
+                                    <cell rendition="#width300">那波加（なわか）神の社</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300">倭（しとり）神の社</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300">石坐（いわい）神の社</cell>
+                                </row>
+                                <row>
+                                    <cell rendition="#width300">神田（かんだ）神の社</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300">小野（おの）神の社二座〈ともに名神・大。〉</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300">日吉（ひえ）神の社〈名神・大。〉</cell>
+                                </row>
+                                <row>
+                                    <cell rendition="#width300">小椋（おぐら）神の社</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300"/>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300"/>
+                                </row>
+                            </table>
+                        </p>
                         <p ana="項"
                             corresp="engishiki.xml#item10100203 engishiki_en.xml#item10100203"
-                            xml:id="item10100203">本文</p>
+                            xml:id="item10100203"><s rendition="#indent">栗太郡（くるもとぐん）八座〈大二座。小六座。〉</s>
+                            <table>
+                                <row>
+                                    <cell rendition="#width300">蘆井（いおのい）神の社</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300">意布伎（いぶき）神の社</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300">小槻（おづき）大社</cell>
+                                </row>
+                                <row>
+                                    <cell rendition="#width300">小槻（おづき）神の社</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300">高野（たかの）神の社</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300">印岐志呂（いきしろ）神の社</cell>
+                                </row>
+                                <row>
+                                    <cell rendition="#width300">佐久奈度（さくなど）神の社〈名神・大。〉</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300">建部（たけべ）神の社〈名神・大。〉</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300"/>
+                                </row>
+                            </table>
+                        </p>
                         <p ana="項"
                             corresp="engishiki.xml#item10100204 engishiki_en.xml#item10100204"
-                            xml:id="item10100204">本文</p>
+                            xml:id="item10100204"><s rendition="#indent">甲賀郡（こうがぐん）八座〈大二座。小六座。〉</s>
+                            <table>
+                                <row>
+                                    <cell rendition="#width300">矢川（やかわ）神の社</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300">水口（みなくち）神の社</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300">石部鹿塩上（いそべのかしおのかみ）神の社</cell>
+                                </row>
+                                <row>
+                                    <cell rendition="#width300"
+                                        >川田（かわた）神の社二座〈ともに名神・大。月次祭と新嘗祭の班幣対象でもある。〉</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300">飯道（いいみち）神の社</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300">川枯（かわかれ）神の社二座</cell>
+                                </row>
+                            </table>
+                        </p>
                         <p ana="項"
                             corresp="engishiki.xml#item10100205 engishiki_en.xml#item10100205"
-                            xml:id="item10100205">本文</p>
+                            xml:id="item10100205"><s rendition="#indent">野洲郡（やすぐん）九座〈大二座。小七座。〉</s>
+                            <table>
+                                <row>
+                                    <cell rendition="#width300"
+                                        >御上（みかみ）神の社〈名神・大。月次祭と新嘗祭の班幣対象でもある。〉</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300">小津（おつ）神の社</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300">下新川（しものにいかわ）神の社</cell>
+                                </row>
+                                <row>
+                                    <cell rendition="#width300">兵主（ひょうず）神の社〈名神・大。〉</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300">比利多（ひりた）神の社</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300">上新川（かみのにいかわ）神の社</cell>
+                                </row>
+                                <row>
+                                    <cell rendition="#width300">馬路石辺（うまみちのいそべ）神の社</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300">己爾乃（こにの）神の社二座</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300"/>
+                                </row>
+                            </table>
+                        </p>
                         <p ana="項"
                             corresp="engishiki.xml#item10100206 engishiki_en.xml#item10100206"
-                            xml:id="item10100206">本文</p>
+                            xml:id="item10100206"><s rendition="#indent">蒲生郡（がもうぐん）十一座〈大一座。小十座。〉</s>
+                            <table>
+                                <row>
+                                    <cell rendition="#width300">大島（おおしま）神の社</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300">奥石（おいそ）神の社</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300">石部（いそべ）神の社</cell>
+                                </row>
+                                <row>
+                                    <cell rendition="#width300">大屋（おおや）神の社</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300">比都佐（ひつさ）神の社</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300">長寸（ながす）神の社</cell>
+                                </row>
+                                <row>
+                                    <cell rendition="#width300">沙沙貴（ささき）神の社</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300">菅田（すたが）神の社</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300">馬見岡（うまみおか）神の社二座</cell>
+                                </row>
+                                <row>
+                                    <cell rendition="#width300">奥津島（おくつしま）神の社〈名神・大。〉</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300"/>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300"/>
+                                </row>
+                            </table>
+                        </p>
                         <p ana="項"
                             corresp="engishiki.xml#item10100207 engishiki_en.xml#item10100207"
-                            xml:id="item10100207">本文</p>
+                            xml:id="item10100207"><s rendition="#indent">神崎郡（かんざきぐん）二座〈小。〉</s>
+                            <table>
+                                <row>
+                                    <cell rendition="#width300">乎加（おか）神の社</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300">川桁（かわげた）神の社</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300"/>
+                                </row>
+                            </table>
+                        </p>
                         <p ana="項"
                             corresp="engishiki.xml#item10100208 engishiki_en.xml#item10100208"
-                            xml:id="item10100208">本文</p>
+                            xml:id="item10100208"><s rendition="#indent">愛智郡（えちぐん）三座〈小。〉</s>
+                            <table>
+                                <row>
+                                    <cell rendition="#width300">軽野（かろの）神の社</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300">石部（いそべ）神の社二座</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300"/>
+                                </row>
+                            </table>
+                        </p>
                         <p ana="項"
                             corresp="engishiki.xml#item10100209 engishiki_en.xml#item10100209"
-                            xml:id="item10100209">本文</p>
+                            xml:id="item10100209"><s rendition="#indent">犬上郡（いぬかみぐん）七座〈小。〉</s>
+                            <table>
+                                <row>
+                                    <cell rendition="#width300">阿自支（あじき）神の社二座</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300">多何（たか）神の社二座</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300">日向（ひむかい）神の社</cell>
+                                </row>
+                                <row>
+                                    <cell rendition="#width300">都恵（つえ）神の社</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300">山田（やまだ）神の社</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300"/>
+                                </row>
+                            </table>
+                        </p>
                         <p ana="項"
                             corresp="engishiki.xml#item10100210 engishiki_en.xml#item10100210"
-                            xml:id="item10100210">本文</p>
+                            xml:id="item10100210"><s rendition="#indent">坂田郡（さかたぐん）五座〈小。〉</s>
+                            <table>
+                                <row>
+                                    <cell rendition="#width300">山田（やまだ）神の社</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300">日撫（ひなで）神の社</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300">伊夫伎（いぶき）神の社</cell>
+                                </row>
+                                <row>
+                                    <cell rendition="#width300">岡（おか）神の社</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300">山津照（やまつてらす）神の社</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300"/>
+                                </row>
+                            </table>
+                        </p>
                         <p ana="項"
                             corresp="engishiki.xml#item10100211 engishiki_en.xml#item10100211"
-                            xml:id="item10100211">本文</p>
+                            xml:id="item10100211"><s rendition="#indent">浅井郡（あさいぐん）十四座〈小。〉</s>
+                            <table>
+                                <row>
+                                    <cell rendition="#width300">塩津（しおつ）神の社</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300">湯次（ゆすき）神の社</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300">波久奴（はくぬ）神の社</cell>
+                                </row>
+                                <row>
+                                    <cell rendition="#width300">小江（おえ）神の社</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300">下塩津（しものしおつ）神の社</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300">矢合（やあい）神の社</cell>
+                                </row>
+                                <row>
+                                    <cell rendition="#width300">岡本（おかもと）神の社</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300">片山（かたやま）神の社二座</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300">比支多理（ひきたり）神の社</cell>
+                                </row>
+                                <row>
+                                    <cell rendition="#width300">麻蘇多（まそた）神の社</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300">上許曾（かみこそ）神の社</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300">大羽（おおは）神の社</cell>
+                                </row>
+                                <row>
+                                    <cell rendition="#width300">都久夫須麻（つくぶすま）神の社</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300"/>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300"/>
+                                </row>
+                            </table>
+                        </p>
                         <p ana="項"
                             corresp="engishiki.xml#item10100212 engishiki_en.xml#item10100212"
-                            xml:id="item10100212">本文</p>
+                            xml:id="item10100212"><s rendition="#indent"
+                                >伊香郡（いかごぐん）四十六座〈大一座。小四十五座。〉</s>
+                            <table>
+                                <row>
+                                    <cell rendition="#width300">伊香具（いかご）神の社〈名神・大。〉</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300">乃弥（のみ）神の社</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300">神前（かんざき）神の社</cell>
+                                </row>
+                                <row>
+                                    <cell rendition="#width300">大沢（おおさわ）神の社</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300">天八百列（あめのやおつら）神の社</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300">乎弥（おみ）神の社</cell>
+                                </row>
+                                <row>
+                                    <cell rendition="#width300">走落（はしりおち）神の社</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300">足前（あしさき）神の社</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300">久留弥多（くるみた）神の社</cell>
+                                </row>
+                                <row>
+                                    <cell rendition="#width300">売比多（めひた）神の社</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300">意波閉（おはえ）神の社</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300">阿加穂（あかほ）神の社</cell>
+                                </row>
+                                <row>
+                                    <cell rendition="#width300">桜市（さくらいち）神の社</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300">等波（とば）神の社</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300">横山（よこやま）神の社</cell>
+                                </row>
+                                <row>
+                                    <cell rendition="#width300">多太（おおた）神の社</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300">兵主（ひょうず）神の社</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300">赤見（あかみ）神の社</cell>
+                                </row>
+                                <row>
+                                    <cell rendition="#width300">波弥（はみ）神の社</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300">桜椅（さくらはし）神の社</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300">甘櫟前（いちいさき）神の社</cell>
+                                </row>
+                                <row>
+                                    <cell rendition="#width300">佐味（さみ）神の社</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300">椿（つばき）神の社</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300">佐波加刀（さわかと）神の社</cell>
+                                </row>
+                                <row>
+                                    <cell rendition="#width300">伊香具坂（いかござか）神の社</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300">与志漏（よしろ）神の社</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300">布勢立石（ふせのたていし）神の社</cell>
+                                </row>
+                                <row>
+                                    <cell rendition="#width300">乃伎多（のきた）神の社</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300">石作（いしつくり）神の社</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300">玉作（たまつくり）神の社</cell>
+                                </row>
+                                <row>
+                                    <cell rendition="#width300">意富布良（おおふら）神の社</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300">伊波太岐（いわたき）神の社</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300">高野（たかの）神の社</cell>
+                                </row>
+                                <row>
+                                    <cell rendition="#width300">鉛練日古（えれひこ）神の社</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300">大椋（おおくら）神の社</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300">黒田（くろだ）神の社</cell>
+                                </row>
+                                <row>
+                                    <cell rendition="#width300">丹生（にう）神の社二座</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300">神高槻（かみたかつき）神の社</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300">天石門別命（あめのいわとわけのみこと）神の社</cell>
+                                </row>
+                                <row>
+                                    <cell rendition="#width300">天比比岐命（あめのひひきのみこと）神の社</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300">草岡（くさおか）神の社</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300">意太（おた）神の社</cell>
+                                </row>
+                                <row>
+                                    <cell rendition="#width300">大浴（おおあみ）神の社</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300">太水別（おおみずわけ）神の社</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300">天川命（あまつかわのみこと）神の社</cell>
+                                </row>
+                            </table>
+                        </p>
                         <p ana="項"
                             corresp="engishiki.xml#item10100213 engishiki_en.xml#item10100213"
-                            xml:id="item10100213">本文</p>
+                            xml:id="item10100213"><s rendition="#indent"
+                                >高島郡（たかしまぐん）三十四座〈大二座。小三十二座。〉</s>
+                            <table>
+                                <row>
+                                    <cell rendition="#width300"
+                                        >水尾（みお）神の社二座〈ともに名神・大。月次祭と新嘗祭の班幣対象でもある。〉</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300">阿志都弥（あしつみ）神の社</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300">与呂支（よろき）神の社</cell>
+                                </row>
+                                <row>
+                                    <cell>田部（たべ）神の社</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300">熊野（くまの）神の社</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300">箕島（みしま）神の社</cell>
+                                </row>
+                                <row>
+                                    <cell rendition="#width300">大川（おおかわ）神の社</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300">小野（おの）神の社</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300">麻知（まち）神の社</cell>
+                                </row>
+                                <row>
+                                    <cell rendition="#width300">櫟原（いちいはら）神の社</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300">大田（おおた）神の社</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300">鞆結（ともゆい）神の社</cell>
+                                </row>
+                                <row>
+                                    <cell rendition="#width300">日置（ひおき）神の社</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300">津野（つの）神の社</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300">大荒木比古（おおあらきひこ）神の社二座</cell>
+                                </row>
+                                <row>
+                                    <cell rendition="#width300">大前（おおさき）神の社</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300">坂本（さかもと）神の社</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300">大処（おおところ）神の社</cell>
+                                </row>
+                                <row>
+                                    <cell rendition="#width300">麻希（まけ）神の社</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300">弓削（ゆげ）神の社</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300">志呂志（しろし）神の社</cell>
+                                </row>
+                                <row>
+                                    <cell rendition="#width300">波爾布（はにう）神の社</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300">大水別（おおみずわけ）神の社</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300">大野（おおの）神の社</cell>
+                                </row>
+                                <row>
+                                    <cell rendition="#width300">小海（おうみ）神の社</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300">大寸（おおに）神の社</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300">荒椋（あらくら）神の社</cell>
+                                </row>
+                                <row>
+                                    <cell rendition="#width300">三重生（みえなり）神の社二座</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300">槻（つき）神の社</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300">長田（ながた）神の社</cell>
+                                </row>
+                                <row>
+                                    <cell rendition="#width300">宇支多（うきた）神の社</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300"/>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300"/>
+                                </row>
+                            </table>
+                        </p>
                     </div>
                     <div ana="神名下"
                         corresp="engishiki.xml#article101003 engishiki_en.xml#article101003"
                         n="10.3" subtype="項" type="条" xml:id="article101003">
                         <head ana="美濃国"/>
-                        <note type="summary">条文概要</note>
+                        <note type="summary">美濃国の官社</note>
                         <p ana="項"
                             corresp="engishiki.xml#item10100301 engishiki_en.xml#item10100301"
-                            xml:id="item10100301">本文</p>
+                            xml:id="item10100301">美濃国（みののくに）三十九座〈大一座。小三十八座。〉</p>
                         <p ana="項"
                             corresp="engishiki.xml#item10100302 engishiki_en.xml#item10100302"
-                            xml:id="item10100302">本文</p>
+                            xml:id="item10100302"><s rendition="#indent">多芸郡（たきぐん）四座〈小。〉</s>
+                            <table>
+                                <row>
+                                    <cell rendition="#width300">多伎（たき）神の社</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300">大神（おおみわ）神の社</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300">御井（みい）神の社</cell>
+                                </row>
+                                <row>
+                                    <cell rendition="#width300">久久美雄彦（くくみおひこ）神の社</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300"/>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300"/>
+                                </row>
+                            </table>
+                        </p>
                         <p ana="項"
                             corresp="engishiki.xml#item10100303 engishiki_en.xml#item10100303"
-                            xml:id="item10100303">本文</p>
+                            xml:id="item10100303"><s rendition="#indent">不破郡（ふわぐん）三座〈大一座。小二座。〉</s>
+                            <table>
+                                <row>
+                                    <cell rendition="#width300">仲山金山彦（なかやまかなやまひこ）神の社〈名神・大。〉</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300">大領（おおきみやっこ）神の社</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300">伊富岐（いぶき）神の社</cell>
+                                </row>
+                            </table>
+                        </p>
                         <p ana="項"
                             corresp="engishiki.xml#item10100304 engishiki_en.xml#item10100304"
-                            xml:id="item10100304">本文</p>
+                            xml:id="item10100304">
+                            <table rendition="#indent">
+                                <row>
+                                    <cell rendition="#width300">池田郡（いけだぐん）一座〈小。〉</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300">養基（やき）神の社</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300"/>
+                                </row>
+                            </table>
+                        </p>
                         <p ana="項"
                             corresp="engishiki.xml#item10100305 engishiki_en.xml#item10100305"
-                            xml:id="item10100305">本文</p>
+                            xml:id="item10100305"><s rendition="#indent">安八郡（あはちぐん）四座〈小。〉</s>
+                            <table>
+                                <row>
+                                    <cell rendition="#width300">宇波刀（うわと）神の社</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300">加毛（かも）神の社</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300">黒俣（すのまた）神の社</cell>
+                                </row>
+                                <row>
+                                    <cell rendition="#width300">荒方（あらかた）神の社</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300"/>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300"/>
+                                </row>
+                            </table>
+                        </p>
                         <p ana="項"
                             corresp="engishiki.xml#item10100306 engishiki_en.xml#item10100306"
-                            xml:id="item10100306">本文</p>
+                            xml:id="item10100306"><s rendition="#indent">大野郡（おおのぐん）三座〈小。〉</s>
+                            <table>
+                                <row>
+                                    <cell rendition="#width300">花長（はななが）神の社</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300">花長下（はなながのしも）神の社</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300">来振（こぶり）神の社</cell>
+                                </row>
+                            </table>
+                        </p>
                         <p ana="項"
                             corresp="engishiki.xml#item10100307 engishiki_en.xml#item10100307"
-                            xml:id="item10100307">本文</p>
+                            xml:id="item10100307"><s rendition="#indent">方県郡（かたがたぐん）二座〈小。〉</s>
+                            <table>
+                                <row>
+                                    <cell rendition="#width300">方県津（かたがたのつ）神の社</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300">若江（わかえ）神の社</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300"/>
+                                </row>
+                            </table>
+                        </p>
                         <p ana="項"
                             corresp="engishiki.xml#item10100308 engishiki_en.xml#item10100308"
-                            xml:id="item10100308">本文</p>
+                            xml:id="item10100308"><s rendition="#indent">厚見郡（あつみぐん）三座〈小。〉</s>
+                            <table>
+                                <row>
+                                    <cell rendition="#width300">比奈守（ひなもり）神の社</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300">茜部（あかなべ）神の社</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300">物部（もののべ）神の社</cell>
+                                </row>
+                            </table>
+                        </p>
                         <p ana="項"
                             corresp="engishiki.xml#item10100309 engishiki_en.xml#item10100309"
-                            xml:id="item10100309">本文</p>
+                            xml:id="item10100309"><s rendition="#indent">各務郡（かがみぐん）七座〈小。〉</s>
+                            <table>
+                                <row>
+                                    <cell rendition="#width300">伊波乃西（いわのにし）神の社</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300">村国（むらくに）神の社二座</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300">飛鳥田（あすかだ）神の社</cell>
+                                </row>
+                                <row>
+                                    <cell rendition="#width300">村国真黒田（むらくにのますみだ）神の社</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300">加佐美（かさみ）神の社</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300">御井（みい）神の社</cell>
+                                </row>
+                            </table>
+                        </p>
                         <p ana="項"
                             corresp="engishiki.xml#item10100310 engishiki_en.xml#item10100310"
-                            xml:id="item10100310">本文</p>
+                            xml:id="item10100310"><s rendition="#indent">賀茂郡（かもぐん）九座〈小。〉</s>
+                            <table>
+                                <row>
+                                    <cell rendition="#width300">県主（あがたぬし）神の社</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300">坂祝（さかほぎ）神の社</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300">大山（おおやま）神の社</cell>
+                                </row>
+                                <row>
+                                    <cell rendition="#width300">犬部（いぬべ）神の社</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300">阿夫志奈（あぶしな）神の社</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300">神田（かんだ）神の社</cell>
+                                </row>
+                                <row>
+                                    <cell rendition="#width300">佐久太（さくた）神の社</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300">多為（たい）神の社</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300">中山（なかやま）神の社</cell>
+                                </row>
+                            </table>
+                        </p>
                         <p ana="項"
                             corresp="engishiki.xml#item10100311 engishiki_en.xml#item10100311"
-                            xml:id="item10100311">本文</p>
+                            xml:id="item10100311"><s rendition="#indent">恵奈郡（えなぐん）三座〈小。〉</s>
+                            <table>
+                                <row>
+                                    <cell rendition="#width300">坂本（さかもと）神の社</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300">中川（なかつがわ）神の社</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300">恵奈（えな）神の社</cell>
+                                </row>
+                            </table>
+                        </p>
                     </div>
                     <div ana="神名下"
                         corresp="engishiki.xml#article101004 engishiki_en.xml#article101004"
                         n="10.4" subtype="項" type="条" xml:id="article101004">
                         <head ana="飛騨国"/>
-                        <note type="summary">条文概要</note>
+                        <note type="summary">飛騨国の官社</note>
                         <p ana="項"
                             corresp="engishiki.xml#item10100401 engishiki_en.xml#item10100401"
-                            xml:id="item10100401">本文</p>
+                            xml:id="item10100401">飛騨国八座〈小。〉</p>
                         <p ana="項"
                             corresp="engishiki.xml#item10100402 engishiki_en.xml#item10100402"
-                            xml:id="item10100402">本文</p>
+                            xml:id="item10100402"><s rendition="#indent">大野郡（おおのぐん）三座〈小。〉</s>
+                            <table>
+                                <row>
+                                    <cell rendition="#width300">水無（みなし）神の社</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300">槻本（つきのもと）神の社</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300">荏名（えな）神の社</cell>
+                                </row>
+                            </table>
+                        </p>
                         <p ana="項"
                             corresp="engishiki.xml#item10100403 engishiki_en.xml#item10100403"
-                            xml:id="item10100403">本文</p>
+                            xml:id="item10100403"><s rendition="#indent">荒城郡（あらきぐん）五座〈小。〉</s>
+                            <table>
+                                <row>
+                                    <cell rendition="#width300">大津（おおつ）神の社</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300">荒城（あらき）神の社</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300">高田（たかだ）神の社</cell>
+                                </row>
+                                <row>
+                                    <cell rendition="#width300">阿多由太（あたゆた）神の社</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300">栗原（くりはら）神の社</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300"/>
+                                </row>
+                            </table>
+                        </p>
                     </div>
                     <div ana="神名下"
                         corresp="engishiki.xml#article101005 engishiki_en.xml#article101005"
                         n="10.5" subtype="項" type="条" xml:id="article101005">
                         <head ana="信濃国"/>
-                        <note type="summary">条文概要</note>
+                        <note type="summary">信濃国の官社</note>
                         <p ana="項"
                             corresp="engishiki.xml#item10100501 engishiki_en.xml#item10100501"
-                            xml:id="item10100501">本文</p>
+                            xml:id="item10100501">信濃国四十八座〈大七座。小四十一座。〉</p>
                         <p ana="項"
                             corresp="engishiki.xml#item10100502 engishiki_en.xml#item10100502"
-                            xml:id="item10100502">本文</p>
+                            xml:id="item10100502"><s rendition="#indent">伊那郡（いなぐん）二座〈小。〉</s>
+                            <table>
+                                <row>
+                                    <cell rendition="#width300">大山田（おおやまだ）神の社</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300">阿智（あち）神の社</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300"/>
+                                </row>
+                            </table>
+                        </p>
                         <p ana="項"
                             corresp="engishiki.xml#item10100503 engishiki_en.xml#item10100503"
-                            xml:id="item10100503">本文</p>
+                            xml:id="item10100503">
+                            <table rendition="#indent">
+                                <row>
+                                    <cell rendition="#width300">諏方郡（すわぐん）二座〈ともに大。〉</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300">南方刀美（みなかたとみ）神の社二座〈ともに名神・大。〉</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300"/>
+                                </row>
+                            </table>
+                        </p>
                         <p ana="項"
                             corresp="engishiki.xml#item10100504 engishiki_en.xml#item10100504"
-                            xml:id="item10100504">本文</p>
+                            xml:id="item10100504"><s rendition="#indent">筑摩郡（つかまぐん）三座〈小。〉</s>
+                            <table>
+                                <row>
+                                    <cell rendition="#width300">岡田（おかだ）神の社</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300">沙田（いさごだ）神の社</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300">阿礼（あれ）神の社</cell>
+                                </row>
+                            </table>
+                        </p>
                         <p ana="項"
                             corresp="engishiki.xml#item10100505 engishiki_en.xml#item10100505"
-                            xml:id="item10100505">本文</p>
+                            xml:id="item10100505"><s rendition="#indent">安曇郡（あずみぐん）二座〈大一座。小一座。〉</s>
+                            <table>
+                                <row>
+                                    <cell rendition="#width300">穂高（ほだか）神の社〈名神・大。〉</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300">川会（かわい）神の社</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300"/>
+                                </row>
+                            </table>
+                        </p>
                         <p ana="項"
                             corresp="engishiki.xml#item10100506 engishiki_en.xml#item10100506"
-                            xml:id="item10100506">本文</p>
+                            xml:id="item10100506"><s rendition="#indent"
+                                >更級郡（さらしなぐん）十一座〈大一座。小十座。〉</s>
+                            <table>
+                                <row>
+                                    <cell rendition="#width300">布制（ふせ）神の社</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300">波閉科（はえしな）神の社</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300">佐良志奈（さらしな）神の社</cell>
+                                </row>
+                                <row>
+                                    <cell rendition="#width300">当信（たぎしな）神の社</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300">長谷（はせ）神の社</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300">日置（ひおき）神の社</cell>
+                                </row>
+                                <row>
+                                    <cell rendition="#width300">清水（しみず）神の社</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300">氷鉇斗売（ひかなとめ）神の社</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300">頤気（いけ）神の社</cell>
+                                </row>
+                                <row>
+                                    <cell rendition="#width300">治田（はりた）神の社</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300">武水別（たけみずわけ）神の社〈名神・大。〉</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300"/>
+                                </row>
+                            </table>
+                        </p>
                         <p ana="項"
                             corresp="engishiki.xml#item10100507 engishiki_en.xml#item10100507"
-                            xml:id="item10100507">本文</p>
+                            xml:id="item10100507"><s rendition="#indent">水内郡（みのちぐん）九座〈大一座。小八座。〉</s>
+                            <table>
+                                <row>
+                                    <cell rendition="#width300">美和（みわ）神の社</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300">伊豆毛（いずも）神の社</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300">妻科（つましな）神の社</cell>
+                                </row>
+                                <row>
+                                    <cell rendition="#width300">小川（おがわ）神の社</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300">守田（もりた）神の社</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300">粟野（あわの）神の社</cell>
+                                </row>
+                                <row>
+                                    <cell rendition="#width300">風間（かざま）神の社</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300">白玉足穂命（しらたまたりほのみこと）神の社</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300"
+                                        >健御名方富命彦神別（たけみなかたとみのみことひこかみわけ）神の社〈名神・大。〉</cell>
+                                </row>
+                            </table>
+                        </p>
                         <p ana="項"
                             corresp="engishiki.xml#item10100508 engishiki_en.xml#item10100508"
-                            xml:id="item10100508">本文</p>
+                            xml:id="item10100508"><s rendition="#indent">高井郡（たかいぐん）六座〈小。〉</s>
+                            <table>
+                                <row>
+                                    <cell rendition="#width300">墨坂（すみさか）神の社</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300">越智（おち）神の社</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300">小内（おうち）神の社</cell>
+                                </row>
+                                <row>
+                                    <cell rendition="#width300">笠原（かさはら）神の社</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300">小坂（おさか）神の社</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300">高社（たかもり）神の社</cell>
+                                </row>
+                            </table>
+                        </p>
                         <p ana="項"
                             corresp="engishiki.xml#item10100509 engishiki_en.xml#item10100509"
-                            xml:id="item10100509">本文</p>
+                            xml:id="item10100509"><s rendition="#indent">埴科郡（はにしなぐん）五座〈小。〉</s>
+                            <table>
+                                <row>
+                                    <cell rendition="#width300">粟狭（あわさ）神の社</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300">坂城（さかき）神の社</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300">中村（なかむら）神の社</cell>
+                                </row>
+                                <row>
+                                    <cell rendition="#width300">玉依比売命（たまよりひめのみこと）神の社</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300">祝（はふり）神の社</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300"/>
+                                </row>
+                            </table>
+                        </p>
                         <p ana="項"
                             corresp="engishiki.xml#item10100510 engishiki_en.xml#item10100510"
-                            xml:id="item10100510">本文</p>
+                            xml:id="item10100510"><s rendition="#indent"
+                                >小県郡（ちいさがたぐん）五座〈大二座。小三座。〉</s>
+                            <table>
+                                <row>
+                                    <cell rendition="#width300">生島足島（いくしまたるしま）神の社二座〈ともに名神・大。〉</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300">山家（やまが）神の社</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300">塩野（しおの）神の社</cell>
+                                </row>
+                                <row>
+                                    <cell rendition="#width300">子檀嶺（こまゆみね）神の社</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300"/>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300"/>
+                                </row>
+                            </table>
+                        </p>
                         <p ana="項"
                             corresp="engishiki.xml#item10100511 engishiki_en.xml#item10100511"
-                            xml:id="item10100511">本文</p>
+                            xml:id="item10100511"><s rendition="#indent">佐久郡（さくぐん）三座〈小。〉</s>
+                            <table>
+                                <row>
+                                    <cell rendition="#width300">英多（あがた）神の社</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300">長倉（ながくら）神の社</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300">大伴（おおとも）神の社</cell>
+                                </row>
+                            </table>
+                        </p>
                     </div>
                     <div ana="神名下"
                         corresp="engishiki.xml#article101006 engishiki_en.xml#article101006"
                         n="10.6" subtype="項" type="条" xml:id="article101006">
                         <head ana="上野国"/>
-                        <note type="summary">条文概要</note>
+                        <note type="summary">上野国の官社</note>
                         <p ana="項"
                             corresp="engishiki.xml#item10100601 engishiki_en.xml#item10100601"
-                            xml:id="item10100601">本文</p>
+                            xml:id="item10100601">上野国十二座〈大三座。小九座。〉</p>
                         <p ana="項"
                             corresp="engishiki.xml#item10100602 engishiki_en.xml#item10100602"
-                            xml:id="item10100602">本文</p>
+                            xml:id="item10100602">
+                            <table rendition="#indent">
+                                <row>
+                                    <cell rendition="#width300">片岡郡（かたおかぐん）一座</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300">小祝（おはふり）神の社</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300"/>
+                                </row>
+                            </table>
+                        </p>
                         <p ana="項"
                             corresp="engishiki.xml#item10100603 engishiki_en.xml#item10100603"
-                            xml:id="item10100603">本文</p>
+                            xml:id="item10100603"><s rendition="#indent">甘楽郡（かんらぐん）二座〈大一座。小一座。〉</s>
+                            <table>
+                                <row>
+                                    <cell rendition="#width300">貫前（ぬきさき）神の社〈名神・大。〉</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300">宇芸（うけ）神の社</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300"/>
+                                </row>
+                            </table>
+                        </p>
                         <p ana="項"
                             corresp="engishiki.xml#item10100604 engishiki_en.xml#item10100604"
-                            xml:id="item10100604">本文</p>
+                            xml:id="item10100604"><s rendition="#indent">群馬郡（くるまぐん）三座〈大一座。小二座。〉</s>
+                            <table>
+                                <row>
+                                    <cell rendition="#width300">伊加保（いかほ）神の社〈名神・大。〉</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300">榛名（はるな）神の社</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300">甲波宿禰（かわのすくね）神の社</cell>
+                                </row>
+                            </table>
+                        </p>
                         <p ana="項"
                             corresp="engishiki.xml#item10100605 engishiki_en.xml#item10100605"
-                            xml:id="item10100605">本文</p>
+                            xml:id="item10100605">
+                            <table rendition="#indent">
+                                <row>
+                                    <cell rendition="#width300">勢多郡（せたぐん）一座〈大。〉</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300">赤城（あかぎ）神の社〈名神・大。〉</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300"/>
+                                </row>
+                            </table>
+                        </p>
                         <p ana="項"
                             corresp="engishiki.xml#item10100606 engishiki_en.xml#item10100606"
-                            xml:id="item10100606">本文</p>
+                            xml:id="item10100606"><s rendition="#indent">山田郡（やまだぐん）二座〈小。〉</s>
+                            <table>
+                                <row>
+                                    <cell rendition="#width300">賀茂（かも）神の社</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300">美和（みわ）神の社</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300"/>
+                                </row>
+                            </table>
+                        </p>
                         <p ana="項"
                             corresp="engishiki.xml#item10100607 engishiki_en.xml#item10100607"
-                            xml:id="item10100607">本文</p>
+                            xml:id="item10100607"><s rendition="#indent">那波郡（なはぐん）二座〈小。〉</s>
+                            <table>
+                                <row>
+                                    <cell rendition="#width300">火雷（ほのいかずち）神の社</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300">委文（しとり）神の社</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300"/>
+                                </row>
+                            </table>
+                        </p>
                         <p ana="項"
                             corresp="engishiki.xml#item10100608 engishiki_en.xml#item10100608"
-                            xml:id="item10100608">本文</p>
+                            xml:id="item10100608">
+                            <table rendition="#indent">
+                                <row>
+                                    <cell rendition="#width300">佐位郡（さいぐん）一座〈小。〉</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300">大国（おおくに）神の社</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300"/>
+                                </row>
+                            </table>
+                        </p>
                     </div>
                     <div ana="神名下"
                         corresp="engishiki.xml#article101007 engishiki_en.xml#article101007"
                         n="10.7" subtype="項" type="条" xml:id="article101007">
                         <head ana="下野国"/>
-                        <note type="summary">条文概要</note>
+                        <note type="summary">下野国の官社</note>
                         <p ana="項"
                             corresp="engishiki.xml#item10100701 engishiki_en.xml#item10100701"
-                            xml:id="item10100701">本文</p>
+                            xml:id="item10100701">下野国十一座〈大一座。小十座。〉</p>
                         <p ana="項"
                             corresp="engishiki.xml#item10100702 engishiki_en.xml#item10100702"
-                            xml:id="item10100702">本文</p>
+                            xml:id="item10100702"><s rendition="#indent">都賀郡（つがぐん）三座〈小。〉</s>
+                            <table>
+                                <row>
+                                    <cell rendition="#width300">大（おお）神の社</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300">大前（おおさき）神の社</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300">村檜（むらひ）神の社</cell>
+                                </row>
+                            </table>
+                        </p>
                         <p ana="項"
                             corresp="engishiki.xml#item10100703 engishiki_en.xml#item10100703"
-                            xml:id="item10100703">本文</p>
+                            xml:id="item10100703">
+                            <table rendition="#indent">
+                                <row>
+                                    <cell rendition="#width300">河内郡（かわちぐん）一座〈大。〉</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300">二荒山（ふたらやま）神の社〈名神・大。〉</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300"/>
+                                </row>
+                            </table>
+                        </p>
                         <p ana="項"
                             corresp="engishiki.xml#item10100704 engishiki_en.xml#item10100704"
-                            xml:id="item10100704">本文</p>
+                            xml:id="item10100704"><s rendition="#indent">芳賀郡（はがぐん）二座〈小。〉</s>
+                            <table>
+                                <row>
+                                    <cell rendition="#width300">大前（おおさき）神の社</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300">荒樫（あらかし）神の社</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300"/>
+                                </row>
+                            </table>
+                        </p>
                         <p ana="項"
                             corresp="engishiki.xml#item10100705 engishiki_en.xml#item10100705"
-                            xml:id="item10100705">本文</p>
+                            xml:id="item10100705"><s rendition="#indent">那須郡（なすぐん）三座〈小。〉</s>
+                            <table>
+                                <row>
+                                    <cell rendition="#width300">健武山（たけむやま）神の社</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300">温泉（ゆ）神の社</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300">三和（みわ）神の社</cell>
+                                </row>
+                            </table>
+                        </p>
                         <p ana="項"
                             corresp="engishiki.xml#item10100706 engishiki_en.xml#item10100706"
-                            xml:id="item10100706">本文</p>
+                            xml:id="item10100706"><s rendition="#indent">寒川郡（さむかわぐん）二座〈小。〉</s>
+                            <table>
+                                <row>
+                                    <cell rendition="#width300">阿房（あわ）神の社</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300">胸形（むなかた）神の社</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300"/>
+                                </row>
+                            </table>
+                        </p>
                     </div>
                     <div ana="神名下"
                         corresp="engishiki.xml#article101008 engishiki_en.xml#article101008"
                         n="10.8" subtype="項" type="条" xml:id="article101008">
                         <head ana="陸奥国"/>
-                        <note type="summary">条文概要</note>
+                        <note type="summary">陸奥国の官社</note>
                         <p ana="項"
                             corresp="engishiki.xml#item10100801 engishiki_en.xml#item10100801"
-                            xml:id="item10100801">本文</p>
+                            xml:id="item10100801">陸奥国一百座〈大十五座。小八十五座。〉</p>
                         <p ana="項"
                             corresp="engishiki.xml#item10100802 engishiki_en.xml#item10100802"
-                            xml:id="item10100802">本文</p>
+                            xml:id="item10100802"><s rendition="#indent">白河郡（しらかわぐん）七座〈大一座。小六座。〉</s>
+                            <table>
+                                <row>
+                                    <cell rendition="#width300">都都古和気（つつこわけ）神の社〈名神・大。〉</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300">伊波止和気（いわとわけ）神の社</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300"/>
+                                </row>
+                                <row>
+                                    <cell rendition="#width300">白河（しらかわ）神の社</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300">八溝嶺（やみぞみね）神の社</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300">飯豊比売（いいとよひめ）神の社</cell>
+                                </row>
+                                <row>
+                                    <cell rendition="#width300">永倉（ながくら）神の社</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300">石都都古和気（いわつつこわけ）神の社</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300"/>
+                                </row>
+                            </table>
+                        </p>
                         <p ana="項"
                             corresp="engishiki.xml#item10100803 engishiki_en.xml#item10100803"
-                            xml:id="item10100803">本文</p>
+                            xml:id="item10100803">
+                            <table rendition="#indent">
+                                <row>
+                                    <cell rendition="#width300">苅田郡（かったぐん）一座〈大。〉</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300">苅田嶺（かったみね）神の社〈名神・大。〉</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300"/>
+                                </row>
+                            </table>
+                        </p>
                         <p ana="項"
                             corresp="engishiki.xml#item10100804 engishiki_en.xml#item10100804"
-                            xml:id="item10100804">本文</p>
+                            xml:id="item10100804"><s rendition="#indent">名取郡（なとりぐん）二座〈小。〉</s>
+                            <table>
+                                <row>
+                                    <cell rendition="#width300">多加（たか）神の社</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300">佐具叡（さくえ）神の社</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300"/>
+                                </row>
+                            </table>
+                        </p>
                         <p ana="項"
                             corresp="engishiki.xml#item10100805 engishiki_en.xml#item10100805"
-                            xml:id="item10100805">本文</p>
+                            xml:id="item10100805"><s rendition="#indent">宮城郡（みやぎぐん）四座〈大二座。小二座。〉</s>
+                            <table>
+                                <row>
+                                    <cell rendition="#width300">伊豆佐売（いずさひめ）神の社</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300">志波彦（しわひこ）神の社〈名神・大。〉</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300">鼻節（はなふし）神の社〈名神・大。〉</cell>
+                                </row>
+                                <row>
+                                    <cell rendition="#width300">多賀（たが）神の社</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300"/>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300"/>
+                                </row>
+                            </table>
+                        </p>
                         <p ana="項"
                             corresp="engishiki.xml#item10100806 engishiki_en.xml#item10100806"
-                            xml:id="item10100806">本文</p>
+                            xml:id="item10100806"><s rendition="#indent">黒川郡（くろかわぐん）四座〈小。〉</s>
+                            <table>
+                                <row>
+                                    <cell rendition="#width300">須伎（すき）神の社</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300">石神山精（いわがみやまつみ）神の社</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300">鹿島天足別（かしまのあまたりわけ）神の社</cell>
+                                </row>
+                                <row>
+                                    <cell rendition="#width300">行（ゆき）神の社</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300"/>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300"/>
+                                </row>
+                            </table>
+                        </p>
                         <p ana="項"
                             corresp="engishiki.xml#item10100807 engishiki_en.xml#item10100807"
-                            xml:id="item10100807">本文</p>
+                            xml:id="item10100807"><s rendition="#indent">賀美郡（かみぐん）二座〈小。〉</s>
+                            <table>
+                                <row>
+                                    <cell rendition="#width300">飯豊（いいとよ）神の社</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300">賀美石（かみのいわ）神の社</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300"/>
+                                </row>
+                            </table>
+                        </p>
                         <p ana="項"
                             corresp="engishiki.xml#item10100808 engishiki_en.xml#item10100808"
-                            xml:id="item10100808">本文</p>
+                            xml:id="item10100808">
+                            <table rendition="#indent">
+                                <row>
+                                    <cell rendition="#width300">色麻郡（しかまぐん）一座〈大。〉</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300">伊達（いたて）神の社〈名神・大。〉</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300"/>
+                                </row>
+                            </table>
+                        </p>
                         <p ana="項"
                             corresp="engishiki.xml#item10100809 engishiki_en.xml#item10100809"
-                            xml:id="item10100809">本文</p>
+                            xml:id="item10100809"><s rendition="#indent">玉造郡（たまつくりぐん）三座〈小。〉</s>
+                            <table>
+                                <row>
+                                    <cell rendition="#width300">温泉（ゆ）神の社</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300">荒雄河（あらおかわ）神の社</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300">温泉石（ゆのいし）神の社</cell>
+                                </row>
+                            </table>
+                        </p>
                         <p ana="項"
                             corresp="engishiki.xml#item10100810 engishiki_en.xml#item10100810"
-                            xml:id="item10100810">本文</p>
+                            xml:id="item10100810"><s rendition="#indent">曰理郡（わたりぐん）四座〈小。〉</s>
+                            <table>
+                                <row>
+                                    <cell rendition="#width300">鹿島伊都乃比気（かしまのいつのひけ）神の社</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300">鹿島緒名太（かしまのおなた）神の社</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300">安福河伯（あぶかわ）神の社</cell>
+                                </row>
+                                <row>
+                                    <cell rendition="#width300">鹿島天足和気（かしまのあまたりわけ）神の社</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300"/>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300"/>
+                                </row>
+                            </table>
+                        </p>
                         <p ana="項"
                             corresp="engishiki.xml#item10100811 engishiki_en.xml#item10100811"
-                            xml:id="item10100811">本文</p>
+                            xml:id="item10100811"><s rendition="#indent">信夫郡（しのぶぐん）五座〈大一座。小四座。〉</s>
+                            <table>
+                                <row>
+                                    <cell rendition="#width300">鹿島（かしま）神の社</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300">黒沼（くろぬま）神の社</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300">東屋沼（あずまやのぬま）神の社〈名神・大。〉</cell>
+                                </row>
+                                <row>
+                                    <cell rendition="#width300">東屋国（あずまやのくにつ）神の社</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300">白和瀬（しらわせ）神の社</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300"/>
+                                </row>
+                            </table>
+                        </p>
                         <p ana="項"
                             corresp="engishiki.xml#item10100812 engishiki_en.xml#item10100812"
-                            xml:id="item10100812">本文</p>
+                            xml:id="item10100812">
+                            <table rendition="#indent">
+                                <row>
+                                    <cell rendition="#width300">志太郡（しだぐん）一座〈小。〉</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300">敷玉早御玉（しきたまはやみたま）神の社</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300"/>
+                                </row>
+                            </table>
+                        </p>
                         <p ana="項"
                             corresp="engishiki.xml#item10100813 engishiki_en.xml#item10100813"
-                            xml:id="item10100813">本文</p>
+                            xml:id="item10100813"><s rendition="#indent">磐城郡（いわきぐん）七座〈小。〉</s>
+                            <table>
+                                <row>
+                                    <cell rendition="#width300">大国魂（おおくにたま）神の社</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300">二俣（ふたまた）神の社</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300">温泉（ゆ）神の社</cell>
+                                </row>
+                                <row>
+                                    <cell rendition="#width300">佐麻久嶺（さまくみね）神の社</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300">住吉（すみよし）神の社</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300">鹿島（かしま）神の社</cell>
+                                </row>
+                                <row>
+                                    <cell rendition="#width300">子鍬倉（こくわくら）神の社</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300"/>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300"/>
+                                </row>
+                            </table>
+                        </p>
                         <p ana="項"
                             corresp="engishiki.xml#item10100814 engishiki_en.xml#item10100814"
-                            xml:id="item10100814">本文</p>
+                            xml:id="item10100814">
+                            <table rendition="#indent">
+                                <row>
+                                    <cell rendition="#width300">標葉郡（しめはぐん）一座〈小。〉</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300">蒭野（くさの）神の社</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300"/>
+                                </row>
+                            </table>
+                        </p>
                         <p ana="項"
                             corresp="engishiki.xml#item10100815 engishiki_en.xml#item10100815"
-                            xml:id="item10100815">本文</p>
+                            xml:id="item10100815"><s rendition="#indent">牡鹿郡（おじかぐん）十座〈大二座。小八座。〉</s>
+                            <table>
+                                <row>
+                                    <cell rendition="#width300">零羊埼（ひつじさき）神の社〈名神・大。〉</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300">香取伊豆乃御子（かとりのいずのみこ）神の社</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300">伊去波夜和気命（いさりはやわけのみこと）神の社</cell>
+                                </row>
+                                <row>
+                                    <cell rendition="#width300">曾波（そわ）神の社</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300">拝幣志（おろべし）神の社〈名神・大。〉</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300">鳥屋（とりや）神の社</cell>
+                                </row>
+                                <row>
+                                    <cell rendition="#width300">大島（おおしま）神の社</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300">鹿島御児（かしまのみこ）神の社</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300">久集比奈（くすひな）神の社</cell>
+                                </row>
+                                <row>
+                                    <cell rendition="#width300">計仙麻（けせま）神の社</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300"/>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300"/>
+                                </row>
+                            </table>
+                        </p>
                         <p ana="項"
                             corresp="engishiki.xml#item10100816 engishiki_en.xml#item10100816"
-                            xml:id="item10100816">本文</p>
+                            xml:id="item10100816"><s rendition="#indent">桃生郡（もむのうぐん）六座〈大一座。小五座。〉</s>
+                            <table>
+                                <row>
+                                    <cell rendition="#width300">飯野山（いいのやま）神の社</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300">日高見（ひたかみ）神の社</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300">二俣（ふたまた）神の社</cell>
+                                </row>
+                                <row>
+                                    <cell rendition="#width300">石（いわ）神の社</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300">計仙麻大島（けせまのおおしま）神の社〈名神・大。〉</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300">小鋭（おと）神の社</cell>
+                                </row>
+                            </table>
+                        </p>
                         <p ana="項"
                             corresp="engishiki.xml#item10100817 engishiki_en.xml#item10100817"
-                            xml:id="item10100817">本文</p>
+                            xml:id="item10100817"><s rendition="#indent">行方郡（なめかたぐん）八座〈大一座。小七座。〉</s>
+                            <table>
+                                <row>
+                                    <cell rendition="#width300">高座（たかくら）神の社</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300">日祭（ひまつり）神の社</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300">冠嶺（さかみね）神の社</cell>
+                                </row>
+                                <row>
+                                    <cell rendition="#width300">御刀（みと）神の社</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300">鹿島御子（かしまのみこ）神の社</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300">益多嶺（ますたみね）神の社</cell>
+                                </row>
+                                <row>
+                                    <cell rendition="#width300">多珂（たか）神の社〈名神・大。〉</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300">押雄（おしお）神の社 </cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300"/>
+                                </row>
+                            </table>
+                        </p>
                         <p ana="項"
                             corresp="engishiki.xml#item10100818 engishiki_en.xml#item10100818"
-                            xml:id="item10100818">本文</p>
+                            xml:id="item10100818"><s rendition="#indent">栗原郡（くりはらぐん）七座〈大一座。小六座。〉</s>
+                            <table>
+                                <row>
+                                    <cell rendition="#width300">表刀（うわと）神の社</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300">志波姫（しわひめ）神の社〈名神・大。〉</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300">雄鋭（おと）神の社</cell>
+                                </row>
+                                <row>
+                                    <cell rendition="#width300">駒形根（こまがたね）神の社</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300">和我（わが）神の社</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300">香取御児（かとりのみこ）神の社</cell>
+                                </row>
+                                <row>
+                                    <cell rendition="#width300">遠流志別石（おるしわけのいわ）神の社</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300"/>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300"/>
+                                </row>
+                            </table>
+                        </p>
                         <p ana="項"
                             corresp="engishiki.xml#item10100819 engishiki_en.xml#item10100819"
-                            xml:id="item10100819">本文</p>
+                            xml:id="item10100819"><s rendition="#indent">胆沢郡（いさわぐん）七座〈小。〉</s>
+                            <table>
+                                <row>
+                                    <cell rendition="#width300">磐（いわ）神の社</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300">駒形（こまがた）神の社</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300">和我叡登挙（わがえとこ）神の社</cell>
+                                </row>
+                                <row>
+                                    <cell rendition="#width300">石手堰（いわてのい）神の社</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300">胆沢川（いさわがわ）神の社</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300">止止井（とどい）神の社</cell>
+                                </row>
+                                <row>
+                                    <cell rendition="#width300">於呂閉志（おろべし）神の社</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300"/>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300"/>
+                                </row>
+                            </table>
+                        </p>
                         <p ana="項"
                             corresp="engishiki.xml#item10100820 engishiki_en.xml#item10100820"
-                            xml:id="item10100820">本文</p>
+                            xml:id="item10100820">
+                            <table rendition="#indent">
+                                <row>
+                                    <cell rendition="#width300">新田郡（にいだぐん）一座〈小。〉</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300">子松（こまつ）神の社</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300"/>
+                                </row>
+                            </table>
+                        </p>
                         <p ana="項"
                             corresp="engishiki.xml#item10100821 engishiki_en.xml#item10100821"
-                            xml:id="item10100821">本文</p>
+                            xml:id="item10100821">
+                            <table rendition="#indent">
+                                <row>
+                                    <cell rendition="#width300">磐瀬郡（いわせぐん）一座〈小。〉</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300">桙衝（ほこつき）神の社</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300"/>
+                                </row>
+                            </table>
+                        </p>
                         <p ana="項"
                             corresp="engishiki.xml#item10100822 engishiki_en.xml#item10100822"
-                            xml:id="item10100822">本文</p>
+                            xml:id="item10100822"><s rendition="#indent">会津郡（あいづぐん）二座〈大一座。小一座。〉</s>
+                            <table>
+                                <row>
+                                    <cell rendition="#width300">伊佐須美（いさすみ）神の社〈名神・大。〉</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300">蚕養国（こかいのくにつ）神の社</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300"/>
+                                </row>
+                            </table>
+                        </p>
                         <p ana="項"
                             corresp="engishiki.xml#item10100823 engishiki_en.xml#item10100823"
-                            xml:id="item10100823">本文</p>
+                            xml:id="item10100823">
+                            <table rendition="#indent">
+                                <row>
+                                    <cell rendition="#width300">小田郡（おだぐん）一座〈小。〉</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300">黄金山（こがねやま）神の社</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300"/>
+                                </row>
+                            </table>
+                        </p>
                         <p ana="項"
                             corresp="engishiki.xml#item10100824 engishiki_en.xml#item10100824"
-                            xml:id="item10100824">本文</p>
+                            xml:id="item10100824">
+                            <table rendition="#indent">
+                                <row>
+                                    <cell rendition="#width300">瑘磨郡（やまぐん）一座〈小。〉</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300">磐椅（いわはし）神の社</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300"/>
+                                </row>
+                            </table>
+                        </p>
                         <p ana="項"
                             corresp="engishiki.xml#item10100825 engishiki_en.xml#item10100825"
-                            xml:id="item10100825">本文</p>
+                            xml:id="item10100825">
+                            <table rendition="#indent">
+                                <row>
+                                    <cell rendition="#width300">斯波郡（しわぐん）一座〈小。〉</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300">志賀理和気（しがりわけ）神の社</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300"/>
+                                </row>
+                            </table>
+                        </p>
                         <p ana="項"
                             corresp="engishiki.xml#item10100826 engishiki_en.xml#item10100826"
-                            xml:id="item10100826">本文</p>
+                            xml:id="item10100826"><s rendition="#indent">気仙郡（けせぐん）三座〈小。〉</s>
+                            <table>
+                                <row>
+                                    <cell rendition="#width300">理訓許段（りくこた）神の社</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300">登奈孝志（となかし）神の社</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300">衣太手（えだて）神の社</cell>
+                                </row>
+                            </table>
+                        </p>
                         <p ana="項"
                             corresp="engishiki.xml#item10100827 engishiki_en.xml#item10100827"
-                            xml:id="item10100827">本文</p>
+                            xml:id="item10100827"><s rendition="#indent">安積郡（あさかぐん）三座〈大一座。小二座。〉</s>
+                            <table>
+                                <row>
+                                    <cell rendition="#width300">宇奈己呂和気（うなころわけ）神の社〈名神・大。〉</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300">飯豊和気（いいとよわけ）神の社</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300">隠津島（おきつしま）神の社</cell>
+                                </row>
+                            </table>
+                        </p>
                         <p ana="項"
                             corresp="engishiki.xml#item10100828 engishiki_en.xml#item10100828"
-                            xml:id="item10100828">本文</p>
+                            xml:id="item10100828">
+                            <table rendition="#indent">
+                                <row>
+                                    <cell rendition="#width300">柴田郡（しばたぐん）一座〈大。〉</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300">大高山（おおたかやま）神の社〈名神・大。〉</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300"/>
+                                </row>
+                            </table>
+                        </p>
                         <p ana="項"
                             corresp="engishiki.xml#item10100829 engishiki_en.xml#item10100829"
-                            xml:id="item10100829">本文</p>
+                            xml:id="item10100829">
+                            <table rendition="#indent">
+                                <row>
+                                    <cell rendition="#width300">宇多郡（うだぐん）一座〈大。〉</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300">子負嶺（こおいみね）神の社〈名神・大。〉</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300"/>
+                                </row>
+                            </table>
+                        </p>
                         <p ana="項"
                             corresp="engishiki.xml#item10100830 engishiki_en.xml#item10100830"
-                            xml:id="item10100830">本文</p>
+                            xml:id="item10100830"><s rendition="#indent">伊具郡（いぐぐん）二座〈小。〉</s>
+                            <table>
+                                <row>
+                                    <cell rendition="#width300">熱日高彦（あつひたかひこ）神の社</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300">鳥屋嶺（とりやみね）神の社</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300"/>
+                                </row>
+                            </table>
+                        </p>
                         <p ana="項"
                             corresp="engishiki.xml#item10100831 engishiki_en.xml#item10100831"
-                            xml:id="item10100831">本文</p>
+                            xml:id="item10100831"><s rendition="#indent">磐井郡（いわいぐん）二座〈小。〉</s>
+                            <table>
+                                <row>
+                                    <cell rendition="#width300">配志和（はいしわ）神の社</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300">儛草（まいくさ）神の社</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300"/>
+                                </row>
+                            </table>
+                        </p>
                         <p ana="項"
                             corresp="engishiki.xml#item10100832 engishiki_en.xml#item10100832"
-                            xml:id="item10100832">本文</p>
+                            xml:id="item10100832">
+                            <table rendition="#indent">
+                                <row>
+                                    <cell rendition="#width300">江刺郡（えさしぐん）一座〈小。〉</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300">偵岡（ものみおか）神の社</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300"/>
+                                </row>
+                            </table>
+                        </p>
                     </div>
                     <div ana="神名下"
                         corresp="engishiki.xml#article101009 engishiki_en.xml#article101009"
                         n="10.9" subtype="項" type="条" xml:id="article101009">
                         <head ana="出羽国"/>
-                        <note type="summary">条文概要</note>
+                        <note type="summary">出羽国の官社</note>
                         <p ana="項"
                             corresp="engishiki.xml#item10100901 engishiki_en.xml#item10100901"
-                            xml:id="item10100901">本文</p>
+                            xml:id="item10100901">出羽国九座〈大二座。小七座。〉</p>
                         <p ana="項"
                             corresp="engishiki.xml#item10100902 engishiki_en.xml#item10100902"
-                            xml:id="item10100902">本文</p>
+                            xml:id="item10100902"><s rendition="#indent">飽海郡（あくみぐん）三座〈大二座。小一座。〉</s>
+                            <table>
+                                <row>
+                                    <cell rendition="#width300">大物忌（おおものいみ）神の社〈名神・大。〉</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300">小物忌（おものいみ）神の社</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300">月山（つきやま）神の社〈名神・大。〉</cell>
+                                </row>
+                            </table>
+                        </p>
                         <p ana="項"
                             corresp="engishiki.xml#item10100903 engishiki_en.xml#item10100903"
-                            xml:id="item10100903">本文</p>
+                            xml:id="item10100903"><s rendition="#indent">田川郡（たがわぐん）三座〈小。〉</s>
+                            <table>
+                                <row>
+                                    <cell rendition="#width300">遠賀（おんが）神の社</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300">由豆佐売（ゆずさひめ）神の社</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300">伊弖波（いでわ）神の社</cell>
+                                </row>
+                            </table>
+                        </p>
                         <p ana="項"
                             corresp="engishiki.xml#item10100904 engishiki_en.xml#item10100904"
-                            xml:id="item10100904">本文</p>
+                            xml:id="item10100904"><s rendition="#indent">平鹿郡（ひらかぐん）二座〈小。〉</s>
+                            <table>
+                                <row>
+                                    <cell rendition="#width300">塩湯彦（しおゆひこ）神の社</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300">波宇志別（はうしわけ）神の社</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300"/>
+                                </row>
+                            </table>
+                        </p>
                         <p ana="項"
                             corresp="engishiki.xml#item10100905 engishiki_en.xml#item10100905"
-                            xml:id="item10100905">本文</p>
+                            xml:id="item10100905">
+                            <table rendition="#indent">
+                                <row>
+                                    <cell rendition="#width300">山本郡（やまもとぐん）一座〈小。〉</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300">副川（そいかわ）神の社</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300"/>
+                                </row>
+                            </table>
+                        </p>
                     </div>
                     <div ana="神名下"
                         corresp="engishiki.xml#article101010 engishiki_en.xml#article101010"
                         n="10.10" subtype="項" type="条" xml:id="article101010">
                         <head ana="北陸道"/>
-                        <note type="summary">条文概要</note>
+                        <note type="summary">北陸道の官社数</note>
                         <p ana="項"
                             corresp="engishiki.xml#item10101001 engishiki_en.xml#item10101001"
-                            xml:id="item10101001">本文</p>
+                            xml:id="item10101001">北陸道神三百五十二座 <lb/><s rendition="#indent2"
+                                >大十四座〈このうち月次祭の対象が一座。〉</s>
+                            <lb/><s rendition="#indent2">小三百三十八座</s>
+                        </p>
                     </div>
                     <div ana="神名下"
                         corresp="engishiki.xml#article101011 engishiki_en.xml#article101011"
                         n="10.11" subtype="項" type="条" xml:id="article101011">
                         <head ana="若狭国"/>
-                        <note type="summary">条文概要</note>
+                        <note type="summary">若狭国の官社</note>
                         <p ana="項"
                             corresp="engishiki.xml#item10101101 engishiki_en.xml#item10101101"
-                            xml:id="item10101101">本文</p>
+                            xml:id="item10101101">若狭国四十二座〈大三座。小三十九座。〉</p>
                         <p ana="項"
                             corresp="engishiki.xml#item10101102 engishiki_en.xml#item10101102"
-                            xml:id="item10101102">本文</p>
+                            xml:id="item10101102"><s rendition="#indent"
+                                >遠敷郡（おにうぐん）十六座〈大二座。小十四座。〉</s>
+                            <table>
+                                <row>
+                                    <cell rendition="#width300">多太（ただ）神の社</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300">若狭比古（わかさひこ）神の社二座〈名神・大。〉</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300">小浴（おあみ）神の社</cell>
+                                </row>
+                                <row>
+                                    <cell rendition="#width300">石桉比古（いわくらひこ）神の社</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300">石桉比売（いわくらひめ）神の社</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300">椎村（しいむら）神の社</cell>
+                                </row>
+                                <row>
+                                    <cell rendition="#width300">波古（はこ）神の社</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300">久須夜（くすや）神の社</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300">弥和（みわ）神の社</cell>
+                                </row>
+                                <row>
+                                    <cell rendition="#width300">丹生（にう）神の社</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300">阿奈志（あなし）神の社</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300">曾尾（そび）神の社</cell>
+                                </row>
+                                <row>
+                                    <cell rendition="#width300">許波伎（こはき）神の社</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300">苅田比古（かりたひこ）神の社</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300">苅田比売（かりたひめ）神の社</cell>
+                                </row>
+                            </table>
+                        </p>
                         <p ana="項"
                             corresp="engishiki.xml#item10101103 engishiki_en.xml#item10101103"
-                            xml:id="item10101103">本文</p>
+                            xml:id="item10101103"><s rendition="#indent">大飯郡（おおいぐん）七座〈小。〉</s>
+                            <table>
+                                <row>
+                                    <cell rendition="#width300">青海（あおみ）神の社</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300">伊射奈伎（いざなき）神の社</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300">香山（かごやま）神の社</cell>
+                                </row>
+                                <row>
+                                    <cell rendition="#width300">静志（しずし）神の社</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300">日置（ひおき）神の社</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300">大飯（おおい）神の社</cell>
+                                </row>
+                                <row>
+                                    <cell rendition="#width300">佐伎治（さきち）神の社</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300"/>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300"/>
+                                </row>
+                            </table>
+                        </p>
                         <p ana="項"
                             corresp="engishiki.xml#item10101104 engishiki_en.xml#item10101104"
-                            xml:id="item10101104">本文</p>
+                            xml:id="item10101104"><s rendition="#indent"
+                                >三方郡（みかたぐん）十九座〈大一座。小十八座。〉</s>
+                            <table>
+                                <row>
+                                    <cell rendition="#width300">須可麻（すかま）神の社</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300">御方（みかた）神の社</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300">伊牟移（いむや）神の社</cell>
+                                </row>
+                                <row>
+                                    <cell rendition="#width300">多由比（たゆい）神の社</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300">丹生（にう）神の社</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300">織田（おりた）神の社</cell>
+                                </row>
+                                <row>
+                                    <cell rendition="#width300">和爾部（わにべ）神社</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300">佐支（さき）神の社</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300"
+                                        >宇波西（うわせ）神の社〈名神・大。月次祭と新嘗祭の班幣対象でもある。〉</cell>
+                                </row>
+                                <row>
+                                    <cell rendition="#width300">高那弥（たかなみ）神の社</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300">仁布（にう）神の社</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300">須部（すべ）神の社</cell>
+                                </row>
+                                <row>
+                                    <cell rendition="#width300">木野（きの）神の社</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300">弥美（みみ）神の社</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300">於世（うわせ）神の社</cell>
+                                </row>
+                                <row>
+                                    <cell rendition="#width300">常（つね）神の社</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300">能登（のと）神の社</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300">闇見（くらみ）神の社</cell>
+                                </row>
+                                <row>
+                                    <cell rendition="#width300">山都田（やまつた）神の社</cell>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300"/>
+                                    <cell rendition="#width50"/>
+                                    <cell rendition="#width300"/>
+                                </row>
+                            </table>
+                        </p>
                     </div>
                     <div ana="神名下"
                         corresp="engishiki.xml#article101012 engishiki_en.xml#article101012"
