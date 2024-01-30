@@ -114,6 +114,8 @@
       <tagsDecl>
         <rendition xml:id="indent">margin-top: 1em;</rendition>
         <rendition xml:id="indent2">margin-top: 2em;</rendition>
+        <rendition xml:id="indent3">margin-top: 3em;</rendition>
+        <rendition xml:id="indent4">margin-top: 4em;</rendition>
         <rendition xml:id="indent5">margin-top: 5em;</rendition>
         <rendition xml:id="width50">width: 50px;</rendition>
         <rendition xml:id="kokumei">width: 80px;</rendition>
@@ -355,7 +357,8 @@
   <text>
     <body>
       <div ana="神名上" n="9" subtype="式" type="巻" xml:id="volume9">
-        <pb/>
+        <pb
+          facs="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-9%2F00002.tif/full/full/0/default.jpg"/>
         <div type="首題" xml:id="shudai09">
           <p xml:id="shudai0901"><anchor xml:id="app0966660101"/>延喜式巻第九<anchor
               xml:id="app0966660101e"/>〈神祇<anchor xml:id="app0966660102"/>九<anchor
@@ -388,7 +391,9 @@
               <lb/>大四百九十二座 <lb/><s rendition="#indent">三百四座〈並預祈年・月次・新嘗等祭之案上官幣、就中七十一座預相嘗祭、〉</s>
               <lb/><s rendition="#indent">一百八十八座〈並預祈年国幣、〉</s>
               <lb/>小二千六百卌座 <lb/>
-              <pb/><s rendition="#indent">四百卅三座〈並預祈年案下官幣、〉</s>
+              <pb
+                facs="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-9%2F00003.tif/full/full/0/default.jpg"
+                /><s rendition="#indent">四百卅三座〈並預祈年案下官幣、〉</s>
               <lb/><s rendition="#indent"><anchor xml:id="app0910010102"/>二千二百七座〈並預祈年国幣、〉<anchor
                   xml:id="app0910010102e"/></s>
             </p>
@@ -490,7 +495,8 @@
                   <cell rendition="#width300"/>
                 </row>
               </table>
-              <lb/>宮内省坐神三座〈並名神大、月次、新嘗、〉 <pb/><table>
+              <lb/>宮内省坐神三座〈並名神大、月次、新嘗、〉 <pb
+                facs="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-9%2F00004.tif/full/full/0/default.jpg"/><table>
                 <row>
                   <cell rendition="#width300"><anchor xml:id="app0910020121"/><anchor
                       xml:id="app0910020121e"/><anchor xml:id="app0910020122"/>園神社<anchor
@@ -783,9 +789,10 @@
             <head ana="山城国"/>
             <p ana="項" corresp="engishiki_en.xml#item09100501 engishiki_ja.xml#item09100501"
               xml:id="item09100501">山城国一百廿二座 <lb/><s rendition="#indent"
-                  >大五十三座〈並月次・新嘗、就中十一座預相嘗祭、〉　<pb/>小六十<anchor xml:id="app0910050101"/>九<anchor
-                  xml:id="app0910050101e"/>座〈<anchor xml:id="app0910050102"/>並官幣<anchor
-                  xml:id="app0910050102e"/>、〉</s>
+                  >大五十三座〈並月次・新嘗、就中十一座預相嘗祭、〉　<pb
+                  facs="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-9%2F00005.tif/full/full/0/default.jpg"
+                  />小六十<anchor xml:id="app0910050101"/>九<anchor xml:id="app0910050101e"/>座〈<anchor
+                  xml:id="app0910050102"/>並官幣<anchor xml:id="app0910050102e"/>、〉</s>
             </p>
             <app from="#app0910050201" to="#app0910050201e">
               <lem wit="#土本 #永本 #吉本 #京博本">九</lem>
@@ -923,12 +930,14 @@
                       xml:id="app0910050309e"/>四<anchor xml:id="app0910050310"/>社<anchor
                       xml:id="app0910050310e"/>〈並名神大、月次、新嘗、〉</cell>
                   <cell rendition="#width50"/>
-                  <cell rendition="#width300"><pb/>梅宮坐神四<anchor xml:id="app0910050311"/>社<anchor
+                  <cell rendition="#width300">梅宮坐神四<anchor xml:id="app0910050311"/>社<anchor
                       xml:id="app0910050311e"/>〈並名神大、月次、新嘗、〉</cell>
                   <cell rendition="#width50"/>
-                  <cell rendition="#width300"><anchor xml:id="app0910050312"/>天津石門別稚姫神社<anchor
-                      xml:id="app0910050312e"/>〈<anchor xml:id="app0910050313"/>名神大、月次、新嘗<anchor
-                      xml:id="app0910050313e"/>、〉</cell>
+                  <cell rendition="#width300"><pb
+                      facs="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-9%2F00006.tif/full/full/0/default.jpg"
+                      /><anchor xml:id="app0910050312"/>天津石門別稚姫神社<anchor xml:id="app0910050312e"
+                      />〈<anchor xml:id="app0910050313"/>名神大、月次、新嘗<anchor xml:id="app0910050313e"
+                    />、〉</cell>
                 </row>
                 <row>
                   <cell rendition="#width300"><anchor xml:id="app0910050314"/><anchor
@@ -1241,7 +1250,8 @@
               <rdg wit="#吉本">三座</rdg>
               <note>三社　訳注本は藤波本校注に従い「社三座」を採用する。永本・剛本・土本・京博本「三社」、吉本「三座」。</note>
             </app>
-            <pb/>
+            <pb
+              facs="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-9%2F00007.tif/full/full/0/default.jpg"/>
             <p ana="項" corresp="engishiki_en.xml#item09100506 engishiki_ja.xml#item09100506"
               xml:id="item09100506"><s rendition="#indent">宇治郡十座〈大五座、小五座、〉</s>
               <table>
@@ -1413,7 +1423,8 @@
                   <cell rendition="#width50"/>
                   <cell rendition="#width300">天神社</cell>
                 </row>
-                <pb/>
+                <pb
+                  facs="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-9%2F00008.tif/full/full/0/default.jpg"/>
                 <row>
                   <cell rendition="#width300">地祇神社</cell>
                   <cell rendition="#width50"/>
@@ -1561,7 +1572,9 @@
                       xml:id="app0910060209"/>神<anchor xml:id="app0910060209e"/><anchor
                       xml:id="app0910060208e"/>四座〈並名神大、月次、新嘗、〉</cell>
                   <cell rendition="#width50"/>
-                  <cell rendition="#width300"><pb/>赤穂神社</cell>
+                  <cell rendition="#width300"><pb
+                      facs="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-9%2F00009.tif/full/full/0/default.jpg"
+                    />赤穂神社</cell>
                   <cell rendition="#width50"/>
                   <cell rendition="#width300">島田神社</cell>
                 </row>
@@ -1776,7 +1789,8 @@
               <note>吉本補入「寺〈官〉」</note>
               <note>寺坐　永本は左傍書「官与」を「寺」字下に補入。吉本は本文「与」とし、その上に「寺〈官〉」を補入。いずれも九本・剛本・京博本・土本により本文とはみなさず。</note>
             </app>
-            <pb/>
+            <pb
+              facs="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-9%2F00010.tif/full/full/0/default.jpg"/>
             <p ana="項" corresp="engishiki_en.xml#item09100605 engishiki_ja.xml#item09100605"
               xml:id="item09100605"><s rendition="#indent">広瀬郡五座〈大一座、小四座、〉</s>
               <table>
@@ -1987,8 +2001,10 @@
                   <cell rendition="#width50"/>
                   <cell rendition="#width300">金村神社〈大、月次、新嘗、〉</cell>
                   <cell rendition="#width50"/>
-                  <cell rendition="#width300"><pb/>葛木御県神社〈<anchor xml:id="app0910060704"
-                      />大、月次、新嘗<anchor xml:id="app0910060704e"/>、〉</cell>
+                  <cell rendition="#width300"><pb
+                      facs="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-9%2F00011.tif/full/full/0/default.jpg"
+                      />葛木御県神社〈<anchor xml:id="app0910060704"/>大、月次、新嘗<anchor
+                      xml:id="app0910060704e"/>、〉</cell>
                 </row>
                 <row>
                   <cell rendition="#width300">深溝神社</cell>
@@ -2167,7 +2183,8 @@
                   <cell rendition="#width300">高桙神社〈<anchor xml:id="app0910061007"/>鍬<anchor
                       xml:id="app0910061007e"/>、〉</cell>
                 </row>
-                <pb/>
+                <pb
+                  facs="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-9%2F00012.tif/full/full/0/default.jpg"/>
                 <row>
                   <cell rendition="#width300">川上鹿塩神社<anchor xml:id="app0910061008"/>〈鍬、〉<anchor
                       xml:id="app0910061008e"/></cell>
@@ -2396,7 +2413,9 @@
                 <row>
                   <cell rendition="#width300">殖栗神社</cell>
                   <cell rendition="#width50"/>
-                  <cell rendition="#width300"><pb/>水口神社</cell>
+                  <cell rendition="#width300"><pb
+                      facs="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-9%2F00013.tif/full/full/0/default.jpg"
+                    />水口神社</cell>
                   <cell rendition="#width50"/>
                   <cell rendition="#width300">桑内神社二座〈鍬、靫、〉</cell>
                 </row>
@@ -2624,7 +2643,8 @@
             <p ana="項" corresp="engishiki_en.xml#item09100614 engishiki_ja.xml#item09100614"
               xml:id="item09100614"><s rendition="#indent"><anchor xml:id="app0910061401"/><anchor
                   xml:id="app0910061401e"/>高市郡五十四座〈大卅三座、小廿一座、〉</s>
-              <pb/><table>
+              <pb
+                facs="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-9%2F00014.tif/full/full/0/default.jpg"/><table>
                 <row>
                   <cell rendition="#width300">高市御<anchor xml:id="app0910061402"/>県<anchor
                       xml:id="app0910061402e"/>坐鴨事代<anchor xml:id="app0910061403"/>主<anchor
@@ -2725,8 +2745,10 @@
                       xml:id="app0910061420e"/><anchor xml:id="app0910061421"/>久<anchor
                       xml:id="app0910061421e"/>米御県神社三座</cell>
                   <cell rendition="#width50"/>
-                  <cell rendition="#width300"><pb/><anchor xml:id="app0910061422"
-                      />気吹雷響雷吉野大国栖御魂神社<anchor xml:id="app0910061422e"/>二座〈並名神大、月次、新嘗、〉</cell>
+                  <cell rendition="#width300"><pb
+                      facs="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-9%2F00015.tif/full/full/0/default.jpg"
+                      /><anchor xml:id="app0910061422"/>気吹雷響雷吉野大国栖御魂神社<anchor
+                      xml:id="app0910061422e"/>二座〈並名神大、月次、新嘗、〉</cell>
                   <cell rendition="#width50"/>
                   <cell rendition="#width300"/>
                 </row>
@@ -2996,7 +3018,8 @@
                   <cell rendition="#width50"/>
                   <cell rendition="#width300">祝田神社</cell>
                 </row>
-                <pb/>
+                <pb
+                  facs="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-9%2F00016.tif/full/full/0/default.jpg"/>
                 <row>
                   <cell rendition="#width300"><anchor xml:id="app0910061605"/><anchor
                       xml:id="app0910061605e"/>石上市神社</cell>
@@ -3146,7 +3169,9 @@
                   <cell rendition="#width50"/>
                   <cell rendition="#width300">宿奈川田神社</cell>
                   <cell rendition="#width50"/>
-                  <cell rendition="#width300"><pb/>金山孫神社</cell>
+                  <cell rendition="#width300"><pb
+                      facs="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-9%2F00017.tif/full/full/0/default.jpg"
+                    />金山孫神社</cell>
                 </row>
                 <row>
                   <cell rendition="#width300">金山孫女神社</cell>
@@ -3295,7 +3320,9 @@
                   <cell rendition="#width50"/>
                   <cell rendition="#width300">御机神社</cell>
                   <cell rendition="#width50"/>
-                  <cell rendition="#width300"><pb/>高宮神社〈大、月次、新嘗、〉</cell>
+                  <cell rendition="#width300"><pb
+                      facs="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-9%2F00018.tif/full/full/0/default.jpg"
+                    />高宮神社〈大、月次、新嘗、〉</cell>
                 </row>
                 <row>
                   <cell rendition="#width300">津桙神社</cell>
@@ -3427,7 +3454,8 @@
               <rdg wit="#土本 #京博本">仲</rdg>
               <note>中　土本・京博本「仲」、永本・九本・剛本・吉本「中」。</note>
             </app>
-            <pb/>
+            <pb
+              facs="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-9%2F00019.tif/full/full/0/default.jpg"/>
             <p ana="項" corresp="engishiki_en.xml#item09100712 engishiki_ja.xml#item09100712"
               xml:id="item09100712"><s rendition="#indent">渋川郡六座〈並小、〉</s>
               <table>
@@ -3586,7 +3614,9 @@
             <p ana="項" corresp="engishiki_en.xml#item09100801 engishiki_ja.xml#item09100801"
               xml:id="item09100801">和泉国六十二座 <lb/><s rendition="#indent">大一<anchor
                   xml:id="app0910080101"/>座<anchor xml:id="app0910080101e"/></s>
-              <pb/><lb/><s rendition="#indent">小六十一<anchor xml:id="app0910080102"/>座<anchor
+              <pb
+                facs="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-9%2F00020.tif/full/full/0/default.jpg"
+                /><lb/><s rendition="#indent">小六十一<anchor xml:id="app0910080102"/>座<anchor
                   xml:id="app0910080102e"/></s>
             </p>
             <app from="#app0910080101" to="#app0910080101e">
@@ -3746,7 +3776,8 @@
                   <cell rendition="#width50"/>
                   <cell rendition="#width300">粟神社</cell>
                 </row>
-                <pb/>
+                <pb
+                  facs="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-9%2F00021.tif/full/full/0/default.jpg"/>
                 <row>
                   <cell rendition="#width300">曾<anchor xml:id="app0910080303"/>禰<anchor
                       xml:id="app0910080303e"/>神社</cell>
@@ -3859,7 +3890,8 @@
             </app>
             <p ana="項" corresp="engishiki_en.xml#item09100902 engishiki_ja.xml#item09100902"
               xml:id="item09100902"><s rendition="#indent">住吉郡廿二座〈大十座、小十二座、〉</s>
-              <pb/><table>
+              <pb
+                facs="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-9%2F00022.tif/full/full/0/default.jpg"/><table>
                 <row>
                   <cell rendition="#width300"><anchor xml:id="app0910090201"/>住吉坐神社<anchor
                       xml:id="app0910090201e"/>四座〈並名神大、月次、相嘗、新嘗、〉</cell>
@@ -4003,7 +4035,8 @@
             <p ana="項" corresp="engishiki_en.xml#item09100906 engishiki_ja.xml#item09100906"
               xml:id="item09100906"><s rendition="#indent">島下<anchor xml:id="app0910090601"
                   />郡<anchor xml:id="app0910090601e"/>十七座〈大五座、小十二座、〉</s>
-              <pb/><table>
+              <pb
+                facs="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-9%2F00023.tif/full/full/0/default.jpg"/><table>
                 <row>
                   <cell rendition="#width300">新屋坐天照御魂神社三座〈並名神大、月次、新嘗、就中天照御魂神一座預相嘗<anchor
                       xml:id="app0910090602"/>祭<anchor xml:id="app0910090602e"/>、〉</cell>
@@ -4154,7 +4187,8 @@
               <rdg wit="#土本"/>
               <note>鍬靫　土本無し、永本・九本・剛本・吉本・京博本あり。</note>
             </app>
-            <pb/>
+            <pb
+              facs="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-9%2F00024.tif/full/full/0/default.jpg"/>
             <p ana="項" corresp="engishiki_en.xml#item09100910 engishiki_ja.xml#item09100910"
               xml:id="item09100910"><s rendition="#indent">菟原郡三座〈並小、〉</s>
               <table>
@@ -4277,8 +4311,10 @@
                   <cell rendition="#width50"/>
                   <cell rendition="#width300">宇都可神社</cell>
                   <cell rendition="#width50"/>
-                  <cell rendition="#width300"><pb/>波<anchor xml:id="app0910110202"/>太<anchor
-                      xml:id="app0910110202e"/>伎神社</cell>
+                  <cell rendition="#width300"><pb
+                      facs="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-9%2F00025.tif/full/full/0/default.jpg"
+                      />波<anchor xml:id="app0910110202"/>太<anchor xml:id="app0910110202e"
+                    />伎神社</cell>
                 </row>
                 <row>
                   <cell rendition="#width300">須智荒木神社</cell>
@@ -4418,7 +4454,9 @@
             <p ana="項" corresp="engishiki_en.xml#item09101201 engishiki_ja.xml#item09101201"
               xml:id="item09101201">伊勢国二百五十三座 <lb/><s rendition="#indent">大十八座〈就中十四座預月次・新嘗等<anchor
                   xml:id="app0910120101"/>祭<anchor xml:id="app0910120101e"/>、〉</s>
-              <pb/><lb/><s rendition="#indent">小二百卅五座</s>
+              <pb
+                facs="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-9%2F00026.tif/full/full/0/default.jpg"
+                /><lb/><s rendition="#indent">小二百卅五座</s>
             </p>
             <app from="#app0910120101" to="#app0910120101e">
               <lem wit="#土本 #永本 #九本 #京博本">祭</lem>
@@ -4508,7 +4546,8 @@
                   <cell rendition="#width50"/>
                   <cell rendition="#width300">粟皇子神社</cell>
                 </row>
-                <pb/>
+                <pb
+                  facs="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-9%2F00027.tif/full/full/0/default.jpg"/>
                 <row>
                   <cell rendition="#width300">久久都比売神社</cell>
                   <cell rendition="#width50"/>
@@ -4700,7 +4739,9 @@
                   <cell rendition="#width300">奈<anchor xml:id="app0910120303"/>奈<anchor
                       xml:id="app0910120303e"/>美神社</cell>
                   <cell rendition="#width50"/>
-                  <cell rendition="#width300"><pb/>魚海神社二座</cell>
+                  <cell rendition="#width300"><pb
+                      facs="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-9%2F00028.tif/full/full/0/default.jpg"
+                    />魚海神社二座</cell>
                   <cell rendition="#width50"/>
                   <cell rendition="#width300">林神社</cell>
                 </row>
@@ -4848,7 +4889,8 @@
               <note place="傍">剛本傍訓「ウシ」</note>
               <note>牛庭　土本「牛遅」、永本・九本・吉本・京博本「牛庭」、剛本「生庭」（ただし傍訓「ウシ」）。</note>
             </app>
-            <pb/>
+            <pb
+              facs="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-9%2F00029.tif/full/full/0/default.jpg"/>
             <p ana="項" corresp="engishiki_en.xml#item09101204 engishiki_ja.xml#item09101204"
               xml:id="item09101204">
               <table rendition="#indent">
@@ -4975,7 +5017,9 @@
                 <row>
                   <cell rendition="#width300">小丹神社</cell>
                   <cell rendition="#width50"/>
-                  <cell rendition="#width300"><pb/>美濃夜神社</cell>
+                  <cell rendition="#width300"><pb
+                      facs="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-9%2F00030.tif/full/full/0/default.jpg"
+                    />美濃夜神社</cell>
                   <cell rendition="#width50"/>
                   <cell rendition="#width300">阿由太神社</cell>
                 </row>
@@ -5084,7 +5128,8 @@
                   <cell rendition="#width50"/>
                   <cell rendition="#width300">江神社</cell>
                 </row>
-                <pb/>
+                <pb
+                  facs="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-9%2F00031.tif/full/full/0/default.jpg"/>
                 <row>
                   <cell rendition="#width300">布気神社</cell>
                   <cell rendition="#width50"/>
@@ -5222,7 +5267,8 @@
               <note place="傍">吉本傍書「江」</note>
               <note>深　土本・京博本、永本左傍書、吉本傍書および訳注本「江」。永本・九本・剛本・吉本「深」。</note>
             </app>
-            <pb/>
+            <pb
+              facs="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-9%2F00032.tif/full/full/0/default.jpg"/>
             <p ana="項" corresp="engishiki_en.xml#item09101212 engishiki_ja.xml#item09101212"
               xml:id="item09101212"><s rendition="#indent">朝明郡廿四座〈並小、〉</s>
               <table>
@@ -5335,7 +5381,9 @@
                   <cell rendition="#width50"/>
                   <cell rendition="#width300">大谷神社</cell>
                   <cell rendition="#width50"/>
-                  <cell rendition="#width300"><pb/>賀毛神社</cell>
+                  <cell rendition="#width300"><pb
+                      facs="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-9%2F00033.tif/full/full/0/default.jpg"
+                    />賀毛神社</cell>
                 </row>
                 <row>
                   <cell rendition="#width300">星川神社</cell>
@@ -5458,7 +5506,8 @@
                   <cell rendition="#width50"/>
                   <cell rendition="#width300">由乃伎神社</cell>
                 </row>
-                <pb/>
+                <pb
+                  facs="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-9%2F00034.tif/full/full/0/default.jpg"/>
                 <row>
                   <cell rendition="#width300">伊久波神社</cell>
                   <cell rendition="#width50"/>
@@ -5619,7 +5668,8 @@
             </app>
             <p ana="項" corresp="engishiki_en.xml#item09101404 engishiki_ja.xml#item09101404"
               xml:id="item09101404"><s rendition="#indent">葉栗郡十座〈並小、〉</s>
-              <pb/><table>
+              <pb
+                facs="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-9%2F00035.tif/full/full/0/default.jpg"/><table>
                 <row>
                   <cell rendition="#width300"><anchor xml:id="app0910140401"/>穴太部神社<anchor
                       xml:id="app0910140401e"/></cell>
@@ -5745,7 +5795,8 @@
             </app>
             <p ana="項" corresp="engishiki_en.xml#item09101406 engishiki_ja.xml#item09101406"
               xml:id="item09101406"><s rendition="#indent">春部郡十二座〈並小、〉</s>
-              <pb/><table>
+              <pb
+                facs="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-9%2F00036.tif/full/full/0/default.jpg"/><table>
                 <row>
                   <cell rendition="#width300">非多神社</cell>
                   <cell rendition="#width50"/>
@@ -5857,7 +5908,8 @@
             </app>
             <p ana="項" corresp="engishiki_en.xml#item09101408 engishiki_ja.xml#item09101408"
               xml:id="item09101408"><s rendition="#indent">愛智郡十七座〈大四座、小十三座、〉</s>
-              <pb/><table>
+              <pb
+                facs="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-9%2F00037.tif/full/full/0/default.jpg"/><table>
                 <row>
                   <cell rendition="#width300">日置神社</cell>
                   <cell rendition="#width50"/>
@@ -5986,7 +6038,8 @@
                 </row>
               </table>
             </p>
-            <pb/>
+            <pb
+              facs="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-9%2F00038.tif/full/full/0/default.jpg"/>
             <p ana="項" corresp="engishiki_en.xml#item09101503 engishiki_ja.xml#item09101503"
               xml:id="item09101503"><s rendition="#indent">額田郡二座〈並小、〉</s>
               <table>
@@ -6113,7 +6166,8 @@
             </app>
             <p ana="項" corresp="engishiki_en.xml#item09101602 engishiki_ja.xml#item09101602"
               xml:id="item09101602"><s rendition="#indent">浜名郡五座〈大一座、小四座、〉</s>
-              <pb/><table>
+              <pb
+                facs="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-9%2F00039.tif/full/full/0/default.jpg"/><table>
                 <row>
                   <cell rendition="#width300"><anchor xml:id="app0910160201"/>弥<anchor
                       xml:id="app0910160201e"/>和山神社</cell>
@@ -6238,7 +6292,8 @@
             </p>
             <p ana="項" corresp="engishiki_en.xml#item09101607 engishiki_ja.xml#item09101607"
               xml:id="item09101607"><s rendition="#indent">長上郡五座〈並小、〉</s>
-              <pb/><table>
+              <pb
+                facs="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-9%2F00040.tif/full/full/0/default.jpg"/><table>
                 <row>
                   <cell rendition="#width300">大歳神社</cell>
                   <cell rendition="#width50"/>
@@ -6340,7 +6395,9 @@
                   <cell rendition="#width50"/>
                   <cell rendition="#width300">己等乃麻知神社</cell>
                   <cell rendition="#width50"/>
-                  <cell rendition="#width300"><pb/>阿波波神社</cell>
+                  <cell rendition="#width300"><pb
+                      facs="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-9%2F00041.tif/full/full/0/default.jpg"
+                    />阿波波神社</cell>
                 </row>
                 <row>
                   <cell rendition="#width300">利神社</cell>
@@ -6457,7 +6514,8 @@
                   <cell rendition="#width50"/>
                   <cell rendition="#width300">白沢神社</cell>
                 </row>
-                <pb/>
+                <pb
+                  facs="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-9%2F00042.tif/full/full/0/default.jpg"/>
                 <row>
                   <cell rendition="#width300">大歳御祖神社</cell>
                   <cell rendition="#width50"/>
@@ -6568,7 +6626,9 @@
                   <cell rendition="#width50"/>
                   <cell rendition="#width300">波夜志命神社</cell>
                   <cell rendition="#width50"/>
-                  <cell rendition="#width300"><pb/>優波夷命神社</cell>
+                  <cell rendition="#width300"><pb
+                      facs="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-9%2F00043.tif/full/full/0/default.jpg"
+                    />優波夷命神社</cell>
                 </row>
                 <row>
                   <cell rendition="#width300">片菅命神社</cell>
@@ -6750,7 +6810,9 @@
                 <row>
                   <cell rendition="#width300">倭文神社</cell>
                   <cell rendition="#width50"/>
-                  <cell rendition="#width300"><pb/>高椅神社</cell>
+                  <cell rendition="#width300"><pb
+                      facs="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-9%2F00044.tif/full/full/0/default.jpg"
+                    />高椅神社</cell>
                   <cell rendition="#width50"/>
                   <cell rendition="#width300">長浜神社</cell>
                 </row>
@@ -6883,7 +6945,8 @@
                   <cell rendition="#width50"/>
                   <cell rendition="#width300">佐波神社二座</cell>
                 </row>
-                <pb/>
+                <pb
+                  facs="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-9%2F00045.tif/full/full/0/default.jpg"/>
                 <row>
                   <cell rendition="#width300">布刀主<anchor xml:id="app0910180403"/>若<anchor
                       xml:id="app0910180403e"/>玉命<anchor xml:id="app0910180404"/>神<anchor
@@ -7017,7 +7080,9 @@
                   <cell rendition="#width300"><anchor xml:id="app0910190401"/>弓削神社<anchor
                       xml:id="app0910190401e"/></cell>
                   <cell rendition="#width50"/>
-                  <cell rendition="#width300"><pb/>表門神社</cell>
+                  <cell rendition="#width300"><pb
+                      facs="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-9%2F00046.tif/full/full/0/default.jpg"
+                    />表門神社</cell>
                 </row>
                 <row>
                   <cell rendition="#width300"><anchor xml:id="app0910190402"/>浅間神社<anchor
@@ -7134,7 +7199,8 @@
             </app>
             <p ana="項" corresp="engishiki_en.xml#item09102102 engishiki_ja.xml#item09102102"
               xml:id="item09102102"><s rendition="#indent">荏原郡二座〈並小、〉</s>
-              <pb/><table>
+              <pb
+                facs="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-9%2F00047.tif/full/full/0/default.jpg"/><table>
                 <row>
                   <cell rendition="#width300"><anchor xml:id="app0910210201"/>薭田<anchor
                       xml:id="app0910210201e"/>神社</cell>
@@ -7259,7 +7325,8 @@
             </p>
             <p ana="項" corresp="engishiki_en.xml#item09102108 engishiki_ja.xml#item09102108"
               xml:id="item09102108"><s rendition="#indent">埼玉郡四座〈並小、〉</s>
-              <pb/><table>
+              <pb
+                facs="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-9%2F00048.tif/full/full/0/default.jpg"/><table>
                 <row>
                   <cell rendition="#width300">前玉神<anchor xml:id="app0910210801"/>社<anchor
                       xml:id="app0910210801e"/>二座</cell>
@@ -7410,7 +7477,8 @@
               <rdg wit="#土本 #京博本"/>
               <note>小　土本・京博本無し、永本・九本・吉本あり。</note>
             </app>
-            <pb/>
+            <pb
+              facs="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-9%2F00049.tif/full/full/0/default.jpg"/>
             <p ana="項" corresp="engishiki_en.xml#item09102115 engishiki_ja.xml#item09102115"
               xml:id="item09102115">
               <table rendition="#indent">
@@ -7551,7 +7619,9 @@
                   <cell rendition="#width300">望<anchor xml:id="app0910230501"/>陀<anchor
                       xml:id="app0910230501e"/>郡一座〈小、〉</cell>
                   <cell rendition="#width50"/>
-                  <cell rendition="#width300"><pb/>飫富神社</cell>
+                  <cell rendition="#width300"><pb
+                      facs="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-9%2F00050.tif/full/full/0/default.jpg"
+                    />飫富神社</cell>
                   <cell rendition="#width50"/>
                   <cell rendition="#width300"/>
                 </row>
@@ -7705,7 +7775,8 @@
               <note>𧍑　土本「𧊭」、永本・九本・吉本「𧍑」、京博本「𧈿」。</note>
             </app>
           </div>
-          <pb/>
+          <pb
+            facs="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-9%2F00051.tif/full/full/0/default.jpg"/>
           <div ana="神名上" corresp="engishiki_en.xml#article091025 engishiki_ja.xml#article091025"
             n="9.25" subtype="項" type="条" xml:id="article091025">
             <head ana="常陸国"/>
@@ -7846,7 +7917,8 @@
                   <cell rendition="#width50"/>
                   <cell rendition="#width300"/>
                 </row>
-                <pb/>
+                <pb
+                  facs="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-9%2F00052.tif/full/full/0/default.jpg"/>
                 <row>
                   <cell rendition="#width300">藤内神社</cell>
                   <cell rendition="#width50"/>
@@ -8008,171 +8080,350 @@
             <note>朝臣　永本無し、吉本「朝」。土本・京博本あり。</note>
           </app>
         </div>
+        <div type="奥書" xml:id="shahonokugaki09">
+          <p xml:id="shahonokugaki0901">
+            <anchor xml:id="app0998880101"/>此上下両巻、蒙勅命、仰嫡孫兼満終書写之功、致校合畢、 <lb/><s rendition="#indent"
+              >文亀三年十二月廿六日</s>
+            <lb/><s rendition="#indent2">神道長上従二位行神祇大副兼侍従卜部朝臣兼倶</s><anchor xml:id="app0998880101e"/>
+          </p>
+          <app from="#app0998880101" to="#app0998880101e">
+            <lem wit="#土本 #京博本">此上下両巻、蒙勅命、仰嫡孫兼満終書写之功、致校合畢、 <lb/><s rendition="#indent"
+                >文亀三年十二月廿六日</s>
+              <lb/><s rendition="#indent2">神道長上従二位行神祇大副兼侍従卜部朝臣兼倶</s></lem>
+            <rdg wit="#永本">天文元〈壬辰〉年八月廿七日、云悪筆、云老眼、一向雖無 　 <lb/>正体、兼隆朝臣従田舎懇望之間、令書写訖、 　 <lb/><s
+                rendition="#indent4">正三位行神祇大副卜部朝臣兼永</s></rdg>
+            <rdg wit="#九本">付仮名了、</rdg>
+            <rdg wit="#吉本">文明十三年季冬仲旬、 　<lb/>加修補畢、 　<lb/><s rendition="#indent3"
+              >従二位侍従卜部兼（○花押）</s></rdg>
+          </app>
+        </div>
       </div>
     </body>
   </text>
   <facsimile source="https://khirin-a.rekihaku.ac.jp/iiif/rekihaku/H-743-74-9/manifest.json">
-    <surface source="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-9/page4060" xml:id="page4060">
-      <graphic url="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-9%2F00001.tif/full/full/0/default.jpg"/>
+    <surface source="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-9/page4060"
+      xml:id="page4060">
+      <graphic
+        url="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-9%2F00001.tif/full/full/0/default.jpg"
+      />
     </surface>
-    <surface source="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-9/page4061" xml:id="page4061">
-      <graphic url="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-9%2F00002.tif/full/full/0/default.jpg"/>
+    <surface source="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-9/page4061"
+      xml:id="page4061">
+      <graphic
+        url="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-9%2F00002.tif/full/full/0/default.jpg"
+      />
     </surface>
-    <surface source="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-9/page4062" xml:id="page4062">
-      <graphic url="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-9%2F00003.tif/full/full/0/default.jpg"/>
+    <surface source="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-9/page4062"
+      xml:id="page4062">
+      <graphic
+        url="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-9%2F00003.tif/full/full/0/default.jpg"
+      />
     </surface>
-    <surface source="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-9/page4063" xml:id="page4063">
-      <graphic url="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-9%2F00004.tif/full/full/0/default.jpg"/>
+    <surface source="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-9/page4063"
+      xml:id="page4063">
+      <graphic
+        url="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-9%2F00004.tif/full/full/0/default.jpg"
+      />
     </surface>
-    <surface source="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-9/page4064" xml:id="page4064">
-      <graphic url="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-9%2F00005.tif/full/full/0/default.jpg"/>
+    <surface source="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-9/page4064"
+      xml:id="page4064">
+      <graphic
+        url="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-9%2F00005.tif/full/full/0/default.jpg"
+      />
     </surface>
-    <surface source="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-9/page4065" xml:id="page4065">
-      <graphic url="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-9%2F00006.tif/full/full/0/default.jpg"/>
+    <surface source="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-9/page4065"
+      xml:id="page4065">
+      <graphic
+        url="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-9%2F00006.tif/full/full/0/default.jpg"
+      />
     </surface>
-    <surface source="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-9/page4066" xml:id="page4066">
-      <graphic url="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-9%2F00007.tif/full/full/0/default.jpg"/>
+    <surface source="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-9/page4066"
+      xml:id="page4066">
+      <graphic
+        url="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-9%2F00007.tif/full/full/0/default.jpg"
+      />
     </surface>
-    <surface source="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-9/page4067" xml:id="page4067">
-      <graphic url="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-9%2F00008.tif/full/full/0/default.jpg"/>
+    <surface source="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-9/page4067"
+      xml:id="page4067">
+      <graphic
+        url="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-9%2F00008.tif/full/full/0/default.jpg"
+      />
     </surface>
-    <surface source="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-9/page4068" xml:id="page4068">
-      <graphic url="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-9%2F00009.tif/full/full/0/default.jpg"/>
+    <surface source="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-9/page4068"
+      xml:id="page4068">
+      <graphic
+        url="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-9%2F00009.tif/full/full/0/default.jpg"
+      />
     </surface>
-    <surface source="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-9/page4069" xml:id="page4069">
-      <graphic url="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-9%2F00010.tif/full/full/0/default.jpg"/>
+    <surface source="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-9/page4069"
+      xml:id="page4069">
+      <graphic
+        url="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-9%2F00010.tif/full/full/0/default.jpg"
+      />
     </surface>
-    <surface source="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-9/page4070" xml:id="page4070">
-      <graphic url="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-9%2F00011.tif/full/full/0/default.jpg"/>
+    <surface source="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-9/page4070"
+      xml:id="page4070">
+      <graphic
+        url="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-9%2F00011.tif/full/full/0/default.jpg"
+      />
     </surface>
-    <surface source="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-9/page4071" xml:id="page4071">
-      <graphic url="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-9%2F00012.tif/full/full/0/default.jpg"/>
+    <surface source="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-9/page4071"
+      xml:id="page4071">
+      <graphic
+        url="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-9%2F00012.tif/full/full/0/default.jpg"
+      />
     </surface>
-    <surface source="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-9/page4072" xml:id="page4072">
-      <graphic url="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-9%2F00013.tif/full/full/0/default.jpg"/>
+    <surface source="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-9/page4072"
+      xml:id="page4072">
+      <graphic
+        url="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-9%2F00013.tif/full/full/0/default.jpg"
+      />
     </surface>
-    <surface source="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-9/page4073" xml:id="page4073">
-      <graphic url="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-9%2F00014.tif/full/full/0/default.jpg"/>
+    <surface source="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-9/page4073"
+      xml:id="page4073">
+      <graphic
+        url="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-9%2F00014.tif/full/full/0/default.jpg"
+      />
     </surface>
-    <surface source="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-9/page4074" xml:id="page4074">
-      <graphic url="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-9%2F00015.tif/full/full/0/default.jpg"/>
+    <surface source="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-9/page4074"
+      xml:id="page4074">
+      <graphic
+        url="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-9%2F00015.tif/full/full/0/default.jpg"
+      />
     </surface>
-    <surface source="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-9/page4075" xml:id="page4075">
-      <graphic url="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-9%2F00016.tif/full/full/0/default.jpg"/>
+    <surface source="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-9/page4075"
+      xml:id="page4075">
+      <graphic
+        url="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-9%2F00016.tif/full/full/0/default.jpg"
+      />
     </surface>
-    <surface source="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-9/page4076" xml:id="page4076">
-      <graphic url="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-9%2F00017.tif/full/full/0/default.jpg"/>
+    <surface source="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-9/page4076"
+      xml:id="page4076">
+      <graphic
+        url="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-9%2F00017.tif/full/full/0/default.jpg"
+      />
     </surface>
-    <surface source="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-9/page4077" xml:id="page4077">
-      <graphic url="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-9%2F00018.tif/full/full/0/default.jpg"/>
+    <surface source="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-9/page4077"
+      xml:id="page4077">
+      <graphic
+        url="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-9%2F00018.tif/full/full/0/default.jpg"
+      />
     </surface>
-    <surface source="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-9/page4078" xml:id="page4078">
-      <graphic url="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-9%2F00019.tif/full/full/0/default.jpg"/>
+    <surface source="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-9/page4078"
+      xml:id="page4078">
+      <graphic
+        url="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-9%2F00019.tif/full/full/0/default.jpg"
+      />
     </surface>
-    <surface source="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-9/page4079" xml:id="page4079">
-      <graphic url="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-9%2F00020.tif/full/full/0/default.jpg"/>
+    <surface source="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-9/page4079"
+      xml:id="page4079">
+      <graphic
+        url="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-9%2F00020.tif/full/full/0/default.jpg"
+      />
     </surface>
-    <surface source="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-9/page4080" xml:id="page4080">
-      <graphic url="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-9%2F00021.tif/full/full/0/default.jpg"/>
+    <surface source="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-9/page4080"
+      xml:id="page4080">
+      <graphic
+        url="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-9%2F00021.tif/full/full/0/default.jpg"
+      />
     </surface>
-    <surface source="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-9/page4081" xml:id="page4081">
-      <graphic url="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-9%2F00022.tif/full/full/0/default.jpg"/>
+    <surface source="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-9/page4081"
+      xml:id="page4081">
+      <graphic
+        url="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-9%2F00022.tif/full/full/0/default.jpg"
+      />
     </surface>
-    <surface source="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-9/page4082" xml:id="page4082">
-      <graphic url="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-9%2F00023.tif/full/full/0/default.jpg"/>
+    <surface source="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-9/page4082"
+      xml:id="page4082">
+      <graphic
+        url="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-9%2F00023.tif/full/full/0/default.jpg"
+      />
     </surface>
-    <surface source="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-9/page4083" xml:id="page4083">
-      <graphic url="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-9%2F00024.tif/full/full/0/default.jpg"/>
+    <surface source="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-9/page4083"
+      xml:id="page4083">
+      <graphic
+        url="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-9%2F00024.tif/full/full/0/default.jpg"
+      />
     </surface>
-    <surface source="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-9/page4084" xml:id="page4084">
-      <graphic url="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-9%2F00025.tif/full/full/0/default.jpg"/>
+    <surface source="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-9/page4084"
+      xml:id="page4084">
+      <graphic
+        url="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-9%2F00025.tif/full/full/0/default.jpg"
+      />
     </surface>
-    <surface source="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-9/page4085" xml:id="page4085">
-      <graphic url="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-9%2F00026.tif/full/full/0/default.jpg"/>
+    <surface source="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-9/page4085"
+      xml:id="page4085">
+      <graphic
+        url="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-9%2F00026.tif/full/full/0/default.jpg"
+      />
     </surface>
-    <surface source="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-9/page4086" xml:id="page4086">
-      <graphic url="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-9%2F00027.tif/full/full/0/default.jpg"/>
+    <surface source="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-9/page4086"
+      xml:id="page4086">
+      <graphic
+        url="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-9%2F00027.tif/full/full/0/default.jpg"
+      />
     </surface>
-    <surface source="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-9/page4087" xml:id="page4087">
-      <graphic url="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-9%2F00028.tif/full/full/0/default.jpg"/>
+    <surface source="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-9/page4087"
+      xml:id="page4087">
+      <graphic
+        url="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-9%2F00028.tif/full/full/0/default.jpg"
+      />
     </surface>
-    <surface source="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-9/page4088" xml:id="page4088">
-      <graphic url="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-9%2F00029.tif/full/full/0/default.jpg"/>
+    <surface source="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-9/page4088"
+      xml:id="page4088">
+      <graphic
+        url="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-9%2F00029.tif/full/full/0/default.jpg"
+      />
     </surface>
-    <surface source="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-9/page4089" xml:id="page4089">
-      <graphic url="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-9%2F00030.tif/full/full/0/default.jpg"/>
+    <surface source="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-9/page4089"
+      xml:id="page4089">
+      <graphic
+        url="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-9%2F00030.tif/full/full/0/default.jpg"
+      />
     </surface>
-    <surface source="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-9/page4090" xml:id="page4090">
-      <graphic url="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-9%2F00031.tif/full/full/0/default.jpg"/>
+    <surface source="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-9/page4090"
+      xml:id="page4090">
+      <graphic
+        url="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-9%2F00031.tif/full/full/0/default.jpg"
+      />
     </surface>
-    <surface source="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-9/page4091" xml:id="page4091">
-      <graphic url="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-9%2F00032.tif/full/full/0/default.jpg"/>
+    <surface source="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-9/page4091"
+      xml:id="page4091">
+      <graphic
+        url="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-9%2F00032.tif/full/full/0/default.jpg"
+      />
     </surface>
-    <surface source="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-9/page4092" xml:id="page4092">
-      <graphic url="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-9%2F00033.tif/full/full/0/default.jpg"/>
+    <surface source="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-9/page4092"
+      xml:id="page4092">
+      <graphic
+        url="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-9%2F00033.tif/full/full/0/default.jpg"
+      />
     </surface>
-    <surface source="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-9/page4093" xml:id="page4093">
-      <graphic url="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-9%2F00034.tif/full/full/0/default.jpg"/>
+    <surface source="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-9/page4093"
+      xml:id="page4093">
+      <graphic
+        url="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-9%2F00034.tif/full/full/0/default.jpg"
+      />
     </surface>
-    <surface source="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-9/page4094" xml:id="page4094">
-      <graphic url="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-9%2F00035.tif/full/full/0/default.jpg"/>
+    <surface source="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-9/page4094"
+      xml:id="page4094">
+      <graphic
+        url="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-9%2F00035.tif/full/full/0/default.jpg"
+      />
     </surface>
-    <surface source="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-9/page4095" xml:id="page4095">
-      <graphic url="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-9%2F00036.tif/full/full/0/default.jpg"/>
+    <surface source="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-9/page4095"
+      xml:id="page4095">
+      <graphic
+        url="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-9%2F00036.tif/full/full/0/default.jpg"
+      />
     </surface>
-    <surface source="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-9/page4096" xml:id="page4096">
-      <graphic url="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-9%2F00037.tif/full/full/0/default.jpg"/>
+    <surface source="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-9/page4096"
+      xml:id="page4096">
+      <graphic
+        url="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-9%2F00037.tif/full/full/0/default.jpg"
+      />
     </surface>
-    <surface source="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-9/page4097" xml:id="page4097">
-      <graphic url="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-9%2F00038.tif/full/full/0/default.jpg"/>
+    <surface source="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-9/page4097"
+      xml:id="page4097">
+      <graphic
+        url="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-9%2F00038.tif/full/full/0/default.jpg"
+      />
     </surface>
-    <surface source="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-9/page4098" xml:id="page4098">
-      <graphic url="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-9%2F00039.tif/full/full/0/default.jpg"/>
+    <surface source="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-9/page4098"
+      xml:id="page4098">
+      <graphic
+        url="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-9%2F00039.tif/full/full/0/default.jpg"
+      />
     </surface>
-    <surface source="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-9/page4099" xml:id="page4099">
-      <graphic url="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-9%2F00040.tif/full/full/0/default.jpg"/>
+    <surface source="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-9/page4099"
+      xml:id="page4099">
+      <graphic
+        url="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-9%2F00040.tif/full/full/0/default.jpg"
+      />
     </surface>
-    <surface source="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-9/page4100" xml:id="page4100">
-      <graphic url="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-9%2F00041.tif/full/full/0/default.jpg"/>
+    <surface source="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-9/page4100"
+      xml:id="page4100">
+      <graphic
+        url="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-9%2F00041.tif/full/full/0/default.jpg"
+      />
     </surface>
-    <surface source="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-9/page4101" xml:id="page4101">
-      <graphic url="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-9%2F00042.tif/full/full/0/default.jpg"/>
+    <surface source="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-9/page4101"
+      xml:id="page4101">
+      <graphic
+        url="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-9%2F00042.tif/full/full/0/default.jpg"
+      />
     </surface>
-    <surface source="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-9/page4102" xml:id="page4102">
-      <graphic url="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-9%2F00043.tif/full/full/0/default.jpg"/>
+    <surface source="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-9/page4102"
+      xml:id="page4102">
+      <graphic
+        url="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-9%2F00043.tif/full/full/0/default.jpg"
+      />
     </surface>
-    <surface source="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-9/page4103" xml:id="page4103">
-      <graphic url="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-9%2F00044.tif/full/full/0/default.jpg"/>
+    <surface source="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-9/page4103"
+      xml:id="page4103">
+      <graphic
+        url="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-9%2F00044.tif/full/full/0/default.jpg"
+      />
     </surface>
-    <surface source="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-9/page4104" xml:id="page4104">
-      <graphic url="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-9%2F00045.tif/full/full/0/default.jpg"/>
+    <surface source="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-9/page4104"
+      xml:id="page4104">
+      <graphic
+        url="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-9%2F00045.tif/full/full/0/default.jpg"
+      />
     </surface>
-    <surface source="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-9/page4105" xml:id="page4105">
-      <graphic url="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-9%2F00046.tif/full/full/0/default.jpg"/>
+    <surface source="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-9/page4105"
+      xml:id="page4105">
+      <graphic
+        url="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-9%2F00046.tif/full/full/0/default.jpg"
+      />
     </surface>
-    <surface source="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-9/page4106" xml:id="page4106">
-      <graphic url="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-9%2F00047.tif/full/full/0/default.jpg"/>
+    <surface source="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-9/page4106"
+      xml:id="page4106">
+      <graphic
+        url="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-9%2F00047.tif/full/full/0/default.jpg"
+      />
     </surface>
-    <surface source="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-9/page4107" xml:id="page4107">
-      <graphic url="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-9%2F00048.tif/full/full/0/default.jpg"/>
+    <surface source="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-9/page4107"
+      xml:id="page4107">
+      <graphic
+        url="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-9%2F00048.tif/full/full/0/default.jpg"
+      />
     </surface>
-    <surface source="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-9/page4108" xml:id="page4108">
-      <graphic url="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-9%2F00049.tif/full/full/0/default.jpg"/>
+    <surface source="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-9/page4108"
+      xml:id="page4108">
+      <graphic
+        url="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-9%2F00049.tif/full/full/0/default.jpg"
+      />
     </surface>
-    <surface source="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-9/page4109" xml:id="page4109">
-      <graphic url="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-9%2F00050.tif/full/full/0/default.jpg"/>
+    <surface source="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-9/page4109"
+      xml:id="page4109">
+      <graphic
+        url="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-9%2F00050.tif/full/full/0/default.jpg"
+      />
     </surface>
-    <surface source="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-9/page4110" xml:id="page4110">
-      <graphic url="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-9%2F00051.tif/full/full/0/default.jpg"/>
+    <surface source="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-9/page4110"
+      xml:id="page4110">
+      <graphic
+        url="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-9%2F00051.tif/full/full/0/default.jpg"
+      />
     </surface>
-    <surface source="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-9/page4111" xml:id="page4111">
-      <graphic url="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-9%2F00052.tif/full/full/0/default.jpg"/>
+    <surface source="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-9/page4111"
+      xml:id="page4111">
+      <graphic
+        url="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-9%2F00052.tif/full/full/0/default.jpg"
+      />
     </surface>
-    <surface source="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-9/page4112" xml:id="page4112">
-      <graphic url="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-9%2F00053.tif/full/full/0/default.jpg"/>
+    <surface source="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-9/page4112"
+      xml:id="page4112">
+      <graphic
+        url="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-9%2F00053.tif/full/full/0/default.jpg"
+      />
     </surface>
-    <surface source="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-9/page4113" xml:id="page4113">
-      <graphic url="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-9%2F00054.tif/full/full/0/default.jpg"/>
+    <surface source="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-9/page4113"
+      xml:id="page4113">
+      <graphic
+        url="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-9%2F00054.tif/full/full/0/default.jpg"
+      />
     </surface>
   </facsimile>
 </TEI>
