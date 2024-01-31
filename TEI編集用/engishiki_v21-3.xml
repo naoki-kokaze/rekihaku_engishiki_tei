@@ -1,254 +1,1118 @@
 <?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
-	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-<teiHeader>
-<fileDesc>
-<titleStmt>
-<title>延喜式ファイル</title>
-</titleStmt>
-<publicationStmt>
-<publisher>国立歴史民俗博物館メタ資料学研究センター</publisher>
-<idno type="PID">o:depcha.engi_shiki.1</idno>
-<availability>
-<p/>
-</availability>
-<date when="2020-03-31">31 March 2020</date>
-</publicationStmt>
-<sourceDesc>
-<msDesc>
-<msIdentifier>
-<settlement>千葉県佐倉市</settlement>
-<repository>国立歴史民俗博物館</repository>
-<collection>集英社版延喜式</collection>
-</msIdentifier>
-<msContents>
-<msItem>
-<author>藤原時平・藤原忠平</author>
-<title>延喜式</title>
-<note>
-<p>ここに史料の説明が入る。</p>
-</note>
-</msItem>
-</msContents>
-</msDesc>
-<listWit>
-<listWit xml:id="写本">
-<head>写本</head>
-<witness xml:id="土本"><abbr>土本</abbr>：国立歴史民俗博物館所蔵土御門家旧蔵本（H-743-74）</witness>
-<witness xml:id="近本"><abbr>近本</abbr>：京都大学附属図書館所蔵近衛文庫本（2-03/エ/1貴）</witness>
-<witness xml:id="壬本"><abbr>壬本</abbr>：宮内庁書陵部図書寮文庫所蔵壬生家旧蔵本（F10-287）</witness>
-<witness xml:id="京博本"><abbr>京博本</abbr>：京都国立博物館所蔵旧京都博物館本</witness>
-<witness xml:id="慶長本"><abbr>慶長本</abbr>：国立公文書館所蔵慶長写本（特102-8）</witness>
-<witness xml:id="梵本"><abbr>梵本</abbr>：天理大学附属天理図書館所蔵吉田文庫梵舜等筆本（吉16-8。巻8は173-ｲ5（Ⅲ524)もあり）</witness>
-<witness xml:id="九本"><abbr>九本</abbr>：東京国立博物館所蔵九条家旧蔵巻子本（B-2370）</witness>
-<witness xml:id="剛本"><abbr>剛本</abbr>：天野山金剛寺所蔵本</witness>
-<witness xml:id="条本"><abbr>条本</abbr>：一条家旧蔵巻子本（巻1～3は無窮会専門図書館所蔵模写本、巻4・5は神宮司庁刊影印本）</witness>
-<witness xml:id="花本"><abbr>花本</abbr>：花山院家・武田祐吉旧蔵本（神宮皇学館刊影印本による）</witness>
-<witness xml:id="九冊本"><abbr>九冊本</abbr>：國學院大學所蔵九条家・西田長男旧蔵冊子本（巻5は西田長男刊影印本による）</witness>
-<witness xml:id="永本"><abbr>永本</abbr>：巻8は國學院大學図書館所蔵（091.2/322.135/1）、巻9・10は現蔵不明(神宮文庫所蔵写真帳1門16974）</witness>
-<witness xml:id="右本"><abbr>右本</abbr>：巻8は國學院大學図書館所蔵（貴62）</witness>
-<witness xml:id="吉本"><abbr>吉本</abbr>：天理大学附属天理図書館所蔵吉田家旧蔵本巻9・10（328.1-ｲ17(Ⅲ1219)）</witness>
-<witness xml:id="三条本"><abbr>三条本</abbr>：天理大学附属天理図書館所蔵三条家旧蔵本（328.1-ｲ11(Ⅲ1218)）</witness>
-<witness xml:id="西本"><abbr>西本</abbr>：巻9・10は國學院大學図書館所蔵（貴107～108）。巻50は国立歴史民俗博物館所蔵（H-1588）。抄出本は國學院大學所蔵（木村大樹「〔西田長男旧蔵〕三条西実隆筆『延喜式』(抄)の翻刻・紹介」『國學院大學研究開発推進機構紀要』14、2022年） </witness>
-<witness xml:id="時慶本"><abbr>時慶本</abbr>：静嘉堂文庫所蔵西洞院時慶写本（延喜格式表18352、延喜式序18353）</witness>
-<witness xml:id="島原本"><abbr>島原本</abbr>：東京大学史料編纂所所蔵松平忠房・和学講談所・水野忠央旧蔵本（貴45-2）</witness>
-<witness xml:id="藤波本"><abbr>藤波本</abbr>：宮内庁書陵部図書寮文庫所蔵藤波家旧蔵本（217-473）</witness>
-<witness xml:id="貞享本"><abbr>貞享本</abbr>：宮内庁書陵部図書寮文庫所蔵和学講談所旧蔵坊城俊方貞享本（457-116）</witness>
-<witness xml:id="玄梁本"><abbr>玄梁本</abbr>：無窮会専門図書館所蔵神習文庫玄梁記名本（神習3666）</witness>
-<witness xml:id="尾張本"><abbr>尾張本</abbr>：東京大学総合図書館所蔵尾張家旧蔵本（巻13）（A00-6122）</witness>
-<witness xml:id="泉亭本"><abbr>泉亭本</abbr>：賀茂三手文庫所蔵泉亭本（制度/加）</witness>
-</listWit>
-<listWit xml:id="版本">
-<head>版本：慶安版本も含めた流布版本</head>
-<witness xml:id="慶安版本"><abbr>慶安版本</abbr>：大和文華館所蔵鈴鹿連胤旧蔵版本（1/741～790）</witness>
-<witness xml:id="明暦版本"><abbr>明暦版本</abbr>：明暦修訂版本　国立公文書館所蔵紅葉山文庫旧蔵版本（特26-1）等</witness>
-<witness xml:id="明暦以降版本"><abbr>明暦以降版本</abbr>：明暦修訂本以降の版本</witness>
-<witness xml:id="寛文版本"><abbr>寛文版本</abbr>：寛文修訂版本　筑波大学附属図書館所蔵版本20冊本（ム212-7）等</witness>
-<witness xml:id="享保版本"><abbr>享保版本</abbr>：享保修訂版本　筑波大学附属図書館所蔵版本50冊本（ム212-6）等</witness>
-<witness xml:id="雲本"><abbr>雲本</abbr>：松江藩文政11年(1828)刊本（雲州本）　早稲田大学図書館所蔵本（ワ03-01594）等</witness>
-<witness xml:id="考異"><abbr>考異</abbr>：雲州本附録『延喜式考異』　早稲田大学図書館所蔵本（ワ03-01594）等</witness>
-<witness xml:id="鈴鹿本"><abbr>鈴鹿本</abbr>：大和文華館所蔵鈴鹿連胤旧蔵慶安版本（1/741～790）書入</witness>
-<witness xml:id="勢多本"><abbr>勢多本</abbr>：宮内庁書陵部図書寮文庫所蔵勢多家旧蔵明暦等版本（172-123）書入</witness>
-<witness xml:id="筑波寛文本"><abbr>筑波寛文本</abbr>：筑波大学附属図書館所蔵寛文版本20冊本（ム212-7）書入</witness>
-</listWit>
-<listWit xml:id="刊本">
-<head>刊本</head>
-<witness xml:id="旧大系本"><abbr>旧大系本</abbr>：旧輯国史大系第13巻（経済雑誌社　1900年刊）</witness>
-<witness xml:id="叢書本"><abbr>叢書本</abbr>：新註皇学叢書第3巻（広文庫刊行会　1927年刊）</witness>
-<witness xml:id="全集本"><abbr>全集本</abbr>：日本古典全集『延喜式』（日本古典全集刊行会　1927～1929年刊）</witness>
-<witness xml:id="皇典本"><abbr>皇典本</abbr>：『校訂延喜式』（皇典講究所・全国神職会　1929～1932年刊）</witness>
-<witness xml:id="国史大系本"><abbr>国史大系本</abbr>：新訂増補国史大系第26巻（吉川弘文館　1937年刊）</witness>
-<witness xml:id="神道大系本"><abbr>神道大系本</abbr>：神道大系古典編11・12『延喜式』（神道大系編纂会、1991・1993年刊）</witness>
-<witness xml:id="訳注本"><abbr>訳注本</abbr>：訳注日本史料『延喜式』上～下（集英社、2000～2017年刊）</witness>
-</listWit>
-<listWit xml:id="その他">
-<head>その他</head>
-<witness xml:id="本朝月令"><abbr>本朝月令</abbr>：清水潔編『新校本朝月令』（皇學館大學神道研究所　2002年刊）</witness>
-<witness xml:id="儀式"><abbr>儀式</abbr>：神道大系朝儀祭祀編1『儀式・内裏式』（神道大系編纂会　1980年刊）</witness>
-<witness xml:id="皇太神宮儀式帳"><abbr>皇太神宮儀式帳</abbr>：佐野真人「『皇太神宮儀式帳』校訂試案」（『皇學館大学研究開発推進センター紀要』2　2016年）</witness>
-<witness xml:id="止由気宮儀式帳"><abbr>止由気宮儀式帳</abbr>：佐野真人「『止由気宮儀式帳』校訂試案」（『皇學館大学研究開発推進センター紀要』3　2017年）</witness>
-<witness xml:id="新撰年中行事"><abbr>新撰年中行事</abbr>：西本昌弘編『新撰年中行事』（八木書店　2010年刊）</witness>
-<witness xml:id="小野宮年中行事"><abbr>小野宮年中行事</abbr>：群書類従第6輯 律令部 公事部（続群書類従完成会　1932年刊）</witness>
-<witness xml:id="小野宮年中行事裏書"><abbr>小野宮年中行事裏書</abbr>：国立歴史民俗博物館所蔵本（H-1762）</witness>
-<witness xml:id="勘例"><abbr>勘例（陽明文庫所蔵）</abbr>：大日本古記録『勘例』上・下（岩波書店　2018・2023年刊）</witness>
-<witness xml:id="政事要略"><abbr>政事要略</abbr>：新訂増補国史大系第28巻（吉川弘文館　1935年刊。適宜、写本を参照）</witness>
-<witness xml:id="法曹至要抄"><abbr>法曹至要抄</abbr>：中世法制史料集（岩波書店　2005年刊）</witness>
-<witness xml:id="本草和名"><abbr>本草和名</abbr>：丸山裕美子・武倩編著『本草和名』（汲古書院　2021年刊）</witness>
-</listWit>
-</listWit>
-</sourceDesc>
-</fileDesc>
-<encodingDesc>
-<variantEncoding location="external" method="location-referenced"/>
-<tagsDecl>
-<rendition xml:id="indent">margin-top: 1em;</rendition>
-<rendition xml:id="indent2">margin-top: 2em;</rendition>
-<rendition xml:id="indent5">margin-top: 5em;</rendition>
-<rendition xml:id="width50">width: 50px;</rendition>
-<rendition xml:id="kokumei">width: 80px;</rendition>
-<rendition xml:id="width100">width: 100px;</rendition>
-<rendition xml:id="width200">width: 200px;</rendition>
-<rendition xml:id="width300">width: 300px;</rendition>
-</tagsDecl>
-<editorialDecl>
-<p>校訂文全体凡例<table>
-<row>
-<cell>・</cell>
-<cell>原則として土本（以下、略称は「主要写本・版本・刊本等略称・底本一覧」参照）を底本とし、九本・剛本・条本・花本等の古写本や近本・壬本・京博本等の写本によって対校しました（巻によって使用した対校本は異なります）。</cell>
-</row>
-<row>
-<cell>・</cell>
-<cell>条文番号・条文名称は原則として訳注本に拠りましたが、一部を修正しています（※下記「条文名称修正一覧」参照）。なお1条が長い場合など、必要に応じ「項」に分割して示すこととしました。</cell>
-</row>
-<row>
-<cell>・</cell>
-<cell>校異は原則として底本の文字を改変する場合、あるいは写本間に参考とすべき異同がある場合、参考とすべき傍書等がある場合に付すこととしました。必ずしもその校異に関する写本をすべて網羅することはせず、主要写本のみを取り上げています。ただし訳注本と校訂文に異同が生じた場合には、できる限り校異にて言及するよう心がけました（単なる字体の相違については省略しています）。</cell>
-</row>
-<row>
-<cell>・</cell>
-<cell>校訂文は『延喜式』撰上当初の姿の復元を目標としています。標注や傍書は、条文名称に関わるものは省略し、中世以前にさかのぼることが想定されるものに限って、校異注で言及することとしました。ただし標注のうち「弘」「貞」「延」等については便宜を考え、鉤括弧で括って校訂本文に掲げることとしました。</cell>
-</row>
-<row>
-<cell>・</cell>
-<cell>字体は常用漢字体を原則としました。「大」と「太」、「座」と「坐」、「絇」と「約」、「績」と「續（続）」、「色」と「包」、「細」と「紬」、「鈍」と「純」、「冑」と「胃」、「絁」と「絶」、草冠と竹冠、木偏と手偏等、容易に判定される誤字や誤用・通用については、校異を省略して適宜置き換える場合があります。ただし巻9・10においては「大」「太」の差異も校異にて触れることとしました。</cell>
-</row>
-<row>
-<cell>・</cell>
-<cell>校訂文中の細字・割書は、〈　〉で括って表現することとしました。</cell>
-</row>
-<row>
-<cell>・</cell>
-<cell>本文に誤字・脱字等が想定される場合であっても、置き換えるべき文字や補うべき文字が明確でない場合は、校異注での言及にとどめた場合があります。</cell>
-</row>
-<row>
-<cell>・</cell>
-<cell>ユニコードにて表示されない漢字は以下のように示すことにしました。</cell>
-</row>
-</table>
-<table rendition="#indent2">
-<row>
-<cell rendition="#width100">【Ａ+Ｂ】</cell>
-<cell rendition="#width300">＝扁がＡ、つくりがＢ</cell>
-<cell rendition="#width300">例）村【木+寸】</cell>
-</row>
-<row>
-<cell rendition="#width100">【Ａ/Ｂ】</cell>
-<cell rendition="#width300">＝上にＡ、下にＢ</cell>
-<cell rendition="#width300">例）雲【雨/云】</cell>
-</row>
-<row>
-<cell rendition="#width100">【Ａ-Ｂ】</cell>
-<cell rendition="#width300">＝Ａの字画よりＢにあたる字画を除く</cell>
-<cell rendition="#width300">例）門【閉-オ】</cell>
-</row>
-<row>
-<cell rendition="#width100">【Ａ⊃Ｂ】</cell>
-<cell rendition="#width300">＝Ａの字画のなかにＢの字画が含まれる</cell>
-<cell rendition="#width300">例）閉【門⊃オ】、国【囗⊃玉】</cell>
-</row>
-</table>
-<table>
-<row>
-<cell>・</cell>
-<cell>校異註の付く文字は赤字で表示され、クリックすると註が表示されます。表示内容は以下の通りです。</cell>
-</row>
-</table>
-<table rendition="#indent2">
-<row>
-<cell rendition="#width100">採用</cell>
-<cell>写本名と校訂文にて採用した文字</cell>
-</row>
-<row>
-<cell rendition="#width100">校異</cell>
-<cell>写本名と対校箇所の文字</cell>
-</row>
-<row>
-<cell rendition="#width100">解説</cell>
-<cell>各写本の傍書や頭書等の提示、校異註の本文（最下部の解説）</cell>
-</row>
-</table>
-<table>
-<row>
-<cell>・</cell>
-<cell>条文名称修正一覧</cell>
-</row>
-</table>
-<table rendition="#indent2">
-<row>
-<cell rendition="#width100">巻番号</cell>
-<cell rendition="#width100">旧番号</cell>
-<cell rendition="#width100">旧条文名</cell>
-<cell rendition="#width50">番号</cell>
-<cell rendition="#width100">訂正条文名</cell>
-</row>
-<row>
-<cell rendition="#width100">111太政官</cell>
-<cell rendition="#width100">67</cell>
-<cell rendition="#width100">薗韓神祭</cell>
-<cell rendition="#width50">67</cell>
-<cell rendition="#width100">園韓神祭</cell>
-</row>
-<row>
-<cell rendition="#width100">111太政官</cell>
-<cell rendition="#width100">112</cell>
-<cell rendition="#width100">行幸経宿</cell>
-<cell rendition="#width50">112</cell>
-<cell rendition="#width100">行幸経旬</cell>
-</row>
-<row>
-<cell rendition="#width100">171内匠</cell>
-<cell rendition="#width100">39</cell>
-<cell rendition="#width100">作物衣服</cell>
-<cell rendition="#width50">39</cell>
-<cell rendition="#width100">作物衣</cell>
-</row>
-<row>
-<cell rendition="#width100">293囚獄</cell>
-<cell rendition="#width100">2</cell>
-<cell rendition="#width100">著鈦盤枷</cell>
-<cell rendition="#width50">2</cell>
-<cell rendition="#width100">着鈦盤枷</cell>
-</row>
-<row>
-<cell rendition="#width100">321大膳上</cell>
-<cell rendition="#width100">5</cell>
-<cell rendition="#width100">新嘗祭</cell>
-<cell rendition="#width50">5･6</cell>
-<cell rendition="#width100">新嘗祭と新嘗小斎解斎に分割</cell>
-</row>
-<row>
-<cell rendition="#width100">411弾正</cell>
-<cell rendition="#width100">68</cell>
-<cell rendition="#width100">支子染深色</cell>
-<cell rendition="#width50">68</cell>
-<cell rendition="#width100">支子染色</cell>
-</row>
-</table></p>
-<p ana="個別"/>
-</editorialDecl>
-</encodingDesc>
-<revisionDesc ana="個別">
-<change/>
-</revisionDesc>
-</teiHeader>
-<text><body><div ana="玄蕃" n="21" subtype="式" type="巻" xml:id="volume21"><div type="首題" xml:id="shudai21"><p xml:id="shudai2101">首題</p></div><div ana="玄蕃" corresp="engishiki_en.xml#protocol213 engishiki_ja.xml#protocol213" n="21" subtype="条" type="式" xml:id="protocol213"><div type="式題" xml:id="shikidai213"><p xml:id="shikidai21301">式題</p></div><div ana="玄蕃" corresp="engishiki_en.xml#article213001 engishiki_ja.xml#article213001" n="21.1" subtype="項" type="条" xml:id="article213001"><head ana="御斎会"/><p ana="項" corresp="engishiki_en.xml#item21300101 engishiki_ja.xml#item21300101" xml:id="item21300101">本文</p></div><div ana="玄蕃" corresp="engishiki_en.xml#article213002 engishiki_ja.xml#article213002" n="21.2" subtype="項" type="条" xml:id="article213002"><head ana="御修法"/><p ana="項" corresp="engishiki_en.xml#item21300201 engishiki_ja.xml#item21300201" xml:id="item21300201">本文</p></div><div ana="玄蕃" corresp="engishiki_en.xml#article213003 engishiki_ja.xml#article213003" n="21.3" subtype="項" type="条" xml:id="article213003"><head ana="大元帥法"/><p ana="項" corresp="engishiki_en.xml#item21300301 engishiki_ja.xml#item21300301" xml:id="item21300301">本文</p></div><div ana="玄蕃" corresp="engishiki_en.xml#article213004 engishiki_ja.xml#article213004" n="21.4" subtype="項" type="条" xml:id="article213004"><head ana="安居"/><p ana="項" corresp="engishiki_en.xml#item21300401 engishiki_ja.xml#item21300401" xml:id="item21300401">本文</p></div><div ana="玄蕃" corresp="engishiki_en.xml#article213005 engishiki_ja.xml#article213005" n="21.5" subtype="項" type="条" xml:id="article213005"><head ana="招提寺安居"/><p ana="項" corresp="engishiki_en.xml#item21300501 engishiki_ja.xml#item21300501" xml:id="item21300501">本文</p></div><div ana="玄蕃" corresp="engishiki_en.xml#article213006 engishiki_ja.xml#article213006" n="21.6" subtype="項" type="条" xml:id="article213006"><head ana="大般若経"/><p ana="項" corresp="engishiki_en.xml#item21300601 engishiki_ja.xml#item21300601" xml:id="item21300601">本文</p></div><div ana="玄蕃" corresp="engishiki_en.xml#article213007 engishiki_ja.xml#article213007" n="21.7" subtype="項" type="条" xml:id="article213007"><head ana="大安寺大般若"/><p ana="項" corresp="engishiki_en.xml#item21300701 engishiki_ja.xml#item21300701" xml:id="item21300701">本文</p></div><div ana="玄蕃" corresp="engishiki_en.xml#article213008 engishiki_ja.xml#article213008" n="21.8" subtype="項" type="条" xml:id="article213008"><head ana="薬師寺大般若"/><p ana="項" corresp="engishiki_en.xml#item21300801 engishiki_ja.xml#item21300801" xml:id="item21300801">本文</p></div><div ana="玄蕃" corresp="engishiki_en.xml#article213009 engishiki_ja.xml#article213009" n="21.9" subtype="項" type="条" xml:id="article213009"><head ana="崇福寺悔過"/><p ana="項" corresp="engishiki_en.xml#item21300901 engishiki_ja.xml#item21300901" xml:id="item21300901">本文</p></div><div ana="玄蕃" corresp="engishiki_en.xml#article213010 engishiki_ja.xml#article213010" n="21.10" subtype="項" type="条" xml:id="article213010"><head ana="最勝会"/><p ana="項" corresp="engishiki_en.xml#item21301001 engishiki_ja.xml#item21301001" xml:id="item21301001">本文</p></div><div ana="玄蕃" corresp="engishiki_en.xml#article213011 engishiki_ja.xml#article213011" n="21.11" subtype="項" type="条" xml:id="article213011"><head ana="維摩会"/><p ana="項" corresp="engishiki_en.xml#item21301101 engishiki_ja.xml#item21301101" xml:id="item21301101">本文</p></div><div ana="玄蕃" corresp="engishiki_en.xml#article213012 engishiki_ja.xml#article213012" n="21.12" subtype="項" type="条" xml:id="article213012"><head ana="竪義"/><p ana="項" corresp="engishiki_en.xml#item21301201 engishiki_ja.xml#item21301201" xml:id="item21301201">本文</p></div><div ana="玄蕃" corresp="engishiki_en.xml#article213013 engishiki_ja.xml#article213013" n="21.13" subtype="項" type="条" xml:id="article213013"><head ana="修正会"/><p ana="項" corresp="engishiki_en.xml#item21301301 engishiki_ja.xml#item21301301" xml:id="item21301301">本文</p></div><div ana="玄蕃" corresp="engishiki_en.xml#article213014 engishiki_ja.xml#article213014" n="21.14" subtype="項" type="条" xml:id="article213014"><head ana="吉祥悔過"/><p ana="項" corresp="engishiki_en.xml#item21301401 engishiki_ja.xml#item21301401" xml:id="item21301401">本文</p></div><div ana="玄蕃" corresp="engishiki_en.xml#article213015 engishiki_ja.xml#article213015" n="21.15" subtype="項" type="条" xml:id="article213015"><head ana="金光明寺安居"/><p ana="項" corresp="engishiki_en.xml#item21301501 engishiki_ja.xml#item21301501" xml:id="item21301501">本文</p></div><div ana="玄蕃" corresp="engishiki_en.xml#article213016 engishiki_ja.xml#article213016" n="21.16" subtype="項" type="条" xml:id="article213016"><head ana="国分僧尼"/><p ana="項" corresp="engishiki_en.xml#item21301601 engishiki_ja.xml#item21301601" xml:id="item21301601">本文</p></div><div ana="玄蕃" corresp="engishiki_en.xml#article213017 engishiki_ja.xml#article213017" n="21.17" subtype="項" type="条" xml:id="article213017"><head ana="公験"/><p ana="項" corresp="engishiki_en.xml#item21301701 engishiki_ja.xml#item21301701" xml:id="item21301701">本文</p></div><div ana="玄蕃" corresp="engishiki_en.xml#article213018 engishiki_ja.xml#article213018" n="21.18" subtype="項" type="条" xml:id="article213018"><head ana="心願国分僧"/><p ana="項" corresp="engishiki_en.xml#item21301801 engishiki_ja.xml#item21301801" xml:id="item21301801">本文</p></div><div ana="玄蕃" corresp="engishiki_en.xml#article213019 engishiki_ja.xml#article213019" n="21.19" subtype="項" type="条" xml:id="article213019"><head ana="国分僧死闕"/><p ana="項" corresp="engishiki_en.xml#item21301901 engishiki_ja.xml#item21301901" xml:id="item21301901">本文</p></div><div ana="玄蕃" corresp="engishiki_en.xml#article213020 engishiki_ja.xml#article213020" n="21.20" subtype="項" type="条" xml:id="article213020"><head ana="大和国分寺"/><p ana="項" corresp="engishiki_en.xml#item21302001 engishiki_ja.xml#item21302001" xml:id="item21302001">本文</p></div><div ana="玄蕃" corresp="engishiki_en.xml#article213021 engishiki_ja.xml#article213021" n="21.21" subtype="項" type="条" xml:id="article213021"><head ana="転用国分寺"/><p ana="項" corresp="engishiki_en.xml#item21302101 engishiki_ja.xml#item21302101" xml:id="item21302101">本文</p></div><div ana="玄蕃" corresp="engishiki_en.xml#article213022 engishiki_ja.xml#article213022" n="21.22" subtype="項" type="条" xml:id="article213022"><head ana="国分寺田"/><p ana="項" corresp="engishiki_en.xml#item21302201 engishiki_ja.xml#item21302201" xml:id="item21302201">本文</p></div><div ana="玄蕃" corresp="engishiki_en.xml#article213023 engishiki_ja.xml#article213023" n="21.23" subtype="項" type="条" xml:id="article213023"><head ana="修理国分寺"/><p ana="項" corresp="engishiki_en.xml#item21302301 engishiki_ja.xml#item21302301" xml:id="item21302301">本文</p></div><div ana="玄蕃" corresp="engishiki_en.xml#article213024 engishiki_ja.xml#article213024" n="21.24" subtype="項" type="条" xml:id="article213024"><head ana="多度神宮寺"/><p ana="項" corresp="engishiki_en.xml#item21302401 engishiki_ja.xml#item21302401" xml:id="item21302401">本文</p></div><div ana="玄蕃" corresp="engishiki_en.xml#article213025 engishiki_ja.xml#article213025" n="21.25" subtype="項" type="条" xml:id="article213025"><head ana="仁王会"/><p ana="項" corresp="engishiki_en.xml#item21302501 engishiki_ja.xml#item21302501" xml:id="item21302501">本文</p></div><div ana="玄蕃" corresp="engishiki_en.xml#article213026 engishiki_ja.xml#article213026" n="21.26" subtype="項" type="条" xml:id="article213026"><head ana="仁王会堂装束"/><p ana="項" corresp="engishiki_en.xml#item21302601 engishiki_ja.xml#item21302601" xml:id="item21302601">本文</p></div><div ana="玄蕃" corresp="engishiki_en.xml#article213027 engishiki_ja.xml#article213027" n="21.27" subtype="項" type="条" xml:id="article213027"><head ana="仁王会講師"/><p ana="項" corresp="engishiki_en.xml#item21302701 engishiki_ja.xml#item21302701" xml:id="item21302701">本文</p></div><div ana="玄蕃" corresp="engishiki_en.xml#article213028 engishiki_ja.xml#article213028" n="21.28" subtype="項" type="条" xml:id="article213028"><head ana="仁王会読師"/><p ana="項" corresp="engishiki_en.xml#item21302801 engishiki_ja.xml#item21302801" xml:id="item21302801">本文</p></div><div ana="玄蕃" corresp="engishiki_en.xml#article213029 engishiki_ja.xml#article213029" n="21.29" subtype="項" type="条" xml:id="article213029"><head ana="仁王会布施"/><p ana="項" corresp="engishiki_en.xml#item21302901 engishiki_ja.xml#item21302901" xml:id="item21302901">本文</p></div><div ana="玄蕃" corresp="engishiki_en.xml#article213030 engishiki_ja.xml#article213030" n="21.30" subtype="項" type="条" xml:id="article213030"><head ana="旱災"/><p ana="項" corresp="engishiki_en.xml#item21303001 engishiki_ja.xml#item21303001" xml:id="item21303001">本文</p></div><div ana="玄蕃" corresp="engishiki_en.xml#article213031 engishiki_ja.xml#article213031" n="21.31" subtype="項" type="条" xml:id="article213031"><head ana="尊勝陀羅尼"/><p ana="項" corresp="engishiki_en.xml#item21303101 engishiki_ja.xml#item21303101" xml:id="item21303101">本文</p></div><div ana="玄蕃" corresp="engishiki_en.xml#article213032 engishiki_ja.xml#article213032" n="21.32" subtype="項" type="条" xml:id="article213032"><head ana="灯油"/><p ana="項" corresp="engishiki_en.xml#item21303201 engishiki_ja.xml#item21303201" xml:id="item21303201">本文</p></div><div ana="玄蕃" corresp="engishiki_en.xml#article213033 engishiki_ja.xml#article213033" n="21.33" subtype="項" type="条" xml:id="article213033"><head ana="新薬師寺修法"/><p ana="項" corresp="engishiki_en.xml#item21303301 engishiki_ja.xml#item21303301" xml:id="item21303301">本文</p></div><div ana="玄蕃" corresp="engishiki_en.xml#article213034 engishiki_ja.xml#article213034" n="21.34" subtype="項" type="条" xml:id="article213034"><head ana="東大寺"/><p ana="項" corresp="engishiki_en.xml#item21303401 engishiki_ja.xml#item21303401" xml:id="item21303401">本文</p></div><div ana="玄蕃" corresp="engishiki_en.xml#article213035 engishiki_ja.xml#article213035" n="21.35" subtype="項" type="条" xml:id="article213035"><head ana="大仏安居"/><p ana="項" corresp="engishiki_en.xml#item21303501 engishiki_ja.xml#item21303501" xml:id="item21303501">本文</p></div><div ana="玄蕃" corresp="engishiki_en.xml#article213036 engishiki_ja.xml#article213036" n="21.36" subtype="項" type="条" xml:id="article213036"><head ana="国忌座料"/><p ana="項" corresp="engishiki_en.xml#item21303601 engishiki_ja.xml#item21303601" xml:id="item21303601">本文</p></div><div ana="玄蕃" corresp="engishiki_en.xml#article213037 engishiki_ja.xml#article213037" n="21.37" subtype="項" type="条" xml:id="article213037"><head ana="僧綱所"/><p ana="項" corresp="engishiki_en.xml#item21303701 engishiki_ja.xml#item21303701" xml:id="item21303701">本文</p></div><div ana="玄蕃" corresp="engishiki_en.xml#article213038 engishiki_ja.xml#article213038" n="21.38" subtype="項" type="条" xml:id="article213038"><head ana="任僧綱"/><p ana="項" corresp="engishiki_en.xml#item21303801 engishiki_ja.xml#item21303801" xml:id="item21303801">本文</p></div><div ana="玄蕃" corresp="engishiki_en.xml#article213039 engishiki_ja.xml#article213039" n="21.39" subtype="項" type="条" xml:id="article213039"><head ana="大寺雑事"/><p ana="項" corresp="engishiki_en.xml#item21303901 engishiki_ja.xml#item21303901" xml:id="item21303901">本文</p></div><div ana="玄蕃" corresp="engishiki_en.xml#article213040 engishiki_ja.xml#article213040" n="21.40" subtype="項" type="条" xml:id="article213040"><head ana="僧綱辞表"/><p ana="項" corresp="engishiki_en.xml#item21304001 engishiki_ja.xml#item21304001" xml:id="item21304001">本文</p></div><div ana="玄蕃" corresp="engishiki_en.xml#article213041 engishiki_ja.xml#article213041" n="21.41" subtype="項" type="条" xml:id="article213041"><head ana="僧綱卒去"/><p ana="項" corresp="engishiki_en.xml#item21304101 engishiki_ja.xml#item21304101" xml:id="item21304101">本文</p></div><div ana="玄蕃" corresp="engishiki_en.xml#article213042 engishiki_ja.xml#article213042" n="21.42" subtype="項" type="条" xml:id="article213042"><head ana="威従"/><p ana="項" corresp="engishiki_en.xml#item21304201 engishiki_ja.xml#item21304201" xml:id="item21304201">本文</p></div><div ana="玄蕃" corresp="engishiki_en.xml#article213043 engishiki_ja.xml#article213043" n="21.43" subtype="項" type="条" xml:id="article213043"><head ana="従僧"/><p ana="項" corresp="engishiki_en.xml#item21304301 engishiki_ja.xml#item21304301" xml:id="item21304301">本文</p></div><div ana="玄蕃" corresp="engishiki_en.xml#article213044 engishiki_ja.xml#article213044" n="21.44" subtype="項" type="条" xml:id="article213044"><head ana="大威儀師"/><p ana="項" corresp="engishiki_en.xml#item21304401 engishiki_ja.xml#item21304401" xml:id="item21304401">本文</p></div><div ana="玄蕃" corresp="engishiki_en.xml#article213045 engishiki_ja.xml#article213045" n="21.45" subtype="項" type="条" xml:id="article213045"><head ana="近都寺"/><p ana="項" corresp="engishiki_en.xml#item21304501 engishiki_ja.xml#item21304501" xml:id="item21304501">本文</p></div><div ana="玄蕃" corresp="engishiki_en.xml#article213046 engishiki_ja.xml#article213046" n="21.46" subtype="項" type="条" xml:id="article213046"><head ana="講読師"/><p ana="項" corresp="engishiki_en.xml#item21304601 engishiki_ja.xml#item21304601" xml:id="item21304601">本文</p></div><div ana="玄蕃" corresp="engishiki_en.xml#article213047 engishiki_ja.xml#article213047" n="21.47" subtype="項" type="条" xml:id="article213047"><head ana="講読師年限"/><p ana="項" corresp="engishiki_en.xml#item21304701 engishiki_ja.xml#item21304701" xml:id="item21304701">本文</p></div><div ana="玄蕃" corresp="engishiki_en.xml#article213048 engishiki_ja.xml#article213048" n="21.48" subtype="項" type="条" xml:id="article213048"><head ana="夏講"/><p ana="項" corresp="engishiki_en.xml#item21304801 engishiki_ja.xml#item21304801" xml:id="item21304801">本文</p></div><div ana="玄蕃" corresp="engishiki_en.xml#article213049 engishiki_ja.xml#article213049" n="21.49" subtype="項" type="条" xml:id="article213049"><head ana="安祥寺"/><p ana="項" corresp="engishiki_en.xml#item21304901 engishiki_ja.xml#item21304901" xml:id="item21304901">本文</p></div><div ana="玄蕃" corresp="engishiki_en.xml#article213050 engishiki_ja.xml#article213050" n="21.50" subtype="項" type="条" xml:id="article213050"><head ana="階業帳"/><p ana="項" corresp="engishiki_en.xml#item21305001 engishiki_ja.xml#item21305001" xml:id="item21305001">本文</p></div><div ana="玄蕃" corresp="engishiki_en.xml#article213051 engishiki_ja.xml#article213051" n="21.51" subtype="項" type="条" xml:id="article213051"><head ana="最初闕"/><p ana="項" corresp="engishiki_en.xml#item21305101 engishiki_ja.xml#item21305101" xml:id="item21305101">本文</p></div><div ana="玄蕃" corresp="engishiki_en.xml#article213052 engishiki_ja.xml#article213052" n="21.52" subtype="項" type="条" xml:id="article213052"><head ana="天台分講読師"/><p ana="項" corresp="engishiki_en.xml#item21305201 engishiki_ja.xml#item21305201" xml:id="item21305201">本文</p></div><div ana="玄蕃" corresp="engishiki_en.xml#article213053 engishiki_ja.xml#article213053" n="21.53" subtype="項" type="条" xml:id="article213053"><head ana="延暦寺三綱"/><p ana="項" corresp="engishiki_en.xml#item21305301 engishiki_ja.xml#item21305301" xml:id="item21305301">本文</p></div><div ana="玄蕃" corresp="engishiki_en.xml#article213054 engishiki_ja.xml#article213054" n="21.54" subtype="項" type="条" xml:id="article213054"><head ana="講読師留連"/><p ana="項" corresp="engishiki_en.xml#item21305401 engishiki_ja.xml#item21305401" xml:id="item21305401">本文</p></div><div ana="玄蕃" corresp="engishiki_en.xml#article213055 engishiki_ja.xml#article213055" n="21.55" subtype="項" type="条" xml:id="article213055"><head ana="観音寺講読師"/><p ana="項" corresp="engishiki_en.xml#item21305501 engishiki_ja.xml#item21305501" xml:id="item21305501">本文</p></div><div ana="玄蕃" corresp="engishiki_en.xml#article213056 engishiki_ja.xml#article213056" n="21.56" subtype="項" type="条" xml:id="article213056"><head ana="講読師不与"/><p ana="項" corresp="engishiki_en.xml#item21305601 engishiki_ja.xml#item21305601" xml:id="item21305601">本文</p></div><div ana="玄蕃" corresp="engishiki_en.xml#article213057 engishiki_ja.xml#article213057" n="21.57" subtype="項" type="条" xml:id="article213057"><head ana="別当三綱"/><p ana="項" corresp="engishiki_en.xml#item21305701 engishiki_ja.xml#item21305701" xml:id="item21305701">本文</p></div><div ana="玄蕃" corresp="engishiki_en.xml#article213058 engishiki_ja.xml#article213058" n="21.58" subtype="項" type="条" xml:id="article213058"><head ana="別当長官"/><p ana="項" corresp="engishiki_en.xml#item21305801 engishiki_ja.xml#item21305801" xml:id="item21305801">本文</p></div><div ana="玄蕃" corresp="engishiki_en.xml#article213059 engishiki_ja.xml#article213059" n="21.59" subtype="項" type="条" xml:id="article213059"><head ana="別当三綱任符"/><p ana="項" corresp="engishiki_en.xml#item21305901 engishiki_ja.xml#item21305901" xml:id="item21305901">本文</p></div><div ana="玄蕃" corresp="engishiki_en.xml#article213060 engishiki_ja.xml#article213060" n="21.60" subtype="項" type="条" xml:id="article213060"><head ana="別当三綱闕"/><p ana="項" corresp="engishiki_en.xml#item21306001 engishiki_ja.xml#item21306001" xml:id="item21306001">本文</p></div><div ana="玄蕃" corresp="engishiki_en.xml#article213061 engishiki_ja.xml#article213061" n="21.61" subtype="項" type="条" xml:id="article213061"><head ana="大寺三綱"/><p ana="項" corresp="engishiki_en.xml#item21306101 engishiki_ja.xml#item21306101" xml:id="item21306101">本文</p></div><div ana="玄蕃" corresp="engishiki_en.xml#article213062 engishiki_ja.xml#article213062" n="21.62" subtype="項" type="条" xml:id="article213062"><head ana="興福寺別当"/><p ana="項" corresp="engishiki_en.xml#item21306201 engishiki_ja.xml#item21306201" xml:id="item21306201">本文</p></div><div ana="玄蕃" corresp="engishiki_en.xml#article213063 engishiki_ja.xml#article213063" n="21.63" subtype="項" type="条" xml:id="article213063"><head ana="僧綱任別当"/><p ana="項" corresp="engishiki_en.xml#item21306301 engishiki_ja.xml#item21306301" xml:id="item21306301">本文</p></div><div ana="玄蕃" corresp="engishiki_en.xml#article213064 engishiki_ja.xml#article213064" n="21.64" subtype="項" type="条" xml:id="article213064"><head ana="東西寺三綱"/><p ana="項" corresp="engishiki_en.xml#item21306401 engishiki_ja.xml#item21306401" xml:id="item21306401">本文</p></div><div ana="玄蕃" corresp="engishiki_en.xml#article213065 engishiki_ja.xml#article213065" n="21.65" subtype="項" type="条" xml:id="article213065"><head ana="四天王寺三綱"/><p ana="項" corresp="engishiki_en.xml#item21306501 engishiki_ja.xml#item21306501" xml:id="item21306501">本文</p></div><div ana="玄蕃" corresp="engishiki_en.xml#article213066 engishiki_ja.xml#article213066" n="21.66" subtype="項" type="条" xml:id="article213066"><head ana="定額寺別当"/><p ana="項" corresp="engishiki_en.xml#item21306601 engishiki_ja.xml#item21306601" xml:id="item21306601">本文</p></div><div ana="玄蕃" corresp="engishiki_en.xml#article213067 engishiki_ja.xml#article213067" n="21.67" subtype="項" type="条" xml:id="article213067"><head ana="講読師解由"/><p ana="項" corresp="engishiki_en.xml#item21306701 engishiki_ja.xml#item21306701" xml:id="item21306701">本文</p></div><div ana="玄蕃" corresp="engishiki_en.xml#article213068 engishiki_ja.xml#article213068" n="21.68" subtype="項" type="条" xml:id="article213068"><head ana="別当三綱解由"/><p ana="項" corresp="engishiki_en.xml#item21306801 engishiki_ja.xml#item21306801" xml:id="item21306801">本文</p></div><div ana="玄蕃" corresp="engishiki_en.xml#article213069 engishiki_ja.xml#article213069" n="21.69" subtype="項" type="条" xml:id="article213069"><head ana="度縁"/><p ana="項" corresp="engishiki_en.xml#item21306901 engishiki_ja.xml#item21306901" xml:id="item21306901">本文</p></div><div ana="玄蕃" corresp="engishiki_en.xml#article213070 engishiki_ja.xml#article213070" n="21.70" subtype="項" type="条" xml:id="article213070"><head ana="判授位記"/><p ana="項" corresp="engishiki_en.xml#item21307001 engishiki_ja.xml#item21307001" xml:id="item21307001">本文</p></div><div ana="玄蕃" corresp="engishiki_en.xml#article213071 engishiki_ja.xml#article213071" n="21.71" subtype="項" type="条" xml:id="article213071"><head ana="年分度者"/><p ana="項" corresp="engishiki_en.xml#item21307101 engishiki_ja.xml#item21307101" xml:id="item21307101">本文</p></div><div ana="玄蕃" corresp="engishiki_en.xml#article213072 engishiki_ja.xml#article213072" n="21.72" subtype="項" type="条" xml:id="article213072"><head ana="授戒"/><p ana="項" corresp="engishiki_en.xml#item21307201 engishiki_ja.xml#item21307201" xml:id="item21307201">本文</p></div><div ana="玄蕃" corresp="engishiki_en.xml#article213073 engishiki_ja.xml#article213073" n="21.73" subtype="項" type="条" xml:id="article213073"><head ana="沙弥・沙弥尼"/><p ana="項" corresp="engishiki_en.xml#item21307301 engishiki_ja.xml#item21307301" xml:id="item21307301">本文</p></div><div ana="玄蕃" corresp="engishiki_en.xml#article213074 engishiki_ja.xml#article213074" n="21.74" subtype="項" type="条" xml:id="article213074"><head ana="戒牒"/><p ana="項" corresp="engishiki_en.xml#item21307401 engishiki_ja.xml#item21307401" xml:id="item21307401">本文</p></div><div ana="玄蕃" corresp="engishiki_en.xml#article213075 engishiki_ja.xml#article213075" n="21.75" subtype="項" type="条" xml:id="article213075"><head ana="授戒使"/><p ana="項" corresp="engishiki_en.xml#item21307501 engishiki_ja.xml#item21307501" xml:id="item21307501">本文</p></div><div ana="玄蕃" corresp="engishiki_en.xml#article213076 engishiki_ja.xml#article213076" n="21.76" subtype="項" type="条" xml:id="article213076"><head ana="戒壇十師"/><p ana="項" corresp="engishiki_en.xml#item21307601 engishiki_ja.xml#item21307601" xml:id="item21307601">本文</p></div><div ana="玄蕃" corresp="engishiki_en.xml#article213077 engishiki_ja.xml#article213077" n="21.77" subtype="項" type="条" xml:id="article213077"><head ana="七大寺僧"/><p ana="項" corresp="engishiki_en.xml#item21307701 engishiki_ja.xml#item21307701" xml:id="item21307701">本文</p></div><div ana="玄蕃" corresp="engishiki_en.xml#article213078 engishiki_ja.xml#article213078" n="21.78" subtype="項" type="条" xml:id="article213078"><head ana="臨時度者"/><p ana="項" corresp="engishiki_en.xml#item21307801 engishiki_ja.xml#item21307801" xml:id="item21307801">本文</p></div><div ana="玄蕃" corresp="engishiki_en.xml#article213079 engishiki_ja.xml#article213079" n="21.79" subtype="項" type="条" xml:id="article213079"><head ana="徴免"/><p ana="項" corresp="engishiki_en.xml#item21307901 engishiki_ja.xml#item21307901" xml:id="item21307901">本文</p></div><div ana="玄蕃" corresp="engishiki_en.xml#article213080 engishiki_ja.xml#article213080" n="21.80" subtype="項" type="条" xml:id="article213080"><head ana="収度縁"/><p ana="項" corresp="engishiki_en.xml#item21308001 engishiki_ja.xml#item21308001" xml:id="item21308001">本文</p></div><div ana="玄蕃" corresp="engishiki_en.xml#article213081 engishiki_ja.xml#article213081" n="21.81" subtype="項" type="条" xml:id="article213081"><head ana="大寺僧死闕"/><p ana="項" corresp="engishiki_en.xml#item21308101 engishiki_ja.xml#item21308101" xml:id="item21308101">本文</p></div><div ana="玄蕃" corresp="engishiki_en.xml#article213082 engishiki_ja.xml#article213082" n="21.82" subtype="項" type="条" xml:id="article213082"><head ana="延暦寺僧死闕"/><p ana="項" corresp="engishiki_en.xml#item21308201 engishiki_ja.xml#item21308201" xml:id="item21308201">本文</p></div><div ana="玄蕃" corresp="engishiki_en.xml#article213083 engishiki_ja.xml#article213083" n="21.83" subtype="項" type="条" xml:id="article213083"><head ana="仏菩薩"/><p ana="項" corresp="engishiki_en.xml#item21308301 engishiki_ja.xml#item21308301" xml:id="item21308301">本文</p></div><div ana="玄蕃" corresp="engishiki_en.xml#article213084 engishiki_ja.xml#article213084" n="21.84" subtype="項" type="条" xml:id="article213084"><head ana="禅院経論"/><p ana="項" corresp="engishiki_en.xml#item21308401 engishiki_ja.xml#item21308401" xml:id="item21308401">本文</p></div><div ana="玄蕃" corresp="engishiki_en.xml#article213085 engishiki_ja.xml#article213085" n="21.85" subtype="項" type="条" xml:id="article213085"><head ana="東西寺非違"/><p ana="項" corresp="engishiki_en.xml#item21308501 engishiki_ja.xml#item21308501" xml:id="item21308501">本文</p></div><div ana="玄蕃" corresp="engishiki_en.xml#article213086 engishiki_ja.xml#article213086" n="21.86" subtype="項" type="条" xml:id="article213086"><head ana="論事"/><p ana="項" corresp="engishiki_en.xml#item21308601 engishiki_ja.xml#item21308601" xml:id="item21308601">本文</p></div><div ana="玄蕃" corresp="engishiki_en.xml#article213087 engishiki_ja.xml#article213087" n="21.87" subtype="項" type="条" xml:id="article213087"><head ana="寺文返却帳"/><p ana="項" corresp="engishiki_en.xml#item21308701 engishiki_ja.xml#item21308701" xml:id="item21308701">本文</p></div><div ana="玄蕃" corresp="engishiki_en.xml#article213088 engishiki_ja.xml#article213088" n="21.88" subtype="項" type="条" xml:id="article213088"><head ana="常住寺供養"/><p ana="項" corresp="engishiki_en.xml#item21308801 engishiki_ja.xml#item21308801" xml:id="item21308801">本文</p></div><div ana="玄蕃" corresp="engishiki_en.xml#article213089 engishiki_ja.xml#article213089" n="21.89" subtype="項" type="条" xml:id="article213089"><head ana="天台住僧"/><p ana="項" corresp="engishiki_en.xml#item21308901 engishiki_ja.xml#item21308901" xml:id="item21308901">本文</p></div><div ana="玄蕃" corresp="engishiki_en.xml#article213090 engishiki_ja.xml#article213090" n="21.90" subtype="項" type="条" xml:id="article213090"><head ana="斎会食"/><p ana="項" corresp="engishiki_en.xml#item21309001 engishiki_ja.xml#item21309001" xml:id="item21309001">本文</p></div><div ana="玄蕃" corresp="engishiki_en.xml#article213091 engishiki_ja.xml#article213091" n="21.91" subtype="項" type="条" xml:id="article213091"><head ana="誦経"/><p ana="項" corresp="engishiki_en.xml#item21309101 engishiki_ja.xml#item21309101" xml:id="item21309101">本文</p></div><div ana="玄蕃" corresp="engishiki_en.xml#article213092 engishiki_ja.xml#article213092" n="21.92" subtype="項" type="条" xml:id="article213092"><head ana="諸蕃使人"/><p ana="項" corresp="engishiki_en.xml#item21309201 engishiki_ja.xml#item21309201" xml:id="item21309201">本文</p></div><div ana="玄蕃" corresp="engishiki_en.xml#article213093 engishiki_ja.xml#article213093" n="21.93" subtype="項" type="条" xml:id="article213093"><head ana="蕃客往還"/><p ana="項" corresp="engishiki_en.xml#item21309301 engishiki_ja.xml#item21309301" xml:id="item21309301">本文</p></div><div ana="玄蕃" corresp="engishiki_en.xml#article213094 engishiki_ja.xml#article213094" n="21.94" subtype="項" type="条" xml:id="article213094"><head ana="新羅客"/><p ana="項" corresp="engishiki_en.xml#item21309401 engishiki_ja.xml#item21309401" xml:id="item21309401">本文</p></div></div><div type="尾題" xml:id="bidai21"><p xml:id="bidai2101">尾題</p></div><div type="本奥書" xml:id="okugaki21"><p xml:id="okugaki2101">本奥書</p></div></div></body></text></TEI>
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>延喜式ファイル</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>国立歴史民俗博物館メタ資料学研究センター</publisher>
+                <idno type="PID">o:depcha.engi_shiki.1</idno>
+                <availability>
+                    <p/>
+                </availability>
+                <date when="2020-03-31">31 March 2020</date>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <settlement>千葉県佐倉市</settlement>
+                        <repository>国立歴史民俗博物館</repository>
+                        <collection>集英社版延喜式</collection>
+                    </msIdentifier>
+                    <msContents>
+                        <msItem>
+                            <author>藤原時平・藤原忠平</author>
+                            <title>延喜式</title>
+                            <note>
+                                <p>ここに史料の説明が入る。</p>
+                            </note>
+                        </msItem>
+                    </msContents>
+                </msDesc>
+                <listWit>
+                    <listWit xml:id="写本">
+                        <head>写本</head>
+                        <witness xml:id="土本"><abbr>土本</abbr>：国立歴史民俗博物館所蔵土御門家旧蔵本（H-743-74）</witness>
+                        <witness xml:id="近本"><abbr>近本</abbr>：京都大学附属図書館所蔵近衛文庫本（2-03/エ/1貴）</witness>
+                        <witness xml:id="壬本"><abbr>壬本</abbr>：宮内庁書陵部図書寮文庫所蔵壬生家旧蔵本（F10-287）</witness>
+                        <witness xml:id="京博本"><abbr>京博本</abbr>：京都国立博物館所蔵旧京都博物館本</witness>
+                        <witness xml:id="慶長本"><abbr>慶長本</abbr>：国立公文書館所蔵慶長写本（特102-8）</witness>
+                        <witness xml:id="梵本"
+                            ><abbr>梵本</abbr>：天理大学附属天理図書館所蔵吉田文庫梵舜等筆本（吉16-8。巻8は173-ｲ5（Ⅲ524)もあり）</witness>
+                        <witness xml:id="九本"><abbr>九本</abbr>：東京国立博物館所蔵九条家旧蔵巻子本（B-2370）</witness>
+                        <witness xml:id="剛本"><abbr>剛本</abbr>：天野山金剛寺所蔵本</witness>
+                        <witness xml:id="条本"
+                            ><abbr>条本</abbr>：一条家旧蔵巻子本（巻1～3は無窮会専門図書館所蔵模写本、巻4・5は神宮司庁刊影印本）</witness>
+                        <witness xml:id="花本"><abbr>花本</abbr>：花山院家・武田祐吉旧蔵本（神宮皇学館刊影印本による）</witness>
+                        <witness xml:id="九冊本"
+                            ><abbr>九冊本</abbr>：國學院大學所蔵九条家・西田長男旧蔵冊子本（巻5は西田長男刊影印本による）</witness>
+                        <witness xml:id="永本"
+                            ><abbr>永本</abbr>：巻8は國學院大學図書館所蔵（091.2/322.135/1）、巻9・10は現蔵不明(神宮文庫所蔵写真帳1門16974）</witness>
+                        <witness xml:id="右本"><abbr>右本</abbr>：巻8は國學院大學図書館所蔵（貴62）</witness>
+                        <witness xml:id="吉本"
+                            ><abbr>吉本</abbr>：天理大学附属天理図書館所蔵吉田家旧蔵本巻9・10（328.1-ｲ17(Ⅲ1219)）</witness>
+                        <witness xml:id="三条本"
+                            ><abbr>三条本</abbr>：天理大学附属天理図書館所蔵三条家旧蔵本（328.1-ｲ11(Ⅲ1218)）</witness>
+                        <witness xml:id="西本"
+                            ><abbr>西本</abbr>：巻9・10は國學院大學図書館所蔵（貴107～108）。巻50は国立歴史民俗博物館所蔵（H-1588）。抄出本は國學院大學所蔵（木村大樹「〔西田長男旧蔵〕三条西実隆筆『延喜式』(抄)の翻刻・紹介」『國學院大學研究開発推進機構紀要』14、2022年） </witness>
+                        <witness xml:id="時慶本"
+                            ><abbr>時慶本</abbr>：静嘉堂文庫所蔵西洞院時慶写本（延喜格式表18352、延喜式序18353）</witness>
+                        <witness xml:id="島原本"
+                            ><abbr>島原本</abbr>：東京大学史料編纂所所蔵松平忠房・和学講談所・水野忠央旧蔵本（貴45-2）</witness>
+                        <witness xml:id="藤波本"
+                            ><abbr>藤波本</abbr>：宮内庁書陵部図書寮文庫所蔵藤波家旧蔵本（217-473）</witness>
+                        <witness xml:id="貞享本"
+                            ><abbr>貞享本</abbr>：宮内庁書陵部図書寮文庫所蔵和学講談所旧蔵坊城俊方貞享本（457-116）</witness>
+                        <witness xml:id="玄梁本"><abbr>玄梁本</abbr>：無窮会専門図書館所蔵神習文庫玄梁記名本（神習3666）</witness>
+                        <witness xml:id="尾張本"
+                            ><abbr>尾張本</abbr>：東京大学総合図書館所蔵尾張家旧蔵本（巻13）（A00-6122）</witness>
+                        <witness xml:id="泉亭本"><abbr>泉亭本</abbr>：賀茂三手文庫所蔵泉亭本（制度/加）</witness>
+                    </listWit>
+                    <listWit xml:id="版本">
+                        <head>版本：慶安版本も含めた流布版本</head>
+                        <witness xml:id="慶安版本"
+                            ><abbr>慶安版本</abbr>：大和文華館所蔵鈴鹿連胤旧蔵版本（1/741～790）</witness>
+                        <witness xml:id="明暦版本"
+                            ><abbr>明暦版本</abbr>：明暦修訂版本　国立公文書館所蔵紅葉山文庫旧蔵版本（特26-1）等</witness>
+                        <witness xml:id="明暦以降版本"><abbr>明暦以降版本</abbr>：明暦修訂本以降の版本</witness>
+                        <witness xml:id="寛文版本"
+                            ><abbr>寛文版本</abbr>：寛文修訂版本　筑波大学附属図書館所蔵版本20冊本（ム212-7）等</witness>
+                        <witness xml:id="享保版本"
+                            ><abbr>享保版本</abbr>：享保修訂版本　筑波大学附属図書館所蔵版本50冊本（ム212-6）等</witness>
+                        <witness xml:id="雲本"
+                            ><abbr>雲本</abbr>：松江藩文政11年(1828)刊本（雲州本）　早稲田大学図書館所蔵本（ワ03-01594）等</witness>
+                        <witness xml:id="考異"
+                            ><abbr>考異</abbr>：雲州本附録『延喜式考異』　早稲田大学図書館所蔵本（ワ03-01594）等</witness>
+                        <witness xml:id="鈴鹿本"
+                            ><abbr>鈴鹿本</abbr>：大和文華館所蔵鈴鹿連胤旧蔵慶安版本（1/741～790）書入</witness>
+                        <witness xml:id="勢多本"
+                            ><abbr>勢多本</abbr>：宮内庁書陵部図書寮文庫所蔵勢多家旧蔵明暦等版本（172-123）書入</witness>
+                        <witness xml:id="筑波寛文本"
+                            ><abbr>筑波寛文本</abbr>：筑波大学附属図書館所蔵寛文版本20冊本（ム212-7）書入</witness>
+                    </listWit>
+                    <listWit xml:id="刊本">
+                        <head>刊本</head>
+                        <witness xml:id="旧大系本"><abbr>旧大系本</abbr>：旧輯国史大系第13巻（経済雑誌社　1900年刊）</witness>
+                        <witness xml:id="叢書本"><abbr>叢書本</abbr>：新註皇学叢書第3巻（広文庫刊行会　1927年刊）</witness>
+                        <witness xml:id="全集本"
+                            ><abbr>全集本</abbr>：日本古典全集『延喜式』（日本古典全集刊行会　1927～1929年刊）</witness>
+                        <witness xml:id="皇典本"
+                            ><abbr>皇典本</abbr>：『校訂延喜式』（皇典講究所・全国神職会　1929～1932年刊）</witness>
+                        <witness xml:id="国史大系本"
+                            ><abbr>国史大系本</abbr>：新訂増補国史大系第26巻（吉川弘文館　1937年刊）</witness>
+                        <witness xml:id="神道大系本"
+                            ><abbr>神道大系本</abbr>：神道大系古典編11・12『延喜式』（神道大系編纂会、1991・1993年刊）</witness>
+                        <witness xml:id="訳注本"
+                            ><abbr>訳注本</abbr>：訳注日本史料『延喜式』上～下（集英社、2000～2017年刊）</witness>
+                    </listWit>
+                    <listWit xml:id="その他">
+                        <head>その他</head>
+                        <witness xml:id="本朝月令"
+                            ><abbr>本朝月令</abbr>：清水潔編『新校本朝月令』（皇學館大學神道研究所　2002年刊）</witness>
+                        <witness xml:id="儀式"
+                            ><abbr>儀式</abbr>：神道大系朝儀祭祀編1『儀式・内裏式』（神道大系編纂会　1980年刊）</witness>
+                        <witness xml:id="皇太神宮儀式帳"
+                            ><abbr>皇太神宮儀式帳</abbr>：佐野真人「『皇太神宮儀式帳』校訂試案」（『皇學館大学研究開発推進センター紀要』2　2016年）</witness>
+                        <witness xml:id="止由気宮儀式帳"
+                            ><abbr>止由気宮儀式帳</abbr>：佐野真人「『止由気宮儀式帳』校訂試案」（『皇學館大学研究開発推進センター紀要』3　2017年）</witness>
+                        <witness xml:id="新撰年中行事"
+                            ><abbr>新撰年中行事</abbr>：西本昌弘編『新撰年中行事』（八木書店　2010年刊）</witness>
+                        <witness xml:id="小野宮年中行事"><abbr>小野宮年中行事</abbr>：群書類従第6輯 律令部
+                            公事部（続群書類従完成会　1932年刊）</witness>
+                        <witness xml:id="小野宮年中行事裏書"
+                            ><abbr>小野宮年中行事裏書</abbr>：国立歴史民俗博物館所蔵本（H-1762）</witness>
+                        <witness xml:id="勘例"
+                            ><abbr>勘例（陽明文庫所蔵）</abbr>：大日本古記録『勘例』上・下（岩波書店　2018・2023年刊）</witness>
+                        <witness xml:id="政事要略"
+                            ><abbr>政事要略</abbr>：新訂増補国史大系第28巻（吉川弘文館　1935年刊。適宜、写本を参照）</witness>
+                        <witness xml:id="法曹至要抄"><abbr>法曹至要抄</abbr>：中世法制史料集（岩波書店　2005年刊）</witness>
+                        <witness xml:id="本草和名"
+                            ><abbr>本草和名</abbr>：丸山裕美子・武倩編著『本草和名』（汲古書院　2021年刊）</witness>
+                    </listWit>
+                </listWit>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <variantEncoding location="external" method="location-referenced"/>
+            <tagsDecl>
+                <rendition xml:id="indent">margin-top: 1em;</rendition>
+                <rendition xml:id="indent2">margin-top: 2em;</rendition>
+                <rendition xml:id="indent5">margin-top: 5em;</rendition>
+                <rendition xml:id="width50">width: 50px;</rendition>
+                <rendition xml:id="kokumei">width: 80px;</rendition>
+                <rendition xml:id="width100">width: 100px;</rendition>
+                <rendition xml:id="width200">width: 200px;</rendition>
+                <rendition xml:id="width300">width: 300px;</rendition>
+            </tagsDecl>
+            <editorialDecl>
+                <p>校訂文全体凡例<table>
+                        <row>
+                            <cell>・</cell>
+                            <cell>原則として土本（以下、略称は「主要写本・版本・刊本等略称・底本一覧」参照）を底本とし、九本・剛本・条本・花本等の古写本や近本・壬本・京博本等の写本によって対校しました（巻によって使用した対校本は異なります）。</cell>
+                        </row>
+                        <row>
+                            <cell>・</cell>
+                            <cell>条文番号・条文名称は原則として訳注本に拠りましたが、一部を修正しています（※下記「条文名称修正一覧」参照）。なお1条が長い場合など、必要に応じ「項」に分割して示すこととしました。</cell>
+                        </row>
+                        <row>
+                            <cell>・</cell>
+                            <cell>校異は原則として底本の文字を改変する場合、あるいは写本間に参考とすべき異同がある場合、参考とすべき傍書等がある場合に付すこととしました。必ずしもその校異に関する写本をすべて網羅することはせず、主要写本のみを取り上げています。ただし訳注本と校訂文に異同が生じた場合には、できる限り校異にて言及するよう心がけました（単なる字体の相違については省略しています）。</cell>
+                        </row>
+                        <row>
+                            <cell>・</cell>
+                            <cell>校訂文は『延喜式』撰上当初の姿の復元を目標としています。標注や傍書は、条文名称に関わるものは省略し、中世以前にさかのぼることが想定されるものに限って、校異注で言及することとしました。ただし標注のうち「弘」「貞」「延」等については便宜を考え、鉤括弧で括って校訂本文に掲げることとしました。</cell>
+                        </row>
+                        <row>
+                            <cell>・</cell>
+                            <cell>字体は常用漢字体を原則としました。「大」と「太」、「座」と「坐」、「絇」と「約」、「績」と「續（続）」、「色」と「包」、「細」と「紬」、「鈍」と「純」、「冑」と「胃」、「絁」と「絶」、草冠と竹冠、木偏と手偏等、容易に判定される誤字や誤用・通用については、校異を省略して適宜置き換える場合があります。ただし巻9・10においては「大」「太」の差異も校異にて触れることとしました。</cell>
+                        </row>
+                        <row>
+                            <cell>・</cell>
+                            <cell>校訂文中の細字・割書は、〈　〉で括って表現することとしました。</cell>
+                        </row>
+                        <row>
+                            <cell>・</cell>
+                            <cell>本文に誤字・脱字等が想定される場合であっても、置き換えるべき文字や補うべき文字が明確でない場合は、校異注での言及にとどめた場合があります。</cell>
+                        </row>
+                        <row>
+                            <cell>・</cell>
+                            <cell>ユニコードにて表示されない漢字は以下のように示すことにしました。</cell>
+                        </row>
+                    </table>
+                    <table rendition="#indent2">
+                        <row>
+                            <cell rendition="#width100">【Ａ+Ｂ】</cell>
+                            <cell rendition="#width300">＝扁がＡ、つくりがＢ</cell>
+                            <cell rendition="#width300">例）村【木+寸】</cell>
+                        </row>
+                        <row>
+                            <cell rendition="#width100">【Ａ/Ｂ】</cell>
+                            <cell rendition="#width300">＝上にＡ、下にＢ</cell>
+                            <cell rendition="#width300">例）雲【雨/云】</cell>
+                        </row>
+                        <row>
+                            <cell rendition="#width100">【Ａ-Ｂ】</cell>
+                            <cell rendition="#width300">＝Ａの字画よりＢにあたる字画を除く</cell>
+                            <cell rendition="#width300">例）門【閉-オ】</cell>
+                        </row>
+                        <row>
+                            <cell rendition="#width100">【Ａ⊃Ｂ】</cell>
+                            <cell rendition="#width300">＝Ａの字画のなかにＢの字画が含まれる</cell>
+                            <cell rendition="#width300">例）閉【門⊃オ】、国【囗⊃玉】</cell>
+                        </row>
+                    </table>
+                    <table>
+                        <row>
+                            <cell>・</cell>
+                            <cell>校異註の付く文字は赤字で表示され、クリックすると註が表示されます。表示内容は以下の通りです。</cell>
+                        </row>
+                    </table>
+                    <table rendition="#indent2">
+                        <row>
+                            <cell rendition="#width100">採用</cell>
+                            <cell>写本名と校訂文にて採用した文字</cell>
+                        </row>
+                        <row>
+                            <cell rendition="#width100">校異</cell>
+                            <cell>写本名と対校箇所の文字</cell>
+                        </row>
+                        <row>
+                            <cell rendition="#width100">解説</cell>
+                            <cell>各写本の傍書や頭書等の提示、校異註の本文（最下部の解説）</cell>
+                        </row>
+                    </table>
+                    <table>
+                        <row>
+                            <cell>・</cell>
+                            <cell>条文名称修正一覧</cell>
+                        </row>
+                    </table>
+                    <table rendition="#indent2">
+                        <row>
+                            <cell rendition="#width100">巻番号</cell>
+                            <cell rendition="#width100">旧番号</cell>
+                            <cell rendition="#width100">旧条文名</cell>
+                            <cell rendition="#width50">番号</cell>
+                            <cell rendition="#width100">訂正条文名</cell>
+                        </row>
+                        <row>
+                            <cell rendition="#width100">111太政官</cell>
+                            <cell rendition="#width100">67</cell>
+                            <cell rendition="#width100">薗韓神祭</cell>
+                            <cell rendition="#width50">67</cell>
+                            <cell rendition="#width100">園韓神祭</cell>
+                        </row>
+                        <row>
+                            <cell rendition="#width100">111太政官</cell>
+                            <cell rendition="#width100">112</cell>
+                            <cell rendition="#width100">行幸経宿</cell>
+                            <cell rendition="#width50">112</cell>
+                            <cell rendition="#width100">行幸経旬</cell>
+                        </row>
+                        <row>
+                            <cell rendition="#width100">171内匠</cell>
+                            <cell rendition="#width100">39</cell>
+                            <cell rendition="#width100">作物衣服</cell>
+                            <cell rendition="#width50">39</cell>
+                            <cell rendition="#width100">作物衣</cell>
+                        </row>
+                        <row>
+                            <cell rendition="#width100">293囚獄</cell>
+                            <cell rendition="#width100">2</cell>
+                            <cell rendition="#width100">著鈦盤枷</cell>
+                            <cell rendition="#width50">2</cell>
+                            <cell rendition="#width100">着鈦盤枷</cell>
+                        </row>
+                        <row>
+                            <cell rendition="#width100">321大膳上</cell>
+                            <cell rendition="#width100">5</cell>
+                            <cell rendition="#width100">新嘗祭</cell>
+                            <cell rendition="#width50">5･6</cell>
+                            <cell rendition="#width100">新嘗祭と新嘗小斎解斎に分割</cell>
+                        </row>
+                        <row>
+                            <cell rendition="#width100">411弾正</cell>
+                            <cell rendition="#width100">68</cell>
+                            <cell rendition="#width100">支子染深色</cell>
+                            <cell rendition="#width50">68</cell>
+                            <cell rendition="#width100">支子染色</cell>
+                        </row>
+                    </table></p>
+                <p ana="個別"/>
+            </editorialDecl>
+        </encodingDesc>
+        <revisionDesc ana="個別">
+            <change/>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div ana="玄蕃" n="21" subtype="式" type="巻" xml:id="volume21">
+                <div type="首題" xml:id="shudai21">
+                    <p xml:id="shudai2101"/>
+                </div>
+                <div ana="玄蕃" corresp="engishiki_en.xml#protocol213 engishiki_ja.xml#protocol213"
+                    n="21" subtype="条" type="式" xml:id="protocol213">
+                    <div type="式題" xml:id="shikidai213">
+                        <p xml:id="shikidai21301">玄蕃寮</p>
+                    </div>
+                    <div ana="玄蕃"
+                        corresp="engishiki_en.xml#article213001 engishiki_ja.xml#article213001"
+                        n="21.1" subtype="項" type="条" xml:id="article213001">
+                        <head ana="御斎会"/>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item21300101 engishiki_ja.xml#item21300101"
+                            xml:id="item21300101">凡毎年起正月八日迄于十四日、於大極殿設斎、講説金光明最勝王経、請僧卅二口、〈講師・読師・呪願各一口、法用四口、聴衆二十五口、〉沙弥<anchor/>卅<anchor/>四口、〈講読師従各二口、呪願以下従各一口、〉其講師者、経興福寺維摩会講師者便請之、読師者、内供奉十禅師及持律・持経・久修練行三色僧、逓以請用、但当用之時、具録其名簿幷次第、先申官聴処分、不得輙恣、聴衆者、均択六宗学業有聞者次第請之、天台宗僧及四天王・梵釈・常住等寺、十禅師各一人亦預之、前斎四日、録名申省、<anchor/>省<anchor/>申官、〈事見儀式、〉</p>
+                    </div>
+                    <div ana="玄蕃"
+                        corresp="engishiki_en.xml#article213002 engishiki_ja.xml#article213002"
+                        n="21.2" subtype="項" type="条" xml:id="article213002">
+                        <head ana="御修法"/>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item21300201 engishiki_ja.xml#item21300201"
+                            xml:id="item21300201">凡真言法、毎年正月、起八日至十四日一七箇日、於真言院修之、</p>
+                    </div>
+                    <div ana="玄蕃"
+                        corresp="engishiki_en.xml#article213003 engishiki_ja.xml#article213003"
+                        n="21.3" subtype="項" type="条" xml:id="article213003">
+                        <head ana="大元帥法"/>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item21300301 engishiki_ja.xml#item21300301"
+                            xml:id="item21300301">凡大元<anchor/>帥<anchor/>法、毎年正月、起八日至十四日一七箇日、於省修之、</p>
+                    </div>
+                    <div ana="玄蕃"
+                        corresp="engishiki_en.xml#article213004 engishiki_ja.xml#article213004"
+                        n="21.4" subtype="項" type="条" xml:id="article213004">
+                        <head ana="安居"/>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item21300401 engishiki_ja.xml#item21300401"
+                            xml:id="item21300401">凡十五大寺安居者、<anchor/>寺<anchor/>別請講師・読師及法用僧三口、〈呪願・散花・唄各一口、〉幷定座沙弥一口、講読師沙弥各一口、其法用以上者、僧綱簡点、但講師者、寮允以上相共簡定、普請諸宗、三月下旬牒送治部、<anchor/>治部<anchor/>申官、四月上旬請之、並起四月十五日尽七月十五日、分経講説、東大寺、法華・最勝・仁王般若経各一部、理趣般若・金剛般若経各一巻、興福・元興・大安・薬師・西大・法隆・新薬師・本元興・招提・西寺・四天王・崇福等十二寺、法華・最勝・仁王般若経各一部、弘福寺、法華・最勝・維摩・仁王般若経各一部、東寺、法華・最勝・仁王般若・守護国界主経各一部、其施物、三宝糸卅絇、裹料調布九尺、木綿三分、講師絹五疋、綿十<anchor/>七<anchor/>屯、調布廿五端、読師絹四疋、綿十屯、調布廿端、法用三口、別絹二疋、綿四屯、調布四端、定座沙弥調布四端、綿四屯、講読師沙弥綿二屯、調布二端、並用本寺物、但東・西二寺、猶用官家功徳分封物、<anchor/>但供養見主税・大膳式<anchor/>、</p>
+                    </div>
+                    <div ana="玄蕃"
+                        corresp="engishiki_en.xml#article213005 engishiki_ja.xml#article213005"
+                        n="21.5" subtype="項" type="条" xml:id="article213005">
+                        <head ana="招提寺安居"/>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item21300501 engishiki_ja.xml#item21300501"
+                            xml:id="item21300501">凡招提寺安居講師、以当寺浄行僧、次第請用、不得請他寺僧、</p>
+                    </div>
+                    <div ana="玄蕃"
+                        corresp="engishiki_en.xml#article213006 engishiki_ja.xml#article213006"
+                        n="21.6" subtype="項" type="条" xml:id="article213006">
+                        <head ana="大般若経"/>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item21300601 engishiki_ja.xml#item21300601"
+                            xml:id="item21300601">凡東大・興福・元興・大安・薬師・西大・法隆・新薬<anchor/>師<anchor/>・招提・本元興・弘福・四天王・崇福・東・西・法華・梵釈等諸大寺僧尼、毎年自四月一日迄八月卅日、食時便於食堂各読大般若経一巻、</p>
+                    </div>
+                    <div ana="玄蕃"
+                        corresp="engishiki_en.xml#article213007 engishiki_ja.xml#article213007"
+                        n="21.7" subtype="項" type="条" xml:id="article213007">
+                        <head ana="大安寺大般若"/>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item21300701 engishiki_ja.xml#item21300701"
+                            xml:id="item21300701">凡大安寺大般若経会、毎年四月六・七両日、請僧一百五十口、転読大般若経、其施物、三宝糸卅絇、裹料曝布九尺、木綿三分、衆僧別絹一疋、布施用本寺物、供養用官物、〈供養数見主税・大膳式、〉</p>
+                    </div>
+                    <div ana="玄蕃"
+                        corresp="engishiki_en.xml#article213008 engishiki_ja.xml#article213008"
+                        n="21.8" subtype="項" type="条" xml:id="article213008">
+                        <head ana="薬師寺大般若"/>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item21300801 engishiki_ja.xml#item21300801"
+                            xml:id="item21300801">凡薬師寺大般若経会、毎年起七月廿三日尽廿九日一七箇日、請僧沙弥各卅口、読経幷悔過、〈沙弥読金剛般若経、〉施物、三宝糸卅絇、衆僧別絁一疋、綿一屯、調布二端、湯巾一条、〈長八尺、二幅、〉手巾一条、〈長三尺、〉襪二両、沙弥別調布二端、湯巾、手巾、襪等准僧、其僧数者、前斎十日申官、施物用本寺物、省録已上一人、寮属已上一人、並詣寺以供事、</p>
+                    </div>
+                    <div ana="玄蕃"
+                        corresp="engishiki_en.xml#article213009 engishiki_ja.xml#article213009"
+                        n="21.9" subtype="項" type="条" xml:id="article213009">
+                        <head ana="崇福寺悔過"/>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item21300901 engishiki_ja.xml#item21300901"
+                            xml:id="item21300901">凡崇福寺、毎年四月・十二月悔過各三日、〈四月十三日、十二月三日始行、〉其僧者、当寺供僧八口、三綱一口、威儀師若従儀師一口、並以次第請、其布施・供養用寺田地子物、</p>
+                    </div>
+                    <div ana="玄蕃"
+                        corresp="engishiki_en.xml#article213010 engishiki_ja.xml#article213010"
+                        n="21.10" subtype="項" type="条" xml:id="article213010">
+                        <head ana="最勝会"/>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item21301001 engishiki_ja.xml#item21301001"
+                            xml:id="item21301001">凡薬師寺最勝会、毎年三月七日始、十三日終、其講師経正月御斎会者便請之、読師以本寺僧苦修練行者、次第請用、</p>
+                    </div>
+                    <div ana="玄蕃"
+                        corresp="engishiki_en.xml#article213011 engishiki_ja.xml#article213011"
+                        n="21.11" subtype="項" type="条" xml:id="article213011">
+                        <head ana="維摩会"/>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item21301101 engishiki_ja.xml#item21301101"
+                            xml:id="item21301101">凡興福寺維摩会、十月十<anchor/>日<anchor/>始、十六日終、其聴衆九月中旬僧綱簡定、先経藤原氏長者定之、但<anchor/>専<anchor/>寺僧十人待彼寺送名簿請用、其立義者、探題試之、及第者即叙満位、省・寮共向会庭行事、</p>
+                    </div>
+                    <div ana="玄蕃"
+                        corresp="engishiki_en.xml#article213012 engishiki_ja.xml#article213012"
+                        n="21.12" subtype="項" type="条" xml:id="article213012">
+                        <head ana="竪義"/>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item21301201 engishiki_ja.xml#item21301201"
+                            xml:id="item21301201">凡興福・薬師両寺維摩・最勝会竪義及第僧等叙満位者、寺別惣録夾名、連載一紙、僧綱共署申官、不聴彼此参差申請、</p>
+                    </div>
+                    <div ana="玄蕃"
+                        corresp="engishiki_en.xml#article213013 engishiki_ja.xml#article213013"
+                        n="21.13" subtype="項" type="条" xml:id="article213013">
+                        <head ana="修正会"/>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item21301301 engishiki_ja.xml#item21301301"
+                            xml:id="item21301301">凡諸国国分二寺、<anchor/>依<anchor/>僧尼見数、毎<anchor/>年<anchor/>起正月八日迄十四日、転読金光明最勝王経、其施物用当処正税、〈数見主税式、〉</p>
+                    </div>
+                    <div ana="玄蕃"
+                        corresp="engishiki_en.xml#article213014 engishiki_ja.xml#article213014"
+                        n="21.14" subtype="項" type="条" xml:id="article213014">
+                        <head ana="吉祥悔過"/>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item21301401 engishiki_ja.xml#item21301401"
+                            xml:id="item21301401">凡諸国、起正月八日迄十四日、請部内諸寺僧於国庁、修吉祥悔過、〈国分寺僧専読最勝王経、不預此法、〉惣計七僧法服幷布施料物、混合准価、平等布施、並用正税、其供養亦用正税、〈並見主税式、〉但大宰観音寺於<anchor/>本<anchor/>寺修之、其布施・法服、准諸国数用府庫物、</p>
+                    </div>
+                    <div ana="玄蕃"
+                        corresp="engishiki_en.xml#article213015 engishiki_ja.xml#article213015"
+                        n="21.15" subtype="項" type="条" xml:id="article213015">
+                        <head ana="金光明寺安居"/>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item21301501 engishiki_ja.xml#item21301501"
+                            xml:id="item21301501">凡諸国金光明寺安居、講説最勝王経、〈<anchor/>尼<anchor/>会同寺、〉其布施用当処官物、〈数見主税式、〉</p>
+                    </div>
+                    <div ana="玄蕃"
+                        corresp="engishiki_en.xml#article213016 engishiki_ja.xml#article213016"
+                        n="21.16" subtype="項" type="条" xml:id="article213016">
+                        <head ana="国分僧尼"/>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item21301601 engishiki_ja.xml#item21301601"
+                            xml:id="item21301601">凡諸国国分寺僧尼、以去年定数、勘注一巻、当年三月一日、移送主税寮、</p>
+                    </div>
+                    <div ana="玄蕃"
+                        corresp="engishiki_en.xml#article213017 engishiki_ja.xml#article213017"
+                        n="21.17" subtype="項" type="条" xml:id="article213017">
+                        <head ana="公験"/>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item21301701 engishiki_ja.xml#item21301701"
+                            xml:id="item21301701">凡国分寺僧度縁無公験者、不得預正月安居等請、</p>
+                    </div>
+                    <div ana="玄蕃"
+                        corresp="engishiki_en.xml#article213018 engishiki_ja.xml#article213018"
+                        n="21.18" subtype="項" type="条" xml:id="article213018">
+                        <head ana="心願国分僧"/>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item21301801 engishiki_ja.xml#item21301801"
+                            xml:id="item21301801">凡僧綱、毎歳首、遍訪求諸大寺僧情願国分僧者、不論多少、細記年﨟幷願国、正月卅日以前経省・寮申官、若申国分寺僧<anchor/>死<anchor/>闕、即便補之、</p>
+                    </div>
+                    <div ana="玄蕃"
+                        corresp="engishiki_en.xml#article213019 engishiki_ja.xml#article213019"
+                        n="21.19" subtype="項" type="条" xml:id="article213019">
+                        <head ana="国分僧死闕"/>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item21301901 engishiki_ja.xml#item21301901"
+                            xml:id="item21301901">凡諸国国分寺僧、有死闕者、簡擢京諸寺僧堪為法師者申省、省申官補<anchor/>之<anchor/>、<anchor/>諸<anchor/>寺僧無心願者、択百姓年六十已上者新度補之、但寺別令有壮年者五人、若見僧心願之内、壮年満此数、不<anchor/>聴<anchor/>更新度、其尼者、講師与国司簡定、申官度之、</p>
+                    </div>
+                    <div ana="玄蕃"
+                        corresp="engishiki_en.xml#article213020 engishiki_ja.xml#article213020"
+                        n="21.20" subtype="項" type="条" xml:id="article213020">
+                        <head ana="大和国分寺"/>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item21302001 engishiki_ja.xml#item21302001"
+                            xml:id="item21302001">凡大和国国分二寺者、便以東大寺為僧寺、以法<anchor/>花<anchor/>寺為尼寺、其僧尼者、各依本数分配二寺、若有闕者、各取当寺僧操履可称者申省補之、</p>
+                    </div>
+                    <div ana="玄蕃"
+                        corresp="engishiki_en.xml#article213021 engishiki_ja.xml#article213021"
+                        n="21.21" subtype="項" type="条" xml:id="article213021">
+                        <head ana="転用国分寺"/>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item21302101 engishiki_ja.xml#item21302101"
+                            xml:id="item21302101">凡和泉国安楽寺、伊豆国山興寺、加賀国勝興寺、能登国大興寺、並各為国分寺、置僧十口、壱伎島直氏寺為島分寺、置僧五口、</p>
+                    </div>
+                    <div ana="玄蕃"
+                        corresp="engishiki_en.xml#article213022 engishiki_ja.xml#article213022"
+                        n="21.22" subtype="項" type="条" xml:id="article213022">
+                        <head ana="国分寺田"/>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item21302201 engishiki_ja.xml#item21302201"
+                            xml:id="item21302201">凡国分二寺田、令三綱耕営、永奉三宝之用、</p>
+                    </div>
+                    <div ana="玄蕃"
+                        corresp="engishiki_en.xml#article213023 engishiki_ja.xml#article213023"
+                        n="21.23" subtype="項" type="条" xml:id="article213023">
+                        <head ana="修理国分寺"/>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item21302301 engishiki_ja.xml#item21302301"
+                            xml:id="item21302301">凡諸国所徴填修理国分二寺料稲率分之数、移送主税寮、</p>
+                    </div>
+                    <div ana="玄蕃"
+                        corresp="engishiki_en.xml#article213024 engishiki_ja.xml#article213024"
+                        n="21.24" subtype="項" type="条" xml:id="article213024">
+                        <head ana="多度神宮寺"/>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item21302401 engishiki_ja.xml#item21302401"
+                            xml:id="item21302401">凡伊勢国多度神宮寺僧十口度縁・戒牒准国分寺僧、勘納国庫、補替之日、副解文進官、</p>
+                    </div>
+                    <div ana="玄蕃"
+                        corresp="engishiki_en.xml#article213025 engishiki_ja.xml#article213025"
+                        n="21.25" subtype="項" type="条" xml:id="article213025">
+                        <head ana="仁王会"/>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item21302501 engishiki_ja.xml#item21302501"
+                            xml:id="item21302501">凡天皇即位、則講説仁王般若経、〈一代一講、〉一日朝・哺二座講畢、宮中諸殿、省寮等庁、随便荘厳、設百高座、〈或近京諸寺及畿内国分寺、或広及七道諸国分寺行之、其斎会日者、或遠近共用同日、或以符到装束畢日為限、〉其一堂設高座一具請七僧〈講師、読師、呪願、三礼、唄、散花、維那、〉・一沙弥、〈定<anchor/>坐<anchor/>、〉堂別堂童子四人、〈並六位以下、〉仏供養前二人、〈大極殿及紫<anchor/>震<anchor/>殿、後宮院並五位王、自余用六位王及諸司主典以上、〉講読師幷衆僧前、或四人或二人、〈大極殿講師前五位<anchor/>王<anchor/>二<anchor/>人、六位以下官人二人、読<anchor/>師及衆僧前各五位二人、六位<anchor/>以<anchor/>下官人二人、紫<anchor/>震<anchor/>殿・後宮院・東宮並講読師・衆僧前各五位二人、六位以下二人、自余或五位二人、六位以下二人、或六位以下二人、〉預任行事司、中納言一人、参議及少弁以上各一人、五位二人、六位以下臨時定之、〈五位以上奏任、六位以下申大臣任、〉即行事司差充職掌、各供其事、〈装束堂及僧房出納、大炊、供養司等類、〉並以京官及諸国司奉使在京者充之、其人数者、量事定之、当斎会日禁断殺生、</p>
+                    </div>
+                    <div ana="玄蕃"
+                        corresp="engishiki_en.xml#article213026 engishiki_ja.xml#article213026"
+                        n="21.26" subtype="項" type="条" xml:id="article213026">
+                        <head ana="仁王会堂装束"/>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item21302601 engishiki_ja.xml#item21302601"
+                            xml:id="item21302601">堂装束
+                            釈迦牟尼仏幷菩薩羅漢像一鋪、〈備仏台一具、蓋一条、榻幷褥一<anchor/>具<anchor/>、<anchor/>小<anchor/>幡四条、〉仁王般若経一部二巻、〈備経嚢一口、経台一基、経櫃一合、〉香花案一脚、〈備褥一条、香二両、火<anchor/>鑪<anchor/>一口、奩二合・花瓶二口、〉灯台一基、<anchor/>散<anchor/>花案二脚、〈備褥及帊各一条、帯各二条、花筥各十枚、〉行香案一脚、〈備褥一条、火<anchor/>鑪<anchor/>一口、奩四合、<anchor/>匕<anchor/>八枚、〉幡廿旒、磬一基、〈加槌、〉鐘一口、〈加槌、〉炭丸五枚、取<anchor/>火<anchor/>盤二口、懸幡緋綱十条、高座一具、礼版榻二脚、茵二枚、畳二枚、〈並黄帛端、法用座料、〉敷地料庸布十段、〈若非敷板屋者、更加防壁充之、〉鎮子料鉄廿廷、折薦茵十枚、〈定<anchor/>坐<anchor/>沙弥料、〉席二枚、〈堂童子料、〉諸堂悉依此数、但大極殿者、仏台便用高御座、又有五大力菩薩像五鋪、榻五脚、〈加褥、〉聖僧榻一脚、〈加褥、〉香案一脚、花案一脚、布施案一脚、〈加褥幷<anchor/>帊<anchor/>帯、〉又加鎮子鉄卌廷、敷地料改用調布廿端、自余雑物所司供設、
+                            　　右、諸堂所設如件、其仏像・経等雑調度、及高座・榻・案等類者、京畿<anchor/>諸<anchor/>国依件儲備、当有会事、便以供用、
+                        </p>
+                    </div>
+                    <div ana="玄蕃"
+                        corresp="engishiki_en.xml#article213027 engishiki_ja.xml#article213027"
+                        n="21.27" subtype="項" type="条" xml:id="article213027">
+                        <head ana="仁王会講師"/>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item21302701 engishiki_ja.xml#item21302701"
+                            xml:id="item21302701">講師法服
+                            九条袈裟一条、〈料絹五丈、〉七条袈裟一条、〈三丈八尺八寸、〉五条袈裟一条、〈三丈七尺五寸、〉蔭脊一条、〈三丈、〉<anchor/>帔<anchor/>一<anchor/>条<anchor/>、〈一丈二尺、二幅、〉座具二枚、〈四丈、〉衫一領、〈三丈、〉汗衫一領、〈三丈、〉浴衣一領、〈二丈、二幅、〉裳一腰、〈三丈四尺、〉表袴一腰、〈二丈五尺、〉綿袴一腰、〈二丈五尺、〉綿一屯、褌一腰、帯幷袴腰料六尺、湯巾料望陀布一条、〈二丈一尺、〉襪一両料東絁三尺四寸、鉄鉢一口、鉢袋一口料絹六尺二寸、綿九両、中納料調布九尺五寸、烏子瓶一口、烏子瓶袋一口料絹一条、〈長九寸五分、広六寸三分、〉袋料油絹一尺四寸、裏料絹一尺四寸、剃髪刀子一枚、刀子一具、<anchor/>針<anchor/>一枚、針笥一合、澡豆壺<anchor/>一<anchor/>合、頭巾一条、剃髪巾一条、受剃髪巾一条、手巾一条、〈以上各長三尺、並細布、〉唾巾曝布一条、〈一丈四尺、〉高鼻履一両、
+                        </p>
+                    </div>
+                    <div ana="玄蕃"
+                        corresp="engishiki_en.xml#article213028 engishiki_ja.xml#article213028"
+                        n="21.28" subtype="項" type="条" xml:id="article213028">
+                        <head ana="仁王会読師"/>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item21302801 engishiki_ja.xml#item21302801"
+                            xml:id="item21302801">読師法服
+                            九条袈裟一条、蔭脊一条、帔一条、座具二枚、衫一領、汗衫一領、裳一腰、綿袴一腰、綿一屯、褌一腰、帯幷袴腰料<anchor/>絁<anchor/>六尺、湯巾料望陀布一条、襪一両、頭巾一条、手巾<anchor/>一<anchor/>条、唾巾曝布一条、〈已上丈尺並同上条、〉高鼻履一両、
+                            　　右、講読二師三衣、什物、依件儲供、若倉卒不堪縫作者、即以絁・綿等、相換供之、〈講師絁三疋、
+                            庸綿廿斤、読師絁一疋、庸綿十斤、〉
+                        </p>
+                    </div>
+                    <div ana="玄蕃"
+                        corresp="engishiki_en.xml#article213029 engishiki_ja.xml#article213029"
+                        n="21.29" subtype="項" type="条" xml:id="article213029">
+                        <head ana="仁王会布施"/>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item21302901 engishiki_ja.xml#item21302901"
+                            xml:id="item21302901">布施
+                            三宝布施、細屯綿十屯、〈唯供大極殿講堂、自余不須、〉講師絹三疋、調布十端、〈或以庸綿五十斤代之、〉読師絹二疋、調布六端、〈或以庸綿卅斤代之、〉法用調布二端、〈或以庸綿十斤代之、〉定<anchor/>坐<anchor/>沙弥商布一段、〈或以庸綿二斤代之、〉
+                            　　右布施者、以京庫物充之、其諸国者、准当<anchor/>土<anchor/><anchor/>估<anchor/>、以正税買用、</p>
+                    </div>
+                    <div ana="玄蕃"
+                        corresp="engishiki_en.xml#article213030 engishiki_ja.xml#article213030"
+                        n="21.30" subtype="項" type="条" xml:id="article213030">
+                        <head ana="旱災"/>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item21303001 engishiki_ja.xml#item21303001"
+                            xml:id="item21303001"><anchor/>凡<anchor/>天下若有旱災、令京畿内<anchor/>諸<anchor/>寺僧尼、限三箇日読経、悔過、</p>
+                    </div>
+                    <div ana="玄蕃"
+                        corresp="engishiki_en.xml#article213031 engishiki_ja.xml#article213031"
+                        n="21.31" subtype="項" type="条" xml:id="article213031">
+                        <head ana="尊勝陀羅尼"/>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item21303101 engishiki_ja.xml#item21303101"
+                            xml:id="item21303101">凡天下僧尼誦仏頂尊勝陀羅尼、日満廿一<anchor/>遍<anchor/>、其諸国毎至年終、具録遍数、附朝集使言上、</p>
+                    </div>
+                    <div ana="玄蕃"
+                        corresp="engishiki_en.xml#article213032 engishiki_ja.xml#article213032"
+                        n="21.32" subtype="項" type="条" xml:id="article213032">
+                        <head ana="灯油"/>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item21303201 engishiki_ja.xml#item21303201"
+                            xml:id="item21303201">凡諸寺灯油者、大寺用当寺物、但東西寺用官家功徳分封物、其諸国国分二寺幷諸定額寺、別稲一千束已下五百束已上出挙、以息利買用之、長夜二合、短夜一合五夕、〈八月・九月・十月・十一月・十二月・<anchor/>正月為長夜、二月・三月<anchor/>・四月・五月・六月・七月為短夜、〉年別附税帳使申送官、官下寮勘会、</p>
+                    </div>
+                    <div ana="玄蕃"
+                        corresp="engishiki_en.xml#article213033 engishiki_ja.xml#article213033"
+                        n="21.33" subtype="項" type="条" xml:id="article213033">
+                        <head ana="新薬師寺修法"/>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item21303301 engishiki_ja.xml#item21303301"
+                            xml:id="item21303301">凡新薬師寺毎年修法料米一十七斛四斗二升六合、大和国送寺家、</p>
+                    </div>
+                    <div ana="玄蕃"
+                        corresp="engishiki_en.xml#article213034 engishiki_ja.xml#article213034"
+                        n="21.34" subtype="項" type="条" xml:id="article213034">
+                        <head ana="東大寺"/>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item21303401 engishiki_ja.xml#item21303401"
+                            xml:id="item21303401">凡東大寺四天王像幷東西両塔破損者、用寺家例修理料、封戸調庸雑物之内修理之、</p>
+                    </div>
+                    <div ana="玄蕃"
+                        corresp="engishiki_en.xml#article213035 engishiki_ja.xml#article213035"
+                        n="21.35" subtype="項" type="条" xml:id="article213035">
+                        <head ana="大仏安居"/>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item21303501 engishiki_ja.xml#item21303501"
+                            xml:id="item21303501">凡東大寺大仏安居布施稲、毎年納寺家充修理料、</p>
+                    </div>
+                    <div ana="玄蕃"
+                        corresp="engishiki_en.xml#article213036 engishiki_ja.xml#article213036"
+                        n="21.36" subtype="項" type="条" xml:id="article213036">
+                        <head ana="国忌座料"/>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item21303601 engishiki_ja.xml#item21303601"
+                            xml:id="item21303601">凡東西二寺国忌御斎会座料、両面端茵七枚、黄端茵四枚、黄端夾帖三枚、折薦帖廿枚、長帖廿枚、席十五枚、長席廿枚、簀十五枚、並以各寺官家功徳分物、造備供之、</p>
+                    </div>
+                    <div ana="玄蕃"
+                        corresp="engishiki_en.xml#article213037 engishiki_ja.xml#article213037"
+                        n="21.37" subtype="項" type="条" xml:id="article213037">
+                        <head ana="僧綱所"/>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item21303701 engishiki_ja.xml#item21303701"
+                            xml:id="item21303701">凡僧綱所者、当寺修理、</p>
+                    </div>
+                    <div ana="玄蕃"
+                        corresp="engishiki_en.xml#article213038 engishiki_ja.xml#article213038"
+                        n="21.38" subtype="項" type="条" xml:id="article213038">
+                        <head ana="任僧綱"/>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item21303801 engishiki_ja.xml#item21303801"
+                            xml:id="item21303801">凡任僧綱者、必簡其人、奉勅定之、弁官定日、預告式部・治部、其日<anchor/>旦<anchor/>、僧綱、請集在京大寺入位已上僧於綱所、設衆僧幷勅使参議及少納言・弁官・式部・治部・寮等座、亦設宣命座、衆僧依次就座、被任者亦在其次、勅使以下進就位、<anchor/>坐<anchor/>定宣命者進就宣命座以宣<anchor/>命<anchor/>、其詞曰、天<anchor/>皇<anchor/>詔旨〈登、〉法師等〈尓〉白〈左閉登〉勅命〈乎〉白、大僧都〈登〉在〈須〉<anchor/>其<anchor/>法師〈乎、〉僧正〈尓〉任賜事〈乎〉白〈左閉登、〉詔勅命〈乎〉白、〈<anchor/>臨<anchor/>時随事有詞、〉訖衆僧倶称唯、宣命者復位、被任者進下座前、謝命之辱、訖勅使以下還帰、然後太政官牒送僧綱、〈牒式見太政官式、〉</p>
+                    </div>
+                    <div ana="玄蕃"
+                        corresp="engishiki_en.xml#article213039 engishiki_ja.xml#article213039"
+                        n="21.39" subtype="項" type="条" xml:id="article213039">
+                        <head ana="大寺雑事"/>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item21303901 engishiki_ja.xml#item21303901"
+                            xml:id="item21303901">凡僧綱勘知大寺雑事、</p>
+                    </div>
+                    <div ana="玄蕃"
+                        corresp="engishiki_en.xml#article213040 engishiki_ja.xml#article213040"
+                        n="21.40" subtype="項" type="条" xml:id="article213040">
+                        <head ana="僧綱辞表"/>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item21304001 engishiki_ja.xml#item21304001"
+                            xml:id="item21304001">凡僧綱辞任者上表、其表盛筥置案上、玄蕃史生一人執簀敷暉章堂・修式堂間、進北二丈許、史生二人、執案自会昌門東戸入、置簀上退出、中務受取奏聞、</p>
+                    </div>
+                    <div ana="玄蕃"
+                        corresp="engishiki_en.xml#article213041 engishiki_ja.xml#article213041"
+                        n="21.41" subtype="項" type="条" xml:id="article213041">
+                        <head ana="僧綱卒去"/>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item21304101 engishiki_ja.xml#item21304101"
+                            xml:id="item21304101">凡律師以上有卒去者、申送於省、</p>
+                    </div>
+                    <div ana="玄蕃"
+                        corresp="engishiki_en.xml#article213042 engishiki_ja.xml#article213042"
+                        n="21.42" subtype="項" type="条" xml:id="article213042">
+                        <head ana="威従"/>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item21304201 engishiki_ja.xml#item21304201"
+                            xml:id="item21304201">凡威儀師六人、従儀師八人、有闕者、僧綱簡定幹事者、申官補之、</p>
+                    </div>
+                    <div ana="玄蕃"
+                        corresp="engishiki_en.xml#article213043 engishiki_ja.xml#article213043"
+                        n="21.43" subtype="項" type="条" xml:id="article213043">
+                        <head ana="従僧"/>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item21304301 engishiki_ja.xml#item21304301"
+                            xml:id="item21304301">凡僧正従僧五人、沙弥四人、童子八人、大少僧都各従僧四人、沙弥三人、童子六人、律師各従僧三人、沙弥二人、童子四人、威儀師各従僧一人、沙弥一人、童子二人、従儀師各沙弥一人、童子二人、東大寺別当従僧・沙弥・童子各二人、興福・元興・大安・薬師・西大・法隆・弘福・四天王・崇福等寺別当幷法華寺大鎮各従僧一人、沙弥一人、童子二人、三綱・少鎮沙弥一人、童子二人、並用本寺物供之、其童子各米一升二合、塩五夕、</p>
+                    </div>
+                    <div ana="玄蕃"
+                        corresp="engishiki_en.xml#article213044 engishiki_ja.xml#article213044"
+                        n="21.44" subtype="項" type="条" xml:id="article213044">
+                        <head ana="大威儀師"/>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item21304401 engishiki_ja.xml#item21304401"
+                            xml:id="item21304401">凡公会請用僧綱之日、使大威儀師預之、其座次者、不依年﨟、加於凡僧之上、</p>
+                    </div>
+                    <div ana="玄蕃"
+                        corresp="engishiki_en.xml#article213045 engishiki_ja.xml#article213045"
+                        n="21.45" subtype="項" type="条" xml:id="article213045">
+                        <head ana="近都寺"/>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item21304501 engishiki_ja.xml#item21304501"
+                            xml:id="item21304501">凡近都諸寺、東拝志以北、西石作以<anchor/>北<anchor/>、停預講師、僧綱検察、</p>
+                    </div>
+                    <div ana="玄蕃"
+                        corresp="engishiki_en.xml#article213046 engishiki_ja.xml#article213046"
+                        n="21.46" subtype="項" type="条" xml:id="article213046">
+                        <head ana="講読師"/>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item21304601 engishiki_ja.xml#item21304601"
+                            xml:id="item21304601">凡諸国講読師者、<anchor/>寮<anchor/>与僧綱倶孟冬一日簡定牒送省、〈其牒僧綱<anchor/>尽<anchor/>署、便捺綱所印、〉但其牒不留寮家、副寮解送省、省亦加解文共進官、即経奏聞、明年二月以前下任符、其装束程准俗官法、若有事故、安居以前不到、便令前講師或国分僧堪之者且為講説、其供養布施料者、随各講経日数分充、</p>
+                    </div>
+                    <div ana="玄蕃"
+                        corresp="engishiki_en.xml#article213047 engishiki_ja.xml#article213047"
+                        n="21.47" subtype="項" type="条" xml:id="article213047">
+                        <head ana="講読師年限"/>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item21304701 engishiki_ja.xml#item21304701"
+                            xml:id="item21304701">凡諸国講師択年卌五已上、読師卌已上者補之、但雖階業已満之輩、而年限未及、不可擬補、</p>
+                    </div>
+                    <div ana="玄蕃"
+                        corresp="engishiki_en.xml#article213048 engishiki_ja.xml#article213048"
+                        n="21.48" subtype="項" type="条" xml:id="article213048">
+                        <head ana="夏講"/>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item21304801 engishiki_ja.xml#item21304801"
+                            xml:id="item21304801">凡諸寺僧夏講・供講者、依維摩・最勝両会立義之次第行之、然後擬補講師、又果三階之後、任読師之僧秩満帰本寺、即果遺二階任<anchor/>講<anchor/>師者、<anchor/>歴<anchor/>一選之後擬補、</p>
+                    </div>
+                    <div ana="玄蕃"
+                        corresp="engishiki_en.xml#article213049 engishiki_ja.xml#article213049"
+                        n="21.49" subtype="項" type="条" xml:id="article213049">
+                        <head ana="安祥寺"/>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item21304901 engishiki_ja.xml#item21304901"
+                            xml:id="item21304901">凡安祥寺果階業僧、擬補諸国講読師、</p>
+                    </div>
+                    <div ana="玄蕃"
+                        corresp="engishiki_en.xml#article213050 engishiki_ja.xml#article213050"
+                        n="21.50" subtype="項" type="条" xml:id="article213050">
+                        <head ana="階業帳"/>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item21305001 engishiki_ja.xml#item21305001"
+                            xml:id="item21305001">凡天台・真言両宗学生階業帳、三年一度不経三司、直進弁官、</p>
+                    </div>
+                    <div ana="玄蕃"
+                        corresp="engishiki_en.xml#article213051 engishiki_ja.xml#article213051"
+                        n="21.51" subtype="項" type="条" xml:id="article213051">
+                        <head ana="最初闕"/>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item21305101 engishiki_ja.xml#item21305101"
+                            xml:id="item21305101">凡天台・真言両宗僧、幷元慶寺年中最初闕所補諸国講読師者、解文進官、経奏補任、然後下知於省、</p>
+                    </div>
+                    <div ana="玄蕃"
+                        corresp="engishiki_en.xml#article213052 engishiki_ja.xml#article213052"
+                        n="21.52" subtype="項" type="条" xml:id="article213052">
+                        <head ana="天台分講読師"/>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item21305201 engishiki_ja.xml#item21305201"
+                            xml:id="item21305201">凡天台宗分<anchor/>講<anchor/>読師者、以年分幷臨時別労<anchor/>遂<anchor/>階業者、次第擬補、但年分・臨時科第同者、先尽年分後及臨時、</p>
+                    </div>
+                    <div ana="玄蕃"
+                        corresp="engishiki_en.xml#article213053 engishiki_ja.xml#article213053"
+                        n="21.53" subtype="項" type="条" xml:id="article213053">
+                        <head ana="延暦寺三綱"/>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item21305301 engishiki_ja.xml#item21305301"
+                            xml:id="item21305301">凡延暦寺三綱一任之後、任諸国講読師、其上座・寺主任講師、都維那任読師、</p>
+                    </div>
+                    <div ana="玄蕃"
+                        corresp="engishiki_en.xml#article213054 engishiki_ja.xml#article213054"
+                        n="21.54" subtype="項" type="条" xml:id="article213054">
+                        <head ana="講読師留連"/>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item21305401 engishiki_ja.xml#item21305401"
+                            xml:id="item21305401">凡諸国講読師、任意留連、遅向任国、延引日月之類、一切不得選用幷預公請、</p>
+                    </div>
+                    <div ana="玄蕃"
+                        corresp="engishiki_en.xml#article213055 engishiki_ja.xml#article213055"
+                        n="21.55" subtype="項" type="条" xml:id="article213055">
+                        <head ana="観音寺講読師"/>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item21305501 engishiki_ja.xml#item21305501"
+                            xml:id="item21305501">凡大宰観音寺講読師者、預知管内諸国講読師所申之政、</p>
+                    </div>
+                    <div ana="玄蕃"
+                        corresp="engishiki_en.xml#article213056 engishiki_ja.xml#article213056"
+                        n="21.56" subtype="項" type="条" xml:id="article213056">
+                        <head ana="講読師不与"/>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item21305601 engishiki_ja.xml#item21305601"
+                            xml:id="item21305601">凡諸国講読師不与解由状、前後司連署踏印、国司押署、限内言上、其与不之限、講師者准俗官受領、読師者<anchor/>准<anchor/>任用、</p>
+                    </div>
+                    <div ana="玄蕃"
+                        corresp="engishiki_en.xml#article213057 engishiki_ja.xml#article213057"
+                        n="21.57" subtype="項" type="条" xml:id="article213057">
+                        <head ana="別当三綱"/>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item21305701 engishiki_ja.xml#item21305701"
+                            xml:id="item21305701">凡諸大寺幷有封寺別当三綱、以四年為秩限、遷代之日、即責解由、但廉節可称之徒、不論年限、殊録功績、申官<anchor/>褒<anchor/>賞、自余諸寺依官符任別当及尼寺鎮、並同此例、其未得解由輩永不任用、亦不預公<anchor/>請<anchor/>、但僧綱別勅任別当者、不在此限、</p>
+                    </div>
+                    <div ana="玄蕃"
+                        corresp="engishiki_en.xml#article213058 engishiki_ja.xml#article213058"
+                        n="21.58" subtype="項" type="条" xml:id="article213058">
+                        <head ana="別当長官"/>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item21305801 engishiki_ja.xml#item21305801"
+                            xml:id="item21305801">凡諸寺以別当為長官、以三綱為任用、解由与不勘<anchor/>知<anchor/>幷覚挙遺漏、及依理<anchor/>不<anchor/>尽返却等之程、一同京官、其与不之状、令綱所押署、</p>
+                    </div>
+                    <div ana="玄蕃"
+                        corresp="engishiki_en.xml#article213059 engishiki_ja.xml#article213059"
+                        n="21.59" subtype="項" type="条" xml:id="article213059">
+                        <head ana="別当三綱任符"/>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item21305901 engishiki_ja.xml#item21305901"
+                            xml:id="item21305901">凡諸寺別当・三綱等任符出後、下承知符於省、省下知於寮、寮亦令綱所知之、</p>
+                    </div>
+                    <div ana="玄蕃"
+                        corresp="engishiki_en.xml#article213060 engishiki_ja.xml#article213060"
+                        n="21.60" subtype="項" type="条" xml:id="article213060">
+                        <head ana="別当三綱闕"/>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item21306001 engishiki_ja.xml#item21306001"
+                            xml:id="item21306001">凡諸大寺別当・三綱有闕者、須五師大衆簡定能治廉節之僧、別当・三綱共署申送、僧綱覆審具状牒送寮、<anchor/>寮<anchor/>申省、省申官、然後補任、若薦挙不実、科責挙者、兼解却見任、東大寺知事亦同、</p>
+                    </div>
+                    <div ana="玄蕃"
+                        corresp="engishiki_en.xml#article213061 engishiki_ja.xml#article213061"
+                        n="21.61" subtype="項" type="条" xml:id="article213061">
+                        <head ana="大寺三綱"/>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item21306101 engishiki_ja.xml#item21306101"
+                            xml:id="item21306101">凡任諸大寺三綱者、省・寮共知補任、勿令僧綱専任、有封寺皆同、</p>
+                    </div>
+                    <div ana="玄蕃"
+                        corresp="engishiki_en.xml#article213062 engishiki_ja.xml#article213062"
+                        n="21.62" subtype="項" type="条" xml:id="article213062">
+                        <head ana="興福寺別当"/>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item21306201 engishiki_ja.xml#item21306201"
+                            xml:id="item21306201">凡興福寺別当・三綱者、不依諸大寺之例、随氏人簡定<anchor/>補<anchor/>之、</p>
+                    </div>
+                    <div ana="玄蕃"
+                        corresp="engishiki_en.xml#article213063 engishiki_ja.xml#article213063"
+                        n="21.63" subtype="項" type="条" xml:id="article213063">
+                        <head ana="僧綱任別当"/>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item21306301 engishiki_ja.xml#item21306301"
+                            xml:id="item21306301">凡僧綱不得輙任諸寺別当、若不獲已者、待別勅任<anchor/>之<anchor/>、</p>
+                    </div>
+                    <div ana="玄蕃"
+                        corresp="engishiki_en.xml#article213064 engishiki_ja.xml#article213064"
+                        n="21.64" subtype="項" type="条" xml:id="article213064">
+                        <head ana="東西寺三綱"/>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item21306401 engishiki_ja.xml#item21306401"
+                            xml:id="item21306401">凡東西寺三綱、並以定額僧補之、〈但西寺用階業僧、〉不得任他僧、其一任之後、並任諸国講読師、</p>
+                    </div>
+                    <div ana="玄蕃"
+                        corresp="engishiki_en.xml#article213065 engishiki_ja.xml#article213065"
+                        n="21.65" subtype="項" type="条" xml:id="article213065">
+                        <head ana="四天王寺三綱"/>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item21306501 engishiki_ja.xml#item21306501"
+                            xml:id="item21306501">凡四天王・梵釈・常<anchor/>住<anchor/>・仁和等<anchor/>寺<anchor/>三綱、各以十僧内補之、</p>
+                    </div>
+                    <div ana="玄蕃"
+                        corresp="engishiki_en.xml#article213066 engishiki_ja.xml#article213066"
+                        n="21.66" subtype="項" type="条" xml:id="article213066">
+                        <head ana="定額寺別当"/>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item21306601 engishiki_ja.xml#item21306601"
+                            xml:id="item21306601">凡諸定額寺別当、元来依官符任者、有闕則檀越氏人等、択定能治可称之僧、連署陳牒郡司、<anchor/>郡司<anchor/>牒送講読師、講読師修状、牒送国司、国司申官補任、</p>
+                    </div>
+                    <div ana="玄蕃"
+                        corresp="engishiki_en.xml#article213067 engishiki_ja.xml#article213067"
+                        n="21.67" subtype="項" type="条" xml:id="article213067">
+                        <head ana="講読師解由"/>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item21306701 engishiki_ja.xml#item21306701"
+                            xml:id="item21306701">諸国講読師解由式
+                            <lb/><anchor/>其<anchor/>国講師牒　与前講師解由事〈読師亦同、〉
+                            <lb/><s rendition="#indent2">位名　某寺</s>
+                            <lb/>牒、<anchor/>其<anchor/>月日因事解任、〈遷任亦同、〉仍与解由申送、謹牒、
+                            <lb/><s rendition="#indent3">年　月　日</s>
+                            <lb/>講師位名
+                            <lb/>読師位名
+                            <lb/>国司
+                            <lb/>守位姓名〈介亦同、〉
+                        </p>
+                    </div>
+                    <div ana="玄蕃"
+                        corresp="engishiki_en.xml#article213068 engishiki_ja.xml#article213068"
+                        n="21.68" subtype="項" type="条" xml:id="article213068">
+                        <head ana="別当三綱解由"/>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item21306801 engishiki_ja.xml#item21306801"
+                            xml:id="item21306801">諸寺別当三綱解由式
+                            <lb/><anchor/>某<anchor/>寺
+                            <lb/><s rendition="#indent3">与前別当解由事〈三綱亦同、〉</s>
+                            <lb/><s rendition="#indent4">位名　<anchor/>某<anchor/>寺</s>
+                            <lb/>牒、<anchor/>其<anchor/>月日因事解任、〈遷任亦同、〉仍与解由牒送、謹牒、
+                            <lb/><s rendition="#indent4">年　月　日　都維那位名牒、</s>
+                            <lb/>別当位名
+                            <lb/>上座位名
+                            <lb/><anchor/>寺<anchor/>主位名
+                            <lb/>僧綱
+                            <lb/>僧正位名〈律師已上亦同、〉
+                        </p>
+                    </div>
+                    <div ana="玄蕃"
+                        corresp="engishiki_en.xml#article213069 engishiki_ja.xml#article213069"
+                        n="21.69" subtype="項" type="条" xml:id="article213069">
+                        <head ana="度縁"/>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item21306901 engishiki_ja.xml#item21306901"
+                            xml:id="item21306901">度縁式
+                            　　沙弥甲年若干〈京国郡郷、戸主戸口、子処邑、〉
+                            　　　右、太政官年月日符偁、右大臣宣、奉勅云云、若干人例得度、省・寮・僧綱共授度縁如件、
+                            　　　　　　　　　　師主寺僧位名
+                            　　　　　　　年　月　日
+                            僧綱
+                            僧正位名〈若無者律師以上一人署、〉　威儀師位名
+                            　　　　　　　　　　　　　　　　　 威儀師位名
+                            玄蕃寮
+                            頭姓名　　　　　　　　　　　　　位姓名
+                            　　　　　　　　　　　　　　　　　 属位姓名
+                            治部省
+                            輔位姓名　　　　　　　　　　　　　 丞位姓名
+                            　　　　　　　　　　　　　　　　　 録位姓名
+                        </p>
+                    </div>
+                    <div ana="玄蕃"
+                        corresp="engishiki_en.xml#article213070 engishiki_ja.xml#article213070"
+                        n="21.70" subtype="項" type="条" xml:id="article213070">
+                        <head ana="判授位記"/>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item21307001 engishiki_ja.xml#item21307001"
+                            xml:id="item21307001">授位記式
+                            僧甲〈年若干、﨟若干〉　寺
+                            　　　　　　　　　　　　　今授伝灯入位、
+                            　　　　　　　　　　　　　　　年　月　日
+                            僧正位名　　　　　　威儀師位名
+                            大僧都位名　　　　　威儀師位名
+                            少僧都位名
+                            律師位名
+                            　　右、満位以上勅授、入位以上僧綱判授、其依修行被授位者、以修行伝燈、
+                        </p>
+                    </div>
+                    <div ana="玄蕃"
+                        corresp="engishiki_en.xml#article213071 engishiki_ja.xml#article213071"
+                        n="21.71" subtype="項" type="条" xml:id="article213071">
+                        <head ana="年分度者"/>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item21307101 engishiki_ja.xml#item21307101"
+                            xml:id="item21307101">凡年分度者、試業訖更随所業、互令各論、択其翹楚者、聴得度、其応度者、正月斎会畢日令度、畢省先責手実申官、与民部共勘籍、即造度縁一通、省・寮・僧綱共署、向太政官請印、即授其身、其別勅度者勘籍・度縁亦宜准此、但沙弥尼度縁者用省印、</p>
+                    </div>
+                    <div ana="玄蕃"
+                        corresp="engishiki_en.xml#article213072 engishiki_ja.xml#article213072"
+                        n="21.72" subtype="項" type="条" xml:id="article213072">
+                        <head ana="授戒"/>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item21307201 engishiki_ja.xml#item21307201"
+                            xml:id="item21307201">凡授戒者、毎年三月十一日始行之、月内令畢、其応行事之・寮・綱所三司夾名、当月五日進官、</p>
+                    </div>
+                    <div ana="玄蕃"
+                        corresp="engishiki_en.xml#article213073 engishiki_ja.xml#article213073"
+                        n="21.73" subtype="項" type="条" xml:id="article213073">
+                        <head ana="沙弥・沙弥尼"/>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item21307301 engishiki_ja.xml#item21307301"
+                            xml:id="item21307301">凡沙弥・沙弥尼応受戒者、限三月上旬、集於僧綱所、先勘会度縁、然後受戒、具録僧数、使幷十師連署進上奏、即省於度縁末注受戒年月日、幷官人署名即捺省印以為記験、其外国沙弥・沙弥尼者、皆請当国文牒、東海道足柄坂以東、東山道信濃坂以東、並於下野薬寺、西海道於筑紫観世音寺受戒、即当処官司案記・印署、並准上例、仍造歴名二通、一通留国、一通附使進官、官付所司、</p>
+                    </div>
+                    <div ana="玄蕃"
+                        corresp="engishiki_en.xml#article213074 engishiki_ja.xml#article213074"
+                        n="21.74" subtype="項" type="条" xml:id="article213074">
+                        <head ana="戒牒"/>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item21307401 engishiki_ja.xml#item21307401"
+                            xml:id="item21307401">凡受戒時、省丞・録、寮允・属各一人、率史生各一人、与威従共向戒壇院、子細勘会官符・度縁、便収取受戒者戒牒、具注後紙以其本籍・姓名、即省・寮相共押署、捺以省印、五月以前下於僧綱、僧綱六月一日頒給、若有持白紙戒牒者、科違勅罪、</p>
+                    </div>
+                    <div ana="玄蕃"
+                        corresp="engishiki_en.xml#article213075 engishiki_ja.xml#article213075"
+                        n="21.75" subtype="項" type="条" xml:id="article213075">
+                        <head ana="授戒使"/>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item21307501 engishiki_ja.xml#item21307501"
+                            xml:id="item21307501">凡授戒省・寮官人已下直丁已上八箇日食料米、省一石二斗六升四合、〈白五斗六升、黒七斗四合、〉丞一人、録一人、〈日各白二升、〉生一人、省掌一人、〈日各白一升五合、〉直丁二人、〈日各黒一升二合、〉従六人、〈日各合、〉寮一石二斗六升四合、〈細用同省、〉大和国舂正税穀、二月卅日以前送東大寺、但鋪設寺家充之、</p>
+                    </div>
+                    <div ana="玄蕃"
+                        corresp="engishiki_en.xml#article213076 engishiki_ja.xml#article213076"
+                        n="21.76" subtype="項" type="条" xml:id="article213076">
+                        <head ana="戒壇十師"/>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item21307601 engishiki_ja.xml#item21307601"
+                            xml:id="item21307601">凡戒壇十師幷沙弥等供料、以大蔵省幷大和国所送物、〈具見大蔵・主税式、但大和国二月卅日以前送、〉令東大・興・元興・大安・薬師・西大・法華・新薬師等寺各配一日弁備、</p>
+                    </div>
+                    <div ana="玄蕃"
+                        corresp="engishiki_en.xml#article213077 engishiki_ja.xml#article213077"
+                        n="21.77" subtype="項" type="条" xml:id="article213077">
+                        <head ana="七大寺僧"/>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item21307701 engishiki_ja.xml#item21307701"
+                            xml:id="item21307701">凡以七大寺僧為師主之輩、不聴預延暦寺授戒、</p>
+                    </div>
+                    <div ana="玄蕃"
+                        corresp="engishiki_en.xml#article213078 engishiki_ja.xml#article213078"
+                        n="21.78" subtype="項" type="条" xml:id="article213078">
+                        <head ana="臨時度者"/>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item21307801 engishiki_ja.xml#item21307801"
+                            xml:id="item21307801">凡除年分度者之外、臨時度者有過僧廿人・尼十人、執申、</p>
+                    </div>
+                    <div ana="玄蕃"
+                        corresp="engishiki_en.xml#article213079 engishiki_ja.xml#article213079"
+                        n="21.79" subtype="項" type="条" xml:id="article213079">
+                        <head ana="徴免"/>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item21307901 engishiki_ja.xml#item21307901"
+                            xml:id="item21307901">凡応徴免度人・還俗僧等課役者、毎申省、</p>
+                    </div>
+                    <div ana="玄蕃"
+                        corresp="engishiki_en.xml#article213080 engishiki_ja.xml#article213080"
+                        n="21.80" subtype="項" type="条" xml:id="article213080">
+                        <head ana="収度縁"/>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item21308001 engishiki_ja.xml#item21308001"
+                            xml:id="item21308001">凡僧尼幷沙弥等、身死及犯罪因才還俗者、収其度縁、年終申官毀之、寮案具注事状、</p>
+                    </div>
+                    <div ana="玄蕃"
+                        corresp="engishiki_en.xml#article213081 engishiki_ja.xml#article213081"
+                        n="21.81" subtype="項" type="条" xml:id="article213081">
+                        <head ana="大寺僧死闕"/>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item21308101 engishiki_ja.xml#item21308101"
+                            xml:id="item21308101">凡諸大寺僧有死闕者、毎月申送僧綱、綱勘取度縁、毎牒送於寮、寮即申省、省年終申官、</p>
+                    </div>
+                    <div ana="玄蕃"
+                        corresp="engishiki_en.xml#article213082 engishiki_ja.xml#article213082"
+                        n="21.82" subtype="項" type="条" xml:id="article213082">
+                        <head ana="延暦寺僧死闕"/>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item21308201 engishiki_ja.xml#item21308201"
+                            xml:id="item21308201">凡延暦寺僧身死者、其度縁・戒牒、三綱勘収令座主毀、所毀名数、作目署印、備之検閲、</p>
+                    </div>
+                    <div ana="玄蕃"
+                        corresp="engishiki_en.xml#article213083 engishiki_ja.xml#article213083"
+                        n="21.83" subtype="項" type="条" xml:id="article213083">
+                        <head ana="仏菩薩"/>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item21308301 engishiki_ja.xml#item21308301"
+                            xml:id="item21308301">凡諸寺仏菩薩像、若在穢所、露当風雨者、取集二・三寺像、安置一浄寺、以令焼香・散花・礼拝・供養、若檀越等願置浄所供養者聴之、</p>
+                    </div>
+                    <div ana="玄蕃"
+                        corresp="engishiki_en.xml#article213084 engishiki_ja.xml#article213084"
+                        n="21.84" subtype="項" type="条" xml:id="article213084">
+                        <head ana="禅院経論"/>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item21308401 engishiki_ja.xml#item21308401"
+                            xml:id="item21308401">凡禅院寺経論、三年一度曝、省・寮・僧綱・三綱・檀越等相共検校、</p>
+                    </div>
+                    <div ana="玄蕃"
+                        corresp="engishiki_en.xml#article213085 engishiki_ja.xml#article213085"
+                        n="21.85" subtype="項" type="条" xml:id="article213085">
+                        <head ana="東西寺非違"/>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item21308501 engishiki_ja.xml#item21308501"
+                            xml:id="item21308501">凡毎年四月八日、七月十五日、弾正検東・西寺非違、允・属相随祗承、</p>
+                    </div>
+                    <div ana="玄蕃"
+                        corresp="engishiki_en.xml#article213086 engishiki_ja.xml#article213086"
+                        n="21.86" subtype="項" type="条" xml:id="article213086">
+                        <head ana="論事"/>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item21308601 engishiki_ja.xml#item21308601"
+                            xml:id="item21308601">凡応対僧綱論事者、允・属各一人、就綱所相論、若無者省録亦聴、</p>
+                    </div>
+                    <div ana="玄蕃"
+                        corresp="engishiki_en.xml#article213087 engishiki_ja.xml#article213087"
+                        n="21.87" subtype="項" type="条" xml:id="article213087">
+                        <head ana="寺文返却帳"/>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item21308701 engishiki_ja.xml#item21308701"
+                            xml:id="item21308701">凡諸国寺文返却帳、不改寮解、押署進官、即副官符下国、</p>
+                    </div>
+                    <div ana="玄蕃"
+                        corresp="engishiki_en.xml#article213088 engishiki_ja.xml#article213088"
+                        n="21.88" subtype="項" type="条" xml:id="article213088">
+                        <head ana="常住寺供養"/>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item21308801 engishiki_ja.xml#item21308801"
+                            xml:id="item21308801">凡住寺十禅師幷従沙弥・童子等供養者、威儀師一人専当其事、各令本寺毎月運送、</p>
+                    </div>
+                    <div ana="玄蕃"
+                        corresp="engishiki_en.xml#article213089 engishiki_ja.xml#article213089"
+                        n="21.89" subtype="項" type="条" xml:id="article213089">
+                        <head ana="天台住僧"/>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item21308901 engishiki_ja.xml#item21308901"
+                            xml:id="item21308901">凡天台宗住山僧廿四口供養、〈口別米二升、〉割近江国分寺供料充之、</p>
+                    </div>
+                    <div ana="玄蕃"
+                        corresp="engishiki_en.xml#article213090 engishiki_ja.xml#article213090"
+                        n="21.90" subtype="項" type="条" xml:id="article213090">
+                        <head ana="斎会食"/>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item21309001 engishiki_ja.xml#item21309001"
+                            xml:id="item21309001">凡公私斎会講師已下平等行食、</p>
+                    </div>
+                    <div ana="玄蕃"
+                        corresp="engishiki_en.xml#article213091 engishiki_ja.xml#article213091"
+                        n="21.91" subtype="項" type="条" xml:id="article213091">
+                        <head ana="誦経"/>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item21309101 engishiki_ja.xml#item21309101"
+                            xml:id="item21309101">凡王臣已下誦経布施物者、親王一品商布五百段已下、二品三百段已下、三品・四品各二百段已下、諸王・諸臣一位五百段已下、二位三百段已下、三位二百段已下、四位一百段已下、五位五十段已下、六位已下卅段已下、並三七若七七日一度施修、不得違差、非商布者亦准此数、若相労之人、必有可諷誦、只二等已上親、其布施物、不得過本位数、</p>
+                    </div>
+                    <div ana="玄蕃"
+                        corresp="engishiki_en.xml#article213092 engishiki_ja.xml#article213092"
+                        n="21.92" subtype="項" type="条" xml:id="article213092">
+                        <head ana="諸蕃使人"/>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item21309201 engishiki_ja.xml#item21309201"
+                            xml:id="item21309201">凡諸蕃使人、将国信物応入京者、待領客使到、其所須駄夫者、領客使委路次国郡、献物多少及客随身衣物、准給逓送、仍令国別国司一人部領人夫、防援過境、其在路不得与客交雑、亦不得令客与人言語、所経国郡官人、若無事亦不須与客相見、停宿之処、勿聴客浪出入、自余雑物不須入京者、留当処庫、還日出与、其往還在路所須駄夫等、不得令致非理労苦、</p>
+                    </div>
+                    <div ana="玄蕃"
+                        corresp="engishiki_en.xml#article213093 engishiki_ja.xml#article213093"
+                        n="21.93" subtype="項" type="条" xml:id="article213093">
+                        <head ana="蕃客往還"/>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item21309301 engishiki_ja.xml#item21309301"
+                            xml:id="item21309301">凡蕃客往還、若有水陸二路者、領客使与国相知、逐便預定一路、明注所須船・駄・人夫等数及客到時日、逓牒前所、応須供客之物、令預備擬、不得臨時改易及有停擁、如有事故、必須停滞及改張者、速前所勿致費損、</p>
+                    </div>
+                    <div ana="玄蕃"
+                        corresp="engishiki_en.xml#article213094 engishiki_ja.xml#article213094"
+                        n="21.94" subtype="項" type="条" xml:id="article213094">
+                        <head ana="新羅客"/>
+                        <p ana="項"
+                            corresp="engishiki_en.xml#item21309401 engishiki_ja.xml#item21309401"
+                            xml:id="item21309401">凡新羅客入朝者、給神酒、其醸酒料稲、大和国賀茂・意富・纏向・倭文四社、河内国恩智一社、和泉国安那志一社、摂津国住道・伊佐具二社各束、合二百卌束送住道社、大和国片岡一社、摂津国広田・生田・長田三社各五十束、二百束送生田社、並令神部、差中臣一人、充給酒使、生田社酒者、於敏売給之、醸住道社酒者、於難波館給之、若従筑紫還者、応給酒肴、便付使人、其肴惣隠伎鰒六斤、螺六、腊四斤六両、海藻六斤、海松六斤、菜六斤、盞卅八口、匏十柄、案六脚、〈被責還者不給、〉蕃客従海路来朝、津国遣迎船、〈王子来朝遣一国司、余使郡司、但大唐使者迎船有数、〉客将到難波津之日、国使着朝服、乗一装船、候於海上、客船来至、迎船趨進、客舶・迎比及相近、客主停船、国使立船上、客等朝服出立船上、時国使喚通事、通事称唯、国使宣云、日本〈尓〉明神〈登〉御宇天皇朝庭〈登、〉蕃王〈能〉申上随〈尓〉参上来〈留〉客等参近〈奴登、〉摂津国守等聞着〈弖、〉水脈〈母〉教導賜〈幣登〉宣随〈尓、〉迎賜〈波久登〉宣、等再拝両段謝言、訖引客還泊、</p>
+                    </div>
+                </div>
+                <div type="尾題" xml:id="bidai21">
+                    <p xml:id="bidai2101"/>
+                </div>
+                <div type="本奥書" xml:id="okugaki21">
+                    <p xml:id="okugaki2101"/>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>
