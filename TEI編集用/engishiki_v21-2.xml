@@ -2,8 +2,8 @@
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-                            <teiHeader>
-                                                  <fileDesc>
+                      <teiHeader>
+                                            <fileDesc>
                                                   <titleStmt>
                                                   <title>延喜式ファイル</title>
                                                   </titleStmt>
@@ -150,8 +150,8 @@
                                                   </listWit>
                                                   </listWit>
                                                   </sourceDesc>
-                                                  </fileDesc>
-                                                  <encodingDesc>
+                                            </fileDesc>
+                                            <encodingDesc>
                                                   <variantEncoding location="external"
                                                   method="location-referenced"/>
                                                   <tagsDecl>
@@ -312,13 +312,13 @@
                                                   </table></p>
                                                   <p ana="個別"/>
                                                   </editorialDecl>
-                                                  </encodingDesc>
-                                                  <revisionDesc ana="個別">
+                                            </encodingDesc>
+                                            <revisionDesc ana="個別">
                                                   <change/>
-                                                  </revisionDesc>
-                            </teiHeader>
-                            <text>
-                                                  <body>
+                                            </revisionDesc>
+                      </teiHeader>
+                      <text>
+                                            <body>
                                                   <div ana="雅楽" n="21" subtype="式" type="巻"
                                                   xml:id="volume21">
                                                   <div type="首題" xml:id="shudai21">
@@ -345,6 +345,21 @@
                                                   xml:id="app2120010102e"/>行幸之所、属已上率<anchor
                                                   xml:id="app2120010103"/>雑<anchor
                                                   xml:id="app2120010103e"/>人祗候、</p>
+                                                  <app from="#" to="#e">
+                                                  <lem/>
+                                                  <rdg/>
+                                                  <rdg/>
+                                                  </app>
+                                                  <app from="#" to="#e">
+                                                  <lem/>
+                                                  <rdg/>
+                                                  <rdg/>
+                                                  </app>
+                                                  <app from="#" to="#e">
+                                                  <lem/>
+                                                  <rdg/>
+                                                  <rdg/>
+                                                  </app>
                                                   </div>
                                                   <div ana="雅楽"
                                                   corresp="engishiki_en.xml#article212002 engishiki_ja.xml#article212002"
@@ -418,6 +433,36 @@
                                                   xml:id="app2120070105e"/>、〉<anchor
                                                   xml:id="app2120070106"/>大安・西大・法華・秋篠等寺亦同充之<anchor
                                                   xml:id="app2120070106e"/>、</p>
+                                                                        <app from="#" to="#e">
+                                                                                              <lem/>
+                                                                                              <rdg/>
+                                                                                              <rdg/>
+                                                                        </app>
+                                                                        <app from="#" to="#e">
+                                                                                              <lem/>
+                                                                                              <rdg/>
+                                                                                              <rdg/>
+                                                                        </app>
+                                                                        <app from="#" to="#e">
+                                                                                              <lem/>
+                                                                                              <rdg/>
+                                                                                              <rdg/>
+                                                                        </app>
+                                                                        <app from="#" to="#e">
+                                                                                              <lem/>
+                                                                                              <rdg/>
+                                                                                              <rdg/>
+                                                                        </app>
+                                                                        <app from="#" to="#e">
+                                                                                              <lem/>
+                                                                                              <rdg/>
+                                                                                              <rdg/>
+                                                                        </app>
+                                                                        <app from="#" to="#e">
+                                                                                              <lem/>
+                                                                                              <rdg/>
+                                                                                              <rdg/>
+                                                                        </app>
                                                   </div>
                                                   <div ana="雅楽"
                                                   corresp="engishiki_en.xml#article212008 engishiki_ja.xml#article212008"
@@ -430,6 +475,11 @@
                                                   xml:id="app2120080101"/>宮<anchor
                                                   xml:id="app2120080101e"
                                                   />・東宮正月二日饗宴、官人率楽人等供奉、大臣大饗亦同、</p>
+                                                                        <app from="#" to="#e">
+                                                                                              <lem/>
+                                                                                              <rdg/>
+                                                                                              <rdg/>
+                                                                        </app>
                                                   </div>
                                                   <div ana="雅楽"
                                                   corresp="engishiki_en.xml#article212009 engishiki_ja.xml#article212009"
@@ -442,6 +492,11 @@
                                                   >凡五月五日、省・寮率楽人候、又競馬標料戈二竿、立第三的南十丈、六<anchor
                                                   xml:id="app2120090101"/>日<anchor
                                                   xml:id="app2120090101e"/>亦同、</p>
+                                                                        <app from="#" to="#e">
+                                                                                              <lem/>
+                                                                                              <rdg/>
+                                                                                              <rdg/>
+                                                                        </app>
                                                   </div>
                                                   <div ana="雅楽"
                                                   corresp="engishiki_en.xml#article212010 engishiki_ja.xml#article212010"
@@ -502,6 +557,11 @@
                                                   xml:id="item21201501">凡毎年六月曝涼林邑幷雑楽具、寮預申省、<anchor
                                                   xml:id="app2120150101"/>省<anchor
                                                   xml:id="app2120150101e"/>申官令監物就検、省丞・録各一人相共検校、</p>
+                                                                        <app from="#" to="#e">
+                                                                                              <lem/>
+                                                                                              <rdg/>
+                                                                                              <rdg/>
+                                                                        </app>
                                                   </div>
                                                   <div ana="雅楽"
                                                   corresp="engishiki_en.xml#article212016 engishiki_ja.xml#article212016"
@@ -530,6 +590,21 @@
                                                   xml:id="app2120170103e"/>糸四両、〉 <pb/><lb/><s
                                                   rendition="#indent2">右、計所須糸、二年一度請受、</s>
                                                   </p>
+                                                                        <app from="#" to="#e">
+                                                                                              <lem/>
+                                                                                              <rdg/>
+                                                                                              <rdg/>
+                                                                        </app>
+                                                                        <app from="#" to="#e">
+                                                                                              <lem/>
+                                                                                              <rdg/>
+                                                                                              <rdg/>
+                                                                        </app>
+                                                                        <app from="#" to="#e">
+                                                                                              <lem/>
+                                                                                              <rdg/>
+                                                                                              <rdg/>
+                                                                        </app>
                                                   </div>
                                                   <div ana="雅楽"
                                                   corresp="engishiki_en.xml#article212018 engishiki_ja.xml#article212018"
@@ -543,6 +618,16 @@
                                                   xml:id="app2120180101e"/>別永給、 <lb/>歌女卅人、各<anchor
                                                   xml:id="app2120180102"/>日<anchor
                                                   xml:id="app2120180102e"/>黒米八合、 </p>
+                                                                        <app from="#" to="#e">
+                                                                                              <lem/>
+                                                                                              <rdg/>
+                                                                                              <rdg/>
+                                                                        </app>
+                                                                        <app from="#" to="#e">
+                                                                                              <lem/>
+                                                                                              <rdg/>
+                                                                                              <rdg/>
+                                                                        </app>
                                                   </div>
                                                   <div ana="雅楽"
                                                   corresp="engishiki_en.xml#article212019 engishiki_ja.xml#article212019"
@@ -566,6 +651,6 @@
                                                   <p xml:id="okugaki2101"/>
                                                   </div>
                                                   </div>
-                                                  </body>
-                            </text>
+                                            </body>
+                      </text>
 </TEI>
