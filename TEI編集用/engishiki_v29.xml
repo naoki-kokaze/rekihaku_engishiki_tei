@@ -424,12 +424,12 @@
                 <pb
                     facs="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-29%2F00002.tif/full/full/0/default.jpg"/>
                 <div type="首題" xml:id="shudai29">
-                    <p>延喜式巻第廿九　〈刑部　判事　囚獄〉</p>
+                    <p xml:id="shudai2901">延喜式巻第廿九　〈刑部　判事　囚獄〉</p>
                 </div>
                 <div ana="刑部" corresp="engishiki_en.xml#protocol291 engishiki_ja.xml#protocol291"
                     n="29" subtype="条" type="式" xml:id="protocol291">
                     <div type="式題" xml:id="shikidai291">
-                        <p>刑部省</p>
+                        <p xml:id="shikidai29101">刑部省</p>
                     </div>
                     <div ana="刑部"
                         corresp="engishiki_en.xml#article291001 engishiki_ja.xml#article291001"
@@ -1129,7 +1129,7 @@
                     <pb
                         facs="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-29%2F00008.tif/full/full/0/default.jpg"/>
                     <div type="式題" xml:id="shikidai292">
-                        <p>判事</p>
+                        <p xml:id="shikidai29201">判事</p>
                     </div>
                     <div ana="判事"
                         corresp="engishiki_en.xml#article292001 engishiki_ja.xml#article292001"
@@ -1248,7 +1248,7 @@
                 <div ana="囚獄" corresp="engishiki_en.xml#protocol293 engishiki_ja.xml#protocol293"
                     n="29" subtype="条" type="式" xml:id="protocol293">
                     <div type="式題" xml:id="shikidai293">
-                        <p>囚獄司</p>
+                        <p xml:id="shikidai29301">囚獄司</p>
                     </div>
                     <div ana="囚獄"
                         corresp="engishiki_en.xml#article293001 engishiki_ja.xml#article293001"
@@ -1413,12 +1413,13 @@
                     </div>
                 </div>
                 <div type="尾題" xml:id="bidai29">
-                    <p>延喜式巻第廿九</p>
+                    <p xml:id="bidai2901">延喜式巻第廿九</p>
                 </div>
                 <div type="本奥書" xml:id="okugaki29">
-                    <p><anchor xml:id="app2999990101"/>延<anchor xml:id="app2999990101e"
-                            />長五年十二月廿六日　外従五位下行左大史臣阿刀宿禰忠行<lb/>従五位上行勘解由<anchor xml:id="app2999990102"
-                            />次<anchor xml:id="app2999990102e"/>官兼大外記・紀伊権介臣伴宿禰久永<lb/>
+                    <p xml:id="okugaki2901"><anchor xml:id="app2999990101"/>延<anchor
+                            xml:id="app2999990101e"/>長五年十二月廿六日　外従五位下行左大史臣阿刀宿禰忠行<lb/>従五位上行勘解由<anchor
+                            xml:id="app2999990102"/>次<anchor xml:id="app2999990102e"
+                        />官兼大外記・紀伊権介臣伴宿禰久永<lb/>
                         従四位上行神祇伯臣大中臣朝臣安則<lb/>大納言正三位兼行民部卿臣藤原朝臣清貫<lb/>左大臣正二位兼行左近衛大将・皇太子傅臣藤原朝臣忠平</p>
                     <app from="#app2999990101" to="#app2999990101e">
                         <lem wit="#土本">延長五年十二月廿六日　外従五位下行左大史臣阿刀宿禰忠行<lb/>
