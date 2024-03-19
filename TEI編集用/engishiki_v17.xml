@@ -396,12 +396,12 @@
                   <div ana="内匠" n="17" subtype="式" type="巻">
                         <pb
                               facs="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-17%2F00002.tif/full/full/0/default.jpg"/>
-                        <div type="首題">
-                              <p>延喜式巻第十七</p>
+                        <div type="首題" xml:id="shudai17">
+                              <p xml:id="shudai1701">延喜式巻第十七</p>
                         </div>
                         <div ana="内匠" n="17" subtype="条" type="式">
-                              <div type="式題">
-                                    <p>内匠寮</p>
+                              <div type="式題" xml:id="shikidai171">
+                                    <p xml:id="shikidai17101">内匠寮</p>
                               </div>
                               <div ana="内匠" n="17.1" subtype="項" type="条">
                                     <head ana="大極殿飾"/>
@@ -2529,12 +2529,13 @@
                                     </app>
                               </div>
                         </div>
-                        <div type="尾題">
-                              <p>延喜式巻第十七</p>
+                        <div type="尾題" xml:id="bidai17">
+                              <p xml:id="bidai1701">延喜式巻第十七</p>
                         </div>
-                        <div type="本奥書">
-                              <p><date>延長五年十二月廿六日</date>外従五位下行左大史臣阿<anchor xml:id="app1799990101"
-                                          />刀<anchor xml:id="app1799990101e"/>宿禰忠行 　　　　　　<lb/><pb
+                        <div type="本奥書" xml:id="okugaki17">
+                              <p xml:id="okugaki1701"><date>延長五年十二月廿六日</date>外従五位下行左大史臣阿<anchor
+                                          xml:id="app1799990101"/>刀<anchor xml:id="app1799990101e"
+                                    />宿禰忠行 　　　　　　<lb/><pb
                                           facs="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-17%2F00035.tif/full/full/0/default.jpg"
                                     />従五位上行勘解由次官兼大外記紀伊権介臣伴宿禰久永 　　　　　　<lb/>従四位上行神祇伯臣大中臣朝臣安則 　　　　　　
                                     <lb/>大納言正三位兼行民部卿臣藤原朝臣清貫 　　　　　　 <lb/>左大臣正二位兼行左近衛大将皇太子傅臣藤原朝臣忠平</p>
