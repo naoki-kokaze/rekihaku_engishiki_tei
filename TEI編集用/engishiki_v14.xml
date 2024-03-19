@@ -93,10 +93,13 @@
             <head>その他</head>
             <witness xml:id="本朝月令"><abbr>本朝月令</abbr>：清水潔編『新校本朝月令』（皇學館大學神道研究所　2002年刊）</witness>
             <witness xml:id="儀式"><abbr>儀式</abbr>：神道大系朝儀祭祀編1『儀式・内裏式』（神道大系編纂会　1980年刊）</witness>
-            <witness xml:id="皇太神宮儀式帳"><abbr>皇太神宮儀式帳</abbr>：佐野真人「『皇太神宮儀式帳』校訂試案」（『皇學館大学研究開発推進センター紀要』2　2016年）</witness>
-            <witness xml:id="止由気宮儀式帳"><abbr>止由気宮儀式帳</abbr>：佐野真人「『止由気宮儀式帳』校訂試案」（『皇學館大学研究開発推進センター紀要』3　2017年）</witness>
+            <witness xml:id="皇太神宮儀式帳"
+              ><abbr>皇太神宮儀式帳</abbr>：佐野真人「『皇太神宮儀式帳』校訂試案」（『皇學館大学研究開発推進センター紀要』2　2016年）</witness>
+            <witness xml:id="止由気宮儀式帳"
+              ><abbr>止由気宮儀式帳</abbr>：佐野真人「『止由気宮儀式帳』校訂試案」（『皇學館大学研究開発推進センター紀要』3　2017年）</witness>
             <witness xml:id="新撰年中行事"><abbr>新撰年中行事</abbr>：西本昌弘編『新撰年中行事』（八木書店　2010年刊）</witness>
-            <witness xml:id="小野宮年中行事"><abbr>小野宮年中行事</abbr>：群書類従第6輯 律令部 公事部（続群書類従完成会　1932年刊）</witness>
+            <witness xml:id="小野宮年中行事"><abbr>小野宮年中行事</abbr>：群書類従第6輯 律令部
+              公事部（続群書類従完成会　1932年刊）</witness>
             <witness xml:id="小野宮年中行事裏書"><abbr>小野宮年中行事裏書</abbr>：国立歴史民俗博物館所蔵本（H-1762）</witness>
             <witness xml:id="勘例"><abbr>勘例（陽明文庫所蔵）</abbr>：大日本古記録『勘例』上・下（岩波書店　2018・2023年刊）</witness>
             <witness xml:id="政事要略"><abbr>政事要略</abbr>：新訂増補国史大系第28巻（吉川弘文館　1935年刊。適宜、写本を参照）</witness>
@@ -356,12 +359,12 @@
       <div ana="縫殿" n="14" subtype="式" type="巻">
         <pb
           facs="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-14%2F00002.tif/full/full/0/default.jpg"/>
-        <div type="首題">
-          <p>延喜式巻第十四</p>
+        <div type="首題" xml:id="shudai14">
+          <p xml:id="shudai1401">延喜式巻第十四</p>
         </div>
         <div ana="縫殿" n="14" subtype="条" type="式">
-          <div type="式題">
-            <p>縫殿寮</p>
+          <div type="式題" xml:id="shikidai141">
+            <p xml:id="shikidai14101">縫殿寮</p>
           </div>
           <div ana="縫殿" n="14.1" subtype="項" type="条">
             <head ana="寮神祭"/>
@@ -1286,14 +1289,14 @@
             </app>
           </div>
         </div>
-        <div type="尾題">
-          <p>延喜式巻第十四</p>
+        <div type="尾題" xml:id="bidai14">
+          <p xml:id="bidai1401">延喜式巻第十四</p>
         </div>
-        <div type="本奥書">
+        <div type="本奥書" xml:id="okugaki14">
           <!-- インデントの表示方法は考える必要あり -->
-          <p><date>延長五年十二月廿六日</date> 外従五位下行左大史臣阿刀宿禰忠行 　　　　　　　　　　　　<lb/>従五位上行勘解由次官兼大外記紀伊権介臣伴宿禰久永
-            　　　　　　　　　　　　<lb/>従四位上行神祇伯臣大中臣朝臣安則 　　　　　　　　　　　　<lb/>大納言正三位兼行民部卿臣藤原朝臣清貫
-            　　　　　　　　　　　<lb/>左大臣正二位兼行左近衛大将皇太子傅藤原朝臣忠平</p>
+          <p xml:id="okugaki1401"><date>延長五年十二月廿六日</date> 外従五位下行左大史臣阿刀宿禰忠行
+            　　　　　　　　　　　　<lb/>従五位上行勘解由次官兼大外記紀伊権介臣伴宿禰久永 　　　　　　　　　　　　<lb/>従四位上行神祇伯臣大中臣朝臣安則
+            　　　　　　　　　　　　<lb/>大納言正三位兼行民部卿臣藤原朝臣清貫 　　　　　　　　　　　<lb/>左大臣正二位兼行左近衛大将皇太子傅藤原朝臣忠平</p>
         </div>
       </div>
     </body>
