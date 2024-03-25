@@ -1,6 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
@@ -63,8 +62,8 @@
                             ><abbr>時慶本</abbr>：静嘉堂文庫所蔵西洞院時慶写本（延喜格式表18352、延喜式序18353）</witness>
                         <witness xml:id="島原本"
                             ><abbr>島原本</abbr>：東京大学史料編纂所所蔵松平忠房・和学講談所・水野忠央旧蔵本（貴45-2）</witness>
-                        <witness xml:id="藤波本"
-                            ><abbr>藤波本</abbr>：宮内庁書陵部図書寮文庫所蔵藤波家旧蔵本（217-473）</witness>
+                        <witness xml:id="藤波本"><abbr>藤波本</abbr>：宮内庁書陵部図書寮文庫所蔵藤波家旧蔵本（217
+                            -473）</witness>
                         <witness xml:id="貞享本"
                             ><abbr>貞享本</abbr>：宮内庁書陵部図書寮文庫所蔵和学講談所旧蔵坊城俊方貞享本（457-116）</witness>
                         <witness xml:id="玄梁本"><abbr>玄梁本</abbr>：無窮会専門図書館所蔵神習文庫玄梁記名本（神習3666）</witness>
@@ -141,22 +140,11 @@
             <tagsDecl>
                 <rendition xml:id="indent">margin-top: 1em;</rendition>
                 <rendition xml:id="indent2">margin-top: 2em;</rendition>
-                <rendition xml:id="indent3">margin-top: 3em;</rendition>
-                <rendition xml:id="indent4">margin-top: 4em;</rendition>
                 <rendition xml:id="indent5">margin-top: 5em;</rendition>
-                <rendition xml:id="indent6">margin-top: 6em;</rendition>
-                <rendition xml:id="indent7">margin-top: 7em;</rendition>
-                <rendition xml:id="indent10">margin-top: 10em;</rendition>
-                <rendition xml:id="indent12">margin-top: 12em;</rendition>
-                <rendition xml:id="indent13">margin-top: 13em;</rendition>
-                <rendition xml:id="indent14">margin-top: 14em;</rendition>
-                <rendition xml:id="indent18">margin-top: 18em;</rendition>
                 <rendition xml:id="width50">width: 50px;</rendition>
                 <rendition xml:id="kokumei">width: 80px;</rendition>
                 <rendition xml:id="width100">width: 100px;</rendition>
-                <rendition xml:id="width150">width: 150px;</rendition>
-                <rendition xml:id="width170">width: 170px;</rendition>
-                <rendition xml:id="width200">width: 200px;</rendition>
+                <rendition xml:id="jinnmyou">width: 200px;</rendition>
                 <rendition xml:id="width300">width: 300px;</rendition>
             </tagsDecl>
             <editorialDecl>
@@ -272,13 +260,6 @@
                             <cell rendition="#width100">作物衣</cell>
                         </row>
                         <row>
-                            <cell rendition="#width100">214諸陵</cell>
-                            <cell rendition="#width100">16</cell>
-                            <cell rendition="#width100">後阿陁他遠墓</cell>
-                            <cell rendition="#width50">16</cell>
-                            <cell rendition="#width100">後阿陀他遠墓</cell>
-                        </row>
-                        <row>
                             <cell rendition="#width100">293囚獄</cell>
                             <cell rendition="#width100">2</cell>
                             <cell rendition="#width100">著鈦盤枷</cell>
@@ -302,11 +283,94 @@
                     </table></p>
                 <p ana="個別"/>
             </editorialDecl>
+            <editorialDecl>
+                <p>現代語訳凡例<table>
+                        <row>
+                            <cell>・</cell>
+                            <cell>校訂文に基づいて現代語訳を作成しました。条文番号・条文名称および項番号等は校訂文に従っています。原文の細字・割書を〈　〉で括って示すことも校訂文と同様です。</cell>
+                        </row>
+                        <row>
+                            <cell>・</cell>
+                            <cell>各条条文番号・条文名にポインターを当てると、条文内容の把握の一助として条文概要がポップアップ表示されます。</cell>
+                        </row>
+                        <row>
+                            <cell>・</cell>
+                            <cell>本文のみで簡便に読み進めていける訳文を目指しました。訳出が困難な語句は原文（校訂文）のまま表示して適宜ルビを付し、補足的な説明を加えましたが、意訳で対応した場合もあります。</cell>
+                        </row>
+                        <row>
+                            <cell>・</cell>
+                            <cell>校訂文の標注は現代文では省略しています。</cell>
+                        </row>
+                        <row>
+                            <cell>・</cell>
+                            <cell>度量衡はそのまま表記しています。</cell>
+                        </row>
+                    </table>
+                    <table rendition="#indent1">
+                        <row>
+                            <cell rendition="#width100">（参考）</cell>
+                            <cell>『延喜式』の度量衡（訳注本掲載の正倉院伝来容器計測結果等に基づく）</cell>
+                        </row>
+                    </table>
+                    <table rendition="#indent2">
+                        <row>
+                            <cell rendition="#width100">長さ</cell>
+                            <cell>1尺＝約29.7㎝　（1丈＝10尺、1尺＝10寸）</cell>
+                        </row>
+                        <row>
+                            <cell rendition="#width100">距離</cell>
+                            <cell>1里＝300歩＝約534ｍ　（1歩＝6尺）</cell>
+                        </row>
+                        <row>
+                            <cell rendition="#width100">面積</cell>
+                            <cell>1町＝約1.2ha　（1町＝10段、1段＝360歩）</cell>
+                        </row>
+                        <row>
+                            <cell rendition="#width100">容積</cell>
+                            <cell>1升＝約800mℓ＝約0.8ℓ　（1斛＝10斗＝100升、1升＝10合＝100夕（勺））</cell>
+                        </row>
+                        <row>
+                            <cell rendition="#width100">重さ</cell>
+                            <cell>大1斤＝約674グラム　（1斤＝16両、1両＝4分、1分＝6銖）</cell>
+                        </row>
+                        <row>
+                            <cell rendition="#width100"/>
+                            <cell>大1斤＝小3斤</cell>
+                        </row>
+                        <row>
+                            <cell rendition="#width100">ほか</cell>
+                            <cell>稲1束＝10把＝100分＝1000毛＝10000厘 <lb/>調綿1屯＝大4両 <lb/>細屯綿1屯＝大3両1分2銖＝小10両
+                                <lb/>庸綿1屯＝大5両2分＝小1斤2分 <lb/>糸1絇＝上糸大4両、中糸大5両、麁糸大7両 <lb/>鉄1廷＝大3斤5両
+                                <lb/>銭1貫＝1000文</cell>
+                        </row>
+                    </table>
+                </p>
+                <p ana="個別"/>
+            </editorialDecl>
         </encodingDesc>
         <revisionDesc ana="個別">
             <listChange>
-                <change/>
+                <!-- 校訂文と現代語訳の修正履歴はそれぞれ表示したい -->
+                <change when="2023-03-31"
+                    ><date>2023年3月31日</date>巻11の校異注において、「解説」以外では「等」「諸本」の表現を使用しないこととし、また傍書の「○○イ」「○○イニ」等は「採用」や「校異」ではなく、「解説」にて指摘することに改めました。<lb/>
+                    この他、全般にわたり、誤字の訂正や外字表記のユニコード文字への変更、文章表現の修正、言及写本の変更などをおこなっています。 </change>
+                <change when="2023-09-29"
+                    ><date>2023年9月29日</date>巻11校訂文、65～74・85条冒頭において表示されていなかった、「凡」字と、10条1項末尾において表示されていなかった、「左、〈事見儀式、〉」字が表示されるよう修正しました。</change>
+                <change when="2024-03-31"><date>2024年3月31日</date>本奥書の「祢」を「禰」に改めました。</change>
+            </listChange>
+            <listChange>
+                <!-- 校訂文と現代語訳の修正履歴はそれぞれ表示したい -->
+                <change when="2023-03-31"
+                    ><date>2023年3月31日</date>全般にわたり、誤字の訂正やルビの修正などをおこなっています。</change>
+                <change when="2023-09-29"><date>2023年9月29日</date>本奥書の「祢」を「禰」に改めました。</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
+    <text>
+        <body>
+            <div>
+                <p/>
+            </div>
+        </body>
+    </text>
 </TEI>

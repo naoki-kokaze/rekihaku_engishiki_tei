@@ -1,6 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
@@ -63,8 +62,8 @@
                             ><abbr>時慶本</abbr>：静嘉堂文庫所蔵西洞院時慶写本（延喜格式表18352、延喜式序18353）</witness>
                         <witness xml:id="島原本"
                             ><abbr>島原本</abbr>：東京大学史料編纂所所蔵松平忠房・和学講談所・水野忠央旧蔵本（貴45-2）</witness>
-                        <witness xml:id="藤波本"
-                            ><abbr>藤波本</abbr>：宮内庁書陵部図書寮文庫所蔵藤波家旧蔵本（217-473）</witness>
+                        <witness xml:id="藤波本"><abbr>藤波本</abbr>：宮内庁書陵部図書寮文庫所蔵藤波家旧蔵本（217
+                            -473）</witness>
                         <witness xml:id="貞享本"
                             ><abbr>貞享本</abbr>：宮内庁書陵部図書寮文庫所蔵和学講談所旧蔵坊城俊方貞享本（457-116）</witness>
                         <witness xml:id="玄梁本"><abbr>玄梁本</abbr>：無窮会専門図書館所蔵神習文庫玄梁記名本（神習3666）</witness>
@@ -141,22 +140,11 @@
             <tagsDecl>
                 <rendition xml:id="indent">margin-top: 1em;</rendition>
                 <rendition xml:id="indent2">margin-top: 2em;</rendition>
-                <rendition xml:id="indent3">margin-top: 3em;</rendition>
-                <rendition xml:id="indent4">margin-top: 4em;</rendition>
                 <rendition xml:id="indent5">margin-top: 5em;</rendition>
-                <rendition xml:id="indent6">margin-top: 6em;</rendition>
-                <rendition xml:id="indent7">margin-top: 7em;</rendition>
-                <rendition xml:id="indent10">margin-top: 10em;</rendition>
-                <rendition xml:id="indent12">margin-top: 12em;</rendition>
-                <rendition xml:id="indent13">margin-top: 13em;</rendition>
-                <rendition xml:id="indent14">margin-top: 14em;</rendition>
-                <rendition xml:id="indent18">margin-top: 18em;</rendition>
                 <rendition xml:id="width50">width: 50px;</rendition>
                 <rendition xml:id="kokumei">width: 80px;</rendition>
                 <rendition xml:id="width100">width: 100px;</rendition>
-                <rendition xml:id="width150">width: 150px;</rendition>
-                <rendition xml:id="width170">width: 170px;</rendition>
-                <rendition xml:id="width200">width: 200px;</rendition>
+                <rendition xml:id="jinnmyou">width: 200px;</rendition>
                 <rendition xml:id="width300">width: 300px;</rendition>
             </tagsDecl>
             <editorialDecl>
@@ -272,13 +260,6 @@
                             <cell rendition="#width100">作物衣</cell>
                         </row>
                         <row>
-                            <cell rendition="#width100">214諸陵</cell>
-                            <cell rendition="#width100">16</cell>
-                            <cell rendition="#width100">後阿陁他遠墓</cell>
-                            <cell rendition="#width50">16</cell>
-                            <cell rendition="#width100">後阿陀他遠墓</cell>
-                        </row>
-                        <row>
                             <cell rendition="#width100">293囚獄</cell>
                             <cell rendition="#width100">2</cell>
                             <cell rendition="#width100">著鈦盤枷</cell>
@@ -300,13 +281,97 @@
                             <cell rendition="#width100">支子染色</cell>
                         </row>
                     </table></p>
-                <p ana="個別"/>
+                <p ana="個別">校訂文凡例<table>
+                        <row>
+                            <cell>・</cell>
+                            <cell>校訂に使用した写本とその略称は以下のとおりです。</cell>
+                        </row>
+                    </table>
+                    <table rendition="#indent2">
+                        <row>
+                            <cell rendition="#width100">土本</cell>
+                            <cell>国立歴史民俗博物館所蔵土御門家旧蔵本（H-743-74）</cell>
+                        </row>
+                        <row>
+                            <cell rendition="#width100">九本</cell>
+                            <cell>東京国立博物館所蔵九条家旧蔵巻子本（B-2370）</cell>
+                        </row>
+                        <row>
+                            <cell rendition="#width100">近本</cell>
+                            <cell>京都大学附属図書館所蔵近衛文庫本（2-03/エ/1貴）</cell>
+                        </row>
+                        <row>
+                            <cell rendition="#width100">壬本</cell>
+                            <cell>宮内庁書陵部所蔵図書寮文庫所蔵壬生家旧蔵本（F10-287）</cell>
+                        </row>
+                        <row>
+                            <cell rendition="#width100">京博本</cell>
+                            <cell>京都国立博物館所蔵旧京都博物館本</cell>
+                        </row>
+                        <row>
+                            <cell rendition="#width100">梵本</cell>
+                            <cell>天理大学附属天理図書館所蔵吉田文庫梵舜等筆本（吉16-8）</cell>
+                        </row>
+                        <row>
+                            <cell rendition="#width100">慶長本</cell>
+                            <cell>国立公文書館所蔵慶長写本（特102-8）</cell>
+                        </row>
+                    </table>
+                    <table>
+                        <row>
+                            <cell>・</cell>
+                            <cell>土本を底本とし、諸本との異同に関する解説は底本の文字を改変する場合、あるいは内容を理解する上で参考となる場合に限り掲載します。</cell>
+                        </row>
+                        <row>
+                            <cell>・</cell>
+                            <cell>九本は冒頭より4雑給料条「参議已上」の項「（○前略）紫菜・海松各三分、海藻」まで欠損しているため、校異註は現存する「二両、漬菜二合（○後略）」から付しています。</cell>
+                        </row>
+                        <row>
+                            <cell>・</cell>
+                            <cell>条文番号・条文名称は原則として虎尾俊哉編『訳注日本史料　延喜式』〔集英社、「訳注本」と略称〕に従います。ただし、延喜式関係論文目録データベースでの変更に則り、5条を「5新嘗祭条」と「6新嘗小斎解斎条」に分割し、以後、条文番号を一つずつずらします。
+                                <lb/>また、一条文が長文にわたる場合には、適宜（1）（2）等の項目番号を私に付し、分割して表示します。</cell>
+                        </row>
+                        <row>
+                            <cell>・</cell>
+                            <cell>活字本との異同は原則として訳注本を示すにとどめます。訳注本の校訂について言及する際に挙げた写本の略称は以下のとおりです。</cell>
+                        </row>
+                        <row>
+                            <cell>　</cell>
+                            <cell>島原本　東京大学史料編纂所所蔵松平忠房（島原文庫）・水野忠央・和学講談所旧蔵本</cell>
+                        </row>
+                        <row>
+                            <cell>・</cell>
+                            <cell>明らかに誤字・脱字が推測される場合でも、補うべき字あるいは改めるべき字の根拠が充分でない場合には、注で示すにとどめます。</cell>
+                        </row>
+                        <row>
+                            <cell>・</cell>
+                            <cell>原則として常用字を使用します。</cell>
+                        </row>
+                        <row>
+                            <cell>・</cell>
+                            <cell>「少」と「小」等、容易に判定される誤字や誤用・通用については、校異を省略して適宜置き換えた場合があります。</cell>
+                        </row>
+                        <row>
+                            <cell>・</cell>
+                            <cell>条文名に関する鼇頭標目については省略します。</cell>
+                        </row>
+                        <row>
+                            <cell>・</cell>
+                            <cell>書式や表の形式をとる条文の形態については、必ずしも底本によらず、意をもって形式を整えた場合があります。細字は〈　〉で括って示します。</cell>
+                        </row>
+                    </table>
+                </p>
             </editorialDecl>
         </encodingDesc>
         <revisionDesc ana="個別">
-            <listChange>
-                <change/>
-            </listChange>
+            <change/>
         </revisionDesc>
     </teiHeader>
+    <text>
+        <body>
+            <div>
+                <p/>
+            </div>
+        </body>
+    </text>
 </TEI>

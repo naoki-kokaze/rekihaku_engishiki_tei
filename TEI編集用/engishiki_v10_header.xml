@@ -1,6 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
@@ -137,7 +136,7 @@
             </sourceDesc>
         </fileDesc>
         <encodingDesc>
-            <variantEncoding method="location-referenced" location="external"/>
+            <variantEncoding location="external" method="location-referenced"/>
             <tagsDecl>
                 <rendition xml:id="indent">margin-top: 1em;</rendition>
                 <rendition xml:id="indent2">margin-top: 2em;</rendition>
@@ -149,8 +148,6 @@
                 <rendition xml:id="indent10">margin-top: 10em;</rendition>
                 <rendition xml:id="indent12">margin-top: 12em;</rendition>
                 <rendition xml:id="indent13">margin-top: 13em;</rendition>
-                <rendition xml:id="indent14">margin-top: 14em;</rendition>
-                <rendition xml:id="indent18">margin-top: 18em;</rendition>
                 <rendition xml:id="width50">width: 50px;</rendition>
                 <rendition xml:id="kokumei">width: 80px;</rendition>
                 <rendition xml:id="width100">width: 100px;</rendition>
@@ -272,13 +269,6 @@
                             <cell rendition="#width100">作物衣</cell>
                         </row>
                         <row>
-                            <cell rendition="#width100">214諸陵</cell>
-                            <cell rendition="#width100">16</cell>
-                            <cell rendition="#width100">後阿陁他遠墓</cell>
-                            <cell rendition="#width50">16</cell>
-                            <cell rendition="#width100">後阿陀他遠墓</cell>
-                        </row>
-                        <row>
                             <cell rendition="#width100">293囚獄</cell>
                             <cell rendition="#width100">2</cell>
                             <cell rendition="#width100">著鈦盤枷</cell>
@@ -300,13 +290,172 @@
                             <cell rendition="#width100">支子染色</cell>
                         </row>
                     </table></p>
+                <p ana="個別">校訂文凡例<table>
+                        <row>
+                            <cell>・</cell>
+                            <cell>校訂に使用した写本とその略称は以下のとおりです。</cell>
+                        </row>
+                    </table>
+                    <table rendition="#indent2">
+                        <row>
+                            <cell rendition="#width100">土本</cell>
+                            <cell>国立歴史民俗博物館所蔵土御門家旧蔵本</cell>
+                        </row>
+                        <row>
+                            <cell rendition="#width100">永本</cell>
+                            <cell>鈴鹿義鯨旧蔵卜部兼永筆本（神宮文庫所蔵写真帳（1門16974）により、同文庫所蔵写本（1門12187）も参照した）</cell>
+                        </row>
+                        <row>
+                            <cell rendition="#width100">九本</cell>
+                            <cell>東京国立博物館所蔵九条家巻子本</cell>
+                        </row>
+                        <row>
+                            <cell rendition="#width100">花本</cell>
+                            <cell>武田祐吉旧蔵花山院通雅筆本（神宮皇学館刊影印本による）</cell>
+                        </row>
+                        <row>
+                            <cell rendition="#width100">吉本</cell>
+                            <cell>天理大学附属天理図書館所蔵フランク・ホーレー旧蔵吉田兼倶修補本（328.1-イ17）</cell>
+                        </row>
+                        <row>
+                            <cell rendition="#width100">京博本</cell>
+                            <cell>京都国立博物館所蔵京都博物館旧蔵本</cell>
+                        </row>
+                        <row>
+                            <cell rendition="#width100">西本</cell>
+                            <cell>國學院大学図書館所蔵三条西家旧蔵本（貴107～108）</cell>
+                        </row>
+                        <row>
+                            <cell rendition="#width100">貞享本</cell>
+                            <cell>宮内庁書陵部所蔵和学講談所旧蔵坊城俊方奥書本（457-116）</cell>
+                        </row>
+                        <row>
+                            <cell rendition="#width100">藤波本</cell>
+                            <cell>宮内庁書陵部所蔵藤波家旧蔵本（217-473）</cell>
+                        </row>
+                        <row>
+                            <cell rendition="#width100">玄梁本</cell>
+                            <cell>無窮会専門図書館所蔵神習文庫玄梁記名本（神習3668）</cell>
+                        </row>
+                    </table>
+                    <table>
+                        <row>
+                            <cell>・</cell>
+                            <cell>土本を底本とします。永本・九本・花本・吉本・京博本との校異は傍訓・傍書等を除き、できる限り網羅的に紹介することに努めました。永本の誤写が疑われる場合には、西本にも言及しました。なお、九条家巻子本の補写部分（1東山道～2近江国条）は対校に使用しません。また京博本の朱書は版本との校合結果を記したものが多いため、言及するのは一部にとどめました。</cell>
+                        </row>
+                        <row>
+                            <cell>・</cell>
+                            <cell>条文番号・条文名称は原則として虎尾俊哉編『訳注日本史料　延喜式』（集英社、「訳注本」と略称）に従います。一条文が長文にわたる場合には、適宜（1）（2）等の項目番号を私に付し、分割して表示します。</cell>
+                        </row>
+                        <row>
+                            <cell>・</cell>
+                            <cell>活字本との異同は原則として訳注本を示すにとどめます。</cell>
+                        </row>
+                        <row>
+                            <cell>・</cell>
+                            <cell>明らかに誤字・脱字が推測される場合でも、補うべき字あるいは改めるべき字の根拠が充分でない場合には、注で示すにとどめます。</cell>
+                        </row>
+                        <row>
+                            <cell>・</cell>
+                            <cell>同じ字が連続する場合に、踊り字の使用・非使用についての校異は示さず、その場合の訳注本との異同も省略しました。</cell>
+                        </row>
+                        <row>
+                            <cell>・</cell>
+                            <cell>原則として常用漢字体を使用します。ただし「蒭」など写本の字体を尊重して異体字を使用した場合もあります。細字は〈　〉で括って示します。</cell>
+                        </row>
+                        <row>
+                            <cell>・</cell>
+                            <cell>「少」と「小」等、容易に判定される誤字や誤用・通用については、校異を省略して適宜置き換えた場合があります。ただし「𤭖」「瓺」、「兎」「菟」は区別し、「大」「太」も巻9・10に限っては区別することとしました（「𤭖」「瓺」、「兎」「菟」の訳注本との異同についての校異は省略）。また「廿」「二十」、「卅」「三十」、「卌」「四十」の相違については校異を省略し、底本の文字にかかわらず原則として「廿」「卅」「卌」を採用することとしました。</cell>
+                        </row>
+                        <row>
+                            <cell>・</cell>
+                            <cell>条文名に関する鼇頭標目については省略します。花山院本のみに見られる「貞」「延」「府」等の朱筆標注は、「　」で括って校訂本文に記しました。</cell>
+                        </row>
+                        <row>
+                            <cell>・</cell>
+                            <cell>版本について言及する際、雲本を除く、慶安本も含めた流布版本を指す場合には単に「版本」と称し、明暦修訂本以降の版本を指す場合には「明暦以降版本」と称することとします。雲本の『延喜式考異』は「考異」と略称します。</cell>
+                        </row>
+                        <row>
+                            <cell>・</cell>
+                            <cell>一行に神社が数段並ぶ際の各段の位置は、必ずしも諸写本の体裁によらず、校訂文の見やすさを重視して適宜配置しました。</cell>
+                        </row>
+                    </table>
+                </p>
+            </editorialDecl>
+            <editorialDecl>
+                <p>現代語訳凡例<table>
+                        <row>
+                            <cell>・</cell>
+                            <cell>校訂文に基づいて現代語訳を作成しました。条文番号・条文名称および項番号等は校訂文に従っています。原文の細字・割書を〈　〉で括って示すことも校訂文と同様です。</cell>
+                        </row>
+                        <row>
+                            <cell>・</cell>
+                            <cell>各条条文番号・条文名にポインターを当てると、条文内容の把握の一助として条文概要がポップアップ表示されます。</cell>
+                        </row>
+                        <row>
+                            <cell>・</cell>
+                            <cell>本文のみで簡便に読み進めていける訳文を目指しました。訳出が困難な語句は原文（校訂文）のまま表示して適宜ルビを付し、補足的な説明を加えましたが、意訳で対応した場合もあります。</cell>
+                        </row>
+                        <row>
+                            <cell>・</cell>
+                            <cell>校訂文の標注は現代文では省略しています。</cell>
+                        </row>
+                        <row>
+                            <cell>・</cell>
+                            <cell>度量衡はそのまま表記しています。</cell>
+                        </row>
+                    </table>
+                    <table rendition="#indent1">
+                        <row>
+                            <cell rendition="#width100">（参考）</cell>
+                            <cell>『延喜式』の度量衡（訳注本掲載の正倉院伝来容器計測結果等に基づく）</cell>
+                        </row>
+                    </table>
+                    <table rendition="#indent2">
+                        <row>
+                            <cell rendition="#width100">長さ</cell>
+                            <cell>1尺＝約29.7㎝　（1丈＝10尺、1尺＝10寸）</cell>
+                        </row>
+                        <row>
+                            <cell rendition="#width100">距離</cell>
+                            <cell>1里＝300歩＝約534ｍ　（1歩＝6尺）</cell>
+                        </row>
+                        <row>
+                            <cell rendition="#width100">面積</cell>
+                            <cell>1町＝約1.2ha　（1町＝10段、1段＝360歩）</cell>
+                        </row>
+                        <row>
+                            <cell rendition="#width100">容積</cell>
+                            <cell>1升＝約800mℓ＝約0.8ℓ　（1斛＝10斗＝100升、1升＝10合＝100夕（勺））</cell>
+                        </row>
+                        <row>
+                            <cell rendition="#width100">重さ</cell>
+                            <cell>大1斤＝約674グラム　（1斤＝16両、1両＝4分、1分＝6銖）</cell>
+                        </row>
+                        <row>
+                            <cell rendition="#width100"/>
+                            <cell>大1斤＝小3斤</cell>
+                        </row>
+                        <row>
+                            <cell rendition="#width100">ほか</cell>
+                            <cell>稲1束＝10把＝100分＝1000毛＝10000厘 <lb/>調綿1屯＝大4両 <lb/>細屯綿1屯＝大3両1分2銖＝小10両
+                                <lb/>庸綿1屯＝大5両2分＝小1斤2分 <lb/>糸1絇＝上糸大4両、中糸大5両、麁糸大7両 <lb/>鉄1廷＝大3斤5両
+                                <lb/>銭1貫＝1000文</cell>
+                        </row>
+                    </table>
+                </p>
                 <p ana="個別"/>
             </editorialDecl>
         </encodingDesc>
         <revisionDesc ana="個別">
-            <listChange>
-                <change/>
-            </listChange>
+            <change/>
         </revisionDesc>
     </teiHeader>
+    <text>
+        <body>
+            <div>
+                <p/>
+            </div>
+        </body>
+    </text>
 </TEI>
