@@ -415,7 +415,9 @@
             </editorialDecl>
         </encodingDesc>
         <revisionDesc ana="個別">
-            <change/>
+            <listChange>
+                <change/>
+            </listChange>
         </revisionDesc>
     </teiHeader>
     <text>
@@ -1416,11 +1418,30 @@
                     <p xml:id="bidai2901">延喜式巻第廿九</p>
                 </div>
                 <div type="本奥書" xml:id="okugaki29">
-                    <p xml:id="okugaki2901"><anchor xml:id="app2999990101"/>延<anchor
-                            xml:id="app2999990101e"/>長五年十二月廿六日　外従五位下行左大史臣阿刀宿禰忠行<lb/>従五位上行勘解由<anchor
-                            xml:id="app2999990102"/>次<anchor xml:id="app2999990102e"
-                        />官兼大外記・紀伊権介臣伴宿禰久永<lb/>
-                        従四位上行神祇伯臣大中臣朝臣安則<lb/>大納言正三位兼行民部卿臣藤原朝臣清貫<lb/>左大臣正二位兼行左近衛大将・皇太子傅臣藤原朝臣忠平</p>
+                    <p xml:id="okugaki2901"><table rendition="#indent2">
+                            <row>
+                                <cell><anchor xml:id="app2999990101"/>延<anchor
+                                        xml:id="app2999990101e"/>長五年十二月廿六日</cell>
+                                <cell>外従五位下行左大史臣阿刀宿禰忠行</cell>
+                            </row>
+                            <row>
+                                <cell/>
+                                <cell>従五位上行勘解由<anchor xml:id="app2999990102"/>次<anchor
+                                        xml:id="app2999990102e"/>官兼大外記・紀伊権介臣伴宿禰久永</cell>
+                            </row>
+                            <row>
+                                <cell/>
+                                <cell>従四位上行神祇伯臣大中臣朝臣安則</cell>
+                            </row>
+                            <row>
+                                <cell/>
+                                <cell>大納言正三位兼行民部卿臣藤原朝臣清貫</cell>
+                            </row>
+                            <row>
+                                <cell/>
+                                <cell>左大臣正二位兼行左近衛大将・皇太子傅臣藤原朝臣忠平</cell>
+                            </row>
+                        </table></p>
                     <app from="#app2999990101" to="#app2999990101e">
                         <lem wit="#土本">延長五年十二月廿六日　外従五位下行左大史臣阿刀宿禰忠行<lb/>
                             従五位上行勘解由次官兼大外記・紀伊権介臣伴宿禰久永<lb/> 従四位上行神祇伯臣大中臣朝臣安則<lb/>
