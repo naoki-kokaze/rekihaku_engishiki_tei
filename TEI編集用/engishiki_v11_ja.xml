@@ -3649,38 +3649,44 @@
                     <p xml:id="bidai1101">延喜式巻第十一</p>
                 </div>
                 <div type="本奥書" xml:id="okugaki11">
-                    <!-- インデントの表示方法は考える必要あり -->
-                    <p xml:id="okugaki1101">　　<ruby>
-                            <rb>延長</rb>
-                            <rt place="right">えんちょう</rt>
-                        </ruby>五年十二月廿六日<ruby><rb>外従五位下</rb><rt place="right"
-                                >げじゅごいのげ</rt></ruby><ruby><rb>行</rb><rt place="right"
-                            >ぎょう</rt></ruby><ruby><rb>左大史</rb><rt place="right"
-                                >さだいし</rt></ruby><ruby><rb>臣</rb><rt place="right"
-                                >しん</rt></ruby><ruby><rb>阿刀宿禰</rb><rt place="right"
-                            >あとのすくね</rt></ruby><ruby><rb>忠行</rb><rt place="right">ただゆき</rt></ruby>
-                        　　　　　　　 <lb/><ruby><rb>従五位上</rb><rt place="right"
-                                >じゅごいのじょう</rt></ruby>行<ruby><rb>勘解由次官</rb><rt place="right"
-                                >かげゆのすけ</rt></ruby>兼<ruby><rb>大外記</rb><rt place="right"
-                            >だいげき</rt></ruby>･<ruby><rb>紀伊</rb><rt place="right"
-                                >きい</rt></ruby><ruby><rb>権介</rb><rt place="right"
-                                >ごんのすけ</rt></ruby>臣<ruby><rb>伴宿禰</rb><rt place="right"
-                            >とものすくね</rt></ruby><ruby><rb>久永</rb><rt place="right">ひさなが</rt></ruby>
-                                　　　　　　　<lb/><ruby><rb>従四位上</rb><rt place="right"
-                            >じゅしいのじょう</rt></ruby>行<ruby><rb>神祇伯</rb><rt place="right"
-                            >じんぎはく</rt></ruby>臣<ruby><rb>大中臣朝臣</rb><rt place="right"
-                            >おおなかとみのあそん</rt></ruby><ruby><rb>安則</rb><rt place="right"
-                            >やすのり</rt></ruby>
-                            　　　　　　　<lb/>大納言<ruby><rb>正三位</rb><rt>しょうさんみ</rt></ruby>兼行<ruby><rb>民部卿</rb><rt
-                                place="right">みんぶきょう</rt></ruby>臣<ruby><rb>藤原朝臣</rb><rt
-                                place="right">ふじわらのあそん</rt></ruby><ruby><rb>清貫</rb><rt place="right"
-                                >きよつら</rt></ruby> 　　　　　　　<lb/><ruby><rb>左大臣</rb><rt place="right"
-                                >さだいじん</rt></ruby><ruby><rb>正二位</rb><rt place="right"
-                            >しょうにい</rt></ruby>兼行<ruby><rb>左近衛</rb><rt place="right"
-                                >さこのえ</rt></ruby><ruby><rb>大将</rb><rt place="right"
-                            >たいしょう</rt></ruby>･<ruby><rb>皇太子傅</rb><rt place="right"
-                            >こうたいしふ</rt></ruby>臣藤原朝臣<ruby><rb>忠平</rb><rt place="right"
-                            >ただひら</rt></ruby></p>
+                    <p xml:id="okugaki1101">
+                        <table rendition="#indent2">
+                            <row>
+                                <cell><ruby>
+                                        <rb>延長</rb>
+                                        <rt place="right">えんちょう</rt>
+                                    </ruby>五年十二月廿六日日</cell><cell><ruby><rb>外従五位下</rb><rt
+                                            place="right">げじゅごいのげ</rt></ruby><ruby><rb>行</rb><rt
+                                            place="right">ぎょう</rt></ruby><ruby><rb>左大史</rb><rt
+                                            place="right">さだいし</rt></ruby><ruby><rb>臣</rb><rt
+                                            place="right">しん</rt></ruby><ruby><rb>阿刀宿禰</rb><rt
+                                            place="right">あとのすくね</rt></ruby><ruby><rb>忠行</rb><rt
+                                            place="right">ただゆき</rt></ruby></cell></row>
+                            <row><cell/><cell><ruby><rb>従五位上</rb><rt place="right"
+                                            >じゅごいのじょう</rt></ruby>行<ruby><rb>勘解由次官</rb><rt
+                                            place="right">かげゆのすけ</rt></ruby>兼<ruby><rb>大外記</rb><rt
+                                            place="right">だいげき</rt></ruby>･<ruby><rb>紀伊</rb><rt
+                                            place="right">きい</rt></ruby><ruby><rb>権介</rb><rt
+                                            place="right">ごんのすけ</rt></ruby>臣<ruby><rb>伴宿禰</rb><rt
+                                            place="right">とものすくね</rt></ruby><ruby><rb>久永</rb><rt
+                                            place="right">ひさなが</rt></ruby></cell></row>
+                            <row><cell/><cell><ruby><rb>従四位上</rb><rt place="right"
+                                        >じゅしいのじょう</rt></ruby>行<ruby><rb>神祇伯</rb><rt place="right"
+                                            >じんぎはく</rt></ruby>臣<ruby><rb>大中臣朝臣</rb><rt place="right"
+                                            >おおなかとみのあそん</rt></ruby><ruby><rb>安則</rb><rt
+                                            place="right">やすのり</rt></ruby></cell></row>
+                            <row><cell/><cell>大納言<ruby><rb>正三位</rb><rt>しょうさんみ</rt></ruby>兼行<ruby><rb>民部卿</rb><rt
+                                            place="right">みんぶきょう</rt></ruby>臣<ruby><rb>藤原朝臣</rb><rt
+                                            place="right">ふじわらのあそん</rt></ruby><ruby><rb>清貫</rb><rt
+                                            place="right">きよつら</rt></ruby></cell></row>
+                            <row><cell/><cell><ruby><rb>左大臣</rb><rt place="right"
+                                            >さだいじん</rt></ruby><ruby><rb>正二位</rb><rt place="right"
+                                            >しょうにい</rt></ruby>兼行<ruby><rb>左近衛</rb><rt place="right"
+                                            >さこのえ</rt></ruby><ruby><rb>大将</rb><rt place="right"
+                                            >たいしょう</rt></ruby>･<ruby><rb>皇太子傅</rb><rt place="right"
+                                            >こうたいしふ</rt></ruby>臣藤原朝臣<ruby><rb>忠平</rb><rt
+                                            place="right">ただひら</rt></ruby></cell></row></table>
+                    </p>
                 </div>
             </div>
         </body>
