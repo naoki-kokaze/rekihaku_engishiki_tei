@@ -161,8 +161,9 @@
                         <rendition xml:id="jinnmyou">width: 200px;</rendition>
                         <rendition xml:id="width300">width: 300px;</rendition>
                   </tagsDecl>
-                  <editorialDecl>
-                        <p>校訂文全体凡例<table>
+                  <editorialDecl ana="校訂文凡例">
+                        <p ana="全体">
+                              <table>
                                     <row>
                                           <cell>・</cell>
                                           <cell>原則として土本（以下、略称は「主要写本・版本・刊本等略称・底本一覧」参照）を底本とし、九本・剛本・条本・花本等の古写本や近本・壬本・京博本等の写本によって対校しました（巻によって使用した対校本は異なります）。</cell>
@@ -295,7 +296,8 @@
                                           <cell rendition="#width100">支子染色</cell>
                                     </row>
                               </table></p>
-                        <p ana="個別">校訂文凡例<table>
+                        <p ana="個別">
+                              <table>
                                     <row>
                                           <cell>・</cell>
                                           <cell>校訂に使用した写本とその略称は以下のとおりです。</cell>
@@ -379,8 +381,9 @@
                               </table>
                         </p>
                   </editorialDecl>
-                  <editorialDecl>
-                        <p>現代語訳凡例<table>
+                  <editorialDecl ana="現代語訳凡例">
+                        <p ana="全体">
+                              <table>
                                     <row>
                                           <cell>・</cell>
                                           <cell>校訂文に基づいて現代語訳を作成しました。条文番号・条文名称および項番号等は校訂文に従っています。原文の細字・割書を〈　〉で括って示すことも校訂文と同様です。</cell>

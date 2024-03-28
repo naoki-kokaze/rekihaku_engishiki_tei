@@ -147,8 +147,9 @@
                 <rendition xml:id="jinnmyou">width: 200px;</rendition>
                 <rendition xml:id="width300">width: 300px;</rendition>
             </tagsDecl>
-            <editorialDecl>
-                <p>校訂文全体凡例<table>
+            <editorialDecl ana="校訂文凡例">
+                <p ana="全体">
+                    <table>
                         <row>
                             <cell>・</cell>
                             <cell>原則として土本（以下、略称は「主要写本・版本・刊本等略称・底本一覧」参照）を底本とし、九本・剛本・条本・花本等の古写本や近本・壬本・京博本等の写本によって対校しました（巻によって使用した対校本は異なります）。</cell>
@@ -281,7 +282,8 @@
                             <cell rendition="#width100">支子染色</cell>
                         </row>
                     </table></p>
-                <p ana="個別">校訂文凡例<table>
+                <p ana="個別">
+                    <table>
                         <row>
                             <cell>・</cell>
                             <cell>底本には国立歴史民俗博物館所蔵の土御門家旧蔵本を使用しました。対校本としては、小倉慈司氏の『延喜式』写本系統の研究等に基づき、巻二十四が現存している諸写本のうち、兄弟本もしくは親本が近い関係にあったと思われる京都大学附属図書館所蔵近衛家旧蔵本のほか、比較的系統が近い宮内庁書陵部所蔵壬生家旧蔵本、新たに紹介された京都国立博物館所蔵旧京都博物館本を主要写本として校合しました。末流本と判断されるその他の写本や版本については、校訂に資する場合や内容理解に関わる場合のほか、主要写本間に異同がある場合や底本を改めた場合に限り、校異を掲示しました。</cell>
@@ -418,7 +420,8 @@
                             <cell rendition="#width100">小川宏和</cell>
                             <cell>「『延喜式』巻第三九の写本系統と「内膳司」本文校訂（稿）」（『国立歴史民俗博物館研究報告』234、2022年）</cell>
                         </row>
-                    </table></p>
+                    </table>
+                </p>
             </editorialDecl>
         </encodingDesc>
         <revisionDesc ana="個別">
