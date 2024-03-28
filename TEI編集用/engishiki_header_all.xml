@@ -178,8 +178,8 @@
                 <rendition xml:id="width200">width: 200px;</rendition>
                 <rendition xml:id="width300">width: 300px;</rendition>
             </tagsDecl>
-            <editorialDecl>
-                <ab type="校訂文全体凡例">
+            <editorialDecl ana="校訂文凡例">
+                <p ana="全体">
                     <table>
                         <row>
                             <cell>・</cell>
@@ -313,9 +313,10 @@
                             <cell rendition="#width100">支子染色</cell>
                         </row>
                     </table>
-                </ab>
-
-                <ab type="現代語訳凡例">
+                </p>
+</editorialDecl>
+<editorialDecl ana="現代語訳凡例">
+            <p ana="全体">
                     <table>
                         <row>
                             <cell>・</cell>
@@ -382,7 +383,7 @@
 銭1貫＝1000文</cell>
         </row>
     </table>
-</ab>
+</p>
 <p ana="個別"/>
 </editorialDecl>
 </encodingDesc>
