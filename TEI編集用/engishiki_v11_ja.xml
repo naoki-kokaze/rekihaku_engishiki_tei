@@ -141,11 +141,22 @@
             <tagsDecl>
                 <rendition xml:id="indent">margin-top: 1em;</rendition>
                 <rendition xml:id="indent2">margin-top: 2em;</rendition>
+                <rendition xml:id="indent3">margin-top: 3em;</rendition>
+                <rendition xml:id="indent4">margin-top: 4em;</rendition>
                 <rendition xml:id="indent5">margin-top: 5em;</rendition>
+                <rendition xml:id="indent6">margin-top: 6em;</rendition>
+                <rendition xml:id="indent7">margin-top: 7em;</rendition>
+                <rendition xml:id="indent10">margin-top: 10em;</rendition>
+                <rendition xml:id="indent12">margin-top: 12em;</rendition>
+                <rendition xml:id="indent13">margin-top: 13em;</rendition>
+                <rendition xml:id="indent14">margin-top: 14em;</rendition>
+                <rendition xml:id="indent18">margin-top: 18em;</rendition>
                 <rendition xml:id="width50">width: 50px;</rendition>
                 <rendition xml:id="kokumei">width: 80px;</rendition>
                 <rendition xml:id="width100">width: 100px;</rendition>
-                <rendition xml:id="jinnmyou">width: 200px;</rendition>
+                <rendition xml:id="width150">width: 150px;</rendition>
+                <rendition xml:id="width170">width: 170px;</rendition>
+                <rendition xml:id="width200">width: 200px;</rendition>
                 <rendition xml:id="width300">width: 300px;</rendition>
             </tagsDecl>
             <editorialDecl>
@@ -373,7 +384,8 @@
                             </ruby>から提出された、諸官司の官人に職位給を支給するための文書一通 <lb/><ruby>
                                 <rb>兵部省</rb>
                                 <rt place="right">ひょうぶしょう</rt>
-                            </ruby>から提出された、同前の文書一通 <lb/>　　以上若干通は、上奏してください。</p>
+                            </ruby>から提出された、同前の文書一通 <lb/><s rendition="#indent2"
+                            >以上若干通は、上奏してください。</s></p>
                         <p ana="項"
                             corresp="engishiki.xml#item11100803 engishiki_en.xml#item11100803"
                             xml:id="item11100803">某国の<ruby>
@@ -382,7 +394,8 @@
                             </ruby>を提出するための使者「官・位・姓・名」が提出した若干刻の駅鈴一個 <lb/>某国の<ruby>
                                 <rb>守</rb>
                                 <rt place="right">かみ</rt>
-                            </ruby>「位・姓・名」が赴任した際に与えた若干刻の伝符一枚 <lb/>以上の駅鈴一個・伝符一枚を返却します。</p>
+                            </ruby>「位・姓・名」が赴任した際に与えた若干刻の伝符一枚 <lb/><s rendition="#indent2"
+                                >以上の駅鈴一個・伝符一枚を返却します。</s></p>
                         <p ana="項"
                             corresp="engishiki.xml#item11100804 engishiki_en.xml#item11100804"
                             xml:id="item11100804"
@@ -393,29 +406,30 @@
                             </ruby>が某国に通知する、「官・位・姓・名」に<ruby>
                                 <rb>食封</rb>
                                 <rt place="right">じきふ</rt>
-                            </ruby>を与える文書一通 <lb/>　　以上の三通について、<ruby>
-                                <rb>天皇御璽</rb>
-                                <rt place="right">てんのうぎょじ</rt>
-                            </ruby>の押印および駅鈴一個・伝符一枚を請求します。</p>
+                            </ruby>を与える文書一通 <lb/><s rendition="#indent2">以上の三通について、<ruby>
+                                    <rb>天皇御璽</rb>
+                                    <rt place="right">てんのうぎょじ</rt>
+                                </ruby>の押印および駅鈴一個・伝符一枚を請求します。</s></p>
                         <p ana="項"
                             corresp="engishiki.xml#item11100805 engishiki_en.xml#item11100805"
                             xml:id="item11100805">民部省・<ruby>
                                 <rb>宮内省</rb>
                                 <rt place="right">くないしょう</rt>
-                            </ruby>に通知する、諸官司の某月の食料を支給する文書一通 <lb/>民部省に通知する、某季からの租税を徴収・免除する文書一通 <lb/>　　以上の二通について、<ruby>
-                                <rb>太政官印</rb>
-                                <rt place="right">だいじょうかんいん</rt>
-                            </ruby>の押印を請求します。</p>
+                            </ruby>に通知する、諸官司の某月の食料を支給する文書一通 <lb/>民部省に通知する、某季からの租税を徴収・免除する文書一通
+                                <lb/><s rendition="#indent2">以上の二通について、<ruby>
+                                    <rb>太政官印</rb>
+                                    <rt place="right">だいじょうかんいん</rt>
+                                </ruby>の押印を請求します。</s></p>
                         <p ana="項"
                             corresp="engishiki.xml#item11100806 engishiki_en.xml#item11100806"
-                            xml:id="item11100806">上奏文書および駅鈴・伝符の返却・請求、および押印を請求する文書は以上の通りです。
-                            <lb/>　　　　　　 年月日　<ruby>
-                                <rb>左史</rb>
-                                <rt place="right">さし</rt>
-                            </ruby>「位・姓・名」が文書を送付します。 <lb/><ruby>
-                                <rb>左弁</rb>
-                                <rt place="right">さべん</rt>
-                            </ruby>「位・姓・名」</p>
+                            xml:id="item11100806">上奏文書および駅鈴・伝符の返却・請求、および押印を請求する文書は以上の通りです。 <lb/><s
+                                rendition="#indent6">年月日　<ruby>
+                                    <rb>左史</rb>
+                                    <rt place="right">さし</rt>
+                                </ruby>「位・姓・名」が文書を送付します。 <lb/><ruby>
+                                    <rb>左弁</rb>
+                                    <rt place="right">さべん</rt>
+                                </ruby>「位・姓・名」</s></p>
                     </div>
                     <div ana="太政官" n="11.9" subtype="項" type="条">
                         <head ana="少納言牒式"/>
@@ -434,7 +448,8 @@
                             </ruby>から提出された、諸官司の官人に職位給を支給するための文書一通 <lb/><ruby>
                                 <rb>兵部省</rb>
                                 <rt place="right">ひょうぶしょう</rt>
-                            </ruby>から提出された、同前の文書一通 <lb/>　　以上若干通は、某日に少納言某が上奏しました。</p>
+                            </ruby>から提出された、同前の文書一通 <lb/><s rendition="#indent2"
+                                >以上若干通は、某日に少納言某が上奏しました。</s></p>
                         <p ana="項"
                             corresp="engishiki.xml#item11100902 engishiki_en.xml#item11100902"
                             xml:id="item11100902">某国の<ruby>
@@ -449,7 +464,8 @@
                             </ruby>「位・姓・名」が赴任した際に与えた若干刻の<ruby>
                                 <rb>伝符</rb>
                                 <rt place="right">でんぷ</rt>
-                            </ruby>一枚 <lb/>　　以上の駅鈴一個・伝符一枚は、某日に少納言某が受理しました。</p>
+                            </ruby>一枚 <lb/><s rendition="#indent2"
+                            >以上の駅鈴一個・伝符一枚は、某日に少納言某が受理しました。</s></p>
                         <p ana="項"
                             corresp="engishiki.xml#item11100903 engishiki_en.xml#item11100903"
                             xml:id="item11100903"
@@ -460,25 +476,27 @@
                             </ruby>が某国に通知する、「官・位・姓・名」に<ruby>
                                 <rb>食封</rb>
                                 <rt place="right">じきふ</rt>
-                            </ruby>を与える文書一通 <lb/>　　以上の<ruby>
-                                <rb>天皇御璽</rb>
-                                <rt place="right">てんのうぎょじ</rt>
-                            </ruby>を要する文書三通については、某日に少納言某が押印および駅鈴一個・伝符一枚を請求しました。</p>
+                            </ruby>を与える文書一通 <lb/><s rendition="#indent2">以上の<ruby>
+                                    <rb>天皇御璽</rb>
+                                    <rt place="right">てんのうぎょじ</rt>
+                                </ruby>を要する文書三通については、某日に少納言某が押印および駅鈴一個・伝符一枚を請求しました。</s></p>
                         <p ana="項"
                             corresp="engishiki.xml#item11100904 engishiki_en.xml#item11100904"
                             xml:id="item11100904">民部省・<ruby>
                                 <rb>宮内省</rb>
                                 <rt place="right">くないしょう</rt>
-                            </ruby>に通知する、諸官司の某月の食料を支給する文書一通 <lb/>民部省に通知する、某季からの租税を徴収・免除する文書一通 <lb/>　　以上の<ruby>
-                                <rb>太政官印</rb>
-                                <rt place="right">だいじょうかんいん</rt>
-                            </ruby>を要する二通は、某日に少納言某が押印を監督しました。</p>
+                            </ruby>に通知する、諸官司の某月の食料を支給する文書一通 <lb/>民部省に通知する、某季からの租税を徴収・免除する文書一通
+                                <lb/><s rendition="#indent2">以上の<ruby>
+                                    <rb>太政官印</rb>
+                                    <rt place="right">だいじょうかんいん</rt>
+                                </ruby>を要する二通は、某日に少納言某が押印を監督しました。</s></p>
                         <p ana="項"
                             corresp="engishiki.xml#item11100905 engishiki_en.xml#item11100905"
-                            xml:id="item11100905">以上の通り業務を終えましたので、ご確認ください。 <lb/>　　　　　　　年月日　<ruby>
-                                <rb>外記</rb>
-                                <rt place="right">げき</rt>
-                            </ruby>「位・姓・名」が文書を送付します。 <lb/>少納言「位・姓・名」</p>
+                            xml:id="item11100905">以上の通り業務を終えましたので、ご確認ください。 <lb/><s
+                                rendition="#indent7">年月日　<ruby>
+                                    <rb>外記</rb>
+                                    <rt place="right">げき</rt>
+                                </ruby>「位・姓・名」が文書を送付します。 <lb/>少納言「位・姓・名」</s></p>
                     </div>
                     <div ana="太政官" n="11.10" subtype="項" type="条">
                         <head ana="任僧綱"/>
@@ -518,11 +536,12 @@
                             xml:id="item11101002">太政官が僧官組織に通達します。 <lb/>某位某を、ここに<ruby>
                                 <rb>僧正</rb>
                                 <rt place="right">そうじょう</rt>
-                            </ruby>に任命する。 <lb/>　　右の一人を、右のとおり任命します。
-                            <lb/>天皇の命によると、以上のとおり僧正某に通告せよ、とのことです。ここに文書をもって通達します。通達が届いたら文書に従って下さい。 <lb/>　　　　　年月日　<ruby>
-                                <rb>外記</rb>
-                                <rt place="right">げき</rt>
-                            </ruby>「位・姓・名」が文書を送付します。 <lb/>大納言「位・姓」</p>
+                            </ruby>に任命する。 <lb/><s rendition="#indent2">右の一人を、右のとおり任命します。</s>
+                            <lb/>天皇の命によると、以上のとおり僧正某に通告せよ、とのことです。ここに文書をもって通達します。通達が届いたら文書に従って下さい。
+                                <lb/><s rendition="#indent5">年月日　<ruby>
+                                    <rb>外記</rb>
+                                    <rt place="right">げき</rt>
+                                </ruby>「位・姓・名」が文書を送付します。 <lb/>大納言「位・姓」</s></p>
                     </div>
                     <div ana="太政官" n="11.11" subtype="項" type="条">
                         <head ana="内外印"/>
@@ -3655,37 +3674,71 @@
                                 <cell><ruby>
                                         <rb>延長</rb>
                                         <rt place="right">えんちょう</rt>
-                                    </ruby>五年十二月廿六日日</cell><cell><ruby><rb>外従五位下</rb><rt
-                                            place="right">げじゅごいのげ</rt></ruby><ruby><rb>行</rb><rt
-                                            place="right">ぎょう</rt></ruby><ruby><rb>左大史</rb><rt
-                                            place="right">さだいし</rt></ruby><ruby><rb>臣</rb><rt
-                                            place="right">しん</rt></ruby><ruby><rb>阿刀宿禰</rb><rt
-                                            place="right">あとのすくね</rt></ruby><ruby><rb>忠行</rb><rt
-                                            place="right">ただゆき</rt></ruby></cell></row>
-                            <row><cell/><cell><ruby><rb>従五位上</rb><rt place="right"
+                                    </ruby>五年十二月廿六日日</cell>
+                                <cell>
+                                    <ruby>
+                                        <rb>外従五位下</rb>
+                                        <rt place="right">げじゅごいのげ</rt>
+                                    </ruby>
+                                    <ruby>
+                                        <rb>行</rb>
+                                        <rt place="right">ぎょう</rt>
+                                    </ruby>
+                                    <ruby>
+                                        <rb>左大史</rb>
+                                        <rt place="right">さだいし</rt>
+                                    </ruby>
+                                    <ruby>
+                                        <rb>臣</rb>
+                                        <rt place="right">しん</rt>
+                                    </ruby>
+                                    <ruby>
+                                        <rb>阿刀宿禰</rb>
+                                        <rt place="right">あとのすくね</rt>
+                                    </ruby>
+                                    <ruby>
+                                        <rb>忠行</rb>
+                                        <rt place="right">ただゆき</rt>
+                                    </ruby>
+                                </cell>
+                            </row>
+                            <row>
+                                <cell/>
+                                <cell><ruby><rb>従五位上</rb><rt place="right"
                                             >じゅごいのじょう</rt></ruby>行<ruby><rb>勘解由次官</rb><rt
                                             place="right">かげゆのすけ</rt></ruby>兼<ruby><rb>大外記</rb><rt
                                             place="right">だいげき</rt></ruby>･<ruby><rb>紀伊</rb><rt
                                             place="right">きい</rt></ruby><ruby><rb>権介</rb><rt
                                             place="right">ごんのすけ</rt></ruby>臣<ruby><rb>伴宿禰</rb><rt
                                             place="right">とものすくね</rt></ruby><ruby><rb>久永</rb><rt
-                                            place="right">ひさなが</rt></ruby></cell></row>
-                            <row><cell/><cell><ruby><rb>従四位上</rb><rt place="right"
-                                        >じゅしいのじょう</rt></ruby>行<ruby><rb>神祇伯</rb><rt place="right"
-                                            >じんぎはく</rt></ruby>臣<ruby><rb>大中臣朝臣</rb><rt place="right"
-                                            >おおなかとみのあそん</rt></ruby><ruby><rb>安則</rb><rt
-                                            place="right">やすのり</rt></ruby></cell></row>
-                            <row><cell/><cell>大納言<ruby><rb>正三位</rb><rt>しょうさんみ</rt></ruby>兼行<ruby><rb>民部卿</rb><rt
+                                            place="right">ひさなが</rt></ruby></cell>
+                            </row>
+                            <row>
+                                <cell/>
+                                <cell><ruby><rb>従四位上</rb><rt place="right"
+                                            >じゅしいのじょう</rt></ruby>行<ruby><rb>神祇伯</rb><rt
+                                            place="right">じんぎはく</rt></ruby>臣<ruby><rb>大中臣朝臣</rb><rt
+                                            place="right">おおなかとみのあそん</rt></ruby><ruby><rb>安則</rb><rt
+                                            place="right">やすのり</rt></ruby></cell>
+                            </row>
+                            <row>
+                                <cell/>
+                                <cell>大納言<ruby><rb>正三位</rb><rt>しょうさんみ</rt></ruby>兼行<ruby><rb>民部卿</rb><rt
                                             place="right">みんぶきょう</rt></ruby>臣<ruby><rb>藤原朝臣</rb><rt
                                             place="right">ふじわらのあそん</rt></ruby><ruby><rb>清貫</rb><rt
-                                            place="right">きよつら</rt></ruby></cell></row>
-                            <row><cell/><cell><ruby><rb>左大臣</rb><rt place="right"
+                                            place="right">きよつら</rt></ruby></cell>
+                            </row>
+                            <row>
+                                <cell/>
+                                <cell><ruby><rb>左大臣</rb><rt place="right"
                                             >さだいじん</rt></ruby><ruby><rb>正二位</rb><rt place="right"
                                             >しょうにい</rt></ruby>兼行<ruby><rb>左近衛</rb><rt place="right"
                                             >さこのえ</rt></ruby><ruby><rb>大将</rb><rt place="right"
                                             >たいしょう</rt></ruby>･<ruby><rb>皇太子傅</rb><rt place="right"
                                             >こうたいしふ</rt></ruby>臣藤原朝臣<ruby><rb>忠平</rb><rt
-                                            place="right">ただひら</rt></ruby></cell></row></table>
+                                            place="right">ただひら</rt></ruby></cell>
+                            </row>
+                        </table>
                     </p>
                 </div>
             </div>
