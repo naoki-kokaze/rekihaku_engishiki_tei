@@ -142,7 +142,7 @@
                 <rendition xml:id="indent2">margin-top: 2em;</rendition>
                 <rendition xml:id="indent5">margin-top: 5em;</rendition>
                 <rendition xml:id="width50">width: 50px;</rendition>
-                <rendition xml:id="kokumei">width: 80px;</rendition>
+                <rendition xml:id="width80">width: 80px;</rendition>
                 <rendition xml:id="width100">width: 100px;</rendition>
                 <rendition xml:id="jinnmyou">width: 200px;</rendition>
                 <rendition xml:id="width300">width: 300px;</rendition>
@@ -233,49 +233,49 @@
                     <table rendition="#indent2">
                         <row>
                             <cell rendition="#width100">巻番号</cell>
-                            <cell rendition="#width100">旧番号</cell>
+                            <cell rendition="#width50">旧番号</cell>
                             <cell rendition="#width100">旧条文名</cell>
                             <cell rendition="#width50">番号</cell>
                             <cell rendition="#width100">訂正条文名</cell>
                         </row>
                         <row>
                             <cell rendition="#width100">111太政官</cell>
-                            <cell rendition="#width100">67</cell>
+                            <cell rendition="#width50">67</cell>
                             <cell rendition="#width100">薗韓神祭</cell>
                             <cell rendition="#width50">67</cell>
                             <cell rendition="#width100">園韓神祭</cell>
                         </row>
                         <row>
                             <cell rendition="#width100">111太政官</cell>
-                            <cell rendition="#width100">112</cell>
+                            <cell rendition="#width50">112</cell>
                             <cell rendition="#width100">行幸経宿</cell>
                             <cell rendition="#width50">112</cell>
                             <cell rendition="#width100">行幸経旬</cell>
                         </row>
                         <row>
                             <cell rendition="#width100">171内匠</cell>
-                            <cell rendition="#width100">39</cell>
+                            <cell rendition="#width50">39</cell>
                             <cell rendition="#width100">作物衣服</cell>
                             <cell rendition="#width50">39</cell>
                             <cell rendition="#width100">作物衣</cell>
                         </row>
                         <row>
                             <cell rendition="#width100">293囚獄</cell>
-                            <cell rendition="#width100">2</cell>
+                            <cell rendition="#width50">2</cell>
                             <cell rendition="#width100">著鈦盤枷</cell>
                             <cell rendition="#width50">2</cell>
                             <cell rendition="#width100">着鈦盤枷</cell>
                         </row>
                         <row>
                             <cell rendition="#width100">321大膳上</cell>
-                            <cell rendition="#width100">5</cell>
+                            <cell rendition="#width50">5</cell>
                             <cell rendition="#width100">新嘗祭</cell>
                             <cell rendition="#width50">5･6</cell>
                             <cell rendition="#width100">新嘗祭と新嘗小斎解斎に分割</cell>
                         </row>
                         <row>
                             <cell rendition="#width100">411弾正</cell>
-                            <cell rendition="#width100">68</cell>
+                            <cell rendition="#width50">68</cell>
                             <cell rendition="#width100">支子染深色</cell>
                             <cell rendition="#width50">68</cell>
                             <cell rendition="#width100">支子染色</cell>
@@ -369,29 +369,29 @@
                             corresp="engishiki_en.xml#item22100101 engishiki_ja.xml#item22100101"
                             xml:id="item22100101">畿内 <table rendition="#indent1">
                                 <row>
-                                    <cell rendition="#kokumei">山城国上</cell>
+                                    <cell rendition="#width80">山城国上</cell>
                                     <cell>〈</cell>
                                     <cell>管　乙訓　葛野　愛宕　紀伊　宇治　久世　綴喜　相楽〉</cell>
                                 </row>
                                 <row>
-                                    <cell rendition="#kokumei">大和国大</cell>
+                                    <cell rendition="#width80">大和国大</cell>
                                     <cell>〈</cell>
                                     <cell>管　添上　添下　平群　広瀬　葛上　葛下　忍海　宇智　吉野　宇陀　城上　城下　山辺　十市　高市〉</cell>
                                 </row>
                                 <row>
-                                    <cell rendition="#kokumei">河内国大</cell>
+                                    <cell rendition="#width80">河内国大</cell>
                                     <cell>〈</cell>
                                     <cell>管　錦部　石川　古市　安宿　大県　高安　河内　讃良　茨田　交野　若江　渋川　志紀　丹比〉</cell>
                                 </row>
                                 <row>
-                                    <cell rendition="#kokumei">和泉国下</cell>
+                                    <cell rendition="#width80">和泉国下</cell>
                                     <cell>〈</cell>
                                     <cell>管　大鳥　和泉　日根〉</cell>
                                 </row>
                                 <pb
                                     facs="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-22%2F00003.tif/full/full/0/default.jpg"/>
                                 <row>
-                                    <cell rendition="#kokumei">摂津国上</cell>
+                                    <cell rendition="#width80">摂津国上</cell>
                                     <cell>〈</cell>
                                     <cell>管　住吉　百済　東生　西成　島上　島下　豊島　河辺　武庫　兎原　八部　有馬　能勢〉</cell>
                                 </row>
@@ -406,27 +406,27 @@
                             corresp="engishiki_en.xml#item22100201 engishiki_ja.xml#item22100201"
                             xml:id="item22100201">東海道 <table rendition="#indent1">
                                 <row>
-                                    <cell rendition="#kokumei">伊賀国下</cell>
+                                    <cell rendition="#width80">伊賀国下</cell>
                                     <cell>〈</cell>
                                     <cell>管　阿拝　山田　伊賀　名張〉</cell>
                                 </row>
                                 <row>
-                                    <cell rendition="#kokumei">伊勢国大</cell>
+                                    <cell rendition="#width80">伊勢国大</cell>
                                     <cell>〈</cell>
                                     <cell>管　桑名　員弁　朝明　三重　河曲　鈴鹿　奄芸　安濃　壱志　飯高　飯野　多気　度会〉</cell>
                                 </row>
                                 <row>
-                                    <cell rendition="#kokumei">志摩国下</cell>
+                                    <cell rendition="#width80">志摩国下</cell>
                                     <cell>〈</cell>
                                     <cell>管　答志　英虞〉</cell>
                                 </row>
                                 <row>
-                                    <cell rendition="#kokumei">尾張国上</cell>
+                                    <cell rendition="#width80">尾張国上</cell>
                                     <cell>〈</cell>
                                     <cell>管　海部　中島　葉栗　丹羽　春部　山田　愛智　知多〉</cell>
                                 </row>
                                 <row>
-                                    <cell rendition="#kokumei"><anchor xml:id="app2210020101"
+                                    <cell rendition="#width80"><anchor xml:id="app2210020101"
                                             />参<anchor xml:id="app2210020101e"/>河国上</cell>
                                     <cell>〈</cell>
                                     <cell>管　碧海　賀茂　額田　幡豆　宝<anchor xml:id="app2210020102"/>飫<anchor
@@ -436,23 +436,23 @@
                             <s rendition="#indent2">右為近国。</s>
                             <table rendition="#indent1">
                                 <row>
-                                    <cell rendition="#kokumei"><anchor xml:id="app2210020103"
+                                    <cell rendition="#width80"><anchor xml:id="app2210020103"
                                             />遠<anchor xml:id="app2210020103e"/>江国上</cell>
                                     <cell>〈</cell>
                                     <cell>管　浜名　敷智　引佐　麁玉　長上　長下　磐田　山香　周智　山名　佐野　城飼　蓁原〉</cell>
                                 </row>
                                 <row>
-                                    <cell rendition="#kokumei">駿河国上</cell>
+                                    <cell rendition="#width80">駿河国上</cell>
                                     <cell>〈</cell>
                                     <cell>管　志太　益頭　有度　安倍　廬原　富士　駿河〉</cell>
                                 </row>
                                 <row>
-                                    <cell rendition="#kokumei">伊豆国下</cell>
+                                    <cell rendition="#width80">伊豆国下</cell>
                                     <cell>〈</cell>
                                     <cell>管　田方　那賀　賀茂〉</cell>
                                 </row>
                                 <row>
-                                    <cell rendition="#kokumei">甲斐国上</cell>
+                                    <cell rendition="#width80">甲斐国上</cell>
                                     <cell>〈</cell>
                                     <cell>管　山梨　八代　巨麻　都留〉</cell>
                                 </row>
@@ -460,36 +460,36 @@
                             <s rendition="#indent2">右為中国、</s>
                             <table rendition="#indent1">
                                 <row>
-                                    <cell rendition="#kokumei">相模国上</cell>
+                                    <cell rendition="#width80">相摸国上</cell>
                                     <cell>〈</cell>
                                     <cell>管　足上　足下　余綾　大住　愛甲　高座　鎌倉　御浦〉</cell>
                                 </row>
                                 <row>
-                                    <cell rendition="#kokumei">武蔵国大</cell>
+                                    <cell rendition="#width80">武蔵国大</cell>
                                     <cell>〈</cell>
                                     <cell>管　久良　都筑　多麻　橘樹　荏原　豊島　足立　新座　入間　高麗　比企　横見　<pb
                                             facs="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-22%2F00004.tif/full/full/0/default.jpg"
                                         />埼玉　大里　男衾　幡羅　榛沢　那珂　児玉　賀美　秩父〉</cell>
                                 </row>
                                 <row>
-                                    <cell rendition="#kokumei">安房国中</cell>
+                                    <cell rendition="#width80">安房国中</cell>
                                     <cell>〈</cell>
                                     <cell>管　平群　安房　朝夷　長狭〉</cell>
                                 </row>
                                 <row>
-                                    <cell rendition="#kokumei">上総国大</cell>
+                                    <cell rendition="#width80">上総国大</cell>
                                     <cell>〈</cell>
                                     <cell>管　市原　海上　畦蒜　望陀　周准　天羽　夷灊　<anchor xml:id="app2210020104"
                                             />埴<anchor xml:id="app2210020104e"/>生　長柄　山辺　武射〉</cell>
                                 </row>
                                 <row>
-                                    <cell rendition="#kokumei"><anchor xml:id="app2210020105"
+                                    <cell rendition="#width80"><anchor xml:id="app2210020105"
                                             />下<anchor xml:id="app2210020105e"/>総国大</cell>
                                     <cell>〈</cell>
                                     <cell>管　葛飾　千葉　印播　匝瑳　海上　香取　埴生　相馬　猿島　結城　豊田〉</cell>
                                 </row>
                                 <row>
-                                    <cell rendition="#kokumei">常陸国大</cell>
+                                    <cell rendition="#width80">常陸国大</cell>
                                     <cell>〈</cell>
                                     <cell>管　新治　真壁　筑波　河内　信太　茨城　行方　鹿島　那珂　久慈　多珂〉</cell>
                                 </row>
@@ -548,12 +548,12 @@
                             corresp="engishiki_en.xml#item22100301 engishiki_ja.xml#item22100301"
                             xml:id="item22100301">東山道 <table rendition="#indent1">
                                 <row>
-                                    <cell rendition="#kokumei">近江国大</cell>
+                                    <cell rendition="#width80">近江国大</cell>
                                     <cell>〈</cell>
                                     <cell>管　滋賀　栗太　甲賀　野洲　蒲生　神崎　愛智　犬上　坂田　浅井　伊香　高島〉</cell>
                                 </row>
                                 <row>
-                                    <cell rendition="#kokumei">美濃国上</cell>
+                                    <cell rendition="#width80">美濃国上</cell>
                                     <cell>〈</cell>
                                     <cell>管　多芸　石津　不破　安八　池田　大野　本巣　席田　方県　厚見　各務　山県　武義　<anchor
                                             xml:id="app2210030101"/>郡上<anchor
@@ -563,13 +563,13 @@
                             <s rendition="#indent2">右為近国。</s>
                             <table rendition="#indent1">
                                 <row>
-                                    <cell rendition="#kokumei"><anchor xml:id="app2210030102"
+                                    <cell rendition="#width80"><anchor xml:id="app2210030102"
                                             />飛<anchor xml:id="app2210030102e"/>騨国下</cell>
                                     <cell>〈</cell>
                                     <cell>管　大野　益田　荒城〉</cell>
                                 </row>
                                 <row>
-                                    <cell rendition="#kokumei">信濃国上</cell>
+                                    <cell rendition="#width80">信濃国上</cell>
                                     <cell>〈</cell>
                                     <cell>管　伊那　諏方　筑摩　安曇　更級　水内　高井　埴科　小県　佐久〉</cell>
                                 </row>
@@ -577,19 +577,19 @@
                             <s rendition="#indent2">右為中国。</s>
                             <table rendition="#indent1">
                                 <row>
-                                    <cell rendition="#kokumei">上野国大</cell>
+                                    <cell rendition="#width80">上野国大</cell>
                                     <cell>〈</cell>
                                     <cell>管　碓氷　片岡　甘楽　多胡　緑野　那波　群馬　吾妻　利根　勢多　佐位　<anchor
                                             xml:id="app2210030103"/>新田　山田<anchor
                                             xml:id="app2210030103e"/>　邑楽〉</cell>
                                 </row>
                                 <row>
-                                    <cell rendition="#kokumei">下野国上</cell>
+                                    <cell rendition="#width80">下野国上</cell>
                                     <cell>〈</cell>
                                     <cell>管　足利　梁田　安蘇　都賀　寒川　河内　芳賀　塩屋　那須〉</cell>
                                 </row>
                                 <row>
-                                    <cell rendition="#kokumei"><anchor xml:id="app2210030104"
+                                    <cell rendition="#width80"><anchor xml:id="app2210030104"
                                             />陸<anchor xml:id="app2210030104e"/>奥国大</cell>
                                     <cell>〈</cell>
                                     <cell>管　白河　磐瀬　会津　耶麻　安<anchor xml:id="app2210030105"/>積<anchor
@@ -602,7 +602,7 @@
                                         />鹿〉</cell>
                                 </row>
                                 <row>
-                                    <cell rendition="#kokumei"><anchor xml:id="app2210030108"
+                                    <cell rendition="#width80"><anchor xml:id="app2210030108"
                                             />出<anchor xml:id="app2210030108e"/>羽国上</cell>
                                     <cell>〈</cell>
                                     <cell>管　最上　村山　置賜　雄勝　平鹿　山本　飽海　河辺　田<anchor xml:id="app2210030109"
@@ -690,7 +690,7 @@
                             corresp="engishiki_en.xml#item22100401 engishiki_ja.xml#item22100401"
                             xml:id="item22100401">北陸道 <table rendition="#indent1">
                                 <row>
-                                    <cell rendition="#kokumei">若狭国中</cell>
+                                    <cell rendition="#width80">若狭国中</cell>
                                     <cell>〈</cell>
                                     <cell>管　遠敷　大飯　三方〉</cell>
                                 </row>
@@ -698,22 +698,22 @@
                             <s rendition="#indent2">右為近国。</s>
                             <table rendition="#indent1">
                                 <row>
-                                    <cell rendition="#kokumei">越前国大</cell>
+                                    <cell rendition="#width80">越前国大</cell>
                                     <cell>〈</cell>
                                     <cell>管　敦賀　丹生　今立　足羽　大野　坂井〉</cell>
                                 </row>
                                 <row>
-                                    <cell rendition="#kokumei">加賀国上</cell>
+                                    <cell rendition="#width80">加賀国上</cell>
                                     <cell>〈</cell>
                                     <cell>管　江沼　能美　加賀　石川〉</cell>
                                 </row>
                                 <row>
-                                    <cell rendition="#kokumei">能登国中</cell>
+                                    <cell rendition="#width80">能登国中</cell>
                                     <cell>〈</cell>
                                     <cell>管　羽咋　能登　鳳至　珠洲〉</cell>
                                 </row>
                                 <row>
-                                    <cell rendition="#kokumei">越中国上</cell>
+                                    <cell rendition="#width80">越中国上</cell>
                                     <cell>〈</cell>
                                     <cell>管　砺波　射水　婦負　新川〉</cell>
                                 </row>
@@ -721,13 +721,13 @@
                             <s rendition="#indent2">右為中国。</s>
                             <table rendition="#indent1">
                                 <row>
-                                    <cell rendition="#kokumei">越後国上</cell>
+                                    <cell rendition="#width80">越後国上</cell>
                                     <cell>〈</cell>
                                     <cell>管　頸城　古志　三島　魚沼　蒲原　<anchor xml:id="app2210040101"/>沼<anchor
                                             xml:id="app2210040101e"/>垂　石船〉</cell>
                                 </row>
                                 <row>
-                                    <cell rendition="#kokumei">佐渡国中</cell>
+                                    <cell rendition="#width80">佐渡国中</cell>
                                     <cell>〈</cell>
                                     <cell>管　羽茂　雑太　賀茂〉</cell>
                                 </row>
@@ -747,12 +747,12 @@
                             corresp="engishiki_en.xml#item22100501 engishiki_ja.xml#item22100501"
                             xml:id="item22100501">山陰道 <table rendition="#indent1">
                                 <row>
-                                    <cell rendition="#kokumei">丹波国上</cell>
+                                    <cell rendition="#width80">丹波国上</cell>
                                     <cell>〈</cell>
                                     <cell>管　桑田　船井　多紀　氷上　天田　何鹿〉</cell>
                                 </row>
                                 <row>
-                                    <cell rendition="#kokumei">丹後国中</cell>
+                                    <cell rendition="#width80">丹後国中</cell>
                                     <cell>〈</cell>
                                     <cell>管　<anchor xml:id="app2210050101"/>加<anchor
                                             xml:id="app2210050101e"/>佐　与謝　丹波　竹野　熊野〉</cell>
@@ -760,12 +760,12 @@
                                 <pb
                                     facs="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-22%2F00006.tif/full/full/0/default.jpg"/>
                                 <row>
-                                    <cell rendition="#kokumei">但馬国上</cell>
+                                    <cell rendition="#width80">但馬国上</cell>
                                     <cell>〈</cell>
                                     <cell>管　朝来　養父　出石　気多　城埼　美含　二方　七美〉</cell>
                                 </row>
                                 <row>
-                                    <cell rendition="#kokumei">因幡国上</cell>
+                                    <cell rendition="#width80">因幡国上</cell>
                                     <cell>〈</cell>
                                     <cell>管　巨濃　法美　八上　智頭　邑美　高草　気多〉</cell>
                                 </row>
@@ -773,12 +773,12 @@
                             <s rendition="#indent2">右為近国。</s>
                             <table rendition="#indent1">
                                 <row>
-                                    <cell rendition="#kokumei">伯耆国上</cell>
+                                    <cell rendition="#width80">伯耆国上</cell>
                                     <cell>〈</cell>
                                     <cell>管　河村　久米　八橋　汗入　会見　日野〉</cell>
                                 </row>
                                 <row>
-                                    <cell rendition="#kokumei">出雲国上</cell>
+                                    <cell rendition="#width80">出雲国上</cell>
                                     <cell>〈</cell>
                                     <cell>管　意宇　能義　島根　秋鹿　楯縫　出雲　神門　飯石　<anchor xml:id="app2210050102"
                                             />仁多　大原<anchor xml:id="app2210050102e"/>〉</cell>
@@ -787,13 +787,13 @@
                             <s rendition="#indent2">右為中国。</s>
                             <table rendition="#indent1">
                                 <row>
-                                    <cell rendition="#kokumei">石見国中</cell>
+                                    <cell rendition="#width80">石見国中</cell>
                                     <cell>〈</cell>
                                     <cell>管　安濃　<anchor xml:id="app2210050103"/>邇<anchor
                                             xml:id="app2210050103e"/>摩　那賀　邑知　美濃　鹿足〉</cell>
                                 </row>
                                 <row>
-                                    <cell rendition="#kokumei">隠伎国下</cell>
+                                    <cell rendition="#width80">隠伎国下</cell>
                                     <cell>〈</cell>
                                     <cell>管　知夫　海部　周吉　穏地〉</cell>
                                 </row>
@@ -823,17 +823,17 @@
                             corresp="engishiki_en.xml#item22100601 engishiki_ja.xml#item22100601"
                             xml:id="item22100601">山陽道 <table rendition="#indent1">
                                 <row>
-                                    <cell rendition="#kokumei">播磨国大</cell>
+                                    <cell rendition="#width80">播磨国大</cell>
                                     <cell>〈</cell>
                                     <cell>管　明石　賀古　印南　飾磨　揖保　赤穂　佐用　宍粟　神埼　多可　賀茂　美嚢〉</cell>
                                 </row>
                                 <row>
-                                    <cell rendition="#kokumei">美作国上</cell>
+                                    <cell rendition="#width80">美作国上</cell>
                                     <cell>〈</cell>
                                     <cell>管　英多　勝田　苫東　苫西　久米　大庭　真島〉</cell>
                                 </row>
                                 <row>
-                                    <cell rendition="#kokumei">備前国上</cell>
+                                    <cell rendition="#width80">備前国上</cell>
                                     <cell>〈</cell>
                                     <cell>管　和気　<anchor xml:id="app2210060101"/>磐<anchor
                                             xml:id="app2210060101e"/>梨　邑入　赤坂　上道　御野　津高　児島〉</cell>
@@ -842,12 +842,12 @@
                             <s rendition="#indent2">右為近国。</s>
                             <table rendition="#indent1">
                                 <row>
-                                    <cell rendition="#kokumei">備中国上</cell>
+                                    <cell rendition="#width80">備中国上</cell>
                                     <cell>〈</cell>
                                     <cell>管　都宇　窪屋　賀夜　下道　浅口　小田　後月　哲多　英賀〉</cell>
                                 </row>
                                 <row>
-                                    <cell rendition="#kokumei">備後国上</cell>
+                                    <cell rendition="#width80">備後国上</cell>
                                     <cell>〈</cell>
                                     <cell>管　安那　深津　神石　奴可　沼隈　品治　葦田　甲奴　三上　恵蘇　御調　世羅　三谿　<anchor
                                             xml:id="app2210060102"/>三次<anchor
@@ -859,18 +859,18 @@
                                 facs="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-22%2F00007.tif/full/full/0/default.jpg"
                                 /><table rendition="#indent1">
                                 <row>
-                                    <cell rendition="#kokumei">安芸国上</cell>
+                                    <cell rendition="#width80">安芸国上</cell>
                                     <cell>〈</cell>
                                     <cell>管　沼田　賀茂　安芸　佐伯　山県　高宮　高田　<anchor xml:id="app2210060103"
                                             />沙田<anchor xml:id="app2210060103e"/>〉</cell>
                                 </row>
                                 <row>
-                                    <cell rendition="#kokumei">周防国上</cell>
+                                    <cell rendition="#width80">周防国上</cell>
                                     <cell>〈</cell>
                                     <cell>管　大島　玖珂　熊毛　都濃　佐波　吉敷〉</cell>
                                 </row>
                                 <row>
-                                    <cell rendition="#kokumei">長門国中</cell>
+                                    <cell rendition="#width80">長門国中</cell>
                                     <cell>〈</cell>
                                     <cell>管　厚狭　豊浦　美<anchor xml:id="app2210060104"/>禰<anchor
                                             xml:id="app2210060104e"/>　大津　阿武〉</cell>
@@ -908,12 +908,12 @@
                             corresp="engishiki_en.xml#item22100701 engishiki_ja.xml#item22100701"
                             xml:id="item22100701">南海道 <table rendition="#indent1">
                                 <row>
-                                    <cell rendition="#kokumei">紀伊国上</cell>
+                                    <cell rendition="#width80">紀伊国上</cell>
                                     <cell>〈</cell>
                                     <cell>管　伊都　那賀　名草　海部　在田　日高　牟婁〉</cell>
                                 </row>
                                 <row>
-                                    <cell rendition="#kokumei">淡路国下</cell>
+                                    <cell rendition="#width80">淡路国下</cell>
                                     <cell>〈</cell>
                                     <cell>管　津名　三原〉</cell>
                                 </row>
@@ -921,13 +921,13 @@
                             <s rendition="#indent2">右為近国。</s>
                             <table rendition="#indent1">
                                 <row>
-                                    <cell rendition="#kokumei"><anchor xml:id="app2210070101"
+                                    <cell rendition="#width80"><anchor xml:id="app2210070101"
                                             />阿<anchor xml:id="app2210070101e"/>波国上</cell>
                                     <cell>〈</cell>
                                     <cell>管　板野　阿波　美馬　三好　麻殖　名東　名西　勝浦　那賀〉</cell>
                                 </row>
                                 <row>
-                                    <cell rendition="#kokumei">讃岐国上</cell>
+                                    <cell rendition="#width80">讃岐国上</cell>
                                     <cell>〈</cell>
                                     <cell>管　大内　寒川　三木　山田　香川　阿野　鵜足　那珂　多度　三野　<anchor
                                             xml:id="app2210070102"/>刈田<anchor
@@ -937,12 +937,12 @@
                             <s rendition="#indent2">右為中国。</s>
                             <table rendition="#indent1">
                                 <row>
-                                    <cell rendition="#kokumei">伊予国上</cell>
+                                    <cell rendition="#width80">伊予国上</cell>
                                     <cell>〈</cell>
                                     <cell>管　宇麻　新居　周敷　桑村　越智　野間　風早　和気　温泉　久米　浮穴　伊予　喜多　宇和〉</cell>
                                 </row>
                                 <row>
-                                    <cell rendition="#kokumei">土左国中</cell>
+                                    <cell rendition="#width80">土左国中</cell>
                                     <cell>〈</cell>
                                     <cell>管　安芸　香美　長岡　土左　吾川　高岡　播多〉</cell>
                                 </row>
@@ -979,14 +979,14 @@
                             corresp="engishiki_en.xml#item22100801 engishiki_ja.xml#item22100801"
                             xml:id="item22100801">西海道 <table rendition="#indent1">
                                 <row>
-                                    <cell rendition="#kokumei">筑前国上</cell>
+                                    <cell rendition="#width80">筑前国上</cell>
                                     <cell>〈</cell>
                                     <cell>管　怡土　志麻　早良　那珂　席田　糟屋　宗像　遠賀　鞍手　嘉麻　穂波　夜<anchor
                                             xml:id="app2210080101"/>須<anchor xml:id="app2210080101e"
                                         />　下座　上座　御笠〉</cell>
                                 </row>
                                 <row>
-                                    <cell rendition="#kokumei">筑後国上</cell>
+                                    <cell rendition="#width80">筑後国上</cell>
                                     <cell>〈</cell>
                                     <cell>管　<anchor xml:id="app2210080102"/>御原　生葉　竹野　山本　御井　三瀦<anchor
                                             xml:id="app2210080102e"/>　上妻　下妻　山門　三毛〉</cell>
@@ -994,40 +994,40 @@
                                 <pb
                                     facs="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-22%2F00008.tif/full/full/0/default.jpg"/>
                                 <row>
-                                    <cell rendition="#kokumei">豊前国上</cell>
+                                    <cell rendition="#width80">豊前国上</cell>
                                     <cell>〈</cell>
                                     <cell>管　田河　<anchor xml:id="app2210080103"/>企救<anchor
                                             xml:id="app2210080103e"/>　京都　仲津　築城　上毛　下毛　宇佐〉</cell>
                                 </row>
                                 <row>
-                                    <cell rendition="#kokumei">豊後国上</cell>
+                                    <cell rendition="#width80">豊後国上</cell>
                                     <cell>〈</cell>
                                     <cell>管　日田　球珠　直入　大野　海部　大分　速見　国埼〉</cell>
                                 </row>
                                 <row>
-                                    <cell rendition="#kokumei">肥前国上</cell>
+                                    <cell rendition="#width80">肥前国上</cell>
                                     <cell>〈</cell>
                                     <cell>管　基肄　養父　三根　神埼　佐嘉　小城　松浦　杵島　藤津　彼杵　高来〉</cell>
                                 </row>
                                 <row>
-                                    <cell rendition="#kokumei">肥後国大</cell>
+                                    <cell rendition="#width80">肥後国大</cell>
                                     <cell>〈</cell>
                                     <cell>管　玉名　<anchor xml:id="app2210080104"/>山鹿<anchor
                                             xml:id="app2210080104e"
                                         />　菊池　阿蘇　合志　山本　飽田　託麻　益城　宇土　八代　天草　葦北　球磨〉</cell>
                                 </row>
                                 <row>
-                                    <cell rendition="#kokumei">日向国中</cell>
+                                    <cell rendition="#width80">日向国中</cell>
                                     <cell>〈</cell>
                                     <cell>管　臼杵　児湯　那珂　宮埼　諸県〉</cell>
                                 </row>
                                 <row>
-                                    <cell rendition="#kokumei">大隅国中</cell>
+                                    <cell rendition="#width80">大隅国中</cell>
                                     <cell>〈</cell>
                                     <cell>管　菱苅　桑原　贈於　大隅　姶羅　肝属　馭謨　熊毛〉</cell>
                                 </row>
                                 <row>
-                                    <cell rendition="#kokumei">薩摩国中</cell>
+                                    <cell rendition="#width80">薩摩国中</cell>
                                     <cell>〈</cell>
                                     <cell>管　出水　高城　薩摩　甑島　日置　伊作　<anchor xml:id="app2210080105"
                                             />阿多<anchor xml:id="app2210080105e"/>　河辺　穎<anchor
@@ -1036,12 +1036,12 @@
                                             xml:id="app2210080107e"/>島〉</cell>
                                 </row>
                                 <row>
-                                    <cell rendition="#kokumei">壱伎島下</cell>
+                                    <cell rendition="#width80">壱伎島下</cell>
                                     <cell>〈</cell>
                                     <cell>管　壱伎　石田〉</cell>
                                 </row>
                                 <row>
-                                    <cell rendition="#kokumei">対馬島下</cell>
+                                    <cell rendition="#width80">対馬島下</cell>
                                     <cell>〈</cell>
                                     <cell>管　上県　下県〉</cell>
                                 </row>
