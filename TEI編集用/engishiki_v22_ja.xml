@@ -142,7 +142,7 @@
                 <rendition xml:id="indent2">margin-top: 2em;</rendition>
                 <rendition xml:id="indent5">margin-top: 5em;</rendition>
                 <rendition xml:id="width50">width: 50px;</rendition>
-                <rendition xml:id="kokumei">width: 80px;</rendition>
+                <rendition xml:id="width80">width: 80px;</rendition>
                 <rendition xml:id="width100">width: 100px;</rendition>
                 <rendition xml:id="jinnmyou">width: 200px;</rendition>
                 <rendition xml:id="width300">width: 300px;</rendition>
@@ -236,9 +236,13 @@
                         <note type="summary">畿内の国の種別と管轄する郡のリスト</note>
                         <p ana="項"
                             corresp="engishiki.xml#item22100101 engishiki_en.xml#item22100101"
-                            xml:id="item22100101">畿内 <table rendition="#indent1">
+                            xml:id="item22100101"><ruby>
+                                <rb>畿内</rb>
+                                <rt>きない</rt>
+                            </ruby>
+                            <table rendition="#indent1">
                                 <row>
-                                    <cell rendition="#kokumei"><ruby>
+                                    <cell rendition="#width80"><ruby>
                                             <rb>山城国</rb>
                                             <rt place="right">やましろのくに</rt>
                                         </ruby>上</cell>
@@ -254,7 +258,10 @@
                                         </ruby>　<ruby>
                                             <rb>紀伊</rb>
                                             <rt place="right">き</rt>
-                                        </ruby>　宇治　<ruby>
+                                        </ruby>　<ruby>
+                                            <rb>宇治</rb>
+                                            <rt>うじ</rt>
+                                        </ruby>　<ruby>
                                             <rb>久世</rb>
                                             <rt place="right">くぜ</rt>
                                         </ruby>　<ruby>
@@ -266,7 +273,7 @@
                                         </ruby>〉</cell>
                                 </row>
                                 <row>
-                                    <cell rendition="#kokumei"><ruby>
+                                    <cell rendition="#width80"><ruby>
                                             <rb>大和国</rb>
                                             <rt place="right">やまとのくに</rt>
                                         </ruby>大</cell>
@@ -279,7 +286,10 @@
                                         </ruby>　<ruby>
                                             <rb>平群</rb>
                                             <rt place="right">へぐり</rt>
-                                        </ruby>　広瀬　<ruby>
+                                        </ruby>　<ruby>
+                                            <rb>広瀬</rb>
+                                            <rt>ひろせ</rt>
+                                        </ruby>　<ruby>
                                             <rb>葛上</rb>
                                             <rt place="right">かずらきのかみ</rt>
                                         </ruby>　<ruby>
@@ -288,7 +298,16 @@
                                         </ruby>　<ruby>
                                             <rb>忍海</rb>
                                             <rt place="right">おしのみ</rt>
-                                        </ruby>　宇智　吉野　宇陀　<ruby>
+                                        </ruby>　<ruby>
+                                            <rb>宇智</rb>
+                                            <rt>うち</rt>
+                                        </ruby>　<ruby>
+                                            <rb>吉野</rb>
+                                            <rt>よしの</rt>
+                                        </ruby>　<ruby>
+                                            <rb>宇陀</rb>
+                                            <rt>うだ</rt>
+                                        </ruby>　<ruby>
                                             <rb>城上</rb>
                                             <rt place="right">しきのかみ</rt>
                                         </ruby>　<ruby>
@@ -306,7 +325,7 @@
                                         </ruby>〉</cell>
                                 </row>
                                 <row>
-                                    <cell rendition="#kokumei"><ruby>
+                                    <cell rendition="#width80"><ruby>
                                             <rb>河内国</rb>
                                             <rt place="right">かわちのくに</rt>
                                         </ruby>大</cell>
@@ -322,7 +341,10 @@
                                         </ruby>　　<ruby>
                                             <rb>大県</rb>
                                             <rt place="right">おおかた</rt>
-                                        </ruby>　高安　<ruby>
+                                        </ruby>　<ruby>
+                                            <rb>高安</rb>
+                                            <rt>たかやす</rt>
+                                        </ruby>　<ruby>
                                             <rb>河内</rb>
                                             <rt place="right">かわち</rt>
                                         </ruby>　<ruby>
@@ -334,24 +356,45 @@
                                         </ruby>　<ruby>
                                             <rb>交野</rb>
                                             <rt place="right">かたの</rt>
-                                        </ruby>　若江　渋川　志紀　<ruby>
+                                        </ruby>　<ruby>
+                                            <rb>若江</rb>
+                                            <rt>わかえ</rt>
+                                        </ruby>　<ruby>
+                                            <rb>渋川</rb>
+                                            <rt>しぶかわ</rt>
+                                        </ruby>　<ruby>
+                                            <rb>志紀</rb>
+                                            <rt>しき</rt>
+                                        </ruby>　<ruby>
                                             <rb>丹比</rb>
                                             <rt place="right">たじひ</rt>
                                         </ruby>〉</cell>
                                 </row>
                                 <row>
-                                    <cell rendition="#kokumei"><ruby>
+                                    <cell rendition="#width80"><ruby>
                                             <rb>和泉国</rb>
                                             <rt place="right">いずみのくに</rt>
                                         </ruby>下</cell>
-                                    <cell>〈管轄する郡　大鳥　和泉　日根〉</cell>
+                                    <cell>〈管轄する郡　<ruby>
+                                            <rb>大鳥</rb>
+                                            <rt>おおとり</rt>
+                                        </ruby>　<ruby>
+                                            <rb>和泉</rb>
+                                            <rt>いずみ</rt>
+                                        </ruby>　<ruby>
+                                            <rb>日根</rb>
+                                            <rt>ひね</rt>
+                                        </ruby>〉</cell>
                                 </row>
                                 <row>
-                                    <cell rendition="#kokumei"><ruby>
+                                    <cell rendition="#width80"><ruby>
                                             <rb>摂津国</rb>
                                             <rt place="right">せっつのくに</rt>
                                         </ruby>上</cell>
-                                    <cell>〈管轄する郡　住吉　<ruby>
+                                    <cell>〈管轄する郡　<ruby>
+                                            <rb>住吉</rb>
+                                            <rt>すみよし</rt>
+                                        </ruby>　<ruby>
                                             <rb>百済</rb>
                                             <rt place="right">くだら</rt>
                                         </ruby>　<ruby>
@@ -398,26 +441,38 @@
                         <note type="summary">東海道の国の種別と管轄する郡のリスト</note>
                         <p ana="項"
                             corresp="engishiki.xml#item22100201 engishiki_en.xml#item22100201"
-                            xml:id="item22100201">東海道<table rendition="#indent1">
+                            xml:id="item22100201"><ruby>
+                                <rb>東海道</rb>
+                                <rt>とうかいどう</rt>
+                            </ruby><table rendition="#indent1">
                                 <row>
-                                    <cell rendition="#kokumei"><ruby>
+                                    <cell rendition="#width80"><ruby>
                                             <rb>伊賀国</rb>
                                             <rt place="right">いがのくに</rt>
                                         </ruby>下</cell>
                                     <cell>〈管轄する郡　<ruby>
                                             <rb>阿拝</rb>
                                             <rt place="right">あべ</rt>
-                                        </ruby>　山田　伊賀　<ruby>
+                                        </ruby>　<ruby>
+                                            <rb>山田</rb>
+                                            <rt>やまだ</rt>
+                                        </ruby>　<ruby>
+                                            <rb>伊賀</rb>
+                                            <rt>いが</rt>
+                                        </ruby>　<ruby>
                                             <rb>名張</rb>
                                             <rt place="right">なばり</rt>
                                         </ruby>〉</cell>
                                 </row>
                                 <row>
-                                    <cell rendition="#kokumei"><ruby>
+                                    <cell rendition="#width80"><ruby>
                                             <rb>伊勢国</rb>
                                             <rt place="right">いせのくに</rt>
                                         </ruby>大</cell>
-                                    <cell>〈管轄する郡　桑名　<ruby>
+                                    <cell>〈管轄する郡　<ruby>
+                                            <rb>桑名</rb>
+                                            <rt place="right">くわな</rt>
+                                        </ruby>　<ruby>
                                             <rb>員弁</rb>
                                             <rt place="right">いなべ</rt>
                                         </ruby>　<ruby>
@@ -456,7 +511,7 @@
                                         </ruby>〉</cell>
                                 </row>
                                 <row>
-                                    <cell rendition="#kokumei"><ruby>
+                                    <cell rendition="#width80"><ruby>
                                             <rb>志摩国</rb>
                                             <rt place="right">しまのくに</rt>
                                         </ruby>下</cell>
@@ -469,14 +524,17 @@
                                         </ruby>〉</cell>
                                 </row>
                                 <row>
-                                    <cell rendition="#kokumei"><ruby>
+                                    <cell rendition="#width80"><ruby>
                                             <rb>尾張国</rb>
                                             <rt place="right">おわりのくに</rt>
                                         </ruby>上</cell>
                                     <cell>〈管轄する郡　<ruby>
                                             <rb>海部</rb>
                                             <rt place="right">あま</rt>
-                                        </ruby>　中島　<ruby>
+                                        </ruby>　<ruby>
+                                            <rb>中島</rb>
+                                            <rt>なかしま</rt>
+                                        </ruby>　<ruby>
                                             <rb>葉栗</rb>
                                             <rt place="right">はくり</rt>
                                         </ruby>　<ruby>
@@ -485,7 +543,10 @@
                                         </ruby>　<ruby>
                                             <rb>春部</rb>
                                             <rt place="right">かすかべ</rt>
-                                        </ruby>　山田　<ruby>
+                                        </ruby>　<ruby>
+                                            <rb>山田</rb>
+                                            <rt>やまだ</rt>
+                                        </ruby>　<ruby>
                                             <rb>愛智</rb>
                                             <rt place="right">あいち</rt>
                                         </ruby>　<ruby>
@@ -494,14 +555,17 @@
                                         </ruby>〉</cell>
                                 </row>
                                 <row>
-                                    <cell rendition="#kokumei"><ruby>
+                                    <cell rendition="#width80"><ruby>
                                             <rb>参河国</rb>
                                             <rt place="right">みかわのくに</rt>
                                         </ruby>上</cell>
                                     <cell>〈管轄する郡　<ruby>
                                             <rb>碧海</rb>
                                             <rt place="right">あおみ</rt>
-                                        </ruby>　賀茂　<ruby>
+                                        </ruby>　<ruby>
+                                            <rb>賀茂</rb>
+                                            <rt>かも</rt>
+                                        </ruby>　<ruby>
                                             <rb>額田</rb>
                                             <rt place="right">ぬかた</rt>
                                         </ruby>　<ruby>
@@ -525,11 +589,14 @@
                             <s rendition="#indent2">以上は近国とせよ。</s>
                             <table rendition="#indent1">
                                 <row>
-                                    <cell rendition="#kokumei"><ruby>
+                                    <cell rendition="#width80"><ruby>
                                             <rb>遠江国</rb>
                                             <rt place="right">とおとうみのくに</rt>
                                         </ruby>上</cell>
-                                    <cell>〈管轄する郡　浜名　<ruby>
+                                    <cell>〈管轄する郡　<ruby>
+                                            <rb>浜名</rb>
+                                            <rt>はまな</rt>
+                                        </ruby>　<ruby>
                                             <rb>敷智</rb>
                                             <rt place="right">ふち</rt>
                                         </ruby>　<ruby>
@@ -568,7 +635,7 @@
                                         </ruby>〉</cell>
                                 </row>
                                 <row>
-                                    <cell rendition="#kokumei"><ruby>
+                                    <cell rendition="#width80"><ruby>
                                             <rb>駿河国</rb>
                                             <rt place="right">するがのくに</rt>
                                         </ruby>上</cell>
@@ -581,30 +648,45 @@
                                         </ruby>　<ruby>
                                             <rb>有度</rb>
                                             <rt place="right">うど</rt>
-                                        </ruby>　安倍　<ruby>
+                                        </ruby>　<ruby>
+                                            <rb>安倍</rb>
+                                            <rt>あべ</rt>
+                                        </ruby>　<ruby>
                                             <rb>廬原</rb>
                                             <rt place="right">いおはら</rt>
-                                        </ruby>　富士　<ruby>
+                                        </ruby>　<ruby>
+                                            <rb>富士</rb>
+                                            <rt>ふじ</rt>
+                                        </ruby>　<ruby>
                                             <rb>駿河</rb>
                                             <rt place="right">するが</rt>
                                         </ruby>〉</cell>
                                 </row>
                                 <row>
-                                    <cell rendition="#kokumei"><ruby>
+                                    <cell rendition="#width80"><ruby>
                                             <rb>伊豆国</rb>
                                             <rt place="right">いずのくに</rt>
                                         </ruby>下</cell>
                                     <cell>〈管轄する郡　<ruby>
                                             <rb>田方</rb>
                                             <rt place="right">たかた</rt>
-                                        </ruby>　那賀　賀茂〉</cell>
+                                        </ruby>　<ruby>
+                                            <rb>那賀</rb>
+                                            <rt>なか</rt>
+                                        </ruby>　<ruby>
+                                            <rb>賀茂</rb>
+                                            <rt>かも</rt>
+                                        </ruby>〉</cell>
                                 </row>
                                 <row>
-                                    <cell rendition="#kokumei"><ruby>
+                                    <cell rendition="#width80"><ruby>
                                             <rb>甲斐国</rb>
                                             <rt place="right">かいのくに</rt>
                                         </ruby>上</cell>
-                                    <cell>〈管轄する郡　山梨　<ruby>
+                                    <cell>〈管轄する郡　<ruby>
+                                            <rb>山梨</rb>
+                                            <rt>やまなし</rt>
+                                        </ruby>　<ruby>
                                             <rb>八代</rb>
                                             <rt place="right">やつしろ</rt>
                                         </ruby>　<ruby>
@@ -619,8 +701,8 @@
                             <s rendition="#indent2">以上は中国とせよ。</s>
                             <table rendition="#indent1">
                                 <row>
-                                    <cell rendition="#kokumei"><ruby>
-                                            <rb>相摸国</rb>
+                                    <cell rendition="#width80"><ruby>
+                                            <rb>相模国</rb>
                                             <rt place="right">さがみのくに</rt>
                                         </ruby>上</cell>
                                     <cell>〈管轄する郡　<ruby>
@@ -641,13 +723,16 @@
                                         </ruby>　<ruby>
                                             <rb>高座</rb>
                                             <rt place="right">たかくら</rt>
-                                        </ruby>　鎌倉　<ruby>
+                                        </ruby>　<ruby>
+                                            <rb>鎌倉</rb>
+                                            <rt>かまくら</rt>
+                                        </ruby>　<ruby>
                                             <rb>御浦</rb>
                                             <rt place="right">みうら</rt>
                                         </ruby>〉</cell>
                                 </row>
                                 <row>
-                                    <cell rendition="#kokumei"><ruby>
+                                    <cell rendition="#width80"><ruby>
                                             <rb>武蔵国</rb>
                                             <rt place="right">むさしのくに</rt>
                                         </ruby>大</cell>
@@ -657,7 +742,10 @@
                                         </ruby>　<ruby>
                                             <rb>都筑</rb>
                                             <rt place="right">つづき</rt>
-                                        </ruby>　多麻　<ruby>
+                                        </ruby>　<ruby>
+                                            <rb>多麻</rb>
+                                            <rt>たま</rt>
+                                        </ruby>　<ruby>
                                             <rb>橘樹</rb>
                                             <rt place="right">たちばな</rt>
                                         </ruby>　<ruby>
@@ -681,7 +769,10 @@
                                         </ruby>　<ruby>
                                             <rb>比企</rb>
                                             <rt place="right">ひき</rt>
-                                        </ruby>　横見　<ruby>
+                                        </ruby>　<ruby>
+                                            <rb>横見</rb>
+                                            <rt>よこみ</rt>
+                                        </ruby>　<ruby>
                                             <rb>埼玉</rb>
                                             <rt place="right">さきたま</rt>
                                         </ruby>　<ruby>
@@ -711,7 +802,7 @@
                                         </ruby>〉</cell>
                                 </row>
                                 <row>
-                                    <cell rendition="#kokumei"><ruby>
+                                    <cell rendition="#width80"><ruby>
                                             <rb>安房国</rb>
                                             <rt place="right">あわのくに</rt>
                                         </ruby>中</cell>
@@ -730,11 +821,14 @@
                                         </ruby>〉</cell>
                                 </row>
                                 <row>
-                                    <cell rendition="#kokumei"><ruby>
+                                    <cell rendition="#width80"><ruby>
                                             <rb>上総国</rb>
                                             <rt place="right">かずさのくに</rt>
                                         </ruby>大</cell>
-                                    <cell>〈管轄する郡　市原　<ruby>
+                                    <cell>〈管轄する郡　<ruby>
+                                            <rb>市原</rb>
+                                            <rt>いちはら</rt>
+                                        </ruby>　<ruby>
                                             <rb>海上</rb>
                                             <rt place="right">うなかみ</rt>
                                         </ruby>　<ruby>
@@ -767,20 +861,32 @@
                                         </ruby>〉</cell>
                                 </row>
                                 <row>
-                                    <cell rendition="#kokumei"><ruby>
+                                    <cell rendition="#width80"><ruby>
                                             <rb>下総国</rb>
                                             <rt place="right">しもうさのくに</rt>
                                         </ruby>大</cell>
                                     <cell>〈管轄する郡　<ruby>
                                             <rb>葛飾</rb>
                                             <rt place="right">かつしか</rt>
-                                        </ruby>　千葉　<ruby>
+                                        </ruby>　<ruby>
+                                            <rb>千葉</rb>
+                                            <rt>ちば</rt>
+                                        </ruby>　<ruby>
                                             <rb>印播</rb>
                                             <rt place="right">いんば</rt>
                                         </ruby>　<ruby>
                                             <rb>匝瑳</rb>
                                             <rt place="right">そうさ</rt>
-                                        </ruby>　海上　香取　埴生　<ruby>
+                                        </ruby>　<ruby>
+                                            <rb>海上</rb>
+                                            <rt>うなかみ</rt>
+                                        </ruby>　<ruby>
+                                            <rb>香取</rb>
+                                            <rt>かとり</rt>
+                                        </ruby>　<ruby>
+                                            <rb>埴生</rb>
+                                            <rt>はにう</rt>
+                                        </ruby>　<ruby>
                                             <rb>相馬</rb>
                                             <rt place="right">そうま</rt>
                                         </ruby>　<ruby>
@@ -789,10 +895,13 @@
                                         </ruby>　<ruby>
                                             <rb>結城</rb>
                                             <rt place="right">ゆうき</rt>
-                                        </ruby>　豊田〉</cell>
+                                        </ruby>　<ruby>
+                                            <rb>豊田</rb>
+                                            <rt>とよだ</rt>
+                                        </ruby>〉</cell>
                                 </row>
                                 <row>
-                                    <cell rendition="#kokumei"><ruby>
+                                    <cell rendition="#width80"><ruby>
                                             <rb>常陸国</rb>
                                             <rt place="right">ひたちのくに</rt>
                                         </ruby>大</cell>
@@ -820,7 +929,10 @@
                                         </ruby>　<ruby>
                                             <rb>鹿島</rb>
                                             <rt place="right">かしま</rt>
-                                        </ruby>　那珂　<ruby>
+                                        </ruby>　<ruby>
+                                            <rb>那珂</rb>
+                                            <rt>なか</rt>
+                                        </ruby>　<ruby>
                                             <rb>久慈</rb>
                                             <rt place="right">くじ</rt>
                                         </ruby>　<ruby>
@@ -840,7 +952,7 @@
                             corresp="engishiki.xml#item22100301 engishiki_en.xml#item22100301"
                             xml:id="item22100301">東山道 <table rendition="#indent1">
                                 <row>
-                                    <cell rendition="#kokumei"><ruby>
+                                    <cell rendition="#width80"><ruby>
                                             <rb>近江国</rb>
                                             <rt place="right">おうみのくに</rt>
                                         </ruby>大</cell>
@@ -862,7 +974,7 @@
                                         </ruby>　高島〉</cell>
                                 </row>
                                 <row>
-                                    <cell rendition="#kokumei"><ruby>
+                                    <cell rendition="#width80"><ruby>
                                             <rb>美濃国</rb>
                                             <rt place="right">みののくに</rt>
                                         </ruby>上</cell>
@@ -914,7 +1026,7 @@
                             <s rendition="#indent2">以上は近国とせよ。</s>
                             <table rendition="#indent1">
                                 <row>
-                                    <cell rendition="#kokumei"><ruby>
+                                    <cell rendition="#width80"><ruby>
                                             <rb>飛騨国</rb>
                                             <rt place="right">ひだのくに</rt>
                                         </ruby>下</cell>
@@ -927,7 +1039,7 @@
                                         </ruby>〉</cell>
                                 </row>
                                 <row>
-                                    <cell rendition="#kokumei"><ruby>
+                                    <cell rendition="#width80"><ruby>
                                             <rb>信濃国</rb>
                                             <rt place="right">しなののくに</rt>
                                         </ruby>上</cell>
@@ -961,7 +1073,7 @@
                             <s rendition="#indent2">以上は中国とせよ。</s>
                             <table rendition="#indent1">
                                 <row>
-                                    <cell rendition="#kokumei"><ruby>
+                                    <cell rendition="#width80"><ruby>
                                             <rb>上野国</rb>
                                             <rt place="right">こうずけのくに</rt>
                                         </ruby>大</cell>
@@ -1001,7 +1113,7 @@
                                         </ruby>〉</cell>
                                 </row>
                                 <row>
-                                    <cell rendition="#kokumei"><ruby>
+                                    <cell rendition="#width80"><ruby>
                                             <rb>下野国</rb>
                                             <rt place="right">しもつけのくに</rt>
                                         </ruby>上</cell>
@@ -1032,7 +1144,7 @@
                                         </ruby>　那須〉</cell>
                                 </row>
                                 <row>
-                                    <cell rendition="#kokumei"><ruby>
+                                    <cell rendition="#width80"><ruby>
                                             <rb>陸奥国</rb>
                                             <rt place="right">むつのくに</rt>
                                         </ruby>大</cell>
@@ -1108,7 +1220,7 @@
                                         </ruby>〉</cell>
                                 </row>
                                 <row>
-                                    <cell rendition="#kokumei"><ruby>
+                                    <cell rendition="#width80"><ruby>
                                             <rb>出羽国</rb>
                                             <rt place="right">でわのくに</rt>
                                         </ruby>上</cell>
@@ -1145,7 +1257,7 @@
                             corresp="engishiki.xml#item22100401 engishiki_en.xml#item22100401"
                             xml:id="item22100401">北陸道 <table rendition="#indent1">
                                 <row>
-                                    <cell rendition="#kokumei"><ruby>
+                                    <cell rendition="#width80"><ruby>
                                             <rb>若狭国</rb>
                                             <rt place="right">わかさのくに</rt>
                                         </ruby>中</cell>
@@ -1164,7 +1276,7 @@
                             <s rendition="#indent2">以上は近国とせよ。</s>
                             <table rendition="#indent1">
                                 <row>
-                                    <cell rendition="#kokumei"><ruby>
+                                    <cell rendition="#width80"><ruby>
                                             <rb>越前国</rb>
                                             <rt place="right">えちぜんのくに</rt>
                                         </ruby>大</cell>
@@ -1186,7 +1298,7 @@
                                         </ruby>〉</cell>
                                 </row>
                                 <row>
-                                    <cell rendition="#kokumei"><ruby>
+                                    <cell rendition="#width80"><ruby>
                                             <rb>加賀国</rb>
                                             <rt place="right">かがのくに</rt>
                                         </ruby>上</cell>
@@ -1199,7 +1311,7 @@
                                         </ruby>　加賀　石川〉</cell>
                                 </row>
                                 <row>
-                                    <cell rendition="#kokumei"><ruby>
+                                    <cell rendition="#width80"><ruby>
                                             <rb>能登国</rb>
                                             <rt place="right">のとのくに</rt>
                                         </ruby>中</cell>
@@ -1218,7 +1330,7 @@
                                         </ruby>〉</cell>
                                 </row>
                                 <row>
-                                    <cell rendition="#kokumei"><ruby>
+                                    <cell rendition="#width80"><ruby>
                                             <rb>越中国</rb>
                                             <rt place="right">えっちゅうのくに</rt>
                                         </ruby>上</cell>
@@ -1240,7 +1352,7 @@
                             <s rendition="#indent2">以上は中国とせよ。</s>
                             <table rendition="#indent1">
                                 <row>
-                                    <cell rendition="#kokumei"><ruby>
+                                    <cell rendition="#width80"><ruby>
                                             <rb>越後国</rb>
                                             <rt place="right">えちごのくに</rt>
                                         </ruby>上</cell>
@@ -1265,7 +1377,7 @@
                                         </ruby>〉</cell>
                                 </row>
                                 <row>
-                                    <cell rendition="#kokumei"><ruby>
+                                    <cell rendition="#width80"><ruby>
                                             <rb>佐渡国</rb>
                                             <rt place="right">さどのくに</rt>
                                         </ruby>中</cell>
@@ -1290,7 +1402,7 @@
                             corresp="engishiki.xml#item22100501 engishiki_en.xml#item22100501"
                             xml:id="item22100501">山陰道 <table rendition="#indent1">
                                 <row>
-                                    <cell rendition="#kokumei"><ruby>
+                                    <cell rendition="#width80"><ruby>
                                             <rb>丹波国</rb>
                                             <rt place="right">たんばのくに</rt>
                                         </ruby>上</cell>
@@ -1303,7 +1415,7 @@
                                         </ruby>〉</cell>
                                 </row>
                                 <row>
-                                    <cell rendition="#kokumei"><ruby>
+                                    <cell rendition="#width80"><ruby>
                                             <rb>丹後国</rb>
                                             <rt place="right">たんごのくに</rt>
                                         </ruby>中</cell>
@@ -1322,7 +1434,7 @@
                                         </ruby>　熊野〉</cell>
                                 </row>
                                 <row>
-                                    <cell rendition="#kokumei"><ruby>
+                                    <cell rendition="#width80"><ruby>
                                             <rb>但馬国</rb>
                                             <rt place="right">たじまのくに</rt>
                                         </ruby>上</cell>
@@ -1353,7 +1465,7 @@
                                         </ruby>〉</cell>
                                 </row>
                                 <row>
-                                    <cell rendition="#kokumei"><ruby>
+                                    <cell rendition="#width80"><ruby>
                                             <rb>因幡国</rb>
                                             <rt place="right">いなばのくに</rt>
                                         </ruby>上</cell>
@@ -1378,7 +1490,7 @@
                             <s rendition="#indent2">以上は近国とせよ。</s>
                             <table rendition="#indent1">
                                 <row>
-                                    <cell rendition="#kokumei"><ruby>
+                                    <cell rendition="#width80"><ruby>
                                             <rb>伯耆国</rb>
                                             <rt place="right">ほうきのくに</rt>
                                         </ruby>上</cell>
@@ -1394,7 +1506,7 @@
                                         </ruby>　日野〉</cell>
                                 </row>
                                 <row>
-                                    <cell rendition="#kokumei"><ruby>
+                                    <cell rendition="#width80"><ruby>
                                             <rb>出雲国</rb>
                                             <rt place="right">いずものくに</rt>
                                         </ruby>上</cell>
@@ -1425,7 +1537,7 @@
                             <s rendition="#indent2">以上は中国とせよ。</s>
                             <table rendition="#indent1">
                                 <row>
-                                    <cell rendition="#kokumei"><ruby>
+                                    <cell rendition="#width80"><ruby>
                                             <rb>石見国</rb>
                                             <rt place="right">いわみのくに</rt>
                                         </ruby>中</cell>
@@ -1444,7 +1556,7 @@
                                         </ruby>〉</cell>
                                 </row>
                                 <row>
-                                    <cell rendition="#kokumei"><ruby>
+                                    <cell rendition="#width80"><ruby>
                                             <rb>隠岐国</rb>
                                             <rt place="right">おきのくに</rt>
                                         </ruby>下</cell>
@@ -1475,7 +1587,7 @@
                             corresp="engishiki.xml#item22100601 engishiki_en.xml#item22100601"
                             xml:id="item22100601">山陽道 <table rendition="#indent1">
                                 <row>
-                                    <cell rendition="#kokumei"><ruby>
+                                    <cell rendition="#width80"><ruby>
                                             <rb>播磨国</rb>
                                             <rt place="right">はりまのくに</rt>
                                         </ruby>大</cell>
@@ -1515,7 +1627,7 @@
                                         </ruby>〉</cell>
                                 </row>
                                 <row>
-                                    <cell rendition="#kokumei"><ruby>
+                                    <cell rendition="#width80"><ruby>
                                             <rb>美作国</rb>
                                             <rt place="right">みまさかのくに</rt>
                                         </ruby>上</cell>
@@ -1537,7 +1649,7 @@
                                         </ruby>　真島〉</cell>
                                 </row>
                                 <row>
-                                    <cell rendition="#kokumei"><ruby>
+                                    <cell rendition="#width80"><ruby>
                                             <rb>備前国</rb>
                                             <rt place="right">びぜんのくに</rt>
                                         </ruby>上</cell>
@@ -1562,7 +1674,7 @@
                             <s rendition="#indent2">以上は近国とせよ。</s>
                             <table rendition="#indent1">
                                 <row>
-                                    <cell rendition="#kokumei"><ruby>
+                                    <cell rendition="#width80"><ruby>
                                             <rb>備中国</rb>
                                             <rt place="right">びっちゅうのくに</rt>
                                         </ruby>上</cell>
@@ -1593,7 +1705,7 @@
                                         </ruby>〉</cell>
                                 </row>
                                 <row>
-                                    <cell rendition="#kokumei"><ruby>
+                                    <cell rendition="#width80"><ruby>
                                             <rb>備後国</rb>
                                             <rt place="right">びんごのくに</rt>
                                         </ruby>上</cell>
@@ -1636,7 +1748,7 @@
                             <s rendition="#indent2">以上は中国とせよ。</s>
                             <table rendition="#indent1">
                                 <row>
-                                    <cell rendition="#kokumei"><ruby>
+                                    <cell rendition="#width80"><ruby>
                                             <rb>安芸国</rb>
                                             <rt place="right">あきのくに</rt>
                                         </ruby>上</cell>
@@ -1652,7 +1764,7 @@
                                         </ruby>〉</cell>
                                 </row>
                                 <row>
-                                    <cell rendition="#kokumei"><ruby>
+                                    <cell rendition="#width80"><ruby>
                                             <rb>周防国</rb>
                                             <rt place="right">すおうのくに</rt>
                                         </ruby>上</cell>
@@ -1674,7 +1786,7 @@
                                         </ruby>〉</cell>
                                 </row>
                                 <row>
-                                    <cell rendition="#kokumei"><ruby>
+                                    <cell rendition="#width80"><ruby>
                                             <rb>長門国</rb>
                                             <rt place="right">ながとのくに</rt>
                                         </ruby>中</cell>
@@ -1705,7 +1817,7 @@
                             corresp="engishiki.xml#item22100701 engishiki_en.xml#item22100701"
                             xml:id="item22100701">南海道 <table rendition="#indent1">
                                 <row>
-                                    <cell rendition="#kokumei"><ruby>
+                                    <cell rendition="#width80"><ruby>
                                             <rb>紀伊国</rb>
                                             <rt place="right">きいのくに</rt>
                                         </ruby>上</cell>
@@ -1724,7 +1836,7 @@
                                         </ruby>〉</cell>
                                 </row>
                                 <row>
-                                    <cell rendition="#kokumei"><ruby>
+                                    <cell rendition="#width80"><ruby>
                                             <rb>淡路国</rb>
                                             <rt place="right">あわじのくに</rt>
                                         </ruby>下</cell>
@@ -1734,7 +1846,7 @@
                             <s rendition="#indent2">以上は近国とせよ。</s>
                             <table rendition="#indent1">
                                 <row>
-                                    <cell rendition="#kokumei"><ruby>
+                                    <cell rendition="#width80"><ruby>
                                             <rb>阿波国</rb>
                                             <rt place="right">あわのくに</rt>
                                         </ruby>上</cell>
@@ -1756,7 +1868,7 @@
                                         </ruby>　那賀〉</cell>
                                 </row>
                                 <row>
-                                    <cell rendition="#kokumei"><ruby>
+                                    <cell rendition="#width80"><ruby>
                                             <rb>讃岐国</rb>
                                             <rt place="right">さぬきのくに</rt>
                                         </ruby>上</cell>
@@ -1790,7 +1902,7 @@
                             <s rendition="#indent2">以上は中国とせよ。</s>
                             <table rendition="#indent1">
                                 <row>
-                                    <cell rendition="#kokumei"><ruby>
+                                    <cell rendition="#width80"><ruby>
                                             <rb>伊予国</rb>
                                             <rt place="right">いよのくに</rt>
                                         </ruby>上</cell>
@@ -1824,7 +1936,7 @@
                                         </ruby>　宇和〉</cell>
                                 </row>
                                 <row>
-                                    <cell rendition="#kokumei"><ruby>
+                                    <cell rendition="#width80"><ruby>
                                             <rb>土佐国</rb>
                                             <rt place="right">とさのくに</rt>
                                         </ruby>中</cell>
@@ -1852,7 +1964,7 @@
                             corresp="engishiki.xml#item22100801 engishiki_en.xml#item22100801"
                             xml:id="item22100801">西海道 <table rendition="#indent1">
                                 <row>
-                                    <cell rendition="#kokumei"><ruby>
+                                    <cell rendition="#width80"><ruby>
                                             <rb>筑前国</rb>
                                             <rt place="right">ちくぜんのくに</rt>
                                         </ruby>上</cell>
@@ -1901,7 +2013,7 @@
                                         </ruby>〉</cell>
                                 </row>
                                 <row>
-                                    <cell rendition="#kokumei"><ruby>
+                                    <cell rendition="#width80"><ruby>
                                             <rb>筑後国</rb>
                                             <rt place="right">ちくごのくに</rt>
                                         </ruby>上</cell>
@@ -1935,7 +2047,7 @@
                                         </ruby>〉</cell>
                                 </row>
                                 <row>
-                                    <cell rendition="#kokumei"><ruby>
+                                    <cell rendition="#width80"><ruby>
                                             <rb>豊前国</rb>
                                             <rt place="right">ぶぜんのくに</rt>
                                         </ruby>上</cell>
@@ -1957,7 +2069,7 @@
                                         </ruby>　宇佐〉</cell>
                                 </row>
                                 <row>
-                                    <cell rendition="#kokumei"><ruby>
+                                    <cell rendition="#width80"><ruby>
                                             <rb>豊後国</rb>
                                             <rt place="right">ぶんごのくに</rt>
                                         </ruby>上</cell>
@@ -1985,7 +2097,7 @@
                                         </ruby>〉</cell>
                                 </row>
                                 <row>
-                                    <cell rendition="#kokumei"><ruby>
+                                    <cell rendition="#width80"><ruby>
                                             <rb>肥前国</rb>
                                             <rt place="right">ひぜんのくに</rt>
                                         </ruby>上</cell>
@@ -2022,7 +2134,7 @@
                                         </ruby>〉</cell>
                                 </row>
                                 <row>
-                                    <cell rendition="#kokumei"><ruby>
+                                    <cell rendition="#width80"><ruby>
                                             <rb>肥後国</rb>
                                             <rt place="right">ひごのくに</rt>
                                         </ruby>大</cell>
@@ -2065,7 +2177,7 @@
                                         </ruby>〉</cell>
                                 </row>
                                 <row>
-                                    <cell rendition="#kokumei"><ruby>
+                                    <cell rendition="#width80"><ruby>
                                             <rb>日向国</rb>
                                             <rt place="right">ひゅうがのくに</rt>
                                         </ruby>中</cell>
@@ -2081,7 +2193,7 @@
                                         </ruby>〉</cell>
                                 </row>
                                 <row>
-                                    <cell rendition="#kokumei"><ruby>
+                                    <cell rendition="#width80"><ruby>
                                             <rb>大隅国</rb>
                                             <rt place="right">おおすみのくに </rt>
                                         </ruby>中</cell>
@@ -2109,7 +2221,7 @@
                                         </ruby>〉</cell>
                                 </row>
                                 <row>
-                                    <cell rendition="#kokumei"><ruby>
+                                    <cell rendition="#width80"><ruby>
                                             <rb>薩摩国</rb>
                                             <rt place="right">さつまのくに</rt>
                                         </ruby>中</cell>
@@ -2152,7 +2264,7 @@
                                         </ruby>〉</cell>
                                 </row>
                                 <row>
-                                    <cell rendition="#kokumei"><ruby>
+                                    <cell rendition="#width80"><ruby>
                                             <rb>壱岐島</rb>
                                             <rt place="right">いきのしま</rt>
                                         </ruby>下</cell>
@@ -2162,7 +2274,7 @@
                                         </ruby>〉</cell>
                                 </row>
                                 <row>
-                                    <cell rendition="#kokumei"><ruby>
+                                    <cell rendition="#width80"><ruby>
                                             <rb>対馬島</rb>
                                             <rt place="right">つしまのしま</rt>
                                         </ruby>下</cell>
