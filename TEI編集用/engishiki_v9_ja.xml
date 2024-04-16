@@ -142,9 +142,9 @@
                 <rendition xml:id="indent2">margin-top: 2em;</rendition>
                 <rendition xml:id="indent5">margin-top: 5em;</rendition>
                 <rendition xml:id="width50">width: 50px;</rendition>
-                <rendition xml:id="kokumei">width: 80px;</rendition>
+                <rendition xml:id="width80">width: 80px;</rendition>
                 <rendition xml:id="width100">width: 100px;</rendition>
-                <rendition xml:id="jinnmyou">width: 200px;</rendition>
+                <rendition xml:id="width200">width: 200px;</rendition>
                 <rendition xml:id="width300">width: 300px;</rendition>
             </tagsDecl>
             <editorialDecl>
@@ -214,7 +214,8 @@
         </encodingDesc>
         <revisionDesc ana="個別">
             <listChange>
-                <change/>
+                <change when="2024-04-16"
+                    ><date>2024年04月16日</date>第6大和国条(14高市郡)「畝火神山口」を「畝火山口」に修正しました。</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -268,19 +269,19 @@
                         <note type="summary">宮中の官社</note>
                         <p ana="項"
                             corresp="engishiki.xml#item09100201 engishiki_en.xml#item09100201"
-                            xml:id="item09100201">宮中神三十六座 <lb/>神祇官西院に鎮座する<ruby>
+                            xml:id="item09100201">宮中神三十六座 <lb/><ruby>
+                                <rb>神祇官</rb>
+                                <rt place="right">じんぎかん</rt>
+                            </ruby>西院に鎮座する<ruby>
                                 <rb>御巫</rb>
                                 <rt place="right">みかんなぎ</rt>
                             </ruby>らが祭る神二十三座〈みな大。<ruby>
                                 <rb>月次祭</rb>
                                 <rt place="right">つきなみさい</rt>
                             </ruby>と<ruby>
-                                <rb>新嘗</rb>
-                                <rt place="right">にいなめ</rt>
-                            </ruby>祭の班幣対象でもある。〉 <lb/><s rendition="#indent">御巫が祭る神八座〈みな大。月次祭と<ruby>
-                                    <rb>新嘗祭</rb>
-                                    <rt place="right">にいなめさい</rt>
-                                </ruby>の班幣対象でもある。<ruby>
+                                <rb>新嘗祭</rb>
+                                <rt place="right">にいなめさい</rt>
+                            </ruby>の班幣対象でもある。〉 <lb/><s rendition="#indent">御巫が祭る神八座〈みな大。月次祭と新嘗祭の班幣対象でもある。<ruby>
                                     <rb>中宮</rb>
                                     <rt place="right">ちゅうぐう</rt>
                                 </ruby>・<ruby>
@@ -436,7 +437,10 @@
                                 <rt place="right">だいぜんしき</rt>
                             </ruby>に鎮座する神三座〈みな小。〉 <table>
                                 <row>
-                                    <cell rendition="#width300">御食津神の社</cell>
+                                    <cell rendition="#width300"><ruby>
+                                            <rb>御食津神</rb>
+                                            <rt place="right">みけつかみ</rt>
+                                        </ruby>の社</cell>
                                     <cell rendition="#width50"/>
                                     <cell rendition="#width300"><ruby>
                                             <rb>火雷神</rb>
@@ -452,7 +456,10 @@
                             <lb/><ruby>
                                 <rb>造酒司</rb>
                                 <rt place="right">ぞうしゅし</rt>
-                            </ruby>に鎮座する神六座〈大四座。小二座。〉 <lb/>大宮売神の社四座〈みな大。月次祭と新嘗祭の班幣対象でもある。〉 <table>
+                            </ruby>に鎮座する神六座〈大四座。小二座。〉 <lb/><ruby>
+                                <rb>大宮売神</rb>
+                                <rt place="right">おおみやのめのかみ</rt>
+                            </ruby>の社四座〈みな大。月次祭と新嘗祭の班幣対象でもある。〉 <table>
                                 <row>
                                     <cell rendition="#width300"><ruby>
                                             <rb>酒殿神</rb>
@@ -745,9 +752,9 @@
                                             <rt place="right">ふかがわのかみ</rt>
                                         </ruby>の社</cell>
                                     <cell rendition="#width50"/>
-                                    <cell rendition="#width300">墮川<ruby>
-                                            <rb>御上神</rb>
-                                            <rt place="right">みかみのかみ</rt>
+                                    <cell rendition="#width300"><ruby>
+                                            <rb>墮川御上神</rb>
+                                            <rt place="right">おちかわのみかみのかみ</rt>
                                         </ruby>の社</cell>
                                     <cell rendition="#width50"/>
                                     <cell rendition="#width300"><ruby>
@@ -1015,7 +1022,10 @@
                                     <cell rendition="#width300"><ruby>
                                             <rb>水主神</rb>
                                             <rt place="right">みぬしのかみ</rt>
-                                        </ruby>の社十座〈みな大。月次祭と新嘗祭の班幣対象でもある。このうち同じく水主に鎮座する天照御魂神・ 三伴託<ruby>
+                                        </ruby>の社十座〈みな大。月次祭と新嘗祭の班幣対象でもある。このうち同じく水主に鎮座する<ruby>
+                                            <rb>天照御魂神</rb>
+                                            <rt place="right">あまてるみむすひのかみ</rt>
+                                        </ruby>・ 三伴託<ruby>
                                             <rb>山背大国魂命神</rb>
                                             <rt place="right">やましろのおおくにたまのみことのかみ</rt>
                                         </ruby>二座は相嘗祭の対象。〉</cell>
@@ -1084,7 +1094,10 @@
                                             <rt place="right">すちのかみ</rt>
                                         </ruby>の社</cell>
                                     <cell rendition="#width50"/>
-                                    <cell rendition="#width300">月読神の社〈大。月次祭と新嘗祭の班幣対象でもある。〉</cell>
+                                    <cell rendition="#width300"><ruby>
+                                            <rb>月読神</rb>
+                                            <rt place="right">つきよみのかみ</rt>
+                                        </ruby>の社〈大。月次祭と新嘗祭の班幣対象でもある。〉</cell>
                                 </row>
                                 <row>
                                     <cell rendition="#width300"><ruby>
@@ -1485,9 +1498,9 @@
                                     <cell rendition="#width300"/>
                                 </row>
                                 <row>
-                                    <cell rendition="#width300">伊古麻<ruby>
-                                            <rb>山口神</rb>
-                                            <rt place="right">やまのくちのかみ</rt>
+                                    <cell rendition="#width300"><ruby>
+                                            <rb>伊古麻山口神</rb>
+                                            <rt place="right">いこまのやまのくちのかみ</rt>
                                         </ruby>の社〈大。月次祭と新嘗祭の班幣対象でもある。〉</cell>
                                     <cell rendition="#width50"/>
                                     <cell rendition="#width300"><ruby>
@@ -1568,7 +1581,10 @@
                                             <rt place="right">ほのいかづちのみことのかみ</rt>
                                         </ruby>の社</cell>
                                     <cell rendition="#width50"/>
-                                    <cell rendition="#width300">於神の社〈幣帛に鍬が加えられる。〉</cell>
+                                    <cell rendition="#width300"><ruby>
+                                            <rb>於神</rb>
+                                            <rt place="right">うえのかみ</rt>
+                                        </ruby>の社〈幣帛に鍬が加えられる。〉</cell>
                                 </row>
                             </table>
                         </p>
@@ -1585,7 +1601,7 @@
                                             <rt place="right">かもつばやえことしろぬしのみことのかみ</rt>
                                         </ruby>の社二座〈ともに名神・大。月次祭と相嘗祭・新嘗祭の対象でもある。〉</cell>
                                     <cell rendition="#width50"/>
-                                    <cell rendition="#width300">葛木<ruby>
+                                    <cell rendition="#width300"><ruby>
                                             <rb>葛木御歳神</rb>
                                             <rt place="right">かずらきのみとしのかみ</rt>
                                         </ruby>の社〈名神・大。月次祭と新嘗祭の班幣対象でもある。〉</cell>
@@ -1600,7 +1616,7 @@
                                     <cell rendition="#width50"/>
                                     <cell rendition="#width300"><ruby>
                                             <rb>多太神</rb>
-                                            <rt place="right">ただ</rt>
+                                            <rt place="right">ただのかみ</rt>
                                         </ruby>の社〈幣帛に鍬・靫が加えられる。〉</cell>
                                     <cell rendition="#width50"/>
                                     <cell rendition="#width300"><ruby>
@@ -1609,17 +1625,20 @@
                                         </ruby>の社〈幣帛に鍬・靫が加えられる。〉</cell>
                                 </row>
                                 <row>
-                                    <cell rendition="#width300">巨勢<ruby>
-                                            <rb>山口神</rb>
-                                            <rt place="right">やまのくちのかみ</rt>
+                                    <cell rendition="#width300"><ruby>
+                                            <rb>巨勢山口神</rb>
+                                            <rt place="right">こせのやまのくちのかみ</rt>
                                         </ruby>の社〈大。月次祭と新嘗祭の班幣対象でもある。〉</cell>
                                     <cell rendition="#width50"/>
-                                    <cell rendition="#width300">葛木<ruby>
-                                            <rb>水分神</rb>
-                                            <rt place="right">みくまりのかみ</rt>
+                                    <cell rendition="#width300"><ruby>
+                                            <rb>葛木水分神</rb>
+                                            <rt place="right">かずらきのみくまりのかみ</rt>
                                         </ruby>の社〈名神・大。月次祭と新嘗祭の班幣対象でもある。〉</cell>
                                     <cell rendition="#width50"/>
-                                    <cell rendition="#width300">鴨山口神の社〈大。月次祭と新嘗祭の班幣対象でもある。〉</cell>
+                                    <cell rendition="#width300"><ruby>
+                                            <rb>鴨山口神</rb>
+                                            <rt place="right">かものやまのくち</rt>
+                                        </ruby>の社〈大。月次祭と新嘗祭の班幣対象でもある。〉</cell>
                                 </row>
                                 <row>
                                     <cell rendition="#width300"><ruby>
@@ -1660,9 +1679,9 @@
                                 </ruby>十八座〈大十三座。小五座。〉</s>
                             <table>
                                 <row>
-                                    <cell rendition="#width300">葛木<ruby>
-                                            <rb>倭文</rb>
-                                            <rt place="right">しとり</rt>
+                                    <cell rendition="#width300"><ruby>
+                                            <rb>葛木倭文</rb>
+                                            <rt place="right">かずらきのしとり</rt>
                                         </ruby>に鎮座する<ruby>
                                             <rb>天羽雷命神</rb>
                                             <rt place="right">あめのはずちのみことのかみ</rt>
@@ -1705,9 +1724,9 @@
                                             <rt place="right">かなむらのかみ</rt>
                                         </ruby>の社〈大。月次祭と新嘗祭の班幣対象でもある。〉</cell>
                                     <cell rendition="#width50"/>
-                                    <cell rendition="#width300">葛木<ruby>
-                                            <rb>御県神</rb>
-                                            <rt place="right">みあがたのかみ</rt>
+                                    <cell rendition="#width300"><ruby>
+                                            <rb>葛木御県神</rb>
+                                            <rt place="right">かずらきのみあがたのかみ</rt>
                                         </ruby>の社〈大。月次祭と新嘗祭の班幣対象でもある。〉</cell>
                                 </row>
                                 <row>
@@ -1727,16 +1746,19 @@
                                         </ruby>の社</cell>
                                 </row>
                                 <row>
-                                    <cell rendition="#width300">伊射奈岐神の社</cell>
+                                    <cell rendition="#width300"><ruby>
+                                            <rb>伊射奈岐神</rb>
+                                            <rt place="right">いざなきのかみ</rt>
+                                        </ruby>の社</cell>
                                     <cell rendition="#width50"/>
                                     <cell rendition="#width300"><ruby>
                                             <rb>当麻都比古神</rb>
                                             <rt place="right">たいまつひこのかみ</rt>
                                         </ruby>の社二座</cell>
                                     <cell rendition="#width50"/>
-                                    <cell rendition="#width300">当麻<ruby>
-                                            <rb>山口神</rb>
-                                            <rt place="right">やまのくちのかみ</rt>
+                                    <cell rendition="#width300"><ruby>
+                                            <rb>当麻山口神</rb>
+                                            <rt place="right">たいまのやまのくちのかみ</rt>
                                         </ruby>の社〈大。月次祭と新嘗祭の班幣対象でもある。〉</cell>
                                 </row>
                                 <row>
@@ -1783,7 +1805,10 @@
                                 </ruby>十一座〈小。〉</s>
                             <table>
                                 <row>
-                                    <cell rendition="#width300">宇智神の社</cell>
+                                    <cell rendition="#width300"><ruby>
+                                            <rb>宇智神</rb>
+                                            <rt place="right">うちのかみ</rt>
+                                        </ruby>の社</cell>
                                     <cell rendition="#width50"/>
                                     <cell rendition="#width300"><ruby>
                                             <rb>阿陀比売神</rb>
@@ -1812,7 +1837,10 @@
                                         </ruby>の社</cell>
                                 </row>
                                 <row>
-                                    <cell rendition="#width300">火雷神の社</cell>
+                                    <cell rendition="#width300"><ruby>
+                                            <rb>火雷神</rb>
+                                            <rt place="right">ほのいかずちのかみ</rt>
+                                        </ruby>の社</cell>
                                     <cell rendition="#width50"/>
                                     <cell rendition="#width300"><ruby>
                                             <rb>高天岸野神</rb>
@@ -1914,9 +1942,9 @@
                                 </ruby>十七座〈大一座。小十六座。〉</s>
                             <table>
                                 <row>
-                                    <cell rendition="#width300">宇太<ruby>
-                                            <rb>水分神</rb>
-                                            <rt place="right">みくまりのかみ</rt>
+                                    <cell rendition="#width300"><ruby>
+                                            <rb>宇太水分神</rb>
+                                            <rt place="right">うだのみくまりのかみ</rt>
                                         </ruby>の社〈大。月次祭と新嘗祭の班幣対象でもある。〉</cell>
                                     <cell rendition="#width50"/>
                                     <cell rendition="#width300"><ruby>
@@ -2122,7 +2150,10 @@
                                         </ruby>の社</cell>
                                 </row>
                                 <row>
-                                    <cell rendition="#width300">伊射奈岐神の社</cell>
+                                    <cell rendition="#width300"><ruby>
+                                            <rb>伊射奈岐神</rb>
+                                            <rt place="right">いざなきのかみ</rt>
+                                        </ruby>の社</cell>
                                     <cell rendition="#width50"/>
                                     <cell rendition="#width300"><ruby>
                                             <rb>綱越神</rb>
@@ -2243,9 +2274,9 @@
                                         </ruby>の社</cell>
                                 </row>
                                 <row>
-                                    <cell rendition="#width300">鏡作<ruby>
-                                            <rb>麻気神</rb>
-                                            <rt place="right">まけのかみ</rt>
+                                    <cell rendition="#width300"><ruby>
+                                            <rb>鏡作麻気神</rb>
+                                            <rt place="right">かがみつくりのまけのかみ</rt>
                                         </ruby>の社</cell>
                                     <cell rendition="#width50"/>
                                     <cell rendition="#width300"><ruby>
@@ -2286,9 +2317,9 @@
                                             <rt place="right">そがつひこのかみ</rt>
                                         </ruby>の社二座〈みな大。月次祭と新嘗祭の班幣対象でもある。〉</cell>
                                     <cell rendition="#width50"/>
-                                    <cell rendition="#width300">飛鳥<ruby>
-                                            <rb>山口神</rb>
-                                            <rt place="right">やまのくちのかみ</rt>
+                                    <cell rendition="#width300"><ruby>
+                                            <rb>飛鳥山口神</rb>
+                                            <rt place="right">あすかのやまのくちのかみ</rt>
                                         </ruby>に鎮座する神の社〈大。月次祭と新嘗祭の班幣対象でもある。〉</cell>
                                     <cell rendition="#width50"/>
                                     <cell rendition="#width300"/>
@@ -2311,9 +2342,9 @@
                                 </row>
                                 <row>
                                     <cell rendition="#width300"><ruby>
-                                            <rb>畝火神</rb>
-                                            <rt place="right">うねびののかみ</rt>
-                                        </ruby>山口に鎮座する神の社〈大。月次祭と新嘗祭の班幣対象でもある。〉</cell>
+                                            <rb>畝火山口</rb>
+                                            <rt place="right">うねびのやまのくち</rt>
+                                        </ruby>に鎮座する神の社〈大。月次祭と新嘗祭の班幣対象でもある。〉</cell>
                                     <cell rendition="#width50"/>
                                     <cell rendition="#width300"
                                         >高市御県神の社〈名神・大。月次祭と新嘗祭の班幣対象でもある。〉</cell>
