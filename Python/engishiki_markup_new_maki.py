@@ -118,7 +118,7 @@ for data in metadata:
     t_div_shiki.append(soup.new_tag('div', **{"ana":f"{shiki_name}", "xml:id":f"{article_id}", "n":f"{shiki_no}.{data['条']}", "type":"条", "subtype":"項", "corresp":f"{corresp_list[0]}#{article_id} {corresp_list[1]}#{article_id}"}))
     # ポイントは、ここで末尾のdivを指定しないといけないこと。以下、同様
     t_div_shiki.select('div')[-1].append(soup.new_tag('head', ana=f'{data["条文名"]}'))
-    if lang_choice == "_ja":
+    if lang_choice != "":
         t_div_shiki.select('div')[-1].append(soup.new_tag('note', **{"type":"summary"}))
     
     # 次に、項数文だけpタグを追加
@@ -133,7 +133,7 @@ items = soup.select('p[ana="項"]')
 for item in items:
     item.append('本文')
 
-if lang_choice == "_ja":
+if lang_choice != "":
     summaries = soup.select('note[type="summary"]')
     for summary in summaries:
         summary.append('条文概要')
