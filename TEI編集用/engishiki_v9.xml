@@ -4430,24 +4430,27 @@
               <table>
                 <row>
                   <cell rendition="#width300"><anchor xml:id="app0910110501"/>名<anchor
-                      xml:id="app0910110502"/>居<anchor xml:id="app0910110502e"/>神社</cell>
+                      xml:id="app0910110502"/>居<anchor xml:id="app0910110502e"/>神社<anchor
+                      xml:id="app0910110501e"/></cell>
                   <cell rendition="#width50"/>
-                  <cell rendition="#width300">宇流富志弥神社<anchor xml:id="app0910110501e"/></cell>
+                  <cell rendition="#width300"><anchor xml:id="app0910110503"/>宇流富志弥神社<anchor
+                      xml:id="app0910110503e"/></cell>
                   <cell rendition="#width50"/>
                   <cell rendition="#width300"/>
                 </row>
               </table>
             </p>
             <app from="#app0910110501" to="#app0910110501e">
-              <lem wit="#土本 #永本 #九本 #京博本">名居神社　宇流富志弥神社</lem>
-              <rdg wit="#吉本">宇流富志弥神社　名井神社</rdg>
-              <note>名居神社宇流富志弥神社　吉本は名居神社の前に宇流富志弥神社を配列する。</note>
+              <note>名居神社　吉本は名居神社の前に宇流富志弥神社を配列する。</note>
             </app>
             <app from="#app0910110502" to="#app0910110502e">
               <lem wit="#土本 #永本 #九本 #京博本">居</lem>
               <rdg wit="#吉本">井</rdg>
               <note place="傍">永本左傍書「井　官」</note>
               <note>居　吉本「井」、永本左傍書「井　官」。土本・永本・九本・京博本「居」。</note>
+            </app>
+            <app from="#app0910110503" to="#app0910110503e">
+              <note>宇流富志弥神社　吉本は名居神社の前に宇流富志弥神社を配列する。</note>
             </app>
           </div>
           <div ana="神名上" corresp="engishiki_en.xml#article091012 engishiki_ja.xml#article091012"
@@ -5283,9 +5286,11 @@
                   <cell rendition="#width300">伎留太神社</cell>
                 </row>
                 <row>
-                  <cell rendition="#width300"><anchor xml:id="app0910121202"/>石部神社二座</cell>
+                  <cell rendition="#width300"><anchor xml:id="app0910121202"/>石部神社二座<anchor
+                      xml:id="app0910121202e"/></cell>
                   <cell rendition="#width50"/>
-                  <cell rendition="#width300">菟上神社<anchor xml:id="app0910121202e"/></cell>
+                  <cell rendition="#width300"><anchor xml:id="app0910121206"/>菟上神社<anchor
+                      xml:id="app0910121206e"/></cell>
                   <cell rendition="#width50"/>
                   <cell rendition="#width300"><anchor xml:id="app0910121203"/>大<anchor
                       xml:id="app0910121203e"/>神社</cell>
@@ -5343,9 +5348,7 @@
               <note>熊　土本・吉本・京博本、永本傍書および訳注本「能」。永本・九本・剛本「熊」。</note>
             </app>
             <app from="#app0910121202" to="#app0910121202e">
-              <lem wit="#土本 #永本 #九本 #吉本 #京博本">石部神社二座　菟上神社</lem>
-              <rdg wit="#剛本">菟上神社　石部神社二座</rdg>
-              <note>石部神社二座　菟上神社　剛本は菟上神社の次に配列する。</note>
+              <note>石部神社二座　剛本は菟上神社の次に配列する。</note>
             </app>
             <app from="#app0910121203" to="#app0910121203e">
               <lem wit="#永本 #京博本">大</lem>
@@ -5359,6 +5362,9 @@
               <lem wit="#永本 #九本 #剛本 #吉本 #京博本">谷</lem>
               <rdg wit="#土本">各</rdg>
               <note>谷　土本「各」、永本・九本・剛本・吉本・京博本「谷」。</note>
+            </app>
+            <app from="#app0910121206" to="#app0910121206e">
+              <note>菟上神社　剛本は石部神社二座の前に配列する。</note>
             </app>
             <p ana="項" corresp="engishiki_en.xml#item09101213 engishiki_ja.xml#item09101213"
               xml:id="item09101213"><s rendition="#indent">員弁郡十座〈並小、〉</s>
@@ -5840,11 +5846,14 @@
               xml:id="item09101407"><s rendition="#indent">山田郡十九座〈並小、〉</s>
               <table>
                 <row>
-                  <cell rendition="#width300"><anchor xml:id="app0910140701"/>片山神社</cell>
+                  <cell rendition="#width300"><anchor xml:id="app0910140701"/>片山神社<anchor
+                      xml:id="app0910140701e"/></cell>
                   <cell rendition="#width50"/>
-                  <cell rendition="#width300">大目神社</cell>
+                  <cell rendition="#width300"><anchor xml:id="app0910140704"/>大目神社<anchor
+                      xml:id="app0910140704e"/></cell>
                   <cell rendition="#width50"/>
-                  <cell rendition="#width300">羊神社<anchor xml:id="app0910140701e"/></cell>
+                  <cell rendition="#width300"><anchor xml:id="app0910140705"/>羊神社<anchor
+                      xml:id="app0910140705e"/></cell>
                 </row>
                 <row>
                   <cell rendition="#width300">深川神社</cell>
@@ -5893,10 +5902,7 @@
               </table>
             </p>
             <app from="#app0910140701" to="#app0910140701e">
-              <lem wit="#土本 #永本 #九本 #京博本">片山神社　大目神社　羊神社</lem>
-              <rdg wit="#吉本">大目神社　羊神社　片山神社</rdg>
-              <note>永本「イ本片山爰ニアリ」</note>
-              <note>片山神社　大目神社　羊神社　吉本は片山神社を羊神社の次に配列する。永本も羊神社の下に「イ本片山爰ニアリ」と記す。</note>
+              <note>片山神社…羊神社（3社）　吉本は片山神社を羊神社の次に配列する。永本も羊神社の下に「イ本片山爰ニアリ」と記す。</note>
             </app>
             <app from="#app0910140702" to="#app0910140702e">
               <lem wit="#土本 #永本 #九本 #京博本">川</lem>
@@ -5907,6 +5913,13 @@
               <lem wit="#土本 #九本 #吉本 #京博本 #西本">太</lem>
               <rdg wit="#永本">大</rdg>
               <note>太　永本「大」。土本・九本・吉本・京博本・西本「太」。</note>
+            </app>
+            <app from="#app0910140704" to="#app0910140704e">
+              <note>片山神社…羊神社（3社）　吉本は片山神社を羊神社の次に配列する。永本も羊神社の下に「イ本片山爰ニアリ」と記す。</note>
+            </app>
+            <app from="#app0910140705" to="#app0910140705e">
+              <note>永本「イ本片山爰ニアリ」</note>
+              <note>片山神社…羊神社（3社）　吉本は片山神社を羊神社の次に配列する。永本も羊神社の下に「イ本片山爰ニアリ」と記す。</note>
             </app>
             <p ana="項" corresp="engishiki_en.xml#item09101408 engishiki_ja.xml#item09101408"
               xml:id="item09101408"><s rendition="#indent">愛智郡十七座〈大四座、小十三座、〉</s>
@@ -5995,18 +6008,21 @@
               xml:id="item09101409"><s rendition="#indent">知多郡三座〈並小、〉</s>
               <table>
                 <row>
-                  <cell rendition="#width300"><anchor xml:id="app0910140901"/>入見神社</cell>
+                  <cell rendition="#width300"><anchor xml:id="app0910140901"/>入見神社<anchor
+                      xml:id="app0910140901e"/></cell>
                   <cell rendition="#width50"/>
-                  <cell rendition="#width300">阿久比神社<anchor xml:id="app0910140901e"/></cell>
+                  <cell rendition="#width300"><anchor xml:id="app0910140902"/>阿久比神社<anchor
+                      xml:id="app0910140902e"/></cell>
                   <cell rendition="#width50"/>
                   <cell rendition="#width300">羽豆神社</cell>
                 </row>
               </table>
             </p>
             <app from="#app0910140901" to="#app0910140901e">
-              <lem wit="#永本 #九本 #吉本 #京博本">入見神社　阿久比神社</lem>
-              <rdg wit="#土本">阿久比神社　入見神社</rdg>
-              <note>入見神社　阿久比神社　土本は入見神社を阿久比神社の次に配列する。</note>
+              <note>入見神社　土本は入見神社を阿久比神社の次に配列する。</note>
+            </app>
+            <app from="#app0910140901" to="#app0910140901e">
+              <note>阿久比神社　土本は入見神社を阿久比神社の次に配列する。</note>
             </app>
           </div>
           <div ana="神名上" corresp="engishiki_en.xml#article091015 engishiki_ja.xml#article091015"
