@@ -4134,9 +4134,10 @@
                   <cell rendition="#width300">石倉比古神社</cell>
                   <cell rendition="#width50"/>
                   <cell rendition="#width300">
-                    <anchor xml:id="app1010140402"/> 美麻奈比古神社</cell>
+                    <anchor xml:id="app1010140402"/> 美麻奈比古神社<anchor xml:id="app1010140402e"/></cell>
                   <cell rendition="#width50"/>
-                  <cell rendition="#width300">美麻奈比咩神社 <anchor xml:id="app1010140402e"/>
+                  <cell rendition="#width300"><anchor xml:id="app1010140407"/>美麻奈比咩神社 <anchor
+                      xml:id="app1010140407e"/>
                   </cell>
                 </row>
                 <row>
@@ -4146,11 +4147,12 @@
                   </cell>
                   <cell rendition="#width50"/>
                   <cell rendition="#width300">
-                    <anchor xml:id="app1010140405"/> 奥津比咩神社</cell>
+                    <anchor xml:id="app1010140405"/> 奥津比咩神社<anchor xml:id="app1010140405e"/></cell>
                   <cell rendition="#width50"/>
                   <cell rendition="#width300">
                     <anchor xml:id="app1010140406"/>
-                    <anchor xml:id="app1010140406e"/> 辺津比咩神社 <anchor xml:id="app1010140405e"/>
+                    <anchor xml:id="app1010140406e"/>
+                    <anchor xml:id="app1010140408"/>辺津比咩神社 <anchor xml:id="app1010140408e"/>
                   </cell>
                 </row>
               </table>
@@ -4161,8 +4163,6 @@
               <note>枌　九本および訳注本「杉」。土本・永本・花本・吉本・京博本「枌」</note>
             </app>
             <app from="#app1010140402" to="#app1010140402e">
-              <lem wit="#土本 #永本 #九本 #吉本 #京博本">美麻奈比古神社　美麻奈比咩神社</lem>
-              <rdg wit="#花本">美麻奈比咩神社　美麻奈比古神社</rdg>
               <note>美麻奈比古神社　花本「美麻奈比咩神社」の次に配列する。</note>
             </app>
             <app from="#app1010140403" to="#app1010140403e">
@@ -4178,14 +4178,18 @@
               <note>社　九本無し　土本・永本・花本・吉本・京博本あり</note>
             </app>
             <app from="#app1010140405" to="#app1010140405e">
-              <lem wit="#土本 #永本 #九本 #花本 #吉本 #京博本">奥津比咩神社　辺津比咩神社</lem>
-              <rdg wit="#花本">辺津比咩神社　奥津比咩神社</rdg>
               <note>奥津比咩神社　花本「辺津比咩神社」の次に配列する。</note>
             </app>
             <app from="#app1010140406" to="#app1010140406e" type="標注">
               <lem wit="#花本">
                 <seg style="color:red">貞</seg>
               </lem>
+            </app>
+            <app from="#app1010140407" to="#app1010140407e">
+              <note>美麻奈比咩神社　花本「美麻奈比咩神社」の前に配列する。</note>
+            </app>
+            <app from="#app1010140408" to="#app1010140408e">
+              <note>辺津比咩神社　花本「奥津比咩神社」の前に配列する。</note>
             </app>
             <p ana="項" corresp="engishiki_en.xml#item10101405 engishiki_ja.xml#item10101405"
               xml:id="item10101405">
