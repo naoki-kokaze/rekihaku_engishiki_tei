@@ -770,7 +770,7 @@
             </p>
             <app from="#app1010021101" to="#app1010021101e">
               <lem wit="#永本">十</lem>
-              <rdg wit="吉本・京博本">一十</rdg>
+              <rdg wit="#土本 #吉本 #京博本">一十</rdg>
               <note>十　土本・吉本・京博本および訳注本「一十」。</note>
             </app>
             <p ana="項" corresp="engishiki_en.xml#item10100212 engishiki_ja.xml#item10100212"
@@ -910,13 +910,9 @@
               <note>売比　訳注本は貞享本等に従い「比売」に改める。永本・吉本傍訓「ヒメ」。</note>
             </app>
             <app from="#app1010021203" to="#app1010021203e">
-              <lem wit="#土本 #永本 #京博本">等波神社</lem>
-              <rdg wit="#吉本 "/>
               <note>等波神社　吉本は横山神社の次に配列する。</note>
             </app>
             <app from="#app1010021204" to="#app1010021204e">
-              <lem wit="#土本 #永本 #京博本">横山神社</lem>
-              <rdg wit="#吉本 ">横山神社　等波神社</rdg>
               <note place="脚">永本脚書「イ本上ニアリ、」</note>
               <note>横山神社　吉本は「等波神社」を「横山神社」の次に配列する。永本は横山神社に脚書「イ本上ニアリ、」あり。</note>
             </app>
@@ -930,8 +926,8 @@
               <lem wit="#永本">鉛</lem>
               <rdg wit="#土本 #京博本">鈴</rdg>
               <rdg wit="#吉本">鈖</rdg>
-              <note place="頭">京博本朱頭注「鉛」</note>
-              <note place="頭">吉本朱頭注「鉛」</note>
+              <note place="頭">京博本朱頭注「<seg style="color:red">鉛</seg>」</note>
+              <note place="頭">吉本朱頭注「<seg style="color:red">鉛</seg>」</note>
               <note>鉛　土本・京博本「鈴」、永本および吉本・京博本朱頭注「鉛」、吉本「鈖」。</note>
             </app>
             <app from="#app1010021207" to="#app1010021207e">
@@ -1041,7 +1037,7 @@
             <app from="#app1010021301" to="#app1010021301e">
               <lem wit="#土本 #永本 #吉本 #京博本">水尾神社</lem>
               <note place="傍">永本朱傍書「 <seg style="color:red"
-                >神式第三名神祭所或作三</seg>」、同書頭注「彼郡内有大河、件河南水尾、河北ニ河内社ト云、両社分テ勧請也、」（ </note>
+                >神式第三名神祭所或作三</seg>」、同書頭注「彼郡内有大河、件河南水尾、河北ニ河内社ト云、両社分テ勧請也、」 </note>
               <note place="頭">吉本頭注「神式第三名神祭所或作三」「彼郡内有大川、件河南者水尾、河北ニ河内社ト云、両社分テ勧請也、」</note>
               <note>水尾神社　永本朱傍書・吉本頭注「神式第三名神祭所或作三」、永本・吉本頭注「彼郡内有大河、件河南水尾、河北ニ河内社ト云、両社分テ勧請也、」（吉本は「大河」を「大川」に、「南」を「南者」に作る）。</note>
             </app>
@@ -1154,10 +1150,9 @@
             <app from="#app1010030501" to="#app1010030501e">
               <lem wit="#永本 #九本 #吉本">黒</lem>
               <rdg wit="#土本 #京博本">墨</rdg>
-              <note place="傍">吉本傍書「墨 官」</note>
+              <note place="傍">吉本傍書「墨　官」</note>
               <note place="傍">永本傍訓「クロマタ」、左朱墨傍訓「 <seg style="color:red">スムマタ</seg>」 </note>
-              <note>黒　土本・京博本および訳注本「墨」、吉本傍書「墨
-                官」。永本・九本・吉本「黒」、永本傍訓「クロマタ」、左朱墨傍訓「スムマタ」。医心方「黒」に「スミ」の訓あり。</note>
+              <note>黒　土本・京博本および訳注本「墨」、吉本傍書「墨　官」。永本・九本・吉本「黒」、永本傍訓「クロマタ」、左朱墨傍訓「スムマタ」。医心方「黒」に「スミ」の訓あり。</note>
             </app>
             <p ana="項" corresp="engishiki_en.xml#item10100306 engishiki_ja.xml#item10100306"
               xml:id="item10100306">
@@ -1462,12 +1457,13 @@
             <app from="#app1010050602" to="#app1010050602e">
               <lem wit="#土本 #永本 #九本 #吉本 #京博本">制</lem>
               <rdg wit="#吉本">前</rdg>
-              <note place="傍">永本傍書「前」、同左傍訓「サキ」</note>
+              <note place="傍">永本傍書「前」、左傍訓「サキ」</note>
               <note>制　永本傍書「前」、同左傍訓「サキ」。西本「前」。土本・永本・九本・吉本・京博本「制」。</note>
             </app>
             <app from="#app1010050603" to="#app1010050603e">
-              <lem wit="#土本 #九本 #京博本 #西本">頤</lem>
+              <lem wit="#土本 #京博本 #西本">頤</lem>
               <rdg wit="#永本 #吉本">顕</rdg>
+              <rdg wit="#九本">𨂠</rdg>
               <note place="傍">永本左傍書「頭〈イ本〉」、傍訓「イ」</note>
               <note place="脚">永本脚書「頤、此字歟、」</note>
               <note place="傍">吉本左傍書「頤」、傍訓「イ」</note>
@@ -1530,7 +1526,7 @@
               <rdg wit="#吉本">健御号方富命彦神別神社〈名神大、〉</rdg>
               <rdg wit="#九本">健御名方富命彦神社　別神社〈名神大、〉</rdg>
               <note place="裏">吉本裏書「健御号方富命彦神別神社〈神式第三不載名神祭也、〉」</note>
-              <note>健御名富命彦神別神社　吉本裏書「健御号方富命彦神別神社〈神式第三不載名神祭也、〉」。吉本は「名」を「号」に作る（土本・永本・九本・京博本は「名」）。九本は「健御名方富命彦神社」と「別神社〈名神大、〉」の二社に分けて記す。</note>
+              <note>健御名方富命彦神別神社〈名神大、〉　吉本裏書「健御号方富命彦神別神社〈神式第三不載名神祭也、〉」。吉本は「名」を「号」に作る（土本・永本・九本・京博本は「名」）。九本は「健御名方富命彦神社」と「別神社〈名神大、〉」の二社に分けて記す。</note>
             </app>
             <p ana="項" corresp="engishiki_en.xml#item10100508 engishiki_ja.xml#item10100508"
               xml:id="item10100508">
@@ -1562,6 +1558,7 @@
             <app from="#app1010050802" to="#app1010050802e">
               <lem wit="#土本 #永本重書 #九本 #吉本 #京博本">社</lem>
               <rdg wit="#永本 #西本">杜</rdg>
+              <note>永本重書「社」</note>
               <note place="傍">永本左傍書「祐イ」</note>
               <note>社　永本「杜」に「社」重書、同左傍書「祐イ」。西本「杜」。土本・九本・吉本・京博本「社」。</note>
             </app>
@@ -1842,8 +1839,6 @@
               </table>
             </p>
             <app from="#app1010070401" to="#app1010070401e">
-              <lem wit="#土本 #永本 #九本 #吉本 #京博本">大前神社</lem>
-              <rdg wit="#花本"/>
               <note>大前神社　花本は荒樫神社の次に配列する。</note>
             </app>
             <app from="#app1010070402" to="#app1010070402e" type="標注">
@@ -1852,8 +1847,6 @@
               </lem>
             </app>
             <app from="#app1010070403" to="#app1010070403e">
-              <lem wit="#土本 #永本 #九本 #吉本 #京博本">荒樫神社</lem>
-              <rdg wit="#花本">荒樫神社　大前神社</rdg>
               <note>荒樫神社　花本は荒樫神社の次に配列する。</note>
             </app>
             <p ana="項" corresp="engishiki_en.xml#item10100705 engishiki_ja.xml#item10100705"
@@ -2348,13 +2341,9 @@
               <note>幣　土本・九本・花本・吉本・京博本・西本「弊」。</note>
             </app>
             <app from="#app1010081503" to="#app1010081503e">
-              <lem wit="#土本 #永本 #九本 #花本 #吉本">大島神社</lem>
-              <rdg wit="#京博本"/>
               <note>大島神社　土本もと鹿嶋御児神社の次に記すを符号をもって移動。京博本、鹿嶋御児神社の次に記す。</note>
             </app>
             <app from="#app1010081504" to="#app1010081504e">
-              <lem wit="#土本 #永本 #九本 #花本 #吉本">鹿島御児神社</lem>
-              <rdg wit="#京博本">鹿島御児神社　大島神社</rdg>
               <note>鹿島御児神社　京博本は「大島神社」を「鹿嶋御児神社」の次に記す。</note>
             </app>
             <p ana="項" corresp="engishiki_en.xml#item10100816 engishiki_ja.xml#item10100816"
@@ -2493,7 +2482,6 @@
             <app from="#app1010081802" to="#app1010081802e">
               <lem wit="#土本 #永本 #九本 #花本 #吉本 #京博本">駒形根</lem>
               <note place="傍">京博本朱傍書「 <seg style="color:red">一本無根字</seg>」 </note>
-              <note>駒形根　京博本朱傍書「一本無根字」</note>
             </app>
             <app from="#app1010081803" to="#app1010081803e" type="標注">
               <lem wit="#花本">
@@ -2617,8 +2605,8 @@
             </p>
             <app from="#app1010082401" to="#app1010082401e">
               <lem wit="#土本 #永本 #九本 #花本 #京博本">瑘</lem>
-              <rdg wit="#吉本">【王即】</rdg>
-              <note>瑘　吉本「【王即】」、土本・永本・九本・花本・京博本「瑘」。</note>
+              <rdg wit="#吉本">【王+即】</rdg>
+              <note>瑘　吉本「【王+即】」、土本・永本・九本・花本・京博本「瑘」。</note>
             </app>
             <app from="#app1010082402" to="#app1010082402e">
               <lem wit="#土本 #九本 #花本 #吉本 #京博本 #西本">磨</lem>
@@ -3011,7 +2999,7 @@
             <app from="#app1010110201" to="#app1010110201e">
               <lem wit="#永本 #九本 #花本 #吉本 #京博本">大二座、小十四座</lem>
               <rdg wit="#土本"/>
-              <note>大二座小十四座　土本無し、永本・九本・花本・吉本・京博本あり</note>
+              <note>大二座、小十四座　土本無し、永本・九本・花本・吉本・京博本あり</note>
             </app>
             <app from="#app1010110202" to="#app1010110202e">
               <lem wit="#土本 #永本 #九本 #花本 #吉本 #京博本">若狭比古神社</lem>
@@ -3056,6 +3044,7 @@
             <app from="#app1010110302" to="#app1010110302e">
               <lem wit="#土本 #九本重書 #花本 #吉本 #京博本">治</lem>
               <rdg wit="#九本 #永本 #西本">沼</rdg>
+              <note>九本重書「治」</note>
               <note place="傍">永本傍訓「チ」</note>
               <note place="傍">西本傍訓「チ」</note>
               <note>治　永本・西本「沼」。九本「沼」に「治」を重書。土本・花本・吉本・京博「治」。永本・西本傍訓「チ」。</note>
@@ -3523,7 +3512,7 @@
               <lem wit="#永本 #九本 #花本 #吉本">槻</lem>
               <rdg wit="#土本 #京博本">欟</rdg>
               <note place="傍">京博本左傍書「槻イ」</note>
-              <note>槻　土本・京博本「欟」　永本・九本・花本・吉本「槻」　京博本左傍書「槻イ」</note>
+              <note>槻　土本・京博本「欟」、永本・九本・花本・吉本「槻」。京博本左傍書「槻イ」。</note>
             </app>
             <app from="#app1010120604" to="#app1010120604e">
               <lem wit="#土本 #永本 #九本 #花本 #吉本 #京博本">事</lem>
@@ -3709,13 +3698,9 @@
               <note>沼　土本・吉本・京博本「治」、永本・九本・花本「沼」。京博本朱傍書「沼イ」。</note>
             </app>
             <app from="#app1010130202" to="#app1010130202e">
-              <lem wit="#土本 #永本 #九本 #吉本 #京博本">服部神社</lem>
-              <rdg wit="#花本"/>
               <note>服部神社　花本「菅生石部神社」の次に配列する。</note>
             </app>
             <app from="#app1010130203" to="#app1010130203e">
-              <lem wit="#土本 #永本 #九本 #吉本 #京博本">菅生石部神社</lem>
-              <rdg wit="#花本">菅生石部神社　服部神社</rdg>
               <note>菅生石部神社　花本は「服部神社」を「菅生石部神社」の次に配列する。</note>
             </app>
             <p ana="項" corresp="engishiki_en.xml#item10101303 engishiki_ja.xml#item10101303"
@@ -3878,7 +3863,7 @@
               <rdg wit="#花本"/>
               <rdg wit="#土本 #永本 #吉本 #京博本">野蛟神社</rdg>
               <note>九本は墨抹</note>
-              <note place="傍">土本本左傍書「蚊歟、」</note>
+              <note place="傍">土本左傍書「蚊歟、」</note>
               <note place="傍">永本左傍書「蚊歟、」、永本傍訓「ノカノ」</note>
               <note place="傍">吉本左傍書「蚊歟、」</note>
               <note place="傍">京博本左傍書「蚊歟、」</note>
@@ -4057,21 +4042,19 @@
             <app from="#app1010140304" to="#app1010140304e">
               <lem wit="#土本 #永本 #九本 #花本 #京博本">太</lem>
               <rdg wit="#吉本"/>
-              <note>吉本朱書補入</note>
+              <note>吉本朱補入「<seg style="color:red">太</seg>」</note>
               <note>太　吉本無し、朱書補入。土本・永本・九本・花本・京博本「太」。</note>
             </app>
             <app from="#app1010140305" to="#app1010140305e">
               <lem wit="#土本 #永本 #九本 #花本 #京博本">咩</lem>
-              <rdg wit="#吉本">
-                <del>古</del>咩 </rdg>
+              <rdg wit="#吉本">古咩</rdg>
               <note place="傍">永本傍書「古イ」</note>
               <note place="傍">京博本朱傍書「 <seg style="color:red">古 一本</seg>」 </note>
               <note>咩　永本傍書「古イ」。吉本この上に「古」字を記し見せ消ち。京博本朱傍書「古 一本」　土本・永本・九本・花本・京博本「咩」</note>
             </app>
             <app from="#app1010140306" to="#app1010140306e">
               <lem wit="#土本 #永本 #九本 #花本 #京博本">咩</lem>
-              <rdg wit="#吉本">
-                <del>古</del>咩 </rdg>
+              <rdg wit="#吉本">古咩</rdg>
               <note place="傍">永本左傍書「古イ」</note>
               <note>咩　永本左傍書「古イ」。吉本この上に「古」字を記し見せ消ち。土本・永本・九本・花本・京博本「咩」</note>
             </app>
@@ -4177,7 +4160,7 @@
             <head ana="越中国"/>
             <p ana="項" corresp="engishiki_en.xml#item10101501 engishiki_ja.xml#item10101501"
               xml:id="item10101501">越中国卅四座〈大一座、小卅 <anchor xml:id="app1010150101"/> 三 <anchor
-                xml:id="app1010150101e"/> 座、〉</p>
+                xml:id="app1010150101e"/> 座、〉 </p>
             <app from="#app1010150101" to="#app1010150101e">
               <lem wit="#九本 #花本 #吉本 #京博本">三</lem>
               <rdg wit="#永本">四</rdg>
@@ -4354,20 +4337,20 @@
             <app from="#app1010150401" to="#app1010150401e">
               <lem wit="#土本 #九本 #花本 #吉本 #京博本">姉</lem>
               <rdg wit="#永本 #京博本">婦</rdg>
-              <note place="傍">永本の傍訓「アネ」</note>
+              <note place="傍">永本傍訓「アネ」</note>
               <note place="傍">京博本左傍書「姉イ」</note>
               <note>姉　永本・京博本「婦」。土本・九本・花本・吉本・西本「姉」。永本の傍訓「アネ」。京博本左傍書「姉イ」</note>
             </app>
             <app from="#app1010150402" to="#app1010150402e">
               <lem wit="#永本 #九本 #花本 #吉本">比</lem>
               <rdg wit="#土本 #京博本"/>
-              <note>京博本朱書補入</note>
+              <note>京博本朱補入「<seg style="color:red">比</seg>」</note>
               <note>比　土本・京博本無し。京博本朱書補入。永本・九本・花本・吉本あり。</note>
             </app>
             <app from="#app1010150403" to="#app1010150403e">
               <lem wit="#永本 #九本 #花本 #吉本">枌</lem>
-              <rdg wit="#土本 #京博本">【木㐱】</rdg>
-              <note>枌　土本・京博本「【木㐱】」、訳注本「杉」。永本・九本・花本・吉本「枌」</note>
+              <rdg wit="#土本 #京博本">【木+㐱】</rdg>
+              <note>枌　土本・京博本「【木+㐱】」、訳注本「杉」。永本・九本・花本・吉本「枌」</note>
             </app>
             <p ana="項" corresp="engishiki_en.xml#item10101505 engishiki_ja.xml#item10101505"
               xml:id="item10101505">
@@ -4896,13 +4879,9 @@
               <note place="頭">吉本頭注「一宮云々」</note>
             </app>
             <app from="#app1010190203" to="#app1010190203e">
-              <lem wit="#土本 #永本 #九本 #花本 #吉本 #京博本">小川月神社〈名神大、〉</lem>
-              <rdg wit="#花本">三県神社　小川月神社〈名神大、〉</rdg>
               <note>小川月神社〈名神大、〉　花本は「三県神社」を「小川月神社」の前に配列する。</note>
             </app>
             <app from="#app1010190204" to="#app1010190204e">
-              <lem wit="#土本 #永本 #九本 #花本 #吉本 #京博本">三県神社</lem>
-              <rdg wit="#花本"/>
               <note>三県神社　花本は「小川月神社」の前に配列する。</note>
             </app>
             <app from="#app1010190205" to="#app1010190205e">
@@ -4981,8 +4960,9 @@
               <lem wit="#永本 #九本 #京博本 #西本">沼</lem>
               <rdg wit="#土本 #花本 #吉本">治</rdg>
               <note place="傍">京博本左朱傍書「 <seg style="color:red">治イ</seg>」 </note>
-              <note place="傍">永本傍書「ヌマ」左朱傍書「タチヽ」</note>
-              <note place="傍">吉本傍訓「チチ」朱左傍訓「ヌマ」「チヒ」</note>
+              <note place="傍">永本傍書「ヌマ」左朱傍書「<seg style="color:red">タチヽ</seg>」</note>
+              <note place="傍">吉本傍訓「チチ」左朱傍訓「<seg style="color:red">ヌマ</seg>」「<seg style="color:red"
+                  >チヒ</seg>」</note>
               <note>沼　土本・花本・吉本「治」。永本・九本・京博本・西本「沼」。京博本左朱傍書「治イ」。永本傍書「ヌマ」左朱傍書「タチヽ」。吉本傍訓「チチ」朱左傍訓「ヌマ」「チヒ」。</note>
             </app>
             <p ana="項" corresp="engishiki_en.xml#item10101904 engishiki_ja.xml#item10101904"
@@ -5096,7 +5076,7 @@
               <lem wit="#土本 #永本 #花本 #京博本">𡶌</lem>
               <rdg wit="#吉本">山石</rdg>
               <note place="傍">吉本傍書「岩」</note>
-              <note>京博本朱書訂正「 <seg style="color:red">岩</seg>」 </note>
+              <note>京博本朱訂正書「 <seg style="color:red">岩</seg>」 </note>
               <note>九本破損</note>
               <note>𡶌　吉本「山石」、傍書「岩」。土本・永本・花本・京博本「𡶌」。京博本朱書訂正「岩」。九本破損。</note>
             </app>
@@ -5205,13 +5185,9 @@
               <note>社　土本無し、永本・九本・花本・吉本・京博本あり</note>
             </app>
             <app from="#app1010190703" to="#app1010190703e">
-              <lem wit="#土本 #永本 #九本 #花本 #吉本 #京博本">御手槻神社</lem>
-              <rdg wit="#花本"/>
               <note>御手槻神社　花本は「佐陀神社」の次に配列する。</note>
             </app>
             <app from="#app1010190704" to="#app1010190704e">
-              <lem wit="#土本 #永本 #九本 #花本 #吉本 #京博本">佐陀神社</lem>
-              <rdg wit="#花本">佐陀神社　御手槻神社</rdg>
               <note>佐陀神社　花本は「御手槻神社」を「佐陀神社」の次に配列する。</note>
             </app>
             <app from="#app1010190705" to="#app1010190705e">
@@ -5225,8 +5201,6 @@
               </lem>
             </app>
             <app from="#app1010190707" to="#app1010190707e">
-              <lem wit="#土本 #永本 #九本 #吉本 #京博本">島万神社</lem>
-              <rdg wit="#花本"/>
               <note>島万神社　花本は「福太神社」の次に配列する。</note>
             </app>
             <app from="#app1010190708" to="#app1010190708e" type="標注">
@@ -5235,9 +5209,7 @@
               </lem>
             </app>
             <app from="#app1010190709" to="#app1010190709e">
-              <lem wit="#土本 #永本 #九本 #吉本 #京博本">福太神社</lem>
-              <rdg wit="#花本">福太神社　島万神社</rdg>
-              <note>福太神社　花本は「福太神社」の次に配列する。</note>
+              <note>福太神社　花本は「島万神社」の前に配列する。</note>
             </app>
           </div>
           <div ana="神名下" corresp="engishiki_en.xml#article101020 engishiki_ja.xml#article101020"
@@ -5361,12 +5333,12 @@
               <lem wit="#土本 #永本 #九本 #花本 #京博本">𡶌</lem>
               <rdg wit="#吉本">岩</rdg>
               <note place="傍">吉本傍訓「イソ」</note>
-              <note>𡶌　吉本「岩」、ただし傍訓「イソ」。土本・永本・九本・花本・京博本「𡶌」</note>
+              <note>𡶌　吉本「岩」、ただし傍訓「イソ」。土本・永本・九本・花本・京博本「𡶌」。</note>
             </app>
             <app from="#app1010200303" to="#app1010200303e">
               <lem wit="#土本 #永本 #九本 #花本 #吉本 #京博本">枌</lem>
               <note>京博本朱訂正「 <seg style="color:red">杉</seg>」 </note>
-              <note>枌　訳注本「杉」。土本・永本・九本・花本・吉本・京博本「枌」。京博本朱訂正「杉」</note>
+              <note>枌　訳注本「杉」。土本・永本・九本・花本・吉本・京博本「枌」。京博本朱訂正「杉」。</note>
             </app>
             <app from="#app1010200304" to="#app1010200304e" type="標注">
               <lem wit="#花本">
@@ -5830,7 +5802,7 @@
             <app from="#app1010210402" to="#app1010210402e">
               <lem wit="#土本 #永本 #九本 #吉本 #京博本">坐</lem>
               <rdg wit="#花本">座</rdg>
-              <note>坐 花本「座」。土本・永本・九本・吉本・京博本「坐」</note>
+              <note>坐　花本「座」。土本・永本・九本・吉本・京博本「坐」</note>
             </app>
             <app from="#app1010210403" to="#app1010210403e">
               <lem wit="#土本 #永本 #九本 #花本 #吉本 #京博本">御出石神社</lem>
@@ -6085,8 +6057,8 @@
               <rdg wit="#土本 #花本 #吉本 #京博本">治</rdg>
               <note place="傍">花本左朱傍書「 <seg style="color:red">沼</seg>」 </note>
               <note place="傍">吉本傍書「沼」</note>
-              <note place="傍">京博本佐傍書「沼イ」</note>
-              <note>沼　土本・花本・吉本・京博本「治」。花本左朱傍書・吉本傍書「沼」。京博本佐傍書「沼イ」。訳注本は兵部式82条および現地小字名の「米持」「米持前」により「治」に改める。永本・九本・西本「沼」。</note>
+              <note place="傍">京博本左傍書「沼イ」</note>
+              <note>沼　土本・花本・吉本・京博本「治」。花本左朱傍書・吉本傍書「沼」。京博本左傍書「沼イ」。訳注本は兵部式82条および現地小字名の「米持」「米持前」により「治」に改める。永本・九本・西本「沼」。</note>
             </app>
             <p ana="項" corresp="engishiki_en.xml#item10102109 engishiki_ja.xml#item10102109"
               xml:id="item10102109">
@@ -6212,7 +6184,7 @@
               <rdg wit="#九本 #花本 #京博本">欟</rdg>
               <note place="傍">九本左傍書「槻」</note>
               <note place="傍">京博本朱傍書「 <seg style="color:red">槻イ</seg>」 </note>
-              <note>槻　九本・花本・京博本および訳注本「欟」。土本・永本・吉本「槻」。九本左傍書「槻」・京博本朱傍書「槻イ」。</note>
+              <note>槻　九本・花本・京博本および訳注本「欟」。土本・永本・吉本「槻」。九本左傍書「槻」、京博本朱傍書「槻イ」。</note>
             </app>
             <app from="#app1010220304" to="#app1010220304e" type="標注">
               <lem wit="#花本">
@@ -6277,7 +6249,7 @@
               <lem wit="#土本 #永本 #九本 #花本 #京博本">牟</lem>
               <rdg wit="#吉本"/>
               <note>吉本朱補入「 <seg style="color:red">牟</seg>」 </note>
-              <note>牟　吉本ﾅｼ、朱補入「牟」。土本・永本・九本・花本・京博本あり。</note>
+              <note>牟　吉本無し、朱補入「牟」。土本・永本・九本・花本・京博本あり。</note>
             </app>
             <p ana="項" corresp="engishiki_en.xml#item10102205 engishiki_ja.xml#item10102205"
               xml:id="item10102205">
@@ -6694,7 +6666,7 @@
               <rdg wit="#永本 #西本"/>
               <rdg wit="#土本 #京博本">大</rdg>
               <note>永本「伊弖」の傍訓「イタチ」</note>
-              <note>太 永本・西本無し、京博本・土本「大」、九本・花本・吉本「太」。永本「伊弖」の傍訓「イタチ」。</note>
+              <note>太　永本・西本無し、京博本・土本「大」、九本・花本・吉本「太」。永本「伊弖」の傍訓「イタチ」。</note>
             </app>
             <app from="#app1010240219" to="#app1010240219e">
               <lem wit="#土本 #永本 #九本 #花本 #京博本">訳</lem>
@@ -6705,9 +6677,7 @@
             </app>
             <app from="#app1010240220" to="#app1010240220e">
               <lem wit="#土本 #九本 #花本 #吉本 #京博本">勝日</lem>
-              <rdg wit="#永本">
-                <del>同社坐</del>
-              </rdg>
+              <rdg wit="#永本">同社坐</rdg>
               <note>永本「同社坐」を見せ消ちして「勝日」に訂正</note>
               <note>勝日　永本「同社坐」を見せ消ちして「勝日」に訂正。出雲国風土記の「賀豆比乃社」にあたるか。</note>
             </app>
@@ -6854,7 +6824,9 @@
             <app from="#app1010240501" to="#app1010240501e">
               <lem wit="#九本訂正書">呂</lem>
               <rdg wit="#永本 #吉本 #西本">召</rdg>
-              <rdg wit="#土本 #九本 #花本 #京博本">豆</rdg>
+              <rdg wit="#土本 #花本 #京博本">豆</rdg>
+              <rdg wit="#九本"><del>豆</del></rdg>
+              <note>九本訂正書「呂」</note>
               <note>呂　永本・吉本・西本「召」、土本・花本・京博本「豆」。九本は「豆」を抹消して「呂」に訂正。今、九本に従う。出雲国風土記には「許定社　同社」が見え、また不在神祇官社として「許豆乃社　又許豆社　又許豆社」が記される。</note>
             </app>
             <p ana="項" corresp="engishiki_en.xml#item10102406 engishiki_ja.xml#item10102406"
@@ -7143,7 +7115,7 @@
               <rdg wit="#永本 #九本 #花本 #西本">文</rdg>
               <rdg wit="#吉本">父</rdg>
               <note place="傍">花本左傍書「久」</note>
-              <note>久　永本・九本・花本・西本「文」、吉本「父」。土本・花本左傍書・京博本「久」。出雲国風土記の「牟久社」にあたるか。</note>
+              <note>久　永本・九本・花本・西本「文」、吉本「父」。土本・京博本、花本左傍書「久」。出雲国風土記の「牟久社」にあたるか。</note>
             </app>
             <app from="#app1010240622" to="#app1010240622e">
               <lem wit="#土本 #永本 #九本 #花本 #吉本 #京博本">加毛利神社</lem>
@@ -7434,7 +7406,7 @@
             <app from="#app1010241004" to="#app1010241004e">
               <lem wit="#土本 #永本 #九本 #花本 #京博本">潮</lem>
               <rdg wit="#吉本">湖</rdg>
-              <note>吉本傍書「潮 官」</note>
+              <note place="傍">吉本傍書「潮 官」</note>
               <note>潮　吉本「湖」、傍書「潮 官」。土本・永本・九本・花本・京博本「潮」</note>
             </app>
             <p ana="項" corresp="engishiki_en.xml#item10102411 engishiki_ja.xml#item10102411"
@@ -7510,7 +7482,7 @@
             </p>
             <app from="#app1010250201" to="#app1010250201e">
               <lem wit="#土本 #永本 #九本 #花本 #吉本 #京博本">物部神社</lem>
-              <note place="頭">永本朱頭注「一宮」</note>
+              <note place="頭">永本朱頭注「<seg style="color:red">一宮</seg>」</note>
               <note place="頭">吉本頭注「一宮」</note>
               <note place="裏">吉本裏書「一宮」</note>
             </app>
@@ -7640,7 +7612,7 @@
               <note place="傍">花本傍書「門」、花本朱傍訓「 <seg style="color:red">マ</seg>」、花本左傍訓「ト」 </note>
               <note place="傍">永本傍訓「マ」</note>
               <note place="傍">九本傍訓「マ」</note>
-              <note place="傍">永本左朱墨傍訓「カト」</note>
+              <note place="傍">永本左朱墨傍訓「<seg style="color:red">カト</seg>」</note>
               <note>間　土本・吉本・京博本・西本および訳注本「門」。永本・九本・花本「間」。永本左傍書・花本傍書「門」。永本・九本傍訓、花本朱傍訓「マ」、永本左朱墨傍訓「カト」、花本左傍訓「ト」。</note>
             </app>
             <app from="#app1010250404" to="#app1010250404e">
@@ -7769,7 +7741,7 @@
             <app from="#app1010260203" to="#app1010260203e">
               <lem wit="#土本 #永本 #九本 #花本 #京博本">六</lem>
               <rdg wit="#吉本">三</rdg>
-              <note>吉本朱傍書「 <seg style="color:red">六〈或本説也、</seg>〉」 </note>
+              <note place="傍">吉本朱傍書「 <seg style="color:red">六〈或本説也、</seg>〉」 </note>
               <note>六　吉本「三」、朱傍書「六〈或本説也、〉」。土本・永本・九本・花本・京博本「六」</note>
             </app>
             <app from="#app1010260204" to="#app1010260204e" type="標注">
@@ -7970,8 +7942,8 @@
             </p>
             <app from="#app1010280201" to="#app1010280201e">
               <lem wit="#土本 #永本 #九本 #花本 #吉本 #京博本">海</lem>
-              <note place="傍">永本左朱墨傍訓「タルミ」</note>
-              <note place="傍">吉本左朱傍訓「 <seg style="color:red">タルミ</seg>」 </note>
+              <note place="傍">永本左朱墨傍訓「<seg style="color:red">タルミ</seg>」</note>
+              <note place="傍">吉本左朱傍訓「<seg style="color:red">タルミ</seg>」 </note>
             </app>
             <app from="#app1010280202" to="#app1010280202e">
               <lem wit="#土本 #永本 #九本 #吉本 #京博本">社</lem>
@@ -8026,7 +7998,7 @@
             </app>
             <app from="#app1010280402" to="#app1010280402e">
               <lem wit="#土本 #永本 #九本 #花本 #吉本 #京博本">白国神社</lem>
-              <note place="首">永本朱首書「四宮」</note>
+              <note place="首">永本朱首書「<seg style="color:red">四宮</seg>」</note>
               <note place="頭">吉本頭注「四宮」</note>
               <note place="裏">吉本裏書「建仁元ー八月在庁注文云、四宮、〈白国社、〉」</note>
             </app>
@@ -8134,11 +8106,10 @@
             <app from="#app1010280701" to="#app1010280701e">
               <lem wit="#土本 #永本 #九本 #吉本 #京博本">伊和坐大名持御魂神社</lem>
               <rdg wit="#花本">伊和坐大名持御魂社</rdg>
-              <note place="頭">永本朱墨頭注「一宮」</note>
+              <note place="頭">永本朱墨頭注「<seg style="color:red">一宮</seg>」</note>
               <note place="頭">吉本頭注「一宮」</note>
               <note place="裏">吉本裏書「建仁元年八月在庁注文、一宮、〈伊和社、〉二宮、〈荒田社、〉三宮、〈酒見社、〉四宮、〈白国社、〉五宮、〈高岡□〉」</note>
-              <note>伊和坐大名持御魂神社　永本朱墨頭注、吉本頭注「一宮」、吉本裏書「建仁元年八月在庁注文、一宮、〈伊和社、〉二宮、〈荒田社、〉三宮、〈酒見社、〉四宮、〈白国社、〉五宮、〈高岡□〉」
-                。「神」字、花本無し、土本・永本・九本・吉本・京博本あり</note>
+              <note>伊和坐大名持御魂神社　永本朱墨頭注、吉本頭注「一宮」、吉本裏書「建仁元年八月在庁注文、一宮、〈伊和社、〉二宮、〈荒田社、〉三宮、〈酒見社、〉四宮、〈白国社、〉五宮、〈高岡□〉」。「神」字、花本無し、土本・永本・九本・吉本・京博本あり</note>
             </app>
             <p ana="項" corresp="engishiki_en.xml#item10102808 engishiki_ja.xml#item10102808"
               xml:id="item10102808">
@@ -8178,7 +8149,7 @@
             <app from="#app1010280804" to="#app1010280804e">
               <lem wit="#土本 #九本 #花本 #吉本 #京博本 #西本">王</lem>
               <rdg wit="#永本">玉</rdg>
-              <note place="傍">京博本朱傍書「玉イ」</note>
+              <note place="傍">京博本朱傍書「<seg style="color:red">玉イ</seg>」</note>
               <note>王　永本「玉」。土本・九本・花本・吉本・京博本・西本「王」。京博本朱傍書「玉イ」。</note>
             </app>
             <p ana="項" corresp="engishiki_en.xml#item10102809 engishiki_ja.xml#item10102809"
@@ -8374,7 +8345,7 @@
             </app>
             <app from="#app1010290302" to="#app1010290302e">
               <lem wit="#土本 #永本 #九本 #花本 #吉本 #京博本">高野神社</lem>
-              <note place="頭">永本朱墨頭注「二宮」</note>
+              <note place="頭">永本朱墨頭注「<seg style="color:red">二宮</seg>」</note>
               <note place="頭">吉本頭注「二宮」</note>
               <note place="脚">永本朱脚書「 <seg style="color:red">社／日前宮云々、</seg>」 </note>
               <note place="脚">吉本脚書「社／日前宮云々、」</note>
@@ -8386,7 +8357,7 @@
             </app>
             <app from="#app1010290304" to="#app1010290304e">
               <lem wit="#土本 #永本 #九本 #花本 #吉本 #京博本">中山神社</lem>
-              <note place="頭">永本朱墨頭注「一宮」</note>
+              <note place="頭">永本朱墨頭注「<seg style="color:red">一宮</seg>」</note>
               <note place="頭">吉本頭注「一宮」</note>
               <note place="脚">永本脚書「社記云、鏡作神〈天照太神第三御子云々、〉」</note>
               <note place="脚">吉本脚書「社記云、鏡作神〈天照太神第三御子云々、〉」</note>
@@ -8413,7 +8384,7 @@
             <app from="#app1010300101" to="#app1010300101e">
               <lem wit="#土本 #永本 #九本 #花本 #京博本">五</lem>
               <rdg wit="#吉本">六</rdg>
-              <note>吉本朱訂正「 <seg style="color:red">五</seg>」 </note>
+              <note>吉本朱訂正「 <seg style="color:red">五</seg>」</note>
               <note>五　吉本「六」、朱訂正「五」。土本・永本・九本・花本・京博本「五」。</note>
             </app>
             <p ana="項" corresp="engishiki_en.xml#item10103002 engishiki_ja.xml#item10103002"
@@ -8503,7 +8474,8 @@
             <app from="#app1010300402" to="#app1010300402e">
               <lem wit="#永本 #九本 #花本 #吉本">小</lem>
               <rdg wit="#土本 #京博本"/>
-              <note>小　土本・京博本無し、京博本朱補書「小」　永本・九本・花本・吉本あり</note>
+              <note>京博本朱補書「<seg style="color:red">小</seg>」</note>
+              <note>小　土本・京博本無し、京博本朱補書「小」。永本・九本・花本・吉本あり。</note>
             </app>
             <app from="#app1010300403" to="#app1010300403e" type="標注">
               <lem wit="#花本">
@@ -8686,7 +8658,7 @@
             <app from="#app1010310403" to="#app1010310403e">
               <lem wit="#土本 #永本 #九本 #花本 #京博本">山</lem>
               <rdg wit="#吉本"/>
-              <note>吉本朱書補書「 <seg style="color:red">山</seg>」 </note>
+              <note>吉本朱補書「 <seg style="color:red">山</seg>」 </note>
               <note>山　吉本無し、朱書補書「山」。土本・永本・九本・花本・京博本あり。</note>
             </app>
             <p ana="項" corresp="engishiki_en.xml#item10103105 engishiki_ja.xml#item10103105"
@@ -9059,7 +9031,7 @@
             <app from="#app1010340101" to="#app1010340101e">
               <lem wit="#永本 #九本 #花本 #吉本">並小</lem>
               <rdg wit="#土本 #京博本"/>
-              <note>京博本朱補書「 <seg style="color:red">並小</seg>」 </note>
+              <note>京博本朱補書「 <seg style="color:red">並小</seg>」</note>
               <note>並小　土本・京博本無し。永本・九本・花本・吉本あり。京博本朱補書「並小」。</note>
             </app>
             <p ana="項" corresp="engishiki_en.xml#item10103402 engishiki_ja.xml#item10103402"
@@ -9085,7 +9057,7 @@
             <app from="#app1010340202" to="#app1010340202e">
               <lem wit="#永本 #九本 #花本 #吉本">並小</lem>
               <rdg wit="#土本 #京博本"/>
-              <note>京博本朱補書「 <seg style="color:red">並小</seg>」 </note>
+              <note>京博本朱補書「 <seg style="color:red">並小</seg>」</note>
               <note>並小　土本・京博本無し。永本・九本・花本・吉本あり。京博本朱補書「並小」。</note>
             </app>
             <p ana="項" corresp="engishiki_en.xml#item10103403 engishiki_ja.xml#item10103403"
@@ -9168,6 +9140,7 @@
             <app from="#app1010340402" to="#app1010340402e">
               <lem wit="#永本 #九本 #花本 #吉本">小</lem>
               <rdg wit="#土本 #京博本"/>
+              <note>京博本朱補書「<seg style="color:red">小</seg>」</note>
               <note>小　土本・京博本無し。永本・九本・花本・吉本あり。京博本朱補書「小」。</note>
             </app>
             <app from="#app1010340403" to="#app1010340403e" type="標注">
@@ -9387,7 +9360,7 @@
             </app>
             <app from="#app1010370404" to="#app1010370404e">
               <lem wit="#土本 #永本 #九本 #花本 #吉本 #京博本">香都知神社</lem>
-              <note place="脚">吉本朱脚書「鳴神末社」</note>
+              <note place="脚">吉本朱脚書「<seg style="color:red">鳴神末社</seg>」</note>
             </app>
             <app from="#app1010370405" to="#app1010370405e">
               <lem wit="#永本 #九本 #花本 #吉本 #京博本">社</lem>
@@ -9623,6 +9596,7 @@
             <app from="#app1010380304" to="#app1010380304e">
               <lem wit="#永本 #九本 #花本">大</lem>
               <rdg wit="#土本 #吉本 #京博本"/>
+              <note>京博本朱補入「<seg style="color:red">大</seg>」</note>
               <note>大　土本・吉本・京博本無し。永本・九本・花本あり。京博本朱補入。</note>
             </app>
             <app from="#app1010380305" to="#app1010380305e">
@@ -9834,8 +9808,8 @@
             <app from="#app1010390601" to="#app1010390601e">
               <lem wit="#土本 #永本 #九本 #花本 #吉本 #京博本">名方郡</lem>
               <note place="頭">永本頭注「今分為名西・名東二郡、」</note>
-              <note>吉本首書「今分為名西・名東二郡、」</note>
-              <note place="傍">花本朱傍書「 <seg style="color:red">寛平八年九月五日、分名方郡為名東・名西両郡、</seg>」。 </note>
+              <note place="首">吉本首書「今分為名西・名東二郡、」</note>
+              <note place="傍">花本朱傍書「 <seg style="color:red">寛平八年九月五日、分名方郡為名東・名西両郡、</seg>」 </note>
             </app>
             <app from="#app1010390602" to="#app1010390602e">
               <lem wit="#永本 #九本 #花本 #吉本 #京博本">玉</lem>
@@ -9851,7 +9825,8 @@
               <lem wit="#土本 #永本 #九本 #花本朱訂正 #吉本 #京博本">大御和神社</lem>
               <rdg wit="#花本">天御和神社</rdg>
               <note>永本この上に挿入符号を付し、「玉比売神社」イ本にありと脚書</note>
-              <note>吉本は上に挿入符号を付し「玉比売神社」と記す。</note>
+              <note>吉本は上に挿入符号を付し「玉比売神社」と記す</note>
+              <note>花本朱訂正「<seg style="color:red">大</seg>」</note>
               <note>大御和神社　永本この上に挿入符号を付し、「玉比売神社」イ本にありと脚書。吉本は上に挿入符号を付し「玉比売神社」と記す。「大」字、花本「天」を朱にて「大」に訂正、土本・永本・九本・吉本・京博本「大」。</note>
             </app>
             <p ana="項" corresp="engishiki_en.xml#item10103907 engishiki_ja.xml#item10103907"
@@ -10395,8 +10370,8 @@
             <app from="#app1010410803" to="#app1010410803e">
               <lem wit="#永本 #九本 #花本">治</lem>
               <rdg wit="#土本 #吉本 #京博本">沼</rdg>
-              <note place="傍">永本左傍書「沼」、永本傍訓は「ヌ」</note>
-              <note>治 土本・吉本・京博本「沼」、永本左傍書「沼」。永本傍訓は「ヌ」。永本・九本・花本「治」</note>
+              <note place="傍">永本左傍書「沼」、永本傍訓「ヌ」</note>
+              <note>治　土本・吉本・京博本「沼」、永本左傍書「沼」。永本傍訓は「ヌ」。永本・九本・花本「治」</note>
             </app>
             <app from="#app1010410804" to="#app1010410804e">
               <lem wit="#土本 #永本 #九本 #花本 #吉本 #京博本">崗</lem>
@@ -11280,7 +11255,7 @@
             <app from="#app1010500204" to="#app1010500204e">
               <lem wit="#土本 #永本 #九本 #吉本 #京博本">都農神社</lem>
               <rdg wit="#花本">都濃神社</rdg>
-              <note place="頭">永本朱頭注「一宮」</note>
+              <note place="頭">永本朱頭注「<seg style="color:red">一宮</seg>」</note>
               <note>都農神社　花本は「農」を「濃」に作る。永本朱頭注「一宮」。</note>
             </app>
             <app from="#app1010500205" to="#app1010500205e" type="標注">
@@ -11572,14 +11547,10 @@
               </lem>
             </app>
             <app from="#app1010530207" to="#app1010530207e">
-              <lem wit="#土本 #永本 #九本">中津神社〈名神大、〉</lem>
-              <rdg wit="#花本 #吉本 #京博本"/>
-              <note>中津神社　花本・吉本・京博本は同佐肆布都神社の下に配列する。</note>
+              <note>中津神社〈名神大、〉　花本・吉本・京博本は同佐肆布都神社の下に配列する。</note>
             </app>
             <app from="#app1010530208" to="#app1010530208e">
-              <lem wit="#土本 #永本 #九本">同佐肆布都神社</lem>
-              <rdg wit="#花本 #吉本 #京博本">同佐肆布都神社　中津神社〈名神大、〉</rdg>
-              <note>永本、同佐肆布都神社頭注に「イ本上ニアリ、」と記す</note>
+              <note place="頭">永本頭注「イ本上ニアリ、」</note>
               <note>中津神社　花本・吉本・京博本は「中津神社〈名神大、〉」を「同佐肆布都神社」の下に配列する。永本も同佐肆布都神社頭注に「イ本上ニアリ、」と記す。訳注本は考異に従い「同」を削る。</note>
             </app>
             <app from="#app1010530209" to="#app1010530209e" type="標注">
@@ -11745,7 +11716,7 @@
             <app from="#app1010540201" to="#app1010540201e">
               <lem wit="#永本 #九本 #花本 #吉本">和多都美神社</lem>
               <rdg wit="#土本 #京博本">加多都美神社</rdg>
-              <note place="頭">永本朱墨頭注「一宮」</note>
+              <note place="頭">永本朱墨頭注「<seg style="color:red">一宮</seg>」</note>
               <note place="傍">京博本左傍書「和イ」</note>
               <note>和多都美神社　永本朱墨頭注「一宮」。「和」字、土本・京博本「加」、京博本左傍書「和イ」、永本・九本・花本・吉本「和」。</note>
             </app>
@@ -11877,7 +11848,7 @@
               <rdg wit="#九本">𨙵</rdg>
               <rdg wit="#土本 #吉本 #京博本">𨚌</rdg>
               <rdg wit="#花本">部</rdg>
-              <note place="頭">花本朱頭注「邸」</note>
+              <note place="頭">花本朱頭注「<seg style="color:red">邸</seg>」</note>
               <note place="傍">九本傍訓「テ」</note>
               <note place="傍">吉本傍訓「テ」</note>
               <note>邸　永本・西本「邦」。九本「𨙵」、土本・吉本・京博本「𨚌」、花本「部」、同朱頭注「邸」。「邸」の異体字と見なして九本・吉本・京博本により改める。九本・吉本傍訓「テ」。訳注本は三代実録貞観一二・三・五条に従い「弖」に意改する。</note>
