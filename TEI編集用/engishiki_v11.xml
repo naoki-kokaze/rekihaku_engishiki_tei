@@ -558,7 +558,6 @@
               <rdg wit="#土本 #近本 #壬本 #京博本 #慶長本 #梵本">使勅</rdg>
               <rdg wit="#九本">使</rdg>
               <note>近本訂正書「勅使」</note>
-              <note>京博本朱訂「<seg style="color:red">勅使</seg>」</note>
               <note>勅使　土本等「使勅」。九本は「勅」まで欠損し、「使参議」と記す。近本訂正書・京博本朱訂により改める。</note>
             </app>
             <app from="#app1110100103" to="#app1110100103e">
@@ -582,6 +581,7 @@
             <app from="#app1110100106" to="#app1110100106e">
               <lem wit="#九本 #近本書入">左</lem>
               <rdg wit="#土本"/>
+              <note>近本書入「左」</note>
               <note>左　土本無し。九本、近本書入等により補う。</note>
             </app>
             <p ana="項" corresp="engishiki_ja.xml#item11101002 engishiki_en.xml#item11101002"
@@ -730,11 +730,13 @@
             <app from="#app1110190102" to="#app1110190102e">
               <lem wit="#九本 #京博本朱傍書">転</lem>
               <rdg wit="#土本 #近本 #壬本 #京博本 #慶長本 #梵本">伝</rdg>
+              <note place="傍">京博本朱傍書「<seg style="color:red">転</seg>」</note>
               <note>転　土本等「伝」。九本、京博本朱傍書により改める。</note>
             </app>
             <app from="#app1110190103" to="#app1110190103e">
               <lem wit="#九本 #京博本朱傍書">転</lem>
               <rdg wit="#土本 #近本 #壬本 #京博本 #慶長本 #梵本">伝</rdg>
+              <note place="傍">京博本朱傍書「<seg style="color:red">転</seg>」</note>
               <note>転　土本等「伝」。九本、京博本朱傍書により改める。</note>
             </app>
           </div>
@@ -776,14 +778,17 @@
             <app from="#app1110220102" to="#app1110220102e">
               <lem wit="#九本 #近本補入書 #壬本補入書 #京博本補入書">過</lem>
               <rdg wit="#土本 #近本 #壬本 #京博本 #慶長本 #梵本"/>
+              <note>近本補入「過」</note>
+              <note>壬本補入「過」</note>
+              <note>京博本補入「過」</note>
               <note>過　土本等無し。九本、近本・壬本・京博本補入書により補う。</note>
             </app>
             <app from="#app1110220103" to="#app1110220103e">
               <lem wit="#九本 #壬本訂正書">長</lem>
               <rdg wit="#土本 #近本 #壬本 #京博本 #慶長本 #梵本">長官</rdg>
-              <note place="傍">土本は「長」に傍書「延」</note>
-              <note place="傍">近本は「長」に傍書「延」</note>
-              <note place="傍">京博本は「官」に朱傍書「 <seg style="color:red">符</seg>」 </note>
+              <note place="傍">土本「長」に傍書「延」</note>
+              <note place="傍">近本「長」に傍書「延」</note>
+              <note place="傍">京博本「官」に朱傍書「 <seg style="color:red">符</seg>」 </note>
               <note>壬本訂正書「長」</note>
               <note>長　土本等「長官」。九本、壬本訂正書により改める。土本・近本は「長」に傍書「延」、京博本は「官」を朱傍書にて「符」に訂正。</note>
             </app>
@@ -856,6 +861,7 @@
             <app from="#app1110290101" to="#app1110290101e">
               <lem wit="#九本 #近本傍書">召</lem>
               <rdg wit="#土本 #近本 #壬本 #京博本 #慶長本 #梵本">石</rdg>
+              <note place="傍">近本傍書「召」</note>
               <note>召　土本等「石」。九本、近本傍書により改める。</note>
             </app>
             <app from="#app1110290102" to="#app1110290102e">
@@ -879,6 +885,8 @@
             <app from="#app1110300102" to="#app1110300102e">
               <lem wit="#九本 #近本補入 #京博本補入">上</lem>
               <rdg wit="#土本 #近本 #壬本 #京博本 #慶長本 #梵本"/>
+              <note>近本補入「上」</note>
+              <note>京博本補入「上」</note>
               <note>上　土本等無し。九本、近本・京博本補入により補う。</note>
             </app>
             <app from="#app1110300103" to="#app1110300103e">
@@ -889,6 +897,9 @@
             <app from="#app1110300104" to="#app1110300104e">
               <lem wit="#九本 #近本傍書 #壬本傍書 #京博本傍書">日</lem>
               <rdg wit="#土本 #近本 #壬本 #京博本 #慶長本 #梵本">旨</rdg>
+              <note place="傍">近本傍書「日」</note>
+              <note place="傍">壬本傍書「日」</note>
+              <note place="傍">京博本傍書「日」</note>
               <note>日　土本等「旨」。九本、近本・壬本・京博本傍書により改める。</note>
             </app>
           </div>
@@ -1141,7 +1152,10 @@
             <app from="#app1110490103" to="#app1110490103e">
               <lem wit="#京博本朱傍書 #藤波本朱傍書 #壬本朱傍書">緩</lem>
               <rdg wit="#土本">縁</rdg>
-              <note place="傍">近本傍書（「緩イ」）</note>
+              <note place="傍">近本傍書「緩イ」</note>
+              <note place="傍">京博本朱傍書「<seg style="color:red">緩</seg>」</note>
+              <note place="傍">藤波本朱傍書「<seg style="color:red">緩</seg>」</note>
+              <note place="傍">壬本朱傍書「<seg style="color:red">緩</seg>」</note>
               <note>緩　土本「縁」。近本傍書（「緩イ」）、京博本・藤波本・壬本朱傍書により改める。</note>
             </app>
           </div>
@@ -1252,6 +1266,7 @@
             <app from="#app1110580102" to="#app1110580102e">
               <lem wit="#九本 #近本傍書">送</lem>
               <rdg wit="#土本 #近本 #壬本 #京博本 #慶長本 #梵本">返</rdg>
+              <note place="傍">近本傍書「送」</note>
               <note>送　土本等「返」。九本、近本等傍書により改める。</note>
             </app>
           </div>
@@ -1346,7 +1361,6 @@
               <lem>貞延</lem>
             </app>
             <app from="#app1110660102" to="#app1110660102e">
-              <lem>凡</lem>
               <note place="頭">土本頭書「三」</note>
               <note place="頭">近本頭書「三」</note>
               <note place="頭">慶長本頭書「二」</note>
@@ -1411,7 +1425,6 @@
               <lem>弘貞延</lem>
             </app>
             <app from="#app1110690102" to="#app1110690102e">
-              <lem>凡</lem>
               <note place="頭">土本頭書「六」</note>
               <note place="頭">近本頭書「六」</note>
               <note>凡　本条、土本等64条の後に配列、頭書「六」あり。九本の配列に改める。65条校異注参照。</note>
@@ -1663,9 +1676,10 @@
               <lem>貞延</lem>
             </app>
             <app from="#app1110810102" to="#app1110810102e">
-              <lem wit="#九本補入 #京博本補入">氏</lem>
+              <lem wit="#九本 #京博本補入">氏</lem>
               <rdg wit="#土本 #近本 #壬本 #京博本 #慶長本 #梵本"/>
-              <note>氏　土本等無し。九本・京博本補入により補う。</note>
+              <note>京博本補入「氏」</note>
+              <note>氏　土本等無し。九本、京博本補入により補う。</note>
             </app>
             <app from="#app1110810103" to="#app1110810103e">
               <lem wit="#土本">五位</lem>
@@ -1794,6 +1808,7 @@
               <lem wit="#九本">諸</lem>
               <rdg wit="#土本 #近本 #壬本 #京博本 #慶長本 #梵本"/>
               <rdg wit="#藤波本朱補">所</rdg>
+              <note>藤波本朱補書「<seg style="color:red">所</seg>」</note>
               <note>諸　土本等無し。九本により改める。藤波本朱補「所」。</note>
             </app>
             <app from="#app1110850303" to="#app1110850303e">
@@ -1925,6 +1940,7 @@
             <app from="#app1110900103" to="#app1110900103e">
               <lem wit="#九本 #近本補入 #壬本 #慶長本">講</lem>
               <rdg wit="土本 #梵本"/>
+              <note>近本補入「講」</note>
               <note>講　土本・梵本無し。九本、近本補入、壬本・慶長本により補う。</note>
             </app>
           </div>
@@ -2111,6 +2127,7 @@
             <app from="#app1110990102" to="#app1110990102e">
               <lem wit="#九本 #近本補書">侍</lem>
               <rdg wit="#土本 #近本 #壬本 #京博本 #慶長本 #梵本"/>
+              <note>近本補書「侍」</note>
               <note>侍　土本等無し。九本、近本等補書により補う。</note>
             </app>
             <app from="#app1110990103" to="#app1110990103e">
@@ -2487,6 +2504,8 @@
             <app from="#app1111130103" to="#app1111130103e">
               <lem wit="#近本補書 #京博本補書">目</lem>
               <rdg wit="#土本 #近本 #壬本 #京博本 #慶長本 #梵本"/>
+              <note>近本補書「目」</note>
+              <note>京博本補書「目」</note>
               <note>目　諸本無し。近本・京博本補書により補う。</note>
             </app>
             <app from="#app1111130104" to="#app1111130104e">
@@ -2542,6 +2561,7 @@
             <app from="#app1111150102" to="#app1111150102e">
               <lem wit="#九本 #壬本 #京博本 #慶長本">廿日官</lem>
               <rdg wit="#土本 #梵本 #近本">廿日官廿日官</rdg>
+              <note place="傍">上の「廿日官」に近本傍書「无」</note>
               <note>廿日官　土本・梵本「廿日官廿日官」。近本「廿日官廿日官」とし、上の「廿日官」に「无」と傍書。九本・壬本・京博本・慶長本、近本傍書により改める。</note>
             </app>
           </div>
@@ -2568,6 +2588,8 @@
               <lem wit="#近本補入 #壬本補入 #京博本朱傍書">目</lem>
               <rdg wit="#土本 #近本 #壬本 #京博本 #慶長本 #梵本"/>
               <note place="傍">京博本朱傍書「 <seg style="color:red">目</seg>」 </note>
+              <note>近本補入「目」</note>
+              <note>壬本補入「目」</note>
               <note>目　土本等無し。近本・壬本補入、京博本朱傍書により補う。</note>
             </app>
             <app from="#app1111160104" to="#app1111160104e">
@@ -2630,6 +2652,7 @@
             <app from="#app1111190102" to="#app1111190102e">
               <lem wit="#九本 #壬本補入">申</lem>
               <rdg wit="#土本 #近本 #壬本 #京博本 #慶長本 #梵本"/>
+              <note>壬本補入「申」</note>
               <note>申　土本等無し。九本、壬本補入により補う。</note>
             </app>
             <app from="#app1111190103" to="#app1111190103e">
@@ -2716,7 +2739,7 @@
               放此、但三位称卿、四位称姓、五位先名後姓、六位已下去姓称名、〉 <anchor xml:id="app1111230502e"/> 申給〈 <anchor
                 xml:id="app1111230505"/> 登 <anchor xml:id="app1111230505e"/> 〉申、</p>
             <p ana="項" corresp="engishiki_ja.xml#item11112306 engishiki_en.xml#item11112306"
-              xml:id="item11112306">大臣宣、縦之、少納言・弁大夫共称唯、弁大夫召考選史名、史共称唯、 <anchor xml:id="app1111230601"
+              xml:id="item11112306">大臣宣、縦之、<anchor xml:id="app1111230603"/>少納言・弁大夫共称唯<anchor xml:id="app1111230603e"/>、弁大夫召考選史名、史共称唯、 <anchor xml:id="app1111230601"
               /> 倶 <anchor xml:id="app1111230601e"/>
               入立如前、一史進執硯筥還立同処、召史生、称唯走至史後、置空筥於史前、受取硯筥而立、史執空筥進入短冊而還、一史又進執札并紙文而還、訖史生先却出、次史相列退出、次少納言・弁降就版
                 <anchor xml:id="app1111230602"/> 揖 <anchor xml:id="app1111230602e"/>
@@ -2797,6 +2820,7 @@
             <app from="#app1111230403" to="#app1111230403e">
               <lem wit="#九本 #京博本補書">日</lem>
               <rdg wit="#土本 #近本 #壬本 #京博本 #慶長本 #梵本"/>
+              <note>京博本補書「日」</note>
               <note>日　土本等無し。九本、京博本補書により補う。</note>
             </app>
             <app from="#app1111230501" to="#app1111230501e">
@@ -2807,10 +2831,14 @@
               <note>条　土本等この下に細字注「局本注有此条」（近本・壬本は「条」を「祭」に作り「条」と傍書。慶長本「祭」）あり。壬本傍書「後人之注歟」。九本に無く、後の書入の竄入と判断する。</note>
             </app>
             <app from="#app1111230502" to="#app1111230502e">
-              <lem wit="#九本">増減去年若干条〈読申之詞、下亦放此、但三位称卿、四位称姓、五位先名後姓、六位已下去姓称名〉</lem>
-              <rdg wit="#土本 #近本 #壬本 #京博本 #慶長本 #梵本"
-                >少納言弁大夫共称唯〈読申之詞、下亦放此、但三位称卿、四位称姓、五位先名後姓、六位已下去姓称名〉</rdg>
+              <lem wit="#九本">〈読申之詞、下亦放此、但三位称卿、四位称姓、五位先名後姓、六位已下去姓称名〉</lem>
+              <rdg wit="#土本 #近本 #壬本 #京博本 #慶長本 #梵本"/>
               <note>読申…称名（31字）　土本等、下文「少納言弁大夫共称唯」の下にあり。九本により移す。</note>
+            </app>
+            <app from="#app1111230603" to="#app1111230603e">
+              <lem wit="#九本">少納言・弁大夫共称唯</lem>
+              <rdg wit="#土本 #近本 #壬本 #京博本 #慶長本 #梵本">少納言・弁大夫共称唯〈読申之詞、下亦放此、但三位称卿、四位称姓、五位先名後姓、六位已下去姓称名〉</rdg>
+              <note>少納言・弁大夫共称唯　土本等「少納言弁大夫共称唯」の下に「〈読申之詞、下亦放此、但三位称卿、四位称姓、五位先名後姓、六位已下去姓称名〉」あり。九本により上文「増減去年若干条」の下に移す。</note>
             </app>
             <app from="#app1111230503" to="#app1111230503e">
               <lem wit="#九本">詞</lem>
@@ -2841,7 +2869,8 @@
             <app from="#app1111230701" to="#app1111230701e">
               <lem wit="#九本 #京博本朱傍書 #壬本朱補書">儲</lem>
               <rdg wit="#土本 #近本 #壬本 #京博本 #慶長本 #梵本">諸</rdg>
-              <note place="傍">京博本朱傍書「 <seg style="color:red">儲</seg>」 </note>
+              <note place="傍">京博本朱傍書「 <seg style="color:red">儲</seg>」</note>
+              <note>壬本朱補書「<seg style="color:red">儲</seg>」</note>
               <note>儲　土本等「諸」。九本、京博本朱傍書、壬本朱補書により改める。</note>
             </app>
             <app from="#app1111230702" to="#app1111230702e">
@@ -2898,9 +2927,9 @@
               <lem>弘</lem>
             </app>
             <app from="#app1111260102" to="#app1111260102e">
-              <lem wit="#九本">例其番上</lem>
-              <rdg wit="#土本 #近本 #壬本 #京博本 #慶長本 #梵本">例其番上例其番上</rdg>
-              <note>例其番上　土本等弥書。九本により削る。</note>
+              <lem wit="#九本">例、其番上</lem>
+              <rdg wit="#土本 #近本 #壬本 #京博本 #慶長本 #梵本">例、其番上例、其番上</rdg>
+              <note>例、其番上　土本等弥書。九本により削る。</note>
             </app>
           </div>
           <div ana="太政官" n="11.127" subtype="項" type="条">
@@ -3058,8 +3087,11 @@
               <note>弁　土本等「新」。九本、壬本・京博本朱傍書、近本イ傍書により改める。</note>
             </app>
             <app from="#app1111350103" to="#app1111350103e">
-              <lem wit="#九本 #近本 #壬本傍書 #京博本傍書">読</lem>
+              <lem wit="#九本 #近本傍書 #壬本傍書 #京博本傍書">読</lem>
               <rdg wit="#土本 #近本 #壬本 #京博本 #慶長本 #梵本">請</rdg>
+              <note place="傍">近本傍書「読」</note>
+              <note place="傍">壬本傍書「読」</note>
+              <note place="傍">京博本傍書「読」</note>
               <note>読　土本等「請」。九本、近本・壬本・京博本傍書により改める。</note>
             </app>
             <app from="#app1111350104" to="#app1111350104e">
