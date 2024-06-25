@@ -8505,19 +8505,21 @@
                   <cell rendition="#width300">石門別神社</cell>
                   <cell rendition="#width50"/>
                   <cell rendition="#width300">
-                    <anchor xml:id="app1010300603"/> 天計神社</cell>
+                    <anchor xml:id="app1010300603"/> 天計神社<anchor xml:id="app1010300603e"/></cell>
                   <cell rendition="#width50"/>
-                  <cell rendition="#width300">国神社</cell>
+                  <cell rendition="#width300"><anchor xml:id="app1010300604"/>国神社<anchor
+                      xml:id="app1010300604e"/></cell>
                 </row>
                 <row>
                   <cell rendition="#width300">伊勢神社</cell>
                   <cell rendition="#width50"/>
                   <cell rendition="#width300">
                     <pb
-                      facs="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-10%2F00055.tif/full/full/0/default.jpg"
-                    /> 尾針神社</cell>
+                      facs="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-10%2F00055.tif/full/full/0/default.jpg"/>
+                    <anchor xml:id="app1010300605"/>尾針神社<anchor xml:id="app1010300605e"/></cell>
                   <cell rendition="#width50"/>
-                  <cell rendition="#width300">天神社 <anchor xml:id="app1010300603e"/>
+                  <cell rendition="#width300"><anchor xml:id="app1010300606"/>天神社 <anchor
+                      xml:id="app1010300606e"/>
                   </cell>
                 </row>
                 <row>
@@ -8540,9 +8542,16 @@
               <note>並小　土本無し、永本・九本・花本・吉本・京博本あり。</note>
             </app>
             <app from="#app1010300603" to="#app1010300603e">
-              <lem wit="#永本 #九本 #西本">天計神社　国神社　伊勢神社　尾針神社　天神社</lem>
-              <rdg wit="#土本 #花本 #吉本 #京博本">尾針神社　天神社　伊勢神社　天計神社　国神社</rdg>
-              <note>天計神社　国神社　伊勢神社　尾針神社　天神社　土本・花本・吉本・京博本および訳注本は尾針神社・天神社・伊勢神社・天計神社・国神社、の順に配列する。永本は国神社の脚書に「他本次第」として土本等と同じ配列を紹介する。永本・九本・西本は天計神社・国神社・伊勢神社・尾針神社・天神社の順。</note>
+              <note>天計神社　土本・花本・吉本・京博本および訳注本は尾針神社・天神社・伊勢神社・天計神社・国神社、の順に配列する。永本は国神社の脚書に「他本次第」として土本等と同じ配列を紹介する。永本・九本・西本は天計神社・国神社・伊勢神社・尾針神社・天神社の順。</note>
+            </app>
+            <app from="#app1010300604" to="#app1010300604e">
+              <note>国神社　土本・花本・吉本・京博本および訳注本は尾針神社・天神社・伊勢神社・天計神社・国神社、の順に配列する。永本は国神社の脚書に「他本次第」として土本等と同じ配列を紹介する。永本・九本・西本は天計神社・国神社・伊勢神社・尾針神社・天神社の順。</note>
+            </app>
+            <app from="#app1010300605" to="#app1010300605e">
+              <note>尾針神社　土本・花本・吉本・京博本および訳注本は尾針神社・天神社・伊勢神社・天計神社・国神社、の順に配列する。永本は国神社の脚書に「他本次第」として土本等と同じ配列を紹介する。永本・九本・西本は天計神社・国神社・伊勢神社・尾針神社・天神社の順。</note>
+            </app>
+            <app from="#app1010300606" to="#app1010300606e">
+              <note>天神社　土本・花本・吉本・京博本および訳注本は尾針神社・天神社・伊勢神社・天計神社・国神社、の順に配列する。永本は国神社の脚書に「他本次第」として土本等と同じ配列を紹介する。永本・九本・西本は天計神社・国神社・伊勢神社・尾針神社・天神社の順。</note>
             </app>
             <p ana="項" corresp="engishiki_en.xml#item10103007 engishiki_ja.xml#item10103007"
               xml:id="item10103007">
@@ -11545,7 +11554,7 @@
             </app>
             <app from="#app1010530208" to="#app1010530208e">
               <note place="頭">永本頭注「イ本上ニアリ、」</note>
-              <note>中津神社　花本・吉本・京博本は「中津神社〈名神大、〉」を「同佐肆布都神社」の下に配列する。永本も同佐肆布都神社頭注に「イ本上ニアリ、」と記す。訳注本は考異に従い「同」を削る。</note>
+              <note>同佐肆布都神社　花本・吉本・京博本は中津神社〈名神大、〉の上に配列する。永本頭注に「イ本上ニアリ、」と記す。訳注本は考異に従い「同」を削る。</note>
             </app>
             <app from="#app1010530209" to="#app1010530209e" type="標注">
               <lem wit="#花本">
