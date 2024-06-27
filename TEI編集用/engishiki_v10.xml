@@ -11884,10 +11884,9 @@
         <div type="本奥書" xml:id="okugaki10">
           <p xml:id="okugaki1001">
             <table rendition="#indent2">
-              <anchor xml:id="app1099990101"/>
               <row>
-
-                <cell> 延長五年十二月廿六日</cell>
+                <cell>
+                  <anchor xml:id="app1099990101"/>延長<anchor xml:id="app1099990101e"/>五年十二月廿六日</cell>
                 <cell>外従五位下 <anchor xml:id="app1099990102"/> 行 <anchor xml:id="app1099990102e"/> 左大史
                     <anchor xml:id="app1099990103"/> 臣 <anchor xml:id="app1099990103e"/>
                   阿刀宿禰忠行</cell>
@@ -11899,36 +11898,25 @@
               </row>
               <row>
                 <cell/>
-                <cell>従四位上行神祇伯臣大中臣朝臣安則</cell>
+                <cell><anchor xml:id="app1099990105"/>従四位上行神祇伯臣大中臣朝臣安則<anchor
+                    xml:id="app1099990105e"/></cell>
               </row>
               <row>
                 <cell/>
                 <cell>
                   <pb
-                    facs="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-10%2F00071.tif/full/full/0/default.jpg"
-                  /> 大納言正三位兼行民部卿臣藤原朝臣清貫</cell>
+                    facs="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-10%2F00071.tif/full/full/0/default.jpg"/>
+                  <anchor xml:id="app1099990106"/>大納言正三位兼行民部卿臣藤原朝臣清貫<anchor xml:id="app1099990106e"
+                  /></cell>
               </row>
               <row>
                 <cell/>
                 <cell>左大臣正二位兼行左近衛大将皇太子傅臣藤原朝臣忠平 </cell>
               </row>
-              <anchor xml:id="app1099990101e"/>
             </table>
           </p>
           <app from="#app1099990101" to="#app1099990101e">
-            <lem wit="#土本 #永本 #吉本 #京博本">延長五年十二月廿六日外従五位下左大史臣阿刀宿禰忠行 <lb/>
-              <s rendition="#indent10">従五位上行勘解由次官兼大外記紀伊権介臣伴宿禰久永 <lb/> 従四位上行神祇伯臣大中臣朝臣安則 <lb/>
-                大納言正三位兼行民部卿臣藤原朝臣清貫 <lb/> 左大臣正二位兼行左近衛大将皇太子傅臣藤原朝臣忠平</s>
-            </lem>
-            <rdg wit="#花本">延長五年十二月廿六日外従五位下左大史臣阿刀宿禰忠行 <lb/>
-              <s rendition="#indent10">従五位上行勘解由次官兼大外記紀伊権介臣伴宿禰久永 <lb/> 大納言正三位兼行民部卿臣藤原朝臣清貫 <lb/>
-                従四位上行神祇伯臣大中臣朝臣安則 <lb/> 左大臣正二位兼行左近衛大将皇太子傅臣藤原朝臣忠平</s>
-            </rdg>
-            <rdg wit="#九本 "/>
-            <note>延長五年十二月廿六日外従五位下左大史臣阿刀宿禰忠行 <lb/>
-              <s rendition="#indent10">従五位上行勘解由次官兼大外記紀伊権介臣伴宿禰久永 <lb/> 従四位上行神祇伯臣大中臣朝臣安則 <lb/>
-                大納言正三位兼行民部卿臣藤原朝臣清貫 <lb/> 左大臣正二位兼行左近衛大将皇太子傅臣藤原朝臣忠平</s>　九本無し。花本は藤原朝臣清貫を大中臣安則の前行に記す。
-            </note>
+            <note>延長……忠平　九本無し。</note>
           </app>
           <app from="#app1099990102" to="#app1099990102e">
             <lem wit="#土本 #花本 #吉本 #京博本">行</lem>
@@ -11946,6 +11934,12 @@
             <rdg wit="#永本 #吉本"/>
             <note place="傍">永本傍書「臣歟、」</note>
             <note>臣　永本・吉本無し。土本・花本・京博本あり。永本傍書「臣歟、」。</note>
+          </app>
+          <app from="#app1099990105" to="#app1099990105e">
+            <note>従四位上…安則　花本は藤原清貫の後行に記す。</note>
+          </app>
+          <app from="#app1099990106" to="#app1099990106e">
+            <note>大納言…清貫　花本は大中臣安則の前行に記す。</note>
           </app>
         </div>
         <div type="奥書" xml:id="shahonokugaki10">
