@@ -1,0 +1,1879 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>延喜式ファイル</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>国立歴史民俗博物館メタ資料学研究センター</publisher>
+				<idno type="PID">o:depcha.engi_shiki.1</idno>
+				<availability>
+					<p/>
+				</availability>
+				<date when="2020-03-31">31 March 2020</date>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<settlement>千葉県佐倉市</settlement>
+						<repository>国立歴史民俗博物館</repository>
+						<collection>集英社版延喜式</collection>
+					</msIdentifier>
+					<msContents>
+						<msItem>
+							<author>藤原時平・藤原忠平</author>
+							<title>延喜式</title>
+							<note>
+								<p>ここに史料の説明が入る。</p>
+							</note>
+						</msItem>
+					</msContents>
+				</msDesc>
+				<listWit>
+					<listWit xml:id="写本">
+						<head>写本</head>
+						<witness xml:id="土本"><abbr>土本</abbr>：国立歴史民俗博物館所蔵土御門家旧蔵本（H-743-74）</witness>
+						<witness xml:id="近本"><abbr>近本</abbr>：京都大学附属図書館所蔵近衛文庫本（2-03/エ/1貴）</witness>
+						<witness xml:id="壬本"><abbr>壬本</abbr>：宮内庁書陵部図書寮文庫所蔵壬生家旧蔵本（F10-287）</witness>
+						<witness xml:id="京博本"><abbr>京博本</abbr>：京都国立博物館所蔵旧京都博物館本</witness>
+						<witness xml:id="慶長本"><abbr>慶長本</abbr>：国立公文書館所蔵慶長写本（特102-8）</witness>
+						<witness xml:id="梵本"
+							><abbr>梵本</abbr>：天理大学附属天理図書館所蔵吉田文庫梵舜等筆本（吉16-8。巻8は173-ｲ5（Ⅲ524)もあり）</witness>
+						<witness xml:id="九本"><abbr>九本</abbr>：東京国立博物館所蔵九条家旧蔵巻子本（B-2370）</witness>
+						<witness xml:id="剛本"><abbr>剛本</abbr>：天野山金剛寺所蔵本</witness>
+						<witness xml:id="条本"
+							><abbr>条本</abbr>：一条家旧蔵巻子本（巻1～3は無窮会専門図書館所蔵模写本、巻4・5は神宮司庁刊影印本）</witness>
+						<witness xml:id="花本"><abbr>花本</abbr>：花山院家・武田祐吉旧蔵本（神宮皇学館刊影印本による）</witness>
+						<witness xml:id="九冊本"
+							><abbr>九冊本</abbr>：國學院大學所蔵九条家・西田長男旧蔵冊子本（巻5は西田長男刊影印本による）</witness>
+						<witness xml:id="永本"
+							><abbr>永本</abbr>：巻8は國學院大學図書館所蔵（091.2/322.135/1）、巻9・10は現蔵不明(神宮文庫所蔵写真帳1門16974）</witness>
+						<witness xml:id="右本"><abbr>右本</abbr>：巻8は國學院大學図書館所蔵（貴62）</witness>
+						<witness xml:id="吉本"
+							><abbr>吉本</abbr>：天理大学附属天理図書館所蔵吉田家旧蔵本巻9・10（328.1-ｲ17(Ⅲ1219)）</witness>
+						<witness xml:id="三条本"
+							><abbr>三条本</abbr>：天理大学附属天理図書館所蔵三条家旧蔵本（328.1-ｲ11(Ⅲ1218)）</witness>
+						<witness xml:id="西本"
+							><abbr>西本</abbr>：巻9・10は國學院大學図書館所蔵（貴107～108）。巻50は国立歴史民俗博物館所蔵（H-1588）。抄出本は國學院大學所蔵（木村大樹「〔西田長男旧蔵〕三条西実隆筆『延喜式』(抄)の翻刻・紹介」『國學院大學研究開発推進機構紀要』14、2022年） </witness>
+						<witness xml:id="時慶本"
+							><abbr>時慶本</abbr>：静嘉堂文庫所蔵西洞院時慶写本（延喜格式表18352、延喜式序18353）</witness>
+						<witness xml:id="島原本"
+							><abbr>島原本</abbr>：東京大学史料編纂所所蔵松平忠房・和学講談所・水野忠央旧蔵本（貴45-2）</witness>
+						<witness xml:id="藤波本"
+							><abbr>藤波本</abbr>：宮内庁書陵部図書寮文庫所蔵藤波家旧蔵本（217-473）</witness>
+						<witness xml:id="貞享本"
+							><abbr>貞享本</abbr>：宮内庁書陵部図書寮文庫所蔵和学講談所旧蔵坊城俊方貞享本（457-116）</witness>
+						<witness xml:id="玄梁本"><abbr>玄梁本</abbr>：無窮会専門図書館所蔵神習文庫玄梁記名本（神習3666）</witness>
+						<witness xml:id="尾張本"
+							><abbr>尾張本</abbr>：東京大学総合図書館所蔵尾張家旧蔵本（巻13）（A00-6122）</witness>
+						<witness xml:id="泉亭本"><abbr>泉亭本</abbr>：賀茂三手文庫所蔵泉亭本（制度/加）</witness>
+					</listWit>
+					<listWit xml:id="版本">
+						<head>版本：慶安版本も含めた流布版本</head>
+						<witness xml:id="慶安版本"
+							><abbr>慶安版本</abbr>：大和文華館所蔵鈴鹿連胤旧蔵版本（1/741～790）</witness>
+						<witness xml:id="明暦版本"
+							><abbr>明暦版本</abbr>：明暦修訂版本　国立公文書館所蔵紅葉山文庫旧蔵版本（特26-1）等</witness>
+						<witness xml:id="明暦以降版本"><abbr>明暦以降版本</abbr>：明暦修訂本以降の版本</witness>
+						<witness xml:id="寛文版本"
+							><abbr>寛文版本</abbr>：寛文修訂版本　筑波大学附属図書館所蔵版本20冊本（ム212-7）等</witness>
+						<witness xml:id="享保版本"
+							><abbr>享保版本</abbr>：享保修訂版本　筑波大学附属図書館所蔵版本50冊本（ム212-6）等</witness>
+						<witness xml:id="雲本"
+							><abbr>雲本</abbr>：松江藩文政11年(1828)刊本（雲州本）　早稲田大学図書館所蔵本（ワ03-01594）等</witness>
+						<witness xml:id="考異"
+							><abbr>考異</abbr>：雲州本附録『延喜式考異』　早稲田大学図書館所蔵本（ワ03-01594）等</witness>
+						<witness xml:id="鈴鹿本"
+							><abbr>鈴鹿本</abbr>：大和文華館所蔵鈴鹿連胤旧蔵慶安版本（1/741～790）書入</witness>
+						<witness xml:id="勢多本"
+							><abbr>勢多本</abbr>：宮内庁書陵部図書寮文庫所蔵勢多家旧蔵明暦等版本（172-123）書入</witness>
+						<witness xml:id="筑波寛文本"
+							><abbr>筑波寛文本</abbr>：筑波大学附属図書館所蔵寛文版本20冊本（ム212-7）書入</witness>
+					</listWit>
+					<listWit xml:id="刊本">
+						<head>刊本</head>
+						<witness xml:id="旧大系本"><abbr>旧大系本</abbr>：旧輯国史大系第13巻（経済雑誌社　1900年刊）</witness>
+						<witness xml:id="叢書本"><abbr>叢書本</abbr>：新註皇学叢書第3巻（広文庫刊行会　1927年刊）</witness>
+						<witness xml:id="全集本"
+							><abbr>全集本</abbr>：日本古典全集『延喜式』（日本古典全集刊行会　1927～1929年刊）</witness>
+						<witness xml:id="皇典本"
+							><abbr>皇典本</abbr>：『校訂延喜式』（皇典講究所・全国神職会　1929～1932年刊）</witness>
+						<witness xml:id="国史大系本"
+							><abbr>国史大系本</abbr>：新訂増補国史大系第26巻（吉川弘文館　1937年刊）</witness>
+						<witness xml:id="神道大系本"
+							><abbr>神道大系本</abbr>：神道大系古典編11・12『延喜式』（神道大系編纂会、1991・1993年刊）</witness>
+						<witness xml:id="訳注本"
+							><abbr>訳注本</abbr>：訳注日本史料『延喜式』上～下（集英社、2000～2017年刊）</witness>
+					</listWit>
+					<listWit xml:id="その他">
+						<head>その他</head>
+						<witness xml:id="本朝月令"
+							><abbr>本朝月令</abbr>：清水潔編『新校本朝月令』（皇學館大學神道研究所　2002年刊）</witness>
+						<witness xml:id="儀式"
+							><abbr>儀式</abbr>：神道大系朝儀祭祀編1『儀式・内裏式』（神道大系編纂会　1980年刊）</witness>
+						<witness xml:id="皇太神宮儀式帳"
+							><abbr>皇太神宮儀式帳</abbr>：佐野真人「『皇太神宮儀式帳』校訂試案」（『皇學館大学研究開発推進センター紀要』2　2016年）</witness>
+						<witness xml:id="止由気宮儀式帳"
+							><abbr>止由気宮儀式帳</abbr>：佐野真人「『止由気宮儀式帳』校訂試案」（『皇學館大学研究開発推進センター紀要』3　2017年）</witness>
+						<witness xml:id="新撰年中行事"
+							><abbr>新撰年中行事</abbr>：西本昌弘編『新撰年中行事』（八木書店　2010年刊）</witness>
+						<witness xml:id="小野宮年中行事"><abbr>小野宮年中行事</abbr>：群書類従第6輯 律令部
+							公事部（続群書類従完成会　1932年刊）</witness>
+						<witness xml:id="小野宮年中行事裏書"
+							><abbr>小野宮年中行事裏書</abbr>：国立歴史民俗博物館所蔵本（H-1762）</witness>
+						<witness xml:id="勘例"
+							><abbr>勘例（陽明文庫所蔵）</abbr>：大日本古記録『勘例』上・下（岩波書店　2018・2023年刊）</witness>
+						<witness xml:id="政事要略"
+							><abbr>政事要略</abbr>：新訂増補国史大系第28巻（吉川弘文館　1935年刊。適宜、写本を参照）</witness>
+						<witness xml:id="法曹至要抄"><abbr>法曹至要抄</abbr>：中世法制史料集（岩波書店　2005年刊）</witness>
+						<witness xml:id="本草和名"
+							><abbr>本草和名</abbr>：丸山裕美子・武倩編著『本草和名』（汲古書院　2021年刊）</witness>
+					</listWit>
+				</listWit>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<variantEncoding location="external" method="location-referenced"/>
+			<tagsDecl>
+				<rendition xml:id="indent">margin-top: 1em;</rendition>
+				<rendition xml:id="indent2">margin-top: 2em;</rendition>
+				<rendition xml:id="indent3">margin-top: 3em;</rendition>
+				<rendition xml:id="indent4">margin-top: 4em;</rendition>
+				<rendition xml:id="indent5">margin-top: 5em;</rendition>
+				<rendition xml:id="indent6">margin-top: 6em;</rendition>
+				<rendition xml:id="indent7">margin-top: 7em;</rendition>
+				<rendition xml:id="indent10">margin-top: 10em;</rendition>
+				<rendition xml:id="indent12">margin-top: 12em;</rendition>
+				<rendition xml:id="indent13">margin-top: 13em;</rendition>
+				<rendition xml:id="indent14">margin-top: 14em;</rendition>
+				<rendition xml:id="indent18">margin-top: 18em;</rendition>
+				<rendition xml:id="width50">width: 50px;</rendition>
+				<rendition xml:id="width80">width: 80px;</rendition>
+				<rendition xml:id="width100">width: 100px;</rendition>
+				<rendition xml:id="width150">width: 150px;</rendition>
+				<rendition xml:id="width170">width: 170px;</rendition>
+				<rendition xml:id="width200">width: 200px;</rendition>
+				<rendition xml:id="width300">width: 300px;</rendition>
+			</tagsDecl>
+			<editorialDecl>
+				<p/>
+				<p ana="個別">英訳凡例<table>
+						<row>
+							<cell>・</cell>
+							<cell>原文として本誌2021年に掲載される土御門本を底本とする校訂文（小川宏和「『延喜式』巻三九の写本系統と「内膳司」本文校訂（稿）」『国立歴史民俗博物館』2022年）を用いている。条文番号・条文名は上記校訂文で用いられている虎尾俊哉編『訳注日本史料　延喜式』　下（集英社、2017年）に従い、長文となる条文については、校訂文にあわせて便宜的に1、2、などと小見出しを付している。各条冒頭には、条文内容の把握の一助として条文概要を付している。</cell>
+						</row>
+						<row>
+							<cell>・</cell>
+							<cell>英語圏における標準的な表示形式に従い、原文の注釈とローマ字は（ ）、割書は〈 〉、翻訳者の注は　[
+								]　内に入る。長い条文には字間を設けた。</cell>
+						</row>
+						<row>
+							<cell>・</cell>
+							<cell>『延喜式』記載された重量や寸法の算出には不明な点が多いため、本文中の度量衡は現代 の寸法に換算していない。</cell>
+						</row>
+					</table></p>
+			</editorialDecl>
+		</encodingDesc>
+		<revisionDesc ana="個別">
+			<listChange>
+				<change/>
+			</listChange>
+		</revisionDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<div ana="内膳" n="39" subtype="式" type="巻" xml:id="volume39">
+				<div type="首題" xml:id="shudai39">
+					<p xml:id="shudai3901"/>
+				</div>
+				<div ana="内膳" corresp="engishiki.xml#protocol392 engishiki_ja.xml#protocol392"
+					n="39" subtype="条" type="式" xml:id="protocol392">
+					<div type="式題" xml:id="shikidai392">
+						<p xml:id="shikidai39201">The Royal Meal Protocols</p>
+					</div>
+					<div ana="内膳"
+						corresp="engishiki.xml#article392001 engishiki_ja.xml#article392001"
+						n="39.1" subtype="項" type="条" xml:id="article392001">
+						<head ana="春日春祭"/>
+						<note type="summary">[Worker Payments for the <seg>Kasuga Spring
+							Rite</seg>]</note>
+						<p ana="項"
+							corresp="engishiki.xml#item39200101 engishiki_ja.xml#item39200101"
+							xml:id="item39200101">Kasuga Spring Rite: 1 *hiki/* of <seg>plain-weave
+								silk (*ashiginu/*)</seg>, 2 *ton/* of silk floss 〈for one [Royal
+							Meal] official in the color corresponding to his position〉, 4 *tan/* of
+								<seg>*chōfu/*　cloth</seg> 〈each of the eight cooks (*kashiwade/*)
+							are to be given 2 *jō/* 1 *shaku/* for <seg>outer robes</seg>〉, 1 *kin/*
+							of safflower 〈a suitable amount for dying the cooks'cloth〉, 1 *tan/* of
+							dark blue cloth 〈an amount for the <seg>female servants' (*nyotei/*)
+								trains</seg>〉, 6 tan of <seg>*shōfu/* exchange cloth</seg> 〈4 *tan/*
+							is for outer robes for each of the laborers (*shichō/*) and the
+							transporters (*tanfu/*). The other 2 *tan/* are for towels for the cooks
+							and female servants.〉 As to the above, the various items are to be
+							requested of the Royal Household Ministry in advance and they are to be
+							sent from the Treasury Ministry. 〈However, see the Kami Affairs
+							Protocols about the things for the kami's offerings.〉 The official is to
+							summon cooks and laborers to the location where the rite is conducted
+							and they present these items. Similar items are to be provided or made
+							for the autumnal rite as well. 〈Transporters are to be requested at the
+							time from the [Royal Household] Ministry.〉</p>
+						<note/>
+					</div>
+					<div ana="内膳"
+						corresp="engishiki.xml#article392002 engishiki_ja.xml#article392002"
+						n="39.2" subtype="項" type="条" xml:id="article392002">
+						<head ana="大原野祭"/>
+						<note type="summary">[The <seg>Ōharano Rite</seg>]</note>
+						<p ana="項"
+							corresp="engishiki.xml#item39200201 engishiki_ja.xml#item39200201"
+							xml:id="item39200201">The Ōharano Rite: this is the same as the Kasuga
+							Rite.</p>
+					</div>
+					<div ana="内膳"
+						corresp="engishiki.xml#article392003 engishiki_ja.xml#article392003"
+						n="39.3" subtype="項" type="条" xml:id="article392003">
+						<head ana="月日春祭"/>
+						<note type="summary">[The <seg>Tsukihi Spring Rite</seg>]</note>
+						<p ana="項"
+							corresp="engishiki.xml#item39200301 engishiki_ja.xml#item39200301"
+							xml:id="item39200301">The Tsukihi Spring Rite: 2 high tables 〈to be
+							provided by the Carpentry Bureau〉, 4 pieces of *chōfu/* tax cloth 〈each
+							piece to be 5 *shaku/* in length and large enough to spread beneath the
+							table〉, 8 <seg>Sue pottery</seg>
+							<seg>tall dishes</seg>, 2 [Sue pottery] rounded square jars, 2 wooden
+							rice containers, 1 *kin/* of mulberry floss. 〈These are to be prepared
+							by the Palace Storehouse Bureau.〉 The <seg>female chamberlains
+								(*naishi/*)</seg> are to request the various items above. As for the
+							items being offered to the kami, the ingredients are to be taken out of
+							the monthly provisions and prepared, arranged on the high tables, and
+							sent to the Wardrobe Bureau. Similar items are to be provided or made
+							for the autumnal rite as well.</p>
+					</div>
+					<div ana="内膳"
+						corresp="engishiki.xml#article392004 engishiki_ja.xml#article392004"
+						n="39.4" subtype="項" type="条" xml:id="article392004">
+						<head ana="園神祭"/>
+						<note type="summary">[The <seg>Garden Kami (*sono no kami/*)
+							Rite</seg>]</note>
+						<p ana="項"
+							corresp="engishiki.xml#item39200401 engishiki_ja.xml#item39200401"
+							xml:id="item39200401">The Garden Kami Rite 〈The same for both spring and
+							autumn〉: 14 kami 〈2 for the Keihoku Garden, 3 for the Nagaoka Garden, 3
+							for the Nara Garden, 1 for the Yamashina Garden, 3 for the Hatsukashi
+							Garden, 1 for the Naki Garden, and 1 for the administrative office
+							managing <seg>the gardens</seg>.〉 As to the above, 1 seat is for a fifth
+								<seg>ranking kami</seg> 〈for the Capital's Northern Gardens.〉 13 are
+							sixth ranking. <lb/>Items for the fifth ranking kami: 3 *shaku/* of
+							five-colored plain-weave silk; 1 *shaku/* of <seg>mixed color
+								barkcloth</seg>; mulberry and hemp floss, 1 *ryō/* of each; 1 hoe; 3
+							*to/* of white rice; 1 *to/* of glutinous rice; soy and adzuki beans, 3
+							*shō/* of each; 1 *to/* of sake; 2 *kin/* of abalone; 6 *kin/* of bonito
+							and dried meat or fish; 11 *kin/* of various <seg>fermented fish</seg>;
+							4 *kin/* of wakame seaweed; 1 *shō/* of salt. <lb/>Items for the sixth
+							ranking kami: For each [kami] 1 *shaku/* of five-colored thin
+							plain-weave silk;1 *shaku/* of mixed color barkcloth; 1 hoe; mulberry
+							and hemp floss, 1 *ryō/* of each; 1 *shō/* of rice; 7 *gō/* of sake;
+							abalone, bonito, dried meat or fish, and wakame seaweed, 5 *ryō/* of
+							each; 7 *gō/* of salt; 2 *tan/* of <seg>*yōfu/* tax cloth</seg> to pay
+							for the *norito/* prayers. </p>
+					</div>
+					<div ana="内膳"
+						corresp="engishiki.xml#article392005 engishiki_ja.xml#article392005"
+						n="39.5" subtype="項" type="条" xml:id="article392005">
+						<head ana="諸祭雑菜"/>
+						<note type="summary">[The Amounts of Various Produce for Rites]</note>
+						<p ana="項"
+							corresp="engishiki.xml#item39200501 engishiki_ja.xml#item39200501"
+							xml:id="item39200501">The amounts of various produce for rites 〈The same
+							in both spring and autumn〉: <lb/>The Sono Kara Kami rites, 3 *koku/*;
+							Kasuga Rite, 4 *koku/*; <seg>Hirano Rite</seg>, 3 *koku/*; Ōharano Rite,
+							3 *koku/*; Memorial to Confucius (*Sekiten/*) rite, 3 *koku/*. 〈For
+							types and amounts, see the Banquet Protocols.〉 </p>
+					</div>
+					<div ana="内膳"
+						corresp="engishiki.xml#article392006 engishiki_ja.xml#article392006"
+						n="39.6" subtype="項" type="条" xml:id="article392006">
+						<head ana="神今食"/>
+						<note type="summary">[For the <seg>Sacred Meal with the Kami in the Sixth
+								and Twelfth Months (*Kan'imake/*)</seg>]</note>
+						<p ana="項"
+							corresp="engishiki.xml#item39200601 engishiki_ja.xml#item39200601"
+							xml:id="item39200601">For the *Kan'imake/* in the sixth month 〈this is
+							also to be done the twelfth month〉: Awaji salt, 2 *shō/*; <seg>Azuma
+								abalone</seg>, 7 *kin/* 5 *ryō/*; thinly sliced abalone, 6 *kin/* 10
+							*ryō/*; bonito, 5 *kin/*; 6 dried sea bream; 30 dried horse mackerel;
+							fermented abalone, boiled <seg>salt-boiled sweetfish</seg>, and<seg>*
+								hishio/*</seg> crucian carp, 2 *shō/* of each; 4 sea bream lightly
+							cured with salt; codium seaweed and wakame seaweed, 6 *kin/* 10 *ryō/*
+							of each; dried jujubes, raw chestnuts, <seg>ground chestnuts</seg>, and
+							water chestnuts, 2 *shō/* of each. 〈In the twelfth month, *tachibana/*
+							oranges should be used in place of the water chestnuts.〉 4
+								<seg>*hotogi/* jars</seg>; 10 pots 〈4 large, 6 small〉; 8 torch
+							bundles. The 2 offerings officials and the 6 cooks are to be given
+							*chihaya/* jackets made from 1 piece of <seg>bleached hemp cloth</seg>
+							〈length 8 *shaku/*.〉</p>
+					</div>
+					<div ana="内膳"
+						corresp="engishiki.xml#article392007 engishiki_ja.xml#article392007"
+						n="39.7" subtype="項" type="条" xml:id="article392007">
+						<head ana="新嘗夜料"/>
+						<note type="summary">[For the <seg>Great Harvest Rite (*Niinamesai/*)</seg>
+							Royal Meal (*kugo/*)]</note>
+						<p ana="項"
+							corresp="engishiki.xml#item39200701 engishiki_ja.xml#item39200701"
+							xml:id="item39200701">For the Great Harvest Rite royal meal: Salt, 2
+							*shō/*; Azuma abalone, 6 *kin/* 10 *ryō/* 2 *bu/* 4 *shu/*; bonito, 5
+							*kin/*; fermented abalone, salt-boiled sweetfish, and*hishio/* crucian
+							carp, 2 *shō/* of each; 4 delicious sea bream cured with little salt;
+							codium seaweed and wakame seaweed, 6 *kin/* 10 *ryō/* 2 *bu/* 4 *shu/*
+							of each; dried jujubes, 2 *shō/*; dried chestnuts, 2 *shō/*; ground
+							chestnuts, 4 *shō/*; raw chestnuts, 1 *to/*; castanopsis nuts and water
+							chestnuts, 4 *shō/* of each; 4 *tachibana/* oranges; 4 *hotogi/* jars;
+							*hishio/* and oil, 5 *shō/* of each. <lb/>The above is the items for the
+							night rite's [royal meal]. </p>
+					</div>
+					<div ana="内膳"
+						corresp="engishiki.xml#article392008 engishiki_ja.xml#article392008"
+						n="39.8" subtype="項" type="条" xml:id="article392008">
+						<head ana="新嘗解斎"/>
+						<note type="summary">[For the *Gesai/* Feast Served at the Conclusion of
+							Great Harvest Rite Purifications]</note>
+						<p ana="項"
+							corresp="engishiki.xml#item39200801 engishiki_ja.xml#item39200801"
+							xml:id="item39200801">Rice, 2 *to/*; glutinous rice, 2 *to/*; dehydrated
+							glutinous rice and foxtail millet, 2 *shō/* of each; 10 stalks of
+							glutinous rice; wheat, 4 *shō/*; soybeans, 2 *shō/* 2 *gō/*; adzuki, 1
+							*shō/* 6 *gō/*; sesame seeds, 2 *shō/* 8 *gō/*; perilla seeds, 3 *shō/*;
+								<seg>clear sake</seg> and cloudy sake, 1 *to/* of each; vinegar and
+							*hishio/*, 5 *shō/* of each; salt, 2 *shō/*; Azuma abalone, 1 *kin/* 10
+							*ryō/* 2 *bu/* 4 *shu/*; thinly sliced abalone, 13 *kin/* 5 *ryō/* 1
+							*bu/* 2 *shu/*; <seg>Oki abalone</seg>, 2 *kin/* 5 *ryō/* 1 *bu/* 2
+							*shu/*; boiled bonito and *sazae/* sea snail, 13 *ryō/* 1 *bu/* 2 *shu/*
+							of each; squid, 10 *ryō/* 2 *bu/* 4 *shu/*; dried whole fish and fowl, 5
+							*shō/*; nori, 10 *ryō/* 2 *bu/* 4 *shu/*; codium seaweed and wakame
+							seaweed, 6 *kin/* 10 *ryō/* 2 *bu/* 4 *shu/*; dried ginger, 3 *ryō/*; 1
+							basket of dried sorrel; dried jujubes, 2 *shō/*; ground chestnuts, 6
+							*shō/*; dried chestnuts, 2 *shō/*; raw chestnuts, 2 *to/* 2 *shō/* 8
+							*gō/*; 2 strings of dried persimmon; castanopsis nuts, 4 *shō/*; water
+							chestnuts and lotus seeds, 2 *shō/* of each; 24 *kage/* of *tachibana/*
+							oranges and 10 *tachibana/* <seg>orange branches</seg>; 10 plain chests;
+							19 large Sue pottery dishes; 12 [Sue pottery] <seg>bucket dishes</seg>;
+							26 [Sue pottery] bowls; 7 [Sue pottery] large jars; 6 [Sue pottery]
+							rounded square jars; 10 vinegar jars; 12 washing bowls; ash-fired
+							*hotogi/* jars and mortars, 8 of each; 30 Haji pottery roasting pots;
+							large and small washing bowls, 4 of each; 8 large [Haji] dishes; 12
+							snuffers; 10 [Haji] *hotogi/* jars; 50 pots 〈12 large, 38 small〉; 42
+							loads (*hyō/*) of Kashiwa <seg>oak leaves</seg>. 〈These are to be all
+							requested at one time and used over <seg>the seven royal
+							banquets</seg>.〉 <lb/>The above section is the items for the
+								<seg>*Gesai/* [conclusion of purification rites]</seg>. However, the
+							various vessels are to be used throughout the year on the seven royal
+							banquets. 〈Similar items are to be provided, which are listed in the
+							next clause.〉 </p>
+					</div>
+					<div ana="内膳"
+						corresp="engishiki.xml#article392009 engishiki_ja.xml#article392009"
+						n="39.9" subtype="項" type="条" xml:id="article392009">
+						<head ana="新嘗豊楽"/>
+						<note type="summary">[For the <seg>Warmth of Sake Royal Banquet (*Toyo no
+								Akari no sechie/*)</seg>]</note>
+						<p ana="項"
+							corresp="engishiki.xml#item39200901 engishiki_ja.xml#item39200901"
+							xml:id="item39200901">Rice, 1 *to/*; glutinous rice, 2 *to/*; cooked and
+							dried foxtail millet, 2 *shō/*; wheat, 4 *shō/*; sesame seeds, 2 *shō/*
+							8 *gō/*; perilla seeds, 3 *shō/*; salt, 2 *shō/*; Azuma abalone, 6
+							*kin/* 10 *ryō/* 2 *bu/* 4 *shu/*; bonito, 5 *kin/*; codium seaweed, 6
+							*kin/* 10 *ryō/* 2 *bu/* 4 *shu/*; wakame seaweed, 10 *ryō/* 4 *bu/* 8
+							*shu/*; fermented abalone, salt-boiled sweetfish, and *hishio/* crucian
+							carp, 2 *shō/* of each; 1 basket of dried sorrel; dried jujubes and
+							dried chestnuts, 2 *shō/* of each; ground chestnuts, 4 *shō/*; raw
+							chestnuts, 1 *to/*; 2 strings of dried persimmon; castanopsis nuts and
+							water chestnuts, 4 *shō/* of each; 24 *kage/* of *tachibana/* orange
+							[blossom wreaths], *tachibana/* orange [blossoms] attached to 10
+							branches [per wreath]; 10 plain chests; 19 large Sue pottery dishes; 12
+							[Sue pottery] bucket dishes; 26 [Sue pottery] bowls; 7 [Sue pottery]
+							large jars; 6 [Sue pottery] rounded square jars; 10 [Sue pottery]
+							vinegar jars; 12 washing bowls; ash-fired vessels and mortars, 8 of
+							each; 30 Haji pottery roasting pots; large and small [Haji] washing
+							bowls, 4 of each; 8 large [Haji] dishes; 12 [Haji] snuffers; 10 [Haji]
+							*hotogi/* jars; 8 torch bundles; charcoal, 4 *koku/*; and firewood, 600
+							*kin/*. The 2 [Royal Meal] officials making the offerings and the 6
+							cooks should receive outer robes and *chihaya/* jackets. <lb/>The above
+							is the items for the Warmth of Sake Royal Banquet. </p>
+					</div>
+					<div ana="内膳"
+						corresp="engishiki.xml#article392010 engishiki_ja.xml#article392010"
+						n="39.10" subtype="項" type="条" xml:id="article392010">
+						<head ana="新嘗中宮豊楽"/>
+						<note type="summary">[For the Warmth of Sake Royal Banquet, cont.]</note>
+						<p ana="項"
+							corresp="engishiki.xml#item39201001 engishiki_ja.xml#item39201001"
+							xml:id="item39201001">Salt, 2 *shō/*; Azuma abalone, 6 *kin/* 10 ryō 2
+							*bu/* 4 *shu/*; bonito, 5 *kin/*; codium seaweed and wakame seaweed, 6
+							*kin/* 10 *ryō/* 2 *bu/* 4 *shu/* of each; fermented abalone, *hishio/*
+							crucian carp, and salt-boiled sweetfish, 2 *shō/* of each; 1 basket of
+							dried sorrel; ground chestnuts, 4 *shō/*; raw chestnuts, 1 *to/*;
+							castanopsis nuts, 4 *shō/*; water chestnuts, 2 *shō/*; 2 *tachibana/*
+							oranges; 10 plain chests; 19 large Sue pottery plates; 12 [Sue pottery]
+							bucket dishes; 24 [Sue pottery] bowls; 7 [Sue pottery] large jars; 6
+							[Sue pottery] ceramic boxes; 10 [Sue pottery] vinegar jars; 12 [Sue
+							pottery] washing bowls; 8 [Sue pottery] mortars; 30 Haji pottery
+							roasting pots; large and small [Haji] washing bowls, 4 of each; 8 large
+							[Haji] dishes; 12 [Haji] snuffers; 10 [Haji] *hotogi/* jars; 8 torch
+							bundles; charcoal, 4 *koku/*; 60 *kin/* of firewood. <lb/>The
+							queen-consort's (*chūgū/*) Warmth of Sake Royal Banquet <seg>amount is
+								the same as the above</seg>. </p>
+					</div>
+					<div ana="内膳"
+						corresp="engishiki.xml#article392011 engishiki_ja.xml#article392011"
+						n="39.11" subtype="項" type="条" xml:id="article392011">
+						<head ana="御斎会料"/>
+						<note type="summary">[<seg>For the Lectures on the Golden Light Sutra
+								Rite</seg>]</note>
+						<p ana="項"
+							corresp="engishiki.xml#item39201101 engishiki_ja.xml#item39201101"
+							xml:id="item39201101">For the Lectures on the Golden Light Sutra Rite: 6
+							*koku/* 5 *to/* 4 *shō/* 5 *gō/* of various produce [are allocated] for
+							the Banquet Office. The 2 [Royal Meal] officials and the 4 cooks
+							preparing the offerings to the buddhas and kami are to receive 1 *ryō/*
+							of *chōfu/* cloth for outer robes 〈from that 1 *ryō/*, 2 *jō/* 1
+							*shaku/* is to be set aside〉. [For the cooks,] 4 pieces of *chōfu/* tax
+							cloth 〈the length is to be 8 *shaku/* each, and the four cooks are to
+							receive [1 *jō/* each] for a *chihaya/* jackets.〉</p>
+					</div>
+					<div ana="内膳"
+						corresp="engishiki.xml#article392012 engishiki_ja.xml#article392012"
+						n="39.12" subtype="項" type="条" xml:id="article392012">
+						<head ana="盂蘭盆料"/>
+						<note type="summary">[For the <seg>Seven Temples'Seventh Month Fifteenth Day
+								Obon Rite (*urabon/*)</seg>]</note>
+						<p ana="項"
+							corresp="engishiki.xml#item39201201 engishiki_ja.xml#item39201201"
+							xml:id="item39201201">For the Seven Temples'Seventh Month Fifteenth Day
+							Obon Rite: various produce, 3 *koku/* 2 *to/* 〈Each temple receives 4
+							*to/* 5 *shō/* 7 *gō/*〉; fruits, 2 *koku/* 4 *to/* 3 *shō/* 〈Each temple
+							receives 3 *to/* 4 *shō/* 7 *gō/*.〉</p>
+					</div>
+					<div ana="内膳"
+						corresp="engishiki.xml#article392013 engishiki_ja.xml#article392013"
+						n="39.13" subtype="項" type="条" xml:id="article392013">
+						<head ana="正月三節"/>
+						<note type="summary">[<seg>The Three Royal Banquets of the New
+							Year</seg>]</note>
+						<p ana="項"
+							corresp="engishiki.xml#item39201301 engishiki_ja.xml#item39201301"
+							xml:id="item39201301">For the royal meal at various royal banquets 〈the
+							queen-consort's amounts are the same, and the following are to be
+							provided to lower rankers.〉 The three royal banquets of the New Year:
+							rice, 3 *to/*; glutinous rice, 4 *to/* 6 *shō/* 5 *gō/*; 15 sheaves of
+							glutinous rice on the stalk; dehydrated glutinous rice, 3 *shō/*;
+							dehydrated foxtail millet, 6 *shō/*; wheat, 1 *to/* 2 *shō/*; perilla
+							seeds, 9 *shō/*; sesame seeds, 8 *shō/* 4 *gō/*; soybeans, 3 *shō/* 3
+							*gō/*; adzuki beans, 2 *shō/* 4 *gō/*; clear sake, cloudy sake, vinegar,
+							and oil, 1 *to/* 5 *shō/* of each; *hishio/*, 3 *to/*; salt, 6 *shō/*;
+							Azuma abalone, 8 *kin/* 4 *ryō/*; Oki abalone, 11 *kin/* 1 *ryō/*;
+							simmered bonito, 4 *kin/* 2 *shō/*; *sazae/* sea snail, 4 *kin/* 3
+							*ryō/*; nori, 1 *kin/*; dried ginger, 1 *kin/*; dried jujubes, 3 *shō/*;
+							ground chestnuts, 9 *shō/*; raw chestnuts, 6 *to/* 4 *shō/* 2 *gō/*; 6
+							strings of dried persimmon; castanopsis nuts, 6 *shō/*; water chestnuts,
+							3 *shō/*; 36 *tachibana/* orange [blossom wreaths with blossoms]
+							attached to 15 branches; <seg>fallen *tachibana/* oranges</seg>, 1
+							*to/*; 5 long chests; 18 roasting pots; bamboo, 3 bundles; 12 *koku/* of
+							charcoal for the kitchen; 1800 pieces of firewood. The 40 cooks 〈30 for
+							the sovereign, 10 for the queen-consort〉 preparing the offerings are to
+							each receive 1 *ryō/* of dark blue cloth for outer robes. (This cloth
+							will be used over the three banquets.〉 Each of the thirty cooks on leave
+							(*kaban no kashiwade/*) at each royal banquet is limited to two days and
+							receives 2 *shō/* of rice per day. 〈Other royal banquets are to follow
+							this as well.〉 <lb/>The above items for the three days of royal banquets
+							are to be presented at one time and then divided up according to each
+							banquet day. The items for the <seg>Grand Archery Meet (*jarai/*)</seg>
+							come from this list as well. Additionally, the side dishes for the
+							archery matches (*noriyumi/*) on the eighteenth day are to be prepared
+							and served to the nobility and Inner Palace Guards assistant commander
+							(*konoe jishō/*). </p>
+					</div>
+					<div ana="内膳"
+						corresp="engishiki.xml#article392014 engishiki_ja.xml#article392014"
+						n="39.14" subtype="項" type="条" xml:id="article392014">
+						<head ana="元二三日料"/>
+						<note type="summary">[For Royal Meals in the New Year]</note>
+						<p ana="項"
+							corresp="engishiki.xml#item39201401 engishiki_ja.xml#item39201401"
+							xml:id="item39201401">Daikon radish, melon miso pickle, melon sake lees
+							pickle, venison, boar meat, salt-pressed sweetfish, salt-boiled
+							sweetfish, 7 glazed Sue pottery dishes, 1 high table 〈length of 3
+							*shaku/* 5 *sun/*, width 1 *shaku/* 7 *sun/*, height 4 *shaku/*.〉
+							<lb/>The above is to be prepared for the royal meals from the first day
+							[of the New Year] through the third day. </p>
+					</div>
+					<div ana="内膳"
+						corresp="engishiki.xml#article392015 engishiki_ja.xml#article392015"
+						n="39.15" subtype="項" type="条" xml:id="article392015">
+						<head ana="三四五月料"/>
+						<note type="summary">[For Making Lye Mochi (*chimaki/*) in the Third through
+							Fifth Months]</note>
+						<p ana="項"
+							corresp="engishiki.xml#item39201501 engishiki_ja.xml#item39201501"
+							xml:id="item39201501">2 *koku/* of glutinous rice for <seg>lye
+								mochi</seg> 〈2 *shō/* 5 *gō/* per day〉; cowpeas, 6 *to/* 〈6 *gō/* 6
+							*shaku/* per day〉; ramie, 2 large *kin/*; 60 loads of firewood 〈to be
+							purchased with cash〉; 60 sheaves of wild rice 〈to be purchased in kind.〉
+							<lb/>The above is to be prepared for [royal] meals from the third month
+							tenth day to the fifth month thirtieth day. </p>
+					</div>
+					<div ana="内膳"
+						corresp="engishiki.xml#article392016 engishiki_ja.xml#article392016"
+						n="39.16" subtype="項" type="条" xml:id="article392016">
+						<head ana="五月五日"/>
+						<note type="summary">[<seg>Fifth Month Fifth Day Royal Banquet</seg>]</note>
+						<p ana="項"
+							corresp="engishiki.xml#item39201601 engishiki_ja.xml#item39201601"
+							xml:id="item39201601">Fifth Month Fifth Day Royal Banquet: rice, 1 *to/*
+							3 *shō/*; glutinous rice, 1 *to/* 7 *shō/*; 5 sheaves of glutinous rice
+							〈for <seg>pounded roasted rice</seg>〉; dehydrated glutinous rice and
+							foxtail millet, 2 *shō/* of each; soybeans, 2 *shō/*; wheat, 4 *shō/*;
+							sesame and perilla seeds, 4 *shō/* of each; sake, 1 *to/*; vinegar and
+							oil, 5 *shō/* of each; *hishio/*, 1 *to/*; salt, 2 *shō/*; dried whole
+							fowl, 4 *kin/*; Azuma abalone, 1 *kin/* 10 *ryō/*; Nagato abalone, Awa
+							abalone, Izumo abalone, and Oki abalone, 2 *kin/* 5 *ryō/* of each; 2
+							salmon; squid, 1 *kin/* 5 *ryō/*; boiled bonito and *sazae/* sea snail,
+							13 *ryō/* of each; dried whole fish and fowl, 5 *shō/*; nori, 5 *ryō/*;
+							codium seaweed, 1 *kin/* 5 *ryō/*; dried chestnuts, 1 *to/*; raw
+							chestnuts, 1 *to/* 7 *shō/* 4 *gō/*; 2 plain wood boxes (*arahako*); raw
+							silk, 2 *bu/* 4 *shu/*; 10 bundles of <seg>green wild rice</seg>; 1
+							bundle of bamboo; charcoal, 4 *koku/*; firewood, 60 *kin/*. Each of the
+							40 cooks 〈30 for the sovereign and 10 for the queen-consort〉 preparing
+							the offerings each receives 1 *ryō/* of dark blue cloth for outer
+							robes.</p>
+					</div>
+					<div ana="内膳"
+						corresp="engishiki.xml#article392017 engishiki_ja.xml#article392017"
+						n="39.17" subtype="項" type="条" xml:id="article392017">
+						<head ana="七月七日"/>
+						<note type="summary">[<seg>Seventh Month Seventh Day</seg>]</note>
+						<p ana="項"
+							corresp="engishiki.xml#item39201701 engishiki_ja.xml#item39201701"
+							xml:id="item39201701">Seventh Month Seventh Day [royal banquet]: rice
+							and glutinous rice, 6 *shō/* of each; dehydrated glutinous rice, 8
+							*to/*; dehydrated foxtail millet, 3 *shō/*; common millet and wheat, 6
+							*shō/* of each; adzuki beans, 1 *shō/*; sake, 2 *to/*; vinegar and oil,
+							5 *shō/* of each; *hishio/*, 1 *shō/*; salt, 1 *shō/*; Azuma abalone, 1
+							*kin/* 10 *ryō/*; Oki abalone, 2 *kin/* 5 *ryō/*; squid and *sazae/* sea
+							snails, 1 *kin/* 5 *ryō/* of each; boiled bonito, 13 *ryō/*; dried whole
+							fish and fowl, 5 *shō/*; nori, 4 *ryō/*; codium seaweed, 1 *kin/*; 1
+							stove; charcoal, 4 *koku/*; firewood, 600 *kin/*.</p>
+					</div>
+					<div ana="内膳"
+						corresp="engishiki.xml#article392018 engishiki_ja.xml#article392018"
+						n="39.18" subtype="項" type="条" xml:id="article392018">
+						<head ana="九月九日"/>
+						<note type="summary">[<seg>Ninth Month Ninth Day [Double Yang] Royal
+								Banquet</seg>]</note>
+						<p ana="項"
+							corresp="engishiki.xml#item39201801 engishiki_ja.xml#item39201801"
+							xml:id="item39201801">Ninth Month Ninth Day Royal Banquet: rice, 2 *to/*
+							3 *shō/*; 5 sheaves of glutinous rice; dehydrated glutinous rice, 1
+							*to/*; dehydrated foxtail millet, 2 *shō/*; wheat and sesame seeds, 4
+							*shō/* of each; soybeans, 2 *shō/*; adzuki beans, 1 *to/*; perilla
+							seeds, 6 *shō/*; sake, 1 *to/*; vinegar and oil, 5 *shō/* of each;
+							*hishio/*, 1 *to/*; salt, 2 *shō/*; Azuma abalone, 1 *kin/* 12 *ryō/*;
+							Oki abalone, 2 *kin/* 5 *ryō/*; squid, 1 *kin/* 5 *ryō/*; boiled bonito
+							and *sazae/* sea snail, 13 *ryō/* of each; salt-pressed sweetfish and
+							dried whole fowl, 8 *ryō/* of each; dried whole fish and fowl, 5 *shō/*;
+							nori, 5 *ryō/*; codium seaweed, 1 *kin/* 5 *ryō/*; charcoal, 3 *koku/*;
+							600 *kin/* of firewood.</p>
+					</div>
+					<div ana="内膳"
+						corresp="engishiki.xml#article392019 engishiki_ja.xml#article392019"
+						n="39.19" subtype="項" type="条" xml:id="article392019">
+						<head ana="供御月料"/>
+						<note type="summary">[Monthly Provisions for Offerings to the Royal
+							Table]</note>
+						<p ana="項"
+							corresp="engishiki.xml#item39201901 engishiki_ja.xml#item39201901"
+							xml:id="item39201901">Monthly Provisions for Offerings to the Royal
+							Table: glutinous rice, 2 *to/* 4 *shō/* 7 *gō/* 5 *shaku/*; foxtail
+							millet, 3 *to/* 4 *shō/* 5 *gō/*; dehydrated glutinous rice, 1 *to/* 2
+							*shō/* 7 *gō/* 5 *shaku/*; dehydrated foxtail millet, 3 *shō/* 7 *gō/* 5
+							*shaku/*; rice, 3 *to/* 6 *shō/* 4 *gō/*; <seg>millet mochi (*awa no
+								mochi/*)</seg>, 1 *to/* 5 *shō/*; common millet, 3 *to/*; <seg>brown
+								rice syrup (*ame/*)</seg>, 1 *to/* 4 *shō/* 2 *gō/* 5 *shaku/*;
+							wheat, 1 *koku/* 4 *to/* 1 *shō/*; mannagrass seeds, 7 *shō/* 5 *gō/*;
+							soybeans and adzuki beans, 2 *to/* 20 *shō/* 5 *gō/* of each; sesame and
+							perilla seeds, 1 *to/* 1 *shō/* 2 *gō/* 5 *shaku/* of each; cowpeas, 1
+							*to/* 3 *shō/* 5 *gō/*; sake, 7 *to/* 5 *shō/*; <seg>mash sake</seg>, 6
+							*to/* 7 *shō/* 5 *gō/*; <seg>liquid lees (*shirukasu/*)</seg>, 6 *to/*;
+							vinegar, 3 *to/* 7 *shō/* 7 *gō/* 5 *shaku/*; sesame oil, 1 *to/* 5
+							*shō/*; miso, 1 *to/* 5 *shō/*; *hishio/*, 8 *to/* 3 *shō/*; <seg>wrung
+								*hishio/*</seg>, 7 *shō/* 5 *gō/*; salt, 1 *koku/* 1 *to/* 8 *shō/*
+							7 *gō/*;</p>
+						<p ana="項"
+							corresp="engishiki.xml#item39201902 engishiki_ja.xml#item39201902"
+							xml:id="item39201902">dried meat (*hojishi/*), 9 *kin/*; dried whole
+							fowl and salt-pressed sweetfish, 16 *kin/* 8 *ryō/* of each; Azuma
+							abalone, 45 *kin/*; thinly sliced abalone, 11 *kin/* 4 *ryō/*; Oki
+							abalone, 45 *kin/*; *hishio/* abalone, 21 *jō/*; bonito, 225 *kin/*;
+							boiled bonito and sea cucumber, 8 *kin/* 4 *ryō/* of each; octopus and
+							squid, 23 *kin/* 4 *ryō/* of each; 45 salmon; dried whole fish and fowl,
+							4 to 5 *shō/*; <seg>*kotsuo/* shark</seg> skin, 20 *kin/* 13 *ryō/*;
+								<seg>infusion bonito</seg> and salted sea cucumber innards, 4 *kin/*
+							5 *gō/* of each; various abalone from Awa Province, 23 *kin/* 4 *ryō/*;
+							pickled abalone innards, 2 *to/* 3 *shō/* 2 *gō/* 5 *shaku/*; dried
+							*kue/* shark, 13 *kin/* 8 *ryō/*; various fermented fish, 2 *to/* 3
+							*shō/* 2 *gō/* 5 *shaku/*; <seg>*tsuhikihachi/*fish skin</seg>, 21
+							*kin/* 12 *ryō/*; 142 Noto Province Spanish mackerel; nori, 12 *ryō/*;
+							codium seaweed, 2 *kin/* 4 *ryō/*; arame kelp, 13 *kin/* 8 *ryō/*;
+							wakame seaweed, 22 *kin/* 8 *ryō/*; gelidium seaweed, 4 *kin/* 8 *ryō/*;
+							glacilaria seaweed, 5 *kin/* 4 *ryō/*; gloiopeltis seaweed, 12 *kin/*;
+							campylaephora seaweed, 9 *kin/*;</p>
+						<p ana="項"
+							corresp="engishiki.xml#item39201903 engishiki_ja.xml#item39201903"
+							xml:id="item39201903">leaf mustard and <seg>soybean-wakame seaweed
+								mixture (*kuki/*)</seg>, 4 *shō/* 5 *gō/* of each; 23 *hishio/*
+							melons; dried jujubes, 1 *to/* 4 *shō/* 2 *gō/* 5 *shaku/*; ground
+							chestnuts, 2 *to/* 9 *shō/* 3 *gō/* 5 *shaku/*; dried chestnuts, 7 *to/*
+							5 *shō/*; raw chestnuts, 2 *koku/* 2 *to/* 5 *shō/*; 29 strings of dried
+							persimmons; castanopsis nuts, 4 *to/* 5 *shō/*; walnuts, 1 *to/* 5
+							*shō/*; 45 *tachibana/* oranges; fallen *tachibana/* oranges and water
+							chestnuts, 2 *to/* 2 *shō/* 5 *gō/* of each; lotus seeds, 1 *to/* 5
+							*shō/* 7 *gō/* 5 *shaku/*;</p>
+						<p ana="項"
+							corresp="engishiki.xml#item39201904 engishiki_ja.xml#item39201904"
+							xml:id="item39201904">7 *shaku/* of silk 〈for wiping down the
+							sovereign's dishes made with gold, silver, and red lacquer〉; 6 *shō/* of
+							lamp oil 〈for <seg>the Plating Station and the Offerings Station</seg>,
+							3 *shō/* each〉; 450 pieces of bamboo for making chopsticks 〈90 pieces
+							are to come from Otokuni Garden in Yamashiro Province and 360 are to
+							come from Kasagi Garden in Sakaraka District.〉</p>
+						<p ana="項"
+							corresp="engishiki.xml#item39201905 engishiki_ja.xml#item39201905"
+							xml:id="item39201905">The above is the monthly provisions. For shorter
+							months, this is to be decreased by one-thirtieth.</p>
+					</div>
+					<div ana="内膳"
+						corresp="engishiki.xml#article392020 engishiki_ja.xml#article392020"
+						n="39.20" subtype="項" type="条" xml:id="article392020">
+						<head ana="供御日料"/>
+						<note type="summary">[For Stations]</note>
+						<p ana="項"
+							corresp="engishiki.xml#item39202001 engishiki_ja.xml#item39202001"
+							xml:id="item39202001">Charcoal, 1 *koku/* 4 *to/* 〈The Plating
+								<seg>Station</seg> receives 4 *to/*. The Offerings Station and
+							Sweets Station each receive 5 *to/*〉; 3 torch bundles 〈1 torch bundle
+							each for the Plating Station, Offerings Station, and Sweets Station〉;
+							120 pieces of firewood 〈The Grains Preparation Station and the Cooking
+							Station are to receive 60 pieces each〉; the various ingredients for
+							making <seg>various mochi</seg>; 1 *shō/* of <seg>*amazake/*</seg>.
+							<lb/>The above is the ingredients for one day. </p>
+					</div>
+					<div ana="内膳"
+						corresp="engishiki.xml#article392021 engishiki_ja.xml#article392021"
+						n="39.21" subtype="項" type="条" xml:id="article392021">
+						<head ana="七八九十月料"/>
+						<note type="summary">[For Offerings in the Seventh, Eighth, Ninth, and Tenth
+							Months]</note>
+						<p ana="項"
+							corresp="engishiki.xml#item39202101 engishiki_ja.xml#item39202101"
+							xml:id="item39202101">Mochi, <seg>fruits</seg>, and <seg>sweets</seg>,
+							two willow boxes of each 〈Each to have a length of 1 *shaku/*, and width
+							of 9 *sun/*〉; plain wood boxes, 21 *gō/*; round chests, 24 *gō/*; 10
+								<seg>palm fronds</seg>. <lb/>The above is to be used for offerings
+							from the seventh month seventh day through the tenth month. </p>
+					</div>
+					<div ana="内膳"
+						corresp="engishiki.xml#article392022 engishiki_ja.xml#article392022"
+						n="39.22" subtype="項" type="条" xml:id="article392022">
+						<head ana="荷葉"/>
+						<note type="summary">[Lotus Leaves]</note>
+						<p ana="項"
+							corresp="engishiki.xml#item39202201 engishiki_ja.xml#item39202201"
+							xml:id="item39202201">Lotus leaves: <lb/>75 young lotus leaves; the
+							white portion of the stalk, four and a half stems 〈to be used from
+							mid-fifth month to mid-sixth month〉. <lb/>75 fully grown leaves; lotus
+							seeds, 20 clusters; 15 lotus roots 〈for late sixth month through the
+							late seventh month.〉 <lb/>75 yellow leaves; lotus seeds, 20 clusters; 15
+							lotus roots 〈for the early eighth month through the late ninth month.〉
+							<lb/>The above is to be sent as offerings from Kawachi Province, and
+							they are to be presented on every other day [of the month] for each of
+							these periods. </p>
+					</div>
+					<div ana="内膳"
+						corresp="engishiki.xml#article392023 engishiki_ja.xml#article392023"
+						n="39.23" subtype="項" type="条" xml:id="article392023">
+						<head ana="年料"/>
+						<note type="summary">[Items for Making the Royal Meal Throughout the
+							Year]</note>
+						<p ana="項"
+							corresp="engishiki.xml#item39202301 engishiki_ja.xml#item39202301"
+							xml:id="item39202301">For the year: 3 silk covers for the sovereign's
+							rice 〈2 silk covers of silk floss are to be separated into 5 *ton/* of
+							silk floss. 1 silk cover is to be 3 *ton/* 1 *ryō/* 2 *shu/*. All have a
+							length of 2 *jō/* 5 *shaku/*〉; 1 silk wrapping for hand-pulled noodles
+							〈length of 7 *shaku/*.〉 4 large silk sieves 〈for the water jug spouts,
+							each with a length of 3 *shaku/* 5 *sun/*〉; 95 small silk sieves 〈13 for
+							the Hot Soup Preparation Station, 14 for the Pickling Station, 13 for
+							the Sweets Station, 10 for the Milling Station, 7 for the Glutinous Rice
+							Flour Station, 3 for the Oil-making Station; 3 for the *Amazura/* Syrup
+							Station, 8 for the *Hishio/* Station, and 24 for <seg>various
+							uses</seg>. All are to be 2 *shaku/* in length.〉 25 thin plain weave
+							silk bamboo sieves 〈4 for crushing sesame seeds, each with a length of 4
+							*shaku/*; 3 for [crushing] walnuts, each with a length of 2 *shaku/*; 2
+							for straining *amazura/* syrup, each with a length of 2 *shaku/* 5
+							*sun/*; 5 for straining water pepper, each with a length of 4 *shaku/*;
+							3 for leaf mustard seeds, each with a length of 3 *shaku/*. The above
+							totals 17 sieves and they are to be double layered; 8 are for making
+							*hishio/*, each with a length of 2 *shaku/*〉; 12 tables for transporting
+							food; 12 pieces of <seg>oiled plain-weave silk</seg> for tablecloths
+							〈Each is to have a length of 5 *shaku/* 1 *sun/*, half width〉;</p>
+						<p ana="項"
+							corresp="engishiki.xml#item39202302 engishiki_ja.xml#item39202302"
+							xml:id="item39202302">24 bleached hemp ropes for 12 royal meal chests
+							〈length of 1 *jō/*, to be divided in half [to twelve], and replaced
+							twice over the course of the year〉; 14 bleached cloth sieves 〈10 large
+							sieves for use at the royal well, each with a length of 3 *shaku/* 5
+							*sun/*, double-layered, and 4 water sieves, each with a length of 4
+							*shaku/*〉; 1 bleached cloth bag for polishing royal rice 〈length 1
+							*jō/*〉; 36 towels of bleached cloth 〈For wiping down the silver meal
+							bowls, 12 pieces of cloth, each 2 *shaku/* in length. For making
+								<seg>thin dumplings (*usu mochii/*)</seg>, 2 pieces of cloth, each 1
+							*jō/* 2 *shaku/* 5 *sun/* in length. For wrapping the hand-pulled
+							noodles, one cloth that is 4 *shaku/* long. For wiping down the royal
+							table, 6 pieces of cloth, each 5 *shaku/* in length. For wiping down the
+							cauldron (*kama/*), one cloth that is 4 *shaku/* in length. For wiping
+							down the mortar, 2 pieces of cloth each with a length of 2 *shaku/* 5
+							*sun/*. For pressing crucian carp, 3 pieces of cloth, each with a length
+							of 2 *shaku/*. For crucian carp that has been grilled and preserved,
+							then pressed, 3 pieces of cloth each with a length of 2 *shaku/*. For
+							wiping out the shallow pot, 5 pieces of cloth, each 5 *shaku/*. To make
+							bags for cooking and drying wheat or barley (*mugi/*), 1 piece of cloth
+							with a length of 6 *shaku/*〉; 3 pieces of fabric for tablecloths 〈For
+							the mochi-making table, 1 piece of cloth with a length of 1 *jō/* 4
+							*shaku/*. For the Grain Bureau's 2 tables, 2 pieces of cloth, each with
+							a length of 6 *shaku/*. For covering the stove pots, 12 pieces of
+							bleached cloth 〈each with a length of 1 *shaku/* 5 *sun/*〉;</p>
+						<p ana="項"
+							corresp="engishiki.xml#item39202303 engishiki_ja.xml#item39202303"
+							xml:id="item39202303">raw silk, 3 *ku/* 〈for embroidering the tablecloth
+							and for the strainer〉; scoured silk thread, 1 *bu/* 2 *shu/* 〈for
+							embroidering the rice covering〉; 3 whetstones 〈for sharpening the
+							knives〉; 28 palm fronds 〈8 leaves for fanning the rice and 20 leaves for
+							fanning the cooking fires〉; hemp, 6 *kin/* 3 *ryō/* 〈24 pieces of string
+							for the stoves, and it takes 4 *ryō/* 3 *shu/* to make 1 piece〉;</p>
+						<p ana="項"
+							corresp="engishiki.xml#item39202304 engishiki_ja.xml#item39202304"
+							xml:id="item39202304">5 <seg>Continental chests</seg> 〈4 are for holding
+							*hishio/*, vinegar, and miso, as well as pickles; 1 chest is for holding
+							rice〉; 24 <seg>transport tables</seg> 〈3 tables are for the chests of
+							various dishes, 2 tables are for holding fish, 4 tables are for holding
+							the chests of various sweets, 4 tables are for the containers used to
+							wash vegetables, 3 tables are for presenting the chests of various fish,
+							2 tables are for <seg>*aemono/*</seg> chests, 3 tables are for the royal
+							rice chest, 3 tables are spares〉; 16 cutting board tables 〈2 tables are
+							for preparing *aemono/*, 2 tables are for preparing side dishes, 2
+							tables are for various preparations of arame kelp, 2 tables are for
+							preparing various produce, 4 tables are for preparing fresh fish, 2
+							tables are for preparing various sweets, and 2 tables are spares〉;</p>
+						<p ana="項"
+							corresp="engishiki.xml#item39202305 engishiki_ja.xml#item39202305"
+							xml:id="item39202305">8 large tubs 〈4 tubs are for washing various
+							pickled vegetables, 1 tub is for washing various sweets, 1 tub is for
+							washing the vegetables to make soup, 2 tubs are for washing tablecloths
+							and other cloths〉; 13 round tubs 〈2 tubs are for washing various raw
+							produce, 5 tubs are for washing pickled ginger, 2 tubs are for washing
+							various fresh fish, 2 tubs are for washing various produce, 2 are for
+							washing [produce for] *aemono/*〉;</p>
+						<p ana="項"
+							corresp="engishiki.xml#item39202306 engishiki_ja.xml#item39202306"
+							xml:id="item39202306">4 wooden mortars 〈2 for <seg>grinding salt and
+								elm</seg>, 2 for grinding flour〉; 8 pestles 〈for grinding various
+							things〉; 5 winnows 〈2 for separating salt and elm, 3 are for winnowing
+							rice flour〉; 190 dried gourds 〈for ladling various liquids〉;</p>
+						<p ana="項"
+							corresp="engishiki.xml#item39202307 engishiki_ja.xml#item39202307"
+							xml:id="item39202307">16 <seg>mats</seg> 〈4 are to be hung up in the
+							Grains Bureau, 4 are for drying various produce, 4 are for covering
+							royal tables, 4 are for grinding salt and elm〉; 16 wild rice mats 〈8 are
+							to be hung up in the Grains Bureau, 8 are to be used as a concealing
+							curtain at the Royal Meal Station〉; sinomenium, 6 *kin/* 〈to be hung up
+							in the Grains Bureau and to attach to the mats [listed above]〉;</p>
+						<p ana="項"
+							corresp="engishiki.xml#item39202308 engishiki_ja.xml#item39202308"
+							xml:id="item39202308">vinegar jars and *hishio/* jars, 30 of each; 8
+							bowls; 4 <seg>portable jars</seg>; 8 large jars; 8 small jars; 8 rounded
+							square jars; 4 Sue pottery mortars 〈the above is for presenting the
+							eight types of *aemono/*〉; 12 washing bowls 〈4 are for polishing rice, 8
+							are for washing the various sake lees pickles〉; 12 bucket dishes 〈4 are
+							for pickling dishes for the royal meal, 8 are for holding the sake lees
+							and miso〉; 20 *motai/* jars 〈10 are for holding the *hishio/* and the
+							various *hishio/* pickles, 10 are for holding the various sake lees
+							pickles〉; 8 *tsubo/* jars 〈for holding *hishio/* pickles and sake lees
+							pickles〉;11 shallow pots 〈for scooping water〉; 16 <seg>*yuka/*
+								jars</seg> 〈for scooping water from〉; 2 *tataibe/* jars 〈for the
+							water leftover from washing the rice〉; 2 lamp lids 〈for covering
+							lamps〉;</p>
+						<p ana="項"
+							corresp="engishiki.xml#item39202309 engishiki_ja.xml#item39202309"
+							xml:id="item39202309">47 plain chests 〈4 are for holding pots of
+							*atsumono/* soup, 4 are for holding pickles in liquid, 2 are for holding
+							washed produce, 6 are for holding various fish, 3 are for holding side
+							dishes, 4 are for holding various *aemono/* vessels, 4 are for holding
+							oak [leaves], 4 are for holding vegetables, 16 are for general
+							preparation〉; 57 plain wood boxes 〈12 are for cooling rice, 4 are for
+							holding washed *aemono/* [produce], 4 are for holding washed vegetables
+							for soup, 37 are for general preparation〉; 20 boxes 〈2 are for holding
+							daikon radish, 4 are for holding mochi, 4 are for holding delicacies, 4
+							are for holding <seg>*shitoki/* mochi</seg>, 2 are for holding knives, 4
+							are for holding fruits〉; 38 round chests 〈for holding various items and
+							to be sent from the <seg>Royal Provisions Hall</seg> to the Royal Meal
+							Station〉;</p>
+						<p ana="項"
+							corresp="engishiki.xml#item39202310 engishiki_ja.xml#item39202310"
+							xml:id="item39202310">77 knives 〈10 are for shucking oysters, 4 are for
+							chopping up sea lettuce, 2 are for cutting abalone, 2 are for chopping
+							up Ecklonia cava seaweed, 2 are for chopping or removing fish bones, 1
+							is for making mochi strips, 1 is for *konton/* steamed dumplings, 55 are
+							for various uses. 20 long knives. 35 short knives〉;</p>
+						<p ana="項"
+							corresp="engishiki.xml#item39202311 engishiki_ja.xml#item39202311"
+							xml:id="item39202311">10 tables 〈4 are for making <seg>various
+								sweets</seg>, 2 are for placing royal meal chests, 2 are for placing
+							royal tables, 2 are for the contents of the royal meal〉; 2 high tables
+							〈for cooling and drying bowls used by the sovereign〉; 7 water jug
+							tables;</p>
+						<p ana="項"
+							corresp="engishiki.xml#item39202312 engishiki_ja.xml#item39202312"
+							xml:id="item39202312">24 roasting dishes 〈for roasting various
+							dehydrated grains〉; 11 large lids 〈for the jugs〉; 24 strainer baskets
+							〈for scooping boiled mochi〉;</p>
+						<p ana="項"
+							corresp="engishiki.xml#item39202313 engishiki_ja.xml#item39202313"
+							xml:id="item39202313">bleached hemp cloth, 9 *tan/* 2 *jō/* 9 *shaku/*
+							〈2 *tan/* 1 *jō/* 6 *shaku/* is for 10 towels, and each piece should be
+							1 *jō/*. The 3 *jō/* 6 *shaku/* is for the 2 cooks making mochi strips
+							who receive cloth for outer robes, and each piece is to have a length of
+							1 *jō/* 8 *shaku/*. 1 *tan/* 4 *shaku/* is to be used for 11
+								<seg>clothing cords</seg> each with a length of 4 *shaku/*. 1 *jō/*
+							2 *shaku/* is for 2 *chihaya/* jackets, and each is to have a length of
+							6 *shaku/*. 1 *tan/* 2 *jō/* 3 *shaku/* for the 13 workers'*chihaya/*
+							jackets, each with a length of 5 *shaku/*. 1 *tan/* 1 *jō/* 8 *shaku/*
+							is for the 10 palace servants'*chihaya/* jackets, each with a length of
+							6 *shaku/*. 1 *jō/* 8 *shaku/* is for the 4 serving women's *chihaya/*
+							jackets, each with a length of 4 *shaku/* 5 *sun/*. 1 *tan/* 1 *jō/* 4
+							*shaku/* is for 4 outer robes' cloth, each with a length of 1 *jō/* 4
+							*shaku/*. 8 *shaku/* is for 4 hats, each with a length of 2
+							*shaku/*.〉</p>
+						<p ana="項"
+							corresp="engishiki.xml#item39202314 engishiki_ja.xml#item39202314"
+							xml:id="item39202314">The above is to be used from the eleventh month
+							until the tenth month of the following year when replacements are to be
+							requested.</p>
+					</div>
+					<div ana="内膳"
+						corresp="engishiki.xml#article392024 engishiki_ja.xml#article392024"
+						n="39.24" subtype="項" type="条" xml:id="article392024">
+						<head ana="供御料雑器"/>
+						<note type="summary">[Various Implements for the Royal Meal]</note>
+						<p ana="項"
+							corresp="engishiki.xml#item39202401 engishiki_ja.xml#item39202401"
+							xml:id="item39202401">Various implements for the royal meal: 4 red
+							lacquer standing trays 〈2 are for daily use and 2 are for royal
+							banquets〉; 2 black lacquer standing trays 〈for purification
+							(*kessai/*)〉; various vessels of gold, silver, red lacquer, and glazed
+							stoneware. <lb/>The above is to be requested by the Royal Secretariat
+							(*Kurodo dokoro/*). However, for daily items, such as the 2 *jō/* 5
+							*shaku/* 2 *sun/* of oiled silk for covering the 2 standing trays, when
+							these items are damaged, new ones are to be received from the Palace
+							Storehouse Bureau. </p>
+						<p ana="項"
+							corresp="engishiki.xml#item39202402 engishiki_ja.xml#item39202402"
+							xml:id="item39202402">5 red lacquer bowls 〈each is to be 3 *sun/* 5
+							*bu/* deep, and the rim is to have a diameter of 1 *shaku/* 1 *sun/*.〉
+							The queen-consort and the crown prince are to have three bowls each. 5
+							*Kondōkai/* <seg>writing desks</seg> 〈each is to be 1 *shaku/* high and
+							have a diameter of 8 *sun/*.〉 The queen-consort and crown prince are to
+							have three each. <lb/>The above is to be used daily and at royal
+							banquets. In the event that they are broken, they are to be replaced. </p>
+						<p ana="項"
+							corresp="engishiki.xml#item39202403 engishiki_ja.xml#item39202403"
+							xml:id="item39202403">3 transport chests 〈for the sovereign,
+							queen-consort, and crown prince's daily use〉; 4 long chests 〈for
+							transporting various produce during Obon and the royal banquets〉; 2
+							transport tables 〈for choosing produce〉; 1 sake tub 〈for washing
+							produce〉 ; 1 portable water jug 〈to draw water from when washing the
+							produce〉; cloth, 1 *tan/* 〈2 *jō/* to make *chihaya/* jackets and
+							clothing cords for the two men choosing and washing the produce. 2 *jō/*
+							2 *shaku/* are for fastening the lids on the 4 transport chests〉.
+							<lb/>The above is to be requested and used each year. However, the long
+							chests and the sake tub are to be requested once every three years. </p>
+					</div>
+					<div ana="内膳"
+						corresp="engishiki.xml#article392025 engishiki_ja.xml#article392025"
+						n="39.25" subtype="項" type="条" xml:id="article392025">
+						<head ana="帷料"/>
+						<note type="summary">[The Cloth Used for Harvesting and Collecting Fruits
+							and Grains]</note>
+						<p ana="項"
+							corresp="engishiki.xml#item39202501 engishiki_ja.xml#item39202501"
+							xml:id="item39202501">4 *tan/* of *yōfu/* tax cloth goes towards the
+							harvest cloth (*katabira/*) to be used for gathering fruit or drying
+							various grains. This is to be requested once after three years.</p>
+					</div>
+					<div ana="内膳"
+						corresp="engishiki.xml#article392026 engishiki_ja.xml#article392026"
+						n="39.26" subtype="項" type="条" xml:id="article392026">
+						<head ana="標緋幡"/>
+						<note type="summary">[For the Red Label of Approval (*shime no ake no
+							hata/*)]</note>
+						<p ana="項"
+							corresp="engishiki.xml#item39202601 engishiki_ja.xml#item39202601"
+							xml:id="item39202601">Various offerings are to be marked with a <seg>red
+								banner of approval</seg> of 16 *ryū/* 〈each is to be 1 *shaku/* 9
+							*sun/* long and 5 *sun/* 5 *bu/* wide.〉 Each year, the Royal Meal Office
+							is to receive this from the Female Chamberlains Office. The Female
+							Chamberlains Office is to stamp the cloth with the seal.</p>
+					</div>
+					<div ana="内膳"
+						corresp="engishiki.xml#article392027 engishiki_ja.xml#article392027"
+						n="39.27" subtype="項" type="条" xml:id="article392027">
+						<head ana="造粉熟料"/>
+						<note type="summary">[For making cowpea dumplings (*fuzuku/*)]</note>
+						<p ana="項"
+							corresp="engishiki.xml#item39202701 engishiki_ja.xml#item39202701"
+							xml:id="item39202701">For making cowpea dumplings: white rice, 4
+							*koku/*; cowpeas, 1 *koku/* 8 *to/*; light thin for bags to use for
+							wringing the flour and water strainers, 2 of each 〈the bags are to be 6
+							*shaku/* long each and the strainers' diameters are to be 1 *shaku/* 5
+							*sun/* each〉; 1 piece of bleached cloth that is used for curtains for
+							drying the flour 〈length 3 *jō/*〉; 1 piece of bleached cloth for
+							covering the water jug 〈length of 4 *shaku/*〉; for <seg>cooking the
+								dumplings</seg>, 2 bleached cloth bags 〈6 *shaku/* long each〉; 1
+							water jug; 1 sake tub; 2 *yuka/* jars; 1 dried gourd for carrying water;
+							2 mats; 2 frames with slats; 30 *kin/* of firewood for each day making
+							the dumplings. <lb/>The above is to be served from the first day of the
+							third month to the thirtieth day of the eighth month. </p>
+					</div>
+					<div ana="内膳"
+						corresp="engishiki.xml#article392028 engishiki_ja.xml#article392028"
+						n="39.28" subtype="項" type="条" xml:id="article392028">
+						<head ana="供奉雑菜"/>
+						<note type="summary">[Offerings of Various Produce]</note>
+						<p ana="項"
+							corresp="engishiki.xml#item39202801 engishiki_ja.xml#item39202801"
+							xml:id="item39202801">Offerings of various produce: For one day, 1
+							*to/*. For *aemono/*, 3 *shō/*; 30 melons 〈equivalent to 3 *shō/* and to
+							be sent from the fifth month through the eighth month〉; 40 eggplants
+							〈equivalent to 2 *shō/* and to be sent in the sixth, seventh, eighth,
+							and ninth months〉; amaranth, 4 *shō/* 〈fifth, sixth, seventh, and eighth
+							months〉; 6 stalks of thistle 〈equivalent to 6 *shō/* and to be sent from
+							the second month through the ninth month〉; 2 bundles of butterbur
+							〈equivalent to 2 *shō/*, fifth, sixth, seventh, and eighth months〉; 4
+							stalks of turnips 〈equivalent to 4 *shō/* and from the New Year through
+							the twelfth month〉; 4 bundles of crucifer greens 〈equivalent to 4
+							*shō/*, second month through third month〉; Shepard's purse 4 *shō/*
+							〈first, second, eleventh, and twelfth months〉; 4 bundles of lettuce
+							〈equivalent to 2 *shō/*, third, fourth, and fifth months〉; 4 bundles of
+							mallow 〈equivalent to 2 *shō/*, fifth, eighth, ninth, and tenth months〉;
+							4 bundles of dock 〈equivalent to 2 *shō/*, fourth, fifth, eighth, ninth,
+							and tenth month〉; 2 bundles of Chinese chives 〈equivalent to 2 *shō/*,
+							second month through the ninth month〉; 2 bundles of spring onion
+							〈equivalent to 1 *shō/*, first, fourth, fifth, ninth, tenth, eleventh,
+							and twelfth months〉; 100 <seg>stalks of garlic</seg> 〈equivalent to 2
+							*shō/*, in the first, second, third, fourth, eleventh, and twelfth
+							months it is to be sent fresh. In the fifth, sixth, seventh, eighth, and
+							ninth months, it is to be dried and sent〉; <lb/>8 hands of raw ginger
+							〈equivalent to 2 *shō/*, sixth, seventh, and eighth months〉; Japanese
+							pepper, 2 *gō/* 〈young leaves in the third and fourth months, the pepper
+							seed in the fifth and sixth months〉; 10 bundles of water pepper
+							〈equivalent to 2 *shō/*, fourth month through the ninth month〉; 2
+							bundles of <seg>long stamen chives (*araragi/*)</seg> 〈equivalent to 1
+							*shō/*, from the first month to the twelfth month〉; coriander, 2 *gō/*
+							〈first, second, ninth, tenth, eleventh, and twelfth months〉; 4 bundles
+							of daikon radish 〈equivalent to 4 *shō/*, first, second, tenth,
+							eleventh, and twelfth months〉; 4 bundles of water celery 〈equivalent to
+							4 *shō/*, first month through sixth month〉; 4 bundles of water leeks
+							〈equivalent to 4 *shō/*, fifth, sixth, seventh, and eighth months〉; 2
+							bundles of taro stems 〈sixth, seventh, eighth, and ninth months〉; </p>
+						<p ana="項"
+							corresp="engishiki.xml#item39202802 engishiki_ja.xml#item39202802"
+							xml:id="item39202802">various fruits, 5 *shō/*; raw soybeans and adzuki
+							beans, 6 bundles of each 〈sixth, seventh, eighth, and ninth months〉; raw
+							cowpeas, 6 bundles 〈sixth and seventh months〉; cudweed, 5 *shō/* 〈second
+							and third month〉; taros, 4 *shō/* 〈first, ninth, tenth, eleventh, and
+							twelfth months〉; 8 ripe melons 〈sixth, seventh, and eighth months〉;
+							chestnuts, 3 *shō/* 〈seventh, eighth, and ninth months〉; peaches, 4
+							*shō/* 〈seventh, eighth, and ninth months〉; 10 yuzu 〈ninth and tenth
+							months〉; persimmons, 2 *shō/* 〈ninth, tenth, and eleventh months〉; 10
+							bunches of loquats 〈fifth and sixth months〉; plum, 2 *shō/* 〈fifth and
+							sixth months〉; <seg>bramble-berries</seg>, 2 *shō/* 〈fifth month〉; 4
+							bamboo shoots 〈fifth and sixth months〉. These are to be provided to the
+							queen-consort.</p>
+						<p ana="項"
+							corresp="engishiki.xml#item39202803 engishiki_ja.xml#item39202803"
+							xml:id="item39202803">5 *shō/* of various produce is to be sent to the
+							crown prince: *aemono/*, 2 *shō/*; various fruits, 3 *shō/*; raw
+							soybeans, adzuki beans, and cowpeas, 3 bundles of each; cudweed and
+							taro, 2 *shō/* of each; chestnuts 1 *shō/*; peaches 2 *shō/*; 5 yuzu;
+							persimmons and plums, 1 *shō/* of each; 10 clusters of loquats; 2 bamboo
+							shoots.</p>
+					</div>
+					<div ana="内膳"
+						corresp="engishiki.xml#article392029 engishiki_ja.xml#article392029"
+						n="39.29" subtype="項" type="条" xml:id="article392029">
+						<head ana="年中七節料"/>
+						<note type="summary">[Fresh Produce for the Seven Annual <seg>Royal
+								Banquets</seg>]</note>
+						<p ana="項"
+							corresp="engishiki.xml#item39202901 engishiki_ja.xml#item39202901"
+							xml:id="item39202901">1 *koku/* 5 *to/* 9 *gō/* of fresh produce for
+							each of the seven annual royal banquets 〈5 *to/* 1 *shō/* to the
+							Director of the Royal Meal Office, the same amount to the queen-consort,
+							and 2 *to/* 4 *shō/* 9 *gō/* to the crown prince〉.</p>
+					</div>
+					<div ana="内膳"
+						corresp="engishiki.xml#article392030 engishiki_ja.xml#article392030"
+						n="39.30" subtype="項" type="条" xml:id="article392030">
+						<head ana="山科園早瓜"/>
+						<note type="summary">[The Yamashina Garden Early Melons]</note>
+						<p ana="項"
+							corresp="engishiki.xml#item39203001 engishiki_ja.xml#item39203001"
+							xml:id="item39203001">On the fifth day of the fifth month, the Yamashina
+							Garden is to make an offering of <seg>early melons</seg>. 〈If there are
+							no early melons, send the flower buds〉.</p>
+					</div>
+					<div ana="内膳"
+						corresp="engishiki.xml#article392031 engishiki_ja.xml#article392031"
+						n="39.31" subtype="項" type="条" xml:id="article392031">
+						<head ana="年料雑菜"/>
+						<note type="summary">[Annual Produce]</note>
+						<p ana="項"
+							corresp="engishiki.xml#item39203101 engishiki_ja.xml#item39203101"
+							xml:id="item39203101">Various produce for the year, 84 *koku/* 4
+							*to/*</p>
+					</div>
+					<div ana="内膳"
+						corresp="engishiki.xml#article392032 engishiki_ja.xml#article392032"
+						n="39.32" subtype="項" type="条" xml:id="article392032">
+						<head ana="量雑菜"/>
+						<note type="summary">[Produce Quantity]</note>
+						<p ana="項"
+							corresp="engishiki.xml#item39203201 engishiki_ja.xml#item39203201"
+							xml:id="item39203201">The amount of produce offered during the year
+							should not be expressed in *to/*, but in the number of pieces (*koku/*).
+							The amount is to be determined by the Royal Meal Office Director and the
+							office receiving the produce.</p>
+					</div>
+					<div ana="内膳"
+						corresp="engishiki.xml#article392033 engishiki_ja.xml#article392033"
+						n="39.33" subtype="項" type="条" xml:id="article392033">
+						<head ana="行幸雑菜"/>
+						<note type="summary">[Various Produce for Royal Visits]</note>
+						<p ana="項"
+							corresp="engishiki.xml#item39203301 engishiki_ja.xml#item39203301"
+							xml:id="item39203301">For royal visits, the various produce is to be
+							provided in advance.</p>
+					</div>
+					<div ana="内膳"
+						corresp="engishiki.xml#article392034 engishiki_ja.xml#article392034"
+						n="39.34" subtype="項" type="条" xml:id="article392034">
+						<head ana="漬年料雑菜"/>
+						<note type="summary">[The Various Produce Pickled Annually]</note>
+						<p ana="項"
+							corresp="engishiki.xml#item39203401 engishiki_ja.xml#item39203401"
+							xml:id="item39203401">The various produce pickled annually: bracken, 2
+							*koku/* 〈requires salt, 1 *to/*〉; aster, 1 *koku/* 5 *to/* 〈requires
+							salt, 6 *shō/*〉; thistles, 2 *koku/* 4 *to/* 〈requires salt, 7 *shō/* 2
+							**gō/*/*〉; water celery, 10 *koku/* 〈requires salt, 8 *to/*〉; butterbur,
+							2 *koku/* 5 *to/* 〈requires salt, 1 *to/* and rice, 6 *shō/*〉;
+							nothosmyrnium, 6 *to/* 〈requires salt, 2 *shō/* 4 *gō/*〉; Polygonum, 3
+							*to/* 〈requires salt, 1 *shō/* 2 *gō/*〉; ground wild ginger flowers, 3
+							*to/* 〈requires salt, 3 *to/*〉; black nightshade with elm bark powder, 6
+							*to/* 〈requires salt, 4 to, 8 gō, elm 3 shō〉; melon salt pickle, 1 koku
+							〈requires salt, 3 *to/*〉; clusters of wild chives, 6 *to/* 〈requires
+							salt, 5 *shō/*〉; wild chive flowers, 5 *to/* 〈requires salt, 4 *shō/* 4
+							*gō/*〉; ground Chinese chives, 4 *to/* 〈requires salt 4 *shō/*〉; young
+							turnip stems, 5 *to/* 〈requires salt, 3 *shō/*, and foxtail millet, 3
+							*shō/*.〉 <lb/>The above is the produce for making spring pickles. </p>
+						<p ana="項"
+							corresp="engishiki.xml#item39203402 engishiki_ja.xml#item39203402"
+							xml:id="item39203402">Melons, 8 *koku/* 〈requires salt, 4 *to/* 8
+							*shō/*〉; sake lees pickled melon, 9 *to/* 〈requires salt, 1 *to/* 9
+							*shō/* 8 *gō/*; lees liquid, 1 *to/* 9 *shō/* 8 *gō/*; *hishio/* lees, 2
+							*to/* 7 *shō/*; *hishio/*, 2 *to/* 7 *shō/*〉; *hishio/*-pickled melon, 9
+							*to/* 〈requires salt, *hishio/*, and *hishio/* lees, 1 *to/* 9 *shō/* 8
+							*gō/* of each〉; lees-pickled winter melon, 1 *koku/* 〈requires salt, 2
+							*to/* 2 *shō/*, and lees liquid, 4 *to/* 6 *shō/*〉; *hishio/*-pickled
+							winter melon, 4 *to/* 〈requires salt, 8 *shō/* 8 *gō/*; *hishio/*,
+							*hishio/* lees, and miso, 1 *to/* 6 *shō/* 8 *gō/* of each〉; leaf
+							mustard with elm bark powder, 3 *koku/* 〈requires salt, 2 *to/* 4
+							*shō/*, and elm, 1 *to/* 5 *shō/*〉; <seg>fermented turnip</seg>, 6
+							*koku/* 〈requires salt, 6 *shō/*; and soybeans, 1 *to/* 5 *shō/*〉;
+							turnip with elm bark powder, 10 *koku/* 〈requires salt, 8 *shō/* and
+							elm, 5 *shō/*〉; ground turnip, 5 *to/* 〈requires salt, 3 *shō/*〉;
+							fermented turnip stems, 1 *koku/* 〈requires salt, 6 *shō/*, and rice, 5
+							*shō/*〉; *hishio/* turnip, 3 *to/* 〈requires salt, 5 *shō/* 4 *gō/*; and
+							*hishio/* lees 1 *to/* 5 *shō/*〉; sake lees turnip, 5 *to/* 〈requires
+							salt, 9 *shō/*; and lees liquid, 1 *to/* 5 *shō/*〉; sliced turnip with
+							elm powder, 1 *koku/* 4 *to/* 〈requires salt, 2 *shō/* 4 *gō/* and elm,
+							2 *shō/*〉;</p>
+						<p ana="項"
+							corresp="engishiki.xml#item39203403 engishiki_ja.xml#item39203403"
+							xml:id="item39203403">eggplants, 5 *koku/* 〈requires salt, 3 *shō/*〉;
+							*hishio/* eggplant, 6 *to/* 〈requires salt, 1 *to/* 2 *shō/*; lees
+							liquid, miso, and *hishio/* lees, 1 *to/* 8 *shō/* of each〉; sake lees
+							eggplant, 6 *to/* 〈requires salt, 1 *to/* 2 *shō/*; liquid lees, 1 *to/*
+							8 *shō/*〉; pickled black nightshade with elm bark powder, 6 *to/*
+							〈requires salt, 6 *shō/* and elm bark powder, 2 *shō/* 4 *gō/*〉; pickled
+							black nightshade, 3 *to/* 〈requires salt, 9 *shō/*〉; water leek, 10
+							*koku/* 〈requires salt, 7 *shō/*〉; sake lees pickled pickerel weed, 1
+							*koku/* 〈requires salt, 1 *to/* 2 *shō/*; and lees liquid, 5 *to/*〉;
+							*araragi/* with elm bark powder, 3 *to/* 〈requires salt 2 *shō/* 4
+							*gō/*, and elm, 1 *shō/* 2 *gō/*〉; soybeans, 6 *to/* 〈requires salt, 6
+							*shō/*, and liquid lees, 1 *to/* 8 *shō/*〉; Magnolia kobus, 2 *to/*
+							〈requires salt, 4 *shō/*〉; water pepper with elm bark powder, 4 *to/*
+							〈requires salt, 4 *shō/*, and elm, 1 *shō/* 6 *gō/*〉; foxnuts, 1 *koku/*
+							5 *to/* 〈requires salt, 1 *to/* 5 *shō/*: rice, 7 *shō/* 5 *gō/*〉;
+							Japanese ginger (myōga), 6 *to/* 〈requires salt, 6 *shō/*, and lees
+							liquid, 2 *to/* 4 *shō/*〉; young ginger, 3 *to/* 〈requires salt, 6
+							*shō/*, and lees liquid,1 *to/* 5 *shō/*〉; ground honeylocust pods, 3
+							*to/* 〈requires salt, 4 *shō/* 5 *gō/*〉; silver vine fruit, 2 *to/*
+							〈requires salt, 2 *shō/*〉; chocolate vine, 1 *to/* 〈requires salt, 2
+							*shō/* 2 *gō/*〉; peaches, 2 *koku/* 〈requires salt, 1 *to/* 2 *shō/*〉;
+							persimmons, 5 *shō/* 〈requires salt, 2 *shō/*〉; pears, 6 *shō/*
+							〈requires salt, 3 *shō/* 6 *gō/*〉; Japanese pepper 1 *koku/* 〈requires
+							salt 2 *to/* 4 *shō/*〉; perilla leaves, 6 *to/* 〈requires melons, 9
+							*to/*; winter melon, 7 *to/*; eggplant, 6 *to/*; turnip, 4 *to/*; salt,
+							1 *to/* 2 *shō/*; *hishio/*, miso, *hishio/* lees, 1 *koku/* of each.〉
+							<lb/>The above is the produce for making the autumn pickles. </p>
+						<p ana="項"
+							corresp="engishiki.xml#item39203404 engishiki_ja.xml#item39203404"
+							xml:id="item39203404">Raw ginger, 4 *koku/* 5 *to/* 〈requires salt, 1
+							*koku/* 4 *to/* 2 *shō/*, and lees liquid, 4 *koku/* 2 *to/*〉; 35
+							bundles of beech wood 〈for covering the shallow pots〉; 2 dried gourds
+							〈for carrying liquids.〉 50 lower level female officials (*nyoju/*) and
+							12 female servants (*nyotei/*) are to handle the pickled ginger, and
+							they are to receive half of the supplemental food allotted to a person
+							〈each day, each person receives 8 *gō/*.〉 <lb/>Requests are to be sent
+							to the Female Chamberlains Office to receive the necessary ingredients
+							for making pickled ginger throughout the year. In the third month of the
+							following year, depending on the pickling remaining, the amounts of salt
+							and sake lees are to be determined. 〈For instance, if 1 *koku/* of
+							pickled ginger remains, the additional salt provided would be 1 *to/*
+							and the sake lees would be 5 *to/*.〉 From the ninth month to the seventh
+							month of the following year, these pickles are to be served in the royal
+							meal. </p>
+					</div>
+					<div ana="内膳"
+						corresp="engishiki.xml#article392035 engishiki_ja.xml#article392035"
+						n="39.35" subtype="項" type="条" xml:id="article392035">
+						<head ana="楡皮"/>
+						<note type="summary">[For Elm Bark Powder]</note>
+						<p ana="項"
+							corresp="engishiki.xml#item39203501 engishiki_ja.xml#item39203501"
+							xml:id="item39203501">Elm bark, 1000 pieces 〈each to have a length of 1
+							*shaku/* 5 *sun/*, width of 4 *sun/*.〉 When the bark is ground, this
+							yields 2 *koku/* of powder 〈1 piece yields 2 *gō/*.〉 <lb/>The above is
+							to be used for making soup (*atsumono/*) and the various side dishes for
+							the year.</p>
+					</div>
+					<div ana="内膳"
+						corresp="engishiki.xml#article392036 engishiki_ja.xml#article392036"
+						n="39.36" subtype="項" type="条" xml:id="article392036">
+						<head ana="山城大和"/>
+						<note type="summary">[Yamashiro and Yamato Provinces]</note>
+						<p ana="項"
+							corresp="engishiki.xml#item39203601 engishiki_ja.xml#item39203601"
+							xml:id="item39203601">Yamashiro Province 〈magnolia kobus, 2 *to/*〉;
+							Yamato Province 〈dried bracken, 4 *tan/*. The above is to be sent
+							annually.〉</p>
+					</div>
+					<div ana="内膳"
+						corresp="engishiki.xml#article392037 engishiki_ja.xml#article392037"
+						n="39.37" subtype="項" type="条" xml:id="article392037">
+						<head ana="造雑味塩魚"/>
+						<note type="summary">[For Salt-Preserved Fish]</note>
+						<p ana="項"
+							corresp="engishiki.xml#item39203701 engishiki_ja.xml#item39203701"
+							xml:id="item39203701">For making various salt-preserved fish, 20 *koku/*
+							6 *to/* 〈to be made at Abiko tributary land (*kuriya/*) in Izumi
+							Province〉: *shōfu/* exchange cloth, 16 *tan/*; Shinano hemp, 100 *kin/*;
+							salt, 2 *koku/*.</p>
+					</div>
+					<div ana="内膳"
+						corresp="engishiki.xml#article392038 engishiki_ja.xml#article392038"
+						n="39.38" subtype="項" type="条" xml:id="article392038">
+						<head ana="造雑魚鮨"/>
+						<note type="summary">[For Salt-Preserved Fish]</note>
+						<p ana="項"
+							corresp="engishiki.xml#item39203801 engishiki_ja.xml#item39203801"
+							xml:id="item39203801">For making various fermented fish, 10 *koku/*: 6
+							*to/* of salt-preserved fish for making the fermented fish 〈to be sent
+							from E tributary land in Kawachi Province〉; Exchange cloth, 16 *tan/*;
+							Shinano hemp, 100 *kin/*; white rice, 2 *koku/*; salt, 2 *koku/* 2
+							*to/*.</p>
+					</div>
+					<div ana="内膳"
+						corresp="engishiki.xml#article392039 engishiki_ja.xml#article392039"
+						n="39.39" subtype="項" type="条" xml:id="article392039">
+						<head ana="造醤鮒"/>
+						<note type="summary">[For Making Crucian Carp]</note>
+						<p ana="項"
+							corresp="engishiki.xml#item39203901 engishiki_ja.xml#item39203901"
+							xml:id="item39203901">For making *hishio/* crucian carp and fermented
+							crucian carp, 10 *koku/* of each; salt-preserved crucian carp, 3 *koku/*
+							4 *to/* 〈to be sent from Tsukuma tributary land in Ōmi Province〉; 30
+							*motai/* jars; *shōfu/* exchange cloth, 18 *tan/*; Shinano hemp, 100
+							*kin/*; sake, 5 *to/*; rice, 1 *koku/*; salt, 8 *koku/*; *hishio/*
+							soybeans, 2 *koku/* 5 *to/*.</p>
+					</div>
+					<div ana="内膳"
+						corresp="engishiki.xml#article392040 engishiki_ja.xml#article392040"
+						n="39.40" subtype="項" type="条" xml:id="article392040">
+						<head ana="諸国貢進御贄"/>
+						<note type="summary">[Royal Provisions (*minie/*) to be Sent from the
+							Various Provinces]</note>
+						<p ana="項"
+							corresp="engishiki.xml#item39204001 engishiki_ja.xml#item39204001"
+							xml:id="item39204001">Royal Provisions are to be sent from the various
+							provinces 〈the queen-consort's follows this as well〉. <lb/>Offerings to
+							be sent every ten days (*shun no ryō/*). <lb/>Pigeon from the Yoshino
+							royal tributary land in Yamato Province is to be sent from the ninth
+							month to the fourth month in the following year. Fermented and
+							fire-dried sweetfish are to be sent from the fourth month through the
+							eighth month, and for the first and last ten days of the month there are
+							to be 3 <seg>person-loads</seg> of each. However, libertina snails as
+							well as big-scaled redfin fish gelatin are to be increased and sent
+							depending on what is caught. <lb/>From the ninth month to the third
+							month of the following year for the first and last ten days of each
+							month, the royal tributary land in Shima Province is to send fresh
+							abalone and *sazae/* sea snails, 2 person-loads of each. Each month,
+							preserved [abalone], fermented innards, steamed abalone, dried abalone
+							strips, dried abalone spirals, and summer abalone are to total 5
+							person-loads. Various fish, 13 person-loads 〈everything is to be
+							conveyed by corvée labor〉. <lb/>The various fish of Wakasa Province, 7
+							person-loads of each, are to be sent for the first and last ten days of
+							the month. 〈The 116 taxable laborers (*kachō/*) under the command of the
+							director are to exchange the tax items (*chōmotsu/*) received from
+							Wakasa Province for fresh foods, which are to be then conveyed by corvée
+							labor.〉 <lb/>The various fish, 3.5 *tan/*, from Kii Province is to be
+							sent for the first, middle, and last ten days of the month 〈74 of the
+							same tax laborers are to exchange tax items for fresh foods, which will
+							then be conveyed by corvée labor.〉 The various fish from Awaji Province
+							is 2.5 person-loads 〈for ten days.〉 </p>
+						<p ana="項"
+							corresp="engishiki.xml#item39204002 engishiki_ja.xml#item39204002"
+							xml:id="item39204002">For the royal banquets: <lb/>Yamashiro, Yamato,
+							Kawachi, Izumi, Settsu, Ōmi 〈New Year's Day, first month seventh day's
+							[White Horse Royal Banquet], first month sixteenth day's [Song and Dance
+							Royal Banquet], fifth month fifth day's royal banquet, seventh month
+							seventh day's [banquet], ninth month ninth day's [Double Yang Banquet],
+							Great Harvest Rite Royal Banquet of the eleventh month: for each date
+							there is to be 7 loads. Tax rice in provincial storehouses (*shōzei/*)
+							are to be traded for the necessary items and conveyed by corvée labor.〉
+							<lb/>Shima Province 〈New Year's Day and the Great Harvest Rite's royal
+							banquets: 8 person-loads (*tan/*) each. The first month seventh day,
+							first month sixteenth day, fifth month fifth day, seventh month seventh
+							day, and ninth month ninth day: 3 person-loads for each of these royal
+							banquets.〉 <lb/>Mikawa Province 〈3 person-loads for each of the three
+							royal banquets of the first month〉; Wakasa Province 〈10 person-loads for
+							the three royal banquets of the first month〉; Kii and Awaji Provinces 〈5
+							person-loads for each of the three royal banquets of the first month.〉
+							<lb/>As to the above, Mikawa Province is to send pheasants. Other
+							provinces are to send various fresh, delicious ingredients.
+							Additionally, Ōmi Province is to include boar and deer to its shipments
+							for the first day. All ingredients below sent every ten days are to be
+							stored at the Royal Meal Office's facilities and served at the
+							prescribed events. </p>
+					</div>
+					<div ana="内膳"
+						corresp="engishiki.xml#article392041 engishiki_ja.xml#article392041"
+						n="39.41" subtype="項" type="条" xml:id="article392041">
+						<head ana="淡路国御贄"/>
+						<note type="summary">[Awaji Province Royal Provisions]</note>
+						<p ana="項"
+							corresp="engishiki.xml#item39204101 engishiki_ja.xml#item39204101"
+							xml:id="item39204101">The royal provisions from Awaji Province are for
+							the queen-consort and the three royal banquets in the first month of the
+							year.</p>
+					</div>
+					<div ana="内膳"
+						corresp="engishiki.xml#article392042 engishiki_ja.xml#article392042"
+						n="39.42" subtype="項" type="条" xml:id="article392042">
+						<head ana="年料御贄"/>
+						<note type="summary">[Annual Provisions]</note>
+						<p ana="項"
+							corresp="engishiki.xml#item39204201 engishiki_ja.xml#item39204201"
+							xml:id="item39204201">Annual provisions: <lb/>Yamashiro Province 〈white
+							bait, sea bass〉 <lb/>Settsu Province 〈crab, *kawatake/* mushrooms〉
+							<lb/>Izumi Province 〈sea bream, horse mackerel〉 </p>
+						<p ana="項"
+							corresp="engishiki.xml#item39204202 engishiki_ja.xml#item39204202"
+							xml:id="item39204202">Iga Province 〈2 person-loads of 4 jars of
+							fermented sweetfish and 2 person-loads of salted sweetfish in trim-edged
+							chests〉 <lb/>Ise Province 〈ground sea bream in vinegar: [Send] 2
+							person-loads of 20 baskets twice. Fermented sweetfish, 2 person loads of
+							4 jars twice, oysters, rock oysters〉 <lb/>Shima Province 〈<seg>deep
+								seaweed</seg>〉 <lb/>Owari Province 〈fat innkeeper worms, 2
+							person-loads of 20 jars; saltwater clams, 2 person-loads of 4 jars;
+							hermit crabs, 2 person-loads of 4 jars; dried whole pheasant, 18
+							baskets, and a separate basket for 6 wings〉 <lb/>Mikawa Province 〈wakame
+							seaweed, 1 person-load of 4 baskets. The standard basket has a length of
+							2 *shaku/* 2 *sun/*, width of 8 *sun/*, and a depth of 4 *sun/*. All
+							other baskets are to be this size.〉 <lb/>Tootōmi Province 〈wakame
+							seaweed〉 <lb/>Shimōsa Province 〈wakame seaweed, 6 baskets 〉 <lb/>Hitachi
+							Province 〈wakame seaweed, 2 person-loads of 20 baskets〉 </p>
+						<p ana="項"
+							corresp="engishiki.xml#item39204203 engishiki_ja.xml#item39204203"
+							xml:id="item39204203">Ōmi Province 〈salt-boiled sweetfish, 2 *koku/*;
+							crucian carp, trout, Lake Biwa salmon, whitebait〉 <lb/>Mino Province
+							〈Fermented crucian carp, 3 *motai/* jars every two months; fire-dried
+							sweetfish, 1 person-load of 8 baskets; fermented sweetfish, 4
+							person-loads of 8 jars〉 <lb/>Shinano Province 〈pears, dried jujubes,
+							walnuts, strips of dried salmon. The amounts are as follows: pears, 1
+							load of 8 baskets, are to be offered. In each basket there are to be 70
+							fruits. Large jujubes, 1 load of 8 baskets are to be sent with 1 *to/*
+							of fruit per basket. Walnuts, 1 load of 8 baskets, are to be sent with 1
+							*to/* of nuts per basket. Dried salmon strips, 1 load of 9 baskets, are
+							to be sent with 6 fish in each basket. This is ordinarily sent in the
+							tenth month. Pears, 3 loads of 8 baskets, being sent with 70 fruits in
+							the baskets; large jujubes, 1 load 8 baskets being sent with 1 *to/* in
+							each basket. This is to be sent as additional offerings (*bekkō/*) in
+							the eleventh month.〉 <lb/>Mutsu Province 〈cords of kelp, 42 *kin/*; thin
+							kelp, 120 *kin/*; wide kelp, 30 *kin/*〉 </p>
+						<p ana="項"
+							corresp="engishiki.xml#item39204204 engishiki_ja.xml#item39204204"
+							xml:id="item39204204">Wakasa Province 〈fresh salmon, 3 person-loads of
+							12 fish, three times; wasabi, 1 *to/* 5 *shō/*, three times; wakame
+							seaweed, 2 baskets of 12 *kin/*; nemacystus seaweed; and gracilaria
+							seaweed〉 <lb/>Echizen Province 〈wakame seaweed, 2 person-loads of 10
+							baskets, 1 *to/* in each basket. In addition, 2 bundles (*sasage/*) of
+							wakame seaweed with 1 *to/* in each bundle; fresh salmon, 3 person loads
+							of 12 fish, three times; wasabi, 1 to 5 shō, three times; salmon roe;
+							salmon cartilage; fermented salmon back organs〉 <lb/>Noto Province
+							〈wakame seaweed, 1 cart-load (*koshi/*) of 6 baskets〉 <lb/>Etchū
+							Province 〈wakame seaweed 1 cart-load is 5 baskets; whole dried pheasant;
+							1 cart-load is 5 baskets〉 <lb/>Echigo Province 〈dried strips of salmon 8
+							baskets of 80 fish; salmon roe, salmon cartilage, fermented salmon back
+							organs, 4 containers of each. Each container holds 1 *shō/*.〉 <lb/>Sado
+							Province 〈wakame seaweed, 1 person-load of 12 baskets〉 </p>
+						<p ana="項"
+							corresp="engishiki.xml#item39204205 engishiki_ja.xml#item39204205"
+							xml:id="item39204205">Tanba Province 〈fresh salmon, 3 offerings of 6
+							fish, three times. Fermented sweetfish, 2 person-loads of 4 jars. Salted
+							sweetfish, 2 person-loads to be put in trim-edged chests.〉 <lb/>Tango
+							Province 〈fresh salmon, 3 offerings of 12 fish, three times; salmon
+							cartilage, 1 jar; fermented salmon back organs, 1 jar; wasabi, 1 *to/* 5
+							shō, three times; small dried whole sea bream, 1 *koku/* 2 *to/*〉
+							<lb/>Tajima Province 〈wakame seaweed, 4 person-loads of 16 baskets;
+							fresh salmon, 3 person-loads of 12 fish, three times; fermented
+							sweetfish, 2 *motai/* jars; wasabi, 1 *to/* 5 *shō/*, three times〉
+							<lb/>Inaba Province 〈wakame seaweed, 12 baskets; fresh salmon, 3
+							offerings of 12 fish three times; wasabi, 1 *to/* 5 *shō/*, three times〉
+							<lb/>Hōki Province 〈wakame seaweed, 1 person-load of 10 baskets; wakame
+							seaweed stems, 1 person-load of 10 baskets〉 </p>
+						<p ana="項"
+							corresp="engishiki.xml#item39204206 engishiki_ja.xml#item39204206"
+							xml:id="item39204206">Harima Province 〈fermented sweetfish, 2
+							person-loads of 4 jars〉 <lb/>Mimasaka Province 〈fermented sweetfish〉
+							<lb/>Bizen Province 〈jellyfish, 10 *motai/* jars, two times〉 <lb/>Bitchū
+							Province 〈salt-boiled sweetfish, 8 *motai/* jars〉 <lb/>Nagato Province
+							〈wakame seaweed, 104 baskets〉 </p>
+						<p ana="項"
+							corresp="engishiki.xml#item39204207 engishiki_ja.xml#item39204207"
+							xml:id="item39204207">Kii Province 〈fermented sweetfish, 2 person-loads
+							of 4 jars〉 <lb/>Sanuki Province 〈sea bream *shiotsukuri/*, 20 fish; fish
+							dried without salt, 12 baskets〉 <lb/>Tosa Province 〈salt-pressed
+							sweetfish, 1000 fish; salt-boiled sweetfish, 5 *motai/* jars〉 </p>
+						<p ana="項"
+							corresp="engishiki.xml#item39204208 engishiki_ja.xml#item39204208"
+							xml:id="item39204208">The Dazaifu 〈*Mitori/* abalone, 459 *kin/* in 5
+							bundles (*tsutsumi/*); short abalone strips, 518 *kin/* in 12 bundles;
+							thin abalone strips, 855 *kin/* in 15 bundles; *kage/* abalone, 86
+							*kin/* in 3 bundles; *hawari/* abalone, 39 *kin/* in 1 bundle; grilled
+							abalone, 335 *kin/* in 4 bundles. The above is *chō/* tax items.
+							Fermented crucian carp, 178 *kin/* in 5 *motai/* jars; fermented
+							abalone, 108 *kin/* in 3 *motai/* jars; pickled abalone innards, 296
+							*kin/* in 9 *motai/* jars; *kuchimimi/* abalone, 98 kin in 2 *motai/*
+							jars. The above is to be made as <seg>men's tax items (*chūnan
+								sakumotsu/*)</seg>. Fermented sweetfish, 223 *kin/* in 6 *motai/*
+							jars; salt-boiled sweetfish, 839 *kin/* in 20 *motai/* jars; fermented
+							female sweetfish with roe, 36 *kin/* in 1 *motai/* jar. The above is
+								<seg>pillar-caught (*yanatsukuri/*)</seg>. Sea bream in *hishio/*, 4
+							*to/* 8 *shō/* in 2 *motai/* jars; meat in *hishio/*, 2 *to/* 3 *shō/*
+							in 1 *motai/* jar; pickled wild chive stems, 1 *koku/* 5 *to/* 7 *shō/*
+							in 6 *motai/* jars. The above is to be <seg>tribute-made
+								(*kuriyatsukuri/*)</seg>. Dried whole pheasant, 2 cart-loads of 60
+							baskets with 3 pairs of wings separately; and nibe croaker; and when
+							both Chikugo and Higo Provinces send their offerings, it should match
+							these amounts. The above is their additional offerings (*bekkō/*).〉</p>
+						<p ana="項"
+							corresp="engishiki.xml#item39204209 engishiki_ja.xml#item39204209"
+							xml:id="item39204209">The above shows the offerings of the various
+							provinces. When these are served, they are to be taken by the Royal
+							Provisions Hall to be used to make food for the royal table. 〈However,
+							the nibe croakers are to be given to the Royal Meal Office.〉</p>
+					</div>
+					<div ana="内膳"
+						corresp="engishiki.xml#article392043 engishiki_ja.xml#article392043"
+						n="39.43" subtype="項" type="条" xml:id="article392043">
+						<head ana="山城国江御贄"/>
+						<note type="summary">[Yamashiro Province Royal Provisions]</note>
+						<p ana="項"
+							corresp="engishiki.xml#item39204301 engishiki_ja.xml#item39204301"
+							xml:id="item39204301">As for the royal provisions from E in Yamashiro
+							Province, the governor (*kokushi/*) is to order the custodian
+							(*azukaribito/*) to send fish.</p>
+					</div>
+					<div ana="内膳"
+						corresp="engishiki.xml#article392044 engishiki_ja.xml#article392044"
+						n="39.44" subtype="項" type="条" xml:id="article392044">
+						<head ana="氷魚網代"/>
+						<note type="summary">[For Whitebait]</note>
+						<p ana="項"
+							corresp="engishiki.xml#item39204401 engishiki_ja.xml#item39204401"
+							xml:id="item39204401">From each of the locations in Yamashiro and Ōmi
+							Provinces that catch whitebait, they are to send whitebait starting from
+							the ninth month through the twelfth month thirtieth day.</p>
+					</div>
+					<div ana="内膳"
+						corresp="engishiki.xml#article392045 engishiki_ja.xml#article392045"
+						n="39.45" subtype="項" type="条" xml:id="article392045">
+						<head ana="参河国保夜"/>
+						<note type="summary">[Mikawa and Tosa Provinces]</note>
+						<p ana="項"
+							corresp="engishiki.xml#item39204501 engishiki_ja.xml#item39204501"
+							xml:id="item39204501">Mikawa Province sea squirts, 1 *koku/*. Tosa
+							Province fermented innards and small abalone, 4 *motai/* jars 〈one
+							*motai/* jar contains 3 *to/*.〉 Each year these are to be exchanged for
+							and sent.</p>
+					</div>
+					<div ana="内膳"
+						corresp="engishiki.xml#article392046 engishiki_ja.xml#article392046"
+						n="39.46" subtype="項" type="条" xml:id="article392046">
+						<head ana="伊豆国貢進"/>
+						<note type="summary">[Izu Province]</note>
+						<p ana="項"
+							corresp="engishiki.xml#item39204601 engishiki_ja.xml#item39204601"
+							xml:id="item39204601">Izu Province is to offer up approximately 1
+							*koku/* 4 *to/* 6 *shō/* of bonito for making infused soups. This is to
+							come as a men's t ax item. </p>
+					</div>
+					<div ana="内膳"
+						corresp="engishiki.xml#article392047 engishiki_ja.xml#article392047"
+						n="39.47" subtype="項" type="条" xml:id="article392047">
+						<head ana="御厨御贄"/>
+						<note type="summary">[Royal Tributary Lands' Schedule]</note>
+						<p ana="項"
+							corresp="engishiki.xml#item39204701 engishiki_ja.xml#item39204701"
+							xml:id="item39204701">The <seg>schedule</seg> for provinces' royal
+							tributary land offerings: <lb/>Izumi Province 〈Rat and Snake [days]〉
+							<lb/>Kii Province 〈Ox, Horse, and Rooster [days]〉 <lb/>Awaji Province
+							〈Tiger, Sheep, and Dog [days]〉 <lb/>Ōmi Province 〈Rabbit [days]〉
+							<lb/>Wakasa Province 〈Dragon, Monkey, and Boar [days]〉 <lb/>The
+							offerings listed below are to be sent on each appointed day. An
+							itinerary is to be made in advance and executed on time. </p>
+					</div>
+					<div ana="内膳"
+						corresp="engishiki.xml#article392048 engishiki_ja.xml#article392048"
+						n="39.48" subtype="項" type="条" xml:id="article392048">
+						<head ana="青槲干槲"/>
+						<note type="summary">[Oak Leaves for Plating]</note>
+						<p ana="項"
+							corresp="engishiki.xml#item39204801 engishiki_ja.xml#item39204801"
+							xml:id="item39204801">Yamashiro Province is to send 1 load of fresh oak
+							leaves everyday for the sovereign's meals 〈50 bundles of leaves〉
+							starting from the fifth month fifth day through the eleventh month
+							fourth day. Tanba Province is to send 1 load of dried oak leaves every
+							day starting on the eleventh month fifth day and ending on the fifth
+							month fourth day. The Residential Palace's portion is to be included
+							here as well.</p>
+					</div>
+					<div ana="内膳"
+						corresp="engishiki.xml#article392049 engishiki_ja.xml#article392049"
+						n="39.49" subtype="項" type="条" xml:id="article392049">
+						<head ana="木盤"/>
+						<note type="summary">[Wooden Trays]</note>
+						<p ana="項"
+							corresp="engishiki.xml#item39204901 engishiki_ja.xml#item39204901"
+							xml:id="item39204901">120 wooden trays. 〈For various uses in the
+							kitchens (*tsukuri dokoro/*). The Carpentry Bureau is to send these
+							every year.〉</p>
+					</div>
+					<div ana="内膳"
+						corresp="engishiki.xml#article392050 engishiki_ja.xml#article392050"
+						n="39.50" subtype="項" type="条" xml:id="article392050">
+						<head ana="木器土器"/>
+						<note type="summary">[On Making Utensils]</note>
+						<p ana="項"
+							corresp="engishiki.xml#item39205001 engishiki_ja.xml#item39205001"
+							xml:id="item39205001">2 people to make wooden vessels 〈one person from
+							the Royal Provisions Hall, 1 person from the [Royal Meal] Office.〉 9
+							people to make earthenware. Each month, 1 person is to make 30 plain
+							wood chests, 780 pieces of earthenware 〈large dishes, medium dishes,
+							deep dishes, flat dishes, saucers, corner plates, *hotogi/* jars, pots,
+							etc.〉 The person making the earthenware is to be paid 9 *dan/* of
+							*shōfu/* exchange cloth 〈for making clay vessels.〉 9 hoes 〈old hoes are
+							to be submitted when requesting new ones〉. Food payments for one person
+							per day amount to 2 *shō/* of <seg>brown rice</seg> and 2 *shaku/* of
+							salt. They are to receive 4 *jō/* 5 *shaku/* of plain-weave silk in the
+							summer and in the winter, 1 *hiki/* 3 *jō/* of plain-weave silk and 4
+							*ton/* of silk floss as seasonal clothing payments.</p>
+					</div>
+					<div ana="内膳"
+						corresp="engishiki.xml#article392051 engishiki_ja.xml#article392051"
+						n="39.51" subtype="項" type="条" xml:id="article392051">
+						<head ana="膳部"/>
+						<note type="summary">[Food Payments]</note>
+						<p ana="項"
+							corresp="engishiki.xml#item39205101 engishiki_ja.xml#item39205101"
+							xml:id="item39205101">The food payments for the 30 cooks are 1 *shō/* of
+							white rice and 1 *shaku/* of salt, per person per day. The food payments
+							for the 17 laborers are 2 *shō/* of brown rice and 2 *shaku/* of salt,
+							per person per day. The 40 cooks are to receive clothing.</p>
+					</div>
+					<div ana="内膳"
+						corresp="engishiki.xml#article392052 engishiki_ja.xml#article392052"
+						n="39.52" subtype="項" type="条" xml:id="article392052">
+						<head ana="仕丁"/>
+						<note type="summary">[Cloth Payments]</note>
+						<p ana="項"
+							corresp="engishiki.xml#item39205201 engishiki_ja.xml#item39205201"
+							xml:id="item39205201">For the 17 laborers, 1 *ryō/* of dark blue cloth
+							for outer robes 〈2 *jō/* each〉; *chōfu/* tax cloth for *hakama/*
+							trousers, 1 *koshi/* 〈7 *shaku/* each〉; 1 piece of *chōfu/* tax cloth
+							for *obi/* sashes 〈each to have a length of 8 *shaku/* 4 *sun/* at half
+							the standard width.〉 They are to receive this once every three
+							years.</p>
+					</div>
+					<div ana="内膳"
+						corresp="engishiki.xml#article392053 engishiki_ja.xml#article392053"
+						n="39.53" subtype="項" type="条" xml:id="article392053">
+						<head ana="江網曳御厨"/>
+						<note type="summary">[Royal Tribute Land Corvée Labor]</note>
+						<p ana="項"
+							corresp="engishiki.xml#item39205301 engishiki_ja.xml#item39205301"
+							xml:id="item39205301">Yamashiro, Kawachi, Settsu, and Izumi provinces
+							are to send corvée laborers to the royal tribute lands of E and Abiko.
+							40 people for E and 50 people for Abiko.</p>
+					</div>
+					<div ana="内膳"
+						corresp="engishiki.xml#article392054 engishiki_ja.xml#article392054"
+						n="39.54" subtype="項" type="条" xml:id="article392054">
+						<head ana="筑摩長"/>
+						<note type="summary">[Tsukuma Royal Tribute Land Head]</note>
+						<p ana="項"
+							corresp="engishiki.xml#item39205401 engishiki_ja.xml#item39205401"
+							xml:id="item39205401">The head of the Tsukuma royal tribute land is to
+							be selected from the cooks.</p>
+					</div>
+					<div ana="内膳"
+						corresp="engishiki.xml#article392055 engishiki_ja.xml#article392055"
+						n="39.55" subtype="項" type="条" xml:id="article392055">
+						<head ana="膳部労"/>
+						<note type="summary">[Corvée Labor Exemptions]</note>
+						<p ana="項"
+							corresp="engishiki.xml#item39205501 engishiki_ja.xml#item39205501"
+							xml:id="item39205501">From among the cooks with over ten years of
+							service, one is to be considered for <seg>exemption from corvée labor
+								(*kanjaku/*)</seg> after three years.</p>
+					</div>
+					<div ana="内膳"
+						corresp="engishiki.xml#article392056 engishiki_ja.xml#article392056"
+						n="39.56" subtype="項" type="条" xml:id="article392056">
+						<head ana="膳部不仕"/>
+						<note type="summary">[Laborers' Payments]</note>
+						<p ana="項"
+							corresp="engishiki.xml#item39205601 engishiki_ja.xml#item39205601"
+							xml:id="item39205601">When cooks and male and female laborers are
+							absent, their payment depends on their role within the [Royal Meal]
+							Office.</p>
+					</div>
+					<div ana="内膳"
+						corresp="engishiki.xml#article392057 engishiki_ja.xml#article392057"
+						n="39.57" subtype="項" type="条" xml:id="article392057">
+						<head ana="作園牛"/>
+						<note type="summary">[Oxen for the Gardens]</note>
+						<p ana="項"
+							corresp="engishiki.xml#item39205701 engishiki_ja.xml#item39205701"
+							xml:id="item39205701">The 11 oxen used in the gardens are to come from
+							the Bureau of the Left and Right Stables. When oxen die or become old,
+							new ones are to be requested from the [Royal Household] Ministry. After
+							the Council of State has confirmed the request, they are to receive the
+							oxen. Among the 74 hoes provided, 40 of them are hoe shafts, and 34 are
+							spade shafts. They are to be replaced once every two years. 〈Old hoes
+							are to be exchanged.〉 2 horse hoes 〈Old ones are to be exchanged.〉 2
+							Ox-drawn spades, 4 blades 〈If the above are damaged, they are to be
+							requested.〉 2 carts 〈To be replaced every year.〉</p>
+					</div>
+					<div ana="内膳"
+						corresp="engishiki.xml#article392058 engishiki_ja.xml#article392058"
+						n="39.58" subtype="項" type="条" xml:id="article392058">
+						<head ana="営園仕丁"/>
+						<note type="summary">[Garden Laborers]</note>
+						<p ana="項"
+							corresp="engishiki.xml#item39205801 engishiki_ja.xml#item39205801"
+							xml:id="item39205801">Garden laborers, 14 people 〈1 overseer, 13
+							workers〉</p>
+					</div>
+					<div ana="内膳"
+						corresp="engishiki.xml#article392059 engishiki_ja.xml#article392059"
+						n="39.59" subtype="項" type="条" xml:id="article392059">
+						<head ana="川船"/>
+						<note type="summary">[The River Boat]</note>
+						<p ana="項"
+							corresp="engishiki.xml#item39205901 engishiki_ja.xml#item39205901"
+							xml:id="item39205901">1 river boat 〈length of 3 *jō/*〉 is to be kept at
+								<seg>Yodo Harbor</seg>. This boat is to be used for transporting the
+							various produce for the royal table from the Nara and Naki gardens.</p>
+					</div>
+					<div ana="内膳"
+						corresp="engishiki.xml#article392060 engishiki_ja.xml#article392060"
+						n="39.60" subtype="項" type="条" xml:id="article392060">
+						<head ana="園地"/>
+						<note type="summary">[Garden Lands Under Cultivation]</note>
+						<p ana="項"
+							corresp="engishiki.xml#item39206001 engishiki_ja.xml#item39206001"
+							xml:id="item39206001">The garden lands under cultivation total 39 *chō/*
+							5 *tan/* 200 *bu/* 〈Keihoku Garden, 18 *chō/* 3 *tan/*; Nara Garden, 6
+							*chō/* 8 *tan/* 320 *bu/*; Yamashina Garden, 9 *tan/*; Naki Garden, 5
+							*chō/* 5 *tan/* 240 *bu/*; Hatsukashi Garden, 4 *chō/* 9 *tan/*; Izumi
+							Garden, 1 *chō/*; Heijō Garden, 2 *chō/*〉</p>
+					</div>
+					<div ana="内膳"
+						corresp="engishiki.xml#article392061 engishiki_ja.xml#article392061"
+						n="39.61" subtype="項" type="条" xml:id="article392061">
+						<head ana="雑果樹"/>
+						<note type="summary">[Fruit Trees]</note>
+						<p ana="項"
+							corresp="engishiki.xml#item39206101 engishiki_ja.xml#item39206101"
+							xml:id="item39206101">460 Various fruit trees 〈100 *tsugi/* <seg>pear
+								trees</seg>, 100 peach trees, 40 citrus trees, 40 small citrus
+							trees, 100 persimmon trees, 20 *tachibana/* orange trees, 30 large
+							jujube trees, 30 chocolate vines.〉 Bramble-berry garden, 2 *tan/*.
+							<lb/>The above are to be cultivated. If this amount is insufficient,
+							when the official in charge completes his term he is to note this in his
+							term completion record. </p>
+					</div>
+					<div ana="内膳"
+						corresp="engishiki.xml#article392062 engishiki_ja.xml#article392062"
+						n="39.62" subtype="項" type="条" xml:id="article392062">
+						<head ana="芹水䓗田"/>
+						<note type="summary">[Garden Paddies]</note>
+						<p ana="項"
+							corresp="engishiki.xml#item39206201 engishiki_ja.xml#item39206201"
+							xml:id="item39206201">Paddies, 6 *tan/* 234 *bu/* 〈for growing water
+							celery and water leeks, located in Otokuni District.〉</p>
+					</div>
+					<div ana="内膳"
+						corresp="engishiki.xml#article392063 engishiki_ja.xml#article392063"
+						n="39.63" subtype="項" type="条" xml:id="article392063">
+						<head ana="耕種園圃"/>
+						<note type="summary">Plants to be Cultivated in the Gardens:</note>
+						<p ana="項"
+							corresp="engishiki.xml#item39206301 engishiki_ja.xml#item39206301"
+							xml:id="item39206301">Barley: 1 *tan/* under cultivation. Seed: 1 *to/*
+							5 *shō/*. Labor: 14.5 people. Turn the soil once. 1 person ploughs and 1
+							person handles the ox. 1 ox. Tillage: 1 person. Making ridges: 2 people.
+							Sowing: .5 person. Harvesting: 2 people. Threshing: 5 people. Pounding:
+							2 people. 〈Wheat is the same.〉</p>
+						<p ana="項"
+							corresp="engishiki.xml#item39206302 engishiki_ja.xml#item39206302"
+							xml:id="item39206302">Soybeans: 1 *tan/* under cultivation. Seed: 8
+							*shō/*. Labor: 13 people. Turn the soil once. 1 person ploughs and 1
+							person handles the ox. 1 ox. Tillage: 1 person. Making ridges: 2 people.
+							Sowing: 2 people 〈third month.〉 Weeding: 1 time, 2 people. Harvesting: 2
+							people. Shelling: 2 people.</p>
+						<p ana="項"
+							corresp="engishiki.xml#item39206303 engishiki_ja.xml#item39206303"
+							xml:id="item39206303">Adzuki beans: 1 *tan/* under cultivation. Seed: 5
+							*shō/* 5 *gō/*. Labor: 13.5 people. Turn the soil once. 1 person ploughs
+							and 1 person handles the ox. 1 ox. Tillage: 1 person. Making ridges: 2
+							people 〈fifth month.〉 Sowing: .5 person. Weeding: 2 times, 4 people.
+							Harvesting: 2 people. Shelling: 2 people.</p>
+						<p ana="項"
+							corresp="engishiki.xml#item39206304 engishiki_ja.xml#item39206304"
+							xml:id="item39206304">Cowpeas: 1 *tan/* under cultivation. Seed: 8
+							*shō/*. Labor: 13 people. Turn the soil once. 1 person ploughs and 1
+							person handles the ox. 1 ox. Tillage: 1 person. Making ridges: 2 people.
+							Sowing: 2 people. Weeding: 1 time, 3 people. Harvesting: 3 people.</p>
+						<p ana="項"
+							corresp="engishiki.xml#item39206305 engishiki_ja.xml#item39206305"
+							xml:id="item39206305">Turnips: 1 *tan/* under cultivation. Seed: 8
+							*gō/*. Labor: 32.5 people. Turn the soil 5 times. 2.5 people plough and
+							2.5 people handle the oxen. 2.5 oxen. Tillage: 1 person. Manure: 120
+							person-loads 〈1 person-load amounts to 6 *kin/*.〉 Transportation [of the
+							manure]: 20 people. 〈Each person to carry six times a day from the
+							Bureau of the Left and Right Stables to the Keihoku Garden.〉 Sowing: .5
+							person 〈seventh and eighth months.〉 Harvesting: 6 people.</p>
+						<p ana="項"
+							corresp="engishiki.xml#item39206306 engishiki_ja.xml#item39206306"
+							xml:id="item39206306">Wild chives: 1 *tan/* under cultivation. Seed: 3
+							*koku/*. Labor: 93 people. Turn the soil seven times. 3.5 people plough
+							and 3.5 people handle the oxen. 3.5 oxen. Tillage: 2 people. Making
+							dividing ridges: 3 people. Manure: 210 person-loads. Transportation [of
+							manure]: 35 people. Sowing: 6 people 〈eighth month.〉 Weeding: 3 times.
+							The first time is with 10 people, second time with 8 people, third time
+							with 7 people. Harvesting: 15 people.</p>
+						<p ana="項"
+							corresp="engishiki.xml#item39206307 engishiki_ja.xml#item39206307"
+							xml:id="item39206307">Chinese chives (*mira/*) : 1 *tan/* under
+							cultivation. Seed: 5 *koku/*. Labor: 75 people. Turn the soil three
+							times. 1.5 person people plough and 1.5 people handle the oxen. 1.5
+							oxen. Tillage: 2 people. Making ridges: 2 people. Manure: 210
+							person-loads. Transportation [of the manure]: 35 people. Choosing the
+							seedlings: 6 people. Sowing: 6 people 〈ninth month.〉 Weeding: 3 times,
+							21 people 〈7 people for each weeding.〉</p>
+						<p ana="項"
+							corresp="engishiki.xml#item39206308 engishiki_ja.xml#item39206308"
+							xml:id="item39206308">Spring onions: 1 *tan/* under cultivation. Seed: 4
+							*shō/*. Seedlings: 1200. Labor: 87.5 people. Turn the soil three times.
+							1.5 people plough and 1.5 people handle the oxen. 1.5 oxen. Tillage: 1
+							person. Making ridges: 2 people. Manure: 210 person-loads.
+							Transportation [of the manure]: 35 people. Sowing: .5 person 〈eight
+							month.〉 Transplanting: 20 people 〈second month.〉 Weeding: three times.
+							First time, 10 people; second time, 9 people; third time, 7 people.</p>
+						<p ana="項"
+							corresp="engishiki.xml#item39206309 engishiki_ja.xml#item39206309"
+							xml:id="item39206309">Ginger: 1 *tan/* under cultivation. Seed: 4
+							*koku/*. Labor: 78 people. Turn the soil five times. 2.5 people to
+							plough and 2.5 people to handle the oxen. 2.5 oxen. Tillage: 2 people.
+							Manure: 210 person-loads. Transportation [of the manure]: 35 people.
+							Making dividing ridges: 4 people. Sowing: 4 people 〈fourth month.〉
+							Weeding: 3 times. First time, 9 people; second time, 7 people; third
+							time, 6 people. Harvesting: 6 people.</p>
+						<p ana="項"
+							corresp="engishiki.xml#item39206310 engishiki_ja.xml#item39206310"
+							xml:id="item39206310">Butterbur: 1 *tan/* under cultivation. Seed: 2
+							*koku/*. Labor: 34 people. Turn the soil twice. 1 person ploughs and 1
+							person handles the ox. 1 ox. Tillage: 2 people. Manure: 120
+							person-loads. Transportation [of the manure]: 20 people. Sowing: 2
+							people 〈ninth month.〉 Weeding: 2 times. First time, 2 people 〈third
+							month〉; second time, 2 people 〈sixth month.〉 Reaping: 4 people. To be
+							planted once every three years.</p>
+						<p ana="項"
+							corresp="engishiki.xml#item39206311 engishiki_ja.xml#item39206311"
+							xml:id="item39206311">Thistle: 1 *tan/* under cultivation. Seed: 3
+							*koku/* 5 *to/*. Labor: 44 people. The soil is to be turned twice. 1
+							person ploughs and 1 person handles the ox. 1 ox. Tillage: 2 people.
+							Manure: 120 person-loads. Transportation [of the manure]: 20 people.
+							Sowing: 2 people. Weeding: 2 times. First time, 3 people 〈second month〉;
+							second time, 3 people 〈seventh month.〉 Reaping: 4 people. Harvesting: 8
+							people. One every three years a different location is to be selected for
+							planting.</p>
+						<p ana="項"
+							corresp="engishiki.xml#item39206312 engishiki_ja.xml#item39206312"
+							xml:id="item39206312">Early melons: 1 *tan/* under cultivation. Seed: 4
+							*gō/* 5 *shaku/*. Labor: 46 people. The soil is to be turned twice. 1
+							person ploughs and 1 person handles the ox. 1 ox. Tillage: 3 people.
+							Digging irrigation ditches and ridges: 3 people. Manure: 75 *tan/*.
+							Transportation: 12.5 people. 360 seedling beds. Making the beds: 1
+							person. Sowing: .5 person 〈second month.〉 Insect removal: 12 people.
+							Pulling weeds and raking: 3 times. First time, 5 people 〈first part of
+							the third month〉; second time, 4 people 〈latter part of the third
+							month〉; third time, 3 people 〈fourth month.〉</p>
+						<p ana="項"
+							corresp="engishiki.xml#item39206313 engishiki_ja.xml#item39206313"
+							xml:id="item39206313">Late melons: 1 *tan/* under cultivation. Seed: 4
+							*gō/* 5 *shaku/*. Labor: 35.5 people. The soil is to be turned twice. 1
+							person ploughs and 1 person handles the ox. 1 ox. Tillage: 3 people.
+							Digging irrigation ditches and ridges. 360 seedling beds. Making the
+							beds: 1 person. Sowing: .5. Raking: 1 person 〈3 times.〉 Weeding: 3
+							times. First time 10 people 〈third month〉; second time, 8 people 〈fourth
+							month〉; third time, 7 people 〈fifth month.〉</p>
+						<p ana="項"
+							corresp="engishiki.xml#item39206314 engishiki_ja.xml#item39206314"
+							xml:id="item39206314">Eggplants: 1 *tan/* under cultivation. Seed: 2
+							*shō/*. Labor: 41 people. The soil is to be turned twice. 1 person
+							ploughs and 1 person handles the ox. 1 ox. Tillage and making ridges: 3
+							people. Sowing: .5 person 〈third month.〉 Choosing seedlings: 1.5 people.
+							Transplant: 10 people 〈fourth month.〉 Raking: 2 times. First time, 3
+							people 〈fifth month〉 second time, 3 people 〈sixth month.〉 Weeding: 3
+							times, 18 people 〈6 people per session.〉</p>
+						<p ana="項"
+							corresp="engishiki.xml#item39206315 engishiki_ja.xml#item39206315"
+							xml:id="item39206315">Daikon radish: 1 *tan/* under cultivation. Seed: 3
+							*to/*. Labor: 18.5 people. The soil is to be turned three times. 1.5
+							people plough and 1.5 people handle the oxen. 1.5 oxen. Tillage: 1
+							person. Sowing: .5 person 〈sixth month.〉 Harvesting: 14 people.</p>
+						<p ana="項"
+							corresp="engishiki.xml#item39206316 engishiki_ja.xml#item39206316"
+							xml:id="item39206316">Lettuce: 1 *tan/* under cultivation. Seed: 3 shō.
+							Seedlings: 1500. Labor: 39.5 people. The soil is to be turned twice. 1
+							person ploughs and 1 person handles the ox. 1 ox. Tillage: 2 people.
+							Making ridges: 2 people. Manure: 132 *tan/*. Transportation: 22 people.
+							Sowing: .5 person 〈eighth month.〉 Choosing seedlings: 2 people.
+							Transplanting: 6 people 〈ninth month.〉 Weeding: 1 time, 3 people.</p>
+						<p ana="項"
+							corresp="engishiki.xml#item39206317 engishiki_ja.xml#item39206317"
+							xml:id="item39206317">Mallow: 1 *tan/* under cultivation. Seed: 2
+							*shō/*. Labor: 31.5 people. The soil is to be turned twice. 1 person
+							ploughs and 1 person handles the ox. 1 ox. Tillage: 2 people. Making
+							ridges: 2 people. Manure: 132 *tan/*. Transportation: 22 people. Sowing:
+							.5 person 〈eighth month.〉 Weeding: 1 time, 3 people.</p>
+						<p ana="項"
+							corresp="engishiki.xml#item39206318 engishiki_ja.xml#item39206318"
+							xml:id="item39206318">Coriander: 1 *tan/* under cultivation. Seed: 2
+							*to/* 5 *shō/* . Labor: 28 people. The soil is to be turned twice. 1
+							person ploughs and 1 person handles the ox. 1 ox. Tillage: 2 people.
+							Making ridges: 2 people. Manure: 132 *tan/*. Transportation: 22 people.
+							Sowing: .5 person 〈third month and eighth month.〉</p>
+						<p ana="項"
+							corresp="engishiki.xml#item39206319 engishiki_ja.xml#item39206319"
+							xml:id="item39206319">Colza: 1 *tan/* under cultivation. Seed: 1 shō.
+							Labor: 28 people. The soil is to be turned twice. 1 person ploughs and 1
+							person handles the ox. 1 ox. Tillage: 2 people. Making ridges: 2 people.
+							Manure: 132 *tan/*. Transportation: 22 people. Sowing: .5 person 〈third
+							month and eighth month.〉</p>
+						<p ana="項"
+							corresp="engishiki.xml#item39206320 engishiki_ja.xml#item39206320"
+							xml:id="item39206320">Nothosmyrnium: 1 *tan/* under cultivation. Seed: 3
+							*koku/* 5 *to/*. Labor: 35 people. The soil is to be turned twice. 1
+							person ploughs and 1 person handles the ox. 1 ox. Tillage: 2 people.
+							Making ridges: 2 people. Manure: 132 *tan/*. Transportation: 22 people.
+							Sowing: 3 people 〈ninth month.〉 Weeding: 1 time, 2 people. Reaping: 2
+							people.</p>
+						<p ana="項"
+							corresp="engishiki.xml#item39206321 engishiki_ja.xml#item39206321"
+							xml:id="item39206321">Japanese ginger: 1 tan under cultivation. Seed: 3
+							*koku/*. Labor: 35 people. The soil is to be turned twice. 1 person
+							ploughs and 1 person handles the ox. 1 ox. Tillage: 2 people. Making
+							ridges: 2 people 〈ninth month.〉 Manure: 132 tan. Transportation: 22
+							people. Sowing: 3 people. Weeding: 2 people. Harvesting: 2 people.</p>
+						<p ana="項"
+							corresp="engishiki.xml#item39206322 engishiki_ja.xml#item39206322"
+							xml:id="item39206322">Taro: 1 *tan/* under cultivation. Seed: 2 *koku/*.
+							Labor: 35 people. The soil is to be turned twice. 1 person ploughs and 1
+							person handles the ox. 1 ox. Making ridges and tillage: 4 people.
+							Sowing: 3 people 〈third month.〉 Weeding: 6 people. Weeding: 3 times, 6
+							people 〈fifth, sixth, and seventh months, each session 2 people.〉
+							Harvesting: 4 people. Choosing the new taro: 10 people.</p>
+						<p ana="項"
+							corresp="engishiki.xml#item39206323 engishiki_ja.xml#item39206323"
+							xml:id="item39206323">Water leeks: 1 *tan/* under cultivation. Seedlings
+							20 bundles (*i/*). Labor: 53 people. The soil is to be turned twice. 1
+							person ploughs and 1 person handles the ox. 1 ox. Tillage: 1 person.
+							Manure: 120 *tan/*. Transportation: 20 people. Sowing: 15 people 〈fifth
+							month.〉 Transplanting 3 times, 15 people 〈each time, 5 people.〉
+							Harvesting: 15 people 〈3 times.〉</p>
+						<p ana="項"
+							corresp="engishiki.xml#item39206324 engishiki_ja.xml#item39206324"
+							xml:id="item39206324">Water celery: 1 *tan/* under cultivation.
+							Seedlings: 5 *koku/*. Labor: 44 people. The soil is to be turned twice.
+							1 person ploughs and 1 person handles the ox. 1 ox. Breaking up soil: 1
+							person. Manure: 120 *tan/*. Transportation: 20 people. Sowing: 6 people
+							〈second month.〉 Getting seedlings: 10 people. Reaping: 5 people.</p>
+					</div>
+				</div>
+				<div type="尾題" xml:id="bidai39">
+					<p xml:id="bidai3901">The Engi Protocols, Scroll 39</p>
+				</div>
+				<div type="本奥書" xml:id="okugaki39">
+					<p xml:id="okugaki3901"/>
+				</div>
+			</div>
+		</body>
+	</text>
+</TEI>
