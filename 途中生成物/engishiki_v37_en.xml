@@ -1,0 +1,1405 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>延喜式ファイル</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>国立歴史民俗博物館メタ資料学研究センター</publisher>
+				<idno type="PID">o:depcha.engi_shiki.1</idno>
+				<availability>
+					<p/>
+				</availability>
+				<date when="2020-03-31">31 March 2020</date>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<settlement>千葉県佐倉市</settlement>
+						<repository>国立歴史民俗博物館</repository>
+						<collection>集英社版延喜式</collection>
+					</msIdentifier>
+					<msContents>
+						<msItem>
+							<author>藤原時平・藤原忠平</author>
+							<title>延喜式</title>
+							<note>
+								<p>ここに史料の説明が入る。</p>
+							</note>
+						</msItem>
+					</msContents>
+				</msDesc>
+				<listWit>
+					<listWit xml:id="写本">
+						<head>写本</head>
+						<witness xml:id="土本"><abbr>土本</abbr>：国立歴史民俗博物館所蔵土御門家旧蔵本（H-743-74）</witness>
+						<witness xml:id="近本"><abbr>近本</abbr>：京都大学附属図書館所蔵近衛文庫本（2-03/エ/1貴）</witness>
+						<witness xml:id="壬本"><abbr>壬本</abbr>：宮内庁書陵部図書寮文庫所蔵壬生家旧蔵本（F10-287）</witness>
+						<witness xml:id="京博本"><abbr>京博本</abbr>：京都国立博物館所蔵旧京都博物館本</witness>
+						<witness xml:id="慶長本"><abbr>慶長本</abbr>：国立公文書館所蔵慶長写本（特102-8）</witness>
+						<witness xml:id="梵本"
+							><abbr>梵本</abbr>：天理大学附属天理図書館所蔵吉田文庫梵舜等筆本（吉16-8。巻8は173-ｲ5（Ⅲ524)もあり）</witness>
+						<witness xml:id="九本"><abbr>九本</abbr>：東京国立博物館所蔵九条家旧蔵巻子本（B-2370）</witness>
+						<witness xml:id="剛本"><abbr>剛本</abbr>：天野山金剛寺所蔵本</witness>
+						<witness xml:id="条本"
+							><abbr>条本</abbr>：一条家旧蔵巻子本（巻1～3は無窮会専門図書館所蔵模写本、巻4・5は神宮司庁刊影印本）</witness>
+						<witness xml:id="花本"><abbr>花本</abbr>：花山院家・武田祐吉旧蔵本（神宮皇学館刊影印本による）</witness>
+						<witness xml:id="九冊本"
+							><abbr>九冊本</abbr>：國學院大學所蔵九条家・西田長男旧蔵冊子本（巻5は西田長男刊影印本による）</witness>
+						<witness xml:id="永本"
+							><abbr>永本</abbr>：巻8は國學院大學図書館所蔵（091.2/322.135/1）、巻9・10は現蔵不明(神宮文庫所蔵写真帳1門16974）</witness>
+						<witness xml:id="右本"><abbr>右本</abbr>：巻8は國學院大學図書館所蔵（貴62）</witness>
+						<witness xml:id="吉本"
+							><abbr>吉本</abbr>：天理大学附属天理図書館所蔵吉田家旧蔵本巻9・10（328.1-ｲ17(Ⅲ1219)）</witness>
+						<witness xml:id="三条本"
+							><abbr>三条本</abbr>：天理大学附属天理図書館所蔵三条家旧蔵本（328.1-ｲ11(Ⅲ1218)）</witness>
+						<witness xml:id="西本"
+							><abbr>西本</abbr>：巻9・10は國學院大學図書館所蔵（貴107～108）。巻50は国立歴史民俗博物館所蔵（H-1588）。抄出本は國學院大學所蔵（木村大樹「〔西田長男旧蔵〕三条西実隆筆『延喜式』(抄)の翻刻・紹介」『國學院大學研究開発推進機構紀要』14、2022年） </witness>
+						<witness xml:id="時慶本"
+							><abbr>時慶本</abbr>：静嘉堂文庫所蔵西洞院時慶写本（延喜格式表18352、延喜式序18353）</witness>
+						<witness xml:id="島原本"
+							><abbr>島原本</abbr>：東京大学史料編纂所所蔵松平忠房・和学講談所・水野忠央旧蔵本（貴45-2）</witness>
+						<witness xml:id="藤波本"
+							><abbr>藤波本</abbr>：宮内庁書陵部図書寮文庫所蔵藤波家旧蔵本（217-473）</witness>
+						<witness xml:id="貞享本"
+							><abbr>貞享本</abbr>：宮内庁書陵部図書寮文庫所蔵和学講談所旧蔵坊城俊方貞享本（457-116）</witness>
+						<witness xml:id="玄梁本"><abbr>玄梁本</abbr>：無窮会専門図書館所蔵神習文庫玄梁記名本（神習3666）</witness>
+						<witness xml:id="尾張本"
+							><abbr>尾張本</abbr>：東京大学総合図書館所蔵尾張家旧蔵本（巻13）（A00-6122）</witness>
+						<witness xml:id="泉亭本"><abbr>泉亭本</abbr>：賀茂三手文庫所蔵泉亭本（制度/加）</witness>
+					</listWit>
+					<listWit xml:id="版本">
+						<head>版本：慶安版本も含めた流布版本</head>
+						<witness xml:id="慶安版本"
+							><abbr>慶安版本</abbr>：大和文華館所蔵鈴鹿連胤旧蔵版本（1/741～790）</witness>
+						<witness xml:id="明暦版本"
+							><abbr>明暦版本</abbr>：明暦修訂版本　国立公文書館所蔵紅葉山文庫旧蔵版本（特26-1）等</witness>
+						<witness xml:id="明暦以降版本"><abbr>明暦以降版本</abbr>：明暦修訂本以降の版本</witness>
+						<witness xml:id="寛文版本"
+							><abbr>寛文版本</abbr>：寛文修訂版本　筑波大学附属図書館所蔵版本20冊本（ム212-7）等</witness>
+						<witness xml:id="享保版本"
+							><abbr>享保版本</abbr>：享保修訂版本　筑波大学附属図書館所蔵版本50冊本（ム212-6）等</witness>
+						<witness xml:id="雲本"
+							><abbr>雲本</abbr>：松江藩文政11年(1828)刊本（雲州本）　早稲田大学図書館所蔵本（ワ03-01594）等</witness>
+						<witness xml:id="考異"
+							><abbr>考異</abbr>：雲州本附録『延喜式考異』　早稲田大学図書館所蔵本（ワ03-01594）等</witness>
+						<witness xml:id="鈴鹿本"
+							><abbr>鈴鹿本</abbr>：大和文華館所蔵鈴鹿連胤旧蔵慶安版本（1/741～790）書入</witness>
+						<witness xml:id="勢多本"
+							><abbr>勢多本</abbr>：宮内庁書陵部図書寮文庫所蔵勢多家旧蔵明暦等版本（172-123）書入</witness>
+						<witness xml:id="筑波寛文本"
+							><abbr>筑波寛文本</abbr>：筑波大学附属図書館所蔵寛文版本20冊本（ム212-7）書入</witness>
+					</listWit>
+					<listWit xml:id="刊本">
+						<head>刊本</head>
+						<witness xml:id="旧大系本"><abbr>旧大系本</abbr>：旧輯国史大系第13巻（経済雑誌社　1900年刊）</witness>
+						<witness xml:id="叢書本"><abbr>叢書本</abbr>：新註皇学叢書第3巻（広文庫刊行会　1927年刊）</witness>
+						<witness xml:id="全集本"
+							><abbr>全集本</abbr>：日本古典全集『延喜式』（日本古典全集刊行会　1927～1929年刊）</witness>
+						<witness xml:id="皇典本"
+							><abbr>皇典本</abbr>：『校訂延喜式』（皇典講究所・全国神職会　1929～1932年刊）</witness>
+						<witness xml:id="国史大系本"
+							><abbr>国史大系本</abbr>：新訂増補国史大系第26巻（吉川弘文館　1937年刊）</witness>
+						<witness xml:id="神道大系本"
+							><abbr>神道大系本</abbr>：神道大系古典編11・12『延喜式』（神道大系編纂会、1991・1993年刊）</witness>
+						<witness xml:id="訳注本"
+							><abbr>訳注本</abbr>：訳注日本史料『延喜式』上～下（集英社、2000～2017年刊）</witness>
+					</listWit>
+					<listWit xml:id="その他">
+						<head>その他</head>
+						<witness xml:id="本朝月令"
+							><abbr>本朝月令</abbr>：清水潔編『新校本朝月令』（皇學館大學神道研究所　2002年刊）</witness>
+						<witness xml:id="儀式"
+							><abbr>儀式</abbr>：神道大系朝儀祭祀編1『儀式・内裏式』（神道大系編纂会　1980年刊）</witness>
+						<witness xml:id="皇太神宮儀式帳"
+							><abbr>皇太神宮儀式帳</abbr>：佐野真人「『皇太神宮儀式帳』校訂試案」（『皇學館大学研究開発推進センター紀要』2　2016年）</witness>
+						<witness xml:id="止由気宮儀式帳"
+							><abbr>止由気宮儀式帳</abbr>：佐野真人「『止由気宮儀式帳』校訂試案」（『皇學館大学研究開発推進センター紀要』3　2017年）</witness>
+						<witness xml:id="新撰年中行事"
+							><abbr>新撰年中行事</abbr>：西本昌弘編『新撰年中行事』（八木書店　2010年刊）</witness>
+						<witness xml:id="小野宮年中行事"><abbr>小野宮年中行事</abbr>：群書類従第6輯 律令部
+							公事部（続群書類従完成会　1932年刊）</witness>
+						<witness xml:id="小野宮年中行事裏書"
+							><abbr>小野宮年中行事裏書</abbr>：国立歴史民俗博物館所蔵本（H-1762）</witness>
+						<witness xml:id="勘例"
+							><abbr>勘例（陽明文庫所蔵）</abbr>：大日本古記録『勘例』上・下（岩波書店　2018・2023年刊）</witness>
+						<witness xml:id="政事要略"
+							><abbr>政事要略</abbr>：新訂増補国史大系第28巻（吉川弘文館　1935年刊。適宜、写本を参照）</witness>
+						<witness xml:id="法曹至要抄"><abbr>法曹至要抄</abbr>：中世法制史料集（岩波書店　2005年刊）</witness>
+						<witness xml:id="本草和名"
+							><abbr>本草和名</abbr>：丸山裕美子・武倩編著『本草和名』（汲古書院　2021年刊）</witness>
+					</listWit>
+				</listWit>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<variantEncoding location="external" method="location-referenced"/>
+			<tagsDecl>
+				<rendition xml:id="indent">margin-top: 1em;</rendition>
+				<rendition xml:id="indent2">margin-top: 2em;</rendition>
+				<rendition xml:id="indent3">margin-top: 3em;</rendition>
+				<rendition xml:id="indent4">margin-top: 4em;</rendition>
+				<rendition xml:id="indent5">margin-top: 5em;</rendition>
+				<rendition xml:id="indent6">margin-top: 6em;</rendition>
+				<rendition xml:id="indent7">margin-top: 7em;</rendition>
+				<rendition xml:id="indent10">margin-top: 10em;</rendition>
+				<rendition xml:id="indent12">margin-top: 12em;</rendition>
+				<rendition xml:id="indent13">margin-top: 13em;</rendition>
+				<rendition xml:id="indent14">margin-top: 14em;</rendition>
+				<rendition xml:id="indent18">margin-top: 18em;</rendition>
+				<rendition xml:id="width50">width: 50px;</rendition>
+				<rendition xml:id="width80">width: 80px;</rendition>
+				<rendition xml:id="width100">width: 100px;</rendition>
+				<rendition xml:id="width150">width: 150px;</rendition>
+				<rendition xml:id="width170">width: 170px;</rendition>
+				<rendition xml:id="width200">width: 200px;</rendition>
+				<rendition xml:id="width300">width: 300px;</rendition>
+			</tagsDecl>
+			<editorialDecl>
+				<p>校訂文全体凡例<table>
+						<row>
+							<cell>・</cell>
+							<cell>原則として土本（以下、略称は「主要写本・版本・刊本等略称・底本一覧」参照）を底本とし、九本・剛本・条本・花本等の古写本や近本・壬本・京博本等の写本によって対校しました（巻によって使用した対校本は異なります）。</cell>
+						</row>
+						<row>
+							<cell>・</cell>
+							<cell>条文番号・条文名称は原則として訳注本に拠りましたが、一部を修正しています（※下記「条文名称修正一覧」参照）。なお1条が長い場合など、必要に応じ「項」に分割して示すこととしました。</cell>
+						</row>
+						<row>
+							<cell>・</cell>
+							<cell>校異は原則として底本の文字を改変する場合、あるいは写本間に参考とすべき異同がある場合、参考とすべき傍書等がある場合に付すこととしました。必ずしもその校異に関する写本をすべて網羅することはせず、主要写本のみを取り上げています。ただし訳注本と校訂文に異同が生じた場合には、できる限り校異にて言及するよう心がけました（単なる字体の相違については省略しています）。</cell>
+						</row>
+						<row>
+							<cell>・</cell>
+							<cell>校訂文は『延喜式』撰上当初の姿の復元を目標としています。標注や傍書は、条文名称に関わるものは省略し、中世以前にさかのぼることが想定されるものに限って、校異注で言及することとしました。ただし標注のうち「弘」「貞」「延」等については便宜を考え、鉤括弧で括って校訂本文に掲げることとしました。</cell>
+						</row>
+						<row>
+							<cell>・</cell>
+							<cell>字体は常用漢字体を原則としました。「大」と「太」、「座」と「坐」、「絇」と「約」、「績」と「續（続）」、「色」と「包」、「細」と「紬」、「鈍」と「純」、「冑」と「胃」、「絁」と「絶」、草冠と竹冠、木偏と手偏等、容易に判定される誤字や誤用・通用については、校異を省略して適宜置き換える場合があります。ただし巻9・10においては「大」「太」の差異も校異にて触れることとしました。</cell>
+						</row>
+						<row>
+							<cell>・</cell>
+							<cell>校訂文中の細字・割書は、〈　〉で括って表現することとしました。</cell>
+						</row>
+						<row>
+							<cell>・</cell>
+							<cell>本文に誤字・脱字等が想定される場合であっても、置き換えるべき文字や補うべき文字が明確でない場合は、校異注での言及にとどめた場合があります。</cell>
+						</row>
+						<row>
+							<cell>・</cell>
+							<cell>ユニコードにて表示されない漢字は以下のように示すことにしました。</cell>
+						</row>
+					</table>
+					<table rendition="#indent2">
+						<row>
+							<cell rendition="#width100">【Ａ+Ｂ】</cell>
+							<cell rendition="#width300">＝扁がＡ、つくりがＢ</cell>
+							<cell rendition="#width300">例）村【木+寸】</cell>
+						</row>
+						<row>
+							<cell rendition="#width100">【Ａ/Ｂ】</cell>
+							<cell rendition="#width300">＝上にＡ、下にＢ</cell>
+							<cell rendition="#width300">例）雲【雨/云】</cell>
+						</row>
+						<row>
+							<cell rendition="#width100">【Ａ-Ｂ】</cell>
+							<cell rendition="#width300">＝Ａの字画よりＢにあたる字画を除く</cell>
+							<cell rendition="#width300">例）門【閉-オ】</cell>
+						</row>
+						<row>
+							<cell rendition="#width100">【Ａ⊃Ｂ】</cell>
+							<cell rendition="#width300">＝Ａの字画のなかにＢの字画が含まれる</cell>
+							<cell rendition="#width300">例）閉【門⊃オ】、国【囗⊃玉】</cell>
+						</row>
+					</table>
+					<table>
+						<row>
+							<cell>・</cell>
+							<cell>校異註の付く文字は赤字で表示され、クリックすると註が表示されます。表示内容は以下の通りです。</cell>
+						</row>
+					</table>
+					<table rendition="#indent2">
+						<row>
+							<cell rendition="#width100">採用</cell>
+							<cell>写本名と校訂文にて採用した文字</cell>
+						</row>
+						<row>
+							<cell rendition="#width100">校異</cell>
+							<cell>写本名と対校箇所の文字</cell>
+						</row>
+						<row>
+							<cell rendition="#width100">解説</cell>
+							<cell>各写本の傍書や頭書等の提示、校異註の本文（最下部の解説）</cell>
+						</row>
+					</table>
+					<table>
+						<row>
+							<cell>・</cell>
+							<cell>条文名称修正一覧</cell>
+						</row>
+					</table>
+					<table rendition="#indent2">
+						<row>
+							<cell rendition="#width100">巻番号</cell>
+							<cell rendition="#width50">旧番号</cell>
+							<cell rendition="#width100">旧条文名</cell>
+							<cell rendition="#width50">番号</cell>
+							<cell rendition="#width100">訂正条文名</cell>
+						</row>
+						<row>
+							<cell rendition="#width100">111太政官</cell>
+							<cell rendition="#width50">67</cell>
+							<cell rendition="#width100">薗韓神祭</cell>
+							<cell rendition="#width50">67</cell>
+							<cell rendition="#width100">園韓神祭</cell>
+						</row>
+						<row>
+							<cell rendition="#width100">111太政官</cell>
+							<cell rendition="#width50">112</cell>
+							<cell rendition="#width100">行幸経宿</cell>
+							<cell rendition="#width50">112</cell>
+							<cell rendition="#width100">行幸経旬</cell>
+						</row>
+						<row>
+							<cell rendition="#width100">171内匠</cell>
+							<cell rendition="#width50">39</cell>
+							<cell rendition="#width100">作物衣服</cell>
+							<cell rendition="#width50">39</cell>
+							<cell rendition="#width100">作物衣</cell>
+						</row>
+						<row>
+							<cell rendition="#width100">214諸陵</cell>
+							<cell rendition="#width50">16</cell>
+							<cell rendition="#width100">後阿陁他遠墓</cell>
+							<cell rendition="#width50">16</cell>
+							<cell rendition="#width100">後阿陀他遠墓</cell>
+						</row>
+						<row>
+							<cell rendition="#width100">293囚獄</cell>
+							<cell rendition="#width50">2</cell>
+							<cell rendition="#width100">著鈦盤枷</cell>
+							<cell rendition="#width50">2</cell>
+							<cell rendition="#width100">着鈦盤枷</cell>
+						</row>
+						<row>
+							<cell rendition="#width100">321大膳上</cell>
+							<cell rendition="#width50">5</cell>
+							<cell rendition="#width100">新嘗祭</cell>
+							<cell rendition="#width50">5･6</cell>
+							<cell rendition="#width100">新嘗祭と新嘗小斎解斎に分割</cell>
+						</row>
+						<row>
+							<cell rendition="#width100">411弾正</cell>
+							<cell rendition="#width50">68</cell>
+							<cell rendition="#width100">支子染深色</cell>
+							<cell rendition="#width50">68</cell>
+							<cell rendition="#width100">支子染色</cell>
+						</row>
+					</table></p>
+				<p ana="個別"/>
+			</editorialDecl>
+		</encodingDesc>
+		<revisionDesc ana="個別">
+			<listChange>
+				<change/>
+			</listChange>
+		</revisionDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<div ana="典薬" n="37" subtype="式" type="巻" xml:id="volume37">
+				<div type="首題" xml:id="shudai37">
+					<p xml:id="shudai3701">ANNOTATED ENGLISH TRANSLATION OF SCROLL 37 OF THE *ENGI
+						SHIKI/*</p>
+				</div>
+				<div ana="典薬" corresp="engishiki.xml#protocol371 engishiki_ja.xml#protocol371"
+					n="37" subtype="条" type="式" xml:id="protocol371">
+					<div type="式題" xml:id="shikidai371">
+						<p xml:id="shikidai37101">PROCEDURES OF THE BUREAU OF MEDICATIONS</p>
+					</div>
+					<div ana="典薬"
+						corresp="engishiki.xml#article371001 engishiki_ja.xml#article371001"
+						n="37.1" subtype="項" type="条" xml:id="article371001">
+						<head ana="元日御薬"/>
+						<note type="summary">On the <seg>royal medications of New Year's Day</seg> 〈follow
+							this model for the royal consort.〉 </note>
+						<p ana="項"
+							corresp="engishiki.xml#item37100101 engishiki_ja.xml#item37100101"
+							xml:id="item37100101">On the royal medications of New Year's Day１ 〈follow
+							this model for the royal consort.〉 
+							<lb/><seg>*Byakusan/*</seg>, one dose; <seg>*doshōsan/*, one dose; *toso/*, one dose</seg>; <seg>ointment for a thousand poxes and ten-thousand maladies, one dose</seg>. 
+							<lb/>For the offering of the medications prepare: three lacquered tables 〈<seg>place the powder medications [*byakusan/* and *doshōsan/*] and the ointment on one table; the *toso/* and the tripod pot on another; the sake cup on a decorated table</seg>〉 one silver *sake/* cup, one silver plate, one small white bronze bowl, four bronze sake cups, eight red-lacquered plates to collect leftovers 〈diameter eight *sun/*, store them in the Bureau〉</p>
+						<p ana="項"
+							corresp="engishiki.xml#item37100102 engishiki_ja.xml#item37100102"
+							xml:id="item37100102">one pouch 〈length two *shaku/* and three *sun/*〉 one *ryō/* in strings for the pouch, twenty sheets of paper, and three *bu/* of mulberry bark strings.
+							<lb/>For the preparation of the medications arrange: seven *ryō/* and three *bu/* of *ninjin/* [<seg>*Panax ginseng/*/Asian ginseng root</seg>] ; six *ryō/* and two *bu/* of *kanzō/* [*Glycyrrhiza uralensis/*/Chinese licorice root and rhizome]; three *bu/* of *keishin/* [*Cinnamomum cassia/*/Chinese cinnamon] 〈obtain them from the Royal Storehouse Bureau;〉 two *ryō/* and three *bu/* of *byakujutsu/* [*Atractylodes japonica/* rhizome]; one *ryō/* and two *bu/* of *daiō/* [*Rheum palmatum/*/Chinese rhubarb]; three *ryō/* and two *bu/* of <seg>*bushi/*</seg>; two *ryō/* and two *bu/* of *shokushō/* [*Zanthoxylum piperitum/* f. *inerme/*/sanshō peppercorn]; three *bu/* of *bōfū/* [*Saposhnikovia divaricate/*/siler root]; one *ryō/* and two *bu/* of <seg>*uzu/*</seg>; three *ryō/* of *saishin/* [*Asarum sieboldin/* dried plant]; two *bu/* of *bakkatsu/* [*Smilax china/*/China root]; one *bu/* of *kankyō/* [*Zingiber officinale/*/dried ginger root]; one *ryō/* and two *bu/* of *maō/* [*Ephedra sinica/*/Chinese ephedra stem]; three *ryō/* and one *bu/* of *kikyō/* [*Platycodon grandifloras/*/Chinese bellflower root]; one *ryō/* of *tōki/* [*Angelica acutiloba/*/Japanese angelica root]; two *ryō/* of *daigeki/* [*Euphorbia pekinensis/* root]; one *ryō/* of *shōma/* [*Astilbe thunbergia/*/Thunberg's astilbe rhizome]; one *ryō/* of *byakushi/* [*Angelica dahurica/*/Dahurian angelica root]; one *ryō/* of *shakuyaku/* [*Paeonia lactiflora/*/Chinese peony root]; one *ryō/* of *hōsō/* [aerial part of *Illicium anisatum/*/Japanese anise]; one *ryō/* of *ōgon/* [*Scutellaria baicalensis/*/Chinese skullcap root]; one *ryō/* of *dokkatsu/* [*Angelica pubescens/*/pubescent angelica root]; one *ryō/* of *jagan/* [leaves of *Potentilla anemonifolia/*]; five *ryō/* of *kijiō/* [*Rehmannia glutinosa/*/Chinese foxglove rhizome]; and twenty stalks of *gaihaku/* [*Allium macrostemon/*/long-stamen onion bulb] 〈as for all which is listed above, obtain it from the storehouse of the Bureau; 〉 four *shō/* of bitter vinegar; ten *kin/* of wild boar fat; four *shaku/* of silk sieve for the medications; two large containers; two <seg>*oribitsu/* containers</seg>; and one *koku/* of new charcoal.</p>
+						<p ana="項"
+							corresp="engishiki.xml#item37100103 engishiki_ja.xml#item37100103"
+							xml:id="item37100103">As for the above [medications], make and prepare them according to precedent from the last third of the eleventh month to the last third of the twelfth month. As for the miscellaneous items that will be needed, inform the Ministry [of the Royal Household] on the fifteenth day of the tenth month. The Ministry will inform the Council [of State], which will issue a directive to the offices involved. [The Bureau of Medications] will receive and prepare [what is needed] within the first third of the eleventh month. As for other miscellaneous items, adjust their quantity depending on the circumstances. Supply all those involved in the production of the medications with a rank lower than the <seg>four administrative positions</seg> and higher than minor functionary with pure clothes 〈also provide each of those of a rank lower than the four administrative positions and higher than apprentice of medications with one *hiki/* and three *jō* of coarse plain silk and three *ton/* of silk floss; to the apprentices [of medications] who have yet to receive a performance evaluation and to the minor functionaries provide one *tan/* of <seg>cloth collected as tax-in-kind</seg>. 〉 Provide them with *sake/* and food <seg>for no longer than twenty-eight days</seg>. 
+							<lb/>Provide with pure clothes those who will offer the royal medications on New Year's Day: the director of the Office of Medications 〈in the case of the royal consort and the heir apparent, one vice-director of the Office of Medications each,〉 five female minor functionaries, and two female attendants. Give each one *jō/* of coarse plain silk and two *ton/* of silk floss 〈as for the color, choose in accordance with the propitious direction for the year [as divined by the Bureau of Yin and Yang]. Submit a <seg>lateral memorandum</seg> to the Bureau of Yin and Yang beforehand, wait for their response and afterwards request [the clothes]. Follow the same procedure also for the royal consort and the heir apparent.〉</p>
+						<p ana="項"
+							corresp="engishiki.xml#item37100104 engishiki_ja.xml#item37100104"
+							xml:id="item37100104">On the last day of the twelfth month, in the first quarter of the time of the hare [5-7 AM], the Ministry of the Royal Household and the Bureau will proceed together outside the <seg>Ensei gate</seg>. After the Office of Inner Gatekeepers have announced them to the *tennō/*, the high-ranking officials of the Bureau, preceding the apprentices of medications and the others, will carry the table on which the medications have been placed, and will together enter the courtyard [located south of the Shishinden] and put the table down south of the ceremonial marker; after this, they will withdraw in order. After the Ministry of the Royal Household have announced them to the *tennō/*, they will again enter and leave with the table; then they will pass it on to the director of the Office of Medications. As for the *toso/*, the officials will guide the apprentices of medications and, on that same day, at the time of the horse [11 AM - 1 PM] will place it inside [the pouch] and steep it into the well; have officials from the Office of Water Management guard it. On New Year's Day, in the first quarter of the time of the tiger [3-5 AM], the officials will guide the apprentices of medications, approach the well and take out the medication, then a vice-director of the Ministry of the Royal Household and the officials of the Bureau will enter the yard of the royal residence carrying the medication, then proceed and place it down. Afterwards, using the silver tripod pot, they will heat up the *sake/* and steep the *toso/* [in it]. The Office of the Brewery will provide the *sake/* and the Bureau of Supplies will prepare the brazier. A vice-director of the Office of Medications will take the *sake/* cup and guide the female attendants to the designated place; he will have the young female attendants 〈<seg>chosen by the *tennō/* and courtiers</seg>〉 from the Office of Medications lick [the *toso/*] beforehand, and will then offer it to the *tennō/*. Following this, do the same with the *byakusan/* and *doshōsan/*. End this on the third day. Follow the same procedure for the royal consort and the heir apparent. </p>
+						<p ana="項"
+							corresp="engishiki.xml#item37100105 engishiki_ja.xml#item37100105"
+							xml:id="item37100105">Afterwards, as for the payment of remunerations, give those of the fifth rank an *aoshi/*, a lined kimono worn as a jacket in winter; to the third- and forth-level managers, to the royal physician, and to the instructor women's physician give one *ren/* of silk floss each; to the minor functionaries and to the seventeen apprentices of medications, give each three *ton/* of silk floss; to the vice-director of the Office of Medications and to the six five female minor functionaries, give each five *ton/* of silk floss.</p>
+					</div>
+					<div ana="典薬"
+						corresp="engishiki.xml#article371002 engishiki_ja.xml#article371002"
+						n="37.2" subtype="項" type="条" xml:id="article371002">
+						<head ana="臘月御薬"/>
+						<note type="summary">On the royal medications of the <seg>twelfth month</seg></note>
+						<p ana="項"
+							corresp="engishiki.xml#item37100201 engishiki_ja.xml#item37100201"
+							xml:id="item37100201">On the royal medications of the twelfth month
+							<lb/>Rhinoceros horn pellet, six doses; *shakuyaku/* [*Paeonia lactiflora/*/white peony root] pellet, three doses; *onpaku/* pellets, four doses; ointment for a thousand poxes and ten-thousand maladies, one dose; *shōma/* [*Astilbe thunbergia/*] ointment, two doses; <seg>Jīvaka</seg>'s ointment, one dose; *chōchū/* pellets, two doses; *bōshō/* [mirabilite] black pellets, one dose; <seg>fermented soy bean</seg> pellets, one dose; four lacquered tables to present the medications; four small continental-style chests and four long tables to carry loads 〈all lacquered. Store them in the Bureau.〉</p>
+						<p ana="項"
+							corresp="engishiki.xml#item37100202 engishiki_ja.xml#item37100202"
+							xml:id="item37100202">For the preparation of the medications arrange: one *kin/*, three *ryō/* and two *bu/* of rhinoceros horn; seven *ryō/* and two *bu/* of *kanzō/*; eleven *ryō/*, one *bu/* and three *shu/* of *hazu/* [*Croton tiglium/*/purging croton root]; four *ryō/* of *keishin/*; one *ryō/* and two *bu/* of <seg>*kunrokukō/*</seg>; one *ryō/* and two *bu/* of <seg>*fūkō/*</seg>; two small *to/*, five *shō/* and seven *gō/* of honey 〈as for the above, obtain them all from the Bureau of the Royal Storehouse;〉</p>
+						<p ana="項"
+							corresp="engishiki.xml#item37100203 engishiki_ja.xml#item37100203"
+							xml:id="item37100203">ten *ryō/* and two *bu/* of *shōma/*; one *kin/* and five *ryō/* of *ōgon/*; seven *ryō/* of *tōki/*; six *ryō/* of *bōfū/*; six *ryō/* of *maō/*; eight *ryō/* of *ninjin/*; six *ryō/* of *ōgi/* [*Astragalus/*/milkvetch]; nine *ryō/* of *shishinin/* [kernel of *Gardenia jasminoides/* fruit]; six *ryō/* of <seg>*kanran/*</seg>; four *ryō/* of *bōki/* [*Peucedanum japonicum/*/hogfennel rhizome]; ten *ryō/* of *ōren/* [*Coptis japonica/*/Japanese goldthread rhizome]; nine *ryō/* and three *bu/* of *shakuyaku/*; nine *ryō/* of *teirekishi/* [seeds of *Draba nemorosa/*/wood whitlow-grass]; twelve *ryō/* of bitter apricot [*Prunus armeniaca/*] kernels; eight *ryō/* of *saiko/* [*Bupleurum chinense/*/Chinese thoroughwax root]; two *kin/*, fifteen *ryō/* and two *bu/* of *daiō/* [*Rheum officinale/*/Chinese rhubarb root]; ten *ryō/* of *uzu/*; two *ryō/* of *shion/* [*Aster tataricus/*/Tartarian aster root]; two *ryō/* of *goshuyu/* [*Tetradium ruticarpum/*/Evodia dried fruit]; two *ryō/* of *shōbu/* [*Acorus calamus/*/sweet flag rhizome]; two *ryō/* of *kōboku/* [bark of *Magnolia officinalis/*/magnolia bark]; two *ryō/* of *kikyō/*; two *ryō/* of *sōkyō/* [*Gleditsia sinensis/*/Chinese honeylocust fruit]; six *ryō/* of *bukuryō/* [dried sclerotium of *Wolfiporia extensa/*]; two *ryō/* of *kankyō/*; three *ryō/* of *shokushō/*; two *ryō/* of *zenko/* [*Peucedanum praeruptorum/*/peucedanum root]; six *ryō/* of hemp [*Cannabis sativa/*] seeds; one *ryō/* and two *bu/* of <seg>dragon bones</seg>; four *ryō/* of tortoise shell; sixty sheets of <seg>*eupolyphaga sinensis/*</seg>; eight *ryō/* of <seg>*kijitsu/*</seg>; three *ryō/* of *saishin/*; one *kin/* and two *ryō/* of *bōshō/*; one *ryō/* of *karōkon/* [root of *Trichosanthes kirilowii/*/Chinese snake gourd]; one *ryō/* of *ryūtan/* [*Gentiana scabra/*/Chinese gentian root and rhizome]; one *ryō/* of *kujin/* [*Sophora flavescens/*/shrubby sophora root]; six *ryō/* and two *bu/* of fermented soy beans; two *ryō/* of *daigeki/*; one *ryō/* of *hōsō/*; one *ryō/* of *kyūkyū/* [*Ligusticum striatum/*/Sichuan lovage rhizome]; one *ryō/* of *dokkatsu/*; seven *ryō/* of *jagan/*; one *ryō/* of *bushi/*; five *ryō/* of *kijiō/*; twenty stalks of *gaihaku/*; six *ryō/* and two *bu/* of *byakuren/* [*Ampelopsis japonica/*/Japanese peppervine root]; four *ryō/* of *rōro/* [root of *Echinops setifer/*]; four *ryō/* of *rengyō/* [*Forsythia suspensa/*/forsythia dried fruit]; eight *ryō/* of *sokuzu/* [*Sambucus chinensis/*/Chinese elderberry]; one *ryō/* and two *bu/* of pine resin; two *ryō/* and two *bu/* of *byakubi/* [*Osmunda japonica/* root]; three *ryō/* of *seimokkō/* [stem and root of *Aucuba japonica/*/Japanese laurel] 〈as for all which is listed above, obtain it from the storehouse of the Bureau;〉</p>
+						<p ana="項"
+							corresp="engishiki.xml#item37100204 engishiki_ja.xml#item37100204"
+							xml:id="item37100204">one *kin/*, ten *ryō/* and three *bu/* of wild board fat; five *shō/* each of *sake/* and rice vinegar; two *jō/* of oiled cloth; one *jō/* of coarse plain silk; two *shaku/* of silk gauze; one *kin/* of silk floss; three *jō/* of cloth collected as tax-in-kind; for large *ryō/* of mulberry bark strings from Aki province; forty sheets of paper; three <seg>Sue ware</seg> bowls, three jars, three plates, ten box-shaped *sake/* cups, three washing basins, two <seg>*tataibe/* pots</seg>; two carrying-vessels;  two water buckets; two ladles; two large containers; halved dried gourd used as a ladle; two *oribitsu/* containers; two *koku/* and five *to/* of new charcoal; one grindstone; four long straw mats; four long wild rice leaf mats 〈use these for the production of the stock of medications for the royal consort and the miscellaneous allowance [of medications for court bureaucrats of the fifth rank and above].〉</p>
+						<p ana="項"
+							corresp="engishiki.xml#item37100205 engishiki_ja.xml#item37100205"
+							xml:id="item37100205">As for the above [medications], make and prepare them together with the royal medications of New Year's Day and present them to the *tennō/* on the last day of the year. As for the miscellaneous items that will be needed, do as for the materials used for [the medications for the *tennō/* on] New Year's Day. However, concerning the medications listed above [in this article], on the eighth day [of the first month] collect them again and send them to the place where the <seg>Gosai-e</seg> is held in the ceremonial compound of the eighth ministries; on the fourteenth day, [at the end of the rite,] return them.</p>
+					</div>
+					<div ana="典薬"
+						corresp="engishiki.xml#article371003 engishiki_ja.xml#article371003"
+						n="37.3" subtype="項" type="条" xml:id="article371003">
+						<head ana="中宮臘月御薬"/>
+						<note type="summary">On the medications of the twelfth month for the royal
+							consort.</note>
+						<p ana="項"
+							corresp="engishiki.xml#item37100301 engishiki_ja.xml#item37100301"
+							xml:id="item37100301">On the medications of the twelfth month for the royal consort.
+							<lb/>Four-flavor *richū/* pellets, seven-*qi/* pellets, eight-flavor *richū/* pellets, *kankyō/* pellets, <seg>*ubai/* pellets</seg>, *goshuyu/* pellets, *tōki/* pellets, *shakuyaku/* pellets, *shinmyō/* ointment, great ointment for ten-thousand maladies, ointment for a thousand poxes and ten-thousand maladies, *chinchū/* ointment, Jīvaka's ointment, *zokufū/* ointment, one dose each.</p>
+						<p ana="項"
+							corresp="engishiki.xml#item37100302 engishiki_ja.xml#item37100302"
+							xml:id="item37100302">For the preparation of the medications arrange: eight *ryō/* and three *bu/* of *ninjin/*; eight *ryō/* and three *bu/* of *kanzō/*; three *ryō/* of *keishin/*; one *ryō/* and two *bu/* of *kunrokukō/*; one *ryō/* and two *bu/* of *fūkō/*; nine *ryō/* and one *bu/* of *kankyō/*; eleven *ryō/* of *byakujutsu/*; twelve *ryō/* and two *bu/* of *daiō/*; fourteen *ryō/* and three *bu/* of shokusanshō; three *bu/* of *hange/* [Pinellia ternata/pinellia tuber]; two *ryō/* of *teirekishi/* [seeds of *Draba nemorosa/*]; three *bu/* of *kikyō/*; five *ryō/* and three *bu/* of *saishin/*; one *kin/*, one *ryō/* and three *bu/* of *goshuyu/*; three *bu/* of *shōbu/*; two *ryō/* and one *bu/* of *bukuryō/*; seven *ryō/* and three *bu/* of *kyūkyū/*; three *bu/* of *shion/*; three *bu/* of <seg>gypsum</seg>; three *bu/* of peach [*Prunus persica/*] kernel; seven *ryō/* and one *bu/* of *uzu/*; two *ryō/* of wheat [*Triticum aestivum/*]; four *ryō/* of bitter apricot kernel ; two *ryō/* of fermented beans; one *ryō/* of *ōren/*; one *ryō/* of *ōbaku/* [<seg>bark of *Phellodendron amurense/*/Amur cork tree</seg>]; five *ryō/* and two *bu/* of *ōgon/*; four *ryō/* of *jukugai/* [dried fruit of *Artemisia princeps/*/Japanese mugwort]; twenty pieces of *ubai/*; one *ryō/* and one *bu/* of *kijitsu/*; five *ryō/* of *tōki/*; thirteen *ryō/* and two *bu/* of *byakushi/*; thirteen *ryō/* and two *bu/* of *zenko/*; one *kin/*, four *ryō/* and two *bu/* of *bushi/*; three *ryō/* of *rengyō/*; two *ryō/* of <seg>*rojo/*</seg>; four *ryō/* and two *bu/* of *byakuren/*; two *ryō/* of *sokuzu/*; two *ryō/* of *shōriku/* [*Phytolacca japonica/*/Japanese pokeweed root]; one *kin/* and three *ryō/* of *hōsō/*; one *ryō/* and two *bu/* of *shōma/*; two *ryō/* of *ōgi/*; two *ryō/* of *saiko/*; two *ryō/* of *chiyu/* [*Sanguisorba officinalis/*/great burnet root]; two *ryō/* of *botan/* [*Paeonia suffruticosa/*/mountain peony root bark]; three *ryō/* and two *bu/* of *daigeki/*; six *ryō/* and three *bu/* of *shakuyaku/*; one *ryō/* and three *bu/* of *genjin/* [*Scrophularia buergeriana/*/figwort root]; one *ryō/* and two *bu/* of *hakutōkō/* [*Pulsatilla cernua/* root]; two *bu/* of *shishi/* [*Gardenia jasminoides/*/Cape jasmin fruit]; one *ryō/* of *jagan/*; one *ryō/* of *dokkatsu/*; five *ryō/* of *kijiō/*; twenty stalks of *gaihaku/*; one *ryō/* and two *bu/* of Japanese pine resin [*Pinus thumbergii/*]; one *ryō/* and two *bu/* of dragon bones; three *ryō/* of *seimokkō/*; two *ryō/* and two *bu/* of *byakubi/*; three *ryō/* of <seg>azalea [*Rhododendron/*] dried flowers</seg>; one small *to/*, one *shō/* and one *gō/* of i<seg>nfusion of sweet vine</seg>;</p>
+						<p ana="項"
+							corresp="engishiki.xml#item37100303 engishiki_ja.xml#item37100303"
+							xml:id="item37100303">five *kin/* of wild boar fat; one *jō/* and three *shaku/* of oiled cloth; one *jō/* of silk; one *ton/* of silk floss; three *jō/* of cloth collected as tax-in-kind; three large *ryō/* of mulberry bark strings from Aki Province; forty sheets of paper; six jars, two bowls, two plates, ten box-shaped *sake/* cups, two *tataibe/* pots, all Sue ware; two large containers; three *oribitsu/* containers; five *shō/* each of *sake/* and rice vinegar; two *koku/* and five *to/* of new charcoal.</p>
+					</div>
+					<div ana="典薬"
+						corresp="engishiki.xml#article371004 engishiki_ja.xml#article371004"
+						n="37.4" subtype="項" type="条" xml:id="article371004">
+						<head ana="東宮御薬"/>
+						<note type="summary"> <seg>[Medications for the heir apparent]</seg></note>
+						<p ana="項"
+							corresp="engishiki.xml#item37100401 engishiki_ja.xml#item37100401"
+							xml:id="item37100401">[For the heir apparent,] *byakusan/*, one dose; *doshōsan/*, one dose; *toso/*, one dose 〈serve them all as above [as done for the *tennō/*].〉 Seven *qi/* pellets, two doses; four flavor *richū/* pellets, four doses. For the offering of the medications prepare: two lacquered tables 〈place the *toso/* on one, and the *byakusan/* on the other;〉 three white bronze bowls; four plates to collect leftovers with <seg>*ban'e/* decorations</seg>; one red pouch 〈length two *shaku/*;〉 one *ryō/* of strings for the pouch; ten sheets of paper; two *bu/* of mulberry bark strings.</p>
+						<p ana="項"
+							corresp="engishiki.xml#item37100402 engishiki_ja.xml#item37100402"
+							xml:id="item37100402">For the preparation of the medications arrange: nine *ryō/* and two *bu/* of *ninjin/*; nine *ryō/* and two *bu/* of *kanzō/*; three *bu/* of *keishin/*; five *ryō/* and three *bu/* of *kankyō/*; ten *ryō/* and three *bu/* of *ban'e/*; five *ryō/* and two *bu/* of *daiō/*; two *ryō/* and two *bu/* of *bushi/*; four *ryō/* and three *bu/* of *kikyō/*; three *ryō/* and one *bu/* of *shokushō/*; three *ryō/* of *bōfū/*; two *bu/* of *bakkatsu/*; four *ryō/* of *uzu/*; three *ryō/* and three *bu/* of *saishin/*; two *ryō/* and one *bu/* of *maō/*; one *ryō/* and two *bu/* of *hange/*; one *ryō/* and two *bu/* of *goshuyu/*;one *ryō/* and two *bu/* of *shōbu/*; one *ryō/* and two *bu/* of *bukuryō/*; one *ryō/* and two *bu/* of *kyūkyū/*; one *ryō/* and two *bu/* of *shion/*; one *ryō/* and two *bu/* of gypsum; one *ryō/* and two *bu/* of *saiko/*; one *ryō/* and two *bu/* of peach kernels. Seven *shaku/* of oiled cloth and two *oribitsu/* containers 〈as for other tools, use the same as those used for the august medications [for the *tennō/*].〉</p>
+						<p ana="項"
+							corresp="engishiki.xml#item37100403 engishiki_ja.xml#item37100403"
+							xml:id="item37100403">As for the aforesaid [medications for the royal consort and for the heir apparent], in compounding and presenting them follow the above model [i.e., the *tennō/*'s], but have all those of rank lower than head of the Bureau [of Medications] and higher than apprentice of *i/*[*jutsu/*] bring the medication to court and present them.</p>
+					</div>
+					<div ana="典薬"
+						corresp="engishiki.xml#article371005 engishiki_ja.xml#article371005"
+						n="37.5" subtype="項" type="条" xml:id="article371005">
+						<head ana="白散"/>
+						<note type="summary">[On *byakusan/*]</note>
+						<p ana="項"
+							corresp="engishiki.xml#item37100501 engishiki_ja.xml#item37100501"
+							xml:id="item37100501">Every year in the twelfth month, produce 415 doses of *byakusan/* [to be distributed on New Year's as remuneration to those of the fifth rank and above]. Have apprentices of <seg>*i/*[*jutsu/*]</seg> and needles pack them and write the name [of the medication] and other information on [the wrapping paper]. For its preparation, make ready: two silk sieves 〈two *shaku/* and five *sun/* each;〉 503 sheets of wrapping paper 〈allocate one *shō/* to each sheet;〉 two large *kin/* and five *ryō/* of mulberry bark strings; eight *to/*, two *shō/* and six *gō/* of rice vinegar to soak the *bushi/* 〈soak one *ryō/* each in one *gō/* [of rice vinegar];〉 eight *to/*, two *shō/* and six *gō/* of new charcoal to roast the *bushi/* 〈roast one *ryō/* each with one *gō/* [of charcoal];〉 four knives for scraping; five bundles of hinoki cypress lumber 〈to be used for 503 wooden pieces to clasp the powder; the length of each piece of lumber is less than six *shaku/* and more than five *shaku/*; the length of each of the 503 pieces is one *shaku/* and five *sun/*.〉 Apply in advance and obtain the above from the Ministry of the Royal Household. However, decide the quantities necessary each year on the basis of the [eligible] recipients.</p>
+						<p ana="項"
+							corresp="engishiki.xml#item37100502 engishiki_ja.xml#item37100502"
+							xml:id="item37100502">On the last day of the year, place five *to/* of sample *byakusan/* and fifty sheets of paper to be presented to the royal palace in a lacquered small continental-style chest, and place it on top of a plain-wood tall table. On the same day, present samples of twenty-five types of medicinal herbs [from the bureau's physic garden to the *tennō/*] 〈four *ryō/* each of *maō/*, *tanjin/* [*Salvia miltiorrhiza/*/Chinese salvia root and rhizome], *jiō/*, *ōgon/*, *anryo/* [*Artemisia keiskeana/*], *kanzō/* 萱草 [*Hemerocallis/*/daylily], *bakumontō/* [dried root of *Ophiopogon japonicus/*], *tenmontō/* [dried root of *Asparagus cochinchinensis/*/Chinese asparagus], *kubaku/* [*Dianthus chinensis/*/pink dianthus aerial part], *ōkiku/*[dried flowers of *Chrysanthemum morifolium/*/Japanese chrysanthemum], <seg>*kuko/*</seg>, *jagan/*, *chiyu/*, *shion/*, *gaihaku/*, *sekishōzu/* [*Vigna angularis/*/azuki bean], *byakugō/* [*Lilium/*/lily bulb], *kyūkyū/*, *daiō/*, *shōriku/*, *daisan/* [*Allium sativum/*/garlic bulb], *sanshuyu/* [Cornus officinalis/Japanese cornel fruit], *goshuyu/*, *ubai/*, peach kernels. For their preparation, follow the same procedure as above [as for *byakusan/*].〉 All those in the Ministry of the Royal Household with a rank lower than deputy director, and those in the Bureau of Medications with a rank lower than head of the bureau 〈six people for each table. It includes apprentices of *i/*[*jutsu/*]. The same also applies to the carrying of the table for *shōbu/* in the next article,〉 will together carry the tables to the court and present them. Once this procedure is completed, leave. The deputy director [of the Ministry of the Royal Household] will remain and report [to the *tennō/*] 〈as for the words to be pronounced here, refer to the protocols for the Ministry of the Royal Household.〉 As for the *byakusan/* for the royal consort and the heir apparent, follow this same procedure. Those in the Bureau of Medications with a rank lower than head and higher than apprentice of  *i/*[*jutsu/*] will carry the table to court and present them 〈the number of people is the same as above [for the *tennō/*].〉</p>
+						<p ana="項"
+							corresp="engishiki.xml#item37100503 engishiki_ja.xml#item37100503"
+							xml:id="item37100503">On this day, also distribute *byakusan/* to those of the fifth rank and higher 〈the Ministry of Central Affairs, the Ministry of Ceremonies and the Ministry of Military Affairs will send a list of names in advance.〉 Those of rank lower than prince of royal blood and higher than second rank will receive three *shō/* each; those of the third rank, two *shō/* each; those of the fourth rank, one *shō/* each; those of the fifth rank, five *gō/*.</p>
+					</div>
+					<div ana="典薬"
+						corresp="engishiki.xml#article371006 engishiki_ja.xml#article371006"
+						n="37.6" subtype="項" type="条" xml:id="article371006">
+						<head ana="雑給料"/>
+						<note type="summary">Miscellaneous medications as remuneration [to those of
+							the fifth rank and above]</note>
+						<p ana="項"
+							corresp="engishiki.xml#item37100601 engishiki_ja.xml#item37100601"
+							xml:id="item37100601">Miscellaneous medications as remuneration [to those of the fifth rank and above]
+							<lb/>Four-flavor *richū/* pellets, twenty doses; seven-*qi/* pellets, thirteen doses; *kankyō/* pellets, seven doses; *ubai/* pellets, twenty doses; *goshuyu/* pellets, three doses; *tōki/* pellets, ten doses; *shakuyaku/* pellets, ten doses; *shinmyō/* ointment, three doses; great ointment for ten-thousand maladies, three doses; ointment for a thousand poxes and ten-thousand maladies, three doses; *chūsha/* [carriage-stopping] pellets, ten doses; *kengoshi/* [seeds of *Ipomoea nil/*/Japanese morning glory] pellets, five doses; *ōren/* pellets, four doses; thirteen-element <seg>*kariroku/*</seg> pellets, two doses; *daiō/* ointment, two doses; *shōma/* ointment, three doses.</p>
+						<p ana="項"
+							corresp="engishiki.xml#item37100602 engishiki_ja.xml#item37100602"
+							xml:id="item37100602">For the preparation of the medications arrange: four *kin/*, seven *ryō/* and three *bu/* of *ninjin/*; three *kin/*, fourteen *ryō/* and three *bu/* of *kanzō/*; ten *ryō/* of *keishin/*; four *ryō/* of *kariroku/*; four *ryō/* of *birōji/* [*Areca catechu/*/areca nut]; eight *kin/*, eight *ryō/* and three *bu/* of *kankyō/*; four *kin/* and nine *ryō/* of *byakujutsu/*; seven *kin/* and eight *ryō/* of *daiō/*; four *kin/*, ten *ryō/* and three *bu/* of *shokushō/*; nine *ryō/* and three *bu/* of *hange/*; nine *ryō/* and three *bu/* of *kikyō/*; one *kin/*, two *ryō/* and three *bu/* of *saishin/*; four *kin/*, four *ryō/* and three *bu/* of *goshuyu/*; nine *ryō/* and three *bu/* of *shōbu/*; eleven *ryō/* and three *bu/* of *bukuryō/*; two *kin/*, ten *ryō/* and three *bu/* of *kyūkyū/*; nine *ryō/* and three *bu/* of *shion/*; nine *ryō/* and three *bu/* of gypsum; one *ryō/* and two *bu/* of *saiko/*; one *kin/*, thirteen *ryō/* and three *bu/* of peach kernels; one *kin/*, six *ryō/* and one *bu/* of *uzu/*; fourteen *ryō/* of wheat; two *kin/* and two *ryō/* of bitter apricot kernel; one *kin/* of fermented soy beans; five *kin/* and eight *ryō/* of *ōren/*; one *kin/* and five *ryō/* of *ōbaku/*; three *kin/* and eight *ryō/* and two *bu/* of *ōgon/*; one *kin/* and four *ryō/* of *jukugai/*; 400 pieces of *ubai/*; twelve *ryō/* and three *bu/* of dried *kijitsu/*; three *kin/* and fifteen *ryō/* of *tōki/*; five *kin/* and one *ryō/* of *byakushi/*; two *kin/*, eight *ryō/* and two *bu/* of *zenko/*; three *kin/* and eight *ryō/* of *bushi/*; fifteen *ryō/* of *rengyō/*; six *ryō/* of *rojo/*; twelve *ryō/* of *byakuren/*; one *kin/* and two *ryō/* of *sokuzu/*; six *ryō/* of *shōriku/*; nine *ryō/* of *hōsō/*; thirteen *ryō/* and two *bu/* of *shōma/*; six *ryō/* of *ōgi/*; six *ryō/* of *chiyu/*; six *ryō/* of *botan/*; ten *ryō/* and two *bu/* of *daigeki/*; one *kin/*, thirteen *ryō/* and three *bu/* of *shakuyaku/*; five *ryō/* and one *bu/* of *genjin/*; four *ryō/* and two *bu/* of *hakutōkō/*; one hundred and fifty pieces of *shishi/* kernels; twelve *ryō/* of *jagan/*; three *ryō/* of *dokkatsu/*; fifteen *ryō/* of *kijiō/*; fifty-two stalks of *gaihaku/*; two *ryō/* of *tachibana/* orange dried peel; one *kin/* and four *ryō/* of *bōshō/*; one *ryō/* and two *bu/* of *kuseki/* [*Cibotium barometz/*/Scythian lamb rhizome]; three *kin/* and thirteen *ryō/* of *kengoshi/*; one *kin/* and four *ryō/* of *teirekishi/*; six *ryō/* of *rōro/*; one *kin/* and fourteen *ryō/* of <seg>animal hide gelatin</seg>; five small *to/*, one *shō/* and one *gō/* of infusion of sweet vine;</p>
+						<p ana="項"
+							corresp="engishiki.xml#item37100603 engishiki_ja.xml#item37100603"
+							xml:id="item37100603">five *kin/* of wild boar fat; nine *shō/* of *sake/*; two *to/* and eight *shō/* of rice vinegar; one *koku/* of glutinous rice; three *to/* of <seg>germinated rice</seg>; one *hiki/*, one *jō/* and one *shaku/* of oiled cloth; two *jō/* and two *shaku/* of coarse plain silk; eight *shaku/* of silk gauze; two *tan/*, one *jō/* and five *shaku/* of cloth collected as tax-in-kind; one *ton/* and four *ryō/* of silk floss; one large *kin/* and four *ryō/* of mulberry bark strings from Aki Province; 195 sheets of paper; fourteen jars; four <seg>*hotogi/* jars</seg>; seven *oribitsu/* containers; five large containers; half dried-gourd to be used as a ladle; one water bucket; one ladle; four *koku/* of new charcoal; 1,200 *kin/* of firewood 〈this amount also includes the firewood necessary for the production of medications for the *tennō/*.〉</p>
+						<p ana="項"
+							corresp="engishiki.xml#item37100604 engishiki_ja.xml#item37100604"
+							xml:id="item37100604">As for the aforesaid [medications], use the procedures illustrated above. Once the production is completed, present them on the same day as the royal medications [for the *tennō/* produced in] the twelfth month.</p>
+					</div>
+					<div ana="典薬"
+						corresp="engishiki.xml#article371007 engishiki_ja.xml#article371007"
+						n="37.7" subtype="項" type="条" xml:id="article371007">
+						<head ana="地黄煎料"/>
+						<note type="summary">On the ingredients necessary to make *jiō/* [*Rehmannia
+							glutinosa/*] infusion</note>
+						<p ana="項"
+							corresp="engishiki.xml#item37100701 engishiki_ja.xml#item37100701"
+							xml:id="item37100701">On the ingredients necessary to make *jiō/* [*Rehmannia glutinosa/*] infusion
+							<lb/>Twenty *koku/* of *kijiō/* 〈ten *koku/* presented by Izumi Province, ten *koku/* obtained from the physic garden [attached to the Bureau of Medications];〉 one* jō/* and two *shaku/* of silk floss; six *shaku/* of coarse plain silk to strain the infusion; six sheets of coarse plain silk to cover the jars 〈each one *shaku/* in length and nine *sun/* in width;〉 one bowl; one sheet of coarse plain silk to cover the bowl 〈length one *shaku/*, width nine *sun/*;〉 one *ton/* and a half of silk to cover the mouth of the cauldron; two *tan/* and four *jō/* of cloth collected as tax-in-kind to squeeze the *jiō/*; three *ton/* of silk floss; one *tan/* of <seg>tradable cloth</seg>; three *jō/* of cloth collected as tax-in-kind to cover the <seg>*yuka/* jar</seg> 〈each four *shaku/* in length, two times the <seg>standard width</seg>〉 twenty *kin/* of ropes for the lathe made with boiled hemp fiber 〈in case of damage, request a replacement;〉 five *jō/* of clean aprons made of cloth collected as tax-in-kind 〈six *shaku/* each;〉 five sets of outer work garment  〈six *shaku/* each;〉 one piece of towel 〈length five *shaku/*;〉 six *shō/* of oil for torches; three half-dried gourds to be used as ladles to pour the infusion [of *jiō/*]; two draining baskets [to filter scum]; six *yuka/* jar where to store the fluid extracted [from the *jiō/*]; sixteen Sue ware jars where to store the *jiō/* infusion 〈each to receive more than five *shō/*;〉 six *tataibe/* pots where to pour the fluid extracted [from the *jiō/*]; one Sue ware bowl where to pour a sample of infusion [of *jiō/*] 〈also add a plate;〉 three large containers; three ladles; sixteen sheets of paper 〈as material to cover the mouth of the jars [in which the *jiō/* infusion will be stored];〉 one large *kin/* of mulberry bark strings to tie and secure the mouth of the jars; 2,400 *kin/* of firewood; twenty *koku/* of new charcoal.</p>
+						<p ana="項"
+							corresp="engishiki.xml#item37100702 engishiki_ja.xml#item37100702"
+							xml:id="item37100702">Provide three high officials [in the Bureau of Medications], four royal physicians 〈as for the aforesaid officials, increase or decrease their number depending on the circumstances〉 and three minor functionaries with one *jō/* of coarse plain silk and two *ton/* of silk floss each as pure clothes. Provide ten apprentices of medications and two palanquin bearers [in charge of carrying the *jiō/*] with two *jō/* and seven *shaku/* of cloth collected as tax-in-kind each 〈upper garment, two *jō/*; *hakama/* trousers, seven *shaku/*.〉</p>
+						<p ana="項"
+							corresp="engishiki.xml#item37100703 engishiki_ja.xml#item37100703"
+							xml:id="item37100703">As for the aforesaid miscellaneous items, submit an application to the Ministry of Royal Affairs on the first day of the ninth month and receive them. However, if there is a variation in the amount of *jiō/*, also adjust the number of miscellaneous items to request based on that. During the period of production of the infusion, supply [those involved in its production] with *sake/* and food for no more than sixteen days.</p>
+					</div>
+					<div ana="典薬"
+						corresp="engishiki.xml#article371008 engishiki_ja.xml#article371008"
+						n="37.8" subtype="項" type="条" xml:id="article371008">
+						<head ana="五月五日"/>
+						<note type="summary">[On the offering of *shōbu/* and *namakomo/* on the
+							fifth day of the fifth month]</note>
+						<p ana="項"
+							corresp="engishiki.xml#item37100801 engishiki_ja.xml#item37100801"
+							xml:id="item37100801">[On the occasion of the seasonal celebrations at court] on the <seg>fifth day of the fifth month</seg>, in order to present *shōbu/* and *namakomo/* [non desiccated *Zizania latifolia/*/wild rice] 〈members of the Bureau will prepare these〉 arrange four tables made of unbarked lumber 〈two tables are to be used for the offering to the *tennō/*, and two tables are for the distribution to court officials. The Bureau will prepare them all;〉 six *ryō/* of *karamushi/* [*Boehmeria nivea/*/ramie]; and four *kin/* of *tsuzura/* [*Sinomenium acutum/*/Asian moonseed] 〈request these to the Ministry of the Royal Household.〉 All those in the Ministry of the Royal Household with a rank lower than deputy director, and those in the Bureau of Medications with a rank lower than head will carry these together, will enter the venue in question and present them. Once done, they will take their leave. The deputy director [of the Ministry of the Royal Household] will remain and report [to the *tennō/*] 〈as for the words to be pronounced here, refer to the protocols for the Ministry of the Royal Household.〉 For the royal consort and the heir apparent, utilize two tables of unbarked lumber each 〈one for the royal consort and the heir apparent, one for the distribution to court officials.〉</p>
+					</div>
+					<div ana="典薬"
+						corresp="engishiki.xml#article371009 engishiki_ja.xml#article371009"
+						n="37.9" subtype="項" type="条" xml:id="article371009">
+						<head ana="合薬麴料"/>
+						<note type="summary">[On the *kōji/* mold and *ōgon/* to be used in the
+							production of medications]</note>
+						<p ana="項"
+							corresp="engishiki.xml#item37100901 engishiki_ja.xml#item37100901"
+							xml:id="item37100901">Every year obtain from the Ministry of the Royal Household the wheat to be used as material to make <seg>*kōji/*</seg> for the production of medications 〈two *to/* as material for the royal medications [for the *tennō/*], eight *to/* as material for miscellaneous medications to be distributed as remuneration to court officials;〉 and seven *to/* of glutinous rice to be used to steam and desiccate fifty *kin/* of *ōgon/*.</p>
+					</div>
+					<div ana="典薬"
+						corresp="engishiki.xml#article371010 engishiki_ja.xml#article371010"
+						n="37.10" subtype="項" type="条" xml:id="article371010">
+						<head ana="九月九日"/>
+						<note type="summary">[On the offering of *goshuyu/* on the ninth day of the
+							ninth month]</note>
+						<p ana="項"
+							corresp="engishiki.xml#item37101001 engishiki_ja.xml#item37101001"
+							xml:id="item37101001">[On the occasion of the seasonal celebration at court] on the <seg>ninth day of the ninth month</seg>, hand over twenty bunches of *goshuyu/* to the [inner palace's] Office of Medications and have them present it [to the *tennō/*].</p>
+					</div>
+					<div ana="典薬"
+						corresp="engishiki.xml#article371011 engishiki_ja.xml#article371011"
+						n="37.11" subtype="項" type="条" xml:id="article371011">
+						<head ana="供御乳"/>
+						<note type="summary">[On the offering of milk]</note>
+						<p ana="項"
+							corresp="engishiki.xml#item37101101 engishiki_ja.xml#item37101101"
+							xml:id="item37101101">Present to the *tennō/* three large *shō/*, one *gō/* and five *shaku/* per day. For the materials needed for the production of one year [of milk]: three *jō/* and one *shaku/* of silk floss 〈use them [to make] twenty-one sieves, eight of them, one *shaku/* and six *sun/* each in size; and [the other] thirteen, one *shaku/* and four *sun/* each in size;〉 four *jō/* and two *shaku/* of red silk; four *jō/* and two *shaku/* of green silk to be used at the back 〈both to be used as materials to cover two tables; length seven *shaku/*, three times the standard width each;〉 two *jō/* and four *shaku/* of cloth collected as tax-in-kind 〈to be used to cover the tables on rainy days; each six *shaku/* in length, two *no/*;〉 three *hiki/* of acorn-color silk from the eastern provinces 〈to be used for the clothes of the three men who will carry the tables, one *hiki/* for each person;〉 five *tan/*, two *jō/* and five *shaku/* of bleached hemp cloth 〈three *jō/* and three *shaku/* for the men [who will carry the tables], respectively four *shaku/* each as fabric for their sashes and seven *shaku/* for their *hakama/* trousers; three *tan/* and three *shaku/* for the three men who will milk the cows, respectively three *jō/* and six *shaku/* as fabric for their pure unlined kimonos, and seven *shaku/* for their *hakama/* trousers; one *tan/*, three *jō/* and one *shaku/* for the three men who will carry the tables, respectively four *shaku/* each as fabric for two short-sleeved kimonos, five *shaku/* each for two pieces of outer work garment; as fabric for three pieces of cloth to wipe the Sue ware bowls, three *shaku/* each; as fabric for two sieves to cut water, four *shaku/* each; as fabric for two headgears, three *shaku/* each; as fabric for two towels, three *shaku/* each; one *jō/* as fabric for a cloth to restrain the cows' legs; seven *shaku/* as fabric to wrap around the cows' abdomen; as fabric for three cloths to wipe milk, three *shaku/* each;〉 five *ryō/* of silk thread 〈to sew the sieves and the clothes and *hakama/* trousers for the men [who will carry the tables];〉 five bowls of Sue ware; jars and flat flasks, two each; Sue ware *tataibe/* pots, container, <seg>*sarake/* pot</seg> and washing basin, one each; two tall stands; two plain wood chests; one stand to be used to carry loads; two wooden lids 〈all to be used to collect milk;〉 one barrel 〈to store the rice and soy bean gruel used as cow fodder;〉 one *shō/* of oil 〈to be used on the last day of the twelfth month;〉 one hundred and fifty *kin/* of firewood per day 〈in order to cook the rice gruel for the cows;〉 one *to/* and four *shō/* per day of rice and soy beans to be used as cow fodder for the seven dairy cows 〈one *shō/* for each cow.〉 As for the above, request and receive them every month from the Ministry of the Royal Household.</p>
+					</div>
+					<div ana="典薬"
+						corresp="engishiki.xml#article371012 engishiki_ja.xml#article371012"
+						n="37.12" subtype="項" type="条" xml:id="article371012">
+						<head ana="乳牛"/>
+						<note type="summary">[On the dairy cows]</note>
+						<p ana="項"
+							corresp="engishiki.xml#item37101201 engishiki_ja.xml#item37101201"
+							xml:id="item37101201">As yearly fodder for the seven dairy cows and the seven calves, 4,434 *kin/* of dried grass will be needed. 〈<seg>Yamashiro Province</seg> will provide 2,332 *kin/* as cultivated fodder and 500 *kin/* as gathered fodder; Naniwa Province will provide 1,603 *kin/* as cultivated fodder.〉</p>
+					</div>
+					<div ana="典薬"
+						corresp="engishiki.xml#article371013 engishiki_ja.xml#article371013"
+						n="37.13" subtype="項" type="条" xml:id="article371013">
+						<head ana="造儲御薬料"/>
+						<note type="summary">On the materials necessary for the production of the
+							royal medications</note>
+						<p ana="項"
+							corresp="engishiki.xml#item37101301 engishiki_ja.xml#item37101301"
+							xml:id="item37101301">On the materials necessary for the production of the royal medications
+							<lb/>Two *koku/* of sesame [*Sesamum indicum/*] 〈to be made into a paste;〉 one *to/* of fermented beans 〈to be used in the production of miscellaneous medications;〉 two *to/* of foxtail millet [*Castanea crenata/*] 〈to be used to bring water to boil;〉 three *to/* of salt 〈to be used to boil water and steam-iron;〉 one piece of curtains made of cloth collected as tax-in-kind 〈length seven *shaku/*, three *no/*;〉 one plain wood chest; one mortar 〈also attach a pestle;〉 720 *kin/* of firewood.
+							<lb/>As for the aforesaid, request all items from sesame to salt every year in the twelfth month from the Ministry of Royal Household. However, as for the curtains, the plain wood chest and the mortar, only request a new one in case of damage [to the ones currently in use].</p>
+					</div>
+					<div ana="典薬"
+						corresp="engishiki.xml#article371014 engishiki_ja.xml#article371014"
+						n="37.14" subtype="項" type="条" xml:id="article371014">
+						<head ana="造供御白粉料"/>
+						<note type="summary">On the materials for the production of *hafuni/* (white
+							[face] powder) for the *tennō/*</note>
+						<p ana="項"
+							corresp="engishiki.xml#item37101401 engishiki_ja.xml#item37101401"
+							xml:id="item37101401">On the materials for the production of *hafuni/* (white [face] powder) for the *tennō/*
+							<lb/>One *koku/* and five *to/* of glutinous rice; one *koku/* of foxtail millet 〈request them from the Office of the Court Ladies;〉 two *jō/* of silk floss as fabric for sixteen pouches made from lined silk cloths 〈for the *tennō/* and for his consort;〉 two *jō/* of silk floss to be used as fabric for four pieces of <seg>curtains to desiccate the white [face] powder</seg>; four silk sieves 〈five *shaku/* each;〉 two *tan/* of cloth collected as tax-in-kind 〈to be used for the four curtains. Two *jō/* each;〉 three *ryō/* of silk thread to sew; forty sheets of wrapping paper; four plain wood chests; four large containers for water 〈capacity of above five *to/*;〉 three ladles; two bamboo mats; two long straw mats 〈as seats for the women's physicians;〉 four containers; four sake barrels; two stands to carry loads 〈as for the three items above, only request a replacement in case of damage [to the ones currently in use].〉 The fourteen women's physicians that will assist [in the operations above] will receive one *shō/* of steamed rice, one *shaku/* of salt, one *gō/* of <seg>*hishio/* with lees</seg> and three *gō/* of sake per day per person. Supply the aforesaid for no longer than thirty days.</p>
+					</div>
+					<div ana="典薬"
+						corresp="engishiki.xml#article371015 engishiki_ja.xml#article371015"
+						n="37.15" subtype="項" type="条" xml:id="article371015">
+						<head ana="行幸"/>
+						<note type="summary">[On royal processions]</note>
+						<p ana="項"
+							corresp="engishiki.xml#item37101501 engishiki_ja.xml#item37101501"
+							xml:id="item37101501">On the occasion of royal processions, one high-ranking official and one royal physician [from the Bureau of Medications] will, at the head of four apprentices of medications, carry the medications [for the *tennō/*] and accompany him. If the royal procession includes an overnight stop, they will, at the head of apprentices of *i/*[*jutsu/*], have them carry one *tan/* of crude medicinal herbs, various texts of prescriptions and materials [necessary for the compounding of medications]. 〈As for the types of medications and materials, they will be decided depending on the circumstances. 〉 As for the carriers, request them to the Ministry of the Royal Household. In addition, for the attires and the provisions for the <seg>provincial corvée laborers</seg> and the carriers, likewise submit a request to the Ministry of the Royal Household.</p>
+					</div>
+					<div ana="典薬"
+						corresp="engishiki.xml#article371016 engishiki_ja.xml#article371016"
+						n="37.16" subtype="項" type="条" xml:id="article371016">
+						<head ana="大嘗会陪従"/>
+						<note type="summary">[On the escort for the Daijōe]</note>
+						<p ana="項"
+							corresp="engishiki.xml#item37101601 engishiki_ja.xml#item37101601"
+							xml:id="item37101601">Those who will escort the *tennō/* on the occasion of the procession to perform his ablutions for the <seg>Daijō-e</seg> as part of the enthronement rituals, namely one assigned official from the Bureau of Medications and one royal physician, will be provided with an attire of a color appropriate to their rank 〈for those of the fifth and sixth rank, follow their respective colors.〉 The two apprentices of medications will each be given a crimson unlined kimono woven with fine thread, white *hakama/* trousers and a non-silk sash; the two provincial corvée laborers will each be given a yellow unlined kimono made of cloth collected as tax-in-kind, white *hakama/* trousers and a non-silk sash; the two provincial corvée helpers will be given two indigo non-silk unlined kimono, two pairs of white hemp *hakama/* trousers and two hemp sashes. As for all the above, request them to the Ministry of the Royal Household and collect them from the Ministry of Great Storehouse.</p>
+					</div>
+					<div ana="典薬"
+						corresp="engishiki.xml#article371017 engishiki_ja.xml#article371017"
+						n="37.17" subtype="項" type="条" xml:id="article371017">
+						<head ana="斎内親王"/>
+						<note type="summary">[On the royal princess serving at the Ise
+							Shrine]</note>
+						<p ana="項"
+							corresp="engishiki.xml#item37101701 engishiki_ja.xml#item37101701"
+							xml:id="item37101701">On the occasion of the <seg>departure of the royal princess designated to serve at the Grand Shrine [of Ise], hand over twelve doses of medications to the person in charge of escorting her off</seg> 〈seven-*qi/* pellets, *goshuyu/* pellets, *shakuyaku/* pellets, four-flavor *richū/* pellets, *kankyō/* pellets, <seg>Liaodong pellets</seg>, two doses each.〉 On the types of medicinal herbs to use, consult books of prescriptions. As for other necessary items: six *shaku/* and five *sun/* of oiled cloth to wrap the medications; eighteen sheets of paper; five *ryō/* of mulberry bark strings; four *shaku/* of silk as fabric for two sieves; two *shaku/* of silk gauze as fabric for one loose sieve; two *shō/* of rice vinegar; one small *oribitsu/* container to store the medications; twelve men to crush [the medicinal herbs] 〈each man will pound one dose per day;〉 two *to/* and four *shō/* of rice 〈two *shō/* per person per day;〉 two *gō/* and four *shaku/* of salt 〈two *shaku/* per person per day.〉</p>
+					</div>
+					<div ana="典薬"
+						corresp="engishiki.xml#article371018 engishiki_ja.xml#article371018"
+						n="37.18" subtype="項" type="条" xml:id="article371018">
+						<head ana="斎宮寮雑薬"/>
+						<note type="summary">Fifty-three types for the Bureau of the High Priestess
+							of Ise</note>
+						<p ana="項"
+							corresp="engishiki.xml#item37101801 engishiki_ja.xml#item37101801"
+							xml:id="item37101801"><seg>On the miscellaneous medications prepared as yearly provisions for certain offices</seg>
+							<lb/>Fifty-three types for the Bureau of the High Priestess of Ise
+							<lb/>Seven *ryō/* and four *shu/* of *bōshō/*; one *ryō/*, two *bu/* and four *shu/* of *bōfū/*; two *ryō/*, three *bu/* and four *shu/* of *maō/*; nine *ryō/* and one *bu/* of *jagan/*; one *ryō/* and three *bu/* of gypsum; seven *ryō/* and three *bu/* of *kyūkyū/*; one kin, 4 *ryō/*, two *bu/* and four *shu/* of *daiō/*; ten *ryō/* of *ninjin/*;  two *ryō/* and two *bu/* of *shion/*; five *ryō/* of *saiko/*; eleven *ryō/*, two *bu/* and two *shu/* of *ōgon/*; one *ryō/* and two *shu/* of *ōren/*; two *bu/* and one *shu/* of *sōkyō/*; six *ryō/* of *shakuyaku/*; six *ryō/* and one *bu/* of *rōro/*; fifteen *ryō/* of *rengyō/*; ten *ryō/* and two *bu/* of *byakuren/*; four *ryō/* and one *bu/* of *rojo/*; nine *kin/* and fifteen *ryō/* of *bushi/*; seven *ryō/* and two *bu/* of *kankyō/*; sixty-four *kin/* and eight *ryō/* of wild boar fat; seven *kin/*, ten *ryō/* and two *bu/* of *byakujutsu/*; fourteen *kin/* and four *ryō/* of *uzu/*; two *ryō/* and two *bu/* of *hange/*; nine *kin/*, five *ryō/* and two *bu/* of *kikyō/*; seven *kin/* and fourteen *ryō/* of *saishin/*; one *kin/* and six *ryō/* of *goshuyu/*; two *ryō/* and two *bu/* of *shōbu/*; two *ryō/* and two *bu/* of *bukuryō/*; two *kin/* and two *bu/* of *shokushō/*; two *ryō/* of peach kernel; twelve *ryō/*, one *bu/* and two *shu/* of *kijitsu/*; two *ryō/* and one *bu/* of *teirekishi/*; two *ryō/*, three *bu/* and two *shu/* of bitter apricot kernel ; two *bu/* and two *shu/* of *kōboku/*; two-hundred sheets of *shishi/*; eleven *ryō/* and two *shu/* of *shōma/*; two *bu/* of *kanran/*; one *gō/* and one *shaku/* of fermented soy beans; two *shō/* and one *gō/* of *zenko/*; two *shō/* and one *gō/* of *byakushi/*; four *ryō/* and two *bu/* of *tōki/*; one *kin/* and one *bu/* of *sokuzu/*; four *ryō/* and one *bu/* of *shōriku/*; three *kin/* and five *ryō/* of *hōsō/*; four *ryō/* and one *bu/* of *ōgi/*; four *ryō/* and one *bu/* of *botan/*; four *ryō/* and one *bu/* of *chiyu/*; five *ryō/* and one *bu/* of *daigeki/*; three *ryō/* and three *bu/* of *genjin/*; three *ryō/* and one *bu/* of *hakutōkō/*; five *ryō/* and one *bu/* of azalea; one *ryō/* and one *bu/* of *bakkatsu/*.</p>
+					</div>
+					<div ana="典薬"
+						corresp="engishiki.xml#article371019 engishiki_ja.xml#article371019"
+						n="37.19" subtype="項" type="条" xml:id="article371019">
+						<head ana="内匠寮雑薬"/>
+						<note type="summary">Twenty-five types for the Bureau of Skilled
+							Artisans</note>
+						<p ana="項"
+							corresp="engishiki.xml#item37101901 engishiki_ja.xml#item37101901"
+							xml:id="item37101901">Twenty-five types for the Bureau of Skilled Artisans
+							<lb/>One *kin/* and two *ryō/* each of *saishin/* and *byakujutsu/*; fourteen *ryō/* of *kikyō/*; one *kin/* of *bushi/*; three *ryō/* each of *rojo/*, *hange/*, *byakuren/*, *shōriku/*, *hōsō/*, *saiko/*, *botan/*, *chiyu/*, *uzu/*, *daigeki/* and *genjin/*; ten *ryō/* of *shokushō/*; seven *ryō/* of *daiō/*; two *shō/* of *goshuyu/*; four *ryō/* each of *bukuryō/*, *shion/*, *tōki/* and *kyūkyū/*; six *ryō/* of *byakushi/*; two *shō/* of peach kernels; one *ryō/* of gypsum.</p>
+					</div>
+					<div ana="典薬"
+						corresp="engishiki.xml#article371020 engishiki_ja.xml#article371020"
+						n="37.20" subtype="項" type="条" xml:id="article371020">
+						<head ana="木工寮雑薬"/>
+						<note type="summary">Forty types for the Bureau of Carpentry</note>
+						<p ana="項"
+							corresp="engishiki.xml#item37102001 engishiki_ja.xml#item37102001"
+							xml:id="item37102001">Forty types for the Bureau of Carpentry
+							<lb/>Ten *kin/* of *saishin/*; twelve *kin/* of *byakujutsu/*; ten *kin/* of *kikyō/*; eighteen *kin/* of *bushi/*; six *ryō/* of *bakkatsu/*; two *kin/* and ten *ryō/* of *daiō/*; fourteen *ryō/* of *bōfū/*; one *kin/* each of *tanjin/*, <seg>*ranshitsu/*</seg>, gypsum, *seimokkō/*, *shion/* and *saiko/*; two *kin/* and eight *ryō/* of *tōki/*; two *kin/* each of *shoyo/* [*Dioscorea japonica/*/Japanese yam rhizome], *kōboku/*, *goshuyu/*, *byakushi/*, *yuhi/* [bark of *Ulmus davidiana/* <seg>var.</seg> *japonica/*/Japanese elm tree], *bukuryō/*, dried *jiō/*, bitter apricot kernels, *mokuran/* [bark of *Magnolia liliiflora/*], *byakuren/*, *shōriku/* and *tochū/* [bark of *Eucommia ulmoides/*/Eucommia stem bark]; three *kin/* each of *shokushō/*, *shōma/*, *ōgon/*, *ōren/*, peach kernels and wild kudzu root [*Pueraria montana/*]; two *ryō/* of *sanshuyu/*; four *kin/* of *sekkoku/* [*Dendrobium nobile/*]; five *kin/* each of *dokkatsu/* and *goshitsu/* [*Achyranthes japonica/*/Japanese chaff flower root]; two *kin/* and eight *ryō/* of *kyūkyū/*; eight *ryō/* of *zenko/*; ten *ryō/* each of *yakan/* [*Iris japonica/*/blackberry lily rhizome] and *shōbu/*.</p>
+					</div>
+					<div ana="典薬"
+						corresp="engishiki.xml#article371021 engishiki_ja.xml#article371021"
+						n="37.21" subtype="項" type="条" xml:id="article371021">
+						<head ana="近衛府雑薬"/>
+						<note type="summary">Forty-seven types each for the Headquarters of the
+							Outer Palace Guards of the Left and of the Right</note>
+						<p ana="項"
+							corresp="engishiki.xml#item37102101 engishiki_ja.xml#item37102101"
+							xml:id="item37102101">Forty-seven types each for the Headquarters of the Outer Palace Guards of the Left and of the Right
+							<lb/>Two *kin/* and eight *ryō/* each of *daiō/* and *shokushō/*; ten *ryō/* each of *ninjin/* and *mokubōki/* [root of *Sinomenium acutum/*]; five *ryō/* each of *hange/*, *kikyō/*, *shion/* and *sōkyō/*; three *ryō/* each of gypsum and *jagan/*; eight *ryō/* each of *saiko/*, peach kernels, *shakuyaku/*, *ōgi/*,*shinkyō/* [*Gentiana macrophylla/*/large leaf gentian root], *rengyō/*, *seimokkō/*, *rojo/*, *botan/* and *goshitsu/*; one *kin/* and eight *ryō/* each of *goshuyu/*, *bukuryō/*, *byakushi/*, *jukugai/*, *kanzui/* [root and rhizome of *Euphorbia sieboldiana/*/ Siebold's spurge]; four *ryō/* each of *shōbu/* and *teirekishi/*; one *kin/* and four *ryō/* of *kyūkyū/*; four *kin/* of *uzu/*; fourteen *ryō/* each of *ōgon/*, *ōren/*, *bōfū/*, *zenko/*, *kishi/*, *in'u/* [stalk and leaves of *Skimmia japonica/*], and *ōbaku/*; 1,400 pieces of bitter apricot kernels; one kin each of *kōboku/*, *shōma/* and *maō/*; two *kin/* and eight *ryō/* of *tōki/*; three *kin/* of *byakujutsu/*; thirteen *ryō/* of *daigeki/*; one *kin/* and four *ryō/* each of *hōsō/*, *kōji/* mold and *dokkatsu/*; one *kin/* and three *ryō/* of *saishin/*.
+							<lb/>The aforementioned are ingredients for the following medications for each Headquarters: eighty-eight doses of *byakusan/*; three doses of *bukuryō/* powder; seven doses of *suidō/* powder; two doses of *shakuyaku/* pellets; seven doses each of *taisō/* [dried *Ziziphus jujuba/*/Chinese jujube] pellets, and *ōren/* pellets; four doses of six-ingredient *kankyō/* pellets; fifteen doses of *tōki/* pellets; two doses each of ointment for ten-thousand winds and ointment for ten-thousand maladies; and three doses of ointment for a thousand-poxes and ten-thousand maladies.</p>
+					</div>
+					<div ana="典薬"
+						corresp="engishiki.xml#article371022 engishiki_ja.xml#article371022"
+						n="37.22" subtype="項" type="条" xml:id="article371022">
+						<head ana="衛門府雑薬"/>
+						<note type="summary">Thirty-four types for the Headquarters of the Gate
+							Guards of the Left and of the Right</note>
+						<p ana="項"
+							corresp="engishiki.xml#item37102201 engishiki_ja.xml#item37102201"
+							xml:id="item37102201">Thirty-four types for the Headquarters of the Gate Guards of the Left and of the Right
+							<lb/>Fifteen *ryō/* of *daiō/*, five *ryō/* and two *bu/* of *kanzō/*; seven *ryō/* of *ninjin/*; fourteen *ryō/* of *byakushi/*; five *ryō/* of *hange/*; two *kin/* two *ryō/* and two *bu/* of *uzu/*; three *ryō/* and two *bu/* each of *kikyō/* and *shion/*; one *ryō/* and two *bu/* each of gypsum, peach kernel, *mokubōki/* and *bōfū/*; one *kin/* and one *ryō/* of *goshuyu/*; six *ryō/* of *saiko/*; two *ryō/* each of *shōbu/*, *daigeki/* and *dokkatsu/*; eight *ryō/* of *bukuryō/*; ten *ryō/* and three *bu/* of *saishin/*; one *kin/* ten *ryō/* and two *bu/* of *shokushō/*; four *ryō/* each of *shakuyaku/*, *teirekishi/*, bitter apricot kernel and *kōboku/*; one *kin/* two *ryō/* and one *bu/* of *kyūkyū/*; twelve *ryō/* and two *bu/* of *byakujutsu/*; eight *ryō/* and two *bu/* of *tōki/*; four *ryō/* and three *bu/* of *ōgon/*; three *ryō/* of *maō/*; two *bu/* each of *ōren/*, *sōkyō/*, and *hōsō/*; eleven *ryō/* and two *bu/* of *zenko/*; one *kin/* and two *ryō/* of *kōji/* mold.
+							<lb/>The aforementioned are ingredients for the following medications for each Headquarters: forty-eight doses of *byakusan/*; three doses each of *bukuryō/* powder and powder for a hundred poisons; two doses each of seven-qi pellets, *shakuyaku/* pellets, *goshuyu/* pellets, and four-flavor *richū/* pellets; one dose of *onpaku/* pellets; two doses each of *shinmyō/* ointment and ointment for a thousand poxes and ten-thousand maladies.</p>
+					</div>
+					<div ana="典薬"
+						corresp="engishiki.xml#article371023 engishiki_ja.xml#article371023"
+						n="37.23" subtype="項" type="条" xml:id="article371023">
+						<head ana="兵衛府雑薬"/>
+						<note type="summary">Thirty types for the Headquarters of the Palace Guards
+							of the Left and of the Right</note>
+						<p ana="項"
+							corresp="engishiki.xml#item37102301 engishiki_ja.xml#item37102301"
+							xml:id="item37102301">Thirty types for the Headquarters of the Palace Guards of the Left and of the Right 
+							<lb/>Four *shō/* and five *gō/* of *goshuyu/*; one *ryō/* and two *bu/* each of *zenko/* and *byakushi/*; ten *ryō/* and two *bu/* of *byakujutsu/*; six *ryō/* and one *bu/* of *kyūkyū/*; five *shō/* and three *shaku/* of *shokushō/*; three *ryō/* and three *bu/* of *saishin/*; eight *ryō/* of *tōki/*; four *ryō/* each of *bushi/*, *shakuyaku/*, *ōgon/* and bitter apricot kernels; thirteen *ryō/* and two *bu/* of *maō/*; two *ryō/* each of *daigeki/*, *jagan/*, *hōsō/*, *dokkatsu/*, *teirekishi/* and *kōji/* mold; seven *ryō/* and three *bu/* of *ninjin/*; one *ryō/* of *hange/*; three *bu/* of *kikyō/*; three *bu/* each of *bukuryō/*, *shion/*, gypsum, peach kernels and *shōbu/*; eight *ryō/* and three *bu/* of *kanzō/*; two *ryō/* and two *bu/* of *kanzō/*; ten sheets of *kijitsu/*.
+							<lb/>The aforementioned are ingredients for the following medications for each Headquarters: fifty doses of *byakusan/*; one dose each of seven-*qi/* pellets, *shakuyaku/* pellets, *goshuyu/* pellets, and *kankyō/* pellets; two doses each of four-flavor *richū/* pellets and *tōki/* pellets; one dose of *shinmyō/* ointment; two doses of ointment for a thousand poxes and ten-thousand maladies.</p>
+					</div>
+					<div ana="典薬"
+						corresp="engishiki.xml#article371024 engishiki_ja.xml#article371024"
+						n="37.24" subtype="項" type="条" xml:id="article371024">
+						<head ana="馬寮雑薬"/>
+						<note type="summary">Left and Right Bureau of the Stables</note>
+						<p ana="項"
+							corresp="engishiki.xml#item37102401 engishiki_ja.xml#item37102401"
+							xml:id="item37102401"> Left and Right Bureau of the Stables
+							<lb/>Six *shō/* and four *gō/* of sulphur to each [the Left and Right Bureau of the Stables] to be used as medication for horses 〈one *shō/* and six *gō/* per season.〉</p>
+					</div>
+					<div ana="典薬"
+						corresp="engishiki.xml#article371025 engishiki_ja.xml#article371025"
+						n="37.25" subtype="項" type="条" xml:id="article371025">
+						<head ana="兵庫寮雑薬"/>
+						<note type="summary">Four types for the Bureau of the Armory</note>
+						<p ana="項"
+							corresp="engishiki.xml#item37102501 engishiki_ja.xml#item37102501"
+							xml:id="item37102501">Four types for the Bureau of the Armory
+							<lb/>One dose each of *shinmyō/* ointment, ointment for ten thousand maladies, and *bukuryō/* powder; half dose of powder for a hundred poisons. The ingredients for the aforementioned medications are: two *ryō/* and two *bu/* each of *keishin/* and *kankyō/*; twenty *kin/* of boar fat; nine *shō/* and one *gō/* of vinegar.
+							<lb/>[As for the items needed to compound the medications,] submit a petition to the Ministry [of the Royal Household] and collect: two *shaku/* of silk as material for a sieve; four *shaku/* of cloth collected as tax-in-kind as material to extract or squeeze; four sheets of paper as material to wrap the medications; one *ryō/* of mulberry bark strings; two Sue ware jars; five *to/* of new charcoal.</p>
+					</div>
+					<div ana="典薬"
+						corresp="engishiki.xml#article371026 engishiki_ja.xml#article371026"
+						n="37.26" subtype="項" type="条" xml:id="article371026">
+						<head ana="唐使雑薬"/>
+						<note type="summary">Eleven types for the envoys sent to Tang [China]</note>
+						<p ana="項"
+							corresp="engishiki.xml#item37102601 engishiki_ja.xml#item37102601"
+							xml:id="item37102601"><seg>Medications for the envoys sent to foreign countries</seg>
+							<lb/>Eleven types for the envoys sent to Tang [China]
+							<lb/>Four doses each of rhinoceros horn pellets and *daigeki/* pellets; twelve doses each of seven-*qi/* pellets, eight-flavor *richū/* pellets, powder for a hundred poisons, and *doshōsan/*; sixteen doses of *bukuryō/* powder; six doses of *shinmyō/* ointment; eight doses each of ointment for ten-thousand maladies and *shōma/* ointment; four doses of <seg>*kōryō/*</seg> ointment. 
+							<lb/>As for the types of herbal ingredients to be used [to compound these medications], follow the instructions found in books of prescriptions. Necessary miscellaneous items are: one *jō/* and two *shaku/* of silk as material for six sieves; one *jō/*, three *shaku/*, six *sun/* and five *bu/* of oiled rough silk as wrapping; ninety-eight sheets of paper; two *kin/* and fourteen *ryō/* of mulberry bark strings; seven *to/* and seven *shō/* of vinegar; one *tan/* and four *shaku/* of cloth collected as tax-in-kind; two *jō/* of non-silken cloth to wipe the mortar; twenty-three Sue ware jars; seven *to/* and nine *shō/* of new charcoal.</p>
+					</div>
+					<div ana="典薬"
+						corresp="engishiki.xml#article371027 engishiki_ja.xml#article371027"
+						n="37.27" subtype="項" type="条" xml:id="article371027">
+						<head ana="唐使草薬"/>
+						<note type="summary">Fifty-nine types of crude herbs [for the envoys sent to
+							Tang China]</note>
+						<p ana="項"
+							corresp="engishiki.xml#item37102701 engishiki_ja.xml#item37102701"
+							xml:id="item37102701">Fifty-nine types of crude herbs [for the envoys sent to Tang China]
+							<lb/>Eight *kin/* each of *shakuyaku/*, *byakujutsu/*, *chiyu/*, and *kikyō/*; six *kin/* each of *dokkatsu/*, *zenko/*, *shōma/*, *yakan/*, *karō/* [dried fruit of *Trichosanthes kirilowii/*/Chinese snake gourd], *goshitsu/*, *bukuryō/*, *saiko/*, *uzu/*, *bushi/*, <seg>*ten'yū/*</seg>, *shōriku/*, *shokushō/*, *ōgi/*, pine resin, and *sekinansō/* [*Rhododendron/* leaves]; four *kin/* each of *daigeki/*, *bōki/*, *ōbaku/*, *shion/*, *kujin/*, and *shōbu/*; two *kin/* each of *sekii/* [*Pyrrosia lingua/*/pyrrosia dried leaves], *takusha/* [*Alisma orientale/*/water plantain rhizome and tuber], *genjin/*, *kōhon/* [*Ligusticum sinense/*/Chinese lovage rhizome], *jukugai/*, *rōro/*, *rojo/*, *kanzui/*, *jagan/*, *reiro/* [root and rhizome of *Veratrum maackii/* var. *reymondianum/*], dried *jiō/*, *kijitsu/*, <seg>root bark of mulberry</seg> [*Morus alba/*], and *tanjin/*; four *kin/* each of bitter apricot kernels, *gomishi/* [*Schisandra chinensis/* fruit/five-flavor fruit], *toshishi/* [seed of *Cuscuta japonica/*/Japanese dodder], *teirekishi/*, *jashōshi/* [fruit of *Torilis japonica/*/upright hedge-parsley], *hange/*, *hoō/* [cattail pollen], *bakumontō/* and <seg>*bokuna/*</seg>;  one *to/* and six *shō/* of sesame paste; one *koku/* and two *to/* of peach kernels; eight *kin/* each of *ōgon/* and *maō/*; six *kin/* each of *ōren/*, *in'u/*, *goshuyu/*, *bōfū/*, and *tachibana/* orange dried peel; four *kin/* of *byakuren/*.
+							<lb/>Four continental-style chests to store the miscellaneous medications 〈keep it locked;〉 eight straw mats to wrap the chest; four kin of *tsuzura/*; four *ryō/* of hemp rope; and four carrying poles.</p>
+					</div>
+					<div ana="典薬"
+						corresp="engishiki.xml#article371028 engishiki_ja.xml#article371028"
+						n="37.28" subtype="項" type="条" xml:id="article371028">
+						<head ana="渤海使雑薬"/>
+						<note type="summary">Seventeen types for the envoys sent to Balhae</note>
+						<p ana="項"
+							corresp="engishiki.xml#item37102801 engishiki_ja.xml#item37102801"
+							xml:id="item37102801">Seventeen types for the envoys sent to Balhae
+							<lb/>Half dose of <seg>white madam</seg>'s pellets; three *ryō/* of five-aromatics pellets; one dose each of *renchū/* pellets, *goshuyu/* pellets, *kankyō/* pellets, rhinoceros horn pellets and four-flavor *richū/* pellets; two doses each of seven-*qi/* pellets and eight-flavor *richū/* pellets; half dose of *daigeki/* pellets; two doses each of *doshōsan/* and powder for a hundred poisons; three doses of *bukuryō/* powder; one dose each of *kōryō/* ointment and *shōma/* ointment; two doses of *shinmyō/* ointment; three doses of ointment for ten-thousand maladies.
+							<lb/>As for the types of herbal ingredients to be used [to compound these medications], follow the instructions found in books of prescriptions. Necessary miscellaneous items are: six *shaku/* of silk as material for six sieves; one *shaku/* and five *sun/* of silk gauze as fabric for a loose sieve; six *shaku/* and five *sun/* of oiled rough silk as wrapping; twenty-three sheets of paper; eight *ryō/* of mulberry bark strings; five *ryō/* of silk as material to extract or squeeze; six *shaku/* and five sun of cloth collected as tax-in-kind; two *to/* and five *shō/* of vinegar; two *koku/* and five *to/* of new charcoal; five Sue ware jars; four Sue ware bowls; two *tataibe/* pots.</p>
+					</div>
+					<div ana="典薬"
+						corresp="engishiki.xml#article371029 engishiki_ja.xml#article371029"
+						n="37.29" subtype="項" type="条" xml:id="article371029">
+						<head ana="渤海使草薬"/>
+						<note type="summary">Eighty types of crude herbs [for the envoys sent to
+							Balhae]</note>
+						<p ana="項"
+							corresp="engishiki.xml#item37102901 engishiki_ja.xml#item37102901"
+							xml:id="item37102901">Eighty types of crude herbs [for the envoys sent to Balhae]
+							<lb/>Five large *kin/* of sesame paste; one *to/* and four *shō/* of peach kernels; two *kin/* each of *ōgon/*, *seidei/* [*Adenophora triphylla/* var. *japonica/*/ ladybell root], *ōren/*, *byakujutsu/*, *sekkoku/*, indigo laquer, *saishin/*, *kikyō/*, *dokkatsu/*, *tōki/*, *yakan/*, *goshitsu/*, *bukuryō/*, *byakushi/*, *shōma/*, *tachibana/* orange dried peel, *bushi/*, *uzu/*, *ten'yū/*, *ōgi/*, pine resin, *sekinansō/*, *bōki/*, *ōbaku/*, *byakuren/*, *shion/*, *bakumontō/*, *kujin/*, <seg>*kikyū/*</seg>, *kyūkyū/*, dried *jiō/*, *kijitsu/*, and kudzu root; one *kin/* each of *shakuyaku/*, *chiyu/*, *zenko/*, *hakutōkō/*, *karō/*, *bōfū/*, *saiko/*, *hōsō/*, *shōriku/*, *daigeki/*, *in'u/*, *shōbu/*, *kōhon/*, *kanzui/*, *sekii/*, *takusha/*, *genjin/*, *rōro/*, *rojo/*, *jagan/*, *reiro/*, root bark of mulberry, *sōkyō/*, *tanjin/*, *hoō/*, *hange/*, and *ryūtan/*; one *kin/* each of dragon bones, sulphur and gypsum; four *kin/* of *shokushō/*; five *shō/* of *goshuyu/*; two *shō/* each of bitter apricot kernels, *gomishi/*, *toshishi/*, *teirekishi/*, and *jashōshi/*; five *shō/* each of *ubai/*, *taisō/*, and *kōji/* mold; four *shō/* of *katei/* [calix of *Cucumis melo/*/melon]; ten pieces of <seg>antelope</seg> horns; two *kin/* of *jukugai/*; one kin each of *bokuna/* and *josei/* [*Paederia foetida/*/skunkvine aerial part and root].
+							<lb/>Two continental-style chests to store the miscellaneous medications 〈keep it locked;〉 four straw mats to wrap the chest; two *kin/* of *tsuzura/*; eight *ryō/* of hemp rope; two carrying poles; two *dan/* of <seg>cloth collected in lieu of corvée</seg> to wrap the medication; two boxes 〈each side one *shaku/* and five *sun/*;〉 eight sheets of paper; three *ryō/* of mulberry bark strings.</p>
+					</div>
+					<div ana="典薬"
+						corresp="engishiki.xml#article371030 engishiki_ja.xml#article371030"
+						n="37.30" subtype="項" type="条" xml:id="article371030">
+						<head ana="新羅使雑薬"/>
+						<note type="summary">Six types for the envoys sent to Silla</note>
+						<p ana="項"
+							corresp="engishiki.xml#item37103001 engishiki_ja.xml#item37103001"
+							xml:id="item37103001">Six types for the envoys sent to Silla
+							<lb/>One dose each of eight-flavor *richū/* pellets and seven-*qi/* pellets; two doses of powder for a hundred poisons; four doses of *bukuryō/* powder; two doses each of *shinmyō/* ointment and ointment for ten-thousand maladies. 
+							<lb/>As for the types of herbal ingredients to be used [to compound these medications], follow the instructions found in books of prescriptions. Necessary miscellaneous items are: three *shaku/* of silk as material for two sieves; two *shaku/* and five *sun/* of oiled rough silk as wrapping; twelve sheets of paper; three *ryō/* of mulberry bark strings; five *shaku/* of cloth collected as tax-in-kind as material to extract or squeeze; one *to/* and six *shō/* of vinegar; four Sue ware jars to collect the ointments; one *koku/* and five *to/* of new charcoal; two *tataibe/* jars.</p>
+					</div>
+					<div ana="典薬"
+						corresp="engishiki.xml#article371031 engishiki_ja.xml#article371031"
+						n="37.31" subtype="項" type="条" xml:id="article371031">
+						<head ana="新羅使草薬"/>
+						<note type="summary">Twenty-four types of crude herbs [for the envoys sent
+							to Silla]</note>
+						<p ana="項"
+							corresp="engishiki.xml#item37103101 engishiki_ja.xml#item37103101"
+							xml:id="item37103101">Twenty-four types of crude herbs [for the envoys sent to Silla]
+							<lb/>Five *shō/* each of *hange/*, *goshuyu/*, *bokuna/* and *goshimi/*; five *kin/* each of *shōma/*, *yakan/*, *byakujutsu/*, *tōki/*, *kōboku/*, sulphur, *bukuryō/*, *ōgon/*, and *kōji/* mold; four *kin/* of *tachibana/* orange dried peel; one *to/* each of *ōren/*, peach kernels, and bitter apricot kernels; three *kin/* each of *seidei/*, *saishin/* and *chiyu/*; seven *shō/* of *bakumontō/*; one *kin/* of *shōbu/*; one *to/* of *shokushō/*; two *kin/* of *rojo/*.
+							<lb/>Two continental-style chests to store the miscellaneous medications; four straw mats to wrap the chest; two *kin/* of *tsuzura/*; two *ryō/* of hemp rope; two carrying poles.</p>
+						<p ana="項"
+							corresp="engishiki.xml#item37103102 engishiki_ja.xml#item37103102"
+							xml:id="item37103102">[Also prepare] two tall lacquered tables for the *byakusan/* to be given to foreign guests; two white boxes; two covers decorated with <seg>*kyōkechi/*</seg>; four sashes; two cloth covers 〈as for these items, after the third day, return all those that were borrowed;〉 and four yellow <seg>*hō/*</seg> 〈they will be worn by the apprentices of *i/*[*jutsu/*] who carry the tables.〉</p>
+					</div>
+					<div ana="典薬"
+						corresp="engishiki.xml#article371032 engishiki_ja.xml#article371032"
+						n="37.32" subtype="項" type="条" xml:id="article371032">
+						<head ana="読医経"/>
+						<note type="summary">[On the study of books of prescriptions]</note>
+						<p ana="項"
+							corresp="engishiki.xml#item37103201 engishiki_ja.xml#item37103201"
+							xml:id="item37103201">In learning books of prescriptions, the following time limits will apply: 460 days for the <seg>*Classic of the Grand Basis/*</seg>; 310 days for <seg>*Newly compiled materia medica/*</seg>; 310 days for <seg>*Small Essays/*</seg>; 200 days for <seg>*Hall of Light/*</seg>; sixty days for the <seg>*Classic of the eighty-one difficult issues/*</seg>. As for the instructors [of the Bureau of Medications], reserve them the same treatment as those in the Bureau of Great Learning, and supply them with food and *sake/*, combustible oil and monetary rewards.</p>
+					</div>
+					<div ana="典薬"
+						corresp="engishiki.xml#article371033 engishiki_ja.xml#article371033"
+						n="37.33" subtype="項" type="条" xml:id="article371033">
+						<head ana="大素経"/>
+						<note type="summary">[On the classification of the books of
+							prescriptions]</note>
+						<p ana="項"
+							corresp="engishiki.xml#item37103301 engishiki_ja.xml#item37103301"
+							xml:id="item37103301">Classify the *Canon of Yellow Emperor: Grand Basis/* as a large book; the *Newly compiled materia medica/* as a medium book; the *Small Essays/*, the *Hall of Light/*, and the *Classic of the eighty-one difficult issues/* as <seg>short books</seg>.</p>
+					</div>
+					<div ana="典薬"
+						corresp="engishiki.xml#article371034 engishiki_ja.xml#article371034"
+						n="37.34" subtype="項" type="条" xml:id="article371034">
+						<head ana="講書座料"/>
+						<note type="summary">[On the seats to be used during lectures]</note>
+						<p ana="項"
+							corresp="engishiki.xml#item37103401 engishiki_ja.xml#item37103401"
+							xml:id="item37103401">As materials to be used to make seats for the lectures [on the books of prescriptions], two cushions made out of woven wild-rice leaf mats 〈for the instructor of *i/*[*jutsu/*] and the instructor of needles;〉 three long straw mats 〈for the apprentices.〉 Request and receive them every three years from the Ministry of the Royal Household.</p>
+					</div>
+					<div ana="典薬"
+						corresp="engishiki.xml#article371035 engishiki_ja.xml#article371035"
+						n="37.35" subtype="項" type="条" xml:id="article371035">
+						<head ana="得業生"/>
+						<note type="summary">[On the treatment of exceptionally accomplished
+							apprentices]</note>
+						<p ana="項"
+							corresp="engishiki.xml#item37103501 engishiki_ja.xml#item37103501"
+							xml:id="item37103501">Provide the four exceptionally accomplished apprentices [in the Bureau] with food and clothing in the same amount as that of the exceptionally accomplished apprentices in the Bureau of Great Learning.</p>
+					</div>
+					<div ana="典薬"
+						corresp="engishiki.xml#article371036 engishiki_ja.xml#article371036"
+						n="37.36" subtype="項" type="条" xml:id="article371036">
+						<head ana="医師公廨"/>
+						<note type="summary">[On the salary of provincial physicians]</note>
+						<p ana="項"
+							corresp="engishiki.xml#item37103601 engishiki_ja.xml#item37103601"
+							xml:id="item37103601">With respect to the salary of provincial physicians, every year deduct one tenth of that amount per person and exchange that amount with products from that province that can easily be transported. Have them carried to the capital by the envoys in charge of carrying tributes presented as tax-in-kind. In case of nonpayment, inform the Bureau of Accounting and prevent the issue of a receipt to the envoys. However, this provision will not apply in case of concurrent appointment as royal physician or instructor of *i/*[*jutsu/*] and needles [and provincial physician], and in case of provincial physicians hired without going through the established procedures.</p>
+					</div>
+					<div ana="典薬"
+						corresp="engishiki.xml#article371037 engishiki_ja.xml#article371037"
+						n="37.37" subtype="項" type="条" xml:id="article371037">
+						<head ana="授業師料物"/>
+						<note type="summary">[On the payment of teachers by the provinces]</note>
+						<p ana="項"
+							corresp="engishiki.xml#item37103701 engishiki_ja.xml#item37103701"
+							xml:id="item37103701">With respect to the products that provinces will send as payment for the teachers, inspect them and store them in the warehouse of the Bureau. The products paid on behalf of those who were apprentices of *i/*[*jutsu/*] and needles will be assigned to their respective instructors [*hakase/*], and the products paid on behalf of those who were apprentices of medications will be assigned to the royal physicians.</p>
+					</div>
+					<div ana="典薬"
+						corresp="engishiki.xml#article371038 engishiki_ja.xml#article371038"
+						n="37.38" subtype="項" type="条" xml:id="article371038">
+						<head ana="五位以上草薬"/>
+						<note type="summary">[On the medicinal herbs for those of the fifth rank or
+							above]</note>
+						<p ana="項"
+							corresp="engishiki.xml#item37103801 engishiki_ja.xml#item37103801"
+							xml:id="item37103801">If anyone of the fifth rank or above should need medicinal herbs, they will go to the Bureau to collect them.</p>
+					</div>
+					<div ana="典薬"
+						corresp="engishiki.xml#article371039 engishiki_ja.xml#article371039"
+						n="37.39" subtype="項" type="条" xml:id="article371039">
+						<head ana="年料雑物"/>
+						<note type="summary">On the miscellaneous items per annum</note>
+						<p ana="項"
+							corresp="engishiki.xml#item37103901 engishiki_ja.xml#item37103901"
+							xml:id="item37103901">On the miscellaneous items per annum
+							<lb/>200 sheets of paper; one iron mortar; one pot; one plain crate; four knives 〈each seven *sun/* in length;〉 twenty-two hoes 〈twenty for the physic garden, two for the Bureau's building;〉 one grindstone; and four each of *motai/* jars, *tataibe/* pots and bowls.
+							<lb/>As for the aforesaid, handle them according to the regulations laid out in the previous articles. Allocate the hoes and the grindstone once every three years 〈return the old hoes.〉 As for the mortar, the pot and the crate, request a new one in case of damage and exchange them.</p>
+					</div>
+					<div ana="典薬"
+						corresp="engishiki.xml#article371040 engishiki_ja.xml#article371040"
+						n="37.40" subtype="項" type="条" xml:id="article371040">
+						<head ana="寮家儲物"/>
+						<note type="summary">On the equipment in the bureau's building</note>
+						<p ana="項"
+							corresp="engishiki.xml#item37104001 engishiki_ja.xml#item37104001"
+							xml:id="item37104001">On the equipment in the bureau's building
+							<lb/>One scale; a one-*to/* measuring container for medications; a one-*shō/* measuring container for medications; ten iron mortars; ten iron pestles; five iron measuring spoons; six chopping knives for medicinal herbs; one lacquered long stand used for carrying loads; one curtain of acorn-colored plain coarse silk to be used against dust in the physicians' pavilion [in the royal palace] 〈length three *jō/*, ten *no/*;〉 one curtain of acorn-colored plain coarse silk to be used on the occasion of royal processions; one indigo hemp curtain. In case of damage to any of the aforesaid, submit a request to the Ministry of the Royal Household and exchange them.</p>
+					</div>
+					<div ana="典薬"
+						corresp="engishiki.xml#article371041 engishiki_ja.xml#article371041"
+						n="37.41" subtype="項" type="条" xml:id="article371041">
+						<head ana="味原牧"/>
+						<note type="summary">[On the pasture of Ajihara]</note>
+						<p ana="項"
+							corresp="engishiki.xml#item37104101 engishiki_ja.xml#item37104101"
+							xml:id="item37104101">The pasture of Ajihara is assigned to the Bureau as a pasture for its dairy cows. If bulls are born, they will be employed for plowing the physic garden, or for breeding.</p>
+					</div>
+					<div ana="典薬"
+						corresp="engishiki.xml#article371042 engishiki_ja.xml#article371042"
+						n="37.42" subtype="項" type="条" xml:id="article371042">
+						<head ana="味原死牛"/>
+						<note type="summary">[On the skin of cows that perished in the pasture of
+							Ajihara]</note>
+						<p ana="項"
+							corresp="engishiki.xml#item37104201 engishiki_ja.xml#item37104201"
+							xml:id="item37104201">With respect to the skins of the cows perished in the pasture of Ajihara, sell them and allocate the proceeds to repairs of the facilities of the Bureau of Medications. However, include the profit from that sale in the end-of-year ledger and submit it to the Council of State.</p>
+					</div>
+					<div ana="典薬"
+						corresp="engishiki.xml#article371043 engishiki_ja.xml#article371043"
+						n="37.43" subtype="項" type="条" xml:id="article371043">
+						<head ana="地黄地"/>
+						<note type="summary">[On the land for *jiō/*]</note>
+						<p ana="項"
+							corresp="engishiki.xml#item37104301 engishiki_ja.xml#item37104301"
+							xml:id="item37104301">Two *chō/* of land located in Mizutani no shimori, on the thirteenth street of the district of Kadono in Yamashiro Province 〈its borders are marked by Mineyama to the east, the entrance of the valley of Horigoshiyama to the south, Mine to the west, Karakawai to the north〉 are perpetually designated as land for the cultivation of *jiō/* to be presented to the *tennō/*.</p>
+					</div>
+					<div ana="典薬"
+						corresp="engishiki.xml#article371044 engishiki_ja.xml#article371044"
+						n="37.44" subtype="項" type="条" xml:id="article371044">
+						<head ana="勧学田"/>
+						<note type="summary">[On the <seg>rice paddies for the encouragement of learning</seg>]</note>
+						<p ana="項"
+							corresp="engishiki.xml#item37104401 engishiki_ja.xml#item37104401"
+							xml:id="item37104401">Rice paddies for the encouragement of learning, eighteen *chō/*
+							<lb/>Thirteen *chō/* 〈nine *chō/* in Yamato Province, four *chō/* in Ōmi Province.〉
+							<lb/>With respect to the above, add the land rent to the monthly allowance paid to the Bureau, and allocate it to the provisions for apprentices of *i/*[*jutsu/*] and needles.
+							<lb/>Five *chō/* 〈in Yamato Province.〉
+							<lb/>With respect to the above, allocate the land rent to the provisions for apprentices of medications.</p>
+					</div>
+					<div ana="典薬"
+						corresp="engishiki.xml#article371045 engishiki_ja.xml#article371045"
+						n="37.45" subtype="項" type="条" xml:id="article371045">
+						<head ana="山城年料雑薬"/>
+						<note type="summary">Yamashiro Province: thirty-two types</note>
+						<p ana="項"
+							corresp="engishiki.xml#item37104501 engishiki_ja.xml#item37104501"
+							xml:id="item37104501"><seg>Yearly provisions of medicinal herbs that the provinces supply [to the Bureau]</seg>
+							<lb/><seg>Kinai</seg>
+							<lb/>Yamashiro Province: thirty-two types
+							<lb/>Twelve kin of *ōfurugyō/* [*Gypsophila vaccaria/*/China cockle seed]; ten *kin/* of *dokkatsu/*; twenty-five *kin/* of *byakujutsu/*; ten *kin/* each of *chiyu/* and *ōgi/*; twenty-five *kin/* each of *goshitsu/* and *kujin/*; thirty *kin/* of *kikyō/*; fifteen *kin/* each of *kōju/* [*Elsholtzia ciliata/*/aromatic madder aerial part] and *yakan/*; three *kin/* of *shōbu/*; nine *kin/* each of *kijitsu/*, *rōro/*, and *kōhon/*; six *kin/* each of *seidei/*, *hōsō/*, and *shōbaku/* [*Berberis thunbergii/*/Japanese barberry bark]; five *kin/* each of *ryūtan/* and *tsūsō/* [*Akebia quinata/*/chocolate vine]; three *kin/* of *shion/*; eight *ryō/* of *shōriku/*; four *ryō/* of *shakuyaku/*; eighteen *kin/* of *kōboku/*; two *kin/* and two *ryō/* of *byakuren/*; thirty-two *kin/* of kudzu root; three *kin/* of *sobisō/*[*Lythrum salicaria/*]; nine *shō/* of peach kernels; one *to/* and eight *shō/* of bitter apricot kernels; four *to/* and six *shō/* of red beans; one *to/* and two *shō/* of *shokushō/*; one tortoise shell; one large *to/* of <seg>*hakuzoku/*</seg>.</p>
+					</div>
+					<div ana="典薬"
+						corresp="engishiki.xml#article371046 engishiki_ja.xml#article371046"
+						n="37.46" subtype="項" type="条" xml:id="article371046">
+						<head ana="大和年料雑薬"/>
+						<note type="summary">Yamato Province: thirty-seven types</note>
+						<p ana="項"
+							corresp="engishiki.xml#item37104601 engishiki_ja.xml#item37104601"
+							xml:id="item37104601">Yamato Province: thirty-seven types
+							<lb/>Twelve *kin/* of *zenko/*; two *kin/* of *ōfurugyō/*; eight *kin/* each of *kōhon/* and *shōma/*; twenty-five *kin/* of *dokkatsu/*; six *kin/* of *shion/*; twenty *kin/* of <seg>*taisei/* [*Isatis tinctoria/*]</seg>; seven *kin/* each of *hōsō/* and *goshitsu/*; twenty-one *kin/* of *kikyō/*; eleven *kin/* of *ōbaku/*; fifteen *kin/* each of *kōju/* and *takuran/* [*Eupatorium lindleyanum/* stem and leaves]; thirty *kin/* of *byakujutsu/*; ten *kin/* each of *kijitsu/*, *tsūsō/*, and *daigeki/*; forty *kin/* of *bakkatsu/*; nine *kin/* of *kōboku/*; three *kin/* of *ryūtan/*; five *kin/* each of *seidei/* and root bark of mulberry; four *kin/* each of *takusha/* and *tōki/*; fifteen *ryō/* of *yokuinin/* [kernel of *Coix lacryma-jobi var. ma-yuen/*/Job's tears]; eighteen *kin/* of *byakushi/*; ten *kin/* of *tachibana/*  orange dried peel; sixteen *kin/* of *chiyu/*; one *kin/* of *in'u/*; one *to/* and six *shō/* of *hishi/* [seeds of *Torreya nucifera/*/Japanese torreya seed]; seven *to/* of *shoyo/*; two *to/* each of peach kernels and *shokushō/*; two *to/* and eight *shō/* of *shazenshi/* [seeds of *Plantago asiatica/*/Asian plantain]; six *shō/* of *jūishi/* [dried fruit of *Leonurus japonicus/*/Asian motherwort dried fruit]; three *shō/* of *kisen/* [*Euonymus alatus/*/burningbush winged stems]; three *shō/* of *goshuyu/*; twenty-three *kin/* of white-flower *mokka/* [*Chaenomeles speciosa/*/flowering quince] fruit.</p>
+					</div>
+					<div ana="典薬"
+						corresp="engishiki.xml#article371047 engishiki_ja.xml#article371047"
+						n="37.47" subtype="項" type="条" xml:id="article371047">
+						<head ana="摂津年料雑薬"/>
+						<note type="summary">Settsu Province: forty-four types</note>
+						<p ana="項"
+							corresp="engishiki.xml#item37104701 engishiki_ja.xml#item37104701"
+							xml:id="item37104701">Settsu Province: forty-four types
+							<lb/>Five *kin/* each of *dokkatsu/* and *rōro/*; four *kin/* each of *chimo/* [*Anemarrhena asphodeloides/* rhizome], pine resin, and bark of mulberry; six *kin/* of *tachibana/*  orange dried peel; four *kin/* each of *shōbikon/* [root of *Rosa multiflora/*/rose] and cuttlebone of *Sepia esculenta/*; twenty-three *kin/* and six *ryō/* of *kikyō/*; seven *kin/* of *kōju/*; twenty-three *kin/* of *byakujutsu/*; three *kin/* each of *kijitsu/*, *ōbaku/*, *genjin/*, *bukuryō/*, and *shōma/*; four *kin/* of *kujin/*; ten *kin/* of *kōboku/*; three *kin/* and twelve *ryō/* of *tochū/*; two *kin/* each of <seg>*shōra/*</seg>, *hikai/* [*Dioscorea tokoro/* rhizome], *chiyu/* and <seg>praying mantis oothecae</seg>; ten *ryō/* of peach [*Prunus persica/*] flowers; five *kin/* of *yakan/*; one *kin/* of *senkon/* [*Rubia argyi/* root]; seven *ryō/* of beehive; two *shō/* of *toshishi/*; six *shō/* of *shoyo/*; one *shō/* of peach kernels; three *shō/* each of *shazenshi/*, *teirekishi/*, *ryōshi/* [dried fruit of *Persicaria hydropiper/*/water pepper], and *shokushō/*; two *shō/* and five *gō/* of *jinshi/* [fruit of *Perilla frutescens var. japonica/*/perilla]; four *shō/* and five *gō/* of sesame seeds; one *to/* and nine *shō/* of bitter apricot kernels; four tortoise shells; four pairs of ossified deer antlers; five large *shō/* of *kishi/* [seeds of *Malva verticillate/*/ whorled mallow]; six *kin/* of *kuko/*.</p>
+					</div>
+					<div ana="典薬"
+						corresp="engishiki.xml#article371048 engishiki_ja.xml#article371048"
+						n="37.48" subtype="項" type="条" xml:id="article371048">
+						<head ana="河内年料雑薬"/>
+						<note type="summary">Kawachi Province: three types</note>
+						<p ana="項"
+							corresp="engishiki.xml#item37104801 engishiki_ja.xml#item37104801"
+							xml:id="item37104801">Kawachi Province: three types
+							<lb/>Ten *kin/* of *kuko/*; one *kin/* of *hoō/*; five large *to/* of black soybeans [*Glycine max/*].</p>
+					</div>
+					<div ana="典薬"
+						corresp="engishiki.xml#article371049 engishiki_ja.xml#article371049"
+						n="37.49" subtype="項" type="条" xml:id="article371049">
+						<head ana="伊賀年料雑薬"/>
+						<note type="summary">Iga Province: twenty-three types</note>
+						<p ana="項"
+							corresp="engishiki.xml#item37104901 engishiki_ja.xml#item37104901"
+							xml:id="item37104901"><seg>Tōkaidō (Eastern sea circuit)</seg>
+							<lb/>Iga Province: twenty-three types
+							<lb/>Eight *kin/* of *zenko/*; eight *kin/* each of *ōfurugyō/*, *genjin/*, and *shōma/*; twenty *kin/* each of *dokkatsu/* and *kujin/*; six *kin/* each of *rengyō/* and *kubaku/*; thirty *kin/* of *kikyō/*; ten *kin/* each of *shōbu/*, *mokkoku/* [*Dendrobium moniliforme/* stem] and *yakan/*; twenty-seven *kin/* of *taisei/*; seven *kin/* of *bukuryō/*; five *kin/* of *karō/*; eleven *kin/* of *tōki/*; one *ryō/* of snake shed skin; five *shō/* each of *shoyo/* and peach kernels; five *shō/* of *bakumontō/*; seven *shō/* of *shazenshi/*; two *to/* of *hange/*; one *shō/* of *shokushō/* seeds.</p>
+					</div>
+					<div ana="典薬"
+						corresp="engishiki.xml#article371050 engishiki_ja.xml#article371050"
+						n="37.50" subtype="項" type="条" xml:id="article371050">
+						<head ana="伊勢年料雑薬"/>
+						<note type="summary">Ise Province: fifty types</note>
+						<p ana="項"
+							corresp="engishiki.xml#item37105001 engishiki_ja.xml#item37105001"
+							xml:id="item37105001">Ise Province: fifty types
+							<lb/>One *kin/* and four *ryō/* of *zenko/*; two *kin/* and four *ryō/* of *reiro/*; six *kin/* of *ōfurugyō/*; thirty-five *kin/* of *dokkatsu/*; thirty-two *kin/* of *chimo/*; eight *kin/* of *goshitsu/*; nine *kin/* and four *ryō/* of *kikyō/*; eleven *kin/* of *kōryōkyō/* [*Alpinia officinarum/*/lesser galangal rhizome]; one *kin/* of *shōbu/*; ten *kin/* of <seg>*kōzan/* [*Clerodendrum trichotomum/*/glorytree root</seg>]; one *kin/* of *ranshitsu/*; three *kin/* and four *ryō/* of *ryūtan/*; forty-three *kin/* of *kujin/*; two *kin/* and eight *ryō/* of *ninjin/*; sixteen *kin/* and six *ryō/* of *goka/* [*Eleutherococcus sieboldianus/* root bark]; ten *kin/* of azalea; fifteen *kin/* of *tochū/*; thirty-four *kin/* of *byakushi/*; eleven *kin/* of *saishin/*; nineteen *kin/* of *karō/*; twenty *kin/* of *mokkoku/*; one *kin/* and four *ryō/* of *byakubi/*; sixteen *kin/* of pine resin; five *kin/* and four *ryō/* of *daigeki/*; fifteen *kin/* and ten *ryō/* of *chiyu/*; five *kin/* of *yuhi/*; nineteen *kin/* and eight *ryō/* of *kōboku/*; eleven *kin/* and ten *ryō/* of *bukuryō/*; one *kin/* and twelve *ryō/* of beehive; forty-nine *kin/* and two *ryō/* of *shōma/*; four *kin/* and eight *ryō/* of *tōki/*; eleven *kin/* of *ōgi/*; ten *kin/* of kudzu root; three *kin/* and twelve *ryō/* of *shinpi/* [bark of *Fraxinus japonica/*/Japanese ash]; forty-five *kin/* of *yakan/*; five *kin/* of *tachibana/*  orange dried peel; seven *kin/* and ten *ryō/* of *botan/*; one *kin/* of praying mantis oothecae; ten *ryō/* of <seg>white-corpse silkworm</seg>; ten *kin/* of *hōsō/*; seven *kin/* of *matō/* [shell of *Sole strictus/*/razor clam]; one *shō/* of *soshi/* [seeds of *Perilla frutescens var. crispa/*/shiso]; five *kin/* of *toshishi/*; two *shō/* of sesame seeds; two *to/* of *kotōshi/* [kernel of *Juglans ailantifolia/*/Japanese walnut]; six *shō/* of *hange/*; one *to/* and nine *shō/* of oyster shells; eighteen *kin/* of mercury; four *kin/* of orpiment.</p>
+					</div>
+					<div ana="典薬"
+						corresp="engishiki.xml#article371051 engishiki_ja.xml#article371051"
+						n="37.51" subtype="項" type="条" xml:id="article371051">
+						<head ana="尾張年料雑薬"/>
+						<note type="summary">Owari Province: forty-six types</note>
+						<p ana="項"
+							corresp="engishiki.xml#item37105101 engishiki_ja.xml#item37105101"
+							xml:id="item37105101">Owari Province: forty-six types
+							<lb/>Fourteen *kin/* of *ōgon/*; twenty-two *kin/* of *kyūkyū/*; thirteen *kin/* of *byakuren/*; twenty *kin/* of *zenko/*; ten *kin/* of *byakushi/*; twenty *kin/* of *kuko/*; twelve *kin/* each of *saiko/* and *genjin/*; ten *kin/* each of *ōfurugyō/*, *goshitsu/*, *chiyu/*, and *shōma/*; one *kin/* of *shōbu/*; sixteen *kin/* of *dokkatsu/*; five *kin/* each of *jagan/* and *daiō/*; sixty-six *kin/* of *kikyō/*; thirty *kin/* of *byakujutsu/*; five *kin/* of *ranshitsu/*; eight *kin/* of *ryūtan/*; eleven *kin/* of *daigeki/*; seven *kin/* each of *goka/* root bark and *bukuryō/*; six *kin/* each of *tochū/*, *kōboku/*, <seg>*bukushin/*</seg>, and <seg>*inchinkō/*</seg>; four *kin/* each of *ōgi/* and snake shed skin; twenty-four *kin/* of *yakan/*; eight *kin/* of *rengyō/*; two *ryō/* of praying mantis oothecae; six *to/* and four *shō/* of dried *jiō/*; four *to/* of *hishi/*; one *to/* each of *shoyo/* and *kaigō/* [shell of *Meretrix lusoria/* clam]; four *shō/* of *bakumontō/*; two *to/*, nine *shō/* and six *gō/* of peach kernels; one *shō/* of *jashōshi/*; five *shō/* each of *toshishi/*, and *shisoshi/* [fruits of *Perilla frutescens var. crispa/*/shiso]; one large *to/* and five *shō/* of *sanshuyu/*; two *shō/* of *teirekishi/*; five large *shō/* of *hange/*; two *to/*, five *shō/* and eight *gō/* of *shokushō/*; eighteen *kin/* of *seimokkō/*.</p>
+					</div>
+					<div ana="典薬"
+						corresp="engishiki.xml#article371052 engishiki_ja.xml#article371052"
+						n="37.52" subtype="項" type="条" xml:id="article371052">
+						<head ana="参河年料雑薬"/>
+						<note type="summary">Mikawa Province: twenty-one types</note>
+						<p ana="項"
+							corresp="engishiki.xml#item37105201 engishiki_ja.xml#item37105201"
+							xml:id="item37105201">Mikawa Province: twenty-one types
+							<lb/>Ten *kin/* of *kanzui/*; two *kin/* each of *dokkatsu/* and *seidei/*; thirty-eight *kin/* of *kikyō/*; thirty *kin/* of *byakujutsu/*; three *kin/* each of *goka/* and *kōboku/*; five *kin/* of *mokkoku/*; four *kin/* and eight *ryō/* of pine resin; one *kin/* each of *chiyu/* and *ōgi/*; six *kin/* of *bukuryō/*; three *ryō/* and three *bu/* of praying mantis oothecae; two *to/* of *shoyo/*; five *shō/* of *bakumontō/*; one *to/* of peach kernels; three *gō/* of sesame seeds; one *to/* of *shokushō/*; one *to/* and nine *gō/* of *hakushinin/* [kernel of the fruit of *Platycladus orientalis/*/Chinese thuja]; two *ryō/* of white-corpse silkworm; two large *to/* of *shishi/*.</p>
+					</div>
+					<div ana="典薬"
+						corresp="engishiki.xml#article371053 engishiki_ja.xml#article371053"
+						n="37.53" subtype="項" type="条" xml:id="article371053">
+						<head ana="遠江年料雑薬"/>
+						<note type="summary">Tōtōmi Province: thirteen types</note>
+						<p ana="項"
+							corresp="engishiki.xml#item37105301 engishiki_ja.xml#item37105301"
+							xml:id="item37105301">Tōtōmi Province: thirteen types
+							<lb/>Ten *kin/* of *ōgon/*; three *kin/* of *kyūkyū/*; twenty-three *kin/* of *kikyō/*; thirty *kin/* each of *ōbaku/* and *bukuryō/*; one *kin/*, seven *ryō/* and three *bu/* of praying mantis oothecae; three *to/* of *shoyo/*; six *shō/* and nine *gō/* of *bakumontō/*; two *to/* and four *shō/* of peach kernels; eight *kin/* of *shokushō/*; seven *shō/* of *hakushinin/*; eighty-six *kin/* of *kankyō/*; two large *to/* of *shishi/*.</p>
+					</div>
+					<div ana="典薬"
+						corresp="engishiki.xml#article371054 engishiki_ja.xml#article371054"
+						n="37.54" subtype="項" type="条" xml:id="article371054">
+						<head ana="駿河年料雑薬"/>
+						<note type="summary">Suruga Province: seventeen types</note>
+						<p ana="項"
+							corresp="engishiki.xml#item37105401 engishiki_ja.xml#item37105401"
+							xml:id="item37105401">Suruga Province: seventeen types
+							<lb/>Twenty *kin/* of *kikyō/*; ten *ryō/* of *byakujutsu/*; five *kin/* each of *mokkoku/* and *tachibana/* orange dried peel; ten *kin/* each of *bukuryō/*, *bōfū/*, *yakan/*, and bōki; five *ryō/* of praying mantis oothecae; two *to/* each of *shoyo/*, *bushi/*, and *shokushō/*; five *shō/* each of *bakumontō/* and *ketsumyōshi/* [seeds of *Senna obtusifolia/*/American sicklepod]; one *to/* of peach kernels; two *shō/* of *teirekishi/*; four pairs of <seg>antelope horns</seg>.</p>
+					</div>
+					<div ana="典薬"
+						corresp="engishiki.xml#article371055 engishiki_ja.xml#article371055"
+						n="37.55" subtype="項" type="条" xml:id="article371055">
+						<head ana="伊豆年料雑薬"/>
+						<note type="summary">Izu Province: eighteen types</note>
+						<p ana="項"
+							corresp="engishiki.xml#item37105501 engishiki_ja.xml#item37105501"
+							xml:id="item37105501">Izu Province: eighteen types
+							<lb/>Four *kin/* and six *ryō/* of *ranshitsu/*; five *kin/* each of *shōriku/* and <seg>*hakusekishi/*</seg>; seven *kin/* of *byakubi/*; fifteen *kin/* of *bōfū/*; three *kin/* of *mokkoku/*; eleven *kin/* of *sekkoku/*; five *kin/* of *katei/*; ten *kin/* each of *mokubōki/* and <seg>*sekisekishi/*</seg>; two *kin/* and one *ryō/* of *kōbanseki/* [Fibroferrite]; one *to/* each of *hishi/*, *shoyo/*, and *shokushō/*; one *to/* and one *shō/* of peach kernels; two *shō/* of *ketsumyōshi/*; one *to/* of *rōtōshi/* [seeds of *Hyoscyamus niger/*/black henbane]; four *shō/* of *bokeishi/* [fruit of *Vitex negundo/*].</p>
+					</div>
+					<div ana="典薬"
+						corresp="engishiki.xml#article371056 engishiki_ja.xml#article371056"
+						n="37.56" subtype="項" type="条" xml:id="article371056">
+						<head ana="甲斐年料雑薬"/>
+						<note type="summary">Kai Province: twelve types</note>
+						<p ana="項"
+							corresp="engishiki.xml#item37105601 engishiki_ja.xml#item37105601"
+							xml:id="item37105601">Kai Province: twelve types
+							<lb/>Ten *ryō/* of *ōkiku/*flowers; five *kin/* of *ranshitsu/*; four *kin/* of *ninjin/*; ten *kin/* of *shōma/*; ten *kin/* of *ōgi/*; two *to/* each of *hishi/* and *shoyo/*; seven *to/* and five *shō/* of bitter apricot kernels; five *shō/* of *teirekishi/*; three *to/* of *shokushō/*; ten *kin/* each of *kuko/* and *tōki/*.</p>
+					</div>
+					<div ana="典薬"
+						corresp="engishiki.xml#article371057 engishiki_ja.xml#article371057"
+						n="37.57" subtype="項" type="条" xml:id="article371057">
+						<head ana="相摸年料雑薬"/>
+						<note type="summary">Sagami Province: thirty-two types</note>
+						<p ana="項"
+							corresp="engishiki.xml#item37105701 engishiki_ja.xml#item37105701"
+							xml:id="item37105701">Sagami Province: thirty-two types
+							<lb/>Ten *kin/* and five *ryō/* of *ōgon/*; twenty *kin/* of *kyūkyū/*; one *kin/* each of *inchinkō/*, *chimo/*, *goka/*, *shakuyaku/*, *ōgi/*, and *zenko/*; eighteen *kin/* of *kuko/*; seven *kin/* of *ranshitsu/*; eight *ryō/* of *shion/*; two *kin/* of *anryoshi/* [seeds of *Artemisia keiskeana/*]; three *kin/* of *bōfū/*; fifteen *kin/* and ten *ryō/* of *tachibana/* orange dried peel; two *ryō/* of *katei/*; nine *kin/* of *kantōka/* [buds of *Tussilago farfara/*]; one *kin/* of *hakutōkō/*; six *kin/* and eight *ryō/* of *maō/*; one *to/* of *shoyo/*; one *shō/* of *bakumontō/*; three *to/* each of peach kernels and sesame seeds; three *shō/* of died *jiō/*; one *to/* and eight *shō/* of *bushi/*; one *shō/* of *jashōshi/*; two *shō/* of *rōtōshi/*; two *shō/* of *jinshi/*; five *gō/* of *teirekishi/*; one *to/* of sulphur; one piece of wild boar feet; four *kin/* of tanjin; five large *to/* of fermented soy beans.</p>
+					</div>
+					<div ana="典薬"
+						corresp="engishiki.xml#article371058 engishiki_ja.xml#article371058"
+						n="37.58" subtype="項" type="条" xml:id="article371058">
+						<head ana="武蔵年料雑薬"/>
+						<note type="summary">Musashi Province: twenty-eight types</note>
+						<p ana="項"
+							corresp="engishiki.xml#item37105801 engishiki_ja.xml#item37105801"
+							xml:id="item37105801">Musashi Province: twenty-eight types
+							<lb/>Thirty-five *kin/* and ten *ryō/* of *ōgon/*; five *kin/* of *kyūkyū/*; twenty-five *kin/* of tanjin; three *kin/* and ten *ryō/* of *jagan/*; one *kin/* of *chimo/*; ten *kin/* of *kuko/*; three *kin/* of *shakuyaku/*; four *kin/* and twelve *ryō/* of *kikyō/*; twenty *kin/* of *saishin/*; two *kin/* of *daiō/*; three *kin/* and fourteen *ryō/* of *doka/* [*Trichosanthes cucumeroides/*]; fourteen *kin/* of *tōki/*; one *kin/* of *kanzui/*; ten *ryō/* of *kantōka/*; five *ryō/* of *katei/*; five *to/*, seven *shō/* and six *gō/* of dried *jiō/*; four *to/* of peach kernels; one *koku/* and two *to/* of *uzu/*; eight *to/* of *bushi/*; three *to/* each of *ketsumyōshi/*, *bokeishi/* and *teirekishi/*; one *to/* of *jashōshi/*; one *to/* and five *gō/* of *jifushi/* [dried fruit of *Kochia scoparia/*/belvedere cypress]; two *shō/* of *zukushi/* [seeds of *Alpinia katsumadai/*/katsumada's galangal]; three *to/* of *shokushō/*; five *kin/* of *maō/*; one large *to/* of fermented soy beans.</p>
+					</div>
+					<div ana="典薬"
+						corresp="engishiki.xml#article371059 engishiki_ja.xml#article371059"
+						n="37.59" subtype="項" type="条" xml:id="article371059">
+						<head ana="安房年料雑薬"/>
+						<note type="summary">Awa Province: eighteen types</note>
+						<p ana="項"
+							corresp="engishiki.xml#item37105901 engishiki_ja.xml#item37105901"
+							xml:id="item37105901">Awa Province: eighteen types
+							<lb/>One *kin/* each of *ōfurugyō/*, *jagan/*, *kakka/* [dried flowers of *Pueraria montana/*/wild kudzu] and *senpukuka/* [dried flowerhead of *Inula japonica/*]; four *kin/* of *dokkatsu/*; two *kin/* and ten *ryō/* of *kuko/*; six *kin/* and ten *ryō/* of *byakujutsu/*; five *kin/* of *tochū/*; two *kin/* of *chiyu/*; three *kin/* of *hakutōkō/*; one *kin/* of mokubōki; eight *ryō/* of *baishi/* [shell of cowrie]; one *shō/* each of *bakumontō/* and *rōtōshi/*; five *shō/* of *shoyo/*; six *shō/* of peach kernels; two *shō/* of *ketsumyōshi/*; thirty *kin/* of dragon bones.</p>
+					</div>
+					<div ana="典薬"
+						corresp="engishiki.xml#article371060 engishiki_ja.xml#article371060"
+						n="37.60" subtype="項" type="条" xml:id="article371060">
+						<head ana="上総年料雑薬"/>
+						<note type="summary">Kazusa Province: twenty types</note>
+						<p ana="項"
+							corresp="engishiki.xml#item37106001 engishiki_ja.xml#item37106001"
+							xml:id="item37106001">Kazusa Province: twenty types
+							<lb/>One *kin/* of *jagan/*; two *kin/* of *hakutōkō/*; ten *kin/* each of *kuko/* and *mokubōki/*; four *kin/* each of *tochū/* and *chiyu/*; three *kin/* each of *kubaku/* and *baishi/*; twenty-eight *kin/* of *bukuryō/*; two *kin/* each of *kakka/* and *senpukuka/*; six *kin/* of *byakusen/* [root bark of *Dictamnus dasycarpus/*/ dense-fruit dittany]; four *kin/* of *hoō/*; two *to/* and two *shō/* of *hishi/*; four *to/* of *shoyo/*; one *to/* and four *shō/* of *bakumontō/*; six *to/* of peach kernels; eight *to/* of *bushi/*; one *shō/* of *rōtōshi/*; three *kin/* of *shōma/*.</p>
+					</div>
+					<div ana="典薬"
+						corresp="engishiki.xml#article371061 engishiki_ja.xml#article371061"
+						n="37.61" subtype="項" type="条" xml:id="article371061">
+						<head ana="下総年料雑薬"/>
+						<note type="summary">Shimōsa Province: thirty-six types</note>
+						<p ana="項"
+							corresp="engishiki.xml#item37106101 engishiki_ja.xml#item37106101"
+							xml:id="item37106101">Shimōsa Province: thirty-six types
+							<lb/>One *kin/* and eight *ryō/* of *seimokkō/*; eight *kin/* of *kyūkyū/*; two *kin/* each of *zenko/*, *rengyō/*, *ōsei/* [*Polygonatum sibiricum/*/Siberian Solomon's seal rhizome], *byakushi/*, *kōhon/*, and *byakubi/*; five *kin/* each of *dokkatsu/*, *seidei/*, *kikyō/*, *mokkoku/*, *byakusen/*,, and *daigeki/*; ten *kin/* each of *kuko/* and pine resin; three *kin/* and five *ryō/* of *byakujutsu/*; five *kin/* of *ranshitsu/*; one *kin/* of *goka/*; ten *ryō/* of *shakuyaku/*; six *kin/* of *kubaku/*; fourteen *ryō/* of *chiyu/*; nine *kin/* of *hakutōkō/*; six *kin/* of *bukuryō/*; four *ryō/* of *zokudan/* [*Gastrodia elata/*/gastrodia tuber]; three *ryō/* of *katei/*; two *kin/* of *hoō/*; one large *to/* of *hishi/*; one *to/* each of *shoyo/* and peach kernels; four *shō/* each of *bakumontō/* and *shokushō/*; five large *shō/* of *bushi/*; two *to/* of *jinshi/*; one *shō/* of *jifushi/*; two pieces of otter liver.</p>
+					</div>
+					<div ana="典薬"
+						corresp="engishiki.xml#article371062 engishiki_ja.xml#article371062"
+						n="37.62" subtype="項" type="条" xml:id="article371062">
+						<head ana="常陸年料雑薬"/>
+						<note type="summary">Hitachi Province: twenty-five types</note>
+						<p ana="項"
+							corresp="engishiki.xml#item37106201 engishiki_ja.xml#item37106201"
+							xml:id="item37106201">Hitachi Province: twenty-five types
+							<lb/>Thirty *kin/* of *seimokkō/*; sixty *kin/* of *kikyō/*; seven *kin/* each of *kyūkyū/* and *daigeki/*; four *kin/* of *zenko/*; fourteen *kin/* of *kuko/*; two *kin/* of *dokkatsu/*; five *kin/* of *jagan/*; twenty *kin/* and four *ryō/* of *byakujutsu/*; seven *kin/* of *ranshitsu/*; five *kin/* and fifteen *ryō/* of *ryūtan/*; eight *kin/* of *tochū/*; five *kin/* of *byakushi/*; one *kin/* of *hakutōkō/*; sixty-six *kin/* of *bukuryō/*; two *kin/* and ten *ryō/* of *tōki/*; twenty-five *kin/* and thirteen *ryō/* of *kanzō/*; four *kin/* of *ōgi/*; one *kin/* and nine *ryō/* of <seg>*rōga/*</seg>; one *to/* and three *shō/* of dried *jiō/*; two *shō/* of *shoyo/*; six *shō/* of *bakumontō/*; two *to/* and three *shō/* of peach kernels; one *koku/* of peach kernels; two *to/* and seven *shō/* of *jashōshi/*.</p>
+					</div>
+					<div ana="典薬"
+						corresp="engishiki.xml#article371063 engishiki_ja.xml#article371063"
+						n="37.63" subtype="項" type="条" xml:id="article371063">
+						<head ana="近江年料雑薬"/>
+						<note type="summary">Ōmi Province: seventy-three types</note>
+						<p ana="項"
+							corresp="engishiki.xml#item37106301 engishiki_ja.xml#item37106301"
+							xml:id="item37106301">Tōsandō (Eastern mountain circuit)
+							<lb/>Ōmi Province: seventy-three types
+							<lb/>Sixteen *kin/* of *seimokkō/*; seven *kin/* and thirteen *ryō/* of *ōgon/*; fifteen *kin/* each of *kyūkyū/* and *kōju/*; six *kin/* of *inchinkō/*; two *kin/* and fourteen *ryō/* of *ōren/*; fifteen *kin/* and five *ryō/* of *zenko/*; twenty *kin/* and two *ryō/* of *ōfurugyō/*; eight *kin/* and five *ryō/* of *jagan/*; six *kin/* and ten *ryō/* of *chimo/*; thirteen *kin/* and three *ryō/* of *kuko/*; one *kin/* and two *ryō/* of *ōkiku/*; thirty-five *kin/* of *kikyō/*; five *kin/* and ten *ryō/* of *kōryōkō/* [*Alpinia officinarum/*]; five *kin/* and one *ryō/* of *hikai/*; forty-six *kin/* of *byakujutsu/*; forteen *kin/* of  *rōga/*; four *kin/* and eight *ryō/* of *kijitsu/*; fifteen *kin/* and four *ryō/* of *takushitsu/* [*Euphorbia helioscopia/*/sun spurge]; one *kin/* and eight *ryō/* of *ranshitsu/*; one *kin/* and one *ryō/* of *shōbu/*; five *kin/* of *sekii/*; nine *kin/* of *rōro/*; thirteen *kin/* of *ōbaku/*; two *kin/* and four *ryō/* of *seidei/*; four *kin/* and three *ryō/* of *ryūtan/*; thirteen *kin/* of *genjin/*; thirty-nine *kin/* of *kujin/*; five *kin/* and four *ryō/* of *kōhon/*; four *kin/* and three *ryō/* of *goka/*; eleven *kin/* of *shijin/* [*Salvia japonica/*/Japanese sage root and rhizome]; one *kin/* and four *ryō/* of azalea; four *kin/* of *tochū/*; three *kin/* of *takusha/*; one *kin/* and eight *ryō/* of *tokuinin/*; twenty-six *kin/* and eight *ryō/* of *saishin/*; seven *kin/* of *bokuna/*; nine *kin/* of *byakushi/*; one *kin/* and two *ryō/* of *byakuzen/* [*Cynanchum stauntonii/* rhizome and root]; two *kin/* and eight *ryō/* each of *shōriku/* and *mokkoku/*; one of *shakuyaku/*; one *kin/* and thirteen *ryō/* of *byakubi/*; ten *ryō/* of *shōra/*; ten *kin/* and seven *ryō/* of pine resin; two *kin/* and twelve *ryō/* of *taisei/*; six *ryō/* of *doka/*; one *kin/* and two *ryō/* of *kubaku/*; nine *kin/* of *karō/*; ten *kin/* and one *ryō/* of *daigeki/*; four *kin/* and two *ryō/* of *chiyu/*; twenty-two *kin/* and eight *ryō/* of kudzu root; one *shu/* of praying mantis oothecae; one *ryō/* of white-corpse silkworm; one *ryō/* of snake shed skin; one *to/* and two *shō/* of dried *jiō/*; five *to/* of *hishi/*; one *to/* each of *shoyo/* and peach kernels; one *to/*, five *shō/* and five *gō/* of *bakumontō/*; six *shō/* each of *ten'yū/*, *uzu/*, and *bokeishi/*; two *shō/* of *ketsumyōshi/*; two *shō/* and two *gō/* of *jashōshi/*; one *shō/* of *rōtōshi/*; four *shō/* of *kishi/*; eight *shō/* of *shazenshi/*; three *to/* of *goshuyu/*; two *shō/* of *shokushō/*; ten *kin/* of white-flower *mokka/* fruit; two *shō/* of *sanshuyu/*.</p>
+					</div>
+					<div ana="典薬"
+						corresp="engishiki.xml#article371064 engishiki_ja.xml#article371064"
+						n="37.64" subtype="項" type="条" xml:id="article371064">
+						<head ana="美濃年料雑薬"/>
+						<note type="summary">Mino Province: sixty-two types</note>
+						<p ana="項"
+							corresp="engishiki.xml#item37106401 engishiki_ja.xml#item37106401"
+							xml:id="item37106401">Fourteen *kin/* each of *ōgon/* and *kyūkyū/*; ten *kin/* each of *saiko/*, *daiō/*, *ryūtan/*, *karō/*, *shōriku/*, *yuhi/*, and *shōma/*; twenty *kin/* each of *ōfurugyō/*, *goshitsu/*, *goka/*, *chiyu/*, *shion/*, *byakuren/*, and *sekinansō/*; five *kin/* of *ranshitsu/*; four *kin/* of *hakutōkō/*; nine *kin/* of *jagan/*; five *kin/* each of *kuko/*, *seidei/*, *tochū/*, *hōsō/*, and *zokudan/*; thirty *kin/* each of *kikyō/*, *saishin/*, pine resin, and *bukuryō/*; ten *kin/* of *dokkatsu/*; fifteen *kin/* of *mokkoku/*; thirty-eight *kin/* of *byakujutsu/*; fourteen *kin/* of *tanjin/*; twenty *kin/* of *byakushi/*; two *kin/* each of *shakuyaku/*, praying mantis oothecae, and *kenbaku/* [*Selaginella tamariscina/* aerial part]; seven *kin/* of *sekkoku/*; one *kin/* of *kōboku/*; five *kin/* of *hagekiten/* [*Morinda officinalis/* root]; three *kin/* of *baimo/* [bulb of *Fritillaria cirrhosa/*/Sichuan fritillary]; one *ryō/* of snake shed skin; one *koku/* of dried *jiō/*; one *koku/* and five *shō/* of *hishi/*; two *to/* of *shoyo/*; two *to/* and seven *shō/* of *bakumontō/*; six *to/* and three *shō/* of peach kernels; two *to/* and eight *shō/* of *hange/*; one *to/* and five *shō/* of <seg>*shinshō/*</seg> and *kishi/*; eight large *kin/* of *bushi/*; three *to/* and three *shō/* of *gomishi/*; two *to/* and one *shō/* of *toshishi/*; five *shō/* of *teirekishi/*; nine *shō/* of *jashōshi/*; eight *shō/* of *hakushinin/*; nine *to/* and three *shō/* of *shokushō/*; nine *to/* of *seibanseki /*[melanterite]; three pieces of otter liver; four pieces of bear gallbladders; ten pieces of wild boar feet; seven sets of non-ossified deer antlers; two pieces of bear paws.</p>
+					</div>
+					<div ana="典薬"
+						corresp="engishiki.xml#article371065 engishiki_ja.xml#article371065"
+						n="37.65" subtype="項" type="条" xml:id="article371065">
+						<head ana="飛騨年料雑薬"/>
+						<note type="summary">Hida Province: nine types</note>
+						<p ana="項"
+							corresp="engishiki.xml#item37106501 engishiki_ja.xml#item37106501"
+							xml:id="item37106501">Hida Province: nine types
+							<lb/>Twenty *kin/* of *shakuyaku/*; ten *kin/* of *tōki/*; four *kin/* and eight *ryō/* of *anryoshi/*; forty *kin/* of *byakujutsu/*; ten *kin/* of *reiro/*; ten *kin/* of tokō [*Asarum nipponicum/*/wild ginger plant]; two *to/* and one *shō/* of *hakubanseki/* [alunite]; two pieces of wild boar feet; thirty pieces of antelope horns.</p>
+					</div>
+					<div ana="典薬"
+						corresp="engishiki.xml#article371066 engishiki_ja.xml#article371066"
+						n="37.66" subtype="項" type="条" xml:id="article371066">
+						<head ana="信濃年料雑薬"/>
+						<note type="summary">Shinano Province: seventeen types</note>
+						<p ana="項"
+							corresp="engishiki.xml#item37106601 engishiki_ja.xml#item37106601"
+							xml:id="item37106601">Shinano Province: seventeen types
+							<lb/>Ten *kin/* of *ōren/*; thirty-five *kin/* of *saishin/*; twenty-six *kin/* and nine *ryō/* of *byakujutsu/*; five *kin/* of *ranshitsu/*; thirty *kin/* of *daiō/*; six *kin/* of *josei/*; thirty-seven *kin/* of *rojo/*; one *to/* and four *shō/* of dried *jiō/*; three *to/* of *bushi/*; one *to/* and six *shō/* of *shokushō/*; one *to/* of *bui/* [dried fruit of *Ulmus macrocarpa/*/large-fruited elm]; three *to/* and eight *shō/* of sulphur; nine pieces of bear gallbladders; ten non-ossified sets of deer antlers; twenty *kin/* of *koku/*; six *to/* of bitter apricot kernels; one large *koku/* of *taisō/*.</p>
+					</div>
+					<div ana="典薬"
+						corresp="engishiki.xml#article371067 engishiki_ja.xml#article371067"
+						n="37.67" subtype="項" type="条" xml:id="article371067">
+						<head ana="上野年料雑薬"/>
+						<note type="summary">Kōzuke Province: fifteen types</note>
+						<p ana="項"
+							corresp="engishiki.xml#item37106701 engishiki_ja.xml#item37106701"
+							xml:id="item37106701">Kōzuke Province: fifteen types
+							<lb/>Ten *kin/* each of *seimokkō/*, *ōgon/* and *ōgi/*; sixty-four *kin/* of *saishin/*; twenty *kin/* of *shakuyaku/* and *tōki/*; three *kin/* and two *ryō/* of *shōma/*; sixty *kin/* of *bōfu/*; five *kin/* of <seg>*dōga/*</seg>; one *to/* each of dried *jiō/*, sesame, and *shokushō/*; eight *shō/* of *bakumontō/*; four *to/* of *bushi/*; four pieces of wild boar feet.</p>
+					</div>
+					<div ana="典薬"
+						corresp="engishiki.xml#article371068 engishiki_ja.xml#article371068"
+						n="37.68" subtype="項" type="条" xml:id="article371068">
+						<head ana="下野年料雑薬"/>
+						<note type="summary">Shimotsuke Province: fourteen types</note>
+						<p ana="項"
+							corresp="engishiki.xml#item37106801 engishiki_ja.xml#item37106801"
+							xml:id="item37106801">Shimotsuke Province: fourteen types
+							<lb/>Twenty *kin/* of *seimokkō/*; fifteen *kin/* of *kyūkyū/*; two *kin/* and eight *ryō/* of *koku/*; five *ryō/* of *ōkiku/*; nine *kin/* of *ranshitsu/*; twenty *kin/* of *sekkoku/*; sixteen *kin/* of *shinkyō/*; two *to/* each of dried *jiō/*, peach kernels, and *uzu/*; four *to/* of *bushi/*; one *to/* of *ketsumyōshi/*; eight *shō/* of *bokeishi/*; two *to/* and three *shō/* of sulphur.</p>
+					</div>
+					<div ana="典薬"
+						corresp="engishiki.xml#article371069 engishiki_ja.xml#article371069"
+						n="37.69" subtype="項" type="条" xml:id="article371069">
+						<head ana="陸奥年料雑薬"/>
+						<note type="summary">Mutsu Province: six types</note>
+						<p ana="項"
+							corresp="engishiki.xml#item37106901 engishiki_ja.xml#item37106901"
+							xml:id="item37106901">Mutsu Province: six types
+							<lb/>Ten *kin/* of *kanzō/*; fourty *kin/* of *shinkyō/*; 120 *kin/* of *daiō/*; eighty *kin/* of *sekkoku/*; thirty-five *kin/* of *ninjin/*; 120 *kin/* of *bushi/*; two *to/* of wild boar fat.</p>
+					</div>
+					<div ana="典薬"
+						corresp="engishiki.xml#article371070 engishiki_ja.xml#article371070"
+						n="37.70" subtype="項" type="条" xml:id="article371070">
+						<head ana="出羽年料雑薬"/>
+						<note type="summary">Dewa Province: two types</note>
+						<p ana="項"
+							corresp="engishiki.xml#item37107001 engishiki_ja.xml#item37107001"
+							xml:id="item37107001">Dewa Province: two types
+							<lb/>Five *kin/* of *kanzō/*; forty pieces of antelope horns.</p>
+					</div>
+					<div ana="典薬"
+						corresp="engishiki.xml#article371071 engishiki_ja.xml#article371071"
+						n="37.71" subtype="項" type="条" xml:id="article371071">
+						<head ana="若狭年料雑薬"/>
+						<note type="summary">Wakasa Province: twenty-four types</note>
+						<p ana="項"
+							corresp="engishiki.xml#item37107101 engishiki_ja.xml#item37107101"
+							xml:id="item37107101">Hokurikudō (Northern land circuit)
+							<lb/>Wakasa Province: twenty-four types
+							<lb/>Three *kin/* of *ninjin/*; two *ryō/* of *ōkiku/*; four *kin/* of *bukuryō/*; two *kin/* each of *kikyō/*, *rōro/*, *tochū/*, and *shakuyaku/*; ten *kin/* of *kijitsu/*; one *kin/* each of *ryūtan/* and *byakubi/*; six *ryō/* of *takusha/*; four *ryō/* of *zokudan/*; fourteen *kin/* of *kuseki/*; twenty-nine *kin/* of *shinpi/*; one *kin/* and two *ryō/* of *shijin/*; three *ryō/* of *kakka/*; two *to/* of *hishi/*; two *to/* each of *bakumontō/*, *shazenshi/*, *goshuyu/*, and *shokushō/*; eight *shō/* of peach kernels; three *shō/* of *mankeishi/* [*Vitex trifolia/* dried fruit]; one *to/* of *kōbanseki/*.</p>
+					</div>
+					<div ana="典薬"
+						corresp="engishiki.xml#article371072 engishiki_ja.xml#article371072"
+						n="37.72" subtype="項" type="条" xml:id="article371072">
+						<head ana="越前年料雑薬"/>
+						<note type="summary">Echizen Province: eighteen types</note>
+						<p ana="項"
+							corresp="engishiki.xml#item37107201 engishiki_ja.xml#item37107201"
+							xml:id="item37107201">Echizen Province: eighteen types
+							<lb/>Fifty-seven *kin/* of *ōren/*; four *kin/* of *dokkatsu/*; seventeen *kin/* of *goshitsu/*; six *kin/* of *kikyō/*; five *kin/* and three *ryō/* of *byakujutsu/*; twenty-six *kin/* of *shōbu/*; fourteen *kin/* of *ninjin/*; four *kin/* of *bokuna/*; five *kin/* of *saishin/*; twenty-six *kin/* of *daiō/*; six *kin/* of *shōma/*; twenty *kin/* of *yakan/*; twelve *ryō/* of *ōsei/*; one *to/* and six *shō/* of *hishi/*; two *to/* of *shoyo/*; seven *shō/* and five *gō/* of peach kernels; four *shō/* of *toshishi/*; two *to/* and seven *shō/* of *shokushō/*.</p>
+					</div>
+					<div ana="典薬"
+						corresp="engishiki.xml#article371073 engishiki_ja.xml#article371073"
+						n="37.73" subtype="項" type="条" xml:id="article371073">
+						<head ana="加賀年料雑薬"/>
+						<note type="summary">Kaga Province: seven types</note>
+						<p ana="項"
+							corresp="engishiki.xml#item37107301 engishiki_ja.xml#item37107301"
+							xml:id="item37107301">Kaga Province: seven types
+							<lb/>Seven *kin/* of *ōren/*; one *kin/* each of *kikoku/* and *bukuryō/*; thirty *kin/* of *kyūkyū/*; thirteen *kin/* of *ranshitsu/*; four *kin/* and eleven *ryō/* of dried *jiō/*; one *to/* of *shoyo/*.</p>
+					</div>
+					<div ana="典薬"
+						corresp="engishiki.xml#article371074 engishiki_ja.xml#article371074"
+						n="37.74" subtype="項" type="条" xml:id="article371074">
+						<head ana="能登年料雑薬"/>
+						<note type="summary">Noto Province: five types</note>
+						<p ana="項"
+							corresp="engishiki.xml#item37107401 engishiki_ja.xml#item37107401"
+							xml:id="item37107401">Noto Province: five types
+							<lb/>Three *kin/* of *ōren/*; four *to/* of *hishi/*; one *to/* of *shoyo/*; two *shō/* of peach kernels; three *to/* of *shokushō/*.</p>
+					</div>
+					<div ana="典薬"
+						corresp="engishiki.xml#article371075 engishiki_ja.xml#article371075"
+						n="37.75" subtype="項" type="条" xml:id="article371075">
+						<head ana="越中年料雑薬"/>
+						<note type="summary">Etchū Province: fifteen types</note>
+						<p ana="項"
+							corresp="engishiki.xml#item37107501 engishiki_ja.xml#item37107501"
+							xml:id="item37107501">Etchū Province: fifteen types
+							<lb/>Eleven *kin/* each of *byakujutsu/* and *byakushi/*; five *kin/* each of *ranshitsu/* and *daiō/*; ten *kin/* each of *kujin/* and *yakan/*; three *kin/* of *ōgi/*; five *shō/* of *hishi/*; two *to/* and nine *shō/* of *shoyo/*; six *shō/* of peach kernels; three *to/* of *bushi/*; four *shō/* of *shokushō/*; three *shō/* of infusion of sweet vine; two pieces of otter liver; four pieces of bear gallbladder; four pieces of antelope horns.</p>
+					</div>
+					<div ana="典薬"
+						corresp="engishiki.xml#article371076 engishiki_ja.xml#article371076"
+						n="37.76" subtype="項" type="条" xml:id="article371076">
+						<head ana="越後年料雑薬"/>
+						<note type="summary">Echigo Province: seven types</note>
+						<p ana="項"
+							corresp="engishiki.xml#item37107601 engishiki_ja.xml#item37107601"
+							xml:id="item37107601">Ten *kin/* each of *saishin/* and *ōbaku/*; two *kin/* and thirteen *ryō/* of *bokuna/*; three *kin/* of *bukuryō/*; eight *shō/* of *shokushō/*; thirty pieces of antelope horns.</p>
+					</div>
+					<div ana="典薬"
+						corresp="engishiki.xml#article371077 engishiki_ja.xml#article371077"
+						n="37.77" subtype="項" type="条" xml:id="article371077">
+						<head ana="佐渡年料雑薬"/>
+						<note type="summary">Sado Province: four types</note>
+						<p ana="項"
+							corresp="engishiki.xml#item37107701 engishiki_ja.xml#item37107701"
+							xml:id="item37107701">Sado Province: four types
+							<lb/>Fifteen *kin/* and ten *ryō/* of *ōren/*; twenty-five *kin/* of *ranshitsu/*; forty-eight *kin/* of *saishin/*; three *to/* of *shokushō/*.</p>
+					</div>
+					<div ana="典薬"
+						corresp="engishiki.xml#article371078 engishiki_ja.xml#article371078"
+						n="37.78" subtype="項" type="条" xml:id="article371078">
+						<head ana="丹波年料雑薬"/>
+						<note type="summary">Tanba Province: forty-three types</note>
+						<p ana="項"
+							corresp="engishiki.xml#item37107801 engishiki_ja.xml#item37107801"
+							xml:id="item37107801">San'indō (Shady-side mountain circuit)
+							<lb/>Tanba Province: forty-three types
+							<lb/>Ten *kin/* each of *kyūkyū/*, *sekii/*, *karō/*, *sekinansō/*, *shōma/*, and *yakan/*; three *kin/* and two *ryō/* of *ōren/*; five *kin/* of *zenko/*, *kōhon/*, and *shinpi/*; twelve *kin/* of *saiko/*; nineteen *kin/* of *ōfurugyō/*; thirty-four *kin/* of *dokkatsu/*; five *kin/* of *chimo/*; six *kin/* of *hikai/*; twelve *kin/*, three *ryō/* and two *bu/* of *byakujutsu/*; fifteen *kin/* and eight *ryō/* of *ranshitsu/*; thirteen *kin/* of *rōro/*; two *kin/* of *ninjin/*; seven *kin/* each of *ryūtan/* and *shōriku/*; four *kin/* of *genjin/*; twenty-four *kin/* of *ōbaku/*; nine *kin/* each of *byakushi/* and *chiyu/*; twenty-seven *kin/* of *sekkoku/*; twenty *kin/* of *kōboku/*; eight *kin/* each of *shakuyaku/* and *kōzan/*; four *kin/* and eight *ryō/* of *rengyō/*; five *ryō/* of snake shed skin; five *to/* and five *shō/* of *hishi/*; two *to/*, two *shō/* and two *gō/* of *shoyo/*; one *to/* of *bakumontō/*; six *shō/* of peach kernels; two *to/*, five *shō/* and five *gō/* of *shazenshi/*; two *shō/* and one *gō/* of *toshishi/*; three *to/* and five *shō/* of hemp seeds; one *to/*, three *shō/* and three *gō/* of *kisen/*; two *to/* and three *shō/* of *goshuyu/*; two *shō/* of *shokushō/*; one set of ossified deer antlers; two *ryō/* of white-corpse silkworm.</p>
+					</div>
+					<div ana="典薬"
+						corresp="engishiki.xml#article371079 engishiki_ja.xml#article371079"
+						n="37.79" subtype="項" type="条" xml:id="article371079">
+						<head ana="丹後年料雑薬"/>
+						<note type="summary">Tango Province: twenty-four types</note>
+						<p ana="項"
+							corresp="engishiki.xml#item37107901 engishiki_ja.xml#item37107901"
+							xml:id="item37107901">Tango Province: twenty-four types
+							<lb/>Thirty-eight *kin/*, fourteen *ryō/* and two *bu/* of *ōren/*; four *kin/* and eleven *ryō/* of *byakujutsu/*; five *kin/* and eight *ryō/* of *ranshitsu/*; four *kin/* of *shōbu/*; twenty *kin/* of *ōbaku/*; one *to/* and three *shō/* of *ryūtan/*; ten *kin/* each of *kujin/*, *mokkoku/* and *danzoku/*; ten *kin/* of *byakushi/*; seven *kin/* and three *ryō/* of *bukuryō/*; two *kin/* of *shōma/*; two *ryō/* of snake shed skin; one *to/* and one *shō/* of *hishi/*; one *to/* of *shoyo/*; large one *to/*, three *shō/* and five *gō/* of *bakumontō/*; one *to/* and five *shō/* of peach kernels; one *to/* and six *shō/* of *shazenshi/*; two *shō/* and three *gō/* of *teirekishi/*; one *to/* and seven *shō/* each of *goshuyu/* and *shokushō/*; one *to/* of dried *taisō/*; fifteen *kin/* of *saishin/*; three *shō/* of infusion of sweet vine; two *ryō/* of white-corpse silkworm.</p>
+					</div>
+					<div ana="典薬"
+						corresp="engishiki.xml#article371080 engishiki_ja.xml#article371080"
+						n="37.80" subtype="項" type="条" xml:id="article371080">
+						<head ana="但馬年料雑薬"/>
+						<note type="summary">Tajima Province: twenty-one types</note>
+						<p ana="項"
+							corresp="engishiki.xml#item37108001 engishiki_ja.xml#item37108001"
+							xml:id="item37108001">Tajima Province: twenty-one types
+							<lb/>Eighteen *kin/* and three *ryō/* of *ōren/*; three *kin/* and five *ryō/* of *byakushi/*; one *kin/* and ten *ryō/* each of *zenko/*, *tochū/* and *saishin/*; five *kin/* each of *dokkatsu/*, *ranshitsu/* and *kasseki/* [talc]; two *kin/* and ten *ryō/* each of *byakujutsu/* and *kōhon/*; ten *kin/* and nine *ryō/* of *sekkoku/*; six *kin/* and ten *ryō/* of *shōma/*; ten *kin/* of *tōki/*; four *to/* of *hishi/*; one *to/* each of *shoyo/*, *shokushō/* and *hakushinin/*; one *to/* and five *shō/* of peach kernels; eight *shō/* of *bakumontō/*; three *shō/* of *bokeishi/*; two *ryō/* of white-corpse silkworm.</p>
+					</div>
+					<div ana="典薬"
+						corresp="engishiki.xml#article371081 engishiki_ja.xml#article371081"
+						n="37.81" subtype="項" type="条" xml:id="article371081">
+						<head ana="因幡年料雑薬"/>
+						<note type="summary">Inaba Province: twenty types</note>
+						<p ana="項"
+							corresp="engishiki.xml#item37108101 engishiki_ja.xml#item37108101"
+							xml:id="item37108101">Inaba Province: twenty types
+							<lb/>Two *kin/* each of *zenko/*, *bukuryō/*, *zokudan/* and *ranshitsu/*; ten *kin/* each of *dokkatsu/*, *byakujutsu/* and *tōki/*; two *kin/* and four *ryō/* of *goshitsu/*; one *kin/* each of *kōryōkō/* and and *bokuna/*; ten *kin/* and four *ryō/* of *hikai/*; two *kin/* and one *ryō/* of *kōhon/*; thirteen *kin/* of *mokkoku/*; seven *kin/* of *karō/*; ten *kin/* and four *ryō/* of praying mantis oothecae; one *koku/* of *hishi/*; four *to/* of *shoyo/*; one *to/* of peach kernels; four *shō/* of *shokushō/*; three *shō/* of infusion of sweet vine; two *ryō/* of white-corpse silkworm.</p>
+					</div>
+					<div ana="典薬"
+						corresp="engishiki.xml#article371082 engishiki_ja.xml#article371082"
+						n="37.82" subtype="項" type="条" xml:id="article371082">
+						<head ana="伯耆年料雑薬"/>
+						<note type="summary">Hōki Province: twenty types</note>
+						<p ana="項"
+							corresp="engishiki.xml#item37108201 engishiki_ja.xml#item37108201"
+							xml:id="item37108201">Hōki Province: twenty types
+							<lb/>Twelve *kin/* of *dokkatsu/*; four *kin/* of *ranshitsu/*; five *kin/* of *goshitsu/*; ten *kin/* of *byakujutsu/*; one *kin/* each of *shōbu/* and root bark of mulberry; three *kin/* of *seidei/*; two *kin/* of *tochū/*, *bukuryō/* and *shion/*; twenty-four *kin/* of *sekkoku/*; one *kin/* of *shōra/*; nine *kin/* of *shōma/*; two *koku/* and six *to/* of *hishi/*; nine *shō/* of *shoyo/*; three *to/* and nine *shō/* of *goshuyu/*; nine *shō/* of *shokushō/*; seven *shō/* of peach kernels; one tō and one *shō/* of *byakugō/*.</p>
+					</div>
+					<div ana="典薬"
+						corresp="engishiki.xml#article371083 engishiki_ja.xml#article371083"
+						n="37.83" subtype="項" type="条" xml:id="article371083">
+						<head ana="出雲年料雑薬"/>
+						<note type="summary">Izumo Province: fifty-three types</note>
+						<p ana="項"
+							corresp="engishiki.xml#item37108301 engishiki_ja.xml#item37108301"
+							xml:id="item37108301">Izumo Province: fifty-three types
+							<lb/>Two *kin/* each of *zenko/*, *hikai/*, *yuhi/* and *rengyō/*; one *kin/* and seven *ryō/* of *ōfurugyō/*; eleven *kin/* each of *dokkatsu/* and *kujin/*; nine *ryō/* of *kuko/*; four *kin/* of *goshitsu/*; one *kin/* and eight *ryō/* of *ranshitsu/*; one *kin/* of *shōbu/*; three *kin/* each of *byakushi/*, *bakkatsu/* and *sōji/* [*Auricularia auricula-judae/*/jelly ear fungus]; ten *ryō/* of *kōryōkō/*; five *kin/* of *byakujutsu/*; one *kin/* of *rōga/*; one *kin/* of *ryūtan/*; one *kin/* and ten *ryō/* of *genjin/*; one *kin/* of *kōhon/*, *shōra/*, pine resin, *chiyu/*, *kenbaku/*, and <seg>*joi/*</seg>; two *ryō/* of azalea; one *kin/* and two *ryō/* of *takusha/*; one *kin/* and five *ryō/* of *shōriku/*; one *kin/* and eight *ryō/* of *saishin/*; one *kin/* and six *ryō/* of *kubaku/*; two *kin/* and three *ryō/* of *hakutōkō/*; six *kin/* of *bukuryō/*; one *kin/* of *zokudan/*; one *kin/* of *byakuren/*; one *kin/* and six *ryō/* of *tōki/*; two *kin/* of *yakan/*; two *kin/* of *ōsei/*; twelve *ryō/* of *hoō/*; two *ryō/* of praying mantis oothecae; one *to/* of *hishi/*; six *shō/* of *shoyo/*; five *shō/* of *bakumontō/*; two *to/* of *hyakubukon/* [root of *Stemona japonica/*/Japanese stemona]; one *gō/* of sekisen [*Gastrodia elata/*]; one *shō/* each of *bokeishi/*, *teirekishi/* and *hakushinin/*; four *shō/* each of peach kernels and *shazenshi/*; five *shō/* of *shokushō/*; two *shō/* each of *ketsumyōshi/* and *shitsureishi/* [dried fruit of *Tribulus terrestris/*]; five *shō/* of *goshuyu/*.</p>
+					</div>
+					<div ana="典薬"
+						corresp="engishiki.xml#article371084 engishiki_ja.xml#article371084"
+						n="37.84" subtype="項" type="条" xml:id="article371084">
+						<head ana="石見年料雑薬"/>
+						<note type="summary">Iwami Province: fourteen types</note>
+						<p ana="項"
+							corresp="engishiki.xml#item37108401 engishiki_ja.xml#item37108401"
+							xml:id="item37108401">Iwami Province: fourteen types
+							<lb/>One *kin/* and four *ryō/* of *zenko/*; six *kin/* each of *dokkatsu/* and *bukuryō/*; three *kin/* each of *goshitsu/*, *karō/* and *byakujutsu/*; one *kin/* and fifteen *ryō/* of *ranshitsu/*; four *kin/* of *ōbaku/*; fifteen *kin/* each of *saishin/* and *tōki/*; nine *ryō/* of praying mantis oothecae; one *kin/* of *yakan/*; one *to/* and two *shō/* of *shoyo/*; three *to/* and five *shō/* of *shokushō/*.</p>
+					</div>
+					<div ana="典薬"
+						corresp="engishiki.xml#article371085 engishiki_ja.xml#article371085"
+						n="37.85" subtype="項" type="条" xml:id="article371085">
+						<head ana="播磨年料雑薬"/>
+						<note type="summary">Harima Province: fifty-three types</note>
+						<p ana="項"
+							corresp="engishiki.xml#item37108501 engishiki_ja.xml#item37108501"
+							xml:id="item37108501">San'yōdō (Mountain sunny-side circuit)
+							<lb/>Harima Province: fifty-three types
+							<lb/>Two *kin/* each of *seimokkō/*, *kyūkyū/* and *byakubi/*; four *kin/* each of *zenko/*, *ranshitsu/*, *bukuryō/* and *kisen/*; thirty *kin/* of *kikyō/*; fifty-five *kin/* of *saishin/*; ten *kin/* of *saiko/*, *karō/* and *tōki/*; twenty-five *kin/* of *ōfurugyō/*; thirty-six *kin/* of *dokkatsu/*; six *kin/* each of *chimo/* and azalea; twenty *kin/* each of *shakuyaku/* and root bark of mulberry; six *kin/* of *shōbu/*; sixteen *kin/* of *kōju/* and cuttlebone of *Sepia esculenta/*; eight *kin/* each of *ryūtan/* and *sekii/* and *rengyō/*; seventy-one *kin/* of *kujin/*; ninety-two *kin/* and eight *ryō/* of *byakujutsu/*; one *kin/* and fourteen *ryō/* of *genjin/*; seven *kin/* each of *shōriku/* and *tochū/*; five *kin/* each of pine resin, *kōboku/* and <seg>*kanjū/*</seg>; fourteen *kin/* of *shōma/*; three *kin/* and twelve *ryō/* of *byakuren/*; eleven *kin/* of *byakushi/*; nine *kin/* of *chiyu/*; three *kin/* and four *ryō/* of *ōgi/*; three *kin/* and ten *ryō/* of *tenmontō/*; fourteen *kin/* of *in'u/*; one *kin/* of *dōga/*; nine *shō/* of *shoyo/*; one *to/* of peach kernels; two pieces of otter liver; one set of non-ossified deer antlers; one set of ossified deer antlers; two *ryō/* of white-corpse silkworm.</p>
+					</div>
+					<div ana="典薬"
+						corresp="engishiki.xml#article371086 engishiki_ja.xml#article371086"
+						n="37.86" subtype="項" type="条" xml:id="article371086">
+						<head ana="美作年料雑薬"/>
+						<note type="summary">Mimasaka Province: forty-one types</note>
+						<p ana="項"
+							corresp="engishiki.xml#item37108601 engishiki_ja.xml#item37108601"
+							xml:id="item37108601">Mimasaka Province: forty-one types
+							<lb/>Ten *kin/* and five *ryō/* of *ōren/*; three *kin/* of *zenko/*, *ryūtan/* and *ninjin/*; seven *kin/* of *ōfurugyō/*; nine *kin/* of *dokkatsu/*; eight *kin/* of *kikyō/*; five *kin/* each of *kōju/* and *shōriku/*; two *kin/* and six *ryō/* of *ranshitsu/*; two *kin/* of *shōbu/*; ten *kin/* each of *saishin/* and *shakuyaku/*; twenty-one *kin/* of *tōki/*; six *kin/* each of *rōro/* and *chiyu/*; ten *kin/* of *byakujutsu/*; four *kin/* of *ōbaku/*; eight *ryō/* of *seidei/*; one *kin/* and six *ryō/* of *goka/* and *rojo/*; fourteen *kin/* of *byakushi/*; two *kin/* and four *ryō/* of *daigeki/*; two *kin/* and ten *ryō/* of *kōboku/* and *shion/*; ten *kin/* of *shōma/*; one *kin/* and three *ryō/* of *takusha/*; three *kin/* and ten *ryō/*; eleven *ryō/* of *in'u/*; two *kin/* of *sōji/*; one *to/* and three *shō/* of *hishi/*; fifteen *ryō/* of *shoyo/*; seven *ryō/* each of *shinshō/* and *shokushō/*; two *to/* and four *shō/* of *bakumontō/*; seven *shō/* of peach kernels; three *shō/* of *shazenshi/*; one *to/* of *goshuyu/*; one *to/* and five *shō/* of dried *taisō/*; one set of ossified deer antlers; two *ryō/* of white-corpse silkworms.</p>
+					</div>
+					<div ana="典薬"
+						corresp="engishiki.xml#article371087 engishiki_ja.xml#article371087"
+						n="37.87" subtype="項" type="条" xml:id="article371087">
+						<head ana="備前年料雑薬"/>
+						<note type="summary">Bizen Province: forty types</note>
+						<p ana="項"
+							corresp="engishiki.xml#item37108701 engishiki_ja.xml#item37108701"
+							xml:id="item37108701">Bizen Province: forty types
+							<lb/>Ten *kin/* of *zenko/*; forty *kin/* of *byakujutsu/*; ten *kin/* each of *ōbaku/* and cuttlebone of *Sepia esculenta/*; eight *kin/* each of *ōfurugyō/* and *kubaku/*; five *kin/* of *dokkatsu/*; three *kin/* each of *jagan/*, *shakuyaku/*, *chiyu/*, *shōma/*, and *matō/*; fifty *kin/* of *kikyō/*; two *kin/* each of *seidei/*, *ryūtan/* and *hakutōkō/*; one *kin/* of *shōbu/*; nine *kin/* of *ōgi/*; eleven *ryō/* of *hōsō/*; four *to/* of *shōriku/*; seven *kin/* of *rōro/*; six *kin/* of pine resin; one *kin/* each of *daigeki/*, *botan/*, *tenmontō/* and praying mantis oothecae; one *to/* and five *shō/* of *hishi/*; four *kin/* each of *shoyo/* and *bokeishi/*; two *shō/* each of *bakumontō/* and *shinshō/*; six *shō/* each of peach kernels, *shazenshi/*, *teirekishi/*, and *shokushō/*; three *to/* of *goshuyu/*; eight *shō/* of dried *taisō/*; four *kin/* of *byakushi/*; ten *kin/* of *takusha/*; two *ryō/* of white-corpse silkworms.</p>
+					</div>
+					<div ana="典薬"
+						corresp="engishiki.xml#article371088 engishiki_ja.xml#article371088"
+						n="37.88" subtype="項" type="条" xml:id="article371088">
+						<head ana="備中年料雑薬"/>
+						<note type="summary">Bitchū Province: forty-two types</note>
+						<p ana="項"
+							corresp="engishiki.xml#item37108801 engishiki_ja.xml#item37108801"
+							xml:id="item37108801">Bitchū Province: forty-two types
+							<lb/>Thirty-two *shō/* of *ōren/*; four *kin/* of *joi/* [*Clematis apiifolia/*/Chinese clematis root]; three *kin/* of *zenko/*, *kōhon/* and *shakuyaku/*; thirty-six *kin/* of *byakujutsu/*; ten *kin/* of *ōbaku/*; eight *kin/* of *jagan/*; twenty-eight *kin/* of *kikyō/*; eight *ryō/* of *chimo/*; one *kin/* each of *kuko/* and *chiyu/*; two *kin/* of *hakutōkō/*; five *kin/* each of *rōga/*, *zokudan/* and *ōsei/*; six *kin/* each of *shion/* and *tōki/*; five *kin/* of *byakushi/*; one *kin/* and eight *ryō/* of *takusha/*; two *kin/* of *kōboku/*; six *kin/* and ten *ryō/* of *kenbaku/*; one *kin/* and two *ryō/* of *bukuryō/*; seven *kin/* of *byakuren/*; eight *kin/* and five *ryō/* of *ōgi/*; one *kin/* of *hoō/*; sixty-six *kin/* of gypsum; sixty *kin/* of <seg>calcite</seg>; ten *ryō/* of praying mantis oothecae; one *kin/* and eight *ryō/* of *shinpi/*; one *to/* each of *bakumontō/* and peach kernels; five *shō/* of *shoyo/*; one *to/* and two *shō/* of *ketsumyōshi/*; one *shō/* and four *gō/* of *bokeishi/*; one *shō/* of *shazenshi/*; three *shō/* of *goshuyu/*; six *shō/* of *shokushō/*; three pieces of otter liver; two pieces of wild boar feet; two sets of ossified antlers; three large *shō/* of <seg>*bokushō/*</seg>. </p>
+					</div>
+					<div ana="典薬"
+						corresp="engishiki.xml#article371089 engishiki_ja.xml#article371089"
+						n="37.89" subtype="項" type="条" xml:id="article371089">
+						<head ana="備後年料雑薬"/>
+						<note type="summary">Bigo Province: twenty-eight types</note>
+						<p ana="項"
+							corresp="engishiki.xml#item37108901 engishiki_ja.xml#item37108901"
+							xml:id="item37108901">Bingo Province: twenty-eight types
+							<lb/>Five *kin/* of *hakutōkō/*; forty-nine *kin/* of *sekkoku/*; thirty-five *kin/* of *kikyō/*; thirty-four *kin/* and six *ryō/* of *byakujutsu/*; thirty *kin/* of *saishin/*; four *kin/* of *shōbu/*; ten *kin/* of *ōbaku/*; six *kin/* of *tōki/*; twenty-three *kin/* of *seidei/*; two *kin/* of *shakuyaku/*; fifteen *kin/* of *mokkoku/*; five *kin/* of *bukuryō/*; one *kin/* of *shōma/*; thirteen *kin/* of *shion/*; twenty-one *kin/* of *yakan/*; three *kin/* and eight *ryō/* of *sekisekishi/*; ten *ryō/* of praying mantis oothecae; one *to/* and four *shō/* of *shoyo/*; three *to/* and six *shō/* of *bakumontō/*; one *to/* and one *shō/* of peach kernels; two *to/* and three *shō/* of *shazenshi/*; three *shō/* of *shitsureishi/*; one *to/* and four *gō/* of hemp seeds; one *to/* and six *gō/* of *teirekishi/*; one *to/* and three *shō/* of *shokushō/*; three pieces of otter liver; five pieces of wild boar feet; three large *to/* of *bokushō/*.</p>
+					</div>
+					<div ana="典薬"
+						corresp="engishiki.xml#article371090 engishiki_ja.xml#article371090"
+						n="37.90" subtype="項" type="条" xml:id="article371090">
+						<head ana="安芸年料雑薬"/>
+						<note type="summary">Aki Province: thirty-two types</note>
+						<p ana="項"
+							corresp="engishiki.xml#item37109001 engishiki_ja.xml#item37109001"
+							xml:id="item37109001">Aki Province: thirty-two types
+							<lb/>Four *kin/* and eleven *ryō/* of *ōren/*; six *kin/* each of *zenko/*, *saiko/*, *byakujutsu/*, *ranshitsu/*, *shōbu/*, and *shōriku/*; eighteen *kin/* each of *dokkatsu/* and *goshitsu/*; twenty-one *kin/* of *kikyō/*; twenty *kin/* of *ōbaku/*; three *kin/* each of *genjin/*, *kōhon/*, *hakutōkō/* and *yakan/*; fifteen *kin/* of *saishin/*; ten *kin/* each of *kujin/*, *tōki/* and *senkon/*; forty *kin/* of *sekkoku/*; two *kin/* each of *chiyu/* and *zokudan/*; twelve *ryō/* of *tenmontō/*; two *to/* of *hishi/*; one *to/* each of *shoyo/*, *goshuyu/* and *shokushō/*; three *shō/* of peach kernels; one *shō/* and six *gō/* of *bakumontō/*; three *shō/* of *gomishi/*; four *gō/* of *teirekishi/*; two *ryō/* of white-corpse silkworm.</p>
+					</div>
+					<div ana="典薬"
+						corresp="engishiki.xml#article371091 engishiki_ja.xml#article371091"
+						n="37.91" subtype="項" type="条" xml:id="article371091">
+						<head ana="周防年料雑薬"/>
+						<note type="summary">Suō Province: nineteen types</note>
+						<p ana="項"
+							corresp="engishiki.xml#item37109101 engishiki_ja.xml#item37109101"
+							xml:id="item37109101">Suō Province: nineteen types
+							<lb/>Eight *kin/* of *dokkatsu/*; seven *kin/* of *goshitsu/*; one *kin/* and four *ryō/* of *byakujutsu/*; five *kin/* each of *ranshitsu/*, *sekkoku/* and *shōma/*; ten *kin/* of *kujin/*; four *ryō/* of *goka/*; one *kin/* and eight *ryō/* of *saishin/*; one *kin/* each of *hagekiten/* and *bukuryō/*; thirty *kin/* and eight *ryō/* of *yakan/*; six *kin/* of *bōki/*; twenty *kin/* of *kasseki/*; five *shō/* of *hishi/*; eight *to/* of *shoyo/*; seven *shō/* of *bakumontō/*; five *shō/* and five *gō/* of peach kernels; four *shō/* of *goshuyu/*.</p>
+					</div>
+					<div ana="典薬"
+						corresp="engishiki.xml#article371092 engishiki_ja.xml#article371092"
+						n="37.92" subtype="項" type="条" xml:id="article371092">
+						<head ana="長門年料雑薬"/>
+						<note type="summary">Nagato Province: thirteen types</note>
+						<p ana="項"
+							corresp="engishiki.xml#item37109201 engishiki_ja.xml#item37109201"
+							xml:id="item37109201">Nagato Province: thirteen types
+							<lb/>Three *kin/* each of *goshitsu/*, *shakuyaku/* and *bukuryō/*; two *kin/* of *byakujutsu/*; one *kin/* each of *ranshitsu/*, hagekiten and *senkon/*; seven *kin/* of *saishin/*; three *kin/* of *hakubanseki/*; five *shō/* of *jashōshi/*; four *shō/* of peach kernels; two *shō/* and five *gō/* of *teirekishi/* and *shokushō/*.</p>
+					</div>
+					<div ana="典薬"
+						corresp="engishiki.xml#article371093 engishiki_ja.xml#article371093"
+						n="37.93" subtype="項" type="条" xml:id="article371093">
+						<head ana="紀伊年料雑薬"/>
+						<note type="summary">Kii Province: thirty-five types</note>
+						<p ana="項"
+							corresp="engishiki.xml#item37109301 engishiki_ja.xml#item37109301"
+							xml:id="item37109301">Nankaidō (Souther sea circuit)
+							<lb/>Kii Province: thirty-five types
+							<lb/>Ten *kin/* each of *dokkatsu/* and pine resin; nine *kin/* each of *goshitsu/*, *yuhi/* and *kōboku/*; five *ryō/* of *hikai/*; one *kin/* of *byakujutsu/*; three *kin/* each of *ranshitsu/*, *goka/* and *chiyu/*; six *kin/* of *shōbu/*; one *kin/* each of *genjin/* and *kakka/*; twenty-six *kin/* of *kujin/*; one *kin/* and four *ryō/* of *byakushi/*; two *kin/* of azalea; twenty-five *kin/* of *mokkoku/*; two *kin/* and five *ryō/* of *sekkoku/*; four *kin/* each of *Taisei/* and *bukuryō/*; one *kin/* and fourteen *ryō/* of *karō/*; ten *ryō/* of *shōma/*; eleven *kin/* of kudzu root; eight *kin/* of *tenmontō/*; one *kin/* and nine *ryō/* of *yakan/*; 120 *kin/* of *kasseki/*; six *shō/* of *shoyo/*; one *to/* of peach kernels; two *gō/* of *bokeishi/*; five *shō/* of *shazenshi/* and *shokushō/*; two *shō/* of *toshishi/*; eight *shō/* of hemp seeds; one *shō/* of *teirekishi/*; three *shō/* of *shinshō/*.</p>
+					</div>
+					<div ana="典薬"
+						corresp="engishiki.xml#article371094 engishiki_ja.xml#article371094"
+						n="37.94" subtype="項" type="条" xml:id="article371094">
+						<head ana="阿波年料雑薬"/>
+						<note type="summary">Awa Province: thirty-three types</note>
+						<p ana="項"
+							corresp="engishiki.xml#item37109401 engishiki_ja.xml#item37109401"
+							xml:id="item37109401">Awa Province: thirty-three types
+							<lb/>One *kin/* each of *saiko/*, *ōkikuka/*, *takusha/*, and *tachibana/* orange dried peel; four *kin/* each of *hikai/*, azalea, and *hōsō/*; three *kin/* each of *seidei/*, *shakuyaku/*, doka and *botan/*; nine *kin/* of *saishin/*; two *kin/* each of *daigeki/*, *rōga/*, *bukuryō/*, *rengyō/* and *joi/*; ten *ryō/* of *shōma/*; eight *ryō/* of *hoō/*; five *kin/* of *tenmontō/*; twenty *kin/* of <seg>*kisei/*</seg>; one *to/* and three *shō/* of *hishi/*; two *shō/* each of *bakumontō/* and *jashōshi/*; two *to/* of peach kernels; two *to/* and five *shō/* of *shinshō/*; five *shō/* of *kishi/*; one *shō/* of *shitsureishi/*; five *shō/* of *keitōshi/* [euryale seeds]; three *to/* of hemp seeds; one *to/* of *kotōshi/*; eight *shō/* of *shokushō/*; one *to/* and five *shō/* of dried *taisō/*.</p>
+					</div>
+					<div ana="典薬"
+						corresp="engishiki.xml#article371095 engishiki_ja.xml#article371095"
+						n="37.95" subtype="項" type="条" xml:id="article371095">
+						<head ana="讃岐年料雑薬"/>
+						<note type="summary">Sanuki Province: forty-seven types</note>
+						<p ana="項"
+							corresp="engishiki.xml#item37109501 engishiki_ja.xml#item37109501"
+							xml:id="item37109501">Sanuki Province: forty-seven types
+							<lb/>Seventy-three *kin/* and five *ryō/* of *ōgon/*; two *kin/* of *ranshitsu/*; ten *kin/* each of *inchinkō/*, *goshitsu/*, *goka/*, *saishin/*, *chiyu/*, and *byakuren/*; two *kin/* of *jagan/*; twelve *kin/* each of *byakujutsu/* and *kikyō/*; three *ryō/* of *ōkikuka/*; twenty *kin/* of *dokkatsu/*, *shakuyaku/* and *shōma/*; six *kin/* each of *ōfurugyō/*, *genjin/*, *byakushi/* and *hakutōkō/*; two *kin/* and thirteen *ryō/* of *tachibana/*  orange dried peel; five *kin/* each of pine resin, *daigeki/*, *rengyō/* and *joi/*; seven *kin/* of *bukuryō/*; sixteen *kin/* of *maō/*; fifteen *kin/* of *yakan/*; thirteen *kin/* of *tenmontō/*; two *to/* and five *shō/* of *hishi/*; one *to/* each of *shoyo/*, *bakumontō/* and sesame seeds; five *shō/* each of *soshi/* and *shazenshi/*; one *to/* and five *shō/* of peach kernels; one *to/* and six *shō/* each of *jashōshi/* and *ketsumyōshi/*; two *to/* and five *shō/* of hemp seeds; two *shō/* of *rōtōshi/*; four *shō/* and eight *gō/* of *teirekishi/*; one *to/* and three *shō/* of *hange/*; two *to/* of *shokushō/*; seven *shō/* of *bokeishi/*; five sets each of non-ossified deer antlers and ossified deer antlers; ten *kin/* of *kuko/*; eight *shō/* of *bokushō/*.</p>
+					</div>
+					<div ana="典薬"
+						corresp="engishiki.xml#article371096 engishiki_ja.xml#article371096"
+						n="37.96" subtype="項" type="条" xml:id="article371096">
+						<head ana="伊予年料雑薬"/>
+						<note type="summary">Iyo Province: thirty-two types</note>
+						<p ana="項"
+							corresp="engishiki.xml#item37109601 engishiki_ja.xml#item37109601"
+							xml:id="item37109601">Iyo Province: thirty-two types
+							<lb/>Seventeen *kin/* of *dokkatsu/*; six *kin/* each of *goshitsu/* and *byakujutsu/*; ten *kin/* of *kikyō/*; five *kin/* of *bukuryō/*; three *kin/* each of *rōro/* and *tochū/*; ten *kin/* of *kujin/*; nine *kin/* of *ninjin/*; two *kin/* of *mokkoku/*; two *kin/* and four *ryō/* of *kōhon/*; two *kin/* of *saishin/*, *karō/* and *daigeki/*; eight *kin/* of *shakuyaku/*; four *kin/* of *sekinansō/*; seven *kin/* each of *shōma/* and *tenmontō/*; one *kin/* and fourteen *ryō/* of *zokudan/*; two *ryō/* of *katei/*; eight *shō/* and six *gō/* of *shoyo/*; three *shō/* each of *bakumontō/*, *shazenshi/* and <seg>*buseishi/*</seg>; two *to/* of *bushi/*; two *shō/* of *bokeishi/*; five *gō/* of *jashōshi/*; three *to/* of hemp seeds; one *to/* each of peach kernels and sesame seeds; two *to/*, five *shō/* and five *gō/* of *shishi/*; four *shō/* of *shokushō/*.</p>
+					</div>
+					<div ana="典薬"
+						corresp="engishiki.xml#article371097 engishiki_ja.xml#article371097"
+						n="37.97" subtype="項" type="条" xml:id="article371097">
+						<head ana="土左年料雑薬"/>
+						<note type="summary">Tosa Province: thirteen types</note>
+						<p ana="項"
+							corresp="engishiki.xml#item37109701 engishiki_ja.xml#item37109701"
+							xml:id="item37109701">Tosa Province: thirteen types
+							<lb/>Two *kin/* each of *dokkatsu/* and *saishin/*; three *kin/* of *goshitsu/*; four *kin/* each of *shōbu/* and *shōma/*; nine *kin/* of *kujin/*; thirteen *kin/* of *mokkoku/*; seven *kin/* of *karō/*; one *to/* and two *shō/* of *shoyo/*; four *shō/* of peach kernels and *shazenshi/*; one *shō/* of *shinshō/*; two *shō/* of *ketsumyōshi/*; two *to/* of *goshuyu/*.</p>
+					</div>
+					<div ana="典薬"
+						corresp="engishiki.xml#article371098 engishiki_ja.xml#article371098"
+						n="37.98" subtype="項" type="条" xml:id="article371098">
+						<head ana="大宰年料雑薬"/>
+						<note type="summary">Dazaifu: twelve types</note>
+						<p ana="項"
+							corresp="engishiki.xml#item37109801 engishiki_ja.xml#item37109801"
+							xml:id="item37109801">Saikaidō (Western sea circuit)
+							<lb/>150 *kin/* of *mokuran/* bark; ten *kin/* each of *doka/* and gypsum; sixty *kin/* of dragon bones; forty *kin/* of *sōkyō/*; one *to/* each of <seg>*taisha/*</seg> and *uyoryō/* [limonite]; four *shō/* of *kikyū/*; two pieces of wildcat bones; twenty *kin/* each of *birōji/* and *ninjin/*; ten *kin/* of *sekkoku/*</p>
+						<p ana="項"
+							corresp="engishiki.xml#item37109802 engishiki_ja.xml#item37109802"
+							xml:id="item37109802"><seg>As for [the provisions] listed above</seg>, have them carried [to the capital] by the envoys in charge of carrying tributes presented as tax-in-kind, and sent to the Bureau. Once [the Bureau] has inspected and stored them, release a receipt. Regarding Dazaifu, entrust [its provisions] to the <seg>envoys for additional tributes</seg>.</p>
+					</div>
+				</div>
+				<div type="尾題" xml:id="bidai37">
+					<p xml:id="bidai3701">*Engi shiki/*, scroll thirty-seven</p>
+				</div>
+				<div type="本奥書" xml:id="okugaki37">
+					<p xml:id="okugaki3701"/>
+				</div>
+			</div>
+		</body>
+	</text>
+</TEI>
