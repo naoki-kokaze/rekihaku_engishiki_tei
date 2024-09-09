@@ -1,0 +1,475 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>延喜式ファイル</title>
+</titleStmt>
+<publicationStmt>
+<publisher>国立歴史民俗博物館メタ資料学研究センター</publisher>
+<idno type="PID">o:depcha.engi_shiki.1</idno>
+<availability>
+<p/>
+</availability>
+<date when="2020-03-31">31 March 2020</date>
+</publicationStmt>
+<sourceDesc>
+<msDesc>
+<msIdentifier>
+<settlement>千葉県佐倉市</settlement>
+<repository>国立歴史民俗博物館</repository>
+<collection>集英社版延喜式</collection>
+</msIdentifier>
+<msContents>
+<msItem>
+<author>藤原時平・藤原忠平</author>
+<title>延喜式</title>
+<note>
+<p>ここに史料の説明が入る。</p>
+</note>
+</msItem>
+</msContents>
+</msDesc>
+<listWit>
+<listWit xml:id="写本">
+<head>写本</head>
+<witness xml:id="土本"><abbr>土本</abbr>：国立歴史民俗博物館所蔵土御門家旧蔵本（H-743-74）</witness>
+<witness xml:id="近本"><abbr>近本</abbr>：京都大学附属図書館所蔵近衛文庫本（2-03/エ/1貴）</witness>
+<witness xml:id="壬本"><abbr>壬本</abbr>：宮内庁書陵部図書寮文庫所蔵壬生家旧蔵本（F10-287）</witness>
+<witness xml:id="京博本"><abbr>京博本</abbr>：京都国立博物館所蔵旧京都博物館本</witness>
+<witness xml:id="慶長本"><abbr>慶長本</abbr>：国立公文書館所蔵慶長写本（特102-8）</witness>
+<witness xml:id="梵本"><abbr>梵本</abbr>：天理大学附属天理図書館所蔵吉田文庫梵舜等筆本（吉16-8。巻8は173-ｲ5（Ⅲ524)もあり）</witness>
+<witness xml:id="九本"><abbr>九本</abbr>：東京国立博物館所蔵九条家旧蔵巻子本（B-2370）</witness>
+<witness xml:id="剛本"><abbr>剛本</abbr>：天野山金剛寺所蔵本</witness>
+<witness xml:id="条本"><abbr>条本</abbr>：一条家旧蔵巻子本（巻1～3は無窮会専門図書館所蔵模写本、巻4・5は神宮司庁刊影印本）</witness>
+<witness xml:id="花本"><abbr>花本</abbr>：花山院家・武田祐吉旧蔵本（神宮皇学館刊影印本による）</witness>
+<witness xml:id="九冊本"><abbr>九冊本</abbr>：國學院大學所蔵九条家・西田長男旧蔵冊子本（巻5は西田長男刊影印本による）</witness>
+<witness xml:id="永本"><abbr>永本</abbr>：巻8は國學院大學図書館所蔵（091.2/322.135/1）、巻9・10は現蔵不明(神宮文庫所蔵写真帳1門16974）</witness>
+<witness xml:id="右本"><abbr>右本</abbr>：巻8は國學院大學図書館所蔵（貴62）</witness>
+<witness xml:id="吉本"><abbr>吉本</abbr>：天理大学附属天理図書館所蔵吉田家旧蔵本巻9・10（328.1-ｲ17(Ⅲ1219)）</witness>
+<witness xml:id="三条本"><abbr>三条本</abbr>：天理大学附属天理図書館所蔵三条家旧蔵本（328.1-ｲ11(Ⅲ1218)）</witness>
+<witness xml:id="西本"><abbr>西本</abbr>：巻9・10は國學院大學図書館所蔵（貴107～108）。巻50は国立歴史民俗博物館所蔵（H-1588）。抄出本は國學院大學所蔵（木村大樹「〔西田長男旧蔵〕三条西実隆筆『延喜式』(抄)の翻刻・紹介」『國學院大學研究開発推進機構紀要』14、2022年） </witness>
+<witness xml:id="時慶本"><abbr>時慶本</abbr>：静嘉堂文庫所蔵西洞院時慶写本（延喜格式表18352、延喜式序18353）</witness>
+<witness xml:id="島原本"><abbr>島原本</abbr>：東京大学史料編纂所所蔵松平忠房・和学講談所・水野忠央旧蔵本（貴45-2）</witness>
+<witness xml:id="藤波本"><abbr>藤波本</abbr>：宮内庁書陵部図書寮文庫所蔵藤波家旧蔵本（217
+                            -473）</witness>
+<witness xml:id="貞享本"><abbr>貞享本</abbr>：宮内庁書陵部図書寮文庫所蔵和学講談所旧蔵坊城俊方貞享本（457-116）</witness>
+<witness xml:id="玄梁本"><abbr>玄梁本</abbr>：無窮会専門図書館所蔵神習文庫玄梁記名本（神習3666）</witness>
+<witness xml:id="尾張本"><abbr>尾張本</abbr>：東京大学総合図書館所蔵尾張家旧蔵本（巻13）（A00-6122）</witness>
+<witness xml:id="泉亭本"><abbr>泉亭本</abbr>：賀茂三手文庫所蔵泉亭本（制度/加）</witness>
+</listWit>
+<listWit xml:id="版本">
+<head>版本：慶安版本も含めた流布版本</head>
+<witness xml:id="慶安版本"><abbr>慶安版本</abbr>：大和文華館所蔵鈴鹿連胤旧蔵版本（1/741～790）</witness>
+<witness xml:id="明暦版本"><abbr>明暦版本</abbr>：明暦修訂版本　国立公文書館所蔵紅葉山文庫旧蔵版本（特26-1）等</witness>
+<witness xml:id="明暦以降版本"><abbr>明暦以降版本</abbr>：明暦修訂本以降の版本</witness>
+<witness xml:id="寛文版本"><abbr>寛文版本</abbr>：寛文修訂版本　筑波大学附属図書館所蔵版本20冊本（ム212-7）等</witness>
+<witness xml:id="享保版本"><abbr>享保版本</abbr>：享保修訂版本　筑波大学附属図書館所蔵版本50冊本（ム212-6）等</witness>
+<witness xml:id="雲本"><abbr>雲本</abbr>：松江藩文政11年(1828)刊本（雲州本）　早稲田大学図書館所蔵本（ワ03-01594）等</witness>
+<witness xml:id="考異"><abbr>考異</abbr>：雲州本附録『延喜式考異』　早稲田大学図書館所蔵本（ワ03-01594）等</witness>
+<witness xml:id="鈴鹿本"><abbr>鈴鹿本</abbr>：大和文華館所蔵鈴鹿連胤旧蔵慶安版本（1/741～790）書入</witness>
+<witness xml:id="勢多本"><abbr>勢多本</abbr>：宮内庁書陵部図書寮文庫所蔵勢多家旧蔵明暦等版本（172-123）書入</witness>
+<witness xml:id="筑波寛文本"><abbr>筑波寛文本</abbr>：筑波大学附属図書館所蔵寛文版本20冊本（ム212-7）書入</witness>
+</listWit>
+<listWit xml:id="刊本">
+<head>刊本</head>
+<witness xml:id="旧大系本"><abbr>旧大系本</abbr>：旧輯国史大系第13巻（経済雑誌社　1900年刊）</witness>
+<witness xml:id="叢書本"><abbr>叢書本</abbr>：新註皇学叢書第3巻（広文庫刊行会　1927年刊）</witness>
+<witness xml:id="全集本"><abbr>全集本</abbr>：日本古典全集『延喜式』（日本古典全集刊行会　1927～1929年刊）</witness>
+<witness xml:id="皇典本"><abbr>皇典本</abbr>：『校訂延喜式』（皇典講究所・全国神職会　1929～1932年刊）</witness>
+<witness xml:id="国史大系本"><abbr>国史大系本</abbr>：新訂増補国史大系第26巻（吉川弘文館　1937年刊）</witness>
+<witness xml:id="神道大系本"><abbr>神道大系本</abbr>：神道大系古典編11・12『延喜式』（神道大系編纂会、1991・1993年刊）</witness>
+<witness xml:id="訳注本"><abbr>訳注本</abbr>：訳注日本史料『延喜式』上～下（集英社、2000～2017年刊）</witness>
+</listWit>
+<listWit xml:id="その他">
+<head>その他</head>
+<witness xml:id="本朝月令"><abbr>本朝月令</abbr>：清水潔編『新校本朝月令』（皇學館大學神道研究所　2002年刊）</witness>
+<witness xml:id="儀式"><abbr>儀式</abbr>：神道大系朝儀祭祀編1『儀式・内裏式』（神道大系編纂会　1980年刊）</witness>
+<witness xml:id="皇太神宮儀式帳"><abbr>皇太神宮儀式帳</abbr>：佐野真人「『皇太神宮儀式帳』校訂試案」（『皇學館大学研究開発推進センター紀要』2　2016年）</witness>
+<witness xml:id="止由気宮儀式帳"><abbr>止由気宮儀式帳</abbr>：佐野真人「『止由気宮儀式帳』校訂試案」（『皇學館大学研究開発推進センター紀要』3　2017年）</witness>
+<witness xml:id="新撰年中行事"><abbr>新撰年中行事</abbr>：西本昌弘編『新撰年中行事』（八木書店　2010年刊）</witness>
+<witness xml:id="小野宮年中行事"><abbr>小野宮年中行事</abbr>：群書類従第6輯 律令部
+                            公事部（続群書類従完成会　1932年刊）</witness>
+<witness xml:id="小野宮年中行事裏書"><abbr>小野宮年中行事裏書</abbr>：国立歴史民俗博物館所蔵本（H-1762）</witness>
+<witness xml:id="勘例"><abbr>勘例（陽明文庫所蔵）</abbr>：大日本古記録『勘例』上・下（岩波書店　2018・2023年刊）</witness>
+<witness xml:id="政事要略"><abbr>政事要略</abbr>：新訂増補国史大系第28巻（吉川弘文館　1935年刊。適宜、写本を参照）</witness>
+<witness xml:id="法曹至要抄"><abbr>法曹至要抄</abbr>：中世法制史料集（岩波書店　2005年刊）</witness>
+<witness xml:id="本草和名"><abbr>本草和名</abbr>：丸山裕美子・武倩編著『本草和名』（汲古書院　2021年刊）</witness>
+</listWit>
+</listWit>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<variantEncoding location="external" method="location-referenced"/>
+<tagsDecl>
+<rendition xml:id="indent">margin-top: 1em;</rendition>
+<rendition xml:id="indent2">margin-top: 2em;</rendition>
+<rendition xml:id="indent5">margin-top: 5em;</rendition>
+<rendition xml:id="width50">width: 50px;</rendition>
+<rendition xml:id="kokumei">width: 80px;</rendition>
+<rendition xml:id="width100">width: 100px;</rendition>
+<rendition xml:id="jinnmyou">width: 200px;</rendition>
+<rendition xml:id="width300">width: 300px;</rendition>
+</tagsDecl>
+<editorialDecl ana="校訂文凡例">
+<p ana="全体">
+<table>
+<row>
+<cell>・</cell>
+<cell>原則として土本（以下、略称は「主要写本・版本・刊本等略称・底本一覧」参照）を底本とし、九本・剛本・条本・花本等の古写本や近本・壬本・京博本等の写本によって対校しました（巻によって使用した対校本は異なります）。</cell>
+</row>
+<row>
+<cell>・</cell>
+<cell>条文番号・条文名称は原則として訳注本に拠りましたが、一部を修正しています（※下記「条文名称修正一覧」参照）。なお1条が長い場合など、必要に応じ「項」に分割して示すこととしました。</cell>
+</row>
+<row>
+<cell>・</cell>
+<cell>校異は原則として底本の文字を改変する場合、あるいは写本間に参考とすべき異同がある場合、参考とすべき傍書等がある場合に付すこととしました。必ずしもその校異に関する写本をすべて網羅することはせず、主要写本のみを取り上げています。ただし訳注本と校訂文に異同が生じた場合には、できる限り校異にて言及するよう心がけました（単なる字体の相違については省略しています）。</cell>
+</row>
+<row>
+<cell>・</cell>
+<cell>校訂文は『延喜式』撰上当初の姿の復元を目標としています。標注や傍書は、条文名称に関わるものは省略し、中世以前にさかのぼることが想定されるものに限って、校異注で言及することとしました。ただし標注のうち「弘」「貞」「延」等については便宜を考え、鉤括弧で括って校訂本文に掲げることとしました。</cell>
+</row>
+<row>
+<cell>・</cell>
+<cell>字体は常用漢字体を原則としました。「大」と「太」、「座」と「坐」、「絇」と「約」、「績」と「續（続）」、「色」と「包」、「細」と「紬」、「鈍」と「純」、「冑」と「胃」、「絁」と「絶」、草冠と竹冠、木偏と手偏等、容易に判定される誤字や誤用・通用については、校異を省略して適宜置き換える場合があります。ただし巻9・10においては「大」「太」の差異も校異にて触れることとしました。</cell>
+</row>
+<row>
+<cell>・</cell>
+<cell>校訂文中の細字・割書は、〈　〉で括って表現することとしました。</cell>
+</row>
+<row>
+<cell>・</cell>
+<cell>本文に誤字・脱字等が想定される場合であっても、置き換えるべき文字や補うべき文字が明確でない場合は、校異注での言及にとどめた場合があります。</cell>
+</row>
+<row>
+<cell>・</cell>
+<cell>ユニコードにて表示されない漢字は以下のように示すことにしました。</cell>
+</row>
+</table>
+<table rendition="#indent2">
+<row>
+<cell rendition="#width100">【Ａ+Ｂ】</cell>
+<cell rendition="#width300">＝扁がＡ、つくりがＢ</cell>
+<cell rendition="#width300">例）村【木+寸】</cell>
+</row>
+<row>
+<cell rendition="#width100">【Ａ/Ｂ】</cell>
+<cell rendition="#width300">＝上にＡ、下にＢ</cell>
+<cell rendition="#width300">例）雲【雨/云】</cell>
+</row>
+<row>
+<cell rendition="#width100">【Ａ-Ｂ】</cell>
+<cell rendition="#width300">＝Ａの字画よりＢにあたる字画を除く</cell>
+<cell rendition="#width300">例）門【閉-オ】</cell>
+</row>
+<row>
+<cell rendition="#width100">【Ａ⊃Ｂ】</cell>
+<cell rendition="#width300">＝Ａの字画のなかにＢの字画が含まれる</cell>
+<cell rendition="#width300">例）閉【門⊃オ】、国【囗⊃玉】</cell>
+</row>
+<row>
+<cell/>
+</row>
+<row>
+<cell/>
+</row>
+</table>
+<table>
+<row>
+<cell>・</cell>
+<cell>校異注の付く文字は赤字および青字で表示され、クリックすると注が表示されます。表示内容は以下の通りです。</cell>
+</row>
+</table>
+<table rendition="#indent2">
+<row>
+<cell rendition="#width100">採用</cell>
+<cell>写本名と校訂文にて採用した文字</cell>
+</row>
+<row>
+<cell rendition="#width100">校異</cell>
+<cell>写本名と対校箇所の文字</cell>
+</row>
+<row>
+<cell rendition="#width100">解説</cell>
+<cell>各写本の傍書や頭書等の提示、校異注の本文（最下部の解説）</cell>
+</row>
+<row>
+<cell/>
+</row>
+<row>
+<cell/>
+</row>
+</table>
+<table>
+<row>
+<cell>・</cell>
+<cell>条文名称修正一覧</cell>
+</row>
+</table>
+<table rendition="#indent2">
+<row>
+<cell rendition="#width100">巻番号</cell>
+<cell rendition="#width50">旧番号</cell>
+<cell rendition="#width100">旧条文名</cell>
+<cell rendition="#width50">番号</cell>
+<cell rendition="#width100">訂正条文名</cell>
+</row>
+<row>
+<cell rendition="#width100">111太政官</cell>
+<cell rendition="#width50">67</cell>
+<cell rendition="#width100">薗韓神祭</cell>
+<cell rendition="#width50">67</cell>
+<cell rendition="#width100">園韓神祭</cell>
+</row>
+<row>
+<cell rendition="#width100">111太政官</cell>
+<cell rendition="#width50">112</cell>
+<cell rendition="#width100">行幸経宿</cell>
+<cell rendition="#width50">112</cell>
+<cell rendition="#width100">行幸経旬</cell>
+</row>
+<row>
+<cell rendition="#width100">171内匠</cell>
+<cell rendition="#width50">39</cell>
+<cell rendition="#width100">作物衣服</cell>
+<cell rendition="#width50">39</cell>
+<cell rendition="#width100">作物衣</cell>
+</row>
+<row>
+<cell rendition="#width100">214諸陵</cell>
+<cell rendition="#width50">16</cell>
+<cell rendition="#width100">後阿陁他遠墓</cell>
+<cell rendition="#width50">16</cell>
+<cell rendition="#width100">後阿陀他遠墓</cell>
+</row>
+<row>
+<cell rendition="#width100">293囚獄</cell>
+<cell rendition="#width50">2</cell>
+<cell rendition="#width100">著鈦盤枷</cell>
+<cell rendition="#width50">2</cell>
+<cell rendition="#width100">着鈦盤枷</cell>
+</row>
+<row>
+<cell rendition="#width100">321大膳上</cell>
+<cell rendition="#width50">5</cell>
+<cell rendition="#width100">新嘗祭</cell>
+<cell rendition="#width50">5･6</cell>
+<cell rendition="#width100">新嘗祭と新嘗小斎解斎に分割</cell>
+</row>
+<row>
+<cell rendition="#width100">411弾正</cell>
+<cell rendition="#width50">68</cell>
+<cell rendition="#width100">支子染深色</cell>
+<cell rendition="#width50">68</cell>
+<cell rendition="#width100">支子染色</cell>
+</row>
+</table>
+</p>
+<p ana="個別"/>
+</editorialDecl>
+</encodingDesc>
+<revisionDesc ana="個別">
+<listChange>
+<change when="2023-03-31"><date>2023年3月31日</date>巻39正親の校異注において、「解説」以外では「等」「諸本」の表現を使用しないこととし、また傍書の「○○イ」「○○イニ」等は「採用」や「校異」ではなく、「解説」にて指摘することに改めました。<lb/>
+                    この他、全般にわたり、誤字の訂正や外字表記のユニコード文字への変更、文章表現の修正、言及写本の変更などをおこなっています。 </change>
+</listChange>
+</revisionDesc>
+</teiHeader>
+<text>
+<body>
+<pb facs="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-39%2F00001.tif/full/full/0/default.jpg"/>
+<div n="39" subtype="式" type="巻">
+<pb facs="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-39%2F00002.tif/full/full/0/default.jpg"/>
+<div type="首題" xml:id="shudai39">
+<p xml:id="shudai3901">延喜式巻第卅九 〈正親 内膳〉</p>
+</div>
+<div ana="正親" n="39" subtype="条" type="式">
+<div type="式題" xml:id="shikidai391">
+<p xml:id="shikidai39101">正親司</p>
+</div>
+<div ana="正親" n="39-1.1" subtype="項" type="条">
+<head ana="諸王年満"/>
+<p ana="項" corresp="engishiki_ja.xml#item39100101 engishiki_en.xml#item39100101" xml:id="item39100101">凡諸王年満十二、毎年十二月、京職移宮内省、省以京職移、即付司令勘会名簿、訖更送省、明年正月待官符到、始預賜時服之例、</p>
+</div>
+<div ana="正親" n="39-1.2" subtype="項" type="条">
+<head ana="王定"/>
+<p ana="項" corresp="engishiki_ja.xml#item39100201 engishiki_en.xml#item39100201" xml:id="item39100201">凡賜時服王定四百廿九人、待其死闕依次補之、但改姓為臣之闕、不補其代、随即減定額数、</p>
+</div>
+<div ana="正親" n="39-1.3" subtype="項" type="条">
+<head ana="諸王計帳"/>
+<p ana="項" corresp="engishiki_ja.xml#item39100301 engishiki_en.xml#item39100301" xml:id="item39100301">凡諸王計帳者、令造二通、司加押署、京職判畢一通留司、待年足符、即勘会申省、</p>
+</div>
+<pb facs="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-39%2F00003.tif/full/full/0/default.jpg"/>
+<div ana="正親" n="39-1.4" subtype="項" type="条">
+<head ana="同世同名"/>
+<p ana="項" corresp="engishiki_ja.xml#item39100401 engishiki_en.xml#item39100401" xml:id="item39100401">凡給季禄男女王、同世之中有同名者、速令申換、載帳進之、但新名下注本名、</p>
+</div>
+<div ana="正親" n="39-1.5" subtype="項" type="条">
+<head ana="女王禄"/>
+<p ana="項" corresp="engishiki_ja.xml#item39100501 engishiki_en.xml#item39100501" xml:id="item39100501">凡正月八日給禄女王、所司設座於殿庭、立幄二宇於安福殿前、積禄於版位南、亦供奉殿上装束、天皇御紫宸殿、内侍率女官就座、本司官人引女王自月華門参入、女王先就幄下座、〈以世為次、不拠長幼、〉次官人共趨就前庭座、佑一人執簿唱曰、<anchor xml:id="app3910050101"/>其<anchor xml:id="app3910050101e"/>親王之後、即一<anchor xml:id="app3910050102"/>祖<anchor xml:id="app3910050102e"/>之胤皆下座、共称唯就庭中座、座定執簿一々喚名、女王即称唯、進受禄退出、余亦如之、其禄法、人別絹二疋、綿六屯、<anchor xml:id="app3910050103"/>〈十一月新嘗会准此、〉<anchor xml:id="app3910050103e"/></p>
+<app from="#app3910050101" to="#app3910050101e">
+<lem wit="#土本">其</lem>
+<rdg wit="#島原本">某</rdg>
+<note>其　訳注本は島原本により「某」に改める。</note>
+</app>
+<app from="#app3910050102" to="#app3910050102e">
+<lem wit="#土本">祖</lem>
+<rdg wit="#九本"/>
+<note>祖　九本無し。</note>
+</app>
+<app from="#app3910050103" to="#app3910050103e">
+<lem wit="#九本">〈十一月新嘗会准此、〉</lem>
+<rdg wit="#土本 #近本 #京博本 #壬本 #梵本 #慶長本">新嘗会准此〈十一月〉</rdg>
+<rdg wit="#近本訂正">〈十一月〉新嘗会准此</rdg>
+<note>〈十一月新嘗会准此、〉　土本・近本・京博本・壬本・梵本・慶長本は「新嘗会准此」五字を大書して本文とし、その下に「十一月」三字を注とする。このうち近本は「新嘗会准此」五字の上に「十一月」三字を移動・挿入する。九本により改める。</note>
+</app>
+</div>
+<div ana="正親" n="39-1.6" subtype="項" type="条">
+<head ana="女王定"/>
+<p ana="項" corresp="engishiki_ja.xml#item39100601 engishiki_en.xml#item39100601" xml:id="item39100601">凡賜禄女王定二百六十二人、其随闕補<anchor xml:id="app3910060101"/>代<anchor xml:id="app3910060101e"/>、及改姓不為闕事、並同上条、</p>
+<app from="#app3910060101" to="#app3910060101e">
+<lem wit="#九本">代</lem>
+<rdg wit="#土本 #近本 #京博本 #壬本 #梵本 #慶長本">伐代</rdg>
+<rdg wit="#藤波本">代代</rdg>
+<note>代　土本・近本・京博本・壬本・梵本・慶長本、上に「伐」あり。藤波本は上に「代」あり。九本により衍と見て削る。</note>
+</app>
+</div>
+<div ana="正親" n="39-1.7" subtype="項" type="条">
+<head ana="諸王時服"/>
+<p ana="項" corresp="engishiki_ja.xml#item39100701 engishiki_en.xml#item39100701" xml:id="item39100701">凡諸王給春夏時服者、二世王絹六疋、糸十二絇、調布十八端、鍬卅口、四世王以上並如令、正月廿日録送省、秋冬准<anchor xml:id="app3910070101"/>此<anchor xml:id="app3910070101e"/>、〈但以綿代糸、以鉄二廷代鍬五口、〉皆向大蔵受之、不得遣人代請、</p>
+<app from="#app3910070101" to="#app3910070101e">
+<lem wit="#九本">此</lem>
+<rdg wit="#土本 #近本 #京博本 #壬本 #梵本 #慶長本">此鉄</rdg>
+<note>此　土本・近本・京博本・壬本・梵本・慶長本、下に「鉄」あり。九本により衍と見て削る。</note>
+</app>
+</div>
+<div ana="正親" n="39-1.8" subtype="項" type="条">
+<head ana="女王節禄"/>
+<p ana="項" corresp="engishiki_ja.xml#item39100801 engishiki_en.xml#item39100801" xml:id="item39100801">凡給女王二節禄見参簿、当日早旦<anchor xml:id="app3910080101"/>奏<anchor xml:id="app3910080101e"/>、</p>
+<app from="#app3910080101" to="#app3910080101e">
+<lem wit="#土本">奏</lem>
+<rdg wit="#島原本">奏之</rdg>
+<note>奏　この下に訳注本は島原本により「之」を補う。</note>
+</app>
+</div>
+<div ana="正親" n="39-1.9" subtype="項" type="条">
+<head ana="平野祭"/>
+<p ana="項" corresp="engishiki_ja.xml#item39100901 engishiki_en.xml#item39100901" xml:id="item39100901">凡参平野祭所官人并諸王見参歴名、進<pb facs="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-39%2F00004.tif/full/full/0/default.jpg"/>太政官、</p>
+</div>
+<div ana="正親" n="39-1.10" subtype="項" type="条">
+<head ana="薬師寺"/>
+<p ana="項" corresp="engishiki_ja.xml#item39101001 engishiki_en.xml#item39101001" xml:id="item39101001">凡参薬師寺最勝会王氏無官六位已下廿人已下十六人已上、司預差定、三月一日名簿進太政官、</p>
+</div>
+<div ana="正親" n="39-1.11" subtype="項" type="条">
+<head ana="諸王出家"/>
+<p ana="項" corresp="engishiki_ja.xml#item39101101 engishiki_en.xml#item39101101" xml:id="item39101101">凡諸王有出家、停給時服、其女王節禄亦停、</p>
+</div>
+<div ana="正親" n="39-1.12" subtype="項" type="条">
+<head ana="諸王死去"/>
+<p ana="項" corresp="engishiki_ja.xml#item39101201 engishiki_en.xml#item39101201" xml:id="item39101201">凡六位已下諸王死去者、喪家申司、司即申省、</p>
+</div>
+<div ana="正親" n="39-1.13" subtype="項" type="条">
+<head ana="女王地"/>
+<p ana="項" corresp="engishiki_ja.xml#item39101301 engishiki_en.xml#item39101301" xml:id="item39101301">凡女王地一町、〈在左京北辺三坊、〉</p>
+</div>
+<div ana="正親" n="39-1.14" subtype="項" type="条">
+<head ana="闕官"/>
+<p ana="項" corresp="engishiki_ja.xml#item39101401 engishiki_en.xml#item39101401" xml:id="item39101401">凡闕官及不仕官人已下要劇番上料者、充修理司中小破并雑用、</p>
+</div>
+</div>
+</div>
+</body>
+</text>
+<facsimile source="https://khirin-a.rekihaku.ac.jp/iiif/rekihaku/H-743-74-39/manifest.json">
+<!--  巻39-2内膳とまったく同じなので、後ほど統合 -->
+<surface source="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-39/page5068" xml:id="page5068">
+<graphic url="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-39%2F00001.tif/full/full/0/default.jpg"/>
+</surface>
+<surface source="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-39/page5069" xml:id="page5069">
+<graphic url="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-39%2F00002.tif/full/full/0/default.jpg"/>
+</surface>
+<surface source="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-39/page5070" xml:id="page5070">
+<graphic url="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-39%2F00003.tif/full/full/0/default.jpg"/>
+</surface>
+<surface source="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-39/page5071" xml:id="page5071">
+<graphic url="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-39%2F00004.tif/full/full/0/default.jpg"/>
+</surface>
+<surface source="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-39/page5072" xml:id="page5072">
+<graphic url="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-39%2F00005.tif/full/full/0/default.jpg"/>
+</surface>
+<surface source="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-39/page5073" xml:id="page5073">
+<graphic url="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-39%2F00006.tif/full/full/0/default.jpg"/>
+</surface>
+<surface source="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-39/page5074" xml:id="page5074">
+<graphic url="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-39%2F00007.tif/full/full/0/default.jpg"/>
+</surface>
+<surface source="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-39/page5075" xml:id="page5075">
+<graphic url="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-39%2F00008.tif/full/full/0/default.jpg"/>
+</surface>
+<surface source="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-39/page5076" xml:id="page5076">
+<graphic url="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-39%2F00009.tif/full/full/0/default.jpg"/>
+</surface>
+<surface source="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-39/page5077" xml:id="page5077">
+<graphic url="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-39%2F00010.tif/full/full/0/default.jpg"/>
+</surface>
+<surface source="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-39/page5078" xml:id="page5078">
+<graphic url="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-39%2F00011.tif/full/full/0/default.jpg"/>
+</surface>
+<surface source="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-39/page5079" xml:id="page5079">
+<graphic url="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-39%2F00012.tif/full/full/0/default.jpg"/>
+</surface>
+<surface source="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-39/page5080" xml:id="page5080">
+<graphic url="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-39%2F00013.tif/full/full/0/default.jpg"/>
+</surface>
+<surface source="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-39/page5081" xml:id="page5081">
+<graphic url="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-39%2F00014.tif/full/full/0/default.jpg"/>
+</surface>
+<surface source="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-39/page5082" xml:id="page5082">
+<graphic url="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-39%2F00015.tif/full/full/0/default.jpg"/>
+</surface>
+<surface source="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-39/page5083" xml:id="page5083">
+<graphic url="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-39%2F00016.tif/full/full/0/default.jpg"/>
+</surface>
+<surface source="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-39/page5084" xml:id="page5084">
+<graphic url="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-39%2F00017.tif/full/full/0/default.jpg"/>
+</surface>
+<surface source="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-39/page5085" xml:id="page5085">
+<graphic url="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-39%2F00018.tif/full/full/0/default.jpg"/>
+</surface>
+<surface source="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-39/page5086" xml:id="page5086">
+<graphic url="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-39%2F00019.tif/full/full/0/default.jpg"/>
+</surface>
+<surface source="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-39/page5087" xml:id="page5087">
+<graphic url="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-39%2F00020.tif/full/full/0/default.jpg"/>
+</surface>
+<surface source="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-39/page5088" xml:id="page5088">
+<graphic url="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-39%2F00021.tif/full/full/0/default.jpg"/>
+</surface>
+<surface source="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-39/page5089" xml:id="page5089">
+<graphic url="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-39%2F00022.tif/full/full/0/default.jpg"/>
+</surface>
+<surface source="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-39/page5090" xml:id="page5090">
+<graphic url="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-39%2F00023.tif/full/full/0/default.jpg"/>
+</surface>
+<surface source="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-39/page5091" xml:id="page5091">
+<graphic url="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-39%2F00024.tif/full/full/0/default.jpg"/>
+</surface>
+<surface source="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-39/page5092" xml:id="page5092">
+<graphic url="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-39%2F00025.tif/full/full/0/default.jpg"/>
+</surface>
+<surface source="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-39/page5093" xml:id="page5093">
+<graphic url="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-39%2F00026.tif/full/full/0/default.jpg"/>
+</surface>
+<surface source="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-39/page5094" xml:id="page5094">
+<graphic url="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-39%2F00027.tif/full/full/0/default.jpg"/>
+</surface>
+<surface source="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-39/page5095" xml:id="page5095">
+<graphic url="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-39%2F00028.tif/full/full/0/default.jpg"/>
+</surface>
+<surface source="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-39/page5096" xml:id="page5096">
+<graphic url="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-39%2F00029.tif/full/full/0/default.jpg"/>
+</surface>
+</facsimile>
+</TEI>

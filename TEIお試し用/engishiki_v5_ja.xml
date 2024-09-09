@@ -1,0 +1,775 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>延喜式ファイル</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>国立歴史民俗博物館メタ資料学研究センター</publisher>
+                <idno type="PID">o:depcha.engi_shiki.1</idno>
+                <availability>
+                    <p/>
+                </availability>
+                <date when="2020-03-31">31 March 2020</date>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <settlement>千葉県佐倉市</settlement>
+                        <repository>国立歴史民俗博物館</repository>
+                        <collection>集英社版延喜式</collection>
+                    </msIdentifier>
+                    <msContents>
+                        <msItem>
+                            <author>藤原時平・藤原忠平</author>
+                            <title>延喜式</title>
+                            <note>
+                                <p>ここに史料の説明が入る。</p>
+                            </note>
+                        </msItem>
+                    </msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <variantEncoding method="location-referenced" location="external"/>
+            <editorialDecl>
+                <p>・校訂文に基づいて現代語訳を作成しました。条文番号・条文名称および項番号、また訳で使用する漢字の字体等は校訂文に従っています。原文の細字・割書を〈〉で括って示すことも校訂文と同様です。<lb/>
+                    ・各条条文番号・条文名にポインターを当てると、条文内容の把握の一助として条文概要がポップアップ表示されます。<lb/>
+                    ・本文のみで簡便に読み進めていける訳文を目指しました。訳出が困難な語句は原文（校訂文）のまま表示して適宜ルビを付し、補足的な説明を加えましたが、意訳で対応した場合もあります。<lb/>
+                    ・校訂文の標注は現代文では省略しています。<lb/> ・度量衡はそのまま表記しています。<lb/>
+                    （参考）『延喜式』の度量衡（訳注本掲載の正倉院伝来容器計測結果等に基づく）<lb/> 　長さ　1尺＝約29.7㎝　（1丈＝10尺、1尺＝10寸）<lb/>
+                    　距離　1里＝300歩＝約534ｍ　（1歩＝6尺）<lb/> 　面積　1町＝約1.2ha　（1町＝10段、1段＝360歩）<lb/>
+                    　容積　1升＝約800mℓ＝約0.8ℓ　（1斛＝10斗＝100升、1升＝10合＝100夕（勺））<lb/>
+                    　重さ　大1斤＝約674グラム　（1斤＝16両、1両＝4分、1分＝6銖）<lb/> 　　　　大1斤＝小3斤<lb/>
+                    　ほか　稲1束＝10把＝100分＝1000毛＝10000厘<lb/> 　　　　調綿1屯＝大4両<lb/> 　　　　細屯綿1屯＝大3両1分2銖＝小10両<lb/>
+                    　　　　庸綿1屯＝大5両2分＝小1斤2分<lb/> 　　　　糸1絇＝上糸大4両、中糸大5両、麁糸大7両<lb/> 　　　　鉄1廷＝大3斤5両<lb/>
+                    　　　　銭1貫＝1000文<lb/>
+                </p>
+                <p ana="個別"/>
+            </editorialDecl>
+        </encodingDesc>
+        <revisionDesc ana="個別">
+            <change/>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div ana="斎宮" n="5" subtype="条" type="式">
+                <head>斎宮</head>
+                <div ana="斎宮" n="5.1" subtype="項" type="条">
+                    <head ana="定斎王"/>
+                    <note type="summary">条文概要</note>
+                    <p ana="項" corresp="engishiki.xml#item05100101 engishiki_en.xml#item05100101"
+                        xml:id="item05100101">本文</p>
+                </div>
+                <div ana="斎宮" n="5.2" subtype="項" type="条">
+                    <head ana="祓料"/>
+                    <note type="summary">条文概要</note>
+                    <p ana="項" corresp="engishiki.xml#item05100201 engishiki_en.xml#item05100201"
+                        xml:id="item05100201">本文</p>
+                </div>
+                <div ana="斎宮" n="5.3" subtype="項" type="条">
+                    <head ana="祓禊"/>
+                    <note type="summary">条文概要</note>
+                    <p ana="項" corresp="engishiki.xml#item05100301 engishiki_en.xml#item05100301"
+                        xml:id="item05100301">本文</p>
+                </div>
+                <div ana="斎宮" n="5.4" subtype="項" type="条">
+                    <head ana="木綿賢木"/>
+                    <note type="summary">条文概要</note>
+                    <p ana="項" corresp="engishiki.xml#item05100401 engishiki_en.xml#item05100401"
+                        xml:id="item05100401">本文</p>
+                </div>
+                <div ana="斎宮" n="5.5" subtype="項" type="条">
+                    <head ana="忌詞"/>
+                    <note type="summary">条文概要</note>
+                    <p ana="項" corresp="engishiki.xml#item05100501 engishiki_en.xml#item05100501"
+                        xml:id="item05100501">本文</p>
+                </div>
+                <div ana="斎宮" n="5.6" subtype="項" type="条">
+                    <head ana="河頭祓"/>
+                    <note type="summary">条文概要</note>
+                    <p ana="項" corresp="engishiki.xml#item05100601 engishiki_en.xml#item05100601"
+                        xml:id="item05100601">本文</p>
+                </div>
+                <div ana="斎宮" n="5.7" subtype="項" type="条">
+                    <head ana="河頭祓料"/>
+                    <note type="summary">条文概要</note>
+                    <p ana="項" corresp="engishiki.xml#item05100701 engishiki_en.xml#item05100701"
+                        xml:id="item05100701">本文</p>
+                </div>
+                <div ana="斎宮" n="5.8" subtype="項" type="条">
+                    <head ana="初斎院祓清料"/>
+                    <note type="summary">条文概要</note>
+                    <p ana="項" corresp="engishiki.xml#item05100801 engishiki_en.xml#item05100801"
+                        xml:id="item05100801">本文</p>
+                </div>
+                <div ana="斎宮" n="5.9" subtype="項" type="条">
+                    <head ana="初斎院大殿祭"/>
+                    <note type="summary">条文概要</note>
+                    <p ana="項" corresp="engishiki.xml#item05100901 engishiki_en.xml#item05100901"
+                        xml:id="item05100901">本文</p>
+                </div>
+                <div ana="斎宮" n="5.10" subtype="項" type="条">
+                    <head ana="忌火等祭"/>
+                    <note type="summary">条文概要</note>
+                    <p ana="項" corresp="engishiki.xml#item05101001 engishiki_en.xml#item05101001"
+                        xml:id="item05101001">本文</p>
+                </div>
+                <div ana="斎宮" n="5.11" subtype="項" type="条">
+                    <head ana="庭火祭"/>
+                    <note type="summary">条文概要</note>
+                    <p ana="項" corresp="engishiki.xml#item05101101 engishiki_en.xml#item05101101"
+                        xml:id="item05101101">本文</p>
+                </div>
+                <div ana="斎宮" n="5.12" subtype="項" type="条">
+                    <head ana="解除料"/>
+                    <note type="summary">条文概要</note>
+                    <p ana="項" corresp="engishiki.xml#item05101201 engishiki_en.xml#item05101201"
+                        xml:id="item05101201">本文</p>
+                </div>
+                <div ana="斎宮" n="5.13" subtype="項" type="条">
+                    <head ana="臨時祓料"/>
+                    <note type="summary">条文概要</note>
+                    <p ana="項" corresp="engishiki.xml#item05101301 engishiki_en.xml#item05101301"
+                        xml:id="item05101301">本文</p>
+                </div>
+                <div ana="斎宮" n="5.14" subtype="項" type="条">
+                    <head ana="初斎院装束"/>
+                    <note type="summary">条文概要</note>
+                    <p ana="項" corresp="engishiki.xml#item05101401 engishiki_en.xml#item05101401"
+                        xml:id="item05101401">本文</p>
+                </div>
+                <div ana="斎宮" n="5.15" subtype="項" type="条">
+                    <head ana="別当以下員"/>
+                    <note type="summary">条文概要</note>
+                    <p ana="項" corresp="engishiki.xml#item05101501 engishiki_en.xml#item05101501"
+                        xml:id="item05101501">本文</p>
+                </div>
+                <div ana="斎宮" n="5.16" subtype="項" type="条">
+                    <head ana="食法"/>
+                    <note type="summary">条文概要</note>
+                    <p ana="項" corresp="engishiki.xml#item05101601 engishiki_en.xml#item05101601"
+                        xml:id="item05101601">本文</p>
+                </div>
+                <div ana="斎宮" n="5.17" subtype="項" type="条">
+                    <head ana="鎮野宮地祭"/>
+                    <note type="summary">条文概要</note>
+                    <p ana="項" corresp="engishiki.xml#item05101701 engishiki_en.xml#item05101701"
+                        xml:id="item05101701">本文</p>
+                </div>
+                <div ana="斎宮" n="5.18" subtype="項" type="条">
+                    <head ana="造野宮畢祓料"/>
+                    <note type="summary">条文概要</note>
+                    <p ana="項" corresp="engishiki.xml#item05101801 engishiki_en.xml#item05101801"
+                        xml:id="item05101801">本文</p>
+                </div>
+                <div ana="斎宮" n="5.19" subtype="項" type="条">
+                    <head ana="野宮河頭禊"/>
+                    <note type="summary">条文概要</note>
+                    <p ana="項" corresp="engishiki.xml#item05101901 engishiki_en.xml#item05101901"
+                        xml:id="item05101901">本文</p>
+                </div>
+                <div ana="斎宮" n="5.20" subtype="項" type="条">
+                    <head ana="野宮河頭禊祓料"/>
+                    <note type="summary">条文概要</note>
+                    <p ana="項" corresp="engishiki.xml#item05102001 engishiki_en.xml#item05102001"
+                        xml:id="item05102001">本文</p>
+                </div>
+                <div ana="斎宮" n="5.21" subtype="項" type="条">
+                    <head ana="野宮祓清料"/>
+                    <note type="summary">条文概要</note>
+                    <p ana="項" corresp="engishiki.xml#item05102101 engishiki_en.xml#item05102101"
+                        xml:id="item05102101">本文</p>
+                </div>
+                <div ana="斎宮" n="5.22" subtype="項" type="条">
+                    <head ana="野宮祈年祭"/>
+                    <note type="summary">条文概要</note>
+                    <p ana="項" corresp="engishiki.xml#item05102201 engishiki_en.xml#item05102201"
+                        xml:id="item05102201">本文</p>
+                </div>
+                <div ana="斎宮" n="5.23" subtype="項" type="条">
+                    <head ana="月次祭"/>
+                    <note type="summary">条文概要</note>
+                    <p ana="項" corresp="engishiki.xml#item05102301 engishiki_en.xml#item05102301"
+                        xml:id="item05102301">本文</p>
+                </div>
+                <div ana="斎宮" n="5.24" subtype="項" type="条">
+                    <head ana="月次祭大殿祭"/>
+                    <note type="summary">条文概要</note>
+                    <p ana="項" corresp="engishiki.xml#item05102401 engishiki_en.xml#item05102401"
+                        xml:id="item05102401">本文</p>
+                </div>
+                <div ana="斎宮" n="5.25" subtype="項" type="条">
+                    <head ana="御贖料"/>
+                    <note type="summary">条文概要</note>
+                    <p ana="項" corresp="engishiki.xml#item05102501 engishiki_en.xml#item05102501"
+                        xml:id="item05102501">本文</p>
+                </div>
+                <div ana="斎宮" n="5.26" subtype="項" type="条">
+                    <head ana="大祓"/>
+                    <note type="summary">条文概要</note>
+                    <p ana="項" corresp="engishiki.xml#item05102601 engishiki_en.xml#item05102601"
+                        xml:id="item05102601">本文</p>
+                </div>
+                <div ana="斎宮" n="5.27" subtype="項" type="条">
+                    <head ana="鎮火祭"/>
+                    <note type="summary">条文概要</note>
+                    <p ana="項" corresp="engishiki.xml#item05102701 engishiki_en.xml#item05102701"
+                        xml:id="item05102701">本文</p>
+                </div>
+                <div ana="斎宮" n="5.28" subtype="項" type="条">
+                    <head ana="道饗祭"/>
+                    <note type="summary">条文概要</note>
+                    <p ana="項" corresp="engishiki.xml#item05102801 engishiki_en.xml#item05102801"
+                        xml:id="item05102801">本文</p>
+                </div>
+                <div ana="斎宮" n="5.29" subtype="項" type="条">
+                    <head ana="野宮新嘗祭"/>
+                    <note type="summary">条文概要</note>
+                    <p ana="項" corresp="engishiki.xml#item05102901 engishiki_en.xml#item05102901"
+                        xml:id="item05102901">本文</p>
+                </div>
+                <div ana="斎宮" n="5.30" subtype="項" type="条">
+                    <head ana="野宮供新嘗料"/>
+                    <note type="summary">条文概要</note>
+                    <p ana="項" corresp="engishiki.xml#item05103001 engishiki_en.xml#item05103001"
+                        xml:id="item05103001">本文</p>
+                </div>
+                <div ana="斎宮" n="5.31" subtype="項" type="条">
+                    <head ana="新嘗祭大殿祭"/>
+                    <note type="summary">条文概要</note>
+                    <p ana="項" corresp="engishiki.xml#item05103101 engishiki_en.xml#item05103101"
+                        xml:id="item05103101">本文</p>
+                </div>
+                <div ana="斎宮" n="5.32" subtype="項" type="条">
+                    <head ana="主神司月料"/>
+                    <note type="summary">条文概要</note>
+                    <p ana="項" corresp="engishiki.xml#item05103201 engishiki_en.xml#item05103201"
+                        xml:id="item05103201">本文</p>
+                </div>
+                <div ana="斎宮" n="5.33" subtype="項" type="条">
+                    <head ana="鎮炊殿祭"/>
+                    <note type="summary">条文概要</note>
+                    <p ana="項" corresp="engishiki.xml#item05103301 engishiki_en.xml#item05103301"
+                        xml:id="item05103301">本文</p>
+                </div>
+                <div ana="斎宮" n="5.34" subtype="項" type="条">
+                    <head ana="忌火庭火祭"/>
+                    <note type="summary">条文概要</note>
+                    <p ana="項" corresp="engishiki.xml#item05103401 engishiki_en.xml#item05103401"
+                        xml:id="item05103401">本文</p>
+                </div>
+                <div ana="斎宮" n="5.35" subtype="項" type="条">
+                    <head ana="卜戸座火炬"/>
+                    <note type="summary">条文概要</note>
+                    <p ana="項" corresp="engishiki.xml#item05103501 engishiki_en.xml#item05103501"
+                        xml:id="item05103501">本文</p>
+                </div>
+                <div ana="斎宮" n="5.36" subtype="項" type="条">
+                    <head ana="野宮装束"/>
+                    <note type="summary">条文概要</note>
+                    <p ana="項" corresp="engishiki.xml#item05103601 engishiki_en.xml#item05103601"
+                        xml:id="item05103601">本文</p>
+                </div>
+                <div ana="斎宮" n="5.37" subtype="項" type="条">
+                    <head ana="野宮年料供物"/>
+                    <note type="summary">条文概要</note>
+                    <p ana="項" corresp="engishiki.xml#item05103701 engishiki_en.xml#item05103701"
+                        xml:id="item05103701">本文</p>
+                    <p ana="項" corresp="engishiki.xml#item05103702 engishiki_en.xml#item05103702"
+                        xml:id="item05103702">本文</p>
+                    <p ana="項" corresp="engishiki.xml#item05103703 engishiki_en.xml#item05103703"
+                        xml:id="item05103703">本文</p>
+                    <p ana="項" corresp="engishiki.xml#item05103704 engishiki_en.xml#item05103704"
+                        xml:id="item05103704">本文</p>
+                    <p ana="項" corresp="engishiki.xml#item05103705 engishiki_en.xml#item05103705"
+                        xml:id="item05103705">本文</p>
+                    <p ana="項" corresp="engishiki.xml#item05103706 engishiki_en.xml#item05103706"
+                        xml:id="item05103706">本文</p>
+                    <p ana="項" corresp="engishiki.xml#item05103707 engishiki_en.xml#item05103707"
+                        xml:id="item05103707">本文</p>
+                </div>
+                <div ana="斎宮" n="5.38" subtype="項" type="条">
+                    <head ana="野宮月料"/>
+                    <note type="summary">条文概要</note>
+                    <p ana="項" corresp="engishiki.xml#item05103801 engishiki_en.xml#item05103801"
+                        xml:id="item05103801">本文</p>
+                </div>
+                <div ana="斎宮" n="5.39" subtype="項" type="条">
+                    <head ana="正月三節料"/>
+                    <note type="summary">条文概要</note>
+                    <p ana="項" corresp="engishiki.xml#item05103901 engishiki_en.xml#item05103901"
+                        xml:id="item05103901">本文</p>
+                </div>
+                <div ana="斎宮" n="5.40" subtype="項" type="条">
+                    <head ana="五月節"/>
+                    <note type="summary">条文概要</note>
+                    <p ana="項" corresp="engishiki.xml#item05104001 engishiki_en.xml#item05104001"
+                        xml:id="item05104001">本文</p>
+                </div>
+                <div ana="斎宮" n="5.41" subtype="項" type="条">
+                    <head ana="七月節"/>
+                    <note type="summary">条文概要</note>
+                    <p ana="項" corresp="engishiki.xml#item05104101 engishiki_en.xml#item05104101"
+                        xml:id="item05104101">本文</p>
+                </div>
+                <div ana="斎宮" n="5.42" subtype="項" type="条">
+                    <head ana="斎終行事"/>
+                    <note type="summary">条文概要</note>
+                    <p ana="項" corresp="engishiki.xml#item05104201 engishiki_en.xml#item05104201"
+                        xml:id="item05104201">本文</p>
+                </div>
+                <div ana="斎宮" n="5.43" subtype="項" type="条">
+                    <head ana="造備雑物"/>
+                    <note type="summary">条文概要</note>
+                    <p ana="項" corresp="engishiki.xml#item05104301 engishiki_en.xml#item05104301"
+                        xml:id="item05104301">本文</p>
+                    <p ana="項" corresp="engishiki.xml#item05104302 engishiki_en.xml#item05104302"
+                        xml:id="item05104302">本文</p>
+                    <p ana="項" corresp="engishiki.xml#item05104303 engishiki_en.xml#item05104303"
+                        xml:id="item05104303">本文</p>
+                    <p ana="項" corresp="engishiki.xml#item05104304 engishiki_en.xml#item05104304"
+                        xml:id="item05104304">本文</p>
+                    <p ana="項" corresp="engishiki.xml#item05104305 engishiki_en.xml#item05104305"
+                        xml:id="item05104305">本文</p>
+                    <p ana="項" corresp="engishiki.xml#item05104306 engishiki_en.xml#item05104306"
+                        xml:id="item05104306">本文</p>
+                    <p ana="項" corresp="engishiki.xml#item05104307 engishiki_en.xml#item05104307"
+                        xml:id="item05104307">本文</p>
+                </div>
+                <div ana="斎宮" n="5.44" subtype="項" type="条">
+                    <head ana="御馬"/>
+                    <note type="summary">条文概要</note>
+                    <p ana="項" corresp="engishiki.xml#item05104401 engishiki_en.xml#item05104401"
+                        xml:id="item05104401">本文</p>
+                </div>
+                <div ana="斎宮" n="5.45" subtype="項" type="条">
+                    <head ana="潔斎三年"/>
+                    <note type="summary">条文概要</note>
+                    <p ana="項" corresp="engishiki.xml#item05104501 engishiki_en.xml#item05104501"
+                        xml:id="item05104501">本文</p>
+                </div>
+                <div ana="斎宮" n="5.46" subtype="項" type="条">
+                    <head ana="弁備雑事"/>
+                    <note type="summary">条文概要</note>
+                    <p ana="項" corresp="engishiki.xml#item05104601 engishiki_en.xml#item05104601"
+                        xml:id="item05104601">本文</p>
+                </div>
+                <div ana="斎宮" n="5.47" subtype="項" type="条">
+                    <head ana="河頭禊"/>
+                    <note type="summary">条文概要</note>
+                    <p ana="項" corresp="engishiki.xml#item05104701 engishiki_en.xml#item05104701"
+                        xml:id="item05104701">本文</p>
+                </div>
+                <div ana="斎宮" n="5.48" subtype="項" type="条">
+                    <head ana="河頭禊祓料"/>
+                    <note type="summary">条文概要</note>
+                    <p ana="項" corresp="engishiki.xml#item05104801 engishiki_en.xml#item05104801"
+                        xml:id="item05104801">本文</p>
+                </div>
+                <div ana="斎宮" n="5.49" subtype="項" type="条">
+                    <head ana="大祓使"/>
+                    <note type="summary">条文概要</note>
+                    <p ana="項" corresp="engishiki.xml#item05104901 engishiki_en.xml#item05104901"
+                        xml:id="item05104901">本文</p>
+                </div>
+                <div ana="斎宮" n="5.50" subtype="項" type="条">
+                    <head ana="朝庭大祓料"/>
+                    <note type="summary">条文概要</note>
+                    <p ana="項" corresp="engishiki.xml#item05105001 engishiki_en.xml#item05105001"
+                        xml:id="item05105001">本文</p>
+                </div>
+                <div ana="斎宮" n="5.51" subtype="項" type="条">
+                    <head ana="斎宮修理"/>
+                    <note type="summary">条文概要</note>
+                    <p ana="項" corresp="engishiki.xml#item05105101 engishiki_en.xml#item05105101"
+                        xml:id="item05105101">本文</p>
+                </div>
+                <div ana="斎宮" n="5.52" subtype="項" type="条">
+                    <head ana="勢江州忌"/>
+                    <note type="summary">条文概要</note>
+                    <p ana="項" corresp="engishiki.xml#item05105201 engishiki_en.xml#item05105201"
+                        xml:id="item05105201">本文</p>
+                </div>
+                <div ana="斎宮" n="5.53" subtype="項" type="条">
+                    <head ana="頓宮"/>
+                    <note type="summary">条文概要</note>
+                    <p ana="項" corresp="engishiki.xml#item05105301 engishiki_en.xml#item05105301"
+                        xml:id="item05105301">本文</p>
+                </div>
+                <div ana="斎宮" n="5.54" subtype="項" type="条">
+                    <head ana="監送使"/>
+                    <note type="summary">条文概要</note>
+                    <p ana="項" corresp="engishiki.xml#item05105401 engishiki_en.xml#item05105401"
+                        xml:id="item05105401">本文</p>
+                    <p ana="項" corresp="engishiki.xml#item05105402 engishiki_en.xml#item05105402"
+                        xml:id="item05105402">本文</p>
+                    <p ana="項" corresp="engishiki.xml#item05105403 engishiki_en.xml#item05105403"
+                        xml:id="item05105403">本文</p>
+                </div>
+                <div ana="斎宮" n="5.55" subtype="項" type="条">
+                    <head ana="給馬"/>
+                    <note type="summary">条文概要</note>
+                    <p ana="項" corresp="engishiki.xml#item05105501 engishiki_en.xml#item05105501"
+                        xml:id="item05105501">本文</p>
+                </div>
+                <div ana="斎宮" n="5.56" subtype="項" type="条">
+                    <head ana="神嘗祭使"/>
+                    <note type="summary">条文概要</note>
+                    <p ana="項" corresp="engishiki.xml#item05105601 engishiki_en.xml#item05105601"
+                        xml:id="item05105601">本文</p>
+                </div>
+                <div ana="斎宮" n="5.57" subtype="項" type="条">
+                    <head ana="斎十八箇日"/>
+                    <note type="summary">条文概要</note>
+                    <p ana="項" corresp="engishiki.xml#item05105701 engishiki_en.xml#item05105701"
+                        xml:id="item05105701">本文</p>
+                </div>
+                <div ana="斎宮" n="5.58" subtype="項" type="条">
+                    <head ana="発日"/>
+                    <note type="summary">条文概要</note>
+                    <p ana="項" corresp="engishiki.xml#item05105801 engishiki_en.xml#item05105801"
+                        xml:id="item05105801">本文</p>
+                </div>
+                <div ana="斎宮" n="5.59" subtype="項" type="条">
+                    <head ana="六処堺川"/>
+                    <note type="summary">条文概要</note>
+                    <p ana="項" corresp="engishiki.xml#item05105901 engishiki_en.xml#item05105901"
+                        xml:id="item05105901">本文</p>
+                </div>
+                <div ana="斎宮" n="5.60" subtype="項" type="条">
+                    <head ana="鎮祓"/>
+                    <note type="summary">条文概要</note>
+                    <p ana="項" corresp="engishiki.xml#item05106001 engishiki_en.xml#item05106001"
+                        xml:id="item05106001">本文</p>
+                    <p ana="項" corresp="engishiki.xml#item05106002 engishiki_en.xml#item05106002"
+                        xml:id="item05106002">本文</p>
+                </div>
+                <div ana="斎宮" n="5.61" subtype="項" type="条">
+                    <head ana="祈年祭神"/>
+                    <note type="summary">条文概要</note>
+                    <p ana="項" corresp="engishiki.xml#item05106101 engishiki_en.xml#item05106101"
+                        xml:id="item05106101">本文</p>
+                    <p ana="項" corresp="engishiki.xml#item05106102 engishiki_en.xml#item05106102"
+                        xml:id="item05106102">本文</p>
+                    <p ana="項" corresp="engishiki.xml#item05106103 engishiki_en.xml#item05106103"
+                        xml:id="item05106103">本文</p>
+                    <p ana="項" corresp="engishiki.xml#item05106104 engishiki_en.xml#item05106104"
+                        xml:id="item05106104">本文</p>
+                    <p ana="項" corresp="engishiki.xml#item05106105 engishiki_en.xml#item05106105"
+                        xml:id="item05106105">本文</p>
+                </div>
+                <div ana="斎宮" n="5.62" subtype="項" type="条">
+                    <head ana="三時祭禊料"/>
+                    <note type="summary">条文概要</note>
+                    <p ana="項" corresp="engishiki.xml#item05106201 engishiki_en.xml#item05106201"
+                        xml:id="item05106201">本文</p>
+                    <p ana="項" corresp="engishiki.xml#item05106202 engishiki_en.xml#item05106202"
+                        xml:id="item05106202">本文</p>
+                    <p ana="項" corresp="engishiki.xml#item05106203 engishiki_en.xml#item05106203"
+                        xml:id="item05106203">本文</p>
+                    <p ana="項" corresp="engishiki.xml#item05106204 engishiki_en.xml#item05106204"
+                        xml:id="item05106204">本文</p>
+                    <p ana="項" corresp="engishiki.xml#item05106205 engishiki_en.xml#item05106205"
+                        xml:id="item05106205">本文</p>
+                    <p ana="項" corresp="engishiki.xml#item05106206 engishiki_en.xml#item05106206"
+                        xml:id="item05106206">本文</p>
+                </div>
+                <div ana="斎宮" n="5.63" subtype="項" type="条">
+                    <head ana="卜庭神祭"/>
+                    <note type="summary">条文概要</note>
+                    <p ana="項" corresp="engishiki.xml#item05106301 engishiki_en.xml#item05106301"
+                        xml:id="item05106301">本文</p>
+                </div>
+                <div ana="斎宮" n="5.64" subtype="項" type="条">
+                    <head ana="十月祓料"/>
+                    <note type="summary">条文概要</note>
+                    <p ana="項" corresp="engishiki.xml#item05106401 engishiki_en.xml#item05106401"
+                        xml:id="item05106401">本文</p>
+                </div>
+                <div ana="斎宮" n="5.65" subtype="項" type="条">
+                    <head ana="新嘗祭"/>
+                    <note type="summary">条文概要</note>
+                    <p ana="項" corresp="engishiki.xml#item05106501 engishiki_en.xml#item05106501"
+                        xml:id="item05106501">本文</p>
+                </div>
+                <div ana="斎宮" n="5.66" subtype="項" type="条">
+                    <head ana="供新嘗料"/>
+                    <note type="summary">条文概要</note>
+                    <p ana="項" corresp="engishiki.xml#item05106601 engishiki_en.xml#item05106601"
+                        xml:id="item05106601">本文</p>
+                    <p ana="項" corresp="engishiki.xml#item05106602 engishiki_en.xml#item05106602"
+                        xml:id="item05106602">本文</p>
+                    <p ana="項" corresp="engishiki.xml#item05106603 engishiki_en.xml#item05106603"
+                        xml:id="item05106603">本文</p>
+                    <p ana="項" corresp="engishiki.xml#item05106604 engishiki_en.xml#item05106604"
+                        xml:id="item05106604">本文</p>
+                    <p ana="項" corresp="engishiki.xml#item05106605 engishiki_en.xml#item05106605"
+                        xml:id="item05106605">本文</p>
+                    <p ana="項" corresp="engishiki.xml#item05106606 engishiki_en.xml#item05106606"
+                        xml:id="item05106606">本文</p>
+                    <p ana="項" corresp="engishiki.xml#item05106607 engishiki_en.xml#item05106607"
+                        xml:id="item05106607">本文</p>
+                </div>
+                <div ana="斎宮" n="5.67" subtype="項" type="条">
+                    <head ana="諸司春祭"/>
+                    <note type="summary">条文概要</note>
+                    <p ana="項" corresp="engishiki.xml#item05106701 engishiki_en.xml#item05106701"
+                        xml:id="item05106701">本文</p>
+                    <p ana="項" corresp="engishiki.xml#item05106702 engishiki_en.xml#item05106702"
+                        xml:id="item05106702">本文</p>
+                    <p ana="項" corresp="engishiki.xml#item05106703 engishiki_en.xml#item05106703"
+                        xml:id="item05106703">本文</p>
+                    <p ana="項" corresp="engishiki.xml#item05106704 engishiki_en.xml#item05106704"
+                        xml:id="item05106704">本文</p>
+                    <p ana="項" corresp="engishiki.xml#item05106705 engishiki_en.xml#item05106705"
+                        xml:id="item05106705">本文</p>
+                    <p ana="項" corresp="engishiki.xml#item05106706 engishiki_en.xml#item05106706"
+                        xml:id="item05106706">本文</p>
+                </div>
+                <div ana="斎宮" n="5.68" subtype="項" type="条">
+                    <head ana="大神宮幣"/>
+                    <note type="summary">条文概要</note>
+                    <p ana="項" corresp="engishiki.xml#item05106801 engishiki_en.xml#item05106801"
+                        xml:id="item05106801">本文</p>
+                </div>
+                <div ana="斎宮" n="5.69" subtype="項" type="条">
+                    <head ana="斎宮諸神幣"/>
+                    <note type="summary">条文概要</note>
+                    <p ana="項" corresp="engishiki.xml#item05106901 engishiki_en.xml#item05106901"
+                        xml:id="item05106901">本文</p>
+                </div>
+                <div ana="斎宮" n="5.70" subtype="項" type="条">
+                    <head ana="斎宮鋪設等"/>
+                    <note type="summary">条文概要</note>
+                    <p ana="項" corresp="engishiki.xml#item05107001 engishiki_en.xml#item05107001"
+                        xml:id="item05107001">本文</p>
+                    <p ana="項" corresp="engishiki.xml#item05107002 engishiki_en.xml#item05107002"
+                        xml:id="item05107002">本文</p>
+                    <p ana="項" corresp="engishiki.xml#item05107003 engishiki_en.xml#item05107003"
+                        xml:id="item05107003">本文</p>
+                </div>
+                <div ana="斎宮" n="5.71" subtype="項" type="条">
+                    <head ana="年料供物"/>
+                    <note type="summary">条文概要</note>
+                    <p ana="項" corresp="engishiki.xml#item05107101 engishiki_en.xml#item05107101"
+                        xml:id="item05107101">本文</p>
+                    <p ana="項" corresp="engishiki.xml#item05107102 engishiki_en.xml#item05107102"
+                        xml:id="item05107102">本文</p>
+                    <p ana="項" corresp="engishiki.xml#item05107103 engishiki_en.xml#item05107103"
+                        xml:id="item05107103">本文</p>
+                    <p ana="項" corresp="engishiki.xml#item05107104 engishiki_en.xml#item05107104"
+                        xml:id="item05107104">本文</p>
+                    <p ana="項" corresp="engishiki.xml#item05107105 engishiki_en.xml#item05107105"
+                        xml:id="item05107105">本文</p>
+                    <p ana="項" corresp="engishiki.xml#item05107106 engishiki_en.xml#item05107106"
+                        xml:id="item05107106">本文</p>
+                    <p ana="項" corresp="engishiki.xml#item05107107 engishiki_en.xml#item05107107"
+                        xml:id="item05107107">本文</p>
+                    <p ana="項" corresp="engishiki.xml#item05107108 engishiki_en.xml#item05107108"
+                        xml:id="item05107108">本文</p>
+                    <p ana="項" corresp="engishiki.xml#item05107109 engishiki_en.xml#item05107109"
+                        xml:id="item05107109">本文</p>
+                    <p ana="項" corresp="engishiki.xml#item05107110 engishiki_en.xml#item05107110"
+                        xml:id="item05107110">本文</p>
+                </div>
+                <div ana="斎宮" n="5.72" subtype="項" type="条">
+                    <head ana="月料節料"/>
+                    <note type="summary">条文概要</note>
+                    <p ana="項" corresp="engishiki.xml#item05107201 engishiki_en.xml#item05107201"
+                        xml:id="item05107201">本文</p>
+                </div>
+                <div ana="斎宮" n="5.73" subtype="項" type="条">
+                    <head ana="元日"/>
+                    <note type="summary">条文概要</note>
+                    <p ana="項" corresp="engishiki.xml#item05107301 engishiki_en.xml#item05107301"
+                        xml:id="item05107301">本文</p>
+                </div>
+                <div ana="斎宮" n="5.74" subtype="項" type="条">
+                    <head ana="六月"/>
+                    <note type="summary">条文概要</note>
+                    <p ana="項" corresp="engishiki.xml#item05107401 engishiki_en.xml#item05107401"
+                        xml:id="item05107401">本文</p>
+                </div>
+                <div ana="斎宮" n="5.75" subtype="項" type="条">
+                    <head ana="九月祭"/>
+                    <note type="summary">条文概要</note>
+                    <p ana="項" corresp="engishiki.xml#item05107501 engishiki_en.xml#item05107501"
+                        xml:id="item05107501">本文</p>
+                </div>
+                <div ana="斎宮" n="5.76" subtype="項" type="条">
+                    <head ana="官人禄"/>
+                    <note type="summary">条文概要</note>
+                    <p ana="項" corresp="engishiki.xml#item05107601 engishiki_en.xml#item05107601"
+                        xml:id="item05107601">本文</p>
+                </div>
+                <div ana="斎宮" n="5.77" subtype="項" type="条">
+                    <head ana="供田墾田"/>
+                    <note type="summary">条文概要</note>
+                    <p ana="項" corresp="engishiki.xml#item05107701 engishiki_en.xml#item05107701"
+                        xml:id="item05107701">本文</p>
+                </div>
+                <div ana="斎宮" n="5.78" subtype="項" type="条">
+                    <head ana="調庸雑物"/>
+                    <note type="summary">条文概要</note>
+                    <p ana="項" corresp="engishiki.xml#item05107801 engishiki_en.xml#item05107801"
+                        xml:id="item05107801">本文</p>
+                    <p ana="項" corresp="engishiki.xml#item05107802 engishiki_en.xml#item05107802"
+                        xml:id="item05107802">本文</p>
+                    <p ana="項" corresp="engishiki.xml#item05107803 engishiki_en.xml#item05107803"
+                        xml:id="item05107803">本文</p>
+                    <p ana="項" corresp="engishiki.xml#item05107804 engishiki_en.xml#item05107804"
+                        xml:id="item05107804">本文</p>
+                    <p ana="項" corresp="engishiki.xml#item05107805 engishiki_en.xml#item05107805"
+                        xml:id="item05107805">本文</p>
+                </div>
+                <div ana="斎宮" n="5.79" subtype="項" type="条">
+                    <head ana="官人入京"/>
+                    <note type="summary">条文概要</note>
+                    <p ana="項" corresp="engishiki.xml#item05107901 engishiki_en.xml#item05107901"
+                        xml:id="item05107901">本文</p>
+                    <p ana="項" corresp="engishiki.xml#item05107902 engishiki_en.xml#item05107902"
+                        xml:id="item05107902">本文</p>
+                    <p ana="項" corresp="engishiki.xml#item05107903 engishiki_en.xml#item05107903"
+                        xml:id="item05107903">本文</p>
+                    <p ana="項" corresp="engishiki.xml#item05107904 engishiki_en.xml#item05107904"
+                        xml:id="item05107904">本文</p>
+                    <p ana="項" corresp="engishiki.xml#item05107905 engishiki_en.xml#item05107905"
+                        xml:id="item05107905">本文</p>
+                </div>
+                <div ana="斎宮" n="5.80" subtype="項" type="条">
+                    <head ana="戸座炬火"/>
+                    <note type="summary">条文概要</note>
+                    <p ana="項" corresp="engishiki.xml#item05108001 engishiki_en.xml#item05108001"
+                        xml:id="item05108001">本文</p>
+                </div>
+                <div ana="斎宮" n="5.81" subtype="項" type="条">
+                    <head ana="名簿"/>
+                    <note type="summary">条文概要</note>
+                    <p ana="項" corresp="engishiki.xml#item05108101 engishiki_en.xml#item05108101"
+                        xml:id="item05108101">本文</p>
+                </div>
+                <div ana="斎宮" n="5.82" subtype="項" type="条">
+                    <head ana="最合"/>
+                    <note type="summary">条文概要</note>
+                    <p ana="項" corresp="engishiki.xml#item05108201 engishiki_en.xml#item05108201"
+                        xml:id="item05108201">本文</p>
+                </div>
+                <div ana="斎宮" n="5.83" subtype="項" type="条">
+                    <head ana="封戸"/>
+                    <note type="summary">条文概要</note>
+                    <p ana="項" corresp="engishiki.xml#item05108301 engishiki_en.xml#item05108301"
+                        xml:id="item05108301">本文</p>
+                </div>
+                <div ana="斎宮" n="5.84" subtype="項" type="条">
+                    <head ana="神殿勤守"/>
+                    <note type="summary">条文概要</note>
+                    <p ana="項" corresp="engishiki.xml#item05108401 engishiki_en.xml#item05108401"
+                        xml:id="item05108401">本文</p>
+                </div>
+                <div ana="斎宮" n="5.85" subtype="項" type="条">
+                    <head ana="諸司雑舎"/>
+                    <note type="summary">条文概要</note>
+                    <p ana="項" corresp="engishiki.xml#item05108501 engishiki_en.xml#item05108501"
+                        xml:id="item05108501">本文</p>
+                </div>
+                <div ana="斎宮" n="5.86" subtype="項" type="条">
+                    <head ana="中重庭"/>
+                    <note type="summary">条文概要</note>
+                    <p ana="項" corresp="engishiki.xml#item05108601 engishiki_en.xml#item05108601"
+                        xml:id="item05108601">本文</p>
+                </div>
+                <div ana="斎宮" n="5.87" subtype="項" type="条">
+                    <head ana="御膳"/>
+                    <note type="summary">条文概要</note>
+                    <p ana="項" corresp="engishiki.xml#item05108701 engishiki_en.xml#item05108701"
+                        xml:id="item05108701">本文</p>
+                </div>
+                <div ana="斎宮" n="5.88" subtype="項" type="条">
+                    <head ana="殖樹木"/>
+                    <note type="summary">条文概要</note>
+                    <p ana="項" corresp="engishiki.xml#item05108801 engishiki_en.xml#item05108801"
+                        xml:id="item05108801">本文</p>
+                </div>
+                <div ana="斎宮" n="5.89" subtype="項" type="条">
+                    <head ana="修理"/>
+                    <note type="summary">条文概要</note>
+                    <p ana="項" corresp="engishiki.xml#item05108901 engishiki_en.xml#item05108901"
+                        xml:id="item05108901">本文</p>
+                </div>
+                <div ana="斎宮" n="5.90" subtype="項" type="条">
+                    <head ana="雑物注載"/>
+                    <note type="summary">条文概要</note>
+                    <p ana="項" corresp="engishiki.xml#item05109001 engishiki_en.xml#item05109001"
+                        xml:id="item05109001">本文</p>
+                </div>
+                <div ana="斎宮" n="5.91" subtype="項" type="条">
+                    <head ana="月俸衣服"/>
+                    <note type="summary">条文概要</note>
+                    <p ana="項" corresp="engishiki.xml#item05109101 engishiki_en.xml#item05109101"
+                        xml:id="item05109101">本文</p>
+                </div>
+                <div ana="斎宮" n="5.92" subtype="項" type="条">
+                    <head ana="秣蒭"/>
+                    <note type="summary">条文概要</note>
+                    <p ana="項" corresp="engishiki.xml#item05109201 engishiki_en.xml#item05109201"
+                        xml:id="item05109201">本文</p>
+                </div>
+                <div ana="斎宮" n="5.93" subtype="項" type="条">
+                    <head ana="賜宴禄"/>
+                    <note type="summary">条文概要</note>
+                    <p ana="項" corresp="engishiki.xml#item05109301 engishiki_en.xml#item05109301"
+                        xml:id="item05109301">本文</p>
+                </div>
+                <div ana="斎宮" n="5.94" subtype="項" type="条">
+                    <head ana="殴闘"/>
+                    <note type="summary">条文概要</note>
+                    <p ana="項" corresp="engishiki.xml#item05109401 engishiki_en.xml#item05109401"
+                        xml:id="item05109401">本文</p>
+                </div>
+                <div ana="斎宮" n="5.95" subtype="項" type="条">
+                    <head ana="密婚"/>
+                    <note type="summary">条文概要</note>
+                    <p ana="項" corresp="engishiki.xml#item05109501 engishiki_en.xml#item05109501"
+                        xml:id="item05109501">本文</p>
+                </div>
+                <div ana="斎宮" n="5.96" subtype="項" type="条">
+                    <head ana="失火穢"/>
+                    <note type="summary">条文概要</note>
+                    <p ana="項" corresp="engishiki.xml#item05109601 engishiki_en.xml#item05109601"
+                        xml:id="item05109601">本文</p>
+                </div>
+                <div ana="斎宮" n="5.97" subtype="項" type="条">
+                    <head ana="斎王相代"/>
+                    <note type="summary">条文概要</note>
+                    <p ana="項" corresp="engishiki.xml#item05109701 engishiki_en.xml#item05109701"
+                        xml:id="item05109701">本文</p>
+                </div>
+                <div ana="斎宮" n="5.98" subtype="項" type="条">
+                    <head ana="納印"/>
+                    <note type="summary">条文概要</note>
+                    <p ana="項" corresp="engishiki.xml#item05109801 engishiki_en.xml#item05109801"
+                        xml:id="item05109801">本文</p>
+                </div>
+                <div ana="斎宮" n="5.99" subtype="項" type="条">
+                    <head ana="遣使"/>
+                    <note type="summary">条文概要</note>
+                    <p ana="項" corresp="engishiki.xml#item05109901 engishiki_en.xml#item05109901"
+                        xml:id="item05109901">本文</p>
+                </div>
+                <div ana="斎宮" n="5.100" subtype="項" type="条">
+                    <head ana="給雑物"/>
+                    <note type="summary">条文概要</note>
+                    <p ana="項" corresp="engishiki.xml#item05110001 engishiki_en.xml#item05110001"
+                        xml:id="item05110001">本文</p>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>
