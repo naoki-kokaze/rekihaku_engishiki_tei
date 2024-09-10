@@ -1,1504 +1,1119 @@
 <?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
-	schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
-    <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title>延喜式ファイル</title>
-            </titleStmt>
-            <publicationStmt>
-                <publisher>国立歴史民俗博物館メタ資料学研究センター</publisher>
-                <idno type="PID">o:depcha.engi_shiki.1</idno>
-                <availability>
-                    <p/>
-                </availability>
-                <date when="2020-03-31">31 March 2020</date>
-            </publicationStmt>
-            <sourceDesc>
-                <msDesc>
-                    <msIdentifier>
-                        <settlement>千葉県佐倉市</settlement>
-                        <repository>国立歴史民俗博物館</repository>
-                        <collection>集英社版延喜式</collection>
-                    </msIdentifier>
-                    <msContents>
-                        <msItem>
-                            <author>藤原時平・藤原忠平</author>
-                            <title>延喜式</title>
-                            <note>
-                                <p>ここに史料の説明が入る。</p>
-                            </note>
-                        </msItem>
-                    </msContents>
-                </msDesc>
-                <listWit>
-                    <listWit xml:id="写本">
-                        <head>写本</head>
-                        <witness xml:id="土本"><abbr>土本</abbr>：国立歴史民俗博物館所蔵土御門家旧蔵本（H-743-74）</witness>
-                        <witness xml:id="近本"><abbr>近本</abbr>：京都大学附属図書館所蔵近衛文庫本（2-03/エ/1貴）</witness>
-                        <witness xml:id="壬本"><abbr>壬本</abbr>：宮内庁書陵部図書寮文庫所蔵壬生家旧蔵本（F10-287）</witness>
-                        <witness xml:id="京博本"><abbr>京博本</abbr>：京都国立博物館所蔵旧京都博物館本</witness>
-                        <witness xml:id="慶長本"><abbr>慶長本</abbr>：国立公文書館所蔵慶長写本（特102-8）</witness>
-                        <witness xml:id="梵本"
-                            ><abbr>梵本</abbr>：天理大学附属天理図書館所蔵吉田文庫梵舜等筆本（吉16-8。巻8は173-ｲ5（Ⅲ524)もあり）</witness>
-                        <witness xml:id="九本"><abbr>九本</abbr>：東京国立博物館所蔵九条家旧蔵巻子本（B-2370）</witness>
-                        <witness xml:id="剛本"><abbr>剛本</abbr>：天野山金剛寺所蔵本</witness>
-                        <witness xml:id="条本"
-                            ><abbr>条本</abbr>：一条家旧蔵巻子本（巻1～3は無窮会専門図書館所蔵模写本、巻4・5は神宮司庁刊影印本）</witness>
-                        <witness xml:id="花本"><abbr>花本</abbr>：花山院家・武田祐吉旧蔵本（神宮皇学館刊影印本による）</witness>
-                        <witness xml:id="九冊本"
-                            ><abbr>九冊本</abbr>：國學院大學所蔵九条家・西田長男旧蔵冊子本（巻5は西田長男刊影印本による）</witness>
-                        <witness xml:id="永本"
-                            ><abbr>永本</abbr>：巻8は國學院大學図書館所蔵（091.2/322.135/1）、巻9・10は現蔵不明(神宮文庫所蔵写真帳1門16974）</witness>
-                        <witness xml:id="右本"><abbr>右本</abbr>：巻8は國學院大學図書館所蔵（貴62）</witness>
-                        <witness xml:id="吉本"
-                            ><abbr>吉本</abbr>：天理大学附属天理図書館所蔵吉田家旧蔵本巻9・10（328.1-ｲ17(Ⅲ1219)）</witness>
-                        <witness xml:id="三条本"
-                            ><abbr>三条本</abbr>：天理大学附属天理図書館所蔵三条家旧蔵本（328.1-ｲ11(Ⅲ1218)）</witness>
-                        <witness xml:id="西本"
-                            ><abbr>西本</abbr>：巻9・10は國學院大學図書館所蔵（貴107～108）。巻50は国立歴史民俗博物館所蔵（H-1588）。抄出本は國學院大學所蔵（木村大樹「〔西田長男旧蔵〕三条西実隆筆『延喜式』(抄)の翻刻・紹介」『國學院大學研究開発推進機構紀要』14、2022年） </witness>
-                        <witness xml:id="時慶本"
-                            ><abbr>時慶本</abbr>：静嘉堂文庫所蔵西洞院時慶写本（延喜格式表18352、延喜式序18353）</witness>
-                        <witness xml:id="島原本"
-                            ><abbr>島原本</abbr>：東京大学史料編纂所所蔵松平忠房・和学講談所・水野忠央旧蔵本（貴45-2）</witness>
-                        <witness xml:id="藤波本"><abbr>藤波本</abbr>：宮内庁書陵部図書寮文庫所蔵藤波家旧蔵本（217
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>延喜式ファイル</title>
+</titleStmt>
+<publicationStmt>
+<publisher>国立歴史民俗博物館メタ資料学研究センター</publisher>
+<idno type="PID">o:depcha.engi_shiki.1</idno>
+<availability>
+<p/>
+</availability>
+<date when="2020-03-31">31 March 2020</date>
+</publicationStmt>
+<sourceDesc>
+<msDesc>
+<msIdentifier>
+<settlement>千葉県佐倉市</settlement>
+<repository>国立歴史民俗博物館</repository>
+<collection>集英社版延喜式</collection>
+</msIdentifier>
+<msContents>
+<msItem>
+<author>藤原時平・藤原忠平</author>
+<title>延喜式</title>
+<note>
+<p>ここに史料の説明が入る。</p>
+</note>
+</msItem>
+</msContents>
+</msDesc>
+<listWit>
+<listWit xml:id="写本">
+<head>写本</head>
+<witness xml:id="土本"><abbr>土本</abbr>：国立歴史民俗博物館所蔵土御門家旧蔵本（H-743-74）</witness>
+<witness xml:id="近本"><abbr>近本</abbr>：京都大学附属図書館所蔵近衛文庫本（2-03/エ/1貴）</witness>
+<witness xml:id="壬本"><abbr>壬本</abbr>：宮内庁書陵部図書寮文庫所蔵壬生家旧蔵本（F10-287）</witness>
+<witness xml:id="京博本"><abbr>京博本</abbr>：京都国立博物館所蔵旧京都博物館本</witness>
+<witness xml:id="慶長本"><abbr>慶長本</abbr>：国立公文書館所蔵慶長写本（特102-8）</witness>
+<witness xml:id="梵本"><abbr>梵本</abbr>：天理大学附属天理図書館所蔵吉田文庫梵舜等筆本（吉16-8。巻8は173-ｲ5（Ⅲ524)もあり）</witness>
+<witness xml:id="九本"><abbr>九本</abbr>：東京国立博物館所蔵九条家旧蔵巻子本（B-2370）</witness>
+<witness xml:id="剛本"><abbr>剛本</abbr>：天野山金剛寺所蔵本</witness>
+<witness xml:id="条本"><abbr>条本</abbr>：一条家旧蔵巻子本（巻1～3は無窮会専門図書館所蔵模写本、巻4・5は神宮司庁刊影印本）</witness>
+<witness xml:id="花本"><abbr>花本</abbr>：花山院家・武田祐吉旧蔵本（神宮皇学館刊影印本による）</witness>
+<witness xml:id="九冊本"><abbr>九冊本</abbr>：國學院大學所蔵九条家・西田長男旧蔵冊子本（巻5は西田長男刊影印本による）</witness>
+<witness xml:id="永本"><abbr>永本</abbr>：巻8は國學院大學図書館所蔵（091.2/322.135/1）、巻9・10は現蔵不明(神宮文庫所蔵写真帳1門16974）</witness>
+<witness xml:id="右本"><abbr>右本</abbr>：巻8は國學院大學図書館所蔵（貴62）</witness>
+<witness xml:id="吉本"><abbr>吉本</abbr>：天理大学附属天理図書館所蔵吉田家旧蔵本巻9・10（328.1-ｲ17(Ⅲ1219)）</witness>
+<witness xml:id="三条本"><abbr>三条本</abbr>：天理大学附属天理図書館所蔵三条家旧蔵本（328.1-ｲ11(Ⅲ1218)）</witness>
+<witness xml:id="西本"><abbr>西本</abbr>：巻9・10は國學院大學図書館所蔵（貴107～108）。巻50は国立歴史民俗博物館所蔵（H-1588）。抄出本は國學院大學所蔵（木村大樹「〔西田長男旧蔵〕三条西実隆筆『延喜式』(抄)の翻刻・紹介」『國學院大學研究開発推進機構紀要』14、2022年） </witness>
+<witness xml:id="時慶本"><abbr>時慶本</abbr>：静嘉堂文庫所蔵西洞院時慶写本（延喜格式表18352、延喜式序18353）</witness>
+<witness xml:id="島原本"><abbr>島原本</abbr>：東京大学史料編纂所所蔵松平忠房・和学講談所・水野忠央旧蔵本（貴45-2）</witness>
+<witness xml:id="藤波本"><abbr>藤波本</abbr>：宮内庁書陵部図書寮文庫所蔵藤波家旧蔵本（217
                             -473）</witness>
-                        <witness xml:id="貞享本"
-                            ><abbr>貞享本</abbr>：宮内庁書陵部図書寮文庫所蔵和学講談所旧蔵坊城俊方貞享本（457-116）</witness>
-                        <witness xml:id="玄梁本"><abbr>玄梁本</abbr>：無窮会専門図書館所蔵神習文庫玄梁記名本（神習3666）</witness>
-                        <witness xml:id="尾張本"
-                            ><abbr>尾張本</abbr>：東京大学総合図書館所蔵尾張家旧蔵本（巻13）（A00-6122）</witness>
-                        <witness xml:id="泉亭本"><abbr>泉亭本</abbr>：賀茂三手文庫所蔵泉亭本（制度/加）</witness>
-                    </listWit>
-                    <listWit xml:id="版本">
-                        <head>版本：慶安版本も含めた流布版本</head>
-                        <witness xml:id="慶安版本"
-                            ><abbr>慶安版本</abbr>：大和文華館所蔵鈴鹿連胤旧蔵版本（1/741～790）</witness>
-                        <witness xml:id="明暦版本"
-                            ><abbr>明暦版本</abbr>：明暦修訂版本　国立公文書館所蔵紅葉山文庫旧蔵版本（特26-1）等</witness>
-                        <witness xml:id="明暦以降版本"><abbr>明暦以降版本</abbr>：明暦修訂本以降の版本</witness>
-                        <witness xml:id="寛文版本"
-                            ><abbr>寛文版本</abbr>：寛文修訂版本　筑波大学附属図書館所蔵版本20冊本（ム212-7）等</witness>
-                        <witness xml:id="享保版本"
-                            ><abbr>享保版本</abbr>：享保修訂版本　筑波大学附属図書館所蔵版本50冊本（ム212-6）等</witness>
-                        <witness xml:id="雲本"
-                            ><abbr>雲本</abbr>：松江藩文政11年(1828)刊本（雲州本）　早稲田大学図書館所蔵本（ワ03-01594）等</witness>
-                        <witness xml:id="考異"
-                            ><abbr>考異</abbr>：雲州本附録『延喜式考異』　早稲田大学図書館所蔵本（ワ03-01594）等</witness>
-                        <witness xml:id="鈴鹿本"
-                            ><abbr>鈴鹿本</abbr>：大和文華館所蔵鈴鹿連胤旧蔵慶安版本（1/741～790）書入</witness>
-                        <witness xml:id="勢多本"
-                            ><abbr>勢多本</abbr>：宮内庁書陵部図書寮文庫所蔵勢多家旧蔵明暦等版本（172-123）書入</witness>
-                        <witness xml:id="筑波寛文本"
-                            ><abbr>筑波寛文本</abbr>：筑波大学附属図書館所蔵寛文版本20冊本（ム212-7）書入</witness>
-                    </listWit>
-                    <listWit xml:id="刊本">
-                        <head>刊本</head>
-                        <witness xml:id="旧大系本"><abbr>旧大系本</abbr>：旧輯国史大系第13巻（経済雑誌社　1900年刊）</witness>
-                        <witness xml:id="叢書本"><abbr>叢書本</abbr>：新註皇学叢書第3巻（広文庫刊行会　1927年刊）</witness>
-                        <witness xml:id="全集本"
-                            ><abbr>全集本</abbr>：日本古典全集『延喜式』（日本古典全集刊行会　1927～1929年刊）</witness>
-                        <witness xml:id="皇典本"
-                            ><abbr>皇典本</abbr>：『校訂延喜式』（皇典講究所・全国神職会　1929～1932年刊）</witness>
-                        <witness xml:id="国史大系本"
-                            ><abbr>国史大系本</abbr>：新訂増補国史大系第26巻（吉川弘文館　1937年刊）</witness>
-                        <witness xml:id="神道大系本"
-                            ><abbr>神道大系本</abbr>：神道大系古典編11・12『延喜式』（神道大系編纂会、1991・1993年刊）</witness>
-                        <witness xml:id="訳注本"
-                            ><abbr>訳注本</abbr>：訳注日本史料『延喜式』上～下（集英社、2000～2017年刊）</witness>
-                    </listWit>
-                    <listWit xml:id="その他">
-                        <head>その他</head>
-                        <witness xml:id="本朝月令"
-                            ><abbr>本朝月令</abbr>：清水潔編『新校本朝月令』（皇學館大學神道研究所　2002年刊）</witness>
-                        <witness xml:id="儀式"
-                            ><abbr>儀式</abbr>：神道大系朝儀祭祀編1『儀式・内裏式』（神道大系編纂会　1980年刊）</witness>
-                        <witness xml:id="皇太神宮儀式帳"
-                            ><abbr>皇太神宮儀式帳</abbr>：佐野真人「『皇太神宮儀式帳』校訂試案」（『皇學館大学研究開発推進センター紀要』2　2016年）</witness>
-                        <witness xml:id="止由気宮儀式帳"
-                            ><abbr>止由気宮儀式帳</abbr>：佐野真人「『止由気宮儀式帳』校訂試案」（『皇學館大学研究開発推進センター紀要』3　2017年）</witness>
-                        <witness xml:id="新撰年中行事"
-                            ><abbr>新撰年中行事</abbr>：西本昌弘編『新撰年中行事』（八木書店　2010年刊）</witness>
-                        <witness xml:id="小野宮年中行事"><abbr>小野宮年中行事</abbr>：群書類従第6輯 律令部
+<witness xml:id="貞享本"><abbr>貞享本</abbr>：宮内庁書陵部図書寮文庫所蔵和学講談所旧蔵坊城俊方貞享本（457-116）</witness>
+<witness xml:id="玄梁本"><abbr>玄梁本</abbr>：無窮会専門図書館所蔵神習文庫玄梁記名本（神習3666）</witness>
+<witness xml:id="尾張本"><abbr>尾張本</abbr>：東京大学総合図書館所蔵尾張家旧蔵本（巻13）（A00-6122）</witness>
+<witness xml:id="泉亭本"><abbr>泉亭本</abbr>：賀茂三手文庫所蔵泉亭本（制度/加）</witness>
+</listWit>
+<listWit xml:id="版本">
+<head>版本：慶安版本も含めた流布版本</head>
+<witness xml:id="慶安版本"><abbr>慶安版本</abbr>：大和文華館所蔵鈴鹿連胤旧蔵版本（1/741～790）</witness>
+<witness xml:id="明暦版本"><abbr>明暦版本</abbr>：明暦修訂版本　国立公文書館所蔵紅葉山文庫旧蔵版本（特26-1）等</witness>
+<witness xml:id="明暦以降版本"><abbr>明暦以降版本</abbr>：明暦修訂本以降の版本</witness>
+<witness xml:id="寛文版本"><abbr>寛文版本</abbr>：寛文修訂版本　筑波大学附属図書館所蔵版本20冊本（ム212-7）等</witness>
+<witness xml:id="享保版本"><abbr>享保版本</abbr>：享保修訂版本　筑波大学附属図書館所蔵版本50冊本（ム212-6）等</witness>
+<witness xml:id="雲本"><abbr>雲本</abbr>：松江藩文政11年(1828)刊本（雲州本）　早稲田大学図書館所蔵本（ワ03-01594）等</witness>
+<witness xml:id="考異"><abbr>考異</abbr>：雲州本附録『延喜式考異』　早稲田大学図書館所蔵本（ワ03-01594）等</witness>
+<witness xml:id="鈴鹿本"><abbr>鈴鹿本</abbr>：大和文華館所蔵鈴鹿連胤旧蔵慶安版本（1/741～790）書入</witness>
+<witness xml:id="勢多本"><abbr>勢多本</abbr>：宮内庁書陵部図書寮文庫所蔵勢多家旧蔵明暦等版本（172-123）書入</witness>
+<witness xml:id="筑波寛文本"><abbr>筑波寛文本</abbr>：筑波大学附属図書館所蔵寛文版本20冊本（ム212-7）書入</witness>
+</listWit>
+<listWit xml:id="刊本">
+<head>刊本</head>
+<witness xml:id="旧大系本"><abbr>旧大系本</abbr>：旧輯国史大系第13巻（経済雑誌社　1900年刊）</witness>
+<witness xml:id="叢書本"><abbr>叢書本</abbr>：新註皇学叢書第3巻（広文庫刊行会　1927年刊）</witness>
+<witness xml:id="全集本"><abbr>全集本</abbr>：日本古典全集『延喜式』（日本古典全集刊行会　1927～1929年刊）</witness>
+<witness xml:id="皇典本"><abbr>皇典本</abbr>：『校訂延喜式』（皇典講究所・全国神職会　1929～1932年刊）</witness>
+<witness xml:id="国史大系本"><abbr>国史大系本</abbr>：新訂増補国史大系第26巻（吉川弘文館　1937年刊）</witness>
+<witness xml:id="神道大系本"><abbr>神道大系本</abbr>：神道大系古典編11・12『延喜式』（神道大系編纂会、1991・1993年刊）</witness>
+<witness xml:id="訳注本"><abbr>訳注本</abbr>：訳注日本史料『延喜式』上～下（集英社、2000～2017年刊）</witness>
+</listWit>
+<listWit xml:id="その他">
+<head>その他</head>
+<witness xml:id="本朝月令"><abbr>本朝月令</abbr>：清水潔編『新校本朝月令』（皇學館大學神道研究所　2002年刊）</witness>
+<witness xml:id="儀式"><abbr>儀式</abbr>：神道大系朝儀祭祀編1『儀式・内裏式』（神道大系編纂会　1980年刊）</witness>
+<witness xml:id="皇太神宮儀式帳"><abbr>皇太神宮儀式帳</abbr>：佐野真人「『皇太神宮儀式帳』校訂試案」（『皇學館大学研究開発推進センター紀要』2　2016年）</witness>
+<witness xml:id="止由気宮儀式帳"><abbr>止由気宮儀式帳</abbr>：佐野真人「『止由気宮儀式帳』校訂試案」（『皇學館大学研究開発推進センター紀要』3　2017年）</witness>
+<witness xml:id="新撰年中行事"><abbr>新撰年中行事</abbr>：西本昌弘編『新撰年中行事』（八木書店　2010年刊）</witness>
+<witness xml:id="小野宮年中行事"><abbr>小野宮年中行事</abbr>：群書類従第6輯 律令部
                             公事部（続群書類従完成会　1932年刊）</witness>
-                        <witness xml:id="小野宮年中行事裏書"
-                            ><abbr>小野宮年中行事裏書</abbr>：国立歴史民俗博物館所蔵本（H-1762）</witness>
-                        <witness xml:id="勘例"
-                            ><abbr>勘例（陽明文庫所蔵）</abbr>：大日本古記録『勘例』上・下（岩波書店　2018・2023年刊）</witness>
-                        <witness xml:id="政事要略"
-                            ><abbr>政事要略</abbr>：新訂増補国史大系第28巻（吉川弘文館　1935年刊。適宜、写本を参照）</witness>
-                        <witness xml:id="法曹至要抄"><abbr>法曹至要抄</abbr>：中世法制史料集（岩波書店　2005年刊）</witness>
-                        <witness xml:id="本草和名"
-                            ><abbr>本草和名</abbr>：丸山裕美子・武倩編著『本草和名』（汲古書院　2021年刊）</witness>
-                    </listWit>
-                </listWit>
-            </sourceDesc>
-        </fileDesc>
-        <encodingDesc>
-            <variantEncoding method="location-referenced" location="external"/>
-            <tagsDecl>
-                <rendition xml:id="indent">margin-top: 1em;</rendition>
-                <rendition xml:id="indent2">margin-top: 2em;</rendition>
-                <rendition xml:id="indent5">margin-top: 5em;</rendition>
-                <rendition xml:id="width50">width: 50px;</rendition>
-                <rendition xml:id="kokumei">width: 80px;</rendition>
-                <rendition xml:id="width100">width: 100px;</rendition>
-                <rendition xml:id="jinnmyou">width: 200px;</rendition>
-                <rendition xml:id="width300">width: 300px;</rendition>
-            </tagsDecl>
-            <editorialDecl>
-                <p>校訂文全体凡例<table>
-                        <row>
-                            <cell>・</cell>
-                            <cell>原則として土本（以下、略称は「主要写本・版本・刊本等略称・底本一覧」参照）を底本とし、九本・剛本・条本・花本等の古写本や近本・壬本・京博本等の写本によって対校しました（巻によって使用した対校本は異なります）。</cell>
-                        </row>
-                        <row>
-                            <cell>・</cell>
-                            <cell>条文番号・条文名称は原則として訳注本に拠りましたが、一部を修正しています（※下記「条文名称修正一覧」参照）。なお1条が長い場合など、必要に応じ「項」に分割して示すこととしました。</cell>
-                        </row>
-                        <row>
-                            <cell>・</cell>
-                            <cell>校異は原則として底本の文字を改変する場合、あるいは写本間に参考とすべき異同がある場合、参考とすべき傍書等がある場合に付すこととしました。必ずしもその校異に関する写本をすべて網羅することはせず、主要写本のみを取り上げています。ただし訳注本と校訂文に異同が生じた場合には、できる限り校異にて言及するよう心がけました（単なる字体の相違については省略しています）。</cell>
-                        </row>
-                        <row>
-                            <cell>・</cell>
-                            <cell>校訂文は『延喜式』撰上当初の姿の復元を目標としています。標注や傍書は、条文名称に関わるものは省略し、中世以前にさかのぼることが想定されるものに限って、校異注で言及することとしました。ただし標注のうち「弘」「貞」「延」等については便宜を考え、鉤括弧で括って校訂本文に掲げることとしました。</cell>
-                        </row>
-                        <row>
-                            <cell>・</cell>
-                            <cell>字体は常用漢字体を原則としました。「大」と「太」、「座」と「坐」、「絇」と「約」、「績」と「續（続）」、「色」と「包」、「細」と「紬」、「鈍」と「純」、「冑」と「胃」、「絁」と「絶」、草冠と竹冠、木偏と手偏等、容易に判定される誤字や誤用・通用については、校異を省略して適宜置き換える場合があります。ただし巻9・10においては「大」「太」の差異も校異にて触れることとしました。</cell>
-                        </row>
-                        <row>
-                            <cell>・</cell>
-                            <cell>校訂文中の細字・割書は、〈　〉で括って表現することとしました。</cell>
-                        </row>
-                        <row>
-                            <cell>・</cell>
-                            <cell>本文に誤字・脱字等が想定される場合であっても、置き換えるべき文字や補うべき文字が明確でない場合は、校異注での言及にとどめた場合があります。</cell>
-                        </row>
-                        <row>
-                            <cell>・</cell>
-                            <cell>ユニコードにて表示されない漢字は以下のように示すことにしました。</cell>
-                        </row>
-                    </table>
-                    <table rendition="#indent2">
-                        <row>
-                            <cell rendition="#width100">【Ａ+Ｂ】</cell>
-                            <cell rendition="#width300">＝扁がＡ、つくりがＢ</cell>
-                            <cell rendition="#width300">例）村【木+寸】</cell>
-                        </row>
-                        <row>
-                            <cell rendition="#width100">【Ａ/Ｂ】</cell>
-                            <cell rendition="#width300">＝上にＡ、下にＢ</cell>
-                            <cell rendition="#width300">例）雲【雨/云】</cell>
-                        </row>
-                        <row>
-                            <cell rendition="#width100">【Ａ-Ｂ】</cell>
-                            <cell rendition="#width300">＝Ａの字画よりＢにあたる字画を除く</cell>
-                            <cell rendition="#width300">例）門【閉-オ】</cell>
-                        </row>
-                        <row>
-                            <cell rendition="#width100">【Ａ⊃Ｂ】</cell>
-                            <cell rendition="#width300">＝Ａの字画のなかにＢの字画が含まれる</cell>
-                            <cell rendition="#width300">例）閉【門⊃オ】、国【囗⊃玉】</cell>
-                        </row>
-                    </table>
-                    <table>
-                        <row>
-                            <cell>・</cell>
-                            <cell>校異註の付く文字は赤字で表示され、クリックすると註が表示されます。表示内容は以下の通りです。</cell>
-                        </row>
-                    </table>
-                    <table rendition="#indent2">
-                        <row>
-                            <cell rendition="#width100">採用</cell>
-                            <cell>写本名と校訂文にて採用した文字</cell>
-                        </row>
-                        <row>
-                            <cell rendition="#width100">校異</cell>
-                            <cell>写本名と対校箇所の文字</cell>
-                        </row>
-                        <row>
-                            <cell rendition="#width100">解説</cell>
-                            <cell>各写本の傍書や頭書等の提示、校異註の本文（最下部の解説）</cell>
-                        </row>
-                    </table>
-                    <table>
-                        <row>
-                            <cell>・</cell>
-                            <cell>条文名称修正一覧</cell>
-                        </row>
-                    </table>
-                    <table rendition="#indent2">
-                        <row>
-                            <cell rendition="#width100">巻番号</cell>
-                            <cell rendition="#width100">旧番号</cell>
-                            <cell rendition="#width100">旧条文名</cell>
-                            <cell rendition="#width50">番号</cell>
-                            <cell rendition="#width100">訂正条文名</cell>
-                        </row>
-                        <row>
-                            <cell rendition="#width100">111太政官</cell>
-                            <cell rendition="#width100">67</cell>
-                            <cell rendition="#width100">薗韓神祭</cell>
-                            <cell rendition="#width50">67</cell>
-                            <cell rendition="#width100">園韓神祭</cell>
-                        </row>
-                        <row>
-                            <cell rendition="#width100">111太政官</cell>
-                            <cell rendition="#width100">112</cell>
-                            <cell rendition="#width100">行幸経宿</cell>
-                            <cell rendition="#width50">112</cell>
-                            <cell rendition="#width100">行幸経旬</cell>
-                        </row>
-                        <row>
-                            <cell rendition="#width100">171内匠</cell>
-                            <cell rendition="#width100">39</cell>
-                            <cell rendition="#width100">作物衣服</cell>
-                            <cell rendition="#width50">39</cell>
-                            <cell rendition="#width100">作物衣</cell>
-                        </row>
-                        <row>
-                            <cell rendition="#width100">293囚獄</cell>
-                            <cell rendition="#width100">2</cell>
-                            <cell rendition="#width100">著鈦盤枷</cell>
-                            <cell rendition="#width50">2</cell>
-                            <cell rendition="#width100">着鈦盤枷</cell>
-                        </row>
-                        <row>
-                            <cell rendition="#width100">321大膳上</cell>
-                            <cell rendition="#width100">5</cell>
-                            <cell rendition="#width100">新嘗祭</cell>
-                            <cell rendition="#width50">5･6</cell>
-                            <cell rendition="#width100">新嘗祭と新嘗小斎解斎に分割</cell>
-                        </row>
-                        <row>
-                            <cell rendition="#width100">411弾正</cell>
-                            <cell rendition="#width100">68</cell>
-                            <cell rendition="#width100">支子染深色</cell>
-                            <cell rendition="#width50">68</cell>
-                            <cell rendition="#width100">支子染色</cell>
-                        </row>
-                    </table></p>
-                <p ana="個別">校訂文凡例 <table>
-                        <row>
-                            <cell>・</cell>
-                            <cell>対校に用いた諸本の略称は以下の通りです。</cell>
-                        </row>
-                    </table>
-                    <table rendition="#indent2">
-                        <row>
-                            <cell rendition="#width100">土本</cell>
-                            <cell>国立歴史民俗博物館蔵土御門家旧蔵本（H-743-74）</cell>
-                        </row>
-                        <row>
-                            <cell rendition="#width100">九本</cell>
-                            <cell>東京国立博物館所蔵九条家旧蔵巻子本（B-2370）</cell>
-                        </row>
-                        <row>
-                            <cell rendition="#width100">近本</cell>
-                            <cell>京都大学附属図書館所蔵近衛文庫本（2-03/エ/1貴）</cell>
-                        </row>
-                        <row>
-                            <cell rendition="#width100">壬本</cell>
-                            <cell>宮内庁書陵部図書寮文庫所蔵壬生家旧蔵本（F10-287）</cell>
-                        </row>
-                        <row>
-                            <cell rendition="#width100">京博本</cell>
-                            <cell>京都国立博物館蔵旧京都博物館本</cell>
-                        </row>
-                        <row>
-                            <cell rendition="#width100">慶長本</cell>
-                            <cell>国立公文書館所蔵慶長写本（特102-8）</cell>
-                        </row>
-                        <row>
-                            <cell rendition="#width100">梵本</cell>
-                            <cell>天理大学附属天理大図書館蔵吉田文庫梵舜等筆本（吉16-8）</cell>
-                        </row>
-                        <row>
-                            <cell rendition="#width100">島原本</cell>
-                            <cell>東京大学史料編纂所所蔵松平忠房・和学講談所・水野忠央旧蔵本（貴45-2）</cell>
-                        </row>
-                        <row>
-                            <cell rendition="#width100">版本</cell>
-                            <cell>慶安版本・明暦以降版本の総称</cell>
-                        </row>
-                        <row>
-                            <cell rendition="width100">慶安版本</cell>
-                            <cell>大和文華館所蔵鈴鹿連胤旧蔵版本（1/741～790）</cell>
-                        </row>
-                        <row>
-                            <cell rendition="width100">鈴鹿本</cell>
-                            <cell>大和文華館所蔵鈴鹿連胤旧蔵慶安版本（1/741～790）書入</cell>
-                        </row>
-                        <row>
-                            <cell rendition="#width100">明暦以降版本</cell>
-                            <cell>明暦修訂本以降の版本</cell>
-                        </row>
-                        <row>
-                            <cell rendition="width100">明暦版本</cell>
-                            <cell>明暦修訂版本　国立公文書館所蔵紅葉山文庫旧蔵版本（特26-1）等</cell>
-                        </row>
-                        <row>
-                            <cell rendition="#width100">寛文版本</cell>
-                            <cell>寛文修訂版本　筑波大学附属図書館所蔵版本20冊本（ム212-7）等</cell>
-                        </row>
-                        <row>
-                            <cell rendition="#width100">享保版本</cell>
-                            <cell>享保修訂版本　筑波大学附属図書館所蔵版本50冊本（ム212-6）等</cell>
-                        </row>
-                        <row>
-                            <cell rendition="#width100">雲本</cell>
-                            <cell>松江藩文政11年(1828)刊本（雲州本）　早稲田大学図書館所蔵本（ワ03-01594）等</cell>
-                        </row>
-                        <row>
-                            <cell rendition="#width100">考異</cell>
-                            <cell>雲州本附録『延喜式考異』　早稲田大学図書館所蔵本（ワ03-01594）等</cell>
-                        </row>
-                        <row>
-                            <cell rendition="width100">国史大系本</cell>
-                            <cell>新訂増補国史大系第26巻（吉川弘文館　1937年刊）</cell>
-                        </row>
-                        <row>
-                            <cell rendition="#width100">訳注本</cell>
-                            <cell>訳注日本史料『延喜式』下（集英社　2017年刊）</cell>
-                        </row>
-                        <row>
-                            <cell rendition="#width100">政事要略</cell>
-                            <cell>新訂増補国史大系第28巻（吉川弘文館　1935年刊。適宜、写本を参照）</cell>
-                        </row>
-                    </table>
-                    <table>
-                        <row>
-                            <cell>・</cell>
-                            <cell>底本には土本を使用し、九本、近本、壬本、京博本、慶長本、梵舜本によって対校しました。その他、校訂に資する場合や内容理解に関わる場合に限り、他本を掲示しました。また、必要に応じて政事要略等の関連史料が引く式文も掲示しました。</cell>
-                        </row>
-                        <row>
-                            <cell>・</cell>
-                            <cell>訳注本の校訂と異なる場合は、その旨明記しました。</cell>
-                        </row>
-                        <row>
-                            <cell>・</cell>
-                            <cell>条文番号・条文名称は原則として訳注本に従います。ただし、囚獄式着鈦盤枷条の条文名のみ「著鈦盤枷」より「着鈦盤枷」に変更しました。</cell>
-                        </row>
-                        <row>
-                            <cell>・</cell>
-                            <cell>活字本との異同は原則として訳注本を示すにとどめます。</cell>
-                        </row>
-                        <row>
-                            <cell>・</cell>
-                            <cell>明らかに誤字・脱字が推測される場合でも、補うべき字あるいは改めるべき字の根拠が充分でない場合には、注で示すにとどめます。</cell>
-                        </row>
-                        <row>
-                            <cell>・</cell>
-                            <cell>同じ字が連続する場合、多くの写本では踊り字が用いられていますが、巻29においてはもとの字に置き換えます。</cell>
-                        </row>
-                        <row>
-                            <cell>・</cell>
-                            <cell>原則として常用字を使用します。</cell>
-                        </row>
-                        <row>
-                            <cell>・</cell>
-                            <cell>「大」と「太」、「少」と「小」等、容易に判定される誤字や誤用・通用については、校異を省略して適宜置き換えた場合があります。</cell>
-                        </row>
-                        <row>
-                            <cell>・</cell>
-                            <cell>条文名に関する鼇頭標目については省略します。鼇頭標柱については「　」で括って示します。</cell>
-                        </row>
-                        <row>
-                            <cell>・</cell>
-                            <cell>書式や表の形式をとる条文の形態については、必ずしも底本によらず、意をもって形式を整えた場合があります。細字は〈　〉で括って示します。</cell>
-                        </row>
-                    </table>
-                </p>
-            </editorialDecl>
-        </encodingDesc>
-        <revisionDesc ana="個別">
-            <listChange>
-                <change/>
-            </listChange>
-        </revisionDesc>
-    </teiHeader>
-    <text>
-        <body>
-            <div ana="刑部" n="29" subtype="式" type="巻" xml:id="volume29">
-                <pb
-                    facs="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-29%2F00002.tif/full/full/0/default.jpg"/>
-                <div type="首題" xml:id="shudai29">
-                    <p xml:id="shudai2901">延喜式巻第廿九　〈刑部　判事　囚獄〉</p>
-                </div>
-                <div ana="刑部" corresp="engishiki_en.xml#protocol291 engishiki_ja.xml#protocol291"
-                    n="29" subtype="条" type="式" xml:id="protocol291">
-                    <div type="式題" xml:id="shikidai291">
-                        <p xml:id="shikidai29101">刑部省</p>
-                    </div>
-                    <div ana="刑部"
-                        corresp="engishiki_en.xml#article291001 engishiki_ja.xml#article291001"
-                        n="29-1.1" subtype="項" type="条" xml:id="article291001">
-                        <head ana="盗取仏像"/>
-                        <p ana="項"
-                            corresp="engishiki_en.xml#item29100101 engishiki_ja.xml#item29100101"
-                            xml:id="item29100101"><anchor xml:id="app2910010101"/><anchor
-                                xml:id="app2910010101e"/>凡盗取仏像改作衣<anchor xml:id="app2910010102"
-                                />物<anchor xml:id="app2910010102e"
-                                />、雖渝其色、猶送本処、若不知主者、便入寺家、毀金像作鏡・<anchor xml:id="app2910010103"
-                                />鐘<anchor xml:id="app2910010103e"
-                            />、亦随見在入寺、若作釜及雑器者、本是仏像添造仏像、菩薩添造菩薩、不須交雑、</p>
-                        <app from="#app2910010101" to="#app2910010101e" type="標注">
-                            <lem wit="#九本">弘</lem>
-                            <rdg wit="#土本 #近本 #壬本 #京博本 #慶長本 #梵本"/>
-                            <note>弘　土本・近本・壬本・京博本・慶長本・梵本無し。九本により補う。</note>
-                        </app>
-                        <app from="#app2910010102" to="#app2910010102e">
-                            <lem wit="#土本">物</lem>
-                            <rdg wit="#九本">服</rdg>
-                            <note>物　九本「服」。</note>
-                        </app>
-                        <app from="#app2910010103" to="#app2910010103e">
-                            <lem wit="#土本">鐘</lem>
-                            <rdg wit="#九本">鍾</rdg>
-                            <note>鐘　九本「鍾」。</note>
-                        </app>
-                    </div>
-                    <div ana="刑部"
-                        corresp="engishiki_en.xml#article291002 engishiki_ja.xml#article291002"
-                        n="29-1.2" subtype="項" type="条" xml:id="article291002">
-                        <head ana="僧尼犯罪"/>
-                        <p ana="項"
-                            corresp="engishiki_en.xml#item29100201 engishiki_ja.xml#item29100201"
-                            xml:id="item29100201"><anchor xml:id="app2910020101"/><anchor
-                                xml:id="app2910020101e"
-                            />凡僧尼犯罪応訊者、皆拠衆証定刑、不須捶拷、其応還俗者、具注本貫・姓名・年紀・臈数、移送治部・民部等省、除附帳籍、</p>
-                        <app from="#app2910020101" to="#app2910020101e" type="標注">
-                            <lem wit="#九本">弘</lem>
-                            <rdg wit="#土本 #近本 #壬本 #京博本 #慶長本 #梵本"/>
-                            <note>弘　土本・近本・壬本・京博本・慶長本・梵本無し。九本により補う。</note>
-                        </app>
-                    </div>
-                    <pb
-                        facs="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-29%2F00003.tif/full/full/0/default.jpg"/>
-                    <div ana="刑部"
-                        corresp="engishiki_en.xml#article291003 engishiki_ja.xml#article291003"
-                        n="29-1.3" subtype="項" type="条" xml:id="article291003">
-                        <head ana="訴訟人"/>
-                        <p ana="項"
-                            corresp="engishiki_en.xml#item29100301 engishiki_ja.xml#item29100301"
-                            xml:id="item29100301"><anchor xml:id="app2910030101"/><anchor
-                                xml:id="app2910030101e"/><anchor xml:id="app2910030102"/>凡<anchor
-                                xml:id="app2910030102e"/>訴訟人注僧尼為証人者、遣省丞・録、及判事属各一人、就寺勘問虚実、</p>
-                        <app from="#app2910030101" to="#app2910030101e" type="標注">
-                            <lem wit="#九本">弘</lem>
-                            <rdg wit="#土本 #近本 #壬本 #京博本 #慶長本 #梵本"/>
-                            <note>弘　土本・近本・壬本・京博本・慶長本・梵本無し。九本により補う。</note>
-                        </app>
-                        <app from="#app2910030102" to="#app2910030102e">
-                            <note place="頭">九本頭注「大宝三年太政官処分、」</note>
-                            <note>凡…虚実　九本頭注「大宝三年太政官処分、」。</note>
-                        </app>
-                    </div>
-                    <div ana="刑部"
-                        corresp="engishiki_en.xml#article291004 engishiki_ja.xml#article291004"
-                        n="29-1.4" subtype="項" type="条" xml:id="article291004">
-                        <head ana="勘事"/>
-                        <p ana="項"
-                            corresp="engishiki_en.xml#item29100401 engishiki_ja.xml#item29100401"
-                            xml:id="item29100401"><anchor xml:id="app2910040101"/><anchor
-                                xml:id="app2910040101e"/>凡縁有勘事、応請諸寺三綱者、移送治部、</p>
-                        <app from="#app2910040101" to="#app2910040101e" type="標注">
-                            <lem wit="#九本">弘</lem>
-                            <rdg wit="#土本 #近本 #壬本 #京博本 #慶長本 #梵本"/>
-                            <note>弘　土本・近本・壬本・京博本・慶長本・梵本無し。九本により補う。</note>
-                        </app>
-                    </div>
-                    <div ana="刑部"
-                        corresp="engishiki_en.xml#article291005 engishiki_ja.xml#article291005"
-                        n="29-1.5" subtype="項" type="条" xml:id="article291005">
-                        <head ana="五位以上犯罪"/>
-                        <p ana="項"
-                            corresp="engishiki_en.xml#item29100501 engishiki_ja.xml#item29100501"
-                            xml:id="item29100501"><anchor xml:id="app2910050101"/><anchor
-                                xml:id="app2910050101e"/>凡五位以上、犯罪応推者、皆設床・席、</p>
-                        <app from="#app2910050101" to="#app2910050101e" type="標注">
-                            <lem wit="#九本">弘</lem>
-                            <rdg wit="#土本 #近本 #壬本 #京博本 #慶長本 #梵本"/>
-                            <note>弘　土本・近本・壬本・京博本・慶長本・梵本無し。九本により補う。</note>
-                        </app>
-                    </div>
-                    <div ana="刑部"
-                        corresp="engishiki_en.xml#article291006 engishiki_ja.xml#article291006"
-                        n="29-1.6" subtype="項" type="条" xml:id="article291006">
-                        <head ana="流罪以下"/>
-                        <p ana="項"
-                            corresp="engishiki_en.xml#item29100601 engishiki_ja.xml#item29100601"
-                            xml:id="item29100601"><anchor xml:id="app2910060101"/><anchor
-                                xml:id="app2910060101e"/>凡流罪以下、随発且断、其死刑者、皆惣断、十月四日申官、即断文令判事属申送、</p>
-                        <app from="#app2910060101" to="#app2910060101e" type="標注">
-                            <lem wit="#九本">弘貞</lem>
-                            <rdg wit="#土本 #近本 #壬本 #京博本 #慶長本 #梵本"/>
-                            <note>弘貞　土本・近本・壬本・京博本・慶長本・梵本無し。九本により補う。</note>
-                        </app>
-                    </div>
-                    <div ana="刑部"
-                        corresp="engishiki_en.xml#article291007 engishiki_ja.xml#article291007"
-                        n="29-1.7" subtype="項" type="条" xml:id="article291007">
-                        <head ana="流移罪人"/>
-                        <p ana="項"
-                            corresp="engishiki_en.xml#item29100701 engishiki_ja.xml#item29100701"
-                            xml:id="item29100701"><anchor xml:id="app2910070101"/><anchor
-                                xml:id="app2910070101e"
-                            />凡流移罪人者、省申官、遞請左右兵衛為部領、即授省符、路次差加防援、令達前所、其返抄者、従官下省、</p>
-                        <app from="#app2910070101" to="#app2910070101e" type="標注">
-                            <lem wit="#九本">貞</lem>
-                            <rdg wit="#土本 #近本 #壬本 #京博本 #慶長本 #梵本"/>
-                            <note>貞　土本・近本・壬本・京博本・慶長本・梵本無し。九本により補う。</note>
-                        </app>
-                    </div>
-                    <div ana="刑部"
-                        corresp="engishiki_en.xml#article291008 engishiki_ja.xml#article291008"
-                        n="29-1.8" subtype="項" type="条" xml:id="article291008">
-                        <head ana="格式立制"/>
-                        <p ana="項"
-                            corresp="engishiki_en.xml#item29100801 engishiki_ja.xml#item29100801"
-                            xml:id="item29100801"><anchor xml:id="app2910080101"/><anchor
-                                xml:id="app2910080101e"/>凡格式立制、不定其罪、律有本条、依律罪之、不縁違式<anchor
-                                xml:id="app2910080102"/>之<anchor xml:id="app2910080102e"/>科、</p>
-                        <app from="#app2910080101" to="#app2910080101e" type="標注">
-                            <lem wit="#九本">貞</lem>
-                            <rdg wit="#土本 #近本 #壬本 #京博本 #慶長本 #梵本"/>
-                            <note>貞　土本・近本・壬本・京博本・慶長本・梵本無し。九本により補う。</note>
-                        </app>
-                        <app from="#app2910080102" to="#app2910080102e">
-                            <lem wit="#九本">之</lem>
-                            <rdg wit="#土本 #近本 #壬本 #京博本 #慶長本 #梵本"/>
-                            <note>之　土本・近本・壬本・京博本・慶長本・梵本無し。九本により補う。</note>
-                        </app>
-                    </div>
-                    <div ana="刑部"
-                        corresp="engishiki_en.xml#article291009 engishiki_ja.xml#article291009"
-                        n="29-1.9" subtype="項" type="条" xml:id="article291009">
-                        <head ana="柵戸逃亡"/>
-                        <p ana="項"
-                            corresp="engishiki_en.xml#item29100901 engishiki_ja.xml#item29100901"
-                            xml:id="item29100901"><anchor xml:id="app2910090101"/><anchor
-                                xml:id="app2910090101e"/>凡有柵戸逃亡、若元差平民、為柵戸者、以戸口逃亡罪論、若<anchor
-                                xml:id="app2910090102"/>特<anchor xml:id="app2910090102e"
-                            />宥死罪配柵戸者、准兵士逃亡法、</p>
-                        <app from="#app2910090101" to="#app2910090101e" type="標注">
-                            <lem wit="#九本">弘</lem>
-                            <rdg wit="#土本 #近本 #壬本 #京博本 #慶長本 #梵本"/>
-                            <note>弘　土本・近本・壬本・京博本・慶長本・梵本無し。九本により補う。</note>
-                        </app>
-                        <app from="#app2910090102" to="#app2910090102e">
-                            <lem wit="#九本 #近本 #慶長本">特</lem>
-                            <rdg wit="#土本 #壬本 #京博本 #梵本">持</rdg>
-                            <note>特　土本・壬本・京博本・梵本「持」。九本・近本・慶長本により改める。</note>
-                        </app>
-                    </div>
-                    <div ana="刑部"
-                        corresp="engishiki_en.xml#article291010 engishiki_ja.xml#article291010"
-                        n="29-1.10" subtype="項" type="条" xml:id="article291010">
-                        <head ana="私鋳銭"/>
-                        <p ana="項"
-                            corresp="engishiki_en.xml#item29101001 engishiki_ja.xml#item29101001"
-                            xml:id="item29101001"><anchor xml:id="app2910100101"/><anchor
-                                xml:id="app2910100101e"/>凡私鋳銭、其作具并銭・銅等物、皆没官、</p>
-                        <app from="#app2910100101" to="#app2910100101e" type="標注">
-                            <lem wit="#九本">弘</lem>
-                            <rdg wit="#土本 #近本 #壬本 #京博本 #慶長本 #梵本"/>
-                            <note>弘　土本・近本・壬本・京博本・慶長本・梵本無し。九本により補う。</note>
-                        </app>
-                    </div>
-                    <div ana="刑部"
-                        corresp="engishiki_en.xml#article291011 engishiki_ja.xml#article291011"
-                        n="29-1.11" subtype="項" type="条" xml:id="article291011">
-                        <head ana="会赦"/>
-                        <p ana="項"
-                            corresp="engishiki_en.xml#item29101101 engishiki_ja.xml#item29101101"
-                            xml:id="item29101101"><anchor xml:id="app2910110101"/><anchor
-                                xml:id="app2910110101e"/>凡犯罪会赦及降合免者、並拠赦降出日免罪、</p>
-                        <app from="#app2910110101" to="#app2910110101e" type="標注">
-                            <lem wit="#九本">弘</lem>
-                            <rdg wit="#土本 #近本 #壬本 #京博本 #慶長本 #梵本"/>
-                            <note>弘　土本・近本・壬本・京博本・慶長本・梵本無し。九本により補う。</note>
-                        </app>
-                    </div>
-                    <div ana="刑部"
-                        corresp="engishiki_en.xml#article291012 engishiki_ja.xml#article291012"
-                        n="29-1.12" subtype="項" type="条" xml:id="article291012">
-                        <head ana="会赦即免"/>
-                        <p ana="項"
-                            corresp="engishiki_en.xml#item29101201 engishiki_ja.xml#item29101201"
-                            xml:id="item29101201"><anchor xml:id="app2910120101"/><anchor
-                                xml:id="app2910120101e"/>凡罪人会赦合放者、省即免之、不可申官、</p>
-                        <app from="#app2910120101" to="#app2910120101e" type="標注">
-                            <lem wit="#九本">弘</lem>
-                            <rdg wit="#土本 #近本 #壬本 #京博本 #慶長本 #梵本"/>
-                            <note>弘　土本・近本・壬本・京博本・慶長本・梵本無し。九本により補う。</note>
-                        </app>
-                    </div>
-                    <pb
-                        facs="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-29%2F00004.tif/full/full/0/default.jpg"/>
-                    <div ana="刑部"
-                        corresp="engishiki_en.xml#article291013 engishiki_ja.xml#article291013"
-                        n="29-1.13" subtype="項" type="条" xml:id="article291013">
-                        <head ana="無罪合免"/>
-                        <p ana="項"
-                            corresp="engishiki_en.xml#item29101301 engishiki_ja.xml#item29101301"
-                            xml:id="item29101301"><anchor xml:id="app2910130101"/><anchor
-                                xml:id="app2910130101e"
-                                />凡被告犯罪推劾無罪、及徒人役満依法合免、其為人凶悪、衆庶共知者、不須放免、禁固獄中、<anchor
-                                xml:id="app2910130102"/>自余<anchor xml:id="app2910130102e"
-                            />応放者、申官免之、</p>
-                        <app from="#app2910130101" to="#app2910130101e" type="標注">
-                            <lem wit="#九本">弘</lem>
-                            <rdg wit="#土本 #近本 #壬本 #京博本 #慶長本 #梵本"/>
-                            <note>弘　土本・近本・壬本・京博本・慶長本・梵本無し。九本により補う。</note>
-                        </app>
-                        <app from="#app2910130102" to="#app2910130102e">
-                            <lem wit="#九本">自余</lem>
-                            <rdg wit="#土本 #近本 #壬本 #京博本 #慶長本 #梵本">理</rdg>
-                            <note>自余　土本・近本・壬本・京博本・慶長本・梵本「理」。九本により改める。</note>
-                        </app>
-                    </div>
-                    <div ana="刑部"
-                        corresp="engishiki_en.xml#article291014 engishiki_ja.xml#article291014"
-                        n="29-1.14" subtype="項" type="条" xml:id="article291014">
-                        <head ana="告罪名"/>
-                        <p ana="項"
-                            corresp="engishiki_en.xml#item29101401 engishiki_ja.xml#item29101401"
-                            xml:id="item29101401"><anchor xml:id="app2910140101"/><anchor
-                                xml:id="app2910140101e"/>凡告囚罪名者、囚獄司引罪人就省版位、即判事属読<anchor
-                                xml:id="app2910140102"/>示<anchor xml:id="app2910140102e"
-                                />犯状、少判事以上覆問<anchor xml:id="app2910140103"/>服<anchor
-                                xml:id="app2910140103e"/>不、</p>
-                        <app from="#app2910140101" to="#app2910140101e" type="標注">
-                            <lem wit="#九本">弘</lem>
-                            <rdg wit="#土本 #近本 #壬本 #京博本 #慶長本 #梵本"/>
-                            <note>弘　土本・近本・壬本・京博本・慶長本・梵本無し。九本により補う。</note>
-                        </app>
-                        <app from="#app2910140102" to="#app2910140102e">
-                            <lem wit="#九本 #慶長本 #梵本">示</lem>
-                            <rdg wit="#土本">尓</rdg>
-                            <rdg wit="#近本">【亦⊃ヽヽ】</rdg>
-                            <rdg wit="#京博本 #壬本">亦</rdg>
-                            <note place="傍">近本傍書「示」</note>
-                            <note>示　土本「尓」。近本【亦⊃ヽヽ】に傍書「示」。京博本・壬本「亦」。九本・慶長本・梵本により改める。</note>
-                        </app>
-                        <app from="#app2910140103" to="#app2910140103e">
-                            <lem wit="#土本">服</lem>
-                            <rdg wit="#九本">眼</rdg>
-                            <note place="傍">九本傍書「服」</note>
-                            <note>服　九本「眼」、傍書「服」。</note>
-                        </app>
-                    </div>
-                    <div ana="刑部"
-                        corresp="engishiki_en.xml#article291015 engishiki_ja.xml#article291015"
-                        n="29-1.15" subtype="項" type="条" xml:id="article291015">
-                        <head ana="罪人尫弱"/>
-                        <p ana="項"
-                            corresp="engishiki_en.xml#item29101501 engishiki_ja.xml#item29101501"
-                            xml:id="item29101501"><anchor xml:id="app2910150101"/><anchor
-                                xml:id="app2910150101e"
-                            />凡犯罪之人、或尫或弱、決杖之時、且寒且熱、重加頓杖、恐致死亡、須量其貌、満役之間、准折決畢、</p>
-                        <app from="#app2910150101" to="#app2910150101e" type="標注">
-                            <lem wit="#九本">弘</lem>
-                            <rdg wit="土本 #近本 #壬本 #京博本 #慶長本 #梵本"/>
-                            <note>弘　土本・近本・壬本・京博本・慶長本・梵本無し。九本により補う。</note>
-                        </app>
-                    </div>
-                    <div ana="刑部"
-                        corresp="engishiki_en.xml#article291016 engishiki_ja.xml#article291016"
-                        n="29-1.16" subtype="項" type="条" xml:id="article291016">
-                        <head ana="不進罪人位記"/>
-                        <p ana="項"
-                            corresp="engishiki_en.xml#item29101601 engishiki_ja.xml#item29101601"
-                            xml:id="item29101601"><anchor xml:id="app2910160101"/><anchor
-                                xml:id="app2910160101e"/>凡諸国不進犯罪人位記、移式部省、拘留朝集使返抄、</p>
-                        <app from="#app2910160101" to="#app2910160101e" type="標注">
-                            <lem wit="#九本">貞</lem>
-                            <rdg wit="土本 #近本 #壬本 #京博本 #慶長本 #梵本"/>
-                            <note>貞　土本・近本・壬本・京博本・慶長本・梵本無し。九本により補う。</note>
-                        </app>
-                    </div>
-                    <div ana="刑部"
-                        corresp="engishiki_en.xml#article291017 engishiki_ja.xml#article291017"
-                        n="29-1.17" subtype="項" type="条" xml:id="article291017">
-                        <head ana="毀罪人位記"/>
-                        <p ana="項"
-                            corresp="engishiki_en.xml#item29101701 engishiki_ja.xml#item29101701"
-                            xml:id="item29101701"><anchor xml:id="app2910170101"/><anchor
-                                xml:id="app2910170101e"
-                                />凡応毀罪人位記者、省収位記、申送弁官、官以位記返付省、更定日申官、其日丞・録与中務・式部・兵部等省共就太政官、<anchor
-                                xml:id="app2910170102"/>三<anchor xml:id="app2910170102e"
-                            />省録各持位案筥、刑部録持位記筥、共入列立庭中〈北面東上、〉大臣命、召、称唯就座、弁官申可毀位記之状、訖即刑部録以位記筥、進付外記、外記申云、毀位記若干枚、大臣命、毀之、称唯毀、畢録進取位記筥復座、訖即退出〈事見儀式、〉</p>
-                        <app from="#app2910170101" to="#app2910170101e" type="標注">
-                            <lem wit="#九本">弘</lem>
-                            <rdg wit="#土本 #近本 #壬本 #京博本 #慶長本 #梵本"/>
-                            <note>弘　土本・近本・壬本・京博本・慶長本・梵本無し。九本により補う。</note>
-                        </app>
-                        <app from="#app2910170102" to="#app2910170102e">
-                            <lem wit="#土本">三</lem>
-                            <note place="傍">筑波寛文本朱傍書「<seg style="color:red">二〈式部式〉</seg>」</note>
-                            <note>三　筑波寛文本朱傍書「二〈式部式〉」。考異「式部式作二省」。延喜式部式下40毀位記条「二」。但し弘仁式部式「三」。</note>
-                        </app>
-                    </div>
-                    <pb
-                        facs="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-29%2F00005.tif/full/full/0/default.jpg"/>
-                    <div ana="刑部"
-                        corresp="engishiki_en.xml#article291018 engishiki_ja.xml#article291018"
-                        n="29-1.18" subtype="項" type="条" xml:id="article291018">
-                        <head ana="遠近"/>
-                        <p ana="項"
-                            corresp="engishiki_en.xml#item29101801 engishiki_ja.xml#item29101801"
-                            xml:id="item29101801"><anchor xml:id="app2910180101"/>凡<anchor
-                                xml:id="app2910180101e"
-                            />流移人者、省定配所申官、具録犯状下符所在并配所〈良人請内印、賤隷請外印、〉其路程者、従京為計、伊豆〈去京七百七十里、〉・安房〈一千一百九十里、〉・常陸〈一千五百七十五里、〉・佐渡〈一千三百廿五里、〉・隠伎〈九百一十里、〉・土左等国〈一千二百廿五里、〉為遠流、信濃〈五百六十里、〉・伊予等国〈五百六十里、〉為中流、越前〈三百一十五里、〉・安芸等国〈四百九十里、〉為近流、</p>
-                        <app from="#app2910180101" to="#app2910180101e">
-                            <note place="頭">九本頭注「件条注弘仁刑格、」</note>
-                            <note>凡…近流　九本頭注「件条注弘仁刑格、」。</note>
-                        </app>
-                    </div>
-                    <div ana="刑部"
-                        corresp="engishiki_en.xml#article291019 engishiki_ja.xml#article291019"
-                        n="29-1.19" subtype="項" type="条" xml:id="article291019">
-                        <head ana="決死囚"/>
-                        <p ana="項"
-                            corresp="engishiki_en.xml#item29101901 engishiki_ja.xml#item29101901"
-                            xml:id="item29101901"><anchor xml:id="app2910190101"/><anchor
-                                xml:id="app2910190101e"
-                            />凡決死囚者、省預移送弾正・衛門、其日会集市司南門、共監行決、其弾正・左衛門官人列門外東、〈各西面北上、相去一許丈、〉刑部・右衛門官人列門外西、〈各東面北上、相去同上、〉市・獄両司列於
-                                南庭〈自衛府南去四許丈、各北面中上、東西<anchor xml:id="app2910190102"/>平<anchor
-                                xml:id="app2910190102e"/>頭、相去三許丈、〉囚人当中間而跪、〈自両司南去三四許丈、〉物部分<anchor
-                                xml:id="app2910190103"/>陳<anchor xml:id="app2910190103e"
-                                />防援、〈列囚左右、北向中上、〉立定、<anchor xml:id="app2910190104"/>省<anchor
-                                xml:id="app2910190104e"/>録進於両司中間北向、宣告犯状罪名示衆、<anchor
-                                xml:id="app2910190105"/>衆<anchor xml:id="app2910190105e"
-                                />人称唯、畢還於本列、即<anchor xml:id="app2910190106"/>丞<anchor
-                                xml:id="app2910190106e"
-                            />召両司仰云、依例行之、両司称唯、以還本列、転告物部、物部称唯、案剣戮之〈絞者用綱、〉其残骸者、令授近親斂之、若無親者、令両司埋城外閑地、兼樹牓示〈注国郡姓名、〉</p>
-                        <app from="#app2910190101" to="#app2910190101e" type="標注">
-                            <lem wit="#九本">弘</lem>
-                            <rdg wit="#土本 #近本 #壬本 #京博本 #慶長本 #梵本"/>
-                            <note>弘　土本・近本・壬本・京博本・慶長本・梵本無し。九本により補う。</note>
-                        </app>
-                        <app from="#app2910190102" to="#app2910190102e">
-                            <lem wit="#九本">平</lem>
-                            <rdg wit="#土本 #近本 #壬本 #京博本 #慶長本 #梵本">牛</rdg>
-                            <note>平　土本・近本・壬本・京博本・慶長本・梵本「牛」。九本により改める。</note>
-                        </app>
-                        <app from="#app2910190103" to="#app2910190103e">
-                            <lem wit="#土本">陳</lem>
-                            <note>陳　訳注本は貞享本によって「陣」に改める。</note>
-                        </app>
-                        <app from="#app2910190104" to="#app2910190104e">
-                            <lem wit="#九本">省</lem>
-                            <rdg wit="#土本 #近本 #壬本 #京博本 #慶長本 #梵本"/>
-                            <note>省　土本・近本・壬本・京博本・慶長本・梵本無し。九本により補う。</note>
-                        </app>
-                        <app from="#app2910190105" to="#app2910190105e">
-                            <lem wit="#九本 #近本 #壬本 #京博本 #慶長本 #梵本">衆</lem>
-                            <rdg wit="#土本"/>
-                            <note>衆　土本無し。九本・近本・壬本・京博本・慶長本・梵本により補う。</note>
-                        </app>
-                        <app from="#app2910190106" to="#app2910190106e">
-                            <lem wit="#土本">丞</lem>
-                            <rdg wit="#九本">判官</rdg>
-                            <note>丞　九本「判官」。</note>
-                        </app>
-                    </div>
-                    <div ana="刑部"
-                        corresp="engishiki_en.xml#article291020 engishiki_ja.xml#article291020"
-                        n="29-1.20" subtype="項" type="条" xml:id="article291020">
-                        <head ana="決罪"/>
-                        <p ana="項"
-                            corresp="engishiki_en.xml#item29102001 engishiki_ja.xml#item29102001"
-                            xml:id="item29102001"><anchor xml:id="app2910200101"/><anchor
-                                xml:id="app2910200101e"/><anchor xml:id="app2910200102"/>凡<anchor
-                                xml:id="app2910200102e"/>弁官所下罪人到省、付囚獄司、司即易其<pb
-                                facs="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-29%2F00006.tif/full/full/0/default.jpg"
-                                />徽<anchor xml:id="app2910200103"/>纆<anchor xml:id="app2910200103e"
-                                />、其有行決者、随罪軽重、於市若囚獄司決之、行決之日、丞・録各一人、引囚獄官人并物部丁、赴向市司、便令本司喚集市<anchor
-                                xml:id="app2910200104"/>人<anchor xml:id="app2910200104e"
-                            />、列立司南門、示衆決之、於囚獄司決者、於庁前決之、</p>
-                        <app from="#app2910200101" to="#app2910200101e" type="標注">
-                            <lem wit="#九本">弘</lem>
-                            <rdg wit="#土本 #近本 #壬本 #京博本 #慶長本 #梵本"/>
-                            <note>弘　土本・近本・壬本・京博本・慶長本・梵本無し。九本により補う。</note>
-                        </app>
-                        <app from="#app2910200102" to="#app2910200102e">
-                            <note>凡…決之　九本は本条を24条の次に配列する。</note>
-                        </app>
-                        <app from="#app2910200103" to="#app2910200103e">
-                            <lem wit="#九本 #近本 #壬本 #京博本 #慶長本 #梵本">纆</lem>
-                            <rdg wit="#土本">纏</rdg>
-                            <note>纆　土本「纏」。九本・近本・壬本・京博本・慶長本・梵本により改める。</note>
-                        </app>
-                        <app from="#app2910200104" to="#app2910200104e">
-                            <lem wit="#土本">人</lem>
-                            <rdg wit="#九本">人即</rdg>
-                            <note>人　九本この下「即」あり。</note>
-                        </app>
-                    </div>
-                    <div ana="刑部"
-                        corresp="engishiki_en.xml#article291021 engishiki_ja.xml#article291021"
-                        n="29-1.21" subtype="項" type="条" xml:id="article291021">
-                        <head ana="徒罪以上"/>
-                        <p ana="項"
-                            corresp="engishiki_en.xml#item29102101 engishiki_ja.xml#item29102101"
-                            xml:id="item29102101"><anchor xml:id="app2910210101"/><anchor
-                                xml:id="app2910210101e"/>凡徒罪以上、具録犯状、移送民部、</p>
-                        <app from="#app2910210101" to="#app2910210101e" type="標注">
-                            <lem wit="#九本">弘</lem>
-                            <rdg wit="#土本 #近本 #壬本 #京博本 #慶長本 #梵本"/>
-                            <note>弘　土本・近本・壬本・京博本・慶長本・梵本無し。九本により補う。</note>
-                        </app>
-                    </div>
-                    <div ana="刑部"
-                        corresp="engishiki_en.xml#article291022 engishiki_ja.xml#article291022"
-                        n="29-1.22" subtype="項" type="条" xml:id="article291022">
-                        <head ana="徒人年限"/>
-                        <p ana="項"
-                            corresp="engishiki_en.xml#item29102201 engishiki_ja.xml#item29102201"
-                            xml:id="item29102201"><anchor xml:id="app2910220101"/><anchor
-                                xml:id="app2910220101e"/><anchor xml:id="app2910220102"/>凡<anchor
-                                xml:id="app2910220102e"/>徒人年限者、従入役日始計、其徒役満者、省<anchor
-                                xml:id="app2910220103"/>具<anchor xml:id="app2910220103e"
-                            />事状、逓送本郷、</p>
-                        <app from="#app2910220101" to="#app2910220101e" type="標注">
-                            <lem wit="#九本">弘</lem>
-                            <rdg wit="#土本 #近本 #壬本 #京博本 #慶長本 #梵本"/>
-                            <note>弘　土本・近本・壬本・京博本・慶長本・梵本無し。九本により補う。</note>
-                        </app>
-                        <app from="#app2910220102" to="#app2910220102e">
-                            <note place="裏"
-                                >九本裏書「貞観六年八月十五日、右大弁大枝朝臣音人伝宣、右大臣宣、検非違使行事、停本府之局、罷市司行者、私案所注付也、」</note>
-                            <note>凡…本郷　九本裏書「貞観六年八月十五日、右大弁大枝朝臣音人伝宣、右大臣宣、検非違使行事、停本府之局、罷市司行者、私案所注付也、」。</note>
-                        </app>
-                        <app from="#app2910220103" to="#app2910220103e">
-                            <lem wit="#土本">具</lem>
-                            <note>島原本補書「録」</note>
-                            <note>具　訳注本この下に島原本補書により「録」を補う。</note>
-                        </app>
-                    </div>
-                    <div ana="刑部"
-                        corresp="engishiki_en.xml#article291023 engishiki_ja.xml#article291023"
-                        n="29-1.23" subtype="項" type="条" xml:id="article291023">
-                        <head ana="罪人勘籍"/>
-                        <p ana="項"
-                            corresp="engishiki_en.xml#item29102301 engishiki_ja.xml#item29102301"
-                            xml:id="item29102301"><anchor xml:id="app2910230101"/><anchor
-                                xml:id="app2910230101e"/>凡徒以上罪人応勘籍者、具録姓名、移送民部、待報乃断、</p>
-                        <app from="#app2910230101" to="#app2910230101e" type="標注">
-                            <lem wit="#九本">弘</lem>
-                            <rdg wit="#土本 #近本 #壬本 #京博本 #慶長本 #梵本"/>
-                            <note>弘　土本・近本・壬本・京博本・慶長本・梵本無し。九本により補う。</note>
-                        </app>
-                    </div>
-                    <div ana="刑部"
-                        corresp="engishiki_en.xml#article291024 engishiki_ja.xml#article291024"
-                        n="29-1.24" subtype="項" type="条" xml:id="article291024">
-                        <head ana="未発遣"/>
-                        <p ana="項"
-                            corresp="engishiki_en.xml#item29102401 engishiki_ja.xml#item29102401"
-                            xml:id="item29102401"><anchor xml:id="app2910240101"/><anchor
-                                xml:id="app2910240101e"
-                            />凡諸国申送流移人及家口、未発遣間、固禁獄中、其粮以贓贖物給之〈人日米一升、塩一夕、〉</p>
-                        <app from="#app2910240101" to="#app2910240101e" type="標注">
-                            <lem wit="#九本">弘</lem>
-                            <rdg wit="#土本 #近本 #壬本 #京博本 #慶長本 #梵本"/>
-                            <note>弘　土本・近本・壬本・京博本・慶長本・梵本無し。九本により補う。</note>
-                        </app>
-                    </div>
-                    <div ana="刑部"
-                        corresp="engishiki_en.xml#article291025 engishiki_ja.xml#article291025"
-                        n="29-1.25" subtype="項" type="条" xml:id="article291025">
-                        <head ana="罪人逃亡"/>
-                        <p ana="項"
-                            corresp="engishiki_en.xml#item29102501 engishiki_ja.xml#item29102501"
-                            xml:id="item29102501"><anchor xml:id="app2910250101"/><anchor
-                                xml:id="app2910250101e"/>凡罪人逃亡者、申官追捕、</p>
-                        <app from="#app2910250101" to="#app2910250101e" type="標注">
-                            <lem wit="#九本">弘</lem>
-                            <rdg wit="#土本 #近本 #壬本 #京博本 #慶長本 #梵本"/>
-                            <note>弘　土本・近本・壬本・京博本・慶長本・梵本無し。九本により補う。</note>
-                        </app>
-                    </div>
-                    <div ana="刑部"
-                        corresp="engishiki_en.xml#article291026 engishiki_ja.xml#article291026"
-                        n="29-1.26" subtype="項" type="条" xml:id="article291026">
-                        <head ana="獄囚衣粮"/>
-                        <p ana="項"
-                            corresp="engishiki_en.xml#item29102601 engishiki_ja.xml#item29102601"
-                            xml:id="item29102601"><anchor xml:id="app2910260101"/><anchor
-                                xml:id="app2910260101e"/>凡獄囚応給衣粮・<anchor xml:id="app2910260102"
-                                />薦<anchor xml:id="app2910260102e"
-                            />席・医薬、及修理獄舎之類、用贓贖物者、申官聴裁、然後給之、在外者、先用後申、</p>
-                        <app from="#app2910260101" to="#app2910260101e" type="標注">
-                            <lem wit="#九本">弘</lem>
-                            <rdg wit="#土本 #近本 #壬本 #京博本 #慶長本 #梵本"/>
-                            <note>弘　土本・近本・壬本・京博本・慶長本・梵本無し。九本により補う。</note>
-                        </app>
-                        <app from="#app2910260102" to="#app2910260102e">
-                            <lem wit="#土本">薦</lem>
-                            <note place="傍">土本朱傍書「<seg style="color:red">ー宣</seg>」</note>
-                            <note place="傍">近本傍書「ー宣」</note>
-                            <note place="傍">壬本朱傍書「<seg style="color:red">ー宣</seg>」</note>
-                            <note place="傍">京博本朱傍書「<seg style="color:red">ー宣</seg>」</note>
-                            <note place="傍">梵本朱傍書「<seg style="color:red">ー宣</seg>」</note>
-                            <note>薦　土本朱傍書・近本傍書・壬本朱傍書・京博本朱傍書・梵本朱傍書「ー宣」。</note>
-                        </app>
-                    </div>
-                    <div ana="刑部"
-                        corresp="engishiki_en.xml#article291027 engishiki_ja.xml#article291027"
-                        n="29-1.27" subtype="項" type="条" xml:id="article291027">
-                        <head ana="売児"/>
-                        <p ana="項"
-                            corresp="engishiki_en.xml#item29102701 engishiki_ja.xml#item29102701"
-                            xml:id="item29102701"><anchor xml:id="app2910270101"/>凡<anchor
-                                xml:id="app2910270101e"/>父母縁貧窮売児為賤、其事在己丑年以<anchor
-                                xml:id="app2910270102"/>前<anchor xml:id="app2910270102e"
-                            />、任依元契、若売在庚寅年以後、及因負債被強充賤、并余親相売者、皆改為良、不須論罪、其大宝二年制律以後、依法科断、</p>
-                        <app from="#app2910270101" to="#app2910270101e">
-                            <note place="頭">九本頭注「此条□不見他本、」</note>
-                            <note>凡…科断　土本・近本・壬本・京博本・慶長本・梵本、本条無し。九本により補う。九本頭注「此条□不見他本、」。ただし、延喜式編纂段階で削除されていた条文を、九本が弘仁式から補ってしまった可能性あり。</note>
-                        </app>
-                        <app from="#app2910270102" to="#app2910270102e">
-                            <lem wit="#土本">前</lem>
-                            <note>前　訳注本この下に政事要略八四所引弘仁刑部式逸文により「者」を補う。</note>
-                        </app>
-                    </div>
-                    <div ana="刑部"
-                        corresp="engishiki_en.xml#article291028 engishiki_ja.xml#article291028"
-                        n="29-1.28" subtype="項" type="条" xml:id="article291028">
-                        <head ana="良賤判"/>
-                        <p ana="項"
-                            corresp="engishiki_en.xml#item29102801 engishiki_ja.xml#item29102801"
-                            xml:id="item29102801"><anchor xml:id="app2910280101"/><anchor
-                                xml:id="app2910280101e"/>凡宣良賤判者、卿引録以上、列於西行、大判事引属以上、列於東行、囚獄司一人当両頭<pb
-                                facs="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-29%2F00007.tif/full/full/0/default.jpg"
-                                />中間二許丈却立、次主若寺檀越一許丈却立、次賤男東列跪、賤女西列跪、物部丁挟立於賤東西、自朝堂会昌門入、各如前列、卿已下当修式堂東北角列立、大判事已下当暉章堂西北角列立、並北向、各立定、当宣判事、自中間進二<anchor
-                                xml:id="app2910280102"/>許<anchor xml:id="app2910280102e"
-                                />丈、宣告判状、畢還立<anchor xml:id="app2910280103"/>本列<anchor
-                                xml:id="app2910280103e"
-                                />、若判為良者、主若檀越并囚獄司、西側避立、即囚獄司教示賤等、令再拝舞踏、然後従下退出、若判為賤者、囚<anchor
-                                xml:id="app2910280104"/>獄<anchor xml:id="app2910280104e"
-                                />司西側避立、主若檀越、再拝舞踏退出、<anchor xml:id="app2910280105"/>寺儀亦如此<anchor
-                                xml:id="app2910280105e"/>、</p>
-                        <app from="#app2910280101" to="#app2910280101e" type="標注">
-                            <lem wit="#九本">弘</lem>
-                            <rdg wit="#土本 #近本 #壬本 #京博本 #慶長本 #梵本"/>
-                            <note>弘　土本・近本・壬本・京博本・慶長本・梵本無し。九本により補う。</note>
-                        </app>
-                        <app from="#app2910280102" to="#app2910280102e">
-                            <lem wit="#九本 #慶長本 #近本傍書">許</lem>
-                            <rdg wit="#土本 #近本 #壬本 #京博本 #梵本">計</rdg>
-                            <note place="傍">近本傍書「許」</note>
-                            <note>許　土本・近本・壬本・京博本・梵本「計」、近本見せ消ち、傍書「許」。九本・慶長本・近本傍書により改める。</note>
-                        </app>
-                        <app from="#app2910280103" to="#app2910280103e">
-                            <lem wit="#九本 #近本">本列</lem>
-                            <rdg wit="#土本">大判</rdg>
-                            <rdg wit="#壬本 #京博本 #慶長本 #梵本">大列</rdg>
-                            <note>本列　土本「大判」。壬本・京博本・慶長本・梵本「大列」。九本・近本により改める。</note>
-                        </app>
-                        <app from="#app2910280104" to="#app2910280104e">
-                            <lem wit="#九本 #近本 #壬本 #京博本 #慶長本 #梵本">獄</lem>
-                            <rdg wit="#土本"/>
-                            <note>獄　土本無し。九本・近本・壬本・京博本・慶長本・梵本により補う。</note>
-                        </app>
-                        <app from="#app2910280105" to="#app2910280105e">
-                            <lem wit="#九本">寺儀亦如此</lem>
-                            <rdg wit="#土本 #近本 #壬本 #京博本 #慶長本 #梵本"/>
-                            <note>寺儀亦如此　土本・近本・壬本・京博本・慶長本・梵本無し。九本により補う。</note>
-                        </app>
-                    </div>
-                    <div ana="刑部"
-                        corresp="engishiki_en.xml#article291029 engishiki_ja.xml#article291029"
-                        n="29-1.29" subtype="項" type="条" xml:id="article291029">
-                        <head ana="贖罪無銅"/>
-                        <p ana="項"
-                            corresp="engishiki_en.xml#item29102901 engishiki_ja.xml#item29102901"
-                            xml:id="item29102901"><anchor xml:id="app2910290101"/><anchor
-                                xml:id="app2910290101e"/>凡贖罪無銅、准価徴銭、</p>
-                        <app from="#app2910290101" to="#app2910290101e" type="標注">
-                            <lem wit="#九本">弘</lem>
-                            <rdg wit="#土本 #近本 #壬本 #京博本 #慶長本 #梵本"/>
-                            <note>弘　土本・近本・壬本・京博本・慶長本・梵本無し。九本により補う。</note>
-                        </app>
-                    </div>
-                    <div ana="刑部"
-                        corresp="engishiki_en.xml#article291030 engishiki_ja.xml#article291030"
-                        n="29-1.30" subtype="項" type="条" xml:id="article291030">
-                        <head ana="贖銅銭"/>
-                        <p ana="項"
-                            corresp="engishiki_en.xml#item29103001 engishiki_ja.xml#item29103001"
-                            xml:id="item29103001"><anchor xml:id="app2910300101"/><anchor
-                                xml:id="app2910300101e"/>凡贖銅銭者、収囚獄司、省相共出納、</p>
-                        <app from="#app2910300101" to="#app2910300101e" type="標注">
-                            <lem wit="#九本">貞</lem>
-                            <rdg wit="#土本 #近本 #壬本 #京博本 #慶長本 #梵本"/>
-                            <note>貞　土本・近本・壬本・京博本・慶長本・梵本無し。九本により補う。</note>
-                        </app>
-                    </div>
-                    <div ana="刑部"
-                        corresp="engishiki_en.xml#article291031 engishiki_ja.xml#article291031"
-                        n="29-1.31" subtype="項" type="条" xml:id="article291031">
-                        <head ana="因事相喚"/>
-                        <p ana="項"
-                            corresp="engishiki_en.xml#item29103101 engishiki_ja.xml#item29103101"
-                            xml:id="item29103101"><anchor xml:id="app2910310101"/><anchor
-                                xml:id="app2910310101e"/>凡応因事相喚者、省<anchor xml:id="app2910310102"
-                                />丞<anchor xml:id="app2910310102e"/>便召判事之属、判<anchor
-                                xml:id="app2910310103"/>事<anchor xml:id="app2910310103e"
-                            />得召省録、其相送文書者、各為牒、</p>
-                        <app from="#app2910310101" to="#app2910310101e" type="標注">
-                            <lem wit="#九本">弘</lem>
-                            <rdg wit="#土本 #近本 #壬本 #京博本 #慶長本 #梵本"/>
-                            <note>弘　土本・近本・壬本・京博本・慶長本・梵本無し。九本により補う。</note>
-                        </app>
-                        <app from="#app2910310102" to="#app2910310102e">
-                            <lem wit="#土本">丞</lem>
-                            <note>丞　九本この下に「不限大少」あるも見せ消ち。</note>
-                        </app>
-                        <app from="#app2910310103" to="#app2910310103e">
-                            <lem wit="#土本">事</lem>
-                            <note>事　九本この下に「無問中少」あるも見せ消ち。</note>
-                        </app>
-                    </div>
-                    <div ana="刑部"
-                        corresp="engishiki_en.xml#article291032 engishiki_ja.xml#article291032"
-                        n="29-1.32" subtype="項" type="条" xml:id="article291032">
-                        <head ana="諸司治務"/>
-                        <p ana="項"
-                            corresp="engishiki_en.xml#item29103201 engishiki_ja.xml#item29103201"
-                            xml:id="item29103201"><anchor xml:id="app2910320101"/><anchor
-                                xml:id="app2910320101e"/>凡諸司治務、或乖法式、有司守法、皆須因<anchor
-                                xml:id="app2910320102"/>脩<anchor xml:id="app2910320102e"
-                            />、若有乖違律令者、依法科処、</p>
-                        <app from="#app2910320101" to="#app2910320101e" type="標注">
-                            <lem wit="#九本">弘</lem>
-                            <rdg wit="#土本 #近本 #壬本 #京博本 #慶長本 #梵本"/>
-                            <note>弘　土本・近本・壬本・京博本・慶長本・梵本無し。九本により補う。</note>
-                        </app>
-                        <app from="#app2910320102" to="#app2910320102e">
-                            <lem wit="#土本">脩</lem>
-                            <note place="脚">慶長本脚注「循」</note>
-                            <note place="傍">鈴鹿本朱傍書「<seg style="color:red">循</seg>」</note>
-                            <note place="傍">筑波寛文本朱傍書「<seg style="color:red">循</seg>」</note>
-                            <note place="傍">慶長本傍訓「ジュンタル」</note>
-                            <note>脩　慶長本脚注・鈴鹿本朱傍書・筑波寛文本朱傍書「循」。慶長本傍訓「ジュンタル」。訳注本は慶長本脚注により改め、九本の「脩」異体字を、「循」の誤字と推定。</note>
-                        </app>
-                    </div>
-                    <div ana="刑部"
-                        corresp="engishiki_en.xml#article291033 engishiki_ja.xml#article291033"
-                        n="29-1.33" subtype="項" type="条" xml:id="article291033">
-                        <head ana="大臣薨"/>
-                        <p ana="項"
-                            corresp="engishiki_en.xml#item29103301 engishiki_ja.xml#item29103301"
-                            xml:id="item29103301"><anchor xml:id="app2910330101"/>凡<anchor
-                                xml:id="app2910330101e"/>左右大臣以上薨者、発哀三日内、諸司理事如常、不可問獄行刑、</p>
-                        <app from="#app2910330101" to="#app2910330101e">
-                            <note place="頭">九本頭注「件条載神祇式并刑部式、」</note>
-                            <note>凡…行刑　九本頭注「件条載神祇式并刑部式、」。</note>
-                        </app>
-                    </div>
-                </div>
-                <pb
-                    facs="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-29%2F00008.tif/full/full/0/default.jpg"/>
-                <div ana="判事" corresp="engishiki_en.xml#protocol292 engishiki_ja.xml#protocol292"
-                    n="29" subtype="条" type="式" xml:id="protocol292">
-                    <div type="式題" xml:id="shikidai292">
-                        <p xml:id="shikidai29201">判事</p>
-                    </div>
-                    <div ana="判事"
-                        corresp="engishiki_en.xml#article292001 engishiki_ja.xml#article292001"
-                        n="29-2.1" subtype="項" type="条" xml:id="article292001">
-                        <head ana="訊獄書"/>
-                        <p ana="項"
-                            corresp="engishiki_en.xml#item29200101 engishiki_ja.xml#item29200101"
-                            xml:id="item29200101"><anchor xml:id="app2920010101"/><anchor
-                                xml:id="app2920010101e"/>凡訊獄訟書者、具録訴状、其申官解文者、少除繁辞、宣判之日、必須委曲、</p>
-                        <app from="#app2920010101" to="#app2920010101e" type="標注">
-                            <lem wit="#九本">弘</lem>
-                            <rdg wit="#土本 #近本 #壬本 #京博本 #慶長本 #梵本"/>
-                            <note>弘　土本・近本・壬本・京博本・慶長本・梵本無し。九本により補う。</note>
-                        </app>
-                    </div>
-                    <div ana="判事"
-                        corresp="engishiki_en.xml#article292002 engishiki_ja.xml#article292002"
-                        n="29-2.2" subtype="項" type="条" xml:id="article292002">
-                        <head ana="弾正移"/>
-                        <p ana="項"
-                            corresp="engishiki_en.xml#item29200201 engishiki_ja.xml#item29200201"
-                            xml:id="item29200201"><anchor xml:id="app2920020101"/><anchor
-                                xml:id="app2920020101e"
-                                />凡弾正台移送罪人、若有事不分明者、遣刑部録・判事属、就台諮問、若明知台之所枉、乃追就省勘問、其検非違使所送罪人、亦准<anchor
-                                xml:id="app2920020102"/>此<anchor xml:id="app2920020102e"/>、</p>
-                        <app from="#app2920020101" to="#app2920020101e" type="標注">
-                            <lem wit="#九本">弘</lem>
-                            <rdg wit="#土本 #近本 #壬本 #京博本 #慶長本 #梵本"/>
-                            <note>弘　土本・近本・壬本・京博本・慶長本・梵本無し。九本により補う。</note>
-                        </app>
-                        <app from="#app2920020102" to="#app2920020102e">
-                            <lem wit="#土本">此</lem>
-                            <rdg wit="#九本">之</rdg>
-                            <note>此　九本「之」。</note>
-                        </app>
-                    </div>
-                    <div ana="判事"
-                        corresp="engishiki_en.xml#article292003 engishiki_ja.xml#article292003"
-                        n="29-2.3" subtype="項" type="条" xml:id="article292003">
-                        <head ana="隠截租税"/>
-                        <p ana="項"
-                            corresp="engishiki_en.xml#item29200301 engishiki_ja.xml#item29200301"
-                            xml:id="item29200301"><anchor xml:id="app2920030101"/><anchor
-                                xml:id="app2920030101e"/>凡国司、税帳之外、隠截<anchor xml:id="app2920030102"
-                                />租税<anchor xml:id="app2920030102e"/>者、随弁官宣下、断其罪、具録事状及物数、年終申太政官、</p>
-                        <app from="#app2920030101" to="#app2920030101e" type="標注">
-                            <lem wit="#九本">弘</lem>
-                            <rdg wit="#土本 #近本 #壬本 #京博本 #慶長本 #梵本"/>
-                            <note>弘　土本・近本・壬本・京博本・慶長本・梵本無し。九本により補う。</note>
-                        </app>
-                        <app from="#app2920030102" to="#app2920030102e">
-                            <lem wit="#土本傍書 #九本 #近本 #壬本 #京博本 #慶長本 #梵本">租税</lem>
-                            <rdg wit="#土本">税租</rdg>
-                            <note place="傍">土本は「税」の左下に傍書「下」、「租」の左上に傍書「上」。</note>
-                            <note>租税　土本「税租」、「税」の左下に傍書「下」、「租」の左上に傍書「上」。土本傍書・九本・近本・壬本・京博本・慶長本・梵本により改める。</note>
-                        </app>
-                    </div>
-                    <div ana="判事"
-                        corresp="engishiki_en.xml#article292004 engishiki_ja.xml#article292004"
-                        n="29-2.4" subtype="項" type="条" xml:id="article292004">
-                        <head ana="僧尼犯徒"/>
-                        <p ana="項"
-                            corresp="engishiki_en.xml#item29200401 engishiki_ja.xml#item29200401"
-                            xml:id="item29200401"><anchor xml:id="app2920040101"/><anchor
-                                xml:id="app2920040101e"/><anchor xml:id="app2920040102"/>凡<anchor
-                                xml:id="app2920040102e"/>僧尼犯徒以上、還俗応徒、若会赦免罪者、聴為僧尼、</p>
-                        <app from="#app2920040101" to="#app2920040101e" type="標注">
-                            <lem wit="#九本">弘</lem>
-                            <rdg wit="#土本 #近本 #壬本 #京博本 #慶長本 #梵本"/>
-                            <note>弘　土本・近本・壬本・京博本・慶長本・梵本無し。九本により補う。</note>
-                        </app>
-                        <app from="#app2920040102" to="#app2920040102e">
-                            <note place="頭">九本頭注「和銅元年太政官処分、」</note>
-                            <note>凡…僧尼　九本頭注「和銅元年太政官処分、」。</note>
-                        </app>
-                    </div>
-                    <div ana="判事"
-                        corresp="engishiki_en.xml#article292005 engishiki_ja.xml#article292005"
-                        n="29-2.5" subtype="項" type="条" xml:id="article292005">
-                        <head ana="良賤訴"/>
-                        <p ana="項"
-                            corresp="engishiki_en.xml#item29200501 engishiki_ja.xml#item29200501"
-                            xml:id="item29200501"><anchor xml:id="app2920050101"/><anchor
-                                xml:id="app2920050101e"/>凡判良賤訴者、具録事状、申官奏聞、</p>
-                        <app from="#app2920050101" to="#app2920050101e" type="標注">
-                            <lem wit="#九本">弘</lem>
-                            <rdg wit="#土本 #近本 #壬本 #京博本 #慶長本 #梵本"/>
-                            <note>弘　土本・近本・壬本・京博本・慶長本・梵本無し。九本により補う。</note>
-                        </app>
-                    </div>
-                    <div ana="判事"
-                        corresp="engishiki_en.xml#article292006 engishiki_ja.xml#article292006"
-                        n="29-2.6" subtype="項" type="条" xml:id="article292006">
-                        <head ana="盗人"/>
-                        <p ana="項"
-                            corresp="engishiki_en.xml#item29200601 engishiki_ja.xml#item29200601"
-                            xml:id="item29200601">凡断徒以上盗人者、必勘前年盗人歴名、然後依法科断、</p>
-                    </div>
-                    <div ana="判事"
-                        corresp="engishiki_en.xml#article292007 engishiki_ja.xml#article292007"
-                        n="29-2.7" subtype="項" type="条" xml:id="article292007">
-                        <head ana="平贓布"/>
-                        <p ana="項"
-                            corresp="engishiki_en.xml#item29200701 engishiki_ja.xml#item29200701"
-                            xml:id="item29200701"><anchor xml:id="app2920070101"/><anchor
-                                xml:id="app2920070101e"/>凡平贓布者、長五丈二尺、広二尺四寸為端、</p>
-                        <app from="#app2920070101" to="#app2920070101e" type="標注">
-                            <lem wit="#九本">弘</lem>
-                            <rdg wit="#土本 #近本 #壬本 #京博本 #慶長本 #梵本"/>
-                            <note>弘　土本・近本・壬本・京博本・慶長本・梵本無し。九本により補う。</note>
-                        </app>
-                    </div>
-                </div>
-                <div ana="囚獄" corresp="engishiki_en.xml#protocol293 engishiki_ja.xml#protocol293"
-                    n="29" subtype="条" type="式" xml:id="protocol293">
-                    <div type="式題" xml:id="shikidai293">
-                        <p xml:id="shikidai29301">囚獄司</p>
-                    </div>
-                    <div ana="囚獄"
-                        corresp="engishiki_en.xml#article293001 engishiki_ja.xml#article293001"
-                        n="29-3.1" subtype="項" type="条" xml:id="article293001">
-                        <head ana="笞杖"/>
-                        <p ana="項"
-                            corresp="engishiki_en.xml#item29300101 engishiki_ja.xml#item29300101"
-                            xml:id="item29300101"><anchor xml:id="app2930010101"/><anchor
-                                xml:id="app2930010101e"/>凡司内所須笞・杖、毎年十一月、役物部丁令採備〈笞・杖各一千枝、〉</p>
-                        <app from="#app2930010101" to="#app2930010101e" type="標注">
-                            <lem wit="#九本">弘</lem>
-                            <rdg wit="#土本 #近本 #壬本 #京博本 #慶長本 #梵本"/>
-                            <note>弘　土本・近本・壬本・京博本・慶長本・梵本無し。九本により補う。</note>
-                        </app>
-                    </div>
-                    <pb
-                        facs="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-29%2F00009.tif/full/full/0/default.jpg"/>
-                    <div ana="囚獄"
-                        corresp="engishiki_en.xml#article293002 engishiki_ja.xml#article293002"
-                        n="29-3.2" subtype="項" type="条" xml:id="article293002">
-                        <head ana="着鈦盤枷"/>
-                        <p ana="項"
-                            corresp="engishiki_en.xml#item29300201 engishiki_ja.xml#item29300201"
-                            xml:id="item29300201"><anchor xml:id="app2930020101"/><anchor
-                                xml:id="app2930020101e"/>凡罪人者、随罪軽重着鈦若盤<anchor xml:id="app2930020102"
-                                />枷<anchor xml:id="app2930020102e"/>〈故焼公私倉舎盗、私鋳銭、強<anchor
-                                xml:id="app2930020103"/>奸<anchor xml:id="app2930020103e"
-                                />之類居作者、即着鈦、雑犯徒罪之類、着盤枷、〉其鈦、<anchor xml:id="app2930020104"/>或<anchor
-                                xml:id="app2930020104e"/>四人或三人為連、至暮着杻、明旦脱而役之、</p>
-                        <app from="#app2930020101" to="#app2930020101e" type="標注">
-                            <lem wit="#九本">弘</lem>
-                            <rdg wit="#土本 #近本 #壬本 #京博本 #慶長本 #梵本"/>
-                            <note>弘　土本・近本・壬本・京博本・慶長本・梵本無し。九本により補う。</note>
-                        </app>
-                        <app from="#app2930020102" to="#app2930020102e">
-                            <lem wit="#土本傍書 #九本 #近本 #壬本 #京博本 #慶長本 #梵本">枷</lem>
-                            <rdg wit="#土本"/>
-                            <note place="傍">土本傍書「枷」</note>
-                            <note>枷　土本脱、傍書により補入。土本傍書・九本・近本・壬本・京博本・慶長本・梵本により補う。</note>
-                        </app>
-                        <app from="#app2930020103" to="#app2930020103e">
-                            <lem wit="#九本 #近本 #壬本 #京博本 #慶長本 #梵本">奸</lem>
-                            <rdg wit="#土本">【姦+干】</rdg>
-                            <note>奸　土本【姦+干】。九本・近本・壬本・京博本・慶長本・梵本により改める。</note>
-                        </app>
-                        <app from="#app2930020104" to="#app2930020104e">
-                            <lem wit="#九本 #近本 #慶長本 #梵本">或</lem>
-                            <rdg wit="#土本 #京博本 #壬本">式</rdg>
-                            <note>或　土本・京博本・壬本「式」。九本・近本・慶長本・梵本により改める。</note>
-                        </app>
-                    </div>
-                    <div ana="囚獄"
-                        corresp="engishiki_en.xml#article293003 engishiki_ja.xml#article293003"
-                        n="29-3.3" subtype="項" type="条" xml:id="article293003">
-                        <head ana="罪人死亡"/>
-                        <p ana="項"
-                            corresp="engishiki_en.xml#item29300301 engishiki_ja.xml#item29300301"
-                            xml:id="item29300301"><anchor xml:id="app2930030101"/><anchor
-                                xml:id="app2930030101e"/>凡罪人死亡者、具注姓名・年・居并入徒年月日申省、</p>
-                        <app from="#app2930030101" to="#app2930030101e" type="標注">
-                            <lem wit="#九本">弘</lem>
-                            <rdg wit="#土本 #近本 #壬本 #京博本 #慶長本 #梵本"/>
-                            <note>弘　土本・近本・壬本・京博本・慶長本・梵本無し。九本により補う。</note>
-                        </app>
-                    </div>
-                    <div ana="囚獄"
-                        corresp="engishiki_en.xml#article293004 engishiki_ja.xml#article293004"
-                        n="29-3.4" subtype="項" type="条" xml:id="article293004">
-                        <head ana="毎夜巡検"/>
-                        <p ana="項"
-                            corresp="engishiki_en.xml#item29300401 engishiki_ja.xml#item29300401"
-                            xml:id="item29300401"><anchor xml:id="app2930040101"/><anchor
-                                xml:id="app2930040101e"
-                            />凡禁囚之処、当宿官人、恒将物部并物部丁等、毎夜巡検、〈従三月至七月、別三度、従八月至二月、別四度、〉</p>
-                        <app from="#app2930040101" to="#app2930040101e" type="標注">
-                            <lem wit="#九本">弘</lem>
-                            <rdg wit="#土本 #近本 #壬本 #京博本 #慶長本 #梵本"/>
-                            <note>弘　土本・近本・壬本・京博本・慶長本・梵本無し。九本により補う。</note>
-                        </app>
-                    </div>
-                    <div ana="囚獄"
-                        corresp="engishiki_en.xml#article293005 engishiki_ja.xml#article293005"
-                        n="29-3.5" subtype="項" type="条" xml:id="article293005">
-                        <head ana="看侍獄囚"/>
-                        <p ana="項"
-                            corresp="engishiki_en.xml#item29300501 engishiki_ja.xml#item29300501"
-                            xml:id="item29300501"><anchor xml:id="app2930050101"/><anchor
-                                xml:id="app2930050101e"/>凡縁看侍獄囚、
+<witness xml:id="小野宮年中行事裏書"><abbr>小野宮年中行事裏書</abbr>：国立歴史民俗博物館所蔵本（H-1762）</witness>
+<witness xml:id="勘例"><abbr>勘例（陽明文庫所蔵）</abbr>：大日本古記録『勘例』上・下（岩波書店　2018・2023年刊）</witness>
+<witness xml:id="政事要略"><abbr>政事要略</abbr>：新訂増補国史大系第28巻（吉川弘文館　1935年刊。適宜、写本を参照）</witness>
+<witness xml:id="法曹至要抄"><abbr>法曹至要抄</abbr>：中世法制史料集（岩波書店　2005年刊）</witness>
+<witness xml:id="本草和名"><abbr>本草和名</abbr>：丸山裕美子・武倩編著『本草和名』（汲古書院　2021年刊）</witness>
+</listWit>
+</listWit>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<variantEncoding location="external" method="location-referenced"/>
+<tagsDecl>
+<rendition xml:id="indent">margin-top: 1em;</rendition>
+<rendition xml:id="indent2">margin-top: 2em;</rendition>
+<rendition xml:id="indent5">margin-top: 5em;</rendition>
+<rendition xml:id="width50">width: 50px;</rendition>
+<rendition xml:id="kokumei">width: 80px;</rendition>
+<rendition xml:id="width100">width: 100px;</rendition>
+<rendition xml:id="jinnmyou">width: 200px;</rendition>
+<rendition xml:id="width300">width: 300px;</rendition>
+</tagsDecl>
+<editorialDecl ana="校訂文凡例">
+<p ana="全体">
+<table>
+<row>
+<cell>・</cell>
+<cell>原則として土本（以下、略称は「主要写本・版本・刊本等略称・底本一覧」参照）を底本とし、九本・剛本・条本・花本等の古写本や近本・壬本・京博本等の写本によって対校しました（巻によって使用した対校本は異なります）。</cell>
+</row>
+<row>
+<cell>・</cell>
+<cell>条文番号・条文名称は原則として訳注本に拠りましたが、一部を修正しています（※下記「条文名称修正一覧」参照）。なお1条が長い場合など、必要に応じ「項」に分割して示すこととしました。</cell>
+</row>
+<row>
+<cell>・</cell>
+<cell>校異は原則として底本の文字を改変する場合、あるいは写本間に参考とすべき異同がある場合、参考とすべき傍書等がある場合に付すこととしました。必ずしもその校異に関する写本をすべて網羅することはせず、主要写本のみを取り上げています。ただし訳注本と校訂文に異同が生じた場合には、できる限り校異にて言及するよう心がけました（単なる字体の相違については省略しています）。</cell>
+</row>
+<row>
+<cell>・</cell>
+<cell>校訂文は『延喜式』撰上当初の姿の復元を目標としています。標注や傍書は、条文名称に関わるものは省略し、中世以前にさかのぼることが想定されるものに限って、校異注で言及することとしました。ただし標注のうち「弘」「貞」「延」等については便宜を考え、鉤括弧で括って校訂本文に掲げることとしました。</cell>
+</row>
+<row>
+<cell>・</cell>
+<cell>字体は常用漢字体を原則としました。「大」と「太」、「座」と「坐」、「絇」と「約」、「績」と「續（続）」、「色」と「包」、「細」と「紬」、「鈍」と「純」、「冑」と「胃」、「絁」と「絶」、草冠と竹冠、木偏と手偏等、容易に判定される誤字や誤用・通用については、校異を省略して適宜置き換える場合があります。ただし巻9・10においては「大」「太」の差異も校異にて触れることとしました。</cell>
+</row>
+<row>
+<cell>・</cell>
+<cell>校訂文中の細字・割書は、〈　〉で括って表現することとしました。</cell>
+</row>
+<row>
+<cell>・</cell>
+<cell>本文に誤字・脱字等が想定される場合であっても、置き換えるべき文字や補うべき文字が明確でない場合は、校異注での言及にとどめた場合があります。</cell>
+</row>
+<row>
+<cell>・</cell>
+<cell>ユニコードにて表示されない漢字は以下のように示すことにしました。</cell>
+</row>
+</table>
+<table rendition="#indent2">
+<row>
+<cell rendition="#width100">【Ａ+Ｂ】</cell>
+<cell rendition="#width300">＝扁がＡ、つくりがＢ</cell>
+<cell rendition="#width300">例）村【木+寸】</cell>
+</row>
+<row>
+<cell rendition="#width100">【Ａ/Ｂ】</cell>
+<cell rendition="#width300">＝上にＡ、下にＢ</cell>
+<cell rendition="#width300">例）雲【雨/云】</cell>
+</row>
+<row>
+<cell rendition="#width100">【Ａ-Ｂ】</cell>
+<cell rendition="#width300">＝Ａの字画よりＢにあたる字画を除く</cell>
+<cell rendition="#width300">例）門【閉-オ】</cell>
+</row>
+<row>
+<cell rendition="#width100">【Ａ⊃Ｂ】</cell>
+<cell rendition="#width300">＝Ａの字画のなかにＢの字画が含まれる</cell>
+<cell rendition="#width300">例）閉【門⊃オ】、国【囗⊃玉】</cell>
+</row>
+<row><cell/></row>
+<row><cell/></row>
+</table>
+<table>
+<row>
+<cell>・</cell>
+<cell>校異注の付く文字は赤字および青字で表示され、クリックすると注が表示されます。表示内容は以下の通りです。</cell>
+</row>
+</table>
+<table rendition="#indent2">
+<row>
+<cell rendition="#width100">採用</cell>
+<cell>写本名と校訂文にて採用した文字</cell>
+</row>
+<row>
+<cell rendition="#width100">校異</cell>
+<cell>写本名と対校箇所の文字</cell>
+</row>
+<row>
+<cell rendition="#width100">解説</cell>
+<cell>各写本の傍書や頭書等の提示、校異注の本文（最下部の解説）</cell>
+</row>
+<row><cell/></row>
+<row><cell/></row>
+</table>
+<table>
+<row>
+<cell>・</cell>
+<cell>条文名称修正一覧</cell>
+</row>
+</table>
+<table rendition="#indent2">
+<row>
+<cell rendition="#width100">巻番号</cell>
+<cell rendition="#width50">旧番号</cell>
+<cell rendition="#width100">旧条文名</cell>
+<cell rendition="#width50">番号</cell>
+<cell rendition="#width100">訂正条文名</cell>
+</row>
+<row>
+<cell rendition="#width100">111太政官</cell>
+<cell rendition="#width50">67</cell>
+<cell rendition="#width100">薗韓神祭</cell>
+<cell rendition="#width50">67</cell>
+<cell rendition="#width100">園韓神祭</cell>
+</row>
+<row>
+<cell rendition="#width100">111太政官</cell>
+<cell rendition="#width50">112</cell>
+<cell rendition="#width100">行幸経宿</cell>
+<cell rendition="#width50">112</cell>
+<cell rendition="#width100">行幸経旬</cell>
+</row>
+<row>
+<cell rendition="#width100">171内匠</cell>
+<cell rendition="#width50">39</cell>
+<cell rendition="#width100">作物衣服</cell>
+<cell rendition="#width50">39</cell>
+<cell rendition="#width100">作物衣</cell>
+</row>
+<row>
+<cell rendition="#width100">214諸陵</cell>
+<cell rendition="#width50">16</cell>
+<cell rendition="#width100">後阿陁他遠墓</cell>
+<cell rendition="#width50">16</cell>
+<cell rendition="#width100">後阿陀他遠墓</cell>
+</row>
+<row>
+<cell rendition="#width100">293囚獄</cell>
+<cell rendition="#width50">2</cell>
+<cell rendition="#width100">著鈦盤枷</cell>
+<cell rendition="#width50">2</cell>
+<cell rendition="#width100">着鈦盤枷</cell>
+</row>
+<row>
+<cell rendition="#width100">321大膳上</cell>
+<cell rendition="#width50">5</cell>
+<cell rendition="#width100">新嘗祭</cell>
+<cell rendition="#width50">5･6</cell>
+<cell rendition="#width100">新嘗祭と新嘗小斎解斎に分割</cell>
+</row>
+<row>
+<cell rendition="#width100">411弾正</cell>
+<cell rendition="#width50">68</cell>
+<cell rendition="#width100">支子染深色</cell>
+<cell rendition="#width50">68</cell>
+<cell rendition="#width100">支子染色</cell>
+</row>
+</table>
+</p>
+<p ana="個別">校訂文凡例 <table>
+<row>
+<cell>・</cell>
+<cell>対校に用いた諸本の略称は以下の通りです。</cell>
+</row>
+</table>
+<table rendition="#indent2">
+<row>
+<cell rendition="#width100">土本</cell>
+<cell>国立歴史民俗博物館蔵土御門家旧蔵本（H-743-74）</cell>
+</row>
+<row>
+<cell rendition="#width100">九本</cell>
+<cell>東京国立博物館所蔵九条家旧蔵巻子本（B-2370）</cell>
+</row>
+<row>
+<cell rendition="#width100">近本</cell>
+<cell>京都大学附属図書館所蔵近衛文庫本（2-03/エ/1貴）</cell>
+</row>
+<row>
+<cell rendition="#width100">壬本</cell>
+<cell>宮内庁書陵部図書寮文庫所蔵壬生家旧蔵本（F10-287）</cell>
+</row>
+<row>
+<cell rendition="#width100">京博本</cell>
+<cell>京都国立博物館蔵旧京都博物館本</cell>
+</row>
+<row>
+<cell rendition="#width100">慶長本</cell>
+<cell>国立公文書館所蔵慶長写本（特102-8）</cell>
+</row>
+<row>
+<cell rendition="#width100">梵本</cell>
+<cell>天理大学附属天理大図書館蔵吉田文庫梵舜等筆本（吉16-8）</cell>
+</row>
+<row>
+<cell rendition="#width100">島原本</cell>
+<cell>東京大学史料編纂所所蔵松平忠房・和学講談所・水野忠央旧蔵本（貴45-2）</cell>
+</row>
+<row>
+<cell rendition="#width100">版本</cell>
+<cell>慶安版本・明暦以降版本の総称</cell>
+</row>
+<row>
+<cell rendition="width100">慶安版本</cell>
+<cell>大和文華館所蔵鈴鹿連胤旧蔵版本（1/741～790）</cell>
+</row>
+<row>
+<cell rendition="width100">鈴鹿本</cell>
+<cell>大和文華館所蔵鈴鹿連胤旧蔵慶安版本（1/741～790）書入</cell>
+</row>
+<row>
+<cell rendition="#width100">明暦以降版本</cell>
+<cell>明暦修訂本以降の版本</cell>
+</row>
+<row>
+<cell rendition="width100">明暦版本</cell>
+<cell>明暦修訂版本　国立公文書館所蔵紅葉山文庫旧蔵版本（特26-1）等</cell>
+</row>
+<row>
+<cell rendition="#width100">寛文版本</cell>
+<cell>寛文修訂版本　筑波大学附属図書館所蔵版本20冊本（ム212-7）等</cell>
+</row>
+<row>
+<cell rendition="#width100">享保版本</cell>
+<cell>享保修訂版本　筑波大学附属図書館所蔵版本50冊本（ム212-6）等</cell>
+</row>
+<row>
+<cell rendition="#width100">雲本</cell>
+<cell>松江藩文政11年(1828)刊本（雲州本）　早稲田大学図書館所蔵本（ワ03-01594）等</cell>
+</row>
+<row>
+<cell rendition="#width100">考異</cell>
+<cell>雲州本附録『延喜式考異』　早稲田大学図書館所蔵本（ワ03-01594）等</cell>
+</row>
+<row>
+<cell rendition="width100">国史大系本</cell>
+<cell>新訂増補国史大系第26巻（吉川弘文館　1937年刊）</cell>
+</row>
+<row>
+<cell rendition="#width100">訳注本</cell>
+<cell>訳注日本史料『延喜式』下（集英社　2017年刊）</cell>
+</row>
+<row>
+<cell rendition="#width100">政事要略</cell>
+<cell>新訂増補国史大系第28巻（吉川弘文館　1935年刊。適宜、写本を参照）</cell>
+</row>
+</table>
+<table>
+<row>
+<cell>・</cell>
+<cell>底本には土本を使用し、九本、近本、壬本、京博本、慶長本、梵舜本によって対校しました。その他、校訂に資する場合や内容理解に関わる場合に限り、他本を掲示しました。また、必要に応じて政事要略等の関連史料が引く式文も掲示しました。</cell>
+</row>
+<row>
+<cell>・</cell>
+<cell>訳注本の校訂と異なる場合は、その旨明記しました。</cell>
+</row>
+<row>
+<cell>・</cell>
+<cell>条文番号・条文名称は原則として訳注本に従います。ただし、囚獄式着鈦盤枷条の条文名のみ「著鈦盤枷」より「着鈦盤枷」に変更しました。</cell>
+</row>
+<row>
+<cell>・</cell>
+<cell>活字本との異同は原則として訳注本を示すにとどめます。</cell>
+</row>
+<row>
+<cell>・</cell>
+<cell>明らかに誤字・脱字が推測される場合でも、補うべき字あるいは改めるべき字の根拠が充分でない場合には、注で示すにとどめます。</cell>
+</row>
+<row>
+<cell>・</cell>
+<cell>同じ字が連続する場合、多くの写本では踊り字が用いられていますが、巻29においてはもとの字に置き換えます。</cell>
+</row>
+<row>
+<cell>・</cell>
+<cell>原則として常用字を使用します。</cell>
+</row>
+<row>
+<cell>・</cell>
+<cell>「大」と「太」、「少」と「小」等、容易に判定される誤字や誤用・通用については、校異を省略して適宜置き換えた場合があります。</cell>
+</row>
+<row>
+<cell>・</cell>
+<cell>条文名に関する鼇頭標目については省略します。鼇頭標柱については「　」で括って示します。</cell>
+</row>
+<row>
+<cell>・</cell>
+<cell>書式や表の形式をとる条文の形態については、必ずしも底本によらず、意をもって形式を整えた場合があります。細字は〈　〉で括って示します。</cell>
+</row>
+</table>
+</p>
+</editorialDecl>
+</encodingDesc>
+<revisionDesc ana="個別">
+<listChange>
+<change/>
+</listChange>
+</revisionDesc>
+</teiHeader>
+<text>
+<body>
+<div ana="刑部" n="29" subtype="式" type="巻" xml:id="volume29">
+<pb facs="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-29%2F00002.tif/full/full/0/default.jpg"/>
+<div type="首題" xml:id="shudai29">
+<p xml:id="shudai2901">延喜式巻第廿九　〈刑部　判事　囚獄〉</p>
+</div>
+<div ana="刑部" corresp="engishiki_en.xml#protocol291 engishiki_ja.xml#protocol291" n="29" subtype="条" type="式" xml:id="protocol291">
+<div type="式題" xml:id="shikidai291">
+<p xml:id="shikidai29101">刑部省</p>
+</div>
+<div ana="刑部" corresp="engishiki_en.xml#article291001 engishiki_ja.xml#article291001" n="29-1.1" subtype="項" type="条" xml:id="article291001">
+<head ana="盗取仏像"/>
+<p ana="項" corresp="engishiki_en.xml#item29100101 engishiki_ja.xml#item29100101" xml:id="item29100101"><anchor xml:id="app2910010101"/><anchor xml:id="app2910010101e"/>凡盗取仏像改作衣<anchor xml:id="app2910010102"/>物<anchor xml:id="app2910010102e"/>、雖渝其色、猶送本処、若不知主者、便入寺家、毀金像作鏡・<anchor xml:id="app2910010103"/>鐘<anchor xml:id="app2910010103e"/>、亦随見在入寺、若作釜及雑器者、本是仏像添造仏像、菩薩添造菩薩、不須交雑、</p>
+<app from="#app2910010101" to="#app2910010101e" type="標注">
+<lem wit="#九本">弘</lem>
+<rdg wit="#土本 #近本 #壬本 #京博本 #慶長本 #梵本"/>
+<note>弘　土本・近本・壬本・京博本・慶長本・梵本無し。九本により補う。</note>
+</app>
+<app from="#app2910010102" to="#app2910010102e">
+<lem wit="#土本">物</lem>
+<rdg wit="#九本">服</rdg>
+<note>物　九本「服」。</note>
+</app>
+<app from="#app2910010103" to="#app2910010103e">
+<lem wit="#土本">鐘</lem>
+<rdg wit="#九本">鍾</rdg>
+<note>鐘　九本「鍾」。</note>
+</app>
+</div>
+<div ana="刑部" corresp="engishiki_en.xml#article291002 engishiki_ja.xml#article291002" n="29-1.2" subtype="項" type="条" xml:id="article291002">
+<head ana="僧尼犯罪"/>
+<p ana="項" corresp="engishiki_en.xml#item29100201 engishiki_ja.xml#item29100201" xml:id="item29100201"><anchor xml:id="app2910020101"/><anchor xml:id="app2910020101e"/>凡僧尼犯罪応訊者、皆拠衆証定刑、不須捶拷、其応還俗者、具注本貫・姓名・年紀・臈数、移送治部・民部等省、除附帳籍、</p>
+<app from="#app2910020101" to="#app2910020101e" type="標注">
+<lem wit="#九本">弘</lem>
+<rdg wit="#土本 #近本 #壬本 #京博本 #慶長本 #梵本"/>
+<note>弘　土本・近本・壬本・京博本・慶長本・梵本無し。九本により補う。</note>
+</app>
+</div>
+<pb facs="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-29%2F00003.tif/full/full/0/default.jpg"/>
+<div ana="刑部" corresp="engishiki_en.xml#article291003 engishiki_ja.xml#article291003" n="29-1.3" subtype="項" type="条" xml:id="article291003">
+<head ana="訴訟人"/>
+<p ana="項" corresp="engishiki_en.xml#item29100301 engishiki_ja.xml#item29100301" xml:id="item29100301"><anchor xml:id="app2910030101"/><anchor xml:id="app2910030101e"/><anchor xml:id="app2910030102"/>凡<anchor xml:id="app2910030102e"/>訴訟人注僧尼為証人者、遣省丞・録、及判事属各一人、就寺勘問虚実、</p>
+<app from="#app2910030101" to="#app2910030101e" type="標注">
+<lem wit="#九本">弘</lem>
+<rdg wit="#土本 #近本 #壬本 #京博本 #慶長本 #梵本"/>
+<note>弘　土本・近本・壬本・京博本・慶長本・梵本無し。九本により補う。</note>
+</app>
+<app from="#app2910030102" to="#app2910030102e">
+<note place="頭">九本頭注「大宝三年太政官処分、」</note>
+<note>凡…虚実　九本頭注「大宝三年太政官処分、」。</note>
+</app>
+</div>
+<div ana="刑部" corresp="engishiki_en.xml#article291004 engishiki_ja.xml#article291004" n="29-1.4" subtype="項" type="条" xml:id="article291004">
+<head ana="勘事"/>
+<p ana="項" corresp="engishiki_en.xml#item29100401 engishiki_ja.xml#item29100401" xml:id="item29100401"><anchor xml:id="app2910040101"/><anchor xml:id="app2910040101e"/>凡縁有勘事、応請諸寺三綱者、移送治部、</p>
+<app from="#app2910040101" to="#app2910040101e" type="標注">
+<lem wit="#九本">弘</lem>
+<rdg wit="#土本 #近本 #壬本 #京博本 #慶長本 #梵本"/>
+<note>弘　土本・近本・壬本・京博本・慶長本・梵本無し。九本により補う。</note>
+</app>
+</div>
+<div ana="刑部" corresp="engishiki_en.xml#article291005 engishiki_ja.xml#article291005" n="29-1.5" subtype="項" type="条" xml:id="article291005">
+<head ana="五位以上犯罪"/>
+<p ana="項" corresp="engishiki_en.xml#item29100501 engishiki_ja.xml#item29100501" xml:id="item29100501"><anchor xml:id="app2910050101"/><anchor xml:id="app2910050101e"/>凡五位以上、犯罪応推者、皆設床・席、</p>
+<app from="#app2910050101" to="#app2910050101e" type="標注">
+<lem wit="#九本">弘</lem>
+<rdg wit="#土本 #近本 #壬本 #京博本 #慶長本 #梵本"/>
+<note>弘　土本・近本・壬本・京博本・慶長本・梵本無し。九本により補う。</note>
+</app>
+</div>
+<div ana="刑部" corresp="engishiki_en.xml#article291006 engishiki_ja.xml#article291006" n="29-1.6" subtype="項" type="条" xml:id="article291006">
+<head ana="流罪以下"/>
+<p ana="項" corresp="engishiki_en.xml#item29100601 engishiki_ja.xml#item29100601" xml:id="item29100601"><anchor xml:id="app2910060101"/><anchor xml:id="app2910060101e"/>凡流罪以下、随発且断、其死刑者、皆惣断、十月四日申官、即断文令判事属申送、</p>
+<app from="#app2910060101" to="#app2910060101e" type="標注">
+<lem wit="#九本">弘貞</lem>
+<rdg wit="#土本 #近本 #壬本 #京博本 #慶長本 #梵本"/>
+<note>弘貞　土本・近本・壬本・京博本・慶長本・梵本無し。九本により補う。</note>
+</app>
+</div>
+<div ana="刑部" corresp="engishiki_en.xml#article291007 engishiki_ja.xml#article291007" n="29-1.7" subtype="項" type="条" xml:id="article291007">
+<head ana="流移罪人"/>
+<p ana="項" corresp="engishiki_en.xml#item29100701 engishiki_ja.xml#item29100701" xml:id="item29100701"><anchor xml:id="app2910070101"/><anchor xml:id="app2910070101e"/>凡流移罪人者、省申官、遞請左右兵衛為部領、即授省符、路次差加防援、令達前所、其返抄者、従官下省、</p>
+<app from="#app2910070101" to="#app2910070101e" type="標注">
+<lem wit="#九本">貞</lem>
+<rdg wit="#土本 #近本 #壬本 #京博本 #慶長本 #梵本"/>
+<note>貞　土本・近本・壬本・京博本・慶長本・梵本無し。九本により補う。</note>
+</app>
+</div>
+<div ana="刑部" corresp="engishiki_en.xml#article291008 engishiki_ja.xml#article291008" n="29-1.8" subtype="項" type="条" xml:id="article291008">
+<head ana="格式立制"/>
+<p ana="項" corresp="engishiki_en.xml#item29100801 engishiki_ja.xml#item29100801" xml:id="item29100801"><anchor xml:id="app2910080101"/><anchor xml:id="app2910080101e"/>凡格式立制、不定其罪、律有本条、依律罪之、不縁違式<anchor xml:id="app2910080102"/>之<anchor xml:id="app2910080102e"/>科、</p>
+<app from="#app2910080101" to="#app2910080101e" type="標注">
+<lem wit="#九本">貞</lem>
+<rdg wit="#土本 #近本 #壬本 #京博本 #慶長本 #梵本"/>
+<note>貞　土本・近本・壬本・京博本・慶長本・梵本無し。九本により補う。</note>
+</app>
+<app from="#app2910080102" to="#app2910080102e">
+<lem wit="#九本">之</lem>
+<rdg wit="#土本 #近本 #壬本 #京博本 #慶長本 #梵本"/>
+<note>之　土本・近本・壬本・京博本・慶長本・梵本無し。九本により補う。</note>
+</app>
+</div>
+<div ana="刑部" corresp="engishiki_en.xml#article291009 engishiki_ja.xml#article291009" n="29-1.9" subtype="項" type="条" xml:id="article291009">
+<head ana="柵戸逃亡"/>
+<p ana="項" corresp="engishiki_en.xml#item29100901 engishiki_ja.xml#item29100901" xml:id="item29100901"><anchor xml:id="app2910090101"/><anchor xml:id="app2910090101e"/>凡有柵戸逃亡、若元差平民、為柵戸者、以戸口逃亡罪論、若<anchor xml:id="app2910090102"/>特<anchor xml:id="app2910090102e"/>宥死罪配柵戸者、准兵士逃亡法、</p>
+<app from="#app2910090101" to="#app2910090101e" type="標注">
+<lem wit="#九本">弘</lem>
+<rdg wit="#土本 #近本 #壬本 #京博本 #慶長本 #梵本"/>
+<note>弘　土本・近本・壬本・京博本・慶長本・梵本無し。九本により補う。</note>
+</app>
+<app from="#app2910090102" to="#app2910090102e">
+<lem wit="#九本 #近本 #慶長本">特</lem>
+<rdg wit="#土本 #壬本 #京博本 #梵本">持</rdg>
+<note>特　土本・壬本・京博本・梵本「持」。九本・近本・慶長本により改める。</note>
+</app>
+</div>
+<div ana="刑部" corresp="engishiki_en.xml#article291010 engishiki_ja.xml#article291010" n="29-1.10" subtype="項" type="条" xml:id="article291010">
+<head ana="私鋳銭"/>
+<p ana="項" corresp="engishiki_en.xml#item29101001 engishiki_ja.xml#item29101001" xml:id="item29101001"><anchor xml:id="app2910100101"/><anchor xml:id="app2910100101e"/>凡私鋳銭、其作具并銭・銅等物、皆没官、</p>
+<app from="#app2910100101" to="#app2910100101e" type="標注">
+<lem wit="#九本">弘</lem>
+<rdg wit="#土本 #近本 #壬本 #京博本 #慶長本 #梵本"/>
+<note>弘　土本・近本・壬本・京博本・慶長本・梵本無し。九本により補う。</note>
+</app>
+</div>
+<div ana="刑部" corresp="engishiki_en.xml#article291011 engishiki_ja.xml#article291011" n="29-1.11" subtype="項" type="条" xml:id="article291011">
+<head ana="会赦"/>
+<p ana="項" corresp="engishiki_en.xml#item29101101 engishiki_ja.xml#item29101101" xml:id="item29101101"><anchor xml:id="app2910110101"/><anchor xml:id="app2910110101e"/>凡犯罪会赦及降合免者、並拠赦降出日免罪、</p>
+<app from="#app2910110101" to="#app2910110101e" type="標注">
+<lem wit="#九本">弘</lem>
+<rdg wit="#土本 #近本 #壬本 #京博本 #慶長本 #梵本"/>
+<note>弘　土本・近本・壬本・京博本・慶長本・梵本無し。九本により補う。</note>
+</app>
+</div>
+<div ana="刑部" corresp="engishiki_en.xml#article291012 engishiki_ja.xml#article291012" n="29-1.12" subtype="項" type="条" xml:id="article291012">
+<head ana="会赦即免"/>
+<p ana="項" corresp="engishiki_en.xml#item29101201 engishiki_ja.xml#item29101201" xml:id="item29101201"><anchor xml:id="app2910120101"/><anchor xml:id="app2910120101e"/>凡罪人会赦合放者、省即免之、不可申官、</p>
+<app from="#app2910120101" to="#app2910120101e" type="標注">
+<lem wit="#九本">弘</lem>
+<rdg wit="#土本 #近本 #壬本 #京博本 #慶長本 #梵本"/>
+<note>弘　土本・近本・壬本・京博本・慶長本・梵本無し。九本により補う。</note>
+</app>
+</div>
+<pb facs="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-29%2F00004.tif/full/full/0/default.jpg"/>
+<div ana="刑部" corresp="engishiki_en.xml#article291013 engishiki_ja.xml#article291013" n="29-1.13" subtype="項" type="条" xml:id="article291013">
+<head ana="無罪合免"/>
+<p ana="項" corresp="engishiki_en.xml#item29101301 engishiki_ja.xml#item29101301" xml:id="item29101301"><anchor xml:id="app2910130101"/><anchor xml:id="app2910130101e"/>凡被告犯罪推劾無罪、及徒人役満依法合免、其為人凶悪、衆庶共知者、不須放免、禁固獄中、<anchor xml:id="app2910130102"/>自余<anchor xml:id="app2910130102e"/>応放者、申官免之、</p>
+<app from="#app2910130101" to="#app2910130101e" type="標注">
+<lem wit="#九本">弘</lem>
+<rdg wit="#土本 #近本 #壬本 #京博本 #慶長本 #梵本"/>
+<note>弘　土本・近本・壬本・京博本・慶長本・梵本無し。九本により補う。</note>
+</app>
+<app from="#app2910130102" to="#app2910130102e">
+<lem wit="#九本">自余</lem>
+<rdg wit="#土本 #近本 #壬本 #京博本 #慶長本 #梵本">理</rdg>
+<note>自余　土本・近本・壬本・京博本・慶長本・梵本「理」。九本により改める。</note>
+</app>
+</div>
+<div ana="刑部" corresp="engishiki_en.xml#article291014 engishiki_ja.xml#article291014" n="29-1.14" subtype="項" type="条" xml:id="article291014">
+<head ana="告罪名"/>
+<p ana="項" corresp="engishiki_en.xml#item29101401 engishiki_ja.xml#item29101401" xml:id="item29101401"><anchor xml:id="app2910140101"/><anchor xml:id="app2910140101e"/>凡告囚罪名者、囚獄司引罪人就省版位、即判事属読<anchor xml:id="app2910140102"/>示<anchor xml:id="app2910140102e"/>犯状、少判事以上覆問<anchor xml:id="app2910140103"/>服<anchor xml:id="app2910140103e"/>不、</p>
+<app from="#app2910140101" to="#app2910140101e" type="標注">
+<lem wit="#九本">弘</lem>
+<rdg wit="#土本 #近本 #壬本 #京博本 #慶長本 #梵本"/>
+<note>弘　土本・近本・壬本・京博本・慶長本・梵本無し。九本により補う。</note>
+</app>
+<app from="#app2910140102" to="#app2910140102e">
+<lem wit="#九本 #慶長本 #梵本">示</lem>
+<rdg wit="#土本">尓</rdg>
+<rdg wit="#近本">【亦⊃ヽヽ】</rdg>
+<rdg wit="#京博本 #壬本">亦</rdg>
+<note place="傍">近本傍書「示」</note>
+<note>示　土本「尓」。近本【亦⊃ヽヽ】に傍書「示」。京博本・壬本「亦」。九本・慶長本・梵本により改める。</note>
+</app>
+<app from="#app2910140103" to="#app2910140103e">
+<lem wit="#土本">服</lem>
+<rdg wit="#九本">眼</rdg>
+<note place="傍">九本傍書「服」</note>
+<note>服　九本「眼」、傍書「服」。</note>
+</app>
+</div>
+<div ana="刑部" corresp="engishiki_en.xml#article291015 engishiki_ja.xml#article291015" n="29-1.15" subtype="項" type="条" xml:id="article291015">
+<head ana="罪人尫弱"/>
+<p ana="項" corresp="engishiki_en.xml#item29101501 engishiki_ja.xml#item29101501" xml:id="item29101501"><anchor xml:id="app2910150101"/><anchor xml:id="app2910150101e"/>凡犯罪之人、或尫或弱、決杖之時、且寒且熱、重加頓杖、恐致死亡、須量其貌、満役之間、准折決畢、</p>
+<app from="#app2910150101" to="#app2910150101e" type="標注">
+<lem wit="#九本">弘</lem>
+<rdg wit="土本 #近本 #壬本 #京博本 #慶長本 #梵本"/>
+<note>弘　土本・近本・壬本・京博本・慶長本・梵本無し。九本により補う。</note>
+</app>
+</div>
+<div ana="刑部" corresp="engishiki_en.xml#article291016 engishiki_ja.xml#article291016" n="29-1.16" subtype="項" type="条" xml:id="article291016">
+<head ana="不進罪人位記"/>
+<p ana="項" corresp="engishiki_en.xml#item29101601 engishiki_ja.xml#item29101601" xml:id="item29101601"><anchor xml:id="app2910160101"/><anchor xml:id="app2910160101e"/>凡諸国不進犯罪人位記、移式部省、拘留朝集使返抄、</p>
+<app from="#app2910160101" to="#app2910160101e" type="標注">
+<lem wit="#九本">貞</lem>
+<rdg wit="土本 #近本 #壬本 #京博本 #慶長本 #梵本"/>
+<note>貞　土本・近本・壬本・京博本・慶長本・梵本無し。九本により補う。</note>
+</app>
+</div>
+<div ana="刑部" corresp="engishiki_en.xml#article291017 engishiki_ja.xml#article291017" n="29-1.17" subtype="項" type="条" xml:id="article291017">
+<head ana="毀罪人位記"/>
+<p ana="項" corresp="engishiki_en.xml#item29101701 engishiki_ja.xml#item29101701" xml:id="item29101701"><anchor xml:id="app2910170101"/><anchor xml:id="app2910170101e"/>凡応毀罪人位記者、省収位記、申送弁官、官以位記返付省、更定日申官、其日丞・録与中務・式部・兵部等省共就太政官、<anchor xml:id="app2910170102"/>三<anchor xml:id="app2910170102e"/>省録各持位案筥、刑部録持位記筥、共入列立庭中〈北面東上、〉大臣命、召、称唯就座、弁官申可毀位記之状、訖即刑部録以位記筥、進付外記、外記申云、毀位記若干枚、大臣命、毀之、称唯毀、畢録進取位記筥復座、訖即退出〈事見儀式、〉</p>
+<app from="#app2910170101" to="#app2910170101e" type="標注">
+<lem wit="#九本">弘</lem>
+<rdg wit="#土本 #近本 #壬本 #京博本 #慶長本 #梵本"/>
+<note>弘　土本・近本・壬本・京博本・慶長本・梵本無し。九本により補う。</note>
+</app>
+<app from="#app2910170102" to="#app2910170102e">
+<lem wit="#土本">三</lem>
+<note place="傍">筑波寛文本朱傍書「<seg style="color:red">二〈式部式〉</seg>」</note>
+<note>三　筑波寛文本朱傍書「二〈式部式〉」。考異「式部式作二省」。延喜式部式下40毀位記条「二」。但し弘仁式部式「三」。</note>
+</app>
+</div>
+<pb facs="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-29%2F00005.tif/full/full/0/default.jpg"/>
+<div ana="刑部" corresp="engishiki_en.xml#article291018 engishiki_ja.xml#article291018" n="29-1.18" subtype="項" type="条" xml:id="article291018">
+<head ana="遠近"/>
+<p ana="項" corresp="engishiki_en.xml#item29101801 engishiki_ja.xml#item29101801" xml:id="item29101801"><anchor xml:id="app2910180101"/>凡<anchor xml:id="app2910180101e"/>流移人者、省定配所申官、具録犯状下符所在并配所〈良人請内印、賤隷請外印、〉其路程者、従京為計、伊豆〈去京七百七十里、〉・安房〈一千一百九十里、〉・常陸〈一千五百七十五里、〉・佐渡〈一千三百廿五里、〉・隠伎〈九百一十里、〉・土左等国〈一千二百廿五里、〉為遠流、信濃〈五百六十里、〉・伊予等国〈五百六十里、〉為中流、越前〈三百一十五里、〉・安芸等国〈四百九十里、〉為近流、</p>
+<app from="#app2910180101" to="#app2910180101e">
+<note place="頭">九本頭注「件条注弘仁刑格、」</note>
+<note>凡…近流　九本頭注「件条注弘仁刑格、」。</note>
+</app>
+</div>
+<div ana="刑部" corresp="engishiki_en.xml#article291019 engishiki_ja.xml#article291019" n="29-1.19" subtype="項" type="条" xml:id="article291019">
+<head ana="決死囚"/>
+<p ana="項" corresp="engishiki_en.xml#item29101901 engishiki_ja.xml#item29101901" xml:id="item29101901"><anchor xml:id="app2910190101"/><anchor xml:id="app2910190101e"/>凡決死囚者、省預移送弾正・衛門、其日会集市司南門、共監行決、其弾正・左衛門官人列門外東、〈各西面北上、相去一許丈、〉刑部・右衛門官人列門外西、〈各東面北上、相去同上、〉市・獄両司列於
+                                南庭〈自衛府南去四許丈、各北面中上、東西<anchor xml:id="app2910190102"/>平<anchor xml:id="app2910190102e"/>頭、相去三許丈、〉囚人当中間而跪、〈自両司南去三四許丈、〉物部分<anchor xml:id="app2910190103"/>陳<anchor xml:id="app2910190103e"/>防援、〈列囚左右、北向中上、〉立定、<anchor xml:id="app2910190104"/>省<anchor xml:id="app2910190104e"/>録進於両司中間北向、宣告犯状罪名示衆、<anchor xml:id="app2910190105"/>衆<anchor xml:id="app2910190105e"/>人称唯、畢還於本列、即<anchor xml:id="app2910190106"/>丞<anchor xml:id="app2910190106e"/>召両司仰云、依例行之、両司称唯、以還本列、転告物部、物部称唯、案剣戮之〈絞者用綱、〉其残骸者、令授近親斂之、若無親者、令両司埋城外閑地、兼樹牓示〈注国郡姓名、〉</p>
+<app from="#app2910190101" to="#app2910190101e" type="標注">
+<lem wit="#九本">弘</lem>
+<rdg wit="#土本 #近本 #壬本 #京博本 #慶長本 #梵本"/>
+<note>弘　土本・近本・壬本・京博本・慶長本・梵本無し。九本により補う。</note>
+</app>
+<app from="#app2910190102" to="#app2910190102e">
+<lem wit="#九本">平</lem>
+<rdg wit="#土本 #近本 #壬本 #京博本 #慶長本 #梵本">牛</rdg>
+<note>平　土本・近本・壬本・京博本・慶長本・梵本「牛」。九本により改める。</note>
+</app>
+<app from="#app2910190103" to="#app2910190103e">
+<lem wit="#土本">陳</lem>
+<note>陳　訳注本は貞享本によって「陣」に改める。</note>
+</app>
+<app from="#app2910190104" to="#app2910190104e">
+<lem wit="#九本">省</lem>
+<rdg wit="#土本 #近本 #壬本 #京博本 #慶長本 #梵本"/>
+<note>省　土本・近本・壬本・京博本・慶長本・梵本無し。九本により補う。</note>
+</app>
+<app from="#app2910190105" to="#app2910190105e">
+<lem wit="#九本 #近本 #壬本 #京博本 #慶長本 #梵本">衆</lem>
+<rdg wit="#土本"/>
+<note>衆　土本無し。九本・近本・壬本・京博本・慶長本・梵本により補う。</note>
+</app>
+<app from="#app2910190106" to="#app2910190106e">
+<lem wit="#土本">丞</lem>
+<rdg wit="#九本">判官</rdg>
+<note>丞　九本「判官」。</note>
+</app>
+</div>
+<div ana="刑部" corresp="engishiki_en.xml#article291020 engishiki_ja.xml#article291020" n="29-1.20" subtype="項" type="条" xml:id="article291020">
+<head ana="決罪"/>
+<p ana="項" corresp="engishiki_en.xml#item29102001 engishiki_ja.xml#item29102001" xml:id="item29102001"><anchor xml:id="app2910200101"/><anchor xml:id="app2910200101e"/><anchor xml:id="app2910200102"/>凡<anchor xml:id="app2910200102e"/>弁官所下罪人到省、付囚獄司、司即易其<pb facs="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-29%2F00006.tif/full/full/0/default.jpg"/>徽<anchor xml:id="app2910200103"/>纆<anchor xml:id="app2910200103e"/>、其有行決者、随罪軽重、於市若囚獄司決之、行決之日、丞・録各一人、引囚獄官人并物部丁、赴向市司、便令本司喚集市<anchor xml:id="app2910200104"/>人<anchor xml:id="app2910200104e"/>、列立司南門、示衆決之、於囚獄司決者、於庁前決之、</p>
+<app from="#app2910200101" to="#app2910200101e" type="標注">
+<lem wit="#九本">弘</lem>
+<rdg wit="#土本 #近本 #壬本 #京博本 #慶長本 #梵本"/>
+<note>弘　土本・近本・壬本・京博本・慶長本・梵本無し。九本により補う。</note>
+</app>
+<app from="#app2910200102" to="#app2910200102e">
+<note>凡…決之　九本は本条を24条の次に配列する。</note>
+</app>
+<app from="#app2910200103" to="#app2910200103e">
+<lem wit="#九本 #近本 #壬本 #京博本 #慶長本 #梵本">纆</lem>
+<rdg wit="#土本">纏</rdg>
+<note>纆　土本「纏」。九本・近本・壬本・京博本・慶長本・梵本により改める。</note>
+</app>
+<app from="#app2910200104" to="#app2910200104e">
+<lem wit="#土本">人</lem>
+<rdg wit="#九本">人即</rdg>
+<note>人　九本この下「即」あり。</note>
+</app>
+</div>
+<div ana="刑部" corresp="engishiki_en.xml#article291021 engishiki_ja.xml#article291021" n="29-1.21" subtype="項" type="条" xml:id="article291021">
+<head ana="徒罪以上"/>
+<p ana="項" corresp="engishiki_en.xml#item29102101 engishiki_ja.xml#item29102101" xml:id="item29102101"><anchor xml:id="app2910210101"/><anchor xml:id="app2910210101e"/>凡徒罪以上、具録犯状、移送民部、</p>
+<app from="#app2910210101" to="#app2910210101e" type="標注">
+<lem wit="#九本">弘</lem>
+<rdg wit="#土本 #近本 #壬本 #京博本 #慶長本 #梵本"/>
+<note>弘　土本・近本・壬本・京博本・慶長本・梵本無し。九本により補う。</note>
+</app>
+</div>
+<div ana="刑部" corresp="engishiki_en.xml#article291022 engishiki_ja.xml#article291022" n="29-1.22" subtype="項" type="条" xml:id="article291022">
+<head ana="徒人年限"/>
+<p ana="項" corresp="engishiki_en.xml#item29102201 engishiki_ja.xml#item29102201" xml:id="item29102201"><anchor xml:id="app2910220101"/><anchor xml:id="app2910220101e"/><anchor xml:id="app2910220102"/>凡<anchor xml:id="app2910220102e"/>徒人年限者、従入役日始計、其徒役満者、省<anchor xml:id="app2910220103"/>具<anchor xml:id="app2910220103e"/>事状、逓送本郷、</p>
+<app from="#app2910220101" to="#app2910220101e" type="標注">
+<lem wit="#九本">弘</lem>
+<rdg wit="#土本 #近本 #壬本 #京博本 #慶長本 #梵本"/>
+<note>弘　土本・近本・壬本・京博本・慶長本・梵本無し。九本により補う。</note>
+</app>
+<app from="#app2910220102" to="#app2910220102e">
+<note place="裏">九本裏書「貞観六年八月十五日、右大弁大枝朝臣音人伝宣、右大臣宣、検非違使行事、停本府之局、罷市司行者、私案所注付也、」</note>
+<note>凡…本郷　九本裏書「貞観六年八月十五日、右大弁大枝朝臣音人伝宣、右大臣宣、検非違使行事、停本府之局、罷市司行者、私案所注付也、」。</note>
+</app>
+<app from="#app2910220103" to="#app2910220103e">
+<lem wit="#土本">具</lem>
+<note>島原本補書「録」</note>
+<note>具　訳注本この下に島原本補書により「録」を補う。</note>
+</app>
+</div>
+<div ana="刑部" corresp="engishiki_en.xml#article291023 engishiki_ja.xml#article291023" n="29-1.23" subtype="項" type="条" xml:id="article291023">
+<head ana="罪人勘籍"/>
+<p ana="項" corresp="engishiki_en.xml#item29102301 engishiki_ja.xml#item29102301" xml:id="item29102301"><anchor xml:id="app2910230101"/><anchor xml:id="app2910230101e"/>凡徒以上罪人応勘籍者、具録姓名、移送民部、待報乃断、</p>
+<app from="#app2910230101" to="#app2910230101e" type="標注">
+<lem wit="#九本">弘</lem>
+<rdg wit="#土本 #近本 #壬本 #京博本 #慶長本 #梵本"/>
+<note>弘　土本・近本・壬本・京博本・慶長本・梵本無し。九本により補う。</note>
+</app>
+</div>
+<div ana="刑部" corresp="engishiki_en.xml#article291024 engishiki_ja.xml#article291024" n="29-1.24" subtype="項" type="条" xml:id="article291024">
+<head ana="未発遣"/>
+<p ana="項" corresp="engishiki_en.xml#item29102401 engishiki_ja.xml#item29102401" xml:id="item29102401"><anchor xml:id="app2910240101"/><anchor xml:id="app2910240101e"/>凡諸国申送流移人及家口、未発遣間、固禁獄中、其粮以贓贖物給之〈人日米一升、塩一夕、〉</p>
+<app from="#app2910240101" to="#app2910240101e" type="標注">
+<lem wit="#九本">弘</lem>
+<rdg wit="#土本 #近本 #壬本 #京博本 #慶長本 #梵本"/>
+<note>弘　土本・近本・壬本・京博本・慶長本・梵本無し。九本により補う。</note>
+</app>
+</div>
+<div ana="刑部" corresp="engishiki_en.xml#article291025 engishiki_ja.xml#article291025" n="29-1.25" subtype="項" type="条" xml:id="article291025">
+<head ana="罪人逃亡"/>
+<p ana="項" corresp="engishiki_en.xml#item29102501 engishiki_ja.xml#item29102501" xml:id="item29102501"><anchor xml:id="app2910250101"/><anchor xml:id="app2910250101e"/>凡罪人逃亡者、申官追捕、</p>
+<app from="#app2910250101" to="#app2910250101e" type="標注">
+<lem wit="#九本">弘</lem>
+<rdg wit="#土本 #近本 #壬本 #京博本 #慶長本 #梵本"/>
+<note>弘　土本・近本・壬本・京博本・慶長本・梵本無し。九本により補う。</note>
+</app>
+</div>
+<div ana="刑部" corresp="engishiki_en.xml#article291026 engishiki_ja.xml#article291026" n="29-1.26" subtype="項" type="条" xml:id="article291026">
+<head ana="獄囚衣粮"/>
+<p ana="項" corresp="engishiki_en.xml#item29102601 engishiki_ja.xml#item29102601" xml:id="item29102601"><anchor xml:id="app2910260101"/><anchor xml:id="app2910260101e"/>凡獄囚応給衣粮・<anchor xml:id="app2910260102"/>薦<anchor xml:id="app2910260102e"/>席・医薬、及修理獄舎之類、用贓贖物者、申官聴裁、然後給之、在外者、先用後申、</p>
+<app from="#app2910260101" to="#app2910260101e" type="標注">
+<lem wit="#九本">弘</lem>
+<rdg wit="#土本 #近本 #壬本 #京博本 #慶長本 #梵本"/>
+<note>弘　土本・近本・壬本・京博本・慶長本・梵本無し。九本により補う。</note>
+</app>
+<app from="#app2910260102" to="#app2910260102e">
+<lem wit="#土本">薦</lem>
+<note place="傍">土本朱傍書「<seg style="color:red">ー宣</seg>」</note>
+<note place="傍">近本傍書「ー宣」</note>
+<note place="傍">壬本朱傍書「<seg style="color:red">ー宣</seg>」</note>
+<note place="傍">京博本朱傍書「<seg style="color:red">ー宣</seg>」</note>
+<note place="傍">梵本朱傍書「<seg style="color:red">ー宣</seg>」</note>
+<note>薦　土本朱傍書・近本傍書・壬本朱傍書・京博本朱傍書・梵本朱傍書「ー宣」。</note>
+</app>
+</div>
+<div ana="刑部" corresp="engishiki_en.xml#article291027 engishiki_ja.xml#article291027" n="29-1.27" subtype="項" type="条" xml:id="article291027">
+<head ana="売児"/>
+<p ana="項" corresp="engishiki_en.xml#item29102701 engishiki_ja.xml#item29102701" xml:id="item29102701"><anchor xml:id="app2910270101"/>凡<anchor xml:id="app2910270101e"/>父母縁貧窮売児為賤、其事在己丑年以<anchor xml:id="app2910270102"/>前<anchor xml:id="app2910270102e"/>、任依元契、若売在庚寅年以後、及因負債被強充賤、并余親相売者、皆改為良、不須論罪、其大宝二年制律以後、依法科断、</p>
+<app from="#app2910270101" to="#app2910270101e">
+<note place="頭">九本頭注「此条□不見他本、」</note>
+<note>凡…科断　土本・近本・壬本・京博本・慶長本・梵本、本条無し。九本により補う。九本頭注「此条□不見他本、」。ただし、延喜式編纂段階で削除されていた条文を、九本が弘仁式から補ってしまった可能性あり。</note>
+</app>
+<app from="#app2910270102" to="#app2910270102e">
+<lem wit="#土本">前</lem>
+<note>前　訳注本この下に政事要略八四所引弘仁刑部式逸文により「者」を補う。</note>
+</app>
+</div>
+<div ana="刑部" corresp="engishiki_en.xml#article291028 engishiki_ja.xml#article291028" n="29-1.28" subtype="項" type="条" xml:id="article291028">
+<head ana="良賤判"/>
+<p ana="項" corresp="engishiki_en.xml#item29102801 engishiki_ja.xml#item29102801" xml:id="item29102801"><anchor xml:id="app2910280101"/><anchor xml:id="app2910280101e"/>凡宣良賤判者、卿引録以上、列於西行、大判事引属以上、列於東行、囚獄司一人当両頭<pb facs="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-29%2F00007.tif/full/full/0/default.jpg"/>中間二許丈却立、次主若寺檀越一許丈却立、次賤男東列跪、賤女西列跪、物部丁挟立於賤東西、自朝堂会昌門入、各如前列、卿已下当修式堂東北角列立、大判事已下当暉章堂西北角列立、並北向、各立定、当宣判事、自中間進二<anchor xml:id="app2910280102"/>許<anchor xml:id="app2910280102e"/>丈、宣告判状、畢還立<anchor xml:id="app2910280103"/>本列<anchor xml:id="app2910280103e"/>、若判為良者、主若檀越并囚獄司、西側避立、即囚獄司教示賤等、令再拝舞踏、然後従下退出、若判為賤者、囚<anchor xml:id="app2910280104"/>獄<anchor xml:id="app2910280104e"/>司西側避立、主若檀越、再拝舞踏退出、<anchor xml:id="app2910280105"/>寺儀亦如此<anchor xml:id="app2910280105e"/>、</p>
+<app from="#app2910280101" to="#app2910280101e" type="標注">
+<lem wit="#九本">弘</lem>
+<rdg wit="#土本 #近本 #壬本 #京博本 #慶長本 #梵本"/>
+<note>弘　土本・近本・壬本・京博本・慶長本・梵本無し。九本により補う。</note>
+</app>
+<app from="#app2910280102" to="#app2910280102e">
+<lem wit="#九本 #慶長本 #近本傍書">許</lem>
+<rdg wit="#土本 #近本 #壬本 #京博本 #梵本">計</rdg>
+<note place="傍">近本傍書「許」</note>
+<note>許　土本・近本・壬本・京博本・梵本「計」、近本見せ消ち、傍書「許」。九本・慶長本・近本傍書により改める。</note>
+</app>
+<app from="#app2910280103" to="#app2910280103e">
+<lem wit="#九本 #近本">本列</lem>
+<rdg wit="#土本">大判</rdg>
+<rdg wit="#壬本 #京博本 #慶長本 #梵本">大列</rdg>
+<note>本列　土本「大判」。壬本・京博本・慶長本・梵本「大列」。九本・近本により改める。</note>
+</app>
+<app from="#app2910280104" to="#app2910280104e">
+<lem wit="#九本 #近本 #壬本 #京博本 #慶長本 #梵本">獄</lem>
+<rdg wit="#土本"/>
+<note>獄　土本無し。九本・近本・壬本・京博本・慶長本・梵本により補う。</note>
+</app>
+<app from="#app2910280105" to="#app2910280105e">
+<lem wit="#九本">寺儀亦如此</lem>
+<rdg wit="#土本 #近本 #壬本 #京博本 #慶長本 #梵本"/>
+<note>寺儀亦如此　土本・近本・壬本・京博本・慶長本・梵本無し。九本により補う。</note>
+</app>
+</div>
+<div ana="刑部" corresp="engishiki_en.xml#article291029 engishiki_ja.xml#article291029" n="29-1.29" subtype="項" type="条" xml:id="article291029">
+<head ana="贖罪無銅"/>
+<p ana="項" corresp="engishiki_en.xml#item29102901 engishiki_ja.xml#item29102901" xml:id="item29102901"><anchor xml:id="app2910290101"/><anchor xml:id="app2910290101e"/>凡贖罪無銅、准価徴銭、</p>
+<app from="#app2910290101" to="#app2910290101e" type="標注">
+<lem wit="#九本">弘</lem>
+<rdg wit="#土本 #近本 #壬本 #京博本 #慶長本 #梵本"/>
+<note>弘　土本・近本・壬本・京博本・慶長本・梵本無し。九本により補う。</note>
+</app>
+</div>
+<div ana="刑部" corresp="engishiki_en.xml#article291030 engishiki_ja.xml#article291030" n="29-1.30" subtype="項" type="条" xml:id="article291030">
+<head ana="贖銅銭"/>
+<p ana="項" corresp="engishiki_en.xml#item29103001 engishiki_ja.xml#item29103001" xml:id="item29103001"><anchor xml:id="app2910300101"/><anchor xml:id="app2910300101e"/>凡贖銅銭者、収囚獄司、省相共出納、</p>
+<app from="#app2910300101" to="#app2910300101e" type="標注">
+<lem wit="#九本">貞</lem>
+<rdg wit="#土本 #近本 #壬本 #京博本 #慶長本 #梵本"/>
+<note>貞　土本・近本・壬本・京博本・慶長本・梵本無し。九本により補う。</note>
+</app>
+</div>
+<div ana="刑部" corresp="engishiki_en.xml#article291031 engishiki_ja.xml#article291031" n="29-1.31" subtype="項" type="条" xml:id="article291031">
+<head ana="因事相喚"/>
+<p ana="項" corresp="engishiki_en.xml#item29103101 engishiki_ja.xml#item29103101" xml:id="item29103101"><anchor xml:id="app2910310101"/><anchor xml:id="app2910310101e"/>凡応因事相喚者、省<anchor xml:id="app2910310102"/>丞<anchor xml:id="app2910310102e"/>便召判事之属、判<anchor xml:id="app2910310103"/>事<anchor xml:id="app2910310103e"/>得召省録、其相送文書者、各為牒、</p>
+<app from="#app2910310101" to="#app2910310101e" type="標注">
+<lem wit="#九本">弘</lem>
+<rdg wit="#土本 #近本 #壬本 #京博本 #慶長本 #梵本"/>
+<note>弘　土本・近本・壬本・京博本・慶長本・梵本無し。九本により補う。</note>
+</app>
+<app from="#app2910310102" to="#app2910310102e">
+<lem wit="#土本">丞</lem>
+<note>丞　九本この下に「不限大少」あるも見せ消ち。</note>
+</app>
+<app from="#app2910310103" to="#app2910310103e">
+<lem wit="#土本">事</lem>
+<note>事　九本この下に「無問中少」あるも見せ消ち。</note>
+</app>
+</div>
+<div ana="刑部" corresp="engishiki_en.xml#article291032 engishiki_ja.xml#article291032" n="29-1.32" subtype="項" type="条" xml:id="article291032">
+<head ana="諸司治務"/>
+<p ana="項" corresp="engishiki_en.xml#item29103201 engishiki_ja.xml#item29103201" xml:id="item29103201"><anchor xml:id="app2910320101"/><anchor xml:id="app2910320101e"/>凡諸司治務、或乖法式、有司守法、皆須因<anchor xml:id="app2910320102"/>脩<anchor xml:id="app2910320102e"/>、若有乖違律令者、依法科処、</p>
+<app from="#app2910320101" to="#app2910320101e" type="標注">
+<lem wit="#九本">弘</lem>
+<rdg wit="#土本 #近本 #壬本 #京博本 #慶長本 #梵本"/>
+<note>弘　土本・近本・壬本・京博本・慶長本・梵本無し。九本により補う。</note>
+</app>
+<app from="#app2910320102" to="#app2910320102e">
+<lem wit="#土本">脩</lem>
+<note place="脚">慶長本脚注「循」</note>
+<note place="傍">鈴鹿本朱傍書「<seg style="color:red">循</seg>」</note>
+<note place="傍">筑波寛文本朱傍書「<seg style="color:red">循</seg>」</note>
+<note place="傍">慶長本傍訓「ジュンタル」</note>
+<note>脩　慶長本脚注・鈴鹿本朱傍書・筑波寛文本朱傍書「循」。慶長本傍訓「ジュンタル」。訳注本は慶長本脚注により改め、九本の「脩」異体字を、「循」の誤字と推定。</note>
+</app>
+</div>
+<div ana="刑部" corresp="engishiki_en.xml#article291033 engishiki_ja.xml#article291033" n="29-1.33" subtype="項" type="条" xml:id="article291033">
+<head ana="大臣薨"/>
+<p ana="項" corresp="engishiki_en.xml#item29103301 engishiki_ja.xml#item29103301" xml:id="item29103301"><anchor xml:id="app2910330101"/>凡<anchor xml:id="app2910330101e"/>左右大臣以上薨者、発哀三日内、諸司理事如常、不可問獄行刑、</p>
+<app from="#app2910330101" to="#app2910330101e">
+<note place="頭">九本頭注「件条載神祇式并刑部式、」</note>
+<note>凡…行刑　九本頭注「件条載神祇式并刑部式、」。</note>
+</app>
+</div>
+</div>
+<pb facs="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-29%2F00008.tif/full/full/0/default.jpg"/>
+<div ana="判事" corresp="engishiki_en.xml#protocol292 engishiki_ja.xml#protocol292" n="29" subtype="条" type="式" xml:id="protocol292">
+<div type="式題" xml:id="shikidai292">
+<p xml:id="shikidai29201">判事</p>
+</div>
+<div ana="判事" corresp="engishiki_en.xml#article292001 engishiki_ja.xml#article292001" n="29-2.1" subtype="項" type="条" xml:id="article292001">
+<head ana="訊獄書"/>
+<p ana="項" corresp="engishiki_en.xml#item29200101 engishiki_ja.xml#item29200101" xml:id="item29200101"><anchor xml:id="app2920010101"/><anchor xml:id="app2920010101e"/>凡訊獄訟書者、具録訴状、其申官解文者、少除繁辞、宣判之日、必須委曲、</p>
+<app from="#app2920010101" to="#app2920010101e" type="標注">
+<lem wit="#九本">弘</lem>
+<rdg wit="#土本 #近本 #壬本 #京博本 #慶長本 #梵本"/>
+<note>弘　土本・近本・壬本・京博本・慶長本・梵本無し。九本により補う。</note>
+</app>
+</div>
+<div ana="判事" corresp="engishiki_en.xml#article292002 engishiki_ja.xml#article292002" n="29-2.2" subtype="項" type="条" xml:id="article292002">
+<head ana="弾正移"/>
+<p ana="項" corresp="engishiki_en.xml#item29200201 engishiki_ja.xml#item29200201" xml:id="item29200201"><anchor xml:id="app2920020101"/><anchor xml:id="app2920020101e"/>凡弾正台移送罪人、若有事不分明者、遣刑部録・判事属、就台諮問、若明知台之所枉、乃追就省勘問、其検非違使所送罪人、亦准<anchor xml:id="app2920020102"/>此<anchor xml:id="app2920020102e"/>、</p>
+<app from="#app2920020101" to="#app2920020101e" type="標注">
+<lem wit="#九本">弘</lem>
+<rdg wit="#土本 #近本 #壬本 #京博本 #慶長本 #梵本"/>
+<note>弘　土本・近本・壬本・京博本・慶長本・梵本無し。九本により補う。</note>
+</app>
+<app from="#app2920020102" to="#app2920020102e">
+<lem wit="#土本">此</lem>
+<rdg wit="#九本">之</rdg>
+<note>此　九本「之」。</note>
+</app>
+</div>
+<div ana="判事" corresp="engishiki_en.xml#article292003 engishiki_ja.xml#article292003" n="29-2.3" subtype="項" type="条" xml:id="article292003">
+<head ana="隠截租税"/>
+<p ana="項" corresp="engishiki_en.xml#item29200301 engishiki_ja.xml#item29200301" xml:id="item29200301"><anchor xml:id="app2920030101"/><anchor xml:id="app2920030101e"/>凡国司、税帳之外、隠截<anchor xml:id="app2920030102"/>租税<anchor xml:id="app2920030102e"/>者、随弁官宣下、断其罪、具録事状及物数、年終申太政官、</p>
+<app from="#app2920030101" to="#app2920030101e" type="標注">
+<lem wit="#九本">弘</lem>
+<rdg wit="#土本 #近本 #壬本 #京博本 #慶長本 #梵本"/>
+<note>弘　土本・近本・壬本・京博本・慶長本・梵本無し。九本により補う。</note>
+</app>
+<app from="#app2920030102" to="#app2920030102e">
+<lem wit="#土本傍書 #九本 #近本 #壬本 #京博本 #慶長本 #梵本">租税</lem>
+<rdg wit="#土本">税租</rdg>
+<note place="傍">土本は「税」の左下に傍書「下」、「租」の左上に傍書「上」。</note>
+<note>租税　土本「税租」、「税」の左下に傍書「下」、「租」の左上に傍書「上」。土本傍書・九本・近本・壬本・京博本・慶長本・梵本により改める。</note>
+</app>
+</div>
+<div ana="判事" corresp="engishiki_en.xml#article292004 engishiki_ja.xml#article292004" n="29-2.4" subtype="項" type="条" xml:id="article292004">
+<head ana="僧尼犯徒"/>
+<p ana="項" corresp="engishiki_en.xml#item29200401 engishiki_ja.xml#item29200401" xml:id="item29200401"><anchor xml:id="app2920040101"/><anchor xml:id="app2920040101e"/><anchor xml:id="app2920040102"/>凡<anchor xml:id="app2920040102e"/>僧尼犯徒以上、還俗応徒、若会赦免罪者、聴為僧尼、</p>
+<app from="#app2920040101" to="#app2920040101e" type="標注">
+<lem wit="#九本">弘</lem>
+<rdg wit="#土本 #近本 #壬本 #京博本 #慶長本 #梵本"/>
+<note>弘　土本・近本・壬本・京博本・慶長本・梵本無し。九本により補う。</note>
+</app>
+<app from="#app2920040102" to="#app2920040102e">
+<note place="頭">九本頭注「和銅元年太政官処分、」</note>
+<note>凡…僧尼　九本頭注「和銅元年太政官処分、」。</note>
+</app>
+</div>
+<div ana="判事" corresp="engishiki_en.xml#article292005 engishiki_ja.xml#article292005" n="29-2.5" subtype="項" type="条" xml:id="article292005">
+<head ana="良賤訴"/>
+<p ana="項" corresp="engishiki_en.xml#item29200501 engishiki_ja.xml#item29200501" xml:id="item29200501"><anchor xml:id="app2920050101"/><anchor xml:id="app2920050101e"/>凡判良賤訴者、具録事状、申官奏聞、</p>
+<app from="#app2920050101" to="#app2920050101e" type="標注">
+<lem wit="#九本">弘</lem>
+<rdg wit="#土本 #近本 #壬本 #京博本 #慶長本 #梵本"/>
+<note>弘　土本・近本・壬本・京博本・慶長本・梵本無し。九本により補う。</note>
+</app>
+</div>
+<div ana="判事" corresp="engishiki_en.xml#article292006 engishiki_ja.xml#article292006" n="29-2.6" subtype="項" type="条" xml:id="article292006">
+<head ana="盗人"/>
+<p ana="項" corresp="engishiki_en.xml#item29200601 engishiki_ja.xml#item29200601" xml:id="item29200601">凡断徒以上盗人者、必勘前年盗人歴名、然後依法科断、</p>
+</div>
+<div ana="判事" corresp="engishiki_en.xml#article292007 engishiki_ja.xml#article292007" n="29-2.7" subtype="項" type="条" xml:id="article292007">
+<head ana="平贓布"/>
+<p ana="項" corresp="engishiki_en.xml#item29200701 engishiki_ja.xml#item29200701" xml:id="item29200701"><anchor xml:id="app2920070101"/><anchor xml:id="app2920070101e"/>凡平贓布者、長五丈二尺、広二尺四寸為端、</p>
+<app from="#app2920070101" to="#app2920070101e" type="標注">
+<lem wit="#九本">弘</lem>
+<rdg wit="#土本 #近本 #壬本 #京博本 #慶長本 #梵本"/>
+<note>弘　土本・近本・壬本・京博本・慶長本・梵本無し。九本により補う。</note>
+</app>
+</div>
+</div>
+<div ana="囚獄" corresp="engishiki_en.xml#protocol293 engishiki_ja.xml#protocol293" n="29" subtype="条" type="式" xml:id="protocol293">
+<div type="式題" xml:id="shikidai293">
+<p xml:id="shikidai29301">囚獄司</p>
+</div>
+<div ana="囚獄" corresp="engishiki_en.xml#article293001 engishiki_ja.xml#article293001" n="29-3.1" subtype="項" type="条" xml:id="article293001">
+<head ana="笞杖"/>
+<p ana="項" corresp="engishiki_en.xml#item29300101 engishiki_ja.xml#item29300101" xml:id="item29300101"><anchor xml:id="app2930010101"/><anchor xml:id="app2930010101e"/>凡司内所須笞・杖、毎年十一月、役物部丁令採備〈笞・杖各一千枝、〉</p>
+<app from="#app2930010101" to="#app2930010101e" type="標注">
+<lem wit="#九本">弘</lem>
+<rdg wit="#土本 #近本 #壬本 #京博本 #慶長本 #梵本"/>
+<note>弘　土本・近本・壬本・京博本・慶長本・梵本無し。九本により補う。</note>
+</app>
+</div>
+<pb facs="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-29%2F00009.tif/full/full/0/default.jpg"/>
+<div ana="囚獄" corresp="engishiki_en.xml#article293002 engishiki_ja.xml#article293002" n="29-3.2" subtype="項" type="条" xml:id="article293002">
+<head ana="着鈦盤枷"/>
+<p ana="項" corresp="engishiki_en.xml#item29300201 engishiki_ja.xml#item29300201" xml:id="item29300201"><anchor xml:id="app2930020101"/><anchor xml:id="app2930020101e"/>凡罪人者、随罪軽重着鈦若盤<anchor xml:id="app2930020102"/>枷<anchor xml:id="app2930020102e"/>〈故焼公私倉舎盗、私鋳銭、強<anchor xml:id="app2930020103"/>奸<anchor xml:id="app2930020103e"/>之類居作者、即着鈦、雑犯徒罪之類、着盤枷、〉其鈦、<anchor xml:id="app2930020104"/>或<anchor xml:id="app2930020104e"/>四人或三人為連、至暮着杻、明旦脱而役之、</p>
+<app from="#app2930020101" to="#app2930020101e" type="標注">
+<lem wit="#九本">弘</lem>
+<rdg wit="#土本 #近本 #壬本 #京博本 #慶長本 #梵本"/>
+<note>弘　土本・近本・壬本・京博本・慶長本・梵本無し。九本により補う。</note>
+</app>
+<app from="#app2930020102" to="#app2930020102e">
+<lem wit="#土本傍書 #九本 #近本 #壬本 #京博本 #慶長本 #梵本">枷</lem>
+<rdg wit="#土本"/>
+<note place="傍">土本傍書「枷」</note>
+<note>枷　土本脱、傍書により補入。土本傍書・九本・近本・壬本・京博本・慶長本・梵本により補う。</note>
+</app>
+<app from="#app2930020103" to="#app2930020103e">
+<lem wit="#九本 #近本 #壬本 #京博本 #慶長本 #梵本">奸</lem>
+<rdg wit="#土本">【姦+干】</rdg>
+<note>奸　土本【姦+干】。九本・近本・壬本・京博本・慶長本・梵本により改める。</note>
+</app>
+<app from="#app2930020104" to="#app2930020104e">
+<lem wit="#九本 #近本 #慶長本 #梵本">或</lem>
+<rdg wit="#土本 #京博本 #壬本">式</rdg>
+<note>或　土本・京博本・壬本「式」。九本・近本・慶長本・梵本により改める。</note>
+</app>
+</div>
+<div ana="囚獄" corresp="engishiki_en.xml#article293003 engishiki_ja.xml#article293003" n="29-3.3" subtype="項" type="条" xml:id="article293003">
+<head ana="罪人死亡"/>
+<p ana="項" corresp="engishiki_en.xml#item29300301 engishiki_ja.xml#item29300301" xml:id="item29300301"><anchor xml:id="app2930030101"/><anchor xml:id="app2930030101e"/>凡罪人死亡者、具注姓名・年・居并入徒年月日申省、</p>
+<app from="#app2930030101" to="#app2930030101e" type="標注">
+<lem wit="#九本">弘</lem>
+<rdg wit="#土本 #近本 #壬本 #京博本 #慶長本 #梵本"/>
+<note>弘　土本・近本・壬本・京博本・慶長本・梵本無し。九本により補う。</note>
+</app>
+</div>
+<div ana="囚獄" corresp="engishiki_en.xml#article293004 engishiki_ja.xml#article293004" n="29-3.4" subtype="項" type="条" xml:id="article293004">
+<head ana="毎夜巡検"/>
+<p ana="項" corresp="engishiki_en.xml#item29300401 engishiki_ja.xml#item29300401" xml:id="item29300401"><anchor xml:id="app2930040101"/><anchor xml:id="app2930040101e"/>凡禁囚之処、当宿官人、恒将物部并物部丁等、毎夜巡検、〈従三月至七月、別三度、従八月至二月、別四度、〉</p>
+<app from="#app2930040101" to="#app2930040101e" type="標注">
+<lem wit="#九本">弘</lem>
+<rdg wit="#土本 #近本 #壬本 #京博本 #慶長本 #梵本"/>
+<note>弘　土本・近本・壬本・京博本・慶長本・梵本無し。九本により補う。</note>
+</app>
+</div>
+<div ana="囚獄" corresp="engishiki_en.xml#article293005 engishiki_ja.xml#article293005" n="29-3.5" subtype="項" type="条" xml:id="article293005">
+<head ana="看侍獄囚"/>
+<p ana="項" corresp="engishiki_en.xml#item29300501 engishiki_ja.xml#item29300501" xml:id="item29300501"><anchor xml:id="app2930050101"/><anchor xml:id="app2930050101e"/>凡縁看侍獄囚、
                             及餉衣食、家人入禁所者、捜監錐刀及他物以堪自害、并文書筆墨等類、</p>
-                        <app from="#app2930050101" to="#app2930050101e" type="標注">
-                            <lem wit="#九本">弘</lem>
-                            <rdg wit="#土本 #近本 #壬本 #京博本 #慶長本 #梵本"/>
-                            <note>弘　土本・近本・壬本・京博本・慶長本・梵本無し。九本により補う。</note>
-                        </app>
-                    </div>
-                    <div ana="囚獄"
-                        corresp="engishiki_en.xml#article293006 engishiki_ja.xml#article293006"
-                        n="29-3.6" subtype="項" type="条" xml:id="article293006">
-                        <head ana="徒役人"/>
-                        <p ana="項"
-                            corresp="engishiki_en.xml#item29300601 engishiki_ja.xml#item29300601"
-                            xml:id="item29300601"><anchor xml:id="app2930060101"/><anchor
-                                xml:id="app2930060101e"/><anchor xml:id="app2930060102"/>凡<anchor
-                                xml:id="app2930060102e"
-                            />徒役人者、令作路橋及役雑事、又司毎六日、将囚人等、使掃除宮城四面、其雨後旦、亦掃清宮内穢汚并厠溝等、</p>
-                        <app from="#app2930060101" to="#app2930060101e" type="標注">
-                            <lem wit="#九本">弘</lem>
-                            <rdg wit="#土本 #近本 #壬本 #京博本 #慶長本 #梵本"/>
-                            <note>弘　土本・近本・壬本・京博本・慶長本・梵本無し。九本により補う。</note>
-                        </app>
-                        <app from="#app2930060102" to="#app2930060102e">
-                            <note place="頭">九本頭注「慶雲元年官判、」</note>
-                            <note>凡…厠溝等　九本頭注「慶雲元年官判、」。</note>
-                        </app>
-                    </div>
-                    <div ana="囚獄"
-                        corresp="engishiki_en.xml#article293007 engishiki_ja.xml#article293007"
-                        n="29-3.7" subtype="項" type="条" xml:id="article293007">
-                        <head ana="徒人役満"/>
-                        <p ana="項"
-                            corresp="engishiki_en.xml#item29300701 engishiki_ja.xml#item29300701"
-                            xml:id="item29300701"><anchor xml:id="app2930070101"/><anchor
-                                xml:id="app2930070101e"/><anchor xml:id="app2930070102"/>凡<anchor
-                                xml:id="app2930070102e"/>徒人役満、具録役日并作物色目、申送於省、</p>
-                        <app from="#app2930070101" to="#app2930070101e" type="標注">
-                            <lem wit="#九本">弘</lem>
-                            <rdg wit="#土本 #近本 #壬本 #京博本 #慶長本 #梵本"/>
-                            <note>弘　土本・近本・壬本・京博本・慶長本・梵本無し。九本により補う。</note>
-                        </app>
-                        <app from="#app2930070102" to="#app2930070102e">
-                            <note place="頭">九本頭注「神亀元年官判、」</note>
-                            <note>凡…省　九本頭注「神亀元年官判、」。</note>
-                        </app>
-                    </div>
-                    <div ana="囚獄"
-                        corresp="engishiki_en.xml#article293008 engishiki_ja.xml#article293008"
-                        n="29-3.8" subtype="項" type="条" xml:id="article293008">
-                        <head ana="戮罪人"/>
-                        <p ana="項"
-                            corresp="engishiki_en.xml#item29300801 engishiki_ja.xml#item29300801"
-                            xml:id="item29300801"><anchor xml:id="app2930080101"/><anchor
-                                xml:id="app2930080101e"/>凡応戮罪人者、注預事物部歴名進省、即官人共率供事、</p>
-                        <app from="#app2930080101" to="#app2930080101e" type="標注">
-                            <lem wit="#九本">弘</lem>
-                            <rdg wit="#土本 #近本 #壬本 #京博本 #慶長本 #梵本"/>
-                            <note>弘　土本・近本・壬本・京博本・慶長本・梵本無し。九本により補う。</note>
-                        </app>
-                    </div>
-                    <div ana="囚獄"
-                        corresp="engishiki_en.xml#article293009 engishiki_ja.xml#article293009"
-                        n="29-3.9" subtype="項" type="条" xml:id="article293009">
-                        <head ana="物部"/>
-                        <p ana="項"
-                            corresp="engishiki_en.xml#item29300901 engishiki_ja.xml#item29300901"
-                            xml:id="item29300901">凡物部十人、申省移式部、勘籍補之、其物<pb
-                                facs="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-29%2F00010.tif/full/full/0/default.jpg"
-                            />部丁八人、准諸司直丁給粮、</p>
-                    </div>
-                </div>
-                <div type="尾題" xml:id="bidai29">
-                    <p xml:id="bidai2901">延喜式巻第廿九</p>
-                </div>
-                <div type="本奥書" xml:id="okugaki29">
-                    <p xml:id="okugaki2901"><table rendition="#indent2">
-                            <row>
-                                <cell><anchor xml:id="app2999990101"/>延長<anchor
-                                        xml:id="app2999990101e"/>五年十二月廿六日</cell>
-                                <cell>外従五位下行左大史臣阿刀宿禰忠行</cell>
-                            </row>
-                            <row>
-                                <cell/>
-                                <cell>従五位上行勘解由<anchor xml:id="app2999990102"/>次<anchor
-                                        xml:id="app2999990102e"/>官兼大外記・紀伊権介臣伴宿禰久永</cell>
-                            </row>
-                            <row>
-                                <cell/>
-                                <cell>従四位上行神祇伯臣大中臣朝臣安則</cell>
-                            </row>
-                            <row>
-                                <cell/>
-                                <cell>大納言正三位兼行民部卿臣藤原朝臣清貫</cell>
-                            </row>
-                            <row>
-                                <cell/>
-                                <cell>左大臣正二位兼行左近衛大将・皇太子傅臣藤原朝臣忠平</cell>
-                            </row>
-                        </table></p>
-                    <app from="#app2999990101" to="#app2999990101e">
-                        <note>延長…忠平　九本無し。</note>
-                    </app>
-                    <app from="#app2999990102" to="#app2999990102e">
-                        <lem wit="#近本傍書 #明暦版本 #寛文版本 #享保版本 #雲本">次</lem>
-                        <rdg wit="#土本 #近本 #壬本 #京博本 #慶長本 #梵本 #慶安版本">長</rdg>
-                        <note place="傍">近本傍書「次」</note>
-                        <note>次　土本・近本・壬本・京博本・慶長本・梵本・慶安版本「長」。巻十一等他巻に従い意改する。なお、近本傍書・明暦以降版本・雲本「次」。</note>
-                    </app>
-                </div>
-            </div>
-        </body>
-    </text>
-    <facsimile source="https://khirin-a.rekihaku.ac.jp/iiif/rekihaku/H-743-74-29/manifest.json">
-        <surface source="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-29/page4822"
-            xml:id="page4822">
-            <graphic
-                url="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-29%2F00001.tif/full/full/0/default.jpg"
-            />
-        </surface>
-        <surface source="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-29/page4823"
-            xml:id="page4823">
-            <graphic
-                url="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-29%2F00002.tif/full/full/0/default.jpg"
-            />
-        </surface>
-        <surface source="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-29/page4824"
-            xml:id="page4824">
-            <graphic
-                url="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-29%2F00003.tif/full/full/0/default.jpg"
-            />
-        </surface>
-        <surface source="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-29/page4825"
-            xml:id="page4825">
-            <graphic
-                url="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-29%2F00004.tif/full/full/0/default.jpg"
-            />
-        </surface>
-        <surface source="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-29/page4826"
-            xml:id="page4826">
-            <graphic
-                url="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-29%2F00005.tif/full/full/0/default.jpg"
-            />
-        </surface>
-        <surface source="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-29/page4827"
-            xml:id="page4827">
-            <graphic
-                url="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-29%2F00006.tif/full/full/0/default.jpg"
-            />
-        </surface>
-        <surface source="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-29/page4828"
-            xml:id="page4828">
-            <graphic
-                url="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-29%2F00007.tif/full/full/0/default.jpg"
-            />
-        </surface>
-        <surface source="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-29/page4829"
-            xml:id="page4829">
-            <graphic
-                url="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-29%2F00008.tif/full/full/0/default.jpg"
-            />
-        </surface>
-        <surface source="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-29/page4830"
-            xml:id="page4830">
-            <graphic
-                url="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-29%2F00009.tif/full/full/0/default.jpg"
-            />
-        </surface>
-        <surface source="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-29/page4831"
-            xml:id="page4831">
-            <graphic
-                url="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-29%2F00010.tif/full/full/0/default.jpg"
-            />
-        </surface>
-        <surface source="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-29/page4832"
-            xml:id="page4832">
-            <graphic
-                url="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-29%2F00011.tif/full/full/0/default.jpg"
-            />
-        </surface>
-        <surface source="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-29/page4833"
-            xml:id="page4833">
-            <graphic
-                url="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-29%2F00012.tif/full/full/0/default.jpg"
-            />
-        </surface>
-    </facsimile>
+<app from="#app2930050101" to="#app2930050101e" type="標注">
+<lem wit="#九本">弘</lem>
+<rdg wit="#土本 #近本 #壬本 #京博本 #慶長本 #梵本"/>
+<note>弘　土本・近本・壬本・京博本・慶長本・梵本無し。九本により補う。</note>
+</app>
+</div>
+<div ana="囚獄" corresp="engishiki_en.xml#article293006 engishiki_ja.xml#article293006" n="29-3.6" subtype="項" type="条" xml:id="article293006">
+<head ana="徒役人"/>
+<p ana="項" corresp="engishiki_en.xml#item29300601 engishiki_ja.xml#item29300601" xml:id="item29300601"><anchor xml:id="app2930060101"/><anchor xml:id="app2930060101e"/><anchor xml:id="app2930060102"/>凡<anchor xml:id="app2930060102e"/>徒役人者、令作路橋及役雑事、又司毎六日、将囚人等、使掃除宮城四面、其雨後旦、亦掃清宮内穢汚并厠溝等、</p>
+<app from="#app2930060101" to="#app2930060101e" type="標注">
+<lem wit="#九本">弘</lem>
+<rdg wit="#土本 #近本 #壬本 #京博本 #慶長本 #梵本"/>
+<note>弘　土本・近本・壬本・京博本・慶長本・梵本無し。九本により補う。</note>
+</app>
+<app from="#app2930060102" to="#app2930060102e">
+<note place="頭">九本頭注「慶雲元年官判、」</note>
+<note>凡…厠溝等　九本頭注「慶雲元年官判、」。</note>
+</app>
+</div>
+<div ana="囚獄" corresp="engishiki_en.xml#article293007 engishiki_ja.xml#article293007" n="29-3.7" subtype="項" type="条" xml:id="article293007">
+<head ana="徒人役満"/>
+<p ana="項" corresp="engishiki_en.xml#item29300701 engishiki_ja.xml#item29300701" xml:id="item29300701"><anchor xml:id="app2930070101"/><anchor xml:id="app2930070101e"/><anchor xml:id="app2930070102"/>凡<anchor xml:id="app2930070102e"/>徒人役満、具録役日并作物色目、申送於省、</p>
+<app from="#app2930070101" to="#app2930070101e" type="標注">
+<lem wit="#九本">弘</lem>
+<rdg wit="#土本 #近本 #壬本 #京博本 #慶長本 #梵本"/>
+<note>弘　土本・近本・壬本・京博本・慶長本・梵本無し。九本により補う。</note>
+</app>
+<app from="#app2930070102" to="#app2930070102e">
+<note place="頭">九本頭注「神亀元年官判、」</note>
+<note>凡…省　九本頭注「神亀元年官判、」。</note>
+</app>
+</div>
+<div ana="囚獄" corresp="engishiki_en.xml#article293008 engishiki_ja.xml#article293008" n="29-3.8" subtype="項" type="条" xml:id="article293008">
+<head ana="戮罪人"/>
+<p ana="項" corresp="engishiki_en.xml#item29300801 engishiki_ja.xml#item29300801" xml:id="item29300801"><anchor xml:id="app2930080101"/><anchor xml:id="app2930080101e"/>凡応戮罪人者、注預事物部歴名進省、即官人共率供事、</p>
+<app from="#app2930080101" to="#app2930080101e" type="標注">
+<lem wit="#九本">弘</lem>
+<rdg wit="#土本 #近本 #壬本 #京博本 #慶長本 #梵本"/>
+<note>弘　土本・近本・壬本・京博本・慶長本・梵本無し。九本により補う。</note>
+</app>
+</div>
+<div ana="囚獄" corresp="engishiki_en.xml#article293009 engishiki_ja.xml#article293009" n="29-3.9" subtype="項" type="条" xml:id="article293009">
+<head ana="物部"/>
+<p ana="項" corresp="engishiki_en.xml#item29300901 engishiki_ja.xml#item29300901" xml:id="item29300901">凡物部十人、申省移式部、勘籍補之、其物<pb facs="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-29%2F00010.tif/full/full/0/default.jpg"/>部丁八人、准諸司直丁給粮、</p>
+</div>
+</div>
+<div type="尾題" xml:id="bidai29">
+<p xml:id="bidai2901">延喜式巻第廿九</p>
+</div>
+<div type="本奥書" xml:id="okugaki29">
+<p xml:id="okugaki2901"><table rendition="#indent2">
+<row>
+<cell><anchor xml:id="app2999990101"/>延長<anchor xml:id="app2999990101e"/>五年十二月廿六日</cell>
+<cell>外従五位下行左大史臣阿刀宿禰忠行</cell>
+</row>
+<row>
+<cell/>
+<cell>従五位上行勘解由<anchor xml:id="app2999990102"/>次<anchor xml:id="app2999990102e"/>官兼大外記・紀伊権介臣伴宿禰久永</cell>
+</row>
+<row>
+<cell/>
+<cell>従四位上行神祇伯臣大中臣朝臣安則</cell>
+</row>
+<row>
+<cell/>
+<cell>大納言正三位兼行民部卿臣藤原朝臣清貫</cell>
+</row>
+<row>
+<cell/>
+<cell>左大臣正二位兼行左近衛大将・皇太子傅臣藤原朝臣忠平</cell>
+</row>
+</table></p>
+<app from="#app2999990101" to="#app2999990101e">
+<note>延長…忠平　九本無し。</note>
+</app>
+<app from="#app2999990102" to="#app2999990102e">
+<lem wit="#近本傍書 #明暦版本 #寛文版本 #享保版本 #雲本">次</lem>
+<rdg wit="#土本 #近本 #壬本 #京博本 #慶長本 #梵本 #慶安版本">長</rdg>
+<note place="傍">近本傍書「次」</note>
+<note>次　土本・近本・壬本・京博本・慶長本・梵本・慶安版本「長」。巻十一等他巻に従い意改する。なお、近本傍書・明暦以降版本・雲本「次」。</note>
+</app>
+</div>
+</div>
+</body>
+</text>
+<facsimile source="https://khirin-a.rekihaku.ac.jp/iiif/rekihaku/H-743-74-29/manifest.json">
+<surface source="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-29/page4822" xml:id="page4822">
+<graphic url="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-29%2F00001.tif/full/full/0/default.jpg"/>
+</surface>
+<surface source="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-29/page4823" xml:id="page4823">
+<graphic url="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-29%2F00002.tif/full/full/0/default.jpg"/>
+</surface>
+<surface source="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-29/page4824" xml:id="page4824">
+<graphic url="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-29%2F00003.tif/full/full/0/default.jpg"/>
+</surface>
+<surface source="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-29/page4825" xml:id="page4825">
+<graphic url="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-29%2F00004.tif/full/full/0/default.jpg"/>
+</surface>
+<surface source="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-29/page4826" xml:id="page4826">
+<graphic url="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-29%2F00005.tif/full/full/0/default.jpg"/>
+</surface>
+<surface source="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-29/page4827" xml:id="page4827">
+<graphic url="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-29%2F00006.tif/full/full/0/default.jpg"/>
+</surface>
+<surface source="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-29/page4828" xml:id="page4828">
+<graphic url="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-29%2F00007.tif/full/full/0/default.jpg"/>
+</surface>
+<surface source="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-29/page4829" xml:id="page4829">
+<graphic url="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-29%2F00008.tif/full/full/0/default.jpg"/>
+</surface>
+<surface source="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-29/page4830" xml:id="page4830">
+<graphic url="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-29%2F00009.tif/full/full/0/default.jpg"/>
+</surface>
+<surface source="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-29/page4831" xml:id="page4831">
+<graphic url="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-29%2F00010.tif/full/full/0/default.jpg"/>
+</surface>
+<surface source="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-29/page4832" xml:id="page4832">
+<graphic url="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-29%2F00011.tif/full/full/0/default.jpg"/>
+</surface>
+<surface source="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-29/page4833" xml:id="page4833">
+<graphic url="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-29%2F00012.tif/full/full/0/default.jpg"/>
+</surface>
+</facsimile>
 </TEI>
