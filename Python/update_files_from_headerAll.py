@@ -59,7 +59,7 @@ def update_files_from_source(source_file, folder_path):
             print(f"Error updating {filename}: {e}")
 
 # 使用例
-source_file = "../TEIお試し用/engishiki_header_all.xml"  # 元データファイル
-folder_path = "../TEIお試し用"  # Pythonフォルダと同階層にあるTEI編集用フォルダのパス
+source_file = "../TEI編集用/engishiki_header_all.xml"  # 元データファイル
+folder_path = "../TEI編集用"  # Pythonフォルダと同階層にあるTEI編集用フォルダのパス
 
 update_files_from_source(source_file, folder_path)
