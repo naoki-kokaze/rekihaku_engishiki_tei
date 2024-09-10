@@ -15,27 +15,27 @@ lang_choice = input('ファイルの種別はどれですか（校訂文→何�
 def generate_TEIheader(output_filename, lang_choice):
     """ヘッダーの記述。校訂文・現代語訳・英訳それぞれのひな形ヘッダーから転記。各ひな形は、マスターファイルのengishiki_header_all.xmlから転記"""
     with open(output_filename, 'w', encoding='utf-8') as output_file:
-        with open('../TEI編集用/engishiki_header{lang_choice}.xml', 'r', encoding='utf-8') as header_file:
+        with open(f'../TEI編集用/engishiki_header{lang_choice}.xml', 'r', encoding='utf-8') as header_file:
             output_file.write(header_file.read())
     print('TEIヘッダー情報書き込み完了')
 
 
 # パラレルコーパス用の@corresp属性値をファイルの種別で分けてリストで出力する関数
-def lang_corresp(lang_choice):
+def lang_corresp(lang_choice, file_volume):
     lang_list = ["", "_en", "_ja"]
     corresp_list = []
     for index, lang in enumerate(lang_list):
         if index != lang_list.index(lang_choice):
-            corresp_list.append(f"engishiki{lang}.xml")
+            corresp_list.append(f"engishiki_v{file_volume}{lang}.xml")
 
     return corresp_list
 
-corresp_list = lang_corresp(lang_choice)
-output_filename = f'../TEI編集用/engishiki_v{file_volume}{lang_choice}.xml'
+corresp_list = lang_corresp(lang_choice, file_volume)
+output_filename = f'../途中生成物/engishiki_v{file_volume}{lang_choice}.xml'
 
 
 # headerを書き込む
-generate_TEIheader(output_filename)
+generate_TEIheader(output_filename, lang_choice)
 result = open(output_filename, 'r', encoding='utf-8')
 soup = BS(result, 'xml')
 
