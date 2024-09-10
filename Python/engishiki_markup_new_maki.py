@@ -1,23 +1,6 @@
 from bs4 import BeautifulSoup as BS
 import csv
 
-def generate_TEIheader(output_filename):
-    """ ヘッダーの記述
-    既存のTEIヘッダーの記述を新規ファイルに出力する（モード 'w'）
-    地理情報なども入れると良い"""
-
-    output_file = open(output_filename, 'w', encoding='utf-8')
-
-    header_file = open('../TEI編集用/engishiki_header.xml', 'r', encoding='utf-8')
-    header = header_file.read()
-    header_file.close()
-    
-    output_file.write(header)
-
-    output_file.close()
-
-    print('TEIヘッダー情報書き込み完了')
-
 
 #作業者が適切なディレクトリを指定する
 
@@ -26,6 +9,15 @@ file_volume = input('読み込む巻を入力してください\n')
 input_filename = f'../vol_metadata/metadata_v{file_volume}.tsv'
 
 lang_choice = input('ファイルの種別はどれですか（校訂文→何も入力しない、英訳→_en、現代語訳→_ja）\n')
+
+
+
+def generate_TEIheader(output_filename, lang_choice):
+    """ヘッダーの記述。校訂文・現代語訳・英訳それぞれのひな形ヘッダーから転記。各ひな形は、マスターファイルのengishiki_header_all.xmlから転記"""
+    with open(output_filename, 'w', encoding='utf-8') as output_file:
+        with open('../TEI編集用/engishiki_header{lang_choice}.xml', 'r', encoding='utf-8') as header_file:
+            output_file.write(header_file.read())
+    print('TEIヘッダー情報書き込み完了')
 
 
 # パラレルコーパス用の@corresp属性値をファイルの種別で分けてリストで出力する関数
