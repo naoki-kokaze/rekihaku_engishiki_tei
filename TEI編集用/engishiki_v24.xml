@@ -724,9 +724,8 @@
       <app from="#app2410020301" to="#app2410020301e">
        <lem wit="#島原本 #享保版本"> 糸一丁 </lem>
        <rdg wit="#土本 #近本 #壬本 #藤波本 #貞享本 #玄梁本 #泉亭本"> 一丁糸 </rdg>
-       <rdg wit="#京博本"> 一丁 <del> 糸 </del>
-       </rdg>
        <note> 近本は「一」の上に「糸」を移す訂正書。 </note>
+       <note>京博本「 <seg style="color:red"> 糸 </seg>一丁<del>糸</del>」</note>
        <note> 京博本は「一」の上に「 <seg style="color:red"> 糸 </seg> 」を朱補書し、「丁」下の「糸」を朱で抹消。 </note>
        <note> 糸一丁　土本・近本・壬本・京博本｢一丁糸｣。享保版本に従い改める。 </note>
       </app>
@@ -2201,11 +2200,10 @@
         xml:id="app2410700102e"/> 油、荏油、烏賊、 <anchor xml:id="app2410700103"/> 魚 <anchor
         xml:id="app2410700103e"/> 楚割、鹿鮨、猪鮨、漬塩年魚、鮨年魚、 </p>
       <app from="#app2410700101" to="#app2410700101e">
-       <lem wit="#島原本 #享保版本"> 雑魚楚割 </lem>
+       <lem wit="#島原本 #享保版本 #近本抹消 #京博本朱抹消"> 雑魚楚割 </lem>
        <rdg wit="#土本 #壬本 #藤波本 #貞享本 #玄梁本 #泉亭本"> 雑魚楚雑魚楚割 </rdg>
-       <rdg wit="#京博本"> 雑魚楚 <del> 雑魚楚 </del> 割 </rdg>
-       <rdg wit="#近本"> 雑魚楚割 <del> 雑魚楚割 </del>
-       </rdg>
+       <note>京博本「雑魚楚 <del> 雑魚楚 </del>割」</note>
+       <note>近本「雑魚楚割 <del> 雑魚楚割 </del>」</note>
        <note> 雑魚楚割　土本・壬本・京博本は「雑魚楚」を弥書し、京博本は朱にて抹消。近本は「雑魚楚割」を弥書して抹消。近本抹消、京博本朱抹消に従い削る。 </note>
       </app>
       <app from="#app2410700102" to="#app2410700102e">
@@ -2277,8 +2275,7 @@
       n="24.75" subtype="項" type="条" xml:id="article241075">
       <head ana="壱伎島"/>
       <p ana="項" corresp="engishiki_v24_en.xml#item24107501 engishiki_v24_ja.xml#item24107501"
-       xml:id="item24107501"> 壱伎島〈海路、行程三日、〉
-       <lb/>調、大豆廿三斛、小豆十一斛、小麦廿斛二斗、自余輸海石榴油・薄鰒、 </p>
+       xml:id="item24107501"> 壱伎島〈海路、行程三日、〉 <lb/>調、大豆廿三斛、小豆十一斛、小麦廿斛二斗、自余輸海石榴油・薄鰒、 </p>
      </div>
      <div ana="主計上" corresp="engishiki_v24_en.xml#article241076 engishiki_v24_ja.xml#article241076"
       n="24.76" subtype="項" type="条" xml:id="article241076">
