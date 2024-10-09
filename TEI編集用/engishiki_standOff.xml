@@ -597,7 +597,7 @@
      <label xml:lang="ja-Lath">
       bu
      </label>
-     <conversion formula="$fromUnit*4" fromUnit="#分Weight" toUnit="#両"/>
+     <conversion formula="$fromUnit*4" fromUnit="#分_Weight" toUnit="#両"/>
      <desc>
       1 bu 分 = 6 shu 銖。1 bu 分 = ca. 10.5 g
      </desc>
@@ -609,7 +609,7 @@
      <label xml:lang="ja-Lath">
       shu
      </label>
-     <conversion formula="$fromUnit*6" fromUnit="#銖" toUnit="#分Weight"/>
+     <conversion formula="$fromUnit*6" fromUnit="#銖" toUnit="#分_Weight"/>
      <desc>
       1 shu 銖 = ca. 1.8 g
      </desc>
@@ -628,7 +628,7 @@
     </unitDef>
     <unitDef type="Cloth_chōfu" xml:id="段_調布">
      <label xml:lang="ja">
-      端
+      段
      </label>
      <label xml:lang="ja-Lath">
       tan
@@ -640,7 +640,7 @@
     </unitDef>
     <unitDef type="Cloth_yōfu" xml:id="段_庸布">
      <label xml:lang="ja">
-      端
+      段
      </label>
      <label xml:lang="ja-Lath">
       tan
