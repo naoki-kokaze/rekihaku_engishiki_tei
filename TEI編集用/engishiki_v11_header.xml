@@ -2,8 +2,8 @@
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-                            <teiHeader>
-                                                  <fileDesc>
+                      <teiHeader>
+                                            <fileDesc>
                                                   <titleStmt>
                                                   <title>延喜式ファイル</title>
                                                   </titleStmt>
@@ -151,8 +151,8 @@
                                                   </listWit>
                                                   </listWit>
                                                   </sourceDesc>
-                                                  </fileDesc>
-                                                  <encodingDesc>
+                                            </fileDesc>
+                                            <encodingDesc>
                                                   <variantEncoding location="external"
                                                   method="location-referenced"/>
                                                   <tagsDecl>
@@ -397,8 +397,8 @@
                                                   </p>
                                                   <p ana="個別"/>
                                                   </editorialDecl>
-                                                  </encodingDesc>
-                                                  <revisionDesc ana="個別">
+                                            </encodingDesc>
+                                            <revisionDesc ana="個別">
                                                   <listChange>
                                                   <listChange xml:id="校訂文">
                                                   <change when="2023-03-31"
@@ -416,15 +416,17 @@
                                                   ><date>2023年3月31日</date>全般にわたり、誤字の訂正やルビの修正などをおこなっています。</change>
                                                   <change when="2023-09-29"
                                                   ><date>2023年9月29日</date>本奥書の「祢」を「禰」に改めました。</change>
+                                                  <change when="2024-10-11"
+                                                  ><date>2024年10月11日</date>第123考定条において、「儲」の校異注を「土本等「諸」。九本・壬本、京博本朱傍書により改める。」に改めました。</change>
                                                   </listChange>
                                                   </listChange>
-                                                  </revisionDesc>
-                            </teiHeader>
-                            <text>
-                                                  <body>
+                                            </revisionDesc>
+                      </teiHeader>
+                      <text>
+                                            <body>
                                                   <div>
                                                   <p/>
                                                   </div>
-                                                  </body>
-                            </text>
+                                            </body>
+                      </text>
 </TEI>
