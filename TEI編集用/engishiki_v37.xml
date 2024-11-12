@@ -1035,7 +1035,7 @@
                                 />一分<anchor xml:id="app3710030207e"
                                 />、当帰五両、白芷十三両二分、前胡十三両二分、附子一斤四両二分、連翹三両、蘆茹二両、白薟四両二分、<anchor
                                 xml:id="app3710030208"/>蒴<anchor xml:id="app3710030208e"
-                                />藋二両、商陸二両、【艹冂又】草一斤三両、升麻一両二分、黄耆二両、茈胡二両、地楡二両、<anchor
+                                />藋二両、商陸二両、𦬣草一斤三両、升麻一両二分、黄耆二両、茈胡二両、地楡二両、<anchor
                                 xml:id="app3710030209"/>牡<anchor xml:id="app3710030209e"
                                 />丹二両、大戟三両二分、<anchor xml:id="app3710030210"/>夕<anchor
                                 xml:id="app3710030210e"
@@ -1669,7 +1669,22 @@
                                 xml:id="app3710120101"/>白<anchor xml:id="app3710120101e"
                                 />田蒭二千三百卅二斤、野蒭五百斤、山城国進之、<anchor xml:id="app3710120102"/>白田<anchor
                                 xml:id="app3710120102e"/>蒭一千六百二斤、<anchor xml:id="app3710120103"
-                                />丹<anchor xml:id="app3710120103e"/>波国進之、〉</p>
+                                />丹<anchor xml:id="app3710120103e"/>波国進之、〉 </p>
+                        <app from="#app3710120101" to="#app3710120101e">
+                            <lem wit="#土本 #壬本 #京博本 #梵本 #慶長本">白</lem>
+                            <rdg wit="#近本 #慶安版本 #明暦版本 #寛文版本 #享保版本">畠</rdg>
+                        </app>
+                        <app from="#app3710120102" to="#app3710120102e">
+                            <lem wit="#土本 #壬本 #京博本 #梵本 #慶長本">白田</lem>
+                            <rdg wit="#近本">畠田</rdg>
+                            <rdg wit="#慶安版本 #明暦版本 #寛文版本 #享保版本">畠</rdg>
+                        </app>
+                        <app from="#app3710120103" to="#app3710120103e">
+                            <lem wit="#壬本 #京博本 #梵本訂正書 #慶長本">丹</lem>
+                            <rdg wit="#土本 #近本">舟</rdg>
+                            <note>梵本訂正書「丹」</note>
+                            <note>丹　土本・近本「舟」、梵本「舟」に作り「丹」に訂正書。壬本・京博本・慶長本により改める。</note>
+                        </app>
                     </div>
                     <div ana="典薬"
                         corresp="engishiki_v37_en.xml#article371013 engishiki_v37_ja.xml#article371013"
@@ -1682,6 +1697,10 @@
                             />、〈練料、〉豉一斗、〈造雑薬料、〉粟二斗、〈煮湯料、〉塩三斗、〈湯并熨料、〉調布帳一条、〈長七尺、三幅、〉明櫃一合、臼一口、〈加杵、〉薪七百廿斤、
                                 <lb/><s rendition="#indent">右、塩已上毎年十二月中旬申省、但帳并明櫃・臼等、並随損請受、</s>
                         </p>
+                        <app from="#app3710130101" to="#app3710130101e">
+                            <lem wit="#土本 #近本 #壬本 #京博本 #梵本 #慶長本">石</lem>
+                            <note place="傍 ">京博本傍書「解イ」</note>
+                        </app>
                     </div>
                     <div ana="典薬"
                         corresp="engishiki_v37_en.xml#article371014 engishiki_v37_ja.xml#article371014"
@@ -1698,6 +1717,29 @@
                                 xml:id="app3710140104"/>共<anchor xml:id="app3710140104e"
                                 />作女医十四人、人別日飯一升、塩一勺、滓<anchor xml:id="app3710140105"/>醤<anchor
                                 xml:id="app3710140105e"/>一合、酒三合、並限卅日給、 </p>
+                        <app from="#app3710140101" to="#app3710140101e">
+                            <lem wit="#近本 #壬本 #京博本">申</lem>
+                            <rdg wit="#土本">甲</rdg>
+                            <note>申　土本「甲」。近本・壬本・京博本により改める。</note>
+                        </app>
+                        <app from="#app3710140102" to="#app3710140102e">
+                            <lem wit="#土本 #近本 #壬本 #京博本 #梵本">粉</lem>
+                            <rdg wit="#慶長本"/>
+                        </app>
+                        <app from="#app3710140103" to="#app3710140103e">
+                            <lem wit="#土本 #近本 #壬本 #京博本 #慶長本">料</lem>
+                            <rdg wit="#梵本"/>
+                        </app>
+                        <app from="#app3710140104" to="#app3710140104e">
+                            <lem cause="意改">共</lem>
+                            <rdg wit="#土本 #近本 #壬本 #京博本 #梵本 #慶長本 #慶安版本 #明暦版本 #寛文版本 #享保版本">供</rdg>
+                            <note>共　土本・近本・壬本・京博本・梵本・慶長本・版本「供」。雲本に従い改める。</note>
+                        </app>
+                        <app from="#app3710140105" to="#app3710140105e">
+                            <lem wit="#明暦版本 #寛文版本 #享保版本">醤</lem>
+                            <rdg wit="#土本 #近本 #壬本 #京博本 #梵本 #慶長本">医</rdg>
+                            <note>醤　土本・近本・壬本・京博本・梵本・慶長本「医」。明暦以降版本に従い改める。</note>
+                        </app>
                     </div>
                     <div ana="典薬"
                         corresp="engishiki_v37_en.xml#article371015 engishiki_v37_ja.xml#article371015"
@@ -1711,7 +1753,29 @@
                                 xml:id="app3710150102"/>候<anchor xml:id="app3710150102e"
                                 />之、〈其薬種色目臨時量<anchor xml:id="app3710150103"/>定<anchor
                                 xml:id="app3710150103e"/>、担夫申省、〉<anchor xml:id="app3710150104"
-                                />但直丁・担夫等装束及食同亦申省<anchor xml:id="app3710150104e"/>、</p>
+                                />但直丁・担夫等装束及食同亦申省<anchor xml:id="app3710150104e"/>、 </p>
+                        <app from="#app3710150101" to="#app3710150101e">
+                            <lem wit="#土本 #近本 #壬本 #京博本 #梵本">官人一人</lem>
+                            <rdg wit="#慶長本">官人一</rdg>
+                            <note/>
+                        </app>
+                        <app from="#app3710150102" to="#app3710150102e">
+                            <lem wit="#土本 #近本 #壬本 #京博本 #梵本 #慶長本">候</lem>
+                            <note place="傍">京博本朱傍書「<seg style="color:red">候イ</seg>」</note>
+                        </app>
+                        <app from="#app3710150103" to="#app3710150103e">
+                            <lem wit="#土本 #近本 #壬本 #京博本 #梵本 #慶長本">定</lem>
+                            <rdg wit="#慶長本">与</rdg>
+                            <note place="傍">土本傍書「与」</note>
+                            <note place="傍">近本傍書「与」</note>
+                            <note place="傍">壬本傍書「与」</note>
+                            <note place="傍">京博本傍書「与」</note>
+                            <note>定　土本・近本・壬本・京博本傍書「与」。慶長本「与」。「与」字は送り仮名か。</note>
+                        </app>
+                        <app from="#app3710150104" to="#app3710150104e">
+                            <lem wit="#土本 #近本 #壬本 #京博本 #梵本 #慶長本">但直丁・担夫等装束及食同亦申省</lem>
+                            <note>但直丁担夫等装束及食同亦申省　訳注本は雲本に従い細字割注とする。</note>
+                        </app>
                     </div>
                     <div ana="典薬"
                         corresp="engishiki_v37_en.xml#article371016 engishiki_v37_ja.xml#article371016"
@@ -1734,7 +1798,31 @@
                                 />薬丸、四味理仲丸、干薑丸、遼東丸各二剤、〉所須薬種各依方経、其用度裹薬油絁六尺五寸、紙十八張、木綿五両、篩二口料絹四尺、冶篩一口料紗二尺、酢二升、炭五斗、納薬小折櫃一合、搗薬夫十二人、〈人<anchor
                                 xml:id="app3710170103"/>日<anchor xml:id="app3710170103e"
                                 />搗一剤、〉食米二斗四升、〈人<anchor xml:id="app3710170104"/>日<anchor
-                                xml:id="app3710170104e"/>二升、〉塩二合四夕、〈人日二夕、〉</p>
+                                xml:id="app3710170104e"/>二升、〉塩二合四夕、〈人日二夕、〉 </p>
+                        <app from="#app3710170101" to="#app3710170101e">
+                            <lem wit="#土本 #近本 #壬本 #京博本 #梵本 #慶長本">充</lem>
+                            <note place="傍">土本傍書「与」</note>
+                            <note place="傍">近本傍書「与」</note>
+                            <note place="傍">壬本傍書「与」</note>
+                            <note place="傍">京博本傍書「与」</note>
+                            <note place="傍">京博本左朱傍書「<seg style="color:red">宛</seg>」</note>
+                            <note place="傍">慶長本傍書「与」</note>
+                            <note>充　土本・近本・壬本・京博本・慶長本傍書「与」。京博本左朱傍書「宛」。「与」字は送り仮名か。</note>
+                        </app>
+                        <app from="#app3710170102" to="#app3710170102e">
+                            <lem wit="#土本 #近本 #壬本 #京博本 #梵本 #慶長本">夕</lem>
+                            <note>夕　訳注本は正格の用字である「芍」に改める。</note>
+                        </app>
+                        <app from="#app3710170103" to="#app3710170103e">
+                            <lem wit="#土本 #近本 #壬本 #梵本 #慶長本">日</lem>
+                            <rdg wit="#京博本">曰</rdg>
+                            <note place="傍">京博本朱傍書「<seg style="color:red">日イ</seg>」</note>
+                        </app>
+                        <app from="#app3710170104" to="#app3710170104e">
+                            <lem wit="#土本 #近本 #壬本 #梵本 #慶長本">日</lem>
+                            <rdg wit="#京博本">曰</rdg>
+                            <note place="傍">京博本朱傍書「<seg style="color:red">日イ</seg>」</note>
+                        </app>
                     </div>
                     <div ana="典薬"
                         corresp="engishiki_v37_en.xml#article371018 engishiki_v37_ja.xml#article371018"
@@ -1761,11 +1849,11 @@
                                 />分二銖、厚朴二分二銖、<anchor xml:id="app3710180110"/>支<anchor
                                 xml:id="app3710180110e"/>子百廿<anchor xml:id="app3710180111"/>二<anchor
                                 xml:id="app3710180111e"/>枚、升麻十一両二銖、干藍二分、豉<anchor
-                                xml:id="app3710180112"/>一<anchor xml:id="app3710180112e"/>合<anchor
-                                xml:id="app3710180113"/>一夕<anchor xml:id="app3710180113e"
+                                xml:id="app3710180112"/>一<anchor xml:id="app3710180113"/>合<anchor
+                                xml:id="app3710180113e"/>一夕<anchor xml:id="app3710180112e"
                                 />、前胡<anchor xml:id="app3710180114"/>二升一<anchor
-                                xml:id="app3710180114e"/>合<anchor xml:id="app3710180115"/><anchor
-                                xml:id="app3710180115e"/>、<anchor xml:id="app3710180116"
+                                xml:id="app3710180115"/>合<anchor xml:id="app3710180115e"/><anchor
+                                xml:id="app3710180114e"/>、<anchor xml:id="app3710180116"
                                 />白芷二升一合<anchor xml:id="app3710180116e"/>、当帰四両二<anchor
                                 xml:id="app3710180117"/>分<anchor xml:id="app3710180117e"
                                 />、蒴藋一斤一分、商陸四両一分、<anchor xml:id="app3710180118"/>𦬣<anchor
@@ -1775,6 +1863,105 @@
                                 xml:id="app3710180120"/>花<anchor xml:id="app3710180120e"
                                 />九両一分、<anchor xml:id="app3710180121"/>抜<anchor
                                 xml:id="app3710180121e"/>葜一両一分、 </p>
+                        <app from="#app3710180101" to="#app3710180101e">
+                            <lem wit="#土本 #近本 #壬本 #京博本 #梵本 #慶長本">三</lem>
+                            <note place="傍">土本朱傍書「<seg style="color:red">二</seg>」</note>
+                            <note place="傍">近本傍書「二」</note>
+                            <note place="傍">壬本傍書「二」</note>
+                            <note place="傍">京博本朱傍書「<seg style="color:red">二</seg>」</note>
+                            <note place="傍">慶長本朱傍書「<seg style="color:red">二</seg>」</note>
+                        </app>
+                        <app from="#app3710180102" to="#app3710180102e">
+                            <lem wit="#土本 #近本 #壬本 #京博本 #梵本 #慶長本">茈</lem>
+                            <note place="傍">京博本左朱傍書「<seg style="color:red">柴歟</seg>」</note>
+                        </app>
+                        <app from="#app3710180103" to="#app3710180103e">
+                            <lem wit="#土本 #近本 #壬本 #京博本 #梵本 #慶長本">夕</lem>
+                            <note>夕　訳注本は正格の用字である「芍」に改める。</note>
+                        </app>
+                        <app from="#app3710180104" to="#app3710180104e">
+                            <lem wit="#近本 #壬本 #京博本">萸</lem>
+                            <rdg wit="#土本"/>
+                            <note>萸　土本無し。近本・壬本・京博本により補う。</note>
+                        </app>
+                        <app from="#app3710180105" to="#app3710180105e">
+                            <lem wit="#土本 #近本 #壬本 #京博本 #梵本 #慶長本">昌</lem>
+                            <note>昌　訳注本は正格の用字である「菖」に改める。</note>
+                        </app>
+                        <app from="#app3710180106" to="#app3710180106e">
+                            <lem wit="#土本 #近本 #壬本 #京博本 #梵本">二分</lem>
+                            <rdg wit="#慶長本"/>
+                        </app>
+                        <app from="#app3710180107" to="#app3710180107e">
+                            <lem wit="#土本 #近本 #壬本 #京博本 #梵本 #慶長本">伏</lem>
+                            <note>伏　訳注本は正格の用字である「茯」に改める。</note>
+                        </app>
+                        <app from="#app3710180108" to="#app3710180108e">
+                            <lem wit="#土本 #近本 #壬本 #京博本 #梵本 #慶長本訂正書">亭</lem>
+                            <note>慶長本「亭」</note>
+                            <note>亭　慶長本「膏」に作り「亭」と訂正書。</note>
+                        </app>
+                        <app from="#app3710180109" to="#app3710180109e">
+                            <lem wit="#土本 #近本 #壬本 #京博本 #梵本">三</lem>
+                            <rdg wit="#慶長本">二</rdg>
+                            <note place="傍">京博本朱傍書「<seg style="color:red">二イ</seg>」</note>
+                        </app>
+                        <app from="#app3710180110" to="#app3710180110e">
+                            <lem wit="#土本 #近本 #壬本 #京博本 #慶長本">支</lem>
+                            <rdg wit="#梵本">与</rdg>
+                        </app>
+                        <app from="#app3710180111" to="#app3710180111e">
+                            <lem wit="#土本 #近本 #壬本 #京博本 #梵本">二</lem>
+                            <rdg wit="#慶長本"/>
+                            <note>二　慶長本脱。訳注本は京博本・慶長本・島原本および斎宮式71条にこの字がないことを指摘する。</note>
+                        </app>
+                        <app from="#app3710180112" to="#app3710180112e">
+                            <lem wit="#土本 #近本 #壬本 #京博本 #梵本 #慶長本">一合一夕</lem>
+                            <note>一合一夕　訳注本は豉が通常は斤両によって記載されること、以下の条文では斗升を用いる例もあることを指摘する。</note>
+                        </app>
+                        <app from="#app3710180113" to="#app3710180113e">
+                            <lem wit="#土本 #近本 #壬本 #京博本 #梵本訂正書 #慶長本">合</lem>
+                            <note>梵本訂正書「合」</note>
+                            <note>合　梵本「分」に作り「合」と訂正書。</note>
+                        </app>
+                        <app from="#app3710180114" to="#app3710180114e">
+                            <lem wit="#土本 #近本 #壬本 #京博本 #梵本 #慶長本">二升一合</lem>
+                            <note>二升一合　訳注本は考異の「二斤一分」とすべきという説を挙げ、是であろうとする。</note>
+                        </app>
+                        <app from="#app3710180115" to="#app3710180115e">
+                            <lem wit="#土本 #近本 #壬本 #京博本 #梵本 #慶長本">合</lem>
+                            <note place="傍">京博本朱傍書「<seg style="color:red">両歟、</seg>」</note>
+                            <note place="傍">京博本左朱傍書「<seg style="color:red">分歟、</seg>」</note>
+                        </app>
+                        <app from="#app3710180116" to="#app3710180116e">
+                            <lem wit="#土本 #近本 #壬本 #京博本 #梵本">白芷二升一合</lem>
+                            <rdg wit="#慶長本"/>
+                        </app>
+                        <app from="#app3710180117" to="#app3710180117e">
+                            <lem wit="#土本抹消 #近本 #壬本 #京博本 #梵本 #慶長本">分</lem>
+                            <note>土本抹消「分<del>二</del>」</note>
+                            <note>分　土本この下に「二」を記し抹消。</note>
+                        </app>
+                        <app from="#app3710180118" to="#app3710180118e">
+                            <lem wit="#土本 #近本 #壬本 #京博本 #梵本 #慶長本">𦬣</lem>
+                            <note place="傍">京博本朱傍書「<seg style="color:red">茵イ</seg>」</note>
+                        </app>
+                        <app from="#app3710180119" to="#app3710180119e">
+                            <lem wit="#土本 #近本 #壬本 #京博本 #梵本">斤</lem>
+                            <rdg wit="#慶長本">分</rdg>
+                            <note place="傍">京博本朱傍書「<seg style="color:red">分イ</seg>」</note>
+                            <note place="傍">慶長本左傍書「斤」</note>
+                        </app>
+                        <app from="#app3710180120" to="#app3710180120e">
+                            <lem wit="#近本訂正書  #慶安版本 #明暦版本 #寛文版本 #享保版本">花</lem>
+                            <rdg wit="#土本 #壬本 #京博本 #梵本 #慶長本">衣</rdg>
+                            <note>近本訂正書「花」</note>
+                            <note>花　土本・壬本・京博本・梵本・慶長本「衣」。近本「衣」を「花」に訂正書。近本訂正書および版本に従い改める。</note>
+                        </app>
+                        <app from="#app3710180121" to="#app3710180121e">
+                            <lem wit="#土本 #近本 #壬本 #京博本 #梵本 #慶長本">抜</lem>
+                            <note>抜　訳注本は正格の用字である「菝」に改める。</note>
+                        </app>
                     </div>
                     <div ana="典薬"
                         corresp="engishiki_v37_en.xml#article371019 engishiki_v37_ja.xml#article371019"
@@ -1790,6 +1977,23 @@
                                 xml:id="app3710190103"/>白芷六両<anchor xml:id="app3710190103e"
                                 />、桃<anchor xml:id="app3710190104"/>人<anchor xml:id="app3710190104e"
                             />二升、石膏一両、 </p>
+                        <app from="#app3710190101" to="#app3710190101e">
+                            <lem wit="#土本 #近本 #壬本 #京博本 #梵本 #慶長本訂正書">茈</lem>
+                            <note>慶長本訂正書「茈」</note>
+                            <note>茈　慶長本「芷」に作り「茈」と訂正書。</note>
+                        </app>
+                        <app from="#app3710190102" to="#app3710190102e">
+                            <lem wit="#土本 #近本 #壬本 #京博本 #梵本 #慶長本">伏</lem>
+                            <note>伏　訳注本は正格の用字である「茯」に改める。</note>
+                        </app>
+                        <app from="#app3710190103" to="#app3710190103e">
+                            <lem wit="#土本 #近本 #壬本 #京博本 #梵本">白芷六両</lem>
+                            <rdg wit="#慶長本"/>
+                        </app>
+                        <app from="#app3710190104" to="#app3710190104e">
+                            <lem wit="#土本 #近本 #壬本 #京博本 #梵本 #慶長本">人</lem>
+                            <note place="傍">京博本朱傍書「<seg style="color:red">仁イ</seg>」</note>
+                        </app>
                     </div>
                     <div ana="典薬"
                         corresp="engishiki_v37_en.xml#article371020 engishiki_v37_ja.xml#article371020"
@@ -1812,6 +2016,54 @@
                                 xml:id="app3710200109"/>斛<anchor xml:id="app3710200109e"
                                 />四斤、独活・牛膝各五斤、芎藭二斤八両、前胡八両、夜干・<anchor xml:id="app3710200110"
                                 />昌<anchor xml:id="app3710200110e"/>蒲各十両、 </p>
+                        <app from="#app3710200101" to="#app3710200101e">
+                            <lem wit="#土本 #近本 #壬本 #京博本 #梵本 #慶長本">抜</lem>
+                            <note>訳注本は正格の用字である「菝」に改める。</note>
+                        </app>
+                        <app from="#app3710200102" to="#app3710200102e">
+                            <lem wit="#明暦版本 #寛文版本 #享保版本">漆</lem>
+                            <rdg wit="#土本 #近本 #壬本 #京博本 #梵本 #慶長本">染</rdg>
+                            <note>漆　土本・近本・壬本・京博本・梵本・慶長本「染」。明暦以降版本に従い改める。</note>
+                        </app>
+                        <app from="#app3710200103" to="#app3710200103e">
+                            <lem wit="#土本 #近本 #壬本 #京博本 #梵本 #慶長本">署預</lem>
+                            <note>署預　訳注本は正格の用字である「薯蕷」に改める。</note>
+                        </app>
+                        <app from="#app3710200104" to="#app3710200104e">
+                            <lem wit="#近本訂正書 #梵本 #慶長本">厚</lem>
+                            <rdg wit="#土本 #壬本 #京博本">原</rdg>
+                            <note>近本訂正書「厚」</note>
+                            <note>厚　土本・壬本・京博本「原」、近本「原」に作り「厚」に訂正書。梵本・慶長本により改める。</note>
+                        </app>
+                        <app from="#app3710200105" to="#app3710200105e">
+                            <lem wit="#土本 #近本 #壬本 #京博本 #梵本 #慶長本">伏</lem>
+                            <note>伏　訳注本は正格の用字である「茯」に改める。</note>
+                        </app>
+                        <app from="#app3710200106" to="#app3710200106e">
+                            <lem wit="#近本 #梵本訂正書">杜</lem>
+                            <rdg wit="#土本 #壬本 #京博本 #慶長本">社</rdg>
+                            <note>梵本訂正書「杜」</note>
+                            <note>杜　土本・壬本・京博本・慶長本「社」、梵本「社」に作り「杜」と訂正書。近本および梵本訂正書により改める。</note>
+                        </app>
+                        <app from="#app3710200107" to="#app3710200107e">
+                            <lem wit="#土本 #近本 #壬本 #京博本 #梵本 #慶長本">人</lem>
+                            <note place="傍">京博本朱傍書「<seg style="color:red">仁イ</seg>」</note>
+                        </app>
+                        <app from="#app3710200108" to="#app3710200108e">
+                            <lem wit="#土本 #近本 #壬本 #京博本 #梵本 #慶長本">山</lem>
+                            <note place="傍">土本傍書「乙善」</note>
+                            <note place="傍">近本傍書「乙善」</note>
+                            <note place="傍">壬本傍書「乙善」</note>
+                            <note place="傍">京博本傍書「乙善」</note>
+                        </app>
+                        <app from="#app3710200109" to="#app3710200109e">
+                            <lem wit="#土本 #近本 #壬本 #京博本 #梵本 #慶長本">斛</lem>
+                            <note place="傍">京博本左朱傍書「<seg style="color:red">解イ</seg>」</note>
+                        </app>
+                        <app from="#app3710200110" to="#app3710200110e">
+                            <lem wit="#土本 #近本 #壬本 #京博本 #梵本 #慶長本">昌</lem>
+                            <note>昌　訳注本は正格の用字である「菖」に改める。</note>
+                        </app>
                     </div>
                     <div ana="典薬"
                         corresp="engishiki_v37_en.xml#article371021 engishiki_v37_ja.xml#article371021"
@@ -1820,8 +2072,8 @@
                         <p ana="項"
                             corresp="engishiki_v37_en.xml#item37102101 engishiki_v37_ja.xml#item37102101"
                             xml:id="item37102101"><anchor xml:id="app3710210101"/>左右近衛府各<anchor
-                                xml:id="app3710210101e"/>卌<anchor xml:id="app3710210102"/>七種<anchor
-                                xml:id="app3710210102e"/>
+                                xml:id="app3710210102"/>卌<anchor xml:id="app3710210102e"/>七種<anchor
+                                xml:id="app3710210101e"/>
                             <lb/>大黄・蜀椒各二斤八両、人参・<anchor xml:id="app3710210103"/>木<anchor
                                 xml:id="app3710210103e"/>防己各十両、半夏・桔梗・紫菀・皂莢各五両、石膏・蛇銜各三両、<anchor
                                 xml:id="app3710210104"/>茈<anchor xml:id="app3710210104e"
@@ -1844,6 +2096,75 @@
                                     xml:id="app3710210115"/>丸<anchor xml:id="app3710210115e"
                                 />十五剤、万風膏・万病膏各二剤、千瘡万病膏三剤料、</s>
                         </p>
+                        <app from="#app3710210101" to="#app3710210101e">
+                            <note>左右近衛府各卌七種　土本・壬本・京博本・梵本・慶長本は前条末尾に続けて記す。近本前条末尾に続けて記し次行に挿入。近本訂正書および版本に従い改める。</note>
+                        </app>
+                        <app from="#app3710210102" to="#app3710210102e">
+                            <lem wit="#土本 #近本 #壬本 #京博本 #梵本 #慶長本">卌</lem>
+                            <note place="傍">京博本朱傍書「<seg style="color:red">卅イ</seg>」</note>
+                        </app>
+                        <app from="#app3710210103" to="#app3710210103e">
+                            <lem wit="#土本 #壬本 #京博本 #梵本 #慶長本">木</lem>
+                            <rdg wit="#近本補書">木青香</rdg>
+                            <note>近本補書「青香」</note>
+                            <note>木　近本この下に「青香」を補書。</note>
+                        </app>
+                        <app from="#app3710210104" to="#app3710210104e">
+                            <lem wit="#土本 #近本 #壬本 #京博本 #梵本">茈</lem>
+                            <rdg wit="#慶長本">柴</rdg>
+                            <note place="傍">京博本左朱傍書「<seg style="color:red">柴イ</seg>」</note>
+                        </app>
+                        <app from="#app3710210105" to="#app3710210105e">
+                            <lem wit="#土本 #近本 #壬本 #京博本 #梵本 #慶長本">夕</lem>
+                            <note>夕　訳注本は正格の用字である「芍」に改める。</note>
+                        </app>
+                        <app from="#app3710210106" to="#app3710210106e">
+                            <lem wit="#土本 #近本 #壬本 #京博本 #梵本 #慶長本">膠</lem>
+                            <note place="傍">土本傍書「乙暁」</note>
+                            <note place="傍">近本傍書「乙暁」</note>
+                            <note place="傍">壬本傍書「乙暁」</note>
+                            <note place="傍">京博本傍書「乙暁」</note>
+                        </app>
+                        <app from="#app3710210107" to="#app3710210107e">
+                            <lem wit="#土本 #近本 #壬本 #京博本 #梵本 #慶長本">伏</lem>
+                            <note>伏　訳註本は正格の用字である「茯」に改める。</note>
+                        </app>
+                        <app from="#app3710210108" to="#app3710210108e">
+                            <lem wit="#慶安版本 #明暦版本 #寛文版本 #享保版本">艾</lem>
+                            <rdg wit="#土本 #近本 #壬本 #京博本 #梵本 #慶長本">【艹/叉】</rdg>
+                            <note>艾　土本・近本・壬本・京博本・梵本・慶長本「【艹/叉】」。版本に従い改める。</note>
+                        </app>
+                        <app from="#app3710210109" to="#app3710210109e">
+                            <lem wit="#土本 #近本 #壬本 #京博本 #梵本 #慶長本">昌</lem>
+                            <note>昌　訳註本は正格の用字である「菖」に改める。</note>
+                        </app>
+                        <app from="#app3710210110" to="#app3710210110e">
+                            <lem wit="#土本 #近本 #壬本 #京博本 #梵本 #慶長本">人</lem>
+                            <note place="傍">京博本朱傍書「<seg style="color:rd">仁イ</seg>」</note>
+                        </app>
+                        <app from="#app3710210111" to="#app3710210111e">
+                            <lem wit="#土本補書 #近本 #壬本 #京博本 #慶長本">麻</lem>
+                            <rdg wit="#梵本">ヽヽ</rdg>
+                            <note>土本補書「麻」</note>
+                        </app>
+                        <app from="#app3710210112" to="#app3710210112e">
+                            <lem wit="#近本 #壬本 #京博本 #梵本">𦬣</lem>
+                            <rdg wit="#土本 #慶長本">茵</rdg>
+                            <note>𦬣　土本・慶長本「茵」。近本・壬本・京博本・梵本により改める。</note>
+                        </app>
+                        <app from="#app3710210113" to="#app3710210113e">
+                            <lem wit="#土本 #近本 #壬本 #京博本 #梵本 #慶長本">伏</lem>
+                            <note>伏　訳註本は正格の用字である「茯」に改める。</note>
+                        </app>
+                        <app from="#app3710210114" to="#app3710210114e">
+                            <lem wit="#土本 #近本 #壬本 #京博本 #梵本 #慶長本">夕</lem>
+                            <note>夕　訳注本は正格の用字である「芍」に改める。</note>
+                        </app>
+                        <app from="#app3710210115" to="#app3710210115e">
+                            <lem wit="#近本 #壬本 #京博本">丸</lem>
+                            <rdg wit="#土本">九</rdg>
+                            <note>丸　土本「九」。近本・壬本・京博本により改める。</note>
+                        </app>
                     </div>
                     <div ana="典薬"
                         corresp="engishiki_v37_en.xml#article371022 engishiki_v37_ja.xml#article371022"
@@ -1870,6 +2191,57 @@
                                     />薬丸・呉茱萸丸・四味理仲丸各二剤、温白丸一剤、神明膏・千瘡万病膏各二剤<anchor
                                     xml:id="app3710220111"/>料<anchor xml:id="app3710220111e"/>、</s>
                         </p>
+                        <app from="#app3710220101" to="#app3710220101e">
+                            <lem wit="#土本 #壬本 #京博本 #梵本 #慶長本">木</lem>
+                            <rdg wit="#近本補書">木香</rdg>
+                            <note>近本補書「香」</note>
+                            <note>木　近本この下に「香」を補書。</note>
+                        </app>
+                        <app from="#app3710220102" to="#app3710220102e">
+                            <lem wit="#土本 #近本 #壬本 #京博本 #梵本">茈</lem>
+                            <rdg wit="#慶長本">柴</rdg>
+                            <note place="傍">京博本朱傍書「<seg style="color:red">柴イ</seg>」</note>
+                        </app>
+                        <app from="#app3710220103" to="#app3710220103e">
+                            <lem wit="#土本 #近本 #壬本 #京博本 #梵本 #慶長本">昌</lem>
+                            <note>昌　訳注本は正格の用字である「菖」に改める。</note>
+                        </app>
+                        <app from="#app3710220104" to="#app3710220104e">
+                            <lem wit="#土本 #近本 #壬本 #京博本 #梵本 #慶長本">伏</lem>
+                            <note>伏　訳注本は正格の用字である「茯」に改める。</note>
+                        </app>
+                        <app from="#app3710220105" to="#app3710220105e">
+                            <lem wit="#土本 #近本 #壬本 #京博本 #梵本 #慶長本">夕</lem>
+                            <note>夕　訳注本は正格の用字である「芍」に改める。</note>
+                        </app>
+                        <app from="#app3710220106" to="#app3710220106e">
+                            <lem wit="#梵本 #慶長本">歴</lem>
+                            <rdg wit="#土本">麻</rdg>
+                            <rdg wit="#近本 #壬本 #京博本">【厂/林】</rdg>
+                            <note place="傍">京博本朱傍書「<seg style="color:red">歴イ</seg>」</note>
+                            <note>歴　土本「麻」、近本・壬本「【厂/林】」。京博本「【厂/林】」に作り「歴イ」と朱傍書。梵本・慶長本により改める。</note>
+                        </app>
+                        <app from="#app3710220107" to="#app3710220107e">
+                            <lem wit="#土本 #近本 #壬本 #京博本 #梵本">斤</lem>
+                            <rdg wit="#慶長本"/>
+                        </app>
+                        <app from="#app3710220108" to="#app3710220108e">
+                            <lem wit="#土本 #近本 #壬本 #京博本 #梵本 #慶長本">卌</lem>
+                            <note place="傍">京博本朱傍書「<seg style="color:red">卅イ</seg>」</note>
+                        </app>
+                        <app from="#app3710220109" to="#app3710220109e">
+                            <lem wit="#土本 #近本 #壬本 #京博本 #梵本 #慶長本">伏</lem>
+                            <note>伏　訳注本は正格の用字である「茯」に改める。</note>
+                        </app>
+                        <app from="#app3710220110" to="#app3710220110e">
+                            <lem wit="#土本 #近本 #壬本 #京博本 #梵本 #慶長本">夕</lem>
+                            <note>夕　訳注本は正格の用字である「芍」に改める。</note>
+                        </app>
+                        <app from="#app3710220111" to="#app3710220111e">
+                            <lem wit="#土本 #近本 #壬本 #京博本 #梵本">料</lem>
+                            <rdg wit="#慶長本"/>
+                            <note/>
+                        </app>
                     </div>
                     <div ana="典薬"
                         corresp="engishiki_v37_en.xml#article371023 engishiki_v37_ja.xml#article371023"
