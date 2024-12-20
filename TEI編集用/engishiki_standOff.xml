@@ -4456,12 +4456,14 @@
     <orgName>
      太政官
     </orgName>
+    <roleName xml:id="弁官">弁官</roleName>
+    <roleName xml:id="左弁官">左弁官</roleName>
+    <roleName xml:id="右弁官">左弁官</roleName>
    </org>
    <org type="中央" xml:id="中務省">
     <orgName>
      中務省
-    </orgName>
-   </org>
+    </orgName></org>
    <org type="中央" xml:id="式部省">
     <orgName>
      式部省
@@ -4652,11 +4654,6 @@
      弾正台
     </orgName>
    </org>
-   <org type="中央" xml:id="勘解由使">
-    <orgName>
-     勘解由使
-    </orgName>
-   </org>
    <org type="中央" xml:id="近衛府">
     <orgName>
      近衛府
@@ -4672,31 +4669,6 @@
      兵衛府
     </orgName>
    </org>
-   <org type="中央" xml:id="左弁官">
-    <orgName>
-     左弁官
-    </orgName>
-   </org>
-   <org type="中央" xml:id="右弁官">
-    <orgName>
-     右弁官
-    </orgName>
-   </org>
-   <org type="中央" xml:id="弁官">
-    <orgName>
-     弁官
-    </orgName>
-   </org>
-   <org type="中央" xml:id="少納言">
-    <orgName>
-     少納言
-    </orgName>
-   </org>
-   <org type="中央" xml:id="外記">
-    <orgName>
-     外記
-    </orgName>
-   </org>
    <org type="地方" xml:id="京職">
     <orgName>
      京職
@@ -4710,11 +4682,6 @@
    <org type="地方" xml:id="大宰府">
     <orgName>
      大宰府
-    </orgName>
-   </org>
-   <org type="地方" xml:id="按察使">
-    <orgName>
-     按察使
     </orgName>
    </org>
   </listOrg>
@@ -4797,18 +4764,20 @@
    <relation active="#壱伎島" name="contains" passive="#壱伎郡 #石田郡"/>
    <relation active="#対馬島" name="contains" passive="#上県郡 #下県郡"/>
    <!-- org -->
-   <relation active="#太政官" name="contains" passive="#左弁官 #右弁官 #弁官 #少納言 #弾正台 #勘解由使 #近衛府 #衛門府 #兵衛府 #馬寮 #修理職"/>
-   <relation active="#左弁官" name="contains" passive="#中務省 #式部省 #治部省 #民部省"/>
-   <relation active="#右弁官" name="contains" passive="#兵部省 #刑部省 #大蔵省 #宮内省"/>
-   <relation active="#中務省" name="contains" passive="#中宮職 #大舎人寮 #図書寮 #縫殿寮 #内蔵寮 #内匠寮 #陰陽寮"/>
-   <relation active="#式部省" name="contains" passive="#大学寮"/>
-   <relation active="#治部省" name="contains" passive="#雅楽寮 #玄蕃寮 #諸陵寮"/>
-   <relation active="#民部省" name="contains" passive="#主計寮 #主税寮"/>
-   <relation active="#兵部省" name="contains" passive="#兵庫寮 #隼人司"/>
-   <relation active="#刑部省" name="contains" passive="#囚獄司"/>
-   <relation active="#大蔵省" name="contains" passive="#織部司"/>
-   <relation active="#宮内省" name="contains" passive="#大膳職 #木工寮 #大炊寮 #主殿寮 #典薬寮 #掃部寮 #正親司 #内膳司 #造酒司 #采女司 #主水司"/>
-   <relation active="#少納言" name="contains" passive="#外記"/>
+   <relation active="#太政官" name="supervises" passive="#弾正台 #近衛府 #衛門府 #兵衛府 #馬寮 #修理職"/>
+   <relation active="#左弁官" name="supervises" passive="#中務省 #式部省 #治部省 #民部省"/>
+   <relation active="#右弁官" name="supervises" passive="#兵部省 #刑部省 #大蔵省 #宮内省"/>
+   <relation active="#中務省" name="supervises" passive="#中宮職 #大舎人寮 #図書寮 #縫殿寮 #内蔵寮 #内匠寮 #陰陽寮"/>
+   <relation active="#式部省" name="supervises" passive="#大学寮"/>
+   <relation active="#治部省" name="supervises" passive="#雅楽寮 #玄蕃寮 #諸陵寮"/>
+   <relation active="#民部省" name="supervises" passive="#主計寮 #主税寮"/>
+   <relation active="#兵部省" name="supervises" passive="#兵庫寮 #隼人司"/>
+   <relation active="#刑部省" name="supervises" passive="#囚獄司"/>
+   <relation active="#大蔵省" name="supervises" passive="#織部司"/>
+   <relation active="#宮内省" name="supervises" passive="#大膳職 #木工寮 #大炊寮 #主殿寮 #典薬寮 #掃部寮 #正親司 #内膳司 #造酒司 #采女司 #主水司"/>
+   <relation active="#太政官" name="hasRole" passive="#左弁官 #右弁官"/>
+   <relation active="#左弁官 #右弁官" name="subtype" passive="#弁官"/>
+   <relation active="#弁官" name="synonym" passive="#左弁官 #右弁官"/>
    <!-- category -->
    <relation active="#食品" name="contains" passive="#水産品? #農産品?"/>
   </listRelation>
