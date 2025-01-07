@@ -9,24 +9,29 @@ def load_tsv(tsv_path):
     with open(tsv_path, 'r', encoding='utf-8') as file:
         return [(row[0], row[1]) for row in csv.reader(file, delimiter='\t')][1:]  # ヘッダーをスキップ
 
-def update_p_tag_text(element, replacements, tag_name):
-    """<p>タグ内のテキスト（入れ子のテキストも含む）を置換する"""
+def update_p_tag_text_in_text(element, replacements, tag_name):
+    """<text>タグ内に限定した<p>タグのテキストを置換する"""
     namespaces = {'tei': 'http://www.tei-c.org/ns/1.0'}
-    for p in element.xpath('.//tei:p', namespaces=namespaces):  # <p>タグを対象に
-        for child in p.iter():  # <p>タグ内のテキストを対象に
-            # <orgName>または<placeName>タグのtextはスキップ
-            if child.tag != f'{{http://www.tei-c.org/ns/1.0}}{tag_name}' and child.text:
-                original_text = child.text
-                replaced_text = replace_text(original_text, replacements)
-                if original_text != replaced_text:
-                    child.text = replaced_text
-            
-            # tail部分は指定されたタグに関係なく置換を適用
-            if child.tail:
-                original_tail = child.tail
-                replaced_tail = replace_text(original_tail, replacements)
-                if original_tail != replaced_tail:
-                    child.tail = replaced_tail
+
+    # <text>タグを探索
+    for text_element in element.xpath('.//tei:text', namespaces=namespaces):
+        # <text>タグ内の<p>タグを探索
+        for p in text_element.xpath('.//tei:p', namespaces=namespaces):
+            for child in p.iter():  # <p>タグ内のテキストを対象に
+                # <orgName>または<placeName>タグのtextはスキップ
+                if child.tag != f'{{http://www.tei-c.org/ns/1.0}}{tag_name}' and child.text:
+                    original_text = child.text
+                    replaced_text = replace_text(original_text, replacements)
+                    if original_text != replaced_text:
+                        child.text = replaced_text
+                
+                # tail部分は指定されたタグに関係なく置換を適用
+                if child.tail:
+                    original_tail = child.tail
+                    replaced_tail = replace_text(original_tail, replacements)
+                    if original_tail != replaced_tail:
+                        child.tail = replaced_tail
+
 
 def replace_text(text, replacements):
     """テキストの置換を行う"""
@@ -81,7 +86,7 @@ def main():
             replacements = load_tsv(tsv_path)
 
             # 置換処理を適用
-            update_p_tag_text(root, replacements, tag_name)
+            update_p_tag_text_in_text(root, replacements, tag_name)
 
             # 中間結果を保存
             xml_string = unescape(ET.tostring(root, encoding='unicode'))
