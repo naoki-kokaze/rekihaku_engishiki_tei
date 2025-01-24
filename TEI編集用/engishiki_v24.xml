@@ -525,23 +525,365 @@
        <note> 二　土本無し。近本・壬本・京博本により補う。 </note>
       </app>
       <p ana="項" corresp="engishiki_v24_en.xml#item24100102 engishiki_v24_ja.xml#item24100102"
-       xml:id="item24100102"> 陶器、八 <anchor xml:id="app2410010201"/> 丁 <anchor
-        xml:id="app2410010201e"/> 池由加・瓺各一口、〈受五石、〉二丁瓼一口、〈受一石二斗、〉缶三口、〈受五斗、〉一丁由加一口、〈受一石、〉 <anchor
-        xml:id="app2410010202"/> 燼瓫 <anchor xml:id="app2410010202e"/> 二口、〈受三斗、〉脚短杯有蓋十三合、〈受一 <anchor
-        xml:id="app2410010203"/> 斗 <anchor xml:id="app2410010203e"/> 、〉無蓋廿口、〈受三合、〉筥杯卅四 <anchor
-        xml:id="app2410010204"/> 口 <anchor xml:id="app2410010204e"/> 、〈受四合、〉水椀有蓋十三 <anchor
-        xml:id="app2410010205"/> 合 <anchor xml:id="app2410010205e"/> ・無蓋廿五口、〈各受一升、〉 <anchor
-        xml:id="app2410010206"/> 多志羅加 <anchor xml:id="app2410010206e"/>
-       二口、〈受一斗、〉大山【瓦+嬰】二口、〈受一斗五升、〉叩瓫二口、〈受三升、〉𤭯十口、〈受五升、〉水瓫三口、〈受二斗、〉大【瓦+嬰】三口、〈受一斗、〉洗盤三口、〈受一斗已上、〉中【瓦+嬰】四口、〈受八升、〉平瓶四口、〈受五升、〉酒
-        <anchor xml:id="app2410010207"/> 壺 <anchor xml:id="app2410010207e"/>
-       四口、〈受五升、〉等呂須伎四口、〈受五升、〉缶蓋六口、〈径六寸、〉高盤七口、〈高六寸、径 <anchor xml:id="app2410010208"/> 一 <anchor
-        xml:id="app2410010208e"/> 尺二寸、〉小【瓦+嬰】八口、〈受三升、〉鉢八口、〈受五升、〉臼八口、〈受三升、〉水瓶十口、〈受五升、〉 <anchor
-        xml:id="app2410010209"/> 酒 <anchor xml:id="app2410010209e"/> 垂十口、〈径一 <anchor
-        xml:id="app2410010210"/> 尺 <anchor xml:id="app2410010210e"/> 二寸、〉 <anchor
-        xml:id="app2410010211"/> 祭壺 <anchor xml:id="app2410010211e"/> 十口、〈受三升、〉短女杯廿口・小杯廿六 <anchor
-        xml:id="app2410010212"/> 口 <anchor xml:id="app2410010212e"/> 、〈各受三合、〉片盤廿五口、〈径九 <anchor
-        xml:id="app2410010213"/> 寸 <anchor xml:id="app2410010213e"/> 、〉韲 <anchor
-        xml:id="app2410010214"/> 杯 <anchor xml:id="app2410010214e"/> ・燈盞各五十口、〈各受二合已上、〉 </p>
+       xml:id="item24100102">
+        陶器、八 <anchor xml:id="app2410010201"/> 丁 <anchor
+        xml:id="app2410010201e"/> 
+       <measure ana="#調" commodity="#池由加">池由加
+        <measure quantity="1">
+         <unit xml:id="measure2410010201" unitRef="#口"/>
+        </measure>
+       </measure>・
+       <measure ana="#調" commodity="#瓺">瓺各
+        <measure quantity="1">一
+         <unit xml:id="measure2410010202" unitRef="#口">口</unit>、
+         <note target="#measure2410010201 #measure2410010202">〈
+          <measure quantity="2" type="volume">受五
+           <unit unitRef="#石">石</unit>
+          </measure>、〉
+         </note>
+        </measure>
+       </measure>二丁
+       <measure ana="#調" commodity="#瓼">瓼
+        <measure quantity="1">一
+         <unit xml:id="measure2410010203" unitRef="#口">口</unit>、
+         <note target="#measure2410010203">〈
+          <measureGrp sameAs="#measure2410010203" type="volume">
+           <measure quantity="1">受一
+            <unit unitRef="#石">石</unit>
+           </measure>
+           <measure quantity="2">二
+            <unit unitRef="#斗">斗</unit>
+           </measure>
+          </measureGrp>、〉
+         </note>
+        </measure>
+       </measure>
+       <measure ana="#調" commodity="#缶">缶
+        <measure quantity="3">三
+         <unit xml:id="measure2410010204" unitRef="#口">口</unit>、
+         <note target="#measure2410010204">〈
+          <measure sameAs="#measure2410010204" quantity="5" type="volume">受五
+           <unit unitRef="#斗">斗</unit>
+          </measure>、〉
+         </note>
+        </measure>
+       </measure>一丁
+       <measure ana="#調" commodity="#由加">由加
+        <measure quantity="1">一
+         <unit xml:id="measure2410010205" unitRef="#口">口</unit>、
+         <note target="#measure2410010205">〈
+          <measure sameAs="#measure2410010205" quantity="1" type="volume">受一
+           <unit unitRef="#石">石</unit>
+          </measure>、〉
+         </note>
+        </measure>
+       </measure> 
+       <measure ana="#調" commodity="#燼瓫"><anchor xml:id="app2410010202"/> 燼瓫 <anchor xml:id="app2410010202e"/> 
+        <measure quantity="2">二
+         <unit xml:id="measure2410010206" unitRef="#口">口</unit>、
+         <note target="#measure2410010206">〈
+          <measure sameAs="#measure2410010206" quantity="3" type="volume">受三
+           <unit unitRef="#斗">斗</unit>
+          </measure>、〉
+         </note>
+        </measure>
+       </measure>
+       <measure ana="#調" commodity="#脚短杯有蓋">脚短杯有蓋
+        <measure quantity="13">十三
+         <unit xml:id="measure2410010207" unitRef="#合_set">合</unit>、
+         <note target="#measure2410010207">〈
+          <measure sameAs="#measure2410010207" quantity="1" type="volume">受一 
+           <unit unitRef="#斗"><anchor xml:id="app2410010203"/> 斗 <anchor xml:id="app2410010203e"/></unit>
+          </measure> 、〉
+         </note>
+        </measure>
+       </measure>
+       <measure ana="#調" commodity="#脚短杯無蓋">無蓋
+        <measure quantity="20">廿
+         <unit xml:id="measure2410010208" unitRef="#口">口</unit>、
+         <note target="#measure2410010208">〈
+          <measure sameAs="#measure2410010208" quantity="3" type="volume">受三
+           <unit unitRef="#合">合</unit>
+          </measure>、〉
+         </note>
+        </measure>
+       </measure>
+       <measure ana="#調" commodity="#筥杯">筥杯
+        <measure quantity="34">卅四 
+         <unit xml:id="measure2410010209" unitRef="#口"><anchor xml:id="app2410010204"/> 口 <anchor xml:id="app2410010204e"/></unit> 、
+         <note target="#measure2410010209">〈
+          <measure sameAs="#measure2410010209" quantity="4" type="volume">受四
+           <unit unitRef="#合">合</unit>
+          </measure>、〉
+         </note>
+        </measure>
+       </measure>
+       <measure ana="#調" commodity="#水椀有蓋">水椀有蓋
+        <measure quantity="13">十三 
+         <unit xml:id="measure2410010210" unitRef="#合_set"><anchor xml:id="app2410010205"/> 合 <anchor xml:id="app2410010205e"/></unit>
+        </measure>
+       </measure> ・
+       <measure ana="#調" commodity="#水椀無蓋">無蓋
+        <measure quantity="25">廿五
+         <unit xml:id="measure2410010211" unitRef="#口">口</unit>、
+         <note target="#measure2410010210 #measure2410010211">〈各
+          <measure quantity="1" type="volume">受一
+           <unit unitRef="#升">升</unit>
+          </measure>、〉
+         </note>
+        </measure>
+       </measure> 
+       <measure ana="#調" commodity="#多志羅加"><anchor xml:id="app2410010206"/> 多志羅加 <anchor xml:id="app2410010206e"/> 
+        <measure quantity="2">二
+         <unit xml:id="measure2410010212" unitRef="#口">口</unit>、
+         <note target="#measure2410010212">〈
+          <measure sameAs="#measure2410010212" quantity="1" type="volume">受一
+           <unit unitRef="#斗">斗</unit>
+          </measure>、〉
+         </note>
+        </measure>
+       </measure>
+       <measure ana="#調" commodity="#大山【瓦+嬰】">大山【瓦+嬰】
+        <measure quantity="2">二
+         <unit xml:id="measure2410010213" unitRef="#口">口</unit>、
+         <note target="#measure2410010213">〈
+          <measureGrp sameAs="#measure2410010213" type="volume">
+           <measure quantity="1">受一
+            <unit unitRef="#斗">斗</unit>
+           </measure>
+           <measure quantity="5">五
+            <unit unitRef="#升">升</unit>
+           </measure>
+          </measureGrp>、〉
+         </note>
+        </measure>
+       </measure>
+       <measure ana="#調" commodity="#叩瓫">叩瓫
+        <measure quantity="2">二
+         <unit xml:id="measure2410010214" unitRef="#口">口</unit>、
+         <note target="#measure2410010214">〈
+          <measure sameAs="#measure2410010214" quantity="3" type="volume">受三
+           <unit unitRef="#升">升</unit>
+          </measure>、〉
+         </note>
+        </measure>
+       </measure>
+       <measure ana="#調" commodity="#𤭯">𤭯
+        <measure quantity="10">十
+         <unit xml:id="measure2410010215" unitRef="#口">口</unit>、
+         <note target="#measure2410010215">〈
+          <measure sameAs="#measure2410010215" quantity="5" type="volume">受五
+           <unit unitRef="#升">升</unit>
+          </measure>、〉
+         </note>
+        </measure>
+       </measure>
+       <measure ana="#調" commodity="#水瓫">水瓫
+        <measure quantity="3">三
+         <unit xml:id="measure2410010216" unitRef="#口">口</unit>、
+         <note target="#measure2410010216">〈
+          <measure sameAs="#measure2410010216" quantity="2" type="volume">受二
+           <unit unitRef="#斗">斗</unit>
+          </measure>、〉
+         </note>
+        </measure>
+       </measure>
+       <measure ana="#調" commodity="#大【瓦+嬰】">大【瓦+嬰】
+        <measure quantity="3">三
+         <unit xml:id="measure2410010217" unitRef="#口">口</unit>、
+         <note target="#measure2410010217">〈
+          <measure sameAs="#measure2410010217" quantity="1" type="volume">受一
+           <unit unitRef="#斗">斗</unit>
+          </measure>、〉
+         </note>
+        </measure>
+       </measure>
+       <measure ana="#調" commodity="#洗盤">洗盤
+        <measure quantity="3">三
+         <unit xml:id="measure2410010218" unitRef="#口">口</unit>、
+         <note target="#measure2410010218">〈
+          <measure sameAs="#measure2410010218" atLeast="1" type="volume">受一
+           <unit unitRef="#斗">斗</unit>已上
+           </measure>、〉
+         </note>
+        </measure>
+       </measure>
+       <measure ana="#調" commodity="#中【瓦+嬰】">中【瓦+嬰】
+        <measure quantity="4">四
+         <unit xml:id="measure2410010219" unitRef="#口">口</unit>、
+         <note target="#measure2410010219">〈
+          <measure sameAs="#measure2410010219" quantity="8" type="volume">受八
+           <unit unitRef="#升">升</unit>
+          </measure>、〉
+         </note>
+        </measure>
+       </measure>
+       <measure ana="#調" commodity="#平瓶">平瓶
+        <measure quantity="4">四
+         <unit xml:id="measure2410010220" unitRef="#口">口</unit>、
+         <note target="#measure2410010220">〈
+          <measure sameAs="#measure2410010220" quantity="5" type="volume">受五
+           <unit unitRef="#升">升</unit>
+          </measure>、〉
+         </note>
+        </measure>
+       </measure>
+       <measure ana="#調" commodity="#酒壺">酒 <anchor xml:id="app2410010207"/> 壺 <anchor xml:id="app2410010207e"/> 
+        <measure quantity="4">四
+         <unit xml:id="measure2410010221" unitRef="#口">口</unit>、
+         <note target="#measure2410010221">〈
+          <measure sameAs="#measure2410010221" quantity="5" type="volume">受五
+           <unit unitRef="#升">升</unit>
+          </measure>、〉
+         </note>
+        </measure>
+       </measure>
+       <measure ana="#調" commodity="#等呂須伎">等呂須伎
+        <measure quantity="4">四
+         <unit xml:id="measure2410010222" unitRef="#口">口</unit>、
+         <note target="#measure2410010222">〈
+          <measure sameAs="#measure2410010222" quantity="5" type="volume">受五
+           <unit unitRef="#升">升</unit>
+          </measure>、〉
+         </note>
+        </measure>
+       </measure>
+       <measure ana="#調" commodity="#缶蓋">缶蓋
+        <measure quantity="6">六
+         <unit xml:id="measure2410010223" unitRef="#口">口</unit>、
+         <note target="#measure2410010223">〈
+          <measure sameAs="#measure2410010223" quantity="6" type="diameter">径六
+           <unit unitRef="#寸">寸</unit>
+          </measure>、〉
+         </note>
+        </measure>
+       </measure>
+       <measure ana="#調" commodity="#高盤">高盤
+        <measure quantity="7">七
+         <unit xml:id="measure2410010224">口</unit>、
+         <note target="#measure2410010224">〈
+          <measureGrp sameAs="#measure2410010224">
+           <measure quantity="6" type="height">高六
+            <unit unitRef="#寸">寸</unit>
+           </measure>、
+           <measureGrp type="diameter">径 
+            <measure quantity="1"><anchor xml:id="app2410010208"/> 一 <anchor xml:id="app2410010208e"/> 
+             <unit unitRef="#尺">尺</unit>
+            </measure>
+            <measure quantity="2">二
+             <unit unitRef="#寸">寸</unit>
+            </measure>
+           </measureGrp>
+          </measureGrp>、〉
+         </note>
+        </measure>
+       </measure>
+       <measure ana="#調" commodity="#小【瓦+嬰】">小【瓦+嬰】
+        <measure quantity="8">八
+         <unit xml:id="measure2410010225" unitRef="#口">口</unit>、
+         <note target="#measure2410010225">〈
+          <measure sameAs="#measure2410010225" quantity="3" type="volume">受三
+           <unit unitRef="#升">升</unit>
+          </measure>、〉
+         </note>
+        </measure>
+       </measure>
+       <measure ana="#調" commodity="#鉢">鉢
+        <measure quantity="8">八
+         <unit xml:id="measure2410010226" unitRef="#口">口</unit>、
+         <note target="#measure2410010226">〈
+          <measure sameAs="#measure2410010226" quantity="5" type="volume">受五
+           <unit unitRef="#升">升</unit>
+          </measure>、〉
+         </note>
+        </measure>
+       </measure>
+       <measure ana="#調" commodity="#臼">臼
+        <measure quantity="8">八
+         <unit xml:id="measure2410010227" unitRef="#口">口</unit>、
+         <note target="#measure2410010227">〈
+          <measure sameAs="#measure2410010227" quantity="3" type="volume">受三
+           <unit unitRef="#升">升</unit>
+          </measure>、〉
+         </note>
+        </measure>
+       </measure>
+       <measure ana="#調" commodity="#水瓶">水瓶
+        <measure quantity="10">十
+         <unit xml:id="measure2410010228" unitRef="#口">口</unit>、
+         <note target="#measure2410010228">〈
+          <measure sameAs="#measure2410010228" quantity="5" type="volume">受五
+           <unit unitRef="#升">升</unit>
+          </measure>、〉
+         </note>
+        </measure>
+       </measure> 
+       <measure ana="#調" commodity="#酒垂"><anchor xml:id="app2410010209"/> 酒 <anchor xml:id="app2410010209e"/> 垂
+        <measure quantity="10">十
+         <unit xml:id="measure2410010229" unitRef="#口">口</unit>、
+         <note target="#measure2410010229">〈
+          <measureGrp sameAs="#measure2410010229" type="diameter">
+           <measure quantity="1">径一 
+            <unit unitRef="#尺"><anchor xml:id="app2410010210"/> 尺 <anchor xml:id="app2410010210e"/></unit>
+           </measure> 
+           <measure quantity="2">二
+            <unit unitRef="#寸">寸</unit>
+           </measure>
+          </measureGrp>、〉
+         </note>
+        </measure>
+       </measure> 
+       <measure ana="#調" commodity="#祭壺"><anchor xml:id="app2410010211"/> 祭壺 <anchor xml:id="app2410010211e"/> 
+        <measure quantity="10">十
+         <unit xml:id="measure2410010230" unitRef="#口">口</unit>、
+         <note target="#measure2410010230">〈
+          <measure sameAs="#measure2410010230" quantity="3" type="volume">受三
+           <unit unitRef="#升">升</unit>
+          </measure>、〉
+         </note>
+        </measure>
+       </measure>
+       <measure ana="#調" commodity="#短女杯">短女杯
+        <measure quantity="20">廿
+         <unit xml:id="measure2410010231" unitRef="#口">口</unit>
+        </measure>
+       </measure>・
+       <measure ana="#調" commodity="#小杯">小杯
+        <measure quantity="26">廿六 
+         <unit xml:id="measure2410010232" unitRef="#口"><anchor xml:id="app2410010212"/> 口 <anchor xml:id="app2410010212e"/></unit> 、
+         <note target="#measure2410010231 #measure2410010232">〈各
+          <measure quantity="3" type="volume">受三
+           <unit unitRef="#合">合</unit>
+          </measure>、〉
+         </note>
+        </measure>
+       </measure>
+       <measure ana="#調" commodity="#片盤">片盤
+        <measure quantity="25">廿五
+         <unit xml:id="measure2410010233" unitRef="#口">口</unit>、
+         <note target="#measure2410010233">〈
+          <measure sameAs="#measure2410010233" quantity="9" type="diameter">径九 
+           <unit unitRef="#寸"><anchor xml:id="app2410010213"/> 寸 <anchor xml:id="app2410010213e"/></unit>
+          </measure> 、〉
+         </note>
+        </measure>
+       </measure>
+       <measure ana="#調" commodity="#韲杯">韲 <anchor xml:id="app2410010214"/> 杯 <anchor xml:id="app2410010214e"/>
+        <measure quantity="50">
+         <unit xml:id="measure2410010234" unitRef="#口"/>
+        </measure>
+       </measure> ・
+       <measure ana="#調" commodity="#燈盞">燈盞各
+        <measure quantity="50">五十
+         <unit xml:id="measure2410010235" unitRef="#口">口</unit>、
+         <note target="#measure2410010234 #measure2410010235">〈各
+          <measure atLeast="2" type="volume">受二
+           <unit unitRef="#合">合</unit>已上
+          </measure>、〉
+         </note>
+        </measure>
+       </measure> 
+      </p>
       <app from="#app2410010201" to="#app2410010201e">
        <lem wit="#土本 #近本 #壬本 #京博本 #島原本 #藤波本 #貞享本 #玄梁本 #泉亭本 #享保版本"> 丁 </lem>
        <rdg wit="#島原本 #享保版本"> 口 </rdg>
