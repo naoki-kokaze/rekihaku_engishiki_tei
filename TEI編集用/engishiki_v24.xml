@@ -885,7 +885,7 @@
           </measure>、〉 </note>
         </measure>
        </measure>
-       <measure ana="#調" commodity="#高盤">高盤 <measure quantity="7">七 <unit xml:id="measure2410010224"
+       <measure ana="#調" commodity="#高盤">高盤 <measure quantity="7">七 <unit xml:id="measure2410010224" unitRef="#口"
           >口</unit>、 <note target="#measure2410010224">〈 <measureGrp sameAs="#measure2410010224">
            <measure quantity="6" type="height">高六 <unit unitRef="#寸">寸</unit>
            </measure>、 <measureGrp type="diameter">径 <measure quantity="1"><anchor
@@ -1492,7 +1492,7 @@
          >寸</unit></measure></measureGrp>、</measureGrp>〉</note></measure>
        <measure ana="#調" commodity="#短席">短席<measure quantity="2">二<unit unitRef="#枚"
           xml:id="measure2410020405">枚</unit></measure>、 <note target="#measure2410020405"
-           >〈<measureGrp><measure quantity="1" type="depth">長一<unit>丈</unit></measure>、<measureGrp
+           >〈<measureGrp><measure quantity="1" type="depth">長一<unit unitRef="#丈">丈</unit></measure>、<measureGrp
            type="width">広<measure quantity="3">
             <anchor xml:id="app2410020401"/> 三 <anchor xml:id="app2410020401e"/>
             <unit unitRef="#尺">尺</unit></measure><measure quantity="6">六<unit unitRef="#寸"
@@ -2591,7 +2591,7 @@
       <p ana="項" corresp="engishiki_v24_en.xml#item24101001 engishiki_v24_ja.xml#item24101001"
        xml:id="item24101001"> 河内国〈行程一日、〉 <lb/> 調、 <measure ana="#調" commodity="#黒山席">黒山席<measure
          quantity="50">五十<unit unitRef="#枚">枚</unit></measure></measure>、 <measure ana="#調"
-        commodity="#折薦">折薦<unit quantity="1383">一千三百八十三<unit unitRef="#枚">枚</unit></unit></measure>、
+        commodity="#折薦">折薦<measure quantity="1383">一千三百八十三<unit unitRef="#枚">枚</unit></measure></measure>、
         <measure ana="#調" commodity="#葉薦">葉薦<measure quantity="200">二百<unit unitRef="#枚"
          >枚</unit></measure></measure>、 <measure ana="#調" commodity="#柳筥">柳筥<measure quantity="1"
           >一<unit unitRef="#合_set">合</unit></measure></measure>、 <measure ana="#調" commodity="#藺笥"
@@ -2719,7 +2719,7 @@
         ana="#調" commodity="#酒垂">酒垂<measure quantity="106">百六<unit unitRef="#口"
         >口</unit></measure></measure>、 <measure ana="#調" commodity="#祭壺">祭壺<measure quantity="429"
           >四百廿九<unit unitRef="#口">口</unit></measure></measure>、 <measure ana="#調" commodity="#短女杯"
-         >短女杯<measure quantity="92">九十二<unit>口</unit></measure></measure>、 <measure ana="#調"
+           >短女杯<measure quantity="92">九十二<unit unitRef="#口">口</unit></measure></measure>、 <measure ana="#調"
         commodity="#小杯">小杯<measure quantity="145">百卌五<unit unitRef="#口"
        >口</unit></measure></measure>、 <measure ana="#調" commodity="#𤭯">𤭯<measure quantity="8"
           >八<unit unitRef="#口">口</unit></measure></measure>、 <measure ana="#調" commodity="#片盤"
@@ -3282,7 +3282,7 @@
            xml:id="app2410240102e"/>
           <unit unitRef="#斤">斤</unit></measure><measure quantity="4">四<unit unitRef="#両"
           >両</unit></measure></measureGrp></measure>、 <measure ana="#調" commodity="#着耳鰒">着耳鰒<measure
-         quantity="80" type="weight">八十<unit>斤</unit></measure></measure>、 <measure ana="#調"
+           quantity="80" type="weight">八十<unit unitRef="#斤">斤</unit></measure></measure>、 <measure ana="#調"
         commodity="#長鰒">長鰒<measure quantity="72" type="weight">七十二<unit unitRef="#斤"
          >斤</unit></measure></measure>、自余輸 <measure ana="#調" commodity="#細布">細布</measure>・ <measure
         ana="#調" commodity="#調布">調布</measure>・ <measure ana="#調" commodity="#凡鰒"><anchor
@@ -4990,9 +4990,9 @@
         commodity="#米">米 </measure>、 <lb/> 中男作物、 <measure ana="#中男作物" commodity="#黄蘗">黄蘗 <measure
          quantity="300" type="weight">三百 <unit unitRef="#斤">斤</unit>
         </measure>
-       </measure>、 <measure ana="#中男作物" commodity="#亀甲">亀甲 <unit quantity="17">十七 <unit unitRef="#枚"
+       </measure>、 <measure ana="#中男作物" commodity="#亀甲">亀甲 <measure quantity="17">十七 <unit unitRef="#枚"
           >枚</unit>
-        </unit>
+        </measure>
        </measure>、 <measure ana="#中男作物" commodity="#絹">絹 </measure>、 <measure ana="#中男作物"
         commodity="#綿">綿 </measure>、 <measure ana="#中男作物" commodity="#紅花">紅花 </measure>、 <measure
         ana="#中男作物" commodity="#胡麻油">胡麻油 </measure>、 <measure ana="#中男作物" commodity="#鹿脯">鹿脯
