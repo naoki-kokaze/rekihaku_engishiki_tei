@@ -1452,7 +1452,7 @@
         commodity="#細屯綿">細屯綿<measure quantity="2">二<unit unitRef="#屯" xml:id="measure2410020303"
           >屯</unit></measure></measure>、 <note target="#measure2410020302 #measure2410020303"
          >〈各<measureGrp type="weight"><measure quantity="3">三<unit unitRef="#両"
-          >両</unit></measure><measure quantity="1">一<unit unitRef="#分">分</unit></measure><measure
+           >両</unit></measure><measure quantity="1">一<unit unitRef="#分_Weight">分</unit></measure><measure
           quantity="2">二<unit unitRef="#銖">銖</unit></measure></measureGrp>為帖・屯、〉</note>
        <measure ana="#調" commodity="#綿">綿<measure quantity="2">二<unit unitRef="#屯"
           xml:id="measure2410020304">屯</unit></measure>、 <note target="#measure2410020304">〈<measure
@@ -1468,7 +1468,7 @@
       </app>
       <p ana="項" corresp="engishiki_v24_en.xml#item24100204 engishiki_v24_ja.xml#item24100204"
        xml:id="item24100204">
-       <measure ana="#調" commodity="#銀">銀<measure quantity="1" type="weight">一<unit unitRef="#分_重さ"
+       <measure ana="#調" commodity="#銀">銀<measure quantity="1" type="weight">一<unit unitRef="#分_Weight"
           >分</unit></measure></measure>、 <measure ana="#調" commodity="#鉄">鉄<measure quantity="2"
          type="weight">二<unit xml:id="measure2410020401" unitRef="#廷">廷</unit></measure>、<note
          target="#measure2410020401">〈<measureGrp type="weight"><measure quantity="3">三<unit
@@ -2114,7 +2114,7 @@
         xml:id="app2410040101e"/> ・陸奥・出羽・壱伎・対馬等国・島不輸、〉 <measure ana="#中男作物" commodity="#絹"
          >絹<measureGrp type=" Length"><measure quantity="3">三<unit unitRef="#尺">尺</unit></measure>
          <measure quantity="7">七<unit unitRef="#寸">寸</unit></measure>
-         <measure quantity="5">五<unit unitRef="#分_長さ">分</unit></measure></measureGrp></measure>、
+         <measure quantity="5">五<unit unitRef="#分_Length">分</unit></measure></measureGrp></measure>、
         <measure ana="#中男作物" commodity="#紙">紙 <measure quantity="40"><anchor xml:id="app2410040102"
          /> 卌 <anchor xml:id="app2410040102e"/>
          <unit unitRef="#張">張</unit></measure></measure>、 <measure ana="#中男作物" commodity="#紅花"
@@ -2205,11 +2205,11 @@
           unitRef="#斤">斤</unit></measure></measure>、 <measure ana="#中男作物" commodity="#手綱鮨"><anchor
          xml:id="app2410040208"/> 手綱鮨 <anchor xml:id="app2410040208e"/>
         <measureGrp type="weight"><measure quantity="12">十二<unit unitRef="#両">両</unit></measure>
-         <measure quantity="2">二<unit unitRef="#分_重さ">分</unit></measure></measureGrp></measure>、
+         <measure quantity="2">二<unit unitRef="#分_Weight">分</unit></measure></measureGrp></measure>、
         <measure ana="#中男作物" commodity="#堅魚">堅魚<measureGrp xml:id="measure2410040205" type="weight">
          <measure quantity="1">一<unit unitRef="#斤">斤</unit></measure>
          <measure quantity="8">八<unit unitRef="#両">両</unit></measure>
-         <measure quantity="3">三<unit unitRef="#分_重さ">分</unit></measure></measureGrp>、<note
+         <measure quantity="3">三<unit unitRef="#分_Weight">分</unit></measure></measureGrp>、<note
          target="#measure2410040205">〈西海道諸国<measure quantity="2">二<unit unitRef="#斤"
           >斤</unit></measure>、〉</note></measure>
        <measure ana="#中男作物" commodity="#鮒鮨">鮒鮨<measure quantity="8" type="weight"><unit unitRef="#斤"
@@ -2247,10 +2247,10 @@
          <measure quantity="10">十<unit unitRef="#両">両</unit></measure></measureGrp></measure>、
         <measure ana="#中男作物" commodity="#煮堅魚">煮堅魚<measureGrp type="weight"><measure quantity="12"
            ><unit unitRef="#両"/></measure>
-         <measure quantity="2"><unit unitRef="#分_重さ"/></measure></measureGrp></measure>・ <measure
+         <measure quantity="2"><unit unitRef="#分_Weight"/></measure></measureGrp></measure>・ <measure
         ana="#中男作物" commodity="#堅魚煎汁">煎汁各<measureGrp type="weight"><measure quantity="12">十二<unit
            unitRef="#両">両</unit></measure>
-         <measure quantity="2">二<unit unitRef="#分_重さ">分</unit></measure></measureGrp></measure>、
+         <measure quantity="2">二<unit unitRef="#分_Weight">分</unit></measure></measureGrp></measure>、
         <measure ana="#中男作物" commodity="#貝鮹鮨">貝鮹鮨<measureGrp type="weight"><measure quantity="6"
            >六<unit unitRef="#斤">斤</unit></measure>
          <measure quantity="8">八<unit unitRef="#両">両</unit></measure></measureGrp></measure>、
@@ -2381,9 +2381,9 @@
            <measureGrp type="depth">長<measure quantity="1">一<unit unitRef="#尺">尺</unit></measure>
             <measure quantity="3">三<unit unitRef="#寸">寸</unit></measure></measureGrp>、<measureGrp
             type="width">広<measure quantity="6">六<unit unitRef="#寸">寸</unit></measure>
-            <measure quantity="5">五<unit unitRef="#分_長さ">分</unit></measure></measureGrp>、<measureGrp
+            <measure quantity="5">五<unit unitRef="#分_Length">分</unit></measure></measureGrp>、<measureGrp
             type="thickness">厚<measure quantity="2">二<unit unitRef="#寸">寸</unit></measure>
-            <measure quantity="7">七<unit unitRef="#分_長さ"
+            <measure quantity="7">七<unit unitRef="#分_Length"
            >分</unit></measure></measureGrp></measureGrp>、〉</note></measure></measure>
        <measure ana="#中男作物" commodity="#鹿角">鹿角<measure quantity="2">二<unit unitRef="#隻"
          >隻</unit></measure></measure>、 <measure ana="#中男作物" commodity="#亀甲">亀甲<measure quantity="1"
@@ -2928,7 +2928,7 @@
           >廿<unit unitRef="#絇">絇</unit></measure></measure>、 <measure ana="#調" commodity="#練糸"
           >練糸<measureGrp><measure quantity="242">二百卌二<unit unitRef="#絇">絇</unit></measure>
          <measure quantity="7">七<unit unitRef="#両">両</unit></measure>
-         <measure quantity="2">二<unit unitRef="#分_重さ">分</unit></measure></measureGrp></measure>、
+         <measure quantity="2">二<unit unitRef="#分_Weight">分</unit></measure></measureGrp></measure>、
         <measure ana="#調" commodity="#生道塩"><measure xml:id="measure2410160101">生道塩<measureGrp
           type="volume"><measure quantity="1">一<unit unitRef="#斛">斛</unit></measure>
           <measure quantity="6">六<unit unitRef="#斗">斗</unit></measure></measureGrp></measure>、<note
@@ -3107,7 +3107,7 @@
        </measure>、 <measure ana="#調" commodity="#皂帛">皂帛 <measure quantity="10">十 <unit unitRef="#疋"
           >疋</unit>
         </measure>
-       </measure>、 <measure ana="#調" commodity="#倭文">倭文 <measure quantity="31">卅一 <unit unitRef="#端"
+       </measure>、 <measure ana="#調" commodity="#倭文">倭文 <measure quantity="31">卅一 <unit unitRef="#端_調布"
           >端</unit>
         </measure>
        </measure>、 <measure ana="#調" commodity="#煮堅魚">煮堅魚 <measureGrp type="weight">
@@ -3337,7 +3337,7 @@
           unitRef="#端_調布">端</unit>
         </measure>
        </measure>、 <measure ana="#調" commodity="#縹望陀布">縹望陀布 <measure quantity="73">七十三 <unit
-          unitRef="#端">端</unit>
+         unitRef="#端_調布">端</unit>
         </measure>
        </measure>、 <measure ana="#調" commodity="#縹細布">縹細布 <measure quantity="380">三百八十 <unit
           unitRef="#端_調布">端</unit>
@@ -3817,7 +3817,7 @@
          >広布<measure quantity="23">廿三<unit unitRef="#端_調布">端</unit></measure></measure>、自余輸 <measure
         ana="#調" commodity="#狭布">狭布</measure>・ <measure ana="#調" commodity="#米">米</measure>・
         <measure ana="#調" commodity="#穀">穀</measure>、 <lb/> 庸、 <measure ana="#庸" commodity="#広布"
-         >広布<measure quantity="10">十<unit unitRef="#端">端</unit></measure></measure>、自余輸 <measure
+          >広布<measure quantity="10">十<unit unitRef="#端_庸布">端</unit></measure></measure>、自余輸 <measure
         ana="#庸" commodity="#狭布">狭布</measure>・ <measure ana="#庸" commodity="#米">米</measure>、 </p>
      </div>
      <div ana="主計上" corresp="engishiki_v24_en.xml#article241035 engishiki_v24_ja.xml#article241035"
@@ -4013,7 +4013,7 @@
        xml:id="item24104001"> 越中国〈行程、上十七日、下九日、〉海路廿七日、 <lb/> 調、 <measure ana="#調" commodity="#白畳綿"
          >白畳綿<measure quantity="200">二百<unit unitRef="#帖">帖</unit></measure></measure>、自余輸 <measure
         ana="#調" commodity="#白細屯綿">白細屯綿、<note>〈浮浪人別輸<measure ana="#調" commodity="#商布">商布<measure
-           quantity="2">二<unit unitRef="#段">段</unit></measure></measure>、〉</note></measure>
+          quantity="2">二<unit unitRef="#段_調布">段</unit></measure></measure>、〉</note></measure>
        <lb/> 庸、 <measure ana="#庸" commodity="#韓櫃" xml:id="measure2410400101"><measure
          xml:id="measure2410400102">韓櫃<measure quantity="46">卌六<unit unitRef="#合_set"
           >合</unit></measure></measure>、<note target="#measure2410400102">〈<measure ana="#庸"
@@ -4947,7 +4947,7 @@
        </measure>、 <measure ana="#調" commodity="#一窠綾">一窠綾 <measure quantity="4">四 <unit unitRef="#疋"
           >疋</unit>
         </measure>
-       </measure>、 <measure ana="#調" commodity="#二窠綾">二窠綾 <measure quantity="5">五 <unit unitRef="3疋"
+       </measure>、 <measure ana="#調" commodity="#二窠綾">二窠綾 <measure quantity="5">五 <unit unitRef="疋"
           >疋</unit>
         </measure>
        </measure>、 <measure ana="#調" commodity="#薔薇綾">薔薇綾 <measure quantity="3">三 <unit unitRef="#疋"
@@ -5284,7 +5284,7 @@
       <p ana="項" corresp="engishiki_v24_en.xml#item24106601 engishiki_v24_ja.xml#item24106601"
        xml:id="item24106601"> 筑前国〈去府行程一日、〉 <lb/> 調、 <measure ana="#調" commodity="#糸">糸<measure
          quantity="39">卅九<unit unitRef="#絇">絇</unit></measure></measure>、 <measure ana="#調"
-        commodity="#貲布">貲布<measure quantity="35">卅五<unit unitRef="#端">端</unit></measure></measure>、
+           commodity="#貲布">貲布<measure quantity="35">卅五<unit unitRef="#端_調布">端</unit></measure></measure>、
         <measure ana="#調" commodity="#綿紬">綿紬<measure quantity="5">五<unit unitRef="#疋"
          >疋</unit></measure></measure>、 <measure ana="#調" commodity="#席">席<measure quantity="363"
           >三百六十三<unit unitRef="#枚">枚</unit></measure></measure>、 <measure ana="#調" commodity="#大甕"
@@ -5299,7 +5299,7 @@
          <measure quantity="1">一<unit unitRef="#斛">斛</unit></measure>
          <measure quantity="4">四<unit unitRef="#斗">斗</unit></measure>
          <measure quantity="6">六<unit unitRef="#升">升</unit></measure>
-         <measure quantity="4">四<unit unitRef="#合_weight">合</unit></measure></measureGrp></measure>、
+         <measure quantity="4">四<unit unitRef="#合">合</unit></measure></measureGrp></measure>、
         <measure ana="#調" commodity="#御取鰒">御取鰒<measure quantity="260" type="weight">二百六十<unit
           unitRef="#斤">斤</unit></measure></measure>、 <measure ana="#調" commodity="#羽割鰒">羽割鰒<measure
          quantity="6" type="weight">六<unit unitRef="#斤">斤</unit></measure></measure>、 <measure
@@ -5477,10 +5477,10 @@
         </measure>
        </measure>、 <measure ana="#調" commodity="#貲布">貲布 <pb
          facs="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-24%2F00038.tif/full/full/0/default.jpg"/>
-        <measure quantity="37">卅七 <unit unitRef="#端">端</unit>
+        <measure quantity="37">卅七 <unit unitRef="#端_調布">端</unit>
         </measure>
        </measure>、 <measure ana="#調" commodity="#調布">布 <measure quantity="120">一百廿 <unit
-          unitRef="#端">端</unit>
+         unitRef="#端_調布">端</unit>
         </measure>
        </measure>、 <measure ana="#調" commodity="#耽羅鰒">耽羅鰒 <measure quantity="39">卅九 <unit
           unitRef="#斤">斤</unit>
