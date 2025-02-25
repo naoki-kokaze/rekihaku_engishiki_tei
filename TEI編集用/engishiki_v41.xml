@@ -350,7 +350,9 @@
     </div>
     <div ana="弾正" n="41" subtype="条" type="式">
      <div type="式題" xml:id="shikidai411">
-      <p xml:id="shikidai41101"> 弾正台 </p>
+      <p xml:id="shikidai41101">
+       <orgName sameAs="#弾正台">弾正台</orgName>
+      </p>
      </div>
      <div ana="弾正" n="41.1" subtype="項" type="条">
       <head ana="台弾人"/>
@@ -365,7 +367,8 @@
      <div ana="弾正" n="41.3" subtype="項" type="条">
       <head ana="弾正得不得"/>
       <p ana="項" corresp="engishiki_v41_ja.xml#item41100301 engishiki_v41_en.xml#item41100301"
-       xml:id="item41100301"> 凡弾正不得弾太政大臣、太政大臣得弾弾正、其左右大臣与弾正、若有非違者、各得 <pb
+       xml:id="item41100301"> 凡<orgName sameAs="#弾正台">弾正</orgName>不得弾太政大臣、太政大臣得弾<orgName
+        sameAs="#弾正台">弾正</orgName>、其左右大臣与<orgName sameAs="#弾正台">弾正</orgName>、若有非違者、各得 <pb
         facs="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-41%2F00003.tif/full/full/0/default.jpg"
        /> 互弾、 </p>
      </div>
@@ -379,7 +382,7 @@
      <div ana="弾正" n="41.5" subtype="項" type="条">
       <head ana="弾大納言以下"/>
       <p ana="項" corresp="engishiki_v41_ja.xml#item41100501 engishiki_v41_en.xml#item41100501"
-       xml:id="item41100501"> 凡弾大納言以下者、就第二堂座弾之、太政官庁不得、 </p>
+       xml:id="item41100501"> 凡弾大納言以下者、就第二堂座弾之、<orgName sameAs="#太政官">太政官</orgName>庁不得、 </p>
      </div>
      <div ana="弾正" n="41.6" subtype="項" type="条">
       <head ana="弾参議已上"/>
@@ -391,7 +394,7 @@
       <p ana="項" corresp="engishiki_v41_ja.xml#item41100701 engishiki_v41_en.xml#item41100701"
        xml:id="item41100701">
        <anchor xml:id="app4110070101"/> 凡 <anchor xml:id="app4110070101e"/>
-       親王・諸王・諸臣威儀進退、不合礼、若式部不糺者、喚省而弾之、 </p>
+        親王・諸王・諸臣威儀進退、不合礼、若<orgName sameAs="#式部省">式部</orgName>不糺者、喚省而弾之、 </p>
       <app from="#app4110070101" to="#app4110070101e">
        <note> 凡…之　土本は6条から改行せずに一字空けで続ける。近本・壬本・京博本・梵本により別条とみなす。 </note>
       </app>
@@ -404,8 +407,8 @@
      <div ana="弾正" n="41.9" subtype="項" type="条">
       <head ana="奏弾事"/>
       <p ana="項" corresp="engishiki_v41_ja.xml#item41100901 engishiki_v41_en.xml#item41100901"
-       xml:id="item41100901">
-       凡台奏弾事者、不経太政官而直奏聞、〈将奏事者、忠詣閤門、告大舎人令伺奏事状、有可召者、尹已下忠已上共入上聞、若御大極殿者、忠就大舎人処伺奏事状、舎人召台者、准前上聞、 <pb
+       xml:id="item41100901"> 凡台奏弾事者、不経<orgName sameAs="#太政官"
+       >太政官</orgName>而直奏聞、〈将奏事者、忠詣閤門、告大舎人令伺奏事状、有可召者、尹已下忠已上共入上聞、若御大極殿者、忠就大舎人処伺奏事状、舎人召台者、准前上聞、 <pb
         facs="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-41%2F00005.tif/full/full/0/default.jpg"
        /> 但臨時奏事者、忠以上一人詣内侍所、令内侍奏聞之、〉 </p>
      </div>
@@ -417,7 +420,9 @@
      <div ana="弾正" n="41.11" subtype="項" type="条">
       <head ana="弾官人"/>
       <p ana="項" corresp="engishiki_v41_ja.xml#item41101101 engishiki_v41_en.xml#item41101101"
-       xml:id="item41101101"> 凡弾官人及雑色人者、具録犯状、移刑部省、令断罪状、応附考殿、即移本司并式兵部等省、 </p>
+       xml:id="item41101101"> 凡弾官人及雑色人者、具録犯状、移<orgName sameAs="#刑部省"
+        >刑部省</orgName>、令断罪状、応附考殿、即移本司并<orgName sameAs="#式部省">式</orgName><orgName sameAs="#兵部省"
+        >兵部等省</orgName>、 </p>
      </div>
      <div ana="弾正" n="41.12" subtype="項" type="条">
       <head ana="就台版位"/>
@@ -427,7 +432,8 @@
      <div ana="弾正" n="41.13" subtype="項" type="条">
       <head ana="尹有犯"/>
       <p ana="項" corresp="engishiki_v41_ja.xml#item41101301 engishiki_v41_en.xml#item41101301"
-       xml:id="item41101301"> 凡尹若有犯者、弼以下忠以上、共判奏弾、〈弾当理者、下座而退、〉其弾正之内有非違者、各相弾之、 </p>
+       xml:id="item41101301"> 凡尹若有犯者、弼以下忠以上、共判奏弾、〈弾当理者、下座而退、〉其<orgName sameAs="#弾正台"
+       >弾正</orgName>之内有非違者、各相弾之、 </p>
      </div>
      <div ana="弾正" n="41.14" subtype="項" type="条">
       <head ana="入朝堂"/>
@@ -460,7 +466,8 @@
      <div ana="弾正" n="41.17" subtype="項" type="条">
       <head ana="申政太政官"/>
       <p ana="項" corresp="engishiki_v41_ja.xml#item41101701 engishiki_v41_en.xml#item41101701"
-       xml:id="item41101701"> 凡申政於太政官者、外記立於弁官史上、八省丞亦立史下、唯依考選事、被率之日、外記・史並立式部下、 </p>
+       xml:id="item41101701"> 凡申政於<orgName sameAs="#太政官"
+        >太政官</orgName>者、外記立於弁官史上、八省丞亦立史下、唯依考選事、被率之日、外記・史並立<orgName sameAs="#式部省">式部</orgName>下、 </p>
      </div>
      <div ana="弾正" n="41.18" subtype="項" type="条">
       <head ana="諸堂官人道"/>
@@ -482,7 +489,8 @@
      <div ana="弾正" n="41.20" subtype="項" type="条">
       <head ana="開門以後就座"/>
       <p ana="項" corresp="engishiki_v41_ja.xml#item41102001 engishiki_v41_en.xml#item41102001"
-       xml:id="item41102001"> 凡諸司官人、開門以後就朝座者、即加糺弾、但参議以上、左右大弁・八省卿・弾正尹、不在弾限、 </p>
+       xml:id="item41102001"> 凡諸司官人、開門以後就朝座者、即加糺弾、但参議以上、左右大弁・八省卿・<orgName sameAs="#弾正台"
+       >弾正</orgName>尹、不在弾限、 </p>
      </div>
      <div ana="弾正" n="41.21" subtype="項" type="条">
       <head ana="未閉門下去"/>
@@ -493,7 +501,8 @@
       <head ana="京官五位已上"/>
       <p ana="項" corresp="engishiki_v41_ja.xml#item41102201 engishiki_v41_en.xml#item41102201"
        xml:id="item41102201"> 凡京官五位已上、先参朝堂、後 <anchor xml:id="app4110220101"/> 赴 <anchor
-        xml:id="app4110220101e"/> 曹司、或三日頻不参、而式部不勘者、台喚式部勘之、 </p>
+        xml:id="app4110220101e"/> 曹司、或三日頻不参、而<orgName sameAs="#式部省">式部</orgName>不勘者、台喚<orgName
+        sameAs="#式部省">式部</orgName>勘之、 </p>
       <app from="#app4110220101" to="#app4110220101e">
        <lem wit="#慶安版本 #明暦版本 #寛文版本 #享保版本 #雲本"> 赴 </lem>
        <rdg wit="#土本 #近本 #壬本 #京博本 #梵本"> 起 </rdg>
@@ -522,8 +531,8 @@
       <p ana="項" corresp="engishiki_v41_ja.xml#item41102501 engishiki_v41_en.xml#item41102501"
        xml:id="item41102501">
        凡致敬礼者、三位已下拝親王・大臣及一位、〈参議已上、唯拝親王・大臣、〉四位拝二位并三位参議已上、五位拝三位并四位参議、六位拝四位、七位拝五位、神 <anchor
-        xml:id="app4110250101"/> 祇 <anchor xml:id="app4110250101e"/>
-       官祐・史拝次官已上、太政官外記拝少納言、左右史拝弁、省・台・職・坊・使・寮・司判 <pb
+        xml:id="app4110250101"/> 祇 <anchor xml:id="app4110250101e"/> 官祐・史拝次官已上、<orgName
+        sameAs="#太政官">太政官</orgName>外記拝少納言、左右史拝弁、省・台・職・坊・使・寮・司判 <pb
         facs="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-41%2F00007.tif/full/full/0/default.jpg"
        />
        官・主典、諸衛府監・曹・尉・志、大宰監・典拝次官已上、助教・直講拝博士、東宮官拝傅、六位已下拝学士、国介拝守、鎮守監・曹拝将軍、官人見本国守、官卑者致敬、位同者不拝、若就国見猶拝、〈諸司・諸国史生及諸衛府府生已下、二宮舎人等、於判官已上不論位高卑皆拝、〉以外任随私礼、不拘此制、 </p>
@@ -565,12 +574,12 @@
      <div ana="弾正" n="41.31" subtype="項" type="条">
       <head ana="朝拝"/>
       <p ana="項" corresp="engishiki_v41_ja.xml#item41103101 engishiki_v41_en.xml#item41103101"
-       xml:id="item41103101"> 凡朝拝之時、式部省引刀祢列朱雀門外、訖忠以下左右分列、糺弾非違、 </p>
+       xml:id="item41103101"> 凡朝拝之時、<orgName sameAs="#式部省">式部省</orgName>引刀祢列朱雀門外、訖忠以下左右分列、糺弾非違、 </p>
      </div>
      <div ana="弾正" n="41.32" subtype="項" type="条">
       <head ana="正月十五日"/>
       <p ana="項" corresp="engishiki_v41_ja.xml#item41103201 engishiki_v41_en.xml#item41103201"
-       xml:id="item41103201"> 凡正月十五日、忠以下向主殿寮、糺検文武官人等進薪違制、 </p>
+       xml:id="item41103201"> 凡正月十五日、忠以下向<orgName sameAs="#主殿寮">主殿寮</orgName>、糺検文武官人等進薪違制、 </p>
      </div>
      <div ana="弾正" n="41.33" subtype="項" type="条">
       <head ana="釈奠"/>
@@ -595,7 +604,8 @@
      <div ana="弾正" n="41.36" subtype="項" type="条">
       <head ana="巡検日"/>
       <p ana="項" corresp="engishiki_v41_ja.xml#item41103601 engishiki_v41_en.xml#item41103601"
-       xml:id="item41103601"> 凡巡検之日、京職若承勘当者、依下馬法行之、其史生・坊令、不論位階皆下馬、 </p>
+       xml:id="item41103601"> 凡巡検之日、<orgName sameAs="#京職">京職</orgName>若承勘当者、依下馬法行之、其史生・坊令、不論位階皆下馬、
+      </p>
      </div>
      <div ana="弾正" n="41.37" subtype="項" type="条">
       <head ana="非違汚穢"/>
@@ -610,7 +620,9 @@
      <div ana="弾正" n="41.39" subtype="項" type="条">
       <head ana="位禄季禄"/>
       <p ana="項" corresp="engishiki_v41_ja.xml#item41103901 engishiki_v41_en.xml#item41103901"
-       xml:id="item41103901"> 凡賜位禄・季禄者、向大蔵省検察非違、若有五位以上不参者、台即勘録、移刑部省、但左右近衛不在此限、 </p>
+       xml:id="item41103901"> 凡賜位禄・季禄者、向<orgName sameAs="#大蔵省"
+        >大蔵省</orgName>検察非違、若有五位以上不参者、台即勘録、移<orgName sameAs="#刑部省">刑部省</orgName>、但<orgName
+        sameAs="#近衛府">左右近衛</orgName>不在此限、 </p>
      </div>
      <div ana="弾正" n="41.40" subtype="項" type="条">
       <head ana="不得権任"/>
@@ -622,7 +634,8 @@
      <div ana="弾正" n="41.41" subtype="項" type="条">
       <head ana="召式部省"/>
       <p ana="項" corresp="engishiki_v41_ja.xml#item41104101 engishiki_v41_en.xml#item41104101"
-       xml:id="item41104101"> 凡台召式部省者、只可称省、若省召台者、可称疏名、 </p>
+       xml:id="item41104101"> 凡台召<orgName sameAs="#式部省">式部省</orgName>者、只可称省、若<orgName sameAs="#式部省"
+        >省</orgName>召台者、可称疏名、 </p>
      </div>
      <div ana="弾正" n="41.42" subtype="項" type="条">
       <head ana="立制宣旨"/>
@@ -637,7 +650,7 @@
      <div ana="弾正" n="41.44" subtype="項" type="条">
       <head ana="八省院廻"/>
       <p ana="項" corresp="engishiki_v41_ja.xml#item41104401 engishiki_v41_en.xml#item41104401"
-       xml:id="item41104401"> 凡八省院廻、左右衛門相分掃除、〈豊楽院亦同、〉 </p>
+       xml:id="item41104401"> 凡八省院廻、<orgName sameAs="#衛門府">左右衛門</orgName>相分掃除、〈豊楽院亦同、〉 </p>
      </div>
      <div ana="弾正" n="41.45" subtype="項" type="条">
       <head ana="運出穢物"/>
@@ -683,7 +696,7 @@
      <div ana="弾正" n="41.50" subtype="項" type="条">
       <head ana="朝庭儀式"/>
       <p ana="項" corresp="engishiki_v41_ja.xml#item41105001 engishiki_v41_en.xml#item41105001"
-       xml:id="item41105001"> 凡朝庭儀式、衣冠形製、台并式部惣知糺正、 </p>
+       xml:id="item41105001"> 凡朝庭儀式、衣冠形製、台并<orgName sameAs="#式部省">式部</orgName>惣知糺正、 </p>
      </div>
      <div ana="弾正" n="41.51" subtype="項" type="条">
       <head ana="衣袖口闊"/>
@@ -821,7 +834,7 @@
      <div ana="弾正" n="41.66" subtype="項" type="条">
       <head ana="囚獄司物部"/>
       <p ana="項" corresp="engishiki_v41_ja.xml#item41106601 engishiki_v41_en.xml#item41106601"
-       xml:id="item41106601"> 凡囚獄司物部横刀緒色胡桃染、帯刀資人黄、 </p>
+       xml:id="item41106601"> 凡<orgName sameAs="#囚獄司">囚獄司</orgName>物部横刀緒色胡桃染、帯刀資人黄、 </p>
      </div>
      <div ana="弾正" n="41.67" subtype="項" type="条">
       <head ana="諸禁色"/>
@@ -915,9 +928,10 @@
       <head ana="紀伊石帯隠文"/>
       <p ana="項" corresp="engishiki_v41_ja.xml#item41108301 engishiki_v41_en.xml#item41108301"
        xml:id="item41108301">
-       <anchor xml:id="app4110830101"/> 凡 <anchor xml:id="app4110830101e"/> 紀伊石帯隠文者及定 <anchor
-        xml:id="app4110830102"/> 摺 <anchor xml:id="app4110830102e"/>
-       石帯参議已上、刻鏤金銀帯及唐帯五位已上、並聴着用、紀伊石帯白晢者、六位已下不得用之、 </p>
+       <anchor xml:id="app4110830101"/> 凡 <anchor xml:id="app4110830101e"/>
+       <placeName sameAs="#紀伊国">紀伊</placeName>石帯隠文者及定 <anchor xml:id="app4110830102"/> 摺 <anchor
+        xml:id="app4110830102e"/> 石帯参議已上、刻鏤金銀帯及唐帯五位已上、並聴着用、<placeName sameAs="#紀伊国"
+       >紀伊</placeName>石帯白晢者、六位已下不得用之、 </p>
       <app from="#app4110830101" to="#app4110830101e">
        <note> 凡…之　土本は本条を82条から改行せず、一字分空けて続けて記載。近本･壬本・京博本・梵本により別条とみなす。 </note>
       </app>
@@ -1073,21 +1087,22 @@
      <div ana="弾正" n="41.104" subtype="項" type="条">
       <head ana="喪葬盛餝"/>
       <p ana="項" corresp="engishiki_v41_ja.xml#item41110401 engishiki_v41_en.xml#item41110401"
-       xml:id="item41110401"> 凡喪葬盛飾・奢僭、及淫祀之類、左右京職若不禁者弾之、 </p>
+       xml:id="item41110401"> 凡喪葬盛飾・奢僭、及淫祀之類、<orgName sameAs="#京職">左右京職</orgName>若不禁者弾之、 </p>
      </div>
      <div ana="弾正" n="41.105" subtype="項" type="条">
       <head ana="進告朔函"/>
       <p ana="項" corresp="engishiki_v41_ja.xml#item41110501 engishiki_v41_en.xml#item41110501"
-       xml:id="item41110501"> 凡進告朔函時者、弁官・式部・兵部・弾正五位已上者、立本司庁前、他司五位已上者、立東西庁前、諸六位已下、立弁官・式 <pb
+       xml:id="item41110501"> 凡進告朔函時者、弁官・<orgName sameAs="#式部省">式部</orgName>・<orgName sameAs="#兵部省"
+        >兵部</orgName>・<orgName sameAs="#弾正台">弾正</orgName>五位已上者、立本司庁前、他司五位已上者、立東西庁前、諸六位已下、立弁官・式 <pb
         facs="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-41%2F00016.tif/full/full/0/default.jpg"
        /> 部庁後、 </p>
      </div>
      <div ana="弾正" n="41.106" subtype="項" type="条">
       <head ana="五月五日走馬"/>
       <p ana="項" corresp="engishiki_v41_ja.xml#item41110601 engishiki_v41_en.xml#item41110601"
-       xml:id="item41110601">
-       凡五月五日、五位以上諸王・諸臣、献走馬時、兵部省分頭陣列朱雀東西、訖省申台云、列馬訖、即忠以下分立左右、巡検禁物、其走馬装束、聴用純素金銀、乗人装束、不聴禁色、若有違犯兵部不勘者、喚省及主弾之、
-      </p>
+       xml:id="item41110601"> 凡五月五日、五位以上諸王・諸臣、献走馬時、<orgName sameAs="#兵部省"
+        >兵部省</orgName>分頭陣列朱雀東西、訖省申台云、列馬訖、即忠以下分立左右、巡検禁物、其走馬装束、聴用純素金銀、乗人装束、不聴禁色、若有違犯<orgName
+        sameAs="#兵部省">兵部</orgName>不勘者、喚省及主弾之、 </p>
      </div>
      <div ana="弾正" n="41.107" subtype="項" type="条">
       <head ana="供節衛府官人"/>
@@ -1104,8 +1119,8 @@
      <div ana="弾正" n="41.108" subtype="項" type="条">
       <head ana="市人集時"/>
       <p ana="項" corresp="engishiki_v41_ja.xml#item41110801 engishiki_v41_en.xml#item41110801"
-       xml:id="item41110801"> 凡市人集時、入市召市司、令市 <anchor xml:id="app4111080101"/> 厘 <anchor
-        xml:id="app4111080101e"/>
+       xml:id="item41110801"> 凡市人集時、入市召<orgName sameAs="#市司">市司</orgName>、令市 <anchor
+        xml:id="app4111080101"/> 厘 <anchor xml:id="app4111080101e"/>
        静定、毎肆巡行糺弾非違、〈謂錦・紗・綾・紵、若闊不盈一尺九寸、長不盈六丈、又売物者有行濫、及横刀・鞍等不題鑿造者姓名之類、〉又問有皇親及五位以上遣帳内・資人若家人・奴婢等、興販与百姓、倶争利者耶、 </p>
       <app from="#app4111080101" to="#app4111080101e">
        <lem wit="#土本 #近本 #壬本 #京博本 #梵本"> 厘 </lem>
@@ -1131,14 +1146,15 @@
      <div ana="弾正" n="41.110" subtype="項" type="条">
       <head ana="京職栽柳"/>
       <p ana="項" corresp="engishiki_v41_ja.xml#item41111001 engishiki_v41_en.xml#item41111001"
-       xml:id="item41111001"> 凡神泉苑廻地十町内、令京職栽柳、〈町別七株、〉 </p>
+       xml:id="item41111001"> 凡神泉苑廻地十町内、令<orgName sameAs="#京職">京職</orgName>栽柳、〈町別七株、〉 </p>
      </div>
      <pb
       facs="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-41%2F00017.tif/full/full/0/default.jpg"/>
      <div ana="弾正" n="41.111" subtype="項" type="条">
       <head ana="神泉大学廻地"/>
       <p ana="項" corresp="engishiki_v41_ja.xml#item41111101 engishiki_v41_en.xml#item41111101"
-       xml:id="item41111101"> 凡神泉・大学廻地、令京職掃除之、穀倉院亦同、 </p>
+       xml:id="item41111101"> 凡神泉・<orgName sameAs="#大学寮">大学</orgName>廻地、令<orgName sameAs="#京職"
+        >京職</orgName>掃除之、穀倉院亦同、 </p>
      </div>
      <div ana="弾正" n="41.112" subtype="項" type="条">
       <head ana="勘収貢物"/>
@@ -1153,8 +1169,8 @@
      <div ana="弾正" n="41.114" subtype="項" type="条">
       <head ana="東西二寺斎会"/>
       <p ana="項" corresp="engishiki_v41_ja.xml#item41111401 engishiki_v41_en.xml#item41111401"
-       xml:id="item41111401">
-       凡東西二寺斎会日、〈四月八日、七月十五日、〉忠已下向寺糺弾非違、〈糺衆僧及男女禁色并男女交雑之類、〉前三日、喚左右京職云、将依例巡検、宜使条令、告寺家弁備之、 </p>
+       xml:id="item41111401"> 凡東西二寺斎会日、〈四月八日、七月十五日、〉忠已下向寺糺弾非違、〈糺衆僧及男女禁色并男女交雑之類、〉前三日、喚<orgName
+        sameAs="#京職">左右京職</orgName>云、将依例巡検、宜使条令、告寺家弁備之、 </p>
      </div>
      <div ana="弾正" n="41.115" subtype="項" type="条">
       <head ana="獄中非違"/>
@@ -1174,8 +1190,11 @@
      <div ana="弾正" n="41.117" subtype="項" type="条">
       <head ana="喚左右京職"/>
       <p ana="項" corresp="engishiki_v41_ja.xml#item41111701 engishiki_v41_en.xml#item41111701"
-       xml:id="item41111701"> 凡喚左右京職云、将遣忠以下検京中非違・道橋及諸寺、宜厳仰条令、預定便処会集男女、亦告諸寺三綱等、令弁備如上、即忠以下到彼会所問云、有
-        <anchor xml:id="app4111170101"/> 京職 <anchor xml:id="app4111170101e"/>
+       xml:id="item41111701"> 凡喚<orgName sameAs="#京職"
+       >左右京職</orgName>云、将遣忠以下検京中非違・道橋及諸寺、宜厳仰条令、預定便処会集男女、亦告諸寺三綱等、令弁備如上、即忠以下到彼会所問云、有 <anchor
+        xml:id="app4111170101"/>
+       <orgName sameAs="#京職">京職</orgName>
+       <anchor xml:id="app4111170101e"/>
        官人及坊令等、冤枉百姓、凌侮長幼耶、又有孝子・順孫・義父・節婦以不、又有悪女・擾乱・閭巷以不、又到寺家遣条令告三綱、即撃鐘会僧、訖条令申云、坐定、即 <pb
         facs="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-41%2F00018.tif/full/full/0/default.jpg"
        />
@@ -1220,7 +1239,8 @@
      <div ana="弾正" n="41.123" subtype="項" type="条">
       <head ana="娶宮人"/>
       <p ana="項" corresp="engishiki_v41_ja.xml#item41112301 engishiki_v41_en.xml#item41112301"
-       xml:id="item41112301"> 凡娶宮人為妻妾者、容隠私舎不肯出仕者、依法科罪、又娶親王及諸臣等駆使婦女、不令仕其主者、令本主具状送京職、量加決罰、 </p>
+       xml:id="item41112301"> 凡娶宮人為妻妾者、容隠私舎不肯出仕者、依法科罪、又娶親王及諸臣等駆使婦女、不令仕其主者、令本主具状送<orgName
+        sameAs="#京職">京職</orgName>、量加決罰、 </p>
      </div>
      <div ana="弾正" n="41.124" subtype="項" type="条">
       <head ana="隊仗"/>
@@ -1237,13 +1257,14 @@
      <div ana="弾正" n="41.126" subtype="項" type="条">
       <head ana="決死囚"/>
       <p ana="項" corresp="engishiki_v41_ja.xml#item41112601 engishiki_v41_en.xml#item41112601"
-       xml:id="item41112601"> 凡決死囚、皆令台・左右衛門府監決、若囚有冤枉灼然者、停決奏聞、 </p>
+       xml:id="item41112601"> 凡決死囚、皆令台・<orgName sameAs="#衛門府">左右衛門府</orgName>監決、若囚有冤枉灼然者、停決奏聞、 </p>
      </div>
      <div ana="弾正" n="41.127" subtype="項" type="条">
       <head ana="遣五畿内"/>
       <p ana="項" corresp="engishiki_v41_ja.xml#item41112701 engishiki_v41_en.xml#item41112701"
-       xml:id="item41112701">
-       凡遣台官人於五畿内之儀、預定忠一人、然後尹若弼一人・忠一人、参太政官請進止、訖即参入被唱定、訖還出即作下国符、請官印及官符、訖教使忠云、除殺罪之外、悉決之、 </p>
+       xml:id="item41112701"> 凡遣台官人於五<placeName sameAs="#畿内"
+        >畿内</placeName>之儀、預定忠一人、然後尹若弼一人・忠一人、参<orgName sameAs="#太政官"
+       >太政官</orgName>請進止、訖即参入被唱定、訖還出即作下国符、請官印及官符、訖教使忠云、除殺罪之外、悉決之、 </p>
      </div>
      <div ana="弾正" n="41.128" subtype="項" type="条">
       <head ana="遣隣国使"/>
@@ -1273,7 +1294,8 @@
      <div ana="弾正" n="41.132" subtype="項" type="条">
       <head ana="侍医"/>
       <p ana="項" corresp="engishiki_v41_ja.xml#item41113201 engishiki_v41_en.xml#item41113201"
-       xml:id="item41113201"> 凡侍医・近衛府生以上、并検非違使等者、並除節会之外不必着朝服、〈申諸司政之日、不在此限、〉 </p>
+       xml:id="item41113201"> 凡侍医・<orgName sameAs="#近衛府"
+       >近衛</orgName>府生以上、并検非違使等者、並除節会之外不必着朝服、〈申諸司政之日、不在此限、〉 </p>
      </div>
      <div ana="弾正" n="41.133" subtype="項" type="条">
       <head ana="近衛兼雅楽"/>
@@ -1344,9 +1366,11 @@
      <div ana="弾正" n="41.142" subtype="項" type="条">
       <head ana="米穀出入門"/>
       <p ana="項" corresp="engishiki_v41_ja.xml#item41114201 engishiki_v41_en.xml#item41114201"
-       xml:id="item41114201"> 凡運民部廩院米車馬、自美福門脇門、運大膳職雑物・大炊寮米并雑穀、自郁芳門、運在中院西木工 <pb
-        facs="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-41%2F00021.tif/full/full/0/default.jpg"
-       /> 寮木屋材瓦・造酒司米、自談天門、運春宮坊雑物、自待賢門、並聴出入、 </p>
+       xml:id="item41114201"> 凡運<orgName sameAs="#民部省">民部</orgName>廩院米車馬、自美福門脇門、運<orgName
+        sameAs="#大膳職">大膳職</orgName>雑物・<orgName sameAs="#大炊寮">大炊寮</orgName>米并雑穀、自郁芳門、運在中院西<orgName
+        sameAs="#木工寮">木工 <pb
+         facs="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-41%2F00021.tif/full/full/0/default.jpg"
+        /> 寮</orgName>木屋材瓦・<orgName sameAs="#造酒司">造酒司</orgName>米、自談天門、運春宮坊雑物、自待賢門、並聴出入、 </p>
      </div>
      <div ana="弾正" n="41.143" subtype="項" type="条">
       <head ana="王臣馬数"/>
@@ -1397,8 +1421,8 @@
      <div ana="弾正" n="41.149" subtype="項" type="条">
       <head ana="諸衛府生以上"/>
       <p ana="項" corresp="engishiki_v41_ja.xml#item41114901 engishiki_v41_en.xml#item41114901"
-       xml:id="item41114901"> 凡諸衛府生以上、〈左右馬寮准此、〉除衛仗日之外、皆着靴、但着布帯時、 <anchor xml:id="app4111490101"/> 須
-        <anchor xml:id="app4111490101e"/> 麻鞋、 </p>
+       xml:id="item41114901"> 凡諸衛府生以上、〈<orgName sameAs="#馬寮">左右馬寮</orgName>准此、〉除衛仗日之外、皆着靴、但着布帯時、
+        <anchor xml:id="app4111490101"/> 須 <anchor xml:id="app4111490101e"/> 麻鞋、 </p>
       <app from="#app4111490101" to="#app4111490101e">
        <lem wit="#近本 #梵本"> 須 </lem>
        <rdg wit="#土本 #近本朱傍書 #梵本朱傍書"> 用 </rdg>
@@ -1450,7 +1474,7 @@
      <div ana="弾正" n="41.156" subtype="項" type="条">
       <head ana="台所犯"/>
       <p ana="項" corresp="engishiki_v41_ja.xml#item41115601 engishiki_v41_en.xml#item41115601"
-       xml:id="item41115601"> 凡台有所犯者、式部省加教正、 </p>
+       xml:id="item41115601"> 凡台有所犯者、<orgName sameAs="#式部省">式部省</orgName>加教正、 </p>
      </div>
      <div ana="弾正" n="41.157" subtype="項" type="条">
       <head ana="宮城衛廬"/>
@@ -1468,8 +1492,9 @@
       <head ana="巡行京裏"/>
       <p ana="項" corresp="engishiki_v41_ja.xml#item41115801 engishiki_v41_en.xml#item41115801"
        xml:id="item41115801"> 凡台巡行京裏、厳加決罰令掃清、在宮外諸司并諸家、掃除当路、又置樋通水、勿露汚穢、又条令・坊長等依例、毎旬巡検催掃、若不従此制、諸家司并内外主
-        <anchor xml:id="app4111580101"/> 典 <anchor xml:id="app4111580101e"/>
-       以上、移式部・兵部、貶考奪禄、四位・五位、録名奏聞、無品親王家及所々院家、以其別当官准諸家司、亦移省貶奪、其雑色番上以下、不論蔭贖決笞、 </p>
+        <anchor xml:id="app4111580101"/> 典 <anchor xml:id="app4111580101e"/> 以上、移<orgName
+        sameAs="#式部省">式部</orgName>・<orgName sameAs="#兵部省"
+       >兵部</orgName>、貶考奪禄、四位・五位、録名奏聞、無品親王家及所々院家、以其別当官准諸家司、亦移省貶奪、其雑色番上以下、不論蔭贖決笞、 </p>
       <app from="#app4111580101" to="#app4111580101e">
        <lem wit="#慶安版本 #明暦版本 #寛文版本 #享保版本 #雲本"> 典 </lem>
        <rdg wit="#土本 #近本 #壬本 #京博本 #梵本"> 曲 </rdg>
@@ -1486,7 +1511,8 @@
      <div ana="弾正" n="41.160" subtype="項" type="条">
       <head ana="弾正巡察"/>
       <p ana="項" corresp="engishiki_v41_ja.xml#item41116001 engishiki_v41_en.xml#item41116001"
-       xml:id="item41116001"> 凡弾正者、月別三度巡察諸司、糺正非違、若有廃闕者、仍具事状移式部、考日勘問、 </p>
+       xml:id="item41116001"> 凡<orgName sameAs="#弾正台"
+        >弾正</orgName>者、月別三度巡察諸司、糺正非違、若有廃闕者、仍具事状移<orgName sameAs="#式部省">式部</orgName>、考日勘問、 </p>
      </div>
      <div ana="弾正" n="41.161" subtype="項" type="条">
       <head ana="闕官"/>

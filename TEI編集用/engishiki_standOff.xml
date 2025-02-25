@@ -281,6 +281,71 @@
      <label xml:lang="ja"> 段 </label>
      <label xml:lang="ja-Lath"> tan </label>
      <desc> 1 tan 段 of shōfu 商布 = length 2 jō 丈 6 shaku 尺 (ca. 7.72 m) </desc>
+
+    </unitDef>
+    <unitDef type="Cloth_yōfu" xml:id="端_庸布">
+     <label xml:lang="ja"> 端 </label>
+     <label xml:lang="ja-Lath"> tan </label>
+    </unitDef>
+    <unitDef xml:id="合_set">
+     <label xml:lang="ja"> 合 </label>
+     <label xml:lang="ja-Lath"> gou </label>
+     <desc> 蓋のある土器の単位。 </desc>
+    </unitDef>
+    <unitDef xml:id="口">
+     <label xml:lang="ja"> 口 </label>
+     <label xml:lang="ja-Lath"> kou </label>
+     <desc> 土器の単位。 </desc>
+    </unitDef>
+    <unitDef xml:id="疋">
+     <label xml:lang="ja"> 疋 </label>
+     <label xml:lang="ja-Lath"> hiki </label>
+     <desc> 主に布製品の単位。 </desc>
+    </unitDef>
+    <unitDef xml:id="文">
+     <label xml:lang="ja"> 文 </label>
+     <label xml:lang="ja-Lath"> mon </label>
+     <desc> 銭の単位。銭1貫=1000文。 </desc>
+    </unitDef>
+    <unitDef type="Weight" xml:id="廷">
+     <label xml:lang="ja"> 廷 </label>
+     <label xml:lang="ja-Lath"> tei </label>
+     <desc> 鉄1廷=大3斤5両。 </desc>
+    </unitDef>
+    <unitDef xml:id="隻">
+     <label xml:lang="ja"> 隻 </label>
+     <label xml:lang="ja-Lath"> seki </label>
+     <desc> 魚などの物品の単位。 </desc>
+    </unitDef>
+    <unitDef xml:id="顆">
+     <label xml:lang="ja"> 顆 </label>
+     <label xml:lang="ja-Lath"> ka </label>
+     <desc> 物品を計上する際の単位。 </desc>
+    </unitDef>
+    <unitDef type="Weight" xml:id="屯">
+     <label xml:lang="ja"> 屯 </label>
+     <label xml:lang="ja-Lath"> ton </label>
+     <desc> 綿を計上する際の単位。調綿1屯=大4両、細屯綿1屯＝大3両1分2銖=小10両、綿1屯=大5両2分=小1斤2分。 </desc>
+    </unitDef>
+    <unitDef xml:id="張">
+     <label xml:lang="ja"> 張 </label>
+     <label xml:lang="ja-Lath"> chō </label>
+     <desc> 物品を計上する際の単位。 </desc>
+    </unitDef>
+    <unitDef xml:id="帖">
+     <label xml:lang="ja"> 帖 </label>
+     <label xml:lang="ja-Lath"> jō </label>
+     <desc> 畳綿を計上する際の単位。 </desc>
+    </unitDef>
+    <unitDef xml:id="枚">
+     <label xml:lang="ja"> 枚 </label>
+     <label xml:lang="ja-Lath"> mai </label>
+     <desc> 物品を計上する際の単位。 </desc>
+    </unitDef>
+    <unitDef type="Weight" xml:id="絇">
+     <label xml:lang="ja"> 絇 </label>
+     <label xml:lang="ja-Lath"> ku </label>
+     <desc> 糸の単位。糸1絇=上糸大4両、中糸大5両、麁糸大7両。 </desc>
     </unitDef>
    </unitDecl>
    <editorialDecl ana="校訂文凡例">
