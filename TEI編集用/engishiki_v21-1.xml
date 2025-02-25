@@ -503,12 +503,15 @@
     <pb
      facs="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-21%2F00002.tif/full/full/0/default.jpg"/>
     <div type="首題" xml:id="shudai21">
-     <p xml:id="shudai2101"> 延喜式巻第廿一〈治部　雅楽　玄蕃　諸陵〉 </p>
+     <p xml:id="shudai2101"> 延喜式巻第廿一〈<orgName sameAs="#治部省">治部</orgName>　<orgName sameAs="#雅楽寮"
+       >雅楽</orgName>　<orgName sameAs="#玄蕃寮">玄蕃</orgName>　<orgName sameAs="#諸陵寮">諸陵</orgName>〉 </p>
     </div>
     <div ana="治部" corresp="engishiki_v21_en.xml#protocol211 engishiki_v21_ja.xml#protocol211" n="21"
      subtype="条" type="式" xml:id="protocol211">
      <div type="式題" xml:id="shikidai211">
-      <p xml:id="shikidai21101"> 治部省 </p>
+      <p xml:id="shikidai21101">
+       <orgName sameAs="#治部省">治部省</orgName>
+      </p>
      </div>
      <div ana="治部"
       corresp="engishiki_v21-1_en.xml#article211001 engishiki_v21-1_ja.xml#article211001" n="21-1.1"
@@ -989,12 +992,12 @@
       <p ana="項" corresp="engishiki_v21_en.xml#item21100601 engishiki_v21_ja.xml#item21100601"
        xml:id="item21100601"> 凡国忌日、各請当寺僧一百口、転経礼仏、輔・丞・ <anchor xml:id="app2110060101"/> 録 <anchor
         xml:id="app2110060101e"/> 各 <anchor xml:id="app2110060102"/> 一 <anchor
-        xml:id="app2110060102e"/> 人、玄 <anchor xml:id="app2110060103"/> 蕃 <anchor
-        xml:id="app2110060103e"/> 寮五位一人、六位已下官 <anchor xml:id="app2110060104"/> 人 <anchor
-        xml:id="app2110060104e"/> 二人、皆詣寺以供事、〈事見式部式、〉 <lb/> 其布施物、三宝糸卅絇、〈 <anchor
-        xml:id="app2110060105"/> 別 <anchor xml:id="app2110060105e"/> 十 <anchor
+        xml:id="app2110060102e"/> 人、<orgName sameAs="#玄蕃寮">玄 <anchor xml:id="app2110060103"/> 蕃
+         <anchor xml:id="app2110060103e"/> 寮</orgName>五位一人、六位已下官 <anchor xml:id="app2110060104"/> 人
+        <anchor xml:id="app2110060104e"/> 二人、皆詣寺以供事、〈事見<orgName sameAs="#式部省">式部</orgName>式、〉 <lb/>
+       其布施物、三宝糸卅絇、〈 <anchor xml:id="app2110060105"/> 別 <anchor xml:id="app2110060105e"/> 十 <anchor
         xml:id="app2110060106"/> 絇 <anchor xml:id="app2110060106e"/>
-       、〉裹料調布九尺、木綿三分、衆僧庸布一百六段、並自大蔵省下充之、事畢録見僧幷奉読経数、付内侍奏、 </p>
+        、〉裹料調布九尺、木綿三分、衆僧庸布一百六段、並自<orgName sameAs="#大蔵省">大蔵省</orgName>下充之、事畢録見僧幷奉読経数、付内侍奏、 </p>
       <app from="#app2110060101" to="#app2110060101e">
        <lem wit="#土本 #九本 #近本 #京博本 #慶長本 #梵本"> 録 </lem>
        <rdg wit="#壬本"> 銀 </rdg>
@@ -1044,7 +1047,8 @@
       subtype="項" type="条" xml:id="article211009">
       <head ana="賻物"/>
       <p ana="項" corresp="engishiki_v21_en.xml#item21100901 engishiki_v21_ja.xml#item21100901"
-       xml:id="item21100901"> 凡応給賻物者、喪家申官、官下符左京職、以穀倉院所納物給之、〈但不給鉄、〉 </p>
+       xml:id="item21100901"> 凡応給賻物者、喪家申官、官下符<orgName sameAs="#京職">左京職</orgName>、以穀倉院所納物給之、〈但不給鉄、〉
+      </p>
      </div>
      <div ana="治部"
       corresp="engishiki_v21-1_en.xml#article211010 engishiki_v21-1_ja.xml#article211010"
@@ -1067,16 +1071,17 @@
       n="21-1.12" subtype="項" type="条" xml:id="article211012">
       <head ana="斎宮寮賻物"/>
       <p ana="項" corresp="engishiki_v21_en.xml#item21101201 engishiki_v21_ja.xml#item21101201"
-       xml:id="item21101201"> 凡斎宮寮官人賻物、以伊勢国正税給之、 </p>
+       xml:id="item21101201"> 凡斎宮寮官人賻物、以<placeName sameAs="#伊勢国">伊勢国</placeName>正税給之、 </p>
      </div>
      <div ana="治部"
       corresp="engishiki_v21-1_en.xml#article211013 engishiki_v21-1_ja.xml#article211013"
       n="21-1.13" subtype="項" type="条" xml:id="article211013">
       <head ana="鎮守府賻物"/>
       <p ana="項" corresp="engishiki_v21_en.xml#item21101301 engishiki_v21_ja.xml#item21101301"
-       xml:id="item21101301"> 凡陸奥出羽鎮守府史生・傔 <anchor xml:id="app2110130101"/> 仗 <anchor
-        xml:id="app2110130101e"/> ・博士・医師・陰陽 <anchor xml:id="app2110130102"/> 師 <anchor
-        xml:id="app2110130102e"/> ・弩師、大宰府傔仗・史生幷管国史生等賻物、並以当国物給之、 </p>
+       xml:id="item21101301"> 凡<placeName sameAs="#陸奥国">陸奥</placeName><placeName sameAs="#出羽国"
+        >出羽</placeName>鎮守府史生・傔 <anchor xml:id="app2110130101"/> 仗 <anchor xml:id="app2110130101e"/>
+       ・博士・医師・陰陽 <anchor xml:id="app2110130102"/> 師 <anchor xml:id="app2110130102e"/> ・弩師、<orgName
+        sameAs="#大宰府">大宰府</orgName>傔仗・史生幷管国史生等賻物、並以当国物給之、 </p>
       <app from="#app2110130101" to="#app2110130101e">
        <lem wit="#土本 #九本 #壬本 #京博本 #慶長本 梵本"> 仗 </lem>
        <rdg wit="#近本"> 伏 </rdg>
@@ -1119,7 +1124,8 @@
       n="21-1.17" subtype="項" type="条" xml:id="article211017">
       <head ana="国分寺公文"/>
       <p ana="項" corresp="engishiki_v21_en.xml#item21101701 engishiki_v21_ja.xml#item21101701"
-       xml:id="item21101701"> 凡諸国附朝集・税帳等使所送国分二寺雑公文、勾勘畢即具状移式部・民部等省、 </p>
+       xml:id="item21101701"> 凡諸国附朝集・税帳等使所送国分二寺雑公文、勾勘畢即具状移<orgName sameAs="#式部省"
+        >式部</orgName>・<orgName sameAs="#民部省">民部等省</orgName>、 </p>
      </div>
      <div ana="治部"
       corresp="engishiki_v21-1_en.xml#article211018 engishiki_v21-1_ja.xml#article211018"
@@ -1128,21 +1134,23 @@
       <p ana="項" corresp="engishiki_v21_en.xml#item21101801 engishiki_v21_ja.xml#item21101801"
        xml:id="item21101801"> 凡蕃客入朝者、差領客使二人、〈掌在路雑事、〉 <pb
         facs="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-21%2F00009.tif/full/full/0/default.jpg"
-       /> 随使一人、〈掌記録及公文事、〉掌客二人、〈掌在京雑事、有史生二人、〉共食二人、〈掌饗日各対使者飲宴、自余使見太政官式、〉 </p>
+       /> 随使一人、〈掌記録及公文事、〉掌客二人、〈掌在京雑事、有史生二人、〉共食二人、〈掌饗日各対使者飲宴、自余使見<orgName sameAs="#太政官"
+       >太政官</orgName>式、〉 </p>
      </div>
      <div ana="治部"
       corresp="engishiki_v21-1_en.xml#article211019 engishiki_v21-1_ja.xml#article211019"
       n="21-1.19" subtype="項" type="条" xml:id="article211019">
       <head ana="補任帳"/>
       <p ana="項" corresp="engishiki_v21_en.xml#item21101901 engishiki_v21_ja.xml#item21101901"
-       xml:id="item21101901"> 凡威儀師已上幷従儀師、及諸国講読師補任帳各一巻、年終勘作、正月一日進太政官、 </p>
+       xml:id="item21101901"> 凡威儀師已上幷従儀師、及諸国講読師補任帳各一巻、年終勘作、正月一日進<orgName sameAs="#太政官"
+       >太政官</orgName>、 </p>
      </div>
      <div ana="治部"
       corresp="engishiki_v21-1_en.xml#article211020 engishiki_v21-1_ja.xml#article211020"
       n="21-1.20" subtype="項" type="条" xml:id="article211020">
       <head ana="度縁請印"/>
       <p ana="項" corresp="engishiki_v21_en.xml#item21102001 engishiki_v21_ja.xml#item21102001"
-       xml:id="item21102001"> 凡度縁請印者、不経弁官、直申太政官、 </p>
+       xml:id="item21102001"> 凡度縁請印者、不経弁官、直申<orgName sameAs="#太政官">太政官</orgName>、 </p>
      </div>
     </div>
     <div type="尾題" xml:id="bidai21">
