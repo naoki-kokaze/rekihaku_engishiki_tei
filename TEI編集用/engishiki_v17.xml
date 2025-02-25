@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
-	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
  <teiHeader>
   <fileDesc>
@@ -445,7 +444,9 @@
     </div>
     <div ana="内匠" n="17" subtype="条" type="式">
      <div type="式題" xml:id="shikidai171">
-      <p xml:id="shikidai17101"> 内匠寮 </p>
+      <p xml:id="shikidai17101">
+       <orgName sameAs="#内匠寮">内匠寮</orgName>
+      </p>
      </div>
      <div ana="内匠" n="17.1" subtype="項" type="条">
       <head ana="大極殿飾"/>
@@ -458,7 +459,7 @@
         xml:id="app1710010103"/> 間 <anchor xml:id="app1710010103e"/> 、〉 又整立南庭白銅大火炉二口、〈備台、 <anchor
         xml:id="app1710010104"/> 入 <anchor xml:id="app1710010104e"/>
        鉄火袋、〉中階以南相去十丈、東西之間相去六丈、又建烏像・宝幢等之処差向工一人、其蕃客朝参之時亦同、元日 <anchor xml:id="app1710010105"/> 御座
-        <anchor xml:id="app1710010105e"/> 飾物収内蔵寮、 <pb
+        <anchor xml:id="app1710010105e"/> 飾物収<orgName sameAs="#内蔵寮">内蔵寮</orgName>、 <pb
         facs="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-17%2F00003.tif/full/full/0/default.jpg"
        /> 当時出用、幔台及火炉収寮、 </p>
       <app from="#app1710010101" to="#app1710010101e" type="標注">
@@ -492,7 +493,8 @@
       <p ana="項" corresp="engishiki_v17_ja.xml#item17100201 engishiki_v17_en.xml#item17100201"
        xml:id="item17100201">
        <anchor xml:id="app1710020101"/>
-       <anchor xml:id="app1710020101e"/> 凡正月斎会、前一日長上率雑工等、従図書寮運高座具、構立大極殿、事了返送本寮、 </p>
+       <anchor xml:id="app1710020101e"/> 凡正月斎会、前一日長上率雑工等、従<orgName sameAs="#図書寮"
+       >図書寮</orgName>運高座具、構立大極殿、事了返送本寮、 </p>
       <app from="#app1710020101" to="#app1710020101e" type="標注">
        <lem wit="#壬本 #京博本"> 弘イ貞イ </lem>
        <rdg wit="#土本 #近本"/>
@@ -669,8 +671,8 @@
       <p ana="項" corresp="engishiki_v17_ja.xml#item17100604 engishiki_v17_en.xml#item17100604"
        xml:id="item17100604">
        <anchor xml:id="app1710060401"/>
-       <anchor xml:id="app1710060401e"/>
-       手洗槽一口〈周七尺一寸、高九寸、已上四種木工寮所作、〉料、漆二升五合、貲布八尺五寸、掃墨五合、綿一斤、絁・布各一尺二寸、油二合、炭二斗、功四人、 </p>
+       <anchor xml:id="app1710060401e"/> 手洗槽一口〈周七尺一寸、高九寸、已上四種<orgName sameAs="#木工寮"
+       >木工寮</orgName>所作、〉料、漆二升五合、貲布八尺五寸、掃墨五合、綿一斤、絁・布各一尺二寸、油二合、炭二斗、功四人、 </p>
       <app from="#app1710060401" to="#app1710060401e" type="標注">
        <lem wit="#壬本 #京博本"> 弘 </lem>
        <rdg wit="#土本 #近本"/>
@@ -880,7 +882,8 @@
        年料革筥廿合、就中衾筥四合、〈二合各長二尺、広一尺八寸五分、深五寸、二合各長二尺、広一尺七寸、深四寸、〉衣筥六合、〈雁鼻、各長一尺五寸五分、広一尺三寸、深二寸五分、〉
        釼緒筥一合、〈長一尺二寸二分、広一尺一寸二分、深二寸、〉巾筥二合、〈各方一尺二分、深八分、〉唾巾筥二合、〈各長一尺五分、広八寸、深八分、〉
        櫛筥四合、〈各長一尺一寸五分、広一尺三寸、深一寸五分、〉刀子筥一合〈雁鼻、長一尺二寸、広一尺、深一寸二分、〉料、牛皮十張、〈各長八尺已下七尺已上、〉鹿皮十張、〈各長五尺已上、〉
-       漆六斗六升四合、熟麻廿斤七両、〈張縄料、〉帛一丈五尺、石見庸綿廿二斤十両、掃墨二斗四合、粘料信濃調布四端二丈五尺、小麦二斗四合、伊予砥五顆、青砥四枚、 橡絁 <pb
+        漆六斗六升四合、熟麻廿斤七両、〈張縄料、〉帛一丈五尺、<placeName sameAs="#石見国"
+       >石見</placeName>庸綿廿二斤十両、掃墨二斗四合、粘料信濃調布四端二丈五尺、小麦二斗四合、伊予砥五顆、青砥四枚、 橡絁 <pb
         facs="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-17%2F00010.tif/full/full/0/default.jpg"
        /> 一疋三丈、〈革筥 <anchor xml:id="app1710090101"/> 工 <anchor xml:id="app1710090101e"/>
        三人衣・袴料、〉苧四斤九両、〈 <anchor xml:id="app1710090102"/> 縁 <anchor xml:id="app1710090102e"/>
@@ -920,8 +923,9 @@
        xml:id="item17101001">
        <anchor xml:id="app1710100101"/>
        <anchor xml:id="app1710100101e"/> 年料柳筥一百六十八合〈一尺六寸 <anchor xml:id="app1710100102"/> 以 <anchor
-        xml:id="app1710100102e"/> 下一尺以上、〉料、柳一百三連、〈山城国進之、〉織筥料生糸一十二斤、巾料調布一丈、浸柳料商布一段、長功三百卅六人、 <anchor
-        xml:id="app1710100103"/> 〈工、〉 <anchor xml:id="app1710100103e"/> 中功三百九十二人、短功四百卌八人、 </p>
+        xml:id="app1710100102e"/> 下一尺以上、〉料、柳一百三連、〈<placeName sameAs="#山城国"
+       >山城国</placeName>進之、〉織筥料生糸一十二斤、巾料調布一丈、浸柳料商布一段、長功三百卅六人、 <anchor xml:id="app1710100103"/> 〈工、〉
+        <anchor xml:id="app1710100103e"/> 中功三百九十二人、短功四百卌八人、 </p>
       <app from="#app1710100101" to="#app1710100101e" type="標注">
        <lem wit="#壬本 #京博本"> 弘 </lem>
        <rdg wit="#土本 #近本"/>
@@ -942,7 +946,8 @@
       <head ana="年料屏風"/>
       <p ana="項" corresp="engishiki_v17_ja.xml#item17101101 engishiki_v17_en.xml#item17101101"
        xml:id="item17101101"> 年料五尺屏風骨五十帖料、榲榑大七十五村、〈以一村半 <anchor xml:id="app1710110101"/> 充 <anchor
-        xml:id="app1710110101e"/> 一帖、五十村近江国所進、廿五村上奏所請、〉檜榑十村、〈七村押木一千二百枚料、三村鋳釘押形料、〉
+        xml:id="app1710110101e"/> 一帖、五十村<placeName sameAs="#近江国"
+       >近江国</placeName>所進、廿五村上奏所請、〉檜榑十村、〈七村押木一千二百枚料、三村鋳釘押形料、〉
        波多板四枚、〈作鋳物押形料、〉熟銅百卅二斤十三両二分、〈卅九斤十三両二分作肱金一千二百枚料、以十二両充廿四枚、斤別加損分一両、九十三斤鋳五分花釘一万八千六百隻料、以一斤得二百隻、〉
        滅金百三両 <anchor xml:id="app1710110102"/> 四 <anchor xml:id="app1710110102e"/>
        銖、〈五十両塗肱金料、以一両充廿四枚、五十三両四銖塗花形釘料、以 <anchor xml:id="app1710110103"/> 一 <anchor
@@ -951,7 +956,8 @@
         xml:id="app1710110105e"/> 、〈鏤肱金料、以二分充廿四枚、〉 水銀八十三両二分 <anchor xml:id="app1710110106"/> 二銖
         <anchor xml:id="app1710110106e"/> 、〈廿五両塗肱金料、卅九両三分 <anchor xml:id="app1710110107"/> 二銖
         <anchor xml:id="app1710110107e"/> 塗釘料、十八両三分合銀滅料、〉鉄四廷、〈三廷鋳釘湯鑵料、一廷鋳釘押形固料、〉
-       漆一斗二升五合、〈以二合五夕、充押木廿四枚、〉絹一丈、布二端二丈、石見綿四斤二両、麻大十斤、掃墨四升、油一升、酢九升三 <pb
+        漆一斗二升五合、〈以二合五夕、充押木廿四枚、〉絹一丈、布二端二丈、<placeName sameAs="#石見国"
+       >石見</placeName>綿四斤二両、麻大十斤、掃墨四升、油一升、酢九升三 <pb
         facs="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-17%2F00011.tif/full/full/0/default.jpg"
        /> 合、猪髪十把、 篦百五十株、〈塗花形釘金料、〉筆十五管、〈画肱金料、〉墨二廷、〈同料、〉洗革四枚、伊予砥七顆、青砥三枚、炭七十一斛七斗、和炭六十七斛九斗、
        単功二千八十四人、〈作骨工二百五十人、以一帖充五人、作肱金工千三百人、火作四百人、錯磨四百人、鏤打堺瑩五百人、作花形釘四百卅四人、鋳六十二人、錯三百十人、塗瑩六十 <anchor
@@ -1000,8 +1006,8 @@
       <head ana="年料几帳"/>
       <p ana="項" corresp="engishiki_v17_ja.xml#item17101201 engishiki_v17_en.xml#item17101201"
        xml:id="item17101201"> 年料几帳八基〈四尺四基、三尺四基、〉料、檜 <anchor xml:id="app1710120101"/> 榑 <anchor
-        xml:id="app1710120101e"/> 八村、〈土居并枝柱等料、採寮杣、〉熟銅十四両、滅金一両一分、水銀二分、漆二升、帛一尺二寸、
-       絹二尺、布一尺二寸、石見綿十両、掃墨六合、油三合、伊予砥半顆、青砥一枚、炭八斗、和炭一斛、単功七十七人、〈木作工卅人、漆塗工卅二人、作金物工十五人、〉 </p>
+        xml:id="app1710120101e"/> 八村、〈土居并枝柱等料、採寮杣、〉熟銅十四両、滅金一両一分、水銀二分、漆二升、帛一尺二寸、 絹二尺、布一尺二寸、<placeName
+        sameAs="#石見国">石見</placeName>綿十両、掃墨六合、油三合、伊予砥半顆、青砥一枚、炭八斗、和炭一斛、単功七十七人、〈木作工卅人、漆塗工卅二人、作金物工十五人、〉 </p>
       <app from="#app1710120101" to="#app1710120101e">
        <lem wit="#近本 #壬本 #京博本"> 榑 </lem>
        <rdg wit="#土本"> 傳 </rdg>
@@ -1114,7 +1120,8 @@
       <p ana="項" corresp="engishiki_v17_ja.xml#item17102001 engishiki_v17_en.xml#item17102001"
        xml:id="item17102001"> 御斗帳一具、〈高八尺一寸、方一丈二尺二寸、〉土居料六七寸桁二枝、柱料簀子 <anchor xml:id="app1710200101"/>
        十 <anchor xml:id="app1710200101e"/> 四枝、天井料檜榑八村、熟銅大八斤、滅金小六両二分、水銀小三両一分、
-       鉄二廷、膠小十二両、漆一斗四升、掃墨四升、洗刷料油四合、木賊四両、篦十株、洗革方一尺、酢二合、天井裏料白綾一疋五丈三尺、表料帛一疋五丈三尺、縫料糸三両、 絞漆料帛三尺、石見綿四 <pb
+       鉄二廷、膠小十二両、漆一斗四升、掃墨四升、洗刷料油四合、木賊四両、篦十株、洗革方一尺、酢二合、天井裏料白綾一疋五丈三尺、表料帛一疋五丈三尺、縫料糸三両、
+        絞漆料帛三尺、<placeName sameAs="#石見国">石見</placeName>綿四 <pb
         facs="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-17%2F00014.tif/full/full/0/default.jpg"
        /> 斤、調布三尺、下銅湯料調布三尺、巾料布三尺、粘料糯米二升、伊予砥一顆半、青砥一枚、合漆料焼土一斗四升、炭二斛、和炭十一斛七斗五升、
        長功二百卌二人、〈木工七十一人半、銅卌二人半、鉄八人、画三人、漆百一人、張二人、夫十四人、〉中功二百八十二人小半、〈工二百六十六人、夫十六人小半、〉短功三百廿三人、〈工三百四人、夫十九人、〉 </p>
@@ -1132,10 +1139,12 @@
         <anchor xml:id="app1710210102e"/> 、〈一枚長五尺、高二尺、一枚高四尺三寸、広三尺五寸、二枚各高三尺二寸、広九寸、〉
        蓋一枚、〈長六尺、広五尺四寸、〉長桁并梁・脚等料五六寸桁二枝、壁代并平帖・束柱等料歩板二枚、朸料簀子二枝、柱・桁并葱花等料槻十三枝、 簀子敷并 <anchor
         xml:id="app1710210103"/> 棉梠 <anchor xml:id="app1710210103e"/>
-       ・障子押等料檜榑二村、骨料榲榑二村、蓋椽料簀子木廿六枝、〈笠縫氏供、〉蓋下桟料川竹十株、蓋料菅一囲、〈山城国進、〉
+        ・障子押等料檜榑二村、骨料榲榑二村、蓋椽料簀子木廿六枝、〈笠縫氏供、〉蓋下桟料川竹十株、蓋料菅一囲、〈<placeName sameAs="#山城国"
+       >山城国</placeName>進、〉
        熟銅大廿三斤、水銀小十五両、銀大一両二分、滅金小一斤十四両、釘料鉄三廷、膠小四両、漆一斗、掃墨三升、油四合、伊予砥一顆半、青砥一枚、障子料紫綾四丈、 <pb
         facs="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-17%2F00015.tif/full/full/0/default.jpg"
-       /> 下張料東絁三丈五尺六寸、縁料錦一丈三尺、縫料紫糸二両、生糸六両、絞漆料帛三尺、石見綿三斤、調布一尺五寸、下銅湯料調布六尺、巾料調布六尺、
+       /> 下張料東絁三丈五尺六寸、縁料錦一丈三尺、縫料紫糸二両、生糸六両、絞漆料帛三尺、<placeName sameAs="#石見国"
+       >石見</placeName>綿三斤、調布一尺五寸、下銅湯料調布六尺、巾料調布六尺、
        浸菅并拭料商布一段、粘縁料薄紙十六張、糯米一升三合、小麦五合、焼土一斗、炭二斛七斗、和炭五十二斛五斗、
        長功三百卌人、〈木工五十五人、銅百卌七人、鉄七人、漆六十人、画七人、張五人、縫笠廿人、夫卅九人、〉 中功三百九十四人大半、〈工三百五十一人小半、夫 <anchor
         xml:id="app1710210104"/> 卌三人小半 <anchor xml:id="app1710210104e"/> 、〉短功 <anchor
@@ -1177,8 +1186,8 @@
        <anchor xml:id="app1710220101e"/> 御腰輿一具、〈桁長一丈四尺、広二尺九寸、脚高五寸、〉桁・脚料簀子二枝、平帖・束柱料歩板一 <anchor
         xml:id="app1710220102"/> 枚 <anchor xml:id="app1710220102e"/> 、鳥居・高 <anchor
         xml:id="app1710220103"/> 欄 <anchor xml:id="app1710220103e"/> 料檜榑一村、熟銅大一斤十両、滅金小一両一分、
-       水銀小二分三銖、鉄一廷、漆四升、掃墨一升五合、油二合、帛一尺二寸、石見綿一斤八両、調布四尺二寸、伊予砥半顆、青砥一枚、焼土七升、炭六斗、
-       和炭三斛二升、長功七十八人、〈木工廿四人、銅九人、鉄二人、画半人、漆卅六人、夫六 <pb
+        水銀小二分三銖、鉄一廷、漆四升、掃墨一升五合、油二合、帛一尺二寸、<placeName sameAs="#石見国"
+       >石見</placeName>綿一斤八両、調布四尺二寸、伊予砥半顆、青砥一枚、焼土七升、炭六斗、 和炭三斛二升、長功七十八人、〈木工廿四人、銅九人、鉄二人、画半人、漆卅六人、夫六 <pb
         facs="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-17%2F00016.tif/full/full/0/default.jpg"
        /> 人半、〉中功九十一人、〈工八十三人小半、夫七人大半、〉短功一百四人、〈工九十 <anchor xml:id="app1710220104"/> 五人半 <anchor
         xml:id="app1710220104e"/> 、夫八人半、〉 </p>
@@ -1217,9 +1226,10 @@
         xml:id="app1710230106"/> 椽 <anchor xml:id="app1710230106e"/> ・箕形等料歩板四枚、熟銅大十一斤二両、滅金小 <anchor
         xml:id="app1710230107"/> 十 <anchor xml:id="app1710230107e"/> 両三分、水銀小三両三分三銖、鉄十一廷、漆四升、 掃
         <anchor xml:id="app1710230108"/> 墨 <anchor xml:id="app1710230108e"/>
-       一升五合、胡麻・荏油各三合、帛一尺二寸、石見綿一斤八両、伊予砥一顆半、青砥一枚、白綾四丈、油絹二丈八尺、両面一丈一尺二寸、錦七尺五寸、
-       東絁二丈二尺四寸、練糸二両、調布三丈二寸、東席二枚、苧 <anchor xml:id="app1710230109"/> 大 <anchor
-        xml:id="app1710230109e"/> 五両、毛料草二囲半、糯米一升、小麦一升、炭九斗、和炭廿四斛六斗、熬炭五斗、焼土五升、
+        一升五合、胡麻・荏油各三合、帛一尺二寸、<placeName sameAs="#石見国"
+       >石見</placeName>綿一斤八両、伊予砥一顆半、青砥一枚、白綾四丈、油絹二丈八尺、両面一丈一尺二寸、錦七尺五寸、 東絁二丈二尺四寸、練糸二両、調布三丈二寸、東席二枚、苧
+        <anchor xml:id="app1710230109"/> 大 <anchor xml:id="app1710230109e"/>
+       五両、毛料草二囲半、糯米一升、小麦一升、炭九斗、和炭廿四斛六斗、熬炭五斗、焼土五升、
        長功二百九十二人半、〈木工一百十九人、銅五十六人半、鉄卅五人半、画三人、釭四人、張十二人、漆廿二人、夫卌人半、〉 中功三百卌一人、〈工二百九十四人、夫 <pb
         facs="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-17%2F00017.tif/full/full/0/default.jpg"
        /> 卌七人、〉短功三百八十九人大半、〈工三百卅六人、夫五十三人大半、〉 </p>
@@ -1290,11 +1300,11 @@
        <anchor xml:id="app1710240101e"/> 牛車一具、屋形、〈長八尺、高三尺四寸、広三尺二寸、〉輪料櫟廿八枝、轅・輻料 <anchor
         xml:id="app1710240102"/> 樫 <anchor xml:id="app1710240102e"/> 九十七枝、 <anchor
         xml:id="app1710240103"/> 橧 <anchor xml:id="app1710240103e"/> 料槻二枝、博風四枚料歩板四枚、檜榑五村、
-       軸木一枝、熟銅大卌斤、滅金小廿両、水銀小八両、鉄四廷、漆五升、胡麻油・荏油各四合、掃墨二升五合、帛三尺、石見綿八両、調布一端一丈二尺、
-       伊予砥二顆、青砥二枚、焼土五升、白綾五丈、油絹五丈、練糸五両、出雲席二枚半、毛料染苧卌四両、炭十一斛、和炭五十斛、銀小八両、〈 <anchor
-        xml:id="app1710240104"/> 鑵 <anchor xml:id="app1710240104e"/> 銅物料、〉
-       洗革一枚、木賊七両、糯米三升、猪髪二把、釭一具、絹三尺、 <anchor xml:id="app1710240105"/> 糸 <anchor
-        xml:id="app1710240105e"/> 一斤四両、篦廿株、染料茜大三百斤、白米九斗、〈煮茜用度、〉酢一斛二斗、生絹四尺、〈篩茜料、〉
+        軸木一枝、熟銅大卌斤、滅金小廿両、水銀小八両、鉄四廷、漆五升、胡麻油・荏油各四合、掃墨二升五合、帛三尺、<placeName sameAs="#石見国"
+       >石見</placeName>綿八両、調布一端一丈二尺、 伊予砥二顆、青砥二枚、焼土五升、白綾五丈、油絹五丈、練糸五両、<placeName sameAs="#出雲国"
+        >出雲</placeName>席二枚半、毛料染苧卌四両、炭十一斛、和炭五十斛、銀小八両、〈 <anchor xml:id="app1710240104"/> 鑵 <anchor
+        xml:id="app1710240104e"/> 銅物料、〉 洗革一枚、木賊七両、糯米三升、猪髪二把、釭一具、絹三尺、 <anchor xml:id="app1710240105"
+       /> 糸 <anchor xml:id="app1710240105e"/> 一斤四両、篦廿株、染料茜大三百斤、白米九斗、〈煮茜用度、〉酢一斛二斗、生絹四尺、〈篩茜料、〉
        庸布四尺、〈篩皂料、〉灰卌五斛、〈斤別一斗五升、〉薪百五十荷、〈斤別 <anchor xml:id="app1710240106"/> 充 <anchor
         xml:id="app1710240106e"/> 半荷、〉染槽一隻、〈長一丈已下八尺以上、広三尺已下二尺以上、〉 柴十五荷、杓二柄、水麻笥一口、〈受四斗已下、〉水 <anchor
         xml:id="app1710240107"/> 𤭖 <anchor xml:id="app1710240107e"/> 麻笥一口、〈受二斛、〉苧割雇女 <pb
@@ -1357,8 +1367,9 @@
        滅金小二両二分、水銀小一両一分、表料白絹三丈、裏料縹帛三丈、番料緋帛五尺二寸、縁料紫綾一丈四尺、朱沙一両、金青一両、白青一両二分、 緑青六両、白緑二両、丹 <anchor
         xml:id="app1710250101"/> 三 <anchor xml:id="app1710250101e"/>
        両、同黄三分、青黛二分、胡粉五両、中烟子二枚、紫土二両、金薄卅枚、墨一廷、膠十四両、筆料鹿毛二両、
-       切金薄革一条、〈方一尺、〉練糸一両、漆二合、掃墨一合、絞漆料帛一尺、石見綿四両、調布一尺、洗刷料油五夕、金薄料綿二両、 <anchor xml:id="app1710250102"/>
-       中子 <anchor xml:id="app1710250102e"/> 料調布二尺五寸、 瑩釘料調布三尺、下銅湯料調布一尺、 <pb
+        切金薄革一条、〈方一尺、〉練糸一両、漆二合、掃墨一合、絞漆料帛一尺、<placeName sameAs="#石見国"
+       >石見</placeName>綿四両、調布一尺、洗刷料油五夕、金薄料綿二両、 <anchor xml:id="app1710250102"/> 中子 <anchor
+        xml:id="app1710250102e"/> 料調布二尺五寸、 瑩釘料調布三尺、下銅湯料調布一尺、 <pb
         facs="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-17%2F00019.tif/full/full/0/default.jpg"
        /> 下張料商布二段一 <anchor xml:id="app1710250103"/> 丈 <anchor xml:id="app1710250103e"/>
        、粘縁料薄紙十四張、中張料紙六十五張、番中粘料紙五張、石灰二合、紫革一条、〈長一尺、広八寸、〉 糯米二升、小麦三升、炭五斛三斗、和炭一斛 <anchor
@@ -1391,8 +1402,9 @@
        <anchor xml:id="app1710260101e"/>
        厨子一基、〈高四尺、長五尺、広二尺二寸、牙床高三寸五分、〉榻一脚、〈長五尺三寸、広二尺五寸、高八寸、〉牙床等料檜榑一村、榻料歩板一枚、
        蓋板一枚、〈長五尺六寸、広二尺五寸、厚三寸、〉棚料板三枚、〈各長五尺三寸、広二尺四寸、厚一寸五分、〉壁并戸料板八枚、〈各長五尺、広二尺、厚一寸五分、〉
-       膠小四両、漆一斗、掃墨三升、焼土七升、熟銅大三斤、鉄一廷、滅金小五両二分、銀大三分、水銀小二両三分、伊予砥一顆半、青砥一枚、油四合、
-       帛一尺五寸、石見綿三斤、調布九尺五寸、炭一斛七斗、和炭四斛五斗、長功一百六十二人、〈木工五十人、銅卌九人、鉄四人、画一人半、漆卌七人、夫十人半、〉 中功 <anchor
+       膠小四両、漆一斗、掃墨三升、焼土七升、熟銅大三斤、鉄一廷、滅金小五両二分、銀大三分、水銀小二両三分、伊予砥一顆半、青砥一枚、油四合、 帛一尺五寸、<placeName
+        sameAs="#石見国"
+       >石見</placeName>綿三斤、調布九尺五寸、炭一斛七斗、和炭四斛五斗、長功一百六十二人、〈木工五十人、銅卌九人、鉄四人、画一人半、漆卌七人、夫十人半、〉 中功 <anchor
         xml:id="app1710260102"/> 百 <anchor xml:id="app1710260102e"/>
        八十九人、〈工百七十六人大半、夫一十二人小半、〉短功二百一十六人、〈工二百一人、夫十五人、〉 </p>
       <app from="#app1710260101" to="#app1710260101e" type="標注">
@@ -1419,9 +1431,9 @@
      <div ana="内匠" n="17.28" subtype="項" type="条">
       <head ana="樋類"/>
       <p ana="項" corresp="engishiki_v17_ja.xml#item17102801 engishiki_v17_en.xml#item17102801"
-       xml:id="item17102801">
-       雕木一脚、〈長一尺七寸、広一尺三寸、高一尺一寸、木工寮作之、〉樋一合、〈高九寸、径九寸五分、〉虎子一合料漆二升四合、〈雕木八合、樋一升二合、虎子四合、〉
-       石見綿一斤、絹一尺五寸、貲布八尺、調布一尺五寸、掃墨一升、油二合、伊予砥半顆、青砥半枚、炭八斗、単功十七人、〈雕木六人、樋八人、虎子三人、〉 </p>
+       xml:id="item17102801"> 雕木一脚、〈長一尺七寸、広一尺三寸、高一尺一寸、<orgName sameAs="#木工寮"
+       >木工寮</orgName>作之、〉樋一合、〈高九寸、径九寸五分、〉虎子一合料漆二升四合、〈雕木八合、樋一升二合、虎子四合、〉 <placeName sameAs="#石見国"
+        >石見</placeName>綿一斤、絹一尺五寸、貲布八尺、調布一尺五寸、掃墨一升、油二合、伊予砥半顆、青砥半枚、炭八斗、単功十七人、〈雕木六人、樋八人、虎子三人、〉 </p>
      </div>
      <div ana="内匠" n="17.29" subtype="項" type="条">
       <head ana="毬子"/>
@@ -1440,8 +1452,8 @@
       <p ana="項" corresp="engishiki_v17_ja.xml#item17103001 engishiki_v17_en.xml#item17103001"
        xml:id="item17103001">
        大寒日立諸門土偶人十二枚、〈各高二尺、〉土牛十二頭〈各高二尺、長三尺、〉料、青土二升、赤二升、白二升、黄四升、掃墨二升、酒一升、糯米一斗二升、藁八囲、
-       板廿四枚、〈十二枚立偶人、各方一尺五寸、厚二寸、十二枚立牛、各長三尺五寸、広一尺五寸、厚二寸、木工寮毎年充之、〉 <anchor xml:id="app1710300101"/>
-       功一百卅四人、〈工九十六人、夫卅八人、〉 <anchor xml:id="app1710300101e"/>
+        板廿四枚、〈十二枚立偶人、各方一尺五寸、厚二寸、十二枚立牛、各長三尺五寸、広一尺五寸、厚二寸、<orgName sameAs="#木工寮">木工寮</orgName>毎年充之、〉
+        <anchor xml:id="app1710300101"/> 功一百卅四人、〈工九十六人、夫卅八人、〉 <anchor xml:id="app1710300101e"/>
       </p>
       <app from="#app1710300101" to="#app1710300101e">
        <lem wit="#近本 #壬本 #京博本"> 功一百卅四人、〈工九十六人、夫卅八人、〉 </lem>
@@ -1454,7 +1466,8 @@
      <div ana="内匠" n="17.31" subtype="項" type="条">
       <head ana="伊勢初斎院"/>
       <p ana="項" corresp="engishiki_v17_ja.xml#item17103101 engishiki_v17_en.xml#item17103101"
-       xml:id="item17103101"> 伊勢初斎院装束 <lb/>
+       xml:id="item17103101">
+       <placeName sameAs="#伊勢国">伊勢</placeName>初斎院装束 <lb/>
        白木斗帳一具〈高八尺、方一丈、〉料、五六寸桁二枝、簀子十枝、檜榑四村、熟銅大七斤、滅金小五両、水銀小二両二分、鉄一廷半、調布五尺五寸、
        伊予砥、膠小六両、木賊小三両、帛一疋五尺、白絁一疋五尺、練糸三両、糯米 <anchor xml:id="app1710310101"/> 二 <anchor
         xml:id="app1710310101e"/> 升、炭七斗五升、和炭九斛二斗五升、
@@ -1725,25 +1738,27 @@
         facs="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-17%2F00027.tif/full/full/0/default.jpg"
        /> 子骨料榲榑二村、 熟銅大卌六斤、滅金小一斤十二両、銀大一両、水銀小十四両、鉄三廷、炭二斛一斗、和炭五十斛五斗、漆九升、掃墨二升、焼土一斗、帛三尺、油三合、
        浅紫纈帛三丈六尺、東絁三丈六尺、錦一丈三尺、紫 <anchor xml:id="app1710320205"/> 糸 <anchor xml:id="app1710320205e"/>
-       二両、生糸六両、石見綿三斤、調布一丈三尺五寸、商布一段、苧小一斤、薄紙十五張、膠小四両、 伊予砥一顆、糯米一升三合、小麦五合、長功 <anchor
-        xml:id="app1710320206"/> 三百廿九人 <anchor xml:id="app1710320206e"/>
+        二両、生糸六両、<placeName sameAs="#石見国">石見</placeName>綿三斤、調布一丈三尺五寸、商布一段、苧小一斤、薄紙十五張、膠小四両、
+       伊予砥一顆、糯米一升三合、小麦五合、長功 <anchor xml:id="app1710320206"/> 三百廿九人 <anchor xml:id="app1710320206e"/>
        、〈木工卌七人、銅一百卌七人、鉄七人、漆十人、画七人、張五人、笠廿人、夫卅八人、〉 中功三百八十四人、〈工三百卅八人半、夫卌五人半、〉短功四百卌八人、〈工三百九十五人、夫五十三人、〉 </p>
       <p ana="項" corresp="engishiki_v17_ja.xml#item17103203 engishiki_v17_en.xml#item17103203"
        xml:id="item17103203"> 腰輿一具、〈長一丈二尺、広二尺九寸、斗内長三尺、脚高五寸、〉障子二枚、〈一枚長五尺、広二尺、一枚長五尺、広二尺二寸、〉桁料簀子二枚、
        壁代・梁料歩板一枚、高 <anchor xml:id="app1710320301"/> 欄 <anchor xml:id="app1710320301e"/>
-       ・鳥居等料檜榑半村、障子骨料榲榑一村、熟銅大十二斤、滅金小七両、水銀小三両二分、鉄一廷、漆四升、掃墨一升、帛一尺二寸、 石見綿一斤八両、調布七尺二寸、油二合、浅紫纈帛二丈六尺、東絁二丈六
-        <pb
+       ・鳥居等料檜榑半村、障子骨料榲榑一村、熟銅大十二斤、滅金小七両、水銀小三両二分、鉄一廷、漆四升、掃墨一升、帛一尺二寸、 <placeName sameAs="#石見国"
+        >石見</placeName>綿一斤八両、調布七尺二寸、油二合、浅紫纈帛二丈六尺、東絁二丈六 <pb
         facs="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-17%2F00028.tif/full/full/0/default.jpg"
        /> 尺、錦八尺、浅紫糸二分、練糸二分、薄紙八張、阿膠小二分、伊予砥、青砥、糯米六合、 小麦五合、炭一石、和炭十四斛 <anchor xml:id="app1710320302"/> 二
         <anchor xml:id="app1710320302e"/> 斗五升、長功 <anchor xml:id="app1710320303"/> 一百五十一人半 <anchor
         xml:id="app1710320303e"/> 、〈木工廿五人、銅五十九人、鉄二人、漆卅六人、画三人、張三人、夫十三人半、〉
        中功百八十人、〈工一百六十三人小半、夫十六人大半、〉短功二百五人大半、〈工一百八十六人大半、夫十九人、〉 </p>
       <p ana="項" corresp="engishiki_v17_ja.xml#item17103204 engishiki_v17_en.xml#item17103204"
-       xml:id="item17103204"> 御輿中子菅蓋一具〈菅并骨料材従摂津国、笠縫氏参来作、〉料、生糸六両、苧小十両、〈已上二種骨結料、〉単功十人食料、白米二斗、〈人別二升、〉
+       xml:id="item17103204"> 御輿中子菅蓋一具〈菅并骨料材従<placeName sameAs="#摂津国"
+       >摂津国</placeName>、笠縫氏参来作、〉料、生糸六両、苧小十両、〈已上二種骨結料、〉単功十人食料、白米二斗、〈人別二升、〉
        塩二合、〈人別二夕、〉醤滓二升、〈人別二合、〉魚二升、〈人別二合、〉海藻一斤四 <anchor xml:id="app1710320401"/> 両 <anchor
         xml:id="app1710320401e"/> 、酒六升、〈人別六合、〉 </p>
       <p ana="項" corresp="engishiki_v17_ja.xml#item17103205 engishiki_v17_en.xml#item17103205"
-       xml:id="item17103205"> 菅翳二柄〈同笠縫作、単功十人、〉料、漆四合、掃墨二合、苧小一斤、〈結料、〉生糸五両、石見庸綿四両、〈絞漆料、〉商布一丈、〈拭菅料、〉
+       xml:id="item17103205"> 菅翳二柄〈同笠縫作、単功十人、〉料、漆四合、掃墨二合、苧小一斤、〈結料、〉生糸五両、<placeName sameAs="#石見国"
+        >石見</placeName>庸綿四両、〈絞漆料、〉商布一丈、〈拭菅料、〉
        白米二斗、塩二合、酒六升、海藻一斤四両、醤滓二升、魚二升、翳柏形四枚・管金二口・筋金四枚料熟銅大一斤八両、滅金一両、水銀二分、炭一斗、
        和炭一石五斗、単功卅人、〈木工八人、漆工四人、鍛冶工四人、細工十三人、夫一人、〉 </p>
       <p ana="項" corresp="engishiki_v17_ja.xml#item17103206 engishiki_v17_en.xml#item17103206"
@@ -1752,8 +1767,8 @@
       <p ana="項" corresp="engishiki_v17_ja.xml#item17103207 engishiki_v17_en.xml#item17103207"
        xml:id="item17103207"> 同宮 <pb
         facs="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-17%2F00029.tif/full/full/0/default.jpg"
-       /> 自伊勢斎宮 <anchor xml:id="app1710320701"/> 入京 <anchor xml:id="app1710320701e"/>
-       儲料、御輿一具、〈並料物単功、同野宮、〉 </p>
+       /> 自<placeName sameAs="#伊勢国">伊勢</placeName>斎宮 <anchor xml:id="app1710320701"/> 入京 <anchor
+        xml:id="app1710320701e"/> 儲料、御輿一具、〈並料物単功、同野宮、〉 </p>
       <p ana="項" corresp="engishiki_v17_ja.xml#item17103208 engishiki_v17_en.xml#item17103208"
        xml:id="item17103208"> 四尺屏風四帖料榲榑八村、〈作骨料、〉檜榑半村、〈押料、〉熟銅大四斤、〈作肱金料、〉
        半熟銅大十二斤、〈鋳花形釘料、〉炭五斛五斗、〈一斛五斗鋳花形釘料、一斛五斗塗 <anchor xml:id="app1710320801"/> 金 <anchor
@@ -1774,7 +1789,8 @@
       <p ana="項" corresp="engishiki_v17_ja.xml#item17103210 engishiki_v17_en.xml#item17103210"
        xml:id="item17103210">
        塗赤漆御膳櫃六合、〈各長二尺三寸、広二尺二寸、深八寸二分、〉下居机六脚、〈各長五尺七寸五分、広二尺三寸、高一尺七寸、〉朸十六枚、〈各長九尺、周六寸五分、〉
-       韓櫃一合、〈長二尺六寸、広一尺七寸、深一尺一寸、〉料、漆六升六合、石見庸綿二斤、荏油一升八合、炭一斛、〈絞漆并塗料、〉 単功 <pb
+        韓櫃一合、〈長二尺六寸、広一尺七寸、深一尺一寸、〉料、漆六升六合、<placeName sameAs="#石見国"
+       >石見</placeName>庸綿二斤、荏油一升八合、炭一斛、〈絞漆并塗料、〉 単功 <pb
         facs="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-17%2F00030.tif/full/full/0/default.jpg"
        /> 卌九人、〈御膳櫃并下机卅六人、朸十六枚五人、韓櫃三人、夫五人、〉 </p>
       <p ana="項" corresp="engishiki_v17_ja.xml#item17103211 engishiki_v17_en.xml#item17103211"
@@ -1783,10 +1799,11 @@
        <anchor xml:id="app1710321101e"/>
        塗黒漆御輿前櫃一合、〈長三尺、広九寸、深八寸、〉小辛櫃一合、〈長一尺五寸、広一尺一寸、深八寸、〉捧壺二合、〈各周一尺九寸、高六寸、〉 柄二枝、〈各長八尺、〉大笠柄一枝、〈長八尺、〉幕柱二
         <anchor xml:id="app1710321102"/> 枝 <anchor xml:id="app1710321102e"/>
-       、桁一枚、〈長一丈五尺五寸、〉幔柱廿四枝〈各長八尺六寸、〉料、漆六升、石見庸綿二斤、 粘料調布二尺七寸、〈一尺五寸粘壺料、一尺二寸絞漆料、〉油五合、掃墨一升、炭一斛五斗、 単功
-        <anchor xml:id="app1710321103"/> 廿一人 <anchor xml:id="app1710321103e"/> 、〈御輿前櫃四人、小 <anchor
-        xml:id="app1710321104"/> 辛 <anchor xml:id="app1710321104e"/> 櫃二人、捧壺五人、 <anchor
-        xml:id="app1710321105"/> 柄 <anchor xml:id="app1710321105e"/> 二人、大笠柄一枝、幕桁一枝六人、幔柱廿四枝六人、夫四人、〉 </p>
+        、桁一枚、〈長一丈五尺五寸、〉幔柱廿四枝〈各長八尺六寸、〉料、漆六升、<placeName sameAs="#石見国">石見</placeName>庸綿二斤、
+       粘料調布二尺七寸、〈一尺五寸粘壺料、一尺二寸絞漆料、〉油五合、掃墨一升、炭一斛五斗、 単功 <anchor xml:id="app1710321103"/> 廿一人 <anchor
+        xml:id="app1710321103e"/> 、〈御輿前櫃四人、小 <anchor xml:id="app1710321104"/> 辛 <anchor
+        xml:id="app1710321104e"/> 櫃二人、捧壺五人、 <anchor xml:id="app1710321105"/> 柄 <anchor
+        xml:id="app1710321105e"/> 二人、大笠柄一枝、幕桁一枝六人、幔柱廿四枝六人、夫四人、〉 </p>
       <app from="#app1710320201" to="#app1710320201e">
        <lem cause="意改"> 枝 </lem>
        <rdg wit="#土本 #近本 #壬本 #京博本"> 枚 </rdg>
@@ -1972,7 +1989,8 @@
       <p ana="項" corresp="engishiki_v17_ja.xml#item17103316 engishiki_v17_en.xml#item17103316"
        xml:id="item17103316"> 白銅箸四具料、白銅大八両、細布三尺、信濃布五尺、油二合、炭一斛、長功十二人、中功十四人、短功十六人、 </p>
       <p ana="項" corresp="engishiki_v17_ja.xml#item17103317 engishiki_v17_en.xml#item17103317"
-       xml:id="item17103317"> 白銅匕八柄料、白銅大九十六両、鉄一廷半、細布五尺、信濃布七尺、油四合、炭八斗、長功六十四人、中功七十二人、短功八十人、 </p>
+       xml:id="item17103317"> 白銅匕八柄料、白銅大九十六両、鉄一廷半、細布五尺、<placeName sameAs="#信濃国"
+       >信濃</placeName>布七尺、油四合、炭八斗、長功六十四人、中功七十二人、短功八十人、 </p>
       <p ana="項" corresp="engishiki_v17_ja.xml#item17103318 engishiki_v17_en.xml#item17103318"
        xml:id="item17103318"> 白銅杓二柄、台盤七面、〈八尺一面、四尺六面、〉薬袋卅四枚、〈已上人給料、但白銅杓已下料物・単功、見上、〉 </p>
       <app from="#app1710330201" to="#app1710330201e">
@@ -2065,8 +2083,9 @@
      <div ana="内匠" n="17.36" subtype="項" type="条">
       <head ana="黄楊"/>
       <p ana="項" corresp="engishiki_v17_ja.xml#item17103601 engishiki_v17_en.xml#item17103601"
-       xml:id="item17103601"> 凡年料納黄楊木者、参河国六枝、土佐国 <anchor xml:id="app1710360101"/> 七 <anchor
-        xml:id="app1710360101e"/> 枝、 </p>
+       xml:id="item17103601"> 凡年料納黄楊木者、<placeName sameAs="#参河国">参河国</placeName>六枝、<placeName
+        sameAs="#土佐国">土佐国</placeName>
+       <anchor xml:id="app1710360101"/> 七 <anchor xml:id="app1710360101e"/> 枝、 </p>
       <app from="#app1710360101" to="#app1710360101e">
        <lem wit="#土本 #近本 #壬本 #京博本"> 七 </lem>
        <note> 七　民部式下53条「六」。 </note>
@@ -2077,7 +2096,7 @@
       <p ana="項" corresp="engishiki_v17_ja.xml#item17103701 engishiki_v17_en.xml#item17103701"
        xml:id="item17103701">
        <anchor xml:id="app1710370101"/>
-       <anchor xml:id="app1710370101e"/> 凡木工寮造大射・賭射・騎射等的、皆差 <pb
+       <anchor xml:id="app1710370101e"/> 凡<orgName sameAs="#木工寮">木工寮</orgName>造大射・賭射・騎射等的、皆差 <pb
         facs="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-17%2F00034.tif/full/full/0/default.jpg"
        /> 向画師使塗画、 </p>
       <app from="#app1710370101" to="#app1710370101e" type="標注">
@@ -2131,7 +2150,7 @@
      <div ana="内匠" n="17.42" subtype="項" type="条">
       <head ana="典薬直"/>
       <p ana="項" corresp="engishiki_v17_ja.xml#item17104201 engishiki_v17_en.xml#item17104201"
-       xml:id="item17104201"> 凡典薬医師一人、令直於寮、 </p>
+       xml:id="item17104201"> 凡<orgName sameAs="#典薬寮">典薬</orgName>医師一人、令直於寮、 </p>
      </div>
      <div ana="内匠" n="17.43" subtype="項" type="条">
       <head ana="六衛府直"/>
@@ -2141,8 +2160,8 @@
      <div ana="内匠" n="17.44" subtype="項" type="条">
       <head ana="縫物"/>
       <p ana="項" corresp="engishiki_v17_ja.xml#item17104401 engishiki_v17_en.xml#item17104401"
-       xml:id="item17104401"> 凡有可縫調之物者、移大蔵省、不限多少、 <anchor xml:id="app1710440101"/> 受宮人令縫 <anchor
-        xml:id="app1710440101e"/> 、 </p>
+       xml:id="item17104401"> 凡有可縫調之物者、移<orgName sameAs="#大蔵省">大蔵省</orgName>、不限多少、 <anchor
+        xml:id="app1710440101"/> 受宮人令縫 <anchor xml:id="app1710440101e"/> 、 </p>
       <app from="#app1710440101" to="#app1710440101e">
        <lem wit="#土本 #近本 #壬本 #京博本"> 受宮人令縫 </lem>
        <rdg wit="#版本"> 受令宮人縫 </rdg>
@@ -2178,19 +2197,19 @@
         facs="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-17%2F00035.tif/full/full/0/default.jpg"/>
        <row>
         <cell/>
-        <cell> 従五位上行勘解由次官兼大外記紀伊権介臣伴宿禰久永 </cell>
+        <cell> 従五位上行勘解由次官兼大外記<placeName sameAs="#紀伊国">紀伊</placeName>権介臣伴宿禰久永 </cell>
        </row>
        <row>
         <cell/>
-        <cell> 従四位上行神祇伯臣大中臣朝臣安則 </cell>
+        <cell> 従四位上行<orgName sameAs="#神祇官">神祇</orgName>伯臣大中臣朝臣安則 </cell>
        </row>
        <row>
         <cell/>
-        <cell> 大納言正三位兼行民部卿臣藤原朝臣清貫 </cell>
+        <cell> 大納言正三位兼行<orgName sameAs="#民部省">民部</orgName>卿臣藤原朝臣清貫 </cell>
        </row>
        <row>
         <cell/>
-        <cell> 左大臣正二位兼行左近衛大将皇太子傅臣藤原朝臣忠平 </cell>
+        <cell> 左大臣正二位兼行<orgName sameAs="#近衛府">左近衛</orgName>大将皇太子傅臣藤原朝臣忠平 </cell>
        </row>
       </table>
      </p>
