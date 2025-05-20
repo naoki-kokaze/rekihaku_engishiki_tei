@@ -1,0 +1,917 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> 延喜式ファイル </title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher> 国立歴史民俗博物館メタ資料学研究センター </publisher>
+            <idno type="PID"> o:depcha.engi_shiki.1 </idno>
+            <availability>
+               <p/>
+            </availability>
+            <date when="2020-03-31"> 31 March 2020 </date>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <settlement> 千葉県佐倉市 </settlement>
+                  <repository> 国立歴史民俗博物館 </repository>
+                  <collection> 集英社版延喜式 </collection>
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                     <author> 藤原時平・藤原忠平 </author>
+                     <title> 延喜式 </title>
+                     <note>
+                        <p> ここに史料の説明が入る。 </p>
+                     </note>
+                  </msItem>
+               </msContents>
+            </msDesc>
+            <listWit>
+               <listWit xml:id="写本">
+                  <head> 写本 </head>
+                  <witness xml:id="土本">
+                     <abbr> 土本 </abbr> ：国立歴史民俗博物館所蔵土御門家旧蔵本（H-743-74） </witness>
+                  <witness xml:id="近本">
+                     <abbr> 近本 </abbr> ：京都大学附属図書館所蔵近衛文庫本（2-03/エ/1貴） </witness>
+                  <witness xml:id="壬本">
+                     <abbr> 壬本 </abbr> ：宮内庁書陵部図書寮文庫所蔵壬生家旧蔵本（F10-287） </witness>
+                  <witness xml:id="京博本">
+                     <abbr> 京博本 </abbr> ：京都国立博物館所蔵旧京都博物館本 </witness>
+                  <witness xml:id="慶長本">
+                     <abbr> 慶長本 </abbr> ：国立公文書館所蔵慶長写本（特102-8） </witness>
+                  <witness xml:id="梵本">
+                     <abbr> 梵本 </abbr> ：天理大学附属天理図書館所蔵吉田文庫梵舜等筆本（吉16-8。巻8は173-ｲ5（Ⅲ524)もあり） </witness>
+                  <witness xml:id="九本">
+                     <abbr> 九本 </abbr> ：東京国立博物館所蔵九条家旧蔵巻子本（B-2370） </witness>
+                  <witness xml:id="剛本">
+                     <abbr> 剛本 </abbr> ：天野山金剛寺所蔵本 </witness>
+                  <witness xml:id="条本">
+                     <abbr> 条本 </abbr> ：一条家旧蔵巻子本（巻1～3は無窮会専門図書館所蔵模写本、巻4・5は神宮司庁刊影印本） </witness>
+                  <witness xml:id="花本">
+                     <abbr> 花本 </abbr> ：花山院家・武田祐吉旧蔵本（神宮皇学館刊影印本による） </witness>
+                  <witness xml:id="九冊本">
+                     <abbr> 九冊本 </abbr> ：國學院大學所蔵九条家・西田長男旧蔵冊子本（巻5は西田長男刊影印本による） </witness>
+                  <witness xml:id="永本">
+                     <abbr> 永本 </abbr> ：巻8は國學院大學図書館所蔵（091.2/322.135/1）、巻9・10は現蔵不明(神宮文庫所蔵写真帳1門16974） </witness>
+                  <witness xml:id="右本">
+                     <abbr> 右本 </abbr> ：巻8は國學院大學図書館所蔵（貴62） </witness>
+                  <witness xml:id="吉本">
+                     <abbr> 吉本 </abbr> ：天理大学附属天理図書館所蔵吉田家旧蔵本巻9・10（328.1-ｲ17(Ⅲ1219)） </witness>
+                  <witness xml:id="三条本">
+                     <abbr> 三条本 </abbr> ：天理大学附属天理図書館所蔵三条家旧蔵本（328.1-ｲ11(Ⅲ1218)） </witness>
+                  <witness xml:id="西本">
+                     <abbr> 西本 </abbr>
+                     ：巻9・10は國學院大學図書館所蔵（貴107～108）。巻50は国立歴史民俗博物館所蔵（H-1588）。抄出本は國學院大學所蔵（木村大樹「〔西田長男旧蔵〕三条西実隆筆『延喜式』(抄)の翻刻・紹介」『國學院大學研究開発推進機構紀要』14、2022年） </witness>
+                  <witness xml:id="時慶本">
+                     <abbr> 時慶本 </abbr> ：静嘉堂文庫所蔵西洞院時慶写本（延喜格式表18352、延喜式序18353） </witness>
+                  <witness xml:id="島原本">
+                     <abbr> 島原本 </abbr> ：東京大学史料編纂所所蔵松平忠房・和学講談所・水野忠央旧蔵本（貴45-2） </witness>
+                  <witness xml:id="藤波本">
+                     <abbr> 藤波本 </abbr> ：宮内庁書陵部図書寮文庫所蔵藤波家旧蔵本（217-473） </witness>
+                  <witness xml:id="貞享本">
+                     <abbr> 貞享本 </abbr> ：宮内庁書陵部図書寮文庫所蔵和学講談所旧蔵坊城俊方貞享本（457-116） </witness>
+                  <witness xml:id="玄梁本">
+                     <abbr> 玄梁本 </abbr> ：無窮会専門図書館所蔵神習文庫玄梁記名本（神習3666） </witness>
+                  <witness xml:id="尾張本">
+                     <abbr> 尾張本 </abbr> ：東京大学総合図書館所蔵尾張家旧蔵本（巻13）（A00-6122） </witness>
+                  <witness xml:id="泉亭本">
+                     <abbr> 泉亭本 </abbr> ：賀茂三手文庫所蔵泉亭本（制度/加） </witness>
+               </listWit>
+               <listWit xml:id="版本">
+                  <head> 版本：慶安版本も含めた流布版本 </head>
+                  <witness xml:id="慶安版本">
+                     <abbr> 慶安版本 </abbr> ：大和文華館所蔵鈴鹿連胤旧蔵版本（1/741～790） </witness>
+                  <witness xml:id="明暦版本">
+                     <abbr> 明暦版本 </abbr> ：明暦修訂版本　国立公文書館所蔵紅葉山文庫旧蔵版本（特26-1）等 </witness>
+                  <witness xml:id="明暦以降版本">
+                     <abbr> 明暦以降版本 </abbr> ：明暦修訂本以降の版本 </witness>
+                  <witness xml:id="寛文版本">
+                     <abbr> 寛文版本 </abbr> ：寛文修訂版本　筑波大学附属図書館所蔵版本20冊本（ム212-7）等 </witness>
+                  <witness xml:id="享保版本">
+                     <abbr> 享保版本 </abbr> ：享保修訂版本　筑波大学附属図書館所蔵版本50冊本（ム212-6）等 </witness>
+                  <witness xml:id="雲本">
+                     <abbr> 雲本 </abbr> ：松江藩文政11年(1828)刊本（雲州本）　早稲田大学図書館所蔵本（ワ03-01594）等 </witness>
+                  <witness xml:id="考異">
+                     <abbr> 考異 </abbr> ：雲州本附録『延喜式考異』　早稲田大学図書館所蔵本（ワ03-01594）等 </witness>
+                  <witness xml:id="鈴鹿本">
+                     <abbr> 鈴鹿本 </abbr> ：大和文華館所蔵鈴鹿連胤旧蔵慶安版本（1/741～790）書入 </witness>
+                  <witness xml:id="勢多本">
+                     <abbr> 勢多本 </abbr> ：宮内庁書陵部図書寮文庫所蔵勢多家旧蔵明暦等版本（172-123）書入 </witness>
+                  <witness xml:id="筑波寛文本">
+                     <abbr> 筑波寛文本 </abbr> ：筑波大学附属図書館所蔵寛文版本20冊本（ム212-7）書入 </witness>
+               </listWit>
+               <listWit xml:id="刊本">
+                  <head> 刊本 </head>
+                  <witness xml:id="旧大系本">
+                     <abbr> 旧大系本 </abbr> ：旧輯国史大系第13巻（経済雑誌社　1900年刊） </witness>
+                  <witness xml:id="叢書本">
+                     <abbr> 叢書本 </abbr> ：新註皇学叢書第3巻（広文庫刊行会　1927年刊） </witness>
+                  <witness xml:id="全集本">
+                     <abbr> 全集本 </abbr> ：日本古典全集『延喜式』（日本古典全集刊行会　1927～1929年刊） </witness>
+                  <witness xml:id="皇典本">
+                     <abbr> 皇典本 </abbr> ：『校訂延喜式』（皇典講究所・全国神職会　1929～1932年刊） </witness>
+                  <witness xml:id="国史大系本">
+                     <abbr> 国史大系本 </abbr> ：新訂増補国史大系第26巻（吉川弘文館　1937年刊） </witness>
+                  <witness xml:id="神道大系本">
+                     <abbr> 神道大系本 </abbr> ：神道大系古典編11・12『延喜式』（神道大系編纂会、1991・1993年刊） </witness>
+                  <witness xml:id="訳注本">
+                     <abbr> 訳注本 </abbr> ：訳注日本史料『延喜式』上～下（集英社、2000～2017年刊） </witness>
+               </listWit>
+               <listWit xml:id="その他">
+                  <head> その他 </head>
+                  <witness xml:id="本朝月令">
+                     <abbr> 本朝月令 </abbr> ：清水潔編『新校本朝月令』（皇學館大學神道研究所　2002年刊） </witness>
+                  <witness xml:id="儀式">
+                     <abbr> 儀式 </abbr> ：神道大系朝儀祭祀編1『儀式・内裏式』（神道大系編纂会　1980年刊） </witness>
+                  <witness xml:id="皇太神宮儀式帳">
+                     <abbr> 皇太神宮儀式帳 </abbr> ：佐野真人「『皇太神宮儀式帳』校訂試案」（『皇學館大学研究開発推進センター紀要』2　2016年） </witness>
+                  <witness xml:id="止由気宮儀式帳">
+                     <abbr> 止由気宮儀式帳 </abbr> ：佐野真人「『止由気宮儀式帳』校訂試案」（『皇學館大学研究開発推進センター紀要』3　2017年） </witness>
+                  <witness xml:id="新撰年中行事">
+                     <abbr> 新撰年中行事 </abbr> ：西本昌弘編『新撰年中行事』（八木書店　2010年刊） </witness>
+                  <witness xml:id="小野宮年中行事">
+                     <abbr> 小野宮年中行事 </abbr> ：群書類従第6輯 律令部 公事部（続群書類従完成会　1932年刊） </witness>
+                  <witness xml:id="小野宮年中行事裏書">
+                     <abbr> 小野宮年中行事裏書 </abbr> ：国立歴史民俗博物館所蔵本（H-1762） </witness>
+                  <witness xml:id="勘例">
+                     <abbr> 勘例（陽明文庫所蔵） </abbr> ：大日本古記録『勘例』上・下（岩波書店　2018・2023年刊） </witness>
+                  <witness xml:id="政事要略">
+                     <abbr> 政事要略 </abbr> ：新訂増補国史大系第28巻（吉川弘文館　1935年刊。適宜、写本を参照） </witness>
+                  <witness xml:id="法曹至要抄">
+                     <abbr> 法曹至要抄 </abbr> ：中世法制史料集（岩波書店　2005年刊） </witness>
+                  <witness xml:id="本草和名">
+                     <abbr> 本草和名 </abbr> ：丸山裕美子・武倩編著『本草和名』（汲古書院　2021年刊） </witness>
+               </listWit>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <variantEncoding location="external" method="location-referenced"/>
+         <tagsDecl>
+            <rendition xml:id="indent"> margin-top: 1em; </rendition>
+            <rendition xml:id="indent2"> margin-top: 2em; </rendition>
+            <rendition xml:id="indent3"> margin-top: 3em; </rendition>
+            <rendition xml:id="indent4"> margin-top: 4em; </rendition>
+            <rendition xml:id="indent5"> margin-top: 5em; </rendition>
+            <rendition xml:id="indent6"> margin-top: 6em; </rendition>
+            <rendition xml:id="indent7"> margin-top: 7em; </rendition>
+            <rendition xml:id="indent10"> margin-top: 10em; </rendition>
+            <rendition xml:id="indent12"> margin-top: 12em; </rendition>
+            <rendition xml:id="indent13"> margin-top: 13em; </rendition>
+            <rendition xml:id="indent14"> margin-top: 14em; </rendition>
+            <rendition xml:id="indent18"> margin-top: 18em; </rendition>
+            <rendition xml:id="width50"> width: 50px; </rendition>
+            <rendition xml:id="width80"> width: 80px; </rendition>
+            <rendition xml:id="width100"> width: 100px; </rendition>
+            <rendition xml:id="width150"> width: 150px; </rendition>
+            <rendition xml:id="width170"> width: 170px; </rendition>
+            <rendition xml:id="width200"> width: 200px; </rendition>
+            <rendition xml:id="width300"> width: 300px; </rendition>
+         </tagsDecl>
+         <editorialDecl ana="校訂文凡例">
+            <p ana="全体">
+               <table>
+                  <row>
+                     <cell> ・ </cell>
+                     <cell>
+                        原則として土本（以下、略称は「主要写本・版本・刊本等略称・底本一覧」参照）を底本とし、九本・剛本・条本・花本等の古写本や近本・壬本・京博本等の写本によって対校しました（巻によって使用した対校本は異なります）。
+                     </cell>
+                  </row>
+                  <row>
+                     <cell> ・ </cell>
+                     <cell>
+                        条文番号・条文名称は原則として訳注本に拠りましたが、一部を修正しています（※下記「条文名称修正一覧」参照）。なお1条が長い場合など、必要に応じ「項」に分割して示すこととしました。
+                     </cell>
+                  </row>
+                  <row>
+                     <cell> ・ </cell>
+                     <cell>
+                        校異は原則として底本の文字を改変する場合、あるいは写本間に参考とすべき異同がある場合、参考とすべき傍書等がある場合に付すこととしました。必ずしもその校異に関する写本をすべて網羅することはせず、主要写本のみを取り上げています。ただし訳注本と校訂文に異同が生じた場合には、できる限り校異にて言及するよう心がけました（単なる字体の相違については省略しています）。
+                     </cell>
+                  </row>
+                  <row>
+                     <cell> ・ </cell>
+                     <cell>
+                        校訂文は『延喜式』撰上当初の姿の復元を目標としています。標注や傍書は、条文名称に関わるものは省略し、中世以前にさかのぼることが想定されるものに限って、校異注で言及することとしました。ただし標注のうち「弘」「貞」「延」等については便宜を考え、鉤括弧で括って校訂本文に掲げることとしました。
+                     </cell>
+                  </row>
+                  <row>
+                     <cell> ・ </cell>
+                     <cell>
+                        字体は常用漢字体を原則としました。「大」と「太」、「座」と「坐」、「絇」と「約」、「績」と「續（続）」、「色」と「包」、「細」と「紬」、「鈍」と「純」、「冑」と「胃」、「絁」と「絶」、草冠と竹冠、木偏と手偏等、容易に判定される誤字や誤用・通用については、校異を省略して適宜置き換える場合があります。ただし巻9・10においては「大」「太」の差異も校異にて触れることとしました。
+                     </cell>
+                  </row>
+                  <row>
+                     <cell> ・ </cell>
+                     <cell> 校訂文中の細字・割書は、〈　〉で括って表現することとしました。 </cell>
+                  </row>
+                  <row>
+                     <cell> ・ </cell>
+                     <cell> 本文に誤字・脱字等が想定される場合であっても、置き換えるべき文字や補うべき文字が明確でない場合は、校異注での言及にとどめた場合があります。
+                     </cell>
+                  </row>
+                  <row>
+                     <cell> ・ </cell>
+                     <cell> ユニコードにて表示されない漢字は以下のように示すことにしました。 </cell>
+                  </row>
+               </table>
+               <table rendition="#indent2">
+                  <row>
+                     <cell rendition="#width100"> 【Ａ+Ｂ】 </cell>
+                     <cell rendition="#width300"> ＝扁がＡ、つくりがＢ </cell>
+                     <cell rendition="#width300"> 例）村【木+寸】 </cell>
+                  </row>
+                  <row>
+                     <cell rendition="#width100"> 【Ａ/Ｂ】 </cell>
+                     <cell rendition="#width300"> ＝上にＡ、下にＢ </cell>
+                     <cell rendition="#width300"> 例）雲【雨/云】 </cell>
+                  </row>
+                  <row>
+                     <cell rendition="#width100"> 【Ａ-Ｂ】 </cell>
+                     <cell rendition="#width300"> ＝Ａの字画よりＢにあたる字画を除く </cell>
+                     <cell rendition="#width300"> 例）門【閉-オ】 </cell>
+                  </row>
+                  <row>
+                     <cell rendition="#width100"> 【Ａ⊃Ｂ】 </cell>
+                     <cell rendition="#width300"> ＝Ａの字画のなかにＢの字画が含まれる </cell>
+                     <cell rendition="#width300"> 例）閉【門⊃オ】、国【囗⊃玉】 </cell>
+                  </row>
+                  <row>
+                     <cell/>
+                  </row>
+                  <row>
+                     <cell/>
+                  </row>
+               </table>
+               <table>
+                  <row>
+                     <cell> ・ </cell>
+                     <cell> 校異注の付く文字は赤字および青字で表示され、クリックすると注が表示されます。表示内容は以下の通りです。 </cell>
+                  </row>
+               </table>
+               <table rendition="#indent2">
+                  <row>
+                     <cell rendition="#width100"> 採用 </cell>
+                     <cell> 写本名と校訂文にて採用した文字 </cell>
+                  </row>
+                  <row>
+                     <cell rendition="#width100"> 校異 </cell>
+                     <cell> 写本名と対校箇所の文字 </cell>
+                  </row>
+                  <row>
+                     <cell rendition="#width100"> 解説 </cell>
+                     <cell> 各写本の傍書や頭書等の提示、校異注の本文（最下部の解説） </cell>
+                  </row>
+                  <row>
+                     <cell/>
+                  </row>
+                  <row>
+                     <cell/>
+                  </row>
+               </table>
+               <table>
+                  <row>
+                     <cell> ・ </cell>
+                     <cell> 条文名称修正一覧 </cell>
+                  </row>
+               </table>
+               <table rendition="#indent2">
+                  <row>
+                     <cell rendition="#width100"> 巻番号 </cell>
+                     <cell rendition="#width50"> 旧番号 </cell>
+                     <cell rendition="#width100"> 旧条文名 </cell>
+                     <cell rendition="#width50"> 番号 </cell>
+                     <cell rendition="#width100"> 訂正条文名 </cell>
+                  </row>
+                  <row>
+                     <cell rendition="#width100"> 111太政官 </cell>
+                     <cell rendition="#width50"> 67 </cell>
+                     <cell rendition="#width100"> 薗韓神祭 </cell>
+                     <cell rendition="#width50"> 67 </cell>
+                     <cell rendition="#width100"> 園韓神祭 </cell>
+                  </row>
+                  <row>
+                     <cell rendition="#width100"> 111太政官 </cell>
+                     <cell rendition="#width50"> 112 </cell>
+                     <cell rendition="#width100"> 行幸経宿 </cell>
+                     <cell rendition="#width50"> 112 </cell>
+                     <cell rendition="#width100"> 行幸経旬 </cell>
+                  </row>
+                  <row>
+                     <cell rendition="#width100"> 171内匠 </cell>
+                     <cell rendition="#width50"> 39 </cell>
+                     <cell rendition="#width100"> 作物衣服 </cell>
+                     <cell rendition="#width50"> 39 </cell>
+                     <cell rendition="#width100"> 作物衣 </cell>
+                  </row>
+                  <row>
+                     <cell rendition="#width100"> 214諸陵 </cell>
+                     <cell rendition="#width50"> 16 </cell>
+                     <cell rendition="#width100"> 後阿陁他遠墓 </cell>
+                     <cell rendition="#width50"> 16 </cell>
+                     <cell rendition="#width100"> 後阿陀他遠墓 </cell>
+                  </row>
+                  <row>
+                     <cell rendition="#width100"> 293囚獄 </cell>
+                     <cell rendition="#width50"> 2 </cell>
+                     <cell rendition="#width100"> 著鈦盤枷 </cell>
+                     <cell rendition="#width50"> 2 </cell>
+                     <cell rendition="#width100"> 着鈦盤枷 </cell>
+                  </row>
+                  <row>
+                     <cell rendition="#width100"> 321大膳上 </cell>
+                     <cell rendition="#width50"> 5 </cell>
+                     <cell rendition="#width100"> 新嘗祭 </cell>
+                     <cell rendition="#width50"> 5･6 </cell>
+                     <cell rendition="#width100"> 新嘗祭と新嘗小斎解斎に分割 </cell>
+                  </row>
+                  <row>
+                     <cell rendition="#width100"> 411弾正 </cell>
+                     <cell rendition="#width50"> 68 </cell>
+                     <cell rendition="#width100"> 支子染深色 </cell>
+                     <cell rendition="#width50"> 68 </cell>
+                     <cell rendition="#width100"> 支子染色 </cell>
+                  </row>
+                  <row>
+                     <cell rendition="#width100"> 422東西市 </cell>
+                     <cell rendition="#width50"> 1 </cell>
+                     <cell rendition="#width100"> 毎鄽立牓 </cell>
+                     <cell rendition="#width50"> 1 </cell>
+                     <cell rendition="#width100"> 毎厘立牓 </cell>
+                  </row>
+                  <row>
+                     <cell rendition="#width100"> 422東西市 </cell>
+                     <cell rendition="#width50"> 14 </cell>
+                     <cell rendition="#width100"> 東鄽 </cell>
+                     <cell rendition="#width50"> 14 </cell>
+                     <cell rendition="#width100"> 東厘 </cell>
+                  </row>
+                  <row>
+                     <cell rendition="#width100"> 422東西市 </cell>
+                     <cell rendition="#width50"> 15 </cell>
+                     <cell rendition="#width100"> 西鄽 </cell>
+                     <cell rendition="#width50"> 15 </cell>
+                     <cell rendition="#width100"> 西厘 </cell>
+                  </row>
+               </table>
+            </p>
+            <p ana="個別"/>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc ana="個別">
+         <listChange>
+            <change/>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div ana="左右京" n="42" subtype="式" type="巻" xml:id="volume42">
+            <div type="首題" xml:id="shudai42">
+               <p xml:id="shudai4201"> 首題 </p>
+            </div>
+            <div ana="左右京"
+               corresp="engishiki_v42-1_en.xml#protocol421 engishiki_v42-1_ja.xml#protocol421"
+               n="42-1" subtype="条" type="式" xml:id="protocol421">
+               <div type="式題" xml:id="shikidai421">
+                  <p xml:id="shikidai42101"> 式題 </p>
+               </div>
+               <div ana="左右京"
+                  corresp="engishiki_v42-1_en.xml#article421001 engishiki_v42-1_ja.xml#article421001"
+                  n="42-1.1" subtype="項" type="条" xml:id="article421001">
+                  <head ana="大神宮幣帛使"/>
+                  <p ana="項"
+                     corresp="engishiki_v42-1_en.xml#item42100101 engishiki_v42-1_ja.xml#item42100101"
+                     xml:id="item42100101"> 本文 </p>
+               </div>
+               <div ana="左右京"
+                  corresp="engishiki_v42-1_en.xml#article421002 engishiki_v42-1_ja.xml#article421002"
+                  n="42-1.2" subtype="項" type="条" xml:id="article421002">
+                  <head ana="斎王祓"/>
+                  <p ana="項"
+                     corresp="engishiki_v42-1_en.xml#item42100201 engishiki_v42-1_ja.xml#item42100201"
+                     xml:id="item42100201"> 本文 </p>
+               </div>
+               <div ana="左右京"
+                  corresp="engishiki_v42-1_en.xml#article421003 engishiki_v42-1_ja.xml#article421003"
+                  n="42-1.3" subtype="項" type="条" xml:id="article421003">
+                  <head ana="賀茂斎王祓"/>
+                  <p ana="項"
+                     corresp="engishiki_v42-1_en.xml#item42100301 engishiki_v42-1_ja.xml#item42100301"
+                     xml:id="item42100301"> 本文 </p>
+               </div>
+               <div ana="左右京"
+                  corresp="engishiki_v42-1_en.xml#article421004 engishiki_v42-1_ja.xml#article421004"
+                  n="42-1.4" subtype="項" type="条" xml:id="article421004">
+                  <head ana="大嘗大祓"/>
+                  <p ana="項"
+                     corresp="engishiki_v42-1_en.xml#item42100401 engishiki_v42-1_ja.xml#item42100401"
+                     xml:id="item42100401"> 本文 </p>
+               </div>
+               <div ana="左右京"
+                  corresp="engishiki_v42-1_en.xml#article421005 engishiki_v42-1_ja.xml#article421005"
+                  n="42-1.5" subtype="項" type="条" xml:id="article421005">
+                  <head ana="二季大祓"/>
+                  <p ana="項"
+                     corresp="engishiki_v42-1_en.xml#item42100501 engishiki_v42-1_ja.xml#item42100501"
+                     xml:id="item42100501"> 本文 </p>
+               </div>
+               <div ana="左右京"
+                  corresp="engishiki_v42-1_en.xml#article421006 engishiki_v42-1_ja.xml#article421006"
+                  n="42-1.6" subtype="項" type="条" xml:id="article421006">
+                  <head ana="畿内堺祭"/>
+                  <p ana="項"
+                     corresp="engishiki_v42-1_en.xml#item42100601 engishiki_v42-1_ja.xml#item42100601"
+                     xml:id="item42100601"> 本文 </p>
+               </div>
+               <div ana="左右京"
+                  corresp="engishiki_v42-1_en.xml#article421007 engishiki_v42-1_ja.xml#article421007"
+                  n="42-1.7" subtype="項" type="条" xml:id="article421007">
+                  <head ana="掃除大学"/>
+                  <p ana="項"
+                     corresp="engishiki_v42-1_en.xml#item42100701 engishiki_v42-1_ja.xml#item42100701"
+                     xml:id="item42100701"> 本文 </p>
+               </div>
+               <div ana="左右京"
+                  corresp="engishiki_v42-1_en.xml#article421008 engishiki_v42-1_ja.xml#article421008"
+                  n="42-1.8" subtype="項" type="条" xml:id="article421008">
+                  <head ana="文殊会"/>
+                  <p ana="項"
+                     corresp="engishiki_v42-1_en.xml#item42100801 engishiki_v42-1_ja.xml#item42100801"
+                     xml:id="item42100801"> 本文 </p>
+               </div>
+               <div ana="左右京"
+                  corresp="engishiki_v42-1_en.xml#article421009 engishiki_v42-1_ja.xml#article421009"
+                  n="42-1.9" subtype="項" type="条" xml:id="article421009">
+                  <head ana="射礼"/>
+                  <p ana="項"
+                     corresp="engishiki_v42-1_en.xml#item42100901 engishiki_v42-1_ja.xml#item42100901"
+                     xml:id="item42100901"> 本文 </p>
+               </div>
+               <div ana="左右京"
+                  corresp="engishiki_v42-1_en.xml#article421010 engishiki_v42-1_ja.xml#article421010"
+                  n="42-1.10" subtype="項" type="条" xml:id="article421010">
+                  <head ana="追儺"/>
+                  <p ana="項"
+                     corresp="engishiki_v42-1_en.xml#item42101001 engishiki_v42-1_ja.xml#item42101001"
+                     xml:id="item42101001"> 本文 </p>
+               </div>
+               <div ana="左右京"
+                  corresp="engishiki_v42-1_en.xml#article421011 engishiki_v42-1_ja.xml#article421011"
+                  n="42-1.11" subtype="項" type="条" xml:id="article421011">
+                  <head ana="追儺夜"/>
+                  <p ana="項"
+                     corresp="engishiki_v42-1_en.xml#item42101101 engishiki_v42-1_ja.xml#item42101101"
+                     xml:id="item42101101"> 本文 </p>
+               </div>
+               <div ana="左右京"
+                  corresp="engishiki_v42-1_en.xml#article421012 engishiki_v42-1_ja.xml#article421012"
+                  n="42-1.12" subtype="項" type="条" xml:id="article421012">
+                  <head ana="車駕行幸"/>
+                  <p ana="項"
+                     corresp="engishiki_v42-1_en.xml#item42101201 engishiki_v42-1_ja.xml#item42101201"
+                     xml:id="item42101201"> 本文 </p>
+               </div>
+               <div ana="左右京"
+                  corresp="engishiki_v42-1_en.xml#article421013 engishiki_v42-1_ja.xml#article421013"
+                  n="42-1.13" subtype="項" type="条" xml:id="article421013">
+                  <head ana="京路掃除"/>
+                  <p ana="項"
+                     corresp="engishiki_v42-1_en.xml#item42101301 engishiki_v42-1_ja.xml#item42101301"
+                     xml:id="item42101301"> 本文 </p>
+               </div>
+               <div ana="左右京"
+                  corresp="engishiki_v42-1_en.xml#article421014 engishiki_v42-1_ja.xml#article421014"
+                  n="42-1.14" subtype="項" type="条" xml:id="article421014">
+                  <head ana="朱雀路溝"/>
+                  <p ana="項"
+                     corresp="engishiki_v42-1_en.xml#item42101401 engishiki_v42-1_ja.xml#item42101401"
+                     xml:id="item42101401"> 本文 </p>
+               </div>
+               <div ana="左右京"
+                  corresp="engishiki_v42-1_en.xml#article421015 engishiki_v42-1_ja.xml#article421015"
+                  n="42-1.15" subtype="項" type="条" xml:id="article421015">
+                  <head ana="宮城辺立鋪"/>
+                  <p ana="項"
+                     corresp="engishiki_v42-1_en.xml#item42101501 engishiki_v42-1_ja.xml#item42101501"
+                     xml:id="item42101501"> 本文 </p>
+               </div>
+               <div ana="左右京"
+                  corresp="engishiki_v42-1_en.xml#article421016 engishiki_v42-1_ja.xml#article421016"
+                  n="42-1.16" subtype="項" type="条" xml:id="article421016">
+                  <head ana="諸門厩亭"/>
+                  <p ana="項"
+                     corresp="engishiki_v42-1_en.xml#item42101601 engishiki_v42-1_ja.xml#item42101601"
+                     xml:id="item42101601"> 本文 </p>
+               </div>
+               <div ana="左右京"
+                  corresp="engishiki_v42-1_en.xml#article421017 engishiki_v42-1_ja.xml#article421017"
+                  n="42-1.17" subtype="項" type="条" xml:id="article421017">
+                  <head ana="騎馬之輩"/>
+                  <p ana="項"
+                     corresp="engishiki_v42-1_en.xml#item42101701 engishiki_v42-1_ja.xml#item42101701"
+                     xml:id="item42101701"> 本文 </p>
+               </div>
+               <div ana="左右京"
+                  corresp="engishiki_v42-1_en.xml#article421018 engishiki_v42-1_ja.xml#article421018"
+                  n="42-1.18" subtype="項" type="条" xml:id="article421018">
+                  <head ana="朱雀放飼"/>
+                  <p ana="項"
+                     corresp="engishiki_v42-1_en.xml#item42101801 engishiki_v42-1_ja.xml#item42101801"
+                     xml:id="item42101801"> 本文 </p>
+               </div>
+               <div ana="左右京"
+                  corresp="engishiki_v42-1_en.xml#article421019 engishiki_v42-1_ja.xml#article421019"
+                  n="42-1.19" subtype="項" type="条" xml:id="article421019">
+                  <head ana="大路建門屋"/>
+                  <p ana="項"
+                     corresp="engishiki_v42-1_en.xml#item42101901 engishiki_v42-1_ja.xml#item42101901"
+                     xml:id="item42101901"> 本文 </p>
+               </div>
+               <div ana="左右京"
+                  corresp="engishiki_v42-1_en.xml#article421020 engishiki_v42-1_ja.xml#article421020"
+                  n="42-1.20" subtype="項" type="条" xml:id="article421020">
+                  <head ana="衛士仕丁坊"/>
+                  <p ana="項"
+                     corresp="engishiki_v42-1_en.xml#item42102001 engishiki_v42-1_ja.xml#item42102001"
+                     xml:id="item42102001"> 本文 </p>
+               </div>
+               <div ana="左右京"
+                  corresp="engishiki_v42-1_en.xml#article421021 engishiki_v42-1_ja.xml#article421021"
+                  n="42-1.21" subtype="項" type="条" xml:id="article421021">
+                  <head ana="京職栽柳"/>
+                  <p ana="項"
+                     corresp="engishiki_v42-1_en.xml#item42102101 engishiki_v42-1_ja.xml#item42102101"
+                     xml:id="item42102101"> 本文 </p>
+               </div>
+               <div ana="左右京"
+                  corresp="engishiki_v42-1_en.xml#article421022 engishiki_v42-1_ja.xml#article421022"
+                  n="42-1.22" subtype="項" type="条" xml:id="article421022">
+                  <head ana="道路辺樹"/>
+                  <p ana="項"
+                     corresp="engishiki_v42-1_en.xml#item42102201 engishiki_v42-1_ja.xml#item42102201"
+                     xml:id="item42102201"> 本文 </p>
+               </div>
+               <div ana="左右京"
+                  corresp="engishiki_v42-1_en.xml#article421023 engishiki_v42-1_ja.xml#article421023"
+                  n="42-1.23" subtype="項" type="条" xml:id="article421023">
+                  <head ana="京中水田"/>
+                  <p ana="項"
+                     corresp="engishiki_v42-1_en.xml#item42102301 engishiki_v42-1_ja.xml#item42102301"
+                     xml:id="item42102301"> 本文 </p>
+               </div>
+               <div ana="左右京"
+                  corresp="engishiki_v42-1_en.xml#article421024 engishiki_v42-1_ja.xml#article421024"
+                  n="42-1.24" subtype="項" type="条" xml:id="article421024">
+                  <head ana="京中閑地"/>
+                  <p ana="項"
+                     corresp="engishiki_v42-1_en.xml#item42102401 engishiki_v42-1_ja.xml#item42102401"
+                     xml:id="item42102401"> 本文 </p>
+               </div>
+               <div ana="左右京"
+                  corresp="engishiki_v42-1_en.xml#article421025 engishiki_v42-1_ja.xml#article421025"
+                  n="42-1.25" subtype="項" type="条" xml:id="article421025">
+                  <head ana="路辺病者"/>
+                  <p ana="項"
+                     corresp="engishiki_v42-1_en.xml#item42102501 engishiki_v42-1_ja.xml#item42102501"
+                     xml:id="item42102501"> 本文 </p>
+               </div>
+               <div ana="左右京"
+                  corresp="engishiki_v42-1_en.xml#article421026 engishiki_v42-1_ja.xml#article421026"
+                  n="42-1.26" subtype="項" type="条" xml:id="article421026">
+                  <head ana="勅旨所正倉守"/>
+                  <p ana="項"
+                     corresp="engishiki_v42-1_en.xml#item42102601 engishiki_v42-1_ja.xml#item42102601"
+                     xml:id="item42102601"> 本文 </p>
+               </div>
+               <div ana="左右京"
+                  corresp="engishiki_v42-1_en.xml#article421027 engishiki_v42-1_ja.xml#article421027"
+                  n="42-1.27" subtype="項" type="条" xml:id="article421027">
+                  <head ana="下諸国符"/>
+                  <p ana="項"
+                     corresp="engishiki_v42-1_en.xml#item42102701 engishiki_v42-1_ja.xml#item42102701"
+                     xml:id="item42102701"> 本文 </p>
+               </div>
+               <div ana="左右京"
+                  corresp="engishiki_v42-1_en.xml#article421028 engishiki_v42-1_ja.xml#article421028"
+                  n="42-1.28" subtype="項" type="条" xml:id="article421028">
+                  <head ana="蕃客入朝"/>
+                  <p ana="項"
+                     corresp="engishiki_v42-1_en.xml#item42102801 engishiki_v42-1_ja.xml#item42102801"
+                     xml:id="item42102801"> 本文 </p>
+               </div>
+               <div ana="左右京"
+                  corresp="engishiki_v42-1_en.xml#article421029 engishiki_v42-1_ja.xml#article421029"
+                  n="42-1.29" subtype="項" type="条" xml:id="article421029">
+                  <head ana="親王大臣薨"/>
+                  <p ana="項"
+                     corresp="engishiki_v42-1_en.xml#item42102901 engishiki_v42-1_ja.xml#item42102901"
+                     xml:id="item42102901"> 本文 </p>
+               </div>
+               <div ana="左右京"
+                  corresp="engishiki_v42-1_en.xml#article421030 engishiki_v42-1_ja.xml#article421030"
+                  n="42-1.30" subtype="項" type="条" xml:id="article421030">
+                  <head ana="賻物"/>
+                  <p ana="項"
+                     corresp="engishiki_v42-1_en.xml#item42103001 engishiki_v42-1_ja.xml#item42103001"
+                     xml:id="item42103001"> 本文 </p>
+               </div>
+               <div ana="左右京"
+                  corresp="engishiki_v42-1_en.xml#article421031 engishiki_v42-1_ja.xml#article421031"
+                  n="42-1.31" subtype="項" type="条" xml:id="article421031">
+                  <head ana="喪家申官"/>
+                  <p ana="項"
+                     corresp="engishiki_v42-1_en.xml#item42103101 engishiki_v42-1_ja.xml#item42103101"
+                     xml:id="item42103101"> 本文 </p>
+               </div>
+               <div ana="左右京"
+                  corresp="engishiki_v42-1_en.xml#article421032 engishiki_v42-1_ja.xml#article421032"
+                  n="42-1.32" subtype="項" type="条" xml:id="article421032">
+                  <head ana="賜賻物"/>
+                  <p ana="項"
+                     corresp="engishiki_v42-1_en.xml#item42103201 engishiki_v42-1_ja.xml#item42103201"
+                     xml:id="item42103201"> 本文 </p>
+               </div>
+               <div ana="左右京"
+                  corresp="engishiki_v42-1_en.xml#article421033 engishiki_v42-1_ja.xml#article421033"
+                  n="42-1.33" subtype="項" type="条" xml:id="article421033">
+                  <head ana="雇使員数"/>
+                  <p ana="項"
+                     corresp="engishiki_v42-1_en.xml#item42103301 engishiki_v42-1_ja.xml#item42103301"
+                     xml:id="item42103301"> 本文 </p>
+                  <p ana="項"
+                     corresp="engishiki_v42-1_en.xml#item42103302 engishiki_v42-1_ja.xml#item42103302"
+                     xml:id="item42103302"> 本文 </p>
+               </div>
+               <div ana="左右京"
+                  corresp="engishiki_v42-1_en.xml#article421034 engishiki_v42-1_ja.xml#article421034"
+                  n="42-1.34" subtype="項" type="条" xml:id="article421034">
+                  <head ana="兵士当色"/>
+                  <p ana="項"
+                     corresp="engishiki_v42-1_en.xml#item42103401 engishiki_v42-1_ja.xml#item42103401"
+                     xml:id="item42103401"> 本文 </p>
+               </div>
+               <div ana="左右京"
+                  corresp="engishiki_v42-1_en.xml#article421035 engishiki_v42-1_ja.xml#article421035"
+                  n="42-1.35" subtype="項" type="条" xml:id="article421035">
+                  <head ana="勘造授田口帳"/>
+                  <p ana="項"
+                     corresp="engishiki_v42-1_en.xml#item42103501 engishiki_v42-1_ja.xml#item42103501"
+                     xml:id="item42103501"> 本文 </p>
+                  <p ana="項"
+                     corresp="engishiki_v42-1_en.xml#item42103502 engishiki_v42-1_ja.xml#item42103502"
+                     xml:id="item42103502"> 本文 </p>
+                  <p ana="項"
+                     corresp="engishiki_v42-1_en.xml#item42103503 engishiki_v42-1_ja.xml#item42103503"
+                     xml:id="item42103503"> 本文 </p>
+               </div>
+               <div ana="左右京"
+                  corresp="engishiki_v42-1_en.xml#article421036 engishiki_v42-1_ja.xml#article421036"
+                  n="42-1.36" subtype="項" type="条" xml:id="article421036">
+                  <head ana="班田使祗承"/>
+                  <p ana="項"
+                     corresp="engishiki_v42-1_en.xml#item42103601 engishiki_v42-1_ja.xml#item42103601"
+                     xml:id="item42103601"> 本文 </p>
+                  <p ana="項"
+                     corresp="engishiki_v42-1_en.xml#item42103602 engishiki_v42-1_ja.xml#item42103602"
+                     xml:id="item42103602"> 本文 </p>
+                  <p ana="項"
+                     corresp="engishiki_v42-1_en.xml#item42103603 engishiki_v42-1_ja.xml#item42103603"
+                     xml:id="item42103603"> 本文 </p>
+               </div>
+               <div ana="左右京"
+                  corresp="engishiki_v42-1_en.xml#article421037 engishiki_v42-1_ja.xml#article421037"
+                  n="42-1.37" subtype="項" type="条" xml:id="article421037">
+                  <head ana="田籍"/>
+                  <p ana="項"
+                     corresp="engishiki_v42-1_en.xml#item42103701 engishiki_v42-1_ja.xml#item42103701"
+                     xml:id="item42103701"> 本文 </p>
+               </div>
+               <div ana="左右京"
+                  corresp="engishiki_v42-1_en.xml#article421038 engishiki_v42-1_ja.xml#article421038"
+                  n="42-1.38" subtype="項" type="条" xml:id="article421038">
+                  <head ana="戸籍帙料"/>
+                  <p ana="項"
+                     corresp="engishiki_v42-1_en.xml#item42103801 engishiki_v42-1_ja.xml#item42103801"
+                     xml:id="item42103801"> 本文 </p>
+               </div>
+               <div ana="左右京"
+                  corresp="engishiki_v42-1_en.xml#article421039 engishiki_v42-1_ja.xml#article421039"
+                  n="42-1.39" subtype="項" type="条" xml:id="article421039">
+                  <head ana="責計帳手実"/>
+                  <p ana="項"
+                     corresp="engishiki_v42-1_en.xml#item42103901 engishiki_v42-1_ja.xml#item42103901"
+                     xml:id="item42103901"> 本文 </p>
+               </div>
+               <div ana="左右京"
+                  corresp="engishiki_v42-1_en.xml#article421040 engishiki_v42-1_ja.xml#article421040"
+                  n="42-1.40" subtype="項" type="条" xml:id="article421040">
+                  <head ana="不進計帳"/>
+                  <p ana="項"
+                     corresp="engishiki_v42-1_en.xml#item42104001 engishiki_v42-1_ja.xml#item42104001"
+                     xml:id="item42104001"> 本文 </p>
+               </div>
+               <div ana="左右京"
+                  corresp="engishiki_v42-1_en.xml#article421041 engishiki_v42-1_ja.xml#article421041"
+                  n="42-1.41" subtype="項" type="条" xml:id="article421041">
+                  <head ana="誤置職写"/>
+                  <p ana="項"
+                     corresp="engishiki_v42-1_en.xml#item42104101 engishiki_v42-1_ja.xml#item42104101"
+                     xml:id="item42104101"> 本文 </p>
+               </div>
+               <div ana="左右京"
+                  corresp="engishiki_v42-1_en.xml#article421042 engishiki_v42-1_ja.xml#article421042"
+                  n="42-1.42" subtype="項" type="条" xml:id="article421042">
+                  <head ana="職写戸田価"/>
+                  <p ana="項"
+                     corresp="engishiki_v42-1_en.xml#item42104201 engishiki_v42-1_ja.xml#item42104201"
+                     xml:id="item42104201"> 本文 </p>
+               </div>
+               <div ana="左右京"
+                  corresp="engishiki_v42-1_en.xml#article421043 engishiki_v42-1_ja.xml#article421043"
+                  n="42-1.43" subtype="項" type="条" xml:id="article421043">
+                  <head ana="職写田帳"/>
+                  <p ana="項"
+                     corresp="engishiki_v42-1_en.xml#item42104301 engishiki_v42-1_ja.xml#item42104301"
+                     xml:id="item42104301"> 本文 </p>
+               </div>
+               <div ana="左右京"
+                  corresp="engishiki_v42-1_en.xml#article421044 engishiki_v42-1_ja.xml#article421044"
+                  n="42-1.44" subtype="項" type="条" xml:id="article421044">
+                  <head ana="職写不沽田"/>
+                  <p ana="項"
+                     corresp="engishiki_v42-1_en.xml#item42104401 engishiki_v42-1_ja.xml#item42104401"
+                     xml:id="item42104401"> 本文 </p>
+               </div>
+               <div ana="左右京"
+                  corresp="engishiki_v42-1_en.xml#article421045 engishiki_v42-1_ja.xml#article421045"
+                  n="42-1.45" subtype="項" type="条" xml:id="article421045">
+                  <head ana="厨料"/>
+                  <p ana="項"
+                     corresp="engishiki_v42-1_en.xml#item42104501 engishiki_v42-1_ja.xml#item42104501"
+                     xml:id="item42104501"> 本文 </p>
+               </div>
+               <div ana="左右京"
+                  corresp="engishiki_v42-1_en.xml#article421046 engishiki_v42-1_ja.xml#article421046"
+                  n="42-1.46" subtype="項" type="条" xml:id="article421046">
+                  <head ana="造橋料銭"/>
+                  <p ana="項"
+                     corresp="engishiki_v42-1_en.xml#item42104601 engishiki_v42-1_ja.xml#item42104601"
+                     xml:id="item42104601"> 本文 </p>
+               </div>
+               <div ana="左右京"
+                  corresp="engishiki_v42-1_en.xml#article421047 engishiki_v42-1_ja.xml#article421047"
+                  n="42-1.47" subtype="項" type="条" xml:id="article421047">
+                  <head ana="徭分銭"/>
+                  <p ana="項"
+                     corresp="engishiki_v42-1_en.xml#item42104701 engishiki_v42-1_ja.xml#item42104701"
+                     xml:id="item42104701"> 本文 </p>
+               </div>
+               <div ana="左右京"
+                  corresp="engishiki_v42-1_en.xml#article421048 engishiki_v42-1_ja.xml#article421048"
+                  n="42-1.48" subtype="項" type="条" xml:id="article421048">
+                  <head ana="調徭銭用帳"/>
+                  <p ana="項"
+                     corresp="engishiki_v42-1_en.xml#item42104801 engishiki_v42-1_ja.xml#item42104801"
+                     xml:id="item42104801"> 本文 </p>
+               </div>
+               <div ana="左右京"
+                  corresp="engishiki_v42-1_en.xml#article421049 engishiki_v42-1_ja.xml#article421049"
+                  n="42-1.49" subtype="項" type="条" xml:id="article421049">
+                  <head ana="銭文"/>
+                  <p ana="項"
+                     corresp="engishiki_v42-1_en.xml#item42104901 engishiki_v42-1_ja.xml#item42104901"
+                     xml:id="item42104901"> 本文 </p>
+               </div>
+               <div ana="左右京"
+                  corresp="engishiki_v42-1_en.xml#article421050 engishiki_v42-1_ja.xml#article421050"
+                  n="42-1.50" subtype="項" type="条" xml:id="article421050">
+                  <head ana="義倉用度帳"/>
+                  <p ana="項"
+                     corresp="engishiki_v42-1_en.xml#item42105001 engishiki_v42-1_ja.xml#item42105001"
+                     xml:id="item42105001"> 本文 </p>
+               </div>
+               <div ana="左右京"
+                  corresp="engishiki_v42-1_en.xml#article421051 engishiki_v42-1_ja.xml#article421051"
+                  n="42-1.51" subtype="項" type="条" xml:id="article421051">
+                  <head ana="京戸課徭"/>
+                  <p ana="項"
+                     corresp="engishiki_v42-1_en.xml#item42105101 engishiki_v42-1_ja.xml#item42105101"
+                     xml:id="item42105101"> 本文 </p>
+               </div>
+               <div ana="左右京"
+                  corresp="engishiki_v42-1_en.xml#article421052 engishiki_v42-1_ja.xml#article421052"
+                  n="42-1.52" subtype="項" type="条" xml:id="article421052">
+                  <head ana="諸王歳満"/>
+                  <p ana="項"
+                     corresp="engishiki_v42-1_en.xml#item42105201 engishiki_v42-1_ja.xml#item42105201"
+                     xml:id="item42105201"> 本文 </p>
+               </div>
+               <div ana="左右京"
+                  corresp="engishiki_v42-1_en.xml#article421053 engishiki_v42-1_ja.xml#article421053"
+                  n="42-1.53" subtype="項" type="条" xml:id="article421053">
+                  <head ana="貢挙"/>
+                  <p ana="項"
+                     corresp="engishiki_v42-1_en.xml#item42105301 engishiki_v42-1_ja.xml#item42105301"
+                     xml:id="item42105301"> 本文 </p>
+               </div>
+               <div ana="左右京"
+                  corresp="engishiki_v42-1_en.xml#article421054 engishiki_v42-1_ja.xml#article421054"
+                  n="42-1.54" subtype="項" type="条" xml:id="article421054">
+                  <head ana="堀川杭"/>
+                  <p ana="項"
+                     corresp="engishiki_v42-1_en.xml#item42105401 engishiki_v42-1_ja.xml#item42105401"
+                     xml:id="item42105401"> 本文 </p>
+               </div>
+               <div ana="左右京"
+                  corresp="engishiki_v42-1_en.xml#article421055 engishiki_v42-1_ja.xml#article421055"
+                  n="42-1.55" subtype="項" type="条" xml:id="article421055">
+                  <head ana="闕官要劇田"/>
+                  <p ana="項"
+                     corresp="engishiki_v42-1_en.xml#item42105501 engishiki_v42-1_ja.xml#item42105501"
+                     xml:id="item42105501"> 本文 </p>
+               </div>
+               <div ana="左右京"
+                  corresp="engishiki_v42-1_en.xml#article421056 engishiki_v42-1_ja.xml#article421056"
+                  n="42-1.56" subtype="項" type="条" xml:id="article421056">
+                  <head ana="不仕料物"/>
+                  <p ana="項"
+                     corresp="engishiki_v42-1_en.xml#item42105601 engishiki_v42-1_ja.xml#item42105601"
+                     xml:id="item42105601"> 本文 </p>
+               </div>
+               <div ana="左右京"
+                  corresp="engishiki_v42-1_en.xml#article421057 engishiki_v42-1_ja.xml#article421057"
+                  n="42-1.57" subtype="項" type="条" xml:id="article421057">
+                  <head ana="薬道場"/>
+                  <p ana="項"
+                     corresp="engishiki_v42-1_en.xml#item42105701 engishiki_v42-1_ja.xml#item42105701"
+                     xml:id="item42105701"> 本文 </p>
+               </div>
+               <div ana="左右京"
+                  corresp="engishiki_v42-1_en.xml#article421058 engishiki_v42-1_ja.xml#article421058"
+                  n="42-1.58" subtype="項" type="条" xml:id="article421058">
+                  <head ana="京程"/>
+                  <p ana="項"
+                     corresp="engishiki_v42-1_en.xml#item42105801 engishiki_v42-1_ja.xml#item42105801"
+                     xml:id="item42105801"> 本文 </p>
+                  <p ana="項"
+                     corresp="engishiki_v42-1_en.xml#item42105802 engishiki_v42-1_ja.xml#item42105802"
+                     xml:id="item42105802"> 本文 </p>
+                  <p ana="項"
+                     corresp="engishiki_v42-1_en.xml#item42105803 engishiki_v42-1_ja.xml#item42105803"
+                     xml:id="item42105803"> 本文 </p>
+                  <p ana="項"
+                     corresp="engishiki_v42-1_en.xml#item42105804 engishiki_v42-1_ja.xml#item42105804"
+                     xml:id="item42105804"> 本文 </p>
+                  <p ana="項"
+                     corresp="engishiki_v42-1_en.xml#item42105805 engishiki_v42-1_ja.xml#item42105805"
+                     xml:id="item42105805"> 本文 </p>
+                  <p ana="項"
+                     corresp="engishiki_v42-1_en.xml#item42105806 engishiki_v42-1_ja.xml#item42105806"
+                     xml:id="item42105806"> 本文 </p>
+                  <p ana="項"
+                     corresp="engishiki_v42-1_en.xml#item42105807 engishiki_v42-1_ja.xml#item42105807"
+                     xml:id="item42105807"> 本文 </p>
+                  <p ana="項"
+                     corresp="engishiki_v42-1_en.xml#item42105808 engishiki_v42-1_ja.xml#item42105808"
+                     xml:id="item42105808"> 本文 </p>
+                  <p ana="項"
+                     corresp="engishiki_v42-1_en.xml#item42105809 engishiki_v42-1_ja.xml#item42105809"
+                     xml:id="item42105809"> 本文 </p>
+                  <p ana="項"
+                     corresp="engishiki_v42-1_en.xml#item42105810 engishiki_v42-1_ja.xml#item42105810"
+                     xml:id="item42105810"> 本文 </p>
+               </div>
+               <div ana="左右京"
+                  corresp="engishiki_v42-1_en.xml#article421059 engishiki_v42-1_ja.xml#article421059"
+                  n="42-1.59" subtype="項" type="条" xml:id="article421059">
+                  <head ana="町内小径"/>
+                  <p ana="項"
+                     corresp="engishiki_v42-1_en.xml#item42105901 engishiki_v42-1_ja.xml#item42105901"
+                     xml:id="item42105901"> 本文 </p>
+               </div>
+               <div ana="左右京"
+                  corresp="engishiki_v42-1_en.xml#article421060 engishiki_v42-1_ja.xml#article421060"
+                  n="42-1.60" subtype="項" type="条" xml:id="article421060">
+                  <head ana="築垣功程"/>
+                  <p ana="項"
+                     corresp="engishiki_v42-1_en.xml#item42106001 engishiki_v42-1_ja.xml#item42106001"
+                     xml:id="item42106001"> 本文 </p>
+               </div>
+            </div>
+            <div type="尾題" xml:id="bidai42">
+               <p xml:id="bidai4201"> 尾題 </p>
+            </div>
+            <div type="本奥書" xml:id="okugaki42">
+               <p xml:id="okugaki4201"> 本奥書 </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>
