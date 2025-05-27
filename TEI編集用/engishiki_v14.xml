@@ -451,7 +451,7 @@
      <div ana="縫殿" n="14.1" subtype="項" type="条">
       <head ana="寮神祭"/>
       <p ana="項" corresp="engishiki_v14_ja.xml#item14100101 engishiki_v14_en.xml#item14100101"
-       xml:id="item14100101"> 寮神三座夏祭〈冬祭准此、〉 <lb/> 御匣殿神一座 <lb/>
+       xml:id="item14100101"> <orgName corresp="#寮">寮</orgName>神三座夏祭〈冬祭准此、〉 <lb/> 御匣殿神一座 <lb/>
        五色薄絁各三尺、絹二疋、綿二屯、糸二絇、納幣明櫃一合、〈其絹・綿等至冬祭賜物忌・御巫、冬料亦至 <anchor xml:id="app1410010101"/> 夏 <anchor
         xml:id="app1410010101e"/> 賜、〉酒二斗、饌食二案、脚別机四前、〈二盛幣料、二盛饌食料、並<orgName sameAs="#内膳司"
         >内膳司</orgName>
@@ -1251,8 +1251,8 @@
       <head ana="御礼服"/>
       <p ana="項" corresp="engishiki_v14_ja.xml#item14101801 engishiki_v14_en.xml#item14101801"
        xml:id="item14101801"> 元日御礼服、前二日受<orgName sameAs="#内蔵寮"
-        >内蔵寮</orgName>、熨脩即付本寮、同日節会賜親王已下被一百条、〈別一疋一丈五尺、〉綿八百屯、〈別八屯、〉預前縫備、当日持候、<orgName sameAs="#中務省"
-        >中務</orgName>唱名、寮即頒給、其有残者依例行之、 </p>
+        >内蔵寮</orgName>、熨脩即付本<orgName corresp="#寮">寮</orgName>、同日節会賜親王已下被一百条、〈別一疋一丈五尺、〉綿八百屯、〈別八屯、〉預前縫備、当日持候、<orgName sameAs="#中務省"
+         >中務</orgName>唱名、<orgName corresp="#寮">寮</orgName>即頒給、其有残者依例行之、 </p>
      </div>
      <div ana="縫殿" n="14.19" subtype="項" type="条">
       <head ana="鷹飼"/>
@@ -1294,7 +1294,7 @@
      <div ana="縫殿" n="14.22" subtype="項" type="条">
       <head ana="禄文"/>
       <p ana="項" corresp="engishiki_v14_ja.xml#item14102201 engishiki_v14_en.xml#item14102201"
-       xml:id="item14102201"> 凡職事已下宮人已上造禄文料紙申省、〈春秋各五十張、〉 </p>
+       xml:id="item14102201"> 凡職事已下宮人已上造禄文料紙申<orgName corresp="#省">省</orgName>、〈春秋各五十張、〉 </p>
      </div>
      <div ana="縫殿" n="14.23" subtype="項" type="条">
       <head ana="膂力養物"/>
@@ -1310,7 +1310,7 @@
       <head ana="女官地"/>
       <p ana="項" corresp="engishiki_v14_ja.xml#item14102501 engishiki_v14_en.xml#item14102501"
        xml:id="item14102501"> 凡地六町、〈左京北辺 <anchor xml:id="app1410250101"/> 三 <anchor
-        xml:id="app1410250101e"/> 坊一町、右京北辺二坊三町、一条二坊二町、〉四町賜内侍司東豎子・女孺・膂力婦、二町賜寮女孺已下、 </p>
+        xml:id="app1410250101e"/> 坊一町、右京北辺二坊三町、一条二坊二町、〉四町賜内侍司東豎子・女孺・膂力婦、二町賜<orgName corresp="#寮">寮</orgName>女孺已下、 </p>
       <app from="#app1410250101" to="#app1410250101e">
        <lem wit="#土本 #剛本 #京博本"> 三 </lem>
        <rdg wit="#剛本朱傍書 #京博本朱傍書"> 二 </rdg>
@@ -1338,10 +1338,10 @@
      <div ana="縫殿" n="14.28" subtype="項" type="条">
       <head ana="今良服米"/>
       <p ana="項" corresp="engishiki_v14_ja.xml#item14102801 engishiki_v14_en.xml#item14102801"
-       xml:id="item14102801"> 凡寮直今良廿四人、〈男二人、女廿二人、〉其衣服并粮米、 <pb
+       xml:id="item14102801"> 凡<orgName corresp="#寮">寮</orgName>直今良廿四人、〈男二人、女廿二人、〉其衣服并粮米、 <pb
         facs="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-14%2F00026.tif/full/full/0/default.jpg"
-       /> 不経<orgName sameAs="#主殿寮">主殿寮</orgName>、 <anchor xml:id="app1410280101"/> 寮 <anchor
-         xml:id="app1410280101e"/> 直受充、 </p>
+       /> 不経<orgName sameAs="#主殿寮">主殿寮</orgName>、 <orgName corresp="#寮"><anchor xml:id="app1410280101"/> 寮 <anchor
+        xml:id="app1410280101e"/></orgName> 直受充、 </p>
       <app from="#app1410280101" to="#app1410280101e">
        <lem wit="#剛本 #京博本朱傍書"> 寮 </lem>
        <rdg wit="#土本 #近本 #京博本"> 家 </rdg>
@@ -1353,7 +1353,7 @@
       <head ana="仕女養物"/>
       <p ana="項" corresp="engishiki_v14_ja.xml#item14102901 engishiki_v14_en.xml#item14102901"
        xml:id="item14102901"> 凡仕女二人日功養物、勘 <anchor xml:id="app1410290101"/> 納 <anchor
-        xml:id="app1410290101e"/> 寮家充給、 </p>
+        xml:id="app1410290101e"/> <orgName corresp="#寮">寮</orgName>家充給、 </p>
       <app from="#app1410290101" to="#app1410290101e">
        <lem wit="#剛本 #壬本 #近本傍書"> 納 </lem>
        <rdg wit="#土本 #近本"/>
