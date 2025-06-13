@@ -454,7 +454,7 @@
     <pb facs="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-9%2F00002.tif/full/full/0/default.jpg"/>
     <div type="首題" xml:id="shudai09">
      <p xml:id="shudai0901">
-      <anchor xml:id="app0966660101"/> 延喜式巻第九 <anchor xml:id="app0966660101e"/> 〈<orgName sameAs="#神祇官">神祇</orgName> <anchor xml:id="app0966660102"/> 九 <anchor xml:id="app0966660102e"/> 〉 </p>
+      <anchor xml:id="app0966660101"/> 延喜式巻第九 <anchor xml:id="app0966660101e"/> 〈<orgName corresp="#神祇官">神祇</orgName> <anchor xml:id="app0966660102"/> 九 <anchor xml:id="app0966660102e"/> 〉 </p>
      <app from="#app0966660101" to="#app0966660101e">
       <lem wit="#土本 #永本 #吉本 #京博本"> 延喜式巻第九 </lem>
       <note> 延喜式巻第九　永本これより前に五畿内東海道諸国の一覧あり。国名の右肩に「上」「大」等の等級を記す。吉本にもあり、ただし国の等級は記されない。 </note>
@@ -469,7 +469,7 @@
     </div>
     <div ana="神名上" corresp="engishiki_v9_en.xml#protocol091 engishiki_v9_ja.xml#protocol091" n="9" subtype="条" type="式" xml:id="protocol091">
      <div type="式題" xml:id="shikidai091">
-      <p xml:id="shikidai09101"> 神名上〈宮中 京中 五<placeName sameAs="#畿内">畿内</placeName> <placeName sameAs="#東海道">東海道</placeName>〉 </p>
+      <p xml:id="shikidai09101"> 神名上〈宮中 京中 五<placeName corresp="#畿内">畿内</placeName> <placeName corresp="#東海道">東海道</placeName>〉 </p>
      </div>
      <div ana="神名上" corresp="engishiki_v9_en.xml#article091001 engishiki_v9_ja.xml#article091001" n="9.1" subtype="項" type="条" xml:id="article091001">
       <head ana="天神地祇"/>
@@ -503,7 +503,7 @@
      </div>
      <div ana="神名上" corresp="engishiki_v9_en.xml#article091002 engishiki_v9_ja.xml#article091002" n="9.2" subtype="項" type="条" xml:id="article091002">
       <head ana="宮中"/>
-      <p ana="項" corresp="engishiki_v9_en.xml#item09100201 engishiki_v9_ja.xml#item09100201" xml:id="item09100201"> 宮中神卅六座 <lb/> <orgName sameAs="#神祇官">神祇官</orgName>西院坐御巫等祭神廿三座〈並大、月次、新嘗、〉 <lb/>
+      <p ana="項" corresp="engishiki_v9_en.xml#item09100201 engishiki_v9_ja.xml#item09100201" xml:id="item09100201"> 宮中神卅六座 <lb/> <orgName corresp="#神祇官">神祇官</orgName>西院坐御巫等祭神廿三座〈並大、月次、新嘗、〉 <lb/>
        <s rendition="#indent">
         <anchor xml:id="app0910020101"/> 御巫祭神 <anchor xml:id="app0910020101e"/>
         八座〈並大、月次・新嘗、中宮・東宮御巫亦同、〉 </s>
@@ -598,7 +598,7 @@
          <cell rendition="#width300"/>
         </row>
        </table>
-       <lb/> <orgName sameAs="#宮内省">宮内省</orgName>坐神三座〈並名神大、月次、新嘗、〉 <pb facs="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-9%2F00004.tif/full/full/0/default.jpg"/>
+       <lb/> <orgName corresp="#宮内省">宮内省</orgName>坐神三座〈並名神大、月次、新嘗、〉 <pb facs="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-9%2F00004.tif/full/full/0/default.jpg"/>
        <table>
         <row>
          <cell rendition="#width300">
@@ -613,7 +613,7 @@
          <cell rendition="#width300"/>
         </row>
        </table>
-       <lb/> <orgName sameAs="#大膳職">大膳職</orgName>坐神三座〈並小、〉 <table>
+       <lb/> <orgName corresp="#大膳職">大膳職</orgName>坐神三座〈並小、〉 <table>
         <row>
          <cell rendition="#width300">
           <anchor xml:id="app0910020124"/>
@@ -627,7 +627,7 @@
          </cell>
         </row>
        </table>
-       <lb/> <orgName sameAs="#造酒司">造酒司</orgName>坐神六座〈大四座、小二座、〉 <lb/>
+       <lb/> <orgName corresp="#造酒司">造酒司</orgName>坐神六座〈大四座、小二座、〉 <lb/>
        <s rendition="#indent">
         <anchor xml:id="app0910020128"/>
         <anchor xml:id="app0910020128e"/> 大宮売神社四座〈並大、月次、新嘗、〉 </s>
@@ -643,7 +643,7 @@
        </table>
        <table>
         <row>
-         <cell rendition="#width300"> <orgName sameAs="#主水司">主水司</orgName>坐 <anchor xml:id="app0910020130"/> 神 <anchor xml:id="app0910020130e"/> 一座 <anchor xml:id="app0910020131"/> 〈小、〉 <anchor xml:id="app0910020131e"/>
+         <cell rendition="#width300"> <orgName corresp="#主水司">主水司</orgName>坐 <anchor xml:id="app0910020130"/> 神 <anchor xml:id="app0910020130e"/> 一座 <anchor xml:id="app0910020131"/> 〈小、〉 <anchor xml:id="app0910020131e"/>
          </cell>
          <cell rendition="#width50"/>
          <cell rendition="#width300"> 鳴雷神社 </cell>
@@ -875,11 +875,11 @@
      </div>
      <div ana="神名上" corresp="engishiki_v9_en.xml#article091004 engishiki_v9_ja.xml#article091004" n="9.4" subtype="項" type="条" xml:id="article091004">
       <head ana="畿内"/>
-      <p ana="項" corresp="engishiki_v9_en.xml#item09100401 engishiki_v9_ja.xml#item09100401" xml:id="item09100401"> <placeName sameAs="#畿内">畿内</placeName>神六百五十八座〈大二百卅一座、小四百廿七座、〉 </p>
+      <p ana="項" corresp="engishiki_v9_en.xml#item09100401 engishiki_v9_ja.xml#item09100401" xml:id="item09100401"> <placeName corresp="#畿内">畿内</placeName>神六百五十八座〈大二百卅一座、小四百廿七座、〉 </p>
      </div>
      <div ana="神名上" corresp="engishiki_v9_en.xml#article091005 engishiki_v9_ja.xml#article091005" n="9.5" subtype="項" type="条" xml:id="article091005">
       <head ana="山城国"/>
-      <p ana="項" corresp="engishiki_v9_en.xml#item09100501 engishiki_v9_ja.xml#item09100501" xml:id="item09100501"> <placeName sameAs="#山城国">山城国</placeName>一百廿二座 <lb/>
+      <p ana="項" corresp="engishiki_v9_en.xml#item09100501 engishiki_v9_ja.xml#item09100501" xml:id="item09100501"> <placeName corresp="#山城国">山城国</placeName>一百廿二座 <lb/>
        <s rendition="#indent"> 大五十三座〈並月次・新嘗、就中十一座預相嘗祭、〉 <pb facs="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-9%2F00005.tif/full/full/0/default.jpg"/> 小六十 <anchor xml:id="app0910050101"/> 九 <anchor xml:id="app0910050101e"/> 座〈 <anchor xml:id="app0910050102"/> 並官幣 <anchor xml:id="app0910050102e"/> 、〉 </s>
       </p>
       <app from="#app0910050101" to="#app0910050101e">
@@ -1562,7 +1562,7 @@
      </div>
      <div ana="神名上" corresp="engishiki_v9_en.xml#article091006 engishiki_v9_ja.xml#article091006" n="9.6" subtype="項" type="条" xml:id="article091006">
       <head ana="大和国"/>
-      <p ana="項" corresp="engishiki_v9_en.xml#item09100601 engishiki_v9_ja.xml#item09100601" xml:id="item09100601"> <placeName sameAs="#大和国">大和国</placeName>二百八十六座 <lb/>
+      <p ana="項" corresp="engishiki_v9_en.xml#item09100601 engishiki_v9_ja.xml#item09100601" xml:id="item09100601"> <placeName corresp="#大和国">大和国</placeName>二百八十六座 <lb/>
        <s rendition="#indent"> 大一百廿八座〈並月次・新嘗、就中 <anchor xml:id="app0910060101"/> 卅 <anchor xml:id="app0910060101e"/> 一座預相嘗 <anchor xml:id="app0910060102"/> 新嘗 <anchor xml:id="app0910060102e"/> 、〉 </s>
        <lb/>
        <s rendition="#indent"> 小一百五十八座〈並官幣、〉 </s>
@@ -3078,7 +3078,7 @@
      </div>
      <div ana="神名上" corresp="engishiki_v9_en.xml#article091007 engishiki_v9_ja.xml#article091007" n="9.7" subtype="項" type="条" xml:id="article091007">
       <head ana="河内国"/>
-      <p ana="項" corresp="engishiki_v9_en.xml#item09100701 engishiki_v9_ja.xml#item09100701" xml:id="item09100701"> <placeName sameAs="#河内国">河内国</placeName>一百十三座 <lb/>
+      <p ana="項" corresp="engishiki_v9_en.xml#item09100701 engishiki_v9_ja.xml#item09100701" xml:id="item09100701"> <placeName corresp="#河内国">河内国</placeName>一百十三座 <lb/>
        <s rendition="#indent"> 大廿三座〈並月次・新嘗、就中八座預相嘗、〉 </s>
        <lb/>
        <s rendition="#indent"> 小九十座〈並官幣、〉 </s>
@@ -3620,7 +3620,7 @@
      </div>
      <div ana="神名上" corresp="engishiki_v9_en.xml#article091008 engishiki_v9_ja.xml#article091008" n="9.8" subtype="項" type="条" xml:id="article091008">
       <head ana="和泉国"/>
-      <p ana="項" corresp="engishiki_v9_en.xml#item09100801 engishiki_v9_ja.xml#item09100801" xml:id="item09100801"> <placeName sameAs="#和泉国">和泉国</placeName>六十二座 <lb/>
+      <p ana="項" corresp="engishiki_v9_en.xml#item09100801 engishiki_v9_ja.xml#item09100801" xml:id="item09100801"> <placeName corresp="#和泉国">和泉国</placeName>六十二座 <lb/>
        <s rendition="#indent"> 大一 <anchor xml:id="app0910080101"/> 座 <anchor xml:id="app0910080101e"/>
        </s>
        <pb facs="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-9%2F00020.tif/full/full/0/default.jpg"/>
@@ -3878,7 +3878,7 @@
      </div>
      <div ana="神名上" corresp="engishiki_v9_en.xml#article091009 engishiki_v9_ja.xml#article091009" n="9.9" subtype="項" type="条" xml:id="article091009">
       <head ana="摂津国"/>
-      <p ana="項" corresp="engishiki_v9_en.xml#item09100901 engishiki_v9_ja.xml#item09100901" xml:id="item09100901"> <placeName sameAs="#摂津国">摂津国</placeName>七十五座 <lb/>
+      <p ana="項" corresp="engishiki_v9_en.xml#item09100901 engishiki_v9_ja.xml#item09100901" xml:id="item09100901"> <placeName corresp="#摂津国">摂津国</placeName>七十五座 <lb/>
        <s rendition="#indent"> 大廿六座〈並月次・新嘗、就中十五座預相嘗祭、〉 </s>
        <lb/>
        <s rendition="#indent"> 小卌九座〈 <anchor xml:id="app0910090101"/> 並官幣 <anchor xml:id="app0910090101e"/> 、〉 </s>
@@ -4271,7 +4271,7 @@
      </div>
      <div ana="神名上" corresp="engishiki_v9_en.xml#article091010 engishiki_v9_ja.xml#article091010" n="9.10" subtype="項" type="条" xml:id="article091010">
       <head ana="東海道"/>
-      <p ana="項" corresp="engishiki_v9_en.xml#item09101001 engishiki_v9_ja.xml#item09101001" xml:id="item09101001"> <placeName sameAs="#東海道">東海道</placeName>神七百卅一座 <lb/>
+      <p ana="項" corresp="engishiki_v9_en.xml#item09101001 engishiki_v9_ja.xml#item09101001" xml:id="item09101001"> <placeName corresp="#東海道">東海道</placeName>神七百卅一座 <lb/>
        <s rendition="#indent"> 大五十 <anchor xml:id="app0910100101"/> 一 <anchor xml:id="app0910100101e"/> 座〈就中十九座預月次・新嘗等祭、〉 </s>
        <lb/>
        <s rendition="#indent"> 小六百 <anchor xml:id="app0910100102"/> 八十 <anchor xml:id="app0910100102e"/> 座 </s>
@@ -4287,7 +4287,7 @@
      </div>
      <div ana="神名上" corresp="engishiki_v9_en.xml#article091011 engishiki_v9_ja.xml#article091011" n="9.11" subtype="項" type="条" xml:id="article091011">
       <head ana="伊賀国"/>
-      <p ana="項" corresp="engishiki_v9_en.xml#item09101101 engishiki_v9_ja.xml#item09101101" xml:id="item09101101"> <placeName sameAs="#伊賀国">伊賀国</placeName>廿五座〈大一座、小廿四座〉 </p>
+      <p ana="項" corresp="engishiki_v9_en.xml#item09101101 engishiki_v9_ja.xml#item09101101" xml:id="item09101101"> <placeName corresp="#伊賀国">伊賀国</placeName>廿五座〈大一座、小廿四座〉 </p>
       <p ana="項" corresp="engishiki_v9_en.xml#item09101102 engishiki_v9_ja.xml#item09101102" xml:id="item09101102">
        <s rendition="#indent"> 阿拝郡九座〈大一座、小 <anchor xml:id="app0910110201"/> 八 <anchor xml:id="app0910110201e"/> 座、〉 </s>
        <table>
@@ -4434,7 +4434,7 @@
      </div>
      <div ana="神名上" corresp="engishiki_v9_en.xml#article091012 engishiki_v9_ja.xml#article091012" n="9.12" subtype="項" type="条" xml:id="article091012">
       <head ana="伊勢国"/>
-      <p ana="項" corresp="engishiki_v9_en.xml#item09101201 engishiki_v9_ja.xml#item09101201" xml:id="item09101201"> <placeName sameAs="#伊勢国">伊勢国</placeName>二百五十三座 <lb/>
+      <p ana="項" corresp="engishiki_v9_en.xml#item09101201 engishiki_v9_ja.xml#item09101201" xml:id="item09101201"> <placeName corresp="#伊勢国">伊勢国</placeName>二百五十三座 <lb/>
        <s rendition="#indent"> 大十八座〈就中十四座預月次・新嘗等 <anchor xml:id="app0910120101"/> 祭 <anchor xml:id="app0910120101e"/> 、〉 </s>
        <pb facs="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-9%2F00026.tif/full/full/0/default.jpg"/>
        <lb/>
@@ -5452,7 +5452,7 @@
      </div>
      <div ana="神名上" corresp="engishiki_v9_en.xml#article091014 engishiki_v9_ja.xml#article091014" n="9.14" subtype="項" type="条" xml:id="article091014">
       <head ana="尾張国"/>
-      <p ana="項" corresp="engishiki_v9_en.xml#item09101401 engishiki_v9_ja.xml#item09101401" xml:id="item09101401"> <placeName sameAs="#尾張国">尾張国</placeName>一百廿一座〈大八座、小一百十三座、〉 </p>
+      <p ana="項" corresp="engishiki_v9_en.xml#item09101401 engishiki_v9_ja.xml#item09101401" xml:id="item09101401"> <placeName corresp="#尾張国">尾張国</placeName>一百廿一座〈大八座、小一百十三座、〉 </p>
       <p ana="項" corresp="engishiki_v9_en.xml#item09101402 engishiki_v9_ja.xml#item09101402" xml:id="item09101402">
        <s rendition="#indent"> 海部郡八座〈並小、〉 </s>
        <table>
@@ -5996,7 +5996,7 @@
      </div>
      <div ana="神名上" corresp="engishiki_v9_en.xml#article091015 engishiki_v9_ja.xml#article091015" n="9.15" subtype="項" type="条" xml:id="article091015">
       <head ana="参河国"/>
-      <p ana="項" corresp="engishiki_v9_en.xml#item09101501 engishiki_v9_ja.xml#item09101501" xml:id="item09101501"> <placeName sameAs="#参河国">参河国</placeName>廿六座〈並小、〉 </p>
+      <p ana="項" corresp="engishiki_v9_en.xml#item09101501 engishiki_v9_ja.xml#item09101501" xml:id="item09101501"> <placeName corresp="#参河国">参河国</placeName>廿六座〈並小、〉 </p>
       <p ana="項" corresp="engishiki_v9_en.xml#item09101502 engishiki_v9_ja.xml#item09101502" xml:id="item09101502">
        <s rendition="#indent"> 賀茂郡七座〈並小、〉 </s>
        <table>
@@ -6136,7 +6136,7 @@
      </div>
      <div ana="神名上" corresp="engishiki_v9_en.xml#article091016 engishiki_v9_ja.xml#article091016" n="9.16" subtype="項" type="条" xml:id="article091016">
       <head ana="遠江国"/>
-      <p ana="項" corresp="engishiki_v9_en.xml#item09101601 engishiki_v9_ja.xml#item09101601" xml:id="item09101601"> <placeName sameAs="#遠江国">遠江国</placeName>六十二座〈 <anchor xml:id="app0910160101"/> 大二座、小六十座 <anchor xml:id="app0910160101e"/> 、〉 </p>
+      <p ana="項" corresp="engishiki_v9_en.xml#item09101601 engishiki_v9_ja.xml#item09101601" xml:id="item09101601"> <placeName corresp="#遠江国">遠江国</placeName>六十二座〈 <anchor xml:id="app0910160101"/> 大二座、小六十座 <anchor xml:id="app0910160101e"/> 、〉 </p>
       <app from="#app0910160101" to="#app0910160101e">
        <lem wit="#永本 #九本 #吉本 #京博本"> 大二座、小六十座 </lem>
        <rdg wit="#土本"/>
@@ -6427,7 +6427,7 @@
      </div>
      <div ana="神名上" corresp="engishiki_v9_en.xml#article091017 engishiki_v9_ja.xml#article091017" n="9.17" subtype="項" type="条" xml:id="article091017">
       <head ana="駿河国"/>
-      <p ana="項" corresp="engishiki_v9_en.xml#item09101701 engishiki_v9_ja.xml#item09101701" xml:id="item09101701"> <placeName sameAs="#駿河国">駿河国</placeName>廿二座〈大一座、小廿一座、〉 </p>
+      <p ana="項" corresp="engishiki_v9_en.xml#item09101701 engishiki_v9_ja.xml#item09101701" xml:id="item09101701"> <placeName corresp="#駿河国">駿河国</placeName>廿二座〈大一座、小廿一座、〉 </p>
       <p ana="項" corresp="engishiki_v9_en.xml#item09101702 engishiki_v9_ja.xml#item09101702" xml:id="item09101702">
        <s rendition="#indent"> 益頭郡四座〈並小、〉 </s>
        <table>
@@ -6526,7 +6526,7 @@
        </table>
       </p>
       <p ana="項" corresp="engishiki_v9_en.xml#item09101707 engishiki_v9_ja.xml#item09101707" xml:id="item09101707">
-       <s rendition="#indent"> <placeName sameAs="#駿河国">駿河</placeName>郡二座〈並小、〉 </s>
+       <s rendition="#indent"> <placeName corresp="#駿河国">駿河</placeName>郡二座〈並小、〉 </s>
        <table>
         <row>
          <cell rendition="#width300"> 丸子神社 </cell>
@@ -6540,7 +6540,7 @@
      </div>
      <div ana="神名上" corresp="engishiki_v9_en.xml#article091018 engishiki_v9_ja.xml#article091018" n="9.18" subtype="項" type="条" xml:id="article091018">
       <head ana="伊豆国"/>
-      <p ana="項" corresp="engishiki_v9_en.xml#item09101801 engishiki_v9_ja.xml#item09101801" xml:id="item09101801"> <placeName sameAs="#伊豆国">伊豆国</placeName>九十二座〈 <anchor xml:id="app0910180101"/> 大五座、小八十七座 <anchor xml:id="app0910180101e"/> 、〉 </p>
+      <p ana="項" corresp="engishiki_v9_en.xml#item09101801 engishiki_v9_ja.xml#item09101801" xml:id="item09101801"> <placeName corresp="#伊豆国">伊豆国</placeName>九十二座〈 <anchor xml:id="app0910180101"/> 大五座、小八十七座 <anchor xml:id="app0910180101e"/> 、〉 </p>
       <app from="#app0910180101" to="#app0910180101e">
        <lem wit="#永本 #九本 #吉本 #京博本"> 大五座、小八十七座 </lem>
        <rdg wit="#土本"/>
@@ -6933,7 +6933,7 @@
      </div>
      <div ana="神名上" corresp="engishiki_v9_en.xml#article091019 engishiki_v9_ja.xml#article091019" n="9.19" subtype="項" type="条" xml:id="article091019">
       <head ana="甲斐国"/>
-      <p ana="項" corresp="engishiki_v9_en.xml#item09101901 engishiki_v9_ja.xml#item09101901" xml:id="item09101901"> <placeName sameAs="#甲斐国">甲斐国</placeName>廿座〈大一座、小十九座、〉 </p>
+      <p ana="項" corresp="engishiki_v9_en.xml#item09101901 engishiki_v9_ja.xml#item09101901" xml:id="item09101901"> <placeName corresp="#甲斐国">甲斐国</placeName>廿座〈大一座、小十九座、〉 </p>
       <p ana="項" corresp="engishiki_v9_en.xml#item09101902 engishiki_v9_ja.xml#item09101902" xml:id="item09101902">
        <s rendition="#indent"> 山梨郡九座〈並 <anchor xml:id="app0910190201"/> 小 <anchor xml:id="app0910190201e"/> 、〉 </s>
        <table>
@@ -7032,7 +7032,7 @@
      </div>
      <div ana="神名上" corresp="engishiki_v9_en.xml#article091020 engishiki_v9_ja.xml#article091020" n="9.20" subtype="項" type="条" xml:id="article091020">
       <head ana="相摸国"/>
-      <p ana="項" corresp="engishiki_v9_en.xml#item09102001 engishiki_v9_ja.xml#item09102001" xml:id="item09102001"> <placeName sameAs="#相摸国">相摸国</placeName>十三座〈大一座、小十二座、〉 </p>
+      <p ana="項" corresp="engishiki_v9_en.xml#item09102001 engishiki_v9_ja.xml#item09102001" xml:id="item09102001"> <placeName corresp="#相摸国">相摸国</placeName>十三座〈大一座、小十二座、〉 </p>
       <p ana="項" corresp="engishiki_v9_en.xml#item09102002 engishiki_v9_ja.xml#item09102002" xml:id="item09102002">
        <table rendition="#indent">
         <row>
@@ -7107,7 +7107,7 @@
      </div>
      <div ana="神名上" corresp="engishiki_v9_en.xml#article091021 engishiki_v9_ja.xml#article091021" n="9.21" subtype="項" type="条" xml:id="article091021">
       <head ana="武蔵国"/>
-      <p ana="項" corresp="engishiki_v9_en.xml#item09102101 engishiki_v9_ja.xml#item09102101" xml:id="item09102101"> <placeName sameAs="#武蔵国">武蔵国</placeName>卌四座〈 <anchor xml:id="app0910210101"/> 大二座、小卌二座 <anchor xml:id="app0910210101e"/> 、〉 </p>
+      <p ana="項" corresp="engishiki_v9_en.xml#item09102101 engishiki_v9_ja.xml#item09102101" xml:id="item09102101"> <placeName corresp="#武蔵国">武蔵国</placeName>卌四座〈 <anchor xml:id="app0910210101"/> 大二座、小卌二座 <anchor xml:id="app0910210101e"/> 、〉 </p>
       <app from="#app0910210101" to="#app0910210101e">
        <lem wit="#永本 #九本 #吉本"> 大二座、小卌二座 </lem>
        <rdg wit="#土本 #京博本"/>
@@ -7410,7 +7410,7 @@
      </div>
      <div ana="神名上" corresp="engishiki_v9_en.xml#article091022 engishiki_v9_ja.xml#article091022" n="9.22" subtype="項" type="条" xml:id="article091022">
       <head ana="安房国"/>
-      <p ana="項" corresp="engishiki_v9_en.xml#item09102201 engishiki_v9_ja.xml#item09102201" xml:id="item09102201"> <placeName sameAs="#安房国">安房国</placeName>六座〈大二座、小四座、〉 </p>
+      <p ana="項" corresp="engishiki_v9_en.xml#item09102201 engishiki_v9_ja.xml#item09102201" xml:id="item09102201"> <placeName corresp="#安房国">安房国</placeName>六座〈大二座、小四座、〉 </p>
       <p ana="項" corresp="engishiki_v9_en.xml#item09102202 engishiki_v9_ja.xml#item09102202" xml:id="item09102202">
        <s rendition="#indent"> 安房郡二座〈並大、〉 </s>
        <table>
@@ -7466,7 +7466,7 @@
      </div>
      <div ana="神名上" corresp="engishiki_v9_en.xml#article091023 engishiki_v9_ja.xml#article091023" n="9.23" subtype="項" type="条" xml:id="article091023">
       <head ana="上総国"/>
-      <p ana="項" corresp="engishiki_v9_en.xml#item09102301 engishiki_v9_ja.xml#item09102301" xml:id="item09102301"> <placeName sameAs="#上総国">上総国</placeName>五座〈大一座、小四座、〉 </p>
+      <p ana="項" corresp="engishiki_v9_en.xml#item09102301 engishiki_v9_ja.xml#item09102301" xml:id="item09102301"> <placeName corresp="#上総国">上総国</placeName>五座〈大一座、小四座、〉 </p>
       <p ana="項" corresp="engishiki_v9_en.xml#item09102302 engishiki_v9_ja.xml#item09102302" xml:id="item09102302">
        <table rendition="#indent">
         <row>
@@ -7521,7 +7521,7 @@
      </div>
      <div ana="神名上" corresp="engishiki_v9_en.xml#article091024 engishiki_v9_ja.xml#article091024" n="9.24" subtype="項" type="条" xml:id="article091024">
       <head ana="下総国"/>
-      <p ana="項" corresp="engishiki_v9_en.xml#item09102401 engishiki_v9_ja.xml#item09102401" xml:id="item09102401"> <placeName sameAs="#下総国">下総国</placeName>十一座〈大一座、小十座、〉 </p>
+      <p ana="項" corresp="engishiki_v9_en.xml#item09102401 engishiki_v9_ja.xml#item09102401" xml:id="item09102401"> <placeName corresp="#下総国">下総国</placeName>十一座〈大一座、小十座、〉 </p>
       <p ana="項" corresp="engishiki_v9_en.xml#item09102402 engishiki_v9_ja.xml#item09102402" xml:id="item09102402">
        <table rendition="#indent">
         <row>
@@ -7652,7 +7652,7 @@
      <pb facs="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-9%2F00051.tif/full/full/0/default.jpg"/>
      <div ana="神名上" corresp="engishiki_v9_en.xml#article091025 engishiki_v9_ja.xml#article091025" n="9.25" subtype="項" type="条" xml:id="article091025">
       <head ana="常陸国"/>
-      <p ana="項" corresp="engishiki_v9_en.xml#item09102501 engishiki_v9_ja.xml#item09102501" xml:id="item09102501"> <placeName sameAs="#常陸国">常陸国</placeName>廿八座〈大七座、小廿一座、〉 </p>
+      <p ana="項" corresp="engishiki_v9_en.xml#item09102501 engishiki_v9_ja.xml#item09102501" xml:id="item09102501"> <placeName corresp="#常陸国">常陸国</placeName>廿八座〈大七座、小廿一座、〉 </p>
       <p ana="項" corresp="engishiki_v9_en.xml#item09102502 engishiki_v9_ja.xml#item09102502" xml:id="item09102502">
        <s rendition="#indent"> 鹿島郡二座〈並 <anchor xml:id="app0910250201"/> 大 <anchor xml:id="app0910250201e"/> 、〉 </s>
        <table>
@@ -7872,19 +7872,19 @@
        <row>
         <cell/>
         <cell> 従五位 <anchor xml:id="app0999990105"/> 上 <anchor xml:id="app0999990105e"/> 行勘解由次官兼大外記
-          <anchor xml:id="app0999990106"/> <placeName sameAs="#紀伊国">紀伊</placeName> <anchor xml:id="app0999990106e"/> 権介 <anchor xml:id="app0999990107"/> 臣 <anchor xml:id="app0999990107e"/> 伴宿禰久永 </cell>
+          <anchor xml:id="app0999990106"/> <placeName corresp="#紀伊国">紀伊</placeName> <anchor xml:id="app0999990106e"/> 権介 <anchor xml:id="app0999990107"/> 臣 <anchor xml:id="app0999990107e"/> 伴宿禰久永 </cell>
        </row>
        <row>
         <cell/>
-        <cell> 従四位上行<orgName sameAs="#神祇官">神祇</orgName>伯臣大中臣朝臣安則 </cell>
+        <cell> 従四位上行<orgName corresp="#神祇官">神祇</orgName>伯臣大中臣朝臣安則 </cell>
        </row>
        <row>
         <cell/>
-        <cell> 大納言正三位兼行<orgName sameAs="#民部省">民部</orgName>卿臣藤原朝臣清貫 </cell>
+        <cell> 大納言正三位兼行<orgName corresp="#民部省">民部</orgName>卿臣藤原朝臣清貫 </cell>
        </row>
        <row>
         <cell/>
-        <cell> 左大臣正二位兼行<orgName sameAs="#近衛府">左近衛</orgName>大将皇太子傅 <anchor xml:id="app0999990108"/> 臣 <anchor xml:id="app0999990108e"/> 藤 <anchor xml:id="app0999990109"/> 原 <anchor xml:id="app0999990109e"/>
+        <cell> 左大臣正二位兼行<orgName corresp="#近衛府">左近衛</orgName>大将皇太子傅 <anchor xml:id="app0999990108"/> 臣 <anchor xml:id="app0999990108e"/> 藤 <anchor xml:id="app0999990109"/> 原 <anchor xml:id="app0999990109e"/>
          <anchor xml:id="app0999990110"/> 朝臣 <anchor xml:id="app0999990110e"/> 忠平 </cell>
        </row>
       </table>
@@ -7948,7 +7948,7 @@
       <anchor xml:id="app0998880101"/> 此上下両巻、蒙勅命、仰嫡孫兼満終書写之功、致校合畢、 <lb/>
       <s rendition="#indent"> 文亀三年十二月廿六日 </s>
       <lb/>
-      <s rendition="#indent2"> 神道長上従二位行<orgName sameAs="#神祇官">神祇</orgName>大副兼侍従卜部朝臣兼倶 </s>
+      <s rendition="#indent2"> 神道長上従二位行<orgName corresp="#神祇官">神祇</orgName>大副兼侍従卜部朝臣兼倶 </s>
       <anchor xml:id="app0998880101e"/>
      </p>
      <app from="#app0998880101" to="#app0998880101e">
