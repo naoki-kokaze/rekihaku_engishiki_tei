@@ -325,7 +325,7 @@
     <unitDef type="Weight" xml:id="屯">
      <label xml:lang="ja"> 屯 </label>
      <label xml:lang="ja-Lath"> ton </label>
-     <desc> 綿を計上する際の単位。調綿1屯=大4両、細屯綿1屯＝大3両1分2銖=小10両、綿1屯=大5両2分=小1斤2分。 </desc>
+     <desc> 綿を計上する際の単位。調綿1屯 = 大4両、細屯綿1屯 = 大3両1分2銖 = 小10両、綿1屯 = 大5両2分 = 小1斤2分。 </desc>
     </unitDef>
     <unitDef xml:id="張">
      <label xml:lang="ja"> 張 </label>
@@ -2763,10 +2763,10 @@
    <org type="中央" xml:id="府">
     <orgName> 府 </orgName>
    </org>
-   <org type="地方" xml:id="京職">
+   <org type="中央" xml:id="京職">
     <orgName> 京職 </orgName>
    </org>
-   <org type="地方" xml:id="市司">
+   <org type="中央" xml:id="市司">
     <orgName> 市司 </orgName>
    </org>
    <org type="地方" xml:id="大宰府">
@@ -2913,6 +2913,7 @@
     <relation name="supervises" active="#宮内省" passive="#大膳職 #木工寮 #大炊寮 #主殿寮 #典薬寮 
      #掃部寮 #正親司 #内膳司 #造酒司 #采女司 #主水司"/>
     <relation name="supervises" active="#六衛府" passive="#近衛府 #衛門府 #兵衛府"/>
+    <relation name="supervises" active="#京職" passive="#市司"/>
     <relation name="hasRole" active="#太政官" passive="#左弁官 #右弁官"/>
     <relation name="subtype" active="#左弁官 #右弁官" passive="#弁官"/>
     <relation name="synonym" active="#弁官" passive="#左弁官 #右弁官"/>

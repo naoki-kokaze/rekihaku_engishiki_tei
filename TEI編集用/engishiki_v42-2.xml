@@ -361,7 +361,107 @@
                   </row>
                </table>
             </p>
-            <p ana="個別"/>
+            <p ana="個別">校訂文凡例<table>
+                  <row>
+                     <cell>・</cell>
+                     <cell>底本には国立歴史民俗博物館蔵の土御門家旧蔵本を使用し、九条本、近衛本、壬生本、京博本、慶長本、梵舜本によって対校しました。その他、校訂に資する場合や内容理解に関わる場合に限り、他本を掲示しました。また、必要に応じて政事要略等の関連史料が引く式文も掲示しました。</cell>
+                  </row>
+                  <row>
+                     <cell>・</cell>
+                     <cell>集英社刊訳注本の校訂と異なる場合は、その旨明記しました。</cell>
+                  </row>
+                  <row>
+                     <cell>・</cell>
+                     <cell>校訂に用いた諸本の略称は以下の通りです。</cell>
+                  </row>
+                  <row rendition="#indent">
+                     <cell>＊</cell>
+                     <cell>特に注記がない場合は、底本（土本）によります。</cell>
+                  </row>
+               </table>
+               <table rendition="#indent">
+                  <row>
+                     <cell rendition="#width100">土本</cell>
+                     <cell>国立歴史民俗博物館蔵土御門家旧蔵本（H-743-74）</cell>
+                  </row>
+                  <row>
+                     <cell rendition="#width100">九本</cell>
+                     <cell>東京国立博物館所蔵九条家旧蔵巻子本（B-2370）</cell>
+                  </row>
+                  <row>
+                     <cell rendition="#width100">近本</cell>
+                     <cell>京都大学附属図書館所蔵近衛文庫本（2-03/エ/1貴）</cell>
+                  </row>
+                  <row>
+                     <cell rendition="#width100">壬本</cell>
+                     <cell>宮内庁書陵部図書寮文庫所蔵壬生家旧蔵本（F10-287）</cell>
+                  </row>
+                  <row>
+                     <cell rendition="#width100">京博本</cell>
+                     <cell>京都国立博物館所蔵京都博物館本</cell>
+                  </row>
+                  <row>
+                     <cell rendition="#width100">慶長本</cell>
+                     <cell>国立公文書館所蔵慶長写本（特102-8）</cell>
+                  </row>
+                  <row>
+                     <cell rendition="#width100">梵本</cell>
+                     <cell>天理大学附属天理大図書館所蔵吉田文庫梵舜等筆本（吉16-8）</cell>
+                  </row>
+                  <row>
+                     <cell rendition="#width100">版本</cell>
+                     <cell>慶安版本・明暦以降版本の総称</cell>
+                  </row>
+                  <row rendition="#indent">
+                     <cell rendition="#width100">慶安版本</cell>
+                     <cell>大和文華館所蔵鈴鹿連胤旧蔵版本（1/782）</cell>
+                  </row>
+                  <row rendition="#indent2">
+                     <cell rendition="#width100">鈴鹿本</cell>
+                     <cell>大和文華館所蔵鈴鹿連胤旧蔵慶安版本書入</cell>
+                  </row>
+                  <row>
+                     <cell rendition="#width100">明暦以降版本</cell>
+                     <cell>次の各版本の総称</cell>
+                  </row>
+                  <row rendition="#indent">
+                     <cell rendition="#width100">明暦版本</cell>
+                     <cell>明暦3年(1657)林和泉掾(松柏堂)刊本</cell>
+                  </row>
+                  <row rendition="#indent">
+                     <cell rendition="#width100">寛文版本</cell>
+                     <cell>寛文7年(1667)林和泉掾(松柏堂)刊本</cell>
+                  </row>
+                  <row rendition="#indent2">
+                     <cell rendition="#width100">筑波寛文本</cell>
+                     <cell>筑波大学附属図書館所蔵寛文版本20冊本</cell>
+                  </row>
+                  <row rendition="#indent">
+                     <cell rendition="#width100">享保版本</cell>
+                     <cell>享保8年(1723)出雲寺和泉掾(松柏堂)刊本</cell>
+                  </row>
+                  <row>
+                     <cell rendition="#width100">雲本</cell>
+                     <cell>文政11年(1828)松江藩刊本（雲州本）</cell>
+                  </row>
+                  <row>
+                     <cell rendition="#width100">考異</cell>
+                     <cell>雲州本考異附録『延喜式考異』　早稲田大学図書館所蔵本（ワ03-01594）等</cell>
+                  </row>
+                  <row>
+                     <cell rendition="#width100">国史大系本</cell>
+                     <cell>新訂増補国史大系第26巻</cell>
+                  </row>
+                  <row>
+                     <cell rendition="#width100">訳注本</cell>
+                     <cell>訳注日本史料『延喜式』下（2017年刊）</cell>
+                  </row>
+                  <row>
+                     <cell rendition="#width100">政事要略</cell>
+                     <cell>新訂増補国史大系第28巻（吉川弘文館　1935年刊）</cell>
+                  </row>
+               </table>
+            </p>
          </editorialDecl>
       </encodingDesc>
       <revisionDesc ana="個別">
@@ -374,13 +474,15 @@
       <body>
          <div ana="東西市" n="42" subtype="式" type="巻" xml:id="volume42">
             <div type="首題" xml:id="shudai42">
-               <p xml:id="shudai4201"> 首題 </p>
+               <p xml:id="shudai4201"/>
             </div>
             <div ana="東西市"
                corresp="engishiki_v42-2_en.xml#protocol422 engishiki_v42-2_ja.xml#protocol422"
                n="42-2" subtype="条" type="式" xml:id="protocol422">
                <div type="式題" xml:id="shikidai422">
-                  <p xml:id="shikidai42201"> 式題 </p>
+                  <p xml:id="shikidai42201">
+                     <orgName corresp="#市司">東市司</orgName>〈<orgName corresp="#市司">西市司</orgName>准此、〉
+                  </p>
                </div>
                <div ana="東西市"
                   corresp="engishiki_v42-2_en.xml#article422001 engishiki_v42-2_ja.xml#article422001"
@@ -388,7 +490,7 @@
                   <head ana="毎厘立牓"/>
                   <p ana="項"
                      corresp="engishiki_v42-2_en.xml#item42200101 engishiki_v42-2_ja.xml#item42200101"
-                     xml:id="item42200101"> 本文 </p>
+                     xml:id="item42200101"> 凡市皆毎厘立牓題号、各依其厘、随色交開、不得彼此就便違越、 </p>
                </div>
                <div ana="東西市"
                   corresp="engishiki_v42-2_en.xml#article422002 engishiki_v42-2_ja.xml#article422002"
@@ -396,7 +498,10 @@
                   <head ana="沽価帳"/>
                   <p ana="項"
                      corresp="engishiki_v42-2_en.xml#item42200201 engishiki_v42-2_ja.xml#item42200201"
-                     xml:id="item42200201"> 本文 </p>
+                     xml:id="item42200201"> 凡毎月勘造沽価帳三通送<orgName corresp="#京職">職</orgName>、<orgName
+                        corresp="#京職">々</orgName>押署、即以<orgName corresp="#京職"
+                        >職</orgName>印々之、一通進<orgName corresp="#太政官">官</orgName>、一通留<orgName
+                        corresp="#京職">職</orgName>、一通付<orgName corresp="#市司">司</orgName>、 </p>
                </div>
                <div ana="東西市"
                   corresp="engishiki_v42-2_en.xml#article422003 engishiki_v42-2_ja.xml#article422003"
@@ -404,7 +509,7 @@
                   <head ana="売買不和"/>
                   <p ana="項"
                      corresp="engishiki_v42-2_en.xml#item42200301 engishiki_v42-2_ja.xml#item42200301"
-                     xml:id="item42200301"> 本文 </p>
+                     xml:id="item42200301"> 凡売買不和較固者、<orgName corresp="#市司">市司</orgName>追捉勘当、 </p>
                </div>
                <div ana="東西市"
                   corresp="engishiki_v42-2_en.xml#article422004 engishiki_v42-2_ja.xml#article422004"
@@ -412,7 +517,7 @@
                   <head ana="増直"/>
                   <p ana="項"
                      corresp="engishiki_v42-2_en.xml#item42200401 engishiki_v42-2_ja.xml#item42200401"
-                     xml:id="item42200401"> 本文 </p>
+                     xml:id="item42200401"> 凡商賈之輩、沽価之外、若有妄増物直者、不論蔭贖登時見決、 </p>
                </div>
                <div ana="東西市"
                   corresp="engishiki_v42-2_en.xml#article422005 engishiki_v42-2_ja.xml#article422005"
@@ -420,7 +525,7 @@
                   <head ana="六衛入市"/>
                   <p ana="項"
                      corresp="engishiki_v42-2_en.xml#item42200501 engishiki_v42-2_ja.xml#item42200501"
-                     xml:id="item42200501"> 本文 </p>
+                     xml:id="item42200501"> 凡<orgName corresp="#六衛府">六衛府</orgName>舎人等、不得帯剣入市、 </p>
                </div>
                <div ana="東西市"
                   corresp="engishiki_v42-2_en.xml#article422006 engishiki_v42-2_ja.xml#article422006"
@@ -428,7 +533,7 @@
                   <head ana="市人籍帳"/>
                   <p ana="項"
                      corresp="engishiki_v42-2_en.xml#item42200601 engishiki_v42-2_ja.xml#item42200601"
-                     xml:id="item42200601"> 本文 </p>
+                     xml:id="item42200601"> 凡市人籍帳、毎年造進、 </p>
                </div>
                <div ana="東西市"
                   corresp="engishiki_v42-2_en.xml#article422007 engishiki_v42-2_ja.xml#article422007"
@@ -436,7 +541,7 @@
                   <head ana="市裏凌陵奪"/>
                   <p ana="項"
                      corresp="engishiki_v42-2_en.xml#item42200701 engishiki_v42-2_ja.xml#item42200701"
-                     xml:id="item42200701"> 本文 </p>
+                     xml:id="item42200701"> 凡市裏有凌奪之輩者、奏任已上、准状散禁請裁、判任已下、杻禁随犯決罰、 </p>
                </div>
                <div ana="東西市"
                   corresp="engishiki_v42-2_en.xml#article422008 engishiki_v42-2_ja.xml#article422008"
@@ -444,7 +549,7 @@
                   <head ana="決罰罪人"/>
                   <p ana="項"
                      corresp="engishiki_v42-2_en.xml#item42200801 engishiki_v42-2_ja.xml#item42200801"
-                     xml:id="item42200801"> 本文 </p>
+                     xml:id="item42200801"> 凡決罰罪人者、官人与使、相対楼前罰之、 </p>
                </div>
                <div ana="東西市"
                   corresp="engishiki_v42-2_en.xml#article422009 engishiki_v42-2_ja.xml#article422009"
@@ -452,7 +557,7 @@
                   <head ana="市町"/>
                   <p ana="項"
                      corresp="engishiki_v42-2_en.xml#item42200901 engishiki_v42-2_ja.xml#item42200901"
-                     xml:id="item42200901"> 本文 </p>
+                     xml:id="item42200901"> 凡市町准市裏、本<orgName corresp="#市司">司</orgName>加勘糺、随犯科責、 </p>
                </div>
                <div ana="東西市"
                   corresp="engishiki_v42-2_en.xml#article422010 engishiki_v42-2_ja.xml#article422010"
@@ -460,7 +565,8 @@
                   <head ana="市町居住人"/>
                   <p ana="項"
                      corresp="engishiki_v42-2_en.xml#item42201001 engishiki_v42-2_ja.xml#item42201001"
-                     xml:id="item42201001"> 本文 </p>
+                     xml:id="item42201001"> 凡居住市町之輩、除市籍人、令進地子、即以充<orgName corresp="#市司"
+                     >市司</orgName>廻四面泥埿・道・橋及当堀河等造料、其用帳年終申送、 </p>
                </div>
                <div ana="東西市"
                   corresp="engishiki_v42-2_en.xml#article422011 engishiki_v42-2_ja.xml#article422011"
@@ -468,7 +574,7 @@
                   <head ana="闕官要劇料"/>
                   <p ana="項"
                      corresp="engishiki_v42-2_en.xml#item42201101 engishiki_v42-2_ja.xml#item42201101"
-                     xml:id="item42201101"> 本文 </p>
+                     xml:id="item42201101"> 凡闕官要劇料、充<orgName corresp="#市司">司</orgName>中修理・雑用、 </p>
                </div>
                <div ana="東西市"
                   corresp="engishiki_v42-2_en.xml#article422012 engishiki_v42-2_ja.xml#article422012"
@@ -476,7 +582,7 @@
                   <head ana="集東西市"/>
                   <p ana="項"
                      corresp="engishiki_v42-2_en.xml#item42201201 engishiki_v42-2_ja.xml#item42201201"
-                     xml:id="item42201201"> 本文 </p>
+                     xml:id="item42201201"> 凡毎月十五日以前、集東市、十六日以後、集西市、 </p>
                </div>
                <div ana="東西市"
                   corresp="engishiki_v42-2_en.xml#article422013 engishiki_v42-2_ja.xml#article422013"
@@ -484,7 +590,7 @@
                   <head ana="聴通売"/>
                   <p ana="項"
                      corresp="engishiki_v42-2_en.xml#item42201301 engishiki_v42-2_ja.xml#item42201301"
-                     xml:id="item42201301"> 本文 </p>
+                     xml:id="item42201301"> 凡絹・雑染・土器、聴通売、 </p>
                </div>
                <div ana="東西市"
                   corresp="engishiki_v42-2_en.xml#article422014 engishiki_v42-2_ja.xml#article422014"
@@ -492,10 +598,15 @@
                   <head ana="東厘"/>
                   <p ana="項"
                      corresp="engishiki_v42-2_en.xml#item42201401 engishiki_v42-2_ja.xml#item42201401"
-                     xml:id="item42201401"> 本文 </p>
+                     xml:id="item42201401"> 東絁厘　羅厘　糸厘　錦厘　幞頭厘　巾子厘　縫衣厘 <lb/>帯厘　紵厘　布厘　苧厘　木綿厘　櫛厘　針厘
+                     <lb/>沓厘　菲厘　筆厘　墨厘　丹厘　珠厘　玉厘 <lb/>薬厘　大刀厘　弓厘　箭厘　兵具厘　香厘　鞍橋厘
+                     <lb/>鞍褥厘　韉厘　鐙厘　障泥厘　鞦厘　鉄并金器厘　漆厘 <lb/>油厘　染草厘　米厘　木器厘　麦厘　塩厘　醤厘
+                     <lb/>索餅厘　心太厘　海藻厘　菓子厘　蒜厘　干魚厘　馬厘 <lb/>生魚厘　海菜厘 </p>
                   <p ana="項"
                      corresp="engishiki_v42-2_en.xml#item42201402 engishiki_v42-2_ja.xml#item42201402"
-                     xml:id="item42201402"> 本文 </p>
+                     xml:id="item42201402">
+                     <s rendition="#indent3">右、五十一厘東市</s>
+                  </p>
                </div>
                <div ana="東西市"
                   corresp="engishiki_v42-2_en.xml#article422015 engishiki_v42-2_ja.xml#article422015"
@@ -503,17 +614,21 @@
                   <head ana="西厘"/>
                   <p ana="項"
                      corresp="engishiki_v42-2_en.xml#item42201501 engishiki_v42-2_ja.xml#item42201501"
-                     xml:id="item42201501"> 本文 </p>
+                     xml:id="item42201501"> 絹厘　綿綾厘　糸厘　綿厘　紗厘　橡帛厘　幞頭厘 <lb/>縫衣厘　裙厘　帯幡厘　紵厘　調布厘　麻厘　続麻厘
+                     <lb/>櫛厘　針厘　菲厘　雑染厘　蓑笠厘　染草厘　土器厘 <lb/>油厘　米厘　塩厘　米醤厘　索餅厘　糖厘　心太厘
+                     <lb/>海藻厘　菓子厘　干魚厘　生魚厘　牛厘 </p>
                   <p ana="項"
                      corresp="engishiki_v42-2_en.xml#item42201502 engishiki_v42-2_ja.xml#item42201502"
-                     xml:id="item42201502"> 本文 </p>
+                     xml:id="item42201502">
+                     <s rendition="#indent3">右、卅三厘西市、</s>
+                  </p>
                </div>
             </div>
             <div type="尾題" xml:id="bidai42">
-               <p xml:id="bidai4201"> 尾題 </p>
+               <p xml:id="bidai4201"> 延喜式巻第卌二 </p>
             </div>
             <div type="本奥書" xml:id="okugaki42">
-               <p xml:id="okugaki4201"> 本奥書 </p>
+               <p xml:id="okugaki4201"/>
             </div>
          </div>
       </body>
