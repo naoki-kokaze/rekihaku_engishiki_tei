@@ -445,9 +445,11 @@
     <change when="2024-07-09">
      <date> 2024年7月9日 </date> 「勺薬」を「夕薬」に改めました。 </change>
     <change when="2024-08-23">
-     <date> 2024年8月23日 </date> 第37野宮年料供物条第6項、坩」の校異注解説欄「21」を「匕四枚銀」に改めました。 </change>
+     <date> 2024年8月23日 </date> 第37野宮年料供物条第6項、「坩」の校異注解説欄「21」を「匕四枚銀」に改めました。 </change>
     <change when="2024-08-23">
      <date> 2024年8月23日 </date> 第98納印条において、校異注で言及する写本・版本を凡例にあわせ修正しました。 </change>
+    <change when="2025-06-17"
+     ><date>2025年6月17日</date>第62条三時祭禊料条第2項において、システムの関係上表示されていなかった「右」の字が表示されるように修正しました。</change>
    </listChange>
   </revisionDesc>
  </teiHeader>
@@ -799,7 +801,8 @@
        xml:id="item05101901"> 斎王遷入野宮河頭禊 <lb/> 其日斎王駕輿、〈輿者、<orgName corresp="#主殿寮"
        >主殿</orgName>官人率史生、前禊二日設候、〉輿長八人、駕輿丁卌人、駕馬女廿人、〈乳母二人、蔵人六人、釆女四人、童女四人、掃部二人、御厠二人、〉
         勅使大納言・中納言各一人、参議二人、四位・五位各四人、禊事既畢、賜饌并禄、〈勅使已下五位已上、<orgName corresp="#内蔵寮"
-        >内蔵寮</orgName>饗之、六位已下<orgName corresp="#大膳職">大膳職</orgName>、〉 訖即廻帰、便留野宮更賜禄、〈自余之儀、大略同初度禊、〉 </p>
+        >内蔵寮</orgName>饗之、六位已下<orgName corresp="#大膳職">大膳職</orgName>、〉 訖即廻帰、便留野宮更賜禄、〈自余之儀、大略同初度禊、〉
+      </p>
      </div>
      <div ana="斎宮" n="5.20" subtype="項" type="条">
       <head ana="野宮河頭禊祓料"/>
@@ -2103,8 +2106,8 @@
      <div ana="斎宮" n="5.59" subtype="項" type="条">
       <head ana="六処堺川"/>
       <p ana="項" corresp="engishiki_v5_ja.xml#item05105901 engishiki_v5_en.xml#item05105901"
-       xml:id="item05105901"> 六処堺川供奉御禊〈<placeName corresp="#山城国">山 <anchor xml:id="app0510590101"/> 城
-         <anchor xml:id="app0510590101e"/></placeName> 、<placeName corresp="#近江国"
+       xml:id="item05105901"> 六処堺川供奉御禊〈<placeName corresp="#山城国">山 <anchor xml:id="app0510590101"/>
+        城 <anchor xml:id="app0510590101e"/></placeName> 、<placeName corresp="#近江国"
         >近江</placeName>勢多川・甲賀川、<placeName corresp="#伊勢国">伊勢</placeName>鈴 <anchor
         xml:id="app0510590102"/> 鹿 <anchor xml:id="app0510590102e"/> 川・下樋小川・多気川、〉 <lb/>
        御荒服六具料庸布六段、鉄人像十二枚、木綿・麻各六斤、酒・米各六斤、鰒・堅魚各六斤、腊六升、塩六升、 海藻・雑海 <anchor xml:id="app0510590103"/> 菜
@@ -2471,8 +2474,8 @@
        腊・塩各一斗二升、米・酒各三斗、稲十二束、瓫十二口、坏六口、槲十八把、匏三柄、輿籠三脚、食薦六枚、黄蘗十五両、〈已上晦日禊料、〉 </p>
       <p ana="項" corresp="engishiki_v5_ja.xml#item05106202 engishiki_v5_en.xml#item05106202"
        xml:id="item05106202"> 五色薄絁各九尺、倭文九尺、<placeName corresp="#安芸国"
-       >安芸</placeName>木綿廿七枚、凡木綿・麻各六斤、布衣・裳 <anchor xml:id="app0510620201"/>
-       <anchor xml:id="app0510620201e"/> 九具、〈料庸布、〉鉄人像十八枚、筥九合、鰒・堅魚各九斤、腊・塩各九升、
+       >安芸</placeName>木綿廿七枚、凡木綿・麻各六斤、布衣・裳 <anchor xml:id="app0510620201"/>各 <anchor
+        xml:id="app0510620201e"/> 九具、〈料庸布、〉鉄人像十八枚、筥九合、鰒・堅魚各九斤、腊・塩各九升、
        海藻・雑海菜各九斤、雑盛九籠、米・酒各二斗七升、稲九束、藁三囲、〈已上参日禊并堺祭料、〉 </p>
       <app from="#app0510620201" to="#app0510620201e">
        <lem cause="意補"> 各 </lem>
@@ -2629,7 +2632,7 @@
         facs="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-5%2F00039.tif/full/full/0/default.jpg"
        /> 盤二口、油一升、小豆一升、〈以上<orgName corresp="#斎宮寮">寮</orgName>充之、〉
         湯槽・円槽・洗足槽各一隻、棚案一脚、板蓋五枚、明櫃二合、筥一合、麁筥一合、灯台二具、匏三柄、菲一両、〈以上<placeName corresp="#伊勢国"
-       >当国</placeName>充之、〉池由加一口、由加四口、 叩 <anchor xml:id="app0510660402"/> 盆 <anchor
+        >当国</placeName>充之、〉池由加一口、由加四口、 叩 <anchor xml:id="app0510660402"/> 盆 <anchor
         xml:id="app0510660402e"/> 四口、油𤭅一口、油 <anchor xml:id="app0510660403"/> 杯 <anchor
         xml:id="app0510660403e"/> ・盤各二口、鋺形一口、陶鉢一口、〈以上<placeName corresp="#美濃国">美濃国</placeName>充之、〉 <lb/>
        <s rendition="#indent"> 右、殿部所請、 </s>
@@ -3130,8 +3133,9 @@
      <div ana="斎宮" n="5.76" subtype="項" type="条">
       <head ana="官人禄"/>
       <p ana="項" corresp="engishiki_v5_ja.xml#item05107601 engishiki_v5_en.xml#item05107601"
-       xml:id="item05107601"> 凡<orgName corresp="#斎宮寮">寮</orgName>官人以下春秋禄者、以<placeName corresp="#伊勢国"
-        >当国</placeName>神税充之、夏冬服<orgName corresp="#斎宮寮">寮</orgName>家賜之、夏男各絹四丈五尺、女絹一疋、但中等以下女孺各絹三丈、
+       xml:id="item05107601"> 凡<orgName corresp="#斎宮寮">寮</orgName>官人以下春秋禄者、以<placeName
+        corresp="#伊勢国">当国</placeName>神税充之、夏冬服<orgName corresp="#斎宮寮"
+       >寮</orgName>家賜之、夏男各絹四丈五尺、女絹一疋、但中等以下女孺各絹三丈、
        今良女・女丁各絹三丈、庸布二段、火炬小子各絹二疋、調布二丈、冬男各絹一疋三丈、綿四屯、女絹一疋、綿二屯、 今良女各絹一疋、布一 <anchor
         xml:id="app0510760101"/> 段 <anchor xml:id="app0510760101e"/> 、綿二屯、火 <anchor
         xml:id="app0510760102"/> 炬 <anchor xml:id="app0510760102e"/> 小子各絹四丈、布一 <anchor
@@ -3205,9 +3209,10 @@
        <anchor xml:id="app0510780108"/> 卌 <anchor xml:id="app0510780108e"/>
         八斤、〉麻四百斤、熟麻一百斤、〈已上<placeName corresp="#下総国">下総</placeName>、〉熊皮八張、〈<placeName corresp="#信濃国"
         >信濃</placeName>、〉亀甲十二枚、〈<placeName corresp="#志摩国">志摩</placeName>、〉 履卅両、紙一千張、〈已上<placeName
-        corresp="#伊勢国">伊勢</placeName>、〉筆二百廿八管、〈<placeName corresp="#伊勢国">伊勢</placeName>一百管、<placeName
-        corresp="#尾張国">尾張</placeName>一百管、<placeName corresp="#美濃国">美濃</placeName>廿八管、〉両面三疋三丈、緋帛七疋
-        <anchor xml:id="app0510780109"/> 三丈 <anchor xml:id="app0510780109e"/> 、錦一丈七尺六寸、油絁八疋一丈、 </p>
+        corresp="#伊勢国">伊勢</placeName>、〉筆二百廿八管、〈<placeName corresp="#伊勢国"
+        >伊勢</placeName>一百管、<placeName corresp="#尾張国">尾張</placeName>一百管、<placeName corresp="#美濃国"
+        >美濃</placeName>廿八管、〉両面三疋三丈、緋帛七疋 <anchor xml:id="app0510780109"/> 三丈 <anchor
+        xml:id="app0510780109e"/> 、錦一丈七尺六寸、油絁八疋一丈、 </p>
       <app from="#app0510780101" to="#app0510780101e">
        <lem wit="#土本 #条本"> 勢 </lem>
        <note> 勢　この下に訳注本は「絁」を意補。諸本無し。 </note>
@@ -3262,11 +3267,12 @@
        /> 三百卅四石八斗、〈<placeName corresp="#伊勢国">伊勢</placeName>五百卅四石八斗、就中黒米三百九十五石、<placeName
         corresp="#尾張国">尾張</placeName>二百石、<placeName corresp="#参河国">参河</placeName>二百石、<placeName
         corresp="#美濃国">美濃</placeName>四百石、〉
-        糯米十石、小麦十石、大麦一石、粟三石六斗、大豆・小豆各六石、醤大豆十八石、胡麻子一石、葟子一石、〈已上<placeName corresp="#伊勢国">伊勢</placeName>、〉
-        黍子一石、〈<placeName corresp="#参河国">参河</placeName>、〉塩八十石、〈<placeName corresp="#志摩国"
-        >志摩</placeName>十五石、<placeName corresp="#尾張国">尾張</placeName>六十五石、〉胡麻油三石、〈<placeName
-        corresp="#遠江国">遠江</placeName>、〉槾椒油四 <anchor xml:id="app0510780302"/> 斗 <anchor
-        xml:id="app0510780302e"/> 四升、〈<placeName corresp="#伊勢国">伊勢</placeName>、〉 </p>
+        糯米十石、小麦十石、大麦一石、粟三石六斗、大豆・小豆各六石、醤大豆十八石、胡麻子一石、葟子一石、〈已上<placeName corresp="#伊勢国"
+       >伊勢</placeName>、〉 黍子一石、〈<placeName corresp="#参河国">参河</placeName>、〉塩八十石、〈<placeName
+        corresp="#志摩国">志摩</placeName>十五石、<placeName corresp="#尾張国"
+        >尾張</placeName>六十五石、〉胡麻油三石、〈<placeName corresp="#遠江国">遠江</placeName>、〉槾椒油四 <anchor
+        xml:id="app0510780302"/> 斗 <anchor xml:id="app0510780302e"/> 四升、〈<placeName corresp="#伊勢国"
+        >伊勢</placeName>、〉 </p>
       <app from="#app0510780301" to="#app0510780301e">
        <lem wit="#条本 #九冊本"> 卌 </lem>
        <rdg wit="#土本"> 卅 </rdg>
@@ -3287,8 +3293,8 @@
         corresp="#近江国">近江</placeName>、〉 鳥腊十斤、〈<placeName corresp="#尾張国"
         >尾張</placeName>、〉鯛楚割九十斤、貼貝鮨一石八斗、鯛枚乾一百斤、〈已上<placeName corresp="#参河国"
         >参河</placeName>、〉雑腊五石、〈<placeName corresp="#志摩国">志摩</placeName>二石、<placeName corresp="#尾張国"
-        >尾張</placeName>二石、<placeName corresp="#遠江国">遠江</placeName>一石、〉 <anchor xml:id="app0510780401"
-       /> 腸 <anchor xml:id="app0510780401e"/> 漬鰒七斗、〈<placeName corresp="#相摸国"
+        >尾張</placeName>二石、<placeName corresp="#遠江国">遠江</placeName>一石、〉 <anchor
+        xml:id="app0510780401"/> 腸 <anchor xml:id="app0510780401e"/> 漬鰒七斗、〈<placeName corresp="#相摸国"
         >相摸</placeName>、〉雑魚鮨十石、〈<placeName corresp="#伊勢国">伊勢</placeName>・<placeName corresp="#尾張国"
         >尾張</placeName>各五石、〉熬海鼠一百斤、鮨鰒二石、雑鰒三百卌四斤、海藻三百九斤十四両、凝海菜三百卌斤、〈已上<placeName corresp="#志摩国"
         >志摩</placeName>、〉 芡菜十囲、〈<placeName corresp="#尾張国">尾張</placeName>、〉甘葛煎一斗、〈<placeName
