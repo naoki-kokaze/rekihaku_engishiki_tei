@@ -57,8 +57,8 @@
             <witness xml:id="西本"
               ><abbr>西本</abbr>：巻9・10は國學院大學図書館所蔵（貴107～108）。巻50は国立歴史民俗博物館所蔵（H-1588）。抄出本は國學院大學所蔵（木村大樹「〔西田長男旧蔵〕三条西実隆筆『延喜式』(抄)の翻刻・紹介」『國學院大學研究開発推進機構紀要』14、2022年） </witness>
             <witness xml:id="時慶本"><abbr>時慶本</abbr>：静嘉堂文庫所蔵西洞院時慶写本（延喜格式表18352、延喜式序18353）</witness>
-            <witness xml:id="島原本"><abbr>島原本</abbr>：東京大学史料編纂所所蔵松平忠房・和学講談所・水野忠央旧蔵本（貴45-2）</witness>
             <witness xml:id="藤波本"><abbr>藤波本</abbr>：宮内庁書陵部図書寮文庫所蔵藤波家旧蔵本（217-473）</witness>
+            <witness xml:id="島原本"><abbr>島原本</abbr>：東京大学史料編纂所所蔵松平忠房・和学講談所・水野忠央旧蔵本（貴45-2）</witness>
             <witness xml:id="貞享本"><abbr>貞享本</abbr>：宮内庁書陵部図書寮文庫所蔵和学講談所旧蔵坊城俊方貞享本（457-116）</witness>
             <witness xml:id="玄梁本"><abbr>玄梁本</abbr>：無窮会専門図書館所蔵神習文庫玄梁記名本（神習3666）</witness>
             <witness xml:id="尾張本"><abbr>尾張本</abbr>：東京大学総合図書館所蔵尾張家旧蔵本（巻13）（A00-6122）</witness>
@@ -132,6 +132,179 @@
         <rendition xml:id="width200">width: 200px;</rendition>
         <rendition xml:id="width300">width: 300px;</rendition>
       </tagsDecl>
+      <unitDecl>
+        <unitDef type=" Length" xml:id="丈">
+          <label xml:lang="ja"> 丈 </label>
+          <label xml:lang="ja-Lath"> jō </label>
+          <desc> 1 jō 丈 = 10 shaku 尺 = 100 sun 寸 = 1000 bu 分 </desc>
+          <desc> 1 jō 丈 = 297 cm </desc>
+        </unitDef>
+        <unitDef type=" Length" xml:id="尺">
+          <label xml:lang="ja"> 尺 </label>
+          <label xml:lang="ja-Lath"> shaku </label>
+          <conversion formula="$fromUnit*10" fromUnit="#尺" toUnit="#丈"/>
+          <desc> 1 shaku 尺 = 29.7 cm </desc>
+        </unitDef>
+        <unitDef type=" Length" xml:id="寸">
+          <label xml:lang="ja"> 寸 </label>
+          <label xml:lang="ja-Lath"> sun </label>
+          <conversion formula="$fromUnit*10" fromUnit="#寸" toUnit="#尺"/>
+          <desc> 11 sun 寸 = 2.97 cm </desc>
+        </unitDef>
+        <unitDef type=" Length" xml:id="分_Length">
+          <label xml:lang="ja"> 分 </label>
+          <label xml:lang="ja-Lath"> bu </label>
+          <conversion formula="$fromUnit*10" fromUnit="#分" toUnit="#寸"/>
+          <desc> 1 bu 分 = 0.297 cm </desc>
+        </unitDef>
+        <unitDef type="Volume" xml:id="斛">
+          <label xml:lang="ja"> 斛 </label>
+          <label xml:lang="ja-Lath"> koku </label>
+          <desc> 1 koku 斛 / 石 = 10 to 斗 = 100 shō 升 = 1000 gō 合 = 10,000 shaku 夕。1 koku 斛 = ca. 81 L
+          </desc>
+        </unitDef>
+        <unitDef type="Volume" xml:id="石">
+          <label xml:lang="ja"> 石 </label>
+          <label xml:lang="ja-Lath"> koku </label>
+          <desc> 1 koku 斛 / 石 = 10 to 斗 = 100 shō 升 = 1000 gō 合 = 10,000 shaku 夕。1 koku 石 = ca. 81 L
+          </desc>
+        </unitDef>
+        <unitDef type="Volume" xml:id="斗">
+          <label xml:lang="ja"> 斗 </label>
+          <label xml:lang="ja-Lath"> to </label>
+          <conversion formula="$fromUnit*10" fromUnit="#斗" toUnit="#斛"/>
+          <conversion formula="$fromUnit*10" fromUnit="#斗" toUnit="#石"/>
+          <desc> 1 to 斗 = ca. 8100 ml (8.1 L) </desc>
+        </unitDef>
+        <unitDef type="Volume" xml:id="升">
+          <label xml:lang="ja"> 升 </label>
+          <label xml:lang="ja-Lath"> shō </label>
+          <conversion formula="$fromUnit*10" fromUnit="#升" toUnit="#斗"/>
+          <desc> 1 shō 升 = ca. 810 ml </desc>
+        </unitDef>
+        <unitDef type="Volume" xml:id="合">
+          <label xml:lang="ja"> 合 </label>
+          <label xml:lang="ja-Lath"> gō </label>
+          <conversion formula="$fromUnit*10" fromUnit="#合" toUnit="#升"/>
+          <desc> 1 gō 合 = ca. 81 ml </desc>
+        </unitDef>
+        <unitDef type="Volume" xml:id="夕">
+          <label xml:lang="ja"> 夕 </label>
+          <label xml:lang="ja-Lath"> shaku </label>
+          <conversion formula="$fromUnit*10" fromUnit="#夕" toUnit="#合"/>
+          <desc> 1 shaku 夕 = ca. 8.1 ml </desc>
+        </unitDef>
+        <unitDef type="Weight" xml:id="斤">
+          <label xml:lang="ja"> 斤 </label>
+          <label xml:lang="ja-Lath"> kin </label>
+          <desc> 1 kin 斤 = 16 ryō 両 = 64 bu 分 = 384 shu 銖。1 kin 斤 = ca. 674 g </desc>
+        </unitDef>
+        <unitDef type="Weight" xml:id="両">
+          <label xml:lang="ja"> 両 </label>
+          <label xml:lang="ja-Lath"> ryō </label>
+          <conversion formula="$fromUnit*16" fromUnit="#両" toUnit="#斤"/>
+          <desc> 1 ryō 両 = 4 bu 分 = 24 shu 銖。1 ryō 両 = ca. 42 g </desc>
+        </unitDef>
+        <unitDef type="Weight" xml:id="分_Weight">
+          <label xml:lang="ja"> 分 </label>
+          <label xml:lang="ja-Lath"> bu </label>
+          <conversion formula="$fromUnit*4" fromUnit="#分_Weight" toUnit="#両"/>
+          <desc> 1 bu 分 = 6 shu 銖。1 bu 分 = ca. 10.5 g </desc>
+        </unitDef>
+        <unitDef type="Weight" xml:id="銖">
+          <label xml:lang="ja"> 銖 </label>
+          <label xml:lang="ja-Lath"> shu </label>
+          <conversion formula="$fromUnit*6" fromUnit="#銖" toUnit="#分_Weight"/>
+          <desc> 1 shu 銖 = ca. 1.8 g </desc>
+        </unitDef>
+        <unitDef type="Cloth_chōfu" xml:id="端_調布">
+          <label xml:lang="ja"> 端 </label>
+          <label xml:lang="ja-Lath"> tan </label>
+          <desc> 1 tan 端 / 段 of chōfu 調布 = (length) 4 jō 丈 2 shaku 尺 × (width) 2 shaku 尺 4 sun 寸 (ca
+            12.5 m × 72 cm) </desc>
+        </unitDef>
+        <unitDef type="Cloth_chōfu" xml:id="段_調布">
+          <label xml:lang="ja"> 段 </label>
+          <label xml:lang="ja-Lath"> tan </label>
+          <desc> 1 tan 端 / 段 of chōfu 調布 = (length) 4 jō 丈 2 shaku 尺 × (width) 2 shaku 尺 4 sun 寸 (ca
+            12.5 m × 72 cm) </desc>
+        </unitDef>
+        <unitDef type="Cloth_yōfu" xml:id="段_庸布">
+          <label xml:lang="ja"> 段 </label>
+          <label xml:lang="ja-Lath"> tan </label>
+          <desc> 1 tan 段 of yōfu 庸布 = (length) 2 jō 丈 8 shaku 尺 × (width) 2 shaku 尺 4 sun 寸 (ca. 8.3
+            m × 72 cm) </desc>
+        </unitDef>
+        <unitDef type="Cloth_shōfu" xml:id="段_商布">
+          <label xml:lang="ja"> 段 </label>
+          <label xml:lang="ja-Lath"> tan </label>
+          <desc> 1 tan 段 of shōfu 商布 = length 2 jō 丈 6 shaku 尺 (ca. 7.72 m) </desc>
+        </unitDef>
+        <unitDef type="Cloth_yōfu" xml:id="端_庸布">
+          <label xml:lang="ja"> 端 </label>
+          <label xml:lang="ja-Lath"> tan </label>
+        </unitDef>
+        <unitDef xml:id="合_set">
+          <label xml:lang="ja"> 合 </label>
+          <label xml:lang="ja-Lath"> gō </label>
+          <desc> 蓋のある土器の単位。 </desc>
+        </unitDef>
+        <unitDef xml:id="口">
+          <label xml:lang="ja"> 口 </label>
+          <label xml:lang="ja-Lath"> ku </label>
+          <desc> 土器の単位。 </desc>
+        </unitDef>
+        <unitDef xml:id="疋">
+          <label xml:lang="ja"> 疋 </label>
+          <label xml:lang="ja-Lath"> hiki </label>
+          <desc> 主に布製品の単位。 </desc>
+        </unitDef>
+        <unitDef xml:id="文">
+          <label xml:lang="ja"> 文 </label>
+          <label xml:lang="ja-Lath"> mon </label>
+          <desc> 銭の単位。銭1貫=1000文。 </desc>
+        </unitDef>
+        <unitDef type="Weight" xml:id="廷">
+          <label xml:lang="ja"> 廷 </label>
+          <label xml:lang="ja-Lath"> tei </label>
+          <desc> 鉄1廷=大3斤5両。 </desc>
+        </unitDef>
+        <unitDef xml:id="隻">
+          <label xml:lang="ja"> 隻 </label>
+          <label xml:lang="ja-Lath"> seki </label>
+          <desc> 魚などの物品の単位。 </desc>
+        </unitDef>
+        <unitDef xml:id="顆">
+          <label xml:lang="ja"> 顆 </label>
+          <label xml:lang="ja-Lath"> ka </label>
+          <desc> 物品を計上する際の単位。 </desc>
+        </unitDef>
+        <unitDef type="Weight" xml:id="屯">
+          <label xml:lang="ja"> 屯 </label>
+          <label xml:lang="ja-Lath"> ton </label>
+          <desc> 綿を計上する際の単位。調綿1屯 = 大4両、細屯綿1屯 = 大3両1分2銖 = 小10両、綿1屯 = 大5両2分 = 小1斤2分。 </desc>
+        </unitDef>
+        <unitDef xml:id="張">
+          <label xml:lang="ja"> 張 </label>
+          <label xml:lang="ja-Lath"> chō </label>
+          <desc> 物品を計上する際の単位。 </desc>
+        </unitDef>
+        <unitDef xml:id="帖">
+          <label xml:lang="ja"> 帖 </label>
+          <label xml:lang="ja-Lath"> jō </label>
+          <desc> 畳綿を計上する際の単位。 </desc>
+        </unitDef>
+        <unitDef xml:id="枚">
+          <label xml:lang="ja"> 枚 </label>
+          <label xml:lang="ja-Lath"> mai </label>
+          <desc> 物品を計上する際の単位。 </desc>
+        </unitDef>
+        <unitDef type="Weight" xml:id="絇">
+          <label xml:lang="ja"> 絇 </label>
+          <label xml:lang="ja-Lath"> ku </label>
+          <desc> 糸の単位。糸1絇=上糸大4両、中糸大5両、麁糸大7両。 </desc>
+        </unitDef>
+      </unitDecl>
       <editorialDecl ana="校訂文凡例">
         <p ana="全体">
           <table>
@@ -190,10 +363,14 @@
               <cell rendition="#width300">例）閉【門⊃オ】、国【囗⊃玉】</cell>
             </row>
             <row>
-              <cell/>
+              <cell rendition="#width100">【（Ａ/Ｂ）+Ｃ】、【Ａ/（Ｂ⊃Ｃ）】</cell>
+              <cell rendition="#width300">＝要素が三つ以上、かつ異なる方法で要素が組み合う</cell>
+              <cell rendition="#width300">例）雑【（九/木）+隹】、懸【（県+系）/心】、薗【艹/（口⊃袁）】</cell>
             </row>
             <row>
               <cell/>
+              <cell/>
+              <cell>（班【王+リ+王】、窓【宀/公/心】はすべての要素が一方向に組み合うため、（　）なし。）</cell>
             </row>
           </table>
           <table>
@@ -371,6 +548,10 @@
             </row>
           </table>
         </p>
+        <p ana="個別"/>
+      </editorialDecl>
+      <editorialDecl ana="英訳凡例">
+        <p ana="全体"/>
         <p ana="個別"/>
       </editorialDecl>
     </encodingDesc>
