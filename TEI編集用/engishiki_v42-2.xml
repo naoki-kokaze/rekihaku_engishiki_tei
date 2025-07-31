@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -481,8 +480,14 @@
                n="42-2" subtype="条" type="式" xml:id="protocol422">
                <div type="式題" xml:id="shikidai422">
                   <p xml:id="shikidai42201">
-                     <orgName corresp="#市司">東市司</orgName>〈<orgName corresp="#市司">西市司</orgName>准此、〉
+                     <anchor xml:id="app2277770101"/><orgName corresp="#市司">東市司</orgName>〈<orgName
+                        corresp="#市司">西市司</orgName>准此、〉<anchor xml:id="app2277770101e"/>
                   </p>
+                  <app from="#" to="#e">
+                     <lem></lem>
+                     <rdg></rdg>
+                     <note></note>
+                  </app>
                </div>
                <div ana="東西市"
                   corresp="engishiki_v42-2_en.xml#article422001 engishiki_v42-2_ja.xml#article422001"
@@ -490,7 +495,14 @@
                   <head ana="毎厘立牓"/>
                   <p ana="項"
                      corresp="engishiki_v42-2_en.xml#item42200101 engishiki_v42-2_ja.xml#item42200101"
-                     xml:id="item42200101"> 凡市皆毎厘立牓題号、各依其厘、随色交開、不得彼此就便違越、 </p>
+                     xml:id="item42200101">
+                     <anchor xml:id="app4220010101"/>凡<anchor xml:id="app4220010101e"
+                     />市皆毎厘立牓題号、各依其厘、随色交開、不得彼此就便違越、 </p>
+                  <app from="#" to="#e">
+                     <lem></lem>
+                     <rdg></rdg>
+                     <note></note>
+                  </app>
                </div>
                <div ana="東西市"
                   corresp="engishiki_v42-2_en.xml#article422002 engishiki_v42-2_ja.xml#article422002"
@@ -498,10 +510,17 @@
                   <head ana="沽価帳"/>
                   <p ana="項"
                      corresp="engishiki_v42-2_en.xml#item42200201 engishiki_v42-2_ja.xml#item42200201"
-                     xml:id="item42200201"> 凡毎月勘造沽価帳三通送<orgName corresp="#京職">職</orgName>、<orgName
-                        corresp="#京職">々</orgName>押署、即以<orgName corresp="#京職"
-                        >職</orgName>印々之、一通進<orgName corresp="#太政官">官</orgName>、一通留<orgName
-                        corresp="#京職">職</orgName>、一通付<orgName corresp="#市司">司</orgName>、 </p>
+                     xml:id="item42200201">
+                     <anchor xml:id="app4220020101"/>凡<anchor xml:id="app4220020101e"
+                        />毎月勘造沽価帳三通送<orgName corresp="#京職">職</orgName>、<orgName corresp="#京職"
+                        >々</orgName>押署、即以<orgName corresp="#京職">職</orgName>印々之、一通進<orgName
+                        corresp="#太政官">官</orgName>、一通留<orgName corresp="#京職">職</orgName>、一通付<orgName
+                        corresp="#市司">司</orgName>、 </p>
+                  <app from="#" to="#e">
+                     <lem></lem>
+                     <rdg></rdg>
+                     <note></note>
+                  </app>
                </div>
                <div ana="東西市"
                   corresp="engishiki_v42-2_en.xml#article422003 engishiki_v42-2_ja.xml#article422003"
@@ -509,7 +528,26 @@
                   <head ana="売買不和"/>
                   <p ana="項"
                      corresp="engishiki_v42-2_en.xml#item42200301 engishiki_v42-2_ja.xml#item42200301"
-                     xml:id="item42200301"> 凡売買不和較固者、<orgName corresp="#市司">市司</orgName>追捉勘当、 </p>
+                     xml:id="item42200301">
+                     <anchor xml:id="app4220030101"/>凡<anchor xml:id="app4220030101e"/>売買不和較<anchor
+                        xml:id="app4220030102"/>固<anchor xml:id="app4220030102e"/>者、<orgName
+                        corresp="#市司">市司</orgName>追<anchor xml:id="app4220030103"/>捉<anchor
+                        xml:id="app4220030103e"/>勘当、 </p>
+                  <app from="#" to="#e">
+                     <lem></lem>
+                     <rdg></rdg>
+                     <note></note>
+                  </app>
+                  <app from="#" to="#e">
+                     <lem></lem>
+                     <rdg></rdg>
+                     <note></note>
+                  </app>
+                  <app from="#" to="#e">
+                     <lem></lem>
+                     <rdg></rdg>
+                     <note></note>
+                  </app>
                </div>
                <div ana="東西市"
                   corresp="engishiki_v42-2_en.xml#article422004 engishiki_v42-2_ja.xml#article422004"
@@ -517,7 +555,20 @@
                   <head ana="増直"/>
                   <p ana="項"
                      corresp="engishiki_v42-2_en.xml#item42200401 engishiki_v42-2_ja.xml#item42200401"
-                     xml:id="item42200401"> 凡商賈之輩、沽価之外、若有妄増物直者、不論蔭贖登時見決、 </p>
+                     xml:id="item42200401">
+                     <anchor xml:id="app4220040101"/>凡<anchor xml:id="app4220040101e"/>商<anchor
+                        xml:id="app4220040102"/>賈<anchor xml:id="app4220040102e"
+                     />之輩、沽価之外、若有妄増物直者、不論蔭贖登時見決、 </p>
+                  <app from="#" to="#e">
+                     <lem></lem>
+                     <rdg></rdg>
+                     <note></note>
+                  </app>
+                  <app from="#" to="#e">
+                     <lem></lem>
+                     <rdg></rdg>
+                     <note></note>
+                  </app>
                </div>
                <div ana="東西市"
                   corresp="engishiki_v42-2_en.xml#article422005 engishiki_v42-2_ja.xml#article422005"
@@ -525,7 +576,14 @@
                   <head ana="六衛入市"/>
                   <p ana="項"
                      corresp="engishiki_v42-2_en.xml#item42200501 engishiki_v42-2_ja.xml#item42200501"
-                     xml:id="item42200501"> 凡<orgName corresp="#六衛府">六衛府</orgName>舎人等、不得帯剣入市、 </p>
+                     xml:id="item42200501">
+                     <anchor xml:id="app4220050101"/>凡<anchor xml:id="app4220050101e"/><orgName
+                        corresp="#六衛府">六衛府</orgName>舎人等、不得帯剣入市、 </p>
+                  <app from="#" to="#e">
+                     <lem></lem>
+                     <rdg></rdg>
+                     <note></note>
+                  </app>
                </div>
                <div ana="東西市"
                   corresp="engishiki_v42-2_en.xml#article422006 engishiki_v42-2_ja.xml#article422006"
@@ -533,7 +591,14 @@
                   <head ana="市人籍帳"/>
                   <p ana="項"
                      corresp="engishiki_v42-2_en.xml#item42200601 engishiki_v42-2_ja.xml#item42200601"
-                     xml:id="item42200601"> 凡市人籍帳、毎年造進、 </p>
+                     xml:id="item42200601">
+                     <anchor xml:id="app4220060101"/>凡<anchor xml:id="app4220060101e"/>市人籍帳、毎年造進、
+                  </p>
+                  <app from="#" to="#e">
+                     <lem></lem>
+                     <rdg></rdg>
+                     <note></note>
+                  </app>
                </div>
                <div ana="東西市"
                   corresp="engishiki_v42-2_en.xml#article422007 engishiki_v42-2_ja.xml#article422007"
@@ -541,7 +606,14 @@
                   <head ana="市裏凌陵奪"/>
                   <p ana="項"
                      corresp="engishiki_v42-2_en.xml#item42200701 engishiki_v42-2_ja.xml#item42200701"
-                     xml:id="item42200701"> 凡市裏有凌奪之輩者、奏任已上、准状散禁請裁、判任已下、杻禁随犯決罰、 </p>
+                     xml:id="item42200701">
+                     <anchor xml:id="app4220070101"/>凡<anchor xml:id="app4220070101e"
+                     />市裏有凌奪之輩者、奏任已上、准状散禁請裁、判任已下、杻禁随犯決罰、 </p>
+                  <app from="#" to="#e">
+                     <lem></lem>
+                     <rdg></rdg>
+                     <note></note>
+                  </app>
                </div>
                <div ana="東西市"
                   corresp="engishiki_v42-2_en.xml#article422008 engishiki_v42-2_ja.xml#article422008"
@@ -549,7 +621,14 @@
                   <head ana="決罰罪人"/>
                   <p ana="項"
                      corresp="engishiki_v42-2_en.xml#item42200801 engishiki_v42-2_ja.xml#item42200801"
-                     xml:id="item42200801"> 凡決罰罪人者、官人与使、相対楼前罰之、 </p>
+                     xml:id="item42200801">
+                     <anchor xml:id="app4220080101"/>凡<anchor xml:id="app4220080101e"
+                     />決罰罪人者、官人与使、相対楼前罰之、 </p>
+                  <app from="#" to="#e">
+                     <lem></lem>
+                     <rdg></rdg>
+                     <note></note>
+                  </app>
                </div>
                <div ana="東西市"
                   corresp="engishiki_v42-2_en.xml#article422009 engishiki_v42-2_ja.xml#article422009"
@@ -557,7 +636,14 @@
                   <head ana="市町"/>
                   <p ana="項"
                      corresp="engishiki_v42-2_en.xml#item42200901 engishiki_v42-2_ja.xml#item42200901"
-                     xml:id="item42200901"> 凡市町准市裏、本<orgName corresp="#市司">司</orgName>加勘糺、随犯科責、 </p>
+                     xml:id="item42200901">
+                     <anchor xml:id="app4220090101"/>凡<anchor xml:id="app4220090101e"
+                        />市町准市裏、本<orgName corresp="#市司">司</orgName>加勘糺、随犯科責、 </p>
+                  <app from="#" to="#e">
+                     <lem></lem>
+                     <rdg></rdg>
+                     <note></note>
+                  </app>
                </div>
                <div ana="東西市"
                   corresp="engishiki_v42-2_en.xml#article422010 engishiki_v42-2_ja.xml#article422010"
@@ -565,8 +651,44 @@
                   <head ana="市町居住人"/>
                   <p ana="項"
                      corresp="engishiki_v42-2_en.xml#item42201001 engishiki_v42-2_ja.xml#item42201001"
-                     xml:id="item42201001"> 凡居住市町之輩、除市籍人、令進地子、即以充<orgName corresp="#市司"
-                     >市司</orgName>廻四面泥埿・道・橋及当堀河等造料、其用帳年終申送、 </p>
+                     xml:id="item42201001">
+                     <anchor xml:id="app4220100101"/>凡<anchor xml:id="app4220100101e"
+                        />居住市町之輩、除市籍人、令進地子、即以<anchor xml:id="app4220100102"/>充<anchor
+                        xml:id="app4220100102e"/><orgName corresp="#市司">市司</orgName>廻四面<anchor
+                        xml:id="app4220100103"/>泥<anchor xml:id="app4220100103e"/><anchor
+                        xml:id="app4220100104"/>埿<anchor xml:id="app4220100104e"/>・道・橋及<anchor
+                        xml:id="app4220100105"/>当<anchor xml:id="app4220100105e"/>堀河等造料、其用帳年<anchor
+                        xml:id="app4220100106"/>終<anchor xml:id="app4220100106e"/>申送、 </p>
+                  <app from="#" to="#e">
+                     <lem></lem>
+                     <rdg></rdg>
+                     <note></note>
+                  </app>
+                  <app from="#" to="#e">
+                     <lem></lem>
+                     <rdg></rdg>
+                     <note></note>
+                  </app>
+                  <app from="#" to="#e">
+                     <lem></lem>
+                     <rdg></rdg>
+                     <note></note>
+                  </app>
+                  <app from="#" to="#e">
+                     <lem></lem>
+                     <rdg></rdg>
+                     <note></note>
+                  </app>
+                  <app from="#" to="#e">
+                     <lem></lem>
+                     <rdg></rdg>
+                     <note></note>
+                  </app>
+                  <app from="#" to="#e">
+                     <lem></lem>
+                     <rdg></rdg>
+                     <note></note>
+                  </app>
                </div>
                <div ana="東西市"
                   corresp="engishiki_v42-2_en.xml#article422011 engishiki_v42-2_ja.xml#article422011"
@@ -574,7 +696,20 @@
                   <head ana="闕官要劇料"/>
                   <p ana="項"
                      corresp="engishiki_v42-2_en.xml#item42201101 engishiki_v42-2_ja.xml#item42201101"
-                     xml:id="item42201101"> 凡闕官要劇料、充<orgName corresp="#市司">司</orgName>中修理・雑用、 </p>
+                     xml:id="item42201101">
+                     <anchor xml:id="app4220110101"/>凡<anchor xml:id="app4220110101e"/>闕官要劇料、<anchor
+                        xml:id="app4220110102"/>充<anchor xml:id="app4220110102e"/><orgName
+                        corresp="#市司">司</orgName>中修理・雑用、 </p>
+                  <app from="#" to="#e">
+                     <lem></lem>
+                     <rdg></rdg>
+                     <note></note>
+                  </app>
+                  <app from="#" to="#e">
+                     <lem></lem>
+                     <rdg></rdg>
+                     <note></note>
+                  </app>
                </div>
                <div ana="東西市"
                   corresp="engishiki_v42-2_en.xml#article422012 engishiki_v42-2_ja.xml#article422012"
@@ -582,7 +717,14 @@
                   <head ana="集東西市"/>
                   <p ana="項"
                      corresp="engishiki_v42-2_en.xml#item42201201 engishiki_v42-2_ja.xml#item42201201"
-                     xml:id="item42201201"> 凡毎月十五日以前、集東市、十六日以後、集西市、 </p>
+                     xml:id="item42201201">
+                     <anchor xml:id="app4220120101"/>凡<anchor xml:id="app4220120101e"
+                     />毎月十五日以前、集東市、十六日以後、集西市、 </p>
+                  <app from="#" to="#e">
+                     <lem></lem>
+                     <rdg></rdg>
+                     <note></note>
+                  </app>
                </div>
                <div ana="東西市"
                   corresp="engishiki_v42-2_en.xml#article422013 engishiki_v42-2_ja.xml#article422013"
@@ -590,7 +732,14 @@
                   <head ana="聴通売"/>
                   <p ana="項"
                      corresp="engishiki_v42-2_en.xml#item42201301 engishiki_v42-2_ja.xml#item42201301"
-                     xml:id="item42201301"> 凡絹・雑染・土器、聴通売、 </p>
+                     xml:id="item42201301">
+                     <anchor xml:id="app4220130101"/>凡<anchor xml:id="app4220130101e"/>絹・雑染・土器、聴通売、
+                  </p>
+                  <app from="#" to="#e">
+                     <lem></lem>
+                     <rdg></rdg>
+                     <note></note>
+                  </app>
                </div>
                <div ana="東西市"
                   corresp="engishiki_v42-2_en.xml#article422014 engishiki_v42-2_ja.xml#article422014"
@@ -598,15 +747,62 @@
                   <head ana="東厘"/>
                   <p ana="項"
                      corresp="engishiki_v42-2_en.xml#item42201401 engishiki_v42-2_ja.xml#item42201401"
-                     xml:id="item42201401"> 東絁厘　羅厘　糸厘　錦厘　幞頭厘　巾子厘　縫衣厘 <lb/>帯厘　紵厘　布厘　苧厘　木綿厘　櫛厘　針厘
-                     <lb/>沓厘　菲厘　筆厘　墨厘　丹厘　珠厘　玉厘 <lb/>薬厘　大刀厘　弓厘　箭厘　兵具厘　香厘　鞍橋厘
-                     <lb/>鞍褥厘　韉厘　鐙厘　障泥厘　鞦厘　鉄并金器厘　漆厘 <lb/>油厘　染草厘　米厘　木器厘　麦厘　塩厘　醤厘
-                     <lb/>索餅厘　心太厘　海藻厘　菓子厘　蒜厘　干魚厘　馬厘 <lb/>生魚厘　海菜厘 </p>
-                  <p ana="項"
-                     corresp="engishiki_v42-2_en.xml#item42201402 engishiki_v42-2_ja.xml#item42201402"
-                     xml:id="item42201402">
-                     <s rendition="#indent3">右、五十一厘東市</s>
+                     xml:id="item42201401">
+                     <anchor xml:id="app4220140101"/>東絁厘<anchor xml:id="app4220140101e"
+                        />　羅厘　糸厘　錦厘　幞頭厘　巾子厘　縫衣<anchor xml:id="app4220140102"/>厘<anchor
+                        xml:id="app4220140102e"/>
+                     <lb/>帯厘　紵厘　布厘　苧厘　木綿厘　櫛厘　針厘 <lb/>沓厘　<anchor xml:id="app4220140103"/>菲<anchor
+                        xml:id="app4220140103e"/>厘　筆厘　墨厘　丹厘　<anchor xml:id="app4220140104"/>珠<anchor
+                        xml:id="app4220140104e"/>厘　玉厘 <lb/>薬厘　大刀厘　弓厘　箭厘　兵具厘　香厘　鞍橋厘
+                     <lb/>鞍褥厘　韉厘　鐙厘　障泥厘　鞦厘　鉄并金器厘　漆厘 <lb/>油厘　染草厘　米厘　木器厘　<anchor
+                        xml:id="app4220140105"/>麦厘<anchor xml:id="app4220140105e"/>　塩厘　醤厘
+                        <lb/><anchor xml:id="app4220140106"/>索餅厘<anchor xml:id="app4220140106e"
+                        />　心太厘　海藻厘　<anchor xml:id="app4220140107"/>菓<anchor xml:id="app4220140107e"
+                     />子厘　蒜厘　干魚厘　馬厘 <lb/><anchor xml:id="app4220140108"/>生魚厘<anchor
+                        xml:id="app4220140108e"/>　<anchor xml:id="app4220140109"/>海菜厘<anchor
+                        xml:id="app4220140109e"/>
+                     <lb/><s rendition="#indent3">右、五十一厘東市</s>
                   </p>
+                  <app from="#" to="#e">
+                     <lem></lem>
+                     <rdg></rdg>
+                     <note></note>
+                  </app>
+                  <app from="#" to="#e">
+                     <lem></lem>
+                     <rdg></rdg>
+                     <note></note>
+                  </app>
+                  <app from="#" to="#e">
+                     <lem></lem>
+                     <rdg></rdg>
+                     <note></note>
+                  </app>
+                  <app from="#" to="#e">
+                     <lem></lem>
+                     <rdg></rdg>
+                     <note></note>
+                  </app>
+                  <app from="#" to="#e">
+                     <lem></lem>
+                     <rdg></rdg>
+                     <note></note>
+                  </app>
+                  <app from="#" to="#e">
+                     <lem></lem>
+                     <rdg></rdg>
+                     <note></note>
+                  </app>
+                  <app from="#" to="#e">
+                     <lem></lem>
+                     <rdg></rdg>
+                     <note></note>
+                  </app>
+                  <app from="#" to="#e">
+                     <lem></lem>
+                     <rdg></rdg>
+                     <note></note>
+                  </app>
                </div>
                <div ana="東西市"
                   corresp="engishiki_v42-2_en.xml#article422015 engishiki_v42-2_ja.xml#article422015"
@@ -614,18 +810,77 @@
                   <head ana="西厘"/>
                   <p ana="項"
                      corresp="engishiki_v42-2_en.xml#item42201501 engishiki_v42-2_ja.xml#item42201501"
-                     xml:id="item42201501"> 絹厘　綿綾厘　糸厘　綿厘　紗厘　橡帛厘　幞頭厘 <lb/>縫衣厘　裙厘　帯幡厘　紵厘　調布厘　麻厘　続麻厘
-                     <lb/>櫛厘　針厘　菲厘　雑染厘　蓑笠厘　染草厘　土器厘 <lb/>油厘　米厘　塩厘　米醤厘　索餅厘　糖厘　心太厘
-                     <lb/>海藻厘　菓子厘　干魚厘　生魚厘　牛厘 </p>
-                  <p ana="項"
-                     corresp="engishiki_v42-2_en.xml#item42201502 engishiki_v42-2_ja.xml#item42201502"
-                     xml:id="item42201502">
-                     <s rendition="#indent3">右、卅三厘西市、</s>
+                     xml:id="item42201501">
+                     <anchor xml:id="app4220150101"/><anchor xml:id="app4220150101e"/>絹<anchor
+                        xml:id="app4220150102"/>厘<anchor xml:id="app4220150102e"/>　<anchor
+                        xml:id="app4220150103"/>綿<anchor xml:id="app4220150103e"
+                        />綾厘　糸厘　綿厘　紗厘　橡帛厘　幞頭<anchor xml:id="app4220150104"/>厘<anchor
+                        xml:id="app4220150104e"/>
+                     <lb/>縫衣厘　裙厘　帯幡厘　紵<anchor xml:id="app4220150105"/>厘<anchor
+                        xml:id="app4220150105e"/>　調布厘　麻厘　<anchor xml:id="app4220150106"/>続<anchor
+                        xml:id="app4220150106e"/>麻厘 <lb/>櫛厘　針厘　<anchor xml:id="app4220150107"
+                        />菲<anchor xml:id="app4220150107e"/>厘　雑染厘　蓑笠厘　染草厘　土器厘 <lb/>油厘　<anchor
+                        xml:id="app4220150108"/>米<anchor xml:id="app4220150108e"
+                     />厘　塩厘　米醤厘　索餅厘　糖厘　心太厘 <lb/>海藻厘　菓子厘　干魚厘　生魚厘　牛厘 <lb/><s rendition="#indent3"
+                        >右、卅三厘西市、</s>
                   </p>
+                  <app from="#" to="#e">
+                     <lem></lem>
+                     <rdg></rdg>
+                     <note></note>
+                  </app>
+                  <app from="#" to="#e">
+                     <lem></lem>
+                     <rdg></rdg>
+                     <note></note>
+                  </app>
+                  <app from="#" to="#e">
+                     <lem></lem>
+                     <rdg></rdg>
+                     <note></note>
+                  </app>
+                  <app from="#" to="#e">
+                     <lem></lem>
+                     <rdg></rdg>
+                     <note></note>
+                  </app>
+                  <app from="#" to="#e">
+                     <lem></lem>
+                     <rdg></rdg>
+                     <note></note>
+                  </app>
+                  <app from="#" to="#e">
+                     <lem></lem>
+                     <rdg></rdg>
+                     <note></note>
+                  </app>
+                  <app from="#" to="#e">
+                     <lem></lem>
+                     <rdg></rdg>
+                     <note></note>
+                  </app>
+                  <app from="#" to="#e">
+                     <lem></lem>
+                     <rdg></rdg>
+                     <note></note>
+                  </app>
                </div>
             </div>
             <div type="尾題" xml:id="bidai42">
-               <p xml:id="bidai4201"> 延喜式巻第卌二 </p>
+               <p xml:id="bidai4201">
+                  <anchor xml:id="app4288880101"/>延喜式巻第卌<anchor xml:id="app4288880101e"/>二<anchor
+                     xml:id="app4288880102"/><anchor xml:id="app4288880102e"/>
+               </p>
+               <app from="#" to="#e">
+                  <lem></lem>
+                  <rdg></rdg>
+                  <note></note>
+               </app>
+               <app from="#" to="#e">
+                  <lem></lem>
+                  <rdg></rdg>
+                  <note></note>
+               </app>
             </div>
             <div type="本奥書" xml:id="okugaki42">
                <p xml:id="okugaki4201"/>
