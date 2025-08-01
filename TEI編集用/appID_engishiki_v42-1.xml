@@ -1,0 +1,803 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title> 延喜式ファイル </title>
+</titleStmt>
+<publicationStmt>
+<publisher> 国立歴史民俗博物館メタ資料学研究センター </publisher>
+<idno type="PID"> o:depcha.engi_shiki.1 </idno>
+<availability>
+<p/>
+</availability>
+<date when="2020-03-31"> 31 March 2020 </date>
+</publicationStmt>
+<sourceDesc>
+<msDesc>
+<msIdentifier>
+<settlement> 千葉県佐倉市 </settlement>
+<repository> 国立歴史民俗博物館 </repository>
+<collection> 集英社版延喜式 </collection>
+</msIdentifier>
+<msContents>
+<msItem>
+<author> 藤原時平・藤原忠平 </author>
+<title> 延喜式 </title>
+<note>
+<p> ここに史料の説明が入る。 </p>
+</note>
+</msItem>
+</msContents>
+</msDesc>
+<listWit>
+<listWit xml:id="写本">
+<head> 写本 </head>
+<witness xml:id="土本">
+<abbr> 土本 </abbr> ：国立歴史民俗博物館所蔵土御門家旧蔵本（H-743-74） </witness>
+<witness xml:id="近本">
+<abbr> 近本 </abbr> ：京都大学附属図書館所蔵近衛文庫本（2-03/エ/1貴） </witness>
+<witness xml:id="壬本">
+<abbr> 壬本 </abbr> ：宮内庁書陵部図書寮文庫所蔵壬生家旧蔵本（F10-287） </witness>
+<witness xml:id="京博本">
+<abbr> 京博本 </abbr> ：京都国立博物館所蔵旧京都博物館本 </witness>
+<witness xml:id="慶長本">
+<abbr> 慶長本 </abbr> ：国立公文書館所蔵慶長写本（特102-8） </witness>
+<witness xml:id="梵本">
+<abbr> 梵本 </abbr> ：天理大学附属天理図書館所蔵吉田文庫梵舜等筆本（吉16-8。巻8は173-ｲ5（Ⅲ524)もあり） </witness>
+<witness xml:id="九本">
+<abbr> 九本 </abbr> ：東京国立博物館所蔵九条家旧蔵巻子本（B-2370） </witness>
+<witness xml:id="剛本">
+<abbr> 剛本 </abbr> ：天野山金剛寺所蔵本 </witness>
+<witness xml:id="条本">
+<abbr> 条本 </abbr> ：一条家旧蔵巻子本（巻1～3は無窮会専門図書館所蔵模写本、巻4・5は神宮司庁刊影印本） </witness>
+<witness xml:id="花本">
+<abbr> 花本 </abbr> ：花山院家・武田祐吉旧蔵本（神宮皇学館刊影印本による） </witness>
+<witness xml:id="九冊本">
+<abbr> 九冊本 </abbr> ：國學院大學所蔵九条家・西田長男旧蔵冊子本（巻5は西田長男刊影印本による） </witness>
+<witness xml:id="永本">
+<abbr> 永本 </abbr> ：巻8は國學院大學図書館所蔵（091.2/322.135/1）、巻9・10は現蔵不明(神宮文庫所蔵写真帳1門16974） </witness>
+<witness xml:id="右本">
+<abbr> 右本 </abbr> ：巻8は國學院大學図書館所蔵（貴62） </witness>
+<witness xml:id="吉本">
+<abbr> 吉本 </abbr> ：天理大学附属天理図書館所蔵吉田家旧蔵本巻9・10（328.1-ｲ17(Ⅲ1219)） </witness>
+<witness xml:id="三条本">
+<abbr> 三条本 </abbr> ：天理大学附属天理図書館所蔵三条家旧蔵本（328.1-ｲ11(Ⅲ1218)） </witness>
+<witness xml:id="西本">
+<abbr> 西本 </abbr>
+                     ：巻9・10は國學院大學図書館所蔵（貴107～108）。巻50は国立歴史民俗博物館所蔵（H-1588）。抄出本は國學院大學所蔵（木村大樹「〔西田長男旧蔵〕三条西実隆筆『延喜式』(抄)の翻刻・紹介」『國學院大學研究開発推進機構紀要』14、2022年） </witness>
+<witness xml:id="時慶本">
+<abbr> 時慶本 </abbr> ：静嘉堂文庫所蔵西洞院時慶写本（延喜格式表18352、延喜式序18353） </witness>
+<witness xml:id="島原本">
+<abbr> 島原本 </abbr> ：東京大学史料編纂所所蔵松平忠房・和学講談所・水野忠央旧蔵本（貴45-2） </witness>
+<witness xml:id="藤波本">
+<abbr> 藤波本 </abbr> ：宮内庁書陵部図書寮文庫所蔵藤波家旧蔵本（217-473） </witness>
+<witness xml:id="貞享本">
+<abbr> 貞享本 </abbr> ：宮内庁書陵部図書寮文庫所蔵和学講談所旧蔵坊城俊方貞享本（457-116） </witness>
+<witness xml:id="玄梁本">
+<abbr> 玄梁本 </abbr> ：無窮会専門図書館所蔵神習文庫玄梁記名本（神習3666） </witness>
+<witness xml:id="尾張本">
+<abbr> 尾張本 </abbr> ：東京大学総合図書館所蔵尾張家旧蔵本（巻13）（A00-6122） </witness>
+<witness xml:id="泉亭本">
+<abbr> 泉亭本 </abbr> ：賀茂三手文庫所蔵泉亭本（制度/加） </witness>
+</listWit>
+<listWit xml:id="版本">
+<head> 版本：慶安版本も含めた流布版本 </head>
+<witness xml:id="慶安版本">
+<abbr> 慶安版本 </abbr> ：大和文華館所蔵鈴鹿連胤旧蔵版本（1/741～790） </witness>
+<witness xml:id="明暦版本">
+<abbr> 明暦版本 </abbr> ：明暦修訂版本　国立公文書館所蔵紅葉山文庫旧蔵版本（特26-1）等 </witness>
+<witness xml:id="明暦以降版本">
+<abbr> 明暦以降版本 </abbr> ：明暦修訂本以降の版本 </witness>
+<witness xml:id="寛文版本">
+<abbr> 寛文版本 </abbr> ：寛文修訂版本　筑波大学附属図書館所蔵版本20冊本（ム212-7）等 </witness>
+<witness xml:id="享保版本">
+<abbr> 享保版本 </abbr> ：享保修訂版本　筑波大学附属図書館所蔵版本50冊本（ム212-6）等 </witness>
+<witness xml:id="雲本">
+<abbr> 雲本 </abbr> ：松江藩文政11年(1828)刊本（雲州本）　早稲田大学図書館所蔵本（ワ03-01594）等 </witness>
+<witness xml:id="考異">
+<abbr> 考異 </abbr> ：雲州本附録『延喜式考異』　早稲田大学図書館所蔵本（ワ03-01594）等 </witness>
+<witness xml:id="鈴鹿本">
+<abbr> 鈴鹿本 </abbr> ：大和文華館所蔵鈴鹿連胤旧蔵慶安版本（1/741～790）書入 </witness>
+<witness xml:id="勢多本">
+<abbr> 勢多本 </abbr> ：宮内庁書陵部図書寮文庫所蔵勢多家旧蔵明暦等版本（172-123）書入 </witness>
+<witness xml:id="筑波寛文本">
+<abbr> 筑波寛文本 </abbr> ：筑波大学附属図書館所蔵寛文版本20冊本（ム212-7）書入 </witness>
+</listWit>
+<listWit xml:id="刊本">
+<head> 刊本 </head>
+<witness xml:id="旧大系本">
+<abbr> 旧大系本 </abbr> ：旧輯国史大系第13巻（経済雑誌社　1900年刊） </witness>
+<witness xml:id="叢書本">
+<abbr> 叢書本 </abbr> ：新註皇学叢書第3巻（広文庫刊行会　1927年刊） </witness>
+<witness xml:id="全集本">
+<abbr> 全集本 </abbr> ：日本古典全集『延喜式』（日本古典全集刊行会　1927～1929年刊） </witness>
+<witness xml:id="皇典本">
+<abbr> 皇典本 </abbr> ：『校訂延喜式』（皇典講究所・全国神職会　1929～1932年刊） </witness>
+<witness xml:id="国史大系本">
+<abbr> 国史大系本 </abbr> ：新訂増補国史大系第26巻（吉川弘文館　1937年刊） </witness>
+<witness xml:id="神道大系本">
+<abbr> 神道大系本 </abbr> ：神道大系古典編11・12『延喜式』（神道大系編纂会、1991・1993年刊） </witness>
+<witness xml:id="訳注本">
+<abbr> 訳注本 </abbr> ：訳注日本史料『延喜式』上～下（集英社、2000～2017年刊） </witness>
+</listWit>
+<listWit xml:id="その他">
+<head> その他 </head>
+<witness xml:id="本朝月令">
+<abbr> 本朝月令 </abbr> ：清水潔編『新校本朝月令』（皇學館大學神道研究所　2002年刊） </witness>
+<witness xml:id="儀式">
+<abbr> 儀式 </abbr> ：神道大系朝儀祭祀編1『儀式・内裏式』（神道大系編纂会　1980年刊） </witness>
+<witness xml:id="皇太神宮儀式帳">
+<abbr> 皇太神宮儀式帳 </abbr> ：佐野真人「『皇太神宮儀式帳』校訂試案」（『皇學館大学研究開発推進センター紀要』2　2016年） </witness>
+<witness xml:id="止由気宮儀式帳">
+<abbr> 止由気宮儀式帳 </abbr> ：佐野真人「『止由気宮儀式帳』校訂試案」（『皇學館大学研究開発推進センター紀要』3　2017年） </witness>
+<witness xml:id="新撰年中行事">
+<abbr> 新撰年中行事 </abbr> ：西本昌弘編『新撰年中行事』（八木書店　2010年刊） </witness>
+<witness xml:id="小野宮年中行事">
+<abbr> 小野宮年中行事 </abbr> ：群書類従第6輯 律令部 公事部（続群書類従完成会　1932年刊） </witness>
+<witness xml:id="小野宮年中行事裏書">
+<abbr> 小野宮年中行事裏書 </abbr> ：国立歴史民俗博物館所蔵本（H-1762） </witness>
+<witness xml:id="勘例">
+<abbr> 勘例（陽明文庫所蔵） </abbr> ：大日本古記録『勘例』上・下（岩波書店　2018・2023年刊） </witness>
+<witness xml:id="政事要略">
+<abbr> 政事要略 </abbr> ：新訂増補国史大系第28巻（吉川弘文館　1935年刊。適宜、写本を参照） </witness>
+<witness xml:id="法曹至要抄">
+<abbr> 法曹至要抄 </abbr> ：中世法制史料集（岩波書店　2005年刊） </witness>
+<witness xml:id="本草和名">
+<abbr> 本草和名 </abbr> ：丸山裕美子・武倩編著『本草和名』（汲古書院　2021年刊） </witness>
+</listWit>
+</listWit>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<variantEncoding location="external" method="location-referenced"/>
+<tagsDecl>
+<rendition xml:id="indent"> margin-top: 1em; </rendition>
+<rendition xml:id="indent2"> margin-top: 2em; </rendition>
+<rendition xml:id="indent3"> margin-top: 3em; </rendition>
+<rendition xml:id="indent4"> margin-top: 4em; </rendition>
+<rendition xml:id="indent5"> margin-top: 5em; </rendition>
+<rendition xml:id="indent6"> margin-top: 6em; </rendition>
+<rendition xml:id="indent7"> margin-top: 7em; </rendition>
+<rendition xml:id="indent10"> margin-top: 10em; </rendition>
+<rendition xml:id="indent12"> margin-top: 12em; </rendition>
+<rendition xml:id="indent13"> margin-top: 13em; </rendition>
+<rendition xml:id="indent14"> margin-top: 14em; </rendition>
+<rendition xml:id="indent18"> margin-top: 18em; </rendition>
+<rendition xml:id="width50"> width: 50px; </rendition>
+<rendition xml:id="width80"> width: 80px; </rendition>
+<rendition xml:id="width100"> width: 100px; </rendition>
+<rendition xml:id="width150"> width: 150px; </rendition>
+<rendition xml:id="width170"> width: 170px; </rendition>
+<rendition xml:id="width200"> width: 200px; </rendition>
+<rendition xml:id="width300"> width: 300px; </rendition>
+</tagsDecl>
+<editorialDecl ana="校訂文凡例">
+<p ana="全体">
+<table>
+<row>
+<cell> ・ </cell>
+<cell>
+                        原則として土本（以下、略称は「主要写本・版本・刊本等略称・底本一覧」参照）を底本とし、九本・剛本・条本・花本等の古写本や近本・壬本・京博本等の写本によって対校しました（巻によって使用した対校本は異なります）。
+                     </cell>
+</row>
+<row>
+<cell> ・ </cell>
+<cell>
+                        条文番号・条文名称は原則として訳注本に拠りましたが、一部を修正しています（※下記「条文名称修正一覧」参照）。なお1条が長い場合など、必要に応じ「項」に分割して示すこととしました。
+                     </cell>
+</row>
+<row>
+<cell> ・ </cell>
+<cell>
+                        校異は原則として底本の文字を改変する場合、あるいは写本間に参考とすべき異同がある場合、参考とすべき傍書等がある場合に付すこととしました。必ずしもその校異に関する写本をすべて網羅することはせず、主要写本のみを取り上げています。ただし訳注本と校訂文に異同が生じた場合には、できる限り校異にて言及するよう心がけました（単なる字体の相違については省略しています）。
+                     </cell>
+</row>
+<row>
+<cell> ・ </cell>
+<cell>
+                        校訂文は『延喜式』撰上当初の姿の復元を目標としています。標注や傍書は、条文名称に関わるものは省略し、中世以前にさかのぼることが想定されるものに限って、校異注で言及することとしました。ただし標注のうち「弘」「貞」「延」等については便宜を考え、鉤括弧で括って校訂本文に掲げることとしました。
+                     </cell>
+</row>
+<row>
+<cell> ・ </cell>
+<cell>
+                        字体は常用漢字体を原則としました。「大」と「太」、「座」と「坐」、「絇」と「約」、「績」と「續（続）」、「色」と「包」、「細」と「紬」、「鈍」と「純」、「冑」と「胃」、「絁」と「絶」、草冠と竹冠、木偏と手偏等、容易に判定される誤字や誤用・通用については、校異を省略して適宜置き換える場合があります。ただし巻9・10においては「大」「太」の差異も校異にて触れることとしました。
+                     </cell>
+</row>
+<row>
+<cell> ・ </cell>
+<cell> 校訂文中の細字・割書は、〈　〉で括って表現することとしました。 </cell>
+</row>
+<row>
+<cell> ・ </cell>
+<cell> 本文に誤字・脱字等が想定される場合であっても、置き換えるべき文字や補うべき文字が明確でない場合は、校異注での言及にとどめた場合があります。
+                     </cell>
+</row>
+<row>
+<cell> ・ </cell>
+<cell> ユニコードにて表示されない漢字は以下のように示すことにしました。 </cell>
+</row>
+</table>
+<table rendition="#indent2">
+<row>
+<cell rendition="#width100"> 【Ａ+Ｂ】 </cell>
+<cell rendition="#width300"> ＝扁がＡ、つくりがＢ </cell>
+<cell rendition="#width300"> 例）村【木+寸】 </cell>
+</row>
+<row>
+<cell rendition="#width100"> 【Ａ/Ｂ】 </cell>
+<cell rendition="#width300"> ＝上にＡ、下にＢ </cell>
+<cell rendition="#width300"> 例）雲【雨/云】 </cell>
+</row>
+<row>
+<cell rendition="#width100"> 【Ａ-Ｂ】 </cell>
+<cell rendition="#width300"> ＝Ａの字画よりＢにあたる字画を除く </cell>
+<cell rendition="#width300"> 例）門【閉-オ】 </cell>
+</row>
+<row>
+<cell rendition="#width100"> 【Ａ⊃Ｂ】 </cell>
+<cell rendition="#width300"> ＝Ａの字画のなかにＢの字画が含まれる </cell>
+<cell rendition="#width300"> 例）閉【門⊃オ】、国【囗⊃玉】 </cell>
+</row>
+<row>
+<cell/>
+</row>
+<row>
+<cell/>
+</row>
+</table>
+<table>
+<row>
+<cell> ・ </cell>
+<cell> 校異注の付く文字は赤字および青字で表示され、クリックすると注が表示されます。表示内容は以下の通りです。 </cell>
+</row>
+</table>
+<table rendition="#indent2">
+<row>
+<cell rendition="#width100"> 採用 </cell>
+<cell> 写本名と校訂文にて採用した文字 </cell>
+</row>
+<row>
+<cell rendition="#width100"> 校異 </cell>
+<cell> 写本名と対校箇所の文字 </cell>
+</row>
+<row>
+<cell rendition="#width100"> 解説 </cell>
+<cell> 各写本の傍書や頭書等の提示、校異注の本文（最下部の解説） </cell>
+</row>
+<row>
+<cell/>
+</row>
+<row>
+<cell/>
+</row>
+</table>
+<table>
+<row>
+<cell> ・ </cell>
+<cell> 条文名称修正一覧 </cell>
+</row>
+</table>
+<table rendition="#indent2">
+<row>
+<cell rendition="#width100"> 巻番号 </cell>
+<cell rendition="#width50"> 旧番号 </cell>
+<cell rendition="#width100"> 旧条文名 </cell>
+<cell rendition="#width50"> 番号 </cell>
+<cell rendition="#width100"> 訂正条文名 </cell>
+</row>
+<row>
+<cell rendition="#width100"> 111太政官 </cell>
+<cell rendition="#width50"> 67 </cell>
+<cell rendition="#width100"> 薗韓神祭 </cell>
+<cell rendition="#width50"> 67 </cell>
+<cell rendition="#width100"> 園韓神祭 </cell>
+</row>
+<row>
+<cell rendition="#width100"> 111太政官 </cell>
+<cell rendition="#width50"> 112 </cell>
+<cell rendition="#width100"> 行幸経宿 </cell>
+<cell rendition="#width50"> 112 </cell>
+<cell rendition="#width100"> 行幸経旬 </cell>
+</row>
+<row>
+<cell rendition="#width100"> 171内匠 </cell>
+<cell rendition="#width50"> 39 </cell>
+<cell rendition="#width100"> 作物衣服 </cell>
+<cell rendition="#width50"> 39 </cell>
+<cell rendition="#width100"> 作物衣 </cell>
+</row>
+<row>
+<cell rendition="#width100"> 214諸陵 </cell>
+<cell rendition="#width50"> 16 </cell>
+<cell rendition="#width100"> 後阿陁他遠墓 </cell>
+<cell rendition="#width50"> 16 </cell>
+<cell rendition="#width100"> 後阿陀他遠墓 </cell>
+</row>
+<row>
+<cell rendition="#width100"> 293囚獄 </cell>
+<cell rendition="#width50"> 2 </cell>
+<cell rendition="#width100"> 著鈦盤枷 </cell>
+<cell rendition="#width50"> 2 </cell>
+<cell rendition="#width100"> 着鈦盤枷 </cell>
+</row>
+<row>
+<cell rendition="#width100"> 321大膳上 </cell>
+<cell rendition="#width50"> 5 </cell>
+<cell rendition="#width100"> 新嘗祭 </cell>
+<cell rendition="#width50"> 5･6 </cell>
+<cell rendition="#width100"> 新嘗祭と新嘗小斎解斎に分割 </cell>
+</row>
+<row>
+<cell rendition="#width100"> 411弾正 </cell>
+<cell rendition="#width50"> 68 </cell>
+<cell rendition="#width100"> 支子染深色 </cell>
+<cell rendition="#width50"> 68 </cell>
+<cell rendition="#width100"> 支子染色 </cell>
+</row>
+<row>
+<cell rendition="#width100"> 422東西市 </cell>
+<cell rendition="#width50"> 1 </cell>
+<cell rendition="#width100"> 毎鄽立牓 </cell>
+<cell rendition="#width50"> 1 </cell>
+<cell rendition="#width100"> 毎厘立牓 </cell>
+</row>
+<row>
+<cell rendition="#width100"> 422東西市 </cell>
+<cell rendition="#width50"> 14 </cell>
+<cell rendition="#width100"> 東鄽 </cell>
+<cell rendition="#width50"> 14 </cell>
+<cell rendition="#width100"> 東厘 </cell>
+</row>
+<row>
+<cell rendition="#width100"> 422東西市 </cell>
+<cell rendition="#width50"> 15 </cell>
+<cell rendition="#width100"> 西鄽 </cell>
+<cell rendition="#width50"> 15 </cell>
+<cell rendition="#width100"> 西厘 </cell>
+</row>
+</table>
+</p>
+<p ana="個別">校訂文凡例<table>
+<row>
+<cell>・</cell>
+<cell>底本には国立歴史民俗博物館蔵の土御門家旧蔵本を使用し、九条本、近衛本、壬生本、京博本、慶長本、梵舜本によって対校しました。その他、校訂に資する場合や内容理解に関わる場合に限り、他本を掲示しました。また、必要に応じて政事要略等の関連史料が引く式文も掲示しました。</cell>
+</row>
+<row>
+<cell>・</cell>
+<cell>集英社刊訳注本の校訂と異なる場合は、その旨明記しました。</cell>
+</row>
+<row>
+<cell>・</cell>
+<cell>校訂に用いた諸本の略称は以下の通りです。</cell>
+</row>
+<row rendition="#indent">
+<cell>＊</cell>
+<cell>特に注記がない場合は、底本（土本）によります。</cell>
+</row>
+</table>
+<table rendition="#indent">
+<row>
+<cell rendition="#width100">土本</cell>
+<cell>国立歴史民俗博物館蔵土御門家旧蔵本（H-743-74）</cell>
+</row>
+<row>
+<cell rendition="#width100">九本</cell>
+<cell>東京国立博物館所蔵九条家旧蔵巻子本（B-2370）</cell>
+</row>
+<row>
+<cell rendition="#width100">近本</cell>
+<cell>京都大学附属図書館所蔵近衛文庫本（2-03/エ/1貴）</cell>
+</row>
+<row>
+<cell rendition="#width100">壬本</cell>
+<cell>宮内庁書陵部図書寮文庫所蔵壬生家旧蔵本（F10-287）</cell>
+</row>
+<row>
+<cell rendition="#width100">京博本</cell>
+<cell>京都国立博物館所蔵京都博物館本</cell>
+</row>
+<row>
+<cell rendition="#width100">慶長本</cell>
+<cell>国立公文書館所蔵慶長写本（特102-8）</cell>
+</row>
+<row>
+<cell rendition="#width100">梵本</cell>
+<cell>天理大学附属天理大図書館所蔵吉田文庫梵舜等筆本（吉16-8）</cell>
+</row>
+<row>
+<cell rendition="#width100">版本</cell>
+<cell>慶安版本・明暦以降版本の総称</cell>
+</row>
+<row rendition="#indent">
+<cell rendition="#width100">慶安版本</cell>
+<cell>大和文華館所蔵鈴鹿連胤旧蔵版本（1/782）</cell>
+</row>
+<row rendition="#indent2">
+<cell rendition="#width100">鈴鹿本</cell>
+<cell>大和文華館所蔵鈴鹿連胤旧蔵慶安版本書入</cell>
+</row>
+<row>
+<cell rendition="#width100">明暦以降版本</cell>
+<cell>次の各版本の総称</cell>
+</row>
+<row rendition="#indent">
+<cell rendition="#width100">明暦版本</cell>
+<cell>明暦3年(1657)林和泉掾(松柏堂)刊本</cell>
+</row>
+<row rendition="#indent">
+<cell rendition="#width100">寛文版本</cell>
+<cell>寛文7年(1667)林和泉掾(松柏堂)刊本</cell>
+</row>
+<row rendition="#indent2">
+<cell rendition="#width100">筑波寛文本</cell>
+<cell>筑波大学附属図書館所蔵寛文版本20冊本</cell>
+</row>
+<row rendition="#indent">
+<cell rendition="#width100">享保版本</cell>
+<cell>享保8年(1723)出雲寺和泉掾(松柏堂)刊本</cell>
+</row>
+<row>
+<cell rendition="#width100">雲本</cell>
+<cell>文政11年(1828)松江藩刊本（雲州本）</cell>
+</row>
+<row>
+<cell rendition="#width100">考異</cell>
+<cell>雲州本考異附録『延喜式考異』　早稲田大学図書館所蔵本（ワ03-01594）等</cell>
+</row>
+<row>
+<cell rendition="#width100">国史大系本</cell>
+<cell>新訂増補国史大系第26巻</cell>
+</row>
+<row>
+<cell rendition="#width100">訳注本</cell>
+<cell>訳注日本史料『延喜式』下（2017年刊）</cell>
+</row>
+<row>
+<cell rendition="#width100">政事要略</cell>
+<cell>新訂増補国史大系第28巻（吉川弘文館　1935年刊）</cell>
+</row>
+</table>
+</p>
+</editorialDecl>
+</encodingDesc>
+<revisionDesc ana="個別">
+<listChange>
+<change/>
+</listChange>
+</revisionDesc>
+</teiHeader>
+<text>
+<body>
+<div ana="左右京" n="42" subtype="式" type="巻" xml:id="volume42">
+<div type="首題" xml:id="shudai42">
+<p xml:id="shudai4201"> 延喜式巻第卌二〈<orgName corresp="#京職">左右京</orgName>・<orgName corresp="#市司">東西市</orgName>〉 </p>
+</div>
+<div ana="左右京" corresp="engishiki_v42-1_en.xml#protocol421 engishiki_v42-1_ja.xml#protocol421" n="42-1" subtype="条" type="式" xml:id="protocol421">
+<div type="式題" xml:id="shikidai421">
+<p xml:id="shikidai42101">
+<orgName corresp="#京職">左京職</orgName><anchor xml:id="app2177770101"/>〈<orgName corresp="#京職">右京職</orgName>准<anchor xml:id="app2177770101e"/>此<anchor xml:id="app2177770102"/>、〉<anchor xml:id="app2177770102e"/>
+</p>
+</div>
+<div ana="左右京" corresp="engishiki_v42-1_en.xml#article421001 engishiki_v42-1_ja.xml#article421001" n="42-1.1" subtype="項" type="条" xml:id="article421001">
+<head ana="大神宮幣帛使"/>
+<p ana="項" corresp="engishiki_v42-1_en.xml#item42100101 engishiki_v42-1_ja.xml#item42100101" xml:id="item42100101"> <anchor xml:id="app4210010101"/>凡<anchor xml:id="app4210010101e"/>毎年九月幣帛使向<placeName corresp="#伊勢国">伊勢</placeName>者、史生一人将坊令二人・兵士四人前<anchor xml:id="app4210010102"/>駆<anchor xml:id="app4210010102e"/>〈臨時幣帛使亦同、〉 </p>
+</div>
+<div ana="左右京" corresp="engishiki_v42-1_en.xml#article421002 engishiki_v42-1_ja.xml#article421002" n="42-1.2" subtype="項" type="条" xml:id="article421002">
+<head ana="斎王祓"/>
+<p ana="項" corresp="engishiki_v42-1_en.xml#item42100201 engishiki_v42-1_ja.xml#item42100201" xml:id="item42100201"> <anchor xml:id="app4210020101"/>凡<anchor xml:id="app4210020101e"/>斎王臨河祓除及向<placeName corresp="#伊勢国">伊勢</placeName>者、進・属各一人・<anchor xml:id="app4210020102"/>史<anchor xml:id="app4210020102e"/><anchor xml:id="app4210020103"/>生<anchor xml:id="app4210020103e"/>一人、将坊令二人・兵士十人前<anchor xml:id="app4210020104"/>駆<anchor xml:id="app4210020104e"/>〈<placeName corresp="#出雲国">出雲</placeName>国造奏神寿詞、遣大唐・渤海等国使、祭天神地祇、若上道等日、及蕃客<anchor xml:id="app4210020105"/>入<anchor xml:id="app4210020105e"/>朝之時、亦同、〉 </p>
+</div>
+<div ana="左右京" corresp="engishiki_v42-1_en.xml#article421003 engishiki_v42-1_ja.xml#article421003" n="42-1.3" subtype="項" type="条" xml:id="article421003">
+<head ana="賀茂斎王祓"/>
+<p ana="項" corresp="engishiki_v42-1_en.xml#item42100301 engishiki_v42-1_ja.xml#item42100301" xml:id="item42100301"> <anchor xml:id="app4210030101"/>凡<anchor xml:id="app4210030101e"/>賀茂斎内親王祓除、及向斎院者、進・属・史生各一人、率坊令二人・兵士十人前駆、預営作道・橋・泥塗等、 </p>
+</div>
+<div ana="左右京" corresp="engishiki_v42-1_en.xml#article421004 engishiki_v42-1_ja.xml#article421004" n="42-1.4" subtype="項" type="条" xml:id="article421004">
+<head ana="大嘗大祓"/>
+<p ana="項" corresp="engishiki_v42-1_en.xml#item42100401 engishiki_v42-1_ja.xml#item42100401" xml:id="item42100401">
+<anchor xml:id="app4210040101"/>凡<anchor xml:id="app4210040101e"/>践祚大嘗大祓所須、馬一疋、剣九口、鍬九口、鹿皮九張、紙四百五十張、木綿六十<anchor xml:id="app4210040102"/>五<anchor xml:id="app4210040102e"/>枚、<anchor xml:id="app4210040103"/>苧<anchor xml:id="app4210040103e"/>小九斤、稲九束、米・塩各九斗、鮭九隻、堅魚・鰒・海藻各九連、柏九把、食薦九枚〈条別均分買備之、其価充徭銭、但馬申<orgName corresp="#官">官</orgName>請受、〉官人率坊令・坊長・<anchor xml:id="app4210040104"/>百<anchor xml:id="app4210040104e"/>姓於羅城外、東西相対分<anchor xml:id="app4210040105"/>別<anchor xml:id="app4210040105e"/>〈<orgName corresp="#京職">左京</orgName>西面北上、<orgName corresp="#京職">右京</orgName>東面北上〉朝使者坐中<anchor xml:id="app4210040106"/>央<anchor xml:id="app4210040106e"/>南向、訖即解除、其斎内親王入大神宮時、大祓料物并儀式、亦准此、 </p>
+</div>
+<div ana="左右京" corresp="engishiki_v42-1_en.xml#article421005 engishiki_v42-1_ja.xml#article421005" n="42-1.5" subtype="項" type="条" xml:id="article421005">
+<head ana="二季大祓"/>
+<p ana="項" corresp="engishiki_v42-1_en.xml#item42100501 engishiki_v42-1_ja.xml#item42100501" xml:id="item42100501"> <anchor xml:id="app4210050101"/>凡<anchor xml:id="app4210050101e"/>六月・十二月大祓、預令掃除其処、亦兵士禁人往還、元日質明、掃除蒭霊、 </p>
+</div>
+<div ana="左右京" corresp="engishiki_v42-1_en.xml#article421006 engishiki_v42-1_ja.xml#article421006" n="42-1.6" subtype="項" type="条" xml:id="article421006">
+<head ana="畿内堺祭"/>
+<p ana="項" corresp="engishiki_v42-1_en.xml#item42100601 engishiki_v42-1_ja.xml#item42100601" xml:id="item42100601"> <anchor xml:id="app4210060101"/>凡<anchor xml:id="app4210060101e"/>毎年九月、<orgName corresp="#神祇官">神祇官</orgName><placeName corresp="#畿内">畿内</placeName>堺祭、差担夫五人已上送之、 </p>
+</div>
+<div ana="左右京" corresp="engishiki_v42-1_en.xml#article421007 engishiki_v42-1_ja.xml#article421007" n="42-1.7" subtype="項" type="条" xml:id="article421007">
+<head ana="掃除大学"/>
+<p ana="項" corresp="engishiki_v42-1_en.xml#item42100701 engishiki_v42-1_ja.xml#item42100701" xml:id="item42100701"> <anchor xml:id="app4210070101"/>凡<anchor xml:id="app4210070101e"/>毎年二月・八月前上丁<anchor xml:id="app4210070102"/>三<anchor xml:id="app4210070102e"/>日、各雇夫掃除<orgName corresp="#大学寮">大学</orgName>〈二月五十人、八月一百人、〉前享一日夕、差兵士四人令衛廟門、 </p>
+</div>
+<div ana="左右京" corresp="engishiki_v42-1_en.xml#article421008 engishiki_v42-1_ja.xml#article421008" n="42-1.8" subtype="項" type="条" xml:id="article421008">
+<head ana="文殊会"/>
+<p ana="項" corresp="engishiki_v42-1_en.xml#item42100801 engishiki_v42-1_ja.xml#item42100801" xml:id="item42100801"> <anchor xml:id="app4210080101"/>凡<anchor xml:id="app4210080101e"/>東寺文殊会日、進・属各一人、史生一人、坊令二人、兵士六人、向会所供事〈<orgName corresp="#京職">右京</orgName>供西寺会、〉 </p>
+</div>
+<div ana="左右京" corresp="engishiki_v42-1_en.xml#article421009 engishiki_v42-1_ja.xml#article421009" n="42-1.9" subtype="項" type="条" xml:id="article421009">
+<head ana="射礼"/>
+<p ana="項" corresp="engishiki_v42-1_en.xml#item42100901 engishiki_v42-1_ja.xml#item42100901" xml:id="item42100901"> <anchor xml:id="app4210090101"/>凡<anchor xml:id="app4210090101e"/>正月十七日、於豊楽院有射礼節、自豊楽門迄儀鸞門、<orgName corresp="#京職">左右京職</orgName>中分其庭東西掃除、其夫功食料<anchor xml:id="app4210090102"/>充<anchor xml:id="app4210090102e"/>調徭銭、 </p>
+</div>
+<div ana="左右京" corresp="engishiki_v42-1_en.xml#article421010 engishiki_v42-1_ja.xml#article421010" n="42-1.10" subtype="項" type="条" xml:id="article421010">
+<head ana="追儺"/>
+<p ana="項" corresp="engishiki_v42-1_en.xml#item42101001 engishiki_v42-1_ja.xml#item42101001" xml:id="item42101001"> <anchor xml:id="app4210100101"/>凡<anchor xml:id="app4210100101e"/>年終儺者、差撃鼓夫六人・馬<anchor xml:id="app4210100102"/>六<anchor xml:id="app4210100102e"/>疋、送<orgName corresp="#兵庫寮">兵庫<anchor xml:id="app4210100103"/>寮<anchor xml:id="app4210100103e"/></orgName>、分配宮城六門、其夫馬功賃、以徭<anchor xml:id="app4210100104"/>銭<anchor xml:id="app4210100104e"/>充之、 </p>
+</div>
+<div ana="左右京" corresp="engishiki_v42-1_en.xml#article421011 engishiki_v42-1_ja.xml#article421011" n="42-1.11" subtype="項" type="条" xml:id="article421011">
+<head ana="追儺夜"/>
+<p ana="項" corresp="engishiki_v42-1_en.xml#item42101101 engishiki_v42-1_ja.xml#item42101101" xml:id="item42101101"> <anchor xml:id="app4210110101"/>凡<anchor xml:id="app4210110101e"/>追儺夜、分配諸門史生已上<anchor xml:id="app4210110102"/>夾<anchor xml:id="app4210110102e"/>名、廿八日以前進<orgName corresp="#太政官">太政官</orgName>、 </p>
+</div>
+<div ana="左右京" corresp="engishiki_v42-1_en.xml#article421012 engishiki_v42-1_ja.xml#article421012" n="42-1.12" subtype="項" type="条" xml:id="article421012">
+<head ana="車駕行幸"/>
+<p ana="項" corresp="engishiki_v42-1_en.xml#item42101201 engishiki_v42-1_ja.xml#item42101201" xml:id="item42101201"> <anchor xml:id="app4210120101"/>凡<anchor xml:id="app4210120101e"/>車駕行幸、<orgName corresp="#京職">京職</orgName>前駆、若夜即属以上及史生、将坊令・書生等、執燎供奉〈其松明<orgName corresp="#京職">職</orgName>備之、〉 </p>
+</div>
+<div ana="左右京" corresp="engishiki_v42-1_en.xml#article421013 engishiki_v42-1_ja.xml#article421013" n="42-1.13" subtype="項" type="条" xml:id="article421013">
+<head ana="京路掃除"/>
+<p ana="項" corresp="engishiki_v42-1_en.xml#item42101301 engishiki_v42-1_ja.xml#item42101301" xml:id="item42101301"> <anchor xml:id="app4210130101"/>凡<anchor xml:id="app4210130101e"/>京路、皆令当家毎月掃除、其<orgName corresp="#弾正台">弾正</orgName>巡検之日、官人一<anchor xml:id="app4210130102"/>人<anchor xml:id="app4210130102e"/>・史生一人、将<anchor xml:id="app4210130103"/>坊令<anchor xml:id="app4210130103e"/>・坊長・兵士等、祗承〈四月八日・七月十五日、巡察東西寺、准此、〉 </p>
+</div>
+<div ana="左右京" corresp="engishiki_v42-1_en.xml#article421014 engishiki_v42-1_ja.xml#article421014" n="42-1.14" subtype="項" type="条" xml:id="article421014">
+<head ana="朱雀路溝"/>
+<p ana="項" corresp="engishiki_v42-1_en.xml#item42101401 engishiki_v42-1_ja.xml#item42101401" xml:id="item42101401"> <anchor xml:id="app4210140101"/>凡<anchor xml:id="app4210140101e"/>宮城辺・朱雀路溝、皆令雇夫掃除、又<orgName corresp="#京職">左京</orgName>者、<orgName corresp="#大学寮">大学</orgName>・神泉苑・鴻臚東館、<orgName corresp="#京職">右京</orgName>者、穀倉院・鴻臚西館、客徒入朝之時、均分客館<anchor xml:id="app4210140102"/>之<anchor xml:id="app4210140102e"/>内、<orgName corresp="#京職">左右京</orgName>共掃除、並夫一人日<anchor xml:id="app4210140103"/>充<anchor xml:id="app4210140103e"/>米二升、其功銭、依当時法行之、 </p>
+</div>
+<div ana="左右京" corresp="engishiki_v42-1_en.xml#article421015 engishiki_v42-1_ja.xml#article421015" n="42-1.15" subtype="項" type="条" xml:id="article421015">
+<head ana="宮城辺立鋪"/>
+<p ana="項" corresp="engishiki_v42-1_en.xml#item42101501 engishiki_v42-1_ja.xml#item42101501" xml:id="item42101501"> <anchor xml:id="app4210150101"/>凡<anchor xml:id="app4210150101e"/>宮城辺、量便立鋪、兵士廿人為番守衛、其功食、以徭銭<anchor xml:id="app4210150102"/>充<anchor xml:id="app4210150102e"/>、 </p>
+</div>
+<div ana="左右京" corresp="engishiki_v42-1_en.xml#article421016 engishiki_v42-1_ja.xml#article421016" n="42-1.16" subtype="項" type="条" xml:id="article421016">
+<head ana="諸門厩亭"/>
+<p ana="項" corresp="engishiki_v42-1_en.xml#item42101601 engishiki_v42-1_ja.xml#item42101601" xml:id="item42101601">
+<anchor xml:id="app4210160101"/>凡<anchor xml:id="app4210160101e"/>諸門厩亭〈左京三宇、陽明門・待賢門・美福門、並七間、<anchor xml:id="app4210160102"/>右<anchor xml:id="app4210160102e"/>京<anchor xml:id="app4210160103"/>二<anchor xml:id="app4210160103e"/>宇、朱雀門・殷富門、並七間、〉令門衛<anchor xml:id="app4210160104"/>火<anchor xml:id="app4210160104e"/>長等各守之、若致非理損、即移<orgName corresp="#民部省">民部省</orgName>并本<orgName corresp="#衛門府">府</orgName>、奪其月粮、 </p>
+</div>
+<div ana="左右京" corresp="engishiki_v42-1_en.xml#article421017 engishiki_v42-1_ja.xml#article421017" n="42-1.17" subtype="項" type="条" xml:id="article421017">
+<head ana="騎馬之輩"/>
+<p ana="項" corresp="engishiki_v42-1_en.xml#item42101701 engishiki_v42-1_ja.xml#item42101701" xml:id="item42101701"> <anchor xml:id="app4210170101"/>凡<anchor xml:id="app4210170101e"/>騎馬之輩、不得輙就垣下往還、 </p>
+</div>
+<div ana="左右京" corresp="engishiki_v42-1_en.xml#article421018 engishiki_v42-1_ja.xml#article421018" n="42-1.18" subtype="項" type="条" xml:id="article421018">
+<head ana="朱雀放飼"/>
+<p ana="項" corresp="engishiki_v42-1_en.xml#item42101801 engishiki_v42-1_ja.xml#item42101801" xml:id="item42101801"> <anchor xml:id="app4210180101"/>凡<anchor xml:id="app4210180101e"/>朱雀大路放飼馬牛、繋充<orgName corresp="#京職">職</orgName>中雑事、随其主来、即加<anchor xml:id="app4210180102"/>決<anchor xml:id="app4210180102e"/>罰放免、 </p>
+</div>
+<div ana="左右京" corresp="engishiki_v42-1_en.xml#article421019 engishiki_v42-1_ja.xml#article421019" n="42-1.19" subtype="項" type="条" xml:id="article421019">
+<head ana="大路建門屋"/>
+<p ana="項" corresp="engishiki_v42-1_en.xml#item42101901 engishiki_v42-1_ja.xml#item42101901" xml:id="item42101901"> <anchor xml:id="app4210190101"/>凡<anchor xml:id="app4210190101e"/>大路建門屋者、三位已上及参議聴之、雖身薨<anchor xml:id="app4210190102"/>卒<anchor xml:id="app4210190102e"/>、子孫居住之間亦聴、自余<anchor xml:id="app4210190103"/>除<anchor xml:id="app4210190103e"/>非門屋、不在制限、其<anchor xml:id="app4210190104"/>城坊<anchor xml:id="app4210190104e"/>垣不聴開、
+                  </p>
+</div>
+<div ana="左右京" corresp="engishiki_v42-1_en.xml#article421020 engishiki_v42-1_ja.xml#article421020" n="42-1.20" subtype="項" type="条" xml:id="article421020">
+<head ana="衛士仕丁坊"/>
+<p ana="項" corresp="engishiki_v42-1_en.xml#item42102001 engishiki_v42-1_ja.xml#item42102001" xml:id="item42102001"> <anchor xml:id="app4210200101"/>凡<anchor xml:id="app4210200101e"/>京中衛士・<anchor xml:id="app4210200102"/>仕<anchor xml:id="app4210200102e"/>丁等坊、不得商賈、但酒食不在此例、 </p>
+</div>
+<div ana="左右京" corresp="engishiki_v42-1_en.xml#article421021 engishiki_v42-1_ja.xml#article421021" n="42-1.21" subtype="項" type="条" xml:id="article421021">
+<head ana="京職栽柳"/>
+<p ana="項" corresp="engishiki_v42-1_en.xml#item42102101 engishiki_v42-1_ja.xml#item42102101" xml:id="item42102101"> <anchor xml:id="app4210210101"/>凡<anchor xml:id="app4210210101e"/>神泉苑廻地十町内、令<orgName corresp="#京職">京職</orgName><anchor xml:id="app4210210102"/>栽<anchor xml:id="app4210210102e"/>柳〈町別七株、〉
+                  </p>
+</div>
+<div ana="左右京" corresp="engishiki_v42-1_en.xml#article421022 engishiki_v42-1_ja.xml#article421022" n="42-1.22" subtype="項" type="条" xml:id="article421022">
+<head ana="道路辺樹"/>
+<p ana="項" corresp="engishiki_v42-1_en.xml#item42102201 engishiki_v42-1_ja.xml#item42102201" xml:id="item42102201"> <anchor xml:id="app4210220101"/>凡<anchor xml:id="app4210220101e"/>道路辺樹、当司・当家<anchor xml:id="app4210220102"/>栽<anchor xml:id="app4210220102e"/>之、 </p>
+</div>
+<div ana="左右京" corresp="engishiki_v42-1_en.xml#article421023 engishiki_v42-1_ja.xml#article421023" n="42-1.23" subtype="項" type="条" xml:id="article421023">
+<head ana="京中水田"/>
+<p ana="項" corresp="engishiki_v42-1_en.xml#item42102301 engishiki_v42-1_ja.xml#item42102301" xml:id="item42102301"> <anchor xml:id="app4210230101"/>凡<anchor xml:id="app4210230101e"/>京中不聴営水田、但大小路辺、及卑湿之地、聴殖水䓗・芹・蓮之類、不得因此広溝迫路、 </p>
+</div>
+<div ana="左右京" corresp="engishiki_v42-1_en.xml#article421024 engishiki_v42-1_ja.xml#article421024" n="42-1.24" subtype="項" type="条" xml:id="article421024">
+<head ana="京中閑地"/>
+<p ana="項" corresp="engishiki_v42-1_en.xml#item42102401 engishiki_v42-1_ja.xml#item42102401" xml:id="item42102401"> <anchor xml:id="app4210240101"/>凡<anchor xml:id="app4210240101e"/>京中閑地者、不論貧富、量力播種時営作、並加勧課、令尽地利、 </p>
+</div>
+<div ana="左右京" corresp="engishiki_v42-1_en.xml#article421025 engishiki_v42-1_ja.xml#article421025" n="42-1.25" subtype="項" type="条" xml:id="article421025">
+<head ana="路辺病者"/>
+<p ana="項" corresp="engishiki_v42-1_en.xml#item42102501 engishiki_v42-1_ja.xml#item42102501" xml:id="item42102501"> <anchor xml:id="app4210250101"/>凡<anchor xml:id="app4210250101e"/>京中路辺病者・孤子、仰九箇条令、其所見所遇、随便必令<anchor xml:id="app4210250102"/>取<anchor xml:id="app4210250102e"/>送施薬院及東西悲田<anchor xml:id="app4210250103"/>院<anchor xml:id="app4210250103e"/>、 </p>
+</div>
+<div ana="左右京" corresp="engishiki_v42-1_en.xml#article421026 engishiki_v42-1_ja.xml#article421026" n="42-1.26" subtype="項" type="条" xml:id="article421026">
+<head ana="勅旨所正倉守"/>
+<p ana="項" corresp="engishiki_v42-1_en.xml#item42102601 engishiki_v42-1_ja.xml#item42102601" xml:id="item42102601"> <anchor xml:id="app4210260101"/>凡<anchor xml:id="app4210260101e"/>穀倉院・勅旨所正倉守、<orgName corresp="#京職">左右京</orgName>兵士、<orgName corresp="#京職">職</orgName>別一人、其粮料令彼所請行之、 </p>
+</div>
+<div ana="左右京" corresp="engishiki_v42-1_en.xml#article421027 engishiki_v42-1_ja.xml#article421027" n="42-1.27" subtype="項" type="条" xml:id="article421027">
+<head ana="下諸国符"/>
+<p ana="項" corresp="engishiki_v42-1_en.xml#item42102701 engishiki_v42-1_ja.xml#item42102701" xml:id="item42102701"> <anchor xml:id="app4210270101"/>凡<anchor xml:id="app4210270101e"/>弁官及<orgName corresp="#八省">省</orgName>・<orgName corresp="#弾正台">台</orgName>、下<placeName corresp="#諸国">諸国</placeName><anchor xml:id="app4210270102"/>符<anchor xml:id="app4210270102e"/>、及廃疾仕丁帰向本郷等、各受取逓<anchor xml:id="app4210270103"/>送<anchor xml:id="app4210270103e"/>、 </p>
+</div>
+<div ana="左右京" corresp="engishiki_v42-1_en.xml#article421028 engishiki_v42-1_ja.xml#article421028" n="42-1.28" subtype="項" type="条" xml:id="article421028">
+<head ana="蕃客入朝"/>
+<p ana="項" corresp="engishiki_v42-1_en.xml#item42102801 engishiki_v42-1_ja.xml#item42102801" xml:id="item42102801">
+<anchor xml:id="app4210280101"/>凡<anchor xml:id="app4210280101e"/>蕃客入朝者、進・属・史生各一人、率書生二人、兵士六人、禁衛館東門〈南<anchor xml:id="app4210280102"/>内<anchor xml:id="app4210280102e"/>掖造仮屋、官人已下直、但幄幕申<orgName corresp="#官">官</orgName>請用、事畢返上、〉<orgName corresp="#京職">右京</orgName>禁衛南門、准此、 </p>
+</div>
+<div ana="左右京" corresp="engishiki_v42-1_en.xml#article421029 engishiki_v42-1_ja.xml#article421029" n="42-1.29" subtype="項" type="条" xml:id="article421029">
+<head ana="親王大臣薨"/>
+<p ana="項" corresp="engishiki_v42-1_en.xml#item42102901 engishiki_v42-1_ja.xml#item42102901" xml:id="item42102901"> <anchor xml:id="app4210290101"/>凡<anchor xml:id="app4210290101e"/>親王及大臣薨者、官人一人、率史生一人・坊令、為監護使祗承、 </p>
+</div>
+<div ana="左右京" corresp="engishiki_v42-1_en.xml#article421030 engishiki_v42-1_ja.xml#article421030" n="42-1.30" subtype="項" type="条" xml:id="article421030">
+<head ana="賻物"/>
+<p ana="項" corresp="engishiki_v42-1_en.xml#item42103001 engishiki_v42-1_ja.xml#item42103001" xml:id="item42103001"> <anchor xml:id="app4210300101"/>凡<anchor xml:id="app4210300101e"/>賻物者、先申<orgName corresp="#太政官">官</orgName>、然後与諸司共出納〈<orgName corresp="#京職">右京</orgName>不須、〉 </p>
+</div>
+<div ana="左右京" corresp="engishiki_v42-1_en.xml#article421031 engishiki_v42-1_ja.xml#article421031" n="42-1.31" subtype="項" type="条" xml:id="article421031">
+<head ana="喪家申官"/>
+<p ana="項" corresp="engishiki_v42-1_en.xml#item42103101 engishiki_v42-1_ja.xml#item42103101" xml:id="item42103101"> <anchor xml:id="app4210310101"/>凡<anchor xml:id="app4210310101e"/>応給賻物者、喪家申<orgName corresp="#太政官">官</orgName>、<orgName corresp="#太政官">ゝ</orgName>下符<orgName corresp="#京職">職</orgName>、以穀倉院所納物給之〈事見<orgName corresp="#治部省">治部</orgName>式、〉 </p>
+</div>
+<div ana="左右京" corresp="engishiki_v42-1_en.xml#article421032 engishiki_v42-1_ja.xml#article421032" n="42-1.32" subtype="項" type="条" xml:id="article421032">
+<head ana="賜賻物"/>
+<p ana="項" corresp="engishiki_v42-1_en.xml#item42103201 engishiki_v42-1_ja.xml#item42103201" xml:id="item42103201"> <anchor xml:id="app4210320101"/>凡<anchor xml:id="app4210320101e"/>賜賻物者、依<orgName corresp="#太政官">官</orgName>符先後次<anchor xml:id="app4210320102"/>第<anchor xml:id="app4210320102e"/>下行之、 </p>
+</div>
+<div ana="左右京" corresp="engishiki_v42-1_en.xml#article421033 engishiki_v42-1_ja.xml#article421033" n="42-1.33" subtype="項" type="条" xml:id="article421033">
+<head ana="雇使員数"/>
+<p ana="項" corresp="engishiki_v42-1_en.xml#item42103301 engishiki_v42-1_ja.xml#item42103301" xml:id="item42103301"> <anchor xml:id="app4210330101"/>書生<anchor xml:id="app4210330101e"/>卅四人〈十一人長上、廿三人雇、限勘造計帳月、〉
+                     <lb/>坊長卅五人〈条別四人、但一・二条各三人、北辺坊一人、〉 <lb/>兵士卌人、 <lb/>守正倉六人、 <lb/>守客館二人〈只置<orgName corresp="#京職">右京</orgName>、<orgName corresp="#京職">左京</orgName>不須、〉
+                     <lb/>守朱雀樹四人、 <lb/>掃清丁卅六人〈条別四人、但一・二条各三人、北辺坊二人、〉 <lb/><orgName corresp="#市司">市司</orgName>執鎰二人、 </p>
+<p ana="項" corresp="engishiki_v42-1_en.xml#item42103302 engishiki_v42-1_ja.xml#item42103302" xml:id="item42103302">
+<s rendition="#indent">右、依前件雇使、功食以徭銭充、其食人日米一升二合、塩一夕〈但兵士、日米二升、塩一夕、〉功銭並依当時法行之〈但掃清丁、功銭不行、〉</s>
+</p>
+</div>
+<div ana="左右京" corresp="engishiki_v42-1_en.xml#article421034 engishiki_v42-1_ja.xml#article421034" n="42-1.34" subtype="項" type="条" xml:id="article421034">
+<head ana="兵士当色"/>
+<p ana="項" corresp="engishiki_v42-1_en.xml#item42103401 engishiki_v42-1_ja.xml#item42103401" xml:id="item42103401"> <anchor xml:id="app4210340101"/>凡<anchor xml:id="app4210340101e"/>兵士、以浅桃染為当色、不得与衛士雑乱、 </p>
+</div>
+<div ana="左右京" corresp="engishiki_v42-1_en.xml#article421035 engishiki_v42-1_ja.xml#article421035" n="42-1.35" subtype="項" type="条" xml:id="article421035">
+<head ana="勘造授田口帳"/>
+<p ana="項" corresp="engishiki_v42-1_en.xml#item42103501 engishiki_v42-1_ja.xml#item42103501" xml:id="item42103501"> <anchor xml:id="app4210350101"/>勘<anchor xml:id="app4210350101e"/>造授田口帳 </p>
+<p ana="項" corresp="engishiki_v42-1_en.xml#item42103502 engishiki_v42-1_ja.xml#item42103502" xml:id="item42103502"> 書生四百二人、紙三千八百張、墨四廷、筆五十管、 </p>
+<p ana="項" corresp="engishiki_v42-1_en.xml#item42103503 engishiki_v42-1_ja.xml#item42103503" xml:id="item42103503">
+<s rendition="#indent">右、当班田年勘造件帳、其紙・<anchor xml:id="app4210350301"/>筆<anchor xml:id="app4210350301e"/>等価、用徭銭、食法同上、唯不給功、</s>
+</p>
+</div>
+<div ana="左右京" corresp="engishiki_v42-1_en.xml#article421036 engishiki_v42-1_ja.xml#article421036" n="42-1.36" subtype="項" type="条" xml:id="article421036">
+<head ana="班田使祗承"/>
+<p ana="項" corresp="engishiki_v42-1_en.xml#item42103601 engishiki_v42-1_ja.xml#item42103601" xml:id="item42103601"> 班田使祗承 </p>
+<p ana="項" corresp="engishiki_v42-1_en.xml#item42103602 engishiki_v42-1_ja.xml#item42103602" xml:id="item42103602">
+                     属一人〈従二人、〉史生三人〈従各一人、〉書生十四人〈従各一人、〉担公文夫四人、廝丁四人、紙八千九百廿五張〈中八千四百廿五張、下五百張、〉墨九廷、筆七十九<anchor xml:id="app4210360201"/>筆<anchor xml:id="app4210360201e"/>、 </p>
+<p ana="項" corresp="engishiki_v42-1_en.xml#item42103603 engishiki_v42-1_ja.xml#item42103603" xml:id="item42103603">
+<s rendition="#indent">右、依前<anchor xml:id="app4210360301"/>件<anchor xml:id="app4210360301e"/>、経国之間供給、准国司巡行法、充用職写田直、其紙・筆等、以徭銭<anchor xml:id="app4210360302"/>充<anchor xml:id="app4210360302e"/>、</s>
+</p>
+</div>
+<div ana="左右京" corresp="engishiki_v42-1_en.xml#article421037 engishiki_v42-1_ja.xml#article421037" n="42-1.37" subtype="項" type="条" xml:id="article421037">
+<head ana="田籍"/>
+<p ana="項" corresp="engishiki_v42-1_en.xml#item42103701 engishiki_v42-1_ja.xml#item42103701" xml:id="item42103701">
+<anchor xml:id="app4210370101"/>田籍<anchor xml:id="app4210370101e"/>造三通、其帙料小町蓆二枚、縁料黄帛三丈八尺、黄糸一両三分半、褾紙料厚紙五十三張、緒料韋一張、軸料檜榑一村〈已上申<orgName corresp="#官">官</orgName>請用、〉作軸工二人、縫帙女五人、功食並以徭銭充、 </p>
+</div>
+<div ana="左右京" corresp="engishiki_v42-1_en.xml#article421038 engishiki_v42-1_ja.xml#article421038" n="42-1.38" subtype="項" type="条" xml:id="article421038">
+<head ana="戸籍帙料"/>
+<p ana="項" corresp="engishiki_v42-1_en.xml#item42103801 engishiki_v42-1_ja.xml#item42103801" xml:id="item42103801"> <anchor xml:id="app4210380101"/>戸籍<anchor xml:id="app4210380101e"/>帙料、小町蓆・黄帛・黄糸・洗鹿革・盛韓櫃・装潢手・書<anchor xml:id="app4210380102"/>手<anchor xml:id="app4210380102e"/>功食、並申<orgName corresp="#太政官">官</orgName>請用、其紙・筆・墨、並准令条、但紙随戸口数〈十五人輸三張、〉不進計帳戸料紙・筆・墨、亦申<orgName corresp="#太政官">官</orgName>、紙一千張<anchor xml:id="app4210380103"/>充<anchor xml:id="app4210380103e"/>墨一<anchor xml:id="app4210380104"/>廷<anchor xml:id="app4210380104e"/>、一百五十張<anchor xml:id="app4210380105"/>充<anchor xml:id="app4210380105e"/>筆一管〈写書<anchor xml:id="app4210380106"/>并<anchor xml:id="app4210380106e"/>装潢功程、<anchor xml:id="app4210380107"/>并<anchor xml:id="app4210380107e"/>見<orgName corresp="#図書寮"><anchor xml:id="app4210380108"/>図<anchor xml:id="app4210380108e"/>書</orgName>式、〉 </p>
+</div>
+<div ana="左右京" corresp="engishiki_v42-1_en.xml#article421039 engishiki_v42-1_ja.xml#article421039" n="42-1.39" subtype="項" type="条" xml:id="article421039">
+<head ana="責計帳手実"/>
+<p ana="項" corresp="engishiki_v42-1_en.xml#item42103901 engishiki_v42-1_ja.xml#item42103901" xml:id="item42103901">
+<anchor xml:id="app4210390101"/>凡<anchor xml:id="app4210390101e"/>責計帳手実者、進・属各一人為別当、史生二人為預、但書生条別充二人、起六月一日、尽九月卅日責訖、大帳十月卅日以前進之、其書生食、限三箇月給之、 </p>
+</div>
+<div ana="左右京" corresp="engishiki_v42-1_en.xml#article421040 engishiki_v42-1_ja.xml#article421040" n="42-1.40" subtype="項" type="条" xml:id="article421040">
+<head ana="不進計帳"/>
+<p ana="項" corresp="engishiki_v42-1_en.xml#item42104001 engishiki_v42-1_ja.xml#item42104001" xml:id="item42104001"> <anchor xml:id="app4210400101"/>凡<anchor xml:id="app4210400101e"/>不進計帳者、<orgName corresp="#京職">職</orgName>録夾名及口分田数進<orgName corresp="#太政官">官</orgName>、即下<placeName corresp="#畿内">畿内</placeName><placeName corresp="#諸国">諸国</placeName>、其料物并雇書生功食、毎年<anchor xml:id="app4210400102"/>申<anchor xml:id="app4210400102e"/><orgName corresp="#太政官">官</orgName>請用、 </p>
+</div>
+<div ana="左右京" corresp="engishiki_v42-1_en.xml#article421041 engishiki_v42-1_ja.xml#article421041" n="42-1.41" subtype="項" type="条" xml:id="article421041">
+<head ana="誤置職写"/>
+<p ana="項" corresp="engishiki_v42-1_en.xml#item42104101 engishiki_v42-1_ja.xml#item42104101" xml:id="item42104101"> <anchor xml:id="app4210410101"/>凡<anchor xml:id="app4210410101e"/>進計帳戸、誤置職写者、進帳之後、六十日内一度覚挙、若過此程、令計帳所官人以下備償其直、余官不<anchor xml:id="app4210410102"/>預<anchor xml:id="app4210410102e"/>、 </p>
+</div>
+<div ana="左右京" corresp="engishiki_v42-1_en.xml#article421042 engishiki_v42-1_ja.xml#article421042" n="42-1.42" subtype="項" type="条" xml:id="article421042">
+<head ana="職写戸田価"/>
+<p ana="項" corresp="engishiki_v42-1_en.xml#item42104201 engishiki_v42-1_ja.xml#item42104201" xml:id="item42104201"> <anchor xml:id="app4210420101"/>凡<anchor xml:id="app4210420101e"/>五<placeName corresp="#畿内">畿内</placeName>職写戸田価、令当国司収彼地子、
+                  </p>
+</div>
+<div ana="左右京" corresp="engishiki_v42-1_en.xml#article421043 engishiki_v42-1_ja.xml#article421043" n="42-1.43" subtype="項" type="条" xml:id="article421043">
+<head ana="職写田帳"/>
+<p ana="項" corresp="engishiki_v42-1_en.xml#item42104301 engishiki_v42-1_ja.xml#item42104301" xml:id="item42104301"> <anchor xml:id="app4210430101"/>凡<anchor xml:id="app4210430101e"/>職写田帳、十二月十日以前進之、同月内下<placeName corresp="#諸国">諸国</placeName>、其沽田帳副直銭、明年五月卅日、不沽田地子帳、十一月卅日以前進之、絶戸田准此、 </p>
+</div>
+<div ana="左右京" corresp="engishiki_v42-1_en.xml#article421044 engishiki_v42-1_ja.xml#article421044" n="42-1.44" subtype="項" type="条" xml:id="article421044">
+<head ana="職写不沽田"/>
+<p ana="項" corresp="engishiki_v42-1_en.xml#item42104401 engishiki_v42-1_ja.xml#item42104401" xml:id="item42104401"> <anchor xml:id="app4210440101"/>凡<anchor xml:id="app4210440101e"/>職写不沽田例損者、率不沽帳田数、除一分不堪・三分損之外、全収地子、其所収稲数、載帳申<orgName corresp="#太政官">官</orgName>、但有損之年、当国申損、依<orgName corresp="#太政官">官</orgName>勘定、<orgName corresp="#京職">職</orgName>亦徴<anchor xml:id="app4210440102"/>免<anchor xml:id="app4210440102e"/>、 </p>
+</div>
+<div ana="左右京" corresp="engishiki_v42-1_en.xml#article421045 engishiki_v42-1_ja.xml#article421045" n="42-1.45" subtype="項" type="条" xml:id="article421045">
+<head ana="厨料"/>
+<p ana="項" corresp="engishiki_v42-1_en.xml#item42104501 engishiki_v42-1_ja.xml#item42104501" xml:id="item42104501"> <anchor xml:id="app4210450101"/>凡<anchor xml:id="app4210450101e"/>厨料者、<anchor xml:id="app4210450102"/>年毎<anchor xml:id="app4210450102e"/>以職写田一百町直<anchor xml:id="app4210450103"/>充<anchor xml:id="app4210450103e"/>之、 </p>
+</div>
+<div ana="左右京" corresp="engishiki_v42-1_en.xml#article421046 engishiki_v42-1_ja.xml#article421046" n="42-1.46" subtype="項" type="条" xml:id="article421046">
+<head ana="造橋料銭"/>
+<p ana="項" corresp="engishiki_v42-1_en.xml#item42104601 engishiki_v42-1_ja.xml#item42104601" xml:id="item42104601"> <anchor xml:id="app4210460101"/>凡<anchor xml:id="app4210460101e"/>毎年出挙造橋料銭二百貫、取其息利、随事充用、官人遷替、依数付領、 </p>
+</div>
+<div ana="左右京" corresp="engishiki_v42-1_en.xml#article421047 engishiki_v42-1_ja.xml#article421047" n="42-1.47" subtype="項" type="条" xml:id="article421047">
+<head ana="徭分銭"/>
+<p ana="項" corresp="engishiki_v42-1_en.xml#item42104701 engishiki_v42-1_ja.xml#item42104701" xml:id="item42104701"> <anchor xml:id="app4210470101"/>凡<anchor xml:id="app4210470101e"/>徭分銭者、載調帳進之、 </p>
+</div>
+<div ana="左右京" corresp="engishiki_v42-1_en.xml#article421048 engishiki_v42-1_ja.xml#article421048" n="42-1.48" subtype="項" type="条" xml:id="article421048">
+<head ana="調徭銭用帳"/>
+<p ana="項" corresp="engishiki_v42-1_en.xml#item42104801 engishiki_v42-1_ja.xml#item42104801" xml:id="item42104801"> <anchor xml:id="app4210480101"/>凡<anchor xml:id="app4210480101e"/>調徭銭用帳者、毎年起正月一日尽六月卅日、起七月一日尽十二月卅日、二度進之、 </p>
+</div>
+<div ana="左右京" corresp="engishiki_v42-1_en.xml#article421049 engishiki_v42-1_ja.xml#article421049" n="42-1.49" subtype="項" type="条" xml:id="article421049">
+<head ana="銭文"/>
+<p ana="項" corresp="engishiki_v42-1_en.xml#item42104901 engishiki_v42-1_ja.xml#item42104901" xml:id="item42104901"> <anchor xml:id="app4210490101"/>凡<anchor xml:id="app4210490101e"/>銭文、以一字明、皆令通用、若有<anchor xml:id="app4210490102"/>択<anchor xml:id="app4210490102e"/>棄者、随状科責、 </p>
+</div>
+<div ana="左右京" corresp="engishiki_v42-1_en.xml#article421050 engishiki_v42-1_ja.xml#article421050" n="42-1.50" subtype="項" type="条" xml:id="article421050">
+<head ana="義倉用度帳"/>
+<p ana="項" corresp="engishiki_v42-1_en.xml#item42105001 engishiki_v42-1_ja.xml#item42105001" xml:id="item42105001"> <anchor xml:id="app4210500101"/>凡<anchor xml:id="app4210500101e"/>義倉用度帳、毎年三月進之、 </p>
+</div>
+<div ana="左右京" corresp="engishiki_v42-1_en.xml#article421051 engishiki_v42-1_ja.xml#article421051" n="42-1.51" subtype="項" type="条" xml:id="article421051">
+<head ana="京戸課徭"/>
+<p ana="項" corresp="engishiki_v42-1_en.xml#item42105101 engishiki_v42-1_ja.xml#item42105101" xml:id="item42105101"> <anchor xml:id="app4210510101"/>凡<anchor xml:id="app4210510101e"/>京戸課丁、年徭六日為限、 </p>
+</div>
+<div ana="左右京" corresp="engishiki_v42-1_en.xml#article421052 engishiki_v42-1_ja.xml#article421052" n="42-1.52" subtype="項" type="条" xml:id="article421052">
+<head ana="諸王歳満"/>
+<p ana="項" corresp="engishiki_v42-1_en.xml#item42105201 engishiki_v42-1_ja.xml#item42105201" xml:id="item42105201"> <anchor xml:id="app4210520101"/>凡<anchor xml:id="app4210520101e"/>諸王歳満十二、毎年十二月、録名送<orgName corresp="#宮内省">宮内省</orgName>、
+                  </p>
+</div>
+<div ana="左右京" corresp="engishiki_v42-1_en.xml#article421053 engishiki_v42-1_ja.xml#article421053" n="42-1.53" subtype="項" type="条" xml:id="article421053">
+<head ana="貢挙"/>
+<p ana="項" corresp="engishiki_v42-1_en.xml#item42105301 engishiki_v42-1_ja.xml#item42105301" xml:id="item42105301"> <anchor xml:id="app4210530101"/>凡<anchor xml:id="app4210530101e"/>三位已上子孫、并四位・五位子、年到廿一已上者、貢挙<orgName corresp="#式部省">式部省</orgName>、 </p>
+</div>
+<div ana="左右京" corresp="engishiki_v42-1_en.xml#article421054 engishiki_v42-1_ja.xml#article421054" n="42-1.54" subtype="項" type="条" xml:id="article421054">
+<head ana="堀川杭"/>
+<p ana="項" corresp="engishiki_v42-1_en.xml#item42105401 engishiki_v42-1_ja.xml#item42105401" xml:id="item42105401">
+<anchor xml:id="app4210540101"/>凡<anchor xml:id="app4210540101e"/>堀川杭者、<anchor xml:id="app4210540102"/>不論<anchor xml:id="app4210540102e"/>課・不課戸、皆<anchor xml:id="app4210540103"/>令<anchor xml:id="app4210540103e"/>戸頭輸之、其戸十九人已下一株、廿人已上<anchor xml:id="app4210540104"/>二<anchor xml:id="app4210540104e"/>株、卅人已上三株〈長八尺以下七尺以上、本<anchor xml:id="app4210540105"/>径<anchor xml:id="app4210540105e"/>五寸、末<anchor xml:id="app4210540106"/>径<anchor xml:id="app4210540106e"/>三寸、〉 </p>
+</div>
+<div ana="左右京" corresp="engishiki_v42-1_en.xml#article421055 engishiki_v42-1_ja.xml#article421055" n="42-1.55" subtype="項" type="条" xml:id="article421055">
+<head ana="闕官要劇田"/>
+<p ana="項" corresp="engishiki_v42-1_en.xml#item42105501 engishiki_v42-1_ja.xml#item42105501" xml:id="item42105501"> <anchor xml:id="app4210550101"/>凡<anchor xml:id="app4210550101e"/>闕官料要劇田地子者、<anchor xml:id="app4210550102"/>充<anchor xml:id="app4210550102e"/><orgName corresp="#京職">職</orgName>家公用、 </p>
+</div>
+<div ana="左右京" corresp="engishiki_v42-1_en.xml#article421056 engishiki_v42-1_ja.xml#article421056" n="42-1.56" subtype="項" type="条" xml:id="article421056">
+<head ana="不仕料物"/>
+<p ana="項" corresp="engishiki_v42-1_en.xml#item42105601 engishiki_v42-1_ja.xml#item42105601" xml:id="item42105601"> <anchor xml:id="app4210560101"/>凡<anchor xml:id="app4210560101e"/>兵士并坊長等不仕料物、<anchor xml:id="app4210560102"/>充<anchor xml:id="app4210560102e"/><orgName corresp="#京職">職</orgName>中用、 </p>
+</div>
+<div ana="左右京" corresp="engishiki_v42-1_en.xml#article421057 engishiki_v42-1_ja.xml#article421057" n="42-1.57" subtype="項" type="条" xml:id="article421057">
+<head ana="薬道場"/>
+<p ana="項" corresp="engishiki_v42-1_en.xml#item42105701 engishiki_v42-1_ja.xml#item42105701" xml:id="item42105701"> <anchor xml:id="app4210570101"/>凡<anchor xml:id="app4210570101e"/>在施薬院東呪合薬道<anchor xml:id="app4210570102"/>場<anchor xml:id="app4210570102e"/>、不在禁<anchor xml:id="app4210570103"/>限<anchor xml:id="app4210570103e"/>、 </p>
+</div>
+<div ana="左右京" corresp="engishiki_v42-1_en.xml#article421058 engishiki_v42-1_ja.xml#article421058" n="42-1.58" subtype="項" type="条" xml:id="article421058">
+<head ana="京程"/>
+<p ana="項" corresp="engishiki_v42-1_en.xml#item42105801 engishiki_v42-1_ja.xml#item42105801" xml:id="item42105801"> 京程 </p>
+<p ana="項" corresp="engishiki_v42-1_en.xml#item42105802 engishiki_v42-1_ja.xml#item42105802" xml:id="item42105802"> 南北一千七百五十三<anchor xml:id="app4210580201"/>丈<anchor xml:id="app4210580201e"/>、 <lb/><s rendition="#indent">北極并次四大路、広各十丈、</s>
+<lb/><s rendition="#indent"><anchor xml:id="app4210580202"/>宮城南大路十七丈<anchor xml:id="app4210580202e"/>、</s>
+<lb/><s rendition="#indent">次六大路、各八<anchor xml:id="app4210580203"/>丈<anchor xml:id="app4210580203e"/>、</s>
+<lb/><s rendition="#indent">南極大路十二丈、</s>
+<lb/><s rendition="#indent">羅城外二丈<anchor xml:id="app4210580204"/>〈垣基半三尺、<anchor xml:id="app4210580204e"/>犬<anchor xml:id="app4210580205"/>行七尺、溝広一丈、〉<anchor xml:id="app4210580205e"/></s>
+<lb/><s rendition="#indent"><anchor xml:id="app4210580206"/>路広十<anchor xml:id="app4210580206e"/>丈<anchor xml:id="app4210580207"/><anchor xml:id="app4210580207e"/>、</s>
+<lb/><s rendition="#indent">小路廿六、広各四丈、</s>
+<lb/><s rendition="#indent">町卅八、各卌丈</s>
+</p>
+<p ana="項" corresp="engishiki_v42-1_en.xml#item42105803 engishiki_v42-1_ja.xml#item42105803" xml:id="item42105803"> 東西一千五百八丈〈通計東西両京、〉 <lb/><s rendition="#indent">自朱雀大路中央、至東極外畔、七百五十四丈、</s>
+<lb/><s rendition="#indent"><anchor xml:id="app4210580301"/>朱雀<anchor xml:id="app4210580301e"/>大路半、広<anchor xml:id="app4210580302"/>十<anchor xml:id="app4210580302e"/>四丈、</s>
+<lb/><s rendition="#indent"><anchor xml:id="app4210580303"/>次一大路十丈<anchor xml:id="app4210580303e"/>、</s>
+<lb/><s rendition="#indent"><anchor xml:id="app4210580304"/>次一大路十二<anchor xml:id="app4210580304e"/>丈<anchor xml:id="app4210580305"/><anchor xml:id="app4210580305e"/>、</s>
+<lb/><s rendition="#indent">次二大路、各八丈、</s>
+<lb/><s rendition="#indent"><anchor xml:id="app4210580306"/>東極大路十丈<anchor xml:id="app4210580306e"/>、</s>
+<lb/><s rendition="#indent"><anchor xml:id="app4210580307"/>小路十二、各四丈〈一路加堀川東西辺、各二丈、〉<anchor xml:id="app4210580307e"/></s>
+<lb/><s rendition="#indent"><anchor xml:id="app4210580308"/>町十六、各卌丈<anchor xml:id="app4210580308e"/>、</s>
+<lb/><s rendition="#indent2"><anchor xml:id="app4210580309"/>右京准此<anchor xml:id="app4210580309e"/>、</s>
+</p>
+<p ana="項" corresp="engishiki_v42-1_en.xml#item42105804 engishiki_v42-1_ja.xml#item42105804" xml:id="item42105804"> 朱雀<anchor xml:id="app4210580401"/>大<anchor xml:id="app4210580401e"/>路広廿八丈、 <lb/><s rendition="#indent">自垣半至溝辺、各一丈八尺〈垣基三尺、<anchor xml:id="app4210580402"/>犬<anchor xml:id="app4210580402e"/>行<anchor xml:id="app4210580403"/>一丈<anchor xml:id="app4210580403e"/>五尺、〉</s>
+<lb/><s rendition="#indent"><anchor xml:id="app4210580404"/>溝広各五尺<anchor xml:id="app4210580404e"/>、</s>
+<lb/><s rendition="#indent"><anchor xml:id="app4210580405"/>両溝間、廿三丈四尺<anchor xml:id="app4210580405e"/>、</s>
+</p>
+<p ana="項" corresp="engishiki_v42-1_en.xml#item42105805 engishiki_v42-1_ja.xml#item42105805" xml:id="item42105805"> 大路<anchor xml:id="app4210580501"/>広<anchor xml:id="app4210580501e"/>十丈、 <lb/><s rendition="#indent">自垣半至<anchor xml:id="app4210580502"/>溝<anchor xml:id="app4210580502e"/>辺、<anchor xml:id="app4210580503"/>各<anchor xml:id="app4210580503e"/>八尺〈垣基三尺、犬行五尺、〉</s>
+<lb/><s rendition="#indent"><anchor xml:id="app4210580504"/>溝広各四尺<anchor xml:id="app4210580504e"/>、</s>
+<lb/><s rendition="#indent"><anchor xml:id="app4210580505"/>両溝間、七丈六尺<anchor xml:id="app4210580505e"/>、</s>
+</p>
+<p ana="項" corresp="engishiki_v42-1_en.xml#item42105806 engishiki_v42-1_ja.xml#item42105806" xml:id="item42105806"> 宮城東西大路、<anchor xml:id="app4210580601"/>広<anchor xml:id="app4210580601e"/>十二丈、 <lb/><s rendition="#indent">自宮<anchor xml:id="app4210580602"/>城<anchor xml:id="app4210580602e"/>垣半至<anchor xml:id="app4210580603"/>隍<anchor xml:id="app4210580603e"/>外<anchor xml:id="app4210580604"/>畔<anchor xml:id="app4210580604e"/>、三丈八尺、</s>
+<lb/><s rendition="#indent"><anchor xml:id="app4210580605"/>自傍町垣半<anchor xml:id="app4210580605e"/>至溝外<anchor xml:id="app4210580606"/>畔<anchor xml:id="app4210580606e"/>、一丈二尺<anchor xml:id="app4210580607"/><anchor xml:id="app4210580607e"/>、</s>
+<lb/><s rendition="#indent"><anchor xml:id="app4210580608"/><anchor xml:id="app4210580608e"/>隍<anchor xml:id="app4210580609"/>溝間七<anchor xml:id="app4210580609e"/>丈<anchor xml:id="app4210580610"/><anchor xml:id="app4210580610e"/>、</s>
+</p>
+<p ana="項" corresp="engishiki_v42-1_en.xml#item42105807 engishiki_v42-1_ja.xml#item42105807" xml:id="item42105807"> 大路広<anchor xml:id="app4210580701"/>各<anchor xml:id="app4210580701e"/>八<anchor xml:id="app4210580702"/>丈<anchor xml:id="app4210580702e"/>、 <lb/><s rendition="#indent">自垣<anchor xml:id="app4210580703"/>半<anchor xml:id="app4210580703e"/>至溝辺、<anchor xml:id="app4210580704"/>各<anchor xml:id="app4210580704e"/>八尺〈垣基三尺、犬行五尺、〉</s>
+<lb/><s rendition="#indent"><anchor xml:id="app4210580705"/>溝広<anchor xml:id="app4210580705e"/>各<anchor xml:id="app4210580706"/>四尺<anchor xml:id="app4210580706e"/>、</s>
+<lb/><s rendition="#indent"><anchor xml:id="app4210580707"/>両溝間、五丈六尺<anchor xml:id="app4210580707e"/>、</s>
+</p>
+<p ana="項" corresp="engishiki_v42-1_en.xml#item42105808 engishiki_v42-1_ja.xml#item42105808" xml:id="item42105808"> 小<anchor xml:id="app4210580801"/>広<anchor xml:id="app4210580801e"/>路四<anchor xml:id="app4210580802"/>丈<anchor xml:id="app4210580802e"/>、 <lb/><s rendition="#indent">自垣半至溝辺、<anchor xml:id="app4210580803"/>各<anchor xml:id="app4210580803e"/>五尺五寸〈垣基二尺五寸、犬行<anchor xml:id="app4210580804"/>三<anchor xml:id="app4210580804e"/>尺、〉</s>
+<lb/><s rendition="#indent"><anchor xml:id="app4210580805"/>溝広<anchor xml:id="app4210580805e"/>各<anchor xml:id="app4210580806"/>三尺<anchor xml:id="app4210580806e"/>、</s>
+<lb/><s rendition="#indent">両溝間、二丈三尺、</s>
+</p>
+<p ana="項" corresp="engishiki_v42-1_en.xml#item42105809 engishiki_v42-1_ja.xml#item42105809" xml:id="item42105809"> 宮城四面、自垣半至<anchor xml:id="app4210580901"/>隍<anchor xml:id="app4210580901e"/>辺、三丈〈<anchor xml:id="app4210580902"/>垣<anchor xml:id="app4210580902e"/><anchor xml:id="app4210580903"/>基<anchor xml:id="app4210580903e"/>三尺五寸、壖<anchor xml:id="app4210580904"/>地<anchor xml:id="app4210580904e"/><anchor xml:id="app4210580905"/>広<anchor xml:id="app4210580905e"/>二丈六尺五寸、〉 </p>
+<p ana="項" corresp="engishiki_v42-1_en.xml#item42105810 engishiki_v42-1_ja.xml#item42105810" xml:id="item42105810"> 宮城南大路、広十七丈〈宮<anchor xml:id="app4210581001"/>垣<anchor xml:id="app4210581001e"/>半三尺五寸、壖地広二<anchor xml:id="app4210581002"/>丈<anchor xml:id="app4210581002e"/>六尺五寸、〉 <lb/><s rendition="#indent"><anchor xml:id="app4210581003"/><anchor xml:id="app4210581003e"/>隍<anchor xml:id="app4210581004"/>広八尺、</s>
+<lb/><s rendition="#indent">南垣半三尺、</s>
+<lb/><s rendition="#indent">犬行五尺、</s>
+<lb/><s rendition="#indent">溝広四尺、</s>
+<lb/><s rendition="#indent"><anchor xml:id="app4210581004e"/>隍<anchor xml:id="app4210581005"/>溝間十二<anchor xml:id="app4210581005e"/>丈<anchor xml:id="app4210581006"/><anchor xml:id="app4210581006e"/>、</s>
+</p>
+</div>
+<div ana="左右京" corresp="engishiki_v42-1_en.xml#article421059 engishiki_v42-1_ja.xml#article421059" n="42-1.59" subtype="項" type="条" xml:id="article421059">
+<head ana="町内小径"/>
+<p ana="項" corresp="engishiki_v42-1_en.xml#item42105901 engishiki_v42-1_ja.xml#item42105901" xml:id="item42105901"> <anchor xml:id="app4210590101"/>凡<anchor xml:id="app4210590101e"/>町内開小径者、大路辺町二〈広一丈五尺、〉市人町三〈広一丈、〉自余町一〈広一丈五尺、〉 </p>
+</div>
+<div ana="左右京" corresp="engishiki_v42-1_en.xml#article421060 engishiki_v42-1_ja.xml#article421060" n="42-1.60" subtype="項" type="条" xml:id="article421060">
+<head ana="築垣功程"/>
+<p ana="項" corresp="engishiki_v42-1_en.xml#item42106001 engishiki_v42-1_ja.xml#item42106001" xml:id="item42106001"> <anchor xml:id="app4210600101"/>凡<anchor xml:id="app4210600101e"/>築垣功程、牓<anchor xml:id="app4210600102"/>示<anchor xml:id="app4210600102e"/>条坊、莫令違越〈其法、見<orgName corresp="#木工寮">木工</orgName>式、〉 </p>
+</div>
+</div>
+<div type="尾題" xml:id="bidai42">
+<p xml:id="bidai4201"/>
+</div>
+<div type="本奥書" xml:id="okugaki42">
+<p xml:id="okugaki4201"/>
+</div>
+</div>
+</body>
+</text>
+</TEI>
