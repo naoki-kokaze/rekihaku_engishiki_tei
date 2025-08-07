@@ -70,10 +70,10 @@
        ：巻9・10は國學院大學図書館所蔵（貴107～108）。巻50は国立歴史民俗博物館所蔵（H-1588）。抄出本は國學院大學所蔵（木村大樹「〔西田長男旧蔵〕三条西実隆筆『延喜式』(抄)の翻刻・紹介」『國學院大學研究開発推進機構紀要』14、2022年） </witness>
       <witness xml:id="時慶本">
        <abbr> 時慶本 </abbr> ：静嘉堂文庫所蔵西洞院時慶写本（延喜格式表18352、延喜式序18353） </witness>
+      <witness xml:id="藤波本">
+       <abbr> 藤波本 </abbr> ：宮内庁書陵部図書寮文庫所蔵藤波家旧蔵本（217-473） </witness>
       <witness xml:id="島原本">
        <abbr> 島原本 </abbr> ：東京大学史料編纂所所蔵松平忠房・和学講談所・水野忠央旧蔵本（貴45-2） </witness>
-      <witness xml:id="藤波本">
-       <abbr> 藤波本 </abbr> ：宮内庁書陵部図書寮文庫所蔵藤波家旧蔵本（217 -473） </witness>
       <witness xml:id="貞享本">
        <abbr> 貞享本 </abbr> ：宮内庁書陵部図書寮文庫所蔵和学講談所旧蔵坊城俊方貞享本（457-116） </witness>
       <witness xml:id="玄梁本">
@@ -81,7 +81,7 @@
       <witness xml:id="尾張本">
        <abbr> 尾張本 </abbr> ：東京大学総合図書館所蔵尾張家旧蔵本（巻13）（A00-6122） </witness>
       <witness xml:id="泉亭本">
-       <abbr> 泉亭本 </abbr> ：賀茂三手文庫所蔵泉亭本（制度／加） </witness>
+       <abbr> 泉亭本 </abbr> ：賀茂三手文庫所蔵泉亭本（制度/加） </witness>
      </listWit>
      <listWit xml:id="版本">
       <head> 版本：慶安版本も含めた流布版本 </head>
@@ -159,6 +159,13 @@
     <rendition xml:id="indent3"> margin-top: 3em; </rendition>
     <rendition xml:id="indent4"> margin-top: 4em; </rendition>
     <rendition xml:id="indent5"> margin-top: 5em; </rendition>
+    <rendition xml:id="indent6"> margin-top: 6em; </rendition>
+    <rendition xml:id="indent7"> margin-top: 7em; </rendition>
+    <rendition xml:id="indent10"> margin-top: 10em; </rendition>
+    <rendition xml:id="indent12"> margin-top: 12em; </rendition>
+    <rendition xml:id="indent13"> margin-top: 13em; </rendition>
+    <rendition xml:id="indent14"> margin-top: 14em; </rendition>
+    <rendition xml:id="indent18"> margin-top: 18em; </rendition>
     <rendition xml:id="width50"> width: 50px; </rendition>
     <rendition xml:id="width80"> width: 80px; </rendition>
     <rendition xml:id="width100"> width: 100px; </rendition>
@@ -167,8 +174,182 @@
     <rendition xml:id="width200"> width: 200px; </rendition>
     <rendition xml:id="width300"> width: 300px; </rendition>
    </tagsDecl>
-   <editorialDecl>
-    <p> 現代語訳凡例 <table>
+   <unitDecl>
+    <unitDef type=" Length" xml:id="丈">
+     <label xml:lang="ja"> 丈 </label>
+     <label xml:lang="ja-Lath"> jō </label>
+     <desc> 1 jō 丈 = 10 shaku 尺 = 100 sun 寸 = 1000 bu 分 </desc>
+     <desc> 1 jō 丈 = 297 cm </desc>
+    </unitDef>
+    <unitDef type=" Length" xml:id="尺">
+     <label xml:lang="ja"> 尺 </label>
+     <label xml:lang="ja-Lath"> shaku </label>
+     <conversion formula="$fromUnit*10" fromUnit="#尺" toUnit="#丈"/>
+     <desc> 1 shaku 尺 = 29.7 cm </desc>
+    </unitDef>
+    <unitDef type=" Length" xml:id="寸">
+     <label xml:lang="ja"> 寸 </label>
+     <label xml:lang="ja-Lath"> sun </label>
+     <conversion formula="$fromUnit*10" fromUnit="#寸" toUnit="#尺"/>
+     <desc> 11 sun 寸 = 2.97 cm </desc>
+    </unitDef>
+    <unitDef type=" Length" xml:id="分_Length">
+     <label xml:lang="ja"> 分 </label>
+     <label xml:lang="ja-Lath"> bu </label>
+     <conversion formula="$fromUnit*10" fromUnit="#分" toUnit="#寸"/>
+     <desc> 1 bu 分 = 0.297 cm </desc>
+    </unitDef>
+    <unitDef type="Volume" xml:id="斛">
+     <label xml:lang="ja"> 斛 </label>
+     <label xml:lang="ja-Lath"> koku </label>
+     <desc> 1 koku 斛 / 石 = 10 to 斗 = 100 shō 升 = 1000 gō 合 = 10,000 shaku 夕。1 koku 斛 = ca. 81 L
+     </desc>
+    </unitDef>
+    <unitDef type="Volume" xml:id="石">
+     <label xml:lang="ja"> 石 </label>
+     <label xml:lang="ja-Lath"> koku </label>
+     <desc> 1 koku 斛 / 石 = 10 to 斗 = 100 shō 升 = 1000 gō 合 = 10,000 shaku 夕。1 koku 石 = ca. 81 L
+     </desc>
+    </unitDef>
+    <unitDef type="Volume" xml:id="斗">
+     <label xml:lang="ja"> 斗 </label>
+     <label xml:lang="ja-Lath"> to </label>
+     <conversion formula="$fromUnit*10" fromUnit="#斗" toUnit="#斛"/>
+     <conversion formula="$fromUnit*10" fromUnit="#斗" toUnit="#石"/>
+     <desc> 1 to 斗 = ca. 8100 ml (8.1 L) </desc>
+    </unitDef>
+    <unitDef type="Volume" xml:id="升">
+     <label xml:lang="ja"> 升 </label>
+     <label xml:lang="ja-Lath"> shō </label>
+     <conversion formula="$fromUnit*10" fromUnit="#升" toUnit="#斗"/>
+     <desc> 1 shō 升 = ca. 810 ml </desc>
+    </unitDef>
+    <unitDef type="Volume" xml:id="合">
+     <label xml:lang="ja"> 合 </label>
+     <label xml:lang="ja-Lath"> gō </label>
+     <conversion formula="$fromUnit*10" fromUnit="#合" toUnit="#升"/>
+     <desc> 1 gō 合 = ca. 81 ml </desc>
+    </unitDef>
+    <unitDef type="Volume" xml:id="夕">
+     <label xml:lang="ja"> 夕 </label>
+     <label xml:lang="ja-Lath"> shaku </label>
+     <conversion formula="$fromUnit*10" fromUnit="#夕" toUnit="#合"/>
+     <desc> 1 shaku 夕 = ca. 8.1 ml </desc>
+    </unitDef>
+    <unitDef type="Weight" xml:id="斤">
+     <label xml:lang="ja"> 斤 </label>
+     <label xml:lang="ja-Lath"> kin </label>
+     <desc> 1 kin 斤 = 16 ryō 両 = 64 bu 分 = 384 shu 銖。1 kin 斤 = ca. 674 g </desc>
+    </unitDef>
+    <unitDef type="Weight" xml:id="両">
+     <label xml:lang="ja"> 両 </label>
+     <label xml:lang="ja-Lath"> ryō </label>
+     <conversion formula="$fromUnit*16" fromUnit="#両" toUnit="#斤"/>
+     <desc> 1 ryō 両 = 4 bu 分 = 24 shu 銖。1 ryō 両 = ca. 42 g </desc>
+    </unitDef>
+    <unitDef type="Weight" xml:id="分_Weight">
+     <label xml:lang="ja"> 分 </label>
+     <label xml:lang="ja-Lath"> bu </label>
+     <conversion formula="$fromUnit*4" fromUnit="#分_Weight" toUnit="#両"/>
+     <desc> 1 bu 分 = 6 shu 銖。1 bu 分 = ca. 10.5 g </desc>
+    </unitDef>
+    <unitDef type="Weight" xml:id="銖">
+     <label xml:lang="ja"> 銖 </label>
+     <label xml:lang="ja-Lath"> shu </label>
+     <conversion formula="$fromUnit*6" fromUnit="#銖" toUnit="#分_Weight"/>
+     <desc> 1 shu 銖 = ca. 1.8 g </desc>
+    </unitDef>
+    <unitDef type="Cloth_chōfu" xml:id="端_調布">
+     <label xml:lang="ja"> 端 </label>
+     <label xml:lang="ja-Lath"> tan </label>
+     <desc> 1 tan 端 / 段 of chōfu 調布 = (length) 4 jō 丈 2 shaku 尺 × (width) 2 shaku 尺 4 sun 寸 (ca 12.5
+      m × 72 cm) </desc>
+    </unitDef>
+    <unitDef type="Cloth_chōfu" xml:id="段_調布">
+     <label xml:lang="ja"> 段 </label>
+     <label xml:lang="ja-Lath"> tan </label>
+     <desc> 1 tan 端 / 段 of chōfu 調布 = (length) 4 jō 丈 2 shaku 尺 × (width) 2 shaku 尺 4 sun 寸 (ca 12.5
+      m × 72 cm) </desc>
+    </unitDef>
+    <unitDef type="Cloth_yōfu" xml:id="段_庸布">
+     <label xml:lang="ja"> 段 </label>
+     <label xml:lang="ja-Lath"> tan </label>
+     <desc> 1 tan 段 of yōfu 庸布 = (length) 2 jō 丈 8 shaku 尺 × (width) 2 shaku 尺 4 sun 寸 (ca. 8.3 m ×
+      72 cm) </desc>
+    </unitDef>
+    <unitDef type="Cloth_shōfu" xml:id="段_商布">
+     <label xml:lang="ja"> 段 </label>
+     <label xml:lang="ja-Lath"> tan </label>
+     <desc> 1 tan 段 of shōfu 商布 = length 2 jō 丈 6 shaku 尺 (ca. 7.72 m) </desc>
+    </unitDef>
+    <unitDef type="Cloth_yōfu" xml:id="端_庸布">
+     <label xml:lang="ja"> 端 </label>
+     <label xml:lang="ja-Lath"> tan </label>
+    </unitDef>
+    <unitDef xml:id="合_set">
+     <label xml:lang="ja"> 合 </label>
+     <label xml:lang="ja-Lath"> gō </label>
+     <desc> 蓋のある土器の単位。 </desc>
+    </unitDef>
+    <unitDef xml:id="口">
+     <label xml:lang="ja"> 口 </label>
+     <label xml:lang="ja-Lath"> ku </label>
+     <desc> 土器の単位。 </desc>
+    </unitDef>
+    <unitDef xml:id="疋">
+     <label xml:lang="ja"> 疋 </label>
+     <label xml:lang="ja-Lath"> hiki </label>
+     <desc> 主に布製品の単位。 </desc>
+    </unitDef>
+    <unitDef xml:id="文">
+     <label xml:lang="ja"> 文 </label>
+     <label xml:lang="ja-Lath"> mon </label>
+     <desc> 銭の単位。銭1貫=1000文。 </desc>
+    </unitDef>
+    <unitDef type="Weight" xml:id="廷">
+     <label xml:lang="ja"> 廷 </label>
+     <label xml:lang="ja-Lath"> tei </label>
+     <desc> 鉄1廷=大3斤5両。 </desc>
+    </unitDef>
+    <unitDef xml:id="隻">
+     <label xml:lang="ja"> 隻 </label>
+     <label xml:lang="ja-Lath"> seki </label>
+     <desc> 魚などの物品の単位。 </desc>
+    </unitDef>
+    <unitDef xml:id="顆">
+     <label xml:lang="ja"> 顆 </label>
+     <label xml:lang="ja-Lath"> ka </label>
+     <desc> 物品を計上する際の単位。 </desc>
+    </unitDef>
+    <unitDef type="Weight" xml:id="屯">
+     <label xml:lang="ja"> 屯 </label>
+     <label xml:lang="ja-Lath"> ton </label>
+     <desc> 綿を計上する際の単位。調綿1屯 = 大4両、細屯綿1屯 = 大3両1分2銖 = 小10両、綿1屯 = 大5両2分 = 小1斤2分。 </desc>
+    </unitDef>
+    <unitDef xml:id="張">
+     <label xml:lang="ja"> 張 </label>
+     <label xml:lang="ja-Lath"> chō </label>
+     <desc> 物品を計上する際の単位。 </desc>
+    </unitDef>
+    <unitDef xml:id="帖">
+     <label xml:lang="ja"> 帖 </label>
+     <label xml:lang="ja-Lath"> jō </label>
+     <desc> 畳綿を計上する際の単位。 </desc>
+    </unitDef>
+    <unitDef xml:id="枚">
+     <label xml:lang="ja"> 枚 </label>
+     <label xml:lang="ja-Lath"> mai </label>
+     <desc> 物品を計上する際の単位。 </desc>
+    </unitDef>
+    <unitDef type="Weight" xml:id="絇">
+     <label xml:lang="ja"> 絇 </label>
+     <label xml:lang="ja-Lath"> ku </label>
+     <desc> 糸の単位。糸1絇=上糸大4両、中糸大5両、麁糸大7両。 </desc>
+    </unitDef>
+   </unitDecl>
+   <editorialDecl ana="現代語訳凡例">
+    <p ana="全体">
+     <table>
       <row>
        <cell> ・ </cell>
        <cell> 校訂文に基づいて現代語訳を作成しました。条文番号・条文名称および項番号等は校訂文に従っています。原文の細字・割書を〈　〉で括って示すことも校訂文と同様です。 </cell>
@@ -242,118 +423,919 @@
   <body>
    <div ana="大膳上" n="32" subtype="式" type="巻" xml:id="volume32">
     <div type="首題" xml:id="shudai32">
-     <p xml:id="shudai3201"> 首題 </p>
+     <p xml:id="shudai3201"> 延喜式巻第三二 </p>
     </div>
     <div ana="大膳上" corresp="engishiki_v32.xml#protocol321 engishiki_v32_en.xml#protocol321" n="32"
      subtype="条" type="式" xml:id="protocol321">
      <div type="式題" xml:id="shikidai321">
-      <p xml:id="shikidai32101"> 式題 </p>
+      <p xml:id="shikidai32101"> 大膳上 </p>
      </div>
      <div ana="大膳上" corresp="engishiki_v32.xml#article321001 engishiki_v32_en.xml#article321001"
       n="32.1" subtype="項" type="条" xml:id="article321001">
       <head ana="四祭春料"/>
-      <note type="summary"> 条文概要 </note>
+      <note type="summary"> 大膳職の祭祀で用意する物品・食材 </note>
       <p ana="項" corresp="engishiki_v32.xml#item32100101 engishiki_v32_en.xml#item32100101"
-       xml:id="item32100101"> 本文 </p>
+       xml:id="item32100101">
+       <ruby>
+        <rb>御膳神</rb>
+        <rt place="right">みけつかみ</rt>
+       </ruby>八座 <lb/>青・赤・黄・白・黒の五色の<ruby>
+        <rb>薄絁</rb>
+        <rt place="right">うすぎぬ</rt>
+       </ruby>それぞれ五尺、<ruby>
+        <rb>倭文</rb>
+        <rt place="right">しず</rt>
+       </ruby>二尺、コウゾの紐・麻の糸それぞれ八両、<ruby>
+        <rb>鍬</rb>
+        <rt place="right">くわ</rt>
+       </ruby>二<ruby>
+        <rb>口</rb>
+        <rt place="right">く</rt>
+       </ruby>、白米五斗、モチ米二斗、大豆・<ruby>
+        <rb>小豆</rb>
+        <rt place="right">あずき</rt>
+       </ruby>それぞれ五升、酒二斗、塩一升、<ruby>
+        <rb>東</rb>
+        <rt place="right">あずま</rt>
+       </ruby>アワビ一二斤、島アワビ・干しナマコ・タコ・種々の丸干しの品それぞれ六斤、カツオ九斤、種々のなれ<ruby>
+        <rb>鮨</rb>
+        <rt place="right">ずし</rt>
+       </ruby>六〇斤、海草類一二斤、<ruby>
+        <rb>食薦</rb>
+        <rt place="right">すごも</rt>
+       </ruby>四枚、お祓いの祝詞を読み上げる<ruby>
+        <rb>祝史</rb>
+        <rt place="right">しゅくし</rt>
+       </ruby>の着衣に用いる<ruby>
+        <rb>庸布</rb>
+        <rt place="right">ようふ</rt>
+       </ruby>二段。 <lb/><ruby>
+        <rb>醤院</rb>
+        <rt place="right">しょういん</rt>
+       </ruby>の<ruby>
+        <rb>高部神</rb>
+        <rt place="right">たかべのかみ</rt>
+       </ruby>一座 <lb/><ruby>
+        <rb>竈神</rb>
+        <rt place="right">かまのかみ</rt>
+       </ruby>四座 <lb/>青・赤・黄・白・黒の五色の薄絁それぞれ二尺、倭文一尺、コウゾの紐・麻の糸それぞれ八両、緋色の<ruby>
+        <rb>帛</rb>
+        <rt place="right">はく</rt>
+       </ruby>五尺〈<ruby>
+        <rb>蓋</rb>
+        <rt place="right">きぬがさ</rt>
+       </ruby>の材料〉、鍬一口、白米三斗、モチ米一斗、大豆・小豆それぞれ三升、酒一斗、塩六升、種々のアワビ二斤、カツオ・干しナマコ・丸干しの品それぞれ六斤、種々のなれ鮨一六斤、塩煮のアユ一二斤、ワカメ四斤、祝史の着衣に用いる<ruby>
+        <rb>商布</rb>
+        <rt place="right">しょうふ</rt>
+       </ruby>二段。 <lb/><ruby>
+        <rb>菓餅所</rb>
+        <rt place="right">かへいしょ</rt>
+       </ruby>の<ruby>
+        <rb>火雷神</rb>
+        <rt place="right">ほのいかずちのかみ</rt>
+       </ruby>一座
+       <lb/>青・赤・黄・白・黒の五色の薄絁それぞれ三尺、倭文一尺、コウゾの紐・麻の糸それぞれ八両、鍬一口、白米三斗、モチ米一斗、大豆・小豆それぞれ三升、酒一斗、塩六升、種々のアワビ二斤、カツオ・種々の丸干しの品それぞれ六斤、種々のなれ鮨一一斤、ワカメ四斤、祝史の着衣に用いる商布二段。
+       <lb/>竈神四座
+       <lb/>青・赤・黄・白・黒の五色の薄絁それぞれ三尺、倭文二尺、コウゾの紐・麻の糸それぞれ八両、鍬四口、白米二斗、モチ米一斗、大豆・小豆それぞれ二升、酒一斗、塩四升、種々のアワビ二斤、カツオ・丸干しの品それぞれ六斤、なれ鮨五斤、ワカメ四斤。
+        <lb/><s rendition="#indent2">以上、四件の祭祀で春の祭に用いる品は前記の通りにせよ。秋の祭もこれに準じよ。ただし、御膳神は二月・十一月の最初の<ruby>
+         <rb>酉</rb>
+         <rt place="right">とり</rt>
+        </ruby>の日に祭れ。</s>
+      </p>
      </div>
      <div ana="大膳上" corresp="engishiki_v32.xml#article321002 engishiki_v32_en.xml#article321002"
       n="32.2" subtype="項" type="条" xml:id="article321002">
       <head ana="神今食"/>
-      <note type="summary"> 条文概要 </note>
+      <note type="summary"> 神今食で用意する物品・食材 </note>
       <p ana="項" corresp="engishiki_v32.xml#item32100201 engishiki_v32_en.xml#item32100201"
-       xml:id="item32100201"> 本文 </p>
+       xml:id="item32100201"> 六月の<ruby>
+        <rb>神今食</rb>
+        <rt place="right">かんいまけ</rt>
+       </ruby>。十二月もこれに準じよ。 <lb/><ruby>
+        <rb>輿籠</rb>
+        <rt place="right">こしこ</rt>
+       </ruby>四脚〈神への供物を収納する〉、<ruby>
+        <rb>簀</rb>
+        <rt place="right">す</rt>
+       </ruby>四枚〈供物置きに用いる〉、カシワの葉二俵〈神への供物に用いる〉。祭祀に供奉する<ruby>
+        <rb>小斎</rb>
+        <rt place="right">おみ</rt>
+       </ruby>の官人に支給する食事は総計二六二人分〈五位以上の官人二〇人、六位以下は二〇〇人、<ruby>
+        <rb>命婦</rb>
+        <rt place="right">みょうぶ</rt>
+       </ruby>一〇人、<ruby>
+        <rb>女孺</rb>
+        <rt place="right">にょじゅ</rt>
+       </ruby>・<ruby>
+        <rb>采女</rb>
+        <rt place="right">うねめ</rt>
+       </ruby>は合計二七人、<ruby>
+        <rb>御巫</rb>
+        <rt place="right">みかんなぎ</rt>
+       </ruby>五人〉。このうち五位以上一人あたりに<ruby>
+        <rb>醤</rb>
+        <rt place="right">ひしお</rt>
+       </ruby>・酢それぞれ五夕、塩一合、<ruby>
+        <rb>東</rb>
+        <rt place="right">あずま</rt>
+       </ruby>アワビ二両、カツオ・イカそれぞれ一両、干しナマコ・丸干しの品それぞれ二両、種々のなれ<ruby>
+        <rb>鮨</rb>
+        <rt place="right">ずし</rt>
+       </ruby>九両、サバ三両、ワカメ二両、野菜の漬け物二合。六位以下一人あたりに醤五夕、塩五夕、東アワビ二両、カツオ一両、干しナマコ二両、サバ一両、なれ鮨七両、ワカメ二両、野菜の漬け物二合〈皇后宮の小斎のうち六位官人以下で采女以上となる総計六八人の食事の規定もこれに準じる〉。カシワの葉三俵、箸用の竹八〇株。
+      </p>
      </div>
      <div ana="大膳上" corresp="engishiki_v32.xml#article321003 engishiki_v32_en.xml#article321003"
       n="32.3" subtype="項" type="条" xml:id="article321003">
       <head ana="鎮魂"/>
-      <note type="summary"> 条文概要 </note>
+      <note type="summary"> 鎮魂祭で用意する物品・食材 </note>
       <p ana="項" corresp="engishiki_v32.xml#item32100301 engishiki_v32_en.xml#item32100301"
-       xml:id="item32100301"> 本文 </p>
+       xml:id="item32100301">
+       <ruby>
+        <rb>鎮魂祭</rb>
+        <rt place="right">ちんこんさい</rt>
+       </ruby>〈皇后宮・<ruby>
+        <rb>東宮</rb>
+        <rt place="right">とうぐう</rt>
+       </ruby>も同じ〉 <lb/><ruby>
+        <rb>神祇官</rb>
+        <rt place="right">じんぎかん</rt>
+       </ruby>西院の<ruby>
+        <rb>八神殿</rb>
+        <rt place="right">はっしんでん</rt>
+       </ruby>に鎮座する神八座 <lb/><ruby>
+        <rb>大直神</rb>
+        <rt place="right">おおなおびのかみ</rt>
+       </ruby>一座 <lb/>座ごとに<ruby>
+        <rb>東</rb>
+        <rt place="right">あずま</rt>
+       </ruby>アワビ一三両〈大直神は倍〉、イカ三両一分〈大直神は三両二分を加える〉、カツオ六両二分〈大直神は一三両二分を加える〉、サケ一尾〈大直神は倍〉、タイの切り身の干物二斤五両、丸干しの品三斤二両〈大直神は倍〉、ワカメ一〇両、〈大直神は一一両を加える〉、塩一合八夕、モチ米三升、大豆一合八夕七撮、<ruby>
+        <rb>小豆</rb>
+        <rt place="right">あずき</rt>
+       </ruby>二合八夕、生栗三升、干してむき身にした<ruby>
+        <rb>搗</rb>
+        <rt place="right">か</rt>
+       </ruby>ち栗二升、干し柿一升二合、<ruby>
+        <rb>橘</rb>
+        <rt place="right">たちばな</rt>
+       </ruby>の実二個〈以上の七種は、神四座の果物や菓子の材料。これ以外は用いない〉。酒は四座ごとに<ruby>
+        <rb>【瓦＋嬰】</rb>
+        <rt place="right">つばは</rt>
+       </ruby>一<ruby>
+        <rb>口</rb>
+        <rt place="right">く</rt>
+       </ruby>〈それぞれ容量一斗〉、四座ごとに<ruby>
+        <rb>坩</rb>
+        <rt place="right">つぼ</rt>
+       </ruby>一口〈それぞれ容量五升〉、大直神は一缶〈容量五升〉。コウゾの紐二分四銖、<ruby>
+        <rb>麁筥</rb>
+        <rt place="right">あらはこ</rt>
+       </ruby>一三合〈それぞれ長さ一尺四寸、幅一尺二寸、深さ三寸〉、<ruby>
+        <rb>食薦</rb>
+        <rt place="right">すごも</rt>
+       </ruby>五枚〈神饌を入れた筥の据え置きに用いる〉、<ruby>
+        <rb>輿籠</rb>
+        <rt place="right">こしこ</rt>
+       </ruby>二脚〈筥の収納に用いる〉、<ruby>
+        <rb>置簀</rb>
+        <rt place="right">おきす</rt>
+       </ruby>二枚、カシワの葉二俵。 <lb/><s rendition="#indent">以上は、<ruby>
+         <rb>大膳職</rb>
+         <rt place="right">だいぜんしき</rt>
+        </ruby>・<ruby>
+         <rb>造酒司</rb>
+         <rt place="right">ぞうしゅし</rt>
+        </ruby>が用意し、神祇官とともに供えよ。</s>
+      </p>
      </div>
      <div ana="大膳上" corresp="engishiki_v32.xml#article321004 engishiki_v32_en.xml#article321004"
       n="32.4" subtype="項" type="条" xml:id="article321004">
       <head ana="雑給料"/>
-      <note type="summary"> 条文概要 </note>
+      <note type="summary"> 鎮魂祭で官人に支給する食事に用いる食材等 </note>
       <p ana="項" corresp="engishiki_v32.xml#item32100401 engishiki_v32_en.xml#item32100401"
-       xml:id="item32100401"> 本文 </p>
+       xml:id="item32100401"> 官人に支給する食事に用いる食材・物品 <lb/>参議以上 <lb/>一人あたりにモチ米一升四合、大豆一合八夕七撮、<ruby>
+        <rb>小豆</rb>
+        <rt place="right ">あずき</rt>
+       </ruby>二合八夕、料理酒一合、酢四夕、<ruby>
+        <rb>醤</rb>
+        <rt place="right">ひしお</rt>
+       </ruby>三合、<ruby>
+        <rb>滓醤</rb>
+        <rt place="right">かすひしお</rt>
+       </ruby>二合九夕、<ruby>
+        <rb>東</rb>
+        <rt place="right">あずま</rt>
+       </ruby>アワビ一両二分、<ruby>
+        <rb>隠岐</rb>
+        <rt place="right">おき</rt>
+       </ruby>のアワビ五両、カツオ二両一分二銖、イカ二両、干しナマコ三両二分、サヨリ五両、サケ半尾、種々の魚の細割きの干物三両、カツオの<ruby>
+        <rb>煎</rb>
+        <rt place="right">いろり</rt>
+       </ruby>二両二分、なれ<ruby>
+        <rb>鮨</rb>
+        <rt place="right">ずし</rt>
+       </ruby>二斤四両、種々の丸干しの品一一両、<ruby>
+        <rb>紫菜</rb>
+        <rt place="right">のり</rt>
+       </ruby>・<ruby>
+        <rb>海松</rb>
+        <rt place="right">みる</rt>
+       </ruby>それぞれ三分、ワカメ二両、野菜の漬け物二合、<ruby>
+        <rb>蒜房</rb>
+        <rt place="right">ひるふさ</rt>
+       </ruby>の漬け物・<ruby>
+        <rb>蒜英</rb>
+        <rt place="right">ひるのはなぶさ</rt>
+       </ruby>の漬け物・ニラの<ruby>
+        <rb>搗漬</rb>
+        <rt place="right">かちづ</rt>
+       </ruby>けそれぞれ二合、生栗一升四合、干してむき身にした搗ち栗六合、干し柿三合、<ruby>
+        <rb>橘</rb>
+        <rt place="right">たちばな</rt>
+       </ruby>の実三三顆、コウゾの紐二分四銖。 </p>
       <p ana="項" corresp="engishiki_v32.xml#item32100402 engishiki_v32_en.xml#item32100402"
-       xml:id="item32100402"> 本文 </p>
+       xml:id="item32100402"> 五位以上三〇人 <lb/>一人あたりにモチ米七合五夕、大豆七夕、小豆一合五夕、料理酒三夕、酢一合、醤二合、塩二合九夕、東アワビ一両二分、隠岐のアワビ四両二分、カツオ二両一分二銖、イカ二両、干しナマコ三両二分、サヨリ五両、サケ半尾、種々の魚の細割きの干物三両、カツオの<ruby>
+        <rb>煎汁</rb>
+        <rt place="right">いろり</rt>
+       </ruby>一両一分、なれ鮨二斤四両、丸干しの品一〇両、紫菜・海松それぞれ三分、ワカメ二両、野菜の漬け物二合、蒜房の漬け物・蒜英の漬け物・ニラの搗漬けそれぞれ二合、滓醤二合、生栗五合、干してむき身にした搗ち栗二合五夕、干し柿一合五夕、橘の実一五顆、コウゾの紐二分四銖。 </p>
       <p ana="項" corresp="engishiki_v32.xml#item32100403 engishiki_v32_en.xml#item32100403"
-       xml:id="item32100403"> 本文 </p>
+       xml:id="item32100403"> 六位以下二六〇人 <lb/>一人あたりにモチ米六合七夕、大豆四夕七撮、小豆六夕、醤五夕、塩一合七夕、東アワビ二両、カツオ二両一分二銖、なれ鮨二両、サバ三両二分、ワカメ二両、野菜の漬け物二合、生栗三合、橘の実五顆。<ruby>
+        <rb>麁筥</rb>
+        <rt place="right">あらはこ</rt>
+       </ruby>一五合〈食事をいれる筥九合、果物・菓子をいれる筥四合、<ruby>
+        <rb>舂塩</rb>
+        <rt place="right">つきしお</rt>
+       </ruby>をいれる筥二合。それぞれ長さ一尺四寸、幅一尺二寸、深さ三寸〉、<ruby>
+        <rb>須恵器</rb>
+        <rt place="right">すえき</rt>
+       </ruby>の<ruby>
+        <rb>高盤</rb>
+        <rt place="right">たかさら</rt>
+       </ruby>・<ruby>
+        <rb>大盤</rb>
+        <rt place="right">おおざら</rt>
+       </ruby>それぞれ一〇<ruby>
+        <rb>口</rb>
+        <rt place="right">く</rt>
+       </ruby>〈参議以上に支給する果物・菓子の盛り付けに用いる〉、カシワの葉三俵、<ruby>
+        <rb>食籠</rb>
+        <rt place="right">じきろう</rt>
+       </ruby>二六〇合〈それぞれ長さ一尺二寸、幅八寸、深さ二寸〉、箸用の竹二六〇株、<ruby>
+        <rb>筥坏</rb>
+        <rt place="right">はこつき</rt>
+       </ruby>二三〇口〈参議以上は一人あたり八口、五位以上は一人あたり五口〉。 </p>
       <p ana="項" corresp="engishiki_v32.xml#item32100404 engishiki_v32_en.xml#item32100404"
-       xml:id="item32100404"> 本文 </p>
+       xml:id="item32100404">
+       <s rendition="#indent">以上、<ruby>
+         <rb>鎮魂祭</rb>
+         <rt place="right">ちんこんさい</rt>
+        </ruby>での官人への支給は前記の通りとせよ。五位以上の食事はすべて筥にいれ、果物・菓子や種々の<ruby>
+         <rb>肴</rb>
+         <rt place="right">さかな</rt>
+        </ruby>は干したカシワの葉に盛り、コウゾの紐で結わえよ。六位以下の食事は食籠を用いよ〈食籠は<ruby>
+         <rb>山城国</rb>
+         <rt place="right">やましろのくに</rt>
+        </ruby>が用意する〉。</s>
+      </p>
      </div>
      <div ana="大膳上" corresp="engishiki_v32.xml#article321005 engishiki_v32_en.xml#article321005"
       n="32.5" subtype="項" type="条" xml:id="article321005">
       <head ana="新嘗祭"/>
-      <note type="summary"> 条文概要 </note>
+      <note type="summary"> 新嘗祭の神事で用意する物品・食材 </note>
       <p ana="項" corresp="engishiki_v32.xml#item32100501 engishiki_v32_en.xml#item32100501"
-       xml:id="item32100501"> 本文 </p>
+       xml:id="item32100501">
+       <ruby>
+        <rb>新嘗祭</rb>
+        <rt place="right">なめにいさい</rt>
+       </ruby>
+       <lb/><ruby>
+        <rb>輿籠</rb>
+        <rt place="right">こしこ</rt>
+       </ruby>二脚、<ruby>
+        <rb>置簀</rb>
+        <rt place="right">おきす</rt>
+       </ruby>二枚〈すべて神へのお供えのために用いる〉。 <lb/>祭祀に供奉する<ruby>
+        <rb>小斎</rb>
+        <rt place="right">おみ</rt>
+       </ruby>に支給する食事は総計三三四人分〈五位以上の官人二〇人、六位以下は二五五人、<ruby>
+        <rb>命婦</rb>
+        <rt place="right">みょうぶ</rt>
+       </ruby>一〇人、<ruby>
+        <rb>女孺</rb>
+        <rt place="right">にょじゅ</rt>
+       </ruby>・<ruby>
+        <rb>采女</rb>
+        <rt place="right">うねめ</rt>
+       </ruby>は四四人、<ruby>
+        <rb>御巫</rb>
+        <rt place="right">みかんなぎ</rt>
+       </ruby>五人〉。 <lb/>五位以上は一人あたりに、<ruby>
+        <rb>醤</rb>
+        <rt place="right">ひしお</rt>
+       </ruby>・酢・塩それぞれ一合、<ruby>
+        <rb>東</rb>
+        <rt place="right">あずま</rt>
+       </ruby>アワビ七両、カツオ一両、イカ一二両、干しナマコ・丸干しの品それぞれ五両、なれ<ruby>
+        <rb>鮨</rb>
+        <rt place="right">ずし</rt>
+       </ruby>八両、ワカメ一二両、<ruby>
+        <rb>蒜房</rb>
+        <rt place="right">ひるふさ</rt>
+       </ruby>の漬け物・<ruby>
+        <rb>蒜英</rb>
+        <rt place="right">ひるのはなぶさ</rt>
+       </ruby>の漬け物それぞれ二合、野菜の漬け物一合、ニラの<ruby>
+        <rb>搗漬</rb>
+        <rt place="right">かちづ</rt>
+       </ruby>け二合。 <lb/>六位以下は一人あたりに、醤五夕、塩五夕、東アワビ七両、干しナマコ・丸干しの品それぞれ五両、ワカメ四両、なれ鮨六両、ニラの搗漬け五夕、野菜の漬け物一合。
+        <lb/><s rendition="#indent">以上、新嘗祭の神事で用意する物品・食材は前記の通りとせよ。男官は<ruby>
+         <rb>辰</rb>
+         <rt place="right">たつ</rt>
+        </ruby>の日の朝方、女官は<ruby>
+         <rb>卯</rb>
+         <rt place="right">う</rt>
+        </ruby>の日の夕方と辰の日の朝方に支給せよ。</s>
+      </p>
      </div>
      <div ana="大膳上" corresp="engishiki_v32.xml#article321006 engishiki_v32_en.xml#article321006"
       n="32.6" subtype="項" type="条" xml:id="article321006">
       <head ana="新嘗小斎解斎"/>
-      <note type="summary"> 条文概要 </note>
+      <note type="summary"> 新嘗祭の斎戒を解く宴会で小斎に支給する食材 </note>
       <p ana="項" corresp="engishiki_v32.xml#item32100601 engishiki_v32_en.xml#item32100601"
-       xml:id="item32100601"> 本文 </p>
+       xml:id="item32100601"> 同じく<ruby>
+        <rb>新嘗祭</rb>
+        <rt place="right">にいなめさい</rt>
+       </ruby>の神事の後に供奉していた<ruby>
+        <rb>小斎</rb>
+        <rt place="right">おみ</rt>
+       </ruby>の斎戒を解く宴会で支給する食事は総計二二七人分〈五位以上の官人四〇人、六位以下は一八七人〉。 <lb/>五位以上は一人あたりに、<ruby>
+        <rb>醤</rb>
+        <rt place="right">ひしお</rt>
+       </ruby>五夕、塩二合二夕、<ruby>
+        <rb>東</rb>
+        <rt place="right">あずま</rt>
+       </ruby>アワビ二両三分、<ruby>
+        <rb>隠岐</rb>
+        <rt place="right">おき</rt>
+       </ruby>のアワビ二両、イカ一二両、干しナマコ二両、魚の細割きの干物二両二分、<ruby>
+        <rb>紫菜</rb>
+        <rt place="right">のり</rt>
+       </ruby>・<ruby>
+        <rb>海松</rb>
+        <rt place="right">みる</rt>
+       </ruby>それぞれ三分、ワカメ一一両、<ruby>
+        <rb>蒜房</rb>
+        <rt place="right">ひるふさ</rt>
+       </ruby>の漬け物・<ruby>
+        <rb>蒜英</rb>
+        <rt place="right">ひるのはなぶさ</rt>
+       </ruby>の漬け物それぞれ一合、ニラの<ruby>
+        <rb>搗漬</rb>
+        <rt place="right">かちづ</rt>
+       </ruby>け五夕、野菜の漬け物二合。 <lb/>六位以下は一人あたりに、醤五夕、塩一合二夕、大サバ三両三分、東アワビ二両三分、ワカメ一一両。 <lb/><s
+        rendition="#indent">以上、新嘗祭の斎戒を解く宴会での小斎への支給は前記の通りとせよ。<ruby>
+         <rb>辰</rb>
+         <rt place="right">たつ</rt>
+        </ruby>の日の夕方は<ruby>
+         <rb>宮内省</rb>
+         <rt place="right">くないしょう</rt>
+        </ruby>の庁舎にて支給せよ。</s>
+      </p>
      </div>
      <div ana="大膳上" corresp="engishiki_v32.xml#article321007 engishiki_v32_en.xml#article321007"
       n="32.7" subtype="項" type="条" xml:id="article321007">
       <head ana="皇后宮新嘗祭"/>
-      <note type="summary"> 条文概要 </note>
+      <note type="summary"> 皇后宮の新嘗祭の小斎に支給する食材 </note>
       <p ana="項" corresp="engishiki_v32.xml#item32100701 engishiki_v32_en.xml#item32100701"
-       xml:id="item32100701"> 本文 </p>
+       xml:id="item32100701"> 同じく<ruby>
+        <rb>新嘗祭</rb>
+        <rt place="right">にいなめさい</rt>
+       </ruby>に供奉する皇后宮の<ruby>
+        <rb>小斎</rb>
+        <rt place="right">おみ</rt>
+       </ruby>は四二人〈<ruby>
+        <rb>命婦</rb>
+        <rt place="right">みょうぶ</rt>
+       </ruby>ならびに<ruby>
+        <rb>女孺</rb>
+        <rt place="right">にょじゅ</rt>
+       </ruby>二〇人、<ruby>
+        <rb>駕輿丁</rb>
+        <rt place="right">かよちょう</rt>
+       </ruby>以上一六人、<ruby>
+        <rb>外記</rb>
+        <rt place="right">げき</rt>
+       </ruby>以下<ruby>
+        <rb>主水司</rb>
+        <rt place="right">しゅすいし</rt>
+       </ruby>の官人以上六人〉。 <lb/>五位一人に、<ruby>
+        <rb>醤</rb>
+        <rt place="right">ひしお</rt>
+       </ruby>五夕、塩一合、<ruby>
+        <rb>東</rb>
+        <rt place="right">あずま</rt>
+       </ruby>アワビ七両、イカ一二両、干しナマコ五両、丸干しの品五両、ワカメ四両、<ruby>
+        <rb>蒜房</rb>
+        <rt place="right">ひるふさ</rt>
+       </ruby>ならびに<ruby>
+        <rb>蒜花</rb>
+        <rt place="right">ひるのはな</rt>
+       </ruby>の漬け物・ニラの<ruby>
+        <rb>搗漬</rb>
+        <rt place="right">かちづ</rt>
+       </ruby>けそれぞれ二合。 <lb/>六位以下は一人あたりに、醤・塩それぞれ五夕、東アワビ六両、干しナマコ四両、なれ<ruby>
+        <rb>鮨</rb>
+        <rt place="right">ずし</rt>
+       </ruby>六両、サバ三両二分、ワカメ四両。 <lb/>同宮にて神事の後の<ruby>
+        <rb>直会</rb>
+        <rt place="right">なおらい</rt>
+       </ruby>で支給する食事は四七人分〈<ruby>
+        <rb>中宮職</rb>
+        <rt place="right">ちゅうぐうしき</rt>
+       </ruby>の<ruby>
+        <rb>亮</rb>
+        <rt place="right">すけ</rt>
+       </ruby>一人、<ruby>
+        <rb>進</rb>
+        <rt place="right">じょう</rt>
+       </ruby>以下<ruby>
+        <rb>諸衛府</rb>
+        <rt place="right">しょえふ</rt>
+       </ruby>の<ruby>
+        <rb>舎人</rb>
+        <rt place="right">とねり</rt>
+       </ruby>以上四六人〉。 <lb/>五位一人に、醤五夕、塩一合二夕、東アワビ二両二分、干しナマコ四両、イカ一斤八両、<ruby>
+        <rb>隠v</rb>
+        <rt place="right">おき</rt>
+       </ruby>のアワビ四両、魚の細割きの干物五両、ワカメ一一両。 <lb/>六位以下は一人あたりに、醤五夕、塩一合二夕、東アワビ二両三分、サバ三両二分、ワカメ一一両。 </p>
      </div>
      <div ana="大膳上" corresp="engishiki_v32.xml#article321008 engishiki_v32_en.xml#article321008"
       n="32.8" subtype="項" type="条" xml:id="article321008">
       <head ana="宴会雑給"/>
-      <note type="summary"> 条文概要 </note>
+      <note type="summary"> 豊明節会等の節会の宴会で親王以下に支給する食材・物品 </note>
       <p ana="項" corresp="engishiki_v32.xml#item32100801 engishiki_v32_en.xml#item32100801"
-       xml:id="item32100801"> 本文 </p>
+       xml:id="item32100801"> 宴会で親王以下の<ruby>
+        <rb>節会</rb>
+        <rt place="right">せちえ</rt>
+       </ruby>参加者に支給する食材・物品 <lb/>親王以下三位以上ならびに四位の参議 <lb/>一人あたりの菓子の材料は<ruby>
+        <rb>粳米</rb>
+        <rt place="right">うるちまい</rt>
+       </ruby>・モチ米それぞれ八合、モチ米の<ruby>
+        <rb>糒</rb>
+        <rt place="right">ほしいい</rt>
+       </ruby>三合、<ruby>
+        <rb>糖</rb>
+        <rt place="right">あめ</rt>
+       </ruby>二合六夕、小麦四合、大豆二合、<ruby>
+        <rb>小豆</rb>
+        <rt place="right">あずき</rt>
+       </ruby>二合、ゴマ二合、油一合、料理酒・酢それぞれ四夕、<ruby>
+        <rb>醤</rb>
+        <rt place="right">ひしお</rt>
+       </ruby>二合、塩四合、<ruby>
+        <rb>豉</rb>
+        <rt place="right">くき</rt>
+       </ruby>一夕、<ruby>
+        <rb>東</rb>
+        <rt place="right">あずま</rt>
+       </ruby>アワビ二両、<ruby>
+        <rb>隠岐</rb>
+        <rt place="right">おき</rt>
+       </ruby>のアワビ二両一分、カツオ一両二分、イカ一両一分、干しナマコ・<ruby>
+        <rb>縄貫</rb>
+        <rt place="right">なわぬき</rt>
+       </ruby>アワビそれぞれ二両二分、<ruby>
+        <rb>押</rb>
+        <rt place="right">おし</rt>
+       </ruby>アユ四両、サヨリ五両、サケ半尾、種々の魚の切り身の干物・細割きの干物それぞれ五両一分、種々の丸干しの品・なれ<ruby>
+        <rb>鮨</rb>
+        <rt place="right">ずし</rt>
+       </ruby>それぞれ二斤、カツオの<ruby>
+        <rb>煎</rb>
+        <rt place="right">いろり</rt>
+       </ruby>二夕、生鮮品〈代価を充てて購入する〉、<ruby>
+        <rb>紫菜</rb>
+        <rt place="right">のり</rt>
+       </ruby>二分、ワカメ二両、生栗一升、干してむき身にした<ruby>
+        <rb>搗</rb>
+        <rt place="right">か</rt>
+       </ruby>ち栗・<ruby>
+        <rb>椎</rb>
+        <rt place="right">しい</rt>
+       </ruby>の実それぞれ四合、<ruby>
+        <rb>橘</rb>
+        <rt place="right">たちばな</rt>
+       </ruby>の実一〇個。 </p>
       <p ana="項" corresp="engishiki_v32.xml#item32100802 engishiki_v32_en.xml#item32100802"
-       xml:id="item32100802"> 本文 </p>
+       xml:id="item32100802"> 四位・五位ならびに<ruby>
+        <rb>命婦</rb>
+        <rt place="right">みょうぶ</rt>
+       </ruby>
+       <lb/>一人あたりの菓子の材料は粳米・モチ米それぞれ四合、モチ米の糒一合、糖一合五夕、小麦二合、大豆・小豆それぞれ一合、ゴマ一合、油一合、料理酒・酢それぞれ四夕、醤一合。塩二合、豉一夕、東アワビ・隠岐のアワビ・カツオ・イカ・干しナマコそれぞれ一両、縄貫アワビ一両、押アユ二両、サヨリ二両二分、種々の魚の切り身の干物・細割きの干物それぞれ三両一分、種々の魚・なれ鮨それぞれ四両、紫菜一分、ワカメ二両、サケ六分の一尾、丸干しの品一斤、生栗五合、干してむき身にした搗ち栗・椎の実それぞれ二合、橘の実五個。 </p>
       <p ana="項" corresp="engishiki_v32.xml#item32100803 engishiki_v32_en.xml#item32100803"
-       xml:id="item32100803"> 本文 </p>
+       xml:id="item32100803">
+       <ruby>
+        <rb>大歌</rb>
+        <rt place="right">おおうた</rt>
+       </ruby>・<ruby>
+        <rb>立歌</rb>
+        <rt place="right">たちうた</rt>
+       </ruby>
+       <lb/>一人あたりに塩二夕、東アワビ一両、大サバ一尾、種々のなれ鮨四両、ワカメ二両〈正月七日に行う節会の諸司<ruby>
+        <rb>主典</rb>
+        <rt place="right">さかん</rt>
+       </ruby>以上の食事の規定もこれに準じる〉。 </p>
       <p ana="項" corresp="engishiki_v32.xml#item32100804 engishiki_v32_en.xml#item32100804"
-       xml:id="item32100804"> 本文 </p>
+       xml:id="item32100804">
+       <ruby>
+        <rb>国栖</rb>
+        <rt place="right">くず</rt>
+       </ruby>・<ruby>
+        <rb>笛工</rb>
+        <rt place="right">ふえふき</rt>
+       </ruby>
+       <lb/>一人あたりに塩二合、種々のなれ鮨四両、サケ六分の一尾、ワカメ二両、白木の<ruby>
+        <rb>櫃</rb>
+        <rt place="right">ひつ</rt>
+       </ruby>八合、<ruby>
+        <rb>叩盆</rb>
+        <rt place="right">たたいべ</rt>
+       </ruby>五<ruby>
+        <rb>口</rb>
+        <rt place="right">く</rt>
+       </ruby>、<ruby>
+        <rb>麻笥盤</rb>
+        <rt place="right">おけざら</rt>
+       </ruby>三口、<ruby>
+        <rb>由加</rb>
+        <rt place="right">ゆか</rt>
+       </ruby>・洗い<ruby>
+        <rb>盤</rb>
+        <rt place="right">ざら</rt>
+       </ruby>それぞれ四口、<ruby>
+        <rb>須恵器</rb>
+        <rt place="right">すえき</rt>
+       </ruby>の<ruby>
+        <rb>高盤</rb>
+        <rt place="right">たかさら</rt>
+       </ruby>・<ruby>
+        <rb>大盤</rb>
+        <rt place="right">おおざら</rt>
+       </ruby>それぞれ一〇口〈<ruby>
+        <rb>小斎</rb>
+        <rt place="right">おみ</rt>
+       </ruby>として供奉する三位以上官人の果物・菓子の盛り付けに用いる〉、絹の<ruby>
+        <rb>篩</rb>
+        <rt place="right">ふるい</rt>
+       </ruby>六口〈一口あたり四尺〉、曲げ物櫃五〇合〈命婦用。ただし二〇合は布を敷く。一合あたり二尺〉、<ruby>
+        <rb>食籠</rb>
+        <rt place="right">じきろう</rt>
+       </ruby>一八四合、箸用の竹二三〇株〈以上の種々の物品は親王以下の支給対象者すべての食事で共用する〉、<ruby>
+        <rb>料理所</rb>
+        <rt place="right">つくりどころ</rt>
+       </ruby>の灯明油四升。 </p>
       <p ana="項" corresp="engishiki_v32.xml#item32100805 engishiki_v32_en.xml#item32100805"
-       xml:id="item32100805"> 本文 </p>
+       xml:id="item32100805">
+       <s rendition="#indent">以上、<ruby>
+         <rb>豊明節会</rb>
+         <rt place="right">とよあかりのせちえ</rt>
+        </ruby>の食事に用いる材料・物品は前記の通りとせよ。種々の食器は親王以下三位以上が朱漆、四位以下五位以上が黒漆ならびに<ruby>
+         <rb>土師器</rb>
+         <rt place="right">はじき</rt>
+        </ruby>。</s>
+      </p>
      </div>
      <div ana="大膳上" corresp="engishiki_v32.xml#article321009 engishiki_v32_en.xml#article321009"
       n="32.9" subtype="項" type="条" xml:id="article321009">
       <head ana="園韓神雑給料"/>
-      <note type="summary"> 条文概要 </note>
+      <note type="summary"> 園・韓神祭で官人に支給する食材・物品 </note>
       <p ana="項" corresp="engishiki_v32.xml#item32100901 engishiki_v32_en.xml#item32100901"
-       xml:id="item32100901"> 本文 </p>
+       xml:id="item32100901">
+       <ruby>
+        <rb>園</rb>
+        <rt place="right">その</rt>
+       </ruby>・<ruby>
+        <rb>韓神祭</rb>
+        <rt place="right">からかみさい</rt>
+       </ruby>で官人に支給する食材・物品〈春・冬とも同じにする〉 <lb/>白米二斗、モチ米四斗、小麦一斗二升、大豆・<ruby>
+        <rb>小豆</rb>
+        <rt place="right">あずき</rt>
+       </ruby>それぞれ一斗九升、ゴマ七升二合、酢一斗、料理酒一斗、<ruby>
+        <rb>醤</rb>
+        <rt place="right">ひしお</rt>
+       </ruby>六升、塩二斗、ゴマ油八升二合、<ruby>
+        <rb>東</rb>
+        <rt place="right">あずま</rt>
+       </ruby>アワビ・<ruby>
+        <rb>隠岐</rb>
+        <rt place="right">おき</rt>
+       </ruby>のアワビ・イカそれぞれ一六斤、<ruby>
+        <rb>縄貫</rb>
+        <rt place="right">なわぬき</rt>
+       </ruby>アワビ・<ruby>
+        <rb>佐渡</rb>
+        <rt place="right">さど</rt>
+       </ruby>のアワビ・カツオそれぞれ一四斤、干しナマコ・丸干しの品・干しダコそれぞれ一二斤、<ruby>
+        <rb>煮</rb>
+        <rt place="right">に</rt>
+       </ruby>ガツオ一一斤、種々の丸干しの品三〇斤、サバ五〇斤、種々のなれ<ruby>
+        <rb>鮨</rb>
+        <rt place="right">ずし</rt>
+       </ruby>三<ruby>
+        <rb>缶</rb>
+        <rt place="right">もたい</rt>
+       </ruby>、カツオの<ruby>
+        <rb>煎汁</rb>
+        <rt place="right">いろり</rt>
+       </ruby>一升四合、ワカメ二三斤、カラシ一升四合。 </p>
       <p ana="項" corresp="engishiki_v32.xml#item32100902 engishiki_v32_en.xml#item32100902"
-       xml:id="item32100902"> 本文 </p>
+       xml:id="item32100902"> 食膳台六脚、覆い布・敷き布に用いる麻のさらし一二枚〈覆い布は長さそれぞれ六尺、敷き布は長さそれぞれ五尺〉、曲げ物<ruby>
+        <rb>櫃</rb>
+        <rt place="right">ひつ</rt>
+       </ruby>六〇合、敷き布に用いる<ruby>
+        <rb>調布</rb>
+        <rt place="right">ちょうふ</rt>
+       </ruby>六〇枚〈それぞれ長さ三尺〉、<ruby>
+        <rb>大笥</rb>
+        <rt place="right">おおけ</rt>
+       </ruby>六〇合、<ruby>
+        <rb>片盤</rb>
+        <rt place="right">かたさら</rt>
+       </ruby>四八枚〈食膳台ごとに八枚〉、<ruby>
+        <rb>片埦</rb>
+        <rt place="right">かたもい</rt>
+       </ruby>一二<ruby>
+        <rb>口</rb>
+        <rt place="right">く</rt>
+       </ruby>〈食膳台ごとに二口〉、<ruby>
+        <rb>窪坏</rb>
+        <rt place="right">くぼつき</rt>
+       </ruby>二〇四口〈食膳台ごとに四口、曲げ物櫃は一合ごとに三口〉、薬味皿二七六枚〈食膳台ごとに六口、曲げ物櫃一合ごとに四口〉、<ruby>
+        <rb>平坏</rb>
+        <rt place="right">ひらつき</rt>
+       </ruby>三六〇口〈曲げ物櫃一合ごとに六口〉、<ruby>
+        <rb>瓫</rb>
+        <rt place="right">ほとぎ</rt>
+       </ruby>六口、<ruby>
+        <rb>堝</rb>
+        <rt place="right">なべ</rt>
+       </ruby>五口、<ruby>
+        <rb>食薦</rb>
+        <rt place="right">すごも</rt>
+       </ruby>五〇枚、ユズリハ五担。 </p>
       <p ana="項" corresp="engishiki_v32.xml#item32100903 engishiki_v32_en.xml#item32100903"
-       xml:id="item32100903"> 本文 </p>
+       xml:id="item32100903">
+       <ruby>
+        <rb>蒜</rb>
+        <rt place="right">ひる</rt>
+       </ruby>一斗、ネギ二斗、ダイコン五〇把、<ruby>
+        <rb>芹</rb>
+        <rt place="right">せり</rt>
+       </ruby>六斗、<ruby>
+        <rb>萵苣</rb>
+        <rt place="right">ちさ</rt>
+       </ruby>五斗、アブラナ二斗、<ruby>
+        <rb>胡䕑</rb>
+        <rt place="right">こにし</rt>
+       </ruby>五升、<ruby>
+        <rb>蘭</rb>
+        <rt place="right">あららぎ</rt>
+       </ruby>一〇把、<ruby>
+        <rb>蔓菁</rb>
+        <rt place="right">あおな</rt>
+       </ruby>六斗、<ruby>
+        <rb>葵</rb>
+        <rt place="right">あおい</rt>
+       </ruby>二斗〈以上の一〇種は<ruby>
+        <rb>内膳司</rb>
+        <rt place="right">ないぜんし</rt>
+       </ruby>が貢進する〉。竹四〇株〈<ruby>
+        <rb>山城国</rb>
+        <rt place="right">やましろのくに</rt>
+       </ruby>が貢進する〉。鮮魚は代価を充てて購入せよ〈鮮魚・果物や菓子の代価は布六端。その他の諸祭の同じ品に購入代価の布の数量を注記していない場合はすべてこれにならう〉。<ruby>
+        <rb>糖</rb>
+        <rt place="right">あめ</rt>
+       </ruby>八升、<ruby>
+        <rb>松明</rb>
+        <rt place="right">たいまつ</rt>
+       </ruby>八〇把、炭二斛、薪三六〇斤〈松明以下は購入する〉。官人の位階ごとに色が決められた装束一着、調理担当の<ruby>
+        <rb>膳部</rb>
+        <rt place="right">かしわで</rt>
+       </ruby>六人の行事服に仕立てる<ruby>
+        <rb>佐渡布</rb>
+        <rt place="right">さどぬの</rt>
+       </ruby>は一人あたり二丈一尺。 </p>
      </div>
      <div ana="大膳上" corresp="engishiki_v32.xml#article321010 engishiki_v32_en.xml#article321010"
       n="32.10" subtype="項" type="条" xml:id="article321010">
       <head ana="平野雑給料"/>
-      <note type="summary"> 条文概要 </note>
+      <note type="summary"> 平野の夏の祭で官人に支給する食材・物品と労働力 </note>
       <p ana="項" corresp="engishiki_v32.xml#item32101001 engishiki_v32_en.xml#item32101001"
-       xml:id="item32101001"> 本文 </p>
+       xml:id="item32101001">
+       <ruby>
+        <rb>平野</rb>
+        <rt place="right">ひらの</rt>
+       </ruby>の夏の祭で官人に支給する食材・物品 <lb/>白米一斛三斗四升〈冬は五斗八升を加える〉、モチ米一斛二斗八升〈冬は四斗二升を加える〉、モチ米の<ruby>
+        <rb>糒</rb>
+        <rt place="right">ほしいい</rt>
+       </ruby>・<ruby>
+        <rb>糖</rb>
+        <rt place="right">あめ</rt>
+       </ruby>それぞれ一斗四升〈冬はそれぞれ三升を加える〉、小麦二斗六升〈冬は八升を加える〉、大豆二斗三升〈冬は七升を加える〉、<ruby>
+        <rb>小豆</rb>
+        <rt place="right">あずき</rt>
+       </ruby>二斗六升〈冬は八升を加える〉、ゴマ二斗二升四合〈冬は七升六合を加える〉、ゴマ油二斗二升〈冬は一斗二升を加える〉、料理酒四斗〈冬も同じ〉、酢一斗三升四合〈冬は六升一合を加える〉、<ruby>
+        <rb>醤</rb>
+        <rt place="right">ひしお</rt>
+       </ruby>三斗〈冬は九升減らす〉、塩四斗八升〈冬は一斗七升を加える〉。 </p>
       <p ana="項" corresp="engishiki_v32.xml#item32101002 engishiki_v32_en.xml#item32101002"
-       xml:id="item32101002"> 本文 </p>
+       xml:id="item32101002">
+       <ruby>
+        <rb>東</rb>
+        <rt place="right">あずま</rt>
+       </ruby>アワビ六〇斤一二両〈冬は四三斤一四両を加える〉、<ruby>
+        <rb>縄貫</rb>
+        <rt place="right">なわぬき</rt>
+       </ruby>アワビ六一斤八両〈冬は三三斤八両を加える〉、<ruby>
+        <rb>佐渡</rb>
+        <rt place="right">さど</rt>
+       </ruby>のアワビ一四斤〈冬は一四斤一五両を加える〉、<ruby>
+        <rb>隠岐</rb>
+        <rt place="right">おき</rt>
+       </ruby>のアワビ二一斤〈冬は一三斤を加える〉、干しナマコ五二斤一四両〈冬は二八斤六両を加える〉、カツオ一五斤〈冬は一五斤を加える〉、イカ三四斤二両〈冬は二四斤を加える〉、サケ四一尾〈冬は二〇尾を加える〉、種々の丸干しの品二三一斤〈冬は四〇斤を加える〉、サバ五七斤八両〈冬も同じ〉、種々のなれ<ruby>
+        <rb>鮨</rb>
+        <rt place="right">ずし</rt>
+       </ruby>二六〇斤〈冬は四〇斤を加える〉、カツオの<ruby>
+        <rb>煎汁</rb>
+        <rt place="right">いろり</rt>
+       </ruby>七瓶〈一瓶あたり五合。冬は三瓶を加える〉、ワカメ四八斤六両〈冬は一二斤を加える〉、カラシ二升〈冬は五合を加える〉、生野菜三斛〈冬も同じ〉、サンショウの漬け物一斗〈冬も同じ〉。 </p>
       <p ana="項" corresp="engishiki_v32.xml#item32101003 engishiki_v32_en.xml#item32101003"
-       xml:id="item32101003"> 本文 </p>
+       xml:id="item32101003"> 食膳台一〇脚〈冬は五脚を加える〉、覆い布・敷き布に用いる麻のさらし二〇枚〈覆い布は長さそれぞれ六尺、敷き布は長さそれぞれ五尺〉、上・中の曲げ物<ruby>
+        <rb>櫃</rb>
+        <rt place="right">ひつ</rt>
+       </ruby>それぞれ六〇合〈冬は三〇合を加える〉、上の曲げ物櫃の敷き布に用いる<ruby>
+        <rb>調布</rb>
+        <rt place="right">ちょうふ</rt>
+       </ruby>六〇枚〈長さそれぞれ三尺〉、<ruby>
+        <rb>大笥</rb>
+        <rt place="right">おおけ</rt>
+       </ruby>一〇〇合〈冬も同じ〉、絹の<ruby>
+        <rb>篩</rb>
+        <rt place="right">ふるい</rt>
+       </ruby>二<ruby>
+        <rb>口</rb>
+        <rt place="right">く</rt>
+       </ruby>〈篩ごとに二尺五寸、冬も同じ〉、灯明油三升五合〈冬も同じ〉、キイチゴ形のカシワの葉一〇〇〇枚〈冬は一〇〇枚を加える〉、干したカシワの葉五俵〈冬も同じ〉、<ruby>
+        <rb>須恵器</rb>
+        <rt place="right">すえき</rt>
+       </ruby>の<ruby>
+        <rb>大盤</rb>
+        <rt place="right">おおざら</rt>
+       </ruby>・<ruby>
+        <rb>叩盆</rb>
+        <rt place="right">たたいべ</rt>
+       </ruby>それぞれ一〇口〈冬も同じ〉、<ruby>
+        <rb>筥坏</rb>
+        <rt place="right">はこつき</rt>
+       </ruby>三〇口〈冬は一〇口を加える〉、<ruby>
+        <rb>由加</rb>
+        <rt place="right">ゆか</rt>
+       </ruby>三口〈冬も同じ〉、<ruby>
+        <rb>食薦</rb>
+        <rt place="right">すごも</rt>
+       </ruby>八〇枚〈冬も同じ〉、箸用の竹七〇株〈冬も同じ〉、鮮魚・果物や菓子〈代価を充てて購入せよ〉、拭くための<ruby>
+        <rb>商布</rb>
+        <rt place="right">しょうふ</rt>
+       </ruby>三枚〈一枚あたり四尺。冬も同じ〉。調理を担当する<ruby>
+        <rb>大膳職</rb>
+        <rt place="right">だいぜんしき</rt>
+       </ruby>職員の<ruby>
+        <rb>膳部</rb>
+        <rt place="right">かしわで</rt>
+       </ruby>・雑務を担う<ruby>
+        <rb>今良</rb>
+        <rt place="right">いままいり</rt>
+       </ruby>と雇用人は合計三二人、<ruby>
+        <rb>襷</rb>
+        <rt place="right">たすき</rt>
+       </ruby>・<ruby>
+        <rb>襅</rb>
+        <rt place="right">ちはや</rt>
+       </ruby>に用いる商布は一人あたり九尺〈冬は八人分を加える〉、労役に従事する雇用人延べ五〇人に支給する玄米は一人あたり一日に二升、塩二夕、賃金〈その時々の適正額に随う〉。 </p>
      </div>
      <div ana="大膳上" corresp="engishiki_v32.xml#article321011 engishiki_v32_en.xml#article321011"
       n="32.11" subtype="項" type="条" xml:id="article321011">
       <head ana="斎院給食料"/>
-      <note type="summary"> 条文概要 </note>
+      <note type="summary"> 賀茂祭で斎院に近侍する官人に支給する食材・物品と労働力 </note>
       <p ana="項" corresp="engishiki_v32.xml#item32101101 engishiki_v32_en.xml#item32101101"
-       xml:id="item32101101"> 本文 </p>
+       xml:id="item32101101">
+       <ruby>
+        <rb>賀茂祭</rb>
+        <rt place="right">かもさい</rt>
+       </ruby>で斎王に近侍する官人等に支給する食材 <lb/><ruby>
+        <rb>東</rb>
+        <rt place="right">あずま</rt>
+       </ruby>アワビ・カツオ・<ruby>
+        <rb>隠岐</rb>
+        <rt place="right">おき</rt>
+       </ruby>のアワビ・<ruby>
+        <rb>煮</rb>
+        <rt place="right">に</rt>
+       </ruby>ガツオそれぞれ五斤四両、種々のタイの加工品・種々の魚の細割きの干物それぞれ七斤一四両、サバ一一三尾、ワカメ一六斤二両、塩八升五合九夕、<ruby>
+        <rb>醤</rb>
+        <rt place="right">ひしお</rt>
+       </ruby>四升二合、酢・料理酒それぞれ一升、<ruby>
+        <rb>滓醤</rb>
+        <rt place="right">かすひしお</rt>
+       </ruby>三升、醤の絞り滓一升五合、生栗一斗六升八合、干してむき身にした<ruby>
+        <rb>搗</rb>
+        <rt place="right">か</rt>
+       </ruby>ち栗八升四合、干し柿一〇連半、サトイモ八升四合、タケノコ二一本、曲げ物<ruby>
+        <rb>櫃</rb>
+        <rt place="right">ひつ</rt>
+       </ruby>四二合、<ruby>
+        <rb>大笥</rb>
+        <rt place="right">おおけ</rt>
+       </ruby>二五合、曲げ物櫃二一合の覆い布・敷き布に用いる<ruby>
+        <rb>調布</rb>
+        <rt place="right">ちょうふ</rt>
+       </ruby>一端二丈一尺、薪五<ruby>
+        <rb>荷</rb>
+        <rt place="right">か</rt>
+       </ruby>、炭五斗、カシワの青葉六俵、美味な食品・果物や菓子〈代価の布五端〉、乾燥させたカシワの葉二俵、<ruby>
+        <rb>平坏</rb>
+        <rt place="right">ひらつき</rt>
+       </ruby>二五二<ruby>
+        <rb>口</rb>
+        <rt place="right">く</rt>
+       </ruby>、<ruby>
+        <rb>窪坏</rb>
+        <rt place="right">くぼつき</rt>
+       </ruby>・薬味皿それぞれ八四口、<ruby>
+        <rb>食薦</rb>
+        <rt place="right">すごも</rt>
+       </ruby>四〇枚、箸用の竹一<ruby>
+        <rb>囲</rb>
+        <rt place="right">い</rt>
+       </ruby>、<ruby>
+        <rb>炬</rb>
+        <rt place="right">たいまつ</rt>
+       </ruby>用の油二升、白米三斗〈調理を担当する<ruby>
+        <rb>膳部</rb>
+        <rt place="right">かしわで</rt>
+       </ruby>らの食事用〉。雑務従事者一五人〈<ruby>
+        <rb>京職</rb>
+        <rt place="right">きょうしき</rt>
+       </ruby>が動員する〉、玄米一斗八升〈雑務従事者の食事用〉。 </p>
      </div>
      <div ana="大膳上" corresp="engishiki_v32.xml#article321012 engishiki_v32_en.xml#article321012"
       n="32.12" subtype="項" type="条" xml:id="article321012">
       <head ana="斎院別当以下"/>
-      <note type="summary"> 条文概要 </note>
+      <note type="summary"> 賀茂祭で斎院司別当以下の四人に支給する食材・物品と労働力 </note>
       <p ana="項" corresp="engishiki_v32.xml#item32101201 engishiki_v32_en.xml#item32101201"
-       xml:id="item32101201"> 本文 </p>
+       xml:id="item32101201">
+       <ruby>
+        <rb>賀茂祭</rb>
+        <rt place="right">かもさい</rt>
+       </ruby>で<ruby>
+        <rb>斎院司</rb>
+        <rt place="right">さいいんし</rt>
+       </ruby><ruby>
+        <rb>別当</rb>
+        <rt place="right">べっとう</rt>
+       </ruby>以下の四人に支給する食材 <lb/><ruby>
+        <rb>東</rb>
+        <rt place="right">あずま</rt>
+       </ruby>アワビ・カツオ・<ruby>
+        <rb>隠岐</rb>
+        <rt place="right">おき</rt>
+       </ruby>のアワビ・<ruby>
+        <rb>煮</rb>
+        <rt place="right">に</rt>
+       </ruby>ガツオ・タイの細割きの干物それぞれ一二両、なれ<ruby>
+        <rb>鮨</rb>
+        <rt place="right">ずし</rt>
+       </ruby>・丸干しの品それぞれ四斤、塩六合、料理酒・酢それぞれ六合、生栗四升、タケノコ八本、キイチゴ形のカシワの葉二〇枚、生鮮品・果物や菓子〈代価の布五端〉、<ruby>
+        <rb>食薦</rb>
+        <rt place="right">すごも</rt>
+       </ruby>四枚、<ruby>
+        <rb>醤</rb>
+        <rt place="right">ひしお</rt>
+       </ruby>六合、<ruby>
+        <rb>片盤</rb>
+        <rt place="right">かたさら</rt>
+       </ruby>二四枚、<ruby>
+        <rb>窪坏</rb>
+        <rt place="right">くぼつき</rt>
+       </ruby>一六<ruby>
+        <rb>口</rb>
+        <rt place="right">く</rt>
+       </ruby>、薬味皿一六枚、食膳台四脚の覆い布・敷き布に用いる麻のさらし一端二尺、カシワの青葉一<ruby>
+        <rb>荷</rb>
+        <rt place="right">か</rt>
+       </ruby>、薪一荷、炭二斗、雑務従事者四人〈<ruby>
+        <rb>京職</rb>
+        <rt place="right">きょうしき</rt>
+       </ruby>が動員する〉、玄米四升八合、塩四夕八撮、醤の絞り滓四合〈すべて雑務従事者の食事用〉。 </p>
      </div>
      <div ana="大膳上" corresp="engishiki_v32.xml#article321013 engishiki_v32_en.xml#article321013"
       n="32.13" subtype="項" type="条" xml:id="article321013">
