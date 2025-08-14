@@ -412,11 +412,11 @@
 </row>
 <row rendition="#indent">
 <cell rendition="#width100">慶安版本</cell>
-<cell>大和文華館所蔵鈴鹿連胤旧蔵版本（1/782）</cell>
+<cell>大和文華館所蔵鈴鹿連胤旧蔵版本</cell>
 </row>
 <row rendition="#indent2">
 <cell rendition="#width100">鈴鹿本</cell>
-<cell>大和文華館所蔵鈴鹿連胤旧蔵慶安版本書入</cell>
+   <cell>大和文華館所蔵鈴鹿連胤旧蔵慶安版本書入（1/782）</cell>
 </row>
 <row>
 <cell rendition="#width100">明暦以降版本</cell>
@@ -480,8 +480,8 @@
 <orgName corresp="#京職">左京職</orgName><anchor xml:id="app2177770101"/>〈<orgName corresp="#京職">右京職</orgName>准<anchor xml:id="app2177770102"/>此<anchor xml:id="app2177770102e"/>、〉<anchor xml:id="app2177770101e"/>
 </p>
    <app from="#app2177770101" to="#app2177770101e">
-      <lem wit="#九本">〈<orgName corresp="#京職">右京職</orgName>准此、〉</lem>
-      <rdg wit="#土本 #近本 #壬本 #京博本 #慶長本 #梵本 #版本 #雲本">右京職准此</rdg>
+      <lem wit="#九本">〈右京職准此、〉</lem>
+      <rdg wit="#土本 #近本 #壬本 #京博本 #慶長本 #梵本 #慶安版本 #鈴鹿本 #明暦版本 #寛文版本 #筑波寛文本 #享保版本 #雲本">右京職准此</rdg>
       <note place="傍">鈴鹿本朱傍書「<seg style="color:red">以下分注</seg>」</note>
       <note place="傍">筑波寛文本朱傍書「 <seg style="color:red">以下分書</seg>」</note>
       <note place="傍">享保版本朱傍書「<seg style="color:red">一本小字夾行</seg>」</note>
@@ -490,14 +490,13 @@
    <app from="#app2177770102" to="#app2177770102e">
       <lem wit="#土本 #近本 #壬本 #京博本 #慶長本 #梵本">此</lem>
       <rdg wit="#九本">之</rdg>
-      <note>此　九本「之」。</note>
-   </app>
+     </app>
 </div>
 <div ana="左右京" corresp="engishiki_v42-1_en.xml#article421001 engishiki_v42-1_ja.xml#article421001" n="42-1.1" subtype="項" type="条" xml:id="article421001">
 <head ana="大神宮幣帛使"/>
 <p ana="項" corresp="engishiki_v42-1_en.xml#item42100101 engishiki_v42-1_ja.xml#item42100101" xml:id="item42100101"> <anchor xml:id="app4210010101"/>凡<anchor xml:id="app4210010101e"/>毎年九月幣帛使向<placeName corresp="#伊勢国">伊勢</placeName>者、史生一人将坊令二人・兵士四人前<anchor xml:id="app4210010102"/>駆<anchor xml:id="app4210010102e"/>〈臨時幣帛使亦同、〉 </p>
    <app from="#app4210010101" to="#app4210010101e">
-      <note>凡…同　九本は本条無し。</note>
+      <note>凡…同、〉　九本は本条無し。</note>
    </app>
    <app from="#app4210010102" to="#app4210010102e">
       <lem wit="#土本 #近本 #壬本 #京博本 #慶長本 #梵本">駆</lem>
@@ -508,7 +507,7 @@
 <head ana="斎王祓"/>
 <p ana="項" corresp="engishiki_v42-1_en.xml#item42100201 engishiki_v42-1_ja.xml#item42100201" xml:id="item42100201"> <anchor xml:id="app4210020101"/>凡<anchor xml:id="app4210020101e"/>斎王臨河祓除及向<placeName corresp="#伊勢国">伊勢</placeName>者、進・属各一人・<anchor xml:id="app4210020102"/>史<anchor xml:id="app4210020102e"/><anchor xml:id="app4210020103"/>生<anchor xml:id="app4210020103e"/>一人、将坊令二人・兵士十人前<anchor xml:id="app4210020104"/>駆<anchor xml:id="app4210020104e"/>〈<placeName corresp="#出雲国">出雲</placeName>国造奏神寿詞、遣大唐・渤海等国使、祭天神地祇、若上道等日、及蕃客<anchor xml:id="app4210020105"/>入<anchor xml:id="app4210020105e"/>朝之時、亦同、〉 </p>
    <app from="#app4210020101" to="#app4210020101e">
-      <note>凡…同　九本は本条無し。</note>
+      <note>凡…同、〉　九本は本条無し。</note>
    </app>
    <app from="#app4210020102" to="#app4210020102e">
       <lem wit="#土本 #近本 #壬本 #京博本 #慶長本 #梵本訂正書">史</lem>
@@ -525,7 +524,7 @@
       <note place="傍">京博本朱傍書「<seg style="color:red">駈〈イ〉</seg>」</note>
    </app>
    <app from="#app4210020105" to="#app4210020105e">
-      <lem wit="#版本 #雲本">入</lem>
+      <lem wit="#慶安版本 #鈴鹿本 #明暦版本 #寛文版本 #筑波寛文本 #享保版本 #雲本">入</lem>
       <rdg wit="#土本 #近本 #壬本 #京博本 #慶長本 #梵本">八</rdg>
       <note>入　土本・近本・壬本・京博本・慶長本・梵本「八」。訳注本「入」。但し考註（校注？）無し。版本・雲本に従い意改。</note>
    </app>
@@ -552,17 +551,18 @@
    </app>
    <app from="#app4210040103" to="#app4210040103e">
       <lem wit="#土本 #近本 #壬本 #京博本 #慶長本訂正書 #梵本">苧</lem>
+      <note place="脚">慶長本脚注「苧」</note>
       <note>苧　慶長本「荢」、ミセケチを付して脚注「苧」。</note>
    </app>
    <app from="#app4210040104" to="#app4210040104e">
       <lem wit="#鈴鹿本補書 #筑波寛文本朱傍書">百</lem>
-      <rdg wit="#土本 #近本 #壬本 #京博本 #慶長本 #梵本 #版本 #雲本"/>
+      <rdg wit="#土本 #近本 #壬本 #京博本 #慶長本 #梵本 #慶安版本 #明暦版本 #寛文版本 #筑波寛文本 #享保版本 #雲本"/>
       <note place="傍">筑波寛文本朱傍書「<seg style="color:red">百〈以文考〉</seg>」</note>
       <note>百　土本・近本・壬本・京博本・慶長本・梵本・版本・雲本無し。鈴鹿本は朱挿入符・朱傍書により補入。筑波寛文本朱傍書「百〈以文考〉」。校（考？）異は「百」の脱かとする。訳注本は考異により補う。鈴鹿本朱傍書・筑波寛文本朱傍書・校（考？）異に従い意により補入。</note>
    </app>
    <app from="#app4210040105" to="#app4210040105e">
       <lem wit="#土本 #近本 #壬本 #京博本 #慶長本 #梵本">別</lem>
-      <rdg wit="#版本 #雲本">列</rdg>
+      <rdg wit="#慶安版本 #鈴鹿本 #明暦版本 #寛文版本 #筑波寛文本 #享保版本 #雲本">列</rdg>
       <note>別　版本・雲本・訳注本「列」。訳注本は校注無し。</note>
    </app>
    <app from="#app4210040106" to="#app4210040106e">
@@ -581,7 +581,7 @@
 <head ana="畿内堺祭"/>
 <p ana="項" corresp="engishiki_v42-1_en.xml#item42100601 engishiki_v42-1_ja.xml#item42100601" xml:id="item42100601"> <anchor xml:id="app4210060101"/>凡<anchor xml:id="app4210060101e"/>毎年九月、<orgName corresp="#神祇官">神祇官</orgName><placeName corresp="#畿内">畿内</placeName>堺祭、差担夫五人已上送之、 </p>
    <app from="#app4210060101" to="#app4210060101e">
-      <note>凡…之</note>
+      <note>凡…之　九本は本条無し。</note>
    </app>
 </div>
 <div ana="左右京" corresp="engishiki_v42-1_en.xml#article421007 engishiki_v42-1_ja.xml#article421007" n="42-1.7" subtype="項" type="条" xml:id="article421007">
@@ -593,6 +593,7 @@
    <app from="#app4210070102" to="#app4210070102e">
       <lem wit="#土本 #近本 #壬本 #京博本 #慶長本 #梵本">三</lem>
       <rdg wit="#慶長本訂正書">二</rdg>
+      <note place="脚">慶長本脚書「二」</note>
       <note>三　慶長本ミセケチを付して脚書「二」。</note>
    </app>
 </div>
@@ -631,8 +632,8 @@
       <note>寮　慶長本この下「六」あり。直前の「六」に関わる脚書が本文に竄入したものとみなす。</note>
    </app>
    <app from="#app4210100104" to="#app4210100104e">
-      <lem wit="#土本 #近本 #壬本補書 #京博本補書 #慶長本 #梵本補書">銭</lem>
-      <rdg wit=""></rdg>
+      <lem wit="#土本 #近本 #壬本墨傍書 #京博本墨傍書 #慶長本 #梵本墨傍書">銭</lem>
+      <rdg wit="#壬本 #京博本 #梵本"/>
       <note>銭　壬本・京博本・梵本脱、墨傍書により補入。</note>
    </app>
 </div>
@@ -644,7 +645,7 @@
    </app>
    <app from="#app4210110102" to="#app4210110102e">
       <lem wit="#土本 #近本 #壬本 #京博本 #慶長本 #梵本 #明暦版本訂正書 #筑波寛文本訂正書">夾</lem>
-      <rdg wit="#版本 #雲本">交</rdg>
+      <rdg wit="#慶安版本 #鈴鹿本 #寛文版本 #享保版本 #雲本">交</rdg>
       <note place="傍">享保版本朱傍書「<seg style="color:red">夾〈一本〉</seg>」</note>
       <note>夾　版本・雲本「交」。明暦版本・筑波寛文本は朱ミセケチを付して朱傍書「夾」。享保版本朱傍書「夾〈一本〉」。</note>
    </app>
@@ -672,7 +673,8 @@
       <note>人　土本・近本・慶長本・梵本脱、土本朱傍書・近本傍書・壬本・京博本・慶長本傍書・梵本朱傍書により補入。</note>
    </app>
    <app from="#app4210130103" to="#app4210130103e">
-      <lem wit="#土本 #近本 #壬本 #京博本 #慶長本補入 #梵本">坊令</lem>
+      <lem wit="#土本 #近本 #壬本 #京博本 #慶長本左補書 #梵本">坊令</lem>
+      <note>慶長本墨左補書「坊令」</note>
       <note>坊令　慶長本脱、「将」の下に朱挿入符を付し、墨左傍書「坊令」。</note>
    </app>
 </div>
@@ -746,7 +748,6 @@
    <app from="#app4210180102" to="#app4210180102e">
       <lem wit="#土本 #壬本 #京博本 #慶長本 #梵本">決</lem>
       <rdg wit="#近本">次</rdg>
-      <note>決　近本「次」。</note>
    </app>
 </div>
 <div ana="左右京" corresp="engishiki_v42-1_en.xml#article421019 engishiki_v42-1_ja.xml#article421019" n="42-1.19" subtype="項" type="条" xml:id="article421019">
@@ -764,7 +765,6 @@
    </app>
    <app from="#app4210190103" to="#app4210190103e">
       <lem wit="#土本 #近本 #壬本 #京博本補書 #慶長本 #梵本">除</lem>
-      <rdg wit=""></rdg>
       <note>除　京博本脱。墨傍書・墨挿入符により補入。</note>
    </app>
    <app from="#app4210190104" to="#app4210190104e">
@@ -781,8 +781,8 @@
    </app>
    <app from="#app4210200102" to="#app4210200102e">
       <lem wit="#土本傍書 #近本 #壬本 #京博本 #慶長本 #梵本">仕</lem>
-      <rdg wit=""></rdg>
-      <note place="傍">土本傍書「仕」</note>
+      <rdg wit="#土本"/>
+      <note place="傍">土本墨傍書「仕」</note>
       <note>仕　土本脱。土本墨傍書・近本・壬本・京博本・慶長本・梵本により補入。</note>
    </app>
 </div>
@@ -794,7 +794,7 @@
       <note>凡…株　九本は本条無し。</note>
    </app>
    <app from="#app4210210102" to="#app4210210102e">
-      <lem wit="#版本 #雲本">栽</lem>
+      <lem wit="#慶安版本 #鈴鹿本 #明暦版本 #寛文版本 #筑波寛文本 #享保版本 #雲本">栽</lem>
       <rdg wit="#土本 #近本 #壬本 #京博本 #慶長本 #梵本">裁</rdg>
       <note>栽　土本・近本・壬本・京博本・慶長本・梵本「裁」。訳注本は「栽」とするが校注無し。版本・雲本に従い意改。</note>
    </app>
@@ -806,7 +806,7 @@
       <note>凡…之　九本は本条無し。</note>
    </app>
    <app from="#app4210220102" to="#app4210220102e">
-      <lem wit="#版本 #雲本">栽</lem>
+      <lem wit="#慶安版本 #鈴鹿本 #明暦版本 #寛文版本 #筑波寛文本 #享保版本 #雲本">栽</lem>
       <rdg wit="#土本 #近本 #壬本 #京博本 #慶長本 #梵本">裁</rdg>
       <note>栽　土本・近本・壬本・京博本・慶長本・梵本「裁」。訳注本は「栽」とするが校注無し。版本・雲本に従い意改。</note>
    </app>
@@ -815,8 +815,6 @@
 <head ana="京中水田"/>
 <p ana="項" corresp="engishiki_v42-1_en.xml#item42102301 engishiki_v42-1_ja.xml#item42102301" xml:id="item42102301"> <anchor xml:id="app4210230101"/>凡<anchor xml:id="app4210230101e"/>京中不聴営水田、但大小路辺、及卑湿之地、聴殖水䓗・芹・蓮之類、不得因此広溝迫路、 </p>
    <app from="#app4210230101" to="#app4210230101e">
-      <lem wit=""></lem>
-      <rdg wit=""></rdg>
       <note>凡…路　九本は本条無し。</note>
    </app>
 </div>
@@ -835,11 +833,11 @@
    </app>
    <app from="#app4210250102" to="#app4210250102e">
       <lem wit="#土本 #近本 #壬本 #京博本 #慶長本 #梵本">取</lem>
-      <rdg wit="#版本">拾</rdg>
+      <rdg wit="#慶安版本 #鈴鹿本 #明暦版本 #寛文版本 #筑波寛文本 #享保版本">拾</rdg>
       <note place="傍">享保版本朱傍書「<seg style="color:red">取</seg>」</note>
    </app>
    <app from="#app4210250103" to="#app4210250103e">
-      <lem wit="#近本 #版本 #雲本">院</lem>
+      <lem wit="#近本 #慶安版本 #鈴鹿本 #明暦版本 #寛文版本 #筑波寛文本 #享保版本 #雲本">院</lem>
       <rdg wit="#土本 #壬本 #京博本 #慶長本 #梵本"/>
       <note>院　土本・壬本・京博本・慶長本・梵本無し。近本・版本・雲本により補う。</note>
    </app>
@@ -883,7 +881,7 @@
    </app>
    <app from="#app4210280102" to="#app4210280102e">
       <lem wit="#土本 #近本 #壬本 #京博本 #慶長本 #梵本">内</lem>
-      <rdg wit="#明暦以降版本 #雲本">門</rdg>
+      <rdg wit="#明暦版本 #寛文版本 #筑波寛文本 #享保版本 #雲本">門</rdg>
       <note>内　訳注本は享保版本により「門」に改める。</note>
    </app>
 </div>
@@ -917,7 +915,6 @@
    <app from="#app4210320102" to="#app4210320102e">
       <lem wit="#土本 #近本 #壬本 #京博本 #慶長本">第</lem>
       <rdg wit="#梵本">茅</rdg>
-      <note>第　梵本「茅」。</note>
    </app>
 </div>
 <div ana="左右京" corresp="engishiki_v42-1_en.xml#article421033 engishiki_v42-1_ja.xml#article421033" n="42-1.33" subtype="項" type="条" xml:id="article421033">
@@ -926,7 +923,7 @@
                      <lb/>坊長卅五人〈条別四人、但一・二条各三人、北辺坊一人、〉 <lb/>兵士卌人、 <lb/>守正倉六人、 <lb/>守客館二人〈只置<orgName corresp="#京職">右京</orgName>、<orgName corresp="#京職">左京</orgName>不須、〉
                      <lb/>守朱雀樹四人、 <lb/>掃清丁卅六人〈条別四人、但一・二条各三人、北辺坊二人、〉 <lb/><orgName corresp="#市司">市司</orgName>執鎰二人、 </p>
    <app from="#app4210330101" to="#app4210330101e">
-      <note>書生…二人　九本は本項無し。</note>
+      <note>書生…執鎰二人　九本は本項無し。</note>
    </app>
 <p ana="項" corresp="engishiki_v42-1_en.xml#item42103302 engishiki_v42-1_ja.xml#item42103302" xml:id="item42103302">
 <s rendition="#indent">右、依前件雇使、功食以徭銭充、其食人日米一升二合、塩一夕〈但兵士、日米二升、塩一夕、〉功銭並依当時法行之〈但掃清丁、功銭不行、〉</s>
@@ -951,7 +948,7 @@
 </p>
    <app from="#app4210350301" to="#app4210350301e">
       <lem wit="#土本 #近本 #壬本 #京博本 #慶長本 #梵本">筆</lem>
-      <note place="傍">京博本傍書「墨イ」</note>
+      <note place="傍">京博本墨傍書「墨イ」</note>
       <note place="傍">鈴鹿本傍書「墨」</note>
       <note place="傍">筑波寛文本傍書「墨」</note>
       <note place="傍">享保版本朱傍書「<seg style="color:red">墨〈一本〉</seg>」</note>
@@ -965,7 +962,7 @@
                      属一人〈従二人、〉史生三人〈従各一人、〉書生十四人〈従各一人、〉担公文夫四人、廝丁四人、紙八千九百廿五張〈中八千四百廿五張、下五百張、〉墨九廷、筆七十九<anchor xml:id="app4210360201"/>筆<anchor xml:id="app4210360201e"/>、 </p>
    <app from="#app4210360201" to="#app4210360201e">
       <lem wit="#土本 #近本 #壬本 #京博本 #慶長本 #梵本">筆</lem>
-      <rdg wit="#版本 #雲本">管</rdg>
+      <rdg wit="#慶安版本 #鈴鹿本 #明暦版本 #寛文版本 #筑波寛文本 #享保版本 #雲本">管</rdg>
       <note place="傍">京博本朱傍書「<seg style="color:red">管イ</seg>」</note>
       <note>筆　版本・雲本・訳注本「管」。但し訳注本校注無し。</note>
    </app>
@@ -973,8 +970,8 @@
 <s rendition="#indent">右、依前<anchor xml:id="app4210360301"/>件<anchor xml:id="app4210360301e"/>、経国之間供給、准国司巡行法、充用職写田直、其紙・筆等、以徭銭<anchor xml:id="app4210360302"/>充<anchor xml:id="app4210360302e"/>、</s>
 </p>
    <app from="#app4210360301" to="#app4210360301e">
-      <lem wit="#土本 #近本 #壬本補入 #京博本 #慶長本 #梵本">件</lem>
-      <rdg wit=""></rdg>
+      <lem wit="#土本 #近本 #壬本補書 #京博本 #慶長本 #梵本">件</lem>
+      <note>壬本補書「件」</note>
       <note>件　壬本脱、挿入符・傍書で補入。</note>
    </app>
    <app from="#app4210360302" to="#app4210360302e">
@@ -994,7 +991,7 @@
 <head ana="戸籍帙料"/>
 <p ana="項" corresp="engishiki_v42-1_en.xml#item42103801 engishiki_v42-1_ja.xml#item42103801" xml:id="item42103801"> <anchor xml:id="app4210380101"/>戸籍<anchor xml:id="app4210380101e"/>帙料、小町蓆・黄帛・黄糸・洗鹿革・盛韓櫃・装潢手・書<anchor xml:id="app4210380102"/>手<anchor xml:id="app4210380102e"/>功食、並申<orgName corresp="#太政官">官</orgName>請用、其紙・筆・墨、並准令条、但紙随戸口数〈十五人輸三張、〉不進計帳戸料紙・筆・墨、亦申<orgName corresp="#太政官">官</orgName>、紙一千張<anchor xml:id="app4210380103"/>充<anchor xml:id="app4210380103e"/>墨一<anchor xml:id="app4210380104"/>廷<anchor xml:id="app4210380104e"/>、一百五十張<anchor xml:id="app4210380105"/>充<anchor xml:id="app4210380105e"/>筆一管〈写書<anchor xml:id="app4210380106"/>并<anchor xml:id="app4210380106e"/>装潢功程、<anchor xml:id="app4210380107"/>并<anchor xml:id="app4210380107e"/>見<orgName corresp="#図書寮"><anchor xml:id="app4210380108"/>図<anchor xml:id="app4210380108e"/>書</orgName>式、〉 </p>
    <app from="#app4210380101" to="#app4210380101e">
-      <note>戸籍…式　九本は本条無し。</note>
+      <note>戸籍…式、〉　九本は本条無し。</note>
    </app>
    <app from="#app4210380102" to="#app4210380102e">
       <lem wit="#土本 #近本 #壬本 #慶長本 #梵本">手</lem>
@@ -1006,7 +1003,7 @@
    </app>
    <app from="#app4210380104" to="#app4210380104e">
       <lem wit="#土本 #近本 #壬本 #京博本 #慶長本 #梵本">廷</lem>
-      <rdg wit="#版本 #雲本">挺</rdg>
+      <rdg wit="#慶安版本 #鈴鹿本 #明暦版本 #寛文版本 #筑波寛文本 #享保版本 #雲本">挺</rdg>
       <note place="傍">京博本傍書「紙イ」</note>
       <note>廷　京博本この下に墨挿入符を付し、墨傍書「紙イ」。</note>
    </app>
@@ -1025,7 +1022,7 @@
       <note>并　訳注本「並」に意改。</note>
    </app>
    <app from="#app4210380108" to="#app4210380108e">
-      <lem wit="#京博本朱傍書 #版本 #雲本">図</lem>
+      <lem wit="#京博本朱傍書 #慶安版本 #鈴鹿本 #明暦版本 #寛文版本 #筑波寛文本 #享保版本 #雲本">図</lem>
       <rdg wit="#土本 #近本 #壬本 #京博本 #慶長本 #梵本">円</rdg>
       <note place="傍">京博本朱傍書「<seg style="color:red">図イ</seg>」</note>
       <note>図　土本・近本・壬本・京博本・慶長本・梵本「円」。京博本朱傍書「図イ」。訳注本「図」とするが校注無し。京博本朱傍書・版本・雲本に従い意改。</note>
@@ -1058,7 +1055,7 @@
    </app>
    <app from="#app4210410102" to="#app4210410102e">
       <lem wit="#土本 #近本 #壬本 #京博本 #慶長本 #梵本">預</lem>
-      <rdg wit="#版本">須</rdg>
+      <rdg wit="#慶安版本 #鈴鹿本 #明暦版本 #寛文版本 #筑波寛文本 #享保版本">須</rdg>
       <note place="傍">鈴鹿本朱傍書「<seg style="color:red">預</seg>」</note>
       <note place="傍">筑波寛文本朱傍書「<seg style="color:red">預〈一イ〉</seg>」</note>
       <note place="傍">享保版本朱傍書「<seg style="color:red">預〈一本、二同〉</seg>」</note>
@@ -1076,8 +1073,6 @@
 <head ana="職写田帳"/>
 <p ana="項" corresp="engishiki_v42-1_en.xml#item42104301 engishiki_v42-1_ja.xml#item42104301" xml:id="item42104301"> <anchor xml:id="app4210430101"/>凡<anchor xml:id="app4210430101e"/>職写田帳、十二月十日以前進之、同月内下<placeName corresp="#諸国">諸国</placeName>、其沽田帳副直銭、明年五月卅日、不沽田地子帳、十一月卅日以前進之、絶戸田准此、 </p>
    <app from="#app4210430101" to="#app4210430101e">
-      <lem wit=""></lem>
-      <rdg wit=""></rdg>
       <note>凡…此　九本は本条無し。</note>
    </app>
 </div>
@@ -1101,7 +1096,7 @@
    </app>
    <app from="#app4210450102" to="#app4210450102e">
       <lem wit="#土本 #近本 #壬本 #京博本 #慶長本 #梵本">年毎</lem>
-      <rdg wit="#版本 #雲本">毎年</rdg>
+      <rdg wit="#慶安版本 #鈴鹿本 #明暦版本 #寛文版本 #筑波寛文本 #享保版本 #雲本">毎年</rdg>
       <note>年毎　訳注本は享保版本により「毎年」に改める。</note>
    </app>
    <app from="#app4210450103" to="#app4210450103e">
@@ -1179,12 +1174,10 @@
    </app>
    <app from="#app4210540102" to="#app4210540102e">
       <lem wit="#土本補書 #近本 #壬本 #京博本 #慶長本 #梵本">不論</lem>
-      <rdg wit=""></rdg>
       <note>不課　土本脱、挿入符・傍書により補入。土本傍書・近本・壬本・京博本・慶長本・梵本により補う。</note>
    </app>
    <app from="#app4210540103" to="#app4210540103e">
       <lem wit="#土本 #近本 #壬本 #京博本 #慶長本 #梵本補書">令</lem>
-      <rdg wit=""></rdg>
       <note>令　梵本脱、墨挿入符・傍書で補入。</note>
    </app>
    <app from="#app4210540104" to="#app4210540104e">
@@ -1231,9 +1224,8 @@
      <note>凡…限　九本は本条無し。</note>
    </app>
    <app from="#app4210570102" to="#app4210570102e">
-      <lem wit="#土本 #近本 #壬本 #京博本補入 #慶長本 #梵本">場</lem>
-      <rdg wit=""></rdg>
-      <note place="">京博本補入「場」</note>
+      <lem wit="#土本 #近本 #壬本 #京博本補書 #慶長本 #梵本">場</lem>
+      <note>京博本補書「場」</note>
       <note>場　京博本脱。墨挿入符・傍書で補入。</note>
    </app>
    <app from="#app4210570103" to="#app4210570103e">
@@ -1245,7 +1237,7 @@
 <head ana="京程"/>
 <p ana="項" corresp="engishiki_v42-1_en.xml#item42105801 engishiki_v42-1_ja.xml#item42105801" xml:id="item42105801"> 京程 </p>
 <p ana="項" corresp="engishiki_v42-1_en.xml#item42105802 engishiki_v42-1_ja.xml#item42105802" xml:id="item42105802"> 南北一千七百五十三<anchor xml:id="app4210580201"/>丈<anchor xml:id="app4210580201e"/>、 <lb/><s rendition="#indent">北極并次四大路、広各十丈、</s>
-<lb/><s rendition="#indent"><anchor xml:id="app4210580202"/>宮城南大路十七丈<anchor xml:id="app4210580202e"/>、</s>
+   <lb/><s rendition="#indent"><anchor xml:id="app4210580202"/>宮城<anchor xml:id="app4210580202e"/>南大路十七丈、</s>
 <lb/><s rendition="#indent">次六大路、各八<anchor xml:id="app4210580203"/>丈<anchor xml:id="app4210580203e"/>、</s>
 <lb/><s rendition="#indent">南極大路十二丈、</s>
 <lb/><s rendition="#indent">羅城外二丈<anchor xml:id="app4210580204"/>〈垣基半三尺、<anchor xml:id="app4210580205"/>犬<anchor xml:id="app4210580205e"/>行七尺、溝広一丈、〉<anchor xml:id="app4210580204e"/></s>
@@ -1259,8 +1251,7 @@
       <note>丈　九本はこの下に「今勘、千七百五十一丈、今二丈耳尋之、」と朱双行注し、「耳」に見せ消ちを付した上で朱傍書「可」。朱双行注の更に下に「四位大外記中原師重之本云、除大路・小路、各見式文、定残卅八町、一町卌丈、」と墨双行注。</note>
    </app>
    <app from="#app4210580202" to="#app4210580202e">
-      <lem wit="#土本 #九本 #近本 #壬本 #京博本 #慶長本 #梵本">宮城南大路十七丈</lem>
-      <note>九本前の行から改行せず。</note>
+      <note>宮城　九本前の行から改行せず。</note>
    </app>
    <app from="#app4210580203" to="#app4210580203e">
       <lem wit="#土本 #近本 #壬本 #京博本 #慶長本 #梵本">丈</lem>
@@ -1270,7 +1261,7 @@
    <app from="#app4210580204" to="#app4210580204e">
       <lem wit="#土本 #近本 #壬本 #京博本 #慶長本 #梵本">〈垣基半三尺、犬行七尺、溝広一丈、〉</lem>
       <rdg wit="#九本">〈犬行七尺路広十丈〉</rdg>
-      <note>九本はこの双行注のうち「垣基半三尺」「溝広一丈」を「次六大路各八丈」の下に付し、「羅城外二丈」の下に挿入符を付す(上文「丈」の校異注を照)。また「犬行七尺」を「路広十丈」と併せて「羅城外二丈」の下に双行注として付す(下文「路」の校異注を参照)。</note>
+      <note>九本はこの双行注のうち「垣基半三尺」「溝広一丈」を「次六大路各八丈」の下に付し、「羅城外二丈」の下に挿入符を付す（上文「丈」の校異注を照）。また「犬行七尺」を「路広十丈」と併せて「羅城外二丈」の下に双行注として付す（下文「路」の校異注を参照）。</note>
    </app>
    <app from="#app4210580205" to="#app4210580205e">
       <lem wit="#土本 #近本 #壬本 #京博本">犬</lem>
@@ -1280,34 +1271,36 @@
       <lem wit="#土本 #近本 ">路広十丈</lem>
       <rdg wit="#壬本 #京博本 #慶長本 #梵本">　　路広十丈</rdg>
       <rdg wit="#九本"/>
-      <note>路広十丈 壬本・京博本・慶長本・梵本二字下げ。九本は本行を細字にして、「羅城外二丈」の下に「犬行七尺」と併せて双行注として付す(上文「垣基半三尺犬行七尺溝広一丈の校異注を参照)。</note>
+      <note>路広十丈　壬本・京博本・慶長本・梵本二字下げ。九本は本行を細字にして、「羅城外二丈」の下に「犬行七尺」と併せて双行注として付す。</note>
    </app>
    <app from="#app4210580207" to="#app4210580207e">
+      <lem wit="#土本 #九本 #近本 #壬本 #京博本 #慶長本 #梵本">小路</lem>
       <note>九本はこの次の行に、「今案、大路北畔、垣基半三尺、犬行五尺、溝広四尺者、両溝間八丈八尺、」と朱細字注。</note>
    </app>
 <p ana="項" corresp="engishiki_v42-1_en.xml#item42105803 engishiki_v42-1_ja.xml#item42105803" xml:id="item42105803"> 東西一千五百八丈〈通計東西両京、〉 <lb/><s rendition="#indent">自朱雀大路中央、至東極外畔、七百五十四丈、</s>
 <lb/><s rendition="#indent"><anchor xml:id="app4210580301"/>朱雀<anchor xml:id="app4210580301e"/>大路半、広<anchor xml:id="app4210580302"/>十<anchor xml:id="app4210580302e"/>四丈、</s>
-<lb/><s rendition="#indent"><anchor xml:id="app4210580303"/>次一大路十丈<anchor xml:id="app4210580303e"/>、</s>
-<lb/><s rendition="#indent"><anchor xml:id="app4210580304"/>次一大路十二<anchor xml:id="app4210580305"/>丈<anchor xml:id="app4210580305e"/><anchor xml:id="app4210580304e"/>、</s>
+   <lb/><s rendition="#indent"><anchor xml:id="app4210580303"/>次<anchor xml:id="app4210580303e"/>一大路十丈、</s>
+   <lb/><s rendition="#indent"><anchor xml:id="app4210580304"/>次<anchor xml:id="app4210580304e"/>一大路十二<anchor xml:id="app4210580305"/>丈<anchor xml:id="app4210580305e"/>、</s>
 <lb/><s rendition="#indent">次二大路、各八丈、</s>
-<lb/><s rendition="#indent"><anchor xml:id="app4210580306"/>東極大路十丈<anchor xml:id="app4210580306e"/>、</s>
+   <lb/><s rendition="#indent"><anchor xml:id="app4210580306"/>東極<anchor xml:id="app4210580306e"/>大路十丈、</s>
    <lb/><s rendition="#indent"><anchor xml:id="app4210580307"/>小路<anchor xml:id="app4210580307e"/>十二、各四丈〈一路加堀川東西辺、各二丈、〉</s>
-<lb/><s rendition="#indent"><anchor xml:id="app4210580308"/>町十六、各卌丈<anchor xml:id="app4210580308e"/>、</s>
+   <lb/><s rendition="#indent"><anchor xml:id="app4210580308"/>町<anchor xml:id="app4210580308e"/>十六、各卌丈、</s>
 <lb/><s rendition="#indent2"><anchor xml:id="app4210580309"/>右京准此<anchor xml:id="app4210580309e"/>、</s>
 </p>
    <app from="#app4210580301" to="#app4210580301e">
+      <lem wit="#土本 #九本 #近本 #壬本 #京博本 #慶長本 #梵本">朱雀</lem>
       <note place="傍">九本傍書「式云除大路小路分定残十六町」</note>
-      <note>朱雀 九本この右に「式云、除大路・小路、分定残十六町」と墨傍書。訳注本校異補注は「分」を「今」とする</note>
+      <note>朱雀 九本この右に「式云、除大路・小路、分定残十六町」と墨傍書。訳注本校異補注は「分」を「今」とする。</note>
    </app>
    <app from="#app4210580302" to="#app4210580302e">
       <lem wit="#土本 #九本 #近本 #壬本 #京博本 #慶長本 #梵本">十</lem>
       <note place="傍">九本墨傍書「イ无」</note>
    </app>
    <app from="#app4210580303" to="#app4210580303e">
-      <note>次一大路十丈　九本は前の行から改行せず。</note>
+      <note>次　九本は前の行から改行せず。</note>
    </app>
    <app from="#app4210580304" to="#app4210580304e">
-      <note>次一大路十二丈　九本は前の行から改行せず。</note>
+      <note>次　九本は前の行から改行せず。</note>
    </app>
    <app from="#app4210580305" to="#app4210580305e">
       <lem wit="#土本 #近本 #壬本 #京博本 #慶長本 #梵本">丈</lem>
@@ -1316,13 +1309,14 @@
    </app>
    <app from="#app4210580306" to="#app4210580306e">
       <note place="傍">九本傍書「東西洞院也」</note>
-      <note>東極大路十丈　九本は前の行から改行せず。また右に「東西洞院也、」と墨傍書。</note>
+      <note>東極　九本は前の行から改行せず。また右に「東西洞院也、」と墨傍書。</note>
    </app>
    <app from="#app4210580307" to="#app4210580307e">
-      <note>小路…二丈　土本・近本・梵本・版本は前の行から改行せず。鈴鹿本・筑波寛文本は「東極大路十丈」の左に朱挿入符を付し、改行を指示。享保版本朱傍書「一本別提」。九本・壬本・京博本・慶長本・鈴鹿本挿入符・筑波寛文本挿入符により改行。</note>
+      <note place="傍">享保版本朱傍書「<seg style="color:red">一本別提</seg>」</note>
+      <note>小路　土本・近本・梵本・版本は前の行から改行せず。鈴鹿本・筑波寛文本は「東極大路十丈」の左に朱挿入符を付し、改行を指示。享保版本朱傍書「一本別提」。九本・壬本・京博本・慶長本・鈴鹿本挿入符・筑波寛文本挿入符により改行。</note>
    </app>
    <app from="#app4210580308" to="#app4210580308e">
-      <note>町十六、各卌丈　九本は前の行から改行せず。</note>
+      <note>町　九本は前の行から改行せず。</note>
    </app>
    <app from="#app4210580309" to="#app4210580309e">
       <lem wit="#土本 #近本 #壬本 #京博本 #慶長本 #梵本">右京准此</lem>
@@ -1330,270 +1324,281 @@
       <note>右京准此　九本無し、次行「朱雀大路」の右に墨傍書「右京准之〈或〉」。訳注本は九本傍書を傍書ではなく本文として扱う。</note>
    </app>
    <p ana="項" corresp="engishiki_v42-1_en.xml#item42105804 engishiki_v42-1_ja.xml#item42105804" xml:id="item42105804"> <anchor xml:id="app4210580401"/>朱雀大路<anchor xml:id="app4210580401e"/>広廿八丈、 <lb/><s rendition="#indent">自垣半至溝辺、各一丈八尺〈垣基三尺、<anchor xml:id="app4210580402"/>犬<anchor xml:id="app4210580402e"/>行<anchor xml:id="app4210580403"/>一丈<anchor xml:id="app4210580403e"/>五尺、〉</s>
-<lb/><s rendition="#indent"><anchor xml:id="app4210580404"/>溝広各五尺<anchor xml:id="app4210580404e"/>、</s>
+      <lb/><s rendition="#indent"><anchor xml:id="app4210580404"/>溝<anchor xml:id="app4210580404e"/>広各五尺、</s>
 <lb/><s rendition="#indent"><anchor xml:id="app4210580405"/>両溝間、廿三丈四尺<anchor xml:id="app4210580405e"/>、</s>
 </p>
    <app from="#app4210580401" to="#app4210580401e">
       <lem wit="#九本">朱雀大路</lem>
-      <rdg wit="#土本 #近本 #壬本 #京博本 #慶長本 #梵本 #版本 #雲本">朱雀路</rdg>
+      <rdg wit="#土本 #近本 #壬本 #京博本 #慶長本 #梵本 #慶安版本 #鈴鹿本 #明暦版本 #寛文版本 #筑波寛文本 #享保版本 #雲本">朱雀路</rdg>
       <note place="傍">九本墨傍書「右京准之〈或〉」</note>
       <note>朱雀大路　土本・近本・壬本・京博本・慶長本・梵本は「朱雀路」。九本により補う。</note>
      </app>
    <app from="#app4210580402" to="#app4210580402e">
-      <lem wit=""></lem>
-      <rdg wit=""></rdg>
-      <note></note>
+      <lem wit="#九本 #壬本 #京博本 #慶長本 #梵本">犬</lem>
+      <rdg wit="#土本 #近本">大</rdg>
+      <note place="傍">土本朱傍訓「<seg style="color:red">いヌいキ</seg>」</note>
+      <note place="傍">近本傍訓「いヌハキ」</note>
+      <note>犬　土本・近本「大」、土本朱傍訓「いヌいキ」、近本傍訓「いヌハキ」。土本朱傍訓・九本・壬本・京博本・慶長本・梵本により改める。</note>
    </app>
-   <app from="#" to="#e">
-      <lem wit=""></lem>
-      <rdg wit=""></rdg>
-      <note></note>
+   <app from="#app4210580403" to="#app4210580403e">
+      <lem wit="#土本 #近本 #壬本 #京博本 #慶長本 #梵本">一丈</lem>
+      <rdg wit="#九本"/>
    </app>
-   <app from="#" to="#e">
-      <lem wit=""></lem>
-      <rdg wit=""></rdg>
-      <note></note>
+   <app from="#app4210580404" to="#app4210580404e">
+      <note>溝　九本は前の行から改行せず。</note>
    </app>
 <p ana="項" corresp="engishiki_v42-1_en.xml#item42105805 engishiki_v42-1_ja.xml#item42105805" xml:id="item42105805"> 大路<anchor xml:id="app4210580501"/>広<anchor xml:id="app4210580501e"/>十丈、 <lb/><s rendition="#indent">自垣半至<anchor xml:id="app4210580502"/>溝<anchor xml:id="app4210580502e"/>辺、<anchor xml:id="app4210580503"/>各<anchor xml:id="app4210580503e"/>八尺〈垣基三尺、犬行五尺、〉</s>
-<lb/><s rendition="#indent"><anchor xml:id="app4210580504"/>溝広各四尺<anchor xml:id="app4210580504e"/>、</s>
-<lb/><s rendition="#indent"><anchor xml:id="app4210580505"/>両溝間、七丈六尺<anchor xml:id="app4210580505e"/>、</s>
+   <lb/><s rendition="#indent"><anchor xml:id="app4210580504"/>溝<anchor xml:id="app4210580504e"/>広各四尺、</s>
+   <lb/><s rendition="#indent"><anchor xml:id="app4210580505"/>両<anchor xml:id="app4210580505e"/>溝間、七丈六尺、</s>
 </p>
-   <app from="#" to="#e">
-      <lem wit=""></lem>
-      <rdg wit=""></rdg>
-      <note></note>
+   <app from="#app4210580501" to="#app4210580501e">
+      <lem wit="#土本 #近本 #九本 #壬本 #京博本 #慶長本 #梵本">広</lem>
+      <note>鈴鹿本朱補書「<seg style="color:red">各</seg>」</note>
+      <note>筑波寛文本朱補書「<seg style="color:red">各</seg>」</note>
+      <note place="傍">享保版本朱傍書「<seg style="color:red">各〈一本〉</seg>」</note>
+      <note>広　鈴鹿本・筑波寛文本この下に朱挿入符を付し、朱傍書「各」。享保版本朱傍書「各〈一本〉」。</note>
    </app>
-   <app from="#" to="#e">
-      <lem wit=""></lem>
-      <rdg wit=""></rdg>
-      <note></note>
+   <app from="#app4210580502" to="#app4210580502e">
+      <lem wit="#土本 #近本補書 #九本 #壬本 #京博本 #慶長本 #梵本">溝</lem>
+      <note>溝　近本脱、傍書・挿入符により補入。</note>
    </app>
-   <app from="#" to="#e">
-      <lem wit=""></lem>
-      <rdg wit=""></rdg>
-      <note></note>
+   <app from="#app4210580503" to="#app4210580503e">
+      <lem wit="#九本 #鈴鹿本朱傍書 #筑波寛文本朱傍書 #享保版本朱傍書 #雲本">各</lem>
+      <rdg wit="#土本 #近本 #壬本 #京博本 #慶長本 #梵本 #慶安版本 #鈴鹿本 #明暦版本 #寛文版本 #筑波寛文本 #享保版本"/>
+      <note place="傍">鈴鹿本朱傍書「<seg style="color:red">各</seg>」</note>
+      <note place="傍">筑波寛文本朱傍書「<seg style="color:red">各</seg>」</note>
+      <note place="傍">享保版本朱傍書「<seg style="color:red">各〈一本〉</seg>」</note>
+      <note>各　土本・近本・壬本・京博本・慶長本・梵本・版本無し。鈴鹿本・筑波寛文本は朱挿入符を付し、朱傍書「各」。享保版本朱傍書「各〈一本〉」。九本・鈴鹿本朱傍書・筑波寛文本朱傍書・享保版本朱傍書・雲本により補う。</note>
    </app>
-   <app from="#" to="#e">
-      <lem wit=""></lem>
-      <rdg wit=""></rdg>
-      <note></note>
+   <app from="#app4210580504" to="#app4210580504e">
+      <note>溝　九本は前の行から改行せず。</note>
    </app>
-   <app from="#" to="#e">
-      <lem wit=""></lem>
-      <rdg wit=""></rdg>
-      <note></note>
+   <app from="#app4210580505" to="#app4210580505e">
+      <note>両　九本は前の行から改行せず。</note>
    </app>
 <p ana="項" corresp="engishiki_v42-1_en.xml#item42105806 engishiki_v42-1_ja.xml#item42105806" xml:id="item42105806"> 宮城東西大路、<anchor xml:id="app4210580601"/>広<anchor xml:id="app4210580601e"/>十二丈、 <lb/><s rendition="#indent">自宮<anchor xml:id="app4210580602"/>城<anchor xml:id="app4210580602e"/>垣半至<anchor xml:id="app4210580603"/>隍<anchor xml:id="app4210580603e"/>外<anchor xml:id="app4210580604"/>畔<anchor xml:id="app4210580604e"/>、三丈八尺、</s>
-<lb/><s rendition="#indent"><anchor xml:id="app4210580605"/>自傍町垣半<anchor xml:id="app4210580605e"/>至溝外<anchor xml:id="app4210580606"/>畔<anchor xml:id="app4210580606e"/>、一丈二尺<anchor xml:id="app4210580607"/><anchor xml:id="app4210580607e"/>、</s>
-<lb/><s rendition="#indent"><anchor xml:id="app4210580608"/><anchor xml:id="app4210580608e"/>隍<anchor xml:id="app4210580609"/>溝間七<anchor xml:id="app4210580609e"/>丈<anchor xml:id="app4210580610"/><anchor xml:id="app4210580610e"/>、</s>
+   <lb/><s rendition="#indent"><anchor xml:id="app4210580605"/>自<anchor xml:id="app4210580605e"/>傍町垣半<anchor xml:id="app4210580606"/>至<anchor xml:id="app4210580606e"/>溝外<anchor xml:id="app4210580607"/>畔<anchor xml:id="app4210580607e"/>、一丈二尺、</s>
+   <lb/><s rendition="#indent"><anchor xml:id="app4210580608"/>隍溝<anchor xml:id="app4210580608e"/>間七<anchor xml:id="app4210580609"/>丈<anchor xml:id="app4210580609e"/>、</s>
 </p>
-   <app from="#" to="#e">
-      <lem wit=""></lem>
-      <rdg wit=""></rdg>
-      <note></note>
+   <app from="#app4210580601" to="#app4210580601e">
+      <lem wit="#九本 #壬本 #京博本 #慶長本 #梵本">広</lem>
+      <rdg wit="#土本 #近本">度</rdg>
+      <note>広　土本・近本「度」。九本・壬本・京博本・慶長本・梵本により改める。</note>
    </app>
-   <app from="#" to="#e">
-      <lem wit=""></lem>
-      <rdg wit=""></rdg>
-      <note></note>
+   <app from="#app4210580602" to="#app4210580602e">
+      <lem wit="#九本">城</lem>
+      <rdg wit="#土本 #近本 #壬本 #京博本 #慶長本 #梵本"/>
+      <note>城　土本・近本・壬本・京博本・慶長本・梵本無し。九本により補う。</note>
    </app>
-   <app from="#" to="#e">
-      <lem wit=""></lem>
-      <rdg wit=""></rdg>
-      <note></note>
+   <app from="#app4210580603" to="#app4210580603e">
+      <lem wit="#土本 #近本 #壬本 #京博本 #慶長本 #梵本">隍</lem>
+      <rdg wit="#九本">湟</rdg>
    </app>
-   <app from="#" to="#e">
-      <lem wit=""></lem>
-      <rdg wit=""></rdg>
-      <note></note>
+   <app from="#app4210580604" to="#app4210580604e">
+      <lem wit="#土本 #九本 #近本 #壬本 #京博本 #慶長本 #梵本">畔</lem>
+      <note place="傍">九本右下墨傍書「町」</note>
+      <note place="傍">筑波寛文本朱傍書「<seg style="color;red">各</seg>」</note>
+      <note place="傍">享保版本朱傍書「<seg style="color:red">各〈一本〉</seg>」</note>
+      <note>畔　九本は右下に墨傍書「町」。筑波寛文本はこの下朱挿入符を付し、朱傍書「各」。享保版本朱傍書「各〈一本〉」。</note>
    </app>
-   <app from="#" to="#e">
-      <lem wit=""></lem>
-      <rdg wit=""></rdg>
-      <note></note>
+   <app from="#app4210580605" to="#app4210580605e">
+      <note>自　九本は前の行から改行せず。</note>
    </app>
-   <app from="#" to="#e">
-      <lem wit=""></lem>
-      <rdg wit=""></rdg>
-      <note></note>
+   <app from="#app4210580606" to="#app4210580606e">
+      <note>至　九本改行。</note>
    </app>
-   <app from="#" to="#e">
-      <lem wit=""></lem>
-      <rdg wit=""></rdg>
-      <note></note>
+   <app from="#app4210580607" to="#app4210580607e">
+      <lem wit="#土本 #九本 #近本 #壬本 #京博本 #慶長本 #梵本">畔</lem>
+      <note place="傍">九本墨傍書「町」</note>
+      <note place="傍">鈴鹿本朱傍書「<seg style="color:red">各</seg>」</note>
+      <note place="傍">筑波寛文本朱傍書「<seg style="color:red">各</seg>」</note>
+      <note place="傍">享保版本朱傍書「<seg style="color:red">各〈一本〉</seg>」</note>
+      <note>畔　九本は右下に墨傍書「町」。鈴鹿本・筑波寛文本は下に朱挿入符を付して朱傍書「各」。享保版本朱傍書「各〈一本〉」。</note>
    </app>
-   <app from="#" to="#e">
-      <lem wit=""></lem>
-      <rdg wit=""></rdg>
-      <note></note>
+   <app from="#app4210580608" to="#app4210580608e">
+      <lem wit="#土本 #近本 #壬本 #京博本 #慶長本 #梵本">隍</lem>
+      <rdg wit="#九本">湟</rdg>
+      <note>隍溝　九本前行の「至」以下から改行せずに続ける。</note>
    </app>
-   <app from="#" to="#e">
-      <lem wit=""></lem>
-      <rdg wit=""></rdg>
-      <note></note>
-   </app>
-   <app from="#" to="#e">
-      <lem wit=""></lem>
-      <rdg wit=""></rdg>
-      <note></note>
+   <app from="#app4210580609" to="#app4210580609e">
+      <lem wit="#土本 #近本 #九本 #壬本 #京博本 #慶長本 #梵本">丈</lem>
+      <note place="傍">京博本墨傍書「尺イ」</note>
    </app>
 <p ana="項" corresp="engishiki_v42-1_en.xml#item42105807 engishiki_v42-1_ja.xml#item42105807" xml:id="item42105807"> 大路広<anchor xml:id="app4210580701"/>各<anchor xml:id="app4210580701e"/>八<anchor xml:id="app4210580702"/>丈<anchor xml:id="app4210580702e"/>、 <lb/><s rendition="#indent">自垣<anchor xml:id="app4210580703"/>半<anchor xml:id="app4210580703e"/>至溝辺、<anchor xml:id="app4210580704"/>各<anchor xml:id="app4210580704e"/>八尺〈垣基三尺、犬行五尺、〉</s>
-<lb/><s rendition="#indent"><anchor xml:id="app4210580705"/>溝広<anchor xml:id="app4210580705e"/>各<anchor xml:id="app4210580706"/>四尺<anchor xml:id="app4210580706e"/>、</s>
-<lb/><s rendition="#indent"><anchor xml:id="app4210580707"/>両溝間、五丈六尺<anchor xml:id="app4210580707e"/>、</s>
+   <lb/><s rendition="#indent"><anchor xml:id="app4210580705"/>溝<anchor xml:id="app4210580705e"/>広<anchor xml:id="app4210580706"/>各<anchor xml:id="app4210580706e"/>四尺、</s>
+   <lb/><s rendition="#indent"><anchor xml:id="app4210580707"/>両<anchor xml:id="app4210580707e"/>溝間、五丈六尺、</s>
 </p>
-   <app from="#" to="#e">
-      <lem wit=""></lem>
-      <rdg wit=""></rdg>
-      <note></note>
+   <app from="#app4210580701" to="#app4210580701e">
+      <lem wit="#土本 #近本 #壬本 #京博本 #慶長本 #梵本">各</lem>
+      <rdg wit="#九本抹消"/>
+      <note>各　九本見せ消ち。校異は衍字とし、雲本無し。訳注本は九本見せ消ちにより削除。</note>
    </app>
-   <app from="#" to="#e">
-      <lem wit=""></lem>
-      <rdg wit=""></rdg>
-      <note></note>
+   <app from="#app4210580702" to="#app4210580702e">
+      <lem wit="#土本 #近本 #壬本 #京博本 #慶長本 #梵本">丈</lem>
+      <rdg wit="#九本">丈<seg style="color:red">〈今案宮城以南東西畔垣基犬行溝広間等両溝間九丈六尺〉</seg></rdg>
+      <note style="傍">壬本墨傍書「尺イ」</note>
+      <note style="傍">京博本墨傍書「尺イ」</note>
+      <note>丈　九本はこの下に、「今案、宮城以南東西畔、垣基・犬行・溝広間等、両溝間九丈六尺、」との朱細字注。訳注本考異補注はこの朱細字注を、前行に付すべきものとする。壬本・京博本墨傍書「尺イ」。</note>
    </app>
-   <app from="#" to="#e">
-      <lem wit=""></lem>
-      <rdg wit=""></rdg>
-      <note></note>
+   <app from="#app4210580703" to="#app4210580703e">
+      <lem wit="土本 #近本 #壬本 #京博本 #慶長本 #梵本">半</lem>
+      <note>京博本朱傍書「外イ」</note>
    </app>
-   <app from="#" to="#e">
-      <lem wit=""></lem>
-      <rdg wit=""></rdg>
-      <note></note>
+   <app from="#app4210580704" to="#app4210580704e">
+      <lem wit="#九本 #鈴鹿本補書 #筑波寛文本補書 #享保版本朱傍書 #雲本">各</lem>
+      <rdg wit="#土本 #近本 #壬本 #京博本 #慶長本 #梵本 #慶安版本 #鈴鹿本 #明暦版本 #寛文版本 #筑波寛文本 #享保版本"/>
+      <note>鈴鹿本朱補書「<seg style="color:red">各</seg>」</note>
+      <note>筑波寛文本朱補書「<seg style="color:red">各</seg>」</note>
+      <note place="傍">享保版本朱傍書「<seg style="color:red">各〈一本〉</seg>」</note>
+      <note>各　土本・近本・壬本・京博本・慶長本・梵本・版本無し。鈴鹿本・筑波寛文本は朱挿入符を付し、朱傍書「各」。享保版本朱傍書「各〈一本〉」。九本、鈴鹿本・筑波寛文本・享保版本朱傍書、雲本により補う。</note>
    </app>
-   <app from="#" to="#e">
-      <lem wit=""></lem>
-      <rdg wit=""></rdg>
-      <note></note>
+   <app from="#app4210580705" to="#app4210580705e">
+      <note>溝　九本は前の行から改行せず。</note>
    </app>
-   <app from="#" to="#e">
-      <lem wit=""></lem>
-      <rdg wit=""></rdg>
-      <note></note>
+   <app from="#app4210580706" to="#app4210580706e">
+      <lem wit="#九本 #鈴鹿本朱補書 #筑波寛文本朱補書 #享保版本朱傍書 #雲本">各</lem>
+      <rdg wit="#土本 #近本 #壬本 #京博本 #慶長本 #梵本 #慶安版本 #鈴鹿本 #明暦版本 #寛文版本 #筑波寛文本 #享保版本"/>
+      <note>鈴鹿本朱補書「<seg style="color:red">各</seg>」</note>
+      <note>筑波寛文本朱補書「<seg style="color:red">各</seg>」</note>
+      <note place="傍">享保版本朱傍書「<seg style="color:red">各〈一本〉</seg>」</note>
+      <note>各　土本・近本・壬本・京博本・慶長本・梵本・版本無し。鈴鹿本・筑波寛文本は朱挿入を付し、朱傍書「各」。享保版本朱傍書「各〈一本〉」。九本、鈴鹿本・筑波寛文本・享保版本朱傍書、雲本により補う。</note>
    </app>
-   <app from="#" to="#e">
-      <lem wit=""></lem>
-      <rdg wit=""></rdg>
-      <note></note>
+   <app from="#app4210580707" to="#app4210580707e">
+     <note>両　九本は前の行から改行せず。</note>
    </app>
 <p ana="項" corresp="engishiki_v42-1_en.xml#item42105808 engishiki_v42-1_ja.xml#item42105808" xml:id="item42105808"> 小<anchor xml:id="app4210580801"/>広<anchor xml:id="app4210580801e"/>路四<anchor xml:id="app4210580802"/>丈<anchor xml:id="app4210580802e"/>、 <lb/><s rendition="#indent">自垣半至溝辺、<anchor xml:id="app4210580803"/>各<anchor xml:id="app4210580803e"/>五尺五寸〈垣基二尺五寸、犬行<anchor xml:id="app4210580804"/>三<anchor xml:id="app4210580804e"/>尺、〉</s>
-<lb/><s rendition="#indent"><anchor xml:id="app4210580805"/>溝広<anchor xml:id="app4210580805e"/>各<anchor xml:id="app4210580806"/>三尺<anchor xml:id="app4210580806e"/>、</s>
+   <lb/><s rendition="#indent"><anchor xml:id="app4210580805"/>溝<anchor xml:id="app4210580805e"/>広<anchor xml:id="app4210580806"/>各<anchor xml:id="app4210580806e"/>三尺、</s>
 <lb/><s rendition="#indent">両溝間、二丈三尺、</s>
 </p>
-   <app from="#" to="#e">
-      <lem wit=""></lem>
-      <rdg wit=""></rdg>
-      <note></note>
+   <app from="#app4210580801" to="#app4210580801e">
+      <lem wit="#土本 #近本 #九本 #壬本 #京博本 #慶長本 #梵本">広</lem>
+      <rdg wit="#鈴鹿本補入 #筑波寛文本補入">広各</rdg>
+      <note place="傍">鈴鹿本朱傍書「<seg style="color:red">各</seg>」</note>
+      <note place="傍">筑波寛文本朱傍書「<seg style="color:red">各</seg>」</note>
+      <note place="傍">享保版本朱傍書「<seg style="color:red">各〈一本〉</seg>」</note>
+      <note>広　鈴鹿本・筑波寛文本この下に朱挿入符を付し、朱傍書「各」。享保版本朱傍書「各〈一本〉」。</note>
    </app>
-   <app from="#" to="#e">
-      <lem wit=""></lem>
-      <rdg wit=""></rdg>
-      <note></note>
+   <app from="#app4210580802" to="#app4210580802e">
+      <lem wit="#土本 #近本 #壬本 #京博本 #慶長本 #梵本">丈</lem>
+      <rdg wit="#九本">大</rdg>
    </app>
-   <app from="#" to="#e">
-      <lem wit=""></lem>
-      <rdg wit=""></rdg>
-      <note></note>
+   <app from="#app4210580803" to="#app4210580803e">
+      <lem wit="#九本 #鈴鹿本補入 #筑波寛文本補入 #享保版本朱傍書 #雲本">各</lem>
+      <rdg wit="#土本 #近本 #壬本 #京博本 #慶長本 #梵本 #慶安版本 #鈴鹿本 #明暦版本 #寛文版本 #筑波寛文本 #享保版本"/>
+      <note place="傍">鈴鹿本朱傍書「<seg style="color:red">各</seg>」</note>
+      <note place="傍">筑波寛文本朱傍書「<seg style="color:red">各</seg>」</note>
+      <note place="傍">享保版本朱傍書「<seg style="color:red">各〈一本〉</seg>」</note>
+      <note>各　土本・近本・壬本・京博本・慶長本・梵本・版本無し。鈴鹿本・筑波寛文本は朱挿入符を付し、朱傍書「各」。享保版本朱傍書「各〈一本〉」。九本、鈴鹿本・筑波寛文本・享保版本朱傍書、雲本により補う。</note>
    </app>
-   <app from="#" to="#e">
-      <lem wit=""></lem>
-      <rdg wit=""></rdg>
-      <note></note>
+   <app from="#app4210580804" to="#app4210580804e">
+      <lem wit="#土本 #九本 #壬本 #京博本 #慶長本 #梵本">三</lem>
+      <rdg wit="#近本">二</rdg>
    </app>
-   <app from="#" to="#e">
-      <lem wit=""></lem>
-      <rdg wit=""></rdg>
-      <note></note>
+   <app from="#app4210580805" to="#app4210580805e">
+      <note>溝　九本は前の行から改行せず。</note>
    </app>
-   <app from="#" to="#e">
-      <lem wit=""></lem>
-      <rdg wit=""></rdg>
-      <note></note>
+   <app from="#app4210580806" to="#app4210580806e">
+      <lem wit="#九本 #鈴鹿本補書 #筑波寛文本補書 #享保版本朱傍書 #雲本">各</lem>
+      <rdg wit="#土本 #近本 #壬本 #京博本 #慶長本 #梵本 #慶安版本 #鈴鹿本 #明暦版本 #寛文版本 #筑波寛文本 #享保版本"/>
+      <note>鈴鹿本朱補書「<seg style="color:red">各</seg>」</note>
+      <note>筑波寛文本朱補書「<seg style="color:red">各</seg>」</note>
+      <note place="傍">享保版本朱傍書「<seg style="color:red">各〈一本〉</seg>」</note>
+      <note>各　土本・近本・壬本・京博本・慶長本・梵本・版本無し。鈴鹿本・筑波寛文本は朱挿入符を付し、朱傍書「各」。享保版本朱傍書「各〈一本〉」。九本、鈴鹿本・筑波寛文本・享保版本朱傍書、雲本により補う。</note>
    </app>
 <p ana="項" corresp="engishiki_v42-1_en.xml#item42105809 engishiki_v42-1_ja.xml#item42105809" xml:id="item42105809"> 宮城四面、自垣半至<anchor xml:id="app4210580901"/>隍<anchor xml:id="app4210580901e"/>辺、三丈〈<anchor xml:id="app4210580902"/>垣<anchor xml:id="app4210580902e"/><anchor xml:id="app4210580903"/>基<anchor xml:id="app4210580903e"/>三尺五寸、壖<anchor xml:id="app4210580904"/>地<anchor xml:id="app4210580904e"/><anchor xml:id="app4210580905"/>広<anchor xml:id="app4210580905e"/>二丈六尺五寸、〉 </p>
-   <app from="#" to="#e">
-      <lem wit=""></lem>
-      <rdg wit=""></rdg>
-      <note></note>
+   <app from="#app4210580901" to="#app4210580901e">
+      <lem wit="#土本 #近本 #壬本 #京博本 #慶長本 #梵本">隍</lem>
+      <rdg wit="#九本">湟</rdg>
    </app>
-   <app from="#" to="#e">
-      <lem wit=""></lem>
-      <rdg wit=""></rdg>
-      <note></note>
+   <app from="#app4210580902" to="#app4210580902e">
+      <lem wit="#土本 #近本 #九本 #壬本 #京博本 #慶長本 #梵本">垣</lem>
+      <rdg wit="#鈴鹿本補入 #筑波寛文本補入">宮垣</rdg>
+      <note place="傍">鈴鹿本朱傍書「<seg style="color:red">宮</seg>」</note>
+      <note place="傍">筑波寛文本朱傍書「<seg style="color:red">宮</seg>」</note>
+      <note place="傍">享保版本朱傍書「<seg style="color:red">〈イ〉宮〈一本〉</seg>」</note>
+      <note>垣　鈴鹿本・筑波寛文本この上に朱挿入符を付し、朱傍書「宮」。享保版本この上に朱挿入符を付し、朱傍書「〈イ〉宮〈一本〉」。</note>
    </app>
-   <app from="#" to="#e">
-      <lem wit=""></lem>
-      <rdg wit=""></rdg>
-      <note></note>
+   <app from="#app4210580903" to="#app4210580903e">
+      <lem wit="#土本 #九本 #近本 #壬本 #京博本 #慶長本 #梵本">基</lem>
+      <note>鈴鹿本朱補書「<seg style="color:red">半</seg>」</note>
+      <note>筑波寛文本朱補書「<seg style="color:red">半〈一本〉</seg>」</note>
+      <note>享保版本朱補書「<seg style="color:red">イ半〈一本〉</seg>」</note>
+      <note>基　鈴鹿本・筑波寛文本この下に朱挿入符を付し、鈴鹿本朱傍書「半」、筑波寛文本朱傍書「半〈一本〉」。享保版本この下に朱挿入符を付し、朱傍書「イ半〈一本〉」。</note>
    </app>
-   <app from="#" to="#e">
-      <lem wit=""></lem>
-      <rdg wit=""></rdg>
-      <note></note>
+   <app from="#app4210580904" to="#app4210580904e">
+      <lem wit="#土本 #近本 #九本 #壬本 #京博本補書 #慶長本 #梵本">地</lem>
+      <note>地　京博本脱、墨挿入符・傍書により補入。</note>
    </app>
-   <app from="#" to="#e">
-      <lem wit=""></lem>
-      <rdg wit=""></rdg>
-      <note></note>
+   <app from="#app4210580905" to="#app4210580905e">
+      <lem wit="#土本 #近本 #九本 #京博本 #慶長本 #梵本">広</lem>
+      <rdg wit="#壬本"/>
    </app>
-<p ana="項" corresp="engishiki_v42-1_en.xml#item42105810 engishiki_v42-1_ja.xml#item42105810" xml:id="item42105810"> 宮城南大路、広十七丈〈宮<anchor xml:id="app4210581001"/>垣<anchor xml:id="app4210581001e"/>半三尺五寸、壖地広二<anchor xml:id="app4210581002"/>丈<anchor xml:id="app4210581002e"/>六尺五寸、〉 <lb/><s rendition="#indent"><anchor xml:id="app4210581003"/><anchor xml:id="app4210581003e"/>隍<anchor xml:id="app4210581004"/>広八尺、</s>
-<lb/><s rendition="#indent">南垣半三尺、</s>
-<lb/><s rendition="#indent">犬行五尺、</s>
-<lb/><s rendition="#indent">溝広四尺、</s>
-<lb/><s rendition="#indent"><anchor xml:id="app4210581004e"/>隍<anchor xml:id="app4210581005"/>溝間十二<anchor xml:id="app4210581005e"/>丈<anchor xml:id="app4210581006"/><anchor xml:id="app4210581006e"/>、</s>
+   <p ana="項" corresp="engishiki_v42-1_en.xml#item42105810 engishiki_v42-1_ja.xml#item42105810" xml:id="item42105810"> 宮城南大路、広十七丈〈宮<anchor xml:id="app4210581001"/>垣<anchor xml:id="app4210581001e"/>半三尺五寸、壖地広二<anchor xml:id="app4210581002"/>丈<anchor xml:id="app4210581002e"/>六尺五寸、〉 <lb/><s rendition="#indent"><anchor xml:id="app4210581003"/>隍広八尺<anchor xml:id="app4210581003e"/>、</s>
+      <lb/><s rendition="#indent"><anchor xml:id="app4210581004"/>南垣半三尺<anchor xml:id="app4210581004e"/>、</s>
+      <lb/><s rendition="#indent"><anchor xml:id="app4210581005"/>犬行五尺<anchor xml:id="app4210581005e"/>、</s>
+      <lb/><s rendition="#indent"><anchor xml:id="app4210581006"/>溝広四尺<anchor xml:id="app4210581006e"/>、</s>
+      <lb/><s rendition="#indent"><anchor xml:id="app4210581007"/>隍溝間十二丈<anchor xml:id="app4210581007e"/>、</s>
 </p>
-   <app from="#" to="#e">
-      <lem wit=""></lem>
-      <rdg wit=""></rdg>
-      <note></note>
+   <app from="#app4210581001" to="#app4210581001e">
+      <lem wit="#土本 #近本 #九本 #壬本 #京博本 #慶長本 #梵本">垣</lem>
+      <note>鈴鹿本朱補書「<seg style="color:red">基</seg>」</note>
+      <note>筑波寛文本朱補書「<seg style="color:red">基〈一本〉</seg>」</note>
+      <note style="傍">享保版本朱傍書「<seg style="color:red">〈イ〉基〈一本〉</seg>」</note>
+      <note>垣　鈴鹿本・筑波寛文本この下に朱挿入符を付し、鈴鹿本朱傍書「基」、筑波寛文本朱傍書「基〈一本〉」。享保版本朱傍書「〈イ〉基〈一本〉」。</note>
    </app>
-   <app from="#" to="#e">
-      <lem wit=""></lem>
-      <rdg wit=""></rdg>
-      <note></note>
+   <app from="#app4210581002" to="#app421058100e">
+      <lem wit="#九本 #京博本朱傍書 #慶安版本 #鈴鹿本 #明暦版本 #寛文版本 #筑波寛文本 #享保版本 #雲本">丈</lem>
+      <rdg wit="#土本 #近本 #壬本 #京博本 #慶長本 #梵本"/>
+      <note place="傍">京博本朱傍書「<seg style="color:red">丈イ</seg>」</note>
+      <note>丈　土本・近本・壬本・京博本・慶長本・梵本無し。京博本は朱挿入符を付し朱傍書「丈イ」。九本・京博本朱傍書・版本・雲本により補う。</note>
    </app>
-   <app from="#" to="#e">
-      <lem wit=""></lem>
-      <rdg wit=""></rdg>
-      <note></note>
+   <app from="#app4210581003" to="#app4210581003e">
+      <lem wit="#土本 #近本 #壬本 #京博本 #慶長本 #梵本">隍広八尺</lem>
+      <rdg wit="#九本">〈湟広八尺〉</rdg>
+      <note>隍広八尺　九本は前行の双行注の一部として続け、「湟隍広八尺」とする。</note>
    </app>
-   <app from="#" to="#e">
-      <lem wit=""></lem>
-      <rdg wit=""></rdg>
-      <note></note>
+   <app from="#app4210581004" to="#app4210581004e">
+      <lem wit="#土本 #近本 #壬本 #京博本 #慶長本 #梵本">南垣半三尺</lem>
+      <rdg wit="#九本">〈南垣半三尺〉</rdg>
+      <note>南垣半三尺　九本は前行の双行注の一部として続ける。</note>
    </app>
-   <app from="#" to="#e">
-      <lem wit=""></lem>
-      <rdg wit=""></rdg>
-      <note></note>
+   <app from="#app4210581005" to="#app4210581005e">
+      <lem wit="#土本 #近本 #壬本 #京博本 #慶長本 #梵本">犬行五尺</lem>
+      <rdg wit="#九本">〈犬行五尺〉</rdg>
+      <note>犬行五尺　九本は前行の双行注の一部として続ける。</note>
    </app>
-   <app from="#" to="#e">
-      <lem wit=""></lem>
-      <rdg wit=""></rdg>
-      <note></note>
+   <app from="#app4210581006" to="#app4210581006e">
+      <lem wit="#土本 #近本 #壬本 #京博本 #慶長本 #梵本">溝広四尺</lem>
+      <rdg wit="#九本">〈溝広四尺〉</rdg>
+      <note>溝広四尺　九本は前行の双行注の一部として続ける。</note>
+   </app>
+   <app from="#app4210581007" to="#app4210581007e">
+      <lem wit="#土本 #近本 #壬本 #京博本 #慶長本 #梵本">隍溝間十二丈</lem>
+      <rdg wit="#九本">〈湟溝間十二丈〉</rdg>
+      <note>隍溝間十二丈　九本は前行の双行注の一部として続ける。さらにこの次の行に、「今案、傍町無壖地及湟、然則垣基・犬行・溝広南北等同、両溝間十四丈六尺、」との朱細字注。更にその後、紙継ぎ目を挟んで、「左京図」「宮城図」「内裏図」「八省院図」「豊楽院図」「右京図」を掲示。</note>
    </app>
 </div>
 <div ana="左右京" corresp="engishiki_v42-1_en.xml#article421059 engishiki_v42-1_ja.xml#article421059" n="42-1.59" subtype="項" type="条" xml:id="article421059">
 <head ana="町内小径"/>
 <p ana="項" corresp="engishiki_v42-1_en.xml#item42105901 engishiki_v42-1_ja.xml#item42105901" xml:id="item42105901"> <anchor xml:id="app4210590101"/>凡<anchor xml:id="app4210590101e"/>町内開小径者、大路辺町二〈広一丈五尺、〉市人町三〈広一丈、〉自余町一〈広一丈五尺、〉 </p>
-   <app from="#" to="#e">
-      <lem wit=""></lem>
-      <rdg wit=""></rdg>
-      <note></note>
+   <app from="#app4210590101" to="#app4210590101e">
+      <note>凡…五尺　九本は本条無し。</note>
    </app>
 </div>
 <div ana="左右京" corresp="engishiki_v42-1_en.xml#article421060 engishiki_v42-1_ja.xml#article421060" n="42-1.60" subtype="項" type="条" xml:id="article421060">
 <head ana="築垣功程"/>
 <p ana="項" corresp="engishiki_v42-1_en.xml#item42106001 engishiki_v42-1_ja.xml#item42106001" xml:id="item42106001"> <anchor xml:id="app4210600101"/>凡<anchor xml:id="app4210600101e"/>築垣功程、牓<anchor xml:id="app4210600102"/>示<anchor xml:id="app4210600102e"/>条坊、莫令違越〈其法、見<orgName corresp="#木工寮">木工</orgName>式、〉 </p>
-   <app from="#" to="#e">
-      <lem wit=""></lem>
-      <rdg wit=""></rdg>
-      <note></note>
+   <app from="#app4210600101" to="#app4210600101e">
+      <note>凡…式　九本は本条無し。</note>
    </app>
-   <app from="#" to="#e">
-      <lem wit=""></lem>
-      <rdg wit=""></rdg>
-      <note></note>
+   <app from="#app4210600102" to="#app4210600102e">
+      <lem wit="#土本 #近本 #壬本 #京博本 #慶長本 #梵本">示</lem>
+      <rdg wit="#慶安版本 #鈴鹿本 #明暦版本 #寛文版本 #筑波寛文本 #享保版本">尓</rdg>
+      <note place="傍">鈴鹿本朱傍書「<seg style="color:red">示</seg>」</note>
+      <note place="傍">筑波寛文本朱傍書「<seg style="color:red">示</seg>」</note>
+      <note place="傍">享保版本朱傍書「<seg style="color:red">示〈一本〉</seg>」</note>
+      <note>示　版本「尓」。鈴鹿本・筑波寛文本朱傍書「示」。享保版本朱傍書「示〈一本〉」。※「尓」→「爾（尓）」？
+      </note>
    </app>
 </div>
 </div>
