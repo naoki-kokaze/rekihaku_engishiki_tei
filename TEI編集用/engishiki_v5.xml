@@ -54,28 +54,29 @@
       <witness xml:id="条本">
        <abbr> 条本 </abbr> ：一条家旧蔵巻子本（巻1～3は無窮会専門図書館所蔵模写本、巻4・5は神宮司庁刊影印本） </witness>
       <witness xml:id="花本">
-       <abbr> 花本 </abbr> ：花山院家・武田祐吉旧蔵本（神宮皇学館刊影印本による） </witness>
+       <abbr> 花本 </abbr> ：武田祐吉旧蔵花山院通雅筆本（神宮皇学館刊影印本による） </witness>
       <witness xml:id="九冊本">
        <abbr> 九冊本 </abbr> ：國學院大學所蔵九条家・西田長男旧蔵冊子本（巻5は西田長男刊影印本による） </witness>
       <witness xml:id="永本">
-       <abbr> 永本 </abbr> ：巻8は國學院大學図書館所蔵（091.2/322.135/1）、巻9・10は現蔵不明(神宮文庫所蔵写真帳1門16974） </witness>
+       <abbr> 永本 </abbr>
+       ：國學院大學図書館所蔵卜部兼永筆本（巻8、091.2/322.135/1）、鈴鹿義鯨旧蔵卜部兼永筆本（巻9・10、現蔵不明、神宮文庫写真帳1門16974を閲覧） </witness>
       <witness xml:id="右本">
        <abbr> 右本 </abbr> ：巻8は國學院大學図書館所蔵（貴62） </witness>
       <witness xml:id="吉本">
-       <abbr> 吉本 </abbr> ：天理大学附属天理図書館所蔵吉田家旧蔵本巻9・10（328.1-ｲ17(Ⅲ1219)） </witness>
+       <abbr> 吉本 </abbr> ：天理大学附属天理図書館所蔵吉田家旧蔵本巻9・10（328.1-ｲ17（『天理図書館稀書目録　和漢書之部　第三』1219） </witness>
       <witness xml:id="三条本">
        <abbr> 三条本 </abbr> ：天理大学附属天理図書館所蔵三条家旧蔵本（328.1-ｲ11(Ⅲ1218)） </witness>
       <witness xml:id="西本">
        <abbr> 西本 </abbr>
-       ：巻9・10は國學院大學図書館所蔵（貴107～108）。巻50は国立歴史民俗博物館所蔵（H-1588）。抄出本は國學院大學所蔵（木村大樹「〔西田長男旧蔵〕三条西実隆筆『延喜式』(抄)の翻刻・紹介」『國學院大學研究開発推進機構紀要』14、2022年） </witness>
+       ：國學院大學図書館所蔵三条西家旧蔵本（巻9・10、貴107～108）、国立歴史民俗博物館所蔵三条西家旧蔵本（巻50、H-1588）。抄出本は國學院大學所蔵（木村大樹「〔西田長男旧蔵〕三条西実隆筆『延喜式』(抄)の翻刻・紹介」『國學院大學研究開発推進機構紀要』14、2022年） </witness>
       <witness xml:id="時慶本">
        <abbr> 時慶本 </abbr> ：静嘉堂文庫所蔵西洞院時慶写本（延喜格式表18352、延喜式序18353） </witness>
+      <witness xml:id="藤波本">
+       <abbr> 藤波本 </abbr> ：宮内庁書陵部図書寮文庫所蔵藤波家旧蔵本（217-473） </witness>
       <witness xml:id="島原本">
        <abbr> 島原本 </abbr> ：東京大学史料編纂所所蔵松平忠房・和学講談所・水野忠央旧蔵本（貴45-2） </witness>
-      <witness xml:id="藤波本">
-       <abbr> 藤波本 </abbr> ：宮内庁書陵部図書寮文庫所蔵藤波家旧蔵本（217 -473） </witness>
       <witness xml:id="貞享本">
-       <abbr> 貞享本 </abbr> ：宮内庁書陵部図書寮文庫所蔵和学講談所旧蔵坊城俊方貞享本（457-116） </witness>
+       <abbr> 貞享本 </abbr> ：宮内庁書陵部図書寮文庫所蔵和学講談所旧蔵坊城俊方貞享五年写本（457-116） </witness>
       <witness xml:id="玄梁本">
        <abbr> 玄梁本 </abbr> ：無窮会専門図書館所蔵神習文庫玄梁記名本（神習3666） </witness>
       <witness xml:id="尾張本">
@@ -159,9 +160,18 @@
     <rendition xml:id="indent3"> margin-top: 3em; </rendition>
     <rendition xml:id="indent4"> margin-top: 4em; </rendition>
     <rendition xml:id="indent5"> margin-top: 5em; </rendition>
+    <rendition xml:id="indent6"> margin-top: 6em; </rendition>
+    <rendition xml:id="indent7"> margin-top: 7em; </rendition>
+    <rendition xml:id="indent10"> margin-top: 10em; </rendition>
+    <rendition xml:id="indent12"> margin-top: 12em; </rendition>
+    <rendition xml:id="indent13"> margin-top: 13em; </rendition>
+    <rendition xml:id="indent14"> margin-top: 14em; </rendition>
+    <rendition xml:id="indent18"> margin-top: 18em; </rendition>
     <rendition xml:id="width50"> width: 50px; </rendition>
     <rendition xml:id="width80"> width: 80px; </rendition>
     <rendition xml:id="width100"> width: 100px; </rendition>
+    <rendition xml:id="width150"> width: 150px; </rendition>
+    <rendition xml:id="width170"> width: 170px; </rendition>
     <rendition xml:id="width200"> width: 200px; </rendition>
     <rendition xml:id="width300"> width: 300px; </rendition>
    </tagsDecl>
@@ -233,10 +243,14 @@
        <cell rendition="#width300"> 例）閉【門⊃オ】、国【囗⊃玉】 </cell>
       </row>
       <row>
-       <cell/>
+       <cell rendition="#width100"> 【（Ａ/Ｂ）+Ｃ】、【Ａ/（Ｂ⊃Ｃ）】 </cell>
+       <cell rendition="#width300"> ＝字画が三つ以上、かつ異なる方法で字画が組み合う </cell>
+       <cell rendition="#width300"> 例）雑【（九/木）+隹】、懸【（県+系）/心】、薗【艹/（口⊃袁）】 </cell>
       </row>
       <row>
        <cell/>
+       <cell/>
+       <cell> （班【王+リ+王】、窓【宀/公/心】はすべての字画が一つの方法で組み合うため、（　）なし。） </cell>
       </row>
      </table>
      <table>
@@ -327,6 +341,27 @@
        <cell rendition="#width100"> 支子染深色 </cell>
        <cell rendition="#width50"> 68 </cell>
        <cell rendition="#width100"> 支子染色 </cell>
+      </row>
+      <row>
+       <cell rendition="#width100"> 422東西市 </cell>
+       <cell rendition="#width50"> 1 </cell>
+       <cell rendition="#width100"> 毎鄽立牓 </cell>
+       <cell rendition="#width50"> 1 </cell>
+       <cell rendition="#width100"> 毎厘立牓 </cell>
+      </row>
+      <row>
+       <cell rendition="#width100"> 422東西市 </cell>
+       <cell rendition="#width50"> 14 </cell>
+       <cell rendition="#width100"> 東鄽 </cell>
+       <cell rendition="#width50"> 14 </cell>
+       <cell rendition="#width100"> 東厘 </cell>
+      </row>
+      <row>
+       <cell rendition="#width100"> 422東西市 </cell>
+       <cell rendition="#width50"> 15 </cell>
+       <cell rendition="#width100"> 西鄽 </cell>
+       <cell rendition="#width50"> 15 </cell>
+       <cell rendition="#width100"> 西厘 </cell>
       </row>
      </table>
     </p>
@@ -448,8 +483,8 @@
      <date> 2024年8月23日 </date> 第37野宮年料供物条第6項、「坩」の校異注解説欄「21」を「匕四枚銀」に改めました。 </change>
     <change when="2024-08-23">
      <date> 2024年8月23日 </date> 第98納印条において、校異注で言及する写本・版本を凡例にあわせ修正しました。 </change>
-    <change when="2025-06-17"
-     ><date>2025年6月17日</date>第62三時祭禊料条第2項において、表示されていなかった「各」字を表示されるように改めました。</change>
+    <change when="2025-06-17">
+     <date> 2025年6月17日 </date> 第62三時祭禊料条第2項において、表示されていなかった「各」字を表示されるように改めました。 </change>
    </listChange>
   </revisionDesc>
  </teiHeader>
@@ -459,7 +494,7 @@
     <pb
      facs="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-5%2F00002.tif/full/full/0/default.jpg"/>
     <div type="首題" xml:id="shudai05">
-     <p xml:id="shudai0501"> 延喜式巻第五〈<orgName corresp="#神祇官">神祇</orgName>五〉 </p>
+     <p xml:id="shudai0501"> 延喜式巻第五〈 <orgName corresp="#神祇官"> 神祇 </orgName> 五〉 </p>
     </div>
     <div ana="斎宮" n="5" subtype="条" type="式">
      <div type="式題" xml:id="shikidai051">
@@ -468,9 +503,9 @@
      <div ana="斎宮" n="5.1" subtype="項" type="条">
       <head ana="定斎王"/>
       <p ana="項" corresp="engishiki_v5_ja.xml#item05100101 engishiki_v5_en.xml#item05100101"
-       xml:id="item05100101"> 凡天皇即位者、定伊勢大神宮斎王、仍簡内親王未嫁者卜之、〈若無内親王者、依世次、簡定女王卜之、〉訖即遣勅使於彼家、 告示事由、<orgName
-        corresp="#神祇官">神祇</orgName>祐已上一人、率僚下随勅使共向、卜部解除、神部以木綿着賢木、立殿四面及内外門、〈賢木・木綿所司儲之、解除料散米・酒肴等本家儲之、〉
-       其後択日時、百官為大祓、〈同尋常二季儀、〉 </p>
+       xml:id="item05100101"> 凡天皇即位者、定伊勢大神宮斎王、仍簡内親王未嫁者卜之、〈若無内親王者、依世次、簡定女王卜之、〉訖即遣勅使於彼家、 告示事由、
+        <orgName corresp="#神祇官"> 神祇 </orgName>
+       祐已上一人、率僚下随勅使共向、卜部解除、神部以木綿着賢木、立殿四面及内外門、〈賢木・木綿所司儲之、解除料散米・酒肴等本家儲之、〉 其後択日時、百官為大祓、〈同尋常二季儀、〉 </p>
      </div>
      <pb
       facs="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-5%2F00003.tif/full/full/0/default.jpg"/>
@@ -536,18 +571,18 @@
       <p ana="項" corresp="engishiki_v5_ja.xml#item05100601 engishiki_v5_en.xml#item05100601"
        xml:id="item05100601">
        <anchor xml:id="app0510060101"/> 凡 <anchor xml:id="app0510060101e"/> 斎王将入于初斎院、臨河頭為祓、 <anchor
-        xml:id="app0510060104"/> 〈令<orgName corresp="#陰陽寮">陰陽寮</orgName>択定日時、入野宮・伊勢斎宮之時准此、〉 <anchor
-        xml:id="app0510060104e"/>
-       <anchor xml:id="app0510060102"/> 前禊 <anchor xml:id="app0510060102e"/> 二日、弁官率院別当已下并<orgName
-        corresp="#陰陽寮">陰陽寮</orgName>及諸司、 到河辺点定其地奏之、至于期日、斎王駕車赴向、走孺十二人、車副廿四人、取物十人、供膳韓櫃三合、同雑器物二荷、
+        xml:id="app0510060104"/> 〈令 <orgName corresp="#陰陽寮"> 陰陽寮 </orgName> 択定日時、入野宮・伊勢斎宮之時准此、〉
+        <anchor xml:id="app0510060104e"/>
+       <anchor xml:id="app0510060102"/> 前禊 <anchor xml:id="app0510060102e"/> 二日、弁官率院別当已下并 <orgName
+        corresp="#陰陽寮"> 陰陽寮 </orgName> 及諸司、 到河辺点定其地奏之、至于期日、斎王駕車赴向、走孺十二人、車副廿四人、取物十人、供膳韓櫃三合、同雑器物二荷、
        盥器韓櫃・装物韓櫃各一合、衣服韓櫃二合、禄物韓櫃六合、〈担夫並用衛士、〉膳部六人、舎人二人、荷領十四人、蔵人所陪従六人、
-        内侍及院女別当已下、並従車後、〈内侍已下蔵人已上乗私車、釆女・女孺已下乗<orgName corresp="#馬寮">馬寮</orgName>車、〉勅使参議一人、院別当一人、
-       四位二人、五位二人、六位四人、並前駆、左右近衛・左右兵衛各二人、左右門部各二人、左右火長各十人供奉、 <orgName corresp="#京職">左 <pb
+       内侍及院女別当已下、並従車後、〈内侍已下蔵人已上乗私車、釆女・女孺已下乗 <orgName corresp="#馬寮"> 馬寮 </orgName> 車、〉勅使参議一人、院別当一人、
+       四位二人、五位二人、六位四人、並前駆、左右近衛・左右兵衛各二人、左右門部各二人、左右火長各十人供奉、 <orgName corresp="#京職"> 左 <pb
          facs="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-5%2F00005.tif/full/full/0/default.jpg"
-        /> 右京職</orgName>官人、率兵士已上迎候、<placeName corresp="#山城国"
-       >山城</placeName>国司率郡司候京極路、弁一人、史一人、史生二人、官掌一人、 率供奉諸司就禊所行事、斎王到幕、臨流而禊、<orgName corresp="#神祇官"
-        >神祇官</orgName>中臣進麻、宮主読祓詞、訖即賜勅使已下饌并禄、〈弁官 <anchor xml:id="app0510060103"/> 録 <anchor
-        xml:id="app0510060103e"/> 見参、付院別当之、〉 既而廻帰入初斎院、即卜定供膳井立賢木、 </p>
+        /> 右京職 </orgName> 官人、率兵士已上迎候、 <placeName corresp="#山城国"> 山城 </placeName>
+       国司率郡司候京極路、弁一人、史一人、史生二人、官掌一人、 率供奉諸司就禊所行事、斎王到幕、臨流而禊、 <orgName corresp="#神祇官"> 神祇官 </orgName>
+       中臣進麻、宮主読祓詞、訖即賜勅使已下饌并禄、〈弁官 <anchor xml:id="app0510060103"/> 録 <anchor xml:id="app0510060103e"
+       /> 見参、付院別当之、〉 既而廻帰入初斎院、即卜定供膳井立賢木、 </p>
       <app from="#app0510060101" to="#app0510060101e">
        <lem wit="#土本 #条本"> 凡 </lem>
        <note place="首"> 九冊本朱首書「 <seg style="color:red"> 依御短冊准斎院式改作イニ </seg> 」 </note>
@@ -573,9 +608,9 @@
      <div ana="斎宮" n="5.7" subtype="項" type="条">
       <head ana="河頭祓料"/>
       <p ana="項" corresp="engishiki_v5_ja.xml#item05100701 engishiki_v5_en.xml#item05100701"
-       xml:id="item05100701"> 祓料 <lb/> 五色絁各二尺、<placeName corresp="#安芸国"
-       >安芸</placeName>木綿大三両、木綿大四両、麻大一斤、鍬四口、鉄人像二枚、荒服料調布一段、筥二合、酒・米 <anchor xml:id="app0510070101"/> 各
-        <anchor xml:id="app0510070101e"/> 一斗、鰒・堅魚各二斤、 海藻四斤、腊四斤、塩四升、水戸一口、坏・瓫各四口、柏四把、匏二柄、 <anchor
+       xml:id="item05100701"> 祓料 <lb/> 五色絁各二尺、 <placeName corresp="#安芸国"> 安芸 </placeName>
+       木綿大三両、木綿大四両、麻大一斤、鍬四口、鉄人像二枚、荒服料調布一段、筥二合、酒・米 <anchor xml:id="app0510070101"/> 各 <anchor
+        xml:id="app0510070101e"/> 一斗、鰒・堅魚各二斤、 海藻四斤、腊四斤、塩四升、水戸一口、坏・瓫各四口、柏四把、匏二柄、 <anchor
         xml:id="app0510070102"/> 蘗 <anchor xml:id="app0510070102e"/> 四枚、食薦二枚、輦籠一 <anchor
         xml:id="app0510070103"/> 腰 <anchor xml:id="app0510070103e"/> 、祝詞料庸布二段、短帖一枚、夫二人、朸二枚、 </p>
       <app from="#app0510070101" to="#app0510070101e">
@@ -603,9 +638,9 @@
      <div ana="斎宮" n="5.9" subtype="項" type="条">
       <head ana="初斎院大殿祭"/>
       <p ana="項" corresp="engishiki_v5_ja.xml#item05100901 engishiki_v5_en.xml#item05100901"
-       xml:id="item05100901"> 大殿祭〈野宮・伊勢斎宮准此〉 <lb/> 糸二両、<placeName corresp="#安芸国"
-       >安芸</placeName>木綿七両、米・酒各二升、𤭅一口、筥四合、小 <anchor xml:id="app0510090101"/> 杯 <anchor
-        xml:id="app0510090101e"/> 二口、案二脚、〈高三尺、〉給禄、中臣・忌部各絁二疋、宮主一疋、執案神部四人、各給調布一段、〈野宮給二人、〉 </p>
+       xml:id="item05100901"> 大殿祭〈野宮・伊勢斎宮准此〉 <lb/> 糸二両、 <placeName corresp="#安芸国"> 安芸 </placeName>
+       木綿七両、米・酒各二升、𤭅一口、筥四合、小 <anchor xml:id="app0510090101"/> 杯 <anchor xml:id="app0510090101e"/>
+       二口、案二脚、〈高三尺、〉給禄、中臣・忌部各絁二疋、宮主一疋、執案神部四人、各給調布一段、〈野宮給二人、〉 </p>
       <app from="#app0510090101" to="#app0510090101e">
        <lem wit="#土本 #条本"> 杯 </lem>
        <note> 杯　訳注本「坏」とする。 </note>
@@ -634,8 +669,8 @@
      <div ana="斎宮" n="5.12" subtype="項" type="条">
       <head ana="解除料"/>
       <p ana="項" corresp="engishiki_v5_ja.xml#item05101201 engishiki_v5_en.xml#item05101201"
-       xml:id="item05101201"> 晦日解除料〈野宮・斎宮准此、〉 <lb/> 庸布一丈四尺、御麻料<placeName corresp="#安芸国"
-        >安芸</placeName>木綿四両、麻八両、鉄人像二枚、鍬二口、酒二升、稲二束、鰒・堅魚・海藻各一斤、腊二升、塩一升一合、坩・坏各一口、 </p>
+       xml:id="item05101201"> 晦日解除料〈野宮・斎宮准此、〉 <lb/> 庸布一丈四尺、御麻料 <placeName corresp="#安芸国"> 安芸
+       </placeName> 木綿四両、麻八両、鉄人像二枚、鍬二口、酒二升、稲二束、鰒・堅魚・海藻各一斤、腊二升、塩一升一合、坩・坏各一口、 </p>
      </div>
      <div ana="斎宮" n="5.13" subtype="項" type="条">
       <head ana="臨時祓料"/>
@@ -727,7 +762,7 @@
        <pb
         facs="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-5%2F00009.tif/full/full/0/default.jpg"
        /> 五位、〈米二升、酒一升、東鰒・ <anchor xml:id="app0510160101"/>
-       <placeName corresp="#隠伎国">隠岐</placeName>
+       <placeName corresp="#隠伎国"> 隠岐 </placeName>
        <anchor xml:id="app0510160101e"/>
        鰒・烏賊各二両、鮨一両三分、鮭三分之一、海藻二両、塩五夕、醤一合、酢二夕、滓醤一合、〉中臣・忌部、〈米二升、酒六合、鮨三両二分、鮭三分之一、海藻二両、塩四夕、醤三夕、酢二夕、滓醤一合、〉
        大舎人・内女孺・宮女孺、〈米一升六合、酒・魚・塩類同中臣、〉宮舎人、〈米同大舎人、鮭六分之一、鮨三両二分、塩四夕、滓醤一合、海藻二両、〉諸伴部、〈米同宮舎人、鮨三両二分、塩四夕、海藻二両、滓醤一合、〉内舎人・宮主、〈米食本粮、余物同中臣、〉
@@ -798,11 +833,10 @@
      <div ana="斎宮" n="5.19" subtype="項" type="条">
       <head ana="野宮河頭禊"/>
       <p ana="項" corresp="engishiki_v5_ja.xml#item05101901 engishiki_v5_en.xml#item05101901"
-       xml:id="item05101901"> 斎王遷入野宮河頭禊 <lb/> 其日斎王駕輿、〈輿者、<orgName corresp="#主殿寮"
-       >主殿</orgName>官人率史生、前禊二日設候、〉輿長八人、駕輿丁卌人、駕馬女廿人、〈乳母二人、蔵人六人、釆女四人、童女四人、掃部二人、御厠二人、〉
-        勅使大納言・中納言各一人、参議二人、四位・五位各四人、禊事既畢、賜饌并禄、〈勅使已下五位已上、<orgName corresp="#内蔵寮"
-        >内蔵寮</orgName>饗之、六位已下<orgName corresp="#大膳職">大膳職</orgName>、〉 訖即廻帰、便留野宮更賜禄、〈自余之儀、大略同初度禊、〉
-      </p>
+       xml:id="item05101901"> 斎王遷入野宮河頭禊 <lb/> 其日斎王駕輿、〈輿者、 <orgName corresp="#主殿寮"> 主殿 </orgName>
+       官人率史生、前禊二日設候、〉輿長八人、駕輿丁卌人、駕馬女廿人、〈乳母二人、蔵人六人、釆女四人、童女四人、掃部二人、御厠二人、〉
+       勅使大納言・中納言各一人、参議二人、四位・五位各四人、禊事既畢、賜饌并禄、〈勅使已下五位已上、 <orgName corresp="#内蔵寮"> 内蔵寮 </orgName>
+       饗之、六位已下 <orgName corresp="#大膳職"> 大膳職 </orgName> 、〉 訖即廻帰、便留野宮更賜禄、〈自余之儀、大略同初度禊、〉 </p>
      </div>
      <div ana="斎宮" n="5.20" subtype="項" type="条">
       <head ana="野宮河頭禊祓料"/>
@@ -908,11 +942,11 @@
      <div ana="斎宮" n="5.25" subtype="項" type="条">
       <head ana="御贖料"/>
       <p ana="項" corresp="engishiki_v5_ja.xml#item05102501 engishiki_v5_en.xml#item05102501"
-       xml:id="item05102501"> 御贖料 <lb/> 五色薄絁各二尺、糸三両、倭文二尺、<placeName corresp="#安芸国"
-       >安芸</placeName>木綿一斤、凡木綿八両、麻六両、鍬四口、鉄人像二枚、庸布二段、布御服二領料布一 <anchor xml:id="app0510250101"/> 段
-        <anchor xml:id="app0510250101e"/> 、 裳二腰料布一 <anchor xml:id="app0510250102"/> 段 <anchor
+       xml:id="item05102501"> 御贖料 <lb/> 五色薄絁各二尺、糸三両、倭文二尺、 <placeName corresp="#安芸国"> 安芸 </placeName>
+       木綿一斤、凡木綿八両、麻六両、鍬四口、鉄人像二枚、庸布二段、布御服二領料布一 <anchor xml:id="app0510250101"/> 段 <anchor
+        xml:id="app0510250101e"/> 、 裳二腰料布一 <anchor xml:id="app0510250102"/> 段 <anchor
         xml:id="app0510250102e"/> 、被二帖料布二 <anchor xml:id="app0510250103"/> 段 <anchor
-        xml:id="app0510250103e"/> 、〈着綿各四屯、自余物見<orgName corresp="#縫殿寮">縫殿</orgName>式、〉帷二条、袜二両料布一
+        xml:id="app0510250103e"/> 、〈着綿各四屯、自余物見 <orgName corresp="#縫殿寮"> 縫殿 </orgName> 式、〉帷二条、袜二両料布一
         <anchor xml:id="app0510250104"/> 段 <anchor xml:id="app0510250104e"/> 二尺、帯二条料絹七尺、履二両、
        筥六合、〈二合方二尺、四合方一尺五寸、〉米・酒各四斗、鰒・堅魚・海藻各一斤、腊二斗、塩二升、水盆・坩・坏各二口、 裹葉薦一枚、小川竹廿株、調布四 <anchor
         xml:id="app0510250105"/> 段 <anchor xml:id="app0510250105e"/>
@@ -1048,8 +1082,8 @@
      <div ana="斎宮" n="5.32" subtype="項" type="条">
       <head ana="主神司月料"/>
       <p ana="項" corresp="engishiki_v5_ja.xml#item05103201 engishiki_v5_en.xml#item05103201"
-       xml:id="item05103201"> 野宮主神司所請月料 <lb/> 紙廿張、筆一管、亀甲一枚、波々可五枚、〈亀甲・波々可者、<orgName corresp="#神祇官"
-        >神祇官</orgName>所行、〉 </p>
+       xml:id="item05103201"> 野宮主神司所請月料 <lb/> 紙廿張、筆一管、亀甲一枚、波々可五枚、〈亀甲・波々可者、 <orgName corresp="#神祇官">
+        神祇官 </orgName> 所行、〉 </p>
      </div>
      <div ana="斎宮" n="5.33" subtype="項" type="条">
       <head ana="鎮炊殿祭"/>
@@ -1088,7 +1122,7 @@
      <div ana="斎宮" n="5.35" subtype="項" type="条">
       <head ana="卜戸座火炬"/>
       <p ana="項" corresp="engishiki_v5_ja.xml#item05103501 engishiki_v5_en.xml#item05103501"
-       xml:id="item05103501"> 卜戸座一人、〈取<placeName corresp="#山城国">山城国</placeName>愛宕郡鴨県主氏童子、〉 <lb/>
+       xml:id="item05103501"> 卜戸座一人、〈取 <placeName corresp="#山城国"> 山城国 </placeName> 愛宕郡鴨県主氏童子、〉 <lb/>
        火炬二人〈取同国葛野郡秦氏童女、〉 <lb/>
        <pb
         facs="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-5%2F00016.tif/full/full/0/default.jpg"
@@ -1113,8 +1147,8 @@
         xml:id="app0510360102e"/> 、銭四貫文、〈已上、命婦已下洗人已上装束、〉 当色六領、〈別当五位・内舎人・中臣・忌部等六人料、〉調布廿五 <anchor
         xml:id="app0510360103"/> 段 <anchor xml:id="app0510360103e"/>
        一丈二尺、〈卜部以下今良以上装束、〉輿長八人、緋服、布帯、駕輿丁卌人、 纁衫、紅褶、布帯、 <anchor xml:id="app0510360104"/> 布 <anchor
-        xml:id="app0510360104e"/> 袴、頭巾、脛巾、黄布衫卌領、袴卌腰、布帯卌条、〈<orgName corresp="#京職"
-       >左右京職</orgName>進担夫各廿人料、事了返上、〉 </p>
+        xml:id="app0510360104e"/> 袴、頭巾、脛巾、黄布衫卌領、袴卌腰、布帯卌条、〈 <orgName corresp="#京職"> 左右京職 </orgName>
+       進担夫各廿人料、事了返上、〉 </p>
       <app from="#app0510360101" to="#app0510360101e">
        <lem wit="#土本 #条本"> 段 </lem>
        <note> 段　訳注本「端」に意改。諸本「段」。 </note>
@@ -1144,10 +1178,10 @@
         facs="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-5%2F00017.tif/full/full/0/default.jpg"
        /> 二月、〉 絹六十疋、帛卅疋、綿一百屯、〈已上夏御服料、自三月迄八月、〉 </p>
       <p ana="項" corresp="engishiki_v5_ja.xml#item05103702 engishiki_v5_en.xml#item05103702"
-       xml:id="item05103702"> 斗帳一具、壁代帳十一条、幌三条、〈<orgName corresp="#縫殿寮"
-        >縫殿寮</orgName>縫備、毎年供之、但斗帳骨<orgName corresp="#内匠寮">内匠寮</orgName>作一度供之、〉
-        支子一石八斗、紅花廿六斤、酢八斗、簾四張、席二枚、両面端帖三枚、短帖一枚、緑端帖十枚、〈已上秋冬料、〉春夏料亦如是、但為薄帖、〈<orgName corresp="#掃部寮"
-        >掃部寮</orgName>作備、毎年二季供之、但簾<orgName corresp="#隼人司">隼人司</orgName>供之、〉 </p>
+       xml:id="item05103702"> 斗帳一具、壁代帳十一条、幌三条、〈 <orgName corresp="#縫殿寮"> 縫殿寮 </orgName> 縫備、毎年供之、但斗帳骨
+        <orgName corresp="#内匠寮"> 内匠寮 </orgName> 作一度供之、〉
+       支子一石八斗、紅花廿六斤、酢八斗、簾四張、席二枚、両面端帖三枚、短帖一枚、緑端帖十枚、〈已上秋冬料、〉春夏料亦如是、但為薄帖、〈 <orgName corresp="#掃部寮"> 掃部寮
+       </orgName> 作備、毎年二季供之、但簾 <orgName corresp="#隼人司"> 隼人司 </orgName> 供之、〉 </p>
       <p ana="項" corresp="engishiki_v5_ja.xml#item05103703 engishiki_v5_en.xml#item05103703"
        xml:id="item05103703"> 白布端帖七枚、短帖三枚、〈已上乳母料、〉黄布端帖三枚、 <anchor xml:id="app0510370301"/> 折 <anchor
         xml:id="app0510370301e"/> 薦帖九十枚、短帖十三枚、長帖二枚、席百八枚、長席二枚、調薦二百廿三枚、簀七十五枚、〈已上官人已下料、〉 </p>
@@ -1319,8 +1353,8 @@
       <head ana="野宮月料"/>
       <p ana="項" corresp="engishiki_v5_ja.xml#item05103801 engishiki_v5_en.xml#item05103801"
        xml:id="item05103801"> 月料〈小月物 <anchor xml:id="app0510380101"/> 別 <anchor
-        xml:id="app0510380101e"/> 減卅分之一〉 <lb/> 稲卅九束一把六分、粟十七束八把、〈並<orgName corresp="#大炊寮"
-        >大炊寮</orgName>、毎月舂供、〉 <anchor xml:id="app0510380102"/> 東 <anchor xml:id="app0510380102e"/>
+        xml:id="app0510380101e"/> 減卅分之一〉 <lb/> 稲卅九束一把六分、粟十七束八把、〈並 <orgName corresp="#大炊寮"> 大炊寮
+       </orgName> 、毎月舂供、〉 <anchor xml:id="app0510380102"/> 東 <anchor xml:id="app0510380102e"/>
        鰒廿四斤六両、雑鰒・煮堅魚各十一斤四両、烏賊・押年魚各七斤八両、乞魚皮十五斤、 鰯魚汁一斗五升、 <anchor xml:id="app0510380103"/> 腸 <anchor
         xml:id="app0510380103e"/> 漬鰒・ <anchor xml:id="app0510380104"/> 貽 <anchor
         xml:id="app0510380104e"/> 貝鮨各一斗五升、 <anchor xml:id="app0510380105"/> 堅 <anchor
@@ -1381,8 +1415,8 @@
      <div ana="斎宮" n="5.39" subtype="項" type="条">
       <head ana="正月三節料"/>
       <p ana="項" corresp="engishiki_v5_ja.xml#item05103901 engishiki_v5_en.xml#item05103901"
-       xml:id="item05103901"> 正月三節料 <lb/> 東鰒・堅魚・<placeName corresp="#隠伎国"
-       >隠伎</placeName>鰒・煮堅魚・鳥腊・烏賊・鯛楚割各三斤、楚割鮭三隻、鮭三隻、薄鰒・熬海鼠各二斤、紫菜・海藻各一斤、塩三升、
+       xml:id="item05103901"> 正月三節料 <lb/> 東鰒・堅魚・ <placeName corresp="#隠伎国"> 隠伎 </placeName>
+       鰒・煮堅魚・鳥腊・烏賊・鯛楚割各三斤、楚割鮭三隻、鮭三隻、薄鰒・熬海鼠各二斤、紫菜・海藻各一斤、塩三升、
        醤・味醤・酢各一升五合、酒六斗、糯米九升、大豆・小豆・粟・黍各三升、小麦・胡麻・生 <anchor xml:id="app0510390101"/> 栗 <anchor
         xml:id="app0510390101e"/> 子各六升、糒三升、干柿三連、搗栗子三升、〈已上供料、〉
        米一石、糯米一石、大豆二斗、小豆三斗、油一斗、雑腊・鮨各三斗、鰒・堅魚各廿斤、酒一石、〈已上官人以下料、〉 <anchor xml:id="app0510390102"/> 調布十三
@@ -1459,13 +1493,13 @@
      <div ana="斎宮" n="5.42" subtype="項" type="条">
       <head ana="斎終行事"/>
       <p ana="項" corresp="engishiki_v5_ja.xml#item05104201 engishiki_v5_en.xml#item05104201"
-       xml:id="item05104201"> 凡斎内親王三年斎終、四月上旬任装束司、五位二人、〈 <orgName corresp="#神祇官"><anchor
-         xml:id="app0510420101"/> 神 <anchor xml:id="app0510420101e"/>
-       祇</orgName>副以上一人、左右少弁以上一人、〉六位以下四人、〈諸司主典以上、〉諸司史生六人、 雑使十人、〈散位六人、位子四人、〉雑工卌人、〈 <anchor
-        xml:id="app0510420102"/> 簡 <anchor xml:id="app0510420102e"/> 取<orgName corresp="#内匠寮"
-        >内匠</orgName>・<orgName corresp="#木工寮">木工</orgName>・<orgName corresp="#隼人司"
-       >隼人</orgName>等寮司長上以下諸部等 <anchor xml:id="app0510420103"/> 為 <anchor xml:id="app0510420103e"/>
-        之、〉共作廿人、〈取仕丁充之、〉女孺廿人、直丁二人、同旬於<orgName corresp="#神祇官">神祇官</orgName>西院始行事、
+       xml:id="item05104201"> 凡斎内親王三年斎終、四月上旬任装束司、五位二人、〈 <orgName corresp="#神祇官">
+        <anchor xml:id="app0510420101"/> 神 <anchor xml:id="app0510420101e"/> 祇 </orgName>
+       副以上一人、左右少弁以上一人、〉六位以下四人、〈諸司主典以上、〉諸司史生六人、 雑使十人、〈散位六人、位子四人、〉雑工卌人、〈 <anchor
+        xml:id="app0510420102"/> 簡 <anchor xml:id="app0510420102e"/> 取 <orgName corresp="#内匠寮"> 内匠
+       </orgName> ・ <orgName corresp="#木工寮"> 木工 </orgName> ・ <orgName corresp="#隼人司"> 隼人 </orgName>
+       等寮司長上以下諸部等 <anchor xml:id="app0510420103"/> 為 <anchor xml:id="app0510420103e"/>
+       之、〉共作廿人、〈取仕丁充之、〉女孺廿人、直丁二人、同旬於 <orgName corresp="#神祇官"> 神祇官 </orgName> 西院始行事、
        五位以下給明衣、史生以上各絹四丈五尺、女孺各三丈、女雑工以上各布二丈六尺、共作及直丁不 <anchor xml:id="app0510420104"/> 在 <anchor
         xml:id="app0510420104e"/> 給例、其食依常例、 </p>
       <app from="#app0510420101" to="#app0510420101e">
@@ -1519,7 +1553,7 @@
        七尺一寸、紫纈帛一疋、深紫綾三丈八尺、浅紫綾一疋五丈一尺一寸、深紫帛二丈八尺、浅紫帛一疋一丈三尺六寸、緋綾二疋八尺五寸、油絁十疋三尺六寸、 練紗一疋三丈、紫糸十二斤五両、紫革五張、独
         <anchor xml:id="app0510430402"/> 犴 <anchor xml:id="app0510430402e"/> 皮二張、熊皮七張、﨟小一斤、白﨟大四両、
         <anchor xml:id="app0510430403"/> 練 <anchor xml:id="app0510430403e"/>
-       金小十一両一分二銖、銀大五斤十一両、水銀小五斤三両、青砥二顆、 曝黒葛七両、棗鞍橋二具、〈已上請<orgName corresp="#内蔵寮">内蔵寮</orgName>、〉 </p>
+       金小十一両一分二銖、銀大五斤十一両、水銀小五斤三両、青砥二顆、 曝黒葛七両、棗鞍橋二具、〈已上請 <orgName corresp="#内蔵寮"> 内蔵寮 </orgName> 、〉 </p>
       <p ana="項" corresp="engishiki_v5_ja.xml#item05104305 engishiki_v5_en.xml#item05104305"
        xml:id="item05104305"> 両面六疋一丈一尺七寸、緋帛十七疋五丈八尺九寸、緋東絁二丈九尺一寸、緑帛五疋九寸、縹帛六疋四丈三尺、
        紺東絁四疋二丈二尺、黄帛八疋五丈九尺三寸、生綾三丈一尺三寸、白綾一疋三丈一尺二寸、 <anchor xml:id="app0510430501"/> 帛 <anchor
@@ -1533,8 +1567,8 @@
         xml:id="app0510430505"/> 段 <anchor xml:id="app0510430505e"/> 三丈一尺、細布一 <anchor
         xml:id="app0510430506"/> 段 <anchor xml:id="app0510430506e"/> 一丈、調布一百五 <anchor
         xml:id="app0510430507"/> 段 <anchor xml:id="app0510430507e"/> 三丈五尺、紵布三丈、商布十七段一丈六尺、藍四囲、
-        紅花大廿一斤二両、漆三斗九升五夕、熟麻大一斤八両、苧小二斤二分、東席三枚、<placeName corresp="#出雲国"
-       >出雲</placeName>席二枚、葛野席十一枚、葉薦四枚、洗革三張、牛皮一張、膠大一斤、木賊一斤、 伊予砥七顆、 </p>
+       紅花大廿一斤二両、漆三斗九升五夕、熟麻大一斤八両、苧小二斤二分、東席三枚、 <placeName corresp="#出雲国"> 出雲 </placeName>
+       席二枚、葛野席十一枚、葉薦四枚、洗革三張、牛皮一張、膠大一斤、木賊一斤、 伊予砥七顆、 </p>
       <p ana="項" corresp="engishiki_v5_ja.xml#item05104306 engishiki_v5_en.xml#item05104306"
        xml:id="item05104306"> 金薄卌枚、熟銅大五十七斤七両、半熟銅十八斤、鉄五十一斤四両、調韓櫃七合、薄紙七十三張、紙三百廿四張、墨二廷、筆十管、掃墨九升一合、
        黒葛五斤、油四升五合、〈一升五合荏、二升槾椒、一升胡麻、〉荒筥四合、糯米八升二合、小麦一斗二升二合、酢三 <pb
@@ -1689,19 +1723,20 @@
      <div ana="斎宮" n="5.44" subtype="項" type="条">
       <head ana="御馬"/>
       <p ana="項" corresp="engishiki_v5_ja.xml#item05104401 engishiki_v5_en.xml#item05104401"
-       xml:id="item05104401"> 凡御馬二疋、女孺乗馬六疋、並以<orgName corresp="#馬寮">左右馬寮</orgName>馬充之、若有死失者請替、 </p>
+       xml:id="item05104401"> 凡御馬二疋、女孺乗馬六疋、並以 <orgName corresp="#馬寮"> 左右馬寮 </orgName> 馬充之、若有死失者請替、
+      </p>
      </div>
      <div ana="斎宮" n="5.45" subtype="項" type="条">
       <head ana="潔斎三年"/>
       <p ana="項" corresp="engishiki_v5_ja.xml#item05104501 engishiki_v5_en.xml#item05104501"
-       xml:id="item05104501"> 凡斎内親王在京潔斎三年、即毎朔日、着木綿鬘、参入斎殿、遥拝大神、時先供御麻、次鬘木綿、其料<placeName corresp="#安芸国"
-        >安芸</placeName>木綿四両、麻二斤、 <anchor xml:id="app0510450101"/> 〈別当已下料在此内、〉 <anchor
-        xml:id="app0510450101e"/>
+       xml:id="item05104501"> 凡斎内親王在京潔斎三年、即毎朔日、着木綿鬘、参入斎殿、遥拝大神、時先供御麻、次鬘木綿、其料 <placeName
+        corresp="#安芸国"> 安芸 </placeName> 木綿四両、麻二斤、 <anchor xml:id="app0510450101"/> 〈別当已下料在此内、〉
+        <anchor xml:id="app0510450101e"/>
        別当大夫已下卜食者、共再拝両段、但九月・六月・十二月不参、至十六七日参入、再拝両段、長拍手両段、斎王不拍手、斎終之後、乃向伊勢大神宮、 其 <anchor
         xml:id="app0510450102"/> 野宮内外 <pb
         facs="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-5%2F00026.tif/full/full/0/default.jpg"
-       /> 屋 <anchor xml:id="app0510450102e"/> 并垣之類、給<orgName corresp="#神祇官"
-       >神祇官</orgName>中臣、出居殿御座・装束之類、給主神司中臣、寝殿内雑物、給同司忌部、但金・銀器及釜・甕之類、納斎王家、 </p>
+       /> 屋 <anchor xml:id="app0510450102e"/> 并垣之類、給 <orgName corresp="#神祇官"> 神祇官 </orgName>
+       中臣、出居殿御座・装束之類、給主神司中臣、寝殿内雑物、給同司忌部、但金・銀器及釜・甕之類、納斎王家、 </p>
       <app from="#app0510450101" to="#app0510450101e">
        <lem wit="#条本"> 〈別当已下料在此内、〉 </lem>
        <rdg wit="#土本 #近本"> 別当已下料在此内 </rdg>
@@ -1719,8 +1754,9 @@
       <head ana="弁備雑事"/>
       <p ana="項" corresp="engishiki_v5_ja.xml#item05104601 engishiki_v5_en.xml#item05104601"
        xml:id="item05104601">
-       <anchor xml:id="app0510460101"/> 凡 <anchor xml:id="app0510460101e"/> 斎内親王向<placeName
-        corresp="#伊勢国">伊勢</placeName>時、七月以前、遣<orgName corresp="#斎宮寮">寮</orgName>允・史生各一人於斎宮及国、弁備雑事、 </p>
+       <anchor xml:id="app0510460101"/> 凡 <anchor xml:id="app0510460101e"/> 斎内親王向 <placeName
+        corresp="#伊勢国"> 伊勢 </placeName> 時、七月以前、遣 <orgName corresp="#斎宮寮"> 寮 </orgName>
+       允・史生各一人於斎宮及国、弁備雑事、 </p>
       <app from="#app0510460101" to="#app0510460101e">
        <lem wit="#土本 #条本 #九冊本"> 凡 </lem>
        <note place="頭"> 九冊本頭書「前【氵+矢】【甲+刂】舌イニ」 </note>
@@ -1773,8 +1809,8 @@
       <p ana="項" corresp="engishiki_v5_ja.xml#item05104901 engishiki_v5_en.xml#item05104901"
        xml:id="item05104901">
        <anchor xml:id="app0510490101"/> 凡 <anchor xml:id="app0510490101e"/>
-        斎王将入大神宮、在前七月若八月、同時遣大祓使、〈左右京一人、五<placeName corresp="#畿内">畿内</placeName>一人、<placeName
-        corresp="#七道">七道</placeName>各一人、〉 </p>
+       斎王将入大神宮、在前七月若八月、同時遣大祓使、〈左右京一人、五 <placeName corresp="#畿内"> 畿内 </placeName> 一人、 <placeName
+        corresp="#七道"> 七道 </placeName> 各一人、〉 </p>
       <app from="#app0510490101" to="#app0510490101e">
        <lem wit="#土本 #条本 #京博本 #九冊本"> 凡 </lem>
        <note place="頭"> 京博本朱頭書「 <seg style="color:red"> 大祓 </seg> 」 </note>
@@ -1823,9 +1859,9 @@
       <head ana="勢江州忌"/>
       <p ana="項" corresp="engishiki_v5_ja.xml#item05105201 engishiki_v5_en.xml#item05105201"
        xml:id="item05105201">
-       <anchor xml:id="app0510520101"/> 凡 <anchor xml:id="app0510520101e"/>
-        斎王将入大神宮之時、自九月一日迄卅日、京・<placeName corresp="#畿内">畿内</placeName>・<placeName corresp="#伊勢国"
-        >伊勢</placeName>・<placeName corresp="#近江国">近江</placeName>等国、不得奉燈北辰及挙哀改葬、 </p>
+       <anchor xml:id="app0510520101"/> 凡 <anchor xml:id="app0510520101e"/> 斎王将入大神宮之時、自九月一日迄卅日、京・
+        <placeName corresp="#畿内"> 畿内 </placeName> ・ <placeName corresp="#伊勢国"> 伊勢 </placeName> ・
+        <placeName corresp="#近江国"> 近江 </placeName> 等国、不得奉燈北辰及挙哀改葬、 </p>
       <app from="#app0510520101" to="#app0510520101e">
        <lem wit="#土本 #条本 #九冊本"> 凡 </lem>
        <note place="頭"> 九冊本頭書「群行イニ」 </note>
@@ -1836,11 +1872,11 @@
       <head ana="頓宮"/>
       <p ana="項" corresp="engishiki_v5_ja.xml#item05105301 engishiki_v5_en.xml#item05105301"
        xml:id="item05105301">
-       <anchor xml:id="app0510530101"/> 凡 <anchor xml:id="app0510530101e"/> 頓宮者、<placeName
-        corresp="#近江国">近江国</placeName>国府・甲賀・垂水、<placeName corresp="#伊勢国"
-        >伊勢国</placeName>鈴鹿・壱志、総五所、並国司依例営造、所須稲、<placeName corresp="#近江国">近江</placeName>一万 <anchor
-        xml:id="app0510530102"/> 五 <anchor xml:id="app0510530102e"/> 千束、<placeName corresp="#伊勢国"
-        >伊勢</placeName>二万 <anchor xml:id="app0510530103"/> 三 <anchor xml:id="app0510530103e"/>
+       <anchor xml:id="app0510530101"/> 凡 <anchor xml:id="app0510530101e"/> 頓宮者、 <placeName
+        corresp="#近江国"> 近江国 </placeName> 国府・甲賀・垂水、 <placeName corresp="#伊勢国"> 伊勢国 </placeName>
+       鈴鹿・壱志、総五所、並国司依例営造、所須稲、 <placeName corresp="#近江国"> 近江 </placeName> 一万 <anchor
+        xml:id="app0510530102"/> 五 <anchor xml:id="app0510530102e"/> 千束、 <placeName corresp="#伊勢国">
+        伊勢 </placeName> 二万 <anchor xml:id="app0510530103"/> 三 <anchor xml:id="app0510530103e"/>
        千束、鋪設・雑器及供給、総用此内、 </p>
       <app from="#app0510530101" to="#app0510530101e">
        <lem wit="#土本 #条本 #京博本 #九冊本"> 凡 </lem>
@@ -1884,18 +1920,18 @@
         xml:id="app0510540202e"/> 、六位絁一疋、綿一屯、布一 <anchor xml:id="app0510540203"/> 段 <anchor
         xml:id="app0510540203e"/> 、唯 <pb
         facs="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-5%2F00028.tif/full/full/0/default.jpg"
-       /> 忌部布三 <anchor xml:id="app0510540204"/> 段 <anchor xml:id="app0510540204e"/> 、<orgName
-        corresp="#斎宮寮">斎宮</orgName>頭絹十疋、綿廿屯、布廿 <anchor xml:id="app0510540205"/> 段 <anchor
+       /> 忌部布三 <anchor xml:id="app0510540204"/> 段 <anchor xml:id="app0510540204e"/> 、 <orgName
+        corresp="#斎宮寮"> 斎宮 </orgName> 頭絹十疋、綿廿屯、布廿 <anchor xml:id="app0510540205"/> 段 <anchor
         xml:id="app0510540205e"/> 、助絹八疋、綿十五屯、布十五 <anchor xml:id="app0510540206"/> 段 <anchor
-        xml:id="app0510540206e"/> 、 主神司中臣・忌部、<orgName corresp="#斎宮寮"
-       >寮</orgName>允、舎人司長、膳部司長各絹四疋、綿六屯、布五 <anchor xml:id="app0510540207"/> 段 <anchor
-        xml:id="app0510540207e"/> 、<orgName corresp="#斎宮寮"
-       >寮</orgName>属、蔵部・炊部・酒部・水部・女部・殿部・薬部・掃部・門部・馬部長及二司判官等、 絹三疋、綿五屯、布四 <anchor xml:id="app0510540208"
-       /> 段 <anchor xml:id="app0510540208e"/> 、宮主、舎人・蔵部・膳部・門部主典各絁二疋、綿四屯、布三 <anchor
-        xml:id="app0510540209"/> 段 <anchor xml:id="app0510540209e"/> 、史生、大舎人、<orgName corresp="#斎宮寮"
-        >寮</orgName>舎人及諸司番上等各絹一疋、綿二屯、布二 <anchor xml:id="app0510540210"/> 段 <anchor
-        xml:id="app0510540210e"/> 、 <orgName corresp="#斎宮寮">寮</orgName>使部各布二端、飼丁・今良各布一 <anchor
-        xml:id="app0510540211"/> 段 <anchor xml:id="app0510540211e"/> 、 </p>
+        xml:id="app0510540206e"/> 、 主神司中臣・忌部、 <orgName corresp="#斎宮寮"> 寮 </orgName>
+       允、舎人司長、膳部司長各絹四疋、綿六屯、布五 <anchor xml:id="app0510540207"/> 段 <anchor xml:id="app0510540207e"/> 、
+        <orgName corresp="#斎宮寮"> 寮 </orgName> 属、蔵部・炊部・酒部・水部・女部・殿部・薬部・掃部・門部・馬部長及二司判官等、 絹三疋、綿五屯、布四
+        <anchor xml:id="app0510540208"/> 段 <anchor xml:id="app0510540208e"/>
+       、宮主、舎人・蔵部・膳部・門部主典各絁二疋、綿四屯、布三 <anchor xml:id="app0510540209"/> 段 <anchor
+        xml:id="app0510540209e"/> 、史生、大舎人、 <orgName corresp="#斎宮寮"> 寮 </orgName> 舎人及諸司番上等各絹一疋、綿二屯、布二
+        <anchor xml:id="app0510540210"/> 段 <anchor xml:id="app0510540210e"/> 、 <orgName
+        corresp="#斎宮寮"> 寮 </orgName> 使部各布二端、飼丁・今良各布一 <anchor xml:id="app0510540211"/> 段 <anchor
+        xml:id="app0510540211e"/> 、 </p>
       <app from="#app0510540201" to="#app0510540201e">
        <lem wit="#土本 #条本 #京博本 #九冊本"> 段 </lem>
        <note place="傍"> 京博本左傍書「端イニ」 </note>
@@ -2058,8 +2094,8 @@
       <p ana="項" corresp="engishiki_v5_ja.xml#item05105601 engishiki_v5_en.xml#item05105601"
        xml:id="item05105601">
        <anchor xml:id="app0510560101"/> 九 <anchor xml:id="app0510560101e"/> 月神嘗祭使 <lb/>
-       <s rendition="#indent"> 右尋常之例、十一日参入、而当斎王参入之時、即陪従参入、其幣并明衣料、与尋常同、更差使中臣一人、遣<placeName
-         corresp="#近江国">近江</placeName>・<placeName corresp="#伊勢国">伊勢</placeName>二国、在前祓清、 </s>
+       <s rendition="#indent"> 右尋常之例、十一日参入、而当斎王参入之時、即陪従参入、其幣并明衣料、与尋常同、更差使中臣一人、遣 <placeName
+         corresp="#近江国"> 近江 </placeName> ・ <placeName corresp="#伊勢国"> 伊勢 </placeName> 二国、在前祓清、 </s>
       </p>
       <app from="#app0510560101" to="#app0510560101e">
        <lem wit="#土本 #条本 #京博本 #九冊本"> 九 </lem>
@@ -2087,8 +2123,8 @@
       <p ana="項" corresp="engishiki_v5_ja.xml#item05105801 engishiki_v5_en.xml#item05105801"
        xml:id="item05105801">
        <anchor xml:id="app0510580101"/> 凡 <anchor xml:id="app0510580101e"/> 斎内親王発日、所司預設御座於大極後殿、天皇御
-        <anchor xml:id="app0510580102"/> 後 <anchor xml:id="app0510580102e"/> 殿、〈不警、〉<orgName
-        corresp="#神祇官">神祇官</orgName>五位中臣 <pb
+        <anchor xml:id="app0510580102"/> 後 <anchor xml:id="app0510580102e"/> 殿、〈不警、〉 <orgName
+        corresp="#神祇官"> 神祇官 </orgName> 五位中臣 <pb
         facs="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-5%2F00030.tif/full/full/0/default.jpg"
        /> 進御麻、史一人行麻於侍従五位以上、 時刻御大極殿、斎内親王下輿入就殿上座、事訖向大神宮、〈事見儀式、〉 </p>
       <app from="#app0510580101" to="#app0510580101e">
@@ -2106,13 +2142,13 @@
      <div ana="斎宮" n="5.59" subtype="項" type="条">
       <head ana="六処堺川"/>
       <p ana="項" corresp="engishiki_v5_ja.xml#item05105901 engishiki_v5_en.xml#item05105901"
-       xml:id="item05105901"> 六処堺川供奉御禊〈<placeName corresp="#山城国">山 <anchor xml:id="app0510590101"/>
-        城 <anchor xml:id="app0510590101e"/></placeName> 、<placeName corresp="#近江国"
-        >近江</placeName>勢多川・甲賀川、<placeName corresp="#伊勢国">伊勢</placeName>鈴 <anchor
-        xml:id="app0510590102"/> 鹿 <anchor xml:id="app0510590102e"/> 川・下樋小川・多気川、〉 <lb/>
-       御荒服六具料庸布六段、鉄人像十二枚、木綿・麻各六斤、酒・米各六斤、鰒・堅魚各六斤、腊六升、塩六升、 海藻・雑海 <anchor xml:id="app0510590103"/> 菜
-        <anchor xml:id="app0510590103e"/> 各六斤、𤭅六口、筥四口、〈各長一尺七寸、〉 <anchor xml:id="app0510590104"/> 席
-        <anchor xml:id="app0510590104e"/> 一枚、夫三人、 </p>
+       xml:id="item05105901"> 六処堺川供奉御禊〈 <placeName corresp="#山城国"> 山 <anchor xml:id="app0510590101"
+        /> 城 <anchor xml:id="app0510590101e"/>
+       </placeName> 、 <placeName corresp="#近江国"> 近江 </placeName> 勢多川・甲賀川、 <placeName corresp="#伊勢国">
+        伊勢 </placeName> 鈴 <anchor xml:id="app0510590102"/> 鹿 <anchor xml:id="app0510590102e"/>
+       川・下樋小川・多気川、〉 <lb/> 御荒服六具料庸布六段、鉄人像十二枚、木綿・麻各六斤、酒・米各六斤、鰒・堅魚各六斤、腊六升、塩六升、 海藻・雑海 <anchor
+        xml:id="app0510590103"/> 菜 <anchor xml:id="app0510590103e"/> 各六斤、𤭅六口、筥四口、〈各長一尺七寸、〉 <anchor
+        xml:id="app0510590104"/> 席 <anchor xml:id="app0510590104e"/> 一枚、夫三人、 </p>
       <app from="#app0510590101" to="#app0510590101e">
        <lem wit="#土本 #条本"> 城 </lem>
        <note place="傍"> 貞享本傍書「□川歟」 </note>
@@ -2139,14 +2175,14 @@
      <div ana="斎宮" n="5.60" subtype="項" type="条">
       <head ana="鎮祓"/>
       <p ana="項" corresp="engishiki_v5_ja.xml#item05106001 engishiki_v5_en.xml#item05106001"
-       xml:id="item05106001"> 凡斎内親王在路、毎至<placeName corresp="#山城国">山城</placeName>・<placeName
-        corresp="#近江国">近江</placeName>・<placeName corresp="#伊勢国"
-       >伊勢</placeName>等堺、勢多・鈴鹿・下樋・多気川等、遣神部・卜部各二人在前鎮祓之、所須鉄人像十二枚、布衣六領、裳六腰、〈以庸布一段作一衣一裳、〉
+       xml:id="item05106001"> 凡斎内親王在路、毎至 <placeName corresp="#山城国"> 山城 </placeName> ・ <placeName
+        corresp="#近江国"> 近江 </placeName> ・ <placeName corresp="#伊勢国"> 伊勢 </placeName>
+       等堺、勢多・鈴鹿・下樋・多気川等、遣神部・卜部各二人在前鎮祓之、所須鉄人像十二枚、布衣六領、裳六腰、〈以庸布一段作一衣一裳、〉
        木綿・麻各六斤、米・酒各六升、鰒・堅魚各六斤、腊・塩各六升、海藻・雑海菜各六斤、雑盛六籠、筥𤭅六口、筥四合、〈方一尺七寸、〉席・薦各一枚、夫三人、 </p>
       <p ana="項" corresp="engishiki_v5_ja.xml#item05106002 engishiki_v5_en.xml#item05106002"
        xml:id="item05106002"> 其路次社幣料、絹一疋、糸五絇、綿五屯、木綿一斤、麻二斤、又頓宮五処大 <pb
         facs="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-5%2F00031.tif/full/full/0/default.jpg"
-       /> 殿祭料、<placeName corresp="#安芸国">安芸</placeName>木綿卌枚、凡木綿一斤、亦路間儲幣料、絁一疋、
+       /> 殿祭料、 <placeName corresp="#安芸国"> 安芸 </placeName> 木綿卌枚、凡木綿一斤、亦路間儲幣料、絁一疋、
        綿五屯、糸五絇、木綿大一斤、麻大一斤、卜亀甲一枚、並主神司請 <anchor xml:id="app0510600201"/> 領 <anchor
         xml:id="app0510600201e"/> 祭之、其鎮祓等料者、請受京庫、 </p>
       <app from="#app0510600201" to="#app0510600201e">
@@ -2469,14 +2505,13 @@
      <div ana="斎宮" n="5.62" subtype="項" type="条">
       <head ana="三時祭禊料"/>
       <p ana="項" corresp="engishiki_v5_ja.xml#item05106201 engishiki_v5_en.xml#item05106201"
-       xml:id="item05106201"> 斎内親王参三時祭禊料 <lb/> 五色絁各六尺、<placeName corresp="#安芸国"
-       >安芸</placeName>木綿十五枚、凡木綿・麻各三斤、庸布六段、布衣・裳各三具、〈料庸布、〉鍬十二口、筥三合、鰒・堅魚各六斤、海藻・雑海菜各六斤、
+       xml:id="item05106201"> 斎内親王参三時祭禊料 <lb/> 五色絁各六尺、 <placeName corresp="#安芸国"> 安芸 </placeName>
+       木綿十五枚、凡木綿・麻各三斤、庸布六段、布衣・裳各三具、〈料庸布、〉鍬十二口、筥三合、鰒・堅魚各六斤、海藻・雑海菜各六斤、
        腊・塩各一斗二升、米・酒各三斗、稲十二束、瓫十二口、坏六口、槲十八把、匏三柄、輿籠三脚、食薦六枚、黄蘗十五両、〈已上晦日禊料、〉 </p>
       <p ana="項" corresp="engishiki_v5_ja.xml#item05106202 engishiki_v5_en.xml#item05106202"
-       xml:id="item05106202"> 五色薄絁各九尺、倭文九尺、<placeName corresp="#安芸国"
-       >安芸</placeName>木綿廿七枚、凡木綿・麻各六斤、布衣・裳 <anchor xml:id="app0510620201"/>各 <anchor
-        xml:id="app0510620201e"/> 九具、〈料庸布、〉鉄人像十八枚、筥九合、鰒・堅魚各九斤、腊・塩各九升、
-       海藻・雑海菜各九斤、雑盛九籠、米・酒各二斗七升、稲九束、藁三囲、〈已上参日禊并堺祭料、〉 </p>
+       xml:id="item05106202"> 五色薄絁各九尺、倭文九尺、 <placeName corresp="#安芸国"> 安芸 </placeName>
+       木綿廿七枚、凡木綿・麻各六斤、布衣・裳 <anchor xml:id="app0510620201"/> 各 <anchor xml:id="app0510620201e"/>
+       九具、〈料庸布、〉鉄人像十八枚、筥九合、鰒・堅魚各九斤、腊・塩各九升、 海藻・雑海菜各九斤、雑盛九籠、米・酒各二斗七升、稲九束、藁三囲、〈已上参日禊并堺祭料、〉 </p>
       <app from="#app0510620201" to="#app0510620201e">
        <lem cause="意補"> 各 </lem>
        <rdg wit="#土本 #条本"/>
@@ -2487,20 +2522,20 @@
        <s rendition="#indent">
         右五月・十一月晦日、隨近川頭為禊、八月晦日、臨尾野湊為禊、其三時祭月十五日、斎内親王向離宮、行路之間有二処堺祭、〈宮東堭外及多気・度会両郡堺祭之、料物色目在上、〉 <pb
          facs="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-5%2F00035.tif/full/full/0/default.jpg"
-        /> 到着禊殿、〈神宮司并<orgName corresp="#掃部寮"
-        >掃部</orgName>司供奉装束、〉主神司中臣為禊、〈料物神宮司儲之、〉大神宮司奉斎王膳、兼賜酒肴勅使已下、次主神司供奉内院大殿祭、〈所須祭物、神宮司儲之、〉
+        /> 到着禊殿、〈神宮司并 <orgName corresp="#掃部寮"> 掃部 </orgName>
+        司供奉装束、〉主神司中臣為禊、〈料物神宮司儲之、〉大神宮司奉斎王膳、兼賜酒肴勅使已下、次主神司供奉内院大殿祭、〈所須祭物、神宮司儲之、〉
         然後斎王遷内院〈装束雑具一同禊殿、〉奉夕膳、〈神宮司以料物附所司、但男女官供給弁備行之、〉 </s>
       </p>
       <p ana="項" corresp="engishiki_v5_ja.xml#item05106204 engishiki_v5_en.xml#item05106204"
        xml:id="item05106204">
-       <s rendition="#indent"> 十六日朝饌之後、斎王参度会宮、路辺窮者賑給如常、 禊度会河、参入神宮、至板垣門東頭下輿、入外玉垣門就東殿、〈禰宜并<orgName
-         corresp="#掃部寮">掃部</orgName>司供奉装束、〉 <anchor xml:id="app0510620401"/> 神宮司 <anchor
+       <s rendition="#indent"> 十六日朝饌之後、斎王参度会宮、路辺窮者賑給如常、 禊度会河、参入神宮、至板垣門東頭下輿、入外玉垣門就東殿、〈禰宜并 <orgName
+         corresp="#掃部寮"> 掃部 </orgName> 司供奉装束、〉 <anchor xml:id="app0510620401"/> 神宮司 <anchor
          xml:id="app0510620401e"/> 執鬘木綿、入外玉垣門而跪、命婦出受以奉斎王、拍手而執著鬘、 又神宮司持太玉串、入同門而跪、命婦亦転奉斎王、拍手而執、捧入内玉垣
          <anchor xml:id="app0510620402"/> 門 <anchor xml:id="app0510620402e"/>
         内就座席、〈命婦若女孺二人陪従、〉避席進前再拝両段、訖玉串授命婦、 受転授物忌、受執立瑞垣門西頭、斎王還就本座、宮司宣祝詞、訖物忌・内人奉幣帛案、 <pb
          facs="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-5%2F00036.tif/full/full/0/default.jpg"
-        /> 斎王并衆官以下再拝、拍八開手、次拍短手再拝、如此両遍、既而衆官退出、 就解斎殿給酒食、訖入外玉垣門供倭舞、先神宮司以下及主神司・<orgName corresp="#斎宮寮"
-         >寮</orgName>官次第舞、次斎宮女孺四人供五節舞、訖給禄有差、其後斎王還着離宮、主神司中臣候南門奉御麻、 </s>
+        /> 斎王并衆官以下再拝、拍八開手、次拍短手再拝、如此両遍、既而衆官退出、 就解斎殿給酒食、訖入外玉垣門供倭舞、先神宮司以下及主神司・ <orgName corresp="#斎宮寮">
+         寮 </orgName> 官次第舞、次斎宮女孺四人供五節舞、訖給禄有差、其後斎王還着離宮、主神司中臣候南門奉御麻、 </s>
       </p>
       <app from="#app0510620401" to="#app0510620401e">
        <lem wit="#土本 #条本 #九冊本"> 神宮司 </lem>
@@ -2563,22 +2598,22 @@
        xml:id="item05106601"> 供新嘗料〈卜八男十女、〉 <lb/> 絹二丈、糸二両、紵一丈二尺、細布一丈六尺、曝布一丈二尺、調布三 <anchor
         xml:id="app0510660101"/> 段 <anchor xml:id="app0510660101e"/> 一丈、木綿二斤四両、土盤十口、手洗二口、片椀十口、高盤十口、
        洗盤六口、堝十口、 <anchor xml:id="app0510660102"/> 瓫 <anchor xml:id="app0510660102e"/> 四口、手湯 <anchor
-        xml:id="app0510660103"/> 盆 <anchor xml:id="app0510660103e"/> 二口、〈已上<orgName corresp="#斎宮寮"
-        >寮</orgName>充之、〉筥十四合、麁筥二合、明櫃三合、供机十枚、供料米二斗、粥料米二斗、粟二斗、
-       白黒二御酒料稲廿束、御酒一石、匏十八柄、酒垂四口、槲四俵、漆刻柄刀子二枚、長刀子十枚、短刀子十枚、土火爐二枚、木刺槌二柄、砧木二枚、蝦鰭槽二口、
-        日影葛二荷、輿籠二脚、〈已上<placeName corresp="#伊勢国">当国</placeName>充之、〉瓼五口、平居𤭅五口、都波々四口、匜八口、小 <anchor
+        xml:id="app0510660103"/> 盆 <anchor xml:id="app0510660103e"/> 二口、〈已上 <orgName corresp="#斎宮寮">
+        寮 </orgName> 充之、〉筥十四合、麁筥二合、明櫃三合、供机十枚、供料米二斗、粥料米二斗、粟二斗、
+       白黒二御酒料稲廿束、御酒一石、匏十八柄、酒垂四口、槲四俵、漆刻柄刀子二枚、長刀子十枚、短刀子十枚、土火爐二枚、木刺槌二柄、砧木二枚、蝦鰭槽二口、 日影葛二荷、輿籠二脚、〈已上
+        <placeName corresp="#伊勢国"> 当国 </placeName> 充之、〉瓼五口、平居𤭅五口、都波々四口、匜八口、小 <anchor
         xml:id="app0510660104"/> 杯 <anchor xml:id="app0510660104e"/> 八口、陶臼二口、筥 <anchor
         xml:id="app0510660105"/> 杯 <anchor xml:id="app0510660105e"/> 廿口、陶埦八口、多志良加四口、 瓶六口、陶鉢八口、盤廿口、高
         <anchor xml:id="app0510660106"/> 杯 <anchor xml:id="app0510660106e"/>
-        十口、酒盞十口、油三升、切机二脚、叩盆四口、〈已上<placeName corresp="#美濃国">美濃国</placeName>充之、〉東鰒二斤十両、薄鰒・<placeName
-        corresp="#隠伎国">隠伎</placeName>鰒各二 <pb
+       十口、酒盞十口、油三升、切机二脚、叩盆四口、〈已上 <placeName corresp="#美濃国"> 美濃国 </placeName> 充之、〉東鰒二斤十両、薄鰒・
+        <placeName corresp="#隠伎国"> 隠伎 </placeName> 鰒各二 <pb
         facs="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-5%2F00038.tif/full/full/0/default.jpg"
        /> 斤、堅魚五斤、 煮堅魚十斤、烏賊・螺各十両、鮨鰒二升、干海松二斤、紫菜一斤、海松纏鰒一升、煮塩年魚・醤鮒各二升、干薑二両、清酒・濁酒各二升、米・糯米各一升、
        大豆・小豆・小麦・胡麻子各二升、糯稲四束、糯糒一升、粟糒・葟子糒・黍子糒各二升、椎子・菱子各五升、蓮子・干棗各一升、生 <anchor xml:id="app0510660107"/>
        栗 <anchor xml:id="app0510660107e"/> 一斗、搗 <anchor xml:id="app0510660108"/> 栗 <anchor
         xml:id="app0510660108e"/> 六升、 干柿二升、橘子十蔭、干槲三俵、弓 <anchor xml:id="app0510660109"/> 絃 <anchor
-        xml:id="app0510660109e"/> 葉一荷、〈已上<orgName corresp="#斎宮寮">寮</orgName>充之、〉輿籠一脚、〈<placeName
-        corresp="#伊勢国">当国</placeName>充之、〉 <lb/>
+        xml:id="app0510660109e"/> 葉一荷、〈已上 <orgName corresp="#斎宮寮"> 寮 </orgName> 充之、〉輿籠一脚、〈
+        <placeName corresp="#伊勢国"> 当国 </placeName> 充之、〉 <lb/>
        <s rendition="#indent"> 右、主神司并膳部所請、 </s>
       </p>
       <app from="#app0510660101" to="#app0510660101e">
@@ -2618,23 +2653,24 @@
        <note> 絃　訳注本「弦」に意改。諸本「絃」。 </note>
       </app>
       <p ana="項" corresp="engishiki_v5_ja.xml#item05106602 engishiki_v5_en.xml#item05106602"
-       xml:id="item05106602"> 稲八束、粟四束、〈已上<orgName corresp="#斎宮寮">寮</orgName>充之、〉 <lb/>
+       xml:id="item05106602"> 稲八束、粟四束、〈已上 <orgName corresp="#斎宮寮"> 寮 </orgName> 充之、〉 <lb/>
        <s rendition="#indent"> 右、炊部所請、 </s>
       </p>
       <p ana="項" corresp="engishiki_v5_ja.xml#item05106603 engishiki_v5_en.xml#item05106603"
-       xml:id="item05106603"> 細布一尺、酒坏二具、窪坏廿口、片盤十五口、〈已上<orgName corresp="#斎宮寮"
-        >寮</orgName>充之、〉食薦二枚、〈<placeName corresp="#伊勢国">当国</placeName>充之、〉 <lb/>
+       xml:id="item05106603"> 細布一尺、酒坏二具、窪坏廿口、片盤十五口、〈已上 <orgName corresp="#斎宮寮"> 寮 </orgName>
+       充之、〉食薦二枚、〈 <placeName corresp="#伊勢国"> 当国 </placeName> 充之、〉 <lb/>
        <s rendition="#indent"> 右、酒部所請、 </s>
       </p>
       <p ana="項" corresp="engishiki_v5_ja.xml#item05106604 engishiki_v5_en.xml#item05106604"
        xml:id="item05106604"> 絹五丈一尺、曝布六 <anchor xml:id="app0510660401"/> 段 <anchor
         xml:id="app0510660401e"/> 二丈八尺五寸、紵布六尺、糸十両、篩二口、麻笥二口、楉案一脚、土大 <pb
         facs="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-5%2F00039.tif/full/full/0/default.jpg"
-       /> 盤二口、油一升、小豆一升、〈以上<orgName corresp="#斎宮寮">寮</orgName>充之、〉
-        湯槽・円槽・洗足槽各一隻、棚案一脚、板蓋五枚、明櫃二合、筥一合、麁筥一合、灯台二具、匏三柄、菲一両、〈以上<placeName corresp="#伊勢国"
-        >当国</placeName>充之、〉池由加一口、由加四口、 叩 <anchor xml:id="app0510660402"/> 盆 <anchor
+       /> 盤二口、油一升、小豆一升、〈以上 <orgName corresp="#斎宮寮"> 寮 </orgName> 充之、〉
+       湯槽・円槽・洗足槽各一隻、棚案一脚、板蓋五枚、明櫃二合、筥一合、麁筥一合、灯台二具、匏三柄、菲一両、〈以上 <placeName corresp="#伊勢国"> 当国
+       </placeName> 充之、〉池由加一口、由加四口、 叩 <anchor xml:id="app0510660402"/> 盆 <anchor
         xml:id="app0510660402e"/> 四口、油𤭅一口、油 <anchor xml:id="app0510660403"/> 杯 <anchor
-        xml:id="app0510660403e"/> ・盤各二口、鋺形一口、陶鉢一口、〈以上<placeName corresp="#美濃国">美濃国</placeName>充之、〉 <lb/>
+        xml:id="app0510660403e"/> ・盤各二口、鋺形一口、陶鉢一口、〈以上 <placeName corresp="#美濃国"> 美濃国 </placeName>
+       充之、〉 <lb/>
        <s rendition="#indent"> 右、殿部所請、 </s>
       </p>
       <app from="#app0510660401" to="#app0510660401e">
@@ -2653,7 +2689,7 @@
        xml:id="item05106605"> 払細布一丈二尺、筥一合、白端帖十二枚、 <anchor xml:id="app0510660501"/> 短 <anchor
         xml:id="app0510660501e"/> 帖八枚、 <anchor xml:id="app0510660502"/> 坂 <anchor
         xml:id="app0510660502e"/> 枕二枚、折薦帖二枚、〈 <anchor xml:id="app0510660503"/> 以 <anchor
-        xml:id="app0510660503e"/> 上<orgName corresp="#斎宮寮">寮</orgName>充之、〉 <lb/>
+        xml:id="app0510660503e"/> 上 <orgName corresp="#斎宮寮"> 寮 </orgName> 充之、〉 <lb/>
        <s rendition="#indent"> 右、掃部所請、 </s>
       </p>
       <app from="#app0510660501" to="#app0510660501e">
@@ -2676,7 +2712,7 @@
        xml:id="item05106606"> 絁五疋、白絹二丈五尺、綿廿屯、紫小纈帛三丈、細布二丈、曝布一 <anchor xml:id="app0510660601"/> 段
         <anchor xml:id="app0510660601e"/> 一丈四尺、筥六合、櫛一具、〈黄楊、〉櫛案一脚、刀子 <anchor xml:id="app0510660602"/>
        一 <anchor xml:id="app0510660602e"/> 具、冠一条、 爪磨一枚、 <anchor xml:id="app0510660603"/> 沓 <anchor
-        xml:id="app0510660603e"/> 一両、<placeName corresp="#出雲国">出雲</placeName>席一枚、 <lb/>
+        xml:id="app0510660603e"/> 一両、 <placeName corresp="#出雲国"> 出雲 </placeName> 席一枚、 <lb/>
        <s rendition="#indent"> 右、斎内親王神忌御服料、 </s>
       </p>
       <app from="#app0510660601" to="#app0510660601e">
@@ -2697,7 +2733,7 @@
        xml:id="item05106607"> 絹十四疋三丈、〈十疋被料、四疋三丈青摺衣料、〉綿一百九十屯、調布六十七 <anchor xml:id="app0510660701"/> 段
         <anchor xml:id="app0510660701e"/> 三丈四尺、紅花六斤、〈已上青摺衣料、〉絹二疋四丈、 曝布六 <anchor
         xml:id="app0510660702"/> 段 <anchor xml:id="app0510660702e"/> 六尺、〈已上膳部并女孺等褠・襅料、〉 <lb/>
-       <s rendition="#indent"> 右、小斎人等祭服、<orgName corresp="#斎宮寮">寮</orgName>依例充、其賜禄 <pb
+       <s rendition="#indent"> 右、小斎人等祭服、 <orgName corresp="#斎宮寮"> 寮 </orgName> 依例充、其賜禄 <pb
          facs="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-5%2F00040.tif/full/full/0/default.jpg"
         /> 一准元日、 </s>
       </p>
@@ -2764,10 +2800,10 @@
       <p ana="項" corresp="engishiki_v5_ja.xml#item05107001 engishiki_v5_en.xml#item05107001"
        xml:id="item05107001"> 斎宮鋪設 <lb/>
        <anchor xml:id="app0510700101"/> 斎 <anchor xml:id="app0510700101e"/>
-       内親王板牀二張、紫端帖二枚、黄端帖二枚、緑端帖六枚、席廿枚、五位及命婦各板牀二張、黄端帖二枚、乳母各板牀一張、緑端帖一枚、 <orgName corresp="#斎宮寮"
-        >寮</orgName>助板牀・楉牀各一張、折薦帖二枚、自余官人・女孺牀帖各一枚、番上各帖一枚、 <lb/>
-       <s rendition="#indent"> 右、斎内親王向国鋪設、初年<placeName corresp="#伊勢国">当国</placeName>供之、後年<orgName
-         corresp="#斎宮寮">寮</orgName>司備之、 </s>
+       内親王板牀二張、紫端帖二枚、黄端帖二枚、緑端帖六枚、席廿枚、五位及命婦各板牀二張、黄端帖二枚、乳母各板牀一張、緑端帖一枚、 <orgName corresp="#斎宮寮"> 寮
+       </orgName> 助板牀・楉牀各一張、折薦帖二枚、自余官人・女孺牀帖各一枚、番上各帖一枚、 <lb/>
+       <s rendition="#indent"> 右、斎内親王向国鋪設、初年 <placeName corresp="#伊勢国"> 当国 </placeName> 供之、後年
+         <orgName corresp="#斎宮寮"> 寮 </orgName> 司備之、 </s>
       </p>
       <app from="#app0510700101" to="#app0510700101e">
        <lem wit="#条本 #九冊本"> 斎 </lem>
@@ -2781,8 +2817,8 @@
       <p ana="項" corresp="engishiki_v5_ja.xml#item05107003 engishiki_v5_en.xml#item05107003"
        xml:id="item05107003"> 酒卌甕、〈甕別米三石七斗、〉酢五甕、〈甕別三石七斗、〉醤六甕、〈 <anchor xml:id="app0510700301"/> 別
         <anchor xml:id="app0510700301e"/> 大豆三石、〉 <lb/>
-       <s rendition="#indent"> 右、斎内親王初到之年、国司預割可納<orgName corresp="#斎宮寮"
-         >寮</orgName>米・大豆・塩等、造儲供之、若有甕破壊者、令<placeName corresp="#尾張国">尾張国</placeName>供送、 </s>
+       <s rendition="#indent"> 右、斎内親王初到之年、国司預割可納 <orgName corresp="#斎宮寮"> 寮 </orgName>
+        米・大豆・塩等、造儲供之、若有甕破壊者、令 <placeName corresp="#尾張国"> 尾張国 </placeName> 供送、 </s>
       </p>
       <app from="#app0510700301" to="#app0510700301e">
        <lem wit="#土本 #条本 #近本 #藤波本 #京博本"> 別 </lem>
@@ -2801,8 +2837,8 @@
         xml:id="app0510710102e"/> 二丈三尺、蔀料庸布八段、簾料細布三 <anchor xml:id="app0510710103"/> 段 <anchor
         xml:id="app0510710103e"/> 三丈九尺、斗帳料絹七疋二丈四尺、 綿卅屯、床廻帳料絹二疋、綿十屯、床覆料絹一疋二 <anchor
         xml:id="app0510710104"/> 尺 <anchor xml:id="app0510710104e"/>
-       、褥料絹三疋一丈六尺七寸、綿廿四屯、被料長絹十二疋、調綿八十四屯、服料絹百十疋、 綿百八十屯、襪料絁一疋、糸卌絇、履廿四両、〈已上<orgName corresp="#斎宮寮"
-        >寮</orgName>供之、〉 <lb/>
+       、褥料絹三疋一丈六尺七寸、綿廿四屯、被料長絹十二疋、調綿八十四屯、服料絹百十疋、 綿百八十屯、襪料絁一疋、糸卌絇、履廿四両、〈已上 <orgName corresp="#斎宮寮"> 寮
+       </orgName> 供之、〉 <lb/>
        <s rendition="#indent"> 右、女部司縫備、其簾以上、随穢替之、 </s>
       </p>
       <app from="#app0510710101" to="#app0510710101e">
@@ -2828,13 +2864,12 @@
       </app>
       <p ana="項" corresp="engishiki_v5_ja.xml#item05107102 engishiki_v5_en.xml#item05107102"
        xml:id="item05107102">
-       両面一疋四丈、緋帛五丈七尺、油絁一疋三尺、絹三丈四尺、細布一丈六尺、曝布二丈四尺、綿一屯、糸一絇、麻一斤、水甕二口、水甕麻笥三口、韓竈四具、長刀子二枚、
-        短刀子五枚、砥一顆、〈以上<orgName corresp="#斎宮寮">寮</orgName>充之、〉膳案一脚、菓案一脚、筥笥三合、 <anchor
-        xml:id="app0510710201"/> 板 <anchor xml:id="app0510710201e"/>
-       笥二合、筯筥一合、麁筥五合、切案二脚、槲案二脚、大案二脚、韓櫃三合、 明櫃八合、 <pb
+       両面一疋四丈、緋帛五丈七尺、油絁一疋三尺、絹三丈四尺、細布一丈六尺、曝布二丈四尺、綿一屯、糸一絇、麻一斤、水甕二口、水甕麻笥三口、韓竈四具、長刀子二枚、 短刀子五枚、砥一顆、〈以上
+        <orgName corresp="#斎宮寮"> 寮 </orgName> 充之、〉膳案一脚、菓案一脚、筥笥三合、 <anchor xml:id="app0510710201"/> 板
+        <anchor xml:id="app0510710201e"/> 笥二合、筯筥一合、麁筥五合、切案二脚、槲案二脚、大案二脚、韓櫃三合、 明櫃八合、 <pb
         facs="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-5%2F00044.tif/full/full/0/default.jpg"
-       /> 大笥五合、別脚案二脚、横筥二合、缶十口、槽一隻、円槽二隻、席八枚、置簀六枚、臼一口、杵二枝、匏廿柄、笥杓廿柄、箕二枚、輦籠四脚、〈以上<placeName
-        corresp="#伊勢国">当国</placeName>充之、〉 <lb/>
+       /> 大笥五合、別脚案二脚、横筥二合、缶十口、槽一隻、円槽二隻、席八枚、置簀六枚、臼一口、杵二枝、匏廿柄、笥杓廿柄、箕二枚、輦籠四脚、〈以上 <placeName
+        corresp="#伊勢国"> 当国 </placeName> 充之、〉 <lb/>
        <s rendition="#indent"> 右、膳部司所請、 </s>
       </p>
       <app from="#app0510710201" to="#app0510710201e">
@@ -2844,9 +2879,9 @@
       </app>
       <p ana="項" corresp="engishiki_v5_ja.xml#item05107103 engishiki_v5_en.xml#item05107103"
        xml:id="item05107103"> 両面八尺、緋帛一丈二尺、油絁八尺、調布一 <anchor xml:id="app0510710301"/> 段 <anchor
-        xml:id="app0510710301e"/> 、〈已上<orgName corresp="#斎宮寮">寮</orgName>充之、〉碓一腰、杵二枝、箕二枚、 <anchor
-        xml:id="app0510710302"/> 枚 <anchor xml:id="app0510710302e"/> 槽一隻、明櫃三合、足別案二脚、〈已上<placeName
-        corresp="#伊勢国">当国</placeName>充之、〉 <lb/>
+        xml:id="app0510710301e"/> 、〈已上 <orgName corresp="#斎宮寮"> 寮 </orgName> 充之、〉碓一腰、杵二枝、箕二枚、
+        <anchor xml:id="app0510710302"/> 枚 <anchor xml:id="app0510710302e"/> 槽一隻、明櫃三合、足別案二脚、〈已上
+        <placeName corresp="#伊勢国"> 当国 </placeName> 充之、〉 <lb/>
        <s rendition="#indent"> 右、炊部司所請、 </s>
       </p>
       <app from="#app0510710301" to="#app0510710301e">
@@ -2864,9 +2899,9 @@
        xml:id="item05107104"> 両面四丈一尺九寸、緋帛二丈九尺九寸、油絁五丈、絹一丈九尺、細布二 <anchor xml:id="app0510710401"/> 段
         <anchor xml:id="app0510710401e"/> 七尺、調布三 <anchor xml:id="app0510710402"/> 段 <anchor
         xml:id="app0510710402e"/> 三丈五寸、庸布 <anchor xml:id="app0510710403"/> 三丈 <anchor
-        xml:id="app0510710403e"/> 、酒盞卌八具、片盤廿口、洗盤一口、糸二両、鍬二口、 筌十口、〈以上<orgName corresp="#斎宮寮"
-        >寮</orgName>充之、〉足別案二脚、韓櫃三合、明櫃一合、酒槽二隻、押槽一隻、大案二脚、匏廿柄、笥杓十柄、蘿二口、箕二枚、置簀四枚、薦四枚、〈以上<placeName
-        corresp="#伊勢国">当国</placeName>充之、〉 <lb/>
+        xml:id="app0510710403e"/> 、酒盞卌八具、片盤廿口、洗盤一口、糸二両、鍬二口、 筌十口、〈以上 <orgName corresp="#斎宮寮"> 寮
+       </orgName> 充之、〉足別案二脚、韓櫃三合、明櫃一合、酒槽二隻、押槽一隻、大案二脚、匏廿柄、笥杓十柄、蘿二口、箕二枚、置簀四枚、薦四枚、〈以上 <placeName
+        corresp="#伊勢国"> 当国 </placeName> 充之、〉 <lb/>
        <s rendition="#indent"> 右、酒部司所請、 </s>
       </p>
       <app from="#app0510710401" to="#app0510710401e">
@@ -2886,14 +2921,14 @@
         facs="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-5%2F00045.tif/full/full/0/default.jpg"
        /> 四尺、絹二丈四尺、薄 <anchor xml:id="app0510710501"/> 絹 <anchor xml:id="app0510710501e"/>
        一丈二尺、糸一両、曝布三丈四尺、細布三丈四尺、紵 <anchor xml:id="app0510710502"/> 布 <anchor xml:id="app0510710502e"/>
-       一丈、釿一 <anchor xml:id="app0510710503"/> 柄 <anchor xml:id="app0510710503e"/> 、小刀子二柄、
-        水甕麻笥二口、〈已上<orgName corresp="#斎宮寮">寮</orgName>充之、〉坩一口、陶 <anchor xml:id="app0510710504"/> 埦
-        <anchor xml:id="app0510710504e"/> 卅口、臼二口、盤十口、〈已上<placeName corresp="#美濃国"
-       >美濃国</placeName>充之、〉外居案二脚、白木手湯槽一隻、供水木蓋・後盤各四枚、大案二脚、 筥一合、麁筥二合、 <anchor xml:id="app0510710505"/>
-       土 <anchor xml:id="app0510710505e"/> 火爐一脚、明櫃二合、匏五柄、笥杓五柄、箕 <anchor xml:id="app0510710506"/> 十
-        <anchor xml:id="app0510710506e"/>
-       <anchor xml:id="app0510710507"/> 枚 <anchor xml:id="app0510710507e"/> 、〈已上<placeName
-        corresp="#伊勢国">当国</placeName>充之、〉 <lb/>
+       一丈、釿一 <anchor xml:id="app0510710503"/> 柄 <anchor xml:id="app0510710503e"/> 、小刀子二柄、 水甕麻笥二口、〈已上
+        <orgName corresp="#斎宮寮"> 寮 </orgName> 充之、〉坩一口、陶 <anchor xml:id="app0510710504"/> 埦 <anchor
+        xml:id="app0510710504e"/> 卅口、臼二口、盤十口、〈已上 <placeName corresp="#美濃国"> 美濃国 </placeName>
+       充之、〉外居案二脚、白木手湯槽一隻、供水木蓋・後盤各四枚、大案二脚、 筥一合、麁筥二合、 <anchor xml:id="app0510710505"/> 土 <anchor
+        xml:id="app0510710505e"/> 火爐一脚、明櫃二合、匏五柄、笥杓五柄、箕 <anchor xml:id="app0510710506"/> 十 <anchor
+        xml:id="app0510710506e"/>
+       <anchor xml:id="app0510710507"/> 枚 <anchor xml:id="app0510710507e"/> 、〈已上 <placeName
+        corresp="#伊勢国"> 当国 </placeName> 充之、〉 <lb/>
        <s rendition="#indent"> 右、水部司所請、 </s>
       </p>
       <app from="#app0510710501" to="#app0510710501e">
@@ -2935,11 +2970,10 @@
       <p ana="項" corresp="engishiki_v5_ja.xml#item05107106 engishiki_v5_en.xml#item05107106"
        xml:id="item05107106"> 両面二丈六尺三寸、緋帛四疋三丈七尺、油絁二疋五丈九尺二寸、白絁六尺、絹五丈三尺五寸、曝布九 <anchor
         xml:id="app0510710601"/> 段 <anchor xml:id="app0510710601e"/> 二丈一尺七寸、紵布六尺、調布二丈九尺、糸二分、楉案一脚、
-        油坏・盤各三口、鉄火取堝一口、鉄五廷、鍬二口、〈以上<orgName corresp="#斎宮寮"
-       >寮</orgName>充之、〉湯槽一隻、洗床一張、大案二脚、木蓋五枚、洗頭槽一隻、洗足槽一隻、
-        洗物槽一隻、韓櫃二合、灯台二具、明櫃二合、筥二合、麁筥二合、匏三柄、〈已上<placeName corresp="#伊勢国"
-        >当国</placeName>充之、〉池由加一口、由加四口、匜一口、𤭅一口、缶二口、叩盆四口、〈以上<placeName corresp="#美濃国"
-       >美濃国</placeName>充之、〉 <lb/>
+       油坏・盤各三口、鉄火取堝一口、鉄五廷、鍬二口、〈以上 <orgName corresp="#斎宮寮"> 寮 </orgName>
+       充之、〉湯槽一隻、洗床一張、大案二脚、木蓋五枚、洗頭槽一隻、洗足槽一隻、 洗物槽一隻、韓櫃二合、灯台二具、明櫃二合、筥二合、麁筥二合、匏三柄、〈已上 <placeName
+        corresp="#伊勢国"> 当国 </placeName> 充之、〉池由加一口、由加四口、匜一口、𤭅一口、缶二口、叩盆四口、〈以上 <placeName
+        corresp="#美濃国"> 美濃国 </placeName> 充之、〉 <lb/>
        <pb
         facs="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-5%2F00046.tif/full/full/0/default.jpg"/>
        <s rendition="#indent"> 右、殿部司所請、 </s>
@@ -2949,8 +2983,8 @@
        <note> 段　訳注本「端」に意改。諸本「段」。 </note>
       </app>
       <p ana="項" corresp="engishiki_v5_ja.xml#item05107107 engishiki_v5_en.xml#item05107107"
-       xml:id="item05107107"> 錦・緋帛各一丈七尺六寸、黄帛一疋四丈四尺四寸、油絁一疋四尺、払細布一丈二尺、〈已上<orgName corresp="#斎宮寮"
-        >寮</orgName>充之、〉筥一合、〈<placeName corresp="#伊勢国">当国</placeName>充之、〉 <lb/>
+       xml:id="item05107107"> 錦・緋帛各一丈七尺六寸、黄帛一疋四丈四尺四寸、油絁一疋四尺、払細布一丈二尺、〈已上 <orgName corresp="#斎宮寮"> 寮
+       </orgName> 充之、〉筥一合、〈 <placeName corresp="#伊勢国"> 当国 </placeName> 充之、〉 <lb/>
        <s rendition="#indent"> 右、 <anchor xml:id="app0510710701"/> 掃 <anchor xml:id="app0510710701e"
         /> 部司所請、 </s>
       </p>
@@ -2988,12 +3022,12 @@
         <anchor xml:id="app0510710910e"/> 葜一両一分、
        酢二斗五升、砥一顆、両面九尺六寸、油絁九尺六寸、帛四丈一尺、緋帛一丈五寸、絹八尺、紗三尺、布三丈五尺、糸二両、木綿七両、紙八十四張、〈已上 <pb
         facs="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-5%2F00048.tif/full/full/0/default.jpg"/>
-       <orgName corresp="#斎宮寮">寮</orgName>充之、〉 陶坩・叩盆各四口、陶手洗一口、陶椀二合、盤二口、〈已上<placeName corresp="#美濃国"
-        >美濃国</placeName>充之、〉筥二合、机二脚、折櫃一合、明櫃一合、大案一脚、麻笥一口、杓一柄、大笥一合、〈已上<placeName corresp="#伊勢国"
-        >当国</placeName>充之、〉 薬刀一具、鉄臼一口、杵一 <anchor xml:id="app0510710911"/> 枚 <anchor
+       <orgName corresp="#斎宮寮"> 寮 </orgName> 充之、〉 陶坩・叩盆各四口、陶手洗一口、陶椀二合、盤二口、〈已上 <placeName
+        corresp="#美濃国"> 美濃国 </placeName> 充之、〉筥二合、机二脚、折櫃一合、明櫃一合、大案一脚、麻笥一口、杓一柄、大笥一合、〈已上 <placeName
+        corresp="#伊勢国"> 当国 </placeName> 充之、〉 薬刀一具、鉄臼一口、杵一 <anchor xml:id="app0510710911"/> 枚 <anchor
         xml:id="app0510710911e"/> 、銅鍋一口、銅升一口、〈薬刀以下長用、〉合薬明衣料絹一疋、綿二屯、〈長 <anchor xml:id="app0510710912"
-       /> 料 <anchor xml:id="app0510710912e"/> 、〉調布二丈、〈生料、〉
-        正月供屠蘇命婦以下、嘗薬小児以上服料、帛十疋、綿廿屯、〈帛用斎王生気色、並<orgName corresp="#斎宮寮">寮</orgName>充之、〉 <lb/>
+       /> 料 <anchor xml:id="app0510710912e"/> 、〉調布二丈、〈生料、〉 正月供屠蘇命婦以下、嘗薬小児以上服料、帛十疋、綿廿屯、〈帛用斎王生気色、並
+        <orgName corresp="#斎宮寮"> 寮 </orgName> 充之、〉 <lb/>
        <s rendition="#indent"> 右、薬部司所請、 </s>
       </p>
       <app from="#app0510710901" to="#app0510710901e">
@@ -3056,7 +3090,7 @@
        <note> 料　土本等「用」。考異に従い意改する。 </note>
       </app>
       <p ana="項" corresp="engishiki_v5_ja.xml#item05107110 engishiki_v5_en.xml#item05107110"
-       xml:id="item05107110"> 緋帛・紫帛・油絁各二丈七尺六寸、麻卅斤、〈已上<orgName corresp="#斎宮寮">寮</orgName>充之、〉 <lb/>
+       xml:id="item05107110"> 緋帛・紫帛・油絁各二丈七尺六寸、麻卅斤、〈已上 <orgName corresp="#斎宮寮"> 寮 </orgName> 充之、〉 <lb/>
        <s rendition="#indent"> 右、馬部司所請、 </s>
       </p>
      </div>
@@ -3074,8 +3108,8 @@
       <p ana="項" corresp="engishiki_v5_ja.xml#item05107301 engishiki_v5_en.xml#item05107301"
        xml:id="item05107301"> 凡元日斎内親王遥拝大神宮、訖開宮南門、頭已下於門外拝賀斎王、其禄法、頭絹四疋、綿廿屯、助絹二疋、綿八屯、允絹二疋、
        主神中臣・忌部、舎人・蔵部・膳部・門 <anchor xml:id="app0510730101"/> 部 <anchor xml:id="app0510730101e"/>
-       長各絹一疋、布二 <anchor xml:id="app0510730102"/> 段 <anchor xml:id="app0510730102e"/> 、<orgName
-        corresp="#斎宮寮">寮</orgName>属、舎人判官、諸司長各絹一疋、布一 <anchor xml:id="app0510730103"/> 段 <anchor
+       長各絹一疋、布二 <anchor xml:id="app0510730102"/> 段 <anchor xml:id="app0510730102e"/> 、 <orgName
+        corresp="#斎宮寮"> 寮 </orgName> 属、舎人判官、諸司長各絹一疋、布一 <anchor xml:id="app0510730103"/> 段 <anchor
         xml:id="app0510730103e"/> 、宮主、諸司主典各絹一疋、番上各布一 <anchor xml:id="app0510730104"/> 段 <anchor
         xml:id="app0510730104e"/> 、 命婦准頭、外位者絹三疋、綿十屯、乳母及上等女孺各絹二疋、中等女孺絹一疋、下等女孺布一 <anchor
         xml:id="app0510730105"/> 段 <anchor xml:id="app0510730105e"/> 、糸一絇、自余雑色庸布各一段、 三日大神宮司等拝
@@ -3133,12 +3167,11 @@
      <div ana="斎宮" n="5.76" subtype="項" type="条">
       <head ana="官人禄"/>
       <p ana="項" corresp="engishiki_v5_ja.xml#item05107601 engishiki_v5_en.xml#item05107601"
-       xml:id="item05107601"> 凡<orgName corresp="#斎宮寮">寮</orgName>官人以下春秋禄者、以<placeName
-        corresp="#伊勢国">当国</placeName>神税充之、夏冬服<orgName corresp="#斎宮寮"
-       >寮</orgName>家賜之、夏男各絹四丈五尺、女絹一疋、但中等以下女孺各絹三丈、
-       今良女・女丁各絹三丈、庸布二段、火炬小子各絹二疋、調布二丈、冬男各絹一疋三丈、綿四屯、女絹一疋、綿二屯、 今良女各絹一疋、布一 <anchor
-        xml:id="app0510760101"/> 段 <anchor xml:id="app0510760101e"/> 、綿二屯、火 <anchor
-        xml:id="app0510760102"/> 炬 <anchor xml:id="app0510760102e"/> 小子各絹四丈、布一 <anchor
+       xml:id="item05107601"> 凡 <orgName corresp="#斎宮寮"> 寮 </orgName> 官人以下春秋禄者、以 <placeName
+        corresp="#伊勢国"> 当国 </placeName> 神税充之、夏冬服 <orgName corresp="#斎宮寮"> 寮 </orgName>
+       家賜之、夏男各絹四丈五尺、女絹一疋、但中等以下女孺各絹三丈、 今良女・女丁各絹三丈、庸布二段、火炬小子各絹二疋、調布二丈、冬男各絹一疋三丈、綿四屯、女絹一疋、綿二屯、
+       今良女各絹一疋、布一 <anchor xml:id="app0510760101"/> 段 <anchor xml:id="app0510760101e"/> 、綿二屯、火
+        <anchor xml:id="app0510760102"/> 炬 <anchor xml:id="app0510760102e"/> 小子各絹四丈、布一 <anchor
         xml:id="app0510760103"/> 段 <anchor xml:id="app0510760103e"/>
        、綿二屯、女丁各絹一疋、綿二屯、庸布一段、自余駆仕丁夏庸布一段、冬布一 <anchor xml:id="app0510760104"/> 段 <anchor
         xml:id="app0510760104e"/> 、綿二屯、 </p>
@@ -3163,13 +3196,13 @@
      <div ana="斎宮" n="5.77" subtype="項" type="条">
       <head ana="供田墾田"/>
       <p ana="項" corresp="engishiki_v5_ja.xml#item05107701 engishiki_v5_en.xml#item05107701"
-       xml:id="item05107701"> 凡斎内親王到国、初年割正税七百束、供用年料之膳、当郡毎月舂送<orgName corresp="#斎宮寮"
-       >寮</orgName>家、後年用供 <pb
+       xml:id="item05107701"> 凡斎内親王到国、初年割正税七百束、供用年料之膳、当郡毎月舂送 <orgName corresp="#斎宮寮"> 寮 </orgName>
+       家、後年用供 <pb
         facs="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-5%2F00051.tif/full/full/0/default.jpg"
        /> 田稲、其供田二町、〈一町在多気郡、一町在度会郡、〉 外供田四町、〈三町在多気郡、一町在飯野郡、〉墾田廿七町八段一百十七歩、〈十七町七十一歩在多気郡、十町八段 <anchor
-        xml:id="app0510770101"/> 卌 <anchor xml:id="app0510770101e"/> 六歩在飯野郡、〉其外供田地子稲者、 勘納<orgName
-        corresp="#斎宮寮">寮</orgName>家、充供御之闕乏、墾田准郷土估賃租、充<orgName corresp="#斎宮寮">寮</orgName>家 <anchor
-        xml:id="app0510770102"/> 雑 <anchor xml:id="app0510770102e"/> 用、 </p>
+        xml:id="app0510770101"/> 卌 <anchor xml:id="app0510770101e"/> 六歩在飯野郡、〉其外供田地子稲者、 勘納 <orgName
+        corresp="#斎宮寮"> 寮 </orgName> 家、充供御之闕乏、墾田准郷土估賃租、充 <orgName corresp="#斎宮寮"> 寮 </orgName> 家
+        <anchor xml:id="app0510770102"/> 雑 <anchor xml:id="app0510770102e"/> 用、 </p>
       <app from="#app0510770101" to="#app0510770101e">
        <lem wit="#条本 #九冊本"> 卌 </lem>
        <rdg wit="#土本"> 卅 </rdg>
@@ -3186,33 +3219,34 @@
      <div ana="斎宮" n="5.78" subtype="項" type="条">
       <head ana="調庸雑物"/>
       <p ana="項" corresp="engishiki_v5_ja.xml#item05107801 engishiki_v5_en.xml#item05107801"
-       xml:id="item05107801"> 凡<placeName corresp="#伊賀国 #伊勢国 #志摩国 #尾張国 #参河国 
-       #遠江国 #駿河国 #伊豆国 #相摸国 #安房国 #上総国 #下総国 #常陸国 #近江国 #美濃国 #飛騨国 #信濃国 #上野国 
-       ">諸国</placeName>送納調庸并請受京庫雑物、積貯<orgName corresp="#斎宮寮"
-        >寮</orgName>庫、支配雑用、絹・絁七百疋、〈<placeName corresp="#伊勢国">伊 <anchor xml:id="app0510780101"/> 勢
-         <anchor xml:id="app0510780101e"/></placeName> 三百疋、<placeName corresp="#尾張国"
-        >尾張</placeName>長絹廿疋、<placeName corresp="#参河国">参河</placeName>白絹卅疋、<placeName corresp="#遠江国"
-        >遠江</placeName>絹一百五十疋、<placeName corresp="#駿河国">駿河</placeName>絹一百疋、<placeName corresp="#相摸国"
-        >相摸</placeName>絹五十疋、<placeName corresp="#美濃国">美濃</placeName>絹五十疋、〉 糸三百絇、〈<placeName
-        corresp="#尾張国">尾張</placeName>調二百絇、<placeName corresp="#遠江国"
-        >遠江</placeName>庸一百絇、〉庸綿一千一百屯、〈<placeName corresp="#相摸国">相摸</placeName>、〉布一千 <anchor
-        xml:id="app0510780102"/> 段 <anchor xml:id="app0510780102e"/> 、〈<placeName corresp="#上総国"
-        >上総</placeName>細布一百 <anchor xml:id="app0510780103"/> 段 <anchor xml:id="app0510780103e"/>
-        、<placeName corresp="#常陸国">常陸</placeName>調布一百 <anchor xml:id="app0510780104"/> 段 <anchor
-        xml:id="app0510780104e"/> 、<placeName corresp="#相摸国">相摸</placeName>五百 <anchor
-        xml:id="app0510780105"/> 段 <anchor xml:id="app0510780105e"/> 、<placeName corresp="#下総国"
-        >下総</placeName>三百 <anchor xml:id="app0510780106"/> 段 <anchor xml:id="app0510780106e"/>
-        、〉庸布八百五十段、〈<placeName corresp="#上野国">上野</placeName>六百五十段、<placeName corresp="#駿河国"
-        >駿河</placeName>二百段、〉 倭文二 <anchor xml:id="app0510780107"/> 疋 <anchor xml:id="app0510780107e"
-       /> 、〈<placeName corresp="#常陸国">常陸</placeName>、〉木綿三百斤、〈<placeName corresp="#伊豆国"
-        >伊豆</placeName>二百五十二斤、<placeName corresp="#遠江国">遠江</placeName>
-       <anchor xml:id="app0510780108"/> 卌 <anchor xml:id="app0510780108e"/>
-        八斤、〉麻四百斤、熟麻一百斤、〈已上<placeName corresp="#下総国">下総</placeName>、〉熊皮八張、〈<placeName corresp="#信濃国"
-        >信濃</placeName>、〉亀甲十二枚、〈<placeName corresp="#志摩国">志摩</placeName>、〉 履卅両、紙一千張、〈已上<placeName
-        corresp="#伊勢国">伊勢</placeName>、〉筆二百廿八管、〈<placeName corresp="#伊勢国"
-        >伊勢</placeName>一百管、<placeName corresp="#尾張国">尾張</placeName>一百管、<placeName corresp="#美濃国"
-        >美濃</placeName>廿八管、〉両面三疋三丈、緋帛七疋 <anchor xml:id="app0510780109"/> 三丈 <anchor
-        xml:id="app0510780109e"/> 、錦一丈七尺六寸、油絁八疋一丈、 </p>
+       xml:id="item05107801"> 凡 <placeName
+        corresp="#伊賀国 #伊勢国 #志摩国 #尾張国 #参河国         #遠江国 #駿河国 #伊豆国 #相摸国 #安房国 #上総国 #下総国 #常陸国 #近江国 #美濃国 #飛騨国 #信濃国 #上野国         "
+        > 諸国 </placeName> 送納調庸并請受京庫雑物、積貯 <orgName corresp="#斎宮寮"> 寮 </orgName> 庫、支配雑用、絹・絁七百疋、〈
+        <placeName corresp="#伊勢国"> 伊 <anchor xml:id="app0510780101"/> 勢 <anchor
+         xml:id="app0510780101e"/>
+       </placeName> 三百疋、 <placeName corresp="#尾張国"> 尾張 </placeName> 長絹廿疋、 <placeName corresp="#参河国">
+        参河 </placeName> 白絹卅疋、 <placeName corresp="#遠江国"> 遠江 </placeName> 絹一百五十疋、 <placeName
+        corresp="#駿河国"> 駿河 </placeName> 絹一百疋、 <placeName corresp="#相摸国"> 相摸 </placeName> 絹五十疋、
+        <placeName corresp="#美濃国"> 美濃 </placeName> 絹五十疋、〉 糸三百絇、〈 <placeName corresp="#尾張国"> 尾張
+       </placeName> 調二百絇、 <placeName corresp="#遠江国"> 遠江 </placeName> 庸一百絇、〉庸綿一千一百屯、〈 <placeName
+        corresp="#相摸国"> 相摸 </placeName> 、〉布一千 <anchor xml:id="app0510780102"/> 段 <anchor
+        xml:id="app0510780102e"/> 、〈 <placeName corresp="#上総国"> 上総 </placeName> 細布一百 <anchor
+        xml:id="app0510780103"/> 段 <anchor xml:id="app0510780103e"/> 、 <placeName corresp="#常陸国"> 常陸
+       </placeName> 調布一百 <anchor xml:id="app0510780104"/> 段 <anchor xml:id="app0510780104e"/> 、
+        <placeName corresp="#相摸国"> 相摸 </placeName> 五百 <anchor xml:id="app0510780105"/> 段 <anchor
+        xml:id="app0510780105e"/> 、 <placeName corresp="#下総国"> 下総 </placeName> 三百 <anchor
+        xml:id="app0510780106"/> 段 <anchor xml:id="app0510780106e"/> 、〉庸布八百五十段、〈 <placeName
+        corresp="#上野国"> 上野 </placeName> 六百五十段、 <placeName corresp="#駿河国"> 駿河 </placeName> 二百段、〉 倭文二
+        <anchor xml:id="app0510780107"/> 疋 <anchor xml:id="app0510780107e"/> 、〈 <placeName
+        corresp="#常陸国"> 常陸 </placeName> 、〉木綿三百斤、〈 <placeName corresp="#伊豆国"> 伊豆 </placeName> 二百五十二斤、
+        <placeName corresp="#遠江国"> 遠江 </placeName>
+       <anchor xml:id="app0510780108"/> 卌 <anchor xml:id="app0510780108e"/> 八斤、〉麻四百斤、熟麻一百斤、〈已上
+        <placeName corresp="#下総国"> 下総 </placeName> 、〉熊皮八張、〈 <placeName corresp="#信濃国"> 信濃
+       </placeName> 、〉亀甲十二枚、〈 <placeName corresp="#志摩国"> 志摩 </placeName> 、〉 履卅両、紙一千張、〈已上 <placeName
+        corresp="#伊勢国"> 伊勢 </placeName> 、〉筆二百廿八管、〈 <placeName corresp="#伊勢国"> 伊勢 </placeName> 一百管、
+        <placeName corresp="#尾張国"> 尾張 </placeName> 一百管、 <placeName corresp="#美濃国"> 美濃 </placeName>
+       廿八管、〉両面三疋三丈、緋帛七疋 <anchor xml:id="app0510780109"/> 三丈 <anchor xml:id="app0510780109e"/>
+       、錦一丈七尺六寸、油絁八疋一丈、 </p>
       <app from="#app0510780101" to="#app0510780101e">
        <lem wit="#土本 #条本"> 勢 </lem>
        <note> 勢　この下に訳注本は「絁」を意補。諸本無し。 </note>
@@ -3248,7 +3282,7 @@
       </app>
       <app from="#app0510780109" to="#app0510780109e">
        <lem wit="#土本"> 三丈 </lem>
-       <note> 条本 「<del> 三丈 </del>」 </note>
+       <note> 条本 「 <del> 三丈 </del> 」 </note>
        <note> 三丈　条本は朱抹。 </note>
       </app>
       <p ana="項" corresp="engishiki_v5_ja.xml#item05107802 engishiki_v5_en.xml#item05107802"
@@ -3259,20 +3293,20 @@
        <note> 六　訳注本は上文71条により「八」に意改。諸本「六」。 </note>
       </app>
       <p ana="項" corresp="engishiki_v5_ja.xml#item05107803 engishiki_v5_en.xml#item05107803"
-       xml:id="item05107803"> 庸米一千六百六十七石五斗、〈<placeName corresp="#伊賀国">伊賀</placeName>三百 <anchor
-        xml:id="app0510780301"/> 卌 <anchor xml:id="app0510780301e"/> 二石、<placeName corresp="#伊勢国"
-        >伊勢</placeName>四百七十三石二斗、<placeName corresp="#参河国">参河</placeName>五百五十九石三斗、<placeName
-        corresp="#美濃国">美濃</placeName>二百九十三石、〉 舂米一千 <pb
+       xml:id="item05107803"> 庸米一千六百六十七石五斗、〈 <placeName corresp="#伊賀国"> 伊賀 </placeName> 三百 <anchor
+        xml:id="app0510780301"/> 卌 <anchor xml:id="app0510780301e"/> 二石、 <placeName corresp="#伊勢国">
+        伊勢 </placeName> 四百七十三石二斗、 <placeName corresp="#参河国"> 参河 </placeName> 五百五十九石三斗、 <placeName
+        corresp="#美濃国"> 美濃 </placeName> 二百九十三石、〉 舂米一千 <pb
         facs="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-5%2F00052.tif/full/full/0/default.jpg"
-       /> 三百卅四石八斗、〈<placeName corresp="#伊勢国">伊勢</placeName>五百卅四石八斗、就中黒米三百九十五石、<placeName
-        corresp="#尾張国">尾張</placeName>二百石、<placeName corresp="#参河国">参河</placeName>二百石、<placeName
-        corresp="#美濃国">美濃</placeName>四百石、〉
-        糯米十石、小麦十石、大麦一石、粟三石六斗、大豆・小豆各六石、醤大豆十八石、胡麻子一石、葟子一石、〈已上<placeName corresp="#伊勢国"
-       >伊勢</placeName>、〉 黍子一石、〈<placeName corresp="#参河国">参河</placeName>、〉塩八十石、〈<placeName
-        corresp="#志摩国">志摩</placeName>十五石、<placeName corresp="#尾張国"
-        >尾張</placeName>六十五石、〉胡麻油三石、〈<placeName corresp="#遠江国">遠江</placeName>、〉槾椒油四 <anchor
-        xml:id="app0510780302"/> 斗 <anchor xml:id="app0510780302e"/> 四升、〈<placeName corresp="#伊勢国"
-        >伊勢</placeName>、〉 </p>
+       /> 三百卅四石八斗、〈 <placeName corresp="#伊勢国"> 伊勢 </placeName> 五百卅四石八斗、就中黒米三百九十五石、 <placeName
+        corresp="#尾張国"> 尾張 </placeName> 二百石、 <placeName corresp="#参河国"> 参河 </placeName> 二百石、
+        <placeName corresp="#美濃国"> 美濃 </placeName> 四百石、〉
+       糯米十石、小麦十石、大麦一石、粟三石六斗、大豆・小豆各六石、醤大豆十八石、胡麻子一石、葟子一石、〈已上 <placeName corresp="#伊勢国"> 伊勢
+       </placeName> 、〉 黍子一石、〈 <placeName corresp="#参河国"> 参河 </placeName> 、〉塩八十石、〈 <placeName
+        corresp="#志摩国"> 志摩 </placeName> 十五石、 <placeName corresp="#尾張国"> 尾張 </placeName>
+       六十五石、〉胡麻油三石、〈 <placeName corresp="#遠江国"> 遠江 </placeName> 、〉槾椒油四 <anchor
+        xml:id="app0510780302"/> 斗 <anchor xml:id="app0510780302e"/> 四升、〈 <placeName corresp="#伊勢国">
+        伊勢 </placeName> 、〉 </p>
       <app from="#app0510780301" to="#app0510780301e">
        <lem wit="#条本 #九冊本"> 卌 </lem>
        <rdg wit="#土本"> 卅 </rdg>
@@ -3285,22 +3319,22 @@
        <note> 斗　土本「升」、傍書「斗歟」。九冊本・京博本等により改める。 </note>
       </app>
       <p ana="項" corresp="engishiki_v5_ja.xml#item05107804 engishiki_v5_en.xml#item05107804"
-       xml:id="item05107804"> 東鰒三百斤、〈<placeName corresp="#安房国">安房</placeName>、〉堅魚五百斤、〈<placeName
-        corresp="#志摩国">志摩</placeName>二百八十八斤、<placeName corresp="#伊豆国">伊豆</placeName>二百十二斤、〉
-        煮堅魚一百卌四斤、〈<placeName corresp="#駿河国">駿河</placeName>、〉堅魚煎四斗、〈<placeName corresp="#伊豆国"
-        >伊豆</placeName>、〉猪膏三斗、楚割鮭一百廿隻、〈已上<placeName corresp="#信濃国"
-        >信濃</placeName>、〉煮塩年魚二石、鮨年魚一石、〈<placeName corresp="#伊勢国">伊勢</placeName>、〉醤鮒三石、〈<placeName
-        corresp="#近江国">近江</placeName>、〉 鳥腊十斤、〈<placeName corresp="#尾張国"
-        >尾張</placeName>、〉鯛楚割九十斤、貼貝鮨一石八斗、鯛枚乾一百斤、〈已上<placeName corresp="#参河国"
-        >参河</placeName>、〉雑腊五石、〈<placeName corresp="#志摩国">志摩</placeName>二石、<placeName corresp="#尾張国"
-        >尾張</placeName>二石、<placeName corresp="#遠江国">遠江</placeName>一石、〉 <anchor
-        xml:id="app0510780401"/> 腸 <anchor xml:id="app0510780401e"/> 漬鰒七斗、〈<placeName corresp="#相摸国"
-        >相摸</placeName>、〉雑魚鮨十石、〈<placeName corresp="#伊勢国">伊勢</placeName>・<placeName corresp="#尾張国"
-        >尾張</placeName>各五石、〉熬海鼠一百斤、鮨鰒二石、雑鰒三百卌四斤、海藻三百九斤十四両、凝海菜三百卌斤、〈已上<placeName corresp="#志摩国"
-        >志摩</placeName>、〉 芡菜十囲、〈<placeName corresp="#尾張国">尾張</placeName>、〉甘葛煎一斗、〈<placeName
-        corresp="#伊勢国">伊勢</placeName>、〉芥子五斗、〈<placeName corresp="#信濃国"
-        >信濃</placeName>、〉山薑二斗、〈<placeName corresp="#飛騨国">飛騨</placeName>、〉陶器六百九十六口、〈<placeName
-        corresp="#美濃国">美濃</placeName>、〉贄直稲日別二束、〈<placeName corresp="#伊勢国">伊勢</placeName>、〉 </p>
+       xml:id="item05107804"> 東鰒三百斤、〈 <placeName corresp="#安房国"> 安房 </placeName> 、〉堅魚五百斤、〈
+        <placeName corresp="#志摩国"> 志摩 </placeName> 二百八十八斤、 <placeName corresp="#伊豆国"> 伊豆
+       </placeName> 二百十二斤、〉 煮堅魚一百卌四斤、〈 <placeName corresp="#駿河国"> 駿河 </placeName> 、〉堅魚煎四斗、〈
+        <placeName corresp="#伊豆国"> 伊豆 </placeName> 、〉猪膏三斗、楚割鮭一百廿隻、〈已上 <placeName corresp="#信濃国"> 信濃
+       </placeName> 、〉煮塩年魚二石、鮨年魚一石、〈 <placeName corresp="#伊勢国"> 伊勢 </placeName> 、〉醤鮒三石、〈 <placeName
+        corresp="#近江国"> 近江 </placeName> 、〉 鳥腊十斤、〈 <placeName corresp="#尾張国"> 尾張 </placeName>
+       、〉鯛楚割九十斤、貼貝鮨一石八斗、鯛枚乾一百斤、〈已上 <placeName corresp="#参河国"> 参河 </placeName> 、〉雑腊五石、〈 <placeName
+        corresp="#志摩国"> 志摩 </placeName> 二石、 <placeName corresp="#尾張国"> 尾張 </placeName> 二石、
+        <placeName corresp="#遠江国"> 遠江 </placeName> 一石、〉 <anchor xml:id="app0510780401"/> 腸 <anchor
+        xml:id="app0510780401e"/> 漬鰒七斗、〈 <placeName corresp="#相摸国"> 相摸 </placeName> 、〉雑魚鮨十石、〈
+        <placeName corresp="#伊勢国"> 伊勢 </placeName> ・ <placeName corresp="#尾張国"> 尾張 </placeName>
+       各五石、〉熬海鼠一百斤、鮨鰒二石、雑鰒三百卌四斤、海藻三百九斤十四両、凝海菜三百卌斤、〈已上 <placeName corresp="#志摩国"> 志摩 </placeName> 、〉
+       芡菜十囲、〈 <placeName corresp="#尾張国"> 尾張 </placeName> 、〉甘葛煎一斗、〈 <placeName corresp="#伊勢国"> 伊勢
+       </placeName> 、〉芥子五斗、〈 <placeName corresp="#信濃国"> 信濃 </placeName> 、〉山薑二斗、〈 <placeName
+        corresp="#飛騨国"> 飛騨 </placeName> 、〉陶器六百九十六口、〈 <placeName corresp="#美濃国"> 美濃 </placeName>
+       、〉贄直稲日別二束、〈 <placeName corresp="#伊勢国"> 伊勢 </placeName> 、〉 </p>
       <app from="#app0510780401" to="#app0510780401e">
        <lem wit="#土本傍訓 #条本傍訓"> 腸 </lem>
        <rdg wit="#土本 #条本"> 腹 </rdg>
@@ -3331,8 +3365,8 @@
      <div ana="斎宮" n="5.79" subtype="項" type="条">
       <head ana="官人入京"/>
       <p ana="項" corresp="engishiki_v5_ja.xml#item05107901 engishiki_v5_en.xml#item05107901"
-       xml:id="item05107901"> 凡<orgName corresp="#斎宮寮"
-       >寮</orgName>官人縁公事入京者、聴乗駅馬、五位四疋、八位以上三疋、初位以下二疋、〈女亦同、〉 </p>
+       xml:id="item05107901"> 凡 <orgName corresp="#斎宮寮"> 寮 </orgName>
+       官人縁公事入京者、聴乗駅馬、五位四疋、八位以上三疋、初位以下二疋、〈女亦同、〉 </p>
      </div>
      <div ana="斎宮" n="5.80" subtype="項" type="条">
       <head ana="戸座炬火"/>
@@ -3343,7 +3377,7 @@
       <head ana="名簿"/>
       <p ana="項" corresp="engishiki_v5_ja.xml#item05108101 engishiki_v5_en.xml#item05108101"
        xml:id="item05108101"> 凡遷入野宮之後、及到斎宮、毎月下旬、雑色及仕女已上名簿、移送於主神司、随即卜之、亦至六月・九月・十一月・十二月、更亦卜之、
-        預供祭事、〈但野宮不為祭卜、〉其<orgName corresp="#斎宮寮">寮</orgName>吏諸司卜食已訖、行列就版位、于時中臣官人命云、兆竹・折 <anchor
+       預供祭事、〈但野宮不為祭卜、〉其 <orgName corresp="#斎宮寮"> 寮 </orgName> 吏諸司卜食已訖、行列就版位、于時中臣官人命云、兆竹・折 <anchor
         xml:id="app0510810101"/> 箸 <anchor xml:id="app0510810101e"/> 事祓清供奉、 <anchor
         xml:id="app0510810102"/> 共 <anchor xml:id="app0510810102e"/> 称唯退出、内侍・采女・女孺已下在座承命、
        不卜食者、不得参供宮中、〈野宮者内院忌之、斎宮者宮中皆忌、〉 </p>
@@ -3370,7 +3404,7 @@
      <div ana="斎宮" n="5.83" subtype="項" type="条">
       <head ana="封戸"/>
       <p ana="項" corresp="engishiki_v5_ja.xml#item05108301 engishiki_v5_en.xml#item05108301"
-       xml:id="item05108301"> 凡以大神宮封戸百姓、不得輙補<orgName corresp="#斎宮寮">寮</orgName>舎人、 </p>
+       xml:id="item05108301"> 凡以大神宮封戸百姓、不得輙補 <orgName corresp="#斎宮寮"> 寮 </orgName> 舎人、 </p>
      </div>
      <div ana="斎宮" n="5.84" subtype="項" type="条">
       <head ana="神殿勤守"/>
@@ -3388,19 +3422,19 @@
      <div ana="斎宮" n="5.85" subtype="項" type="条">
       <head ana="諸司雑舎"/>
       <p ana="項" corresp="engishiki_v5_ja.xml#item05108501 engishiki_v5_en.xml#item05108501"
-       xml:id="item05108501"> 凡内院及諸司雑舎者、造宮使作畢之後、<orgName corresp="#斎宮寮"
-        >寮</orgName>官毎季巡検、若居住官人致損、奪其俸料、<orgName corresp="#斎宮寮">寮</orgName>官懈怠不勤巡検、譴責之法、亦同諸司、 </p>
+       xml:id="item05108501"> 凡内院及諸司雑舎者、造宮使作畢之後、 <orgName corresp="#斎宮寮"> 寮 </orgName>
+       官毎季巡検、若居住官人致損、奪其俸料、 <orgName corresp="#斎宮寮"> 寮 </orgName> 官懈怠不勤巡検、譴責之法、亦同諸司、 </p>
      </div>
      <div ana="斎宮" n="5.86" subtype="項" type="条">
       <head ana="中重庭"/>
       <p ana="項" corresp="engishiki_v5_ja.xml#item05108601 engishiki_v5_en.xml#item05108601"
-       xml:id="item05108601"> 凡中重庭者、須令諸司毎晦掃除、<orgName corresp="#斎宮寮">寮</orgName>官逓加巡検、若致緩怠、譴責同上条、
-      </p>
+       xml:id="item05108601"> 凡中重庭者、須令諸司毎晦掃除、 <orgName corresp="#斎宮寮"> 寮 </orgName>
+       官逓加巡検、若致緩怠、譴責同上条、 </p>
      </div>
      <div ana="斎宮" n="5.87" subtype="項" type="条">
       <head ana="御膳"/>
       <p ana="項" corresp="engishiki_v5_ja.xml#item05108701 engishiki_v5_en.xml#item05108701"
-       xml:id="item05108701"> 凡朝夕御膳、若致闕乏、科責<orgName corresp="#斎宮寮">寮</orgName>官并膳部司、 </p>
+       xml:id="item05108701"> 凡朝夕御膳、若致闕乏、科責 <orgName corresp="#斎宮寮"> 寮 </orgName> 官并膳部司、 </p>
      </div>
      <div ana="斎宮" n="5.88" subtype="項" type="条">
       <head ana="殖樹木"/>
@@ -3417,9 +3451,9 @@
       <head ana="修理"/>
       <p ana="項" corresp="engishiki_v5_ja.xml#item05108901 engishiki_v5_en.xml#item05108901"
        xml:id="item05108901"> 凡仕丁卌八人之中、六人 <anchor xml:id="app0510890101"/> 分充 <anchor
-        xml:id="app0510890101e"/> 造<orgName corresp="#斎宮寮">寮</orgName>并厨家之料、便<orgName corresp="#斎宮寮"
-        >寮</orgName>官一人専当其事、勘納功物、随其破損、可加 <anchor xml:id="app0510890102"/> 修 <anchor
-        xml:id="app0510890102e"/> 理、其立用帳、請<orgName corresp="#斎宮寮">寮</orgName>吏判、 若不 <anchor
+        xml:id="app0510890101e"/> 造 <orgName corresp="#斎宮寮"> 寮 </orgName> 并厨家之料、便 <orgName
+        corresp="#斎宮寮"> 寮 </orgName> 官一人専当其事、勘納功物、随其破損、可加 <anchor xml:id="app0510890102"/> 修 <anchor
+        xml:id="app0510890102e"/> 理、其立用帳、請 <orgName corresp="#斎宮寮"> 寮 </orgName> 吏判、 若不 <anchor
         xml:id="app0510890103"/> 営 <anchor xml:id="app0510890103e"/> 小破、妄致大損者、科処勾当官人、但 <pb
         facs="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-5%2F00055.tif/full/full/0/default.jpg"
        /> 至于非常異損、随申処分、 </p>
@@ -3444,27 +3478,26 @@
      <div ana="斎宮" n="5.90" subtype="項" type="条">
       <head ana="雑物注載"/>
       <p ana="項" corresp="engishiki_v5_ja.xml#item05109001 engishiki_v5_en.xml#item05109001"
-       xml:id="item05109001"> 凡<orgName corresp="#斎宮寮"
-        >寮</orgName>中所納之雑物、用残・未進色目者、注載季帳、四孟差使進官、但被管諸司季帳、<orgName corresp="#斎宮寮">寮</orgName>官覆審、押署進上、
-      </p>
+       xml:id="item05109001"> 凡 <orgName corresp="#斎宮寮"> 寮 </orgName>
+       中所納之雑物、用残・未進色目者、注載季帳、四孟差使進官、但被管諸司季帳、 <orgName corresp="#斎宮寮"> 寮 </orgName> 官覆審、押署進上、 </p>
      </div>
      <div ana="斎宮" n="5.91" subtype="項" type="条">
       <head ana="月俸衣服"/>
       <p ana="項" corresp="engishiki_v5_ja.xml#item05109101 engishiki_v5_en.xml#item05109101"
-       xml:id="item05109101"> 凡諸司男女官月俸、雑色人衣服者、随<placeName corresp="#伊勢国"
-       >当国</placeName>・他国所進之多少、不論上下、毎色分行、但須先女官後男官、 </p>
+       xml:id="item05109101"> 凡諸司男女官月俸、雑色人衣服者、随 <placeName corresp="#伊勢国"> 当国 </placeName>
+       ・他国所進之多少、不論上下、毎色分行、但須先女官後男官、 </p>
      </div>
      <div ana="斎宮" n="5.92" subtype="項" type="条">
       <head ana="秣蒭"/>
       <p ana="項" corresp="engishiki_v5_ja.xml#item05109201 engishiki_v5_en.xml#item05109201"
-       xml:id="item05109201"> 凡馬部司御馬八疋年料秣稲・干蒭者、不待<orgName corresp="#斎宮寮"
-        >寮</orgName>移勘納本司、随日充用、但其細用者、毎季勘造、請<orgName corresp="#斎宮寮">寮</orgName>勘署、 </p>
+       xml:id="item05109201"> 凡馬部司御馬八疋年料秣稲・干蒭者、不待 <orgName corresp="#斎宮寮"> 寮 </orgName>
+       移勘納本司、随日充用、但其細用者、毎季勘造、請 <orgName corresp="#斎宮寮"> 寮 </orgName> 勘署、 </p>
      </div>
      <div ana="斎宮" n="5.93" subtype="項" type="条">
       <head ana="賜宴禄"/>
       <p ana="項" corresp="engishiki_v5_ja.xml#item05109301 engishiki_v5_en.xml#item05109301"
-       xml:id="item05109301"> 凡新嘗解斎日、大神宮司率禰宜・内人・御厨案主・三郡司・神部・歌人等参会、賜宴禄各有差、〈<orgName corresp="#斎宮寮"
-        >寮</orgName>頭已下亦賜禄、〉 </p>
+       xml:id="item05109301"> 凡新嘗解斎日、大神宮司率禰宜・内人・御厨案主・三郡司・神部・歌人等参会、賜宴禄各有差、〈 <orgName corresp="#斎宮寮">
+        寮 </orgName> 頭已下亦賜禄、〉 </p>
      </div>
      <div ana="斎宮" n="5.94" subtype="項" type="条">
       <head ana="殴闘"/>
@@ -3474,7 +3507,7 @@
      <div ana="斎宮" n="5.95" subtype="項" type="条">
       <head ana="密婚"/>
       <p ana="項" corresp="engishiki_v5_ja.xml#item05109501 engishiki_v5_en.xml#item05109501"
-       xml:id="item05109501"> 凡<orgName corresp="#斎宮寮">寮</orgName>官諸司及宮中男女、修仏事、和姧密婚者科中祓、 </p>
+       xml:id="item05109501"> 凡 <orgName corresp="#斎宮寮"> 寮 </orgName> 官諸司及宮中男女、修仏事、和姧密婚者科中祓、 </p>
      </div>
      <div ana="斎宮" n="5.96" subtype="項" type="条">
       <head ana="失火穢"/>
@@ -3498,10 +3531,10 @@
      <div ana="斎宮" n="5.98" subtype="項" type="条">
       <head ana="納印"/>
       <p ana="項" corresp="engishiki_v5_ja.xml#item05109801 engishiki_v5_en.xml#item05109801"
-       xml:id="item05109801"> 凡斎王帰京者、<orgName corresp="#斎宮寮">寮</orgName>印授<placeName corresp="#山城国"
-        >山城国</placeName>令納、〈<orgName corresp="#斎宮寮">寮</orgName>司任後、申 <anchor xml:id="app0510980101"
-       /> 官 <anchor xml:id="app0510980101e"/> 請用、〉主神司印及長例公文、並納<orgName corresp="#神祇官"
-        >神祇官</orgName>、<placeName corresp="#備後国">備後</placeName>拠勘、 </p>
+       xml:id="item05109801"> 凡斎王帰京者、 <orgName corresp="#斎宮寮"> 寮 </orgName> 印授 <placeName
+        corresp="#山城国"> 山城国 </placeName> 令納、〈 <orgName corresp="#斎宮寮"> 寮 </orgName> 司任後、申 <anchor
+        xml:id="app0510980101"/> 官 <anchor xml:id="app0510980101e"/> 請用、〉主神司印及長例公文、並納 <orgName
+        corresp="#神祇官"> 神祇官 </orgName> 、 <placeName corresp="#備後国"> 備後 </placeName> 拠勘、 </p>
       <app from="#app0510980101" to="#app0510980101e">
        <lem wit="#島原本 #貞享本 #藤波本 #版本"> 官 </lem>
        <rdg wit="#土本 #条本 #近本"> 宮 </rdg>
@@ -3511,8 +3544,8 @@
      <div ana="斎宮" n="5.99" subtype="項" type="条">
       <head ana="遣使"/>
       <p ana="項" corresp="engishiki_v5_ja.xml#item05109901 engishiki_v5_en.xml#item05109901"
-       xml:id="item05109901"> 凡斎王還京者、〈若有遭故還者、不用初入之道、〉遣使奉迎、五位・六位各一人、<placeName corresp="#近江国"
-        >近江</placeName>与<placeName corresp="#伊勢国">伊勢</placeName>堺上祗候、弁一人率史生・官掌各一人参斎宮、検校帰発、
+       xml:id="item05109901"> 凡斎王還京者、〈若有遭故還者、不用初入之道、〉遣使奉迎、五位・六位各一人、 <placeName corresp="#近江国"> 近江
+       </placeName> 与 <placeName corresp="#伊勢国"> 伊勢 </placeName> 堺上祗候、弁一人率史生・官掌各一人参斎宮、検校帰発、
        其斎王衣服・輿輦之類、官便附使送之、皆堺上而脱易、〈衣服 <anchor xml:id="app0510990101"/> 之 <anchor
         xml:id="app0510990101e"/> 類給忌部、輿輦之類給中臣、又各加鞍御馬一疋、〉其頓宮及供給、准向国之例、 </p>
       <app from="#app0510990101" to="#app0510990101e">
@@ -3523,8 +3556,8 @@
      <div ana="斎宮" n="5.100" subtype="項" type="条">
       <head ana="給雑物"/>
       <p ana="項" corresp="engishiki_v5_ja.xml#item05110001 engishiki_v5_en.xml#item05110001"
-       xml:id="item05110001"> 凡斎内親王還京、所有雑物、<orgName corresp="#斎宮寮"
-       >寮</orgName>官以下及近宮百姓等普分給之、其寝殿物給忌部、出居殿物給中臣、但金・銀器納斎王家、又幃・幄・釜・沒之類応長用者、皆付国司令収掌、 </p>
+       xml:id="item05110001"> 凡斎内親王還京、所有雑物、 <orgName corresp="#斎宮寮"> 寮 </orgName>
+       官以下及近宮百姓等普分給之、其寝殿物給忌部、出居殿物給中臣、但金・銀器納斎王家、又幃・幄・釜・沒之類応長用者、皆付国司令収掌、 </p>
      </div>
     </div>
     <div type="尾題" xml:id="bidai05">

@@ -54,28 +54,29 @@
       <witness xml:id="条本">
        <abbr> 条本 </abbr> ：一条家旧蔵巻子本（巻1～3は無窮会専門図書館所蔵模写本、巻4・5は神宮司庁刊影印本） </witness>
       <witness xml:id="花本">
-       <abbr> 花本 </abbr> ：花山院家・武田祐吉旧蔵本（神宮皇学館刊影印本による） </witness>
+       <abbr> 花本 </abbr> ：武田祐吉旧蔵花山院通雅筆本（神宮皇学館刊影印本による） </witness>
       <witness xml:id="九冊本">
        <abbr> 九冊本 </abbr> ：國學院大學所蔵九条家・西田長男旧蔵冊子本（巻5は西田長男刊影印本による） </witness>
       <witness xml:id="永本">
-       <abbr> 永本 </abbr> ：巻8は國學院大學図書館所蔵（091.2/322.135/1）、巻9・10は現蔵不明(神宮文庫所蔵写真帳1門16974） </witness>
+       <abbr> 永本 </abbr>
+       ：國學院大學図書館所蔵卜部兼永筆本（巻8、091.2/322.135/1）、鈴鹿義鯨旧蔵卜部兼永筆本（巻9・10、現蔵不明、神宮文庫写真帳1門16974を閲覧） </witness>
       <witness xml:id="右本">
        <abbr> 右本 </abbr> ：巻8は國學院大學図書館所蔵（貴62） </witness>
       <witness xml:id="吉本">
-       <abbr> 吉本 </abbr> ：天理大学附属天理図書館所蔵吉田家旧蔵本巻9・10（328.1-ｲ17(Ⅲ1219)） </witness>
+       <abbr> 吉本 </abbr> ：天理大学附属天理図書館所蔵吉田家旧蔵本巻9・10（328.1-ｲ17（『天理図書館稀書目録　和漢書之部　第三』1219） </witness>
       <witness xml:id="三条本">
        <abbr> 三条本 </abbr> ：天理大学附属天理図書館所蔵三条家旧蔵本（328.1-ｲ11(Ⅲ1218)） </witness>
       <witness xml:id="西本">
        <abbr> 西本 </abbr>
-       ：巻9・10は國學院大學図書館所蔵（貴107～108）。巻50は国立歴史民俗博物館所蔵（H-1588）。抄出本は國學院大學所蔵（木村大樹「〔西田長男旧蔵〕三条西実隆筆『延喜式』(抄)の翻刻・紹介」『國學院大學研究開発推進機構紀要』14、2022年） </witness>
+       ：國學院大學図書館所蔵三条西家旧蔵本（巻9・10、貴107～108）、国立歴史民俗博物館所蔵三条西家旧蔵本（巻50、H-1588）。抄出本は國學院大學所蔵（木村大樹「〔西田長男旧蔵〕三条西実隆筆『延喜式』(抄)の翻刻・紹介」『國學院大學研究開発推進機構紀要』14、2022年） </witness>
       <witness xml:id="時慶本">
        <abbr> 時慶本 </abbr> ：静嘉堂文庫所蔵西洞院時慶写本（延喜格式表18352、延喜式序18353） </witness>
+      <witness xml:id="藤波本">
+       <abbr> 藤波本 </abbr> ：宮内庁書陵部図書寮文庫所蔵藤波家旧蔵本（217-473） </witness>
       <witness xml:id="島原本">
        <abbr> 島原本 </abbr> ：東京大学史料編纂所所蔵松平忠房・和学講談所・水野忠央旧蔵本（貴45-2） </witness>
-      <witness xml:id="藤波本">
-       <abbr> 藤波本 </abbr> ：宮内庁書陵部図書寮文庫所蔵藤波家旧蔵本（217 -473） </witness>
       <witness xml:id="貞享本">
-       <abbr> 貞享本 </abbr> ：宮内庁書陵部図書寮文庫所蔵和学講談所旧蔵坊城俊方貞享本（457-116） </witness>
+       <abbr> 貞享本 </abbr> ：宮内庁書陵部図書寮文庫所蔵和学講談所旧蔵坊城俊方貞享五年写本（457-116） </witness>
       <witness xml:id="玄梁本">
        <abbr> 玄梁本 </abbr> ：無窮会専門図書館所蔵神習文庫玄梁記名本（神習3666） </witness>
       <witness xml:id="尾張本">
@@ -156,11 +157,22 @@
    <tagsDecl>
     <rendition xml:id="indent"> margin-top: 1em; </rendition>
     <rendition xml:id="indent2"> margin-top: 2em; </rendition>
+    <rendition xml:id="indent3"> margin-top: 3em; </rendition>
+    <rendition xml:id="indent4"> margin-top: 4em; </rendition>
     <rendition xml:id="indent5"> margin-top: 5em; </rendition>
+    <rendition xml:id="indent6"> margin-top: 6em; </rendition>
+    <rendition xml:id="indent7"> margin-top: 7em; </rendition>
+    <rendition xml:id="indent10"> margin-top: 10em; </rendition>
+    <rendition xml:id="indent12"> margin-top: 12em; </rendition>
+    <rendition xml:id="indent13"> margin-top: 13em; </rendition>
+    <rendition xml:id="indent14"> margin-top: 14em; </rendition>
+    <rendition xml:id="indent18"> margin-top: 18em; </rendition>
     <rendition xml:id="width50"> width: 50px; </rendition>
     <rendition xml:id="width80"> width: 80px; </rendition>
     <rendition xml:id="width100"> width: 100px; </rendition>
-    <rendition xml:id="jinnmyou"> width: 200px; </rendition>
+    <rendition xml:id="width150"> width: 150px; </rendition>
+    <rendition xml:id="width170"> width: 170px; </rendition>
+    <rendition xml:id="width200"> width: 200px; </rendition>
     <rendition xml:id="width300"> width: 300px; </rendition>
    </tagsDecl>
    <editorialDecl ana="校訂文凡例">
@@ -231,10 +243,14 @@
        <cell rendition="#width300"> 例）閉【門⊃オ】、国【囗⊃玉】 </cell>
       </row>
       <row>
-       <cell/>
+       <cell rendition="#width100"> 【（Ａ/Ｂ）+Ｃ】、【Ａ/（Ｂ⊃Ｃ）】 </cell>
+       <cell rendition="#width300"> ＝字画が三つ以上、かつ異なる方法で字画が組み合う </cell>
+       <cell rendition="#width300"> 例）雑【（九/木）+隹】、懸【（県+系）/心】、薗【艹/（口⊃袁）】 </cell>
       </row>
       <row>
        <cell/>
+       <cell/>
+       <cell> （班【王+リ+王】、窓【宀/公/心】はすべての字画が一つの方法で組み合うため、（　）なし。） </cell>
       </row>
      </table>
      <table>
@@ -326,6 +342,27 @@
        <cell rendition="#width50"> 68 </cell>
        <cell rendition="#width100"> 支子染色 </cell>
       </row>
+      <row>
+       <cell rendition="#width100"> 422東西市 </cell>
+       <cell rendition="#width50"> 1 </cell>
+       <cell rendition="#width100"> 毎鄽立牓 </cell>
+       <cell rendition="#width50"> 1 </cell>
+       <cell rendition="#width100"> 毎厘立牓 </cell>
+      </row>
+      <row>
+       <cell rendition="#width100"> 422東西市 </cell>
+       <cell rendition="#width50"> 14 </cell>
+       <cell rendition="#width100"> 東鄽 </cell>
+       <cell rendition="#width50"> 14 </cell>
+       <cell rendition="#width100"> 東厘 </cell>
+      </row>
+      <row>
+       <cell rendition="#width100"> 422東西市 </cell>
+       <cell rendition="#width50"> 15 </cell>
+       <cell rendition="#width100"> 西鄽 </cell>
+       <cell rendition="#width50"> 15 </cell>
+       <cell rendition="#width100"> 西厘 </cell>
+      </row>
      </table>
     </p>
     <p ana="個別"> 校訂文凡例 <table>
@@ -349,7 +386,7 @@
       </row>
       <row>
        <cell rendition="#width100"> 壬本 </cell>
-       <cell> 宮内庁書陵部所蔵図書寮文庫所蔵壬生家旧蔵本（F10-287） </cell>
+       <cell> 宮内庁書陵部図書寮文庫所蔵壬生家旧蔵本（F10-287） </cell>
       </row>
       <row>
        <cell rendition="#width100"> 京博本 </cell>
@@ -414,14 +451,16 @@
   </encodingDesc>
   <revisionDesc ana="個別">
    <listChange>
-    <change when="2025-06-23"><date>2025年6月23日</date>第7皇后宮新嘗条、冒頭に表示していた標注を条文末尾に移動しました。</change>
-    <change when="2025-06-23"
-     ><date>2025年6月23日</date>第8宴会雑給条第1項、冒頭に表示していた標注「已上弘」を第5項冒頭に移動しました。</change>
-    <change when="2025-06-23"
-     ><date>2025年6月23日</date>第11斎院給食料条、「筋竹一圍」の「筋」を「筯」に、「圍」を「囲」に修正しました。</change>
-    <change when="2025-06-23"
-     ><date>2025年6月23日</date>第12斎院別当以下条、冒頭に表示していた標注を条文末尾に移動しました。</change>
-    <change when="2025-06-23"><date>2025年6月23日</date>第18釈奠雑給料条、冒頭に表示していた標注を条文末尾に移動しました。</change>
+    <change when="2025-06-23">
+     <date> 2025年6月23日 </date> 第7皇后宮新嘗条、冒頭に表示していた標注を条文末尾に移動しました。 </change>
+    <change when="2025-06-23">
+     <date> 2025年6月23日 </date> 第8宴会雑給条第1項、冒頭に表示していた標注「已上弘」を第5項冒頭に移動しました。 </change>
+    <change when="2025-06-23">
+     <date> 2025年6月23日 </date> 第11斎院給食料条、「筋竹一圍」の「筋」を「筯」に、「圍」を「囲」に修正しました。 </change>
+    <change when="2025-06-23">
+     <date> 2025年6月23日 </date> 第12斎院別当以下条、冒頭に表示していた標注を条文末尾に移動しました。 </change>
+    <change when="2025-06-23">
+     <date> 2025年6月23日 </date> 第18釈奠雑給料条、冒頭に表示していた標注を条文末尾に移動しました。 </change>
    </listChange>
   </revisionDesc>
  </teiHeader>
@@ -437,7 +476,7 @@
      n="32" subtype="条" type="式" xml:id="protocol321">
      <div type="式題" xml:id="shikidai321">
       <p xml:id="shikidai32101">
-       <orgName corresp="#大膳職">大膳</orgName>上 </p>
+       <orgName corresp="#大膳職"> 大膳 </orgName> 上 </p>
      </div>
      <div ana="大膳上" corresp="engishiki_v32_en.xml#article321001 engishiki_v32_ja.xml#article321001"
       n="32.1" subtype="項" type="条" xml:id="article321001">
@@ -462,11 +501,11 @@
       </app>
       <app from="#app3210010102" to="#app3210010102e">
        <lem wit="#土本 #近本 #壬本 #京博本 #梵本 #慶長本"> 両 </lem>
-       <note>土本「両 <del> 四 </del>」</note>
-       <note>近本「両 <del> 四 </del>」</note>
-       <note>壬本「両 <del> 四 </del>」</note>
-       <note>京博本「両 <del> 四 </del>」</note>
-       <note>梵本「両 <del> 四 </del>」</note>
+       <note> 土本「両 <del> 四 </del> 」 </note>
+       <note> 近本「両 <del> 四 </del> 」 </note>
+       <note> 壬本「両 <del> 四 </del> 」 </note>
+       <note> 京博本「両 <del> 四 </del> 」 </note>
+       <note> 梵本「両 <del> 四 </del> 」 </note>
        <note> 両　土本・近本・壬本・京博本・梵本この下に「四」あり、ただし抹消。慶長本に従い削る。 </note>
       </app>
      </div>
@@ -493,11 +532,11 @@
       <app from="#app3210020103" to="#app3210020103e">
        <lem wit="#近本抹消 #壬本抹消 #京博本抹消 #慶長本抹消 #梵本抹消"> 已 </lem>
        <rdg wit="#土本"> 已下 </rdg>
-       <note>近本「已 <del> 下 </del>」</note>
-       <note>壬本「已 <del> 下 </del>」</note>
-       <note>京博本「已 <del> 下 </del>」</note>
-       <note>慶長本「已 <del> 下 </del>」</note>
-       <note>梵本「已 <del> 下 </del>」</note>
+       <note> 近本「已 <del> 下 </del> 」 </note>
+       <note> 壬本「已 <del> 下 </del> 」 </note>
+       <note> 京博本「已 <del> 下 </del> 」 </note>
+       <note> 慶長本「已 <del> 下 </del> 」 </note>
+       <note> 梵本「已 <del> 下 </del> 」 </note>
        <note> 已　土本この下に「下」あり。近本・壬本・京博本・慶長本・梵本抹消に従い削る。 </note>
       </app>
      </div>
@@ -517,8 +556,8 @@
         xml:id="app3210030107e"/> 、〉酒四座別【瓦+嬰】一口、〈各受一斗、〉四座別坩一口、〈各受五升、〉大直神一缶、〈受五升、〉木綿二分四銖、麁筥十三合、 <pb
         facs="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-32%2F00005.tif/full/full/0/default.jpg"
        /> 〈各長一尺四寸、広一尺二寸、深三寸、〉食薦五枚、〈居神筥料、〉輿籠二脚、〈納筥料、〉置簀二枚、檞二俵、 <lb/>
-       <s rendition="#indent"> 右、<orgName corresp="#大膳職">職</orgName><orgName corresp="#造酒司"
-         >司</orgName>料理与<orgName corresp="#神祇官">神祇官</orgName>供之、 </s>
+       <s rendition="#indent"> 右、 <orgName corresp="#大膳職"> 職 </orgName>
+        <orgName corresp="#造酒司"> 司 </orgName> 料理与 <orgName corresp="#神祇官"> 神祇官 </orgName> 供之、 </s>
       </p>
       <app from="#app3210030101" to="#app3210030101e">
        <lem cause="意補"> 神八座 </lem>
@@ -559,11 +598,12 @@
       <head ana="雑給料"/>
       <p ana="項" corresp="engishiki_v32_en.xml#item32100401 engishiki_v32_ja.xml#item32100401"
        xml:id="item32100401"> 雑給料 <lb/> 参議已上 <lb/>
-       人別糯米一升四合、大豆一合八夕七撮、小豆二合八夕、韲酒一合、酢四夕、醤三合、滓醤二合九夕、東鰒一両二分、 <placeName corresp="#隠伎国"><anchor
-         xml:id="app3210040101"/>隠岐<anchor xml:id="app3210040101e"/></placeName>
-       鰒五両、堅魚二両一分二銖、烏賊二両、熬海鼠三両二分、与理刀魚五両、鮭二分隻之一、雑魚楚割三両、堅魚煎二両二分、鮨二斤四両、雑 <anchor xml:id="app3210040102"
-       /> 腊 <anchor xml:id="app3210040102e"/> 十一両、 <anchor xml:id="app3210040103"/> 紫 <anchor
-        xml:id="app3210040103e"/> 菜・海松各三分、海藻二両、漬菜二合、漬蒜房・蒜英・韮搗各二合、生栗子一升四合、搗栗子六合、干柿子三合、橘子卅三顆、木綿二分四銖、 </p>
+       人別糯米一升四合、大豆一合八夕七撮、小豆二合八夕、韲酒一合、酢四夕、醤三合、滓醤二合九夕、東鰒一両二分、 <placeName corresp="#隠伎国">
+        <anchor xml:id="app3210040101"/> 隠岐 <anchor xml:id="app3210040101e"/>
+       </placeName> 鰒五両、堅魚二両一分二銖、烏賊二両、熬海鼠三両二分、与理刀魚五両、鮭二分隻之一、雑魚楚割三両、堅魚煎二両二分、鮨二斤四両、雑 <anchor
+        xml:id="app3210040102"/> 腊 <anchor xml:id="app3210040102e"/> 十一両、 <anchor
+        xml:id="app3210040103"/> 紫 <anchor xml:id="app3210040103e"/>
+       菜・海松各三分、海藻二両、漬菜二合、漬蒜房・蒜英・韮搗各二合、生栗子一升四合、搗栗子六合、干柿子三合、橘子卅三顆、木綿二分四銖、 </p>
       <app from="#app3210040101" to="#app3210040101e">
        <lem wit="#土本 #近本 #壬本 #京博本 #慶長本 #梵本"> 隠岐 </lem>
        <note> 隠岐　訳注本は用字に拘わらず「隠伎」に統一する。 </note>
@@ -582,8 +622,8 @@
       <p ana="項" corresp="engishiki_v32_en.xml#item32100402 engishiki_v32_ja.xml#item32100402"
        xml:id="item32100402"> 五位已上卅人 <lb/>
        <anchor xml:id="app3210040201"/> 人 <anchor xml:id="app3210040201e"/>
-        別糯米七合五夕、大豆七夕、小豆一合五夕、韲酒三夕、酢一合、醤二合、塩二合九夕、東鰒一両二分、<placeName corresp="#隠伎国"
-       >隠伎</placeName>鰒四両二分、堅魚二両一分二銖、烏賊二両、熬海鼠三両二分、 <pb
+       別糯米七合五夕、大豆七夕、小豆一合五夕、韲酒三夕、酢一合、醤二合、塩二合九夕、東鰒一両二分、 <placeName corresp="#隠伎国"> 隠伎 </placeName>
+       鰒四両二分、堅魚二両一分二銖、烏賊二両、熬海鼠三両二分、 <pb
         facs="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-32%2F00006.tif/full/full/0/default.jpg"
        /> 与理刀魚五両、鮭二分隻之一、雑魚楚割三両、堅魚煎汁一両一分、鮨二斤四両、腊十両、 <anchor xml:id="app3210040202"/> 紫 <anchor
         xml:id="app3210040202e"/>
@@ -624,7 +664,7 @@
       <p ana="項" corresp="engishiki_v32_en.xml#item32100404 engishiki_v32_ja.xml#item32100404"
        xml:id="item32100404">
        <s rendition="#indent"> 右依前件、其五位已上食並盛筥、菓子雑肴盛以干柏、結以木綿、 <anchor xml:id="app3210040401"/> 六位已
-         <anchor xml:id="app3210040401e"/> 下食用籠、〈其籠<placeName corresp="#山城国">山城国</placeName>所進、〉
+         <anchor xml:id="app3210040401e"/> 下食用籠、〈其籠 <placeName corresp="#山城国"> 山城国 </placeName> 所進、〉
        </s>
       </p>
       <app from="#app3210040401" to="#app3210040401e">
@@ -656,11 +696,11 @@
       <head ana="新嘗小斎解斎"/>
       <p ana="項" corresp="engishiki_v32_en.xml#item32100601 engishiki_v32_ja.xml#item32100601"
        xml:id="item32100601"> 同小斎解斎給食惣二百廿七人、〈五位已上卌人、六位已下 <anchor xml:id="app3210060101"/> 一 <anchor
-        xml:id="app3210060101e"/> 百八十七人、〉 <lb/> 五位已上一人、醤五夕、塩二合二夕、東鰒二両三分、 <placeName corresp="#隠伎国"
-         ><anchor xml:id="app3210060102"/>隠岐<anchor xml:id="app3210060102e"/></placeName>
-       鰒二両、烏賊十二両、熬海鼠二両、魚楚割二両二分、紫菜・海松各三分、海藻十一両、漬蒜房・蒜英各一合、韮搗五夕、漬菜二合、 <lb/>
+        xml:id="app3210060101e"/> 百八十七人、〉 <lb/> 五位已上一人、醤五夕、塩二合二夕、東鰒二両三分、 <placeName corresp="#隠伎国">
+        <anchor xml:id="app3210060102"/> 隠岐 <anchor xml:id="app3210060102e"/>
+       </placeName> 鰒二両、烏賊十二両、熬海鼠二両、魚楚割二両二分、紫菜・海松各三分、海藻十一両、漬蒜房・蒜英各一合、韮搗五夕、漬菜二合、 <lb/>
        六位已下一人、醤五夕、塩一合二夕、大鯖三両三分、東鰒二両三分、海藻十一両、 <lb/>
-       <s rendition="#indent"> 右依前件、辰日夕於<orgName corresp="#宮内省">省</orgName>家給之、 </s>
+       <s rendition="#indent"> 右依前件、辰日夕於 <orgName corresp="#宮内省"> 省 </orgName> 家給之、 </s>
       </p>
       <app from="#app3210060101" to="#app3210060101e">
        <lem wit="#九本"> 一 </lem>
@@ -677,18 +717,20 @@
       n="32.7" subtype="項" type="条" xml:id="article321007">
       <head ana="皇后宮新嘗祭"/>
       <p ana="項" corresp="engishiki_v32_en.xml#item32100701 engishiki_v32_ja.xml#item32100701"
-       xml:id="item32100701"> 同会皇后宮小斎人卌二人、〈命婦并女孺廿人、駕輿丁已上十六人、外記已下<orgName corresp="#主水司"
-       >主水</orgName>官人已上六人、〉 <lb/> 五位一人、醤五夕、塩一合、東 <anchor xml:id="app3210070102"/> 鰒 <anchor
+       xml:id="item32100701"> 同会皇后宮小斎人卌二人、〈命婦并女孺廿人、駕輿丁已上十六人、外記已下 <orgName corresp="#主水司"> 主水
+       </orgName> 官人已上六人、〉 <lb/> 五位一人、醤五夕、塩一合、東 <anchor xml:id="app3210070102"/> 鰒 <anchor
         xml:id="app3210070102e"/> 七両、烏賊十二両、熬海鼠五両、腊五両、海藻四両、漬 <anchor xml:id="app3210070103"/> 蒜
         <anchor xml:id="app3210070103e"/> 房并蒜花・韮搗 <pb
         facs="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-32%2F00008.tif/full/full/0/default.jpg"
        /> 各二 <anchor xml:id="app3210070104"/> 合 <anchor xml:id="app3210070104e"/> 、 <lb/>
-       六位已下一人、醤・塩各五夕、東鮑六両、熬海鼠四両、鮨六両、鯖三両二分、海藻四両、 <lb/> 同宮神態直相給食卌七人、〈后宮亮一人、進已下諸<orgName corresp="#衛府"
-        >衛府</orgName>舎人已上卌六人、〉 <lb/> 五位一人、醤五夕、塩一合二夕、東 <anchor xml:id="app3210070105"/> 鮑 <anchor
-        xml:id="app3210070105e"/> 二両二分、熬海鼠四両、烏賊一斤八両、 <placeName corresp="#隠伎国"><anchor
-         xml:id="app3210070106"/>隠岐<anchor xml:id="app3210070106e"/></placeName> 鮑四両、魚楚割五両、海藻十一両、
-       <lb/> 六位已下一人、醤五夕、塩一合二夕、東鮑二両三分、鯖三両二分、海藻十一両、 <lb/><anchor xml:id="app3210070101"/>
-       <anchor xml:id="app3210070101e"/></p>
+       六位已下一人、醤・塩各五夕、東鮑六両、熬海鼠四両、鮨六両、鯖三両二分、海藻四両、 <lb/> 同宮神態直相給食卌七人、〈后宮亮一人、進已下諸 <orgName corresp="#衛府"
+        > 衛府 </orgName> 舎人已上卌六人、〉 <lb/> 五位一人、醤五夕、塩一合二夕、東 <anchor xml:id="app3210070105"/> 鮑 <anchor
+        xml:id="app3210070105e"/> 二両二分、熬海鼠四両、烏賊一斤八両、 <placeName corresp="#隠伎国">
+        <anchor xml:id="app3210070106"/> 隠岐 <anchor xml:id="app3210070106e"/>
+       </placeName> 鮑四両、魚楚割五両、海藻十一両、 <lb/> 六位已下一人、醤五夕、塩一合二夕、東鮑二両三分、鯖三両二分、海藻十一両、 <lb/>
+       <anchor xml:id="app3210070101"/>
+       <anchor xml:id="app3210070101e"/>
+      </p>
       <app from="#app3210070101" to="#app3210070101e" type="標注">
        <lem wit="#土本 #近本 #壬本 #京博本 #慶長本"> 已上弘 </lem>
        <rdg wit="#九本 #梵本"/>
@@ -728,8 +770,8 @@
        xml:id="item32100801">
        <anchor xml:id="app3210080101"/>
        <anchor xml:id="app3210080101e"/> 宴会雑給 <lb/> 親王以下三位已上并四位参議 <lb/>
-        人別餅料粳米・糯米各八合、糯糒三合、糖二合六夕、小麦四合、大豆二合、小豆二合、胡麻子二合、油一合、韲酒・酢各四夕、醤二合、塩四合、豉一夕、東鰒二両、<placeName
-        corresp="#隠伎国">隠伎</placeName>鰒二両一分、堅魚 <anchor xml:id="app3210080103"/> 一 <anchor
+       人別餅料粳米・糯米各八合、糯糒三合、糖二合六夕、小麦四合、大豆二合、小豆二合、胡麻子二合、油一合、韲酒・酢各四夕、醤二合、塩四合、豉一夕、東鰒二両、 <placeName
+        corresp="#隠伎国"> 隠伎 </placeName> 鰒二両一分、堅魚 <anchor xml:id="app3210080103"/> 一 <anchor
         xml:id="app3210080103e"/> 両二分、烏賊一両一分、熬海鼠・縄貫鰒各二両二分、押年魚四両、与理刀魚五両、鮭二分隻之一、雑魚䐹・楚割各五両一分、雑腊・
         <anchor xml:id="app3210080104"/> 鮨 <anchor xml:id="app3210080104e"/>
        各二斤、堅魚煎二夕、鮮物、〈充直、〉紫菜二分、海藻二両、生栗子一升、搗栗子・椎子各四合、橘子十 <anchor xml:id="app3210080105"/> 果 <anchor
@@ -761,10 +803,10 @@
        xml:id="item32100802"> 四位五位并命婦 <lb/> 人別餅料粳米・糯米各四合、糯糒一合、糖一合 <anchor xml:id="app3210080201"/> 五
         <anchor xml:id="app3210080201e"/> 夕、小麦二合、大豆・小豆各一合、胡麻子一合、油 <anchor xml:id="app3210080202"/>
        一合 <anchor xml:id="app3210080202e"/> 、韲酒・酢各 <anchor xml:id="app3210080203"/> 四夕 <anchor
-        xml:id="app3210080203e"/> 、醤一合、塩二合、豉一夕、東鰒・<placeName corresp="#隠伎国"
-       >隠伎</placeName>鰒・堅魚・烏賊・熬海鼠各一両、繩貫鰒 <anchor xml:id="app3210080204"/> 一両 <anchor
-        xml:id="app3210080204e"/> 、押年魚二両、与理刀魚二両二分、雑魚䐹・楚割各三両一分、雑魚・鮨 <anchor xml:id="app3210080205"/>
-       各 <anchor xml:id="app3210080205e"/> 四両、紫菜一分、海藻二両、鮭六分隻之一、腊一斤、生栗子五合、搗栗子・椎子各二合、橘子五顆、 </p>
+        xml:id="app3210080203e"/> 、醤一合、塩二合、豉一夕、東鰒・ <placeName corresp="#隠伎国"> 隠伎 </placeName>
+       鰒・堅魚・烏賊・熬海鼠各一両、繩貫鰒 <anchor xml:id="app3210080204"/> 一両 <anchor xml:id="app3210080204e"/>
+       、押年魚二両、与理刀魚二両二分、雑魚䐹・楚割各三両一分、雑魚・鮨 <anchor xml:id="app3210080205"/> 各 <anchor
+        xml:id="app3210080205e"/> 四両、紫菜一分、海藻二両、鮭六分隻之一、腊一斤、生栗子五合、搗栗子・椎子各二合、橘子五顆、 </p>
       <app from="#app3210080201" to="#app3210080201e">
        <lem wit="#土本 #九本 #近本 #壬本 #京博本 #慶長本 #梵本"> 五 </lem>
        <note> 五　考異は上文の例により「三」に作るべきかとする。 </note>
@@ -818,9 +860,9 @@
       <p ana="項" corresp="engishiki_v32_en.xml#item32100805 engishiki_v32_ja.xml#item32100805"
        xml:id="item32100805">
        <anchor xml:id="app3210080502"/>
-       <anchor xml:id="app3210080502e"/><s rendition="#indent2"> 右、新嘗会宴食料依前件、其 <anchor
-         xml:id="app3210080501"/> 雑器 <anchor xml:id="app3210080501e"/> 親王已下三位已上朱漆、四位已下五位已上烏漆并土器、
-       </s>
+       <anchor xml:id="app3210080502e"/>
+       <s rendition="#indent2"> 右、新嘗会宴食料依前件、其 <anchor xml:id="app3210080501"/> 雑器 <anchor
+         xml:id="app3210080501e"/> 親王已下三位已上朱漆、四位已下五位已上烏漆并土器、 </s>
       </p>
       <app from="#app3210080501" to="#app3210080501e">
        <lem wit="#近本訂正書"> 雑器 </lem>
@@ -843,11 +885,11 @@
        <anchor xml:id="app3210090102"/> 園 <anchor xml:id="app3210090102e"/> 韓神祭雑給料〈春冬 <anchor
         xml:id="app3210090103"/> 并 <anchor xml:id="app3210090103e"/> 同〉 <lb/>
        白米二斗、糯米四斗、小麦一斗二升、大豆・小豆各一斗九升、胡 <anchor xml:id="app3210090104"/> 麻 <anchor
-        xml:id="app3210090104e"/> 七升二合、酢一斗、韲酒一斗、醤六升、塩二斗、胡麻油八升二合、東鰒・ <placeName corresp="#隠伎国"
-         ><anchor xml:id="app3210090105"/>隠岐<anchor xml:id="app3210090105e"/></placeName>
-       鰒・烏賊各十六斤、縄貫鰒・ <placeName corresp="#佐渡"><anchor xml:id="app3210090106"/> 佐度 <anchor
-         xml:id="app3210090106e"/></placeName>
-       鰒・堅魚各十四斤、熬海鼠・腊・干蛸各十二斤、煮堅魚十一斤、雑腊卅斤、鯖五十斤、雑鮨三缶、堅魚煎汁一升四合、海藻廿三斤、芥子一升四合、 </p>
+        xml:id="app3210090104e"/> 七升二合、酢一斗、韲酒一斗、醤六升、塩二斗、胡麻油八升二合、東鰒・ <placeName corresp="#隠伎国">
+        <anchor xml:id="app3210090105"/> 隠岐 <anchor xml:id="app3210090105e"/>
+       </placeName> 鰒・烏賊各十六斤、縄貫鰒・ <placeName corresp="#佐渡">
+        <anchor xml:id="app3210090106"/> 佐度 <anchor xml:id="app3210090106e"/>
+       </placeName> 鰒・堅魚各十四斤、熬海鼠・腊・干蛸各十二斤、煮堅魚十一斤、雑腊卅斤、鯖五十斤、雑鮨三缶、堅魚煎汁一升四合、海藻廿三斤、芥子一升四合、 </p>
       <app from="#app3210090101" to="#app3210090101e" type="標注">
        <lem> 弘貞 </lem>
       </app>
@@ -904,12 +946,12 @@
       <p ana="項" corresp="engishiki_v32_en.xml#item32100903 engishiki_v32_ja.xml#item32100903"
        xml:id="item32100903"> 蒜一斗、葱二斗、蘿菔五十把、芹六斗、萵苣五斗、 <anchor xml:id="app3210090301"/> 芸 <anchor
         xml:id="app3210090301e"/> 薹二斗、胡 <anchor xml:id="app3210090302"/> 䕑 <anchor
-        xml:id="app3210090302e"/> 五升、蘭十把、蔓菁六斗、葵二斗、〈已上十種、<orgName corresp="#内膳司">内膳司</orgName>所進、〉
-        <anchor xml:id="app3210090303"/> 竹 <anchor xml:id="app3210090303e"/> 卌株、〈<placeName
-        corresp="#山城国">山城国</placeName>所進、〉鮮魚充直、〈鮮魚・菓子直布六端、自余諸祭同料、不注布数 <pb
+        xml:id="app3210090302e"/> 五升、蘭十把、蔓菁六斗、葵二斗、〈已上十種、 <orgName corresp="#内膳司"> 内膳司 </orgName>
+       所進、〉 <anchor xml:id="app3210090303"/> 竹 <anchor xml:id="app3210090303e"/> 卌株、〈 <placeName
+        corresp="#山城国"> 山城国 </placeName> 所進、〉鮮魚充直、〈鮮魚・菓子直布六端、自余諸祭同料、不注布数 <pb
         facs="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-32%2F00011.tif/full/full/0/default.jpg"
-       /> 皆放此、〉糖八升、松明八十把、炭二斛、薪三百六十斤、〈松明以下直、〉官人当色一領、膳部六人明衣、<placeName corresp="#佐渡国"
-       >佐渡</placeName>布、人別二丈一尺、 </p>
+       /> 皆放此、〉糖八升、松明八十把、炭二斛、薪三百六十斤、〈松明以下直、〉官人当色一領、膳部六人明衣、 <placeName corresp="#佐渡国"> 佐渡
+       </placeName> 布、人別二丈一尺、 </p>
       <app from="#app3210090301" to="#app3210090301e">
        <lem wit="#土本 #九本 #近本 #壬本 #京博本 #慶長本 #梵本"> 芸 </lem>
        <note> 芸　訳注本は本式12条により「蕓」に改める。 </note>
@@ -956,14 +998,15 @@
       <app from="#app3210100104" to="#app3210100104e">
        <lem wit="#近本抹消 #壬本 #京博本 #慶長本 #梵本"> 加 </lem>
        <rdg wit="#土本"> 加加 </rdg>
-       <note>近本「加 <del> 加 </del>」</note>
+       <note> 近本「加 <del> 加 </del> 」 </note>
        <note> 加　土本弥書。近本抹消および壬本・京博本・慶長本・梵本により削る。 </note>
       </app>
       <p ana="項" corresp="engishiki_v32_en.xml#item32101002 engishiki_v32_ja.xml#item32101002"
        xml:id="item32101002"> 東鰒六十斤十二両、〈冬加卌三斤 <anchor xml:id="app3210100201"/> 十 <anchor
-        xml:id="app3210100201e"/> 四両、〉縄貫鰒六十一斤八両、〈冬加卅三斤八両、〉<placeName corresp="#佐渡国"
-       >佐渡</placeName>鰒十四斤、〈冬加十四斤十五両、〉 <placeName corresp="#隠伎国"><anchor xml:id="app3210100202"
-         />隠伎<anchor xml:id="app3210100202e"/></placeName>
+        xml:id="app3210100201e"/> 四両、〉縄貫鰒六十一斤八両、〈冬加卅三斤八両、〉 <placeName corresp="#佐渡国"> 佐渡
+       </placeName> 鰒十四斤、〈冬加十四斤十五両、〉 <placeName corresp="#隠伎国">
+        <anchor xml:id="app3210100202"/> 隠伎 <anchor xml:id="app3210100202e"/>
+       </placeName>
        鰒廿一斤、〈冬加十三斤、〉熬海鼠五十二斤十四両、〈冬加廿八斤六両、〉堅魚十五斤、〈冬加十五斤、〉烏賊卅四斤二両、〈冬加廿四斤、〉鮭卌一隻、〈冬加廿隻、〉雑腊二百卅 <anchor
         xml:id="app3210100203"/> 一 <anchor xml:id="app3210100203e"/> 斤、〈冬加 <anchor
         xml:id="app3210100204"/> 卌 <anchor xml:id="app3210100204e"/>
@@ -1015,15 +1058,15 @@
       <head ana="斎院給食料"/>
       <p ana="項" corresp="engishiki_v32_en.xml#item32101101 engishiki_v32_ja.xml#item32101101"
        xml:id="item32101101"> 賀茂神祭斎院陪従等人給食料 <lb/> 東鰒・堅魚・ <placeName corresp="#隠伎国">
-        <anchor xml:id="app3210110101"/>隠伎<anchor xml:id="app3210110101e"/></placeName>
+        <anchor xml:id="app3210110101"/> 隠伎 <anchor xml:id="app3210110101e"/>
+       </placeName>
        鰒・煮堅魚各五斤四両、雑平魚・雑魚楚割各七斤十四両、鯖百十三隻、海藻十六斤二両、塩八升五合九夕、醤四升二合、酢・韲酒各一升、滓醤三升、醤滓一升五合、生栗子一斗六升八合、搗栗子八升四合、干柿子十連半、芋子八升四合、笋子廿一把、折櫃卌二合、大笥廿五合、
         <anchor xml:id="app3210110102"/> 覆 <anchor xml:id="app3210110102e"/>
        ・敷折櫃廿一合料調布一端二丈一尺、薪五荷、炭五斗、青柏六俵、 <anchor xml:id="app3210110103"/> 味 <anchor
         xml:id="app3210110103e"/> 物・菓子、〈直布五端、〉干柏二 <pb
         facs="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-32%2F00013.tif/full/full/0/default.jpg"
-       /> 俵、平坏二百五十二口、窪坏・韲坏各八十四口、食薦卌枚、筯竹一囲、炬油二升、 <anchor xml:id="app3210110104"/>
-        白米三斗、〈膳部等食料、〉夫十五人、〈<orgName corresp="#京職">京職</orgName>所進、〉 <anchor xml:id="app3210110104e"/>
-       黒米一斗八升、〈夫食料、〉 </p>
+       /> 俵、平坏二百五十二口、窪坏・韲坏各八十四口、食薦卌枚、筯竹一囲、炬油二升、 <anchor xml:id="app3210110104"/> 白米三斗、〈膳部等食料、〉夫十五人、〈
+        <orgName corresp="#京職"> 京職 </orgName> 所進、〉 <anchor xml:id="app3210110104e"/> 黒米一斗八升、〈夫食料、〉 </p>
       <app from="#app3210110101" to="#app3210110101e">
        <lem wit="#土本 #近本 #壬本 #京博本 #慶長本 #梵本"> 隠伎 </lem>
        <rdg wit="#九本"> 隠岐 </rdg>
@@ -1041,21 +1084,21 @@
       <app from="#app3210110104" to="#app3210110104e">
        <lem wit="#九本"> 白米三斗、〈膳部等食料、〉夫十五人、〈京職所進、〉 </lem>
        <rdg wit="#土本 #近本 #壬本 #京博本 #慶長本 #梵本"> 白米三斗、〈膳部等食料、〉夫十五人、〈京職所進、〉白米三斗、〈膳部等食料、〉夫十五人、〈京職所進、〉 </rdg>
-       <note> >白米三斗、〈膳部等食料、〉夫十五人、〈京職所進、〉　土本・近本・壬本・京博本・慶長本・梵本弥書。九本により削る。 </note>
+       <note> &gt;白米三斗、〈膳部等食料、〉夫十五人、〈京職所進、〉　土本・近本・壬本・京博本・慶長本・梵本弥書。九本により削る。 </note>
       </app>
      </div>
      <div ana="大膳上" corresp="engishiki_v32_en.xml#article321012 engishiki_v32_ja.xml#article321012"
       n="32.12" subtype="項" type="条" xml:id="article321012">
       <head ana="斎院別当以下"/>
       <p ana="項" corresp="engishiki_v32_en.xml#item32101201 engishiki_v32_ja.xml#item32101201"
-       xml:id="item32101201"> 同祭斎院<orgName corresp="#司">司</orgName>別当已下四人食料 <lb/> 東鰒・堅魚・ <placeName
-        corresp="#隠伎国">
+       xml:id="item32101201"> 同祭斎院 <orgName corresp="#司"> 司 </orgName> 別当已下四人食料 <lb/> 東鰒・堅魚・
+        <placeName corresp="#隠伎国">
         <anchor xml:id="app3210120102"/> 隠岐 <anchor xml:id="app3210120102e"/>
        </placeName> 鰒・煮堅魚・平魚楚割各十二両、鮨・腊各四斤、塩六合、韲酒・酢各六合、生栗子四升、笋子八把、覆瓫 <anchor xml:id="app3210120103"/>
        柏 <anchor xml:id="app3210120103e"/> 廿把、鮮物・菓子、〈直布五端、〉食薦四枚、醤六合、片盤廿四口、窪坏十六口、韲坏十六口、覆敷案四 <anchor
-        xml:id="app3210120104"/> 前 <anchor xml:id="app3210120104e"/>
-        料曝布一端二尺、青柏一荷、薪一荷、炭二斗、夫四人、〈<orgName corresp="#京職">京職</orgName>所進、〉黒米四升八合、塩四夕八撮、醤滓四合、〈並夫食料、〉
-        <lb/><anchor xml:id="app3210120101"/>
+        xml:id="app3210120104"/> 前 <anchor xml:id="app3210120104e"/> 料曝布一端二尺、青柏一荷、薪一荷、炭二斗、夫四人、〈
+        <orgName corresp="#京職"> 京職 </orgName> 所進、〉黒米四升八合、塩四夕八撮、醤滓四合、〈並夫食料、〉 <lb/>
+       <anchor xml:id="app3210120101"/>
        <anchor xml:id="app3210120101e"/>
       </p>
      </div>
@@ -1089,16 +1132,16 @@
        <anchor xml:id="app3210130101"/>
        <anchor xml:id="app3210130101e"/> 春日祭雑給料〈春冬並同〉 <lb/>
        白米二斛、〈五斗贄使粮料、一斛膳部間食料、一斗漿水料、四斗祭料、〉酢・醤各一斗五升、塩三斗五升、東鰒卅七斤、 <placeName corresp="#隠伎国">
-        <anchor xml:id="app3210130102"/> 隠岐 <anchor xml:id="app3210130102e"/></placeName>
-       鰒・堅魚各卅七斤、縄貫鰒廿八斤、煮堅魚・熬海鼠各廿九斤、雑䐹卅四斤、蛸廿五斤、鳥賊廿七斤、鮭六十四隻半、雑腊百廿八斤、鯖百廿斤、雑鮨五缶、堅魚 <pb
+        <anchor xml:id="app3210130102"/> 隠岐 <anchor xml:id="app3210130102e"/>
+       </placeName> 鰒・堅魚各卅七斤、縄貫鰒廿八斤、煮堅魚・熬海鼠各廿九斤、雑䐹卅四斤、蛸廿五斤、鳥賊廿七斤、鮭六十四隻半、雑腊百廿八斤、鯖百廿斤、雑鮨五缶、堅魚 <pb
         facs="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-32%2F00014.tif/full/full/0/default.jpg"
        /> 煎汁三升、雑海菜五升、海藻六十二斤、芥子三升、合盛雑腊一籠、 <lb/> 覆敷案料信濃布四端三丈、敷折櫃一百 <anchor xml:id="app3210130103"/> 合
         <anchor xml:id="app3210130103e"/> 布七端二丈三尺、大笥一百合、蒜一斗四升、葱三斗、蘿菔七十把、萵苣七斗、葵三斗、芹三斗、蕓薹三斗、胡 <anchor
-        xml:id="app3210130104"/> 䕑 <anchor xml:id="app3210130104e"/> 五升、蘭十把、〈已上九種、<orgName
-        corresp="#内膳司">内膳司</orgName>所進、〉弓弦葉廿七担、 <anchor xml:id="app3210130105"/> 青 <anchor
+        xml:id="app3210130104"/> 䕑 <anchor xml:id="app3210130104e"/> 五升、蘭十把、〈已上九種、 <orgName
+        corresp="#内膳司"> 内膳司 </orgName> 所進、〉弓弦葉廿七担、 <anchor xml:id="app3210130105"/> 青 <anchor
         xml:id="app3210130105e"/>
-        柏六俵、炬油六升、竹三担、黒葛六斤、簀四枚、干柏三俵、食薦七十八枚、鮮魚充直、〈鮮物・菓子・雑器等之直、并運賃料布廿端、〉官人当色一領、史生・膳部等明衣料、<placeName
-        corresp="#佐渡国">佐渡</placeName>調布九端、染料紅花小一斤五両、 <anchor xml:id="app3210130106"/> 襅 <anchor
+       柏六俵、炬油六升、竹三担、黒葛六斤、簀四枚、干柏三俵、食薦七十八枚、鮮魚充直、〈鮮物・菓子・雑器等之直、并運賃料布廿端、〉官人当色一領、史生・膳部等明衣料、 <placeName
+        corresp="#佐渡国"> 佐渡 </placeName> 調布九端、染料紅花小一斤五両、 <anchor xml:id="app3210130106"/> 襅 <anchor
         xml:id="app3210130106e"/> ・拭布料商布六段、 </p>
       <app from="#app3210130101" to="#app3210130101e" type="標注">
        <lem wit="#土本 #近本 #壬本 #京博本 #慶長本 #梵本"> 弘貞 </lem>
@@ -1156,18 +1199,18 @@
         xml:id="app3210150102e"/> 升七合、〈机別二合、折櫃別一合、〉陶大盤・叩戸各五口、調布三端九尺、〈折櫃敷料各三尺、〉曝布 <anchor
         xml:id="app3210150103"/> 一端二丈六尺 <anchor xml:id="app3210150103e"/> 、〈机敷料別五尺、覆料別六尺、〉篩料絹三尺、商布五
         <anchor xml:id="app3210150104"/> 段 <anchor xml:id="app3210150104e"/>
-        、〈襅并巾料、〉覆瓫柏卅把、〈机別五把、〉食薦五十枚、青菜一斛、〈<orgName corresp="#内膳司"
-       >内膳司</orgName>所奉、〉漬椒子五升、〈韲料、〉油一斗一升、〈八升菓子料、三升炬料、〉干柏卅俵、〈裹飯料、〉片埦 <anchor xml:id="app3210150105"
-       /> 八十七口 <anchor xml:id="app3210150105e"/> 、〈机別八口、折櫃別一口、〉窪坏 <anchor xml:id="app3210150106"/>
-       二百四口 <anchor xml:id="app3210150106e"/> 、〈机別六口、 <anchor xml:id="app3210150107"/> 折 <anchor
+       、〈襅并巾料、〉覆瓫柏卅把、〈机別五把、〉食薦五十枚、青菜一斛、〈 <orgName corresp="#内膳司"> 内膳司 </orgName>
+       所奉、〉漬椒子五升、〈韲料、〉油一斗一升、〈八升菓子料、三升炬料、〉干柏卅俵、〈裹飯料、〉片埦 <anchor xml:id="app3210150105"/> 八十七口 <anchor
+        xml:id="app3210150105e"/> 、〈机別八口、折櫃別一口、〉窪坏 <anchor xml:id="app3210150106"/> 二百四口 <anchor
+        xml:id="app3210150106e"/> 、〈机別六口、 <anchor xml:id="app3210150107"/> 折 <anchor
         xml:id="app3210150107e"/> 櫃別四口、〉平坏 <anchor xml:id="app3210150108"/> 三百口 <anchor
         xml:id="app3210150108e"/> 、〈折櫃別八口、〉筯竹五十株、調布三端、〈鮮物并 <anchor xml:id="app3210150109"/> 雑
         <anchor xml:id="app3210150109e"/> 菓子 <anchor xml:id="app3210150110"/> 等 <anchor
         xml:id="app3210150110e"/> 料、〉糯米四斗二升、〈机別一升、折櫃別八合、〉白米二斗六升一合、〈菓子料、机別六合、折櫃別五合、〉 <anchor
         xml:id="app3210150111"/> 大 <anchor xml:id="app3210150111e"/> ・小豆各一斗、胡麻子一斗、小麦六升、糯糒・糖各五升
         <anchor xml:id="app3210150112"/> 七 <anchor xml:id="app3210150112e"/>
-        合、〈机別二合、折櫃別一合、〉炭一斛、薪二荷、夫五人、〈請<orgName corresp="#京職"
-       >京職</orgName>、〉雑魚卌斤、滓醤二斗、〈已上机六前、折櫃卌五合、大笥卌三合、裹飯百廿口等、及百度料、〉 </p>
+       合、〈机別二合、折櫃別一合、〉炭一斛、薪二荷、夫五人、〈請 <orgName corresp="#京職"> 京職 </orgName>
+       、〉雑魚卌斤、滓醤二斗、〈已上机六前、折櫃卌五合、大笥卌三合、裹飯百廿口等、及百度料、〉 </p>
       <app from="#app3210150101" to="#app3210150101e" type="標注">
        <lem wit="#土本 #近本 #壬本 #京博本 #慶長本 #梵本"> 貞後 </lem>
        <rdg wit="#九本"/>
@@ -1277,11 +1320,11 @@
       n="32.17" subtype="項" type="条" xml:id="article321017">
       <head ana="釈奠別供料"/>
       <p ana="項" corresp="engishiki_v32_en.xml#item32101701 engishiki_v32_ja.xml#item32101701"
-       xml:id="item32101701"> 同祭別供料 <lb/> 東鰒十斤、薄鰒五斤、 <placeName corresp="#隠伎国"><anchor
-         xml:id="app3210170101"/>隠伎<anchor xml:id="app3210170101e"/></placeName>
-        鰒十八斤、串貫羽割・<placeName corresp="#阿波国"
-       >阿波</placeName>鰒・押鮎・熬海鼠・脯各六斤、筑紫鰒二斤、蔭鰒・烏賊各四斤、火干鮎十八斤、堅魚十六斤、煮堅魚八斤、魚楚割卌八斤、腊六十斤、海藻卅六斤、鮭廿隻、紫菜六斤、木綿二
-        <anchor xml:id="app3210170102"/> 斤八両 <anchor xml:id="app3210170102e"/> 、 </p>
+       xml:id="item32101701"> 同祭別供料 <lb/> 東鰒十斤、薄鰒五斤、 <placeName corresp="#隠伎国">
+        <anchor xml:id="app3210170101"/> 隠伎 <anchor xml:id="app3210170101e"/>
+       </placeName> 鰒十八斤、串貫羽割・ <placeName corresp="#阿波国"> 阿波 </placeName>
+       鰒・押鮎・熬海鼠・脯各六斤、筑紫鰒二斤、蔭鰒・烏賊各四斤、火干鮎十八斤、堅魚十六斤、煮堅魚八斤、魚楚割卌八斤、腊六十斤、海藻卅六斤、鮭廿隻、紫菜六斤、木綿二 <anchor
+        xml:id="app3210170102"/> 斤八両 <anchor xml:id="app3210170102e"/> 、 </p>
       <app from="#app3210170101" to="#app3210170101e">
        <lem wit="#土本 #近本 #壬本 #京博本 #慶長本 #梵本"> 隠伎 </lem>
        <rdg wit="#九本"> 隠岐 </rdg>
@@ -1304,7 +1347,8 @@
        人別一合五夕、〉漬蜀椒子、〈人別一夕、〉漬菜、〈始日享官五位已下一百人別二合、朝夕料、畢日学生三百五十人別一合、〉 <lb/> 窪坏・盤各九十口、匏十五 <anchor
         xml:id="app3210180104"/> 柄 <anchor xml:id="app3210180104e"/> 、箸竹百廿株、 <lb/>
        <anchor xml:id="app3210180101"/>
-       <anchor xml:id="app3210180101e"/><s rendition="#indent2"> 右、春料依前件、秋亦准此、 </s>
+       <anchor xml:id="app3210180101e"/>
+       <s rendition="#indent2"> 右、春料依前件、秋亦准此、 </s>
       </p>
       <app from="#app3210180101" to="#app3210180101e" type="標注">
        <lem wit="#土本 #九本 #近本 #壬本 #京博本 #慶長本 #梵本"> 已上弘 </lem>
@@ -1332,11 +1376,12 @@
       <p ana="項" corresp="engishiki_v32_en.xml#item32101901 engishiki_v32_ja.xml#item32101901"
        xml:id="item32101901">
        <anchor xml:id="app3210190101"/>
-       <anchor xml:id="app3210190101e"/> 凡<orgName corresp="#六衛府">六衛府</orgName>輪転所進釈奠祭 <anchor
-        xml:id="app3210190102"/> 醢 <anchor xml:id="app3210190102e"/> 料菟一頭、先祭三月送<orgName
-        corresp="#大膳職">職</orgName>、潔清乾 <anchor xml:id="app3210190103"/> 暴 <anchor
+       <anchor xml:id="app3210190101e"/> 凡 <orgName corresp="#六衛府"> 六衛府 </orgName> 輪転所進釈奠祭 <anchor
+        xml:id="app3210190102"/> 醢 <anchor xml:id="app3210190102e"/> 料菟一頭、先祭三月送 <orgName
+        corresp="#大膳職"> 職 </orgName> 、潔清乾 <anchor xml:id="app3210190103"/> 暴 <anchor
         xml:id="app3210190103e"/> 造 <anchor xml:id="app3210190104"/> 醢 <anchor
-        xml:id="app3210190104e"/> 、至祭日供之、其貢進之次、以<orgName corresp="#近衛府">左近衛府</orgName>為一番、依次貢進、終而更始、 </p>
+        xml:id="app3210190104e"/> 、至祭日供之、其貢進之次、以 <orgName corresp="#近衛府"> 左近衛府 </orgName>
+       為一番、依次貢進、終而更始、 </p>
       <app from="#app3210190101" to="#app3210190101e" type="標注">
        <lem wit="#土本 #九本 #近本 #壬本 #京博本 #慶長本 #梵本"> 延 </lem>
       </app>
