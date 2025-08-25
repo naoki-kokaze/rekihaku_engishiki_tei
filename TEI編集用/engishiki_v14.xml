@@ -54,28 +54,29 @@
       <witness xml:id="条本">
        <abbr> 条本 </abbr> ：一条家旧蔵巻子本（巻1～3は無窮会専門図書館所蔵模写本、巻4・5は神宮司庁刊影印本） </witness>
       <witness xml:id="花本">
-       <abbr> 花本 </abbr> ：花山院家・武田祐吉旧蔵本（神宮皇学館刊影印本による） </witness>
+       <abbr> 花本 </abbr> ：武田祐吉旧蔵花山院通雅筆本（神宮皇学館刊影印本による） </witness>
       <witness xml:id="九冊本">
        <abbr> 九冊本 </abbr> ：國學院大學所蔵九条家・西田長男旧蔵冊子本（巻5は西田長男刊影印本による） </witness>
       <witness xml:id="永本">
-       <abbr> 永本 </abbr> ：巻8は國學院大學図書館所蔵（091.2/322.135/1）、巻9・10は現蔵不明(神宮文庫所蔵写真帳1門16974） </witness>
+       <abbr> 永本 </abbr>
+       ：國學院大學図書館所蔵卜部兼永筆本（巻8、091.2/322.135/1）、鈴鹿義鯨旧蔵卜部兼永筆本（巻9・10、現蔵不明、神宮文庫写真帳1門16974を閲覧） </witness>
       <witness xml:id="右本">
        <abbr> 右本 </abbr> ：巻8は國學院大學図書館所蔵（貴62） </witness>
       <witness xml:id="吉本">
-       <abbr> 吉本 </abbr> ：天理大学附属天理図書館所蔵吉田家旧蔵本巻9・10（328.1-ｲ17(Ⅲ1219)） </witness>
+       <abbr> 吉本 </abbr> ：天理大学附属天理図書館所蔵吉田家旧蔵本巻9・10（328.1-ｲ17（『天理図書館稀書目録　和漢書之部　第三』1219） </witness>
       <witness xml:id="三条本">
        <abbr> 三条本 </abbr> ：天理大学附属天理図書館所蔵三条家旧蔵本（328.1-ｲ11(Ⅲ1218)） </witness>
       <witness xml:id="西本">
        <abbr> 西本 </abbr>
-       ：巻9・10は國學院大學図書館所蔵（貴107～108）。巻50は国立歴史民俗博物館所蔵（H-1588）。抄出本は國學院大學所蔵（木村大樹「〔西田長男旧蔵〕三条西実隆筆『延喜式』(抄)の翻刻・紹介」『國學院大學研究開発推進機構紀要』14、2022年） </witness>
+       ：國學院大學図書館所蔵三条西家旧蔵本（巻9・10、貴107～108）、国立歴史民俗博物館所蔵三条西家旧蔵本（巻50、H-1588）。抄出本は國學院大學所蔵（木村大樹「〔西田長男旧蔵〕三条西実隆筆『延喜式』(抄)の翻刻・紹介」『國學院大學研究開発推進機構紀要』14、2022年） </witness>
       <witness xml:id="時慶本">
        <abbr> 時慶本 </abbr> ：静嘉堂文庫所蔵西洞院時慶写本（延喜格式表18352、延喜式序18353） </witness>
+      <witness xml:id="藤波本">
+       <abbr> 藤波本 </abbr> ：宮内庁書陵部図書寮文庫所蔵藤波家旧蔵本（217-473） </witness>
       <witness xml:id="島原本">
        <abbr> 島原本 </abbr> ：東京大学史料編纂所所蔵松平忠房・和学講談所・水野忠央旧蔵本（貴45-2） </witness>
-      <witness xml:id="藤波本">
-       <abbr> 藤波本 </abbr> ：宮内庁書陵部図書寮文庫所蔵藤波家旧蔵本（217 -473） </witness>
       <witness xml:id="貞享本">
-       <abbr> 貞享本 </abbr> ：宮内庁書陵部図書寮文庫所蔵和学講談所旧蔵坊城俊方貞享本（457-116） </witness>
+       <abbr> 貞享本 </abbr> ：宮内庁書陵部図書寮文庫所蔵和学講談所旧蔵坊城俊方貞享五年写本（457-116） </witness>
       <witness xml:id="玄梁本">
        <abbr> 玄梁本 </abbr> ：無窮会専門図書館所蔵神習文庫玄梁記名本（神習3666） </witness>
       <witness xml:id="尾張本">
@@ -156,11 +157,22 @@
    <tagsDecl>
     <rendition xml:id="indent"> margin-top: 1em; </rendition>
     <rendition xml:id="indent2"> margin-top: 2em; </rendition>
+    <rendition xml:id="indent3"> margin-top: 3em; </rendition>
+    <rendition xml:id="indent4"> margin-top: 4em; </rendition>
     <rendition xml:id="indent5"> margin-top: 5em; </rendition>
+    <rendition xml:id="indent6"> margin-top: 6em; </rendition>
+    <rendition xml:id="indent7"> margin-top: 7em; </rendition>
+    <rendition xml:id="indent10"> margin-top: 10em; </rendition>
+    <rendition xml:id="indent12"> margin-top: 12em; </rendition>
+    <rendition xml:id="indent13"> margin-top: 13em; </rendition>
+    <rendition xml:id="indent14"> margin-top: 14em; </rendition>
+    <rendition xml:id="indent18"> margin-top: 18em; </rendition>
     <rendition xml:id="width50"> width: 50px; </rendition>
-    <rendition xml:id="kokumei"> width: 80px; </rendition>
+    <rendition xml:id="width80"> width: 80px; </rendition>
     <rendition xml:id="width100"> width: 100px; </rendition>
-    <rendition xml:id="jinnmyou"> width: 200px; </rendition>
+    <rendition xml:id="width150"> width: 150px; </rendition>
+    <rendition xml:id="width170"> width: 170px; </rendition>
+    <rendition xml:id="width200"> width: 200px; </rendition>
     <rendition xml:id="width300"> width: 300px; </rendition>
    </tagsDecl>
    <editorialDecl ana="校訂文凡例">
@@ -231,10 +243,14 @@
        <cell rendition="#width300"> 例）閉【門⊃オ】、国【囗⊃玉】 </cell>
       </row>
       <row>
-       <cell/>
+       <cell rendition="#width100"> 【（Ａ/Ｂ）+Ｃ】、【Ａ/（Ｂ⊃Ｃ）】 </cell>
+       <cell rendition="#width300"> ＝字画が三つ以上、かつ異なる方法で字画が組み合う </cell>
+       <cell rendition="#width300"> 例）雑【（九/木）+隹】、懸【（県+系）/心】、薗【艹/（口⊃袁）】 </cell>
       </row>
       <row>
        <cell/>
+       <cell/>
+       <cell> （班【王+リ+王】、窓【宀/公/心】はすべての字画が一つの方法で組み合うため、（　）なし。） </cell>
       </row>
      </table>
      <table>
@@ -325,6 +341,27 @@
        <cell rendition="#width100"> 支子染深色 </cell>
        <cell rendition="#width50"> 68 </cell>
        <cell rendition="#width100"> 支子染色 </cell>
+      </row>
+      <row>
+       <cell rendition="#width100"> 422東西市 </cell>
+       <cell rendition="#width50"> 1 </cell>
+       <cell rendition="#width100"> 毎鄽立牓 </cell>
+       <cell rendition="#width50"> 1 </cell>
+       <cell rendition="#width100"> 毎厘立牓 </cell>
+      </row>
+      <row>
+       <cell rendition="#width100"> 422東西市 </cell>
+       <cell rendition="#width50"> 14 </cell>
+       <cell rendition="#width100"> 東鄽 </cell>
+       <cell rendition="#width50"> 14 </cell>
+       <cell rendition="#width100"> 東厘 </cell>
+      </row>
+      <row>
+       <cell rendition="#width100"> 422東西市 </cell>
+       <cell rendition="#width50"> 15 </cell>
+       <cell rendition="#width100"> 西鄽 </cell>
+       <cell rendition="#width50"> 15 </cell>
+       <cell rendition="#width100"> 西厘 </cell>
       </row>
      </table>
     </p>
@@ -445,21 +482,21 @@
     <div ana="縫殿" n="14" subtype="条" type="式">
      <div type="式題" xml:id="shikidai141">
       <p xml:id="shikidai14101">
-       <orgName corresp="#縫殿寮">縫殿寮</orgName>
+       <orgName corresp="#縫殿寮"> 縫殿寮 </orgName>
       </p>
      </div>
      <div ana="縫殿" n="14.1" subtype="項" type="条">
       <head ana="寮神祭"/>
       <p ana="項" corresp="engishiki_v14_ja.xml#item14100101 engishiki_v14_en.xml#item14100101"
-       xml:id="item14100101"> <orgName corresp="#縫殿寮">寮</orgName>神三座夏祭〈冬祭准此、〉 <lb/> 御匣殿神一座 <lb/>
+       xml:id="item14100101">
+       <orgName corresp="#縫殿寮"> 寮 </orgName> 神三座夏祭〈冬祭准此、〉 <lb/> 御匣殿神一座 <lb/>
        五色薄絁各三尺、絹二疋、綿二屯、糸二絇、納幣明櫃一合、〈其絹・綿等至冬祭賜物忌・御巫、冬料亦至 <anchor xml:id="app1410010101"/> 夏 <anchor
-        xml:id="app1410010101e"/> 賜、〉酒二斗、饌食二案、脚別机四前、〈二盛幣料、二盛饌食料、並<orgName corresp="#内膳司"
-        >内膳司</orgName>
+        xml:id="app1410010101e"/> 賜、〉酒二斗、饌食二案、脚別机四前、〈二盛幣料、二盛饌食料、並 <orgName corresp="#内膳司"> 内膳司 </orgName>
        <anchor xml:id="app1410010102"/> 備 <anchor xml:id="app1410010102e"/>
        、〉調布一端、〈敷帊案二丈八尺、敷櫃一丈四尺、〉祝史料庸布二段、 </p>
       <p ana="項" corresp="engishiki_v14_ja.xml#item14100102 engishiki_v14_en.xml#item14100102"
        xml:id="item14100102">
-       <orgName corresp="#縫殿寮">縫殿</orgName>神一座 <lb/>
+       <orgName corresp="#縫殿寮"> 縫殿 </orgName> 神一座 <lb/>
        <anchor xml:id="app1410010201"/>
        <pb
         facs="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-14%2F00003.tif/full/full/0/default.jpg"
@@ -490,10 +527,11 @@
        帛単衣二領、〈別三丈七尺五寸、〉袴二腰、〈別三丈、〉中袴二腰、〈別三丈、〉褌二腰、〈別二丈六尺、〉被二条、〈別七丈五 <anchor xml:id="app1410020101"/> 尺
         <anchor xml:id="app1410020101e"/> 、〉綿五屯、〈別二屯半、〉敷被一条、〈一疋、〉褥二条、〈別帛三丈、暴布二丈一尺、席一 <anchor
         xml:id="app1410020102"/> 枚 <anchor xml:id="app1410020102e"/>
-        、〉帛帷二条、〈別三丈七尺、〉暴布軾一枚、〈一端、〉唾巾一条、〈一端、〉帛袜二両、〈別三尺五寸、〉練糸二両一分、生糸二分、櫛二枚、履一両、〈已上二種、<orgName
-        corresp="#内蔵寮">内蔵</orgName>弁備、余条櫛・履准此、〉牀帊帛二条、〈別四丈六尺、〉納服白木韓櫃二合、敷細布二条、〈別五尺、〉暴布綱二条、〈別長二丈、〉黒 <pb
+       、〉帛帷二条、〈別三丈七尺、〉暴布軾一枚、〈一端、〉唾巾一条、〈一端、〉帛袜二両、〈別三尺五寸、〉練糸二両一分、生糸二分、櫛二枚、履一両、〈已上二種、 <orgName
+        corresp="#内蔵寮"> 内蔵 </orgName> 弁備、余条櫛・履准此、〉牀帊帛二条、〈別四丈六尺、〉納服白木韓櫃二合、敷細布二条、〈別五尺、〉暴布綱二条、〈別長二丈、〉黒
+        <pb
         facs="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-14%2F00004.tif/full/full/0/default.jpg"
-       /> 葛筥二合、〈各長一尺五寸、広一尺三寸、〉紙十張、祓麻大一両、〈並事訖付<orgName corresp="#神祇官">神祇 <anchor
+       /> 葛筥二合、〈各長一尺五寸、広一尺三寸、〉紙十張、祓麻大一両、〈並事訖付 <orgName corresp="#神祇官"> 神祇 <anchor
          xml:id="app1410020103"/> 官 <anchor xml:id="app1410020103e"/>
        </orgName> 、〉紅花大三両二分、支子一斗四升、酢三合六夕、薪百廿斤、藁六囲半、 </p>
       <app from="#app1410020101" to="#app1410020101e">
@@ -588,8 +626,8 @@
       <head ana="鎮魂斎服"/>
       <p ana="項" corresp="engishiki_v14_ja.xml#item14100601 engishiki_v14_en.xml#item14100601"
        xml:id="item14100601"> 鎮魂斎服〈新嘗祭同用之、〉 <lb/>
-       <orgName corresp="#神祇官"
-       >神祇官</orgName>伯已下弾琴已上十三人、榛摺帛袍十三領、〈別一疋一丈二尺、〉袴十三腰、〈別三丈、〉綿五十二屯、〈袍別二屯半、袴別一屯半、〉糸三両一分三銖、 <anchor
+       <orgName corresp="#神祇官"> 神祇官 </orgName>
+       伯已下弾琴已上十三人、榛摺帛袍十三領、〈別一疋一丈二尺、〉袴十三腰、〈別三丈、〉綿五十二屯、〈袍別二屯半、袴別一屯半、〉糸三両一分三銖、 <anchor
         xml:id="app1410060101"/> 猴 <anchor xml:id="app1410060101e"/>
        女四人、緑袍四領、〈緑表、帛裏、別三丈、〉綿八屯、〈別二屯、〉両面紐四条、〈別長一尺九寸、広五寸、〉汗衫四領、〈別三丈、〉緑裙四腰、〈緑表、帛裏、別三丈、〉裙腰料縹帛四条、〈別一丈五尺、〉綿八屯、〈別二屯、〉下裙四腰、〈裙別三丈、腰別一丈五尺、〉袴四腰、〈別三丈、〉綿四屯、〈別一屯、〉縹帯四条、〈別長六尺、広四寸五分、〉細布髪髻四条、〈別二尺、〉緋
         <anchor xml:id="app1410060102"/> 帔 <anchor xml:id="app1410060102e"/>
@@ -611,20 +649,20 @@
      <div ana="縫殿" n="14.7" subtype="項" type="条">
       <head ana="新嘗小斎服"/>
       <p ana="項" corresp="engishiki_v14_ja.xml#item14100701 engishiki_v14_en.xml#item14100701"
-       xml:id="item14100701"> 新嘗祭小斎諸司青摺布衫三百十二領、〈細布一百卅領、<placeName corresp="#佐渡国"
-       >佐渡</placeName>布一百八十二領、並別二丈一尺、〉緋紐料 <anchor xml:id="app1410070101"/> 四丈 <anchor
-        xml:id="app1410070101e"/> 貲布六端一丈二尺、〈別長二尺二寸、広六寸、〉山藍五 <anchor xml:id="app1410070102"/> 十
-        <anchor xml:id="app1410070102e"/>
+       xml:id="item14100701"> 新嘗祭小斎諸司青摺布衫三百十二領、〈細布一百卅領、 <placeName corresp="#佐渡国"> 佐渡 </placeName>
+       布一百八十二領、並別二丈一尺、〉緋紐料 <anchor xml:id="app1410070101"/> 四丈 <anchor xml:id="app1410070101e"/>
+       貲布六端一丈二尺、〈別長二尺二寸、広六寸、〉山藍五 <anchor xml:id="app1410070102"/> 十 <anchor xml:id="app1410070102e"
+       />
        囲半、模飯料米二斗四升八夕、生糸四絇、紅花大十五斤五両、薪六荷、藁六囲、酢六升四合、調布一丈四尺、帛被廿五条、〈別一疋、〉綿三百七十五屯、〈別十五屯、〉調布被廿五条、〈別五丈一尺、〉庸綿三百七十五屯、〈別十五屯、〉納被暴布袋五十口、〈別一丈二尺、〉
         <anchor xml:id="app1410070103"/> 練糸四両四銖 <anchor xml:id="app1410070103e"/> 、生糸 <anchor
         xml:id="app1410070104"/> 五両三分二銖 <anchor xml:id="app1410070104e"/> 、〈布被別四銖、袋別二 <anchor
-        xml:id="app1410070105"/> 銖 <anchor xml:id="app1410070105e"/> 、〉<orgName corresp="#中宮職"
-        >中宮</orgName>小斎人青摺細布衫卌九領、〈 <anchor xml:id="app1410070106"/> 亮 <anchor
-        xml:id="app1410070106e"/> ・進・属各一人、<orgName corresp="#近衛府">左右近衛</orgName>
-       <anchor xml:id="app1410070107"/> 官 <anchor xml:id="app1410070107e"/> 人四人、<orgName
-        corresp="#兵衛府">左右兵衛</orgName>官人二人、女孺卌人、〉<placeName corresp="#佐渡国"
-        >佐渡</placeName>布衫卌領、〈史生二人、舎人十人、左右近衛各十人、左右兵衛各三人、<orgName corresp="#主水司"
-       >主水司</orgName>水部二人、〉緋紐料貲布一端三丈三尺七寸、山藍十五囲、模飯料米七升四夕、紅花大七斤六両二銖、酢一升九合、薪三荷、藁三囲、帛被十条、綿一百五十屯、布被十条、庸綿一百五十屯、布袋廿口、練糸一両二分四銖、生糸十三両五分五銖、 <lb/>
+        xml:id="app1410070105"/> 銖 <anchor xml:id="app1410070105e"/> 、〉 <orgName corresp="#中宮職"> 中宮
+       </orgName> 小斎人青摺細布衫卌九領、〈 <anchor xml:id="app1410070106"/> 亮 <anchor xml:id="app1410070106e"/>
+       ・進・属各一人、 <orgName corresp="#近衛府"> 左右近衛 </orgName>
+       <anchor xml:id="app1410070107"/> 官 <anchor xml:id="app1410070107e"/> 人四人、 <orgName
+        corresp="#兵衛府"> 左右兵衛 </orgName> 官人二人、女孺卌人、〉 <placeName corresp="#佐渡国"> 佐渡 </placeName>
+       布衫卌領、〈史生二人、舎人十人、左右近衛各十人、左右兵衛各三人、 <orgName corresp="#主水司"> 主水司 </orgName>
+       水部二人、〉緋紐料貲布一端三丈三尺七寸、山藍十五囲、模飯料米七升四夕、紅花大七斤六両二銖、酢一升九合、薪三荷、藁三囲、帛被十条、綿一百五十屯、布被十条、庸綿一百五十屯、布袋廿口、練糸一両二分四銖、生糸十三両五分五銖、 <lb/>
        <s rendition="#indent"> 右、依前件、但帛・布被通用十二月神今食、待内侍処分、三年一度頒給、 </s>
       </p>
       <app from="#app1410070101" to="#app1410070101e">
@@ -862,8 +900,8 @@
         facs="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-14%2F00012.tif/full/full/0/default.jpg"/>
        <lb/> 冬季 <lb/> 十月料同三月、十一月・十二月並同正月、 <lb/>
        <s rendition="#indent"> 右、四季御服、並依前件、毎 <anchor xml:id="app1410100302"/> 季 <anchor
-         xml:id="app1410100302e"/> 依数、従<orgName corresp="#内蔵寮"
-        >内蔵寮</orgName>受之、准例染縫、〈臨時定色、〉月別一日・十六日両般均分供進、若数不等者、上般加之、 </s>
+         xml:id="app1410100302e"/> 依数、従 <orgName corresp="#内蔵寮"> 内蔵寮 </orgName>
+        受之、准例染縫、〈臨時定色、〉月別一日・十六日両般均分供進、若数不等者、上般加之、 </s>
       </p>
       <app from="#app1410100101" to="#app1410100101e">
        <lem wit="#土本 #剛本"> 背子 </lem>
@@ -1143,10 +1181,10 @@
        xml:id="item14101501"> 年料雑物 <lb/> 柳筥四合、〈盛御服料二合、雑給料二合、〉刀子十五枚、鉇一枚、針五千一百六十枚、砥二顆、熨炭卅六石、擣衣料調布五端一丈、
         <anchor xml:id="app1410150101"/> 下 <anchor xml:id="app1410150101e"/> 纏綿一屯、曝絁緒苧十二斤、裁衣板六枚、〈
         <anchor xml:id="app1410150102"/> 長五尺 <anchor xml:id="app1410150102e"/>
-        、厚三寸、〉陶由加四口、染槽四隻、〈已上二色、随損請替、〉轆轤杓四柄、水瓺麻笥四口、席三枚、〈請<orgName corresp="#内蔵寮">内蔵 <anchor
-         xml:id="app1410150103"/> 寮 <anchor xml:id="app1410150103e"/></orgName>
-       、〉紙三百六十張、〈上紙百卅張、凡紙二百卅張、〉筆十二管、墨三挺、帛三疋一丈二尺、〈一疋四丈八尺盛褥案二脚帊料、一疋二丈四尺熨被二領料、〉縹帛八尺、〈盛褥案 <anchor
-        xml:id="app1410150104"/> 二 <anchor xml:id="app1410150104e"/>
+       、厚三寸、〉陶由加四口、染槽四隻、〈已上二色、随損請替、〉轆轤杓四柄、水瓺麻笥四口、席三枚、〈請 <orgName corresp="#内蔵寮"> 内蔵 <anchor
+         xml:id="app1410150103"/> 寮 <anchor xml:id="app1410150103e"/>
+       </orgName> 、〉紙三百六十張、〈上紙百卅張、凡紙二百卅張、〉筆十二管、墨三挺、帛三疋一丈二尺、〈一疋四丈八尺盛褥案二脚帊料、一疋二丈四尺熨被二領料、〉縹帛八尺、〈盛褥案
+        <anchor xml:id="app1410150104"/> 二 <anchor xml:id="app1410150104e"/>
        脚帊紐四条料、別二尺、〉綿十屯、〈熨被二領料、〉絁四丈、〈襅四条料、〉細布十端一丈八尺、〈九端縫御服牀九脚敷料、一端一丈八尺納御服厨子二 <anchor
         xml:id="app1410150105"/> 基 <anchor xml:id="app1410150105e"/> 敷料、〉黄端茵四枚、折薦二枚、長帖十枚、長席二枚、 </p>
       <app from="#app1410150101" to="#app1410150101e">
@@ -1204,8 +1242,8 @@
         facs="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-14%2F00024.tif/full/full/0/default.jpg"
        />
        四尺、生絹二丈四尺、帷七条〈御衣床并御衣韓櫃等覆料、〉料帛三疋三丈八尺、東絁二疋、〈襷襅料、〉練糸五両、〈縫糸料、〉裁板二枚、〈各長四尺、広二尺、〉瑩板二枚、〈各長三尺五寸、広二尺四寸、〉熨斗二口、熨炭卅六
-        <anchor xml:id="app1410160303"/> 斛 <anchor xml:id="app1410160303e"/> 、〈請<orgName
-        corresp="#主殿寮">主殿寮</orgName>、〉擣衣料調布二端二丈四尺五寸、下纏料調綿一屯、席二枚、染槽六隻、漆手洗四口、〈 <anchor
+        <anchor xml:id="app1410160303"/> 斛 <anchor xml:id="app1410160303e"/> 、〈請 <orgName
+        corresp="#主殿寮"> 主殿寮 </orgName> 、〉擣衣料調布二端二丈四尺五寸、下纏料調綿一屯、席二枚、染槽六隻、漆手洗四口、〈 <anchor
         xml:id="app1410160304"/> 受 <anchor xml:id="app1410160304e"/> 二斗、〉水瓺麻笥五口、陶池由加四口、檜棹四 <anchor
         xml:id="app1410160305"/> 枝 <anchor xml:id="app1410160305e"/>
        、〈各長二丈、〉漆絁張廿具、轆轤杓十柄、〈大五、小五、〉紺布端長畳八枚、短畳四枚、筆十二管、墨三挺、 <lb/>
@@ -1245,14 +1283,14 @@
      <div ana="縫殿" n="14.17" subtype="項" type="条">
       <head ana="帳帷料物"/>
       <p ana="項" corresp="engishiki_v14_ja.xml#item14101701 engishiki_v14_en.xml#item14101701"
-       xml:id="item14101701"> 凡洗御帳帷料物、申内侍給之、其載帳車、就<orgName corresp="#馬寮">馬寮</orgName>請用之、 </p>
+       xml:id="item14101701"> 凡洗御帳帷料物、申内侍給之、其載帳車、就 <orgName corresp="#馬寮"> 馬寮 </orgName> 請用之、 </p>
      </div>
      <div ana="縫殿" n="14.18" subtype="項" type="条">
       <head ana="御礼服"/>
       <p ana="項" corresp="engishiki_v14_ja.xml#item14101801 engishiki_v14_en.xml#item14101801"
-       xml:id="item14101801"> 元日御礼服、前二日受<orgName corresp="#内蔵寮"
-        >内蔵寮</orgName>、熨脩即付本<orgName corresp="#寮">寮</orgName>、同日節会賜親王已下被一百条、〈別一疋一丈五尺、〉綿八百屯、〈別八屯、〉預前縫備、当日持候、<orgName corresp="#中務省"
-         >中務</orgName>唱名、<orgName corresp="#縫殿寮">寮</orgName>即頒給、其有残者依例行之、 </p>
+       xml:id="item14101801"> 元日御礼服、前二日受 <orgName corresp="#内蔵寮"> 内蔵寮 </orgName> 、熨脩即付本 <orgName
+        corresp="#寮"> 寮 </orgName> 、同日節会賜親王已下被一百条、〈別一疋一丈五尺、〉綿八百屯、〈別八屯、〉預前縫備、当日持候、 <orgName
+        corresp="#中務省"> 中務 </orgName> 唱名、 <orgName corresp="#縫殿寮"> 寮 </orgName> 即頒給、其有残者依例行之、 </p>
      </div>
      <div ana="縫殿" n="14.19" subtype="項" type="条">
       <head ana="鷹飼"/>
@@ -1294,7 +1332,7 @@
      <div ana="縫殿" n="14.22" subtype="項" type="条">
       <head ana="禄文"/>
       <p ana="項" corresp="engishiki_v14_ja.xml#item14102201 engishiki_v14_en.xml#item14102201"
-       xml:id="item14102201"> 凡職事已下宮人已上造禄文料紙申<orgName corresp="#省">省</orgName>、〈春秋各五十張、〉 </p>
+       xml:id="item14102201"> 凡職事已下宮人已上造禄文料紙申 <orgName corresp="#省"> 省 </orgName> 、〈春秋各五十張、〉 </p>
      </div>
      <div ana="縫殿" n="14.23" subtype="項" type="条">
       <head ana="膂力養物"/>
@@ -1304,13 +1342,14 @@
      <div ana="縫殿" n="14.24" subtype="項" type="条">
       <head ana="女孺月粮"/>
       <p ana="項" corresp="engishiki_v14_ja.xml#item14102401 engishiki_v14_en.xml#item14102401"
-       xml:id="item14102401"> 凡女孺七十人月粮、不経女官厨、直受<orgName corresp="#大炊寮">大炊寮</orgName>、 </p>
+       xml:id="item14102401"> 凡女孺七十人月粮、不経女官厨、直受 <orgName corresp="#大炊寮"> 大炊寮 </orgName> 、 </p>
      </div>
      <div ana="縫殿" n="14.25" subtype="項" type="条">
       <head ana="女官地"/>
       <p ana="項" corresp="engishiki_v14_ja.xml#item14102501 engishiki_v14_en.xml#item14102501"
        xml:id="item14102501"> 凡地六町、〈左京北辺 <anchor xml:id="app1410250101"/> 三 <anchor
-        xml:id="app1410250101e"/> 坊一町、右京北辺二坊三町、一条二坊二町、〉四町賜内侍司東豎子・女孺・膂力婦、二町賜<orgName corresp="#縫殿寮">寮</orgName>女孺已下、 </p>
+        xml:id="app1410250101e"/> 坊一町、右京北辺二坊三町、一条二坊二町、〉四町賜内侍司東豎子・女孺・膂力婦、二町賜 <orgName corresp="#縫殿寮">
+        寮 </orgName> 女孺已下、 </p>
       <app from="#app1410250101" to="#app1410250101e">
        <lem wit="#土本 #剛本 #京博本"> 三 </lem>
        <rdg wit="#剛本朱傍書 #京博本朱傍書"> 二 </rdg>
@@ -1338,10 +1377,11 @@
      <div ana="縫殿" n="14.28" subtype="項" type="条">
       <head ana="今良服米"/>
       <p ana="項" corresp="engishiki_v14_ja.xml#item14102801 engishiki_v14_en.xml#item14102801"
-       xml:id="item14102801"> 凡<orgName corresp="#縫殿寮">寮</orgName>直今良廿四人、〈男二人、女廿二人、〉其衣服并粮米、 <pb
+       xml:id="item14102801"> 凡 <orgName corresp="#縫殿寮"> 寮 </orgName> 直今良廿四人、〈男二人、女廿二人、〉其衣服并粮米、 <pb
         facs="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-14%2F00026.tif/full/full/0/default.jpg"
-       /> 不経<orgName corresp="#主殿寮">主殿寮</orgName>、 <orgName corresp="#縫殿寮"><anchor xml:id="app1410280101"/> 寮 <anchor
-        xml:id="app1410280101e"/></orgName> 直受充、 </p>
+       /> 不経 <orgName corresp="#主殿寮"> 主殿寮 </orgName> 、 <orgName corresp="#縫殿寮">
+        <anchor xml:id="app1410280101"/> 寮 <anchor xml:id="app1410280101e"/>
+       </orgName> 直受充、 </p>
       <app from="#app1410280101" to="#app1410280101e">
        <lem wit="#剛本 #京博本朱傍書"> 寮 </lem>
        <rdg wit="#土本 #近本 #京博本"> 家 </rdg>
@@ -1353,7 +1393,8 @@
       <head ana="仕女養物"/>
       <p ana="項" corresp="engishiki_v14_ja.xml#item14102901 engishiki_v14_en.xml#item14102901"
        xml:id="item14102901"> 凡仕女二人日功養物、勘 <anchor xml:id="app1410290101"/> 納 <anchor
-        xml:id="app1410290101e"/> <orgName corresp="#縫殿寮">寮</orgName>家充給、 </p>
+        xml:id="app1410290101e"/>
+       <orgName corresp="#縫殿寮"> 寮 </orgName> 家充給、 </p>
       <app from="#app1410290101" to="#app1410290101e">
        <lem wit="#剛本 #壬本 #近本傍書"> 納 </lem>
        <rdg wit="#土本 #近本"/>
@@ -1374,19 +1415,19 @@
        </row>
        <row>
         <cell/>
-        <cell> 従五位上行勘解由次官兼大外記<placeName corresp="#紀伊国">紀伊</placeName>権介臣伴宿禰久永 </cell>
+        <cell> 従五位上行勘解由次官兼大外記 <placeName corresp="#紀伊国"> 紀伊 </placeName> 権介臣伴宿禰久永 </cell>
        </row>
        <row>
         <cell/>
-        <cell> 従四位上行<orgName corresp="#神祇官">神祇</orgName>伯臣大中臣朝臣安則 </cell>
+        <cell> 従四位上行 <orgName corresp="#神祇官"> 神祇 </orgName> 伯臣大中臣朝臣安則 </cell>
        </row>
        <row>
         <cell/>
-        <cell> 大納言正三位兼行<orgName corresp="#民部省">民部</orgName>卿臣藤原朝臣清貫 </cell>
+        <cell> 大納言正三位兼行 <orgName corresp="#民部省"> 民部 </orgName> 卿臣藤原朝臣清貫 </cell>
        </row>
        <row>
         <cell/>
-        <cell> 左大臣正二位兼行<orgName corresp="#近衛府">左近衛</orgName>大将皇太子傅藤原朝臣忠平 </cell>
+        <cell> 左大臣正二位兼行 <orgName corresp="#近衛府"> 左近衛 </orgName> 大将皇太子傅藤原朝臣忠平 </cell>
        </row>
       </table>
      </p>

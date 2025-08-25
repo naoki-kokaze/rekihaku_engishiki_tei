@@ -54,28 +54,29 @@
       <witness xml:id="条本">
        <abbr> 条本 </abbr> ：一条家旧蔵巻子本（巻1～3は無窮会専門図書館所蔵模写本、巻4・5は神宮司庁刊影印本） </witness>
       <witness xml:id="花本">
-       <abbr> 花本 </abbr> ：花山院家・武田祐吉旧蔵本（神宮皇学館刊影印本による） </witness>
+       <abbr> 花本 </abbr> ：武田祐吉旧蔵花山院通雅筆本（神宮皇学館刊影印本による） </witness>
       <witness xml:id="九冊本">
        <abbr> 九冊本 </abbr> ：國學院大學所蔵九条家・西田長男旧蔵冊子本（巻5は西田長男刊影印本による） </witness>
       <witness xml:id="永本">
-       <abbr> 永本 </abbr> ：巻8は國學院大學図書館所蔵（091.2/322.135/1）、巻9・10は現蔵不明(神宮文庫所蔵写真帳1門16974） </witness>
+       <abbr> 永本 </abbr>
+       ：國學院大學図書館所蔵卜部兼永筆本（巻8、091.2/322.135/1）、鈴鹿義鯨旧蔵卜部兼永筆本（巻9・10、現蔵不明、神宮文庫写真帳1門16974を閲覧） </witness>
       <witness xml:id="右本">
        <abbr> 右本 </abbr> ：巻8は國學院大學図書館所蔵（貴62） </witness>
       <witness xml:id="吉本">
-       <abbr> 吉本 </abbr> ：天理大学附属天理図書館所蔵吉田家旧蔵本巻9・10（328.1-ｲ17(Ⅲ1219)） </witness>
+       <abbr> 吉本 </abbr> ：天理大学附属天理図書館所蔵吉田家旧蔵本巻9・10（328.1-ｲ17（『天理図書館稀書目録　和漢書之部　第三』1219） </witness>
       <witness xml:id="三条本">
        <abbr> 三条本 </abbr> ：天理大学附属天理図書館所蔵三条家旧蔵本（328.1-ｲ11(Ⅲ1218)） </witness>
       <witness xml:id="西本">
        <abbr> 西本 </abbr>
-       ：巻9・10は國學院大學図書館所蔵（貴107～108）。巻50は国立歴史民俗博物館所蔵（H-1588）。抄出本は國學院大學所蔵（木村大樹「〔西田長男旧蔵〕三条西実隆筆『延喜式』(抄)の翻刻・紹介」『國學院大學研究開発推進機構紀要』14、2022年） </witness>
+       ：國學院大學図書館所蔵三条西家旧蔵本（巻9・10、貴107～108）、国立歴史民俗博物館所蔵三条西家旧蔵本（巻50、H-1588）。抄出本は國學院大學所蔵（木村大樹「〔西田長男旧蔵〕三条西実隆筆『延喜式』(抄)の翻刻・紹介」『國學院大學研究開発推進機構紀要』14、2022年） </witness>
       <witness xml:id="時慶本">
        <abbr> 時慶本 </abbr> ：静嘉堂文庫所蔵西洞院時慶写本（延喜格式表18352、延喜式序18353） </witness>
+      <witness xml:id="藤波本">
+       <abbr> 藤波本 </abbr> ：宮内庁書陵部図書寮文庫所蔵藤波家旧蔵本（217-473） </witness>
       <witness xml:id="島原本">
        <abbr> 島原本 </abbr> ：東京大学史料編纂所所蔵松平忠房・和学講談所・水野忠央旧蔵本（貴45-2） </witness>
-      <witness xml:id="藤波本">
-       <abbr> 藤波本 </abbr> ：宮内庁書陵部図書寮文庫所蔵藤波家旧蔵本（217 -473） </witness>
       <witness xml:id="貞享本">
-       <abbr> 貞享本 </abbr> ：宮内庁書陵部図書寮文庫所蔵和学講談所旧蔵坊城俊方貞享本（457-116） </witness>
+       <abbr> 貞享本 </abbr> ：宮内庁書陵部図書寮文庫所蔵和学講談所旧蔵坊城俊方貞享五年写本（457-116） </witness>
       <witness xml:id="玄梁本">
        <abbr> 玄梁本 </abbr> ：無窮会専門図書館所蔵神習文庫玄梁記名本（神習3666） </witness>
       <witness xml:id="尾張本">
@@ -242,10 +243,14 @@
        <cell rendition="#width300"> 例）閉【門⊃オ】、国【囗⊃玉】 </cell>
       </row>
       <row>
-       <cell/>
+       <cell rendition="#width100"> 【（Ａ/Ｂ）+Ｃ】、【Ａ/（Ｂ⊃Ｃ）】 </cell>
+       <cell rendition="#width300"> ＝字画が三つ以上、かつ異なる方法で字画が組み合う </cell>
+       <cell rendition="#width300"> 例）雑【（九/木）+隹】、懸【（県+系）/心】、薗【艹/（口⊃袁）】 </cell>
       </row>
       <row>
        <cell/>
+       <cell/>
+       <cell> （班【王+リ+王】、窓【宀/公/心】はすべての字画が一つの方法で組み合うため、（　）なし。） </cell>
       </row>
      </table>
      <table>
@@ -337,6 +342,27 @@
        <cell rendition="#width50"> 68 </cell>
        <cell rendition="#width100"> 支子染色 </cell>
       </row>
+      <row>
+       <cell rendition="#width100"> 422東西市 </cell>
+       <cell rendition="#width50"> 1 </cell>
+       <cell rendition="#width100"> 毎鄽立牓 </cell>
+       <cell rendition="#width50"> 1 </cell>
+       <cell rendition="#width100"> 毎厘立牓 </cell>
+      </row>
+      <row>
+       <cell rendition="#width100"> 422東西市 </cell>
+       <cell rendition="#width50"> 14 </cell>
+       <cell rendition="#width100"> 東鄽 </cell>
+       <cell rendition="#width50"> 14 </cell>
+       <cell rendition="#width100"> 東厘 </cell>
+      </row>
+      <row>
+       <cell rendition="#width100"> 422東西市 </cell>
+       <cell rendition="#width50"> 15 </cell>
+       <cell rendition="#width100"> 西鄽 </cell>
+       <cell rendition="#width50"> 15 </cell>
+       <cell rendition="#width100"> 西厘 </cell>
+      </row>
      </table>
     </p>
     <p ana="個別"/>
@@ -355,8 +381,8 @@
      <date> 2024年3月31日 </date> 本奥書の「祢」を「禰」に改めました。 </change>
     <change when="2024-04-05">
      <date> 2024年4月5日 </date> 第10任僧綱条において、表示されていなかった標注に関する校異注を表示されるよう修正しました。 </change>
-    <change when="2024-10-11"
-     ><date>2024年10月11日</date>第123考定条において、「儲」の校異注を「土本等「諸」。九本・壬本、京博本朱傍書により改める。」に改めました。</change>
+    <change when="2024-10-11">
+     <date> 2024年10月11日 </date> 第123考定条において、「儲」の校異注を「土本等「諸」。九本・壬本、京博本朱傍書により改める。」に改めました。 </change>
    </listChange>
   </revisionDesc>
  </teiHeader>
@@ -371,7 +397,7 @@
     <div ana="太政官" n="11" subtype="条" type="式">
      <div type="式題" xml:id="shikidai111">
       <p xml:id="shikidai11101">
-       <orgName corresp="#太政官">太政官</orgName>
+       <orgName corresp="#太政官"> 太政官 </orgName>
       </p>
      </div>
      <div ana="太政官" n="11.1" subtype="項" type="条">
@@ -379,8 +405,8 @@
       <p ana="項" corresp="engishiki_v11_ja.xml#item11100101 engishiki_v11_en.xml#item11100101"
        xml:id="item11100101">
        <anchor xml:id="app1110010101"/>
-       <anchor xml:id="app1110010101e"/> 凡内外諸司所申庶務、弁官惣勘申<orgName corresp="#太政官"
-       >太政官</orgName>、其史読申、皆依司次、若申数事、各先神事、申神事史不申凶事、御本命日〈中宮・東宮亦同、〉及朔日・重日・復日亦不申凶事、 </p>
+       <anchor xml:id="app1110010101e"/> 凡内外諸司所申庶務、弁官惣勘申 <orgName corresp="#太政官"> 太政官 </orgName>
+       、其史読申、皆依司次、若申数事、各先神事、申神事史不申凶事、御本命日〈中宮・東宮亦同、〉及朔日・重日・復日亦不申凶事、 </p>
       <app from="#app1110010101" to="#app1110010101e" type="標注">
        <lem wit="#土本"> 弘 </lem>
       </app>
@@ -390,15 +416,14 @@
       <p ana="項" corresp="engishiki_v11_ja.xml#item11100201 engishiki_v11_en.xml#item11100201"
        xml:id="item11100201">
        <anchor xml:id="app1110020101"/>
-       <anchor xml:id="app1110020101e"/> 凡庶務申<orgName corresp="#太政官">太政官</orgName>、若大臣不在者、申中納言以上、其事
-        <anchor xml:id="app1110020102"/> 重 <anchor xml:id="app1110020102e"/>
-        者臨時奏裁、自余准例処分、其考選目録及請印六位以下位記者、<orgName corresp="#中務省">中務</orgName>・<orgName corresp="#式部省"
-        >式部</orgName>・<orgName corresp="#兵部省">兵部</orgName>三省不経 <pb
+       <anchor xml:id="app1110020101e"/> 凡庶務申 <orgName corresp="#太政官"> 太政官 </orgName>
+       、若大臣不在者、申中納言以上、其事 <anchor xml:id="app1110020102"/> 重 <anchor xml:id="app1110020102e"/>
+       者臨時奏裁、自余准例処分、其考選目録及請印六位以下位記者、 <orgName corresp="#中務省"> 中務 </orgName> ・ <orgName
+        corresp="#式部省"> 式部 </orgName> ・ <orgName corresp="#兵部省"> 兵部 </orgName> 三省不経 <pb
         facs="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-11%2F00004.tif/full/full/0/default.jpg"
-       /> 弁官直申<orgName corresp="#太政官">太政官</orgName>、<orgName corresp="#中務省"
-        >中務</orgName>申夏冬時服、及<orgName corresp="#式部省">式部</orgName>補文学・家令以下傔仗簡 <anchor
-        xml:id="app1110020103"/> 遣<placeName corresp="#諸国">諸国</placeName>使人 <anchor
-        xml:id="app1110020103e"/> 亦直申、 </p>
+       /> 弁官直申 <orgName corresp="#太政官"> 太政官 </orgName> 、 <orgName corresp="#中務省"> 中務 </orgName>
+       申夏冬時服、及 <orgName corresp="#式部省"> 式部 </orgName> 補文学・家令以下傔仗簡 <anchor xml:id="app1110020103"/> 遣
+        <placeName corresp="#諸国"> 諸国 </placeName> 使人 <anchor xml:id="app1110020103e"/> 亦直申、 </p>
       <app from="#app1110020101" to="#app1110020101e" type="標注">
        <lem wit="#近本 #壬本"> 弘 </lem>
        <rdg wit="#土本"/>
@@ -420,7 +445,7 @@
       <p ana="項" corresp="engishiki_v11_ja.xml#item11100301 engishiki_v11_en.xml#item11100301"
        xml:id="item11100301">
        <anchor xml:id="app1110030101"/>
-       <anchor xml:id="app1110030101e"/> 凡諸司申政於<orgName corresp="#太政官">太政官</orgName>者、先経外記、然後令申、 </p>
+       <anchor xml:id="app1110030101e"/> 凡諸司申政於 <orgName corresp="#太政官"> 太政官 </orgName> 者、先経外記、然後令申、 </p>
       <app from="#app1110030101" to="#app1110030101e" type="標注">
        <lem wit="#土本"> 延 </lem>
       </app>
@@ -457,8 +482,8 @@
       <p ana="項" corresp="engishiki_v11_ja.xml#item11100601 engishiki_v11_en.xml#item11100601"
        xml:id="item11100601">
        <anchor xml:id="app1110060101"/>
-       <anchor xml:id="app1110060101e"/> 凡諸司・<placeName corresp="#諸国"
-       >諸国</placeName>申政之時、史読申已訖、弁判曰、云云、畢即史仰云、縦、〈読曰与志、〉 </p>
+       <anchor xml:id="app1110060101e"/> 凡諸司・ <placeName corresp="#諸国"> 諸国 </placeName>
+       申政之時、史読申已訖、弁判曰、云云、畢即史仰云、縦、〈読曰与志、〉 </p>
       <app from="#app1110060101" to="#app1110060101e" type="標注">
        <lem wit="#土本"> 延 </lem>
       </app>
@@ -489,9 +514,10 @@
        xml:id="item11100801"> 凡左右弁官、各録入奏并請印文書及請進駅鈴・伝符等色目、牒送少納言、少納言・外記録入奏請印及請進駅鈴・伝符訖之状、牒弁官、其式如左、 </p>
       <p ana="項" corresp="engishiki_v11_ja.xml#item11100802 engishiki_v11_en.xml#item11100802"
        xml:id="item11100802"> 弁官牒少納言式 <lb/> 左弁官〈右弁官准此、〉 <lb/> 其国司申送調庸及中男作物等帳若干通 <lb/>
-       <orgName corresp="#式部省">式部省</orgName>申為応給諸司春夏禄事一通<lb/><orgName corresp="#兵部省">兵 <pb
+       <orgName corresp="#式部省"> 式部省 </orgName> 申為応給諸司春夏禄事一通 <lb/>
+       <orgName corresp="#兵部省"> 兵 <pb
          facs="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-11%2F00005.tif/full/full/0/default.jpg"
-        /> 部省</orgName>申為同前事一通 <lb/>
+        /> 部省 </orgName> 申為同前事一通 <lb/>
        <s rendition="#indent2"> 右若干通請奏、 </s>
       </p>
       <p ana="項" corresp="engishiki_v11_ja.xml#item11100803 engishiki_v11_en.xml#item11100803"
@@ -500,12 +526,12 @@
       </p>
       <p ana="項" corresp="engishiki_v11_ja.xml#item11100804 engishiki_v11_en.xml#item11100804"
        xml:id="item11100804"> 下其国為正税帳使官位姓名事畢還任事一通、若干刻駅鈴一口 <lb/> 下其国為位姓名任守事一通、若干刻伝符一枚 <lb/>
-       <orgName corresp="#民部省">民部省</orgName>下其国為給官位姓名食封事一通 <lb/>
+       <orgName corresp="#民部省"> 民部省 </orgName> 下其国為給官位姓名食封事一通 <lb/>
        <s rendition="#indent2"> 右三通請内印并駅鈴一口・伝符一枚、 </s>
       </p>
       <p ana="項" corresp="engishiki_v11_ja.xml#item11100805 engishiki_v11_en.xml#item11100805"
-       xml:id="item11100805"> 下<orgName corresp="#民部省">民部</orgName>・<orgName corresp="#宮内省"
-        >宮内</orgName>等省為給諸司其月公粮事一通 <lb/> 下<orgName corresp="#民部省">民部省</orgName>為応徴免其季課役事一通 <lb/>
+       xml:id="item11100805"> 下 <orgName corresp="#民部省"> 民部 </orgName> ・ <orgName corresp="#宮内省"> 宮内
+       </orgName> 等省為給諸司其月公粮事一通 <lb/> 下 <orgName corresp="#民部省"> 民部省 </orgName> 為応徴免其季課役事一通 <lb/>
        <s rendition="#indent2"> 右 <anchor xml:id="app1110080501"/> 二 <anchor xml:id="app1110080501e"
         /> 通請外印、 </s>
       </p>
@@ -535,8 +561,8 @@
        <pb
         facs="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-11%2F00006.tif/full/full/0/default.jpg"
        /> 其国司申送調庸及中男作物等帳若干通 <lb/>
-       <orgName corresp="#式部省">式部省</orgName>申為応給諸司春夏禄事一通 <lb/>
-       <orgName corresp="#兵部省">兵部省</orgName>申為同前事一通 <lb/>
+       <orgName corresp="#式部省"> 式部省 </orgName> 申為応給諸司春夏禄事一通 <lb/>
+       <orgName corresp="#兵部省"> 兵部省 </orgName> 申為同前事一通 <lb/>
        <s rendition="#indent2"> 右若干通、其日少納言其奏訖、 </s>
       </p>
       <app from="#app1110090101" to="#app1110090101e" type="標注">
@@ -553,7 +579,7 @@
       </app>
       <p ana="項" corresp="engishiki_v11_ja.xml#item11100903 engishiki_v11_en.xml#item11100903"
        xml:id="item11100903"> 下其国為正税帳使官位姓名事畢還任事一通、若干刻駅鈴一口 <lb/> 下其国為位姓名任守事一通、若干刻伝符一枚 <lb/>
-       <orgName corresp="#民部省">民部省</orgName>下其国為給官位姓名食封事一通 <lb/>
+       <orgName corresp="#民部省"> 民部省 </orgName> 下其国為給官位姓名食封事一通 <lb/>
        <s rendition="#indent2"> 右内印三 <anchor xml:id="app1110090301"/> 通 <anchor
          xml:id="app1110090301e"/> 、其日少納言其請印并駅鈴一口・伝符一枚訖、 </s>
       </p>
@@ -563,8 +589,8 @@
        <note> 通　九本「道」。 </note>
       </app>
       <p ana="項" corresp="engishiki_v11_ja.xml#item11100904 engishiki_v11_en.xml#item11100904"
-       xml:id="item11100904"> 下<orgName corresp="#民部省">民部</orgName>・<orgName corresp="#宮内省"
-        >宮内</orgName>等省為給諸司其月公粮事一通 <lb/> 下<orgName corresp="#民部省">民部省</orgName>為応徴免其季課役事一通 <lb/>
+       xml:id="item11100904"> 下 <orgName corresp="#民部省"> 民部 </orgName> ・ <orgName corresp="#宮内省"> 宮内
+       </orgName> 等省為給諸司其月公粮事一通 <lb/> 下 <orgName corresp="#民部省"> 民部省 </orgName> 為応徴免其季課役事一通 <lb/>
        <s rendition="#indent2"> 右外印二通、其日少納言其監印訖、 </s>
       </p>
       <p ana="項" corresp="engishiki_v11_ja.xml#item11100905 engishiki_v11_en.xml#item11100905"
@@ -585,15 +611,15 @@
       <head ana="任僧綱"/>
       <p ana="項" corresp="engishiki_v11_ja.xml#item11101001 engishiki_v11_en.xml#item11101001"
        xml:id="item11101001">
-       <anchor xml:id="app1110100101"/> 凡 <anchor xml:id="app1110100101e"/> 任僧綱者、弁官預仰<orgName
-        corresp="#式部省">式部</orgName>・<orgName corresp="#治部省">治部</orgName>等省、其日遣 <anchor
-        xml:id="app1110100102"/> 勅使 <anchor xml:id="app1110100102e"/> 参議、〈賜宣命文、〉及少納言・弁・<orgName
-        corresp="#式部省">式部</orgName>輔・<orgName corresp="#治部省">治部</orgName>輔・<orgName corresp="#玄蕃寮"
-        >玄蕃</orgName>頭等各一人共向僧綱所、〈僧綱所預設座、〉勅使以宣命文授少納言、少納言受而就座、宣制、訖勅使以下還 <anchor xml:id="app1110100103"
-       /> 帰 <anchor xml:id="app1110100103e"/> 、〈若不 <anchor xml:id="app1110100104"/> 遣 <anchor
-        xml:id="app1110100104e"/> 勅使、直下符<orgName corresp="#治部省">治部省</orgName>、〉 <anchor
-        xml:id="app1110100105"/> 然後<orgName corresp="#太政官">太政官</orgName>牒送僧綱、其告牒式如 <anchor
-        xml:id="app1110100106"/> 左 <anchor xml:id="app1110100106e"/>
+       <anchor xml:id="app1110100101"/> 凡 <anchor xml:id="app1110100101e"/> 任僧綱者、弁官預仰 <orgName
+        corresp="#式部省"> 式部 </orgName> ・ <orgName corresp="#治部省"> 治部 </orgName> 等省、其日遣 <anchor
+        xml:id="app1110100102"/> 勅使 <anchor xml:id="app1110100102e"/> 参議、〈賜宣命文、〉及少納言・弁・ <orgName
+        corresp="#式部省"> 式部 </orgName> 輔・ <orgName corresp="#治部省"> 治部 </orgName> 輔・ <orgName
+        corresp="#玄蕃寮"> 玄蕃 </orgName> 頭等各一人共向僧綱所、〈僧綱所預設座、〉勅使以宣命文授少納言、少納言受而就座、宣制、訖勅使以下還 <anchor
+        xml:id="app1110100103"/> 帰 <anchor xml:id="app1110100103e"/> 、〈若不 <anchor
+        xml:id="app1110100104"/> 遣 <anchor xml:id="app1110100104e"/> 勅使、直下符 <orgName corresp="#治部省">
+        治部省 </orgName> 、〉 <anchor xml:id="app1110100105"/> 然後 <orgName corresp="#太政官"> 太政官
+       </orgName> 牒送僧綱、其告牒式如 <anchor xml:id="app1110100106"/> 左 <anchor xml:id="app1110100106e"/>
        <anchor xml:id="app1110100105e"/> 、〈事見儀式、〉 </p>
       <app from="#app1110100101" to="#app1110100101e">
        <lem wit="#土本 #近本 #壬本"/>
@@ -604,7 +630,7 @@
        <rdg wit="#土本 #近本 #壬本 #京博本 #慶長本 #梵本"> 使勅 </rdg>
        <rdg wit="#九本"> 使 </rdg>
        <note> 近本訂正書「勅使」 </note>
-       <note>京博本朱訂正書「<seg style="color:red">勅使</seg>」</note>
+       <note> 京博本朱訂正書「 <seg style="color:red"> 勅使 </seg> 」 </note>
        <note> 勅使　土本等「使勅」。九本は「勅」まで欠損し、「使参議」と記す。近本訂正書・京博本朱訂により改める。 </note>
       </app>
       <app from="#app1110100103" to="#app1110100103e">
@@ -633,7 +659,7 @@
       </app>
       <p ana="項" corresp="engishiki_v11_ja.xml#item11101002 engishiki_v11_en.xml#item11101002"
        xml:id="item11101002">
-       <orgName corresp="#太政官">太政官</orgName>牒　僧綱 <lb/>
+       <orgName corresp="#太政官"> 太政官 </orgName> 牒　僧綱 <lb/>
        <anchor xml:id="app1110100201"/> 其 <anchor xml:id="app1110100201e"/> 位 <anchor
         xml:id="app1110100202"/> 其 <anchor xml:id="app1110100202e"/> 令擬僧正位 <lb/>
        <s rendition="#indent2"> 右一人擬官如右、 </s>
@@ -662,17 +688,17 @@
       <p ana="項" corresp="engishiki_v11_ja.xml#item11101101 engishiki_v11_en.xml#item11101101"
        xml:id="item11101101">
        <anchor xml:id="app1110110101"/>
-       <anchor xml:id="app1110110101e"/> 凡<orgName corresp="#太政官">太政官</orgName>下諸司・<placeName
-        corresp="#諸国">諸国</placeName>符、随事請内外印、其下 <anchor xml:id="app1110110102"/> 頒 <anchor
-        xml:id="app1110110102e"/> 詔書、及預官社神、得度還俗、増減官員、遣駅伝使并下駅鈴、新任国司并諸司在外国者赴任、五位以上出畿外、出納<orgName
-        corresp="#兵庫寮">兵庫</orgName>器仗、用正税、徴免課役、輸調庸物色及賜人官物・〈給 <placeName corresp="#諸国"><anchor
-         xml:id="app1110110103"/> 諸 <anchor xml:id="app1110110103e"/>
-       国</placeName>者内印、給京庫者外印、〉公地・封戸・雑田、遷収穀、百姓附籍・移貫・改姓、蕃 <pb
+       <anchor xml:id="app1110110101e"/> 凡 <orgName corresp="#太政官"> 太政官 </orgName> 下諸司・ <placeName
+        corresp="#諸国"> 諸国 </placeName> 符、随事請内外印、其下 <anchor xml:id="app1110110102"/> 頒 <anchor
+        xml:id="app1110110102e"/> 詔書、及預官社神、得度還俗、増減官員、遣駅伝使并下駅鈴、新任国司并諸司在外国者赴任、五位以上出畿外、出納 <orgName
+        corresp="#兵庫寮"> 兵庫 </orgName> 器仗、用正税、徴免課役、輸調庸物色及賜人官物・〈給 <placeName corresp="#諸国">
+        <anchor xml:id="app1110110103"/> 諸 <anchor xml:id="app1110110103e"/> 国 </placeName>
+       者内印、給京庫者外印、〉公地・封戸・雑田、遷収穀、百姓附籍・移貫・改姓、蕃 <pb
         facs="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-11%2F00008.tif/full/full/0/default.jpg"
-       /> 人還国、御馬、廃置郡駅、断罪、禁制、放賤従良等類、並請内印、余皆外印、諸<orgName corresp="#八省">省</orgName>請印下<placeName
-        corresp="#諸国">諸国</placeName>符亦各准此、〈<orgName corresp="#民部省">民部省</orgName>符、<orgName
-        corresp="#治部省">治 <anchor xml:id="app1110110104"/> 部 <anchor xml:id="app1110110104e"
-        /></orgName> 国分僧文、<orgName corresp="#宮内省">宮内</orgName>采女符、皆請内印類也、〉 </p>
+       /> 人還国、御馬、廃置郡駅、断罪、禁制、放賤従良等類、並請内印、余皆外印、諸 <orgName corresp="#八省"> 省 </orgName> 請印下 <placeName
+        corresp="#諸国"> 諸国 </placeName> 符亦各准此、〈 <orgName corresp="#民部省"> 民部省 </orgName> 符、 <orgName
+        corresp="#治部省"> 治 <anchor xml:id="app1110110104"/> 部 <anchor xml:id="app1110110104e"/>
+       </orgName> 国分僧文、 <orgName corresp="#宮内省"> 宮内 </orgName> 采女符、皆請内印類也、〉 </p>
       <app from="#app1110110101" to="#app1110110101e" type="標注">
        <lem wit="#土本 #近本 #壬本 #京博本 #梵本 #藤波本"> 弘 </lem>
       </app>
@@ -732,8 +758,8 @@
       <p ana="項" corresp="engishiki_v11_ja.xml#item11101501 engishiki_v11_en.xml#item11101501"
        xml:id="item11101501">
        <anchor xml:id="app1110150101"/>
-       <anchor xml:id="app1110150101e"/> 凡免除官物、先下符<orgName corresp="#民部省">民部省</orgName>、<orgName
-        corresp="#民部省">省</orgName>修符請印、不得直下符於国、 </p>
+       <anchor xml:id="app1110150101e"/> 凡免除官物、先下符 <orgName corresp="#民部省"> 民部省 </orgName> 、
+        <orgName corresp="#民部省"> 省 </orgName> 修符請印、不得直下符於国、 </p>
       <app from="#app1110150101" to="#app1110150101e" type="標注">
        <lem> 貞 </lem>
       </app>
@@ -748,20 +774,21 @@
       <p ana="項" corresp="engishiki_v11_ja.xml#item11101701 engishiki_v11_en.xml#item11101701"
        xml:id="item11101701">
        <anchor xml:id="app1110170101"/>
-       <anchor xml:id="app1110170101e"/> 凡新任国司赴任者、<placeName corresp="#伊賀国"
-        >伊賀</placeName>・<placeName corresp="#伊勢国">伊勢</placeName>・<placeName corresp="#近江国"
-        >近江</placeName>・<placeName corresp="#丹波国">丹波</placeName>・<placeName corresp="#播磨国"
-        >播磨</placeName>・<placeName corresp="#紀伊国">紀伊</placeName>等六国並不給食馬、<placeName corresp="#志摩国"
-        >志摩</placeName>・<placeName corresp="#尾張国">尾張</placeName>・<placeName corresp="#参河国"
-        >参河</placeName>・<placeName corresp="#美濃国">美濃</placeName>・<placeName corresp="#若狭国"
-        >若狭</placeName>・<placeName corresp="#越前国">越前</placeName>・<placeName corresp="#丹後国"
-        >丹後</placeName>・<placeName corresp="#但馬国">但馬</placeName>・<placeName corresp="#美作国"
-        >美作</placeName>・<placeName corresp="#淡路国">淡路</placeName>等十国、准位給食并蒭、<placeName corresp="#山陽道"
-        >山陽道</placeName><placeName corresp="#備前国">備前</placeName>以西及<placeName corresp="#南海道"
-        >南海</placeName>・ <anchor xml:id="app1110170102"/>
-       <placeName corresp="#西海道">西海</placeName>
-       <anchor xml:id="app1110170102e"/> 三道等国、並取海路、給食如法、自余<placeName corresp="#諸国"
-        >諸国</placeName>及<orgName corresp="#大宰府">大宰</orgName>帥・大弐皆給伝符、〈講読師赴任准此、唯不給伝符、〉 </p>
+       <anchor xml:id="app1110170101e"/> 凡新任国司赴任者、 <placeName corresp="#伊賀国"> 伊賀 </placeName> ・
+        <placeName corresp="#伊勢国"> 伊勢 </placeName> ・ <placeName corresp="#近江国"> 近江 </placeName> ・
+        <placeName corresp="#丹波国"> 丹波 </placeName> ・ <placeName corresp="#播磨国"> 播磨 </placeName> ・
+        <placeName corresp="#紀伊国"> 紀伊 </placeName> 等六国並不給食馬、 <placeName corresp="#志摩国"> 志摩
+       </placeName> ・ <placeName corresp="#尾張国"> 尾張 </placeName> ・ <placeName corresp="#参河国"> 参河
+       </placeName> ・ <placeName corresp="#美濃国"> 美濃 </placeName> ・ <placeName corresp="#若狭国"> 若狭
+       </placeName> ・ <placeName corresp="#越前国"> 越前 </placeName> ・ <placeName corresp="#丹後国"> 丹後
+       </placeName> ・ <placeName corresp="#但馬国"> 但馬 </placeName> ・ <placeName corresp="#美作国"> 美作
+       </placeName> ・ <placeName corresp="#淡路国"> 淡路 </placeName> 等十国、准位給食并蒭、 <placeName
+        corresp="#山陽道"> 山陽道 </placeName>
+       <placeName corresp="#備前国"> 備前 </placeName> 以西及 <placeName corresp="#南海道"> 南海 </placeName> ・
+        <anchor xml:id="app1110170102"/>
+       <placeName corresp="#西海道"> 西海 </placeName>
+       <anchor xml:id="app1110170102e"/> 三道等国、並取海路、給食如法、自余 <placeName corresp="#諸国"> 諸国 </placeName>
+       及 <orgName corresp="#大宰府"> 大宰 </orgName> 帥・大弐皆給伝符、〈講読師赴任准此、唯不給伝符、〉 </p>
       <app from="#app1110170101" to="#app1110170101e" type="標注">
        <lem> 弘 </lem>
       </app>
@@ -783,8 +810,8 @@
        <anchor xml:id="app1110190101"/>
        <anchor xml:id="app1110190101e"/> 凡少掾 <anchor xml:id="app1110190102"/> 転 <anchor
         xml:id="app1110190102e"/> 大掾、少目 <anchor xml:id="app1110190103"/> 転 <anchor
-        xml:id="app1110190103e"/> 大目之類、籖符連修一紙、〈<orgName corresp="#大宰府">大宰</orgName>監・典、<placeName
-        corresp="#諸国">諸国</placeName>郡領亦准此、〉 </p>
+        xml:id="app1110190103e"/> 大目之類、籖符連修一紙、〈 <orgName corresp="#大宰府"> 大宰 </orgName> 監・典、
+        <placeName corresp="#諸国"> 諸国 </placeName> 郡領亦准此、〉 </p>
       <app from="#app1110190101" to="#app1110190101e" type="標注">
        <lem wit="#近本 #壬本"> 貞 </lem>
        <rdg wit="#土本"/>
@@ -810,9 +837,9 @@
       <p ana="項" corresp="engishiki_v11_ja.xml#item11102001 engishiki_v11_en.xml#item11102001"
        xml:id="item11102001">
        <anchor xml:id="app1110200101"/>
-       <anchor xml:id="app1110200101e"/> 凡<placeName corresp="#諸国"
-        >諸国</placeName>主典已上置二員之職、同年秩満相代者、拠到任先後次第相代之、若前司二員同日到国、下居之人先須相替、鋳銭司・<orgName corresp="#大宰府"
-        >大宰</orgName>・鎮守等府亦准此、 </p>
+       <anchor xml:id="app1110200101e"/> 凡 <placeName corresp="#諸国"> 諸国 </placeName>
+       主典已上置二員之職、同年秩満相代者、拠到任先後次第相代之、若前司二員同日到国、下居之人先須相替、鋳銭司・ <orgName corresp="#大宰府"> 大宰 </orgName>
+       ・鎮守等府亦准此、 </p>
       <app from="#app1110200101" to="#app1110200101e" type="標注">
        <lem> 貞延 </lem>
       </app>
@@ -822,9 +849,9 @@
       <p ana="項" corresp="engishiki_v11_ja.xml#item11102101 engishiki_v11_en.xml#item11102101"
        xml:id="item11102101">
        <anchor xml:id="app1110210101"/>
-       <anchor xml:id="app1110210101e"/> 凡自京官遷任<placeName corresp="#畿内"
-        >畿内</placeName>之輩、雖未進本任解由、且聴向国、〈<placeName corresp="#近江国">近江</placeName>・<placeName
-        corresp="#丹波国">丹波</placeName>准此、〉 </p>
+       <anchor xml:id="app1110210101e"/> 凡自京官遷任 <placeName corresp="#畿内"> 畿内 </placeName>
+       之輩、雖未進本任解由、且聴向国、〈 <placeName corresp="#近江国"> 近江 </placeName> ・ <placeName corresp="#丹波国"> 丹波
+       </placeName> 准此、〉 </p>
       <app from="#app1110210101" to="#app1110210101e" type="標注">
        <lem> 貞 </lem>
       </app>
@@ -834,10 +861,10 @@
       <p ana="項" corresp="engishiki_v11_ja.xml#item11102201 engishiki_v11_en.xml#item11102201"
        xml:id="item11102201">
        <anchor xml:id="app1110220101"/>
-       <anchor xml:id="app1110220101e"/> 凡<placeName corresp="#諸国"
-       >諸国</placeName>一分已上遷任他国、不責本任放還、直遣任所、若 <anchor xml:id="app1110220102"/> 過 <anchor
-        xml:id="app1110220102e"/> 限不進解由者、所司申応解任之状、但為官 <anchor xml:id="app1110220103"/> 長 <anchor
-        xml:id="app1110220103e"/> 者、待分付了進解由、乃給籖符、 </p>
+       <anchor xml:id="app1110220101e"/> 凡 <placeName corresp="#諸国"> 諸国 </placeName>
+       一分已上遷任他国、不責本任放還、直遣任所、若 <anchor xml:id="app1110220102"/> 過 <anchor xml:id="app1110220102e"/>
+       限不進解由者、所司申応解任之状、但為官 <anchor xml:id="app1110220103"/> 長 <anchor xml:id="app1110220103e"/>
+       者、待分付了進解由、乃給籖符、 </p>
       <app from="#app1110220101" to="#app1110220101e" type="標注">
        <lem> 貞 </lem>
       </app>
@@ -864,8 +891,8 @@
       <p ana="項" corresp="engishiki_v11_ja.xml#item11102301 engishiki_v11_en.xml#item11102301"
        xml:id="item11102301">
        <anchor xml:id="app1110230101"/>
-       <anchor xml:id="app1110230101e"/> 凡<placeName corresp="#諸国"
-       >諸国</placeName>一分已上遙授兼任之輩、遷任他国并京官者、早下官符停止本任、 </p>
+       <anchor xml:id="app1110230101e"/> 凡 <placeName corresp="#諸国"> 諸国 </placeName>
+       一分已上遙授兼任之輩、遷任他国并京官者、早下官符停止本任、 </p>
       <app from="#app1110230101" to="#app1110230101e" type="標注">
        <lem> 延 </lem>
       </app>
@@ -875,8 +902,8 @@
       <p ana="項" corresp="engishiki_v11_ja.xml#item11102401 engishiki_v11_en.xml#item11102401"
        xml:id="item11102401">
        <anchor xml:id="app1110240101"/>
-       <anchor xml:id="app1110240101e"/> 凡<placeName corresp="#諸国"
-       >諸国</placeName>権史生・博士・医師遷任并依譲相代之輩、其籖符注所遺歴、 </p>
+       <anchor xml:id="app1110240101e"/> 凡 <placeName corresp="#諸国"> 諸国 </placeName>
+       権史生・博士・医師遷任并依譲相代之輩、其籖符注所遺歴、 </p>
       <app from="#app1110240101" to="#app1110240101e" type="標注">
        <lem> 貞 </lem>
       </app>
@@ -884,13 +911,14 @@
      <div ana="太政官" n="11.25" subtype="項" type="条">
       <head ana="受業解文"/>
       <p ana="項" corresp="engishiki_v11_ja.xml#item11102501 engishiki_v11_en.xml#item11102501"
-       xml:id="item11102501"> 凡<placeName corresp="#諸国">諸国</placeName>受業博士・医師補任解文并籖符、名下注各本業、 </p>
+       xml:id="item11102501"> 凡 <placeName corresp="#諸国"> 諸国 </placeName> 受業博士・医師補任解文并籖符、名下注各本業、
+      </p>
      </div>
      <div ana="太政官" n="11.26" subtype="項" type="条">
       <head ana="籤符印"/>
       <p ana="項" corresp="engishiki_v11_ja.xml#item11102601 engishiki_v11_en.xml#item11102601"
-       xml:id="item11102601"> 凡<placeName corresp="#諸国">諸国</placeName>史生・博士・医師籖符、外記勘会補任帳、明知其補由、然後請印、
-      </p>
+       xml:id="item11102601"> 凡 <placeName corresp="#諸国"> 諸国 </placeName>
+       史生・博士・医師籖符、外記勘会補任帳、明知其補由、然後請印、 </p>
      </div>
      <div ana="太政官" n="11.27" subtype="項" type="条">
       <head ana="改印"/>
@@ -924,11 +952,11 @@
      <div ana="太政官" n="11.29" subtype="項" type="条">
       <head ana="改造印"/>
       <p ana="項" corresp="engishiki_v11_ja.xml#item11102901 engishiki_v11_en.xml#item11102901"
-       xml:id="item11102901"> 凡内外諸司印刓尽応改造者、下符<orgName corresp="#中務省">中務省</orgName>、仰<orgName
-        corresp="#内匠寮">内匠寮</orgName>令請料度、官仰<orgName corresp="#式部省">式部省</orgName>
-       <anchor xml:id="app1110290101"/> 召 <anchor xml:id="app1110290101e"/> 書博士、就<orgName
-        corresp="#中務省">中務省</orgName>令書印字様、即少納言・<orgName corresp="#中務省">中務</orgName>輔・<orgName
-        corresp="#内匠寮">寮</orgName>助以上臨監、 <anchor xml:id="app1110290102"/> 令 <anchor
+       xml:id="item11102901"> 凡内外諸司印刓尽応改造者、下符 <orgName corresp="#中務省"> 中務省 </orgName> 、仰 <orgName
+        corresp="#内匠寮"> 内匠寮 </orgName> 令請料度、官仰 <orgName corresp="#式部省"> 式部省 </orgName>
+       <anchor xml:id="app1110290101"/> 召 <anchor xml:id="app1110290101e"/> 書博士、就 <orgName
+        corresp="#中務省"> 中務省 </orgName> 令書印字様、即少納言・ <orgName corresp="#中務省"> 中務 </orgName> 輔・
+        <orgName corresp="#内匠寮"> 寮 </orgName> 助以上臨監、 <anchor xml:id="app1110290102"/> 令 <anchor
         xml:id="app1110290102e"/> 鋳造畢進奏付弁官令給、 </p>
       <app from="#app1110290101" to="#app1110290101e">
        <lem wit="#九本 #近本傍書"> 召 </lem>
@@ -947,11 +975,11 @@
       <p ana="項" corresp="engishiki_v11_ja.xml#item11103001 engishiki_v11_en.xml#item11103001"
        xml:id="item11103001">
        <anchor xml:id="app1110300101"/>
-       <anchor xml:id="app1110300101e"/> 凡毎月晦日、<orgName corresp="#太政官">太政官</orgName>録参議以上 <anchor
-        xml:id="app1110300102"/> 上 <anchor xml:id="app1110300102e"/> 日、少納言来月一日進奏、又録 <anchor
+       <anchor xml:id="app1110300101e"/> 凡毎月晦日、 <orgName corresp="#太政官"> 太政官 </orgName> 録参議以上
+        <anchor xml:id="app1110300102"/> 上 <anchor xml:id="app1110300102e"/> 日、少納言来月一日進奏、又録 <anchor
         xml:id="app1110300103"/> 参議 <anchor xml:id="app1110300103e"/> 以上及少納言上日送弁官、弁官惣修符、二 <anchor
-        xml:id="app1110300104"/> 日 <anchor xml:id="app1110300104e"/> 下知<orgName corresp="#式部省"
-        >式部</orgName>、自余考文・季禄・馬料亦同下知、其下<orgName corresp="#中務省">中務</orgName>門籍・時服之類准此、 </p>
+        xml:id="app1110300104"/> 日 <anchor xml:id="app1110300104e"/> 下知 <orgName corresp="#式部省"> 式部
+       </orgName> 、自余考文・季禄・馬料亦同下知、其下 <orgName corresp="#中務省"> 中務 </orgName> 門籍・時服之類准此、 </p>
       <app from="#app1110300101" to="#app1110300101e" type="標注">
        <lem> 弘貞延 </lem>
       </app>
@@ -979,8 +1007,8 @@
      <div ana="太政官" n="11.31" subtype="項" type="条">
       <head ana="史生解由"/>
       <p ana="項" corresp="engishiki_v11_ja.xml#item11103101 engishiki_v11_en.xml#item11103101"
-       xml:id="item11103101"> 凡史生已上解任遷替与解由者、先修案文、少納言・外記尽署名、与解由状送弁官、令下符<orgName corresp="#式部省"
-        >式部省</orgName>、左右 <anchor xml:id="app1110310101"/> 史生 <anchor xml:id="app1110310101e"/> 以上
+       xml:id="item11103101"> 凡史生已上解任遷替与解由者、先修案文、少納言・外記尽署名、与解由状送弁官、令下符 <orgName corresp="#式部省"> 式部省
+       </orgName> 、左右 <anchor xml:id="app1110310101"/> 史生 <anchor xml:id="app1110310101e"/> 以上
         <anchor xml:id="app1110310102"/> 亦 <anchor xml:id="app1110310102e"/> 准此、但参議已上不在此限、 </p>
       <app from="#app1110310101" to="#app1110310101e">
        <lem wit="#九本"> 史生 </lem>
@@ -999,8 +1027,9 @@
        xml:id="item11103201">
        <anchor xml:id="app1110320101"/>
        <anchor xml:id="app1110320101e"/> 凡内外諸司解由者、惣令進二通、其程限者、官長・任用各依受領勘知之程並申、畢即下 <orgName
-        corresp="#式部省"><anchor xml:id="app1110320102"/> 式 <anchor xml:id="app1110320102e"/>
-        部省</orgName>并勘解由使、若不進二通者、返却不下、〈<placeName corresp="#諸国">諸国</placeName>講読師・諸寺別当三綱 <anchor
+        corresp="#式部省">
+        <anchor xml:id="app1110320102"/> 式 <anchor xml:id="app1110320102e"/> 部省 </orgName>
+       并勘解由使、若不進二通者、返却不下、〈 <placeName corresp="#諸国"> 諸国 </placeName> 講読師・諸寺別当三綱 <anchor
         xml:id="app1110320103"/> 等 <anchor xml:id="app1110320103e"/> 解由准此、〉 </p>
       <app from="#app1110320101" to="#app1110320101e" type="標注">
        <lem> 延 </lem>
@@ -1021,9 +1050,9 @@
       <p ana="項" corresp="engishiki_v11_ja.xml#item11103301 engishiki_v11_en.xml#item11103301"
        xml:id="item11103301">
        <anchor xml:id="app1110330101"/>
-       <anchor xml:id="app1110330101e"/> 凡被管諸司解由及不与解由状、惣官押署進之、〈<orgName corresp="#大宰府"
-       >大宰</orgName>管内 <anchor xml:id="app1110330102"/> 国 <anchor xml:id="app1110330102e"/>
-        ・陸奥鎮守府・<placeName corresp="#諸国">諸国</placeName>講読師等准此、〉 </p>
+       <anchor xml:id="app1110330101e"/> 凡被管諸司解由及不与解由状、惣官押署進之、〈 <orgName corresp="#大宰府"> 大宰
+       </orgName> 管内 <anchor xml:id="app1110330102"/> 国 <anchor xml:id="app1110330102e"/> ・陸奥鎮守府・
+        <placeName corresp="#諸国"> 諸国 </placeName> 講読師等准此、〉 </p>
       <app from="#app1110330101" to="#app1110330101e" type="標注">
        <lem> 延 </lem>
       </app>
@@ -1038,8 +1067,8 @@
       <p ana="項" corresp="engishiki_v11_ja.xml#item11103401 engishiki_v11_en.xml#item11103401"
        xml:id="item11103401">
        <anchor xml:id="app1110340101"/>
-       <anchor xml:id="app1110340101e"/> 凡<placeName corresp="#諸国">諸国</placeName>雑米有未進者、返却其官長解由、知無
-        <pb
+       <anchor xml:id="app1110340101e"/> 凡 <placeName corresp="#諸国"> 諸国 </placeName>
+       雑米有未進者、返却其官長解由、知無 <pb
         facs="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-11%2F00011.tif/full/full/0/default.jpg"
        /> 未進、然後令下、 </p>
       <app from="#app1110340101" to="#app1110340101e" type="標注">
@@ -1051,9 +1080,9 @@
       <p ana="項" corresp="engishiki_v11_ja.xml#item11103501 engishiki_v11_en.xml#item11103501"
        xml:id="item11103501">
        <anchor xml:id="app1110350101"/>
-       <anchor xml:id="app1110350101e"/> 凡諸司・<placeName corresp="#諸国"
-        >諸国</placeName>交替延期状、前後人共署進、其解文申訖即下<orgName corresp="#式部省">式部</orgName>、〈武官下<orgName
-        corresp="#兵部省">兵部</orgName>、〉唯聴一度、不得再申、 </p>
+       <anchor xml:id="app1110350101e"/> 凡諸司・ <placeName corresp="#諸国"> 諸国 </placeName>
+       交替延期状、前後人共署進、其解文申訖即下 <orgName corresp="#式部省"> 式部 </orgName> 、〈武官下 <orgName corresp="#兵部省"> 兵部
+       </orgName> 、〉唯聴一度、不得再申、 </p>
       <app from="#app1110350101" to="#app1110350101e" type="標注">
        <lem> 貞 </lem>
       </app>
@@ -1085,9 +1114,8 @@
       <p ana="項" corresp="engishiki_v11_ja.xml#item11103801 engishiki_v11_en.xml#item11103801"
        xml:id="item11103801">
        <anchor xml:id="app1110380101"/>
-       <anchor xml:id="app1110380101e"/> 凡<placeName corresp="#諸国"
-       >諸国</placeName>史生已上解退之後、不待解由与不身去他処、及 <anchor xml:id="app1110380102"/> 遁 <anchor
-        xml:id="app1110380102e"/>
+       <anchor xml:id="app1110380101e"/> 凡 <placeName corresp="#諸国"> 諸国 </placeName>
+       史生已上解退之後、不待解由与不身去他処、及 <anchor xml:id="app1110380102"/> 遁 <anchor xml:id="app1110380102e"/>
        避不署不与解由状、科公事稽留之罪、其状直下所司令勘奏、不許申請、若新司不載前司所執、徒引旬月、致令愁訴、亦科公事稽留之罪、奪其俸料、〈諸司・諸寺准此、〉 </p>
       <app from="#app1110380101" to="#app1110380101e" type="標注">
        <lem> 貞延 </lem>
@@ -1104,8 +1132,8 @@
       <p ana="項" corresp="engishiki_v11_ja.xml#item11103901 engishiki_v11_en.xml#item11103901"
        xml:id="item11103901">
        <anchor xml:id="app1110390101"/>
-       <anchor xml:id="app1110390101e"/> 凡諸寺別当鎮三綱并定額僧等依官符補任之者、宜先令所司勘申年﨟、而後造符、<placeName
-        corresp="#諸国">諸国</placeName>講読師等依宣旨補任之徒亦宜准此、 </p>
+       <anchor xml:id="app1110390101e"/> 凡諸寺別当鎮三綱并定額僧等依官符補任之者、宜先令所司勘申年﨟、而後造符、 <placeName
+        corresp="#諸国"> 諸国 </placeName> 講読師等依宣旨補任之徒亦宜准此、 </p>
       <app from="#app1110390101" to="#app1110390101e" type="標注">
        <lem> 延 </lem>
       </app>
@@ -1145,8 +1173,8 @@
       <p ana="項" corresp="engishiki_v11_ja.xml#item11104201 engishiki_v11_en.xml#item11104201"
        xml:id="item11104201">
        <anchor xml:id="app1110420101"/>
-       <anchor xml:id="app1110420101e"/> 凡太陽虧者、<orgName corresp="#陰陽寮">陰陽寮</orgName>預申<orgName
-        corresp="#中務省">中務省</orgName>、<orgName corresp="#中務省">省</orgName>録申官、即少納言奏聞、訖官告知諸司、 </p>
+       <anchor xml:id="app1110420101e"/> 凡太陽虧者、 <orgName corresp="#陰陽寮"> 陰陽寮 </orgName> 預申 <orgName
+        corresp="#中務省"> 中務省 </orgName> 、 <orgName corresp="#中務省"> 省 </orgName> 録申官、即少納言奏聞、訖官告知諸司、 </p>
       <app from="#app1110420101" to="#app1110420101e" type="標注">
        <lem> 弘 </lem>
       </app>
@@ -1156,11 +1184,11 @@
       <p ana="項" corresp="engishiki_v11_ja.xml#item11104301 engishiki_v11_en.xml#item11104301"
        xml:id="item11104301">
        <anchor xml:id="app1110430101"/>
-       <anchor xml:id="app1110430101e"/> 凡国忌者、<orgName corresp="#治部省">治部省</orgName>預録其日并<orgName
-        corresp="#治部省">省</orgName>・<orgName corresp="#玄蕃寮"
-        >玄蕃</orgName>応行事官人名申官、前一日少納言奏聞、諸司就寺供斎会事、〈事見<orgName corresp="#式部省">式部</orgName>・<orgName
-        corresp="#治部省">治部</orgName>等式、〉但東西両寺、参議已上及弁・外記・史各一人、<orgName corresp="#太政官"
-       >太政官</orgName>史生・官掌各一人参、 </p>
+       <anchor xml:id="app1110430101e"/> 凡国忌者、 <orgName corresp="#治部省"> 治部省 </orgName> 預録其日并
+        <orgName corresp="#治部省"> 省 </orgName> ・ <orgName corresp="#玄蕃寮"> 玄蕃 </orgName>
+       応行事官人名申官、前一日少納言奏聞、諸司就寺供斎会事、〈事見 <orgName corresp="#式部省"> 式部 </orgName> ・ <orgName
+        corresp="#治部省"> 治部 </orgName> 等式、〉但東西両寺、参議已上及弁・外記・史各一人、 <orgName corresp="#太政官"> 太政官
+       </orgName> 史生・官掌各一人参、 </p>
       <app from="#app1110430101" to="#app1110430101e" type="標注">
        <lem> 弘 </lem>
       </app>
@@ -1180,11 +1208,11 @@
       <p ana="項" corresp="engishiki_v11_ja.xml#item11104501 engishiki_v11_en.xml#item11104501"
        xml:id="item11104501">
        <anchor xml:id="app1110450101"/>
-       <anchor xml:id="app1110450101e"/> 凡応差使遣<placeName corresp="#諸国">諸国</placeName>者、<orgName
-        corresp="#太政官">太政官</orgName>先以状奏聞、大事臨時奉勅定名、中事大臣簡奏、少事令弁官仰<orgName corresp="#式部省"
-        >式部</orgName>簡点、<orgName corresp="#式部省">省</orgName>即録名直申大臣、訖即其文入<orgName corresp="#太政官"
-        >太政官</orgName>、更写一通、入弁官発遣、其使廻日応申務<orgName corresp="#太政官"
-       >太政官</orgName>者、先以状申弁官、即弁・史等率引就座、先申使政、訖即退出、然後弁・史申政如常、 </p>
+       <anchor xml:id="app1110450101e"/> 凡応差使遣 <placeName corresp="#諸国"> 諸国 </placeName> 者、 <orgName
+        corresp="#太政官"> 太政官 </orgName> 先以状奏聞、大事臨時奉勅定名、中事大臣簡奏、少事令弁官仰 <orgName corresp="#式部省"> 式部
+       </orgName> 簡点、 <orgName corresp="#式部省"> 省 </orgName> 即録名直申大臣、訖即其文入 <orgName corresp="#太政官">
+        太政官 </orgName> 、更写一通、入弁官発遣、其使廻日応申務 <orgName corresp="#太政官"> 太政官 </orgName>
+       者、先以状申弁官、即弁・史等率引就座、先申使政、訖即退出、然後弁・史申政如常、 </p>
       <app from="#app1110450101" to="#app1110450101e" type="標注">
        <lem> 弘貞 </lem>
       </app>
@@ -1192,7 +1220,7 @@
      <div ana="太政官" n="11.46" subtype="項" type="条">
       <head ana="遣和泉使"/>
       <p ana="項" corresp="engishiki_v11_ja.xml#item11104601 engishiki_v11_en.xml#item11104601"
-       xml:id="item11104601"> 凡遣<placeName corresp="#和泉国">和泉国</placeName>使、准外国給駅鈴、 </p>
+       xml:id="item11104601"> 凡遣 <placeName corresp="#和泉国"> 和泉国 </placeName> 使、准外国給駅鈴、 </p>
      </div>
      <pb
       facs="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-11%2F00013.tif/full/full/0/default.jpg"/>
@@ -1201,8 +1229,8 @@
       <p ana="項" corresp="engishiki_v11_ja.xml#item11104701 engishiki_v11_en.xml#item11104701"
        xml:id="item11104701">
        <anchor xml:id="app1110470101"/>
-       <anchor xml:id="app1110470101e"/> 凡遣<placeName corresp="#諸国">諸国</placeName>使、<orgName
-        corresp="#式部省">式部</orgName>申官之後、若有稽留、弁官催発、 </p>
+       <anchor xml:id="app1110470101e"/> 凡遣 <placeName corresp="#諸国"> 諸国 </placeName> 使、 <orgName
+        corresp="#式部省"> 式部 </orgName> 申官之後、若有稽留、弁官催発、 </p>
       <app from="#app1110470101" to="#app1110470101e" type="標注">
        <lem> 貞 </lem>
       </app>
@@ -1212,8 +1240,8 @@
       <p ana="項" corresp="engishiki_v11_ja.xml#item11104801 engishiki_v11_en.xml#item11104801"
        xml:id="item11104801">
        <anchor xml:id="app1110480101"/>
-       <anchor xml:id="app1110480101e"/> 凡<placeName corresp="#諸国"
-       >諸国</placeName>申応賑給百姓者、具注歴名言上、不得直申其状、 </p>
+       <anchor xml:id="app1110480101e"/> 凡 <placeName corresp="#諸国"> 諸国 </placeName>
+       申応賑給百姓者、具注歴名言上、不得直申其状、 </p>
       <app from="#app1110480101" to="#app1110480101e" type="標注">
        <lem> 弘 </lem>
       </app>
@@ -1223,9 +1251,9 @@
       <p ana="項" corresp="engishiki_v11_ja.xml#item11104901 engishiki_v11_en.xml#item11104901"
        xml:id="item11104901">
        <anchor xml:id="app1110490101"/>
-       <anchor xml:id="app1110490101e"/> 凡遣賑給使、奏国解、訖即仰<orgName corresp="#式部省"
-       >式部</orgName>、二日之内進擬使文、同日 <anchor xml:id="app1110490102"/> 弁 <anchor xml:id="app1110490102e"
-       /> 官修符請印、訖五日内使者発去、若致闕怠者、尋情勘当、臨時 <anchor xml:id="app1110490103"/> 緩 <anchor
+       <anchor xml:id="app1110490101e"/> 凡遣賑給使、奏国解、訖即仰 <orgName corresp="#式部省"> 式部 </orgName>
+       、二日之内進擬使文、同日 <anchor xml:id="app1110490102"/> 弁 <anchor xml:id="app1110490102e"/>
+       官修符請印、訖五日内使者発去、若致闕怠者、尋情勘当、臨時 <anchor xml:id="app1110490103"/> 緩 <anchor
         xml:id="app1110490103e"/> 急之使亦同、 </p>
       <app from="#app1110490101" to="#app1110490101e" type="標注">
        <lem> 貞 </lem>
@@ -1250,8 +1278,8 @@
       <p ana="項" corresp="engishiki_v11_ja.xml#item11105001 engishiki_v11_en.xml#item11105001"
        xml:id="item11105001">
        <anchor xml:id="app1110500101"/>
-       <anchor xml:id="app1110500101e"/> 凡<placeName corresp="#諸国"
-       >諸国</placeName>依異損申請正税・雑稲未納者、率勘定損田一千町令申未納五万束以下、奏定 <anchor xml:id="app1110500102"/> 之 <anchor
+       <anchor xml:id="app1110500101e"/> 凡 <placeName corresp="#諸国"> 諸国 </placeName>
+       依異損申請正税・雑稲未納者、率勘定損田一千町令申未納五万束以下、奏定 <anchor xml:id="app1110500102"/> 之 <anchor
         xml:id="app1110500102e"/> 後修符下知、 </p>
       <app from="#app1110500101" to="#app1110500101e" type="標注">
        <lem> 延 </lem>
@@ -1268,8 +1296,8 @@
        xml:id="item11105101">
        <anchor xml:id="app1110510101"/>
        <anchor xml:id="app1110510101e"/>
-        凡蕃客入朝、任存問使・掌客使・領帰郷客使各二人、随使各一人、通事一人、〈入京之時、令存問使兼領客使、〉又預差定郊労使・慰労使・労問使・賜衣服使各一人、宣命使・供食使各二人、〈豊楽院各一人、朝集堂各一人、〉賜勅書使・賜<orgName
-        corresp="#太政官">太政官</orgName>牒使各二人、〈史一人随官牒使到客館、〉 </p>
+       凡蕃客入朝、任存問使・掌客使・領帰郷客使各二人、随使各一人、通事一人、〈入京之時、令存問使兼領客使、〉又預差定郊労使・慰労使・労問使・賜衣服使各一人、宣命使・供食使各二人、〈豊楽院各一人、朝集堂各一人、〉賜勅書使・賜
+        <orgName corresp="#太政官"> 太政官 </orgName> 牒使各二人、〈史一人随官牒使到客館、〉 </p>
       <app from="#app1110510101" to="#app1110510101e" type="標注">
        <lem> 貞延 </lem>
       </app>
@@ -1289,10 +1317,10 @@
       <p ana="項" corresp="engishiki_v11_ja.xml#item11105301 engishiki_v11_en.xml#item11105301"
        xml:id="item11105301">
        <anchor xml:id="app1110530101"/>
-       <anchor xml:id="app1110530101e"/> 凡応出納官物者、本司当日申弁官、弁官及<orgName corresp="#中務省"
-        >中務</orgName>・監物・<orgName corresp="#民部省">民部</orgName>・<orgName corresp="#主計寮"
-        >主計</orgName>等与本司共検出納、其<orgName corresp="#大蔵省">大蔵</orgName>絹・綿・糸・布等物、五位以上臨検、案記同署、〈若五位以上有障者、
-        <anchor xml:id="app1110530102"/> 先申障 <anchor xml:id="app1110530102e"/>
+       <anchor xml:id="app1110530101e"/> 凡応出納官物者、本司当日申弁官、弁官及 <orgName corresp="#中務省"> 中務 </orgName>
+       ・監物・ <orgName corresp="#民部省"> 民部 </orgName> ・ <orgName corresp="#主計寮"> 主計 </orgName>
+       等与本司共検出納、其 <orgName corresp="#大蔵省"> 大蔵 </orgName> 絹・綿・糸・布等物、五位以上臨検、案記同署、〈若五位以上有障者、 <anchor
+        xml:id="app1110530102"/> 先申障 <anchor xml:id="app1110530102e"/>
        由、然後六位以下判官代、〉自余雑物及余司物者、史并主典以上出納、 </p>
       <app from="#app1110530101" to="#app1110530101e" type="標注">
        <lem> 弘 </lem>
@@ -1336,8 +1364,8 @@
       <p ana="項" corresp="engishiki_v11_ja.xml#item11105701 engishiki_v11_en.xml#item11105701"
        xml:id="item11105701">
        <anchor xml:id="app1110570101"/>
-       <anchor xml:id="app1110570101e"/> 凡諸司当色、七位已上<orgName corresp="#内蔵寮"
-        >内蔵寮</orgName>行之、八位已下<orgName corresp="#大蔵省">大蔵省</orgName>行之、 </p>
+       <anchor xml:id="app1110570101e"/> 凡諸司当色、七位已上 <orgName corresp="#内蔵寮"> 内蔵寮 </orgName> 行之、八位已下
+        <orgName corresp="#大蔵省"> 大蔵省 </orgName> 行之、 </p>
       <app from="#app1110570101" to="#app1110570101e" type="標注">
        <lem> 貞 </lem>
       </app>
@@ -1347,12 +1375,11 @@
       <p ana="項" corresp="engishiki_v11_ja.xml#item11105801 engishiki_v11_en.xml#item11105801"
        xml:id="item11105801">
        <anchor xml:id="app1110580101"/>
-       <anchor xml:id="app1110580101e"/> 凡大臣以下応進薪数、正月十五日下<orgName corresp="#式部省"
-        >式部省</orgName>、即弁・史及左右史生・官掌各一人就<orgName corresp="#宮内省">宮内省</orgName>、与<orgName
-        corresp="#式部省">式部</orgName>・<orgName corresp="#兵部省"
-        >兵部</orgName>及本司共検校諸司応進薪数、〈事見儀式、〉事畢諸司帰去、其後<orgName corresp="#式部省">式部</orgName>・<orgName
-        corresp="#兵部省">兵部</orgName>勘造惣目、申 <anchor xml:id="app1110580102"/> 送 <anchor
-        xml:id="app1110580102e"/> 弁官、 </p>
+       <anchor xml:id="app1110580101e"/> 凡大臣以下応進薪数、正月十五日下 <orgName corresp="#式部省"> 式部省 </orgName>
+       、即弁・史及左右史生・官掌各一人就 <orgName corresp="#宮内省"> 宮内省 </orgName> 、与 <orgName corresp="#式部省"> 式部
+       </orgName> ・ <orgName corresp="#兵部省"> 兵部 </orgName> 及本司共検校諸司応進薪数、〈事見儀式、〉事畢諸司帰去、其後 <orgName
+        corresp="#式部省"> 式部 </orgName> ・ <orgName corresp="#兵部省"> 兵部 </orgName> 勘造惣目、申 <anchor
+        xml:id="app1110580102"/> 送 <anchor xml:id="app1110580102e"/> 弁官、 </p>
       <app from="#app1110580101" to="#app1110580101e" type="標注">
        <lem> 弘 </lem>
       </app>
@@ -1368,8 +1395,8 @@
       <p ana="項" corresp="engishiki_v11_ja.xml#item11105901 engishiki_v11_en.xml#item11105901"
        xml:id="item11105901">
        <anchor xml:id="app1110590101"/>
-       <anchor xml:id="app1110590101e"/> 凡国司秩満者、<orgName corresp="#式部省">式部</orgName>造簿、正月一日進<orgName
-        corresp="#太政官">太政官</orgName>、外記覆勘、訖進大臣、奏聞拝除、〈事見儀式、〉自余解闕、臨時奏補、 </p>
+       <anchor xml:id="app1110590101e"/> 凡国司秩満者、 <orgName corresp="#式部省"> 式部 </orgName> 造簿、正月一日進
+        <orgName corresp="#太政官"> 太政官 </orgName> 、外記覆勘、訖進大臣、奏聞拝除、〈事見儀式、〉自余解闕、臨時奏補、 </p>
       <app from="#app1110590101" to="#app1110590101e" type="標注">
        <lem wit="#近本 #壬本"> 弘延 </lem>
        <rdg wit="#土本"/>
@@ -1383,12 +1410,12 @@
       <p ana="項" corresp="engishiki_v11_ja.xml#item11106001 engishiki_v11_en.xml#item11106001"
        xml:id="item11106001">
        <anchor xml:id="app1110600101"/>
-       <anchor xml:id="app1110600101e"/> 凡<orgName corresp="#太政官"
-        >太政官</orgName>并左右弁官史生・召使等、毎年一人除<placeName corresp="#諸国">諸国</placeName>主典、〈召使拝五<placeName
-        corresp="#畿内">畿内</placeName>・<placeName corresp="#志摩国">志摩</placeName>・<placeName
-        corresp="#伊豆国">伊豆</placeName>・<placeName corresp="#飛騨国">飛騨</placeName>・<placeName
-        corresp="#佐渡国">佐渡</placeName>・<placeName corresp="#隠伎国">隠岐</placeName>・<placeName
-        corresp="#淡路国">淡路</placeName>等十一国、〉其労成任官者、並不依年労、只計上日、 </p>
+       <anchor xml:id="app1110600101e"/> 凡 <orgName corresp="#太政官"> 太政官 </orgName> 并左右弁官史生・召使等、毎年一人除
+        <placeName corresp="#諸国"> 諸国 </placeName> 主典、〈召使拝五 <placeName corresp="#畿内"> 畿内 </placeName>
+       ・ <placeName corresp="#志摩国"> 志摩 </placeName> ・ <placeName corresp="#伊豆国"> 伊豆 </placeName> ・
+        <placeName corresp="#飛騨国"> 飛騨 </placeName> ・ <placeName corresp="#佐渡国"> 佐渡 </placeName> ・
+        <placeName corresp="#隠伎国"> 隠岐 </placeName> ・ <placeName corresp="#淡路国"> 淡路 </placeName>
+       等十一国、〉其労成任官者、並不依年労、只計上日、 </p>
       <app from="#app1110600101" to="#app1110600101e" type="標注">
        <lem> 貞 </lem>
       </app>
@@ -1396,15 +1423,15 @@
      <div ana="太政官" n="11.61" subtype="項" type="条">
       <head ana="三省史生"/>
       <p ana="項" corresp="engishiki_v11_ja.xml#item11106101 engishiki_v11_en.xml#item11106101"
-       xml:id="item11106101"> 凡<orgName corresp="#式部省">式部</orgName>・<orgName corresp="#民部省"
-        >民部</orgName>・<orgName corresp="#兵部省">兵部</orgName>等省史生、毎年一人任<placeName corresp="#諸国"
-        >諸国</placeName>目、 </p>
+       xml:id="item11106101"> 凡 <orgName corresp="#式部省"> 式部 </orgName> ・ <orgName corresp="#民部省"> 民部
+       </orgName> ・ <orgName corresp="#兵部省"> 兵部 </orgName> 等省史生、毎年一人任 <placeName corresp="#諸国"> 諸国
+       </placeName> 目、 </p>
      </div>
      <div ana="太政官" n="11.62" subtype="項" type="条">
       <head ana="内記史生"/>
       <p ana="項" corresp="engishiki_v11_ja.xml#item11106201 engishiki_v11_en.xml#item11106201"
-       xml:id="item11106201"> 凡内記史生労満十年者、准<orgName corresp="#太政官">太政官</orgName>史生任<placeName
-        corresp="#諸国">諸国</placeName>目、 </p>
+       xml:id="item11106201"> 凡内記史生労満十年者、准 <orgName corresp="#太政官"> 太政官 </orgName> 史生任 <placeName
+        corresp="#諸国"> 諸国 </placeName> 目、 </p>
      </div>
      <div ana="太政官" n="11.63" subtype="項" type="条">
       <head ana="鎮守権任"/>
@@ -1421,8 +1448,8 @@
       <p ana="項" corresp="engishiki_v11_ja.xml#item11106401 engishiki_v11_en.xml#item11106401"
        xml:id="item11106401">
        <anchor xml:id="app1110640101"/>
-       <anchor xml:id="app1110640101e"/> 凡二月四日奉班祈年幣帛、大臣及参議以上赴<orgName corresp="#神祇官"
-       >神祇官</orgName>、弁・外記・史各一人及諸司五位以上・六位以下各一人共集、〈事見儀式、〉 </p>
+       <anchor xml:id="app1110640101e"/> 凡二月四日奉班祈年幣帛、大臣及参議以上赴 <orgName corresp="#神祇官"> 神祇官
+       </orgName> 、弁・外記・史各一人及諸司五位以上・六位以下各一人共集、〈事見儀式、〉 </p>
       <app from="#app1110640101" to="#app1110640101e" type="標注">
        <lem> 弘延 </lem>
       </app>
@@ -1519,10 +1546,10 @@
        xml:id="item11106901">
        <anchor xml:id="app1110690101"/>
        <anchor xml:id="app1110690101e"/>
-       <anchor xml:id="app1110690102"/> 凡 <anchor xml:id="app1110690102e"/>
-        大忌・風神二社者、四月・七月四日祭之、<orgName corresp="#式部省">式部省</orgName>四月・七月朔日点定社別王・臣五位已上各一人、申送弁官、 <anchor
-        xml:id="app1110690103"/> 弁官 <anchor xml:id="app1110690103e"/> 下知<placeName corresp="#大和国"
-        >大和国</placeName>、〈事見<orgName corresp="#神祇官">神祇</orgName>式、〉 </p>
+       <anchor xml:id="app1110690102"/> 凡 <anchor xml:id="app1110690102e"/> 大忌・風神二社者、四月・七月四日祭之、
+        <orgName corresp="#式部省"> 式部省 </orgName> 四月・七月朔日点定社別王・臣五位已上各一人、申送弁官、 <anchor
+        xml:id="app1110690103"/> 弁官 <anchor xml:id="app1110690103e"/> 下知 <placeName corresp="#大和国">
+        大和国 </placeName> 、〈事見 <orgName corresp="#神祇官"> 神祇 </orgName> 式、〉 </p>
       <app from="#app1110690101" to="#app1110690101e" type="標注">
        <lem> 弘貞延 </lem>
       </app>
@@ -1546,8 +1573,8 @@
        <anchor xml:id="app1110700101"/>
        <anchor xml:id="app1110700101e"/>
        <anchor xml:id="app1110700102"/> 凡 <anchor xml:id="app1110700102e"/>
-        松尾祭者、四月上申、弁・史并左右史生・官掌各一人参行事、其幣物者、<orgName corresp="#神祇官">神祇官</orgName>請自<orgName
-        corresp="#大蔵省">大蔵省</orgName>供之、諸司同供奉、 </p>
+       松尾祭者、四月上申、弁・史并左右史生・官掌各一人参行事、其幣物者、 <orgName corresp="#神祇官"> 神祇官 </orgName> 請自 <orgName
+        corresp="#大蔵省"> 大蔵省 </orgName> 供之、諸司同供奉、 </p>
       <app from="#app1110700101" to="#app1110700101e" type="標注">
        <lem> 延 </lem>
       </app>
@@ -1596,10 +1623,10 @@
        <anchor xml:id="app1110720101"/>
        <anchor xml:id="app1110720101e"/>
        <anchor xml:id="app1110720102"/> 凡 <anchor xml:id="app1110720102e"/>
-        賀茂二社、四月中申酉祭、〈斎内親王向社、史一人、左右史生各一人、官掌一人向祭所検校諸事、〉<placeName corresp="#山城国"
-       >山城</placeName>国司預録祭日申官、差勅使令奉幣并有走馬、〈事見 <anchor xml:id="app1110720103"/> 内 <anchor
-        xml:id="app1110720103e"/> 蔵及<orgName corresp="#馬寮">左右馬寮</orgName>式、〉前一日大臣侍殿上、召諸<orgName
-        corresp="#衛府">衛府</orgName>次官已上於殿前庭、而仰警固事、後日解陣亦准此、〈並事見儀式、〉 </p>
+       賀茂二社、四月中申酉祭、〈斎内親王向社、史一人、左右史生各一人、官掌一人向祭所検校諸事、〉 <placeName corresp="#山城国"> 山城 </placeName>
+       国司預録祭日申官、差勅使令奉幣并有走馬、〈事見 <anchor xml:id="app1110720103"/> 内 <anchor xml:id="app1110720103e"/>
+       蔵及 <orgName corresp="#馬寮"> 左右馬寮 </orgName> 式、〉前一日大臣侍殿上、召諸 <orgName corresp="#衛府"> 衛府
+       </orgName> 次官已上於殿前庭、而仰警固事、後日解陣亦准此、〈並事見儀式、〉 </p>
       <app from="#app1110720101" to="#app1110720101e" type="標注">
        <lem> 弘貞延 </lem>
       </app>
@@ -1618,12 +1645,11 @@
       <head ana="御体卜"/>
       <p ana="項" corresp="engishiki_v11_ja.xml#item11107301 engishiki_v11_en.xml#item11107301"
        xml:id="item11107301">
-       <anchor xml:id="app1110730101"/> 凡 <anchor xml:id="app1110730101e"/> 御体卜者、<orgName
-        corresp="#神祇官">神祇官</orgName>中臣率卜部等、六月・十二月一日始斎卜之、九日卜竟、十日奏之、〈<orgName corresp="#神祇官"
-        >神祇官</orgName>
+       <anchor xml:id="app1110730101"/> 凡 <anchor xml:id="app1110730101e"/> 御体卜者、 <orgName
+        corresp="#神祇官"> 神祇官 </orgName> 中臣率卜部等、六月・十二月一日始斎卜之、九日卜竟、十日奏之、〈 <orgName corresp="#神祇官"> 神祇官 </orgName>
        <anchor xml:id="app1110730102"/> 侵 <anchor xml:id="app1110730102e"/>
-        土諸司可令勘申状、預申官、官召諸司仰之、〉即令外記先申大臣、<orgName corresp="#神祇官"
-        >神祇</orgName>副若祐持奏案進大臣、訖大臣就殿上座、中臣官人奏聞、〈事見<orgName corresp="#神祇官">神祇</orgName>式、〉 </p>
+       土諸司可令勘申状、預申官、官召諸司仰之、〉即令外記先申大臣、 <orgName corresp="#神祇官"> 神祇 </orgName>
+       副若祐持奏案進大臣、訖大臣就殿上座、中臣官人奏聞、〈事見 <orgName corresp="#神祇官"> 神祇 </orgName> 式、〉 </p>
       <app from="#app1110730101" to="#app1110730101e">
        <note place="頭"> 土本頭書「十」 </note>
        <note place="頭"> 近本頭書「十」 </note>
@@ -1645,17 +1671,17 @@
        xml:id="item11107401">
        <anchor xml:id="app1110740101"/>
        <anchor xml:id="app1110740101e"/>
-       <anchor xml:id="app1110740102"/> 凡 <anchor xml:id="app1110740102e"/>
-        六月・十二月十一日月次祭奉班幣帛、大臣以下集<orgName corresp="#神祇官"
-        >神祇官</orgName>如祈年儀、其応供神今食及新嘗小斎中納言已上一人、参議一人、〈若中納言已上不卜食者、定参議二人、〉散斎之日、外記録名、付<orgName
-        corresp="#神祇官">神祇官</orgName>令卜、〈但親王者<orgName corresp="#中務省">中務</orgName>
+       <anchor xml:id="app1110740102"/> 凡 <anchor xml:id="app1110740102e"/> 六月・十二月十一日月次祭奉班幣帛、大臣以下集
+        <orgName corresp="#神祇官"> 神祇官 </orgName>
+       如祈年儀、其応供神今食及新嘗小斎中納言已上一人、参議一人、〈若中納言已上不卜食者、定参議二人、〉散斎之日、外記録名、付 <orgName corresp="#神祇官"> 神祇官
+       </orgName> 令卜、〈但親王者 <orgName corresp="#中務省"> 中務 </orgName>
        <anchor xml:id="app1110740103"/> 注 <anchor xml:id="app1110740103e"/>
-        名令卜、〉少納言・弁・外記・史・史生・官掌等亦同之、其次侍従五位已上、<orgName corresp="#中務省">中務</orgName>輔率其身向<orgName
-        corresp="#神祇官">神祇官</orgName>卜定、訖即並<orgName corresp="#中務省"
-        >中務</orgName>奏之、諸司六位已下及女孺等、致斎之日、本司各録歴名送<orgName corresp="#宮内省">宮内省</orgName>、即<orgName
-        corresp="#神祇官">神祇官</orgName>
-       <anchor xml:id="app1110740104"/> 下 <anchor xml:id="app1110740104e"/> 、〈事見<orgName
-        corresp="#宮内省">宮内</orgName>式、〉訖各帰舎沐浴、晡後入内供奉其 <pb
+       名令卜、〉少納言・弁・外記・史・史生・官掌等亦同之、其次侍従五位已上、 <orgName corresp="#中務省"> 中務 </orgName> 輔率其身向 <orgName
+        corresp="#神祇官"> 神祇官 </orgName> 卜定、訖即並 <orgName corresp="#中務省"> 中務 </orgName>
+       奏之、諸司六位已下及女孺等、致斎之日、本司各録歴名送 <orgName corresp="#宮内省"> 宮内省 </orgName> 、即 <orgName corresp="#神祇官"
+        > 神祇官 </orgName>
+       <anchor xml:id="app1110740104"/> 下 <anchor xml:id="app1110740104e"/> 、〈事見 <orgName
+        corresp="#宮内省"> 宮内 </orgName> 式、〉訖各帰舎沐浴、晡後入内供奉其 <pb
         facs="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-11%2F00017.tif/full/full/0/default.jpg"
        /> 事、 </p>
       <app from="#app1110740101" to="#app1110740101e" type="標注">
@@ -1685,10 +1711,11 @@
        xml:id="item11107501"> 凡六月・十二月晦日、於宮城南路大祓、大臣以下五位以上就朱雀門、〈若雨泥日、 <anchor xml:id="app1110750101"/>
        仰 <anchor xml:id="app1110750101e"/> 所司設橋於門東掖、事 <anchor xml:id="app1110750102"/> 具 <anchor
         xml:id="app1110750102e"/>
-       <orgName corresp="#式部省">式部</orgName>式、〉弁・史各一人率<orgName corresp="#中務省">中務</orgName>・<orgName
-        corresp="#式部省">式部</orgName>・<orgName corresp="#兵部省">兵部</orgName>等省、申見参人数、〈<orgName
-        corresp="#太政官">太政官</orgName>人数亦録、下<orgName corresp="#式部省">式部</orgName>入惣目、〉百官男女悉会祓之、臨時大祓
-        <anchor xml:id="app1110750103"/> 亦 <anchor xml:id="app1110750103e"/> 同、〈事見儀式、〉 </p>
+       <orgName corresp="#式部省"> 式部 </orgName> 式、〉弁・史各一人率 <orgName corresp="#中務省"> 中務 </orgName> ・
+        <orgName corresp="#式部省"> 式部 </orgName> ・ <orgName corresp="#兵部省"> 兵部 </orgName> 等省、申見参人数、〈
+        <orgName corresp="#太政官"> 太政官 </orgName> 人数亦録、下 <orgName corresp="#式部省"> 式部 </orgName>
+       入惣目、〉百官男女悉会祓之、臨時大祓 <anchor xml:id="app1110750103"/> 亦 <anchor xml:id="app1110750103e"/>
+       同、〈事見儀式、〉 </p>
       <app from="#app1110750101" to="#app1110750101e">
        <lem wit="#九本 #近本傍書 #壬本"> 仰 </lem>
        <rdg wit="#土本"> 作 </rdg>
@@ -1712,10 +1739,10 @@
      <div ana="太政官" n="11.76" subtype="項" type="条">
       <head ana="伊勢使"/>
       <p ana="項" corresp="engishiki_v11_ja.xml#item11107601 engishiki_v11_en.xml#item11107601"
-       xml:id="item11107601"> 凡九月十一日、行幸八省院、奉幣於<placeName corresp="#伊勢国"
-        >伊勢</placeName>大神宮、其使者、<orgName corresp="#太政官">太政官</orgName>預点五位以上王四人卜定、〈用 <anchor
-        xml:id="app1110760101"/> 卜 <anchor xml:id="app1110760101e"/> 食者一人、〉大臣奏聞、宣命授使王、共<orgName
-        corresp="#神祇官">神祇官</orgName>中臣・忌部発遣、〈事見儀式、〉 </p>
+       xml:id="item11107601"> 凡九月十一日、行幸八省院、奉幣於 <placeName corresp="#伊勢国"> 伊勢 </placeName> 大神宮、其使者、
+        <orgName corresp="#太政官"> 太政官 </orgName> 預点五位以上王四人卜定、〈用 <anchor xml:id="app1110760101"/> 卜
+        <anchor xml:id="app1110760101e"/> 食者一人、〉大臣奏聞、宣命授使王、共 <orgName corresp="#神祇官"> 神祇官 </orgName>
+       中臣・忌部発遣、〈事見儀式、〉 </p>
       <app from="#app1110760101" to="#app1110760101e">
        <lem wit="#九本"> 卜 </lem>
        <rdg wit="#土本 #近本 #壬本 #京博本 #慶長本 #梵本"> 古 </rdg>
@@ -1731,8 +1758,9 @@
       <p ana="項" corresp="engishiki_v11_ja.xml#item11107701 engishiki_v11_en.xml#item11107701"
        xml:id="item11107701">
        <anchor xml:id="app1110770101"/>
-       <anchor xml:id="app1110770101e"/> 凡鎮魂・新嘗等諸祭之日、並弁及史等向祭所加検校、其鎮魂者、十一月中寅於<orgName corresp="#宮内省"
-        >宮内省</orgName>祭之、大臣以下赴祭所、〈中宮亦同、但東宮用巳日、〉新嘗者、中卯祭之、斎日申官如常、致斎之日、諸司各宿本司、仍録名申官、至夜左右史生等分頭巡検、若有不宿、依法勘当、〈臨時行幸応
+       <anchor xml:id="app1110770101e"/> 凡鎮魂・新嘗等諸祭之日、並弁及史等向祭所加検校、其鎮魂者、十一月中寅於 <orgName corresp="#宮内省"
+        > 宮内省 </orgName>
+       祭之、大臣以下赴祭所、〈中宮亦同、但東宮用巳日、〉新嘗者、中卯祭之、斎日申官如常、致斎之日、諸司各宿本司、仍録名申官、至夜左右史生等分頭巡検、若有不宿、依法勘当、〈臨時行幸応
         <anchor xml:id="app1110770102"/> 経 <anchor xml:id="app1110770102e"/>
        宿者亦准此、〉辰日賜宴於五位已上、大臣行事如常、〈事見儀式、〉 </p>
       <app from="#app1110770101" to="#app1110770101e" type="標注">
@@ -1783,8 +1811,8 @@
        <anchor xml:id="app1110810101"/>
        <anchor xml:id="app1110810101e"/> 凡参春日祭并薬師寺最勝会及興福寺維摩会王氏・藤原 <anchor xml:id="app1110810102"/> 氏
         <anchor xml:id="app1110810102e"/> 五位已上・六位已下、見役之外給往還上日四箇日、参大原野祭藤原氏、給上日二箇日、其散位 <anchor
-        xml:id="app1110810103"/> 五位 <anchor xml:id="app1110810103e"/> 以上、外記録見参歴名、下<orgName
-        corresp="#式部省">式部省</orgName>、 </p>
+        xml:id="app1110810103"/> 五位 <anchor xml:id="app1110810103e"/> 以上、外記録見参歴名、下 <orgName
+        corresp="#式部省"> 式部省 </orgName> 、 </p>
       <app from="#app1110810101" to="#app1110810101e" type="標注">
        <lem> 貞延 </lem>
       </app>
@@ -1806,8 +1834,8 @@
        xml:id="item11108201">
        <anchor xml:id="app1110820101"/>
        <anchor xml:id="app1110820101e"/>
-        凡興福寺国忌并維摩会者、藤原氏行事大夫点定氏中無障之輩、即付外記、外記申大臣令参、事畢之後、録見参歴名奏聞、若有不参者、下<orgName corresp="#式部省"
-        >式</orgName>・<orgName corresp="#兵部省">兵</orgName>二省、五位已上不預節会、六位以下官人奪季禄、王氏参薬師寺最勝会亦同、 </p>
+       凡興福寺国忌并維摩会者、藤原氏行事大夫点定氏中無障之輩、即付外記、外記申大臣令参、事畢之後、録見参歴名奏聞、若有不参者、下 <orgName corresp="#式部省"> 式
+       </orgName> ・ <orgName corresp="#兵部省"> 兵 </orgName> 二省、五位已上不預節会、六位以下官人奪季禄、王氏参薬師寺最勝会亦同、 </p>
       <app from="#app1110820101" to="#app1110820101e" type="標注">
        <lem> 貞 </lem>
       </app>
@@ -1817,8 +1845,8 @@
       <p ana="項" corresp="engishiki_v11_ja.xml#item11108301 engishiki_v11_en.xml#item11108301"
        xml:id="item11108301">
        <anchor xml:id="app1110830101"/>
-       <anchor xml:id="app1110830101e"/> 凡大極殿正月御斎会始終日、并東西両寺国忌之日、外記・史等不列<orgName corresp="#式部省"
-        >式部</orgName>、直入着座、 </p>
+       <anchor xml:id="app1110830101e"/> 凡大極殿正月御斎会始終日、并東西両寺国忌之日、外記・史等不列 <orgName corresp="#式部省"> 式部
+       </orgName> 、直入着座、 </p>
       <app from="#app1110830101" to="#app1110830101e" type="標注">
        <lem> 延 </lem>
       </app>
@@ -1828,8 +1856,8 @@
       <p ana="項" corresp="engishiki_v11_ja.xml#item11108401 engishiki_v11_en.xml#item11108401"
        xml:id="item11108401">
        <anchor xml:id="app1110840101"/>
-       <anchor xml:id="app1110840101e"/> 凡春秋二仲月上丁、釈奠先聖・先師、親王以下群官就<orgName corresp="#大学寮"
-        >大学寮</orgName>親講経、少納言・弁・外記・史率 <anchor xml:id="app1110840102"/> 史生 <anchor
+       <anchor xml:id="app1110840101e"/> 凡春秋二仲月上丁、釈奠先聖・先師、親王以下群官就 <orgName corresp="#大学寮"> 大学寮
+       </orgName> 親講経、少納言・弁・外記・史率 <anchor xml:id="app1110840102"/> 史生 <anchor
         xml:id="app1110840102e"/> ・左右史生・官掌等、同向検校、講畢給酒食、〈事見儀式、〉 </p>
       <app from="#app1110840101" to="#app1110840101e" type="標注">
        <lem> 弘延 </lem>
@@ -1848,22 +1876,22 @@
        <anchor xml:id="app1110850101e"/> 凡践祚之初有大嘗祭、七月以前即位者、当年行事、八月以後 <anchor xml:id="app1110850102"
        /> 者 <anchor xml:id="app1110850102e"/> 、明年行事、〈此拠受譲即位、非謂諒闇登極、〉大臣奉勅 <anchor
         xml:id="app1110850103"/> 召 <anchor xml:id="app1110850103e"/>
-       <orgName corresp="#神祇官">神祇官</orgName>、 <anchor xml:id="app1110850104"/> 令 <anchor
+       <orgName corresp="#神祇官"> 神祇官 </orgName> 、 <anchor xml:id="app1110850104"/> 令 <anchor
         xml:id="app1110850104e"/> 卜定愈紀・主基国郡、〈並封卜之、〉奏可訖即下知、依例准擬、又定検校・行事、 </p>
       <p ana="項" corresp="engishiki_v11_ja.xml#item11108502 engishiki_v11_en.xml#item11108502"
        xml:id="item11108502"> 八月遣使両国、卜抜穂田及斎場雑 <pb
         facs="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-11%2F00019.tif/full/full/0/default.jpg"
-       /> 色人令行事、并仰<placeName corresp="#諸国">諸国</placeName>造供神器、九月造斎場織神服備供神物、十月遣<placeName
-        corresp="#諸国">諸国</placeName>大祓、及差奉幣使発遣、即天皇臨幸川上為禊、十一月為散斎月、〈自朔至晦、〉月内致斎 <anchor
+       /> 色人令行事、并仰 <placeName corresp="#諸国"> 諸国 </placeName> 造供神器、九月造斎場織神服備供神物、十月遣 <placeName
+        corresp="#諸国"> 諸国 </placeName> 大祓、及差奉幣使発遣、即天皇臨幸川上為禊、十一月為散斎月、〈自朔至晦、〉月内致斎 <anchor
         xml:id="app1110850201"/> 三 <anchor xml:id="app1110850201e"/> 日、〈自丑至卯、〉 <anchor
         xml:id="app1110850202"/> 前 <anchor xml:id="app1110850202e"/> 祭七日造大嘗宮、寅日以前内外庶事 <anchor
         xml:id="app1110850203"/> 整 <anchor xml:id="app1110850203e"/> 斎已畢、 </p>
       <p ana="項" corresp="engishiki_v11_ja.xml#item11108503 engishiki_v11_en.xml#item11108503"
-       xml:id="item11108503"> 卯日旦<orgName corresp="#神祇官">神祇官</orgName>班幣帛於諸神、 <anchor
+       xml:id="item11108503"> 卯日旦 <orgName corresp="#神祇官"> 神祇官 </orgName> 班幣帛於諸神、 <anchor
         xml:id="app1110850301"/> 小 <anchor xml:id="app1110850301e"/> 斎人率所司供擬大嘗宮服御物、諸衛立仗、 <anchor
-        xml:id="app1110850302"/> 諸 <anchor xml:id="app1110850302e"/>
-        司陳威儀物如元日儀、両国供物発自斎場、向大嘗宮、<orgName corresp="#神祇官">神祇官</orgName>引神御物、入収大嘗宮、所司各供其職、 <anchor
-        xml:id="app1110850303"/> 凡 <anchor xml:id="app1110850303e"/>
+        xml:id="app1110850302"/> 諸 <anchor xml:id="app1110850302e"/> 司陳威儀物如元日儀、両国供物発自斎場、向大嘗宮、
+        <orgName corresp="#神祇官"> 神祇官 </orgName> 引神御物、入収大嘗宮、所司各供其職、 <anchor xml:id="app1110850303"/>
+       凡 <anchor xml:id="app1110850303e"/>
        物置朝集堂、天蹕始臨廻立殿、供奉御湯、入大嘗宮、吉野国栖奏古風、愈紀国司引歌人奏国風、語部奏古詞、群官入拍手、安倍氏奏侍宿官名簿等、並如旧儀、 </p>
       <p ana="項" corresp="engishiki_v11_ja.xml#item11108504 engishiki_v11_en.xml#item11108504"
        xml:id="item11108504">
@@ -1946,11 +1974,11 @@
      <div ana="太政官" n="11.86" subtype="項" type="条">
       <head ana="践祚大嘗年"/>
       <p ana="項" corresp="engishiki_v11_ja.xml#item11108601 engishiki_v11_en.xml#item11108601"
-       xml:id="item11108601"> 凡践祚大嘗年、十月下旬天皇臨川禊潔而斎、預令<orgName corresp="#陰陽寮"
-       >陰陽寮</orgName>勘申禊日、前廿許日任御装束司并次第司、御装束司長官一人、〈三位、〉次官一人、〈五位弁、〉判官二人、〈一人史、〉主典二人、〈並六位已下、〉次第司御前長官一人、〈三位、〉次
-        <anchor xml:id="app1110860101"/> 官 <anchor xml:id="app1110860101e"/>
-        一人、〈五位、〉判官二人、主典二人、〈並六位已下、〉御後亦准此、前五日大臣及参議已上、定五位以上応陪従并留守歴名奏聞、訖下<orgName corresp="#式部省"
-        >式部</orgName>及装束・次第等司、〈事見儀式、〉 </p>
+       xml:id="item11108601"> 凡践祚大嘗年、十月下旬天皇臨川禊潔而斎、預令 <orgName corresp="#陰陽寮"> 陰陽寮 </orgName>
+       勘申禊日、前廿許日任御装束司并次第司、御装束司長官一人、〈三位、〉次官一人、〈五位弁、〉判官二人、〈一人史、〉主典二人、〈並六位已下、〉次第司御前長官一人、〈三位、〉次 <anchor
+        xml:id="app1110860101"/> 官 <anchor xml:id="app1110860101e"/>
+       一人、〈五位、〉判官二人、主典二人、〈並六位已下、〉御後亦准此、前五日大臣及参議已上、定五位以上応陪従并留守歴名奏聞、訖下 <orgName corresp="#式部省"> 式部
+       </orgName> 及装束・次第等司、〈事見儀式、〉 </p>
       <app from="#app1110860101" to="#app1110860101e">
        <lem wit="#九本 #慶長本 #近本傍書 #壬本傍書 #京博本傍書"> 官 </lem>
        <rdg wit="#土本 #近本 #壬本 #京博本 #梵本"> 第 </rdg>
@@ -1968,17 +1996,17 @@
        <anchor xml:id="app1110870101e"/> 凡天皇初即位者、定伊勢大神宮斎内親王、簡未嫁者令所司卜、〈若内親王不卜食者簡女王、〉訖卜宮城内便処為初斎院、
         <anchor xml:id="app1110870102"/> 祓 <anchor xml:id="app1110870102e"/>
        潔而入、更卜城外浄野、造斎宮、畢明年八月上旬、卜吉日 <anchor xml:id="app1110870103"/> 祓 <anchor xml:id="app1110870103e"
-       /> 潔而移入之、<orgName corresp="#太政官"
-       >太政官</orgName>定従行五位以上名数、前十日任前後次第司、各長官一人、〈五位、〉判官・主典各一人、〈六位以下、〉依時刻出自 <anchor
-        xml:id="app1110870104"/> 初 <anchor xml:id="app1110870104e"/> 斎院、臨川上禊潔即入野宮、〈事見斎宮式、〉 </p>
+       /> 潔而移入之、 <orgName corresp="#太政官"> 太政官 </orgName>
+       定従行五位以上名数、前十日任前後次第司、各長官一人、〈五位、〉判官・主典各一人、〈六位以下、〉依時刻出自 <anchor xml:id="app1110870104"/> 初
+        <anchor xml:id="app1110870104e"/> 斎院、臨川上禊潔即入野宮、〈事見斎宮式、〉 </p>
       <p ana="項" corresp="engishiki_v11_ja.xml#item11108702 engishiki_v11_en.xml#item11108702"
-       xml:id="item11108702"> 潔斎三年、五月以前、任<orgName corresp="#寮"
-       >斎宮寮</orgName>官人及主神司、其諸司七月以前任之、即依例准擬庶事、九月上旬卜定吉日、 <pb
+       xml:id="item11108702"> 潔斎三年、五月以前、任 <orgName corresp="#寮"> 斎宮寮 </orgName>
+       官人及主神司、其諸司七月以前任之、即依例准擬庶事、九月上旬卜定吉日、 <pb
         facs="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-11%2F00021.tif/full/full/0/default.jpg"
-       /> 向伊勢大神宮、預任装束司、五位二人、〈一人<orgName corresp="#神祇官">神祇</orgName>副以上、一人左右少弁以上、〉六位以下四人、〈<orgName
-        corresp="#神祇官">神祇</orgName>
-       <anchor xml:id="app1110870201"/> 祐 <anchor xml:id="app1110870201e"/> 、弁官史、<orgName
-        corresp="#縫殿寮">縫殿</orgName>允、諸司主典、〉前行日点定監送使四人、〈参議若中納言一人、弁・史各一人、 <anchor
+       /> 向伊勢大神宮、預任装束司、五位二人、〈一人 <orgName corresp="#神祇官"> 神祇 </orgName> 副以上、一人左右少弁以上、〉六位以下四人、〈
+        <orgName corresp="#神祇官"> 神祇 </orgName>
+       <anchor xml:id="app1110870201"/> 祐 <anchor xml:id="app1110870201e"/> 、弁官史、 <orgName
+        corresp="#縫殿寮"> 縫殿 </orgName> 允、諸司主典、〉前行日点定監送使四人、〈参議若中納言一人、弁・史各一人、 <anchor
         xml:id="app1110870202"/> 六位 <anchor xml:id="app1110870202e"/> 以下官一人、〉斎王臨川禊之、如入野宮禊儀、〈事見儀式、〉 </p>
       <app from="#app1110870101" to="#app1110870101e" type="標注">
        <lem> 弘延 </lem>
@@ -2016,8 +2044,8 @@
       <p ana="項" corresp="engishiki_v11_ja.xml#item11108801 engishiki_v11_en.xml#item11108801"
        xml:id="item11108801">
        <anchor xml:id="app1110880101"/>
-       <anchor xml:id="app1110880101e"/> 凡斎内親王向<placeName corresp="#伊勢国"
-        >伊勢</placeName>時、七月以前遣<orgName corresp="#斎宮寮">寮</orgName>允・史生各一人於斎宮及国、弁備雑事、 </p>
+       <anchor xml:id="app1110880101e"/> 凡斎内親王向 <placeName corresp="#伊勢国"> 伊勢 </placeName> 時、七月以前遣
+        <orgName corresp="#斎宮寮"> 寮 </orgName> 允・史生各一人於斎宮及国、弁備雑事、 </p>
       <app from="#app1110880101" to="#app1110880101e" type="標注">
        <lem> 貞 </lem>
       </app>
@@ -2048,8 +2076,8 @@
        <anchor xml:id="app1110900101e"/> 凡天皇即位、講 <anchor xml:id="app1110900102"/> 説 <anchor
         xml:id="app1110900102e"/> 仁王般若経、〈一代一講、〉設百高座、一日朝・晡 <anchor xml:id="app1110900103"/> 講 <anchor
         xml:id="app1110900103e"/>
-        畢、預任行事司、中納言一人、参議及弁各一人、五位二人、六位以下臨時定之、〈五位以上奏任、六位以下申大臣任、〉預仰天下、当斎会日、禁断殺生、〈事見<orgName
-        corresp="#玄蕃寮">玄蕃</orgName>式并儀式、〉 </p>
+       畢、預任行事司、中納言一人、参議及弁各一人、五位二人、六位以下臨時定之、〈五位以上奏任、六位以下申大臣任、〉預仰天下、当斎会日、禁断殺生、〈事見 <orgName
+        corresp="#玄蕃寮"> 玄蕃 </orgName> 式并儀式、〉 </p>
       <app from="#app1110900101" to="#app1110900101e" type="標注">
        <lem> 弘 </lem>
       </app>
@@ -2070,14 +2098,14 @@
       <p ana="項" corresp="engishiki_v11_ja.xml#item11109101 engishiki_v11_en.xml#item11109101"
        xml:id="item11109101">
        <anchor xml:id="app1110910101"/>
-       <anchor xml:id="app1110910101e"/> 凡天皇孟月臨軒視朔、大臣預点殿上侍従四人・奏事者二人、所司各供其事、其日弁一人執公文函、〈<orgName
-        corresp="#太政官">太政官</orgName>告朔文者、弁官勘造 <anchor xml:id="app1110910102"/> 入外 <anchor
+       <anchor xml:id="app1110910101e"/> 凡天皇孟月臨軒視朔、大臣預点殿上侍従四人・奏事者二人、所司各供其事、其日弁一人執公文函、〈 <orgName
+        corresp="#太政官"> 太政官 </orgName> 告朔文者、弁官勘造 <anchor xml:id="app1110910102"/> 入外 <anchor
         xml:id="app1110910102e"/> 記、即大臣自 <anchor xml:id="app1110910103"/> 署 <anchor
         xml:id="app1110910103e"/> 姓付弁官 <anchor xml:id="app1110910104"/> 令 <anchor
-        xml:id="app1110910104e"/> 進、〉率諸司五位以上執函者、〈若無五位者、臨時催定、〉就版各置案上、〈事見儀式、〉若不臨軒者、弁官告知<orgName
-        corresp="#式部省">式部</orgName>、其函令進弁官、即 <anchor xml:id="app1110910105"/> 納 <anchor
+        xml:id="app1110910104e"/> 進、〉率諸司五位以上執函者、〈若無五位者、臨時催定、〉就版各置案上、〈事見儀式、〉若不臨軒者、弁官告知 <orgName
+        corresp="#式部省"> 式部 </orgName> 、其函令進弁官、即 <anchor xml:id="app1110910105"/> 納 <anchor
         xml:id="app1110910105e"/>
-       <orgName corresp="#中務省">中務</orgName>令進奏、 </p>
+       <orgName corresp="#中務省"> 中務 </orgName> 令進奏、 </p>
       <app from="#app1110910101" to="#app1110910101e" type="標注">
        <lem> 弘 </lem>
       </app>
@@ -2184,8 +2212,8 @@
       <p ana="項" corresp="engishiki_v11_ja.xml#item11109601 engishiki_v11_en.xml#item11109601"
        xml:id="item11109601">
        <anchor xml:id="app1110960101"/>
-       <anchor xml:id="app1110960101e"/> 凡内裏任官者、少納言・弁各一人、率<orgName corresp="#式部省"
-        >式部</orgName>・<orgName corresp="#兵部省">兵部</orgName>行事、若於朝堂、即外記・史共預、〈事見儀式、〉 </p>
+       <anchor xml:id="app1110960101e"/> 凡内裏任官者、少納言・弁各一人、率 <orgName corresp="#式部省"> 式部 </orgName> ・
+        <orgName corresp="#兵部省"> 兵部 </orgName> 行事、若於朝堂、即外記・史共預、〈事見儀式、〉 </p>
       <app from="#app1110960101" to="#app1110960101e" type="標注">
        <lem> 弘 </lem>
       </app>
@@ -2197,9 +2225,9 @@
        <anchor xml:id="app1110970101"/>
        <anchor xml:id="app1110970101e"/> 凡正月於大極殿講説最勝王経、始自八日終十四日、〈初 <anchor xml:id="app1110970102"/>
        日 <anchor xml:id="app1110970102e"/> 若有行幸、 <anchor xml:id="app1110970103"/> 設 <anchor
-        xml:id="app1110970103e"/> 内弁大臣座、〉弁及史等専当行事、其供養料雑菜等、預下符<placeName corresp="#畿内"
-        >畿内</placeName>諸国令供進、初後両日、皇太子已下参議以上、及諸王五位已上就殿上座、自余分就東西廊、斎会畢即有宣命并布施、〈事見<orgName
-        corresp="#玄蕃寮">玄蕃</orgName>式并儀式、〉 </p>
+        xml:id="app1110970103e"/> 内弁大臣座、〉弁及史等専当行事、其供養料雑菜等、預下符 <placeName corresp="#畿内"> 畿内
+       </placeName> 諸国令供進、初後両日、皇太子已下参議以上、及諸王五位已上就殿上座、自余分就東西廊、斎会畢即有宣命并布施、〈事見 <orgName corresp="#玄蕃寮">
+        玄蕃 </orgName> 式并儀式、〉 </p>
       <app from="#app1110970101" to="#app1110970101e" type="標注">
        <lem> 弘貞延 </lem>
       </app>
@@ -2264,7 +2292,8 @@
       <head ana="二季読経"/>
       <p ana="項" corresp="engishiki_v11_ja.xml#item11110001 engishiki_v11_en.xml#item11110001"
        xml:id="item11110001"> 凡春秋二季、於大極殿修読経、弁・史専当行事、初後両日、親王已下参議 <anchor xml:id="app1111000101"/> 以
-        <anchor xml:id="app1111000101e"/> 上就殿上座、遣<orgName corresp="#近衛府">近衛</orgName>少将労問、臨時読経亦同、 </p>
+        <anchor xml:id="app1111000101e"/> 上就殿上座、遣 <orgName corresp="#近衛府"> 近衛 </orgName>
+       少将労問、臨時読経亦同、 </p>
       <app from="#app1111000101" to="#app1111000101e">
        <lem wit="#土本"> 以 </lem>
        <rdg wit="#九本"> 已 </rdg>
@@ -2305,9 +2334,9 @@
        <anchor xml:id="app1111030101"/>
        <anchor xml:id="app1111030101e"/> 凡七月廿五日、天皇御神泉苑観相撲、前一 <anchor xml:id="app1111030102"/> 月
         <anchor xml:id="app1111030102e"/> 任左右相撲司、簡定中納言、参議、正・次侍従奏聞、〈人数左右 <anchor
-        xml:id="app1111030103"/> 各 <anchor xml:id="app1111030103e"/> 十二人、〉<orgName corresp="#中務省"
-        >中務</orgName>任之如<orgName corresp="#式部省">式部</orgName>儀、<orgName corresp="#兵部省"
-       >兵部</orgName>行事、〈事見儀式、〉 </p>
+        xml:id="app1111030103"/> 各 <anchor xml:id="app1111030103e"/> 十二人、〉 <orgName corresp="#中務省">
+        中務 </orgName> 任之如 <orgName corresp="#式部省"> 式部 </orgName> 儀、 <orgName corresp="#兵部省"> 兵部
+       </orgName> 行事、〈事見儀式、〉 </p>
       <app from="#app1111030101" to="#app1111030101e" type="標注">
        <lem> 弘延 </lem>
       </app>
@@ -2331,7 +2360,7 @@
        xml:id="item11110401">
        <anchor xml:id="app1111040101"/>
        <anchor xml:id="app1111040101e"/> 凡七月十五日、盂蘭盆供養送諸寺、 <anchor xml:id="app1111040102"/> 令 <anchor
-        xml:id="app1111040102e"/> 史検校、〈事見<orgName corresp="#大膳職">大膳</orgName>式、〉 </p>
+        xml:id="app1111040102e"/> 史検校、〈事見 <orgName corresp="#大膳職"> 大膳 </orgName> 式、〉 </p>
       <app from="#app1111040101" to="#app1111040101e" type="標注">
        <lem> 弘 </lem>
       </app>
@@ -2371,9 +2400,9 @@
       <p ana="項" corresp="engishiki_v11_ja.xml#item11110701 engishiki_v11_en.xml#item11110701"
        xml:id="item11110701">
        <anchor xml:id="app1111070101"/>
-       <anchor xml:id="app1111070101e"/> 凡左右弁・外記・史・内記・侍医等大夫并<orgName corresp="#近衛府">左右近衛</orgName>
-       <anchor xml:id="app1111070102"/> 少将 <anchor xml:id="app1111070102e"/> 已上、<orgName
-        corresp="#衛門府">左右衛門</orgName>・<orgName corresp="#兵衛府">左右兵衛</orgName>佐已上、雖非侍従臨時宴会得預見参、 </p>
+       <anchor xml:id="app1111070101e"/> 凡左右弁・外記・史・内記・侍医等大夫并 <orgName corresp="#近衛府"> 左右近衛 </orgName>
+       <anchor xml:id="app1111070102"/> 少将 <anchor xml:id="app1111070102e"/> 已上、 <orgName
+        corresp="#衛門府"> 左右衛門 </orgName> ・ <orgName corresp="#兵衛府"> 左右兵衛 </orgName> 佐已上、雖非侍従臨時宴会得預見参、 </p>
       <app from="#app1111070101" to="#app1111070101e" type="標注">
        <lem wit="#近本 #慶長本"> 貞 </lem>
        <rdg wit="#土本"/>
@@ -2398,11 +2427,12 @@
      <div ana="太政官" n="11.109" subtype="項" type="条">
       <head ana="節会見参"/>
       <p ana="項" corresp="engishiki_v11_ja.xml#item11110901 engishiki_v11_en.xml#item11110901"
-       xml:id="item11110901"> 凡諸節会五位已上見参者、未召刀祢之前、<orgName corresp="#式部省">式部省</orgName>書其簿進<orgName
-        corresp="#太政官">太政官</orgName>、 <anchor xml:id="app1111090101"/> 若 <anchor
+       xml:id="item11110901"> 凡諸節会五位已上見参者、未召刀祢之前、 <orgName corresp="#式部省"> 式部省 </orgName> 書其簿進
+        <orgName corresp="#太政官"> 太政官 </orgName> 、 <anchor xml:id="app1111090101"/> 若 <anchor
         xml:id="app1111090101e"/> 有新叙者、注別紙 <anchor xml:id="app1111090102"/> 追 <anchor
-        xml:id="app1111090102e"/> 進之、又<orgName corresp="#中務省">中務 <anchor xml:id="app1111090103"/> 省
-         <anchor xml:id="app1111090103e"/></orgName> 所進宴会次侍従以上見参亦准此、 </p>
+        xml:id="app1111090102e"/> 進之、又 <orgName corresp="#中務省"> 中務 <anchor xml:id="app1111090103"/>
+        省 <anchor xml:id="app1111090103e"/>
+       </orgName> 所進宴会次侍従以上見参亦准此、 </p>
       <app from="#app1111090101" to="#app1111090101e">
        <lem wit="#九本"> 若 </lem>
        <rdg wit="#土本 #近本 #壬本 #京博本 #慶長本 #梵本"/>
@@ -2427,15 +2457,16 @@
        <anchor xml:id="app1111100101"/>
        <anchor xml:id="app1111100101e"/> 凡季冬献幣於諸山陵及墓、皆用当年調物、中 <anchor xml:id="app1111100102"/> 務
         <anchor xml:id="app1111100102e"/>
-       <orgName corresp="#省">省</orgName>預択大神祭後立春前之吉日、十二月五日以前申 <anchor xml:id="app1111100103"/> 送
+       <orgName corresp="#省"> 省 </orgName> 預択大神祭後立春前之吉日、十二月五日以前申 <anchor xml:id="app1111100103"/> 送
         <anchor xml:id="app1111100103e"/>
-       <orgName corresp="#太政官"><anchor xml:id="app1111100104"/> 太政官 <anchor xml:id="app1111100104e"
-        /></orgName> 、又<orgName corresp="#式部省">式部</orgName>点散位 <anchor xml:id="app1111100105"/> 五位
-        <anchor xml:id="app1111100105e"/> 已上進其夾名、〈為補侍従不参之闕、〉当日参議已上・少納言・弁・外記・史等、著別供幣所幄行事、其幣者<orgName
-        corresp="#内蔵寮">内蔵寮</orgName>供擬、〈色数見<orgName corresp="#内蔵寮"
-        >内蔵寮</orgName>式、〉至時刻天皇御建礼門前幄、礼拝奉班、但常幣者、参議已上一人・弁・外記・史等、向<orgName corresp="#大蔵省"
-        >大蔵省</orgName>奉班、其使者<orgName corresp="#中務省">中務</orgName>・<orgName corresp="#式部省"
-        >式部</orgName>差定移送<orgName corresp="#治部省">治部</orgName>、〈事見儀式、〉 </p>
+       <orgName corresp="#太政官">
+        <anchor xml:id="app1111100104"/> 太政官 <anchor xml:id="app1111100104e"/>
+       </orgName> 、又 <orgName corresp="#式部省"> 式部 </orgName> 点散位 <anchor xml:id="app1111100105"/> 五位
+        <anchor xml:id="app1111100105e"/> 已上進其夾名、〈為補侍従不参之闕、〉当日参議已上・少納言・弁・外記・史等、著別供幣所幄行事、其幣者 <orgName
+        corresp="#内蔵寮"> 内蔵寮 </orgName> 供擬、〈色数見 <orgName corresp="#内蔵寮"> 内蔵寮 </orgName>
+       式、〉至時刻天皇御建礼門前幄、礼拝奉班、但常幣者、参議已上一人・弁・外記・史等、向 <orgName corresp="#大蔵省"> 大蔵省 </orgName> 奉班、其使者
+        <orgName corresp="#中務省"> 中務 </orgName> ・ <orgName corresp="#式部省"> 式部 </orgName> 差定移送
+        <orgName corresp="#治部省"> 治部 </orgName> 、〈事見儀式、〉 </p>
       <app from="#app1111100101" to="#app1111100101e" type="標注">
        <lem> 弘貞延 </lem>
       </app>
@@ -2465,9 +2496,9 @@
       <p ana="項" corresp="engishiki_v11_ja.xml#item11111101 engishiki_v11_en.xml#item11111101"
        xml:id="item11111101">
        <anchor xml:id="app1111110101"/>
-       <anchor xml:id="app1111110101e"/> 凡十二月晦日儺者、<orgName corresp="#中務省"
-       >中務</orgName>預点親王及大臣已下次侍従已上、分配諸門、丞・録・ <anchor xml:id="app1111110102"/> 内 <anchor
-        xml:id="app1111110102e"/> 舎人・大舎人等亦同、〈事見<orgName corresp="#中務省">中務</orgName>式、〉当 <pb
+       <anchor xml:id="app1111110101e"/> 凡十二月晦日儺者、 <orgName corresp="#中務省"> 中務 </orgName>
+       預点親王及大臣已下次侍従已上、分配諸門、丞・録・ <anchor xml:id="app1111110102"/> 内 <anchor xml:id="app1111110102e"/>
+       舎人・大舎人等亦同、〈事見 <orgName corresp="#中務省"> 中務 </orgName> 式、〉当 <pb
         facs="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-11%2F00025.tif/full/full/0/default.jpg"
        /> 日戌時、親王并大臣已下著承明門外東庭幄座、少納言・ <anchor xml:id="app1111110103"/> 弁 <anchor
         xml:id="app1111110103e"/> ・外記・史候之、依例行事、〈事見儀式、〉 </p>
@@ -2502,18 +2533,18 @@
         xml:id="app1111120202e"/> 六位以下、〉御後亦准此、〈定畢奏聞、〉又預定 <anchor xml:id="app1111120203"/> 陪 <anchor
         xml:id="app1111120203e"/> 従留守五位以上、〈人数臨時処分、〉差使検校行宮、 </p>
       <p ana="項" corresp="engishiki_v11_ja.xml#item11111203 engishiki_v11_en.xml#item11111203"
-       xml:id="item11111203"> 前十余日仰下<placeName corresp="#諸国">諸国</placeName>、 <anchor
-        xml:id="app1111120301"/> 令 <anchor xml:id="app1111120301e"/> 進国飼御馬、〈<orgName corresp="#馬寮"
-        >左右馬寮</orgName>定数奏 <anchor xml:id="app1111120302"/> 之 <anchor xml:id="app1111120302e"/>
-        、〉<orgName corresp="#馬寮">左右馬寮</orgName>儲負 <anchor xml:id="app1111120303"/> 甲 <anchor
-        xml:id="app1111120303e"/> 馬、〈用<placeName corresp="#諸国">諸国</placeName>所 <anchor
-        xml:id="app1111120304"/> 貢 <anchor xml:id="app1111120304e"/> 繋飼御馬放近牧者、〉仰<orgName
-        corresp="#京職">京職</orgName>
+       xml:id="item11111203"> 前十余日仰下 <placeName corresp="#諸国"> 諸国 </placeName> 、 <anchor
+        xml:id="app1111120301"/> 令 <anchor xml:id="app1111120301e"/> 進国飼御馬、〈 <orgName corresp="#馬寮">
+        左右馬寮 </orgName> 定数奏 <anchor xml:id="app1111120302"/> 之 <anchor xml:id="app1111120302e"/> 、〉
+        <orgName corresp="#馬寮"> 左右馬寮 </orgName> 儲負 <anchor xml:id="app1111120303"/> 甲 <anchor
+        xml:id="app1111120303e"/> 馬、〈用 <placeName corresp="#諸国"> 諸国 </placeName> 所 <anchor
+        xml:id="app1111120304"/> 貢 <anchor xml:id="app1111120304e"/> 繋飼御馬放近牧者、〉仰 <orgName
+        corresp="#京職"> 京職 </orgName>
        <anchor xml:id="app1111120305"/> 諸 <anchor xml:id="app1111120305e"/> 国、令進担夫、〈其数臨時処分、〉 </p>
       <p ana="項" corresp="engishiki_v11_ja.xml#item11111204 engishiki_v11_en.xml#item11111204"
-       xml:id="item11111204"> 前五・六日仰<orgName corresp="#大蔵省">大蔵</orgName>儲禄料絁・布等、令運収便処、又給陪従五位以上朝服及袍
-        <anchor xml:id="app1111120401"/> 衫 <anchor xml:id="app1111120401e"/> 、其覆<orgName
-        corresp="#太政官">太政官</orgName>印櫃皮、并担夫二人、及黄衫者、装束司充之、事畢返上、 </p>
+       xml:id="item11111204"> 前五・六日仰 <orgName corresp="#大蔵省"> 大蔵 </orgName>
+       儲禄料絁・布等、令運収便処、又給陪従五位以上朝服及袍 <anchor xml:id="app1111120401"/> 衫 <anchor xml:id="app1111120401e"
+       /> 、其覆 <orgName corresp="#太政官"> 太政官 </orgName> 印櫃皮、并担夫二人、及黄衫者、装束司充之、事畢返上、 </p>
       <p ana="項" corresp="engishiki_v11_ja.xml#item11111205 engishiki_v11_en.xml#item11111205"
        xml:id="item11111205"> 若諸司鑰 <anchor xml:id="app1111120501"/> 匙 <anchor
         xml:id="app1111120501e"/> 有勅付留守官者、大臣若大納言率侍従五位以上 <anchor xml:id="app1111120502"/> 倶侍 <anchor
@@ -2618,16 +2649,16 @@
       <p ana="項" corresp="engishiki_v11_ja.xml#item11111301 engishiki_v11_en.xml#item11111301"
        xml:id="item11111301">
        <anchor xml:id="app1111130101"/>
-       <anchor xml:id="app1111130101e"/> 凡諸司春夏禄及皇親時服者、<orgName corresp="#中務省">中務</orgName>・<orgName
-        corresp="#式部省">式部</orgName>・<orgName corresp="#兵部省">兵部</orgName>等省録人物数、二月十日弁官 <anchor
-        xml:id="app1111130102"/> 率 <anchor xml:id="app1111130102e"/> 三<orgName
-        corresp="#中務省 #式部省 #兵部省">省</orgName>申<orgName corresp="#太政官">太政官</orgName>、〈<orgName
-        corresp="#太政官">太政官</orgName>禄者、当月一日録送弁官、惣造 <anchor xml:id="app1111130103"/> 目 <anchor
-        xml:id="app1111130103e"/> 、三日下符<orgName corresp="#式部省">式部</orgName>、〉即録三<orgName
-        corresp="#中務省 #式部省 #兵部省">省</orgName>所申惣目、十五日少納言奏之、廿日官符下<orgName corresp="#大蔵省"
-       >大蔵</orgName>、廿二日出給、〈女官禄者、廿五日給之、〉弁大夫宣命、其辞曰、今宣〈波久〉常〈毛〉給〈布〉春夏禄給〈波 <anchor
-        xml:id="app1111130104"/> 久 <anchor xml:id="app1111130104e"/> 登〉宣、〈女官者<orgName corresp="#中務省"
-        >中務</orgName>輔宣命、〉秋冬准此、〈事見<orgName corresp="#式部省">式部</orgName>式、〉 </p>
+       <anchor xml:id="app1111130101e"/> 凡諸司春夏禄及皇親時服者、 <orgName corresp="#中務省"> 中務 </orgName> ・
+        <orgName corresp="#式部省"> 式部 </orgName> ・ <orgName corresp="#兵部省"> 兵部 </orgName>
+       等省録人物数、二月十日弁官 <anchor xml:id="app1111130102"/> 率 <anchor xml:id="app1111130102e"/> 三 <orgName
+        corresp="#中務省 #式部省 #兵部省"> 省 </orgName> 申 <orgName corresp="#太政官"> 太政官 </orgName> 、〈 <orgName
+        corresp="#太政官"> 太政官 </orgName> 禄者、当月一日録送弁官、惣造 <anchor xml:id="app1111130103"/> 目 <anchor
+        xml:id="app1111130103e"/> 、三日下符 <orgName corresp="#式部省"> 式部 </orgName> 、〉即録三 <orgName
+        corresp="#中務省 #式部省 #兵部省"> 省 </orgName> 所申惣目、十五日少納言奏之、廿日官符下 <orgName corresp="#大蔵省"> 大蔵
+       </orgName> 、廿二日出給、〈女官禄者、廿五日給之、〉弁大夫宣命、其辞曰、今宣〈波久〉常〈毛〉給〈布〉春夏禄給〈波 <anchor xml:id="app1111130104"
+       /> 久 <anchor xml:id="app1111130104e"/> 登〉宣、〈女官者 <orgName corresp="#中務省"> 中務 </orgName>
+       輔宣命、〉秋冬准此、〈事見 <orgName corresp="#式部省"> 式部 </orgName> 式、〉 </p>
       <app from="#app1111130101" to="#app1111130101e" type="標注">
        <lem> 弘延 </lem>
       </app>
@@ -2656,7 +2687,7 @@
        <anchor xml:id="app1111140101"/>
        <anchor xml:id="app1111140101e"/> 凡諸王時服用官符給外国者、仰本司 <anchor xml:id="app1111140102"/> 令 <anchor
         xml:id="app1111140102e"/> 進其歴名帳、毎有闕補、随即令注其側、一如 <anchor xml:id="app1111140103"/>
-       <orgName corresp="#式部省">式</orgName>・<orgName corresp="#兵部省">兵</orgName>
+       <orgName corresp="#式部省"> 式 </orgName> ・ <orgName corresp="#兵部省"> 兵 </orgName>
        <anchor xml:id="app1111140103e"/> 二 <anchor xml:id="app1111140104"/> 省 <anchor
         xml:id="app1111140104e"/> 補任帳、 </p>
       <app from="#app1111140101" to="#app1111140101e" type="標注">
@@ -2689,9 +2720,9 @@
       <p ana="項" corresp="engishiki_v11_ja.xml#item11111501 engishiki_v11_en.xml#item11111501"
        xml:id="item11111501">
        <anchor xml:id="app1111150101"/>
-       <anchor xml:id="app1111150101e"/> 凡後宮并女官時服及飾物料者、夏四月十日、冬十月十日、<orgName corresp="#中務省"
-        >中務省</orgName>申官、 <anchor xml:id="app1111150102"/> 廿日官 <anchor xml:id="app1111150102e"/>
-        符下<orgName corresp="#大蔵省">大蔵省</orgName>、廿二日出給、 </p>
+       <anchor xml:id="app1111150101e"/> 凡後宮并女官時服及飾物料者、夏四月十日、冬十月十日、 <orgName corresp="#中務省"> 中務省
+       </orgName> 申官、 <anchor xml:id="app1111150102"/> 廿日官 <anchor xml:id="app1111150102e"/> 符下
+        <orgName corresp="#大蔵省"> 大蔵省 </orgName> 、廿二日出給、 </p>
       <app from="#app1111150101" to="#app1111150101e" type="標注">
        <lem> 弘 </lem>
       </app>
@@ -2707,15 +2738,15 @@
       <p ana="項" corresp="engishiki_v11_ja.xml#item11111601 engishiki_v11_en.xml#item11111601"
        xml:id="item11111601">
        <anchor xml:id="app1111160101"/>
-       <anchor xml:id="app1111160101e"/> 凡諸司時服者、起十二月尽五月、計上日一百廿以上、及番上八十以上、各給春夏料、<orgName
-        corresp="#中務省">中務省</orgName>録人物数、六月七日申<orgName corresp="#太政官">太政官</orgName>、〈其<orgName
-        corresp="#太政官">太政官</orgName>時服者、当月一日録送 <anchor xml:id="app1111160102"/> 弁 <anchor
-        xml:id="app1111160102e"/> 官、惣造 <anchor xml:id="app1111160103"/> 目 <anchor
-        xml:id="app1111160103e"/> 、四日下符<orgName corresp="#中務省">中務</orgName>、〉九日奏聞、廿日官符下<orgName
-        corresp="#大蔵省">大蔵</orgName>、廿二日出給 <anchor xml:id="app1111160104"/> 之 <anchor
-        xml:id="app1111160104e"/> 、其日弁官一人就<orgName corresp="#大蔵省">大蔵省</orgName>行事、〈事見<orgName
-        corresp="#中務省">中務</orgName>式、〉其無品親王及乳母時服、同月十日官符下<orgName corresp="#大蔵省"
-       >大蔵</orgName>、十五日出給、秋冬准此、 </p>
+       <anchor xml:id="app1111160101e"/> 凡諸司時服者、起十二月尽五月、計上日一百廿以上、及番上八十以上、各給春夏料、 <orgName
+        corresp="#中務省"> 中務省 </orgName> 録人物数、六月七日申 <orgName corresp="#太政官"> 太政官 </orgName> 、〈其
+        <orgName corresp="#太政官"> 太政官 </orgName> 時服者、当月一日録送 <anchor xml:id="app1111160102"/> 弁
+        <anchor xml:id="app1111160102e"/> 官、惣造 <anchor xml:id="app1111160103"/> 目 <anchor
+        xml:id="app1111160103e"/> 、四日下符 <orgName corresp="#中務省"> 中務 </orgName> 、〉九日奏聞、廿日官符下 <orgName
+        corresp="#大蔵省"> 大蔵 </orgName> 、廿二日出給 <anchor xml:id="app1111160104"/> 之 <anchor
+        xml:id="app1111160104e"/> 、其日弁官一人就 <orgName corresp="#大蔵省"> 大蔵省 </orgName> 行事、〈事見 <orgName
+        corresp="#中務省"> 中務 </orgName> 式、〉其無品親王及乳母時服、同月十日官符下 <orgName corresp="#大蔵省"> 大蔵 </orgName>
+       、十五日出給、秋冬准此、 </p>
       <app from="#app1111160101" to="#app1111160101e" type="標注">
        <lem> 弘 </lem>
       </app>
@@ -2743,10 +2774,10 @@
       <p ana="項" corresp="engishiki_v11_ja.xml#item11111701 engishiki_v11_en.xml#item11111701"
        xml:id="item11111701">
        <anchor xml:id="app1111170101"/>
-       <anchor xml:id="app1111170101e"/> 凡給位禄者、<orgName corresp="#中務省">中務</orgName>・<orgName
-        corresp="#式部省">式部</orgName>・<orgName corresp="#兵部省">兵部</orgName>三省録応給人物数、十一月十日申<orgName
-        corresp="#太政官">太政官</orgName>、即造惣目、十五日少納言奏之、廿日官符下<orgName corresp="#大蔵省">大蔵</orgName>、廿二日
-        <anchor xml:id="app1111170102"/> 出 <anchor xml:id="app1111170102e"/>
+       <anchor xml:id="app1111170101e"/> 凡給位禄者、 <orgName corresp="#中務省"> 中務 </orgName> ・ <orgName
+        corresp="#式部省"> 式部 </orgName> ・ <orgName corresp="#兵部省"> 兵部 </orgName> 三省録応給人物数、十一月十日申
+        <orgName corresp="#太政官"> 太政官 </orgName> 、即造惣目、十五日少納言奏之、廿日官符下 <orgName corresp="#大蔵省"> 大蔵
+       </orgName> 、廿二日 <anchor xml:id="app1111170102"/> 出 <anchor xml:id="app1111170102e"/>
        給、〈事見儀式、〉其身在外国及国司者、以当国正税給之、 </p>
       <app from="#app1111170101" to="#app1111170101e" type="標注">
        <lem> 弘延 </lem>
@@ -2764,13 +2795,13 @@
        <anchor xml:id="app1111180101"/>
        <anchor xml:id="app1111180101e"/> 凡諸司馬料者、起正月尽六月、計上日一百廿五以上、給春夏 <pb
         facs="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-11%2F00027.tif/full/full/0/default.jpg"
-       /> 料、<orgName corresp="#中務省">中務</orgName>・<orgName corresp="#式部省">式部</orgName>・<orgName
-        corresp="#兵部省">兵部</orgName>等省録人物数、七月十日弁官率三<orgName corresp="#中務省 #式部省 #兵部省"
-        >省</orgName>、申<orgName corresp="#太政官">太政官</orgName>、〈其<orgName corresp="#太政官"
-       >太政官</orgName>馬料者、当月一日録送弁官、弁官惣造 <anchor xml:id="app1111180102"/> 目 <anchor
-        xml:id="app1111180102e"/> 、三日下符<orgName corresp="#式部省">式部</orgName>、〉即録三<orgName
-        corresp="#省">省</orgName>所申惣目、十五日少納言奏之、廿日官符下<orgName corresp="#大蔵省"
-        >大蔵</orgName>、廿二日出給、秋冬准此、〈事見<orgName corresp="#式部省">式部</orgName>式、〉 </p>
+       /> 料、 <orgName corresp="#中務省"> 中務 </orgName> ・ <orgName corresp="#式部省"> 式部 </orgName> ・
+        <orgName corresp="#兵部省"> 兵部 </orgName> 等省録人物数、七月十日弁官率三 <orgName corresp="#中務省 #式部省 #兵部省"> 省
+       </orgName> 、申 <orgName corresp="#太政官"> 太政官 </orgName> 、〈其 <orgName corresp="#太政官"> 太政官
+       </orgName> 馬料者、当月一日録送弁官、弁官惣造 <anchor xml:id="app1111180102"/> 目 <anchor
+        xml:id="app1111180102e"/> 、三日下符 <orgName corresp="#式部省"> 式部 </orgName> 、〉即録三 <orgName
+        corresp="#省"> 省 </orgName> 所申惣目、十五日少納言奏之、廿日官符下 <orgName corresp="#大蔵省"> 大蔵 </orgName>
+       、廿二日出給、秋冬准此、〈事見 <orgName corresp="#式部省"> 式部 </orgName> 式、〉 </p>
       <app from="#app1111180101" to="#app1111180101e" type="標注">
        <lem> 弘 </lem>
       </app>
@@ -2785,14 +2816,14 @@
       <p ana="項" corresp="engishiki_v11_ja.xml#item11111901 engishiki_v11_en.xml#item11111901"
        xml:id="item11111901">
        <anchor xml:id="app1111190101"/>
-       <anchor xml:id="app1111190101e"/> 凡親王以下月料并諸司要劇及大粮等、毎月申官出充、其月料物者、録来月数、毎月十日申<orgName
-        corresp="#太政官">太政官</orgName>、十七日官符下<orgName corresp="#宮内省"
-       >宮内省</orgName>、廿五日出給、要劇者、録前月応給官人及物数、毎月四日申官、即加官要劇、造惣目、同日 <anchor xml:id="app1111190102"/> 申
-        <anchor xml:id="app1111190102e"/>
-       <orgName corresp="#太政官">太政官</orgName>、五日官符下<orgName corresp="#宮内省">宮内省</orgName>、十三日出給、但
-        <anchor xml:id="app1111190103"/> 給 <anchor xml:id="app1111190103e"/>
-        田者、下符勘解由使、大粮者、毎月十六日申<orgName corresp="#太政官">太政官</orgName>、廿日官符下<orgName corresp="#民部省"
-        >民部</orgName>、廿二日出給、若逢雪雨、臨時改日、 </p>
+       <anchor xml:id="app1111190101e"/> 凡親王以下月料并諸司要劇及大粮等、毎月申官出充、其月料物者、録来月数、毎月十日申 <orgName
+        corresp="#太政官"> 太政官 </orgName> 、十七日官符下 <orgName corresp="#宮内省"> 宮内省 </orgName>
+       、廿五日出給、要劇者、録前月応給官人及物数、毎月四日申官、即加官要劇、造惣目、同日 <anchor xml:id="app1111190102"/> 申 <anchor
+        xml:id="app1111190102e"/>
+       <orgName corresp="#太政官"> 太政官 </orgName> 、五日官符下 <orgName corresp="#宮内省"> 宮内省 </orgName>
+       、十三日出給、但 <anchor xml:id="app1111190103"/> 給 <anchor xml:id="app1111190103e"/>
+       田者、下符勘解由使、大粮者、毎月十六日申 <orgName corresp="#太政官"> 太政官 </orgName> 、廿日官符下 <orgName corresp="#民部省">
+        民部 </orgName> 、廿二日出給、若逢雪雨、臨時改日、 </p>
       <app from="#app1111190101" to="#app1111190101e" type="標注">
        <lem wit="#土本"> 弘貞延 </lem>
        <note> 弘貞延　訳注本「弘貞」とする。 </note>
@@ -2814,8 +2845,8 @@
       <p ana="項" corresp="engishiki_v11_ja.xml#item11112001 engishiki_v11_en.xml#item11112001"
        xml:id="item11112001">
        <anchor xml:id="app1111200101"/>
-       <anchor xml:id="app1111200101e"/> 凡応充諸司月料紙・筆、<orgName corresp="#中務省"
-        >中務</orgName>録数申官、官即下符<orgName corresp="#中務省">中務</orgName>、令充諸司、毎月下旬受来月料、 </p>
+       <anchor xml:id="app1111200101e"/> 凡応充諸司月料紙・筆、 <orgName corresp="#中務省"> 中務 </orgName>
+       録数申官、官即下符 <orgName corresp="#中務省"> 中務 </orgName> 、令充諸司、毎月下旬受来月料、 </p>
       <app from="#app1111200101" to="#app1111200101e" type="標注">
        <lem wit="#壬本 #京博本"> 弘 </lem>
        <note> 弘　土本・近本、前条最終行の頭書。壬本・京博本等により移す。 </note>
@@ -2826,8 +2857,8 @@
       <p ana="項" corresp="engishiki_v11_ja.xml#item11112101 engishiki_v11_en.xml#item11112101"
        xml:id="item11112101">
        <anchor xml:id="app1111210101"/>
-       <anchor xml:id="app1111210101e"/> 凡<orgName corresp="#太政官"
-        >太政官</orgName>及弁官年料雑物、十二月上旬下符所司、即遣使請受、但紙・筆等、<orgName corresp="#図書寮">図書寮</orgName>択精 <anchor
+       <anchor xml:id="app1111210101e"/> 凡 <orgName corresp="#太政官"> 太政官 </orgName>
+       及弁官年料雑物、十二月上旬下符所司、即遣使請受、但紙・筆等、 <orgName corresp="#図書寮"> 図書寮 </orgName> 択精 <anchor
         xml:id="app1111210102"/> 好 <anchor xml:id="app1111210102e"/> 者、毎月副解 <anchor
         xml:id="app1111210103"/> 文 <anchor xml:id="app1111210103e"/> 進、莫更令使受、 </p>
       <app from="#app1111210101" to="#app1111210101e" type="標注">
@@ -2849,8 +2880,8 @@
       <p ana="項" corresp="engishiki_v11_ja.xml#item11112201 engishiki_v11_en.xml#item11112201"
        xml:id="item11112201">
        <anchor xml:id="app1111220101"/>
-       <anchor xml:id="app1111220101e"/> 凡大臣以下及番上座等、三年一度支料充用、〈事見<orgName corresp="#掃部寮"
-       >掃部</orgName>式、〉 </p>
+       <anchor xml:id="app1111220101e"/> 凡大臣以下及番上座等、三年一度支料充用、〈事見 <orgName corresp="#掃部寮"> 掃部
+       </orgName> 式、〉 </p>
       <app from="#app1111220101" to="#app1111220101e" type="標注">
        <lem> 弘 </lem>
       </app>
@@ -2860,8 +2891,8 @@
       <p ana="項" corresp="engishiki_v11_ja.xml#item11112301 engishiki_v11_en.xml#item11112301"
        xml:id="item11112301">
        <anchor xml:id="app1111230101"/>
-       <anchor xml:id="app1111230101e"/> 凡<orgName corresp="#太政官"
-       >太政官</orgName>考選文者、八月一日少納言・弁・外記・史等別当勘抄成案畢、長上考文、十一日申大臣、 </p>
+       <anchor xml:id="app1111230101e"/> 凡 <orgName corresp="#太政官"> 太政官 </orgName>
+       考選文者、八月一日少納言・弁・外記・史等別当勘抄成案畢、長上考文、十一日申大臣、 </p>
       <p ana="項" corresp="engishiki_v11_ja.xml#item11112302 engishiki_v11_en.xml#item11112302"
        xml:id="item11112302"> 其儀、大臣已下就曹司庁、考選史持短冊 <anchor xml:id="app1111230201"/> 筥 <anchor
         xml:id="app1111230201e"/> 、又史一人持札并紙文、外記 <pb
@@ -2877,7 +2908,7 @@
         xml:id="app1111230305"/> 筥 <anchor xml:id="app1111230305e"/>
        西却出候之、持札并紙文史進授札於少納言、授紙文於弁大夫、訖両史共西却出候、 </p>
       <p ana="項" corresp="engishiki_v11_ja.xml#item11112304 engishiki_v11_en.xml#item11112304"
-       xml:id="item11112304"> 少納言読申曰、<orgName corresp="#太政官">太政官</orgName>長仕〈能〉 <anchor
+       xml:id="item11112304"> 少納言読申曰、 <orgName corresp="#太政官"> 太政官 </orgName> 長仕〈能〉 <anchor
         xml:id="app1111230401"/> 其 <anchor xml:id="app1111230401e"/>
        年〈尓〉応預考并不預若干、此中〈尓〉考〈能〉列〈尓〉不在〈留〉若干所、不定第若干、中上若干、 <anchor xml:id="app1111230402"/> 其 <anchor
         xml:id="app1111230402e"/> 大臣仕奉賜〈留〉 <anchor xml:id="app1111230403"/> 日 <anchor
@@ -2902,10 +2933,9 @@
         xml:id="app1111230702e"/> 廊、列立南廂、但六位在堂下、昇自西側階、〉 <pb
         facs="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-11%2F00029.tif/full/full/0/default.jpg"
        /> 三献訖参議已上出着東廊、頃之 <anchor xml:id="app1111230703"/> 入自 <anchor xml:id="app1111230703e"/>
-        北戸、更着穩座、少納言・弁候南廂、盃觴三巡之後召史生、史生列立庭中、謝座着座、〈其座在西庁東廂、〉次召内記及近辺諸司、〈<orgName corresp="#中務省"
-        >中務</orgName>・<orgName corresp="#民部省">民部</orgName>・<orgName corresp="#宮内省"
-        >宮内</orgName>・勘解由使等也、其座在西壁下、〉次<orgName corresp="#雅楽寮"
-       >雅楽寮</orgName>作音楽、此間進挿頭、次奉見参簿、事訖退出、〈事見儀式、〉 </p>
+       北戸、更着穩座、少納言・弁候南廂、盃觴三巡之後召史生、史生列立庭中、謝座着座、〈其座在西庁東廂、〉次召内記及近辺諸司、〈 <orgName corresp="#中務省"> 中務
+       </orgName> ・ <orgName corresp="#民部省"> 民部 </orgName> ・ <orgName corresp="#宮内省"> 宮内 </orgName>
+       ・勘解由使等也、其座在西壁下、〉次 <orgName corresp="#雅楽寮"> 雅楽寮 </orgName> 作音楽、此間進挿頭、次奉見参簿、事訖退出、〈事見儀式、〉 </p>
       <p ana="項" corresp="engishiki_v11_ja.xml#item11112308 engishiki_v11_en.xml#item11112308"
        xml:id="item11112308"> 其番上考者、十二日少納言・弁大夫・外記・史等定之、使部考亦後日定之、 </p>
       <app from="#app1111230101" to="#app1111230101e" type="標注">
@@ -3057,12 +3087,12 @@
       <p ana="項" corresp="engishiki_v11_ja.xml#item11112501 engishiki_v11_en.xml#item11112501"
        xml:id="item11112501">
        <anchor xml:id="app1111250101"/>
-       <anchor xml:id="app1111250101e"/> 凡諸司及<placeName corresp="#畿内"
-        >畿内</placeName>国司長上考選文者、十月一日進弁官、〈事見儀式、〉訖同日弁官惣計造目申<orgName corresp="#太政官"
-        >太政官</orgName>、即下<orgName corresp="#式部省">式部</orgName>・<orgName corresp="#兵部省"
-        >兵部</orgName>、其<orgName corresp="#太政官">太政官</orgName>長上及番上考文亦便同下、諸司及<placeName corresp="#畿内"
-        >畿内</placeName>番上考文 <anchor xml:id="app1111250102"/> 者 <anchor xml:id="app1111250102e"/>
-        、二日共集送<orgName corresp="#式部省">式</orgName>・<orgName corresp="#兵部省">兵</orgName>二省、 </p>
+       <anchor xml:id="app1111250101e"/> 凡諸司及 <placeName corresp="#畿内"> 畿内 </placeName>
+       国司長上考選文者、十月一日進弁官、〈事見儀式、〉訖同日弁官惣計造目申 <orgName corresp="#太政官"> 太政官 </orgName> 、即下 <orgName
+        corresp="#式部省"> 式部 </orgName> ・ <orgName corresp="#兵部省"> 兵部 </orgName> 、其 <orgName
+        corresp="#太政官"> 太政官 </orgName> 長上及番上考文亦便同下、諸司及 <placeName corresp="#畿内"> 畿内 </placeName>
+       番上考文 <anchor xml:id="app1111250102"/> 者 <anchor xml:id="app1111250102e"/> 、二日共集送 <orgName
+        corresp="#式部省"> 式 </orgName> ・ <orgName corresp="#兵部省"> 兵 </orgName> 二省、 </p>
       <app from="#app1111250101" to="#app1111250101e" type="標注">
        <lem> 弘 </lem>
       </app>
@@ -3078,11 +3108,11 @@
       <p ana="項" corresp="engishiki_v11_ja.xml#item11112601 engishiki_v11_en.xml#item11112601"
        xml:id="item11112601">
        <anchor xml:id="app1111260101"/>
-       <anchor xml:id="app1111260101e"/> 凡<placeName corresp="#諸国"
-        >諸国</placeName>考選文及雑公文、附朝集使、十一月一日進弁官、如諸司儀、〈事見儀式、〉訖弁官惣計造目申<orgName corresp="#太政官"
-        >太政官</orgName>、及下<orgName corresp="#式部省">式部</orgName>・<orgName corresp="#兵部省"
-       >兵部</orgName>、亦同上 <anchor xml:id="app1111260102"/> 例、其番上 <anchor xml:id="app1111260102e"/>
-        考文二日送<orgName corresp="#式部省 #兵部省">省</orgName>、 </p>
+       <anchor xml:id="app1111260101e"/> 凡 <placeName corresp="#諸国"> 諸国 </placeName>
+       考選文及雑公文、附朝集使、十一月一日進弁官、如諸司儀、〈事見儀式、〉訖弁官惣計造目申 <orgName corresp="#太政官"> 太政官 </orgName> 、及下
+        <orgName corresp="#式部省"> 式部 </orgName> ・ <orgName corresp="#兵部省"> 兵部 </orgName> 、亦同上 <anchor
+        xml:id="app1111260102"/> 例、其番上 <anchor xml:id="app1111260102e"/> 考文二日送 <orgName
+        corresp="#式部省 #兵部省"> 省 </orgName> 、 </p>
       <app from="#app1111260101" to="#app1111260101e" type="標注">
        <lem> 弘 </lem>
       </app>
@@ -3099,13 +3129,13 @@
       <p ana="項" corresp="engishiki_v11_ja.xml#item11112701 engishiki_v11_en.xml#item11112701"
        xml:id="item11112701">
        <anchor xml:id="app1111270101"/>
-       <anchor xml:id="app1111270101e"/> 凡諸司官人得考并応成選数者、<orgName corresp="#中務省">中務</orgName>・<orgName
-        corresp="#式部省">式部</orgName>・<orgName corresp="#兵部省">兵部</orgName>三省、二月十日申<orgName
-        corresp="#太政官">太政官</orgName>、其成選応叙位者、<orgName corresp="#式部省">式部</orgName>・<orgName
-        corresp="#兵部省">兵部</orgName>二省各率諸司主典已上、十一日列 <anchor xml:id="app1111270102"/> 見 <anchor
-        xml:id="app1111270102e"/> 大臣、二<orgName corresp="#式部省 #兵部省"
-        >省</orgName>依簿引唱、若当昇降者、親自執筆点定、余儀如定考、〈事見儀式、〉番上者於<orgName corresp="#式部省">式部</orgName>・<orgName
-        corresp="#兵部省">兵部</orgName>引唱、 </p>
+       <anchor xml:id="app1111270101e"/> 凡諸司官人得考并応成選数者、 <orgName corresp="#中務省"> 中務 </orgName> ・
+        <orgName corresp="#式部省"> 式部 </orgName> ・ <orgName corresp="#兵部省"> 兵部 </orgName> 三省、二月十日申
+        <orgName corresp="#太政官"> 太政官 </orgName> 、其成選応叙位者、 <orgName corresp="#式部省"> 式部 </orgName> ・
+        <orgName corresp="#兵部省"> 兵部 </orgName> 二省各率諸司主典已上、十一日列 <anchor xml:id="app1111270102"/> 見
+        <anchor xml:id="app1111270102e"/> 大臣、二 <orgName corresp="#式部省 #兵部省"> 省 </orgName>
+       依簿引唱、若当昇降者、親自執筆点定、余儀如定考、〈事見儀式、〉番上者於 <orgName corresp="#式部省"> 式部 </orgName> ・ <orgName
+        corresp="#兵部省"> 兵部 </orgName> 引唱、 </p>
       <app from="#app1111270101" to="#app1111270101e" type="標注">
        <lem> 弘延 </lem>
       </app>
@@ -3120,8 +3150,8 @@
       <p ana="項" corresp="engishiki_v11_ja.xml#item11112801 engishiki_v11_en.xml#item11112801"
        xml:id="item11112801">
        <anchor xml:id="app1111280101"/>
-       <anchor xml:id="app1111280101e"/> 凡<orgName corresp="#式部省">式部</orgName>・<orgName
-        corresp="#兵部省">兵部</orgName>二省進成選擬階短冊者、各預造簿、三月内入外記、 <anchor xml:id="app1111280102"/> 外記
+       <anchor xml:id="app1111280101e"/> 凡 <orgName corresp="#式部省"> 式部 </orgName> ・ <orgName
+        corresp="#兵部省"> 兵部 </orgName> 二省進成選擬階短冊者、各預造簿、三月内入外記、 <anchor xml:id="app1111280102"/> 外記
         <anchor xml:id="app1111280102e"/> 惣造奏文、請参議以上署、四月七日、大臣以下共率奏聞、〈事見儀式、〉 </p>
       <app from="#app1111280101" to="#app1111280101e" type="標注">
        <lem> 弘貞延 </lem>
@@ -3137,10 +3167,10 @@
       <p ana="項" corresp="engishiki_v11_ja.xml#item11112901 engishiki_v11_en.xml#item11112901"
        xml:id="item11112901">
        <anchor xml:id="app1111290101"/>
-       <anchor xml:id="app1111290101e"/> 凡<orgName corresp="#式部省">式</orgName>
+       <anchor xml:id="app1111290101e"/> 凡 <orgName corresp="#式部省"> 式 </orgName>
        <anchor xml:id="app1111290102"/>
-       <orgName corresp="#兵部省">兵 <anchor xml:id="app1111290102e"/></orgName>
-       二省請印准蔭・成選等位記、先令印廿張已下、後更定日、参議於弁官結政所捺了、〈所須丹・膠等物、預先請受、〉 </p>
+       <orgName corresp="#兵部省"> 兵 <anchor xml:id="app1111290102e"/>
+       </orgName> 二省請印准蔭・成選等位記、先令印廿張已下、後更定日、参議於弁官結政所捺了、〈所須丹・膠等物、預先請受、〉 </p>
       <app from="#app1111290101" to="#app1111290101e" type="標注">
        <lem> 貞延 </lem>
       </app>
@@ -3155,11 +3185,11 @@
       <p ana="項" corresp="engishiki_v11_ja.xml#item11113001 engishiki_v11_en.xml#item11113001"
        xml:id="item11113001">
        <anchor xml:id="app1111300101"/>
-       <anchor xml:id="app1111300101e"/> 凡成選応叙位者、奏短冊後預書位記、<orgName corresp="#式部省"
-        >式部</orgName>四月十日、<orgName corresp="#兵部省">兵部</orgName>十三日請印、十五日大臣已下就朝座、二<orgName
-        corresp="#式部省 #兵部省">省</orgName>率応叙人就標位、弁大夫宣命、〈内記 <anchor xml:id="app1111300102"/> 進 <anchor
-        xml:id="app1111300102e"/> 宣命文、外記請其文授宣命大夫、任郡司亦同、〉畢叙人称唯再拝舞踏、〈任郡司拝舞亦同、〉二<orgName
-        corresp="#式部省 #兵部省">省</orgName>互唱名授之、於曹司庁行之亦同、〈事見儀式、〉若当賀茂祭、改用他日、 </p>
+       <anchor xml:id="app1111300101e"/> 凡成選応叙位者、奏短冊後預書位記、 <orgName corresp="#式部省"> 式部 </orgName>
+       四月十日、 <orgName corresp="#兵部省"> 兵部 </orgName> 十三日請印、十五日大臣已下就朝座、二 <orgName corresp="#式部省 #兵部省">
+        省 </orgName> 率応叙人就標位、弁大夫宣命、〈内記 <anchor xml:id="app1111300102"/> 進 <anchor
+        xml:id="app1111300102e"/> 宣命文、外記請其文授宣命大夫、任郡司亦同、〉畢叙人称唯再拝舞踏、〈任郡司拝舞亦同、〉二 <orgName
+        corresp="#式部省 #兵部省"> 省 </orgName> 互唱名授之、於曹司庁行之亦同、〈事見儀式、〉若当賀茂祭、改用他日、 </p>
       <app from="#app1111300101" to="#app1111300101e" type="標注">
        <lem> 弘貞延 </lem>
       </app>
@@ -3174,11 +3204,10 @@
       <p ana="項" corresp="engishiki_v11_ja.xml#item11113101 engishiki_v11_en.xml#item11113101"
        xml:id="item11113101">
        <anchor xml:id="app1111310101"/>
-       <anchor xml:id="app1111310101e"/> 凡<placeName corresp="#諸国">諸国</placeName>銓擬言上郡司大少領者、<orgName
-        corresp="#式部省">式部</orgName>対試造簿、先申大臣即奏聞、訖<orgName corresp="#式部省"
-        >式部</orgName>書位記請印、其後於<orgName corresp="#太政官">太政官</orgName>、<orgName corresp="#式部省"
-        >式部</orgName>先授位記、次唱 <anchor xml:id="app1111310102"/> 任 <anchor xml:id="app1111310102e"/>
-       人名、如除目儀、〈事見儀式、〉 </p>
+       <anchor xml:id="app1111310101e"/> 凡 <placeName corresp="#諸国"> 諸国 </placeName> 銓擬言上郡司大少領者、
+        <orgName corresp="#式部省"> 式部 </orgName> 対試造簿、先申大臣即奏聞、訖 <orgName corresp="#式部省"> 式部 </orgName>
+       書位記請印、其後於 <orgName corresp="#太政官"> 太政官 </orgName> 、 <orgName corresp="#式部省"> 式部 </orgName>
+       先授位記、次唱 <anchor xml:id="app1111310102"/> 任 <anchor xml:id="app1111310102e"/> 人名、如除目儀、〈事見儀式、〉 </p>
       <app from="#app1111310101" to="#app1111310101e" type="標注">
        <lem> 弘 </lem>
       </app>
@@ -3197,12 +3226,12 @@
       <p ana="項" corresp="engishiki_v11_ja.xml#item11113201 engishiki_v11_en.xml#item11113201"
        xml:id="item11113201">
        <anchor xml:id="app1111320101"/>
-       <anchor xml:id="app1111320101e"/> 凡<placeName corresp="#出雲国"
-        >出雲</placeName>国造、国司依例銓擬言上、即於<orgName corresp="#太政官">太政官</orgName>補任、如任<placeName
-        corresp="#諸国">諸国</placeName>郡司儀、宣命及叙位並如常儀、賜禄有数、畢弁大夫及史各一人就<orgName corresp="#神祇官"
-        >神祇官</orgName>給負幸物、還国一年斎、畢国司率国造入朝、奏神寿詞、初到停於京外便所修飾献物、申<orgName corresp="#神祇官"
-        >神祇官</orgName>、預択吉日、申官奏聞、依例供進、〈後斎亦准此、〉其日史二人入朝堂院、勘献物数、依例頒充所司、〈事見<orgName corresp="#神祇官"
-        >神祇</orgName>式及儀式、〉 </p>
+       <anchor xml:id="app1111320101e"/> 凡 <placeName corresp="#出雲国"> 出雲 </placeName> 国造、国司依例銓擬言上、即於
+        <orgName corresp="#太政官"> 太政官 </orgName> 補任、如任 <placeName corresp="#諸国"> 諸国 </placeName>
+       郡司儀、宣命及叙位並如常儀、賜禄有数、畢弁大夫及史各一人就 <orgName corresp="#神祇官"> 神祇官 </orgName>
+       給負幸物、還国一年斎、畢国司率国造入朝、奏神寿詞、初到停於京外便所修飾献物、申 <orgName corresp="#神祇官"> 神祇官 </orgName>
+       、預択吉日、申官奏聞、依例供進、〈後斎亦准此、〉其日史二人入朝堂院、勘献物数、依例頒充所司、〈事見 <orgName corresp="#神祇官"> 神祇 </orgName>
+       式及儀式、〉 </p>
       <app from="#app1111320101" to="#app1111320101e" type="標注">
        <lem wit="#近本 #慶長本"> 弘 </lem>
        <rdg wit="#土本"/>
@@ -3214,8 +3243,8 @@
       <p ana="項" corresp="engishiki_v11_ja.xml#item11113301 engishiki_v11_en.xml#item11113301"
        xml:id="item11113301">
        <anchor xml:id="app1111330101"/>
-       <anchor xml:id="app1111330101e"/> 凡<orgName corresp="#陰陽寮">陰陽寮</orgName>造新暦畢、<orgName
-        corresp="#中務省">中務省</orgName>十一月一日奏進、其頒暦者、付少納言令給大臣、大臣転付弁官、令頒下内外諸司、 </p>
+       <anchor xml:id="app1111330101e"/> 凡 <orgName corresp="#陰陽寮"> 陰陽寮 </orgName> 造新暦畢、 <orgName
+        corresp="#中務省"> 中務省 </orgName> 十一月一日奏進、其頒暦者、付少納言令給大臣、大臣転付弁官、令頒下内外諸司、 </p>
       <app from="#app1111330101" to="#app1111330101e" type="標注">
        <lem> 弘 </lem>
       </app>
@@ -3225,11 +3254,11 @@
       <p ana="項" corresp="engishiki_v11_ja.xml#item11113401 engishiki_v11_en.xml#item11113401"
        xml:id="item11113401">
        <anchor xml:id="app1111340101"/>
-       <anchor xml:id="app1111340101e"/> 凡<orgName corresp="#兵庫寮">兵庫寮</orgName>
+       <anchor xml:id="app1111340101e"/> 凡 <orgName corresp="#兵庫寮"> 兵庫寮 </orgName>
        <anchor xml:id="app1111340102"/> 召 <anchor xml:id="app1111340102e"/>
-        発管戸、自十月至来年二月、教習鼓吹、其初発声日者、<orgName corresp="#兵庫寮">寮</orgName>預申官、官仰<orgName corresp="#陰陽寮"
-        >陰陽寮</orgName>令択定、然後少納言奏之、事畢之日、右弁一人、史一人、<orgName corresp="#兵部省"
-        >兵部</orgName>輔・丞・録各一人、就本司試其業、〈事見<orgName corresp="#兵部省">兵部</orgName>式、〉 </p>
+       発管戸、自十月至来年二月、教習鼓吹、其初発声日者、 <orgName corresp="#兵庫寮"> 寮 </orgName> 預申官、官仰 <orgName
+        corresp="#陰陽寮"> 陰陽寮 </orgName> 令択定、然後少納言奏之、事畢之日、右弁一人、史一人、 <orgName corresp="#兵部省"> 兵部
+       </orgName> 輔・丞・録各一人、就本司試其業、〈事見 <orgName corresp="#兵部省"> 兵部 </orgName> 式、〉 </p>
       <app from="#app1111340101" to="#app1111340101e" type="標注">
        <lem> 弘延 </lem>
       </app>
@@ -3244,12 +3273,12 @@
       <p ana="項" corresp="engishiki_v11_ja.xml#item11113501 engishiki_v11_en.xml#item11113501"
        xml:id="item11113501">
        <anchor xml:id="app1111350101"/>
-       <anchor xml:id="app1111350101e"/> 凡<orgName corresp="#刑部省">刑部省</orgName>所申断罪文者造二通、十月四日進
+       <anchor xml:id="app1111350101e"/> 凡 <orgName corresp="#刑部省"> 刑部省 </orgName> 所申断罪文者造二通、十月四日進
         <anchor xml:id="app1111350102"/> 弁 <anchor xml:id="app1111350102e"/> 官、即日史 <anchor
         xml:id="app1111350103"/> 読 <anchor xml:id="app1111350103e"/>
-       申、外記覆勘造論奏、廿日以前奏聞、〈謂流罪以上及除免官当、〉若有依奏及恩降、並具状録 <orgName corresp="#刑部省"><anchor
-         xml:id="app1111350104"/> 刑部 <anchor xml:id="app1111350104e"/></orgName>
-        解後印之、訖附弁官、〈一通留弁官、一通下<orgName corresp="#刑部省">刑部</orgName>、〉 </p>
+       申、外記覆勘造論奏、廿日以前奏聞、〈謂流罪以上及除免官当、〉若有依奏及恩降、並具状録 <orgName corresp="#刑部省">
+        <anchor xml:id="app1111350104"/> 刑部 <anchor xml:id="app1111350104e"/>
+       </orgName> 解後印之、訖附弁官、〈一通留弁官、一通下 <orgName corresp="#刑部省"> 刑部 </orgName> 、〉 </p>
       <app from="#app1111350101" to="#app1111350101e" type="標注">
        <lem> 弘延 </lem>
       </app>
@@ -3291,8 +3320,8 @@
       <p ana="項" corresp="engishiki_v11_ja.xml#item11113701 engishiki_v11_en.xml#item11113701"
        xml:id="item11113701">
        <anchor xml:id="app1111370101"/>
-       <anchor xml:id="app1111370101e"/> 凡<placeName corresp="#諸国">諸国</placeName>調庸等帳進官、即<orgName
-        corresp="#太政官">太政官</orgName>惣計数国造目、少納言奏之、 </p>
+       <anchor xml:id="app1111370101e"/> 凡 <placeName corresp="#諸国"> 諸国 </placeName> 調庸等帳進官、即
+        <orgName corresp="#太政官"> 太政官 </orgName> 惣計数国造目、少納言奏之、 </p>
       <app from="#app1111370101" to="#app1111370101e" type="標注">
        <lem> 弘 </lem>
       </app>
@@ -3302,10 +3331,10 @@
       <p ana="項" corresp="engishiki_v11_ja.xml#item11113801 engishiki_v11_en.xml#item11113801"
        xml:id="item11113801">
        <anchor xml:id="app1111380101"/>
-       <anchor xml:id="app1111380101e"/> 凡<placeName corresp="#諸国">諸国</placeName>税帳・ <anchor
+       <anchor xml:id="app1111380101e"/> 凡 <placeName corresp="#諸国"> 諸国 </placeName> 税帳・ <anchor
         xml:id="app1111380102"/> 大帳 <anchor xml:id="app1111380102e"/>
-        ・朝集等使向京、在路事故延緩過期者、非有当国験、即依法科処、其所輸贖物収<orgName corresp="#刑部省"
-       >刑部省</orgName>、但貢調使者、不得追附在京諸使、若有違越、勘当如法、 </p>
+       ・朝集等使向京、在路事故延緩過期者、非有当国験、即依法科処、其所輸贖物収 <orgName corresp="#刑部省"> 刑部省 </orgName>
+       、但貢調使者、不得追附在京諸使、若有違越、勘当如法、 </p>
       <app from="#app1111380101" to="#app1111380101e" type="標注">
        <lem wit="#近本 #慶長本"> 弘 </lem>
        <rdg wit="#土本"/>
@@ -3322,8 +3351,8 @@
       <p ana="項" corresp="engishiki_v11_ja.xml#item11113901 engishiki_v11_en.xml#item11113901"
        xml:id="item11113901">
        <anchor xml:id="app1111390101"/>
-       <anchor xml:id="app1111390101e"/> 凡<placeName corresp="#諸国"
-       >諸国</placeName>大帳・朝集・税帳公文、進官之後、外題下文殿、使并雑掌、経二箇月不参著、直下所司、 </p>
+       <anchor xml:id="app1111390101e"/> 凡 <placeName corresp="#諸国"> 諸国 </placeName>
+       大帳・朝集・税帳公文、進官之後、外題下文殿、使并雑掌、経二箇月不参著、直下所司、 </p>
       <app from="#app1111390101" to="#app1111390101e" type="標注">
        <lem> 貞 </lem>
       </app>
@@ -3333,8 +3362,8 @@
       <p ana="項" corresp="engishiki_v11_ja.xml#item11114001 engishiki_v11_en.xml#item11114001"
        xml:id="item11114001">
        <anchor xml:id="app1111400101"/>
-       <anchor xml:id="app1111400101e"/> 凡<placeName corresp="#諸国">諸国</placeName>使公文下<orgName
-        corresp="#民部省">民部省</orgName>後、<orgName corresp="#民部省">省</orgName>非理 <anchor
+       <anchor xml:id="app1111400101e"/> 凡 <placeName corresp="#諸国"> 諸国 </placeName> 使公文下 <orgName
+        corresp="#民部省"> 民部省 </orgName> 後、 <orgName corresp="#民部省"> 省 </orgName> 非理 <anchor
         xml:id="app1111400102"/> 拘 <anchor xml:id="app1111400102e"/> 留致使愁者、尋其所由科処、 </p>
       <app from="#app1111400101" to="#app1111400101e" type="標注">
        <lem> 貞 </lem>
@@ -3353,7 +3382,7 @@
       <p ana="項" corresp="engishiki_v11_ja.xml#item11114101 engishiki_v11_en.xml#item11114101"
        xml:id="item11114101">
        <anchor xml:id="app1111410101"/>
-       <anchor xml:id="app1111410101e"/> 凡<orgName corresp="#太政官">太政官</orgName>及左右文殿雑書、不得出閫外、 </p>
+       <anchor xml:id="app1111410101e"/> 凡 <orgName corresp="#太政官"> 太政官 </orgName> 及左右文殿雑書、不得出閫外、 </p>
       <app from="#app1111410101" to="#app1111410101e" type="標注">
        <lem> 貞 </lem>
       </app>
@@ -3363,8 +3392,8 @@
       <p ana="項" corresp="engishiki_v11_ja.xml#item11114201 engishiki_v11_en.xml#item11114201"
        xml:id="item11114201">
        <anchor xml:id="app1111420101"/>
-       <anchor xml:id="app1111420101e"/> 凡厨家雑物、別当外記・史与諸司共出納之、〈諸司謂監物・<orgName corresp="#主計寮"
-        >主計</orgName>、〉 </p>
+       <anchor xml:id="app1111420101e"/> 凡厨家雑物、別当外記・史与諸司共出納之、〈諸司謂監物・ <orgName corresp="#主計寮"> 主計
+       </orgName> 、〉 </p>
       <app from="#app1111420101" to="#app1111420101e" type="標注">
        <lem> 延 </lem>
       </app>
@@ -3374,9 +3403,9 @@
       <p ana="項" corresp="engishiki_v11_ja.xml#item11114301 engishiki_v11_en.xml#item11114301"
        xml:id="item11114301">
        <anchor xml:id="app1111430101"/>
-       <anchor xml:id="app1111430101e"/> 凡造館舎所者、〈<orgName corresp="#太政官"
-        >太政官</orgName>曹司、弁・外記候所、大臣曹司及厨等類、〉別当少納言・弁・外記・史、及預<orgName corresp="#太政官"
-       >太政官</orgName>・弁官史生各一人、二年為限、二月相替、別当先検破損、随行料物、其所修繕、且加勘定、若有臨事不了之輩、不必待限、将従改替、 </p>
+       <anchor xml:id="app1111430101e"/> 凡造館舎所者、〈 <orgName corresp="#太政官"> 太政官 </orgName>
+       曹司、弁・外記候所、大臣曹司及厨等類、〉別当少納言・弁・外記・史、及預 <orgName corresp="#太政官"> 太政官 </orgName>
+       ・弁官史生各一人、二年為限、二月相替、別当先検破損、随行料物、其所修繕、且加勘定、若有臨事不了之輩、不必待限、将従改替、 </p>
       <app from="#app1111430101" to="#app1111430101e" type="標注">
        <lem> 弘延 </lem>
       </app>
@@ -3399,8 +3428,8 @@
        xml:id="item11114501">
        <anchor xml:id="app1111450101"/>
        <anchor xml:id="app1111450101e"/> 凡厨 <anchor xml:id="app1111450102"/> 家 <anchor
-        xml:id="app1111450102e"/> 別当、少納言・弁・外記・史各一人、及預<orgName corresp="#太政官"
-       >太政官</orgName>并左右史生各一人、並一年為限、二月列見之後相替、 </p>
+        xml:id="app1111450102e"/> 別当、少納言・弁・外記・史各一人、及預 <orgName corresp="#太政官"> 太政官 </orgName>
+       并左右史生各一人、並一年為限、二月列見之後相替、 </p>
       <app from="#app1111450101" to="#app1111450101e" type="標注">
        <lem> 弘貞延 </lem>
       </app>
@@ -3415,9 +3444,9 @@
       <p ana="項" corresp="engishiki_v11_ja.xml#item11114601 engishiki_v11_en.xml#item11114601"
        xml:id="item11114601">
        <anchor xml:id="app1111460101"/>
-       <anchor xml:id="app1111460101e"/> 凡<placeName corresp="#諸国"
-       >諸国</placeName>例進地子、仰所司毎年七月以前申見進・未進 <anchor xml:id="app1111460102"/> 之 <anchor
-        xml:id="app1111460102e"/> 数、随即下符、令催進之、 </p>
+       <anchor xml:id="app1111460101e"/> 凡 <placeName corresp="#諸国"> 諸国 </placeName>
+       例進地子、仰所司毎年七月以前申見進・未進 <anchor xml:id="app1111460102"/> 之 <anchor xml:id="app1111460102e"/>
+       数、随即下符、令催進之、 </p>
       <app from="#app1111460101" to="#app1111460101e" type="標注">
        <lem> 貞 </lem>
       </app>
@@ -3432,8 +3461,8 @@
       <p ana="項" corresp="engishiki_v11_ja.xml#item11114701 engishiki_v11_en.xml#item11114701"
        xml:id="item11114701">
        <anchor xml:id="app1111470101"/>
-       <anchor xml:id="app1111470101e"/> 凡<placeName corresp="#諸国"
-       >諸国</placeName>例進地子米并交易雑物有未進者、拘留朝集・調庸・税帳等返抄、 </p>
+       <anchor xml:id="app1111470101e"/> 凡 <placeName corresp="#諸国"> 諸国 </placeName>
+       例進地子米并交易雑物有未進者、拘留朝集・調庸・税帳等返抄、 </p>
       <app from="#app1111470101" to="#app1111470101e" type="標注">
        <lem> 貞 </lem>
       </app>
@@ -3443,8 +3472,8 @@
       <p ana="項" corresp="engishiki_v11_ja.xml#item11114801 engishiki_v11_en.xml#item11114801"
        xml:id="item11114801">
        <anchor xml:id="app1111480101"/>
-       <anchor xml:id="app1111480101e"/> 凡施薬院薬分稲、<placeName corresp="#諸国"
-       >諸国</placeName>雖申請減省雑稲、不得減省、 </p>
+       <anchor xml:id="app1111480101e"/> 凡施薬院薬分稲、 <placeName corresp="#諸国"> 諸国 </placeName>
+       雖申請減省雑稲、不得減省、 </p>
       <app from="#app1111480101" to="#app1111480101e" type="標注">
        <lem> 延 </lem>
       </app>
@@ -3498,7 +3527,7 @@
       <p ana="項" corresp="engishiki_v11_ja.xml#item11115301 engishiki_v11_en.xml#item11115301"
        xml:id="item11115301">
        <anchor xml:id="app1111530101"/>
-       <anchor xml:id="app1111530101e"/> 凡校書殿及内豎所並聴<orgName corresp="#太政官">太政官</orgName>并弁官所仰之事、 </p>
+       <anchor xml:id="app1111530101e"/> 凡校書殿及内豎所並聴 <orgName corresp="#太政官"> 太政官 </orgName> 并弁官所仰之事、 </p>
       <app from="#app1111530101" to="#app1111530101e" type="標注">
        <lem> 貞 </lem>
       </app>
@@ -3509,7 +3538,7 @@
        xml:id="item11115401">
        <anchor xml:id="app1111540101"/>
        <anchor xml:id="app1111540101e"/> 凡奏事諸司及入内供奉之輩、並不得触 <anchor xml:id="app1111540102"/> 入
-        <anchor xml:id="app1111540102e"/> 喪座等事并弔喪、〈所忌日限、見<orgName corresp="#神祇官">神祇</orgName>
+        <anchor xml:id="app1111540102e"/> 喪座等事并弔喪、〈所忌日限、見 <orgName corresp="#神祇官"> 神祇 </orgName>
        <anchor xml:id="app1111540103"/> 式 <anchor xml:id="app1111540103e"/> 、〉 </p>
       <app from="#app1111540101" to="#app1111540101e" type="標注">
        <lem> 弘 </lem>
@@ -3559,21 +3588,21 @@
        <row>
         <cell/>
         <cell> 従五位上行勘解由次官兼大外記･ <anchor xml:id="app1199990101"/>
-         <placeName corresp="#紀伊国">紀伊</placeName>権介 <anchor xml:id="app1199990101e"/> 臣 <anchor
+         <placeName corresp="#紀伊国"> 紀伊 </placeName> 権介 <anchor xml:id="app1199990101e"/> 臣 <anchor
           xml:id="app1199990102"/> 伴 <anchor xml:id="app1199990102e"/> 宿禰 <anchor
           xml:id="app1199990103"/> 久 <anchor xml:id="app1199990103e"/> 永 </cell>
        </row>
        <row>
         <cell/>
-        <cell> 従四位上行<orgName corresp="#神祇官">神祇</orgName>伯臣大中臣朝臣安則 </cell>
+        <cell> 従四位上行 <orgName corresp="#神祇官"> 神祇 </orgName> 伯臣大中臣朝臣安則 </cell>
        </row>
        <row>
         <cell/>
-        <cell> 大納言正三位兼行<orgName corresp="#民部省">民部</orgName>卿臣藤原朝臣清貫 </cell>
+        <cell> 大納言正三位兼行 <orgName corresp="#民部省"> 民部 </orgName> 卿臣藤原朝臣清貫 </cell>
        </row>
        <row>
         <cell/>
-        <cell> 左大臣正二位兼行<orgName corresp="#近衛府">左近衛</orgName>大将･皇太子傅臣藤原朝臣忠平 </cell>
+        <cell> 左大臣正二位兼行 <orgName corresp="#近衛府"> 左近衛 </orgName> 大将･皇太子傅臣藤原朝臣忠平 </cell>
        </row>
       </table>
      </p>

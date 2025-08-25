@@ -54,28 +54,29 @@
       <witness xml:id="条本">
        <abbr> 条本 </abbr> ：一条家旧蔵巻子本（巻1～3は無窮会専門図書館所蔵模写本、巻4・5は神宮司庁刊影印本） </witness>
       <witness xml:id="花本">
-       <abbr> 花本 </abbr> ：花山院家・武田祐吉旧蔵本（神宮皇学館刊影印本による） </witness>
+       <abbr> 花本 </abbr> ：武田祐吉旧蔵花山院通雅筆本（神宮皇学館刊影印本による） </witness>
       <witness xml:id="九冊本">
        <abbr> 九冊本 </abbr> ：國學院大學所蔵九条家・西田長男旧蔵冊子本（巻5は西田長男刊影印本による） </witness>
       <witness xml:id="永本">
-       <abbr> 永本 </abbr> ：巻8は國學院大學図書館所蔵（091.2/322.135/1）、巻9・10は現蔵不明(神宮文庫所蔵写真帳1門16974） </witness>
+       <abbr> 永本 </abbr>
+       ：國學院大學図書館所蔵卜部兼永筆本（巻8、091.2/322.135/1）、鈴鹿義鯨旧蔵卜部兼永筆本（巻9・10、現蔵不明、神宮文庫写真帳1門16974を閲覧） </witness>
       <witness xml:id="右本">
        <abbr> 右本 </abbr> ：巻8は國學院大學図書館所蔵（貴62） </witness>
       <witness xml:id="吉本">
-       <abbr> 吉本 </abbr> ：天理大学附属天理図書館所蔵吉田家旧蔵本巻9・10（328.1-ｲ17(Ⅲ1219)） </witness>
+       <abbr> 吉本 </abbr> ：天理大学附属天理図書館所蔵吉田家旧蔵本巻9・10（328.1-ｲ17（『天理図書館稀書目録　和漢書之部　第三』1219） </witness>
       <witness xml:id="三条本">
        <abbr> 三条本 </abbr> ：天理大学附属天理図書館所蔵三条家旧蔵本（328.1-ｲ11(Ⅲ1218)） </witness>
       <witness xml:id="西本">
        <abbr> 西本 </abbr>
-       ：巻9・10は國學院大學図書館所蔵（貴107～108）。巻50は国立歴史民俗博物館所蔵（H-1588）。抄出本は國學院大學所蔵（木村大樹「〔西田長男旧蔵〕三条西実隆筆『延喜式』(抄)の翻刻・紹介」『國學院大學研究開発推進機構紀要』14、2022年） </witness>
+       ：國學院大學図書館所蔵三条西家旧蔵本（巻9・10、貴107～108）、国立歴史民俗博物館所蔵三条西家旧蔵本（巻50、H-1588）。抄出本は國學院大學所蔵（木村大樹「〔西田長男旧蔵〕三条西実隆筆『延喜式』(抄)の翻刻・紹介」『國學院大學研究開発推進機構紀要』14、2022年） </witness>
       <witness xml:id="時慶本">
        <abbr> 時慶本 </abbr> ：静嘉堂文庫所蔵西洞院時慶写本（延喜格式表18352、延喜式序18353） </witness>
-      <witness xml:id="島原本">
-       <abbr> 島原本 </abbr> ：東京大学史料編纂所所蔵松平忠房・和学講談所・水野忠央旧蔵本（貴45-2） </witness>
       <witness xml:id="藤波本">
        <abbr> 藤波本 </abbr> ：宮内庁書陵部図書寮文庫所蔵藤波家旧蔵本（217-473） </witness>
+      <witness xml:id="島原本">
+       <abbr> 島原本 </abbr> ：東京大学史料編纂所所蔵松平忠房・和学講談所・水野忠央旧蔵本（貴45-2） </witness>
       <witness xml:id="貞享本">
-       <abbr> 貞享本 </abbr> ：宮内庁書陵部図書寮文庫所蔵和学講談所旧蔵坊城俊方貞享本（457-116） </witness>
+       <abbr> 貞享本 </abbr> ：宮内庁書陵部図書寮文庫所蔵和学講談所旧蔵坊城俊方貞享五年写本（457-116） </witness>
       <witness xml:id="玄梁本">
        <abbr> 玄梁本 </abbr> ：無窮会専門図書館所蔵神習文庫玄梁記名本（神習3666） </witness>
       <witness xml:id="尾張本">
@@ -156,10 +157,21 @@
    <tagsDecl>
     <rendition xml:id="indent"> margin-top: 1em; </rendition>
     <rendition xml:id="indent2"> margin-top: 2em; </rendition>
+    <rendition xml:id="indent3"> margin-top: 3em; </rendition>
+    <rendition xml:id="indent4"> margin-top: 4em; </rendition>
     <rendition xml:id="indent5"> margin-top: 5em; </rendition>
+    <rendition xml:id="indent6"> margin-top: 6em; </rendition>
+    <rendition xml:id="indent7"> margin-top: 7em; </rendition>
+    <rendition xml:id="indent10"> margin-top: 10em; </rendition>
+    <rendition xml:id="indent12"> margin-top: 12em; </rendition>
+    <rendition xml:id="indent13"> margin-top: 13em; </rendition>
+    <rendition xml:id="indent14"> margin-top: 14em; </rendition>
+    <rendition xml:id="indent18"> margin-top: 18em; </rendition>
     <rendition xml:id="width50"> width: 50px; </rendition>
-    <rendition xml:id="kokumei"> width: 80px; </rendition>
+    <rendition xml:id="width80"> width: 80px; </rendition>
     <rendition xml:id="width100"> width: 100px; </rendition>
+    <rendition xml:id="width150"> width: 150px; </rendition>
+    <rendition xml:id="width170"> width: 170px; </rendition>
     <rendition xml:id="width200"> width: 200px; </rendition>
     <rendition xml:id="width300"> width: 300px; </rendition>
    </tagsDecl>
@@ -231,10 +243,14 @@
        <cell rendition="#width300"> 例）閉【門⊃オ】、国【囗⊃玉】 </cell>
       </row>
       <row>
-       <cell/>
+       <cell rendition="#width100"> 【（Ａ/Ｂ）+Ｃ】、【Ａ/（Ｂ⊃Ｃ）】 </cell>
+       <cell rendition="#width300"> ＝字画が三つ以上、かつ異なる方法で字画が組み合う </cell>
+       <cell rendition="#width300"> 例）雑【（九/木）+隹】、懸【（県+系）/心】、薗【艹/（口⊃袁）】 </cell>
       </row>
       <row>
        <cell/>
+       <cell/>
+       <cell> （班【王+リ+王】、窓【宀/公/心】はすべての字画が一つの方法で組み合うため、（　）なし。） </cell>
       </row>
      </table>
      <table>
@@ -326,6 +342,27 @@
        <cell rendition="#width50"> 68 </cell>
        <cell rendition="#width100"> 支子染色 </cell>
       </row>
+      <row>
+       <cell rendition="#width100"> 422東西市 </cell>
+       <cell rendition="#width50"> 1 </cell>
+       <cell rendition="#width100"> 毎鄽立牓 </cell>
+       <cell rendition="#width50"> 1 </cell>
+       <cell rendition="#width100"> 毎厘立牓 </cell>
+      </row>
+      <row>
+       <cell rendition="#width100"> 422東西市 </cell>
+       <cell rendition="#width50"> 14 </cell>
+       <cell rendition="#width100"> 東鄽 </cell>
+       <cell rendition="#width50"> 14 </cell>
+       <cell rendition="#width100"> 東厘 </cell>
+      </row>
+      <row>
+       <cell rendition="#width100"> 422東西市 </cell>
+       <cell rendition="#width50"> 15 </cell>
+       <cell rendition="#width100"> 西鄽 </cell>
+       <cell rendition="#width50"> 15 </cell>
+       <cell rendition="#width100"> 西厘 </cell>
+      </row>
      </table>
     </p>
     <p ana="個別"> 校訂文凡例 <table>
@@ -395,7 +432,7 @@
       </row>
       <row>
        <cell rendition="#width100"> 貞享本 </cell>
-       <cell> 宮内庁書陵部図書寮文庫所蔵和学講談所旧蔵坊城俊方貞享写本（457-116） </cell>
+       <cell> 宮内庁書陵部図書寮文庫所蔵和学講談所旧蔵坊城俊方貞享五年写本（457-116） </cell>
       </row>
       <row>
        <cell rendition="#width100"> 版本 </cell>
@@ -503,14 +540,16 @@
     <pb
      facs="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-21%2F00002.tif/full/full/0/default.jpg"/>
     <div type="首題" xml:id="shudai21">
-     <p xml:id="shudai2101"> 延喜式巻第廿一〈<orgName corresp="#治部省">治部</orgName>　<orgName corresp="#雅楽寮"
-       >雅楽</orgName>　<orgName corresp="#玄蕃寮">玄蕃</orgName>　<orgName corresp="#諸陵寮">諸陵</orgName>〉 </p>
+     <p xml:id="shudai2101"> 延喜式巻第廿一〈 <orgName corresp="#治部省"> 治部 </orgName>
+      <orgName corresp="#雅楽寮"> 雅楽 </orgName>
+      <orgName corresp="#玄蕃寮"> 玄蕃 </orgName>
+      <orgName corresp="#諸陵寮"> 諸陵 </orgName> 〉 </p>
     </div>
     <div ana="治部" corresp="engishiki_v21_en.xml#protocol211 engishiki_v21_ja.xml#protocol211"
      n="21-1" subtype="条" type="式" xml:id="protocol211">
      <div type="式題" xml:id="shikidai211">
       <p xml:id="shikidai21101">
-       <orgName corresp="#治部省">治部省</orgName>
+       <orgName corresp="#治部省"> 治部省 </orgName>
       </p>
      </div>
      <div ana="治部"
@@ -675,8 +714,8 @@
        <lem wit="#近本 #土本抹消符 #京博本抹消符"> 色 </lem>
        <rdg wit="#壬本 #慶長本"> 色色 </rdg>
        <rdg wit="#梵本"> 也 </rdg>
-       <note>土本「 色 <del> 色 </del> 」</note>
-       <note>京博本「 色 <del> 色 </del> 」</note>
+       <note> 土本「 色 <del> 色 </del> 」 </note>
+       <note> 京博本「 色 <del> 色 </del> 」 </note>
        <note> 色　土本・壬本・京博本・慶長本弥書。九本欠損。梵本「也」。近本、土本・京博本抹消符により削る。訳注本も「空白符ノ変形セル「々」ニヨルモノ」として削る。 </note>
       </app>
       <app from="#app2110010123" to="#app2110010123e">
@@ -992,12 +1031,12 @@
       <p ana="項" corresp="engishiki_v21_en.xml#item21100601 engishiki_v21_ja.xml#item21100601"
        xml:id="item21100601"> 凡国忌日、各請当寺僧一百口、転経礼仏、輔・丞・ <anchor xml:id="app2110060101"/> 録 <anchor
         xml:id="app2110060101e"/> 各 <anchor xml:id="app2110060102"/> 一 <anchor
-        xml:id="app2110060102e"/> 人、<orgName corresp="#玄蕃寮">玄 <anchor xml:id="app2110060103"/> 蕃
-         <anchor xml:id="app2110060103e"/> 寮</orgName>五位一人、六位已下官 <anchor xml:id="app2110060104"/> 人
-        <anchor xml:id="app2110060104e"/> 二人、皆詣寺以供事、〈事見<orgName corresp="#式部省">式部</orgName>式、〉 <lb/>
-       其布施物、三宝糸卅絇、〈 <anchor xml:id="app2110060105"/> 別 <anchor xml:id="app2110060105e"/> 十 <anchor
-        xml:id="app2110060106"/> 絇 <anchor xml:id="app2110060106e"/>
-        、〉裹料調布九尺、木綿三分、衆僧庸布一百六段、並自<orgName corresp="#大蔵省">大蔵省</orgName>下充之、事畢録見僧幷奉読経数、付内侍奏、 </p>
+        xml:id="app2110060102e"/> 人、 <orgName corresp="#玄蕃寮"> 玄 <anchor xml:id="app2110060103"/> 蕃
+         <anchor xml:id="app2110060103e"/> 寮 </orgName> 五位一人、六位已下官 <anchor xml:id="app2110060104"/>
+       人 <anchor xml:id="app2110060104e"/> 二人、皆詣寺以供事、〈事見 <orgName corresp="#式部省"> 式部 </orgName> 式、〉
+       <lb/> 其布施物、三宝糸卅絇、〈 <anchor xml:id="app2110060105"/> 別 <anchor xml:id="app2110060105e"/> 十
+        <anchor xml:id="app2110060106"/> 絇 <anchor xml:id="app2110060106e"/>
+       、〉裹料調布九尺、木綿三分、衆僧庸布一百六段、並自 <orgName corresp="#大蔵省"> 大蔵省 </orgName> 下充之、事畢録見僧幷奉読経数、付内侍奏、 </p>
       <app from="#app2110060101" to="#app2110060101e">
        <lem wit="#土本 #九本 #近本 #京博本 #慶長本 #梵本"> 録 </lem>
        <rdg wit="#壬本"> 銀 </rdg>
@@ -1033,7 +1072,8 @@
       subtype="項" type="条" xml:id="article211007">
       <head ana="国忌歴名"/>
       <p ana="項" corresp="engishiki_v21_en.xml#item21100701 engishiki_v21_ja.xml#item21100701"
-       xml:id="item21100701"> 凡国忌者、前忌三日、具状申送弁官、其応供斎会<orgName corresp="#治部省">省</orgName>輔・丞・録及<orgName corresp="#玄蕃寮">寮</orgName>五位幷允・属各一人歴名亦同申送、 </p>
+       xml:id="item21100701"> 凡国忌者、前忌三日、具状申送弁官、其応供斎会 <orgName corresp="#治部省"> 省 </orgName> 輔・丞・録及
+        <orgName corresp="#玄蕃寮"> 寮 </orgName> 五位幷允・属各一人歴名亦同申送、 </p>
      </div>
      <div ana="治部"
       corresp="engishiki_v21-1_en.xml#article211008 engishiki_v21-1_ja.xml#article211008" n="21-1.8"
@@ -1047,8 +1087,8 @@
       subtype="項" type="条" xml:id="article211009">
       <head ana="賻物"/>
       <p ana="項" corresp="engishiki_v21_en.xml#item21100901 engishiki_v21_ja.xml#item21100901"
-       xml:id="item21100901"> 凡応給賻物者、喪家申官、官下符<orgName corresp="#京職">左京職</orgName>、以穀倉院所納物給之、〈但不給鉄、〉
-      </p>
+       xml:id="item21100901"> 凡応給賻物者、喪家申官、官下符 <orgName corresp="#京職"> 左京職 </orgName>
+       、以穀倉院所納物給之、〈但不給鉄、〉 </p>
      </div>
      <div ana="治部"
       corresp="engishiki_v21-1_en.xml#article211010 engishiki_v21-1_ja.xml#article211010"
@@ -1071,16 +1111,18 @@
       n="21-1.12" subtype="項" type="条" xml:id="article211012">
       <head ana="斎宮寮賻物"/>
       <p ana="項" corresp="engishiki_v21_en.xml#item21101201 engishiki_v21_ja.xml#item21101201"
-       xml:id="item21101201"> 凡<orgName corresp="#斎宮寮">斎宮寮</orgName>官人賻物、以<placeName corresp="#伊勢国">伊勢国</placeName>正税給之、 </p>
+       xml:id="item21101201"> 凡 <orgName corresp="#斎宮寮"> 斎宮寮 </orgName> 官人賻物、以 <placeName
+        corresp="#伊勢国"> 伊勢国 </placeName> 正税給之、 </p>
      </div>
      <div ana="治部"
       corresp="engishiki_v21-1_en.xml#article211013 engishiki_v21-1_ja.xml#article211013"
       n="21-1.13" subtype="項" type="条" xml:id="article211013">
       <head ana="鎮守府賻物"/>
       <p ana="項" corresp="engishiki_v21_en.xml#item21101301 engishiki_v21_ja.xml#item21101301"
-       xml:id="item21101301"> 凡陸奥出羽鎮守府史生・傔 <anchor xml:id="app2110130101"/> 仗 <anchor xml:id="app2110130101e"/>
-       ・博士・医師・陰陽 <anchor xml:id="app2110130102"/> 師 <anchor xml:id="app2110130102e"/> ・弩師、<orgName
-        corresp="#大宰府">大宰府</orgName>傔仗・史生幷管国史生等賻物、並以当国物給之、 </p>
+       xml:id="item21101301"> 凡陸奥出羽鎮守府史生・傔 <anchor xml:id="app2110130101"/> 仗 <anchor
+        xml:id="app2110130101e"/> ・博士・医師・陰陽 <anchor xml:id="app2110130102"/> 師 <anchor
+        xml:id="app2110130102e"/> ・弩師、 <orgName corresp="#大宰府"> 大宰府 </orgName>
+       傔仗・史生幷管国史生等賻物、並以当国物給之、 </p>
       <app from="#app2110130101" to="#app2110130101e">
        <lem wit="#土本 #九本 #壬本 #京博本 #慶長本 梵本"> 仗 </lem>
        <rdg wit="#近本"> 伏 </rdg>
@@ -1116,15 +1158,16 @@
       n="21-1.16" subtype="項" type="条" xml:id="article211016">
       <head ana="立嫡"/>
       <p ana="項" corresp="engishiki_v21_en.xml#item21101601 engishiki_v21_ja.xml#item21101601"
-       xml:id="item21101601"> 凡立五位以上嫡子者、父申牒<orgName corresp="#治部省">省</orgName>、<orgName corresp="#治部省">省</orgName>移本貫知実、然後申官、 </p>
+       xml:id="item21101601"> 凡立五位以上嫡子者、父申牒 <orgName corresp="#治部省"> 省 </orgName> 、 <orgName
+        corresp="#治部省"> 省 </orgName> 移本貫知実、然後申官、 </p>
      </div>
      <div ana="治部"
       corresp="engishiki_v21-1_en.xml#article211017 engishiki_v21-1_ja.xml#article211017"
       n="21-1.17" subtype="項" type="条" xml:id="article211017">
       <head ana="国分寺公文"/>
       <p ana="項" corresp="engishiki_v21_en.xml#item21101701 engishiki_v21_ja.xml#item21101701"
-       xml:id="item21101701"> 凡<placeName corresp="#諸国">諸国</placeName>附朝集・税帳等使所送国分二寺雑公文、勾勘畢即具状移<orgName corresp="#式部省"
-        >式部</orgName>・<orgName corresp="#民部省">民部</orgName>等省、 </p>
+       xml:id="item21101701"> 凡 <placeName corresp="#諸国"> 諸国 </placeName> 附朝集・税帳等使所送国分二寺雑公文、勾勘畢即具状移
+        <orgName corresp="#式部省"> 式部 </orgName> ・ <orgName corresp="#民部省"> 民部 </orgName> 等省、 </p>
      </div>
      <div ana="治部"
       corresp="engishiki_v21-1_en.xml#article211018 engishiki_v21-1_ja.xml#article211018"
@@ -1133,23 +1176,23 @@
       <p ana="項" corresp="engishiki_v21_en.xml#item21101801 engishiki_v21_ja.xml#item21101801"
        xml:id="item21101801"> 凡蕃客入朝者、差領客使二人、〈掌在路雑事、〉 <pb
         facs="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-21%2F00009.tif/full/full/0/default.jpg"
-       /> 随使一人、〈掌記録及公文事、〉掌客二人、〈掌在京雑事、有史生二人、〉共食二人、〈掌饗日各対使者飲宴、自余使見<orgName corresp="#太政官"
-       >太政官</orgName>式、〉 </p>
+       /> 随使一人、〈掌記録及公文事、〉掌客二人、〈掌在京雑事、有史生二人、〉共食二人、〈掌饗日各対使者飲宴、自余使見 <orgName corresp="#太政官"> 太政官
+       </orgName> 式、〉 </p>
      </div>
      <div ana="治部"
       corresp="engishiki_v21-1_en.xml#article211019 engishiki_v21-1_ja.xml#article211019"
       n="21-1.19" subtype="項" type="条" xml:id="article211019">
       <head ana="補任帳"/>
       <p ana="項" corresp="engishiki_v21_en.xml#item21101901 engishiki_v21_ja.xml#item21101901"
-       xml:id="item21101901"> 凡威儀師已上幷従儀師、及<placeName corresp="#諸国">諸国</placeName>講読師補任帳各一巻、年終勘作、正月一日進<orgName corresp="#太政官"
-       >太政官</orgName>、 </p>
+       xml:id="item21101901"> 凡威儀師已上幷従儀師、及 <placeName corresp="#諸国"> 諸国 </placeName>
+       講読師補任帳各一巻、年終勘作、正月一日進 <orgName corresp="#太政官"> 太政官 </orgName> 、 </p>
      </div>
      <div ana="治部"
       corresp="engishiki_v21-1_en.xml#article211020 engishiki_v21-1_ja.xml#article211020"
       n="21-1.20" subtype="項" type="条" xml:id="article211020">
       <head ana="度縁請印"/>
       <p ana="項" corresp="engishiki_v21_en.xml#item21102001 engishiki_v21_ja.xml#item21102001"
-       xml:id="item21102001"> 凡度縁請印者、不経弁官、直申<orgName corresp="#太政官">太政官</orgName>、 </p>
+       xml:id="item21102001"> 凡度縁請印者、不経弁官、直申 <orgName corresp="#太政官"> 太政官 </orgName> 、 </p>
      </div>
     </div>
     <div type="尾題" xml:id="bidai21">
