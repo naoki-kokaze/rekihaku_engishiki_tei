@@ -705,19 +705,24 @@
       <head ana="追儺"/>
       <p ana="項" corresp="engishiki_v42-1_en.xml#item42101001 engishiki_v42-1_ja.xml#item42101001"
        xml:id="item42101001">
-       <anchor xml:id="app4210100101"/> 凡 <anchor xml:id="app4210100101e"/> 年終儺者、差撃鼓夫六人・ <anchor
-        xml:id="app4210100102"/> 馬六疋、送 <orgName corresp="#兵庫寮"> 兵庫寮 </orgName>
-       <anchor xml:id="app4210100102e"/> 、分配宮城六門、其夫馬功賃、以徭 <anchor xml:id="app4210100103"/> 銭 <anchor
-        xml:id="app4210100103e"/> 充之、 </p>
+       <anchor xml:id="app4210100101"/> 凡 <anchor xml:id="app4210100101e"/> 年終儺者、差撃鼓夫六人・  馬<anchor
+        xml:id="app4210100102"/>六<anchor xml:id="app4210100102e"/>疋、送 <orgName corresp="#兵庫寮"> 兵庫<anchor xml:id="app4210100103"/>寮<anchor xml:id="app4210100103e"/> </orgName>
+        、分配宮城六門、其夫馬功賃、以徭 <anchor xml:id="app4210100104"/> 銭 <anchor
+        xml:id="app4210100104e"/> 充之、 </p>
       <app from="#app4210100101" to="#app4210100101e">
        <note> 凡…之　九本は本条無し。 </note>
       </app>
       <app from="#app4210100102" to="#app4210100102e">
-       <lem wit="#土本 #近本 #壬本 #京博本 #梵本"> 馬六疋、送兵庫寮 </lem>
-       <rdg wit="#慶長本"> 馬疋、送兵庫寮六 </rdg>
-       <note> 馬六疋、送兵庫寮　慶長本は「馬」の下に圏点がある上で寮の下に「六」があり。「六」に関わる脚書が本文に竄入したものとみなす。 </note>
+       <lem wit="#土本 #近本 #壬本 #京博本 #梵本">六</lem>
+       <rdg wit="#慶長本"/>
+       <note> 六　慶長本無し。但し「馬」の下に圏点あり。「寮」の校異注を参照。」</note>
       </app>
       <app from="#app4210100103" to="#app4210100103e">
+       <lem wit="#土本 #近本 #壬本 #京博本 #梵本">寮</lem>
+       <rdg wit="#慶長本"> 馬疋、送兵庫寮六 </rdg>
+       <note>寮　慶長本この下「六」あり。「六」に関わる脚注が本文に竄入したものとみなして削除。</note>
+      </app>
+      <app from="#app4210100104" to="#app4210100104e">
        <lem wit="#土本 #近本 #壬本補書 #京博本補書 #慶長本 #梵本補書"> 銭 </lem>
        <note> 壬本補書「銭」 </note>
        <note> 京博本補書「銭」 </note>
