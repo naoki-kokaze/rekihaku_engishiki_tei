@@ -21350,15 +21350,18 @@
   <standOff>
     <listPlace>
       <place xml:id="畿内">
-        <bloc> 畿内 </bloc>
+        <bloc>畿内</bloc>
         <desc>
           <label>解説準備中</label>
           <listNym>
             <nym>
               <form>
                 <orth type="漢字">畿内</orth>
+                <orth type="漢字">五畿内</orth>
                 <orth type="ひらがな">きない</orth>
+                <orth type="ひらがな">ごきない</orth>
                 <orth type="カタカナ">キナイ</orth>
+                <orth type="カタカナ">ゴキナイ</orth>
               </form>
             </nym>
           </listNym>
@@ -21366,246 +21369,2029 @@
             <nym>
               <form>
                 <orth type="校訂文">畿内</orth>
+                <orth type="現代語訳">畿内</orth>
+                <orth type="英訳">Kinai</orth>
               </form>
             </nym>
-          </listNym></desc>
+          </listNym>
+        </desc>
       </place>
       <place xml:id="七道">
-        <bloc> 七道 </bloc>
-      </place>
-      <place xml:id="東海道">
-        <bloc> 東海道 </bloc>
-      </place>
-      <place xml:id="東山道">
-        <bloc> 東山道 </bloc>
-      </place>
-      <place xml:id="北陸道">
-        <bloc> 北陸道 </bloc>
-      </place>
-      <place xml:id="山陰道">
-        <bloc> 山陰道 </bloc>
-      </place>
-      <place xml:id="山陽道">
-        <bloc> 山陽道 </bloc>
-      </place>
-      <place xml:id="南海道">
-        <bloc> 南海道 </bloc>
-      </place>
-      <place xml:id="西海道">
-        <bloc> 西海道 </bloc>
-      </place>
-      <!-- リンクが複数ある場合はエントリIDの若いものを入力 ・ 実際に使用する地図データは要件等 -->
-      <place type="上国" xml:id="山城国">
-        <region ref="https://geolod.ex.nii.ac.jp/resource/WaieY7"> 山城国 </region>
-      </place>
-      <place type="大国" xml:id="大和国">
-        <region ref="https://geolod.ex.nii.ac.jp/resource/pUkuwc"> 大和国 </region>
-      </place>
-      <place type="大国" xml:id="河内国">
-        <region ref="https://geolod.ex.nii.ac.jp/resource/3WgGQa"> 河内国 </region>
-      </place>
-      <place type="下国" xml:id="和泉国">
-        <region ref="https://geolod.ex.nii.ac.jp/resource/kwewYK"> 和泉国 </region>
-      </place>
-      <place type="上国" xml:id="摂津国">
-        <region ref="https://geolod.ex.nii.ac.jp/resource/j6aiSB"> 摂津国 </region>
-      </place>
-      <place subtype="近国" type="下国" xml:id="伊賀国">
-        <region ref="https://geolod.ex.nii.ac.jp/resource/eg2unf"> 伊賀国 </region>
-      </place>
-      <place subtype="近国" type="大国" xml:id="伊勢国">
-        <region ref="https://geolod.ex.nii.ac.jp/resource/eIOu6h"> 伊勢国 </region>
-      </place>
-      <place subtype="近国" type="下国" xml:id="志摩国">
-        <region ref="https://geolod.ex.nii.ac.jp/resource/xUIWKf"> 志摩国 </region>
-      </place>
-      <place subtype="近国" type="上国" xml:id="尾張国">
-        <region ref="https://geolod.ex.nii.ac.jp/resource/QwaNqL"> 尾張国 </region>
-      </place>
-      <place subtype="近国" type="上国" xml:id="参河国">
-        <region ref="https://geolod.ex.nii.ac.jp/resource/YYokiP"> 参河国 </region>
-      </place>
-      <place subtype="中国" type="上国" xml:id="遠江国">
-        <region ref="https://geolod.ex.nii.ac.jp/resource/Feu28N"> 遠江国 </region>
-      </place>
-      <place subtype="中国" type="上国" xml:id="駿河国">
-        <region ref="https://geolod.ex.nii.ac.jp/resource/riOuab"> 駿河国 </region>
-      </place>
-      <place subtype="中国" type="下国" xml:id="伊豆国">
-        <region ref="https://geolod.ex.nii.ac.jp/resource/fWWkNl"> 伊豆国 </region>
-      </place>
-      <place subtype="中国" type="上国" xml:id="甲斐国">
-        <region ref="https://geolod.ex.nii.ac.jp/resource/qoieEc"> 甲斐国 </region>
-      </place>
-      <place subtype="遠国" type="上国" xml:id="相摸国">
-        <region ref="https://geolod.ex.nii.ac.jp/resource/pE04ep"> 相摸国 </region>
-      </place>
-      <place subtype="遠国" type="大国" xml:id="武蔵国">
-        <region ref="https://geolod.ex.nii.ac.jp/resource/wiIIIC"> 武蔵国 </region>
-      </place>
-      <place subtype="遠国" type="中国" xml:id="安房国">
-        <region ref="https://geolod.ex.nii.ac.jp/resource/aCCKU6"> 安房国 </region>
-      </place>
-      <place subtype="遠国" type="大国" xml:id="上総国">
-        <region ref="https://geolod.ex.nii.ac.jp/resource/hyU2Aa"> 上総国 </region>
-      </place>
-      <place subtype="遠国" type="大国" xml:id="下総国">
-        <region ref="https://geolod.ex.nii.ac.jp/resource/ZEnAGb"> 下総国 </region>
-      </place>
-      <place subtype="遠国" type="大国" xml:id="常陸国">
-        <region ref="https://geolod.ex.nii.ac.jp/resource/AEWCeT"> 常陸国 </region>
-      </place>
-      <place subtype="近国" type="大国" xml:id="近江国">
-        <region ref="https://geolod.ex.nii.ac.jp/resource/Fua2nr"> 近江国 </region>
-      </place>
-      <place subtype="近国" type="上国" xml:id="美濃国">
-        <region ref="https://geolod.ex.nii.ac.jp/resource/UOeUAg"> 美濃国 </region>
-      </place>
-      <place subtype="中国" type="下国" xml:id="飛騨国">
-        <region ref="https://geolod.ex.nii.ac.jp/resource/baoc6l"> 飛騨国 </region>
-      </place>
-      <place subtype="中国" type="上国" xml:id="信濃国">
-        <region ref="https://geolod.ex.nii.ac.jp/resource/FwGuYK"> 信濃国 </region>
-      </place>
-      <place subtype="遠国" type="大国" xml:id="上野国">
-        <region ref="https://geolod.ex.nii.ac.jp/resource/YQ22WF"> 上野国 </region>
-      </place>
-      <place subtype="遠国" type="上国" xml:id="下野国">
-        <region ref="https://geolod.ex.nii.ac.jp/resource/skgWoo"> 下野国 </region>
-      </place>
-      <place subtype="遠国" type="大国" xml:id="陸奥国">
-        <region ref="https://geolod.ex.nii.ac.jp/resource/LqiONA"> 陸奥国 </region>
-      </place>
-      <place subtype="遠国" type="上国" xml:id="出羽国">
-        <region ref="https://geolod.ex.nii.ac.jp/resource/SUWaKN"> 出羽国 </region>
-      </place>
-      <place subtype="近国" type="中国" xml:id="若狭国">
-        <region ref="https://geolod.ex.nii.ac.jp/resource/r4gnkW"> 若狭国 </region>
-      </place>
-      <place subtype="中国" type="大国" xml:id="越前国">
-        <region ref="https://geolod.ex.nii.ac.jp/resource/4QOYCz"> 越前国 </region>
-      </place>
-      <place subtype="中国" type="上国" xml:id="加賀国">
-        <region ref="https://geolod.ex.nii.ac.jp/resource/Z6ki6D"> 加賀国 </region>
-      </place>
-      <place subtype="中国" type="中国" xml:id="能登国">
-        <region ref="https://geolod.ex.nii.ac.jp/resource/10036435"> 能登国 </region>
-      </place>
-      <place subtype="中国" type="上国" xml:id="越中国">
-        <region ref="https://geolod.ex.nii.ac.jp/resource/nOsweP"> 越中国 </region>
-      </place>
-      <place subtype="遠国" type="上国" xml:id="越後国">
-        <region ref="https://geolod.ex.nii.ac.jp/resource/SniWOJ"> 越後国 </region>
-      </place>
-      <place subtype="遠国" type="中国" xml:id="佐渡国">
-        <region ref="https://geolod.ex.nii.ac.jp/resource/AuN6cN"> 佐渡国 </region>
-      </place>
-      <place subtype="近国" type="上国" xml:id="丹波国">
-        <region ref="https://geolod.ex.nii.ac.jp/resource/1O6wn3"> 丹波国 </region>
-      </place>
-      <place subtype="近国" type="中国" xml:id="丹後国">
-        <region ref="https://geolod.ex.nii.ac.jp/resource/bC64Cx"> 丹後国 </region>
-      </place>
-      <place subtype="近国" type="上国" xml:id="但馬国">
-        <region ref="https://geolod.ex.nii.ac.jp/resource/enW2Sh"> 但馬国 </region>
-      </place>
-      <place subtype="近国" type="上国" xml:id="因幡国">
-        <region ref="https://geolod.ex.nii.ac.jp/resource/IK42ew"> 因幡国 </region>
-      </place>
-      <place subtype="中国" type="上国" xml:id="伯耆国">
-        <region ref="https://geolod.ex.nii.ac.jp/resource/BQKC0S"> 伯耆国 </region>
-      </place>
-      <place subtype="中国" type="上国" xml:id="出雲国">
-        <region ref="https://geolod.ex.nii.ac.jp/resource/4A6uEg"> 出雲国 </region>
-      </place>
-      <place subtype="遠国" type="中国" xml:id="石見国">
-        <region ref="https://geolod.ex.nii.ac.jp/resource/dsoaUj"> 石見国 </region>
-      </place>
-      <place subtype="遠国" type="中国" xml:id="隠岐国">
-        <region ref="https://geolod.ex.nii.ac.jp/resource/nWOAwa"> 隠岐国 </region>
-      </place>
-      <place subtype="近国" type="大国" xml:id="播磨国">
-        <region ref="https://geolod.ex.nii.ac.jp/resource/Q2IKG1"> 播磨国 </region>
-      </place>
-      <place subtype="近国" type="上国" xml:id="美作国">
-        <region ref="https://geolod.ex.nii.ac.jp/resource/ZO6wGB"> 美作国 </region>
-      </place>
-      <place subtype="近国" type="上国" xml:id="備前国">
-        <region ref="https://geolod.ex.nii.ac.jp/resource/NGn2YM"> 備前国 </region>
-      </place>
-      <place subtype="中国" type="上国" xml:id="備中国">
-        <region ref="https://geolod.ex.nii.ac.jp/resource/2eEIa9"> 備中国 </region>
-      </place>
-      <place subtype="中国" type="上国" xml:id="備後国">
-        <region ref="https://geolod.ex.nii.ac.jp/resource/QNAsip"> 備後国 </region>
-      </place>
-      <place subtype="遠国" type="上国" xml:id="安芸国">
-        <region ref="https://geolod.ex.nii.ac.jp/resource/O0OSil"> 安芸国 </region>
-      </place>
-      <place subtype="遠国" type="上国" xml:id="周防国">
-        <region ref="https://geolod.ex.nii.ac.jp/resource/KenquX"> 周防国 </region>
-      </place>
-      <place subtype="遠国" type="中国" xml:id="長門国">
-        <region ref="https://geolod.ex.nii.ac.jp/resource/I6IGOj"> 長門国 </region>
-      </place>
-      <place subtype="近国" type="上国" xml:id="紀伊国">
-        <region ref="https://geolod.ex.nii.ac.jp/resource/OEUa2Z"> 紀伊国 </region>
-      </place>
-      <place subtype="近国" type="下国" xml:id="淡路国">
-        <region ref="https://geolod.ex.nii.ac.jp/resource/IseOSN"> 淡路国 </region>
-      </place>
-      <place subtype="中国" type="上国" xml:id="阿波国">
-        <region ref="https://geolod.ex.nii.ac.jp/resource/uWckQb"> 阿波国 </region>
-      </place>
-      <place subtype="中国" type="上国" xml:id="讃岐国">
-        <region ref="https://geolod.ex.nii.ac.jp/resource/AqCAcI"> 讃岐国 </region>
-      </place>
-      <place subtype="遠国" type="上国" xml:id="伊予国">
-        <region ref="https://geolod.ex.nii.ac.jp/resource/O2q8Sh"> 伊予国 </region>
-      </place>
-      <place subtype="遠国" type="中国" xml:id="土佐国">
-        <region ref="https://geolod.ex.nii.ac.jp/resource/5ENUaB"> 土佐国 </region>
-      </place>
-      <place subtype="遠国" type="上国" xml:id="筑前国">
-        <region ref="https://geolod.ex.nii.ac.jp/resource/IiSOQc"> 筑前国 </region>
-      </place>
-      <place subtype="遠国" type="上国" xml:id="筑後国">
-        <region ref="https://geolod.ex.nii.ac.jp/resource/WS4OSR"> 筑後国 </region>
-      </place>
-      <place subtype="遠国" type="上国" xml:id="豊前国">
-        <region ref="https://geolod.ex.nii.ac.jp/resource/DWkSEU"> 豊前国 </region>
-      </place>
-      <place subtype="遠国" type="上国" xml:id="豊後国">
-        <region ref="https://geolod.ex.nii.ac.jp/resource/gn8COr"> 豊後国 </region>
-      </place>
-      <place subtype="遠国" type="上国" xml:id="肥前国">
-        <region ref="https://geolod.ex.nii.ac.jp/resource/GsYo6m"> 肥前国 </region>
-      </place>
-      <place subtype="遠国" type="大国" xml:id="肥後国">
-        <region ref="https://geolod.ex.nii.ac.jp/resource/jaiYoI"> 肥後国 </region>
-      </place>
-      <place subtype="遠国" type="中国" xml:id="日向国">
-        <region ref="https://geolod.ex.nii.ac.jp/resource/R0KY4W"> 日向国 </region>
-      </place>
-      <place subtype="遠国" type="中国" xml:id="大隅国">
-        <region ref="https://geolod.ex.nii.ac.jp/resource/NE4cCX"> 大隅国 </region>
-      </place>
-      <place subtype="遠国" type="中国" xml:id="薩摩国">
-        <region ref="https://geolod.ex.nii.ac.jp/resource/O4Y6er"> 薩摩国 </region>
-      </place>
-      <place subtype="遠国" type="下国" xml:id="壱岐島">
-        <region ref="https://geolod.ex.nii.ac.jp/resource/MiucUJ"> 壱岐島 </region>
+        <bloc>七道</bloc>
         <desc>
           <label>解説準備中</label>
           <listNym>
             <nym>
               <form>
-                <orth type="漢字">壱岐島</orth>
+                <orth type="漢字">七道</orth>
+                <orth type="ひらがな">しちどう</orth>
+                <orth type="カタカナ">シチドウ</orth>
+              </form>
+            </nym>
+          </listNym>
+          <listNym>
+            <nym>
+              <form>
+                <orth type="校訂文">七道</orth>
+                <orth type="現代語訳">七道</orth>
+              </form>
+            </nym>
+          </listNym>
+        </desc>
+      </place>
+      <place xml:id="東海道">
+        <bloc>東海道</bloc>
+        <desc>
+          <label>解説準備中</label>
+          <listNym>
+            <nym>
+              <form>
+                <orth type="漢字">東海道</orth>
+                <orth type="漢字">東海</orth>
+                <orth type="ひらがな">とうかいどう</orth>
+                <orth type="ひらがな">とうかい</orth>
+                <orth type="カタカナ">トウカイドウ</orth>
+                <orth type="カタカナ">トウカイ</orth>
+              </form>
+            </nym>
+          </listNym>
+          <listNym>
+            <nym>
+              <form>
+                <orth type="校訂文">東海道</orth>
+                <orth type="現代語訳">東海道</orth>
+                <orth type="英訳">Tōkaidō (Eastern sea circuit)</orth>
+              </form>
+            </nym>
+          </listNym>
+        </desc>
+      </place>
+      <place xml:id="東山道">
+        <bloc>東山道</bloc>
+        <desc>
+          <label>解説準備中</label>
+          <listNym>
+            <nym>
+              <form>
+                <orth type="漢字">東山道</orth>
+                <orth type="漢字">東山</orth>
+                <orth type="ひらがな">とうさんどう</orth>
+                <orth type="ひらがな">とうさん</orth>
+                <orth type="カタカナ">トウサンドウ</orth>
+                <orth type="カタカナ">トウサン</orth>
+              </form>
+            </nym>
+          </listNym>
+          <listNym>
+            <nym>
+              <form>
+                <orth type="校訂文">東山道</orth>
+                <orth type="現代語訳">東山道</orth>
+                <orth type="英訳">Tōsandō (Eastern mountain circuit)</orth>
+              </form>
+            </nym>
+          </listNym>
+        </desc>
+      </place>
+      <place xml:id="北陸道">
+        <bloc>北陸道</bloc>
+        <desc>
+          <label>解説準備中</label>
+          <listNym>
+            <nym>
+              <form>
+                <orth type="漢字">北陸道</orth>
+                <orth type="漢字">北陸</orth>
+                <orth type="ひらがな">ほくりくどう</orth>
+                <orth type="ひらがな">ほくりく</orth>
+                <orth type="カタカナ">ホクリクドウ</orth>
+                <orth type="カタカナ">ホクリク</orth>
+              </form>
+            </nym>
+          </listNym>
+          <listNym>
+            <nym>
+              <form>
+                <orth type="校訂文">北陸道</orth>
+                <orth type="現代語訳">北陸道</orth>
+                <orth type="英訳">Hokurikudō (Northern land circuit)</orth>
+              </form>
+            </nym>
+          </listNym>
+        </desc>
+      </place>
+      <place xml:id="山陰道">
+        <bloc>山陰道</bloc>
+        <desc>
+          <label>解説準備中</label>
+          <listNym>
+            <nym>
+              <form>
+                <orth type="漢字">山陰道</orth>
+                <orth type="漢字">山陰</orth>
+                <orth type="ひらがな">さんいんどう</orth>
+                <orth type="ひらがな">さんいん</orth>
+                <orth type="カタカナ">サンインドウ</orth>
+                <orth type="カタカナ">サンイン</orth>
+              </form>
+            </nym>
+          </listNym>
+          <listNym>
+            <nym>
+              <form>
+                <orth type="校訂文">山陰道</orth>
+                <orth type="現代語訳">山陰道</orth>
+                <orth type="英訳">San'indō (Shady-side mountain circuit)</orth>
+              </form>
+            </nym>
+          </listNym>
+        </desc>
+      </place>
+      <place xml:id="山陽道">
+        <bloc>山陽道</bloc>
+        <desc>
+          <label>解説準備中</label>
+          <listNym>
+            <nym>
+              <form>
+                <orth type="漢字">山陽道</orth>
+                <orth type="漢字">山陽</orth>
+                <orth type="ひらがな">さんようどう</orth>
+                <orth type="ひらがな">さんよう</orth>
+                <orth type="カタカナ">サンヨウドウ</orth>
+                <orth type="カタカナ">サンヨウ</orth>
+              </form>
+            </nym>
+          </listNym>
+          <listNym>
+            <nym>
+              <form>
+                <orth type="校訂文">山陽道</orth>
+                <orth type="現代語訳">山陽道</orth>
+                <orth type="英訳">San'yōdō (Mountain sunny-side circuit)</orth>
+              </form>
+            </nym>
+          </listNym>
+        </desc>
+      </place>
+      <place xml:id="南海道">
+        <bloc>南海道</bloc>
+        <desc>
+          <label>解説準備中</label>
+          <listNym>
+            <nym>
+              <form>
+                <orth type="漢字">南海道</orth>
+                <orth type="漢字">南海</orth>
+                <orth type="ひらがな">なんかいどう</orth>
+                <orth type="ひらがな">なんかい</orth>
+                <orth type="カタカナ">ナンカイドウ</orth>
+                <orth type="カタカナ">ナンカイ</orth>
+              </form>
+            </nym>
+          </listNym>
+          <listNym>
+            <nym>
+              <form>
+                <orth type="校訂文">南海道</orth>
+                <orth type="校訂文">南海</orth>
+                <orth type="現代語訳">南海道</orth>
+                <orth type="現代語訳">南海</orth>
+                <orth type="英訳">Nankaidō (Souther sea circuit)</orth>
+              </form>
+            </nym>
+          </listNym>
+        </desc>
+      </place>
+      <place xml:id="西海道">
+        <bloc>西海道</bloc>
+        <desc>
+          <label>解説準備中</label>
+          <listNym>
+            <nym>
+              <form>
+                <orth type="漢字">西海道</orth>
+                <orth type="漢字">西海</orth>
+                <orth type="ひらがな">さいかいどう</orth>
+                <orth type="ひらがな">さいかい</orth>
+                <orth type="カタカナ">サイカイドウ</orth>
+                <orth type="カタカナ">サイカイ</orth>
+              </form>
+            </nym>
+          </listNym>
+          <listNym>
+            <nym>
+              <form>
+                <orth type="校訂文">西海道</orth>
+                <orth type="校訂文">西海</orth>
+                <orth type="現代語訳">西海道</orth>
+                <orth type="現代語訳">西海</orth>
+                <orth type="英訳">Saikaidō (Western sea circuit)</orth>
+              </form>
+            </nym>
+          </listNym>
+        </desc>
+      </place>
+      <!-- リンクが複数ある場合はエントリIDの若いものを入力 ・ 実際に使用する地図データは要検討 -->
+      <place xml:id="山城国" type="上国">
+        <region ref="https://geolod.ex.nii.ac.jp/resource/WaieY7">山城国</region>
+        <desc>
+          <label>解説準備中</label>
+          <listNym>
+            <nym>
+              <form>
+                <orth type="漢字">山城国</orth>
+                <orth type="漢字">山城</orth>
+                <orth type="漢字">山背国</orth>
+                <orth type="漢字">山背</orth>
+                <orth type="ひらがな">やましろのくに</orth>
+                <orth type="ひらがな">やましろ</orth>
+                <orth type="カタカナ">ヤマシロノクニ</orth>
+                <orth type="カタカナ">ヤマシロ</orth>
+              </form>
+            </nym>
+          </listNym>
+          <listNym>
+            <nym>
+              <form>
+                <orth type="校訂文">山城国</orth>
+                <orth type="校訂文">山城</orth>
+                <orth type="現代語訳">山城国</orth>
+                <orth type="現代語訳">山城</orth>
+                <orth type="英訳">Yamashiro Province</orth>
+                <orth type="英訳">Yamashiro</orth>
+              </form>
+            </nym>
+          </listNym>
+        </desc>
+      </place>
+      <place xml:id="大和国" type="大国">
+        <region ref="https://geolod.ex.nii.ac.jp/resource/pUkuwc">大和国</region>
+        <desc>
+          <label>解説準備中</label>
+          <listNym>
+            <nym>
+              <form>
+                <orth type="漢字">大和国</orth>
+                <orth type="漢字">大和</orth>
+                <orth type="ひらがな">やまとのくに</orth>
+                <orth type="ひらがな">やまと</orth>
+                <orth type="カタカナ">ヤマトノクニ</orth>
+                <orth type="カタカナ">ヤマト</orth>
+              </form>
+            </nym>
+          </listNym>
+          <listNym>
+            <nym>
+              <form>
+                <orth type="校訂文">大和国</orth>
+                <orth type="校訂文">大和</orth>
+                <orth type="現代語訳">大和国</orth>
+                <orth type="現代語訳">大和</orth>
+                <orth type="英訳">Yamato Province</orth>
+                <orth type="英訳">Yamato</orth>
+              </form>
+            </nym>
+          </listNym>
+        </desc>
+      </place>
+      <place xml:id="河内国" type="大国">
+        <region ref="https://geolod.ex.nii.ac.jp/resource/3WgGQa">河内国</region>
+        <desc>
+          <label>解説準備中</label>
+          <listNym>
+            <nym>
+              <form>
+                <orth type="漢字">河内国</orth>
+                <orth type="漢字">河内</orth>
+                <orth type="ひらがな">かわちのくに</orth>
+                <orth type="ひらがな">こうち</orth>
+                <orth type="カタカナ">カワチノクニ</orth>
+                <orth type="カタカナ">コウチ</orth>
+              </form>
+            </nym>
+          </listNym>
+          <listNym>
+            <nym>
+              <form>
+                <orth type="校訂文">河内国</orth>
+                <orth type="校訂文">河内</orth>
+                <orth type="現代語訳">河内国</orth>
+                <orth type="現代語訳">河内</orth>
+                <orth type="英訳">Kawachi Province</orth>
+                <orth type="英訳">Kawachi</orth>
+              </form>
+            </nym>
+          </listNym>
+        </desc>
+      </place>
+      <place xml:id="和泉国" type="下国">
+        <region ref="https://geolod.ex.nii.ac.jp/resource/kwewYK">和泉国</region>
+        <desc>
+          <label>解説準備中</label>
+          <listNym>
+            <nym>
+              <form>
+                <orth type="漢字">和泉国</orth>
+                <orth type="漢字">和泉</orth>
+                <orth type="ひらがな">いずみのくに</orth>
+                <orth type="ひらがな">いずみ</orth>
+                <orth type="カタカナ">イズミノクニ</orth>
+                <orth type="カタカナ">イズミ</orth>
+              </form>
+            </nym>
+          </listNym>
+          <listNym>
+            <nym>
+              <form>
+                <orth type="校訂文">和泉国</orth>
+                <orth type="校訂文">和泉</orth>
+                <orth type="現代語訳">和泉国</orth>
+                <orth type="現代語訳">和泉</orth>
+                <orth type="英訳">Izumi Province</orth>
+                <orth type="英訳">Izumi</orth>
+              </form>
+            </nym>
+          </listNym>
+        </desc>
+      </place>
+      <place xml:id="摂津国" type="上国">
+        <region ref="https://geolod.ex.nii.ac.jp/resource/j6aiSB">摂津国</region>
+        <desc>
+          <label>解説準備中</label>
+          <listNym>
+            <nym>
+              <form>
+                <orth type="漢字">摂津国</orth>
+                <orth type="漢字">摂津</orth>
+                <orth type="ひらがな">せっつのくに</orth>
+                <orth type="ひらがな">せっつ</orth>
+                <orth type="カタカナ">セッツノクニ</orth>
+                <orth type="カタカナ">セッツ</orth>
+              </form>
+            </nym>
+          </listNym>
+          <listNym>
+            <nym>
+              <form>
+                <orth type="校訂文">摂津国</orth>
+                <orth type="校訂文">摂津</orth>
+                <orth type="現代語訳">摂津国</orth>
+                <orth type="現代語訳">摂津</orth>
+                <orth type="英訳">Settsu Province</orth>
+                <orth type="英訳">Settsu</orth>
+              </form>
+            </nym>
+          </listNym>
+        </desc>
+      </place>
+      <place xml:id="伊賀国" type="下国" subtype="近国">
+        <region ref="https://geolod.ex.nii.ac.jp/resource/eg2unf">伊賀国</region>
+        <desc>
+          <label>解説準備中</label>
+          <listNym>
+            <nym>
+              <form>
+                <orth type="漢字">伊賀国</orth>
+                <orth type="漢字">伊賀</orth>
+                <orth type="ひらがな">いがのくに</orth>
+                <orth type="ひらがな">いが</orth>
+                <orth type="カタカナ">イガノクニ</orth>
+                <orth type="カタカナ">イガ</orth>
+              </form>
+            </nym>
+          </listNym>
+          <listNym>
+            <nym>
+              <form>
+                <orth type="校訂文">伊賀国</orth>
+                <orth type="現代語訳">伊賀国</orth>
+                <orth type="英訳">Iga Province</orth>
+              </form>
+            </nym>
+          </listNym>
+        </desc>
+      </place>
+      <place xml:id="伊勢国" type="大国" subtype="近国">
+        <region ref="https://geolod.ex.nii.ac.jp/resource/eIOu6h">伊勢国</region>
+        <desc>
+          <label>解説準備中</label>
+          <listNym>
+            <nym>
+              <form>
+                <orth type="漢字">伊勢国</orth>
+                <orth type="漢字">伊勢</orth>
+                <orth type="ひらがな">いせのくに</orth>
+                <orth type="ひらがな">いせ</orth>
+                <orth type="カタカナ">イセノクニ</orth>
+                <orth type="カタカナ">イセ</orth>
+              </form>
+            </nym>
+          </listNym>
+          <listNym>
+            <nym>
+              <form>
+                <orth type="校訂文">伊勢国</orth>
+                <orth type="現代語訳">伊勢国</orth>
+                <orth type="英訳">Ise Province</orth>
+              </form>
+            </nym>
+          </listNym>
+        </desc>
+      </place>
+      <place xml:id="志摩国" type="下国" subtype="近国">
+        <region ref="https://geolod.ex.nii.ac.jp/resource/xUIWKf">志摩国</region>
+        <desc>
+          <label>解説準備中</label>
+          <listNym>
+            <nym>
+              <form>
+                <orth type="漢字">志摩国</orth>
+                <orth type="漢字">志摩</orth>
+                <orth type="ひらがな">しまのくに</orth>
+                <orth type="ひらがな">しま</orth>
+                <orth type="カタカナ">シマノクニ</orth>
+                <orth type="カタカナ">シマ</orth>
+              </form>
+            </nym>
+          </listNym>
+          <listNym>
+            <nym>
+              <form>
+                <orth type="校訂文">志摩国</orth>
+                <orth type="現代語訳">志摩国</orth>
+                <orth type="英訳">Shima Province</orth>
+              </form>
+            </nym>
+          </listNym>
+        </desc>
+      </place>
+      <place xml:id="尾張国" type="上国" subtype="近国">
+        <region ref="https://geolod.ex.nii.ac.jp/resource/QwaNqL">尾張国</region>
+        <desc>
+          <label>解説準備中</label>
+          <listNym>
+            <nym>
+              <form>
+                <orth type="漢字">尾張国</orth>
+                <orth type="漢字">尾張</orth>
+                <orth type="ひらがな">おわりのくに</orth>
+                <orth type="ひらがな">おわり</orth>
+                <orth type="カタカナ">オワリノクニ</orth>
+                <orth type="カタカナ">オワリ</orth>
+              </form>
+            </nym>
+          </listNym>
+          <listNym>
+            <nym>
+              <form>
+                <orth type="校訂文">尾張国</orth>
+                <orth type="現代語訳">尾張国</orth>
+                <orth type="英訳">Owari Province</orth>
+              </form>
+            </nym>
+          </listNym>
+        </desc>
+      </place>
+      <place xml:id="参河国" type="上国" subtype="近国">
+        <region ref="https://geolod.ex.nii.ac.jp/resource/YYokiP">参河国</region>
+        <desc>
+          <label>解説準備中</label>
+          <listNym>
+            <nym>
+              <form>
+                <orth type="漢字">参河国</orth>
+                <orth type="漢字">参河</orth>
+                <orth type="漢字">三河国</orth>
+                <orth type="漢字">三河</orth>
+                <orth type="ひらがな">みかわのくに</orth>
+                <orth type="ひらがな">みかわ</orth>
+                <orth type="カタカナ">ミカワノクニ</orth>
+                <orth type="カタカナ">ミカワ</orth>
+              </form>
+            </nym>
+          </listNym>
+          <listNym>
+            <nym>
+              <form>
+                <orth type="校訂文">参河国</orth>
+                <orth type="現代語訳">参河国</orth>
+                <orth type="現代語訳">参河</orth>
+                <orth type="現代語訳">三河国</orth>
+                <orth type="英訳">Mikawa Province</orth>
+              </form>
+            </nym>
+          </listNym>
+        </desc>
+      </place>
+      <place xml:id="遠江国" type="上国" subtype="中国">
+        <region ref="https://geolod.ex.nii.ac.jp/resource/Feu28N">遠江国</region>
+        <desc>
+          <label>解説準備中</label>
+          <listNym>
+            <nym>
+              <form>
+                <orth type="漢字">遠江国</orth>
+                <orth type="漢字">遠江</orth>
+                <orth type="ひらがな">とおとうみのくに</orth>
+                <orth type="ひらがな">とおとうみ</orth>
+                <orth type="カタカナ">トオトウミノクニ</orth>
+                <orth type="カタカナ">トオトウミ</orth>
+              </form>
+            </nym>
+          </listNym>
+          <listNym>
+            <nym>
+              <form>
+                <orth type="校訂文">遠江国</orth>
+                <orth type="現代語訳">遠江国</orth>
+                <orth type="英訳">Tootōmi Province</orth>
+                <orth type="英訳">Tōtōmi Province</orth>
+              </form>
+            </nym>
+          </listNym>
+        </desc>
+      </place>
+      <place xml:id="駿河国" type="上国" subtype="中国">
+        <region ref="https://geolod.ex.nii.ac.jp/resource/riOuab">駿河国</region>
+        <desc>
+          <label>解説準備中</label>
+          <listNym>
+            <nym>
+              <form>
+                <orth type="漢字">駿河国</orth>
+                <orth type="漢字">駿河</orth>
+                <orth type="ひらがな">するがのくに</orth>
+                <orth type="ひらがな">するが</orth>
+                <orth type="カタカナ">スルガノクニ</orth>
+                <orth type="カタカナ">スルガ</orth>
+              </form>
+            </nym>
+          </listNym>
+          <listNym>
+            <nym>
+              <form>
+                <orth type="校訂文">駿河国</orth>
+                <orth type="現代語訳">駿河国</orth>
+                <orth type="英訳">Suruga Province</orth>
+              </form>
+            </nym>
+          </listNym>
+        </desc>
+      </place>
+      <place xml:id="伊豆国" type="下国" subtype="中国">
+        <region ref="https://geolod.ex.nii.ac.jp/resource/fWWkNl">伊豆国</region>
+        <desc>
+          <label>解説準備中</label>
+          <listNym>
+            <nym>
+              <form>
+                <orth type="漢字">伊豆国</orth>
+                <orth type="漢字">伊豆</orth>
+                <orth type="ひらがな">いずのくに</orth>
+                <orth type="ひらがな">いず</orth>
+                <orth type="カタカナ">イズノクニ</orth>
+                <orth type="カタカナ">イズ</orth>
+              </form>
+            </nym>
+          </listNym>
+          <listNym>
+            <nym>
+              <form>
+                <orth type="校訂文">伊豆国</orth>
+                <orth type="現代語訳">伊豆国</orth>
+                <orth type="英訳">Izu Province</orth>
+              </form>
+            </nym>
+          </listNym>
+        </desc>
+      </place>
+      <place xml:id="甲斐国" type="上国" subtype="中国">
+        <region ref="https://geolod.ex.nii.ac.jp/resource/qoieEc">甲斐国</region>
+        <desc>
+          <label>解説準備中</label>
+          <listNym>
+            <nym>
+              <form>
+                <orth type="漢字">甲斐国</orth>
+                <orth type="漢字">甲斐</orth>
+                <orth type="ひらがな">かいのくに</orth>
+                <orth type="ひらがな">かい</orth>
+                <orth type="カタカナ">カイノクニ</orth>
+                <orth type="カタカナ">カイ</orth>
+              </form>
+            </nym>
+          </listNym>
+          <listNym>
+            <nym>
+              <form>
+                <orth type="校訂文">甲斐国</orth>
+                <orth type="現代語訳">甲斐国</orth>
+                <orth type="英訳">Kai Province</orth>
+              </form>
+            </nym>
+          </listNym>
+        </desc>
+      </place>
+      <place xml:id="相摸国" type="上国" subtype="遠国">
+        <region ref="https://geolod.ex.nii.ac.jp/resource/pE04ep">相摸国</region>
+        <desc>
+          <label>解説準備中</label>
+          <listNym>
+            <nym>
+              <form>
+                <orth type="漢字">相摸国</orth>
+                <orth type="漢字">相摸</orth>
+                <orth type="ひらがな">さがみのくに</orth>
+                <orth type="ひらがな">さがみ</orth>
+                <orth type="カタカナ">サガミノクニ</orth>
+                <orth type="カタカナ">サガミ</orth>
+              </form>
+            </nym>
+          </listNym>
+          <listNym>
+            <nym>
+              <form>
+                <orth type="校訂文">相摸国</orth>
+                <orth type="現代語訳">相摸国</orth>
+                <orth type="英訳">Sagami Province</orth>
+              </form>
+            </nym>
+          </listNym>
+        </desc>
+      </place>
+      <place xml:id="武蔵国" type="大国" subtype="遠国">
+        <region ref="https://geolod.ex.nii.ac.jp/resource/wiIIIC">武蔵国</region>
+        <desc>
+          <label>解説準備中</label>
+          <listNym>
+            <nym>
+              <form>
+                <orth type="漢字">武蔵国</orth>
+                <orth type="漢字">武蔵</orth>
+                <orth type="ひらがな">むさしのくに</orth>
+                <orth type="ひらがな">むさし</orth>
+                <orth type="カタカナ">ムサシノクニ</orth>
+                <orth type="カタカナ">ムサシ</orth>
+              </form>
+            </nym>
+          </listNym>
+          <listNym>
+            <nym>
+              <form>
+                <orth type="校訂文">武蔵国</orth>
+                <orth type="現代語訳">武蔵国</orth>
+                <orth type="英訳">Musashi Province</orth>
+              </form>
+            </nym>
+          </listNym>
+        </desc>
+      </place>
+      <place xml:id="安房国" type="中国" subtype="遠国">
+        <region ref="https://geolod.ex.nii.ac.jp/resource/aCCKU6">安房国</region>
+        <desc>
+          <label>解説準備中</label>
+          <listNym>
+            <nym>
+              <form>
+                <orth type="漢字">安房国</orth>
+                <orth type="漢字">安房</orth>
+                <orth type="ひらがな">あわのくに</orth>
+                <orth type="ひらがな">あわ</orth>
+                <orth type="カタカナ">アワノクニ</orth>
+                <orth type="カタカナ">アワ</orth>
+              </form>
+            </nym>
+          </listNym>
+          <listNym>
+            <nym>
+              <form>
+                <orth type="校訂文">安房国</orth>
+                <orth type="現代語訳">安房国</orth>
+                <orth type="英訳">Awa Province</orth>
+              </form>
+            </nym>
+          </listNym>
+        </desc>
+      </place>
+      <place xml:id="上総国" type="大国" subtype="遠国">
+        <region ref="https://geolod.ex.nii.ac.jp/resource/hyU2Aa">上総国</region>
+        <desc>
+          <label>解説準備中</label>
+          <listNym>
+            <nym>
+              <form>
+                <orth type="漢字">上総国</orth>
+                <orth type="漢字">上総</orth>
+                <orth type="ひらがな">かずさのくに</orth>
+                <orth type="ひらがな">かずさ</orth>
+                <orth type="カタカナ">カズサノクニ</orth>
+                <orth type="カタカナ">カズサ</orth>
+              </form>
+            </nym>
+          </listNym>
+          <listNym>
+            <nym>
+              <form>
+                <orth type="校訂文">上総国</orth>
+                <orth type="現代語訳">上総国</orth>
+                <orth type="英訳">Kazusa Province</orth>
+              </form>
+            </nym>
+          </listNym>
+        </desc>
+      </place>
+      <place xml:id="下総国" type="大国" subtype="遠国">
+        <region ref="https://geolod.ex.nii.ac.jp/resource/ZEnAGb">下総国</region>
+        <desc>
+          <label>解説準備中</label>
+          <listNym>
+            <nym>
+              <form>
+                <orth type="漢字">下総国</orth>
+                <orth type="漢字">下総</orth>
+                <orth type="ひらがな">しもうさのくに</orth>
+                <orth type="ひらがな">しもうさ</orth>
+                <orth type="カタカナ">シモウサノクニ</orth>
+                <orth type="カタカナ">シモウサ</orth>
+              </form>
+            </nym>
+          </listNym>
+          <listNym>
+            <nym>
+              <form>
+                <orth type="校訂文">下総国</orth>
+                <orth type="現代語訳">下総国</orth>
+                <orth type="英訳">Shimōsa Province</orth>
+              </form>
+            </nym>
+          </listNym>
+        </desc>
+      </place>
+      <place xml:id="常陸国" type="大国" subtype="遠国">
+        <region ref="https://geolod.ex.nii.ac.jp/resource/AEWCeT">常陸国</region>
+        <desc>
+          <label>解説準備中</label>
+          <listNym>
+            <nym>
+              <form>
+                <orth type="漢字">常陸国</orth>
+                <orth type="漢字">常陸</orth>
+                <orth type="ひらがな">ひたちのくに</orth>
+                <orth type="ひらがな">ひたち</orth>
+                <orth type="カタカナ">ヒタチノクニ</orth>
+                <orth type="カタカナ">ヒタチ</orth>
+              </form>
+            </nym>
+          </listNym>
+          <listNym>
+            <nym>
+              <form>
+                <orth type="校訂文">常陸国</orth>
+                <orth type="現代語訳">常陸国</orth>
+                <orth type="英訳">Hitachi Province</orth>
+              </form>
+            </nym>
+          </listNym>
+        </desc>
+      </place>
+      <place xml:id="近江国" type="大国" subtype="近国">
+        <region ref="https://geolod.ex.nii.ac.jp/resource/Fua2nr">近江国</region>
+        <desc>
+          <label>解説準備中</label>
+          <listNym>
+            <nym>
+              <form>
+                <orth type="漢字">近江国</orth>
+                <orth type="漢字">近江</orth>
+                <orth type="ひらがな">おうみのくに</orth>
+                <orth type="ひらがな">おうみ</orth>
+                <orth type="カタカナ">オウミノクニ</orth>
+                <orth type="カタカナ">オウミ</orth>
+              </form>
+            </nym>
+          </listNym>
+          <listNym>
+            <nym>
+              <form>
+                <orth type="校訂文">近江国</orth>
+                <orth type="校訂文">近江</orth>
+                <orth type="現代語訳">近江国</orth>
+                <orth type="現代語訳">近江</orth>
+                <orth type="英訳">Ōmi Province</orth>
+                <orth type="英訳">Ōmi</orth>
+              </form>
+            </nym>
+          </listNym>
+        </desc>
+      </place>
+      <place xml:id="美濃国" type="上国" subtype="近国">
+        <region ref="https://geolod.ex.nii.ac.jp/resource/UOeUAg">美濃国</region>
+        <desc>
+          <label>解説準備中</label>
+          <listNym>
+            <nym>
+              <form>
+                <orth type="漢字">美濃国</orth>
+                <orth type="漢字">美濃</orth>
+                <orth type="ひらがな">みののくに</orth>
+                <orth type="ひらがな">みの</orth>
+                <orth type="カタカナ">ミノノクニ</orth>
+                <orth type="カタカナ">ミノ</orth>
+              </form>
+            </nym>
+          </listNym>
+          <listNym>
+            <nym>
+              <form>
+                <orth type="校訂文">美濃国</orth>
+                <orth type="現代語訳">美濃国</orth>
+                <orth type="英訳">Mino Province</orth>
+              </form>
+            </nym>
+          </listNym>
+        </desc>
+      </place>
+      <place xml:id="飛騨国" type="下国" subtype="中国">
+        <region ref="https://geolod.ex.nii.ac.jp/resource/baoc6l">飛騨国</region>
+        <desc>
+          <label>解説準備中</label>
+          <listNym>
+            <nym>
+              <form>
+                <orth type="漢字">飛騨国</orth>
+                <orth type="漢字">飛騨</orth>
+                <orth type="ひらがな">ひだのくに</orth>
+                <orth type="ひらがな">ひだ</orth>
+                <orth type="カタカナ">ヒダノクニ</orth>
+                <orth type="カタカナ">ヒダ</orth>
+              </form>
+            </nym>
+          </listNym>
+          <listNym>
+            <nym>
+              <form>
+                <orth type="校訂文">飛騨国</orth>
+                <orth type="現代語訳">飛騨国</orth>
+                <orth type="英訳">Hida Province</orth>
+              </form>
+            </nym>
+          </listNym>
+        </desc>
+      </place>
+      <place xml:id="信濃国" type="上国" subtype="中国">
+        <region ref="https://geolod.ex.nii.ac.jp/resource/FwGuYK">信濃国</region>
+        <desc>
+          <label>解説準備中</label>
+          <listNym>
+            <nym>
+              <form>
+                <orth type="漢字">信濃国</orth>
+                <orth type="漢字">信濃</orth>
+                <orth type="ひらがな">しなののくに</orth>
+                <orth type="ひらがな">しなの</orth>
+                <orth type="カタカナ">シナノノクニ</orth>
+                <orth type="カタカナ">シナノ</orth>
+              </form>
+            </nym>
+          </listNym>
+          <listNym>
+            <nym>
+              <form>
+                <orth type="校訂文">信濃国</orth>
+                <orth type="現代語訳">信濃国</orth>
+                <orth type="英訳">Shinano Province</orth>
+              </form>
+            </nym>
+          </listNym>
+        </desc>
+      </place>
+      <place xml:id="上野国" type="大国" subtype="遠国">
+        <region ref="https://geolod.ex.nii.ac.jp/resource/YQ22WF">上野国</region>
+        <desc>
+          <label>解説準備中</label>
+          <listNym>
+            <nym>
+              <form>
+                <orth type="漢字">上野国</orth>
+                <orth type="漢字">上野</orth>
+                <orth type="ひらがな">こうずけのくに</orth>
+                <orth type="ひらがな">こうずけ</orth>
+                <orth type="カタカナ">コウズケノクニ</orth>
+                <orth type="カタカナ">コウズケ</orth>
+              </form>
+            </nym>
+          </listNym>
+          <listNym>
+            <nym>
+              <form>
+                <orth type="校訂文">上野国</orth>
+                <orth type="現代語訳">上野国</orth>
+                <orth type="英訳">Kōzuke Province</orth>
+              </form>
+            </nym>
+          </listNym>
+        </desc>
+      </place>
+      <place xml:id="下野国" type="上国" subtype="遠国">
+        <region ref="https://geolod.ex.nii.ac.jp/resource/skgWoo">下野国</region>
+        <desc>
+          <label>解説準備中</label>
+          <listNym>
+            <nym>
+              <form>
+                <orth type="漢字">下野国</orth>
+                <orth type="漢字">下野</orth>
+                <orth type="ひらがな">しもつけのくに</orth>
+                <orth type="ひらがな">しもつけ</orth>
+                <orth type="カタカナ">シモツケノクニ</orth>
+                <orth type="カタカナ">シモツケ</orth>
+              </form>
+            </nym>
+          </listNym>
+          <listNym>
+            <nym>
+              <form>
+                <orth type="校訂文">下野国</orth>
+                <orth type="現代語訳">下野国</orth>
+                <orth type="英訳">Shimotsuke Province</orth>
+              </form>
+            </nym>
+          </listNym>
+        </desc>
+      </place>
+      <place xml:id="陸奥国" type="大国" subtype="遠国">
+        <region ref="https://geolod.ex.nii.ac.jp/resource/LqiONA">陸奥国</region>
+        <desc>
+          <label>解説準備中</label>
+          <listNym>
+            <nym>
+              <form>
+                <orth type="漢字">陸奥国</orth>
+                <orth type="漢字">陸奥</orth>
+                <orth type="ひらがな">むつのくに</orth>
+                <orth type="ひらがな">むつ</orth>
+                <orth type="カタカナ">ムツノクニ</orth>
+                <orth type="カタカナ">ムツ</orth>
+              </form>
+            </nym>
+          </listNym>
+          <listNym>
+            <nym>
+              <form>
+                <orth type="校訂文">陸奥国</orth>
+                <orth type="現代語訳">陸奥国</orth>
+                <orth type="英訳">Mutsu Province</orth>
+              </form>
+            </nym>
+          </listNym>
+        </desc>
+      </place>
+      <place xml:id="出羽国" type="上国" subtype="遠国">
+        <region ref="https://geolod.ex.nii.ac.jp/resource/SUWaKN">出羽国</region>
+        <desc>
+          <label>解説準備中</label>
+          <listNym>
+            <nym>
+              <form>
+                <orth type="漢字">出羽国</orth>
+                <orth type="漢字">出羽</orth>
+                <orth type="ひらがな">でわのくに</orth>
+                <orth type="ひらがな">でわ</orth>
+                <orth type="カタカナ">デワノクニ</orth>
+                <orth type="カタカナ">デワ</orth>
+              </form>
+            </nym>
+          </listNym>
+          <listNym>
+            <nym>
+              <form>
+                <orth type="校訂文">出羽国</orth>
+                <orth type="現代語訳">出羽国</orth>
+                <orth type="英訳">Dewa Province</orth>
+              </form>
+            </nym>
+          </listNym>
+        </desc>
+      </place>
+      <place xml:id="若狭国" type="中国" subtype="近国">
+        <region ref="https://geolod.ex.nii.ac.jp/resource/r4gnkW">若狭国</region>
+        <desc>
+          <label>解説準備中</label>
+          <listNym>
+            <nym>
+              <form>
+                <orth type="漢字">若狭国</orth>
+                <orth type="漢字">若狭</orth>
+                <orth type="ひらがな">わかさのくに</orth>
+                <orth type="ひらがな">わかさ</orth>
+                <orth type="カタカナ">ワカサノクニ</orth>
+                <orth type="カタカナ">ワカサ</orth>
+              </form>
+            </nym>
+          </listNym>
+          <listNym>
+            <nym>
+              <form>
+                <orth type="校訂文">若狭国</orth>
+                <orth type="現代語訳">若狭国</orth>
+                <orth type="英訳">Wakasa Province</orth>
+              </form>
+            </nym>
+          </listNym>
+        </desc>
+      </place>
+      <place xml:id="越前国" type="大国" subtype="中国">
+        <region ref="https://geolod.ex.nii.ac.jp/resource/4QOYCz">越前国</region>
+        <desc>
+          <label>解説準備中</label>
+          <listNym>
+            <nym>
+              <form>
+                <orth type="漢字">越前国</orth>
+                <orth type="漢字">越前</orth>
+                <orth type="ひらがな">えちぜんのくに</orth>
+                <orth type="ひらがな">えちぜん</orth>
+                <orth type="カタカナ">エチゼンノクニ</orth>
+                <orth type="カタカナ">エチゼン</orth>
+              </form>
+            </nym>
+          </listNym>
+          <listNym>
+            <nym>
+              <form>
+                <orth type="校訂文">越前国</orth>
+                <orth type="現代語訳">越前国</orth>
+                <orth type="英訳">Echizen Province</orth>
+              </form>
+            </nym>
+          </listNym>
+        </desc>
+      </place>
+      <place xml:id="加賀国" type="上国" subtype="中国">
+        <region ref="https://geolod.ex.nii.ac.jp/resource/Z6ki6D">加賀国</region>
+        <desc>
+          <label>解説準備中</label>
+          <listNym>
+            <nym>
+              <form>
+                <orth type="漢字">加賀国</orth>
+                <orth type="漢字">加賀</orth>
+                <orth type="ひらがな">かがのくに</orth>
+                <orth type="ひらがな">かが</orth>
+                <orth type="カタカナ">カガノクニ</orth>
+                <orth type="カタカナ">カガ</orth>
+              </form>
+            </nym>
+          </listNym>
+          <listNym>
+            <nym>
+              <form>
+                <orth type="校訂文">加賀国</orth>
+                <orth type="現代語訳">加賀国</orth>
+                <orth type="英訳">Kaga Province</orth>
+              </form>
+            </nym>
+          </listNym>
+        </desc>
+      </place>
+      <place xml:id="能登国" type="中国" subtype="中国">
+        <region ref="https://geolod.ex.nii.ac.jp/resource/10036435">能登国</region>
+        <desc>
+          <label>解説準備中</label>
+          <listNym>
+            <nym>
+              <form>
+                <orth type="漢字">能登国</orth>
+                <orth type="漢字">能登</orth>
+                <orth type="ひらがな">のとのくに</orth>
+                <orth type="ひらがな">のと</orth>
+                <orth type="カタカナ">ノトノクニ</orth>
+                <orth type="カタカナ">ノト</orth>
+              </form>
+            </nym>
+          </listNym>
+          <listNym>
+            <nym>
+              <form>
+                <orth type="校訂文">能登国</orth>
+                <orth type="現代語訳">能登国</orth>
+                <orth type="英訳">Noto Province</orth>
+              </form>
+            </nym>
+          </listNym>
+        </desc>
+      </place>
+      <place xml:id="越中国" type="上国" subtype="中国">
+        <region ref="https://geolod.ex.nii.ac.jp/resource/nOsweP">越中国</region>
+        <desc>
+          <label>解説準備中</label>
+          <listNym>
+            <nym>
+              <form>
+                <orth type="漢字">越中国</orth>
+                <orth type="漢字">越中</orth>
+                <orth type="ひらがな">えっちゅうのくに</orth>
+                <orth type="ひらがな">えっちゅう</orth>
+                <orth type="カタカナ">エッチュウノクニ</orth>
+                <orth type="カタカナ">エッチュウ</orth>
+              </form>
+            </nym>
+          </listNym>
+          <listNym>
+            <nym>
+              <form>
+                <orth type="校訂文">越中国</orth>
+                <orth type="現代語訳">越中国</orth>
+                <orth type="英訳">Etchū Province</orth>
+              </form>
+            </nym>
+          </listNym>
+        </desc>
+      </place>
+      <place xml:id="越後国" type="上国" subtype="遠国">
+        <region ref="https://geolod.ex.nii.ac.jp/resource/SniWOJ">越後国</region>
+        <desc>
+          <label>解説準備中</label>
+          <listNym>
+            <nym>
+              <form>
+                <orth type="漢字">越後国</orth>
+                <orth type="漢字">越後</orth>
+                <orth type="ひらがな">えちごのくに</orth>
+                <orth type="ひらがな">えちご</orth>
+                <orth type="カタカナ">エチゴノクニ</orth>
+                <orth type="カタカナ">エチゴ</orth>
+              </form>
+            </nym>
+          </listNym>
+          <listNym>
+            <nym>
+              <form>
+                <orth type="校訂文">越後国</orth>
+                <orth type="現代語訳">越後国</orth>
+                <orth type="英訳">Echigo Province</orth>
+              </form>
+            </nym>
+          </listNym>
+        </desc>
+      </place>
+      <place xml:id="佐渡国" type="中国" subtype="遠国">
+        <region ref="https://geolod.ex.nii.ac.jp/resource/AuN6cN">佐渡国</region>
+        <desc>
+          <label>解説準備中</label>
+          <listNym>
+            <nym>
+              <form>
+                <orth type="漢字">佐渡国</orth>
+                <orth type="漢字">佐渡</orth>
+                <orth type="ひらがな">さどのくに</orth>
+                <orth type="ひらがな">さど</orth>
+                <orth type="カタカナ">サドノクニ</orth>
+                <orth type="カタカナ">サド</orth>
+              </form>
+            </nym>
+          </listNym>
+          <listNym>
+            <nym>
+              <form>
+                <orth type="校訂文">佐渡国</orth>
+                <orth type="現代語訳">佐渡国</orth>
+                <orth type="英訳">Sado Province</orth>
+              </form>
+            </nym>
+          </listNym>
+        </desc>
+      </place>
+      <place xml:id="丹波国" type="上国" subtype="近国">
+        <region ref="https://geolod.ex.nii.ac.jp/resource/1O6wn3">丹波国</region>
+        <desc>
+          <label>解説準備中</label>
+          <listNym>
+            <nym>
+              <form>
+                <orth type="漢字">丹波国</orth>
+                <orth type="漢字">丹波</orth>
+                <orth type="ひらがな">たんばのくに</orth>
+                <orth type="ひらがな">たんば</orth>
+                <orth type="カタカナ">タンバノクニ</orth>
+                <orth type="カタカナ">タンバ</orth>
+              </form>
+            </nym>
+          </listNym>
+          <listNym>
+            <nym>
+              <form>
+                <orth type="校訂文">丹波国</orth>
+                <orth type="現代語訳">丹波国</orth>
+              </form>
+            </nym>
+          </listNym>
+        </desc>
+      </place>
+      <place xml:id="丹後国" type="中国" subtype="近国">
+        <region ref="https://geolod.ex.nii.ac.jp/resource/bC64Cx">丹後国</region>
+        <desc>
+          <label>解説準備中</label>
+          <listNym>
+            <nym>
+              <form>
+                <orth type="漢字">丹後国</orth>
+                <orth type="漢字">丹後</orth>
+                <orth type="ひらがな">たんごのくに</orth>
+                <orth type="ひらがな">たんご</orth>
+                <orth type="カタカナ">タンゴノクニ</orth>
+                <orth type="カタカナ">タンゴ</orth>
+              </form>
+            </nym>
+          </listNym>
+          <listNym>
+            <nym>
+              <form>
+                <orth type="校訂文">丹後国</orth>
+                <orth type="現代語訳">丹後国</orth>
+              </form>
+            </nym>
+          </listNym>
+        </desc>
+      </place>
+      <place xml:id="但馬国" type="上国" subtype="近国">
+        <region ref="https://geolod.ex.nii.ac.jp/resource/enW2Sh">但馬国</region>
+        <desc>
+          <label>解説準備中</label>
+          <listNym>
+            <nym>
+              <form>
+                <orth type="漢字">但馬国</orth>
+                <orth type="漢字">但馬</orth>
+                <orth type="ひらがな">たじまのくに</orth>
+                <orth type="ひらがな">たじま</orth>
+                <orth type="カタカナ">タジマノクニ</orth>
+                <orth type="カタカナ">タジマ</orth>
+              </form>
+            </nym>
+          </listNym>
+          <listNym>
+            <nym>
+              <form>
+                <orth type="校訂文">但馬国</orth>
+                <orth type="現代語訳">但馬国</orth>
+              </form>
+            </nym>
+          </listNym>
+        </desc>
+      </place>
+      <place xml:id="因幡国" type="上国" subtype="近国">
+        <region ref="https://geolod.ex.nii.ac.jp/resource/IK42ew">因幡国</region>
+        <desc>
+          <label>解説準備中</label>
+          <listNym>
+            <nym>
+              <form>
+                <orth type="漢字">因幡国</orth>
+                <orth type="漢字">因幡</orth>
+                <orth type="ひらがな">いなばのくに</orth>
+                <orth type="ひらがな">いなば</orth>
+                <orth type="カタカナ">イナバノクニ</orth>
+                <orth type="カタカナ">イナバ</orth>
+              </form>
+            </nym>
+          </listNym>
+          <listNym>
+            <nym>
+              <form>
+                <orth type="校訂文">因幡国</orth>
+                <orth type="現代語訳">因幡国</orth>
+              </form>
+            </nym>
+          </listNym>
+        </desc>
+      </place>
+      <place xml:id="伯耆国" type="上国" subtype="中国">
+        <region ref="https://geolod.ex.nii.ac.jp/resource/BQKC0S">伯耆国</region>
+        <desc>
+          <label>解説準備中</label>
+          <listNym>
+            <nym>
+              <form>
+                <orth type="漢字">伯耆国</orth>
+                <orth type="漢字">伯耆</orth>
+                <orth type="ひらがな">ほうきのくに</orth>
+                <orth type="ひらがな">ほうき</orth>
+                <orth type="カタカナ">ホウキノクニ</orth>
+                <orth type="カタカナ">ホウキ</orth>
+              </form>
+            </nym>
+          </listNym>
+          <listNym>
+            <nym>
+              <form>
+                <orth type="校訂文">伯耆国</orth>
+                <orth type="現代語訳">伯耆国</orth>
+              </form>
+            </nym>
+          </listNym>
+        </desc>
+      </place>
+      <place xml:id="出雲国" type="上国" subtype="中国">
+        <region ref="https://geolod.ex.nii.ac.jp/resource/4A6uEg">出雲国</region>
+        <desc>
+          <label>解説準備中</label>
+          <listNym>
+            <nym>
+              <form>
+                <orth type="漢字">出雲国</orth>
+                <orth type="漢字">出雲</orth>
+                <orth type="ひらがな">いずものくに</orth>
+                <orth type="ひらがな">いずも</orth>
+                <orth type="カタカナ">イズモノクニ</orth>
+                <orth type="カタカナ">イズモ</orth>
+              </form>
+            </nym>
+          </listNym>
+          <listNym>
+            <nym>
+              <form>
+                <orth type="校訂文">出雲国</orth>
+                <orth type="現代語訳">出雲国</orth>
+              </form>
+            </nym>
+          </listNym>
+        </desc>
+      </place>
+      <place xml:id="石見国" type="中国" subtype="遠国">
+        <region ref="https://geolod.ex.nii.ac.jp/resource/dsoaUj">石見国</region>
+        <desc>
+          <label>解説準備中</label>
+          <listNym>
+            <nym>
+              <form>
+                <orth type="漢字">石見国</orth>
+                <orth type="漢字">石見</orth>
+                <orth type="ひらがな">いわみのくに</orth>
+                <orth type="ひらがな">いわみ</orth>
+                <orth type="カタカナ">イワミノクニ</orth>
+                <orth type="カタカナ">イワミ</orth>
+              </form>
+            </nym>
+          </listNym>
+          <listNym>
+            <nym>
+              <form>
+                <orth type="校訂文">石見国</orth>
+                <orth type="現代語訳">石見国</orth>
+              </form>
+            </nym>
+          </listNym>
+        </desc>
+      </place>
+      <place xml:id="隠伎国" type="中国" subtype="遠国">
+        <region ref="https://geolod.ex.nii.ac.jp/resource/nWOAwa">隠伎国</region>
+        <desc>
+          <label>解説準備中</label>
+          <listNym>
+            <nym>
+              <form>
+                <orth type="漢字">隠伎国</orth>
+                <orth type="漢字">隠伎</orth>
+                <orth type="漢字">隠岐国</orth>
+                <orth type="漢字">隠岐</orth>
+                <orth type="ひらがな">おきのくに</orth>
+                <orth type="ひらがな">おき</orth>
+                <orth type="カタカナ">オキノクニ</orth>
+                <orth type="カタカナ">オキ</orth>
+              </form>
+            </nym>
+          </listNym>
+          <listNym>
+            <nym>
+              <form>
+                <orth type="校訂文">隠伎国</orth>
+                <orth type="校訂文">隠岐国</orth>
+                <orth type="校訂文">隠岐</orth>
+                <orth type="現代語訳">隠岐国</orth>
+              </form>
+            </nym>
+          </listNym>
+        </desc>
+      </place>
+      <place xml:id="播磨国" type="大国" subtype="近国">
+        <region ref="https://geolod.ex.nii.ac.jp/resource/Q2IKG1">播磨国</region>
+        <desc>
+          <label>解説準備中</label>
+          <listNym>
+            <nym>
+              <form>
+                <orth type="漢字">播磨国</orth>
+                <orth type="漢字">播磨</orth>
+                <orth type="ひらがな">はりまのくに</orth>
+                <orth type="ひらがな">はりま</orth>
+                <orth type="カタカナ">ハリマノクニ</orth>
+                <orth type="カタカナ">ハリマ</orth>
+              </form>
+            </nym>
+          </listNym>
+          <listNym>
+            <nym>
+              <form>
+                <orth type="校訂文">播磨国</orth>
+                <orth type="現代語訳">播磨国</orth>
+              </form>
+            </nym>
+          </listNym>
+        </desc>
+      </place>
+      <place xml:id="美作国" type="上国" subtype="近国">
+        <region ref="https://geolod.ex.nii.ac.jp/resource/ZO6wGB">美作国</region>
+        <desc>
+          <label>解説準備中</label>
+          <listNym>
+            <nym>
+              <form>
+                <orth type="漢字">美作国</orth>
+                <orth type="漢字">美作</orth>
+                <orth type="ひらがな">みまさかのくに</orth>
+                <orth type="ひらがな">みまさか</orth>
+                <orth type="カタカナ">ミマサカノクニ</orth>
+                <orth type="カタカナ">ミマサカ</orth>
+              </form>
+            </nym>
+          </listNym>
+          <listNym>
+            <nym>
+              <form>
+                <orth type="校訂文">美作国</orth>
+                <orth type="現代語訳">美作国</orth>
+              </form>
+            </nym>
+          </listNym>
+        </desc>
+      </place>
+      <place xml:id="備前国" type="上国" subtype="近国">
+        <region ref="https://geolod.ex.nii.ac.jp/resource/NGn2YM">備前国</region>
+        <desc>
+          <label>解説準備中</label>
+          <listNym>
+            <nym>
+              <form>
+                <orth type="漢字">備前国</orth>
+                <orth type="漢字">備前</orth>
+                <orth type="ひらがな">びぜんのくに</orth>
+                <orth type="ひらがな">びぜん</orth>
+                <orth type="カタカナ">ビゼンノクニ</orth>
+                <orth type="カタカナ">ビゼン</orth>
+              </form>
+            </nym>
+          </listNym>
+          <listNym>
+            <nym>
+              <form>
+                <orth type="校訂文">備前国</orth>
+                <orth type="現代語訳">備前国</orth>
+              </form>
+            </nym>
+          </listNym>
+        </desc>
+      </place>
+      <place xml:id="備中国" type="上国" subtype="中国">
+        <region ref="https://geolod.ex.nii.ac.jp/resource/2eEIa9">備中国</region>
+        <desc>
+          <label>解説準備中</label>
+          <listNym>
+            <nym>
+              <form>
+                <orth type="漢字">備中国</orth>
+                <orth type="漢字">備中</orth>
+                <orth type="ひらがな">びっちゅうのくに</orth>
+                <orth type="ひらがな">びっちゅう</orth>
+                <orth type="カタカナ">ビッチュウノクニ</orth>
+                <orth type="カタカナ">ビッチュウ</orth>
+              </form>
+            </nym>
+          </listNym>
+          <listNym>
+            <nym>
+              <form>
+                <orth type="校訂文">備中国</orth>
+                <orth type="現代語訳">備中国</orth>
+              </form>
+            </nym>
+          </listNym>
+        </desc>
+      </place>
+      <place xml:id="備後国" type="上国" subtype="中国">
+        <region ref="https://geolod.ex.nii.ac.jp/resource/QNAsip">備後国</region>
+        <desc>
+          <label>解説準備中</label>
+          <listNym>
+            <nym>
+              <form>
+                <orth type="漢字">備後国</orth>
+                <orth type="漢字">備後</orth>
+                <orth type="ひらがな">びんごのくに</orth>
+                <orth type="ひらがな">びんご</orth>
+                <orth type="カタカナ">ビンゴノクニ</orth>
+                <orth type="カタカナ">ビンゴ</orth>
+              </form>
+            </nym>
+          </listNym>
+          <listNym>
+            <nym>
+              <form>
+                <orth type="校訂文">備後国</orth>
+                <orth type="現代語訳">備後国</orth>
+              </form>
+            </nym>
+          </listNym>
+        </desc>
+      </place>
+      <place xml:id="安芸国" type="上国" subtype="遠国">
+        <region ref="https://geolod.ex.nii.ac.jp/resource/O0OSil">安芸国</region>
+        <desc>
+          <label>解説準備中</label>
+          <listNym>
+            <nym>
+              <form>
+                <orth type="漢字">安芸国</orth>
+                <orth type="漢字">安芸</orth>
+                <orth type="ひらがな">あきのくに</orth>
+                <orth type="ひらがな">あき</orth>
+                <orth type="カタカナ">アキノクニ</orth>
+                <orth type="カタカナ">アキ</orth>
+              </form>
+            </nym>
+          </listNym>
+          <listNym>
+            <nym>
+              <form>
+                <orth type="校訂文">安芸国</orth>
+                <orth type="現代語訳">安芸国</orth>
+              </form>
+            </nym>
+          </listNym>
+        </desc>
+      </place>
+      <place xml:id="周防国" type="上国" subtype="遠国">
+        <region ref="https://geolod.ex.nii.ac.jp/resource/KenquX">周防国</region>
+        <desc>
+          <label>解説準備中</label>
+          <listNym>
+            <nym>
+              <form>
+                <orth type="漢字">周防国</orth>
+                <orth type="漢字">周防</orth>
+                <orth type="ひらがな">すおうのくに</orth>
+                <orth type="ひらがな">すおう</orth>
+                <orth type="カタカナ">スオウノクニ</orth>
+                <orth type="カタカナ">スオウ</orth>
+              </form>
+            </nym>
+          </listNym>
+          <listNym>
+            <nym>
+              <form>
+                <orth type="校訂文">周防国</orth>
+                <orth type="現代語訳">周防国</orth>
+              </form>
+            </nym>
+          </listNym>
+        </desc>
+      </place>
+      <place xml:id="長門国" type="中国" subtype="遠国">
+        <region ref="https://geolod.ex.nii.ac.jp/resource/I6IGOj">長門国</region>
+        <desc>
+          <label>解説準備中</label>
+          <listNym>
+            <nym>
+              <form>
+                <orth type="漢字">長門国</orth>
+                <orth type="漢字">長門</orth>
+                <orth type="ひらがな">ながとのくに</orth>
+                <orth type="ひらがな">ながと</orth>
+                <orth type="カタカナ">ナガトノクニ</orth>
+                <orth type="カタカナ">ナガト</orth>
+              </form>
+            </nym>
+          </listNym>
+          <listNym>
+            <nym>
+              <form>
+                <orth type="校訂文">長門国</orth>
+                <orth type="現代語訳">長門国</orth>
+              </form>
+            </nym>
+          </listNym>
+        </desc>
+      </place>
+      <place xml:id="紀伊国" type="上国" subtype="近国">
+        <region ref="https://geolod.ex.nii.ac.jp/resource/OEUa2Z">紀伊国</region>
+        <desc>
+          <label>解説準備中</label>
+          <listNym>
+            <nym>
+              <form>
+                <orth type="漢字">紀伊国</orth>
+                <orth type="漢字">紀伊</orth>
+                <orth type="ひらがな">きいのくに</orth>
+                <orth type="ひらがな">きい</orth>
+                <orth type="カタカナ">キイノクニ</orth>
+                <orth type="カタカナ">キイ</orth>
+              </form>
+            </nym>
+          </listNym>
+          <listNym>
+            <nym>
+              <form>
+                <orth type="校訂文">紀伊国</orth>
+                <orth type="現代語訳">紀伊国</orth>
+              </form>
+            </nym>
+          </listNym>
+        </desc>
+      </place>
+      <place xml:id="淡路国" type="下国" subtype="近国">
+        <region ref="https://geolod.ex.nii.ac.jp/resource/IseOSN">淡路国</region>
+        <desc>
+          <label>解説準備中</label>
+          <listNym>
+            <nym>
+              <form>
+                <orth type="漢字">淡路国</orth>
+                <orth type="漢字">淡路</orth>
+                <orth type="ひらがな">あわじのくに</orth>
+                <orth type="ひらがな">あわじ</orth>
+                <orth type="カタカナ">アワジノクニ</orth>
+                <orth type="カタカナ">アワジ</orth>
+              </form>
+            </nym>
+          </listNym>
+          <listNym>
+            <nym>
+              <form>
+                <orth type="校訂文">淡路国</orth>
+                <orth type="現代語訳">淡路国</orth>
+              </form>
+            </nym>
+          </listNym>
+        </desc>
+      </place>
+      <place xml:id="阿波国" type="上国" subtype="中国">
+        <region ref="https://geolod.ex.nii.ac.jp/resource/uWckQb">阿波国</region>
+        <desc>
+          <label>解説準備中</label>
+          <listNym>
+            <nym>
+              <form>
+                <orth type="漢字">阿波国</orth>
+                <orth type="漢字">阿波</orth>
+                <orth type="ひらがな">あわのくに</orth>
+                <orth type="ひらがな">あわ</orth>
+                <orth type="カタカナ">アワノクニ</orth>
+                <orth type="カタカナ">アワ</orth>
+              </form>
+            </nym>
+          </listNym>
+          <listNym>
+            <nym>
+              <form>
+                <orth type="校訂文">阿波国</orth>
+                <orth type="現代語訳">阿波国</orth>
+              </form>
+            </nym>
+          </listNym>
+        </desc>
+      </place>
+      <place xml:id="讃岐国" type="上国" subtype="中国">
+        <region ref="https://geolod.ex.nii.ac.jp/resource/AqCAcI">讃岐国</region>
+        <desc>
+          <label>解説準備中</label>
+          <listNym>
+            <nym>
+              <form>
+                <orth type="漢字">讃岐国</orth>
+                <orth type="漢字">讃岐</orth>
+                <orth type="ひらがな">さぬきのくに</orth>
+                <orth type="ひらがな">さぬき</orth>
+                <orth type="カタカナ">サヌキノクニ</orth>
+                <orth type="カタカナ">サヌキ</orth>
+              </form>
+            </nym>
+          </listNym>
+          <listNym>
+            <nym>
+              <form>
+                <orth type="校訂文">讃岐国</orth>
+                <orth type="現代語訳">讃岐国</orth>
+              </form>
+            </nym>
+          </listNym>
+        </desc>
+      </place>
+      <place xml:id="伊予国" type="上国" subtype="遠国">
+        <region ref="https://geolod.ex.nii.ac.jp/resource/O2q8Sh">伊予国</region>
+        <desc>
+          <label>解説準備中</label>
+          <listNym>
+            <nym>
+              <form>
+                <orth type="漢字">伊予国</orth>
+                <orth type="漢字">伊予</orth>
+                <orth type="漢字">伊与国</orth>
+                <orth type="漢字">伊与</orth>
+                <orth type="ひらがな">いよのくに</orth>
+                <orth type="ひらがな">いよ</orth>
+                <orth type="カタカナ">イヨノクニ</orth>
+                <orth type="カタカナ">イヨ</orth>
+              </form>
+            </nym>
+          </listNym>
+          <listNym>
+            <nym>
+              <form>
+                <orth type="校訂文">伊予国</orth>
+                <orth type="現代語訳">伊予国</orth>
+              </form>
+            </nym>
+          </listNym>
+        </desc>
+      </place>
+      <place xml:id="土佐国" type="中国" subtype="遠国">
+        <region ref="https://geolod.ex.nii.ac.jp/resource/5ENUaB">土佐国</region>
+        <desc>
+          <label>解説準備中</label>
+          <listNym>
+            <nym>
+              <form>
+                <orth type="漢字">土佐国</orth>
+                <orth type="漢字">土佐</orth>
+                <orth type="漢字">土左国</orth>
+                <orth type="漢字">土左</orth>
+                <orth type="ひらがな">とさのくに</orth>
+                <orth type="ひらがな">とさ</orth>
+                <orth type="カタカナ">トサノクニ</orth>
+                <orth type="カタカナ">トサ</orth>
+              </form>
+            </nym>
+          </listNym>
+          <listNym>
+            <nym>
+              <form>
+                <orth type="校訂文">土佐国</orth>
+                <orth type="校訂文">土左国</orth>
+                <orth type="校訂文">土左</orth>
+                <orth type="現代語訳">土佐国</orth>
+              </form>
+            </nym>
+          </listNym>
+        </desc>
+      </place>
+      <place xml:id="筑前国" type="上国" subtype="遠国">
+        <region ref="https://geolod.ex.nii.ac.jp/resource/IiSOQc">筑前国</region>
+        <desc>
+          <label>解説準備中</label>
+          <listNym>
+            <nym>
+              <form>
+                <orth type="漢字">筑前国</orth>
+                <orth type="漢字">筑前</orth>
+                <orth type="ひらがな">ちくぜんのくに</orth>
+                <orth type="ひらがな">ちくぜん</orth>
+                <orth type="カタカナ">チクゼンノクニ</orth>
+                <orth type="カタカナ">チクゼン</orth>
+              </form>
+            </nym>
+          </listNym>
+          <listNym>
+            <nym>
+              <form>
+                <orth type="校訂文">筑前国</orth>
+                <orth type="現代語訳">筑前国</orth>
+              </form>
+            </nym>
+          </listNym>
+        </desc>
+      </place>
+      <place xml:id="筑後国" type="上国" subtype="遠国">
+        <region ref="https://geolod.ex.nii.ac.jp/resource/WS4OSR">筑後国</region>
+        <desc>
+          <label>解説準備中</label>
+          <listNym>
+            <nym>
+              <form>
+                <orth type="漢字">筑後国</orth>
+                <orth type="漢字">筑後</orth>
+                <orth type="ひらがな">ちくごのくに</orth>
+                <orth type="ひらがな">ちくご</orth>
+                <orth type="カタカナ">チクゴノクニ</orth>
+                <orth type="カタカナ">チクゴ</orth>
+              </form>
+            </nym>
+          </listNym>
+          <listNym>
+            <nym>
+              <form>
+                <orth type="校訂文">筑後国</orth>
+                <orth type="現代語訳">筑後国</orth>
+              </form>
+            </nym>
+          </listNym>
+        </desc>
+      </place>
+      <place xml:id="豊前国" type="上国" subtype="遠国">
+        <region ref="https://geolod.ex.nii.ac.jp/resource/DWkSEU">豊前国</region>
+        <desc>
+          <label>解説準備中</label>
+          <listNym>
+            <nym>
+              <form>
+                <orth type="漢字">豊前国</orth>
+                <orth type="漢字">豊前</orth>
+                <orth type="ひらがな">ぶぜんのくに</orth>
+                <orth type="ひらがな">ぶぜん</orth>
+                <orth type="カタカナ">ブゼンノクニ</orth>
+                <orth type="カタカナ">ブゼン</orth>
+              </form>
+            </nym>
+          </listNym>
+          <listNym>
+            <nym>
+              <form>
+                <orth type="校訂文">豊前国</orth>
+                <orth type="現代語訳">豊前国</orth>
+              </form>
+            </nym>
+          </listNym>
+        </desc>
+      </place>
+      <place xml:id="豊後国" type="上国" subtype="遠国">
+        <region ref="https://geolod.ex.nii.ac.jp/resource/gn8COr">豊後国</region>
+        <desc>
+          <label>解説準備中</label>
+          <listNym>
+            <nym>
+              <form>
+                <orth type="漢字">豊後国</orth>
+                <orth type="漢字">豊後</orth>
+                <orth type="ひらがな">ぶんごのくに</orth>
+                <orth type="ひらがな">ぶんご</orth>
+                <orth type="カタカナ">ブンゴノクニ</orth>
+                <orth type="カタカナ">ブンゴ</orth>
+              </form>
+            </nym>
+          </listNym>
+          <listNym>
+            <nym>
+              <form>
+                <orth type="校訂文">豊後国</orth>
+                <orth type="現代語訳">豊後国</orth>
+              </form>
+            </nym>
+          </listNym>
+        </desc>
+      </place>
+      <place xml:id="肥前国" type="上国" subtype="遠国">
+        <region ref="https://geolod.ex.nii.ac.jp/resource/GsYo6m">肥前国</region>
+        <desc>
+          <label>解説準備中</label>
+          <listNym>
+            <nym>
+              <form>
+                <orth type="漢字">肥前国</orth>
+                <orth type="漢字">肥前</orth>
+                <orth type="ひらがな">ひぜんのくに</orth>
+                <orth type="ひらがな">ひぜん</orth>
+                <orth type="カタカナ">ヒゼンノクニ</orth>
+                <orth type="カタカナ">ヒゼン</orth>
+              </form>
+            </nym>
+          </listNym>
+          <listNym>
+            <nym>
+              <form>
+                <orth type="校訂文">肥前国</orth>
+                <orth type="現代語訳">肥前国</orth>
+              </form>
+            </nym>
+          </listNym>
+        </desc>
+      </place>
+      <place xml:id="肥後国" type="大国" subtype="遠国">
+        <region ref="https://geolod.ex.nii.ac.jp/resource/jaiYoI">肥後国</region>
+        <desc>
+          <label>解説準備中</label>
+          <listNym>
+            <nym>
+              <form>
+                <orth type="漢字">肥後国</orth>
+                <orth type="漢字">肥後</orth>
+                <orth type="ひらがな">ひごのくに</orth>
+                <orth type="ひらがな">ひご</orth>
+                <orth type="カタカナ">ヒゴノクニ</orth>
+                <orth type="カタカナ">ヒゴ</orth>
+              </form>
+            </nym>
+          </listNym>
+          <listNym>
+            <nym>
+              <form>
+                <orth type="校訂文">肥後国</orth>
+                <orth type="現代語訳">肥後国</orth>
+              </form>
+            </nym>
+          </listNym>
+        </desc>
+      </place>
+      <place xml:id="日向国" type="中国" subtype="遠国">
+        <region ref="https://geolod.ex.nii.ac.jp/resource/R0KY4W">日向国</region>
+        <desc>
+          <label>解説準備中</label>
+          <listNym>
+            <nym>
+              <form>
+                <orth type="漢字">日向国</orth>
+                <orth type="漢字">日向</orth>
+                <orth type="ひらがな">ひゅうがのくに</orth>
+                <orth type="ひらがな">ひゅうが</orth>
+                <orth type="カタカナ">ヒュウガノクニ</orth>
+                <orth type="カタカナ">ヒュウガ</orth>
+              </form>
+            </nym>
+          </listNym>
+          <listNym>
+            <nym>
+              <form>
+                <orth type="校訂文">日向国</orth>
+                <orth type="現代語訳">日向国</orth>
+              </form>
+            </nym>
+          </listNym>
+        </desc>
+      </place>
+      <place xml:id="大隅国" type="中国" subtype="遠国">
+        <region ref="https://geolod.ex.nii.ac.jp/resource/NE4cCX">大隅国</region>
+        <desc>
+          <label>解説準備中</label>
+          <listNym>
+            <nym>
+              <form>
+                <orth type="漢字">大隅国</orth>
+                <orth type="漢字">大隅</orth>
+                <orth type="ひらがな">おおすみのくに</orth>
+                <orth type="ひらがな">おおすみ</orth>
+                <orth type="カタカナ">オオスミノクニ</orth>
+                <orth type="カタカナ">オオスミ</orth>
+              </form>
+            </nym>
+          </listNym>
+          <listNym>
+            <nym>
+              <form>
+                <orth type="校訂文">大隅国</orth>
+                <orth type="現代語訳">大隅国</orth>
+              </form>
+            </nym>
+          </listNym>
+        </desc>
+      </place>
+      <place xml:id="薩摩国" type="中国" subtype="遠国">
+        <region ref="https://geolod.ex.nii.ac.jp/resource/O4Y6er">薩摩国</region>
+        <desc>
+          <label>解説準備中</label>
+          <listNym>
+            <nym>
+              <form>
+                <orth type="漢字">薩摩国</orth>
+                <orth type="漢字">薩摩</orth>
+                <orth type="ひらがな">さつまのくに</orth>
+                <orth type="ひらがな">さつま</orth>
+                <orth type="カタカナ">サツマノクニ</orth>
+                <orth type="カタカナ">サツマ</orth>
+              </form>
+            </nym>
+          </listNym>
+          <listNym>
+            <nym>
+              <form>
+                <orth type="校訂文">薩摩国</orth>
+                <orth type="現代語訳">薩摩国</orth>
+              </form>
+            </nym>
+          </listNym>
+        </desc>
+      </place>
+      <place xml:id="壱伎島" type="下国" subtype="遠国">
+        <region ref="https://geolod.ex.nii.ac.jp/resource/MiucUJ">壱伎島</region>
+        <desc>
+          <label>解説準備中</label>
+          <listNym>
+            <nym>
+              <form>
                 <orth type="漢字">壱伎島</orth>
-                <orth type="漢字">壱岐嶋</orth>
-                <orth type="漢字">壱伎嶋</orth>
-                <orth type="漢字">壱岐</orth>
                 <orth type="漢字">壱伎</orth>
+                <orth type="漢字">壱伎嶋</orth>
+                <orth type="漢字">壱岐島</orth>
+                <orth type="漢字">壱岐</orth>
+                <orth type="漢字">壱岐嶋</orth>
                 <orth type="ひらがな">いきのしま</orth>
                 <orth type="ひらがな">いき</orth>
                 <orth type="カタカナ">イキノシマ</orth>
@@ -21617,7 +23403,6 @@
             <nym>
               <form>
                 <orth type="校訂文">壱伎島</orth>
-                <orth type="校訂文">壱伎</orth>
                 <orth type="現代語訳">壱岐島</orth>
                 <orth type="現代語訳">壱岐</orth>
               </form>
@@ -21625,11 +23410,55 @@
           </listNym>
         </desc>
       </place>
-      <place subtype="遠国" type="下国" xml:id="対馬島">
-        <region ref="https://geolod.ex.nii.ac.jp/resource/LEKcEc"> 対馬島 </region>
+      <place xml:id="対馬島" type="下国" subtype="遠国">
+        <region ref="https://geolod.ex.nii.ac.jp/resource/LEKcEc">対馬島</region>
+        <desc>
+          <label>解説準備中</label>
+          <listNym>
+            <nym>
+              <form>
+                <orth type="漢字">対馬島</orth>
+                <orth type="漢字">対馬</orth>
+                <orth type="漢字">対馬嶋</orth>
+                <orth type="ひらがな">つしまのしま</orth>
+                <orth type="ひらがな">つしま</orth>
+                <orth type="カタカナ">ツシマノシマ</orth>
+                <orth type="カタカナ">ツシマ</orth>
+              </form>
+            </nym>
+          </listNym>
+          <listNym>
+            <nym>
+              <form>
+                <orth type="校訂文">対馬島</orth>
+                <orth type="現代語訳">対馬島</orth>
+              </form>
+            </nym>
+          </listNym>
+        </desc>
       </place>
       <place xml:id="諸国">
-        <region> 諸国 </region>
+        <region>諸国</region>
+        <desc>
+          <label>解説準備中</label>
+          <listNym>
+            <nym>
+              <form>
+                <orth type="漢字">諸国</orth>
+                <orth type="ひらがな">しょこく</orth>
+                <orth type="カタカナ">ショコク</orth>
+              </form>
+            </nym>
+          </listNym>
+          <listNym>
+            <nym>
+              <form>
+                <orth type="校訂文">諸国</orth>
+                <orth type="現代語訳">諸国</orth>
+              </form>
+            </nym>
+          </listNym>
+        </desc>
       </place>
       <place xml:id="乙訓郡">
         <settlement> 乙訓郡 </settlement>
@@ -23706,13 +25535,9 @@
       </listRelation>
       <listRelation type="官司">
         <!-- org -->
-        <relation active="#二官" name="supervises" passive="#神祇官 #太政官"/>
-        <relation active="#太政官" name="supervises" passive="#弾正台 #近衛府 #衛門府 #兵衛府       #馬寮 #修理職"/>
-        <relation active="#八省" name="supervises" passive="#中務省 #式部省 #治部省 #民部省 #兵部省 #刑部省 #大蔵省 #宮内省"/>
-        <relation active="#左弁官" name="supervises" passive="#中務省 #式部省 #治部省 #民部省"/>
-        <relation active="#右弁官" name="supervises" passive="#兵部省 #刑部省 #大蔵省 #宮内省"/>
-        <relation active="#中務省" name="supervises"
-          passive="#中宮職 #大舎人寮 #図書寮 #縫殿寮       #内蔵寮 #内匠寮 #陰陽寮"/>
+        <relation active="#太政官" name="supervises"
+          passive="#中務省 #式部省 #治部省 #民部省 #兵部省 #刑部省 #大蔵省 #宮内省 #弾正台 #近衛府 #衛門府 #兵衛府 #馬寮 #修理職"/>
+        <relation active="#中務省" name="supervises" passive="#中宮職 #大舎人寮 #図書寮 #縫殿寮 #内蔵寮 #内匠寮 #陰陽寮"/>
         <relation active="#式部省" name="supervises" passive="#大学寮"/>
         <relation active="#治部省" name="supervises" passive="#雅楽寮 #玄蕃寮 #諸陵寮"/>
         <relation active="#民部省" name="supervises" passive="#主計寮 #主税寮"/>
@@ -23720,12 +25545,16 @@
         <relation active="#刑部省" name="supervises" passive="#囚獄司"/>
         <relation active="#大蔵省" name="supervises" passive="#織部司"/>
         <relation active="#宮内省" name="supervises"
-          passive="#大膳職 #木工寮 #大炊寮 #主殿寮 #典薬寮       #掃部寮 #正親司 #内膳司 #造酒司 #采女司 #主水司"/>
-        <relation active="#六衛府" name="supervises" passive="#近衛府 #衛門府 #兵衛府"/>
+          passive="#大膳職 #木工寮 #大炊寮 #主殿寮 #典薬寮 #掃部寮 #正親司 #内膳司 #造酒司 #采女司 #主水司"/>
         <relation active="#京職" name="supervises" passive="#市司"/>
-        <relation active="#太政官" name="hasRole" passive="#左弁官 #右弁官"/>
+        <!-- org 総称? -->
+        <relation active="#二官" name="memberOf" passive="#神祇官 #太政官"/>
+        <relation active="#八省" name="memberOf" passive="#中務省 #式部省 #治部省 #民部省 #兵部省 #刑部省 #大蔵省 #宮内省"/>
+        <relation active="#六衛府" name="memberOf" passive="#近衛府 #衛門府 #兵衛府"/>
+        <!-- 不要か -->
         <relation active="#左弁官 #右弁官" name="subtype" passive="#弁官"/>
         <relation active="#弁官" name="synonym" passive="#左弁官 #右弁官"/>
+        <!-- /不要か -->
       </listRelation>
       <listRelation type="food">
         <relation name="contains" active="#noun01000000"
