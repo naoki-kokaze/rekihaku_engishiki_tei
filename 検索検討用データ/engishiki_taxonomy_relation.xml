@@ -25243,11 +25243,11 @@
       </org>
       <org type="中央" xml:id="太政官">
         <orgName> 太政官 </orgName>
-        <!-- 不要か　relationで記述 -->
+        <!-- 不要か　relationで記述 
         <roleName xml:id="弁官"> 弁官 </roleName>
         <roleName xml:id="左弁官"> 左弁官 </roleName>
         <roleName xml:id="右弁官"> 左弁官 </roleName>
-        <!--/ 不要か　relationで記述 -->
+        不要か　relationで記述 -->
       </org>
       <org type="中央" xml:id="八省">
         <orgName> 八省 </orgName>
@@ -25956,7 +25956,7 @@
         <relation name="contains" active="#noun03070101"
           passive="#noun03070102 #noun03070103 #noun03070104"/>
         <!-- 韲：韲物 雑韲 雑韲物 -->
-        <relation name="contains" active="#noun03070201" passive="#noun03070202 #noun03070202"/>
+        <relation name="contains" active="#noun03070201" passive="#noun03070202 #noun03070203"/>
         <!-- 味物：雑味物 雑鮮味物 -->
         <relation name="contains" active="#noun03070301" passive="#noun03070302"/>
         <!-- 甘物：甜物 -->
