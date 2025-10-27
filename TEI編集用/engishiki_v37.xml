@@ -503,20 +503,21 @@
  </teiHeader>
  <text>
   <body>
-   <div type="巻" xml:id="volume37">
+   <div ana="典薬" type="巻" xml:id="volume37">
     <div type="首題" xml:id="shudai37">
      <pb
       facs="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-37%2F00002.tif/full/full/0/default.jpg"/>
      <p xml:id="shudai3701"> 延喜式巻第卅七 </p>
     </div>
-    <div ana="典薬" n="37" subtype="条" type="式">
+    <div ana="典薬" n="37" type="式" xml:id="protocol371"
+     corresp="engishiki_v37_ja.xml#protocol371 engishiki_v37_en.xml#protocol371">
      <div type="式題" xml:id="shikidai371">
       <p xml:id="shikidai37101">
        <orgName corresp="#典薬寮"> 典薬寮 </orgName>
       </p>
      </div>
      <div ana="典薬" corresp="engishiki_v37_en.xml#article371001 engishiki_v37_ja.xml#article371001"
-      n="37.1" subtype="項" type="条" xml:id="article371001">
+      n="37.1" type="条" xml:id="article371001">
       <head ana="元日御薬"/>
       <p ana="項" corresp="engishiki_v37_en.xml#item37100101 engishiki_v37_ja.xml#item37100101"
        xml:id="item37100101"> 元日御薬〈中宮准此、〉 <lb/>
@@ -844,7 +845,7 @@
       </p>
      </div>
      <div ana="典薬" corresp="engishiki_v37_en.xml#article371002 engishiki_v37_ja.xml#article371002"
-      n="37.2" subtype="項" type="条" xml:id="article371002">
+      n="37.2" type="条" xml:id="article371002">
       <head ana="臘月御薬"/>
       <p ana="項" corresp="engishiki_v37_en.xml#item37100201 engishiki_v37_ja.xml#item37100201"
        xml:id="item37100201"> 臘月御 <anchor xml:id="app3710020101"/> 薬 <anchor xml:id="app3710020101e"/>
@@ -1051,7 +1052,7 @@
      <pb
       facs="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-37%2F00006.tif/full/full/0/default.jpg"/>
      <div ana="典薬" corresp="engishiki_v37_en.xml#article371003 engishiki_v37_ja.xml#article371003"
-      n="37.3" subtype="項" type="条" xml:id="article371003">
+      n="37.3" type="条" xml:id="article371003">
       <head ana="中宮臘月御薬"/>
       <p ana="項" corresp="engishiki_v37_en.xml#item37100301 engishiki_v37_ja.xml#item37100301"
        xml:id="item37100301"> 中宮臘月御薬 <lb/> 四味理仲丸、七気丸、八味理仲丸、干薑丸、烏梅丸、呉茱萸丸、当帰丸、 <anchor
@@ -1155,7 +1156,7 @@
       </app>
      </div>
      <div ana="典薬" corresp="engishiki_v37_en.xml#article371004 engishiki_v37_ja.xml#article371004"
-      n="37.4" subtype="項" type="条" xml:id="article371004">
+      n="37.4" type="条" xml:id="article371004">
       <head ana="東宮御薬"/>
       <p ana="項" corresp="engishiki_v37_en.xml#item37100401 engishiki_v37_ja.xml#item37100401"
        xml:id="item37100401"> 東宮白散一剤、度嶂散一剤、屠蘇一剤、〈並盛同上、〉七気丸二剤、四味理仲丸四剤、供薬 <anchor
@@ -1232,7 +1233,7 @@
      <pb
       facs="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-37%2F00008.tif/full/full/0/default.jpg"/>
      <div ana="典薬" corresp="engishiki_v37_en.xml#article371005 engishiki_v37_ja.xml#article371005"
-      n="37.5" subtype="項" type="条" xml:id="article371005">
+      n="37.5" type="条" xml:id="article371005">
       <head ana="白散"/>
       <p ana="項" corresp="engishiki_v37_en.xml#item37100501 engishiki_v37_ja.xml#item37100501"
        xml:id="item37100501"> 毎年十二月、造元日料白散四百十五剤、令医・針生裹帖并 <anchor xml:id="app3710050101"/> 書 <anchor
@@ -1363,7 +1364,7 @@
       </app>
      </div>
      <div ana="典薬" corresp="engishiki_v37_en.xml#article371006 engishiki_v37_ja.xml#article371006"
-      n="37.6" subtype="項" type="条" xml:id="article371006">
+      n="37.6" type="条" xml:id="article371006">
       <head ana="雑給料"/>
       <p ana="項" corresp="engishiki_v37_en.xml#item37100601 engishiki_v37_ja.xml#item37100601"
        xml:id="item37100601"> 雑給料 <lb/> 四味理仲丸廿剤、七気丸十三剤、干薑丸七剤、烏梅丸廿剤、呉茱萸丸三剤、当帰丸十剤、 <anchor
@@ -1477,7 +1478,7 @@
       </p>
      </div>
      <div ana="典薬" corresp="engishiki_v37_en.xml#article371007 engishiki_v37_ja.xml#article371007"
-      n="37.7" subtype="項" type="条" xml:id="article371007">
+      n="37.7" type="条" xml:id="article371007">
       <head ana="地黄煎料"/>
       <p ana="項" corresp="engishiki_v37_en.xml#item37100701 engishiki_v37_ja.xml#item37100701"
        xml:id="item37100701"> 地黄煎料 <lb/> 生地黄廿石、〈十石 <placeName corresp="#和泉国"> 和 <anchor
@@ -1536,7 +1537,7 @@
       </p>
      </div>
      <div ana="典薬" corresp="engishiki_v37_en.xml#article371008 engishiki_v37_ja.xml#article371008"
-      n="37.8" subtype="項" type="条" xml:id="article371008">
+      n="37.8" type="条" xml:id="article371008">
       <head ana="五月五日"/>
       <p ana="項" corresp="engishiki_v37_en.xml#item37100801 engishiki_v37_ja.xml#item37100801"
        xml:id="item37100801"> 凡五月五日、進 <anchor xml:id="app3710080101"/> 昌 <anchor
@@ -1551,7 +1552,7 @@
       </app>
      </div>
      <div ana="典薬" corresp="engishiki_v37_en.xml#article371009 engishiki_v37_ja.xml#article371009"
-      n="37.9" subtype="項" type="条" xml:id="article371009">
+      n="37.9" type="条" xml:id="article371009">
       <head ana="合薬麴料"/>
       <p ana="項" corresp="engishiki_v37_en.xml#item37100901 engishiki_v37_ja.xml#item37100901"
        xml:id="item37100901"> 凡合薬所須麹料小麦一石、〈御薬料二斗、雑給料八斗、〉 <anchor xml:id="app3710090101"/> 蒸 <anchor
@@ -1568,13 +1569,13 @@
       </app>
      </div>
      <div ana="典薬" corresp="engishiki_v37_en.xml#article371010 engishiki_v37_ja.xml#article371010"
-      n="37.10" subtype="項" type="条" xml:id="article371010">
+      n="37.10" type="条" xml:id="article371010">
       <head ana="九月九日"/>
       <p ana="項" corresp="engishiki_v37_en.xml#item37101001 engishiki_v37_ja.xml#item37101001"
        xml:id="item37101001"> 凡九月九日、呉茱萸廿把、附薬司供之、 </p>
      </div>
      <div ana="典薬" corresp="engishiki_v37_en.xml#article371011 engishiki_v37_ja.xml#article371011"
-      n="37.11" subtype="項" type="条" xml:id="article371011">
+      n="37.11" type="条" xml:id="article371011">
       <head ana="供御乳"/>
       <p ana="項" corresp="engishiki_v37_en.xml#item37101101 engishiki_v37_ja.xml#item37101101"
        xml:id="item37101101"> 凡供御乳、 <anchor xml:id="app3710110101"/> 日 <anchor
@@ -1653,7 +1654,7 @@
       </app>
      </div>
      <div ana="典薬" corresp="engishiki_v37_en.xml#article371012 engishiki_v37_ja.xml#article371012"
-      n="37.12" subtype="項" type="条" xml:id="article371012">
+      n="37.12" type="条" xml:id="article371012">
       <head ana="乳牛"/>
       <p ana="項" corresp="engishiki_v37_en.xml#item37101201 engishiki_v37_ja.xml#item37101201"
        xml:id="item37101201"> 凡乳牛七頭・犢七頭年料、乾蒭四千四百卅四斤、〈 <anchor xml:id="app3710120101"/> 白 <anchor
@@ -1678,7 +1679,7 @@
       </app>
      </div>
      <div ana="典薬" corresp="engishiki_v37_en.xml#article371013 engishiki_v37_ja.xml#article371013"
-      n="37.13" subtype="項" type="条" xml:id="article371013">
+      n="37.13" type="条" xml:id="article371013">
       <head ana="造儲御薬料"/>
       <p ana="項" corresp="engishiki_v37_en.xml#item37101301 engishiki_v37_ja.xml#item37101301"
        xml:id="item37101301"> 造儲御薬料 <lb/> 胡麻二 <anchor xml:id="app3710130101"/> 石 <anchor
@@ -1693,7 +1694,7 @@
       </app>
      </div>
      <div ana="典薬" corresp="engishiki_v37_en.xml#article371014 engishiki_v37_ja.xml#article371014"
-      n="37.14" subtype="項" type="条" xml:id="article371014">
+      n="37.14" type="条" xml:id="article371014">
       <head ana="造供御白粉料"/>
       <p ana="項" corresp="engishiki_v37_en.xml#item37101401 engishiki_v37_ja.xml#item37101401"
        xml:id="item37101401"> 造供御白粉料 <lb/> 糯米一石五斗、粟一石、〈 <anchor xml:id="app3710140101"/> 申 <anchor
@@ -1730,7 +1731,7 @@
       </app>
      </div>
      <div ana="典薬" corresp="engishiki_v37_en.xml#article371015 engishiki_v37_ja.xml#article371015"
-      n="37.15" subtype="項" type="条" xml:id="article371015">
+      n="37.15" type="条" xml:id="article371015">
       <head ana="行幸"/>
       <p ana="項" corresp="engishiki_v37_en.xml#item37101501 engishiki_v37_ja.xml#item37101501"
        xml:id="item37101501"> 凡行幸者、 <anchor xml:id="app3710150101"/> 官人一人 <anchor
@@ -1764,7 +1765,7 @@
       </app>
      </div>
      <div ana="典薬" corresp="engishiki_v37_en.xml#article371016 engishiki_v37_ja.xml#article371016"
-      n="37.16" subtype="項" type="条" xml:id="article371016">
+      n="37.16" type="条" xml:id="article371016">
       <head ana="大嘗会陪従"/>
       <p ana="項" corresp="engishiki_v37_en.xml#item37101601 engishiki_v37_ja.xml#item37101601"
        xml:id="item37101601"> 凡践祚大嘗御禊行幸陪従、 <orgName corresp="#職"> 職 </orgName>
@@ -1772,7 +1773,7 @@
         <orgName corresp="#省"> 省 </orgName> 請 <orgName corresp="#大蔵省"> 大蔵省 </orgName> 、 </p>
      </div>
      <div ana="典薬" corresp="engishiki_v37_en.xml#article371017 engishiki_v37_ja.xml#article371017"
-      n="37.17" subtype="項" type="条" xml:id="article371017">
+      n="37.17" type="条" xml:id="article371017">
       <head ana="斎内親王"/>
       <p ana="項" corresp="engishiki_v37_en.xml#item37101701 engishiki_v37_ja.xml#item37101701"
        xml:id="item37101701"> 凡斎内親王向大神宮、 <anchor xml:id="app3710170101"/> 充 <anchor
@@ -1807,7 +1808,7 @@
       </app>
      </div>
      <div ana="典薬" corresp="engishiki_v37_en.xml#article371018 engishiki_v37_ja.xml#article371018"
-      n="37.18" subtype="項" type="条" xml:id="article371018">
+      n="37.18" type="条" xml:id="article371018">
       <head ana="斎宮寮雑薬"/>
       <p ana="項" corresp="engishiki_v37_en.xml#item37101801 engishiki_v37_ja.xml#item37101801"
        xml:id="item37101801"> 諸司年料雑薬 <pb
@@ -1941,7 +1942,7 @@
      <pb
       facs="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-37%2F00015.tif/full/full/0/default.jpg"/>
      <div ana="典薬" corresp="engishiki_v37_en.xml#article371019 engishiki_v37_ja.xml#article371019"
-      n="37.19" subtype="項" type="条" xml:id="article371019">
+      n="37.19" type="条" xml:id="article371019">
       <head ana="内匠寮雑薬"/>
       <p ana="項" corresp="engishiki_v37_en.xml#item37101901 engishiki_v37_ja.xml#item37101901"
        xml:id="item37101901">
@@ -1970,7 +1971,7 @@
       </app>
      </div>
      <div ana="典薬" corresp="engishiki_v37_en.xml#article371020 engishiki_v37_ja.xml#article371020"
-      n="37.20" subtype="項" type="条" xml:id="article371020">
+      n="37.20" type="条" xml:id="article371020">
       <head ana="木工寮雑薬"/>
       <p ana="項" corresp="engishiki_v37_en.xml#item37102001 engishiki_v37_ja.xml#item37102001"
        xml:id="item37102001">
@@ -2035,7 +2036,7 @@
       </app>
      </div>
      <div ana="典薬" corresp="engishiki_v37_en.xml#article371021 engishiki_v37_ja.xml#article371021"
-      n="37.21" subtype="項" type="条" xml:id="article371021">
+      n="37.21" type="条" xml:id="article371021">
       <head ana="近衛府雑薬"/>
       <p ana="項" corresp="engishiki_v37_en.xml#item37102101 engishiki_v37_ja.xml#item37102101"
        xml:id="item37102101">
@@ -2131,7 +2132,7 @@
       </app>
      </div>
      <div ana="典薬" corresp="engishiki_v37_en.xml#article371022 engishiki_v37_ja.xml#article371022"
-      n="37.22" subtype="項" type="条" xml:id="article371022">
+      n="37.22" type="条" xml:id="article371022">
       <head ana="衛門府雑薬"/>
       <p ana="項" corresp="engishiki_v37_en.xml#item37102201 engishiki_v37_ja.xml#item37102201"
        xml:id="item37102201">
@@ -2204,7 +2205,7 @@
       </app>
      </div>
      <div ana="典薬" corresp="engishiki_v37_en.xml#article371023 engishiki_v37_ja.xml#article371023"
-      n="37.23" subtype="項" type="条" xml:id="article371023">
+      n="37.23" type="条" xml:id="article371023">
       <head ana="兵衛府雑薬"/>
       <p ana="項" corresp="engishiki_v37_en.xml#item37102301 engishiki_v37_ja.xml#item37102301"
        xml:id="item37102301">
@@ -2277,7 +2278,7 @@
       </app>
      </div>
      <div ana="典薬" corresp="engishiki_v37_en.xml#article371024 engishiki_v37_ja.xml#article371024"
-      n="37.24" subtype="項" type="条" xml:id="article371024">
+      n="37.24" type="条" xml:id="article371024">
       <head ana="馬寮雑薬"/>
       <p ana="項" corresp="engishiki_v37_en.xml#item37102401 engishiki_v37_ja.xml#item37102401"
        xml:id="item37102401">
@@ -2297,7 +2298,7 @@
       </app>
      </div>
      <div ana="典薬" corresp="engishiki_v37_en.xml#article371025 engishiki_v37_ja.xml#article371025"
-      n="37.25" subtype="項" type="条" xml:id="article371025">
+      n="37.25" type="条" xml:id="article371025">
       <head ana="兵庫寮雑薬"/>
       <p ana="項" corresp="engishiki_v37_en.xml#item37102501 engishiki_v37_ja.xml#item37102501"
        xml:id="item37102501">
@@ -2312,7 +2313,7 @@
       </app>
      </div>
      <div ana="典薬" corresp="engishiki_v37_en.xml#article371026 engishiki_v37_ja.xml#article371026"
-      n="37.26" subtype="項" type="条" xml:id="article371026">
+      n="37.26" type="条" xml:id="article371026">
       <head ana="唐使雑薬"/>
       <p ana="項" corresp="engishiki_v37_en.xml#item37102601 engishiki_v37_ja.xml#item37102601"
        xml:id="item37102601"> 遣諸蕃使 <lb/> 唐使十一種 <lb/> 犀角丸・大戟丸各四剤、七気丸・八味理仲丸・百毒散・度嶂散各十二剤、 <anchor
@@ -2324,7 +2325,7 @@
       </app>
      </div>
      <div ana="典薬" corresp="engishiki_v37_en.xml#article371027 engishiki_v37_ja.xml#article371027"
-      n="37.27" subtype="項" type="条" xml:id="article371027">
+      n="37.27" type="条" xml:id="article371027">
       <head ana="唐使草薬"/>
       <p ana="項" corresp="engishiki_v37_en.xml#item37102701 engishiki_v37_ja.xml#item37102701"
        xml:id="item37102701"> 草薬五十九種 <lb/>
@@ -2394,7 +2395,7 @@
       </app>
      </div>
      <div ana="典薬" corresp="engishiki_v37_en.xml#article371028 engishiki_v37_ja.xml#article371028"
-      n="37.28" subtype="項" type="条" xml:id="article371028">
+      n="37.28" type="条" xml:id="article371028">
       <head ana="渤海使雑薬"/>
       <p ana="項" corresp="engishiki_v37_en.xml#item37102801 engishiki_v37_ja.xml#item37102801"
        xml:id="item37102801">
@@ -2432,7 +2433,7 @@
       </app>
      </div>
      <div ana="典薬" corresp="engishiki_v37_en.xml#article371029 engishiki_v37_ja.xml#article371029"
-      n="37.29" subtype="項" type="条" xml:id="article371029">
+      n="37.29" type="条" xml:id="article371029">
       <head ana="渤海使草薬"/>
       <p ana="項" corresp="engishiki_v37_en.xml#item37102901 engishiki_v37_ja.xml#item37102901"
        xml:id="item37102901"> 草薬八十種 <lb/> 練胡麻大五升、桃人一斗四升、黄芩・ <anchor xml:id="app3710290101"/> 薺
@@ -2589,7 +2590,7 @@
       </app>
      </div>
      <div ana="典薬" corresp="engishiki_v37_en.xml#article371030 engishiki_v37_ja.xml#article371030"
-      n="37.30" subtype="項" type="条" xml:id="article371030">
+      n="37.30" type="条" xml:id="article371030">
       <head ana="新羅使雑薬"/>
       <p ana="項" corresp="engishiki_v37_en.xml#item37103001 engishiki_v37_ja.xml#item37103001"
        xml:id="item37103001"> 新羅使六種 <lb/> 八味理仲丸・七気丸各一剤、百毒散二剤、 <anchor xml:id="app3710300101"/> 伏
@@ -2603,7 +2604,7 @@
      <pb
       facs="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-37%2F00021.tif/full/full/0/default.jpg"/>
      <div ana="典薬" corresp="engishiki_v37_en.xml#article371031 engishiki_v37_ja.xml#article371031"
-      n="37.31" subtype="項" type="条" xml:id="article371031">
+      n="37.31" type="条" xml:id="article371031">
       <head ana="新羅使草薬"/>
       <p ana="項" corresp="engishiki_v37_en.xml#item37103101 engishiki_v37_ja.xml#item37103101"
        xml:id="item37103101"> 草薬廿四種 <lb/> 半夏・呉茱萸・僕奈・五味子各五升、 <anchor xml:id="app3710310101"/> 升
@@ -2672,7 +2673,7 @@
       </app>
      </div>
      <div ana="典薬" corresp="engishiki_v37_en.xml#article371032 engishiki_v37_ja.xml#article371032"
-      n="37.32" subtype="項" type="条" xml:id="article371032">
+      n="37.32" type="条" xml:id="article371032">
       <head ana="読医経"/>
       <p ana="項" corresp="engishiki_v37_en.xml#item37103201 engishiki_v37_ja.xml#item37103201"
        xml:id="item37103201">
@@ -2703,7 +2704,7 @@
       </app>
      </div>
      <div ana="典薬" corresp="engishiki_v37_en.xml#article371033 engishiki_v37_ja.xml#article371033"
-      n="37.33" subtype="項" type="条" xml:id="article371033">
+      n="37.33" type="条" xml:id="article371033">
       <head ana="大素経"/>
       <p ana="項" corresp="engishiki_v37_en.xml#item37103301 engishiki_v37_ja.xml#item37103301"
        xml:id="item37103301"> 凡大素経 <anchor xml:id="app3710330101"/> 准 <anchor
@@ -2725,20 +2726,20 @@
       </app>
      </div>
      <div ana="典薬" corresp="engishiki_v37_en.xml#article371034 engishiki_v37_ja.xml#article371034"
-      n="37.34" subtype="項" type="条" xml:id="article371034">
+      n="37.34" type="条" xml:id="article371034">
       <head ana="講書座料"/>
       <p ana="項" corresp="engishiki_v37_en.xml#item37103401 engishiki_v37_ja.xml#item37103401"
        xml:id="item37103401"> 凡講書座料、折薦茵二枚、〈医・針博士料、〉長畳三枚、〈生料、〉並隔三年申 <orgName corresp="#省"> 省
        </orgName> 請受、 </p>
      </div>
      <div ana="典薬" corresp="engishiki_v37_en.xml#article371035 engishiki_v37_ja.xml#article371035"
-      n="37.35" subtype="項" type="条" xml:id="article371035">
+      n="37.35" type="条" xml:id="article371035">
       <head ana="得業生"/>
       <p ana="項" corresp="engishiki_v37_en.xml#item37103501 engishiki_v37_ja.xml#item37103501"
        xml:id="item37103501"> 凡得業生四人、衣食同 <orgName corresp="#大学寮"> 大学 </orgName> 得業生、 </p>
      </div>
      <div ana="典薬" corresp="engishiki_v37_en.xml#article371036 engishiki_v37_ja.xml#article371036"
-      n="37.36" subtype="項" type="条" xml:id="article371036">
+      n="37.36" type="条" xml:id="article371036">
       <head ana="医師公廨"/>
       <p ana="項" corresp="engishiki_v37_en.xml#item37103601 engishiki_v37_ja.xml#item37103601"
        xml:id="item37103601"> 凡 <placeName corresp="#諸国"> 諸国 </placeName> 医師公廨、人 <anchor
@@ -2765,20 +2766,20 @@
       </app>
      </div>
      <div ana="典薬" corresp="engishiki_v37_en.xml#article371037 engishiki_v37_ja.xml#article371037"
-      n="37.37" subtype="項" type="条" xml:id="article371037">
+      n="37.37" type="条" xml:id="article371037">
       <head ana="授業師料物"/>
       <p ana="項" corresp="engishiki_v37_en.xml#item37103701 engishiki_v37_ja.xml#item37103701"
        xml:id="item37103701"> 凡 <placeName corresp="#諸国"> 諸国 </placeName> 所送授業師料物者、勘納 <orgName
         corresp="#典薬寮"> 寮 </orgName> 庫、即医・針生料、各充其博士、薬生料分充侍医、 </p>
      </div>
      <div ana="典薬" corresp="engishiki_v37_en.xml#article371038 engishiki_v37_ja.xml#article371038"
-      n="37.38" subtype="項" type="条" xml:id="article371038">
+      n="37.38" type="条" xml:id="article371038">
       <head ana="五位以上草薬"/>
       <p ana="項" corresp="engishiki_v37_en.xml#item37103801 engishiki_v37_ja.xml#item37103801"
        xml:id="item37103801"> 凡五位已上、有須草薬者、就 <orgName corresp="#典薬寮"> 寮 </orgName> 請之、 </p>
      </div>
      <div ana="典薬" corresp="engishiki_v37_en.xml#article371039 engishiki_v37_ja.xml#article371039"
-      n="37.39" subtype="項" type="条" xml:id="article371039">
+      n="37.39" type="条" xml:id="article371039">
       <head ana="年料雑物"/>
       <p ana="項" corresp="engishiki_v37_en.xml#item37103901 engishiki_v37_ja.xml#item37103901"
        xml:id="item37103901"> 年料雑物 <lb/> 紙二百張、鉄臼一口、 <anchor xml:id="app3710390101"/> 鍋 <anchor
@@ -2814,7 +2815,7 @@
       </app>
      </div>
      <div ana="典薬" corresp="engishiki_v37_en.xml#article371040 engishiki_v37_ja.xml#article371040"
-      n="37.40" subtype="項" type="条" xml:id="article371040">
+      n="37.40" type="条" xml:id="article371040">
       <head ana="寮家儲物"/>
       <p ana="項" corresp="engishiki_v37_en.xml#item37104001 engishiki_v37_ja.xml#item37104001"
        xml:id="item37104001">
@@ -2850,7 +2851,7 @@
       </app>
      </div>
      <div ana="典薬" corresp="engishiki_v37_en.xml#article371041 engishiki_v37_ja.xml#article371041"
-      n="37.41" subtype="項" type="条" xml:id="article371041">
+      n="37.41" type="条" xml:id="article371041">
       <head ana="味原牧"/>
       <p ana="項" corresp="engishiki_v37_en.xml#item37104101 engishiki_v37_ja.xml#item37104101"
        xml:id="item37104101"> 凡味原 <anchor xml:id="app3710410101"/> 牧 <anchor xml:id="app3710410101e"
@@ -2876,7 +2877,7 @@
       </app>
      </div>
      <div ana="典薬" corresp="engishiki_v37_en.xml#article371042 engishiki_v37_ja.xml#article371042"
-      n="37.42" subtype="項" type="条" xml:id="article371042">
+      n="37.42" type="条" xml:id="article371042">
       <head ana="味原死牛"/>
       <p ana="項" corresp="engishiki_v37_en.xml#item37104201 engishiki_v37_ja.xml#item37104201"
        xml:id="item37104201"> 凡味原牛 <anchor xml:id="app3710420101"/> 牧 <anchor
@@ -2890,7 +2891,7 @@
       </app>
      </div>
      <div ana="典薬" corresp="engishiki_v37_en.xml#article371043 engishiki_v37_ja.xml#article371043"
-      n="37.43" subtype="項" type="条" xml:id="article371043">
+      n="37.43" type="条" xml:id="article371043">
       <head ana="地黄地"/>
       <p ana="項" corresp="engishiki_v37_en.xml#item37104301 engishiki_v37_ja.xml#item37104301"
        xml:id="item37104301"> 凡 <placeName corresp="#山城国"> 山城国 </placeName> 地二町、在葛野郡十三条水谷下里、 <anchor
@@ -2903,7 +2904,7 @@
       </app>
      </div>
      <div ana="典薬" corresp="engishiki_v37_en.xml#article371044 engishiki_v37_ja.xml#article371044"
-      n="37.44" subtype="項" type="条" xml:id="article371044">
+      n="37.44" type="条" xml:id="article371044">
       <head ana="勧学田"/>
       <p ana="項" corresp="engishiki_v37_en.xml#item37104401 engishiki_v37_ja.xml#item37104401"
        xml:id="item37104401"> 勧学田十八町 <lb/> 十三町〈 <placeName corresp="#大和国"> 大和国 </placeName> 九町、
@@ -2921,7 +2922,7 @@
       </app>
      </div>
      <div ana="典薬" corresp="engishiki_v37_en.xml#article371045 engishiki_v37_ja.xml#article371045"
-      n="37.45" subtype="項" type="条" xml:id="article371045">
+      n="37.45" type="条" xml:id="article371045">
       <head ana="山城年料雑薬"/>
       <p ana="項" corresp="engishiki_v37_en.xml#item37104501 engishiki_v37_ja.xml#item37104501"
        xml:id="item37104501">
@@ -2985,7 +2986,7 @@
       </app>
      </div>
      <div ana="典薬" corresp="engishiki_v37_en.xml#article371046 engishiki_v37_ja.xml#article371046"
-      n="37.46" subtype="項" type="条" xml:id="article371046">
+      n="37.46" type="条" xml:id="article371046">
       <head ana="大和年料雑薬"/>
       <p ana="項" corresp="engishiki_v37_en.xml#item37104601 engishiki_v37_ja.xml#item37104601"
        xml:id="item37104601">
@@ -3053,7 +3054,7 @@
       </app>
      </div>
      <div ana="典薬" corresp="engishiki_v37_en.xml#article371047 engishiki_v37_ja.xml#article371047"
-      n="37.47" subtype="項" type="条" xml:id="article371047">
+      n="37.47" type="条" xml:id="article371047">
       <head ana="摂津年料雑薬"/>
       <p ana="項" corresp="engishiki_v37_en.xml#item37104701 engishiki_v37_ja.xml#item37104701"
        xml:id="item37104701">
@@ -3158,7 +3159,7 @@
       </app>
      </div>
      <div ana="典薬" corresp="engishiki_v37_en.xml#article371048 engishiki_v37_ja.xml#article371048"
-      n="37.48" subtype="項" type="条" xml:id="article371048">
+      n="37.48" type="条" xml:id="article371048">
       <head ana="河内年料雑薬"/>
       <p ana="項" corresp="engishiki_v37_en.xml#item37104801 engishiki_v37_ja.xml#item37104801"
        xml:id="item37104801">
@@ -3179,7 +3180,7 @@
       </app>
      </div>
      <div ana="典薬" corresp="engishiki_v37_en.xml#article371049 engishiki_v37_ja.xml#article371049"
-      n="37.49" subtype="項" type="条" xml:id="article371049">
+      n="37.49" type="条" xml:id="article371049">
       <head ana="伊賀年料雑薬"/>
       <p ana="項" corresp="engishiki_v37_en.xml#item37104901 engishiki_v37_ja.xml#item37104901"
        xml:id="item37104901">
@@ -3216,7 +3217,7 @@
       </app>
      </div>
      <div ana="典薬" corresp="engishiki_v37_en.xml#article371050 engishiki_v37_ja.xml#article371050"
-      n="37.50" subtype="項" type="条" xml:id="article371050">
+      n="37.50" type="条" xml:id="article371050">
       <head ana="伊勢年料雑薬"/>
       <p ana="項" corresp="engishiki_v37_en.xml#item37105001 engishiki_v37_ja.xml#item37105001"
        xml:id="item37105001">
@@ -3302,7 +3303,7 @@
       </app>
      </div>
      <div ana="典薬" corresp="engishiki_v37_en.xml#article371051 engishiki_v37_ja.xml#article371051"
-      n="37.51" subtype="項" type="条" xml:id="article371051">
+      n="37.51" type="条" xml:id="article371051">
       <head ana="尾張年料雑薬"/>
       <p ana="項" corresp="engishiki_v37_en.xml#item37105101 engishiki_v37_ja.xml#item37105101"
        xml:id="item37105101">
@@ -3377,7 +3378,7 @@
       </app>
      </div>
      <div ana="典薬" corresp="engishiki_v37_en.xml#article371052 engishiki_v37_ja.xml#article371052"
-      n="37.52" subtype="項" type="条" xml:id="article371052">
+      n="37.52" type="条" xml:id="article371052">
       <head ana="参河年料雑薬"/>
       <p ana="項" corresp="engishiki_v37_en.xml#item37105201 engishiki_v37_ja.xml#item37105201"
        xml:id="item37105201">
@@ -3421,7 +3422,7 @@
       </app>
      </div>
      <div ana="典薬" corresp="engishiki_v37_en.xml#article371053 engishiki_v37_ja.xml#article371053"
-      n="37.53" subtype="項" type="条" xml:id="article371053">
+      n="37.53" type="条" xml:id="article371053">
       <head ana="遠江年料雑薬"/>
       <p ana="項" corresp="engishiki_v37_en.xml#item37105301 engishiki_v37_ja.xml#item37105301"
        xml:id="item37105301">
@@ -3443,7 +3444,7 @@
       </app>
      </div>
      <div ana="典薬" corresp="engishiki_v37_en.xml#article371054 engishiki_v37_ja.xml#article371054"
-      n="37.54" subtype="項" type="条" xml:id="article371054">
+      n="37.54" type="条" xml:id="article371054">
       <head ana="駿河年料雑薬"/>
       <p ana="項" corresp="engishiki_v37_en.xml#item37105401 engishiki_v37_ja.xml#item37105401"
        xml:id="item37105401">
@@ -3492,7 +3493,7 @@
      <pb
       facs="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-37%2F00028.tif/full/full/0/default.jpg"/>
      <div ana="典薬" corresp="engishiki_v37_en.xml#article371055 engishiki_v37_ja.xml#article371055"
-      n="37.55" subtype="項" type="条" xml:id="article371055">
+      n="37.55" type="条" xml:id="article371055">
       <head ana="伊豆年料雑薬"/>
       <p ana="項" corresp="engishiki_v37_en.xml#item37105501 engishiki_v37_ja.xml#item37105501"
        xml:id="item37105501">
@@ -3547,7 +3548,7 @@
       </app>
      </div>
      <div ana="典薬" corresp="engishiki_v37_en.xml#article371056 engishiki_v37_ja.xml#article371056"
-      n="37.56" subtype="項" type="条" xml:id="article371056">
+      n="37.56" type="条" xml:id="article371056">
       <head ana="甲斐年料雑薬"/>
       <p ana="項" corresp="engishiki_v37_en.xml#item37105601 engishiki_v37_ja.xml#item37105601"
        xml:id="item37105601">
@@ -3595,7 +3596,7 @@
       </app>
      </div>
      <div ana="典薬" corresp="engishiki_v37_en.xml#article371057 engishiki_v37_ja.xml#article371057"
-      n="37.57" subtype="項" type="条" xml:id="article371057">
+      n="37.57" type="条" xml:id="article371057">
       <head ana="相摸年料雑薬"/>
       <p ana="項" corresp="engishiki_v37_en.xml#item37105701 engishiki_v37_ja.xml#item37105701"
        xml:id="item37105701">
@@ -3685,7 +3686,7 @@
       </app>
      </div>
      <div ana="典薬" corresp="engishiki_v37_en.xml#article371058 engishiki_v37_ja.xml#article371058"
-      n="37.58" subtype="項" type="条" xml:id="article371058">
+      n="37.58" type="条" xml:id="article371058">
       <head ana="武蔵年料雑薬"/>
       <p ana="項" corresp="engishiki_v37_en.xml#item37105801 engishiki_v37_ja.xml#item37105801"
        xml:id="item37105801">
@@ -3728,7 +3729,7 @@
       </app>
      </div>
      <div ana="典薬" corresp="engishiki_v37_en.xml#article371059 engishiki_v37_ja.xml#article371059"
-      n="37.59" subtype="項" type="条" xml:id="article371059">
+      n="37.59" type="条" xml:id="article371059">
       <head ana="安房年料雑薬"/>
       <p ana="項" corresp="engishiki_v37_en.xml#item37105901 engishiki_v37_ja.xml#item37105901"
        xml:id="item37105901">
@@ -3768,7 +3769,7 @@
       </app>
      </div>
      <div ana="典薬" corresp="engishiki_v37_en.xml#article371060 engishiki_v37_ja.xml#article371060"
-      n="37.60" subtype="項" type="条" xml:id="article371060">
+      n="37.60" type="条" xml:id="article371060">
       <head ana="上総年料雑薬"/>
       <p ana="項" corresp="engishiki_v37_en.xml#item37106001 engishiki_v37_ja.xml#item37106001"
        xml:id="item37106001">
@@ -3827,7 +3828,7 @@
       </app>
      </div>
      <div ana="典薬" corresp="engishiki_v37_en.xml#article371061 engishiki_v37_ja.xml#article371061"
-      n="37.61" subtype="項" type="条" xml:id="article371061">
+      n="37.61" type="条" xml:id="article371061">
       <head ana="下総年料雑薬"/>
       <p ana="項" corresp="engishiki_v37_en.xml#item37106101 engishiki_v37_ja.xml#item37106101"
        xml:id="item37106101">
@@ -3876,7 +3877,7 @@
       </app>
      </div>
      <div ana="典薬" corresp="engishiki_v37_en.xml#article371062 engishiki_v37_ja.xml#article371062"
-      n="37.62" subtype="項" type="条" xml:id="article371062">
+      n="37.62" type="条" xml:id="article371062">
       <head ana="常陸年料雑薬"/>
       <p ana="項" corresp="engishiki_v37_en.xml#item37106201 engishiki_v37_ja.xml#item37106201"
        xml:id="item37106201">
@@ -3913,7 +3914,7 @@
      <pb
       facs="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-37%2F00031.tif/full/full/0/default.jpg"/>
      <div ana="典薬" corresp="engishiki_v37_en.xml#article371063 engishiki_v37_ja.xml#article371063"
-      n="37.63" subtype="項" type="条" xml:id="article371063">
+      n="37.63" type="条" xml:id="article371063">
       <head ana="近江年料雑薬"/>
       <p ana="項" corresp="engishiki_v37_en.xml#item37106301 engishiki_v37_ja.xml#item37106301"
        xml:id="item37106301">
@@ -4090,7 +4091,7 @@
       </app>
      </div>
      <div ana="典薬" corresp="engishiki_v37_en.xml#article371064 engishiki_v37_ja.xml#article371064"
-      n="37.64" subtype="項" type="条" xml:id="article371064">
+      n="37.64" type="条" xml:id="article371064">
       <head ana="美濃年料雑薬"/>
       <p ana="項" corresp="engishiki_v37_en.xml#item37106401 engishiki_v37_ja.xml#item37106401"
        xml:id="item37106401">
@@ -4198,7 +4199,7 @@
      <pb
       facs="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-37%2F00033.tif/full/full/0/default.jpg"/>
      <div ana="典薬" corresp="engishiki_v37_en.xml#article371065 engishiki_v37_ja.xml#article371065"
-      n="37.65" subtype="項" type="条" xml:id="article371065">
+      n="37.65" type="条" xml:id="article371065">
       <head ana="飛騨年料雑薬"/>
       <p ana="項" corresp="engishiki_v37_en.xml#item37106501 engishiki_v37_ja.xml#item37106501"
        xml:id="item37106501">
@@ -4250,7 +4251,7 @@
       </app>
      </div>
      <div ana="典薬" corresp="engishiki_v37_en.xml#article371066 engishiki_v37_ja.xml#article371066"
-      n="37.66" subtype="項" type="条" xml:id="article371066">
+      n="37.66" type="条" xml:id="article371066">
       <head ana="信濃年料雑薬"/>
       <p ana="項" corresp="engishiki_v37_en.xml#item37106601 engishiki_v37_ja.xml#item37106601"
        xml:id="item37106601">
@@ -4287,7 +4288,7 @@
       </app>
      </div>
      <div ana="典薬" corresp="engishiki_v37_en.xml#article371067 engishiki_v37_ja.xml#article371067"
-      n="37.67" subtype="項" type="条" xml:id="article371067">
+      n="37.67" type="条" xml:id="article371067">
       <head ana="上野年料雑薬"/>
       <p ana="項" corresp="engishiki_v37_en.xml#item37106701 engishiki_v37_ja.xml#item37106701"
        xml:id="item37106701">
@@ -4305,7 +4306,7 @@
       </app>
      </div>
      <div ana="典薬" corresp="engishiki_v37_en.xml#article371068 engishiki_v37_ja.xml#article371068"
-      n="37.68" subtype="項" type="条" xml:id="article371068">
+      n="37.68" type="条" xml:id="article371068">
       <head ana="下野年料雑薬"/>
       <p ana="項" corresp="engishiki_v37_en.xml#item37106801 engishiki_v37_ja.xml#item37106801"
        xml:id="item37106801">
@@ -4334,7 +4335,7 @@
       </app>
      </div>
      <div ana="典薬" corresp="engishiki_v37_en.xml#article371069 engishiki_v37_ja.xml#article371069"
-      n="37.69" subtype="項" type="条" xml:id="article371069">
+      n="37.69" type="条" xml:id="article371069">
       <head ana="陸奥年料雑薬"/>
       <p ana="項" corresp="engishiki_v37_en.xml#item37106901 engishiki_v37_ja.xml#item37106901"
        xml:id="item37106901">
@@ -4369,7 +4370,7 @@
       </app>
      </div>
      <div ana="典薬" corresp="engishiki_v37_en.xml#article371070 engishiki_v37_ja.xml#article371070"
-      n="37.70" subtype="項" type="条" xml:id="article371070">
+      n="37.70" type="条" xml:id="article371070">
       <head ana="出羽年料雑薬"/>
       <p ana="項" corresp="engishiki_v37_en.xml#item37107001 engishiki_v37_ja.xml#item37107001"
        xml:id="item37107001">
@@ -4387,7 +4388,7 @@
       </app>
      </div>
      <div ana="典薬" corresp="engishiki_v37_en.xml#article371071 engishiki_v37_ja.xml#article371071"
-      n="37.71" subtype="項" type="条" xml:id="article371071">
+      n="37.71" type="条" xml:id="article371071">
       <head ana="若狭年料雑薬"/>
       <p ana="項" corresp="engishiki_v37_en.xml#item37107101 engishiki_v37_ja.xml#item37107101"
        xml:id="item37107101">
@@ -4433,7 +4434,7 @@
       </app>
      </div>
      <div ana="典薬" corresp="engishiki_v37_en.xml#article371072 engishiki_v37_ja.xml#article371072"
-      n="37.72" subtype="項" type="条" xml:id="article371072">
+      n="37.72" type="条" xml:id="article371072">
       <head ana="越前年料雑薬"/>
       <p ana="項" corresp="engishiki_v37_en.xml#item37107201 engishiki_v37_ja.xml#item37107201"
        xml:id="item37107201">
@@ -4462,7 +4463,7 @@
       </app>
      </div>
      <div ana="典薬" corresp="engishiki_v37_en.xml#article371073 engishiki_v37_ja.xml#article371073"
-      n="37.73" subtype="項" type="条" xml:id="article371073">
+      n="37.73" type="条" xml:id="article371073">
       <head ana="加賀年料雑薬"/>
       <p ana="項" corresp="engishiki_v37_en.xml#item37107301 engishiki_v37_ja.xml#item37107301"
        xml:id="item37107301">
@@ -4493,7 +4494,7 @@
       </app>
      </div>
      <div ana="典薬" corresp="engishiki_v37_en.xml#article371074 engishiki_v37_ja.xml#article371074"
-      n="37.74" subtype="項" type="条" xml:id="article371074">
+      n="37.74" type="条" xml:id="article371074">
       <head ana="能登年料雑薬"/>
       <p ana="項" corresp="engishiki_v37_en.xml#item37107401 engishiki_v37_ja.xml#item37107401"
        xml:id="item37107401">
@@ -4505,7 +4506,7 @@
       </app>
      </div>
      <div ana="典薬" corresp="engishiki_v37_en.xml#article371075 engishiki_v37_ja.xml#article371075"
-      n="37.75" subtype="項" type="条" xml:id="article371075">
+      n="37.75" type="条" xml:id="article371075">
       <head ana="越中年料雑薬"/>
       <p ana="項" corresp="engishiki_v37_en.xml#item37107501 engishiki_v37_ja.xml#item37107501"
        xml:id="item37107501">
@@ -4533,7 +4534,7 @@
       </app>
      </div>
      <div ana="典薬" corresp="engishiki_v37_en.xml#article371076 engishiki_v37_ja.xml#article371076"
-      n="37.76" subtype="項" type="条" xml:id="article371076">
+      n="37.76" type="条" xml:id="article371076">
       <head ana="越後年料雑薬"/>
       <p ana="項" corresp="engishiki_v37_en.xml#item37107601 engishiki_v37_ja.xml#item37107601"
        xml:id="item37107601">
@@ -4551,14 +4552,14 @@
       </app>
      </div>
      <div ana="典薬" corresp="engishiki_v37_en.xml#article371077 engishiki_v37_ja.xml#article371077"
-      n="37.77" subtype="項" type="条" xml:id="article371077">
+      n="37.77" type="条" xml:id="article371077">
       <head ana="佐渡年料雑薬"/>
       <p ana="項" corresp="engishiki_v37_en.xml#item37107701 engishiki_v37_ja.xml#item37107701"
        xml:id="item37107701">
        <placeName corresp="#佐渡国"> 佐渡国 </placeName> 四種 <lb/> 黄連十五斤十両、藍漆廿五斤、細辛卌八斤、蜀椒三斗、 </p>
      </div>
      <div ana="典薬" corresp="engishiki_v37_en.xml#article371078 engishiki_v37_ja.xml#article371078"
-      n="37.78" subtype="項" type="条" xml:id="article371078">
+      n="37.78" type="条" xml:id="article371078">
       <head ana="丹波年料雑薬"/>
       <p ana="項" corresp="engishiki_v37_en.xml#item37107801 engishiki_v37_ja.xml#item37107801"
        xml:id="item37107801">
@@ -4639,7 +4640,7 @@
       </app>
      </div>
      <div ana="典薬" corresp="engishiki_v37_en.xml#article371079 engishiki_v37_ja.xml#article371079"
-      n="37.79" subtype="項" type="条" xml:id="article371079">
+      n="37.79" type="条" xml:id="article371079">
       <head ana="丹後年料雑薬"/>
       <p ana="項" corresp="engishiki_v37_en.xml#item37107901 engishiki_v37_ja.xml#item37107901"
        xml:id="item37107901">
@@ -4686,7 +4687,7 @@
       </app>
      </div>
      <div ana="典薬" corresp="engishiki_v37_en.xml#article371080 engishiki_v37_ja.xml#article371080"
-      n="37.80" subtype="項" type="条" xml:id="article371080">
+      n="37.80" type="条" xml:id="article371080">
       <head ana="但馬年料雑薬"/>
       <p ana="項" corresp="engishiki_v37_en.xml#item37108001 engishiki_v37_ja.xml#item37108001"
        xml:id="item37108001">
@@ -4750,7 +4751,7 @@
       </app>
      </div>
      <div ana="典薬" corresp="engishiki_v37_en.xml#article371081 engishiki_v37_ja.xml#article371081"
-      n="37.81" subtype="項" type="条" xml:id="article371081">
+      n="37.81" type="条" xml:id="article371081">
       <head ana="因幡年料雑薬"/>
       <p ana="項" corresp="engishiki_v37_en.xml#item37108101 engishiki_v37_ja.xml#item37108101"
        xml:id="item37108101">
@@ -4808,7 +4809,7 @@
       </app>
      </div>
      <div ana="典薬" corresp="engishiki_v37_en.xml#article371082 engishiki_v37_ja.xml#article371082"
-      n="37.82" subtype="項" type="条" xml:id="article371082">
+      n="37.82" type="条" xml:id="article371082">
       <head ana="伯耆年料雑薬"/>
       <p ana="項" corresp="engishiki_v37_en.xml#item37108201 engishiki_v37_ja.xml#item37108201"
        xml:id="item37108201">
@@ -4847,7 +4848,7 @@
       </app>
      </div>
      <div ana="典薬" corresp="engishiki_v37_en.xml#article371083 engishiki_v37_ja.xml#article371083"
-      n="37.83" subtype="項" type="条" xml:id="article371083">
+      n="37.83" type="条" xml:id="article371083">
       <head ana="出雲年料雑薬"/>
       <p ana="項" corresp="engishiki_v37_en.xml#item37108301 engishiki_v37_ja.xml#item37108301"
        xml:id="item37108301">
@@ -4904,7 +4905,7 @@
       </app>
      </div>
      <div ana="典薬" corresp="engishiki_v37_en.xml#article371084 engishiki_v37_ja.xml#article371084"
-      n="37.84" subtype="項" type="条" xml:id="article371084">
+      n="37.84" type="条" xml:id="article371084">
       <head ana="石見年料雑薬"/>
       <p ana="項" corresp="engishiki_v37_en.xml#item37108401 engishiki_v37_ja.xml#item37108401"
        xml:id="item37108401">
@@ -4941,7 +4942,7 @@
       </app>
      </div>
      <div ana="典薬" corresp="engishiki_v37_en.xml#article371085 engishiki_v37_ja.xml#article371085"
-      n="37.85" subtype="項" type="条" xml:id="article371085">
+      n="37.85" type="条" xml:id="article371085">
       <head ana="播磨年料雑薬"/>
       <p ana="項" corresp="engishiki_v37_en.xml#item37108501 engishiki_v37_ja.xml#item37108501"
        xml:id="item37108501">
@@ -5042,7 +5043,7 @@
      <pb
       facs="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-37%2F00040.tif/full/full/0/default.jpg"/>
      <div ana="典薬" corresp="engishiki_v37_en.xml#article371086 engishiki_v37_ja.xml#article371086"
-      n="37.86" subtype="項" type="条" xml:id="article371086">
+      n="37.86" type="条" xml:id="article371086">
       <head ana="美作年料雑薬"/>
       <p ana="項" corresp="engishiki_v37_en.xml#item37108601 engishiki_v37_ja.xml#item37108601"
        xml:id="item37108601">
@@ -5107,7 +5108,7 @@
       </app>
      </div>
      <div ana="典薬" corresp="engishiki_v37_en.xml#article371087 engishiki_v37_ja.xml#article371087"
-      n="37.87" subtype="項" type="条" xml:id="article371087">
+      n="37.87" type="条" xml:id="article371087">
       <head ana="備前年料雑薬"/>
       <p ana="項" corresp="engishiki_v37_en.xml#item37108701 engishiki_v37_ja.xml#item37108701"
        xml:id="item37108701">
@@ -5156,7 +5157,7 @@
       </app>
      </div>
      <div ana="典薬" corresp="engishiki_v37_en.xml#article371088 engishiki_v37_ja.xml#article371088"
-      n="37.88" subtype="項" type="条" xml:id="article371088">
+      n="37.88" type="条" xml:id="article371088">
       <head ana="備中年料雑薬"/>
       <p ana="項" corresp="engishiki_v37_en.xml#item37108801 engishiki_v37_ja.xml#item37108801"
        xml:id="item37108801">
@@ -5241,7 +5242,7 @@
       </app>
      </div>
      <div ana="典薬" corresp="engishiki_v37_en.xml#article371089 engishiki_v37_ja.xml#article371089"
-      n="37.89" subtype="項" type="条" xml:id="article371089">
+      n="37.89" type="条" xml:id="article371089">
       <head ana="備後年料雑薬"/>
       <p ana="項" corresp="engishiki_v37_en.xml#item37108901 engishiki_v37_ja.xml#item37108901"
        xml:id="item37108901">
@@ -5295,7 +5296,7 @@
       </app>
      </div>
      <div ana="典薬" corresp="engishiki_v37_en.xml#article371090 engishiki_v37_ja.xml#article371090"
-      n="37.90" subtype="項" type="条" xml:id="article371090">
+      n="37.90" type="条" xml:id="article371090">
       <head ana="安芸年料雑薬"/>
       <p ana="項" corresp="engishiki_v37_en.xml#item37109001 engishiki_v37_ja.xml#item37109001"
        xml:id="item37109001">
@@ -5359,7 +5360,7 @@
       </app>
      </div>
      <div ana="典薬" corresp="engishiki_v37_en.xml#article371091 engishiki_v37_ja.xml#article371091"
-      n="37.91" subtype="項" type="条" xml:id="article371091">
+      n="37.91" type="条" xml:id="article371091">
       <head ana="周防年料雑薬"/>
       <p ana="項" corresp="engishiki_v37_en.xml#item37109101 engishiki_v37_ja.xml#item37109101"
        xml:id="item37109101">
@@ -5396,7 +5397,7 @@
       </app>
      </div>
      <div ana="典薬" corresp="engishiki_v37_en.xml#article371092 engishiki_v37_ja.xml#article371092"
-      n="37.92" subtype="項" type="条" xml:id="article371092">
+      n="37.92" type="条" xml:id="article371092">
       <head ana="長門年料雑薬"/>
       <p ana="項" corresp="engishiki_v37_en.xml#item37109201 engishiki_v37_ja.xml#item37109201"
        xml:id="item37109201">
@@ -5434,7 +5435,7 @@
       </app>
      </div>
      <div ana="典薬" corresp="engishiki_v37_en.xml#article371093 engishiki_v37_ja.xml#article371093"
-      n="37.93" subtype="項" type="条" xml:id="article371093">
+      n="37.93" type="条" xml:id="article371093">
       <head ana="紀伊年料雑薬"/>
       <p ana="項" corresp="engishiki_v37_en.xml#item37109301 engishiki_v37_ja.xml#item37109301"
        xml:id="item37109301">
@@ -5503,7 +5504,7 @@
       </app>
      </div>
      <div ana="典薬" corresp="engishiki_v37_en.xml#article371094 engishiki_v37_ja.xml#article371094"
-      n="37.94" subtype="項" type="条" xml:id="article371094">
+      n="37.94" type="条" xml:id="article371094">
       <head ana="阿波年料雑薬"/>
       <p ana="項" corresp="engishiki_v37_en.xml#item37109401 engishiki_v37_ja.xml#item37109401"
        xml:id="item37109401">
@@ -5551,7 +5552,7 @@
       </app>
      </div>
      <div ana="典薬" corresp="engishiki_v37_en.xml#article371095 engishiki_v37_ja.xml#article371095"
-      n="37.95" subtype="項" type="条" xml:id="article371095">
+      n="37.95" type="条" xml:id="article371095">
       <head ana="讃岐年料雑薬"/>
       <p ana="項" corresp="engishiki_v37_en.xml#item37109501 engishiki_v37_ja.xml#item37109501"
        xml:id="item37109501">
@@ -5646,7 +5647,7 @@
      <pb
       facs="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-37%2F00045.tif/full/full/0/default.jpg"/>
      <div ana="典薬" corresp="engishiki_v37_en.xml#article371096 engishiki_v37_ja.xml#article371096"
-      n="37.96" subtype="項" type="条" xml:id="article371096">
+      n="37.96" type="条" xml:id="article371096">
       <head ana="伊予年料雑薬"/>
       <p ana="項" corresp="engishiki_v37_en.xml#item37109601 engishiki_v37_ja.xml#item37109601"
        xml:id="item37109601">
@@ -5733,7 +5734,7 @@
       </app>
      </div>
      <div ana="典薬" corresp="engishiki_v37_en.xml#article371097 engishiki_v37_ja.xml#article371097"
-      n="37.97" subtype="項" type="条" xml:id="article371097">
+      n="37.97" type="条" xml:id="article371097">
       <head ana="土左年料雑薬"/>
       <p ana="項" corresp="engishiki_v37_en.xml#item37109701 engishiki_v37_ja.xml#item37109701"
        xml:id="item37109701">
@@ -5771,7 +5772,7 @@
       </app>
      </div>
      <div ana="典薬" corresp="engishiki_v37_en.xml#article371098 engishiki_v37_ja.xml#article371098"
-      n="37.98" subtype="項" type="条" xml:id="article371098">
+      n="37.98" type="条" xml:id="article371098">
       <head ana="大宰年料雑薬"/>
       <p ana="項" corresp="engishiki_v37_en.xml#item37109801 engishiki_v37_ja.xml#item37109801"
        xml:id="item37109801">

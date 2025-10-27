@@ -490,17 +490,19 @@
  </teiHeader>
  <text>
   <body>
-   <div ana="斎宮" n="5" subtype="式" type="巻">
+   <div ana="斎宮" n="5" type="巻" xml:id="volume5">
     <pb
      facs="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-5%2F00002.tif/full/full/0/default.jpg"/>
     <div type="首題" xml:id="shudai05">
      <p xml:id="shudai0501"> 延喜式巻第五〈 <orgName corresp="#神祇官"> 神祇 </orgName> 五〉 </p>
     </div>
-    <div ana="斎宮" n="5" subtype="条" type="式">
+    <div ana="斎宮" n="5" type="式" xml:id="protocol051"
+     corresp="engishiki_v5_ja.xml#protocol051 engishiki_v5_en.xml#protocol051">
      <div type="式題" xml:id="shikidai051">
       <p xml:id="shikidai05101"> 斎宮 </p>
      </div>
-     <div ana="斎宮" n="5.1" subtype="項" type="条">
+     <div ana="斎宮" n="5.1" type="条" xml:id="article051001"
+      corresp="engishiki_v5_ja.xml#article051001 engishiki_v5_en.xml#article051001">
       <head ana="定斎王"/>
       <p ana="項" corresp="engishiki_v5_ja.xml#item05100101 engishiki_v5_en.xml#item05100101"
        xml:id="item05100101"> 凡天皇即位者、定伊勢大神宮斎王、仍簡内親王未嫁者卜之、〈若無内親王者、依世次、簡定女王卜之、〉訖即遣勅使於彼家、 告示事由、
@@ -509,7 +511,8 @@
      </div>
      <pb
       facs="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-5%2F00003.tif/full/full/0/default.jpg"/>
-     <div ana="斎宮" n="5.2" subtype="項" type="条">
+     <div ana="斎宮" n="5.2" type="条" xml:id="article051002"
+      corresp="engishiki_v5_ja.xml#article051002 engishiki_v5_en.xml#article051002">
       <head ana="祓料"/>
       <p ana="項" corresp="engishiki_v5_ja.xml#item05100201 engishiki_v5_en.xml#item05100201"
        xml:id="item05100201"> 祓料 <lb/> 木綿・麻各大四斤、鹿皮四枚、鹿角四枝、大刀四口、弓四枝、箭四具、鍬四口、 <anchor
@@ -526,7 +529,8 @@
        <note> 為　条本脚書「為字已下注也」あり。 </note>
       </app>
      </div>
-     <div ana="斎宮" n="5.3" subtype="項" type="条">
+     <div ana="斎宮" n="5.3" type="条" xml:id="article051003"
+      corresp="engishiki_v5_ja.xml#article051003 engishiki_v5_en.xml#article051003">
       <head ana="祓禊"/>
       <p ana="項" corresp="engishiki_v5_ja.xml#item05100301 engishiki_v5_en.xml#item05100301"
        xml:id="item05100301"> 凡斎内親王定畢、即卜宮城内便所、為初斎院、祓禊而入、至于明年七月、斎於此院、更卜城外浄野、造野宮畢、
@@ -540,12 +544,14 @@
        <note> 宮　近本・京博本・藤波本は上に「斎」を補書する。また小野宮年中行事所引延喜式文にも「斎」あり。訳注本は「斎宮」。 </note>
       </app>
      </div>
-     <div ana="斎宮" n="5.4" subtype="項" type="条">
+     <div ana="斎宮" n="5.4" type="条" xml:id="article051004"
+      corresp="engishiki_v5_ja.xml#article051004 engishiki_v5_en.xml#article051004">
       <head ana="木綿賢木"/>
       <p ana="項" corresp="engishiki_v5_ja.xml#item05100401 engishiki_v5_en.xml#item05100401"
        xml:id="item05100401"> 凡斎宮諸門、常立着木綿賢木〈月別立替、所須木綿一斤・麻一斤八両、〉 </p>
      </div>
-     <div ana="斎宮" n="5.5" subtype="項" type="条">
+     <div ana="斎宮" n="5.5" type="条" xml:id="article051005"
+      corresp="engishiki_v5_ja.xml#article051005 engishiki_v5_en.xml#article051005">
       <head ana="忌詞"/>
       <p ana="項" corresp="engishiki_v5_ja.xml#item05100501 engishiki_v5_en.xml#item05100501"
        xml:id="item05100501">
@@ -566,7 +572,8 @@
        <note> 宍　土本等「穴」。条本により改める。 </note>
       </app>
      </div>
-     <div ana="斎宮" n="5.6" subtype="項" type="条">
+     <div ana="斎宮" n="5.6" type="条" xml:id="article051006"
+      corresp="engishiki_v5_ja.xml#article051006 engishiki_v5_en.xml#article051006">
       <head ana="河頭祓"/>
       <p ana="項" corresp="engishiki_v5_ja.xml#item05100601 engishiki_v5_en.xml#item05100601"
        xml:id="item05100601">
@@ -605,7 +612,8 @@
        <note> 録　土本等「禄」。条本により改める。 </note>
       </app>
      </div>
-     <div ana="斎宮" n="5.7" subtype="項" type="条">
+     <div ana="斎宮" n="5.7" type="条" xml:id="article051007"
+      corresp="engishiki_v5_ja.xml#article051007 engishiki_v5_en.xml#article051007">
       <head ana="河頭祓料"/>
       <p ana="項" corresp="engishiki_v5_ja.xml#item05100701 engishiki_v5_en.xml#item05100701"
        xml:id="item05100701"> 祓料 <lb/> 五色絁各二尺、 <placeName corresp="#安芸国"> 安芸 </placeName>
@@ -628,14 +636,16 @@
        <note> 腰　訳注本校異は玄梁本に「脚」の校注あることを記す。 </note>
       </app>
      </div>
-     <div ana="斎宮" n="5.8" subtype="項" type="条">
+     <div ana="斎宮" n="5.8" type="条" xml:id="article051008"
+      corresp="engishiki_v5_ja.xml#article051008 engishiki_v5_en.xml#article051008">
       <head ana="初斎院祓清料"/>
       <p ana="項" corresp="engishiki_v5_ja.xml#item05100801 engishiki_v5_en.xml#item05100801"
        xml:id="item05100801"> 斎王入初斎院祓清其院料 <lb/> 庸布二段、木綿三斤、麻四斤、烏装大刀二口、弓二張、矢卌隻、鹿角四頭、鹿皮四張、鍬 <pb
         facs="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-5%2F00006.tif/full/full/0/default.jpg"
        /> 四口、米・酒・腊・塩各四斗、鰒・堅魚各五斤、 海藻・滑海藻・雑海菜各九斤、柏廿把、稲四束、盆四口、匏四柄、輿籠一脚、葉薦二枚、馬二疋、祝詞料庸布五段、短帖一枚、夫二人、 </p>
      </div>
-     <div ana="斎宮" n="5.9" subtype="項" type="条">
+     <div ana="斎宮" n="5.9" type="条" xml:id="article051009"
+      corresp="engishiki_v5_ja.xml#article051009 engishiki_v5_en.xml#article051009">
       <head ana="初斎院大殿祭"/>
       <p ana="項" corresp="engishiki_v5_ja.xml#item05100901 engishiki_v5_en.xml#item05100901"
        xml:id="item05100901"> 大殿祭〈野宮・伊勢斎宮准此〉 <lb/> 糸二両、 <placeName corresp="#安芸国"> 安芸 </placeName>
@@ -646,13 +656,15 @@
        <note> 杯　訳注本「坏」とする。 </note>
       </app>
      </div>
-     <div ana="斎宮" n="5.10" subtype="項" type="条">
+     <div ana="斎宮" n="5.10" type="条" xml:id="article051010"
+      corresp="engishiki_v5_ja.xml#article051010 engishiki_v5_en.xml#article051010">
       <head ana="忌火等祭"/>
       <p ana="項" corresp="engishiki_v5_ja.xml#item05101001 engishiki_v5_en.xml#item05101001"
        xml:id="item05101001"> 忌火・庭火・御竈・井神祭〈遷入野宮之初所祭、毎月朔祭二竈料亦准此、〉 <lb/>
        五色薄絁各四尺、倭文二尺、木綿八両、麻一斤、庸布一段、鍬二口、米・酒各二升、鰒・堅魚・海藻各二斤、腊二升、塩一升、柏二把、𤭅・坏各一口、〈已上井神祭料、〉 </p>
      </div>
-     <div ana="斎宮" n="5.11" subtype="項" type="条">
+     <div ana="斎宮" n="5.11" type="条" xml:id="article051011"
+      corresp="engishiki_v5_ja.xml#article051011 engishiki_v5_en.xml#article051011">
       <head ana="庭火祭"/>
       <p ana="項" corresp="engishiki_v5_ja.xml#item05101101 engishiki_v5_en.xml#item05101101"
        xml:id="item05101101"> 朔日庭火祭〈野宮・斎宮准此、〉 <lb/>
@@ -666,13 +678,15 @@
        <note> 柏二把　土本・近本等無し。条本により補う。 </note>
       </app>
      </div>
-     <div ana="斎宮" n="5.12" subtype="項" type="条">
+     <div ana="斎宮" n="5.12" type="条" xml:id="article051012"
+      corresp="engishiki_v5_ja.xml#article051012 engishiki_v5_en.xml#article051012">
       <head ana="解除料"/>
       <p ana="項" corresp="engishiki_v5_ja.xml#item05101201 engishiki_v5_en.xml#item05101201"
        xml:id="item05101201"> 晦日解除料〈野宮・斎宮准此、〉 <lb/> 庸布一丈四尺、御麻料 <placeName corresp="#安芸国"> 安芸
        </placeName> 木綿四両、麻八両、鉄人像二枚、鍬二口、酒二升、稲二束、鰒・堅魚・海藻各一斤、腊二升、塩一升一合、坩・坏各一口、 </p>
      </div>
-     <div ana="斎宮" n="5.13" subtype="項" type="条">
+     <div ana="斎宮" n="5.13" type="条" xml:id="article051013"
+      corresp="engishiki_v5_ja.xml#article051013 engishiki_v5_en.xml#article051013">
       <head ana="臨時祓料"/>
       <p ana="項" corresp="engishiki_v5_ja.xml#item05101301 engishiki_v5_en.xml#item05101301"
        xml:id="item05101301"> 臨時祓 <anchor xml:id="app0510130101"/> 料 <anchor xml:id="app0510130101e"/>
@@ -685,7 +699,8 @@
        <note> 料　この下に九冊本・京博本細字注「依御短尺以上斎宮諸門立賢木条注、新置此条イニ」、勢多本書入「○本　依御短冊以上斎宮諸門立賢木条注、新置此条イニ」あり。 </note>
       </app>
      </div>
-     <div ana="斎宮" n="5.14" subtype="項" type="条">
+     <div ana="斎宮" n="5.14" type="条" xml:id="article051014"
+      corresp="engishiki_v5_ja.xml#article051014 engishiki_v5_en.xml#article051014">
       <head ana="初斎院装束"/>
       <p ana="項" corresp="engishiki_v5_ja.xml#item05101401 engishiki_v5_en.xml#item05101401"
        xml:id="item05101401"> 初斎院装束 <lb/> 白絹十疋、緋東絁二疋、両面二疋、白綾二疋、東絁八疋、綿二百屯、細布廿 <anchor
@@ -739,7 +754,8 @@
        <note> 段　訳注本「端」に意改。諸本「段」に作る。九冊本・京博本傍書「端イニ」。 </note>
       </app>
      </div>
-     <div ana="斎宮" n="5.15" subtype="項" type="条">
+     <div ana="斎宮" n="5.15" type="条" xml:id="article051015"
+      corresp="engishiki_v5_ja.xml#article051015 engishiki_v5_en.xml#article051015">
       <head ana="別当以下員"/>
       <p ana="項" corresp="engishiki_v5_ja.xml#item05101501 engishiki_v5_en.xml#item05101501"
        xml:id="item05101501"> 初斎院別当以下 <anchor xml:id="app0510150101"/> 員 <anchor
@@ -755,7 +771,8 @@
        <note> 員　この下に九冊本・京博本細字注「依度々御短冊加別当イニ」、勢多本書入「○本　依度々御短冊如別(加歟)当イニ」あり。 </note>
       </app>
      </div>
-     <div ana="斎宮" n="5.16" subtype="項" type="条">
+     <div ana="斎宮" n="5.16" type="条" xml:id="article051016"
+      corresp="engishiki_v5_ja.xml#article051016 engishiki_v5_en.xml#article051016">
       <head ana="食法"/>
       <p ana="項" corresp="engishiki_v5_ja.xml#item05101601 engishiki_v5_en.xml#item05101601"
        xml:id="item05101601"> 食法 <lb/>
@@ -778,7 +795,8 @@
        <note> 醤滓　訳注本「諸本に異同はないが、上文の例によって「滓醤」に改めるべきか。ただし、「醤滓」（ヒシホノカス）の語もあるのでしばらく旧を存する。」とする。 </note>
       </app>
      </div>
-     <div ana="斎宮" n="5.17" subtype="項" type="条">
+     <div ana="斎宮" n="5.17" type="条" xml:id="article051017"
+      corresp="engishiki_v5_ja.xml#article051017 engishiki_v5_en.xml#article051017">
       <head ana="鎮野宮地祭"/>
       <p ana="項" corresp="engishiki_v5_ja.xml#item05101701 engishiki_v5_en.xml#item05101701"
        xml:id="item05101701"> 鎮野宮地祭〈後鎮准此、〉 <lb/> 五色薄絁各五尺、倭文五尺、調布一 <anchor xml:id="app0510170101"/> 段
@@ -806,7 +824,8 @@
        <note> 雑海菜各　土本等無し。条本補書により補う。京博本朱傍書にも「雑海菜各イ」とあり。 </note>
       </app>
      </div>
-     <div ana="斎宮" n="5.18" subtype="項" type="条">
+     <div ana="斎宮" n="5.18" type="条" xml:id="article051018"
+      corresp="engishiki_v5_ja.xml#article051018 engishiki_v5_en.xml#article051018">
       <head ana="造野宮畢祓料"/>
       <p ana="項" corresp="engishiki_v5_ja.xml#item05101801 engishiki_v5_en.xml#item05101801"
        xml:id="item05101801"> 造野宮畢祓料 <lb/> 庸布二段、木綿三斤、麻四斤、烏装横刀二口、弓二張、矢卌隻、鹿角四頭、鹿皮四張、鍬四口、米・酒各四斗、稲四束、
@@ -830,7 +849,8 @@
        <note> 滑海藻・雑海菜各　土本等無し。条本補書により補う。九冊本・京博本傍書「滑海藻雑海菜各イ本ニ」。 </note>
       </app>
      </div>
-     <div ana="斎宮" n="5.19" subtype="項" type="条">
+     <div ana="斎宮" n="5.19" type="条" xml:id="article051019"
+      corresp="engishiki_v5_ja.xml#article051019 engishiki_v5_en.xml#article051019">
       <head ana="野宮河頭禊"/>
       <p ana="項" corresp="engishiki_v5_ja.xml#item05101901 engishiki_v5_en.xml#item05101901"
        xml:id="item05101901"> 斎王遷入野宮河頭禊 <lb/> 其日斎王駕輿、〈輿者、 <orgName corresp="#主殿寮"> 主殿 </orgName>
@@ -838,7 +858,8 @@
        勅使大納言・中納言各一人、参議二人、四位・五位各四人、禊事既畢、賜饌并禄、〈勅使已下五位已上、 <orgName corresp="#内蔵寮"> 内蔵寮 </orgName>
        饗之、六位已下 <orgName corresp="#大膳職"> 大膳職 </orgName> 、〉 訖即廻帰、便留野宮更賜禄、〈自余之儀、大略同初度禊、〉 </p>
      </div>
-     <div ana="斎宮" n="5.20" subtype="項" type="条">
+     <div ana="斎宮" n="5.20" type="条" xml:id="article051020"
+      corresp="engishiki_v5_ja.xml#article051020 engishiki_v5_en.xml#article051020">
       <head ana="野宮河頭禊祓料"/>
       <p ana="項" corresp="engishiki_v5_ja.xml#item05102001 engishiki_v5_en.xml#item05102001"
        xml:id="item05102001"> 祓料 <lb/> 五色絁各一尺、荒服料布一 <anchor xml:id="app0510200101"/> 段 <anchor
@@ -866,7 +887,8 @@
        <note> 枝　訳注本は「枚」。諸本「枝」。 </note>
       </app>
      </div>
-     <div ana="斎宮" n="5.21" subtype="項" type="条">
+     <div ana="斎宮" n="5.21" type="条" xml:id="article051021"
+      corresp="engishiki_v5_ja.xml#article051021 engishiki_v5_en.xml#article051021">
       <head ana="野宮祓清料"/>
       <p ana="項" corresp="engishiki_v5_ja.xml#item05102101 engishiki_v5_en.xml#item05102101"
        xml:id="item05102101"> 斎王遷入野宮祓清其宮料 <lb/>
@@ -888,7 +910,8 @@
        <note> 滑海藻各　土本・条本等朱補書により補う。 </note>
       </app>
      </div>
-     <div ana="斎宮" n="5.22" subtype="項" type="条">
+     <div ana="斎宮" n="5.22" type="条" xml:id="article051022"
+      corresp="engishiki_v5_ja.xml#article051022 engishiki_v5_en.xml#article051022">
       <head ana="野宮祈年祭"/>
       <p ana="項" corresp="engishiki_v5_ja.xml#item05102201 engishiki_v5_en.xml#item05102201"
        xml:id="item05102201"> 二月祈年祭 <anchor xml:id="app0510220101"/> 廿一 <anchor
@@ -918,14 +941,16 @@
        <note> 段　訳注本「端」に意改。諸本「段」。 </note>
       </app>
      </div>
-     <div ana="斎宮" n="5.23" subtype="項" type="条">
+     <div ana="斎宮" n="5.23" type="条" xml:id="article051023"
+      corresp="engishiki_v5_ja.xml#article051023 engishiki_v5_en.xml#article051023">
       <head ana="月次祭"/>
       <p ana="項" corresp="engishiki_v5_ja.xml#item05102301 engishiki_v5_en.xml#item05102301"
        xml:id="item05102301"> 六月祭〈十二月准此〉 <lb/> 月次祭 <lb/> 右、供神調度、准祈年祭、但除鍬、 </p>
      </div>
      <pb
       facs="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-5%2F00012.tif/full/full/0/default.jpg"/>
-     <div ana="斎宮" n="5.24" subtype="項" type="条">
+     <div ana="斎宮" n="5.24" type="条" xml:id="article051024"
+      corresp="engishiki_v5_ja.xml#article051024 engishiki_v5_en.xml#article051024">
       <head ana="月次祭大殿祭"/>
       <p ana="項" corresp="engishiki_v5_ja.xml#item05102401 engishiki_v5_en.xml#item05102401"
        xml:id="item05102401"> 大殿祭 <lb/>
@@ -939,7 +964,8 @@
        <note> 並　土本等「并」。条本傍書により改める。 </note>
       </app>
      </div>
-     <div ana="斎宮" n="5.25" subtype="項" type="条">
+     <div ana="斎宮" n="5.25" type="条" xml:id="article051025"
+      corresp="engishiki_v5_ja.xml#article051025 engishiki_v5_en.xml#article051025">
       <head ana="御贖料"/>
       <p ana="項" corresp="engishiki_v5_ja.xml#item05102501 engishiki_v5_en.xml#item05102501"
        xml:id="item05102501"> 御贖料 <lb/> 五色薄絁各二尺、糸三両、倭文二尺、 <placeName corresp="#安芸国"> 安芸 </placeName>
@@ -975,7 +1001,8 @@
        <note> 段　訳注本「端」に意改。諸本「段」。京博本傍書「端イニ」、九冊本傍書「端」、鈴鹿本書入「祢端イニ」。 </note>
       </app>
      </div>
-     <div ana="斎宮" n="5.26" subtype="項" type="条">
+     <div ana="斎宮" n="5.26" type="条" xml:id="article051026"
+      corresp="engishiki_v5_ja.xml#article051026 engishiki_v5_en.xml#article051026">
       <head ana="大祓"/>
       <p ana="項" corresp="engishiki_v5_ja.xml#item05102601 engishiki_v5_en.xml#item05102601"
        xml:id="item05102601"> 野宮六月晦日大祓〈十二月准此、〉 <lb/> 庸布二段、木綿二斤、枲八両、麻四斤、大刀二口、弓二張、篦一百隻、鍬二口、 <anchor
@@ -1006,21 +1033,24 @@
        <note> 各　土本等無し。近本・京博本朱傍書により補う。 </note>
       </app>
      </div>
-     <div ana="斎宮" n="5.27" subtype="項" type="条">
+     <div ana="斎宮" n="5.27" type="条" xml:id="article051027"
+      corresp="engishiki_v5_ja.xml#article051027 engishiki_v5_en.xml#article051027">
       <head ana="鎮火祭"/>
       <p ana="項" corresp="engishiki_v5_ja.xml#item05102701 engishiki_v5_en.xml#item05102701"
        xml:id="item05102701"> 野宮鎮火祭 <lb/>
        五色薄絁各四尺、倭文四尺、庸布二段、木綿五両、麻一斤、鍬四口、酒四升、鰒一斤五両、堅魚一斤五両、腊四升、塩二升、海藻一斤五両、 𤭅四口、坩四口、坏四口、槲四把、匏四柄、薦一枚、
       </p>
      </div>
-     <div ana="斎宮" n="5.28" subtype="項" type="条">
+     <div ana="斎宮" n="5.28" type="条" xml:id="article051028"
+      corresp="engishiki_v5_ja.xml#article051028 engishiki_v5_en.xml#article051028">
       <head ana="道饗祭"/>
       <p ana="項" corresp="engishiki_v5_ja.xml#item05102801 engishiki_v5_en.xml#item05102801"
        xml:id="item05102801"> 野宮道饗祭 <lb/>
        五色薄絁各一丈、倭文四尺、庸布二段、木綿一斤十両、麻七斤五両、鍬四口、牛・猪・鹿・熊皮各二張、米・酒各四斗、稲四束、鰒二斤五両、堅魚五斤、
        腊八升、塩二升、海藻五斤、盆四口、坏四口、藁四囲、薦一枚、 </p>
      </div>
-     <div ana="斎宮" n="5.29" subtype="項" type="条">
+     <div ana="斎宮" n="5.29" type="条" xml:id="article051029"
+      corresp="engishiki_v5_ja.xml#article051029 engishiki_v5_en.xml#article051029">
       <head ana="野宮新嘗祭"/>
       <p ana="項" corresp="engishiki_v5_ja.xml#item05102901 engishiki_v5_en.xml#item05102901"
        xml:id="item05102901"> 十一月祭 <lb/>
@@ -1048,7 +1078,8 @@
        <note> 段　訳注本「端」に意改。諸本「段」。 </note>
       </app>
      </div>
-     <div ana="斎宮" n="5.30" subtype="項" type="条">
+     <div ana="斎宮" n="5.30" type="条" xml:id="article051030"
+      corresp="engishiki_v5_ja.xml#article051030 engishiki_v5_en.xml#article051030">
       <head ana="野宮供新嘗料"/>
       <p ana="項" corresp="engishiki_v5_ja.xml#item05103001 engishiki_v5_en.xml#item05103001"
        xml:id="item05103001"> 供新嘗料 <lb/> 絹二丈、糸二両、紵一丈二尺、 <anchor xml:id="app0510300101"/> 暴 <anchor
@@ -1074,18 +1105,21 @@
        <note> 土盆、陶叩盆四口　訳注本「「土盆」の下に数量を脱しているか、あるいは「四口」の上に「各」字を補うべきか、いずれかであろう。」とする。 </note>
       </app>
      </div>
-     <div ana="斎宮" n="5.31" subtype="項" type="条">
+     <div ana="斎宮" n="5.31" type="条" xml:id="article051031"
+      corresp="engishiki_v5_ja.xml#article051031 engishiki_v5_en.xml#article051031">
       <head ana="新嘗祭大殿祭"/>
       <p ana="項" corresp="engishiki_v5_ja.xml#item05103101 engishiki_v5_en.xml#item05103101"
        xml:id="item05103101"> 大殿祭〈准上、〉 </p>
      </div>
-     <div ana="斎宮" n="5.32" subtype="項" type="条">
+     <div ana="斎宮" n="5.32" type="条" xml:id="article051032"
+      corresp="engishiki_v5_ja.xml#article051032 engishiki_v5_en.xml#article051032">
       <head ana="主神司月料"/>
       <p ana="項" corresp="engishiki_v5_ja.xml#item05103201 engishiki_v5_en.xml#item05103201"
        xml:id="item05103201"> 野宮主神司所請月料 <lb/> 紙廿張、筆一管、亀甲一枚、波々可五枚、〈亀甲・波々可者、 <orgName corresp="#神祇官">
         神祇官 </orgName> 所行、〉 </p>
      </div>
-     <div ana="斎宮" n="5.33" subtype="項" type="条">
+     <div ana="斎宮" n="5.33" type="条" xml:id="article051033"
+      corresp="engishiki_v5_ja.xml#article051033 engishiki_v5_en.xml#article051033">
       <head ana="鎮炊殿祭"/>
       <p ana="項" corresp="engishiki_v5_ja.xml#item05103301 engishiki_v5_en.xml#item05103301"
        xml:id="item05103301"> 鎮新造炊殿祭 <lb/> 絹二丈、五色薄絁各二尺、倭文二尺、木綿・麻各二斤、鍬四口、米・酒各四升、稲四束、鰒・堅魚各四斤、腊五升、海藻・
@@ -1099,7 +1133,8 @@
        <note> 雑海菜各　土本・条本等脱。土本・条本傍書および慶長本等により補う。 </note>
       </app>
      </div>
-     <div ana="斎宮" n="5.34" subtype="項" type="条">
+     <div ana="斎宮" n="5.34" type="条" xml:id="article051034"
+      corresp="engishiki_v5_ja.xml#article051034 engishiki_v5_en.xml#article051034">
       <head ana="忌火庭火祭"/>
       <p ana="項" corresp="engishiki_v5_ja.xml#item05103401 engishiki_v5_en.xml#item05103401"
        xml:id="item05103401"> 新造炊殿忌火・庭火祭 <lb/> 五色薄絁各四尺、倭文四尺、絹二疋、糸二絇、調布二 <anchor
@@ -1119,7 +1154,8 @@
        <note> 二　条本朱傍書・京博本墨傍書「一」。鈴鹿本書入「一、祢傍書」。 </note>
       </app>
      </div>
-     <div ana="斎宮" n="5.35" subtype="項" type="条">
+     <div ana="斎宮" n="5.35" type="条" xml:id="article051035"
+      corresp="engishiki_v5_ja.xml#article051035 engishiki_v5_en.xml#article051035">
       <head ana="卜戸座火炬"/>
       <p ana="項" corresp="engishiki_v5_ja.xml#item05103501 engishiki_v5_en.xml#item05103501"
        xml:id="item05103501"> 卜戸座一人、〈取 <placeName corresp="#山城国"> 山城国 </placeName> 愛宕郡鴨県主氏童子、〉 <lb/>
@@ -1137,7 +1173,8 @@
        <note> 畢、即　土本・近本等「畢」に朱傍書「即」。条本は「畢」と「各」の間に「即」を傍書する。条本に従い「即」を補入と判断する。 </note>
       </app>
      </div>
-     <div ana="斎宮" n="5.36" subtype="項" type="条">
+     <div ana="斎宮" n="5.36" type="条" xml:id="article051036"
+      corresp="engishiki_v5_ja.xml#article051036 engishiki_v5_en.xml#article051036">
       <head ana="野宮装束"/>
       <p ana="項" corresp="engishiki_v5_ja.xml#item05103601 engishiki_v5_en.xml#item05103601"
        xml:id="item05103601"> 遷野宮装束 <lb/>
@@ -1169,7 +1206,8 @@
        <note> 布　土本・条本等脱、同本朱傍書により補う。 </note>
       </app>
      </div>
-     <div ana="斎宮" n="5.37" subtype="項" type="条">
+     <div ana="斎宮" n="5.37" type="条" xml:id="article051037"
+      corresp="engishiki_v5_ja.xml#article051037 engishiki_v5_en.xml#article051037">
       <head ana="野宮年料供物"/>
       <p ana="項" corresp="engishiki_v5_ja.xml#item05103701 engishiki_v5_en.xml#item05103701"
        xml:id="item05103701"> 年料供物 <lb/> 絹七十二疋五丈五寸、長絹十五疋、白絹十疋、帛廿疋、白綾二疋、綿一百七十二屯、紵五 <anchor
@@ -1349,7 +1387,8 @@
        <note> 柄　近本「枚」。 </note>
       </app>
      </div>
-     <div ana="斎宮" n="5.38" subtype="項" type="条">
+     <div ana="斎宮" n="5.38" type="条" xml:id="article051038"
+      corresp="engishiki_v5_ja.xml#article051038 engishiki_v5_en.xml#article051038">
       <head ana="野宮月料"/>
       <p ana="項" corresp="engishiki_v5_ja.xml#item05103801 engishiki_v5_en.xml#item05103801"
        xml:id="item05103801"> 月料〈小月物 <anchor xml:id="app0510380101"/> 別 <anchor
@@ -1412,7 +1451,8 @@
        <note> 栗　訳注本下に「子」を意補。諸本無し。 </note>
       </app>
      </div>
-     <div ana="斎宮" n="5.39" subtype="項" type="条">
+     <div ana="斎宮" n="5.39" type="条" xml:id="article051039"
+      corresp="engishiki_v5_ja.xml#article051039 engishiki_v5_en.xml#article051039">
       <head ana="正月三節料"/>
       <p ana="項" corresp="engishiki_v5_ja.xml#item05103901 engishiki_v5_en.xml#item05103901"
        xml:id="item05103901"> 正月三節料 <lb/> 東鰒・堅魚・ <placeName corresp="#隠伎国"> 隠伎 </placeName>
@@ -1447,7 +1487,8 @@
        <note> 料　諸本無し。考異に従い意補する。 </note>
       </app>
      </div>
-     <div ana="斎宮" n="5.40" subtype="項" type="条">
+     <div ana="斎宮" n="5.40" type="条" xml:id="article051040"
+      corresp="engishiki_v5_ja.xml#article051040 engishiki_v5_en.xml#article051040">
       <head ana="五月節"/>
       <p ana="項" corresp="engishiki_v5_ja.xml#item05104001 engishiki_v5_en.xml#item05104001"
        xml:id="item05104001"> 五月節 <lb/>
@@ -1485,12 +1526,14 @@
        <note> 帊　土本等「把」。意により改める。 </note>
       </app>
      </div>
-     <div ana="斎宮" n="5.41" subtype="項" type="条">
+     <div ana="斎宮" n="5.41" type="条" xml:id="article051041"
+      corresp="engishiki_v5_ja.xml#article051041 engishiki_v5_en.xml#article051041">
       <head ana="七月節"/>
       <p ana="項" corresp="engishiki_v5_ja.xml#item05104101 engishiki_v5_en.xml#item05104101"
        xml:id="item05104101"> 七月節〈九月亦同、〉 <lb/> 供料酒二斗、口味直銭、〈数随時価、〉官人以下料鮭二十隻、熟瓜一百顆、 </p>
      </div>
-     <div ana="斎宮" n="5.42" subtype="項" type="条">
+     <div ana="斎宮" n="5.42" type="条" xml:id="article051042"
+      corresp="engishiki_v5_ja.xml#article051042 engishiki_v5_en.xml#article051042">
       <head ana="斎終行事"/>
       <p ana="項" corresp="engishiki_v5_ja.xml#item05104201 engishiki_v5_en.xml#item05104201"
        xml:id="item05104201"> 凡斎内親王三年斎終、四月上旬任装束司、五位二人、〈 <orgName corresp="#神祇官">
@@ -1526,7 +1569,8 @@
      </div>
      <pb
       facs="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-5%2F00022.tif/full/full/0/default.jpg"/>
-     <div ana="斎宮" n="5.43" subtype="項" type="条">
+     <div ana="斎宮" n="5.43" type="条" xml:id="article051043"
+      corresp="engishiki_v5_ja.xml#article051043 engishiki_v5_en.xml#article051043">
       <head ana="造備雑物"/>
       <p ana="項" corresp="engishiki_v5_ja.xml#item05104301 engishiki_v5_en.xml#item05104301"
        xml:id="item05104301"> 造備雑物 <lb/>
@@ -1720,13 +1764,15 @@
        <note> 枝　訳注本は藤波本により「枚」に改める。 </note>
       </app>
      </div>
-     <div ana="斎宮" n="5.44" subtype="項" type="条">
+     <div ana="斎宮" n="5.44" type="条" xml:id="article051044"
+      corresp="engishiki_v5_ja.xml#article051044 engishiki_v5_en.xml#article051044">
       <head ana="御馬"/>
       <p ana="項" corresp="engishiki_v5_ja.xml#item05104401 engishiki_v5_en.xml#item05104401"
        xml:id="item05104401"> 凡御馬二疋、女孺乗馬六疋、並以 <orgName corresp="#馬寮"> 左右馬寮 </orgName> 馬充之、若有死失者請替、
       </p>
      </div>
-     <div ana="斎宮" n="5.45" subtype="項" type="条">
+     <div ana="斎宮" n="5.45" type="条" xml:id="article051045"
+      corresp="engishiki_v5_ja.xml#article051045 engishiki_v5_en.xml#article051045">
       <head ana="潔斎三年"/>
       <p ana="項" corresp="engishiki_v5_ja.xml#item05104501 engishiki_v5_en.xml#item05104501"
        xml:id="item05104501"> 凡斎内親王在京潔斎三年、即毎朔日、着木綿鬘、参入斎殿、遥拝大神、時先供御麻、次鬘木綿、其料 <placeName
@@ -1750,7 +1796,8 @@
        <note> 野宮内外屋　京博本朱頭書「野宮内外屋并垣類等分給事」、九冊本朱頭書「野宮内外屋并祗頴分治坙イ本ニ」、鈴鹿本書入「祢本、野宮内外屋并垣類等分給事」。 </note>
       </app>
      </div>
-     <div ana="斎宮" n="5.46" subtype="項" type="条">
+     <div ana="斎宮" n="5.46" type="条" xml:id="article051046"
+      corresp="engishiki_v5_ja.xml#article051046 engishiki_v5_en.xml#article051046">
       <head ana="弁備雑事"/>
       <p ana="項" corresp="engishiki_v5_ja.xml#item05104601 engishiki_v5_en.xml#item05104601"
        xml:id="item05104601">
@@ -1763,7 +1810,8 @@
        <note> 凡　九冊本頭書「前【氵+矢】【甲+刂】舌イニ」。 </note>
       </app>
      </div>
-     <div ana="斎宮" n="5.47" subtype="項" type="条">
+     <div ana="斎宮" n="5.47" type="条" xml:id="article051047"
+      corresp="engishiki_v5_ja.xml#article051047 engishiki_v5_en.xml#article051047">
       <head ana="河頭禊"/>
       <p ana="項" corresp="engishiki_v5_ja.xml#item05104701 engishiki_v5_en.xml#item05104701"
        xml:id="item05104701">
@@ -1777,7 +1825,8 @@
        <note> 凡　京博本朱頭書「群行御禊事」、九冊本頭書「行御撰事」、鈴鹿本書入「祢本、群行御禊事」。 </note>
       </app>
      </div>
-     <div ana="斎宮" n="5.48" subtype="項" type="条">
+     <div ana="斎宮" n="5.48" type="条" xml:id="article051048"
+      corresp="engishiki_v5_ja.xml#article051048 engishiki_v5_en.xml#article051048">
       <head ana="河頭禊祓料"/>
       <p ana="項" corresp="engishiki_v5_ja.xml#item05104801 engishiki_v5_en.xml#item05104801"
        xml:id="item05104801"> 祓 <anchor xml:id="app0510480101"/> 料 <anchor xml:id="app0510480101e"/>
@@ -1804,7 +1853,8 @@
        <note> 腰　玄梁本訂正書・鈴鹿本書入「脚」。 </note>
       </app>
      </div>
-     <div ana="斎宮" n="5.49" subtype="項" type="条">
+     <div ana="斎宮" n="5.49" type="条" xml:id="article051049"
+      corresp="engishiki_v5_ja.xml#article051049 engishiki_v5_en.xml#article051049">
       <head ana="大祓使"/>
       <p ana="項" corresp="engishiki_v5_ja.xml#item05104901 engishiki_v5_en.xml#item05104901"
        xml:id="item05104901">
@@ -1818,7 +1868,8 @@
        <note> 凡　京博本朱頭書「大祓」、九冊本朱頭書「大祓イニ」。 </note>
       </app>
      </div>
-     <div ana="斎宮" n="5.50" subtype="項" type="条">
+     <div ana="斎宮" n="5.50" type="条" xml:id="article051050"
+      corresp="engishiki_v5_ja.xml#article051050 engishiki_v5_en.xml#article051050">
       <head ana="朝庭大祓料"/>
       <p ana="項" corresp="engishiki_v5_ja.xml#item05105001 engishiki_v5_en.xml#item05105001"
        xml:id="item05105001">
@@ -1839,7 +1890,8 @@
        <note> 葈　訳注本は「枲」。諸本「葈」。 </note>
       </app>
      </div>
-     <div ana="斎宮" n="5.51" subtype="項" type="条">
+     <div ana="斎宮" n="5.51" type="条" xml:id="article051051"
+      corresp="engishiki_v5_ja.xml#article051051 engishiki_v5_en.xml#article051051">
       <head ana="斎宮修理"/>
       <p ana="項" corresp="engishiki_v5_ja.xml#item05105101 engishiki_v5_en.xml#item05105101"
        xml:id="item05105101">
@@ -1855,7 +1907,8 @@
        <note> 壊破　訳注本、条本に「「破」字の右傍ニ顛倒符トオボシキ「レ」点アリ。或イハ「破壊」ニ改ムベキカ」とする。 </note>
       </app>
      </div>
-     <div ana="斎宮" n="5.52" subtype="項" type="条">
+     <div ana="斎宮" n="5.52" type="条" xml:id="article051052"
+      corresp="engishiki_v5_ja.xml#article051052 engishiki_v5_en.xml#article051052">
       <head ana="勢江州忌"/>
       <p ana="項" corresp="engishiki_v5_ja.xml#item05105201 engishiki_v5_en.xml#item05105201"
        xml:id="item05105201">
@@ -1868,7 +1921,8 @@
        <note> 凡　九冊本頭書「群行イニ」。 </note>
       </app>
      </div>
-     <div ana="斎宮" n="5.53" subtype="項" type="条">
+     <div ana="斎宮" n="5.53" type="条" xml:id="article051053"
+      corresp="engishiki_v5_ja.xml#article051053 engishiki_v5_en.xml#article051053">
       <head ana="頓宮"/>
       <p ana="項" corresp="engishiki_v5_ja.xml#item05105301 engishiki_v5_en.xml#item05105301"
        xml:id="item05105301">
@@ -1894,7 +1948,8 @@
        <note> 三　主税式上39条では「二」。 </note>
       </app>
      </div>
-     <div ana="斎宮" n="5.54" subtype="項" type="条">
+     <div ana="斎宮" n="5.54" type="条" xml:id="article051054"
+      corresp="engishiki_v5_ja.xml#article051054 engishiki_v5_en.xml#article051054">
       <head ana="監送使"/>
       <p ana="項" corresp="engishiki_v5_ja.xml#item05105401 engishiki_v5_en.xml#item05105401"
        xml:id="item05105401">
@@ -2066,7 +2121,8 @@
        <note> 段　訳注本「端」に意改。諸本「段」。京博本左傍書・九冊本左傍書「端イニ」、鈴鹿本書入「端同」。 </note>
       </app>
      </div>
-     <div ana="斎宮" n="5.55" subtype="項" type="条">
+     <div ana="斎宮" n="5.55" type="条" xml:id="article051055"
+      corresp="engishiki_v5_ja.xml#article051055 engishiki_v5_en.xml#article051055">
       <head ana="給馬"/>
       <p ana="項" corresp="engishiki_v5_ja.xml#item05105501 engishiki_v5_en.xml#item05105501"
        xml:id="item05105501">
@@ -2089,7 +2145,8 @@
        <note> 疋　土本等「人」。近本・京博本等朱傍書により改める。 </note>
       </app>
      </div>
-     <div ana="斎宮" n="5.56" subtype="項" type="条">
+     <div ana="斎宮" n="5.56" type="条" xml:id="article051056"
+      corresp="engishiki_v5_ja.xml#article051056 engishiki_v5_en.xml#article051056">
       <head ana="神嘗祭使"/>
       <p ana="項" corresp="engishiki_v5_ja.xml#item05105601 engishiki_v5_en.xml#item05105601"
        xml:id="item05105601">
@@ -2105,7 +2162,8 @@
        <note> 九　京博本朱頭書・九冊本頭書「例幣事」、鈴鹿本書入「祢　例幣事」。 </note>
       </app>
      </div>
-     <div ana="斎宮" n="5.57" subtype="項" type="条">
+     <div ana="斎宮" n="5.57" type="条" xml:id="article051057"
+      corresp="engishiki_v5_ja.xml#article051057 engishiki_v5_en.xml#article051057">
       <head ana="斎十八箇日"/>
       <p ana="項" corresp="engishiki_v5_ja.xml#item05105701 engishiki_v5_en.xml#item05105701"
        xml:id="item05105701"> 斎十八箇日 <lb/>
@@ -2118,7 +2176,8 @@
        <note> 葬　土本等「喪」。52条にならい改める。 </note>
       </app>
      </div>
-     <div ana="斎宮" n="5.58" subtype="項" type="条">
+     <div ana="斎宮" n="5.58" type="条" xml:id="article051058"
+      corresp="engishiki_v5_ja.xml#article051058 engishiki_v5_en.xml#article051058">
       <head ana="発日"/>
       <p ana="項" corresp="engishiki_v5_ja.xml#item05105801 engishiki_v5_en.xml#item05105801"
        xml:id="item05105801">
@@ -2139,7 +2198,8 @@
        <note> 後　土本無し。条本・近本等により補う。 </note>
       </app>
      </div>
-     <div ana="斎宮" n="5.59" subtype="項" type="条">
+     <div ana="斎宮" n="5.59" type="条" xml:id="article051059"
+      corresp="engishiki_v5_ja.xml#article051059 engishiki_v5_en.xml#article051059">
       <head ana="六処堺川"/>
       <p ana="項" corresp="engishiki_v5_ja.xml#item05105901 engishiki_v5_en.xml#item05105901"
        xml:id="item05105901"> 六処堺川供奉御禊〈 <placeName corresp="#山城国"> 山 <anchor xml:id="app0510590101"
@@ -2172,7 +2232,8 @@
        <note> 席　土本等この上に「善品漆筥〈納堅魚鰒等類〉」一〇字あり。考異に従い傍書の竄入と判断する。ただし「〈納堅魚鰒等類〉」は本文注の可能性もある。 </note>
       </app>
      </div>
-     <div ana="斎宮" n="5.60" subtype="項" type="条">
+     <div ana="斎宮" n="5.60" type="条" xml:id="article051060"
+      corresp="engishiki_v5_ja.xml#article051060 engishiki_v5_en.xml#article051060">
       <head ana="鎮祓"/>
       <p ana="項" corresp="engishiki_v5_ja.xml#item05106001 engishiki_v5_en.xml#item05106001"
        xml:id="item05106001"> 凡斎内親王在路、毎至 <placeName corresp="#山城国"> 山城 </placeName> ・ <placeName
@@ -2191,7 +2252,8 @@
        <note> 領　土本「舎頁」。条本・近本等により改める。 </note>
       </app>
      </div>
-     <div ana="斎宮" n="5.61" subtype="項" type="条">
+     <div ana="斎宮" n="5.61" type="条" xml:id="article051061"
+      corresp="engishiki_v5_ja.xml#article051061 engishiki_v5_en.xml#article051061">
       <head ana="祈年祭神"/>
       <p ana="項" corresp="engishiki_v5_ja.xml#item05106101 engishiki_v5_en.xml#item05106101"
        xml:id="item05106101"> 斎宮祈年祭神百十五座 <lb/> 大社十七座〈在斎宮内、〉 <lb/> 大宮売神四座　御門神八座　御井神二座　 卜庭神二座　地主神一座
@@ -2502,7 +2564,8 @@
        <note> 雑　土本等無し、条本により補う。 </note>
       </app>
      </div>
-     <div ana="斎宮" n="5.62" subtype="項" type="条">
+     <div ana="斎宮" n="5.62" type="条" xml:id="article051062"
+      corresp="engishiki_v5_ja.xml#article051062 engishiki_v5_en.xml#article051062">
       <head ana="三時祭禊料"/>
       <p ana="項" corresp="engishiki_v5_ja.xml#item05106201 engishiki_v5_en.xml#item05106201"
        xml:id="item05106201"> 斎内親王参三時祭禊料 <lb/> 五色絁各六尺、 <placeName corresp="#安芸国"> 安芸 </placeName>
@@ -2557,7 +2620,8 @@
        <s rendition="#indent"> 十八日斎王還宮、主神司中臣候南門奉御麻、兼供奉大殿祭、祗承国司賜禄、 </s>
       </p>
      </div>
-     <div ana="斎宮" n="5.63" subtype="項" type="条">
+     <div ana="斎宮" n="5.63" type="条" xml:id="article051063"
+      corresp="engishiki_v5_ja.xml#article051063 engishiki_v5_en.xml#article051063">
       <head ana="卜庭神祭"/>
       <p ana="項" corresp="engishiki_v5_ja.xml#item05106301 engishiki_v5_en.xml#item05106301"
        xml:id="item05106301"> 毎月晦日卜庭神祭〈斎王参三時祭卜庭神祭准此、〉 <lb/>
@@ -2573,12 +2637,14 @@
        <note> 塩一升　九冊本・京博本この下に「新嘗会及向度会宮、令依御短尺イニ」と注す。九冊本は「令」に「本之〔定ヵ〕」と傍書する。 </note>
       </app>
      </div>
-     <div ana="斎宮" n="5.64" subtype="項" type="条">
+     <div ana="斎宮" n="5.64" type="条" xml:id="article051064"
+      corresp="engishiki_v5_ja.xml#article051064 engishiki_v5_en.xml#article051064">
       <head ana="十月祓料"/>
       <p ana="項" corresp="engishiki_v5_ja.xml#item05106401 engishiki_v5_en.xml#item05106401"
        xml:id="item05106401"> 凡十月晦日祓料、同三時祭祓、 </p>
      </div>
-     <div ana="斎宮" n="5.65" subtype="項" type="条">
+     <div ana="斎宮" n="5.65" type="条" xml:id="article051065"
+      corresp="engishiki_v5_ja.xml#article051065 engishiki_v5_en.xml#article051065">
       <head ana="新嘗祭"/>
       <p ana="項" corresp="engishiki_v5_ja.xml#item05106501 engishiki_v5_en.xml#item05106501"
        xml:id="item05106501"> 新嘗祭神百十五座〈大十七座、小九十八座、〉 <lb/>
@@ -2592,7 +2658,8 @@
        <note> 火　土本「大」。条本・近本等により改める。 </note>
       </app>
      </div>
-     <div ana="斎宮" n="5.66" subtype="項" type="条">
+     <div ana="斎宮" n="5.66" type="条" xml:id="article051066"
+      corresp="engishiki_v5_ja.xml#article051066 engishiki_v5_en.xml#article051066">
       <head ana="供新嘗料"/>
       <p ana="項" corresp="engishiki_v5_ja.xml#item05106601 engishiki_v5_en.xml#item05106601"
        xml:id="item05106601"> 供新嘗料〈卜八男十女、〉 <lb/> 絹二丈、糸二両、紵一丈二尺、細布一丈六尺、曝布一丈二尺、調布三 <anchor
@@ -2750,7 +2817,8 @@
        <note> 段　訳注本「端」に意改。諸本「段」。九冊本・京博本傍書「端イニ」。 </note>
       </app>
      </div>
-     <div ana="斎宮" n="5.67" subtype="項" type="条">
+     <div ana="斎宮" n="5.67" type="条" xml:id="article051067"
+      corresp="engishiki_v5_ja.xml#article051067 engishiki_v5_en.xml#article051067">
       <head ana="諸司春祭"/>
       <p ana="項" corresp="engishiki_v5_ja.xml#item05106701 engishiki_v5_en.xml#item05106701"
        xml:id="item05106701"> 諸司春祭〈秋祭准此、〉 <lb/> 膳部神祭 <lb/>
@@ -2773,7 +2841,8 @@
        xml:id="item05106706"> 竈・炭竈山・戸・御川池等神祭 <lb/>
        五色薄絁各一尺、倭文一尺、木綿・麻各四両、庸布一段、鍬二口、米四升、酒六升、大豆・小豆各一升、鰒・堅魚・海藻各一斤、腊・鮨各六升、塩二升、食薦四枚、 </p>
      </div>
-     <div ana="斎宮" n="5.68" subtype="項" type="条">
+     <div ana="斎宮" n="5.68" type="条" xml:id="article051068"
+      corresp="engishiki_v5_ja.xml#article051068 engishiki_v5_en.xml#article051068">
       <head ana="大神宮幣"/>
       <p ana="項" corresp="engishiki_v5_ja.xml#item05106801 engishiki_v5_en.xml#item05106801"
        xml:id="item05106801"> 十二月供 <anchor xml:id="app0510680101"/> 二 <anchor
@@ -2790,12 +2859,14 @@
      </div>
      <pb
       facs="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-5%2F00042.tif/full/full/0/default.jpg"/>
-     <div ana="斎宮" n="5.69" subtype="項" type="条">
+     <div ana="斎宮" n="5.69" type="条" xml:id="article051069"
+      corresp="engishiki_v5_ja.xml#article051069 engishiki_v5_en.xml#article051069">
       <head ana="斎宮諸神幣"/>
       <p ana="項" corresp="engishiki_v5_ja.xml#item05106901 engishiki_v5_en.xml#item05106901"
        xml:id="item05106901"> 斎宮内諸神十七座幣 <lb/> 座別絹五尺、糸一絇、綿一屯、庸布一丈四尺、木綿二両、麻五両、 </p>
      </div>
-     <div ana="斎宮" n="5.70" subtype="項" type="条">
+     <div ana="斎宮" n="5.70" type="条" xml:id="article051070"
+      corresp="engishiki_v5_ja.xml#article051070 engishiki_v5_en.xml#article051070">
       <head ana="斎宮鋪設等"/>
       <p ana="項" corresp="engishiki_v5_ja.xml#item05107001 engishiki_v5_en.xml#item05107001"
        xml:id="item05107001"> 斎宮鋪設 <lb/>
@@ -2829,7 +2900,8 @@
      </div>
      <pb
       facs="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-5%2F00043.tif/full/full/0/default.jpg"/>
-     <div ana="斎宮" n="5.71" subtype="項" type="条">
+     <div ana="斎宮" n="5.71" type="条" xml:id="article051071"
+      corresp="engishiki_v5_ja.xml#article051071 engishiki_v5_en.xml#article051071">
       <head ana="年料供物"/>
       <p ana="項" corresp="engishiki_v5_ja.xml#item05107101 engishiki_v5_en.xml#item05107101"
        xml:id="item05107101"> 年料供物 <lb/> 寝殿壁代帳料絹十三疋一尺七寸、綿卅七屯、蓋代料調布十五 <anchor xml:id="app0510710101"
@@ -3094,7 +3166,8 @@
        <s rendition="#indent"> 右、馬部司所請、 </s>
       </p>
      </div>
-     <div ana="斎宮" n="5.72" subtype="項" type="条">
+     <div ana="斎宮" n="5.72" type="条" xml:id="article051072"
+      corresp="engishiki_v5_ja.xml#article051072 engishiki_v5_en.xml#article051072">
       <head ana="月料節料"/>
       <p ana="項" corresp="engishiki_v5_ja.xml#item05107201 engishiki_v5_en.xml#item05107201"
        xml:id="item05107201">
@@ -3103,7 +3176,8 @@
         facs="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-5%2F00049.tif/full/full/0/default.jpg"
        /> 火炬小女二人、〈別米一升四合、塩一夕四撮、〉宮主并卜部家口四人、〈別米一升五合、塩一夕五撮、〉 </p>
      </div>
-     <div ana="斎宮" n="5.73" subtype="項" type="条">
+     <div ana="斎宮" n="5.73" type="条" xml:id="article051073"
+      corresp="engishiki_v5_ja.xml#article051073 engishiki_v5_en.xml#article051073">
       <head ana="元日"/>
       <p ana="項" corresp="engishiki_v5_ja.xml#item05107301 engishiki_v5_en.xml#item05107301"
        xml:id="item05107301"> 凡元日斎内親王遥拝大神宮、訖開宮南門、頭已下於門外拝賀斎王、其禄法、頭絹四疋、綿廿屯、助絹二疋、綿八屯、允絹二疋、
@@ -3149,7 +3223,8 @@
        <note> 段　訳注本は「端」に意改。諸本「段」。 </note>
       </app>
      </div>
-     <div ana="斎宮" n="5.74" subtype="項" type="条">
+     <div ana="斎宮" n="5.74" type="条" xml:id="article051074"
+      corresp="engishiki_v5_ja.xml#article051074 engishiki_v5_en.xml#article051074">
       <head ana="六月"/>
       <p ana="項" corresp="engishiki_v5_ja.xml#item05107401 engishiki_v5_en.xml#item05107401"
        xml:id="item05107401">
@@ -3158,13 +3233,15 @@
         facs="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-5%2F00050.tif/full/full/0/default.jpg"
        /> 四人・今良四人各布二丈、戸座一人布一丈四尺、奏舞女孺四人各絹一疋、自外不給、 </p>
      </div>
-     <div ana="斎宮" n="5.75" subtype="項" type="条">
+     <div ana="斎宮" n="5.75" type="条" xml:id="article051075"
+      corresp="engishiki_v5_ja.xml#article051075 engishiki_v5_en.xml#article051075">
       <head ana="九月祭"/>
       <p ana="項" corresp="engishiki_v5_ja.xml#item05107501 engishiki_v5_en.xml#item05107501"
        xml:id="item05107501"> 凡向九月祭陪従命婦以下賜装束、五位絹四疋、綿十屯、外位絹二疋三丈、綿五屯、乳母各絹二疋三丈、綿二屯、
        上等女孺一人同乳母、中等以下廿三人各絹一疋三丈、綿二屯、自外不給、 </p>
      </div>
-     <div ana="斎宮" n="5.76" subtype="項" type="条">
+     <div ana="斎宮" n="5.76" type="条" xml:id="article051076"
+      corresp="engishiki_v5_ja.xml#article051076 engishiki_v5_en.xml#article051076">
       <head ana="官人禄"/>
       <p ana="項" corresp="engishiki_v5_ja.xml#item05107601 engishiki_v5_en.xml#item05107601"
        xml:id="item05107601"> 凡 <orgName corresp="#斎宮寮"> 寮 </orgName> 官人以下春秋禄者、以 <placeName
@@ -3193,7 +3270,8 @@
        <note> 段　訳注本は「端」に意改。諸本「段」。 </note>
       </app>
      </div>
-     <div ana="斎宮" n="5.77" subtype="項" type="条">
+     <div ana="斎宮" n="5.77" type="条" xml:id="article051077"
+      corresp="engishiki_v5_ja.xml#article051077 engishiki_v5_en.xml#article051077">
       <head ana="供田墾田"/>
       <p ana="項" corresp="engishiki_v5_ja.xml#item05107701 engishiki_v5_en.xml#item05107701"
        xml:id="item05107701"> 凡斎内親王到国、初年割正税七百束、供用年料之膳、当郡毎月舂送 <orgName corresp="#斎宮寮"> 寮 </orgName>
@@ -3216,7 +3294,8 @@
        <note> 雑　土本等「准」。近本・京博本傍書により改める。 </note>
       </app>
      </div>
-     <div ana="斎宮" n="5.78" subtype="項" type="条">
+     <div ana="斎宮" n="5.78" type="条" xml:id="article051078"
+      corresp="engishiki_v5_ja.xml#article051078 engishiki_v5_en.xml#article051078">
       <head ana="調庸雑物"/>
       <p ana="項" corresp="engishiki_v5_ja.xml#item05107801 engishiki_v5_en.xml#item05107801"
        xml:id="item05107801"> 凡 <placeName
@@ -3362,18 +3441,21 @@
        <note> 百　土本等「石」。近本・京博本訂正書等により改める。 </note>
       </app>
      </div>
-     <div ana="斎宮" n="5.79" subtype="項" type="条">
+     <div ana="斎宮" n="5.79" type="条" xml:id="article051079"
+      corresp="engishiki_v5_ja.xml#article051079 engishiki_v5_en.xml#article051079">
       <head ana="官人入京"/>
       <p ana="項" corresp="engishiki_v5_ja.xml#item05107901 engishiki_v5_en.xml#item05107901"
        xml:id="item05107901"> 凡 <orgName corresp="#斎宮寮"> 寮 </orgName>
        官人縁公事入京者、聴乗駅馬、五位四疋、八位以上三疋、初位以下二疋、〈女亦同、〉 </p>
      </div>
-     <div ana="斎宮" n="5.80" subtype="項" type="条">
+     <div ana="斎宮" n="5.80" type="条" xml:id="article051080"
+      corresp="engishiki_v5_ja.xml#article051080 engishiki_v5_en.xml#article051080">
       <head ana="戸座炬火"/>
       <p ana="項" corresp="engishiki_v5_ja.xml#item05108001 engishiki_v5_en.xml#item05108001"
        xml:id="item05108001"> 凡斎王到国之日、取度会郡二見郷礒部氏童男、卜為戸座、其炬火取当郡童女卜用、但遭喪及長大即替之、 </p>
      </div>
-     <div ana="斎宮" n="5.81" subtype="項" type="条">
+     <div ana="斎宮" n="5.81" type="条" xml:id="article051081"
+      corresp="engishiki_v5_ja.xml#article051081 engishiki_v5_en.xml#article051081">
       <head ana="名簿"/>
       <p ana="項" corresp="engishiki_v5_ja.xml#item05108101 engishiki_v5_en.xml#item05108101"
        xml:id="item05108101"> 凡遷入野宮之後、及到斎宮、毎月下旬、雑色及仕女已上名簿、移送於主神司、随即卜之、亦至六月・九月・十一月・十二月、更亦卜之、
@@ -3393,7 +3475,8 @@
        <note> 共　訳注本「供」。 </note>
       </app>
      </div>
-     <div ana="斎宮" n="5.82" subtype="項" type="条">
+     <div ana="斎宮" n="5.82" type="条" xml:id="article051082"
+      corresp="engishiki_v5_ja.xml#article051082 engishiki_v5_en.xml#article051082">
       <head ana="最合"/>
       <p ana="項" corresp="engishiki_v5_ja.xml#item05108201 engishiki_v5_en.xml#item05108201"
        xml:id="item05108201">
@@ -3401,12 +3484,14 @@
      </div>
      <pb
       facs="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-5%2F00054.tif/full/full/0/default.jpg"/>
-     <div ana="斎宮" n="5.83" subtype="項" type="条">
+     <div ana="斎宮" n="5.83" type="条" xml:id="article051083"
+      corresp="engishiki_v5_ja.xml#article051083 engishiki_v5_en.xml#article051083">
       <head ana="封戸"/>
       <p ana="項" corresp="engishiki_v5_ja.xml#item05108301 engishiki_v5_en.xml#item05108301"
        xml:id="item05108301"> 凡以大神宮封戸百姓、不得輙補 <orgName corresp="#斎宮寮"> 寮 </orgName> 舎人、 </p>
      </div>
-     <div ana="斎宮" n="5.84" subtype="項" type="条">
+     <div ana="斎宮" n="5.84" type="条" xml:id="article051084"
+      corresp="engishiki_v5_ja.xml#article051084 engishiki_v5_en.xml#article051084">
       <head ana="神殿勤守"/>
       <p ana="項" corresp="engishiki_v5_ja.xml#item05108401 engishiki_v5_en.xml#item05108401"
        xml:id="item05108401"> 凡内院神殿者、 <anchor xml:id="app0510840101"/> 令 <anchor
@@ -3419,24 +3504,28 @@
        <note> 令　土本等「命」。近本・九冊本傍書等により改める。 </note>
       </app>
      </div>
-     <div ana="斎宮" n="5.85" subtype="項" type="条">
+     <div ana="斎宮" n="5.85" type="条" xml:id="article051085"
+      corresp="engishiki_v5_ja.xml#article051085 engishiki_v5_en.xml#article051085">
       <head ana="諸司雑舎"/>
       <p ana="項" corresp="engishiki_v5_ja.xml#item05108501 engishiki_v5_en.xml#item05108501"
        xml:id="item05108501"> 凡内院及諸司雑舎者、造宮使作畢之後、 <orgName corresp="#斎宮寮"> 寮 </orgName>
        官毎季巡検、若居住官人致損、奪其俸料、 <orgName corresp="#斎宮寮"> 寮 </orgName> 官懈怠不勤巡検、譴責之法、亦同諸司、 </p>
      </div>
-     <div ana="斎宮" n="5.86" subtype="項" type="条">
+     <div ana="斎宮" n="5.86" type="条" xml:id="article051086"
+      corresp="engishiki_v5_ja.xml#article051086 engishiki_v5_en.xml#article051086">
       <head ana="中重庭"/>
       <p ana="項" corresp="engishiki_v5_ja.xml#item05108601 engishiki_v5_en.xml#item05108601"
        xml:id="item05108601"> 凡中重庭者、須令諸司毎晦掃除、 <orgName corresp="#斎宮寮"> 寮 </orgName>
        官逓加巡検、若致緩怠、譴責同上条、 </p>
      </div>
-     <div ana="斎宮" n="5.87" subtype="項" type="条">
+     <div ana="斎宮" n="5.87" type="条" xml:id="article051087"
+      corresp="engishiki_v5_ja.xml#article051087 engishiki_v5_en.xml#article051087">
       <head ana="御膳"/>
       <p ana="項" corresp="engishiki_v5_ja.xml#item05108701 engishiki_v5_en.xml#item05108701"
        xml:id="item05108701"> 凡朝夕御膳、若致闕乏、科責 <orgName corresp="#斎宮寮"> 寮 </orgName> 官并膳部司、 </p>
      </div>
-     <div ana="斎宮" n="5.88" subtype="項" type="条">
+     <div ana="斎宮" n="5.88" type="条" xml:id="article051088"
+      corresp="engishiki_v5_ja.xml#article051088 engishiki_v5_en.xml#article051088">
       <head ana="殖樹木"/>
       <p ana="項" corresp="engishiki_v5_ja.xml#item05108801 engishiki_v5_en.xml#item05108801"
        xml:id="item05108801"> 凡溝隍四辺列殖松・柳、并掃除大垣廻及大庭等之事者、令門部司加 <anchor xml:id="app0510880101"/> 営
@@ -3447,7 +3536,8 @@
        <note> 営　土本等「労」。考異に従い意改する。 </note>
       </app>
      </div>
-     <div ana="斎宮" n="5.89" subtype="項" type="条">
+     <div ana="斎宮" n="5.89" type="条" xml:id="article051089"
+      corresp="engishiki_v5_ja.xml#article051089 engishiki_v5_en.xml#article051089">
       <head ana="修理"/>
       <p ana="項" corresp="engishiki_v5_ja.xml#item05108901 engishiki_v5_en.xml#item05108901"
        xml:id="item05108901"> 凡仕丁卌八人之中、六人 <anchor xml:id="app0510890101"/> 分充 <anchor
@@ -3475,48 +3565,56 @@
        <note> 営　土本等「労」。考異に従い意改する。 </note>
       </app>
      </div>
-     <div ana="斎宮" n="5.90" subtype="項" type="条">
+     <div ana="斎宮" n="5.90" type="条" xml:id="article051090"
+      corresp="engishiki_v5_ja.xml#article051090 engishiki_v5_en.xml#article051090">
       <head ana="雑物注載"/>
       <p ana="項" corresp="engishiki_v5_ja.xml#item05109001 engishiki_v5_en.xml#item05109001"
        xml:id="item05109001"> 凡 <orgName corresp="#斎宮寮"> 寮 </orgName>
        中所納之雑物、用残・未進色目者、注載季帳、四孟差使進官、但被管諸司季帳、 <orgName corresp="#斎宮寮"> 寮 </orgName> 官覆審、押署進上、 </p>
      </div>
-     <div ana="斎宮" n="5.91" subtype="項" type="条">
+     <div ana="斎宮" n="5.91" type="条" xml:id="article051091"
+      corresp="engishiki_v5_ja.xml#article051091 engishiki_v5_en.xml#article051091">
       <head ana="月俸衣服"/>
       <p ana="項" corresp="engishiki_v5_ja.xml#item05109101 engishiki_v5_en.xml#item05109101"
        xml:id="item05109101"> 凡諸司男女官月俸、雑色人衣服者、随 <placeName corresp="#伊勢国"> 当国 </placeName>
        ・他国所進之多少、不論上下、毎色分行、但須先女官後男官、 </p>
      </div>
-     <div ana="斎宮" n="5.92" subtype="項" type="条">
+     <div ana="斎宮" n="5.92" type="条" xml:id="article051092"
+      corresp="engishiki_v5_ja.xml#article051092 engishiki_v5_en.xml#article051092">
       <head ana="秣蒭"/>
       <p ana="項" corresp="engishiki_v5_ja.xml#item05109201 engishiki_v5_en.xml#item05109201"
        xml:id="item05109201"> 凡馬部司御馬八疋年料秣稲・干蒭者、不待 <orgName corresp="#斎宮寮"> 寮 </orgName>
        移勘納本司、随日充用、但其細用者、毎季勘造、請 <orgName corresp="#斎宮寮"> 寮 </orgName> 勘署、 </p>
      </div>
-     <div ana="斎宮" n="5.93" subtype="項" type="条">
+     <div ana="斎宮" n="5.93" type="条" xml:id="article051093"
+      corresp="engishiki_v5_ja.xml#article051093 engishiki_v5_en.xml#article051093">
       <head ana="賜宴禄"/>
       <p ana="項" corresp="engishiki_v5_ja.xml#item05109301 engishiki_v5_en.xml#item05109301"
        xml:id="item05109301"> 凡新嘗解斎日、大神宮司率禰宜・内人・御厨案主・三郡司・神部・歌人等参会、賜宴禄各有差、〈 <orgName corresp="#斎宮寮">
         寮 </orgName> 頭已下亦賜禄、〉 </p>
      </div>
-     <div ana="斎宮" n="5.94" subtype="項" type="条">
+     <div ana="斎宮" n="5.94" type="条" xml:id="article051094"
+      corresp="engishiki_v5_ja.xml#article051094 engishiki_v5_en.xml#article051094">
       <head ana="殴闘"/>
       <p ana="項" corresp="engishiki_v5_ja.xml#item05109401 engishiki_v5_en.xml#item05109401"
        xml:id="item05109401"> 凡雑色人已上、与人殴闘者科上祓、 </p>
      </div>
-     <div ana="斎宮" n="5.95" subtype="項" type="条">
+     <div ana="斎宮" n="5.95" type="条" xml:id="article051095"
+      corresp="engishiki_v5_ja.xml#article051095 engishiki_v5_en.xml#article051095">
       <head ana="密婚"/>
       <p ana="項" corresp="engishiki_v5_ja.xml#item05109501 engishiki_v5_en.xml#item05109501"
        xml:id="item05109501"> 凡 <orgName corresp="#斎宮寮"> 寮 </orgName> 官諸司及宮中男女、修仏事、和姧密婚者科中祓、 </p>
      </div>
-     <div ana="斎宮" n="5.96" subtype="項" type="条">
+     <div ana="斎宮" n="5.96" type="条" xml:id="article051096"
+      corresp="engishiki_v5_ja.xml#article051096 engishiki_v5_en.xml#article051096">
       <head ana="失火穢"/>
       <p ana="項" corresp="engishiki_v5_ja.xml#item05109601 engishiki_v5_en.xml#item05109601"
        xml:id="item05109601"> 凡隍中有失火穢者、随之祓清、其宅人七日不得参入宮中、 </p>
      </div>
      <pb
       facs="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-5%2F00056.tif/full/full/0/default.jpg"/>
-     <div ana="斎宮" n="5.97" subtype="項" type="条">
+     <div ana="斎宮" n="5.97" type="条" xml:id="article051097"
+      corresp="engishiki_v5_ja.xml#article051097 engishiki_v5_en.xml#article051097">
       <head ana="斎王相代"/>
       <p ana="項" corresp="engishiki_v5_ja.xml#item05109701 engishiki_v5_en.xml#item05109701"
        xml:id="item05109701"> 凡斎王相代応 <anchor xml:id="app0510970101"/> 帰 <anchor
@@ -3528,7 +3626,8 @@
        <note> 帰　土本等傍書「諸本無字、検弘式有還字、必可有字已、」あり。 </note>
       </app>
      </div>
-     <div ana="斎宮" n="5.98" subtype="項" type="条">
+     <div ana="斎宮" n="5.98" type="条" xml:id="article051098"
+      corresp="engishiki_v5_ja.xml#article051098 engishiki_v5_en.xml#article051098">
       <head ana="納印"/>
       <p ana="項" corresp="engishiki_v5_ja.xml#item05109801 engishiki_v5_en.xml#item05109801"
        xml:id="item05109801"> 凡斎王帰京者、 <orgName corresp="#斎宮寮"> 寮 </orgName> 印授 <placeName
@@ -3541,7 +3640,8 @@
        <note> 官　土本等「宮」。島原本・貞享本・藤波本・版本に従い改める。 </note>
       </app>
      </div>
-     <div ana="斎宮" n="5.99" subtype="項" type="条">
+     <div ana="斎宮" n="5.99" type="条" xml:id="article051099"
+      corresp="engishiki_v5_ja.xml#article051099 engishiki_v5_en.xml#article051099">
       <head ana="遣使"/>
       <p ana="項" corresp="engishiki_v5_ja.xml#item05109901 engishiki_v5_en.xml#item05109901"
        xml:id="item05109901"> 凡斎王還京者、〈若有遭故還者、不用初入之道、〉遣使奉迎、五位・六位各一人、 <placeName corresp="#近江国"> 近江
@@ -3553,7 +3653,8 @@
        <note> 之　訳注本無し。 </note>
       </app>
      </div>
-     <div ana="斎宮" n="5.100" subtype="項" type="条">
+     <div ana="斎宮" n="5.100" type="条" xml:id="article051100"
+      corresp="engishiki_v5_ja.xml#article051100 engishiki_v5_en.xml#article051100">
       <head ana="給雑物"/>
       <p ana="項" corresp="engishiki_v5_ja.xml#item05110001 engishiki_v5_en.xml#item05110001"
        xml:id="item05110001"> 凡斎内親王還京、所有雑物、 <orgName corresp="#斎宮寮"> 寮 </orgName>

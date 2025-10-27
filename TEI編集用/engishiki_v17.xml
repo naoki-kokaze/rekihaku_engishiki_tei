@@ -473,19 +473,21 @@
  </teiHeader>
  <text>
   <body>
-   <div ana="内匠" n="17" subtype="式" type="巻">
+   <div ana="内匠" n="17" type="巻" xml:id="volume17">
     <pb
      facs="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-17%2F00002.tif/full/full/0/default.jpg"/>
     <div type="首題" xml:id="shudai17">
      <p xml:id="shudai1701"> 延喜式巻第十七 </p>
     </div>
-    <div ana="内匠" n="17" subtype="条" type="式">
+    <div ana="内匠" n="17" type="式" xml:id="protocol171"
+     corresp="engishiki_v17_ja.xml#protocol171 engishiki_v17_en.xml#protocol171">
      <div type="式題" xml:id="shikidai171">
       <p xml:id="shikidai17101">
        <orgName corresp="#内匠寮"> 内匠寮 </orgName>
       </p>
      </div>
-     <div ana="内匠" n="17.1" subtype="項" type="条">
+     <div ana="内匠" n="17.1" type="条" xml:id="article171001"
+      corresp="engishiki_v17_ja.xml#article171001 engishiki_v17_en.xml#article171001">
       <head ana="大極殿飾"/>
       <p ana="項" corresp="engishiki_v17_ja.xml#item17100101 engishiki_v17_en.xml#item17100101"
        xml:id="item17100101">
@@ -525,7 +527,8 @@
        <note> 御座　版本以下「高御座」とするも諸写本「高」字無し。近本補入あるも版本によったか。 </note>
       </app>
      </div>
-     <div ana="内匠" n="17.2" subtype="項" type="条">
+     <div ana="内匠" n="17.2" type="条" xml:id="article171002"
+      corresp="engishiki_v17_ja.xml#article171002 engishiki_v17_en.xml#article171002">
       <head ana="御斎会"/>
       <p ana="項" corresp="engishiki_v17_ja.xml#item17100201 engishiki_v17_en.xml#item17100201"
        xml:id="item17100201">
@@ -538,7 +541,8 @@
        <note> 弘イ貞イ　土本無し。壬本・京博本等による。 </note>
       </app>
      </div>
-     <div ana="内匠" n="17.3" subtype="項" type="条">
+     <div ana="内匠" n="17.3" type="条" xml:id="article171003"
+      corresp="engishiki_v17_ja.xml#article171003 engishiki_v17_en.xml#article171003">
       <head ana="諸節"/>
       <p ana="項" corresp="engishiki_v17_ja.xml#item17100301 engishiki_v17_en.xml#item17100301"
        xml:id="item17100301">
@@ -565,7 +569,8 @@
        <note> 客　土本等「寮」。近本・京博本朱傍書により改める。版本もまた「客」に作る。 </note>
       </app>
      </div>
-     <div ana="内匠" n="17.4" subtype="項" type="条">
+     <div ana="内匠" n="17.4" type="条" xml:id="article171004"
+      corresp="engishiki_v17_ja.xml#article171004 engishiki_v17_en.xml#article171004">
       <head ana="五月五日"/>
       <p ana="項" corresp="engishiki_v17_ja.xml#item17100401 engishiki_v17_en.xml#item17100401"
        xml:id="item17100401"> 凡五月五日節、前一日武徳殿構立斗帳、又軟障台二基、〈立御座壇以南西二 <anchor xml:id="app1710040101"/> 間
@@ -582,7 +587,8 @@
        <note> 台　土本無し。近本・壬本等により補う。 </note>
       </app>
      </div>
-     <div ana="内匠" n="17.5" subtype="項" type="条">
+     <div ana="内匠" n="17.5" type="条" xml:id="article171005"
+      corresp="engishiki_v17_ja.xml#article171005 engishiki_v17_en.xml#article171005">
       <head ana="銀器"/>
       <p ana="項" corresp="engishiki_v17_ja.xml#item17100501 engishiki_v17_en.xml#item17100501"
        xml:id="item17100501"> 銀器 <lb/>
@@ -670,7 +676,8 @@
        <note> 弘貞イ　土本無し。壬本・京博本等による。 </note>
       </app>
      </div>
-     <div ana="内匠" n="17.6" subtype="項" type="条">
+     <div ana="内匠" n="17.6" type="条" xml:id="article171006"
+      corresp="engishiki_v17_ja.xml#article171006 engishiki_v17_en.xml#article171006">
       <head ana="漆器"/>
       <p ana="項" corresp="engishiki_v17_ja.xml#item17100601 engishiki_v17_en.xml#item17100601"
        xml:id="item17100601"> 漆供御雑器 <lb/>
@@ -759,7 +766,8 @@
        <note> 杯　訳注本は「坏」に作るも土本等諸写本は「杯」。 </note>
       </app>
      </div>
-     <div ana="内匠" n="17.7" subtype="項" type="条">
+     <div ana="内匠" n="17.7" type="条" xml:id="article171007"
+      corresp="engishiki_v17_ja.xml#article171007 engishiki_v17_en.xml#article171007">
       <head ana="朱漆器"/>
       <p ana="項" corresp="engishiki_v17_ja.xml#item17100701 engishiki_v17_en.xml#item17100701"
        xml:id="item17100701"> 朱漆器 <lb/>
@@ -906,13 +914,15 @@
        <note> 弘貞イ　土本無し。壬本・京博本等による。 </note>
       </app>
      </div>
-     <div ana="内匠" n="17.8" subtype="項" type="条">
+     <div ana="内匠" n="17.8" type="条" xml:id="article171008"
+      corresp="engishiki_v17_ja.xml#article171008 engishiki_v17_en.xml#article171008">
       <head ana="瓜刀"/>
       <p ana="項" corresp="engishiki_v17_ja.xml#item17100801 engishiki_v17_en.xml#item17100801"
        xml:id="item17100801"> 割瓜刀子廿枚〈刃長五寸、毎年五月一日・七月一日両度、盛楊筥一合進之、其筥用年料内、〉料、堅鉄大六斤四両、膠小十二両、木賊小八両、伊予砥二顆、
        檜小半村、〈鞘料、〉紙十張、〈敷刀子筥料、〉和炭三斛、単功七十五人、〈工七十人、夫五人、〉 </p>
      </div>
-     <div ana="内匠" n="17.9" subtype="項" type="条">
+     <div ana="内匠" n="17.9" type="条" xml:id="article171009"
+      corresp="engishiki_v17_ja.xml#article171009 engishiki_v17_en.xml#article171009">
       <head ana="革筥"/>
       <p ana="項" corresp="engishiki_v17_ja.xml#item17100901 engishiki_v17_en.xml#item17100901"
        xml:id="item17100901">
@@ -954,7 +964,8 @@
        <note> 十　土本等諸写本「七」。明暦以降版本に従い改める。 </note>
       </app>
      </div>
-     <div ana="内匠" n="17.10" subtype="項" type="条">
+     <div ana="内匠" n="17.10" type="条" xml:id="article171010"
+      corresp="engishiki_v17_ja.xml#article171010 engishiki_v17_en.xml#article171010">
       <head ana="柳筥"/>
       <p ana="項" corresp="engishiki_v17_ja.xml#item17101001 engishiki_v17_en.xml#item17101001"
        xml:id="item17101001">
@@ -979,7 +990,8 @@
        <note> 〈工〉　版本および訳注本この字無し。 </note>
       </app>
      </div>
-     <div ana="内匠" n="17.11" subtype="項" type="条">
+     <div ana="内匠" n="17.11" type="条" xml:id="article171011"
+      corresp="engishiki_v17_ja.xml#article171011 engishiki_v17_en.xml#article171011">
       <head ana="年料屏風"/>
       <p ana="項" corresp="engishiki_v17_ja.xml#item17101101 engishiki_v17_en.xml#item17101101"
        xml:id="item17101101"> 年料五尺屏風骨五十帖料、榲榑大七十五村、〈以一村半 <anchor xml:id="app1710110101"/> 充 <anchor
@@ -1039,7 +1051,8 @@
        <note> 二　土本等「三」。「「作花形釘四百卅四人」ニ合ワズ」として「二」の誤と見る訳注本に従い改める。 </note>
       </app>
      </div>
-     <div ana="内匠" n="17.12" subtype="項" type="条">
+     <div ana="内匠" n="17.12" type="条" xml:id="article171012"
+      corresp="engishiki_v17_ja.xml#article171012 engishiki_v17_en.xml#article171012">
       <head ana="年料几帳"/>
       <p ana="項" corresp="engishiki_v17_ja.xml#item17101201 engishiki_v17_en.xml#item17101201"
        xml:id="item17101201"> 年料几帳八基〈四尺四基、三尺四基、〉料、檜 <anchor xml:id="app1710120101"/> 榑 <anchor
@@ -1052,7 +1065,8 @@
        <note> 榑　土本「傳」。近本・壬本・京博本等により改める。 </note>
       </app>
      </div>
-     <div ana="内匠" n="17.13" subtype="項" type="条">
+     <div ana="内匠" n="17.13" type="条" xml:id="article171013"
+      corresp="engishiki_v17_ja.xml#article171013 engishiki_v17_en.xml#article171013">
       <head ana="御鏡"/>
       <p ana="項" corresp="engishiki_v17_ja.xml#item17101301 engishiki_v17_en.xml#item17101301"
        xml:id="item17101301">
@@ -1073,7 +1087,8 @@
        <note> 精　土本・近本・壬本等朱傍書「音掌」。 </note>
       </app>
      </div>
-     <div ana="内匠" n="17.14" subtype="項" type="条">
+     <div ana="内匠" n="17.14" type="条" xml:id="article171014"
+      corresp="engishiki_v17_ja.xml#article171014 engishiki_v17_en.xml#article171014">
       <head ana="御帯"/>
       <p ana="項" corresp="engishiki_v17_ja.xml#item17101401 engishiki_v17_en.xml#item17101401"
        xml:id="item17101401"> 馬瑙御腰帯一条〈六道、〉料、馬革一条、〈長七尺、広六寸、〉 <pb
@@ -1106,7 +1121,8 @@
        <note> 鈌　土本等朱傍書「音決、可勘」。 </note>
       </app>
      </div>
-     <div ana="内匠" n="17.15" subtype="項" type="条">
+     <div ana="内匠" n="17.15" type="条" xml:id="article171015"
+      corresp="engishiki_v17_ja.xml#article171015 engishiki_v17_en.xml#article171015">
       <head ana="御大刀"/>
       <p ana="項" corresp="engishiki_v17_ja.xml#item17101501 engishiki_v17_en.xml#item17101501"
        xml:id="item17101501">
@@ -1114,7 +1130,8 @@
        膠小二両、漆二合、絞漆帛二尺、綿六両、調布三尺、長功卌三人、〈鉄工十八人、銀九人、革二人、漆六人、夫八人、〉中功五十人小半、〈工卌一人、夫九人小半、〉短功五十七人半、〈工卌七人、夫十人半、〉
       </p>
      </div>
-     <div ana="内匠" n="17.16" subtype="項" type="条">
+     <div ana="内匠" n="17.16" type="条" xml:id="article171016"
+      corresp="engishiki_v17_ja.xml#article171016 engishiki_v17_en.xml#article171016">
       <head ana="内印"/>
       <p ana="項" corresp="engishiki_v17_ja.xml#item17101601 engishiki_v17_en.xml#item17101601"
        xml:id="item17101601"> 内 <anchor xml:id="app1710160101"/> 印 <anchor xml:id="app1710160101e"/>
@@ -1124,20 +1141,23 @@
        <note> 印　土本は「仰」に近い字体をとる。 </note>
       </app>
      </div>
-     <div ana="内匠" n="17.17" subtype="項" type="条">
+     <div ana="内匠" n="17.17" type="条" xml:id="article171017"
+      corresp="engishiki_v17_ja.xml#article171017 engishiki_v17_en.xml#article171017">
       <head ana="外印"/>
       <p ana="項" corresp="engishiki_v17_ja.xml#item17101701 engishiki_v17_en.xml#item17101701"
        xml:id="item17101701"> 外印一面料、熟銅大一斤、白𨭛大二両、﨟大 <pb
         facs="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-17%2F00013.tif/full/full/0/default.jpg"
        /> 二両、調布二尺、炭二斗、和炭二斗、長功七人、〈﨟工二人、鋳二人、磨三人、〉中功八人小半、短功九人大半、 </p>
      </div>
-     <div ana="内匠" n="17.18" subtype="項" type="条">
+     <div ana="内匠" n="17.18" type="条" xml:id="article171018"
+      corresp="engishiki_v17_ja.xml#article171018 engishiki_v17_en.xml#article171018">
       <head ana="諸司印"/>
       <p ana="項" corresp="engishiki_v17_ja.xml#item17101801 engishiki_v17_en.xml#item17101801"
        xml:id="item17101801">
        諸司印一面料、熟銅大十四両、白𨭛大一両二分、﨟大一両二分、調布二尺、炭二斗、和炭二斗、長功六人、〈﨟工二人、鋳二人、磨二人、〉中功七人小半、短功八人大半、 </p>
      </div>
-     <div ana="内匠" n="17.19" subtype="項" type="条">
+     <div ana="内匠" n="17.19" type="条" xml:id="article171019"
+      corresp="engishiki_v17_ja.xml#article171019 engishiki_v17_en.xml#article171019">
       <head ana="諸国印"/>
       <p ana="項" corresp="engishiki_v17_ja.xml#item17101901 engishiki_v17_en.xml#item17101901"
        xml:id="item17101901">
@@ -1154,7 +1174,8 @@
        <note> 中功六人大半、短功七人小半　訳注本「中功六人小半、短半七人大半」に改めれば公差一人小半の等差級数となることを指摘する。 </note>
       </app>
      </div>
-     <div ana="内匠" n="17.20" subtype="項" type="条">
+     <div ana="内匠" n="17.20" type="条" xml:id="article171020"
+      corresp="engishiki_v17_ja.xml#article171020 engishiki_v17_en.xml#article171020">
       <head ana="御帳"/>
       <p ana="項" corresp="engishiki_v17_ja.xml#item17102001 engishiki_v17_en.xml#item17102001"
        xml:id="item17102001"> 御斗帳一具、〈高八尺一寸、方一丈二尺二寸、〉土居料六七寸桁二枝、柱料簀子 <anchor xml:id="app1710200101"/>
@@ -1170,7 +1191,8 @@
        <note> 十　土本「一」。近本・壬本等により改める。 </note>
       </app>
      </div>
-     <div ana="内匠" n="17.21" subtype="項" type="条">
+     <div ana="内匠" n="17.21" type="条" xml:id="article171021"
+      corresp="engishiki_v17_ja.xml#article171021 engishiki_v17_en.xml#article171021">
       <head ana="御輿"/>
       <p ana="項" corresp="engishiki_v17_ja.xml#item17102101 engishiki_v17_en.xml#item17102101"
        xml:id="item17102101"> 御輿一具、〈長一丈四尺、広三尺一寸、柱高四尺八寸、斗内長 <anchor xml:id="app1710210101"/> 三尺
@@ -1216,7 +1238,8 @@
        <note> 四百五十三人小半、〈工四百一人大半、夫五十人、〉　本文と分注とで計算が合わず、どちらかに誤あり。なお土本等には分注の下に空白符あり。 </note>
       </app>
      </div>
-     <div ana="内匠" n="17.22" subtype="項" type="条">
+     <div ana="内匠" n="17.22" type="条" xml:id="article171022"
+      corresp="engishiki_v17_ja.xml#article171022 engishiki_v17_en.xml#article171022">
       <head ana="腰輿"/>
       <p ana="項" corresp="engishiki_v17_ja.xml#item17102201 engishiki_v17_en.xml#item17102201"
        xml:id="item17102201">
@@ -1250,7 +1273,8 @@
        <note> 五人半　土本は二三字程度の空白符を置く。近本・壬本等により補う。 </note>
       </app>
      </div>
-     <div ana="内匠" n="17.23" subtype="項" type="条">
+     <div ana="内匠" n="17.23" type="条" xml:id="article171023"
+      corresp="engishiki_v17_ja.xml#article171023 engishiki_v17_en.xml#article171023">
       <head ana="腰車"/>
       <p ana="項" corresp="engishiki_v17_ja.xml#item17102301 engishiki_v17_en.xml#item17102301"
        xml:id="item17102301">
@@ -1329,7 +1353,8 @@
        <note> 大　土本等「丈」。近本傍書・京博本朱傍書により改める。 </note>
       </app>
      </div>
-     <div ana="内匠" n="17.24" subtype="項" type="条">
+     <div ana="内匠" n="17.24" type="条" xml:id="article171024"
+      corresp="engishiki_v17_ja.xml#article171024 engishiki_v17_en.xml#article171024">
       <head ana="牛車"/>
       <p ana="項" corresp="engishiki_v17_ja.xml#item17102401 engishiki_v17_en.xml#item17102401"
        xml:id="item17102401">
@@ -1397,7 +1422,8 @@
        <note> 米　壬本・京博本等、朱書にてこの上に「白イ」と記す。 </note>
       </app>
      </div>
-     <div ana="内匠" n="17.25" subtype="項" type="条">
+     <div ana="内匠" n="17.25" type="条" xml:id="article171025"
+      corresp="engishiki_v17_ja.xml#article171025 engishiki_v17_en.xml#article171025">
       <head ana="屏風"/>
       <p ana="項" corresp="engishiki_v17_ja.xml#item17102501 engishiki_v17_en.xml#item17102501"
        xml:id="item17102501"> 屏風一帖、〈高五尺、画雁并草木之類、〉骨料榲榑二村半、檜榑一村、〈長五尺二寸、方二寸、〉肱金料熟銅大一斤、花形釘料半熟銅大三斤、
@@ -1430,7 +1456,8 @@
        <note> 三　考異は斎宮の屏風により「五」に改める。訳注本は「或イハ是トスベキモ暫ク旧ヲ存ス」とする。 </note>
       </app>
      </div>
-     <div ana="内匠" n="17.26" subtype="項" type="条">
+     <div ana="内匠" n="17.26" type="条" xml:id="article171026"
+      corresp="engishiki_v17_ja.xml#article171026 engishiki_v17_en.xml#article171026">
       <head ana="厨子"/>
       <p ana="項" corresp="engishiki_v17_ja.xml#item17102601 engishiki_v17_en.xml#item17102601"
        xml:id="item17102601">
@@ -1457,21 +1484,24 @@
      </div>
      <pb
       facs="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-17%2F00020.tif/full/full/0/default.jpg"/>
-     <div ana="内匠" n="17.27" subtype="項" type="条">
+     <div ana="内匠" n="17.27" type="条" xml:id="article171027"
+      corresp="engishiki_v17_ja.xml#article171027 engishiki_v17_en.xml#article171027">
       <head ana="幄"/>
       <p ana="項" corresp="engishiki_v17_ja.xml#item17102701 engishiki_v17_en.xml#item17102701"
        xml:id="item17102701">
        幄一具、柱十八株〈六株各長一丈四尺、周一尺二寸、十二株各長一丈、周一尺、〉料漆四升五合、掃墨二升、単功七人、幔柱一枝〈長一丈、周七寸、〉料漆二合二夕、
        掃墨一合、功少半人、幕桁一枝、〈長一丈三尺、周一尺五分、〉柱二枝〈各長九尺、周七寸、〉料漆七合、掃墨五合、功一人、 </p>
      </div>
-     <div ana="内匠" n="17.28" subtype="項" type="条">
+     <div ana="内匠" n="17.28" type="条" xml:id="article171028"
+      corresp="engishiki_v17_ja.xml#article171028 engishiki_v17_en.xml#article171028">
       <head ana="樋類"/>
       <p ana="項" corresp="engishiki_v17_ja.xml#item17102801 engishiki_v17_en.xml#item17102801"
        xml:id="item17102801"> 雕木一脚、〈長一尺七寸、広一尺三寸、高一尺一寸、 <orgName corresp="#木工寮"> 木工寮 </orgName>
        作之、〉樋一合、〈高九寸、径九寸五分、〉虎子一合料漆二升四合、〈雕木八合、樋一升二合、虎子四合、〉 <placeName corresp="#石見国"> 石見 </placeName>
        綿一斤、絹一尺五寸、貲布八尺、調布一尺五寸、掃墨一升、油二合、伊予砥半顆、青砥半枚、炭八斗、単功十七人、〈雕木六人、樋八人、虎子三人、〉 </p>
      </div>
-     <div ana="内匠" n="17.29" subtype="項" type="条">
+     <div ana="内匠" n="17.29" type="条" xml:id="article171029"
+      corresp="engishiki_v17_ja.xml#article171029 engishiki_v17_en.xml#article171029">
       <head ana="毬子"/>
       <p ana="項" corresp="engishiki_v17_ja.xml#item17102901 engishiki_v17_en.xml#item17102901"
        xml:id="item17102901"> 凡五月六日毬子廿 <anchor xml:id="app1710290101"/> 丸 <anchor
@@ -1483,7 +1513,8 @@
        <note> 丸　土本等「九」。京博本朱傍書および本朝月令五月六日競馬事所引貞観式逸文により改める。 </note>
       </app>
      </div>
-     <div ana="内匠" n="17.30" subtype="項" type="条">
+     <div ana="内匠" n="17.30" type="条" xml:id="article171030"
+      corresp="engishiki_v17_ja.xml#article171030 engishiki_v17_en.xml#article171030">
       <head ana="偶人"/>
       <p ana="項" corresp="engishiki_v17_ja.xml#item17103001 engishiki_v17_en.xml#item17103001"
        xml:id="item17103001">
@@ -1500,7 +1531,8 @@
      </div>
      <pb
       facs="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-17%2F00021.tif/full/full/0/default.jpg"/>
-     <div ana="内匠" n="17.31" subtype="項" type="条">
+     <div ana="内匠" n="17.31" type="条" xml:id="article171031"
+      corresp="engishiki_v17_ja.xml#article171031 engishiki_v17_en.xml#article171031">
       <head ana="伊勢初斎院"/>
       <p ana="項" corresp="engishiki_v17_ja.xml#item17103101 engishiki_v17_en.xml#item17103101"
        xml:id="item17103101">
@@ -1759,7 +1791,8 @@
        <note> 升　土本「升升」。壬本・京博本等により一字削除する。 </note>
       </app>
      </div>
-     <div ana="内匠" n="17.32" subtype="項" type="条">
+     <div ana="内匠" n="17.32" type="条" xml:id="article171032"
+      corresp="engishiki_v17_ja.xml#article171032 engishiki_v17_en.xml#article171032">
       <head ana="野宮装束"/>
       <p ana="項" corresp="engishiki_v17_ja.xml#item17103201 engishiki_v17_en.xml#item17103201"
        xml:id="item17103201"> 野宮装束 <lb/>
@@ -1967,7 +2000,8 @@
        <note> 柄　土本等「朸」。誤写と見て、雲州本・訳注本に従い改める。 </note>
       </app>
      </div>
-     <div ana="内匠" n="17.33" subtype="項" type="条">
+     <div ana="内匠" n="17.33" type="条" xml:id="article171033"
+      corresp="engishiki_v17_ja.xml#article171033 engishiki_v17_en.xml#article171033">
       <head ana="賀茂装束"/>
       <p ana="項" corresp="engishiki_v17_ja.xml#item17103301 engishiki_v17_en.xml#item17103301"
        xml:id="item17103301"> 賀茂初斎院并野宮装束 <lb/> 斗帳二具、〈白木一具、漆一具、〉几帳十基、〈三尺六基、一尺五寸四基、〉 </p>
@@ -2099,12 +2133,14 @@
        <note> 下食盤　土本等朱傍書「オハシ、諸司口伝也」。また壬本・京博本の朱傍書「又云、ヲモノ盤イ」。 </note>
       </app>
      </div>
-     <div ana="内匠" n="17.34" subtype="項" type="条">
+     <div ana="内匠" n="17.34" type="条" xml:id="article171034"
+      corresp="engishiki_v17_ja.xml#article171034 engishiki_v17_en.xml#article171034">
       <head ana="親王頓料"/>
       <p ana="項" corresp="engishiki_v17_ja.xml#item17103401 engishiki_v17_en.xml#item17103401"
        xml:id="item17103401"> 凡親王頓料、斗帳一具、〈高八尺、方一丈、〉五尺屏風十帖、〈料物功程、並見上、〉 </p>
      </div>
-     <div ana="内匠" n="17.35" subtype="項" type="条">
+     <div ana="内匠" n="17.35" type="条" xml:id="article171035"
+      corresp="engishiki_v17_ja.xml#article171035 engishiki_v17_en.xml#article171035">
       <head ana="位記料"/>
       <p ana="項" corresp="engishiki_v17_ja.xml#item17103501 engishiki_v17_en.xml#item17103501"
        xml:id="item17103501">
@@ -2116,7 +2152,8 @@
        <note> 延イ　土本等無し。壬本・京博本等による。 </note>
       </app>
      </div>
-     <div ana="内匠" n="17.36" subtype="項" type="条">
+     <div ana="内匠" n="17.36" type="条" xml:id="article171036"
+      corresp="engishiki_v17_ja.xml#article171036 engishiki_v17_en.xml#article171036">
       <head ana="黄楊"/>
       <p ana="項" corresp="engishiki_v17_ja.xml#item17103601 engishiki_v17_en.xml#item17103601"
        xml:id="item17103601"> 凡年料納黄楊木者、 <placeName corresp="#参河国"> 参河国 </placeName> 六枝、 <placeName
@@ -2127,7 +2164,8 @@
        <note> 七　民部式下53条「六」。 </note>
       </app>
      </div>
-     <div ana="内匠" n="17.37" subtype="項" type="条">
+     <div ana="内匠" n="17.37" type="条" xml:id="article171037"
+      corresp="engishiki_v17_ja.xml#article171037 engishiki_v17_en.xml#article171037">
       <head ana="的"/>
       <p ana="項" corresp="engishiki_v17_ja.xml#item17103701 engishiki_v17_en.xml#item17103701"
        xml:id="item17103701">
@@ -2143,12 +2181,14 @@
        <note> 弘　土本等無し。壬本等による。京博本朱書は「弘イ」。 </note>
       </app>
      </div>
-     <div ana="内匠" n="17.38" subtype="項" type="条">
+     <div ana="内匠" n="17.38" type="条" xml:id="article171038"
+      corresp="engishiki_v17_ja.xml#article171038 engishiki_v17_en.xml#article171038">
       <head ana="番上工"/>
       <p ana="項" corresp="engishiki_v17_ja.xml#item17103801 engishiki_v17_en.xml#item17103801"
        xml:id="item17103801"> 凡番上工卌八人、各日黒米二升、 </p>
      </div>
-     <div ana="内匠" n="17.39" subtype="項" type="条">
+     <div ana="内匠" n="17.39" type="条" xml:id="article171039"
+      corresp="engishiki_v17_ja.xml#article171039 engishiki_v17_en.xml#article171039">
       <head ana="作物衣"/>
       <p ana="項" corresp="engishiki_v17_ja.xml#item17103901 engishiki_v17_en.xml#item17103901"
        xml:id="item17103901">
@@ -2160,7 +2200,8 @@
        <note> 貞　土本等無し。京博本朱書による。 </note>
       </app>
      </div>
-     <div ana="内匠" n="17.40" subtype="項" type="条">
+     <div ana="内匠" n="17.40" type="条" xml:id="article171040"
+      corresp="engishiki_v17_ja.xml#article171040 engishiki_v17_en.xml#article171040">
       <head ana="史生以下禄"/>
       <p ana="項" corresp="engishiki_v17_ja.xml#item17104001 engishiki_v17_en.xml#item17104001"
        xml:id="item17104001">
@@ -2172,7 +2213,8 @@
        <note> 貞　土本等無し。壬本・京博本等による。 </note>
       </app>
      </div>
-     <div ana="内匠" n="17.41" subtype="項" type="条">
+     <div ana="内匠" n="17.41" type="条" xml:id="article171041"
+      corresp="engishiki_v17_ja.xml#article171041 engishiki_v17_en.xml#article171041">
       <head ana="雑工"/>
       <p ana="項" corresp="engishiki_v17_ja.xml#item17104101 engishiki_v17_en.xml#item17104101"
        xml:id="item17104101">
@@ -2185,19 +2227,22 @@
        <note> 延イ　土本等無し。壬本・京博本等による。 </note>
       </app>
      </div>
-     <div ana="内匠" n="17.42" subtype="項" type="条">
+     <div ana="内匠" n="17.42" type="条" xml:id="article171042"
+      corresp="engishiki_v17_ja.xml#article171042 engishiki_v17_en.xml#article171042">
       <head ana="典薬直"/>
       <p ana="項" corresp="engishiki_v17_ja.xml#item17104201 engishiki_v17_en.xml#item17104201"
        xml:id="item17104201"> 凡 <orgName corresp="#典薬寮"> 典薬 </orgName> 医師一人、令直於 <orgName
         corresp="#内匠寮"> 寮 </orgName> 、 </p>
      </div>
-     <div ana="内匠" n="17.43" subtype="項" type="条">
+     <div ana="内匠" n="17.43" type="条" xml:id="article171043"
+      corresp="engishiki_v17_ja.xml#article171043 engishiki_v17_en.xml#article171043">
       <head ana="六衛府直"/>
       <p ana="項" corresp="engishiki_v17_ja.xml#item17104301 engishiki_v17_en.xml#item17104301"
        xml:id="item17104301"> 凡 <orgName corresp="#六衛府"> 六衛府 </orgName> 舎人各二人、令直於 <orgName
         corresp="#内匠寮"> 寮 </orgName> 、 </p>
      </div>
-     <div ana="内匠" n="17.44" subtype="項" type="条">
+     <div ana="内匠" n="17.44" type="条" xml:id="article171044"
+      corresp="engishiki_v17_ja.xml#article171044 engishiki_v17_en.xml#article171044">
       <head ana="縫物"/>
       <p ana="項" corresp="engishiki_v17_ja.xml#item17104401 engishiki_v17_en.xml#item17104401"
        xml:id="item17104401"> 凡有可縫調之物者、移 <orgName corresp="#大蔵省"> 大蔵省 </orgName> 、不限多少、 <anchor
@@ -2208,7 +2253,8 @@
        <note> 受宮人令縫　版本・訳注本は「受令宮人縫」。 </note>
       </app>
      </div>
-     <div ana="内匠" n="17.45" subtype="項" type="条">
+     <div ana="内匠" n="17.45" type="条" xml:id="article171045"
+      corresp="engishiki_v17_ja.xml#article171045 engishiki_v17_en.xml#article171045">
       <head ana="不仕"/>
       <p ana="項" corresp="engishiki_v17_ja.xml#item17104501 engishiki_v17_en.xml#item17104501"
        xml:id="item17104501">
