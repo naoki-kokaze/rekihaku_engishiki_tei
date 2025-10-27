@@ -388,19 +388,21 @@
  </teiHeader>
  <text>
   <body>
-   <div ana="太政官" n="11" type="巻">
+   <div ana="太政官" n="11" type="巻" xml:id="volume11">
     <pb
      facs="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-11%2F00002.tif/full/full/0/default.jpg"/>
     <div type="首題" xml:id="shudai11">
      <p xml:id="shudai1101"> 延喜式巻第十一 </p>
     </div>
-    <div ana="太政官" n="11" type="式">
+    <div ana="太政官" n="11" type="式" xml:id="protocol111"
+     corresp="engishiki_v11_ja.xml#protocol111 engishiki_v11_en.xml#protocol111">
      <div type="式題" xml:id="shikidai111">
       <p xml:id="shikidai11101">
        <orgName corresp="#太政官"> 太政官 </orgName>
       </p>
      </div>
-     <div ana="太政官" n="11.1" type="条">
+     <div ana="太政官" n="11.1" type="条" xml:id="article111001"
+      corresp="engishiki_v11_ja.xml#article111001 engishiki_v11_en.xml#article111001">
       <head ana="庶務"/>
       <p ana="項" corresp="engishiki_v11_ja.xml#item11100101 engishiki_v11_en.xml#item11100101"
        xml:id="item11100101">
@@ -411,7 +413,8 @@
        <lem wit="#土本"> 弘 </lem>
       </app>
      </div>
-     <div ana="太政官" n="11.2" type="条">
+     <div ana="太政官" n="11.2" type="条" xml:id="article111002"
+      corresp="engishiki_v11_ja.xml#article111002 engishiki_v11_en.xml#article111002">
       <head ana="庶務申官"/>
       <p ana="項" corresp="engishiki_v11_ja.xml#item11100201 engishiki_v11_en.xml#item11100201"
        xml:id="item11100201">
@@ -440,7 +443,8 @@
        <note> 遣諸国使人　諸本無し。類聚符宣抄第六外記職掌所収延喜七年七月十七日宣旨所引「先式」により補う。 </note>
       </app>
      </div>
-     <div ana="太政官" n="11.3" type="条">
+     <div ana="太政官" n="11.3" type="条" xml:id="article111003"
+      corresp="engishiki_v11_ja.xml#article111003 engishiki_v11_en.xml#article111003">
       <head ana="申政"/>
       <p ana="項" corresp="engishiki_v11_ja.xml#item11100301 engishiki_v11_en.xml#item11100301"
        xml:id="item11100301">
@@ -450,7 +454,8 @@
        <lem wit="#土本"> 延 </lem>
       </app>
      </div>
-     <div ana="太政官" n="11.4" type="条">
+     <div ana="太政官" n="11.4" type="条" xml:id="article111004"
+      corresp="engishiki_v11_ja.xml#article111004 engishiki_v11_en.xml#article111004">
       <head ana="時刻"/>
       <p ana="項" corresp="engishiki_v11_ja.xml#item11100401 engishiki_v11_en.xml#item11100401"
        xml:id="item11100401">
@@ -467,7 +472,8 @@
        <note> 二　土本無し。近本訂正書等により補う。 </note>
       </app>
      </div>
-     <div ana="太政官" n="11.5" type="条">
+     <div ana="太政官" n="11.5" type="条" xml:id="article111005"
+      corresp="engishiki_v11_ja.xml#article111005 engishiki_v11_en.xml#article111005">
       <head ana="朝堂政"/>
       <p ana="項" corresp="engishiki_v11_ja.xml#item11100501 engishiki_v11_en.xml#item11100501"
        xml:id="item11100501">
@@ -477,7 +483,8 @@
        <lem wit="#土本"> 弘 </lem>
       </app>
      </div>
-     <div ana="太政官" n="11.6" type="条">
+     <div ana="太政官" n="11.6" type="条" xml:id="article111006"
+      corresp="engishiki_v11_ja.xml#article111006 engishiki_v11_en.xml#article111006">
       <head ana="諸司諸国申政"/>
       <p ana="項" corresp="engishiki_v11_ja.xml#item11100601 engishiki_v11_en.xml#item11100601"
        xml:id="item11100601">
@@ -488,7 +495,8 @@
        <lem wit="#土本"> 延 </lem>
       </app>
      </div>
-     <div ana="太政官" n="11.7" type="条">
+     <div ana="太政官" n="11.7" type="条" xml:id="article111007"
+      corresp="engishiki_v11_ja.xml#article111007 engishiki_v11_en.xml#article111007">
       <head ana="受事"/>
       <p ana="項" corresp="engishiki_v11_ja.xml#item11100701 engishiki_v11_en.xml#item11100701"
        xml:id="item11100701">
@@ -508,7 +516,8 @@
        <note> 上庁　土本・近本・壬本・京博本・慶長本傍書「上庁正庁也」。 </note>
       </app>
      </div>
-     <div ana="太政官" n="11.8" type="条">
+     <div ana="太政官" n="11.8" type="条" xml:id="article111008"
+      corresp="engishiki_v11_ja.xml#article111008 engishiki_v11_en.xml#article111008">
       <head ana="弁官牒式"/>
       <p ana="項" corresp="engishiki_v11_ja.xml#item11100801 engishiki_v11_en.xml#item11100801"
        xml:id="item11100801"> 凡左右弁官、各録入奏并請印文書及請進駅鈴・伝符等色目、牒送少納言、少納言・外記録入奏請印及請進駅鈴・伝符訖之状、牒弁官、其式如左、 </p>
@@ -552,7 +561,8 @@
        <note> 左　土本等「右」。京博本朱頭書「右疑左誤」。九本により改める。 </note>
       </app>
      </div>
-     <div ana="太政官" n="11.9" type="条">
+     <div ana="太政官" n="11.9" type="条" xml:id="article111009"
+      corresp="engishiki_v11_ja.xml#article111009 engishiki_v11_en.xml#article111009">
       <head ana="少納言牒式"/>
       <p ana="項" corresp="engishiki_v11_ja.xml#item11100901 engishiki_v11_en.xml#item11100901"
        xml:id="item11100901">
@@ -607,7 +617,8 @@
        <note> 名　土本等この下に細字注「古式、少納言署於下、今改署於上」あり。九本に無く、後の書入と判断する。 </note>
       </app>
      </div>
-     <div ana="太政官" n="11.10" type="条">
+     <div ana="太政官" n="11.10" type="条" xml:id="article111010"
+      corresp="engishiki_v11_ja.xml#article111010 engishiki_v11_en.xml#article111010">
       <head ana="任僧綱"/>
       <p ana="項" corresp="engishiki_v11_ja.xml#item11101001 engishiki_v11_en.xml#item11101001"
        xml:id="item11101001">
@@ -683,7 +694,8 @@
        <note> 其　九本「某」。 </note>
       </app>
      </div>
-     <div ana="太政官" n="11.11" type="条">
+     <div ana="太政官" n="11.11" type="条" xml:id="article111011"
+      corresp="engishiki_v11_ja.xml#article111011 engishiki_v11_en.xml#article111011">
       <head ana="内外印"/>
       <p ana="項" corresp="engishiki_v11_ja.xml#item11101101 engishiki_v11_en.xml#item11101101"
        xml:id="item11101101">
@@ -723,7 +735,8 @@
        <note> 部　土本等「郡」。壬本訂正書により改める。 </note>
       </app>
      </div>
-     <div ana="太政官" n="11.12" type="条">
+     <div ana="太政官" n="11.12" type="条" xml:id="article111012"
+      corresp="engishiki_v11_ja.xml#article111012 engishiki_v11_en.xml#article111012">
       <head ana="請印文"/>
       <p ana="項" corresp="engishiki_v11_ja.xml#item11101201 engishiki_v11_en.xml#item11101201"
        xml:id="item11101201">
@@ -733,7 +746,8 @@
        <lem> 貞 </lem>
       </app>
      </div>
-     <div ana="太政官" n="11.13" type="条">
+     <div ana="太政官" n="11.13" type="条" xml:id="article111013"
+      corresp="engishiki_v11_ja.xml#article111013 engishiki_v11_en.xml#article111013">
       <head ana="請内印文"/>
       <p ana="項" corresp="engishiki_v11_ja.xml#item11101301 engishiki_v11_en.xml#item11101301"
        xml:id="item11101301">
@@ -743,7 +757,8 @@
        <lem> 貞 </lem>
       </app>
      </div>
-     <div ana="太政官" n="11.14" type="条">
+     <div ana="太政官" n="11.14" type="条" xml:id="article111014"
+      corresp="engishiki_v11_ja.xml#article111014 engishiki_v11_en.xml#article111014">
       <head ana="外記検察"/>
       <p ana="項" corresp="engishiki_v11_ja.xml#item11101401 engishiki_v11_en.xml#item11101401"
        xml:id="item11101401">
@@ -753,7 +768,8 @@
        <lem> 貞 </lem>
       </app>
      </div>
-     <div ana="太政官" n="11.15" type="条">
+     <div ana="太政官" n="11.15" type="条" xml:id="article111015"
+      corresp="engishiki_v11_ja.xml#article111015 engishiki_v11_en.xml#article111015">
       <head ana="省符"/>
       <p ana="項" corresp="engishiki_v11_ja.xml#item11101501 engishiki_v11_en.xml#item11101501"
        xml:id="item11101501">
@@ -764,12 +780,14 @@
        <lem> 貞 </lem>
       </app>
      </div>
-     <div ana="太政官" n="11.16" type="条">
+     <div ana="太政官" n="11.16" type="条" xml:id="article111016"
+      corresp="engishiki_v11_ja.xml#article111016 engishiki_v11_en.xml#article111016">
       <head ana="免除"/>
       <p ana="項" corresp="engishiki_v11_ja.xml#item11101601 engishiki_v11_en.xml#item11101601"
        xml:id="item11101601"> 凡内外官所申免除之色、自非奉勅不得免除、 </p>
      </div>
-     <div ana="太政官" n="11.17" type="条">
+     <div ana="太政官" n="11.17" type="条" xml:id="article111017"
+      corresp="engishiki_v11_ja.xml#article111017 engishiki_v11_en.xml#article111017">
       <head ana="新任国司食伝"/>
       <p ana="項" corresp="engishiki_v11_ja.xml#item11101701 engishiki_v11_en.xml#item11101701"
        xml:id="item11101701">
@@ -798,12 +816,14 @@
        <note> 西海　土本等無し。九本により補う。 </note>
       </app>
      </div>
-     <div ana="太政官" n="11.18" type="条">
+     <div ana="太政官" n="11.18" type="条" xml:id="article111018"
+      corresp="engishiki_v11_ja.xml#article111018 engishiki_v11_en.xml#article111018">
       <head ana="神宮司"/>
       <p ana="項" corresp="engishiki_v11_ja.xml#item11101801 engishiki_v11_en.xml#item11101801"
        xml:id="item11101801"> 凡香取神宮司任符、注載可給食馬之状、不給伝符、自余神宮司給食馬者准此、 </p>
      </div>
-     <div ana="太政官" n="11.19" type="条">
+     <div ana="太政官" n="11.19" type="条" xml:id="article111019"
+      corresp="engishiki_v11_ja.xml#article111019 engishiki_v11_en.xml#article111019">
       <head ana="籤符"/>
       <p ana="項" corresp="engishiki_v11_ja.xml#item11101901 engishiki_v11_en.xml#item11101901"
        xml:id="item11101901">
@@ -832,7 +852,8 @@
      </div>
      <pb
       facs="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-11%2F00009.tif/full/full/0/default.jpg"/>
-     <div ana="太政官" n="11.20" type="条">
+     <div ana="太政官" n="11.20" type="条" xml:id="article111020"
+      corresp="engishiki_v11_ja.xml#article111020 engishiki_v11_en.xml#article111020">
       <head ana="二員秩満"/>
       <p ana="項" corresp="engishiki_v11_ja.xml#item11102001 engishiki_v11_en.xml#item11102001"
        xml:id="item11102001">
@@ -844,7 +865,8 @@
        <lem> 貞延 </lem>
       </app>
      </div>
-     <div ana="太政官" n="11.21" type="条">
+     <div ana="太政官" n="11.21" type="条" xml:id="article111021"
+      corresp="engishiki_v11_ja.xml#article111021 engishiki_v11_en.xml#article111021">
       <head ana="京官遷畿内"/>
       <p ana="項" corresp="engishiki_v11_ja.xml#item11102101 engishiki_v11_en.xml#item11102101"
        xml:id="item11102101">
@@ -856,7 +878,8 @@
        <lem> 貞 </lem>
       </app>
      </div>
-     <div ana="太政官" n="11.22" type="条">
+     <div ana="太政官" n="11.22" type="条" xml:id="article111022"
+      corresp="engishiki_v11_ja.xml#article111022 engishiki_v11_en.xml#article111022">
       <head ana="遷任"/>
       <p ana="項" corresp="engishiki_v11_ja.xml#item11102201 engishiki_v11_en.xml#item11102201"
        xml:id="item11102201">
@@ -886,7 +909,8 @@
        <note> 長　土本等「長官」。九本、壬本訂正書により改める。土本・近本は「長」に傍書「延」、京博本は「官」を朱傍書にて「符」に訂正。 </note>
       </app>
      </div>
-     <div ana="太政官" n="11.23" type="条">
+     <div ana="太政官" n="11.23" type="条" xml:id="article111023"
+      corresp="engishiki_v11_ja.xml#article111023 engishiki_v11_en.xml#article111023">
       <head ana="遙授兼任"/>
       <p ana="項" corresp="engishiki_v11_ja.xml#item11102301 engishiki_v11_en.xml#item11102301"
        xml:id="item11102301">
@@ -897,7 +921,8 @@
        <lem> 延 </lem>
       </app>
      </div>
-     <div ana="太政官" n="11.24" type="条">
+     <div ana="太政官" n="11.24" type="条" xml:id="article111024"
+      corresp="engishiki_v11_ja.xml#article111024 engishiki_v11_en.xml#article111024">
       <head ana="権一分相譲"/>
       <p ana="項" corresp="engishiki_v11_ja.xml#item11102401 engishiki_v11_en.xml#item11102401"
        xml:id="item11102401">
@@ -908,19 +933,22 @@
        <lem> 貞 </lem>
       </app>
      </div>
-     <div ana="太政官" n="11.25" type="条">
+     <div ana="太政官" n="11.25" type="条" xml:id="article111025"
+      corresp="engishiki_v11_ja.xml#article111025 engishiki_v11_en.xml#article111025">
       <head ana="受業解文"/>
       <p ana="項" corresp="engishiki_v11_ja.xml#item11102501 engishiki_v11_en.xml#item11102501"
        xml:id="item11102501"> 凡 <placeName corresp="#諸国"> 諸国 </placeName> 受業博士・医師補任解文并籖符、名下注各本業、
       </p>
      </div>
-     <div ana="太政官" n="11.26" type="条">
+     <div ana="太政官" n="11.26" type="条" xml:id="article111026"
+      corresp="engishiki_v11_ja.xml#article111026 engishiki_v11_en.xml#article111026">
       <head ana="籤符印"/>
       <p ana="項" corresp="engishiki_v11_ja.xml#item11102601 engishiki_v11_en.xml#item11102601"
        xml:id="item11102601"> 凡 <placeName corresp="#諸国"> 諸国 </placeName>
        史生・博士・医師籖符、外記勘会補任帳、明知其補由、然後請印、 </p>
      </div>
-     <div ana="太政官" n="11.27" type="条">
+     <div ana="太政官" n="11.27" type="条" xml:id="article111027"
+      corresp="engishiki_v11_ja.xml#article111027 engishiki_v11_en.xml#article111027">
       <head ana="改印"/>
       <p ana="項" corresp="engishiki_v11_ja.xml#item11102701 engishiki_v11_en.xml#item11102701"
        xml:id="item11102701">
@@ -939,7 +967,8 @@
      </div>
      <pb
       facs="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-11%2F00010.tif/full/full/0/default.jpg"/>
-     <div ana="太政官" n="11.28" type="条">
+     <div ana="太政官" n="11.28" type="条" xml:id="article111028"
+      corresp="engishiki_v11_ja.xml#article111028 engishiki_v11_en.xml#article111028">
       <head ana="毀内印"/>
       <p ana="項" corresp="engishiki_v11_ja.xml#item11102801 engishiki_v11_en.xml#item11102801"
        xml:id="item11102801">
@@ -949,7 +978,8 @@
        <lem> 延 </lem>
       </app>
      </div>
-     <div ana="太政官" n="11.29" type="条">
+     <div ana="太政官" n="11.29" type="条" xml:id="article111029"
+      corresp="engishiki_v11_ja.xml#article111029 engishiki_v11_en.xml#article111029">
       <head ana="改造印"/>
       <p ana="項" corresp="engishiki_v11_ja.xml#item11102901 engishiki_v11_en.xml#item11102901"
        xml:id="item11102901"> 凡内外諸司印刓尽応改造者、下符 <orgName corresp="#中務省"> 中務省 </orgName> 、仰 <orgName
@@ -970,7 +1000,8 @@
        <note> 令　土本等無し。九本により補う。 </note>
       </app>
      </div>
-     <div ana="太政官" n="11.30" type="条">
+     <div ana="太政官" n="11.30" type="条" xml:id="article111030"
+      corresp="engishiki_v11_ja.xml#article111030 engishiki_v11_en.xml#article111030">
       <head ana="上日"/>
       <p ana="項" corresp="engishiki_v11_ja.xml#item11103001 engishiki_v11_en.xml#item11103001"
        xml:id="item11103001">
@@ -1004,7 +1035,8 @@
        <note> 日　土本等「旨」。九本、近本・壬本・京博本傍書により改める。 </note>
       </app>
      </div>
-     <div ana="太政官" n="11.31" type="条">
+     <div ana="太政官" n="11.31" type="条" xml:id="article111031"
+      corresp="engishiki_v11_ja.xml#article111031 engishiki_v11_en.xml#article111031">
       <head ana="史生解由"/>
       <p ana="項" corresp="engishiki_v11_ja.xml#item11103101 engishiki_v11_en.xml#item11103101"
        xml:id="item11103101"> 凡史生已上解任遷替与解由者、先修案文、少納言・外記尽署名、与解由状送弁官、令下符 <orgName corresp="#式部省"> 式部省
@@ -1021,7 +1053,8 @@
        <note> 亦　土本等「品」。九本により改める。 </note>
       </app>
      </div>
-     <div ana="太政官" n="11.32" type="条">
+     <div ana="太政官" n="11.32" type="条" xml:id="article111032"
+      corresp="engishiki_v11_ja.xml#article111032 engishiki_v11_en.xml#article111032">
       <head ana="解由程限"/>
       <p ana="項" corresp="engishiki_v11_ja.xml#item11103201 engishiki_v11_en.xml#item11103201"
        xml:id="item11103201">
@@ -1045,7 +1078,8 @@
        <note> 等　九本無し。 </note>
       </app>
      </div>
-     <div ana="太政官" n="11.33" type="条">
+     <div ana="太政官" n="11.33" type="条" xml:id="article111033"
+      corresp="engishiki_v11_ja.xml#article111033 engishiki_v11_en.xml#article111033">
       <head ana="押署"/>
       <p ana="項" corresp="engishiki_v11_ja.xml#item11103301 engishiki_v11_en.xml#item11103301"
        xml:id="item11103301">
@@ -1062,7 +1096,8 @@
        <note> 国　土本等無し。九本により補う。 </note>
       </app>
      </div>
-     <div ana="太政官" n="11.34" type="条">
+     <div ana="太政官" n="11.34" type="条" xml:id="article111034"
+      corresp="engishiki_v11_ja.xml#article111034 engishiki_v11_en.xml#article111034">
       <head ana="雑米未進"/>
       <p ana="項" corresp="engishiki_v11_ja.xml#item11103401 engishiki_v11_en.xml#item11103401"
        xml:id="item11103401">
@@ -1075,7 +1110,8 @@
        <lem> 貞 </lem>
       </app>
      </div>
-     <div ana="太政官" n="11.35" type="条">
+     <div ana="太政官" n="11.35" type="条" xml:id="article111035"
+      corresp="engishiki_v11_ja.xml#article111035 engishiki_v11_en.xml#article111035">
       <head ana="交替延期"/>
       <p ana="項" corresp="engishiki_v11_ja.xml#item11103501 engishiki_v11_en.xml#item11103501"
        xml:id="item11103501">
@@ -1087,7 +1123,8 @@
        <lem> 貞 </lem>
       </app>
      </div>
-     <div ana="太政官" n="11.36" type="条">
+     <div ana="太政官" n="11.36" type="条" xml:id="article111036"
+      corresp="engishiki_v11_ja.xml#article111036 engishiki_v11_en.xml#article111036">
       <head ana="還替"/>
       <p ana="項" corresp="engishiki_v11_ja.xml#item11103601 engishiki_v11_en.xml#item11103601"
        xml:id="item11103601">
@@ -1097,7 +1134,8 @@
        <lem> 貞 </lem>
       </app>
      </div>
-     <div ana="太政官" n="11.37" type="条">
+     <div ana="太政官" n="11.37" type="条" xml:id="article111037"
+      corresp="engishiki_v11_ja.xml#article111037 engishiki_v11_en.xml#article111037">
       <head ana="未勘知"/>
       <p ana="項" corresp="engishiki_v11_ja.xml#item11103701 engishiki_v11_en.xml#item11103701"
        xml:id="item11103701">
@@ -1109,7 +1147,8 @@
        <note> 貞　土本無し。近本・壬本・京博本により補う。 </note>
       </app>
      </div>
-     <div ana="太政官" n="11.38" type="条">
+     <div ana="太政官" n="11.38" type="条" xml:id="article111038"
+      corresp="engishiki_v11_ja.xml#article111038 engishiki_v11_en.xml#article111038">
       <head ana="遁避不署"/>
       <p ana="項" corresp="engishiki_v11_ja.xml#item11103801 engishiki_v11_en.xml#item11103801"
        xml:id="item11103801">
@@ -1127,7 +1166,8 @@
        <note> 遁　土本・梵本・藤波本「道」、藤波本朱傍書「遁」。九本・近本等により改める。 </note>
       </app>
      </div>
-     <div ana="太政官" n="11.39" type="条">
+     <div ana="太政官" n="11.39" type="条" xml:id="article111039"
+      corresp="engishiki_v11_ja.xml#article111039 engishiki_v11_en.xml#article111039">
       <head ana="諸寺別当年﨟"/>
       <p ana="項" corresp="engishiki_v11_ja.xml#item11103901 engishiki_v11_en.xml#item11103901"
        xml:id="item11103901">
@@ -1138,7 +1178,8 @@
        <lem> 延 </lem>
       </app>
      </div>
-     <div ana="太政官" n="11.40" type="条">
+     <div ana="太政官" n="11.40" type="条" xml:id="article111040"
+      corresp="engishiki_v11_ja.xml#article111040 engishiki_v11_en.xml#article111040">
       <head ana="惣用帳"/>
       <p ana="項" corresp="engishiki_v11_ja.xml#item11104001 engishiki_v11_en.xml#item11104001"
        xml:id="item11104001">
@@ -1158,7 +1199,8 @@
        <note> 預　土本等「領」。九本により改める。 </note>
       </app>
      </div>
-     <div ana="太政官" n="11.41" type="条">
+     <div ana="太政官" n="11.41" type="条" xml:id="article111041"
+      corresp="engishiki_v11_ja.xml#article111041 engishiki_v11_en.xml#article111041">
       <head ana="宿直"/>
       <p ana="項" corresp="engishiki_v11_ja.xml#item11104101 engishiki_v11_en.xml#item11104101"
        xml:id="item11104101">
@@ -1168,7 +1210,8 @@
        <lem> 弘 </lem>
       </app>
      </div>
-     <div ana="太政官" n="11.42" type="条">
+     <div ana="太政官" n="11.42" type="条" xml:id="article111042"
+      corresp="engishiki_v11_ja.xml#article111042 engishiki_v11_en.xml#article111042">
       <head ana="日蝕"/>
       <p ana="項" corresp="engishiki_v11_ja.xml#item11104201 engishiki_v11_en.xml#item11104201"
        xml:id="item11104201">
@@ -1179,7 +1222,8 @@
        <lem> 弘 </lem>
       </app>
      </div>
-     <div ana="太政官" n="11.43" type="条">
+     <div ana="太政官" n="11.43" type="条" xml:id="article111043"
+      corresp="engishiki_v11_ja.xml#article111043 engishiki_v11_en.xml#article111043">
       <head ana="国忌"/>
       <p ana="項" corresp="engishiki_v11_ja.xml#item11104301 engishiki_v11_en.xml#item11104301"
        xml:id="item11104301">
@@ -1193,7 +1237,8 @@
        <lem> 弘 </lem>
       </app>
      </div>
-     <div ana="太政官" n="11.44" type="条">
+     <div ana="太政官" n="11.44" type="条" xml:id="article111044"
+      corresp="engishiki_v11_ja.xml#article111044 engishiki_v11_en.xml#article111044">
       <head ana="附駅"/>
       <p ana="項" corresp="engishiki_v11_ja.xml#item11104401 engishiki_v11_en.xml#item11104401"
        xml:id="item11104401">
@@ -1203,7 +1248,8 @@
        <lem> 弘 </lem>
       </app>
      </div>
-     <div ana="太政官" n="11.45" type="条">
+     <div ana="太政官" n="11.45" type="条" xml:id="article111045"
+      corresp="engishiki_v11_ja.xml#article111045 engishiki_v11_en.xml#article111045">
       <head ana="差使"/>
       <p ana="項" corresp="engishiki_v11_ja.xml#item11104501 engishiki_v11_en.xml#item11104501"
        xml:id="item11104501">
@@ -1217,14 +1263,16 @@
        <lem> 弘貞 </lem>
       </app>
      </div>
-     <div ana="太政官" n="11.46" type="条">
+     <div ana="太政官" n="11.46" type="条" xml:id="article111046"
+      corresp="engishiki_v11_ja.xml#article111046 engishiki_v11_en.xml#article111046">
       <head ana="遣和泉使"/>
       <p ana="項" corresp="engishiki_v11_ja.xml#item11104601 engishiki_v11_en.xml#item11104601"
        xml:id="item11104601"> 凡遣 <placeName corresp="#和泉国"> 和泉国 </placeName> 使、准外国給駅鈴、 </p>
      </div>
      <pb
       facs="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-11%2F00013.tif/full/full/0/default.jpg"/>
-     <div ana="太政官" n="11.47" type="条">
+     <div ana="太政官" n="11.47" type="条" xml:id="article111047"
+      corresp="engishiki_v11_ja.xml#article111047 engishiki_v11_en.xml#article111047">
       <head ana="遣諸国使"/>
       <p ana="項" corresp="engishiki_v11_ja.xml#item11104701 engishiki_v11_en.xml#item11104701"
        xml:id="item11104701">
@@ -1235,7 +1283,8 @@
        <lem> 貞 </lem>
       </app>
      </div>
-     <div ana="太政官" n="11.48" type="条">
+     <div ana="太政官" n="11.48" type="条" xml:id="article111048"
+      corresp="engishiki_v11_ja.xml#article111048 engishiki_v11_en.xml#article111048">
       <head ana="賑給百姓"/>
       <p ana="項" corresp="engishiki_v11_ja.xml#item11104801 engishiki_v11_en.xml#item11104801"
        xml:id="item11104801">
@@ -1246,7 +1295,8 @@
        <lem> 弘 </lem>
       </app>
      </div>
-     <div ana="太政官" n="11.49" type="条">
+     <div ana="太政官" n="11.49" type="条" xml:id="article111049"
+      corresp="engishiki_v11_ja.xml#article111049 engishiki_v11_en.xml#article111049">
       <head ana="賑給使"/>
       <p ana="項" corresp="engishiki_v11_ja.xml#item11104901 engishiki_v11_en.xml#item11104901"
        xml:id="item11104901">
@@ -1273,7 +1323,8 @@
        <note> 緩　土本「縁」。近本傍書（「緩イ」）、京博本・藤波本・壬本朱傍書により改める。 </note>
       </app>
      </div>
-     <div ana="太政官" n="11.50" type="条">
+     <div ana="太政官" n="11.50" type="条" xml:id="article111050"
+      corresp="engishiki_v11_ja.xml#article111050 engishiki_v11_en.xml#article111050">
       <head ana="未納"/>
       <p ana="項" corresp="engishiki_v11_ja.xml#item11105001 engishiki_v11_en.xml#item11105001"
        xml:id="item11105001">
@@ -1290,7 +1341,8 @@
        <note> 之　土本等無し。九本により補う。 </note>
       </app>
      </div>
-     <div ana="太政官" n="11.51" type="条">
+     <div ana="太政官" n="11.51" type="条" xml:id="article111051"
+      corresp="engishiki_v11_ja.xml#article111051 engishiki_v11_en.xml#article111051">
       <head ana="蕃客"/>
       <p ana="項" corresp="engishiki_v11_ja.xml#item11105101 engishiki_v11_en.xml#item11105101"
        xml:id="item11105101">
@@ -1302,7 +1354,8 @@
        <lem> 貞延 </lem>
       </app>
      </div>
-     <div ana="太政官" n="11.52" type="条">
+     <div ana="太政官" n="11.52" type="条" xml:id="article111052"
+      corresp="engishiki_v11_ja.xml#article111052 engishiki_v11_en.xml#article111052">
       <head ana="報書条"/>
       <p ana="項" corresp="engishiki_v11_ja.xml#item11105201 engishiki_v11_en.xml#item11105201"
        xml:id="item11105201">
@@ -1312,7 +1365,8 @@
        <lem> 弘 </lem>
       </app>
      </div>
-     <div ana="太政官" n="11.53" type="条">
+     <div ana="太政官" n="11.53" type="条" xml:id="article111053"
+      corresp="engishiki_v11_ja.xml#article111053 engishiki_v11_en.xml#article111053">
       <head ana="出納条"/>
       <p ana="項" corresp="engishiki_v11_ja.xml#item11105301 engishiki_v11_en.xml#item11105301"
        xml:id="item11105301">
@@ -1333,7 +1387,8 @@
      </div>
      <pb
       facs="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-11%2F00014.tif/full/full/0/default.jpg"/>
-     <div ana="太政官" n="11.54" type="条">
+     <div ana="太政官" n="11.54" type="条" xml:id="article111054"
+      corresp="engishiki_v11_ja.xml#article111054 engishiki_v11_en.xml#article111054">
       <head ana="登庫検校"/>
       <p ana="項" corresp="engishiki_v11_ja.xml#item11105401 engishiki_v11_en.xml#item11105401"
        xml:id="item11105401">
@@ -1343,7 +1398,8 @@
        <lem> 貞 </lem>
       </app>
      </div>
-     <div ana="太政官" n="11.55" type="条">
+     <div ana="太政官" n="11.55" type="条" xml:id="article111055"
+      corresp="engishiki_v11_ja.xml#article111055 engishiki_v11_en.xml#article111055">
       <head ana="雑物下符"/>
       <p ana="項" corresp="engishiki_v11_ja.xml#item11105501 engishiki_v11_en.xml#item11105501"
        xml:id="item11105501">
@@ -1354,12 +1410,14 @@
        <lem> 貞 </lem>
       </app>
      </div>
-     <div ana="太政官" n="11.56" type="条">
+     <div ana="太政官" n="11.56" type="条" xml:id="article111056"
+      corresp="engishiki_v11_ja.xml#article111056 engishiki_v11_en.xml#article111056">
       <head ana="社寺借物"/>
       <p ana="項" corresp="engishiki_v11_ja.xml#item11105601 engishiki_v11_en.xml#item11105601"
        xml:id="item11105601"> 凡諸社寺請借庫物者、不可輙充、若脱漏、下符所司申返、 </p>
      </div>
-     <div ana="太政官" n="11.57" type="条">
+     <div ana="太政官" n="11.57" type="条" xml:id="article111057"
+      corresp="engishiki_v11_ja.xml#article111057 engishiki_v11_en.xml#article111057">
       <head ana="諸司当色"/>
       <p ana="項" corresp="engishiki_v11_ja.xml#item11105701 engishiki_v11_en.xml#item11105701"
        xml:id="item11105701">
@@ -1370,7 +1428,8 @@
        <lem> 貞 </lem>
       </app>
      </div>
-     <div ana="太政官" n="11.58" type="条">
+     <div ana="太政官" n="11.58" type="条" xml:id="article111058"
+      corresp="engishiki_v11_ja.xml#article111058 engishiki_v11_en.xml#article111058">
       <head ana="進薪"/>
       <p ana="項" corresp="engishiki_v11_ja.xml#item11105801 engishiki_v11_en.xml#item11105801"
        xml:id="item11105801">
@@ -1390,7 +1449,8 @@
        <note> 送　土本等「返」。九本、近本等傍書により改める。 </note>
       </app>
      </div>
-     <div ana="太政官" n="11.59" type="条">
+     <div ana="太政官" n="11.59" type="条" xml:id="article111059"
+      corresp="engishiki_v11_ja.xml#article111059 engishiki_v11_en.xml#article111059">
       <head ana="拝除"/>
       <p ana="項" corresp="engishiki_v11_ja.xml#item11105901 engishiki_v11_en.xml#item11105901"
        xml:id="item11105901">
@@ -1405,7 +1465,8 @@
      </div>
      <pb
       facs="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-11%2F00015.tif/full/full/0/default.jpg"/>
-     <div ana="太政官" n="11.60" type="条">
+     <div ana="太政官" n="11.60" type="条" xml:id="article111060"
+      corresp="engishiki_v11_ja.xml#article111060 engishiki_v11_en.xml#article111060">
       <head ana="召使任官"/>
       <p ana="項" corresp="engishiki_v11_ja.xml#item11106001 engishiki_v11_en.xml#item11106001"
        xml:id="item11106001">
@@ -1420,20 +1481,23 @@
        <lem> 貞 </lem>
       </app>
      </div>
-     <div ana="太政官" n="11.61" type="条">
+     <div ana="太政官" n="11.61" type="条" xml:id="article111061"
+      corresp="engishiki_v11_ja.xml#article111061 engishiki_v11_en.xml#article111061">
       <head ana="三省史生"/>
       <p ana="項" corresp="engishiki_v11_ja.xml#item11106101 engishiki_v11_en.xml#item11106101"
        xml:id="item11106101"> 凡 <orgName corresp="#式部省"> 式部 </orgName> ・ <orgName corresp="#民部省"> 民部
        </orgName> ・ <orgName corresp="#兵部省"> 兵部 </orgName> 等省史生、毎年一人任 <placeName corresp="#諸国"> 諸国
        </placeName> 目、 </p>
      </div>
-     <div ana="太政官" n="11.62" type="条">
+     <div ana="太政官" n="11.62" type="条" xml:id="article111062"
+      corresp="engishiki_v11_ja.xml#article111062 engishiki_v11_en.xml#article111062">
       <head ana="内記史生"/>
       <p ana="項" corresp="engishiki_v11_ja.xml#item11106201 engishiki_v11_en.xml#item11106201"
        xml:id="item11106201"> 凡内記史生労満十年者、准 <orgName corresp="#太政官"> 太政官 </orgName> 史生任 <placeName
         corresp="#諸国"> 諸国 </placeName> 目、 </p>
      </div>
-     <div ana="太政官" n="11.63" type="条">
+     <div ana="太政官" n="11.63" type="条" xml:id="article111063"
+      corresp="engishiki_v11_ja.xml#article111063 engishiki_v11_en.xml#article111063">
       <head ana="鎮守権任"/>
       <p ana="項" corresp="engishiki_v11_ja.xml#item11106301 engishiki_v11_en.xml#item11106301"
        xml:id="item11106301">
@@ -1443,7 +1507,8 @@
        <lem> 延 </lem>
       </app>
      </div>
-     <div ana="太政官" n="11.64" type="条">
+     <div ana="太政官" n="11.64" type="条" xml:id="article111064"
+      corresp="engishiki_v11_ja.xml#article111064 engishiki_v11_en.xml#article111064">
       <head ana="祈年班幣"/>
       <p ana="項" corresp="engishiki_v11_ja.xml#item11106401 engishiki_v11_en.xml#item11106401"
        xml:id="item11106401">
@@ -1454,7 +1519,8 @@
        <lem> 弘延 </lem>
       </app>
      </div>
-     <div ana="太政官" n="11.65" type="条">
+     <div ana="太政官" n="11.65" type="条" xml:id="article111065"
+      corresp="engishiki_v11_ja.xml#article111065 engishiki_v11_en.xml#article111065">
       <head ana="春日祭"/>
       <p ana="項" corresp="engishiki_v11_ja.xml#item11106501 engishiki_v11_en.xml#item11106501"
        xml:id="item11106501">
@@ -1477,7 +1543,8 @@
        <note> 日　訳注本は66条以下の例により削る。 </note>
       </app>
      </div>
-     <div ana="太政官" n="11.66" type="条">
+     <div ana="太政官" n="11.66" type="条" xml:id="article111066"
+      corresp="engishiki_v11_ja.xml#article111066 engishiki_v11_en.xml#article111066">
       <head ana="大原野祭"/>
       <p ana="項" corresp="engishiki_v11_ja.xml#item11106601 engishiki_v11_en.xml#item11106601"
        xml:id="item11106601">
@@ -1495,7 +1562,8 @@
        <note> 凡　土本等頭書「三」（慶長本は「二」）。65条校異注参照。 </note>
       </app>
      </div>
-     <div ana="太政官" n="11.67" type="条">
+     <div ana="太政官" n="11.67" type="条" xml:id="article111067"
+      corresp="engishiki_v11_ja.xml#article111067 engishiki_v11_en.xml#article111067">
       <head ana="園韓神祭"/>
       <p ana="項" corresp="engishiki_v11_ja.xml#item11106701 engishiki_v11_en.xml#item11106701"
        xml:id="item11106701">
@@ -1512,7 +1580,8 @@
        <note> 園　訳注本「薗」。 </note>
       </app>
      </div>
-     <div ana="太政官" n="11.68" type="条">
+     <div ana="太政官" n="11.68" type="条" xml:id="article111068"
+      corresp="engishiki_v11_ja.xml#article111068 engishiki_v11_en.xml#article111068">
       <head ana="祭所行事"/>
       <p ana="項" corresp="engishiki_v11_ja.xml#item11106801 engishiki_v11_en.xml#item11106801"
        xml:id="item11106801">
@@ -1540,7 +1609,8 @@
        <note> 史生　訳注本無し。 </note>
       </app>
      </div>
-     <div ana="太政官" n="11.69" type="条">
+     <div ana="太政官" n="11.69" type="条" xml:id="article111069"
+      corresp="engishiki_v11_ja.xml#article111069 engishiki_v11_en.xml#article111069">
       <head ana="大忌風神"/>
       <p ana="項" corresp="engishiki_v11_ja.xml#item11106901 engishiki_v11_en.xml#item11106901"
        xml:id="item11106901">
@@ -1566,7 +1636,8 @@
      </div>
      <pb
       facs="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-11%2F00016.tif/full/full/0/default.jpg"/>
-     <div ana="太政官" n="11.70" type="条">
+     <div ana="太政官" n="11.70" type="条" xml:id="article111070"
+      corresp="engishiki_v11_ja.xml#article111070 engishiki_v11_en.xml#article111070">
       <head ana="松尾祭"/>
       <p ana="項" corresp="engishiki_v11_ja.xml#item11107001 engishiki_v11_en.xml#item11107001"
        xml:id="item11107001">
@@ -1584,7 +1655,8 @@
        <note> 凡…供奉　本条、土本等67条の後に配列、頭書「七」あり。九本の配列に改める。65条校異注参照。 </note>
       </app>
      </div>
-     <div ana="太政官" n="11.71" type="条">
+     <div ana="太政官" n="11.71" type="条" xml:id="article111071"
+      corresp="engishiki_v11_ja.xml#article111071 engishiki_v11_en.xml#article111071">
       <head ana="平野祭"/>
       <p ana="項" corresp="engishiki_v11_ja.xml#item11107101 engishiki_v11_en.xml#item11107101"
        xml:id="item11107101">
@@ -1616,7 +1688,8 @@
        <note> 進　土本等「近」。九本および本朝月令所引弘仁式逸文により改める。 </note>
       </app>
      </div>
-     <div ana="太政官" n="11.72" type="条">
+     <div ana="太政官" n="11.72" type="条" xml:id="article111072"
+      corresp="engishiki_v11_ja.xml#article111072 engishiki_v11_en.xml#article111072">
       <head ana="賀茂祭"/>
       <p ana="項" corresp="engishiki_v11_ja.xml#item11107201 engishiki_v11_en.xml#item11107201"
        xml:id="item11107201">
@@ -1641,7 +1714,8 @@
        <note> 内　土本等無し。九本により補う。 </note>
       </app>
      </div>
-     <div ana="太政官" n="11.73" type="条">
+     <div ana="太政官" n="11.73" type="条" xml:id="article111073"
+      corresp="engishiki_v11_ja.xml#article111073 engishiki_v11_en.xml#article111073">
       <head ana="御体卜"/>
       <p ana="項" corresp="engishiki_v11_ja.xml#item11107301 engishiki_v11_en.xml#item11107301"
        xml:id="item11107301">
@@ -1665,7 +1739,8 @@
        <note> 侵　土本等「候」。四時祭式上22条および本朝月令所引弘仁式逸文により改める。 </note>
       </app>
      </div>
-     <div ana="太政官" n="11.74" type="条">
+     <div ana="太政官" n="11.74" type="条" xml:id="article111074"
+      corresp="engishiki_v11_ja.xml#article111074 engishiki_v11_en.xml#article111074">
       <head ana="月次祭"/>
       <p ana="項" corresp="engishiki_v11_ja.xml#item11107401 engishiki_v11_en.xml#item11107401"
        xml:id="item11107401">
@@ -1705,7 +1780,8 @@
        <note> 卜　土本等「下」。本朝月令所引弘仁式逸文により改める。 </note>
       </app>
      </div>
-     <div ana="太政官" n="11.75" type="条">
+     <div ana="太政官" n="11.75" type="条" xml:id="article111075"
+      corresp="engishiki_v11_ja.xml#article111075 engishiki_v11_en.xml#article111075">
       <head ana="大祓"/>
       <p ana="項" corresp="engishiki_v11_ja.xml#item11107501 engishiki_v11_en.xml#item11107501"
        xml:id="item11107501"> 凡六月・十二月晦日、於宮城南路大祓、大臣以下五位以上就朱雀門、〈若雨泥日、 <anchor xml:id="app1110750101"/>
@@ -1736,7 +1812,8 @@
        <note> 亦　土本・近本無し。九本・壬本等により補う。 </note>
       </app>
      </div>
-     <div ana="太政官" n="11.76" type="条">
+     <div ana="太政官" n="11.76" type="条" xml:id="article111076"
+      corresp="engishiki_v11_ja.xml#article111076 engishiki_v11_en.xml#article111076">
       <head ana="伊勢使"/>
       <p ana="項" corresp="engishiki_v11_ja.xml#item11107601 engishiki_v11_en.xml#item11107601"
        xml:id="item11107601"> 凡九月十一日、行幸八省院、奉幣於 <placeName corresp="#伊勢国"> 伊勢 </placeName> 大神宮、其使者、
@@ -1753,7 +1830,8 @@
        <note> 卜　土本等「古」。九本により改める。近本・壬本・京博本傍書「占」。 </note>
       </app>
      </div>
-     <div ana="太政官" n="11.77" type="条">
+     <div ana="太政官" n="11.77" type="条" xml:id="article111077"
+      corresp="engishiki_v11_ja.xml#article111077 engishiki_v11_en.xml#article111077">
       <head ana="鎮魂新嘗"/>
       <p ana="項" corresp="engishiki_v11_ja.xml#item11107701 engishiki_v11_en.xml#item11107701"
        xml:id="item11107701">
@@ -1772,7 +1850,8 @@
        <note> 経　土本無し。九本・近本・慶長本等により補う。 </note>
       </app>
      </div>
-     <div ana="太政官" n="11.78" type="条">
+     <div ana="太政官" n="11.78" type="条" xml:id="article111078"
+      corresp="engishiki_v11_ja.xml#article111078 engishiki_v11_en.xml#article111078">
       <head ana="祭祀日"/>
       <p ana="項" corresp="engishiki_v11_ja.xml#item11107801 engishiki_v11_en.xml#item11107801"
        xml:id="item11107801">
@@ -1782,7 +1861,8 @@
        <lem> 弘 </lem>
       </app>
      </div>
-     <div ana="太政官" n="11.79" type="条">
+     <div ana="太政官" n="11.79" type="条" xml:id="article111079"
+      corresp="engishiki_v11_ja.xml#article111079 engishiki_v11_en.xml#article111079">
       <head ana="神事諸司"/>
       <p ana="項" corresp="engishiki_v11_ja.xml#item11107901 engishiki_v11_en.xml#item11107901"
        xml:id="item11107901">
@@ -1792,7 +1872,8 @@
        <lem> 貞 </lem>
       </app>
      </div>
-     <div ana="太政官" n="11.80" type="条">
+     <div ana="太政官" n="11.80" type="条" xml:id="article111080"
+      corresp="engishiki_v11_ja.xml#article111080 engishiki_v11_en.xml#article111080">
       <head ana="平野祭見参"/>
       <p ana="項" corresp="engishiki_v11_ja.xml#item11108001 engishiki_v11_en.xml#item11108001"
        xml:id="item11108001">
@@ -1804,7 +1885,8 @@
      </div>
      <pb
       facs="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-11%2F00018.tif/full/full/0/default.jpg"/>
-     <div ana="太政官" n="11.81" type="条">
+     <div ana="太政官" n="11.81" type="条" xml:id="article111081"
+      corresp="engishiki_v11_ja.xml#article111081 engishiki_v11_en.xml#article111081">
       <head ana="会参上日条"/>
       <p ana="項" corresp="engishiki_v11_ja.xml#item11108101 engishiki_v11_en.xml#item11108101"
        xml:id="item11108101">
@@ -1828,7 +1910,8 @@
        <note> 五位　九本無し。 </note>
       </app>
      </div>
-     <div ana="太政官" n="11.82" type="条">
+     <div ana="太政官" n="11.82" type="条" xml:id="article111082"
+      corresp="engishiki_v11_ja.xml#article111082 engishiki_v11_en.xml#article111082">
       <head ana="興福寺"/>
       <p ana="項" corresp="engishiki_v11_ja.xml#item11108201 engishiki_v11_en.xml#item11108201"
        xml:id="item11108201">
@@ -1840,7 +1923,8 @@
        <lem> 貞 </lem>
       </app>
      </div>
-     <div ana="太政官" n="11.83" type="条">
+     <div ana="太政官" n="11.83" type="条" xml:id="article111083"
+      corresp="engishiki_v11_ja.xml#article111083 engishiki_v11_en.xml#article111083">
       <head ana="外記史不列"/>
       <p ana="項" corresp="engishiki_v11_ja.xml#item11108301 engishiki_v11_en.xml#item11108301"
        xml:id="item11108301">
@@ -1851,7 +1935,8 @@
        <lem> 延 </lem>
       </app>
      </div>
-     <div ana="太政官" n="11.84" type="条">
+     <div ana="太政官" n="11.84" type="条" xml:id="article111084"
+      corresp="engishiki_v11_ja.xml#article111084 engishiki_v11_en.xml#article111084">
       <head ana="釈奠"/>
       <p ana="項" corresp="engishiki_v11_ja.xml#item11108401 engishiki_v11_en.xml#item11108401"
        xml:id="item11108401">
@@ -1868,7 +1953,8 @@
        <note> 史生　土本等無し。九本により補う。訳注本無し。 </note>
       </app>
      </div>
-     <div ana="太政官" n="11.85" type="条">
+     <div ana="太政官" n="11.85" type="条" xml:id="article111085"
+      corresp="engishiki_v11_ja.xml#article111085 engishiki_v11_en.xml#article111085">
       <head ana="大嘗祭"/>
       <p ana="項" corresp="engishiki_v11_ja.xml#item11108501 engishiki_v11_en.xml#item11108501"
        xml:id="item11108501">
@@ -1971,7 +2057,8 @@
        <note> 或　土本等「式」。九本により改める。訳注本「式」。 </note>
       </app>
      </div>
-     <div ana="太政官" n="11.86" type="条">
+     <div ana="太政官" n="11.86" type="条" xml:id="article111086"
+      corresp="engishiki_v11_ja.xml#article111086 engishiki_v11_en.xml#article111086">
       <head ana="践祚大嘗年"/>
       <p ana="項" corresp="engishiki_v11_ja.xml#item11108601 engishiki_v11_en.xml#item11108601"
        xml:id="item11108601"> 凡践祚大嘗年、十月下旬天皇臨川禊潔而斎、預令 <orgName corresp="#陰陽寮"> 陰陽寮 </orgName>
@@ -1988,7 +2075,8 @@
        <note> 官　土本等「第」。九本・慶長本、近本・壬本・京博本傍書により改める。 </note>
       </app>
      </div>
-     <div ana="太政官" n="11.87" type="条">
+     <div ana="太政官" n="11.87" type="条" xml:id="article111087"
+      corresp="engishiki_v11_ja.xml#article111087 engishiki_v11_en.xml#article111087">
       <head ana="定斎王"/>
       <p ana="項" corresp="engishiki_v11_ja.xml#item11108701 engishiki_v11_en.xml#item11108701"
        xml:id="item11108701">
@@ -2039,7 +2127,8 @@
        <note> 六位　土本等無し。九本により補う。 </note>
       </app>
      </div>
-     <div ana="太政官" n="11.88" type="条">
+     <div ana="太政官" n="11.88" type="条" xml:id="article111088"
+      corresp="engishiki_v11_ja.xml#article111088 engishiki_v11_en.xml#article111088">
       <head ana="斎王向伊勢"/>
       <p ana="項" corresp="engishiki_v11_ja.xml#item11108801 engishiki_v11_en.xml#item11108801"
        xml:id="item11108801">
@@ -2050,7 +2139,8 @@
        <lem> 貞 </lem>
       </app>
      </div>
-     <div ana="太政官" n="11.89" type="条">
+     <div ana="太政官" n="11.89" type="条" xml:id="article111089"
+      corresp="engishiki_v11_ja.xml#article111089 engishiki_v11_en.xml#article111089">
       <head ana="賀茂斎王"/>
       <p ana="項" corresp="engishiki_v11_ja.xml#item11108901 engishiki_v11_en.xml#item11108901"
        xml:id="item11108901">
@@ -2068,7 +2158,8 @@
        <note> 皇　土本等「王」。九本、壬本・京博本朱傍書により改める。 </note>
       </app>
      </div>
-     <div ana="太政官" n="11.90" type="条">
+     <div ana="太政官" n="11.90" type="条" xml:id="article111090"
+      corresp="engishiki_v11_ja.xml#article111090 engishiki_v11_en.xml#article111090">
       <head ana="仁王会"/>
       <p ana="項" corresp="engishiki_v11_ja.xml#item11109001 engishiki_v11_en.xml#item11109001"
        xml:id="item11109001">
@@ -2093,7 +2184,8 @@
        <note> 講　土本・梵本無し。九本、近本補入、壬本・慶長本により補う。 </note>
       </app>
      </div>
-     <div ana="太政官" n="11.91" type="条">
+     <div ana="太政官" n="11.91" type="条" xml:id="article111091"
+      corresp="engishiki_v11_ja.xml#article111091 engishiki_v11_en.xml#article111091">
       <head ana="告朔"/>
       <p ana="項" corresp="engishiki_v11_ja.xml#item11109101 engishiki_v11_en.xml#item11109101"
        xml:id="item11109101">
@@ -2137,7 +2229,8 @@
        <note> 納　訳注本は「経」に意改。 </note>
       </app>
      </div>
-     <div ana="太政官" n="11.92" type="条">
+     <div ana="太政官" n="11.92" type="条" xml:id="article111092"
+      corresp="engishiki_v11_ja.xml#article111092 engishiki_v11_en.xml#article111092">
       <head ana="諸節会"/>
       <p ana="項" corresp="engishiki_v11_ja.xml#item11109201 engishiki_v11_en.xml#item11109201"
        xml:id="item11109201">
@@ -2149,7 +2242,8 @@
      </div>
      <pb
       facs="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-11%2F00022.tif/full/full/0/default.jpg"/>
-     <div ana="太政官" n="11.93" type="条">
+     <div ana="太政官" n="11.93" type="条" xml:id="article111093"
+      corresp="engishiki_v11_ja.xml#article111093 engishiki_v11_en.xml#article111093">
       <head ana="朝賀"/>
       <p ana="項" corresp="engishiki_v11_ja.xml#item11109301 engishiki_v11_en.xml#item11109301"
        xml:id="item11109301">
@@ -2166,7 +2260,8 @@
        <note> 所　土本等「諸」。九本により改める。訳注本「諸」。 </note>
       </app>
      </div>
-     <div ana="太政官" n="11.94" type="条">
+     <div ana="太政官" n="11.94" type="条" xml:id="article111094"
+      corresp="engishiki_v11_ja.xml#article111094 engishiki_v11_en.xml#article111094">
       <head ana="元宴"/>
       <p ana="項" corresp="engishiki_v11_ja.xml#item11109401 engishiki_v11_en.xml#item11109401"
        xml:id="item11109401">
@@ -2178,7 +2273,8 @@
        <note> 弘　土本無し。近本・慶長本等により補う。 </note>
       </app>
      </div>
-     <div ana="太政官" n="11.95" type="条">
+     <div ana="太政官" n="11.95" type="条" xml:id="article111095"
+      corresp="engishiki_v11_ja.xml#article111095 engishiki_v11_en.xml#article111095">
       <head ana="正月七日"/>
       <p ana="項" corresp="engishiki_v11_ja.xml#item11109501 engishiki_v11_en.xml#item11109501"
        xml:id="item11109501">
@@ -2207,7 +2303,8 @@
        <note> 印　土本等「仰」。九本により改める。訳注本「仰」。 </note>
       </app>
      </div>
-     <div ana="太政官" n="11.96" type="条">
+     <div ana="太政官" n="11.96" type="条" xml:id="article111096"
+      corresp="engishiki_v11_ja.xml#article111096 engishiki_v11_en.xml#article111096">
       <head ana="任官"/>
       <p ana="項" corresp="engishiki_v11_ja.xml#item11109601 engishiki_v11_en.xml#item11109601"
        xml:id="item11109601">
@@ -2218,7 +2315,8 @@
        <lem> 弘 </lem>
       </app>
      </div>
-     <div ana="太政官" n="11.97" type="条">
+     <div ana="太政官" n="11.97" type="条" xml:id="article111097"
+      corresp="engishiki_v11_ja.xml#article111097 engishiki_v11_en.xml#article111097">
       <head ana="御斎会"/>
       <p ana="項" corresp="engishiki_v11_ja.xml#item11109701 engishiki_v11_en.xml#item11109701"
        xml:id="item11109701">
@@ -2242,7 +2340,8 @@
        <note> 設　土本等「後」。九本により改める。 </note>
       </app>
      </div>
-     <div ana="太政官" n="11.98" type="条">
+     <div ana="太政官" n="11.98" type="条" xml:id="article111098"
+      corresp="engishiki_v11_ja.xml#article111098 engishiki_v11_en.xml#article111098">
       <head ana="正月十六日"/>
       <p ana="項" corresp="engishiki_v11_ja.xml#item11109801 engishiki_v11_en.xml#item11109801"
        xml:id="item11109801">
@@ -2262,7 +2361,8 @@
        <note> 宴　土本等この上に「宣」あり。九本により削る。京博本「宣」字に朱傍書「本定」、壬本朱傍書「衍文」「本定」。 </note>
       </app>
      </div>
-     <div ana="太政官" n="11.99" type="条">
+     <div ana="太政官" n="11.99" type="条" xml:id="article111099"
+      corresp="engishiki_v11_ja.xml#article111099 engishiki_v11_en.xml#article111099">
       <head ana="大射"/>
       <p ana="項" corresp="engishiki_v11_ja.xml#item11109901 engishiki_v11_en.xml#item11109901"
        xml:id="item11109901">
@@ -2288,7 +2388,8 @@
        <note> 行事　土本等無し。九本により補う。 </note>
       </app>
      </div>
-     <div ana="太政官" n="11.100" type="条">
+     <div ana="太政官" n="11.100" type="条" xml:id="article111100"
+      corresp="engishiki_v11_ja.xml#article111100 engishiki_v11_en.xml#article111100">
       <head ana="二季読経"/>
       <p ana="項" corresp="engishiki_v11_ja.xml#item11110001 engishiki_v11_en.xml#item11110001"
        xml:id="item11110001"> 凡春秋二季、於大極殿修読経、弁・史専当行事、初後両日、親王已下参議 <anchor xml:id="app1111000101"/> 以
@@ -2300,7 +2401,8 @@
        <note> 以　九本・訳注本「已」。 </note>
       </app>
      </div>
-     <div ana="太政官" n="11.101" type="条">
+     <div ana="太政官" n="11.101" type="条" xml:id="article111101"
+      corresp="engishiki_v11_ja.xml#article111101 engishiki_v11_en.xml#article111101">
       <head ana="五月五日"/>
       <p ana="項" corresp="engishiki_v11_ja.xml#item11110101 engishiki_v11_en.xml#item11110101"
        xml:id="item11110101">
@@ -2317,7 +2419,8 @@
        <note> 昌　京博本草冠を朱で補う。藤波本朱傍書「菖」。訳注本は正格の用字である「菖」。 </note>
       </app>
      </div>
-     <div ana="太政官" n="11.102" type="条">
+     <div ana="太政官" n="11.102" type="条" xml:id="article111102"
+      corresp="engishiki_v11_ja.xml#article111102 engishiki_v11_en.xml#article111102">
       <head ana="負馬"/>
       <p ana="項" corresp="engishiki_v11_ja.xml#item11110201 engishiki_v11_en.xml#item11110201"
        xml:id="item11110201">
@@ -2327,7 +2430,8 @@
        <lem> 貞 </lem>
       </app>
      </div>
-     <div ana="太政官" n="11.103" type="条">
+     <div ana="太政官" n="11.103" type="条" xml:id="article111103"
+      corresp="engishiki_v11_ja.xml#article111103 engishiki_v11_en.xml#article111103">
       <head ana="相撲"/>
       <p ana="項" corresp="engishiki_v11_ja.xml#item11110301 engishiki_v11_en.xml#item11110301"
        xml:id="item11110301">
@@ -2354,7 +2458,8 @@
        <note> 各　土本等無し。九本により補う。 </note>
       </app>
      </div>
-     <div ana="太政官" n="11.104" type="条">
+     <div ana="太政官" n="11.104" type="条" xml:id="article111104"
+      corresp="engishiki_v11_ja.xml#article111104 engishiki_v11_en.xml#article111104">
       <head ana="盆供"/>
       <p ana="項" corresp="engishiki_v11_ja.xml#item11110401 engishiki_v11_en.xml#item11110401"
        xml:id="item11110401">
@@ -2370,7 +2475,8 @@
        <note> 令　土本等「命」。九本および小野宮年中行事所引弘仁式逸文により改める。 </note>
       </app>
      </div>
-     <div ana="太政官" n="11.105" type="条">
+     <div ana="太政官" n="11.105" type="条" xml:id="article111105"
+      corresp="engishiki_v11_ja.xml#article111105 engishiki_v11_en.xml#article111105">
       <head ana="九月九日"/>
       <p ana="項" corresp="engishiki_v11_ja.xml#item11110501 engishiki_v11_en.xml#item11110501"
        xml:id="item11110501">
@@ -2382,7 +2488,8 @@
        <note> 弘　土本無し。近本・慶長本等により補う。 </note>
       </app>
      </div>
-     <div ana="太政官" n="11.106" type="条">
+     <div ana="太政官" n="11.106" type="条" xml:id="article111106"
+      corresp="engishiki_v11_ja.xml#article111106 engishiki_v11_en.xml#article111106">
       <head ana="禄目録"/>
       <p ana="項" corresp="engishiki_v11_ja.xml#item11110601 engishiki_v11_en.xml#item11110601"
        xml:id="item11110601"> 凡節会之日、弁大夫奏 <anchor xml:id="app1111060101"/> 禄 <anchor
@@ -2395,7 +2502,8 @@
      </div>
      <pb
       facs="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-11%2F00024.tif/full/full/0/default.jpg"/>
-     <div ana="太政官" n="11.107" type="条">
+     <div ana="太政官" n="11.107" type="条" xml:id="article111107"
+      corresp="engishiki_v11_ja.xml#article111107 engishiki_v11_en.xml#article111107">
       <head ana="非侍従見参"/>
       <p ana="項" corresp="engishiki_v11_ja.xml#item11110701 engishiki_v11_en.xml#item11110701"
        xml:id="item11110701">
@@ -2414,7 +2522,8 @@
        <note> 少将　九本無し。 </note>
       </app>
      </div>
-     <div ana="太政官" n="11.108" type="条">
+     <div ana="太政官" n="11.108" type="条" xml:id="article111108"
+      corresp="engishiki_v11_ja.xml#article111108 engishiki_v11_en.xml#article111108">
       <head ana="俘囚夾名"/>
       <p ana="項" corresp="engishiki_v11_ja.xml#item11110801 engishiki_v11_en.xml#item11110801"
        xml:id="item11110801">
@@ -2424,7 +2533,8 @@
        <lem> 貞 </lem>
       </app>
      </div>
-     <div ana="太政官" n="11.109" type="条">
+     <div ana="太政官" n="11.109" type="条" xml:id="article111109"
+      corresp="engishiki_v11_ja.xml#article111109 engishiki_v11_en.xml#article111109">
       <head ana="節会見参"/>
       <p ana="項" corresp="engishiki_v11_ja.xml#item11110901 engishiki_v11_en.xml#item11110901"
        xml:id="item11110901"> 凡諸節会五位已上見参者、未召刀祢之前、 <orgName corresp="#式部省"> 式部省 </orgName> 書其簿進
@@ -2450,7 +2560,8 @@
        <note> 省　土本「者」。九本、近本傍書等により改める。 </note>
       </app>
      </div>
-     <div ana="太政官" n="11.110" type="条">
+     <div ana="太政官" n="11.110" type="条" xml:id="article111110"
+      corresp="engishiki_v11_ja.xml#article111110 engishiki_v11_en.xml#article111110">
       <head ana="山陵幣"/>
       <p ana="項" corresp="engishiki_v11_ja.xml#item11111001 engishiki_v11_en.xml#item11111001"
        xml:id="item11111001">
@@ -2491,7 +2602,8 @@
        <note> 五位　土本等無し。九本および新撰年中行事所引延喜官式により補う。 </note>
       </app>
      </div>
-     <div ana="太政官" n="11.111" type="条">
+     <div ana="太政官" n="11.111" type="条" xml:id="article111111"
+      corresp="engishiki_v11_ja.xml#article111111 engishiki_v11_en.xml#article111111">
       <head ana="追儺"/>
       <p ana="項" corresp="engishiki_v11_ja.xml#item11111101 engishiki_v11_en.xml#item11111101"
        xml:id="item11111101">
@@ -2517,7 +2629,8 @@
        <note> 弁　土本等「并」。九本、近本傍書により改める。 </note>
       </app>
      </div>
-     <div ana="太政官" n="11.112" type="条">
+     <div ana="太政官" n="11.112" type="条" xml:id="article111112"
+      corresp="engishiki_v11_ja.xml#article111112 engishiki_v11_en.xml#article111112">
       <head ana="行幸経旬"/>
       <p ana="項" corresp="engishiki_v11_ja.xml#item11111201 engishiki_v11_en.xml#item11111201"
        xml:id="item11111201">
@@ -2644,7 +2757,8 @@
      </div>
      <pb
       facs="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-11%2F00026.tif/full/full/0/default.jpg"/>
-     <div ana="太政官" n="11.113" type="条">
+     <div ana="太政官" n="11.113" type="条" xml:id="article111113"
+      corresp="engishiki_v11_ja.xml#article111113 engishiki_v11_en.xml#article111113">
       <head ana="季禄"/>
       <p ana="項" corresp="engishiki_v11_ja.xml#item11111301 engishiki_v11_en.xml#item11111301"
        xml:id="item11111301">
@@ -2680,7 +2794,8 @@
        <note> 久　土本「人」。九本・近本・慶長本等により改める。 </note>
       </app>
      </div>
-     <div ana="太政官" n="11.114" type="条">
+     <div ana="太政官" n="11.114" type="条" xml:id="article111114"
+      corresp="engishiki_v11_ja.xml#article111114 engishiki_v11_en.xml#article111114">
       <head ana="諸王時服"/>
       <p ana="項" corresp="engishiki_v11_ja.xml#item11111401 engishiki_v11_en.xml#item11111401"
        xml:id="item11111401">
@@ -2715,7 +2830,8 @@
        <note> 省　土本等「者」。九本、近本・壬本・京博本傍書により改める。 </note>
       </app>
      </div>
-     <div ana="太政官" n="11.115" type="条">
+     <div ana="太政官" n="11.115" type="条" xml:id="article111115"
+      corresp="engishiki_v11_ja.xml#article111115 engishiki_v11_en.xml#article111115">
       <head ana="女官時服"/>
       <p ana="項" corresp="engishiki_v11_ja.xml#item11111501 engishiki_v11_en.xml#item11111501"
        xml:id="item11111501">
@@ -2733,7 +2849,8 @@
        <note> 廿日官　土本・梵本「廿日官廿日官」。近本「廿日官廿日官」とし、上の「廿日官」に「无」と傍書。九本・壬本・京博本・慶長本、近本傍書により改める。 </note>
       </app>
      </div>
-     <div ana="太政官" n="11.116" type="条">
+     <div ana="太政官" n="11.116" type="条" xml:id="article111116"
+      corresp="engishiki_v11_ja.xml#article111116 engishiki_v11_en.xml#article111116">
       <head ana="諸司時服"/>
       <p ana="項" corresp="engishiki_v11_ja.xml#item11111601 engishiki_v11_en.xml#item11111601"
        xml:id="item11111601">
@@ -2769,7 +2886,8 @@
        <note> 之　九本無し。 </note>
       </app>
      </div>
-     <div ana="太政官" n="11.117" type="条">
+     <div ana="太政官" n="11.117" type="条" xml:id="article111117"
+      corresp="engishiki_v11_ja.xml#article111117 engishiki_v11_en.xml#article111117">
       <head ana="位禄"/>
       <p ana="項" corresp="engishiki_v11_ja.xml#item11111701 engishiki_v11_en.xml#item11111701"
        xml:id="item11111701">
@@ -2788,7 +2906,8 @@
        <note> 出　土本等この下に「納」あり。九本に無く、衍と見て削る。 </note>
       </app>
      </div>
-     <div ana="太政官" n="11.118" type="条">
+     <div ana="太政官" n="11.118" type="条" xml:id="article111118"
+      corresp="engishiki_v11_ja.xml#article111118 engishiki_v11_en.xml#article111118">
       <head ana="馬料"/>
       <p ana="項" corresp="engishiki_v11_ja.xml#item11111801 engishiki_v11_en.xml#item11111801"
        xml:id="item11111801">
@@ -2811,7 +2930,8 @@
        <note> 目　土本・九本無し。近本により補う。 </note>
       </app>
      </div>
-     <div ana="太政官" n="11.119" type="条">
+     <div ana="太政官" n="11.119" type="条" xml:id="article111119"
+      corresp="engishiki_v11_ja.xml#article111119 engishiki_v11_en.xml#article111119">
       <head ana="月料要劇大粮"/>
       <p ana="項" corresp="engishiki_v11_ja.xml#item11111901 engishiki_v11_en.xml#item11111901"
        xml:id="item11111901">
@@ -2840,7 +2960,8 @@
        <note> 給　九本無し。 </note>
       </app>
      </div>
-     <div ana="太政官" n="11.120" type="条">
+     <div ana="太政官" n="11.120" type="条" xml:id="article111120"
+      corresp="engishiki_v11_ja.xml#article111120 engishiki_v11_en.xml#article111120">
       <head ana="紙筆"/>
       <p ana="項" corresp="engishiki_v11_ja.xml#item11112001 engishiki_v11_en.xml#item11112001"
        xml:id="item11112001">
@@ -2852,7 +2973,8 @@
        <note> 弘　土本・近本、前条最終行の頭書。壬本・京博本等により移す。 </note>
       </app>
      </div>
-     <div ana="太政官" n="11.121" type="条">
+     <div ana="太政官" n="11.121" type="条" xml:id="article111121"
+      corresp="engishiki_v11_ja.xml#article111121 engishiki_v11_en.xml#article111121">
       <head ana="官年料"/>
       <p ana="項" corresp="engishiki_v11_ja.xml#item11112101 engishiki_v11_en.xml#item11112101"
        xml:id="item11112101">
@@ -2875,7 +2997,8 @@
        <note> 文　土本「之」。九本・近本・慶長本等により改める。 </note>
       </app>
      </div>
-     <div ana="太政官" n="11.122" type="条">
+     <div ana="太政官" n="11.122" type="条" xml:id="article111122"
+      corresp="engishiki_v11_ja.xml#article111122 engishiki_v11_en.xml#article111122">
       <head ana="充座"/>
       <p ana="項" corresp="engishiki_v11_ja.xml#item11112201 engishiki_v11_en.xml#item11112201"
        xml:id="item11112201">
@@ -2886,7 +3009,8 @@
        <lem> 弘 </lem>
       </app>
      </div>
-     <div ana="太政官" n="11.123" type="条">
+     <div ana="太政官" n="11.123" type="条" xml:id="article111123"
+      corresp="engishiki_v11_ja.xml#article111123 engishiki_v11_en.xml#article111123">
       <head ana="考定"/>
       <p ana="項" corresp="engishiki_v11_ja.xml#item11112301 engishiki_v11_en.xml#item11112301"
        xml:id="item11112301">
@@ -3070,7 +3194,8 @@
        <note> 入自　土本等「自入」。九本、壬本訂正書により改める。 </note>
       </app>
      </div>
-     <div ana="太政官" n="11.124" type="条">
+     <div ana="太政官" n="11.124" type="条" xml:id="article111124"
+      corresp="engishiki_v11_ja.xml#article111124 engishiki_v11_en.xml#article111124">
       <head ana="禄法"/>
       <p ana="項" corresp="engishiki_v11_ja.xml#item11112401 engishiki_v11_en.xml#item11112401"
        xml:id="item11112401"> 凡列見定考禄者、 <anchor xml:id="app1111240101"/> 太政 <anchor
@@ -3082,7 +3207,8 @@
        <note> 太政　土本弥書。九本・近本・慶長本等により削る。 </note>
       </app>
      </div>
-     <div ana="太政官" n="11.125" type="条">
+     <div ana="太政官" n="11.125" type="条" xml:id="article111125"
+      corresp="engishiki_v11_ja.xml#article111125 engishiki_v11_en.xml#article111125">
       <head ana="諸司考文"/>
       <p ana="項" corresp="engishiki_v11_ja.xml#item11112501 engishiki_v11_en.xml#item11112501"
        xml:id="item11112501">
@@ -3103,7 +3229,8 @@
        <note> 者　土本等「書」。九本、京博本朱傍書により改める。 </note>
       </app>
      </div>
-     <div ana="太政官" n="11.126" type="条">
+     <div ana="太政官" n="11.126" type="条" xml:id="article111126"
+      corresp="engishiki_v11_ja.xml#article111126 engishiki_v11_en.xml#article111126">
       <head ana="諸国考文"/>
       <p ana="項" corresp="engishiki_v11_ja.xml#item11112601 engishiki_v11_en.xml#item11112601"
        xml:id="item11112601">
@@ -3124,7 +3251,8 @@
      </div>
      <pb
       facs="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-11%2F00030.tif/full/full/0/default.jpg"/>
-     <div ana="太政官" n="11.127" type="条">
+     <div ana="太政官" n="11.127" type="条" xml:id="article111127"
+      corresp="engishiki_v11_ja.xml#article111127 engishiki_v11_en.xml#article111127">
       <head ana="列見"/>
       <p ana="項" corresp="engishiki_v11_ja.xml#item11112701 engishiki_v11_en.xml#item11112701"
        xml:id="item11112701">
@@ -3145,7 +3273,8 @@
        <note> 見　九本無し。 </note>
       </app>
      </div>
-     <div ana="太政官" n="11.128" type="条">
+     <div ana="太政官" n="11.128" type="条" xml:id="article111128"
+      corresp="engishiki_v11_ja.xml#article111128 engishiki_v11_en.xml#article111128">
       <head ana="擬階"/>
       <p ana="項" corresp="engishiki_v11_ja.xml#item11112801 engishiki_v11_en.xml#item11112801"
        xml:id="item11112801">
@@ -3162,7 +3291,8 @@
        <note> 外記　土本等無し。九本により補う。 </note>
       </app>
      </div>
-     <div ana="太政官" n="11.129" type="条">
+     <div ana="太政官" n="11.129" type="条" xml:id="article111129"
+      corresp="engishiki_v11_ja.xml#article111129 engishiki_v11_en.xml#article111129">
       <head ana="位記請印"/>
       <p ana="項" corresp="engishiki_v11_ja.xml#item11112901 engishiki_v11_en.xml#item11112901"
        xml:id="item11112901">
@@ -3180,7 +3310,8 @@
        <note> 兵　土本無し。九本・近本・慶長本等により補う。 </note>
       </app>
      </div>
-     <div ana="太政官" n="11.130" type="条">
+     <div ana="太政官" n="11.130" type="条" xml:id="article111130"
+      corresp="engishiki_v11_ja.xml#article111130 engishiki_v11_en.xml#article111130">
       <head ana="位記召給"/>
       <p ana="項" corresp="engishiki_v11_ja.xml#item11113001 engishiki_v11_en.xml#item11113001"
        xml:id="item11113001">
@@ -3199,7 +3330,8 @@
        <note> 進　土本等無し。九本により補う。 </note>
       </app>
      </div>
-     <div ana="太政官" n="11.131" type="条">
+     <div ana="太政官" n="11.131" type="条" xml:id="article111131"
+      corresp="engishiki_v11_ja.xml#article111131 engishiki_v11_en.xml#article111131">
       <head ana="任郡司"/>
       <p ana="項" corresp="engishiki_v11_ja.xml#item11113101 engishiki_v11_en.xml#item11113101"
        xml:id="item11113101">
@@ -3221,7 +3353,8 @@
      </div>
      <pb
       facs="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-11%2F00031.tif/full/full/0/default.jpg"/>
-     <div ana="太政官" n="11.132" type="条">
+     <div ana="太政官" n="11.132" type="条" xml:id="article111132"
+      corresp="engishiki_v11_ja.xml#article111132 engishiki_v11_en.xml#article111132">
       <head ana="出雲国造"/>
       <p ana="項" corresp="engishiki_v11_ja.xml#item11113201 engishiki_v11_en.xml#item11113201"
        xml:id="item11113201">
@@ -3238,7 +3371,8 @@
        <note> 弘　土本無し。近本・慶長本等により補う。 </note>
       </app>
      </div>
-     <div ana="太政官" n="11.133" type="条">
+     <div ana="太政官" n="11.133" type="条" xml:id="article111133"
+      corresp="engishiki_v11_ja.xml#article111133 engishiki_v11_en.xml#article111133">
       <head ana="新暦"/>
       <p ana="項" corresp="engishiki_v11_ja.xml#item11113301 engishiki_v11_en.xml#item11113301"
        xml:id="item11113301">
@@ -3249,7 +3383,8 @@
        <lem> 弘 </lem>
       </app>
      </div>
-     <div ana="太政官" n="11.134" type="条">
+     <div ana="太政官" n="11.134" type="条" xml:id="article111134"
+      corresp="engishiki_v11_ja.xml#article111134 engishiki_v11_en.xml#article111134">
       <head ana="鼓吹"/>
       <p ana="項" corresp="engishiki_v11_ja.xml#item11113401 engishiki_v11_en.xml#item11113401"
        xml:id="item11113401">
@@ -3268,7 +3403,8 @@
        <note> 召　この下に土本等「使」あり。九本に無く、衍と見て削る。 </note>
       </app>
      </div>
-     <div ana="太政官" n="11.135" type="条">
+     <div ana="太政官" n="11.135" type="条" xml:id="article111135"
+      corresp="engishiki_v11_ja.xml#article111135 engishiki_v11_en.xml#article111135">
       <head ana="断罪文"/>
       <p ana="項" corresp="engishiki_v11_ja.xml#item11113501 engishiki_v11_en.xml#item11113501"
        xml:id="item11113501">
@@ -3305,7 +3441,8 @@
      </div>
      <pb
       facs="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-11%2F00032.tif/full/full/0/default.jpg"/>
-     <div ana="太政官" n="11.136" type="条">
+     <div ana="太政官" n="11.136" type="条" xml:id="article111136"
+      corresp="engishiki_v11_ja.xml#article111136 engishiki_v11_en.xml#article111136">
       <head ana="四度公文"/>
       <p ana="項" corresp="engishiki_v11_ja.xml#item11113601 engishiki_v11_en.xml#item11113601"
        xml:id="item11113601">
@@ -3315,7 +3452,8 @@
        <lem> 貞 </lem>
       </app>
      </div>
-     <div ana="太政官" n="11.137" type="条">
+     <div ana="太政官" n="11.137" type="条" xml:id="article111137"
+      corresp="engishiki_v11_ja.xml#article111137 engishiki_v11_en.xml#article111137">
       <head ana="調庸帳"/>
       <p ana="項" corresp="engishiki_v11_ja.xml#item11113701 engishiki_v11_en.xml#item11113701"
        xml:id="item11113701">
@@ -3326,7 +3464,8 @@
        <lem> 弘 </lem>
       </app>
      </div>
-     <div ana="太政官" n="11.138" type="条">
+     <div ana="太政官" n="11.138" type="条" xml:id="article111138"
+      corresp="engishiki_v11_ja.xml#article111138 engishiki_v11_en.xml#article111138">
       <head ana="四度使"/>
       <p ana="項" corresp="engishiki_v11_ja.xml#item11113801 engishiki_v11_en.xml#item11113801"
        xml:id="item11113801">
@@ -3346,7 +3485,8 @@
        <note> 大帳　土本等無し。九本により補う。 </note>
       </app>
      </div>
-     <div ana="太政官" n="11.139" type="条">
+     <div ana="太政官" n="11.139" type="条" xml:id="article111139"
+      corresp="engishiki_v11_ja.xml#article111139 engishiki_v11_en.xml#article111139">
       <head ana="公文進官"/>
       <p ana="項" corresp="engishiki_v11_ja.xml#item11113901 engishiki_v11_en.xml#item11113901"
        xml:id="item11113901">
@@ -3357,7 +3497,8 @@
        <lem> 貞 </lem>
       </app>
      </div>
-     <div ana="太政官" n="11.140" type="条">
+     <div ana="太政官" n="11.140" type="条" xml:id="article111140"
+      corresp="engishiki_v11_ja.xml#article111140 engishiki_v11_en.xml#article111140">
       <head ana="公文下省"/>
       <p ana="項" corresp="engishiki_v11_ja.xml#item11114001 engishiki_v11_en.xml#item11114001"
        xml:id="item11114001">
@@ -3377,7 +3518,8 @@
        <note> 拘　土本等「物」。九本、壬本・京博本朱傍書、近本イ傍書により改める。 </note>
       </app>
      </div>
-     <div ana="太政官" n="11.141" type="条">
+     <div ana="太政官" n="11.141" type="条" xml:id="article111141"
+      corresp="engishiki_v11_ja.xml#article111141 engishiki_v11_en.xml#article111141">
       <head ana="文殿雑書"/>
       <p ana="項" corresp="engishiki_v11_ja.xml#item11114101 engishiki_v11_en.xml#item11114101"
        xml:id="item11114101">
@@ -3387,7 +3529,8 @@
        <lem> 貞 </lem>
       </app>
      </div>
-     <div ana="太政官" n="11.142" type="条">
+     <div ana="太政官" n="11.142" type="条" xml:id="article111142"
+      corresp="engishiki_v11_ja.xml#article111142 engishiki_v11_en.xml#article111142">
       <head ana="厨家"/>
       <p ana="項" corresp="engishiki_v11_ja.xml#item11114201 engishiki_v11_en.xml#item11114201"
        xml:id="item11114201">
@@ -3398,7 +3541,8 @@
        <lem> 延 </lem>
       </app>
      </div>
-     <div ana="太政官" n="11.143" type="条">
+     <div ana="太政官" n="11.143" type="条" xml:id="article111143"
+      corresp="engishiki_v11_ja.xml#article111143 engishiki_v11_en.xml#article111143">
       <head ana="造館舎"/>
       <p ana="項" corresp="engishiki_v11_ja.xml#item11114301 engishiki_v11_en.xml#item11114301"
        xml:id="item11114301">
@@ -3412,7 +3556,8 @@
      </div>
      <pb
       facs="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-11%2F00033.tif/full/full/0/default.jpg"/>
-     <div ana="太政官" n="11.144" type="条">
+     <div ana="太政官" n="11.144" type="条" xml:id="article111144"
+      corresp="engishiki_v11_ja.xml#article111144 engishiki_v11_en.xml#article111144">
       <head ana="文殿公文"/>
       <p ana="項" corresp="engishiki_v11_ja.xml#item11114401 engishiki_v11_en.xml#item11114401"
        xml:id="item11114401">
@@ -3422,7 +3567,8 @@
        <lem> 貞延 </lem>
       </app>
      </div>
-     <div ana="太政官" n="11.145" type="条">
+     <div ana="太政官" n="11.145" type="条" xml:id="article111145"
+      corresp="engishiki_v11_ja.xml#article111145 engishiki_v11_en.xml#article111145">
       <head ana="厨家別当"/>
       <p ana="項" corresp="engishiki_v11_ja.xml#item11114501 engishiki_v11_en.xml#item11114501"
        xml:id="item11114501">
@@ -3439,7 +3585,8 @@
        <note> 家　土本無し。九本・近本・慶長本等により補う。 </note>
       </app>
      </div>
-     <div ana="太政官" n="11.146" type="条">
+     <div ana="太政官" n="11.146" type="条" xml:id="article111146"
+      corresp="engishiki_v11_ja.xml#article111146 engishiki_v11_en.xml#article111146">
       <head ana="例進地子"/>
       <p ana="項" corresp="engishiki_v11_ja.xml#item11114601 engishiki_v11_en.xml#item11114601"
        xml:id="item11114601">
@@ -3456,7 +3603,8 @@
        <note> 之　土本等無し。九本により補う。 </note>
       </app>
      </div>
-     <div ana="太政官" n="11.147" type="条">
+     <div ana="太政官" n="11.147" type="条" xml:id="article111147"
+      corresp="engishiki_v11_ja.xml#article111147 engishiki_v11_en.xml#article111147">
       <head ana="拘留返抄"/>
       <p ana="項" corresp="engishiki_v11_ja.xml#item11114701 engishiki_v11_en.xml#item11114701"
        xml:id="item11114701">
@@ -3467,7 +3615,8 @@
        <lem> 貞 </lem>
       </app>
      </div>
-     <div ana="太政官" n="11.148" type="条">
+     <div ana="太政官" n="11.148" type="条" xml:id="article111148"
+      corresp="engishiki_v11_ja.xml#article111148 engishiki_v11_en.xml#article111148">
       <head ana="薬分稲"/>
       <p ana="項" corresp="engishiki_v11_ja.xml#item11114801 engishiki_v11_en.xml#item11114801"
        xml:id="item11114801">
@@ -3478,7 +3627,8 @@
        <lem> 延 </lem>
       </app>
      </div>
-     <div ana="太政官" n="11.149" type="条">
+     <div ana="太政官" n="11.149" type="条" xml:id="article111149"
+      corresp="engishiki_v11_ja.xml#article111149 engishiki_v11_en.xml#article111149">
       <head ana="施薬院別当"/>
       <p ana="項" corresp="engishiki_v11_ja.xml#item11114901 engishiki_v11_en.xml#item11114901"
        xml:id="item11114901">
@@ -3490,7 +3640,8 @@
        <note> 貞　土本無し。近本・慶長本等により補う。 </note>
       </app>
      </div>
-     <div ana="太政官" n="11.150" type="条">
+     <div ana="太政官" n="11.150" type="条" xml:id="article111150"
+      corresp="engishiki_v11_ja.xml#article111150 engishiki_v11_en.xml#article111150">
       <head ana="薨卒"/>
       <p ana="項" corresp="engishiki_v11_ja.xml#item11115001 engishiki_v11_en.xml#item11115001"
        xml:id="item11115001">
@@ -3500,7 +3651,8 @@
        <lem> 貞 </lem>
       </app>
      </div>
-     <div ana="太政官" n="11.151" type="条">
+     <div ana="太政官" n="11.151" type="条" xml:id="article111151"
+      corresp="engishiki_v11_ja.xml#article111151 engishiki_v11_en.xml#article111151">
       <head ana="勘籍"/>
       <p ana="項" corresp="engishiki_v11_ja.xml#item11115101 engishiki_v11_en.xml#item11115101"
        xml:id="item11115101">
@@ -3510,7 +3662,8 @@
        <lem> 貞 </lem>
       </app>
      </div>
-     <div ana="太政官" n="11.152" type="条">
+     <div ana="太政官" n="11.152" type="条" xml:id="article111152"
+      corresp="engishiki_v11_ja.xml#article111152 engishiki_v11_en.xml#article111152">
       <head ana="年終帳"/>
       <p ana="項" corresp="engishiki_v11_ja.xml#item11115201 engishiki_v11_en.xml#item11115201"
        xml:id="item11115201">
@@ -3522,7 +3675,8 @@
        <lem> 貞 </lem>
       </app>
      </div>
-     <div ana="太政官" n="11.153" type="条">
+     <div ana="太政官" n="11.153" type="条" xml:id="article111153"
+      corresp="engishiki_v11_ja.xml#article111153 engishiki_v11_en.xml#article111153">
       <head ana="校書内豎"/>
       <p ana="項" corresp="engishiki_v11_ja.xml#item11115301 engishiki_v11_en.xml#item11115301"
        xml:id="item11115301">
@@ -3532,7 +3686,8 @@
        <lem> 貞 </lem>
       </app>
      </div>
-     <div ana="太政官" n="11.154" type="条">
+     <div ana="太政官" n="11.154" type="条" xml:id="article111154"
+      corresp="engishiki_v11_ja.xml#article111154 engishiki_v11_en.xml#article111154">
       <head ana="奏事諸"/>
       <p ana="項" corresp="engishiki_v11_ja.xml#item11115401 engishiki_v11_en.xml#item11115401"
        xml:id="item11115401">
@@ -3554,7 +3709,8 @@
        <note> 式　土本等「官」。九本により改める。 </note>
       </app>
      </div>
-     <div ana="太政官" n="11.155" type="条">
+     <div ana="太政官" n="11.155" type="条" xml:id="article111155"
+      corresp="engishiki_v11_ja.xml#article111155 engishiki_v11_en.xml#article111155">
       <head ana="葬官"/>
       <p ana="項" corresp="engishiki_v11_ja.xml#item11115501 engishiki_v11_en.xml#item11115501"
        xml:id="item11115501">
