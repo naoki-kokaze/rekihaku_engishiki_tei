@@ -503,13 +503,14 @@
  </teiHeader>
  <text>
   <body>
-   <div type="巻" xml:id="volume37">
+   <div ana="典薬" type="巻" xml:id="volume37">
     <div type="首題" xml:id="shudai37">
      <pb
       facs="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-37%2F00002.tif/full/full/0/default.jpg"/>
      <p xml:id="shudai3701"> 延喜式巻第卅七 </p>
     </div>
-    <div ana="典薬" n="37" type="式">
+    <div ana="典薬" n="37" type="式" xml:id="protocol371"
+     corresp="engishiki_v37_ja.xml#protocol371 engishiki_v37_en.xml#protocol371">
      <div type="式題" xml:id="shikidai371">
       <p xml:id="shikidai37101">
        <orgName corresp="#典薬寮"> 典薬寮 </orgName>
