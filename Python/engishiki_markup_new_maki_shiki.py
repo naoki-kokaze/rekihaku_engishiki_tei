@@ -62,7 +62,6 @@ t_div_maki = soup.new_tag('div', **{
     "xml:id": f"volume{shiki_no}",
     "n": shiki_no,
     "type": "巻",
-    "subtype": "式"
 })
 t_body.append(t_div_maki)
 
@@ -77,7 +76,6 @@ t_div_shiki = soup.new_tag('div', **{
     "xml:id": protocol_id,
     "n": make_n_attr(shiki_no, shiki_order),
     "type": "式",
-    "subtype": "条",
     "corresp": f"{corresp_list[0]}#{protocol_id} {corresp_list[1]}#{protocol_id}"
 })
 
@@ -109,7 +107,6 @@ for data in metadata:
         "xml:id": article_id,
         "n": make_n_attr(shiki_no, shiki_order, jyou),  # ← 式順あり/なしを切り替え
         "type": "条",
-        "subtype": "項",
         "corresp": f"{corresp_list[0]}#{article_id} {corresp_list[1]}#{article_id}"
     })
     t_div_article.append(soup.new_tag('head', ana=data["新条文名"]))
