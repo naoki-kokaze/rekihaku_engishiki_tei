@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
@@ -422,17 +422,17 @@
  </teiHeader>
  <text>
   <body>
-   <div ana="大膳上" n="32" subtype="式" type="巻" xml:id="volume32">
+   <div ana="大膳上" n="32" type="巻" xml:id="volume32">
     <div type="首題" xml:id="shudai32">
      <p xml:id="shudai3201"> 延喜式巻第三二 </p>
     </div>
     <div ana="大膳上" corresp="engishiki_v32.xml#protocol321 engishiki_v32_en.xml#protocol321" n="32"
-     subtype="条" type="式" xml:id="protocol321">
+     type="式" xml:id="protocol321">
      <div type="式題" xml:id="shikidai321">
       <p xml:id="shikidai32101"> 大膳上 </p>
      </div>
      <div ana="大膳上" corresp="engishiki_v32.xml#article321001 engishiki_v32_en.xml#article321001"
-      n="32.1" subtype="項" type="条" xml:id="article321001">
+      n="32.1" type="条" xml:id="article321001">
       <head ana="四祭春料"/>
       <note type="summary"> 大膳職の祭祀で用意する物品・食材 </note>
       <p ana="項" corresp="engishiki_v32.xml#item32100101 engishiki_v32_en.xml#item32100101"
@@ -509,7 +509,7 @@
       </p>
      </div>
      <div ana="大膳上" corresp="engishiki_v32.xml#article321002 engishiki_v32_en.xml#article321002"
-      n="32.2" subtype="項" type="条" xml:id="article321002">
+      n="32.2" type="条" xml:id="article321002">
       <head ana="神今食"/>
       <note type="summary"> 神今食で用意する物品・食材 </note>
       <p ana="項" corresp="engishiki_v32.xml#item32100201 engishiki_v32_en.xml#item32100201"
@@ -552,7 +552,7 @@
       </p>
      </div>
      <div ana="大膳上" corresp="engishiki_v32.xml#article321003 engishiki_v32_en.xml#article321003"
-      n="32.3" subtype="項" type="条" xml:id="article321003">
+      n="32.3" type="条" xml:id="article321003">
       <head ana="鎮魂"/>
       <note type="summary"> 鎮魂祭で用意する物品・食材 </note>
       <p ana="項" corresp="engishiki_v32.xml#item32100301 engishiki_v32_en.xml#item32100301"
@@ -619,7 +619,7 @@
       </p>
      </div>
      <div ana="大膳上" corresp="engishiki_v32.xml#article321004 engishiki_v32_en.xml#article321004"
-      n="32.4" subtype="項" type="条" xml:id="article321004">
+      n="32.4" type="条" xml:id="article321004">
       <head ana="雑給料"/>
       <note type="summary"> 鎮魂祭で官人に支給する食事に用いる食材等 </note>
       <p ana="項" corresp="engishiki_v32.xml#item32100401 engishiki_v32_en.xml#item32100401"
@@ -712,7 +712,7 @@
       </p>
      </div>
      <div ana="大膳上" corresp="engishiki_v32.xml#article321005 engishiki_v32_en.xml#article321005"
-      n="32.5" subtype="項" type="条" xml:id="article321005">
+      n="32.5" type="条" xml:id="article321005">
       <head ana="新嘗祭"/>
       <note type="summary"> 新嘗祭の神事で用意する物品・食材 </note>
       <p ana="項" corresp="engishiki_v32.xml#item32100501 engishiki_v32_en.xml#item32100501"
@@ -773,7 +773,7 @@
       </p>
      </div>
      <div ana="大膳上" corresp="engishiki_v32.xml#article321006 engishiki_v32_en.xml#article321006"
-      n="32.6" subtype="項" type="条" xml:id="article321006">
+      n="32.6" type="条" xml:id="article321006">
       <head ana="新嘗小斎解斎"/>
       <note type="summary"> 新嘗祭の斎戒を解く宴会で小斎に支給する食材 </note>
       <p ana="項" corresp="engishiki_v32.xml#item32100601 engishiki_v32_en.xml#item32100601"
@@ -818,7 +818,7 @@
       </p>
      </div>
      <div ana="大膳上" corresp="engishiki_v32.xml#article321007 engishiki_v32_en.xml#article321007"
-      n="32.7" subtype="項" type="条" xml:id="article321007">
+      n="32.7" type="条" xml:id="article321007">
       <head ana="皇后宮新嘗祭"/>
       <note type="summary"> 皇后宮の新嘗祭の小斎に支給する食材 </note>
       <p ana="項" corresp="engishiki_v32.xml#item32100701 engishiki_v32_en.xml#item32100701"
@@ -885,7 +885,7 @@
        </ruby> のアワビ四両、魚の細割きの干物五両、ワカメ一一両。 <lb/> 六位以下は一人あたりに、醤五夕、塩一合二夕、東アワビ二両三分、サバ三両二分、ワカメ一一両。 </p>
      </div>
      <div ana="大膳上" corresp="engishiki_v32.xml#article321008 engishiki_v32_en.xml#article321008"
-      n="32.8" subtype="項" type="条" xml:id="article321008">
+      n="32.8" type="条" xml:id="article321008">
       <head ana="宴会雑給"/>
       <note type="summary"> 豊明節会等の節会の宴会で親王以下に支給する食材・物品 </note>
       <p ana="項" corresp="engishiki_v32.xml#item32100801 engishiki_v32_en.xml#item32100801"
@@ -1022,7 +1022,7 @@
       </p>
      </div>
      <div ana="大膳上" corresp="engishiki_v32.xml#article321009 engishiki_v32_en.xml#article321009"
-      n="32.9" subtype="項" type="条" xml:id="article321009">
+      n="32.9" type="条" xml:id="article321009">
       <head ana="園韓神雑給料"/>
       <note type="summary"> 園・韓神祭で官人に支給する食材・物品 </note>
       <p ana="項" corresp="engishiki_v32.xml#item32100901 engishiki_v32_en.xml#item32100901"
@@ -1143,7 +1143,7 @@
        </ruby> は一人あたり二丈一尺。 </p>
      </div>
      <div ana="大膳上" corresp="engishiki_v32.xml#article321010 engishiki_v32_en.xml#article321010"
-      n="32.10" subtype="項" type="条" xml:id="article321010">
+      n="32.10" type="条" xml:id="article321010">
       <head ana="平野雑給料"/>
       <note type="summary"> 平野の夏の祭で官人に支給する食材・物品と労働力 </note>
       <p ana="項" corresp="engishiki_v32.xml#item32101001 engishiki_v32_en.xml#item32101001"
@@ -1244,7 +1244,7 @@
        </ruby> に用いる商布は一人あたり九尺〈冬は八人分を加える〉、労役に従事する雇用人延べ五〇人に支給する玄米は一人あたり一日に二升、塩二夕、賃金〈その時々の適正額に随う〉。 </p>
      </div>
      <div ana="大膳上" corresp="engishiki_v32.xml#article321011 engishiki_v32_en.xml#article321011"
-      n="32.11" subtype="項" type="条" xml:id="article321011">
+      n="32.11" type="条" xml:id="article321011">
       <head ana="斎院給食料"/>
       <note type="summary"> 賀茂祭で斎院に近侍する官人に支給する食材・物品と労働力 </note>
       <p ana="項" corresp="engishiki_v32.xml#item32101101 engishiki_v32_en.xml#item32101101"
@@ -1310,7 +1310,7 @@
        </ruby> が動員する〉、玄米一斗八升〈雑務従事者の食事用〉。 </p>
      </div>
      <div ana="大膳上" corresp="engishiki_v32.xml#article321012 engishiki_v32_en.xml#article321012"
-      n="32.12" subtype="項" type="条" xml:id="article321012">
+      n="32.12" type="条" xml:id="article321012">
       <head ana="斎院別当以下"/>
       <note type="summary"> 賀茂祭で斎院司別当以下の四人に支給する食材・物品と労働力 </note>
       <p ana="項" corresp="engishiki_v32.xml#item32101201 engishiki_v32_en.xml#item32101201"
@@ -1362,7 +1362,7 @@
        </ruby> が動員する〉、玄米四升八合、塩四夕八撮、醤の絞り滓四合〈すべて雑務従事者の食事用〉。 </p>
      </div>
      <div ana="大膳上" corresp="engishiki_v32.xml#article321013 engishiki_v32_en.xml#article321013"
-      n="32.13" subtype="項" type="条" xml:id="article321013">
+      n="32.13" type="条" xml:id="article321013">
       <head ana="春日雑給料"/>
       <note type="summary"> 春日祭で官人に支給する食材・物品 </note>
       <p ana="項" corresp="engishiki_v32.xml#item32101301 engishiki_v32_en.xml#item32101301"
@@ -1456,7 +1456,7 @@
        </ruby> 六段。 </p>
      </div>
      <div ana="大膳上" corresp="engishiki_v32.xml#article321014 engishiki_v32_en.xml#article321014"
-      n="32.14" subtype="項" type="条" xml:id="article321014">
+      n="32.14" type="条" xml:id="article321014">
       <head ana="大原野雑給料"/>
       <note type="summary"> 大原野祭で官人に支給する食材・物品 </note>
       <p ana="項" corresp="engishiki_v32.xml#item32101401 engishiki_v32_en.xml#item32101401"
@@ -1487,7 +1487,7 @@
       </p>
      </div>
      <div ana="大膳上" corresp="engishiki_v32.xml#article321015 engishiki_v32_en.xml#article321015"
-      n="32.15" subtype="項" type="条" xml:id="article321015">
+      n="32.15" type="条" xml:id="article321015">
       <head ana="松尾雑給料"/>
       <note type="summary"> 松尾祭で官人に支給する物品・食材 </note>
       <p ana="項" corresp="engishiki_v32.xml#item32101501 engishiki_v32_en.xml#item32101501"
@@ -1577,7 +1577,7 @@
        </ruby> 四三合、カシワ葉で包んだご飯一二〇口、および臨時支給の特別食に用いる〉。 </p>
      </div>
      <div ana="大膳上" corresp="engishiki_v32.xml#article321016 engishiki_v32_en.xml#article321016"
-      n="32.16" subtype="項" type="条" xml:id="article321016">
+      n="32.16" type="条" xml:id="article321016">
       <head ana="釈奠料"/>
       <note type="summary"> 釈奠の供物 </note>
       <p ana="項" corresp="engishiki_v32.xml#item32101601 engishiki_v32_en.xml#item32101601"
@@ -1615,7 +1615,7 @@
        </ruby> 三升、大鹿・豚・小鹿の三牲の肉それぞれ一頭、鹿一斗五升〈味のついていない熱い肉の汁物の材料〉、鹿一斗〈塩辛の材料〉。 </p>
      </div>
      <div ana="大膳上" corresp="engishiki_v32.xml#article321017 engishiki_v32_en.xml#article321017"
-      n="32.17" subtype="項" type="条" xml:id="article321017">
+      n="32.17" type="条" xml:id="article321017">
       <head ana="釈奠別供料"/>
       <note type="summary"> 釈奠の供物とは別にお供えする食品・物品 </note>
       <p ana="項" corresp="engishiki_v32.xml#item32101701 engishiki_v32_en.xml#item32101701"
@@ -1657,7 +1657,7 @@
        </ruby> 六斤、コウゾの紐二斤八両。 </p>
      </div>
      <div ana="大膳上" corresp="engishiki_v32.xml#article321018 engishiki_v32_en.xml#article321018"
-      n="32.18" subtype="項" type="条" xml:id="article321018">
+      n="32.18" type="条" xml:id="article321018">
       <head ana="釈奠雑給料"/>
       <note type="summary"> 釈奠に奉斎する官人のための食品・物品 </note>
       <p ana="項" corresp="engishiki_v32.xml#item32101801 engishiki_v32_en.xml#item32101801"
@@ -1702,7 +1702,7 @@
       </p>
      </div>
      <div ana="大膳上" corresp="engishiki_v32.xml#article321019 engishiki_v32_en.xml#article321019"
-      n="32.19" subtype="項" type="条" xml:id="article321019">
+      n="32.19" type="条" xml:id="article321019">
       <head ana="六衛府輪転"/>
       <note type="summary"> 六衛府が順番に釈奠の供物のウサギを貢進する規定 </note>
       <p ana="項" corresp="engishiki_v32.xml#item32101901 engishiki_v32_en.xml#item32101901"
