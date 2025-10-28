@@ -177,18 +177,47 @@
    </tagsDecl>
    <editorialDecl>
     <p/>
-    <p ana="個別"/>
+    <p ana="個別"> 内膳式英訳凡例 <table>
+      <row>
+       <cell> ・ </cell>
+       <cell>
+        原文として『国立歴史民俗博物館研究報告』に掲載される土御門本を底本とする校訂文（小川宏和「『延喜式』巻三九の写本系統と「内膳司」本文校訂（稿）」『国立歴史民俗博物館研究報告』234、2022年）を用いている。条文番号・条文名は上記校訂文で用いられている虎尾俊哉編『訳注日本史料　延喜式』下（集英社、2017年）に従い、長文となる条文については、校訂文にあわせて便宜的に1、2、などと小見出しを付している。各条冒頭には、条文内容の把握の一助として条文概要を付している。
+       </cell>
+      </row>
+      <row>
+       <cell> ・ </cell>
+       <cell> 英語圏における標準的な表示形式に従い、原文の注釈とローマ字は（　）、割書は〈　〉、翻訳者の注は [　] 内に入る。長い条文には字間を設けた。 </cell>
+      </row>
+      <row>
+       <cell> ・ </cell>
+       <cell> 『延喜式』に記載された重量や寸法の算出には不明な点が多いため、本文中の度量衡は現代の寸法に換算していない。 </cell>
+      </row>
+     </table>
+    </p>
    </editorialDecl>
   </encodingDesc>
   <revisionDesc ana="個別">
-   <listChange>
+   <listChange ana="正親">
     <change/>
+   </listChange>
+   <listChange ana="内膳" xml:id="英訳">
+    <change when="2025-02-21">
+     <date> 2025年2月21日 </date> 巻39内膳（The Royal Meal Protocols）第19供御月料条（[Monthly Provisions for
+     Offerings to the Royal Table]）第3項において、「infusion bonito and salted sea cucumber innards, 4 <seg
+      rend="italic"> kin </seg> 5 <seg rend="italic"> gō </seg> of each」の「4 <seg rend="italic"> kin
+     </seg> 5 <seg rend="italic"> gō </seg> 」を、「4 <seg rend="italic"> shō </seg> 5 <seg
+      rend="italic"> gō </seg> 」に修正しました。 </change>
+    <change when="2025-02-21">
+     <date> 2025年2月21日 </date> 巻39内膳（The Royal Meal Protocols）第34漬年料雑菜条（ [The Various Produce
+     Pickled Annually]）第1項において、 「ground wild ginger flowers, 3 <seg rend="italic"> to </seg>
+     〈requires salt, 3 <seg rend="italic"> to </seg> 〉」の「〈requires salt, 3 <seg rend="italic"> to
+     </seg> 〉」を「〈requires salt, 3 <seg rend="italic"> shō </seg> 〉」に修正しました。 </change>
    </listChange>
   </revisionDesc>
  </teiHeader>
  <text>
   <body>
-   <div ana="内膳・正親" n="39" type="巻" xml:id="volume39">
+   <div ana="正親・内膳" n="39" type="巻" xml:id="volume39">
     <div type="首題" xml:id="shudai39">
      <p xml:id="shudai3901">
       <seg rend="italic"> Engi shiki </seg> , scroll39 〈Royal Family Register Office・Royal Meal
