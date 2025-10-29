@@ -68,14 +68,14 @@ shiki_order = metadata[0]['式順']
 
 ### メインの処理 ###
 # 最上位のdivタグから生成
-t_div_maki = soup.new_tag('div', **{"ana":f"{shiki_name}", "xml:id":f"volume{shiki_no}", "n":f"{shiki_no}", "type":"巻", "subtype":"式"})
+t_div_maki = soup.new_tag('div', **{"ana":f"{shiki_name}", "xml:id":f"volume{shiki_no}", "n":f"{shiki_no}", "type":"巻"})
 t_body.append(t_div_maki)
 
 # 5つのdivタグ（首題・式・式題・尾題・本奥書）をその子要素に。それぞれ変数名で区別できるように
 shiki_order_id = f"{shiki_no.zfill(2)}{shiki_order}"
 t_div_shudai = soup.new_tag('div', **{"type":"首題", "xml:id":f"shudai{shiki_no.zfill(2)}"})
 protocol_id = f'protocol{shiki_order_id}'
-t_div_shiki = soup.new_tag('div', **{"ana":f"{shiki_name}", "xml:id":f"{protocol_id}", "n":f"{shiki_no}", "type":"式", "subtype":"条", "corresp":f"{corresp_list[0]}#{protocol_id} {corresp_list[1]}#{protocol_id}"})
+t_div_shiki = soup.new_tag('div', **{"ana":f"{shiki_name}", "xml:id":f"{protocol_id}", "n":f"{shiki_no}", "type":"式", "corresp":f"{corresp_list[0]}#{protocol_id} {corresp_list[1]}#{protocol_id}"})
 t_div_shikidai = soup.new_tag('div', **{"type":"式題", "xml:id":f"shikidai{shiki_order_id}"})
 t_div_bidai = soup.new_tag('div', **{"type":"尾題", "xml:id":f"bidai{shiki_no.zfill(2)}"})
 t_div_okugaki = soup.new_tag('div', **{"type":"本奥書", "xml:id":f"okugaki{shiki_no.zfill(2)}"})
@@ -107,7 +107,7 @@ t_div_okugaki.p.string = '本奥書'
 # 条数分だけdivタグを生成する必要があるので、上記で定義した巻のmetadataのリストをすべてforループ
 for data in metadata:
     article_id = f'article{protocol_id[-3:]}{data["条"].zfill(3)}'
-    t_div_shiki.append(soup.new_tag('div', **{"ana":f"{shiki_name}", "xml:id":f"{article_id}", "n":f"{shiki_no}.{data['条']}", "type":"条", "subtype":"項", "corresp":f"{corresp_list[0]}#{article_id} {corresp_list[1]}#{article_id}"}))
+    t_div_shiki.append(soup.new_tag('div', **{"ana":f"{shiki_name}", "xml:id":f"{article_id}", "n":f"{shiki_no}.{data['条']}", "type":"条", "corresp":f"{corresp_list[0]}#{article_id} {corresp_list[1]}#{article_id}"}))
     # ポイントは、ここで末尾のdivを指定しないといけないこと。以下、同様
     t_div_shiki.select('div')[-1].append(soup.new_tag('head', ana=f'{data["新条文名"]}'))
     if lang_choice != "":

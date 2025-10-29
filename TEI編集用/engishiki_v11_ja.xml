@@ -251,15 +251,17 @@
  </teiHeader>
  <text>
   <body>
-   <div ana="太政官" n="11" subtype="式" type="巻">
+   <div ana="太政官" n="11" type="巻" xml:id="volume11">
     <div type="首題" xml:id="shudai11">
      <p xml:id="shudai1101"> 延喜式巻第十一 </p>
     </div>
-    <div ana="太政官" n="11" subtype="条" type="式">
+    <div ana="太政官" n="11" type="式" xml:id="protocol111"
+     corresp="engishiki_v11.xml#protocol111 engishiki_v11_en.xml#protocol111">
      <div type="式題" xml:id="shikidai111">
       <p xml:id="shikidai11101"> 太政官 </p>
      </div>
-     <div ana="太政官" n="11.1" subtype="項" type="条">
+     <div ana="太政官" n="11.1" type="条" xml:id="article111001"
+      corresp="engishiki_v11.xml#article111001 engishiki_v11_en.xml#article111001">
       <head ana="庶務"/>
       <note type="summary"> 中央諸官司・諸国の上申文書を弁官が太政官に報告する規定 </note>
       <p ana="項" corresp="engishiki_v11.xml#item11100101 engishiki_v11_en.xml#item11100101"
@@ -287,7 +289,8 @@
         <rt place="right"> い </rt>
        </ruby> の日、月の五行と日の五行が重なる日もまた凶事の文書を読み上げてはならない。 </p>
      </div>
-     <div ana="太政官" n="11.2" subtype="項" type="条">
+     <div ana="太政官" n="11.2" type="条" xml:id="article111002"
+      corresp="engishiki_v11.xml#article111002 engishiki_v11_en.xml#article111002">
       <head ana="庶務申官"/>
       <note type="summary"> 政務案件の上申手続きに関する規定 </note>
       <p ana="項" corresp="engishiki_v11.xml#item11100201 engishiki_v11_en.xml#item11100201"
@@ -308,7 +311,8 @@
        は、弁官を経由せずに直接太政官に申告せよ。中務省が衣替え手当ての数量等を申告する場合や、式部省が親王家の家庭教師や親王・官人家の家政機関職員、および辺境官人の護衛官を任命したり、諸国
        に派遣する使者を選定する場合も、同様に太政官に直接申告せよ。 </p>
      </div>
-     <div ana="太政官" n="11.3" subtype="項" type="条">
+     <div ana="太政官" n="11.3" type="条" xml:id="article111003"
+      corresp="engishiki_v11.xml#article111003 engishiki_v11_en.xml#article111003">
       <head ana="申政"/>
       <note type="summary"> 中央諸官司が弁官を経由せずに直接太政官に政務案件を報告する際の規定 </note>
       <p ana="項" corresp="engishiki_v11.xml#item11100301 engishiki_v11_en.xml#item11100301"
@@ -320,7 +324,8 @@
         <rt place="right"> げき </rt>
        </ruby> に通知せよ。 </p>
      </div>
-     <div ana="太政官" n="11.4" subtype="項" type="条">
+     <div ana="太政官" n="11.4" type="条" xml:id="article111004"
+      corresp="engishiki_v11.xml#article111004 engishiki_v11_en.xml#article111004">
       <head ana="時刻"/>
       <note type="summary"> 弁官が太政官に政務案件を報告する際の時刻に関する規定 </note>
       <p ana="項" corresp="engishiki_v11.xml#item11100401 engishiki_v11_en.xml#item11100401"
@@ -335,7 +340,8 @@
         <rt place="right"> み </rt>
        </ruby> 二刻、二月・八月は巳一刻とせよ。 </p>
      </div>
-     <div ana="太政官" n="11.5" subtype="項" type="条">
+     <div ana="太政官" n="11.5" type="条" xml:id="article111005"
+      corresp="engishiki_v11.xml#article111005 engishiki_v11_en.xml#article111005">
       <head ana="朝堂政"/>
       <note type="summary"> 季節ごとの政務の場所に関する規定 </note>
       <p ana="項" corresp="engishiki_v11.xml#item11100501 engishiki_v11_en.xml#item11100501"
@@ -344,7 +350,8 @@
         <rt place="right"> ちょうどういん </rt>
        </ruby> 内の政庁で行え。ただし三月・十月は十一日と二十一日のみ政庁で執務し、それ以外の日と正月・二月・十一月・十二月はそれぞれの官庁で政務を行え。 </p>
      </div>
-     <div ana="太政官" n="11.6" subtype="項" type="条">
+     <div ana="太政官" n="11.6" type="条" xml:id="article111006"
+      corresp="engishiki_v11.xml#article111006 engishiki_v11_en.xml#article111006">
       <head ana="諸司諸国申政"/>
       <note type="summary"> 上申された政務案件の決裁に用いる言葉に関する規定 </note>
       <p ana="項" corresp="engishiki_v11.xml#item11100601 engishiki_v11_en.xml#item11100601"
@@ -356,7 +363,8 @@
         <rt place="right"> べん </rt>
        </ruby> は口頭で処分を通達せよ。その後ただちに史は、文書を上申した中央諸官司・諸国の官人に対して「よし」と言い渡せ。 </p>
      </div>
-     <div ana="太政官" n="11.7" subtype="項" type="条">
+     <div ana="太政官" n="11.7" type="条" xml:id="article111007"
+      corresp="engishiki_v11.xml#article111007 engishiki_v11_en.xml#article111007">
       <head ana="受事"/>
       <note type="summary"> 弁官が管轄でない文書を受理した場合の規定 </note>
       <p ana="項" corresp="engishiki_v11.xml#item11100701 engishiki_v11_en.xml#item11100701"
@@ -369,7 +377,8 @@
         <rt place="right"> べん </rt>
        </ruby> がその業務を実行せよ。 </p>
      </div>
-     <div ana="太政官" n="11.8" subtype="項" type="条">
+     <div ana="太政官" n="11.8" type="条" xml:id="article111008"
+      corresp="engishiki_v11.xml#article111008 engishiki_v11_en.xml#article111008">
       <head ana="弁官牒式"/>
       <note type="summary"> 弁官局から少納言局へ文書を送る規定とその書式 </note>
       <p ana="項" corresp="engishiki_v11.xml#item11100801 engishiki_v11_en.xml#item11100801"
@@ -452,7 +461,8 @@
         </ruby> 「位・姓・名」 </s>
       </p>
      </div>
-     <div ana="太政官" n="11.9" subtype="項" type="条">
+     <div ana="太政官" n="11.9" type="条" xml:id="article111009"
+      corresp="engishiki_v11.xml#article111009 engishiki_v11_en.xml#article111009">
       <head ana="少納言牒式"/>
       <note type="summary"> 少納言局から弁官局へ送る文書の書式（前条の続き） </note>
       <p ana="項" corresp="engishiki_v11.xml#item11100901 engishiki_v11_en.xml#item11100901"
@@ -526,7 +536,8 @@
         </ruby> 「位・姓・名」が文書を送付します。 <lb/> 少納言「位・姓・名」 </s>
       </p>
      </div>
-     <div ana="太政官" n="11.10" subtype="項" type="条">
+     <div ana="太政官" n="11.10" type="条" xml:id="article111010"
+      corresp="engishiki_v11.xml#article111010 engishiki_v11_en.xml#article111010">
       <head ana="任僧綱"/>
       <note type="summary"> 僧官を任命する規定および辞令の書式 </note>
       <p ana="項" corresp="engishiki_v11.xml#item11101001 engishiki_v11_en.xml#item11101001"
@@ -572,7 +583,8 @@
         </ruby> 「位・姓・名」が文書を送付します。 <lb/> 大納言「位・姓」 </s>
       </p>
      </div>
-     <div ana="太政官" n="11.11" subtype="項" type="条">
+     <div ana="太政官" n="11.11" type="条" xml:id="article111011"
+      corresp="engishiki_v11.xml#article111011 engishiki_v11_en.xml#article111011">
       <head ana="内外印"/>
       <note type="summary"> 案件による印の区別 </note>
       <p ana="項" corresp="engishiki_v11.xml#item11101101 engishiki_v11_en.xml#item11101101"
@@ -616,13 +628,15 @@
         <rt place="right"> うねめ </rt>
        </ruby> に関する文書は、みな天皇御璽を請求する。〉。 </p>
      </div>
-     <div ana="太政官" n="11.12" subtype="項" type="条">
+     <div ana="太政官" n="11.12" type="条" xml:id="article111012"
+      corresp="engishiki_v11.xml#article111012 engishiki_v11_en.xml#article111012">
       <head ana="請印文"/>
       <note type="summary"> 押印を請求する文書の合計紙数が多い場合の規定 </note>
       <p ana="項" corresp="engishiki_v11.xml#item11101201 engishiki_v11_en.xml#item11101201"
        xml:id="item11101201"> 少納言が奏上する、押印を請求する文書は、計五〇紙を超える場合は、通常の手続きを経ず内々に奏上せよ。 </p>
      </div>
-     <div ana="太政官" n="11.13" subtype="項" type="条">
+     <div ana="太政官" n="11.13" type="条" xml:id="article111013"
+      corresp="engishiki_v11.xml#article111013 engishiki_v11_en.xml#article111013">
       <head ana="請内印文"/>
       <note type="summary"> 天皇御璽の押印を要する文書を二通作成する規定 </note>
       <p ana="項" corresp="engishiki_v11.xml#item11101301 engishiki_v11_en.xml#item11101301"
@@ -632,7 +646,8 @@
         <rt place="right"> てんのうぎょじ </rt>
        </ruby> の押印を要する文書は二通作成せよ。一通は奏上して内裏に保管し、一通は押印して施行せよ。 </p>
      </div>
-     <div ana="太政官" n="11.14" subtype="項" type="条">
+     <div ana="太政官" n="11.14" type="条" xml:id="article111014"
+      corresp="engishiki_v11.xml#article111014 engishiki_v11_en.xml#article111014">
       <head ana="外記検察"/>
       <note type="summary"> 押印文書の外記による検察に関する規定 </note>
       <p ana="項" corresp="engishiki_v11.xml#item11101401 engishiki_v11_en.xml#item11101401"
@@ -641,7 +656,8 @@
         <rt place="right"> げき </rt>
        </ruby> が詳細に検査し、翌日押印せよ。 </p>
      </div>
-     <div ana="太政官" n="11.15" subtype="項" type="条">
+     <div ana="太政官" n="11.15" type="条" xml:id="article111015"
+      corresp="engishiki_v11.xml#article111015 engishiki_v11_en.xml#article111015">
       <head ana="省符"/>
       <note type="summary"> 租税の免除に関する文書の作成手続きの規定 </note>
       <p ana="項" corresp="engishiki_v11.xml#item11101501 engishiki_v11_en.xml#item11101501"
@@ -653,13 +669,15 @@
         <rt place="right"> みんぶしょう </rt>
        </ruby> に文書によって通達せよ。民部省は免除の対象となる国宛ての文書を作成して押印を請求せよ。この過程を経ずに国に文書を下達してはならない。 </p>
      </div>
-     <div ana="太政官" n="11.16" subtype="項" type="条">
+     <div ana="太政官" n="11.16" type="条" xml:id="article111016"
+      corresp="engishiki_v11.xml#article111016 engishiki_v11_en.xml#article111016">
       <head ana="免除"/>
       <note type="summary"> 租税等の免除に天皇の許可を必要とする規定 </note>
       <p ana="項" corresp="engishiki_v11.xml#item11101601 engishiki_v11_en.xml#item11101601"
        xml:id="item11101601"> 中央諸官司および諸国が申請する租税等の免除については、天皇の許可を得なければ実施してはならない。 </p>
      </div>
-     <div ana="太政官" n="11.17" subtype="項" type="条">
+     <div ana="太政官" n="11.17" type="条" xml:id="article111017"
+      corresp="engishiki_v11.xml#article111017 engishiki_v11_en.xml#article111017">
       <head ana="新任国司食伝"/>
       <note type="summary"> 新任国司の赴任に関する規定 </note>
       <p ana="項" corresp="engishiki_v11.xml#item11101701 engishiki_v11_en.xml#item11101701"
@@ -737,7 +755,8 @@
         <rt place="right"> どくし </rt>
        </ruby> の赴任時の待遇も以上に準じるが、伝符は与えない〉。 </p>
      </div>
-     <div ana="太政官" n="11.18" subtype="項" type="条">
+     <div ana="太政官" n="11.18" type="条" xml:id="article111018"
+      corresp="engishiki_v11.xml#article111018 engishiki_v11_en.xml#article111018">
       <head ana="神宮司"/>
       <note type="summary"> 香取神宮司の任官を通達する文書に食料と馬の支給を注記する規定 </note>
       <p ana="項" corresp="engishiki_v11.xml#item11101801 engishiki_v11_en.xml#item11101801"
@@ -750,7 +769,8 @@
         <rt place="right"> でんぷ </rt>
        </ruby> を支給することはしない。その他の神宮司の赴任で食料と馬を支給する方式もこれに準じることとせよ。 </p>
      </div>
-     <div ana="太政官" n="11.19" subtype="項" type="条">
+     <div ana="太政官" n="11.19" type="条" xml:id="article111019"
+      corresp="engishiki_v11.xml#article111019 engishiki_v11_en.xml#article111019">
       <head ana="籤符"/>
       <note type="summary"> 同一官司内の昇任時の文書作成に関する規定 </note>
       <p ana="項" corresp="engishiki_v11.xml#item11101901 engishiki_v11_en.xml#item11101901"
@@ -781,7 +801,8 @@
         <rt place="right"> ぐんりょう </rt>
        </ruby> もこれに準じる〉。 </p>
      </div>
-     <div ana="太政官" n="11.20" subtype="項" type="条">
+     <div ana="太政官" n="11.20" type="条" xml:id="article111020"
+      corresp="engishiki_v11.xml#article111020 engishiki_v11_en.xml#article111020">
       <head ana="二員秩満"/>
       <note type="summary"> 二人の国司が同時に交替する場合の規定 </note>
       <p ana="項" corresp="engishiki_v11.xml#item11102001 engishiki_v11_en.xml#item11102001"
@@ -799,7 +820,8 @@
         <rt place="right"> ちんじゅふ </rt>
        </ruby> もこれに準じることとせよ。 </p>
      </div>
-     <div ana="太政官" n="11.21" subtype="項" type="条">
+     <div ana="太政官" n="11.21" type="条" xml:id="article111021"
+      corresp="engishiki_v11.xml#article111021 engishiki_v11_en.xml#article111021">
       <head ana="京官遷畿内"/>
       <note type="summary"> 中央官司から畿内諸国に異動する場合の規定 </note>
       <p ana="項" corresp="engishiki_v11.xml#item11102101 engishiki_v11_en.xml#item11102101"
@@ -814,7 +836,8 @@
         <rt place="right"> たんば </rt>
        </ruby> もこれに準じる〉。 </p>
      </div>
-     <div ana="太政官" n="11.22" subtype="項" type="条">
+     <div ana="太政官" n="11.22" type="条" xml:id="article111022"
+      corresp="engishiki_v11.xml#article111022 engishiki_v11_en.xml#article111022">
       <head ana="遷任"/>
       <note type="summary"> 国司等が他国に異動する際の交替事務完了証明書の提出に関する規定 </note>
       <p ana="項" corresp="engishiki_v11.xml#item11102201 engishiki_v11_en.xml#item11102201"
@@ -822,7 +845,8 @@
        諸国が運用する給与財源の配分にあずかる官人が他の国に異動になる場合、異動前の国での引き継ぎが完了していなくとも、そのまま任地に派遣せよ。もし期限を過ぎても交替事務完了証明書を提出しなければ、担当官司は解任すべき旨の文書を提出せよ。ただし最高責任者は引き継ぎが完了してから交替完了証明書を提出し、その後に任官を通達する文書を与えて赴任を許可せよ。
       </p>
      </div>
-     <div ana="太政官" n="11.23" subtype="項" type="条">
+     <div ana="太政官" n="11.23" type="条" xml:id="article111023"
+      corresp="engishiki_v11.xml#article111023 engishiki_v11_en.xml#article111023">
       <head ana="遙授兼任"/>
       <note type="summary"> 国司の異動手続きを早急に処理すべき規定 </note>
       <p ana="項" corresp="engishiki_v11.xml#item11102301 engishiki_v11_en.xml#item11102301"
@@ -831,7 +855,8 @@
         <rt place="right"> だいじょうかん </rt>
        </ruby> が文書を下達し、異動前の国司の任を解け。 </p>
      </div>
-     <div ana="太政官" n="11.24" subtype="項" type="条">
+     <div ana="太政官" n="11.24" type="条" xml:id="article111024"
+      corresp="engishiki_v11.xml#article111024 engishiki_v11_en.xml#article111024">
       <head ana="権一分相譲"/>
       <note type="summary"> 下級国司の交替の際に任官通達文書に残りの任期を記す規定 </note>
       <p ana="項" corresp="engishiki_v11.xml#item11102401 engishiki_v11_en.xml#item11102401"
@@ -846,7 +871,8 @@
         <rt place="right"> くすし </rt>
        </ruby> で、任期の途中に異動したり、他人から官職を譲りうけて交替する場合は、任官を通達する文書に残りの任期を記せ。 </p>
      </div>
-     <div ana="太政官" n="11.25" subtype="項" type="条">
+     <div ana="太政官" n="11.25" type="条" xml:id="article111025"
+      corresp="engishiki_v11.xml#article111025 engishiki_v11_en.xml#article111025">
       <head ana="受業解文"/>
       <note type="summary"> 諸国の博士・医師の任官関連文書に関する規定 </note>
       <p ana="項" corresp="engishiki_v11.xml#item11102501 engishiki_v11_en.xml#item11102501"
@@ -861,7 +887,8 @@
         <rt place="right"> しきぶしょう </rt>
        </ruby> の提出文書および任官通達文書には、名前の下にそれぞれの専攻科目を記せ。 </p>
      </div>
-     <div ana="太政官" n="11.26" subtype="項" type="条">
+     <div ana="太政官" n="11.26" type="条" xml:id="article111026"
+      corresp="engishiki_v11.xml#article111026 engishiki_v11_en.xml#article111026">
       <head ana="籤符印"/>
       <note type="summary"> 下級国司の任官通達文書の押印に関する規定 </note>
       <p ana="項" corresp="engishiki_v11.xml#item11102601 engishiki_v11_en.xml#item11102601"
@@ -879,7 +906,8 @@
         <rt place="right"> げき </rt>
        </ruby> が官人名簿と照合して明確に任命の事実を確認し、その上で押印を請求せよ。 </p>
      </div>
-     <div ana="太政官" n="11.27" subtype="項" type="条">
+     <div ana="太政官" n="11.27" type="条" xml:id="article111027"
+      corresp="engishiki_v11.xml#article111027 engishiki_v11_en.xml#article111027">
       <head ana="改印"/>
       <note type="summary"> 天皇御璽を押した文書を訂正する場合の規定 </note>
       <p ana="項" corresp="engishiki_v11.xml#item11102701 engishiki_v11_en.xml#item11102701"
@@ -889,7 +917,8 @@
         <rt place="right"> てんのうぎょじ </rt>
        </ruby> を押印した公文書に、もし誤脱があり改訂しなければならない場合は、少納言は上司に報告してから再度の押印の請求を天皇に奏上せよ。 </p>
      </div>
-     <div ana="太政官" n="11.28" subtype="項" type="条">
+     <div ana="太政官" n="11.28" type="条" xml:id="article111028"
+      corresp="engishiki_v11.xml#article111028 engishiki_v11_en.xml#article111028">
       <head ana="毀内印"/>
       <note type="summary"> 天皇御璽ないし太政官印を押印した太政官発給の通達書を破棄する場合の規定 </note>
       <p ana="項" corresp="engishiki_v11.xml#item11102801 engishiki_v11_en.xml#item11102801"
@@ -905,7 +934,8 @@
         <rt place="right"> だいじょうかんいん </rt>
        </ruby> を押印した太政官発給の通達書を破棄する場合も同様にする〉。 </p>
      </div>
-     <div ana="太政官" n="11.29" subtype="項" type="条">
+     <div ana="太政官" n="11.29" type="条" xml:id="article111029"
+      corresp="engishiki_v11.xml#article111029 engishiki_v11_en.xml#article111029">
       <head ana="改造印"/>
       <note type="summary"> 諸官司・諸国の印を改鋳する際の手続きに関する規定 </note>
       <p ana="項" corresp="engishiki_v11.xml#item11102901 engishiki_v11_en.xml#item11102901"
@@ -936,7 +966,8 @@
         <rt place="right"> すけ </rt>
        </ruby> 以上が監督して鋳造させ、完成したら天皇に進上し、弁官を介して印を用いる官司に支給せよ。 </p>
      </div>
-     <div ana="太政官" n="11.30" subtype="項" type="条">
+     <div ana="太政官" n="11.30" type="条" xml:id="article111030"
+      corresp="engishiki_v11.xml#article111030 engishiki_v11_en.xml#article111030">
       <head ana="上日"/>
       <note type="summary"> 参議以上および太政官職員の出勤日数等の報告手続きに関する規定 </note>
       <p ana="項" corresp="engishiki_v11.xml#item11103001 engishiki_v11_en.xml#item11103001"
@@ -952,7 +983,8 @@
         <rt place="right"> なかつかさしょう </rt>
        </ruby> に門の通行を許可した者の名簿や衣替え手当てに関する文書を通達する際の手続きもこれに準じることとせよ。 </p>
      </div>
-     <div ana="太政官" n="11.31" subtype="項" type="条">
+     <div ana="太政官" n="11.31" type="条" xml:id="article111031"
+      corresp="engishiki_v11.xml#article111031 engishiki_v11_en.xml#article111031">
       <head ana="史生解由"/>
       <note type="summary"> 太政官の官人の交替手続きに関する規定 </note>
       <p ana="項" corresp="engishiki_v11.xml#item11103101 engishiki_v11_en.xml#item11103101"
@@ -967,7 +999,8 @@
         <rt place="right"> しきぶしょう </rt>
        </ruby> に通達する文書を作成させよ。左右弁官局の史生以上もこれに準じることとせよ。ただし公卿はこの限りではない。 </p>
      </div>
-     <div ana="太政官" n="11.32" subtype="項" type="条">
+     <div ana="太政官" n="11.32" type="条" xml:id="article111032"
+      corresp="engishiki_v11.xml#article111032 engishiki_v11_en.xml#article111032">
       <head ana="解由程限"/>
       <note type="summary"> 官人の引き継ぎ文書の提出部数と提出期限に関する規定 </note>
       <p ana="項" corresp="engishiki_v11.xml#item11103201 engishiki_v11_en.xml#item11103201"
@@ -989,7 +1022,8 @@
         <rt place="right"> べっとう </rt>
        </ruby> ・僧官の交替完了証明書もこれに準拠する〉。 </p>
      </div>
-     <div ana="太政官" n="11.33" subtype="項" type="条">
+     <div ana="太政官" n="11.33" type="条" xml:id="article111033"
+      corresp="engishiki_v11.xml#article111033 engishiki_v11_en.xml#article111033">
       <head ana="押署"/>
       <note type="summary"> 下級官司の引き継ぎ文書に上級官司が署名する規定 </note>
       <p ana="項" corresp="engishiki_v11.xml#item11103301 engishiki_v11_en.xml#item11103301"
@@ -1010,7 +1044,8 @@
         <rt place="right"> どくし </rt>
        </ruby> もこれに準拠する〉。 </p>
      </div>
-     <div ana="太政官" n="11.34" subtype="項" type="条">
+     <div ana="太政官" n="11.34" type="条" xml:id="article111034"
+      corresp="engishiki_v11.xml#article111034 engishiki_v11_en.xml#article111034">
       <head ana="雑米未進"/>
       <note type="summary"> 諸国の進納米に未納がある場合の交替完了証明書の扱いに関する規定 </note>
       <p ana="項" corresp="engishiki_v11.xml#item11103401 engishiki_v11_en.xml#item11103401"
@@ -1022,7 +1057,8 @@
         <rt place="right"> かげゆし </rt>
        </ruby> に転送させよ。 </p>
      </div>
-     <div ana="太政官" n="11.35" subtype="項" type="条">
+     <div ana="太政官" n="11.35" type="条" xml:id="article111035"
+      corresp="engishiki_v11.xml#article111035 engishiki_v11_en.xml#article111035">
       <head ana="交替延期"/>
       <note type="summary"> 官人の引き継ぎ事務の延期を申請する場合の規定 </note>
       <p ana="項" corresp="engishiki_v11.xml#item11103501 engishiki_v11_en.xml#item11103501"
@@ -1034,14 +1070,16 @@
         <rt place="right"> ひょうぶしょう </rt>
        </ruby> に転送する〉。一度だけ延期を許可し、再度の延期申請は認めない。 </p>
      </div>
-     <div ana="太政官" n="11.36" subtype="項" type="条">
+     <div ana="太政官" n="11.36" type="条" xml:id="article111036"
+      corresp="engishiki_v11.xml#article111036 engishiki_v11_en.xml#article111036">
       <head ana="還替"/>
       <note type="summary"> 引き継ぎ期限の延長による給与支給の方法に関する規定 </note>
       <p ana="項" corresp="engishiki_v11.xml#item11103601 engishiki_v11_en.xml#item11103601"
        xml:id="item11103601">
        官職を異動する四位・五位の者が交替の延期を申請したことにより、四位・五位特別手当てを支給する期限まで交替事務が延長された場合は、その年の分を支給しない。 </p>
      </div>
-     <div ana="太政官" n="11.37" subtype="項" type="条">
+     <div ana="太政官" n="11.37" type="条" xml:id="article111037"
+      corresp="engishiki_v11.xml#article111037 engishiki_v11_en.xml#article111037">
       <head ana="未勘知"/>
       <note type="summary"> 最高責任者以外の官人の引き継ぎに関する規定 </note>
       <p ana="項" corresp="engishiki_v11.xml#item11103701 engishiki_v11_en.xml#item11103701"
@@ -1049,7 +1087,8 @@
        中央・地方の諸官司の最高責任者以外の者は、新たに着任した後、引き継ぎが完了する前に、原則として「未確認」と注記して引き継ぎ関連書類を提出してはならない。ただし着任の段階で、次の異動先が決まっている者がいて、その者の交替の期限を超過してしまうような場合には、「未確認」と注記してよい。
       </p>
      </div>
-     <div ana="太政官" n="11.38" subtype="項" type="条">
+     <div ana="太政官" n="11.38" type="条" xml:id="article111038"
+      corresp="engishiki_v11.xml#article111038 engishiki_v11_en.xml#article111038">
       <head ana="遁避不署"/>
       <note type="summary"> 引き継ぎ事務を滞らせた場合の処分に関する規定 </note>
       <p ana="項" corresp="engishiki_v11.xml#item11103801 engishiki_v11_en.xml#item11103801"
@@ -1060,7 +1099,8 @@
        以上の官人が退任した後、交替完了証明書を出せるかどうかが確定しないうちにその地を離れたり、交替完了証明書の未発行事由の報告書への署名を逃れようとした場合は、公務を滞らせたとして処罰せよ。署名のない文書はそのまま担当官司に送付して審査結果を上奏させ、それ以後は前任者の申し立てを認めないこととせよ。もし後任者が前任者の言い分を、交替完了証明書の未発行事由の報告書に記載せず、無駄に時間を引き延ばし前任者に愁訴させるような事態を招いた場合は、同様に公務を滞らせたとして処罰し、給与を没収せよ〈中央諸官司や諸寺院もこれに準じる〉。
       </p>
      </div>
-     <div ana="太政官" n="11.39" subtype="項" type="条">
+     <div ana="太政官" n="11.39" type="条" xml:id="article111039"
+      corresp="engishiki_v11.xml#article111039 engishiki_v11_en.xml#article111039">
       <head ana="諸寺別当年﨟"/>
       <note type="summary"> 諸寺院の僧職などの任用手続きに関する規定 </note>
       <p ana="項" corresp="engishiki_v11.xml#item11103901 engishiki_v11_en.xml#item11103901"
@@ -1084,7 +1124,8 @@
         <rt place="right"> どくし </rt>
        </ruby> で宣旨によって任用する僧官も同様にせよ。 </p>
      </div>
-     <div ana="太政官" n="11.40" subtype="項" type="条">
+     <div ana="太政官" n="11.40" type="条" xml:id="article111040"
+      corresp="engishiki_v11.xml#article111040 engishiki_v11_en.xml#article111040">
       <head ana="惣用帳"/>
       <note type="summary"> 四天王寺・東寺・西寺・梵釈寺の支出帳簿の照合作業に関する規定 </note>
       <p ana="項" corresp="engishiki_v11.xml#item11104001 engishiki_v11_en.xml#item11104001"
@@ -1109,13 +1150,15 @@
         <rt place="right"> し </rt>
        </ruby> がもう一度確認した後に署名せよ。帳簿が提出されたら速やかに照合作業を行え。もし怠りがあって帳簿を提出しなかった場合は、寺を詰問せよ。 </p>
      </div>
-     <div ana="太政官" n="11.41" subtype="項" type="条">
+     <div ana="太政官" n="11.41" type="条" xml:id="article111041"
+      corresp="engishiki_v11.xml#article111041 engishiki_v11_en.xml#article111041">
       <head ana="宿直"/>
       <note type="summary"> 中央諸官司に昼夜交代で勤務する者の名簿を弁官に提出する規定 </note>
       <p ana="項" corresp="engishiki_v11.xml#item11104101 engishiki_v11_en.xml#item11104101"
        xml:id="item11104101"> 中央諸官司は、毎日昼夜交代で勤務させ、勤務した者の名簿を作成して弁官に提出せよ。 </p>
      </div>
-     <div ana="太政官" n="11.42" subtype="項" type="条">
+     <div ana="太政官" n="11.42" type="条" xml:id="article111042"
+      corresp="engishiki_v11.xml#article111042 engishiki_v11_en.xml#article111042">
       <head ana="日蝕"/>
       <note type="summary"> 日蝕がある際の諸官司への通達方法に関する規定 </note>
       <p ana="項" corresp="engishiki_v11.xml#item11104201 engishiki_v11_en.xml#item11104201"
@@ -1130,7 +1173,8 @@
         <rt place="right"> だいじょうかん </rt>
        </ruby> に通知せよ。少納言が奏上した後、太政官は各官司に通知せよ。 </p>
      </div>
-     <div ana="太政官" n="11.43" subtype="項" type="条">
+     <div ana="太政官" n="11.43" type="条" xml:id="article111043"
+      corresp="engishiki_v11.xml#article111043 engishiki_v11_en.xml#article111043">
       <head ana="国忌"/>
       <note type="summary"> 天皇等の命日に行う法事に関する規定 </note>
       <p ana="項" corresp="engishiki_v11.xml#item11104301 engishiki_v11_en.xml#item11104301"
@@ -1169,7 +1213,8 @@
         <rt place="right"> かじょう </rt>
        </ruby> それぞれ一人が赴け。 </p>
      </div>
-     <div ana="太政官" n="11.44" subtype="項" type="条">
+     <div ana="太政官" n="11.44" type="条" xml:id="article111044"
+      corresp="engishiki_v11.xml#article111044 engishiki_v11_en.xml#article111044">
       <head ana="附駅"/>
       <note type="summary"> 地方から送られてきた文書の受理手続きに関する規定 </note>
       <p ana="項" corresp="engishiki_v11.xml#item11104401 engishiki_v11_en.xml#item11104401"
@@ -1181,7 +1226,8 @@
         <rt place="right"> げ </rt>
        </ruby> 」という字が記されている場合はそのまま大臣に提出せよ。 </p>
      </div>
-     <div ana="太政官" n="11.45" subtype="項" type="条">
+     <div ana="太政官" n="11.45" type="条" xml:id="article111045"
+      corresp="engishiki_v11.xml#article111045 engishiki_v11_en.xml#article111045">
       <head ana="差使"/>
       <note type="summary"> 諸国に派遣する使者の選定と帰朝報告に関する規定 </note>
       <p ana="項" corresp="engishiki_v11.xml#item11104501 engishiki_v11_en.xml#item11104501"
@@ -1200,7 +1246,8 @@
         <rt place="right"> し </rt>
        </ruby> が引率して所定の場所に着き、日常政務に先立って使者による報告を行い、報告終了後使者はただちに退出し、その後に弁・史による日常の政務報告を行え。 </p>
      </div>
-     <div ana="太政官" n="11.46" subtype="項" type="条">
+     <div ana="太政官" n="11.46" type="条" xml:id="article111046"
+      corresp="engishiki_v11.xml#article111046 engishiki_v11_en.xml#article111046">
       <head ana="遣和泉使"/>
       <note type="summary"> 和泉国に派遣する使者に駅鈴を与える規定 </note>
       <p ana="項" corresp="engishiki_v11.xml#item11104601 engishiki_v11_en.xml#item11104601"
@@ -1213,7 +1260,8 @@
         <rt place="right"> えきれい </rt>
        </ruby> を与えよ。 </p>
      </div>
-     <div ana="太政官" n="11.47" subtype="項" type="条">
+     <div ana="太政官" n="11.47" type="条" xml:id="article111047"
+      corresp="engishiki_v11.xml#article111047 engishiki_v11_en.xml#article111047">
       <head ana="遣諸国使"/>
       <note type="summary"> 諸国に派遣する使者の出発が滞った場合の規定 </note>
       <p ana="項" corresp="engishiki_v11.xml#item11104701 engishiki_v11_en.xml#item11104701"
@@ -1225,14 +1273,16 @@
         <rt place="right"> だいじょうかん </rt>
        </ruby> に報告した後、もし出発が滞ることがあれば、弁官が催促して出発させよ。 </p>
      </div>
-     <div ana="太政官" n="11.48" subtype="項" type="条">
+     <div ana="太政官" n="11.48" type="条" xml:id="article111048"
+      corresp="engishiki_v11.xml#article111048 engishiki_v11_en.xml#article111048">
       <head ana="賑給百姓"/>
       <note type="summary"> 困窮者への物資の給付を行う際の手続きに関する規定 </note>
       <p ana="項" corresp="engishiki_v11.xml#item11104801 engishiki_v11_en.xml#item11104801"
        xml:id="item11104801">
        諸国が困窮者への物資の給付を行うことを申請する際には、対象となる人々の名簿を作成して提出せよ。名簿を添付せずにただ給付を行う旨のみを報告してはならない。 </p>
      </div>
-     <div ana="太政官" n="11.49" subtype="項" type="条">
+     <div ana="太政官" n="11.49" type="条" xml:id="article111049"
+      corresp="engishiki_v11.xml#article111049 engishiki_v11_en.xml#article111049">
       <head ana="賑給使"/>
       <note type="summary"> 困窮者への物資の給付を確認するための使者の派遣に関する規定 </note>
       <p ana="項" corresp="engishiki_v11.xml#item11104901 engishiki_v11_en.xml#item11104901"
@@ -1243,7 +1293,8 @@
        に命じて二日以内に使者の選定に関する文書を提出させ、同日に弁官が文書を作成して押印を請求せよ。その後五日以内に使者は出発せよ。もし出発が遅れたら、事情を把握した上で取り調べ処分せよ。その他の臨時に派遣する使者も同様にせよ。
       </p>
      </div>
-     <div ana="太政官" n="11.50" subtype="項" type="条">
+     <div ana="太政官" n="11.50" type="条" xml:id="article111050"
+      corresp="engishiki_v11.xml#article111050 engishiki_v11_en.xml#article111050">
       <head ana="未納"/>
       <note type="summary"> 大規模な不作による貸与した稲の返納免除に関する規定 </note>
       <p ana="項" corresp="engishiki_v11.xml#item11105001 engishiki_v11_en.xml#item11105001"
@@ -1258,7 +1309,8 @@
         <rt place="right"> ちょう </rt>
        </ruby> に対し五万束以下とし、奏上し裁定を経た後に文書を作成してその国に通達せよ。 </p>
      </div>
-     <div ana="太政官" n="11.51" subtype="項" type="条">
+     <div ana="太政官" n="11.51" type="条" xml:id="article111051"
+      corresp="engishiki_v11.xml#article111051 engishiki_v11_en.xml#article111051">
       <head ana="蕃客"/>
       <note type="summary"> 外交使節の入朝に伴い外交担当者を任命する規定 </note>
       <p ana="項" corresp="engishiki_v11.xml#item11105101 engishiki_v11_en.xml#item11105101"
@@ -1280,7 +1332,8 @@
         <rt place="right"> し </rt>
        </ruby> 一人が、太政官からの外交文書を渡す者に随行して迎賓館に行く〉を選定せよ。 </p>
      </div>
-     <div ana="太政官" n="11.52" subtype="項" type="条">
+     <div ana="太政官" n="11.52" type="条" xml:id="article111052"
+      corresp="engishiki_v11.xml#article111052 engishiki_v11_en.xml#article111052">
       <head ana="報書条"/>
       <note type="summary"> 使者の報告書の様式に関する規定 </note>
       <p ana="項" corresp="engishiki_v11.xml#item11105201 engishiki_v11_en.xml#item11105201"
@@ -1289,7 +1342,8 @@
         <rt place="right"> げ </rt>
        </ruby> の様式で作成せよ。 </p>
      </div>
-     <div ana="太政官" n="11.53" subtype="項" type="条">
+     <div ana="太政官" n="11.53" type="条" xml:id="article111053"
+      corresp="engishiki_v11.xml#article111053 engishiki_v11_en.xml#article111053">
       <head ana="出納条"/>
       <note type="summary"> 官司に保管されている物品の出納手続きに関する規定 </note>
       <p ana="項" corresp="engishiki_v11.xml#item11105301 engishiki_v11_en.xml#item11105301"
@@ -1320,7 +1374,8 @@
         <rt place="right"> さかん </rt>
        </ruby> 以上の者が出納せよ。 </p>
      </div>
-     <div ana="太政官" n="11.54" subtype="項" type="条">
+     <div ana="太政官" n="11.54" type="条" xml:id="article111054"
+      corresp="engishiki_v11.xml#article111054 engishiki_v11_en.xml#article111054">
       <head ana="登庫検校"/>
       <note type="summary"> 弁官による出納検査に関する規定 </note>
       <p ana="項" corresp="engishiki_v11.xml#item11105401 engishiki_v11_en.xml#item11105401"
@@ -1329,7 +1384,8 @@
         <rt place="right"> まわた </rt>
        </ruby> ・麻布の出納の検査では、五位以上の弁官が一〇日ごとに保管庫に入り実検せよ。もし収納品に問題がある場合には、出納担当の諸官司の責任を追及せよ。 </p>
      </div>
-     <div ana="太政官" n="11.55" subtype="項" type="条">
+     <div ana="太政官" n="11.55" type="条" xml:id="article111055"
+      corresp="engishiki_v11.xml#article111055 engishiki_v11_en.xml#article111055">
       <head ana="雑物下符"/>
       <note type="summary"> 保管担当官司からの出用を命じる文書の変更等に関する規定 </note>
       <p ana="項" corresp="engishiki_v11.xml#item11105501 engishiki_v11_en.xml#item11105501"
@@ -1339,13 +1395,15 @@
         <rt place="right"> し </rt>
        </ruby> の名前を書いてただちに新しい出給元に下達せよ。 </p>
      </div>
-     <div ana="太政官" n="11.56" subtype="項" type="条">
+     <div ana="太政官" n="11.56" type="条" xml:id="article111056"
+      corresp="engishiki_v11.xml#article111056 engishiki_v11_en.xml#article111056">
       <head ana="社寺借物"/>
       <note type="summary"> 寺社が庫物を請求した際の規定 </note>
       <p ana="項" corresp="engishiki_v11.xml#item11105601 engishiki_v11_en.xml#item11105601"
        xml:id="item11105601"> 神社・寺院が国庫の物品を借用したいと請求しても、たやすく許可してはならない。もし遺漏があれば、文書を担当官司に下達して取り消せ。 </p>
      </div>
-     <div ana="太政官" n="11.57" subtype="項" type="条">
+     <div ana="太政官" n="11.57" type="条" xml:id="article111057"
+      corresp="engishiki_v11.xml#article111057 engishiki_v11_en.xml#article111057">
       <head ana="諸司当色"/>
       <note type="summary"> 行事用の衣服を出給する官司に関する規定 </note>
       <p ana="項" corresp="engishiki_v11.xml#item11105701 engishiki_v11_en.xml#item11105701"
@@ -1357,7 +1415,8 @@
         <rt place="right"> おおくらしょう </rt>
        </ruby> が出給せよ。 </p>
      </div>
-     <div ana="太政官" n="11.58" subtype="項" type="条">
+     <div ana="太政官" n="11.58" type="条" xml:id="article111058"
+      corresp="engishiki_v11.xml#article111058 engishiki_v11_en.xml#article111058">
       <head ana="進薪"/>
       <note type="summary"> 正月十五日に官人が薪を納入する際の手続きに関する規定 </note>
       <p ana="項" corresp="engishiki_v11.xml#item11105801 engishiki_v11_en.xml#item11105801"
@@ -1389,7 +1448,8 @@
        および宮内省の官人とともに、諸官司ごとに納入すべき薪の数量を検査せよ〈詳細は儀式書を参照〉。納入の儀式が終わり諸官司が帰った後、式部省・兵部省は全体の目録を作成し、弁官に提出せよ。
       </p>
      </div>
-     <div ana="太政官" n="11.59" subtype="項" type="条">
+     <div ana="太政官" n="11.59" type="条" xml:id="article111059"
+      corresp="engishiki_v11.xml#article111059 engishiki_v11_en.xml#article111059">
       <head ana="拝除"/>
       <note type="summary"> 国司の欠員の把握と任命手続きに関する規定 </note>
       <p ana="項" corresp="engishiki_v11.xml#item11105901 engishiki_v11_en.xml#item11105901"
@@ -1404,7 +1464,8 @@
         <rt place="right"> げき </rt>
        </ruby> が再確認した上で大臣に提出し、奏上して任命を行え〈詳細は儀式書を参照〉。任期満了以外の解任による欠員については、そのつど奏上して任命せよ。 </p>
      </div>
-     <div ana="太政官" n="11.60" subtype="項" type="条">
+     <div ana="太政官" n="11.60" type="条" xml:id="article111060"
+      corresp="engishiki_v11.xml#article111060 engishiki_v11_en.xml#article111060">
       <head ana="召使任官"/>
       <note type="summary"> 太政官の下級官人を諸国主典に任命する規定 </note>
       <p ana="項" corresp="engishiki_v11.xml#item11106001 engishiki_v11_en.xml#item11106001"
@@ -1441,7 +1502,8 @@
         <rt place="right"> あわじ </rt>
        </ruby> の一一国のいずれかに任命する〉。勤続の実績に基づいて任命する際には、勤続年数ではなく出勤日数を基準とせよ。 </p>
      </div>
-     <div ana="太政官" n="11.61" subtype="項" type="条">
+     <div ana="太政官" n="11.61" type="条" xml:id="article111061"
+      corresp="engishiki_v11.xml#article111061 engishiki_v11_en.xml#article111061">
       <head ana="三省史生"/>
       <note type="summary"> 三省の史生を諸国の主典に任命する規定 </note>
       <p ana="項" corresp="engishiki_v11.xml#item11106101 engishiki_v11_en.xml#item11106101"
@@ -1463,7 +1525,8 @@
         <rt place="right"> さかん </rt>
        </ruby> に任命せよ。 </p>
      </div>
-     <div ana="太政官" n="11.62" subtype="項" type="条">
+     <div ana="太政官" n="11.62" type="条" xml:id="article111062"
+      corresp="engishiki_v11.xml#article111062 engishiki_v11_en.xml#article111062">
       <head ana="内記史生"/>
       <note type="summary"> 勤続一〇年の内記史生を諸国の主典に任命する規定 </note>
       <p ana="項" corresp="engishiki_v11.xml#item11106201 engishiki_v11_en.xml#item11106201"
@@ -1482,7 +1545,8 @@
         <rt place="right"> さかん </rt>
        </ruby> に任命せよ。 </p>
      </div>
-     <div ana="太政官" n="11.63" subtype="項" type="条">
+     <div ana="太政官" n="11.63" type="条" xml:id="article111063"
+      corresp="engishiki_v11.xml#article111063 engishiki_v11_en.xml#article111063">
       <head ana="鎮守権任"/>
       <note type="summary"> 鎮守府の定員外の官人の任命書類に関する規定 </note>
       <p ana="項" corresp="engishiki_v11.xml#item11106301 engishiki_v11_en.xml#item11106301"
@@ -1492,7 +1556,8 @@
         <rt place="right"> ちんじゅふ </rt>
        </ruby> の定員外の官人の任命を通達する文書には、誰と交替するのか、その人の姓名を注記せよ。 </p>
      </div>
-     <div ana="太政官" n="11.64" subtype="項" type="条">
+     <div ana="太政官" n="11.64" type="条" xml:id="article111064"
+      corresp="engishiki_v11.xml#article111064 engishiki_v11_en.xml#article111064">
       <head ana="祈年班幣"/>
       <note type="summary"> 祈年祭で神祇官に集まる官人の規定 </note>
       <p ana="項" corresp="engishiki_v11.xml#item11106401 engishiki_v11_en.xml#item11106401"
@@ -1513,7 +1578,8 @@
         <rt place="right"> し </rt>
        </ruby> それぞれ一人および中央諸官司の五位以上・六位以下はそれぞれ一人が集合せよ〈詳細は儀式書を参照〉。 </p>
      </div>
-     <div ana="太政官" n="11.65" subtype="項" type="条">
+     <div ana="太政官" n="11.65" type="条" xml:id="article111065"
+      corresp="engishiki_v11.xml#article111065 engishiki_v11_en.xml#article111065">
       <head ana="春日祭"/>
       <note type="summary"> 春日祭の日程と参加者に関する規定 </note>
       <p ana="項" corresp="engishiki_v11.xml#item11106501 engishiki_v11_en.xml#item11106501"
@@ -1526,7 +1592,8 @@
         <rt place="right"> さる </rt>
        </ruby> の日に、参議以上は参集せよ〈詳細は儀式書を参照〉。 </p>
      </div>
-     <div ana="太政官" n="11.66" subtype="項" type="条">
+     <div ana="太政官" n="11.66" type="条" xml:id="article111066"
+      corresp="engishiki_v11.xml#article111066 engishiki_v11_en.xml#article111066">
       <head ana="大原野祭"/>
       <note type="summary"> 大原野祭の日程と参加者に関する規定 </note>
       <p ana="項" corresp="engishiki_v11.xml#item11106601 engishiki_v11_en.xml#item11106601"
@@ -1542,7 +1609,8 @@
         <rt place="right"> ね </rt>
        </ruby> の日に、参議以上は参集せよ〈詳細は儀式書を参照〉。 </p>
      </div>
-     <div ana="太政官" n="11.67" subtype="項" type="条">
+     <div ana="太政官" n="11.67" type="条" xml:id="article111067"
+      corresp="engishiki_v11.xml#article111067 engishiki_v11_en.xml#article111067">
       <head ana="園韓神祭"/>
       <note type="summary"> 園・韓神祭の日程と参加者に関する規定 </note>
       <p ana="項" corresp="engishiki_v11.xml#item11106701 engishiki_v11_en.xml#item11106701"
@@ -1564,7 +1632,8 @@
         <rt place="right"> しんじょうえ </rt>
        </ruby> の前の丑の日に、参議以上のうち一人が参加せよ〈詳細は儀式書を参照〉。 </p>
      </div>
-     <div ana="太政官" n="11.68" subtype="項" type="条">
+     <div ana="太政官" n="11.68" type="条" xml:id="article111068"
+      corresp="engishiki_v11.xml#article111068 engishiki_v11_en.xml#article111068">
       <head ana="祭所行事"/>
       <note type="summary"> 各祭に太政官の官人が赴き職務を担当する規定 </note>
       <p ana="項" corresp="engishiki_v11.xml#item11106801 engishiki_v11_en.xml#item11106801"
@@ -1601,7 +1670,8 @@
         <rt place="right"> かじょう </rt>
        </ruby> それぞれ一人が現地に行って職務を担当せよ。 </p>
      </div>
-     <div ana="太政官" n="11.69" subtype="項" type="条">
+     <div ana="太政官" n="11.69" type="条" xml:id="article111069"
+      corresp="engishiki_v11.xml#article111069 engishiki_v11_en.xml#article111069">
       <head ana="大忌風神"/>
       <note type="summary"> 大忌祭・風神祭の日程と祭使選定に関する規定 </note>
       <p ana="項" corresp="engishiki_v11.xml#item11106901 engishiki_v11_en.xml#item11106901"
@@ -1626,7 +1696,8 @@
         <rt place="right"> じんぎしき </rt>
        </ruby> を参照〉。 </p>
      </div>
-     <div ana="太政官" n="11.70" subtype="項" type="条">
+     <div ana="太政官" n="11.70" type="条" xml:id="article111070"
+      corresp="engishiki_v11.xml#article111070 engishiki_v11_en.xml#article111070">
       <head ana="松尾祭"/>
       <note type="summary"> 松尾祭の日程と奉仕する官人に関する規定 </note>
       <p ana="項" corresp="engishiki_v11.xml#item11107001 engishiki_v11_en.xml#item11107001"
@@ -1657,7 +1728,8 @@
         <rt place="right"> おおくらしょう </rt>
        </ruby> から受け取って供えよ。その他の担当官司も同様に奉仕せよ。 </p>
      </div>
-     <div ana="太政官" n="11.71" subtype="項" type="条">
+     <div ana="太政官" n="11.71" type="条" xml:id="article111071"
+      corresp="engishiki_v11.xml#article111071 engishiki_v11_en.xml#article111071">
       <head ana="平野祭"/>
       <note type="summary"> 平野祭の日程等に関する規定 </note>
       <p ana="項" corresp="engishiki_v11.xml#item11107101 engishiki_v11_en.xml#item11107101"
@@ -1670,7 +1742,8 @@
         <rt place="right"> さる </rt>
        </ruby> の日に、参議以上は参集せよ。皇太子が行く場合には自ら神前に進んで神への供え物を奉ることとせよ〈詳細は儀式書を参照〉。 </p>
      </div>
-     <div ana="太政官" n="11.72" subtype="項" type="条">
+     <div ana="太政官" n="11.72" type="条" xml:id="article111072"
+      corresp="engishiki_v11.xml#article111072 engishiki_v11_en.xml#article111072">
       <head ana="賀茂祭"/>
       <note type="summary"> 賀茂祭の日程および準備等に関する規定 </note>
       <p ana="項" corresp="engishiki_v11.xml#item11107201 engishiki_v11_en.xml#item11107201"
@@ -1713,7 +1786,8 @@
         <rt> えふ </rt>
        </ruby> の次官以上を紫宸殿の前庭に招集し、内裏の警備を命じよ。後日警備を解除する際も同様にせよ〈これらの詳細は儀式書を参照〉。 </p>
      </div>
-     <div ana="太政官" n="11.73" subtype="項" type="条">
+     <div ana="太政官" n="11.73" type="条" xml:id="article111073"
+      corresp="engishiki_v11.xml#article111073 engishiki_v11_en.xml#article111073">
       <head ana="御体卜"/>
       <note type="summary"> 天皇の安否を占う儀式に関する規定 </note>
       <p ana="項" corresp="engishiki_v11.xml#item11107301 engishiki_v11_en.xml#item11107301"
@@ -1740,7 +1814,8 @@
         <rt place="right"> じんぎしき </rt>
        </ruby> を参照〉。 </p>
      </div>
-     <div ana="太政官" n="11.74" subtype="項" type="条">
+     <div ana="太政官" n="11.74" type="条" xml:id="article111074"
+      corresp="engishiki_v11.xml#article111074 engishiki_v11_en.xml#article111074">
       <head ana="月次祭"/>
       <note type="summary"> 月次祭の日程および神今食・新嘗の人選等に関する規定 </note>
       <p ana="項" corresp="engishiki_v11.xml#item11107401 engishiki_v11_en.xml#item11107401"
@@ -1794,7 +1869,8 @@
         <rt place="right"> くないしょう </rt>
        </ruby> に送付し、神祇官が占いによって選定せよ〈詳細は宮内式を参照〉。その後それぞれ自宅に帰って身体を洗い清め、夕方参入して神事に奉仕せよ。 </p>
      </div>
-     <div ana="太政官" n="11.75" subtype="項" type="条">
+     <div ana="太政官" n="11.75" type="条" xml:id="article111075"
+      corresp="engishiki_v11.xml#article111075 engishiki_v11_en.xml#article111075">
       <head ana="大祓"/>
       <note type="summary"> 六月・十二月の大祓の挙行に関する規定 </note>
       <p ana="項" corresp="engishiki_v11.xml#item11107501 engishiki_v11_en.xml#item11107501"
@@ -1827,7 +1903,8 @@
         <rt place="right"> だいじょうかん </rt>
        </ruby> の官人の人数も記録して式部省に渡し、全体の目録に入れる〉。官人は男女ともに全員参集して祓い清めよ。臨時の大祓も同様に行え〈詳細は儀式書を参照〉。 </p>
      </div>
-     <div ana="太政官" n="11.76" subtype="項" type="条">
+     <div ana="太政官" n="11.76" type="条" xml:id="article111076"
+      corresp="engishiki_v11.xml#article111076 engishiki_v11_en.xml#article111076">
       <head ana="伊勢使"/>
       <note type="summary"> 九月十一日に捧げ物を伊勢神宮に奉る儀式に関する規定 </note>
       <p ana="項" corresp="engishiki_v11.xml#item11107601 engishiki_v11_en.xml#item11107601"
@@ -1851,7 +1928,8 @@
         <rt place="right"> いんべ </rt>
        </ruby> とともに派遣せよ〈詳細は儀式書を参照〉。 </p>
      </div>
-     <div ana="太政官" n="11.77" subtype="項" type="条">
+     <div ana="太政官" n="11.77" type="条" xml:id="article111077"
+      corresp="engishiki_v11.xml#article111077 engishiki_v11_en.xml#article111077">
       <head ana="鎮魂新嘗"/>
       <note type="summary"> 鎮魂祭・新嘗祭の準備等に関する規定 </note>
       <p ana="項" corresp="engishiki_v11.xml#item11107701 engishiki_v11_en.xml#item11107701"
@@ -1897,7 +1975,8 @@
         <rt place="right"> たつ </rt>
        </ruby> の日に五位以上の官人に宴席を設けよ。大臣が通常通り差配せよ〈詳細は儀式書を参照〉。 </p>
      </div>
-     <div ana="太政官" n="11.78" subtype="項" type="条">
+     <div ana="太政官" n="11.78" type="条" xml:id="article111078"
+      corresp="engishiki_v11.xml#article111078 engishiki_v11_en.xml#article111078">
       <head ana="祭祀日"/>
       <note type="summary"> 祭祀の日程の報告に関する規定 </note>
       <p ana="項" corresp="engishiki_v11.xml#item11107801 engishiki_v11_en.xml#item11107801"
@@ -1906,7 +1985,8 @@
         <rt place="right"> だいじょうかん </rt>
        </ruby> に申告し、斎戒が始まる一日前に少納言が上奏せよ。 </p>
      </div>
-     <div ana="太政官" n="11.79" subtype="項" type="条">
+     <div ana="太政官" n="11.79" type="条" xml:id="article111079"
+      corresp="engishiki_v11.xml#article111079 engishiki_v11_en.xml#article111079">
       <head ana="神事諸司"/>
       <note type="summary"> 神事に奉仕する各官司の担当者に関する規定 </note>
       <p ana="項" corresp="engishiki_v11.xml#item11107901 engishiki_v11_en.xml#item11107901"
@@ -1915,7 +1995,8 @@
         <rt place="right"> じょう </rt>
        </ruby> 一人が担当者になり、常時監察せよ。担当者の名簿は、祭の前月に弁官に提出せよ。 </p>
      </div>
-     <div ana="太政官" n="11.80" subtype="項" type="条">
+     <div ana="太政官" n="11.80" type="条" xml:id="article111080"
+      corresp="engishiki_v11.xml#article111080 engishiki_v11_en.xml#article111080">
       <head ana="平野祭見参"/>
       <note type="summary"> 平野祭に桓武天皇の末裔・関連氏族が参列する規定 </note>
       <p ana="項" corresp="engishiki_v11.xml#item11108001 engishiki_v11_en.xml#item11108001"
@@ -1934,7 +2015,8 @@
         <rt place="right"> やまとし </rt>
        </ruby> の人は、参列者名簿に名を連ねよ。 </p>
      </div>
-     <div ana="太政官" n="11.81" subtype="項" type="条">
+     <div ana="太政官" n="11.81" type="条" xml:id="article111081"
+      corresp="engishiki_v11.xml#article111081 engishiki_v11_en.xml#article111081">
       <head ana="会参上日条"/>
       <note type="summary"> 春日祭などの勤務日数に関する規定 </note>
       <p ana="項" corresp="engishiki_v11.xml#item11108101 engishiki_v11_en.xml#item11108101"
@@ -1959,7 +2041,8 @@
         <rt place="right"> しきぶしょう </rt>
        </ruby> に送付せよ。 </p>
      </div>
-     <div ana="太政官" n="11.82" subtype="項" type="条">
+     <div ana="太政官" n="11.82" type="条" xml:id="article111082"
+      corresp="engishiki_v11.xml#article111082 engishiki_v11_en.xml#article111082">
       <head ana="興福寺"/>
       <note type="summary"> 興福寺での行事等の参列者に関する規定 </note>
       <p ana="項" corresp="engishiki_v11.xml#item11108201 engishiki_v11_en.xml#item11108201"
@@ -1993,7 +2076,8 @@
         <rt place="right"> やくしじさいしょうえ </rt>
        </ruby> に参列する場合も同様にせよ。 </p>
      </div>
-     <div ana="太政官" n="11.83" subtype="項" type="条">
+     <div ana="太政官" n="11.83" type="条" xml:id="article111083"
+      corresp="engishiki_v11.xml#article111083 engishiki_v11_en.xml#article111083">
       <head ana="外記史不列"/>
       <note type="summary"> 特定の法会における外記・史の着座方法に関する規定 </note>
       <p ana="項" corresp="engishiki_v11.xml#item11108301 engishiki_v11_en.xml#item11108301"
@@ -2021,7 +2105,8 @@
         <rt place="right"> しきぶしょう </rt>
        </ruby> 官人の点呼を受けず、直接儀場に入り座に着け。 </p>
      </div>
-     <div ana="太政官" n="11.84" subtype="項" type="条">
+     <div ana="太政官" n="11.84" type="条" xml:id="article111084"
+      corresp="engishiki_v11.xml#article111084 engishiki_v11_en.xml#article111084">
       <head ana="釈奠"/>
       <note type="summary"> 釈奠の日程と参加者などに関する規定 </note>
       <p ana="項" corresp="engishiki_v11.xml#item11108401 engishiki_v11_en.xml#item11108401"
@@ -2054,7 +2139,8 @@
         <rt place="right"> かじょう </rt>
        </ruby> を引率して同じく大学寮に参向し儀式を監督せよ。講論が終わったら宴席を設けよ〈詳細は儀式書を参照〉。 </p>
      </div>
-     <div ana="太政官" n="11.85" subtype="項" type="条">
+     <div ana="太政官" n="11.85" type="条" xml:id="article111085"
+      corresp="engishiki_v11.xml#article111085 engishiki_v11_en.xml#article111085">
       <head ana="大嘗祭"/>
       <note type="summary"> 大嘗祭の儀式次第などに関する規定 </note>
       <p ana="項" corresp="engishiki_v11.xml#item11108501 engishiki_v11_en.xml#item11108501"
@@ -2189,7 +2275,8 @@
        xml:id="item11108507">
        使者を悠紀・主基両国に派遣して斎戒を解け。十一月末日に京内の諸官司が集合して穢れを祓うことは六月・十二月の大祓と同様にせよ〈詳細は儀式書を参照〉。 </p>
      </div>
-     <div ana="太政官" n="11.86" subtype="項" type="条">
+     <div ana="太政官" n="11.86" type="条" xml:id="article111086"
+      corresp="engishiki_v11.xml#article111086 engishiki_v11_en.xml#article111086">
       <head ana="践祚大嘗年"/>
       <note type="summary"> 大嘗祭に伴う天皇の潔斎に関する規定 </note>
       <p ana="項" corresp="engishiki_v11.xml#item11108601 engishiki_v11_en.xml#item11108601"
@@ -2230,7 +2317,8 @@
         <rt place="right"> しょうぞくし </rt>
        </ruby> ・次第司に送付せよ〈詳細は儀式書を参照〉。 </p>
      </div>
-     <div ana="太政官" n="11.87" subtype="項" type="条">
+     <div ana="太政官" n="11.87" type="条" xml:id="article111087"
+      corresp="engishiki_v11.xml#article111087 engishiki_v11_en.xml#article111087">
       <head ana="定斎王"/>
       <note type="summary"> 伊勢斎王の選定から伊勢神宮に向かうまでの潔斎に関する規定 </note>
       <p ana="項" corresp="engishiki_v11.xml#item11108701 engishiki_v11_en.xml#item11108701"
@@ -2301,7 +2389,8 @@
         <rt place="right"> かどのがわ </rt>
        </ruby> で身を清めることは、野宮に入る前の儀と同様にせよ〈詳細は儀式書を参照〉。 </p>
      </div>
-     <div ana="太政官" n="11.88" subtype="項" type="条">
+     <div ana="太政官" n="11.88" type="条" xml:id="article111088"
+      corresp="engishiki_v11.xml#article111088 engishiki_v11_en.xml#article111088">
       <head ana="斎王向伊勢"/>
       <note type="summary"> 斎王が伊勢に向かう以前に斎宮寮の官人を伊勢に派遣する規定 </note>
       <p ana="項" corresp="engishiki_v11.xml#item11108801 engishiki_v11_en.xml#item11108801"
@@ -2325,7 +2414,8 @@
         <rt place="right"> いせのくに </rt>
        </ruby> に派遣して、準備を進めよ。 </p>
      </div>
-     <div ana="太政官" n="11.89" subtype="項" type="条">
+     <div ana="太政官" n="11.89" type="条" xml:id="article111089"
+      corresp="engishiki_v11.xml#article111089 engishiki_v11_en.xml#article111089">
       <head ana="賀茂斎王"/>
       <note type="summary"> 賀茂斎王を選定する規定 </note>
       <p ana="項" corresp="engishiki_v11.xml#item11108901 engishiki_v11_en.xml#item11108901"
@@ -2334,7 +2424,8 @@
         <rt place="right"> かも </rt>
        </ruby> 神社の斎王を選定せよ。内親王のうち未婚の者の中から占いによって選定せよ〈詳細は斎院式を参照〉。 </p>
      </div>
-     <div ana="太政官" n="11.90" subtype="項" type="条">
+     <div ana="太政官" n="11.90" type="条" xml:id="article111090"
+      corresp="engishiki_v11.xml#article111090 engishiki_v11_en.xml#article111090">
       <head ana="仁王会"/>
       <note type="summary"> 一代一度の仁王会の準備などに関する規定 </note>
       <p ana="項" corresp="engishiki_v11.xml#item11109001 engishiki_v11_en.xml#item11109001"
@@ -2353,7 +2444,8 @@
         <rt place="right"> げんばしき </rt>
        </ruby> と儀式書を参照〉。 </p>
      </div>
-     <div ana="太政官" n="11.91" subtype="項" type="条">
+     <div ana="太政官" n="11.91" type="条" xml:id="article111091"
+      corresp="engishiki_v11.xml#article111091 engishiki_v11_en.xml#article111091">
       <head ana="告朔"/>
       <note type="summary"> 季節の初めの月に天皇に行政報告をする儀式に関する規定 </note>
       <p ana="項" corresp="engishiki_v11.xml#item11109101 engishiki_v11_en.xml#item11109101"
@@ -2381,7 +2473,8 @@
         <rt place="right"> なかつかさしょう </rt>
        </ruby> に渡して天皇に奏上させよ。 </p>
      </div>
-     <div ana="太政官" n="11.92" subtype="項" type="条">
+     <div ana="太政官" n="11.92" type="条" xml:id="article111092"
+      corresp="engishiki_v11.xml#article111092 engishiki_v11_en.xml#article111092">
       <head ana="諸節会"/>
       <note type="summary"> 節会に奉仕する官司の勤怠管理に関する規定 </note>
       <p ana="項" corresp="engishiki_v11.xml#item11109201 engishiki_v11_en.xml#item11109201"
@@ -2391,7 +2484,8 @@
         <rt place="right"> せちえ </rt>
        </ruby> の日は、天皇が出御する前に、担当諸官司は準備を整え、出御の後は逐一奉仕せよ。もし怠りがあれば、職位給を没収し勤務評定を下げよ。 </p>
      </div>
-     <div ana="太政官" n="11.93" subtype="項" type="条">
+     <div ana="太政官" n="11.93" type="条" xml:id="article111093"
+      corresp="engishiki_v11.xml#article111093 engishiki_v11_en.xml#article111093">
       <head ana="朝賀"/>
       <note type="summary"> 元日の祝賀儀式における準備と役職の選任に関する規定 </note>
       <p ana="項" corresp="engishiki_v11.xml#item11109301 engishiki_v11_en.xml#item11109301"
@@ -2411,7 +2505,8 @@
        四人を左右の側仕えとしてそれぞれ二人〈三位二人、あるいは親王をこれに任じる。四位二人〉、少納言二人〈もし欠員があれば仮に別の者を任じる〉、慶賀の言葉を奏上する者、前年の祥瑞を奏上する者それぞれ一人〈四位以上で適切な者を任用する〉を選び、奏上して任命せよ〈詳細は儀式書を参照〉。
       </p>
      </div>
-     <div ana="太政官" n="11.94" subtype="項" type="条">
+     <div ana="太政官" n="11.94" type="条" xml:id="article111094"
+      corresp="engishiki_v11.xml#article111094 engishiki_v11_en.xml#article111094">
       <head ana="元宴"/>
       <note type="summary"> 元日の節会を大臣が差配する規定 </note>
       <p ana="項" corresp="engishiki_v11.xml#item11109401 engishiki_v11_en.xml#item11109401"
@@ -2420,7 +2515,8 @@
         <rt place="right"> じじじゅう </rt>
        </ruby> 以上の者に宴席を設けよ。大臣は会場の差配をせよ〈詳細は儀式書を参照〉。 </p>
      </div>
-     <div ana="太政官" n="11.95" subtype="項" type="条">
+     <div ana="太政官" n="11.95" type="条" xml:id="article111095"
+      corresp="engishiki_v11.xml#article111095 engishiki_v11_en.xml#article111095">
       <head ana="正月七日"/>
       <note type="summary"> 正月七日の節会と叙位に関する規定 </note>
       <p ana="項" corresp="engishiki_v11.xml#item11109501 engishiki_v11_en.xml#item11109501"
@@ -2430,7 +2526,8 @@
         <rt place="right"> ないき </rt>
        </ruby> に書かせてこれに押印せよ〈詳細は儀式書を参照〉。 </p>
      </div>
-     <div ana="太政官" n="11.96" subtype="項" type="条">
+     <div ana="太政官" n="11.96" type="条" xml:id="article111096"
+      corresp="engishiki_v11.xml#article111096 engishiki_v11_en.xml#article111096">
       <head ana="任官"/>
       <note type="summary"> 内裏での任官儀式に参加する太政官の官人に関する規定 </note>
       <p ana="項" corresp="engishiki_v11.xml#item11109601 engishiki_v11_en.xml#item11109601"
@@ -2454,7 +2551,8 @@
         <rt place="right"> し </rt>
        </ruby> も関知せよ〈詳細は儀式書を参照〉。 </p>
      </div>
-     <div ana="太政官" n="11.97" subtype="項" type="条">
+     <div ana="太政官" n="11.97" type="条" xml:id="article111097"
+      corresp="engishiki_v11.xml#article111097 engishiki_v11_en.xml#article111097">
       <head ana="御斎会"/>
       <note type="summary"> 大極殿における正月の法会に関する規定 </note>
       <p ana="項" corresp="engishiki_v11.xml#item11109701 engishiki_v11_en.xml#item11109701"
@@ -2482,7 +2580,8 @@
         <rt place="right"> げんばしき </rt>
        </ruby> および儀式書を参照〉。 </p>
      </div>
-     <div ana="太政官" n="11.98" subtype="項" type="条">
+     <div ana="太政官" n="11.98" type="条" xml:id="article111098"
+      corresp="engishiki_v11.xml#article111098 engishiki_v11_en.xml#article111098">
       <head ana="正月十六日"/>
       <note type="summary"> 正月十六日の節会を大臣が差配する規定 </note>
       <p ana="項" corresp="engishiki_v11.xml#item11109801 engishiki_v11_en.xml#item11109801"
@@ -2491,7 +2590,8 @@
         <rt place="right"> じじじゅう </rt>
        </ruby> 以上の者に宴席を設けよ。大臣が天皇がいらっしゃる会場で差配することは元日の祝賀儀式と同様にせよ〈詳細は儀式書を参照〉。 </p>
      </div>
-     <div ana="太政官" n="11.99" subtype="項" type="条">
+     <div ana="太政官" n="11.99" type="条" xml:id="article111099"
+      corresp="engishiki_v11.xml#article111099 engishiki_v11_en.xml#article111099">
       <head ana="大射"/>
       <note type="summary"> 正月十七日の射弓儀儀式の準備・監督に関する規定 </note>
       <p ana="項" corresp="engishiki_v11.xml#item11109901 engishiki_v11_en.xml#item11109901"
@@ -2499,7 +2599,8 @@
        正月十七日に群臣が弓を射る儀式は、担当官司が事前に天皇の座を設置し、雑事を準備し、大臣が殿上に伺候し差配をすることなどは、通常の儀式のとおりとせよ。もしその日のうちに終わらなかった場合は、十八日に参議一人を派遣して行え〈詳細は儀式書を参照〉。
       </p>
      </div>
-     <div ana="太政官" n="11.100" subtype="項" type="条">
+     <div ana="太政官" n="11.100" type="条" xml:id="article111100"
+      corresp="engishiki_v11.xml#article111100 engishiki_v11_en.xml#article111100">
       <head ana="二季読経"/>
       <note type="summary"> 春秋二回の読経の行事進行に関する規定 </note>
       <p ana="項" corresp="engishiki_v11.xml#item11110001 engishiki_v11_en.xml#item11110001"
@@ -2520,7 +2621,8 @@
         <rt place="right"> このえしょうしょう </rt>
        </ruby> を派遣して慰労せよ。臨時の読経の際も同様にせよ。 </p>
      </div>
-     <div ana="太政官" n="11.101" subtype="項" type="条">
+     <div ana="太政官" n="11.101" type="条" xml:id="article111101"
+      corresp="engishiki_v11.xml#article111101 engishiki_v11_en.xml#article111101">
       <head ana="五月五日"/>
       <note type="summary"> 五月五日の節会の準備などに関する規定 </note>
       <p ana="項" corresp="engishiki_v11.xml#item11110101 engishiki_v11_en.xml#item11110101"
@@ -2538,7 +2640,8 @@
         <rt place="right"> あやめ </rt>
        </ruby> の葉の飾りを冠につけ、諸官司はその職務に従事せよ〈詳細は儀式書を参照〉。 </p>
      </div>
-     <div ana="太政官" n="11.102" subtype="項" type="条">
+     <div ana="太政官" n="11.102" type="条" xml:id="article111102"
+      corresp="engishiki_v11.xml#article111102 engishiki_v11_en.xml#article111102">
       <head ana="負馬"/>
       <note type="summary"> 五月五日に馬を貢進できない官人に関する規定 </note>
       <p ana="項" corresp="engishiki_v11.xml#item11110201 engishiki_v11_en.xml#item11110201"
@@ -2546,7 +2649,8 @@
        五位以上の者で、五月五日の競馬に出す馬を貢進することができない者は、四月三十日までにその旨を報告せよ。すでに馬を貢進することができない旨を報告した後で、もし当日もしくは前日に馬を貢進した場合は、その馬は負けた馬という扱いにせよ。
       </p>
      </div>
-     <div ana="太政官" n="11.103" subtype="項" type="条">
+     <div ana="太政官" n="11.103" type="条" xml:id="article111103"
+      corresp="engishiki_v11.xml#article111103 engishiki_v11_en.xml#article111103">
       <head ana="相撲"/>
       <note type="summary"> 七月二十五日の相撲の準備などに関する規定 </note>
       <p ana="項" corresp="engishiki_v11.xml#item11110301 engishiki_v11_en.xml#item11110301"
@@ -2576,7 +2680,8 @@
         <rt place="right"> ひょうぶしょう </rt>
        </ruby> が相撲の儀式の差配をせよ〈詳細は儀式書を参照〉。 </p>
      </div>
-     <div ana="太政官" n="11.104" subtype="項" type="条">
+     <div ana="太政官" n="11.104" type="条" xml:id="article111104"
+      corresp="engishiki_v11.xml#article111104 engishiki_v11_en.xml#article111104">
       <head ana="盆供"/>
       <note type="summary"> 盂蘭盆会の供養の品を寺に送る規定 </note>
       <p ana="項" corresp="engishiki_v11.xml#item11110401 engishiki_v11_en.xml#item11110401"
@@ -2588,7 +2693,8 @@
         <rt place="right"> だいぜんしき </rt>
        </ruby> を参照〉。 </p>
      </div>
-     <div ana="太政官" n="11.105" subtype="項" type="条">
+     <div ana="太政官" n="11.105" type="条" xml:id="article111105"
+      corresp="engishiki_v11.xml#article111105 engishiki_v11_en.xml#article111105">
       <head ana="九月九日"/>
       <note type="summary"> 重陽節会の準備に関する規定 </note>
       <p ana="項" corresp="engishiki_v11.xml#item11110501 engishiki_v11_en.xml#item11110501"
@@ -2600,7 +2706,8 @@
         <rt place="right"> じじじゅう </rt>
        </ruby> 以上および文人に宴席を設ける際には、大臣が差配し、担当官司が準備にあたることは通常通りとせよ〈詳細は儀式書を参照〉。 </p>
      </div>
-     <div ana="太政官" n="11.106" subtype="項" type="条">
+     <div ana="太政官" n="11.106" type="条" xml:id="article111106"
+      corresp="engishiki_v11.xml#article111106 engishiki_v11_en.xml#article111106">
       <head ana="禄目録"/>
       <note type="summary"> 節会の賜与品目録を弁官が奏上する規定 </note>
       <p ana="項" corresp="engishiki_v11.xml#item11110601 engishiki_v11_en.xml#item11110601"
@@ -2613,7 +2720,8 @@
         <rt place="right"> たいしゃ </rt>
        </ruby> はこの奏上はない〉。 </p>
      </div>
-     <div ana="太政官" n="11.107" subtype="項" type="条">
+     <div ana="太政官" n="11.107" type="条" xml:id="article111107"
+      corresp="engishiki_v11.xml#article111107 engishiki_v11_en.xml#article111107">
       <head ana="非侍従見参"/>
       <note type="summary"> 臨時の宴会の参加者に関する規定 </note>
       <p ana="項" corresp="engishiki_v11.xml#item11110701 engishiki_v11_en.xml#item11110701"
@@ -2649,7 +2757,8 @@
         <rt place="right"> じじじゅう </rt>
        </ruby> でない場合でも臨時の宴会に出席することを認めよ。 </p>
      </div>
-     <div ana="太政官" n="11.108" subtype="項" type="条">
+     <div ana="太政官" n="11.108" type="条" xml:id="article111108"
+      corresp="engishiki_v11.xml#article111108 engishiki_v11_en.xml#article111108">
       <head ana="俘囚夾名"/>
       <note type="summary"> 節会に参加したエミシの名簿に関する規定 </note>
       <p ana="項" corresp="engishiki_v11.xml#item11110801 engishiki_v11_en.xml#item11110801"
@@ -2664,7 +2773,8 @@
         <rt place="right"> せちえ </rt>
        </ruby> では、事前に賜物の対象となる、服属したエミシの名簿を、他の参加者と紙を分けて奏上せよ。その者が五位の位階を持っていたとしても、この規定のとおりにせよ。 </p>
      </div>
-     <div ana="太政官" n="11.109" subtype="項" type="条">
+     <div ana="太政官" n="11.109" type="条" xml:id="article111109"
+      corresp="engishiki_v11.xml#article111109 engishiki_v11_en.xml#article111109">
       <head ana="節会見参"/>
       <note type="summary"> 節会の参加者の名簿に関する規定 </note>
       <p ana="項" corresp="engishiki_v11.xml#item11110901 engishiki_v11_en.xml#item11110901"
@@ -2685,7 +2795,8 @@
         <rt place="right"> じじじゅう </rt>
        </ruby> 以上の参加者の名簿もこれと同様にせよ。 </p>
      </div>
-     <div ana="太政官" n="11.110" subtype="項" type="条">
+     <div ana="太政官" n="11.110" type="条" xml:id="article111110"
+      corresp="engishiki_v11.xml#article111110 engishiki_v11_en.xml#article111110">
       <head ana="山陵幣"/>
       <note type="summary"> 陵墓への捧げ物の分与の儀式に関する規定 </note>
       <p ana="項" corresp="engishiki_v11.xml#item11111001 engishiki_v11_en.xml#item11111001"
@@ -2730,7 +2841,8 @@
         <rt place="right"> じぶしょう </rt>
        </ruby> に通知せよ〈詳細は儀式書を参照〉。 </p>
      </div>
-     <div ana="太政官" n="11.111" subtype="項" type="条">
+     <div ana="太政官" n="11.111" type="条" xml:id="article111111"
+      corresp="engishiki_v11.xml#article111111 engishiki_v11_en.xml#article111111">
       <head ana="追儺"/>
       <note type="summary"> 大晦日の悪鬼を追い払う儺の儀式に関する規定 </note>
       <p ana="項" corresp="engishiki_v11.xml#item11111101 engishiki_v11_en.xml#item11111101"
@@ -2772,7 +2884,8 @@
         <rt place="right"> し </rt>
        </ruby> が伺候して通常どおり差配せよ〈詳細は儀式書を参照〉。 </p>
      </div>
-     <div ana="太政官" n="11.112" subtype="項" type="条">
+     <div ana="太政官" n="11.112" type="条" xml:id="article111112"
+      corresp="engishiki_v11.xml#article111112 engishiki_v11_en.xml#article111112">
       <head ana="行幸経旬"/>
       <note type="summary"> 天皇の行幸に関する規定 </note>
       <p ana="項" corresp="engishiki_v11.xml#item11111201 engishiki_v11_en.xml#item11111201"
@@ -2850,7 +2963,8 @@
        の読み上げを行え。行幸先の国の郡司に等級別に賞与せよ〈位階を授与する場合もある〉。宿泊先の宮の近隣の八〇歳以上の者や、行幸に付き従った者に褒賞の物を与えよ〈詳細は儀式書を参照〉。
       </p>
      </div>
-     <div ana="太政官" n="11.113" subtype="項" type="条">
+     <div ana="太政官" n="11.113" type="条" xml:id="article111113"
+      corresp="engishiki_v11.xml#article111113 engishiki_v11_en.xml#article111113">
       <head ana="季禄"/>
       <note type="summary"> 職位給等の支給手続きに関する規定 </note>
       <p ana="項" corresp="engishiki_v11.xml#item11111301 engishiki_v11_en.xml#item11111301"
@@ -2884,7 +2998,8 @@
         <rt place="right"> しきぶしき </rt>
        </ruby> を参照〉。 </p>
      </div>
-     <div ana="太政官" n="11.114" subtype="項" type="条">
+     <div ana="太政官" n="11.114" type="条" xml:id="article111114"
+      corresp="engishiki_v11.xml#article111114 engishiki_v11_en.xml#article111114">
       <head ana="諸王時服"/>
       <note type="summary"> 皇族の衣替え手当て支給に関する規定 </note>
       <p ana="項" corresp="engishiki_v11.xml#item11111401 engishiki_v11_en.xml#item11111401"
@@ -2902,7 +3017,8 @@
         <rt place="right"> ひょうぶしょう </rt>
        </ruby> が管轄する官人名簿と同様にせよ。 </p>
      </div>
-     <div ana="太政官" n="11.115" subtype="項" type="条">
+     <div ana="太政官" n="11.115" type="条" xml:id="article111115"
+      corresp="engishiki_v11.xml#article111115 engishiki_v11_en.xml#article111115">
       <head ana="女官時服"/>
       <note type="summary"> 女性の衣替え手当ての支給手続きに関する規定 </note>
       <p ana="項" corresp="engishiki_v11.xml#item11111501 engishiki_v11_en.xml#item11111501"
@@ -2917,7 +3033,8 @@
         <rt place="right"> おおくらしょう </rt>
        </ruby> に下達し、二十二日に出庫して支給せよ。 </p>
      </div>
-     <div ana="太政官" n="11.116" subtype="項" type="条">
+     <div ana="太政官" n="11.116" type="条" xml:id="article111116"
+      corresp="engishiki_v11.xml#article111116 engishiki_v11_en.xml#article111116">
       <head ana="諸司時服"/>
       <note type="summary"> 衣替え手当ての支給手続きに関する規定 </note>
       <p ana="項" corresp="engishiki_v11.xml#item11111601 engishiki_v11_en.xml#item11111601"
@@ -2935,7 +3052,8 @@
        に下達し、二十二日に出庫して支給せよ。支給する日には弁官一人が大蔵省に行って差配せよ〈詳細は中務式を参照〉。位階を持たない親王や親王の養育を担当する女性への衣替え手当ては、六月十日に太政官が文書を大蔵省に下達し、十五日に出庫して支給せよ。秋冬分の支給もこれと同様にせよ。
       </p>
      </div>
-     <div ana="太政官" n="11.117" subtype="項" type="条">
+     <div ana="太政官" n="11.117" type="条" xml:id="article111117"
+      corresp="engishiki_v11.xml#article111117 engishiki_v11_en.xml#article111117">
       <head ana="位禄"/>
       <note type="summary"> 四位・五位特別手当ての支給手続きに関する規定 </note>
       <p ana="項" corresp="engishiki_v11.xml#item11111701 engishiki_v11_en.xml#item11111701"
@@ -2956,7 +3074,8 @@
         <rt place="right"> おおくらしょう </rt>
        </ruby> に下達し、二十二日に出庫して支給せよ〈詳細は儀式書を参照〉。畿外の国に赴任している者や国司の分は、その国の財源から支給せよ。 </p>
      </div>
-     <div ana="太政官" n="11.118" subtype="項" type="条">
+     <div ana="太政官" n="11.118" type="条" xml:id="article111118"
+      corresp="engishiki_v11.xml#article111118 engishiki_v11_en.xml#article111118">
       <head ana="馬料"/>
       <note type="summary"> 馬の飼育手当ての支給手続きに関する規定 </note>
       <p ana="項" corresp="engishiki_v11.xml#item11111801 engishiki_v11_en.xml#item11111801"
@@ -2981,7 +3100,8 @@
         <rt place="right"> しきぶしき </rt>
        </ruby> を参照〉。 </p>
      </div>
-     <div ana="太政官" n="11.119" subtype="項" type="条">
+     <div ana="太政官" n="11.119" type="条" xml:id="article111119"
+      corresp="engishiki_v11.xml#article111119 engishiki_v11_en.xml#article111119">
       <head ana="月料要劇大粮"/>
       <note type="summary"> 月ごとの食事手当て等の支給手続きに関する規定 </note>
       <p ana="項" corresp="engishiki_v11.xml#item11111901 engishiki_v11_en.xml#item11111901"
@@ -3000,7 +3120,8 @@
         <rt place="right"> みんぶしょう </rt>
        </ruby> に下達し、二十二日に出庫して支給せよ。もし雪や雨が降った場合は、そのつど日を改めよ。 </p>
      </div>
-     <div ana="太政官" n="11.120" subtype="項" type="条">
+     <div ana="太政官" n="11.120" type="条" xml:id="article111120"
+      corresp="engishiki_v11.xml#article111120 engishiki_v11_en.xml#article111120">
       <head ana="紙筆"/>
       <note type="summary"> 中央諸官司が消費する紙・筆の支給手続きに関する規定 </note>
       <p ana="項" corresp="engishiki_v11.xml#item11112001 engishiki_v11_en.xml#item11112001"
@@ -3012,7 +3133,8 @@
         <rt place="right"> だいじょうかん </rt>
        </ruby> に報告し、太政官がその結果を中務省に下達し、諸官司に充当させよ。翌月分は毎月下旬に受け渡せ。 </p>
      </div>
-     <div ana="太政官" n="11.121" subtype="項" type="条">
+     <div ana="太政官" n="11.121" type="条" xml:id="article111121"
+      corresp="engishiki_v11.xml#article111121 engishiki_v11_en.xml#article111121">
       <head ana="官年料"/>
       <note type="summary"> 太政官が消費する物品の受け取り方法に関する規定 </note>
       <p ana="項" corresp="engishiki_v11.xml#item11112101 engishiki_v11_en.xml#item11112101"
@@ -3025,7 +3147,8 @@
         <rt place="right"> ずしょりょう </rt>
        </ruby> が特に良いものを選び、毎月納品書と共に進上しているので、重ねて使者を派遣して受け取らせることのないようにせよ。 </p>
      </div>
-     <div ana="太政官" n="11.122" subtype="項" type="条">
+     <div ana="太政官" n="11.122" type="条" xml:id="article111122"
+      corresp="engishiki_v11.xml#article111122 engishiki_v11_en.xml#article111122">
       <head ana="充座"/>
       <note type="summary"> 官人の座を三年に一度支給しなおす規定 </note>
       <p ana="項" corresp="engishiki_v11.xml#item11112201 engishiki_v11_en.xml#item11112201"
@@ -3034,7 +3157,8 @@
         <rt place="right"> かもんしき </rt>
        </ruby> を参照〉。 </p>
      </div>
-     <div ana="太政官" n="11.123" subtype="項" type="条">
+     <div ana="太政官" n="11.123" type="条" xml:id="article111123"
+      corresp="engishiki_v11.xml#article111123 engishiki_v11_en.xml#article111123">
       <head ana="考定"/>
       <note type="summary"> 太政官の勤務評定を定める儀式に関する規定 </note>
       <p ana="項" corresp="engishiki_v11.xml#item11112301 engishiki_v11_en.xml#item11112301"
@@ -3109,7 +3233,8 @@
         <rt place="right"> しぶ </rt>
        </ruby> の勤務評定も同様に後日定めよ。 </p>
      </div>
-     <div ana="太政官" n="11.124" subtype="項" type="条">
+     <div ana="太政官" n="11.124" type="条" xml:id="article111124"
+      corresp="engishiki_v11.xml#article111124 engishiki_v11_en.xml#article111124">
       <head ana="禄法"/>
       <note type="summary"> 太政官での人事関係の儀式における給与額のリスト </note>
       <p ana="項" corresp="engishiki_v11.xml#item11112401 engishiki_v11_en.xml#item11112401"
@@ -3148,7 +3273,8 @@
         <rt place="right"> じきちょう </rt>
        </ruby> は一段。 </p>
      </div>
-     <div ana="太政官" n="11.125" subtype="項" type="条">
+     <div ana="太政官" n="11.125" type="条" xml:id="article111125"
+      corresp="engishiki_v11.xml#article111125 engishiki_v11_en.xml#article111125">
       <head ana="諸司考文"/>
       <note type="summary"> 中央諸官司・畿内国司の勤務評価・昇進評定文書の処理手続きに関する規定 </note>
       <p ana="項" corresp="engishiki_v11.xml#item11112501 engishiki_v11_en.xml#item11112501"
@@ -3165,7 +3291,8 @@
        </ruby> に下達せよ。太政官の常勤・非常勤の官人の勤務評定結果もついでに下達せよ。中央諸官司および畿内諸国の非常勤の官人の勤務評定結果は、十月二日に集めて式部省・兵部省に送付せよ。
       </p>
      </div>
-     <div ana="太政官" n="11.126" subtype="項" type="条">
+     <div ana="太政官" n="11.126" type="条" xml:id="article111126"
+      corresp="engishiki_v11.xml#article111126 engishiki_v11_en.xml#article111126">
       <head ana="諸国考文"/>
       <note type="summary"> 諸国の政務報告文書の提出手続きに関する規定 </note>
       <p ana="項" corresp="engishiki_v11.xml#item11112601 engishiki_v11_en.xml#item11112601"
@@ -3183,7 +3310,8 @@
         <rt place="right"> ひょうぶしょう </rt>
        </ruby> に下達することは、前条の例と同様にせよ。非常勤の官人の勤務評定結果は十一月二日に式部省・兵部省に送付せよ。 </p>
      </div>
-     <div ana="太政官" n="11.127" subtype="項" type="条">
+     <div ana="太政官" n="11.127" type="条" xml:id="article111127"
+      corresp="engishiki_v11.xml#article111127 engishiki_v11_en.xml#article111127">
       <head ana="列見"/>
       <note type="summary"> 位階が授与される者を大臣と面会させる儀式に関する規定 </note>
       <p ana="項" corresp="engishiki_v11.xml#item11112701 engishiki_v11_en.xml#item11112701"
@@ -3206,7 +3334,8 @@
        以上の者を引率せよ。十一日に大臣に引き合わせ、二省は名簿によって結果をその者に唱え聞かせよ。もし二省による評定の結果に疑義がある場合は大臣がみずから筆をとって修正せよ。その他の儀式次第は勤務評定を行う儀式と同様にせよ〈詳細は儀式書を参照〉。非常勤の官人は式部省・兵部省の庁舎で結果を唱え聞かせよ。
       </p>
      </div>
-     <div ana="太政官" n="11.128" subtype="項" type="条">
+     <div ana="太政官" n="11.128" type="条" xml:id="article111128"
+      corresp="engishiki_v11.xml#article111128 engishiki_v11_en.xml#article111128">
       <head ana="擬階"/>
       <note type="summary"> 勤務を重ねた結果与える位階の案を上奏する際の手続きに関する規定 </note>
       <p ana="項" corresp="engishiki_v11.xml#item11112801 engishiki_v11_en.xml#item11112801"
@@ -3222,7 +3351,8 @@
         <rt place="right"> げき </rt>
        </ruby> に提出せよ。外記は集計して上奏するための文書を作成し、参議以上の署名を求めよ。四月七日に大臣以下がともに引率して上奏せよ〈詳細は儀式書を参照〉。 </p>
      </div>
-     <div ana="太政官" n="11.129" subtype="項" type="条">
+     <div ana="太政官" n="11.129" type="条" xml:id="article111129"
+      corresp="engishiki_v11.xml#article111129 engishiki_v11_en.xml#article111129">
       <head ana="位記請印"/>
       <note type="summary"> 六位以下の位階の証書への押印手続きに関する規定 </note>
       <p ana="項" corresp="engishiki_v11.xml#item11112901 engishiki_v11_en.xml#item11112901"
@@ -3242,7 +3372,8 @@
         <rt place="right"> にかわ </rt>
        </ruby> などは事前に請求し受け取る〉。 </p>
      </div>
-     <div ana="太政官" n="11.130" subtype="項" type="条">
+     <div ana="太政官" n="11.130" type="条" xml:id="article111130"
+      corresp="engishiki_v11.xml#article111130 engishiki_v11_en.xml#article111130">
       <head ana="位記召給"/>
       <note type="summary"> 位階の証書への押印と本人に授与する儀式に関する規定 </note>
       <p ana="項" corresp="engishiki_v11.xml#item11113001 engishiki_v11_en.xml#item11113001"
@@ -3276,7 +3407,8 @@
         <rt place="right"> かもさい </rt>
        </ruby> と重なった場合は、他の日に改めよ。 </p>
      </div>
-     <div ana="太政官" n="11.131" subtype="項" type="条">
+     <div ana="太政官" n="11.131" type="条" xml:id="article111131"
+      corresp="engishiki_v11.xml#article111131 engishiki_v11_en.xml#article111131">
       <head ana="任郡司"/>
       <note type="summary"> 郡司の任用手続きに関する規定 </note>
       <p ana="項" corresp="engishiki_v11.xml#item11113101 engishiki_v11_en.xml#item11113101"
@@ -3294,7 +3426,8 @@
         <rt place="right"> だいじょうかん </rt>
        </ruby> の庁舎で式部省がまず証書を授与し、その後任命される者の名を読み上げることは通常の任官儀式と同様にせよ〈詳細は儀式書を参照〉。 </p>
      </div>
-     <div ana="太政官" n="11.132" subtype="項" type="条">
+     <div ana="太政官" n="11.132" type="条" xml:id="article111132"
+      corresp="engishiki_v11.xml#article111132 engishiki_v11_en.xml#article111132">
       <head ana="出雲国造"/>
       <note type="summary"> 出雲国造の任用手続きに関する規定 </note>
       <p ana="項" corresp="engishiki_v11.xml#item11113201 engishiki_v11_en.xml#item11113201"
@@ -3326,7 +3459,8 @@
         <rt place="right"> じんぎしき </rt>
        </ruby> と儀式書を参照〉。 </p>
      </div>
-     <div ana="太政官" n="11.133" subtype="項" type="条">
+     <div ana="太政官" n="11.133" type="条" xml:id="article111133"
+      corresp="engishiki_v11.xml#article111133 engishiki_v11_en.xml#article111133">
       <head ana="新暦"/>
       <note type="summary"> 暦の奏上と配布に関する規定 </note>
       <p ana="項" corresp="engishiki_v11.xml#item11113301 engishiki_v11_en.xml#item11113301"
@@ -3339,7 +3473,8 @@
         <rt place="right"> なかつかさしょう </rt>
        </ruby> は十一月一日に奏上せよ。中央・地方の諸官司に配布するための暦は少納言に託して大臣に渡させ、大臣は弁官に転送し、諸官司に配布させよ。 </p>
      </div>
-     <div ana="太政官" n="11.134" subtype="項" type="条">
+     <div ana="太政官" n="11.134" type="条" xml:id="article111134"
+      corresp="engishiki_v11.xml#article111134 engishiki_v11_en.xml#article111134">
       <head ana="鼓吹"/>
       <note type="summary"> 鼓笛の演奏の教習に関する規定 </note>
       <p ana="項" corresp="engishiki_v11.xml#item11113401 engishiki_v11_en.xml#item11113401"
@@ -3373,7 +3508,8 @@
         <rt place="right"> さかん </rt>
        </ruby> それぞれ一人が兵庫寮に赴き、実技試験を行え〈詳細は兵部式を参照〉。 </p>
      </div>
-     <div ana="太政官" n="11.135" subtype="項" type="条">
+     <div ana="太政官" n="11.135" type="条" xml:id="article111135"
+      corresp="engishiki_v11.xml#article111135 engishiki_v11_en.xml#article111135">
       <head ana="断罪文"/>
       <note type="summary"> 刑部省が作成する判決文の処理手続きに関する規定 </note>
       <p ana="項" corresp="engishiki_v11.xml#item11113501 engishiki_v11_en.xml#item11113501"
@@ -3391,7 +3527,8 @@
        が再度確認して上奏文書を作成し、二十日より前に奏上せよ〈流罪以上の罪と官位の剥奪を伴う罪がこれに該当する〉。上奏がそのまま承認されるか、天皇の判断により減刑がなされれば、その旨を刑部省の判決文の後に記し、押印せよ。その後弁官に送付せよ〈一通は弁官に留め置き、一通は刑部省に下達する〉。
       </p>
      </div>
-     <div ana="太政官" n="11.136" subtype="項" type="条">
+     <div ana="太政官" n="11.136" type="条" xml:id="article111136"
+      corresp="engishiki_v11.xml#article111136 engishiki_v11_en.xml#article111136">
       <head ana="四度公文"/>
       <note type="summary"> 地方行政の報告書類の受理に関する規定 </note>
       <p ana="項" corresp="engishiki_v11.xml#item11113601 engishiki_v11_en.xml#item11113601"
@@ -3400,7 +3537,8 @@
         <rt place="right"> だいじょうかん </rt>
        </ruby> に提出された際には、目録と照合し、もし書類がそろっていなければ、報告書類を受理せず返却せよ。 </p>
      </div>
-     <div ana="太政官" n="11.137" subtype="項" type="条">
+     <div ana="太政官" n="11.137" type="条" xml:id="article111137"
+      corresp="engishiki_v11.xml#article111137 engishiki_v11_en.xml#article111137">
       <head ana="調庸帳"/>
       <note type="summary"> 税物の集計報告書を上奏する規定 </note>
       <p ana="項" corresp="engishiki_v11.xml#item11113701 engishiki_v11_en.xml#item11113701"
@@ -3409,7 +3547,8 @@
         <rt place="right"> だいじょうかん </rt>
        </ruby> に提出されたら、太政官は数か国をあわせた目録を作成し、少納言が上奏せよ。 </p>
      </div>
-     <div ana="太政官" n="11.138" subtype="項" type="条">
+     <div ana="太政官" n="11.138" type="条" xml:id="article111138"
+      corresp="engishiki_v11.xml#article111138 engishiki_v11_en.xml#article111138">
       <head ana="四度使"/>
       <note type="summary"> 諸国からの各種行政文書の提出の任務を負った使者への罰則に関する規定 </note>
       <p ana="項" corresp="engishiki_v11.xml#item11113801 engishiki_v11_en.xml#item11113801"
@@ -3419,7 +3558,8 @@
         <rt place="right"> ぎょうぶしょう </rt>
        </ruby> に収納せよ。税物を運ぶ使者は、都に滞在している他の任務を負った使者に任務を任せることをしてはならない。もし違反した場合は、法に基づき取り調べ処罰せよ。 </p>
      </div>
-     <div ana="太政官" n="11.139" subtype="項" type="条">
+     <div ana="太政官" n="11.139" type="条" xml:id="article111139"
+      corresp="engishiki_v11.xml#article111139 engishiki_v11_en.xml#article111139">
       <head ana="公文進官"/>
       <note type="summary"> 諸国から提出される文書の受理手続きに関する規定 </note>
       <p ana="項" corresp="engishiki_v11.xml#item11113901 engishiki_v11_en.xml#item11113901"
@@ -3429,7 +3569,8 @@
        </ruby> に提出された後、受理した旨を書き付けて文書管理部局に送付せよ。文書を運んできた使者とその下僚が、二か月以内に文書管理部局に来なかった場合は、そのまま担当官司に送付せよ。
       </p>
      </div>
-     <div ana="太政官" n="11.140" subtype="項" type="条">
+     <div ana="太政官" n="11.140" type="条" xml:id="article111140"
+      corresp="engishiki_v11.xml#article111140 engishiki_v11_en.xml#article111140">
       <head ana="公文下省"/>
       <note type="summary"> 諸国の提出文書の確認を民部省が遅延した場合の規定 </note>
       <p ana="項" corresp="engishiki_v11.xml#item11114001 engishiki_v11_en.xml#item11114001"
@@ -3438,7 +3579,8 @@
         <rt place="right"> みんぶしょう </rt>
        </ruby> に送付した後、民部省が正当な理由もなく手続きを進めずに使者を困らせた場合は、その事情を聴取した上で処罰せよ。 </p>
      </div>
-     <div ana="太政官" n="11.141" subtype="項" type="条">
+     <div ana="太政官" n="11.141" type="条" xml:id="article111141"
+      corresp="engishiki_v11.xml#article111141 engishiki_v11_en.xml#article111141">
       <head ana="文殿雑書"/>
       <note type="summary"> 太政官の文書管理部局の書類を部局外に出さない規定 </note>
       <p ana="項" corresp="engishiki_v11.xml#item11114101 engishiki_v11_en.xml#item11114101"
@@ -3448,7 +3590,8 @@
         <rt place="right"> だいじょうかん </rt>
        </ruby> と左右弁官の文書管理部局に保管している様々な書類は、建物の外に出してはならない。 </p>
      </div>
-     <div ana="太政官" n="11.142" subtype="項" type="条">
+     <div ana="太政官" n="11.142" type="条" xml:id="article111142"
+      corresp="engishiki_v11.xml#article111142 engishiki_v11_en.xml#article111142">
       <head ana="厨家"/>
       <note type="summary"> 太政官の厨房の出納に関する規定 </note>
       <p ana="項" corresp="engishiki_v11.xml#item11114201 engishiki_v11_en.xml#item11114201"
@@ -3467,7 +3610,8 @@
         <rt place="right"> けんもつ </rt>
        </ruby> と主計寮のことである〉。 </p>
      </div>
-     <div ana="太政官" n="11.143" subtype="項" type="条">
+     <div ana="太政官" n="11.143" type="条" xml:id="article111143"
+      corresp="engishiki_v11.xml#article111143 engishiki_v11_en.xml#article111143">
       <head ana="造館舎"/>
       <note type="summary"> 太政官の庁舎の修繕に関する規定 </note>
       <p ana="項" corresp="engishiki_v11.xml#item11114301 engishiki_v11_en.xml#item11114301"
@@ -3491,7 +3635,8 @@
        それぞれ一人が、二年を任期として二月に交替せよ。担当責任者はまず破損状況を確認し、それにしたがって必要物品を差配せよ。修繕箇所には随時監査を行い、任務を全うできていない者がいたら、任期の満了をまたずに交替せよ。
       </p>
      </div>
-     <div ana="太政官" n="11.144" subtype="項" type="条">
+     <div ana="太政官" n="11.144" type="条" xml:id="article111144"
+      corresp="engishiki_v11.xml#article111144 engishiki_v11_en.xml#article111144">
       <head ana="文殿公文"/>
       <note type="summary"> 弁官の文書管理部局の担当官人に関する規定 </note>
       <p ana="項" corresp="engishiki_v11.xml#item11114401 engishiki_v11_en.xml#item11114401"
@@ -3503,7 +3648,8 @@
         <rt place="right"> ししょう </rt>
        </ruby> それぞれ二人は、毎年二月に交替せよ。 </p>
      </div>
-     <div ana="太政官" n="11.145" subtype="項" type="条">
+     <div ana="太政官" n="11.145" type="条" xml:id="article111145"
+      corresp="engishiki_v11.xml#article111145 engishiki_v11_en.xml#article111145">
       <head ana="厨家別当"/>
       <note type="summary"> 太政官の厨房の担当官人に関する規定 </note>
       <p ana="項" corresp="engishiki_v11.xml#item11114501 engishiki_v11_en.xml#item11114501"
@@ -3525,7 +3671,8 @@
         <rt place="right"> ししょう </rt>
        </ruby> それぞれ一人。一年を任期とし、二月に行われる位階授与者を大臣が確認点検する儀式の後に交替せよ。 </p>
      </div>
-     <div ana="太政官" n="11.146" subtype="項" type="条">
+     <div ana="太政官" n="11.146" type="条" xml:id="article111146"
+      corresp="engishiki_v11.xml#article111146 engishiki_v11_en.xml#article111146">
       <head ana="例進地子"/>
       <note type="summary"> 太政官の財源の田地賃貸料に関する規定 </note>
       <p ana="項" corresp="engishiki_v11.xml#item11114601 engishiki_v11_en.xml#item11114601"
@@ -3534,7 +3681,8 @@
         <rt place="right"> だいじょうかん </rt>
        </ruby> の財源として納入する占有用益者のいない田地の賃貸料は、担当官司に命じて毎年七月より前に納入状況を報告させ、それに応じて督促状を下達して納入を催促させよ。 </p>
      </div>
-     <div ana="太政官" n="11.147" subtype="項" type="条">
+     <div ana="太政官" n="11.147" type="条" xml:id="article111147"
+      corresp="engishiki_v11.xml#article111147 engishiki_v11_en.xml#article111147">
       <head ana="拘留返抄"/>
       <note type="summary"> 太政官の財源の田地賃貸料を未納した場合の規定 </note>
       <p ana="項" corresp="engishiki_v11.xml#item11114701 engishiki_v11_en.xml#item11114701"
@@ -3545,7 +3693,8 @@
        の財源として納入する、占有用益者のいない田地の賃貸料としての米や、それを用いて調達する様々な物品について、未納がある場合には、中央へ提出する財務報告書等の受領証の発行を差し留めよ。
       </p>
      </div>
-     <div ana="太政官" n="11.148" subtype="項" type="条">
+     <div ana="太政官" n="11.148" type="条" xml:id="article111148"
+      corresp="engishiki_v11.xml#article111148 engishiki_v11_en.xml#article111148">
       <head ana="薬分稲"/>
       <note type="summary"> 施薬院の財源に関する規定 </note>
       <p ana="項" corresp="engishiki_v11.xml#item11114801 engishiki_v11_en.xml#item11114801"
@@ -3555,7 +3704,8 @@
         <rt place="right"> やくいん </rt>
        </ruby> の財源として諸国に運用を委任した稲については、申請があったとしても、減額を認めない。 </p>
      </div>
-     <div ana="太政官" n="11.149" subtype="項" type="条">
+     <div ana="太政官" n="11.149" type="条" xml:id="article111149"
+      corresp="engishiki_v11.xml#article111149 engishiki_v11_en.xml#article111149">
       <head ana="施薬院別当"/>
       <note type="summary"> 施薬院の統括者に関する規定 </note>
       <p ana="項" corresp="engishiki_v11.xml#item11114901 engishiki_v11_en.xml#item11114901"
@@ -3568,7 +3718,8 @@
         <rt place="right"> げき </rt>
        </ruby> 一人より採用せよ。これらの者は交替の際に、交替事務完了証明書の取得は不要とする。 </p>
      </div>
-     <div ana="太政官" n="11.150" subtype="項" type="条">
+     <div ana="太政官" n="11.150" type="条" xml:id="article111150"
+      corresp="engishiki_v11.xml#article111150 engishiki_v11_en.xml#article111150">
       <head ana="薨卒"/>
       <note type="summary"> 五位以上の者が死亡した際の文書手続きに関する規定 </note>
       <p ana="項" corresp="engishiki_v11.xml#item11115001 engishiki_v11_en.xml#item11115001"
@@ -3577,7 +3728,8 @@
         <rt place="right"> げき </rt>
        </ruby> が毎月書類を作成して、翌月の二日に弁官に送付せよ。弁官は担当官司に文書にて通知せよ。もし外記が作成した書類に漏れがあったら、弁官の判断で文書に記載せよ。 </p>
      </div>
-     <div ana="太政官" n="11.151" subtype="項" type="条">
+     <div ana="太政官" n="11.151" type="条" xml:id="article111151"
+      corresp="engishiki_v11.xml#article111151 engishiki_v11_en.xml#article111151">
       <head ana="勘籍"/>
       <note type="summary"> 新たに官人になる者についての戸籍照合作業に関する規定 </note>
       <p ana="項" corresp="engishiki_v11.xml#item11115101 engishiki_v11_en.xml#item11115101"
@@ -3585,7 +3737,8 @@
        はじめて官僚機構に出仕することになった者に対する戸籍の身元確認において、提出された書類の記載に問題があった場合は、その者が特に優れた者でなければ、たやすく訂正・再照合の作業を行ってはならない。
       </p>
      </div>
-     <div ana="太政官" n="11.152" subtype="項" type="条">
+     <div ana="太政官" n="11.152" type="条" xml:id="article111152"
+      corresp="engishiki_v11.xml#article111152 engishiki_v11_en.xml#article111152">
       <head ana="年終帳"/>
       <note type="summary"> 中央諸官司の決算報告書に関する規定 </note>
       <p ana="項" corresp="engishiki_v11.xml#item11115201 engishiki_v11_en.xml#item11115201"
@@ -3595,7 +3748,8 @@
         <rt place="right"> かげゆし </rt>
        </ruby> に送付せよ。 </p>
      </div>
-     <div ana="太政官" n="11.153" subtype="項" type="条">
+     <div ana="太政官" n="11.153" type="条" xml:id="article111153"
+      corresp="engishiki_v11.xml#article111153 engishiki_v11_en.xml#article111153">
       <head ana="校書内豎"/>
       <note type="summary"> 太政官の指示に従う内裏内の機関に関する規定 </note>
       <p ana="項" corresp="engishiki_v11.xml#item11115301 engishiki_v11_en.xml#item11115301"
@@ -3604,7 +3758,8 @@
         <rt place="right"> だいじょうかん </rt>
        </ruby> や弁官の指示にも従え。 </p>
      </div>
-     <div ana="太政官" n="11.154" subtype="項" type="条">
+     <div ana="太政官" n="11.154" type="条" xml:id="article111154"
+      corresp="engishiki_v11.xml#article111154 engishiki_v11_en.xml#article111154">
       <head ana="奏事諸"/>
       <note type="summary"> 葬儀に関与した者が天皇に近侍するのを禁ずる規定 </note>
       <p ana="項" corresp="engishiki_v11.xml#item11115401 engishiki_v11_en.xml#item11115401"
@@ -3613,7 +3768,8 @@
         <rt place="right"> じんぎしき </rt>
        </ruby> を参照〉。 </p>
      </div>
-     <div ana="太政官" n="11.155" subtype="項" type="条">
+     <div ana="太政官" n="11.155" type="条" xml:id="article111155"
+      corresp="engishiki_v11.xml#article111155 engishiki_v11_en.xml#article111155">
       <head ana="葬官"/>
       <note type="summary"> 親王・大臣などが死亡した場合の弔問に関する規定 </note>
       <p ana="項" corresp="engishiki_v11.xml#item11115501 engishiki_v11_en.xml#item11115501"
