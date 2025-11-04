@@ -42112,13 +42112,13 @@
           <relation name="supervises" active="#宮内省"
             passive="#大膳職 #木工寮 #大炊寮 #主殿寮 #典薬寮 #掃部寮 #正親司 #内膳司 #造酒司 #采女司 #主水司"/>
           <relation name="supervises" active="#京職" passive="#市司"/>
+          <relation name="supervises" active="#大宰府"/>
         </listRelation>
         <listRelation type="総称">
           <relation name="memberOf" active="#二官" passive="#神祇官 #太政官"/>
           <relation name="memberOf" active="#八省" passive="#中務省 #式部省 #治部省 #民部省 #兵部省 #刑部省 #大蔵省 #宮内省"/>
           <relation name="memberOf" active="#六衛府" passive="#近衛府 #衛門府 #兵衛府"/>
-          <relation name="supervises" active="#大宰府"/>
-        </listRelation>
+          </listRelation>
         <!-- 不要か 
         <relation active="#左弁官 #右弁官" name="subtype" passive="#弁官"/>
         <relation active="#弁官" name="synonym" passive="#左弁官 #右弁官"/>
