@@ -1,0 +1,1763 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>
+       延喜式ファイル
+      </title>
+<author>
+       国立歴史民俗博物館
+      </author>
+<respStmt>
+<!-- 人数分記入 -->
+<resp/>
+<persName/>
+</respStmt>
+<funder>
+<orgName>
+        人間文化研究機構基幹研究プロジェクト「総合書物学」ユニット「古代の百科全書『延喜式』の多分野協働研究」
+       </orgName>
+<orgName>
+        科研費基盤研究（B）「史料学的検討を重視した『延喜式』の基礎的研究」（研究代表：小倉慈司）
+       </orgName>
+<orgName>
+        科研費基盤研究（B）「格・式研究を踏まえた日本古代社会像の再構築」（研究代表：小倉慈司）
+       </orgName>
+<orgName>
+        学変
+       </orgName>
+</funder>
+<principal>
+       電子テキストの生成に責任のある中心的な研究者の名前を示す
+      </principal>
+</titleStmt>
+<publicationStmt>
+<authority>
+       国立歴史民俗博物館
+      </authority>
+<distributor>
+       保留
+      </distributor>
+<publisher>
+       国立歴史民俗博物館メタ資料学研究センター
+      </publisher>
+<idno type="PID">
+       o:depcha.engi_shiki.1
+      </idno>
+<availability>
+<p/>
+</availability>
+<date when="2020-03-31">
+       31 March 2020
+      </date>
+</publicationStmt>
+<notesStmt>
+<note/>
+<relatedItem>
+<listBibl>
+<bibl>
+<author/>
+<title/>
+<date/>
+<publisher/>
+</bibl>
+</listBibl>
+</relatedItem>
+</notesStmt>
+<sourceDesc>
+<msDesc>
+<msIdentifier>
+<settlement>
+         千葉県佐倉市
+        </settlement>
+<institution>
+         人間文化研究機構
+        </institution>
+<repository>
+         国立歴史民俗博物館
+        </repository>
+<collection>
+         集英社版延喜式
+        </collection>
+<idno>
+         H-743-74
+        </idno>
+<msName>
+         田中本『延喜式』
+        </msName>
+</msIdentifier>
+<msContents>
+<msItemStruct>
+<author>
+            藤原時平・藤原忠平
+         </author>
+<title>
+            土御門本『延喜式』
+         </title>
+<colophon>
+            書写奥書は無し。巻九・十に文亀三年（1503）の吉田兼倶本奥書あり
+         </colophon>
+<filiation>
+            ほかの写本との違い；原本は現存せず；古写本として東京国立博物館所蔵九条家旧蔵巻子本・金剛寺本等が現存するが、全巻すべてが揃うものはない。
+								全巻が揃う新写本のなかでは土御門本が善本として知られる。土御門本は一条家本を親本としたと推測されている。ただし同本に欠ける巻十三は、土御門本の書写段階で版本により補われた。
+								巻十三は九条家旧蔵巻子本が現存諸本の祖本。このほかの主要写本には、京都国立博物館所蔵本（京都博物館本）・
+								京都大学附属図書館所蔵近衛家旧蔵本・天理大学附属天理図書館所蔵本（梵舜本・梵舜別本）・宮内庁書陵部所蔵本
+								（壬生家旧蔵本・藤波家旧蔵本）・国立公文書館所蔵本（紅葉山文庫旧蔵慶長写本・林家旧蔵本）等がある。
+         </filiation>
+</msItemStruct>
+</msContents>
+<physDesc>
+<objectDesc>
+<supportDesc>
+<support>
+             楮紙
+            </support>
+<extent>
+             縦27.3～27.4cm × 横 19.8～19.9cm
+            </extent>
+<foliation>
+             丁の表裏（cf. folioのrecto, versoと同じ）
+            </foliation>
+<collation>
+             袋綴じ、より正確には四ツ目綴じの和装本
+            </collation>
+<condition>
+             全巻揃っている。とくに致命的な落丁や虫損は、土御門本自体には基本的に見られない。
+            </condition>
+</supportDesc>
+</objectDesc>
+<bindingDesc>
+<binding>
+<p>
+             渋染栗皮色の表紙。まず左下に墨書で巻数、左上に胡粉で延喜式と直書きされており、そして左下に胡粉で巻数が上書きされている。
+								右上には、巻の内容を表す式名やその略称が胡粉で直書きされている。表紙の心紙には楮紙でできた反故紙が使用されている。押し八双あり。
+            </p>
+</binding>
+</bindingDesc>
+</physDesc>
+<history>
+<summary>
+         土御門家旧蔵→田中教忠氏が収集→孫の田中穣氏が『田中教忠蔵書目録』を私家版として発行→国に譲渡→歴博に移管
+        </summary>
+<origin>
+         土御門泰重が元和三年（1617）～四年頃に一条家所蔵写本（現存せず）を借用して転写せしめた。
+							泰重の孫泰福が巻五十末尾に泰重真筆である旨の識語を記す（実際は泰重の筆はごく一部にとどまる）。
+							また巻五十後表紙見返しに田中教忠による貼紙がある。
+        </origin>
+<provenance>
+         幕末ないし明治初年に田中教忠が入手する。教忠孫の田中穣が1988～1989年に他の教忠収集コレクションとともに国に譲渡。
+        </provenance>
+<acquisition/>
+</history>
+</msDesc>
+<listWit>
+<listWit xml:id="写本">
+<head>
+         写本
+        </head>
+<witness xml:id="土本">
+<abbr>
+            土本
+         </abbr>
+         ：国立歴史民俗博物館所蔵土御門家旧蔵本（H-743-74）
+        </witness>
+<witness xml:id="近本">
+<abbr>
+            近本
+         </abbr>
+         ：京都大学附属図書館所蔵近衛文庫本（2-03/エ/1貴）
+        </witness>
+<witness xml:id="壬本">
+<abbr>
+            壬本
+         </abbr>
+         ：宮内庁書陵部図書寮文庫所蔵壬生家旧蔵本（F10-287）
+        </witness>
+<witness xml:id="京博本">
+<abbr>
+            京博本
+         </abbr>
+         ：京都国立博物館所蔵旧京都博物館本
+        </witness>
+<witness xml:id="慶長本">
+<abbr>
+            慶長本
+         </abbr>
+         ：国立公文書館所蔵慶長写本（特102-8）
+        </witness>
+<witness xml:id="梵本">
+<abbr>
+            梵本
+         </abbr>
+         ：天理大学附属天理図書館所蔵吉田文庫梵舜等筆本（吉16-8。巻8は173-ｲ5（Ⅲ524)もあり）
+        </witness>
+<witness xml:id="九本">
+<abbr>
+            九本
+         </abbr>
+         ：東京国立博物館所蔵九条家旧蔵巻子本（B-2370）
+        </witness>
+<witness xml:id="剛本">
+<abbr>
+            剛本
+         </abbr>
+         ：天野山金剛寺所蔵本
+        </witness>
+<witness xml:id="条本">
+<abbr>
+            条本
+         </abbr>
+         ：一条家旧蔵巻子本（巻1～3は無窮会専門図書館所蔵模写本、巻4・5は神宮司庁刊影印本）
+        </witness>
+<witness xml:id="花本">
+<abbr>
+            花本
+         </abbr>
+         ：武田祐吉旧蔵花山院通雅筆本（神宮皇学館刊影印本による）
+        </witness>
+<witness xml:id="九冊本">
+<abbr>
+            九冊本
+         </abbr>
+         ：國學院大學所蔵九条家・西田長男旧蔵冊子本（巻5は西田長男刊影印本による）
+        </witness>
+<witness xml:id="永本">
+<abbr>
+            永本
+         </abbr>
+         ：國學院大學図書館所蔵卜部兼永筆本（巻8、091.2/322.135/1）、鈴鹿義鯨旧蔵卜部兼永筆本（巻9・10、現蔵不明、神宮文庫写真帳1門16974を閲覧）
+        </witness>
+<witness xml:id="右本">
+<abbr>
+            右本
+         </abbr>
+         ：巻8は國學院大學図書館所蔵（貴62）
+        </witness>
+<witness xml:id="吉本">
+<abbr>
+            吉本
+         </abbr>
+         ：天理大学附属天理図書館所蔵吉田家旧蔵本巻9・10（328.1-ｲ17（『天理図書館稀書目録　和漢書之部　第三』1219）
+        </witness>
+<witness xml:id="三条本">
+<abbr>
+            三条本
+         </abbr>
+         ：天理大学附属天理図書館所蔵三条家旧蔵本（328.1-ｲ11(Ⅲ1218)）
+        </witness>
+<witness xml:id="西本">
+<abbr>
+            西本
+         </abbr>
+         ：國學院大學図書館所蔵三条西家旧蔵本（巻9・10、貴107～108）、国立歴史民俗博物館所蔵三条西家旧蔵本（巻50、H-1588）。抄出本は國學院大學所蔵（木村大樹「〔西田長男旧蔵〕三条西実隆筆『延喜式』(抄)の翻刻・紹介」『國學院大學研究開発推進機構紀要』14、2022年）
+        </witness>
+<witness xml:id="時慶本">
+<abbr>
+            時慶本
+         </abbr>
+         ：静嘉堂文庫所蔵西洞院時慶写本（延喜格式表18352、延喜式序18353）
+        </witness>
+<witness xml:id="藤波本">
+<abbr>
+            藤波本
+         </abbr>
+         ：宮内庁書陵部図書寮文庫所蔵藤波家旧蔵本（217-473）
+        </witness>
+<witness xml:id="島原本">
+<abbr>
+            島原本
+         </abbr>
+         ：東京大学史料編纂所所蔵松平忠房・和学講談所・水野忠央旧蔵本（貴45-2）
+        </witness>
+<witness xml:id="貞享本">
+<abbr>
+            貞享本
+         </abbr>
+         ：宮内庁書陵部図書寮文庫所蔵和学講談所旧蔵坊城俊方貞享五年写本（457-116）
+        </witness>
+<witness xml:id="玄梁本">
+<abbr>
+            玄梁本
+         </abbr>
+         ：無窮会専門図書館所蔵神習文庫玄梁記名本（神習3666）
+        </witness>
+<witness xml:id="尾張本">
+<abbr>
+            尾張本
+         </abbr>
+         ：東京大学総合図書館所蔵尾張家旧蔵本（巻13）（A00-6122）
+        </witness>
+<witness xml:id="泉亭本">
+<abbr>
+            泉亭本
+         </abbr>
+         ：賀茂三手文庫所蔵泉亭本（制度/加）
+        </witness>
+</listWit>
+<listWit xml:id="版本">
+<head>
+         版本：慶安版本も含めた流布版本
+        </head>
+<witness xml:id="慶安版本">
+<abbr>
+            慶安版本
+         </abbr>
+         ：大和文華館所蔵鈴鹿連胤旧蔵版本（1/741～790）
+        </witness>
+<witness xml:id="明暦版本">
+<abbr>
+            明暦版本
+         </abbr>
+         ：明暦修訂版本　国立公文書館所蔵紅葉山文庫旧蔵版本（特26-1）等
+        </witness>
+<witness xml:id="明暦以降版本">
+<abbr>
+            明暦以降版本
+         </abbr>
+         ：明暦修訂本以降の版本
+        </witness>
+<witness xml:id="寛文版本">
+<abbr>
+            寛文版本
+         </abbr>
+         ：寛文修訂版本　筑波大学附属図書館所蔵版本20冊本（ム212-7）等
+        </witness>
+<witness xml:id="享保版本">
+<abbr>
+            享保版本
+         </abbr>
+         ：享保修訂版本　筑波大学附属図書館所蔵版本50冊本（ム212-6）等
+        </witness>
+<witness xml:id="雲本">
+<abbr>
+            雲本
+         </abbr>
+         ：松江藩文政11年(1828)刊本（雲州本）　早稲田大学図書館所蔵本（ワ03-01594）等
+        </witness>
+<witness xml:id="考異">
+<abbr>
+            考異
+         </abbr>
+         ：雲州本附録『延喜式考異』　早稲田大学図書館所蔵本（ワ03-01594）等
+        </witness>
+<witness xml:id="鈴鹿本">
+<abbr>
+            鈴鹿本
+         </abbr>
+         ：大和文華館所蔵鈴鹿連胤旧蔵慶安版本（1/741～790）書入
+        </witness>
+<witness xml:id="勢多本">
+<abbr>
+            勢多本
+         </abbr>
+         ：宮内庁書陵部図書寮文庫所蔵勢多家旧蔵明暦等版本（172-123）書入
+        </witness>
+<witness xml:id="筑波寛文本">
+<abbr>
+            筑波寛文本
+         </abbr>
+         ：筑波大学附属図書館所蔵寛文版本20冊本（ム212-7）書入
+        </witness>
+</listWit>
+<listWit xml:id="刊本">
+<head>
+         刊本
+        </head>
+<witness xml:id="旧大系本">
+<abbr>
+            旧大系本
+         </abbr>
+         ：旧輯国史大系第13巻（経済雑誌社　1900年刊）
+        </witness>
+<witness xml:id="叢書本">
+<abbr>
+            叢書本
+         </abbr>
+         ：新註皇学叢書第3巻（広文庫刊行会　1927年刊）
+        </witness>
+<witness xml:id="全集本">
+<abbr>
+            全集本
+         </abbr>
+         ：日本古典全集『延喜式』（日本古典全集刊行会　1927～1929年刊）
+        </witness>
+<witness xml:id="皇典本">
+<abbr>
+            皇典本
+         </abbr>
+         ：『校訂延喜式』（皇典講究所・全国神職会　1929～1932年刊）
+        </witness>
+<witness xml:id="国史大系本">
+<abbr>
+            国史大系本
+         </abbr>
+         ：新訂増補国史大系第26巻（吉川弘文館　1937年刊）
+        </witness>
+<witness xml:id="神道大系本">
+<abbr>
+            神道大系本
+         </abbr>
+         ：神道大系古典編11・12『延喜式』（神道大系編纂会、1991・1993年刊）
+        </witness>
+<witness xml:id="訳注本">
+<abbr>
+            訳注本
+         </abbr>
+         ：訳注日本史料『延喜式』上～下（集英社、2000～2017年刊）
+        </witness>
+</listWit>
+<listWit xml:id="その他">
+<head>
+         その他
+        </head>
+<witness xml:id="本朝月令">
+<abbr>
+            本朝月令
+         </abbr>
+         ：清水潔編『新校本朝月令』（皇學館大學神道研究所　2002年刊）
+        </witness>
+<witness xml:id="儀式">
+<abbr>
+            儀式
+         </abbr>
+         ：神道大系朝儀祭祀編1『儀式・内裏式』（神道大系編纂会　1980年刊）
+        </witness>
+<witness xml:id="皇太神宮儀式帳">
+<abbr>
+            皇太神宮儀式帳
+         </abbr>
+         ：佐野真人「『皇太神宮儀式帳』校訂試案」（『皇學館大学研究開発推進センター紀要』2　2016年）
+        </witness>
+<witness xml:id="止由気宮儀式帳">
+<abbr>
+            止由気宮儀式帳
+         </abbr>
+         ：佐野真人「『止由気宮儀式帳』校訂試案」（『皇學館大学研究開発推進センター紀要』3　2017年）
+        </witness>
+<witness xml:id="新撰年中行事">
+<abbr>
+            新撰年中行事
+         </abbr>
+         ：西本昌弘編『新撰年中行事』（八木書店　2010年刊）
+        </witness>
+<witness xml:id="小野宮年中行事">
+<abbr>
+            小野宮年中行事
+         </abbr>
+         ：群書類従第6輯 律令部 公事部（続群書類従完成会　1932年刊）
+        </witness>
+<witness xml:id="小野宮年中行事裏書">
+<abbr>
+            小野宮年中行事裏書
+         </abbr>
+         ：国立歴史民俗博物館所蔵本（H-1762）
+        </witness>
+<witness xml:id="勘例">
+<abbr>
+            勘例（陽明文庫所蔵）
+         </abbr>
+         ：大日本古記録『勘例』上・下（岩波書店　2018・2023年刊）
+        </witness>
+<witness xml:id="政事要略">
+<abbr>
+            政事要略
+         </abbr>
+         ：新訂増補国史大系第28巻（吉川弘文館　1935年刊。適宜、写本を参照）
+        </witness>
+<witness xml:id="法曹至要抄">
+<abbr>
+            法曹至要抄
+         </abbr>
+         ：中世法制史料集（岩波書店　2005年刊）
+        </witness>
+<witness xml:id="本草和名">
+<abbr>
+            本草和名
+         </abbr>
+         ：丸山裕美子・武倩編著『本草和名』（汲古書院　2021年刊）
+        </witness>
+</listWit>
+</listWit>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<projectDesc>
+<p>
+       制作過程に関する情報も含めて，電子ファイルが作られた目的の詳細を示す．
+      </p>
+</projectDesc>
+<classDecl>
+<taxonomy>
+<!-- 別ファイルで作成したtaxonomyのデータを挿入する -->
+<desc/>
+</taxonomy>
+</classDecl>
+<variantEncoding location="external" method="location-referenced"/>
+<tagsDecl>
+<rendition xml:id="indent">
+       margin-top: 1em;
+      </rendition>
+<rendition xml:id="indent2">
+       margin-top: 2em;
+      </rendition>
+<rendition xml:id="indent3">
+       margin-top: 3em;
+      </rendition>
+<rendition xml:id="indent4">
+       margin-top: 4em;
+      </rendition>
+<rendition xml:id="indent5">
+       margin-top: 5em;
+      </rendition>
+<rendition xml:id="indent6">
+       margin-top: 6em;
+      </rendition>
+<rendition xml:id="indent7">
+       margin-top: 7em;
+      </rendition>
+<rendition xml:id="indent10">
+       margin-top: 10em;
+      </rendition>
+<rendition xml:id="indent12">
+       margin-top: 12em;
+      </rendition>
+<rendition xml:id="indent13">
+       margin-top: 13em;
+      </rendition>
+<rendition xml:id="indent14">
+       margin-top: 14em;
+      </rendition>
+<rendition xml:id="indent18">
+       margin-top: 18em;
+      </rendition>
+<rendition xml:id="width50">
+       width: 50px;
+      </rendition>
+<rendition xml:id="width80">
+       width: 80px;
+      </rendition>
+<rendition xml:id="width100">
+       width: 100px;
+      </rendition>
+<rendition xml:id="width150">
+       width: 150px;
+      </rendition>
+<rendition xml:id="width170">
+       width: 170px;
+      </rendition>
+<rendition xml:id="width200">
+       width: 200px;
+      </rendition>
+<rendition xml:id="width300">
+       width: 300px;
+      </rendition>
+</tagsDecl>
+<unitDecl>
+<unitDef type=" Length" xml:id="丈">
+<label xml:lang="ja">
+        丈
+       </label>
+<label xml:lang="ja-Lath">
+        jō
+       </label>
+<desc>
+        1 jō 丈 = 10 shaku 尺 = 100 sun 寸 = 1000 bu 分
+       </desc>
+<desc>
+        1 jō 丈 = 297 cm
+       </desc>
+</unitDef>
+<unitDef type=" Length" xml:id="尺">
+<label xml:lang="ja">
+        尺
+       </label>
+<label xml:lang="ja-Lath">
+        shaku
+       </label>
+<conversion formula="$fromUnit*10" fromUnit="#尺" toUnit="#丈"/>
+<desc>
+        1 shaku 尺 = 29.7 cm
+       </desc>
+</unitDef>
+<unitDef type=" Length" xml:id="寸">
+<label xml:lang="ja">
+        寸
+       </label>
+<label xml:lang="ja-Lath">
+        sun
+       </label>
+<conversion formula="$fromUnit*10" fromUnit="#寸" toUnit="#尺"/>
+<desc>
+        11 sun 寸 = 2.97 cm
+       </desc>
+</unitDef>
+<unitDef type=" Length" xml:id="分_Length">
+<label xml:lang="ja">
+        分
+       </label>
+<label xml:lang="ja-Lath">
+        bu
+       </label>
+<conversion formula="$fromUnit*10" fromUnit="#分" toUnit="#寸"/>
+<desc>
+        1 bu 分 = 0.297 cm
+       </desc>
+</unitDef>
+<unitDef type="Volume" xml:id="斛">
+<label xml:lang="ja">
+        斛
+       </label>
+<label xml:lang="ja-Lath">
+        koku
+       </label>
+<desc>
+        1 koku 斛 / 石 = 10 to 斗 = 100 shō 升 = 1000 gō 合 = 10,000 shaku 夕。1 koku 斛 = ca. 81 L
+       </desc>
+</unitDef>
+<unitDef type="Volume" xml:id="石">
+<label xml:lang="ja">
+        石
+       </label>
+<label xml:lang="ja-Lath">
+        koku
+       </label>
+<desc>
+        1 koku 斛 / 石 = 10 to 斗 = 100 shō 升 = 1000 gō 合 = 10,000 shaku 夕。1 koku 石 = ca. 81 L
+       </desc>
+</unitDef>
+<unitDef type="Volume" xml:id="斗">
+<label xml:lang="ja">
+        斗
+       </label>
+<label xml:lang="ja-Lath">
+        to
+       </label>
+<conversion formula="$fromUnit*10" fromUnit="#斗" toUnit="#斛"/>
+<conversion formula="$fromUnit*10" fromUnit="#斗" toUnit="#石"/>
+<desc>
+        1 to 斗 = ca. 8100 ml (8.1 L)
+       </desc>
+</unitDef>
+<unitDef type="Volume" xml:id="升">
+<label xml:lang="ja">
+        升
+       </label>
+<label xml:lang="ja-Lath">
+        shō
+       </label>
+<conversion formula="$fromUnit*10" fromUnit="#升" toUnit="#斗"/>
+<desc>
+        1 shō 升 = ca. 810 ml
+       </desc>
+</unitDef>
+<unitDef type="Volume" xml:id="合">
+<label xml:lang="ja">
+        合
+       </label>
+<label xml:lang="ja-Lath">
+        gō
+       </label>
+<conversion formula="$fromUnit*10" fromUnit="#合" toUnit="#升"/>
+<desc>
+        1 gō 合 = ca. 81 ml
+       </desc>
+</unitDef>
+<unitDef type="Volume" xml:id="夕">
+<label xml:lang="ja">
+        夕
+       </label>
+<label xml:lang="ja-Lath">
+        shaku
+       </label>
+<conversion formula="$fromUnit*10" fromUnit="#夕" toUnit="#合"/>
+<desc>
+        1 shaku 夕 = ca. 8.1 ml
+       </desc>
+</unitDef>
+<unitDef type="Weight" xml:id="斤">
+<label xml:lang="ja">
+        斤
+       </label>
+<label xml:lang="ja-Lath">
+        kin
+       </label>
+<desc>
+        1 kin 斤 = 16 ryō 両 = 64 bu 分 = 384 shu 銖。1 kin 斤 = ca. 674 g
+       </desc>
+</unitDef>
+<unitDef type="Weight" xml:id="両">
+<label xml:lang="ja">
+        両
+       </label>
+<label xml:lang="ja-Lath">
+        ryō
+       </label>
+<conversion formula="$fromUnit*16" fromUnit="#両" toUnit="#斤"/>
+<desc>
+        1 ryō 両 = 4 bu 分 = 24 shu 銖。1 ryō 両 = ca. 42 g
+       </desc>
+</unitDef>
+<unitDef type="Weight" xml:id="分_Weight">
+<label xml:lang="ja">
+        分
+       </label>
+<label xml:lang="ja-Lath">
+        bu
+       </label>
+<conversion formula="$fromUnit*4" fromUnit="#分_Weight" toUnit="#両"/>
+<desc>
+        1 bu 分 = 6 shu 銖。1 bu 分 = ca. 10.5 g
+       </desc>
+</unitDef>
+<unitDef type="Weight" xml:id="銖">
+<label xml:lang="ja">
+        銖
+       </label>
+<label xml:lang="ja-Lath">
+        shu
+       </label>
+<conversion formula="$fromUnit*6" fromUnit="#銖" toUnit="#分_Weight"/>
+<desc>
+        1 shu 銖 = ca. 1.8 g
+       </desc>
+</unitDef>
+<unitDef type="Cloth_chōfu" xml:id="端_調布">
+<label xml:lang="ja">
+        端
+       </label>
+<label xml:lang="ja-Lath">
+        tan
+       </label>
+<desc>
+        1 tan 端 / 段 of chōfu 調布 = (length) 4 jō 丈 2 shaku 尺 × (width) 2 shaku 尺 4 sun 寸 (ca 12.5
+						m × 72 cm)
+       </desc>
+</unitDef>
+<unitDef type="Cloth_chōfu" xml:id="段_調布">
+<label xml:lang="ja">
+        段
+       </label>
+<label xml:lang="ja-Lath">
+        tan
+       </label>
+<desc>
+        1 tan 端 / 段 of chōfu 調布 = (length) 4 jō 丈 2 shaku 尺 × (width) 2 shaku 尺 4 sun 寸 (ca 12.5
+						m × 72 cm)
+       </desc>
+</unitDef>
+<unitDef type="Cloth_yōfu" xml:id="段_庸布">
+<label xml:lang="ja">
+        段
+       </label>
+<label xml:lang="ja-Lath">
+        tan
+       </label>
+<desc>
+        1 tan 段 of yōfu 庸布 = (length) 2 jō 丈 8 shaku 尺 × (width) 2 shaku 尺 4 sun 寸 (ca. 8.3 m ×
+						72 cm)
+       </desc>
+</unitDef>
+<unitDef type="Cloth_shōfu" xml:id="段_商布">
+<label xml:lang="ja">
+        段
+       </label>
+<label xml:lang="ja-Lath">
+        tan
+       </label>
+<desc>
+        1 tan 段 of shōfu 商布 = length 2 jō 丈 6 shaku 尺 (ca. 7.72 m)
+       </desc>
+</unitDef>
+<unitDef type="Cloth_yōfu" xml:id="端_庸布">
+<label xml:lang="ja">
+        端
+       </label>
+<label xml:lang="ja-Lath">
+        tan
+       </label>
+</unitDef>
+<unitDef xml:id="合_set">
+<label xml:lang="ja">
+        合
+       </label>
+<label xml:lang="ja-Lath">
+        gō
+       </label>
+<desc>
+        蓋のある土器の単位。
+       </desc>
+</unitDef>
+<unitDef xml:id="口">
+<label xml:lang="ja">
+        口
+       </label>
+<label xml:lang="ja-Lath">
+        ku
+       </label>
+<desc>
+        土器の単位。
+       </desc>
+</unitDef>
+<unitDef xml:id="疋">
+<label xml:lang="ja">
+        疋
+       </label>
+<label xml:lang="ja-Lath">
+        hiki
+       </label>
+<desc>
+        主に布製品の単位。
+       </desc>
+</unitDef>
+<unitDef xml:id="文">
+<label xml:lang="ja">
+        文
+       </label>
+<label xml:lang="ja-Lath">
+        mon
+       </label>
+<desc>
+        銭の単位。銭1貫=1000文。
+       </desc>
+</unitDef>
+<unitDef type="Weight" xml:id="廷">
+<label xml:lang="ja">
+        廷
+       </label>
+<label xml:lang="ja-Lath">
+        tei
+       </label>
+<desc>
+        鉄1廷=大3斤5両。
+       </desc>
+</unitDef>
+<unitDef xml:id="隻">
+<label xml:lang="ja">
+        隻
+       </label>
+<label xml:lang="ja-Lath">
+        seki
+       </label>
+<desc>
+        魚などの物品の単位。
+       </desc>
+</unitDef>
+<unitDef xml:id="顆">
+<label xml:lang="ja">
+        顆
+       </label>
+<label xml:lang="ja-Lath">
+        ka
+       </label>
+<desc>
+        物品を計上する際の単位。
+       </desc>
+</unitDef>
+<unitDef type="Weight" xml:id="屯">
+<label xml:lang="ja">
+        屯
+       </label>
+<label xml:lang="ja-Lath">
+        ton
+       </label>
+<desc>
+        綿を計上する際の単位。調綿1屯 = 大4両、細屯綿1屯 = 大3両1分2銖 = 小10両、綿1屯 = 大5両2分 = 小1斤2分。
+       </desc>
+</unitDef>
+<unitDef xml:id="張">
+<label xml:lang="ja">
+        張
+       </label>
+<label xml:lang="ja-Lath">
+        chō
+       </label>
+<desc>
+        物品を計上する際の単位。
+       </desc>
+</unitDef>
+<unitDef xml:id="帖">
+<label xml:lang="ja">
+        帖
+       </label>
+<label xml:lang="ja-Lath">
+        jō
+       </label>
+<desc>
+        畳綿を計上する際の単位。
+       </desc>
+</unitDef>
+<unitDef xml:id="枚">
+<label xml:lang="ja">
+        枚
+       </label>
+<label xml:lang="ja-Lath">
+        mai
+       </label>
+<desc>
+        物品を計上する際の単位。
+       </desc>
+</unitDef>
+<unitDef type="Weight" xml:id="絇">
+<label xml:lang="ja">
+        絇
+       </label>
+<label xml:lang="ja-Lath">
+        ku
+       </label>
+<desc>
+        糸の単位。糸1絇=上糸大4両、中糸大5両、麁糸大7両。
+       </desc>
+</unitDef>
+</unitDecl>
+<editorialDecl ana="校訂文凡例">
+<p ana="全体">
+<table>
+<row>
+<cell>
+            ・
+         </cell>
+<cell>
+            原則として土本（以下、略称は「主要写本・版本・刊本等略称・底本一覧」参照）を底本とし、九本・剛本・条本・花本等の古写本や近本・壬本・京博本等の写本によって対校しました（巻によって使用した対校本は異なります）。
+         </cell>
+</row>
+<row>
+<cell>
+            ・
+         </cell>
+<cell>
+            条文番号・条文名称は原則として訳注本に拠りましたが、一部を修正しています（※下記「条文名称修正一覧」参照）。なお1条が長い場合など、必要に応じ「項」に分割して示すこととしました。
+         </cell>
+</row>
+<row>
+<cell>
+            ・
+         </cell>
+<cell>
+            校異は原則として底本の文字を改変する場合、あるいは写本間に参考とすべき異同がある場合、参考とすべき傍書等がある場合に付すこととしました。必ずしもその校異に関する写本をすべて網羅することはせず、主要写本のみを取り上げています。ただし訳注本と校訂文に異同が生じた場合には、できる限り校異にて言及するよう心がけました（単なる字体の相違については省略しています）。
+         </cell>
+</row>
+<row>
+<cell>
+            ・
+         </cell>
+<cell>
+            校訂文は『延喜式』撰上当初の姿の復元を目標としています。標注や傍書は、条文名称に関わるものは省略し、中世以前にさかのぼることが想定されるものに限って、校異注で言及することとしました。ただし標注のうち「弘」「貞」「延」等については便宜を考え、鉤括弧で括って校訂本文に掲げることとしました。
+         </cell>
+</row>
+<row>
+<cell>
+            ・
+         </cell>
+<cell>
+            字体は常用漢字体を原則としました。「大」と「太」、「座」と「坐」、「絇」と「約」、「績」と「續（続）」、「色」と「包」、「細」と「紬」、「鈍」と「純」、「冑」と「胃」、「絁」と「絶」、草冠と竹冠、木偏と手偏等、容易に判定される誤字や誤用・通用については、校異を省略して適宜置き換える場合があります。ただし巻9・10においては「大」「太」の差異も校異にて触れることとしました。
+         </cell>
+</row>
+<row>
+<cell>
+            ・
+         </cell>
+<cell>
+            校訂文中の細字・割書は、〈　〉で括って表現することとしました。
+         </cell>
+</row>
+<row>
+<cell>
+            ・
+         </cell>
+<cell>
+            本文に誤字・脱字等が想定される場合であっても、置き換えるべき文字や補うべき文字が明確でない場合は、校異注での言及にとどめた場合があります。
+         </cell>
+</row>
+<row>
+<cell>
+            ・
+         </cell>
+<cell>
+            ユニコードにて表示されない漢字は以下のように示すことにしました。
+         </cell>
+</row>
+</table>
+<table rendition="#indent2">
+<row>
+<cell rendition="#width100">
+            【Ａ+Ｂ】
+         </cell>
+<cell rendition="#width300">
+            ＝扁がＡ、つくりがＢ
+         </cell>
+<cell rendition="#width300">
+            例）村【木+寸】
+         </cell>
+</row>
+<row>
+<cell rendition="#width100">
+            【Ａ/Ｂ】
+         </cell>
+<cell rendition="#width300">
+            ＝上にＡ、下にＢ
+         </cell>
+<cell rendition="#width300">
+            例）雲【雨/云】
+         </cell>
+</row>
+<row>
+<cell rendition="#width100">
+            【Ａ-Ｂ】
+         </cell>
+<cell rendition="#width300">
+            ＝Ａの字画よりＢにあたる字画を除く
+         </cell>
+<cell rendition="#width300">
+            例）門【閉-オ】
+         </cell>
+</row>
+<row>
+<cell rendition="#width100">
+            【Ａ⊃Ｂ】
+         </cell>
+<cell rendition="#width300">
+            ＝Ａの字画のなかにＢの字画が含まれる
+         </cell>
+<cell rendition="#width300">
+            例）閉【門⊃オ】、国【囗⊃玉】
+         </cell>
+</row>
+<row>
+<cell rendition="#width100">
+            【（Ａ/Ｂ）+Ｃ】、【Ａ/（Ｂ⊃Ｃ）】
+         </cell>
+<cell rendition="#width300">
+            ＝字画が三つ以上、かつ異なる方法で字画が組み合う
+         </cell>
+<cell rendition="#width300">
+            例）雑【（九/木）+隹】、懸【（県+系）/心】、薗【艹/（口⊃袁）】
+         </cell>
+</row>
+<row>
+<cell/>
+<cell/>
+<cell>
+            （班【王+リ+王】、窓【宀/公/心】はすべての字画が一つの方法で組み合うため、（　）なし。）
+         </cell>
+</row>
+</table>
+<table>
+<row>
+<cell>
+            ・
+         </cell>
+<cell>
+            校異注の付く文字は赤字および青字で表示され、クリックすると注が表示されます。表示内容は以下の通りです。
+         </cell>
+</row>
+</table>
+<table rendition="#indent2">
+<row>
+<cell rendition="#width100">
+            採用
+         </cell>
+<cell>
+            写本名と校訂文にて採用した文字
+         </cell>
+</row>
+<row>
+<cell rendition="#width100">
+            校異
+         </cell>
+<cell>
+            写本名と対校箇所の文字
+         </cell>
+</row>
+<row>
+<cell rendition="#width100">
+            解説
+         </cell>
+<cell>
+            各写本の傍書や頭書等の提示、校異注の本文（最下部の解説）
+         </cell>
+</row>
+<row>
+<cell/>
+</row>
+<row>
+<cell/>
+</row>
+</table>
+<table>
+<row>
+<cell>
+            ・
+         </cell>
+<cell>
+            条文名称修正一覧
+         </cell>
+</row>
+</table>
+<table rendition="#indent2">
+<row>
+<cell rendition="#width100">
+            巻番号
+         </cell>
+<cell rendition="#width50">
+            旧番号
+         </cell>
+<cell rendition="#width100">
+            旧条文名
+         </cell>
+<cell rendition="#width50">
+            番号
+         </cell>
+<cell rendition="#width100">
+            訂正条文名
+         </cell>
+</row>
+<row>
+<cell rendition="#width100">
+            111太政官
+         </cell>
+<cell rendition="#width50">
+            67
+         </cell>
+<cell rendition="#width100">
+            薗韓神祭
+         </cell>
+<cell rendition="#width50">
+            67
+         </cell>
+<cell rendition="#width100">
+            園韓神祭
+         </cell>
+</row>
+<row>
+<cell rendition="#width100">
+            111太政官
+         </cell>
+<cell rendition="#width50">
+            112
+         </cell>
+<cell rendition="#width100">
+            行幸経宿
+         </cell>
+<cell rendition="#width50">
+            112
+         </cell>
+<cell rendition="#width100">
+            行幸経旬
+         </cell>
+</row>
+<row>
+<cell rendition="#width100">
+            171内匠
+         </cell>
+<cell rendition="#width50">
+            39
+         </cell>
+<cell rendition="#width100">
+            作物衣服
+         </cell>
+<cell rendition="#width50">
+            39
+         </cell>
+<cell rendition="#width100">
+            作物衣
+         </cell>
+</row>
+<row>
+<cell rendition="#width100">
+            214諸陵
+         </cell>
+<cell rendition="#width50">
+            16
+         </cell>
+<cell rendition="#width100">
+            後阿陁他遠墓
+         </cell>
+<cell rendition="#width50">
+            16
+         </cell>
+<cell rendition="#width100">
+            後阿陀他遠墓
+         </cell>
+</row>
+<row>
+<cell rendition="#width100">
+            293囚獄
+         </cell>
+<cell rendition="#width50">
+            2
+         </cell>
+<cell rendition="#width100">
+            著鈦盤枷
+         </cell>
+<cell rendition="#width50">
+            2
+         </cell>
+<cell rendition="#width100">
+            着鈦盤枷
+         </cell>
+</row>
+<row>
+<cell rendition="#width100">
+            321大膳上
+         </cell>
+<cell rendition="#width50">
+            5
+         </cell>
+<cell rendition="#width100">
+            新嘗祭
+         </cell>
+<cell rendition="#width50">
+            5･6
+         </cell>
+<cell rendition="#width100">
+            新嘗祭と新嘗小斎解斎に分割
+         </cell>
+</row>
+<row>
+<cell rendition="#width100">
+            411弾正
+         </cell>
+<cell rendition="#width50">
+            68
+         </cell>
+<cell rendition="#width100">
+            支子染深色
+         </cell>
+<cell rendition="#width50">
+            68
+         </cell>
+<cell rendition="#width100">
+            支子染色
+         </cell>
+</row>
+<row>
+<cell rendition="#width100">
+            422東西市
+         </cell>
+<cell rendition="#width50">
+            1
+         </cell>
+<cell rendition="#width100">
+            毎鄽立牓
+         </cell>
+<cell rendition="#width50">
+            1
+         </cell>
+<cell rendition="#width100">
+            毎厘立牓
+         </cell>
+</row>
+<row>
+<cell rendition="#width100">
+            422東西市
+         </cell>
+<cell rendition="#width50">
+            14
+         </cell>
+<cell rendition="#width100">
+            東鄽
+         </cell>
+<cell rendition="#width50">
+            14
+         </cell>
+<cell rendition="#width100">
+            東厘
+         </cell>
+</row>
+<row>
+<cell rendition="#width100">
+            422東西市
+         </cell>
+<cell rendition="#width50">
+            15
+         </cell>
+<cell rendition="#width100">
+            西鄽
+         </cell>
+<cell rendition="#width50">
+            15
+         </cell>
+<cell rendition="#width100">
+            西厘
+         </cell>
+</row>
+</table>
+</p>
+<p ana="個別"/>
+</editorialDecl>
+</encodingDesc>
+<revisionDesc ana="個別">
+<listChange>
+<change/>
+</listChange>
+</revisionDesc>
+</teiHeader><text>
+<body>
+<div ana="民部下" n="23" type="巻" xml:id="volume23">
+<div type="首題" xml:id="shudai23">
+<p xml:id="shudai2301">
+        延喜式巻第廿三
+       </p>
+</div>
+<div ana="民部下" corresp="engishiki_v23_en.xml#protocol231 engishiki_v23_ja.xml#protocol231" n="23" type="式" xml:id="protocol231">
+<div type="式題" xml:id="shikidai231">
+<p xml:id="shikidai23101">
+<orgName corresp="#民部省">民部</orgName>下
+        </p>
+</div>
+<div ana="民部下" corresp="engishiki_v23_en.xml#article231001 engishiki_v23_ja.xml#article231001" n="23.1" type="条" xml:id="article231001">
+<head ana="祭雑物"/>
+<p ana="項" corresp="engishiki_v23_en.xml#item23100101 engishiki_v23_ja.xml#item23100101" xml:id="item23100101">
+         凡御贖并中宮御贖及祭忌火・庭火・御<anchor xml:id="app2310010101"/>竈<anchor xml:id="app2310010101e"/>神料雑物、<orgName corresp="#神祇官">神祇官</orgName>所受、待彼官移文充之、〈<orgName corresp="#春宮坊"><anchor xml:id="app2310010102"/>春<anchor xml:id="app2310010102e"/>宮坊</orgName>并<orgName corresp="#斎院司">斎院司</orgName>所祭亦同、〉但<orgName corresp="#陰陽寮">陰陽寮</orgName>所祭者、待<orgName corresp="#中務省">中務省</orgName>移充之、
+        </p>
+</div>
+<div ana="民部下" corresp="engishiki_v23_en.xml#article231002 engishiki_v23_ja.xml#article231002" n="23.2" type="条" xml:id="article231002">
+<head ana="神主禰宜祝"/>
+<p ana="項" corresp="engishiki_v23_en.xml#item23100201 engishiki_v23_ja.xml#item23100201" xml:id="item23100201">
+         凡諸社神主・禰宜・祝者、択八位以上及六十以上堪祭事者補之、雖元来定氏之社并神戸百姓、而先<anchor xml:id="app2310020101"/>尽八<anchor xml:id="app2310020101e"/>位及六十以上、然後及壮年白丁、即免課役、
+        </p>
+</div>
+<div ana="民部下" corresp="engishiki_v23_en.xml#article231003 engishiki_v23_ja.xml#article231003" n="23.3" type="条" xml:id="article231003">
+<head ana="仏事"/>
+<p ana="項" corresp="engishiki_v23_en.xml#item23100301 engishiki_v23_ja.xml#item23100301" xml:id="item23100301">
+         凡東大寺大仏一季供養料稲百十束、法隆・弘福<anchor xml:id="app2310030101"/>寺<anchor xml:id="app2310030101e"/>二寺仏供養各卌一束四把、並以<placeName corresp="#大和国">大和国</placeName><anchor xml:id="app2310030102"/>官<anchor xml:id="app2310030102e"/>田稲、季別送入寺家、
+        </p>
+</div>
+<div ana="民部下" corresp="engishiki_v23_en.xml#article231004 engishiki_v23_ja.xml#article231004" n="23.4" type="条" xml:id="article231004">
+<head ana="延暦寺"/>
+<p ana="項" corresp="engishiki_v23_en.xml#item23100401 engishiki_v23_ja.xml#item23100401" xml:id="item23100401">
+         凡延暦寺従十二月廿三日迄正月十四日合三七箇日修法料白米一十斛、同寺定心院正月一七箇日修法料白米九斗二升、糯米一斛七升、<anchor xml:id="app2310040101"/>大<anchor xml:id="app2310040101e"/>・小豆各七斗七升、胡麻子三斗八升五合、並十二月十日以前、試年分度者証師并使従八月廿四日迄廿七日合四箇日料白米四斛<anchor xml:id="app2310040102"/>七斗<anchor xml:id="app2310040102e"/>七升六合、七月卅日以前、同寺西塔院試年分度者証師并使従三月廿三日迄廿五日合三箇日料白米八斗八升二合八夕、二月卅日以前、並割<placeName corresp="#近江国">近江国</placeName>年料進官内、官長主当送彼寺、
+        </p>
+</div>
+<div ana="民部下" corresp="engishiki_v23_en.xml#article231005 engishiki_v23_ja.xml#article231005" n="23.5" type="条" xml:id="article231005">
+<head ana="炭"/>
+<p ana="項" corresp="engishiki_v23_en.xml#item23100501 engishiki_v23_ja.xml#item23100501" xml:id="item23100501">
+         凡延暦寺定心院十禅師并釈迦堂五僧料<anchor xml:id="app2310050101"/>炭<anchor xml:id="app2310050101e"/>者、令<placeName corresp="#近江国">近江国</placeName>以徭丁焼備、毎年起十一月一日迄来年二月卅日、計日人別充一斗、十月廿日以前惣送寺家、
+        </p>
+</div>
+<div ana="民部下" corresp="engishiki_v23_en.xml#article231006 engishiki_v23_ja.xml#article231006" n="23.6" type="条" xml:id="article231006">
+<head ana="供御"/>
+<p ana="項" corresp="engishiki_v23_en.xml#item23100601 engishiki_v23_ja.xml#item23100601" xml:id="item23100601">
+         本文凡供御笋・藕及雑菜・楡皮等、仰<placeName corresp="#畿内">畿内</placeName>令供進、
+        </p>
+</div>
+<div ana="民部下" corresp="engishiki_v23_en.xml#article231007 engishiki_v23_ja.xml#article231007" n="23.7" type="条" xml:id="article231007">
+<head ana="仰畿内"/>
+<p ana="項" corresp="engishiki_v23_en.xml#item23100701 engishiki_v23_ja.xml#item23100701" xml:id="item23100701">
+         凡<orgName corresp="#神祇官">神祇官</orgName>卜竹及諸祭・諸節等所須箸竹・柏・生蒋・山藍等類、亦仰<placeName corresp="#畿内">畿内</placeName>令進、
+        </p>
+</div>
+<div ana="民部下" corresp="engishiki_v23_en.xml#article231008 engishiki_v23_ja.xml#article231008" n="23.8" type="条" xml:id="article231008">
+<head ana="造箭"/>
+<p ana="項" corresp="engishiki_v23_en.xml#item23100801 engishiki_v23_ja.xml#item23100801" xml:id="item23100801">
+         凡<orgName corresp="#兵庫寮">兵庫寮</orgName>造<anchor xml:id="app2310080101"/>箭<anchor xml:id="app2310080101e"/>柳篦四百<anchor xml:id="app2310080102"/>廿<anchor xml:id="app2310080102e"/>、<orgName corresp="#隼人司">隼人司</orgName>油絹料二百隻、並仰<placeName corresp="#大和国">大和国</placeName>、毎年交易令送、〈箭篦以時採乾、<anchor xml:id="app2310080103"/>簡<anchor xml:id="app2310080103e"/>取強好、〉価并運賃並用正税、其熬笥・灑籠等料竹、令<placeName corresp="#山城国">山城</placeName>・<placeName corresp="#河内国">河内</placeName>・<placeName corresp="#摂津国">摂津</placeName>等国送、
+        </p>
+</div>
+<div ana="民部下" corresp="engishiki_v23_en.xml#article231009 engishiki_v23_ja.xml#article231009" n="23.9" type="条" xml:id="article231009">
+<head ana="諸司雑具"/>
+<p ana="項" corresp="engishiki_v23_en.xml#item23100901 engishiki_v23_ja.xml#item23100901" xml:id="item23100901">
+         凡諸<orgName corresp="#司">司</orgName>年<anchor xml:id="app2310090101"/>常<anchor xml:id="app2310090101e"/>所須甑・臼・箕・杵・匏・槽・輦籠・置簀者、<orgName corresp="#省">省</orgName>即検収、随官符到、便即分充、自非破損、不得輙換、年終総計、如有乗者、廻充後年、
+        </p>
+</div>
+<div ana="民部下" corresp="engishiki_v23_en.xml#article231010 engishiki_v23_ja.xml#article231010" n="23.10" type="条" xml:id="article231010">
+<head ana="用正税"/>
+<p ana="項" corresp="engishiki_v23_en.xml#item23101001 engishiki_v23_ja.xml#item23101001" xml:id="item23101001">
+         凡用正税者、十束以上皆請内印、但用<placeName corresp="#畿内">畿内</placeName>官田稲者請外印、
+        </p>
+</div>
+<div ana="民部下" corresp="engishiki_v23_en.xml#article231011 engishiki_v23_ja.xml#article231011" n="23.11" type="条" xml:id="article231011">
+<head ana="義倉"/>
+<p ana="項" corresp="engishiki_v23_en.xml#item23101101 engishiki_v23_ja.xml#item23101101" xml:id="item23101101">
+         凡<orgName corresp="#京職">京職</orgName>正税・義倉穀者、<orgName corresp="#省">省</orgName>与<orgName corresp="#主計寮">主計</orgName>・<orgName corresp="#主税寮">主税</orgName>共知出納、〈正税<orgName corresp="#主税寮">主税</orgName>、義倉<orgName corresp="#主計寮">主計</orgName>、〉義倉用度帳<orgName corresp="#京職">京職</orgName>毎年三月進官、即経<orgName corresp="#省">省</orgName>下<orgName corresp="#寮">寮</orgName>、
+        </p>
+</div>
+<div ana="民部下" corresp="engishiki_v23_en.xml#article231012 engishiki_v23_ja.xml#article231012" n="23.12" type="条" xml:id="article231012">
+<head ana="穀倉院納穀"/>
+<p ana="項" corresp="engishiki_v23_en.xml#item23101201 engishiki_v23_ja.xml#item23101201" xml:id="item23101201">
+         凡穀倉院所納穀者、載<orgName corresp="#京職">京職</orgName>税帳申之、其<anchor xml:id="app2310120101"/>匙<anchor xml:id="app2310120101e"/>二枚<orgName corresp="#省">省</orgName>収掌、糒庫匙亦同、
+        </p>
+</div>
+<div ana="民部下" corresp="engishiki_v23_en.xml#article231013 engishiki_v23_ja.xml#article231013" n="23.13" type="条" xml:id="article231013">
+<head ana="畿内調帳"/>
+<p ana="項" corresp="engishiki_v23_en.xml#item23101301 engishiki_v23_ja.xml#item23101301" xml:id="item23101301">
+         凡五<placeName corresp="#畿内">畿内</placeName>国調帳一通、送穀倉院、
+        </p>
+</div>
+<div ana="民部下" corresp="engishiki_v23_en.xml#article231014 engishiki_v23_ja.xml#article231014" n="23.14" type="条" xml:id="article231014">
+<head ana="正税帳"/>
+<p ana="項" corresp="engishiki_v23_en.xml#item23101401 engishiki_v23_ja.xml#item23101401" xml:id="item23101401">
+         凡進正税帳者、皆限二月卅日以前並申送官、但<placeName corresp="#西海道">西海道</placeName><placeName corresp="#諸国">諸国</placeName>并島二月卅日以前送<orgName corresp="#大宰府">大宰府</orgName>、々以加覆勘、五月卅日以前申官、
+        </p>
+</div>
+<div ana="民部下" corresp="engishiki_v23_en.xml#article231015 engishiki_v23_ja.xml#article231015" n="23.15" type="条" xml:id="article231015">
+<head ana="計帳"/>
+<p ana="項" corresp="engishiki_v23_en.xml#item23101501 engishiki_v23_ja.xml#item23101501" xml:id="item23101501">
+         凡計帳者、<placeName corresp="#陸奥国">陸奥</placeName>・<placeName corresp="#出羽国">出羽</placeName>両国、<orgName corresp="#大宰府">大宰府</orgName>九月卅日以前申送、余国如令、
+        </p>
+</div>
+<div ana="民部下" corresp="engishiki_v23_en.xml#article231016 engishiki_v23_ja.xml#article231016" n="23.16" type="条" xml:id="article231016">
+<head ana="損益"/>
+<p ana="項" corresp="engishiki_v23_en.xml#item23101601 engishiki_v23_ja.xml#item23101601" xml:id="item23101601">
+         凡<placeName corresp="#諸国">諸国</placeName>大帳・正税帳損益者、<orgName corresp="#主計寮">主計</orgName>・<orgName corresp="#主税寮">主税</orgName>勘定、<anchor xml:id="app2310160101"/>了<anchor xml:id="app2310160101e"/>即可給返抄之状申<orgName corresp="#省">省</orgName>、々修解進官、但調帳者、待収物訖乃送、
+        </p>
+</div>
+<div ana="民部下" corresp="engishiki_v23_en.xml#article231017 engishiki_v23_ja.xml#article231017" n="23.17" type="条" xml:id="article231017">
+<head ana="不得勘会"/>
+<p ana="項" corresp="engishiki_v23_en.xml#item23101701 engishiki_v23_ja.xml#item23101701" xml:id="item23101701">
+         凡<placeName corresp="#諸国">諸国</placeName>大帳・朝集・税帳公文、従官下之後、依无<anchor xml:id="app2310170101"/>使<anchor xml:id="app2310170101e"/>并雑掌、不得勘会、及遅怠<anchor xml:id="app2310170102"/>遅<anchor xml:id="app2310170102e"/>期、具録其由、載結解帳申官、
+        </p>
+</div>
+<div ana="民部下" corresp="engishiki_v23_en.xml#article231018 engishiki_v23_ja.xml#article231018" n="23.18" type="条" xml:id="article231018">
+<head ana="隠首括出"/>
+<p ana="項" corresp="engishiki_v23_en.xml#item23101801 engishiki_v23_ja.xml#item23101801" xml:id="item23101801">
+         凡隠首括出者、<placeName corresp="#畿内">畿内</placeName>十月一日、外国十一月一日、<orgName corresp="#主計寮"><anchor xml:id="app2310180101"/>主<anchor xml:id="app2310180101e"/>計寮</orgName>載功過帳申<orgName corresp="#省">省</orgName>、<orgName corresp="#省">省</orgName>押署進官、得度除帳者、移<orgName corresp="#主税寮">主税寮</orgName>不申<orgName corresp="#省">省</orgName>、
+        </p>
+</div>
+<div ana="民部下" corresp="engishiki_v23_en.xml#article231019 engishiki_v23_ja.xml#article231019" n="23.19" type="条" xml:id="article231019">
+<head ana="大帳"/>
+<p ana="項" corresp="engishiki_v23_en.xml#item23101901 engishiki_v23_ja.xml#item23101901" xml:id="item23101901">
+         凡<orgName corresp="#京職">京職</orgName>・<placeName corresp="#諸国">諸国</placeName>大帳者、毎至班田之年、五歳已下男女顕注年紀、
+        </p>
+</div>
+<div ana="民部下" corresp="engishiki_v23_en.xml#article231020 engishiki_v23_ja.xml#article231020" n="23.20" type="条" xml:id="article231020">
+<head ana="四度使付帳"/>
+<p ana="項" corresp="engishiki_v23_en.xml#item23102001 engishiki_v23_ja.xml#item23102001" xml:id="item23102001">
+         凡義倉及官田地子等帳、並附正税帳使、〈義倉帳付<orgName corresp="#主計寮">主計</orgName>、官<anchor xml:id="app2310200101"/>田<anchor xml:id="app2310200101e"/>帳付<orgName corresp="#主税寮">主税</orgName>、〉出挙帳・郷戸課丁帳並附大帳使、〈郷戸課<anchor xml:id="app2310200102"/>丁<anchor xml:id="app2310200102e"/>帳留<orgName corresp="#省">省</orgName>、大帳付<orgName corresp="#主計寮">主計</orgName>、出挙<anchor xml:id="app2310200103"/>帳<anchor xml:id="app2310200103e"/><anchor xml:id="app2310200104"/>付<anchor xml:id="app2310200104e"/><orgName corresp="#主税寮">主税</orgName>、〉田租帳附貢調使、〈但明年貢調<anchor xml:id="app2310200105"/>国<anchor xml:id="app2310200105e"/>者付正税帳使、〉正倉・官舎・溝池・桑漆等帳並附朝集使、
+        </p>
+</div>
+<div ana="民部下" corresp="engishiki_v23_en.xml#article231021 engishiki_v23_ja.xml#article231021" n="23.21" type="条" xml:id="article231021">
+<head ana="拘留返抄"/>
+<p ana="項" corresp="engishiki_v23_en.xml#item23102101 engishiki_v23_ja.xml#item23102101" xml:id="item23102101">
+         凡<placeName corresp="#諸国">諸国</placeName>例進図籍・戸籍并郷戸課丁・位田等帳、若有未進者、拘留庸并税帳返抄、
+        </p>
+</div>
+<div ana="民部下" corresp="engishiki_v23_en.xml#article231022 engishiki_v23_ja.xml#article231022" n="23.22" type="条" xml:id="article231022">
+<head ana="地子帳"/>
+<p ana="項" corresp="engishiki_v23_en.xml#item23102201 engishiki_v23_ja.xml#item23102201" xml:id="item23102201">
+         凡<placeName corresp="#諸国">諸国</placeName>地子帳、造三通、一通送<orgName corresp="#主税寮">主税寮</orgName>、一通<orgName corresp="#主計寮">主計寮</orgName>、一通官厨、具録田上中下及損益、附正税帳使申送、若不填去年勘出物者、拘留税帳返抄、神税帳造二通、一通送<orgName corresp="#神祇官">神祇官</orgName>、一通送<orgName corresp="#省">省</orgName>、
+        </p>
+</div>
+<div ana="民部下" corresp="engishiki_v23_en.xml#article231023 engishiki_v23_ja.xml#article231023" n="23.23" type="条" xml:id="article231023">
+<head ana="公文結解"/>
+<p ana="項" corresp="engishiki_v23_en.xml#item23102301 engishiki_v23_ja.xml#item23102301" xml:id="item23102301">
+         凡雑公文結解者、正税帳・大帳・出挙帳明年正月一日、田租帳四月一日、調庸帳七月一日、<orgName corresp="#主計寮">主計</orgName>・<orgName corresp="#主税寮">主税</orgName>並申送<orgName corresp="#省">省</orgName>、即同月上旬申官、但出挙帳留<orgName corresp="#省">省</orgName>、
+        </p>
+</div>
+<div ana="民部下" corresp="engishiki_v23_en.xml#article231024 engishiki_v23_ja.xml#article231024" n="23.24" type="条" xml:id="article231024">
+<head ana="承知"/>
+<p ana="項" corresp="engishiki_v23_en.xml#item23102401 engishiki_v23_ja.xml#item23102401" xml:id="item23102401">
+         凡承<anchor xml:id="app2310240101"/>知<anchor xml:id="app2310240101e"/>官符、<orgName corresp="#省">省</orgName>奉行直下<orgName corresp="#寮"><anchor xml:id="app2310240102"/>寮<anchor xml:id="app2310240102e"/></orgName>、
+        </p>
+</div>
+<div ana="民部下" corresp="engishiki_v23_en.xml#article231025 engishiki_v23_ja.xml#article231025" n="23.25" type="条" xml:id="article231025">
+<head ana="免除符"/>
+<p ana="項" corresp="engishiki_v23_en.xml#item23102501 engishiki_v23_ja.xml#item23102501" xml:id="item23102501">
+         凡免除雑官物符下<orgName corresp="#省">省</orgName>者、即承<anchor xml:id="app2310250101"/>知<anchor xml:id="app2310250101e"/>符先下所<orgName corresp="#司">司</orgName>、若有執申、十五日内令勘申、過此之後、請印下符、以承<anchor xml:id="app2310250102"/>知<anchor xml:id="app2310250102e"/>符<anchor xml:id="app2310250103"/>日<anchor xml:id="app2310250103e"/>為施行符日、
+        </p>
+</div>
+<div ana="民部下" corresp="engishiki_v23_en.xml#article231026 engishiki_v23_ja.xml#article231026" n="23.26" type="条" xml:id="article231026">
+<head ana="省奉行"/>
+<p ana="項" corresp="engishiki_v23_en.xml#item23102601 engishiki_v23_ja.xml#item23102601" xml:id="item23102601">
+         凡季禄・位禄・時服之類及<placeName corresp="#諸国">諸国</placeName>地子等承<anchor xml:id="app2310260101"/>知<anchor xml:id="app2310260101e"/>官符、<orgName corresp="#省">省</orgName>加<anchor xml:id="app2310260102"/>奉<anchor xml:id="app2310260102e"/>行、直下所<orgName corresp="#司">司</orgName>、
+        </p>
+</div>
+<div ana="民部下" corresp="engishiki_v23_en.xml#article231027 engishiki_v23_ja.xml#article231027" n="23.27" type="条" xml:id="article231027">
+<head ana="銅鉛返抄"/>
+<p ana="項" corresp="engishiki_v23_en.xml#item23102701 engishiki_v23_ja.xml#item23102701" xml:id="item23102701">
+         凡<placeName corresp="#備中国">備中</placeName>・<placeName corresp="#長門国">長門</placeName>・<placeName corresp="#豊前国">豊前</placeName>等国送<anchor xml:id="app2310270101"/>鋳<anchor xml:id="app2310270101e"/>銭<orgName corresp="#司">司</orgName>銅鉛返抄者、副税帳進之、
+        </p>
+</div>
+<div ana="民部下" corresp="engishiki_v23_en.xml#article231028 engishiki_v23_ja.xml#article231028" n="23.28" type="条" xml:id="article231028">
+<head ana="綱領"/>
+<p ana="項" corresp="engishiki_v23_en.xml#item23102801 engishiki_v23_ja.xml#item23102801" xml:id="item23102801">
+         凡官物運京応差綱領者、米三百石已上差国<orgName corresp="#司">司</orgName>史生已上勝任者充、不満此数、差郡<orgName corresp="#司">司</orgName>及子弟<anchor xml:id="app2310280101"/>並<anchor xml:id="app2310280101e"/>百姓殷富家口重大者、自余雑物亦准此数、若有損失官物者、科処如法、其物以五分論、三分徴綱、二分徴脚、但漂失物者、惣計所乗之人、半分已上死者、経告随近官<orgName corresp="#司">司</orgName>、<anchor xml:id="app2310280102"/>請<anchor xml:id="app2310280102e"/>証験・証署、分明乃従免除、送<anchor xml:id="app2310280103"/>承<anchor xml:id="app2310280103e"/>告之<orgName corresp="#司">司</orgName>、検実与験、若不加勘知、輙与公験者、並与同罪、
+        </p>
+</div>
+<div ana="民部下" corresp="engishiki_v23_en.xml#article231029 engishiki_v23_ja.xml#article231029" n="23.29" type="条" xml:id="article231029">
+<head ana="内酒殿等料"/>
+<p ana="項" corresp="engishiki_v23_en.xml#item23102901 engishiki_v23_ja.xml#item23102901" xml:id="item23102901">
+         凡内酒殿料黒米百五十斛并大歌所料卅八斛七斗二升三合二夕五撮、受於<orgName corresp="#省">省</orgName>、
+        </p>
+</div>
+<div ana="民部下" corresp="engishiki_v23_en.xml#article231030 engishiki_v23_ja.xml#article231030" n="23.30" type="条" xml:id="article231030">
+<head ana="雑米"/>
+<p ana="項" corresp="engishiki_v23_en.xml#item23103001 engishiki_v23_ja.xml#item23103001" xml:id="item23103001">
+         凡<placeName corresp="#諸国">諸国</placeName>所送雑米者、随<anchor xml:id="app2310300101"/>送<anchor xml:id="app2310300101e"/>即収、且給日収、<anchor xml:id="app2310300102"/>便<anchor xml:id="app2310300102e"/>用<orgName corresp="#省">省</orgName>印、既進畢日、返抄申官、
+        </p>
+</div>
+<div ana="民部下" corresp="engishiki_v23_en.xml#article231031 engishiki_v23_ja.xml#article231031" n="23.31" type="条" xml:id="article231031">
+<head ana="院家借物"/>
+<p ana="項" corresp="engishiki_v23_en.xml#item23103101 engishiki_v23_ja.xml#item23103101" xml:id="item23103101">
+         凡諸院・諸家募封戸所借物、<orgName corresp="#主計寮">主計寮</orgName>勘補之数毎年申<orgName corresp="#省">省</orgName>、<orgName corresp="#省">省</orgName>移<orgName corresp="#大蔵省">大蔵省</orgName>、
+        </p>
+</div>
+<div ana="民部下" corresp="engishiki_v23_en.xml#article231032 engishiki_v23_ja.xml#article231032" n="23.32" type="条" xml:id="article231032">
+<head ana="廩院"/>
+<p ana="項" corresp="engishiki_v23_en.xml#item23103201 engishiki_v23_ja.xml#item23103201" xml:id="item23103201">
+         凡諸<orgName corresp="#司">司</orgName>・諸家所借廩院米、一百<anchor xml:id="app2310320101"/>石<anchor xml:id="app2310320101e"/>以上者、非奉勅官符、莫以奉行、
+        </p>
+</div>
+<div ana="民部下" corresp="engishiki_v23_en.xml#article231033 engishiki_v23_ja.xml#article231033" n="23.33" type="条" xml:id="article231033">
+<head ana="勘出免除"/>
+<p ana="項" corresp="engishiki_v23_en.xml#item23103301 engishiki_v23_ja.xml#item23103301" xml:id="item23103301">
+         凡所<orgName corresp="#司">司</orgName>勘出<placeName corresp="#諸国">諸国</placeName>旧年雑物、自非奉勅官符、不得免除、
+        </p>
+</div>
+<div ana="民部下" corresp="engishiki_v23_en.xml#article231034 engishiki_v23_ja.xml#article231034" n="23.34" type="条" xml:id="article231034">
+<head ana="減直"/>
+<p ana="項" corresp="engishiki_v23_en.xml#item23103401 engishiki_v23_ja.xml#item23103401" xml:id="item23103401">
+         凡<placeName corresp="#諸国">諸国</placeName>交易進上絁・絹・綿・布等類、所<orgName corresp="#司">司</orgName>准品定直、即附返抄、令填減直、
+        </p>
+</div>
+<div ana="民部下" corresp="engishiki_v23_en.xml#article231035 engishiki_v23_ja.xml#article231035" n="23.35" type="条" xml:id="article231035">
+<head ana="作大字"/>
+<p ana="項" corresp="engishiki_v23_en.xml#item23103501 engishiki_v23_ja.xml#item23103501" xml:id="item23103501">
+         凡<placeName corresp="#諸国">諸国</placeName>進官雑物返抄、称其年物者、皆作大字、
+        </p>
+</div>
+<div ana="民部下" corresp="engishiki_v23_en.xml#article231036 engishiki_v23_ja.xml#article231036" n="23.36" type="条" xml:id="article231036">
+<head ana="蕃客儲料"/>
+<p ana="項" corresp="engishiki_v23_en.xml#item23103601 engishiki_v23_ja.xml#item23103601" xml:id="item23103601">
+         凡<orgName corresp="#大宰府">大宰府</orgName>蕃客儲米三千八百卌石、<anchor xml:id="app2310360101"/>若<anchor xml:id="app2310360101e"/>経年致損、便充公用、廻旧収新<anchor xml:id="app2310360102"/>供<anchor xml:id="app2310360102e"/>事、其<orgName corresp="#修理職">修理</orgName><orgName corresp="#府">府</orgName>中館舎料稲四万束、毎年出挙六国、取其息利充用、若利満一万束者停挙、
+        </p>
+</div>
+<div ana="民部下" corresp="engishiki_v23_en.xml#article231037 engishiki_v23_ja.xml#article231037" n="23.37" type="条" xml:id="article231037">
+<head ana="薬師寺会料"/>
+<p ana="項" corresp="engishiki_v23_en.xml#item23103701 engishiki_v23_ja.xml#item23103701" xml:id="item23103701">
+         凡<placeName corresp="#下野国">下野国</placeName>薬師寺四月八日・七月十五日両斎会布施、便以当国庸布一百六十三段充、但供養用正税三百八束四把六分、
+        </p>
+</div>
+<div ana="民部下" corresp="engishiki_v23_en.xml#article231038 engishiki_v23_ja.xml#article231038" n="23.38" type="条" xml:id="article231038">
+<head ana="郡司戸"/>
+<p ana="項" corresp="engishiki_v23_en.xml#item23103801 engishiki_v23_ja.xml#item23103801" xml:id="item23103801">
+         凡郡<orgName corresp="#司">司</orgName>戸者、不得編附他口、其子弟非可別籍者、検実聴之、
+        </p>
+</div>
+<div ana="民部下" corresp="engishiki_v23_en.xml#article231039 engishiki_v23_ja.xml#article231039" n="23.39" type="条" xml:id="article231039">
+<head ana="在路飢病"/>
+<p ana="項" corresp="engishiki_v23_en.xml#item23103901 engishiki_v23_ja.xml#item23103901" xml:id="item23103901">
+         凡<placeName corresp="#諸国">諸国</placeName>往還百姓在路困飢病患、无由達郷者、専<anchor xml:id="app2310390101"/>当<anchor xml:id="app2310390101e"/>国<orgName corresp="#司">司</orgName>一人巡看、<anchor xml:id="app2310390102"/>附<anchor xml:id="app2310390102e"/>随近村里、以正税収養、得療之日、依法送達、若有死去者、斂埋便処、具顕貫属姓名、<anchor xml:id="app2310390103"/>牓<anchor xml:id="app2310390103e"/>示其上、有漏怠者、国郡<orgName corresp="#司">司</orgName>等随事科処、其専当国<orgName corresp="#司">司</orgName>者、録名申官、
+        </p>
+</div>
+<div ana="民部下" corresp="engishiki_v23_en.xml#article231040 engishiki_v23_ja.xml#article231040" n="23.40" type="条" xml:id="article231040">
+<head ana="新任国司"/>
+<p ana="項" corresp="engishiki_v23_en.xml#item23104001 engishiki_v23_ja.xml#item23104001" xml:id="item23104001">
+         凡新任国<orgName corresp="#司">司</orgName>到任者、皆給鋪設、以徭儲備、但<orgName corresp="#大宰府">大宰府</orgName>帥已下傔仗已上、以調庸中男作物充、並一給之後、不可更賜、
+        </p>
+</div>
+<div ana="民部下" corresp="engishiki_v23_en.xml#article231041 engishiki_v23_ja.xml#article231041" n="23.41" type="条" xml:id="article231041">
+<head ana="大祓馬"/>
+<p ana="項" corresp="engishiki_v23_en.xml#item23104101 engishiki_v23_ja.xml#item23104101" xml:id="item23104101">
+         凡<placeName corresp="#諸国">諸国</placeName>大祓馬、若无国造国者、以正税買用、其価不得過五十束、但<orgName corresp="#大宰府">大宰府</orgName>及<placeName corresp="#肥前国">肥前</placeName>・<placeName corresp="#肥後国">肥後</placeName>・<placeName corresp="#日向国">日向</placeName>三国、並以牧馬充之、
+        </p>
+</div>
+<div ana="民部下" corresp="engishiki_v23_en.xml#article231042 engishiki_v23_ja.xml#article231042" n="23.42" type="条" xml:id="article231042">
+<head ana="広瀬竜田贄"/>
+<p ana="項" corresp="engishiki_v23_en.xml#item23104201 engishiki_v23_ja.xml#item23104201" xml:id="item23104201">
+         凡広瀬・竜田両社祭贄、<anchor xml:id="app2310420101"/>以<anchor xml:id="app2310420101e"/>当国租穀充価買用、
+        </p>
+</div>
+<div ana="民部下" corresp="engishiki_v23_en.xml#article231043 engishiki_v23_ja.xml#article231043" n="23.43" type="条" xml:id="article231043">
+<head ana="大宰仕丁"/>
+<p ana="項" corresp="engishiki_v23_en.xml#item23104301 engishiki_v23_ja.xml#item23104301" xml:id="item23104301">
+         凡<orgName corresp="#大宰府">大宰府</orgName>充仕丁者、帥卅人、大弐廿人、少弐十二人、大・<anchor xml:id="app2310430101"/>少<anchor xml:id="app2310430101e"/>監各八人、主神、主工、大・<anchor xml:id="app2310430102"/>少<anchor xml:id="app2310430102e"/>典、博士、明法博士、主厨各六人、音博士・<orgName corresp="#陰陽寮">陰陽</orgName>師・医師・算師・主<anchor xml:id="app2310430103"/>船<anchor xml:id="app2310430103e"/>各五人、大唐通事四人、史生・新羅訳語・弩師・傔仗各三人、<orgName corresp="#府">府</orgName><anchor xml:id="app2310430104"/>衛<anchor xml:id="app2310430104e"/>四人、学授二人、蔵<orgName corresp="#司">司</orgName>二人、税倉二人、薬<orgName corresp="#司">司</orgName>一人、匠<orgName corresp="#司">司</orgName>一人、<orgName corresp="#修理職">修理</orgName>器仗所一人、守客館一人、守辰六人、守駅館一人、儲料廿人、並准<placeName corresp="#諸国">諸国</placeName>事力、其食皆充庸米、若有仕丁情願酬傭者、並以黒綿卅斤為限、不得因此過収、其香椎宮守戸一烟、薬園駈使廿人、主船一百九十七人、厨戸三百九十<anchor xml:id="app2310430105"/>六<anchor xml:id="app2310430105e"/>、
+        </p>
+</div>
+<div ana="民部下" corresp="engishiki_v23_en.xml#article231044 engishiki_v23_ja.xml#article231044" n="23.44" type="条" xml:id="article231044">
+<head ana="国司赴任"/>
+<p ana="項" corresp="engishiki_v23_en.xml#item23104401 engishiki_v23_ja.xml#item23104401" xml:id="item23104401">
+         凡<placeName corresp="#山陽道">山陽</placeName>・<placeName corresp="#南海道">南海</placeName>・<placeName corresp="#西海道">西海道</placeName>等<orgName corresp="#府">府</orgName>国、新任官人赴任者、皆取海路、仍令縁海国依例給食、〈但<placeName corresp="#西海道">西海道</placeName>国<orgName corresp="#司">司</orgName>到<orgName corresp="#府">府</orgName>、即乗伝馬、〉其大弐已上<anchor xml:id="app2310440101"/>乃<anchor xml:id="app2310440101e"/>取陸路、
+        </p>
+</div>
+<div ana="民部下" corresp="engishiki_v23_en.xml#article231045 engishiki_v23_ja.xml#article231045" n="23.45" type="条" xml:id="article231045">
+<head ana="諸国進馬革"/>
+<p ana="項" corresp="engishiki_v23_en.xml#item23104501 engishiki_v23_ja.xml#item23104501" xml:id="item23104501">
+         凡<placeName corresp="#諸国">諸国</placeName>所進<orgName corresp="#兵庫寮">兵庫寮</orgName><orgName corresp="#修理職">修理</orgName>甲料馬革者、<placeName corresp="#尾張国">尾張</placeName>六張、<placeName corresp="#近江国">近江</placeName>十七張、<placeName corresp="#美濃国">美濃</placeName>廿四張、<placeName corresp="#但馬国">但馬</placeName>十一張、<placeName corresp="#播磨国">播磨</placeName>卅二張、<placeName corresp="#阿波国">阿波</placeName>十張、並以駅・伝・牧等死馬皮熟而送之、若不足者、買備満数、其直充正税、
+        </p>
+</div>
+<div ana="民部下" corresp="engishiki_v23_en.xml#article231046 engishiki_v23_ja.xml#article231046" n="23.46" type="条" xml:id="article231046">
+<head ana="兵庫用度帳"/>
+<p ana="項" corresp="engishiki_v23_en.xml#item23104601 engishiki_v23_ja.xml#item23104601" xml:id="item23104601">
+         凡<orgName corresp="#兵庫寮">兵庫寮</orgName>用度帳、令所<orgName corresp="#司">司</orgName>勘、
+        </p>
+</div>
+<div ana="民部下" corresp="engishiki_v23_en.xml#article231047 engishiki_v23_ja.xml#article231047" n="23.47" type="条" xml:id="article231047">
+<head ana="諸司移二寮"/>
+<p ana="項" corresp="engishiki_v23_en.xml#item23104701 engishiki_v23_ja.xml#item23104701" xml:id="item23104701">
+         凡諸<orgName corresp="#司">司</orgName>触事移<orgName corresp="#主計寮">主計</orgName>・<orgName corresp="#主税寮">主税寮</orgName>者、不経<orgName corresp="#省">省</orgName>直送、
+        </p>
+</div>
+<div ana="民部下" corresp="engishiki_v23_en.xml#article231048 engishiki_v23_ja.xml#article231048" n="23.48" type="条" xml:id="article231048">
+<head ana="勘解由使"/>
+<p ana="項" corresp="engishiki_v23_en.xml#item23104801 engishiki_v23_ja.xml#item23104801" xml:id="item23104801">
+         凡勘解由使所令勘事、不経<orgName corresp="#省">省</orgName>直仰二<orgName corresp="#寮">寮</orgName>、
+        </p>
+</div>
+<div ana="民部下" corresp="engishiki_v23_en.xml#article231049 engishiki_v23_ja.xml#article231049" n="23.49" type="条" xml:id="article231049">
+<head ana="年料舂米"/>
+<p ana="項" corresp="engishiki_v23_en.xml#item23104901 engishiki_v23_ja.xml#item23104901" xml:id="item23104901">
+         年料舂米<lb/>
+<placeName corresp="#伊勢国">伊勢国</placeName>〈<orgName corresp="#大炊寮">大炊</orgName>一千七十石、糯<anchor xml:id="app2310490101"/>卅<anchor xml:id="app2310490101e"/>石、〉　<placeName corresp="#尾張国">尾張国</placeName>〈<orgName corresp="#大炊寮">大炊</orgName>一千八十石、糯廿石、〉　<placeName corresp="#参河国">参河国</placeName>〈<orgName corresp="#大炊寮">大炊</orgName>七百石、〉　<placeName corresp="#近江国">近江国</placeName>〈<orgName corresp="#内蔵寮">内蔵</orgName>五十石、<orgName corresp="#省">省</orgName>五百石、<orgName corresp="#大炊寮">大炊</orgName>一千二百石、糯卅石、〉　<placeName corresp="#美濃国">美濃国</placeName>〈<orgName corresp="#内蔵寮">内蔵</orgName>廿石、<orgName corresp="#大炊寮">大炊</orgName>一千四百石、糯廿石、〉　<placeName corresp="#若狭国">若狭国</placeName>〈<orgName corresp="#大炊寮">大炊</orgName>二百石、〉　<placeName corresp="#越前国">越前国</placeName>〈<orgName corresp="#内蔵寮">内蔵</orgName>五十石、<orgName corresp="#大炊寮">大炊</orgName>六百五十四石、糯廿石、〉　<placeName corresp="#加賀国">加賀国</placeName>〈<orgName corresp="#大炊寮">大炊</orgName>四百五十五石、糯十石、〉　<placeName corresp="#丹波国">丹波国</placeName>〈<orgName corresp="#内蔵寮">内蔵</orgName>廿石、<orgName corresp="#大炊寮">大炊</orgName>五百石、糯廿六石、〉　<placeName corresp="#丹後国">丹後国</placeName>〈<orgName corresp="#大炊寮">大炊</orgName>五百石、〉　<placeName corresp="#但馬国">但馬国</placeName>〈<orgName corresp="#大炊寮">大炊</orgName>五百石、〉　<placeName corresp="#因幡国">因幡国</placeName>〈<orgName corresp="#大炊寮">大炊</orgName>四百石、〉　<placeName corresp="#播磨国">播磨国</placeName>〈<orgName corresp="#内蔵寮">内蔵</orgName>卌石、<orgName corresp="#大炊寮">大炊</orgName>一千一百石、糯廿四石、〉　<placeName corresp="#美作国">美作国</placeName>〈<orgName corresp="#大炊寮">大炊</orgName>一千<anchor xml:id="app2310490102"/>百石<anchor xml:id="app2310490102e"/>、糯十石、〉　<placeName corresp="#備前国">備前国</placeName>〈<orgName corresp="#内蔵寮">内蔵</orgName>廿石、<orgName corresp="#大炊寮">大炊</orgName>一千一百<anchor xml:id="app2310490103"/>七十石<anchor xml:id="app2310490103e"/>、〉　<placeName corresp="#備中国">備中国</placeName>〈<orgName corresp="#大炊寮">大炊</orgName>一百五石五斗<anchor xml:id="app2310490104"/>九<anchor xml:id="app2310490104e"/>升、糯廿石、〉　<placeName corresp="#備後国">備後国</placeName>〈<orgName corresp="#大炊寮">大炊</orgName>一千一百<anchor xml:id="app2310490105"/>五<anchor xml:id="app2310490105e"/>十五石四斗三升五合、〉　<placeName corresp="#安芸国">安芸国</placeName>〈<orgName corresp="#大炊寮">大炊</orgName>六百石、〉　<placeName corresp="#紀伊国">紀伊国</placeName>〈<orgName corresp="#大炊寮">大炊</orgName>二百石、〉　<placeName corresp="#讃岐国">讃岐国</placeName>〈<orgName corresp="#大炊寮">大炊</orgName>一千四百石、糯<anchor xml:id="app2310490106"/>卌<anchor xml:id="app2310490106e"/>石、〉　<placeName corresp="#伊予国">伊予国</placeName>〈<orgName corresp="#大炊寮">大炊</orgName>一千四百石、糯二十石、〉　<placeName corresp="#土佐国">土左国</placeName>〈<orgName corresp="#大炊寮">大炊</orgName>四百石、〉
+         <lb/><s rendition="#indent">右廿二国、各以正税舂運、白米送<orgName corresp="#大炊寮">大炊寮</orgName>、黒米送<orgName corresp="#省">省</orgName>及<orgName corresp="#内蔵寮">内蔵寮</orgName>、其運送徭夫<anchor xml:id="app2310490107"/>並<anchor xml:id="app2310490107e"/>給路粮、</s>
+</p>
+</div>
+<div ana="民部下" corresp="engishiki_v23_en.xml#article231050 engishiki_v23_ja.xml#article231050" n="23.50" type="条" xml:id="article231050">
+<head ana="舂米運京"/>
+<p ana="項" corresp="engishiki_v23_en.xml#item23105001 engishiki_v23_ja.xml#item23105001" xml:id="item23105001">
+         凡<placeName corresp="#諸国">諸国</placeName>舂米運京者、<placeName corresp="#伊勢国">伊勢</placeName>・<placeName corresp="#近江国">近江</placeName>・<placeName corresp="#丹波国">丹波</placeName>・<placeName corresp="#播磨国">播磨</placeName>・<placeName corresp="#紀伊国">紀伊</placeName>等国二月卅日以前、<placeName corresp="#尾張国">尾張</placeName>・<placeName corresp="#参河国">参河</placeName>・<placeName corresp="#美濃国">美濃</placeName>・<placeName corresp="#若狭国">若狭</placeName>・<placeName corresp="#越前国">越前</placeName>・<placeName corresp="#加賀国">加賀</placeName>・<placeName corresp="#丹後国">丹後</placeName>四月卅日以前、<placeName corresp="#但馬国">但馬</placeName>・<placeName corresp="#因幡国">因幡</placeName>・<placeName corresp="#美作国">美作</placeName>・<placeName corresp="#備前国">備前</placeName>・<placeName corresp="#讃岐国">讃岐</placeName>六月卅日以前、<placeName corresp="#備中国">備中</placeName>・<placeName corresp="#備後国">備後</placeName>・<placeName corresp="#安芸国">安芸</placeName>・<placeName corresp="#伊予国">伊予</placeName>・<placeName corresp="#土佐国">土左</placeName>八月卅日以前、並送納訖、若有未進者、准未進数奪専当郡<orgName corresp="#司">司</orgName><orgName corresp="#職">職</orgName>田直、若不足者、亦没国<orgName corresp="#司">司</orgName>公廨、
+        </p>
+</div>
+<div ana="民部下" corresp="engishiki_v23_en.xml#article231051 engishiki_v23_ja.xml#article231051" n="23.51" type="条" xml:id="article231051">
+<head ana="年料租舂米"/>
+<p ana="項" corresp="engishiki_v23_en.xml#item23105101 engishiki_v23_ja.xml#item23105101" xml:id="item23105101">
+         年料租舂米
+         <lb/><placeName corresp="#尾張国">尾張国</placeName>〈一千石、〉　<placeName corresp="#参河国">参河国</placeName>〈一千石、〉　<placeName corresp="#遠江国">遠江国</placeName>〈一千三百石、〉　<placeName corresp="#近江国">近江国</placeName>〈二千石、〉　<placeName corresp="#美濃国">美濃国</placeName>〈二千三百斛、〉　<placeName corresp="#若狭国">若狭国</placeName>〈八百石、〉　<placeName corresp="#越前国">越前国</placeName>〈一千三百斛、〉　<placeName corresp="#加賀国">加賀国</placeName>〈一千三百石、〉　<placeName corresp="#丹波国">丹波国</placeName>〈一千石、〉　<placeName corresp="#播磨国">播磨国</placeName>〈二千斛、〉　<placeName corresp="#美作国">美作国</placeName>〈一千斛、〉　<placeName corresp="#備前国">備前国</placeName>〈二千斛、〉　<placeName corresp="#備中国">備中国</placeName>〈一千石、〉　<placeName corresp="#備後国">備後国</placeName>〈一千石、〉　<placeName corresp="#安芸国">安芸国</placeName>〈一千斛、〉　<placeName corresp="#讃岐国">讃岐国</placeName>〈二千斛、〉　<placeName corresp="#伊予国">伊予国</placeName>〈二千斛、〉　<placeName corresp="#土佐国">土左国</placeName>〈五百<anchor xml:id="app2310510101"/>石<anchor xml:id="app2310510101e"/>、〉
+         <lb/><s rendition="#indent">右十八国、各以租穀内舂収、随官符到進之、其精代運賃用正税、不聴妄為穎闕本也、</s>
+</p>
+</div>
+<div ana="民部下" corresp="engishiki_v23_en.xml#article231052 engishiki_v23_ja.xml#article231052" n="23.52" type="条" xml:id="article231052">
+<head ana="年料別納租穀"/>
+<p ana="項" corresp="engishiki_v23_en.xml#item23105201 engishiki_v23_ja.xml#item23105201" xml:id="item23105201">
+         年料別納租穀
+         <lb/><placeName corresp="#伊賀国">伊賀国</placeName>〈二千石、〉　<placeName corresp="#伊勢国">伊勢国</placeName>〈四千五百斛、〉　<placeName corresp="#駿河国">駿河国</placeName>〈三千五百斛、〉　<placeName corresp="#伊豆国">伊豆国</placeName>〈一千五百斛、〉　<placeName corresp="#甲斐国">甲斐国</placeName>〈三千五百斛、〉　<placeName corresp="#相摸国">相摸国</placeName>〈<anchor xml:id="app2310520101"/>千<anchor xml:id="app2310520101e"/>五百<anchor xml:id="app2310520102"/>五<anchor xml:id="app2310520102e"/>石、〉　<placeName corresp="#武蔵国">武蔵国</placeName>〈一万二千斛、〉　<placeName corresp="#上総国">上総国</placeName>〈四千六百九十斛、〉　<anchor xml:id="app2310520103"/><placeName corresp="#下総国">下総国</placeName>〈一万四千石、〉<anchor xml:id="app2310520103e"/>　<placeName corresp="#常陸国">常陸国</placeName>〈一万二千斛、〉　<placeName corresp="#信濃国">信濃国</placeName>〈一万二千斛、〉　<placeName corresp="#上野国">上野国</placeName>〈一万七百卌五石、〉　<placeName corresp="#下野国">下野国</placeName>〈一万一千斛、〉　<placeName corresp="#能登国">能登国</placeName>〈四千斛、〉　<anchor xml:id="app2310520104"/><placeName corresp="#越中国">越中国</placeName>〈四千石、〉<anchor xml:id="app2310520104e"/>　<placeName corresp="#越後国">越後国</placeName>〈七千斛、〉　<placeName corresp="#丹後国">丹後国</placeName>〈九百八石、〉　<placeName corresp="#但馬国">但馬国</placeName>〈二千九石、〉　<placeName corresp="#因幡国">因幡国</placeName>〈二千五百斛、〉　<placeName corresp="#伯耆国">伯耆国</placeName>〈四千六百卌斛、〉　<placeName corresp="#出雲国">出雲国</placeName>〈四千五百斛、〉　<placeName corresp="#石見国">石見国</placeName>〈二千五百斛、〉　<placeName corresp="#長門国">長門国</placeName>〈二千卌七石、〉　<placeName corresp="#紀伊国">紀伊国</placeName>〈三千<anchor xml:id="app2310520105"/>百<anchor xml:id="app2310520105e"/>石、〉　<placeName corresp="#淡路国">淡路国</placeName>〈一千六百斛、〉
+         <lb/><s rendition="#indent">右廿五<anchor xml:id="app2310520106"/>国<anchor xml:id="app2310520106e"/>、各別納租穀内、随官符到、充位禄・季禄・衣服等料、</s>
+</p>
+</div>
+<div ana="民部下" corresp="engishiki_v23_en.xml#article231053 engishiki_v23_ja.xml#article231053" n="23.53" type="条" xml:id="article231053">
+<head ana="年料別貢雑物"/>
+<p ana="項" corresp="engishiki_v23_en.xml#item23105301 engishiki_v23_ja.xml#item23105301" xml:id="item23105301">
+         年料別貢雑物
+         <lb/><placeName corresp="#伊賀国">伊賀国</placeName>〈紙麻五十斤、〉　<placeName corresp="#伊勢国">伊勢国</placeName>〈筆<anchor xml:id="app2310530101"/>百<anchor xml:id="app2310530101e"/>管、紙麻一百十斤、〉　<placeName corresp="#尾張国">尾張国</placeName>〈筆一百管、紙麻九十<anchor xml:id="app2310530102"/>斤<anchor xml:id="app2310530102e"/>、青木香一百六十斤、馬革六張、〉　<placeName corresp="#参河国">参河国</placeName>〈筆一百五十管、紙麻十斤、黄楊六<anchor xml:id="app2310530103"/>枚<anchor xml:id="app2310530103e"/>、〉　<placeName corresp="#遠江国">遠江国</placeName>〈筆一千管、零羊角四具、〉　<placeName corresp="#駿河国">駿河国</placeName>〈筆一百管、零羊角四具、〉　<placeName corresp="#伊豆国">伊豆国</placeName>〈零羊角四具、甘葛汁二斗、〉　<placeName corresp="#甲斐国">甲斐国</placeName>〈筆<anchor xml:id="app2310530104"/>卅<anchor xml:id="app2310530104e"/>管、零羊角六具、胡桃子一石五斗、〉　<placeName corresp="#相摸国">相摸国</placeName>〈筆一百管、零羊角四具、青木香八十斤、牧牛皮、〉　<placeName corresp="#武蔵国">武蔵国</placeName>〈筆一百管、膠五十斤、麻黄<anchor xml:id="app2310530105"/>五<anchor xml:id="app2310530105e"/>斤、麻子六斗、〉　<placeName corresp="#安房国">安房国</placeName>〈長海松<anchor xml:id="app2310530106"/>二<anchor xml:id="app2310530106e"/>籠、〉　<placeName corresp="#上総国">上総国</placeName>〈筆一百管、牧牛皮六張、〉　<placeName corresp="#下総国">下総<anchor xml:id="app2310530107"/>国<anchor xml:id="app2310530107e"/></placeName>〈筆一百管、牧牛皮六張、牛角十二口、麻子七斗、〉　<placeName corresp="#常陸国">常陸国</placeName>〈筆三百管、麻子七斗、〉　<placeName corresp="#近江国">近江国</placeName>〈筆二百管、紙麻一百十斤、零<anchor xml:id="app2310530108"/>羊<anchor xml:id="app2310530108e"/>角四具、馬革十七張、〉　<placeName corresp="#美濃国">美濃国</placeName>〈筆一百五十管、紙麻六百斤、<anchor xml:id="app2310530109"/>支子二石、青木香卅斤<anchor xml:id="app2310530109e"/>、零羊角六具、馬革廿四張、〉　<placeName corresp="#信濃国">信濃国</placeName>〈筆一百卅管、零羊角六具、木賊二囲、樺皮二囲、〉　<placeName corresp="#上野国">上野国</placeName>〈筆一百管、<anchor xml:id="app2310530110"/>零<anchor xml:id="app2310530110e"/>羊角六具、杏<anchor xml:id="app2310530111"/>仁<anchor xml:id="app2310530111e"/>三斗、膠十三斤、樺皮四<anchor xml:id="app2310530112"/>張<anchor xml:id="app2310530112e"/>、〉　<placeName corresp="#下野国">下野国</placeName>〈筆一百管、麻紙一百張、麻子三斗、〉　<placeName corresp="#陸奥国">陸奥国</placeName>〈筆一百管、零羊<anchor xml:id="app2310530113"/>角<anchor xml:id="app2310530113e"/>四具、〉　<placeName corresp="#出羽国">出羽国</placeName>〈零羊角十<anchor xml:id="app2310530114"/>具<anchor xml:id="app2310530114e"/>、〉　<placeName corresp="#若狭国">若狭国</placeName>〈零羊<anchor xml:id="app2310530115"/>角<anchor xml:id="app2310530115e"/>、紙麻一百斤、〉　<placeName corresp="#越前国">越前国</placeName>〈筆五十管、紙麻一百斤、零羊角十具、甘<anchor xml:id="app2310530116"/>葛<anchor xml:id="app2310530116e"/>汁一斗、〉　<placeName corresp="#越中国">越中国</placeName>〈零羊角二具、〉　<placeName corresp="#越後国">越後国</placeName>〈零羊角六具、〉　<placeName corresp="#丹波国">丹波国</placeName>〈墨二百廷、<anchor xml:id="app2310530117"/>紙麻七十斤<anchor xml:id="app2310530117e"/>、漆二斗七升、柏一百廿俵、以五十把為俵、把別五十枚、<anchor xml:id="app2310530118"/>掃<anchor xml:id="app2310530118e"/>墨一石、斐紙麻一百斤、〉　<placeName corresp="#但馬国">但馬国</placeName>〈筆八十管、紙<anchor xml:id="app2310530119"/>麻<anchor xml:id="app2310530119e"/>七十斤、馬革十一張、〉　<placeName corresp="#因幡国">因幡国</placeName>〈筆八十管、紙麻七十斤、〉　<placeName corresp="#伯耆国">伯耆国</placeName>〈筆八十管、紙麻七十斤、〉　<placeName corresp="#出雲国">出雲国</placeName>〈筆五十管、〉　<placeName corresp="#播磨国">播磨国</placeName>〈筆一百卅管、墨三百五十廷、紙麻二百十斤、掃墨二石、馬革<anchor xml:id="app2310530120"/>卌<anchor xml:id="app2310530120e"/>二張、<anchor xml:id="app2310530121"/>柏一百俵<anchor xml:id="app2310530121e"/>、〉　<placeName corresp="#美作国">美作国</placeName>〈筆六十管、紙麻七十斤、〉　<placeName corresp="#備前国">備前国</placeName>〈筆一百管、紙麻五十斤、牧牛<anchor xml:id="app2310530122"/>皮<anchor xml:id="app2310530122e"/>、〉　<placeName corresp="#備中国">備中国</placeName>〈紙麻九十斤、〉　<placeName corresp="#備後国">備後国</placeName>〈斐紙麻一百斤、〉　<placeName corresp="#安芸国">安芸国</placeName>〈零羊角四具、〉　<placeName corresp="#周防国">周防国</placeName>〈斐紙麻<anchor xml:id="app2310530123"/>一<anchor xml:id="app2310530123e"/>百斤、〉　<placeName corresp="#長門国">長門国</placeName>〈牧牛皮八張、〉　<placeName corresp="#紀伊国">紀伊国</placeName>〈紙麻七十斤、鎌垣船九隻、〉　<placeName corresp="#阿波国">阿波国</placeName>〈筆八十管、紙麻七十斤、斐紙<anchor xml:id="app2310530124"/>麻<anchor xml:id="app2310530124e"/>一百斤、馬革十張、〉　<placeName corresp="#讃岐国">讃岐国</placeName>〈紙麻百五十斤、牧牛皮十張、斐紙麻一百斤、〉　<placeName corresp="#伊予国">伊予国</placeName>〈筆一百管、檳<anchor xml:id="app2310530125"/>榔<anchor xml:id="app2310530125e"/>二百<anchor xml:id="app2310530126"/>枚<anchor xml:id="app2310530126e"/>、牧牛皮三張、斐紙麻一百斤、〉　<placeName corresp="#土佐国">土左国</placeName>〈零羊角四具、黄楊六枚、〉　<orgName corresp="#大宰府">大宰府</orgName>〈筆一千一百廿管、兎毛・<anchor xml:id="app2310530127"/>鹿毛<anchor xml:id="app2310530127e"/>各五百六十管、墨四百五十<anchor xml:id="app2310530128"/>廷<anchor xml:id="app2310530128e"/>、以上二種盛<anchor xml:id="app2310530129"/>韓櫃<anchor xml:id="app2310530129e"/>一合、斐紙一千張、麻紙二百張、斐<anchor xml:id="app2310530130"/>麻<anchor xml:id="app2310530130e"/>二百斤、麦門<anchor xml:id="app2310530131"/>冬<anchor xml:id="app2310530131e"/>二<anchor xml:id="app2310530132"/>斛<anchor xml:id="app2310530132e"/>二斗、紫草<placeName corresp="#日向国">日向</placeName>八百斤・<placeName corresp="#大隅国">大隅</placeName>一千八百斤、青砥二百顆、赤木南島所進、其数随得、〉
+         <lb/><s rendition="#indent">右別貢雑物並依前件、自余雑薬見<orgName corresp="#典薬寮">典薬</orgName>式、其運送徭夫各給路粮、</s>
+</p>
+</div>
+<div ana="民部下" corresp="engishiki_v23_en.xml#article231054 engishiki_v23_ja.xml#article231054" n="23.54" type="条" xml:id="article231054">
+<head ana="大宰調物"/>
+<p ana="項" corresp="engishiki_v23_en.xml#item23105401 engishiki_v23_ja.xml#item23105401" xml:id="item23105401">
+<orgName corresp="#大宰府">大宰府</orgName>〈銀八百九<anchor xml:id="app2310540101"/>十<anchor xml:id="app2310540101e"/>両、深紫帛五十疋、浅紫帛一百疋、深緋綿紬廿四疋、<anchor xml:id="app2310540102"/>緋<anchor xml:id="app2310540102e"/>綿紬<anchor xml:id="app2310540103"/>七<anchor xml:id="app2310540103e"/>十六疋、紺紬十疋、深紫貲布廿端、浅紫貲布廿端、深緋貲布卅端、緋貲布卅端、白貲布五十端、紫革<anchor xml:id="app2310540104"/>卌<anchor xml:id="app2310540104e"/>張、緋革<anchor xml:id="app2310540105"/>卌<anchor xml:id="app2310540105e"/>張、纈革<anchor xml:id="app2310540106"/>卅<anchor xml:id="app2310540106e"/>張、画革廿張、洗革一百張、白革<anchor xml:id="app2310540107"/>廿<anchor xml:id="app2310540107e"/>張、海石<anchor xml:id="app2310540108"/>榴<anchor xml:id="app2310540108e"/>油十石、席二千枚、〉
+         <lb/><s rendition="#indent">右管国調物、依件染造、其雑綵并草等、並盛韓櫃、其運脚者並給功食、</s>
+</p>
+</div>
+<div ana="民部下" corresp="engishiki_v23_en.xml#article231055 engishiki_v23_ja.xml#article231055" n="23.55" type="条" xml:id="article231055">
+<head ana="大宰調絹"/>
+<p ana="項" corresp="engishiki_v23_en.xml#item23105501 engishiki_v23_ja.xml#item23105501" xml:id="item23105501">
+         凡<orgName corresp="#大宰府">大宰府</orgName>毎年調絹三千疋、附貢綿使進之、又<orgName corresp="#隼人司"><anchor xml:id="app2310550101"/>隼<anchor xml:id="app2310550101e"/>人</orgName>調布、除<orgName corresp="#府">府</orgName>家三箇年雑用料之外、付使進上、
+        </p>
+</div>
+<div ana="民部下" corresp="engishiki_v23_en.xml#article231056 engishiki_v23_ja.xml#article231056" n="23.56" type="条" xml:id="article231056">
+<head ana="大宰調糸"/>
+<p ana="項" corresp="engishiki_v23_en.xml#item23105601 engishiki_v23_ja.xml#item23105601" xml:id="item23105601">
+         凡<orgName corresp="#大宰府">大宰</orgName>所収調<anchor xml:id="app2310560101"/>糸<anchor xml:id="app2310560101e"/>、除儲料五百絇之外、毎年附貢綿使進之、
+        </p>
+</div>
+<div ana="民部下" corresp="engishiki_v23_en.xml#article231057 engishiki_v23_ja.xml#article231057" n="23.57" type="条" xml:id="article231057">
+<head ana="大宰年料雑器"/>
+<p ana="項" corresp="engishiki_v23_en.xml#item23105701 engishiki_v23_ja.xml#item23105701" xml:id="item23105701">
+         凡<orgName corresp="#大宰府">大宰府</orgName>年料造進<anchor xml:id="app2310570101"/>朱<anchor xml:id="app2310570101e"/>漆酒海六合、〈三合径二<anchor xml:id="app2310570102"/>尺<anchor xml:id="app2310570102e"/>、三合径一尺六寸、〉下食盤六十枚、〈径一尺七寸、〉中盤八十八枚、〈径一尺、〉飯椀一百口、〈径七寸、〉羮椀二百口、〈百口径六寸五分、百口径六寸、〉盤四百五十枚、〈卅枚径七寸、二百廿枚径六寸、二百枚径五寸五分、〉盞二百五十口、〈百五十口径五寸、百口径四寸五分、〉黒漆提壺十四口、
+        </p>
+</div>
+<div ana="民部下" corresp="engishiki_v23_en.xml#article231058 engishiki_v23_ja.xml#article231058" n="23.58" type="条" xml:id="article231058">
+<head ana="貢蘇番次"/>
+<p ana="項" corresp="engishiki_v23_en.xml#item23105801 engishiki_v23_ja.xml#item23105801" xml:id="item23105801">
+<placeName corresp="#諸国">諸国</placeName>貢蘇番次
+         <lb/><placeName corresp="#伊勢国">伊勢国</placeName>十八壺〈七口各大一升、十一口各小一升、〉　<placeName corresp="#尾張国">尾張国</placeName>十五壺〈五口各大一升、十口各小一升、〉　<placeName corresp="#参河国">参河国</placeName>十四壺〈四口各<anchor xml:id="app2310580101"/>大<anchor xml:id="app2310580101e"/>一升、十口各<anchor xml:id="app2310580102"/>小<anchor xml:id="app2310580102e"/>一升、〉　<placeName corresp="#遠江国">遠江国</placeName>十四壺〈四口各大一升、十口各小一升、〉　<placeName corresp="#駿河国">駿河国</placeName>十<anchor xml:id="app2310580103"/>二<anchor xml:id="app2310580103e"/>壺〈四口各<anchor xml:id="app2310580104"/>大<anchor xml:id="app2310580104e"/>一升、八口各<anchor xml:id="app2310580105"/>小<anchor xml:id="app2310580105e"/>一升、〉　<placeName corresp="#伊豆国">伊豆国</placeName>七壺〈並小一升、〉　<placeName corresp="#甲斐国">甲斐国</placeName>十壺〈並小一升、〉　<placeName corresp="#相摸国">相摸国</placeName>十六壺〈六口各大一升、十口各小一升、〉
+         <lb/><s rendition="#indent">右八箇国為第一番、〈丑未年、〉</s>
+<lb/><placeName corresp="#伊賀国">伊賀国</placeName>七壺〈並小一升、〉　<placeName corresp="#武蔵国">武蔵国</placeName>廿壺〈七口各大一升、十三口各小一升、〉　<placeName corresp="#安房国">安房国</placeName>十壺〈並小一升、〉　<placeName corresp="#上総国">上総国</placeName>十七壺〈七口各大一升、十口各小一升、〉　<placeName corresp="#下総国">下総国</placeName>廿壺〈八口各大一升、十二口各小一升、〉　<placeName corresp="#常陸国">常陸国</placeName>廿壺〈十口各大一升、十口各小一升、〉
+         <lb/><s rendition="#indent">右六箇国為第二番、〈寅申年、〉</s>
+<lb/><placeName corresp="#近江国">近江国</placeName>十八壺〈七口各大一升、十一口各小一升、〉　<placeName corresp="#美濃国">美濃国</placeName>十七壺〈七口各大一升、十口各小一升、〉　<placeName corresp="#信濃国">信濃国</placeName>十三壺〈五口各大一升、八口各小一升、〉　<placeName corresp="#上野国">上野国</placeName>十三壺〈五口各大一升、八口各小一升、〉　<placeName corresp="#下野国">下野国</placeName>十四壺〈五口各大一升、九口各小一升、〉　<placeName corresp="#若狭国">若狭国</placeName>八壺〈並小一升、〉　<placeName corresp="#越前国">越前国</placeName>十五壺〈六口各大一升、九口各小一升、〉　<placeName corresp="#加賀国">加賀国</placeName>十五壺〈六口各大一升、九口各小一升、〉
+         <lb/><s rendition="#indent"><anchor xml:id="app2310580106"/>右<anchor xml:id="app2310580106e"/>八箇国為第三番、〈卯酉年〉</s>
+<lb/><placeName corresp="#能登国">能登国</placeName>九壺〈三口各大一升、六口各小一升、〉　<placeName corresp="#越中国">越中国</placeName>十壺〈四口各大一升、六口各小一升、〉　<placeName corresp="#越後国">越後国</placeName>十一壺〈四口各大一升、七口各小一升、〉　<placeName corresp="#丹波国">丹波国</placeName>十一壺〈三口各大一升、八口各小一升、〉　<placeName corresp="#丹後国">丹後国</placeName>八壺〈二口各大一升、六口各小一升、〉　<placeName corresp="#但馬国">但馬国</placeName>十一壺〈三口各大一升、八口各小一升、〉　<placeName corresp="#因幡国">因幡国</placeName>十一壺〈三口各大一升、八口各小一升、〉　<placeName corresp="#伯耆国">伯耆国</placeName>十一壺〈三口各大一升、八口各小一升、〉　<placeName corresp="#出雲国">出雲国</placeName>十一壺〈三口各大一升、八口各小一升、〉　　<placeName corresp="#石見国">石見国</placeName>八壺〈二口各大一升、六口各小一升、〉
+         <lb/><s rendition="#indent">右<anchor xml:id="app2310580107"/>十<anchor xml:id="app2310580107e"/>箇国為第四番、〈辰戌年、〉</s>
+<lb/><orgName corresp="#大宰府">大宰府</orgName>七十壺〈十五口各大一升、卅五口各大五合、廿口各小一升、〉
+         <lb/><s rendition="#indent">右為第五番、〈巳亥年、〉</s>
+<lb/><placeName corresp="#播磨国">播磨国</placeName>十五壺〈六口各大一升、九口各小一升、〉　<placeName corresp="#美作国">美作国</placeName>十一壺〈三口各大一升、八口各小一升、〉　<placeName corresp="#備前国">備前国</placeName>十壺〈二口各大一升、八口各小一升、〉　<placeName corresp="#備中国">備中国</placeName>十壺〈二口各大一升、八口各小一升、〉　<anchor xml:id="app2310580108"/><placeName corresp="#備後国">備後国</placeName>七壺〈二口各大一升、五口各小一升、〉<anchor xml:id="app2310580108e"/>　<placeName corresp="#安芸国">安芸国</placeName>八壺〈二口各大一升、<anchor xml:id="app2310580109"/>六<anchor xml:id="app2310580109e"/>口各小一升、〉　<placeName corresp="#周防国">周防国</placeName>六壺〈並小一升、〉　<placeName corresp="#長門国">長門国</placeName>八壺〈並小一升、〉　<placeName corresp="#紀伊国">紀伊国</placeName>七壺〈二口各大一升、五口各小一升、〉　<placeName corresp="#淡路国">淡路国</placeName><anchor xml:id="app2310580110"/>三<anchor xml:id="app2310580110e"/>壺<anchor xml:id="app2310580111"/>〈並小一升、〉　<placeName corresp="#阿波国">阿波国</placeName>十壺<anchor xml:id="app2310580111e"/>〈四口各大一升、六口各小一升、〉　<placeName corresp="#讃岐国">讃岐国</placeName>十三壺〈五口各大一升、八口各小一升、〉　<placeName corresp="#伊予国">伊予国</placeName>十二壺〈四口各大一升、八口各小一升、〉　<placeName corresp="#土佐国">土左国</placeName>十壺〈四口各大一升、六口各小一升、〉
+         <lb/><s rendition="#indent">右十<anchor xml:id="app2310580112"/>四<anchor xml:id="app2310580112e"/>箇国為第六番、〈子午年〉</s>
+</p>
+</div>
+<div ana="民部下" corresp="engishiki_v23_en.xml#article231059 engishiki_v23_ja.xml#article231059" n="23.59" type="条" xml:id="article231059">
+<head ana="諸国貢蘇"/>
+<p ana="項" corresp="engishiki_v23_en.xml#item23105901 engishiki_v23_ja.xml#item23105901" xml:id="item23105901">
+         凡<placeName corresp="#諸国">諸国</placeName>貢蘇、各依番次、当年十一月以前進了、但<placeName corresp="#出雲国">出雲国</placeName>十二月為限、輪転随次、終而復始、其取得乳者、肥牛日大八合、痩牛減半、作蘇之法、乳大一斗煎、得蘇大一升、但飼秣者頭別日四把、
+        </p>
+</div>
+<div ana="民部下" corresp="engishiki_v23_en.xml#article231060 engishiki_v23_ja.xml#article231060" n="23.60" type="条" xml:id="article231060">
+<head ana="年料雑器"/>
+<p ana="項" corresp="engishiki_v23_en.xml#item23106001 engishiki_v23_ja.xml#item23106001" xml:id="item23106001">
+         年料雑器
+         <lb/><placeName corresp="#尾張国">尾張国</placeName><anchor xml:id="app2310600101"/>瓷<anchor xml:id="app2310600101e"/>器、大椀五合、〈径各九寸五分、〉中椀五口、〈径各七寸、〉<anchor xml:id="app2310600102"/>茶<anchor xml:id="app2310600102e"/>小椀、〈径各六寸、〉<anchor xml:id="app2310600103"/>椀<anchor xml:id="app2310600103e"/>廿口、〈径各五寸、〉盞五口、〈径各四寸七分、〉中擎子十口、〈径各五寸、〉小擎子五口、〈径各四寸五分、〉花盤十口、〈径各五寸五分、〉花形塩杯十口、〈径各三寸、〉瓶十口、〈大四口、小六口、〉
+         <lb/><placeName corresp="#長門国">長門国</placeName>瓷器、大椀五合、〈径各<anchor xml:id="app2310600104"/>九<anchor xml:id="app2310600104e"/>寸五分、〉中椀十口、〈径各七寸、〉小椀十五口、〈径各六寸、〉<anchor xml:id="app2310600105"/>茶<anchor xml:id="app2310600105e"/>椀廿口、〈径各五寸、〉花盤卅口、〈径各五寸五分、〉花形塩杯<anchor xml:id="app2310600106"/>十口<anchor xml:id="app2310600106e"/>、〈径各三寸、〉<anchor xml:id="app2310600107"/>瓶<anchor xml:id="app2310600107e"/>、〈大四口、小六口、〉
+         <lb/><s rendition="#indent">右両国所進年料雑器、並依前件、其<anchor xml:id="app2310600108"/>用<anchor xml:id="app2310600108e"/>度皆用正税、</s>
+</p>
+</div>
+<div ana="民部下" corresp="engishiki_v23_en.xml#article231061 engishiki_v23_ja.xml#article231061" n="23.61" type="条" xml:id="article231061">
+<head ana="交易雑器"/>
+<p ana="項" corresp="engishiki_v23_en.xml#item23106101 engishiki_v23_ja.xml#item23106101" xml:id="item23106101">
+         交易雑器
+         <lb/><placeName corresp="#山城国">山城国</placeName>、酒槽卅一隻、円槽七隻、臼十腰、杵十五枚、槽八口、置簀十三枚、匏三百卌柄、輦籠五十四脚、<placeName corresp="#大和国">大和国</placeName>、酒槽七隻、〈二隻長各八尺、広二尺三寸、深八寸、手長一尺、五隻長各六尺、広二尺五寸、深八寸、手長九寸、〉円槽一隻、〈口径<anchor xml:id="app2310610101"/>各<anchor xml:id="app2310610101e"/>二尺五寸、手長一尺、〉槽二口、〈一口高二尺七寸、口径二尺<anchor xml:id="app2310610102"/>一寸<anchor xml:id="app2310610102e"/>、一口高二尺二寸、口径二尺、〉臼<anchor xml:id="app2310610103"/>三<anchor xml:id="app2310610103e"/>腰、〈高各二尺二寸、径二尺一寸、〉杵六枚、〈長各三尺、〉輿籠廿口、瓠三百廿五柄、置簀四枚、<placeName corresp="#河内国">河内国</placeName>、酒槽卅四隻、〈十一隻長各一尺、広二尺五寸、深八寸、手長一尺三寸、十一隻長各六尺、広二尺三寸、深八寸、手長一尺、十二隻高二尺七寸、口径二尺一寸、手長九寸、〉臼六腰、杵六枚、輿籠卌口、匏二百廿五柄、置簀卌枚、〈長各八尺、広四尺、〉<placeName corresp="#和泉国">和泉国</placeName>、酒槽七隻、〈長各九尺、広二尺七寸、手長一尺三寸、〉円槽二隻、槽二口、臼三腰、杵六枚、輿籠十一口、匏一百五柄、置簀廿枚、<placeName corresp="#摂津国">摂津<anchor xml:id="app2310610104"/>国<anchor xml:id="app2310610104e"/></placeName>、<anchor xml:id="app2310610105"/>酒<anchor xml:id="app2310610105e"/>槽十七隻、〈長各八尺、広二尺三寸、手長一尺、〉円槽四隻、槽六口、輿籠五十口、臼八腰、杵十四枚、匏一百七十五柄、置簀五十四枚、
+        </p>
+</div>
+<div ana="民部下" corresp="engishiki_v23_en.xml#article231062 engishiki_v23_ja.xml#article231062" n="23.62" type="条" xml:id="article231062">
+<head ana="未進"/>
+<p ana="項" corresp="engishiki_v23_en.xml#item23106201 engishiki_v23_ja.xml#item23106201" xml:id="item23106201">
+         凡五<placeName corresp="#畿内">畿内</placeName>・<placeName corresp="#丹波国">丹波</placeName>等国例進雑器并槲、十月以前<anchor xml:id="app2310620101"/>究<anchor xml:id="app2310620101e"/>進、若致未進、移<orgName corresp="#式部省">式部省</orgName>、不聴国<orgName corresp="#司">司</orgName>預新嘗会節、
+        </p>
+</div>
+<div ana="民部下" corresp="engishiki_v23_en.xml#article231063 engishiki_v23_ja.xml#article231063" n="23.63" type="条" xml:id="article231063">
+<head ana="交易雑物"/>
+<p ana="項" corresp="engishiki_v23_en.xml#item23106301 engishiki_v23_ja.xml#item23106301" xml:id="item23106301">
+         交易雑物
+         <lb/><placeName corresp="#山城国">山城国</placeName>〈大麦三石、小麦卅石、大角豆六石、胡麻<anchor xml:id="app2310630101"/>十<anchor xml:id="app2310630101e"/>四石、荏子四石、〉<placeName corresp="#大和国">大和国</placeName>〈大麦三石、小麦十一石七升三合、葟子六<anchor xml:id="app2310630102"/>斗<anchor xml:id="app2310630102e"/>、大角豆四石、〉<placeName corresp="#河内国">河内国</placeName>〈大麦三石、小麦卅五石、葟子五<anchor xml:id="app2310630103"/>斗<anchor xml:id="app2310630103e"/>、薦二千五百枚、〉<placeName corresp="#和泉国">和泉国</placeName>〈小麦二十五石、〉<placeName corresp="#摂津国">摂津国</placeName>〈大麦三石、小麦卅五石一斗、葟子九<anchor xml:id="app2310630104"/>斗<anchor xml:id="app2310630104e"/>、薦一千五百枚、〉<placeName corresp="#伊賀国">伊賀国</placeName>〈白<anchor xml:id="app2310630105"/>絹<anchor xml:id="app2310630105e"/>十二疋、鹿皮廿張、樽二合、加赤漆朸、以下皆同、〉<placeName corresp="#伊勢国">伊勢国</placeName>〈白絹十二疋、絹三百疋、水銀四百斤、樽二合、鹿角菜二石、青苔五十斤、海松五十斤、凝<anchor xml:id="app2310630106"/>草<anchor xml:id="app2310630106e"/>卅斤、於胡菜卅斤、鳥坂苔五斤、海藻根十斤、那乃利曾五十斤、〉<placeName corresp="#志摩国">志摩国</placeName>〈大凝菜卌四斤、白玉千顆、〉<placeName corresp="#尾張国">尾張国</placeName>〈白絹十二疋、絹百五十疋、油三石、樽二合、苧一百十斤、鹿革廿張、鹿皮十張、鹿角十枚、薭子五石、胡麻子四石、荏子四石、鹿角菜三石、凝菜<anchor xml:id="app2310630107"/>卌<anchor xml:id="app2310630107e"/>斤、於胡菜三十斤、〉<placeName corresp="#参河国">参河国</placeName>〈白絹百二十疋、鹿革六十張、樽二合、苧九十斤、<anchor xml:id="app2310630108"/>黍<anchor xml:id="app2310630108e"/>子廿石、胡麻子三石、鹿角菜二石、海松五十斤、凝菜卅斤、海藻根十斤、青苔五十斤、鳥坂苔五十斤、於胡菜卅斤、那乃利曾五十斤、〉<placeName corresp="#遠江国">遠江国</placeName>〈絹六十八<anchor xml:id="app2310630109"/>疋<anchor xml:id="app2310630109e"/>、苧一百卅斤、鹿皮十張、鹿革卅張、<anchor xml:id="app2310630110"/>木<anchor xml:id="app2310630110e"/>綿四百七十斤、樽二合、凝菜卅斤、海藻根十斤、胡麻子二石、大匏卅口、干薑一百斤、種薑十石〉<placeName corresp="#駿河国">駿河国</placeName>〈絹二百疋、商布二千一百<anchor xml:id="app2310630111"/>端<anchor xml:id="app2310630111e"/>、々別長二丈六尺、鹿革四十張、樽二合、〉<placeName corresp="#伊豆国">伊豆国</placeName>〈猪皮十張、鹿皮卅張、堅魚煎一石四斗六升、櫑子<anchor xml:id="app2310630112"/>十<anchor xml:id="app2310630112e"/>四合、〉<placeName corresp="#甲斐国">甲斐国</placeName>〈商布四千一百<anchor xml:id="app2310630113"/>端<anchor xml:id="app2310630113e"/>、<anchor xml:id="app2310630114"/>履<anchor xml:id="app2310630114e"/>牛皮三張、鹿皮卅張、紫草八百斤、鹿革十張、猪脂一斗、櫑子四合、〉<placeName corresp="#相摸国">相摸国</placeName>〈商布六千五百<anchor xml:id="app2310630115"/><anchor xml:id="app2310630115e"/>端、豉二石五斗、鹿皮<anchor xml:id="app2310630116"/>廿張、鹿角<anchor xml:id="app2310630116e"/>十枚、紫草三千七百斤、布一千五百端、鞦十具、鹿革廿張、<anchor xml:id="app2310630117"/>履<anchor xml:id="app2310630117e"/>牛皮十五枚、櫑子四合、〉<placeName corresp="#武蔵国">武蔵国</placeName>〈絁五十疋、布一千五百端、商布一<anchor xml:id="app2310630118"/>万<anchor xml:id="app2310630118e"/>一千一百<anchor xml:id="app2310630119"/>端<anchor xml:id="app2310630119e"/>、豉六石五斗、竜鬚席卅枚、細貫席卅枚、席五百枚、履料<anchor xml:id="app2310630120"/>牛<anchor xml:id="app2310630120e"/>皮二枚、鞦廿具、鹿革六十張、鹿皮十五張、紫草三千二百斤、木綿四百七十斤、櫑子四合、〉<placeName corresp="#安房国">安房国</placeName>〈商布二千二百八十<anchor xml:id="app2310630121"/>枚<anchor xml:id="app2310630121e"/>、鹿革廿張、櫑子四合、〉<placeName corresp="#上総国">上総国</placeName>〈絁五十疋、商布一万一千四百廿<anchor xml:id="app2310630122"/>段<anchor xml:id="app2310630122e"/>、布一千五百九十端、腐<anchor xml:id="app2310630123"/>革<anchor xml:id="app2310630123e"/>八張、鹿皮五十張、洗革一百張、鹿角十枚、鑣廿具、櫑子四合、<anchor xml:id="app2310630124"/>木綿四百七十斤<anchor xml:id="app2310630124e"/>、〉<placeName corresp="#下総国">下総国</placeName>〈布一千五百九十端、商布一万一千五十段、鹿革廿張、皺文革十張、紫草二千六百斤、櫑子四合、〉<placeName corresp="#常陸国">常陸国</placeName>〈絁一百疋、布四千端、商布一万三千<anchor xml:id="app2310630125"/>端<anchor xml:id="app2310630125e"/>、庸布七百段、鞍橋十具、鞦廿具、履料牛皮九張、鹿皮<anchor xml:id="app2310630126"/>廿<anchor xml:id="app2310630126e"/>張、洗革一百張、鹿角十枚、席六百枚、紫草<anchor xml:id="app2310630127"/>三千<anchor xml:id="app2310630127e"/>斤、大瓢十<anchor xml:id="app2310630128"/>口<anchor xml:id="app2310630128e"/>、櫑子四合、〉<placeName corresp="#近江国">近江国</placeName>〈白絹十二疋、<anchor xml:id="app2310630129"/>黒<anchor xml:id="app2310630129e"/>葛卅斤、刈安草五百囲、<anchor xml:id="app2310630130"/>膠<anchor xml:id="app2310630130e"/>皮十張、大豆六十石、胡麻子五石、醤大豆廿石、油二石、樽二合、隔三年進醤大豆十石・大豆十四石、〉<placeName corresp="#美濃国">美濃国</placeName>〈絹二百疋、胡麻子四石、荏子十二石、鹿革<anchor xml:id="app2310630131"/>卌<anchor xml:id="app2310630131e"/>張、油二石、白絹十二疋、樽二合、隔三年進金漆二斗、〉<placeName corresp="#信濃国">信濃<anchor xml:id="app2310630132"/>国<anchor xml:id="app2310630132e"/></placeName>〈商布六千四百五十<anchor xml:id="app2310630133"/>端<anchor xml:id="app2310630133e"/>、熟麻十斤、<anchor xml:id="app2310630134"/>履<anchor xml:id="app2310630134e"/>牛皮三張、鹿皮九十張、洗皮十五枚、紫草二千八百斤、布一千五百端、細貫莚五十枚、<anchor xml:id="app2310630135"/>円<anchor xml:id="app2310630135e"/>長猪脂一斗、櫑子四合、〉<placeName corresp="#上野国">上野国</placeName>〈絁五十疋、布一千五百九<anchor xml:id="app2310630136"/>端<anchor xml:id="app2310630136e"/>、商布七千七百卅一段二尺二寸八分、苧八十斤、席九百枚、細貫席六十枚、紫草二千三百斤、鹿革六十張、履料牛皮廿張、櫑子四合、〉<placeName corresp="#下野国">下野国</placeName>〈布一千四百卅六端、商布七千三段、履料牛皮七張、洗革一百張、鹿角十枚、席八百枚、<anchor xml:id="app2310630137"/>沙<anchor xml:id="app2310630137e"/>金百五十両、練金八十四両、紫草一千斤、<anchor xml:id="app2310630138"/>鈍<anchor xml:id="app2310630138e"/>十張、櫑子四合、〉<placeName corresp="#陸奥国">陸奥国</placeName>〈葦鹿皮・独犴皮数随得、<anchor xml:id="app2310630139"/>沙<anchor xml:id="app2310630139e"/>金三百五十両、昆布六百斤、<anchor xml:id="app2310630140"/>索<anchor xml:id="app2310630140e"/>昆布六百斤、細昆布一千斤、〉<placeName corresp="#出羽国">出羽国</placeName>〈熊皮廿張、葦鹿皮・独犴皮数随得、〉<placeName corresp="#若狭国">若狭国</placeName>〈烏賊三百斤、小<anchor xml:id="app2310630141"/>鰯<anchor xml:id="app2310630141e"/>腊一石一斗、樽二合、〉<placeName corresp="#越前国">越前国</placeName>〈絹二百六十二疋、履料牛皮六張、漆一石五斗、曝<anchor xml:id="app2310630142"/>黒<anchor xml:id="app2310630142e"/>葛卅斤、〉<placeName corresp="#加賀国">加賀国</placeName>〈絹一百六十二疋、<anchor xml:id="app2310630143"/>履<anchor xml:id="app2310630143e"/>牛皮二張、漆一石五斗、荏油二石、樽二合、〉<placeName corresp="#能登国">能登国</placeName>〈絹十二疋、鹿皮十張、履料牛皮四張、海鼠腸一石、櫑子四合、〉<placeName corresp="#越中国">越中国</placeName>〈絹百疋、商布一千二百段、履料牛皮四張、<anchor xml:id="app2310630144"/>曝<anchor xml:id="app2310630144e"/>黒葛廿斤、編筥三百十九合、<anchor xml:id="app2310630145"/>織<anchor xml:id="app2310630145e"/>筥廿八合、漆一石三斗、〉<placeName corresp="#越後国">越後国</placeName>〈商布一千<anchor xml:id="app2310630146"/>端<anchor xml:id="app2310630146e"/>、漆五斗、櫑子四合、履料牛皮八枚、〉<placeName corresp="#丹波国">丹波国</placeName>〈白絹十二疋、赤絹五百五十疋、糸七百五十絇、油三石、鹿革十張、<anchor xml:id="app2310630147"/>粟<anchor xml:id="app2310630147e"/>十石、大豆卅石、<anchor xml:id="app2310630148"/>胡<anchor xml:id="app2310630148e"/>麻<anchor xml:id="app2310630149"/>十<anchor xml:id="app2310630149e"/>五石、栗子卅石、<anchor xml:id="app2310630150"/>曝<anchor xml:id="app2310630150e"/>黒葛廿斤、刈<anchor xml:id="app2310630151"/>安<anchor xml:id="app2310630151e"/>五百囲、隔三年進醤大豆五石、〉<placeName corresp="#丹後国">丹後国</placeName>〈絹二百五十疋、白絹十二疋、鹿革十張、樽二合、小鰯腊十二籠、〉
+         <lb/><placeName corresp="#但馬国">但馬国</placeName>〈絹七百卅七疋、糸一千斤、<anchor xml:id="app2310630152"/>鮓<anchor xml:id="app2310630152e"/>皮一百五十斤、醤大豆廿六石、隔三年進醤大豆五石、〉<placeName corresp="#因幡国">因幡国</placeName>〈絹二百疋、白絹十二疋、席三百五十枚、荒筥廿五合、櫑子四合、<anchor xml:id="app2310630153"/>鮐<anchor xml:id="app2310630153e"/>皮八百廿五斤、醤大豆廿六石、隔三年進醤大豆五石・鹿皮十張、〉<placeName corresp="#出雲国">出雲国</placeName>〈絹二百卅七疋四尺、鹿<anchor xml:id="app2310630154"/>革<anchor xml:id="app2310630154e"/>廿張、席三百枚、青苔卅斤、海松一百斤、海藻根十斤、鳥坂苔五斤、紫草一百斤、鹿皮廿張、櫑子四合、〉<placeName corresp="#石見国">石見国</placeName>〈綿六<anchor xml:id="app2310630155"/>百<anchor xml:id="app2310630155e"/>八十七屯八両、青苔卅斤、海松一百斤、海藻根十斤、鳥坂苔五斤、紫草一百斤、櫑子四合、鹿革卅張、〉<placeName corresp="#播磨国">播磨国</placeName>〈白絹十二疋、絹三百五十疋、大豆廿六石、胡麻子三石、油二石、鹿革五十<anchor xml:id="app2310630156"/>張<anchor xml:id="app2310630156e"/>、小豆三石、鹿角菜二石、青苔卅斤、於胡菜廿斤、那乃利曾卅斤、〉<placeName corresp="#美作国">美作国</placeName>〈絹四百七十五<anchor xml:id="app2310630157"/>疋<anchor xml:id="app2310630157e"/>、油三石、猪脂一斗、櫑子四合、鹿革十張、鹿皮廿張、鹿角十枚、大豆十石、小豆六石、醤大豆廿石、隔三年進<anchor xml:id="app2310630158"/>大<anchor xml:id="app2310630158e"/>豆十五石、〉<placeName corresp="#備前国">備前国</placeName>〈絹三百疋、白絹十二疋、油三石四升、胡麻子三石、櫑子四合、<anchor xml:id="app2310630159"/>苫<anchor xml:id="app2310630159e"/>十五枚、鹿<anchor xml:id="app2310630160"/>革<anchor xml:id="app2310630160e"/>廿張、鹿皮十張、鹿角十枚、小豆十九石七斗、醤大豆廿五石、大豆卌四石七斗、秣料八十石、隔三年進醤大豆十石、〉<placeName corresp="#備中国">備中国</placeName>〈白絹十二疋、油一石四升、朴消一百斤、小豆一石六斗、苫廿五枚、櫑子四合、鹿皮五十張、大豆廿八石、醤大豆卌四石、隔三年進醤大豆七石・小豆十六石、〉<placeName corresp="#備後国">備後国</placeName>〈白絹十二疋、油二石、櫑子四合、鹿角十枚、大豆十六石七斗、小豆一石七斗、胡麻子二<anchor xml:id="app2310630161"/>石<anchor xml:id="app2310630161e"/>、醤大豆六十石、隔三年進醤大豆十石、〉<placeName corresp="#安芸国">安芸国</placeName>〈白絹十二疋、糸八百絇、木綿二百五十斤、油三石四升、苫廿五枚、櫑子四合、鹿皮廿張、鹿革廿張、〉<placeName corresp="#周防国">周防国</placeName>〈鹿革廿<anchor xml:id="app2310630162"/>張<anchor xml:id="app2310630162e"/>、席三百五十枚、苫廿五枚、櫑子四合、〉<placeName corresp="#長門国">長門国</placeName>〈鹿革廿張、胡粉廿斤、緑青廿斤、<anchor xml:id="app2310630163"/>丹<anchor xml:id="app2310630163e"/>六十斤、海藻一百五十斤、苫廿五枚、櫑子四合、〉<placeName corresp="#紀伊国">紀伊国</placeName>〈白絹十二疋、絹二百疋、鹿革十張、鹿角菜二石、青苔五十斤、海松卅斤、海藻根十<anchor xml:id="app2310630164"/>斤<anchor xml:id="app2310630164e"/>、鳥坂苔五斤、那乃利曾五十斤、樽二合、大凝菜一百斤、於<anchor xml:id="app2310630165"/>期<anchor xml:id="app2310630165e"/>菜卅斤、大豆<anchor xml:id="app2310630166"/>廿<anchor xml:id="app2310630166e"/>石、小豆廿石、胡麻子五石、醤大豆十石、隔三年進醤大豆三石、〉<placeName corresp="#阿波国">阿波国</placeName>〈絹三百<anchor xml:id="app2310630167"/>疋<anchor xml:id="app2310630167e"/>、白絹十二疋、油二石四升、亀甲六枚、鹿皮十張、粟廿石、小豆十六石、秣料大豆八十石、胡麻子四石、小麦七十石、凝菜七斗、青苔廿斤、海藻根、於<anchor xml:id="app2310630168"/>期<anchor xml:id="app2310630168e"/>菜六斗、鹿角菜二石、苫廿五枚、樽二合、醤大豆廿二石、隔三年進醤大豆五石、〉<placeName corresp="#讃岐国">讃岐国</placeName>〈白絹十疋、鹿革廿張、苫廿五枚、菅円座卌枚、櫑子四合、鹿<anchor xml:id="app2310630169"/>子皮<anchor xml:id="app2310630169e"/>十五張、金漆一斗五升、醤大豆卌二石、隔三年進醤大豆五石・大豆十八石、〉<placeName corresp="#伊予国">伊予<anchor xml:id="app2310630170"/>国<anchor xml:id="app2310630170e"/></placeName>〈鹿革五十枚、鹿皮十張、砥一百八十顆、大豆十八石、海藻根十斤、那乃利曾五十斤、苫五十枚、樽二合、胡麻子五<anchor xml:id="app2310630171"/>石<anchor xml:id="app2310630171e"/>、醤大豆卅二石、隔三年進醤大豆五石、〉<placeName corresp="#土佐国">土左国</placeName>〈亀甲四枚、煮塩年魚五缶、紫菜一百五十斤、苫廿五枚、櫑子四合、〉<orgName corresp="#大宰府">大宰府</orgName>〈絹四千疋、履料牛皮廿四張、狸皮十張、銀三百両、金漆五缶、朱砂一千両、茜二千斤、紫草五千六百斤、猪膏二石、雑油<anchor xml:id="app2310630172"/>卅<anchor xml:id="app2310630172e"/>石、檳榔馬蓑六十領、同螻蓑百廿領、藺帖笠百卅蓋、黒漆<anchor xml:id="app2310630173"/>鞍<anchor xml:id="app2310630173e"/>十具、鉄鎧廿<anchor xml:id="app2310630174"/>雙<anchor xml:id="app2310630174e"/>、〉
+         <lb/>右以正税交易進、其運功・食並用正税、但<placeName corresp="#下野国">下野国</placeName>砂金者、使徭夫採、食亦充正税、其<orgName corresp="#大宰府">大宰</orgName>雑油卅石、中男作物若満此数者、更不交易、
+        </p>
+</div>
+<div ana="民部下" corresp="engishiki_v23_en.xml#article231064 engishiki_v23_ja.xml#article231064" n="23.64" type="条" xml:id="article231064">
+<head ana="雑交易"/>
+<p ana="項" corresp="engishiki_v23_en.xml#item23106401 engishiki_v23_ja.xml#item23106401" xml:id="item23106401">
+         凡<placeName corresp="#諸国">諸国</placeName>雑交易、不論正税・地子、便附貢調使、不差専使、
+        </p>
+</div>
+<div ana="民部下" corresp="engishiki_v23_en.xml#article231065 engishiki_v23_ja.xml#article231065" n="23.65" type="条" xml:id="article231065">
+<head ana="当年充進"/>
+<p ana="項" corresp="engishiki_v23_en.xml#item23106501 engishiki_v23_ja.xml#item23106501" xml:id="item23106501">
+         凡<placeName corresp="#諸国">諸国</placeName>年料雑交易物者、当年充進、不得踰年、若有未進、<anchor xml:id="app2310650101"/>拘<anchor xml:id="app2310650101e"/>調庸返抄、
+        </p>
+</div>
+<div ana="民部下" corresp="engishiki_v23_en.xml#article231066 engishiki_v23_ja.xml#article231066" n="23.66" type="条" xml:id="article231066">
+<head ana="雑交易未進"/>
+<p ana="項" corresp="engishiki_v23_en.xml#item23106601 engishiki_v23_ja.xml#item23106601" xml:id="item23106601">
+         凡有雑交易未進者、准雑米未進例、奪郡<orgName corresp="#司">司</orgName><orgName corresp="#職">職</orgName>田直、若不足者、没国<orgName corresp="#司">司</orgName><anchor xml:id="app2310660101"/>公<anchor xml:id="app2310660101e"/>廨、
+        </p>
+</div>
+<div ana="民部下" corresp="engishiki_v23_en.xml#article231067 engishiki_v23_ja.xml#article231067" n="23.67" type="条" xml:id="article231067">
+<head ana="未進帳"/>
+<p ana="項" corresp="engishiki_v23_en.xml#item23106701 engishiki_v23_ja.xml#item23106701" xml:id="item23106701">
+         凡<placeName corresp="#諸国">諸国</placeName>大未進・小未進等帳者、勘録国<orgName corresp="#司">司</orgName>功過、毎年正月五日以前進官、
+        </p>
+</div>
+<div ana="民部下" corresp="engishiki_v23_en.xml#article231068 engishiki_v23_ja.xml#article231068" n="23.68" type="条" xml:id="article231068">
+<head ana="郡司功過帳"/>
+<p ana="項" corresp="engishiki_v23_en.xml#item23106801 engishiki_v23_ja.xml#item23106801" xml:id="item23106801">
+         凡<orgName corresp="#京職">京職</orgName>・<placeName corresp="#諸国">諸国</placeName>郡<orgName corresp="#司">司</orgName>功過帳、<orgName corresp="#主計寮">主計</orgName>・<orgName corresp="#主税寮">主税</orgName>勘定送<orgName corresp="#省">省</orgName>、<placeName corresp="#畿内">畿内</placeName>十月二日、外国十一月二日申官、
+        </p>
+</div>
+<div ana="民部下" corresp="engishiki_v23_en.xml#article231069 engishiki_v23_ja.xml#article231069" n="23.69" type="条" xml:id="article231069">
+<head ana="勅旨交易"/>
+<p ana="項" corresp="engishiki_v23_en.xml#item23106901 engishiki_v23_ja.xml#item23106901" xml:id="item23106901">
+         凡勅旨交易絹并商布減直者、去年料附当年使、待<anchor xml:id="app2310690101"/>究<anchor xml:id="app2310690101e"/>前年料、乃放後年返抄、其運賃用減直<anchor xml:id="app2310690102"/>内<anchor xml:id="app2310690102e"/>、穀倉院交易准此、
+        </p>
+</div>
+</div>
+<div type="尾題" xml:id="bidai23">
+<p xml:id="bidai2301">
+        延喜式巻第廿<anchor xml:id="app2388880101"/>三<anchor xml:id="app2388880101e"/>
+</p>
+</div>
+<div type="本奥書" xml:id="okugaki23">
+<p xml:id="okugaki2301"/>
+</div>
+</div>
+</body>
+</text>
+</TEI>
