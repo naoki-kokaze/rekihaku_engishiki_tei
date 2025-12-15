@@ -1313,9 +1313,9 @@
         </p>
         <app from="#app2310010101" to="#app2310010101e">
                 <lem wit="#京博本朱訂正書">竈</lem>
-                <rdg wit="#土本 #近本 #京博本 #慶長本">電</rdg>
+                <rdg wit="#土本 #近本 #慶長本">電</rdg>
                 <note>京博本朱訂正書「竈」</note>
-                <note>竈　土本等「電」。京博本訂正書により改める。</note>
+                <note>竈　土本・京博本等「電」。京博本訂正書により改める。</note>
         </app>
         <app from="#app2310010102" to="#app2310010102e">
                 <lem wit="#近本訂正書">春</lem>
@@ -1332,10 +1332,10 @@
         </p>
         <app from="#app2310020101" to="#app2310020101e">
                 <lem wit="#近本訂正書 #京博本朱訂正書">尽八</lem>
-                <rdg wit="#土本 #近本 #京博本 #慶長本">八尽</rdg>
+                <rdg wit="#土本 #慶長本">八尽</rdg>
                 <note>近本訂正書「尽八」</note>
                 <note>京博本朱訂正書「<seg style="color:red">尽八</seg>」</note>
-                <note>尽八　土本等「八尽」。近本・京博本訂正書により改める。</note>
+                <note>尽八　土本・近本・京博本等「八尽」。近本・京博本訂正書により改める。</note>
         </app>
 </div>
 <div ana="民部下" corresp="engishiki_v23_en.xml#article231003 engishiki_v23_ja.xml#article231003" n="23.3" type="条" xml:id="article231003">
@@ -1345,11 +1345,10 @@
         </p>
         <app from="#app2310030101" to="#app2310030101e">
                 <lem wit="#土本 #近本 #京博本 #慶長本">寺</lem>
-                <rdg wit=""></rdg>
                 <note>京博本朱訂正書「<seg style="color:red">等</seg>」</note>
         </app>
         <app from="#app2310030102" to="#app2310030102e">
-                <lem wit="#土本 #京博本 #慶長本">官</lem>
+                <lem wit="#土本 #京博本 #慶長本 #近本傍書">官</lem>
                 <rdg wit="#近本">宮</rdg>
                 <note place="傍">近本傍書「官」</note>
         </app>
@@ -1375,9 +1374,9 @@
         </p>
         <app from="#app2310050101" to="#app2310050101e">
                 <lem wit="#京博本朱訂正書">炭</lem>
-                <rdg wit="#土本 #近本 #京博本 #慶長本">灰</rdg>
+                <rdg wit="#土本 #近本 #慶長本">灰</rdg>
                 <note>京博本朱訂正書「<seg style="color:red">炭</seg>」</note>
-                <note>炭　土本等「灰」。京博本訂正書により改める。</note>
+                <note>炭　土本・京博本等「灰」。京博本訂正書により改める。</note>
         </app>
 </div>
 <div ana="民部下" corresp="engishiki_v23_en.xml#article231006 engishiki_v23_ja.xml#article231006" n="23.6" type="条" xml:id="article231006">
@@ -1418,7 +1417,6 @@
         </p>
         <app from="#app2310090101" to="#app2310090101e">
                 <lem wit="#土本 #近本 #京博本 #慶長本">常</lem>
-                <rdg wit=""></rdg>
                 <note>近本訂正書「中」</note>
                 <note>常　訳注本は島原本傍書により「中」に改める。</note>
         </app>
@@ -1479,9 +1477,9 @@
          凡<placeName corresp="#諸国">諸国</placeName>大帳・朝集・税帳公文、従官下之後、依无<anchor xml:id="app2310170101"/>使<anchor xml:id="app2310170101e"/>并雑掌、不得勘会、及遅怠<anchor xml:id="app2310170102"/>遅<anchor xml:id="app2310170102e"/>期、具録其由、載結解帳申官、
         </p>
         <app from="#app2310170101" to="#app2310170101e">
-                <lem wit="#土本 #近本 #慶長本">使</lem>
-                <rdg wit="#京博本">伝</rdg>
-                <note place="傍">京博本傍書「使イ」とし朱で「伝」と「イ」を抹消</note>
+                <lem wit="#土本 #近本 #京博本傍書 #慶長本">使</lem>
+                <note>京博本「<del>伝</del>」</note>
+                <note place="傍">京博本傍書「使<del>イ</del>」</note>
         </app>
         <app from="#app2310170102" to="#app2310170102e">
                 <lem wit="#土本 #近本 #京博本 #慶長本">遅</lem>
@@ -1510,15 +1508,15 @@
          凡義倉及官田地子等帳、並附正税帳使、〈義倉帳付<orgName corresp="#主計寮">主計</orgName>、官<anchor xml:id="app2310200101"/>田<anchor xml:id="app2310200101e"/>帳付<orgName corresp="#主税寮">主税</orgName>、〉出挙帳・郷戸課丁帳並附大帳使、〈郷戸課<anchor xml:id="app2310200102"/>丁<anchor xml:id="app2310200102e"/>帳留<orgName corresp="#省">省</orgName>、大帳付<orgName corresp="#主計寮">主計</orgName>、出挙<anchor xml:id="app2310200103"/>帳<anchor xml:id="app2310200103e"/><anchor xml:id="app2310200104"/>付<anchor xml:id="app2310200104e"/><orgName corresp="#主税寮">主税</orgName>、〉田租帳附貢調使、〈但明年貢調<anchor xml:id="app2310200105"/>国<anchor xml:id="app2310200105e"/>者付正税帳使、〉正倉・官舎・溝池・桑漆等帳並附朝集使、
         </p>
         <app from="#app2310200101" to="#app2310200101e">
-                <lem wit="#近本 #慶長本 #京博本異本注記">田</lem>
+                <lem wit="#近本 #慶長本 #京博本左朱傍書">田</lem>
                 <rdg wit="#土本 #京博本">日</rdg>
                 <note place="傍">京博本左朱傍書「<seg style="color:red">田イ</seg>」</note>
                 <note>田　土本・京博本「日」。近本・慶長本、京博本異本注記により改める。</note>
         </app>
         <app from="#app2310200102" to="#app2310200102e">
-                <lem wit="#土本 #近本 #慶長本">丁</lem>
+                <lem wit="#土本 #近本 #慶長本 #京博本朱傍書">丁</lem>
                 <rdg wit="#京博本">下</rdg>
-                <note place="傍">京博本朱傍書「<seg style="color:red">丁<del>イ</del></seg>」とし朱で「イ」を抹消し抹消符とする。</note>
+                <note place="傍">京博本朱傍書「<seg style="color:red">丁<del>イ</del></seg>」</note>
         </app>
         <app from="#app2310200103" to="#app2310200103e">
                 <lem wit="#近本 #京博本 #慶長本">帳</lem>
@@ -1560,15 +1558,15 @@
          凡承<anchor xml:id="app2310240101"/>知<anchor xml:id="app2310240101e"/>官符、<orgName corresp="#省">省</orgName>奉行直下<orgName corresp="#寮"><anchor xml:id="app2310240102"/>寮<anchor xml:id="app2310240102e"/></orgName>、
         </p>
         <app from="#app2310240101" to="#app2310240101e">
-                <lem wit="#近本抹消符 #京博本抹消符">知</lem>
+                <lem wit="#近本抹消 #京博本抹消">知</lem>
                 <rdg wit="#土本 #慶長本">和知</rdg>
-                <note>近本「<del>和</del>知」とし「和」を抹消</note>
-                <note>京博本「<del>和</del>知」とし「和」を朱で抹消</note>
+                <note>近本「<del>和</del>知」</note>
+                <note>京博本「<del>和</del>知」。「和」を朱抹消</note>
                 <note>知　土本・慶長本「和知」。近本「和知」とし「和」を抹消。京博本「和知」とし「和」を朱で抹消。近本・京博本抹消符により「和」を削る。</note>
         </app>
         <app from="#app2310240102" to="#app2310240102e">
                 <lem wit="#近本訂正書 #京博本朱訂正書 #慶長本">寮</lem>
-                <rdg wit="#土本 #近本 #京博本">察</rdg>
+                <rdg wit="#土本">察</rdg>
                 <note>近本訂正書「寮」</note>
                 <note>京博本朱訂正書「<seg style="color:red">寮</seg>」</note>
                 <note>寮　土本「察」。慶長本、近本・京博本訂正書により改める。</note>
@@ -1581,19 +1579,19 @@
         </p>
         <app from="#app2310250101" to="#app2310250101e">
                 <lem wit="#京博本朱訂正書">知</lem>
-                <rdg wit="#土本 #近本 #京博本 #慶長本">和</rdg>
+                <rdg wit="#土本 #近本 #慶長本">和</rdg>
                 <note>京博本訂正書「知」</note>
-                <note>知　土本等「和」。京博本訂正書により改める。</note>
+                <note>知　土本・京博本等「和」。京博本訂正書により改める。</note>
         </app>
         <app from="#app2310250102" to="#app2310250102e">
                 <lem wit="#近本訂正書 #京博本訂正書">知</lem>
+                <rdg wit="#土本 #慶長本">和</rdg>
                 <note>近本訂正書「知」</note>
                 <note>京博本訂正書「知」</note>
                 <note>知　土本等「和」。近本・京博本訂正書により改める。</note>
         </app>
         <app from="#app2310250103" to="#app2310250103e">
                 <lem wit="#土本 #近本 #京博本 #慶長本">日</lem>
-                <rdg wit=""></rdg>
                 <note>近本訂正書「到」</note>
                 <note place="傍">京博本朱訂正書「<seg style="color:red">日</seg>」、朱傍書「<seg style="color:red">到イ</seg>」</note>
         </app>
@@ -1605,13 +1603,14 @@
         </p>
         <app from="#app2310260101" to="#app2310260101e">
                 <lem wit="#京博本朱訂正書">知</lem>
-                <rdg wit="#土本 #近本 #京博本 #慶長本">和</rdg>
+                <rdg wit="#土本 #近本 #慶長本">和</rdg>
                 <note>京博本朱訂正書「<seg style="color:red">知</seg>」</note>
                 <note>知　土本等「和」。京博本訂正書により改める。政事要略二七所引式文「知」。</note>
         </app>
         <app from="#app2310260102" to="#app2310260102e">
-                <lem wit="#京博本 #慶長本">奉</lem>
-                <rdg wit="#土本 #近本">行奉</rdg>
+                <lem wit="#京博本 #慶長本 #近本抹消">奉</lem>
+                <rdg wit="#土本">行奉</rdg>
+                <note>近本「<del>行</del>奉」</note>
                 <note>奉　土本「行奉」。近本「行奉」とし「行」を抹消。京博本・慶長本、近本抹消符により削る。政事要略二七所引式文「奉」。</note>
         </app>
 </div>
@@ -1659,17 +1658,17 @@
         </p>
         <app from="#app2310300101" to="#app2310300101e">
                 <lem wit="#近本訂正書 #京博本朱訂正書">送</lem>
-                <rdg wit="#土本 #近本 #京博本 #慶長本">米</rdg>
+                <rdg wit="#土本 #慶長本">米</rdg>
                 <note>近本訂正書「送」</note>
                 <note>京博本朱訂正書「<seg style="color:red">送</seg>」</note>
-                <note>送　土本等「米」。近本・京博本訂正書により改める。</note>
+                <note>送　土本・近本・京博本等「米」。近本・京博本訂正書により改める。</note>
         </app>
         <app from="#app2310300102" to="#app2310300102e">
                 <lem wit="#近本訂正書 #京博本朱訂正書">便</lem>
-                <rdg wit="#土本 #近本 #京博本 #慶長本">使</rdg>
+                <rdg wit="#土本 #慶長本">使</rdg>
                 <note>近本訂正書「便」</note>
                 <note>京博本朱訂正書「便」</note>
-                <note>便　土本等「使」。近本・京博本訂正書により改める。</note>
+                <note>便　土本・近本・京博本等「使」。近本・京博本訂正書により改める。</note>
         </app>
 </div>
 <div ana="民部下" corresp="engishiki_v23_en.xml#article231031 engishiki_v23_ja.xml#article231031" n="23.31" type="条" xml:id="article231031">
@@ -1685,8 +1684,8 @@
         </p>
         <app from="#app2310320101" to="#app2310320101e">
                 <lem wit="#近本挿入書 #京博本朱挿入書">石</lem>
-                <rdg wit="#土本 #近本 #京博本 #慶長本"/>
-                <note>石　土本等無し。近本・京博本挿入書により補う。</note>
+                <rdg wit="#土本 #慶長本"/>
+                <note>石　土本・近本・京博本等無し。近本・京博本挿入書により補う。</note>
         </app>
 </div>
 <div ana="民部下" corresp="engishiki_v23_en.xml#article231033 engishiki_v23_ja.xml#article231033" n="23.33" type="条" xml:id="article231033">
@@ -1714,8 +1713,8 @@
         </p>
         <app from="#app2310360101" to="#app2310360101e">
                 <lem wit="#土本 #近本 #慶長本">若</lem>
-                <rdg wit="#京博本"/>
                 <note>京博本挿入符「若イ」</note>
+                <note></note>
         </app>
         <app from="#app2310360102" to="#app2310360102e">
                 <lem cause="意改">供</lem>
@@ -1742,10 +1741,10 @@
         </p>
         <app from="#app2310390101" to="#app2310390101e">
                 <lem wit="#近本訂正書 #京博本朱訂正書">当</lem>
-                <rdg wit="#土本 #近本 #京博本 #慶長本">差</rdg>
+                <rdg wit="#土本 #慶長本">差</rdg>
                 <note>近本訂正書「当」</note>
                 <note>京博本朱訂正書「<seg style="color:red">当</seg>」</note>
-                <note>当　土本等「差」。近本・京博本訂正書により改める。</note>
+                <note>当　土本・近本・京博本等「差」。近本・京博本訂正書により改める。</note>
         </app>
         <app from="#app2310390102" to="#app2310390102e">
                 <lem wit="#土本 #近本 #京博本">附</lem>
@@ -1776,7 +1775,7 @@
         </p>
         <app from="#app2310420101" to="#app2310420101e">
                 <lem wit="#近本挿入書 #京博本朱挿入書">以</lem>
-                <rdg wit="#土本 #近本 #京博本 #慶長本"></rdg>
+                <rdg wit="#土本 #慶長本"></rdg>
                 <note>近本挿入書「以」</note>
                 <note>京博本朱挿入書「<seg style="color:red">以</seg>」</note>
                 <note>以　土本等無し。近本・京博本挿入書により補う。</note>
@@ -1799,15 +1798,16 @@
         </app>
         <app from="#app2310430103" to="#app2310430103e">
                 <lem wit="#近本訂正書 #京博本朱訂正書">船</lem>
-                <rdg wit="#土本 #近本 #京博本 #慶長本">如</rdg>
+                <rdg wit="#土本 #慶長本">如</rdg>
                 <note>近本訂正書「船」</note>
-                <note>京博本朱訂正書「船」</note>
+                <note>京博本朱訂正書「<seg style="color:red">船</seg>」</note>
                 <note>船　土本等「如」。近本・京博本訂正書により改める。</note>
         </app>
         <app from="#app2310430104" to="#app2310430104e">
                 <lem wit="#近本訂正書 #京博本朱傍書">衛</lem>
-                <rdg wit="#土本 #近本 #京博本 #慶長本">衙</rdg>
-                <note>衛　土本等「衙」。近本訂正書・京博本異本注記により改める。</note>
+                <rdg wit="#土本 #京博本 #慶長本">衙</rdg>
+                <note place="傍">京博本朱傍書「<seg style="color:red">衛イ</seg>」</note>
+                <note>衛　土本・近本等「衙」。近本訂正書・京博本異本注記により改める。</note>
         </app>
         <app from="#app2310430105" to="#app2310430105e">
                 <lem wit="#土本 #近本 #京博本 #慶長本">六</lem>
@@ -1821,10 +1821,10 @@
         </p>
         <app from="#app2310440101" to="#app2310440101e">
                 <lem wit="#近本訂正書 #京博本朱訂正書">乃</lem>
-                <rdg wit="#土本 #近本 #京博本 #慶長本">仍</rdg>
+                <rdg wit="#土本 #慶長本">仍</rdg>
                 <note>近本訂正書「乃」</note>
                 <note>京博本朱訂正書「<seg style="color:red">乃</seg>」</note>
-                <note>乃　土本等「仍」。近本・京博本訂正書により改める。</note>
+                <note>乃　土本・近本・京博本等「仍」。近本・京博本訂正書により改める。</note>
         </app>
 </div>
 <div ana="民部下" corresp="engishiki_v23_en.xml#article231045 engishiki_v23_ja.xml#article231045" n="23.45" type="条" xml:id="article231045">
@@ -1872,9 +1872,9 @@
         </app>
         <app from="#app2310490104" to="#app2310490104e">
                 <lem wit="#近本 #京博本 #慶長本 #壬本">九</lem>
-                <rdg wit="#土本 #梵本">五</rdg>
+                <rdg wit="#土本 #梵本 #近本傍書">五</rdg>
                 <note place="傍">近本傍書「五」</note>
-                <note>九　土本「五」。近本等により改める。</note>
+                <note>九　土本等「五」。近本等により改める。</note>
         </app>
         <app from="#app2310490105" to="#app2310490105e">
                 <lem wit="#土本 #近本">五</lem>
@@ -1917,7 +1917,8 @@
 </p>
         <app from="#app2310520101" to="#app2310520101e">
                 <lem wit="#土本 #近本 #京博本 #慶長本">千</lem>
-                <note place="傍">京博本上に朱傍書「三イ」</note>
+                <note>京博本朱傍書「<seg style="color:red">三イ</seg>」</note>
+                <note place="傍">千　京博本上に朱傍書「三イ」</note>
         </app>
         <app from="#app2310520102" to="#app2310520102e">
                 <lem wit="#土本 #近本 #京博本 #慶長本">五</lem>
@@ -1938,19 +1939,20 @@
         </app>
         <app from="#app2310520105" to="#app2310520105e">
                 <lem wit="#土本 #近本 #京博本 #慶長本">百</lem>
-                <note>京博本上に朱書「二」</note>
-                <note>百　政事要略二七所引式文「二百」。</note>
+                <note>京博本朱書「<seg style="color:red">二</seg>」</note>
+                <note>百　京博本上に朱書「二」。政事要略二七所引式文「二百」。</note>
         </app>
         <app from="#app2310520106" to="#app2310520106e">
                 <lem wit="#土本 #近本 #京博本 #慶長本">国</lem>
-                <note>京博本上に朱挿入書「箇」</note>
+                <note>京博本朱挿入書「<seg style="color:red">箇</seg>」</note>
+                <note>国　京博本上に朱挿入書「箇」</note>
         </app>
 </div>
 <div ana="民部下" corresp="engishiki_v23_en.xml#article231053 engishiki_v23_ja.xml#article231053" n="23.53" type="条" xml:id="article231053">
 <head ana="年料別貢雑物"/>
 <p ana="項" corresp="engishiki_v23_en.xml#item23105301 engishiki_v23_ja.xml#item23105301" xml:id="item23105301">
          年料別貢雑物
-         <lb/><placeName corresp="#伊賀国">伊賀国</placeName>〈紙麻五十斤、〉　<placeName corresp="#伊勢国">伊勢国</placeName>〈筆<anchor xml:id="app2310530101"/>百<anchor xml:id="app2310530101e"/>管、紙麻一百十斤、〉　<placeName corresp="#尾張国">尾張国</placeName>〈筆一百管、紙麻九十<anchor xml:id="app2310530102"/>斤<anchor xml:id="app2310530102e"/>、青木香一百六十斤、馬革六張、〉　<placeName corresp="#参河国">参河国</placeName>〈筆一百五十管、紙麻十斤、黄楊六<anchor xml:id="app2310530103"/>枚<anchor xml:id="app2310530103e"/>、〉　<placeName corresp="#遠江国">遠江国</placeName>〈筆一千管、零羊角四具、〉　<placeName corresp="#駿河国">駿河国</placeName>〈筆一百管、零羊角四具、〉　<placeName corresp="#伊豆国">伊豆国</placeName>〈零羊角四具、甘葛汁二斗、〉　<placeName corresp="#甲斐国">甲斐国</placeName>〈筆<anchor xml:id="app2310530104"/>卅<anchor xml:id="app2310530104e"/>管、零羊角六具、胡桃子一石五斗、〉　<placeName corresp="#相摸国">相摸国</placeName>〈筆一百管、零羊角四具、青木香八十斤、牧牛皮、〉　<placeName corresp="#武蔵国">武蔵国</placeName>〈筆一百管、膠五十斤、麻黄<anchor xml:id="app2310530105"/>五<anchor xml:id="app2310530105e"/>斤、麻子六斗、〉　<placeName corresp="#安房国">安房国</placeName>〈長海松<anchor xml:id="app2310530106"/>二<anchor xml:id="app2310530106e"/>籠、〉　<placeName corresp="#上総国">上総国</placeName>〈筆一百管、牧牛皮六張、〉　<placeName corresp="#下総国">下総<anchor xml:id="app2310530107"/>国<anchor xml:id="app2310530107e"/></placeName>〈筆一百管、牧牛皮六張、牛角十二口、麻子七斗、〉　<placeName corresp="#常陸国">常陸国</placeName>〈筆三百管、麻子七斗、〉　<placeName corresp="#近江国">近江国</placeName>〈筆二百管、紙麻一百十斤、零<anchor xml:id="app2310530108"/>羊<anchor xml:id="app2310530108e"/>角四具、馬革十七張、〉　<placeName corresp="#美濃国">美濃国</placeName>〈筆一百五十管、紙麻六百斤、<anchor xml:id="app2310530109"/>支子二石、青木香卅斤<anchor xml:id="app2310530109e"/>、零羊角六具、馬革廿四張、〉　<placeName corresp="#信濃国">信濃国</placeName>〈筆一百卅管、零羊角六具、木賊二囲、樺皮二囲、〉　<placeName corresp="#上野国">上野国</placeName>〈筆一百管、<anchor xml:id="app2310530110"/>零<anchor xml:id="app2310530110e"/>羊角六具、杏<anchor xml:id="app2310530111"/>仁<anchor xml:id="app2310530111e"/>三斗、膠十三斤、樺皮四<anchor xml:id="app2310530112"/>張<anchor xml:id="app2310530112e"/>、〉　<placeName corresp="#下野国">下野国</placeName>〈筆一百管、麻紙一百張、麻子三斗、〉　<placeName corresp="#陸奥国">陸奥国</placeName>〈筆一百管、零羊<anchor xml:id="app2310530113"/>角<anchor xml:id="app2310530113e"/>四具、〉　<placeName corresp="#出羽国">出羽国</placeName>〈零羊角十<anchor xml:id="app2310530114"/>具<anchor xml:id="app2310530114e"/>、〉　<placeName corresp="#若狭国">若狭国</placeName>〈零羊<anchor xml:id="app2310530115"/>角<anchor xml:id="app2310530115e"/>、紙麻一百斤、〉　<placeName corresp="#越前国">越前国</placeName>〈筆五十管、紙麻一百斤、零羊角十具、甘<anchor xml:id="app2310530116"/>葛<anchor xml:id="app2310530116e"/>汁一斗、〉　<placeName corresp="#越中国">越中国</placeName>〈零羊角二具、〉　<placeName corresp="#越後国">越後国</placeName>〈零羊角六具、〉　<placeName corresp="#丹波国">丹波国</placeName>〈墨二百廷、<anchor xml:id="app2310530117"/>紙麻七十斤<anchor xml:id="app2310530117e"/>、漆二斗七升、柏一百廿俵、以五十把為俵、把別五十枚、<anchor xml:id="app2310530118"/>掃<anchor xml:id="app2310530118e"/>墨一石、斐紙麻一百斤、〉　<placeName corresp="#但馬国">但馬国</placeName>〈筆八十管、紙<anchor xml:id="app2310530119"/>麻<anchor xml:id="app2310530119e"/>七十斤、馬革十一張、〉　<placeName corresp="#因幡国">因幡国</placeName>〈筆八十管、紙麻七十斤、〉　<placeName corresp="#伯耆国">伯耆国</placeName>〈筆八十管、紙麻七十斤、〉　<placeName corresp="#出雲国">出雲国</placeName>〈筆五十管、〉　<placeName corresp="#播磨国">播磨国</placeName>〈筆一百卅管、墨三百五十廷、紙麻二百十斤、掃墨二石、馬革<anchor xml:id="app2310530120"/>卌<anchor xml:id="app2310530120e"/>二張、<anchor xml:id="app2310530121"/>柏一百俵<anchor xml:id="app2310530121e"/>、〉　<placeName corresp="#美作国">美作国</placeName>〈筆六十管、紙麻七十斤、〉　<placeName corresp="#備前国">備前国</placeName>〈筆一百管、紙麻五十斤、牧牛<anchor xml:id="app2310530122"/>皮<anchor xml:id="app2310530122e"/>、〉　<placeName corresp="#備中国">備中国</placeName>〈紙麻九十斤、〉　<placeName corresp="#備後国">備後国</placeName>〈斐紙麻一百斤、〉　<placeName corresp="#安芸国">安芸国</placeName>〈零羊角四具、〉　<placeName corresp="#周防国">周防国</placeName>〈斐紙麻<anchor xml:id="app2310530123"/>一<anchor xml:id="app2310530123e"/>百斤、〉　<placeName corresp="#長門国">長門国</placeName>〈牧牛皮八張、〉　<placeName corresp="#紀伊国">紀伊国</placeName>〈紙麻七十斤、鎌垣船九隻、〉　<placeName corresp="#阿波国">阿波国</placeName>〈筆八十管、紙麻七十斤、斐紙<anchor xml:id="app2310530124"/>麻<anchor xml:id="app2310530124e"/>一百斤、馬革十張、〉　<placeName corresp="#讃岐国">讃岐国</placeName>〈紙麻百五十斤、牧牛皮十張、斐紙麻一百斤、〉　<placeName corresp="#伊予国">伊予国</placeName>〈筆一百管、檳<anchor xml:id="app2310530125"/>榔<anchor xml:id="app2310530125e"/>二百<anchor xml:id="app2310530126"/>枚<anchor xml:id="app2310530126e"/>、牧牛皮三張、斐紙麻一百斤、〉　<placeName corresp="#土佐国">土左国</placeName>〈零羊角四具、黄楊六枚、〉　<orgName corresp="#大宰府">大宰府</orgName>〈筆一千一百廿管、兎毛・<anchor xml:id="app2310530127"/>鹿毛<anchor xml:id="app2310530127e"/>各五百六十管、墨四百五十<anchor xml:id="app2310530128"/>廷<anchor xml:id="app2310530128e"/>、以上二種盛<anchor xml:id="app2310530129"/>韓櫃<anchor xml:id="app2310530129e"/>一合、斐紙一千張、麻紙二百張、斐<anchor xml:id="app2310530130"/>麻<anchor xml:id="app2310530130e"/>二百斤、麦門<anchor xml:id="app2310530131"/>冬<anchor xml:id="app2310530131e"/>二<anchor xml:id="app2310530132"/>斛<anchor xml:id="app2310530132e"/>二斗、紫草<placeName corresp="#日向国">日向</placeName>八百斤・<placeName corresp="#大隅国">大隅</placeName>一千八百斤、青砥二百顆、赤木南島所進、其数随得、〉
+        <lb/><placeName corresp="#伊賀国">伊賀国</placeName>〈紙麻五十斤、〉　<placeName corresp="#伊勢国">伊勢国</placeName>〈筆<anchor xml:id="app2310530101"/>百<anchor xml:id="app2310530101e"/>管、紙麻一百十斤、〉　<placeName corresp="#尾張国">尾張国</placeName>〈筆一百管、紙麻九十<anchor xml:id="app2310530102"/>斤<anchor xml:id="app2310530102e"/>、青木香一百六十斤、馬革六張、〉　<placeName corresp="#参河国">参河国</placeName>〈筆一百五十管、紙麻十斤、黄楊六<anchor xml:id="app2310530103"/>枚<anchor xml:id="app2310530103e"/>、〉　<placeName corresp="#遠江国">遠江国</placeName>〈筆一千管、零羊角四具、〉　<placeName corresp="#駿河国">駿河国</placeName>〈筆一百管、零羊角四具、〉　<placeName corresp="#伊豆国">伊豆国</placeName>〈零羊角四具、甘葛汁二斗、〉　<placeName corresp="#甲斐国">甲斐国</placeName>〈筆<anchor xml:id="app2310530104"/>卅<anchor xml:id="app2310530104e"/>管、零羊角六具、胡桃子一石五斗、〉　<placeName corresp="#相摸国">相摸国</placeName>〈筆一百管、零羊角四具、青木香八十斤、牧牛皮、〉　<placeName corresp="#武蔵国">武蔵国</placeName>〈筆一百管、膠五十斤、麻黄<anchor xml:id="app2310530105"/>五<anchor xml:id="app2310530105e"/>斤、麻子六斗、〉　<placeName corresp="#安房国">安房国</placeName>〈長海松<anchor xml:id="app2310530106"/>二<anchor xml:id="app2310530106e"/>籠、〉　<placeName corresp="#上総国">上総国</placeName>〈筆一百管、牧牛皮六張、〉　<placeName corresp="#下総国">下総<anchor xml:id="app2310530107"/>国<anchor xml:id="app2310530107e"/></placeName>〈筆一百管、牧牛皮六張、牛角十二口、麻子七斗、〉　<placeName corresp="#常陸国">常陸国</placeName>〈筆三百管、麻子七斗、〉　<placeName corresp="#近江国">近江国</placeName>〈筆二百管、紙麻一百十斤、零<anchor xml:id="app2310530108"/>羊<anchor xml:id="app2310530108e"/>角四具、馬革十七張、〉　<placeName corresp="#美濃国">美濃国</placeName>〈筆一百五十管、紙麻六百斤、<anchor xml:id="app2310530109"/>支子二石、青木香卅斤<anchor xml:id="app2310530109e"/>、零羊角六具、馬革廿四張、〉　<placeName corresp="#信濃国">信濃国</placeName>〈筆一百卅管、零羊角六具、木賊二囲、樺皮二囲、〉　<placeName corresp="#上野国">上野国</placeName>〈筆一百管、<anchor xml:id="app2310530110"/>零<anchor xml:id="app2310530110e"/>羊角六具、杏<anchor xml:id="app2310530111"/>仁<anchor xml:id="app2310530111e"/>三斗、膠十三斤、樺皮四<anchor xml:id="app2310530112"/>張<anchor xml:id="app2310530112e"/>、〉　<placeName corresp="#下野国">下野国</placeName>〈筆一百管、麻紙一百張、麻子三斗、〉　<placeName corresp="#陸奥国">陸奥国</placeName>〈筆一百管、零羊<anchor xml:id="app2310530113"/>角<anchor xml:id="app2310530113e"/>四具、〉　<placeName corresp="#出羽国">出羽国</placeName>〈零羊角十<anchor xml:id="app2310530114"/>具<anchor xml:id="app2310530114e"/>、〉　<placeName corresp="#若狭国">若狭国</placeName>〈零羊<anchor xml:id="app2310530115"/>角<anchor xml:id="app2310530115e"/>、紙麻一百斤、〉　<placeName corresp="#越前国">越前国</placeName>〈筆五十管、紙麻一百斤、零羊角十具、甘<anchor xml:id="app2310530116"/>葛<anchor xml:id="app2310530116e"/>汁一斗、〉　<placeName corresp="#越中国">越中国</placeName>〈零羊角二具、〉　<placeName corresp="#越後国">越後国</placeName>〈零羊角六具、〉　<placeName corresp="#丹波国">丹波国</placeName>〈墨二百廷、<anchor xml:id="app2310530117"/>紙麻七十斤、漆二斗七升、柏一百廿俵<anchor xml:id="app2310530117e"/>、以五十把為俵、把別五十枚、<anchor xml:id="app2310530118"/>掃<anchor xml:id="app2310530118e"/>墨一石、斐紙麻一百斤、〉　<placeName corresp="#但馬国">但馬国</placeName>〈筆八十管、紙<anchor xml:id="app2310530119"/>麻<anchor xml:id="app2310530119e"/>七十斤、馬革十一張、〉　<placeName corresp="#因幡国">因幡国</placeName>〈筆八十管、紙麻七十斤、〉　<placeName corresp="#伯耆国">伯耆国</placeName>〈筆八十管、紙麻七十斤、〉　<placeName corresp="#出雲国">出雲国</placeName>〈筆五十管、〉　<placeName corresp="#播磨国">播磨国</placeName>〈筆一百卅管、墨三百五十廷、紙麻二百十斤、<anchor xml:id="app2310530120"/>掃墨二石、馬革<anchor xml:id="app2310530121"/>卌<anchor xml:id="app2310530121e"/>二張、柏一百俵<anchor xml:id="app2310530120e"/>、〉　<placeName corresp="#美作国">美作国</placeName>〈筆六十管、紙麻七十斤、〉　<placeName corresp="#備前国">備前国</placeName>〈筆一百管、紙麻五十斤、牧牛<anchor xml:id="app2310530122"/>皮<anchor xml:id="app2310530122e"/>、〉　<placeName corresp="#備中国">備中国</placeName>〈紙麻九十斤、〉　<placeName corresp="#備後国">備後国</placeName>〈斐紙麻一百斤、〉　<placeName corresp="#安芸国">安芸国</placeName>〈零羊角四具、〉　<placeName corresp="#周防国">周防国</placeName>〈斐紙麻<anchor xml:id="app2310530123"/>一<anchor xml:id="app2310530123e"/>百斤、〉　<placeName corresp="#長門国">長門国</placeName>〈牧牛皮八張、〉　<placeName corresp="#紀伊国">紀伊国</placeName>〈紙麻七十斤、鎌垣船九隻、〉　<placeName corresp="#阿波国">阿波国</placeName>〈筆八十管、紙麻七十斤、斐紙<anchor xml:id="app2310530124"/>麻<anchor xml:id="app2310530124e"/>一百斤、馬革十張、〉　<placeName corresp="#讃岐国">讃岐国</placeName>〈紙麻百五十斤、牧牛皮十張、斐紙麻一百斤、〉　<placeName corresp="#伊予国">伊予国</placeName>〈筆一百管、檳<anchor xml:id="app2310530125"/>榔<anchor xml:id="app2310530125e"/>二百<anchor xml:id="app2310530126"/>枚<anchor xml:id="app2310530126e"/>、牧牛皮三張、斐紙麻一百斤、〉　<placeName corresp="#土佐国">土左国</placeName>〈零羊角四具、黄楊六枚、〉　<orgName corresp="#大宰府">大宰府</orgName>〈筆一千一百廿管、兎毛・<anchor xml:id="app2310530127"/>鹿毛<anchor xml:id="app2310530127e"/>各五百六十管、墨四百五十<anchor xml:id="app2310530128"/>廷<anchor xml:id="app2310530128e"/>、以上二種盛<anchor xml:id="app2310530129"/>韓櫃<anchor xml:id="app2310530129e"/>一合、斐紙一千張、麻紙二百張、斐<anchor xml:id="app2310530130"/>麻<anchor xml:id="app2310530130e"/>二百斤、麦門<anchor xml:id="app2310530131"/>冬<anchor xml:id="app2310530131e"/>二<anchor xml:id="app2310530132"/>斛<anchor xml:id="app2310530132e"/>二斗、紫草<placeName corresp="#日向国">日向</placeName>八百斤・<placeName corresp="#大隅国">大隅</placeName>一千八百斤、青砥二百顆、赤木南島所進、其数随得、〉
          <lb/><s rendition="#indent">右別貢雑物並依前件、自余雑薬見<orgName corresp="#典薬寮">典薬</orgName>式、其運送徭夫各給路粮、</s>
 </p>
         <app from="#app2310530101" to="#app2310530101e">
@@ -1963,9 +1965,9 @@
         </app>
         <app from="#app2310530103" to="#app2310530103e">
                 <lem wit="#京博本朱訂正書">枚</lem>
-                <rdg wit="#土本 #近本 #京博本 #慶長本">斤</rdg>
+                <rdg wit="#土本 #近本 #慶長本">斤</rdg>
                 <note>京博本朱訂正書「<seg style="color:red">枚</seg>」</note>
-                <note>枚　土本等「斤」。京博本朱訂正書により改める。</note>
+                <note>枚　土本・京博本等「斤」。京博本朱訂正書により改める。</note>
         </app>
         <app from="#app2310530104" to="#app2310530104e">
                 <lem wit="#土本 #京博本 #慶長本">卅</lem>
@@ -1973,6 +1975,7 @@
         </app>
         <app from="#app2310530105" to="#app2310530105e">
                 <lem wit="#土本 #近本 #京博本 #慶長本">五</lem>
+                <note>京博本朱書「<seg style="color:red">十</seg>」</note>
                 <note>五　京博本上に「<seg style="color:red">十</seg>」と朱書</note>
         </app>
         <app from="#app2310530106" to="#app2310530106e">
@@ -2011,16 +2014,18 @@
         </app>
         <app from="#app2310530113" to="#app2310530113e">
                 <lem wit="#京博本朱挿入書 #梵本">角</lem>
-                <rdg wit="#土本 #近本 #京博本 #慶長本"/>
-                <note>京博本朱挿入書「角」</note>
+                <rdg wit="#土本 #近本 #慶長本"/>
+                <note>京博本朱挿入書「<seg style="color:red">角</seg>」</note>
                 <note>角　土本等無し。梵本、京博本異本注記により補う。</note>
         </app>
         <app from="#app2310530114" to="#app2310530114e">
                 <lem wit="#土本 #近本 #京博本 #慶長本">具</lem>
-                <note>京博本下に朱挿入書「紙麻一百斤」</note>
+                <note>京博本朱挿入書「<seg style="color:red">紙麻一百斤</seg>」</note>
+                <note>具　京博本下に朱挿入書「紙麻一百斤」</note>
         </app>
         <app from="#app2310530115" to="#app2310530115e">
                 <lem wit="#土本 #近本 #京博本 #慶長本">角</lem>
+                <note>京博本朱挿入書「<seg style="color:red">十具</seg>」</note>
                 <note>京博本下に朱挿入書「十具」</note>
         </app>
         <app from="#app2310530116" to="#app2310530116e">
@@ -2028,87 +2033,92 @@
                 <rdg wit="#慶長本"/>
         </app>
         <app from="#app2310530117" to="#app2310530117e">
-                <lem wit="#土本 #近本 #京博本">紙麻七十斤</lem>
-                <rdg wit="#慶長本"/>
+                <lem wit="#土本 #近本 #京博本">紙麻七十斤、漆二斗七升、柏一百廿俵</lem>
+                <rdg wit="#慶長本">漆二斗七升、柏一百廿俵、紙麻七十斤</rdg>
                 <note>紙麻七十斤　慶長本は柏一百廿俵の下にあり。</note>
         </app>
         <app from="#app2310530118" to="#app2310530118e">
                 <lem wit="#近本傍書 #京博本朱訂正書">掃</lem>
-                <rdg wit="#土本 #近本 #京博本 #慶長本">柿</rdg>
+                <rdg wit="#土本 #京博本 #慶長本">柿</rdg>
                 <note place="傍">近本傍書「掃」</note>
                 <note>京博本朱訂正書「<seg style="color:red">掃</seg>」</note>
-                <note>掃　土本等「柿」。近本傍書、京博本訂正書により改める。</note>
+                <note>掃　土本・京博本等「柿」。近本傍書、京博本訂正書により改める。</note>
         </app>
         <app from="#app2310530119" to="#app2310530119e">
-                <lem wit="#京博本 #慶長本">麻</lem>
+                <lem wit="#京博本 #慶長本 #近本傍書">麻</lem>
                 <rdg wit="#土本 #近本"/>
                 <note place="傍">近本傍書「麻」。</note>
                 <note>麻　土本・近本無し。京博本・慶長本により補う。</note>
         </app>
         <app from="#app2310530120" to="#app2310530120e">
+                <lem wit="#土本">掃墨二石、馬革卌二張、柏一百俵</lem>
+                <rdg wit="#近本 #京博本">掃墨二石、柏一百俵、馬革卌二張</rdg>
+                <rdg wit="#慶長本">柏一百俵、掃墨二石、馬革卌二張</rdg>
+                <note>掃墨二石、馬革卌二張、柏一百俵　「柏一百俵」を近本・京博本は「馬革」の前にとし、慶長本は「掃墨」の前にとする。訳注本は「掃墨」の前に移す。</note>
+        </app>
+        <app from="#app2310530121" to="#app2310530121e">
                 <lem wit="#土本 #近本 #京博本 #慶長本">卌</lem>
                 <note>京博本朱傍書「<seg style="color:red">卅イ</seg>」</note>
                 <note>卌　訳注本は「卅」に改める。</note>
         </app>
-        <app from="#app2310530121" to="#app2310530121e">
-                <lem wit="#土本">柏一百俵</lem>
-                <rdg wit=""></rdg>
-                <note></note>
-        </app>
         <app from="#app2310530122" to="#app2310530122e">
-                <lem wit=""></lem>
-                <rdg wit=""></rdg>
-                <note></note>
+                <lem wit="#土本 #近本 #慶長本">皮</lem>
+                <rdg wit="#京博本">皮六張</rdg>
+                <note>近本挿入書「二張」</note>
+                <note>京博本朱書「<seg style="color:red">六張</seg>」</note>
+                <note>皮　京博本下に「六張」と朱書</note>
         </app>
         <app from="#app2310530123" to="#app2310530123e">
-                <lem wit=""></lem>
-                <rdg wit=""></rdg>
-                <note></note>
+                <lem wit="#土本 #近本 #京博本 #慶長本">一</lem>
+                <note place="傍">京博本朱傍書「<seg style="color:red">二イ</seg>」</note>
         </app>
         <app from="#app2310530124" to="#app2310530124e">
-                <lem wit=""></lem>
-                <rdg wit=""></rdg>
-                <note></note>
+                <lem wit="#近本挿入書">麻</lem>
+                <rdg wit="#慶長本">紙</rdg>
+                <rdg wit="#土本 #近本 #京博本"/>
+                <note>近本挿入書「麻」</note>
+                <note>麻　土本等無し。慶長本「紙」。近本挿入書により補う。</note>
         </app>
         <app from="#app2310530125" to="#app2310530125e">
-                <lem wit=""></lem>
-                <rdg wit=""></rdg>
-                <note></note>
+                <lem wit="#土本 #近本 #京博本 #慶長本">榔</lem>
+                <note>近本挿入書「櫛」</note>
         </app>
         <app from="#app2310530126" to="#app2310530126e">
-                <lem wit=""></lem>
-                <rdg wit=""></rdg>
-                <note></note>
+                <lem wit="#京博本朱補書">枚</lem>
+                <rdg wit="#土本 #近本 #慶長本"/>
+                <note>京博本朱補書「<seg style="color:red">枚</seg>」</note>
+                <note>枚　土本・京博本等無し。京博本朱補により補う。</note>
         </app>
         <app from="#app2310530127" to="#app2310530127e">
-                <lem wit=""></lem>
-                <rdg wit=""></rdg>
-                <note></note>
+                <lem wit="#土本 #近本 #京博本">鹿毛</lem>
+                <rdg wit="#慶長本"/>
         </app>
         <app from="#app2310530128" to="#app2310530128e">
-                <lem wit=""></lem>
-                <rdg wit=""></rdg>
-                <note></note>
+                <lem wit="#京博本朱訂正書 #慶長本">廷</lem>
+                <rdg wit="#土本 #近本">道</rdg>
+                <note>京博本朱訂正書「<seg style="color:red">廷</seg>」</note>
+                <note>廷　土本・近本・京博本「道」。慶長本、京博本訂正書により改める。  </note>
         </app>
         <app from="#app2310530129" to="#app2310530129e">
-                <lem wit=""></lem>
-                <rdg wit=""></rdg>
-                <note></note>
+                <lem wit="#京博本 #慶長本 #近本訂正書">韓櫃</lem>
+                <rdg wit="#土本">幹</rdg>
+                <note>近本訂正書「韓櫃」</note>
+                <note>韓櫃　土本・近本「幹」。京博本・慶長本、近本訂正書により改める。</note>
         </app>
         <app from="#app2310530130" to="#app2310530130e">
-                <lem wit=""></lem>
-                <rdg wit=""></rdg>
-                <note></note>
+                <lem wit="#土本 #近本 #京博本 #慶長本">麻</lem>
+                <note>麻　訳注本は上文により上に「紙」を補う。</note>
         </app>
         <app from="#app2310530131" to="#app2310530131e">
-                <lem wit=""></lem>
-                <rdg wit=""></rdg>
-                <note></note>
+                <lem wit="#土本 #近本 #京博本 #慶長本">冬</lem>
+                <note>冬　訳注本は内蔵式54条により上に「煎」を補う。</note>
         </app>
         <app from="#app2310530132" to="#app2310530132e">
-                <lem wit=""></lem>
-                <rdg wit=""></rdg>
-                <note></note>
+                <lem wit="#近本訂正書 #京博本朱訂正書">斛</lem>
+                <rdg wit="#土本 #近本 #京博本 #慶長本">賢</rdg>
+                <note>近本訂正書「斛」</note>
+                <note>京博本朱訂正書「<seg style="color:red">斛</seg>」</note>
+                <note>斛　土本等「賢」。近本・京博本訂正書により改める。</note>
         </app>
 </div>
 <div ana="民部下" corresp="engishiki_v23_en.xml#article231054 engishiki_v23_ja.xml#article231054" n="23.54" type="条" xml:id="article231054">
@@ -2118,44 +2128,42 @@
          <lb/><s rendition="#indent">右管国調物、依件染造、其雑綵并草等、並盛韓櫃、其運脚者並給功食、</s>
 </p>
         <app from="#app2310540101" to="#app2310540101e">
-                <lem wit=""></lem>
-                <rdg wit=""></rdg>
-                <note></note>
+                <lem wit="#土本 #近本 #京博本 #慶長本">十</lem>
+                <note>十　訳注本は考異に従い下に「七」を補う。</note>
         </app>
         <app from="#app2310540102" to="#app2310540102e">
-                <lem wit=""></lem>
-                <rdg wit=""></rdg>
-                <note></note>
+                <lem wit="#土本 #近本 #京博本 #慶長本">緋</lem>
+                <note>緋　訳注本は例により上に「浅」を補う。</note>
         </app>
         <app from="#app2310540103" to="#app2310540103e">
-                <lem wit=""></lem>
-                <rdg wit=""></rdg>
-                <note></note>
+                <lem wit="#土本 #近本 #京博本 #慶長本">七</lem>
+                <note>七　訳注本は考異に従い「六」に改める。</note>
         </app>
         <app from="#app2310540104" to="#app2310540104e">
-                <lem wit=""></lem>
-                <rdg wit=""></rdg>
-                <note></note>
+                <lem wit="#近本 #京博本 #慶長本 #梵本 #壬本">卌</lem>
+                <rdg wit="#土本">卅</rdg>
+                <note>卌　土本「卅」。近本等により改める。</note>
         </app>
         <app from="#app2310540105" to="#app2310540105e">
-                <lem wit=""></lem>
-                <rdg wit=""></rdg>
-                <note></note>
+                <lem wit="#近本 #京博本 #慶長本 #壬本">卌</lem>
+                <rdg wit="#土本">卅</rdg>
+                <note>卌　土本「卅」。近本等により改める。</note>
         </app>
         <app from="#app2310540106" to="#app2310540106e">
-                <lem wit=""></lem>
-                <rdg wit=""></rdg>
-                <note></note>
+                <lem wit="#近本 #京博本 #梵本 #壬本">卅</lem>
+                <rdg wit="#土本 #慶長本">卌</rdg>
+                <note place="傍">京博本朱傍書「<seg style="color:red">卌イ</seg>」</note>
+                <note>卅　土本・慶長本「卌」。近本・京博本・梵本・壬本により改める。</note>
         </app>
         <app from="#app2310540107" to="#app2310540107e">
-                <lem wit=""></lem>
-                <rdg wit=""></rdg>
-                <note></note>
+                <lem wit="#土本 #近本 #京博本 #慶長本">廿</lem>
+                <note>廿　訳注本は内蔵式54条により「卅」に改める。</note>
         </app>
         <app from="#app2310540108" to="#app2310540108e">
-                <lem wit=""></lem>
-                <rdg wit=""></rdg>
-                <note></note>
+                <lem wit="#京博本朱訂正書">榴</lem>
+                <rdg wit="#土本 #近本 #慶長本">椙</rdg>
+                <note>京博本朱訂正書「<seg style="color:red">榴</seg>」</note>
+                <note>榴　土本・京博本等「椙」。京博本訂正書により改める。</note>
         </app>
 </div>
 <div ana="民部下" corresp="engishiki_v23_en.xml#article231055 engishiki_v23_ja.xml#article231055" n="23.55" type="条" xml:id="article231055">
@@ -2164,9 +2172,11 @@
          凡<orgName corresp="#大宰府">大宰府</orgName>毎年調絹三千疋、附貢綿使進之、又<orgName corresp="#隼人司"><anchor xml:id="app2310550101"/>隼<anchor xml:id="app2310550101e"/>人</orgName>調布、除<orgName corresp="#府">府</orgName>家三箇年雑用料之外、付使進上、
         </p>
         <app from="#app2310550101" to="#app2310550101e">
-                <lem wit=""></lem>
-                <rdg wit=""></rdg>
-                <note></note>
+                <lem wit="#近本傍書 #京博本朱訂正書">隼</lem>
+                <rdg wit="#土本 #近本 #慶長本">集</rdg>
+                <note place="傍">近本傍書「隼」</note>
+                <note>京博本朱訂正書「<seg style="color:red">隼</seg>」</note>
+                <note>隼　土本・京博本等「集」。近本傍書・京博本訂正書により改める。</note>
         </app>
 </div>
 <div ana="民部下" corresp="engishiki_v23_en.xml#article231056 engishiki_v23_ja.xml#article231056" n="23.56" type="条" xml:id="article231056">
@@ -2174,10 +2184,11 @@
 <p ana="項" corresp="engishiki_v23_en.xml#item23105601 engishiki_v23_ja.xml#item23105601" xml:id="item23105601">
          凡<orgName corresp="#大宰府">大宰</orgName>所収調<anchor xml:id="app2310560101"/>糸<anchor xml:id="app2310560101e"/>、除儲料五百絇之外、毎年附貢綿使進之、
         </p>
+        
         <app from="#app2310560101" to="#app2310560101e">
-                <lem wit=""></lem>
-                <rdg wit=""></rdg>
-                <note></note>
+                <lem wit="#土本 #近本 #京博本 #慶長本">糸</lem>
+                <note place="傍">京博本朱傍書「<seg style="color:red">経イ</seg>」</note>
+                <note>糸　京博本下に朱傍書「経イ」</note>
         </app>
 </div>
 <div ana="民部下" corresp="engishiki_v23_en.xml#article231057 engishiki_v23_ja.xml#article231057" n="23.57" type="条" xml:id="article231057">
@@ -2186,14 +2197,16 @@
          凡<orgName corresp="#大宰府">大宰府</orgName>年料造進<anchor xml:id="app2310570101"/>朱<anchor xml:id="app2310570101e"/>漆酒海六合、〈三合径二<anchor xml:id="app2310570102"/>尺<anchor xml:id="app2310570102e"/>、三合径一尺六寸、〉下食盤六十枚、〈径一尺七寸、〉中盤八十八枚、〈径一尺、〉飯椀一百口、〈径七寸、〉羮椀二百口、〈百口径六寸五分、百口径六寸、〉盤四百五十枚、〈卅枚径七寸、二百廿枚径六寸、二百枚径五寸五分、〉盞二百五十口、〈百五十口径五寸、百口径四寸五分、〉黒漆提壺十四口、
         </p>
         <app from="#app2310570101" to="#app2310570101e">
-                <lem wit=""></lem>
-                <rdg wit=""></rdg>
-                <note></note>
+                <lem wit="#近本 #京博本朱訂正書">朱</lem>
+                <rdg wit="#土本">未</rdg>
+                <rdg wit="#慶長本">米</rdg>
+                <note>京博本朱訂正書「<seg style="color:red">朱</seg>」</note>
+                <note>朱　土本「未」。京博本・慶長本「米」。近本、京博本朱訂正書により改める。</note>
         </app>
         <app from="#app2310570102" to="#app2310570102e">
-                <lem wit=""></lem>
-                <rdg wit=""></rdg>
-                <note></note>
+                <lem cause="意改">尺</lem>
+                <rdg wit="#土本 #近本 #京博本 #慶長本">人</rdg>
+                <note>尺　土本等「尺」。版本に従い改める。</note>
         </app>
 </div>
 <div ana="民部下" corresp="engishiki_v23_en.xml#article231058 engishiki_v23_ja.xml#article231058" n="23.58" type="条" xml:id="article231058">
@@ -2214,64 +2227,70 @@
          <lb/><s rendition="#indent">右十<anchor xml:id="app2310580112"/>四<anchor xml:id="app2310580112e"/>箇国為第六番、〈子午年〉</s>
 </p>
         <app from="#app2310580101" to="#app2310580101e">
-                <lem wit=""></lem>
-                <rdg wit=""></rdg>
-                <note></note>
+                <lem wit="#近本挿入書 #京博本朱挿入書">大</lem>
+                <rdg wit="#土本 #慶長本"/>
+                <note>近本挿入書「大」</note>
+                <note>京博本朱挿入書「<seg style="color:red">大</seg>」</note>
+                <note>大　土本・近本・京博本等無し。近本・京博本挿入書により補う。政事要略二八所引式文「大」。</note>
         </app>
         <app from="#app2310580102" to="#app2310580102e">
-                <lem wit=""></lem>
-                <rdg wit=""></rdg>
-                <note></note>
+                <lem wit="#近本挿入書 #京博本朱挿入書">小</lem>
+                <rdg wit="#土本 #慶長本"/>
+                <note>近本挿入書「小」</note>
+                <note>京博本朱挿入書「<seg style="color:red">小</seg>」</note>
+                <note>小　土本・近本・京博本等無し。近本・京博本挿入書により改める。政事要略二八所引式文「大」。</note>
         </app>
         <app from="#app2310580103" to="#app2310580103e">
-                <lem wit=""></lem>
-                <rdg wit=""></rdg>
-                <note></note>
+                <lem wit="#近本挿入書 #京博本 #慶長本">二</lem>
+                <rdg wit="#土本"/>
+                <note>近本挿入書「二」</note>
+                <note>二　土本・近本無し。京博本・慶長本、近本挿入書により補う。政事要略二八所引式文「二」。</note>
         </app>
         <app from="#app2310580104" to="#app2310580104e">
-                <lem wit=""></lem>
-                <rdg wit=""></rdg>
-                <note></note>
+                <lem wit="#京博本朱書">大</lem>
+                <rdg wit="#土本 #近本 #京博本 #慶長本"/>
+                <note>京博本朱書「<seg style="color:red">大</seg>」</note>
+                <note>大　土本等無し。京博本朱書により補う。政事要略二八所引式文「大」。</note>
         </app>
         <app from="#app2310580105" to="#app2310580105e">
-                <lem wit=""></lem>
-                <rdg wit=""></rdg>
-                <note></note>
+                <lem wit="#京博本朱書">小</lem>
+                <rdg wit="#土本 #近本 #京博本 #慶長本"/>
+                <note>京博本朱書「<seg style="color:red">小</seg>」</note>
+                <note>小　土本等無し。京博本朱書により補う。政事要略二八所引式文「小」。</note>
         </app>
         <app from="#app2310580106" to="#app2310580106e">
-                <lem wit=""></lem>
-                <rdg wit=""></rdg>
-                <note></note>
+                <note>右…石見国八壺〈二口各大一升六口各小一升〉　慶長本なし。</note>
         </app>
         <app from="#app2310580107" to="#app2310580107e">
-                <lem wit=""></lem>
-                <rdg wit=""></rdg>
-                <note></note>
+                <lem wit="#土本 #近本 #京博本">十</lem>
+                <rdg wit="#慶長本">八</rdg>
         </app>
         <app from="#app2310580108" to="#app2310580108e">
-                <lem wit=""></lem>
-                <rdg wit=""></rdg>
-                <note></note>
+                <lem cause="意改">備後国七壺〈二口各大一升、五口各小一升、〉</lem>
+                <rdg wit="#土本 #近本 #京博本 #慶長本"/>
+                <note>備後国七壺〈二口各大一升、五口各小一升、〉　土本等無し。政事要略二八所引式文に従い補う。</note>
         </app>
         <app from="#app2310580109" to="#app2310580109e">
-                <lem wit=""></lem>
-                <rdg wit=""></rdg>
-                <note></note>
+                <lem wit="#近本訂正書 #京博本">六</lem>
+                <rdg wit="#土本 #慶長本">小</rdg>
+                <note>近本訂正書「六」</note>
+                <note>六 土本・近本・慶長本「小」。京博本、近本訂正書により改める。政事要略二八所引式文「六」。</note>
         </app>
         <app from="#app2310580110" to="#app2310580110e">
-                <lem wit=""></lem>
-                <rdg wit=""></rdg>
-                <note></note>
+                <lem wit="#土本 #近本 #京博本 #慶長本">三</lem>
+                <note>近本訂正書「十」</note>
+                <note>京博本朱訂正書「<seg style="color:red">十</seg>」</note>
+                <note>三 　訳注本「十」。政事要略二八所引式文「三」。</note>
         </app>
         <app from="#app2310580111" to="#app2310580111e">
-                <lem wit=""></lem>
-                <rdg wit=""></rdg>
-                <note></note>
+                <lem cause="意改">〈並小一升、〉　阿波国十壺</lem>
+                <rdg wit="#土本 #近本 #京博本 #慶長本"/>
+                <note>〈並小一升、〉　阿波国十壺　土本等無し。政事要略二八所引式文により補う。訳注本は「〈四口各大一升六口各小一升〉阿波国十壺」とする。</note>
         </app>
         <app from="#app2310580112" to="#app2310580112e">
-                <lem wit=""></lem>
-                <rdg wit=""></rdg>
-                <note></note>
+                <lem cause="意改">四</lem>
+                <rdg wit="#土本 #近本 #京博本 #慶長本">二</rdg>
+                <note>四　土本等「二」。政事要略二八所引式文「四」により改める。</note>
         </app>
 </div>
 <div ana="民部下" corresp="engishiki_v23_en.xml#article231059 engishiki_v23_ja.xml#article231059" n="23.59" type="条" xml:id="article231059">
@@ -2289,44 +2308,45 @@
          <lb/><s rendition="#indent">右両国所進年料雑器、並依前件、其<anchor xml:id="app2310600108"/>用<anchor xml:id="app2310600108e"/>度皆用正税、</s>
 </p>
         <app from="#app2310600101" to="#app2310600101e">
-                <lem wit=""></lem>
-                <rdg wit=""></rdg>
-                <note></note>
+                <lem wit="#土本 #近本 #京博本 #慶長本">瓷</lem>
+                <note place="傍">土本朱傍書「<seg style="color:red">疾脂反瓦器也</seg>」</note>
+                <note place="傍">近本傍書「疾脂反瓦器也」</note>
+                <note place="傍">京博本朱傍書「<seg style="color:red">疾脂反瓦器也</seg>」</note>
+                <note place="傍">慶長本朱傍書「<seg style="color:red">疾脂反瓦器也</seg>」</note>
         </app>
         <app from="#app2310600102" to="#app2310600102e">
-                <lem wit=""></lem>
-                <rdg wit=""></rdg>
-                <note></note>
+                <lem wit="#近本 #京博本朱訂正書 #慶長本">茶</lem>
+                <rdg wit="#土本">泰</rdg>
+                <note>京博本朱訂正書「<seg style="color:red">茶</seg>」</note>
+                <note>茶　土本「泰」。京博本「恭」。近本・慶長本、京博本訂正書により改める。訳注本は考異に従い削る。</note>
         </app>
         <app from="#app2310600103" to="#app2310600103e">
-                <lem wit=""></lem>
-                <rdg wit=""></rdg>
-                <note></note>
+                <lem wit="#土本 #近本 #京博本 #慶長本">椀</lem>
+                <note>椀　訳注本は考異に従い「茶碗」とする。</note>
         </app>
         <app from="#app2310600104" to="#app2310600104e">
-                <lem wit=""></lem>
-                <rdg wit=""></rdg>
-                <note></note>
+                <lem wit="#近本 #京博本朱挿入書">九</lem>
+                <rdg wit="#土本 #慶長本"/>
+                <note>京博本朱挿入書「<seg style="color:red">九</seg>」</note>
+                <note>九　土本・京博本・慶長本無し。近本、京博本挿入書により補う。</note>
         </app>
         <app from="#app2310600105" to="#app2310600105e">
-                <lem wit=""></lem>
-                <rdg wit=""></rdg>
-                <note></note>
+                <lem wit="#土本 #近本 #慶長本">茶</lem>
+                <note>京博本朱訂正書「<seg style="color:red">茶</seg>」</note>
         </app>
         <app from="#app2310600106" to="#app2310600106e">
-                <lem wit=""></lem>
-                <rdg wit=""></rdg>
-                <note></note>
+                <lem wit="#土本 #近本 #京博本">十口</lem>
+                <rdg wit="#慶長本"/>
         </app>
         <app from="#app2310600107" to="#app2310600107e">
-                <lem wit=""></lem>
-                <rdg wit=""></rdg>
-                <note></note>
+                <lem wit="#土本 #近本 #京博本 #慶長本">瓶</lem>
+                <note>瓶　訳注本は上文および分注により「十口」を補う。</note>
         </app>
         <app from="#app2310600108" to="#app2310600108e">
-                <lem wit=""></lem>
-                <rdg wit=""></rdg>
-                <note></note>
+                <lem wit="#近本挿入書">用</lem>
+                <rdg wit="#土本 #京博本 #慶長本"/>
+                <note>近本挿入書「用」</note>
+                <note>用　土本・近本等無し。近本挿入書により補う。</note>
         </app>
 </div>
 <div ana="民部下" corresp="engishiki_v23_en.xml#article231061 engishiki_v23_ja.xml#article231061" n="23.61" type="条" xml:id="article231061">
@@ -2336,29 +2356,27 @@
          <lb/><placeName corresp="#山城国">山城国</placeName>、酒槽卅一隻、円槽七隻、臼十腰、杵十五枚、槽八口、置簀十三枚、匏三百卌柄、輦籠五十四脚、<placeName corresp="#大和国">大和国</placeName>、酒槽七隻、〈二隻長各八尺、広二尺三寸、深八寸、手長一尺、五隻長各六尺、広二尺五寸、深八寸、手長九寸、〉円槽一隻、〈口径<anchor xml:id="app2310610101"/>各<anchor xml:id="app2310610101e"/>二尺五寸、手長一尺、〉槽二口、〈一口高二尺七寸、口径二尺<anchor xml:id="app2310610102"/>一寸<anchor xml:id="app2310610102e"/>、一口高二尺二寸、口径二尺、〉臼<anchor xml:id="app2310610103"/>三<anchor xml:id="app2310610103e"/>腰、〈高各二尺二寸、径二尺一寸、〉杵六枚、〈長各三尺、〉輿籠廿口、瓠三百廿五柄、置簀四枚、<placeName corresp="#河内国">河内国</placeName>、酒槽卅四隻、〈十一隻長各一尺、広二尺五寸、深八寸、手長一尺三寸、十一隻長各六尺、広二尺三寸、深八寸、手長一尺、十二隻高二尺七寸、口径二尺一寸、手長九寸、〉臼六腰、杵六枚、輿籠卌口、匏二百廿五柄、置簀卌枚、〈長各八尺、広四尺、〉<placeName corresp="#和泉国">和泉国</placeName>、酒槽七隻、〈長各九尺、広二尺七寸、手長一尺三寸、〉円槽二隻、槽二口、臼三腰、杵六枚、輿籠十一口、匏一百五柄、置簀廿枚、<placeName corresp="#摂津国">摂津<anchor xml:id="app2310610104"/>国<anchor xml:id="app2310610104e"/></placeName>、<anchor xml:id="app2310610105"/>酒<anchor xml:id="app2310610105e"/>槽十七隻、〈長各八尺、広二尺三寸、手長一尺、〉円槽四隻、槽六口、輿籠五十口、臼八腰、杵十四枚、匏一百七十五柄、置簀五十四枚、
         </p>
         <app from="#app2310610101" to="#app2310610101e">
-                <lem wit=""></lem>
-                <rdg wit=""></rdg>
-                <note></note>
+                <lem wit="#土本 #近本 #京博本 #慶長本">各</lem>
+                <note>各　訳注本は衍字とみて削る。</note>
         </app>
         <app from="#app2310610102" to="#app2310610102e">
-                <lem wit=""></lem>
-                <rdg wit=""></rdg>
-                <note></note>
+                <lem wit="#土本 #近本 #京博本">一寸</lem>
+                <rdg wit="#慶長本"/>
         </app>
         <app from="#app2310610103" to="#app2310610103e">
-                <lem wit=""></lem>
-                <rdg wit=""></rdg>
-                <note></note>
+                <lem wit="#近本 #京博本 #慶長本">三</lem>
+                <rdg wit="#土本">二</rdg>
+                <note place="傍">京博本朱傍書「<seg style="color:red">二イ</seg>」</note>
+                <note>三　土本「二」。近本等により改める。</note>
         </app>
         <app from="#app2310610104" to="#app2310610104e">
-                <lem wit=""></lem>
-                <rdg wit=""></rdg>
-                <note></note>
+                <lem wit="#土本 #近本 #京博本">国</lem>
+                <rdg wit="#慶長本">円</rdg>
         </app>
         <app from="#app2310610105" to="#app2310610105e">
-                <lem wit=""></lem>
-                <rdg wit=""></rdg>
-                <note></note>
+                <lem wit="#京博本 #慶長本 #梵本 #壬本">酒</lem>
+                <rdg wit="#土本 #近本"/>
+                <note>酒　土本・近本無し。京博本・慶長本・壬本・梵本により補う。</note>
         </app>
 </div>
 <div ana="民部下" corresp="engishiki_v23_en.xml#article231062 engishiki_v23_ja.xml#article231062" n="23.62" type="条" xml:id="article231062">
@@ -2367,388 +2385,375 @@
          凡五<placeName corresp="#畿内">畿内</placeName>・<placeName corresp="#丹波国">丹波</placeName>等国例進雑器并槲、十月以前<anchor xml:id="app2310620101"/>究<anchor xml:id="app2310620101e"/>進、若致未進、移<orgName corresp="#式部省">式部省</orgName>、不聴国<orgName corresp="#司">司</orgName>預新嘗会節、
         </p>
         <app from="#app2310620101" to="#app2310620101e">
-                <lem wit=""></lem>
-                <rdg wit=""></rdg>
-                <note></note>
+                <lem wit="#土本 #近本 #京博本 #慶長本">究</lem>
+                <note>京博本朱訂正書「<seg style="color:red">充</seg>」</note>
+                <note>究　訳注本は版本に従い「充」に改める。</note>
         </app>
 </div>
 <div ana="民部下" corresp="engishiki_v23_en.xml#article231063 engishiki_v23_ja.xml#article231063" n="23.63" type="条" xml:id="article231063">
 <head ana="交易雑物"/>
 <p ana="項" corresp="engishiki_v23_en.xml#item23106301 engishiki_v23_ja.xml#item23106301" xml:id="item23106301">
          交易雑物
-         <lb/><placeName corresp="#山城国">山城国</placeName>〈大麦三石、小麦卅石、大角豆六石、胡麻<anchor xml:id="app2310630101"/>十<anchor xml:id="app2310630101e"/>四石、荏子四石、〉<placeName corresp="#大和国">大和国</placeName>〈大麦三石、小麦十一石七升三合、葟子六<anchor xml:id="app2310630102"/>斗<anchor xml:id="app2310630102e"/>、大角豆四石、〉<placeName corresp="#河内国">河内国</placeName>〈大麦三石、小麦卅五石、葟子五<anchor xml:id="app2310630103"/>斗<anchor xml:id="app2310630103e"/>、薦二千五百枚、〉<placeName corresp="#和泉国">和泉国</placeName>〈小麦二十五石、〉<placeName corresp="#摂津国">摂津国</placeName>〈大麦三石、小麦卅五石一斗、葟子九<anchor xml:id="app2310630104"/>斗<anchor xml:id="app2310630104e"/>、薦一千五百枚、〉<placeName corresp="#伊賀国">伊賀国</placeName>〈白<anchor xml:id="app2310630105"/>絹<anchor xml:id="app2310630105e"/>十二疋、鹿皮廿張、樽二合、加赤漆朸、以下皆同、〉<placeName corresp="#伊勢国">伊勢国</placeName>〈白絹十二疋、絹三百疋、水銀四百斤、樽二合、鹿角菜二石、青苔五十斤、海松五十斤、凝<anchor xml:id="app2310630106"/>草<anchor xml:id="app2310630106e"/>卅斤、於胡菜卅斤、鳥坂苔五斤、海藻根十斤、那乃利曾五十斤、〉<placeName corresp="#志摩国">志摩国</placeName>〈大凝菜卌四斤、白玉千顆、〉<placeName corresp="#尾張国">尾張国</placeName>〈白絹十二疋、絹百五十疋、油三石、樽二合、苧一百十斤、鹿革廿張、鹿皮十張、鹿角十枚、薭子五石、胡麻子四石、荏子四石、鹿角菜三石、凝菜<anchor xml:id="app2310630107"/>卌<anchor xml:id="app2310630107e"/>斤、於胡菜三十斤、〉<placeName corresp="#参河国">参河国</placeName>〈白絹百二十疋、鹿革六十張、樽二合、苧九十斤、<anchor xml:id="app2310630108"/>黍<anchor xml:id="app2310630108e"/>子廿石、胡麻子三石、鹿角菜二石、海松五十斤、凝菜卅斤、海藻根十斤、青苔五十斤、鳥坂苔五十斤、於胡菜卅斤、那乃利曾五十斤、〉<placeName corresp="#遠江国">遠江国</placeName>〈絹六十八<anchor xml:id="app2310630109"/>疋<anchor xml:id="app2310630109e"/>、苧一百卅斤、鹿皮十張、鹿革卅張、<anchor xml:id="app2310630110"/>木<anchor xml:id="app2310630110e"/>綿四百七十斤、樽二合、凝菜卅斤、海藻根十斤、胡麻子二石、大匏卅口、干薑一百斤、種薑十石〉<placeName corresp="#駿河国">駿河国</placeName>〈絹二百疋、商布二千一百<anchor xml:id="app2310630111"/>端<anchor xml:id="app2310630111e"/>、々別長二丈六尺、鹿革四十張、樽二合、〉<placeName corresp="#伊豆国">伊豆国</placeName>〈猪皮十張、鹿皮卅張、堅魚煎一石四斗六升、櫑子<anchor xml:id="app2310630112"/>十<anchor xml:id="app2310630112e"/>四合、〉<placeName corresp="#甲斐国">甲斐国</placeName>〈商布四千一百<anchor xml:id="app2310630113"/>端<anchor xml:id="app2310630113e"/>、<anchor xml:id="app2310630114"/>履<anchor xml:id="app2310630114e"/>牛皮三張、鹿皮卅張、紫草八百斤、鹿革十張、猪脂一斗、櫑子四合、〉<placeName corresp="#相摸国">相摸国</placeName>〈商布六千五百<anchor xml:id="app2310630115"/><anchor xml:id="app2310630115e"/>端、豉二石五斗、鹿皮<anchor xml:id="app2310630116"/>廿張、鹿角<anchor xml:id="app2310630116e"/>十枚、紫草三千七百斤、布一千五百端、鞦十具、鹿革廿張、<anchor xml:id="app2310630117"/>履<anchor xml:id="app2310630117e"/>牛皮十五枚、櫑子四合、〉<placeName corresp="#武蔵国">武蔵国</placeName>〈絁五十疋、布一千五百端、商布一<anchor xml:id="app2310630118"/>万<anchor xml:id="app2310630118e"/>一千一百<anchor xml:id="app2310630119"/>端<anchor xml:id="app2310630119e"/>、豉六石五斗、竜鬚席卅枚、細貫席卅枚、席五百枚、履料<anchor xml:id="app2310630120"/>牛<anchor xml:id="app2310630120e"/>皮二枚、鞦廿具、鹿革六十張、鹿皮十五張、紫草三千二百斤、木綿四百七十斤、櫑子四合、〉<placeName corresp="#安房国">安房国</placeName>〈商布二千二百八十<anchor xml:id="app2310630121"/>枚<anchor xml:id="app2310630121e"/>、鹿革廿張、櫑子四合、〉<placeName corresp="#上総国">上総国</placeName>〈絁五十疋、商布一万一千四百廿<anchor xml:id="app2310630122"/>段<anchor xml:id="app2310630122e"/>、布一千五百九十端、腐<anchor xml:id="app2310630123"/>革<anchor xml:id="app2310630123e"/>八張、鹿皮五十張、洗革一百張、鹿角十枚、鑣廿具、櫑子四合、<anchor xml:id="app2310630124"/>木綿四百七十斤<anchor xml:id="app2310630124e"/>、〉<placeName corresp="#下総国">下総国</placeName>〈布一千五百九十端、商布一万一千五十段、鹿革廿張、皺文革十張、紫草二千六百斤、櫑子四合、〉<placeName corresp="#常陸国">常陸国</placeName>〈絁一百疋、布四千端、商布一万三千<anchor xml:id="app2310630125"/>端<anchor xml:id="app2310630125e"/>、庸布七百段、鞍橋十具、鞦廿具、履料牛皮九張、鹿皮<anchor xml:id="app2310630126"/>廿<anchor xml:id="app2310630126e"/>張、洗革一百張、鹿角十枚、席六百枚、紫草<anchor xml:id="app2310630127"/>三千<anchor xml:id="app2310630127e"/>斤、大瓢十<anchor xml:id="app2310630128"/>口<anchor xml:id="app2310630128e"/>、櫑子四合、〉<placeName corresp="#近江国">近江国</placeName>〈白絹十二疋、<anchor xml:id="app2310630129"/>黒<anchor xml:id="app2310630129e"/>葛卅斤、刈安草五百囲、<anchor xml:id="app2310630130"/>膠<anchor xml:id="app2310630130e"/>皮十張、大豆六十石、胡麻子五石、醤大豆廿石、油二石、樽二合、隔三年進醤大豆十石・大豆十四石、〉<placeName corresp="#美濃国">美濃国</placeName>〈絹二百疋、胡麻子四石、荏子十二石、鹿革<anchor xml:id="app2310630131"/>卌<anchor xml:id="app2310630131e"/>張、油二石、白絹十二疋、樽二合、隔三年進金漆二斗、〉<placeName corresp="#信濃国">信濃<anchor xml:id="app2310630132"/>国<anchor xml:id="app2310630132e"/></placeName>〈商布六千四百五十<anchor xml:id="app2310630133"/>端<anchor xml:id="app2310630133e"/>、熟麻十斤、<anchor xml:id="app2310630134"/>履<anchor xml:id="app2310630134e"/>牛皮三張、鹿皮九十張、洗皮十五枚、紫草二千八百斤、布一千五百端、細貫莚五十枚、<anchor xml:id="app2310630135"/>円<anchor xml:id="app2310630135e"/>長猪脂一斗、櫑子四合、〉<placeName corresp="#上野国">上野国</placeName>〈絁五十疋、布一千五百九<anchor xml:id="app2310630136"/>端<anchor xml:id="app2310630136e"/>、商布七千七百卅一段二尺二寸八分、苧八十斤、席九百枚、細貫席六十枚、紫草二千三百斤、鹿革六十張、履料牛皮廿張、櫑子四合、〉<placeName corresp="#下野国">下野国</placeName>〈布一千四百卅六端、商布七千三段、履料牛皮七張、洗革一百張、鹿角十枚、席八百枚、<anchor xml:id="app2310630137"/>沙<anchor xml:id="app2310630137e"/>金百五十両、練金八十四両、紫草一千斤、<anchor xml:id="app2310630138"/>鈍<anchor xml:id="app2310630138e"/>十張、櫑子四合、〉<placeName corresp="#陸奥国">陸奥国</placeName>〈葦鹿皮・独犴皮数随得、<anchor xml:id="app2310630139"/>沙<anchor xml:id="app2310630139e"/>金三百五十両、昆布六百斤、<anchor xml:id="app2310630140"/>索<anchor xml:id="app2310630140e"/>昆布六百斤、細昆布一千斤、〉<placeName corresp="#出羽国">出羽国</placeName>〈熊皮廿張、葦鹿皮・独犴皮数随得、〉<placeName corresp="#若狭国">若狭国</placeName>〈烏賊三百斤、小<anchor xml:id="app2310630141"/>鰯<anchor xml:id="app2310630141e"/>腊一石一斗、樽二合、〉<placeName corresp="#越前国">越前国</placeName>〈絹二百六十二疋、履料牛皮六張、漆一石五斗、曝<anchor xml:id="app2310630142"/>黒<anchor xml:id="app2310630142e"/>葛卅斤、〉<placeName corresp="#加賀国">加賀国</placeName>〈絹一百六十二疋、<anchor xml:id="app2310630143"/>履<anchor xml:id="app2310630143e"/>牛皮二張、漆一石五斗、荏油二石、樽二合、〉<placeName corresp="#能登国">能登国</placeName>〈絹十二疋、鹿皮十張、履料牛皮四張、海鼠腸一石、櫑子四合、〉<placeName corresp="#越中国">越中国</placeName>〈絹百疋、商布一千二百段、履料牛皮四張、<anchor xml:id="app2310630144"/>曝<anchor xml:id="app2310630144e"/>黒葛廿斤、編筥三百十九合、<anchor xml:id="app2310630145"/>織<anchor xml:id="app2310630145e"/>筥廿八合、漆一石三斗、〉<placeName corresp="#越後国">越後国</placeName>〈商布一千<anchor xml:id="app2310630146"/>端<anchor xml:id="app2310630146e"/>、漆五斗、櫑子四合、履料牛皮八枚、〉<placeName corresp="#丹波国">丹波国</placeName>〈白絹十二疋、赤絹五百五十疋、糸七百五十絇、油三石、鹿革十張、<anchor xml:id="app2310630147"/>粟<anchor xml:id="app2310630147e"/>十石、大豆卅石、<anchor xml:id="app2310630148"/>胡<anchor xml:id="app2310630148e"/>麻<anchor xml:id="app2310630149"/>十<anchor xml:id="app2310630149e"/>五石、栗子卅石、<anchor xml:id="app2310630150"/>曝<anchor xml:id="app2310630150e"/>黒葛廿斤、刈<anchor xml:id="app2310630151"/>安<anchor xml:id="app2310630151e"/>五百囲、隔三年進醤大豆五石、〉<placeName corresp="#丹後国">丹後国</placeName>〈絹二百五十疋、白絹十二疋、鹿革十張、樽二合、小鰯腊十二籠、〉
-         <lb/><placeName corresp="#但馬国">但馬国</placeName>〈絹七百卅七疋、糸一千斤、<anchor xml:id="app2310630152"/>鮓<anchor xml:id="app2310630152e"/>皮一百五十斤、醤大豆廿六石、隔三年進醤大豆五石、〉<placeName corresp="#因幡国">因幡国</placeName>〈絹二百疋、白絹十二疋、席三百五十枚、荒筥廿五合、櫑子四合、<anchor xml:id="app2310630153"/>鮐<anchor xml:id="app2310630153e"/>皮八百廿五斤、醤大豆廿六石、隔三年進醤大豆五石・鹿皮十張、〉<placeName corresp="#出雲国">出雲国</placeName>〈絹二百卅七疋四尺、鹿<anchor xml:id="app2310630154"/>革<anchor xml:id="app2310630154e"/>廿張、席三百枚、青苔卅斤、海松一百斤、海藻根十斤、鳥坂苔五斤、紫草一百斤、鹿皮廿張、櫑子四合、〉<placeName corresp="#石見国">石見国</placeName>〈綿六<anchor xml:id="app2310630155"/>百<anchor xml:id="app2310630155e"/>八十七屯八両、青苔卅斤、海松一百斤、海藻根十斤、鳥坂苔五斤、紫草一百斤、櫑子四合、鹿革卅張、〉<placeName corresp="#播磨国">播磨国</placeName>〈白絹十二疋、絹三百五十疋、大豆廿六石、胡麻子三石、油二石、鹿革五十<anchor xml:id="app2310630156"/>張<anchor xml:id="app2310630156e"/>、小豆三石、鹿角菜二石、青苔卅斤、於胡菜廿斤、那乃利曾卅斤、〉<placeName corresp="#美作国">美作国</placeName>〈絹四百七十五<anchor xml:id="app2310630157"/>疋<anchor xml:id="app2310630157e"/>、油三石、猪脂一斗、櫑子四合、鹿革十張、鹿皮廿張、鹿角十枚、大豆十石、小豆六石、醤大豆廿石、隔三年進<anchor xml:id="app2310630158"/>大<anchor xml:id="app2310630158e"/>豆十五石、〉<placeName corresp="#備前国">備前国</placeName>〈絹三百疋、白絹十二疋、油三石四升、胡麻子三石、櫑子四合、<anchor xml:id="app2310630159"/>苫<anchor xml:id="app2310630159e"/>十五枚、鹿<anchor xml:id="app2310630160"/>革<anchor xml:id="app2310630160e"/>廿張、鹿皮十張、鹿角十枚、小豆十九石七斗、醤大豆廿五石、大豆卌四石七斗、秣料八十石、隔三年進醤大豆十石、〉<placeName corresp="#備中国">備中国</placeName>〈白絹十二疋、油一石四升、朴消一百斤、小豆一石六斗、苫廿五枚、櫑子四合、鹿皮五十張、大豆廿八石、醤大豆卌四石、隔三年進醤大豆七石・小豆十六石、〉<placeName corresp="#備後国">備後国</placeName>〈白絹十二疋、油二石、櫑子四合、鹿角十枚、大豆十六石七斗、小豆一石七斗、胡麻子二<anchor xml:id="app2310630161"/>石<anchor xml:id="app2310630161e"/>、醤大豆六十石、隔三年進醤大豆十石、〉<placeName corresp="#安芸国">安芸国</placeName>〈白絹十二疋、糸八百絇、木綿二百五十斤、油三石四升、苫廿五枚、櫑子四合、鹿皮廿張、鹿革廿張、〉<placeName corresp="#周防国">周防国</placeName>〈鹿革廿<anchor xml:id="app2310630162"/>張<anchor xml:id="app2310630162e"/>、席三百五十枚、苫廿五枚、櫑子四合、〉<placeName corresp="#長門国">長門国</placeName>〈鹿革廿張、胡粉廿斤、緑青廿斤、<anchor xml:id="app2310630163"/>丹<anchor xml:id="app2310630163e"/>六十斤、海藻一百五十斤、苫廿五枚、櫑子四合、〉<placeName corresp="#紀伊国">紀伊国</placeName>〈白絹十二疋、絹二百疋、鹿革十張、鹿角菜二石、青苔五十斤、海松卅斤、海藻根十<anchor xml:id="app2310630164"/>斤<anchor xml:id="app2310630164e"/>、鳥坂苔五斤、那乃利曾五十斤、樽二合、大凝菜一百斤、於<anchor xml:id="app2310630165"/>期<anchor xml:id="app2310630165e"/>菜卅斤、大豆<anchor xml:id="app2310630166"/>廿<anchor xml:id="app2310630166e"/>石、小豆廿石、胡麻子五石、醤大豆十石、隔三年進醤大豆三石、〉<placeName corresp="#阿波国">阿波国</placeName>〈絹三百<anchor xml:id="app2310630167"/>疋<anchor xml:id="app2310630167e"/>、白絹十二疋、油二石四升、亀甲六枚、鹿皮十張、粟廿石、小豆十六石、秣料大豆八十石、胡麻子四石、小麦七十石、凝菜七斗、青苔廿斤、海藻根、於<anchor xml:id="app2310630168"/>期<anchor xml:id="app2310630168e"/>菜六斗、鹿角菜二石、苫廿五枚、樽二合、醤大豆廿二石、隔三年進醤大豆五石、〉<placeName corresp="#讃岐国">讃岐国</placeName>〈白絹十疋、鹿革廿張、苫廿五枚、菅円座卌枚、櫑子四合、鹿<anchor xml:id="app2310630169"/>子皮<anchor xml:id="app2310630169e"/>十五張、金漆一斗五升、醤大豆卌二石、隔三年進醤大豆五石・大豆十八石、〉<placeName corresp="#伊予国">伊予<anchor xml:id="app2310630170"/>国<anchor xml:id="app2310630170e"/></placeName>〈鹿革五十枚、鹿皮十張、砥一百八十顆、大豆十八石、海藻根十斤、那乃利曾五十斤、苫五十枚、樽二合、胡麻子五<anchor xml:id="app2310630171"/>石<anchor xml:id="app2310630171e"/>、醤大豆卅二石、隔三年進醤大豆五石、〉<placeName corresp="#土佐国">土左国</placeName>〈亀甲四枚、煮塩年魚五缶、紫菜一百五十斤、苫廿五枚、櫑子四合、〉<orgName corresp="#大宰府">大宰府</orgName>〈絹四千疋、履料牛皮廿四張、狸皮十張、銀三百両、金漆五缶、朱砂一千両、茜二千斤、紫草五千六百斤、猪膏二石、雑油<anchor xml:id="app2310630172"/>卅<anchor xml:id="app2310630172e"/>石、檳榔馬蓑六十領、同螻蓑百廿領、藺帖笠百卅蓋、黒漆<anchor xml:id="app2310630173"/>鞍<anchor xml:id="app2310630173e"/>十具、鉄鎧廿<anchor xml:id="app2310630174"/>雙<anchor xml:id="app2310630174e"/>、〉
+        <lb/><placeName corresp="#山城国">山城国</placeName>〈大麦三石、小麦卅石、大角豆六石、胡麻<anchor xml:id="app2310630101"/>十<anchor xml:id="app2310630101e"/>四石、荏子四石、〉<placeName corresp="#大和国">大和国</placeName>〈大麦三石、小麦十一石七升三合、葟子六<anchor xml:id="app2310630102"/>斗<anchor xml:id="app2310630102e"/>、大角豆四石、〉<placeName corresp="#河内国">河内国</placeName>〈大麦三石、小麦卅五石、葟子五<anchor xml:id="app2310630103"/>斗<anchor xml:id="app2310630103e"/>、薦二千五百枚、〉<placeName corresp="#和泉国">和泉国</placeName>〈小麦二十五石、〉<placeName corresp="#摂津国">摂津国</placeName>〈大麦三石、小麦卅五石一斗、葟子九<anchor xml:id="app2310630104"/>斗<anchor xml:id="app2310630104e"/>、薦一千五百枚、〉<placeName corresp="#伊賀国">伊賀国</placeName>〈白<anchor xml:id="app2310630105"/>絹<anchor xml:id="app2310630105e"/>十二疋、鹿皮廿張、樽二合、加赤漆朸、以下皆同、〉<placeName corresp="#伊勢国">伊勢国</placeName>〈白絹十二疋、絹三百疋、水銀四百斤、樽二合、鹿角菜二石、青苔五十斤、海松五十斤、凝<anchor xml:id="app2310630106"/>草<anchor xml:id="app2310630106e"/>卅斤、於胡菜卅斤、鳥坂苔五斤、海藻根十斤、那乃利曾五十斤、〉<placeName corresp="#志摩国">志摩国</placeName>〈大凝菜卌四斤、白玉千顆、〉<placeName corresp="#尾張国">尾張国</placeName>〈白絹十二疋、絹百五十疋、油三石、樽二合、苧一百十斤、鹿革廿張、鹿皮十張、鹿角十枚、薭子五石、胡麻子四石、荏子四石、鹿角菜三石、凝菜<anchor xml:id="app2310630107"/>卌<anchor xml:id="app2310630107e"/>斤、於胡菜三十斤、〉<placeName corresp="#参河国">参河国</placeName>〈白絹百二十疋、鹿革六十張、樽二合、苧九十斤、<anchor xml:id="app2310630108"/>黍<anchor xml:id="app2310630108e"/>子廿石、胡麻子三石、鹿角菜二石、海松五十斤、凝菜卅斤、海藻根十斤、青苔五十斤、鳥坂苔五十斤、於胡菜卅斤、那乃利曾五十斤、〉<placeName corresp="#遠江国">遠江国</placeName>〈絹六十八<anchor xml:id="app2310630109"/>疋<anchor xml:id="app2310630109e"/>、苧一百卅斤、鹿皮十張、鹿革卅張、<anchor xml:id="app2310630110"/>木<anchor xml:id="app2310630110e"/>綿四百七十斤、樽二合、凝菜卅斤、海藻根十斤、胡麻子二石、大匏卅口、干薑一百斤、種薑十石〉<placeName corresp="#駿河国">駿河国</placeName>〈絹二百疋、商布二千一百<anchor xml:id="app2310630111"/>端<anchor xml:id="app2310630111e"/>、々別長二丈六尺、鹿革四十張、樽二合、〉<placeName corresp="#伊豆国">伊豆国</placeName>〈猪皮十張、鹿皮卅張、堅魚煎一石四斗六升、櫑子<anchor xml:id="app2310630112"/>十<anchor xml:id="app2310630112e"/>四合、〉<placeName corresp="#甲斐国">甲斐国</placeName>〈商布四千一百<anchor xml:id="app2310630113"/>端<anchor xml:id="app2310630113e"/>、<anchor xml:id="app2310630114"/>履<anchor xml:id="app2310630114e"/>牛皮三張、鹿皮卅張、紫草八百斤、鹿革十張、猪脂一斗、櫑子四合、〉<placeName corresp="#相摸国">相摸国</placeName>〈商布六千五百<anchor xml:id="app2310630115"/>端<anchor xml:id="app2310630115e"/>、豉二石五斗、鹿皮<anchor xml:id="app2310630116"/>廿張、鹿角<anchor xml:id="app2310630116e"/>十枚、紫草三千七百斤、布一千五百端、鞦十具、鹿革廿張、<anchor xml:id="app2310630117"/>履<anchor xml:id="app2310630117e"/>牛皮十五枚、櫑子四合、〉<placeName corresp="#武蔵国">武蔵国</placeName>〈絁五十疋、布一千五百端、商布一<anchor xml:id="app2310630118"/>万<anchor xml:id="app2310630118e"/>一千一百<anchor xml:id="app2310630119"/>端<anchor xml:id="app2310630119e"/>、豉六石五斗、竜鬚席卅枚、細貫席卅枚、席五百枚、履料<anchor xml:id="app2310630120"/>牛<anchor xml:id="app2310630120e"/>皮二枚、鞦廿具、鹿革六十張、鹿皮十五張、紫草三千二百斤、木綿四百七十斤、櫑子四合、〉<placeName corresp="#安房国">安房国</placeName>〈商布二千二百八十<anchor xml:id="app2310630121"/>枚<anchor xml:id="app2310630121e"/>、鹿革廿張、櫑子四合、〉<placeName corresp="#上総国">上総国</placeName>〈絁五十疋、商布一万一千四百廿<anchor xml:id="app2310630122"/>段<anchor xml:id="app2310630122e"/>、布一千五百九十端、腐<anchor xml:id="app2310630123"/>革<anchor xml:id="app2310630123e"/>八張、鹿皮五十張、洗革一百張、鹿角十枚、鑣廿具、櫑子四合、<anchor xml:id="app2310630124"/>木綿四百七十斤<anchor xml:id="app2310630124e"/>、〉<placeName corresp="#下総国">下総国</placeName>〈布一千五百九十端、商布一万一千五十段、鹿革廿張、皺文革十張、紫草二千六百斤、櫑子四合、〉<placeName corresp="#常陸国">常陸国</placeName>〈絁一百疋、布四千端、商布一万三千<anchor xml:id="app2310630125"/>端<anchor xml:id="app2310630125e"/>、庸布七百段、鞍橋十具、鞦廿具、履料牛皮九張、鹿皮<anchor xml:id="app2310630126"/>廿<anchor xml:id="app2310630126e"/>張、洗革一百張、鹿角十枚、席六百枚、紫草<anchor xml:id="app2310630127"/>三千<anchor xml:id="app2310630127e"/>斤、大瓢十<anchor xml:id="app2310630128"/>口<anchor xml:id="app2310630128e"/>、櫑子四合、〉<placeName corresp="#近江国">近江国</placeName>〈白絹十二疋、<anchor xml:id="app2310630129"/>黒<anchor xml:id="app2310630129e"/>葛卅斤、刈安草五百囲、<anchor xml:id="app2310630130"/>膠<anchor xml:id="app2310630130e"/>皮十張、大豆六十石、胡麻子五石、醤大豆廿石、油二石、樽二合、隔三年進醤大豆十石・大豆十四石、〉<placeName corresp="#美濃国">美濃国</placeName>〈絹二百疋、胡麻子四石、荏子十二石、鹿革<anchor xml:id="app2310630131"/>卌<anchor xml:id="app2310630131e"/>張、油二石、白絹十二疋、樽二合、隔三年進金漆二斗、〉<placeName corresp="#信濃国">信濃<anchor xml:id="app2310630132"/>国<anchor xml:id="app2310630132e"/></placeName>〈商布六千四百五十<anchor xml:id="app2310630133"/>端<anchor xml:id="app2310630133e"/>、熟麻十斤、<anchor xml:id="app2310630134"/>履<anchor xml:id="app2310630134e"/>牛皮三張、鹿皮九十張、洗皮十五枚、紫草二千八百斤、布一千五百端、細貫莚五十枚、<anchor xml:id="app2310630135"/>円<anchor xml:id="app2310630135e"/>長猪脂一斗、櫑子四合、〉<placeName corresp="#上野国">上野国</placeName>〈絁五十疋、布一千五百<anchor xml:id="app2310630136"/>九<anchor xml:id="app2310630136e"/>端、商布七千七百卅一段二尺二寸八分、苧八十斤、席九百枚、細貫席六十枚、紫草二千三百斤、鹿革六十張、履料牛皮廿張、櫑子四合、〉<placeName corresp="#下野国">下野国</placeName>〈布一千四百卅六端、商布七千三段、履料牛皮七張、洗革一百張、鹿角十枚、席八百枚、<anchor xml:id="app2310630137"/>沙<anchor xml:id="app2310630137e"/>金百五十両、練金八十四両、紫草一千斤、<anchor xml:id="app2310630138"/>鈍<anchor xml:id="app2310630138e"/>十張、櫑子四合、〉<placeName corresp="#陸奥国">陸奥国</placeName>〈葦鹿皮・独犴皮数随得、<anchor xml:id="app2310630139"/>沙<anchor xml:id="app2310630139e"/>金三百五十両、昆布六百斤、<anchor xml:id="app2310630140"/>索<anchor xml:id="app2310630140e"/>昆布六百斤、細昆布一千斤、〉<placeName corresp="#出羽国">出羽国</placeName>〈熊皮廿張、葦鹿皮・独犴皮数随得、〉<placeName corresp="#若狭国">若狭国</placeName>〈烏賊三百斤、小<anchor xml:id="app2310630141"/>鰯<anchor xml:id="app2310630141e"/>腊一石一斗、樽二合、〉<placeName corresp="#越前国">越前国</placeName>〈絹二百六十二疋、履料牛皮六張、漆一石五斗、曝<anchor xml:id="app2310630142"/>黒<anchor xml:id="app2310630142e"/>葛卅斤、〉<placeName corresp="#加賀国">加賀国</placeName>〈絹一百六十二疋、<anchor xml:id="app2310630143"/>履<anchor xml:id="app2310630143e"/>牛皮二張、漆一石五斗、荏油二石、樽二合、〉<placeName corresp="#能登国">能登国</placeName>〈絹十二疋、鹿皮十張、履料牛皮四張、海鼠腸一石、櫑子四合、〉<placeName corresp="#越中国">越中国</placeName>〈絹百疋、商布一千二百段、履料牛皮四張、<anchor xml:id="app2310630144"/>曝<anchor xml:id="app2310630144e"/>黒葛廿斤、編筥三百十九合、<anchor xml:id="app2310630145"/>織<anchor xml:id="app2310630145e"/>筥廿八合、漆一石三斗、〉<placeName corresp="#越後国">越後国</placeName>〈商布一千<anchor xml:id="app2310630146"/>端<anchor xml:id="app2310630146e"/>、漆五斗、櫑子四合、履料牛皮八枚、〉<placeName corresp="#丹波国">丹波国</placeName>〈白絹十二疋、赤絹五百五十疋、糸七百五十絇、油三石、鹿革十張、<anchor xml:id="app2310630147"/>粟<anchor xml:id="app2310630147e"/>十石、大豆卅石、<anchor xml:id="app2310630148"/>胡<anchor xml:id="app2310630148e"/>麻<anchor xml:id="app2310630149"/>十<anchor xml:id="app2310630149e"/>五石、栗子卅石、<anchor xml:id="app2310630150"/>曝<anchor xml:id="app2310630150e"/>黒葛廿斤、刈<anchor xml:id="app2310630151"/>安<anchor xml:id="app2310630151e"/>五百囲、隔三年進醤大豆五石、〉<placeName corresp="#丹後国">丹後国</placeName>〈絹二百五十疋、白絹十二疋、鹿革十張、樽二合、小鰯腊十二籠、〉
+        <lb/><placeName corresp="#但馬国">但馬国</placeName>〈絹七百卅七疋、糸一千斤、<anchor xml:id="app2310630152"/>鮓<anchor xml:id="app2310630152e"/>皮一百五十斤、醤大豆廿六石、隔三年進醤大豆五石、〉<placeName corresp="#因幡国">因幡国</placeName>〈絹二百疋、白絹十二疋、席三百五十枚、荒筥廿五合、櫑子四合、<anchor xml:id="app2310630153"/>鮐<anchor xml:id="app2310630153e"/>皮八百廿五斤、醤大豆廿六石、隔三年進醤大豆五石・鹿皮十張、〉<placeName corresp="#出雲国">出雲国</placeName>〈絹二百卅七疋四尺、鹿<anchor xml:id="app2310630154"/>革<anchor xml:id="app2310630154e"/>廿張、席三百枚、青苔卅斤、海松一百斤、海藻根十斤、鳥坂苔五斤、紫草一百斤、鹿皮廿張、櫑子四合、〉<placeName corresp="#石見国">石見国</placeName>〈綿六<anchor xml:id="app2310630155"/>百<anchor xml:id="app2310630155e"/>八十七屯八両、青苔卅斤、海松一百斤、海藻根十斤、鳥坂苔五斤、紫草一百斤、櫑子四合、鹿革卅張、〉<placeName corresp="#播磨国">播磨国</placeName>〈白絹十二疋、絹三百五十疋、大豆廿六石、胡麻子三石、油二石、鹿革五十<anchor xml:id="app2310630156"/>張<anchor xml:id="app2310630156e"/>、小豆三石、鹿角菜二石、青苔卅斤、於胡菜廿斤、那乃利曾卅斤、〉<placeName corresp="#美作国">美作国</placeName>〈絹四百七十五<anchor xml:id="app2310630157"/>疋<anchor xml:id="app2310630157e"/>、油三石、猪脂一斗、櫑子四合、鹿革十張、鹿皮廿張、鹿角十枚、大豆十石、小豆六石、醤大豆廿石、隔三年進<anchor xml:id="app2310630158"/>大<anchor xml:id="app2310630158e"/>豆十五石、〉<placeName corresp="#備前国">備前国</placeName>〈絹三百疋、白絹十二疋、油三石四升、胡麻子三石、櫑子四合、<anchor xml:id="app2310630159"/>苫<anchor xml:id="app2310630159e"/>十五枚、鹿<anchor xml:id="app2310630160"/>革<anchor xml:id="app2310630160e"/>廿張、鹿皮十張、鹿角十枚、小豆十九石七斗、醤大豆廿五石、大豆卌四石七斗、秣料八十石、隔三年進醤大豆十石、〉<placeName corresp="#備中国">備中国</placeName>〈白絹十二疋、油一石四升、朴消一百斤、小豆一石六斗、苫廿五枚、櫑子四合、鹿皮五十張、大豆廿八石、醤大豆卌四石、隔三年進醤大豆七石・小豆十六石、〉<placeName corresp="#備後国">備後国</placeName>〈白絹十二疋、油二石、櫑子四合、鹿角十枚、大豆十六石七斗、小豆一石七斗、胡麻子二<anchor xml:id="app2310630161"/>石<anchor xml:id="app2310630161e"/>、醤大豆六十石、隔三年進醤大豆十石、〉<placeName corresp="#安芸国">安芸国</placeName>〈白絹十二疋、糸八百絇、木綿二百五十斤、油三石四升、苫廿五枚、櫑子四合、鹿皮廿張、鹿革廿張、〉<placeName corresp="#周防国">周防国</placeName>〈鹿革廿<anchor xml:id="app2310630162"/>張<anchor xml:id="app2310630162e"/>、席三百五十枚、苫廿五枚、櫑子四合、〉<placeName corresp="#長門国">長門国</placeName>〈鹿革廿張、胡粉廿斤、緑青廿斤、<anchor xml:id="app2310630163"/>丹<anchor xml:id="app2310630163e"/>六十斤、海藻一百五十斤、苫廿五枚、櫑子四合、〉<placeName corresp="#紀伊国">紀伊国</placeName>〈白絹十二疋、絹二百疋、鹿革十張、鹿角菜二石、青苔五十斤、海松卅斤、海藻根十<anchor xml:id="app2310630164"/>斤<anchor xml:id="app2310630164e"/>、鳥坂苔五斤、那乃利曾五十斤、樽二合、大凝菜一百斤、於<anchor xml:id="app2310630165"/>期<anchor xml:id="app2310630165e"/>菜卅斤、大豆<anchor xml:id="app2310630166"/>廿<anchor xml:id="app2310630166e"/>石、小豆廿石、胡麻子五石、醤大豆十石、隔三年進醤大豆三石、〉<placeName corresp="#阿波国">阿波国</placeName>〈絹三百<anchor xml:id="app2310630167"/>疋<anchor xml:id="app2310630167e"/>、白絹十二疋、油二石四升、亀甲六枚、鹿皮十張、粟廿石、小豆十六石、秣料大豆八十石、胡麻子四石、小麦七十石、凝菜七斗、青苔廿斤、海藻根、於<anchor xml:id="app2310630168"/>期<anchor xml:id="app2310630168e"/>菜六斗、鹿角菜二石、苫廿五枚、樽二合、醤大豆廿二石、隔三年進醤大豆五石、〉<placeName corresp="#讃岐国">讃岐国</placeName>〈白絹十疋、鹿革廿張、苫廿五枚、菅円座卌枚、櫑子四合、鹿<anchor xml:id="app2310630169"/>子皮<anchor xml:id="app2310630169e"/>十五張、金漆一斗五升、醤大豆卌二石、隔三年進醤大豆五石・大豆十八石、〉<placeName corresp="#伊予国">伊予<anchor xml:id="app2310630170"/>国<anchor xml:id="app2310630170e"/></placeName>〈鹿革五十枚、鹿皮十張、砥一百八十顆、大豆十八石、海藻根十斤、那乃利曾五十斤、苫五十枚、樽二合、胡麻子五<anchor xml:id="app2310630171"/>石<anchor xml:id="app2310630171e"/>、醤大豆卅二石、隔三年進醤大豆五石、〉<placeName corresp="#土佐国">土左国</placeName>〈亀甲四枚、煮塩年魚五缶、紫菜一百五十斤、苫廿五枚、櫑子四合、〉<orgName corresp="#大宰府">大宰府</orgName>〈絹四千疋、履料牛皮廿四張、狸皮十張、銀三百両、金漆五缶、朱砂一千両、茜二千斤、紫草五千六百斤、猪膏二石、雑油<anchor xml:id="app2310630172"/>卅<anchor xml:id="app2310630172e"/>石、檳榔馬蓑六十領、同螻蓑百廿領、藺帖笠百卅蓋、黒漆<anchor xml:id="app2310630173"/>鞍<anchor xml:id="app2310630173e"/>十具、鉄鎧廿<anchor xml:id="app2310630174"/>雙<anchor xml:id="app2310630174e"/>、〉
          <lb/>右以正税交易進、其運功・食並用正税、但<placeName corresp="#下野国">下野国</placeName>砂金者、使徭夫採、食亦充正税、其<orgName corresp="#大宰府">大宰</orgName>雑油卅石、中男作物若満此数者、更不交易、
         </p>
         <app from="#app2310630101" to="#app2310630101e">
-    <lem wit=""></lem>
-    <rdg wit=""></rdg>
-    <note></note>
+                <lem wit="#土本 #近本 #京博本 #慶長本">十</lem>
+                <note>十　訳注本は考異に従い「子」に改める。</note>
 </app>
 <app from="#app2310630102" to="#app2310630102e">
-    <lem wit=""></lem>
-    <rdg wit=""></rdg>
-    <note></note>
+        <lem wit="#近本 #京博本 #慶長本">斗</lem>
+        <rdg wit="#土本 #京博本朱訂正書">升</rdg>
+        <note>京博本朱訂正書「<seg style="color:red">升</seg>」</note>
+        <note>斗　土本「升」。近本等により改める。</note>
 </app>
 <app from="#app2310630103" to="#app2310630103e">
-    <lem wit=""></lem>
-    <rdg wit=""></rdg>
-    <note></note>
+        <lem wit="#土本 #近本 #京博本">斗</lem>
+        <rdg wit="#慶長本">十</rdg>
 </app>
 <app from="#app2310630104" to="#app2310630104e">
-    <lem wit=""></lem>
-    <rdg wit=""></rdg>
-    <note></note>
+        <lem wit="#土本 #近本 #京博本">斗</lem>
+        <rdg wit="#慶長本">十</rdg>
 </app>
 <app from="#app2310630105" to="#app2310630105e">
-    <lem wit=""></lem>
-    <rdg wit=""></rdg>
-    <note></note>
+        <lem wit="#土本 #近本 #京博本 #慶長本">絹</lem>
+        <note>京博本朱訂正書「<seg style="color:red">綾</seg>」</note>
 </app>
 <app from="#app2310630106" to="#app2310630106e">
-    <lem wit=""></lem>
-    <rdg wit=""></rdg>
-    <note></note>
+        <lem wit="#土本 #近本 #京博本 #慶長本">草</lem>
+        <note>草　訳注本は考異に従い「菜」に改める。</note>
 </app>
 <app from="#app2310630107" to="#app2310630107e">
-    <lem wit=""></lem>
-    <rdg wit=""></rdg>
-    <note></note>
+        <lem wit="#土本 #近本 #京博本">卌</lem>
+        <rdg wit="#慶長本">卅</rdg>
+        <note place="傍">京博本朱傍書「<seg style="color:red">卅イ</seg>」</note>
 </app>
 <app from="#app2310630108" to="#app2310630108e">
-    <lem wit=""></lem>
-    <rdg wit=""></rdg>
-    <note></note>
+        <lem wit="#土本 #近本 #京博本 #慶長本">黍</lem>
+        <note>京博本朱訂正書「<seg style="color:red">荏</seg>」</note>
 </app>
 <app from="#app2310630109" to="#app2310630109e">
-    <lem wit=""></lem>
-    <rdg wit=""></rdg>
-    <note></note>
+        <lem cause="意改">疋</lem>
+        <rdg wit="#土本 #近本 #京博本 #慶長本">尺</rdg>
+        <note>疋　土本等「尺」。考異に従い改める。</note>
 </app>
 <app from="#app2310630110" to="#app2310630110e">
-    <lem wit=""></lem>
-    <rdg wit=""></rdg>
-    <note></note>
+        <lem wit="#京博本朱訂正書">木</lem>
+        <rdg wit="#土本 #近本 #慶長本">大</rdg>
+        <note>京博本朱訂正書「<seg style="color:red">木</seg>」</note>
+        <note>木　土本・京博本等「大」。京博本訂正書により改める。</note>
 </app>
 <app from="#app2310630111" to="#app2310630111e">
-    <lem wit=""></lem>
-    <rdg wit=""></rdg>
-    <note></note>
+        <lem wit="#土本 #近本 #京博本 #慶長本">端</lem>
+        <note>端　訳注本「段」。</note>
 </app>
 <app from="#app2310630112" to="#app2310630112e">
-    <lem wit=""></lem>
-    <rdg wit=""></rdg>
-    <note></note>
+        <lem wit="#土本 #近本 #京博本 #慶長本">十</lem>
+        <note>十　訳注本は衍と見て削る。</note>
 </app>
 <app from="#app2310630113" to="#app2310630113e">
-    <lem wit=""></lem>
-    <rdg wit=""></rdg>
-    <note></note>
+        <lem wit="#土本 #近本 #京博本 #慶長本">端</lem>
+        <note>端　訳注本「段」。</note>
 </app>
 <app from="#app2310630114" to="#app2310630114e">
-    <lem wit=""></lem>
-    <rdg wit=""></rdg>
-    <note></note>
+        <lem wit="#土本 #近本 #京博本 #慶長本">履</lem>
+        <note>近本挿入書「料」</note>
+        <note>京博本朱挿入書「<seg style="color:red">料</seg>」</note>
+        <note>履　訳注本「履料」。</note>
 </app>
 <app from="#app2310630115" to="#app2310630115e">
-    <lem wit=""></lem>
-    <rdg wit=""></rdg>
-    <note></note>
+        <lem wit="#土本 #近本 #京博本 #慶長本">端</lem>
+        <note>端　訳注本「段」。</note>
 </app>
 <app from="#app2310630116" to="#app2310630116e">
-    <lem wit=""></lem>
-    <rdg wit=""></rdg>
-    <note></note>
+        <lem wit="#土本 #近本 #京博本">廿張、鹿角</lem>
+        <rdg wit="#慶長本"/>
 </app>
 <app from="#app2310630117" to="#app2310630117e">
-    <lem wit=""></lem>
-    <rdg wit=""></rdg>
-    <note></note>
+        <lem wit="#土本 #近本 #京博本 #慶長本">履</lem>
+        <note>履　訳注本「履料」。</note>
 </app>
 <app from="#app2310630118" to="#app2310630118e">
-    <lem wit=""></lem>
-    <rdg wit=""></rdg>
-    <note></note>
+        <lem wit="#近本訂正書 #京博本">万</lem>
+        <rdg wit="#土本 #慶長本">百</rdg>
+        <note>近本訂正書「万」</note>
+        <note>万　土本・近本・慶長本「百」。近本訂正書・京博本により改める。</note>
 </app>
 <app from="#app2310630119" to="#app2310630119e">
-    <lem wit=""></lem>
-    <rdg wit=""></rdg>
-    <note></note>
+        <lem wit="#土本 #近本 #京博本 #慶長本">端</lem>
+        <note>端　訳注本「段」。</note>
 </app>
 <app from="#app2310630120" to="#app2310630120e">
-    <lem wit=""></lem>
-    <rdg wit=""></rdg>
-    <note></note>
+        <lem wit="#近本 #京博本 #慶長本">牛</lem>
+        <rdg wit="#土本">半</rdg>
+        <note>牛　土本「半」。近本等により改める。</note>
 </app>
 <app from="#app2310630121" to="#app2310630121e">
-    <lem wit=""></lem>
-    <rdg wit=""></rdg>
-    <note></note>
+        <lem wit="#土本 #近本 #京博本 #慶長本">枚</lem>
+        <note place="脚">近本脚書「端」</note>
+        <note>京博本朱訂正書「<seg style="color:red">段</seg>」</note>
+        <note>枚　訳注本「段」。</note>
 </app>
 <app from="#app2310630122" to="#app2310630122e">
-    <lem wit=""></lem>
-    <rdg wit=""></rdg>
-    <note></note>
+        <lem wit="#土本 #近本 #京博本 #慶長本">段</lem>
+        <note>近本訂正書「端」</note>
 </app>
 <app from="#app2310630123" to="#app2310630123e">
-    <lem wit=""></lem>
-    <rdg wit=""></rdg>
-    <note></note>
+        <lem wit="#土本 #近本 #京博本">革</lem>
+        <rdg wit=" #慶長本"/>
 </app>
 <app from="#app2310630124" to="#app2310630124e">
-    <lem wit=""></lem>
-    <rdg wit=""></rdg>
-    <note></note>
+        <lem wit="#京博本傍書">木綿四百七十斤</lem>
+        <rdg wit="#土本 #近本 #京博本"/>
+        <rdg wit="#慶長本">木綿四百七十斤布一千五百端</rdg>
+        <note place="傍">京博本傍書「イ本木綿四百七十斤<del>布一千五百端</del>」、「布一千五百端」を朱で抹消</note>
+        <note>木綿四百七十斤　土本・近本・京博本無し。慶長本「木綿四百七十斤布一千五百端」。京博本異本注記により補う。訳注本は「櫑子四合」の上に置く。</note>
 </app>
 <app from="#app2310630125" to="#app2310630125e">
-    <lem wit=""></lem>
-    <rdg wit=""></rdg>
-    <note></note>
+        <lem wit="#土本 #近本 #京博本 #慶長本">端</lem>
+        <note>端　訳注本「段」。</note>
 </app>
 <app from="#app2310630126" to="#app2310630126e">
-    <lem wit=""></lem>
-    <rdg wit=""></rdg>
-    <note></note>
+        <lem wit="#近本 #京博本 #慶長本">廿</lem>
+        <rdg wit="#土本">卅</rdg>
+        <note>廿　土本「卅」。近本等により改める。</note>
 </app>
 <app from="#app2310630127" to="#app2310630127e">
-    <lem wit=""></lem>
-    <rdg wit=""></rdg>
-    <note></note>
+        <lem wit="#土本 #近本 #京博本 #慶長本">三千</lem>
+        <note>三千　訳注本は内蔵式54条により下に「八百」を補う。</note>
 </app>
 <app from="#app2310630128" to="#app2310630128e">
-    <lem wit=""></lem>
-    <rdg wit=""></rdg>
-    <note></note>
+        <lem wit="#土本 #近本 #京博本">口</lem>
+        <rdg wit="#慶長本"/>
 </app>
 <app from="#app2310630129" to="#app2310630129e">
-    <lem wit=""></lem>
-    <rdg wit=""></rdg>
-    <note></note>
+        <lem wit="#土本 #近本 #京博本 #慶長本">黒</lem>
+        <note>黒　訳注本は内蔵式54条により上に「曝」を補う。</note>
 </app>
 <app from="#app2310630130" to="#app2310630130e">
-    <lem wit=""></lem>
-    <rdg wit=""></rdg>
-    <note></note>
+        <lem wit="#土本 #近本 #京博本 #慶長本">膠</lem>
+        <note>膠　訳注本は考異により「曝」に改める。</note>
 </app>
 <app from="#app2310630131" to="#app2310630131e">
-    <lem wit=""></lem>
-    <rdg wit=""></rdg>
-    <note></note>
+        <lem wit="#土本 #近本 #京博本 #慶長本">卌</lem>
+        <note place="傍">京博本傍書「卅イ」</note>
 </app>
 <app from="#app2310630132" to="#app2310630132e">
-    <lem wit=""></lem>
-    <rdg wit=""></rdg>
-    <note></note>
+        <lem wit="#土本 #近本 #京博本">国</lem>
+        <rdg wit="#慶長本"/>
 </app>
 <app from="#app2310630133" to="#app2310630133e">
-    <lem wit=""></lem>
-    <rdg wit=""></rdg>
-    <note></note>
+        <lem wit="#土本 #近本 #京博本 #慶長本">端</lem>
+        <note>端　訳注本「段」。</note>
 </app>
 <app from="#app2310630134" to="#app2310630134e">
-    <lem wit=""></lem>
-    <rdg wit=""></rdg>
-    <note></note>
+        <lem wit="#土本 #近本 #京博本 #慶長本">履</lem>
+        <note>京博本下に朱挿入書「<seg style="color:red">料</seg>」</note>
+        <note>履　訳注本「履料」。</note>
 </app>
 <app from="#app2310630135" to="#app2310630135e">
-    <lem wit=""></lem>
-    <rdg wit=""></rdg>
-    <note></note>
+        <lem wit="#近本訂正書 #京博本左傍書 #慶長本">円</lem>
+        <rdg wit="#土本 #近本 #京博本">囲</rdg>
+        <note>近本訂正書「円」</note>
+        <note place="傍">京博本右傍書「国歟」左傍書「円イ」</note>
+        <note>円　土本・近本・京博本「囲」。慶長本、近本訂正書、京博本異本注記により改める。</note>
 </app>
 <app from="#app2310630136" to="#app2310630136e">
-    <lem wit=""></lem>
-    <rdg wit=""></rdg>
-    <note></note>
+        <lem wit="#近本 #京博本 #慶長本">九</lem>
+        <rdg wit="#土本">五</rdg>
+        <note>九　土本「五」。近本等により改める。</note>
 </app>
 <app from="#app2310630137" to="#app2310630137e">
-    <lem wit=""></lem>
-    <rdg wit=""></rdg>
-    <note></note>
+        <lem wit="#土本 #近本 #京博本 #慶長本">沙</lem>
+        <note>沙　訳注本「砂」。</note>
 </app>
 <app from="#app2310630138" to="#app2310630138e">
-    <lem wit=""></lem>
-    <rdg wit=""></rdg>
-    <note></note>
+        <lem wit="#土本 #近本 #京博本 #慶長本">鈍</lem>
+        <note>鈍　訳注本は内蔵式54条により「氈」に改める。</note>
 </app>
 <app from="#app2310630139" to="#app2310630139e">
-    <lem wit=""></lem>
-    <rdg wit=""></rdg>
-    <note></note>
+        <lem wit="#土本 #近本 #京博本 #慶長本">沙</lem>
+        <note>沙　訳注本「砂」。</note>
 </app>
 <app from="#app2310630140" to="#app2310630140e">
-    <lem wit=""></lem>
-    <rdg wit=""></rdg>
-    <note></note>
+        <lem wit="#土本 #近本 #京博本朱訂正書">索</lem>
+        <rdg wit="#慶長本">素</rdg>
+        <note>京博本朱訂正書「索」</note>
 </app>
 <app from="#app2310630141" to="#app2310630141e">
-    <lem wit=""></lem>
-    <rdg wit=""></rdg>
-    <note></note>
+        <lem wit="#土本 #近本 #京博本">鰯</lem>
+        <rdg wit="#慶長本">鯖</rdg>
 </app>
 <app from="#app2310630142" to="#app2310630142e">
-    <lem wit=""></lem>
-    <rdg wit=""></rdg>
-    <note></note>
+        <lem wit="#近本 #京博本朱訂正書 #慶長本">黒</lem>
+        <rdg wit="#土本">里</rdg>
+        <note>京博本朱訂正書「<seg style="color:red">黒</seg>」</note>
+        <note>黒　土本・京博本「里」。近本・慶長本、京博本訂正書により改める。</note>
 </app>
 <app from="#app2310630143" to="#app2310630143e">
-    <lem wit=""></lem>
-    <rdg wit=""></rdg>
-    <note></note>
+        <lem wit="#土本 #近本 #京博本 #慶長本">履</lem>
+        <note>京博本下に朱挿入書「<seg style="color:red">料</seg>」</note>
+        <note>履　訳注本「履料」。</note>
 </app>
 <app from="#app2310630144" to="#app2310630144e">
-    <lem wit=""></lem>
-    <rdg wit=""></rdg>
-    <note></note>
+        <lem wit="#京博本朱訂正書">曝</lem>
+        <rdg wit="#土本 #近本 #慶長本">膠</rdg>
+        <note>京博本朱訂正書「<seg style="color:red">曝</seg>」</note>
+        <note>曝　土本・京博本等「膠」。京博本朱訂正書により改める。</note>
 </app>
 <app from="#app2310630145" to="#app2310630145e">
-    <lem wit=""></lem>
-    <rdg wit=""></rdg>
-    <note></note>
+        <lem cause="意改">織</lem>
+        <rdg wit="#土本">銭</rdg>
+        <rdg wit="#近本 #慶長本 #土本傍書 #京博本朱訂正書">鉄</rdg>
+        <rdg wit="#京博本 #壬生本 #梵本">鋏</rdg>
+        <note place="傍">土本傍書「鉄」</note>
+        <note>京博本朱訂正書「<seg style="color:red">鉄</seg>」</note>
+        <note>織　土本「銭」とし「鉄」と傍書。考異に従い改める。</note>
 </app>
 <app from="#app2310630146" to="#app2310630146e">
-    <lem wit=""></lem>
-    <rdg wit=""></rdg>
-    <note></note>
+        <lem wit="#土本 #近本 #京博本 #慶長本">端</lem>
+        <note>端　訳注本「段」。</note>
 </app>
 <app from="#app2310630147" to="#app2310630147e">
-    <lem wit=""></lem>
-    <rdg wit=""></rdg>
-    <note></note>
+        <lem cause="意改">粟</lem>
+        <rdg wit="#土本 #近本">采</rdg>
+        <rdg wit="#京博本 #慶長本">菜</rdg>
+        <note>粟　土本・近本「采」。考異に従い改める。</note>
 </app>
 <app from="#app2310630148" to="#app2310630148e">
-    <lem wit=""></lem>
-    <rdg wit=""></rdg>
-    <note></note>
+        <lem wit="#土本 #近本傍書 #京博本 #慶長本">胡</lem>
+        <rdg wit="#近本">朝</rdg>
+        <note place="傍">近本傍書「胡」</note>
 </app>
 <app from="#app2310630149" to="#app2310630149e">
-    <lem wit=""></lem>
-    <rdg wit=""></rdg>
-    <note></note>
+        <lem wit="#土本 #近本 #京博本 #慶長本">十</lem>
+        <note>十　訳注は考異に従い「子」に改める。</note>
 </app>
 <app from="#app2310630150" to="#app2310630150e">
-    <lem wit=""></lem>
-    <rdg wit=""></rdg>
-    <note></note>
+        <lem wit="#京博本朱訂正書">曝</lem>
+        <rdg wit="#土本 #近本 #慶長本">膠</rdg>
+        <note>京博本朱訂正書「<seg style="color:red">曝</seg>」</note>
+        <note>曝　土本・京博本等「膠」。京博本朱訂正書により改める。</note>
 </app>
 <app from="#app2310630151" to="#app2310630151e">
-    <lem wit=""></lem>
-    <rdg wit=""></rdg>
-    <note></note>
+        <lem wit="#土本 #近本 #京博本 #慶長本">安</lem>
+        <note>安　訳注本は近江国の例により下に「草」を補う。</note>
 </app>
 <app from="#app2310630152" to="#app2310630152e">
-    <lem wit=""></lem>
-    <rdg wit=""></rdg>
-    <note></note>
+        <lem wit="#土本 #近本 #京博本 #慶長本">鮓</lem>
+        <note>近本訂正書「鮎」</note>
+        <note>京博本朱当初「鮫鮐」、傍訓「サメ」</note>
+        <note>鮓　訳注本は考異に従い「鮐」に改める。</note>
 </app>
 <app from="#app2310630153" to="#app2310630153e">
-    <lem wit=""></lem>
-    <rdg wit=""></rdg>
-    <note></note>
+        <lem wit="#土本 #近本 #京博本 #慶長本">鮐</lem>
+        <note>近本訂正書「鮎」</note>
 </app>
 <app from="#app2310630154" to="#app2310630154e">
-    <lem wit=""></lem>
-    <rdg wit=""></rdg>
-    <note></note>
+        <lem wit="#近本挿入書 #京博本朱書">革</lem>
+        <rdg wit="#土本 #京博本 #慶長本"/>
+        <note>近本挿入書「革」</note>
+        <note>京博本朱書「<seg style="color:red">革</seg>」</note>
+        <note>革　土本・近本等無し。近本挿入書・京博本朱書により補う。</note>
 </app>
 <app from="#app2310630155" to="#app2310630155e">
-    <lem wit=""></lem>
-    <rdg wit=""></rdg>
-    <note></note>
+        <lem wit="#土本 #近本 #京博本">百</lem>
+        <rdg wit="#慶長本"/>
 </app>
 <app from="#app2310630156" to="#app2310630156e">
-    <lem wit=""></lem>
-    <rdg wit=""></rdg>
-    <note></note>
+        <lem wit="#土本 #近本 #京博本 #慶長本">張</lem>
+        <note>張　訳注本は内蔵式54条によりこの下に「樽二合」を補う。</note>
 </app>
 <app from="#app2310630157" to="#app2310630157e">
-    <lem wit=""></lem>
-    <rdg wit=""></rdg>
-    <note></note>
+        <lem wit="#土本 #近本 #京博本 #慶長本">疋</lem>
+        <note place="傍">京博本傍書「大豆廿六石胡麻子三石油二石麻廿張イ本也」</note>
 </app>
 <app from="#app2310630158" to="#app2310630158e">
-    <lem wit=""></lem>
-    <rdg wit=""></rdg>
-    <note></note>
+        <lem wit="#土本 #近本 #京博本 #慶長本">大</lem>
+        <note>大　訳注本はこの上に考異により「醤」を補う。</note>
 </app>
 <app from="#app2310630159" to="#app2310630159e">
-    <lem wit=""></lem>
-    <rdg wit=""></rdg>
-    <note></note>
+        <lem cause="意改">苫</lem>
+        <rdg wit="#土本 #近本 #京博本 #慶長本">革</rdg>
+        <note>近本訂正書「鹿革」</note>
+        <note>苫　土本等「革」。考異に従い改める。</note>
 </app>
 <app from="#app2310630160" to="#app2310630160e">
-    <lem wit=""></lem>
-    <rdg wit=""></rdg>
-    <note></note>
+        <lem cause="意改">革</lem>
+        <rdg wit="#土本 #近本 #京博本 #慶長本">皮</rdg>
+        <note>革　土本等「皮」。意をもって改める。</note>
 </app>
 <app from="#app2310630161" to="#app2310630161e">
-    <lem wit=""></lem>
-    <rdg wit=""></rdg>
-    <note></note>
+        <lem cause="意改">石</lem>
+        <rdg wit="#土本 #近本 #京博本 #慶長本">合</rdg>
+        <note>石　土本等「合」。考異に従い改める。</note>
 </app>
 <app from="#app2310630162" to="#app2310630162e">
-    <lem wit=""></lem>
-    <rdg wit=""></rdg>
-    <note></note>
+        <lem wit="#土本 #近本 #京博本">張</lem>
+        <rdg wit="#慶長本">張胡粉廿斤緑青廿斤</rdg>
+        <note place="傍">京博本傍書「胡粉廿斤緑青廿斤イ本」</note>
 </app>
 <app from="#app2310630163" to="#app2310630163e">
-    <lem wit=""></lem>
-    <rdg wit=""></rdg>
-    <note></note>
+        <lem cause="意改">丹</lem>
+        <rdg wit="#土本 #近本">縑</rdg>
+        <rdg wit="#京博本 #慶長本">絁</rdg>
+        <note>丹　土本・近本「縑」。京博本・慶長本「絁」。国史大系本に従い改める。</note>
 </app>
-<app from="#app2310630164" to="#app2310630164e">
-    <lem wit=""></lem>
-    <rdg wit=""></rdg>
-    <note></note>
+        <app from="#app2310630164" to="#app2310630164e">
+                <lem wit="#土本 #近本 #京博本">斤</lem>
+                <rdg wit="#慶長本">斤海斤</rdg>
 </app>
 <app from="#app2310630165" to="#app2310630165e">
-    <lem wit=""></lem>
-    <rdg wit=""></rdg>
-    <note></note>
+        <lem wit="#土本 #近本 #京博本 #慶長本">期</lem>
+        <note>期　訳注本「胡」。</note>
 </app>
 <app from="#app2310630166" to="#app2310630166e">
-    <lem wit=""></lem>
-    <rdg wit=""></rdg>
-    <note></note>
+        <lem wit="#近本 #京博本 #慶長本 #壬本 #梵本">廿</lem>
+        <rdg wit="#土本">卅</rdg>
+        <note>京博本朱訂正書「<seg style="color:red">卅</seg>」</note>
+        <note>廿　土本「卅」。近本等により改める。</note>
 </app>
 <app from="#app2310630167" to="#app2310630167e">
-    <lem wit=""></lem>
-    <rdg wit=""></rdg>
-    <note></note>
+        <lem cause="意改">疋</lem>
+        <rdg wit="#土本 #近本 #京博本 #慶長本">斤</rdg>
+        <note>疋　土本等「斤」。意をもって改める。</note>
 </app>
 <app from="#app2310630168" to="#app2310630168e">
-    <lem wit=""></lem>
-    <rdg wit=""></rdg>
-    <note></note>
+        <lem wit="#土本 #近本 #京博本 #慶長本">期</lem>
+        <note>期　訳注本「胡」。</note>
 </app>
 <app from="#app2310630169" to="#app2310630169e">
-    <lem wit=""></lem>
-    <rdg wit=""></rdg>
-    <note></note>
+        <lem wit="#土本 #近本挿入書 #京博本朱挿入書">子皮</lem>
+        <rdg wit="#土本 #慶長本">子</rdg>
+        <note>近本挿入書「皮」</note>
+        <note>京博本朱挿入書「皮」</note>
+        <note>子皮　近本「子」の下に挿入書「皮」。京博本「子」の下に朱挿入書「皮」。訳注本「皮」。</note>
 </app>
 <app from="#app2310630170" to="#app2310630170e">
-    <lem wit=""></lem>
-    <rdg wit=""></rdg>
-    <note></note>
+        <lem wit="#土本 #近本 #京博本">国</lem>
+        <rdg wit="#慶長本"/>
 </app>
 <app from="#app2310630171" to="#app2310630171e">
-    <lem wit=""></lem>
-    <rdg wit=""></rdg>
-    <note></note>
+        <lem cause="意改">石</lem>
+        <rdg wit="#土本 #近本 #京博本 #慶長本">合</rdg>
+        <note>石　土本等「合」。意をもって改める。</note>
 </app>
 <app from="#app2310630172" to="#app2310630172e">
-    <lem wit=""></lem>
-    <rdg wit=""></rdg>
-    <note></note>
+        <lem wit="#近本 #京博本 #慶長本 #壬本 #梵本">卅</lem>
+        <rdg wit="#土本">卌</rdg>
+        <note>卅　土本「卌」。近本等により改める。</note>
 </app>
 <app from="#app2310630173" to="#app2310630173e">
-    <lem wit=""></lem>
-    <rdg wit=""></rdg>
-    <note></note>
+        <lem wit="#京博本朱抹消">鞍</lem>
+        <rdg wit="#土本 #近本 #慶長本">按鞍</rdg>
+        <note>京博本朱抹消「<del>按</del>鞍」</note>
+        <note>鞍　土本等上に「按」あり。京博本抹消符により削る。</note>
 </app>
 <app from="#app2310630174" to="#app2310630174e">
-    <lem wit=""></lem>
-    <rdg wit=""></rdg>
-    <note></note>
+        <lem wit="#土本 #近本 #京博本 #慶長本">雙</lem>
+        <note place="傍">京博本朱傍書「<seg style="color:red">隻イ</seg>」</note>
+        <note>雙　訳注本は考異に従い「隻」に改める。</note>
 </app>
 </div>
 <div ana="民部下" corresp="engishiki_v23_en.xml#article231064 engishiki_v23_ja.xml#article231064" n="23.64" type="条" xml:id="article231064">
@@ -2763,9 +2768,11 @@
          凡<placeName corresp="#諸国">諸国</placeName>年料雑交易物者、当年充進、不得踰年、若有未進、<anchor xml:id="app2310650101"/>拘<anchor xml:id="app2310650101e"/>調庸返抄、
         </p>
         <app from="#app2310650101" to="#app2310650101e">
-                <lem wit=""></lem>
-                <rdg wit=""></rdg>
-                <note></note>
+                <lem wit="#近本訂正書 #京博本朱訂正書">拘</lem>
+                <rdg wit="#土本 #近本 #京博本 #慶長本">物</rdg>
+                <note>近本訂正書「拘」</note>
+                <note>京博本朱訂正書「<seg style="color:red">拘</seg>」</note>
+                <note>拘　土本・近本・京博本等「物」。近本・京博本訂正書により改める。</note>
         </app>
 </div>
 <div ana="民部下" corresp="engishiki_v23_en.xml#article231066 engishiki_v23_ja.xml#article231066" n="23.66" type="条" xml:id="article231066">
@@ -2774,9 +2781,11 @@
          凡有雑交易未進者、准雑米未進例、奪郡<orgName corresp="#司">司</orgName><orgName corresp="#職">職</orgName>田直、若不足者、没国<orgName corresp="#司">司</orgName><anchor xml:id="app2310660101"/>公<anchor xml:id="app2310660101e"/>廨、
         </p>
         <app from="#app2310660101" to="#app2310660101e">
-                <lem wit=""></lem>
-                <rdg wit=""></rdg>
-                <note></note>
+                <lem wit="#近本挿入書 #京博本朱挿入書">公</lem>
+                <rdg wit="#土本 #近本 #京博本 #慶長本"/>
+                <note>近本挿入書「公」</note>
+                <note>京博本朱挿入書「<seg style="color:red">公</seg>」</note>
+                <note>公　土本等無し。近本・京博本挿入書により補う。</note>
         </app>
 </div>
 <div ana="民部下" corresp="engishiki_v23_en.xml#article231067 engishiki_v23_ja.xml#article231067" n="23.67" type="条" xml:id="article231067">
@@ -2797,14 +2806,19 @@
          凡勅旨交易絹并商布減直者、去年料附当年使、待<anchor xml:id="app2310690101"/>究<anchor xml:id="app2310690101e"/>前年料、乃放後年返抄、其運賃用減直<anchor xml:id="app2310690102"/>内<anchor xml:id="app2310690102e"/>、穀倉院交易准此、
         </p>
         <app from="#app2310690101" to="#app2310690101e">
-                <lem wit=""></lem>
-                <rdg wit=""></rdg>
-                <note></note>
+                <lem wit="#土本 #近本 #京博本 #慶長本">究</lem>
+                <note>近本訂正書「充」</note>
+                <note>京博本朱訂正書「<seg style="color:red">充</seg>」</note>
+                <note>究　訳注本は「充」とする。</note>
         </app>
         <app from="#app2310690102" to="#app2310690102e">
-                <lem wit=""></lem>
-                <rdg wit=""></rdg>
-                <note></note>
+                <lem wit="#近本抹消 #慶長本">内</lem>
+                <rdg wit="#土本重書">内用減直内</rdg>
+                <rdg wit="#京博本">内内</rdg>
+                <note>土本重書「用減直内」</note>
+                <note>近本重書「<del>用減直内</del>」</note>
+                <note>京博本重書「<del style="color:red">用減直</del>内」</note>
+                <note>内　土本・近本・京博本「用減直内」を重書。近本は「用減直内」を抹消。京博本は「用減直」を朱で抹消。慶長本、近本抹消符により削る。</note>
         </app>
 </div>
 </div>
@@ -2813,9 +2827,9 @@
         延喜式巻第廿<anchor xml:id="app2388880101"/>三<anchor xml:id="app2388880101e"/>
 </p>
         <app from="#app2388880101" to="#app2388880101e">
-                <lem wit=""></lem>
-                <rdg wit=""></rdg>
-                <note></note>
+                <lem wit="#土本  #近本 #慶長本">三</lem>
+                <rdg wit="#京博本">三撰者位姓名同右</rdg>
+                <note>京博本朱書「撰者位姓名同右」</note>
         </app>
 </div>
 <div type="本奥書" xml:id="okugaki23">
