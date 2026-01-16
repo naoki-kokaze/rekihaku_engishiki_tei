@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
@@ -212,6 +212,9 @@
    <projectDesc>
     <p> 制作過程に関する情報も含めて，電子ファイルが作られた目的の詳細を示す． </p>
    </projectDesc>
+   <editorialDecl ana="XML">
+    <p ana="全体"/>
+   </editorialDecl>
    <editorialDecl ana="校訂文凡例">
     <p ana="全体">
      <table>
@@ -399,10 +402,11 @@
       </row>
      </table>
     </p>
-    <p ana="個別">校訂文凡例 <table>
+    <p ana="個別">
+     <table>
       <row>
        <cell> ・ </cell>
-       <cell> 底本には土本を使用し、近本・京博本・慶長本によって対校しました。また、強く校訂の参考になると判断した場合のみ、壬本・梵本・享保版本の情報を掲載しました。 </cell>
+       <cell> 底本には土本を使用し、九本・近本・京博本・慶長本によって対校しました。ただし近本・京博本・慶長本の朱書・墨書による書き入れの情報については、校訂の参考になる場合のみ掲載しました。 </cell>
       </row>
       <row>
        <cell> ・ </cell>
@@ -410,7 +414,7 @@
       </row>
       <row>
        <cell> ・ </cell>
-       <cell> 「径」を「住」、「苫」を「苔」字のごとく筆写したものについては、容易に誤りと判定できる限りにおいて断りなく改めました。 </cell>
+       <cell> 各行の改行位置や開始位置などの様式は、古写本である九本に依拠することとし、土本および諸本間の異同については明示しないこととしました。 </cell>
       </row>
      </table>
     </p>
@@ -424,6 +428,7 @@
     <rendition xml:id="indent5"> margin-top: 5em; </rendition>
     <rendition xml:id="indent6"> margin-top: 6em; </rendition>
     <rendition xml:id="indent7"> margin-top: 7em; </rendition>
+    <rendition xml:id="indent8"> margin-top: 8em; </rendition>
     <rendition xml:id="indent10"> margin-top: 10em; </rendition>
     <rendition xml:id="indent12"> margin-top: 12em; </rendition>
     <rendition xml:id="indent13"> margin-top: 13em; </rendition>
@@ -605,7 +610,7 @@
      <desc> 糸の単位。糸1絇=上糸大4両、中糸大5両、麁糸大7両。 </desc>
     </unitDef>
    </unitDecl>
-   </encodingDesc>
+  </encodingDesc>
   <revisionDesc ana="個別">
    <listChange>
     <change/>
