@@ -1,0 +1,1461 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title> 延喜式ファイル </title>
+        <author> 国立歴史民俗博物館 </author>
+        <respStmt>
+          <!-- 人数分記入 -->
+          <resp/>
+          <persName/>
+        </respStmt>
+        <funder>
+          <orgName> 人間文化研究機構基幹研究プロジェクト「総合書物学」ユニット「古代の百科全書『延喜式』の多分野協働研究」 </orgName>
+          <orgName> 科研費基盤研究（B）「史料学的検討を重視した『延喜式』の基礎的研究」（研究代表：小倉慈司） </orgName>
+          <orgName> 科研費基盤研究（B）「格・式研究を踏まえた日本古代社会像の再構築」（研究代表：小倉慈司） </orgName>
+          <orgName> 学変 </orgName>
+        </funder>
+        <principal> 電子テキストの生成に責任のある中心的な研究者の名前を示す </principal>
+      </titleStmt>
+      <publicationStmt>
+        <authority> 国立歴史民俗博物館 </authority>
+        <distributor> 保留 </distributor>
+        <publisher> 国立歴史民俗博物館メタ資料学研究センター </publisher>
+        <idno type="PID"> o:depcha.engi_shiki.1 </idno>
+        <availability>
+          <p/>
+        </availability>
+        <date when="2020-03-31"> 31 March 2020 </date>
+      </publicationStmt>
+      <notesStmt>
+        <note/>
+        <relatedItem>
+          <listBibl>
+            <bibl>
+              <author/>
+              <title/>
+              <date/>
+              <publisher/>
+            </bibl>
+          </listBibl>
+        </relatedItem>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <settlement> 千葉県佐倉市 </settlement>
+            <institution> 人間文化研究機構 </institution>
+            <repository> 国立歴史民俗博物館 </repository>
+            <collection> 集英社版延喜式 </collection>
+            <idno> H-743-74 </idno>
+            <msName> 田中本『延喜式』 </msName>
+          </msIdentifier>
+          <msContents>
+            <msItemStruct>
+              <author> 藤原時平・藤原忠平 </author>
+              <title> 土御門本『延喜式』 </title>
+              <colophon> 書写奥書は無し。巻九・十に文亀三年（1503）の吉田兼倶本奥書あり </colophon>
+              <filiation> ほかの写本との違い；原本は現存せず；古写本として東京国立博物館所蔵九条家旧蔵巻子本・金剛寺本等が現存するが、全巻すべてが揃うものはない。
+                全巻が揃う新写本のなかでは土御門本が善本として知られる。土御門本は一条家本を親本としたと推測されている。ただし同本に欠ける巻十三は、土御門本の書写段階で版本により補われた。
+                巻十三は九条家旧蔵巻子本が現存諸本の祖本。このほかの主要写本には、京都国立博物館所蔵本（京都博物館本）・ 京都大学附属図書館所蔵近衛家旧蔵本・天理大学附属天理図書館所蔵本（梵舜本・梵舜別本）・宮内庁書陵部所蔵本
+                （壬生家旧蔵本・藤波家旧蔵本）・国立公文書館所蔵本（紅葉山文庫旧蔵慶長写本・林家旧蔵本）等がある。 </filiation>
+            </msItemStruct>
+          </msContents>
+          <physDesc>
+            <objectDesc>
+              <supportDesc>
+                <support> 楮紙 </support>
+                <extent> 縦27.3～27.4cm × 横 19.8～19.9cm </extent>
+                <foliation> 丁の表裏（cf. folioのrecto, versoと同じ） </foliation>
+                <collation> 袋綴じ、より正確には四ツ目綴じの和装本 </collation>
+                <condition> 全巻揃っている。とくに致命的な落丁や虫損は、土御門本自体には基本的に見られない。 </condition>
+              </supportDesc>
+            </objectDesc>
+            <bindingDesc>
+              <binding>
+                <p> 渋染栗皮色の表紙。まず左下に墨書で巻数、左上に胡粉で延喜式と直書きされており、そして左下に胡粉で巻数が上書きされている。
+                  右上には、巻の内容を表す式名やその略称が胡粉で直書きされている。表紙の心紙には楮紙でできた反故紙が使用されている。押し八双あり。</p>
+              </binding>
+            </bindingDesc>
+          </physDesc>
+          <history>
+            <summary> 土御門家旧蔵→田中教忠氏が収集→孫の田中穣氏が『田中教忠蔵書目録』を私家版として発行→国に譲渡→歴博に移管 </summary>
+            <origin> 土御門泰重が元和三年（1617）～四年頃に一条家所蔵写本（現存せず）を借用して転写せしめた。 泰重の孫泰福が巻五十末尾に泰重真筆である旨の識語を記す（実際は泰重の筆はごく一部にとどまる）。
+              また巻五十後表紙見返しに田中教忠による貼紙がある。 </origin>
+            <provenance> 幕末ないし明治初年に田中教忠が入手する。教忠孫の田中穣が1988～1989年に他の教忠収集コレクションとともに国に譲渡。 </provenance>
+            <acquisition/>
+          </history>
+        </msDesc>
+        <listWit>
+          <listWit xml:id="写本">
+            <head> 写本 </head>
+            <witness xml:id="土本"><abbr> 土本 </abbr> ：国立歴史民俗博物館所蔵土御門家旧蔵本（H-743-74） </witness>
+            <witness xml:id="近本"><abbr> 近本 </abbr> ：京都大学附属図書館所蔵近衛文庫本（2-03/エ/1貴） </witness>
+            <witness xml:id="壬本"><abbr> 壬本 </abbr> ：宮内庁書陵部図書寮文庫所蔵壬生家旧蔵本（F10-287） </witness>
+            <witness xml:id="京博本"><abbr> 京博本 </abbr> ：京都国立博物館所蔵旧京都博物館本 </witness>
+            <witness xml:id="慶長本"><abbr> 慶長本 </abbr> ：国立公文書館所蔵慶長写本（特102-8） </witness>
+            <witness xml:id="梵本"><abbr> 梵本 </abbr> ：天理大学附属天理図書館所蔵吉田文庫梵舜等筆本（吉16-8。巻8は173-ｲ5（Ⅲ524)もあり） </witness>
+            <witness xml:id="九本"><abbr> 九本 </abbr> ：東京国立博物館所蔵九条家旧蔵巻子本（B-2370） </witness>
+            <witness xml:id="剛本"><abbr> 剛本 </abbr> ：天野山金剛寺所蔵本 </witness>
+            <witness xml:id="条本"><abbr> 条本 </abbr> ：一条家旧蔵巻子本（巻1～3は無窮会専門図書館所蔵模写本、巻4・5は神宮司庁刊影印本） </witness>
+            <witness xml:id="花本"><abbr> 花本 </abbr> ：武田祐吉旧蔵花山院通雅筆本（神宮皇学館刊影印本による） </witness>
+            <witness xml:id="九冊本"><abbr> 九冊本 </abbr> ：國學院大學所蔵九条家・西田長男旧蔵冊子本（巻5は西田長男刊影印本による） </witness>
+            <witness xml:id="永本"><abbr> 永本 </abbr>
+              ：國學院大學図書館所蔵卜部兼永筆本（巻8、091.2/322.135/1）、鈴鹿義鯨旧蔵卜部兼永筆本（巻9・10、現蔵不明、神宮文庫写真帳1門16974を閲覧） </witness>
+            <witness xml:id="右本"><abbr> 右本 </abbr> ：巻8は國學院大學図書館所蔵（貴62） </witness>
+            <witness xml:id="吉本"><abbr> 吉本 </abbr> ：天理大学附属天理図書館所蔵吉田家旧蔵本巻9・10（328.1-ｲ17（『天理図書館稀書目録　和漢書之部　第三』1219） </witness>
+            <witness xml:id="三条本"><abbr> 三条本 </abbr> ：天理大学附属天理図書館所蔵三条家旧蔵本（328.1-ｲ11(Ⅲ1218)） </witness>
+            <witness xml:id="西本"><abbr> 西本 </abbr>
+              ：國學院大學図書館所蔵三条西家旧蔵本（巻9・10、貴107～108）、国立歴史民俗博物館所蔵三条西家旧蔵本（巻50、H-1588）。抄出本は國學院大學所蔵（木村大樹「〔西田長男旧蔵〕三条西実隆筆『延喜式』(抄)の翻刻・紹介」『國學院大學研究開発推進機構紀要』14、2022年） </witness>
+            <witness xml:id="時慶本"><abbr> 時慶本 </abbr> ：静嘉堂文庫所蔵西洞院時慶写本（延喜格式表18352、延喜式序18353） </witness>
+            <witness xml:id="藤波本"><abbr> 藤波本 </abbr> ：宮内庁書陵部図書寮文庫所蔵藤波家旧蔵本（217-473） </witness>
+            <witness xml:id="島原本"><abbr> 島原本 </abbr> ：東京大学史料編纂所所蔵松平忠房・和学講談所・水野忠央旧蔵本（貴45-2） </witness>
+            <witness xml:id="貞享本"><abbr> 貞享本 </abbr> ：宮内庁書陵部図書寮文庫所蔵和学講談所旧蔵坊城俊方貞享五年写本（457-116） </witness>
+            <witness xml:id="玄梁本"><abbr> 玄梁本 </abbr> ：無窮会専門図書館所蔵神習文庫玄梁記名本（神習3666） </witness>
+            <witness xml:id="尾張本"><abbr> 尾張本 </abbr> ：東京大学総合図書館所蔵尾張家旧蔵本（巻13）（A00-6122） </witness>
+            <witness xml:id="泉亭本"><abbr> 泉亭本 </abbr> ：賀茂三手文庫所蔵泉亭本（制度/加） </witness>
+          </listWit>
+          <listWit xml:id="版本">
+            <head> 版本：慶安版本も含めた流布版本 </head>
+            <witness xml:id="慶安版本"><abbr> 慶安版本 </abbr> ：大和文華館所蔵鈴鹿連胤旧蔵版本（1/741～790） </witness>
+            <witness xml:id="明暦版本"><abbr> 明暦版本 </abbr> ：明暦修訂版本　国立公文書館所蔵紅葉山文庫旧蔵版本（特26-1）等 </witness>
+            <witness xml:id="明暦以降版本"><abbr> 明暦以降版本 </abbr> ：明暦修訂本以降の版本 </witness>
+            <witness xml:id="寛文版本"><abbr> 寛文版本 </abbr> ：寛文修訂版本　筑波大学附属図書館所蔵版本20冊本（ム212-7）等 </witness>
+            <witness xml:id="享保版本"><abbr> 享保版本 </abbr> ：享保修訂版本　筑波大学附属図書館所蔵版本50冊本（ム212-6）等 </witness>
+            <witness xml:id="雲本"><abbr> 雲本 </abbr> ：松江藩文政11年(1828)刊本（雲州本）　早稲田大学図書館所蔵本（ワ03-01594）等 </witness>
+            <witness xml:id="考異"><abbr> 考異 </abbr> ：雲州本附録『延喜式考異』　早稲田大学図書館所蔵本（ワ03-01594）等 </witness>
+            <witness xml:id="鈴鹿本"><abbr> 鈴鹿本 </abbr> ：大和文華館所蔵鈴鹿連胤旧蔵慶安版本（1/741～790）書入 </witness>
+            <witness xml:id="勢多本"><abbr> 勢多本 </abbr> ：宮内庁書陵部図書寮文庫所蔵勢多家旧蔵明暦等版本（172-123）書入 </witness>
+            <witness xml:id="筑波寛文本"><abbr> 筑波寛文本 </abbr> ：筑波大学附属図書館所蔵寛文版本20冊本（ム212-7）書入 </witness>
+          </listWit>
+          <listWit xml:id="刊本">
+            <head> 刊本 </head>
+            <witness xml:id="旧大系本"><abbr> 旧大系本 </abbr> ：旧輯国史大系第13巻（経済雑誌社　1900年刊） </witness>
+            <witness xml:id="叢書本"><abbr> 叢書本 </abbr> ：新註皇学叢書第3巻（広文庫刊行会　1927年刊） </witness>
+            <witness xml:id="全集本"><abbr> 全集本 </abbr> ：日本古典全集『延喜式』（日本古典全集刊行会　1927～1929年刊） </witness>
+            <witness xml:id="皇典本"><abbr> 皇典本 </abbr> ：『校訂延喜式』（皇典講究所・全国神職会　1929～1932年刊） </witness>
+            <witness xml:id="国史大系本"><abbr> 国史大系本 </abbr> ：新訂増補国史大系第26巻（吉川弘文館　1937年刊） </witness>
+            <witness xml:id="神道大系本"><abbr> 神道大系本 </abbr> ：神道大系古典編11・12『延喜式』（神道大系編纂会、1991・1993年刊） </witness>
+            <witness xml:id="訳注本"><abbr> 訳注本 </abbr> ：訳注日本史料『延喜式』上～下（集英社、2000～2017年刊） </witness>
+          </listWit>
+          <listWit xml:id="その他">
+            <head> その他 </head>
+            <witness xml:id="本朝月令"><abbr> 本朝月令 </abbr> ：清水潔編『新校本朝月令』（皇學館大學神道研究所　2002年刊） </witness>
+            <witness xml:id="儀式"><abbr> 儀式 </abbr> ：神道大系朝儀祭祀編1『儀式・内裏式』（神道大系編纂会　1980年刊） </witness>
+            <witness xml:id="皇太神宮儀式帳"><abbr> 皇太神宮儀式帳 </abbr> ：佐野真人「『皇太神宮儀式帳』校訂試案」（『皇學館大学研究開発推進センター紀要』2　2016年） </witness>
+            <witness xml:id="止由気宮儀式帳"><abbr> 止由気宮儀式帳 </abbr> ：佐野真人「『止由気宮儀式帳』校訂試案」（『皇學館大学研究開発推進センター紀要』3　2017年） </witness>
+            <witness xml:id="新撰年中行事"><abbr> 新撰年中行事 </abbr> ：西本昌弘編『新撰年中行事』（八木書店　2010年刊） </witness>
+            <witness xml:id="小野宮年中行事"><abbr> 小野宮年中行事 </abbr> ：群書類従第6輯 律令部 公事部（続群書類従完成会　1932年刊） </witness>
+            <witness xml:id="小野宮年中行事裏書"><abbr> 小野宮年中行事裏書 </abbr> ：国立歴史民俗博物館所蔵本（H-1762） </witness>
+            <witness xml:id="勘例"><abbr> 勘例（陽明文庫所蔵） </abbr> ：大日本古記録『勘例』上・下（岩波書店　2018・2023年刊） </witness>
+            <witness xml:id="政事要略"><abbr> 政事要略 </abbr> ：新訂増補国史大系第28巻（吉川弘文館　1935年刊。適宜、写本を参照） </witness>
+            <witness xml:id="法曹至要抄"><abbr> 法曹至要抄 </abbr> ：中世法制史料集（岩波書店　2005年刊） </witness>
+            <witness xml:id="本草和名"><abbr> 本草和名 </abbr> ：丸山裕美子・武倩編著『本草和名』（汲古書院　2021年刊） </witness>
+          </listWit>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p> 制作過程に関する情報も含めて，電子ファイルが作られた目的の詳細を示す．</p>
+      </projectDesc>
+      <editorialDecl ana="XML">
+        <p ana="全体"/>
+      </editorialDecl>
+      <editorialDecl ana="校訂文凡例">
+        <p ana="全体">
+          <table>
+            <row>
+              <cell> ・ </cell>
+              <cell> 原則として土本（以下、略称は「主要写本・版本・刊本等略称・底本一覧」参照）を底本とし、九本・剛本・条本・花本等の古写本や近本・壬本・京博本等の写本によって対校しました（巻によって使用した対校本は異なります）。
+              </cell>
+            </row>
+            <row>
+              <cell> ・ </cell>
+              <cell> 条文番号・条文名称は原則として訳注本に拠りましたが、一部を修正しています（※下記「条文名称修正一覧」参照）。なお1条が長い場合など、必要に応じ「項」に分割して示すこととしました。 </cell>
+            </row>
+            <row>
+              <cell> ・ </cell>
+              <cell>
+                校異は原則として底本の文字を改変する場合、あるいは写本間に参考とすべき異同がある場合、参考とすべき傍書等がある場合に付すこととしました。必ずしもその校異に関する写本をすべて網羅することはせず、主要写本のみを取り上げています。ただし訳注本と校訂文に異同が生じた場合には、できる限り校異にて言及するよう心がけました（単なる字体の相違については省略しています）。
+              </cell>
+            </row>
+            <row>
+              <cell> ・ </cell>
+              <cell>
+                校訂文は『延喜式』撰上当初の姿の復元を目標としています。標注や傍書は、条文名称に関わるものは省略し、中世以前にさかのぼることが想定されるものに限って、校異注で言及することとしました。ただし標注のうち「弘」「貞」「延」等については便宜を考え、鉤括弧で括って校訂本文に掲げることとしました。
+              </cell>
+            </row>
+            <row>
+              <cell> ・ </cell>
+              <cell>
+                字体は常用漢字体を原則としました。「大」と「太」、「座」と「坐」、「絇」と「約」、「績」と「續（続）」、「色」と「包」、「細」と「紬」、「鈍」と「純」、「冑」と「胃」、「絁」と「絶」、草冠と竹冠、木偏と手偏等、容易に判定される誤字や誤用・通用については、校異を省略して適宜置き換える場合があります。ただし巻9・10においては「大」「太」の差異も校異にて触れることとしました。
+              </cell>
+            </row>
+            <row>
+              <cell> ・ </cell>
+              <cell> 校訂文中の細字・割書は、〈　〉で括って表現することとしました。 </cell>
+            </row>
+            <row>
+              <cell> ・ </cell>
+              <cell> 本文に誤字・脱字等が想定される場合であっても、置き換えるべき文字や補うべき文字が明確でない場合は、校異注での言及にとどめた場合があります。 </cell>
+            </row>
+            <row>
+              <cell> ・ </cell>
+              <cell> ユニコードにて表示されない漢字は以下のように示すことにしました。 </cell>
+            </row>
+          </table>
+          <table rendition="#indent2">
+            <row>
+              <cell rendition="#width100"> 【Ａ+Ｂ】 </cell>
+              <cell rendition="#width300"> ＝扁がＡ、つくりがＢ </cell>
+              <cell rendition="#width300"> 例）村【木+寸】 </cell>
+            </row>
+            <row>
+              <cell rendition="#width100"> 【Ａ/Ｂ】 </cell>
+              <cell rendition="#width300"> ＝上にＡ、下にＢ </cell>
+              <cell rendition="#width300"> 例）雲【雨/云】 </cell>
+            </row>
+            <row>
+              <cell rendition="#width100"> 【Ａ-Ｂ】 </cell>
+              <cell rendition="#width300"> ＝Ａの字画よりＢにあたる字画を除く </cell>
+              <cell rendition="#width300"> 例）門【閉-オ】 </cell>
+            </row>
+            <row>
+              <cell rendition="#width100"> 【Ａ⊃Ｂ】 </cell>
+              <cell rendition="#width300"> ＝Ａの字画のなかにＢの字画が含まれる </cell>
+              <cell rendition="#width300"> 例）閉【門⊃オ】、国【囗⊃玉】 </cell>
+            </row>
+            <row>
+              <cell rendition="#width100"> 【（Ａ/Ｂ）+Ｃ】、【Ａ/（Ｂ⊃Ｃ）】 </cell>
+              <cell rendition="#width300"> ＝字画が三つ以上、かつ異なる方法で字画が組み合う </cell>
+              <cell rendition="#width300"> 例）雑【（九/木）+隹】、懸【（県+系）/心】、薗【艹/（口⊃袁）】 </cell>
+            </row>
+            <row>
+              <cell/>
+              <cell/>
+              <cell> （班【王+リ+王】、窓【宀/公/心】はすべての字画が一つの方法で組み合うため、（　）なし。） </cell>
+            </row>
+          </table>
+          <table>
+            <row>
+              <cell> ・ </cell>
+              <cell> 校異注の付く文字は赤字および青字で表示され、クリックすると注が表示されます。表示内容は以下の通りです。 </cell>
+            </row>
+          </table>
+          <table rendition="#indent2">
+            <row>
+              <cell rendition="#width100"> 採用 </cell>
+              <cell> 写本名と校訂文にて採用した文字 </cell>
+            </row>
+            <row>
+              <cell rendition="#width100"> 校異 </cell>
+              <cell> 写本名と対校箇所の文字 </cell>
+            </row>
+            <row>
+              <cell rendition="#width100"> 解説 </cell>
+              <cell> 各写本の傍書や頭書等の提示、校異注の本文（最下部の解説） </cell>
+            </row>
+            <row>
+              <cell/>
+            </row>
+            <row>
+              <cell/>
+            </row>
+          </table>
+          <table>
+            <row>
+              <cell> ・ </cell>
+              <cell> 条文名称修正一覧 </cell>
+            </row>
+          </table>
+          <table rendition="#indent2">
+            <row>
+              <cell rendition="#width100"> 巻番号 </cell>
+              <cell rendition="#width50"> 旧番号 </cell>
+              <cell rendition="#width100"> 旧条文名 </cell>
+              <cell rendition="#width50"> 番号 </cell>
+              <cell rendition="#width100"> 訂正条文名 </cell>
+            </row>
+            <row>
+              <cell rendition="#width100"> 111太政官 </cell>
+              <cell rendition="#width50"> 67 </cell>
+              <cell rendition="#width100"> 薗韓神祭 </cell>
+              <cell rendition="#width50"> 67 </cell>
+              <cell rendition="#width100"> 園韓神祭 </cell>
+            </row>
+            <row>
+              <cell rendition="#width100"> 111太政官 </cell>
+              <cell rendition="#width50"> 112 </cell>
+              <cell rendition="#width100"> 行幸経宿 </cell>
+              <cell rendition="#width50"> 112 </cell>
+              <cell rendition="#width100"> 行幸経旬 </cell>
+            </row>
+            <row>
+              <cell rendition="#width100"> 171内匠 </cell>
+              <cell rendition="#width50"> 39 </cell>
+              <cell rendition="#width100"> 作物衣服 </cell>
+              <cell rendition="#width50"> 39 </cell>
+              <cell rendition="#width100"> 作物衣 </cell>
+            </row>
+            <row>
+              <cell rendition="#width100"> 214諸陵 </cell>
+              <cell rendition="#width50"> 16 </cell>
+              <cell rendition="#width100"> 後阿陁他遠墓 </cell>
+              <cell rendition="#width50"> 16 </cell>
+              <cell rendition="#width100"> 後阿陀他遠墓 </cell>
+            </row>
+            <row>
+              <cell rendition="#width100"> 293囚獄 </cell>
+              <cell rendition="#width50"> 2 </cell>
+              <cell rendition="#width100"> 著鈦盤枷 </cell>
+              <cell rendition="#width50"> 2 </cell>
+              <cell rendition="#width100"> 着鈦盤枷 </cell>
+            </row>
+            <row>
+              <cell rendition="#width100"> 321大膳上 </cell>
+              <cell rendition="#width50"> 5 </cell>
+              <cell rendition="#width100"> 新嘗祭 </cell>
+              <cell rendition="#width50"> 5･6 </cell>
+              <cell rendition="#width100"> 新嘗祭と新嘗小斎解斎に分割 </cell>
+            </row>
+            <row>
+              <cell rendition="#width100"> 411弾正 </cell>
+              <cell rendition="#width50"> 68 </cell>
+              <cell rendition="#width100"> 支子染深色 </cell>
+              <cell rendition="#width50"> 68 </cell>
+              <cell rendition="#width100"> 支子染色 </cell>
+            </row>
+            <row>
+              <cell rendition="#width100"> 422東西市 </cell>
+              <cell rendition="#width50"> 1 </cell>
+              <cell rendition="#width100"> 毎鄽立牓 </cell>
+              <cell rendition="#width50"> 1 </cell>
+              <cell rendition="#width100"> 毎厘立牓 </cell>
+            </row>
+            <row>
+              <cell rendition="#width100"> 422東西市 </cell>
+              <cell rendition="#width50"> 14 </cell>
+              <cell rendition="#width100"> 東鄽 </cell>
+              <cell rendition="#width50"> 14 </cell>
+              <cell rendition="#width100"> 東厘 </cell>
+            </row>
+            <row>
+              <cell rendition="#width100"> 422東西市 </cell>
+              <cell rendition="#width50"> 15 </cell>
+              <cell rendition="#width100"> 西鄽 </cell>
+              <cell rendition="#width50"> 15 </cell>
+              <cell rendition="#width100"> 西厘 </cell>
+            </row>
+          </table>
+        </p>
+        <p ana="個別">
+          <table>
+            <row>
+              <cell> ・ </cell>
+              <cell> 底本には土本を使用し、九本・近本・京博本・慶長本によって対校しました。ただし近本・京博本・慶長本の朱書・墨書による書き入れの情報については、校訂の参考になる場合のみ掲載しました。 </cell>
+            </row>
+            <row>
+              <cell> ・ </cell>
+              <cell> 集英社刊訳注本の校訂と異なる場合は、その旨明記しました。 </cell>
+            </row>
+            <row>
+              <cell> ・ </cell>
+              <cell> 各行の改行位置や開始位置などの様式は、古写本である九本に依拠することとし、土本および諸本間の異同については明示しないこととしました。 </cell>
+            </row>
+          </table>
+        </p>
+      </editorialDecl>
+      <variantEncoding location="external" method="location-referenced"/>
+      <tagsDecl>
+        <rendition xml:id="indent"> margin-top: 1em; </rendition>
+        <rendition xml:id="indent2"> margin-top: 2em; </rendition>
+        <rendition xml:id="indent3"> margin-top: 3em; </rendition>
+        <rendition xml:id="indent4"> margin-top: 4em; </rendition>
+        <rendition xml:id="indent5"> margin-top: 5em; </rendition>
+        <rendition xml:id="indent6"> margin-top: 6em; </rendition>
+        <rendition xml:id="indent7"> margin-top: 7em; </rendition>
+        <rendition xml:id="indent8"> margin-top: 8em; </rendition>
+        <rendition xml:id="indent10"> margin-top: 10em; </rendition>
+        <rendition xml:id="indent12"> margin-top: 12em; </rendition>
+        <rendition xml:id="indent13"> margin-top: 13em; </rendition>
+        <rendition xml:id="indent14"> margin-top: 14em; </rendition>
+        <rendition xml:id="indent18"> margin-top: 18em; </rendition>
+        <rendition xml:id="width50"> width: 50px; </rendition>
+        <rendition xml:id="width80"> width: 80px; </rendition>
+        <rendition xml:id="width100"> width: 100px; </rendition>
+        <rendition xml:id="width150"> width: 150px; </rendition>
+        <rendition xml:id="width170"> width: 170px; </rendition>
+        <rendition xml:id="width200"> width: 200px; </rendition>
+        <rendition xml:id="width300"> width: 300px; </rendition>
+      </tagsDecl>
+      <unitDecl>
+        <unitDef type=" Length" xml:id="丈">
+          <label xml:lang="ja"> 丈 </label>
+          <label xml:lang="ja-Lath"> jō </label>
+          <desc> 1 jō 丈 = 10 shaku 尺 = 100 sun 寸 = 1000 bu 分 </desc>
+          <desc> 1 jō 丈 = 297 cm </desc>
+        </unitDef>
+        <unitDef type=" Length" xml:id="尺">
+          <label xml:lang="ja"> 尺 </label>
+          <label xml:lang="ja-Lath"> shaku </label>
+          <conversion formula="$fromUnit*10" fromUnit="#尺" toUnit="#丈"/>
+          <desc> 1 shaku 尺 = 29.7 cm </desc>
+        </unitDef>
+        <unitDef type=" Length" xml:id="寸">
+          <label xml:lang="ja"> 寸 </label>
+          <label xml:lang="ja-Lath"> sun </label>
+          <conversion formula="$fromUnit*10" fromUnit="#寸" toUnit="#尺"/>
+          <desc> 11 sun 寸 = 2.97 cm </desc>
+        </unitDef>
+        <unitDef type=" Length" xml:id="分_Length">
+          <label xml:lang="ja"> 分 </label>
+          <label xml:lang="ja-Lath"> bu </label>
+          <conversion formula="$fromUnit*10" fromUnit="#分" toUnit="#寸"/>
+          <desc> 1 bu 分 = 0.297 cm </desc>
+        </unitDef>
+        <unitDef type="Volume" xml:id="斛">
+          <label xml:lang="ja"> 斛 </label>
+          <label xml:lang="ja-Lath"> koku </label>
+          <desc> 1 koku 斛 / 石 = 10 to 斗 = 100 shō 升 = 1000 gō 合 = 10,000 shaku 夕。1 koku 斛 = ca. 81 L </desc>
+        </unitDef>
+        <unitDef type="Volume" xml:id="石">
+          <label xml:lang="ja"> 石 </label>
+          <label xml:lang="ja-Lath"> koku </label>
+          <desc> 1 koku 斛 / 石 = 10 to 斗 = 100 shō 升 = 1000 gō 合 = 10,000 shaku 夕。1 koku 石 = ca. 81 L </desc>
+        </unitDef>
+        <unitDef type="Volume" xml:id="斗">
+          <label xml:lang="ja"> 斗 </label>
+          <label xml:lang="ja-Lath"> to </label>
+          <conversion formula="$fromUnit*10" fromUnit="#斗" toUnit="#斛"/>
+          <conversion formula="$fromUnit*10" fromUnit="#斗" toUnit="#石"/>
+          <desc> 1 to 斗 = ca. 8100 ml (8.1 L) </desc>
+        </unitDef>
+        <unitDef type="Volume" xml:id="升">
+          <label xml:lang="ja"> 升 </label>
+          <label xml:lang="ja-Lath"> shō </label>
+          <conversion formula="$fromUnit*10" fromUnit="#升" toUnit="#斗"/>
+          <desc> 1 shō 升 = ca. 810 ml </desc>
+        </unitDef>
+        <unitDef type="Volume" xml:id="合">
+          <label xml:lang="ja"> 合 </label>
+          <label xml:lang="ja-Lath"> gō </label>
+          <conversion formula="$fromUnit*10" fromUnit="#合" toUnit="#升"/>
+          <desc> 1 gō 合 = ca. 81 ml </desc>
+        </unitDef>
+        <unitDef type="Volume" xml:id="夕">
+          <label xml:lang="ja"> 夕 </label>
+          <label xml:lang="ja-Lath"> shaku </label>
+          <conversion formula="$fromUnit*10" fromUnit="#夕" toUnit="#合"/>
+          <desc> 1 shaku 夕 = ca. 8.1 ml </desc>
+        </unitDef>
+        <unitDef type="Weight" xml:id="斤">
+          <label xml:lang="ja"> 斤 </label>
+          <label xml:lang="ja-Lath"> kin </label>
+          <desc> 1 kin 斤 = 16 ryō 両 = 64 bu 分 = 384 shu 銖。1 kin 斤 = ca. 674 g </desc>
+        </unitDef>
+        <unitDef type="Weight" xml:id="両">
+          <label xml:lang="ja"> 両 </label>
+          <label xml:lang="ja-Lath"> ryō </label>
+          <conversion formula="$fromUnit*16" fromUnit="#両" toUnit="#斤"/>
+          <desc> 1 ryō 両 = 4 bu 分 = 24 shu 銖。1 ryō 両 = ca. 42 g </desc>
+        </unitDef>
+        <unitDef type="Weight" xml:id="分_Weight">
+          <label xml:lang="ja"> 分 </label>
+          <label xml:lang="ja-Lath"> bu </label>
+          <conversion formula="$fromUnit*4" fromUnit="#分_Weight" toUnit="#両"/>
+          <desc> 1 bu 分 = 6 shu 銖。1 bu 分 = ca. 10.5 g </desc>
+        </unitDef>
+        <unitDef type="Weight" xml:id="銖">
+          <label xml:lang="ja"> 銖 </label>
+          <label xml:lang="ja-Lath"> shu </label>
+          <conversion formula="$fromUnit*6" fromUnit="#銖" toUnit="#分_Weight"/>
+          <desc> 1 shu 銖 = ca. 1.8 g </desc>
+        </unitDef>
+        <unitDef type="Cloth_chōfu" xml:id="端_調布">
+          <label xml:lang="ja"> 端 </label>
+          <label xml:lang="ja-Lath"> tan </label>
+          <desc> 1 tan 端 / 段 of chōfu 調布 = (length) 4 jō 丈 2 shaku 尺 × (width) 2 shaku 尺 4 sun 寸 (ca 12.5 m × 72 cm) </desc>
+        </unitDef>
+        <unitDef type="Cloth_chōfu" xml:id="段_調布">
+          <label xml:lang="ja"> 段 </label>
+          <label xml:lang="ja-Lath"> tan </label>
+          <desc> 1 tan 端 / 段 of chōfu 調布 = (length) 4 jō 丈 2 shaku 尺 × (width) 2 shaku 尺 4 sun 寸 (ca 12.5 m × 72 cm) </desc>
+        </unitDef>
+        <unitDef type="Cloth_yōfu" xml:id="段_庸布">
+          <label xml:lang="ja"> 段 </label>
+          <label xml:lang="ja-Lath"> tan </label>
+          <desc> 1 tan 段 of yōfu 庸布 = (length) 2 jō 丈 8 shaku 尺 × (width) 2 shaku 尺 4 sun 寸 (ca. 8.3 m × 72 cm) </desc>
+        </unitDef>
+        <unitDef type="Cloth_shōfu" xml:id="段_商布">
+          <label xml:lang="ja"> 段 </label>
+          <label xml:lang="ja-Lath"> tan </label>
+          <desc> 1 tan 段 of shōfu 商布 = length 2 jō 丈 6 shaku 尺 (ca. 7.72 m) </desc>
+        </unitDef>
+        <unitDef type="Cloth_yōfu" xml:id="端_庸布">
+          <label xml:lang="ja"> 端 </label>
+          <label xml:lang="ja-Lath"> tan </label>
+        </unitDef>
+        <unitDef xml:id="合_set">
+          <label xml:lang="ja"> 合 </label>
+          <label xml:lang="ja-Lath"> gō </label>
+          <desc> 蓋のある土器の単位。 </desc>
+        </unitDef>
+        <unitDef xml:id="口">
+          <label xml:lang="ja"> 口 </label>
+          <label xml:lang="ja-Lath"> ku </label>
+          <desc> 土器の単位。 </desc>
+        </unitDef>
+        <unitDef xml:id="疋">
+          <label xml:lang="ja"> 疋 </label>
+          <label xml:lang="ja-Lath"> hiki </label>
+          <desc> 主に布製品の単位。 </desc>
+        </unitDef>
+        <unitDef xml:id="文">
+          <label xml:lang="ja"> 文 </label>
+          <label xml:lang="ja-Lath"> mon </label>
+          <desc> 銭の単位。銭1貫=1000文。 </desc>
+        </unitDef>
+        <unitDef type="Weight" xml:id="廷">
+          <label xml:lang="ja"> 廷 </label>
+          <label xml:lang="ja-Lath"> tei </label>
+          <desc> 鉄1廷=大3斤5両。 </desc>
+        </unitDef>
+        <unitDef xml:id="隻">
+          <label xml:lang="ja"> 隻 </label>
+          <label xml:lang="ja-Lath"> seki </label>
+          <desc> 魚などの物品の単位。 </desc>
+        </unitDef>
+        <unitDef xml:id="顆">
+          <label xml:lang="ja"> 顆 </label>
+          <label xml:lang="ja-Lath"> ka </label>
+          <desc> 物品を計上する際の単位。 </desc>
+        </unitDef>
+        <unitDef type="Weight" xml:id="屯">
+          <label xml:lang="ja"> 屯 </label>
+          <label xml:lang="ja-Lath"> ton </label>
+          <desc> 綿を計上する際の単位。調綿1屯 = 大4両、細屯綿1屯 = 大3両1分2銖 = 小10両、綿1屯 = 大5両2分 = 小1斤2分。 </desc>
+        </unitDef>
+        <unitDef xml:id="張">
+          <label xml:lang="ja"> 張 </label>
+          <label xml:lang="ja-Lath"> chō </label>
+          <desc> 物品を計上する際の単位。 </desc>
+        </unitDef>
+        <unitDef xml:id="帖">
+          <label xml:lang="ja"> 帖 </label>
+          <label xml:lang="ja-Lath"> jō </label>
+          <desc> 畳綿を計上する際の単位。 </desc>
+        </unitDef>
+        <unitDef xml:id="枚">
+          <label xml:lang="ja"> 枚 </label>
+          <label xml:lang="ja-Lath"> mai </label>
+          <desc> 物品を計上する際の単位。 </desc>
+        </unitDef>
+        <unitDef type="Weight" xml:id="絇">
+          <label xml:lang="ja"> 絇 </label>
+          <label xml:lang="ja-Lath"> ku </label>
+          <desc> 糸の単位。糸1絇=上糸大4両、中糸大5両、麁糸大7両。 </desc>
+        </unitDef>
+      </unitDecl>
+    </encodingDesc>
+    <revisionDesc ana="個別">
+      <listChange>
+        <change/>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div ana="主税下" n="27" type="巻" xml:id="volume27">
+        <pb facs="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-27%2F00002.tif/full/full/0/default.jpg"/>
+        <div type="首題" xml:id="shudai27">
+          <p xml:id="shudai2701"> 延喜式巻第廿七</p>
+        </div>
+        <div ana="主税下" corresp="engishiki_v27_en.xml#protocol271 engishiki_v27_ja.xml#protocol271" n="27" type="式"
+          xml:id="protocol271">
+          <div type="式題" xml:id="shikidai271">
+            <p xml:id="shikidai27101"><orgName corresp="#主税寮">主税</orgName>下 </p>
+          </div>
+          <div ana="主税下" corresp="engishiki_v27_en.xml#article271001 engishiki_v27_ja.xml#article271001" n="27.1" type="条"
+            xml:id="article271001">
+            <head ana="正税帳"/>
+            <p ana="項" corresp="engishiki_v27_en.xml#item27100101 engishiki_v27_ja.xml#item27100101" xml:id="item27100101">
+              某国司解申収納某年正税帳事 <lb/>管郡若干 <lb/>合某年定穀穎若干束 <lb/><s rendition="#indent2">穀若干石</s>
+              <lb/><s rendition="#indent3">不動若干石</s>
+              <lb/><s rendition="#indent3">動用若干石</s>
+              <lb/><s rendition="#indent2">粟穀若干石</s>
+              <pb facs="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-27%2F00003.tif/full/full/0/default.jpg"/>
+              <lb/><s rendition="#indent3">不動若干石</s>
+              <lb/><s rendition="#indent3">動用若干石</s>
+              <lb/><s rendition="#indent2"><anchor xml:id="app2710010101"/>穎<anchor xml:id="app2710010101e"/>稲若干束</s>
+              <lb/><s rendition="#indent3">不動倉底敷料若干束</s>
+              <lb/><s rendition="#indent3">定若干束</s>
+              <lb/><s rendition="#indent2">糒若干石</s>
+              <lb/><s rendition="#indent2">塩若干石</s>
+              <lb/><s rendition="#indent2"><anchor xml:id="app2710010102"/>酒<anchor xml:id="app2710010102e"
+                />若干石〈若有諸色者各為一項、〉</s>
+              <lb/><s rendition="#indent"><anchor xml:id="app2710010103"/>当<anchor xml:id="app2710010103e"/>年出挙幷借貸若干束</s>
+              <lb/><s rendition="#indent2">出挙若干束</s>
+              <lb/><s rendition="#indent3">正税若干束</s>
+              <lb/><s rendition="#indent4">利若干束</s>
+              <lb/><s rendition="#indent3">公廨若干束〈返納本倉、〉</s>
+              <lb/><s rendition="#indent3">修理国分寺料若干束〈返納本倉、若有諸色各為一項、〉</s>
+              <lb/><s rendition="#indent2">借貸若干束〈返納本倉、〉</s>
+              <lb/><s rendition="#indent3">新任国司四分之一料若干束</s>
+              <lb/><s rendition="#indent4">某官位姓名若干束</s>
+              <lb/><s rendition="#indent3">書生料若干束</s>
+              <pb facs="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-27%2F00004.tif/full/full/0/default.jpg"/>
+              <lb/><s rendition="#indent">塡納勘出若干束</s>
+              <lb/><s rendition="#indent2">依<orgName corresp="#太政官">太政官</orgName><anchor xml:id="app2710010104"/>其<anchor
+                  xml:id="app2710010104e"/>年月日符塡納若干束</s>
+              <lb/><s rendition="#indent2">依<orgName corresp="#民部省">民部省</orgName>某年月日符塡納若干束</s>
+              <lb/><s rendition="#indent">駅家若干処〈大路若干、中路若干、小路若干、〉</s>
+              <lb/><s rendition="#indent3">馬若干疋</s>
+              <lb/><s rendition="#indent4">若干処若干疋〈上馬若干疋、中馬若干疋、下馬若干疋、〉</s>
+              <lb/><s rendition="#indent3">不用馬若干疋</s>
+              <lb/><s rendition="#indent4">価若干束〈疋別若干束、〉</s>
+              <lb/><s rendition="#indent3">死馬皮若干張〈張別若干尺、〉</s>
+              <lb/><s rendition="#indent4">価若干束〈張別若干束、〉</s>
+              <lb/><s rendition="#indent2"><anchor xml:id="app2710010105"/>伝<anchor xml:id="app2710010105e"/>若干処</s>
+              <lb/><s rendition="#indent3">馬若干疋</s>
+              <lb/><s rendition="#indent4">若干処若干疋〈上馬若干疋、中馬若干疋、<anchor xml:id="app2710010106"/>下馬若干疋<anchor
+                  xml:id="app2710010106e"/>、〉</s>
+              <lb/><s rendition="#indent3">不用馬若干疋</s>
+              <lb/><s rendition="#indent4">価若干束〈疋別若干束、〉</s>
+              <lb/><s rendition="#indent3">死馬皮若干張〈張別若干尺、〉</s>
+              <lb/><s rendition="#indent4">価若干束〈張別若干束、〉</s>
+              <lb/><s rendition="#indent2">牧馬牛皮若干<anchor xml:id="app2710010107"/>張<anchor xml:id="app2710010107e"/></s>
+              <pb facs="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-27%2F00005.tif/full/full/0/default.jpg"/>
+              <lb/><s rendition="#indent3">馬皮若干張〈張別若干尺、〉</s>
+              <lb/><s rendition="#indent4">価若干束〈張別若干束、〉</s>
+              <lb/><s rendition="#indent3">牛皮若干張〈張別若干<anchor xml:id="app2710010108"/>尺<anchor xml:id="app2710010108e"/>、〉</s>
+              <lb/><s rendition="#indent4">価若干束〈張別若干束、〉</s>
+              <lb/><s rendition="#indent">当年田租穀穎若干束</s>
+              <lb/><s rendition="#indent2">雑散若干束</s>
+              <lb/><s rendition="#indent3">神封戸若干束</s>
+              <lb/><s rendition="#indent4">某神封戸若干束</s>
+              <lb/><s rendition="#indent3">寺家封戸若干束</s>
+              <lb/><s rendition="#indent4">某寺封戸若干束</s>
+              <lb/><s rendition="#indent3">諸家封戸若干束</s>
+              <lb/><s rendition="#indent4">某位姓名封戸若干束</s>
+              <lb/><s rendition="#indent3">納官若干石</s>
+              <lb/>都合定穀穎若干束 <lb/><s rendition="#indent2">穀若干石</s>
+              <lb/><s rendition="#indent3">不動若干石</s>
+              <lb/><s rendition="#indent3">動用若<anchor xml:id="app2710010109"/>干<anchor xml:id="app2710010109e"/>石</s>
+              <lb/><s rendition="#indent2">穎若干束</s>
+              <pb facs="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-27%2F00006.tif/full/full/0/default.jpg"/>
+              <lb/><s rendition="#indent3">不動穀倉底敷若干束</s>
+              <lb/><s rendition="#indent3">定若干束</s>
+              <lb/><s rendition="#indent2">糒若干石</s>
+              <lb/><s rendition="#indent2">塩若干石</s>
+              <lb/><s rendition="#indent2">酒若干石</s>
+              <lb/><s rendition="#indent">雑用穀穎若干束</s>
+              <lb/><s rendition="#indent3">穀若干<anchor xml:id="app2710010110"/>石<anchor xml:id="app2710010110e"/></s>
+              <lb/><s rendition="#indent3">穎若干<anchor xml:id="app2710010111"/>束<anchor xml:id="app2710010111e"/></s>
+              <lb/><s rendition="#indent3">酒若干石</s>
+              <lb/><s rendition="#indent2">例用穎若干束</s>
+              <lb/><s rendition="#indent3">供奉名神幣帛料若干束</s>
+              <lb/><s rendition="#indent4">神社若干処〈大社若干処、小社若干処、〉</s>
+              <lb/><s rendition="#indent5">糸若干絇〈大社若干両、小社若干両、〉　価稲若干束〈絇別若干束、〉</s>
+              <lb/><s rendition="#indent5">綿若干屯〈大社若干両、小社若干両、〉　価稲若干束〈屯別若干束、〉</s>
+              <lb/><s rendition="#indent3">始正月八日迄十四日一七日転読最勝王経三宝幷僧尼布施料若干束〈吉祥悔過幷安<anchor xml:id="app2710010112"/>居<anchor
+                  xml:id="app2710010112e"/>転読金剛般若経若講師年中供養等准此、各為一項、〉</s>
+              <lb/><s rendition="#indent4">三宝布施糸若干絇価若干束</s>
+              <lb/><s rendition="#indent4">僧<pb
+                  facs="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-27%2F00007.tif/full/full/0/default.jpg"
+                />若干口尼若干口布施</s>
+              <lb/><s rendition="#indent5">絹若干疋〈口別若干疋、〉価若干束〈疋別若干<anchor xml:id="app2710010113"/>束<anchor
+                  xml:id="app2710010113e"/>、〉</s>
+              <lb/><s rendition="#indent5">綿若干屯〈口別若干屯、〉価若干束〈屯別若干束、〉</s>
+              <lb/><s rendition="#indent4">沙弥若干口布施</s>
+              <lb/><s rendition="#indent5">調布若干端〈口別若干端、〉価若干束〈端別若干束、〉</s>
+              <lb/><s rendition="#indent3"><anchor xml:id="app2710010114"/>釈<anchor xml:id="app2710010114e"/>奠料若干束</s>
+              <lb/><s rendition="#indent4">先聖先師春秋四座料若干束</s>
+              <lb/><s rendition="#indent5">飯料米若干斗〈座別若干升、〉</s>
+              <lb/><s rendition="#indent6">料若干束〈諸色准此、各為一項、〉</s>
+              <lb/><s rendition="#indent4">司已下学生已上若干人料若干束</s>
+              <lb/><s rendition="#indent5">食料米若干斗〈人別若干升、〉</s>
+              <lb/><s rendition="#indent6">料若干束〈諸色准此、各為一項、〉</s>
+              <lb/><s rendition="#indent3">元日朝拝国司已下郡司已上若干人</s>
+              <lb/><s rendition="#indent5">食料若干束〈人別若干把、諸色准此、各為一項、〉</s>
+              <lb/><s rendition="#indent3">修理器仗料若干束</s>
+              <lb/><s rendition="#indent4">甲若干具　料若干束</s>
+              <lb/><s rendition="#indent5">牛皮若干張〈具別若干張、〉</s>
+              <lb/><s rendition="#indent6">価若干束〈張別若干束、諸色准此、各為一項、〉</s>
+              <pb facs="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-27%2F00008.tif/full/full/0/default.jpg"/>
+              <lb/><s rendition="#indent4">横刀若干口　料若干束</s>
+              <lb/><s rendition="#indent5">鞘料鹿皮若干張〈張別若干尺、〉</s>
+              <lb/><s rendition="#indent6">価若干束〈張別若干束、諸色准此、各為一項、〉</s>
+              <lb/><s rendition="#indent3">年料進上御履牛皮料若干束</s>
+              <lb/><s rendition="#indent4">牛皮若干張〈長若干尺、広若干尺、〉</s>
+              <lb/><s rendition="#indent5">価若干束〈張別若干束、諸色准此、各為一項、〉</s>
+              <lb/><s rendition="#indent4">担夫若干人程粮料若干束〈向京若干日、日別若干把、還郷若干日、日別若干把、〉</s>
+              <lb/><s rendition="#indent3">年料交易雑物価料若干束</s>
+              <lb/><s rendition="#indent4">東絁若干疋〈<anchor xml:id="app2710010115"/>諸色准此、各為一項<anchor xml:id="app2710010115e"
+                />、〉</s>
+              <lb/><s rendition="#indent5">価若干束〈疋別若干束、〉</s>
+              <lb/><s rendition="#indent4">運駄若干疋〈疋別<anchor xml:id="app2710010116"/>負<anchor xml:id="app2710010116e"
+                />某色若干疋、〉</s>
+              <lb/><s rendition="#indent5">功若干束〈疋別若干束、〉</s>
+              <lb/><s rendition="#indent4">裹料雑物価若干束</s>
+              <lb/><s rendition="#indent5">某物若干枚価若干束〈枚別若干束、諸色准此、各為一項、〉</s>
+              <lb/><s rendition="#indent3">年料進上雑米料若干束</s>
+              <lb/><s rendition="#indent4">勅旨米若干石料若干束〈諸色准此、各為一項、〉</s>
+              <pb facs="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-27%2F00009.tif/full/full/0/default.jpg"/>
+              <lb/><s rendition="#indent4">運賃料若干束</s>
+              <lb/><s rendition="#indent5">海路行程若干箇日〈向京若干日、還郷若干日、〉</s>
+              <lb/><s rendition="#indent5">海船若干艘〈勝載若干石、〉従某津迄某津賃若干束〈石別若干束、〉</s>
+              <lb/><s rendition="#indent5"><anchor xml:id="app2710010117"/>川<anchor xml:id="app2710010117e"
+                />船若干艘従某津迄某津賃米若干石〈石別若干升、〉料若干束</s>
+              <lb/><s rendition="#indent5">雇車若干両従<anchor xml:id="app2710010118"/>某<anchor xml:id="app2710010118e"
+                />津迄某処賃米若干石〈両別若干升、〉料若干束</s>
+              <lb/><s rendition="#indent5">水脚若干人〈挟杪若干人、水手若干人、人別<anchor xml:id="app2710010119"/>漕<anchor
+                  xml:id="app2710010119e"/>若干石、〉</s>
+              <lb/><s rendition="#indent6">功若干束〈挟杪各若干束、水手各若干束、〉</s>
+              <lb/><s rendition="#indent6">程粮若干束〈向京日別若干把、還郷日別若干把、〉</s>
+              <lb/><s rendition="#indent5">綱丁若干人</s>
+              <lb/><s rendition="#indent6">程粮若干束〈日別若干把、〉</s>
+              <lb/><s rendition="#indent5">帆料薦若干枚価若干<anchor xml:id="app2710010120"/>束<anchor xml:id="app2710010120e"
+                />〈枚別若干束、〉</s>
+              <lb/><s rendition="#indent5">苫若干枚　価若干<anchor xml:id="app2710010121"/>束〈枚別若干束、〉<anchor xml:id="app2710010121e"
+                /></s>
+              <lb/><s rendition="#indent3">貢上御馬若干疋</s>
+              <lb/><s rendition="#indent4">飼秣若干束〈疋別若干束、諸色准此、各為一項、〉</s>
+              <lb/><s rendition="#indent3"><anchor xml:id="app2710010122"/>駅<anchor xml:id="app2710010122e"/>馬若干疋</s>
+              <pb facs="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-27%2F00010.tif/full/full/0/default.jpg"/>
+              <lb/><s rendition="#indent4">飼秣若干束〈疋別若干束、〉</s>
+              <lb/><s rendition="#indent3">買立駅馬若干疋価若干束</s>
+              <lb/><s rendition="#indent4">上馬若干疋〈疋別若干束、中・下馬准此、各為一項、〉</s>
+              <lb/><s rendition="#indent3">買立伝馬若干疋価若干束</s>
+              <lb/><s rendition="#indent4">上馬若干疋〈疋別若干束、〉</s>
+              <lb/><s rendition="#indent3"><anchor xml:id="app2710010123"/>織<anchor xml:id="app2710010123e"/>諸羅・綾料若干束</s>
+              <lb/><s rendition="#indent4">羅機若干具</s>
+              <lb/><s rendition="#indent5">綜料糸若干絇価若干束〈絇別若干束、諸色准此、各為一項、〉</s>
+              <lb/><s rendition="#indent4">羅若干疋〈疋別織若干日、〉織単若干人</s>
+              <lb/><s rendition="#indent5">粮料若干束〈人別若干束、諸色准此、各<anchor xml:id="app2710010124"/>為<anchor xml:id="app2710010124e"
+                />一項、〉</s>
+              <lb/><s rendition="#indent4">替綜若干具〈経若干年替、〉料若干束</s>
+              <lb/><s rendition="#indent5">某羅・綾<anchor xml:id="app2710010125"/>綜<anchor xml:id="app2710010125e"/>若干具料糸若干絇</s>
+              <lb/><s rendition="#indent6">価若干束〈絇別若干束、〉</s>
+              <lb/><s rendition="#indent5">作単若干日粮料若干束〈日若干把、〉</s>
+              <lb/><s rendition="#indent6">纏紡単若干日</s>
+              <lb/><s rendition="#indent6">作綜単若干日</s>
+              <lb/><s rendition="#indent3">駅使幷将従単若干人〈主典已上若干人、史生若干人、<anchor xml:id="app2710010126"/>従<anchor
+                  xml:id="app2710010126e"/>若干人、〉</s>
+              <pb facs="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-27%2F00011.tif/full/full/0/default.jpg"/>
+              <lb/><s rendition="#indent4">食料若干束</s>
+              <lb/><s rendition="#indent5">飯料若干束〈史生已上日若干把、従日若干把、〉</s>
+              <lb/><s rendition="#indent4">塩若干斗〈史生已上日若干夕、従日若干夕、〉</s>
+              <lb/><s rendition="#indent4">酒若干石〈主典已上日若干升、史生日若干合、〉</s>
+              <lb/><s rendition="#indent3"><anchor xml:id="app2710010127"/>三<anchor xml:id="app2710010127e"
+                  />度使単若干人〈目已上若<anchor xml:id="app2710010128"/>干<anchor xml:id="app2710010128e"/>人、史生若干人、従若干人、雑掌若干人、〉</s>
+              <lb/><s rendition="#indent4"><anchor xml:id="app2710010129"/>朝集使<anchor xml:id="app2710010129e"
+                />単若干人〈目已上若干人、史生若干人、従若干人、雑掌若干人、余使准此、各為一項、〉</s>
+              <lb/><s rendition="#indent4"><anchor xml:id="app2710010130"/>其<anchor xml:id="app2710010130e"
+                />国使官位姓名賷若干刻駅鈴若干口</s>
+              <lb/><s rendition="#indent5">上下単若干人〈目已上若干人、史生若干人、従若干人、雑掌若干人、〉</s>
+              <lb/><s rendition="#indent3">臨時使単若干人〈主典已上若干人、史生若干人、従若干人、〉</s>
+              <lb/><s rendition="#indent4">当国某使官位姓名賷若干刻駅鈴若干口</s>
+              <lb/><s rendition="#indent5">経若干日単若干人〈主典已上若干人、史生若干人、従若干人、〉</s>
+              <lb/><s rendition="#indent4">検某国某事使官位姓名賷若干刻駅鈴若干口</s>
+              <lb/><s rendition="#indent5">上下単若干人〈主典已上若干人、史生若干人、従若干人、〉</s>
+              <lb/><s rendition="#indent3">伝使幷将従単若<anchor xml:id="app2710010131"/>干<anchor xml:id="app2710010131e"
+                  />人〈主典已上若干人、史生若干人、従<pb
+                  facs="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-27%2F00012.tif/full/full/0/default.jpg"
+                />若干人、〉</s>
+              <lb/><s rendition="#indent4">食料若干束</s>
+              <lb/><s rendition="#indent5">飯料若干束〈史生已上日若干把、従日若干把、〉</s>
+              <lb/><s rendition="#indent4">塩若干斗〈史生已上日若干夕、従日若干夕、〉</s>
+              <lb/><s rendition="#indent4">酒若干<anchor xml:id="app2710010132"/>斗<anchor xml:id="app2710010132e"
+                />〈主典已上日若干升、史生日若干合、〉</s>
+              <lb/><s rendition="#indent3">新任国司単若干人〈目已上若干人、史生若干人、従若干人、〉</s>
+              <lb/><s rendition="#indent4">某国官位姓名賷若干刻伝符若干枚</s>
+              <lb/><s rendition="#indent5">下単若干人〈目已上若干人、史生若干人、従若干人、〉</s>
+              <lb/><s rendition="#indent4">新任講師単若干口〈講師若干口、沙弥若干口、童子若干口、〉</s>
+              <lb/><s rendition="#indent4"><anchor xml:id="app2710010133"/>其<anchor xml:id="app2710010133e"/>国講師位名</s>
+              <lb/><s rendition="#indent5">下単若干口〈講師若干口、沙弥若干口、童子若干口、〉</s>
+              <lb/><s rendition="#indent3">貢上御贄使単若干人〈使若干人、従若干人、〉</s>
+              <lb/><s rendition="#indent4">某国某物使姓名上下単若干人〈使若干人、従若干人、〉</s>
+              <lb/><s rendition="#indent3">貢上御馬使官位姓名上下単若干人〈使若干人、従若干人、〉</s>
+              <lb/><s rendition="#indent3">巡行国司単若干人〈目已上若干人、史生若干人、従<anchor xml:id="app2710010134"/>若<anchor
+                  xml:id="app2710010134e"/>干人、〉</s>
+              <lb/><s rendition="#indent4">食料若干束</s>
+              <pb facs="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-27%2F00013.tif/full/full/0/default.jpg"/>
+              <lb/><s rendition="#indent5">飯料若干束〈目已上日若干升、史生日若干合、〉</s>
+              <lb/><s rendition="#indent4">塩若干斗〈目已上日若干升、史生日若干合、〉</s>
+              <lb/><s rendition="#indent4">酒若干<anchor xml:id="app2710010135"/>斗<anchor xml:id="app2710010135e"
+                />〈目已上日若干升、史生日若干合、〉</s>
+              <lb/><s rendition="#indent3">春夏出挙使単若干人〈目已上若干人、史生<anchor xml:id="app2710010136"/>若<anchor
+                  xml:id="app2710010136e"/>干人、従若干人、諸色准此、各為一項、〉</s>
+              <lb/><s rendition="#indent4">一度〈守若干人、介若干人、掾若干人、目若干人、史生<anchor xml:id="app2710010137"/>若<anchor
+                  xml:id="app2710010137e"/>干人、従若干人、〉</s>
+              <lb/><s rendition="#indent4">単若干人〈目已上若干人、史生若干人、従若干人、〉</s>
+              <lb/><s rendition="#indent3">卒去国司賻物料価若干束</s>
+              <lb/><s rendition="#indent4">官位姓名〈某月日卒死、〉料若干束</s>
+              <lb/><s rendition="#indent5">絹若干疋価若干束〈疋別若干束、諸色准此、各為一項、〉</s>
+              <lb/><s rendition="#indent3">醸酒料若干束</s>
+              <lb/><s rendition="#indent4">得酒若干石</s>
+              <lb/><s rendition="#indent2">臨時<anchor xml:id="app2710010138"/>用<anchor xml:id="app2710010138e"/>若干束</s>
+              <lb/><s rendition="#indent3">依<orgName corresp="#太政官">太政官</orgName>符用若干束</s>
+              <lb/><s rendition="#indent4">依某年月日符給某官位姓名禄料若干束</s>
+              <lb/><s rendition="#indent5">絹若干疋価若干束〈疋別若干束、〉</s>
+              <pb facs="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-27%2F00014.tif/full/full/0/default.jpg"/>
+              <lb/><s rendition="#indent5">綿若干屯価若干束〈屯別若干束、〉</s>
+              <lb/><s rendition="#indent5">調布若干端価若干束〈端別若干束、〉</s>
+              <lb/><s rendition="#indent5">鍬若干口価若干束〈口別若干束、〉</s>
+              <lb/><s rendition="#indent4">依某年月日符交易進<anchor xml:id="app2710010139"/>上<anchor xml:id="app2710010139e"
+                />絹若干疋</s>
+              <lb/><s rendition="#indent5">価若干束〈疋別若干束、〉</s>
+              <lb/><s rendition="#indent5">担夫若干人功粮若干束</s>
+              <lb/><s rendition="#indent6">功若干束〈人別若干束、〉</s>
+              <lb/><s rendition="#indent6">粮料若干束〈向京若干日、日別若干把、還郷若干日、日別若干把、〉</s>
+              <lb/><s rendition="#indent">某年残定穀穎若干束</s>
+              <lb/><s rendition="#indent2">穀若干石</s>
+              <lb/><s rendition="#indent3">不動若干石</s>
+              <lb/><s rendition="#indent3">動用若干石</s>
+              <lb/><s rendition="#indent2">粟穀若干石</s>
+              <lb/><s rendition="#indent3">不動若干石</s>
+              <lb/><s rendition="#indent3">動用若干石</s>
+              <lb/><s rendition="#indent2">穎若干束</s>
+              <lb/><s rendition="#indent3">不動倉底敷若干束</s>
+              <lb/><s rendition="#indent3">定若干束</s>
+              <pb facs="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-27%2F00015.tif/full/full/0/default.jpg"/>
+              <lb/><s rendition="#indent2">糒若干石</s>
+              <lb/><s rendition="#indent2">塩若干石〈<anchor xml:id="app2710010140"/>諸色准此、各為一項<anchor xml:id="app2710010140e"
+                />、〉</s>
+              <lb/><s rendition="#indent2">酒若干石</s>
+              <lb/><s rendition="#indent2">甕若干口</s>
+              <lb/><s rendition="#indent">正倉若干宇</s>
+              <lb/><s rendition="#indent2">倉若干宇</s>
+              <lb/><s rendition="#indent3">法倉若干宇〈甲倉若干、板倉若干、〉</s>
+              <lb/><s rendition="#indent3">凡倉若干宇</s>
+              <lb/><s rendition="#indent3">土倉若干宇</s>
+              <lb/><s rendition="#indent2">屋若干宇</s>
+              <lb/><s rendition="#indent2">借倉若干宇</s>
+              <lb/><s rendition="#indent2">借屋若干宇</s>
+              <lb/>都合若干宇 <lb/><s rendition="#indent3">不動若干宇〈穀倉若干、粟倉若干、<anchor xml:id="app2710010141"/>糒<anchor
+                  xml:id="app2710010141e"/>倉若干、穀屋若干、〉</s>
+              <lb/><s rendition="#indent3">動用若干宇〈穀倉若干、粟倉若干、<anchor xml:id="app2710010142"/>糒<anchor xml:id="app2710010142e"
+                />倉若干、穎倉若干、穎屋若干、〉</s>
+              <lb/><s rendition="#indent3">空若干宇〈倉若<anchor xml:id="app2710010143"/>干<anchor xml:id="app2710010143e"
+                />、屋若干、〉</s>
+              <lb/><s rendition="#indent">不動倉鑰若干勾〈鑰若干勾、匙若干隻、〉</s>
+              <pb facs="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-27%2F00016.tif/full/full/0/default.jpg"/>
+              <lb/><s rendition="#indent">動用鑰若干勾</s>
+              <lb/><s rendition="#indent">倉印若干面〈已上郡<anchor xml:id="app2710010144"/>亦<anchor xml:id="app2710010144e"/>准此、〉</s>
+              <lb/>某郡 <lb/><s rendition="#indent">第一板倉基〈長若干丈尺、広若干丈尺、高若干丈尺、〉　末〈長若干丈尺、広若干丈尺、〉</s>
+              <lb/><s rendition="#indent2">塞基〈長若干丈尺、広若干丈尺、高若干丈尺、〉　末〈長若干丈尺、広若干丈尺、〉</s>
+              <lb/><s rendition="#indent3">収納正税若干束</s>
+              <lb/><s rendition="#indent3">収納穀若干石〈積高若干丈尺、某年月日官位姓名所委、諸色准此、各為一項、〉</s>
+              <lb/>以前某年正税穀穎幷雑用等勘録附官位姓名申上如件、謹解、 </p>
+            <app from="#app2710010101" to="#app2710010101e">
+              <lem wit="#土本 #九本 #近本 #京博本 #慶長本">穎</lem>
+              <note place="頭">九本頭書「穎以上可書三堺、而以二堺為定、若大書誤歟」</note>
+            </app>
+            <app from="#app2710010102" to="#app2710010102e">
+              <lem wit="#土本 #九本 #近本 #京博本 #慶長本">酒</lem>
+              <note>九本貼紙「出挙帳」</note>
+            </app>
+            <app from="#app2710010103" to="#app2710010103e">
+              <lem wit="#土本 #近本 #京博本 #慶長本">当</lem>
+              <note>当　九本欠損。</note>
+            </app>
+            <app from="#app2710010104" to="#app2710010104e">
+              <lem wit="#土本 #近本 #京博本 #慶長本">其</lem>
+              <rdg wit="#九本">某</rdg>
+              <note>其　訳註本は九本により「某」に改める。</note>
+            </app>
+            <app from="#app2710010105" to="#app2710010105e">
+              <lem wit="#土本 #九本 #近本 #京博本 #慶長本">伝</lem>
+              <note>九本貼紙「兵部移」</note>
+            </app>
+            <app from="#app2710010106" to="#app2710010106e">
+              <lem wit="#九本 #京博本 #慶長本">下馬若干疋</lem>
+              <rdg wit="#土本 #近本"/>
+              <note>下馬若干疋　土本・近本無し。九本・京博本・慶長本により補う。</note>
+            </app>
+            <app from="#app2710010107" to="#app2710010107e">
+              <lem wit="#土本 #近本 #京博本 #慶長本">張</lem>
+              <rdg wit="#九本">張〈張別若干束〉</rdg>
+            </app>
+            <app from="#app2710010108" to="#app2710010108e">
+              <lem wit="#九本">尺</lem>
+              <rdg wit="#土本 #近本 #京博本 #慶長本">束</rdg>
+              <note>尺　土本等「束」。九本により改める。</note>
+            </app>
+            <app from="#app2710010109" to="#app2710010109e">
+              <lem wit="#九本 #近本挿入書 #京博本 #慶長本">干</lem>
+              <rdg wit="#土本"/>
+              <note place="傍">土本傍書「干歟」</note>
+              <note>近本挿入書「干」</note>
+              <note>干　土本脱し「干歟」と傍書。九本等により補う。</note>
+            </app>
+            <app from="#app2710010110" to="#app2710010110e">
+              <lem wit="#九本">石</lem>
+              <rdg wit="#土本 #近本 #京博本 #慶長本">束</rdg>
+              <note>石　土本等「束」。九本により改める。</note>
+            </app>
+            <app from="#app2710010111" to="#app2710010111e">
+              <lem wit="#土本 #九本 #近本 #京博本 #慶長本">束</lem>
+              <note>束　訳註本は次行に「塩若干石」を意補する。</note>
+            </app>
+            <app from="#app2710010112" to="#app2710010112e">
+              <lem wit="#土本 #近本 #京博本 #慶長本">居</lem>
+              <rdg wit="#九本">居及</rdg>
+            </app>
+            <app from="#app2710010113" to="#app2710010113e">
+              <lem wit="#九本">束</lem>
+              <rdg wit="#土本 #近本 #京博本 #慶長本">疋</rdg>
+              <note>束　土本等「疋」。九本により改める。</note>
+            </app>
+            <app from="#app2710010114" to="#app2710010114e">
+              <lem wit="#土本 #九本 #近本 #京博本 #慶長本">釈</lem>
+              <note>九本貼紙「寮式」</note>
+            </app>
+            <app from="#app2710010115" to="#app2710010115e">
+              <lem wit="#土本 #九本 #近本 #京博本 #慶長本">諸色准此、各為一項</lem>
+              <note>諸色准此、各為一項　訳注本は上文の例に倣い次行末尾に移す。</note>
+            </app>
+            <app from="#app2710010116" to="#app2710010116e">
+              <lem wit="#土本 #近本 #京博本 #慶長本">負</lem>
+              <rdg wit="#九本">員</rdg>
+              <rdg wit="#近本挿入書">若干負</rdg>
+              <note>近本挿入書「若干」</note>
+            </app>
+            <app from="#app2710010117" to="#app2710010117e">
+              <lem wit="#土本 #九本 #京博本 #慶長本">川</lem>
+              <rdg wit="#近本">巡</rdg>
+            </app>
+            <app from="#app2710010118" to="#app2710010118e">
+              <lem wit="#土本 #九本 #京博本 #慶長本">某</lem>
+              <rdg wit="#近本">其</rdg>
+            </app>
+            <app from="#app2710010119" to="#app2710010119e">
+              <lem wit="#九本">漕</lem>
+              <rdg wit="#土本 #近本 #京博本 #慶長本">渭</rdg>
+              <note>漕　土本等「渭」。九本により改める。</note>
+            </app>
+            <app from="#app2710010120" to="#app2710010120e">
+              <lem wit="#九本 #慶長本挿入書">束</lem>
+              <rdg wit="#土本 #近本 #京博本"/>
+              <note>慶長本挿入書「束」</note>
+              <note>束　土本等無し。九本、慶長本挿入書により補う。</note>
+            </app>
+            <app from="#app2710010121" to="#app2710010121e">
+              <lem wit="#土本 #九本 #京博本 #慶長本">束〈枚別若干束、〉</lem>
+              <rdg wit="#近本">疋</rdg>
+              <rdg wit="#近本訂正書">束</rdg>
+              <note>近本訂正書「束」</note>
+            </app>
+            <app from="#app2710010122" to="#app2710010122e">
+              <lem wit="#土本 #九本 #近本 #京博本 #慶長本">駅</lem>
+              <note place="頭">九本頭書「宗家本無此二行」</note>
+            </app>
+            <app from="#app2710010123" to="#app2710010123e">
+              <lem wit="#土本 #九本 #近本 #京博本 #慶長本">織</lem>
+              <note>九本貼紙「寮式」</note>
+            </app>
+            <app from="#app2710010124" to="#app2710010124e">
+              <lem wit="#九本 #近本挿入書">為</lem>
+              <rdg wit="#土本 #京博本 #慶長本"/>
+              <note>近本挿入書「為」</note>
+              <note>為　土本等無し。九本、近本挿入書により補う。</note>
+            </app>
+            <app from="#app2710010125" to="#app2710010125e">
+              <lem wit="#九本 #京博本 #慶長本">綜</lem>
+              <rdg wit="#土本 #近本"/>
+              <note>綜　土本・近本無し。九本・京博本・慶長本により補う。</note>
+            </app>
+            <app from="#app2710010126" to="#app2710010126e">
+              <lem wit="#土本 #近本 #京博本 #慶長本">従</lem>
+              <rdg wit="#九本挿入書">従各</rdg>
+              <note>九本挿入書「各」</note>
+            </app>
+            <app from="#app2710010127" to="#app2710010127e">
+              <lem wit="#土本 #九本 #近本 #京博本 #慶長本">三</lem>
+              <note>九本貼紙「給式」</note>
+            </app>
+            <app from="#app2710010128" to="#app2710010128e">
+              <lem wit="#土本 #近本 #京博本 #慶長本">干</lem>
+              <rdg wit="#九本"/>
+            </app>
+            <app from="#app2710010129" to="#app2710010129e">
+              <lem wit="#土本 #九本 #近本 #京博本 #慶長本">朝集使</lem>
+              <note place="頭">九本頭書「案朝集使、朝集使者是当国使、其国使者亦比国使、然則可同堺、而一堺所下誤歟」</note>
+            </app>
+            <app from="#app2710010130" to="#app2710010130e">
+              <lem wit="#土本 #近本 #京博本">其</lem>
+              <rdg wit="#九本 #慶長本">某</rdg>
+              <note>其　訳註本は九本等により「某」に改める。</note>
+            </app>
+            <app from="#app2710010131" to="#app2710010131e">
+              <lem wit="#九本 #近本 #京博本 #慶長本">干</lem>
+              <rdg wit="#土本"/>
+              <note>干　土本無し。九本等により補う。</note>
+            </app>
+            <app from="#app2710010132" to="#app2710010132e">
+              <lem wit="#土本 #九本 #近本 #京博本 #慶長本">斗</lem>
+              <note>斗　訳註本は上文の例により「石」に改める。</note>
+            </app>
+            <app from="#app2710010133" to="#app2710010133e">
+              <lem wit="#土本 #近本 #京博本 #慶長本">其</lem>
+              <rdg wit="#九本">某</rdg>
+              <note>其　訳註本は九本により「某」に改める。</note>
+            </app>
+            <app from="#app2710010134" to="#app2710010134e">
+              <lem wit="#土本挿入書 #九本 #近本挿入書">若</lem>
+              <rdg wit="#京博本 #慶長本"/>
+              <note>土本挿入書「若」</note>
+              <note>近本挿入書「若」</note>
+            </app>
+            <app from="#app2710010135" to="#app2710010135e">
+              <lem wit="#土本 #九本 #近本 #京博本 #慶長本">斗</lem>
+              <note>斗　訳註本は上文の例により「石」に改める。</note>
+            </app>
+            <app from="#app2710010136" to="#app2710010136e">
+              <lem wit="#九本 #近本 #京博本 #慶長本">若</lem>
+              <rdg wit="#土本"/>
+              <note place="傍">土本傍書「若歟」</note>
+              <note>若　土本無し。九本等により補う。</note>
+            </app>
+            <app from="#app2710010137" to="#app2710010137e">
+              <lem wit="#九本 #京博本 #慶長本">若</lem>
+              <rdg wit="#土本 #近本"/>
+              <note place="傍">土本傍書「若歟」</note>
+              <note>若　土本・近本無し。九本・京博本・慶長本により補う。</note>
+            </app>
+            <app from="#app2710010138" to="#app2710010138e">
+              <lem wit="#土本 #九本 #近本 #京博本 #慶長本">用</lem>
+              <note>用　訳註本は本条前文により下に「穎」を補う。</note>
+            </app>
+            <app from="#app2710010139" to="#app2710010139e">
+              <lem wit="#土本 #九本 #近本 #京博本 #慶長本">上</lem>
+              <note>上　訳註本は例により下に「絹料若干疋」を補う。</note>
+            </app>
+            <app from="#app2710010140" to="#app2710010140e">
+              <lem wit="#土本 #九本 #近本 #京博本 #慶長本">諸色准此、各為一項</lem>
+              <note>諸色准此、各為一項　訳註本は上文に倣い次行末尾に移す。</note>
+            </app>
+            <app from="#app2710010141" to="#app2710010141e">
+              <lem wit="#土本 #近本 #京博本 #慶長本">糒</lem>
+              <rdg wit="#九本">粮</rdg>
+              <note place="脚">九本脚書「宗家本作糒」</note>
+            </app>
+            <app from="#app2710010142" to="#app2710010142e">
+              <lem wit="#土本 #近本 #京博本 #慶長本">糒</lem>
+              <rdg wit="#九本">粮</rdg>
+            </app>
+            <app from="#app2710010143" to="#app2710010143e">
+              <lem wit="#土本 #九本 #近本 #京博本 #慶長本">干</lem>
+              <note>干　訳註本「宇」。</note>
+            </app>
+            <app from="#app2710010144" to="#app2710010144e">
+              <lem wit="#九本 #近本訂正書 #京博本">亦</lem>
+              <rdg wit="#土本 #慶長本">爾</rdg>
+              <note>近本訂正書「亦」</note>
+              <note>亦　土本・近本・慶長本「爾」。九本・京博本、近本訂正書により改める。</note>
+            </app>
+          </div>
+          <div ana="主税下" corresp="engishiki_v27_en.xml#article271002 engishiki_v27_ja.xml#article271002" n="27.2" type="条"
+            xml:id="article271002">
+            <head ana="租帳"/>
+            <p ana="項" corresp="engishiki_v27_en.xml#item27100201 engishiki_v27_ja.xml#item27100201" xml:id="item27100201">
+              某国司解申収納某年租帳事 <lb/>合国内田若干町段〈若干町旧、若干町新、〉欠乗去年若干町 <lb/><s rendition="#indent">不輸租田若干町</s>
+              <lb/><s rendition="#indent2">神田若干町</s>
+              <lb/><s rendition="#indent2">寺田若干町〈余雑色田准此、各為一項、〉</s>
+              <lb/><s rendition="#indent">定田若干町</s>
+              <lb/><s rendition="#indent2">応輸租田若干町</s>
+              <lb/><s rendition="#indent3">郡司職田若干町〈余雑色田准此、各為一項、〉</s>
+              <pb facs="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-27%2F00017.tif/full/full/0/default.jpg"/>
+              <lb/><s rendition="#indent3">口分田若干町</s>
+              <lb/><s rendition="#indent4">某国百姓若干町</s>
+              <lb/><s rendition="#indent4">当土百姓若干町</s>
+              <lb/><s rendition="#indent3">墾田若干町</s>
+              <lb/><s rendition="#indent2">応輸地子田若干町</s>
+              <lb/><s rendition="#indent3">除帳人口分田若干町</s>
+              <lb/><s rendition="#indent3">乗田若干町〈余雑色田准此、各為一項、〉</s>
+              <lb/><s rendition="#indent">不堪<anchor xml:id="app2710020101"/>佃<anchor xml:id="app2710020101e"/>若干町</s>
+              <lb/><s rendition="#indent3">応輸租田若干町</s>
+              <lb/><s rendition="#indent4">口分田若干町</s>
+              <lb/><s rendition="#indent4">墾田若干町〈余雑色田准此、各為一項、〉</s>
+              <lb/><s rendition="#indent3">応輸地子田若干町</s>
+              <lb/><s rendition="#indent4">乗田若干町〈余雑色田准此、各為一項、〉</s>
+              <lb/><s rendition="#indent">堪<anchor xml:id="app2710020102"/>佃<anchor xml:id="app2710020102e"/>若干町</s>
+              <lb/><s rendition="#indent2">応輸租田若干町</s>
+              <lb/><s rendition="#indent3">郡司職田若干町</s>
+              <lb/><s rendition="#indent3">口分田若干町</s>
+              <lb/><s rendition="#indent3"><anchor xml:id="app2710020103"/>墾<anchor xml:id="app2710020103e"
+                />田若干町〈余雑色田准此、各為一項、〉</s>
+              <pb facs="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-27%2F00018.tif/full/full/0/default.jpg"/>
+              <lb/><s rendition="#indent2">応輸地子田若干町</s>
+              <lb/><s rendition="#indent3">乗田若干町〈余雑色田准此、各為一項、〉</s>
+              <lb/><s rendition="#indent2">応輸租田若干町</s>
+              <lb/><s rendition="#indent3">損若干町</s>
+              <lb/><s rendition="#indent4">八分戸若干烟</s>
+              <lb/><s rendition="#indent5">田若干町</s>
+              <lb/><s rendition="#indent4">七分戸若干烟</s>
+              <lb/><s rendition="#indent5">田若干町</s>
+              <lb/><s rendition="#indent4">五分戸若干烟</s>
+              <lb/><s rendition="#indent5">田若干町</s>
+              <lb/><s rendition="#indent4">四分已下戸若干烟</s>
+              <lb/><s rendition="#indent5">田若干町</s>
+              <lb/><s rendition="#indent3">得若干町</s>
+              <lb/><s rendition="#indent4">輸租穀穎若干石</s>
+              <lb/><s rendition="#indent5">雑散若干束</s>
+              <lb/><s rendition="#indent6">神封戸若干烟</s>
+              <lb/><s rendition="#indent8">租若干束</s>
+              <lb/><s rendition="#indent7">某神封戸若干烟</s>
+              <pb facs="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-27%2F00019.tif/full/full/0/default.jpg"/>
+              <lb/><s rendition="#indent8">租若干束</s>
+              <lb/><s rendition="#indent6">寺家封戸若干烟</s>
+              <lb/><s rendition="#indent8">租若干束</s>
+              <lb/><s rendition="#indent7">某寺封戸若干烟</s>
+              <lb/><s rendition="#indent8">租若干束</s>
+              <lb/><s rendition="#indent6">某宮封戸若干烟</s>
+              <lb/><s rendition="#indent7">租若干束</s>
+              <lb/><s rendition="#indent6">諸家封戸若干烟</s>
+              <lb/><s rendition="#indent8">租若干束</s>
+              <lb/><s rendition="#indent7">某品親王封戸若干烟</s>
+              <lb/><s rendition="#indent8">租若干束</s>
+              <lb/><s rendition="#indent7">官位姓名封戸若干烟</s>
+              <lb/><s rendition="#indent8">租若干束</s>
+              <lb/><s rendition="#indent2">納官若干石</s>
+              <lb/><s rendition="#indent">応輸地子田若干町</s>
+              <lb/><s rendition="#indent2">損若干町</s>
+              <lb/><s rendition="#indent4">乗田若干町〈余雑色田准此、各為一項、〉</s>
+              <lb/><s rendition="#indent2">得若干町</s>
+              <pb facs="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-27%2F00020.tif/full/full/0/default.jpg"/>
+              <lb/><s rendition="#indent4">闕郡司職田若干町</s>
+              <lb/><s rendition="#indent4">乗田若干町〈余雑色田准此、各為一項、〉</s>
+              <lb/><s rendition="#indent3">輸地子稲若干束</s>
+              <lb/><s rendition="#indent4">闕郡司職田若干町〈余雑色田准此、各為一項、〉</s>
+              <lb/><s rendition="#indent5">上田若干町〈町別若干束、〉</s>
+              <lb/><s rendition="#indent5">中田若干町〈町別若干束、〉</s>
+              <lb/><s rendition="#indent5">下田若干町〈町別若干束、〉</s>
+              <lb/><s rendition="#indent5">下下田若干町〈町別若干束、〉</s>
+              <lb/><s rendition="#indent3">件国租帳様、郡帳准此、但不輸・半輸等夾名具注如左、</s>
+              <lb/><s rendition="#indent2">若干町不輸</s>
+              <lb/><s rendition="#indent4">某郡某郷戸主姓名〈若干町遭澇水損五分以上、封、〉</s>
+              <lb/><s rendition="#indent2">若干町半輸</s>
+              <lb/><s rendition="#indent4">某郡<anchor xml:id="app2710020104"/>其<anchor xml:id="app2710020104e"
+                  />郷戸主姓名〈若干段遭旱<anchor xml:id="app2710020105"/>損<anchor xml:id="app2710020105e"/>四分以下、官、〉</s>
+              <lb/><s rendition="#indent3">右惣合郷帳会郡<anchor xml:id="app2710020106"/>帳<anchor xml:id="app2710020106e"
+                />、惣合郡帳会国帳、若多夾名各為別項、</s>
+              <lb/>以前某年租帳、依例勘造如件、仍附貢調使官位姓名申上、謹解、 </p>
+            <app from="#app2710020101" to="#app2710020101e">
+              <lem wit="#九本">佃</lem>
+              <rdg wit="#土本 #近本 #京博本 #慶長本">田</rdg>
+              <note>佃　土本等「田」。九本により改める。訳注本「佃田」。</note>
+            </app>
+            <app from="#app2710020102" to="#app2710020102e">
+              <lem wit="#土本 #九本 #近本 #京博本 #慶長本">佃</lem>
+              <note>佃　訳注本意により下に「田」を補う。</note>
+            </app>
+            <app from="#app2710020103" to="#app2710020103e">
+              <lem wit="#土本 #九本 #近本 #京博本 #慶長本">墾</lem>
+              <note place="傍">土本朱傍書「<seg style="color:red">音近、鎮西俗云、誤也</seg>」</note>
+              <note place="傍">近本傍書「音近、鎮西俗云、誤也」</note>
+              <note place="傍">京博本朱傍書「<seg style="color:red">音近、鎮西俗云、誤也</seg>」</note>
+              <note place="傍">慶長本朱傍書「<seg style="color:red">音近、鎮西俗云、誤也</seg>」</note>
+            </app>
+            <app from="#app2710020104" to="#app2710020104e">
+              <lem wit="#土本 #近本 #京博本">其</lem>
+              <rdg wit="#九本 #慶長本">某</rdg>
+              <note>其　訳注本は九本等により「某」に改める。</note>
+            </app>
+            <app from="#app2710020105" to="#app2710020105e">
+              <lem wit="#土本 #九本 #近本 #京博本">損</lem>
+              <rdg wit="#慶長本"/>
+            </app>
+            <app from="#app2710020106" to="#app2710020106e">
+              <lem wit="#九本 #近本挿入書">帳</lem>
+              <rdg wit="#土本 #京博本 #慶長本"/>
+              <note>近本挿入書「帳」</note>
+              <note>帳　土本等無し。九本、近本挿入書により補う。</note>
+            </app>
+          </div>
+          <pb facs="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-27%2F00021.tif/full/full/0/default.jpg"/>
+          <div ana="主税下" corresp="engishiki_v27_en.xml#article271003 engishiki_v27_ja.xml#article271003" n="27.3" type="条"
+            xml:id="article271003">
+            <head ana="青苗帳"/>
+            <p ana="項" corresp="engishiki_v27_en.xml#item27100301 engishiki_v27_ja.xml#item27100301" xml:id="item27100301">
+              某国司解申進某年青苗簿帳事 <lb/>合国内雑田若干 <lb/><s rendition="#indent2">不輸租田若干</s>
+              <lb/><s rendition="#indent3">神田若干</s>
+              <lb/><s rendition="#indent6">毎色可録、</s>
+              <lb/><s rendition="#indent2">定田若干</s>
+              <lb/><s rendition="#indent3">応輸租<anchor xml:id="app2710030101"/>田<anchor xml:id="app2710030101e"/>若干</s>
+              <lb/><s rendition="#indent4">口分田若干</s>
+              <lb/><s rendition="#indent6">毎色可録、</s>
+              <lb/><s rendition="#indent3">応輸地子田若干</s>
+              <lb/><s rendition="#indent4">乗田若干</s>
+              <lb/><s rendition="#indent6">毎色可録、</s>
+              <lb/><s rendition="#indent7">右目録、</s>
+              <lb/><s rendition="#indent">某郡雑田若干</s>
+              <lb/><s rendition="#indent3">不輸租田若干</s>
+              <lb/><s rendition="#indent4">神田若干</s>
+              <lb/><s rendition="#indent7">毎色可録、</s>
+              <lb/><s rendition="#indent3">定田若干</s>
+              <pb facs="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-27%2F00022.tif/full/full/0/default.jpg"/>
+              <lb/><s rendition="#indent4">応輸租田若干</s>
+              <lb/><s rendition="#indent5">口分田若干</s>
+              <lb/><s rendition="#indent7">毎色可録、</s>
+              <lb/><s rendition="#indent4">応輸地子田若干</s>
+              <lb/><s rendition="#indent6">上田若干</s>
+              <lb/><s rendition="#indent6">中田若干</s>
+              <lb/><s rendition="#indent6">下田若干</s>
+              <lb/><s rendition="#indent5">乗田若干</s>
+              <lb/><s rendition="#indent6">上田若干</s>
+              <lb/><s rendition="#indent6">中田若干</s>
+              <lb/><s rendition="#indent6">下田若干</s>
+              <lb/><s rendition="#indent5">除帳田若干</s>
+              <lb/><s rendition="#indent6">上田若干</s>
+              <lb/><s rendition="#indent6">中田若干</s>
+              <lb/><s rendition="#indent6">下田若干</s>
+              <lb/><s rendition="#indent7">毎色可録、</s>
+              <lb/><s rendition="#indent2">某郷戸主姓名戸田若干</s>
+              <lb/><s rendition="#indent3">売口分田若干</s>
+              <pb facs="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-27%2F00023.tif/full/full/0/default.jpg"/>
+              <lb/><s rendition="#indent4">某里某坪</s>
+              <lb/><s rendition="#indent5">買人姓名</s>
+              <lb/><s rendition="#indent3">見営田若干</s>
+              <lb/><s rendition="#indent4">租田若干</s>
+              <lb/><s rendition="#indent5">口分田若干</s>
+              <lb/><s rendition="#indent6">某里某坪</s>
+              <lb/><s rendition="#indent7">毎色可録、</s>
+              <lb/><s rendition="#indent4">買田若干</s>
+              <lb/><s rendition="#indent5">口分田若干</s>
+              <lb/><s rendition="#indent6">某里某坪</s>
+              <lb/><s rendition="#indent7">姓名戸田</s>
+              <lb/><s rendition="#indent8">毎色可録、</s>
+              <lb/><s rendition="#indent4">地子田若干〈田品可録、〉</s>
+              <lb/><s rendition="#indent5">乗田若干</s>
+              <lb/><s rendition="#indent6">某里某坪</s>
+              <lb/><s rendition="#indent7">毎色可録、</s>
+              <lb/><s rendition="#indent2">浪人姓名営田若干</s>
+              <lb/><s rendition="#indent4">口分<anchor xml:id="app2710030102"/>田<anchor xml:id="app2710030102e"/>若干</s>
+              <pb facs="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-27%2F00024.tif/full/full/0/default.jpg"/>
+              <lb/><s rendition="#indent5">某里某坪</s>
+              <lb/><s rendition="#indent6">姓名戸田</s>
+              <lb/><s rendition="#indent7">毎色可録、</s>
+              <lb/><s rendition="#indent4">地子田若干〈田品可注、〉</s>
+              <lb/><s rendition="#indent5">乗田若干</s>
+              <lb/><s rendition="#indent6">某里<anchor xml:id="app2710030103"/>某坪<anchor xml:id="app2710030103e"/></s>
+              <lb/><s rendition="#indent7">毎色可録、</s>
+              <lb/>以前具状如右、仍附大帳使官位姓名言上如件、謹解、 <lb/><s rendition="#indent6">年月日</s>
+            </p>
+            <app from="#app2710030101" to="#app2710030101e">
+              <lem wit="#九本 #京博本 #慶長本">田</lem>
+              <rdg wit="#土本 #近本"/>
+              <note>田　土本・近本無し。九本・京博本・慶長本により補う。</note>
+            </app>
+            <app from="#app2710030102" to="#app2710030102e">
+              <lem wit="#九本 #近本 #京博本 #慶長本">田</lem>
+              <rdg wit="#土本"/>
+              <note>田　土本無し。九本等により補う。</note>
+            </app>
+            <app from="#app2710030103" to="#app2710030103e">
+              <lem wit="#九本">某坪</lem>
+              <rdg wit="#土本 #近本 #京博本 #慶長本">若干</rdg>
+              <note>某坪　土本等「若干」。九本により改める。</note>
+            </app>
+          </div>
+          <div ana="主税下" corresp="engishiki_v27_en.xml#article271004 engishiki_v27_ja.xml#article271004" n="27.4" type="条"
+            xml:id="article271004">
+            <head ana="不堪佃田"/>
+            <p ana="項" corresp="engishiki_v27_en.xml#item27100401 engishiki_v27_ja.xml#item27100401" xml:id="item27100401">
+              某国司解申不堪佃田事 <lb/>合国内田若干 <lb/><s rendition="#indent2">不輸租地子田若干</s>
+              <lb/><s rendition="#indent4">毎色可録、</s>
+              <lb/><s rendition="#indent2">定田若干</s>
+              <lb/><s rendition="#indent3">租田若干</s>
+              <lb/><s rendition="#indent4">不堪佃田若干</s>
+              <lb/><s rendition="#indent4">堪佃田若干</s>
+              <pb facs="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-27%2F00025.tif/full/full/0/default.jpg"/>
+              <lb/><s rendition="#indent4">地子田<anchor xml:id="app2710040101"/>若<anchor xml:id="app2710040101e"/>干</s>
+              <lb/>右得管諸郡司解偁、云<anchor xml:id="app2710040102"/>云<anchor xml:id="app2710040102e"/>、国司巡検、仍注不堪佃田幷堪佃田申上如件、謹解、
+                <lb/><s rendition="#indent5">年月日</s>
+            </p>
+            <app from="#app2710040101" to="#app2710040101e">
+              <lem wit="#九本 #近本挿入書">若</lem>
+              <rdg wit="#土本 #京博本 #慶長本">幷</rdg>
+              <note place="傍">土本傍書「若歟」</note>
+              <note>近本挿入書「若」</note>
+              <note>若　土本等「幷」。九本により改める。</note>
+            </app>
+            <app from="#app2710040102" to="#app2710040102e">
+              <lem wit="#土本 #九本 #近本 #京博本 #慶長本">云</lem>
+              <note>云　訳注本は例により下に「者」を補う。</note>
+            </app>
+          </div>
+          <div ana="主税下" corresp="engishiki_v27_en.xml#article271005 engishiki_v27_ja.xml#article271005" n="27.5" type="条"
+            xml:id="article271005">
+            <head ana="損田"/>
+            <p ana="項" corresp="engishiki_v27_en.xml#item27100501 engishiki_v27_ja.xml#item27100501" xml:id="item27100501">
+              某国司解申田損事 <lb/>合国内田若干 <lb/><s rendition="#indent2">不輸租地子田若干</s>
+              <lb/><s rendition="#indent4">毎色可録、</s>
+              <lb/><s rendition="#indent2">定田若干</s>
+              <lb/><s rendition="#indent">不堪佃<anchor xml:id="app2710050101"/>田<anchor xml:id="app2710050101e"/>若干</s>
+              <lb/><s rendition="#indent3">租田若干</s>
+              <lb/><s rendition="#indent3">地子田若干</s>
+              <lb/><s rendition="#indent">堪佃田若干</s>
+              <lb/><s rendition="#indent2">損田若干</s>
+              <lb/><s rendition="#indent3">見損田若干</s>
+              <lb/><s rendition="#indent3">五分已上損戸得田若干</s>
+              <lb/><s rendition="#indent2">得田若干</s>
+              <pb facs="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-27%2F00026.tif/full/full/0/default.jpg"/>
+              <lb/><s rendition="#indent3">租田若干</s>
+              <lb/><s rendition="#indent3">地子田若干</s>
+              <lb/><s rendition="#indent">八分已上戸若干烟</s>
+              <lb/><s rendition="#indent">七分戸若干烟</s>
+              <lb/><s rendition="#indent">五分已上戸若干烟</s>
+              <lb/><s rendition="#indent">四分已上戸若干烟</s>
+              <lb/>右得管諸郡司解偁、云云者、国司巡検、所申有実、仍注損得田申上如件、謹解、 <lb/><s rendition="#indent7">年月日</s>
+            </p>
+            <app from="#app2710050101" to="#app2710050101e">
+              <lem wit="#土本 #近本 #京博本 #慶長本">田</lem>
+              <rdg wit="#九本"/>
+              <note/>
+            </app>
+          </div>
+        </div>
+        <div type="尾題" xml:id="bidai27">
+          <p xml:id="bidai2701"> 延喜式巻第廿七 </p>
+        </div>
+        <div type="本奥書" xml:id="okugaki27">
+          <p xml:id="okugaki2701">
+            <table>
+              <row>
+                <cell>延長五年十二月廿六日</cell>
+                <cell><anchor xml:id="app2799990101"/>外従五位<anchor xml:id="app2799990101e"/><anchor xml:id="app2799990102"
+                    />下<anchor xml:id="app2799990102e"/>行左大史臣阿刀宿禰忠行</cell>
+              </row>
+              <row>
+                <cell/>
+                <cell>従五位<anchor xml:id="app2799990103"/>上<anchor xml:id="app2799990103e"/>行勘<anchor xml:id="app2799990104"
+                    />解由<anchor xml:id="app2799990104e"/>次官兼大外記<placeName corresp="#紀伊国">紀伊</placeName>権介臣伴宿禰久永</cell>
+              </row>
+              <row>
+                <cell/>
+                <cell>従四位上行<orgName corresp="#神祇官">神祇</orgName>伯臣大中臣朝臣安則</cell>
+              </row>
+              <row>
+                <cell/>
+                <cell>大納言正三位兼行<orgName corresp="#民部省">民部</orgName>卿臣藤原朝臣清貫</cell>
+              </row>
+              <row>
+                <cell/>
+                <cell>左大臣正二位兼行<orgName corresp="#近衛府">左近衛</orgName>大将皇太子傅藤原朝臣忠平</cell>
+              </row>
+            </table>
+          </p>
+          <app from="#app2799990101" to="#app2799990101e">
+            <note>外従五位…忠平　九本は「撰式者署所如前々巻」とする。</note>
+          </app>
+          <app from="#app2799990102" to="#app2799990102e">
+            <lem wit="#近本 #京博本 #慶長本">下</lem>
+            <rdg wit="#土本"/>
+            <note>下　土本無し。近本・京博本・慶長本により補う。</note>
+          </app>
+          <app from="#app2799990103" to="#app2799990103e">
+            <lem wit="#近本 #京博本 #慶長本">上</lem>
+            <rdg wit="#土本">一</rdg>
+            <note>上　土本「一」。近本・京博本・慶長本により改める。</note>
+          </app>
+          <app from="#app2799990104" to="#app2799990104e">
+            <lem wit="#近本 #京博本 #慶長本">解由</lem>
+            <rdg wit="#土本">田</rdg>
+            <note>解由　土本「田」。近本・京博本・慶長本により改める。</note>
+          </app>
+        </div>
+      </div>
+    </body>
+  </text>
+  <facsimile source="https://khirin-a.rekihaku.ac.jp/iiif/rekihaku/H-743-74-27/manifest.json">
+    <surface source="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-27/page4762" xml:id="page4762">
+      <graphic url="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-27%2F00001.tif/full/full/0/default.jpg"/>
+    </surface>
+    <surface source="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-27/page4763" xml:id="page4763">
+      <graphic url="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-27%2F00002.tif/full/full/0/default.jpg"/>
+    </surface>
+    <surface source="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-27/page4764" xml:id="page4764">
+      <graphic url="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-27%2F00003.tif/full/full/0/default.jpg"/>
+    </surface>
+    <surface source="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-27/page4765" xml:id="page4765">
+      <graphic url="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-27%2F00004.tif/full/full/0/default.jpg"/>
+    </surface>
+    <surface source="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-27/page4766" xml:id="page4766">
+      <graphic url="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-27%2F00005.tif/full/full/0/default.jpg"/>
+    </surface>
+    <surface source="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-27/page4767" xml:id="page4767">
+      <graphic url="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-27%2F00006.tif/full/full/0/default.jpg"/>
+    </surface>
+    <surface source="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-27/page4768" xml:id="page4768">
+      <graphic url="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-27%2F00007.tif/full/full/0/default.jpg"/>
+    </surface>
+    <surface source="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-27/page4769" xml:id="page4769">
+      <graphic url="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-27%2F00008.tif/full/full/0/default.jpg"/>
+    </surface>
+    <surface source="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-27/page4770" xml:id="page4770">
+      <graphic url="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-27%2F00009.tif/full/full/0/default.jpg"/>
+    </surface>
+    <surface source="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-27/page4771" xml:id="page4771">
+      <graphic url="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-27%2F00010.tif/full/full/0/default.jpg"/>
+    </surface>
+    <surface source="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-27/page4772" xml:id="page4772">
+      <graphic url="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-27%2F00011.tif/full/full/0/default.jpg"/>
+    </surface>
+    <surface source="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-27/page4773" xml:id="page4773">
+      <graphic url="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-27%2F00012.tif/full/full/0/default.jpg"/>
+    </surface>
+    <surface source="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-27/page4774" xml:id="page4774">
+      <graphic url="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-27%2F00013.tif/full/full/0/default.jpg"/>
+    </surface>
+    <surface source="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-27/page4775" xml:id="page4775">
+      <graphic url="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-27%2F00014.tif/full/full/0/default.jpg"/>
+    </surface>
+    <surface source="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-27/page4776" xml:id="page4776">
+      <graphic url="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-27%2F00015.tif/full/full/0/default.jpg"/>
+    </surface>
+    <surface source="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-27/page4777" xml:id="page4777">
+      <graphic url="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-27%2F00016.tif/full/full/0/default.jpg"/>
+    </surface>
+    <surface source="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-27/page4778" xml:id="page4778">
+      <graphic url="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-27%2F00017.tif/full/full/0/default.jpg"/>
+    </surface>
+    <surface source="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-27/page4779" xml:id="page4779">
+      <graphic url="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-27%2F00018.tif/full/full/0/default.jpg"/>
+    </surface>
+    <surface source="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-27/page4780" xml:id="page4780">
+      <graphic url="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-27%2F00019.tif/full/full/0/default.jpg"/>
+    </surface>
+    <surface source="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-27/page4781" xml:id="page4781">
+      <graphic url="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-27%2F00020.tif/full/full/0/default.jpg"/>
+    </surface>
+    <surface source="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-27/page4782" xml:id="page4782">
+      <graphic url="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-27%2F00021.tif/full/full/0/default.jpg"/>
+    </surface>
+    <surface source="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-27/page4783" xml:id="page4783">
+      <graphic url="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-27%2F00022.tif/full/full/0/default.jpg"/>
+    </surface>
+    <surface source="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-27/page4784" xml:id="page4784">
+      <graphic url="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-27%2F00023.tif/full/full/0/default.jpg"/>
+    </surface>
+    <surface source="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-27/page4785" xml:id="page4785">
+      <graphic url="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-27%2F00024.tif/full/full/0/default.jpg"/>
+    </surface>
+    <surface source="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-27/page4786" xml:id="page4786">
+      <graphic url="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-27%2F00025.tif/full/full/0/default.jpg"/>
+    </surface>
+    <surface source="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-27/page4787" xml:id="page4787">
+      <graphic url="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-27%2F00026.tif/full/full/0/default.jpg"/>
+    </surface>
+    <surface source="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-27/page4788" xml:id="page4788">
+      <graphic url="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-27%2F00027.tif/full/full/0/default.jpg"/>
+    </surface>
+    <surface source="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-27/page4789" xml:id="page4789">
+      <graphic url="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-27%2F00028.tif/full/full/0/default.jpg"/>
+    </surface>
+  </facsimile>
+</TEI>
