@@ -1178,6 +1178,19 @@
         <rendition xml:id="width170">width: 170px;</rendition>
         <rendition xml:id="width200">width: 200px;</rendition>
         <rendition xml:id="width300">width: 300px;</rendition>
+        <rendition xml:id="it" scheme="css">font-style: italic;</rendition>
+        <namespace name="http://www.tei-c.org/ns/1.0">
+          <tagUsage gi="ruby">漢字に付与する現代語訳用ルビ</tagUsage>
+          <tagUsage gi="measure">物品の数量・寸法情報（主に巻24）</tagUsage>
+          <tagUsage gi="app">諸本の異同を示す校異構造</tagUsage>
+          <tagUsage gi="seg">朱書き表現（校訂文）およびイタリック制御（英訳）</tagUsage>
+          <tagUsage gi="placeName">歴史地名（詳細はstandOff参照）</tagUsage>
+          <tagUsage gi="orgName">官司名（詳細はstandOff参照）</tagUsage>
+          <tagUsage gi="s">一行内の論理的な区切り。rendition属性を伴い、史料の字下げ（インデント）を制御する。</tagUsage>
+          <tagUsage gi="anchor">appタグが参照する校異の開始点および終了点を示す。</tagUsage>
+          <tagUsage gi="lb">原本の改行位置。延喜式の定型書式の行構成を保持する。</tagUsage>
+          <tagUsage gi="pb">原本（または底本写真）のページ境界。facs属性でIIIF画像とリンクする。</tagUsage>
+        </namespace>
       </tagsDecl>
       <unitDecl>
         <unitDef type="Length" xml:id="丈">
