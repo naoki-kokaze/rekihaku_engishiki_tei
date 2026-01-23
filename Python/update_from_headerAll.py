@@ -59,8 +59,11 @@ def split_tei_xml(xml_text: str):
 
 
 def is_header_file(filename: str) -> bool:
-    """engishiki_v{番号}_header.xml 判定"""
-    return bool(re.search(r"_v\d{1,2}_header\.xml$", filename))
+    """
+    header 系ファイルかどうかを file_kind に基づいて判定する。
+    header_all は含まない。
+    """
+    return file_kind(filename) in {"body_header", "header"}
 
 
 def insert_after(parent, new_node, after_tag):
@@ -74,6 +77,85 @@ def insert_after(parent, new_node, after_tag):
             parent.insert(i + 1, new_node)
             return
     parent.append(new_node)
+
+
+# =========================================================
+# ファイル種別・巻番号ユーティリティ
+# =========================================================
+
+def file_kind(filename: str) -> str:
+    """
+    engishiki 系 XML ファイルの役割（性格）を、
+    ファイル名の命名規則に基づいて分類する。
+
+    本関数は「処理対象かどうか」を判断せず、
+    あくまでファイルの種類（世界観）を一意に返すための
+    判定専用ユーティリティである。
+
+    戻り値は以下のいずれか：
+
+    - "body":
+        巻番号を持つ本文ファイル。
+        処理①・処理③の対象。
+        例：
+          engishiki_v1.xml
+          engishiki_v1_ja.xml
+          engishiki_v1_en.xml
+
+    - "body_header":
+        巻番号を持つ header 専用ファイル。
+        処理①・処理②の対象。
+        例：
+          engishiki_v1_header.xml
+
+    - "header":
+        巻番号を持たない通常の header ファイル。
+        処理①の対象。
+        例：
+          engishiki_header.xml
+          engishiki_header_ja.xml
+          engishiki_header_en.xml
+
+    - "header_all":
+        すべての header / 本文に反映される
+        唯一の絶対基準 header ファイル。
+        本ファイル自体は処理対象としない。
+        例：
+          engishiki_header_all.xml
+
+    - "other":
+        上記いずれにも該当しないファイル。
+        想定外、または処理対象外。
+
+    注意：
+    - 巻番号は v1 ～ v99 を想定している。
+    - v01 などのゼロ埋め表記は現時点では想定しない。
+    """
+
+    # ① 絶対基準 header（最優先）
+    if filename == "engishiki_header_all.xml":
+        return "header_all"
+
+    # ② 巻別 header 専用ファイル
+    if re.fullmatch(r"engishiki_v\d{1,2}_header\.xml", filename):
+        return "body_header"
+
+    # ③ 巻別本文（無印 / ja / en）
+    if re.fullmatch(r"engishiki_v\d{1,2}(_ja|_en)?\.xml", filename):
+        return "body"
+
+    # ④ 巻番号を持たない通常 header（ja / en 含む）
+    if re.fullmatch(r"engishiki_header(_ja|_en)?\.xml", filename):
+        return "header"
+
+    # ⑤ その他
+    return "other"
+
+
+def extract_volume(filename: str):
+    """file_kind() の命名規則に基づき、巻番号（int）を取得する"""
+    m = re.search(r"_v(\d{1,2})", filename)
+    return int(m.group(1)) if m else None
 
 
 # =========================================================
@@ -160,22 +242,34 @@ def update_files():
         soup = BeautifulSoup(header_xml, "xml")
         updated = False
 
-        is_vheader = is_header_file(filename)
+        kind = file_kind(filename)
+
+        if kind not in {"body", "body_header", "header"}:
+            log(f"【情報】{filename}: 処理①対象外（{kind}）")
+            continue
+        
         ana_targets = []
 
         # --- 凡例適用判定 ---
-        if is_vheader:
-            if selected_plain: ana_targets.append(ANA_MAP["無印"])
-            if selected_ja:    ana_targets.append(ANA_MAP["_ja"])
-            if selected_en:    ana_targets.append(ANA_MAP["_en"])
-        else:
-            if selected_plain and "_ja" not in filename and "_en" not in filename:
+        if kind in {"header", "body_header"}:
+            # header 系：複数凡例が入りうる
+            if selected_plain:
                 ana_targets.append(ANA_MAP["無印"])
-            if selected_ja and "_ja" in filename:
+            if selected_ja:
                 ana_targets.append(ANA_MAP["_ja"])
-            if selected_en and "_en" in filename:
+            if selected_en:
                 ana_targets.append(ANA_MAP["_en"])
 
+        elif kind == "body":
+            # 本文：自分の言語に対応する凡例のみ
+            if filename.endswith("_ja.xml") and selected_ja:
+                ana_targets.append(ANA_MAP["_ja"])
+            elif filename.endswith("_en.xml") and selected_en:
+                ana_targets.append(ANA_MAP["_en"])
+            elif selected_plain:
+                ana_targets.append(ANA_MAP["無印"])
+
+        # XML凡例は header / 本文どちらにも入る
         if selected_xml:
             ana_targets.append(ANA_MAP["XML"])
 
@@ -283,12 +377,38 @@ def add_editorial_decls():
 # 処理③ taxonomy / standOff 追加
 # =========================================================
 def resolve_target_files():
+    files = [
+        f for f in os.listdir(INPUT_FOLDER)
+        if f.endswith(".xml")
+    ]
+
+    # --- 巻指定 ---
     if taxonomy_single_var.get():
-        vols = re.findall(r"\d{1,2}", taxonomy_volume_entry.get())
-        return [f"engishiki_v{int(v):02d}.xml" for v in vols] if vols else []
+        vols = {
+            int(v) for v in re.findall(r"\d{1,2}", taxonomy_volume_entry.get())
+        }
+        if not vols:
+            log("【エラー】巻番号が不正です。")
+            return []
+
+        targets = []
+        for f in files:
+            if file_kind(f) != "body":
+                continue
+
+            vol = extract_volume(f)
+            if vol in vols:
+                targets.append(f)
+
+        return sorted(targets)
+
+    # --- 全巻 ---
     if taxonomy_all_var.get():
-        return [f for f in os.listdir(INPUT_FOLDER)
-                if f.startswith("engishiki_v") and f.endswith(".xml")]
+        return sorted([
+            f for f in files
+            if file_kind(f) == "body"
+        ])
+
     log("【エラー】巻指定 / 全巻 が未選択です。")
     return []
 
@@ -429,7 +549,7 @@ ttk.Button(root, text="凡例追加", command=add_editorial_decls).pack(pady=10)
 
 
 # ----- taxonomy / standOff 追加 -----
-extras_frame = ttk.LabelFrame(root, text="taxonomy / standOff 追加 （対象：各header以外）")
+extras_frame = ttk.LabelFrame(root, text="taxonomy / standOff 追加 （対象：各巻本文）")
 extras_frame.pack(fill="x", padx=10, pady=5)
 
 # 1行目：taxonomy / standOff
