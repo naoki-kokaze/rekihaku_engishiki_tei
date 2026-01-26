@@ -1162,6 +1162,7 @@
         <rendition xml:id="indent5">margin-top: 5em;</rendition>
         <rendition xml:id="indent6">margin-top: 6em;</rendition>
         <rendition xml:id="indent7">margin-top: 7em;</rendition>
+        <rendition xml:id="indent8">margin-top: 8em;</rendition>
         <rendition xml:id="indent10">margin-top: 10em;</rendition>
         <rendition xml:id="indent12">margin-top: 12em;</rendition>
         <rendition xml:id="indent13">margin-top: 13em;</rendition>
@@ -1180,14 +1181,14 @@
             <tagUsage gi="s">書式（インデント等）を保持するために使用。</tagUsage>
             <tagUsage gi="seg">校訂文の朱書き表現（<att>rend</att>="color:red"）、英訳の音表記（<att>rend</att>="italic"）、および英訳注の対象範囲の特定（<att>xml:id</att>）など、複数の視覚・論理表現を属性で制御する。</tagUsage>
             <tagUsage gi="ruby">現代語訳において、漢字の読みを示すために使用。</tagUsage>
-            <tagUsage gi="anchor">校異注の該当範囲（始点・終点）を指定するための空要素。<gi>app</gi> 要素の <att>from</att> および <att>to</att> 属性から参照され、校注範囲を確定させるために使用する。</tagUsage>
+            <tagUsage gi="anchor">校異注の該当範囲（始点・終点）を指定するための空要素。<gi>app</gi> 要素の <att>from</att> および <att>to</att> から参照され、校注範囲を確定させるために使用する。</tagUsage>
             <tagUsage gi="note">校異の詳細説明（<gi>app</gi>内）、史料上の割注（<gi>measure</gi>内）、条文要約（<att>type</att>="summary"）、訳者注（<att>type</att>="translatorsNotes"）、および典拠データにおける属性値の記述（<gi>trait</gi>内）に使用。<att>place</att>、<att>target</att>、<att>type</att> により情報の性質を区別する。</tagUsage>
            <tagUsage gi="measure">物品の数量・寸法を記述。品目とその総量を定義する外側の構造と、具体的な数値を保持する内側の構造を階層的に記述する。各タグの属性、すなわち<att>ana</att>（納税物の区分）、<att>commodity</att>（物品の種類）、<att>quantity</att>（数量）、<att>type</att>（寸法の種類【長・広・深等】）により、情報の詳細を明示する。</tagUsage>
             <tagUsage gi="measureGrp">複数の単位を伴う計量値（斤と両など）を一つの論理的な測定値としてグループ化する場合、または特定の属性（<att>type</att>="width"等）を共有する測定値の集合を示す場合に使用する。</tagUsage>
-            <tagUsage gi="unit">数量の単位（枚、丈、斤、両など）を示す。<att>unitRef</att> 属性を通じてヘッダー内の単位定義（<gi>unitDecl</gi>）と連動させる。</tagUsage>
+            <tagUsage gi="unit">数量の単位（枚、丈、斤、両など）を示す。<att>unitRef</att> を通じてヘッダー内の単位定義（<gi>unitDecl</gi>）と連動させる。</tagUsage>
             <tagUsage gi="placeName">歴史地名。<gi>standOff</gi> 内の典拠情報とリンクし、空間情報の同定を行う。</tagUsage>
             <tagUsage gi="orgName">官司・官職名。<gi>standOff</gi> 内の典拠情報とリンクし、組織構造の同定を行う。</tagUsage>
-            <tagUsage gi="table">史料上の多段（段落）表現や、項目間の水平方向の配置を再現するために使用。各 <gi>cell</gi> に付与した <att>rendition</att> 属性（#width等）により、視覚的な間隔や幅を制御する。</tagUsage>
+            <tagUsage gi="table">史料上の多段（段落）表現や、項目間の水平方向の配置を再現するために使用。各 <gi>cell</gi> に付与した <att>rendition</att> （#width等）により、視覚的な間隔や幅を制御する。</tagUsage>
           </namespace>
       </tagsDecl>
       <unitDecl>
