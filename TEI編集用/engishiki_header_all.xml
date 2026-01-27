@@ -10,6 +10,7 @@
         <respStmt>
           <resp>プロジェクトリーダー</resp>
           <persName>三上喜孝</persName>
+          <!--@ref属性の付与は必須とするか、希望制でもよいでしょうか -->
           <note>「延喜式のデジタル技術による汎用化」（2022～）の責任者（2025～）</note>
         </respStmt>
         <respStmt>
@@ -124,6 +125,7 @@
           <licence target="https://creativecommons.org/licenses/by/4.0/">この作品はクリエイティブ・コモンズ 表示 4.0 国際
             ライセンスの下に提供されています。</licence>
         </availability>
+        <!--下記dateはデジタル延喜式の公開日のままでよいでしょうか？ -->
         <date when="2020-03-31">31 March 2020</date>
       </publicationStmt>
       <notesStmt>
@@ -648,6 +650,7 @@
                 <ref xml:id="土本補書">土本補書</ref>
                 <ref xml:id="土本訂正書">土本訂正書</ref>
                 <ref xml:id="土本挿入書">土本挿入書</ref>
+                <ref xml:id="土本転倒符">土本転倒符</ref>
               </listRef>
             </witness>
             <witness xml:id="近本"><abbr>近本</abbr>：京都大学附属図書館所蔵近衛文庫本（2-03/エ/1貴） <listRef>
@@ -722,7 +725,7 @@
                 <ref xml:id="九本残画">九本残画</ref>
                 <ref xml:id="九本訂正書">九本訂正書</ref>
                 <ref xml:id="九本重書">九本重書</ref>
-                <ref xml:id="九本挿入書">九本重書</ref>
+                <ref xml:id="九本挿入書">九本挿入書</ref>
               </listRef></witness>
             <witness xml:id="剛本"><abbr>剛本</abbr>：天野山金剛寺所蔵本 <listRef>
                 <ref xml:id="剛本朱傍書">剛本朱傍書</ref>
@@ -789,14 +792,20 @@
           </listWit>
           <listWit xml:id="版本">
             <head>版本：慶安版本も含めた流布版本</head>
-            <witness xml:id="慶安版本"><abbr>慶安版本</abbr>：大和文華館所蔵鈴鹿連胤旧蔵版本（1/741～790）</witness>
+            <witness xml:id="慶安版本"><abbr>慶安版本</abbr>：大和文華館所蔵鈴鹿連胤旧蔵版本（1/741～790） <listRef>
+                <ref xml:id="慶安版本傍訓">慶安版本傍訓</ref>
+              </listRef></witness>
             <witness xml:id="明暦版本"><abbr>明暦版本</abbr>：明暦修訂版本　国立公文書館所蔵紅葉山文庫旧蔵版本（特26-1）等 <listRef>
                 <ref xml:id="明暦版本訂正書">明暦版本訂正書</ref>
+                <ref xml:id="明暦版本傍訓">明暦版本傍訓</ref>
               </listRef></witness>
             <witness xml:id="明暦以降版本"><abbr>明暦以降版本</abbr>：明暦修訂本以降の版本 </witness>
-            <witness xml:id="寛文版本"><abbr>寛文版本</abbr>：寛文修訂版本　筑波大学附属図書館所蔵版本20冊本（ム212-7）等</witness>
+            <witness xml:id="寛文版本"><abbr>寛文版本</abbr>：寛文修訂版本　筑波大学附属図書館所蔵版本20冊本（ム212-7）等 <listRef>
+                <ref xml:id="寛文版本傍訓">寛文版本傍訓</ref>
+              </listRef></witness>
             <witness xml:id="享保版本"><abbr>享保版本</abbr>：享保修訂版本　筑波大学附属図書館所蔵版本50冊本（ム212-6）等 <listRef>
                 <ref xml:id="享保版本朱補書">享保版本朱補書</ref>
+                <ref xml:id="享保版本傍訓">享保版本傍訓</ref>
               </listRef></witness>
             <witness xml:id="雲本"><abbr>雲本</abbr>：松江藩文政11年(1828)刊本（雲州本）　早稲田大学図書館所蔵本（ワ03-01594）等 <listRef>
                 <ref xml:id="雲本傍書">雲本傍書</ref>
@@ -1044,7 +1053,7 @@
               <cell rendition="#width100">作物衣</cell>
             </row>
             <row>
-              <cell rendition="#width100"> 213諸陵 </cell>
+              <cell rendition="#width100"> 213玄蕃 </cell>
               <cell rendition="#width50"> 32 </cell>
               <cell rendition="#width100"> 灯油 </cell>
               <cell rendition="#width50"> 32 </cell>
