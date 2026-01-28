@@ -586,39 +586,59 @@
     <revisionDesc ana="個別">
       <listChange>
         <listChange xml:id="校訂文">
-          <change when="2023-03-31"><date> 2023年3月31日 </date>
-            巻39正親の校異注において、「解説」以外では「等」「諸本」の表現を使用しないこととし、また傍書の「○○イ」「○○イニ」等は「採用」や「校異」ではなく、「解説」にて指摘することに改めました。 <lb/>
-            この他、全般にわたり、誤字の訂正や外字表記のユニコード文字への変更、文章表現の修正、言及写本の変更などをおこなっています。 </change>
-          <change when="2024-08-23"><date> 2024年8月23日 </date> 巻39内膳第28供奉雑菜条第2項、校異注の位置と内容を調整いたしました。 </change>
-          <change when="2026-01-13"><date> 2026年1月13日 </date> 巻39内膳第19供御月料条第4項において、「灯」を「燈」に改めました。</change>
+          <listChange ana="内膳">
+            <listChange>
+              <change when="2024-08-23"><date> 2024年8月23日 </date> 巻39内膳第28供奉雑菜条第2項、校異注の位置と内容を調整いたしました。 </change>
+            </listChange>
+          </listChange>
+          <listChange ana="正親">
+            <change when="2023-03-31"><date> 2023年3月31日 </date>
+              巻39正親の校異注において、「解説」以外では「等」「諸本」の表現を使用しないこととし、また傍書の「○○イ」「○○イニ」等は「採用」や「校異」ではなく、「解説」にて指摘することに改めました。 <lb/>
+              この他、全般にわたり、誤字の訂正や外字表記のユニコード文字への変更、文章表現の修正、言及写本の変更などをおこなっています。 </change>
+            <change when="2026-01-13"><date> 2026年1月13日 </date> 巻39内膳第19供御月料条第4項において、「灯」を「燈」に改めました。</change>
+          </listChange>
         </listChange>
         <listChange xml:id="現代語訳">
-          <change when="2023-03-31"><date> 2023年3月31日 </date> 全般にわたり、誤字の訂正やルビの修正などをおこなっています。 </change>
-          <change when="2024-04-05"><date> 2024年4月5日 </date> 巻39内膳第1春日春祭条において、本文の段落に錯誤があったため修正しました。 </change>
-          <change when="2025-02-14"><date> 2025年2月14日 </date> 巻39内膳第19供御月料条第2項において、「 <ruby>
-              <rb> 醤漬 </rb>
-              <rt place="right"> ひしおづ </rt>
+          <listChange ana="正親">
+            <change when="2023-03-31"><date> 2023年3月31日 </date> 全般にわたり、誤字の訂正やルビの修正などをおこなっています。 </change>
+          </listChange>
+          <listChange ana="内膳">
+            <change when="2024-04-05"><date> 2024年4月5日 </date> 巻39内膳第1春日春祭条において、本文の段落に錯誤があったため修正しました。 </change>
+            <change when="2025-02-14"><date> 2025年2月14日 </date> 巻39内膳第19供御月料条第2項において、「 <ruby>
+                <rb> 醤漬 </rb>
+                <rt place="right"> ひしおづ </rt>
             </ruby> けのアワビ二一斤」を「 <ruby>
               <rb> 醤漬 </rb>
               <rt place="right"> ひしおづ </rt>
             </ruby> けのアワビ二一条」に修正しました。 </change>
-          <change when="2025-02-14"><date> 2025年2月14日 </date> 巻39内膳第34漬年料雑菜条第3項において、「 <ruby>
-              <rb> 荏裹 </rb>
-              <rt place="right"> えつつみ </rt>
+            <change when="2025-02-14"><date> 2025年2月14日 </date> 巻39内膳第34漬年料雑菜条第3項において、「 <ruby>
+                <rb> 荏裹 </rb>
+                <rt place="right"> えつつみ </rt>
             </ruby> 二石六斗」を「 <ruby>
               <rb> 荏裹 </rb>
               <rt place="right"> えつつみ </rt>
             </ruby> 六斗」に修正しました。 </change>
+            <change when="2025-06-17"><date> 2025年6月17日 </date>
+              巻39内膳第28供奉雑菜条第2項において、本文の語順に錯誤があったため修正しました。 </change>
+          </listChange>
         </listChange>
         <listChange xml:id="英訳">
-          <change when="2025-02-21"><date> 2025年2月21日 </date> 巻39内膳（The Royal Meal Protocols）第19供御月料条（[Monthly Provisions for
-            Offerings to the Royal Table]）第3項において、「infusion bonito and salted sea cucumber innards, 4 <seg rend="italic"> kin
-            </seg> 5 <seg rend="italic"> gō </seg> of each」の「4 <seg rend="italic"> kin </seg> 5 <seg rend="italic"> gō </seg>
-            」を、「4 <seg rend="italic"> shō </seg> 5 <seg rend="italic"> gō </seg> 」に修正しました。 </change>
-          <change when="2025-02-21"><date> 2025年2月21日 </date> 巻39内膳（The Royal Meal Protocols）第34漬年料雑菜条（ [The Various Produce
-            Pickled Annually]）第1項において、 「ground wild ginger flowers, 3 <seg rend="italic"> to </seg> 〈requires salt, 3 <seg
-              rend="italic"> to </seg> 〉」の「〈requires salt, 3 <seg rend="italic"> to </seg> 〉」を「〈requires salt, 3 <seg
-              rend="italic"> shō </seg> 〉」に修正しました。 </change>
+          <listChange ana="正親">
+            <change/>
+          </listChange>
+          <listChange ana="内膳">
+            <change when="2025-02-21"><date> 2025年2月21日 </date> 巻39内膳（The Royal Meal
+              Protocols）第19供御月料条（[Monthly Provisions for Offerings to the Royal Table]）第3項において、「infusion
+              bonito and salted sea cucumber innards, 4 <seg rend="italic"> kin </seg> 5 <seg
+                rend="italic"> gō </seg> of each」の「4 <seg rend="italic"> kin </seg> 5 <seg rend="italic"
+                  > gō </seg> 」を、「4 <seg rend="italic"> shō </seg> 5 <seg rend="italic"> gō </seg>
+              」に修正しました。 </change>
+            <change when="2025-02-21"><date> 2025年2月21日 </date> 巻39内膳（The Royal Meal
+              Protocols）第34漬年料雑菜条（ [The Various Produce Pickled Annually]）第1項において、 「ground wild ginger
+              flowers, 3 <seg rend="italic"> to </seg> 〈requires salt, 3 <seg rend="italic"> to </seg>
+              〉」の「〈requires salt, 3 <seg rend="italic"> to </seg> 〉」を「〈requires salt, 3 <seg
+                rend="italic"> shō </seg> 〉」に修正しました。 </change>
+          </listChange>
         </listChange>
       </listChange>
     </revisionDesc>
