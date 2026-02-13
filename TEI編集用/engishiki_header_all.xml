@@ -1193,6 +1193,7 @@
         <rendition xml:id="indent13">margin-top: 13em;</rendition>
         <rendition xml:id="indent14">margin-top: 14em;</rendition>
         <rendition xml:id="indent18">margin-top: 18em;</rendition>
+        <rendition xml:id="hanging-indent"> display: block; padding-top: 1em; text-indent: -1em; </rendition>
         <rendition xml:id="width50">width: 50px;</rendition>
         <rendition xml:id="width80">width: 80px;</rendition>
         <rendition xml:id="width100">width: 100px;</rendition>
@@ -1204,18 +1205,20 @@
           <tagUsage gi="lb">行構成を保持。定型的な書式を持つ延喜式の記述構造を解析するために必須とする。</tagUsage>
           <!-- <s>タグの使い方としては斬新な感じがするので、今度具体例と一緒に検討させてください -->
           <tagUsage gi="s">書式（インデント等）を保持するために使用。</tagUsage>
-          <tagUsage gi="table">史料上の多段（段落）表現や、項目間の水平方向の配置を再現するために使用。各 <gi>cell</gi> に付与した <att>rendition</att>
-            （#width 等）により、視覚的な間隔や幅を制御する。</tagUsage>
+          <tagUsage gi="table">史料上の多段（段落）表現や、項目間の水平方向の配置を再現するために使用。各 <gi>cell</gi> に付与した <att>rendition</att> （#width
+            等）により、視覚的な間隔や幅を制御する。</tagUsage>
           <tagUsage gi="seg"
               >校訂文の朱書き表現（<att>style</att>="color:red"）、英訳の音表記（<att>rend</att>="italic"）、および英訳注の対象範囲の特定（<att>xml:id</att>）など、複数の視覚・論理表現を属性で制御する。</tagUsage>
           <tagUsage gi="ruby">現代語訳において、漢字の読みを示すために使用。</tagUsage>
-          <tagUsage gi="anchor">校異注の該当範囲（始点・終点）を指定するための空要素。<gi>app</gi> 要素の <att>from</att> および <att>to</att> から参照され、校注範囲を確定させるために使用する。</tagUsage>
-          <tagUsage gi="note"
-            >校異の詳細説明（<gi>app</gi> 内）、史料上の割注（<gi>measure</gi> 内）、条文要約（<att>type</att>="summary"）、訳者注（<att>type</att>="translatorsNotes"）、および典拠データ（<gi>standOff</gi>）における制度上の地域区分（<gi>trait</gi> 内）に使用。これら情報の性質や参照先、出現位置は、必要に応じて<att>place</att>、<att>type</att>、<att>target</att> の各属性により区別される。</tagUsage>
-          <tagUsage gi="measure"
-              >物品の数量・寸法を記述。品目とその総量を定義する外側の構造と、具体的な数値を保持する内側の構造を階層的に記述する。各タグの属性、すなわち <att>ana</att>（納税物の区分）、<att>commodity</att>（物品の種類）、<att>quantity</att>（数量）、<att>type</att>（寸法の種類【長・広・深等】）により、情報の詳細を明示する。</tagUsage>
-          <tagUsage gi="measureGrp"
-            >複数の単位を伴う計量値（斤と両など）を一つの論理的な測定値としてグループ化する場合、または特定の属性（<att>type</att>="width" 等）を共有する測定値の集合を示す場合に使用する。</tagUsage>
+          <tagUsage gi="anchor">校異注の該当範囲（始点・終点）を指定するための空要素。<gi>app</gi> 要素の <att>from</att> および <att>to</att>
+            から参照され、校注範囲を確定させるために使用する。</tagUsage>
+          <tagUsage gi="note">校異の詳細説明（<gi>app</gi> 内）、史料上の割注（<gi>measure</gi>
+              内）、条文要約（<att>type</att>="summary"）、訳者注（<att>type</att>="translatorsNotes"）、および典拠データ（<gi>standOff</gi>）における制度上の地域区分（<gi>trait</gi>
+              内）に使用。これら情報の性質や参照先、出現位置は、必要に応じて<att>place</att>、<att>type</att>、<att>target</att> の各属性により区別される。</tagUsage>
+          <tagUsage gi="measure">物品の数量・寸法を記述。品目とその総量を定義する外側の構造と、具体的な数値を保持する内側の構造を階層的に記述する。各タグの属性、すなわち
+              <att>ana</att>（納税物の区分）、<att>commodity</att>（物品の種類）、<att>quantity</att>（数量）、<att>type</att>（寸法の種類【長・広・深等】）により、情報の詳細を明示する。</tagUsage>
+          <tagUsage gi="measureGrp">複数の単位を伴う計量値（斤と両など）を一つの論理的な測定値としてグループ化する場合、または特定の属性（<att>type</att>="width"
+            等）を共有する測定値の集合を示す場合に使用する。</tagUsage>
           <tagUsage gi="unit">数量の単位（枚、丈、斤、両など）を示す。<att>unitRef</att> を通じてヘッダー内の単位定義（<gi>unitDecl</gi>）と連動させる。</tagUsage>
           <tagUsage gi="placeName">歴史地名。<gi>standOff</gi> 内の典拠情報とリンクし、空間情報の同定を行う。</tagUsage>
           <tagUsage gi="orgName">官司・官職名。<gi>standOff</gi> 内の典拠情報とリンクし、組織構造の同定を行う。</tagUsage>
