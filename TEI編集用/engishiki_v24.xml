@@ -3246,7 +3246,7 @@
               <placeName corresp="#紀伊国"> 紀伊 </placeName>
               <placeName corresp="#阿波国"> 阿波 </placeName>
               <lb/>
-              <s rendition="#indent"> 右十二国、並 <measure> 上糸 </measure> 、 </s>
+              <seg rendition="#indent"> 右十二国、並 <measure> 上糸 </measure> 、 </seg>
               <lb/>
               <placeName corresp="#伊賀国"> 伊賀 </placeName>
               <placeName corresp="#尾張国"> 尾張 </placeName>
@@ -3274,7 +3274,7 @@
               <placeName corresp="#豊後国"> 豊後 </placeName>
               <placeName corresp="#日向国"> 日向 </placeName>
               <lb/>
-              <s rendition="#indent"> 右廿五国、 <measure> 中糸 </measure> 、 </s>
+              <seg rendition="#indent"> 右廿五国、 <measure> 中糸 </measure> 、 </seg>
               <lb/>
               <placeName corresp="#駿河国"> 駿河 </placeName>
               <placeName corresp="#伊豆国"> 伊豆 </placeName>
@@ -3288,8 +3288,8 @@
               <placeName corresp="#上野国"> 上野 </placeName>
               <placeName corresp="#下野国"> 下野 </placeName>
               <lb/>
-              <s rendition="#indent"> 右十一国、 <measure><anchor xml:id="app2410050102"/> 麁 <anchor xml:id="app2410050102e"/> 糸
-                </measure> 、 </s>
+              <seg rendition="#indent"> 右十一国、 <measure><anchor xml:id="app2410050102"/> 麁 <anchor xml:id="app2410050102e"/> 糸
+                </measure> 、 </seg>
             </p>
             <app from="#app2410050101" to="#app2410050101e">
               <lem wit="#土本 #近本 #壬本 #京博本 #島原本 #藤波本 #貞享本 #玄梁本 #泉亭本 #享保版本"> 絇 </lem>
@@ -3338,8 +3338,8 @@
               <placeName corresp="#伊予国"> 伊予 </placeName>
               <placeName corresp="#土佐国"> 土左 </placeName>
               <lb/>
-              <s rendition="#indent1"> 右廿 <anchor xml:id="app2410060102"/> 九 <anchor xml:id="app2410060102e"/> 国、輸 <measure
-                  ana="#調" commodity="#絹"> 絹 </measure> 、 </s>
+              <seg rendition="#indent1"> 右廿 <anchor xml:id="app2410060102"/> 九 <anchor xml:id="app2410060102e"/> 国、輸 <measure
+                  ana="#調" commodity="#絹"> 絹 </measure> 、 </seg>
               <lb/>
               <placeName corresp="#駿河国"> 駿河 </placeName>
               <placeName corresp="#伊豆国"> 伊豆 </placeName>
@@ -3352,7 +3352,7 @@
               <placeName corresp="#上野国"> 上野 </placeName>
               <placeName corresp="#下野国"> 下野 </placeName>
               <lb/>
-              <s rendition="#indent1"> 右十国、輸 <measure ana="#調" commodity="#絁"> 絁 </measure> 、 </s>
+              <seg rendition="#indent1"> 右十国、輸 <measure ana="#調" commodity="#絁"> 絁 </measure> 、 </seg>
             </p>
             <app from="#app2410060101" to="#app2410060101e">
               <lem wit="#土本 #近本 #壬本 #京博本 #島原本 #藤波本 #貞享本 #玄梁本 #泉亭本 #享保版本"> 因幡 </lem>
@@ -4830,10 +4830,11 @@
                 白木韓櫃 <measure quantity="8"> 八 <unit unitRef="#合_set"> 合 </unit>
                 </measure>
               </measure> 、自余輸 <measure ana="#庸" commodity="#綿"> 綿 </measure> ・ <measure ana="#庸" commodity="#米"> 米 </measure>
-              、 <lb/> 中男作物、 <measure ana="#中男作物" commodity="#紙"> 紙 </measure> 、 <measure ana="#中男作物" commodity="#茜"> 茜 </measure> 、
-              <measure ana="#中男作物" commodity="#紅花"> 紅花 </measure> 、 <measure ana="#中男作物" commodity="#熟麻"> 熟麻 </measure> 、
-              <measure ana="#中男作物" commodity="#呉桃子"> 呉桃子 </measure> 、 <measure ana="#中男作物" commodity="#荏油"> 荏油 </measure> 、
-              <measure ana="#中男作物" commodity="#海藻"> 海藻 </measure> 、 <measure ana="#中男作物" commodity="#雑魚腊"> 雑魚腊 </measure> 、 </p>
+              、 <lb/> 中男作物、 <measure ana="#中男作物" commodity="#紙"> 紙 </measure> 、 <measure ana="#中男作物" commodity="#茜"> 茜
+              </measure> 、 <measure ana="#中男作物" commodity="#紅花"> 紅花 </measure> 、 <measure ana="#中男作物" commodity="#熟麻"> 熟麻
+              </measure> 、 <measure ana="#中男作物" commodity="#呉桃子"> 呉桃子 </measure> 、 <measure ana="#中男作物" commodity="#荏油"> 荏油
+              </measure> 、 <measure ana="#中男作物" commodity="#海藻"> 海藻 </measure> 、 <measure ana="#中男作物" commodity="#雑魚腊"> 雑魚腊
+              </measure> 、 </p>
             <app from="#app2410380101" to="#app2410380101e">
               <lem wit="#土本 #近本 #壬本 #京博本 #島原本 #藤波本 #貞享本 #玄梁本 #泉亭本 #享保版本"> 二 </lem>
               <note> 二　訳注本は本式47伯耆国条・48出雲国条により、この上に「十」を意補する。 </note>
@@ -6350,16 +6351,16 @@
               ・ <measure ana="#調" commodity="#糸"> 糸 </measure> ・ <measure ana="#調" commodity="#貲布"> 貲布 </measure> ・ <measure
                 ana="#調" commodity="#烏賊"> 烏賊 </measure> ・ <measure ana="#調" commodity="#雑魚楚割"><anchor xml:id="app2410700101"
                 /> 雑魚楚割 <anchor xml:id="app2410700101e"/>
-                </measure> 、 <lb/> 庸、輸 <measure ana="#庸" commodity="#綿"> 綿 </measure> ・ <measure ana="#庸" commodity="#米"> 米
-                </measure> 、 <lb/> 中男作物、 <measure ana="#中男作物" commodity="#防壁"> 防壁 </measure> 、 <measure ana="#中男作物" commodity="#韓薦">
-                  韓薦 </measure> 、 <measure ana="#中男作物" commodity="#折薦"> 折薦 </measure> 、 <measure ana="#中男作物" commodity="#黒葛"> 黒葛
-                  </measure> 、 <measure ana="#中男作物" commodity="#黄蘗皮"> 黄蘗皮 </measure> 、 <measure ana="#中男作物" commodity="#海石榴油"> 海石榴油
-                  </measure> 、 <measure ana="#中男作物" commodity="#胡麻油"> 胡 <anchor xml:id="app2410700102"/> 麻 <anchor
-                      xml:id="app2410700102e"/> 油 </measure> 、 <measure ana="#中男作物" commodity="#荏油"> 荏油 </measure> 、 <measure
-                        ana="#中男作物" commodity="#烏賊"> 烏賊 </measure> 、 <measure ana="#中男作物" commodity="#魚楚割"><anchor xml:id="app2410700103"/>
-                          魚 <anchor xml:id="app2410700103e"/> 楚割 </measure> 、 <measure ana="#中男作物" commodity="#鹿鮨"> 鹿鮨 </measure> 、
-              <measure ana="#中男作物" commodity="#猪鮨"> 猪鮨 </measure> 、 <measure ana="#中男作物" commodity="#漬塩年魚"> 漬塩年魚 </measure> 、
-              <measure ana="#中男作物" commodity="#鮨年魚"> 鮨年魚 </measure> 、 </p>
+              </measure> 、 <lb/> 庸、輸 <measure ana="#庸" commodity="#綿"> 綿 </measure> ・ <measure ana="#庸" commodity="#米"> 米
+              </measure> 、 <lb/> 中男作物、 <measure ana="#中男作物" commodity="#防壁"> 防壁 </measure> 、 <measure ana="#中男作物"
+                commodity="#韓薦"> 韓薦 </measure> 、 <measure ana="#中男作物" commodity="#折薦"> 折薦 </measure> 、 <measure ana="#中男作物"
+                commodity="#黒葛"> 黒葛 </measure> 、 <measure ana="#中男作物" commodity="#黄蘗皮"> 黄蘗皮 </measure> 、 <measure ana="#中男作物"
+                commodity="#海石榴油"> 海石榴油 </measure> 、 <measure ana="#中男作物" commodity="#胡麻油"> 胡 <anchor xml:id="app2410700102"
+                /> 麻 <anchor xml:id="app2410700102e"/> 油 </measure> 、 <measure ana="#中男作物" commodity="#荏油"> 荏油 </measure> 、
+                <measure ana="#中男作物" commodity="#烏賊"> 烏賊 </measure> 、 <measure ana="#中男作物" commodity="#魚楚割"><anchor
+                  xml:id="app2410700103"/> 魚 <anchor xml:id="app2410700103e"/> 楚割 </measure> 、 <measure ana="#中男作物"
+                commodity="#鹿鮨"> 鹿鮨 </measure> 、 <measure ana="#中男作物" commodity="#猪鮨"> 猪鮨 </measure> 、 <measure ana="#中男作物"
+                commodity="#漬塩年魚"> 漬塩年魚 </measure> 、 <measure ana="#中男作物" commodity="#鮨年魚"> 鮨年魚 </measure> 、 </p>
             <app from="#app2410700101" to="#app2410700101e">
               <lem wit="#島原本 #享保版本 #近本抹消 #京博本朱抹消"> 雑魚楚割 </lem>
               <rdg wit="#土本 #壬本 #藤波本 #貞享本 #玄梁本 #泉亭本"> 雑魚楚雑魚楚割 </rdg>
