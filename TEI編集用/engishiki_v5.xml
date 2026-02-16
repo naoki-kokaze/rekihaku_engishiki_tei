@@ -567,111 +567,52 @@
       </editorialDecl>
       <editorialDecl ana="校訂文凡例">
         <p ana="全体">
-          <table>
-            <row>
-              <cell> ・ </cell>
-              <cell> 原則として土本（以下、略称は「主要写本・版本・刊本等略称・底本一覧」参照）を底本とし、九本・剛本・条本・花本等の古写本や近本・壬本・京博本等の写本によって対校しました（巻によって使用した対校本は異なります）。
-              </cell>
-            </row>
-            <row>
-              <cell> ・ </cell>
-              <cell> 条文番号・条文名称は原則として訳注本に拠りましたが、一部を修正しています（※下記「条文名称修正一覧」参照）。なお1条が長い場合など、必要に応じ「項」に分割して示すこととしました。 </cell>
-            </row>
-            <row>
-              <cell> ・ </cell>
-              <cell>
-                校異は原則として底本の文字を改変する場合、あるいは写本間に参考とすべき異同がある場合、参考とすべき傍書等がある場合に付すこととしました。必ずしもその校異に関する写本をすべて網羅することはせず、主要写本のみを取り上げています。ただし訳注本と校訂文に異同が生じた場合には、できる限り校異にて言及するよう心がけました（単なる字体の相違については省略しています）。
-              </cell>
-            </row>
-            <row>
-              <cell> ・ </cell>
-              <cell>
-                校訂文は『延喜式』撰上当初の姿の復元を目標としています。標注や傍書は、条文名称に関わるものは省略し、中世以前にさかのぼることが想定されるものに限って、校異注で言及することとしました。ただし標注のうち「弘」「貞」「延」等については便宜を考え、鉤括弧で括って校訂本文に掲げることとしました。
-              </cell>
-            </row>
-            <row>
-              <cell> ・ </cell>
-              <cell>
-                字体は常用漢字体を原則としました。「大」と「太」、「座」と「坐」、「絇」と「約」、「績」と「續（続）」、「色」と「包」、「細」と「紬」、「鈍」と「純」、「冑」と「胃」、「絁」と「絶」、草冠と竹冠、木偏と手偏等、容易に判定される誤字や誤用・通用については、校異を省略して適宜置き換える場合があります。ただし巻9・10においては「大」「太」の差異も校異にて触れることとしました。
-              </cell>
-            </row>
-            <row>
-              <cell> ・ </cell>
-              <cell> 校訂文中の細字・割書は、〈　〉で括って表現することとしました。 </cell>
-            </row>
-            <row>
-              <cell> ・ </cell>
-              <cell> 本文に誤字・脱字等が想定される場合であっても、置き換えるべき文字や補うべき文字が明確でない場合は、校異注での言及にとどめた場合があります。 </cell>
-            </row>
-            <row>
-              <cell> ・ </cell>
-              <cell> ユニコードにて表示されない漢字は以下のように示すことにしました。 </cell>
-            </row>
-          </table>
+          <seg rendition="#hanging-1"
+            >・原則として土本（以下、略称は「主要写本・版本・刊本等略称・底本一覧」参照）を底本とし、九本・剛本・条本・花本等の古写本や近本・壬本・京博本等の写本によって対校しました（巻によって使用した対校本は異なります）。</seg>
+          <lb/><seg rendition="#hanging-1"
+            >・条文番号・条文名称は原則として訳注本に拠りましたが、一部を修正しています（※下記「条文名称修正一覧」参照）。なお1条が長い場合など、必要に応じ「項」に分割して示すこととしました。</seg>
+          <lb/><seg rendition="#hanging-1"
+            >・校異は原則として底本の文字を改変する場合、あるいは写本間に参考とすべき異同がある場合、参考とすべき傍書等がある場合に付すこととしました。必ずしもその校異に関する写本をすべて網羅することはせず、主要写本のみを取り上げています。ただし訳注本と校訂文に異同が生じた場合には、できる限り校異にて言及するよう心がけました（単なる字体の相違については省略しています）。</seg>
+          <lb/><seg rendition="#hanging-1"
+            >・校訂文は『延喜式』撰上当初の姿の復元を目標としています。標注や傍書は、条文名称に関わるものは省略し、中世以前にさかのぼることが想定されるものに限って、校異注で言及することとしました。ただし標注のうち「弘」「貞」「延」等については便宜を考え、鉤括弧で括って校訂本文に掲げることとしました。</seg>
+          <lb/><seg rendition="#hanging-1"
+            >・字体は常用漢字体を原則としました。「大」と「太」、「座」と「坐」、「絇」と「約」、「績」と「續（続）」、「色」と「包」、「細」と「紬」、「鈍」と「純」、「冑」と「胃」、「絁」と「絶」、草冠と竹冠、木偏と手偏等、容易に判定される誤字や誤用・通用については、校異を省略して適宜置き換える場合があります。ただし巻9・10においては「大」「太」の差異も校異にて触れることとしました。</seg>
+          <lb/><seg rendition="#hanging-1">・校訂文中の細字・割書は、〈　〉で括って表現することとしました。</seg>
+          <lb/><seg rendition="#hanging-1">・本文に誤字・脱字等が想定される場合であっても、置き換えるべき文字や補うべき文字が明確でない場合は、校異注での言及にとどめた場合があります。</seg>
+          <lb/><seg rendition="#hanging-1">・ユニコードにて表示されない漢字は以下のように示すことにしました。</seg>
           <table rendition="#indent2">
             <row>
-              <cell rendition="#width100"> 【Ａ+Ｂ】 </cell>
-              <cell rendition="#width300"> ＝扁がＡ、つくりがＢ </cell>
-              <cell rendition="#width300"> 例）村【木+寸】 </cell>
+              <cell rendition="#width200"> 【Ａ+Ｂ】 </cell>
+              <cell rendition="#width400"> ＝扁がＡ、つくりがＢ </cell>
+              <cell rendition="#width500"> 例）村【木+寸】 </cell>
             </row>
             <row>
-              <cell rendition="#width100"> 【Ａ/Ｂ】 </cell>
-              <cell rendition="#width300"> ＝上にＡ、下にＢ </cell>
-              <cell rendition="#width300"> 例）雲【雨/云】 </cell>
+              <cell rendition="#width200"> 【Ａ/Ｂ】 </cell>
+              <cell rendition="#width400"> ＝上にＡ、下にＢ </cell>
+              <cell rendition="#width500"> 例）雲【雨/云】 </cell>
             </row>
             <row>
-              <cell rendition="#width100"> 【Ａ-Ｂ】 </cell>
-              <cell rendition="#width300"> ＝Ａの字画よりＢにあたる字画を除く </cell>
-              <cell rendition="#width300"> 例）門【閉-オ】 </cell>
+              <cell rendition="#width200"> 【Ａ-Ｂ】 </cell>
+              <cell rendition="#width400"> ＝Ａの字画よりＢにあたる字画を除く </cell>
+              <cell rendition="#width500"> 例）門【閉-オ】 </cell>
             </row>
             <row>
-              <cell rendition="#width100"> 【Ａ⊃Ｂ】 </cell>
-              <cell rendition="#width300"> ＝Ａの字画のなかにＢの字画が含まれる </cell>
-              <cell rendition="#width300"> 例）閉【門⊃オ】、国【囗⊃玉】 </cell>
+              <cell rendition="#width200"> 【Ａ⊃Ｂ】 </cell>
+              <cell rendition="#width400"> ＝Ａの字画のなかにＢの字画が含まれる </cell>
+              <cell rendition="#width500"> 例）閉【門⊃オ】、国【囗⊃玉】 </cell>
             </row>
             <row>
-              <cell rendition="#width100"> 【（Ａ/Ｂ）+Ｃ】、【Ａ/（Ｂ⊃Ｃ）】 </cell>
-              <cell rendition="#width300"> ＝字画が三つ以上、かつ異なる方法で字画が組み合う </cell>
-              <cell rendition="#width300"> 例）雑【（九/木）+隹】、懸【（県+系）/心】、薗【艹/（口⊃袁）】 </cell>
-            </row>
-            <row>
-              <cell/>
-              <cell/>
-              <cell> （班【王+リ+王】、窓【宀/公/心】はすべての字画が一つの方法で組み合うため、（　）なし。） </cell>
+              <cell rendition="#width200"> 【（Ａ/Ｂ）+Ｃ】<lb/>【Ａ/（Ｂ⊃Ｃ）】 </cell>
+              <cell rendition="#width400"> ＝字画が三つ以上、かつ異なる方法で字画が組み合う </cell>
+              <cell rendition="#width500"> 例）雑【（九/木）+隹】、懸【（県+系）/心】、薗【艹/（口⊃袁）】 </cell>
             </row>
           </table>
-          <table>
-            <row>
-              <cell> ・ </cell>
-              <cell> 校異注の付く文字は赤字および青字で表示され、クリックすると注が表示されます。表示内容は以下の通りです。 </cell>
-            </row>
-          </table>
-          <table rendition="#indent2">
-            <row>
-              <cell rendition="#width100"> 採用 </cell>
-              <cell> 写本名と校訂文にて採用した文字 </cell>
-            </row>
-            <row>
-              <cell rendition="#width100"> 校異 </cell>
-              <cell> 写本名と対校箇所の文字 </cell>
-            </row>
-            <row>
-              <cell rendition="#width100"> 解説 </cell>
-              <cell> 各写本の傍書や頭書等の提示、校異注の本文（最下部の解説） </cell>
-            </row>
-            <row>
-              <cell/>
-            </row>
-            <row>
-              <cell/>
-            </row>
-          </table>
-          <table>
-            <row>
-              <cell> ・ </cell>
-              <cell> 条文名称修正一覧 </cell>
-            </row>
-          </table>
+          <lb/><seg>（班【王+リ+王】、窓【宀/公/心】はすべての字画が一つの方法で組み合うため、（　）なし。）</seg>
+          <lb/><seg rendition="#hanging-1">・校異注の付く文字は赤字および青字で表示され、クリックすると注が表示されます。表示内容は以下の通りです。</seg>
+          <lb/><seg rendition="#indet2_hanging-3">採用　写本名と校訂文にて採用した文字</seg>
+          <lb/><seg rendition="#indet2_hanging-3">校異　写本名と対校箇所の文字</seg>
+          <lb/><seg rendition="#indet2_hanging-3">解説　各写本の傍書や頭書等の提示、校異注の本文（最下部の解説）</seg>
+          <lb/><seg rendition="#hanging-1">・条文名称修正一覧</seg>
           <table rendition="#indent2">
             <row>
               <cell rendition="#width100"> 巻番号 </cell>
@@ -752,102 +693,31 @@
             </row>
           </table>
         </p>
-        <p ana="個別"> 校訂文凡例 <table>
-            <row>
-              <cell> ・ </cell>
-              <cell> 校訂に使用した写本とその略称は以下のとおりです。 </cell>
-            </row>
-          </table>
-          <table rendition="#indent2">
-            <row>
-              <cell rendition="#width100"> 土本 </cell>
-              <cell> 国立歴史民俗博物館所蔵土御門家旧蔵本（H-743-74） </cell>
-            </row>
-            <row>
-              <cell rendition="#width100"> 条本 </cell>
-              <cell> 一条家巻子本（神宮司庁刊影印本） </cell>
-            </row>
-            <row>
-              <cell rendition="#width100"> 近本 </cell>
-              <cell> 京都大学附属図書館所蔵近衛文庫本（2-03/エ/1貴） </cell>
-            </row>
-            <row>
-              <cell rendition="#width100"> 九冊本 </cell>
-              <cell> 國學院大學所蔵九条家・西田長男旧蔵冊子本（西田長男刊影印本による） </cell>
-            </row>
-            <row>
-              <cell rendition="#width100"> 京博本 </cell>
-              <cell> 京都国立博物館所蔵旧京都博物館本 </cell>
-            </row>
-            <row>
-              <cell rendition="#width100"> 梵本 </cell>
-              <cell> 天理大学附属天理図書館所蔵吉田文庫梵舜等筆本（吉16-8） </cell>
-            </row>
-            <row>
-              <cell rendition="#width100"> 慶長本 </cell>
-              <cell> 国立公文書館所蔵慶長写本（特102-8） </cell>
-            </row>
-            <row>
-              <cell rendition="#width100"> 藤波本 </cell>
-              <cell> 宮内庁書陵部図書寮文庫所蔵藤波家旧蔵本（217-473） </cell>
-            </row>
-            <row>
-              <cell rendition="#width100"> 貞享本 </cell>
-              <cell> 宮内庁書陵部図書寮文庫所蔵和学講談所旧蔵坊城俊方貞享五年写本（457-116） </cell>
-            </row>
-            <row>
-              <cell rendition="#width100"> 玄梁本 </cell>
-              <cell> 無窮会専門図書館所蔵神習文庫玄梁記名本（神習3666） </cell>
-            </row>
-            <row>
-              <cell rendition="#width100"> 鈴鹿本 </cell>
-              <cell> 大和文華館所蔵鈴鹿連胤旧蔵慶安版本（745）書入 </cell>
-            </row>
-          </table>
-          <table>
-            <row>
-              <cell> ・ </cell>
-              <cell> 土本を底本とし、諸本との異同に関する解説は底本の文字を改変する場合、あるいは内容を理解する上で参考となる場合に限り掲載します。 </cell>
-            </row>
-            <row>
-              <cell> ・ </cell>
-              <cell> 条文番号・条文名称は原則として虎尾俊哉編『訳注日本史料　延喜式』〔集英社、「訳注本」と略称〕に従います。一条文が長文にわたる場合には、適宜（1）（2）等の項目番号を私に付し、分割して表示します。
-              </cell>
-            </row>
-            <row>
-              <cell> ・ </cell>
-              <cell> 活字本との異同は原則として訳注本を示すにとどめます。 </cell>
-            </row>
-            <row>
-              <cell> ・ </cell>
-              <cell> 明らかに誤字・脱字が推測される場合でも、補うべき字あるいは改めるべき字の根拠が充分でない場合には、注で示すにとどめます。 </cell>
-            </row>
-            <row>
-              <cell> ・ </cell>
-              <cell> 同じ字が連続する場合、多くの場合、写本では踊り字が用いられていますが、特に断ることなく、もとの字に置き換えた場合があります。そのまま踊り字を使用する場合、もとの字に置き換えている訳注本との異同は省略しました。
-              </cell>
-            </row>
-            <row>
-              <cell> ・ </cell>
-              <cell> 原則として常用字を使用します。細字は〈　〉で括って示します。 </cell>
-            </row>
-            <row>
-              <cell> ・ </cell>
-              <cell>
-                「大」と「太」、「少」と「小」、「絇」と「約」、「互」と「牙」、「暑」と「署」等、容易に判定される誤字や誤用・通用については、校異を省略して適宜置き換えた場合があります。なお、計量単位の「夕」「勺」の字体について、諸写本ではすべて「夕」を用いているため、「夕」を使用することとし、「勺」を使用する訳注本との異同は省略しました。
-              </cell>
-            </row>
-            <row>
-              <cell> ・ </cell>
-              <cell> 条文名に関する鼇頭標目については省略します。 </cell>
-            </row>
-            <row>
-              <cell> ・ </cell>
-              <cell>
-                版本について言及する際、雲州版を除く、慶安本も含めた流布版本を指す場合には単に「版本」と称し、明暦修訂本以降の版本を指す場合には「明暦以降版本」と称することとします。雲州版の『延喜式考異』は「考異」と略称します。
-              </cell>
-            </row>
-          </table>
+        <p ana="個別"> 校訂文凡例 <lb/><seg rendition="#hanging-1">・校訂に使用した写本とその略称は以下のとおりです。</seg>
+          <lb/><seg rendition="#indet2_hanging-4">土本　国立歴史民俗博物館所蔵土御門家旧蔵本（H-743-74）</seg>
+          <lb/><seg rendition="#indet2_hanging-4">条本　一条家巻子本（神宮司庁刊影印本）</seg>
+          <lb/><seg rendition="#indet2_hanging-4">近本　京都大学附属図書館所蔵近衛文庫本（2-03/エ/1貴）</seg>
+          <lb/><seg rendition="#indet2_hanging-4">九冊本　國學院大學所蔵九条家・西田長男旧蔵冊子本（西田長男刊影印本による）</seg>
+          <lb/><seg rendition="#indet2_hanging-4">京博本　京都国立博物館所蔵旧京都博物館本</seg>
+          <lb/><seg rendition="#indet2_hanging-4">梵本　天理大学附属天理図書館所蔵吉田文庫梵舜等筆本（吉16-8）</seg>
+          <lb/><seg rendition="#indet2_hanging-4">慶長本　国立公文書館所蔵慶長写本（特102-8）</seg>
+          <lb/><seg rendition="#indet2_hanging-4">藤波本　宮内庁書陵部図書寮文庫所蔵藤波家旧蔵本（217-473）</seg>
+          <lb/><seg rendition="#indet2_hanging-4">貞享本　宮内庁書陵部図書寮文庫所蔵和学講談所旧蔵坊城俊方貞享五年写本（457-116）</seg>
+          <lb/><seg rendition="#indet2_hanging-4">玄梁本　無窮会専門図書館所蔵神習文庫玄梁記名本（神習3666）</seg>
+          <lb/><seg rendition="#indet2_hanging-4">鈴鹿本　大和文華館所蔵鈴鹿連胤旧蔵慶安版本（745）書入</seg>
+          <lb/><seg rendition="#hanging-1">・土本を底本とし、諸本との異同に関する解説は底本の文字を改変する場合、あるいは内容を理解する上で参考となる場合に限り掲載します。</seg>
+          <lb/><seg rendition="#hanging-1"
+            >・条文番号・条文名称は原則として虎尾俊哉編『訳注日本史料　延喜式』〔集英社、「訳注本」と略称〕に従います。一条文が長文にわたる場合には、適宜（1）（2）等の項目番号を私に付し、分割して表示します。</seg>
+          <lb/><seg rendition="#hanging-1">・活字本との異同は原則として訳注本を示すにとどめます。</seg>
+          <lb/><seg rendition="#hanging-1">・明らかに誤字・脱字が推測される場合でも、補うべき字あるいは改めるべき字の根拠が充分でない場合には、注で示すにとどめます。</seg>
+          <lb/><seg rendition="#hanging-1"
+            >・同じ字が連続する場合、多くの場合、写本では踊り字が用いられていますが、特に断ることなく、もとの字に置き換えた場合があります。そのまま踊り字を使用する場合、もとの字に置き換えている訳注本との異同は省略しました。</seg>
+          <lb/><seg rendition="#hanging-1">・原則として常用字を使用します。細字は〈　〉で括って示します。</seg>
+          <lb/><seg rendition="#hanging-1"
+            >・「大」と「太」、「少」と「小」、「絇」と「約」、「互」と「牙」、「暑」と「署」等、容易に判定される誤字や誤用・通用については、校異を省略して適宜置き換えた場合があります。なお、計量単位の「夕」「勺」の字体について、諸写本ではすべて「夕」を用いているため、「夕」を使用することとし、「勺」を使用する訳注本との異同は省略しました。</seg>
+          <lb/><seg rendition="#hanging-1">・条文名に関する鼇頭標目については省略します。</seg>
+          <lb/><seg rendition="#hanging-1"
+            >・版本について言及する際、雲州版を除く、慶安本も含めた流布版本を指す場合には単に「版本」と称し、明暦修訂本以降の版本を指す場合には「明暦以降版本」と称することとします。雲州版の『延喜式考異』は「考異」と略称します。</seg>
         </p>
       </editorialDecl>
       <variantEncoding location="external" method="location-referenced"/>
@@ -864,6 +734,10 @@
         <rendition xml:id="indent13"> margin-top: 13em; </rendition>
         <rendition xml:id="indent14"> margin-top: 14em; </rendition>
         <rendition xml:id="indent18"> margin-top: 18em; </rendition>
+        <rendition xml:id="hanging-1"> display: block; padding-top: 1em; text-indent: -1em; </rendition>
+        <rendition xml:id="hanging-3"> display: block; padding-top: 3em; text-indent: -3em; </rendition>
+        <rendition xml:id="indet2_hanging-3"> display: block; padding-top: 5em; text-indent: -3em; </rendition>
+        <rendition xml:id="indet2_hanging-4"> display: block; padding-top: 6em; text-indent: -4em; </rendition>
         <rendition xml:id="width50"> width: 50px; </rendition>
         <rendition xml:id="width80"> width: 80px; </rendition>
         <rendition xml:id="width100"> width: 100px; </rendition>
@@ -3322,8 +3196,8 @@
               <anchor xml:id="app0510700101"/> 斎 <anchor xml:id="app0510700101e"/>
               内親王板牀二張、紫端帖二枚、黄端帖二枚、緑端帖六枚、席廿枚、五位及命婦各板牀二張、黄端帖二枚、乳母各板牀一張、緑端帖一枚、 <orgName corresp="#斎宮寮"> 寮 </orgName>
               助板牀・楉牀各一張、折薦帖二枚、自余官人・女孺牀帖各一枚、番上各帖一枚、 <lb/>
-              <seg rendition="#indent"> 右、斎内親王向国鋪設、初年 <placeName corresp="#伊勢国"> 当国 </placeName> 供之、後年 <orgName corresp="#斎宮寮">
-                  寮 </orgName> 司備之、 </seg>
+              <seg rendition="#indent"> 右、斎内親王向国鋪設、初年 <placeName corresp="#伊勢国"> 当国 </placeName> 供之、後年 <orgName
+                  corresp="#斎宮寮"> 寮 </orgName> 司備之、 </seg>
             </p>
             <app from="#app0510700101" to="#app0510700101e">
               <lem wit="#条本 #九冊本"> 斎 </lem>
@@ -3337,7 +3211,7 @@
             <p ana="項" corresp="engishiki_v5_ja.xml#item05107003 engishiki_v5_en.xml#item05107003" xml:id="item05107003">
               酒卌甕、〈甕別米三石七斗、〉酢五甕、〈甕別三石七斗、〉醤六甕、〈 <anchor xml:id="app0510700301"/> 別 <anchor xml:id="app0510700301e"/> 大豆三石、〉 <lb/>
               <seg rendition="#indent"> 右、斎内親王初到之年、国司預割可納 <orgName corresp="#斎宮寮"> 寮 </orgName> 米・大豆・塩等、造儲供之、若有甕破壊者、令
-                <placeName corresp="#尾張国"> 尾張国 </placeName> 供送、 </seg>
+                  <placeName corresp="#尾張国"> 尾張国 </placeName> 供送、 </seg>
             </p>
             <app from="#app0510700301" to="#app0510700301e">
               <lem wit="#土本 #条本 #近本 #藤波本 #京博本"> 別 </lem>
