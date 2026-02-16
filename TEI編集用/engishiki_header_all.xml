@@ -10,7 +10,6 @@
         <respStmt>
           <resp>プロジェクトリーダー</resp>
           <persName>三上喜孝</persName>
-          <!--@ref属性の付与は必須とするか、希望制でもよいでしょうか -->
           <note>「延喜式のデジタル技術による汎用化」（2022～）の責任者（2025～）</note>
         </respStmt>
         <respStmt>
@@ -119,7 +118,6 @@
         <authority> 国立歴史民俗博物館 </authority>
         <distributor> 国立歴史民俗博物館メタ資料学研究センター </distributor>
         <publisher> 国立歴史民俗博物館メタ資料学研究センター </publisher>
-        <!--下記のidnoですが、別のふさわしいものがありそうです。少なくともdepchaはオーストリアの別プロジェクトとの連携の名残りなので、変更を検討しましょう。-->
         <idno type="PID"> o:depcha.engi_shiki.1 </idno>
         <availability status="free">
           <p>本データは国立歴史民俗博物館の利用規定に基づき公開されています。</p>
@@ -605,10 +603,10 @@
               <title> 土御門本『延喜式』 </title>
               <colophon> 書写奥書は無し。巻九・十に文亀三年（1503）の吉田兼倶本奥書あり。 </colophon>
               <filiation>
-                <p>本写本は、『延喜式』諸本の中でも全巻が揃う数少ない新写本（土御門本）の一本であり、善本として知られる。</p>
+                <p>本写本は、『延喜式』諸本の中でも全巻が揃う数少ない新写本の一本であり、善本として知られる。</p>
                 <p>系統としては一条家本を親本としたと推測されるが、本写本の書写段階で欠落していた巻十三については版本によって補填されている。巻十三は九条家旧蔵巻子本が現存諸本の祖本となる。</p>
-                <p>なお、『延喜式』の原本は現存せず、古写本として東京国立博物館所蔵九条家旧蔵巻子本、天野山金剛寺所蔵本（金剛寺本）等が現存するが、全巻すべてが揃うものはない。</p>
-                <p>本写本以外の主要写本には、京都国立博物館所蔵本（京都博物館本）・京都大学附属図書館所蔵近衛家旧蔵本・天理大学附属天理図書館所蔵本（梵舜本・梵舜別本）・宮内庁書陵部所蔵本（
+                <p>なお、『延喜式』の原本は現存せず、古写本として東京国立博物館所蔵九条家旧蔵巻子本、天野山金剛寺所蔵本等が現存するが、全巻すべてが揃うものはない。</p>
+                <p>写本以外の主要写本には、京都国立博物館所蔵本（京都博物館本）・京都大学附属図書館所蔵近衛家旧蔵本・天理大学附属天理図書館所蔵本（梵舜本・梵舜別本）・宮内庁書陵部所蔵本（
                   壬生家旧蔵本・藤波家旧蔵本）・国立公文書館所蔵本（紅葉山文庫旧蔵慶長写本・林家旧蔵本）等がある。</p>
               </filiation>
             </msItemStruct>
@@ -631,7 +629,7 @@
             </objectDesc>
             <bindingDesc>
               <binding>
-                <p>渋染栗皮色の表紙。まず左下に墨書で巻数、左上に胡粉で延喜式と直書きされており、そして左下に胡粉で巻数が上書きされている。右上には、巻の内容を表す式名やその略称が胡粉で直書きされている。表紙の心紙には楮紙でできた反故紙が使用されている。押し八双あり。</p>
+                <p>渋染栗皮色の表紙。まず左下に墨書で巻数、左上に胡粉で延喜式と直書きされており、そして左下に胡粉で巻数が上書きされている。右上には、巻の内容を表す式名やその略称が胡粉で直書きされている。表紙の心紙には楮紙でできた反故紙が使用されている。巻十三以外に押し八双あり。</p>
               </binding>
             </bindingDesc>
           </physDesc>
@@ -915,197 +913,130 @@
         </p>
       </editorialDecl>
       <editorialDecl ana="校訂文凡例">
-        <!-- ですます調になっているので全体で統一した方が良さそうですね -->
         <p ana="全体">
-          <table>
-            <row>
-              <cell>・</cell>
-              <cell>原則として土本（以下、略称は「主要写本・版本・刊本等略称・底本一覧」参照）を底本とし、九本・剛本・条本・花本等の古写本や近本・壬本・京博本等の写本によって対校しました（巻によって使用した対校本は異なります）。</cell>
-            </row>
-            <row>
-              <cell>・</cell>
-              <cell>条文番号・条文名称は原則として訳注本に拠りましたが、一部を修正しています（※下記「条文名称修正一覧」参照）。なお1条が長い場合など、必要に応じ「項」に分割して示すこととしました。</cell>
-            </row>
-            <row>
-              <cell>・</cell>
-              <cell>校異は原則として底本の文字を改変する場合、あるいは写本間に参考とすべき異同がある場合、参考とすべき傍書等がある場合に付すこととしました。必ずしもその校異に関する写本をすべて網羅することはせず、主要写本のみを取り上げています。ただし訳注本と校訂文に異同が生じた場合には、できる限り校異にて言及するよう心がけました（単なる字体の相違については省略しています）。</cell>
-            </row>
-            <row>
-              <cell>・</cell>
-              <cell>校訂文は『延喜式』撰上当初の姿の復元を目標としています。標注や傍書は、条文名称に関わるものは省略し、中世以前にさかのぼることが想定されるものに限って、校異注で言及することとしました。ただし標注のうち「弘」「貞」「延」等については便宜を考え、鉤括弧で括って校訂本文に掲げることとしました。</cell>
-            </row>
-            <row>
-              <cell>・</cell>
-              <cell>字体は常用漢字体を原則としました。「大」と「太」、「座」と「坐」、「絇」と「約」、「績」と「續（続）」、「色」と「包」、「細」と「紬」、「鈍」と「純」、「冑」と「胃」、「絁」と「絶」、草冠と竹冠、木偏と手偏等、容易に判定される誤字や誤用・通用については、校異を省略して適宜置き換える場合があります。ただし巻9・10においては「大」「太」の差異も校異にて触れることとしました。</cell>
-            </row>
-            <row>
-              <cell>・</cell>
-              <cell>校訂文中の細字・割書は、〈　〉で括って表現することとしました。</cell>
-            </row>
-            <row>
-              <cell>・</cell>
-              <cell>本文に誤字・脱字等が想定される場合であっても、置き換えるべき文字や補うべき文字が明確でない場合は、校異注での言及にとどめた場合があります。</cell>
-            </row>
-            <row>
-              <cell>・</cell>
-              <cell>ユニコードにて表示されない漢字は以下のように示すことにしました。</cell>
-            </row>
-          </table>
+          <seg rendition="#hanging-1"
+            >・原則として土本（以下、略称は「主要写本・版本・刊本等略称・底本一覧」参照）を底本とし、九本・剛本・条本・花本等の古写本や近本・壬本・京博本等の写本によって対校しました（巻によって使用した対校本は異なります）。</seg>
+          <lb/><seg rendition="#hanging-1"
+            >・条文番号・条文名称は原則として訳注本に拠りましたが、一部を修正しています（※下記「条文名称修正一覧」参照）。なお1条が長い場合など、必要に応じ「項」に分割して示すこととしました。</seg>
+          <lb/><seg rendition="#hanging-1"
+            >・校異は原則として底本の文字を改変する場合、あるいは写本間に参考とすべき異同がある場合、参考とすべき傍書等がある場合に付すこととしました。必ずしもその校異に関する写本をすべて網羅することはせず、主要写本のみを取り上げています。ただし訳注本と校訂文に異同が生じた場合には、できる限り校異にて言及するよう心がけました（単なる字体の相違については省略しています）。</seg>
+          <lb/><seg rendition="#hanging-1"
+            >・校訂文は『延喜式』撰上当初の姿の復元を目標としています。標注や傍書は、条文名称に関わるものは省略し、中世以前にさかのぼることが想定されるものに限って、校異注で言及することとしました。ただし標注のうち「弘」「貞」「延」等については便宜を考え、鉤括弧で括って校訂本文に掲げることとしました。</seg>
+          <lb/><seg rendition="#hanging-1"
+            >・字体は常用漢字体を原則としました。「大」と「太」、「座」と「坐」、「絇」と「約」、「績」と「續（続）」、「色」と「包」、「細」と「紬」、「鈍」と「純」、「冑」と「胃」、「絁」と「絶」、草冠と竹冠、木偏と手偏等、容易に判定される誤字や誤用・通用については、校異を省略して適宜置き換える場合があります。ただし巻9・10においては「大」「太」の差異も校異にて触れることとしました。</seg>
+          <lb/><seg rendition="#hanging-1">・校訂文中の細字・割書は、〈　〉で括って表現することとしました。</seg>
+          <lb/><seg rendition="#hanging-1">・本文に誤字・脱字等が想定される場合であっても、置き換えるべき文字や補うべき文字が明確でない場合は、校異注での言及にとどめた場合があります。</seg>
+          <lb/><seg rendition="#hanging-1">・ユニコードにて表示されない漢字は以下のように示すことにしました。</seg>
           <table rendition="#indent2">
             <row>
-              <cell rendition="#width100">【Ａ+Ｂ】</cell>
-              <cell rendition="#width300">＝扁がＡ、つくりがＢ</cell>
-              <cell rendition="#width300">例）村【木+寸】</cell>
+              <cell rendition="#width200"> 【Ａ+Ｂ】 </cell>
+              <cell rendition="#width400"> ＝扁がＡ、つくりがＢ </cell>
+              <cell rendition="#width500"> 例）村【木+寸】 </cell>
             </row>
             <row>
-              <cell rendition="#width100">【Ａ/Ｂ】</cell>
-              <cell rendition="#width300">＝上にＡ、下にＢ</cell>
-              <cell rendition="#width300">例）雲【雨/云】</cell>
+              <cell rendition="#width200"> 【Ａ/Ｂ】 </cell>
+              <cell rendition="#width400"> ＝上にＡ、下にＢ </cell>
+              <cell rendition="#width500"> 例）雲【雨/云】 </cell>
             </row>
             <row>
-              <cell rendition="#width100">【Ａ-Ｂ】</cell>
-              <cell rendition="#width300">＝Ａの字画よりＢにあたる字画を除く</cell>
-              <cell rendition="#width300">例）門【閉-オ】</cell>
+              <cell rendition="#width200"> 【Ａ-Ｂ】 </cell>
+              <cell rendition="#width400"> ＝Ａの字画よりＢにあたる字画を除く </cell>
+              <cell rendition="#width500"> 例）門【閉-オ】 </cell>
             </row>
             <row>
-              <cell rendition="#width100">【Ａ⊃Ｂ】</cell>
-              <cell rendition="#width300">＝Ａの字画のなかにＢの字画が含まれる</cell>
-              <cell rendition="#width300">例）閉【門⊃オ】、国【囗⊃玉】</cell>
+              <cell rendition="#width200"> 【Ａ⊃Ｂ】 </cell>
+              <cell rendition="#width400"> ＝Ａの字画のなかにＢの字画が含まれる </cell>
+              <cell rendition="#width500"> 例）閉【門⊃オ】、国【囗⊃玉】 </cell>
             </row>
             <row>
-              <cell rendition="#width100">【（Ａ/Ｂ）+Ｃ】、【Ａ/（Ｂ⊃Ｃ）】</cell>
-              <cell rendition="#width300">＝字画が三つ以上、かつ異なる方法で字画が組み合う</cell>
-              <cell rendition="#width300">例）雑【（九/木）+隹】、懸【（県+系）/心】、薗【艹/（口⊃袁）】</cell>
-            </row>
-            <row>
-              <cell/>
-              <cell/>
-              <cell>（班【王+リ+王】、窓【宀/公/心】はすべての字画が一つの方法で組み合うため、（　）なし。）</cell>
+              <cell rendition="#width200"> 【（Ａ/Ｂ）+Ｃ】<lb/>【Ａ/（Ｂ⊃Ｃ）】 </cell>
+              <cell rendition="#width400"> ＝字画が三つ以上、かつ異なる方法で字画が組み合う </cell>
+              <cell rendition="#width500"> 例）雑【（九/木）+隹】、懸【（県+系）/心】、薗【艹/（口⊃袁）】 </cell>
             </row>
           </table>
-          <table>
-            <row>
-              <cell>・</cell>
-              <cell>校異注の付く文字は赤字および青字で表示され、クリックすると注が表示されます。表示内容は以下の通りです。</cell>
-            </row>
-          </table>
+          <lb/><seg>（班【王+リ+王】、窓【宀/公/心】はすべての字画が一つの方法で組み合うため、（　）なし。）</seg>
+          <lb/><seg rendition="#hanging-1">・校異注の付く文字は赤字および青字で表示され、クリックすると注が表示されます。表示内容は以下の通りです。</seg>
+          <lb/><seg rendition="#indet2_hanging-3">採用　写本名と校訂文にて採用した文字</seg>
+          <lb/><seg rendition="#indet2_hanging-3">校異　写本名と対校箇所の文字</seg>
+          <lb/><seg rendition="#indet2_hanging-3">解説　各写本の傍書や頭書等の提示、校異注の本文（最下部の解説）</seg>
+          <lb/><seg rendition="#hanging-1">・条文名称修正一覧</seg>
           <table rendition="#indent2">
             <row>
-              <cell rendition="#width100">採用</cell>
-              <cell>写本名と校訂文にて採用した文字</cell>
+              <cell rendition="#width100"> 巻番号 </cell>
+              <cell rendition="#width50"> 旧番号 </cell>
+              <cell rendition="#width100"> 旧条文名 </cell>
+              <cell rendition="#width50"> 番号 </cell>
+              <cell rendition="#width100"> 訂正条文名 </cell>
             </row>
             <row>
-              <cell rendition="#width100">校異</cell>
-              <cell>写本名と対校箇所の文字</cell>
+              <cell rendition="#width100"> 111太政官 </cell>
+              <cell rendition="#width50"> 67 </cell>
+              <cell rendition="#width100"> 薗韓神祭 </cell>
+              <cell rendition="#width50"> 67 </cell>
+              <cell rendition="#width100"> 園韓神祭 </cell>
             </row>
             <row>
-              <cell rendition="#width100">解説</cell>
-              <cell>各写本の傍書や頭書等の提示、校異注の本文（最下部の解説）</cell>
+              <cell rendition="#width100"> 111太政官 </cell>
+              <cell rendition="#width50"> 112 </cell>
+              <cell rendition="#width100"> 行幸経宿 </cell>
+              <cell rendition="#width50"> 112 </cell>
+              <cell rendition="#width100"> 行幸経旬 </cell>
             </row>
             <row>
-              <cell/>
+              <cell rendition="#width100"> 171内匠 </cell>
+              <cell rendition="#width50"> 39 </cell>
+              <cell rendition="#width100"> 作物衣服 </cell>
+              <cell rendition="#width50"> 39 </cell>
+              <cell rendition="#width100"> 作物衣 </cell>
             </row>
             <row>
-              <cell/>
-            </row>
-          </table>
-          <table>
-            <row>
-              <cell>・</cell>
-              <cell>条文名称修正一覧</cell>
-            </row>
-          </table>
-          <table rendition="#indent2">
-            <row>
-              <cell rendition="#width100">巻番号</cell>
-              <cell rendition="#width50">旧番号</cell>
-              <cell rendition="#width100">旧条文名</cell>
-              <cell rendition="#width50">番号</cell>
-              <cell rendition="#width100">訂正条文名</cell>
+              <cell rendition="#width100"> 214諸陵 </cell>
+              <cell rendition="#width50"> 16 </cell>
+              <cell rendition="#width100"> 後阿陁他遠墓 </cell>
+              <cell rendition="#width50"> 16 </cell>
+              <cell rendition="#width100"> 後阿陀他遠墓 </cell>
             </row>
             <row>
-              <cell rendition="#width100">111太政官</cell>
-              <cell rendition="#width50">67</cell>
-              <cell rendition="#width100">薗韓神祭</cell>
-              <cell rendition="#width50">67</cell>
-              <cell rendition="#width100">園韓神祭</cell>
+              <cell rendition="#width100"> 293囚獄 </cell>
+              <cell rendition="#width50"> 2 </cell>
+              <cell rendition="#width100"> 著鈦盤枷 </cell>
+              <cell rendition="#width50"> 2 </cell>
+              <cell rendition="#width100"> 着鈦盤枷 </cell>
             </row>
             <row>
-              <cell rendition="#width100">111太政官</cell>
-              <cell rendition="#width50">112</cell>
-              <cell rendition="#width100">行幸経宿</cell>
-              <cell rendition="#width50">112</cell>
-              <cell rendition="#width100">行幸経旬</cell>
+              <cell rendition="#width100"> 321大膳上 </cell>
+              <cell rendition="#width50"> 5 </cell>
+              <cell rendition="#width100"> 新嘗祭 </cell>
+              <cell rendition="#width50"> 5･6 </cell>
+              <cell rendition="#width100"> 新嘗祭と新嘗小斎解斎に分割 </cell>
             </row>
             <row>
-              <cell rendition="#width100">171内匠</cell>
-              <cell rendition="#width50">39</cell>
-              <cell rendition="#width100">作物衣服</cell>
-              <cell rendition="#width50">39</cell>
-              <cell rendition="#width100">作物衣</cell>
+              <cell rendition="#width100"> 411弾正 </cell>
+              <cell rendition="#width50"> 68 </cell>
+              <cell rendition="#width100"> 支子染深色 </cell>
+              <cell rendition="#width50"> 68 </cell>
+              <cell rendition="#width100"> 支子染色 </cell>
             </row>
             <row>
-              <cell rendition="#width100"> 213玄蕃 </cell>
-              <cell rendition="#width50"> 32 </cell>
-              <cell rendition="#width100"> 灯油 </cell>
-              <cell rendition="#width50"> 32 </cell>
-              <cell rendition="#width100"> 燈油 </cell>
+              <cell rendition="#width100"> 422東西市 </cell>
+              <cell rendition="#width50"> 1 </cell>
+              <cell rendition="#width100"> 毎鄽立牓 </cell>
+              <cell rendition="#width50"> 1 </cell>
+              <cell rendition="#width100"> 毎厘立牓 </cell>
             </row>
             <row>
-              <cell rendition="#width100">214諸陵</cell>
-              <cell rendition="#width50">16</cell>
-              <cell rendition="#width100">後阿陁他遠墓</cell>
-              <cell rendition="#width50">16</cell>
-              <cell rendition="#width100">後阿陀他遠墓</cell>
+              <cell rendition="#width100"> 422東西市 </cell>
+              <cell rendition="#width50"> 14 </cell>
+              <cell rendition="#width100"> 東鄽 </cell>
+              <cell rendition="#width50"> 14 </cell>
+              <cell rendition="#width100"> 東厘 </cell>
             </row>
             <row>
-              <cell rendition="#width100">231民部下</cell>
-              <cell rendition="#width50">8</cell>
-              <cell rendition="#width100">造箭料</cell>
-              <cell rendition="#width50">8</cell>
-              <cell rendition="#width100">造箭</cell>
-            </row>
-            <row>
-              <cell rendition="#width100">293囚獄</cell>
-              <cell rendition="#width50">2</cell>
-              <cell rendition="#width100">著鈦盤枷</cell>
-              <cell rendition="#width50">2</cell>
-              <cell rendition="#width100">着鈦盤枷</cell>
-            </row>
-            <row>
-              <cell rendition="#width100">321大膳上</cell>
-              <cell rendition="#width50">5</cell>
-              <cell rendition="#width100">新嘗祭</cell>
-              <cell rendition="#width50">5･6</cell>
-              <cell rendition="#width100">新嘗祭と新嘗小斎解斎に分割</cell>
-            </row>
-            <row>
-              <cell rendition="#width100">411弾正</cell>
-              <cell rendition="#width50">68</cell>
-              <cell rendition="#width100">支子染深色</cell>
-              <cell rendition="#width50">68</cell>
-              <cell rendition="#width100">支子染色</cell>
-            </row>
-            <row>
-              <cell rendition="#width100">422東西市</cell>
-              <cell rendition="#width50">1</cell>
-              <cell rendition="#width100">毎鄽立牓</cell>
-              <cell rendition="#width50">1</cell>
-              <cell rendition="#width100">毎厘立牓</cell>
-            </row>
-            <row>
-              <cell rendition="#width100">422東西市</cell>
-              <cell rendition="#width50">14</cell>
-              <cell rendition="#width100">東鄽</cell>
-              <cell rendition="#width50">14</cell>
-              <cell rendition="#width100">東厘</cell>
-            </row>
-            <row>
-              <cell rendition="#width100">422東西市</cell>
-              <cell rendition="#width50">15</cell>
-              <cell rendition="#width100">西鄽</cell>
-              <cell rendition="#width50">15</cell>
-              <cell rendition="#width100">西厘</cell>
+              <cell rendition="#width100"> 422東西市 </cell>
+              <cell rendition="#width50"> 15 </cell>
+              <cell rendition="#width100"> 西鄽 </cell>
+              <cell rendition="#width50"> 15 </cell>
+              <cell rendition="#width100"> 西厘 </cell>
             </row>
           </table>
         </p>
@@ -1193,6 +1124,12 @@
         <rendition xml:id="indent13">margin-top: 13em;</rendition>
         <rendition xml:id="indent14">margin-top: 14em;</rendition>
         <rendition xml:id="indent18">margin-top: 18em;</rendition>
+        <rendition xml:id="hanging-1"> display: block; padding-top: 1em; text-indent: -1em; </rendition>
+        <rendition xml:id="hanging-2"> display: block; padding-top: 2em; text-indent: -2em; </rendition>
+        <rendition xml:id="hanging-3"> display: block; padding-top: 3em; text-indent: -3em; </rendition>
+        <rendition xml:id="indet2_hanging-1"> display: block; padding-top: 3em; text-indent: -1em; </rendition>
+        <rendition xml:id="indet2_hanging-3"> display: block; padding-top: 5em; text-indent: -3em; </rendition>
+        <rendition xml:id="indet2_hanging-4"> display: block; padding-top: 6em; text-indent: -4em; </rendition>
         <rendition xml:id="width50">width: 50px;</rendition>
         <rendition xml:id="width80">width: 80px;</rendition>
         <rendition xml:id="width100">width: 100px;</rendition>
@@ -1200,22 +1137,25 @@
         <rendition xml:id="width170">width: 170px;</rendition>
         <rendition xml:id="width200">width: 200px;</rendition>
         <rendition xml:id="width300">width: 300px;</rendition>
+        <rendition xml:id="width400">width: 400px;</rendition>
+        <rendition xml:id="width500">width: 500px;</rendition>
         <namespace name="http://www.tei-c.org/ns/1.0">
           <tagUsage gi="lb">行構成を保持。定型的な書式を持つ延喜式の記述構造を解析するために必須とする。</tagUsage>
-          <!-- <s>タグの使い方としては斬新な感じがするので、今度具体例と一緒に検討させてください -->
-          <tagUsage gi="s">書式（インデント等）を保持するために使用。</tagUsage>
-          <tagUsage gi="table">史料上の多段（段落）表現や、項目間の水平方向の配置を再現するために使用。各 <gi>cell</gi> に付与した <att>rendition</att>
-            （#width 等）により、視覚的な間隔や幅を制御する。</tagUsage>
+          <tagUsage gi="table">史料上の多段（段落）表現や、項目間の水平方向の配置を再現するために使用。各 <gi>cell</gi> に付与した <att>rendition</att> （#width
+            等）により、視覚的な間隔や幅を制御する。</tagUsage>
           <tagUsage gi="seg"
-              >校訂文の朱書き表現（<att>style</att>="color:red"）、英訳の音表記（<att>rend</att>="italic"）、および英訳注の対象範囲の特定（<att>xml:id</att>）など、複数の視覚・論理表現を属性で制御する。</tagUsage>
+              >史料上の書式（<att>rendition</att>="#indent"等）および朱書き表現（<att>style</att>="color:red"）、英訳の音表記（<att>rend</att>="italic"）、および英訳注の対象範囲の特定（<att>xml:id</att>）など、複数の視覚・論理表現を属性で制御する。</tagUsage>
           <tagUsage gi="ruby">現代語訳において、漢字の読みを示すために使用。</tagUsage>
-          <tagUsage gi="anchor">校異注の該当範囲（始点・終点）を指定するための空要素。<gi>app</gi> 要素の <att>from</att> および <att>to</att> から参照され、校注範囲を確定させるために使用する。</tagUsage>
-          <tagUsage gi="note"
-            >校異の詳細説明（<gi>app</gi> 内）、史料上の割注（<gi>measure</gi> 内）、条文要約（<att>type</att>="summary"）、訳者注（<att>type</att>="translatorsNotes"）、および典拠データ（<gi>standOff</gi>）における制度上の地域区分（<gi>trait</gi> 内）に使用。これら情報の性質や参照先、出現位置は、必要に応じて<att>place</att>、<att>type</att>、<att>target</att> の各属性により区別される。</tagUsage>
-          <tagUsage gi="measure"
-              >物品の数量・寸法を記述。品目とその総量を定義する外側の構造と、具体的な数値を保持する内側の構造を階層的に記述する。各タグの属性、すなわち <att>ana</att>（納税物の区分）、<att>commodity</att>（物品の種類）、<att>quantity</att>（数量）、<att>type</att>（寸法の種類【長・広・深等】）により、情報の詳細を明示する。</tagUsage>
-          <tagUsage gi="measureGrp"
-            >複数の単位を伴う計量値（斤と両など）を一つの論理的な測定値としてグループ化する場合、または特定の属性（<att>type</att>="width" 等）を共有する測定値の集合を示す場合に使用する。</tagUsage>
+          <tagUsage gi="anchor">校異注の該当範囲（始点・終点）を指定するための空要素。<gi>app</gi> 要素の <att>from</att> および <att>to</att>
+            から参照され、校注範囲を確定させるために使用する。</tagUsage>
+          <tagUsage gi="note">校異の詳細説明（<gi>app</gi> 内）、史料上の割注（<gi>measure</gi>
+              内）、条文要約（<att>type</att>="summary"）、訳者注（<att>type</att>="translatorsNotes"）、および典拠データ（<gi>standOff</gi>）における制度上の地域区分（<gi>trait</gi>
+              内）に使用。これら情報の性質や参照先、出現位置は、必要に応じて<att>place</att>、<att>type</att>、<att>target</att> の各属性により区別される。</tagUsage>
+          <tagUsage gi="measure">物品の数量・寸法を記述。品目とその総量を定義する外側の構造と、具体的な数値を保持する内側の構造を階層的に記述する。前者では
+              <att>ana</att>（納税物の区分）、<att>commodity</att>（物品の種類）、<att>type</att>（貢納量の規定か実数かの別）を用いて、後者では
+              <att>quantity</att>（数量）、<att>type</att>（寸法の種類【長・広・深等】）、<att>ana</att>（物理量の分類）を用いて情報の詳細を明示する。</tagUsage>
+          <tagUsage gi="measureGrp">複数の単位を伴う計量値（斤と両など）を一つの論理的な測定値としてグループ化する場合、または特定の属性（<att>type</att>="width"
+            等）を共有する測定値の集合を示す場合に使用する。</tagUsage>
           <tagUsage gi="unit">数量の単位（枚、丈、斤、両など）を示す。<att>unitRef</att> を通じてヘッダー内の単位定義（<gi>unitDecl</gi>）と連動させる。</tagUsage>
           <tagUsage gi="placeName">歴史地名。<gi>standOff</gi> 内の典拠情報とリンクし、空間情報の同定を行う。</tagUsage>
           <tagUsage gi="orgName">官司・官職名。<gi>standOff</gi> 内の典拠情報とリンクし、組織構造の同定を行う。</tagUsage>

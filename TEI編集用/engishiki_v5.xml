@@ -567,111 +567,52 @@
       </editorialDecl>
       <editorialDecl ana="校訂文凡例">
         <p ana="全体">
-          <table>
-            <row>
-              <cell> ・ </cell>
-              <cell> 原則として土本（以下、略称は「主要写本・版本・刊本等略称・底本一覧」参照）を底本とし、九本・剛本・条本・花本等の古写本や近本・壬本・京博本等の写本によって対校しました（巻によって使用した対校本は異なります）。
-              </cell>
-            </row>
-            <row>
-              <cell> ・ </cell>
-              <cell> 条文番号・条文名称は原則として訳注本に拠りましたが、一部を修正しています（※下記「条文名称修正一覧」参照）。なお1条が長い場合など、必要に応じ「項」に分割して示すこととしました。 </cell>
-            </row>
-            <row>
-              <cell> ・ </cell>
-              <cell>
-                校異は原則として底本の文字を改変する場合、あるいは写本間に参考とすべき異同がある場合、参考とすべき傍書等がある場合に付すこととしました。必ずしもその校異に関する写本をすべて網羅することはせず、主要写本のみを取り上げています。ただし訳注本と校訂文に異同が生じた場合には、できる限り校異にて言及するよう心がけました（単なる字体の相違については省略しています）。
-              </cell>
-            </row>
-            <row>
-              <cell> ・ </cell>
-              <cell>
-                校訂文は『延喜式』撰上当初の姿の復元を目標としています。標注や傍書は、条文名称に関わるものは省略し、中世以前にさかのぼることが想定されるものに限って、校異注で言及することとしました。ただし標注のうち「弘」「貞」「延」等については便宜を考え、鉤括弧で括って校訂本文に掲げることとしました。
-              </cell>
-            </row>
-            <row>
-              <cell> ・ </cell>
-              <cell>
-                字体は常用漢字体を原則としました。「大」と「太」、「座」と「坐」、「絇」と「約」、「績」と「續（続）」、「色」と「包」、「細」と「紬」、「鈍」と「純」、「冑」と「胃」、「絁」と「絶」、草冠と竹冠、木偏と手偏等、容易に判定される誤字や誤用・通用については、校異を省略して適宜置き換える場合があります。ただし巻9・10においては「大」「太」の差異も校異にて触れることとしました。
-              </cell>
-            </row>
-            <row>
-              <cell> ・ </cell>
-              <cell> 校訂文中の細字・割書は、〈　〉で括って表現することとしました。 </cell>
-            </row>
-            <row>
-              <cell> ・ </cell>
-              <cell> 本文に誤字・脱字等が想定される場合であっても、置き換えるべき文字や補うべき文字が明確でない場合は、校異注での言及にとどめた場合があります。 </cell>
-            </row>
-            <row>
-              <cell> ・ </cell>
-              <cell> ユニコードにて表示されない漢字は以下のように示すことにしました。 </cell>
-            </row>
-          </table>
+          <seg rendition="#hanging-1"
+            >・原則として土本（以下、略称は「主要写本・版本・刊本等略称・底本一覧」参照）を底本とし、九本・剛本・条本・花本等の古写本や近本・壬本・京博本等の写本によって対校しました（巻によって使用した対校本は異なります）。</seg>
+          <lb/><seg rendition="#hanging-1"
+            >・条文番号・条文名称は原則として訳注本に拠りましたが、一部を修正しています（※下記「条文名称修正一覧」参照）。なお1条が長い場合など、必要に応じ「項」に分割して示すこととしました。</seg>
+          <lb/><seg rendition="#hanging-1"
+            >・校異は原則として底本の文字を改変する場合、あるいは写本間に参考とすべき異同がある場合、参考とすべき傍書等がある場合に付すこととしました。必ずしもその校異に関する写本をすべて網羅することはせず、主要写本のみを取り上げています。ただし訳注本と校訂文に異同が生じた場合には、できる限り校異にて言及するよう心がけました（単なる字体の相違については省略しています）。</seg>
+          <lb/><seg rendition="#hanging-1"
+            >・校訂文は『延喜式』撰上当初の姿の復元を目標としています。標注や傍書は、条文名称に関わるものは省略し、中世以前にさかのぼることが想定されるものに限って、校異注で言及することとしました。ただし標注のうち「弘」「貞」「延」等については便宜を考え、鉤括弧で括って校訂本文に掲げることとしました。</seg>
+          <lb/><seg rendition="#hanging-1"
+            >・字体は常用漢字体を原則としました。「大」と「太」、「座」と「坐」、「絇」と「約」、「績」と「續（続）」、「色」と「包」、「細」と「紬」、「鈍」と「純」、「冑」と「胃」、「絁」と「絶」、草冠と竹冠、木偏と手偏等、容易に判定される誤字や誤用・通用については、校異を省略して適宜置き換える場合があります。ただし巻9・10においては「大」「太」の差異も校異にて触れることとしました。</seg>
+          <lb/><seg rendition="#hanging-1">・校訂文中の細字・割書は、〈　〉で括って表現することとしました。</seg>
+          <lb/><seg rendition="#hanging-1">・本文に誤字・脱字等が想定される場合であっても、置き換えるべき文字や補うべき文字が明確でない場合は、校異注での言及にとどめた場合があります。</seg>
+          <lb/><seg rendition="#hanging-1">・ユニコードにて表示されない漢字は以下のように示すことにしました。</seg>
           <table rendition="#indent2">
             <row>
-              <cell rendition="#width100"> 【Ａ+Ｂ】 </cell>
-              <cell rendition="#width300"> ＝扁がＡ、つくりがＢ </cell>
-              <cell rendition="#width300"> 例）村【木+寸】 </cell>
+              <cell rendition="#width200"> 【Ａ+Ｂ】 </cell>
+              <cell rendition="#width400"> ＝扁がＡ、つくりがＢ </cell>
+              <cell rendition="#width500"> 例）村【木+寸】 </cell>
             </row>
             <row>
-              <cell rendition="#width100"> 【Ａ/Ｂ】 </cell>
-              <cell rendition="#width300"> ＝上にＡ、下にＢ </cell>
-              <cell rendition="#width300"> 例）雲【雨/云】 </cell>
+              <cell rendition="#width200"> 【Ａ/Ｂ】 </cell>
+              <cell rendition="#width400"> ＝上にＡ、下にＢ </cell>
+              <cell rendition="#width500"> 例）雲【雨/云】 </cell>
             </row>
             <row>
-              <cell rendition="#width100"> 【Ａ-Ｂ】 </cell>
-              <cell rendition="#width300"> ＝Ａの字画よりＢにあたる字画を除く </cell>
-              <cell rendition="#width300"> 例）門【閉-オ】 </cell>
+              <cell rendition="#width200"> 【Ａ-Ｂ】 </cell>
+              <cell rendition="#width400"> ＝Ａの字画よりＢにあたる字画を除く </cell>
+              <cell rendition="#width500"> 例）門【閉-オ】 </cell>
             </row>
             <row>
-              <cell rendition="#width100"> 【Ａ⊃Ｂ】 </cell>
-              <cell rendition="#width300"> ＝Ａの字画のなかにＢの字画が含まれる </cell>
-              <cell rendition="#width300"> 例）閉【門⊃オ】、国【囗⊃玉】 </cell>
+              <cell rendition="#width200"> 【Ａ⊃Ｂ】 </cell>
+              <cell rendition="#width400"> ＝Ａの字画のなかにＢの字画が含まれる </cell>
+              <cell rendition="#width500"> 例）閉【門⊃オ】、国【囗⊃玉】 </cell>
             </row>
             <row>
-              <cell rendition="#width100"> 【（Ａ/Ｂ）+Ｃ】、【Ａ/（Ｂ⊃Ｃ）】 </cell>
-              <cell rendition="#width300"> ＝字画が三つ以上、かつ異なる方法で字画が組み合う </cell>
-              <cell rendition="#width300"> 例）雑【（九/木）+隹】、懸【（県+系）/心】、薗【艹/（口⊃袁）】 </cell>
-            </row>
-            <row>
-              <cell/>
-              <cell/>
-              <cell> （班【王+リ+王】、窓【宀/公/心】はすべての字画が一つの方法で組み合うため、（　）なし。） </cell>
+              <cell rendition="#width200"> 【（Ａ/Ｂ）+Ｃ】<lb/>【Ａ/（Ｂ⊃Ｃ）】 </cell>
+              <cell rendition="#width400"> ＝字画が三つ以上、かつ異なる方法で字画が組み合う </cell>
+              <cell rendition="#width500"> 例）雑【（九/木）+隹】、懸【（県+系）/心】、薗【艹/（口⊃袁）】 </cell>
             </row>
           </table>
-          <table>
-            <row>
-              <cell> ・ </cell>
-              <cell> 校異注の付く文字は赤字および青字で表示され、クリックすると注が表示されます。表示内容は以下の通りです。 </cell>
-            </row>
-          </table>
-          <table rendition="#indent2">
-            <row>
-              <cell rendition="#width100"> 採用 </cell>
-              <cell> 写本名と校訂文にて採用した文字 </cell>
-            </row>
-            <row>
-              <cell rendition="#width100"> 校異 </cell>
-              <cell> 写本名と対校箇所の文字 </cell>
-            </row>
-            <row>
-              <cell rendition="#width100"> 解説 </cell>
-              <cell> 各写本の傍書や頭書等の提示、校異注の本文（最下部の解説） </cell>
-            </row>
-            <row>
-              <cell/>
-            </row>
-            <row>
-              <cell/>
-            </row>
-          </table>
-          <table>
-            <row>
-              <cell> ・ </cell>
-              <cell> 条文名称修正一覧 </cell>
-            </row>
-          </table>
+          <lb/><seg>（班【王+リ+王】、窓【宀/公/心】はすべての字画が一つの方法で組み合うため、（　）なし。）</seg>
+          <lb/><seg rendition="#hanging-1">・校異注の付く文字は赤字および青字で表示され、クリックすると注が表示されます。表示内容は以下の通りです。</seg>
+          <lb/><seg rendition="#indet2_hanging-3">採用　写本名と校訂文にて採用した文字</seg>
+          <lb/><seg rendition="#indet2_hanging-3">校異　写本名と対校箇所の文字</seg>
+          <lb/><seg rendition="#indet2_hanging-3">解説　各写本の傍書や頭書等の提示、校異注の本文（最下部の解説）</seg>
+          <lb/><seg rendition="#hanging-1">・条文名称修正一覧</seg>
           <table rendition="#indent2">
             <row>
               <cell rendition="#width100"> 巻番号 </cell>
@@ -752,102 +693,31 @@
             </row>
           </table>
         </p>
-        <p ana="個別"> 校訂文凡例 <table>
-            <row>
-              <cell> ・ </cell>
-              <cell> 校訂に使用した写本とその略称は以下のとおりです。 </cell>
-            </row>
-          </table>
-          <table rendition="#indent2">
-            <row>
-              <cell rendition="#width100"> 土本 </cell>
-              <cell> 国立歴史民俗博物館所蔵土御門家旧蔵本（H-743-74） </cell>
-            </row>
-            <row>
-              <cell rendition="#width100"> 条本 </cell>
-              <cell> 一条家巻子本（神宮司庁刊影印本） </cell>
-            </row>
-            <row>
-              <cell rendition="#width100"> 近本 </cell>
-              <cell> 京都大学附属図書館所蔵近衛文庫本（2-03/エ/1貴） </cell>
-            </row>
-            <row>
-              <cell rendition="#width100"> 九冊本 </cell>
-              <cell> 國學院大學所蔵九条家・西田長男旧蔵冊子本（西田長男刊影印本による） </cell>
-            </row>
-            <row>
-              <cell rendition="#width100"> 京博本 </cell>
-              <cell> 京都国立博物館所蔵旧京都博物館本 </cell>
-            </row>
-            <row>
-              <cell rendition="#width100"> 梵本 </cell>
-              <cell> 天理大学附属天理図書館所蔵吉田文庫梵舜等筆本（吉16-8） </cell>
-            </row>
-            <row>
-              <cell rendition="#width100"> 慶長本 </cell>
-              <cell> 国立公文書館所蔵慶長写本（特102-8） </cell>
-            </row>
-            <row>
-              <cell rendition="#width100"> 藤波本 </cell>
-              <cell> 宮内庁書陵部図書寮文庫所蔵藤波家旧蔵本（217-473） </cell>
-            </row>
-            <row>
-              <cell rendition="#width100"> 貞享本 </cell>
-              <cell> 宮内庁書陵部図書寮文庫所蔵和学講談所旧蔵坊城俊方貞享五年写本（457-116） </cell>
-            </row>
-            <row>
-              <cell rendition="#width100"> 玄梁本 </cell>
-              <cell> 無窮会専門図書館所蔵神習文庫玄梁記名本（神習3666） </cell>
-            </row>
-            <row>
-              <cell rendition="#width100"> 鈴鹿本 </cell>
-              <cell> 大和文華館所蔵鈴鹿連胤旧蔵慶安版本（745）書入 </cell>
-            </row>
-          </table>
-          <table>
-            <row>
-              <cell> ・ </cell>
-              <cell> 土本を底本とし、諸本との異同に関する解説は底本の文字を改変する場合、あるいは内容を理解する上で参考となる場合に限り掲載します。 </cell>
-            </row>
-            <row>
-              <cell> ・ </cell>
-              <cell> 条文番号・条文名称は原則として虎尾俊哉編『訳注日本史料　延喜式』〔集英社、「訳注本」と略称〕に従います。一条文が長文にわたる場合には、適宜（1）（2）等の項目番号を私に付し、分割して表示します。
-              </cell>
-            </row>
-            <row>
-              <cell> ・ </cell>
-              <cell> 活字本との異同は原則として訳注本を示すにとどめます。 </cell>
-            </row>
-            <row>
-              <cell> ・ </cell>
-              <cell> 明らかに誤字・脱字が推測される場合でも、補うべき字あるいは改めるべき字の根拠が充分でない場合には、注で示すにとどめます。 </cell>
-            </row>
-            <row>
-              <cell> ・ </cell>
-              <cell> 同じ字が連続する場合、多くの場合、写本では踊り字が用いられていますが、特に断ることなく、もとの字に置き換えた場合があります。そのまま踊り字を使用する場合、もとの字に置き換えている訳注本との異同は省略しました。
-              </cell>
-            </row>
-            <row>
-              <cell> ・ </cell>
-              <cell> 原則として常用字を使用します。細字は〈　〉で括って示します。 </cell>
-            </row>
-            <row>
-              <cell> ・ </cell>
-              <cell>
-                「大」と「太」、「少」と「小」、「絇」と「約」、「互」と「牙」、「暑」と「署」等、容易に判定される誤字や誤用・通用については、校異を省略して適宜置き換えた場合があります。なお、計量単位の「夕」「勺」の字体について、諸写本ではすべて「夕」を用いているため、「夕」を使用することとし、「勺」を使用する訳注本との異同は省略しました。
-              </cell>
-            </row>
-            <row>
-              <cell> ・ </cell>
-              <cell> 条文名に関する鼇頭標目については省略します。 </cell>
-            </row>
-            <row>
-              <cell> ・ </cell>
-              <cell>
-                版本について言及する際、雲州版を除く、慶安本も含めた流布版本を指す場合には単に「版本」と称し、明暦修訂本以降の版本を指す場合には「明暦以降版本」と称することとします。雲州版の『延喜式考異』は「考異」と略称します。
-              </cell>
-            </row>
-          </table>
+        <p ana="個別"> 校訂文凡例 <lb/><seg rendition="#hanging-1">・校訂に使用した写本とその略称は以下のとおりです。</seg>
+          <lb/><seg rendition="#indet2_hanging-4">土本　国立歴史民俗博物館所蔵土御門家旧蔵本（H-743-74）</seg>
+          <lb/><seg rendition="#indet2_hanging-4">条本　一条家巻子本（神宮司庁刊影印本）</seg>
+          <lb/><seg rendition="#indet2_hanging-4">近本　京都大学附属図書館所蔵近衛文庫本（2-03/エ/1貴）</seg>
+          <lb/><seg rendition="#indet2_hanging-4">九冊本　國學院大學所蔵九条家・西田長男旧蔵冊子本（西田長男刊影印本による）</seg>
+          <lb/><seg rendition="#indet2_hanging-4">京博本　京都国立博物館所蔵旧京都博物館本</seg>
+          <lb/><seg rendition="#indet2_hanging-4">梵本　天理大学附属天理図書館所蔵吉田文庫梵舜等筆本（吉16-8）</seg>
+          <lb/><seg rendition="#indet2_hanging-4">慶長本　国立公文書館所蔵慶長写本（特102-8）</seg>
+          <lb/><seg rendition="#indet2_hanging-4">藤波本　宮内庁書陵部図書寮文庫所蔵藤波家旧蔵本（217-473）</seg>
+          <lb/><seg rendition="#indet2_hanging-4">貞享本　宮内庁書陵部図書寮文庫所蔵和学講談所旧蔵坊城俊方貞享五年写本（457-116）</seg>
+          <lb/><seg rendition="#indet2_hanging-4">玄梁本　無窮会専門図書館所蔵神習文庫玄梁記名本（神習3666）</seg>
+          <lb/><seg rendition="#indet2_hanging-4">鈴鹿本　大和文華館所蔵鈴鹿連胤旧蔵慶安版本（745）書入</seg>
+          <lb/><seg rendition="#hanging-1">・土本を底本とし、諸本との異同に関する解説は底本の文字を改変する場合、あるいは内容を理解する上で参考となる場合に限り掲載します。</seg>
+          <lb/><seg rendition="#hanging-1"
+            >・条文番号・条文名称は原則として虎尾俊哉編『訳注日本史料　延喜式』〔集英社、「訳注本」と略称〕に従います。一条文が長文にわたる場合には、適宜（1）（2）等の項目番号を私に付し、分割して表示します。</seg>
+          <lb/><seg rendition="#hanging-1">・活字本との異同は原則として訳注本を示すにとどめます。</seg>
+          <lb/><seg rendition="#hanging-1">・明らかに誤字・脱字が推測される場合でも、補うべき字あるいは改めるべき字の根拠が充分でない場合には、注で示すにとどめます。</seg>
+          <lb/><seg rendition="#hanging-1"
+            >・同じ字が連続する場合、多くの場合、写本では踊り字が用いられていますが、特に断ることなく、もとの字に置き換えた場合があります。そのまま踊り字を使用する場合、もとの字に置き換えている訳注本との異同は省略しました。</seg>
+          <lb/><seg rendition="#hanging-1">・原則として常用字を使用します。細字は〈　〉で括って示します。</seg>
+          <lb/><seg rendition="#hanging-1"
+            >・「大」と「太」、「少」と「小」、「絇」と「約」、「互」と「牙」、「暑」と「署」等、容易に判定される誤字や誤用・通用については、校異を省略して適宜置き換えた場合があります。なお、計量単位の「夕」「勺」の字体について、諸写本ではすべて「夕」を用いているため、「夕」を使用することとし、「勺」を使用する訳注本との異同は省略しました。</seg>
+          <lb/><seg rendition="#hanging-1">・条文名に関する鼇頭標目については省略します。</seg>
+          <lb/><seg rendition="#hanging-1"
+            >・版本について言及する際、雲州版を除く、慶安本も含めた流布版本を指す場合には単に「版本」と称し、明暦修訂本以降の版本を指す場合には「明暦以降版本」と称することとします。雲州版の『延喜式考異』は「考異」と略称します。</seg>
         </p>
       </editorialDecl>
       <variantEncoding location="external" method="location-referenced"/>
@@ -864,6 +734,10 @@
         <rendition xml:id="indent13"> margin-top: 13em; </rendition>
         <rendition xml:id="indent14"> margin-top: 14em; </rendition>
         <rendition xml:id="indent18"> margin-top: 18em; </rendition>
+        <rendition xml:id="hanging-1"> display: block; padding-top: 1em; text-indent: -1em; </rendition>
+        <rendition xml:id="hanging-3"> display: block; padding-top: 3em; text-indent: -3em; </rendition>
+        <rendition xml:id="indet2_hanging-3"> display: block; padding-top: 5em; text-indent: -3em; </rendition>
+        <rendition xml:id="indet2_hanging-4"> display: block; padding-top: 6em; text-indent: -4em; </rendition>
         <rendition xml:id="width50"> width: 50px; </rendition>
         <rendition xml:id="width80"> width: 80px; </rendition>
         <rendition xml:id="width100"> width: 100px; </rendition>
@@ -1483,9 +1357,9 @@
               二月祈年祭 <anchor xml:id="app0510220101"/> 廿一 <anchor xml:id="app0510220101e"/>
               座〈大宮売神四前、御門神八前、忌火神一前、庭火神一前、竈神二前、御井神二前、地主神一前、〉 <lb/> 座別絹五尺、五色薄絁各一尺、倭文一尺、庸布一丈、木綿二両、麻五両、槍鋒一口、鍬一口、酒四升、鰒・堅魚・海藻各六両、
               腊二升、塩一升、坩・坏各一口、 <lb/>
-              <s rendition="#indent"> 右、供神料物如前、但宮売神加馬一疋、其総祭所須缶二口、匏二柄、裹調薦四枚、 <anchor xml:id="app0510220102"/> 一丈 <anchor
+              <seg rendition="#indent"> 右、供神料物如前、但宮売神加馬一疋、其総祭所須缶二口、匏二柄、裹調薦四枚、 <anchor xml:id="app0510220102"/> 一丈 <anchor
                   xml:id="app0510220102e"/> 、短帖一枚、祝詞料庸布五段、造幣忌部三人明衣料調布一 <anchor xml:id="app0510220103"/> 段 <anchor
-                  xml:id="app0510220103e"/> 三丈五尺、 </s>
+                  xml:id="app0510220103e"/> 三丈五尺、 </seg>
             </p>
             <app from="#app0510220101" to="#app0510220101e">
               <lem wit="#土本 #条本"> 廿一 </lem>
@@ -1516,8 +1390,8 @@
             xml:id="article051024">
             <head ana="月次祭大殿祭"/>
             <p ana="項" corresp="engishiki_v5_ja.xml#item05102401 engishiki_v5_en.xml#item05102401" xml:id="item05102401"> 大殿祭 <lb/>
-              <s rendition="#indent"> 右、供料并中臣等禄、 <anchor xml:id="app0510240101"/> 並 <anchor xml:id="app0510240101e"/>
-                准上例、但減筥二合、 </s>
+              <seg rendition="#indent"> 右、供料并中臣等禄、 <anchor xml:id="app0510240101"/> 並 <anchor xml:id="app0510240101e"/>
+                准上例、但減筥二合、 </seg>
             </p>
             <app from="#app0510240101" to="#app0510240101e">
               <lem wit="#条本傍書"> 並 </lem>
@@ -2638,8 +2512,8 @@
             <head ana="神嘗祭使"/>
             <p ana="項" corresp="engishiki_v5_ja.xml#item05105601 engishiki_v5_en.xml#item05105601" xml:id="item05105601"
                 ><anchor xml:id="app0510560101"/> 九 <anchor xml:id="app0510560101e"/> 月神嘗祭使 <lb/>
-              <s rendition="#indent"> 右尋常之例、十一日参入、而当斎王参入之時、即陪従参入、其幣并明衣料、与尋常同、更差使中臣一人、遣 <placeName corresp="#近江国"> 近江
-                </placeName> ・ <placeName corresp="#伊勢国"> 伊勢 </placeName> 二国、在前祓清、 </s>
+              <seg rendition="#indent"> 右尋常之例、十一日参入、而当斎王参入之時、即陪従参入、其幣并明衣料、与尋常同、更差使中臣一人、遣 <placeName corresp="#近江国"> 近江
+                </placeName> ・ <placeName corresp="#伊勢国"> 伊勢 </placeName> 二国、在前祓清、 </seg>
             </p>
             <app from="#app0510560101" to="#app0510560101e">
               <lem wit="#土本 #条本 #京博本 #九冊本"> 九 </lem>
@@ -2654,8 +2528,8 @@
             <head ana="斎十八箇日"/>
             <p ana="項" corresp="engishiki_v5_ja.xml#item05105701 engishiki_v5_en.xml#item05105701" xml:id="item05105701">
               斎十八箇日 <lb/>
-              <s rendition="#indent"> 右尋常斎三箇日、当此時、自一日至十八日斎、但挙哀改 <anchor xml:id="app0510570101"/> 葬 <anchor
-                  xml:id="app0510570101e"/> 限月内忌之、 </s>
+              <seg rendition="#indent"> 右尋常斎三箇日、当此時、自一日至十八日斎、但挙哀改 <anchor xml:id="app0510570101"/> 葬 <anchor
+                  xml:id="app0510570101e"/> 限月内忌之、 </seg>
             </p>
             <app from="#app0510570101" to="#app0510570101e">
               <lem cause="意改"> 葬 </lem>
@@ -3018,10 +2892,10 @@
               <note> 段　訳注本「端」に意改。諸本「段」。 </note>
             </app>
             <p ana="項" corresp="engishiki_v5_ja.xml#item05106105 engishiki_v5_en.xml#item05106105" xml:id="item05106105">
-              <s rendition="#indent"> 右祭、二月四日供祭、其六月・十二月月次・鎮火・ <anchor xml:id="app0510610501"/> 道饗 <anchor
+              <seg rendition="#indent"> 右祭、二月四日供祭、其六月・十二月月次・鎮火・ <anchor xml:id="app0510610501"/> 道饗 <anchor
                   xml:id="app0510610501e"/> ・大殿・御贖・大祓并朔日忌火・ <pb
                   facs="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-5%2F00034.tif/full/full/0/default.jpg"/>
-                庭火等祭供神 <anchor xml:id="app0510610502"/> 雑 <anchor xml:id="app0510610502e"/> 物及明衣・祝詞料皆准在京、但月次祭加火雷神一座、 </s>
+                庭火等祭供神 <anchor xml:id="app0510610502"/> 雑 <anchor xml:id="app0510610502e"/> 物及明衣・祝詞料皆准在京、但月次祭加火雷神一座、 </seg>
             </p>
             <app from="#app0510610501" to="#app0510610501e">
               <lem cause="意改"> 道饗 </lem>
@@ -3051,20 +2925,20 @@
               <note> 各　土本等無し。訳注本にならい意補。 </note>
             </app>
             <p ana="項" corresp="engishiki_v5_ja.xml#item05106203 engishiki_v5_en.xml#item05106203" xml:id="item05106203">
-              <s rendition="#indent"> 右五月・十一月晦日、隨近川頭為禊、八月晦日、臨尾野湊為禊、其三時祭月十五日、斎内親王向離宮、行路之間有二処堺祭、〈宮東堭外及多気・度会両郡堺祭之、料物色目在上、〉 <pb
+              <seg rendition="#indent"> 右五月・十一月晦日、隨近川頭為禊、八月晦日、臨尾野湊為禊、其三時祭月十五日、斎内親王向離宮、行路之間有二処堺祭、〈宮東堭外及多気・度会両郡堺祭之、料物色目在上、〉 <pb
                   facs="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-5%2F00035.tif/full/full/0/default.jpg"/>
                 到着禊殿、〈神宮司并 <orgName corresp="#掃部寮"> 掃部 </orgName>
                 司供奉装束、〉主神司中臣為禊、〈料物神宮司儲之、〉大神宮司奉斎王膳、兼賜酒肴勅使已下、次主神司供奉内院大殿祭、〈所須祭物、神宮司儲之、〉
-                然後斎王遷内院〈装束雑具一同禊殿、〉奉夕膳、〈神宮司以料物附所司、但男女官供給弁備行之、〉 </s>
+                然後斎王遷内院〈装束雑具一同禊殿、〉奉夕膳、〈神宮司以料物附所司、但男女官供給弁備行之、〉 </seg>
             </p>
             <p ana="項" corresp="engishiki_v5_ja.xml#item05106204 engishiki_v5_en.xml#item05106204" xml:id="item05106204">
-              <s rendition="#indent"> 十六日朝饌之後、斎王参度会宮、路辺窮者賑給如常、 禊度会河、参入神宮、至板垣門東頭下輿、入外玉垣門就東殿、〈禰宜并 <orgName corresp="#掃部寮"> 掃部
+              <seg rendition="#indent"> 十六日朝饌之後、斎王参度会宮、路辺窮者賑給如常、 禊度会河、参入神宮、至板垣門東頭下輿、入外玉垣門就東殿、〈禰宜并 <orgName corresp="#掃部寮"> 掃部
                 </orgName> 司供奉装束、〉 <anchor xml:id="app0510620401"/> 神宮司 <anchor xml:id="app0510620401e"/>
                 執鬘木綿、入外玉垣門而跪、命婦出受以奉斎王、拍手而執著鬘、 又神宮司持太玉串、入同門而跪、命婦亦転奉斎王、拍手而執、捧入内玉垣 <anchor xml:id="app0510620402"/> 門 <anchor
                   xml:id="app0510620402e"/> 内就座席、〈命婦若女孺二人陪従、〉避席進前再拝両段、訖玉串授命婦、 受転授物忌、受執立瑞垣門西頭、斎王還就本座、宮司宣祝詞、訖物忌・内人奉幣帛案、 <pb
                   facs="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-5%2F00036.tif/full/full/0/default.jpg"/>
                 斎王并衆官以下再拝、拍八開手、次拍短手再拝、如此両遍、既而衆官退出、 就解斎殿給酒食、訖入外玉垣門供倭舞、先神宮司以下及主神司・ <orgName corresp="#斎宮寮"> 寮 </orgName>
-                官次第舞、次斎宮女孺四人供五節舞、訖給禄有差、其後斎王還着離宮、主神司中臣候南門奉御麻、 </s>
+                官次第舞、次斎宮女孺四人供五節舞、訖給禄有差、其後斎王還着離宮、主神司中臣候南門奉御麻、 </seg>
             </p>
             <app from="#app0510620401" to="#app0510620401e">
               <lem wit="#土本 #条本 #九冊本"> 神宮司 </lem>
@@ -3078,10 +2952,10 @@
               <note> 門　土本・条本「院門」。近本「院門」と記し「門」を「内」に訂正。慶長本等により改める。 </note>
             </app>
             <p ana="項" corresp="engishiki_v5_ja.xml#item05106205 engishiki_v5_en.xml#item05106205" xml:id="item05106205">
-              <s rendition="#indent"> 十七日参大神宮禊御裳洗河、自余之儀、同度会宮、〈事見大神宮式、〉是日神宮司献物即賜禄、又奉幣使同賜禄、並各有差、 </s>
+              <seg rendition="#indent"> 十七日参大神宮禊御裳洗河、自余之儀、同度会宮、〈事見大神宮式、〉是日神宮司献物即賜禄、又奉幣使同賜禄、並各有差、 </seg>
             </p>
             <p ana="項" corresp="engishiki_v5_ja.xml#item05106206 engishiki_v5_en.xml#item05106206" xml:id="item05106206">
-              <s rendition="#indent"> 十八日斎王還宮、主神司中臣候南門奉御麻、兼供奉大殿祭、祗承国司賜禄、 </s>
+              <seg rendition="#indent"> 十八日斎王還宮、主神司中臣候南門奉御麻、兼供奉大殿祭、祗承国司賜禄、 </seg>
             </p>
           </div>
           <div ana="斎宮" corresp="engishiki_v5_ja.xml#article051063 engishiki_v5_en.xml#article051063" n="5.63" type="条"
@@ -3140,7 +3014,7 @@
                 xml:id="app0510660107e"/> 一斗、搗 <anchor xml:id="app0510660108"/> 栗 <anchor xml:id="app0510660108e"/> 六升、
               干柿二升、橘子十蔭、干槲三俵、弓 <anchor xml:id="app0510660109"/> 絃 <anchor xml:id="app0510660109e"/> 葉一荷、〈已上 <orgName
                 corresp="#斎宮寮"> 寮 </orgName> 充之、〉輿籠一脚、〈 <placeName corresp="#伊勢国"> 当国 </placeName> 充之、〉 <lb/>
-              <s rendition="#indent"> 右、主神司并膳部所請、 </s>
+              <seg rendition="#indent"> 右、主神司并膳部所請、 </seg>
             </p>
             <app from="#app0510660101" to="#app0510660101e">
               <lem wit="#土本 #条本"> 段 </lem>
@@ -3180,12 +3054,12 @@
             </app>
             <p ana="項" corresp="engishiki_v5_ja.xml#item05106602 engishiki_v5_en.xml#item05106602" xml:id="item05106602">
               稲八束、粟四束、〈已上 <orgName corresp="#斎宮寮"> 寮 </orgName> 充之、〉 <lb/>
-              <s rendition="#indent"> 右、炊部所請、 </s>
+              <seg rendition="#indent"> 右、炊部所請、 </seg>
             </p>
             <p ana="項" corresp="engishiki_v5_ja.xml#item05106603 engishiki_v5_en.xml#item05106603" xml:id="item05106603">
               細布一尺、酒坏二具、窪坏廿口、片盤十五口、〈已上 <orgName corresp="#斎宮寮"> 寮 </orgName> 充之、〉食薦二枚、〈 <placeName corresp="#伊勢国"> 当国
               </placeName> 充之、〉 <lb/>
-              <s rendition="#indent"> 右、酒部所請、 </s>
+              <seg rendition="#indent"> 右、酒部所請、 </seg>
             </p>
             <p ana="項" corresp="engishiki_v5_ja.xml#item05106604 engishiki_v5_en.xml#item05106604" xml:id="item05106604">
               絹五丈一尺、曝布六 <anchor xml:id="app0510660401"/> 段 <anchor xml:id="app0510660401e"/> 二丈八尺五寸、紵布六尺、糸十両、篩二口、麻笥二口、楉案一脚、土大
@@ -3195,7 +3069,7 @@
               充之、〉池由加一口、由加四口、 叩 <anchor xml:id="app0510660402"/> 盆 <anchor xml:id="app0510660402e"/> 四口、油𤭅一口、油 <anchor
                 xml:id="app0510660403"/> 杯 <anchor xml:id="app0510660403e"/> ・盤各二口、鋺形一口、陶鉢一口、〈以上 <placeName corresp="#美濃国">
                 美濃国 </placeName> 充之、〉 <lb/>
-              <s rendition="#indent"> 右、殿部所請、 </s>
+              <seg rendition="#indent"> 右、殿部所請、 </seg>
             </p>
             <app from="#app0510660401" to="#app0510660401e">
               <lem wit="#土本 #条本"> 段 </lem>
@@ -3213,7 +3087,7 @@
               払細布一丈二尺、筥一合、白端帖十二枚、 <anchor xml:id="app0510660501"/> 短 <anchor xml:id="app0510660501e"/> 帖八枚、 <anchor
                 xml:id="app0510660502"/> 坂 <anchor xml:id="app0510660502e"/> 枕二枚、折薦帖二枚、〈 <anchor xml:id="app0510660503"/> 以
                 <anchor xml:id="app0510660503e"/> 上 <orgName corresp="#斎宮寮"> 寮 </orgName> 充之、〉 <lb/>
-              <s rendition="#indent"> 右、掃部所請、 </s>
+              <seg rendition="#indent"> 右、掃部所請、 </seg>
             </p>
             <app from="#app0510660501" to="#app0510660501e">
               <lem wit="#条本 #九冊本"> 短 </lem>
@@ -3236,7 +3110,7 @@
               一丈四尺、筥六合、櫛一具、〈黄楊、〉櫛案一脚、刀子 <anchor xml:id="app0510660602"/> 一 <anchor xml:id="app0510660602e"/> 具、冠一条、 爪磨一枚、
                 <anchor xml:id="app0510660603"/> 沓 <anchor xml:id="app0510660603e"/> 一両、 <placeName corresp="#出雲国"> 出雲
               </placeName> 席一枚、 <lb/>
-              <s rendition="#indent"> 右、斎内親王神忌御服料、 </s>
+              <seg rendition="#indent"> 右、斎内親王神忌御服料、 </seg>
             </p>
             <app from="#app0510660601" to="#app0510660601e">
               <lem wit="#土本 #条本"> 段 </lem>
@@ -3256,9 +3130,9 @@
               絹十四疋三丈、〈十疋被料、四疋三丈青摺衣料、〉綿一百九十屯、調布六十七 <anchor xml:id="app0510660701"/> 段 <anchor xml:id="app0510660701e"/>
               三丈四尺、紅花六斤、〈已上青摺衣料、〉絹二疋四丈、 曝布六 <anchor xml:id="app0510660702"/> 段 <anchor xml:id="app0510660702e"/>
               六尺、〈已上膳部并女孺等褠・襅料、〉 <lb/>
-              <s rendition="#indent"> 右、小斎人等祭服、 <orgName corresp="#斎宮寮"> 寮 </orgName> 依例充、其賜禄 <pb
+              <seg rendition="#indent"> 右、小斎人等祭服、 <orgName corresp="#斎宮寮"> 寮 </orgName> 依例充、其賜禄 <pb
                   facs="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-5%2F00040.tif/full/full/0/default.jpg"/>
-                一准元日、 </s>
+                一准元日、 </seg>
             </p>
             <app from="#app0510660701" to="#app0510660701e">
               <lem wit="#土本 #条本 #九冊本 #京博本"> 段 </lem>
@@ -3297,7 +3171,7 @@
             <p ana="項" corresp="engishiki_v5_ja.xml#item05106801 engishiki_v5_en.xml#item05106801" xml:id="item05106801">
               十二月供 <anchor xml:id="app0510680101"/> 二 <anchor xml:id="app0510680101e"/> 所大神宮幣 <lb/>
               宮別絹一疋、糸一絇、綿一屯、庸布一段、木綿・麻各一斤、 <lb/>
-              <s rendition="#indent"> 右、主神司請供之、 </s>
+              <seg rendition="#indent"> 右、主神司請供之、 </seg>
             </p>
             <app from="#app0510680101" to="#app0510680101e">
               <lem wit="#近本傍書 #京博本傍書"> 二 </lem>
@@ -3322,8 +3196,8 @@
               <anchor xml:id="app0510700101"/> 斎 <anchor xml:id="app0510700101e"/>
               内親王板牀二張、紫端帖二枚、黄端帖二枚、緑端帖六枚、席廿枚、五位及命婦各板牀二張、黄端帖二枚、乳母各板牀一張、緑端帖一枚、 <orgName corresp="#斎宮寮"> 寮 </orgName>
               助板牀・楉牀各一張、折薦帖二枚、自余官人・女孺牀帖各一枚、番上各帖一枚、 <lb/>
-              <s rendition="#indent"> 右、斎内親王向国鋪設、初年 <placeName corresp="#伊勢国"> 当国 </placeName> 供之、後年 <orgName corresp="#斎宮寮">
-                  寮 </orgName> 司備之、 </s>
+              <seg rendition="#indent"> 右、斎内親王向国鋪設、初年 <placeName corresp="#伊勢国"> 当国 </placeName> 供之、後年 <orgName
+                  corresp="#斎宮寮"> 寮 </orgName> 司備之、 </seg>
             </p>
             <app from="#app0510700101" to="#app0510700101e">
               <lem wit="#条本 #九冊本"> 斎 </lem>
@@ -3332,12 +3206,12 @@
             </app>
             <p ana="項" corresp="engishiki_v5_ja.xml#item05107002 engishiki_v5_en.xml#item05107002" xml:id="item05107002">
               幄四具、紺布幃二具、蒲防壁十枚、 <lb/>
-              <s rendition="#indent"> 右、以京庫物充之、随壊替之、 </s>
+              <seg rendition="#indent"> 右、以京庫物充之、随壊替之、 </seg>
             </p>
             <p ana="項" corresp="engishiki_v5_ja.xml#item05107003 engishiki_v5_en.xml#item05107003" xml:id="item05107003">
               酒卌甕、〈甕別米三石七斗、〉酢五甕、〈甕別三石七斗、〉醤六甕、〈 <anchor xml:id="app0510700301"/> 別 <anchor xml:id="app0510700301e"/> 大豆三石、〉 <lb/>
-              <s rendition="#indent"> 右、斎内親王初到之年、国司預割可納 <orgName corresp="#斎宮寮"> 寮 </orgName> 米・大豆・塩等、造儲供之、若有甕破壊者、令
-                  <placeName corresp="#尾張国"> 尾張国 </placeName> 供送、 </s>
+              <seg rendition="#indent"> 右、斎内親王初到之年、国司預割可納 <orgName corresp="#斎宮寮"> 寮 </orgName> 米・大豆・塩等、造儲供之、若有甕破壊者、令
+                  <placeName corresp="#尾張国"> 尾張国 </placeName> 供送、 </seg>
             </p>
             <app from="#app0510700301" to="#app0510700301e">
               <lem wit="#土本 #条本 #近本 #藤波本 #京博本"> 別 </lem>
@@ -3356,7 +3230,7 @@
                 xml:id="app0510710103"/> 段 <anchor xml:id="app0510710103e"/> 三丈九尺、斗帳料絹七疋二丈四尺、 綿卅屯、床廻帳料絹二疋、綿十屯、床覆料絹一疋二 <anchor
                 xml:id="app0510710104"/> 尺 <anchor xml:id="app0510710104e"/> 、褥料絹三疋一丈六尺七寸、綿廿四屯、被料長絹十二疋、調綿八十四屯、服料絹百十疋、
               綿百八十屯、襪料絁一疋、糸卌絇、履廿四両、〈已上 <orgName corresp="#斎宮寮"> 寮 </orgName> 供之、〉 <lb/>
-              <s rendition="#indent"> 右、女部司縫備、其簾以上、随穢替之、 </s>
+              <seg rendition="#indent"> 右、女部司縫備、其簾以上、随穢替之、 </seg>
             </p>
             <app from="#app0510710101" to="#app0510710101e">
               <lem wit="#土本 #条本"> 段 </lem>
@@ -3386,7 +3260,7 @@
                 facs="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-5%2F00044.tif/full/full/0/default.jpg"/>
               大笥五合、別脚案二脚、横筥二合、缶十口、槽一隻、円槽二隻、席八枚、置簀六枚、臼一口、杵二枝、匏廿柄、笥杓廿柄、箕二枚、輦籠四脚、〈以上 <placeName corresp="#伊勢国"> 当国 </placeName>
               充之、〉 <lb/>
-              <s rendition="#indent"> 右、膳部司所請、 </s>
+              <seg rendition="#indent"> 右、膳部司所請、 </seg>
             </p>
             <app from="#app0510710201" to="#app0510710201e">
               <lem wit="#土本 #条本"> 板 </lem>
@@ -3397,7 +3271,7 @@
               両面八尺、緋帛一丈二尺、油絁八尺、調布一 <anchor xml:id="app0510710301"/> 段 <anchor xml:id="app0510710301e"/> 、〈已上 <orgName
                 corresp="#斎宮寮"> 寮 </orgName> 充之、〉碓一腰、杵二枝、箕二枚、 <anchor xml:id="app0510710302"/> 枚 <anchor
                 xml:id="app0510710302e"/> 槽一隻、明櫃三合、足別案二脚、〈已上 <placeName corresp="#伊勢国"> 当国 </placeName> 充之、〉 <lb/>
-              <s rendition="#indent"> 右、炊部司所請、 </s>
+              <seg rendition="#indent"> 右、炊部司所請、 </seg>
             </p>
             <app from="#app0510710301" to="#app0510710301e">
               <lem wit="#土本 #条本"> 段 </lem>
@@ -3416,7 +3290,7 @@
               三丈 <anchor xml:id="app0510710403e"/> 、酒盞卌八具、片盤廿口、洗盤一口、糸二両、鍬二口、 筌十口、〈以上 <orgName corresp="#斎宮寮"> 寮 </orgName>
               充之、〉足別案二脚、韓櫃三合、明櫃一合、酒槽二隻、押槽一隻、大案二脚、匏廿柄、笥杓十柄、蘿二口、箕二枚、置簀四枚、薦四枚、〈以上 <placeName corresp="#伊勢国"> 当国 </placeName>
               充之、〉 <lb/>
-              <s rendition="#indent"> 右、酒部司所請、 </s>
+              <seg rendition="#indent"> 右、酒部司所請、 </seg>
             </p>
             <app from="#app0510710401" to="#app0510710401e">
               <lem wit="#土本 #条本"> 段 </lem>
@@ -3442,7 +3316,7 @@
                 xml:id="app0510710506e"/>
               <anchor xml:id="app0510710507"/> 枚 <anchor xml:id="app0510710507e"/> 、〈已上 <placeName corresp="#伊勢国"> 当国
               </placeName> 充之、〉 <lb/>
-              <s rendition="#indent"> 右、水部司所請、 </s>
+              <seg rendition="#indent"> 右、水部司所請、 </seg>
             </p>
             <app from="#app0510710501" to="#app0510710501e">
               <lem wit="#土本 #条本"> 絹 </lem>
@@ -3486,7 +3360,7 @@
               </orgName> 充之、〉湯槽一隻、洗床一張、大案二脚、木蓋五枚、洗頭槽一隻、洗足槽一隻、 洗物槽一隻、韓櫃二合、燈台二具、明櫃二合、筥二合、麁筥二合、匏三柄、〈已上 <placeName corresp="#伊勢国"
                 > 当国 </placeName> 充之、〉池由加一口、由加四口、匜一口、𤭅一口、缶二口、叩盆四口、〈以上 <placeName corresp="#美濃国"> 美濃国 </placeName> 充之、〉 <lb/>
               <pb facs="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-5%2F00046.tif/full/full/0/default.jpg"/>
-              <s rendition="#indent"> 右、殿部司所請、 </s>
+              <seg rendition="#indent"> 右、殿部司所請、 </seg>
             </p>
             <app from="#app0510710601" to="#app0510710601e">
               <lem wit="#土本 #条本"> 段 </lem>
@@ -3495,7 +3369,7 @@
             <p ana="項" corresp="engishiki_v5_ja.xml#item05107107 engishiki_v5_en.xml#item05107107" xml:id="item05107107">
               錦・緋帛各一丈七尺六寸、黄帛一疋四丈四尺四寸、油絁一疋四尺、払細布一丈二尺、〈已上 <orgName corresp="#斎宮寮"> 寮 </orgName> 充之、〉筥一合、〈 <placeName
                 corresp="#伊勢国"> 当国 </placeName> 充之、〉 <lb/>
-              <s rendition="#indent"> 右、 <anchor xml:id="app0510710701"/> 掃 <anchor xml:id="app0510710701e"/> 部司所請、 </s>
+              <seg rendition="#indent"> 右、 <anchor xml:id="app0510710701"/> 掃 <anchor xml:id="app0510710701e"/> 部司所請、 </seg>
             </p>
             <app from="#app0510710701" to="#app0510710701e">
               <lem wit="#玄梁本訂正書"> 掃 </lem>
@@ -3532,7 +3406,7 @@
               薬刀一具、鉄臼一口、杵一 <anchor xml:id="app0510710911"/> 枚 <anchor xml:id="app0510710911e"/>
               、銅鍋一口、銅升一口、〈薬刀以下長用、〉合薬明衣料絹一疋、綿二屯、〈長 <anchor xml:id="app0510710912"/> 料 <anchor xml:id="app0510710912e"/>
               、〉調布二丈、〈生料、〉 正月供屠蘇命婦以下、嘗薬小児以上服料、帛十疋、綿廿屯、〈帛用斎王生気色、並 <orgName corresp="#斎宮寮"> 寮 </orgName> 充之、〉 <lb/>
-              <s rendition="#indent"> 右、薬部司所請、 </s>
+              <seg rendition="#indent"> 右、薬部司所請、 </seg>
             </p>
             <app from="#app0510710901" to="#app0510710901e">
               <lem wit="#条本 #九冊本"> 五 </lem>
@@ -3595,7 +3469,7 @@
             </app>
             <p ana="項" corresp="engishiki_v5_ja.xml#item05107110 engishiki_v5_en.xml#item05107110" xml:id="item05107110">
               緋帛・紫帛・油絁各二丈七尺六寸、麻卅斤、〈已上 <orgName corresp="#斎宮寮"> 寮 </orgName> 充之、〉 <lb/>
-              <s rendition="#indent"> 右、馬部司所請、 </s>
+              <seg rendition="#indent"> 右、馬部司所請、 </seg>
             </p>
           </div>
           <div ana="斎宮" corresp="engishiki_v5_ja.xml#article051072 engishiki_v5_en.xml#article051072" n="5.72" type="条"

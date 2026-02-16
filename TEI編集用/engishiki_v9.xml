@@ -1099,19 +1099,19 @@
             <head ana="天神地祇"/>
             <p ana="項" corresp="engishiki_v9_en.xml#item09100101 engishiki_v9_ja.xml#item09100101" xml:id="item09100101">
               天神地祇惣三千一百卅二座 <lb/>
-              <s rendition="#indent"> 社二千八百六十一処 </s>
+              <seg rendition="#indent"> 社二千八百六十一処 </seg>
               <lb/>
-              <s rendition="#indent"><anchor xml:id="app0910010101"/> 前 <anchor xml:id="app0910010101e"/> 二百七十一座 </s>
+              <seg rendition="#indent"><anchor xml:id="app0910010101"/> 前 <anchor xml:id="app0910010101e"/> 二百七十一座 </seg>
               <lb/> 大四百九十二座 <lb/>
-              <s rendition="#indent"> 三百四座〈並預祈年・月次・新嘗等祭之案上<orgName corresp="#神祇官">官</orgName>幣、就中七十一座預相嘗祭、〉 </s>
+              <seg rendition="#indent"> 三百四座〈並預祈年・月次・新嘗等祭之案上<orgName corresp="#神祇官">官</orgName>幣、就中七十一座預相嘗祭、〉 </seg>
               <lb/>
-              <s rendition="#indent"> 一百八十八座〈並預祈年国幣、〉 </s>
+              <seg rendition="#indent"> 一百八十八座〈並預祈年国幣、〉 </seg>
               <lb/> 小二千六百卌座 <lb/>
               <pb facs="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-9%2F00003.tif/full/full/0/default.jpg"/>
-              <s rendition="#indent"> 四百卅三座〈並預祈年案下官幣、〉 </s>
+              <seg rendition="#indent"> 四百卅三座〈並預祈年案下官幣、〉 </seg>
               <lb/>
-              <s rendition="#indent"><anchor xml:id="app0910010102"/> 二千二百七座〈並預祈年国幣、〉 <anchor xml:id="app0910010102e"/>
-              </s>
+              <seg rendition="#indent"><anchor xml:id="app0910010102"/> 二千二百七座〈並預祈年国幣、〉 <anchor xml:id="app0910010102e"/>
+              </seg>
             </p>
             <app from="#app0910010101" to="#app0910010101e">
               <lem wit="#土本 #永本 #吉本 #京博本"> 前 </lem>
@@ -1130,8 +1130,8 @@
             <p ana="項" corresp="engishiki_v9_en.xml#item09100201 engishiki_v9_ja.xml#item09100201" xml:id="item09100201">
               宮中神卅六座 <lb/>
               <orgName corresp="#神祇官"> 神祇官 </orgName> 西院坐御巫等祭神廿三座〈並大、月次、新嘗、〉 <lb/>
-              <s rendition="#indent"><anchor xml:id="app0910020101"/> 御巫祭神 <anchor xml:id="app0910020101e"/>
-                八座〈並大、月次・新嘗、中宮・東宮御巫亦同、〉 </s>
+              <seg rendition="#indent"><anchor xml:id="app0910020101"/> 御巫祭神 <anchor xml:id="app0910020101e"/>
+                八座〈並大、月次・新嘗、中宮・東宮御巫亦同、〉 </seg>
               <table>
                 <row>
                   <cell rendition="#width300"><anchor xml:id="app0910020102"/> 神 <anchor xml:id="app0910020103"/> 産 <anchor
@@ -1161,8 +1161,8 @@
                 </row>
               </table>
               <lb/>
-              <s><anchor xml:id="app0910020109"/> 座摩巫祭神 <anchor xml:id="app0910020109e"/> 五座〈並 <anchor xml:id="app0910020110"
-                /> 預 <anchor xml:id="app0910020110e"/> 大・月次・新嘗、〉 </s>
+              <seg rendition="#indent"><anchor xml:id="app0910020109"/> 座摩巫祭神 <anchor xml:id="app0910020109e"/> 五座〈並 <anchor
+                  xml:id="app0910020110"/> 預 <anchor xml:id="app0910020110e"/> 大・月次・新嘗、〉 </seg>
               <table>
                 <row>
                   <cell rendition="#width300"><anchor xml:id="app0910020111"/> 生井神 <anchor xml:id="app0910020111e"/>
@@ -1185,7 +1185,7 @@
                 </row>
               </table>
               <lb/>
-              <s rendition="#indent"><anchor xml:id="app0910020116"/> 御門巫祭神 <anchor xml:id="app0910020116e"/> 八座〈並大、月次、新嘗、〉 </s>
+              <seg rendition="#indent"><anchor xml:id="app0910020116"/> 御門巫祭神 <anchor xml:id="app0910020116e"/> 八座〈並大、月次、新嘗、〉 </seg>
               <table>
                 <row>
                   <cell rendition="#width300"><anchor xml:id="app0910020117"/> 櫛石窓神 <anchor xml:id="app0910020117e"/>
@@ -1198,7 +1198,7 @@
                 </row>
               </table>
               <lb/>
-              <s rendition="#indent"> 生島巫祭神二座〈並大、月次、新嘗、〉 </s>
+              <seg rendition="#indent"> 生島巫祭神二座〈並大、月次、新嘗、〉 </seg>
               <table>
                 <row>
                   <cell rendition="#width300"><anchor xml:id="app0910020119"/> 生島神 <anchor xml:id="app0910020119e"/>
@@ -1237,9 +1237,8 @@
                 </row>
               </table>
               <lb/>
-              <orgName corresp="#造酒司"> 造酒司 </orgName> 坐神六座〈大四座、小二座、〉 <lb/>
-              <s rendition="#indent"><anchor xml:id="app0910020128"/><anchor xml:id="app0910020128e"/> 大宮売神社四座〈並大、月次、新嘗、〉 </s>
-              <table rendition="#indent2">
+              <orgName corresp="#造酒司"> 造酒司 </orgName> 坐神六座〈大四座、小二座、〉 <lb/><anchor xml:id="app0910020128"/><anchor
+                xml:id="app0910020128e"/> 大宮売神社四座〈並大、月次、新嘗、〉 <table rendition="#indent2">
                 <row>
                   <cell rendition="#width300"> 酒殿神社二座〈並小、〉 </cell>
                   <cell rendition="#width50"/>
@@ -1417,8 +1416,8 @@
             <head ana="京中"/>
             <p ana="項" corresp="engishiki_v9_en.xml#item09100301 engishiki_v9_ja.xml#item09100301" xml:id="item09100301">
               京中坐神三座〈並 <anchor xml:id="app0910030101"/> 大 <anchor xml:id="app0910030101e"/> 、〉 <lb/>
-              <s rendition="#indent"> 左京二条坐 <anchor xml:id="app0910030102"/> 神 <anchor xml:id="app0910030102e"/>
-                <anchor xml:id="app0910030103"/> 社 <anchor xml:id="app0910030103e"/> 二座〈並月次・相嘗・新嘗、〉 </s>
+              <seg rendition="#indent"> 左京二条坐 <anchor xml:id="app0910030102"/> 神 <anchor xml:id="app0910030102e"/>
+                <anchor xml:id="app0910030103"/> 社 <anchor xml:id="app0910030103e"/> 二座〈並月次・相嘗・新嘗、〉 </seg>
               <table>
                 <row>
                   <cell rendition="#width300"><anchor xml:id="app0910030104"/> 太詔戸命神 <anchor xml:id="app0910030104e"/>
@@ -1492,10 +1491,10 @@
             <head ana="山城国"/>
             <p ana="項" corresp="engishiki_v9_en.xml#item09100501 engishiki_v9_ja.xml#item09100501" xml:id="item09100501"
                 ><placeName corresp="#山城国"> 山城国 </placeName> 一百廿二座 <lb/>
-              <s rendition="#indent"> 大五十三座〈並月次・新嘗、就中十一座預相嘗祭、〉 <pb
+              <seg rendition="#indent"> 大五十三座〈並月次・新嘗、就中十一座預相嘗祭、〉 <pb
                   facs="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-9%2F00005.tif/full/full/0/default.jpg"/>
                 小六十 <anchor xml:id="app0910050101"/> 九 <anchor xml:id="app0910050101e"/> 座〈 <anchor xml:id="app0910050102"/>
-                並官幣 <anchor xml:id="app0910050102e"/> 、〉 </s>
+                並官幣 <anchor xml:id="app0910050102e"/> 、〉 </seg>
             </p>
             <app from="#app0910050101" to="#app0910050101e">
               <lem wit="#土本 #永本 #吉本 #京博本"> 九 </lem>
@@ -1508,7 +1507,7 @@
               <note> 並官幣　永本あり、土本・剛本・吉本・京博本なし。 </note>
             </app>
             <p ana="項" corresp="engishiki_v9_en.xml#item09100502 engishiki_v9_ja.xml#item09100502" xml:id="item09100502">
-              <s rendition="#indent"> 乙訓郡十九座〈大五座、小十四座、〉 </s>
+              <seg rendition="#indent"> 乙訓郡十九座〈大五座、小十四座、〉 </seg>
               <table>
                 <row>
                   <cell rendition="#width300"> 羽束師坐高御産日神社〈大、月次、新嘗、〉 </cell>
@@ -1599,7 +1598,7 @@
               <note> 名神大、月次、新嘗、元名山埼社　土本なし。剛本・永本・吉本あり。京博本は「埼」を「崎」に作る。 </note>
             </app>
             <p ana="項" corresp="engishiki_v9_en.xml#item09100503 engishiki_v9_ja.xml#item09100503" xml:id="item09100503">
-              <s rendition="#indent"> 葛野郡廿座〈大十四座、小六座、〉 </s>
+              <seg rendition="#indent"> 葛野郡廿座〈大十四座、小六座、〉 </seg>
               <table>
                 <row>
                   <cell rendition="#width300"><anchor xml:id="app0910050301"/> 葛野坐月読神社 <anchor xml:id="app0910050301e"/>
@@ -1738,7 +1737,7 @@
               <note> 辟　永本・西本「砕」。剛本・吉本・京博本・土本「辟」。 </note>
             </app>
             <p ana="項" corresp="engishiki_v9_en.xml#item09100504 engishiki_v9_ja.xml#item09100504" xml:id="item09100504">
-              <s rendition="#indent"> 愛宕郡廿一座〈大八座、小十三座、〉 </s>
+              <seg rendition="#indent"> 愛宕郡廿一座〈大八座、小十三座、〉 </seg>
               <table>
                 <row>
                   <cell rendition="#width300"><anchor xml:id="app0910050401"/> 賀茂別雷神社 <anchor xml:id="app0910050401e"/> 〈
@@ -1914,7 +1913,7 @@
               <note place="頭"> 永本頭注「上社」 </note>
             </app>
             <p ana="項" corresp="engishiki_v9_en.xml#item09100505 engishiki_v9_ja.xml#item09100505" xml:id="item09100505">
-              <s rendition="#indent"> 紀伊郡八座〈大三座、小五座、〉 </s>
+              <seg rendition="#indent"> 紀伊郡八座〈大三座、小五座、〉 </seg>
               <table>
                 <row>
                   <cell rendition="#width300"> 御諸神社 </cell>
@@ -1940,7 +1939,7 @@
             </app>
             <pb facs="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-9%2F00007.tif/full/full/0/default.jpg"/>
             <p ana="項" corresp="engishiki_v9_en.xml#item09100506 engishiki_v9_ja.xml#item09100506" xml:id="item09100506">
-              <s rendition="#indent"> 宇治郡十座〈大五座、小五座、〉 </s>
+              <seg rendition="#indent"> 宇治郡十座〈大五座、小五座、〉 </seg>
               <table>
                 <row>
                   <cell rendition="#width300"> 宇治神社二座〈 <anchor xml:id="app0910050601"/> 鍬、靫 <anchor xml:id="app0910050601e"/>
@@ -1998,7 +1997,8 @@
               <note> 名神　永本・吉本・京博本・土本無し。剛本あり。 </note>
             </app>
             <p ana="項" corresp="engishiki_v9_en.xml#item09100507 engishiki_v9_ja.xml#item09100507" xml:id="item09100507">
-              <s rendition="#indent"> 久世郡廿四座〈 <anchor xml:id="app0910050701"/> 大十一座、小十三座 <anchor xml:id="app0910050701e"/> 、〉 </s>
+              <seg rendition="#indent"> 久世郡廿四座〈 <anchor xml:id="app0910050701"/> 大十一座、小十三座 <anchor xml:id="app0910050701e"/>
+                、〉 </seg>
               <table>
                 <row>
                   <cell rendition="#width300"> 石田神社〈 <anchor xml:id="app0910050702"/> 大、月次、新嘗 <anchor xml:id="app0910050702e"
@@ -2070,7 +2070,8 @@
               <note> 鍬、靫　土本なし、永本・剛本・吉本・京博本あり。 </note>
             </app>
             <p ana="項" corresp="engishiki_v9_en.xml#item09100508 engishiki_v9_ja.xml#item09100508" xml:id="item09100508">
-              <s rendition="#indent"> 綴 <anchor xml:id="app0910050801"/> 憙 <anchor xml:id="app0910050801e"/> 郡十四座〈大三座、小十一座、〉 </s>
+              <seg rendition="#indent"> 綴 <anchor xml:id="app0910050801"/> 憙 <anchor xml:id="app0910050801e"/>
+                郡十四座〈大三座、小十一座、〉 </seg>
               <table>
                 <row>
                   <cell rendition="#width300"><anchor xml:id="app0910050802"/> 樺井月神社 <anchor xml:id="app0910050802e"/>
@@ -2133,7 +2134,7 @@
               <note place="頭"> 吉本頭注「田原」 </note>
             </app>
             <p ana="項" corresp="engishiki_v9_en.xml#item09100509 engishiki_v9_ja.xml#item09100509" xml:id="item09100509">
-              <s rendition="#indent"> 相楽郡六座〈 <anchor xml:id="app0910050901"/> 大四座、小二座 <anchor xml:id="app0910050901e"/> 、〉 </s>
+              <seg rendition="#indent"> 相楽郡六座〈 <anchor xml:id="app0910050901"/> 大四座、小二座 <anchor xml:id="app0910050901e"/> 、〉 </seg>
               <table>
                 <row>
                   <cell rendition="#width300"> 祝園神社〈大、月次、新嘗、〉 </cell>
@@ -2175,10 +2176,10 @@
             <head ana="大和国"/>
             <p ana="項" corresp="engishiki_v9_en.xml#item09100601 engishiki_v9_ja.xml#item09100601" xml:id="item09100601"
                 ><placeName corresp="#大和国"> 大和国 </placeName> 二百八十六座 <lb/>
-              <s rendition="#indent"> 大一百廿八座〈並月次・新嘗、就中 <anchor xml:id="app0910060101"/> 卅 <anchor xml:id="app0910060101e"/>
-                一座預相嘗 <anchor xml:id="app0910060102"/> 新嘗 <anchor xml:id="app0910060102e"/> 、〉 </s>
+              <seg rendition="#indent"> 大一百廿八座〈並月次・新嘗、就中 <anchor xml:id="app0910060101"/> 卅 <anchor xml:id="app0910060101e"/>
+                一座預相嘗 <anchor xml:id="app0910060102"/> 新嘗 <anchor xml:id="app0910060102e"/> 、〉 </seg>
               <lb/>
-              <s rendition="#indent"> 小一百五十八座〈並官幣、〉 </s>
+              <seg rendition="#indent"> 小一百五十八座〈並官幣、〉 </seg>
             </p>
             <app from="#app0910060101" to="#app0910060101e">
               <lem wit="#土本 #九本 #剛本 #吉本 #京博本 #西本"> 卅 </lem>
@@ -2192,7 +2193,7 @@
               <note> 新嘗　吉本・京博本・土本および訳注本「祭」。永本左傍書「祭」。永本・九本・剛本「新嘗」。 </note>
             </app>
             <p ana="項" corresp="engishiki_v9_en.xml#item09100602 engishiki_v9_ja.xml#item09100602" xml:id="item09100602">
-              <s rendition="#indent"> 添上郡卅七座〈大九座、小廿八座、〉 </s>
+              <seg rendition="#indent"> 添上郡卅七座〈大九座、小廿八座、〉 </seg>
               <table>
                 <row>
                   <cell rendition="#width300"> 鳴雷神社〈 <anchor xml:id="app0910060201"/> 大、月次、新嘗 <anchor xml:id="app0910060201e"
@@ -2320,7 +2321,7 @@
               <note> 社　土本・京博本「社原」、九本・剛本・永本・吉本「社」。 </note>
             </app>
             <p ana="項" corresp="engishiki_v9_en.xml#item09100603 engishiki_v9_ja.xml#item09100603" xml:id="item09100603">
-              <s rendition="#indent"> 添下郡十座〈大四座、小六座、〉 </s>
+              <seg rendition="#indent"> 添下郡十座〈大四座、小六座、〉 </seg>
               <table>
                 <row>
                   <cell rendition="#width300"> 矢田坐 <anchor xml:id="app0910060301"/> 久 <anchor xml:id="app0910060301e"/>
@@ -2372,7 +2373,7 @@
               <note> 岐　吉本「伎」、土本・永本・九本・剛本・京博本「岐」。 </note>
             </app>
             <p ana="項" corresp="engishiki_v9_en.xml#item09100604 engishiki_v9_ja.xml#item09100604" xml:id="item09100604">
-              <s rendition="#indent"> 平群郡廿座〈大十二座、小八座、〉 </s>
+              <seg rendition="#indent"> 平群郡廿座〈大十二座、小八座、〉 </seg>
               <table>
                 <row>
                   <cell rendition="#width300"> 竜田坐天御柱国御柱神 <anchor xml:id="app0910060401"/> 社 <anchor xml:id="app0910060401e"/>
@@ -2458,7 +2459,7 @@
             </app>
             <pb facs="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-9%2F00010.tif/full/full/0/default.jpg"/>
             <p ana="項" corresp="engishiki_v9_en.xml#item09100605 engishiki_v9_ja.xml#item09100605" xml:id="item09100605">
-              <s rendition="#indent"> 広瀬郡五座〈大一座、小四座、〉 </s>
+              <seg rendition="#indent"> 広瀬郡五座〈大一座、小四座、〉 </seg>
               <table>
                 <row>
                   <cell rendition="#width300"> 広瀬坐和加宇加 <anchor xml:id="app0910060501"/> 乃 <anchor xml:id="app0910060501e"/>
@@ -2499,7 +2500,7 @@
               <note> 鍬　九本・剛本無し、土本・永本・吉本・京博本あり。 </note>
             </app>
             <p ana="項" corresp="engishiki_v9_en.xml#item09100606 engishiki_v9_ja.xml#item09100606" xml:id="item09100606">
-              <s rendition="#indent"> 葛上郡十七座〈大十二座、小五座、〉 </s>
+              <seg rendition="#indent"> 葛上郡十七座〈大十二座、小五座、〉 </seg>
               <table>
                 <row>
                   <cell rendition="#width300"><anchor xml:id="app0910060601"/><anchor xml:id="app0910060601e"/><anchor
@@ -2641,7 +2642,7 @@
               <note> 高鴨阿治須岐託彦根命神社　吉本裏書「賀茂朝臣氏神」。「彦」字、吉本無し、剛本「産」を「彦」に訂正、土本・永本・九本・京博本「彦」。 </note>
             </app>
             <p ana="項" corresp="engishiki_v9_en.xml#item09100607 engishiki_v9_ja.xml#item09100607" xml:id="item09100607">
-              <s rendition="#indent"> 葛下郡十八座〈大十三座、小五座、〉 </s>
+              <seg rendition="#indent"> 葛下郡十八座〈大十三座、小五座、〉 </seg>
               <table>
                 <row>
                   <cell rendition="#width300"> 葛木倭文坐天羽雷命神社〈大、月次、新嘗、〉 </cell>
@@ -2730,7 +2731,7 @@
               <note> 大、月次、新嘗　吉本・土本・京博本無し、永本・九本・剛本あり。 </note>
             </app>
             <p ana="項" corresp="engishiki_v9_en.xml#item09100608 engishiki_v9_ja.xml#item09100608" xml:id="item09100608">
-              <s rendition="#indent"> 忍海郡三座〈大二座、小一座、〉 </s>
+              <seg rendition="#indent"> 忍海郡三座〈大二座、小一座、〉 </seg>
               <table>
                 <row>
                   <cell rendition="#width300"> 為志神社 </cell>
@@ -2742,7 +2743,7 @@
               </table>
             </p>
             <p ana="項" corresp="engishiki_v9_en.xml#item09100609 engishiki_v9_ja.xml#item09100609" xml:id="item09100609">
-              <s rendition="#indent"> 宇智郡十一座〈並小、〉 </s>
+              <seg rendition="#indent"> 宇智郡十一座〈並小、〉 </seg>
               <table>
                 <row>
                   <cell rendition="#width300"> 宇智神社 </cell>
@@ -2823,7 +2824,7 @@
               <note> 太　土本・永本・剛本・京博本「太」、吉本「大」。 </note>
             </app>
             <p ana="項" corresp="engishiki_v9_en.xml#item09100610 engishiki_v9_ja.xml#item09100610" xml:id="item09100610">
-              <s rendition="#indent"><anchor xml:id="app0910061001"/> 吉野郡十座 <anchor xml:id="app0910061001e"/> 〈大五座、小五座、〉 </s>
+              <seg rendition="#indent"><anchor xml:id="app0910061001"/> 吉野郡十座 <anchor xml:id="app0910061001e"/> 〈大五座、小五座、〉 </seg>
               <table>
                 <row>
                   <cell rendition="#width300"><anchor xml:id="app0910061002"/><anchor xml:id="app0910061002e"/>
@@ -2927,7 +2928,7 @@
               <note> 社　吉本・京博本・西本この下に「〈鍬、〉」あり。 </note>
             </app>
             <p ana="項" corresp="engishiki_v9_en.xml#item09100611 engishiki_v9_ja.xml#item09100611" xml:id="item09100611">
-              <s rendition="#indent"> 宇陀郡十七座〈大一座、小十六座、〉 </s>
+              <seg rendition="#indent"> 宇陀郡十七座〈大一座、小十六座、〉 </seg>
               <table>
                 <row>
                   <cell rendition="#width300"> 宇太水分神社〈大、月次、新嘗、〉 </cell>
@@ -3029,7 +3030,7 @@
               <note place="頭"> 吉本頭注「祈雨神歟、」 </note>
             </app>
             <p ana="項" corresp="engishiki_v9_en.xml#item09100612 engishiki_v9_ja.xml#item09100612" xml:id="item09100612">
-              <s rendition="#indent"> 城上郡卅五座〈大十五座、小廿座、〉 </s>
+              <seg rendition="#indent"> 城上郡卅五座〈大十五座、小廿座、〉 </seg>
               <table>
                 <row>
                   <cell rendition="#width300"><anchor xml:id="app0910061201"/> 大神大物主神社 <anchor xml:id="app0910061201e"/>
@@ -3200,7 +3201,7 @@
               <note> 大、月次、新嘗　土本・京博本「名神大月次」、永本・九本・剛本・吉本「大月次新嘗」。 </note>
             </app>
             <p ana="項" corresp="engishiki_v9_en.xml#item09100613 engishiki_v9_ja.xml#item09100613" xml:id="item09100613">
-              <s rendition="#indent"> 城下郡十七座〈大三座、小十四座、〉 </s>
+              <seg rendition="#indent"> 城下郡十七座〈大三座、小十四座、〉 </seg>
               <table>
                 <row>
                   <cell rendition="#width300"> 村 <anchor xml:id="app0910061301"/> 屋坐弥富 <anchor xml:id="app0910061301e"/> 都比売
@@ -3289,7 +3290,7 @@
               <note> 靫　土本無し、永本・九本・剛本・吉本・京博本あり。版本「鍬」。 </note>
             </app>
             <p ana="項" corresp="engishiki_v9_en.xml#item09100614 engishiki_v9_ja.xml#item09100614" xml:id="item09100614">
-              <s rendition="#indent"><anchor xml:id="app0910061401"/><anchor xml:id="app0910061401e"/> 高市郡五十四座〈大卅三座、小廿一座、〉 </s>
+              <seg rendition="#indent"><anchor xml:id="app0910061401"/><anchor xml:id="app0910061401e"/> 高市郡五十四座〈大卅三座、小廿一座、〉 </seg>
               <pb facs="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-9%2F00014.tif/full/full/0/default.jpg"/>
               <table>
                 <row>
@@ -3518,7 +3519,7 @@
               </note>
             </app>
             <p ana="項" corresp="engishiki_v9_en.xml#item09100615 engishiki_v9_ja.xml#item09100615" xml:id="item09100615">
-              <s rendition="#indent"> 十市郡十九座〈大十一座、小八座、〉 </s>
+              <seg rendition="#indent"> 十市郡十九座〈大十一座、小八座、〉 </seg>
               <table>
                 <row>
                   <cell rendition="#width300"> 多坐弥志理都比古神社二座〈並名神大、月次、相嘗、新嘗、〉 </cell>
@@ -3628,7 +3629,7 @@
               <note> 神　永本・西本無し。土本・九本・剛本・吉本・京博本「神」。 </note>
             </app>
             <p ana="項" corresp="engishiki_v9_en.xml#item09100616 engishiki_v9_ja.xml#item09100616" xml:id="item09100616">
-              <s rendition="#indent"> 山辺郡十三座〈大七座、小六座、〉 </s>
+              <seg rendition="#indent"> 山辺郡十三座〈大七座、小六座、〉 </seg>
               <table>
                 <row>
                   <cell rendition="#width300"><anchor xml:id="app0910061601"/> 大和坐大国魂神社 <anchor xml:id="app0910061601e"/>
@@ -3698,12 +3699,12 @@
             <head ana="河内国"/>
             <p ana="項" corresp="engishiki_v9_en.xml#item09100701 engishiki_v9_ja.xml#item09100701" xml:id="item09100701"
                 ><placeName corresp="#河内国"> 河内国 </placeName> 一百十三座 <lb/>
-              <s rendition="#indent"> 大廿三座〈並月次・新嘗、就中八座預相嘗、〉 </s>
+              <seg rendition="#indent"> 大廿三座〈並月次・新嘗、就中八座預相嘗、〉 </seg>
               <lb/>
-              <s rendition="#indent"> 小九十座〈並官幣、〉 </s>
+              <seg rendition="#indent"> 小九十座〈並官幣、〉 </seg>
             </p>
             <p ana="項" corresp="engishiki_v9_en.xml#item09100702 engishiki_v9_ja.xml#item09100702" xml:id="item09100702">
-              <s rendition="#indent"> 石川郡九座〈 <anchor xml:id="app0910070201"/> 並小 <anchor xml:id="app0910070201e"/> 、〉 </s>
+              <seg rendition="#indent"> 石川郡九座〈 <anchor xml:id="app0910070201"/> 並小 <anchor xml:id="app0910070201e"/> 、〉 </seg>
               <table>
                 <row>
                   <cell rendition="#width300"><anchor xml:id="app0910070202"/> 感 <anchor xml:id="app0910070202e"/> 古神社〈鍬、靫、〉 </cell>
@@ -3739,7 +3740,7 @@
               <note> 感　土本「咸」、永本・九本・剛本・吉本・京博本「感」。 </note>
             </app>
             <p ana="項" corresp="engishiki_v9_en.xml#item09100703 engishiki_v9_ja.xml#item09100703" xml:id="item09100703">
-              <s rendition="#indent"> 古市郡二座〈並小、〉 </s>
+              <seg rendition="#indent"> 古市郡二座〈並小、〉 </seg>
               <table>
                 <row>
                   <cell rendition="#width300"> 利雁神社 </cell>
@@ -3751,7 +3752,7 @@
               </table>
             </p>
             <p ana="項" corresp="engishiki_v9_en.xml#item09100704 engishiki_v9_ja.xml#item09100704" xml:id="item09100704">
-              <s rendition="#indent"> 安宿郡五座〈大三座、小二座、〉 </s>
+              <seg rendition="#indent"> 安宿郡五座〈大三座、小二座、〉 </seg>
               <table>
                 <row>
                   <cell rendition="#width300"><anchor xml:id="app0910070401"/><anchor xml:id="app0910070401e"/><anchor
@@ -3793,8 +3794,8 @@
               <note> 鍬　土本無し、永本・九本・剛本・吉本・京博本あり。 </note>
             </app>
             <p ana="項" corresp="engishiki_v9_en.xml#item09100705 engishiki_v9_ja.xml#item09100705" xml:id="item09100705">
-              <s rendition="#indent"> 大 <anchor xml:id="app0910070501"/> 県 <anchor xml:id="app0910070501e"/> 郡十一座〈並 <anchor
-                  xml:id="app0910070502"/> 小 <anchor xml:id="app0910070502e"/> 、〉 </s>
+              <seg rendition="#indent"> 大 <anchor xml:id="app0910070501"/> 県 <anchor xml:id="app0910070501e"/> 郡十一座〈並 <anchor
+                  xml:id="app0910070502"/> 小 <anchor xml:id="app0910070502e"/> 、〉 </seg>
               <table>
                 <row>
                   <cell rendition="#width300"> 天湯川田神社 </cell>
@@ -3851,7 +3852,7 @@
               <note> 鍬　土本・京博本無し、永本・九本・剛本・吉本あり。京博本朱書「鍬」。 </note>
             </app>
             <p ana="項" corresp="engishiki_v9_en.xml#item09100706 engishiki_v9_ja.xml#item09100706" xml:id="item09100706">
-              <s rendition="#indent"> 高安郡十座〈大四座、小六座、〉 </s>
+              <seg rendition="#indent"> 高安郡十座〈大四座、小六座、〉 </seg>
               <table>
                 <row>
                   <cell rendition="#width300"><anchor xml:id="app0910070601"/> 恩智神社 <anchor xml:id="app0910070601e"/>
@@ -3904,7 +3905,7 @@
               </note>
             </app>
             <p ana="項" corresp="engishiki_v9_en.xml#item09100707 engishiki_v9_ja.xml#item09100707" xml:id="item09100707">
-              <s rendition="#indent"> 河内郡十座〈大四座、小六座、〉 </s>
+              <seg rendition="#indent"> 河内郡十座〈大四座、小六座、〉 </seg>
               <table>
                 <row>
                   <cell rendition="#width300"><anchor xml:id="app0910070701"/> 枚岡神四座 <anchor xml:id="app0910070701e"/> 〈
@@ -3941,7 +3942,7 @@
               <note> 鍬　永本・九本・剛本・西本無し。土本・吉本・京博本「鍬」。 </note>
             </app>
             <p ana="項" corresp="engishiki_v9_en.xml#item09100708 engishiki_v9_ja.xml#item09100708" xml:id="item09100708">
-              <s rendition="#indent"> 讃良郡六座〈大一座、小五座、〉 </s>
+              <seg rendition="#indent"> 讃良郡六座〈大一座、小五座、〉 </seg>
               <table>
                 <row>
                   <cell rendition="#width300"> 須波麻神社〈鍬、靫、〉 </cell>
@@ -3968,7 +3969,7 @@
               <note> 太社　剛本「太神」、吉本・京博本・土本「大社」、永本・九本「太社」。 </note>
             </app>
             <p ana="項" corresp="engishiki_v9_en.xml#item09100709 engishiki_v9_ja.xml#item09100709" xml:id="item09100709">
-              <s rendition="#indent"> 茨田郡五座〈並小、〉 </s>
+              <seg rendition="#indent"> 茨田郡五座〈並小、〉 </seg>
               <table>
                 <row>
                   <cell rendition="#width300"><anchor xml:id="app0910070901"/> 堤 <anchor xml:id="app0910070901e"/> 根神社 </cell>
@@ -4008,7 +4009,7 @@
               <note> 高瀬神社　吉本は「瀬」を「㴿」に作り傍書「湞歟」を付す。吉本裏書「湞〈音貞、湞湯、県又水名、〉」。 </note>
             </app>
             <p ana="項" corresp="engishiki_v9_en.xml#item09100710 engishiki_v9_ja.xml#item09100710" xml:id="item09100710">
-              <s rendition="#indent"> 交野郡二座〈並小、〉 </s>
+              <seg rendition="#indent"> 交野郡二座〈並小、〉 </seg>
               <table>
                 <row>
                   <cell rendition="#width300"> 片野神社〈鍬、靫、〉 </cell>
@@ -4020,7 +4021,7 @@
               </table>
             </p>
             <p ana="項" corresp="engishiki_v9_en.xml#item09100711 engishiki_v9_ja.xml#item09100711" xml:id="item09100711">
-              <s rendition="#indent"> 若江郡廿二座〈大二座、小廿座、〉 </s>
+              <seg rendition="#indent"> 若江郡廿二座〈大二座、小廿座、〉 </seg>
               <table>
                 <row>
                   <cell rendition="#width300"><anchor xml:id="app0910071101"/><anchor xml:id="app0910071101e"/> 坂合神社二座 </cell>
@@ -4083,7 +4084,7 @@
             </app>
             <pb facs="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-9%2F00019.tif/full/full/0/default.jpg"/>
             <p ana="項" corresp="engishiki_v9_en.xml#item09100712 engishiki_v9_ja.xml#item09100712" xml:id="item09100712">
-              <s rendition="#indent"> 渋川郡六座〈並小、〉 </s>
+              <seg rendition="#indent"> 渋川郡六座〈並小、〉 </seg>
               <table>
                 <row>
                   <cell rendition="#width300"> 鴨高田神社 </cell>
@@ -4113,7 +4114,7 @@
               <note> 弥　剛本「祢」、土本・永本・九本・吉本・京博本「弥」。 </note>
             </app>
             <p ana="項" corresp="engishiki_v9_en.xml#item09100713 engishiki_v9_ja.xml#item09100713" xml:id="item09100713">
-              <s rendition="#indent"> 志紀郡十四座〈大六座、小八座、〉 </s>
+              <seg rendition="#indent"> 志紀郡十四座〈大六座、小八座、〉 </seg>
               <table>
                 <row>
                   <cell rendition="#width300"> 志貴 <anchor xml:id="app0910071301"/> 県 <anchor xml:id="app0910071301e"/>
@@ -4173,7 +4174,7 @@
               <note> 辛国　永本・西本この上に「志紀」二字あり。土本・九本・剛本・京博本無し。 </note>
             </app>
             <p ana="項" corresp="engishiki_v9_en.xml#item09100714 engishiki_v9_ja.xml#item09100714" xml:id="item09100714">
-              <s rendition="#indent"> 丹比郡十一座〈大三座、小八座、〉 </s>
+              <seg rendition="#indent"> 丹比郡十一座〈大三座、小八座、〉 </seg>
               <table>
                 <row>
                   <cell rendition="#width300"> 丹比神社〈鍬、靫、〉 </cell>
@@ -4236,12 +4237,12 @@
             <head ana="和泉国"/>
             <p ana="項" corresp="engishiki_v9_en.xml#item09100801 engishiki_v9_ja.xml#item09100801" xml:id="item09100801"
                 ><placeName corresp="#和泉国"> 和泉国 </placeName> 六十二座 <lb/>
-              <s rendition="#indent"> 大一 <anchor xml:id="app0910080101"/> 座 <anchor xml:id="app0910080101e"/>
-              </s>
+              <seg rendition="#indent"> 大一 <anchor xml:id="app0910080101"/> 座 <anchor xml:id="app0910080101e"/>
+              </seg>
               <pb facs="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-9%2F00020.tif/full/full/0/default.jpg"/>
               <lb/>
-              <s rendition="#indent"> 小六十一 <anchor xml:id="app0910080102"/> 座 <anchor xml:id="app0910080102e"/>
-              </s>
+              <seg rendition="#indent"> 小六十一 <anchor xml:id="app0910080102"/> 座 <anchor xml:id="app0910080102e"/>
+              </seg>
             </p>
             <app from="#app0910080101" to="#app0910080101e">
               <lem wit="#土本 #永本 #九本 #剛本 #吉本 #京博本"> 座 </lem>
@@ -4252,7 +4253,7 @@
               <note> 座　訳注本この下に「〈並官幣、〉」を補う。 </note>
             </app>
             <p ana="項" corresp="engishiki_v9_en.xml#item09100802 engishiki_v9_ja.xml#item09100802" xml:id="item09100802">
-              <s rendition="#indent"> 大鳥郡廿四座〈大一座、小廿三座、〉 </s>
+              <seg rendition="#indent"> 大鳥郡廿四座〈大一座、小廿三座、〉 </seg>
               <table>
                 <row>
                   <cell rendition="#width300"> 大鳥神社〈名神大、月次、新嘗、〉 </cell>
@@ -4376,7 +4377,7 @@
               </lem>
             </app>
             <p ana="項" corresp="engishiki_v9_en.xml#item09100803 engishiki_v9_ja.xml#item09100803" xml:id="item09100803">
-              <s rendition="#indent"><anchor xml:id="app0910080301"/><anchor xml:id="app0910080301e"/> 和泉郡廿八座〈並小、〉 </s>
+              <seg rendition="#indent"><anchor xml:id="app0910080301"/><anchor xml:id="app0910080301e"/> 和泉郡廿八座〈並小、〉 </seg>
               <table>
                 <row>
                   <cell rendition="#width300"> 男乃宇刀神社二座 </cell>
@@ -4464,7 +4465,7 @@
               <note> 鍬　永本「鍬イ本」。土本・九本・剛本・吉本・京博本・西本「鍬」。 </note>
             </app>
             <p ana="項" corresp="engishiki_v9_en.xml#item09100804 engishiki_v9_ja.xml#item09100804" xml:id="item09100804">
-              <s rendition="#indent"> 日根郡十座〈並小、〉 </s>
+              <seg rendition="#indent"> 日根郡十座〈並小、〉 </seg>
               <table>
                 <row>
                   <cell rendition="#width300"> 男神社二座 </cell>
@@ -4495,9 +4496,10 @@
             <head ana="摂津国"/>
             <p ana="項" corresp="engishiki_v9_en.xml#item09100901 engishiki_v9_ja.xml#item09100901" xml:id="item09100901"
                 ><placeName corresp="#摂津国"> 摂津国 </placeName> 七十五座 <lb/>
-              <s rendition="#indent"> 大廿六座〈並月次・新嘗、就中十五座預相嘗祭、〉 </s>
+              <seg rendition="#indent"> 大廿六座〈並月次・新嘗、就中十五座預相嘗祭、〉 </seg>
               <lb/>
-              <s rendition="#indent"> 小卌九座〈 <anchor xml:id="app0910090101"/> 並官幣 <anchor xml:id="app0910090101e"/> 、〉 </s>
+              <seg rendition="#indent"> 小卌九座〈 <anchor xml:id="app0910090101"/> 並官幣 <anchor xml:id="app0910090101e"/> 、〉
+              </seg>
             </p>
             <app from="#app0910090101" to="#app0910090101e">
               <lem wit="#永本 #九本 #剛本 #吉本 #京博本"> 並官幣 </lem>
@@ -4505,7 +4507,7 @@
               <note> 並官幣　土本無し、永本・九本・剛本・吉本・京博本あり。 </note>
             </app>
             <p ana="項" corresp="engishiki_v9_en.xml#item09100902 engishiki_v9_ja.xml#item09100902" xml:id="item09100902">
-              <s rendition="#indent"> 住吉郡廿二座〈大十座、小十二座、〉 </s>
+              <seg rendition="#indent"> 住吉郡廿二座〈大十座、小十二座、〉 </seg>
               <pb facs="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-9%2F00022.tif/full/full/0/default.jpg"/>
               <table>
                 <row>
@@ -4585,7 +4587,7 @@
               </lem>
             </app>
             <p ana="項" corresp="engishiki_v9_en.xml#item09100903 engishiki_v9_ja.xml#item09100903" xml:id="item09100903">
-              <s rendition="#indent"> 東生郡四座〈大三座、小一座、〉 </s>
+              <seg rendition="#indent"> 東生郡四座〈大三座、小一座、〉 </seg>
               <table>
                 <row>
                   <cell rendition="#width300"> 難破坐生国咲国魂神社二座〈並 <anchor xml:id="app0910090301"/> 名神大 <anchor
@@ -4616,7 +4618,7 @@
               <note place="頭"> 吉本頭注「神式第三名神祭所比売許曾神社、亦号下照比売云々、」 </note>
             </app>
             <p ana="項" corresp="engishiki_v9_en.xml#item09100904 engishiki_v9_ja.xml#item09100904" xml:id="item09100904">
-              <s rendition="#indent"><anchor xml:id="app0910090401"/><anchor xml:id="app0910090401e"/> 西成郡一座〈大、〉 </s>
+              <seg rendition="#indent"><anchor xml:id="app0910090401"/><anchor xml:id="app0910090401e"/> 西成郡一座〈大、〉 </seg>
               <table>
                 <row>
                   <cell rendition="#width300"> 坐摩神社〈大、月次、新嘗、〉 </cell>
@@ -4633,7 +4635,7 @@
               </lem>
             </app>
             <p ana="項" corresp="engishiki_v9_en.xml#item09100905 engishiki_v9_ja.xml#item09100905" xml:id="item09100905">
-              <s rendition="#indent"> 島上郡三座〈並小、〉 </s>
+              <seg rendition="#indent"> 島上郡三座〈並小、〉 </seg>
               <table>
                 <row>
                   <cell rendition="#width300"> 阿久刀神社 </cell>
@@ -4645,7 +4647,8 @@
               </table>
             </p>
             <p ana="項" corresp="engishiki_v9_en.xml#item09100906 engishiki_v9_ja.xml#item09100906" xml:id="item09100906">
-              <s rendition="#indent"> 島下 <anchor xml:id="app0910090601"/> 郡 <anchor xml:id="app0910090601e"/> 十七座〈大五座、小十二座、〉 </s>
+              <seg rendition="#indent"> 島下 <anchor xml:id="app0910090601"/> 郡 <anchor xml:id="app0910090601e"/>
+                十七座〈大五座、小十二座、〉 </seg>
               <pb facs="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-9%2F00023.tif/full/full/0/default.jpg"/>
               <table>
                 <row>
@@ -4719,7 +4722,7 @@
               <note> 大　土本・京博本および訳注本「太」。永本・九本・剛本・吉本「大」。 </note>
             </app>
             <p ana="項" corresp="engishiki_v9_en.xml#item09100907 engishiki_v9_ja.xml#item09100907" xml:id="item09100907">
-              <s rendition="#indent"> 豊島郡五座〈大二座、小三座、〉 </s>
+              <seg rendition="#indent"> 豊島郡五座〈大二座、小三座、〉 </seg>
               <table>
                 <row>
                   <cell rendition="#width300"> 為那都比古神社二座 </cell>
@@ -4738,7 +4741,7 @@
               </table>
             </p>
             <p ana="項" corresp="engishiki_v9_en.xml#item09100908 engishiki_v9_ja.xml#item09100908" xml:id="item09100908">
-              <s rendition="#indent"> 河辺郡七座〈並小、〉 </s>
+              <seg rendition="#indent"> 河辺郡七座〈並小、〉 </seg>
               <table>
                 <row>
                   <cell rendition="#width300"> 伊佐具神社〈鍬、靫、〉 </cell>
@@ -4764,7 +4767,7 @@
               </table>
             </p>
             <p ana="項" corresp="engishiki_v9_en.xml#item09100909 engishiki_v9_ja.xml#item09100909" xml:id="item09100909">
-              <s rendition="#indent"> 武庫郡四座〈大二座、小二座、〉 </s>
+              <seg rendition="#indent"> 武庫郡四座〈大二座、小二座、〉 </seg>
               <table>
                 <row>
                   <cell rendition="#width300"><anchor xml:id="app0910090901"/> 広田神社 <anchor xml:id="app0910090901e"/>
@@ -4796,7 +4799,7 @@
             </app>
             <pb facs="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-9%2F00024.tif/full/full/0/default.jpg"/>
             <p ana="項" corresp="engishiki_v9_en.xml#item09100910 engishiki_v9_ja.xml#item09100910" xml:id="item09100910">
-              <s rendition="#indent"> 菟原郡三座〈並小、〉 </s>
+              <seg rendition="#indent"> 菟原郡三座〈並小、〉 </seg>
               <table>
                 <row>
                   <cell rendition="#width300"><anchor xml:id="app0910091001"/><anchor xml:id="app0910091001e"/> 河内国魂神社〈鍬、靫、〉 </cell>
@@ -4813,7 +4816,7 @@
               </lem>
             </app>
             <p ana="項" corresp="engishiki_v9_en.xml#item09100911 engishiki_v9_ja.xml#item09100911" xml:id="item09100911">
-              <s rendition="#indent"> 八部郡三座〈 <anchor xml:id="app0910091101"/> 大二座、小一座 <anchor xml:id="app0910091101e"/> 、〉 </s>
+              <seg rendition="#indent"> 八部郡三座〈 <anchor xml:id="app0910091101"/> 大二座、小一座 <anchor xml:id="app0910091101e"/> 、〉 </seg>
               <table>
                 <row>
                   <cell rendition="#width300"><anchor xml:id="app0910091102"/> 生田神社 <anchor xml:id="app0910091102e"/>
@@ -4846,7 +4849,7 @@
               <note place="裏"> 吉本裏書「風土記、美奴売前神、〈神功皇后時祭云々、〉」 </note>
             </app>
             <p ana="項" corresp="engishiki_v9_en.xml#item09100912 engishiki_v9_ja.xml#item09100912" xml:id="item09100912">
-              <s rendition="#indent"> 有馬郡三座〈大一座、小二座、〉 </s>
+              <seg rendition="#indent"> 有馬郡三座〈大一座、小二座、〉 </seg>
               <table>
                 <row>
                   <cell rendition="#width300"><anchor xml:id="app0910091201"/><anchor xml:id="app0910091201e"/> 有間神社 </cell>
@@ -4863,7 +4866,7 @@
               </lem>
             </app>
             <p ana="項" corresp="engishiki_v9_en.xml#item09100913 engishiki_v9_ja.xml#item09100913" xml:id="item09100913">
-              <s rendition="#indent"> 能勢郡三座〈 <anchor xml:id="app0910091301"/> 並小 <anchor xml:id="app0910091301e"/> 、〉 </s>
+              <seg rendition="#indent"> 能勢郡三座〈 <anchor xml:id="app0910091301"/> 並小 <anchor xml:id="app0910091301e"/> 、〉 </seg>
               <table>
                 <row>
                   <cell rendition="#width300"> 岐尼神社 </cell>
@@ -4885,10 +4888,10 @@
             <head ana="東海道"/>
             <p ana="項" corresp="engishiki_v9_en.xml#item09101001 engishiki_v9_ja.xml#item09101001" xml:id="item09101001"
                 ><placeName corresp="#東海道"> 東海道 </placeName> 神七百卅一座 <lb/>
-              <s rendition="#indent"> 大五十 <anchor xml:id="app0910100101"/> 一 <anchor xml:id="app0910100101e"/>
-                座〈就中十九座預月次・新嘗等祭、〉 </s>
+              <seg rendition="#indent"> 大五十 <anchor xml:id="app0910100101"/> 一 <anchor xml:id="app0910100101e"/>
+                座〈就中十九座預月次・新嘗等祭、〉 </seg>
               <lb/>
-              <s rendition="#indent"> 小六百 <anchor xml:id="app0910100102"/> 八十 <anchor xml:id="app0910100102e"/> 座 </s>
+              <seg rendition="#indent"> 小六百 <anchor xml:id="app0910100102"/> 八十 <anchor xml:id="app0910100102e"/> 座 </seg>
             </p>
             <app from="#app0910100101" to="#app0910100101e">
               <lem wit="#土本 #永本 #九本 #剛本 #吉本 #京博本"> 一 </lem>
@@ -4905,7 +4908,7 @@
             <p ana="項" corresp="engishiki_v9_en.xml#item09101101 engishiki_v9_ja.xml#item09101101" xml:id="item09101101"
                 ><placeName corresp="#伊賀国"> 伊賀国 </placeName> 廿五座〈大一座、小廿四座〉 </p>
             <p ana="項" corresp="engishiki_v9_en.xml#item09101102 engishiki_v9_ja.xml#item09101102" xml:id="item09101102">
-              <s rendition="#indent"> 阿拝郡九座〈大一座、小 <anchor xml:id="app0910110201"/> 八 <anchor xml:id="app0910110201e"/> 座、〉 </s>
+              <seg rendition="#indent"> 阿拝郡九座〈大一座、小 <anchor xml:id="app0910110201"/> 八 <anchor xml:id="app0910110201e"/> 座、〉 </seg>
               <table>
                 <row>
                   <cell rendition="#width300"> 陽夫多神社 </cell>
@@ -4958,7 +4961,7 @@
               <note> 穴石神社　吉本・西本「穴師神社」、土本・永本・九本・剛本・京博本「穴石神社」。永本は「石」の左傍書「師イ」。永本脚書「官」、吉本脚書「石〈官〉」。 </note>
             </app>
             <p ana="項" corresp="engishiki_v9_en.xml#item09101103 engishiki_v9_ja.xml#item09101103" xml:id="item09101103">
-              <s rendition="#indent"> 山田郡三座〈 <anchor xml:id="app0910110301"/> 並小 <anchor xml:id="app0910110301e"/> 、〉 </s>
+              <seg rendition="#indent"> 山田郡三座〈 <anchor xml:id="app0910110301"/> 並小 <anchor xml:id="app0910110301e"/> 、〉 </seg>
               <table>
                 <row>
                   <cell rendition="#width300"> 鳥坂神社 </cell>
@@ -4975,7 +4978,7 @@
               <note> 並小　土本無し、永本・九本・剛本・吉本・京博本あり。 </note>
             </app>
             <p ana="項" corresp="engishiki_v9_en.xml#item09101104 engishiki_v9_ja.xml#item09101104" xml:id="item09101104">
-              <s rendition="#indent"> 伊賀郡十一座〈並小、〉 </s>
+              <seg rendition="#indent"> 伊賀郡十一座〈並小、〉 </seg>
               <table>
                 <row>
                   <cell rendition="#width300"> 木根神社 </cell>
@@ -5020,7 +5023,7 @@
               <note> 弥　訳注本は貞享本等により「禰」に改める。九本・永本傍訓「ネ」。 </note>
             </app>
             <p ana="項" corresp="engishiki_v9_en.xml#item09101105 engishiki_v9_ja.xml#item09101105" xml:id="item09101105">
-              <s rendition="#indent"> 名張郡二座〈並小、〉 </s>
+              <seg rendition="#indent"> 名張郡二座〈並小、〉 </seg>
               <table>
                 <row>
                   <cell rendition="#width300"><anchor xml:id="app0910110501"/> 名 <anchor xml:id="app0910110502"/> 居 <anchor
@@ -5052,11 +5055,11 @@
             <head ana="伊勢国"/>
             <p ana="項" corresp="engishiki_v9_en.xml#item09101201 engishiki_v9_ja.xml#item09101201" xml:id="item09101201"
                 ><placeName corresp="#伊勢国"> 伊勢国 </placeName> 二百五十三座 <lb/>
-              <s rendition="#indent"> 大十八座〈就中十四座預月次・新嘗等 <anchor xml:id="app0910120101"/> 祭 <anchor xml:id="app0910120101e"/>
-                、〉 </s>
+              <seg rendition="#indent"> 大十八座〈就中十四座預月次・新嘗等 <anchor xml:id="app0910120101"/> 祭 <anchor xml:id="app0910120101e"
+                /> 、〉 </seg>
               <pb facs="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-9%2F00026.tif/full/full/0/default.jpg"/>
               <lb/>
-              <s rendition="#indent"> 小二百卅五座 </s>
+              <seg rendition="#indent"> 小二百卅五座 </seg>
             </p>
             <app from="#app0910120101" to="#app0910120101e">
               <lem wit="#土本 #永本 #九本 #京博本"> 祭 </lem>
@@ -5064,7 +5067,7 @@
               <note> 祭　吉本無し、土本・永本・九本・京博本あり。 </note>
             </app>
             <p ana="項" corresp="engishiki_v9_en.xml#item09101202 engishiki_v9_ja.xml#item09101202" xml:id="item09101202">
-              <s rendition="#indent"> 度会郡五十八座〈大十四座、小卌四座、〉 </s>
+              <seg rendition="#indent"> 度会郡五十八座〈大十四座、小卌四座、〉 </seg>
               <table>
                 <row>
                   <cell rendition="#width300"> 大神宮三座〈相殿坐神二座、並大、預月次・新嘗等祭、〉 </cell>
@@ -5295,7 +5298,7 @@
               <note> 荻　斎宮式61祈年祭神条「萩」。皇太神宮儀式帳・文徳実録天安二・二・丙戌条「葭」。 </note>
             </app>
             <p ana="項" corresp="engishiki_v9_en.xml#item09101203 engishiki_v9_ja.xml#item09101203" xml:id="item09101203">
-              <s rendition="#indent"> 多気郡五十二座〈並小、〉 </s>
+              <seg rendition="#indent"> 多気郡五十二座〈並小、〉 </seg>
               <table>
                 <row>
                   <cell rendition="#width300"> 須麻漏売神社 </cell>
@@ -5496,7 +5499,7 @@
               <note> 垣　吉本「【土+巨】」、傍書「或本垣」。土本・永本・九本・剛本・京博本「垣」。 </note>
             </app>
             <p ana="項" corresp="engishiki_v9_en.xml#item09101205 engishiki_v9_ja.xml#item09101205" xml:id="item09101205">
-              <s rendition="#indent"> 飯高郡九座〈並小、〉 </s>
+              <seg rendition="#indent"> 飯高郡九座〈並小、〉 </seg>
               <table>
                 <row>
                   <cell rendition="#width300"> 立野神社 </cell>
@@ -5528,7 +5531,7 @@
               <note> 神　土本・九本・剛本・吉本・京博本および訳注本無し、永本あり。吉本傍書「神歟」。 </note>
             </app>
             <p ana="項" corresp="engishiki_v9_en.xml#item09101206 engishiki_v9_ja.xml#item09101206" xml:id="item09101206">
-              <s rendition="#indent"> 壱志郡十三座〈大三座、小十座、〉 </s>
+              <seg rendition="#indent"> 壱志郡十三座〈大三座、小十座、〉 </seg>
               <table>
                 <row>
                   <cell rendition="#width200"> 波多神社 </cell>
@@ -5579,7 +5582,7 @@
               <note> 小　土本・九本・吉本・京博本「少」。永本・剛本・西本「小」。 </note>
             </app>
             <p ana="項" corresp="engishiki_v9_en.xml#item09101207 engishiki_v9_ja.xml#item09101207" xml:id="item09101207">
-              <s rendition="#indent"> 安濃郡十座〈並小、〉 </s>
+              <seg rendition="#indent"> 安濃郡十座〈並小、〉 </seg>
               <table>
                 <row>
                   <cell rendition="#width300"> 置染神社 </cell>
@@ -5620,7 +5623,7 @@
               <note> 社　土本無し、永本・九本・剛本・吉本・京博本あり。 </note>
             </app>
             <p ana="項" corresp="engishiki_v9_en.xml#item09101208 engishiki_v9_ja.xml#item09101208" xml:id="item09101208">
-              <s rendition="#indent"> 奄芸郡十三座〈並小、〉 </s>
+              <seg rendition="#indent"> 奄芸郡十三座〈並小、〉 </seg>
               <table>
                 <row>
                   <cell rendition="#width300"> 伊奈富神社 </cell>
@@ -5671,7 +5674,7 @@
               <note> 酒　九本「須」、土本・永本・剛本・吉本・京博本「酒」。 </note>
             </app>
             <p ana="項" corresp="engishiki_v9_en.xml#item09101209 engishiki_v9_ja.xml#item09101209" xml:id="item09101209">
-              <s rendition="#indent"> 鈴鹿郡十九座〈並小、〉 </s>
+              <seg rendition="#indent"> 鈴鹿郡十九座〈並小、〉 </seg>
               <table>
                 <row>
                   <cell rendition="#width300"> 那久志里神社 </cell>
@@ -5725,8 +5728,8 @@
               <note> 婆　永本・西本「波」。土本・九本・剛本・吉本・京博本、永本左傍書「婆」。 </note>
             </app>
             <p ana="項" corresp="engishiki_v9_en.xml#item09101210 engishiki_v9_ja.xml#item09101210" xml:id="item09101210">
-              <s rendition="#indent"><anchor xml:id="app0910121001"/> 河曲 <anchor xml:id="app0910121001e"/> 郡廿座〈 <anchor
-                  xml:id="app0910121002"/> 並小 <anchor xml:id="app0910121002e"/> 、〉 </s>
+              <seg rendition="#indent"><anchor xml:id="app0910121001"/> 河曲 <anchor xml:id="app0910121001e"/> 郡廿座〈 <anchor
+                  xml:id="app0910121002"/> 並小 <anchor xml:id="app0910121002e"/> 、〉 </seg>
               <table>
                 <row>
                   <cell rendition="#width300"> 高市神社 </cell>
@@ -5805,7 +5808,7 @@
               <note> 椅　永本左朱傍書、吉本「埼」。土本・永本・九本・剛本・京博本、吉本朱傍書「椅」。 </note>
             </app>
             <p ana="項" corresp="engishiki_v9_en.xml#item09101211 engishiki_v9_ja.xml#item09101211" xml:id="item09101211">
-              <s rendition="#indent"> 三重郡六座〈並 <anchor xml:id="app0910121101"/> 小 <anchor xml:id="app0910121101e"/> 、〉 </s>
+              <seg rendition="#indent"> 三重郡六座〈並 <anchor xml:id="app0910121101"/> 小 <anchor xml:id="app0910121101e"/> 、〉 </seg>
               <table>
                 <row>
                   <cell rendition="#width300"><anchor xml:id="app0910121102"/> 深 <anchor xml:id="app0910121102e"/> 田神社 </cell>
@@ -5838,7 +5841,7 @@
             </app>
             <pb facs="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-9%2F00032.tif/full/full/0/default.jpg"/>
             <p ana="項" corresp="engishiki_v9_en.xml#item09101212 engishiki_v9_ja.xml#item09101212" xml:id="item09101212">
-              <s rendition="#indent"> 朝明郡廿四座〈並小、〉 </s>
+              <seg rendition="#indent"> 朝明郡廿四座〈並小、〉 </seg>
               <table>
                 <row>
                   <cell rendition="#width300"> 伊賀留我神社 </cell>
@@ -5928,7 +5931,7 @@
               <note> 菟上神社　剛本は石部神社二座の前に配列する。 </note>
             </app>
             <p ana="項" corresp="engishiki_v9_en.xml#item09101213 engishiki_v9_ja.xml#item09101213" xml:id="item09101213">
-              <s rendition="#indent"> 員弁郡十座〈並小、〉 </s>
+              <seg rendition="#indent"> 員弁郡十座〈並小、〉 </seg>
               <table>
                 <row>
                   <cell rendition="#width300"> 鴨神社 </cell>
@@ -5971,7 +5974,7 @@
               <note> 群　吉本「郡」、吉本朱傍書「或本群」。永本朱傍書「或本郡」。土本・永本・九本・剛本・京博本「群」。 </note>
             </app>
             <p ana="項" corresp="engishiki_v9_en.xml#item09101214 engishiki_v9_ja.xml#item09101214" xml:id="item09101214">
-              <s rendition="#indent"> 桑名郡十五座〈大一座、小十四座、〉 </s>
+              <seg rendition="#indent"> 桑名郡十五座〈大一座、小十四座、〉 </seg>
               <table>
                 <row>
                   <cell rendition="#width300"> 桑名神社二座 </cell>
@@ -6022,7 +6025,7 @@
             <p ana="項" corresp="engishiki_v9_en.xml#item09101301 engishiki_v9_ja.xml#item09101301" xml:id="item09101301">
               志摩国三座〈大二座、小一座、〉 </p>
             <p ana="項" corresp="engishiki_v9_en.xml#item09101302 engishiki_v9_ja.xml#item09101302" xml:id="item09101302">
-              <s rendition="#indent"> 答志郡三座〈大二座、小一座、〉 </s>
+              <seg rendition="#indent"> 答志郡三座〈大二座、小一座、〉 </seg>
               <table>
                 <row>
                   <cell rendition="#width300"><anchor xml:id="app0910130201"/><anchor xml:id="app0910130201e"/><anchor
@@ -6057,7 +6060,7 @@
             <p ana="項" corresp="engishiki_v9_en.xml#item09101401 engishiki_v9_ja.xml#item09101401" xml:id="item09101401"
                 ><placeName corresp="#尾張国"> 尾張国 </placeName> 一百廿一座〈大八座、小一百十三座、〉 </p>
             <p ana="項" corresp="engishiki_v9_en.xml#item09101402 engishiki_v9_ja.xml#item09101402" xml:id="item09101402">
-              <s rendition="#indent"> 海部郡八座〈並小、〉 </s>
+              <seg rendition="#indent"> 海部郡八座〈並小、〉 </seg>
               <table>
                 <row>
                   <cell rendition="#width300"> 漆部神社 </cell>
@@ -6101,7 +6104,7 @@
               <note> 感　吉本「盛」、左傍書「感歟」。土本・永本・九本・剛本・京博本「感」。 </note>
             </app>
             <p ana="項" corresp="engishiki_v9_en.xml#item09101403 engishiki_v9_ja.xml#item09101403" xml:id="item09101403">
-              <s rendition="#indent"> 中島郡卅座〈大三座、小廿七座、〉 </s>
+              <seg rendition="#indent"> 中島郡卅座〈大三座、小廿七座、〉 </seg>
               <table>
                 <row>
                   <cell rendition="#width300"><anchor xml:id="app0910140301"/><anchor xml:id="app0910140301e"/> 坂手神社 </cell>
@@ -6238,7 +6241,7 @@
               </lem>
             </app>
             <p ana="項" corresp="engishiki_v9_en.xml#item09101404 engishiki_v9_ja.xml#item09101404" xml:id="item09101404">
-              <s rendition="#indent"> 葉栗郡十座〈並小、〉 </s>
+              <seg rendition="#indent"> 葉栗郡十座〈並小、〉 </seg>
               <pb facs="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-9%2F00035.tif/full/full/0/default.jpg"/>
               <table>
                 <row>
@@ -6283,7 +6286,8 @@
               <note> 栗　永本「粟」。土本・九本・吉本・京博本・西本「栗」。永本傍訓「クリ」。 </note>
             </app>
             <p ana="項" corresp="engishiki_v9_en.xml#item09101405 engishiki_v9_ja.xml#item09101405" xml:id="item09101405">
-              <s rendition="#indent"> 丹羽郡廿二座〈大一座、 <anchor xml:id="app0910140501"/> 小廿一座 <anchor xml:id="app0910140501e"/> 、〉 </s>
+              <seg rendition="#indent"> 丹羽郡廿二座〈大一座、 <anchor xml:id="app0910140501"/> 小廿一座 <anchor xml:id="app0910140501e"/>
+                、〉 </seg>
               <table>
                 <row>
                   <cell rendition="#width300"> 阿豆良神社 </cell>
@@ -6360,7 +6364,7 @@
               <note> 鑺　訳注本は「钁」の字体を採用する。 </note>
             </app>
             <p ana="項" corresp="engishiki_v9_en.xml#item09101406 engishiki_v9_ja.xml#item09101406" xml:id="item09101406">
-              <s rendition="#indent"> 春部郡十二座〈並小、〉 </s>
+              <seg rendition="#indent"> 春部郡十二座〈並小、〉 </seg>
               <pb facs="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-9%2F00036.tif/full/full/0/default.jpg"/>
               <table>
                 <row>
@@ -6400,7 +6404,7 @@
               <note> 宇　土本・吉本・京博本「乎」、永本・九本、吉本傍書「宇」。 </note>
             </app>
             <p ana="項" corresp="engishiki_v9_en.xml#item09101407 engishiki_v9_ja.xml#item09101407" xml:id="item09101407">
-              <s rendition="#indent"> 山田郡十九座〈並小、〉 </s>
+              <seg rendition="#indent"> 山田郡十九座〈並小、〉 </seg>
               <table>
                 <row>
                   <cell rendition="#width300"><anchor xml:id="app0910140701"/> 片山神社 <anchor xml:id="app0910140701e"/>
@@ -6477,7 +6481,7 @@
               <note> 片山神社…羊神社（3社）　吉本は片山神社を羊神社の次に配列する。永本も羊神社の下に「イ本片山爰ニアリ」と記す。 </note>
             </app>
             <p ana="項" corresp="engishiki_v9_en.xml#item09101408 engishiki_v9_ja.xml#item09101408" xml:id="item09101408">
-              <s rendition="#indent"> 愛智郡十七座〈大四座、小十三座、〉 </s>
+              <seg rendition="#indent"> 愛智郡十七座〈大四座、小十三座、〉 </seg>
               <pb facs="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-9%2F00037.tif/full/full/0/default.jpg"/>
               <table>
                 <row>
@@ -6555,7 +6559,7 @@
               <note style="頭"> 吉本頭注「同御子」 </note>
             </app>
             <p ana="項" corresp="engishiki_v9_en.xml#item09101409 engishiki_v9_ja.xml#item09101409" xml:id="item09101409">
-              <s rendition="#indent"> 知多郡三座〈並小、〉 </s>
+              <seg rendition="#indent"> 知多郡三座〈並小、〉 </seg>
               <table>
                 <row>
                   <cell rendition="#width300"><anchor xml:id="app0910140901"/> 入見神社 <anchor xml:id="app0910140901e"/>
@@ -6581,7 +6585,7 @@
             <p ana="項" corresp="engishiki_v9_en.xml#item09101501 engishiki_v9_ja.xml#item09101501" xml:id="item09101501"
                 ><placeName corresp="#参河国"> 参河国 </placeName> 廿六座〈並小、〉 </p>
             <p ana="項" corresp="engishiki_v9_en.xml#item09101502 engishiki_v9_ja.xml#item09101502" xml:id="item09101502">
-              <s rendition="#indent"> 賀茂郡七座〈並小、〉 </s>
+              <seg rendition="#indent"> 賀茂郡七座〈並小、〉 </seg>
               <table>
                 <row>
                   <cell rendition="#width300"> 野見神社 </cell>
@@ -6608,7 +6612,7 @@
             </p>
             <pb facs="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-9%2F00038.tif/full/full/0/default.jpg"/>
             <p ana="項" corresp="engishiki_v9_en.xml#item09101503 engishiki_v9_ja.xml#item09101503" xml:id="item09101503">
-              <s rendition="#indent"> 額田郡二座〈並小、〉 </s>
+              <seg rendition="#indent"> 額田郡二座〈並小、〉 </seg>
               <table>
                 <row>
                   <cell rendition="#width300"> 稲前神社 </cell>
@@ -6625,7 +6629,7 @@
               <note> 播　吉本「幡」。土本・永本・九本・京博本「播」。 </note>
             </app>
             <p ana="項" corresp="engishiki_v9_en.xml#item09101504 engishiki_v9_ja.xml#item09101504" xml:id="item09101504">
-              <s rendition="#indent"> 碧海郡六座〈並小、〉 </s>
+              <seg rendition="#indent"> 碧海郡六座〈並小、〉 </seg>
               <table>
                 <row>
                   <cell rendition="#width300"> 和志取神社 </cell>
@@ -6644,7 +6648,7 @@
               </table>
             </p>
             <p ana="項" corresp="engishiki_v9_en.xml#item09101505 engishiki_v9_ja.xml#item09101505" xml:id="item09101505">
-              <s rendition="#indent"><anchor xml:id="app0910150501"/> 播 <anchor xml:id="app0910150501e"/> 豆郡三座〈並小、〉 </s>
+              <seg rendition="#indent"><anchor xml:id="app0910150501"/> 播 <anchor xml:id="app0910150501e"/> 豆郡三座〈並小、〉 </seg>
               <table>
                 <row>
                   <cell rendition="#width300"> 久麻久神社二座 </cell>
@@ -6661,7 +6665,7 @@
               <note> 播　吉本「幡」。土本・永本・九本・京博本「播」。 </note>
             </app>
             <p ana="項" corresp="engishiki_v9_en.xml#item09101506 engishiki_v9_ja.xml#item09101506" xml:id="item09101506">
-              <s rendition="#indent"> 宝飫郡六座〈並小、〉 </s>
+              <seg rendition="#indent"> 宝飫郡六座〈並小、〉 </seg>
               <table>
                 <row>
                   <cell rendition="#width300"> 形原神社 </cell>
@@ -6686,7 +6690,7 @@
               <note> 鹿　吉本「麻」。土本・永本・九本・京博本、吉本傍書「鹿」。 </note>
             </app>
             <p ana="項" corresp="engishiki_v9_en.xml#item09101507 engishiki_v9_ja.xml#item09101507" xml:id="item09101507">
-              <s rendition="#indent"> 八名郡一座〈小、〉 </s>
+              <seg rendition="#indent"> 八名郡一座〈小、〉 </seg>
               <table>
                 <row>
                   <cell rendition="#width300"> 石 <anchor xml:id="app0910150701"/> 巻 <anchor xml:id="app0910150701e"/> 神社 </cell>
@@ -6704,7 +6708,7 @@
               <note> 巻　吉本「麻木」、永本傍書「麻木イ」。土本・永本・九本・京博本「巻」。 </note>
             </app>
             <p ana="項" corresp="engishiki_v9_en.xml#item09101508 engishiki_v9_ja.xml#item09101508" xml:id="item09101508">
-              <s rendition="#indent"> 渥美郡一座〈小、〉 </s>
+              <seg rendition="#indent"> 渥美郡一座〈小、〉 </seg>
               <table>
                 <row>
                   <cell rendition="#width300"> 阿志神社 </cell>
@@ -6728,7 +6732,7 @@
               <note> 大二座、小六十座　土本無し、永本・九本・吉本・京博本あり。 </note>
             </app>
             <p ana="項" corresp="engishiki_v9_en.xml#item09101602 engishiki_v9_ja.xml#item09101602" xml:id="item09101602">
-              <s rendition="#indent"> 浜名郡五座〈大一座、小四座、〉 </s>
+              <seg rendition="#indent"> 浜名郡五座〈大一座、小四座、〉 </seg>
               <pb facs="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-9%2F00039.tif/full/full/0/default.jpg"/>
               <table>
                 <row>
@@ -6758,7 +6762,7 @@
               <note> 太神　永本・西本「太」一字。土本・九本・吉本・京博本「太神」。訳注本は壬本により「大神」に改める。 </note>
             </app>
             <p ana="項" corresp="engishiki_v9_en.xml#item09101603 engishiki_v9_ja.xml#item09101603" xml:id="item09101603">
-              <s rendition="#indent"> 敷智郡六座〈並小、〉 </s>
+              <seg rendition="#indent"> 敷智郡六座〈並小、〉 </seg>
               <table>
                 <row>
                   <cell rendition="#width300"> 岐佐神社 </cell>
@@ -6783,7 +6787,7 @@
               <note> 利神　吉本「和」、土本・永本・九本・京博本「利神」。 </note>
             </app>
             <p ana="項" corresp="engishiki_v9_en.xml#item09101604 engishiki_v9_ja.xml#item09101604" xml:id="item09101604">
-              <s rendition="#indent"> 引佐郡六座〈並 <anchor xml:id="app0910160401"/> 小 <anchor xml:id="app0910160401e"/> 、〉 </s>
+              <seg rendition="#indent"> 引佐郡六座〈並 <anchor xml:id="app0910160401"/> 小 <anchor xml:id="app0910160401e"/> 、〉 </seg>
               <table>
                 <row>
                   <cell rendition="#width300"> 渭伊神社 </cell>
@@ -6807,7 +6811,7 @@
               <note> 小　吉本「社」、土本・永本・九本・京博本「小」。 </note>
             </app>
             <p ana="項" corresp="engishiki_v9_en.xml#item09101605 engishiki_v9_ja.xml#item09101605" xml:id="item09101605">
-              <s rendition="#indent"><anchor xml:id="app0910160501"/> 麁 <anchor xml:id="app0910160501e"/> 玉郡四座〈並小、〉 </s>
+              <seg rendition="#indent"><anchor xml:id="app0910160501"/> 麁 <anchor xml:id="app0910160501e"/> 玉郡四座〈並小、〉 </seg>
               <table>
                 <row>
                   <cell rendition="#width300"> 於侶神社 </cell>
@@ -6831,7 +6835,7 @@
               <note> 麁　吉本「鹿」、土本・永本・九本・京博本「麁」。 </note>
             </app>
             <p ana="項" corresp="engishiki_v9_en.xml#item09101606 engishiki_v9_ja.xml#item09101606" xml:id="item09101606">
-              <s rendition="#indent"> 長下郡四座〈並小、〉 </s>
+              <seg rendition="#indent"> 長下郡四座〈並小、〉 </seg>
               <table>
                 <row>
                   <cell rendition="#width300"> 長野神社 </cell>
@@ -6850,7 +6854,7 @@
               </table>
             </p>
             <p ana="項" corresp="engishiki_v9_en.xml#item09101607 engishiki_v9_ja.xml#item09101607" xml:id="item09101607">
-              <s rendition="#indent"> 長上郡五座〈並小、〉 </s>
+              <seg rendition="#indent"> 長上郡五座〈並小、〉 </seg>
               <pb facs="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-9%2F00040.tif/full/full/0/default.jpg"/>
               <table>
                 <row>
@@ -6870,7 +6874,7 @@
               </table>
             </p>
             <p ana="項" corresp="engishiki_v9_en.xml#item09101608 engishiki_v9_ja.xml#item09101608" xml:id="item09101608">
-              <s rendition="#indent"> 磐田郡十四座〈並小、〉 </s>
+              <seg rendition="#indent"> 磐田郡十四座〈並小、〉 </seg>
               <table>
                 <row>
                   <cell rendition="#width300"> 入見神社 </cell>
@@ -6909,7 +6913,7 @@
               <note> 苑　吉本「蒙」、土本・永本・九本・京博本、吉本傍書「苑」。 </note>
             </app>
             <p ana="項" corresp="engishiki_v9_en.xml#item09101609 engishiki_v9_ja.xml#item09101609" xml:id="item09101609">
-              <s rendition="#indent"> 周 <anchor xml:id="app0910160901"/> 知 <anchor xml:id="app0910160901e"/> 郡三座〈並小、〉 </s>
+              <seg rendition="#indent"> 周 <anchor xml:id="app0910160901"/> 知 <anchor xml:id="app0910160901e"/> 郡三座〈並小、〉 </seg>
               <table>
                 <row>
                   <cell rendition="#width300"> 芽原川内神社 </cell>
@@ -6926,7 +6930,7 @@
               <note> 知　吉本「智」、土本・永本・九本・京博本「知」。 </note>
             </app>
             <p ana="項" corresp="engishiki_v9_en.xml#item09101610 engishiki_v9_ja.xml#item09101610" xml:id="item09101610">
-              <s rendition="#indent"> 山名郡四座〈並小、〉 </s>
+              <seg rendition="#indent"> 山名郡四座〈並小、〉 </seg>
               <table>
                 <row>
                   <cell rendition="#width300"> 山名神社 </cell>
@@ -6945,7 +6949,7 @@
               </table>
             </p>
             <p ana="項" corresp="engishiki_v9_en.xml#item09101611 engishiki_v9_ja.xml#item09101611" xml:id="item09101611">
-              <s rendition="#indent"> 佐野郡四座〈並小、〉 </s>
+              <seg rendition="#indent"> 佐野郡四座〈並小、〉 </seg>
               <table>
                 <row>
                   <cell rendition="#width300"> 真草神社 </cell>
@@ -6966,7 +6970,7 @@
               </table>
             </p>
             <p ana="項" corresp="engishiki_v9_en.xml#item09101612 engishiki_v9_ja.xml#item09101612" xml:id="item09101612">
-              <s rendition="#indent"> 城飼郡二座〈並小、〉 </s>
+              <seg rendition="#indent"> 城飼郡二座〈並小、〉 </seg>
               <table>
                 <row>
                   <cell rendition="#width300"> 奈良神社 </cell>
@@ -6978,7 +6982,7 @@
               </table>
             </p>
             <p ana="項" corresp="engishiki_v9_en.xml#item09101613 engishiki_v9_ja.xml#item09101613" xml:id="item09101613">
-              <s rendition="#indent"> 蓁原郡五座〈大一座、小四座、〉 </s>
+              <seg rendition="#indent"> 蓁原郡五座〈大一座、小四座、〉 </seg>
               <table>
                 <row>
                   <cell rendition="#width300"> 大楠神社 </cell>
@@ -7014,7 +7018,7 @@
             <p ana="項" corresp="engishiki_v9_en.xml#item09101701 engishiki_v9_ja.xml#item09101701" xml:id="item09101701"
                 ><placeName corresp="#駿河国"> 駿河国 </placeName> 廿二座〈大一座、小廿一座、〉 </p>
             <p ana="項" corresp="engishiki_v9_en.xml#item09101702 engishiki_v9_ja.xml#item09101702" xml:id="item09101702">
-              <s rendition="#indent"> 益頭郡四座〈並小、〉 </s>
+              <seg rendition="#indent"> 益頭郡四座〈並小、〉 </seg>
               <table>
                 <row>
                   <cell rendition="#width300"> 神神社 </cell>
@@ -7033,7 +7037,7 @@
               </table>
             </p>
             <p ana="項" corresp="engishiki_v9_en.xml#item09101703 engishiki_v9_ja.xml#item09101703" xml:id="item09101703">
-              <s rendition="#indent"> 有度郡三座〈 <anchor xml:id="app0910170301"/> 並小 <anchor xml:id="app0910170301e"/> 、〉 </s>
+              <seg rendition="#indent"> 有度郡三座〈 <anchor xml:id="app0910170301"/> 並小 <anchor xml:id="app0910170301e"/> 、〉 </seg>
               <table>
                 <row>
                   <cell rendition="#width300"> 伊河麻神社 </cell>
@@ -7050,7 +7054,7 @@
               <note> 並小　土本無し、永本・九本・吉本・京博本あり。 </note>
             </app>
             <p ana="項" corresp="engishiki_v9_en.xml#item09101704 engishiki_v9_ja.xml#item09101704" xml:id="item09101704">
-              <s rendition="#indent"> 安倍郡七座〈 <anchor xml:id="app0910170401"/> 並小 <anchor xml:id="app0910170401e"/> 、〉 </s>
+              <seg rendition="#indent"> 安倍郡七座〈 <anchor xml:id="app0910170401"/> 並小 <anchor xml:id="app0910170401e"/> 、〉 </seg>
               <table>
                 <row>
                   <cell rendition="#width300"> 足坏神社 </cell>
@@ -7082,7 +7086,7 @@
               <note> 並小　土本無し、永本・九本・吉本・京博本あり。 </note>
             </app>
             <p ana="項" corresp="engishiki_v9_en.xml#item09101705 engishiki_v9_ja.xml#item09101705" xml:id="item09101705">
-              <s rendition="#indent"> 廬原郡三座〈並小、〉 </s>
+              <seg rendition="#indent"> 廬原郡三座〈並小、〉 </seg>
               <table>
                 <row>
                   <cell rendition="#width300"> 御穂神社 </cell>
@@ -7099,7 +7103,7 @@
               <note> 岐　吉本「伎」、土本・永本・九本・京博本「岐」。 </note>
             </app>
             <p ana="項" corresp="engishiki_v9_en.xml#item09101706 engishiki_v9_ja.xml#item09101706" xml:id="item09101706">
-              <s rendition="#indent"> 富士郡三座〈大一座、小二座、〉 </s>
+              <seg rendition="#indent"> 富士郡三座〈大一座、小二座、〉 </seg>
               <table>
                 <row>
                   <cell rendition="#width300"> 倭文神社 </cell>
@@ -7111,7 +7115,7 @@
               </table>
             </p>
             <p ana="項" corresp="engishiki_v9_en.xml#item09101707 engishiki_v9_ja.xml#item09101707" xml:id="item09101707">
-              <s rendition="#indent"><placeName corresp="#駿河国"> 駿河 </placeName> 郡二座〈並小、〉 </s>
+              <seg rendition="#indent"><placeName corresp="#駿河国"> 駿河 </placeName> 郡二座〈並小、〉 </seg>
               <table>
                 <row>
                   <cell rendition="#width300"> 丸子神社 </cell>
@@ -7135,7 +7139,8 @@
               <note> 大五座、小八十七座　土本無し、永本・九本・吉本・京博本あり。 </note>
             </app>
             <p ana="項" corresp="engishiki_v9_en.xml#item09101802 engishiki_v9_ja.xml#item09101802" xml:id="item09101802">
-              <s rendition="#indent"> 賀茂郡卌六座〈 <anchor xml:id="app0910180201"/> 大四座、小卌二座 <anchor xml:id="app0910180201e"/> 、〉 </s>
+              <seg rendition="#indent"> 賀茂郡卌六座〈 <anchor xml:id="app0910180201"/> 大四座、小卌二座 <anchor xml:id="app0910180201e"/>
+                、〉 </seg>
               <table>
                 <row>
                   <cell rendition="#width300"><anchor xml:id="app0910180202"/> 伊豆三島 <anchor xml:id="app0910180203"/> 神社
@@ -7336,7 +7341,7 @@
               <note> 気　訳注本この上に考異に従い「和」字を補う。 </note>
             </app>
             <p ana="項" corresp="engishiki_v9_en.xml#item09101803 engishiki_v9_ja.xml#item09101803" xml:id="item09101803">
-              <s rendition="#indent"> 田方郡廿四座〈大一座、小廿三座、〉 </s>
+              <seg rendition="#indent"> 田方郡廿四座〈大一座、小廿三座、〉 </seg>
               <table>
                 <row>
                   <cell rendition="#width300"> 荒木神社 </cell>
@@ -7446,7 +7451,7 @@
               <note> 村　訳注本は「比」に作るべしとの考異の説を紹介する。 </note>
             </app>
             <p ana="項" corresp="engishiki_v9_en.xml#item09101804 engishiki_v9_ja.xml#item09101804" xml:id="item09101804">
-              <s rendition="#indent"> 那賀郡廿二社〈並小、〉 </s>
+              <seg rendition="#indent"> 那賀郡廿二社〈並小、〉 </seg>
               <table>
                 <row>
                   <cell rendition="#width300"> 箕勾神社 </cell>
@@ -7535,7 +7540,7 @@
             <p ana="項" corresp="engishiki_v9_en.xml#item09101901 engishiki_v9_ja.xml#item09101901" xml:id="item09101901"
                 ><placeName corresp="#甲斐国"> 甲斐国 </placeName> 廿座〈大一座、小十九座、〉 </p>
             <p ana="項" corresp="engishiki_v9_en.xml#item09101902 engishiki_v9_ja.xml#item09101902" xml:id="item09101902">
-              <s rendition="#indent"> 山梨郡九座〈並 <anchor xml:id="app0910190201"/> 小 <anchor xml:id="app0910190201e"/> 、〉 </s>
+              <seg rendition="#indent"> 山梨郡九座〈並 <anchor xml:id="app0910190201"/> 小 <anchor xml:id="app0910190201e"/> 、〉 </seg>
               <table>
                 <row>
                   <cell rendition="#width300"> 神部神社 </cell>
@@ -7578,7 +7583,7 @@
               <note> 黒　吉本「累」、土本・永本・九本・京博本、吉本左朱傍書「黒」。 </note>
             </app>
             <p ana="項" corresp="engishiki_v9_en.xml#item09101903 engishiki_v9_ja.xml#item09101903" xml:id="item09101903">
-              <s rendition="#indent"> 巨麻郡五座〈並小、〉 </s>
+              <seg rendition="#indent"> 巨麻郡五座〈並小、〉 </seg>
               <table>
                 <row>
                   <cell rendition="#width300"> 神部神社 </cell>
@@ -7597,7 +7602,7 @@
               </table>
             </p>
             <p ana="項" corresp="engishiki_v9_en.xml#item09101904 engishiki_v9_ja.xml#item09101904" xml:id="item09101904">
-              <s rendition="#indent"> 八代郡六座〈大一座、小五座、〉 </s>
+              <seg rendition="#indent"> 八代郡六座〈大一座、小五座、〉 </seg>
               <table>
                 <row>
                   <cell rendition="#width300"> 佐久神社 </cell>
@@ -7656,7 +7661,7 @@
               </table>
             </p>
             <p ana="項" corresp="engishiki_v9_en.xml#item09102004 engishiki_v9_ja.xml#item09102004" xml:id="item09102004">
-              <s rendition="#indent"> 大住郡四座〈並小、〉 </s>
+              <seg rendition="#indent"> 大住郡四座〈並小、〉 </seg>
               <table>
                 <row>
                   <cell rendition="#width300"> 前鳥神社 </cell>
@@ -7686,7 +7691,7 @@
               </table>
             </p>
             <p ana="項" corresp="engishiki_v9_en.xml#item09102006 engishiki_v9_ja.xml#item09102006" xml:id="item09102006">
-              <s rendition="#indent"> 高座郡六座〈大一座、小五座、〉 </s>
+              <seg rendition="#indent"> 高座郡六座〈大一座、小五座、〉 </seg>
               <table>
                 <row>
                   <cell rendition="#width300"> 大庭神社 </cell>
@@ -7717,7 +7722,7 @@
               <note> 大二座、小卌二座　土本・京博本無し、永本・九本・吉本あり。 </note>
             </app>
             <p ana="項" corresp="engishiki_v9_en.xml#item09102102 engishiki_v9_ja.xml#item09102102" xml:id="item09102102">
-              <s rendition="#indent"> 荏原郡二座〈並小、〉 </s>
+              <seg rendition="#indent"> 荏原郡二座〈並小、〉 </seg>
               <pb facs="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-9%2F00047.tif/full/full/0/default.jpg"/>
               <table>
                 <row>
@@ -7750,7 +7755,7 @@
               <note> 杉　土本・吉本・京博本「枌」。永本・九本・西本「杉」。 </note>
             </app>
             <p ana="項" corresp="engishiki_v9_en.xml#item09102104 engishiki_v9_ja.xml#item09102104" xml:id="item09102104">
-              <s rendition="#indent"> 多 <anchor xml:id="app0910210401"/> 磨 <anchor xml:id="app0910210401e"/> 郡八座〈並小、〉 </s>
+              <seg rendition="#indent"> 多 <anchor xml:id="app0910210401"/> 磨 <anchor xml:id="app0910210401e"/> 郡八座〈並小、〉 </seg>
               <table>
                 <row>
                   <cell rendition="#width300"> 阿伎留神社 </cell>
@@ -7781,7 +7786,7 @@
               <note> 磨　永本・西本「麻」。土本・九本・吉本・京博本「磨」。吉田家旧蔵宝亀三・一二・一九日官符も「磨」。 </note>
             </app>
             <p ana="項" corresp="engishiki_v9_en.xml#item09102105 engishiki_v9_ja.xml#item09102105" xml:id="item09102105">
-              <s rendition="#indent"> 足立郡四座〈大一座、小三座、〉 </s>
+              <seg rendition="#indent"> 足立郡四座〈大一座、小三座、〉 </seg>
               <table>
                 <row>
                   <cell rendition="#width300"> 足立神社 </cell>
@@ -7806,7 +7811,7 @@
               <note place="頭"> 吉本頭注「一宮」 </note>
             </app>
             <p ana="項" corresp="engishiki_v9_en.xml#item09102106 engishiki_v9_ja.xml#item09102106" xml:id="item09102106">
-              <s rendition="#indent"> 横見郡三座〈並小、〉 </s>
+              <seg rendition="#indent"> 横見郡三座〈並小、〉 </seg>
               <table>
                 <row>
                   <cell rendition="#width300"> 横見神社 </cell>
@@ -7818,7 +7823,7 @@
               </table>
             </p>
             <p ana="項" corresp="engishiki_v9_en.xml#item09102107 engishiki_v9_ja.xml#item09102107" xml:id="item09102107">
-              <s rendition="#indent"> 入間郡五座〈並小、〉 </s>
+              <seg rendition="#indent"> 入間郡五座〈並小、〉 </seg>
               <table>
                 <row>
                   <cell rendition="#width300"> 出雲伊波比神社 </cell>
@@ -7837,7 +7842,7 @@
               </table>
             </p>
             <p ana="項" corresp="engishiki_v9_en.xml#item09102108 engishiki_v9_ja.xml#item09102108" xml:id="item09102108">
-              <s rendition="#indent"> 埼玉郡四座〈並小、〉 </s>
+              <seg rendition="#indent"> 埼玉郡四座〈並小、〉 </seg>
               <pb facs="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-9%2F00048.tif/full/full/0/default.jpg"/>
               <table>
                 <row>
@@ -7855,7 +7860,7 @@
               <note> 社　吉本無し、土本・永本・九本・京博本あり。 </note>
             </app>
             <p ana="項" corresp="engishiki_v9_en.xml#item09102109 engishiki_v9_ja.xml#item09102109" xml:id="item09102109">
-              <s rendition="#indent"> 男衾郡三座〈並小、〉 </s>
+              <seg rendition="#indent"> 男衾郡三座〈並小、〉 </seg>
               <table>
                 <row>
                   <cell rendition="#width300"> 小被神社 </cell>
@@ -7867,7 +7872,7 @@
               </table>
             </p>
             <p ana="項" corresp="engishiki_v9_en.xml#item09102110 engishiki_v9_ja.xml#item09102110" xml:id="item09102110">
-              <s rendition="#indent"> 播羅郡四座〈並小、〉 </s>
+              <seg rendition="#indent"> 播羅郡四座〈並小、〉 </seg>
               <table>
                 <row>
                   <cell rendition="#width300"> 白髪神社 </cell>
@@ -7886,7 +7891,7 @@
               </table>
             </p>
             <p ana="項" corresp="engishiki_v9_en.xml#item09102111 engishiki_v9_ja.xml#item09102111" xml:id="item09102111">
-              <s rendition="#indent"><anchor xml:id="app0910211101"/> 加 <anchor xml:id="app0910211101e"/> 美郡四座〈並小、〉 </s>
+              <seg rendition="#indent"><anchor xml:id="app0910211101"/> 加 <anchor xml:id="app0910211101e"/> 美郡四座〈並小、〉 </seg>
               <table>
                 <row>
                   <cell rendition="#width300"> 長幡部神社 </cell>
@@ -7919,7 +7924,7 @@
               <note> 坂　訳注本は考異に従いこの上に「八」を意補する。 </note>
             </app>
             <p ana="項" corresp="engishiki_v9_en.xml#item09102112 engishiki_v9_ja.xml#item09102112" xml:id="item09102112">
-              <s rendition="#indent"><anchor xml:id="app0910211201"/> 祑父 <anchor xml:id="app0910211201e"/> 郡二座〈並小、〉 </s>
+              <seg rendition="#indent"><anchor xml:id="app0910211201"/> 祑父 <anchor xml:id="app0910211201e"/> 郡二座〈並小、〉 </seg>
               <table>
                 <row>
                   <cell rendition="#width300"><anchor xml:id="app0910211202"/> 秩父 <anchor xml:id="app0910211202e"/> 神社 </cell>
@@ -8016,7 +8021,7 @@
             <p ana="項" corresp="engishiki_v9_en.xml#item09102201 engishiki_v9_ja.xml#item09102201" xml:id="item09102201"
                 ><placeName corresp="#安房国"> 安房国 </placeName> 六座〈大二座、小四座、〉 </p>
             <p ana="項" corresp="engishiki_v9_en.xml#item09102202 engishiki_v9_ja.xml#item09102202" xml:id="item09102202">
-              <s rendition="#indent"> 安房郡二座〈並大、〉 </s>
+              <seg rendition="#indent"> 安房郡二座〈並大、〉 </seg>
               <table>
                 <row>
                   <cell rendition="#width300"><anchor xml:id="app0910220201"/> 安房坐神社 <anchor xml:id="app0910220201e"/>
@@ -8049,7 +8054,7 @@
               <note> 洲　永本「羽州」、九本「州」、吉本「眀洲」。土本・京博本「洲」。 </note>
             </app>
             <p ana="項" corresp="engishiki_v9_en.xml#item09102203 engishiki_v9_ja.xml#item09102203" xml:id="item09102203">
-              <s rendition="#indent"> 朝夷郡四座〈並小、〉 </s>
+              <seg rendition="#indent"> 朝夷郡四座〈並小、〉 </seg>
               <table>
                 <row>
                   <cell rendition="#width300"> 天神社 </cell>
@@ -8096,7 +8101,7 @@
               </table>
             </p>
             <p ana="項" corresp="engishiki_v9_en.xml#item09102304 engishiki_v9_ja.xml#item09102304" xml:id="item09102304">
-              <s rendition="#indent"> 海上郡二座〈並小、〉 </s>
+              <seg rendition="#indent"> 海上郡二座〈並小、〉 </seg>
               <table>
                 <row>
                   <cell rendition="#width300"> 島穴神社 </cell>
@@ -8143,7 +8148,7 @@
               </table>
             </p>
             <p ana="項" corresp="engishiki_v9_en.xml#item09102403 engishiki_v9_ja.xml#item09102403" xml:id="item09102403">
-              <s rendition="#indent"> 千葉郡二座〈 <anchor xml:id="app0910240301"/> 並小 <anchor xml:id="app0910240301e"/> 、〉 </s>
+              <seg rendition="#indent"> 千葉郡二座〈 <anchor xml:id="app0910240301"/> 並小 <anchor xml:id="app0910240301e"/> 、〉 </seg>
               <table>
                 <row>
                   <cell rendition="#width300"> 寒川神社 </cell>
@@ -8187,7 +8192,7 @@
               <note> 印播　吉本「仰幡」、土本・永本・九本・京博本「印播」。 </note>
             </app>
             <p ana="項" corresp="engishiki_v9_en.xml#item09102406 engishiki_v9_ja.xml#item09102406" xml:id="item09102406">
-              <s rendition="#indent"> 結城郡二座〈並小、〉 </s>
+              <seg rendition="#indent"> 結城郡二座〈並小、〉 </seg>
               <table>
                 <row>
                   <cell rendition="#width300"> 高 <anchor xml:id="app0910240601"/> 埼 <anchor xml:id="app0910240601e"/> 神社 </cell>
@@ -8222,7 +8227,7 @@
               <note place="頭"> 吉本頭注「□□四年十二月十日改岡田郡為豊田郡、」 </note>
             </app>
             <p ana="項" corresp="engishiki_v9_en.xml#item09102408 engishiki_v9_ja.xml#item09102408" xml:id="item09102408">
-              <s rendition="#indent"> 葛飾郡二座〈並小、〉 </s>
+              <seg rendition="#indent"> 葛飾郡二座〈並小、〉 </seg>
               <table>
                 <row>
                   <cell rendition="#width300"> 茂侶神社 </cell>
@@ -8263,7 +8268,7 @@
             <p ana="項" corresp="engishiki_v9_en.xml#item09102501 engishiki_v9_ja.xml#item09102501" xml:id="item09102501"
                 ><placeName corresp="#常陸国"> 常陸国 </placeName> 廿八座〈大七座、小廿一座、〉 </p>
             <p ana="項" corresp="engishiki_v9_en.xml#item09102502 engishiki_v9_ja.xml#item09102502" xml:id="item09102502">
-              <s rendition="#indent"> 鹿島郡二座〈並 <anchor xml:id="app0910250201"/> 大 <anchor xml:id="app0910250201e"/> 、〉 </s>
+              <seg rendition="#indent"> 鹿島郡二座〈並 <anchor xml:id="app0910250201"/> 大 <anchor xml:id="app0910250201e"/> 、〉 </seg>
               <table>
                 <row>
                   <cell rendition="#width300"> 鹿島神宮〈名神大、月次、新嘗、〉 </cell>
@@ -8298,7 +8303,7 @@
               </table>
             </p>
             <p ana="項" corresp="engishiki_v9_en.xml#item09102504 engishiki_v9_ja.xml#item09102504" xml:id="item09102504">
-              <s rendition="#indent"> 信太郡二座〈並小、〉 </s>
+              <seg rendition="#indent"> 信太郡二座〈並小、〉 </seg>
               <table>
                 <row>
                   <cell rendition="#width300"> 楯縫神社 </cell>
@@ -8310,8 +8315,8 @@
               </table>
             </p>
             <p ana="項" corresp="engishiki_v9_en.xml#item09102505 engishiki_v9_ja.xml#item09102505" xml:id="item09102505">
-              <s rendition="#indent"> 久 <anchor xml:id="app0910250501"/> 慈 <anchor xml:id="app0910250501e"/> 郡 <anchor
-                  xml:id="app0910250502"/> 七座 <anchor xml:id="app0910250502e"/> 〈大一座、小六座、〉 </s>
+              <seg rendition="#indent"> 久 <anchor xml:id="app0910250501"/> 慈 <anchor xml:id="app0910250501e"/> 郡 <anchor
+                  xml:id="app0910250502"/> 七座 <anchor xml:id="app0910250502e"/> 〈大一座、小六座、〉 </seg>
               <table>
                 <row>
                   <cell rendition="#width300"> 長幡部神社 </cell>
@@ -8375,7 +8380,7 @@
               <note> 小　吉本「少」、土本・永本・九本・京博本「小」。 </note>
             </app>
             <p ana="項" corresp="engishiki_v9_en.xml#item09102507 engishiki_v9_ja.xml#item09102507" xml:id="item09102507">
-              <s rendition="#indent"> 那賀郡七座〈大二座、小五座、〉 </s>
+              <seg rendition="#indent"> 那賀郡七座〈大二座、小五座、〉 </seg>
               <table>
                 <row>
                   <cell rendition="#width300"> 大井神社 </cell>
@@ -8409,8 +8414,8 @@
               <note> 師　吉本「叮」、永本傍書「叮イ本」。土本・永本・九本・京博本「師」。 </note>
             </app>
             <p ana="項" corresp="engishiki_v9_en.xml#item09102508 engishiki_v9_ja.xml#item09102508" xml:id="item09102508">
-              <s rendition="#indent"> 新治 <anchor xml:id="app0910250801"/> 郡 <anchor xml:id="app0910250801e"/> 三座〈 <anchor
-                  xml:id="app0910250802"/> 大一座、小二座 <anchor xml:id="app0910250802e"/> 、〉 </s>
+              <seg rendition="#indent"> 新治 <anchor xml:id="app0910250801"/> 郡 <anchor xml:id="app0910250801e"/> 三座〈 <anchor
+                  xml:id="app0910250802"/> 大一座、小二座 <anchor xml:id="app0910250802e"/> 、〉 </seg>
               <table>
                 <row>
                   <cell rendition="#width300"> 稲田神社〈 <anchor xml:id="app0910250803"/> 名神大 <anchor xml:id="app0910250803e"/>
@@ -8445,7 +8450,7 @@
               <note> 主　吉本・西本「玉」、永本傍書「玉イ本」。土本・永本・九本・京博本「主」。 </note>
             </app>
             <p ana="項" corresp="engishiki_v9_en.xml#item09102509 engishiki_v9_ja.xml#item09102509" xml:id="item09102509">
-              <s rendition="#indent"> 茨城郡三座〈並小、〉 </s>
+              <seg rendition="#indent"> 茨城郡三座〈並小、〉 </seg>
               <table>
                 <row>
                   <cell rendition="#width300"> 夷針神社 </cell>
@@ -8567,23 +8572,23 @@
         <pb facs="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-9%2F00053.tif/full/full/0/default.jpg"/>
         <div type="奥書" xml:id="shahonokugaki09">
           <p xml:id="shahonokugaki0901"><anchor xml:id="app0998880101"/> 此上下両巻、蒙勅命、仰嫡孫兼満終書写之功、致校合畢、 <lb/>
-            <s rendition="#indent"> 文亀三年十二月廿六日 </s>
+            <seg rendition="#indent"> 文亀三年十二月廿六日 </seg>
             <lb/>
-            <s rendition="#indent2"> 神道長上従二位行 <orgName corresp="#神祇官"> 神祇 </orgName> 大副兼侍従卜部朝臣兼倶 </s>
+            <seg rendition="#indent2"> 神道長上従二位行 <orgName corresp="#神祇官"> 神祇 </orgName> 大副兼侍従卜部朝臣兼倶 </seg>
             <anchor xml:id="app0998880101e"/>
           </p>
           <app from="#app0998880101" to="#app0998880101e">
             <lem wit="#土本 #京博本"> 此上下両巻、蒙勅命、仰嫡孫兼満終書写之功、致校合畢、 <lb/>
-              <s rendition="#indent"> 文亀三年十二月廿六日 </s>
+              <seg rendition="#indent"> 文亀三年十二月廿六日 </seg>
               <lb/>
-              <s rendition="#indent2"> 神道長上従二位行神祇大副兼侍従卜部朝臣兼倶 </s>
+              <seg rendition="#indent2"> 神道長上従二位行神祇大副兼侍従卜部朝臣兼倶 </seg>
             </lem>
             <rdg wit="#永本"> 天文元〈壬辰〉年八月廿七日、云悪筆、云老眼、一向雖無 <lb/> 正体、兼隆朝臣従田舎懇望之間、令書写訖、 <lb/>
-              <s rendition="#indent4"> 正三位行神祇大副卜部朝臣兼永 </s>
+              <seg rendition="#indent4"> 正三位行神祇大副卜部朝臣兼永 </seg>
             </rdg>
             <rdg wit="#九本"> 付仮名了、 </rdg>
             <rdg wit="#吉本"> 文明十三年季冬仲旬、 <lb/> 加修補畢、 <lb/>
-              <s rendition="#indent3"> 従二位侍従卜部兼（○花押） </s>
+              <seg rendition="#indent3"> 従二位侍従卜部兼（○花押） </seg>
             </rdg>
           </app>
         </div>
