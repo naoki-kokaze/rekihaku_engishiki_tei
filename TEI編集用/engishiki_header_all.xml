@@ -107,8 +107,8 @@
           <persName>Emily Warren</persName>
           <note>『延喜式』テクストの英訳（巻39「内膳司」）</note>
         </respStmt>
-        <funder> 人間文化研究機構広領域連携型基幹研究プロジェクト「異分野融合による「総合書物学」の構築」歴博ユニット「古代の百科全書『延喜式』の多分野協働研究」 </funder>
-        <funder> 人間文化研究機構広領域連携型基幹研究プロジェクト「異分野融合による総合書物学の拡張的研究」歴博ユニット「延喜式のデジタル技術による汎用化」 </funder>
+        <funder> 人間文化研究機構広領域連携型基幹研究プロジェクト「異分野融合による「総合書物学」の構築」歴博ユニット「古代の百科全書『延喜式』の多分野協働研究」（研究代表：小倉慈司） </funder>
+        <funder> 人間文化研究機構広領域連携型基幹研究プロジェクト「異分野融合による総合書物学の拡張的研究」歴博ユニット「延喜式のデジタル技術による汎用化」（研究代表：小倉慈司（2022～2024）、三上喜孝（2025～）） </funder>
         <funder> 科研費基盤研究（B）「史料学的検討を重視した『延喜式』の基礎的研究」（研究代表：小倉慈司） </funder>
         <funder> 科研費基盤研究（B）「格・式研究を踏まえた日本古代社会像の再構築」（研究代表：小倉慈司） </funder>
         <funder> 学術変革領域研究（A）「歴史情報学の創成」（領域代表）内 計画研究「TEIを中心とした高度な歴史テキスト構築」（研究代表：小風尚樹） </funder>
@@ -118,11 +118,11 @@
         <authority> 国立歴史民俗博物館 </authority>
         <distributor> 国立歴史民俗博物館メタ資料学研究センター </distributor>
         <publisher> 国立歴史民俗博物館メタ資料学研究センター </publisher>
-        <idno type="PID"> o:depcha.engi_shiki.1 </idno>
+        <idno type="PID"/>
         <availability status="free">
           <p>本データは国立歴史民俗博物館の利用規定に基づき公開されています。</p>
           <licence target="https://creativecommons.org/licenses/by/4.0/">この作品はクリエイティブ・コモンズ 表示 4.0 国際
-            ライセンスの下に提供されています。</licence>
+            ライセンス（CC BY 4.0）の下に提供されています。</licence>
         </availability>
         <!--下記dateはデジタル延喜式の公開日のままでよいでしょうか？ -->
         <date when="2020-03-31">31 March 2020</date>
@@ -1102,12 +1102,15 @@
         <rendition xml:id="hanging-1"> display: block; padding-top: 1em; text-indent: -1em; </rendition>
         <rendition xml:id="hanging-2"> display: block; padding-top: 2em; text-indent: -2em; </rendition>
         <rendition xml:id="hanging-3"> display: block; padding-top: 3em; text-indent: -3em; </rendition>
-        <rendition xml:id="indent1_hanging-5"> display: block; padding-top: 6em; text-indent: -5em; </rendition>
+        <rendition xml:id="indent1_hanging-6"> display: block; padding-top: 7em; text-indent: -6em; </rendition>
         <rendition xml:id="indent2_hanging-1"> display: block; padding-top: 3em; text-indent: -1em; </rendition>
         <rendition xml:id="indent2_hanging-3"> display: block; padding-top: 5em; text-indent: -3em; </rendition>
         <rendition xml:id="indent2_hanging-4"> display: block; padding-top: 6em; text-indent: -4em; </rendition>
         <rendition xml:id="indent2_hanging-5"> display: block; padding-top: 7em; text-indent: -5em; </rendition>
         <rendition xml:id="indent2_hanging-7"> display: block; padding-top: 9em; text-indent: -7em; </rendition>
+        <rendition xml:id="indent3_hanging-5"> display: block; padding-top: 8em; text-indent: -5em; </rendition>
+        <rendition xml:id="indent4_hanging-5"> display: block; padding-top: 9em; text-indent: -5em; </rendition>
+        <rendition xml:id="indent4_hanging-6"> display: block; padding-top: 10em; text-indent: -6em; </rendition>
         <rendition xml:id="width50">width: 50px;</rendition>
         <rendition xml:id="width80">width: 80px;</rendition>
         <rendition xml:id="width100">width: 100px;</rendition>
