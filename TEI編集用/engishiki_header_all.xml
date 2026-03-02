@@ -875,7 +875,6 @@
           や属性情報を基盤とした物品情報の可視化を実現する試みである。これらを通じ、本データが次世代の学術資源として持ち得る可能性を検討・実装している。
           <lb/>複雑な史料構造をTEIへ変換する過程で対応しきれなかった事項は多々あるものの、日本史資料のマークアップにおける先行事例が少ない現状に鑑み、現時点での到達点を提示している。今後の史料マークアップにおける参照モデルの一つとなり、次世代の史料デジタル化への寄与を目指している。</p>
       </projectDesc>
-      <!--editorialDecl ana="XML"は、デジタル延喜式では提示しない予定です -->
       <editorialDecl ana="XML">
         <p ana="全体">
           <list>
@@ -1106,33 +1105,44 @@
         <rendition xml:id="shu">color: red;</rendition>
         <rendition xml:id="italic">font-style: italic;</rendition>
 
-        <rendition xml:id="indent">display: block; margin: 0; padding-top: 1em;</rendition>
-        <rendition xml:id="indent2">display: block; margin: 0; padding-top: 2em;</rendition>
-        <rendition xml:id="indent3">display: block; margin: 0; padding-top: 3em;</rendition>
-        <rendition xml:id="indent4">display: block; margin: 0; padding-top: 4em;</rendition>
-        <rendition xml:id="indent5">display: block; margin: 0; padding-top: 5em;</rendition>
-        <rendition xml:id="indent6">display: block; margin: 0; padding-top: 6em;</rendition>
-        <rendition xml:id="indent7">display: block; margin: 0; padding-top: 7em;</rendition>
-        <rendition xml:id="indent8">display: block; margin: 0; padding-top: 8em;</rendition>
-        <rendition xml:id="indent10">display: block; margin: 0; padding-top: 10em;</rendition>
-        <rendition xml:id="indent12">display: block; margin: 0; padding-top: 12em;</rendition>
-        <rendition xml:id="indent13">display: block; margin: 0; padding-top: 13em;</rendition>
-        <rendition xml:id="indent14">display: block; margin: 0; padding-top: 14em;</rendition>
-        <rendition xml:id="indent18">display: block; margin: 0; padding-top: 18em;</rendition>
+        <rendition xml:id="indent">display: block; margin: 0; padding-inline-start: 1em;</rendition>
+        <rendition xml:id="indent2">display: block; margin: 0; padding-inline-start: 2em;</rendition>
+        <rendition xml:id="indent3">display: block; margin: 0; padding-inline-start: 3em;</rendition>
+        <rendition xml:id="indent4">display: block; margin: 0; padding-inline-start: 4em;</rendition>
+        <rendition xml:id="indent5">display: block; margin: 0; padding-inline-start: 5em;</rendition>
+        <rendition xml:id="indent6">display: block; margin: 0; padding-inline-start: 6em;</rendition>
+        <rendition xml:id="indent7">display: block; margin: 0; padding-inline-start: 7em;</rendition>
+        <rendition xml:id="indent8">display: block; margin: 0; padding-inline-start: 8em;</rendition>
+        <rendition xml:id="indent10">display: block; margin: 0; padding-inline-start: 10em;</rendition>
+        <rendition xml:id="indent12">display: block; margin: 0; padding-inline-start: 12em;</rendition>
+        <rendition xml:id="indent13">display: block; margin: 0; padding-inline-start: 13em;</rendition>
+        <rendition xml:id="indent14">display: block; margin: 0; padding-inline-start: 14em;</rendition>
+        <rendition xml:id="indent18">display: block; margin: 0; padding-inline-start: 18em;</rendition>
 
-        <rendition xml:id="hanging-1">display: block; margin: 0; padding-top: 1em; text-indent: -1em;</rendition>
-        <rendition xml:id="hanging-2">display: block; margin: 0; padding-top: 2em; text-indent: -2em;</rendition>
-        <rendition xml:id="hanging-3">display: block; margin: 0; padding-top: 3em; text-indent: -3em;</rendition>
+        <rendition xml:id="hanging-1">display: block; margin: 0; padding-inline-start: 1em; text-indent: -1em;</rendition>
+        <rendition xml:id="hanging-2">display: block; margin: 0; padding-inline-start: 2em; text-indent: -2em;</rendition>
+        <rendition xml:id="hanging-3">display: block; margin: 0; padding-inline-start: 3em; text-indent: -3em;</rendition>
 
-        <rendition xml:id="indent1_hanging-6">display: block; margin: 0; padding-top: 7em; text-indent: -6em;</rendition>
-        <rendition xml:id="indent2_hanging-1">display: block; margin: 0; padding-top: 3em; text-indent: -1em;</rendition>
-        <rendition xml:id="indent2_hanging-3">display: block; margin: 0; padding-top: 5em; text-indent: -3em;</rendition>
-        <rendition xml:id="indent2_hanging-4">display: block; margin: 0; padding-top: 6em; text-indent: -4em;</rendition>
-        <rendition xml:id="indent2_hanging-5">display: block; margin: 0; padding-top: 7em; text-indent: -5em;</rendition>
-        <rendition xml:id="indent2_hanging-7">display: block; margin: 0; padding-top: 9em; text-indent: -7em;</rendition>
-        <rendition xml:id="indent3_hanging-5">display: block; margin: 0; padding-top: 8em; text-indent: -5em;</rendition>
-        <rendition xml:id="indent4_hanging-5">display: block; margin: 0; padding-top: 9em; text-indent: -5em;</rendition>
-        <rendition xml:id="indent4_hanging-6">display: block; margin: 0; padding-top: 10em; text-indent: -6em;</rendition>
+        <rendition xml:id="indent1_hanging-6">display: block; margin: 0; padding-inline-start: 7em; text-indent:
+          -6em;</rendition>
+        <rendition xml:id="indent2_hanging-1">display: block; margin: 0; padding-inline-start: 3em; text-indent:
+          -1em;</rendition>
+        <rendition xml:id="indent2_hanging-3">display: block; margin: 0; padding-inline-start: 5em; text-indent:
+          -3em;</rendition>
+        <rendition xml:id="indent2_hanging-4">display: block; margin: 0; padding-inline-start: 6em; text-indent:
+          -4em;</rendition>
+        <rendition xml:id="indent2_hanging-5">display: block; margin: 0; padding-inline-start: 7em; text-indent:
+          -5em;</rendition>
+        <rendition xml:id="indent2_hanging-7">display: block; margin: 0; padding-inline-start: 9em; text-indent:
+          -7em;</rendition>
+        <rendition xml:id="indent3_hanging-5">display: block; margin: 0; padding-inline-start: 8em; text-indent:
+          -5em;</rendition>
+        <rendition xml:id="indent4_hanging-5">display: block; margin: 0; padding-inline-start: 9em; text-indent:
+          -5em;</rendition>
+        <rendition xml:id="indent4_hanging-6">display: block; margin: 0; padding-inline-start: 10em; text-indent:
+          -6em;</rendition>
+        <rendition xml:id="indent5_hanging-5">display: block; margin: 0; padding-inline-start: 10em; text-indent:
+          -5em;</rendition>
 
         <rendition xml:id="width50">width: 50px;</rendition>
         <rendition xml:id="width80">width: 80px;</rendition>
