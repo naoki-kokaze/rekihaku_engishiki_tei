@@ -1,0 +1,2014 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title> 延喜式ファイル </title>
+<author> 国立歴史民俗博物館 </author>
+<respStmt>
+<resp> プロジェクトリーダー </resp>
+<persName ref="http://viaf.org/viaf/113471616"> 三上喜孝 </persName>
+<note> 「延喜式のデジタル技術による汎用化」（2022～）の責任者（2025～） </note>
+</respStmt>
+<respStmt>
+<resp> プロジェクト副リーダー・システム管理 </resp>
+<persName ref="http://viaf.org/viaf/159687464"> 後藤真 </persName>
+<note> プロジェクトマネジメント・史料閲覧ビューアのシステム管理 </note>
+</respStmt>
+<respStmt>
+<resp> TEI構造化・データ管理 </resp>
+<persName ref="http://viaf.org/viaf/3162902777677782216"> 小風尚樹 </persName>
+<note> テクストマークアップのモデル考察・共同作業のデータ管理 </note>
+</respStmt>
+<respStmt>
+<resp> 閲覧ビューアの開発 </resp>
+<persName ref="http://viaf.org/viaf/31159697771003312807"> 中村覚 </persName>
+<note> TEIおよびIIIF準拠の史料閲覧ビューアの開発 </note>
+</respStmt>
+<respStmt>
+<resp> マークアップ・データ管理・システム検証 </resp>
+<persName> 渡辺美紗子 </persName>
+<note> 校訂文テクスト基礎データの整理・TEIマークアップデータの作成（公開中の校訂文・現代語訳・英訳のデータ全般） </note>
+</respStmt>
+<respStmt>
+<resp> マークアップ・データ処理自動化・データ管理・システム検証 </resp>
+<persName> 戸村美月 </persName>
+<note> 校訂文テクスト基礎データの整理・TEIマークアップデータの作成（公開中の校訂文・現代語訳・英訳のデータ全般） </note>
+</respStmt>
+<respStmt>
+<resp> マークアップ・データ処理自動化 </resp>
+<persName ref="http://viaf.org/viaf/19166357045306640277"> 小風綾乃 </persName>
+<note> TEIファイルとIIIF画像の紐づけ作業・Pythonによる各種データ作成作業の自動化 </note>
+</respStmt>
+<respStmt>
+<resp> モデル設計・講習会実施 </resp>
+<persName ref="http://viaf.org/viaf/252742522"> 永崎研宣 </persName>
+<note> TEIマークアップのモデル検討・TEI講習会の実施 </note>
+</respStmt>
+<respStmt>
+<resp> プロジェクト旧リーダー・校訂・現代語訳 </resp>
+<persName ref="http://viaf.org/viaf/14726824"> 小倉慈司 </persName>
+<note>
+      「古代の百科全書『延喜式』の多分野協働研究」（2016～2021）・「延喜式のデジタル技術による汎用化」（2022～）の責任者（2022～2024）、『延喜式』の書誌学的情報の検討、『延喜式』テクスト本文の校訂（巻5「斎宮寮」巻9「神名上」巻10「神名下」巻17「内匠寮」）、『延喜式』テクストの現代語訳（巻9「神名上」巻10「神名下」）
+     </note>
+</respStmt>
+<respStmt>
+<resp> 校訂 </resp>
+<persName ref="http://viaf.org/viaf/29168734579865262687 http://viaf.org/viaf/20165392564921252049"> 井上正望 </persName>
+<note> 『延喜式』テクスト本文の校訂（巻29「刑部省・判事・囚獄司」巻41「弾正台」巻42「左右京職・東西市司」） </note>
+</respStmt>
+<respStmt>
+<resp> 校訂・現代語訳 </resp>
+<persName> 小川宏和 </persName>
+<note> 『延喜式』テクスト本文の校訂（巻32「大膳職上」巻39「正親司・内膳司」）および現代語訳（巻39「内膳司」） </note>
+</respStmt>
+<respStmt>
+<resp> 英訳 </resp>
+<persName> 河合佐知子 </persName>
+<note> 『延喜式』テクストの英訳（巻39「正親司」） </note>
+</respStmt>
+<respStmt>
+<resp> 校訂・現代語訳・プロジェクト代表代理 </resp>
+<persName ref="http://viaf.org/viaf/15166714142126882954"> 神戸航介 </persName>
+<note>
+      「延喜式のデジタル技術による汎用化」（2022～）の代表代理（2025～）・『延喜式』テクスト本文の校訂（巻11「太政官」巻22「民部省上」巻23「民部省下」巻25「主計寮下」巻27「主税寮下」）および現代語訳（巻11「太政官」巻22「民部省上」）
+     </note>
+</respStmt>
+<respStmt>
+<resp> 校訂・現代語訳・語彙解説 </resp>
+<persName ref="http://viaf.org/viaf/33161816291427721819"> 清武雄二 </persName>
+<note> 『延喜式』の書誌学的情報の検討、『延喜式』テクスト本文の校訂（巻24「主計寮上」）および現代語訳（巻24「主計寮上」巻32「大膳職上」巻39「内膳司」）・語彙解説の執筆 </note>
+</respStmt>
+<respStmt>
+<resp> 校訂・現代語訳 </resp>
+<persName> 古田一史 </persName>
+<note> 『延喜式』テクスト本文の校訂（巻37「典薬寮」）および現代語訳（巻17「内匠寮」巻39「正親司」） </note>
+</respStmt>
+<respStmt>
+<resp> 現代語訳 </resp>
+<persName> 堀部猛 </persName>
+<note> 『延喜式』テクストの現代語訳（巻17「内匠寮」） </note>
+</respStmt>
+<respStmt>
+<resp> 校訂・校訂管理・データ整理・システム検証 </resp>
+<persName ref="http://viaf.org/viaf/249148933791454302260"> 三輪仁美 </persName>
+<note> 『延喜式』テクスト本文の校訂（巻14「縫殿寮」巻21「治部省・雅楽寮・玄蕃寮・諸陵寮」） </note>
+</respStmt>
+<respStmt>
+<resp> 英訳 </resp>
+<persName ref="http://viaf.org/viaf/186152636097020050077"> 山口えり </persName>
+<note> 『延喜式』テクストの英訳 </note>
+</respStmt>
+<respStmt>
+<resp> 英訳 </resp>
+<persName> Alessandro Poletto </persName>
+<note> 『延喜式』テクストの英訳（巻37「典薬寮」） </note>
+</respStmt>
+<respStmt>
+<resp> 英訳 </resp>
+<persName> Emily Warren </persName>
+<note> 『延喜式』テクストの英訳（巻39「内膳司」） </note>
+</respStmt>
+<funder> 人間文化研究機構広領域連携型基幹研究プロジェクト「異分野融合による「総合書物学」の構築」歴博ユニット「古代の百科全書『延喜式』の多分野協働研究」（研究代表：小倉慈司） </funder>
+<funder> 人間文化研究機構広領域連携型基幹研究プロジェクト「異分野融合による総合書物学の拡張的研究」歴博ユニット「延喜式のデジタル技術による汎用化」（研究代表：小倉慈司（2022～2024）、三上喜孝（2025～）） </funder>
+<funder> 科研費基盤研究（B）「史料学的検討を重視した『延喜式』の基礎的研究」（研究代表：小倉慈司） </funder>
+<funder> 科研費基盤研究（B）「格・式研究を踏まえた日本古代社会像の再構築」（研究代表：小倉慈司） </funder>
+<funder> 学術変革領域研究（A）「歴史情報学の創成」（領域代表）内 計画研究「TEIを中心とした高度な歴史テキスト構築」（研究代表：小風尚樹） </funder>
+<principal> 後藤真 </principal>
+</titleStmt>
+<publicationStmt>
+<authority> 国立歴史民俗博物館 </authority>
+<distributor> 国立歴史民俗博物館メタ資料学研究センター </distributor>
+<publisher> 国立歴史民俗博物館メタ資料学研究センター </publisher>
+<idno type="PID"/>
+<availability status="free">
+<p> 本データは国立歴史民俗博物館の利用規定に基づき公開されています。 </p>
+<licence target="https://creativecommons.org/licenses/by/4.0/"> この作品はクリエイティブ・コモンズ 表示 4.0 国際 ライセンス（CC BY 4.0）の下に提供されています。
+     </licence>
+</availability>
+<!--下記dateはデジタル延喜式の公開日のままでよいでしょうか？ -->
+<date when="2020-03-31"> 31 March 2020 </date>
+</publicationStmt>
+<notesStmt>
+<note> 本データの底本は影印本『国立歴史民俗博物館貴重典籍叢書』歴史篇12～18（臨川書店、2000～2001年）として刊行されている。また虎尾俊哉編『訳注日本史料 延喜式』にて底本として使用される。 </note>
+<relatedItem>
+<listBibl>
+<biblStruct>
+<analytic>
+<author> 虎尾俊哉 </author>
+<title> 解題 </title>
+</analytic>
+<monogr>
+<title> 虎尾俊哉校注『延喜式』 </title>
+<imprint>
+<biblScope unit="issue"> 上 </biblScope>
+<publisher> 神道大系編纂会 </publisher>
+<date> 1991 </date>
+</imprint>
+</monogr>
+</biblStruct>
+<biblStruct>
+<analytic>
+<author> 田島公 </author>
+<title> 土御門本『延喜式』覚書 </title>
+</analytic>
+<monogr>
+<editor> 門脇禎二 </editor>
+<title> 『日本古代国家の展開』 </title>
+<imprint>
+<biblScope unit="issue"> 下 </biblScope>
+<publisher> 思文閣出版 </publisher>
+<date> 1995 </date>
+</imprint>
+</monogr>
+</biblStruct>
+<biblStruct>
+<analytic>
+<author> 虎尾俊哉 </author>
+<title> 延喜式写本についての覚書 </title>
+</analytic>
+<monogr>
+<title> 『延喜式研究』 </title>
+<imprint>
+<biblScope unit="vol"> 14 </biblScope>
+<date> 1998 </date>
+</imprint>
+</monogr>
+</biblStruct>
+<biblStruct>
+<monogr>
+<editor> 虎尾俊哉 </editor>
+<title> 『訳注日本史料 延喜式』 </title>
+<imprint>
+<biblScope unit="issue"> 上 </biblScope>
+<publisher> 集英社 </publisher>
+<date> 2000 </date>
+</imprint>
+</monogr>
+</biblStruct>
+<biblStruct>
+<monogr>
+<editor> 虎尾俊哉 </editor>
+<title> 『訳注日本史料 延喜式』 </title>
+<imprint>
+<biblScope unit="issue"> 中 </biblScope>
+<publisher> 集英社 </publisher>
+<date> 2007 </date>
+</imprint>
+</monogr>
+</biblStruct>
+<biblStruct>
+<monogr>
+<editor> 虎尾俊哉 </editor>
+<title> 『訳注日本史料 延喜式』 </title>
+<imprint>
+<biblScope unit="issue"> 下 </biblScope>
+<publisher> 集英社 </publisher>
+<date> 2017 </date>
+</imprint>
+</monogr>
+</biblStruct>
+<biblStruct>
+<analytic>
+<author> 虎尾俊哉 </author>
+<title> 延喜式 土御門本 解題 </title>
+</analytic>
+<monogr>
+<title> 『国立歴史民俗博物館貴重典籍叢書』 </title>
+<imprint>
+<biblScope unit="issue"> 歴史篇18 </biblScope>
+<publisher> 臨川書店 </publisher>
+<date> 2001 </date>
+</imprint>
+</monogr>
+</biblStruct>
+<biblStruct>
+<analytic>
+<author> 田島公 </author>
+<title> 『延喜式』諸写本の伝来と書写に関する覚書 </title>
+<date> 2005 </date>
+</analytic>
+<monogr>
+<editor> 田島公 </editor>
+<title> 『禁裏・公家文庫研究』 </title>
+<imprint>
+<biblScope unit="issue"> 5 </biblScope>
+<publisher> 思文閣出版 </publisher>
+<date> 2015 </date>
+</imprint>
+</monogr>
+</biblStruct>
+<biblStruct>
+<analytic>
+<author> 小倉慈司 </author>
+<title> 『延喜式』土御門本と近衛本の検討―巻五を中心に </title>
+</analytic>
+<monogr>
+<editor> 佐藤信 </editor>
+<title> 『史料・史跡と古代社会』 </title>
+<imprint>
+<publisher> 吉川弘文館 </publisher>
+<date> 2018 </date>
+</imprint>
+</monogr>
+</biblStruct>
+<biblStruct>
+<analytic>
+<author> 小倉慈司 </author>
+<title> 『延喜式』写本系統の基礎的研究－巻五を中心に </title>
+</analytic>
+<monogr>
+<editor> 新川登亀男 </editor>
+<title> 『日本古代史の方法と意義』 </title>
+<imprint>
+<publisher> 勉誠出版 </publisher>
+<date> 2018 </date>
+</imprint>
+</monogr>
+</biblStruct>
+<biblStruct>
+<analytic>
+<author> 小倉慈司 </author>
+<title> 『延喜式』巻17の写本系統と本文校訂 </title>
+</analytic>
+<monogr>
+<title> 『国立歴史民俗博物館研究報告』 </title>
+<imprint>
+<biblScope unit="vol"> 218 </biblScope>
+<date> 2019 </date>
+</imprint>
+</monogr>
+</biblStruct>
+<biblStruct>
+<analytic>
+<author> 小風尚樹 </author>
+<author> 後藤真 </author>
+<title> 『延喜式』へのTEI適用と日本史資料のテクストデータ共有・流通 </title>
+</analytic>
+<monogr>
+<title> 『国立歴史民俗博物館研究報告』 </title>
+<imprint>
+<biblScope unit="vol"> 218 </biblScope>
+<date> 2019 </date>
+</imprint>
+</monogr>
+</biblStruct>
+<biblStruct>
+<analytic>
+<author> 小倉慈司 </author>
+<title> 『延喜式』巻五校訂(稿) </title>
+</analytic>
+<monogr>
+<title> 『国立歴史民俗博物館研究報告』 </title>
+<imprint>
+<biblScope unit="vol"> 218 </biblScope>
+<date> 2019 </date>
+</imprint>
+</monogr>
+</biblStruct>
+<biblStruct>
+<analytic>
+<author> 三輪仁美 </author>
+<title> 『延喜式』の写本系統に関する試論－巻十四を事例として </title>
+</analytic>
+<monogr>
+<title> 『国立歴史民俗博物館研究報告』 </title>
+<imprint>
+<biblScope unit="vol"> 218 </biblScope>
+<date> 2019 </date>
+</imprint>
+</monogr>
+</biblStruct>
+<biblStruct>
+<analytic>
+<author> 清武雄二 </author>
+<author> 神戸航介 </author>
+<author> 堀部猛 </author>
+<author> 古田一史 </author>
+<title> 『延喜式』巻一七「内匠寮」現代語訳(稿) </title>
+</analytic>
+<monogr>
+<title> 『国立歴史民俗博物館研究報告』 </title>
+<imprint>
+<biblScope unit="vol"> 218 </biblScope>
+<date> 2019 </date>
+</imprint>
+</monogr>
+</biblStruct>
+<biblStruct>
+<analytic>
+<author> 三輪仁美 </author>
+<title> 『延喜式』巻十四校訂(稿) </title>
+</analytic>
+<monogr>
+<title> 『国立歴史民俗博物館研究報告』 </title>
+<imprint>
+<biblScope unit="vol"> 228 </biblScope>
+<date> 2021 </date>
+</imprint>
+</monogr>
+</biblStruct>
+<biblStruct>
+<analytic>
+<author> 神戸航介 </author>
+<title> 『延喜式』巻十一「太政官」校訂(稿) </title>
+</analytic>
+<monogr>
+<title> 『国立歴史民俗博物館研究報告』 </title>
+<imprint>
+<biblScope unit="vol"> 228 </biblScope>
+<date> 2021 </date>
+</imprint>
+</monogr>
+</biblStruct>
+<biblStruct>
+<analytic>
+<author> 神戸航介 </author>
+<title> 『延喜式』巻十一「太政官」現代語訳(稿) </title>
+</analytic>
+<monogr>
+<title> 『国立歴史民俗博物館研究報告』 </title>
+<imprint>
+<biblScope unit="vol"> 228 </biblScope>
+<date> 2021 </date>
+</imprint>
+</monogr>
+</biblStruct>
+<biblStruct>
+<analytic>
+<author> 小川宏和 </author>
+<title> 『延喜式』巻三九「正親司」校訂(稿) </title>
+</analytic>
+<monogr>
+<title> 『国立歴史民俗博物館研究報告』 </title>
+<imprint>
+<biblScope unit="vol"> 228 </biblScope>
+<date> 2021 </date>
+</imprint>
+</monogr>
+</biblStruct>
+<biblStruct>
+<analytic>
+<author> 古田一史 </author>
+<title> 『延喜式』巻三九「正親司」現代語訳(稿) </title>
+</analytic>
+<monogr>
+<title> 『国立歴史民俗博物館研究報告』 </title>
+<imprint>
+<biblScope unit="vol"> 228 </biblScope>
+<date> 2021 </date>
+</imprint>
+</monogr>
+</biblStruct>
+<biblStruct>
+<analytic>
+<author> Alessandro Poletto </author>
+<title> 典薬寮と『延喜式』巻三七について </title>
+</analytic>
+<monogr>
+<title> 『国立歴史民俗博物館研究報告』 </title>
+<imprint>
+<biblScope unit="vol"> 228 </biblScope>
+<date> 2021 </date>
+</imprint>
+</monogr>
+</biblStruct>
+<biblStruct>
+<analytic>
+<author> 河合佐知子 </author>
+<title> 『延喜式』第39巻「正親司」の史料的価値を英語圏に伝えるために－ジェンダー的視点を取り入れて </title>
+</analytic>
+<monogr>
+<title> 『国立歴史民俗博物館研究報告』 </title>
+<imprint>
+<biblScope unit="vol"> 228 </biblScope>
+<date> 2021 </date>
+</imprint>
+</monogr>
+</biblStruct>
+<biblStruct>
+<analytic>
+<author> 小倉慈司 </author>
+<title> 『延喜式』巻九・一〇の写本系統 </title>
+</analytic>
+<monogr>
+<editor> 小口雅史 </editor>
+<title> 『古代東アジア史料論』 </title>
+<imprint>
+<publisher> 同成社 </publisher>
+<date> 2020 </date>
+</imprint>
+</monogr>
+</biblStruct>
+<biblStruct>
+<analytic>
+<author> 小川宏和 </author>
+<title> 『延喜式』巻三九の写本系統と「内膳司」本文校訂（稿） </title>
+</analytic>
+<monogr>
+<title> 『国立歴史民俗博物館研究報告』 </title>
+<imprint>
+<biblScope unit="vol"> 234 </biblScope>
+</imprint>
+</monogr>
+</biblStruct>
+<biblStruct>
+<analytic>
+<author> 相曽貴志 </author>
+<title> 延喜式板本の再検討: 改刻の変遷を中心に </title>
+</analytic>
+<monogr>
+<title> 『国立歴史民俗博物館研究報告』 </title>
+<imprint>
+<biblScope unit="vol"> 244 </biblScope>
+<date> 2024 </date>
+</imprint>
+</monogr>
+</biblStruct>
+<biblStruct>
+<analytic>
+<author> 早川万年 </author>
+<title> 延喜式巻三（臨時祭）の校訂をめぐって </title>
+</analytic>
+<monogr>
+<title> 『国立歴史民俗博物館研究報告』 </title>
+<imprint>
+<biblScope unit="vol"> 244 </biblScope>
+<date> 2024 </date>
+</imprint>
+</monogr>
+</biblStruct>
+<biblStruct>
+<analytic>
+<author> 小倉慈司 </author>
+<title> 『延喜式』巻九・一〇の校訂 </title>
+</analytic>
+<monogr>
+<title> 『国立歴史民俗博物館研究報告』 </title>
+<imprint>
+<biblScope unit="vol"> 244 </biblScope>
+<date> 2024 </date>
+</imprint>
+</monogr>
+</biblStruct>
+<biblStruct>
+<analytic>
+<author> 三輪仁美 </author>
+<title> 『延喜式』巻二一校訂（稿） </title>
+</analytic>
+<monogr>
+<title> 『国立歴史民俗博物館研究報告』 </title>
+<imprint>
+<biblScope unit="vol"> 244 </biblScope>
+<date> 2024 </date>
+</imprint>
+</monogr>
+</biblStruct>
+<biblStruct>
+<analytic>
+<author> 清武雄二 </author>
+<title> 『延喜式覆奏短尺草写』祖本の形態と伝来 </title>
+</analytic>
+<monogr>
+<title> 『国立歴史民俗博物館研究報告』 </title>
+<imprint>
+<biblScope unit="vol"> 244 </biblScope>
+<date> 2024 </date>
+</imprint>
+</monogr>
+</biblStruct>
+<biblStruct>
+<analytic>
+<author> Emily Warren </author>
+<title> 『延喜式』の「内膳司」式英訳の紹介 </title>
+</analytic>
+<monogr>
+<title> 『国立歴史民俗博物館研究報告』 </title>
+<imprint>
+<biblScope unit="vol"> 244 </biblScope>
+<date> 2024 </date>
+</imprint>
+</monogr>
+</biblStruct>
+<biblStruct>
+<analytic>
+<author> Alessandro Poletto </author>
+<title> 『延喜式』巻37「典薬寮」英訳・注釈付 </title>
+</analytic>
+<monogr>
+<title> 『国立歴史民俗博物館研究報告』 </title>
+<imprint>
+<biblScope unit="vol"> 244 </biblScope>
+<date> 2024 </date>
+</imprint>
+</monogr>
+</biblStruct>
+<biblStruct>
+<analytic>
+<author> 小風尚樹 </author>
+<author> 中村 覚 </author>
+<author> 渡辺美紗子 </author>
+<author> 戸村美月 </author>
+<author> 小風綾乃 </author>
+<author> 後藤 真 </author>
+<title> 相互運用可能な歴史資料情報の構築に向けて : 『延喜式』TEI と IIIF を事例として </title>
+</analytic>
+<monogr>
+<title> 『国立歴史民俗博物館研究報告』 </title>
+<imprint>
+<biblScope unit="vol"> 244 </biblScope>
+<date> 2024 </date>
+</imprint>
+</monogr>
+</biblStruct>
+<biblStruct>
+<analytic>
+<author> 渡邉美紗子 </author>
+<author> 戸村美月 </author>
+<author> 三輪仁美 </author>
+<author> 後藤真 </author>
+<author> 三上喜孝 </author>
+<author> 永崎研宣 </author>
+<title> 歴史資料のTEIマークアップ:『延喜式』の校異注記述と固有名詞の一括処理 </title>
+</analytic>
+<monogr>
+<title> 『情報処理学会研究報告 : 人文科学とコンピュータ研究会報告』 </title>
+<imprint>
+<biblScope unit="vol"> 2025-CH-138 </biblScope>
+<date> 2025 </date>
+</imprint>
+</monogr>
+</biblStruct>
+<biblStruct>
+<analytic>
+<author> 前野智哉 </author>
+<title> 『延喜式』巻一の標注―「弘仁式」「貞観式」の神祇祭祀規定に関する新史料― </title>
+</analytic>
+<monogr>
+<title> 『古代文化』 </title>
+<imprint>
+<biblScope unit="vol"> 77-3 </biblScope>
+<date> 2025 </date>
+</imprint>
+</monogr>
+</biblStruct>
+</listBibl>
+</relatedItem>
+<relatedItem type="search">
+<bibl>
+<title> 延喜式関係論文目録 </title>
+<publisher> 国立歴史民俗博物館 </publisher>
+<ref target="https://www.rekihaku.ac.jp/up-cgi/login.pl?p=param/boed/db_param"> その他の研究文献については、本データベースを参照のこと </ref>
+</bibl>
+</relatedItem>
+</notesStmt>
+<sourceDesc>
+<msDesc>
+<msIdentifier>
+<settlement> 千葉県佐倉市 </settlement>
+<institution> 人間文化研究機構 </institution>
+<repository> 国立歴史民俗博物館 </repository>
+<collection> 田中穣氏旧蔵典籍古文書 </collection>
+<idno> H-743-74 </idno>
+<msName> 田中本『延喜式』 </msName>
+</msIdentifier>
+<msContents>
+<msItemStruct>
+<author> 土御門泰重（書写主宰） </author>
+<title> 土御門本『延喜式』 </title>
+<colophon> 書写奥書は無し。巻九・十に文亀三年（1503）の吉田兼倶本奥書あり。 </colophon>
+<filiation>
+<p> 本写本は、『延喜式』諸本の中でも全巻が揃う数少ない新写本の一本であり、善本として知られる。 </p>
+<p> 系統としては一条家本を親本としたと推測されるが、本写本の書写段階で欠落していた巻十三については版本によって補填されている。巻十三は九条家旧蔵巻子本が現存諸本の祖本となる。 </p>
+<p> なお、『延喜式』の原本は現存せず、古写本として東京国立博物館所蔵九条家旧蔵巻子本、天野山金剛寺所蔵本等が現存するが、全巻すべてが揃うものはない。 </p>
+<p> 本写本以外の主要写本には、京都国立博物館所蔵本（京都博物館本）・京都大学附属図書館所蔵近衛家旧蔵本・天理大学附属天理図書館所蔵本（梵舜本・梵舜別本）・宮内庁書陵部所蔵本（
+         壬生家旧蔵本・藤波家旧蔵本）・国立公文書館所蔵本（紅葉山文庫旧蔵慶長写本・林家旧蔵本）等がある。 </p>
+</filiation>
+</msItemStruct>
+</msContents>
+<history>
+<summary> 土御門家旧蔵→田中教忠氏が収集→孫の田中穣氏が『田中教忠蔵書目録』を私家版として発行→国に譲渡→歴博に移管 </summary>
+<origin>
+       土御門泰重が元和3年（1617）から4年頃に、一条家所蔵の写本（現存せず）を借用して転写させたものである。泰重の孫泰福が、巻五十の末尾に泰重真筆である旨の識語を記す（実際には泰重の筆はごく一部にとどまる）。また、巻五十後表紙見返しに田中教忠による貼紙がある。 </origin>
+<provenance> 幕末ないし明治初年に田中教忠が入手する。教忠孫の田中穣が1988～1989年に他の教忠収集コレクションとともに国に譲渡。 </provenance>
+</history>
+<physDesc>
+<objectDesc>
+<supportDesc>
+<support> 楮紙 </support>
+<extent> 縦27.3～27.4cm × 横 19.8～19.9cm </extent>
+<foliation> 丁の表裏（cf. folioのrecto, versoと同じ） </foliation>
+<collation> 袋綴じ、より正確には四ツ目綴じの和装本 </collation>
+<condition> 全巻揃っている。とくに致命的な落丁や虫損は、土御門本自体には基本的に見られない。 </condition>
+</supportDesc>
+</objectDesc>
+<bindingDesc>
+<binding>
+<p>
+         渋染栗皮色の表紙。まず左下に墨書で巻数、左上に胡粉で延喜式と直書きされており、そして左下に胡粉で巻数が上書きされている。右上には、巻の内容を表す式名やその略称が胡粉で直書きされている。表紙の心紙には楮紙でできた反故紙が使用されている。巻十三以外に押し八双あり。
+        </p>
+</binding>
+</bindingDesc>
+</physDesc>
+</msDesc>
+<listWit>
+<listWit xml:id="写本">
+<head> 写本 </head>
+<witness xml:id="土本">
+<abbr> 土本 </abbr> ：国立歴史民俗博物館所蔵土御門家旧蔵本（H-743-74） <listRef>
+<ref xml:id="土本傍書"> 土本傍書 </ref>
+<ref xml:id="土本傍訓"> 土本傍訓 </ref>
+<ref xml:id="土本左朱傍書"> 土本左朱傍書 </ref>
+<ref xml:id="土本抹消"> 土本抹消 </ref>
+<ref xml:id="土本朱傍書"> 土本朱傍書 </ref>
+<ref xml:id="土本朱補書"> 土本朱補書 </ref>
+<ref xml:id="土本朱訂正書"> 土本朱訂正書 </ref>
+<ref xml:id="土本補書"> 土本補書 </ref>
+<ref xml:id="土本訂正書"> 土本訂正書 </ref>
+<ref xml:id="土本挿入書"> 土本挿入書 </ref>
+<ref xml:id="土本転倒符"> 土本転倒符 </ref>
+</listRef>
+</witness>
+<witness xml:id="近本">
+<abbr> 近本 </abbr> ：京都大学附属図書館所蔵近衛文庫本（2-03/エ/1貴） <listRef>
+<ref xml:id="近本傍書"> 近本傍書 </ref>
+<ref xml:id="近本左傍書"> 近本左傍書 </ref>
+<ref xml:id="近本抹消"> 近本抹消 </ref>
+<ref xml:id="近本挿入書"> 近本挿入書 </ref>
+<ref xml:id="近本書入"> 近本書入 </ref>
+<ref xml:id="近本朱傍書"> 近本朱傍書 </ref>
+<ref xml:id="近本朱補書"> 近本朱補書 </ref>
+<ref xml:id="近本朱訂正"> 近本朱訂正 </ref>
+<ref xml:id="近本補書"> 近本補書 </ref>
+<ref xml:id="近本訂正"> 近本訂正 </ref>
+<ref xml:id="近本訂正書"> 近本訂正書 </ref>
+<ref xml:id="近本重書"> 近本重書 </ref>
+<ref xml:id="近本脚書"> 近本脚書 </ref>
+</listRef>
+</witness>
+<witness xml:id="壬本">
+<abbr> 壬本 </abbr> ：宮内庁書陵部図書寮文庫所蔵壬生家旧蔵本（F10-287） <listRef>
+<ref xml:id="壬本傍書"> 壬本傍書 </ref>
+<ref xml:id="壬本左傍書"> 壬本左傍書 </ref>
+<ref xml:id="壬本抹消"> 壬本抹消 </ref>
+<ref xml:id="壬本書入"> 壬本書入 </ref>
+<ref xml:id="壬本朱傍書"> 壬本朱傍書 </ref>
+<ref xml:id="壬本朱補書"> 壬本朱補書 </ref>
+<ref xml:id="壬本補書"> 壬本補書 </ref>
+<ref xml:id="壬本訂正書"> 壬本訂正書 </ref>
+</listRef>
+</witness>
+<witness xml:id="京博本">
+<abbr> 京博本 </abbr> ：京都国立博物館所蔵旧京都博物館本 <listRef>
+<ref xml:id="京博本傍書"> 京博本傍書 </ref>
+<ref xml:id="京博本左傍書"> 京博本左傍書 </ref>
+<ref xml:id="京博本傍訓"> 京博本傍訓 </ref>
+<ref xml:id="京博本墨傍書"> 京博本墨傍書 </ref>
+<ref xml:id="京博本左朱傍書"> 京博本左朱傍書 </ref>
+<ref xml:id="京博本抹消"> 京博本抹消 </ref>
+<ref xml:id="京博本書入"> 京博本書入 </ref>
+<ref xml:id="京博本朱傍書"> 京博本朱傍書 </ref>
+<ref xml:id="京博本朱抹消"> 京博本朱抹消 </ref>
+<ref xml:id="京博本朱書"> 京博本朱書 </ref>
+<ref xml:id="京博本朱補書"> 京博本朱補書 </ref>
+<ref xml:id="京博本朱訂"> 京博本朱訂 </ref>
+<ref xml:id="京博本朱訂正書"> 京博本朱訂正書 </ref>
+<ref xml:id="京博本補書"> 京博本補書 </ref>
+<ref xml:id="京博本訂正書"> 京博本訂正書 </ref>
+<ref xml:id="京博本朱挿入書"> 京博本朱挿入書 </ref>
+<ref xml:id="京博本朱脚書"> 京博本朱脚書 </ref>
+</listRef>
+</witness>
+<witness xml:id="慶長本">
+<abbr> 慶長本 </abbr> ：国立公文書館所蔵慶長写本（特102-8） <listRef>
+<ref xml:id="慶長本傍書"> 慶長本傍書 </ref>
+<ref xml:id="慶長本左補書"> 慶長本左補書 </ref>
+<ref xml:id="慶長本抹消"> 慶長本抹消 </ref>
+<ref xml:id="慶長本朱傍書"> 慶長本朱傍書 </ref>
+<ref xml:id="慶長本朱補書"> 慶長本朱補書 </ref>
+<ref xml:id="慶長本脚書"> 慶長本脚書 </ref>
+<ref xml:id="慶長本補書"> 慶長本補書 </ref>
+<ref xml:id="慶長本訂正書"> 慶長本訂正書 </ref>
+<ref xml:id="慶長本挿入書"> 慶長本挿入書 </ref>
+</listRef>
+</witness>
+<witness xml:id="梵本">
+<abbr> 梵本 </abbr> ：天理大学附属天理図書館所蔵吉田文庫梵舜等筆本（吉16-8。巻8は173-ｲ5（Ⅲ524)もあり） <listRef>
+<ref xml:id="梵本傍書"> 梵本傍書 </ref>
+<ref xml:id="梵本抹消"> 梵本抹消 </ref>
+<ref xml:id="梵本朱傍書"> 梵本朱傍書 </ref>
+<ref xml:id="梵本朱補書"> 梵本朱補書 </ref>
+<ref xml:id="梵本補書"> 梵本補書 </ref>
+<ref xml:id="梵本訂正書"> 梵本訂正書 </ref>
+</listRef>
+</witness>
+<witness xml:id="九本">
+<abbr> 九本 </abbr> ：東京国立博物館所蔵九条家旧蔵巻子本（B-2370） <listRef>
+<ref xml:id="九本傍書"> 九本傍書 </ref>
+<ref xml:id="九本抹消"> 九本抹消 </ref>
+<ref xml:id="九本残画"> 九本残画 </ref>
+<ref xml:id="九本訂正書"> 九本訂正書 </ref>
+<ref xml:id="九本重書"> 九本重書 </ref>
+<ref xml:id="九本挿入書"> 九本挿入書 </ref>
+</listRef>
+</witness>
+<witness xml:id="剛本">
+<abbr> 剛本 </abbr> ：天野山金剛寺所蔵本 <listRef>
+<ref xml:id="剛本朱傍書"> 剛本朱傍書 </ref>
+<ref xml:id="剛本朱書"> 剛本朱書 </ref>
+<ref xml:id="剛本補書"> 剛本補書 </ref>
+<ref xml:id="剛本訂正書"> 剛本訂正書 </ref>
+</listRef>
+</witness>
+<witness xml:id="条本">
+<abbr> 条本 </abbr> ：一条家旧蔵巻子本（巻1～3は無窮会専門図書館所蔵模写本、巻4・5は神宮司庁刊影印本） <listRef>
+<ref xml:id="条本傍書"> 条本傍書 </ref>
+<ref xml:id="条本傍訓"> 条本傍訓 </ref>
+<ref xml:id="条本朱傍書"> 条本朱傍書 </ref>
+<ref xml:id="条本朱補書"> 条本朱補書 </ref>
+<ref xml:id="条本補書"> 条本補書 </ref>
+<ref xml:id="条本転倒符"> 条本転倒符 </ref>
+</listRef>
+</witness>
+<witness xml:id="花本">
+<abbr> 花本 </abbr> ：武田祐吉旧蔵花山院通雅筆本（神宮皇学館刊影印本による） <listRef>
+<ref xml:id="花本朱訂正"> 花本朱訂正 </ref>
+<ref xml:id="花本重書"> 花本重書 </ref>
+</listRef>
+</witness>
+<witness xml:id="九冊本">
+<abbr> 九冊本 </abbr> ：國學院大學所蔵九条家・西田長男旧蔵冊子本（巻5は西田長男刊影印本による） <listRef>
+<ref xml:id="九冊本傍書"> 九冊本傍書 </ref>
+<ref xml:id="九冊本傍訓"> 九冊本傍訓 </ref>
+</listRef>
+</witness>
+<witness xml:id="永本">
+<abbr> 永本 </abbr> ：國學院大學図書館所蔵卜部兼永筆本（巻8、091.2/322.135/1）、鈴鹿義鯨旧蔵卜部兼永筆本（巻9・10、現蔵不明、神宮文庫写真帳1門16974を閲覧） <listRef>
+<ref xml:id="永本傍書"> 永本傍書 </ref>
+<ref xml:id="永本左傍書"> 永本左傍書 </ref>
+<ref xml:id="永本左朱傍書"> 永本左朱傍書 </ref>
+<ref xml:id="永本重書"> 永本重書 </ref>
+<ref xml:id="永本頭注"> 永本頭注 </ref>
+</listRef>
+</witness>
+<witness xml:id="右本">
+<abbr> 右本 </abbr> ：巻8は國學院大學図書館所蔵（貴62） </witness>
+<witness xml:id="吉本">
+<abbr> 吉本 </abbr> ：天理大学附属天理図書館所蔵吉田家旧蔵本巻9・10（328.1-ｲ17（『天理図書館稀書目録　和漢書之部　第三』1219） <listRef>
+<ref xml:id="吉本傍書"> 吉本傍書 </ref>
+<ref xml:id="吉本左傍書"> 吉本左傍書 </ref>
+<ref xml:id="吉本左朱傍書"> 吉本左朱傍書 </ref>
+<ref xml:id="吉本朱傍書"> 吉本朱傍書 </ref>
+<ref xml:id="吉本朱補書"> 吉本朱補書 </ref>
+<ref xml:id="吉本頭注"> 吉本頭注 </ref>
+</listRef>
+</witness>
+<witness xml:id="三条本">
+<abbr> 三条本 </abbr> ：天理大学附属天理図書館所蔵三条家旧蔵本（328.1-ｲ11(Ⅲ1218)） </witness>
+<witness xml:id="西本">
+<abbr> 西本 </abbr>
+       ：國學院大學図書館所蔵三条西家旧蔵本（巻9・10、貴107～108）、国立歴史民俗博物館所蔵三条西家旧蔵本（巻50、H-1588）。抄出本は國學院大學所蔵（木村大樹「〔西田長男旧蔵〕三条西実隆筆『延喜式』(抄)の翻刻・紹介」『國學院大學研究開発推進機構紀要』14、2022年） </witness>
+<witness xml:id="時慶本">
+<abbr> 時慶本 </abbr> ：静嘉堂文庫所蔵西洞院時慶写本（延喜格式表18352、延喜式序18353） </witness>
+<witness xml:id="藤波本">
+<abbr> 藤波本 </abbr> ：宮内庁書陵部図書寮文庫所蔵藤波家旧蔵本（217-473） <listRef>
+<ref xml:id="藤波本傍書"> 藤波本傍書 </ref>
+<ref xml:id="藤波本朱傍書"> 藤波本朱傍書 </ref>
+<ref xml:id="藤波本朱補"> 藤波本朱補 </ref>
+</listRef>
+</witness>
+<witness xml:id="島原本">
+<abbr> 島原本 </abbr> ：東京大学史料編纂所所蔵松平忠房・和学講談所・水野忠央旧蔵本（貴45-2） <listRef>
+<ref xml:id="島原本書入"> 島原本書入 </ref>
+<ref xml:id="島原本朱補書"> 島原本朱補書 </ref>
+</listRef>
+</witness>
+<witness xml:id="貞享本">
+<abbr> 貞享本 </abbr> ：宮内庁書陵部図書寮文庫所蔵和学講談所旧蔵坊城俊方貞享五年写本（457-116） <listRef>
+<ref xml:id="貞享本傍書"> 貞享本傍書 </ref>
+</listRef>
+</witness>
+<witness xml:id="玄梁本">
+<abbr> 玄梁本 </abbr> ：無窮会専門図書館所蔵神習文庫玄梁記名本（神習3666） <listRef>
+<ref xml:id="玄梁本訂正書"> 玄梁本訂正書 </ref>
+</listRef>
+</witness>
+<witness xml:id="尾張本">
+<abbr> 尾張本 </abbr> ：東京大学総合図書館所蔵尾張家旧蔵本（巻13）（A00-6122） </witness>
+<witness xml:id="泉亭本">
+<abbr> 泉亭本 </abbr> ：賀茂三手文庫所蔵泉亭本（制度/加） </witness>
+</listWit>
+<listWit xml:id="版本">
+<head> 版本：慶安版本も含めた流布版本 </head>
+<witness xml:id="慶安版本">
+<abbr> 慶安版本 </abbr> ：大和文華館所蔵鈴鹿連胤旧蔵版本（1/741～790） <listRef>
+<ref xml:id="慶安版本傍訓"> 慶安版本傍訓 </ref>
+</listRef>
+</witness>
+<witness xml:id="明暦版本">
+<abbr> 明暦版本 </abbr> ：明暦修訂版本　国立公文書館所蔵紅葉山文庫旧蔵版本（特26-1）等 <listRef>
+<ref xml:id="明暦版本訂正書"> 明暦版本訂正書 </ref>
+<ref xml:id="明暦版本傍訓"> 明暦版本傍訓 </ref>
+</listRef>
+</witness>
+<witness xml:id="明暦以降版本">
+<abbr> 明暦以降版本 </abbr> ：明暦修訂本以降の版本 </witness>
+<witness xml:id="寛文版本">
+<abbr> 寛文版本 </abbr> ：寛文修訂版本　筑波大学附属図書館所蔵版本20冊本（ム212-7）等 <listRef>
+<ref xml:id="寛文版本傍訓"> 寛文版本傍訓 </ref>
+</listRef>
+</witness>
+<witness xml:id="享保版本">
+<abbr> 享保版本 </abbr> ：享保修訂版本　筑波大学附属図書館所蔵版本50冊本（ム212-6）等 <listRef>
+<ref xml:id="享保版本朱補書"> 享保版本朱補書 </ref>
+<ref xml:id="享保版本傍訓"> 享保版本傍訓 </ref>
+</listRef>
+</witness>
+<witness xml:id="雲本">
+<abbr> 雲本 </abbr> ：松江藩文政11年(1828)刊本（雲州本）　早稲田大学図書館所蔵本（ワ03-01594）等 <listRef>
+<ref xml:id="雲本傍書"> 雲本傍書 </ref>
+</listRef>
+</witness>
+<witness xml:id="考異">
+<abbr> 考異 </abbr> ：雲州本附録『延喜式考異』　早稲田大学図書館所蔵本（ワ03-01594）等 </witness>
+<witness xml:id="鈴鹿本">
+<abbr> 鈴鹿本 </abbr> ：大和文華館所蔵鈴鹿連胤旧蔵慶安版本（1/741～790）書入 <listRef>
+<ref xml:id="鈴鹿本傍書"> 鈴鹿本傍書 </ref>
+<ref xml:id="鈴鹿本書入"> 鈴鹿本書入 </ref>
+<ref xml:id="鈴鹿本朱傍書"> 鈴鹿本朱傍書 </ref>
+<ref xml:id="鈴鹿本朱補書"> 鈴鹿本朱補書 </ref>
+</listRef>
+</witness>
+<witness xml:id="勢多本">
+<abbr> 勢多本 </abbr> ：宮内庁書陵部図書寮文庫所蔵勢多家旧蔵明暦等版本（172-123）書入 <listRef>
+<ref xml:id="勢多本傍書"> 勢多本傍書 </ref>
+<ref xml:id="勢多本書入"> 勢多本書入 </ref>
+<ref xml:id="勢多本朱書"> 勢多本朱書 </ref>
+</listRef>
+</witness>
+<witness xml:id="筑波寛文本">
+<abbr> 筑波寛文本 </abbr> ：筑波大学附属図書館所蔵寛文版本20冊本（ム212-7）書入 <listRef>
+<ref xml:id="筑波寛文本朱傍書"> 筑波寛文本朱傍書 </ref>
+<ref xml:id="筑波寛文本朱補書"> 筑波寛文本朱補書 </ref>
+<ref xml:id="筑波寛文本朱重書"> 筑波寛文本朱重書 </ref>
+<ref xml:id="筑波寛文本訂正書"> 筑波寛文本訂正書 </ref>
+</listRef>
+</witness>
+</listWit>
+<listWit xml:id="刊本">
+<head> 刊本 </head>
+<witness xml:id="旧大系本">
+<abbr> 旧大系本 </abbr> ：旧輯国史大系第13巻（経済雑誌社　1900年刊） </witness>
+<witness xml:id="叢書本">
+<abbr> 叢書本 </abbr> ：新註皇学叢書第3巻（広文庫刊行会　1927年刊） </witness>
+<witness xml:id="全集本">
+<abbr> 全集本 </abbr> ：日本古典全集『延喜式』（日本古典全集刊行会　1927～1929年刊） </witness>
+<witness xml:id="皇典本">
+<abbr> 皇典本 </abbr> ：『校訂延喜式』（皇典講究所・全国神職会　1929～1932年刊） </witness>
+<witness xml:id="国史大系本">
+<abbr> 国史大系本 </abbr> ：新訂増補国史大系第26巻（吉川弘文館　1937年刊） </witness>
+<witness xml:id="神道大系本">
+<abbr> 神道大系本 </abbr> ：神道大系古典編11・12『延喜式』（神道大系編纂会、1991・1993年刊） </witness>
+<witness xml:id="訳注本">
+<abbr> 訳注本 </abbr> ：訳注日本史料『延喜式』上～下（集英社、2000～2017年刊） </witness>
+</listWit>
+<listWit xml:id="その他">
+<head> その他 </head>
+<witness xml:id="本朝月令">
+<abbr> 本朝月令 </abbr> ：清水潔編『新校本朝月令』（皇學館大學神道研究所　2002年刊） </witness>
+<witness xml:id="儀式">
+<abbr> 儀式 </abbr> ：神道大系朝儀祭祀編1『儀式・内裏式』（神道大系編纂会　1980年刊） </witness>
+<witness xml:id="皇太神宮儀式帳">
+<abbr> 皇太神宮儀式帳 </abbr> ：佐野真人「『皇太神宮儀式帳』校訂試案」（『皇學館大学研究開発推進センター紀要』2　2016年） </witness>
+<witness xml:id="止由気宮儀式帳">
+<abbr> 止由気宮儀式帳 </abbr> ：佐野真人「『止由気宮儀式帳』校訂試案」（『皇學館大学研究開発推進センター紀要』3　2017年） </witness>
+<witness xml:id="新撰年中行事">
+<abbr> 新撰年中行事 </abbr> ：西本昌弘編『新撰年中行事』（八木書店　2010年刊） </witness>
+<witness xml:id="小野宮年中行事">
+<abbr> 小野宮年中行事 </abbr> ：群書類従第6輯 律令部 公事部（続群書類従完成会　1932年刊） </witness>
+<witness xml:id="小野宮年中行事裏書">
+<abbr> 小野宮年中行事裏書 </abbr> ：国立歴史民俗博物館所蔵本（H-1762） </witness>
+<witness xml:id="勘例">
+<abbr> 勘例（陽明文庫所蔵） </abbr> ：大日本古記録『勘例』上・下（岩波書店　2018・2023年刊） </witness>
+<witness xml:id="政事要略">
+<abbr> 政事要略 </abbr> ：新訂増補国史大系第28巻（吉川弘文館　1935年刊。適宜、写本を参照） </witness>
+<witness xml:id="法曹至要抄">
+<abbr> 法曹至要抄 </abbr> ：中世法制史料集（岩波書店　2005年刊） </witness>
+<witness xml:id="本草和名">
+<abbr> 本草和名 </abbr> ：丸山裕美子・武倩編著『本草和名』（汲古書院　2021年刊） </witness>
+</listWit>
+</listWit>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<projectDesc>
+<p> 本プロジェクトは、日本古代の法制書『延喜式』の国際的流通と、研究における高度な利活用を目的としている。作成されたデータは学術基盤として広く共有されることを前提としており、国際標準であるTEI
+     P5ガイドラインに準拠することで、国内外の多様な研究プラットフォームとの連携およびデータ流通に対応する。 <lb/>
+     データ作成の経緯として、基幹研究プロジェクト「異分野融合による総合書物学の構築」（2016～2021）段階においてTEI/XML基盤の設計を行い、校訂文、現代語訳、英訳の三種を中核とするデータ構築を進めた。これらのデータは、Web閲覧システム「デジタル延喜式」の基盤としても活用されており、年次計画に基づき各巻のデータを順次公開している。
+     <lb/> 現在の基幹研究プロジェクト「延喜式のデジタル技術による汎用化」（2022～）の段階では、基本データの整備を継続しつつ、新たな活用モデルを試験的に構築している。具体的には、 <gi> taxonomy </gi> や <gi>
+      standOff </gi> 等による多角的な情報活用モデルの構築と、 <gi> measure </gi>
+     や属性情報を基盤とした物品情報の可視化を実現する試みである。これらを通じ、本データが次世代の学術資源として持ち得る可能性を検討・実装している。 <lb/>
+     複雑な史料構造をTEIへ変換する過程で対応しきれなかった事項は多々あるものの、日本史資料のマークアップにおける先行事例が少ない現状に鑑み、現時点での到達点を提示している。今後の史料マークアップにおける参照モデルの一つとなり、次世代の史料デジタル化への寄与を目指している。
+    </p>
+</projectDesc>
+<editorialDecl ana="XML">
+<p ana="全体">
+<list>
+<head> XMLファイル全体 </head>
+<item> 本データでは、校訂文・現代語訳・英訳のそれぞれを 個別の XML ファイルとして管理・公開している。各ファイルは、巻次およびデータ種別を明示したファイル名（例：校訂文 engishiki_v39、現代語訳
+       engishiki_v39_ja、英訳 engishiki_v39_en）によって構成されており、これによって各テクスト間の対応関係を識別することが可能である。 </item>
+<item> 本テクストは、「デジタル『延喜式』」において定められた共通方針（下記 <gi> editorialDecl </gi> 参照）ならびに、公式サイトに掲載された全体凡例および各巻の個別凡例等に準拠する。 </item>
+<item> 【語彙管理と情報の集積】 <gi> taxonomy </gi> は、史料中の物品名を語彙項目として整理し、表記の統合を図るためのものである。各項目は、解説（ <gi> label </gi>
+       ）に加え、文字種（漢字・かな等）およびデータ種（校訂文・現代語訳・英訳）ごとの表記情報を、 <gi> listNym </gi> および <gi> nym </gi> を用いて構造的に保持している。また、語句間の関係性は、 <gi>
+        taxonomy </gi> の階層構造ではなく <gi> standOff </gi> 内の <gi> relation </gi> によって記述する。 </item>
+<item> 【レイアウトの再現と <gi> table </gi> 】 本文中の神名列記など、特定の視覚的段落表現を保持するため、 <gi> table </gi> をレイアウト制御の手段として利用している。これは、空の <gi>
+        cell </gi> や幅指定（ <att> rendition </att> ）を組み合わせることで、史料が持つ空間的な配置情報をデジタル文脈で表現するためのものである。 </item>
+<item> 【データの統一性に関する注記】 日本史料への TEI
+       適用において先行事例が乏しいため、実験的なマークアップを含んでいる。巻次や史料の記述形式により、タグの適用範囲や属性の粒度に差異が生じている箇所があるが、これらについては各巻の個別凡例にて補足、あるいは将来的な一括処理を見据えた暫定的な記述としている。
+      </item>
+</list>
+<list>
+<head> 校訂文のXMLファイル </head>
+<item> 【校異の記述と校訂根拠】諸本の異同は <gi> app </gi> 内の <gi> lem </gi> および <gi> rdg </gi> で示し、 <att> wit </att>
+       によって校訂根拠となる写本・版本情報を提示する。 <att> wit </att> の対象は原則として写本・版本等に限定し、注釈書や他の歴史史料による知見は <gi> note </gi> 内に記述している。また、 <gi> lem
+       </gi> に示すべき写本が存在しない場合は <att> cause </att> を用い、校訂の根拠を明示する。 </item>
+<item>
+       【採録範囲と個別凡例】本プロジェクトにおける校異の採録は諸本の網羅を目的とせず、校訂に実質的に資する写本・版本および傍書類に対象を限定している。採用する写本の種類や範囲は巻ごとに異なるため、詳細は各巻の個別凡例を参照されたい。 </item>
+<item> 【傍書の扱い】傍書・傍訓・朱書・頭注といった文字周辺の注記情報は、 <gi> note </gi> と <att> place </att> を組み合わせて記述するほか、独立した witness としても識別し、必要に応じて
+        <att> wit </att> から参照可能としている。 </item>
+<item> 【標注の扱い】標注を提示する際には、 <gi> app </gi> をその記述単位として利用し、 <att> type </att> ="標注" を付与することで情報の性質を明示している。 </item>
+<item> 【非文字単位・広範囲の注記】文字の配列や条文全体に関する注記など、文字単位の異同として処理できない情報については、 <gi> app </gi> の構造を維持しつつ、 <gi> note </gi>
+       を用いて内容を記述する。校異の該当範囲が広範にわたる場合は、冒頭語句に <gi> anchor </gi> を配置し、 <gi> note </gi>
+       内で「冒頭語句……末尾語句」と範囲を明記した上で、注記本文を記述する手法を採用している。 </item>
+<item> 【物品情報の構造化（ <gi> measure </gi> 等）】物品の数量・寸法を記述するため、 <gi> measure </gi> 、 <gi> measureGrp </gi> 、 <gi> unit </gi> 、
+        <gi> note </gi> 等を使用している。 <att> ana </att> （納税物区分）、 <att> commodity </att> （品目の種類）、 <att> quantity </att> （数量）、 <att>
+        type </att> （貢納量の規定か実数かの別）といった属性により、計量情報を厳密に定義している。品目名と総量を括る階層構造や、複数の単位を合算する <gi> measureGrp </gi>
+       により、史料の計量記述を論理的に再現している。また、単位（ <gi> unit </gi> ）については <att> unitRef </att> を用い、 <gi> unitDecl </gi>
+       で体系的に定義された単位情報と紐付けている。なお、現段階での詳細な実装は巻24のデータに限定される。 </item>
+</list>
+<list>
+<head> 現代語訳のXMLファイル </head>
+<item>
+<gi> note </gi> に <att> type </att> ="summary" を付与し、条文概要を記述している。 </item>
+<item>
+<gi> ruby </gi> のマークアップは語句単位で実施している。 </item>
+</list>
+<list>
+<head> 英訳のXMLファイル </head>
+<item>
+<gi> note </gi> に <att> type </att> ="summary" を付与し、その条文の主題を示す簡潔なタイトルを記述している。 </item>
+<item>
+<gi> seg </gi> に <att> rendition </att> ="#italic" を付与し、日本語音表記を表現している。 </item>
+</list>
+</p>
+</editorialDecl>
+<editorialDecl ana="校訂文凡例">
+<p ana="全体">
+<lb/>
+<seg rendition="#hanging-1">
+      ・原則として土本（以下、略称は「主要写本・版本・刊本等略称・底本一覧」参照）を底本とし、九本・剛本・条本・花本等の古写本や近本・壬本・京博本等の写本によって対校しました（巻によって使用した対校本は異なります）。 </seg>
+<lb/>
+<seg rendition="#hanging-1"> ・条文番号・条文名称は原則として訳注本に拠りましたが、一部を修正しています（※下記「条文名称修正一覧」参照）。なお1条が長い場合など、必要に応じ「項」に分割して示すこととしました。 </seg>
+<lb/>
+<seg rendition="#hanging-1">
+      ・校異は原則として底本の文字を改変する場合、あるいは写本間に参考とすべき異同がある場合、参考とすべき傍書等がある場合に付すこととしました。必ずしもその校異に関する写本をすべて網羅することはせず、主要写本のみを取り上げています。ただし訳注本と校訂文に異同が生じた場合には、できる限り校異にて言及するよう心がけました（単なる字体の相違については省略しています）。 </seg>
+<lb/>
+<seg rendition="#hanging-1">
+      ・校訂文は『延喜式』撰上当初の姿の復元を目標としています。標注や傍書は、条文名称に関わるものは省略し、中世以前にさかのぼることが想定されるものに限って、校異注で言及することとしました。ただし標注のうち「弘」「貞」「延」等については便宜を考え、鉤括弧で括って校訂本文に掲げることとしました。 </seg>
+<lb/>
+<seg rendition="#hanging-1">
+      ・字体は常用漢字体を原則としました。「大」と「太」、「座」と「坐」、「絇」と「約」、「績」と「續（続）」、「色」と「包」、「細」と「紬」、「鈍」と「純」、「冑」と「胃」、「絁」と「絶」、草冠と竹冠、木偏と手偏等、容易に判定される誤字や誤用・通用については、校異を省略して適宜置き換える場合があります。ただし巻9・10においては「大」「太」の差異も校異にて触れることとしました。 </seg>
+<lb/>
+<seg rendition="#hanging-1"> ・校訂文中の細字・割書は、〈　〉で括って表現することとしました。 </seg>
+<lb/>
+<seg rendition="#hanging-1"> ・本文に誤字・脱字等が想定される場合であっても、置き換えるべき文字や補うべき文字が明確でない場合は、校異注での言及にとどめた場合があります。 </seg>
+<lb/>
+<seg rendition="#hanging-1"> ・ユニコードにて表示されない漢字は以下のように示すことにしました。 </seg>
+<table rendition="#indent2">
+<row>
+<cell rendition="#width200"> 【Ａ+Ｂ】 </cell>
+<cell rendition="#width400"> ＝扁がＡ、つくりがＢ </cell>
+<cell rendition="#width500"> 例）村【木+寸】 </cell>
+</row>
+<row>
+<cell rendition="#width200"> 【Ａ/Ｂ】 </cell>
+<cell rendition="#width400"> ＝上にＡ、下にＢ </cell>
+<cell rendition="#width500"> 例）雲【雨/云】 </cell>
+</row>
+<row>
+<cell rendition="#width200"> 【Ａ-Ｂ】 </cell>
+<cell rendition="#width400"> ＝Ａの字画よりＢにあたる字画を除く </cell>
+<cell rendition="#width500"> 例）門【閉-オ】 </cell>
+</row>
+<row>
+<cell rendition="#width200"> 【Ａ⊃Ｂ】 </cell>
+<cell rendition="#width400"> ＝Ａの字画のなかにＢの字画が含まれる </cell>
+<cell rendition="#width500"> 例）閉【門⊃オ】、国【囗⊃玉】 </cell>
+</row>
+<row>
+<cell rendition="#width200"> 【（Ａ/Ｂ）+Ｃ】 <lb/> 【Ａ/（Ｂ⊃Ｃ）】 </cell>
+<cell rendition="#width400"> ＝字画が三つ以上、かつ異なる方法で字画が組み合う </cell>
+<cell rendition="#width500"> 例）雑【（九/木）+隹】、懸【（県+系）/心】、薗【艹/（口⊃袁）】 </cell>
+</row>
+</table>
+<lb/>
+<seg> （班【王+リ+王】、窓【宀/公/心】はすべての字画が一つの方法で組み合うため、（　）なし。） </seg>
+<lb/>
+<seg rendition="#hanging-1"> ・校異注の付く文字は赤字および青字で表示され、クリックすると注が表示されます。表示内容は以下の通りです。 </seg>
+<lb/>
+<seg rendition="#indent2_hanging-3"> 採用　写本名と校訂文にて採用した文字 </seg>
+<lb/>
+<seg rendition="#indent2_hanging-3"> 校異　写本名と対校箇所の文字 </seg>
+<lb/>
+<seg rendition="#indent2_hanging-3"> 解説　各写本の傍書や頭書等の提示、校異注の本文（最下部の解説） </seg>
+<lb/>
+<seg rendition="#hanging-1"> ・条文名称修正一覧 </seg>
+<table rendition="#indent2">
+<row>
+<cell rendition="#width100"> 巻番号 </cell>
+<cell rendition="#width50"> 旧番号 </cell>
+<cell rendition="#width100"> 旧条文名 </cell>
+<cell rendition="#width50"> 番号 </cell>
+<cell rendition="#width100"> 訂正条文名 </cell>
+</row>
+<row>
+<cell rendition="#width100"> 111太政官 </cell>
+<cell rendition="#width50"> 67 </cell>
+<cell rendition="#width100"> 薗韓神祭 </cell>
+<cell rendition="#width50"> 67 </cell>
+<cell rendition="#width100"> 園韓神祭 </cell>
+</row>
+<row>
+<cell rendition="#width100"> 111太政官 </cell>
+<cell rendition="#width50"> 112 </cell>
+<cell rendition="#width100"> 行幸経宿 </cell>
+<cell rendition="#width50"> 112 </cell>
+<cell rendition="#width100"> 行幸経旬 </cell>
+</row>
+<row>
+<cell rendition="#width100"> 171内匠 </cell>
+<cell rendition="#width50"> 39 </cell>
+<cell rendition="#width100"> 作物衣服 </cell>
+<cell rendition="#width50"> 39 </cell>
+<cell rendition="#width100"> 作物衣 </cell>
+</row>
+<row>
+<cell rendition="#width100"> 213玄蕃 </cell>
+<cell rendition="#width50"> 32 </cell>
+<cell rendition="#width100"> 灯油 </cell>
+<cell rendition="#width50"> 32 </cell>
+<cell rendition="#width100"> 燈油 </cell>
+</row>
+<row>
+<cell rendition="#width100"> 214諸陵 </cell>
+<cell rendition="#width50"> 16 </cell>
+<cell rendition="#width100"> 後阿陁他遠墓 </cell>
+<cell rendition="#width50"> 16 </cell>
+<cell rendition="#width100"> 後阿陀他遠墓 </cell>
+</row>
+<row>
+<cell rendition="#width100"> 231民部下 </cell>
+<cell rendition="#width50"> 8 </cell>
+<cell rendition="#width100"> 造箭料 </cell>
+<cell rendition="#width50"> 8 </cell>
+<cell rendition="#width100"> 造箭 </cell>
+</row>
+<row>
+<cell rendition="#width100"> 293囚獄 </cell>
+<cell rendition="#width50"> 2 </cell>
+<cell rendition="#width100"> 著鈦盤枷 </cell>
+<cell rendition="#width50"> 2 </cell>
+<cell rendition="#width100"> 着鈦盤枷 </cell>
+</row>
+<row>
+<cell rendition="#width100"> 321大膳上 </cell>
+<cell rendition="#width50"> 5 </cell>
+<cell rendition="#width100"> 新嘗祭 </cell>
+<cell rendition="#width50"> 5･6 </cell>
+<cell rendition="#width100"> 新嘗祭と新嘗小斎解斎に分割 </cell>
+</row>
+<row>
+<cell rendition="#width100"> 411弾正 </cell>
+<cell rendition="#width50"> 68 </cell>
+<cell rendition="#width100"> 支子染深色 </cell>
+<cell rendition="#width50"> 68 </cell>
+<cell rendition="#width100"> 支子染色 </cell>
+</row>
+<row>
+<cell rendition="#width100"> 422東西市 </cell>
+<cell rendition="#width50"> 1 </cell>
+<cell rendition="#width100"> 毎鄽立牓 </cell>
+<cell rendition="#width50"> 1 </cell>
+<cell rendition="#width100"> 毎厘立牓 </cell>
+</row>
+<row>
+<cell rendition="#width100"> 422東西市 </cell>
+<cell rendition="#width50"> 14 </cell>
+<cell rendition="#width100"> 東鄽 </cell>
+<cell rendition="#width50"> 14 </cell>
+<cell rendition="#width100"> 東厘 </cell>
+</row>
+<row>
+<cell rendition="#width100"> 422東西市 </cell>
+<cell rendition="#width50"> 15 </cell>
+<cell rendition="#width100"> 西鄽 </cell>
+<cell rendition="#width50"> 15 </cell>
+<cell rendition="#width100"> 西厘 </cell>
+</row>
+</table>
+</p>
+<p ana="個別"> 校訂文凡例 <lb/>
+<s rendition="#hanging-1">・校訂に使用した写本とその略称は以下のとおりです。</s>
+<lb/>
+<lb/><s rendition="#indent1_hanging-4">土本　　国立歴史民俗博物館所蔵土御門家旧蔵本</s>
+<lb/><s rendition="#indent1_hanging-4">永本　　國學院大學図書館所蔵卜部兼永筆本</s>
+<lb/><s rendition="#indent1_hanging-4">右本　　國學院大學図書館所蔵吉田兼右筆本</s>
+<lb/><s rendition="#indent1_hanging-4">九本　　東京国立博物館所蔵九条家旧蔵巻子本</s>
+<lb/>
+<lb/><s rendition="#hanging-1">・土本を底本としますが、土本の祖本は永本であるため、永本の文字を尊重します。諸本との校異のうち、時慶本は抄出本であるため、特に示す必要がある場合に限って校異を記すこととします。九本への言及がない場合は、その箇所が欠損していることを意味します。</s>
+<lb/><s rendition="#hanging-1">・条文番号・条文名称は原則として虎尾俊哉編『訳注日本史料　延喜式』中〔集英社、二〇〇七年、「訳注本」と略称〕に従います。</s>
+<lb/><s rendition="#indent">また、一条文が長文にわたる場合には、適宜（1）（2）等の項目番号を私に付し、分割して表示します。</s>
+<lb/><s rendition="#hanging-1">・校訂文中の細字・割書は、〈　〉で括って表現することとしました。</s>
+<lb/><s rendition="#hanging-1">・校訂文の文字に訳注本および粕谷興紀注解『延喜式祝詞』（和泉書院、二〇一三年、「粕谷本」と略称）と異同がある場合には示すこととします。ただし「島」と「嶋」や「無」と「无」、「陀」と「陁」などの字体（異体字も含む）の異同については原則として省略します。校訂について言及する際に挙げた写本・版本・注釈書の略称は以下の通りです。</s>
+<lb/><s rendition="#indent1_hanging-5">慶安版本　大和文華館所蔵鈴鹿連胤旧蔵版本</s>
+<lb/><s rendition="#indent1_hanigng-3">雲本　松江藩文政11年(1828)刊本（雲州本）</s>
+<lb/><s rendition="#indent1_hanging-4">祝詞考　賀茂真淵『祝詞考』</s>
+<lb/><s rendition="#indent1_hanging-5">神寿後釈　本居宣長『出雲国造神寿後釈』</s>
+<lb/><s rendition="#indent1_hanging-5">祝詞新講　次田潤『祝詞新講』（明治書院、一九二七年）</s>
+<lb/><s rendition="#indent">また必要に応じて青木紀元編『［新版］祝詞』（アーツアンドクラフツ社、二〇二二年、桜楓社一九七五年刊『祝詞』の復刻）に言及する場合があります（「青木本」と略称）。</s>
+<lb/>
+<lb/><s rendition="#hanging-1">・明らかに誤字・脱字が推測される場合でも、補うべき字あるいは改めるべき字の根拠が充分でない場合には、注で示すにとどめます。</s>
+<lb/><s rendition="#hanging-1">・同じ字が連続する場合、写本では踊り字が用いられている場合もありますが、巻八においてはもとの字に置き換えます。</s>
+<lb/><s rendition="#hanging-1">・原則として常用漢字体を使用します。</s>
+<lb/><s rendition="#hanging-1">・木偏と手偏、木偏と牛偏等、容易に判定される誤字や誤用・通用については、校異を省略して適宜置き換えた場合があります。ただし「大」と「太」については区別することとしました。</s>
+</p>
+</editorialDecl>
+<variantEncoding location="external" method="location-referenced"/>
+<tagsDecl>
+<rendition xml:id="shu"> color: red; </rendition>
+<rendition xml:id="italic"> font-style: italic; </rendition>
+<rendition xml:id="indent"> display: block; margin: 0; padding-inline-start: 1em; </rendition>
+<rendition xml:id="indent2"> display: block; margin: 0; padding-inline-start: 2em; </rendition>
+<rendition xml:id="indent3"> display: block; margin: 0; padding-inline-start: 3em; </rendition>
+<rendition xml:id="indent4"> display: block; margin: 0; padding-inline-start: 4em; </rendition>
+<rendition xml:id="indent5"> display: block; margin: 0; padding-inline-start: 5em; </rendition>
+<rendition xml:id="indent6"> display: block; margin: 0; padding-inline-start: 6em; </rendition>
+<rendition xml:id="indent7"> display: block; margin: 0; padding-inline-start: 7em; </rendition>
+<rendition xml:id="indent8"> display: block; margin: 0; padding-inline-start: 8em; </rendition>
+<rendition xml:id="indent10"> display: block; margin: 0; padding-inline-start: 10em; </rendition>
+<rendition xml:id="indent12"> display: block; margin: 0; padding-inline-start: 12em; </rendition>
+<rendition xml:id="indent13"> display: block; margin: 0; padding-inline-start: 13em; </rendition>
+<rendition xml:id="indent14"> display: block; margin: 0; padding-inline-start: 14em; </rendition>
+<rendition xml:id="indent18"> display: block; margin: 0; padding-inline-start: 18em; </rendition>
+<rendition xml:id="hanging-1"> display: block; margin: 0; padding-inline-start: 1em; text-indent: -1em; </rendition>
+<rendition xml:id="hanging-2"> display: block; margin: 0; padding-inline-start: 2em; text-indent: -2em; </rendition>
+<rendition xml:id="hanging-3"> display: block; margin: 0; padding-inline-start: 3em; text-indent: -3em; </rendition>
+<rendition xml:id="indent1_hanging-3"> display: block; margin: 0; padding-inline-start: 4em; text-indent: -3em; </rendition>
+<rendition xml:id="indent1_hanging-4"> display: block; margin: 0; padding-inline-start: 5em; text-indent: -4em; </rendition>
+<rendition xml:id="indent1_hanging-5"> display: block; margin: 0; padding-inline-start: 6em; text-indent: -5em; </rendition>
+<rendition xml:id="indent1_hanging-6"> display: block; margin: 0; padding-inline-start: 7em; text-indent: -6em; </rendition>
+<rendition xml:id="indent2_hanging-1"> display: block; margin: 0; padding-inline-start: 3em; text-indent: -1em; </rendition>
+<rendition xml:id="indent2_hanging-3"> display: block; margin: 0; padding-inline-start: 5em; text-indent: -3em; </rendition>
+<rendition xml:id="indent2_hanging-4"> display: block; margin: 0; padding-inline-start: 6em; text-indent: -4em; </rendition>
+<rendition xml:id="indent2_hanging-5"> display: block; margin: 0; padding-inline-start: 7em; text-indent: -5em; </rendition>
+<rendition xml:id="indent2_hanging-7"> display: block; margin: 0; padding-inline-start: 9em; text-indent: -7em; </rendition>
+<rendition xml:id="indent3_hanging-5"> display: block; margin: 0; padding-inline-start: 8em; text-indent: -5em; </rendition>
+<rendition xml:id="indent4_hanging-5"> display: block; margin: 0; padding-inline-start: 9em; text-indent: -5em; </rendition>
+<rendition xml:id="indent4_hanging-6"> display: block; margin: 0; padding-inline-start: 10em; text-indent: -6em; </rendition>
+<rendition xml:id="indent5_hanging-5"> display: block; margin: 0; padding-inline-start: 10em; text-indent: -5em; </rendition>
+<rendition xml:id="width50"> width: 50px; </rendition>
+<rendition xml:id="width80"> width: 80px; </rendition>
+<rendition xml:id="width100"> width: 100px; </rendition>
+<rendition xml:id="width150"> width: 150px; </rendition>
+<rendition xml:id="width170"> width: 170px; </rendition>
+<rendition xml:id="width200"> width: 200px; </rendition>
+<rendition xml:id="width300"> width: 300px; </rendition>
+<rendition xml:id="width400"> width: 400px; </rendition>
+<rendition xml:id="width500"> width: 500px; </rendition>
+<namespace name="http://www.tei-c.org/ns/1.0">
+<tagUsage gi="lb"> 行構成を保持。定型的な書式を持つ延喜式の記述構造を解析するために必須とする。 </tagUsage>
+<tagUsage gi="table"> 史料上の多段（段落）表現や、項目間の水平方向の配置を再現するために使用。各 <gi> cell </gi> に付与した <att> rendition </att> （#width
+      等）により、視覚的な間隔や幅を制御する。 </tagUsage>
+<tagUsage gi="seg"> 史料上の書式（ <att> rendition </att> ="#indent"等）および朱書き表現（ <att> rendition </att> ="#shu"）、英訳の音表記（ <att>
+       rendition </att> ="#italic"）、および英訳注の対象範囲の特定（ <att> xml:id </att> ）など、複数の視覚・論理表現を属性で制御する。 </tagUsage>
+<tagUsage gi="ruby"> 現代語訳において、漢字の読みを示すために使用。 </tagUsage>
+<tagUsage gi="anchor"> 校異注の該当範囲（始点・終点）を指定するための空要素。 <gi> app </gi> 要素の <att> from </att> および <att> to </att>
+      から参照され、校注範囲を確定させるために使用する。 </tagUsage>
+<tagUsage gi="note"> 校異の詳細説明（ <gi> app </gi> 内）、史料上の割注（ <gi> measure </gi> 内）、条文要約（ <att> type </att> ="summary"）、訳者注（
+       <att> type </att> ="translatorsNotes"）、および典拠データ（ <gi> standOff </gi> ）における制度上の地域区分（ <gi> trait </gi>
+      内）に使用。これら情報の性質や参照先、出現位置は、必要に応じて <att> place </att> 、 <att> type </att> 、 <att> target </att> の各属性により区別される。 </tagUsage>
+<tagUsage gi="measure"> 物品の数量・寸法を記述。品目とその総量を定義する外側の構造と、具体的な数値を保持する内側の構造を階層的に記述する。前者では <att> ana </att> （納税物の区分）、 <att>
+       commodity </att> （物品の種類）、 <att> type </att> （貢納量の規定か実数かの別）を用いて、後者では <att> quantity </att> （数量）、 <att> type </att>
+      （寸法の種類【長・広・深等】）、 <att> ana </att> （物理量の分類）を用いて情報の詳細を明示する。 </tagUsage>
+<tagUsage gi="measureGrp"> 複数の単位を伴う計量値（斤と両など）を一つの論理的な測定値としてグループ化する場合、または特定の属性（ <att> type </att> ="width"
+      等）を共有する測定値の集合を示す場合に使用する。 </tagUsage>
+<tagUsage gi="unit"> 数量の単位（枚、丈、斤、両など）を示す。 <att> unitRef </att> を通じてヘッダー内の単位定義（ <gi> unitDecl </gi> ）と連動させる。 </tagUsage>
+<tagUsage gi="placeName"> 歴史地名。 <gi> standOff </gi> 内の典拠情報とリンクし、空間情報の同定を行う。 </tagUsage>
+<tagUsage gi="orgName"> 官司・官職名。 <gi> standOff </gi> 内の典拠情報とリンクし、組織構造の同定を行う。 </tagUsage>
+</namespace>
+</tagsDecl>
+<unitDecl>
+<unitDef type="Length" xml:id="丈">
+<label xml:lang="ja"> 丈 </label>
+<label xml:lang="ja-Lath"> jō </label>
+<conversion formula="$fromUnit*10" fromUnit="#丈" toUnit="#尺"/>
+<desc> 1 jō 丈 = 10 shaku 尺 = 100 sun 寸 = 1000 bu 分 </desc>
+<desc> 1 jō 丈 = 297 cm (2.97 m) </desc>
+<desc> 換算：1 丈 = 10 尺 </desc>
+</unitDef>
+<unitDef type="Length" xml:id="尺">
+<label xml:lang="ja"> 尺 </label>
+<label xml:lang="ja-Lath"> shaku </label>
+<conversion formula="$fromUnit*10" fromUnit="#尺" toUnit="#寸"/>
+<desc> 1 shaku 尺 = 29.7 cm </desc>
+<desc> 換算：1 尺 = 10 寸 </desc>
+</unitDef>
+<unitDef type="Length" xml:id="寸">
+<label xml:lang="ja"> 寸 </label>
+<label xml:lang="ja-Lath"> sun </label>
+<conversion formula="$fromUnit*10" fromUnit="#寸" toUnit="#分_Length"/>
+<desc> 1 sun 寸 = 2.97 cm </desc>
+<desc> 換算：1 寸 = 10 分 </desc>
+</unitDef>
+<unitDef type="Length" xml:id="分_Length">
+<label xml:lang="ja"> 分 </label>
+<label xml:lang="ja-Lath"> bu </label>
+<desc> 1 bu 分 = 0.297 cm </desc>
+</unitDef>
+<unitDef type="Volume" xml:id="斛">
+<label xml:lang="ja"> 斛 </label>
+<label xml:lang="ja-Lath"> koku </label>
+<conversion formula="$fromUnit*10" fromUnit="#斛" toUnit="#斗"/>
+<desc> 1 koku 斛 = 10 to 斗 = 100 shō 升 = 1000 gō 合 = 10,000 shaku 夕 </desc>
+<desc> 1 koku 斛 = 約 81 L </desc>
+<desc> 換算：1 斛 = 10 斗 </desc>
+</unitDef>
+<unitDef type="Volume" xml:id="石">
+<label xml:lang="ja"> 石 </label>
+<label xml:lang="ja-Lath"> koku </label>
+<conversion formula="$fromUnit*10" fromUnit="#石" toUnit="#斗"/>
+<desc> 1 koku 石 = 10 to 斗 = 100 shō 升 = 1000 gō 合 = 10,000 shaku 夕 </desc>
+<desc> 1 koku 石 = 約 81 L </desc>
+<desc> 換算：1 石 = 10 斗 </desc>
+</unitDef>
+<unitDef type="Volume" xml:id="斗">
+<label xml:lang="ja"> 斗 </label>
+<label xml:lang="ja-Lath"> to </label>
+<conversion formula="$fromUnit*10" fromUnit="#斗" toUnit="#升"/>
+<desc> 1 to 斗 = 約 8100 ml (8.1 L) </desc>
+<desc> 換算：1 斗 = 10 升 </desc>
+</unitDef>
+<unitDef type="Volume" xml:id="升">
+<label xml:lang="ja"> 升 </label>
+<label xml:lang="ja-Lath"> shō </label>
+<conversion formula="$fromUnit*10" fromUnit="#升" toUnit="#合"/>
+<desc> 1 shō 升 = 約 810 ml </desc>
+<desc> 換算：1 升 = 10 合 </desc>
+</unitDef>
+<unitDef type="Volume" xml:id="合">
+<label xml:lang="ja"> 合 </label>
+<label xml:lang="ja-Lath"> gō </label>
+<conversion formula="$fromUnit*10" fromUnit="#合" toUnit="#夕"/>
+<desc> 1 gō 合 = 約 81 ml </desc>
+<desc> 換算：1 合 = 10 夕 </desc>
+</unitDef>
+<unitDef type="Volume" xml:id="夕">
+<label xml:lang="ja"> 夕 </label>
+<label xml:lang="ja-Lath"> shaku </label>
+<desc> 1 shaku 夕 = 約 8.1 ml </desc>
+</unitDef>
+<unitDef type="Weight" xml:id="斤">
+<label xml:lang="ja"> 斤 </label>
+<label xml:lang="ja-Lath"> kin </label>
+<conversion formula="$fromUnit*16" fromUnit="#斤" toUnit="#両"/>
+<desc> 1 kin 斤 = 16 ryō 両 = 64 bu 分 = 384 shu 銖 </desc>
+<desc> 1 kin 斤 = 約 674 g </desc>
+<desc> 換算：1 斤 = 16 両 </desc>
+</unitDef>
+<unitDef type="Weight" xml:id="両">
+<label xml:lang="ja"> 両 </label>
+<label xml:lang="ja-Lath"> ryō </label>
+<conversion formula="$fromUnit*4" fromUnit="#両" toUnit="#分_Weight"/>
+<desc> 1 ryō 両 = 約 42 g </desc>
+<desc> 換算：1 両 = 4 分 </desc>
+</unitDef>
+<unitDef type="Weight" xml:id="分_Weight">
+<label xml:lang="ja"> 分 </label>
+<label xml:lang="ja-Lath"> bu </label>
+<conversion formula="$fromUnit*6" fromUnit="#分_Weight" toUnit="#銖"/>
+<desc> 1 bu 分 = 約 10.5 g </desc>
+<desc> 換算：1 分 = 6 銖 </desc>
+</unitDef>
+<unitDef type="Weight" xml:id="銖">
+<label xml:lang="ja"> 銖 </label>
+<label xml:lang="ja-Lath"> shu </label>
+<desc> 1 shu 銖 = 約 1.8 g </desc>
+</unitDef>
+<unitDef type="Cloth_chōfu" xml:id="端_調布">
+<label xml:lang="ja"> 端 </label>
+<label xml:lang="ja-Lath"> tan </label>
+<desc> 1 tan 端 of chōfu 調布 = (length) 4 jō 丈 2 shaku 尺 × (width) 2 shaku 尺 4 sun 寸 (約 12.5 m × 72 cm) </desc>
+</unitDef>
+<unitDef type="Cloth_chōfu" xml:id="段_調布">
+<label xml:lang="ja"> 段 </label>
+<label xml:lang="ja-Lath"> tan </label>
+<desc> 1 tan 段 of chōfu 調布 = (length) 4 jō 丈 2 shaku 尺 × (width) 2 shaku 尺 4 sun 寸 (約 12.5 m × 72 cm) </desc>
+</unitDef>
+<unitDef type="Cloth_yōfu" xml:id="段_庸布">
+<label xml:lang="ja"> 段 </label>
+<label xml:lang="ja-Lath"> tan </label>
+<desc> 1 tan 段 of yōfu 庸布 = (length) 2 jō 丈 8 shaku 尺 × (width) 2 shaku 尺 4 sun 寸 (約 8.3 m × 72 cm) </desc>
+</unitDef>
+<unitDef type="Cloth_shōfu" xml:id="段_商布">
+<label xml:lang="ja"> 段 </label>
+<label xml:lang="ja-Lath"> tan </label>
+<desc> 1 tan 段 of shōfu 商布 = length 2 jō 丈 6 shaku 尺 (約 7.72 m) </desc>
+</unitDef>
+<unitDef type="Cloth_yōfu" xml:id="端_庸布">
+<label xml:lang="ja"> 端 </label>
+<label xml:lang="ja-Lath"> tan </label>
+</unitDef>
+<unitDef xml:id="合_set">
+<label xml:lang="ja"> 合 </label>
+<label xml:lang="ja-Lath"> gō </label>
+<desc> 蓋と本体が対になった器を数えるための単位。 </desc>
+</unitDef>
+<unitDef xml:id="口">
+<label xml:lang="ja"> 口 </label>
+<label xml:lang="ja-Lath"> ku </label>
+<desc> 主に土器の単位。 </desc>
+</unitDef>
+<unitDef xml:id="疋">
+<label xml:lang="ja"> 疋 </label>
+<label xml:lang="ja-Lath"> hiki </label>
+<desc> 主に布製品の単位。 </desc>
+</unitDef>
+<unitDef xml:id="文">
+<label xml:lang="ja"> 文 </label>
+<label xml:lang="ja-Lath"> mon </label>
+<desc> 銭の単位。銭1貫=1000文。 </desc>
+</unitDef>
+<unitDef type="Weight" xml:id="廷">
+<label xml:lang="ja"> 廷 </label>
+<label xml:lang="ja-Lath"> tei </label>
+<desc> 鉄1廷=大3斤5両。 </desc>
+</unitDef>
+<unitDef xml:id="隻">
+<label xml:lang="ja"> 隻 </label>
+<label xml:lang="ja-Lath"> seki </label>
+<desc> 主に魚類の単位。 </desc>
+</unitDef>
+<unitDef xml:id="顆">
+<label xml:lang="ja"> 顆 </label>
+<label xml:lang="ja-Lath"> ka </label>
+<desc> 粒状のものを数える単位。 </desc>
+</unitDef>
+<unitDef type="Weight" xml:id="屯">
+<label xml:lang="ja"> 屯 </label>
+<label xml:lang="ja-Lath"> ton </label>
+<desc> 綿を計上する際の単位。調綿1屯=大4両、細屯綿1屯=大3両1分2銖=小10両、綿1屯=大5両2分=小1斤2分。 </desc>
+</unitDef>
+<unitDef xml:id="張">
+<label xml:lang="ja"> 張 </label>
+<label xml:lang="ja-Lath"> chō </label>
+<desc> 幕など張りめぐらすものを数える単位。 </desc>
+</unitDef>
+<unitDef xml:id="帖">
+<label xml:lang="ja"> 帖 </label>
+<label xml:lang="ja-Lath"> jō </label>
+<desc> 板状のものを数える単位。 </desc>
+</unitDef>
+<unitDef xml:id="枚">
+<label xml:lang="ja"> 枚 </label>
+<label xml:lang="ja-Lath"> mai </label>
+<desc> 平たいものを数える単位。 </desc>
+</unitDef>
+<unitDef type="Weight" xml:id="絇">
+<label xml:lang="ja"> 絇 </label>
+<label xml:lang="ja-Lath"> ku </label>
+<desc> 糸の単位。糸1絇=上糸大4両、中糸大5両、麁糸大7両。 </desc>
+</unitDef>
+</unitDecl>
+</encodingDesc>
+<revisionDesc ana="個別">
+<listChange>
+<change/>
+</listChange>
+</revisionDesc>
+</teiHeader>
+<text>
+<body>
+<div ana="祝詞" n="8" type="巻" xml:id="volume8">
+<div type="首題" xml:id="shudai08">
+<p xml:id="shudai0801"> 祝詞式 </p>
+</div>
+<div ana="祝詞" corresp="engishiki_v8_en.xml#protocol081 engishiki_v8_ja.xml#protocol081" n="8" type="式" xml:id="protocol081">
+<div type="式題" xml:id="shikidai081">
+<p xml:id="shikidai08101"> 延喜式巻第八〈<orgName corresp="#神祇官">神祇</orgName>八〉 </p>
+</div>
+<div ana="祝詞" corresp="engishiki_v8_en.xml#article081001 engishiki_v8_ja.xml#article081001" n="8.1" type="条" xml:id="article081001">
+<head ana="祝詞"/>
+<p ana="項" corresp="engishiki_v8_en.xml#item08100101 engishiki_v8_ja.xml#item08100101" xml:id="item08100101">
+       凡祭祀祝詞者、御殿・御門等祭、斎部氏祝詞、以外諸祭、中臣氏祝詞、 </p>
+</div>
+<div ana="祝詞" corresp="engishiki_v8_en.xml#article081002 engishiki_v8_ja.xml#article081002" n="8.2" type="条" xml:id="article081002">
+<head ana="不云"/>
+<p ana="項" corresp="engishiki_v8_en.xml#item08100201 engishiki_v8_ja.xml#item08100201" xml:id="item08100201">
+       凡四時諸祭、不云祝詞者、神部皆依常例宣之、其臨時祭祝詞、所司随事脩<anchor xml:id="app0810020101"/>撰<anchor xml:id="app0810020101e"/>、前祭進官、経処分然後行之、 </p>
+</div>
+<div ana="祝詞" corresp="engishiki_v8_en.xml#article081003 engishiki_v8_ja.xml#article081003" n="8.3" type="条" xml:id="article081003">
+<head ana="祈年祭"/>
+<p ana="項" corresp="engishiki_v8_en.xml#item08100301 engishiki_v8_ja.xml#item08100301" xml:id="item08100301"> 祈年祭
+       <lb/>集侍神主・祝部等諸聞食〈登〉宣、〈神主・祝部等共称唯、余 <anchor xml:id="app0810030101"/>宣<anchor xml:id="app0810030101e"/>准此、〉</p>
+<p ana="項" corresp="engishiki_v8_en.xml#item08100302 engishiki_v8_ja.xml#item08100302" xml:id="item08100302"> 高天原〈
+       <anchor xml:id="app0810030201"/>仁<anchor xml:id="app0810030201e"/>〉神留坐皇睦神漏伎命・神漏弥命以、天社・国社〈登〉称辞竟奉皇神等〈能〉前〈尓〉白〈久〉、今年二月〈尓〉御年初将賜〈登〉為而、皇御孫命宇豆〈能〉幣帛〈乎〉、朝日〈能〉豊逆登〈尓〉称辞竟奉〈久登〉宣、 </p>
+<p ana="項" corresp="engishiki_v8_en.xml#item08100303 engishiki_v8_ja.xml#item08100303" xml:id="item08100303">
+       御年皇神等〈能〉前〈尓〉白〈久〉、皇神等〈能〉依〈左志〉奉〈牟〉奥津御年〈 <anchor xml:id="app0810030301"/>乎<anchor xml:id="app0810030301e"/>〉、手肱〈尓〉水沫画垂、向股〈尓〉泥画寄〈弖〉取作〈牟〉奥津御年〈乎〉、八束穂〈能〉伊加
+       <anchor xml:id="app0810030302"/>志<anchor xml:id="app0810030302e"/>穂〈尓〉、皇神等〈能〉依〈左 <anchor xml:id="app0810030303"/>志<anchor xml:id="app0810030303e"/>〉奉者、初穂〈乎波〉千穎八百穎〈尓〉奉置〈弖〉、 <anchor xml:id="app0810030304"/>𤭖<anchor xml:id="app0810030304e"/>閉高知、
+       <anchor xml:id="app0810030305"/>𤭖<anchor xml:id="app0810030305e"/>腹満双〈弖〉、汁〈尓母〉穎〈尓母〉称辞竟奉〈牟〉、大野原〈尓〉生物者、甘菜・辛菜、青海原住物者、鰭〈能〉広物・鰭〈能〉狭物、奥津藻
+       <anchor xml:id="app0810030306"/>葉<anchor xml:id="app0810030306e"/>・辺津藻葉〈尓〉至〈弖尓〉、御服者明妙・照妙・和妙・荒妙〈尓〉称辞竟奉〈牟〉、御年皇神〈能〉前〈尓〉、白馬・白猪・白鶏、種々色物〈乎〉備奉〈
+       <anchor xml:id="app0810030307"/>弖<anchor xml:id="app0810030307e"/>〉、皇御孫命〈能〉宇豆 <anchor xml:id="app0810030308"/>乃<anchor xml:id="app0810030308e"/>幣帛〈乎〉、称辞竟奉〈久登〉宣、 </p>
+<p ana="項" corresp="engishiki_v8_en.xml#item08100304 engishiki_v8_ja.xml#item08100304" xml:id="item08100304">
+       大御巫〈能〉辞竟奉皇神等〈能〉前〈尓〉白〈久〉、神魂・高御魂・生魂・足魂・玉留魂・大宮乃売・大御膳都神・辞代主〈登〉御名者白而辞竟奉者、皇御孫命御世〈乎〉、
+       <anchor xml:id="app0810030401"/>手<anchor xml:id="app0810030401e"/>長御世〈登〉、堅磐〈尓〉常磐〈尓〉斎〈比〉奉、茂御世〈尓〉幸閉奉故、皇吾睦神漏伎命・神漏弥命〈登〉、皇御孫命〈能〉宇豆 <anchor xml:id="app0810030402"/>乃<anchor xml:id="app0810030402e"/>幣帛〈乎〉、称辞竟奉〈
+       <anchor xml:id="app0810030403"/>久登<anchor xml:id="app0810030403e"/>〉宣、 </p>
+<p ana="項" corresp="engishiki_v8_en.xml#item08100305 engishiki_v8_ja.xml#item08100305" xml:id="item08100305">
+       座摩〈乃〉御巫〈乃〉辞竟奉皇神等〈能〉前〈尓〉白〈久〉、生井・栄井・津長井・阿須波・婆比支〈登〉御名者白〈弖〉辞竟奉者、皇神〈能〉敷坐下都磐根〈尓〉宮柱太知立、高天原〈尓〉千木高知〈弖〉、皇御孫命〈乃〉瑞〈能〉御舎〈乎〉仕奉〈弖〉、天御蔭・日御蔭〈登〉隠坐〈弖〉、四方国〈乎〉安国〈登〉平〈久〉知食故、皇御孫命〈能〉宇豆
+       <anchor xml:id="app0810030501"/>乃<anchor xml:id="app0810030501e"/>幣帛〈乎〉、称辞竟奉〈久登〉宣、 </p>
+<p ana="項" corresp="engishiki_v8_en.xml#item08100306 engishiki_v8_ja.xml#item08100306" xml:id="item08100306"> 御門〈
+       <anchor xml:id="app0810030601"/>能<anchor xml:id="app0810030601e"/>〉御巫〈 <anchor xml:id="app0810030602"/>能<anchor xml:id="app0810030602e"/>〉辞竟奉皇神等〈 <anchor xml:id="app0810030603"/>能<anchor xml:id="app0810030603e"/>〉前〈尓〉
+       <anchor xml:id="app0810030604"/>白<anchor xml:id="app0810030604e"/>〈久〉、櫛磐間門命・豊磐間門命〈登〉御名者白〈弖〉、辞竟奉者、四方〈能〉御門〈尓〉、湯都磐村〈能〉如
+       <anchor xml:id="app0810030605"/>塞<anchor xml:id="app0810030605e"/>坐〈弖〉、朝者御門開奉、夕者御門閉奉〈弖〉、疎夫留物〈能〉自下往者下〈乎〉守、自上往者上〈乎〉守、夜〈能〉守・日〈能〉守〈尓〉守奉故、 <anchor xml:id="app0810030606"/>皇<anchor xml:id="app0810030606e"/>御孫命〈能〉宇豆
+       <anchor xml:id="app0810030607"/>乃<anchor xml:id="app0810030607e"/>幣帛〈乎〉、称辞竟奉〈久登〉宣、 </p>
+<p ana="項" corresp="engishiki_v8_en.xml#item08100307 engishiki_v8_ja.xml#item08100307" xml:id="item08100307">
+       生島〈能〉御巫〈能〉辞竟奉皇神等〈能〉前〈尓〉白〈久〉、生国・足国〈登〉御名者白〈弖〉、辞竟奉者、皇神〈能〉敷坐島〈能〉八十島者、谷蟆〈能〉狭度極、塩沫〈能〉留限、狭国者広〈久〉、峻国者平〈久〉、島〈能〉八十島墮事無、皇神等〈能〉依志奉故、皇御孫命〈能〉宇豆〈乃〉幣帛〈乎〉、称辞竟奉〈久登〉宣、 </p>
+<p ana="項" corresp="engishiki_v8_en.xml#item08100308 engishiki_v8_ja.xml#item08100308" xml:id="item08100308">
+        辞別、<placeName corresp="#伊勢国">伊勢</placeName>〈尓〉坐天照 <anchor xml:id="app0810030801"/>太<anchor xml:id="app0810030801e"/>御神〈能〉 <anchor xml:id="app0810030802"/>太<anchor xml:id="app0810030802e"/>前〈尓〉白〈久〉、皇神〈能〉見
+       <anchor xml:id="app0810030803"/>霽<anchor xml:id="app0810030803e"/>〈志〉坐四方国者、天〈能〉壁立極、国〈能〉退立限、青雲〈能〉靄極、白雲〈能〉墮坐向伏限、青海原者棹 <anchor xml:id="app0810030804"/>柁<anchor xml:id="app0810030804e"/>不干、舟
+       <anchor xml:id="app0810030805"/>艫<anchor xml:id="app0810030805e"/>〈能〉至留極、大 <anchor xml:id="app0810030806"/>海<anchor xml:id="app0810030806e"/>〈尓〉舟満都都気〈弖〉、自陸往道 <anchor xml:id="app0810030807"/>者<anchor xml:id="app0810030807e"/>、荷緒縛堅〈弖〉、磐根・木根履佐
+       <anchor xml:id="app0810030808"/>久<anchor xml:id="app0810030808e"/>弥〈弖〉、馬爪至留限、長道無間〈久〉立都都気〈弖〉、狭国者広〈久〉、峻国者平〈久〉、遠国者八十綱打挂〈弖〉引寄如事、皇大御神〈能〉寄奉〈波〉、荷前者皇大御神〈能〉
+       <anchor xml:id="app0810030809"/>大<anchor xml:id="app0810030809e"/>前〈尓〉、如横山打積置〈弖〉、残〈乎波〉平聞看、又皇御孫命御世〈乎〉手長御世〈登〉、堅磐〈尓〉常磐〈尓〉斎〈比〉奉、茂御世〈尓〉幸閉奉故、皇吾睦神漏伎・神漏弥命〈登〉、宇事物頸根衝抜〈弖〉、皇御孫命〈能〉宇豆〈
+       <anchor xml:id="app0810030810"/>乃<anchor xml:id="app0810030810e"/>〉幣帛〈乎〉、称辞竟奉〈久 <anchor xml:id="app0810030811"/>登<anchor xml:id="app0810030811e"/>〉宣、 </p>
+<p ana="項" corresp="engishiki_v8_en.xml#item08100309 engishiki_v8_ja.xml#item08100309" xml:id="item08100309">
+       御県〈尓〉坐皇神等〈 <anchor xml:id="app0810030901"/>乃<anchor xml:id="app0810030901e"/>〉前〈尓〉白〈久〉、高市・葛木・十市・志貴・山辺・曾布〈 <anchor xml:id="app0810030902"/>登<anchor xml:id="app0810030902e"/>〉御名者白〈弖〉、此六御県〈尓〉生出甘菜・辛菜〈乎〉持
+       <anchor xml:id="app0810030903"/>参<anchor xml:id="app0810030903e"/>来〈弖〉、皇御孫命〈 <anchor xml:id="app0810030904"/>能<anchor xml:id="app0810030904e"/>〉長御膳〈 <anchor xml:id="app0810030905"/>能<anchor xml:id="app0810030905e"/>〉遠御膳〈 <anchor xml:id="app0810030906"/>登<anchor xml:id="app0810030906e"/>〉聞食故、皇御孫命〈
+       <anchor xml:id="app0810030907"/>能<anchor xml:id="app0810030907e"/>〉宇豆 <anchor xml:id="app0810030908"/>乃<anchor xml:id="app0810030908e"/>幣帛〈乎〉、称辞竟奉〈久 <anchor xml:id="app0810030909"/>登<anchor xml:id="app0810030909e"/>〉宣、 </p>
+<p ana="項" corresp="engishiki_v8_en.xml#item08100310 engishiki_v8_ja.xml#item08100310" xml:id="item08100310"> 山口坐皇神等〈
+       <anchor xml:id="app0810031001"/>能<anchor xml:id="app0810031001e"/>〉前〈尓〉白〈久〉、飛鳥・石 <anchor xml:id="app0810031002"/>寸<anchor xml:id="app0810031002e"/>・忍坂・長谷・畝火・耳無〈
+       <anchor xml:id="app0810031003"/>登<anchor xml:id="app0810031003e"/>〉御名者白〈弖〉、遠山・近山〈尓〉生立〈留〉大木・小木〈乎〉、本末打切〈弖〉 <anchor xml:id="app0810031004"/>持<anchor xml:id="app0810031004e"/>参来〈弖〉、皇御 <anchor xml:id="app0810031005"/>孫<anchor xml:id="app0810031005e"/>命〈
+       <anchor xml:id="app0810031006"/>能<anchor xml:id="app0810031006e"/>〉瑞〈 <anchor xml:id="app0810031007"/>能<anchor xml:id="app0810031007e"/>〉御舎仕奉〈弖〉、天御蔭・日御蔭〈 <anchor xml:id="app0810031008"/>登<anchor xml:id="app0810031008e"/>〉隠坐〈弖〉、四方国〈乎〉安国〈
+       <anchor xml:id="app0810031009"/>登<anchor xml:id="app0810031009e"/>〉平〈久〉知食〈須 <anchor xml:id="app0810031010"/>我<anchor xml:id="app0810031010e"/>〉故、皇御孫命〈 <anchor xml:id="app0810031011"/>能<anchor xml:id="app0810031011e"/> 〉宇豆 <anchor xml:id="app0810031012"/>乃<anchor xml:id="app0810031012e"/> 幣帛〈乎〉、称辞竟奉〈久
+       <anchor xml:id="app0810031013"/>登<anchor xml:id="app0810031013e"/>〉宣、 </p>
+<p ana="項" corresp="engishiki_v8_en.xml#item08100311 engishiki_v8_ja.xml#item08100311" xml:id="item08100311"> 水分坐皇神等〈
+       <anchor xml:id="app0810031101"/>能<anchor xml:id="app0810031101e"/>〉前〈尓〉白〈久〉、吉野・宇陀・都祁・葛木〈 <anchor xml:id="app0810031102"/>登<anchor xml:id="app0810031102e"/>〉御名者白〈弖〉、辞竟奉者、皇神等〈 <anchor xml:id="app0810031103"/>能<anchor xml:id="app0810031103e"/>〉寄〈志〉奉〈牟〉奥都御年〈
+       <anchor xml:id="app0810031104"/>乎<anchor xml:id="app0810031104e"/>〉、八束穂〈 <anchor xml:id="app0810031105"/>能<anchor xml:id="app0810031105e"/>〉伊加志穂〈尓〉寄〈志〉奉者、皇神等〈尓〉初穂〈 <anchor xml:id="app0810031106"/>波<anchor xml:id="app0810031106e"/>〉穎 <anchor xml:id="app0810031107"/>〈尓毛〉汁<anchor xml:id="app0810031107e"/>〈尓
+       <anchor xml:id="app0810031108"/>母<anchor xml:id="app0810031108e"/>〉 <anchor xml:id="app0810031109"/>𤭖<anchor xml:id="app0810031109e"/>閉高知、 <anchor xml:id="app0810031110"/>𤭖<anchor xml:id="app0810031110e"/>腹満双〈弖〉、称辞竟奉〈弖〉、遺〈乎波〉皇御孫命〈
+       <anchor xml:id="app0810031111"/>能<anchor xml:id="app0810031111e"/>〉朝御食・夕御食〈 <anchor xml:id="app0810031112"/>能<anchor xml:id="app0810031112e"/> 〉加牟加比 <anchor xml:id="app0810031113"/>〈尓〉<anchor xml:id="app0810031113e"/>、長御食〈 <anchor xml:id="app0810031114"/>能<anchor xml:id="app0810031114e"/>〉遠御食〈
+       <anchor xml:id="app0810031115"/>登<anchor xml:id="app0810031115e"/>〉、赤丹穂〈尓〉聞食故、皇御孫命〈 <anchor xml:id="app0810031116"/>能<anchor xml:id="app0810031116e"/>〉宇豆 <anchor xml:id="app0810031117"/>乃<anchor xml:id="app0810031117e"/>幣帛称辞竟奉〈久 <anchor xml:id="app0810031118"/>登<anchor xml:id="app0810031118e"/>〉、諸聞
+       <anchor xml:id="app0810031119"/>食<anchor xml:id="app0810031119e"/>宣、 </p>
+<p ana="項" corresp="engishiki_v8_en.xml#item08100312 engishiki_v8_ja.xml#item08100312" xml:id="item08100312"> 辞別、忌部〈
+       <anchor xml:id="app0810031201"/>能<anchor xml:id="app0810031201e"/>〉弱肩〈尓〉太多須支取挂〈弖〉、持由麻波利仕奉〈礼留〉幣帛〈乎〉、神主・祝部等受賜〈弖〉、事不過捧 <anchor xml:id="app0810031202"/>持奉<anchor xml:id="app0810031202e"/>〈 <anchor xml:id="app0810031203"/>登<anchor xml:id="app0810031203e"/>〉宣、 </p>
+</div>
+<div ana="祝詞" corresp="engishiki_v8_en.xml#article081004 engishiki_v8_ja.xml#article081004" n="8.4" type="条" xml:id="article081004">
+<head ana="春日祭"/>
+<p ana="項" corresp="engishiki_v8_en.xml#item08100401 engishiki_v8_ja.xml#item08100401" xml:id="item08100401"> 春日祭
+       <lb/>天皇〈我〉大命〈尓〉坐〈世〉、恐〈岐〉鹿島坐健御賀豆智命、香取坐伊波比主命、枚岡坐天之子八根命・比売神、四柱〈 <anchor xml:id="app0810040101"/>能<anchor xml:id="app0810040101e"/>〉皇神等〈 <anchor xml:id="app0810040102"/>能<anchor xml:id="app0810040102e"/>〉広前〈
+       <anchor xml:id="app0810040103"/>仁<anchor xml:id="app0810040103e"/>〉白〈久〉、大神等〈 <anchor xml:id="app0810040104"/>能<anchor xml:id="app0810040104e"/>〉乞賜〈比 <anchor xml:id="app0810040105"/>能<anchor xml:id="app0810040105e"/>〉任〈尓〉、春日〈 <anchor xml:id="app0810040106"/>能<anchor xml:id="app0810040106e"/>〉三笠山〈
+       <anchor xml:id="app0810040107"/>能<anchor xml:id="app0810040107e"/>〉下津石根〈尓〉宮柱広知立、高天原〈尓〉千木高知〈弖〉、天〈乃〉御蔭・日〈乃〉御蔭〈 <anchor xml:id="app0810040108"/>止<anchor xml:id="app0810040108e"/>〉定奉〈弖〉、貢〈
+       <anchor xml:id="app0810040109"/>流<anchor xml:id="app0810040109e"/>〉神宝者、御鏡・御横刀・御弓・御桙・御馬〈尓〉備奉〈 <anchor xml:id="app0810040110"/>理<anchor xml:id="app0810040110e"/>〉、御服〈波〉明多閉・照多閉・
+       <anchor xml:id="app0810040111"/>和<anchor xml:id="app0810040111e"/>多閉・荒多閉〈尓〉仕奉〈弖〉、四方国〈 <anchor xml:id="app0810040112"/>能<anchor xml:id="app0810040112e"/>〉献〈礼留〉御調〈 <anchor xml:id="app0810040113"/>能<anchor xml:id="app0810040113e"/>〉荷
+       <anchor xml:id="app0810040114"/>前<anchor xml:id="app0810040114e"/>取並〈弖〉、青海原〈乃〉物者、波多能広物・波多能狭物・奥藻菜・辺藻菜、山野物者甘菜・辛菜〈尓〉至〈麻弖〉、御酒者甕上高知、甕腹満並〈弖〉、雑物〈乎〉如横山積置〈弖〉、神主〈尓〉
+       <anchor xml:id="app0810040115"/>其<anchor xml:id="app0810040115e"/>官位 <anchor xml:id="app0810040116"/>姓<anchor xml:id="app0810040116e"/>名〈乎〉定〈弖〉、献〈 <anchor xml:id="app0810040117"/>流<anchor xml:id="app0810040117e"/>〉宇豆〈乃〉 <anchor xml:id="app0810040118"/>大<anchor xml:id="app0810040118e"/>幣帛〈乎〉、安幣
+       <anchor xml:id="app0810040119"/>帛<anchor xml:id="app0810040119e"/>〈乃〉足幣帛〈 <anchor xml:id="app0810040120"/>登<anchor xml:id="app0810040120e"/>〉、平〈久〉安〈久〉聞 <anchor xml:id="app0810040121"/>看<anchor xml:id="app0810040121e"/>〈 <anchor xml:id="app0810040122"/>登<anchor xml:id="app0810040122e"/>〉、皇大御神等〈乎〉称辞竟奉〈久
+       <anchor xml:id="app0810040123"/>登<anchor xml:id="app0810040123e"/>〉白、 </p>
+<p ana="項" corresp="engishiki_v8_en.xml#item08100402 engishiki_v8_ja.xml#item08100402" xml:id="item08100402">
+       如此仕奉〈尓〉依〈弖〉、今〈母〉去前〈 <anchor xml:id="app0810040201"/>母<anchor xml:id="app0810040201e"/>〉、天皇〈我〉朝
+       <anchor xml:id="app0810040202"/>庭<anchor xml:id="app0810040202e"/>〈乎〉平〈久〉安〈久〉、足御世〈乃〉茂御世〈尓〉斎奉〈利〉、常石〈尓〉堅石〈尓〉福閉奉〈利〉、預而仕奉〈 <anchor xml:id="app0810040203"/>流<anchor xml:id="app0810040203e"/>〉処処
+       <anchor xml:id="app0810040204"/>家<anchor xml:id="app0810040204e"/>・王等卿等〈乎 <anchor xml:id="app0810040205"/>母<anchor xml:id="app0810040205e"/>〉平〈久〉、天皇〈我〉朝 <anchor xml:id="app0810040206"/>庭<anchor xml:id="app0810040206e"/>〈尓〉伊加志夜 <anchor xml:id="app0810040207"/>久<anchor xml:id="app0810040207e"/>波叡〈
+       <anchor xml:id="app0810040208"/>能<anchor xml:id="app0810040208e"/>〉如〈久〉仕奉〈利〉、佐加叡志米賜〈 <anchor xml:id="app0810040209"/>登<anchor xml:id="app0810040209e"/>〉、称辞竟奉〈良久 <anchor xml:id="app0810040210"/>登<anchor xml:id="app0810040210e"/>〉白、〈大原野・ <anchor xml:id="app0810040211"/>平<anchor xml:id="app0810040211e"/>岡
+       <anchor xml:id="app0810040212"/>祭<anchor xml:id="app0810040212e"/>祝詞准此、〉 </p>
+</div>
+<div ana="祝詞" corresp="engishiki_v8_en.xml#article081005 engishiki_v8_ja.xml#article081005" n="8.5" type="条" xml:id="article081005">
+<head ana="広瀬大忌祭"/>
+<p ana="項" corresp="engishiki_v8_en.xml#item08100501 engishiki_v8_ja.xml#item08100501" xml:id="item08100501"> 広瀬大忌祭
+       <lb/>広瀬〈 <anchor xml:id="app0810050101"/>能<anchor xml:id="app0810050101e"/>〉川合〈尓〉称辞竟奉〈 <anchor xml:id="app0810050102"/>流<anchor xml:id="app0810050102e"/>〉皇神〈 <anchor xml:id="app0810050103"/>能<anchor xml:id="app0810050103e"/>〉御名〈乎〉白〈久〉、御膳持〈須留〉若宇加〈
+       <anchor xml:id="app0810050104"/>能<anchor xml:id="app0810050104e"/>〉売〈 <anchor xml:id="app0810050105"/>能<anchor xml:id="app0810050105e"/>〉命〈 <anchor xml:id="app0810050106"/>登<anchor xml:id="app0810050106e"/>〉御名者白〈弖〉、此皇神前〈尓〉辞竟奉〈久〉、皇御孫命〈 <anchor xml:id="app0810050107"/>能<anchor xml:id="app0810050107e"/>〉宇豆〈
+       <anchor xml:id="app0810050108"/>能<anchor xml:id="app0810050108e"/>〉幣帛〈乎〉 <anchor xml:id="app0810050109"/>令<anchor xml:id="app0810050109e"/>捧持〈弖〉、王 <anchor xml:id="app0810050110"/>臣<anchor xml:id="app0810050110e"/>等〈乎〉 <anchor xml:id="app0810050111"/>為使〈弖〉<anchor xml:id="app0810050111e"/>、称辞竟奉〈
+       <anchor xml:id="app0810050112"/>久<anchor xml:id="app0810050112e"/>乎〉、神主・祝部等諸聞食〈 <anchor xml:id="app0810050113"/>登<anchor xml:id="app0810050113e"/>〉宣、</p>
+<p ana="項" corresp="engishiki_v8_en.xml#item08100502 engishiki_v8_ja.xml#item08100502" xml:id="item08100502"> 奉〈
+       <anchor xml:id="app0810050201"/>流<anchor xml:id="app0810050201e"/>〉宇豆〈 <anchor xml:id="app0810050202"/>能<anchor xml:id="app0810050202e"/>〉幣帛者、御服明妙・照妙・和妙・荒妙、五色物、楯・戈・御馬、御酒者 <anchor xml:id="app0810050203"/>𤭖<anchor xml:id="app0810050203e"/>〈
+       <anchor xml:id="app0810050204"/>能<anchor xml:id="app0810050204e"/>〉閉高知、 <anchor xml:id="app0810050205"/>𤭖<anchor xml:id="app0810050205e"/>〈 <anchor xml:id="app0810050206"/>能<anchor xml:id="app0810050206e"/>〉腹満双〈弖〉、和稲・荒稲〈尓〉、山〈尓〉住物者毛〈
+       <anchor xml:id="app0810050207"/>能<anchor xml:id="app0810050207e"/>〉和〈支〉物、毛〈 <anchor xml:id="app0810050208"/>能<anchor xml:id="app0810050208e"/>〉荒〈支〉物、大野〈 <anchor xml:id="app0810050209"/>能<anchor xml:id="app0810050209e"/>〉原〈尓〉生物者甘菜・辛菜、青海原〈尓〉住物者鰭〈
+       <anchor xml:id="app0810050210"/>能<anchor xml:id="app0810050210e"/>〉広〈支〉物・鰭〈 <anchor xml:id="app0810050211"/>能<anchor xml:id="app0810050211e"/>〉狭〈支〉物、奥津藻 <anchor xml:id="app0810050212"/>葉<anchor xml:id="app0810050212e"/>・辺津藻葉〈尓〉至〈万弖〉、置足〈弖〉奉〈久
+       <anchor xml:id="app0810050213"/>登<anchor xml:id="app0810050213e"/>〉、皇神前〈尓〉白賜〈部 <anchor xml:id="app0810050214"/>止<anchor xml:id="app0810050214e"/>〉宣、如此奉宇豆〈乃〉幣帛〈乎〉安幣帛〈 <anchor xml:id="app0810050215"/>能<anchor xml:id="app0810050215e"/>〉足幣帛〈
+       <anchor xml:id="app0810050216"/>止<anchor xml:id="app0810050216e"/>〉、皇神御心平〈久〉安〈 <anchor xml:id="app0810050217"/>久<anchor xml:id="app0810050217e"/>〉聞食〈弖〉、皇御孫命〈 <anchor xml:id="app0810050218"/>能<anchor xml:id="app0810050218e"/>〉長御膳〈 <anchor xml:id="app0810050219"/>能<anchor xml:id="app0810050219e"/>〉遠御膳〈
+       <anchor xml:id="app0810050220"/>登<anchor xml:id="app0810050220e"/>〉赤丹〈 <anchor xml:id="app0810050221"/>能<anchor xml:id="app0810050221e"/>〉穂〈尓〉聞食、皇神〈 <anchor xml:id="app0810050222"/>能<anchor xml:id="app0810050222e"/>〉御刀代〈乎〉始〈弖〉、親王等・王等・臣等・天下公民〈
+       <anchor xml:id="app0810050223"/>能<anchor xml:id="app0810050223e"/>〉取作奥都御歳者、 <anchor xml:id="app0810050224"/>手<anchor xml:id="app0810050224e"/>肱〈尓〉水沫画垂、向 <anchor xml:id="app0810050225"/>股<anchor xml:id="app0810050225e"/>〈尓〉
+       <anchor xml:id="app0810050226"/>泥<anchor xml:id="app0810050226e"/>画寄〈弖〉、取将作奥都御歳〈乎〉、八束穂〈尓〉皇神〈 <anchor xml:id="app0810050227"/>能<anchor xml:id="app0810050227e"/>〉成幸賜者、初穂者汁〈尓 <anchor xml:id="app0810050228"/>母<anchor xml:id="app0810050228e"/>〉穎〈尓
+       <anchor xml:id="app0810050229"/>母<anchor xml:id="app0810050229e"/>〉、千稲・ <anchor xml:id="app0810050230"/>八千<anchor xml:id="app0810050230e"/>稲〈尓〉引居〈弖〉、如横山打積置〈弖〉、秋祭〈尓〉奉〈牟 <anchor xml:id="app0810050231"/>登<anchor xml:id="app0810050231e"/>〉、皇神前〈尓〉白賜〈
+       <anchor xml:id="app0810050232"/>登<anchor xml:id="app0810050232e"/>〉宣、 </p>
+<p ana="項" corresp="engishiki_v8_en.xml#item08100503 engishiki_v8_ja.xml#item08100503" xml:id="item08100503"> 倭国〈
+       <anchor xml:id="app0810050301"/>能<anchor xml:id="app0810050301e"/>〉六御県 <anchor xml:id="app0810050302"/>〈能〉<anchor xml:id="app0810050302e"/>山口〈尓〉坐皇神等前〈尓 <anchor xml:id="app0810050303"/>母<anchor xml:id="app0810050303e"/>〉、皇御孫命〈 <anchor xml:id="app0810050304"/>能<anchor xml:id="app0810050304e"/>〉宇豆〈
+       <anchor xml:id="app0810050305"/>能<anchor xml:id="app0810050305e"/>〉幣帛〈乎〉、明妙・照妙・和妙・荒妙、五色物、楯・ <anchor xml:id="app0810050306"/>戈<anchor xml:id="app0810050306e"/>至〈万弖〉奉、如此奉者、皇神等〈乃〉敷坐須山山〈乃〉自口、狭久那多利〈尓〉下賜水〈乎〉、甘水〈
+       <anchor xml:id="app0810050307"/>登<anchor xml:id="app0810050307e"/>〉受而、天下〈乃〉 <anchor xml:id="app0810050308"/>公<anchor xml:id="app0810050308e"/>民〈乃〉取作〈礼留〉奥都御歳〈乎〉、悪風・荒水〈尓〉不相賜、汝命〈乃〉成幸〈波閉〉賜者、初穂者汁〈尓
+       <anchor xml:id="app0810050309"/>母<anchor xml:id="app0810050309e"/>〉穎〈尓 <anchor xml:id="app0810050310"/>母<anchor xml:id="app0810050310e"/>〉、 <anchor xml:id="app0810050311"/>𤭖<anchor xml:id="app0810050311e"/>〈乃〉閉高知、 <anchor xml:id="app0810050312"/>𤭖<anchor xml:id="app0810050312e"/>腹満双〈弖〉、如横山打
+       <anchor xml:id="app0810050313"/>満<anchor xml:id="app0810050313e"/>置〈弖〉奉〈牟 <anchor xml:id="app0810050314"/>登<anchor xml:id="app0810050314e"/>〉、王等・臣等・百官人等、倭国〈乃〉六御県〈 <anchor xml:id="app0810050315"/>能<anchor xml:id="app0810050315e"/>〉刀
+       <anchor xml:id="app0810050316"/>禰<anchor xml:id="app0810050316e"/>、男女〈尓〉至〈万弖〉、今年某月某日、諸参 <anchor xml:id="app0810050317"/>出<anchor xml:id="app0810050317e"/>来〈弖〉、皇神前〈尓〉宇事物頸根築抜〈弖〉、朝日〈乃〉豊逆
+       <anchor xml:id="app0810050318"/>登<anchor xml:id="app0810050318e"/>〈尓〉称辞竟奉〈久乎〉、神主・祝部等諸聞食〈止〉宣、 </p>
+</div>
+<div ana="祝詞" corresp="engishiki_v8_en.xml#article081006 engishiki_v8_ja.xml#article081006" n="8.6" type="条" xml:id="article081006">
+<head ana="竜田風神祭"/>
+<p ana="項" corresp="engishiki_v8_en.xml#item08100601 engishiki_v8_ja.xml#item08100601" xml:id="item08100601"> 竜田風神祭
+       <lb/>竜田〈尓〉 <anchor xml:id="app0810060101"/>称<anchor xml:id="app0810060101e"/>辞竟奉皇神〈乃〉前〈尓〉白〈久〉、志貴島〈尓〉大八島国知
+       <anchor xml:id="app0810060102"/>志<anchor xml:id="app0810060102e"/>皇御孫命〈乃〉、遠御膳〈乃〉長御膳〈止〉、赤丹〈乃〉穂〈尓〉聞食〈須〉五穀物〈乎〉始〈弖〉、天下〈乃〉
+       <anchor xml:id="app0810060103"/>公<anchor xml:id="app0810060103e"/>民〈乃〉作物〈乎〉、草〈乃〉片葉〈尓〉至〈万弖〉不成、一年二年〈尓〉不在、歳真尼〈久〉傷故〈尓〉、百〈 <anchor xml:id="app0810060104"/>能<anchor xml:id="app0810060104e"/>〉物知人等〈乃〉卜事〈尓〉出〈牟〉神〈乃〉御心者、此神〈
+       <anchor xml:id="app0810060105"/>止<anchor xml:id="app0810060105e"/>〉白〈止〉負賜〈支〉、此〈乎〉物知人等〈乃〉卜事〈乎〉 <anchor xml:id="app0810060106"/>以<anchor xml:id="app0810060106e"/>〈弖〉卜〈止 <anchor xml:id="app0810060107"/>母<anchor xml:id="app0810060107e"/>〉、出〈留〉神〈乃〉御心〈
+       <anchor xml:id="app0810060108"/>母<anchor xml:id="app0810060108e"/>〉無〈止〉白〈止〉聞看〈弖〉、皇御孫命詔〈久〉、神等〈乎波〉、天社・国社〈止〉忘事無〈久〉
+       <anchor xml:id="app0810060109"/>遺事無〈久〉<anchor xml:id="app0810060109e"/>、称辞竟奉〈止〉思〈志〉行〈波須乎〉、誰神〈曾〉、天下〈乃〉 <anchor xml:id="app0810060110"/>公<anchor xml:id="app0810060110e"/>民〈乃〉作作物〈乎〉、不成傷神等〈波〉、我御心〈曾止〉
+       <anchor xml:id="app0810060111"/>悟奉〈礼止〉<anchor xml:id="app0810060111e"/>、宇気比賜〈支〉、 <anchor xml:id="app0810060112"/>是<anchor xml:id="app0810060112e"/>以、皇御孫命大御夢〈尓〉悟奉〈久〉、天下〈乃〉
+       <anchor xml:id="app0810060113"/>公<anchor xml:id="app0810060113e"/>民〈乃〉作作物〈乎〉、悪風・荒水〈尓〉相〈都都〉、不成傷〈波〉、我御名者天〈乃〉御柱〈乃〉命・国〈乃〉御柱〈 <anchor xml:id="app0810060114"/>能<anchor xml:id="app0810060114e"/>〉命
+       <anchor xml:id="app0810060115"/>〈止〉<anchor xml:id="app0810060115e"/>、御名者悟奉〈弖〉、吾前〈尓〉奉〈牟〉幣帛者、御服者明妙・照妙・和妙・荒妙、
+       <anchor xml:id="app0810060116"/>五<anchor xml:id="app0810060116e"/>色〈乃〉物、楯・戈・御馬〈尓〉御鞍具〈弖〉、品品〈乃〉幣帛備〈弖〉、吾宮者朝日〈乃〉日向処、夕日〈乃〉日隠処〈乃〉、竜田〈 <anchor xml:id="app0810060117"/>能<anchor xml:id="app0810060117e"/>〉立野〈
+       <anchor xml:id="app0810060118"/>乃<anchor xml:id="app0810060118e"/>〉小野〈尓〉、吾宮〈波〉定奉〈弖〉、吾前〈乎〉称辞竟奉者、天下〈乃〉 <anchor xml:id="app0810060119"/>公<anchor xml:id="app0810060119e"/>民〈乃〉作作物者、五穀〈乎〉 <anchor xml:id="app0810060120"/>始〈弖〉<anchor xml:id="app0810060120e"/>、草〈
+       <anchor xml:id="app0810060121"/>能<anchor xml:id="app0810060121e"/>〉片葉〈尓〉至〈万弖〉、成幸閉奉〈牟止〉、悟奉〈支〉、是以、皇神〈乃〉辞教悟奉処〈 <anchor xml:id="app0810060122"/>仁<anchor xml:id="app0810060122e"/>〉、宮柱定奉〈弖〉、此〈 <anchor xml:id="app0810060123"/>能<anchor xml:id="app0810060123e"/>〉皇神〈
+       <anchor xml:id="app0810060124"/>能<anchor xml:id="app0810060124e"/>〉前〈 <anchor xml:id="app0810060125"/>乎<anchor xml:id="app0810060125e"/>〉称辞竟奉〈尓〉、皇御孫命〈乃〉宇豆 <anchor xml:id="app0810060126"/>〈乃〉<anchor xml:id="app0810060126e"/>幣帛令捧持〈弖〉、王臣等〈乎〉為使〈弖〉、称辞
+       <anchor xml:id="app0810060127"/>竟<anchor xml:id="app0810060127e"/>奉〈久止〉、皇神〈乃〉前〈尓〉白賜事〈乎〉、神主・祝部等諸聞食〈 <anchor xml:id="app0810060128"/>止<anchor xml:id="app0810060128e"/>〉宣、</p>
+<p ana="項" corresp="engishiki_v8_en.xml#item08100602 engishiki_v8_ja.xml#item08100602" xml:id="item08100602"> 奉宇豆
+       <anchor xml:id="app0810060201"/>〈乃〉<anchor xml:id="app0810060201e"/>幣帛者、比古神〈尓〉、御服明妙・照妙・和妙・荒妙、五色物、楯・戈・御馬〈尓〉御鞍具〈弖〉、品品〈 <anchor xml:id="app0810060202"/>能<anchor xml:id="app0810060202e"/>〉幣帛献、比売神〈尓〉御服備、金〈
+       <anchor xml:id="app0810060203"/>能<anchor xml:id="app0810060203e"/>〉麻笥・金〈 <anchor xml:id="app0810060204"/>能<anchor xml:id="app0810060204e"/>〉 <anchor xml:id="app0810060205"/>椯・金〈能〉<anchor xml:id="app0810060205e"/>桛、明妙・照妙・和妙・荒妙、五色〈 <anchor xml:id="app0810060206"/>能<anchor xml:id="app0810060206e"/>〉物、御
+       <anchor xml:id="app0810060207"/>馬<anchor xml:id="app0810060207e"/>〈尓〉御鞍具〈弖〉、雑幣帛奉〈弖〉、御酒者 <anchor xml:id="app0810060208"/>𤭖<anchor xml:id="app0810060208e"/>〈 <anchor xml:id="app0810060209"/>能<anchor xml:id="app0810060209e"/> 〉閉高知、
+       <anchor xml:id="app0810060210"/>𤭖<anchor xml:id="app0810060210e"/>腹満双〈弖〉、和稲・荒稲〈尓〉、山〈尓〉住 <anchor xml:id="app0810060211"/>物<anchor xml:id="app0810060211e"/>者、毛〈 <anchor xml:id="app0810060212"/>能<anchor xml:id="app0810060212e"/>〉和物、 <anchor xml:id="app0810060213"/>毛<anchor xml:id="app0810060213e"/>〈乃〉荒 <anchor xml:id="app0810060214"/>物、大<anchor xml:id="app0810060214e"/>
+<anchor xml:id="app0810060215"/>野<anchor xml:id="app0810060215e"/>原生物者、甘菜・辛菜、青海原〈 <anchor xml:id="app0810060216"/>仁<anchor xml:id="app0810060216e"/>〉住物者、鰭〈 <anchor xml:id="app0810060217"/>能<anchor xml:id="app0810060217e"/>〉広物・鰭〈 <anchor xml:id="app0810060218"/>能<anchor xml:id="app0810060218e"/>〉狭物、奥都藻
+       <anchor xml:id="app0810060219"/>菜<anchor xml:id="app0810060219e"/>・辺都藻 <anchor xml:id="app0810060220"/>菜<anchor xml:id="app0810060220e"/>〈尓〉至〈万弖尓〉、如横山打積置〈弖〉、奉此宇豆〈乃〉幣帛〈乎〉、安幣帛〈 <anchor xml:id="app0810060221"/>能<anchor xml:id="app0810060221e"/>〉足幣帛〈止〉、皇神〈
+       <anchor xml:id="app0810060222"/>能<anchor xml:id="app0810060222e"/>〉御心〈尓〉平〈久〉聞食〈弖〉、天下〈 <anchor xml:id="app0810060223"/>能<anchor xml:id="app0810060223e"/>〉 <anchor xml:id="app0810060224"/>公<anchor xml:id="app0810060224e"/>民〈 <anchor xml:id="app0810060225"/>能<anchor xml:id="app0810060225e"/>〉作作物〈乎〉、悪風・ <anchor xml:id="app0810060226"/>荒<anchor xml:id="app0810060226e"/>
+<anchor xml:id="app0810060227"/>水<anchor xml:id="app0810060227e"/>〈尓〉不相賜、皇神〈乃〉成幸閉賜者、初穂者 <anchor xml:id="app0810060228"/>𤭖<anchor xml:id="app0810060228e"/>〈 <anchor xml:id="app0810060229"/>能<anchor xml:id="app0810060229e"/>〉閉高知、 <anchor xml:id="app0810060230"/>𤭖<anchor xml:id="app0810060230e"/>腹満双〈弖〉、汁〈尓
+       <anchor xml:id="app0810060231"/>母<anchor xml:id="app0810060231e"/>〉穎〈尓 <anchor xml:id="app0810060232"/>母<anchor xml:id="app0810060232e"/>〉、八百稲・千稲〈 <anchor xml:id="app0810060233"/>尓<anchor xml:id="app0810060233e"/>〉引居置〈弖〉、秋祭〈尓〉奉〈牟止〉、王卿等・百官〈
+       <anchor xml:id="app0810060234"/>能<anchor xml:id="app0810060234e"/>〉人等、倭国六県〈 <anchor xml:id="app0810060235"/>能<anchor xml:id="app0810060235e"/>〉刀禰、男女〈尓〉至〈万弖尓〉、今年四月〈七月者云今年七月、〉諸参集〈弖〉、皇神〈
+       <anchor xml:id="app0810060236"/>能<anchor xml:id="app0810060236e"/>〉前〈尓〉宇事物頸根築抜〈弖〉、今日〈 <anchor xml:id="app0810060237"/>能<anchor xml:id="app0810060237e"/>〉朝日〈 <anchor xml:id="app0810060238"/>能<anchor xml:id="app0810060238e"/>〉豊逆登〈尓〉、称辞竟奉〈
+       <anchor xml:id="app0810060239"/>流<anchor xml:id="app0810060239e"/>〉皇御孫命〈乃〉宇豆〈 <anchor xml:id="app0810060240"/>能<anchor xml:id="app0810060240e"/>〉幣帛〈乎〉、神主・祝部等被賜〈弖〉、惰事無奉〈礼 <anchor xml:id="app0810060241"/>登<anchor xml:id="app0810060241e"/>〉宣命〈乎〉、諸聞食〈止〉宣、 </p>
+</div>
+<div ana="祝詞" corresp="engishiki_v8_en.xml#article081007 engishiki_v8_ja.xml#article081007" n="8.7" type="条" xml:id="article081007">
+<head ana="平野祭"/>
+<p ana="項" corresp="engishiki_v8_en.xml#item08100701 engishiki_v8_ja.xml#item08100701" xml:id="item08100701"> 平野祭
+       <lb/>天皇〈我〉御命〈尓〉坐〈 <anchor xml:id="app0810070101"/>世<anchor xml:id="app0810070101e"/>〉、今木〈与利〉仕奉来〈 <anchor xml:id="app0810070102"/>流<anchor xml:id="app0810070102e"/>〉 <anchor xml:id="app0810070103"/>皇太<anchor xml:id="app0810070103e"/>御神〈
+       <anchor xml:id="app0810070104"/>能<anchor xml:id="app0810070104e"/>〉広前〈尓〉白給〈久〉、皇 <anchor xml:id="app0810070105"/>太<anchor xml:id="app0810070105e"/>御神〈乃〉乞〈志〉給〈 <anchor xml:id="app0810070106"/>能<anchor xml:id="app0810070106e"/>〉麻〈尓〉 <anchor xml:id="app0810070107"/>麻〈尓〉<anchor xml:id="app0810070107e"/>、此所〈
+       <anchor xml:id="app0810070108"/>能<anchor xml:id="app0810070108e"/>〉底〈津〉石根〈尓〉宮柱広敷 <anchor xml:id="app0810070109"/>立<anchor xml:id="app0810070109e"/>、高天〈乃〉原〈 <anchor xml:id="app0810070110"/>尓<anchor xml:id="app0810070110e"/>〉千木高知〈弖〉、天〈 <anchor xml:id="app0810070111"/>能<anchor xml:id="app0810070111e"/>〉御蔭・日〈
+       <anchor xml:id="app0810070112"/>能<anchor xml:id="app0810070112e"/>〉御蔭〈 <anchor xml:id="app0810070113"/>登<anchor xml:id="app0810070113e"/>〉定奉〈弖〉、 <anchor xml:id="app0810070114"/>神主<anchor xml:id="app0810070114e"/>〈尓〉<orgName corresp="#神祇官">神祇</orgName>某官位姓名定〈弖〉、進〈 <anchor xml:id="app0810070115"/>流<anchor xml:id="app0810070115e"/>〉神 <anchor xml:id="app0810070116"/>財<anchor xml:id="app0810070116e"/>〈波〉、御弓・御
+       <anchor xml:id="app0810070117"/>太<anchor xml:id="app0810070117e"/>刀・御鏡・鈴・衣笠、御馬〈乎〉引並〈弖〉、御衣〈波〉明〈多閉〉・ <anchor xml:id="app0810070118"/>照〈多閉〉<anchor xml:id="app0810070118e"/>・和〈多閉〉・荒〈多閉尓〉備奉〈利弖〉、四方国〈
+       <anchor xml:id="app0810070119"/>能<anchor xml:id="app0810070119e"/>〉進〈礼 <anchor xml:id="app0810070120"/>流<anchor xml:id="app0810070120e"/>〉御調〈 <anchor xml:id="app0810070121"/>能<anchor xml:id="app0810070121e"/>〉荷前〈乎〉取並〈弖〉、御酒〈波〉 <anchor xml:id="app0810070122"/>𤭖<anchor xml:id="app0810070122e"/>戸高知、
+       <anchor xml:id="app0810070123"/>𤭖<anchor xml:id="app0810070123e"/>腹満並〈弖〉、山野〈 <anchor xml:id="app0810070124"/>能<anchor xml:id="app0810070124e"/>〉物〈波〉甘菜・辛 <anchor xml:id="app0810070125"/>菜、青<anchor xml:id="app0810070125e"/>海原〈
+       <anchor xml:id="app0810070126"/>能<anchor xml:id="app0810070126e"/>〉物〈波〉、波多能広物・波多能狭物、奥 <anchor xml:id="app0810070127"/>津<anchor xml:id="app0810070127e"/>〈毛波〉・辺津〈毛波尓〉至 <anchor xml:id="app0810070128"/>麻<anchor xml:id="app0810070128e"/>〈弖〉、雑物〈乎〉如横山置高成〈弖〉、献〈
+       <anchor xml:id="app0810070129"/>流<anchor xml:id="app0810070129e"/>〉宇豆〈 <anchor xml:id="app0810070130"/>能<anchor xml:id="app0810070130e"/>〉大幣帛〈乎〉、平〈久〉所聞〈弖〉、天皇〈我〉御世〈乎〉堅石〈尓〉常石〈尓〉斎奉〈利〉、伊賀〈志〉御世〈尓〉幸閉奉〈弖〉、万世〈尓〉御坐令在〈米〉
+       <anchor xml:id="app0810070131"/>給〈登〉<anchor xml:id="app0810070131e"/>、称辞竟奉〈久 <anchor xml:id="app0810070132"/>登<anchor xml:id="app0810070132e"/>〉申、</p>
+<p ana="項" corresp="engishiki_v8_en.xml#item08100702 engishiki_v8_ja.xml#item08100702" xml:id="item08100702"> 又申〈久〉、参
+       <anchor xml:id="app0810070201"/>集<anchor xml:id="app0810070201e"/>〈弖〉仕奉〈 <anchor xml:id="app0810070202"/>流<anchor xml:id="app0810070202e"/>〉親王等・王等・臣等・百官人 <anchor xml:id="app0810070203"/>等<anchor xml:id="app0810070203e"/>〈乎
+       <anchor xml:id="app0810070204"/>母<anchor xml:id="app0810070204e"/>〉、夜守・日守〈尓〉守給〈弖〉、天皇朝 <anchor xml:id="app0810070205"/>庭<anchor xml:id="app0810070205e"/>〈尓〉伊夜高〈尓〉伊夜広〈尓〉、伊賀志夜具波江如〈久〉立栄〈 <anchor xml:id="app0810070206"/>之米<anchor xml:id="app0810070206e"/>〉、令仕奉給〈
+       <anchor xml:id="app0810070207"/>登<anchor xml:id="app0810070207e"/>〉、称辞竟奉〈久止〉申、 </p>
+</div>
+<div ana="祝詞" corresp="engishiki_v8_en.xml#article081008 engishiki_v8_ja.xml#article081008" n="8.8" type="条" xml:id="article081008">
+<head ana="久度古関"/>
+<p ana="項" corresp="engishiki_v8_en.xml#item08100801 engishiki_v8_ja.xml#item08100801" xml:id="item08100801"> 久度古 <anchor xml:id="app0810080101"/>関<anchor xml:id="app0810080101e"/>
+<lb/>天皇〈我〉御命〈尓〉坐〈世〉、久度・古 <anchor xml:id="app0810080102"/>関<anchor xml:id="app0810080102e"/>二所〈 <anchor xml:id="app0810080103"/>能<anchor xml:id="app0810080103e"/>〉宮〈尓 <anchor xml:id="app0810080104"/>之<anchor xml:id="app0810080104e"/>弖〉供奉来〈
+       <anchor xml:id="app0810080105"/>流<anchor xml:id="app0810080105e"/>〉皇御神〈 <anchor xml:id="app0810080106"/>能<anchor xml:id="app0810080106e"/>〉広前〈尓〉白給〈久〉、皇御神〈 <anchor xml:id="app0810080107"/>能<anchor xml:id="app0810080107e"/>〉乞〈比〉給〈万比之〉任〈尓〉、此所〈
+       <anchor xml:id="app0810080108"/>能<anchor xml:id="app0810080108e"/>〉底〈津〉石根〈尓〉宮柱広敷立、高天〈 <anchor xml:id="app0810080109"/>能<anchor xml:id="app0810080109e"/>〉原〈 <anchor xml:id="app0810080110"/>仁<anchor xml:id="app0810080110e"/>〉千木高知〈弖〉、天〈 <anchor xml:id="app0810080111"/>能<anchor xml:id="app0810080111e"/>〉御蔭・日〈
+       <anchor xml:id="app0810080112"/>能<anchor xml:id="app0810080112e"/>〉御蔭〈止〉定奉〈弖〉、神主 <anchor xml:id="app0810080113"/>其<anchor xml:id="app0810080113e"/>官位姓名定〈弖〉、進〈 <anchor xml:id="app0810080114"/>流<anchor xml:id="app0810080114e"/>〉神財〈波〉、御弓・御
+       <anchor xml:id="app0810080115"/>太<anchor xml:id="app0810080115e"/>刀・御鏡・鈴・衣笠・御馬〈乎〉引並〈弖〉、御衣〈波〉明〈多閉〉・照〈多閉〉・和〈多閉〉・荒〈多閉 <anchor xml:id="app0810080116"/>尓<anchor xml:id="app0810080116e"/>〉備奉〈弖〉、四方国〈
+       <anchor xml:id="app0810080117"/>能<anchor xml:id="app0810080117e"/>〉進〈礼留〉御調〈 <anchor xml:id="app0810080118"/>能<anchor xml:id="app0810080118e"/>〉荷前〈乎〉取並〈弖〉、御酒〈波〉 <anchor xml:id="app0810080119"/>𤭖<anchor xml:id="app0810080119e"/>〈乃 <anchor xml:id="app0810080120"/>閉<anchor xml:id="app0810080120e"/>〉高知、
+       <anchor xml:id="app0810080121"/>𤭖<anchor xml:id="app0810080121e"/> 〈<anchor xml:id="app0810080122"/>能<anchor xml:id="app0810080122e"/>〉腹満並〈弖〉、山野物〈波〉甘菜・辛菜、青海原〈乃〉物〈波〉、鰭〈 <anchor xml:id="app0810080123"/>乃<anchor xml:id="app0810080123e"/>〉広物・鰭〈乃〉狭物・息都〈毛波〉・辺都〈
+       <anchor xml:id="app0810080124"/>毛<anchor xml:id="app0810080124e"/>波 <anchor xml:id="app0810080125"/>尓<anchor xml:id="app0810080125e"/>〉至〈末天〉、雑物〈乎〉如横山置高成〈弖〉、献〈 <anchor xml:id="app0810080126"/>流<anchor xml:id="app0810080126e"/>〉宇豆〈
+       <anchor xml:id="app0810080127"/>能<anchor xml:id="app0810080127e"/>〉大幣帛〈乎〉平〈久〉所聞〈弖〉、天皇〈我〉御世〈乎〉堅石〈尓〉常石〈尓〉斎奉〈利〉、伊賀志御世〈尓〉幸閉奉〈弖〉、万世〈尓〉御 <anchor xml:id="app0810080128"/>令<anchor xml:id="app0810080128e"/>坐〈
+       <anchor xml:id="app0810080129"/>米<anchor xml:id="app0810080129e"/>〉給〈 <anchor xml:id="app0810080130"/>登<anchor xml:id="app0810080130e"/>〉、称辞竟奉〈久 <anchor xml:id="app0810080131"/>登<anchor xml:id="app0810080131e"/>〉申、</p>
+<p ana="項" corresp="engishiki_v8_en.xml#item08100802 engishiki_v8_ja.xml#item08100802" xml:id="item08100802">
+       又申〈久〉、参集〈弖〉仕奉親王等・ <anchor xml:id="app0810080201"/>王等・臣<anchor xml:id="app0810080201e"/>等・百官人等〈乎毛〉、夜守・日守〈尓〉守給〈弖〉、天皇〈我〉朝 <anchor xml:id="app0810080202"/>庭<anchor xml:id="app0810080202e"/>〈尓〉
+       <anchor xml:id="app0810080203"/>弥高〈尓〉<anchor xml:id="app0810080203e"/>弥広〈 <anchor xml:id="app0810080204"/>仁<anchor xml:id="app0810080204e"/>〉、伊賀志夜具波江〈 <anchor xml:id="app0810080205"/>能<anchor xml:id="app0810080205e"/>〉如〈久〉立栄〈 <anchor xml:id="app0810080206"/>之米<anchor xml:id="app0810080206e"/>〉令仕奉給〈
+       <anchor xml:id="app0810080207"/>登<anchor xml:id="app0810080207e"/>〉、称辞竟奉〈良久 <anchor xml:id="app0810080208"/>登<anchor xml:id="app0810080208e"/>〉申、 </p>
+</div>
+<div ana="祝詞" corresp="engishiki_v8_en.xml#article081009 engishiki_v8_ja.xml#article081009" n="8.9" type="条" xml:id="article081009">
+<head ana="月次祭"/>
+<p ana="項" corresp="engishiki_v8_en.xml#item08100901 engishiki_v8_ja.xml#item08100901" xml:id="item08100901"> 六月月
+       <anchor xml:id="app0810090101"/>次<anchor xml:id="app0810090101e"/>〈十二月准此、〉 <lb/>集侍神主・祝部等諸聞食〈 <anchor xml:id="app0810090102"/>登<anchor xml:id="app0810090102e"/>〉宣、</p>
+<p ana="項" corresp="engishiki_v8_en.xml#item08100902 engishiki_v8_ja.xml#item08100902" xml:id="item08100902"> 高天原〈
+       <anchor xml:id="app0810090201"/>仁<anchor xml:id="app0810090201e"/>〉神留坐、皇睦神漏伎命・神漏弥命以、天社・ <anchor xml:id="app0810090202"/>国社<anchor xml:id="app0810090202e"/>〈 <anchor xml:id="app0810090203"/>登<anchor xml:id="app0810090203e"/>〉称辞竟奉皇神等前〈尓〉白〈久〉、今年〈
+       <anchor xml:id="app0810090204"/>能<anchor xml:id="app0810090204e"/>〉六月月次幣帛〈十二月者、云今年十二月月次幣帛、〉明妙・照妙・和妙・荒妙備奉〈弖〉、朝日〈 <anchor xml:id="app0810090205"/>能<anchor xml:id="app0810090205e"/>〉豊栄登〈尓〉、皇御孫命〈
+       <anchor xml:id="app0810090206"/>能<anchor xml:id="app0810090206e"/>〉宇豆〈乃〉幣帛〈乎〉、称辞竟奉〈久 <anchor xml:id="app0810090207"/>登<anchor xml:id="app0810090207e"/>〉宣、 </p>
+<p ana="項" corresp="engishiki_v8_en.xml#item08100903 engishiki_v8_ja.xml#item08100903" xml:id="item08100903"> 大御巫〈
+       <anchor xml:id="app0810090301"/>能<anchor xml:id="app0810090301e"/>〉辞竟奉皇神等〈 <anchor xml:id="app0810090302"/>能<anchor xml:id="app0810090302e"/>〉前〈尓〉白〈久〉、神魂・高御魂・生魂・足魂・玉留魂・大宮売・御膳都神・辞代主〈
+       <anchor xml:id="app0810090303"/>登<anchor xml:id="app0810090303e"/>〉御名者白〈弖〉、辞竟奉者、皇御孫命〈 <anchor xml:id="app0810090304"/>能<anchor xml:id="app0810090304e"/>〉御世〈乎〉、手長御世〈
+       <anchor xml:id="app0810090305"/>登<anchor xml:id="app0810090305e"/>〉、堅磐〈尓〉常磐〈尓〉斎〈比〉奉、茂御世〈尓〉幸閉奉故、皇吾睦神漏伎命・神漏弥命〈 <anchor xml:id="app0810090306"/>登<anchor xml:id="app0810090306e"/>〉、皇御孫命〈
+       <anchor xml:id="app0810090307"/>能<anchor xml:id="app0810090307e"/>〉宇豆〈乃〉幣帛〈乎〉、称辞竟奉〈久 <anchor xml:id="app0810090308"/>登<anchor xml:id="app0810090308e"/>〉宣、 </p>
+<p ana="項" corresp="engishiki_v8_en.xml#item08100904 engishiki_v8_ja.xml#item08100904" xml:id="item08100904"> 座摩〈
+       <anchor xml:id="app0810090401"/>能<anchor xml:id="app0810090401e"/>〉御巫辞竟奉皇神等〈 <anchor xml:id="app0810090402"/>能<anchor xml:id="app0810090402e"/>〉前〈尓〉白〈久〉、生井・栄井・津長井・阿須波・婆比伎〈 <anchor xml:id="app0810090403"/>登<anchor xml:id="app0810090403e"/>〉御名者白〈弖〉、辞竟奉者、
+       <anchor xml:id="app0810090404"/>皇<anchor xml:id="app0810090404e"/>神〈 <anchor xml:id="app0810090405"/>能<anchor xml:id="app0810090405e"/>〉敷坐、下都磐根〈尓〉宮柱太知立、高天原〈 <anchor xml:id="app0810090406"/>仁<anchor xml:id="app0810090406e"/>〉千木高知〈弖〉、皇御孫命瑞〈乃〉御舎仕奉〈弖〉、天御蔭・日御蔭〈
+       <anchor xml:id="app0810090407"/>登<anchor xml:id="app0810090407e"/>〉隠坐〈弖〉、四方国〈乎〉安国〈 <anchor xml:id="app0810090408"/>登<anchor xml:id="app0810090408e"/>〉平〈久〉知食〈須〉故、皇御孫命〈 <anchor xml:id="app0810090409"/>能<anchor xml:id="app0810090409e"/>〉宇豆〈乃〉幣帛〈乎〉、称辞竟奉〈久
+       <anchor xml:id="app0810090410"/>登<anchor xml:id="app0810090410e"/>〉宣、 </p>
+<p ana="項" corresp="engishiki_v8_en.xml#item08100905 engishiki_v8_ja.xml#item08100905" xml:id="item08100905"> 御門〈
+       <anchor xml:id="app0810090501"/>能<anchor xml:id="app0810090501e"/>〉御巫〈 <anchor xml:id="app0810090502"/>能<anchor xml:id="app0810090502e"/>〉辞竟奉皇神等〈 <anchor xml:id="app0810090503"/>能<anchor xml:id="app0810090503e"/>〉前〈尓〉白〈久〉、櫛磐間門命・豊磐間門命〈
+       <anchor xml:id="app0810090504"/>登<anchor xml:id="app0810090504e"/>〉御名者白〈弖〉、辞竟奉者、四方〈 <anchor xml:id="app0810090505"/>能<anchor xml:id="app0810090505e"/>〉御門〈尓〉湯都磐村〈
+       <anchor xml:id="app0810090506"/>能<anchor xml:id="app0810090506e"/>〉如〈久〉塞坐〈弖〉、朝者御門開奉、夕者御門閉奉〈弖〉、疎〈布留〉物〈 <anchor xml:id="app0810090507"/>能<anchor xml:id="app0810090507e"/>〉自下往者下〈乎〉守、自上往者
+       <anchor xml:id="app0810090508"/>上<anchor xml:id="app0810090508e"/>〈乎〉守、夜〈乃〉守、 <anchor xml:id="app0810090509"/>日<anchor xml:id="app0810090509e"/>〈 <anchor xml:id="app0810090510"/>能<anchor xml:id="app0810090510e"/>〉守〈尓〉守奉故、皇御孫命〈
+       <anchor xml:id="app0810090511"/>能<anchor xml:id="app0810090511e"/>〉宇豆〈乃〉幣帛〈乎〉、称辞竟奉〈久 <anchor xml:id="app0810090512"/>登<anchor xml:id="app0810090512e"/>〉宣、 </p>
+<p ana="項" corresp="engishiki_v8_en.xml#item08100906 engishiki_v8_ja.xml#item08100906" xml:id="item08100906"> 生島〈
+       <anchor xml:id="app0810090601"/>能<anchor xml:id="app0810090601e"/>〉御巫〈 <anchor xml:id="app0810090602"/>能<anchor xml:id="app0810090602e"/>〉辞竟奉皇神等〈 <anchor xml:id="app0810090603"/>能<anchor xml:id="app0810090603e"/>〉前〈尓〉白〈久〉、生国・足国〈
+       <anchor xml:id="app0810090604"/>登<anchor xml:id="app0810090604e"/>〉御名者白〈弖〉辞竟奉者、皇神〈 <anchor xml:id="app0810090605"/>能<anchor xml:id="app0810090605e"/>〉敷坐島〈 <anchor xml:id="app0810090606"/>能<anchor xml:id="app0810090606e"/>〉八十島者、 <anchor xml:id="app0810090607"/>谷<anchor xml:id="app0810090607e"/>蟆〈
+       <anchor xml:id="app0810090608"/>能<anchor xml:id="app0810090608e"/>〉狭度極、塩沫〈乃〉留限、狭国者広〈久〉、嶮国者平〈久〉、島〈 <anchor xml:id="app0810090609"/>能<anchor xml:id="app0810090609e"/>〉八十島墮事無〈久〉、皇神等寄志奉故、皇御孫命〈乃〉宇豆〈乃〉幣帛〈乎〉、称辞竟奉〈久
+       <anchor xml:id="app0810090610"/>登<anchor xml:id="app0810090610e"/>〉宣、 </p>
+<p ana="項" corresp="engishiki_v8_en.xml#item08100907 engishiki_v8_ja.xml#item08100907" xml:id="item08100907">
+        辞別、<placeName corresp="#伊勢国">伊勢</placeName>〈尓〉坐天照 <anchor xml:id="app0810090701"/>太<anchor xml:id="app0810090701e"/>御神〈 <anchor xml:id="app0810090702"/>能<anchor xml:id="app0810090702e"/>〉
+       <anchor xml:id="app0810090703"/>太<anchor xml:id="app0810090703e"/>前〈尓〉白〈久〉、皇神〈 <anchor xml:id="app0810090704"/>能<anchor xml:id="app0810090704e"/>〉見霽〈 <anchor xml:id="app0810090705"/>志<anchor xml:id="app0810090705e"/>〉坐四方国者、天〈 <anchor xml:id="app0810090706"/>能<anchor xml:id="app0810090706e"/>〉壁立極、国〈
+       <anchor xml:id="app0810090707"/>能<anchor xml:id="app0810090707e"/>〉退立限、青雲〈 <anchor xml:id="app0810090708"/>能<anchor xml:id="app0810090708e"/>〉靄極、白雲〈 <anchor xml:id="app0810090709"/>能<anchor xml:id="app0810090709e"/>〉向伏限、青海原者棹 <anchor xml:id="app0810090710"/>柁<anchor xml:id="app0810090710e"/>不干、舟艫〈
+       <anchor xml:id="app0810090711"/>能<anchor xml:id="app0810090711e"/>〉至 <anchor xml:id="app0810090712"/>〈留〉<anchor xml:id="app0810090712e"/>極、大海原〈尓〉舟満都
+       <anchor xml:id="app0810090713"/>都<anchor xml:id="app0810090713e"/>気〈弖〉、自陸往道者、荷緒結堅〈弖〉、磐根・木根履佐久弥〈弖〉、馬爪至留限、長道無間〈久〉立都都気〈弖〉、狭国者広〈久〉、峻国者平〈久〉、遠国者八十綱打挂〈弖〉引寄如事、皇大御神寄志奉〈良
+       <anchor xml:id="app0810090714"/>波<anchor xml:id="app0810090714e"/>〉、荷前者皇大御神〈 <anchor xml:id="app0810090715"/>能<anchor xml:id="app0810090715e"/>〉 <anchor xml:id="app0810090716"/>前<anchor xml:id="app0810090716e"/>〈尓〉、如横山打積置〈弖〉、残〈乎波〉平聞看、又皇御孫命御世〈乎〉
+       <anchor xml:id="app0810090717"/>手<anchor xml:id="app0810090717e"/>長御世〈 <anchor xml:id="app0810090718"/>登<anchor xml:id="app0810090718e"/>〉、堅磐〈尓〉常磐〈尓〉斎〈比〉奉、茂御世〈尓〉幸閉奉故、皇吾睦神漏伎命・神漏弥命〈 <anchor xml:id="app0810090719"/>登<anchor xml:id="app0810090719e"/>〉、鵜
+       <anchor xml:id="app0810090720"/>自<anchor xml:id="app0810090720e"/>物頸根衝抜〈弖〉、皇御孫命〈 <anchor xml:id="app0810090721"/>能<anchor xml:id="app0810090721e"/>〉宇豆〈乃〉幣帛〈乎〉、称辞竟奉〈久 <anchor xml:id="app0810090722"/>登<anchor xml:id="app0810090722e"/>〉宣、 </p>
+<p ana="項" corresp="engishiki_v8_en.xml#item08100908 engishiki_v8_ja.xml#item08100908" xml:id="item08100908">
+       御県〈尓〉坐皇神等〈 <anchor xml:id="app0810090801"/>能<anchor xml:id="app0810090801e"/>〉前〈尓〉白〈久〉、高市・葛木・十市・志貴・山辺・曾布〈 <anchor xml:id="app0810090802"/>登<anchor xml:id="app0810090802e"/>〉御名者白〈弖〉、此六御県〈尓〉生出甘菜・辛菜〈乎〉持参来〈弖〉、皇御孫命〈
+       <anchor xml:id="app0810090803"/>能<anchor xml:id="app0810090803e"/>〉長御膳〈 <anchor xml:id="app0810090804"/>能<anchor xml:id="app0810090804e"/>〉遠御膳〈 <anchor xml:id="app0810090805"/>登<anchor xml:id="app0810090805e"/>〉聞食故、皇御孫命〈 <anchor xml:id="app0810090806"/>能<anchor xml:id="app0810090806e"/>〉宇豆〈乃〉幣帛〈乎〉、称辞竟奉〈久
+       <anchor xml:id="app0810090807"/>登<anchor xml:id="app0810090807e"/>〉宣、 </p>
+<p ana="項" corresp="engishiki_v8_en.xml#item08100909 engishiki_v8_ja.xml#item08100909" xml:id="item08100909"> 山〈
+       <anchor xml:id="app0810090901"/>能<anchor xml:id="app0810090901e"/>〉口坐皇神等〈 <anchor xml:id="app0810090902"/>能<anchor xml:id="app0810090902e"/>〉前〈尓〉白〈久〉、飛鳥・石 <anchor xml:id="app0810090903"/>寸<anchor xml:id="app0810090903e"/>・忍坂・長谷・畝火・耳無〈
+       <anchor xml:id="app0810090904"/>登<anchor xml:id="app0810090904e"/>〉御名者白〈弖〉、遠山・近山〈尓〉生立〈 <anchor xml:id="app0810090905"/>流<anchor xml:id="app0810090905e"/>〉大木・小木〈乎〉、本末打切〈弖〉、持参来〈弖〉、皇御孫命〈 <anchor xml:id="app0810090906"/>能<anchor xml:id="app0810090906e"/> 〉瑞〈
+       <anchor xml:id="app0810090907"/>能<anchor xml:id="app0810090907e"/>〉御舎仕奉〈弖〉、天御蔭・日御蔭〈 <anchor xml:id="app0810090908"/>登<anchor xml:id="app0810090908e"/>〉隠坐〈弖〉、四方国〈乎〉安国〈
+       <anchor xml:id="app0810090909"/>登<anchor xml:id="app0810090909e"/>〉平〈久〉知食〈須我〉故、皇御孫命〈乃〉宇豆〈乃〉幣帛〈乎〉、称辞竟奉〈久 <anchor xml:id="app0810090910"/>登<anchor xml:id="app0810090910e"/>〉宣、 </p>
+<p ana="項" corresp="engishiki_v8_en.xml#item08100910 engishiki_v8_ja.xml#item08100910" xml:id="item08100910"> 水分坐皇神等〈
+       <anchor xml:id="app0810091001"/>能<anchor xml:id="app0810091001e"/>〉前〈尓〉白〈久〉、吉野・宇陀・都祁・葛木〈 <anchor xml:id="app0810091002"/>登<anchor xml:id="app0810091002e"/>〉御名者白〈弖〉、辞竟奉者、皇神等依〈志〉奉〈牟〉奥都御年〈乎〉、八束穂〈
+       <anchor xml:id="app0810091003"/>能<anchor xml:id="app0810091003e"/>〉伊加志穂〈尓〉依〈志〉奉者、皇神等〈尓〉初穂者穎〈尓 <anchor xml:id="app0810091004"/>母<anchor xml:id="app0810091004e"/>〉汁〈尓 <anchor xml:id="app0810091005"/>母<anchor xml:id="app0810091005e"/>〉、 <anchor xml:id="app0810091006"/>𤭖<anchor xml:id="app0810091006e"/>閉高知、
+       <anchor xml:id="app0810091007"/>𤭖<anchor xml:id="app0810091007e"/>腹満双〈弖〉、称辞竟奉〈弖〉、遺〈 <anchor xml:id="app0810091008"/>乎<anchor xml:id="app0810091008e"/>波〉皇御孫命〈 <anchor xml:id="app0810091009"/>能<anchor xml:id="app0810091009e"/>〉朝御食・夕御食〈 <anchor xml:id="app0810091010"/>能<anchor xml:id="app0810091010e"/>〉加牟加比
+       <anchor xml:id="app0810091011"/>〈尓〉<anchor xml:id="app0810091011e"/>、長御食〈 <anchor xml:id="app0810091012"/>能<anchor xml:id="app0810091012e"/>〉遠御食〈 <anchor xml:id="app0810091013"/>登<anchor xml:id="app0810091013e"/>〉、赤丹穂〈尓〉聞食故、皇御孫命〈 <anchor xml:id="app0810091014"/>能<anchor xml:id="app0810091014e"/>〉宇豆〈乃〉幣
+       <anchor xml:id="app0810091015"/>帛<anchor xml:id="app0810091015e"/>〈乎〉、称辞竟奉〈久 <anchor xml:id="app0810091016"/>登<anchor xml:id="app0810091016e"/>〉、諸聞食〈止〉宣、 </p>
+<p ana="項" corresp="engishiki_v8_en.xml#item08100911 engishiki_v8_ja.xml#item08100911" xml:id="item08100911"> 辞別、忌部〈
+       <anchor xml:id="app0810091101"/>能<anchor xml:id="app0810091101e"/>〉弱肩〈尓〉 <anchor xml:id="app0810091102"/>太<anchor xml:id="app0810091102e"/>襁取挂〈 <anchor xml:id="app0810091103"/>弖<anchor xml:id="app0810091103e"/>〉、持由麻波利仕奉〈礼留〉幣帛〈乎〉、神主・祝部等受賜〈弖〉、事不過捧持奉〈
+       <anchor xml:id="app0810091104"/>登<anchor xml:id="app0810091104e"/>〉宣、 </p>
+</div>
+<div ana="祝詞" corresp="engishiki_v8_en.xml#article081010 engishiki_v8_ja.xml#article081010" n="8.10" type="条" xml:id="article081010">
+<head ana="大殿"/>
+<p ana="項" corresp="engishiki_v8_en.xml#item08101001 engishiki_v8_ja.xml#item08101001" xml:id="item08101001"> 大殿祭
+       <lb/>高天原〈尓〉神留坐〈須〉皇親神魯 <anchor xml:id="app0810100101"/>企<anchor xml:id="app0810100101e"/>・神魯美之命以〈弖〉、皇御孫之命〈乎〉天津高御座〈尓〉坐〈弖〉、天津璽〈乃〉 <anchor xml:id="app0810100102"/>剣<anchor xml:id="app0810100102e"/>・鏡〈乎〉捧持賜〈
+       <anchor xml:id="app0810100103"/>天<anchor xml:id="app0810100103e"/>〉、言寿〈古語云許止保企、言寿詞、如今寿 <anchor xml:id="app0810100104"/>觴<anchor xml:id="app0810100104e"/>之詞、〉宣〈志久〉、皇我宇都御子皇御孫之命、此〈
+       <anchor xml:id="app0810100105"/>能<anchor xml:id="app0810100105e"/>〉天津高御座〈尓〉坐〈弖〉、天津日 <anchor xml:id="app0810100106"/>嗣<anchor xml:id="app0810100106e"/>〈乎〉万千秋〈 <anchor xml:id="app0810100107"/>能<anchor xml:id="app0810100107e"/>〉長秋〈尓〉、大八洲豊葦原瑞穂之国〈乎〉、安国〈止〉平〈
+       <anchor xml:id="app0810100108"/>気<anchor xml:id="app0810100108e"/>久〉所知食〈 <anchor xml:id="app0810100109"/>止<anchor xml:id="app0810100109e"/>〉、〈古語云志呂志女須、〉言寄奉賜〈比弖〉、以天津御量〈弖〉、事問〈之〉磐根、木〈 <anchor xml:id="app0810100110"/>能<anchor xml:id="app0810100110e"/>〉立〈知〉、草〈
+       <anchor xml:id="app0810100111"/>能<anchor xml:id="app0810100111e"/>〉 <anchor xml:id="app0810100112"/>可岐<anchor xml:id="app0810100112e"/>葉〈乎毛〉言止〈弖〉、天降〈利〉賜〈比 <anchor xml:id="app0810100113"/>志<anchor xml:id="app0810100113e"/>〉食国天下〈
+       <anchor xml:id="app0810100114"/>登<anchor xml:id="app0810100114e"/>〉、天津日嗣所知食〈須〉皇御孫之命〈 <anchor xml:id="app0810100115"/>能<anchor xml:id="app0810100115e"/>〉御殿〈乎〉、今奥山〈 <anchor xml:id="app0810100116"/>能<anchor xml:id="app0810100116e"/>〉大峡・
+       <anchor xml:id="app0810100117"/>小<anchor xml:id="app0810100117e"/>峡〈尓〉立〈留〉木〈乎〉、斎部〈 <anchor xml:id="app0810100118"/>能<anchor xml:id="app0810100118e"/>〉斎斧〈乎〉以〈
+       <anchor xml:id="app0810100119"/>弖<anchor xml:id="app0810100119e"/>〉伐採〈弖〉、本末〈乎波〉山神〈尓〉祭〈弖〉、中間〈乎〉持出来〈弖〉、斎鉏〈乎〉以〈弖〉斎柱立〈弖〉、皇御孫之命〈 <anchor xml:id="app0810100120"/>乃<anchor xml:id="app0810100120e"/>〉天之御翳、日之御翳〈止〉造奉仕〈礼
+       <anchor xml:id="app0810100121"/>流<anchor xml:id="app0810100121e"/>〉瑞之 <anchor xml:id="app0810100122"/>御<anchor xml:id="app0810100122e"/>殿、〈古語云阿良可、〉汝屋船命〈尓〉天津奇護言〈乎〉〈古語云久須志伊波比 <anchor xml:id="app0810100123"/>許登<anchor xml:id="app0810100123e"/>、〉以〈
+       <anchor xml:id="app0810100124"/>弖<anchor xml:id="app0810100124e"/>〉、言寿鎮白〈久〉、此〈 <anchor xml:id="app0810100125"/>能<anchor xml:id="app0810100125e"/>〉敷坐大宮地、底津磐根〈 <anchor xml:id="app0810100126"/>能<anchor xml:id="app0810100126e"/>〉極〈美〉、下津綱根〈古語番
+       <anchor xml:id="app0810100127"/>縄<anchor xml:id="app0810100127e"/>之類、謂之綱根、〉波府虫〈 <anchor xml:id="app0810100128"/>能<anchor xml:id="app0810100128e"/>〉 <anchor xml:id="app0810100129"/>禍<anchor xml:id="app0810100129e"/>無〈久〉、高天原〈波〉青雲〈
+       <anchor xml:id="app0810100130"/>能<anchor xml:id="app0810100130e"/>〉靄〈久〉極〈美〉、天〈 <anchor xml:id="app0810100131"/>能<anchor xml:id="app0810100131e"/>〉血垂飛鳥〈 <anchor xml:id="app0810100132"/>能<anchor xml:id="app0810100132e"/>〉禍無〈久〉、 <anchor xml:id="app0810100133"/>掘<anchor xml:id="app0810100133e"/>
+<anchor xml:id="app0810100134"/>竪<anchor xml:id="app0810100134e"/>〈多留〉柱・桁・梁・戸・牖〈 <anchor xml:id="app0810100135"/>能<anchor xml:id="app0810100135e"/>〉錯〈比〉、〈古語云伎 <anchor xml:id="app0810100136"/>加<anchor xml:id="app0810100136e"/>比、〉動鳴事無〈久〉、引結〈幣
+       <anchor xml:id="app0810100137"/>魯<anchor xml:id="app0810100137e"/>〉葛目〈 <anchor xml:id="app0810100138"/>能<anchor xml:id="app0810100138e"/>〉緩〈比〉、取葺〈計 <anchor xml:id="app0810100139"/>魯<anchor xml:id="app0810100139e"/>〉草〈乃〉噪〈 <anchor xml:id="app0810100140"/>岐<anchor xml:id="app0810100140e"/>〉、〈古語云
+       <anchor xml:id="app0810100141"/>蘇<anchor xml:id="app0810100141e"/>蘇伎、〉無〈久〉、御床都比〈 <anchor xml:id="app0810100142"/>能<anchor xml:id="app0810100142e"/>
+<anchor xml:id="app0810100143"/>佐夜伎〉<anchor xml:id="app0810100143e"/>、夜女〈 <anchor xml:id="app0810100144"/>能<anchor xml:id="app0810100144e"/>
+<anchor xml:id="app0810100145"/>伊須須支〉<anchor xml:id="app0810100145e"/>、伊豆都志〈 <anchor xml:id="app0810100146"/>伎<anchor xml:id="app0810100146e"/>〉事無〈久〉、平〈
+       <anchor xml:id="app0810100147"/>気<anchor xml:id="app0810100147e"/>久〉安〈久〉奉護〈留〉神御名〈乎〉白〈久〉、屋船久久遅命〈是木霊也、〉・屋船豊宇気姫命〈 <anchor xml:id="app0810100148"/>登<anchor xml:id="app0810100148e"/>〉、〈是稲霊也、俗詞、宇賀能美多麻、今世産屋以辟木束稲、置於戸辺、
+       <anchor xml:id="app0810100149"/>乃<anchor xml:id="app0810100149e"/>以米散屋中之類也、〉御名〈乎波〉奉称〈利弖〉、皇御孫命〈 <anchor xml:id="app0810100150"/>能<anchor xml:id="app0810100150e"/>〉御世〈乎〉堅磐常磐〈尓〉奉護〈利〉、五十橿御世〈 <anchor xml:id="app0810100151"/>能<anchor xml:id="app0810100151e"/>〉足〈良
+       <anchor xml:id="app0810100152"/>志<anchor xml:id="app0810100152e"/>〉御世〈尓〉、田永〈 <anchor xml:id="app0810100153"/>能<anchor xml:id="app0810100153e"/>〉御世〈止〉奉福〈尓〉依〈弖〉、斎玉作等〈我〉持斎〈波利〉、持浄〈 <anchor xml:id="app0810100154"/>麻<anchor xml:id="app0810100154e"/>波利〉、造仕〈礼留〉、瑞八尺瓊〈
+       <anchor xml:id="app0810100155"/>能<anchor xml:id="app0810100155e"/>〉御 <anchor xml:id="app0810100156"/>吹<anchor xml:id="app0810100156e"/>〈支乃〉五百〈都〉御統〈 <anchor xml:id="app0810100157"/>能<anchor xml:id="app0810100157e"/>〉
+       <anchor xml:id="app0810100158"/>玉<anchor xml:id="app0810100158e"/>〈尓〉、明和幣・〈古語云尓伎弖、〉曜和幣〈乎〉附〈気弖〉、斎部宿 <anchor xml:id="app0810100159"/>禰<anchor xml:id="app0810100159e"/>某〈我〉弱肩〈尓〉太襁取懸〈弖〉、言寿〈伎〉鎮奉事〈
+       <anchor xml:id="app0810100160"/>能<anchor xml:id="app0810100160e"/>〉漏落〈武〉事〈乎波〉、神直日命・大直日命、聞直〈志〉見直〈 <anchor xml:id="app0810100161"/>志<anchor xml:id="app0810100161e"/>弖〉、平〈 <anchor xml:id="app0810100162"/>良気<anchor xml:id="app0810100162e"/>久〉安〈
+       <anchor xml:id="app0810100163"/>良気<anchor xml:id="app0810100163e"/>久〉所知食〈 <anchor xml:id="app0810100164"/>登<anchor xml:id="app0810100164e"/>〉白、</p>
+<p ana="項" corresp="engishiki_v8_en.xml#item08101002 engishiki_v8_ja.xml#item08101002" xml:id="item08101002"> 詞別
+       <anchor xml:id="app0810100201"/>白<anchor xml:id="app0810100201e"/>〈久〉、大宮売命〈 <anchor xml:id="app0810100202"/>登<anchor xml:id="app0810100202e"/>〉御名〈乎〉申事〈波〉、皇御孫命〈乃〉同殿〈 <anchor xml:id="app0810100203"/>能<anchor xml:id="app0810100203e"/>〉裏〈尓〉塞坐〈弖〉、参入罷出
+       <anchor xml:id="app0810100204"/>人<anchor xml:id="app0810100204e"/>〈 <anchor xml:id="app0810100205"/>能<anchor xml:id="app0810100205e"/>〉選〈比〉所知〈 <anchor xml:id="app0810100206"/>志<anchor xml:id="app0810100206e"/>〉、神等〈能〉伊須呂許比阿礼比坐〈乎〉、言直〈 <anchor xml:id="app0810100207"/>志<anchor xml:id="app0810100207e"/>〉和〈
+       <anchor xml:id="app0810100208"/>志<anchor xml:id="app0810100208e"/>〉、〈古語云夜波 <anchor xml:id="app0810100209"/>志<anchor xml:id="app0810100209e"/>、〉坐〈弖〉、皇御孫命朝〈乃〉御膳、夕〈 <anchor xml:id="app0810100210"/>能<anchor xml:id="app0810100210e"/>〉御膳供奉〈
+       <anchor xml:id="app0810100211"/>流<anchor xml:id="app0810100211e"/>〉比礼懸伴緒、 <anchor xml:id="app0810100212"/>襁懸伴緒<anchor xml:id="app0810100212e"/>〈乎〉、手 <anchor xml:id="app0810100213"/>躓<anchor xml:id="app0810100213e"/>足躓〈古語云
+       <anchor xml:id="app0810100214"/>麻<anchor xml:id="app0810100214e"/>我比、〉不令為〈弖〉、親王・諸王・諸臣・百官人等〈乎〉、己乖 <anchor xml:id="app0810100215"/>乖<anchor xml:id="app0810100215e"/>不令在、 <anchor xml:id="app0810100216"/>耶<anchor xml:id="app0810100216e"/>意・穢心無〈久〉、宮進
+       <anchor xml:id="app0810100217"/>〈米〉進<anchor xml:id="app0810100217e"/>、宮勤勤〈之 <anchor xml:id="app0810100218"/>米<anchor xml:id="app0810100218e"/>弖〉、咎過在〈乎波〉、見直〈 <anchor xml:id="app0810100219"/>志<anchor xml:id="app0810100219e"/>〉聞直坐〈弖〉、平〈 <anchor xml:id="app0810100220"/>良気<anchor xml:id="app0810100220e"/>久〉安〈
+       <anchor xml:id="app0810100221"/>良気<anchor xml:id="app0810100221e"/>久〉、令仕奉坐〈尓〉依〈 <anchor xml:id="app0810100222"/>弖<anchor xml:id="app0810100222e"/>〉、大宮売命〈止〉御名〈乎〉称辞竟奉〈久 <anchor xml:id="app0810100223"/>登<anchor xml:id="app0810100223e"/>〉白、 </p>
+</div>
+<div ana="祝詞" corresp="engishiki_v8_en.xml#article081011 engishiki_v8_ja.xml#article081011" n="8.11" type="条" xml:id="article081011">
+<head ana="御門祭"/>
+<p ana="項" corresp="engishiki_v8_en.xml#item08101101 engishiki_v8_ja.xml#item08101101" xml:id="item08101101"> 御門祭
+       <lb/>櫛磐牖・豊磐牖命〈 <anchor xml:id="app0810110101"/>登<anchor xml:id="app0810110101e"/>〉御名〈乎〉申事〈波〉、四方内外御門〈尓〉、如湯津磐村〈久〉塞坐〈弖〉、四方・四角〈与利〉疎〈備〉荒〈備〉来〈武〉天〈
+       <anchor xml:id="app0810110102"/>能<anchor xml:id="app0810110102e"/>〉麻我都比〈 <anchor xml:id="app0810110103"/>登<anchor xml:id="app0810110103e"/>〉云神〈 <anchor xml:id="app0810110104"/>能<anchor xml:id="app0810110104e"/>〉言〈武〉悪事〈尓〉、〈古語 <anchor xml:id="app0810110105"/>云<anchor xml:id="app0810110105e"/>
+<anchor xml:id="app0810110106"/>麻我<anchor xml:id="app0810110106e"/>許登、〉相 <anchor xml:id="app0810110107"/>〈麻自許利〉<anchor xml:id="app0810110107e"/>、相 <anchor xml:id="app0810110108"/>口<anchor xml:id="app0810110108e"/>
+<anchor xml:id="app0810110109"/>会<anchor xml:id="app0810110109e"/>賜事無〈久〉、自上往〈波〉上護〈利〉、自下往〈波〉下護〈利〉、待防掃 <anchor xml:id="app0810110110"/>却<anchor xml:id="app0810110110e"/>、言排坐〈弖〉、朝〈波〉開門、夕〈波〉閉門〈弖〉、参入罷出人名〈乎〉
+       <anchor xml:id="app0810110111"/>問<anchor xml:id="app0810110111e"/>所知〈 <anchor xml:id="app0810110112"/>志<anchor xml:id="app0810110112e"/>〉、咎過在〈乎波〉、神直〈備〉大直〈備尓〉見直聞直坐〈弖〉、平〈 <anchor xml:id="app0810110113"/>良気<anchor xml:id="app0810110113e"/>久〉
+       <anchor xml:id="app0810110114"/>安〈良気久〉<anchor xml:id="app0810110114e"/>令奉仕賜故〈尓〉、豊磐牖命・櫛磐牖命〈 <anchor xml:id="app0810110115"/>登<anchor xml:id="app0810110115e"/>〉御名〈乎〉称辞竟奉〈久登〉白、</p>
+</div>
+<div ana="祝詞" corresp="engishiki_v8_en.xml#article081012 engishiki_v8_ja.xml#article081012" n="8.12" type="条" xml:id="article081012">
+<head ana="大祓"/>
+<p ana="項" corresp="engishiki_v8_en.xml#item08101201 engishiki_v8_ja.xml#item08101201" xml:id="item08101201"> 六月晦大祓〈
+       <anchor xml:id="app0810120101"/>十二月准此<anchor xml:id="app0810120101e"/>、〉 <lb/>集侍親王・ <anchor xml:id="app0810120102"/>諸王<anchor xml:id="app0810120102e"/>・諸臣・百官人等、諸聞食〈止〉宣、</p>
+<p ana="項" corresp="engishiki_v8_en.xml#item08101202 engishiki_v8_ja.xml#item08101202" xml:id="item08101202"> 天皇朝
+       <anchor xml:id="app0810120201"/>庭<anchor xml:id="app0810120201e"/>〈尓〉仕奉〈留〉比礼挂伴男・手襁挂伴男・靭負伴男・剣佩伴男、伴男〈 <anchor xml:id="app0810120202"/>能<anchor xml:id="app0810120202e"/>〉八十伴男〈乎〉始〈弖〉、官官〈尓〉仕奉〈留〉人等〈
+       <anchor xml:id="app0810120203"/>能<anchor xml:id="app0810120203e"/>〉過犯〈家 <anchor xml:id="app0810120204"/>牟<anchor xml:id="app0810120204e"/>〉雑雑罪〈乎〉、今年六月晦之大祓〈尓〉、祓給〈比〉清給事〈乎〉、諸聞食〈止〉宣、 </p>
+<p ana="項" corresp="engishiki_v8_en.xml#item08101203 engishiki_v8_ja.xml#item08101203" xml:id="item08101203"> 高天
+       <anchor xml:id="app0810120301"/>原<anchor xml:id="app0810120301e"/>〈尓〉神留坐皇親神漏 <anchor xml:id="app0810120302"/>岐<anchor xml:id="app0810120302e"/>・神漏美〈乃〉命以〈弖〉、八百万神等〈乎〉神集 <anchor xml:id="app0810120303"/>集<anchor xml:id="app0810120303e"/>賜〈比〉、神議議賜〈弖〉、
+       <anchor xml:id="app0810120304"/>我<anchor xml:id="app0810120304e"/>皇御孫之命〈波〉、豊葦原〈乃〉水穂之国〈乎〉、安国〈止〉平〈久〉 <anchor xml:id="app0810120305"/>所知<anchor xml:id="app0810120305e"/>食〈止〉事依奉〈 <anchor xml:id="app0810120306"/>岐<anchor xml:id="app0810120306e"/>〉、如此依〈
+       <anchor xml:id="app0810120307"/>志<anchor xml:id="app0810120307e"/>〉奉〈 <anchor xml:id="app0810120308"/>志<anchor xml:id="app0810120308e"/>〉国中〈尓〉荒振神等〈乎波〉、神問〈 <anchor xml:id="app0810120309"/>志尓<anchor xml:id="app0810120309e"/>〉
+       <anchor xml:id="app0810120310"/>問〈志〉<anchor xml:id="app0810120310e"/>賜、神掃掃賜〈比弖〉、語問〈 <anchor xml:id="app0810120311"/>志<anchor xml:id="app0810120311e"/>〉磐根・樹立・草之 <anchor xml:id="app0810120312"/>垣<anchor xml:id="app0810120312e"/>葉〈乎毛〉語止〈弖〉、天之磐座放、天之八重雲〈乎〉、伊
+       <anchor xml:id="app0810120313"/>頭<anchor xml:id="app0810120313e"/>〈乃〉千別〈尓〉 <anchor xml:id="app0810120314"/>千別〈弖〉<anchor xml:id="app0810120314e"/>、天降依〈左 <anchor xml:id="app0810120315"/>志<anchor xml:id="app0810120315e"/>〉奉〈支〉、如此〈 <anchor xml:id="app0810120316"/>久<anchor xml:id="app0810120316e"/>〉依〈左
+       <anchor xml:id="app0810120317"/>志<anchor xml:id="app0810120317e"/>〉奉〈 <anchor xml:id="app0810120318"/>志<anchor xml:id="app0810120318e"/>〉四方之国中〈 <anchor xml:id="app0810120319"/>登<anchor xml:id="app0810120319e"/>〉、大倭日高見之国〈乎〉安国〈
+       <anchor xml:id="app0810120320"/>止<anchor xml:id="app0810120320e"/>〉定奉〈弖〉、下津磐根〈尓〉宮柱 <anchor xml:id="app0810120321"/>太<anchor xml:id="app0810120321e"/>敷立、高天原〈尓〉千木高知〈弖〉、皇御孫之命〈乃〉美頭〈乃〉御舎仕奉〈弖〉、天之御蔭・日之御蔭〈止〉隠坐〈弖〉、安国〈止〉平〈
+       <anchor xml:id="app0810120322"/>気<anchor xml:id="app0810120322e"/>久〉所知食〈武〉国中〈尓〉、成出〈武〉天之益人等〈我〉過犯〈 <anchor xml:id="app0810120323"/>家牟<anchor xml:id="app0810120323e"/>〉雑雑罪事〈波〉、天津罪〈止〉畔放・溝埋・樋放・頻蒔・串刺・生剥・逆剥・屎戸、許 <anchor xml:id="app0810120324"/>許<anchor xml:id="app0810120324e"/>
+<anchor xml:id="app0810120325"/>太<anchor xml:id="app0810120325e"/>久〈乃〉罪〈乎〉天津罪〈止〉法別〈 <anchor xml:id="app0810120326"/>気<anchor xml:id="app0810120326e"/>弖〉、国津罪〈
+       <anchor xml:id="app0810120327"/>止<anchor xml:id="app0810120327e"/>〉生膚断・死膚断・白人・胡久美・己母犯罪・己子犯罪・母与子犯罪・子与母犯罪・畜犯罪・昆虫〈乃〉災・高津神〈乃〉災・高津鳥災・畜仆〈 <anchor xml:id="app0810120328"/>志<anchor xml:id="app0810120328e"/>〉蠱物為罪、許許
+       <anchor xml:id="app0810120329"/>太<anchor xml:id="app0810120329e"/>久〈乃〉罪出〈武〉、如此出〈波〉、天津 <anchor xml:id="app0810120330"/>宮<anchor xml:id="app0810120330e"/>事以〈弖〉、 <anchor xml:id="app0810120331"/>大中臣<anchor xml:id="app0810120331e"/>天津金木〈乎〉本打切、末打断〈弖〉、千座置座〈尓〉置足〈波
+       <anchor xml:id="app0810120332"/>志<anchor xml:id="app0810120332e"/>弖〉、天津菅 <anchor xml:id="app0810120333"/>〈曾<anchor xml:id="app0810120333e"/>乎〉本苅断、末苅切〈弖〉、八針〈尓〉取辟〈弖〉、天津祝詞〈乃〉太祝詞事〈乎〉宣〈礼〉、如此〈久
+       <anchor xml:id="app0810120334"/>乃良<anchor xml:id="app0810120334e"/>波〉、天津神〈波〉天磐門〈乎〉押披〈弖〉、天之八重雲〈乎〉伊頭〈乃〉千別〈尓〉千別〈弖〉所聞食〈武〉、国津神〈波〉高山之末・短 <anchor xml:id="app0810120335"/>山<anchor xml:id="app0810120335e"/>末〈尓〉上坐〈弖〉、高山之伊
+       <anchor xml:id="app0810120336"/>恵<anchor xml:id="app0810120336e"/>理・短山之伊恵理〈乎〉撥別〈弖〉所聞食〈武〉、如此所聞食〈弖波〉、 <anchor xml:id="app0810120337"/>皇御孫之命<anchor xml:id="app0810120337e"/>〈乃〉朝
+       <anchor xml:id="app0810120338"/>庭<anchor xml:id="app0810120338e"/>〈乎〉始〈弖〉、天下四方国〈尓波〉、罪〈止〉云〈布〉罪〈波〉不在〈止〉、科 <anchor xml:id="app0810120339"/>戸<anchor xml:id="app0810120339e"/>之風〈乃〉天之
+       <anchor xml:id="app0810120340"/>八<anchor xml:id="app0810120340e"/>重雲〈乎〉吹放事之如〈久〉、朝之御霧・夕之御霧〈乎〉朝風・夕風〈乃〉吹掃事之如、大津辺〈尓〉居大船〈乎〉、舳解放艫解放〈弖〉、大海原〈尓〉押放事之如〈久〉、彼方之繁木本〈乎〉、焼鎌〈乃〉敏鎌以〈弖〉打掃事之如〈久〉、遺罪〈波〉不在〈止〉、祓給〈比〉清給事〈乎〉、高
+       <anchor xml:id="app0810120341"/>山<anchor xml:id="app0810120341e"/>・短山之末〈与 <anchor xml:id="app0810120342"/>理<anchor xml:id="app0810120342e"/>〉、佐久那 <anchor xml:id="app0810120343"/>太<anchor xml:id="app0810120343e"/>理〈尓〉落〈多支 <anchor xml:id="app0810120344"/>川<anchor xml:id="app0810120344e"/>〉速川〈
+       <anchor xml:id="app0810120345"/>能<anchor xml:id="app0810120345e"/>〉瀬 <anchor xml:id="app0810120346"/>坐<anchor xml:id="app0810120346e"/>瀬織津比咩〈止〉云神、大海原〈尓〉持出〈奈武〉、如此持出往〈波〉、荒塩之塩〈乃〉八百道〈乃〉八塩道之塩〈乃〉八百会〈尓〉
+       <anchor xml:id="app0810120347"/>座<anchor xml:id="app0810120347e"/>〈須〉速 <anchor xml:id="app0810120348"/>開<anchor xml:id="app0810120348e"/>都咩〈止〉云神、持 <anchor xml:id="app0810120349"/>可可<anchor xml:id="app0810120349e"/>呑〈弖 <anchor xml:id="app0810120350"/>牟<anchor xml:id="app0810120350e"/>〉、如此〈久〉
+       <anchor xml:id="app0810120351"/>可可<anchor xml:id="app0810120351e"/>呑〈弖波〉、気吹戸坐〈須〉気吹戸主〈止〉云神、 <anchor xml:id="app0810120352"/>根国・底之国〈尓〉<anchor xml:id="app0810120352e"/>気吹放〈弖
+       <anchor xml:id="app0810120353"/>牟<anchor xml:id="app0810120353e"/>〉、如此〈久〉気吹放〈弖波〉、根国・底之国〈尓〉坐速佐須良比咩〈 <anchor xml:id="app0810120354"/>登<anchor xml:id="app0810120354e"/>〉云神、持佐須良 <anchor xml:id="app0810120355"/>比<anchor xml:id="app0810120355e"/>失〈弖
+       <anchor xml:id="app0810120356"/>牟<anchor xml:id="app0810120356e"/>〉、如此〈久〉失〈弖波〉、 <anchor xml:id="app0810120357"/>天皇〈我〉<anchor xml:id="app0810120357e"/>朝庭〈尓〉仕奉〈留〉官 <anchor xml:id="app0810120358"/>官<anchor xml:id="app0810120358e"/>人等〈乎〉始〈弖〉、天下四
+       <anchor xml:id="app0810120359"/>方<anchor xml:id="app0810120359e"/>〈尓波〉、自今日始〈弖〉、罪〈止〉云〈 <anchor xml:id="app0810120360"/>布<anchor xml:id="app0810120360e"/>〉
+       <anchor xml:id="app0810120361"/>罪<anchor xml:id="app0810120361e"/>〈波〉不在〈止〉、高天原〈尓〉耳振立聞物〈止〉、馬牽立〈弖〉、今年六月晦日夕日之降〈乃〉大祓〈尓〉、祓給〈比〉清給事〈乎〉、諸聞食〈止〉宣、四国卜部等、 <anchor xml:id="app0810120362"/>大<anchor xml:id="app0810120362e"/>川
+       <anchor xml:id="app0810120363"/>道<anchor xml:id="app0810120363e"/>〈尓〉持退出〈弖〉、祓却〈止〉宣、 </p>
+</div>
+<div ana="祝詞" corresp="engishiki_v8_en.xml#article081013 engishiki_v8_ja.xml#article081013" n="8.13" type="条" xml:id="article081013">
+<head ana="献横刀呪"/>
+<p ana="項" corresp="engishiki_v8_en.xml#item08101301 engishiki_v8_ja.xml#item08101301" xml:id="item08101301">
+       東文忌寸部献横刀時呪〈西文部准此、〉 <lb/>謹請、皇天上帝、三極大君、日月 <anchor xml:id="app0810130101"/>星<anchor xml:id="app0810130101e"/>辰、八方諸神、司 <anchor xml:id="app0810130102"/>命司<anchor xml:id="app0810130102e"/>籍、左東王父、右西王母、五
+       <anchor xml:id="app0810130103"/>方<anchor xml:id="app0810130103e"/>五帝、四時四気、捧以 <anchor xml:id="app0810130104"/>禄<anchor xml:id="app0810130104e"/>人、請除禍災、捧以金刀、請延帝祚、 <lb/>呪曰、東至扶 <anchor xml:id="app0810130105"/>桑<anchor xml:id="app0810130105e"/>、西至虞
+       <anchor xml:id="app0810130106"/>淵<anchor xml:id="app0810130106e"/>、南至炎光、北至 <anchor xml:id="app0810130107"/>溺<anchor xml:id="app0810130107e"/>水、千城百国、精治万歳、 <anchor xml:id="app0810130108"/>万歳万歳<anchor xml:id="app0810130108e"/>、 </p>
+</div>
+<div ana="祝詞" corresp="engishiki_v8_en.xml#article081014 engishiki_v8_ja.xml#article081014" n="8.14" type="条" xml:id="article081014">
+<head ana="鎮火祭"/>
+<p ana="項" corresp="engishiki_v8_en.xml#item08101401 engishiki_v8_ja.xml#item08101401" xml:id="item08101401"> 鎮火祭
+       <lb/>高天原〈尓〉神留坐皇親神漏義・神漏美〈 <anchor xml:id="app0810140101"/>能<anchor xml:id="app0810140101e"/>〉命持〈弖〉、皇御孫命〈波〉豊葦原〈 <anchor xml:id="app0810140102"/>能<anchor xml:id="app0810140102e"/>〉水穂国〈乎〉、安国〈止〉平〈久〉所知食〈止〉、天下所寄奉〈
+       <anchor xml:id="app0810140103"/>志<anchor xml:id="app0810140103e"/>〉時〈尓〉、事寄奉〈志〉天都詞太詞事〈乎〉以〈弖〉申〈久〉、神伊佐奈伎・伊佐奈美〈 <anchor xml:id="app0810140104"/>能<anchor xml:id="app0810140104e"/>〉命、妹妋二柱嫁継給〈弖〉、国〈
+       <anchor xml:id="app0810140105"/>能<anchor xml:id="app0810140105e"/>〉八十国・島〈 <anchor xml:id="app0810140106"/>能<anchor xml:id="app0810140106e"/>〉八十島〈乎〉生給〈比〉、八百万神等〈乎〉生給〈比弖〉、麻奈弟子〈尓〉
+       <anchor xml:id="app0810140107"/>火<anchor xml:id="app0810140107e"/>結神生給〈弖〉、美保止被焼〈弖〉、石隠坐〈弖〉、夜七 <anchor xml:id="app0810140108"/>日<anchor xml:id="app0810140108e"/>・昼七日、吾〈乎奈〉見給比〈曾〉、
+       <anchor xml:id="app0810140109"/>吾<anchor xml:id="app0810140109e"/>奈妋〈乃〉命〈止〉申給比〈支〉、此七日〈尓波〉不足〈弖〉、隠坐事 <anchor xml:id="app0810140110"/>奇<anchor xml:id="app0810140110e"/>〈止弖〉見所行〈須〉時、火〈乎〉生給〈弖〉、御保止〈乎〉所焼坐〈支〉、如是時〈尓〉、
+       <anchor xml:id="app0810140111"/>吾<anchor xml:id="app0810140111e"/>名妋〈 <anchor xml:id="app0810140112"/>能<anchor xml:id="app0810140112e"/>〉命〈 <anchor xml:id="app0810140113"/>能<anchor xml:id="app0810140113e"/>〉、吾〈乎〉見給布奈〈止〉申〈乎〉、阿波多志給比津〈止〉申給〈弖〉、
+       <anchor xml:id="app0810140114"/>吾<anchor xml:id="app0810140114e"/>名妋〈 <anchor xml:id="app0810140115"/>能<anchor xml:id="app0810140115e"/>〉命〈波〉上津国〈乎〉所知食〈
+       <anchor xml:id="app0810140116"/>倍志<anchor xml:id="app0810140116e"/>〉、吾〈波〉下津国〈乎〉所知〈牟止〉申〈弖〉、石隠給〈弖〉、与美津枚坂〈尓〉至坐〈弖〉所思食〈久〉、吾名 <anchor xml:id="app0810140117"/>妋<anchor xml:id="app0810140117e"/>命〈
+       <anchor xml:id="app0810140118"/>能<anchor xml:id="app0810140118e"/>〉所知食上津国〈尓〉、心悪子〈乎〉生置〈弖〉来〈奴止〉宣〈弖〉、返坐〈弖〉、更生子、水神・匏・川菜・埴山姫、四種物〈乎〉生給〈弖〉、此〈 <anchor xml:id="app0810140119"/>能<anchor xml:id="app0810140119e"/>〉心悪子〈
+       <anchor xml:id="app0810140120"/>能<anchor xml:id="app0810140120e"/>〉心荒〈比 <anchor xml:id="app0810140121"/>留<anchor xml:id="app0810140121e"/>波〉、水・匏・埴山姫・川菜〈乎〉持〈弖〉鎮奉〈礼止〉、事教悟給〈支〉、依此〈弖〉称辞竟奉者、皇御孫〈 <anchor xml:id="app0810140122"/>能<anchor xml:id="app0810140122e"/>〉朝
+       <anchor xml:id="app0810140123"/>庭<anchor xml:id="app0810140123e"/>〈尓〉御心一速〈比〉給〈波 <anchor xml:id="app0810140124"/>志<anchor xml:id="app0810140124e"/>止〉為〈弖〉、進物〈波〉明妙・照妙・和
+       <anchor xml:id="app0810140125"/>妙<anchor xml:id="app0810140125e"/>・荒妙、五色物〈乎〉備奉〈弖〉、青海原〈尓〉住物者、鰭広物・鰭狭物、奥津海菜・辺津海菜〈尓〉至〈万弖尓〉、御酒者 <anchor xml:id="app0810140126"/>𤭖<anchor xml:id="app0810140126e"/>辺高知、
+       <anchor xml:id="app0810140127"/>𤭖<anchor xml:id="app0810140127e"/>腹満双〈弖〉、和稲・荒稲〈尓〉至〈万弖尓〉、如横山置高成〈弖〉、天津祝詞〈 <anchor xml:id="app0810140128"/>能<anchor xml:id="app0810140128e"/>〉 <anchor xml:id="app0810140129"/>太<anchor xml:id="app0810140129e"/>祝
+       <anchor xml:id="app0810140130"/>詞<anchor xml:id="app0810140130e"/>事以〈弖〉、称 <anchor xml:id="app0810140131"/>辞<anchor xml:id="app0810140131e"/>竟奉〈久止〉申、</p>
+</div>
+<div ana="祝詞" corresp="engishiki_v8_en.xml#article081015 engishiki_v8_ja.xml#article081015" n="8.15" type="条" xml:id="article081015">
+<head ana="道饗祭"/>
+<p ana="項" corresp="engishiki_v8_en.xml#item08101501 engishiki_v8_ja.xml#item08101501" xml:id="item08101501"> 道饗祭
+       <lb/>高天之原〈尓〉事始〈弖〉、皇御孫之命〈止〉称辞竟奉、大八衢〈尓〉湯津磐村之如〈久〉塞坐皇神等之前〈尓〉申〈久〉、八衢比古・八衢比売・久那斗〈止〉御名者申〈弖〉、辞竟奉〈久波〉、根国・底国〈与
+       <anchor xml:id="app0810150101"/>里<anchor xml:id="app0810150101e"/>〉麁備疎備来物〈尓〉、相率相口会事無〈弖〉、下行者下〈乎〉守〈 <anchor xml:id="app0810150102"/>理<anchor xml:id="app0810150102e"/>〉、上往者上〈乎〉守〈
+       <anchor xml:id="app0810150103"/>理<anchor xml:id="app0810150103e"/>〉、夜之守・日之守〈尓〉守奉、斎奉〈礼止〉、進幣帛者、明妙・照妙・和妙・荒 <anchor xml:id="app0810150104"/>妙<anchor xml:id="app0810150104e"/>備奉、御酒者 <anchor xml:id="app0810150105"/>𤭖<anchor xml:id="app0810150105e"/>辺高知、
+       <anchor xml:id="app0810150106"/>𤭖<anchor xml:id="app0810150106e"/>腹満双〈弖〉、汁〈尓 <anchor xml:id="app0810150107"/>母<anchor xml:id="app0810150107e"/>〉穎〈尓 <anchor xml:id="app0810150108"/>母<anchor xml:id="app0810150108e"/>〉、山野〈尓〉住物者毛〈 <anchor xml:id="app0810150109"/>能<anchor xml:id="app0810150109e"/>〉和物、毛〈
+       <anchor xml:id="app0810150110"/>能<anchor xml:id="app0810150110e"/>〉荒物、青海原〈尓〉住物者鰭〈乃〉広物・ <anchor xml:id="app0810150111"/>鰭<anchor xml:id="app0810150111e"/>狭物、奥津海菜・辺津海菜〈尓〉至〈万弖尓〉、横山之如〈久〉置所足〈弖〉、進宇豆
+       <anchor xml:id="app0810150112"/>之<anchor xml:id="app0810150112e"/>幣帛〈乎〉、平〈 <anchor xml:id="app0810150113"/>気<anchor xml:id="app0810150113e"/>久〉聞食〈弖〉、八衢〈尓〉湯
+       <anchor xml:id="app0810150114"/>津<anchor xml:id="app0810150114e"/>磐村之如〈久〉塞坐〈弖〉、皇御孫命〈乎〉堅磐〈尓〉常磐〈尓〉斎奉、茂御世〈尓〉幸〈閉〉奉給〈止〉申、又親王 <anchor xml:id="app0810150115"/>等<anchor xml:id="app0810150115e"/>・
+       <anchor xml:id="app0810150116"/>王等<anchor xml:id="app0810150116e"/>・臣等・百官人等、天下公民〈尓〉至〈万弖尓〉、平〈久〉斎給〈部止〉、神官、天津祝詞〈乃〉 <anchor xml:id="app0810150117"/>太<anchor xml:id="app0810150117e"/>祝詞事〈乎〉以〈弖〉、称辞竟奉〈止〉申、</p>
+</div>
+<div ana="祝詞" corresp="engishiki_v8_en.xml#article081016 engishiki_v8_ja.xml#article081016" n="8.16" type="条" xml:id="article081016">
+<head ana="大嘗祭"/>
+<p ana="項" corresp="engishiki_v8_en.xml#item08101601 engishiki_v8_ja.xml#item08101601" xml:id="item08101601"> 大嘗祭
+       <lb/>集侍神主・祝部等諸聞食〈 <anchor xml:id="app0810160101"/>登<anchor xml:id="app0810160101e"/>〉宣、</p>
+<p ana="項" corresp="engishiki_v8_en.xml#item08101602 engishiki_v8_ja.xml#item08101602" xml:id="item08101602">
+       高天原〈尓〉神留坐皇睦神漏伎・神漏弥命 <anchor xml:id="app0810160201"/>以<anchor xml:id="app0810160201e"/>、天社・国社〈 <anchor xml:id="app0810160202"/>登<anchor xml:id="app0810160202e"/>〉敷坐〈留〉皇神等前〈尓〉白〈久〉、今年十一月中卯日〈尓〉、天都御食〈
+       <anchor xml:id="app0810160203"/>能<anchor xml:id="app0810160203e"/>〉長御食〈 <anchor xml:id="app0810160204"/>能<anchor xml:id="app0810160204e"/>〉遠御食〈 <anchor xml:id="app0810160205"/>登<anchor xml:id="app0810160205e"/>〉、皇御孫命〈 <anchor xml:id="app0810160206"/>能<anchor xml:id="app0810160206e"/>〉大嘗聞食〈牟〉為故〈尓〉、皇神等相宇豆
+       <anchor xml:id="app0810160207"/>乃<anchor xml:id="app0810160207e"/>比奉〈弖〉、堅磐〈尓〉常磐〈尓〉斎〈比〉奉〈利〉、茂御世〈尓〉幸〈閉〉奉〈牟尓〉依〈弖 <anchor xml:id="app0810160208"/>志<anchor xml:id="app0810160208e"/>〉、千秋五
+       <anchor xml:id="app0810160209"/>百<anchor xml:id="app0810160209e"/>秋〈尓〉平〈久〉安〈久〉聞食〈弖〉、豊明〈尓〉明坐〈牟〉皇御孫 <anchor xml:id="app0810160210"/>命<anchor xml:id="app0810160210e"/>〈 <anchor xml:id="app0810160211"/>能<anchor xml:id="app0810160211e"/>〉宇豆〈
+       <anchor xml:id="app0810160212"/>能<anchor xml:id="app0810160212e"/>〉幣帛〈乎〉、明妙・照妙・和妙・荒妙〈尓〉備奉〈弖〉、朝日豊栄 <anchor xml:id="app0810160213"/>登<anchor xml:id="app0810160213e"/>〈尓〉称辞竟奉〈久乎〉、諸聞食〈 <anchor xml:id="app0810160214"/>登<anchor xml:id="app0810160214e"/>〉宣、 </p>
+<p ana="項" corresp="engishiki_v8_en.xml#item08101603 engishiki_v8_ja.xml#item08101603" xml:id="item08101603"> 事別、忌部〈
+       <anchor xml:id="app0810160301"/>能<anchor xml:id="app0810160301e"/>〉弱肩〈尓〉 <anchor xml:id="app0810160302"/>太<anchor xml:id="app0810160302e"/>襁取挂〈弖〉、持由麻波利仕奉〈礼留〉幣帛〈乎〉、神主・祝部等請〈弖〉、事不落捧持〈弖〉奉〈 <anchor xml:id="app0810160303"/>登<anchor xml:id="app0810160303e"/>〉宣、 </p>
+</div>
+<div ana="祝詞" corresp="engishiki_v8_en.xml#article081017 engishiki_v8_ja.xml#article081017" n="8.17" type="条" xml:id="article081017">
+<head ana="斎戸祭"/>
+<p ana="項" corresp="engishiki_v8_en.xml#item08101701 engishiki_v8_ja.xml#item08101701" xml:id="item08101701">
+       鎮御魂斎戸祭〈中宮・春宮斎戸祭亦同、〉 <lb/>高天之原〈尓〉神留坐〈須〉皇親神漏 <anchor xml:id="app0810170101"/>岐<anchor xml:id="app0810170101e"/>・神漏美〈 <anchor xml:id="app0810170102"/>能<anchor xml:id="app0810170102e"/>〉命〈乎〉以〈
+       <anchor xml:id="app0810170103"/>弖<anchor xml:id="app0810170103e"/>〉、皇孫之命〈波〉豊葦原〈 <anchor xml:id="app0810170104"/>能<anchor xml:id="app0810170104e"/>〉
+       <anchor xml:id="app0810170105"/>水<anchor xml:id="app0810170105e"/>穂国〈乎〉安国〈止〉定奉〈弖〉、下津磐根〈尓〉宮柱太敷立、高天之原〈尓〉千木高知〈弖〉、天之御蔭・ <anchor xml:id="app0810170106"/>日<anchor xml:id="app0810170106e"/>之御蔭〈止〉称辞竟
+       <anchor xml:id="app0810170107"/>奉<anchor xml:id="app0810170107e"/>〈弖〉、奉御衣〈波〉上 <anchor xml:id="app0810170108"/>下<anchor xml:id="app0810170108e"/>備奉〈弖〉、宇 <anchor xml:id="app0810170109"/>豆<anchor xml:id="app0810170109e"/>幣帛〈波〉明妙・照妙・和妙・荒妙、五色物、御酒〈波〉
+       <anchor xml:id="app0810170110"/>𤭖<anchor xml:id="app0810170110e"/>辺高知、 <anchor xml:id="app0810170111"/>𤭖<anchor xml:id="app0810170111e"/>腹満双〈弖〉、山野物〈波〉甘菜・辛菜、青海原物〈波〉鰭広物・鰭狭物、奥津海菜・辺津海菜〈尓〉至〈万弖尓〉、雑物〈乎〉如横山置高成〈
+       <anchor xml:id="app0810170112"/>弖<anchor xml:id="app0810170112e"/>〉、献〈留〉宇 <anchor xml:id="app0810170113"/>豆<anchor xml:id="app0810170113e"/>幣帛〈乎〉、安幣帛〈 <anchor xml:id="app0810170114"/>能<anchor xml:id="app0810170114e"/>〉足幣帛〈 <anchor xml:id="app0810170115"/>尓<anchor xml:id="app0810170115e"/>〉平〈久〉聞食〈弖〉、皇〈良我〉朝
+       <anchor xml:id="app0810170116"/>庭<anchor xml:id="app0810170116e"/>〈乎〉常磐〈尓〉堅磐〈尓〉斎奉、茂御世〈尓〉 <anchor xml:id="app0810170117"/>幸<anchor xml:id="app0810170117e"/> 奉給〈弖〉、自此十二月始、来十二月〈尓〉至〈万弖尓〉、平〈久〉御坐所令御坐給〈止〉、今年十二月
+       <anchor xml:id="app0810170118"/>其<anchor xml:id="app0810170118e"/>日、斎〈比〉鎮奉〈止〉申、</p>
+</div>
+<div ana="祝詞" corresp="engishiki_v8_en.xml#article081018 engishiki_v8_ja.xml#article081018" n="8.18" type="条" xml:id="article081018">
+<head ana="神宮祈年月次祭"/>
+<p ana="項" corresp="engishiki_v8_en.xml#item08101801 engishiki_v8_ja.xml#item08101801" xml:id="item08101801"> 伊勢
+       <anchor xml:id="app0810180101"/>大<anchor xml:id="app0810180101e"/>神宮 <lb/>二月祈年、六月・十二月月次祭 <lb/>天皇〈我〉御命以〈弖〉、度会〈乃〉宇治〈乃〉五十鈴川上〈乃〉下津石根〈尓〉、称辞竟奉〈 <anchor xml:id="app0810180102"/>流<anchor xml:id="app0810180102e"/>〉皇大神〈
+       <anchor xml:id="app0810180103"/>能<anchor xml:id="app0810180103e"/>〉大前〈尓〉申〈久〉、常〈毛〉進〈
+       <anchor xml:id="app0810180104"/>流<anchor xml:id="app0810180104e"/>〉二月祈年〈月次祭、唯以六月月次之辞相換、〉大幣帛〈乎〉、某官位姓名〈乎〉為使〈天〉、令捧持〈弖〉進給〈布〉御命〈乎〉申給〈久止〉申、</p>
+</div>
+<div ana="祝詞" corresp="engishiki_v8_en.xml#article081019 engishiki_v8_ja.xml#article081019" n="8.19" type="条" xml:id="article081019">
+<head ana="豊受祈年月次祭"/>
+<p ana="項" corresp="engishiki_v8_en.xml#item08101901 engishiki_v8_ja.xml#item08101901" xml:id="item08101901"> 豊受 <anchor xml:id="app0810190101"/>宮<anchor xml:id="app0810190101e"/>
+<lb/>天皇〈我〉御命以〈弖〉、度会〈乃〉山田原〈乃〉下津石根〈尓〉、称辞竟奉〈 <anchor xml:id="app0810190102"/>流<anchor xml:id="app0810190102e"/>〉豊受皇神 <anchor xml:id="app0810190103"/>前<anchor xml:id="app0810190103e"/>〈尓〉申〈久〉、常〈毛〉進〈
+       <anchor xml:id="app0810190104"/>流<anchor xml:id="app0810190104e"/>〉二月祈年〈月次祭、唯以六月月次之辞相換、〉大幣帛〈乎〉、某官位姓名〈乎〉為使〈 <anchor xml:id="app0810190105"/>天<anchor xml:id="app0810190105e"/>〉、令捧持〈弖〉進給〈布〉御命〈乎〉申給〈久止〉申、</p>
+</div>
+<div ana="祝詞" corresp="engishiki_v8_en.xml#article081020 engishiki_v8_ja.xml#article081020" n="8.20" type="条" xml:id="article081020">
+<head ana="神衣祭"/>
+<p ana="項" corresp="engishiki_v8_en.xml#item08102001 engishiki_v8_ja.xml#item08102001" xml:id="item08102001">
+       四月神衣祭〈九月准此、〉 <lb/>度会〈乃〉宇治五十鈴川上〈尓〉大宮柱太敷立〈 <anchor xml:id="app0810200101"/>天<anchor xml:id="app0810200101e"/>〉、高天原〈 <anchor xml:id="app0810200102"/>尓<anchor xml:id="app0810200102e"/>〉千木高知〈
+       <anchor xml:id="app0810200103"/>天<anchor xml:id="app0810200103e"/>〉、称辞竟奉〈留〉天照坐皇 <anchor xml:id="app0810200104"/>太<anchor xml:id="app0810200104e"/>神〈乃〉大前〈尓〉申〈久〉、服織・麻 <anchor xml:id="app0810200105"/>績<anchor xml:id="app0810200105e"/>〈乃〉人等〈乃〉常〈
+       <anchor xml:id="app0810200106"/>毛<anchor xml:id="app0810200106e"/>〉奉仕〈留〉和妙・荒妙〈乃〉織〈乃〉御衣〈乎〉進事〈乎〉、申給〈止〉申、荒祭宮〈尓毛〉如是申〈 <anchor xml:id="app0810200107"/>天<anchor xml:id="app0810200107e"/>〉進〈止〉宣、〈禰宜・内人称唯、〉</p>
+</div>
+<div ana="祝詞" corresp="engishiki_v8_en.xml#article081021 engishiki_v8_ja.xml#article081021" n="8.21" type="条" xml:id="article081021">
+<head ana="月次祭宮司"/>
+<p ana="項" corresp="engishiki_v8_en.xml#item08102101 engishiki_v8_ja.xml#item08102101" xml:id="item08102101">
+<anchor xml:id="app0810210101"/>六<anchor xml:id="app0810210101e"/>月月次 <anchor xml:id="app0810210102"/>祭<anchor xml:id="app0810210102e"/>〈十二月准此、〉 <lb/>度会〈乃〉宇治五十鈴〈乃〉川上〈尓〉大宮柱太敷立〈 <anchor xml:id="app0810210103"/>天<anchor xml:id="app0810210103e"/>〉、高天原〈尓〉比木高知〈
+       <anchor xml:id="app0810210104"/>天<anchor xml:id="app0810210104e"/>〉、称辞竟奉〈留〉天照坐皇 <anchor xml:id="app0810210105"/>太<anchor xml:id="app0810210105e"/>神〈乃〉大前〈尓〉、申進〈留〉 <anchor xml:id="app0810210106"/>天<anchor xml:id="app0810210106e"/>津祝詞〈乃〉太祝詞〈乎〉、神主部・物忌等、諸
+       <anchor xml:id="app0810210107"/>聞<anchor xml:id="app0810210107e"/>食〈止〉宣、〈禰宜・内人等共称唯、〉</p>
+<p ana="項" corresp="engishiki_v8_en.xml#item08102102 engishiki_v8_ja.xml#item08102102" xml:id="item08102102"> 天皇〈我〉御
+       <anchor xml:id="app0810210201"/>命<anchor xml:id="app0810210201e"/>〈尓〉坐、 <anchor xml:id="app0810210202"/>御<anchor xml:id="app0810210202e"/>寿〈乎〉手長〈乃〉御寿〈止〉、湯津如磐村常 <anchor xml:id="app0810210203"/>磐<anchor xml:id="app0810210203e"/>堅磐〈尓〉、伊賀志御世〈尓〉幸〈
+       <anchor xml:id="app0810210204"/>倍<anchor xml:id="app0810210204e"/>〉給〈比〉、阿礼坐皇子等〈乎毛〉恵給〈比〉、百官人等・天下四方国〈乃〉百姓〈尓〉至〈万
+       <anchor xml:id="app0810210205"/>天<anchor xml:id="app0810210205e"/>〉、長平〈久〉作食〈留〉五穀〈乎毛〉豊〈尓〉令栄給〈比〉、護恵〈比〉幸給〈止〉、三郡・国国・処処〈尓〉
+       <anchor xml:id="app0810210206"/>寄奉〈礼留〉神戸人等〈乃〉常〈毛〉進〈留〉<anchor xml:id="app0810210206e"/>御調糸、由貴〈乃〉御酒・御贄〈乎〉、如 <anchor xml:id="app0810210207"/>海<anchor xml:id="app0810210207e"/>山置足成〈 <anchor xml:id="app0810210208"/>天<anchor xml:id="app0810210208e"/>〉、大中臣太玉串〈尓〉隠侍〈
+       <anchor xml:id="app0810210209"/>天<anchor xml:id="app0810210209e"/>〉、今年六月十七日〈乃〉朝日〈乃〉豊栄 <anchor xml:id="app0810210210"/>登<anchor xml:id="app0810210210e"/>〈 <anchor xml:id="app0810210211"/>尓<anchor xml:id="app0810210211e"/>〉称申
+       <anchor xml:id="app0810210212"/>事<anchor xml:id="app0810210212e"/>〈乎〉、神主部・物忌等、諸聞食〈止〉宣、〈神主部共称唯、〉荒祭宮・月読宮〈尓毛〉如是〈久〉申進〈止〉宣、〈神主部亦称唯、〉 </p>
+</div>
+<div ana="祝詞" corresp="engishiki_v8_en.xml#article081022 engishiki_v8_ja.xml#article081022" n="8.22" type="条" xml:id="article081022">
+<head ana="神嘗祭"/>
+<p ana="項" corresp="engishiki_v8_en.xml#item08102201 engishiki_v8_ja.xml#item08102201" xml:id="item08102201"> 九月神嘗祭
+        <lb/>皇御孫御命以、<placeName corresp="#伊勢国">伊勢</placeName>〈 <anchor xml:id="app0810220101"/>能<anchor xml:id="app0810220101e"/>〉度会五十鈴河上〈尓〉称辞竟奉〈 <anchor xml:id="app0810220102"/>流<anchor xml:id="app0810220102e"/>〉天照坐皇大神〈
+       <anchor xml:id="app0810220103"/>能<anchor xml:id="app0810220103e"/>〉 <anchor xml:id="app0810220104"/>大<anchor xml:id="app0810220104e"/>前〈尓〉申給〈久〉、常〈毛〉進〈 <anchor xml:id="app0810220105"/>流<anchor xml:id="app0810220105e"/>〉九月之神嘗〈 <anchor xml:id="app0810220106"/>能<anchor xml:id="app0810220106e"/>〉大幣帛〈乎〉、某官某位
+       <anchor xml:id="app0810220107"/>某<anchor xml:id="app0810220107e"/>王・中臣某官 <anchor xml:id="app0810220108"/>其<anchor xml:id="app0810220108e"/>位 <anchor xml:id="app0810220109"/>其<anchor xml:id="app0810220109e"/>姓名〈乎〉為使〈 <anchor xml:id="app0810220110"/>弖<anchor xml:id="app0810220110e"/>〉、忌部弱肩〈尓〉太襁取懸、持斎〈波
+       <anchor xml:id="app0810220111"/>理<anchor xml:id="app0810220111e"/>〉令捧持〈弖〉、進給〈布〉御命〈乎〉申給〈久止〉申、</p>
+</div>
+<div ana="祝詞" corresp="engishiki_v8_en.xml#article081023 engishiki_v8_ja.xml#article081023" n="8.23" type="条" xml:id="article081023">
+<head ana="豊受神嘗祭"/>
+<p ana="項" corresp="engishiki_v8_en.xml#item08102301 engishiki_v8_ja.xml#item08102301" xml:id="item08102301"> 豊受宮同祭
+       <lb/>天皇〈我〉御命以〈弖〉、度会〈 <anchor xml:id="app0810230101"/>能<anchor xml:id="app0810230101e"/>〉山田原〈尓〉称辞 <anchor xml:id="app0810230102"/>竟<anchor xml:id="app0810230102e"/>奉〈 <anchor xml:id="app0810230103"/>流<anchor xml:id="app0810230103e"/>〉皇神前〈尓〉申給〈久〉、常〈毛〉進〈留〉九月之神嘗〈
+       <anchor xml:id="app0810230104"/>能<anchor xml:id="app0810230104e"/>〉 <anchor xml:id="app0810230105"/>太<anchor xml:id="app0810230105e"/>幣帛〈乎〉、某官某位 <anchor xml:id="app0810230106"/>其<anchor xml:id="app0810230106e"/>王・中臣某官 <anchor xml:id="app0810230107"/>其<anchor xml:id="app0810230107e"/>位
+       <anchor xml:id="app0810230108"/>其<anchor xml:id="app0810230108e"/>姓名〈乎〉 <anchor xml:id="app0810230109"/>為<anchor xml:id="app0810230109e"/>使〈弖〉、忌部弱肩〈尓〉 <anchor xml:id="app0810230110"/>太<anchor xml:id="app0810230110e"/>襁取懸、持斎〈波
+       <anchor xml:id="app0810230111"/>理<anchor xml:id="app0810230111e"/>〉令捧持〈弖〉、進給〈布〉御命〈乎〉申給〈久止〉申、</p>
+</div>
+<div ana="祝詞" corresp="engishiki_v8_en.xml#article081024 engishiki_v8_ja.xml#article081024" n="8.24" type="条" xml:id="article081024">
+<head ana="神嘗祭宮司"/>
+<p ana="項" corresp="engishiki_v8_en.xml#item08102401 engishiki_v8_ja.xml#item08102401" xml:id="item08102401"> 同神嘗祭
+       <lb/>度会〈乃〉宇治〈乃〉五十鈴〈乃〉川上〈尓〉大宮柱 <anchor xml:id="app0810240101"/>太<anchor xml:id="app0810240101e"/>敷立〈 <anchor xml:id="app0810240102"/>天<anchor xml:id="app0810240102e"/>〉、高天原〈尓〉比木高知〈 <anchor xml:id="app0810240103"/>天<anchor xml:id="app0810240103e"/>〉、称辞竟奉〈留〉天照坐皇
+       <anchor xml:id="app0810240104"/>太<anchor xml:id="app0810240104e"/>神〈乃〉大前〈尓〉、申進〈留〉天津祝詞〈乃〉太祝詞〈 <anchor xml:id="app0810240105"/>乎<anchor xml:id="app0810240105e"/>〉、神主部・物忌等、諸聞食〈止〉宣、〈 <anchor xml:id="app0810240106"/>禰<anchor xml:id="app0810240106e"/>宜・内人等共称唯、〉</p>
+<p ana="項" corresp="engishiki_v8_en.xml#item08102402 engishiki_v8_ja.xml#item08102402" xml:id="item08102402">
+       天皇〈我〉御命〈尓〉坐、御寿〈乎〉手長〈乃〉御寿〈止〉、湯津如磐村常 <anchor xml:id="app0810240201"/>磐<anchor xml:id="app0810240201e"/>堅磐〈尓〉、伊賀志御世〈尓〉幸〈
+       <anchor xml:id="app0810240202"/>倍<anchor xml:id="app0810240202e"/>〉給〈比〉、阿礼坐皇子等〈乎毛〉恵給〈比〉、百官人等・天下四方国〈乃〉百姓〈尓〉至〈万
+       <anchor xml:id="app0810240203"/>天<anchor xml:id="app0810240203e"/>〉、長平〈久〉護恵〈比〉幸給〈止〉、三郡・国国・処処寄奉〈礼留〉神戸人等〈乃〉、常〈毛〉進〈留〉由紀〈
+       <anchor xml:id="app0810240204"/>能<anchor xml:id="app0810240204e"/>〉御酒・御贄、懸税千税余五百税〈乎〉、如横山〈久〉置足成〈 <anchor xml:id="app0810240205"/>天<anchor xml:id="app0810240205e"/>〉、大中臣 <anchor xml:id="app0810240206"/>太玉<anchor xml:id="app0810240206e"/>串〈尓〉隠侍〈
+       <anchor xml:id="app0810240207"/>天<anchor xml:id="app0810240207e"/>〉、今年九月十七日朝日豊栄 <anchor xml:id="app0810240208"/>登<anchor xml:id="app0810240208e"/>〈尓〉、天津祝詞〈乃〉 <anchor xml:id="app0810240209"/>太<anchor xml:id="app0810240209e"/>祝詞辞〈乎〉称申事〈乎〉、神主部・物忌等、諸聞食〈止〉宣、〈禰宜・内人
+       <anchor xml:id="app0810240210"/>等<anchor xml:id="app0810240210e"/>称唯、〉 <lb/>荒祭宮・月読宮〈尓毛〉、如此〈久〉申進〈止〉宣、〈神主部共称唯、〉</p>
+</div>
+<div ana="祝詞" corresp="engishiki_v8_en.xml#article081025 engishiki_v8_ja.xml#article081025" n="8.25" type="条" xml:id="article081025">
+<head ana="斎王奉入"/>
+<p ana="項" corresp="engishiki_v8_en.xml#item08102501 engishiki_v8_ja.xml#item08102501" xml:id="item08102501"> 斎内親王
+       <anchor xml:id="app0810250101"/>奉<anchor xml:id="app0810250101e"/>入時 <lb/>進神嘗幣詞申畢、次即申云、辞別〈弖〉申給〈 <anchor xml:id="app0810250102"/>久<anchor xml:id="app0810250102e"/>〉、今進〈 <anchor xml:id="app0810250103"/>流<anchor xml:id="app0810250103e"/>〉斎
+       <anchor xml:id="app0810250104"/>内<anchor xml:id="app0810250104e"/>親王〈波〉、依恒例〈弖〉、三 <anchor xml:id="app0810250105"/>年<anchor xml:id="app0810250105e"/>斎〈比〉清〈麻波
+       <anchor xml:id="app0810250106"/>理<anchor xml:id="app0810250106e"/>弖〉、御杖代〈止〉定〈弖〉進給事〈波〉、皇御孫之尊〈乎〉天地日月〈止〉共〈尓〉 <anchor xml:id="app0810250107"/>堅<anchor xml:id="app0810250107e"/>磐〈尓〉、平〈 <anchor xml:id="app0810250108"/>気<anchor xml:id="app0810250108e"/>久〉安〈久〉御座
+       <anchor xml:id="app0810250109"/>坐<anchor xml:id="app0810250109e"/>〈 <anchor xml:id="app0810250110"/>志米武<anchor xml:id="app0810250110e"/>止〉、御杖代〈止〉進給〈布〉御命〈乎〉、大中 <anchor xml:id="app0810250111"/>臣<anchor xml:id="app0810250111e"/>茂桙中取持〈弖〉、恐〈美〉恐〈美毛〉申
+       <anchor xml:id="app0810250112"/>給<anchor xml:id="app0810250112e"/>〈久止〉申、</p>
+</div>
+<div ana="祝詞" corresp="engishiki_v8_en.xml#article081026 engishiki_v8_ja.xml#article081026" n="8.26" type="条" xml:id="article081026">
+<head ana="遷宮事"/>
+<p ana="項" corresp="engishiki_v8_en.xml#item08102601 engishiki_v8_ja.xml#item08102601" xml:id="item08102601">
+       遷奉大神宮祝詞〈豊受宮准此、〉 <lb/>皇御孫〈 <anchor xml:id="app0810260101"/>能<anchor xml:id="app0810260101e"/>〉御命〈乎〉以〈 <anchor xml:id="app0810260102"/>弖<anchor xml:id="app0810260102e"/>〉、皇大御神〈 <anchor xml:id="app0810260103"/>能<anchor xml:id="app0810260103e"/>〉
+       <anchor xml:id="app0810260104"/>太<anchor xml:id="app0810260104e"/>前〈尓〉申給〈久〉、常〈 <anchor xml:id="app0810260105"/>乃<anchor xml:id="app0810260105e"/>〉例〈尓〉依〈弖〉、廿年〈尓〉一遍〈比〉、大宮新仕奉〈弖〉、雑御装束物五十四種、神宝廿一種〈乎〉儲備〈
+       <anchor xml:id="app0810260106"/>天<anchor xml:id="app0810260106e"/>〉、祓清〈売〉持忌〈波理弖〉、預供奉弁官某位 <anchor xml:id="app0810260107"/>其<anchor xml:id="app0810260107e"/>姓名〈乎〉差使〈弖〉、進給状〈乎〉申給〈久止〉申、</p>
+</div>
+<div ana="祝詞" corresp="engishiki_v8_en.xml#article081027 engishiki_v8_ja.xml#article081027" n="8.27" type="条" xml:id="article081027">
+<head ana="遷却祟神"/>
+<p ana="項" corresp="engishiki_v8_en.xml#item08102701 engishiki_v8_ja.xml#item08102701" xml:id="item08102701"> 遷却 <anchor xml:id="app0810270101"/>崇<anchor xml:id="app0810270101e"/>
+<anchor xml:id="app0810270102"/>神<anchor xml:id="app0810270102e"/>
+<lb/>高天之原〈尓〉神留坐〈 <anchor xml:id="app0810270103"/>弖<anchor xml:id="app0810270103e"/>〉、事 <anchor xml:id="app0810270104"/>始<anchor xml:id="app0810270104e"/>給〈 <anchor xml:id="app0810270105"/>志<anchor xml:id="app0810270105e"/>〉神漏 <anchor xml:id="app0810270106"/>岐<anchor xml:id="app0810270106e"/>・神漏美〈
+       <anchor xml:id="app0810270107"/>能<anchor xml:id="app0810270107e"/>〉命以〈弖〉、天之高市〈尓〉八百万神等〈乎〉、神集集給〈比〉、神議議給〈弖〉、我皇御孫之尊〈波〉豊葦原〈 <anchor xml:id="app0810270108"/>能<anchor xml:id="app0810270108e"/>〉水穂之国〈乎〉安国〈止〉平〈
+       <anchor xml:id="app0810270109"/>気<anchor xml:id="app0810270109e"/>久〉所知食〈止〉、天之磐座放〈弖〉、天之八重雲〈乎〉伊頭之千別〈支尓〉千別〈弖〉、天降所寄奉〈 <anchor xml:id="app0810270110"/>志<anchor xml:id="app0810270110e"/>〉時〈尓〉、誰神〈乎〉先
+       <anchor xml:id="app0810270111"/>遣<anchor xml:id="app0810270111e"/>〈波〉、水穂国〈 <anchor xml:id="app0810270112"/>能<anchor xml:id="app0810270112e"/>〉荒振神等〈乎〉神攘攘平〈 <anchor xml:id="app0810270113"/>気<anchor xml:id="app0810270113e"/>武止〉、神議議給時〈尓〉、諸神等皆量申〈久〉、天穂日之命〈乎〉遣而平〈
+       <anchor xml:id="app0810270114"/>気<anchor xml:id="app0810270114e"/>武止〉申〈支〉、是以天降遣時〈尓〉、此神〈波〉返言不申〈支〉、次遣〈 <anchor xml:id="app0810270115"/>志<anchor xml:id="app0810270115e"/>〉健三 <anchor xml:id="app0810270116"/>熊<anchor xml:id="app0810270116e"/>之命〈毛〉、随父事〈弖〉返言不申、又遣〈
+       <anchor xml:id="app0810270117"/>志<anchor xml:id="app0810270117e"/>〉天若彦〈毛〉返言不申〈弖〉、高津鳥殃〈尓〉依〈弖〉、立処〈 <anchor xml:id="app0810270118"/>尓<anchor xml:id="app0810270118e"/>〉身 <anchor xml:id="app0810270119"/>亡<anchor xml:id="app0810270119e"/>〈支〉、是以
+       <anchor xml:id="app0810270120"/>天<anchor xml:id="app0810270120e"/>津神〈 <anchor xml:id="app0810270121"/>能<anchor xml:id="app0810270121e"/>〉御言以〈弖〉、更量給〈弖〉、経津主命・健雷命二柱神等〈乎〉天
+       <anchor xml:id="app0810270122"/>降<anchor xml:id="app0810270122e"/>給〈比弖〉、荒振神等〈乎〉神攘攘給〈比〉、神和和給〈弖〉、語問〈
+       <anchor xml:id="app0810270123"/>志<anchor xml:id="app0810270123e"/>〉磐根・樹立・草之片葉〈毛〉語止〈弖〉、皇御孫之尊〈乎〉天降所寄奉〈支〉、如此〈久〉天降所寄奉〈
+       <anchor xml:id="app0810270124"/>志<anchor xml:id="app0810270124e"/>〉四方之国中〈止〉、大倭日高見之国〈乎〉安国〈止〉定奉〈弖〉、下津磐根〈尓〉宮柱
+       <anchor xml:id="app0810270125"/>太<anchor xml:id="app0810270125e"/>敷立、高天之原〈尓〉千木高知〈弖〉、天之御蔭・日之御蔭〈止〉仕奉〈弖〉、安国〈止〉平〈 <anchor xml:id="app0810270126"/>気<anchor xml:id="app0810270126e"/>久〉所知食〈 <anchor xml:id="app0810270127"/>武<anchor xml:id="app0810270127e"/>〉皇御孫之尊〈
+       <anchor xml:id="app0810270128"/>能<anchor xml:id="app0810270128e"/>〉天御舎之内〈 <anchor xml:id="app0810270129"/>尓<anchor xml:id="app0810270129e"/>〉坐〈須〉皇神等〈波〉、荒備給〈比〉健備 <anchor xml:id="app0810270130"/>給<anchor xml:id="app0810270130e"/>事無〈
+       <anchor xml:id="app0810270131"/>志<anchor xml:id="app0810270131e"/>弖〉、高天之原〈尓〉始〈 <anchor xml:id="app0810270132"/>志<anchor xml:id="app0810270132e"/>〉事〈乎〉神〈奈 <anchor xml:id="app0810270133"/>我<anchor xml:id="app0810270133e"/>良 <anchor xml:id="app0810270134"/>毛<anchor xml:id="app0810270134e"/>〉所知食〈
+       <anchor xml:id="app0810270135"/>弖<anchor xml:id="app0810270135e"/>〉、神直日・大直日〈尓〉直〈 <anchor xml:id="app0810270136"/>志<anchor xml:id="app0810270136e"/>〉給〈比弖〉、自此地〈波〉、四方〈乎〉見霽山川〈 <anchor xml:id="app0810270137"/>能<anchor xml:id="app0810270137e"/>〉清地〈尓〉遷出坐〈弖〉、吾地〈止〉宇
+       <anchor xml:id="app0810270138"/>〈須波伎〉<anchor xml:id="app0810270138e"/>坐〈世止〉進幣帛者、明妙・照妙・和妙・荒妙〈尓〉備奉〈弖〉、見明物〈止〉鏡、翫物〈止〉玉、射放物〈止〉弓矢、打断物〈止〉 <anchor xml:id="app0810270139"/>太<anchor xml:id="app0810270139e"/>刀、馳出物〈止〉御馬、御酒者
+       <anchor xml:id="app0810270140"/>𤭖<anchor xml:id="app0810270140e"/>戸高知、 <anchor xml:id="app0810270141"/>𤭖<anchor xml:id="app0810270141e"/>腹満双〈弖〉、 <anchor xml:id="app0810270142"/>米<anchor xml:id="app0810270142e"/>〈尓毛〉穎〈尓毛〉、山住物者毛〈 <anchor xml:id="app0810270143"/>能<anchor xml:id="app0810270143e"/>〉和物・毛〈
+       <anchor xml:id="app0810270144"/>能<anchor xml:id="app0810270144e"/>〉荒物、大野原〈尓〉生物者甘菜・辛菜、青海原〈尓〉住物者鰭広物・鰭狭物、奥津海菜・辺津海菜〈尓〉
+       <anchor xml:id="app0810270145"/>至〈万弖尓〉<anchor xml:id="app0810270145e"/>、横山之如〈久〉八物〈尓〉置所足〈弖〉、奉〈留〉宇豆之幣帛 <anchor xml:id="app0810270146"/>乎<anchor xml:id="app0810270146e"/>、皇神等〈乃〉御心〈毛〉明〈尓〉、安幣帛〈
+       <anchor xml:id="app0810270147"/>能<anchor xml:id="app0810270147e"/>〉足幣帛〈止〉、平〈久〉聞食〈弖〉、 <anchor xml:id="app0810270148"/>祟<anchor xml:id="app0810270148e"/>給〈比〉健備給事無〈之弖〉、山川〈乃〉広〈久〉清地〈尓〉遷出坐〈弖〉、神〈奈我良〉鎮坐〈世止〉、称辞竟奉〈止〉申、</p>
+</div>
+<div ana="祝詞" corresp="engishiki_v8_en.xml#article081028 engishiki_v8_ja.xml#article081028" n="8.28" type="条" xml:id="article081028">
+<head ana="遣唐使"/>
+<p ana="項" corresp="engishiki_v8_en.xml#item08102801 engishiki_v8_ja.xml#item08102801" xml:id="item08102801"> 遣唐使時奉幣
+       <lb/>皇御孫尊〈 <anchor xml:id="app0810280101"/>能<anchor xml:id="app0810280101e"/>〉御命以〈弖〉、住吉〈尓〉辞竟奉〈留〉皇神等前〈尓〉申賜〈久〉、大唐〈尓〉使遣〈佐牟止〉為〈尓〉、依船居無〈弖〉、<placeName corresp="#播磨国">播磨国</placeName>〈与 <anchor xml:id="app0810280102"/>理<anchor xml:id="app0810280102e"/>〉船乗〈止〉為〈弖〉、使者遣〈
+       <anchor xml:id="app0810280103"/>佐<anchor xml:id="app0810280103e"/>牟止〉所念行間〈尓〉、皇神命以〈弖〉、船居〈波〉吾作〈牟止〉教悟給〈比支〉、教悟給〈比〉、那我良船居作給〈部礼波〉、悦〈己 <anchor xml:id="app0810280104"/>備<anchor xml:id="app0810280104e"/>〉嘉〈
+       <anchor xml:id="app0810280105"/>志<anchor xml:id="app0810280105e"/>美〉、礼代〈乃〉幣帛〈乎〉官位姓名〈尓〉令 <anchor xml:id="app0810280106"/>捧<anchor xml:id="app0810280106e"/>賷〈弖〉進奉〈久止〉申、</p>
+</div>
+<div ana="祝詞" corresp="engishiki_v8_en.xml#article081029 engishiki_v8_ja.xml#article081029" n="8.29" type="条" xml:id="article081029">
+<head ana="出雲国造神賀"/>
+<p ana="項" corresp="engishiki_v8_en.xml#item08102901 engishiki_v8_ja.xml#item08102901" xml:id="item08102901">
+<placeName corresp="#出雲国">出雲国</placeName>造神賀 <anchor xml:id="app0810290101"/>詞<anchor xml:id="app0810290101e"/>
+<lb/>八十日日〈波〉在〈止毛〉、今日〈 <anchor xml:id="app0810290102"/>能<anchor xml:id="app0810290102e"/>〉生日〈 <anchor xml:id="app0810290103"/>能<anchor xml:id="app0810290103e"/>〉足日〈 <anchor xml:id="app0810290104"/>尓<anchor xml:id="app0810290104e"/>〉、<placeName corresp="#出雲国">出雲国</placeName>〈 <anchor xml:id="app0810290105"/>乃<anchor xml:id="app0810290105e"/>〉国造姓名、恐〈美〉恐〈美毛〉申賜〈久〉、挂〈 <anchor xml:id="app0810290106"/>麻<anchor xml:id="app0810290106e"/>久毛〉恐〈
+       <anchor xml:id="app0810290107"/>支<anchor xml:id="app0810290107e"/>〉明御神〈止〉大八島国所知食〈須〉天皇命〈乃〉 <anchor xml:id="app0810290108"/>大御世〈乎〉<anchor xml:id="app0810290108e"/>、手長〈 <anchor xml:id="app0810290109"/>能<anchor xml:id="app0810290109e"/>〉大御世〈止〉斎〈
+        <anchor xml:id="app0810290110"/>止<anchor xml:id="app0810290110e"/>〉〈若後斎時者加後字、〉為〈弖〉、<placeName corresp="#出雲国">出雲国</placeName>〈乃〉青垣山内〈尓〉、下津石根〈尓〉宮柱太知
+       <anchor xml:id="app0810290111"/>立<anchor xml:id="app0810290111e"/>、高天原〈尓〉千木高知坐〈須〉伊射那伎〈 <anchor xml:id="app0810290112"/>能<anchor xml:id="app0810290112e"/>〉日真名子加夫呂伎熊野大神、櫛御気野命、国作坐〈 <anchor xml:id="app0810290113"/>志<anchor xml:id="app0810290113e"/>〉大穴持命、二柱神〈乎〉始〈
+       <anchor xml:id="app0810290114"/>天<anchor xml:id="app0810290114e"/>〉、百八十六社坐皇神等〈乎〉、某甲〈我〉弱肩〈尓〉 <anchor xml:id="app0810290115"/>太<anchor xml:id="app0810290115e"/>襷挂〈 <anchor xml:id="app0810290116"/>天<anchor xml:id="app0810290116e"/>〉、伊都幣〈
+       <anchor xml:id="app0810290117"/>能<anchor xml:id="app0810290117e"/>〉緒結、天〈乃〉美賀秘冠〈利 <anchor xml:id="app0810290118"/>天<anchor xml:id="app0810290118e"/>〉、伊豆〈 <anchor xml:id="app0810290119"/>能<anchor xml:id="app0810290119e"/>〉真屋〈尓〉 <anchor xml:id="app0810290120"/>麁<anchor xml:id="app0810290120e"/>草〈乎〉、伊豆〈
+       <anchor xml:id="app0810290121"/>能<anchor xml:id="app0810290121e"/>〉席〈 <anchor xml:id="app0810290122"/>登<anchor xml:id="app0810290122e"/>〉苅敷〈 <anchor xml:id="app0810290123"/>支天<anchor xml:id="app0810290123e"/>〉、伊都閉黒益〈之〉、天〈 <anchor xml:id="app0810290124"/>能<anchor xml:id="app0810290124e"/>〉
+       <anchor xml:id="app0810290125"/>𤭖<anchor xml:id="app0810290125e"/>和〈尓〉斎〈 <anchor xml:id="app0810290126"/>許母利<anchor xml:id="app0810290126e"/>弖〉、志都宮〈尓〉 <anchor xml:id="app0810290127"/>忌<anchor xml:id="app0810290127e"/>静〈 <anchor xml:id="app0810290128"/>米<anchor xml:id="app0810290128e"/>〉仕奉〈
+       <anchor xml:id="app0810290129"/>弖<anchor xml:id="app0810290129e"/>〉、朝日〈 <anchor xml:id="app0810290130"/>能<anchor xml:id="app0810290130e"/>〉豊栄 <anchor xml:id="app0810290131"/>登<anchor xml:id="app0810290131e"/>〈尓〉、伊波比〈乃〉返事〈 <anchor xml:id="app0810290132"/>能<anchor xml:id="app0810290132e"/>〉神賀吉詞、奏賜〈波久
+       <anchor xml:id="app0810290133"/>登<anchor xml:id="app0810290133e"/>〉奏、</p>
+<p ana="項" corresp="engishiki_v8_en.xml#item08102902 engishiki_v8_ja.xml#item08102902" xml:id="item08102902"> 高天〈
+       <anchor xml:id="app0810290201"/>能<anchor xml:id="app0810290201e"/>〉神王高御 <anchor xml:id="app0810290202"/>魂<anchor xml:id="app0810290202e"/>命〈 <anchor xml:id="app0810290203"/>能<anchor xml:id="app0810290203e"/>〉、皇御孫命〈尓〉天下大八島国〈乎〉事避奉〈之〉時、<placeName corresp="#出雲国">出雲</placeName>臣等〈我〉遠 <anchor xml:id="app0810290204"/>神<anchor xml:id="app0810290204e"/>天穂比命〈乎〉、国体見〈尓〉遣時〈尓〉、天〈 <anchor xml:id="app0810290205"/>能<anchor xml:id="app0810290205e"/>〉八重雲〈乎〉押別〈
+       <anchor xml:id="app0810290206"/>弖<anchor xml:id="app0810290206e"/>〉、天翔国翔〈弖〉、天下〈乎〉見廻〈弖〉、返事申給〈久〉、豊葦原〈
+       <anchor xml:id="app0810290207"/>能<anchor xml:id="app0810290207e"/>〉水穂国〈波〉、昼〈波〉如五月蝿水沸〈支〉、夜〈波〉如火瓫光神在〈利〉、石根・木立・青水沫〈毛〉事問〈 <anchor xml:id="app0810290208"/>天<anchor xml:id="app0810290208e"/>〉、荒国在〈
+       <anchor xml:id="app0810290209"/>祁<anchor xml:id="app0810290209e"/>利〉、然〈毛〉鎮 <anchor xml:id="app0810290210"/>鎮<anchor xml:id="app0810290210e"/>平〈 <anchor xml:id="app0810290211"/>天<anchor xml:id="app0810290211e"/>〉、皇御孫命〈尓〉安国〈止〉平〈久〉所知坐〈之
+       <anchor xml:id="app0810290212"/>米<anchor xml:id="app0810290212e"/>牟止〉申〈弖〉、己命児 <anchor xml:id="app0810290213"/>天<anchor xml:id="app0810290213e"/>夷鳥命〈尓〉布都怒志命〈乎〉副〈 <anchor xml:id="app0810290214"/>天<anchor xml:id="app0810290214e"/>〉、天降遣〈
+       <anchor xml:id="app0810290215"/>天<anchor xml:id="app0810290215e"/>〉、荒〈布留〉神等〈乎〉撥平〈 <anchor xml:id="app0810290216"/>気<anchor xml:id="app0810290216e"/>〉、国作〈之〉大神〈乎毛〉媚鎮〈
+       <anchor xml:id="app0810290217"/>天<anchor xml:id="app0810290217e"/>〉、大八島国現事・顕事令事避〈支〉、乃大穴持命〈乃〉申給〈久〉、皇御孫命〈乃〉静坐〈牟〉大倭国申〈 <anchor xml:id="app0810290218"/>天<anchor xml:id="app0810290218e"/>〉、己命和魂〈乎〉八
+       <anchor xml:id="app0810290219"/>咫<anchor xml:id="app0810290219e"/>鏡〈尓〉取託〈 <anchor xml:id="app0810290220"/>天<anchor xml:id="app0810290220e"/>〉、倭大物主櫛 <anchor xml:id="app0810290221"/>𤭖<anchor xml:id="app0810290221e"/>
+<anchor xml:id="app0810290222"/>玉<anchor xml:id="app0810290222e"/>命〈 <anchor xml:id="app0810290223"/>登<anchor xml:id="app0810290223e"/>〉名〈乎〉称〈 <anchor xml:id="app0810290224"/>天<anchor xml:id="app0810290224e"/>〉、大御和〈乃〉神奈備〈尓〉坐、己命〈乃〉御子阿遅須伎高孫根〈乃〉命〈乃〉御魂〈乎〉葛木〈乃〉鴨〈
+       <anchor xml:id="app0810290225"/>能<anchor xml:id="app0810290225e"/>〉神奈備〈尓〉坐、事代主命〈 <anchor xml:id="app0810290226"/>能<anchor xml:id="app0810290226e"/>〉御魂〈乎〉宇奈提〈尓〉坐、賀夜奈流美命〈 <anchor xml:id="app0810290227"/>能<anchor xml:id="app0810290227e"/>〉御魂〈乎〉飛鳥〈乃〉神奈備〈尓〉坐〈
+       <anchor xml:id="app0810290228"/>天<anchor xml:id="app0810290228e"/>〉、皇孫命〈 <anchor xml:id="app0810290229"/>能<anchor xml:id="app0810290229e"/>〉近守神〈 <anchor xml:id="app0810290230"/>登<anchor xml:id="app0810290230e"/>〉貢置〈
+       <anchor xml:id="app0810290231"/>天<anchor xml:id="app0810290231e"/>〉、八百丹杵築宮〈尓〉静坐〈支〉、是〈尓〉親神魯伎・神 <anchor xml:id="app0810290232"/>魯<anchor xml:id="app0810290232e"/>美〈乃〉命宣〈久〉、汝天穂比命〈波〉、
+       <anchor xml:id="app0810290233"/>天皇命〈能〉<anchor xml:id="app0810290233e"/>手長大御世〈乎〉堅石〈尓〉常石〈尓〉伊波比奉、伊賀志〈乃〉御世〈尓〉佐伎波閉奉〈 <anchor xml:id="app0810290234"/>登<anchor xml:id="app0810290234e"/>〉、仰賜〈
+       <anchor xml:id="app0810290235"/>志<anchor xml:id="app0810290235e"/>〉次〈乃〉随〈尓〉、供斎〈若後斎時者、加後字、〉仕奉〈 <anchor xml:id="app0810290236"/>弖<anchor xml:id="app0810290236e"/>〉、朝日〈 <anchor xml:id="app0810290237"/>能<anchor xml:id="app0810290237e"/>〉豊栄登〈尓〉、神〈乃〉礼
+       <anchor xml:id="app0810290238"/>白<anchor xml:id="app0810290238e"/>・臣〈 <anchor xml:id="app0810290239"/>能<anchor xml:id="app0810290239e"/>〉礼 <anchor xml:id="app0810290240"/>白<anchor xml:id="app0810290240e"/>〈 <anchor xml:id="app0810290241"/>登<anchor xml:id="app0810290241e"/>〉、御祷〈 <anchor xml:id="app0810290242"/>能<anchor xml:id="app0810290242e"/>〉神宝献〈良久
+       <anchor xml:id="app0810290243"/>登<anchor xml:id="app0810290243e"/>〉奏、 </p>
+<p ana="項" corresp="engishiki_v8_en.xml#item08102903 engishiki_v8_ja.xml#item08102903" xml:id="item08102903"> 白玉〈
+       <anchor xml:id="app0810290301"/>能<anchor xml:id="app0810290301e"/>〉大御白髪坐、赤玉〈 <anchor xml:id="app0810290302"/>能<anchor xml:id="app0810290302e"/>〉御阿加良毗坐、青玉〈 <anchor xml:id="app0810290303"/>能<anchor xml:id="app0810290303e"/>〉水江玉〈 <anchor xml:id="app0810290304"/>能<anchor xml:id="app0810290304e"/>〉行相〈尓〉、明御神〈
+       <anchor xml:id="app0810290305"/>登<anchor xml:id="app0810290305e"/>〉大八島国所知食天皇命〈 <anchor xml:id="app0810290306"/>能<anchor xml:id="app0810290306e"/>〉手長大御世〈乎〉、御横刀 <anchor xml:id="app0810290307"/>広<anchor xml:id="app0810290307e"/>〈尓〉誅堅〈 <anchor xml:id="app0810290308"/>米<anchor xml:id="app0810290308e"/>〉、白御馬〈
+       <anchor xml:id="app0810290309"/>能<anchor xml:id="app0810290309e"/>〉前足爪・後足爪踏立事〈波〉、大宮〈 <anchor xml:id="app0810290310"/>能<anchor xml:id="app0810290310e"/>〉内外御門柱〈乎〉、上津石根〈尓〉踏堅〈米〉、下津石根〈尓〉踏凝 <anchor xml:id="app0810290311"/>〈之〉<anchor xml:id="app0810290311e"/>、振立〈
+       <anchor xml:id="app0810290312"/>流<anchor xml:id="app0810290312e"/>〉耳〈 <anchor xml:id="app0810290313"/>能<anchor xml:id="app0810290313e"/>〉弥高〈尓〉、天下〈乎〉所知食〈左牟〉事志 <anchor xml:id="app0810290314"/>太<anchor xml:id="app0810290314e"/>米、白鵠〈 <anchor xml:id="app0810290315"/>能<anchor xml:id="app0810290315e"/>〉生御調〈
+       <anchor xml:id="app0810290316"/>能<anchor xml:id="app0810290316e"/>〉玩物〈 <anchor xml:id="app0810290317"/>登<anchor xml:id="app0810290317e"/>〉、倭文〈 <anchor xml:id="app0810290318"/>能<anchor xml:id="app0810290318e"/>〉大御心〈毛〉多親〈尓〉、彼方 <anchor xml:id="app0810290319"/>石川度<anchor xml:id="app0810290319e"/>・此方〈
+       <anchor xml:id="app0810290320"/>能<anchor xml:id="app0810290320e"/>〉 <anchor xml:id="app0810290321"/>石川度<anchor xml:id="app0810290321e"/>〈尓〉生立若水 <anchor xml:id="app0810290322"/>沼<anchor xml:id="app0810290322e"/>間〈 <anchor xml:id="app0810290323"/>能<anchor xml:id="app0810290323e"/>〉、弥若叡〈尓〉御若叡坐、須
+       <anchor xml:id="app0810290324"/>須<anchor xml:id="app0810290324e"/>伎振遠 <anchor xml:id="app0810290325"/>止<anchor xml:id="app0810290325e"/>美〈乃〉水〈乃〉、弥 <anchor xml:id="app0810290326"/>乎<anchor xml:id="app0810290326e"/>知〈尓〉御 <anchor xml:id="app0810290327"/>袁<anchor xml:id="app0810290327e"/>知坐、麻蘇比〈
+       <anchor xml:id="app0810290328"/>能<anchor xml:id="app0810290328e"/>〉大御鏡〈乃〉面〈乎〉意志波留 <anchor xml:id="app0810290329"/>加<anchor xml:id="app0810290329e"/>志〈 <anchor xml:id="app0810290330"/>天<anchor xml:id="app0810290330e"/>〉見行事〈 <anchor xml:id="app0810290331"/>能<anchor xml:id="app0810290331e"/>己登久〉、明御神〈
+       <anchor xml:id="app0810290332"/>能<anchor xml:id="app0810290332e"/>〉大八島国〈乎〉、天地日月 <anchor xml:id="app0810290333"/>等<anchor xml:id="app0810290333e"/>共〈尓〉、安〈久〉平〈久〉知行〈 <anchor xml:id="app0810290334"/>牟<anchor xml:id="app0810290334e"/>〉事〈 <anchor xml:id="app0810290335"/>能<anchor xml:id="app0810290335e"/>〉志
+       <anchor xml:id="app0810290336"/>太<anchor xml:id="app0810290336e"/>米〈止〉、御祷神宝〈乎〉擎持〈弖〉、神礼 <anchor xml:id="app0810290337"/>白<anchor xml:id="app0810290337e"/>・臣礼 <anchor xml:id="app0810290338"/>白<anchor xml:id="app0810290338e"/>、 <anchor xml:id="app0810290339"/>恐〈弥〉<anchor xml:id="app0810290339e"/>恐〈
+       <anchor xml:id="app0810290340"/>弥<anchor xml:id="app0810290340e"/>毛〉、天 <anchor xml:id="app0810290341"/>〈津〉<anchor xml:id="app0810290341e"/>次〈 <anchor xml:id="app0810290342"/>能<anchor xml:id="app0810290342e"/>〉神賀吉詞白賜〈久 <anchor xml:id="app0810290343"/>登<anchor xml:id="app0810290343e"/>〉 <anchor xml:id="app0810290344"/>奏<anchor xml:id="app0810290344e"/>、
+      </p>
+</div>
+</div>
+<div type="尾題" xml:id="bidai08">
+<p xml:id="bidai0801"> 延喜式巻第八 </p>
+</div>
+<div type="本奥書" xml:id="okugaki08">
+<p xml:id="okugaki0801">
+<table>
+<row>
+<cell><anchor xml:id="app0899990101"/>延<anchor xml:id="app0899990101e"/>長五年十二月廿六日</cell>
+<cell>従五位下行左大<anchor xml:id="app0899990102"/>史<anchor xml:id="app0899990102e"/>臣阿刀宿禰</cell>
+</row>
+<row>
+<cell/>
+<cell>従五位上行勘解由次官兼大外記<placeName corresp="#紀伊国">紀伊</placeName>権介<anchor xml:id="app0899990103"/>臣<anchor xml:id="app0899990103e"/>伴宿禰</cell>
+</row>
+<row>
+<cell/>
+<cell>従四位上行<orgName corresp="#神祇官">神祇</orgName>伯臣大中臣朝臣</cell>
+</row>
+<row>
+<cell/>
+<cell>大納言正三位兼行<orgName corresp="#民部省">民部</orgName>卿臣藤原朝臣</cell>
+</row>
+<row>
+<cell/>
+<cell>左大臣正二位兼行<orgName corresp="#近衛府">左近衛</orgName>大将皇太子傅<anchor xml:id="app0899990104"/>臣<anchor xml:id="app0899990104e"/>藤原朝臣</cell>
+</row>
+</table>
+<lb/>
+</p>
+</div>
+</div>
+</body>
+</text>
+</TEI>
