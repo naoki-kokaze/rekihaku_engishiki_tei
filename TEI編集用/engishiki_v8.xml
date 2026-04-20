@@ -1122,7 +1122,7 @@
           <lb/><s rendition="#indent">また、一条文が長文にわたる場合には、適宜（1）（2）等の項目番号を私に付し、分割して表示します。</s>
           <lb/><s rendition="#hanging-1">・校訂文中の細字・割書は、〈　〉で括って表現することとしました。</s>
           <lb/><s rendition="#hanging-1"
-            >・校訂文の文字に訳注本および粕谷興紀注解『延喜式祝詞』（和泉書院、二〇一三年、「粕谷本」と略称）と異同がある場合には示すこととします。ただし「島」と「嶋」や「無」と「无」、「陀」と「陁」などの字体（異体字も含む）の異同については原則として省略します。校訂について言及する際に挙げた写本・版本・注釈書の略称は以下の通りです。</s>
+            >・校訂文の文字に訳注本および粕谷興紀注解『延喜式祝詞』（和泉書院、二〇一三年、「粕谷本」と略称）と異同がある場合には示すこととします。ただし「島」と「嶋」や「無」と「无」、「陀」と「陁」などの字体（異体字も含む）の異同、また訳注本が「𤭖」を「𤭖」とすることについては原則として省略します。校訂について言及する際に挙げた写本・版本・注釈書の略称は以下の通りです。</s>
           <lb/><s rendition="#indent1_hanging-5">慶安版本　大和文華館所蔵鈴鹿連胤旧蔵版本</s>
           <lb/><s rendition="#indent1_hanigng-3">雲本　松江藩文政11年(1828)刊本（雲州本）</s>
           <lb/><s rendition="#indent1_hanging-4">祝詞考　賀茂真淵『祝詞考』</s>
@@ -1417,8 +1417,7 @@
             <app from="#app0810020101" to="#app0810020101e">
               <lem wit="#土本 #右本 #永本">脩</lem>
               <rdg wit="#九本">循</rdg>
-              <note>脩　土本・永本・右本「脩」、九本「循」。</note>
-            </app>
+              </app>
           </div>
           <div ana="祝詞" corresp="engishiki_v8_en.xml#article081003 engishiki_v8_ja.xml#article081003" n="8.3" type="条"
             xml:id="article081003">
@@ -1430,15 +1429,14 @@
             <app from="#app0810030101" to="#app0810030101e">
               <lem wit="#土本 #永本 #右本">宣</lem>
               <rdg wit="#九本"/>
-              <note>宣　土本・永本・右本「宣」、九本無し。</note>
-            </app>
+              </app>
             <p ana="項" corresp="engishiki_v8_en.xml#item08100302 engishiki_v8_ja.xml#item08100302" xml:id="item08100302">
                 高天原〈<anchor xml:id="app0810030201"/>仁<anchor xml:id="app0810030201e"
               />〉神留坐皇睦神漏伎命・神漏弥命以、天社・国社〈登〉称辞竟奉皇神等〈能〉前〈尓〉白〈久〉、今年二月〈尓〉御年初将賜〈登〉為而、皇御孫命宇豆〈能〉幣帛〈乎〉、朝日〈能〉豊逆登〈尓〉称辞竟奉〈久登〉宣、 </p>
             <app from="#app0810030201" to="#app0810030201e">
               <lem wit="#永本">仁</lem>
               <rdg wit="#土本 #右本">尓</rdg>
-              <note>仁　永本「仁」、土本・右本「尓」。永本により改める。訳注本は「尓」を採用する。</note>
+              <note>仁　土本・右本「尓」。永本により改める。訳注本は「尓」を採用する。</note>
             </app>
             <p ana="項" corresp="engishiki_v8_en.xml#item08100303 engishiki_v8_ja.xml#item08100303" xml:id="item08100303">
                 御年皇神等〈能〉前〈尓〉白〈久〉、皇神等〈能〉依〈左志〉奉〈牟〉奥津御年〈<anchor xml:id="app0810030301"/>乎<anchor xml:id="app0810030301e"
@@ -1453,42 +1451,37 @@
             <app from="#app0810030301" to="#app0810030301e">
               <lem wit="#土本 #右本 #九本 #永本朱補書">乎</lem>
               <note>永本朱補書「<seg rendition="#shu">乎</seg>」</note>
-              <note>乎　土本・右本・九本「乎」、永本無し、朱補書。</note>
             </app>
             <app from="#app0810030302" to="#app0810030302e">
               <lem wit="#土本 #永本 #右本">志</lem>
               <rdg wit="#九本">〈志〉</rdg>
-              <note>志　土本・永本・右本「志」、九本「〈志〉」。</note>
             </app>
             <app from="#app0810030303" to="#app0810030303e">
               <lem wit="#土本 #永本 #右本">志</lem>
               <rdg wit="#九本">之</rdg>
-              <note>志　土本・永本・右本「志」、九本「之」。</note>
             </app>
             <app from="#app0810030304" to="#app0810030304e">
               <lem wit="#土本 #永本 #九本">𤭖</lem>
               <rdg wit="#右本">甕</rdg>
-              <note>𤭖　土本・永本・九本「𤭖」、右本「甕」。訳注本は、この字の字体に「瓺」を用いる。以下、訳注本が「𤭖」を「瓺」とすることについては省略する。訳注本はまた九本においてこの上に三字分程度の空白があることを指摘し、その藍本に「御酒者」三字が存した可能性を指摘する。</note>
+              <note>𤭖　訳注本は九本においてこの上に三字分程度の空白があることを指摘し、その藍本に「御酒者」三字が存した可能性を指摘する。</note>
             </app>
             <app from="#app0810030305" to="#app0810030305e">
               <lem wit="#土本 #永本 #九本">𤭖</lem>
               <rdg wit="#右本">甕</rdg>
-              <note>𤭖　土本・永本・九本「𤭖」、右本「甕」。</note>
             </app>
             <app from="#app0810030306" to="#app0810030306e">
               <lem wit="#永本 #右本 #九本">葉</lem>
               <rdg wit="#土本">菜</rdg>
-              <note>葉　土本「菜」、永本・右本・九本「葉」。永本・右本・九本により改める。</note>
+              <note>葉　土本「菜」。永本・右本・九本により改める。</note>
             </app>
             <app from="#app0810030307" to="#app0810030307e">
               <lem wit="#土本 #永本 #九本">弖</lem>
               <rdg wit="#右本">天</rdg>
-              <note>弖　土本・永本・九本「弖」、右本「天」。</note>
             </app>
             <app from="#app0810030308" to="#app0810030308e">
               <lem wit="#土本 #永本 #九本">乃</lem>
               <rdg wit="#右本">〈乃〉</rdg>
-              <note>乃　土本・永本・九本「乃」、右本「〈乃〉」。訳注本は小書とする。</note>
+              <note>乃　訳注本は小書とする。</note>
             </app>
             <p ana="項" corresp="engishiki_v8_en.xml#item08100304 engishiki_v8_ja.xml#item08100304" xml:id="item08100304">
               大御巫〈能〉辞 <pb
@@ -1501,17 +1494,16 @@
               <lem wit="#土本 #右本 #九本">手</lem>
               <rdg wit="#永本">午</rdg>
               <note place="傍">永本傍訓「タ」</note>
-              <note>手　永本「午」、ただし傍訓「タ」。土本・右本・九本「手」。</note>
+              <note>手　永本「午」、ただし傍訓「タ」。</note>
             </app>
             <app from="#app0810030402" to="#app0810030402e">
               <lem wit="#土本 #永本 #九本">乃</lem>
               <rdg wit="#右本">〈乃〉</rdg>
-              <note>乃　土本・永本・九本「乃」、右本「〈乃〉」。訳注本は小書とする。</note>
+              <note>乃　訳注本は小書とする。</note>
             </app>
             <app from="#app0810030403" to="#app0810030403e">
               <lem wit="#土本 #永本 #右本">久登</lem>
               <rdg wit="#九本">登久</rdg>
-              <note>久登　土本・永本・右本「久登」、九本「登久」。</note>
             </app>
             <p ana="項" corresp="engishiki_v8_en.xml#item08100305 engishiki_v8_ja.xml#item08100305" xml:id="item08100305">
               座摩〈乃〉御巫〈乃〉辞竟奉皇神等〈能〉前〈尓〉白〈久〉、生井・栄井・津長井・阿須波・婆比支〈登〉御名者白〈弖〉辞竟奉者、皇神〈能〉敷坐下都磐根〈尓〉宮柱太知立、高天原〈尓〉千木高知〈弖〉、皇御孫命〈乃〉瑞〈能〉御舎〈乎〉仕奉〈弖〉、天御蔭・日御蔭〈登〉隠坐〈弖〉、四方国〈乎〉安国〈登〉平〈久〉知食故、皇御孫命〈能〉宇豆
@@ -1519,7 +1511,7 @@
             <app from="#app0810030501" to="#app0810030501e">
               <lem wit="#土本 #永本">乃</lem>
               <rdg wit="#右本 #九本">〈乃〉</rdg>
-              <note>乃　土本・永本「乃」、右本・九本「〈乃〉」。訳注本は小書とする。</note>
+              <note>乃　訳注本は小書とする。</note>
             </app>
             <p ana="項" corresp="engishiki_v8_en.xml#item08100306 engishiki_v8_ja.xml#item08100306" xml:id="item08100306">
                 御門〈<anchor xml:id="app0810030601"/>能<anchor xml:id="app0810030601e"/>〉御巫〈 <anchor xml:id="app0810030602"
@@ -1533,27 +1525,22 @@
             <app from="#app0810030601" to="#app0810030601e">
               <lem wit="#土本 #永本 #九本">能</lem>
               <rdg wit="#右本">乃</rdg>
-              <note>能　土本・永本・九本「能」、右本「乃」。</note>
             </app>
             <app from="#app0810030602" to="#app0810030602e">
               <lem wit="#土本 #永本 #九本">能</lem>
               <rdg wit="#右本">乃</rdg>
-              <note>能　土本・永本・九本「能」、右本「乃」。</note>
             </app>
             <app from="#app0810030603" to="#app0810030603e">
               <lem wit="#土本 #永本">能</lem>
               <rdg wit="#右本">乃</rdg>
-              <note>能　土本・永本「能」、右本「乃」。</note>
             </app>
             <app from="#app0810030604" to="#app0810030604e">
               <lem wit="#右本 #九本">白</lem>
               <rdg wit="#土本 #永本">皇</rdg>
-              <note>白　土本・永本「皇」。右本・九本「白」。</note>
             </app>
             <app from="#app0810030605" to="#app0810030605e">
               <lem wit="#土本 #右本 #九本">塞</lem>
               <rdg wit="#永本">寒</rdg>
-              <note>塞　土本・右本・九本「塞」、永本「寒」。</note>
             </app>
             <app from="#app0810030606" to="#app0810030606e">
               <lem wit="#土本 #永本 #右本 #九本">皇</lem>
@@ -1563,7 +1550,7 @@
             <app from="#app0810030607" to="#app0810030607e">
               <lem wit="#土本 #永本">乃</lem>
               <rdg wit="#右本 #九本">〈乃〉</rdg>
-              <note>乃　土本・永本「乃」、右本・九本「〈乃〉」。訳注本は小書とする。</note>
+              <note>乃　訳注本は小書とする。</note>
             </app>
             <p ana="項" corresp="engishiki_v8_en.xml#item08100307 engishiki_v8_ja.xml#item08100307" xml:id="item08100307">
               生島〈能〉御巫〈能〉辞竟奉皇神等〈能〉前〈尓〉白〈久〉、生国・足国〈登〉御名者白〈弖〉、辞竟奉者、皇神〈能〉敷坐島〈能〉八十島者、谷蟆〈能〉狭度極、塩沫〈能〉留限、狭国者広〈久〉、峻国者平〈久〉、島〈能〉八十島墮事無、皇神等〈能〉依志奉故、皇御孫命〈能〉宇豆〈乃〉幣帛〈乎〉、称辞竟奉〈久登〉宣、 </p>
@@ -1584,17 +1571,16 @@
                 xml:id="app0810030811"/>登<anchor xml:id="app0810030811e"/>〉宣、 </p>
             <app from="#app0810030801" to="#app0810030801e">
               <lem wit="#土本 #永本 #右本">太</lem>
-              <note>太　土本・永本・右本「太」。訳注本・粕谷本は「大」を採用する。</note>
+              <note>太　訳注本・粕谷本は「大」を採用する。</note>
             </app>
             <app from="#app0810030802" to="#app0810030802e">
               <lem wit="#土本 #永本 #右本">太</lem>
               <rdg wit="#九本">大</rdg>
-              <note>太　土本・永本・右本「太」、九本「大」。訳注本・粕谷本は「大」を採用する。</note>
+              <note>太　訳注本・粕谷本は「大」を採用する。</note>
             </app>
             <app from="#app0810030803" to="#app0810030803e">
               <lem wit="#土本 #永本 #右本">霽</lem>
               <rdg wit="#九本">霽霽</rdg>
-              <note>霽　土本・永本・右本「霽」、九本「霽霽」。</note>
             </app>
             <app from="#app0810030804" to="#app0810030804e">
               <lem cause="意改">柁</lem>
@@ -1607,36 +1593,31 @@
             <app from="#app0810030805" to="#app0810030805e">
               <lem wit="#土本 #右本 #九本">艫</lem>
               <rdg wit="#永本">臚</rdg>
-              <note>艫　土本・右本・九本「艫」、永本「臚」。</note>
             </app>
             <app from="#app0810030806" to="#app0810030806e">
-              <lem wit="#土本 #永本 #右本 #九本">海</lem>
+              <lem wit="#土本 #永本 #右本">海</lem>
               <note>海　訳注本は本式9条等の例により「原」を意補する。</note>
             </app>
             <app from="#app0810030807" to="#app0810030807e">
               <lem wit="#土本 #右本 #九本">者</lem>
               <rdg wit="#永本"/>
-              <note>者　土本・右本・九本「者」、永本無し。</note>
             </app>
             <app from="#app0810030808" to="#app0810030808e">
               <lem wit="#土本 #永本 #右本">久</lem>
               <rdg wit="#九本">〈久〉</rdg>
-              <note>久　土本・永本・右本「久」、九本「〈久〉」。</note>
+              <note>久　九本は小書とする。</note>
             </app>
             <app from="#app0810030809" to="#app0810030809e">
               <lem wit="#土本 #永本 #九本">大</lem>
               <rdg wit="#右本">太</rdg>
-              <note>大　土本・永本・九本「大」、右本「太」。</note>
             </app>
             <app from="#app0810030810" to="#app0810030810e">
               <lem wit="#土本 #永本 #右本">乃</lem>
               <rdg wit="#九本">能</rdg>
-              <note>乃　土本・永本・右本「乃」、九本「能」。</note>
             </app>
             <app from="#app0810030811" to="#app0810030811e">
               <lem wit="#土本 #永本 #右本">登</lem>
               <rdg wit="#九本">止</rdg>
-              <note>登　土本・永本・右本「登」、九本「止」。</note>
             </app>
             <p ana="項" corresp="engishiki_v8_en.xml#item08100309 engishiki_v8_ja.xml#item08100309" xml:id="item08100309">
                 御県〈尓〉坐皇神等〈<anchor xml:id="app0810030901"/>乃<anchor xml:id="app0810030901e"/>〉前〈尓〉白〈久〉、高市・葛木・十市・志貴・山辺・曾布〈
@@ -1649,48 +1630,42 @@
             <app from="#app0810030901" to="#app0810030901e">
               <lem wit="#右本 #九本">乃</lem>
               <rdg wit="#土本 #永本"/>
-              <note>乃　土本・永本無し。右本・九本「乃」。右本・九本により「乃」を補う。</note>
+              <note>乃　土本・永本無し。右本・九本により「乃」を補う。</note>
             </app>
             <app from="#app0810030902" to="#app0810030902e">
               <lem wit="#土本 #永本 #右本">登</lem>
               <rdg wit="#九本">止</rdg>
-              <note>登　土本・永本・右本「登」、九本「止」。</note>
             </app>
             <app from="#app0810030903" to="#app0810030903e">
-              <lem wit="#土本 #右本 #九本">参</lem>
-              <rdg/>
-              <note>参　永本補入。</note>
+              <lem wit="#土本 #右本 #九本 #永本挿入書">参</lem>
+              <note>永本挿入書「参」</note>
             </app>
             <app from="#app0810030904" to="#app0810030904e">
               <lem wit="#土本 #永本">能</lem>
               <rdg wit="#右本">乃</rdg>
-              <note>能　土本・永本「能」、右本「乃」。</note>
             </app>
             <app from="#app0810030905" to="#app0810030905e">
               <lem wit="#土本 #永本">能</lem>
               <rdg wit="#右本">乃</rdg>
-              <note>能　土本・永本「能」、右本「乃」。</note>
             </app>
             <app from="#app0810030906" to="#app0810030906e">
-              <lem wit="#慶安版本" cause="意改">登</lem>
+              <lem wit="#慶安版本">登</lem>
               <rdg wit="#土本 #永本">能</rdg>
               <rdg wit="#右本 #九本">乃</rdg>
-              <note>登　土本・永本「能」、右本・九本「乃」。慶安版本に従い意改する。</note>
+              <note>登　慶安版本に従い意改する。</note>
             </app>
             <app from="#app0810030907" to="#app0810030907e">
               <lem wit="#土本 #永本">能</lem>
               <rdg wit="#右本 #九本">乃</rdg>
-              <note>能　土本・永本「能」、右本・九本「乃」。</note>
             </app>
             <app from="#app0810030908" to="#app0810030908e">
               <lem wit="#土本 #永本 #九本">乃</lem>
               <rdg wit="#右本">〈乃〉</rdg>
-              <note>乃　土本・永本・九本「乃」、右本「〈乃〉」。訳注本は小書とする。</note>
+              <note>乃　訳注本は小書とする。</note>
             </app>
             <app from="#app0810030909" to="#app0810030909e">
               <lem wit="#土本 #永本 #右本">登</lem>
               <rdg wit="#九本">止</rdg>
-              <note>登　土本・永本・右本「登」、九本「止」。</note>
             </app>
             <p ana="項" corresp="engishiki_v8_en.xml#item08100310 engishiki_v8_ja.xml#item08100310" xml:id="item08100310">
                 山口坐皇神等〈<anchor xml:id="app0810031001"/>能<anchor xml:id="app0810031001e"/>〉前〈尓〉白〈久〉、飛鳥・石 <anchor
@@ -1712,7 +1687,7 @@
             </app>
             <app from="#app0810031002" to="#app0810031002e">
               <lem wit="#土本 #永本 #右本 #九本">寸</lem>
-              <note>寸　訳注本は雲本にしたがい「村」に意改する。</note>
+              <note>寸　訳注本は雲本に従い「村」に意改する。</note>
             </app>
             <app from="#app0810031003" to="#app0810031003e">
               <lem wit="#土本 #永本 #右本">登</lem>
@@ -1761,9 +1736,9 @@
               <note>能　土本・永本「能」、右本・九本「乃」。</note>
             </app>
             <app from="#app0810031012" to="#app0810031012e">
-              <lem>乃</lem>
+              <lem wit="#土本 #永本">乃</lem>
               <rdg wit="#右本 #九本">〈乃〉</rdg>
-              <note>乃　土本・永本「能」、右本・九本「〈乃〉」。訳注本は小書とする。</note>
+              <note>乃　土本・永本「乃」、右本・九本「〈乃〉」。訳注本は小書とする。</note>
             </app>
             <app from="#app0810031013" to="#app0810031013e">
               <lem wit="#土本 #永本 #右本">登</lem>
@@ -1817,9 +1792,9 @@
               <note>波　土本「被」、永本・右本・九本「波」。永本・右本・九本により「波」に改める。</note>
             </app>
             <app from="#app0810031107" to="#app0810031107e">
-              <lem wit="#土本 #右本 #九本">〈尓毛〉汁</lem>
-              <rdg/>
-              <note>〈尓毛〉汁　永本補入。</note>
+              <lem wit="#土本 #右本 #九本 #永本挿入書">〈尓毛〉汁</lem>
+              <note>永本挿入書「〈尓毛〉汁」</note>
+              <note>〈尓毛〉汁　永本挿入書。</note>
             </app>
             <app from="#app0810031108" to="#app0810031108e">
               <lem wit="#土本 #永本">母</lem>
@@ -2017,9 +1992,9 @@
               <note>大　土本・永本・右本「大」、九本「太」。</note>
             </app>
             <app from="#app0810040119" to="#app0810040119e">
-              <lem wit="#土本 #右本 #九本">帛</lem>
-              <rdg/>
-              <note>帛　永本補入。</note>
+              <lem wit="#土本 #右本 #九本 #永本挿入書">帛</lem>
+              <note>永本挿入書「帛」</note>
+              <note>帛　永本挿入書。</note>
             </app>
             <app from="#app0810040120" to="#app0810040120e">
               <lem wit="#土本 #永本 #右本">登</lem>
@@ -2039,9 +2014,9 @@
               <note>登　土本・永本・右本「登」、九本「止」。</note>
             </app>
             <app from="#app0810040123" to="#app0810040123e">
-              <lem>登</lem>
-              <rdg/>
-              <note/>
+              <lem wit="#土本 #永本 #右本">登</lem>
+              <rdg wit="#九本">止</rdg>
+              <note>登　土本・永本・右本「登」、九本「止」。</note>
             </app>
             <p ana="項" corresp="engishiki_v8_en.xml#item08100402 engishiki_v8_ja.xml#item08100402" xml:id="item08100402">
                 如此仕奉〈尓〉依〈弖〉、今〈母〉去前〈<anchor xml:id="app0810040201"/>母<anchor xml:id="app0810040201e"/>〉、天皇〈我〉朝 <anchor
@@ -2187,9 +2162,9 @@
               <note>臣　本朝月令所引貞観式逸文「卿」。</note>
             </app>
             <app from="#app0810050111" to="#app0810050111e">
-              <lem wit="#土本 #右本 #九本">為使〈弖〉</lem>
-              <rdg/>
-              <note>為使〈弖〉　永本補入。</note>
+              <lem wit="#土本 #右本 #九本 #永本挿入書">為使〈弖〉</lem>
+              <note>永本挿入書「為使〈弖〉」</note>
+              <note>為使〈弖〉　永本挿入書。</note>
             </app>
             <app from="#app0810050112" to="#app0810050112e">
               <lem wit="#永本 #右本 #九本">久</lem>
@@ -2328,7 +2303,7 @@
               <lem cause="意改">登</lem>
               <rdg wit="#土本 #永本">能</rdg>
               <rdg wit="#右本 #九本">乃</rdg>
-              <note>登　土本・永本「能」、右本・九本「乃」。祝詞考にしたがい、「登」に意改する。ただし本朝月令所引弘仁式逸文も「乃」。</note>
+              <note>登　土本・永本「能」、右本・九本「乃」。祝詞考に従い、「登」に意改する。ただし本朝月令所引弘仁式逸文も「乃」。</note>
             </app>
             <app from="#app0810050221" to="#app0810050221e">
               <lem wit="#土本 #永本">能</lem>
@@ -2348,7 +2323,7 @@
             <app from="#app0810050224" to="#app0810050224e">
               <lem wit="#永本 #右本 #九本">手</lem>
               <rdg wit="#土本">〈手〉</rdg>
-              <note>手　土本「〈手〉」、永本・右本・九本「手」。永本・右本・九本により大書に改める。</note>
+              <note>手　土本は小書。永本・右本・九本により大書に改める。</note>
             </app>
             <app from="#app0810050225" to="#app0810050225e">
               <lem wit="#土本 #永本 #右本">股</lem>
@@ -2379,7 +2354,7 @@
               <lem cause="意改">八千</lem>
               <rdg wit="#土本 #永本 #右本 #九本">八十</rdg>
               <note place="傍">九本傍訓「ヤホ」</note>
-              <note>八千　土本・永本・右本・九本「八十」。本朝月令所引弘仁式逸文も「八十」。九本傍訓「ヤホ」。祝詞考にしたがい、「八千」に意改。粕谷本および青木本は「八百」と校訂する。</note>
+              <note>八千　土本・永本・右本・九本「八十」。本朝月令所引弘仁式逸文も「八十」。九本傍訓「ヤホ」。祝詞考に従い、「八千」に意改。粕谷本および青木本は「八百」と校訂する。</note>
             </app>
             <app from="#app0810050231" to="#app0810050231e">
               <lem wit="#土本 #永本 #右本">登</lem>
@@ -2513,9 +2488,9 @@
               />〉無〈止〉白〈止〉聞看〈弖〉、皇御孫命詔〈久〉、神等〈乎波〉、天社・国社〈止〉忘事無〈久〉 <anchor xml:id="app0810060109"/>遺事無〈久〉<anchor
                 xml:id="app0810060109e"/>、称辞竟奉〈止〉思〈志〉行〈波須乎〉、誰神〈曾〉、天下〈乃〉 <anchor xml:id="app0810060110"/>公<anchor
                 xml:id="app0810060110e"/>民〈乃〉作作物〈乎〉、不成傷神等〈波〉、我御心〈曾止〉 <anchor xml:id="app0810060111"/>悟奉〈礼止〉<anchor
-                xml:id="app0810060111e"/>、宇気比賜〈支〉、 <anchor xml:id="app0810060112"/>是<anchor xml:id="app0810060112e"
-              />以、皇御孫命大御夢〈尓〉悟奉〈久〉、天下〈乃〉 <anchor xml:id="app0810060113"/>公<anchor xml:id="app0810060113e"
-              />民〈乃〉作作物〈乎〉、悪風・荒水〈尓〉相〈都都〉、不成傷〈波〉、我御名者天〈乃〉御柱〈乃〉命・国〈乃〉御 <pb
+                xml:id="app0810060111e"/>、宇気比賜〈支〉、 <anchor xml:id="app0810060112"/>是以、皇御孫命大御夢〈尓〉悟奉〈久〉、天下〈乃〉 <anchor
+                xml:id="app0810060113"/>公<anchor xml:id="app0810060113e"/>民〈乃〉<anchor xml:id="app0810060112e"
+              />作作物〈乎〉、悪風・荒水〈尓〉相〈都都〉、不成傷〈波〉、我御名者天〈乃〉御柱〈乃〉命・国〈乃〉御 <pb
                 facs="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-8%2F00012.tif/full/full/0/default.jpg"/> 柱〈
                 <anchor xml:id="app0810060114"/>能<anchor xml:id="app0810060114e"/>〉命 <anchor xml:id="app0810060115"
                 />〈止〉<anchor xml:id="app0810060115e"/>、御名者悟奉〈弖〉、吾前〈尓〉奉〈牟〉幣帛者、御服者明妙・照妙・和妙・荒妙、 <anchor xml:id="app0810060116"
@@ -2526,11 +2501,10 @@
               />、草〈 <anchor xml:id="app0810060121"/>能<anchor xml:id="app0810060121e"
               />〉片葉〈尓〉至〈万弖〉、成幸閉奉〈牟止〉、悟奉〈支〉、是以、皇神〈乃〉辞教悟奉処〈 <anchor xml:id="app0810060122"/>仁<anchor xml:id="app0810060122e"
               />〉、宮柱定奉〈弖〉、此〈 <anchor xml:id="app0810060123"/>能<anchor xml:id="app0810060123e"/>〉皇神〈 <anchor
-                xml:id="app0810060124"/>能<anchor xml:id="app0810060124e"/>〉前〈 <anchor xml:id="app0810060125"/>乎<anchor
-                xml:id="app0810060125e"/>〉称辞竟奉〈尓〉、皇御孫命〈乃〉宇豆 <anchor xml:id="app0810060126"/>〈乃〉<anchor
-                xml:id="app0810060126e"/>幣帛令捧持〈弖〉、王臣等〈乎〉為使〈弖〉、称辞 <anchor xml:id="app0810060127"/>竟<anchor
-                xml:id="app0810060127e"/>奉〈久止〉、皇神〈乃〉前〈尓〉白賜事〈乎〉、神主・祝部等諸聞食〈 <anchor xml:id="app0810060128"/>止<anchor
-                xml:id="app0810060128e"/>〉宣、</p>
+                xml:id="app0810060124"/>能<anchor xml:id="app0810060124e"/>〉前〈乎〉称辞竟奉〈尓〉、皇御孫命〈乃〉宇豆 <anchor
+                xml:id="app0810060126"/>〈乃〉<anchor xml:id="app0810060126e"/>幣帛令捧持〈弖〉、王臣等〈乎〉為使〈弖〉、称辞 <anchor
+                xml:id="app0810060127"/>竟<anchor xml:id="app0810060127e"/>奉〈久止〉、皇神〈乃〉前〈尓〉白賜事〈乎〉、神主・祝部等諸聞食〈 <anchor
+                xml:id="app0810060128"/>止<anchor xml:id="app0810060128e"/>〉宣、</p>
             <app from="#app0810060101" to="#app0810060101e">
               <lem wit="#土本 #永本 #九本">称</lem>
               <rdg wit="#右本">坐称</rdg>
@@ -2538,7 +2512,7 @@
             </app>
             <app from="#app0810060102" to="#app0810060102e">
               <lem wit="#土本 #永本 #右本 #九本">志</lem>
-              <note>志　訳注本は祝詞考にしたがい小書とする。ただし本朝月令所引弘仁式逸文諸写本も大書。</note>
+              <note>志　訳注本は祝詞考に従い小書とする。ただし本朝月令所引弘仁式逸文諸写本も大書。</note>
             </app>
             <app from="#app0810060103" to="#app0810060103e">
               <lem wit="#土本 #右本 #永本">公</lem>
@@ -2556,9 +2530,10 @@
               <note>止　土本・永本・九本「止」、右本「登」。</note>
             </app>
             <app from="#app0810060106" to="#app0810060106e">
-              <lem wit="#土本 #永本 #九本">以</lem>
-              <rdg/>
-              <note>以　土本・永本・九本「以」、右本「以」の上に「出〈牟〉〈イナ〉」を補入。</note>
+              <lem wit="#土本 #永本 #右本 #九本">以</lem>
+              <rdg wit="#右本挿入書">出〈牟〉〈イナ〉以</rdg>
+              <note>右本挿入書「出〈牟〉〈イナ〉」</note>
+              <note>以　土本・永本・九本「以」、右本「以」の上に挿入書「出〈牟〉〈イナ〉」。</note>
             </app>
             <app from="#app0810060107" to="#app0810060107e">
               <lem wit="#土本 #永本">母</lem>
@@ -2571,10 +2546,9 @@
               <note>母　土本・永本「母」、右本・九本「毛」。</note>
             </app>
             <app from="#app0810060109" to="#app0810060109e">
-              <lem wit="#土本 #永本 #九本">遺事無〈久〉</lem>
-              <rdg wit="#右本"/>
-              <note><!-- 要調整 -->右本補「遺事無〈久〉」<!-- /要調整 --></note>
-              <note>遺事無〈久〉　土本・永本・九本「遺事無〈久〉」。右本無し、「遺事無〈久〉」補入。</note>
+              <lem wit="#土本 #永本 #九本 #右本挿入書">遺事無〈久〉</lem>
+              <note>右本挿入書「遺事無〈久〉」</note>
+              <note>遺事無〈久〉　土本・永本・九本「遺事無〈久〉」。右本無し、挿入書「遺事無〈久〉」。</note>
             </app>
             <app from="#app0810060110" to="#app0810060110e">
               <lem wit="#土本 #右本 #九本">公</lem>
@@ -2582,14 +2556,15 @@
               <note>公　土本・右本・九本「公」、永本「尓」。</note>
             </app>
             <app from="#app0810060111" to="#app0810060111e">
-              <lem wit="#土本 #右本 #九本">悟奉〈礼止〉</lem>
-              <rdg wit="#永本"/>
-              <note><!-- 要調整 -->永本補「悟奉〈礼止〉」<!-- /要調整 --></note>
-              <note>悟奉〈礼止〉　土本・右本・九本「悟奉〈礼止〉」。永本無し、「悟奉〈礼止〉」補入。</note>
+              <lem wit="#土本 #右本 #九本 #永本挿入書">悟奉〈礼止〉</lem>
+              <note>永本挿入書「悟奉〈礼止〉」</note>
+              <note>悟奉〈礼止〉　土本・右本・九本「悟奉〈礼止〉」。永本無し、挿入書「悟奉〈礼止〉」。</note>
             </app>
             <app from="#app0810060112" to="#app0810060112e">
-              <lem wit="#土本 #永本 #右本">是</lem>
-              <note>是　九本「是」以下「公民〈乃〉」までの19字無し、補入。</note>
+              <lem wit="#土本 #永本 #右本 #九本傍書">是以、皇御孫命大御夢〈尓〉悟奉〈久〉、天下〈乃〉公民〈乃〉</lem>
+              <rdg wit="#九本"/>
+              <note>九本傍書「是以、皇御孫命大御夢〈尓〉悟奉〈久〉、天下〈乃〉公民〈乃〉」</note>
+              <note>是以、皇御孫命大御夢〈尓〉悟奉〈久〉、天下〈乃〉公民〈乃〉　九本「是」以下「公民〈乃〉」までの19字無し、傍書。</note>
             </app>
             <app from="#app0810060113" to="#app0810060113e">
               <lem wit="#土本 #右本 #九本">公</lem>
@@ -2604,7 +2579,7 @@
             <app from="#app0810060115" to="#app0810060115e">
               <lem wit="#土本 #永本 #右本">〈止〉</lem>
               <rdg wit="#九本">止</rdg>
-              <note>〈止〉　土本・永本・右本「〈止〉」、九本「止」。</note>
+              <note>〈止〉　九本は大書とする。</note>
             </app>
             <app from="#app0810060116" to="#app0810060116e">
               <lem wit="#土本 #永本 #右本">五</lem>
@@ -2619,7 +2594,7 @@
             <app from="#app0810060118" to="#app0810060118e">
               <lem cause="意改">乃</lem>
               <rdg wit="#土本 #永本 #右本">尓</rdg>
-              <note>乃　土本・永本・右本「尓」。本朝月令所引弘仁式逸文にしたがい「乃」に改める。九本は破損。</note>
+              <note>乃　土本・永本・右本「尓」。本朝月令所引弘仁式逸文に従い「乃」に改める。九本は破損。</note>
             </app>
             <app from="#app0810060119" to="#app0810060119e">
               <lem wit="#土本 #右本 #九本">公</lem>
@@ -2629,7 +2604,7 @@
             <app from="#app0810060120" to="#app0810060120e">
               <lem wit="#永本 #右本 #九本">始〈弖〉</lem>
               <rdg wit="#土本"/>
-              <note>始〈弖〉　土本無し、永本・右本・九本「始〈弖〉」。永本・右本・九本により補う。</note>
+              <note>始〈弖〉　土本無し、永本・右本・九本により補う。</note>
             </app>
             <app from="#app0810060121" to="#app0810060121e">
               <lem wit="#土本 #永本 #右本">能</lem>
@@ -2650,10 +2625,6 @@
               <lem wit="#土本 #永本 #右本">能</lem>
               <rdg wit="#九本">乃</rdg>
               <note>能　土本・永本・右本「能」、九本「乃」。</note>
-            </app>
-            <app from="#app0810060125" to="#app0810060125e">
-              <lem wit="#土本 #永本 #右本 #九本">乎</lem>
-              <note>乎　土本・永本・右本・九本「乎」。</note>
             </app>
             <app from="#app0810060126" to="#app0810060126e">
               <lem wit="#永本 #右本 #九本">〈乃〉</lem>
@@ -2728,9 +2699,9 @@
               <note>能　土本・永本・右本「能」、九本「乃」。</note>
             </app>
             <app from="#app0810060205" to="#app0810060205e">
-              <lem wit="#土本 #永本 #右本">椯・金〈能〉</lem>
+              <lem wit="#土本 #永本 #右本 #九本傍書">椯金〈能〉</lem>
               <rdg wit="#九本"/>
-              <note><!-- 要調整 -->九本「椯金〈乃〉」<!-- /要調整 --></note>
+              <note place="傍">九本傍書「椯金〈能〉」</note>
               <note>椯金〈能〉　土本・永本・右本「椯金〈能〉」、九本無し、「椯金〈乃〉」を補入。</note>
             </app>
             <app from="#app0810060206" to="#app0810060206e">
@@ -2775,10 +2746,10 @@
               <note>毛　土本・永本・右本「毛」、九本「己」。</note>
             </app>
             <app from="#app0810060214" to="#app0810060214e">
-              <lem wit="#九本">物、大</lem>
-              <rdg wit="#土本 #永本 #右本"/>
-              <note>右本「物大」</note>
-              <note>物大　土本・永本無し。右本無し、「物大」補入。九本「物大」。</note>
+              <lem wit="#九本 #右本挿入書">物大</lem>
+              <rdg wit="#土本 #永本"/>
+              <note>右本挿入書「物大」</note>
+              <note>物大　土本・永本無し。右本無し、挿入書「物大」。九本「物大」。</note>
             </app>
             <app from="#app0810060215" to="#app0810060215e">
               <lem wit="#土本 #永本 #右本">野</lem>
@@ -2871,10 +2842,9 @@
               <note>母　土本・永本・右本「母」、九本「毛」。</note>
             </app>
             <app from="#app0810060233" to="#app0810060233e">
-              <lem wit="#土本 #右本 #九本">尓</lem>
-              <rdg wit="#永本"/>
-              <note>永本「尓」</note>
-              <note>尓　土本・右本・九本「尓」、永本無し、補入。</note>
+              <lem wit="#土本 #右本 #九本 #永本挿入書">尓</lem>
+              <note>永本挿入書「尓」</note>
+              <note>尓　土本・右本・九本「尓」、永本無し、挿入書「尓」。</note>
             </app>
             <app from="#app0810060234" to="#app0810060234e">
               <lem wit="#土本 #永本 #右本">能</lem>
@@ -2980,7 +2950,7 @@
             <app from="#app0810070107" to="#app0810070107e">
               <lem wit="#土本 #永本 #右本 #九本">麻〈尓〉</lem>
               <note place="傍">右本傍書「イ旡／可也」</note>
-              <note>麻〈尓〉　右本この2字に傍点を付し「イ旡／可也」と注記。</note>
+              <note>麻〈尓〉　右本この2字に傍点を付し「イ旡／可也」と傍書。</note>
             </app>
             <app from="#app0810070118" to="#app0810070118e">
               <lem wit="#土本 #永本">能</lem>
@@ -3080,7 +3050,7 @@
               <lem wit="#永本傍書">津</lem>
               <rdg wit="#土本 #永本 #右本 #九本"/>
               <note place="傍">永本傍書「津歟」</note>
-              <note>津　土本・永本・右本・九本無し。永本傍書「津歟」。永本傍書により補う。</note>
+              <note>津　永本傍書により補う。</note>
             </app>
             <app from="#app0810070128" to="#app0810070128e">
               <lem wit="#土本 #永本 #右本 #九本">麻</lem>
@@ -3097,11 +3067,10 @@
               <note>能　土本・永本「能」、右本・九本「乃」。</note>
             </app>
             <app from="#app0810070131" to="#app0810070131e">
-              <lem wit="#土本">給〈登〉</lem>
-              <rdg wit="#永本"/>
+              <lem wit="#土本 #永本挿入書">給〈登〉</lem>
               <rdg wit="#右本 #九本">給〈止〉</rdg>
-              <note>永本「給〈登〉」</note>
-              <note>給〈登〉　土本「給〈登〉」、永本無し、補入。右本・九本「給〈止〉」。</note>
+              <note>永本挿入書「給〈登〉」</note>
+              <note>給〈登〉　土本「給〈登〉」。永本無し、挿入書「給〈登〉」。右本・九本「給〈止〉」。</note>
             </app>
             <app from="#app0810070132" to="#app0810070132e">
               <lem wit="#土本 #永本 #右本">登</lem>
@@ -3281,7 +3250,7 @@
             <app from="#app0810080120" to="#app0810080120e">
               <lem wit="#土本 #永本 #右本">閉</lem>
               <rdg wit="#九本">門</rdg>
-              <note>〈閉〉　土本・永本・右本「閉」、九本「門」。訳注本は雲本にしたがい、大書に意改し、本朝月令所引弘仁式逸文が「戸」として大書することを指摘する。</note>
+              <note>〈閉〉　土本・永本・右本「閉」、九本「門」。訳注本は雲本に従い、大書に意改し、本朝月令所引弘仁式逸文が「戸」として大書することを指摘する。</note>
             </app>
             <app from="#app0810080121" to="#app0810080121e">
               <lem wit="#土本 #永本 #九本">𤭖</lem>
@@ -3363,10 +3332,9 @@
               <note>庭　土本「廷」、永本・右本・九本「庭」。</note>
             </app>
             <app from="#app0810080203" to="#app0810080203e">
-              <lem wit="#土本 #永本 #九本">弥高〈尓〉</lem>
-              <rdg wit="#右本"/>
-              <note>右本「弥高〈尓〉」</note>
-              <note>弥高〈尓〉　土本・永本・九本「弥高〈尓〉」。右本無し、補入。</note>
+              <lem wit="#土本 #永本 #九本 #右本挿入書">弥高〈尓〉</lem>
+              <note>右本挿入書「弥高〈尓〉」</note>
+              <note>弥高〈尓〉　土本・永本・九本「弥高〈尓〉」。右本無し、挿入書「弥高〈尓〉」。</note>
             </app>
             <app from="#app0810080204" to="#app0810080204e">
               <lem wit="#土本 #永本 #右本">仁</lem>
@@ -3403,7 +3371,7 @@
                 xml:id="app0810090102"/>登<anchor xml:id="app0810090102e"/>〉宣、</p>
             <app from="#app0810090101" to="#app0810090101e">
               <lem wit="#土本 #永本 #右本 #九本">次</lem>
-              <note>次　土本・永本・右本・九本「次」。訳注本は18条および本朝月令所引弘仁式逸文にしたがい、この下に「祭」を補う。</note>
+              <note>次　土本・永本・右本・九本「次」。訳注本は18条および本朝月令所引弘仁式逸文に従い、この下に「祭」を補う。</note>
             </app>
             <app from="#app0810090102" to="#app0810090102e">
               <lem wit="#土本 #永本 #右本">登</lem>
@@ -3766,7 +3734,7 @@
               <note place="傍">永本傍訓「カチ」</note>
               <note place="傍">右本傍訓「カチ」</note>
               <note place="傍">九本傍訓「カチ」</note>
-              <note>柁　土本・永本・右本・九本「枚」（傍訓「カチ」）。祝詞考にしたがい「柁」に意改する。あるいは「杆」の誤写か。</note>
+              <note>柁　土本・永本・右本・九本「枚」（傍訓「カチ」）。祝詞考に従い「柁」に意改する。あるいは「杆」の誤写か。</note>
             </app>
             <app from="#app0810090711" to="#app0810090711e">
               <lem wit="#土本 #永本 #右本">能</lem>
@@ -3775,7 +3743,7 @@
             </app>
             <app from="#app0810090712" to="#app0810090712e">
               <lem wit="#土本 #永本 #右本 #九本">〈留〉</lem>
-              <note>〈留〉　訳注本・粕谷本は祝詞考にしたがい大書する。</note>
+              <note>〈留〉　訳注本・粕谷本は祝詞考に従い大書する。</note>
             </app>
             <app from="#app0810090713" to="#app0810090713e">
               <lem wit="#土本 #永本">都</lem>
@@ -3800,7 +3768,7 @@
             <app from="#app0810090717" to="#app0810090717e">
               <lem cause="意補">手</lem>
               <rdg wit="#土本 #永本 #右本 #九本"/>
-              <note>手　土本・永本・右本・九本無し。祝詞考にしたがい意補する。</note>
+              <note>手　土本・永本・右本・九本無し。祝詞考に従い意補する。</note>
             </app>
             <app from="#app0810090718" to="#app0810090718e">
               <lem wit="#土本 #永本 #右本">登</lem>
@@ -4063,13 +4031,13 @@
               />〉長秋〈尓〉、大八洲豊葦原瑞穂之国〈乎〉、安国〈止〉平〈 <anchor xml:id="app0810100108"/>気<anchor xml:id="app0810100108e"/>久〉所知食〈 <anchor
                 xml:id="app0810100109"/>止<anchor xml:id="app0810100109e"/>〉、〈古語云志呂志女須、〉言寄奉賜〈比弖〉、以天津御量〈弖〉、事問〈之〉磐根、木〈 <anchor
                 xml:id="app0810100110"/>能<anchor xml:id="app0810100110e"/>〉立〈知〉、草〈 <anchor xml:id="app0810100111"/>能<anchor
-                xml:id="app0810100111e"/>〉 <anchor xml:id="app0810100112"/>可岐<anchor xml:id="app0810100112e"
-              />葉〈乎毛〉言止〈弖〉、天降〈利〉賜〈比 <anchor xml:id="app0810100113"/>志<anchor xml:id="app0810100113e"/>〉食国天下〈 <anchor
-                xml:id="app0810100114"/>登<anchor xml:id="app0810100114e"/>〉、天津日嗣所知食〈須〉皇御孫之命〈 <anchor xml:id="app0810100115"
-                />能<anchor xml:id="app0810100115e"/>〉御殿〈乎〉、今奥山〈 <anchor xml:id="app0810100116"/>能<anchor
-                xml:id="app0810100116e"/>〉大峡・ <anchor xml:id="app0810100117"/>小<anchor xml:id="app0810100117e"
-              />峡〈尓〉立〈留〉木〈乎〉、斎部〈 <anchor xml:id="app0810100118"/>能<anchor xml:id="app0810100118e"/>〉斎斧〈乎〉以〈 <anchor
-                xml:id="app0810100119"/>弖<anchor xml:id="app0810100119e"
+                xml:id="app0810100111e"/>
+              <anchor xml:id="app0810100112"/>可岐<anchor xml:id="app0810100112e"/>〉葉〈乎毛〉言止〈弖〉、天降〈利〉賜〈比 <anchor
+                xml:id="app0810100113"/>志<anchor xml:id="app0810100113e"/>〉食国天下〈 <anchor xml:id="app0810100114"/>登<anchor
+                xml:id="app0810100114e"/>〉、天津日嗣所知食〈須〉皇御孫之命〈 <anchor xml:id="app0810100115"/>能<anchor xml:id="app0810100115e"
+              />〉御殿〈乎〉、今奥山〈 <anchor xml:id="app0810100116"/>能<anchor xml:id="app0810100116e"/>〉大峡・ <anchor
+                xml:id="app0810100117"/>小<anchor xml:id="app0810100117e"/>峡〈尓〉立〈留〉木〈乎〉、斎部〈 <anchor xml:id="app0810100118"
+                />能<anchor xml:id="app0810100118e"/>〉斎斧〈乎〉以〈 <anchor xml:id="app0810100119"/>弖<anchor xml:id="app0810100119e"
               />〉伐採〈弖〉、本末〈乎波〉山神〈尓〉祭〈弖〉、中間〈乎〉持出来〈弖〉、斎鉏〈乎〉以〈弖〉斎柱立〈弖〉、皇御孫之命〈 <anchor xml:id="app0810100120"/>乃<anchor
                 xml:id="app0810100120e"/>〉天之御翳、日之御翳〈止〉造奉仕〈礼 <anchor xml:id="app0810100121"/>流<anchor xml:id="app0810100121e"
               />〉瑞之 <anchor xml:id="app0810100122"/>御<anchor xml:id="app0810100122e"/>殿、〈古語云阿良可、〉汝屋船命〈尓〉天津奇護言〈乎〉〈古語云久須志伊波比
@@ -4110,9 +4078,10 @@
                 xml:id="app0810100162e"/>久〉安〈 <anchor xml:id="app0810100163"/>良気<anchor xml:id="app0810100163e"/>久〉所知食〈
                 <anchor xml:id="app0810100164"/>登<anchor xml:id="app0810100164e"/>〉白、</p>
             <app from="#app0810100101" to="#app0810100101e">
-              <lem wit="#永本 #九本 #右本">企</lem>
+              <lem wit="#右本" cause="異体字">企</lem>
+              <rdg wit="#永本 #九本">仚</rdg>
               <rdg wit="#土本">尓</rdg>
-              <note>企　土本「尓」、永本・九本「仚」、右本「企」。永本・九本・右本により「企」に改める（「仚」は「企」の異体字と見る）。</note>
+              <note>企　永本・九本・右本により「企」に改める（「仚」は「企」の異体字と見る）。</note>
             </app>
             <app from="#app0810100102" to="#app0810100102e">
               <lem wit="#土本 #永本 #右本">剣</lem>
@@ -4167,7 +4136,7 @@
             <app from="#app0810100112" to="#app0810100112e">
               <lem wit="#土本 #永本 #右本">可岐</lem>
               <rdg wit="#九本">〈可伎〉</rdg>
-              <note>〈可岐〉　土本・永本・右本「〈可岐〉」、九本「〈可伎〉」。訳注本は雲本にしたがい大書に意改する。</note>
+              <note>〈可岐〉　土本・永本・右本「〈可岐〉」、九本「〈可伎〉」。訳注本は雲本に従い大書に意改する。</note>
             </app>
             <app from="#app0810100113" to="#app0810100113e">
               <lem wit="#土本 #永本 #右本">志</lem>
@@ -4243,7 +4212,7 @@
             <app from="#app0810100127" to="#app0810100127e">
               <lem cause="意改">縄</lem>
               <rdg wit="#土本 #永本 #右本 #九本">鼠</rdg>
-              <note>縄　土本・永本・右本・九本「鼠」。祝詞考にしたがい「縄」に意改。あるいは「葛」の誤写か。</note>
+              <note>縄　土本・永本・右本・九本「鼠」。祝詞考に従い「縄」に意改。あるいは「葛」の誤写か。</note>
             </app>
             <app from="#app0810100128" to="#app0810100128e">
               <lem wit="#土本 #永本 #右本">能</lem>
@@ -4293,7 +4262,7 @@
             </app>
             <app from="#app0810100137" to="#app0810100137e">
               <lem wit="#土本 #永本 #右本 #九本">魯</lem>
-              <note>魯　土本・永本・右本・九本「魯」。訳注本は祝詞考にしたがい「留」に意改する。</note>
+              <note>魯　土本・永本・右本・九本「魯」。訳注本は祝詞考に従い「留」に意改する。</note>
             </app>
             <app from="#app0810100138" to="#app0810100138e">
               <lem wit="#土本 #永本 #右本">能</lem>
@@ -4332,7 +4301,7 @@
             <app from="#app0810100145" to="#app0810100145e">
               <lem wit="#土本 #永本">伊須須支〉</lem>
               <rdg wit="#右本 #九本">伊須須伎〉</rdg>
-              <note>〈伊須須支〉　土本・永本「〈伊須須支〉」、右本・九本「〈伊須須伎〉」。訳注本は雲本にしたがい大書し、また「伊須須伎」を採用。</note>
+              <note>〈伊須須支〉　土本・永本「〈伊須須支〉」、右本・九本「〈伊須須伎〉」。訳注本は雲本に従い大書し、また「伊須須伎」を採用。</note>
             </app>
             <app from="#app0810100146" to="#app0810100146e">
               <lem wit="#土本 #永本 #右本">伎</lem>
@@ -4436,20 +4405,20 @@
               御孫命〈乃〉同殿〈 <anchor xml:id="app0810100203"/>能<anchor xml:id="app0810100203e"/>〉裏〈尓〉塞坐〈弖〉、参入罷出 <anchor
                 xml:id="app0810100204"/>人<anchor xml:id="app0810100204e"/>〈 <anchor xml:id="app0810100205"/>能<anchor
                 xml:id="app0810100205e"/>〉選〈比〉所知〈 <anchor xml:id="app0810100206"/>志<anchor xml:id="app0810100206e"
-              />〉、神等〈能〉伊須呂許比阿礼比坐〈乎〉、言直〈 <anchor xml:id="app0810100207"/>志<anchor xml:id="app0810100207e"/>〉和〈 <anchor
-                xml:id="app0810100208"/>志<anchor xml:id="app0810100208e"/>〉、〈古語云夜波 <anchor xml:id="app0810100209"/>志<anchor
-                xml:id="app0810100209e"/>、〉坐〈弖〉、皇御孫命朝〈乃〉御膳、夕〈 <anchor xml:id="app0810100210"/>能<anchor
-                xml:id="app0810100210e"/>〉御膳供奉〈 <anchor xml:id="app0810100211"/>流<anchor xml:id="app0810100211e"/>〉比礼懸伴緒、
-                <anchor xml:id="app0810100212"/>襁懸伴緒<anchor xml:id="app0810100212e"/>〈乎〉、手 <anchor xml:id="app0810100213"
-                />躓<anchor xml:id="app0810100213e"/>足躓〈古語云 <anchor xml:id="app0810100214"/>麻<anchor xml:id="app0810100214e"
-              />我比、〉不令為〈弖〉、親王・諸王・諸臣・百官人等〈乎〉、己乖 <anchor xml:id="app0810100215"/>乖<anchor xml:id="app0810100215e"/>不令在、 <anchor
-                xml:id="app0810100216"/>耶<anchor xml:id="app0810100216e"/>意・穢心無〈久〉、宮進 <anchor xml:id="app0810100217"
-                />〈米〉進<anchor xml:id="app0810100217e"/>、宮勤勤〈之 <anchor xml:id="app0810100218"/>米<anchor
-                xml:id="app0810100218e"/>弖〉、咎過在〈乎波〉、見直〈 <anchor xml:id="app0810100219"/>志<anchor xml:id="app0810100219e"
-              />〉聞直坐〈弖〉、平〈 <anchor xml:id="app0810100220"/>良気<anchor xml:id="app0810100220e"/>久〉安〈 <anchor
-                xml:id="app0810100221"/>良気<anchor xml:id="app0810100221e"/>久〉、令仕奉坐〈尓〉依〈 <anchor xml:id="app0810100222"
-                />弖<anchor xml:id="app0810100222e"/>〉、大宮売命〈止〉御名〈乎〉称辞竟奉〈久 <anchor xml:id="app0810100223"/>登<anchor
-                xml:id="app0810100223e"/>〉白、 </p>
+                />〉、神等〈<anchor xml:id="app0810100224"/>能<anchor xml:id="app0810100224e"/>〉伊須呂許比阿礼比坐〈乎〉、言直〈 <anchor
+                xml:id="app0810100207"/>志<anchor xml:id="app0810100207e"/>〉和〈 <anchor xml:id="app0810100208"/>志<anchor
+                xml:id="app0810100208e"/>〉、〈古語云夜波 <anchor xml:id="app0810100209"/>志<anchor xml:id="app0810100209e"
+              />、〉坐〈弖〉、皇御孫命朝〈乃〉御膳、夕〈 <anchor xml:id="app0810100210"/>能<anchor xml:id="app0810100210e"/>〉御膳供奉〈 <anchor
+                xml:id="app0810100211"/>流<anchor xml:id="app0810100211e"/>〉比礼懸伴緒、 <anchor xml:id="app0810100212"/>襁懸伴緒<anchor
+                xml:id="app0810100212e"/>〈乎〉、手 <anchor xml:id="app0810100213"/>躓<anchor xml:id="app0810100213e"/>足躓〈古語云
+                <anchor xml:id="app0810100214"/>麻<anchor xml:id="app0810100214e"/>我比、〉不令為〈弖〉、親王・諸王・諸臣・百官人等〈乎〉、己乖 <anchor
+                xml:id="app0810100215"/>乖<anchor xml:id="app0810100215e"/>不令在、 <anchor xml:id="app0810100216"/>耶<anchor
+                xml:id="app0810100216e"/>意・穢心無〈久〉、宮進 <anchor xml:id="app0810100217"/>〈米〉進<anchor xml:id="app0810100217e"
+              />、宮勤勤〈之 <anchor xml:id="app0810100218"/>米<anchor xml:id="app0810100218e"/>弖〉、咎過在〈乎波〉、見直〈 <anchor
+                xml:id="app0810100219"/>志<anchor xml:id="app0810100219e"/>〉聞直坐〈弖〉、平〈 <anchor xml:id="app0810100220"
+                />良気<anchor xml:id="app0810100220e"/>久〉安〈 <anchor xml:id="app0810100221"/>良気<anchor xml:id="app0810100221e"
+              />久〉、令仕奉坐〈尓〉依〈 <anchor xml:id="app0810100222"/>弖<anchor xml:id="app0810100222e"/>〉、大宮売命〈止〉御名〈乎〉称辞竟奉〈久 <anchor
+                xml:id="app0810100223"/>登<anchor xml:id="app0810100223e"/>〉白、 </p>
             <app from="#app0810100201" to="#app0810100201e">
               <lem wit="#右本 #九本">白</lem>
               <rdg wit="#土本 #永本">曰</rdg>
@@ -4471,14 +4440,17 @@
               <note>人　土本「入」、永本・右本・九本「人」。永本・九本・右本により「人」に改める。</note>
             </app>
             <app from="#app0810100205" to="#app0810100205e">
-              <lem>能</lem>
-              <rdg/>
-              <note/>
+              <lem wit="#土本 #永本 #右本">能</lem>
+              <rdg wit="#九本">乃</rdg>
             </app>
             <app from="#app0810100206" to="#app0810100206e">
               <lem wit="#土本 #永本 #右本">志</lem>
               <rdg wit="#九本">之</rdg>
               <note>志　土本・永本・右本「志」、九本「之」。</note>
+            </app>
+            <app from="#app0810100224" to="app0810100224e">
+              <lem wit="#土本 #永本 #右本">能</lem>
+              <rdg wit="#九本">乃</rdg>
             </app>
             <app from="#app0810100207" to="#app0810100207e">
               <lem wit="#土本 #永本 #右本">志</lem>
@@ -4507,9 +4479,8 @@
             </app>
             <app from="#app0810100212" to="#app0810100212e">
               <lem wit="#土本 #永本">襁懸伴緒</lem>
-              <rdg wit="#九本">襁懸伴緒</rdg>
+              <rdg wit="#九本">襁伴緒</rdg>
               <rdg wit="#右本"/>
-              <note>襁懸伴緒　土本・永本「襁懸伴緒」、九本「襁懸伴緒」、右本無し。</note>
             </app>
             <app from="#app0810100213" to="#app0810100213e">
               <lem wit="#土本 #右本 #九本">躓</lem>
@@ -4522,8 +4493,7 @@
               <note>麻　土本・永本・九本「麻」、右本「鹿」。</note>
             </app>
             <app from="#app0810100215" to="#app0810100215e">
-              <lem wit="#土本">乖</lem>
-              <rdg wit="#永本 #右本">々</rdg>
+              <lem wit="#土本 #永本 #右本">乖</lem>
               <rdg wit="#九本"/>
               <note>乖　土本「乖」、永本・右本「々（乖）」、九本無し。</note>
             </app>
@@ -4574,9 +4544,9 @@
             <p ana="項" corresp="engishiki_v8_en.xml#item08101101 engishiki_v8_ja.xml#item08101101" xml:id="item08101101">
               御門祭<lb/>櫛磐牖・豊磐牖命〈 <anchor xml:id="app0810110101"/>登<anchor xml:id="app0810110101e"
               />〉御名〈乎〉申事〈波〉、四方内外御門〈尓〉、如湯津磐村〈久〉塞坐〈弖〉、四方・四角〈与利〉疎〈備〉荒〈備〉来〈武〉天〈 <anchor xml:id="app0810110102"/>能<anchor
-                xml:id="app0810110102e"/>〉麻我都比〈 <anchor xml:id="app0810110103"/>登<anchor xml:id="app0810110103e"/>〉云神〈
-                <anchor xml:id="app0810110104"/>能<anchor xml:id="app0810110104e"/>〉言〈武〉悪事〈尓〉、〈古語 <anchor
-                xml:id="app0810110105"/>云<anchor xml:id="app0810110105e"/>
+                xml:id="app0810110102e"/>〉麻我都比〈 <anchor xml:id="app0810110103"/>登<anchor xml:id="app0810110103e"/>〉<anchor
+                xml:id="app0810110117"/>云<anchor xml:id="app0810110117e"/>神〈 <anchor xml:id="app0810110104"/>能<anchor
+                xml:id="app0810110104e"/>〉言〈武〉悪事〈尓〉、〈古語 <anchor xml:id="app0810110105"/>云<anchor xml:id="app0810110105e"/>
               <anchor xml:id="app0810110106"/>麻我<anchor xml:id="app0810110106e"/>許登、〉相 <anchor xml:id="app0810110107"
                 />〈麻自許利〉<anchor xml:id="app0810110107e"/>、相 <anchor xml:id="app0810110108"/>口<anchor xml:id="app0810110108e"/>
               <anchor xml:id="app0810110109"/>会<anchor xml:id="app0810110109e"/>賜事無〈久〉、自上往〈波〉上護〈利〉、自下往〈波〉下護〈利〉、待防掃 <anchor
@@ -4586,7 +4556,7 @@
                 facs="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-8%2F00023.tif/full/full/0/default.jpg"/>
               聞直坐〈弖〉、平〈 <anchor xml:id="app0810110113"/>良気<anchor xml:id="app0810110113e"/>久〉 <anchor xml:id="app0810110114"
                 />安〈良気久〉<anchor xml:id="app0810110114e"/>令奉仕賜故〈尓〉、豊磐牖命・櫛磐牖命〈 <anchor xml:id="app0810110115"/>登<anchor
-                xml:id="app0810110115e"/>〉御名〈乎〉称辞竟奉〈久登〉白、</p>
+                  xml:id="app0810110115e"/>〉御名〈乎〉称辞竟奉〈久<anchor xml:id="app0810110116"/>登<anchor xml:id="app0810110116e"/>〉白、</p>
             <app from="#app0810110101" to="#app0810110101e">
               <lem wit="#土本 #永本 #右本">登</lem>
               <rdg wit="#九本">止</rdg>
@@ -4602,10 +4572,14 @@
               <rdg wit="#九本">止</rdg>
               <note>登　土本・永本・右本「登」、九本「止」。</note>
             </app>
+            <app from="#app0810110117" to="#app0810110117e">
+              <lem wit="#永本 #右本 #九本">云</lem>
+              <rdg wit="#土本">〈云〉</rdg>
+              <note>云　永本・右本・九本により大書に改める。</note>
+            </app>
             <app from="#app0810110104" to="#app0810110104e">
-              <lem>能</lem>
-              <rdg/>
-              <note>能　土本・永本・右本「登」、九本「止」。</note>
+              <lem wit="#土本 #永本">能</lem>
+              <rdg wit="#右本 #九本">乃</rdg>
             </app>
             <app from="#app0810110105" to="#app0810110105e">
               <lem wit="#九本">云</lem>
@@ -4620,7 +4594,7 @@
             <app from="#app0810110107" to="#app0810110107e">
               <lem wit="#永本 #右本 #九本">〈麻自許利〉</lem>
               <rdg wit="#土本">麻自許別</rdg>
-              <note>〈麻自許利〉　土本「麻自許別」、永本・右本・九本「麻自許利」。永本・右本・九本により「麻自許利」に改める。訳注本は雲本にしたがい、大書に意改。</note>
+              <note>〈麻自許利〉　土本「麻自許別」、永本・右本・九本「麻自許利」。永本・右本・九本により「麻自許利」に改める。訳注本は雲本に従い、大書に意改。</note>
             </app>
             <app from="#app0810110108" to="#app0810110108e">
               <lem wit="#土本 #永本 #右本">口</lem>
@@ -4659,6 +4633,10 @@
               <note>安〈良気久〉　土本・右本「安〈良気久〉」、永本無し、九本「安〈久〉」。</note>
             </app>
             <app from="#app0810110115" to="#app0810110115e">
+              <lem wit="#土本 #永本 #右本">登</lem>
+              <rdg wit="#九本">止</rdg>
+            </app>
+            <app from="#app0810110116" to="#app0810110116e">
               <lem wit="#土本 #永本">登</lem>
               <rdg wit="#右本 #九本">止</rdg>
               <note>登　土本・永本「登」、右本・九本「止」。</note>
@@ -4741,9 +4719,9 @@
                 facs="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-8%2F00025.tif/full/full/0/default.jpg"/>
               末・短 <anchor xml:id="app0810120335"/>山<anchor xml:id="app0810120335e"/>末〈尓〉上坐〈弖〉、高山之伊 <anchor
                 xml:id="app0810120336"/>恵<anchor xml:id="app0810120336e"/>理・短山之伊恵理〈乎〉撥別〈弖〉所聞食〈武〉、如此所聞食〈弖波〉、 <anchor
-                xml:id="app0810120337"/>皇御孫之命<anchor xml:id="app0810120337e"/>〈乃〉朝 <anchor xml:id="app0810120338"/>庭<anchor
-                xml:id="app0810120338e"/>〈乎〉始〈弖〉、天下四方国〈尓波〉、罪〈止〉云〈布〉罪〈波〉不在〈止〉、科 <anchor xml:id="app0810120339"/>戸<anchor
-                xml:id="app0810120339e"/>之風〈乃〉天之 <anchor xml:id="app0810120340"/>八<anchor xml:id="app0810120340e"
+                xml:id="app0810120337"/>皇御孫之命〈乃〉朝 <anchor xml:id="app0810120338"/>庭<anchor xml:id="app0810120338e"
+                />〈乎〉始〈弖〉、天下四方国〈尓波〉<anchor xml:id="app0810120337e"/>、罪〈止〉云〈布〉罪〈波〉不在〈止〉、科 <anchor xml:id="app0810120339"
+                />戸<anchor xml:id="app0810120339e"/>之風〈乃〉天之 <anchor xml:id="app0810120340"/>八<anchor xml:id="app0810120340e"
               />重雲〈乎〉吹放事之如〈久〉、朝之御霧・夕之御霧〈乎〉朝風・夕風〈乃〉吹掃事之如、大津辺〈尓〉居大船〈乎〉、舳解放艫解放〈弖〉、大海原〈尓〉押放事之如〈久〉、彼方之繁木本〈乎〉、焼鎌〈乃〉敏鎌以〈弖〉打掃事之如〈久〉、遺罪〈波〉不在〈止〉、祓給〈比〉清給事〈乎〉、高
                 <anchor xml:id="app0810120341"/>山<anchor xml:id="app0810120341e"/>・短山之末〈与 <anchor xml:id="app0810120342"
                 />理<anchor xml:id="app0810120342e"/>〉、佐久那 <anchor xml:id="app0810120343"/>太<anchor xml:id="app0810120343e"
@@ -4814,9 +4792,12 @@
               <note>志尓　土本・永本・右本「志尓」、九本「之」。訳注本は「志」とする。</note>
             </app>
             <app from="#app0810120310" to="#app0810120310e">
-              <lem wit="#土本 #右本">問〈志〉</lem>
-              <rdg/>
-              <note>問〈志〉　土本・右本「問〈志〉」、永本「問」、「〈志〉」を補入、九本「問〈志〉」補入。</note>
+              <lem wit="#土本 #右本 #永本傍書 #九本傍書">問〈志〉</lem>
+              <rdg wit="#永本">問</rdg>
+              <rdg wit="#九本"/>
+              <note place="傍">永本傍書「〈志〉」</note>
+              <note place="傍">九本傍書「問〈志〉」</note>
+              <note>問〈志〉　土本・右本「問〈志〉」。永本「問」、傍書「〈志〉」。九本傍書「問〈志〉」。</note>
             </app>
             <app from="#app0810120311" to="#app0810120311e">
               <lem wit="#土本 #永本 #右本">志</lem>
@@ -4936,11 +4917,11 @@
             </app>
             <app from="#app0810120333" to="#app0810120333e">
               <lem wit="#土本 #永本 #右本 #九本">〈曾</lem>
-              <note>〈曾〉　訳注本は雲本にしたがい、大書に意改する。</note>
+              <note>〈曾〉　訳注本は雲本に従い、大書に意改する。</note>
             </app>
             <app from="#app0810120334" to="#app0810120334e">
               <lem wit="#土本 #永本 #右本 #九本">乃良</lem>
-              <note>〈乃良〉　訳注本は雲本にしたがい、大書に意改する。</note>
+              <note>〈乃良〉　訳注本は雲本に従い、大書に意改する。</note>
             </app>
             <app from="#app0810120335" to="#app0810120335e">
               <lem wit="#土本 #永本 #右本 #九本">山</lem>
@@ -4952,8 +4933,9 @@
               <note>恵　土本「穂」、永本・右本・九本「恵」。永本・右本・九本により「恵」に改める。</note>
             </app>
             <app from="#app0810120337" to="#app0810120337e">
-              <note>右本「此分私不読」</note>
-              <note>皇御孫之命……〈尓波〉　この18字に対し、右本は「此分私不読」との注を付す。</note>
+              <lem wit="#土本 #永本 #右本 #九本">皇御孫之命〈乃〉朝庭〈乎〉始〈弖〉、天下四方国〈尓波〉</lem>
+              <note place="傍">右本傍書「此分私不読」</note>
+              <note>皇御孫之命〈乃〉朝庭〈乎〉始〈弖〉、天下四方国〈尓波〉　この18字に対し、右本は範囲を示す符号を付し、「皇御」の左に「此分私不読」と傍書する。</note>
             </app>
             <app from="#app0810120338" to="#app0810120338e">
               <lem wit="#永本 #右本 #九本">庭</lem>
@@ -5014,9 +4996,8 @@
               <note>開　土本・永本「聞」（傍訓「アキツ」）。右本・九本「開」。右本・九本により「開」に改める。</note>
             </app>
             <app from="#app0810120349" to="#app0810120349e">
-              <lem wit="#永本">可可</lem>
+              <lem wit="#永本 #右本 #九本">可可</lem>
               <rdg wit="#土本">哥</rdg>
-              <rdg wit="#右本 #九本">可々</rdg>
               <note>可可　土本「哥」、永本「可可」、右本・九本「可々」。永本等により「可可」に改める。</note>
             </app>
             <app from="#app0810120350" to="#app0810120350e">
@@ -5025,9 +5006,8 @@
               <note>牟　土本・永本・右本「牟」、九本「武」。</note>
             </app>
             <app from="#app0810120351" to="#app0810120351e">
-              <lem wit="#永本">可可</lem>
+              <lem wit="#永本 #右本 #九本">可可</lem>
               <rdg wit="#土本">哥</rdg>
-              <rdg wit="#右本 #九本">可々</rdg>
               <note>可可　土本「哥」、永本「可可」、右本・九本「可々」。永本等により「可可」に改める。</note>
             </app>
             <app from="#app0810120352" to="#app0810120352e">
@@ -5048,8 +5028,10 @@
               <note>登　土本・永本・右本「登」、九本「止」。</note>
             </app>
             <app from="#app0810120355" to="#app0810120355e">
-              <lem wit="#土本 #永本 #右本 #九本">比</lem>
-              <note>比　右本この下に「咩」を補入。</note>
+              <lem wit="#土本 #永本 #九本">比</lem>
+              <rdg wit="#右本挿入書">比咩</rdg>
+              <note>右本挿入書「咩」</note>
+              <note>比　右本この下に挿入書「咩」。</note>
             </app>
             <app from="#app0810120356" to="#app0810120356e">
               <lem wit="#土本 #永本 #右本">牟</lem>
@@ -5110,9 +5092,9 @@
               <note>星　土本・永本・右本「星」、九本「皇」。</note>
             </app>
             <app from="#app0810130102" to="#app0810130102e">
-              <lem wit="#土本 #右本 #九本 #永本補書">命司</lem>
-              <note>永本補書「命司」</note>
-              <note>命司　土本・右本・九本「命司」。永本無し、「命司」補入。</note>
+              <lem wit="#土本 #右本 #九本 #永本挿入書">命司</lem>
+              <note>永本挿入書「命司」</note>
+              <note>命司　土本・右本・九本「命司」。永本無し、挿入書「命司」。</note>
             </app>
             <app from="#app0810130103" to="#app0810130103e">
               <lem wit="#永本 #右本 #九本">方</lem>
@@ -5121,7 +5103,7 @@
             </app>
             <app from="#app0810130104" to="#app0810130104e">
               <lem wit="#土本 #永本 #右本 #九本">禄</lem>
-              <note>禄　訳注本は雲本にしたがい、「銀」に意改する。本朝月令所引弘仁式逸文は「緑」に誤る。</note>
+              <note>禄　訳注本は雲本に従い、「銀」に意改する。本朝月令所引弘仁式逸文は「緑」に誤る。</note>
             </app>
             <app from="#app0810130105" to="#app0810130105e">
               <lem wit="#土本 #右本 #九本">桑</lem>
@@ -5142,6 +5124,7 @@
               <lem wit="#土本 #永本">万歳万歳</lem>
               <rdg wit="#右本">々々々々</rdg>
               <rdg wit="#九本">々々</rdg>
+              <note place="傍">右本下二字に左傍書「此二字イナ」</note>
               <note>万歳万歳　土本・永本「万歳万歳」、右本「々々々々」、下二字に左傍書「此二字イナ」、九本「々々」。本朝月令所引弘仁式逸文は「々々」。</note>
             </app>
           </div>
@@ -5280,7 +5263,7 @@
               <note>能　土本・永本・右本「能」、九本「乃」。</note>
             </app>
             <app from="#app0810140121" to="#app0810140121e">
-              <lem wit="#土本 #永本 #右本 #九本"/>
+              <lem wit="#土本 #永本 #右本 #九本">留</lem>
               <note place="傍">右本左傍書「曾イ」</note>
               <note>留　右本左傍書「曾イ」あり。</note>
             </app>
@@ -5329,9 +5312,8 @@
               <note>太　土本・永本・九本「大」、右本「太」。右本により「太」に改める。</note>
             </app>
             <app from="#app0810140130" to="#app0810140130e">
-              <lem>詞</lem>
-              <rdg/>
-              <note/>
+              <lem wit="#土本 #永本 #右本">詞</lem>
+              <rdg wit="#九本"/>
             </app>
             <app from="#app0810140131" to="#app0810140131e">
               <lem wit="#右本">辞</lem>
@@ -5377,7 +5359,7 @@
             </app>
             <app from="#app0810150104" to="#app0810150104e">
               <lem wit="#土本 #永本 #右本 #九本">妙</lem>
-              <note>妙　訳注本は雲本にしたがい、この下に「〈尓〉」を意補する。</note>
+              <note>妙　訳注本は雲本に従い、この下に「〈尓〉」を意補する。</note>
             </app>
             <app from="#app0810150105" to="#app0810150105e">
               <lem wit="#土本 #永本 #九本">𤭖</lem>
@@ -5508,9 +5490,8 @@
               <note>志　土本・永本・右本「志」、九本「之」。</note>
             </app>
             <app from="#app0810160209" to="#app0810160209e">
-              <lem wit="#土本 #右本 #九本">百</lem>
-              <rdg/>
-              <note>百　永本は補入。</note>
+              <lem wit="#土本 #右本 #九本 #永本挿入書">百</lem>
+              <note>永本挿入書「百」</note>
             </app>
             <app from="#app0810160210" to="#app0810160210e">
               <lem wit="#土本 #永本 #九本">命</lem>
@@ -5613,13 +5594,12 @@
               <note>奉　土本・永本・右本・九本無し。意補する。</note>
             </app>
             <app from="#app0810170108" to="#app0810170108e">
-              <lem wit="#土本 #右本 #九本">下</lem>
-              <rdg/>
-              <note>下　永本は補入。</note>
+              <lem wit="#土本 #右本 #九本 #永本挿入書">下</lem>
+              <note>永本挿入書「下」</note>
             </app>
             <app from="#app0810170109" to="#app0810170109e">
               <lem wit="#土本 #永本 #右本 #九本">豆</lem>
-              <note>豆　訳注本は雲本にしたがい、この下に「〈乃〉」を意補する。</note>
+              <note>豆　訳注本は雲本に従い、この下に「〈乃〉」を意補する。</note>
             </app>
             <app from="#app0810170110" to="#app0810170110e">
               <lem wit="#土本 #永本 #九本">𤭖</lem>
@@ -5638,7 +5618,7 @@
             </app>
             <app from="#app0810170113" to="#app0810170113e">
               <lem wit="#土本 #永本 #右本 #九本">豆</lem>
-              <note>豆　訳注本は雲本にしたがい、この下に「〈乃〉」を意補する。</note>
+              <note>豆　訳注本は雲本に従い、この下に「〈乃〉」を意補する。</note>
             </app>
             <app from="#app0810170114" to="#app0810170114e">
               <lem wit="#土本 #永本 #右本">能</lem>
@@ -5647,7 +5627,7 @@
             </app>
             <app from="#app0810170115" to="#app0810170115e">
               <lem wit="#土本 #永本 #右本 #九本">尓</lem>
-              <note>尓　訳注本は雲本にしたがい、「止」に意改する。</note>
+              <note>尓　訳注本は雲本に従い、「止」に意改する。</note>
             </app>
             <app from="#app0810170116" to="#app0810170116e">
               <lem wit="#永本 #右本 #九本">庭</lem>
@@ -5714,9 +5694,10 @@
               <note>流　土本・永本・右本「流」、九本「留」。</note>
             </app>
             <app from="#app0810190103" to="#app0810190103e">
-              <lem wit="#九本">前</lem>
+              <lem wit="#九本 #右本挿入書">前</lem>
               <rdg wit="#土本 #永本"/>
-              <note>前　土本・永本無し、九本「前」。右本は補入。九本・右本により「前」を補う。</note>
+              <note>右本挿入書「前」</note>
+              <note>前　九本・右本により「前」を補う。</note>
             </app>
             <app from="#app0810190104" to="#app0810190104e">
               <lem wit="#土本 #永本 #右本">流</lem>
@@ -5789,14 +5770,12 @@
               />神〈乃〉大前〈尓〉、申進〈留〉 <anchor xml:id="app0810210106"/>天<anchor xml:id="app0810210106e"/>津祝詞〈乃〉太祝詞〈乎〉、神主部・物忌等、諸
                 <anchor xml:id="app0810210107"/>聞<anchor xml:id="app0810210107e"/>食〈止〉宣、〈禰宜・内人等共称唯、〉</p>
             <app from="#app0810210101" to="#app0810210101e">
-              <lem wit="#土本 #右本 #九本">六</lem>
-              <rdg/>
-              <note>六　永本は補入。</note>
+              <lem wit="#土本 #右本 #九本 #永本挿入書">六</lem>
+              <note>永本挿入書「六」</note>
             </app>
             <app from="#app0810210102" to="#app0810210102e">
-              <lem wit="#土本 #右本 #九本">祭</lem>
-              <rdg/>
-              <note>祭　永本は補入。</note>
+              <lem wit="#土本 #右本 #九本 #永本挿入書">祭</lem>
+              <note>永本挿入書「祭」</note>
             </app>
             <app from="#app0810210103" to="#app0810210103e">
               <lem wit="#土本 #永本 #右本">天</lem>
@@ -6007,7 +5986,7 @@
             <app from="#app0810230106" to="#app0810230106e">
               <lem wit="#永本">其</lem>
               <rdg wit="#土本 #右本 #九本">某</rdg>
-              <note>其　土本・右本・九本「某」、永本「其」。永本にしたがい「其」を採用する。訳注本・粕谷本は「某」を採用する。</note>
+              <note>其　土本・右本・九本「某」、永本「其」。永本に従い「其」を採用する。訳注本・粕谷本は「某」を採用する。</note>
             </app>
             <app from="#app0810230107" to="#app0810230107e">
               <lem wit="#土本 #永本">其</lem>
@@ -6184,7 +6163,7 @@
             </app>
             <app from="#app0810250107" to="#app0810250107e">
               <lem wit="#土本 #永本 #右本 #九本">堅</lem>
-              <note>堅　訳注本は祝詞考にしたがい、この上に「常磐〈尓〉」を意補する。</note>
+              <note>堅　訳注本は祝詞考に従い、この上に「常磐〈尓〉」を意補する。</note>
             </app>
             <app from="#app0810250108" to="#app0810250108e">
               <lem wit="#土本 #永本 #右本">気</lem>
@@ -6192,9 +6171,9 @@
               <note>気　土本・永本・右本「気」、九本無し。</note>
             </app>
             <app from="#app0810250109" to="#app0810250109e">
-              <lem wit="#土本 #右本">坐</lem>
+              <lem wit="#土本 #右本 #永本挿入書">坐</lem>
               <rdg wit="#九本"/>
-              <note>坐　土本・右本「坐」、永本補入、九本無し。</note>
+              <note>永本挿入書「坐」</note>
             </app>
             <app from="#app0810250110" to="#app0810250110e">
               <lem wit="#土本 #永本 #右本">志米武</lem>
@@ -6262,7 +6241,7 @@
             xml:id="article081027">
             <head ana="遷却祟神"/>
             <p ana="項" corresp="engishiki_v8_en.xml#item08102701 engishiki_v8_ja.xml#item08102701" xml:id="item08102701">
-                遷却<anchor xml:id="app0810270101"/>崇<anchor xml:id="app0810270101e"/>
+              遷却<anchor xml:id="app0810270101"/>祟<anchor xml:id="app0810270101e"/>
               <anchor xml:id="app0810270102"/>神<anchor xml:id="app0810270102e"/>
               <lb/>高天之原〈尓〉神留坐〈 <anchor xml:id="app0810270103"/>弖<anchor xml:id="app0810270103e"/>〉、事 <anchor
                 xml:id="app0810270104"/>始<anchor xml:id="app0810270104e"/>給〈 <anchor xml:id="app0810270105"/>志<anchor
@@ -6303,14 +6282,14 @@
               />腹満双〈弖〉、 <anchor xml:id="app0810270142"/>米<anchor xml:id="app0810270142e"/>〈尓毛〉穎〈尓毛〉、山住物者毛〈 <anchor
                 xml:id="app0810270143"/>能<anchor xml:id="app0810270143e"/>〉和物・毛〈 <anchor xml:id="app0810270144"/>能<anchor
                 xml:id="app0810270144e"/>〉荒物、大野原〈尓〉生物者甘菜・辛菜、青海原〈尓〉住物者鰭広物・鰭狭物、奥津海菜・辺津海菜〈尓〉 <anchor xml:id="app0810270145"
-                />至〈万弖尓〉<anchor xml:id="app0810270145e"/>、横山之如〈久〉八物〈尓〉置所足〈弖〉、奉〈留〉宇豆之幣帛 <anchor xml:id="app0810270146"
+                />至〈万弖尓〉<anchor xml:id="app0810270145e"/>、横山之如〈久〉八物〈尓〉置所足〈弖〉、奉〈留〉宇豆<anchor xml:id="app0810270149"/>之<anchor xml:id="app0810270149e"/>幣帛 <anchor xml:id="app0810270146"
                 />乎<anchor xml:id="app0810270146e"/>、皇神等〈乃〉御心〈毛〉明〈尓〉、安幣帛〈 <anchor xml:id="app0810270147"/>能<anchor
                 xml:id="app0810270147e"/>〉足幣帛〈止〉、平〈久〉聞食〈弖〉、 <anchor xml:id="app0810270148"/>祟<anchor xml:id="app0810270148e"
               />給〈比〉健備給事無〈之弖〉、山川〈乃〉広〈久〉清地〈尓〉遷出坐〈弖〉、神〈奈我良〉鎮坐〈世止〉、称辞竟奉〈止〉申、</p>
             <app from="#app0810270101" to="#app0810270101e">
-              <lem>崇</lem>
-              <rdg/>
-              <note>祟　土本・永本・右本「崇」、九本「祟」。※九本により「祟」に改める。</note>
+              <lem wit="#九本">祟</lem>
+              <rdg wit="#土本 #永本 #右本">崇</rdg>
+              <note>祟　九本により「祟」に改める。</note>
             </app>
             <app from="#app0810270102" to="#app0810270102e">
               <lem wit="#土本 #永本 #右本 #九本">神</lem>
@@ -6413,8 +6392,7 @@
               <note>能　土本・永本「能」、右本・九本「乃」。</note>
             </app>
             <app from="#app0810270122" to="#app0810270122e">
-              <lem wit="#土本 #永本">降</lem>
-              <rdg wit="#右本">降</rdg>
+              <lem wit="#土本 #永本 #右本">降</lem>
               <rdg wit="#九本">降々</rdg>
               <note place="傍">右本左傍書「降イ」</note>
               <note>降　土本・永本「降」、九本「降々」、右本「降」、その下に○を付し左傍書「降イ」。</note>
@@ -6496,7 +6474,7 @@
             </app>
             <app from="#app0810270138" to="#app0810270138e">
               <lem wit="#土本 #永本 #右本 #九本">〈須波伎〉</lem>
-              <note>〈須波伎〉　訳注本は雲本にしたがい、大書とする。</note>
+              <note>〈須波伎〉　訳注本は雲本に従い、大書とする。</note>
             </app>
             <app from="#app0810270139" to="#app0810270139e">
               <lem wit="#永本 #右本">太</lem>
@@ -6532,10 +6510,13 @@
               <rdg wit="#土本 #永本"/>
               <note>至〈万弖尓〉　土本・永本無し、右本・九本「至〈万弖尓〉」。右本・九本により「至〈万弖尓〉」を補う。</note>
             </app>
+            <app from="#app0810270149" to="#app0810270149e">
+              <lem wit="#土本 #永本 #右本 #九本">之</lem>
+              <note>之　訳注本は「〈之〉」とする。</note>
+            </app>
             <app from="#app0810270146" to="#app0810270146e">
-              <lem>乎</lem>
-              <rdg/>
-              <note/>
+              <lem wit="#土本 #永本 #右本 #九本">乎</lem>
+              <note>乎　粕谷本は「乎」とする。</note>
             </app>
             <app from="#app0810270147" to="#app0810270147e">
               <lem wit="#土本 #永本 #右本">能</lem>
@@ -6723,9 +6704,9 @@
             </app>
             <app from="#app0810290120" to="#app0810290120e">
               <lem wit="#土本 #右本 #九本">麁</lem>
-              <rdg wit="#永本">【厃/辰】</rdg>
+              <rdg wit="#永本">【厃⊃辰】</rdg>
               <note place="傍">永本左傍書「本ノマヽ」</note>
-              <note>麁　永本【厃/辰】、左傍に「本ノマヽ」と注記する。</note>
+              <note>麁　永本【厃⊃辰】、左傍に「本ノマヽ」と注記する。</note>
             </app>
             <app from="#app0810290121" to="#app0810290121e">
               <lem wit="#土本 #永本">能</lem>
@@ -6756,7 +6737,7 @@
               <lem wit="#土本 #右本">許母利</lem>
               <rdg wit="#永本">許女利</rdg>
               <rdg wit="#九本">許毛利</rdg>
-              <note>〈許母利〉　土本・右本「〈許母利〉」、永本「〈許女利〉」、九本「〈許毛利〉」。訳注本は祝詞考にしたがい、「許母利」と大書する。</note>
+              <note>〈許母利〉　土本・右本「〈許母利〉」、永本「〈許女利〉」、九本「〈許毛利〉」。訳注本は祝詞考に従い、「許母利」と大書する。</note>
             </app>
             <app from="#app0810290127" to="#app0810290127e">
               <lem wit="#土本 #右本 #九本">忌</lem>
@@ -6853,7 +6834,7 @@
             </app>
             <app from="#app0810290204" to="#app0810290204e">
               <lem wit="#土本 #永本 #右本 #九本">神</lem>
-              <note>神　訳注本は神寿後釈にしたがい「祖」に改める。</note>
+              <note>神　訳注本は神寿後釈に従い「祖」に改める。</note>
             </app>
             <app from="#app0810290205" to="#app0810290205e">
               <lem wit="#土本 #永本">能</lem>
@@ -7000,7 +6981,7 @@
             <app from="#app0810290233" to="#app0810290233e">
               <lem wit="#土本 #右本">天皇命〈能〉</lem>
               <rdg wit="#九本">天皇命〈乃〉</rdg>
-              <note>天皇命〈能〉　土本・右本「天皇命〈能〉」、永本補入。九本「天皇命〈乃〉」。</note>
+              <note>永本挿入書「天皇命〈能〉」</note>
             </app>
             <app from="#app0810290234" to="#app0810290234e">
               <lem wit="#土本 #永本 #右本">登</lem>
@@ -7026,7 +7007,7 @@
               <lem cause="意改">白</lem>
               <rdg wit="#土本 #永本 #右本">〈自〉</rdg>
               <rdg wit="#九本">〈白〉</rdg>
-              <note>白　土本・永本・右本「〈自〉」、九本「〈白〉」。祝詞新講にしたがい、「白」を採用した上で大書に意改する。</note>
+              <note>白　土本・永本・右本「〈自〉」、九本「〈白〉」。祝詞新講に従い、「白」を採用した上で大書に意改する。</note>
             </app>
             <app from="#app0810290239" to="#app0810290239e">
               <lem wit="#土本 #永本 #右本">能</lem>
@@ -7036,7 +7017,7 @@
             <app from="#app0810290240" to="#app0810290240e">
               <lem cause="意改">白</lem>
               <rdg wit="#土本 #永本 #右本 #九本">〈自〉</rdg>
-              <note>白　土本・永本・右本・九本「〈自〉」。祝詞新講にしたがい、「白」に意改・大書する。</note>
+              <note>白　土本・永本・右本・九本「〈自〉」。祝詞新講に従い、「白」に意改・大書する。</note>
             </app>
             <app from="#app0810290241" to="#app0810290241e">
               <lem wit="#土本 #永本 #右本">登</lem>
@@ -7142,7 +7123,7 @@
             <app from="#app0810290311" to="#app0810290311e">
               <lem cause="意改">〈之〉</lem>
               <rdg wit="#土本 #永本 #右本 #九本">立</rdg>
-              <note>〈之〉　土本・永本・右本・九本「立」。延喜式祝詞講義にしたがい、「〈之〉」に意改する。</note>
+              <note>〈之〉　土本・永本・右本・九本「立」。延喜式祝詞講義に従い、「〈之〉」に意改する。</note>
             </app>
             <app from="#app0810290312" to="#app0810290312e">
               <lem wit="#土本 #永本 #右本">流</lem>
@@ -7182,7 +7163,7 @@
             <app from="#app0810290319" to="#app0810290319e">
               <lem cause="意改">石川度</lem>
               <rdg wit="#土本 #永本 #右本 #九本">古川席</rdg>
-              <note>石川度　土本・永本・右本・九本「古川席」。出雲国風土記仁多郡三沢郷条に「名川度」と見え、「名」を「石」の誤写と見る諸説にしたがい、「石川度」に意改する。粕谷本は神寿後釈にしたがい、「古川岸」とする。</note>
+              <note>石川度　土本・永本・右本・九本「古川席」。出雲国風土記仁多郡三沢郷条に「名川度」と見え、「名」を「石」の誤写と見る諸説に従い、「石川度」に意改する。粕谷本は神寿後釈に従い、「古川岸」とする。</note>
             </app>
             <app from="#app0810290320" to="#app0810290320e">
               <lem wit="#土本 #永本 #右本">能</lem>
@@ -7192,7 +7173,7 @@
             <app from="#app0810290321" to="#app0810290321e">
               <lem cause="意改">石川度</lem>
               <rdg wit="#土本 #永本 #右本 #九本">古川席</rdg>
-              <note>石川度　土本・永本・右本・九本「古川席」。出雲国風土記仁多郡三沢郷条に「名川度」と見え、「名」を「石」の誤写と見る諸説にしたがい、「石川度」に意改する。粕谷本は神寿後釈にしたがい、「古川岸」とする。</note>
+              <note>石川度　土本・永本・右本・九本「古川席」。出雲国風土記仁多郡三沢郷条に「名川度」と見え、「名」を「石」の誤写と見る諸説に従い、「石川度」に意改する。粕谷本は神寿後釈に従い、「古川岸」とする。</note>
             </app>
             <app from="#app0810290322" to="#app0810290322e">
               <lem wit="#土本 #永本 #右本">沼</lem>
@@ -7205,24 +7186,24 @@
               <note>能　土本・永本「能」、右本・九本「乃」。</note>
             </app>
             <app from="#app0810290324" to="#app0810290324e">
-              <lem wit="#土本">須</lem>
-              <rdg wit="#右本 #九本">々</rdg>
-              <note>須　土本「須」、右本・九本「々（須）」、永本補入。</note>
+              <lem wit="#土本 #右本 #九本 #永本挿入書">須</lem>
+              <note>永本挿入書「須」</note>
+              <note>須　土本「須」、右本・九本「々（須）」、永本挿入書「須」。</note>
             </app>
             <app from="#app0810290325" to="#app0810290325e">
               <lem cause="意改">止</lem>
               <rdg wit="#土本 #永本 #右本 #九本">〈止〉</rdg>
-              <note>止　土本・永本・右本・九本「〈止〉」。神寿後釈にしたがい、大書に意改する。</note>
+              <note>止　土本・永本・右本・九本「〈止〉」。神寿後釈に従い、大書に意改する。</note>
             </app>
             <app from="#app0810290326" to="#app0810290326e">
               <lem cause="意改">乎</lem>
               <rdg wit="#土本 #永本 #右本 #九本">〈乎〉</rdg>
-              <note>乎　土本・永本・右本・九本「〈乎〉」。神寿後釈にしたがい、大書に意改する。</note>
+              <note>乎　土本・永本・右本・九本「〈乎〉」。神寿後釈に従い、大書に意改する。</note>
             </app>
             <app from="#app0810290327" to="#app0810290327e">
               <lem cause="意改">袁</lem>
               <rdg wit="#土本 #永本 #右本 #九本">表</rdg>
-              <note>袁　土本・永本・右本・九本「表」。神寿後釈にしたがい、「袁」に意改する。</note>
+              <note>袁　土本・永本・右本・九本「表」。神寿後釈に従い、「袁」に意改する。</note>
             </app>
             <app from="#app0810290328" to="#app0810290328e">
               <lem wit="#土本 #永本 #右本">能</lem>
@@ -7251,7 +7232,7 @@
             </app>
             <app from="#app0810290333" to="#app0810290333e">
               <lem wit="#土本 #永本 #右本 #九本">等</lem>
-              <note>等　訳注本は雲本にしたがい小書に意改する。</note>
+              <note>等　訳注本は雲本に従い小書に意改する。</note>
             </app>
             <app from="#app0810290334" to="#app0810290334e">
               <lem wit="#永本 #右本 #九本">牟</lem>
@@ -7272,13 +7253,13 @@
               <lem cause="意改">白</lem>
               <rdg wit="#土本 #永本 #右本">〈自〉</rdg>
               <rdg wit="#九本">自</rdg>
-              <note>白　土本・永本・右本「〈自〉」、九本「自」。祝詞新講にしたがい、「白」に意改し大書する。</note>
+              <note>白　土本・永本・右本「〈自〉」、九本「自」。祝詞新講に従い、「白」に意改し大書する。</note>
             </app>
             <app from="#app0810290338" to="#app0810290338e">
               <lem cause="意改">白</lem>
               <rdg wit="#土本 #永本 #右本">〈自〉</rdg>
               <rdg wit="#九本">自</rdg>
-              <note>白　土本・永本・右本「〈自〉」、九本「自」。祝詞新講にしたがい、「白」に意改し大書する。</note>
+              <note>白　土本・永本・右本「〈自〉」、九本「自」。祝詞新講に従い、「白」に意改し大書する。</note>
             </app>
             <app from="#app0810290339" to="#app0810290339e">
               <lem wit="#土本 #永本">恐〈弥〉</lem>
@@ -7360,6 +7341,27 @@
             <lem cause="意補">臣</lem>
             <rdg wit="#土本 #永本 #右本"/>
             <note>臣　土本・永本・右本無し。他巻の例により「臣」を意補する。</note>
+          </app>
+        </div>
+        <div type="奥書" xml:id="shahonokugaki08">
+          <p xml:id="shahonokugaki0801">
+            <anchor xml:id="app0898880101"/>（書写奥書無し）<anchor xml:id="app0898880101e"/>
+          </p>
+          <app from="#app0898880101" to="#app0898880101e">
+            <lem wit="#土本"/>
+            <rdg wit="#永本">大永三年四月三日書写訖、
+              <lb/><seg rendition="#indent8">正三位卜部朝臣兼永</seg>
+              <lb/><seg rendition="#indent">右平野三位兼永卿筆也、</seg>
+              <lb/><seg rendition="#indent">加修補訖、</seg>
+              <lb/><seg rendition="#indent2">弘化四〈丁未〉歳十一月五日</seg>
+              <lb/><seg rendition="#indent6">従三位侍従卜（花押）</seg>
+            </rdg>
+            <rdg wit="#右本">天文十一年二月廿日以両本見合之、書写了、（花押）
+            <lb/>
+              <lb/>此一冊唯神院〈兼右〉卿真筆也、殊被加家点者也、輙不許他見、敢莫出間外矣、
+              <lb/><seg rendition="#indent2">元文二年〈丁巳〉仲夏日曜</seg>
+              <lb/><seg rendition="#indent10">従二位侍従卜部兼雄</seg>
+            </rdg>
           </app>
         </div>
       </div>
