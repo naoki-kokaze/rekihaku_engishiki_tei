@@ -49972,6 +49972,99 @@
           </listNym>
         </desc>
       </place>
+      <place xml:id="上糸国">
+        <trait>
+          <note>上糸国</note>
+        </trait>
+        <desc>
+          <label>解説準備中</label>
+          <listNym>
+            <nym>
+              <form>
+                <orth type="漢字">上糸国</orth>
+                <orth type="漢字">上糸</orth>
+                <orth type="ひらがな">じょうしこく</orth>
+                <orth type="ひらがな">じょうし</orth>
+                <orth type="カタカナ">ジョウシコク</orth>
+                <orth type="カタカナ">ジョウシ</orth>
+              </form>
+            </nym>
+          </listNym>
+          <listNym>
+            <nym>
+              <form>
+                <orth type="校訂文">上糸国</orth>
+                <orth type="校訂文">上糸</orth>
+                <orth type="現代語訳">上糸国</orth>
+                <orth type="現代語訳">上糸</orth>
+                <orth type="現代語訳">上糸の貢納国</orth>
+              </form>
+            </nym>
+          </listNym>
+        </desc>
+      </place>
+      <place xml:id="中糸国">
+        <trait>
+          <note>中糸国</note>
+        </trait>
+        <desc>
+          <label>解説準備中</label>
+          <listNym>
+            <nym>
+              <form>
+                <orth type="漢字">中糸国</orth>
+                <orth type="漢字">中糸</orth>
+                <orth type="ひらがな">ちゅうしこく</orth>
+                <orth type="ひらがな">ちゅうし</orth>
+                <orth type="カタカナ">チュウシコク</orth>
+                <orth type="カタカナ">チュウシ</orth>
+              </form>
+            </nym>
+          </listNym>
+          <listNym>
+            <nym>
+              <form>
+                <orth type="校訂文">中糸国</orth>
+                <orth type="校訂文">中糸</orth>
+                <orth type="現代語訳">中糸国</orth>
+                <orth type="現代語訳">中糸</orth>
+                <orth type="現代語訳">中糸の貢納国</orth>
+              </form>
+            </nym>
+          </listNym>
+        </desc>
+      </place>
+      <place xml:id="麁糸国">
+        <trait>
+          <note>麁糸国</note>
+        </trait>
+        <desc>
+          <label>解説準備中</label>
+          <listNym>
+            <nym>
+              <form>
+                <orth type="漢字">麁糸国</orth>
+                <orth type="漢字">麁糸</orth>
+                <orth type="ひらがな">そしこく</orth>
+                <orth type="ひらがな">そし</orth>
+                <orth type="カタカナ">ソシコク</orth>
+                <orth type="カタカナ">ソシ</orth>
+              </form>
+            </nym>
+          </listNym>
+          <listNym>
+            <nym>
+              <form>
+                <orth type="校訂文">麁糸国</orth>
+                <orth type="校訂文">麁糸</orth>
+                <orth type="現代語訳">麁糸国</orth>
+                <orth type="現代語訳">麁糸</orth>
+                <orth type="現代語訳">麁糸の貢納国</orth>
+              </form>
+            </nym>
+          </listNym>
+        </desc>
+      </place>
     </listPlace>
     <listOrg>
       <org xml:id="二官" type="中央">
@@ -52022,6 +52115,9 @@
           <relation name="contains" active="#遠国_距離"
             passive="#相摸国 #武蔵国 #安房国 #上総国 #下総国 #常陸国 #上野国 #下野国 #陸奥国 #出羽国 #越後国 #佐渡国 #石見国 #隠伎国 #安芸国 #周防国 #長門国 #伊予国 #土佐国 #筑前国 #筑後国 #豊前国 #豊後国 #肥前国 #肥後国 #日向国 #大隅国 #薩摩国 #壱伎島 #対馬島"
           />
+          <relation name="contains" active="#上糸国" passive="#伊勢国 #参河国 #近江国 #美濃国 #但馬国 #美作国 #備前国 #備中国 #備後国 #安芸国 #紀伊国 #阿波国"/>
+          <relation name="contains" active="#中糸国" passive="#伊賀国 #尾張国 #遠江国 #若狭国 #越前国 #加賀国 #能登国 #越後国 #丹波国 #丹後国 #因幡国 #伯耆国 #出雲国 #播磨国 #長門国 #讃岐国 #伊予国 #土佐国 #筑前国 #筑後国 #肥前国 #肥後国 #豊前国 #豊後国 #日向国"/>
+          <relation name="contains" active="#麁糸国" passive="#駿河国 #伊豆国 #甲斐国 #相摸国 #武蔵国 #上総国 #下総国 #常陸国 #信濃国 #上野国 #下野国"/>
         </listRelation>
       </listRelation>
       <listRelation type="官司名">
