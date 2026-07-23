@@ -816,9 +816,11 @@
             <witness xml:id="泉亭本"><abbr>泉亭本</abbr>：賀茂三手文庫所蔵泉亭本（制度/加） </witness>
           </listWit>
           <listWit xml:id="版本">
-            <head>版本：慶安版本も含めた流布版本</head>
-            <witness xml:id="慶安版本"><abbr>慶安版本</abbr>：大和文華館所蔵鈴鹿連胤旧蔵版本（1/741～790） <listRef>
-                <ref xml:id="慶安版本傍訓">慶安版本傍訓</ref>
+            <head>版本：鈴鹿本も含めた流布版本</head>
+            <witness xml:id="鈴鹿本"><abbr>鈴鹿本</abbr>：大和文華館所蔵鈴鹿連胤旧蔵版本（1/741～790） 
+              <note>※鈴鹿本は巻13を有する正保版本である可能性が指摘されています。</note>
+              <listRef>
+                <ref xml:id="鈴鹿本傍訓">鈴鹿本傍訓</ref>
               </listRef></witness>
             <witness xml:id="明暦版本"><abbr>明暦版本</abbr>：明暦修訂版本　国立公文書館所蔵紅葉山文庫旧蔵版本（特26-1）等 <listRef>
                 <ref xml:id="明暦版本訂正書">明暦版本訂正書</ref>
@@ -836,13 +838,13 @@
                 <ref xml:id="雲本傍書">雲本傍書</ref>
               </listRef></witness>
             <witness xml:id="考異"><abbr>考異</abbr>：雲州本附録『延喜式考異』　早稲田大学図書館所蔵本（ワ03-01594）等</witness>
-            <witness xml:id="鈴鹿本"><abbr>鈴鹿本</abbr>：大和文華館所蔵鈴鹿連胤旧蔵慶安版本（1/741～790）書入 <listRef>
-                <ref xml:id="鈴鹿本傍書">鈴鹿本傍書</ref>
-                <ref xml:id="鈴鹿本書入">鈴鹿本書入</ref>
-                <ref xml:id="鈴鹿本朱傍書">鈴鹿本朱傍書</ref>
-                <ref xml:id="鈴鹿本朱補書">鈴鹿本朱補書</ref>
+            <witness xml:id="鈴鹿本書入"><abbr>鈴鹿本書入</abbr>：大和文華館所蔵鈴鹿連胤旧蔵版本（1/741～790）書入 <listRef>
+                <ref xml:id="鈴鹿本書入傍書">鈴鹿本書入傍書</ref>
+                <ref xml:id="鈴鹿本書入書入">鈴鹿本書入書入</ref>
+                <ref xml:id="鈴鹿本書入朱傍書">鈴鹿本書入朱傍書</ref>
+                <ref xml:id="鈴鹿本書入朱補書">鈴鹿本書入朱補書</ref>
               </listRef></witness>
-            <witness xml:id="勢多本"><abbr>勢多本</abbr>：宮内庁書陵部図書寮文庫所蔵勢多家旧蔵明暦等版本（172-123）書入 <listRef>
+            <witness xml:id="勢多本"><abbr>勢多本</abbr>：宮内庁書陵部図書寮文庫所蔵勢多家旧蔵本（172-123）書入 <listRef>
                 <ref xml:id="勢多本傍書">勢多本傍書</ref>
                 <ref xml:id="勢多本書入">勢多本書入</ref>
                 <ref xml:id="勢多本朱書">勢多本朱書</ref>
