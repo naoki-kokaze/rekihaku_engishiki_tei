@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
@@ -1389,6 +1389,40 @@
                   />寮<anchor xml:id="app3610010106e"/></orgName> 物、但<anchor xml:id="app3610010107"/>釜<anchor
                 xml:id="app3610010107e"/>殿神料自<orgName corresp="#内蔵寮">内蔵<anchor xml:id="app3610010108"/>寮<anchor
                   xml:id="app3610010108e"/></orgName> 請之、〉 <lb/><seg rendition="#indent">右、春祭料依前件、秋祭准此、</seg></p>
+            <app from="#app3610010101" to="#app3610010101e">
+              <lem wit="#土本 #近本 #京博本 #慶長本 #梵本">神廿三座</lem>
+              <rdg wit="#九本">欠損</rdg>
+            </app>
+            <app from="#app3610010102" to="#app3610010102e">
+              <lem wit="#九本 #近本 #京博本 #慶長本 #梵本">釜</lem>
+              <rdg wit="#土本">金</rdg>
+              <note>釜　土本「金」。九本等により改める。</note>
+            </app>
+            <app from="#app3610010103" to="#app3610010103e">
+              <lem wit="#土本 #九本 #近本 #京博本 #梵本">絁</lem>
+              <rdg wit="#慶長本">絶</rdg>
+            </app>
+            <app from="#app3610010104" to="#app3610010104e">
+              <lem wit="#土本 #近本 #京博本 #慶長本 #梵本">麻二斤</lem>
+              <rdg wit="#九本">無し</rdg>
+            </app>
+            <app from="#app3610010105" to="#app3610010105e">
+              <lem wit="#土本 #近本 #京博本 #慶長本 #梵本">二</lem>
+              <rdg wit="#九本">三</rdg>
+            </app>
+            <app from="#app3610010106" to="#app3610010106e">
+              <lem wit="#土本 #九本 #近本 #京博本 #慶長本 #梵本">寮</lem>
+              <note place="傍">京博本朱傍書「寮イ」</note>
+            </app>
+            <app from="#app3610010107" to="#app3610010107e">
+              <lem wit="#九本 #近本 #京博本 #慶長本 #梵本">釜</lem>
+              <rdg wit="#土本">金</rdg>
+              <note>釜　土本「金」。九本等により改める。</note>
+            </app>
+            <app from="#app3610010108" to="#app3610010108e">
+              <lem wit="#土本 #九本 #近本 #京博本 #慶長本 #梵本">寮</lem>
+              <note place="傍">京博本朱傍書「寮イ」</note>
+            </app>
           </div>
           <div ana="主殿" corresp="engishiki_v36_en.xml#article361002 engishiki_v36_ja.xml#article361002" n="36.2" type="条"
             xml:id="article361002">
@@ -1397,24 +1431,46 @@
                 釈奠料〈春秋並同、〉<lb/>名香二両、〈受蔵人所、〉胡麻油二升、油瓶一口、燈盞八口、〈加盤、下皆准此、〉燈<anchor xml:id="app3610020101"/>炷<anchor
                 xml:id="app3610020101e"/>布二寸、松明七十<anchor xml:id="app3610020102"/>把<anchor xml:id="app3610020102e"
               />、〈五十把燎五所料、廿把焼幣物料、〉</p>
+            <app from="#app3610020101" to="#app3610020101e">
+              <lem wit="#土本 #九本 #近本 #京博本 #慶長本 #梵本">炷</lem>
+              <note place="傍">京博本傍書「音主又云聲イ」</note>
+            </app>
+            <app from="#app3610020102" to="#app3610020102e">
+              <lem wit="#土本 #九本 #近本 #慶長本 #梵本">把</lem>
+              <rdg wit="#京博本">杷</rdg>
+            </app>
           </div>
           <div ana="主殿" corresp="engishiki_v36_en.xml#article361003 engishiki_v36_ja.xml#article361003" n="36.3" type="条"
             xml:id="article361003">
             <head ana="鎮魂料"/>
             <p ana="項" corresp="engishiki_v36_en.xml#item36100301 engishiki_v36_ja.xml#item36100301" xml:id="item36100301">
                 鎮魂料〈東宮亦同、〉<lb/>槾椒油二升四合、<anchor xml:id="app3610030101"/>燈<anchor xml:id="app3610030101e"/>盞八口、油瓶一口、燈炷布二寸四分、</p>
+            <app from="#app3610030101" to="#app3610030101e">
+              <lem wit="#土本 #九本訂正書 #近本 #京博本 #慶長本 #梵本">燈</lem>
+              <rdg wit="#九本">焼</rdg>
+              <note>九本訂正書「燈」</note>
+            </app>
           </div>
           <div ana="主殿" corresp="engishiki_v36_en.xml#article361004 engishiki_v36_ja.xml#article361004" n="36.4" type="条"
             xml:id="article361004">
             <head ana="園韓神祭料"/>
             <p ana="項" corresp="engishiki_v36_en.xml#item36100401 engishiki_v36_ja.xml#item36100401" xml:id="item36100401"><anchor
                 xml:id="app3610040101"/>園<anchor xml:id="app3610040101e"/>韓神祭料 <lb/>油二升、油瓶一口、燈盞八口、燈炷布二寸、</p>
+            <app from="#app3610040101" to="#app3610040101e">
+              <lem wit="#土本 #近本 #京博本 #慶長本">園</lem>
+              <rdg wit="#九本">無し</rdg>
+              <note>園　訳注本は「薗」に改める。</note>
+            </app>
           </div>
           <div ana="主殿" corresp="engishiki_v36_en.xml#article361005 engishiki_v36_ja.xml#article361005" n="36.5" type="条"
             xml:id="article361005">
             <head ana="賀茂祭料"/>
             <p ana="項" corresp="engishiki_v36_en.xml#item36100501 engishiki_v36_ja.xml#item36100501" xml:id="item36100501">
                 賀茂神祭料<lb/>油二升、油瓶一口、燈盞八口、燈炷布二寸、続松五十<anchor xml:id="app3610050101"/>把<anchor xml:id="app3610050101e"/>、</p>
+            <app from="#app3610050101" to="#app3610050101e">
+              <lem wit="#土本 #九本訂正書 #近本 #京博本 #慶長本 #梵本">把</lem>
+              <rdg wit="#九本">把松　　「松」に抹消符</rdg>
+            </app>
           </div>
           <div ana="主殿" corresp="engishiki_v36_en.xml#article361006 engishiki_v36_ja.xml#article361006" n="36.6" type="条"
             xml:id="article361006">
@@ -1422,6 +1478,14 @@
             <p ana="項" corresp="engishiki_v36_en.xml#item36100601 engishiki_v36_ja.xml#item36100601" xml:id="item36100601">
                 松尾祭料<lb/>続松<anchor xml:id="app3610060101"/>卅<anchor xml:id="app3610060101e"/>把、炭一<anchor xml:id="app3610060102"
                 />石<anchor xml:id="app3610060102e"/>、</p>
+            <app from="#app3610060101" to="#app3610060101e">
+              <lem wit="#土本 #近本 #京博本 #慶長本 #梵本">卅</lem>
+              <rdg wit="#九本">卌</rdg>
+            </app>
+            <app from="#app3610060102" to="#app3610060102e">
+              <lem wit="#土本 #近本 #京博本 #慶長本 #梵本">石</lem>
+              <rdg wit="#九本">斛</rdg>
+            </app>
           </div>
           <div ana="主殿" corresp="engishiki_v36_en.xml#article361007 engishiki_v36_ja.xml#article361007" n="36.7" type="条"
             xml:id="article361007">
@@ -1450,6 +1514,110 @@
                   >右、新嘗会料依前件、其<anchor xml:id="app3610070122"/>二<anchor xml:id="app3610070122e"/>度神今食者、並用件物、更不請<anchor
                   xml:id="app3610070123"/>料<anchor xml:id="app3610070123e"/>、事訖之後<anchor xml:id="app3610070124"/>充<anchor
                   xml:id="app3610070124e"/><orgName corresp="#神祇官">神祇官</orgName>、</seg></p>
+            <app from="#app3610070101" to="#app3610070101e">
+              <lem wit="#土本 #九本 #近本 #京博本 #梵本">宮</lem>
+              <rdg wit="#京博本朱傍書 #慶長本">官</rdg>
+              <note place="傍">京博本朱傍書「官イ」</note>
+            </app>
+            <app from="#app3610070102" to="#app3610070102e">
+              <lem wit="#九本">八</lem>
+              <rdg wit="#土本 #近本 #京博本 #慶長本 #梵本">五</rdg>
+              <note>八　土本等「五」。九本により改める。本条20年料供奉条も参考。</note>
+            </app>
+            <app from="#app3610070103" to="#app3610070103e">
+              <lem wit="#土本 #九本 #近本 #京博本 #慶長本 #梵本">一</lem>
+              <note>一　訳注本は考異に従い「二」に改める。</note>
+            </app>
+            <app from="#app3610070104" to="#app3610070104e">
+              <lem wit="#土本 #九本 #近本 #京博本 #慶長本 #梵本">長</lem>
+              <note>長　訳注本は「各長」と意改する。</note>
+            </app>
+            <app from="#app3610070105" to="#app3610070105e">
+              <lem wit="#土本 #九本 #近本 #京博本 #梵本">長</lem>
+              <rdg wit="#慶長本">無し</rdg>
+            </app>
+            <app from="#app3610070106" to="#app3610070106e">
+              <lem wit="#土本 #九本 #近本 #京博本 #慶長本 #梵本">幅</lem>
+              <note>幅　訳注本は考異に従い下に「半」を補う。</note>
+            </app>
+            <app from="#app3610070107" to="#app3610070107e">
+              <lem wit="#九本 #近本">一</lem>
+              <rdg wit="#土本 #京博本 #慶長本 #梵本">無し</rdg>
+              <note>一　土本・京博本・慶長本無し。九本・近本により補う。</note>
+            </app>
+            <app from="#app3610070108" to="#app3610070108e">
+              <lem wit="#土本 #近本 #京博本 #慶長本 #梵本">尺</lem>
+              <rdg wit="#九本">隻</rdg>
+            </app>
+            <app from="#app3610070109" to="#app3610070109e">
+              <lem wit="#考異">広</lem>
+              <rdg wit="#土本 #九本 #近本 #京博本 #慶長本 #梵本">無し</rdg>
+              <note>広　土本等無し。考異に従い補う。</note>
+            </app>
+            <app from="#app3610070110" to="#app3610070110e">
+              <lem wit="#土本 #近本 #京博本 #慶長本 #梵本">六</lem>
+              <rdg wit="#九本">一</rdg>
+            </app>
+            <app from="#app3610070111" to="#app3610070111e">
+              <lem wit="#九本">〈円篩四口、各四尺、泔篩一口、三尺、油篩一口、一尺〉</lem>
+              <rdg wit="#土本 #近本 #京博本 #慶長本 #梵本">円篩四口、〈各四尺〉、泔篩一口、〈三尺〉、油篩一口、〈一尺〉</rdg>
+              <note>円篩四口、各四尺、泔篩一口、三尺、油篩一口、一尺、　土本等大書し「各四尺」「三尺」「一尺」のみ小書する。九本に従い改める。</note>
+            </app>
+            <app from="#app3610070112" to="#app3610070112e">
+              <lem wit="#土本 #近本 #京博本 #慶長本 #梵本">尺</lem>
+              <rdg wit="#九本">隻</rdg>
+            </app>
+            <app from="#app3610070113" to="#app3610070113e">
+              <lem wit="#土本 #九本 #近本 #京博本 #慶長本 #梵本">三尺</lem>
+              <note place="傍">京博本朱傍書「或一尺」</note>
+            </app>
+            <app from="#app3610070114" to="#app3610070114e">
+              <lem wit="#土本 #九本 #近本 #京博本 #梵本">麁筥一合</lem>
+              <rdg wit="#慶長本">無し</rdg>
+            </app>
+            <app from="#app3610070115" to="#app3610070115e">
+              <lem wit="#土本 #近本 #京博本 #慶長本 #梵本">紗</lem>
+              <rdg wit="#九本">沙</rdg>
+            </app>
+            <app from="#app3610070116" to="#app3610070116e">
+              <lem wit="#土本 #九本 #近本 #京博本 #梵本">加</lem>
+              <rdg wit="#慶長本">如</rdg>
+            </app>
+            <app from="#app3610070117" to="#app3610070117e">
+              <lem wit="#土本 #近本 #京博本 #慶長本 #梵本">寸</lem>
+              <rdg wit="#九本">尺</rdg>
+            </app>
+            <app from="#app3610070118" to="#app3610070118e">
+              <lem wit="#土本 #九本 #近本訂正書 #京博本 #慶長本 #梵本">所</lem>
+              <rdg wit="#近本">一月</rdg>
+              <note>近本訂正書「所」</note>
+            </app>
+            <app from="#app3610070119" to="#app3610070119e">
+              <lem wit="#土本 #九本 #近本 #京博本 #慶長本 #梵本">袍</lem>
+              <note place="傍">京博本傍書「薄交及イ」</note>
+            </app>
+            <app from="#app3610070120" to="#app3610070120e">
+              <lem wit="#土本 #九本 #京博本 #慶長本 #梵本">祚</lem>
+              <rdg wit="#近本">作</rdg>
+            </app>
+            <app from="#app3610070121" to="#app3610070121e">
+              <lem wit="#土本 #近本 #京博本 #慶長本 #梵本">細</lem>
+              <rdg wit="#九本">油</rdg>
+            </app>
+            <app from="#app3610070122" to="#app3610070122e">
+              <lem wit="#土本 #近本 #京博本 #慶長本 #梵本">二</lem>
+              <rdg wit="#九本">三</rdg>
+            </app>
+            <app from="#app3610070123" to="#app3610070123e">
+              <lem wit="#九本 #近本挿入書 #京博本 #慶長本 #梵本">料</lem>
+              <rdg wit="#土本 #近本">無し</rdg>
+              <note>近本挿入書「料」</note>
+              <note>料　土本無し。九本等により補う。</note>
+            </app>
+            <app from="#app3610070124" to="#app3610070124e">
+              <lem wit="#土本 #九本 #近本 #京博本 #慶長本 #梵本">充</lem>
+              <note place="傍">京博本朱傍書「宛ヨ」</note>
+            </app>
           </div>
           <div ana="主殿" corresp="engishiki_v36_en.xml#article361008 engishiki_v36_ja.xml#article361008" n="36.8" type="条"
             xml:id="article361008">
@@ -1458,6 +1626,18 @@
                 正月<anchor xml:id="app3610080101"/>最勝王経<anchor xml:id="app3610080101e"/>斎会料、油四斗二升、〈堂僧房料、〉燈炷布一尺五寸、燈盞卅六<anchor
                 xml:id="app3610080102"/>口<anchor xml:id="app3610080102e"/>、〈六口仏供料、卅口僧房料、〉炭廿九斛四斗、薪卌九荷、調布二端、〈供奉官人<anchor
                 xml:id="app3610080103"/>一<anchor xml:id="app3610080103e"/>人・史生一人・殿部二人浄衣料、〉行事所油三斗六升、 </p>
+            <app from="#app3610080101" to="#app3610080101e">
+              <lem wit="#土本 #九本 #近本 #京博本 #慶長本 #梵本">最勝王経</lem>
+              <note>京博本朱抹消「最勝王経」</note>
+            </app>
+            <app from="#app3610080102" to="#app3610080102e">
+              <lem wit="#土本 #九本 #近本 #京博本 #梵本訂正書">口</lem>
+              <rdg wit="#慶長本">無し</rdg>
+            </app>
+            <app from="#app3610080103" to="#app3610080103e">
+              <lem wit="#土本 #近本 #京博本 #慶長本 #梵本">一</lem>
+              <rdg wit="#九本">二</rdg>
+            </app>
           </div>
           <div ana="主殿" corresp="engishiki_v36_en.xml#article361009 engishiki_v36_ja.xml#article361009" n="36.9" type="条"
             xml:id="article361009">
@@ -1466,6 +1646,14 @@
                 正月修真言法料、<anchor xml:id="app3610090101"/>油<anchor xml:id="app3610090101e"
                 />一斛四斗二升五合三勺、〈二斗二升二合三勺五大菩薩并十二天料、九斗六升三合仏供并僧沙弥卅二口料、二斗一升僧房料、三升行事所料、〉<orgName corresp="#主殿寮"><anchor
                   xml:id="app3610090102"/>寮<anchor xml:id="app3610090102e"/></orgName>家運送、 </p>
+            <app from="#app3610090101" to="#app3610090101e">
+              <lem wit="#土本 #近本 #京博本 #慶長本 #梵本">油</lem>
+              <rdg wit="#九本">無し</rdg>
+            </app>
+            <app from="#app3610090102" to="#app3610090102e">
+              <lem wit="#土本 #九本 #近本 #京博本 #京博本朱傍書 #慶長本 #梵本">寮</lem>
+              <note place="傍">京博本朱傍書「寮イ」</note>
+            </app>
           </div>
           <div ana="主殿" corresp="engishiki_v36_en.xml#article361010 engishiki_v36_ja.xml#article361010" n="36.10" type="条"
             xml:id="article361010">
@@ -1474,6 +1662,14 @@
                 同月修大元帥法<anchor xml:id="app3610100101"/>料<anchor xml:id="app3610100101e"/>、一斛四斗五升一<anchor xml:id="app3610100102"
                 />合<anchor xml:id="app3610100102e"/>、〈八斗六升一合護摩壇供料、三斗四升僧供料、二斗四升僧十五口房料、一升行事所料、〉<orgName corresp="#主殿寮"
               >寮</orgName>家運送、 </p>
+            <app from="#app3610100101" to="#app3610100101e">
+              <lem wit="#土本 #九本 #近本 #京博本 #慶長本 #梵本">料</lem>
+              <note>料　訳注本は雲州本に従い下に「油」を補う。</note>
+            </app>
+            <app from="#app3610100102" to="#app3610100102e">
+              <lem wit="#土本 #九本 #近本 #京博本 #梵本">合</lem>
+              <rdg wit="#慶長本">人</rdg>
+            </app>
           </div>
           <div ana="主殿" corresp="engishiki_v36_en.xml#article361011 engishiki_v36_ja.xml#article361011" n="36.11" type="条"
             xml:id="article361011">
@@ -1487,6 +1683,43 @@
               <lb/>神護寺燈料、月別三升、〈小月減一合、〉 <lb/>常住寺季料、三斗五升二合、 <lb/>延暦寺灌頂料、一<anchor xml:id="app3610110107"/>斗<anchor
                 xml:id="app3610110107e"/>、〈<orgName corresp="#主殿寮">寮</orgName>家送之、〉 <lb/>嘉祥寺春地蔵悔過料、三升、〈冬料准此、〉 <lb/>七箇大寺盂蘭<anchor
                 xml:id="app3610110108"/>盆<anchor xml:id="app3610110108e"/>料、胡麻油四斗九升、〈寺別七升、〉</p>
+            <app from="#app3610110101" to="#app3610110101e">
+              <lem wit="#土本 #九本 #近本 #京博本 #慶長本 #梵本">聖神</lem>
+              <note place="傍">九本傍書「俗名サウサキ」</note>
+            </app>
+            <app from="#app3610110102" to="#app3610110102e">
+              <lem wit="#土本 #九本 #近本 #京博本 #慶長本 #梵本">寺</lem>
+              <note>寺　訳注本は下に「料」を例補する。</note>
+            </app>
+            <app from="#app3610110103" to="#app3610110103e">
+              <lem wit="#土本 #九本 #近本 #京博本 #慶長本訂正書 #梵本">霊</lem>
+              <rdg wit="#慶長本">雲</rdg>
+              <note>慶長本訂正書「霊」</note>
+            </app>
+            <app from="#app3610110104" to="#app3610110104e">
+              <lem wit="#土本 #九本 #近本 #京博本 #慶長本 #梵本">六</lem>
+              <note>六　訳注本は考異に従い「五」に改める（割注内の計算による）。</note>
+            </app>
+            <app from="#app3610110105" to="#app3610110105e">
+              <lem wit="#土本挿入書 #九本 #近本 #京博本 #慶長本 #梵本">料</lem>
+              <rdg wit="#土本">無し</rdg>
+              <note>土本挿入書「料」</note>
+            </app>
+            <app from="#app3610110106" to="#app3610110106e">
+              <lem wit="#土本 #近本 #京博本 #慶長本 #梵本">灌</lem>
+              <rdg wit="#九本">灌灌</rdg>
+            </app>
+            <app from="#app3610110107" to="#app3610110107e">
+              <lem wit="#土本 #九本 #近本 #京博本朱挿入書 #慶長本 #梵本">斗</lem>
+              <rdg wit="#京博本">無し</rdg>
+              <note>京博本朱挿入書「斗」</note>
+            </app>
+            <app from="#app3610110108" to="#app3610110108e">
+              <lem wit="#京博本朱訂正書 #慶長本 #梵本">盆</lem>
+              <rdg wit="#土本 #九本 #近本 #京博本">瓫</rdg>
+              <note>京博本朱訂正書「盆」</note>
+              <note>盆　土本・九本・近本「瓫」。京博本朱訂正書・慶長本により改める。</note>
+            </app>
           </div>
           <div ana="主殿" corresp="engishiki_v36_en.xml#article361012 engishiki_v36_ja.xml#article361012" n="36.12" type="条"
             xml:id="article361012">
@@ -1515,18 +1748,77 @@
                 xml:id="app3610120109"/>孺<anchor xml:id="app3610120109e"/>已上、十二月晦夜雑給料油六斛五斗、〈二石中宮料、〉 <lb/>侍従所月料、油三升、〈小月二<anchor
                 xml:id="app3610120110"/>升<anchor xml:id="app3610120110e"/>九合、〉 <lb/>賀茂斎院料、油一斛一斗、〈正月元日節料六斗、四月御祓料五斗、〉
               <lb/>賀茂斎内親王月料、二斗一升、〈小月減七合、〉 <lb/>親王并妃・夫人、各月別九升、〈小月減三合、〉 <lb/>女御、六升、〈小月減二合、〉 <lb/>親王頓料、六斗、〈下知名号之日所行、〉</p>
+            <app from="#app3610120101" to="#app3610120101e">
+              <lem wit="#土本 #九本 #近本 #京博本 #慶長本 #梵本">一</lem>
+              <note>一　訳注本は島原本により「二」に改める（割注内の計算による）。</note>
+            </app>
+            <app from="#app3610120102" to="#app3610120102e">
+              <lem wit="#土本 #近本 #京博本 #慶長本 #梵本">二</lem>
+              <rdg wit="#九本">三</rdg>
+            </app>
+            <app from="#app3610120103" to="#app3610120103e">
+              <lem wit="#土本 #九本 #近本 #京博本 #慶長本 #梵本">一百領</lem>
+              <note place="頭">土本朱頭書「兵庫式稱五十領。此式誤歟、何者、彼寮例申請五十領料。」</note>
+              <note place="頭">近本頭書「兵庫式稱五十領。此式誤歟、何者、彼寮例申請五十領料。」</note>
+              <note place="頭">京博本朱頭書「兵庫式稱五十領。此式誤歟、何者、彼寮例申請五十領料。」</note>
+              <note place="頭">梵本朱頭書「兵庫式稱五十領。此式誤歟、何者、彼寮例申請五十領料。」</note>
+            </app>
+            <app from="#app3610120104" to="#app3610120104e">
+              <lem wit="#土本 #九本 #近本 #京博本 #慶長本 #梵本">五</lem>
+            </app>
+            <app from="#app3610120105" to="#app3610120105e">
+              <lem wit="#土本 #九本 #近本 #京博本 #梵本">筥</lem>
+              <rdg wit="#慶長本">苔</rdg>
+            </app>
+            <app from="#app3610120106" to="#app3610120106e">
+              <lem wit="#土本 #九本 #近本訂正書 #京博本 #慶長本 #梵本">左</lem>
+              <rdg wit="#近本">右</rdg>
+              <note>近本訂正書「左」</note>
+            </app>
+            <app from="#app3610120107" to="#app3610120107e">
+              <lem wit="#九本 #近本訂正書">六升</lem>
+              <rdg wit="#土本 #近本 #京博本 #慶長本 #梵本">二合</rdg>
+              <note>近本訂正書「六升」</note>
+              <note>六升　土本等「二合」。九本、近本訂正書により改める。</note>
+            </app>
+            <app from="#app3610120108" to="#app3610120108e">
+              <lem wit="#土本 #九本訂正書 #近本 #京博本 #慶長本 #梵本">司</lem>
+              <rdg wit="#九本">所</rdg>
+              <note>九本訂正書「司」</note>
+            </app>
+            <app from="#app3610120109" to="#app3610120109e">
+              <lem wit="#九本 #近本 #京博本 #慶長本 #梵本">孺</lem>
+              <rdg wit="#土本">殦</rdg>
+              <note>孺　土本「殦」。九本等により改める。</note>
+            </app>
+            <app from="#app3610120110" to="#app3610120110e">
+              <lem wit="#土本 #九本 #近本訂正書 #京博本朱訂正書 #梵本">升</lem>
+              <rdg wit="#近本 #京博本 #慶長本">廿</rdg>
+              <note>近本訂正書「升」</note>
+              <note>京博本朱訂正書「升」</note>
+            </app>
           </div>
           <div ana="主殿" corresp="engishiki_v36_en.xml#article361013 engishiki_v36_ja.xml#article361013" n="36.13" type="条"
             xml:id="article361013">
             <head ana="諸祭節会油"/>
             <p ana="項" corresp="engishiki_v36_en.xml#item36101301 engishiki_v36_ja.xml#item36101301" xml:id="item36101301">
                 凡諸祭及節会等所須油、皆待印書出<anchor xml:id="app3610130101"/>充<anchor xml:id="app3610130101e"/>、〈数各見本司式、〉 </p>
+            <app from="#app3610130101" to="#app3610130101e">
+              <lem wit="#土本 #九本 #近本 #京博本 #慶長本 #梵本">充</lem>
+              <rdg wit="#京博本朱傍書">宛</rdg>
+              <note place="傍">京博本朱傍書「宛」</note>
+            </app>
           </div>
           <div ana="主殿" corresp="engishiki_v36_en.xml#article361014 engishiki_v36_ja.xml#article361014" n="36.14" type="条"
             xml:id="article361014">
             <head ana="供御胡麻油"/>
             <p ana="項" corresp="engishiki_v36_en.xml#item36101401 engishiki_v36_ja.xml#item36101401" xml:id="item36101401">
                 凡供御料用胡麻油、自余<anchor xml:id="app3610140101"/>充<anchor xml:id="app3610140101e"/>雑油、 </p>
+            <app from="#app3610140101" to="#app3610140101e">
+              <lem wit="#土本 #九本 #近本 #京博本 #慶長本 #梵本">充</lem>
+              <rdg wit="#京博本朱傍書">宛</rdg>
+              <note place="傍">京博本朱傍書「宛」</note>
+            </app>
           </div>
           <div ana="主殿" corresp="engishiki_v36_en.xml#article361015 engishiki_v36_ja.xml#article361015" n="36.15" type="条"
             xml:id="article361015">
@@ -1545,6 +1837,10 @@
             <head ana="収油直丁"/>
             <p ana="項" corresp="engishiki_v36_en.xml#item36101701 engishiki_v36_ja.xml#item36101701" xml:id="item36101701">
                 凡量収油直丁二人、毎年各給調布衫<anchor xml:id="app3610170101"/>一<anchor xml:id="app3610170101e"/>領、襷一条、襅一条、 </p>
+            <app from="#app3610170101" to="#app3610170101e">
+              <lem wit="#土本 #近本 #京博本 #慶長本 #梵本">一</lem>
+              <rdg wit="#九本">二</rdg>
+            </app>
           </div>
           <div ana="主殿" corresp="engishiki_v36_en.xml#article361018 engishiki_v36_ja.xml#article361018" n="36.18" type="条"
             xml:id="article361018">
@@ -1552,6 +1848,11 @@
             <p ana="項" corresp="engishiki_v36_en.xml#item36101801 engishiki_v36_ja.xml#item36101801" xml:id="item36101801">
                 年中所用御薪<lb/>湯殿料一百八十荷、御匣殿御洗料七十二荷、御沐料一百八十荷、御<anchor xml:id="app3610180101"/>脚水<anchor xml:id="app3610180101e"
               />料二百卌荷、御炊料七百八荷、儲料二百荷、〈中宮准此、〉御贄殿五荷、</p>
+            <app from="#app3610180101" to="#app3610180101e">
+              <lem wit="#土本 #近本 #京博本 #慶長本 #梵本">脚水</lem>
+              <rdg wit="#九本">服</rdg>
+              <note place="傍">京博本朱傍書「眼イ」</note>
+            </app>
           </div>
           <div ana="主殿" corresp="engishiki_v36_en.xml#article361019 engishiki_v36_ja.xml#article361019" n="36.19" type="条"
             xml:id="article361019">
@@ -1560,6 +1861,19 @@
                 御輿一腰綱廿六条料、緋絁四疋四丈六尺、〈腰輿二丈五尺、〉心料調布<anchor xml:id="app3610190101"/>二<anchor xml:id="app3610190101e"/>端四<anchor
                 xml:id="app3610190102"/>尺<anchor xml:id="app3610190102e"/>、〈腰輿一端八尺、〉帊一条料浅紫綾二丈八尺、〈表料、〉緋綾二丈八尺、〈裏料、〉壁代<anchor
                 xml:id="app3610190103"/>帷<anchor xml:id="app3610190103e"/>三条料浅紫綾一疋、〈表、〉緋綾一疋、〈裏、〉並随損請、 </p>
+            <app from="#app3610190101" to="#app3610190101e">
+              <lem wit="#近本挿入書 #京博本 #慶長本 #梵本">十二</lem>
+              <note>近本挿入書「十」</note>
+              <note>二　訳注本「十二」。</note>
+            </app>
+            <app from="#app3610190102" to="#app3610190102e">
+              <lem wit="#土本 #近本 #京博本 #慶長本 #梵本">尺</lem>
+              <rdg wit="#九本">丈</rdg>
+            </app>
+            <app from="#app3610190103" to="#app3610190103e">
+              <lem wit="#土本 #九本 #近本 #京博本">帷</lem>
+              <rdg wit="#慶長本 #梵本">惟</rdg>
+            </app>
           </div>
           <div ana="主殿" corresp="engishiki_v36_en.xml#article361020 engishiki_v36_ja.xml#article361020" n="36.20" type="条"
             xml:id="article361020">
@@ -1586,6 +1900,91 @@
                 />、御川殿巾布二条、〈別一丈、〉洗料酒月別五升、糟一斗、箒二百卌把、〈月別廿把、<orgName corresp="#主殿寮">寮</orgName>所備、〉稾七百十一囲、御沐料蒋七十二囲、〈月別六<anchor
                 xml:id="app3610200119"/>囲<anchor xml:id="app3610200119e"/>、受<orgName corresp="#掃部寮">掃部寮</orgName>、〉 <lb/><seg
                 rendition="#indent">右、起十一月一日迄来年十月卅日料、</seg></p>
+            <app from="#app3610200101" to="#app3610200101e">
+              <lem wit="#土本 #九本 #近本 #京博本">帷</lem>
+              <rdg wit="#慶長本">惟</rdg>
+            </app>
+            <app from="#app3610200102" to="#app3610200102e">
+              <lem wit="#土本 #九本 #近本 #京博本 #慶長本 #梵本">長</lem>
+              <note>長　訳注本は上に「各」を意補する。</note>
+            </app>
+            <app from="#app3610200103" to="#app3610200103e">
+              <lem wit="#土本 #九本 #近本 #京博本">帷</lem>
+              <rdg wit="#慶長本">惟</rdg>
+            </app>
+            <app from="#app3610200104" to="#app3610200104e">
+              <lem wit="#土本 #近本 #京博本朱訂正書 #慶長本脚書">牀</lem>
+              <rdg wit="#九本">床</rdg>
+              <note>京博本朱訂正書「牀」</note>
+            </app>
+            <app from="#app3610200105" to="#app3610200105e">
+              <lem wit="#土本 #九本 #近本 #京博本 #梵本">口</lem>
+              <rdg wit="#慶長本">無し</rdg>
+            </app>
+            <app from="#app3610200106" to="#app3610200106e">
+              <lem wit="#土本 #近本 #京博本 #慶長本 #梵本">暴</lem>
+              <rdg wit="#九本">裏</rdg>
+            </app>
+            <app from="#app3610200107" to="#app3610200107e">
+              <lem wit="#土本 #九本 #近本 #京博本 #慶長本 #梵本">幅</lem>
+              <note>幅　訳注本は考異に従い下に「半」を補う。</note>
+            </app>
+            <app from="#app3610200108" to="#app3610200108e">
+              <lem wit="#土本 #近本 #京博本 #慶長本 #梵本">一</lem>
+              <rdg wit="#九本">廿</rdg>
+            </app>
+            <app from="#app3610200109" to="#app3610200109e">
+              <lem wit="#土本 #九本 #近本 #京博本 #梵本">口</lem>
+              <rdg wit="#慶長本">無し</rdg>
+            </app>
+            <app from="#app3610200110" to="#app3610200110e">
+              <lem wit="#土本 #九本 #近本 #京博本 #慶長本 #梵本">暴布</lem>
+              <note place="傍">京博本朱傍書「覆料イ」</note>
+            </app>
+            <app from="#app3610200111" to="#app3610200111e">
+              <lem wit="#土本 #近本 #京博本 #慶長本 #梵本">布</lem>
+              <rdg wit="#九本">無し</rdg>
+            </app>
+            <app from="#app3610200112" to="#app3610200112e">
+              <lem wit="#土本 #九本 #近本 #京博本 #慶長本 #梵本">月</lem>
+              <rdg wit="#京博本朱傍書">日</rdg>
+              <note place="傍">京博本朱傍書「日イ」</note>
+            </app>
+            <app from="#app3610200113" to="#app3610200113e">
+              <lem wit="#九本">土鋺</lem>
+              <rdg wit="#土本 #近本 #京博本 #慶長本 #梵本">云銃</rdg>
+              <note>近本訂正書「土銃」</note>
+              <note>土鋺　土本等「云銃」。九本により改める。</note>
+            </app>
+            <app from="#app3610200114" to="#app3610200114e">
+              <lem wit="#九本 #近本訂正書">土</lem>
+              <rdg wit="#土本 #九本 #近本 #京博本 #慶長本 #梵本">云</rdg>
+              <note>近本訂正書「土」</note>
+              <note>土　土本等「云」。九本、近本訂正書により改める。</note>
+            </app>
+            <app from="#app3610200115" to="#app3610200115e">
+              <lem wit="#土本 #九本 #近本 #京博本 #梵本">二丈</lem>
+              <rdg wit="#慶長本">無し</rdg>
+            </app>
+            <app from="#app3610200116" to="#app3610200116e">
+              <lem wit="#土本 #九本 #近本訂正書 #京博本 #慶長本 #梵本">従</lem>
+              <rdg wit="#近本">短</rdg>
+              <note>近本訂正書「従」</note>
+            </app>
+            <app from="#app3610200117" to="#app3610200117e">
+              <lem wit="#土本 #九本訂正書 #近本 #京博本 #慶長本 #梵本">簀</lem>
+              <rdg wit="#九本">簀子</rdg>
+              <note>九本「簀子」　「子」に抹消符</note>
+            </app>
+            <app from="#app3610200118" to="#app3610200118e">
+              <lem wit="#土本 #九本 #京博本朱傍書">段</lem>
+              <rdg wit="#近本 #京博本 #慶長本 #梵本">端</rdg>
+              <note place="傍">京博本朱傍書「段イ」</note>
+            </app>
+            <app from="#app3610200119" to="#app3610200119e">
+              <lem wit="#土本 #九本 #近本 #京博本 #京博本朱傍書 #慶長本 #梵本">囲</lem>
+              <note place="傍">京博本朱傍書「囲イ」</note>
+            </app>
           </div>
           <div ana="主殿" corresp="engishiki_v36_en.xml#article361021 engishiki_v36_ja.xml#article361021" n="36.21" type="条"
             xml:id="article361021">
@@ -1598,6 +1997,39 @@
                 xml:id="app3610210105e"/>端、〉貫簀一枚、調席二枚、今木人衣裳料、曝布卅二端一丈二尺、〈男卅六人<anchor xml:id="app3610210106"/>各<anchor
                 xml:id="app3610210106e"/>三丈<anchor xml:id="app3610210107"/>二尺<anchor xml:id="app3610210107e"
               />二寸、女四人各四丈三尺、〉生糸一絇二両、白筥二合、韓櫃三合、</p>
+            <app from="#app3610210101" to="#app3610210101e">
+              <lem wit="#土本 #九本 #近本 #京博本">帷</lem>
+              <rdg wit="#慶長本 #梵本">惟</rdg>
+            </app>
+            <app from="#app3610210102" to="#app3610210102e">
+              <lem wit="#九本 #近本">表</lem>
+              <rdg wit="#土本 #京博本 #慶長本 #梵本">麦</rdg>
+              <note>表　土本・京博本・慶長本「麦」。九本・近本により改める。</note>
+            </app>
+            <app from="#app3610210103" to="#app3610210103e">
+              <lem wit="#土本 #九本 #近本 #京博本 #梵本">絁円篩二口</lem>
+              <rdg wit="#慶長本">無し</rdg>
+            </app>
+            <app from="#app3610210104" to="#app3610210104e">
+              <lem wit="#土本 #九本 #近本 #梵本">細</lem>
+              <rdg wit="#京博本 #慶長本">紬</rdg>
+            </app>
+            <app from="#app3610210105" to="#app3610210105e">
+              <lem wit="#土本 #九本 #近本 #京博本 #梵本">二</lem>
+              <rdg wit="#京博本朱傍書 #慶長本">一</rdg>
+              <note place="傍">京博本朱傍書「一イ」</note>
+            </app>
+            <app from="#app3610210106" to="#app3610210106e">
+              <lem wit="#土本 #九本 #近本 #京博本朱傍書 #慶長本 #梵本">各</lem>
+              <rdg wit="#京博本">名</rdg>
+              <note place="傍">京博本朱傍書「各イ」</note>
+            </app>
+            <app from="#app3610210107" to="#app3610210107e">
+              <lem wit="#九本 #京博本朱挿入書">二尺</lem>
+              <rdg wit="#土本 #近本 #京博本 #慶長本 #梵本">無し</rdg>
+              <note>京博本朱挿入書「二尺イ」</note>
+              <note>二尺　土本等無し。九本、京博本朱挿入書により補う。</note>
+            </app>
           </div>
           <div ana="主殿" corresp="engishiki_v36_en.xml#article361022 engishiki_v36_ja.xml#article361022" n="36.22" type="条"
             xml:id="article361022">
@@ -1607,12 +2039,39 @@
                   xml:id="app3610220101"/>工<anchor xml:id="app3610220101e"/>寮</orgName>返故、〉鍬十口、<anchor xml:id="app3610220102"
                 />鋤<anchor xml:id="app3610220102e"/>一口、砥一顆、等美蓑廿五領、<anchor xml:id="app3610220103"/>藺<anchor xml:id="app3610220103e"
                 />笠廿五枚、<anchor xml:id="app3610220104"/>漬<anchor xml:id="app3610220104e"/>菜塩一斛二斗、</p>
+            <app from="#app3610220101" to="#app3610220101e">
+              <lem wit="#土本 #九本 #近本 #京博本傍書 #梵本傍書">工</lem>
+              <rdg wit="#京博本 #慶長本 #梵本">上</rdg>
+              <note place="傍">京博本傍書「工歟」</note>
+              <note place="傍">梵本傍書「工也」</note>
+            </app>
+            <app from="#app3610220102" to="#app3610220102e">
+              <lem wit="#九本 #京博本傍書">鋤</lem>
+              <rdg wit="#土本 #近本 #京博本 #慶長本 #梵本">鍋</rdg>
+              <note place="傍">京博本傍書「鋤イ」</note>
+              <note>鋤　土本等「鍋」。九本、京博本傍書により改める。</note>
+            </app>
+            <app from="#app3610220103" to="#app3610220103e">
+              <lem wit="#土本 #近本 #京博本 #慶長本 #梵本">藺</lem>
+              <rdg wit="#九本">蘭</rdg>
+              <note place="傍">京博本左朱傍書「蕳」</note>
+            </app>
+            <app from="#app3610220104" to="#app3610220104e">
+              <lem wit="#土本 #九本 #近本訂正書 #京博本 #慶長本 #梵本">漬</lem>
+              <rdg wit="#近本">清</rdg>
+              <note>近本訂正書「漬」</note>
+            </app>
           </div>
           <div ana="主殿" corresp="engishiki_v36_en.xml#article361023 engishiki_v36_ja.xml#article361023" n="36.23" type="条"
             xml:id="article361023">
             <head ana="毎日早朝"/>
             <p ana="項" corresp="engishiki_v36_en.xml#item36102301 engishiki_v36_ja.xml#item36102301" xml:id="item36102301">
                 毎日早朝、<anchor xml:id="app3610230101"/>頭<anchor xml:id="app3610230101e"/>率僚下、掃治御前及宮掖所所、 </p>
+            <app from="#app3610230101" to="#app3610230101e">
+              <lem wit="#九本 #近本 #京博本 #慶長本 #梵本">頭</lem>
+              <rdg wit="#土本">無し</rdg>
+              <note>頭　土本無し。九本等により補う。</note>
+            </app>
           </div>
           <div ana="主殿" corresp="engishiki_v36_en.xml#article361024 engishiki_v36_ja.xml#article361024" n="36.24" type="条"
             xml:id="article361024">
@@ -1622,6 +2081,23 @@
                 />、其礼服者、冠袷袍、〈表緋、裏白、〉下襲袷衣、〈表緋、裏白、〉白袴帯、鼻切履、執威儀物殿部、左方十一人、一人<anchor xml:id="app3610240102"/>執<anchor
                 xml:id="app3610240102e"/>梅杖、二人紫繖、三人紫蓋、二人菅繖、三人菅蓋、右准此、其装束各黄帛<anchor xml:id="app3610240103"/>袷<anchor
                 xml:id="app3610240103e"/>袍一領、〈並一備之後随破請替、〉 </p>
+            <app from="#app3610240101" to="#app3610240101e">
+              <lem wit="#九本">人</lem>
+              <rdg wit="#土本 #近本 #京博本 #慶長本 #梵本">尺</rdg>
+              <note place="傍">京博本右朱傍書「人歟」</note>
+              <note place="傍">京博本左朱傍書「本一」</note>
+              <note>人　土本等「尺」。九本により改める。</note>
+            </app>
+            <app from="#app3610240102" to="#app3610240102e">
+              <lem wit="#土本 #九本 #近本 #京博本 #慶長本">執</lem>
+              <note place="傍">九本傍書「一人」</note>
+            </app>
+            <app from="#app3610240103" to="#app3610240103e">
+              <lem wit="#土本 #九本 #近本 #京博本左朱傍書">袷</lem>
+              <rdg wit="#京博本 #慶長本 #梵本">衿</rdg>
+              <note place="傍">京博本右朱傍書「衿」</note>
+              <note place="傍">京博本左朱傍書「袷」</note>
+            </app>
           </div>
           <div ana="主殿" corresp="engishiki_v36_en.xml#article361025 engishiki_v36_ja.xml#article361025" n="36.25" type="条"
             xml:id="article361025">
@@ -1638,6 +2114,24 @@
                 xml:id="app3610260102e"/>殿并御在所料、〉中宮油八斗、油坏八百口、盤百<anchor xml:id="app3610260103"/>卅<anchor xml:id="app3610260103e"
                 />口、瓶十六口、燈炷布一丈三尺、追儺<anchor xml:id="app3610260104"/>今<anchor xml:id="app3610260104e"
               />良男卌人、女十六人、〈女五人奉中宮、〉各給衣服、表桃染布、裏調布各二丈一尺、〈女減五尺、〉庸綿二屯、生糸一分、 </p>
+            <app from="#app3610260101" to="#app3610260101e">
+              <lem wit="#九本">一百</lem>
+              <rdg wit="#土本 #近本 #京博本 #慶長本">百</rdg>
+              <note>一百　土本等「百」。九本により改める。</note>
+            </app>
+            <app from="#app3610260102" to="#app3610260102e">
+              <lem wit="#土本 #近本 #京博本 #慶長本 #梵本">震</lem>
+              <rdg wit="#九本">震</rdg>
+            </app>
+            <app from="#app3610260103" to="#app3610260103e">
+              <lem wit="#土本 #九本 #近本 #京博本 #慶長本 #梵本">卅</lem>
+              <rdg wit="#京博本朱傍書">卌</rdg>
+              <note place="傍">京博本朱傍書「卌」</note>
+            </app>
+            <app from="#app3610260104" to="#app3610260104e">
+              <lem wit="#土本 #九本 #近本 #京博本 #梵本">今</lem>
+              <rdg wit="#慶長本">令</rdg>
+            </app>
           </div>
           <div ana="主殿" corresp="engishiki_v36_en.xml#article361027 engishiki_v36_ja.xml#article361027" n="36.27" type="条"
             xml:id="article361027">
@@ -1647,6 +2141,24 @@
                 xml:id="app3610270102"/>良<anchor xml:id="app3610270102e"/>等大<anchor xml:id="app3610270103"/>内<anchor
                 xml:id="app3610270103e"/>前庭東西相分立燈台、〈各相去八尺、〉随即燃燈、于時<anchor xml:id="app3610270104"/>追<anchor xml:id="app3610270104e"
               />儺、已畢供奉御湯、 </p>
+            <app from="#app3610270101" to="#app3610270101e">
+              <lem wit="#九本 #京博本 #慶長本 #梵本">晩</lem>
+              <rdg wit="#土本 #近本">脱</rdg>
+              <note>晩　土本・近本「脱」。九本・京博本・慶長本により改める。</note>
+            </app>
+            <app from="#app3610270102" to="#app3610270102e">
+              <lem wit="#土本 #九本 #近本 #京博本 #梵本">良</lem>
+              <rdg wit="#慶長本 #京博本朱傍書">食</rdg>
+              <note place="傍">京博本朱傍書「食イ」</note>
+            </app>
+            <app from="#app3610270103" to="#app3610270103e">
+              <lem wit="#土本 #九本 #京博本 #慶長本 #梵本">内</lem>
+              <rdg wit="#近本">月</rdg>
+            </app>
+            <app from="#app3610270104" to="#app3610270104e">
+              <lem wit="#土本 #九本 #近本 #京博本 #京博本朱傍書 #慶長本 #梵本">追</lem>
+              <note place="傍">京博本朱傍書「追イ」</note>
+            </app>
           </div>
           <div ana="主殿" corresp="engishiki_v36_en.xml#article361028 engishiki_v36_ja.xml#article361028" n="36.28" type="条"
             xml:id="article361028">
@@ -1654,12 +2166,21 @@
             <p ana="項" corresp="engishiki_v36_en.xml#item36102801 engishiki_v36_ja.xml#item36102801" xml:id="item36102801">
                 車駕行幸供奉殿部十人、各給紅染細布衫一領、細布帯一条、袴一腰、今良卅人、各紺<anchor xml:id="app3610280101"/>調布袴一領<anchor xml:id="app3610280101e"
               />、調布帯一条、調布袴一腰、〈已上隔三年請、〉仕丁十二人、各紺布衫一領、布袴一腰、布帯一条、〈已上随破請替、〉 </p>
+            <app from="#app3610280101" to="#app3610280101e">
+              <lem wit="#土本 #近本 #京博本 #慶長本 #梵本">調布袴一領</lem>
+              <rdg wit="#九本">無し</rdg>
+              <note>調布袴一領　訳注本は「袴」を「衫」に意改する。</note>
+            </app>
           </div>
           <div ana="主殿" corresp="engishiki_v36_en.xml#article361029 engishiki_v36_ja.xml#article361029" n="36.29" type="条"
             xml:id="article361029">
             <head ana="燈楼"/>
             <p ana="項" corresp="engishiki_v36_en.xml#item36102901 engishiki_v36_ja.xml#item36102901" xml:id="item36102901">
                 燈楼九具、盤形燈台三基、並随損請<anchor xml:id="app3610290101"/>替<anchor xml:id="app3610290101e"/>、 </p>
+            <app from="#app3610290101" to="#app3610290101e">
+              <lem wit="#土本 #近本 #京博本 #慶長本 #梵本">替</lem>
+              <rdg wit="#九本">換</rdg>
+            </app>
           </div>
           <div ana="主殿" corresp="engishiki_v36_en.xml#article361030 engishiki_v36_ja.xml#article361030" n="36.30" type="条"
             xml:id="article361030">
@@ -1675,6 +2196,20 @@
                 xml:id="app3610310101e"/>氏子孫堪事者為之、歯及冠婚申<orgName corresp="#中務省">省</orgName>請替、其給時服者、各夏絁一丈七尺六寸、袴料七尺一寸、糸四銖、<anchor
                 xml:id="app3610310102"/>冬<anchor xml:id="app3610310102e"/>絁三丈五尺<anchor xml:id="app3610310103"/>六<anchor
                 xml:id="app3610310103e"/>寸、袴料一丈四尺二寸、綿三屯、糸四銖、履一両、 </p>
+            <app from="#app3610310101" to="#app3610310101e">
+              <lem wit="#土本 #九本 #近本訂正書">秦</lem>
+              <rdg wit="#近本 #京博本 #慶長本 #梵本">奉</rdg>
+              <note>近本訂正書「秦」</note>
+            </app>
+            <app from="#app3610310102" to="#app3610310102e">
+              <lem wit="#九本">冬</lem>
+              <rdg wit="#土本 #近本 #京博本 #慶長本 #梵本">各</rdg>
+              <note>冬　土本等「各」。九本により改める。</note>
+            </app>
+            <app from="#app3610310103" to="#app3610310103e">
+              <lem wit="#土本 #九本 #近本 #京博本 #慶長本 #梵本">六</lem>
+              <note>六　訳注本は考異に従い「二」に改める。</note>
+            </app>
           </div>
           <div ana="主殿" corresp="engishiki_v36_en.xml#article361032 engishiki_v36_ja.xml#article361032" n="36.32" type="条"
             xml:id="article361032">
@@ -1682,6 +2217,11 @@
             <p ana="項" corresp="engishiki_v36_en.xml#item36103201 engishiki_v36_ja.xml#item36103201" xml:id="item36103201">
                 凡<anchor xml:id="app3610320101"/>充<anchor xml:id="app3610320101e"/>諸司炭松者、皆令<orgName corresp="#主殿寮"
                 >寮</orgName>家仕丁焼採、其薪者、依内侍宣、以収<orgName corresp="#主殿寮">寮</orgName>薪充之、 </p>
+            <app from="#app3610320101" to="#app3610320101e">
+              <lem wit="#土本 #九本 #近本 #京博本 #慶長本 #梵本">充</lem>
+              <rdg wit="#京博本朱傍書">宛</rdg>
+              <note place="傍">京博本朱傍書「宛」</note>
+            </app>
           </div>
           <div ana="主殿" corresp="engishiki_v36_en.xml#article361033 engishiki_v36_ja.xml#article361033" n="36.33" type="条"
             xml:id="article361033">
@@ -1690,10 +2230,25 @@
                 凡今良男一百<anchor xml:id="app3610330101"/>卌<anchor xml:id="app3610330101e"
                 />一人、女二百廿六人、並給月粮、〈男別日黒米二升、塩二勺、女別減米五合、塩五撮、但諸司<anchor xml:id="app3610330102"/>所々之散<anchor xml:id="app3610330102e"
                 />、不経此<orgName corresp="#主殿寮">寮</orgName>請之、〉 </p>
+            <app from="#app3610330101" to="#app3610330101e">
+              <lem wit="#土本 #九本 #近本 #京博本 #慶長本 #梵本">卌</lem>
+              <rdg wit="#京博本朱傍書">卅</rdg>
+              <note place="傍">京博本朱傍書「卅イ」</note>
+            </app>
+            <app from="#app3610330102" to="#app3610330102e">
+              <lem wit="#九本">所々之散</lem>
+              <rdg wit="#土本 #近本 #京博本 #慶長本 #梵本">所之散</rdg>
+              <note>近本訂正書「々」</note>
+              <note>所々之散　土本等「所之散」。九本により改める。</note>
+            </app>
           </div>
         </div>
         <div type="尾題" xml:id="bidai36">
           <p xml:id="bidai3601"> 延喜式巻第卅<anchor xml:id="app3688880101"/>六<anchor xml:id="app3688880101e"/></p>
+          <app from="#app3688880101" to="#app3688880101e">
+            <lem wit="#土本 #九本 #近本 #京博本 #慶長本 #梵本">六</lem>
+            <note>九本この後に「延喜五年十二月廿六日」</note>
+          </app>
         </div>
         <div type="本奥書" xml:id="okugaki36">
           <p xml:id="okugaki3601"/>
