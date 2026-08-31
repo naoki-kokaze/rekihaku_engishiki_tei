@@ -817,8 +817,7 @@
           </listWit>
           <listWit xml:id="版本">
             <head>版本：鈴鹿本も含めた流布版本</head>
-            <witness xml:id="鈴鹿本"><abbr>鈴鹿本</abbr>：大和文華館所蔵鈴鹿連胤旧蔵版本（1/741～790） 
-              <note>※鈴鹿本は巻13を有する正保版本である可能性が指摘されています。</note>
+            <witness xml:id="鈴鹿本"><abbr>鈴鹿本</abbr>：大和文華館所蔵鈴鹿連胤旧蔵版本（1/741～790） <note>※鈴鹿本は巻13を有する正保版本である可能性が指摘されています。</note>
               <listRef>
                 <ref xml:id="鈴鹿本傍訓">鈴鹿本傍訓</ref>
               </listRef></witness>
@@ -1063,6 +1062,13 @@
               <cell rendition="#width100"> 新嘗祭と新嘗小斎解斎に分割 </cell>
             </row>
             <row>
+              <cell rendition="#width100"> 361主殿 </cell>
+              <cell rendition="#width50"> 4 </cell>
+              <cell rendition="#width100"> 薗韓神祭料 </cell>
+              <cell rendition="#width50"> 4 </cell>
+              <cell rendition="#width100"> 園韓神祭料 </cell>
+            </row>
+            <row>
               <cell rendition="#width100"> 411弾正 </cell>
               <cell rendition="#width50"> 68 </cell>
               <cell rendition="#width100"> 支子染深色 </cell>
@@ -1151,16 +1157,21 @@
         <rendition xml:id="indent1_hanging-5"> display: block; margin: 0; padding-inline-start: 6em; text-indent: -5em; </rendition>
         <rendition xml:id="indent1_hanging-6"> display: block; margin: 0; padding-inline-start: 7em; text-indent:
           -6em;</rendition>
+        
         <rendition xml:id="indent2_hanging-1">display: block; margin: 0; padding-inline-start: 3em; text-indent: -1em;</rendition>
         <rendition xml:id="indent2_hanging-3">display: block; margin: 0; padding-inline-start: 5em; text-indent: -3em;</rendition>
         <rendition xml:id="indent2_hanging-4">display: block; margin: 0; padding-inline-start: 6em; text-indent: -4em;</rendition>
         <rendition xml:id="indent2_hanging-5">display: block; margin: 0; padding-inline-start: 7em; text-indent: -5em;</rendition>
         <rendition xml:id="indent2_hanging-6">display: block; margin: 0; padding-inline-start: 8em; text-indent: -6em;</rendition>
         <rendition xml:id="indent2_hanging-7">display: block; margin: 0; padding-inline-start: 9em; text-indent: -7em;</rendition>
+
+        <rendition xml:id="indent3_hanging-4">display: block; margin: 0; padding-inline-start: 7em; text-indent: -4em;</rendition>
         <rendition xml:id="indent3_hanging-5">display: block; margin: 0; padding-inline-start: 8em; text-indent: -5em;</rendition>
+
         <rendition xml:id="indent4_hanging-5">display: block; margin: 0; padding-inline-start: 9em; text-indent: -5em;</rendition>
         <rendition xml:id="indent4_hanging-6">display: block; margin: 0; padding-inline-start: 10em; text-indent:
           -6em;</rendition>
+
         <rendition xml:id="indent5_hanging-5">display: block; margin: 0; padding-inline-start: 10em; text-indent:
           -5em;</rendition>
 
