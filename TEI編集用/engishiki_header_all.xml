@@ -823,12 +823,15 @@
             <witness xml:id="泉亭本"><abbr>泉亭本</abbr>：賀茂三手文庫所蔵泉亭本（制度/加） </witness>
           </listWit>
           <listWit xml:id="版本">
-            <head>版本：鈴鹿本も含めた流布版本</head>
-            <witness xml:id="鈴鹿本"><abbr>鈴鹿本</abbr>：大和文華館所蔵鈴鹿連胤旧蔵版本（1/741～790）
-                <note>※鈴鹿本は巻13を有する正保版本である可能性が指摘されています。</note>
-              <listRef>
+            <head>版本：慶安版本も含めた流布版本</head>
+            <witness xml:id="鈴鹿本"><abbr>鈴鹿本</abbr>：大和文華館所蔵鈴鹿連胤旧蔵版本（1/741～790） <listRef>
                 <ref xml:id="鈴鹿本傍訓">鈴鹿本傍訓</ref>
+                <ref xml:id="鈴鹿本書入">鈴鹿本書入</ref>
+                <ref xml:id="鈴鹿本書入傍書">鈴鹿本書入傍書</ref>
+                <ref xml:id="鈴鹿本書入朱傍書">鈴鹿本書入朱傍書</ref>
+                <ref xml:id="鈴鹿本書入朱補書">鈴鹿本書入朱補書</ref>
               </listRef></witness>
+            <witness xml:id="慶安版本"><abbr>慶安版本</abbr>：宮内庁書陵部図書寮文庫書蔵松岡家旧蔵版本（459-1）等 </witness>
             <witness xml:id="明暦版本"><abbr>明暦版本</abbr>：明暦修訂版本　国立公文書館所蔵紅葉山文庫旧蔵版本（特26-1）等 <listRef>
                 <ref xml:id="明暦版本訂正書">明暦版本訂正書</ref>
                 <ref xml:id="明暦版本傍訓">明暦版本傍訓</ref>
@@ -845,12 +848,6 @@
                 <ref xml:id="雲本傍書">雲本傍書</ref>
               </listRef></witness>
             <witness xml:id="考異"><abbr>考異</abbr>：雲州本附録『延喜式考異』　早稲田大学図書館所蔵本（ワ03-01594）等</witness>
-            <witness xml:id="鈴鹿本書入"><abbr>鈴鹿本書入</abbr>：大和文華館所蔵鈴鹿連胤旧蔵版本（1/741～790）書入 <listRef>
-                <ref xml:id="鈴鹿本書入傍書">鈴鹿本書入傍書</ref>
-                <ref xml:id="鈴鹿本書入書入">鈴鹿本書入書入</ref>
-                <ref xml:id="鈴鹿本書入朱傍書">鈴鹿本書入朱傍書</ref>
-                <ref xml:id="鈴鹿本書入朱補書">鈴鹿本書入朱補書</ref>
-              </listRef></witness>
             <witness xml:id="勢多本"><abbr>勢多本</abbr>：宮内庁書陵部図書寮文庫所蔵勢多家旧蔵本（172-123）書入 <listRef>
                 <ref xml:id="勢多本傍書">勢多本傍書</ref>
                 <ref xml:id="勢多本書入">勢多本書入</ref>
@@ -1252,15 +1249,13 @@
           <tagUsage gi="anchor">校異注の該当範囲（始点・終点）を指定するための空要素。<gi>app</gi> 要素の <att>from</att> および
               <att>to</att> から参照され、校注範囲を確定させるために使用する。</tagUsage>
           <tagUsage gi="note">校異の詳細説明（<gi>app</gi> 内）、史料上の割注（<gi>measure</gi>
-              内）、条文要約（<att>type</att>="summary"）、訳者注（<att>type</att>="translatorsNotes"）、および典拠データ（<gi>standOff</gi>）における制度上の地域区分（<gi>trait</gi>
-              内）に使用。これら情報の性質や参照先、出現位置は、必要に応じて<att>place</att>、<att>type</att>、<att>target</att>
+              内）、条文要約（<att>type</att>="summary"）、訳者注（<att>type</att>="translatorsNotes"）、換算ルール（<att>type</att>="calculationRule"）、および典拠データ（<gi>standOff</gi>）における制度上の地域区分（<gi>trait</gi>
+              内）に使用。これらは、情報の性質や参照先、出現位置に応じて、<att>place</att>、<att>type</att>、<att>target</att>、<att>ana</att>、<att>corresp</att>
             の各属性により区別される。</tagUsage>
-          <tagUsage gi="measure">物品の数量・寸法を記述。品目とその総量を定義する外側の構造と、具体的な数値を保持する内側の構造を階層的に記述する。前者では
-              <att>ana</att>（納税物の区分）、<att>commodity</att>（物品の種類）、<att>type</att>（貢納量の規定か実数かの別）を用いて、後者では
-              <att>quantity</att>（数量）、<att>type</att>（寸法の種類【長・広・深等】）、<att>ana</att>（物理量の分類）を用いて情報の詳細を明示する。</tagUsage>
-          <tagUsage gi="measureGrp"
-              >複数の単位を伴う計量値（斤と両など）を一つの論理的な測定値としてグループ化する場合、または特定の属性（<att>type</att>="width"
-            等）を共有する測定値の集合を示す場合に使用する。</tagUsage>
+          <tagUsage gi="measure"
+              >物品の数量・寸法等の計量情報を記述するために使用。<gi>measure</gi>を入れ子構造にすることで、物品と数量・単位等の対応関係を階層的に記述する。<att>ana</att>（納税物区分）、<att>commodity</att>（物品ID）、<att>corresp</att>（該当する国・地域）、<att>quantity</att>（数量）等の属性を用いて計量情報を詳細に記述する。また、<att>type</att>には、<val>standard</val>（貢納量の規定）、<val>actual</val>（実数）、<val>conditional</val>（隔年・条件付き等の数量記載）、<val>supplement</val>（寸法・補足的数量情報）を指定する。</tagUsage>
+          <tagUsage gi="measureGrp">関連する複数の <gi>measure</gi>
+            をグループ化するために使用する。物品に関する法量情報の集合を表現する場合や、複数の単位によって表される数量表現する場合に用いる。</tagUsage>
           <tagUsage gi="unit">数量の単位（枚、丈、斤、両など）を示す。<att>unitRef</att>
               を通じてヘッダー内の単位定義（<gi>unitDecl</gi>）と連動させる。</tagUsage>
           <tagUsage gi="placeName">歴史地名。<gi>standOff</gi> 内の典拠情報とリンクし、空間情報の同定を行う。</tagUsage>
