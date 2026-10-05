@@ -1,0 +1,1950 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title> 延喜式ファイル </title>
+<author> 国立歴史民俗博物館 </author>
+<respStmt>
+<resp> プロジェクトリーダー </resp>
+<persName ref="http://viaf.org/viaf/113471616"> 三上喜孝 </persName>
+<note> 「延喜式のデジタル技術による汎用化」（2022～）の責任者（2025～） </note>
+</respStmt>
+<respStmt>
+<resp> プロジェクト副リーダー・システム管理 </resp>
+<persName ref="http://viaf.org/viaf/159687464"> 後藤真 </persName>
+<note> プロジェクトマネジメント・史料閲覧ビューアのシステム管理 </note>
+</respStmt>
+<respStmt>
+<resp> TEI構造化・データ管理 </resp>
+<persName ref="http://viaf.org/viaf/3162902777677782216"> 小風尚樹 </persName>
+<note> テクストマークアップのモデル考察・共同作業のデータ管理 </note>
+</respStmt>
+<respStmt>
+<resp> 閲覧ビューアの開発 </resp>
+<persName ref="http://viaf.org/viaf/31159697771003312807"> 中村覚 </persName>
+<note> TEIおよびIIIF準拠の史料閲覧ビューアの開発 </note>
+</respStmt>
+<respStmt>
+<resp> マークアップ・データ管理・システム検証 </resp>
+<persName> 渡辺美紗子 </persName>
+<note> 校訂文テクスト基礎データの整理・TEIマークアップデータの作成（公開中の校訂文・現代語訳・英訳のデータ全般） </note>
+</respStmt>
+<respStmt>
+<resp> マークアップ・データ処理自動化・データ管理・システム検証 </resp>
+<persName> 戸村美月 </persName>
+<note> 校訂文テクスト基礎データの整理・TEIマークアップデータの作成（公開中の校訂文・現代語訳・英訳のデータ全般） </note>
+</respStmt>
+<respStmt>
+<resp> マークアップ・データ処理自動化 </resp>
+<persName ref="http://viaf.org/viaf/19166357045306640277"> 小風綾乃 </persName>
+<note> TEIファイルとIIIF画像の紐づけ作業・Pythonによる各種データ作成作業の自動化 </note>
+</respStmt>
+<respStmt>
+<resp> モデル設計・講習会実施 </resp>
+<persName ref="http://viaf.org/viaf/252742522"> 永崎研宣 </persName>
+<note> TEIマークアップのモデル検討・TEI講習会の実施 </note>
+</respStmt>
+<respStmt>
+<resp> プロジェクト旧リーダー・校訂・現代語訳 </resp>
+<persName ref="http://viaf.org/viaf/14726824"> 小倉慈司 </persName>
+<note>
+      「古代の百科全書『延喜式』の多分野協働研究」（2016～2021）・「延喜式のデジタル技術による汎用化」（2022～）の責任者（2022～2024）、『延喜式』の書誌学的情報の検討、『延喜式』テクスト本文の校訂（巻5「斎宮寮」巻9「神名上」巻10「神名下」巻17「内匠寮」）、『延喜式』テクストの現代語訳（巻9「神名上」巻10「神名下」）
+     </note>
+</respStmt>
+<respStmt>
+<resp> 校訂 </resp>
+<persName ref="http://viaf.org/viaf/29168734579865262687 http://viaf.org/viaf/20165392564921252049"> 井上正望 </persName>
+<note> 『延喜式』テクスト本文の校訂（巻29「刑部省・判事・囚獄司」巻41「弾正台」巻42「左右京職・東西市司」） </note>
+</respStmt>
+<respStmt>
+<resp> 校訂・現代語訳 </resp>
+<persName> 小川宏和 </persName>
+<note> 『延喜式』テクスト本文の校訂（巻32「大膳職上」巻39「正親司・内膳司」）および現代語訳（巻39「内膳司」） </note>
+</respStmt>
+<respStmt>
+<resp> 英訳 </resp>
+<persName> 河合佐知子 </persName>
+<note> 『延喜式』テクストの英訳（巻39「正親司」） </note>
+</respStmt>
+<respStmt>
+<resp> 校訂・現代語訳・プロジェクト代表代理 </resp>
+<persName ref="http://viaf.org/viaf/15166714142126882954"> 神戸航介 </persName>
+<note>
+      「延喜式のデジタル技術による汎用化」（2022～）の代表代理（2025～）・『延喜式』テクスト本文の校訂（巻11「太政官」巻22「民部省上」巻23「民部省下」巻25「主計寮下」巻27「主税寮下」）および現代語訳（巻11「太政官」巻22「民部省上」）
+     </note>
+</respStmt>
+<respStmt>
+<resp> 校訂・現代語訳・語彙解説 </resp>
+<persName ref="http://viaf.org/viaf/33161816291427721819"> 清武雄二 </persName>
+<note> 『延喜式』の書誌学的情報の検討、『延喜式』テクスト本文の校訂（巻24「主計寮上」）および現代語訳（巻24「主計寮上」巻32「大膳職上」巻39「内膳司」）・語彙解説の執筆 </note>
+</respStmt>
+<respStmt>
+<resp> 校訂・現代語訳 </resp>
+<persName> 古田一史 </persName>
+<note> 『延喜式』テクスト本文の校訂（巻37「典薬寮」）および現代語訳（巻17「内匠寮」巻39「正親司」） </note>
+</respStmt>
+<respStmt>
+<resp> 現代語訳 </resp>
+<persName> 堀部猛 </persName>
+<note> 『延喜式』テクストの現代語訳（巻17「内匠寮」） </note>
+</respStmt>
+<respStmt>
+<resp> 校訂・校訂管理・データ整理・システム検証 </resp>
+<persName ref="http://viaf.org/viaf/249148933791454302260"> 三輪仁美 </persName>
+<note> 『延喜式』テクスト本文の校訂（巻14「縫殿寮」巻21「治部省・雅楽寮・玄蕃寮・諸陵寮」） </note>
+</respStmt>
+<respStmt>
+<resp> 英訳 </resp>
+<persName ref="http://viaf.org/viaf/186152636097020050077"> 山口えり </persName>
+<note> 『延喜式』テクストの英訳 </note>
+</respStmt>
+<respStmt>
+<resp> 英訳 </resp>
+<persName> Alessandro Poletto </persName>
+<note> 『延喜式』テクストの英訳（巻37「典薬寮」） </note>
+</respStmt>
+<respStmt>
+<resp> 英訳 </resp>
+<persName> Emily Warren </persName>
+<note> 『延喜式』テクストの英訳（巻39「内膳司」） </note>
+</respStmt>
+<funder> 人間文化研究機構広領域連携型基幹研究プロジェクト「異分野融合による「総合書物学」の構築」歴博ユニット「古代の百科全書『延喜式』の多分野協働研究」（研究代表：小倉慈司） </funder>
+<funder> 人間文化研究機構広領域連携型基幹研究プロジェクト「異分野融合による総合書物学の拡張的研究」歴博ユニット「延喜式のデジタル技術による汎用化」（研究代表：小倉慈司（2022～2024）、三上喜孝（2025～）） </funder>
+<funder> 科研費基盤研究（B）「史料学的検討を重視した『延喜式』の基礎的研究」（研究代表：小倉慈司） </funder>
+<funder> 科研費基盤研究（B）「格・式研究を踏まえた日本古代社会像の再構築」（研究代表：小倉慈司） </funder>
+<funder> 学術変革領域研究（A）「歴史情報学の創成」（領域代表）内 計画研究「TEIを中心とした高度な歴史テキスト構築」（研究代表：小風尚樹） </funder>
+<principal> 後藤真 </principal>
+</titleStmt>
+<publicationStmt>
+<authority> 国立歴史民俗博物館 </authority>
+<distributor> 国立歴史民俗博物館メタ資料学研究センター </distributor>
+<publisher> 国立歴史民俗博物館メタ資料学研究センター </publisher>
+<idno type="PID"/>
+<availability status="free">
+<p> 本データは国立歴史民俗博物館の利用規定に基づき公開されています。 </p>
+<licence target="https://creativecommons.org/licenses/by/4.0/"> この作品はクリエイティブ・コモンズ 表示 4.0 国際 ライセンス（CC BY 4.0）の下に提供されています。
+     </licence>
+</availability>
+<!--下記dateはデジタル延喜式の公開日のままでよいでしょうか？ -->
+<date when="2020-03-31"> 31 March 2020 </date>
+</publicationStmt>
+<notesStmt>
+<note> 本データの底本は影印本『国立歴史民俗博物館貴重典籍叢書』歴史篇12～18（臨川書店、2000～2001年）として刊行されている。また虎尾俊哉編『訳注日本史料 延喜式』にて底本として使用される。 </note>
+<relatedItem>
+<listBibl>
+<biblStruct>
+<analytic>
+<author> 虎尾俊哉 </author>
+<title> 解題 </title>
+</analytic>
+<monogr>
+<title> 虎尾俊哉校注『延喜式』 </title>
+<imprint>
+<biblScope unit="issue"> 上 </biblScope>
+<publisher> 神道大系編纂会 </publisher>
+<date> 1991 </date>
+</imprint>
+</monogr>
+</biblStruct>
+<biblStruct>
+<analytic>
+<author> 田島公 </author>
+<title> 土御門本『延喜式』覚書 </title>
+</analytic>
+<monogr>
+<editor> 門脇禎二 </editor>
+<title> 『日本古代国家の展開』 </title>
+<imprint>
+<biblScope unit="issue"> 下 </biblScope>
+<publisher> 思文閣出版 </publisher>
+<date> 1995 </date>
+</imprint>
+</monogr>
+</biblStruct>
+<biblStruct>
+<analytic>
+<author> 虎尾俊哉 </author>
+<title> 延喜式写本についての覚書 </title>
+</analytic>
+<monogr>
+<title> 『延喜式研究』 </title>
+<imprint>
+<biblScope unit="vol"> 14 </biblScope>
+<date> 1998 </date>
+</imprint>
+</monogr>
+</biblStruct>
+<biblStruct>
+<monogr>
+<editor> 虎尾俊哉 </editor>
+<title> 『訳注日本史料 延喜式』 </title>
+<imprint>
+<biblScope unit="issue"> 上 </biblScope>
+<publisher> 集英社 </publisher>
+<date> 2000 </date>
+</imprint>
+</monogr>
+</biblStruct>
+<biblStruct>
+<monogr>
+<editor> 虎尾俊哉 </editor>
+<title> 『訳注日本史料 延喜式』 </title>
+<imprint>
+<biblScope unit="issue"> 中 </biblScope>
+<publisher> 集英社 </publisher>
+<date> 2007 </date>
+</imprint>
+</monogr>
+</biblStruct>
+<biblStruct>
+<monogr>
+<editor> 虎尾俊哉 </editor>
+<title> 『訳注日本史料 延喜式』 </title>
+<imprint>
+<biblScope unit="issue"> 下 </biblScope>
+<publisher> 集英社 </publisher>
+<date> 2017 </date>
+</imprint>
+</monogr>
+</biblStruct>
+<biblStruct>
+<analytic>
+<author> 虎尾俊哉 </author>
+<title> 延喜式 土御門本 解題 </title>
+</analytic>
+<monogr>
+<title> 『国立歴史民俗博物館貴重典籍叢書』 </title>
+<imprint>
+<biblScope unit="issue"> 歴史篇18 </biblScope>
+<publisher> 臨川書店 </publisher>
+<date> 2001 </date>
+</imprint>
+</monogr>
+</biblStruct>
+<biblStruct>
+<analytic>
+<author> 田島公 </author>
+<title> 『延喜式』諸写本の伝来と書写に関する覚書 </title>
+<date> 2005 </date>
+</analytic>
+<monogr>
+<editor> 田島公 </editor>
+<title> 『禁裏・公家文庫研究』 </title>
+<imprint>
+<biblScope unit="issue"> 5 </biblScope>
+<publisher> 思文閣出版 </publisher>
+<date> 2015 </date>
+</imprint>
+</monogr>
+</biblStruct>
+<biblStruct>
+<analytic>
+<author> 小倉慈司 </author>
+<title> 『延喜式』土御門本と近衛本の検討―巻五を中心に </title>
+</analytic>
+<monogr>
+<editor> 佐藤信 </editor>
+<title> 『史料・史跡と古代社会』 </title>
+<imprint>
+<publisher> 吉川弘文館 </publisher>
+<date> 2018 </date>
+</imprint>
+</monogr>
+</biblStruct>
+<biblStruct>
+<analytic>
+<author> 小倉慈司 </author>
+<title> 『延喜式』写本系統の基礎的研究－巻五を中心に </title>
+</analytic>
+<monogr>
+<editor> 新川登亀男 </editor>
+<title> 『日本古代史の方法と意義』 </title>
+<imprint>
+<publisher> 勉誠出版 </publisher>
+<date> 2018 </date>
+</imprint>
+</monogr>
+</biblStruct>
+<biblStruct>
+<analytic>
+<author> 小倉慈司 </author>
+<title> 『延喜式』巻17の写本系統と本文校訂 </title>
+</analytic>
+<monogr>
+<title> 『国立歴史民俗博物館研究報告』 </title>
+<imprint>
+<biblScope unit="vol"> 218 </biblScope>
+<date> 2019 </date>
+</imprint>
+</monogr>
+</biblStruct>
+<biblStruct>
+<analytic>
+<author> 小風尚樹 </author>
+<author> 後藤真 </author>
+<title> 『延喜式』へのTEI適用と日本史資料のテクストデータ共有・流通 </title>
+</analytic>
+<monogr>
+<title> 『国立歴史民俗博物館研究報告』 </title>
+<imprint>
+<biblScope unit="vol"> 218 </biblScope>
+<date> 2019 </date>
+</imprint>
+</monogr>
+</biblStruct>
+<biblStruct>
+<analytic>
+<author> 小倉慈司 </author>
+<title> 『延喜式』巻五校訂(稿) </title>
+</analytic>
+<monogr>
+<title> 『国立歴史民俗博物館研究報告』 </title>
+<imprint>
+<biblScope unit="vol"> 218 </biblScope>
+<date> 2019 </date>
+</imprint>
+</monogr>
+</biblStruct>
+<biblStruct>
+<analytic>
+<author> 三輪仁美 </author>
+<title> 『延喜式』の写本系統に関する試論－巻十四を事例として </title>
+</analytic>
+<monogr>
+<title> 『国立歴史民俗博物館研究報告』 </title>
+<imprint>
+<biblScope unit="vol"> 218 </biblScope>
+<date> 2019 </date>
+</imprint>
+</monogr>
+</biblStruct>
+<biblStruct>
+<analytic>
+<author> 清武雄二 </author>
+<author> 神戸航介 </author>
+<author> 堀部猛 </author>
+<author> 古田一史 </author>
+<title> 『延喜式』巻一七「内匠寮」現代語訳(稿) </title>
+</analytic>
+<monogr>
+<title> 『国立歴史民俗博物館研究報告』 </title>
+<imprint>
+<biblScope unit="vol"> 218 </biblScope>
+<date> 2019 </date>
+</imprint>
+</monogr>
+</biblStruct>
+<biblStruct>
+<analytic>
+<author> 三輪仁美 </author>
+<title> 『延喜式』巻十四校訂(稿) </title>
+</analytic>
+<monogr>
+<title> 『国立歴史民俗博物館研究報告』 </title>
+<imprint>
+<biblScope unit="vol"> 228 </biblScope>
+<date> 2021 </date>
+</imprint>
+</monogr>
+</biblStruct>
+<biblStruct>
+<analytic>
+<author> 神戸航介 </author>
+<title> 『延喜式』巻十一「太政官」校訂(稿) </title>
+</analytic>
+<monogr>
+<title> 『国立歴史民俗博物館研究報告』 </title>
+<imprint>
+<biblScope unit="vol"> 228 </biblScope>
+<date> 2021 </date>
+</imprint>
+</monogr>
+</biblStruct>
+<biblStruct>
+<analytic>
+<author> 神戸航介 </author>
+<title> 『延喜式』巻十一「太政官」現代語訳(稿) </title>
+</analytic>
+<monogr>
+<title> 『国立歴史民俗博物館研究報告』 </title>
+<imprint>
+<biblScope unit="vol"> 228 </biblScope>
+<date> 2021 </date>
+</imprint>
+</monogr>
+</biblStruct>
+<biblStruct>
+<analytic>
+<author> 小川宏和 </author>
+<title> 『延喜式』巻三九「正親司」校訂(稿) </title>
+</analytic>
+<monogr>
+<title> 『国立歴史民俗博物館研究報告』 </title>
+<imprint>
+<biblScope unit="vol"> 228 </biblScope>
+<date> 2021 </date>
+</imprint>
+</monogr>
+</biblStruct>
+<biblStruct>
+<analytic>
+<author> 古田一史 </author>
+<title> 『延喜式』巻三九「正親司」現代語訳(稿) </title>
+</analytic>
+<monogr>
+<title> 『国立歴史民俗博物館研究報告』 </title>
+<imprint>
+<biblScope unit="vol"> 228 </biblScope>
+<date> 2021 </date>
+</imprint>
+</monogr>
+</biblStruct>
+<biblStruct>
+<analytic>
+<author> Alessandro Poletto </author>
+<title> 典薬寮と『延喜式』巻三七について </title>
+</analytic>
+<monogr>
+<title> 『国立歴史民俗博物館研究報告』 </title>
+<imprint>
+<biblScope unit="vol"> 228 </biblScope>
+<date> 2021 </date>
+</imprint>
+</monogr>
+</biblStruct>
+<biblStruct>
+<analytic>
+<author> 河合佐知子 </author>
+<title> 『延喜式』第39巻「正親司」の史料的価値を英語圏に伝えるために－ジェンダー的視点を取り入れて </title>
+</analytic>
+<monogr>
+<title> 『国立歴史民俗博物館研究報告』 </title>
+<imprint>
+<biblScope unit="vol"> 228 </biblScope>
+<date> 2021 </date>
+</imprint>
+</monogr>
+</biblStruct>
+<biblStruct>
+<analytic>
+<author> 小倉慈司 </author>
+<title> 『延喜式』巻九・一〇の写本系統 </title>
+</analytic>
+<monogr>
+<editor> 小口雅史 </editor>
+<title> 『古代東アジア史料論』 </title>
+<imprint>
+<publisher> 同成社 </publisher>
+<date> 2020 </date>
+</imprint>
+</monogr>
+</biblStruct>
+<biblStruct>
+<analytic>
+<author> 小川宏和 </author>
+<title> 『延喜式』巻三九の写本系統と「内膳司」本文校訂（稿） </title>
+</analytic>
+<monogr>
+<title> 『国立歴史民俗博物館研究報告』 </title>
+<imprint>
+<biblScope unit="vol"> 234 </biblScope>
+</imprint>
+</monogr>
+</biblStruct>
+<biblStruct>
+<analytic>
+<author> 相曽貴志 </author>
+<title> 延喜式板本の再検討: 改刻の変遷を中心に </title>
+</analytic>
+<monogr>
+<title> 『国立歴史民俗博物館研究報告』 </title>
+<imprint>
+<biblScope unit="vol"> 244 </biblScope>
+<date> 2024 </date>
+</imprint>
+</monogr>
+</biblStruct>
+<biblStruct>
+<analytic>
+<author> 早川万年 </author>
+<title> 延喜式巻三（臨時祭）の校訂をめぐって </title>
+</analytic>
+<monogr>
+<title> 『国立歴史民俗博物館研究報告』 </title>
+<imprint>
+<biblScope unit="vol"> 244 </biblScope>
+<date> 2024 </date>
+</imprint>
+</monogr>
+</biblStruct>
+<biblStruct>
+<analytic>
+<author> 小倉慈司 </author>
+<title> 『延喜式』巻九・一〇の校訂 </title>
+</analytic>
+<monogr>
+<title> 『国立歴史民俗博物館研究報告』 </title>
+<imprint>
+<biblScope unit="vol"> 244 </biblScope>
+<date> 2024 </date>
+</imprint>
+</monogr>
+</biblStruct>
+<biblStruct>
+<analytic>
+<author> 三輪仁美 </author>
+<title> 『延喜式』巻二一校訂（稿） </title>
+</analytic>
+<monogr>
+<title> 『国立歴史民俗博物館研究報告』 </title>
+<imprint>
+<biblScope unit="vol"> 244 </biblScope>
+<date> 2024 </date>
+</imprint>
+</monogr>
+</biblStruct>
+<biblStruct>
+<analytic>
+<author> 清武雄二 </author>
+<title> 『延喜式覆奏短尺草写』祖本の形態と伝来 </title>
+</analytic>
+<monogr>
+<title> 『国立歴史民俗博物館研究報告』 </title>
+<imprint>
+<biblScope unit="vol"> 244 </biblScope>
+<date> 2024 </date>
+</imprint>
+</monogr>
+</biblStruct>
+<biblStruct>
+<analytic>
+<author> Emily Warren </author>
+<title> 『延喜式』の「内膳司」式英訳の紹介 </title>
+</analytic>
+<monogr>
+<title> 『国立歴史民俗博物館研究報告』 </title>
+<imprint>
+<biblScope unit="vol"> 244 </biblScope>
+<date> 2024 </date>
+</imprint>
+</monogr>
+</biblStruct>
+<biblStruct>
+<analytic>
+<author> Alessandro Poletto </author>
+<title> 『延喜式』巻37「典薬寮」英訳・注釈付 </title>
+</analytic>
+<monogr>
+<title> 『国立歴史民俗博物館研究報告』 </title>
+<imprint>
+<biblScope unit="vol"> 244 </biblScope>
+<date> 2024 </date>
+</imprint>
+</monogr>
+</biblStruct>
+<biblStruct>
+<analytic>
+<author> 小風尚樹 </author>
+<author> 中村 覚 </author>
+<author> 渡辺美紗子 </author>
+<author> 戸村美月 </author>
+<author> 小風綾乃 </author>
+<author> 後藤 真 </author>
+<title> 相互運用可能な歴史資料情報の構築に向けて : 『延喜式』TEI と IIIF を事例として </title>
+</analytic>
+<monogr>
+<title> 『国立歴史民俗博物館研究報告』 </title>
+<imprint>
+<biblScope unit="vol"> 244 </biblScope>
+<date> 2024 </date>
+</imprint>
+</monogr>
+</biblStruct>
+<biblStruct>
+<analytic>
+<author> 渡邉美紗子 </author>
+<author> 戸村美月 </author>
+<author> 三輪仁美 </author>
+<author> 後藤真 </author>
+<author> 三上喜孝 </author>
+<author> 永崎研宣 </author>
+<title> 歴史資料のTEIマークアップ:『延喜式』の校異注記述と固有名詞の一括処理 </title>
+</analytic>
+<monogr>
+<title> 『情報処理学会研究報告 : 人文科学とコンピュータ研究会報告』 </title>
+<imprint>
+<biblScope unit="vol"> 2025-CH-138 </biblScope>
+<date> 2025 </date>
+</imprint>
+</monogr>
+</biblStruct>
+<biblStruct>
+<analytic>
+<author> 前野智哉 </author>
+<title> 『延喜式』巻一の標注―「弘仁式」「貞観式」の神祇祭祀規定に関する新史料― </title>
+</analytic>
+<monogr>
+<title> 『古代文化』 </title>
+<imprint>
+<biblScope unit="vol"> 77-3 </biblScope>
+<date> 2025 </date>
+</imprint>
+</monogr>
+</biblStruct>
+</listBibl>
+</relatedItem>
+<relatedItem type="search">
+<bibl>
+<title> 延喜式関係論文目録 </title>
+<publisher> 国立歴史民俗博物館 </publisher>
+<ref target="https://www.rekihaku.ac.jp/up-cgi/login.pl?p=param/boed/db_param"> その他の研究文献については、本データベースを参照のこと </ref>
+</bibl>
+</relatedItem>
+</notesStmt>
+<sourceDesc>
+<msDesc>
+<msIdentifier>
+<settlement> 千葉県佐倉市 </settlement>
+<institution> 人間文化研究機構 </institution>
+<repository> 国立歴史民俗博物館 </repository>
+<collection> 田中穣氏旧蔵典籍古文書 </collection>
+<idno> H-743-74 </idno>
+<msName> 田中本『延喜式』 </msName>
+</msIdentifier>
+<msContents>
+<msItemStruct>
+<author> 土御門泰重（書写主宰） </author>
+<title> 土御門本『延喜式』 </title>
+<colophon> 書写奥書は無し。巻九・十に文亀三年（1503）の吉田兼倶本奥書あり。 </colophon>
+<filiation>
+<p> 本写本は、『延喜式』諸本の中でも全巻が揃う数少ない新写本の一本であり、善本として知られる。 </p>
+<p> 系統としては一条家本を親本としたと推測されるが、本写本の書写段階で欠落していた巻十三については版本によって補填されている。巻十三は九条家旧蔵巻子本が現存諸本の祖本となる。 </p>
+<p> なお、『延喜式』の原本は現存せず、古写本として東京国立博物館所蔵九条家旧蔵巻子本、天野山金剛寺所蔵本等が現存するが、全巻すべてが揃うものはない。 </p>
+<p> 本写本以外の主要写本には、京都国立博物館所蔵本（京都博物館本）・京都大学附属図書館所蔵近衛家旧蔵本・天理大学附属天理図書館所蔵本（梵舜本・梵舜別本）・宮内庁書陵部所蔵本（
+         壬生家旧蔵本・藤波家旧蔵本）・国立公文書館所蔵本（紅葉山文庫旧蔵慶長写本・林家旧蔵本）等がある。 </p>
+</filiation>
+</msItemStruct>
+</msContents>
+<history>
+<summary> 土御門家旧蔵→田中教忠氏が収集→孫の田中穣氏が『田中教忠蔵書目録』を私家版として発行→国に譲渡→歴博に移管 </summary>
+<origin>
+       土御門泰重が元和3年（1617）から4年頃に、一条家所蔵の写本（現存せず）を借用して転写させたものである。泰重の孫泰福が、巻五十の末尾に泰重真筆である旨の識語を記す（実際には泰重の筆はごく一部にとどまる）。また、巻五十後表紙見返しに田中教忠による貼紙がある。 </origin>
+<provenance> 幕末ないし明治初年に田中教忠が入手する。教忠孫の田中穣が1988～1989年に他の教忠収集コレクションとともに国に譲渡。 </provenance>
+</history>
+<physDesc>
+<objectDesc>
+<supportDesc>
+<support> 楮紙 </support>
+<extent> 縦27.3～27.4cm × 横 19.8～19.9cm </extent>
+<foliation> 丁の表裏（cf. folioのrecto, versoと同じ） </foliation>
+<collation> 袋綴じ、より正確には四ツ目綴じの和装本 </collation>
+<condition> 全巻揃っている。とくに致命的な落丁や虫損は、土御門本自体には基本的に見られない。 </condition>
+</supportDesc>
+</objectDesc>
+<bindingDesc>
+<binding>
+<p>
+         渋染栗皮色の表紙。まず左下に墨書で巻数、左上に胡粉で延喜式と直書きされており、そして左下に胡粉で巻数が上書きされている。右上には、巻の内容を表す式名やその略称が胡粉で直書きされている。表紙の心紙には楮紙でできた反故紙が使用されている。巻十三以外に押し八双あり。
+        </p>
+</binding>
+</bindingDesc>
+</physDesc>
+</msDesc>
+<listWit>
+<listWit xml:id="写本">
+<head> 写本 </head>
+<witness xml:id="土本">
+<abbr> 土本 </abbr> ：国立歴史民俗博物館所蔵土御門家旧蔵本（H-743-74） <listRef>
+<ref xml:id="土本傍書"> 土本傍書 </ref>
+<ref xml:id="土本傍訓"> 土本傍訓 </ref>
+<ref xml:id="土本左朱傍書"> 土本左朱傍書 </ref>
+<ref xml:id="土本抹消"> 土本抹消 </ref>
+<ref xml:id="土本朱傍書"> 土本朱傍書 </ref>
+<ref xml:id="土本朱補書"> 土本朱補書 </ref>
+<ref xml:id="土本朱訂正書"> 土本朱訂正書 </ref>
+<ref xml:id="土本補書"> 土本補書 </ref>
+<ref xml:id="土本訂正書"> 土本訂正書 </ref>
+<ref xml:id="土本挿入書"> 土本挿入書 </ref>
+<ref xml:id="土本転倒符"> 土本転倒符 </ref>
+</listRef>
+</witness>
+<witness xml:id="近本">
+<abbr> 近本 </abbr> ：京都大学附属図書館所蔵近衛文庫本（2-03/エ/1貴） <listRef>
+<ref xml:id="近本傍書"> 近本傍書 </ref>
+<ref xml:id="近本左傍書"> 近本左傍書 </ref>
+<ref xml:id="近本抹消"> 近本抹消 </ref>
+<ref xml:id="近本挿入書"> 近本挿入書 </ref>
+<ref xml:id="近本書入"> 近本書入 </ref>
+<ref xml:id="近本朱傍書"> 近本朱傍書 </ref>
+<ref xml:id="近本朱補書"> 近本朱補書 </ref>
+<ref xml:id="近本朱訂正"> 近本朱訂正 </ref>
+<ref xml:id="近本補書"> 近本補書 </ref>
+<ref xml:id="近本訂正"> 近本訂正 </ref>
+<ref xml:id="近本訂正書"> 近本訂正書 </ref>
+<ref xml:id="近本重書"> 近本重書 </ref>
+<ref xml:id="近本脚書"> 近本脚書 </ref>
+</listRef>
+</witness>
+<witness xml:id="壬本">
+<abbr> 壬本 </abbr> ：宮内庁書陵部図書寮文庫所蔵壬生家旧蔵本（F10-287） <listRef>
+<ref xml:id="壬本傍書"> 壬本傍書 </ref>
+<ref xml:id="壬本左傍書"> 壬本左傍書 </ref>
+<ref xml:id="壬本抹消"> 壬本抹消 </ref>
+<ref xml:id="壬本書入"> 壬本書入 </ref>
+<ref xml:id="壬本朱傍書"> 壬本朱傍書 </ref>
+<ref xml:id="壬本朱補書"> 壬本朱補書 </ref>
+<ref xml:id="壬本補書"> 壬本補書 </ref>
+<ref xml:id="壬本訂正書"> 壬本訂正書 </ref>
+</listRef>
+</witness>
+<witness xml:id="京博本">
+<abbr> 京博本 </abbr> ：京都国立博物館所蔵旧京都博物館本 <listRef>
+<ref xml:id="京博本傍書"> 京博本傍書 </ref>
+<ref xml:id="京博本左傍書"> 京博本左傍書 </ref>
+<ref xml:id="京博本傍訓"> 京博本傍訓 </ref>
+<ref xml:id="京博本墨傍書"> 京博本墨傍書 </ref>
+<ref xml:id="京博本左朱傍書"> 京博本左朱傍書 </ref>
+<ref xml:id="京博本抹消"> 京博本抹消 </ref>
+<ref xml:id="京博本書入"> 京博本書入 </ref>
+<ref xml:id="京博本朱傍書"> 京博本朱傍書 </ref>
+<ref xml:id="京博本朱抹消"> 京博本朱抹消 </ref>
+<ref xml:id="京博本朱書"> 京博本朱書 </ref>
+<ref xml:id="京博本朱補書"> 京博本朱補書 </ref>
+<ref xml:id="京博本朱訂"> 京博本朱訂 </ref>
+<ref xml:id="京博本朱訂正書"> 京博本朱訂正書 </ref>
+<ref xml:id="京博本補書"> 京博本補書 </ref>
+<ref xml:id="京博本訂正書"> 京博本訂正書 </ref>
+<ref xml:id="京博本朱挿入書"> 京博本朱挿入書 </ref>
+<ref xml:id="京博本朱脚書"> 京博本朱脚書 </ref>
+</listRef>
+</witness>
+<witness xml:id="慶長本">
+<abbr> 慶長本 </abbr> ：国立公文書館所蔵慶長写本（特102-8） <listRef>
+<ref xml:id="慶長本傍書"> 慶長本傍書 </ref>
+<ref xml:id="慶長本左補書"> 慶長本左補書 </ref>
+<ref xml:id="慶長本抹消"> 慶長本抹消 </ref>
+<ref xml:id="慶長本朱傍書"> 慶長本朱傍書 </ref>
+<ref xml:id="慶長本朱補書"> 慶長本朱補書 </ref>
+<ref xml:id="慶長本脚書"> 慶長本脚書 </ref>
+<ref xml:id="慶長本補書"> 慶長本補書 </ref>
+<ref xml:id="慶長本訂正書"> 慶長本訂正書 </ref>
+<ref xml:id="慶長本挿入書"> 慶長本挿入書 </ref>
+</listRef>
+</witness>
+<witness xml:id="梵本">
+<abbr> 梵本 </abbr> ：天理大学附属天理図書館所蔵吉田文庫梵舜等筆本（吉16-8。巻8は173-ｲ5（Ⅲ524)もあり） <listRef>
+<ref xml:id="梵本傍書"> 梵本傍書 </ref>
+<ref xml:id="梵本抹消"> 梵本抹消 </ref>
+<ref xml:id="梵本朱傍書"> 梵本朱傍書 </ref>
+<ref xml:id="梵本朱補書"> 梵本朱補書 </ref>
+<ref xml:id="梵本補書"> 梵本補書 </ref>
+<ref xml:id="梵本訂正書"> 梵本訂正書 </ref>
+</listRef>
+</witness>
+<witness xml:id="九本">
+<abbr> 九本 </abbr> ：東京国立博物館所蔵九条家旧蔵巻子本（B-2370） <listRef>
+<ref xml:id="九本傍書"> 九本傍書 </ref>
+<ref xml:id="九本抹消"> 九本抹消 </ref>
+<ref xml:id="九本残画"> 九本残画 </ref>
+<ref xml:id="九本訂正書"> 九本訂正書 </ref>
+<ref xml:id="九本重書"> 九本重書 </ref>
+<ref xml:id="九本挿入書"> 九本挿入書 </ref>
+</listRef>
+</witness>
+<witness xml:id="剛本">
+<abbr> 剛本 </abbr> ：天野山金剛寺所蔵本 <listRef>
+<ref xml:id="剛本朱傍書"> 剛本朱傍書 </ref>
+<ref xml:id="剛本朱書"> 剛本朱書 </ref>
+<ref xml:id="剛本補書"> 剛本補書 </ref>
+<ref xml:id="剛本訂正書"> 剛本訂正書 </ref>
+</listRef>
+</witness>
+<witness xml:id="条本">
+<abbr> 条本 </abbr> ：一条家旧蔵巻子本（巻1～3は無窮会専門図書館所蔵模写本、巻4・5は神宮司庁刊影印本） <listRef>
+<ref xml:id="条本傍書"> 条本傍書 </ref>
+<ref xml:id="条本傍訓"> 条本傍訓 </ref>
+<ref xml:id="条本朱傍書"> 条本朱傍書 </ref>
+<ref xml:id="条本朱補書"> 条本朱補書 </ref>
+<ref xml:id="条本補書"> 条本補書 </ref>
+<ref xml:id="条本転倒符"> 条本転倒符 </ref>
+</listRef>
+</witness>
+<witness xml:id="花本">
+<abbr> 花本 </abbr> ：武田祐吉旧蔵花山院通雅筆本（神宮皇学館刊影印本による） <listRef>
+<ref xml:id="花本朱訂正"> 花本朱訂正 </ref>
+<ref xml:id="花本重書"> 花本重書 </ref>
+</listRef>
+</witness>
+<witness xml:id="九冊本">
+<abbr> 九冊本 </abbr> ：國學院大學所蔵九条家・西田長男旧蔵冊子本（巻5は西田長男刊影印本による） <listRef>
+<ref xml:id="九冊本傍書"> 九冊本傍書 </ref>
+<ref xml:id="九冊本傍訓"> 九冊本傍訓 </ref>
+</listRef>
+</witness>
+<witness xml:id="永本">
+<abbr> 永本 </abbr> ：國學院大學図書館所蔵卜部兼永筆本（巻8、091.2/322.135/1）、鈴鹿義鯨旧蔵卜部兼永筆本（巻9・10、現蔵不明、神宮文庫写真帳1門16974を閲覧） <listRef>
+<ref xml:id="永本傍書"> 永本傍書 </ref>
+<ref xml:id="永本左傍書"> 永本左傍書 </ref>
+<ref xml:id="永本左朱傍書"> 永本左朱傍書 </ref>
+<ref xml:id="永本重書"> 永本重書 </ref>
+<ref xml:id="永本頭注"> 永本頭注 </ref>
+</listRef>
+</witness>
+<witness xml:id="右本">
+<abbr> 右本 </abbr> ：巻8は國學院大學図書館所蔵（貴62） </witness>
+<witness xml:id="吉本">
+<abbr> 吉本 </abbr> ：天理大学附属天理図書館所蔵吉田家旧蔵本巻9・10（328.1-ｲ17（『天理図書館稀書目録　和漢書之部　第三』1219） <listRef>
+<ref xml:id="吉本傍書"> 吉本傍書 </ref>
+<ref xml:id="吉本左傍書"> 吉本左傍書 </ref>
+<ref xml:id="吉本左朱傍書"> 吉本左朱傍書 </ref>
+<ref xml:id="吉本朱傍書"> 吉本朱傍書 </ref>
+<ref xml:id="吉本朱補書"> 吉本朱補書 </ref>
+<ref xml:id="吉本頭注"> 吉本頭注 </ref>
+</listRef>
+</witness>
+<witness xml:id="三条本">
+<abbr> 三条本 </abbr> ：天理大学附属天理図書館所蔵三条家旧蔵本（328.1-ｲ11(Ⅲ1218)） </witness>
+<witness xml:id="西本">
+<abbr> 西本 </abbr>
+       ：國學院大學図書館所蔵三条西家旧蔵本（巻9・10、貴107～108）、国立歴史民俗博物館所蔵三条西家旧蔵本（巻50、H-1588）。抄出本は國學院大學所蔵（木村大樹「〔西田長男旧蔵〕三条西実隆筆『延喜式』(抄)の翻刻・紹介」『國學院大學研究開発推進機構紀要』14、2022年） </witness>
+<witness xml:id="時慶本">
+<abbr> 時慶本 </abbr> ：静嘉堂文庫所蔵西洞院時慶写本（延喜格式表18352、延喜式序18353） </witness>
+<witness xml:id="藤波本">
+<abbr> 藤波本 </abbr> ：宮内庁書陵部図書寮文庫所蔵藤波家旧蔵本（217-473） <listRef>
+<ref xml:id="藤波本傍書"> 藤波本傍書 </ref>
+<ref xml:id="藤波本朱傍書"> 藤波本朱傍書 </ref>
+<ref xml:id="藤波本朱補"> 藤波本朱補 </ref>
+</listRef>
+</witness>
+<witness xml:id="島原本">
+<abbr> 島原本 </abbr> ：東京大学史料編纂所所蔵松平忠房・和学講談所・水野忠央旧蔵本（貴45-2） <listRef>
+<ref xml:id="島原本書入"> 島原本書入 </ref>
+<ref xml:id="島原本朱補書"> 島原本朱補書 </ref>
+</listRef>
+</witness>
+<witness xml:id="貞享本">
+<abbr> 貞享本 </abbr> ：宮内庁書陵部図書寮文庫所蔵和学講談所旧蔵坊城俊方貞享五年写本（457-116） <listRef>
+<ref xml:id="貞享本傍書"> 貞享本傍書 </ref>
+</listRef>
+</witness>
+<witness xml:id="玄梁本">
+<abbr> 玄梁本 </abbr> ：無窮会専門図書館所蔵神習文庫玄梁記名本（神習3666） <listRef>
+<ref xml:id="玄梁本訂正書"> 玄梁本訂正書 </ref>
+</listRef>
+</witness>
+<witness xml:id="尾張本">
+<abbr> 尾張本 </abbr> ：東京大学総合図書館所蔵尾張家旧蔵本（巻13）（A00-6122） </witness>
+<witness xml:id="泉亭本">
+<abbr> 泉亭本 </abbr> ：賀茂三手文庫所蔵泉亭本（制度/加） </witness>
+</listWit>
+<listWit xml:id="版本">
+<head> 版本：慶安版本も含めた流布版本 </head>
+<witness xml:id="慶安版本">
+<abbr> 慶安版本 </abbr> ：大和文華館所蔵鈴鹿連胤旧蔵版本（1/741～790） <listRef>
+<ref xml:id="慶安版本傍訓"> 慶安版本傍訓 </ref>
+</listRef>
+</witness>
+<witness xml:id="明暦版本">
+<abbr> 明暦版本 </abbr> ：明暦修訂版本　国立公文書館所蔵紅葉山文庫旧蔵版本（特26-1）等 <listRef>
+<ref xml:id="明暦版本訂正書"> 明暦版本訂正書 </ref>
+<ref xml:id="明暦版本傍訓"> 明暦版本傍訓 </ref>
+</listRef>
+</witness>
+<witness xml:id="明暦以降版本">
+<abbr> 明暦以降版本 </abbr> ：明暦修訂本以降の版本 </witness>
+<witness xml:id="寛文版本">
+<abbr> 寛文版本 </abbr> ：寛文修訂版本　筑波大学附属図書館所蔵版本20冊本（ム212-7）等 <listRef>
+<ref xml:id="寛文版本傍訓"> 寛文版本傍訓 </ref>
+</listRef>
+</witness>
+<witness xml:id="享保版本">
+<abbr> 享保版本 </abbr> ：享保修訂版本　筑波大学附属図書館所蔵版本50冊本（ム212-6）等 <listRef>
+<ref xml:id="享保版本朱補書"> 享保版本朱補書 </ref>
+<ref xml:id="享保版本傍訓"> 享保版本傍訓 </ref>
+</listRef>
+</witness>
+<witness xml:id="雲本">
+<abbr> 雲本 </abbr> ：松江藩文政11年(1828)刊本（雲州本）　早稲田大学図書館所蔵本（ワ03-01594）等 <listRef>
+<ref xml:id="雲本傍書"> 雲本傍書 </ref>
+</listRef>
+</witness>
+<witness xml:id="考異">
+<abbr> 考異 </abbr> ：雲州本附録『延喜式考異』　早稲田大学図書館所蔵本（ワ03-01594）等 </witness>
+<witness xml:id="鈴鹿本">
+<abbr> 鈴鹿本 </abbr> ：大和文華館所蔵鈴鹿連胤旧蔵慶安版本（1/741～790）書入 <listRef>
+<ref xml:id="鈴鹿本傍書"> 鈴鹿本傍書 </ref>
+<ref xml:id="鈴鹿本書入"> 鈴鹿本書入 </ref>
+<ref xml:id="鈴鹿本朱傍書"> 鈴鹿本朱傍書 </ref>
+<ref xml:id="鈴鹿本朱補書"> 鈴鹿本朱補書 </ref>
+</listRef>
+</witness>
+<witness xml:id="勢多本">
+<abbr> 勢多本 </abbr> ：宮内庁書陵部図書寮文庫所蔵勢多家旧蔵明暦等版本（172-123）書入 <listRef>
+<ref xml:id="勢多本傍書"> 勢多本傍書 </ref>
+<ref xml:id="勢多本書入"> 勢多本書入 </ref>
+<ref xml:id="勢多本朱書"> 勢多本朱書 </ref>
+</listRef>
+</witness>
+<witness xml:id="筑波寛文本">
+<abbr> 筑波寛文本 </abbr> ：筑波大学附属図書館所蔵寛文版本20冊本（ム212-7）書入 <listRef>
+<ref xml:id="筑波寛文本朱傍書"> 筑波寛文本朱傍書 </ref>
+<ref xml:id="筑波寛文本朱補書"> 筑波寛文本朱補書 </ref>
+<ref xml:id="筑波寛文本朱重書"> 筑波寛文本朱重書 </ref>
+<ref xml:id="筑波寛文本訂正書"> 筑波寛文本訂正書 </ref>
+</listRef>
+</witness>
+</listWit>
+<listWit xml:id="刊本">
+<head> 刊本 </head>
+<witness xml:id="旧大系本">
+<abbr> 旧大系本 </abbr> ：旧輯国史大系第13巻（経済雑誌社　1900年刊） </witness>
+<witness xml:id="叢書本">
+<abbr> 叢書本 </abbr> ：新註皇学叢書第3巻（広文庫刊行会　1927年刊） </witness>
+<witness xml:id="全集本">
+<abbr> 全集本 </abbr> ：日本古典全集『延喜式』（日本古典全集刊行会　1927～1929年刊） </witness>
+<witness xml:id="皇典本">
+<abbr> 皇典本 </abbr> ：『校訂延喜式』（皇典講究所・全国神職会　1929～1932年刊） </witness>
+<witness xml:id="国史大系本">
+<abbr> 国史大系本 </abbr> ：新訂増補国史大系第26巻（吉川弘文館　1937年刊） </witness>
+<witness xml:id="神道大系本">
+<abbr> 神道大系本 </abbr> ：神道大系古典編11・12『延喜式』（神道大系編纂会、1991・1993年刊） </witness>
+<witness xml:id="訳注本">
+<abbr> 訳注本 </abbr> ：訳注日本史料『延喜式』上～下（集英社、2000～2017年刊） </witness>
+</listWit>
+<listWit xml:id="その他">
+<head> その他 </head>
+<witness xml:id="本朝月令">
+<abbr> 本朝月令 </abbr> ：清水潔編『新校本朝月令』（皇學館大學神道研究所　2002年刊） </witness>
+<witness xml:id="儀式">
+<abbr> 儀式 </abbr> ：神道大系朝儀祭祀編1『儀式・内裏式』（神道大系編纂会　1980年刊） </witness>
+<witness xml:id="皇太神宮儀式帳">
+<abbr> 皇太神宮儀式帳 </abbr> ：佐野真人「『皇太神宮儀式帳』校訂試案」（『皇學館大学研究開発推進センター紀要』2　2016年） </witness>
+<witness xml:id="止由気宮儀式帳">
+<abbr> 止由気宮儀式帳 </abbr> ：佐野真人「『止由気宮儀式帳』校訂試案」（『皇學館大学研究開発推進センター紀要』3　2017年） </witness>
+<witness xml:id="新撰年中行事">
+<abbr> 新撰年中行事 </abbr> ：西本昌弘編『新撰年中行事』（八木書店　2010年刊） </witness>
+<witness xml:id="小野宮年中行事">
+<abbr> 小野宮年中行事 </abbr> ：群書類従第6輯 律令部 公事部（続群書類従完成会　1932年刊） </witness>
+<witness xml:id="小野宮年中行事裏書">
+<abbr> 小野宮年中行事裏書 </abbr> ：国立歴史民俗博物館所蔵本（H-1762） </witness>
+<witness xml:id="勘例">
+<abbr> 勘例（陽明文庫所蔵） </abbr> ：大日本古記録『勘例』上・下（岩波書店　2018・2023年刊） </witness>
+<witness xml:id="政事要略">
+<abbr> 政事要略 </abbr> ：新訂増補国史大系第28巻（吉川弘文館　1935年刊。適宜、写本を参照） </witness>
+<witness xml:id="法曹至要抄">
+<abbr> 法曹至要抄 </abbr> ：中世法制史料集（岩波書店　2005年刊） </witness>
+<witness xml:id="本草和名">
+<abbr> 本草和名 </abbr> ：丸山裕美子・武倩編著『本草和名』（汲古書院　2021年刊） </witness>
+</listWit>
+</listWit>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<projectDesc>
+<p> 本プロジェクトは、日本古代の法制書『延喜式』の国際的流通と、研究における高度な利活用を目的としている。作成されたデータは学術基盤として広く共有されることを前提としており、国際標準であるTEI
+     P5ガイドラインに準拠することで、国内外の多様な研究プラットフォームとの連携およびデータ流通に対応する。 <lb/>
+     データ作成の経緯として、基幹研究プロジェクト「異分野融合による総合書物学の構築」（2016～2021）段階においてTEI/XML基盤の設計を行い、校訂文、現代語訳、英訳の三種を中核とするデータ構築を進めた。これらのデータは、Web閲覧システム「デジタル延喜式」の基盤としても活用されており、年次計画に基づき各巻のデータを順次公開している。
+     <lb/> 現在の基幹研究プロジェクト「延喜式のデジタル技術による汎用化」（2022～）の段階では、基本データの整備を継続しつつ、新たな活用モデルを試験的に構築している。具体的には、 <gi> taxonomy </gi> や <gi>
+      standOff </gi> 等による多角的な情報活用モデルの構築と、 <gi> measure </gi>
+     や属性情報を基盤とした物品情報の可視化を実現する試みである。これらを通じ、本データが次世代の学術資源として持ち得る可能性を検討・実装している。 <lb/>
+     複雑な史料構造をTEIへ変換する過程で対応しきれなかった事項は多々あるものの、日本史資料のマークアップにおける先行事例が少ない現状に鑑み、現時点での到達点を提示している。今後の史料マークアップにおける参照モデルの一つとなり、次世代の史料デジタル化への寄与を目指している。
+    </p>
+</projectDesc>
+<editorialDecl ana="XML">
+<p ana="全体">
+<list>
+<head> XMLファイル全体 </head>
+<item> 本データでは、校訂文・現代語訳・英訳のそれぞれを 個別の XML ファイルとして管理・公開している。各ファイルは、巻次およびデータ種別を明示したファイル名（例：校訂文 engishiki_v39、現代語訳
+       engishiki_v39_ja、英訳 engishiki_v39_en）によって構成されており、これによって各テクスト間の対応関係を識別することが可能である。 </item>
+<item> 本テクストは、「デジタル『延喜式』」において定められた共通方針（下記 <gi> editorialDecl </gi> 参照）ならびに、公式サイトに掲載された全体凡例および各巻の個別凡例等に準拠する。 </item>
+<item> 【語彙管理と情報の集積】 <gi> taxonomy </gi> は、史料中の物品名を語彙項目として整理し、表記の統合を図るためのものである。各項目は、解説（ <gi> label </gi>
+       ）に加え、文字種（漢字・かな等）およびデータ種（校訂文・現代語訳・英訳）ごとの表記情報を、 <gi> listNym </gi> および <gi> nym </gi> を用いて構造的に保持している。また、語句間の関係性は、 <gi>
+        taxonomy </gi> の階層構造ではなく <gi> standOff </gi> 内の <gi> relation </gi> によって記述する。 </item>
+<item> 【レイアウトの再現と <gi> table </gi> 】 本文中の神名列記など、特定の視覚的段落表現を保持するため、 <gi> table </gi> をレイアウト制御の手段として利用している。これは、空の <gi> cell
+       </gi> や幅指定（ <att> rendition </att> ）を組み合わせることで、史料が持つ空間的な配置情報をデジタル文脈で表現するためのものである。 </item>
+<item> 【データの統一性に関する注記】 日本史料への TEI
+       適用において先行事例が乏しいため、実験的なマークアップを含んでいる。巻次や史料の記述形式により、タグの適用範囲や属性の粒度に差異が生じている箇所があるが、これらについては各巻の個別凡例にて補足、あるいは将来的な一括処理を見据えた暫定的な記述としている。
+      </item>
+</list>
+<list>
+<head> 校訂文のXMLファイル </head>
+<item> 【校異の記述と校訂根拠】諸本の異同は <gi> app </gi> 内の <gi> lem </gi> および <gi> rdg </gi> で示し、 <att> wit </att> によって校訂根拠となる写本・版本情報を提示する。
+        <att> wit </att> の対象は原則として写本・版本等に限定し、注釈書や他の歴史史料による知見は <gi> note </gi> 内に記述している。また、 <gi> lem </gi> に示すべき写本が存在しない場合は <att>
+        cause </att> を用い、校訂の根拠を明示する。 </item>
+<item> 【採録範囲と個別凡例】本プロジェクトにおける校異の採録は諸本の網羅を目的とせず、校訂に実質的に資する写本・版本および傍書類に対象を限定している。採用する写本の種類や範囲は巻ごとに異なるため、詳細は各巻の個別凡例を参照されたい。 </item>
+<item> 【傍書の扱い】傍書・傍訓・朱書・頭注といった文字周辺の注記情報は、 <gi> note </gi> と <att> place </att> を組み合わせて記述するほか、独立した witness としても識別し、必要に応じて
+        <att> wit </att> から参照可能としている。 </item>
+<item> 【標注の扱い】標注を提示する際には、 <gi> app </gi> をその記述単位として利用し、 <att> type </att> ="標注" を付与することで情報の性質を明示している。 </item>
+<item> 【非文字単位・広範囲の注記】文字の配列や条文全体に関する注記など、文字単位の異同として処理できない情報については、 <gi> app </gi> の構造を維持しつつ、 <gi> note </gi>
+       を用いて内容を記述する。校異の該当範囲が広範にわたる場合は、冒頭語句に <gi> anchor </gi> を配置し、 <gi> note </gi> 内で「冒頭語句……末尾語句」と範囲を明記した上で、注記本文を記述する手法を採用している。 </item>
+<item> 【物品情報の構造化（ <gi> measure </gi> 等）】物品の数量・寸法を記述するため、 <gi> measure </gi> 、 <gi> measureGrp </gi> 、 <gi> unit </gi> 、 <gi>
+        note </gi> 等を使用している。 <att> ana </att> （納税物区分）、 <att> commodity </att> （品目の種類）、 <att> quantity </att> （数量）、 <att> type
+       </att> （貢納量の規定か実数かの別）といった属性により、計量情報を厳密に定義している。品目名と総量を括る階層構造や、複数の単位を合算する <gi> measureGrp </gi> により、史料の計量記述を論理的に再現している。また、単位（
+        <gi> unit </gi> ）については <att> unitRef </att> を用い、 <gi> unitDecl </gi> で体系的に定義された単位情報と紐付けている。なお、現段階での詳細な実装は巻24のデータに限定される。
+      </item>
+</list>
+<list>
+<head> 現代語訳のXMLファイル </head>
+<item>
+<gi> note </gi> に <att> type </att> ="summary" を付与し、条文概要を記述している。 </item>
+<item>
+<gi> ruby </gi> のマークアップは語句単位で実施している。 </item>
+</list>
+<list>
+<head> 英訳のXMLファイル </head>
+<item>
+<gi> note </gi> に <att> type </att> ="summary" を付与し、その条文の主題を示す簡潔なタイトルを記述している。 </item>
+<item>
+<gi> seg </gi> に <att> rendition </att> ="#italic" を付与し、日本語音表記を表現している。 </item>
+</list>
+</p>
+</editorialDecl>
+<editorialDecl ana="校訂文凡例">
+<p ana="全体">
+<lb/>
+<seg rendition="#hanging-1">
+      ・原則として土本（以下、略称は「主要写本・版本・刊本等略称・底本一覧」参照）を底本とし、九本・剛本・条本・花本等の古写本や近本・壬本・京博本等の写本によって対校しました（巻によって使用した対校本は異なります）。 </seg>
+<lb/>
+<seg rendition="#hanging-1"> ・条文番号・条文名称は原則として訳注本に拠りましたが、一部を修正しています（※下記「条文名称修正一覧」参照）。なお1条が長い場合など、必要に応じ「項」に分割して示すこととしました。 </seg>
+<lb/>
+<seg rendition="#hanging-1">
+      ・校異は原則として底本の文字を改変する場合、あるいは写本間に参考とすべき異同がある場合、参考とすべき傍書等がある場合に付すこととしました。必ずしもその校異に関する写本をすべて網羅することはせず、主要写本のみを取り上げています。ただし訳注本と校訂文に異同が生じた場合には、できる限り校異にて言及するよう心がけました（単なる字体の相違については省略しています）。 </seg>
+<lb/>
+<seg rendition="#hanging-1">
+      ・校訂文は『延喜式』撰上当初の姿の復元を目標としています。標注や傍書は、条文名称に関わるものは省略し、中世以前にさかのぼることが想定されるものに限って、校異注で言及することとしました。ただし標注のうち「弘」「貞」「延」等については便宜を考え、鉤括弧で括って校訂本文に掲げることとしました。 </seg>
+<lb/>
+<seg rendition="#hanging-1">
+      ・字体は常用漢字体を原則としました。「大」と「太」、「座」と「坐」、「絇」と「約」、「績」と「續（続）」、「色」と「包」、「細」と「紬」、「鈍」と「純」、「冑」と「胃」、「絁」と「絶」、草冠と竹冠、木偏と手偏等、容易に判定される誤字や誤用・通用については、校異を省略して適宜置き換える場合があります。ただし巻9・10においては「大」「太」の差異も校異にて触れることとしました。 </seg>
+<lb/>
+<seg rendition="#hanging-1"> ・校訂文中の細字・割書は、〈　〉で括って表現することとしました。 </seg>
+<lb/>
+<seg rendition="#hanging-1"> ・本文に誤字・脱字等が想定される場合であっても、置き換えるべき文字や補うべき文字が明確でない場合は、校異注での言及にとどめた場合があります。 </seg>
+<lb/>
+<seg rendition="#hanging-1"> ・ユニコードにて表示されない漢字は以下のように示すことにしました。 </seg>
+<table rendition="#indent2">
+<row>
+<cell rendition="#width200"> 【Ａ+Ｂ】 </cell>
+<cell rendition="#width400"> ＝扁がＡ、つくりがＢ </cell>
+<cell rendition="#width500"> 例）村【木+寸】 </cell>
+</row>
+<row>
+<cell rendition="#width200"> 【Ａ/Ｂ】 </cell>
+<cell rendition="#width400"> ＝上にＡ、下にＢ </cell>
+<cell rendition="#width500"> 例）雲【雨/云】 </cell>
+</row>
+<row>
+<cell rendition="#width200"> 【Ａ-Ｂ】 </cell>
+<cell rendition="#width400"> ＝Ａの字画よりＢにあたる字画を除く </cell>
+<cell rendition="#width500"> 例）門【閉-オ】 </cell>
+</row>
+<row>
+<cell rendition="#width200"> 【Ａ⊃Ｂ】 </cell>
+<cell rendition="#width400"> ＝Ａの字画のなかにＢの字画が含まれる </cell>
+<cell rendition="#width500"> 例）閉【門⊃オ】、国【囗⊃玉】 </cell>
+</row>
+<row>
+<cell rendition="#width200"> 【（Ａ/Ｂ）+Ｃ】 <lb/> 【Ａ/（Ｂ⊃Ｃ）】 </cell>
+<cell rendition="#width400"> ＝字画が三つ以上、かつ異なる方法で字画が組み合う </cell>
+<cell rendition="#width500"> 例）雑【（九/木）+隹】、懸【（県+系）/心】、薗【艹/（口⊃袁）】 </cell>
+</row>
+</table>
+<lb/>
+<seg> （班【王+リ+王】、窓【宀/公/心】はすべての字画が一つの方法で組み合うため、（　）なし。） </seg>
+<lb/>
+<seg rendition="#hanging-1"> ・校異注の付く文字は赤字および青字で表示され、クリックすると注が表示されます。表示内容は以下の通りです。 </seg>
+<lb/>
+<seg rendition="#indent2_hanging-3"> 採用　写本名と校訂文にて採用した文字 </seg>
+<lb/>
+<seg rendition="#indent2_hanging-3"> 校異　写本名と対校箇所の文字 </seg>
+<lb/>
+<seg rendition="#indent2_hanging-3"> 解説　各写本の傍書や頭書等の提示、校異注の本文（最下部の解説） </seg>
+<lb/>
+<seg rendition="#hanging-1"> ・条文名称修正一覧 </seg>
+<table rendition="#indent2">
+<row>
+<cell rendition="#width100"> 巻番号 </cell>
+<cell rendition="#width50"> 旧番号 </cell>
+<cell rendition="#width100"> 旧条文名 </cell>
+<cell rendition="#width50"> 番号 </cell>
+<cell rendition="#width100"> 訂正条文名 </cell>
+</row>
+<row>
+<cell rendition="#width100"> 111太政官 </cell>
+<cell rendition="#width50"> 67 </cell>
+<cell rendition="#width100"> 薗韓神祭 </cell>
+<cell rendition="#width50"> 67 </cell>
+<cell rendition="#width100"> 園韓神祭 </cell>
+</row>
+<row>
+<cell rendition="#width100"> 111太政官 </cell>
+<cell rendition="#width50"> 112 </cell>
+<cell rendition="#width100"> 行幸経宿 </cell>
+<cell rendition="#width50"> 112 </cell>
+<cell rendition="#width100"> 行幸経旬 </cell>
+</row>
+<row>
+<cell rendition="#width100"> 171内匠 </cell>
+<cell rendition="#width50"> 39 </cell>
+<cell rendition="#width100"> 作物衣服 </cell>
+<cell rendition="#width50"> 39 </cell>
+<cell rendition="#width100"> 作物衣 </cell>
+</row>
+<row>
+<cell rendition="#width100"> 213玄蕃 </cell>
+<cell rendition="#width50"> 32 </cell>
+<cell rendition="#width100"> 灯油 </cell>
+<cell rendition="#width50"> 32 </cell>
+<cell rendition="#width100"> 燈油 </cell>
+</row>
+<row>
+<cell rendition="#width100"> 214諸陵 </cell>
+<cell rendition="#width50"> 16 </cell>
+<cell rendition="#width100"> 後阿陁他遠墓 </cell>
+<cell rendition="#width50"> 16 </cell>
+<cell rendition="#width100"> 後阿陀他遠墓 </cell>
+</row>
+<row>
+<cell rendition="#width100"> 231民部下 </cell>
+<cell rendition="#width50"> 8 </cell>
+<cell rendition="#width100"> 造箭料 </cell>
+<cell rendition="#width50"> 8 </cell>
+<cell rendition="#width100"> 造箭 </cell>
+</row>
+<row>
+<cell rendition="#width100"> 293囚獄 </cell>
+<cell rendition="#width50"> 2 </cell>
+<cell rendition="#width100"> 著鈦盤枷 </cell>
+<cell rendition="#width50"> 2 </cell>
+<cell rendition="#width100"> 着鈦盤枷 </cell>
+</row>
+<row>
+<cell rendition="#width100"> 321大膳上 </cell>
+<cell rendition="#width50"> 5 </cell>
+<cell rendition="#width100"> 新嘗祭 </cell>
+<cell rendition="#width50"> 5･6 </cell>
+<cell rendition="#width100"> 新嘗祭と新嘗小斎解斎に分割 </cell>
+</row>
+<row>
+<cell rendition="#width100"> 411弾正 </cell>
+<cell rendition="#width50"> 68 </cell>
+<cell rendition="#width100"> 支子染深色 </cell>
+<cell rendition="#width50"> 68 </cell>
+<cell rendition="#width100"> 支子染色 </cell>
+</row>
+<row>
+<cell rendition="#width100"> 422東西市 </cell>
+<cell rendition="#width50"> 1 </cell>
+<cell rendition="#width100"> 毎鄽立牓 </cell>
+<cell rendition="#width50"> 1 </cell>
+<cell rendition="#width100"> 毎厘立牓 </cell>
+</row>
+<row>
+<cell rendition="#width100"> 422東西市 </cell>
+<cell rendition="#width50"> 14 </cell>
+<cell rendition="#width100"> 東鄽 </cell>
+<cell rendition="#width50"> 14 </cell>
+<cell rendition="#width100"> 東厘 </cell>
+</row>
+<row>
+<cell rendition="#width100"> 422東西市 </cell>
+<cell rendition="#width50"> 15 </cell>
+<cell rendition="#width100"> 西鄽 </cell>
+<cell rendition="#width50"> 15 </cell>
+<cell rendition="#width100"> 西厘 </cell>
+</row>
+</table>
+</p>
+<p ana="個別">校訂文凡例 <lb/>
+<lb/><seg rendition="#hanging-1">・底本には土本を使用し、九本・近本・京博本・慶長本によって対校しました。また、強く校訂の参考になると判断した場合のみ、鈴鹿本の情報を掲載しました。</seg>
+<lb/><seg rendition="#hanging-1">・集英社刊訳注本の校訂と異なる場合は、その旨明記しました。</seg>
+<lb/><seg rendition="#hanging-1">・「撤」を「徹」字のごとく筆写したものについては、容易に誤りと判定できる限りにおいて断りなく改めました。</seg>
+<lb/><seg rendition="#hanging-1">・条文番号・条文名称は原則として訳注本に従います。ただし、園韓神祭料条の条文名のみ「薗韓神春祭」より「園韓神春祭」に変更しました。</seg>
+</p>
+</editorialDecl>
+<variantEncoding location="external" method="location-referenced"/>
+<tagsDecl>
+<rendition xml:id="shu"> color: red; </rendition>
+<rendition xml:id="italic"> font-style: italic; </rendition>
+<rendition xml:id="indent"> display: block; margin: 0; padding-inline-start: 1em; </rendition>
+<rendition xml:id="indent2"> display: block; margin: 0; padding-inline-start: 2em; </rendition>
+<rendition xml:id="indent3"> display: block; margin: 0; padding-inline-start: 3em; </rendition>
+<rendition xml:id="indent4"> display: block; margin: 0; padding-inline-start: 4em; </rendition>
+<rendition xml:id="indent5"> display: block; margin: 0; padding-inline-start: 5em; </rendition>
+<rendition xml:id="indent6"> display: block; margin: 0; padding-inline-start: 6em; </rendition>
+<rendition xml:id="indent7"> display: block; margin: 0; padding-inline-start: 7em; </rendition>
+<rendition xml:id="indent8"> display: block; margin: 0; padding-inline-start: 8em; </rendition>
+<rendition xml:id="indent10"> display: block; margin: 0; padding-inline-start: 10em; </rendition>
+<rendition xml:id="indent12"> display: block; margin: 0; padding-inline-start: 12em; </rendition>
+<rendition xml:id="indent13"> display: block; margin: 0; padding-inline-start: 13em; </rendition>
+<rendition xml:id="indent14"> display: block; margin: 0; padding-inline-start: 14em; </rendition>
+<rendition xml:id="indent18"> display: block; margin: 0; padding-inline-start: 18em; </rendition>
+<rendition xml:id="hanging-1"> display: block; margin: 0; padding-inline-start: 1em; text-indent: -1em; </rendition>
+<rendition xml:id="hanging-2"> display: block; margin: 0; padding-inline-start: 2em; text-indent: -2em; </rendition>
+<rendition xml:id="hanging-3"> display: block; margin: 0; padding-inline-start: 3em; text-indent: -3em; </rendition>
+<rendition xml:id="indent1_hanging-6"> display: block; margin: 0; padding-inline-start: 7em; text-indent: -6em; </rendition>
+<rendition xml:id="indent2_hanging-1"> display: block; margin: 0; padding-inline-start: 3em; text-indent: -1em; </rendition>
+<rendition xml:id="indent2_hanging-3"> display: block; margin: 0; padding-inline-start: 5em; text-indent: -3em; </rendition>
+<rendition xml:id="indent2_hanging-4"> display: block; margin: 0; padding-inline-start: 6em; text-indent: -4em; </rendition>
+<rendition xml:id="indent2_hanging-5"> display: block; margin: 0; padding-inline-start: 7em; text-indent: -5em; </rendition>
+<rendition xml:id="indent2_hanging-7"> display: block; margin: 0; padding-inline-start: 9em; text-indent: -7em; </rendition>
+<rendition xml:id="indent3_hanging-5"> display: block; margin: 0; padding-inline-start: 8em; text-indent: -5em; </rendition>
+<rendition xml:id="indent4_hanging-5"> display: block; margin: 0; padding-inline-start: 9em; text-indent: -5em; </rendition>
+<rendition xml:id="indent4_hanging-6"> display: block; margin: 0; padding-inline-start: 10em; text-indent: -6em; </rendition>
+<rendition xml:id="indent5_hanging-5"> display: block; margin: 0; padding-inline-start: 10em; text-indent: -5em; </rendition>
+<rendition xml:id="width50"> width: 50px; </rendition>
+<rendition xml:id="width80"> width: 80px; </rendition>
+<rendition xml:id="width100"> width: 100px; </rendition>
+<rendition xml:id="width150"> width: 150px; </rendition>
+<rendition xml:id="width170"> width: 170px; </rendition>
+<rendition xml:id="width200"> width: 200px; </rendition>
+<rendition xml:id="width300"> width: 300px; </rendition>
+<rendition xml:id="width400"> width: 400px; </rendition>
+<rendition xml:id="width500"> width: 500px; </rendition>
+<namespace name="http://www.tei-c.org/ns/1.0">
+<tagUsage gi="lb"> 行構成を保持。定型的な書式を持つ延喜式の記述構造を解析するために必須とする。 </tagUsage>
+<tagUsage gi="table"> 史料上の多段（段落）表現や、項目間の水平方向の配置を再現するために使用。各 <gi> cell </gi> に付与した <att> rendition </att> （#width
+      等）により、視覚的な間隔や幅を制御する。 </tagUsage>
+<tagUsage gi="seg"> 史料上の書式（ <att> rendition </att> ="#indent"等）および朱書き表現（ <att> rendition </att> ="#shu"）、英訳の音表記（ <att>
+       rendition </att> ="#italic"）、および英訳注の対象範囲の特定（ <att> xml:id </att> ）など、複数の視覚・論理表現を属性で制御する。 </tagUsage>
+<tagUsage gi="ruby"> 現代語訳において、漢字の読みを示すために使用。 </tagUsage>
+<tagUsage gi="anchor"> 校異注の該当範囲（始点・終点）を指定するための空要素。 <gi> app </gi> 要素の <att> from </att> および <att> to </att>
+      から参照され、校注範囲を確定させるために使用する。 </tagUsage>
+<tagUsage gi="note"> 校異の詳細説明（ <gi> app </gi> 内）、史料上の割注（ <gi> measure </gi> 内）、条文要約（ <att> type </att> ="summary"）、訳者注（ <att>
+       type </att> ="translatorsNotes"）、および典拠データ（ <gi> standOff </gi> ）における制度上の地域区分（ <gi> trait </gi>
+      内）に使用。これら情報の性質や参照先、出現位置は、必要に応じて <att> place </att> 、 <att> type </att> 、 <att> target </att> の各属性により区別される。 </tagUsage>
+<tagUsage gi="measure"> 物品の数量・寸法を記述。品目とその総量を定義する外側の構造と、具体的な数値を保持する内側の構造を階層的に記述する。前者では <att> ana </att> （納税物の区分）、 <att>
+       commodity </att> （物品の種類）、 <att> type </att> （貢納量の規定か実数かの別）を用いて、後者では <att> quantity </att> （数量）、 <att> type </att>
+      （寸法の種類【長・広・深等】）、 <att> ana </att> （物理量の分類）を用いて情報の詳細を明示する。 </tagUsage>
+<tagUsage gi="measureGrp"> 複数の単位を伴う計量値（斤と両など）を一つの論理的な測定値としてグループ化する場合、または特定の属性（ <att> type </att> ="width"
+      等）を共有する測定値の集合を示す場合に使用する。 </tagUsage>
+<tagUsage gi="unit"> 数量の単位（枚、丈、斤、両など）を示す。 <att> unitRef </att> を通じてヘッダー内の単位定義（ <gi> unitDecl </gi> ）と連動させる。 </tagUsage>
+<tagUsage gi="placeName"> 歴史地名。 <gi> standOff </gi> 内の典拠情報とリンクし、空間情報の同定を行う。 </tagUsage>
+<tagUsage gi="orgName"> 官司・官職名。 <gi> standOff </gi> 内の典拠情報とリンクし、組織構造の同定を行う。 </tagUsage>
+</namespace>
+</tagsDecl>
+<unitDecl>
+<unitDef type="Length" xml:id="丈">
+<label xml:lang="ja"> 丈 </label>
+<label xml:lang="ja-Lath"> jō </label>
+<conversion formula="$fromUnit*10" fromUnit="#丈" toUnit="#尺"/>
+<desc> 1 jō 丈 = 10 shaku 尺 = 100 sun 寸 = 1000 bu 分 </desc>
+<desc> 1 jō 丈 = 297 cm (2.97 m) </desc>
+<desc> 換算：1 丈 = 10 尺 </desc>
+</unitDef>
+<unitDef type="Length" xml:id="尺">
+<label xml:lang="ja"> 尺 </label>
+<label xml:lang="ja-Lath"> shaku </label>
+<conversion formula="$fromUnit*10" fromUnit="#尺" toUnit="#寸"/>
+<desc> 1 shaku 尺 = 29.7 cm </desc>
+<desc> 換算：1 尺 = 10 寸 </desc>
+</unitDef>
+<unitDef type="Length" xml:id="寸">
+<label xml:lang="ja"> 寸 </label>
+<label xml:lang="ja-Lath"> sun </label>
+<conversion formula="$fromUnit*10" fromUnit="#寸" toUnit="#分_Length"/>
+<desc> 1 sun 寸 = 2.97 cm </desc>
+<desc> 換算：1 寸 = 10 分 </desc>
+</unitDef>
+<unitDef type="Length" xml:id="分_Length">
+<label xml:lang="ja"> 分 </label>
+<label xml:lang="ja-Lath"> bu </label>
+<desc> 1 bu 分 = 0.297 cm </desc>
+</unitDef>
+<unitDef type="Volume" xml:id="斛">
+<label xml:lang="ja"> 斛 </label>
+<label xml:lang="ja-Lath"> koku </label>
+<conversion formula="$fromUnit*10" fromUnit="#斛" toUnit="#斗"/>
+<desc> 1 koku 斛 = 10 to 斗 = 100 shō 升 = 1000 gō 合 = 10,000 shaku 夕 </desc>
+<desc> 1 koku 斛 = 約 81 L </desc>
+<desc> 換算：1 斛 = 10 斗 </desc>
+</unitDef>
+<unitDef type="Volume" xml:id="石">
+<label xml:lang="ja"> 石 </label>
+<label xml:lang="ja-Lath"> koku </label>
+<conversion formula="$fromUnit*10" fromUnit="#石" toUnit="#斗"/>
+<desc> 1 koku 石 = 10 to 斗 = 100 shō 升 = 1000 gō 合 = 10,000 shaku 夕 </desc>
+<desc> 1 koku 石 = 約 81 L </desc>
+<desc> 換算：1 石 = 10 斗 </desc>
+</unitDef>
+<unitDef type="Volume" xml:id="斗">
+<label xml:lang="ja"> 斗 </label>
+<label xml:lang="ja-Lath"> to </label>
+<conversion formula="$fromUnit*10" fromUnit="#斗" toUnit="#升"/>
+<desc> 1 to 斗 = 約 8100 ml (8.1 L) </desc>
+<desc> 換算：1 斗 = 10 升 </desc>
+</unitDef>
+<unitDef type="Volume" xml:id="升">
+<label xml:lang="ja"> 升 </label>
+<label xml:lang="ja-Lath"> shō </label>
+<conversion formula="$fromUnit*10" fromUnit="#升" toUnit="#合"/>
+<desc> 1 shō 升 = 約 810 ml </desc>
+<desc> 換算：1 升 = 10 合 </desc>
+</unitDef>
+<unitDef type="Volume" xml:id="合">
+<label xml:lang="ja"> 合 </label>
+<label xml:lang="ja-Lath"> gō </label>
+<conversion formula="$fromUnit*10" fromUnit="#合" toUnit="#夕"/>
+<desc> 1 gō 合 = 約 81 ml </desc>
+<desc> 換算：1 合 = 10 夕 </desc>
+</unitDef>
+<unitDef type="Volume" xml:id="夕">
+<label xml:lang="ja"> 夕 </label>
+<label xml:lang="ja-Lath"> shaku </label>
+<desc> 1 shaku 夕 = 約 8.1 ml </desc>
+</unitDef>
+<unitDef type="Weight" xml:id="斤">
+<label xml:lang="ja"> 斤 </label>
+<label xml:lang="ja-Lath"> kin </label>
+<conversion formula="$fromUnit*16" fromUnit="#斤" toUnit="#両"/>
+<desc> 1 kin 斤 = 16 ryō 両 = 64 bu 分 = 384 shu 銖 </desc>
+<desc> 1 kin 斤 = 約 674 g </desc>
+<desc> 換算：1 斤 = 16 両 </desc>
+</unitDef>
+<unitDef type="Weight" xml:id="両">
+<label xml:lang="ja"> 両 </label>
+<label xml:lang="ja-Lath"> ryō </label>
+<conversion formula="$fromUnit*4" fromUnit="#両" toUnit="#分_Weight"/>
+<desc> 1 ryō 両 = 約 42 g </desc>
+<desc> 換算：1 両 = 4 分 </desc>
+</unitDef>
+<unitDef type="Weight" xml:id="分_Weight">
+<label xml:lang="ja"> 分 </label>
+<label xml:lang="ja-Lath"> bu </label>
+<conversion formula="$fromUnit*6" fromUnit="#分_Weight" toUnit="#銖"/>
+<desc> 1 bu 分 = 約 10.5 g </desc>
+<desc> 換算：1 分 = 6 銖 </desc>
+</unitDef>
+<unitDef type="Weight" xml:id="銖">
+<label xml:lang="ja"> 銖 </label>
+<label xml:lang="ja-Lath"> shu </label>
+<desc> 1 shu 銖 = 約 1.8 g </desc>
+</unitDef>
+<unitDef type="Cloth_chōfu" xml:id="端_調布">
+<label xml:lang="ja"> 端 </label>
+<label xml:lang="ja-Lath"> tan </label>
+<desc> 1 tan 端 of chōfu 調布 = (length) 4 jō 丈 2 shaku 尺 × (width) 2 shaku 尺 4 sun 寸 (約 12.5 m × 72 cm) </desc>
+</unitDef>
+<unitDef type="Cloth_chōfu" xml:id="段_調布">
+<label xml:lang="ja"> 段 </label>
+<label xml:lang="ja-Lath"> tan </label>
+<desc> 1 tan 段 of chōfu 調布 = (length) 4 jō 丈 2 shaku 尺 × (width) 2 shaku 尺 4 sun 寸 (約 12.5 m × 72 cm) </desc>
+</unitDef>
+<unitDef type="Cloth_yōfu" xml:id="段_庸布">
+<label xml:lang="ja"> 段 </label>
+<label xml:lang="ja-Lath"> tan </label>
+<desc> 1 tan 段 of yōfu 庸布 = (length) 2 jō 丈 8 shaku 尺 × (width) 2 shaku 尺 4 sun 寸 (約 8.3 m × 72 cm) </desc>
+</unitDef>
+<unitDef type="Cloth_shōfu" xml:id="段_商布">
+<label xml:lang="ja"> 段 </label>
+<label xml:lang="ja-Lath"> tan </label>
+<desc> 1 tan 段 of shōfu 商布 = length 2 jō 丈 6 shaku 尺 (約 7.72 m) </desc>
+</unitDef>
+<unitDef type="Cloth_yōfu" xml:id="端_庸布">
+<label xml:lang="ja"> 端 </label>
+<label xml:lang="ja-Lath"> tan </label>
+</unitDef>
+<unitDef xml:id="合_set">
+<label xml:lang="ja"> 合 </label>
+<label xml:lang="ja-Lath"> gō </label>
+<desc> 蓋と本体が対になった器を数えるための単位。 </desc>
+</unitDef>
+<unitDef xml:id="口">
+<label xml:lang="ja"> 口 </label>
+<label xml:lang="ja-Lath"> ku </label>
+<desc> 主に土器の単位。 </desc>
+</unitDef>
+<unitDef xml:id="疋">
+<label xml:lang="ja"> 疋 </label>
+<label xml:lang="ja-Lath"> hiki </label>
+<desc> 主に布製品の単位。 </desc>
+</unitDef>
+<unitDef xml:id="文">
+<label xml:lang="ja"> 文 </label>
+<label xml:lang="ja-Lath"> mon </label>
+<desc> 銭の単位。銭1貫=1000文。 </desc>
+</unitDef>
+<unitDef type="Weight" xml:id="廷">
+<label xml:lang="ja"> 廷 </label>
+<label xml:lang="ja-Lath"> tei </label>
+<desc> 鉄1廷=大3斤5両。 </desc>
+</unitDef>
+<unitDef xml:id="隻">
+<label xml:lang="ja"> 隻 </label>
+<label xml:lang="ja-Lath"> seki </label>
+<desc> 主に魚類の単位。 </desc>
+</unitDef>
+<unitDef xml:id="顆">
+<label xml:lang="ja"> 顆 </label>
+<label xml:lang="ja-Lath"> ka </label>
+<desc> 粒状のものを数える単位。 </desc>
+</unitDef>
+<unitDef type="Weight" xml:id="屯">
+<label xml:lang="ja"> 屯 </label>
+<label xml:lang="ja-Lath"> ton </label>
+<desc> 綿を計上する際の単位。調綿1屯=大4両、細屯綿1屯=大3両1分2銖=小10両、綿1屯=大5両2分=小1斤2分。 </desc>
+</unitDef>
+<unitDef xml:id="張">
+<label xml:lang="ja"> 張 </label>
+<label xml:lang="ja-Lath"> chō </label>
+<desc> 幕など張りめぐらすものを数える単位。 </desc>
+</unitDef>
+<unitDef xml:id="帖">
+<label xml:lang="ja"> 帖 </label>
+<label xml:lang="ja-Lath"> jō </label>
+<desc> 板状のものを数える単位。 </desc>
+</unitDef>
+<unitDef xml:id="枚">
+<label xml:lang="ja"> 枚 </label>
+<label xml:lang="ja-Lath"> mai </label>
+<desc> 平たいものを数える単位。 </desc>
+</unitDef>
+<unitDef type="Weight" xml:id="絇">
+<label xml:lang="ja"> 絇 </label>
+<label xml:lang="ja-Lath"> ku </label>
+<desc> 糸の単位。糸1絇=上糸大4両、中糸大5両、麁糸大7両。 </desc>
+</unitDef>
+</unitDecl>
+</encodingDesc>
+<revisionDesc ana="個別">
+<listChange>
+<change/>
+</listChange>
+</revisionDesc>
+</teiHeader>
+<text>
+<body>
+<div ana="掃部" n="38" type="巻" xml:id="volume38">
+<div type="首題" xml:id="shudai38">
+<p xml:id="shudai3801"> 延喜式巻第<anchor xml:id="app3866660101"/>卅八<anchor xml:id="app3866660101e"/>
+</p>
+</div>
+<div ana="掃部" corresp="engishiki_v38_en.xml#protocol381 engishiki_v38_ja.xml#protocol381" n="38" type="式" xml:id="protocol381">
+<div type="式題" xml:id="shikidai381">
+<p xml:id="shikidai38101">
+<orgName corresp="#掃部寮">掃部寮</orgName>
+</p>
+</div>
+<div ana="掃部" corresp="engishiki_v38_en.xml#article381001 engishiki_v38_ja.xml#article381001" n="38.1" type="条" xml:id="article381001">
+<head ana="祈年祭"/>
+<p ana="項" corresp="engishiki_v38_en.xml#item38100101 engishiki_v38_ja.xml#item38100101" xml:id="item38100101">
+<anchor xml:id="app3810010101"/>凡二月四日<anchor xml:id="app3810010101e"/>祈年祭、設大臣及参<anchor xml:id="app3810010102"/>議<anchor xml:id="app3810010102e"/>以上座於<orgName corresp="#神祇官">神<anchor xml:id="app3810010103"/>祇<anchor xml:id="app3810010103e"/>官</orgName>西院<anchor xml:id="app3810010104"/>北舎、〈大臣南面、参議以上西面北上、〉<anchor xml:id="app3810010104e"/>同舎西壁下設王大<anchor xml:id="app3810010105"/>夫<anchor xml:id="app3810010105e"/>座、<anchor xml:id="app3810010106"/>〈東面北上、〉南舎<anchor xml:id="app3810010106e"/>敷座二<anchor xml:id="app3810010107"/>行、〈北面東上、〉
+        <lb/>前一行<anchor xml:id="app3810010107e"/>為弁官并諸司五位已上<anchor xml:id="app3810010108"/>座、後一行為官史并諸司六位已<anchor xml:id="app3810010108e"/>下座、大臣舎之東屋設外記<anchor xml:id="app3810010109"/>座<anchor xml:id="app3810010109e"/>、西屋設<orgName corresp="#神祇官">神祇<anchor xml:id="app3810010110"/>官<anchor xml:id="app3810010110e"/></orgName> 伯已下座、
+       <lb/>又其屋前<anchor xml:id="app3810010111"/>庭<anchor xml:id="app3810010111e"/>設読祝詞者座、〈東面、〉但御巫座在<anchor xml:id="app3810010112"/>祝<anchor xml:id="app3810010112e"/>師後、又大臣已下諸司六位已上座、預設於各舎前庭、〈為読祝詞時座、敷以葉薦、〉 </p>
+</div>
+<div ana="掃部" corresp="engishiki_v38_en.xml#article381002 engishiki_v38_ja.xml#article381002" n="38.2" type="条" xml:id="article381002">
+<head ana="奏御卜"/>
+<p ana="項" corresp="engishiki_v38_en.xml#item38100201 engishiki_v38_ja.xml#item38100201" xml:id="item38100201">
+       六月奏御卜日、設大臣座於殿上、〈御座東南二許丈、西<anchor xml:id="app3810020101"/>向<anchor xml:id="app3810020101e"/>、〉十二月亦同、 </p>
+</div>
+<div ana="掃部" corresp="engishiki_v38_en.xml#article381003 engishiki_v38_ja.xml#article381003" n="38.3" type="条" xml:id="article381003">
+<head ana="神今食"/>
+<p ana="項" corresp="engishiki_v38_en.xml#item38100301 engishiki_v38_ja.xml#item38100301" xml:id="item38100301">
+        六月神<anchor xml:id="app3810030101"/>今食<anchor xml:id="app3810030101e"/>、前一日、設卜小斎五位已上座於<orgName corresp="#神祇官">神祇官</orgName>、当日平旦、設<anchor xml:id="app3810030102"/>卜小斎人<anchor xml:id="app3810030102e"/>座於<orgName corresp="#宮内省">宮内省</orgName>、<orgName corresp="#神祇官">神祇官</orgName>卜部已上座於庁<anchor xml:id="app3810030103"/>内、内侍座於東廂舎<anchor xml:id="app3810030103e"/>、<orgName corresp="#中務省">中務</orgName>・<orgName corresp="#宮内省">宮内</orgName>二省官人座於西廂舎、
+        <lb/>酉刻、折薦<anchor xml:id="app3810030104"/>帖<anchor xml:id="app3810030104e"/>・<anchor xml:id="app3810030105"/>狭<anchor xml:id="app3810030105e"/>帖・短帖・折薦・葉薦・簀・<placeName corresp="#山城国">山城</placeName>食薦・<orgName corresp="#掃部寮">寮</orgName>造食薦各八枚、〈是謂八物、〉置於中<anchor xml:id="app3810030106"/>院<anchor xml:id="app3810030106e"/>付<orgName corresp="#神祇官">神祇官</orgName>、即装束神嘉殿、敷長席於殿中央三間、〈神座<anchor xml:id="app3810030107"/>下敷<anchor xml:id="app3810030107e"/>、〉
+        <lb/>西隔二間敷長席、立床一脚、供御座、西廂立床一脚、〈御<anchor xml:id="app3810030108"/>湯<anchor xml:id="app3810030108e"/>殿料、〉東<anchor xml:id="app3810030109"/>方<anchor xml:id="app3810030109e"/>隔<anchor xml:id="app3810030110"/>二<anchor xml:id="app3810030110e"/>間設供奉神事女官座、<anchor xml:id="app3810030111"/>北<anchor xml:id="app3810030111e"/>廂設内<anchor xml:id="app3810030112"/>侍<anchor xml:id="app3810030112e"/>已下女官座、東廊設殿上侍臣座、北殿設御厨子所并薬殿・<orgName corresp="#主水司">主水</orgName>等座、東廂<anchor xml:id="app3810030113"/>殿<anchor xml:id="app3810030113e"/>弁備神供<orgName corresp="#神祇官">神祇官</orgName>・<orgName corresp="#宮内省">宮内省</orgName>・<orgName corresp="#内膳司">内膳司</orgName>・<orgName corresp="#采女司">采女司</orgName>座、西廂殿設小<anchor xml:id="app3810030114"/>斎<anchor xml:id="app3810030114e"/>親王以下座、近衛・兵衛等各用<anchor xml:id="app3810030115"/>蒋<anchor xml:id="app3810030115e"/>円座、中和門外幄設大斎親王<anchor xml:id="app3810030116"/>以<anchor xml:id="app3810030116e"/>下座、
+        <lb/>戍刻、小斎親王已下出中門外、<orgName corresp="#掃部寮"><anchor xml:id="app3810030117"/>寮</orgName>官<anchor xml:id="app3810030117e"/>人授打掃<anchor xml:id="app3810030118"/>筥<anchor xml:id="app3810030118e"/>・坂枕・御帖等、伝執参入、昇殿於南戸下授<orgName corresp="#掃部寮">寮</orgName>官人退還、官人便留率掃部等鋪御帖於殿中央、〈神座西<anchor xml:id="app3810030119"/>面<anchor xml:id="app3810030119e"/>、御座東面、〉
+        <lb/>訖退出、寅刻、官人更昇殿<anchor xml:id="app3810030120"/>撤<anchor xml:id="app3810030120e"/>御帖、親王已下伝執<anchor xml:id="app3810030121"/>退<anchor xml:id="app3810030121e"/>出如初儀、〈御帖即給<orgName corresp="#神祇官">神祇官</orgName>、〉解斎之日、設小斎人等座於<orgName corresp="#宮内省">宮内<anchor xml:id="app3810030122"/>省<anchor xml:id="app3810030122e"/></orgName>庁并東西廂舎、十二月及新嘗祭設座亦同、 </p>
+</div>
+<div ana="掃部" corresp="engishiki_v38_en.xml#article381004 engishiki_v38_ja.xml#article381004" n="38.4" type="条" xml:id="article381004">
+<head ana="進御贖物"/>
+<p ana="項" corresp="engishiki_v38_en.xml#item38100401 engishiki_v38_ja.xml#item38100401" xml:id="item38100401">
+<anchor xml:id="app3810040101"/>六月進御贖<anchor xml:id="app3810040101e"/>物、設簀一枚、席一枚於南階下、十二月亦同、 </p>
+</div>
+<div ana="掃部" corresp="engishiki_v38_en.xml#article381005 engishiki_v38_ja.xml#article381005" n="38.5" type="条" xml:id="article381005">
+<head ana="晦日大祓"/>
+<p ana="項" corresp="engishiki_v38_en.xml#item38100501 engishiki_v38_ja.xml#item38100501" xml:id="item38100501">
+<anchor xml:id="app3810050101"/>晦日大<anchor xml:id="app3810050101e"/>祓、朱雀門壇上設公卿及弁・<orgName corresp="#中務省">中務</orgName>・<orgName corresp="#式部省">式部</orgName>・<orgName corresp="#兵部省">兵部</orgName>并<anchor xml:id="app3810050102"/>女官<anchor xml:id="app3810050102e"/>座、左右<anchor xml:id="app3810050103"/>仗<anchor xml:id="app3810050103e"/>舎六位已<anchor xml:id="app3810050104"/>上<anchor xml:id="app3810050104e"/>座、但祝詞<anchor xml:id="app3810050105"/>者<anchor xml:id="app3810050105e"/>在庭中、十二月亦同、 </p>
+</div>
+<div ana="掃部" corresp="engishiki_v38_en.xml#article381006 engishiki_v38_ja.xml#article381006" n="38.6" type="条" xml:id="article381006">
+<head ana="臨時大祓"/>
+<p ana="項" corresp="engishiki_v38_en.xml#item38100601 engishiki_v38_ja.xml#item38100601" xml:id="item38100601">
+       凡臨時大祓日、設公卿并弁・外記・<anchor xml:id="app3810060101"/>史<anchor xml:id="app3810060101e"/>・史生・官掌・召使及祝詞等座、 </p>
+</div>
+<div ana="掃部" corresp="engishiki_v38_en.xml#article381007 engishiki_v38_ja.xml#article381007" n="38.7" type="条" xml:id="article381007">
+<head ana="春日春祭"/>
+<p ana="項" corresp="engishiki_v38_en.xml#item38100701 engishiki_v38_ja.xml#item38100701" xml:id="item38100701">
+       凡春日春祭、著到殿東壁下西面設公卿座、北壁下南面東上五位已上氏人座、南廂北面東上六位已下著到座、奉幣帛時、南中門設神主座、同門西釘貫内北面東上内侍<anchor xml:id="app3810070101"/>已下座<anchor xml:id="app3810070101e"/>、
+       <lb/>釘貫外南去一許丈北面東上公卿座、其西諸使座、<anchor xml:id="app3810070102"/>後五<anchor xml:id="app3810070102e"/>位已上氏人座、其南六位已下座、直相殿北壁下南面公卿座、其南西面北上諸使及外記・史座、東面北上氏人五位已上座、
+        <lb/>其西氏人六位已下座、南舎西第一間南辺設<orgName corresp="#太政官">太政官</orgName>史生已下座、第二間<orgName corresp="#神祇官">神祇官</orgName>・御琴師・笛工・<orgName corresp="#雅楽寮">雅楽寮</orgName>歌人座、並北面西上、東第一間諸司史生及近衛等座、庭中和舞座、事訖禄所設座、冬祭亦同、 </p>
+</div>
+<div ana="掃部" corresp="engishiki_v38_en.xml#article381008 engishiki_v38_ja.xml#article381008" n="38.8" type="条" xml:id="article381008">
+<head ana="大原野春祭"/>
+<p ana="項" corresp="engishiki_v38_en.xml#item38100801 engishiki_v38_ja.xml#item38100801" xml:id="item38100801">
+       凡大原野春祭、著到殿東第一<anchor xml:id="app3810080101"/>間<anchor xml:id="app3810080101e"/>西面設公卿座、其西<anchor xml:id="app3810080102"/>即南北<anchor xml:id="app3810080102e"/>相対五位已上氏人及諸使・外記・史座、西第一<anchor xml:id="app3810080103"/>間<anchor xml:id="app3810080103e"/>東面北上有官六位以下氏人座、<anchor xml:id="app3810080104"/>西<anchor xml:id="app3810080104e"/>廂無官六位已下氏人著到座、
+       <lb/>其南舎設近衛・陪従等座、奉幣帛時、中門南去一許丈<anchor xml:id="app3810080105"/>設<anchor xml:id="app3810080105e"/>神主座、西去二許丈内侍已下座、神主座南去三許丈公卿座、其西諸使座、公卿座後五位已<anchor xml:id="app3810080106"/>上<anchor xml:id="app3810080106e"/>氏人座、
+       <lb/>其後六位已下座、直相殿北第二<anchor xml:id="app3810080107"/>間<anchor xml:id="app3810080107e"/>西面設公卿座、其南西面北上五位已上氏人座、其後六位已下座、西廂北第二間東面神主座、其南諸使座、次外記・史座、 <lb/>少退<orgName corresp="#太政官">太政官</orgName>史生已下座、南舎設<orgName corresp="#雅楽寮">雅楽</orgName>官人・歌<anchor xml:id="app3810080108"/>女等座、同舎<anchor xml:id="app3810080108e"/>北庭中和舞座、事訖禄所設座、冬祭亦同、 </p>
+</div>
+<div ana="掃部" corresp="engishiki_v38_en.xml#article381009 engishiki_v38_ja.xml#article381009" n="38.9" type="条" xml:id="article381009">
+<head ana="園韓神春祭"/>
+<p ana="項" corresp="engishiki_v38_en.xml#item38100901 engishiki_v38_ja.xml#item38100901" xml:id="item38100901">
+<anchor xml:id="app3810090101"/>凡園并<anchor xml:id="app3810090101e"/>韓神春祭、<orgName corresp="#宮内省"><anchor xml:id="app3810090102"/>宮<anchor xml:id="app3810090102e"/>内省</orgName>神院<anchor xml:id="app3810090103"/>南<anchor xml:id="app3810090103e"/>舎西第一間設内侍已下御神子等座、次西面北上<orgName corresp="#神祇官">神祇官</orgName>・ <orgName corresp="#治部省">治部省</orgName>・<orgName corresp="#雅楽寮">雅楽寮</orgName>并御琴師・歌人等座、南壁下北面西上歌女<anchor xml:id="app3810090104"/>座<anchor xml:id="app3810090104e"/>、北舎西第一間設御神子座、
+        <lb/>第二間北辺南面東上御琴師座、北廂歌人座、第三間南面西上公卿座、其東五位已上座、公卿座後外記・史・<orgName corresp="#中務省">中務</orgName>丞・録・内舎人・ 大舎人等座、外記・史座後<orgName corresp="#太政官">太政官</orgName><anchor xml:id="app3810090105"/>并諸司史生<anchor xml:id="app3810090105e"/>以下座、冬祭亦同、 </p>
+</div>
+<div ana="掃部" corresp="engishiki_v38_en.xml#article381010 engishiki_v38_ja.xml#article381010" n="38.10" type="条" xml:id="article381010">
+<head ana="平野祭"/>
+<p ana="項" corresp="engishiki_v38_en.xml#item38101001 engishiki_v38_ja.xml#item38101001" xml:id="item38101001">
+<anchor xml:id="app3810100101"/>凡四月平野<anchor xml:id="app3810100101e"/>祭、神殿前舎北第一間南面設女王座、東廂西面<anchor xml:id="app3810100102"/>北上内<anchor xml:id="app3810100102e"/>侍已下座、南三間舎設皇太子御座、南舎北<anchor xml:id="app3810100103"/>面<anchor xml:id="app3810100103e"/>東上設親王已下参議已上座、其後五位已上座、
+        <lb/>西壁下東面勅使座、<anchor xml:id="app3810100104"/>其南<anchor xml:id="app3810100104e"/>舎北面東上設四世已上王・外記・史・<orgName corresp="#中務省">中務</orgName>丞・録・内舎人・諸司判官・五世已下王座、其後和・大江等氏人及諸司主典・大舎人座、其後<orgName corresp="#太政官">太政官</orgName>并諸司史生已下座、 <lb/>北舎南面東上<orgName corresp="#神祇官">神祇</orgName>官人・神主・御琴師座、其後史生・<anchor xml:id="app3810100105"/>官<anchor xml:id="app3810100105e"/>掌座、其後中臣・卜部座、南面東上<orgName corresp="#治部省">治部</orgName>・<orgName corresp="#雅楽寮">雅楽</orgName>官人座、其後史生已下座、其後歌女座、十一月亦同、 </p>
+</div>
+<div ana="掃部" corresp="engishiki_v38_en.xml#article381011 engishiki_v38_ja.xml#article381011" n="38.11" type="条" xml:id="article381011">
+<head ana="賀茂奉幣"/>
+<p ana="項" corresp="engishiki_v38_en.xml#item38101101 engishiki_v38_ja.xml#item38101101" xml:id="item38101101">
+<anchor xml:id="app3810110101"/>四月<anchor xml:id="app3810110101e"/>奉賀茂神幣帛使座、於<orgName corresp="#内蔵寮">内蔵寮</orgName>設之、又設座於上下社、其軽幄二具、牀二脚、屏風四帖、畳四枚、預請斎院、事訖返送、 </p>
+</div>
+<div ana="掃部" corresp="engishiki_v38_en.xml#article381012 engishiki_v38_ja.xml#article381012" n="38.12" type="条" xml:id="article381012">
+<head ana="大神宮奉幣"/>
+<p ana="項" corresp="engishiki_v38_en.xml#item38101201 engishiki_v38_ja.xml#item38101201" xml:id="item38101201">
+       九月十一日奉伊勢大神宮幣帛、行幸八省院、設小安殿東局御座、親王以下参議已上座設昭慶門東廊内、対座南北、以西為上、隔其東間設弁・少納言・外記・史・内記等座、東福門内西掖<anchor xml:id="app3810120101"/>設大臣<anchor xml:id="app3810120101e"/>賜宣命之座、東福門外東掖設外記・内記座、
+      </p>
+</div>
+<div ana="掃部" corresp="engishiki_v38_en.xml#article381013 engishiki_v38_ja.xml#article381013" n="38.13" type="条" xml:id="article381013">
+<head ana="鎮魂祭"/>
+<p ana="項" corresp="engishiki_v38_en.xml#item38101301 engishiki_v38_ja.xml#item38101301" xml:id="item38101301">
+<anchor xml:id="app3810130101"/>十一月<anchor xml:id="app3810130101e"/>鎮魂祭日、於<orgName corresp="#宮内省">宮内省</orgName>庁、設大臣已下歌女已上座、 </p>
+</div>
+<div ana="掃部" corresp="engishiki_v38_en.xml#article381014 engishiki_v38_ja.xml#article381014" n="38.14" type="条" xml:id="article381014">
+<head ana="大嘗会"/>
+<p ana="項" corresp="engishiki_v38_en.xml#item38101401 engishiki_v38_ja.xml#item38101401" xml:id="item38101401">
+       践祚大嘗会、十月下旬装束八省院頓宮、其所須薦・席者、依弁官宣下用、 十一<anchor xml:id="app3810140101"/>月<anchor xml:id="app3810140101e"/>上旬葺蔀<orgName corresp="#大膳職">大膳職</orgName>多加須伎・比良須伎屋及廻立殿、上葺苫、下蔀席・薦、〈薦入中、席著表、裏<orgName corresp="#木工寮">木工寮</orgName>共蔀、〉中卯未刻、懸葦簾於愈紀・主基正殿南堂、
+        〈殿別六枚、〉<orgName corresp="#主殿寮">主殿寮</orgName>樹幔、訖更鋪簀十六枚於廻立殿内、其上加席十四枚、其<anchor xml:id="app3810140102"/>上<anchor xml:id="app3810140102e"/>黄端帖八枚、其中央双施御<anchor xml:id="app3810140103"/>牀<anchor xml:id="app3810140103e"/>二脚、
+       <lb/>其上加暈繝端御帖各一枚、〈有黄帊、〉<anchor xml:id="app3810140104"/>御<anchor xml:id="app3810140104e"/>牀東西鋪白端御帖四枚、酉刻、官人已下掃部已上卜食<anchor xml:id="app3810140105"/>者<anchor xml:id="app3810140105e"/>十人、持御座等物、自大嘗宮北門入、鋪白端御帖十一枚、布端御<anchor xml:id="app3810140106"/>坂<anchor xml:id="app3810140106e"/>枕一枚於愈紀正殿中央、
+        <lb/>又設打払布一条、〈納楊<anchor xml:id="app3810140107"/>筥<anchor xml:id="app3810140107e"/>、〉御厠殿鋪折薦八重帖一枚、主基殿亦如之、訖自廻立殿至両宮正殿道、鋪布単、〈事<anchor xml:id="app3810140108"/>具<anchor xml:id="app3810140108e"/><orgName corresp="#神祇官">神祇</orgName>式、〉上安巻葉薦、官人已上持湯殿御榻、 <lb/>候於廻立殿西幔内、〈女孺已上座随宜設之、〉即愈紀御膳所須<anchor xml:id="app3810140109"/>折薦帖<anchor xml:id="app3810140109e"/>八枚、<anchor xml:id="app3810140110"/>折薦八枚<anchor xml:id="app3810140110e"/>、折薦短帖八枚、
+        葉薦八枚、<placeName corresp="#山城国">山城</placeName>食薦八枚、<orgName corresp="#掃部寮">寮</orgName>造食薦八枚、付<orgName corresp="#内膳司">内膳司</orgName>、〈主基亦同、〉 <lb/>戍刻、天皇御於廻立殿、典掃退出喚<orgName corresp="#掃部寮">寮</orgName>、<orgName corresp="#掃部寮">寮</orgName>微声称
+       唯、〈為近御所不敢高声、〉典掃宣、御榻持来、官人称唯、即舁自殿北方廻詣東転授女孺、訖復本所、掃部四人<anchor xml:id="app3810140111"/>便<anchor xml:id="app3810140111e"/>留、 <lb/>余皆退出候大嘗宮北門東<anchor xml:id="app3810140112"/>腋<anchor xml:id="app3810140112e"/>、天皇幸愈紀殿、<orgName corresp="#宮内省">宮内</orgName>両輔於御前左右膝行、随御歩陳敷葉薦、官人二人於御後左右膝行、随御歩巻、訖退出候於本所、
+        <lb/>即設小斎侍従座二枚於承光堂前幄下、又<anchor xml:id="app3810140113"/>設<anchor xml:id="app3810140113e"/>弁官奏事座一枚於大嘗宮南庭、天皇還御於廻立殿、<orgName corresp="#宮内省">宮内</orgName>并<orgName corresp="#掃部寮">寮</orgName>供奉如初、更幸主基殿、供奉亦如愈紀、辰 日、官人分率掃部、 <lb/>入豊楽院検校両国所儲御座、
+        与国司共設殿上御座、愈紀在左、主基在右、五位已上座設於顕陽・承<anchor xml:id="app3810140114"/>歓<anchor xml:id="app3810140114e"/>両堂、供奉如常儀、巳日夕、悉撤両国斗帳及御座、更設<orgName corresp="#掃部寮">寮</orgName>家御座於殿<anchor xml:id="app3810140115"/>中央<anchor xml:id="app3810140115e"/>、 <lb/><anchor xml:id="app3810140116"/>午<anchor xml:id="app3810140116e"/>日、官人各執置位記案二脚、左右分入自儀鸞門東西扉、立殿前中庭、事畢入撤、五節舞訖、立積禄床、 </p>
+</div>
+<div ana="掃部" corresp="engishiki_v38_en.xml#article381015 engishiki_v38_ja.xml#article381015" n="38.15" type="条" xml:id="article381015">
+<head ana="大嘗会祓禊"/>
+<p ana="項" corresp="engishiki_v38_en.xml#item38101501 engishiki_v38_ja.xml#item38101501" xml:id="item38101501">
+        凡践祚大嘗会祓禊儲料軽幄・<anchor xml:id="app3810150101"/>百子帳<anchor xml:id="app3810150101e"/>・軟障・大床子・屏<anchor xml:id="app3810150102"/>風・帳・茵等貯納<orgName corresp="#掃部寮">寮</orgName><anchor xml:id="app3810150102e"/>家、臨事出用、 </p>
+</div>
+<div ana="掃部" corresp="engishiki_v38_en.xml#article381016 engishiki_v38_ja.xml#article381016" n="38.16" type="条" xml:id="article381016">
+<head ana="釈奠"/>
+<p ana="項" corresp="engishiki_v38_en.xml#item38101601 engishiki_v38_ja.xml#item38101601" xml:id="item38101601">
+<anchor xml:id="app3810160101"/>凡二<anchor xml:id="app3810160101e"/>月・八<anchor xml:id="app3810160102"/>月<anchor xml:id="app3810160102e"/>上丁釈奠祭、廟<anchor xml:id="app3810160103"/>堂<anchor xml:id="app3810160103e"/>敷満長席、祭畢之後、親王・公卿座設都堂東方、西面北上、五位已上座設西方、東面北上重行、諸司座設東夾舎、<orgName corresp="#式部省">式部</orgName>・<orgName corresp="#大学寮">大学</orgName>并諸博士・学生等座設西夾舎、
+       <lb/>講畢改座賜饌、東第二三<anchor xml:id="app3810160104"/>間<anchor xml:id="app3810160104e"/>設参議已上座、西去一許丈五位已上座、並南北相対、以東為上、東西夾<anchor xml:id="app3810160105"/>舎<anchor xml:id="app3810160105e"/>座如前、次設宴座、 </p>
+</div>
+<div ana="掃部" corresp="engishiki_v38_en.xml#article381017 engishiki_v38_ja.xml#article381017" n="38.17" type="条" xml:id="article381017">
+<head ana="斎内親王"/>
+<p ana="項" corresp="engishiki_v38_en.xml#item38101701 engishiki_v38_ja.xml#item38101701" xml:id="item38101701">
+       凡斎内親王<anchor xml:id="app3810170101"/>入伊勢<anchor xml:id="app3810170101e"/>斎宮者、於大極殿高御座左直東戸設御座、東向、〈<anchor xml:id="app3810170102"/>席<anchor xml:id="app3810170102e"/>帖<anchor xml:id="app3810170103"/>各<anchor xml:id="app3810170103e"/>二枚、上鋪六尺御帖一枚、〉後樹屏風、自御前東去一間、設置幣葉薦一枚、自北方東戸南進一間、鋪内親王座、南向、〈緑<anchor xml:id="app3810170104"/>縁<anchor xml:id="app3810170104e"/>帖二枚、上加<anchor xml:id="app3810170105"/>両面短帖<anchor xml:id="app3810170105e"/>一枚、〉後樹屏風、
+      </p>
+</div>
+<div ana="掃部" corresp="engishiki_v38_en.xml#article381018 engishiki_v38_ja.xml#article381018" n="38.18" type="条" xml:id="article381018">
+<head ana="出雲国造"/>
+<p ana="項" corresp="engishiki_v38_en.xml#item38101801 engishiki_v38_ja.xml#item38101801" xml:id="item38101801">
+<placeName corresp="#出雲国">出雲</placeName>国造奏神事設御座、同告<anchor xml:id="app3810180101"/>朔<anchor xml:id="app3810180101e"/>儀、 </p>
+</div>
+<div ana="掃部" corresp="engishiki_v38_en.xml#article381019 engishiki_v38_ja.xml#article381019" n="38.19" type="条" xml:id="article381019">
+<head ana="御斎会"/>
+<p ana="項" corresp="engishiki_v38_en.xml#item38101901 engishiki_v38_ja.xml#item38101901" xml:id="item38101901">
+        最勝王経斎会、衆僧座設於大極殿、〈鋪設申<orgName corresp="#宮内省">省</orgName>受之、事畢返上、〉初<anchor xml:id="app3810190101"/>終<anchor xml:id="app3810190101e"/>日有行幸者、設御座於高御座丑寅角及小安殿、又東階上北進二許丈、更西折<anchor xml:id="app3810190102"/>一許<anchor xml:id="app3810190102e"/>丈北面皇太子座、
+       <lb/>御座東去一許丈西面内弁大臣座、参議已上座於南栄東方、北面西上、王五位已上座於南栄西方、北面東上、堂童子五位已<anchor xml:id="app3810190103"/>上<anchor xml:id="app3810190103e"/>座於殿東西壇上、
+       <lb/>以外諸司座分在東西廊壇下、〈無行幸者、設於壇上、〉終日設座同之、又昌福堂設衆僧布施座并宣命大夫座、堂西庭設公卿已下座、 </p>
+</div>
+<div ana="掃部" corresp="engishiki_v38_en.xml#article381020 engishiki_v38_ja.xml#article381020" n="38.20" type="条" xml:id="article381020">
+<head ana="御斎会終日"/>
+<p ana="項" corresp="engishiki_v38_en.xml#item38102001 engishiki_v38_ja.xml#item38102001" xml:id="item38102001">
+       御斎会終日、設論義僧座於内裏御前、僧綱座立<anchor xml:id="app3810200101"/>兀<anchor xml:id="app3810200101e"/>子、<anchor xml:id="app3810200102"/>問答者座亦各立<anchor xml:id="app3810200102e"/>兀<anchor xml:id="app3810200103"/>子<anchor xml:id="app3810200103e"/>、其前置草墪、香水机下敷<anchor xml:id="app3810200104"/>莚<anchor xml:id="app3810200104e"/>、<anchor xml:id="app3810200105"/>聴<anchor xml:id="app3810200105e"/>衆座立中床子於簀子敷、威儀師座差退立床子一脚、又親王・公卿及出居中少将座敷帖、
+      </p>
+</div>
+<div ana="掃部" corresp="engishiki_v38_en.xml#article381021 engishiki_v38_ja.xml#article381021" n="38.21" type="条" xml:id="article381021">
+<head ana="御読経"/>
+<p ana="項" corresp="engishiki_v38_en.xml#item38102101 engishiki_v38_ja.xml#item38102101" xml:id="item38102101">
+        春秋二季御読経、大極殿設座略如<anchor xml:id="app3810210101"/>正月御斎会<anchor xml:id="app3810210101e"/>、若於紫<anchor xml:id="app3810210102"/>宸<anchor xml:id="app3810210102e"/>殿及御在所転読之時、衆僧并王卿・<orgName corresp="#近衛府">近衛</orgName>次将出居座設於殿上、臨時亦同、 </p>
+</div>
+<div ana="掃部" corresp="engishiki_v38_en.xml#article381022 engishiki_v38_ja.xml#article381022" n="38.22" type="条" xml:id="article381022">
+<head ana="一代一講"/>
+<p ana="項" corresp="engishiki_v38_en.xml#item38102201 engishiki_v38_ja.xml#item38102201" xml:id="item38102201">
+        一代一講仁王会、大極殿・紫<anchor xml:id="app3810220101"/>宸<anchor xml:id="app3810220101e"/>殿・御<anchor xml:id="app3810220102"/>在<anchor xml:id="app3810220102e"/>所・<orgName corresp="#太政官">太政官</orgName>庁・外記庁・中宮・東宮各設僧座等、
+        〈紫<anchor xml:id="app3810220103"/>宸<anchor xml:id="app3810220103e"/>殿・御在所設王卿及<orgName corresp="#近衛府">近衛</orgName>次将出居座、但大極殿不設次将座、臨時設於十一箇所、〉 </p>
+</div>
+<div ana="掃部" corresp="engishiki_v38_en.xml#article381023 engishiki_v38_ja.xml#article381023" n="38.23" type="条" xml:id="article381023">
+<head ana="山陵奉幣"/>
+<p ana="項" corresp="engishiki_v38_en.xml#item38102301 engishiki_v38_ja.xml#item38102301" xml:id="item38102301">
+       奉山陵幣御座設於建礼門前幄下、大臣已下及弁官已上座設於東幄下、設幣帛下敷葉薦三枚・帖四枚、 </p>
+</div>
+<div ana="掃部" corresp="engishiki_v38_en.xml#article381024 engishiki_v38_ja.xml#article381024" n="38.24" type="条" xml:id="article381024">
+<head ana="山陵幣座"/>
+<p ana="項" corresp="engishiki_v38_en.xml#item38102401 engishiki_v38_ja.xml#item38102401" xml:id="item38102401">
+        凡弁備山陵幣之座、設<orgName corresp="#縫殿寮">縫殿寮</orgName>南院并<orgName corresp="#大蔵省">大蔵省</orgName>正倉院、 </p>
+</div>
+<div ana="掃部" corresp="engishiki_v38_en.xml#article381025 engishiki_v38_ja.xml#article381025" n="38.25" type="条" xml:id="article381025">
+<head ana="元日平旦"/>
+<p ana="項" corresp="engishiki_v38_en.xml#item38102501 engishiki_v38_ja.xml#item38102501" xml:id="item38102501">
+       元日平旦、設奉拝天地四方御座、前庭鋪長莚、立御屏風、三所敷半帖、 </p>
+</div>
+<div ana="掃部" corresp="engishiki_v38_en.xml#article381026 engishiki_v38_ja.xml#article381026" n="38.26" type="条" xml:id="article381026">
+<head ana="元正"/>
+<p ana="項" corresp="engishiki_v38_en.xml#item38102601 engishiki_v38_ja.xml#item38102601" xml:id="item38102601">
+       元正、前一日、設御座於大極<anchor xml:id="app3810260101"/>殿<anchor xml:id="app3810260101e"/>高御座、去御座左右各一丈二尺、褰御帳命婦座、其後左右各去一丈五尺、更北<anchor xml:id="app3810260102"/>折<anchor xml:id="app3810260102e"/>五尺威儀命婦座、相夾御階南北各去二丈五尺、以南為上、
+       <lb/>侍従位氈於南廂第二間、<anchor xml:id="app3810260103"/>以北<anchor xml:id="app3810260103e"/>為上、少納言<anchor xml:id="app3810260104"/>位<anchor xml:id="app3810260104e"/>氈<anchor xml:id="app3810260105"/><anchor xml:id="app3810260105e"/>於南栄第一・第二楹<anchor xml:id="app3810260106"/>間<anchor xml:id="app3810260106e"/>、並東西相対、執翳者座於東西戸前、皇太子座於殿東南幄、大臣座於其<anchor xml:id="app3810260107"/>巽<anchor xml:id="app3810260107e"/>角幄、
+       <lb/>又後殿以布蔀十一枚、為南栄之屏<anchor xml:id="app3810260108"/>并<anchor xml:id="app3810260108e"/>中間隔、殿内鋪葉薦、上<anchor xml:id="app3810260109"/>加<anchor xml:id="app3810260109e"/>調席鋪御帖八枚、立五尺御床上施茵、左右立五尺御屏風四帖、 </p>
+</div>
+<div ana="掃部" corresp="engishiki_v38_en.xml#article381027 engishiki_v38_ja.xml#article381027" n="38.27" type="条" xml:id="article381027">
+<head ana="元日供奉"/>
+<p ana="項" corresp="engishiki_v38_en.xml#item38102701 engishiki_v38_ja.xml#item38102701" xml:id="item38102701">
+       元日供奉威儀掃部二人、分列左右、其装束人別黄帛三丈、<anchor xml:id="app3810270101"/>帛三丈<anchor xml:id="app3810270101e"/>、白袴一腰、布帯一条、随損請換、 </p>
+</div>
+<div ana="掃部" corresp="engishiki_v38_en.xml#article381028 engishiki_v38_ja.xml#article381028" n="38.28" type="条" xml:id="article381028">
+<head ana="朝賀"/>
+<p ana="項" corresp="engishiki_v38_en.xml#item38102801 engishiki_v38_ja.xml#item38102801" xml:id="item38102801">
+<anchor xml:id="app3810280101"/>朝<anchor xml:id="app3810280101e"/>賀畢賜侍従已上饗、官人率掃部、昇豊楽殿供<anchor xml:id="app3810280102"/>御座<anchor xml:id="app3810280102e"/>、南廂西第二間敷簟四枚、〈為御酒台下敷、〉北廂中央西<anchor xml:id="app3810280103"/>間<anchor xml:id="app3810280103e"/>敷<anchor xml:id="app3810280104"/>細<anchor xml:id="app3810280104e"/>貫席二枚、立御屏風二帖・小倚子為御装物所、
+        <lb/>高御座東三間懸軟障、西二間立<anchor xml:id="app3810280105"/>通障子<anchor xml:id="app3810280105e"/>、西一間并西身屋妻二間懸軟障、〈並<orgName corresp="#内匠寮">内匠寮</orgName>立臺、〉御座西第二間南面設皇后御座、東第二間西面皇太子御座、第三四間東南行参議已上座、
+       <lb/>相対以乾角為上、通障子内立草墪<anchor xml:id="app3810280106"/>嚢床子<anchor xml:id="app3810280106e"/>并敷帖為内侍已下座、殿<anchor xml:id="app3810280107"/>東階<anchor xml:id="app3810280107e"/>下少納言・弁・外記・史・内記等座、西階下侍臣座、<anchor xml:id="app3810280108"/>逢<anchor xml:id="app3810280108e"/>春門内南北鋪蘆<anchor xml:id="app3810280109"/>【艹/弊】<anchor xml:id="app3810280109e"/>、置草墪為<anchor xml:id="app3810280110"/>闈<anchor xml:id="app3810280110e"/>司座、
+       <lb/>顕陽・承歓両堂侍従<anchor xml:id="app3810280111"/>座<anchor xml:id="app3810280111e"/>、以北為上、楽人座於庭中、〈臨奏楽時設之、〉又清暑堂東局鋪満葉薦・広席、立御屏風十帖、中央鋪毯代双立塵蒔大床子<anchor xml:id="app3810280112"/>二<anchor xml:id="app3810280112e"/>脚、〈東西妻、〉
+       <lb/>其上鋪錦茵<anchor xml:id="app3810280113"/>二<anchor xml:id="app3810280113e"/>枚、南壁外鋪葉薦并帖、西局鋪<anchor xml:id="app3810280114"/>満<anchor xml:id="app3810280114e"/>葉薦并<anchor xml:id="app3810280115"/>長帖<anchor xml:id="app3810280115e"/>、為女官候所、〈余節亦同、〉 </p>
+</div>
+<div ana="掃部" corresp="engishiki_v38_en.xml#article381029 engishiki_v38_ja.xml#article381029" n="38.29" type="条" xml:id="article381029">
+<head ana="卯杖"/>
+<p ana="項" corresp="engishiki_v38_en.xml#item38102901 engishiki_v38_ja.xml#item38102901" xml:id="item38102901">
+<anchor xml:id="app3810290101"/>上卯<anchor xml:id="app3810290101e"/>日獻御杖、大舎人叫門後、立案二脚於殿庭版位東西、〈相<anchor xml:id="app3810290102"/>去<anchor xml:id="app3810290102e"/>一丈、〉 </p>
+</div>
+<div ana="掃部" corresp="engishiki_v38_en.xml#article381030 engishiki_v38_ja.xml#article381030" n="38.30" type="条" xml:id="article381030">
+<head ana="七日設座"/>
+<p ana="項" corresp="engishiki_v38_en.xml#item38103001 engishiki_v38_ja.xml#item38103001" xml:id="item38103001">
+       七日、設座与元日同、但設六位已下座於観徳・明義両堂、又版位以南左右相分立置位記<anchor xml:id="app3810300101"/>筥<anchor xml:id="app3810300101e"/>案、叙位<anchor xml:id="app3810300102"/>訖<anchor xml:id="app3810300102e"/>撤案、女楽拝舞之後、立積禄床、 </p>
+</div>
+<div ana="掃部" corresp="engishiki_v38_en.xml#article381031 engishiki_v38_ja.xml#article381031" n="38.31" type="条" xml:id="article381031">
+<head ana="女叙位"/>
+<p ana="項" corresp="engishiki_v38_en.xml#item38103101 engishiki_v38_ja.xml#item38103101" xml:id="item38103101">
+       八日、女叙位、紫宸殿南廂立漆案、 </p>
+</div>
+<div ana="掃部" corresp="engishiki_v38_en.xml#article381032 engishiki_v38_ja.xml#article381032" n="38.32" type="条" xml:id="article381032">
+<head ana="女王禄"/>
+<p ana="項" corresp="engishiki_v38_en.xml#item38103201 engishiki_v38_ja.xml#item38103201" xml:id="item38103201">
+       同日、賜女王禄、御座以西設皇后御座、以東設女御已上座、〈用嚢床子、〉立孫王・尚侍・典侍等床子、〈以下同用中床子、〉東廂立散事床子、
+       <lb/>禄東頭立内侍床子、西立女史床子、前立空床子一脚、西立掃部女孺床子二脚、前立班禄台一脚、〈用長床子、〉掃部座西南立<anchor xml:id="app3810320101"/>闈<anchor xml:id="app3810320101e"/>司床子、
+        <lb/><anchor xml:id="app3810320102"/>闈<anchor xml:id="app3810320102e"/>司西北立来著床子六脚、禄西南立<orgName corresp="#正親司">正親司</orgName>別当已下令史已上床子、幄下立女王床子、 </p>
+</div>
+<div ana="掃部" corresp="engishiki_v38_en.xml#article381033 engishiki_v38_ja.xml#article381033" n="38.33" type="条" xml:id="article381033">
+<head ana="内裏任官"/>
+<p ana="項" corresp="engishiki_v38_en.xml#item38103301 engishiki_v38_ja.xml#item38103301" xml:id="item38103301">
+       内裏任官、装束紫<anchor xml:id="app3810330101"/>宸<anchor xml:id="app3810330101e"/>殿如常、但案一脚、立大臣座前、〈置除目簿<anchor xml:id="app3810330102"/>料<anchor xml:id="app3810330102e"/>、〉 </p>
+</div>
+<div ana="掃部" corresp="engishiki_v38_en.xml#article381034 engishiki_v38_ja.xml#article381034" n="38.34" type="条" xml:id="article381034">
+<head ana="勘御薪"/>
+<p ana="項" corresp="engishiki_v38_en.xml#item38103401 engishiki_v38_ja.xml#item38103401" xml:id="item38103401">
+        十五日勘御薪之日、設弁官并<orgName corresp="#式部省 #兵部省 #宮内省">三省</orgName>輔已下座於<orgName corresp="#宮内省">宮内省</orgName>庁上、<anchor xml:id="app3810340101"/>又設<anchor xml:id="app3810340101e"/><orgName corresp="#式部省"><anchor xml:id="app3810340102"/>式<anchor xml:id="app3810340102e"/></orgName> ・<orgName corresp="#兵部省">兵</orgName>二省座於西細殿、並用中床子<anchor xml:id="app3810340103"/>卅<anchor xml:id="app3810340103e"/>脚、 </p>
+</div>
+<div ana="掃部" corresp="engishiki_v38_en.xml#article381035 engishiki_v38_ja.xml#article381035" n="38.35" type="条" xml:id="article381035">
+<head ana="踏歌"/>
+<p ana="項" corresp="engishiki_v38_en.xml#item38103501 engishiki_v38_ja.xml#item38103501" xml:id="item38103501">
+       十六日<anchor xml:id="app3810350101"/>踏<anchor xml:id="app3810350101e"/>歌、設座与元日同、踏歌訖拝舞後、即立禄床、 </p>
+</div>
+<div ana="掃部" corresp="engishiki_v38_en.xml#article381036 engishiki_v38_ja.xml#article381036" n="38.36" type="条" xml:id="article381036">
+<head ana="観射"/>
+<p ana="項" corresp="engishiki_v38_en.xml#item38103601 engishiki_v38_ja.xml#item38103601" xml:id="item38103601">
+        十七日観射豊楽殿、坤角<anchor xml:id="app3810360101"/>幄<anchor xml:id="app3810360101e"/>下東面北上、設<orgName corresp="#兵部省">兵部</orgName>・<orgName corresp="#兵庫寮">兵庫</orgName>省寮官人已下座、阿礼幡北一丈唱射者名座、両<anchor xml:id="app3810360102"/>侯<anchor xml:id="app3810360102e"/>射席東南各七許丈立賞物床、 <lb/>前鋪蘆【艹/弊】、其西南<orgName corresp="#大蔵省">大蔵省</orgName>官人已下座、両<anchor xml:id="app3810360103"/>侯<anchor xml:id="app3810360103e"/><anchor xml:id="app3810360104"/>之<anchor xml:id="app3810360104e"/>後、奏的并撃鉦鼓者座、自余与七日同、</p>
+</div>
+<div ana="掃部" corresp="engishiki_v38_en.xml#article381037 engishiki_v38_ja.xml#article381037" n="38.37" type="条" xml:id="article381037">
+<head ana="賭射"/>
+<p ana="項" corresp="engishiki_v38_en.xml#item38103701 engishiki_v38_ja.xml#item38103701" xml:id="item38103701">
+       十八日賭射、校書殿東廂北第一間供<anchor xml:id="app3810370101"/>御座<anchor xml:id="app3810370101e"/>、紫宸殿西北廊設参議已上座、〈南面西上、〉神仙門内設侍臣座、御前屏幔下西面北上出居中少将座、 <lb/>射場東砌西面北上録的者座、差南退屏幔内西面北上<orgName corresp="#近衛府 #兵衛府">四衛府</orgName>判籌者座、其南積禄所鋪蘆【艹/弊】、安福殿南第二間東面北上<orgName corresp="#兵部省"><anchor xml:id="app3810370102"/>兵<anchor xml:id="app3810370102e"/>部</orgName>録已下座、同殿巽角東面立床子一脚、為奏的者座、屏幔東設<orgName corresp="#近衛府 #兵衛府">四衛府</orgName>官人已下射手座、</p>
+</div>
+<div ana="掃部" corresp="engishiki_v38_en.xml#article381038 engishiki_v38_ja.xml#article381038" n="38.38" type="条" xml:id="article381038">
+<head ana="列見定考"/>
+<p ana="項" corresp="engishiki_v38_en.xml#item38103801 engishiki_v38_ja.xml#item38103801" xml:id="item38103801"> 凡<orgName corresp="#太政官">太政官</orgName>二月十一日列見、八月十一日定考、立床子肆鋪設、 </p>
+</div>
+<div ana="掃部" corresp="engishiki_v38_en.xml#article381039 engishiki_v38_ja.xml#article381039" n="38.39" type="条" xml:id="article381039">
+<head ana="御潔斎"/>
+<p ana="項" corresp="engishiki_v38_en.xml#item38103901 engishiki_v38_ja.xml#item38103901" xml:id="item38103901">
+       凡三月三日御潔斎、設錦端半帖一枚・東莚二枚、事畢即撤、〈九月<anchor xml:id="app3810390101"/>准<anchor xml:id="app3810390101e"/>此、〉 </p>
+</div>
+<div ana="掃部" corresp="engishiki_v38_en.xml#article381040 engishiki_v38_ja.xml#article381040" n="38.40" type="条" xml:id="article381040">
+<head ana="撤座供座"/>
+<p ana="項" corresp="engishiki_v38_en.xml#item38104001 engishiki_v38_ja.xml#item38104001" xml:id="item38104001">
+       凡四月一日撤冬座、供夏御座、十月一日撤夏座、供冬御座、 </p>
+</div>
+<div ana="掃部" corresp="engishiki_v38_en.xml#article381041 engishiki_v38_ja.xml#article381041" n="38.41" type="条" xml:id="article381041">
+<head ana="成選短冊"/>
+<p ana="項" corresp="engishiki_v38_en.xml#item38104101 engishiki_v38_ja.xml#item38104101" xml:id="item38104101">
+        七日奏成選短冊、紫宸殿設参議已上并<orgName corresp="#式部省">式</orgName>・<orgName corresp="#兵部省">兵</orgName>二省卿座、 </p>
+</div>
+<div ana="掃部" corresp="engishiki_v38_en.xml#article381042 engishiki_v38_ja.xml#article381042" n="38.42" type="条" xml:id="article381042">
+<head ana="殿上灌仏"/>
+<p ana="項" corresp="engishiki_v38_en.xml#item38104201 engishiki_v38_ja.xml#item38104201" xml:id="item38104201">
+       八日殿上灌仏、下敷調席二枚、従僧座東莚二枚、参議已上并出居中少将座、並用帖、 </p>
+</div>
+<div ana="掃部" corresp="engishiki_v38_en.xml#article381043 engishiki_v38_ja.xml#article381043" n="38.43" type="条" xml:id="article381043">
+<head ana="成選位記"/>
+<p ana="項" corresp="engishiki_v38_en.xml#item38104301 engishiki_v38_ja.xml#item38104301" xml:id="item38104301"> 十五日、
+        <orgName corresp="#太政官">太政官</orgName>庁給成選位記之時立床子、奏<anchor xml:id="app3810430101"/>銓<anchor xml:id="app3810430101e"/>擬郡領日、紫宸殿設参議已上并<orgName corresp="#式部省"><anchor xml:id="app3810430102"/>式<anchor xml:id="app3810430102e"/>部</orgName>輔以上座、〈大臣及<orgName corresp="#式部省">省</orgName>官<anchor xml:id="app3810430103"/>前各立机<anchor xml:id="app3810430103e"/>、〉 </p>
+</div>
+<div ana="掃部" corresp="engishiki_v38_en.xml#article381044 engishiki_v38_ja.xml#article381044" n="38.44" type="条" xml:id="article381044">
+<head ana="牽駒"/>
+<p ana="項" corresp="engishiki_v38_en.xml#item38104401 engishiki_v38_ja.xml#item38104401" xml:id="item38104401">
+       廿八日、〈小月廿七<anchor xml:id="app3810440101"/>日<anchor xml:id="app3810440101e"/>、〉牽駒、武徳殿供御座、并設親王已下出居已上座、又後殿供御座、設女官座幄<anchor xml:id="app3810440102"/>下<anchor xml:id="app3810440102e"/>、御膳所立軽幄、 </p>
+</div>
+<div ana="掃部" corresp="engishiki_v38_en.xml#article381045 engishiki_v38_ja.xml#article381045" n="38.45" type="条" xml:id="article381045">
+<head ana="五月五日"/>
+<p ana="項" corresp="engishiki_v38_en.xml#item38104501 engishiki_v38_ja.xml#item38104501" xml:id="item38104501">
+       五月五日、武徳殿設御座并親王已下<anchor xml:id="app3810450101"/>参議已上<anchor xml:id="app3810450101e"/>之座、又御膳所立軽幄肆鋪設、 </p>
+</div>
+<div ana="掃部" corresp="engishiki_v38_en.xml#article381046 engishiki_v38_ja.xml#article381046" n="38.46" type="条" xml:id="article381046">
+<head ana="六日装束"/>
+<p ana="項" corresp="engishiki_v38_en.xml#item38104601 engishiki_v38_ja.xml#item38104601" xml:id="item38104601"> 六日装束、同牽駒日儀、
+      </p>
+</div>
+<div ana="掃部" corresp="engishiki_v38_en.xml#article381047 engishiki_v38_ja.xml#article381047" n="38.47" type="条" xml:id="article381047">
+<head ana="相撲"/>
+<p ana="項" corresp="engishiki_v38_en.xml#item38104701 engishiki_v38_ja.xml#item38104701" xml:id="item38104701">
+       七月廿五日相撲、神泉苑殿上供御座、及設参議已上座、又左右相<anchor xml:id="app3810470101"/>撲<anchor xml:id="app3810470101e"/>司<anchor xml:id="app3810470102"/>并<anchor xml:id="app3810470102e"/>諸大夫等<anchor xml:id="app3810470103"/>幄<anchor xml:id="app3810470103e"/>設座、廿六日、内裏供御座、及設王卿已下座、 </p>
+</div>
+<div ana="掃部" corresp="engishiki_v38_en.xml#article381048 engishiki_v38_ja.xml#article381048" n="38.48" type="条" xml:id="article381048">
+<head ana="釈奠内論議"/>
+<p ana="項" corresp="engishiki_v38_en.xml#item38104801 engishiki_v38_ja.xml#item38104801" xml:id="item38104801">
+        八月釈奠明<anchor xml:id="app3810480101"/>日<anchor xml:id="app3810480101e"/>内論義、紫宸殿南廂東第四<anchor xml:id="app3810480102"/>間<anchor xml:id="app3810480102e"/>設答者座、当其後簀子敷問者座、其東差退博士已下<anchor xml:id="app3810480103"/>座<anchor xml:id="app3810480103e"/>、北面西上、並用床子、王卿及<orgName corresp="#近衛府">近衛</orgName>次将出居座如常、 </p>
+</div>
+<div ana="掃部" corresp="engishiki_v38_en.xml#article381049 engishiki_v38_ja.xml#article381049" n="38.49" type="条" xml:id="article381049">
+<head ana="菊花宴"/>
+<p ana="項" corresp="engishiki_v38_en.xml#item38104901 engishiki_v38_ja.xml#item38104901" xml:id="item38104901">
+       九月九日菊花宴、神泉苑殿上供御座、及設参議已上座、又<anchor xml:id="app3810490101"/>幄下侍従<anchor xml:id="app3810490101e"/>・文人等座、 </p>
+</div>
+<div ana="掃部" corresp="engishiki_v38_en.xml#article381050 engishiki_v38_ja.xml#article381050" n="38.50" type="条" xml:id="article381050">
+<head ana="追儺"/>
+<p ana="項" corresp="engishiki_v38_en.xml#item38105001 engishiki_v38_ja.xml#item38105001" xml:id="item38105001">
+        十二月晦夜、追儺、当承明門東南庭中、<orgName corresp="#大蔵省">大蔵省</orgName>立七丈幄一宇、設親王已下侍従已上座、隔幄内東一間、敷弁大夫并外記・史等座、<anchor xml:id="app3810500101"/>唯<anchor xml:id="app3810500101e"/>雨湿之時設廊上、
+      </p>
+</div>
+<div ana="掃部" corresp="engishiki_v38_en.xml#article381051 engishiki_v38_ja.xml#article381051" n="38.51" type="条" xml:id="article381051">
+<head ana="天皇即位"/>
+<p ana="項" corresp="engishiki_v38_en.xml#item38105101 engishiki_v38_ja.xml#item38105101" xml:id="item38105101">
+       天皇即位、設御座於大極殿、同元日儀、 </p>
+</div>
+<div ana="掃部" corresp="engishiki_v38_en.xml#article381052 engishiki_v38_ja.xml#article381052" n="38.52" type="条" xml:id="article381052">
+<head ana="御座"/>
+<p ana="項" corresp="engishiki_v38_en.xml#item38105201 engishiki_v38_ja.xml#item38105201" xml:id="item38105201">
+<anchor xml:id="app3810520101"/>凡<anchor xml:id="app3810520101e"/>御座者、清涼・後涼等殿設錦草墪、〈高麗錦表、薫地<anchor xml:id="app3810520102"/>錦縁<anchor xml:id="app3810520102e"/>、緋東絁裏、〉紫宸殿設黒柿木倚子、行幸赤漆床子、〈並敷錦褥、〉其神事并仁寿殿等座、設短帖如常儀、中宮草墪亦<anchor xml:id="app3810520103"/>同<anchor xml:id="app3810520103e"/>御、
+      </p>
+</div>
+<div ana="掃部" corresp="engishiki_v38_en.xml#article381053 engishiki_v38_ja.xml#article381053" n="38.53" type="条" xml:id="article381053">
+<head ana="設座"/>
+<p ana="項" corresp="engishiki_v38_en.xml#item38105301 engishiki_v38_ja.xml#item38105301" xml:id="item38105301">
+       凡設座者、皇太子錦<anchor xml:id="app3810530101"/>草<anchor xml:id="app3810530101e"/>墪、〈襪錦表、長副錦縁、縹東絁裏、〉并白木倚子、〈敷錦褥、〉殿上并行幸並通用、親王并大臣両面草墪、〈葡萄滅紫両面表縁、紺調布裏、〉
+       <lb/>赤漆小床子、〈敷褥、殿上・行幸通用、〉大納言両面草墪、〈藍染両面表縁、紺調布裏、〉<anchor xml:id="app3810530102"/>中納言両面草墪、〈黄地両面表縁、紺調布裏、〉<anchor xml:id="app3810530102e"/>赤漆小床子、〈並敷黄端茵、殿上・行幸通用、〉
+       <lb/>参議已<anchor xml:id="app3810530103"/>下<anchor xml:id="app3810530103e"/>侍従已上中床子、〈並敷黄端茵、殿上・行幸通用、〉妃夫人錦草墪、〈黄地覆<anchor xml:id="app3810530104"/>瓮<anchor xml:id="app3810530104e"/>錦表、紫地車前子両面縁、<anchor xml:id="app3810530105"/>縹<anchor xml:id="app3810530105e"/>東絁裏、〉尚侍・女御錦草墪、〈縹地散花錦表、青褐車前子両面縁、縹東絁裏、〉
+       <lb/>嚢床子、〈敷二色綾褥、〉四位命婦及更衣・蔵人両面草墪、〈藍染両面表縁、紺調布裏、〉五位命婦及蔵人青白橡草墪、〈青白橡揩剥東絁<anchor xml:id="app3810530106"/>表<anchor xml:id="app3810530106e"/>縁、紺調布裏、<anchor xml:id="app3810530107"/>並<anchor xml:id="app3810530107e"/>殿上、〉其座次第如常儀、</p>
+</div>
+<div ana="掃部" corresp="engishiki_v38_en.xml#article381054 engishiki_v38_ja.xml#article381054" n="38.54" type="条" xml:id="article381054">
+<head ana="諸国席薦"/>
+<p ana="項" corresp="engishiki_v38_en.xml#item38105401 engishiki_v38_ja.xml#item38105401" xml:id="item38105401">
+<anchor xml:id="app3810540101"/>凡<anchor xml:id="app3810540101e"/>
+<placeName corresp="#諸国">諸国</placeName>所貢調并交易席・薦等、〈色目見<orgName corresp="#主計寮">主計</orgName>式、〉 <orgName corresp="#掃部寮">寮</orgName>先検定、与諸司共収納、若有年中用多、支度不足者、申<orgName corresp="#宮内省">省</orgName>聴裁、 </p>
+</div>
+<div ana="掃部" corresp="engishiki_v38_en.xml#article381055 engishiki_v38_ja.xml#article381055" n="38.55" type="条" xml:id="article381055">
+<head ana="供御雑用料"/>
+<p ana="項" corresp="engishiki_v38_en.xml#item38105501 engishiki_v38_ja.xml#item38105501" xml:id="item38105501">
+        凡供御并中<anchor xml:id="app3810550101"/>宮<anchor xml:id="app3810550101e"/>・東宮雑用料鋪設、及<orgName corresp="#諸陵寮">諸陵<anchor xml:id="app3810550102"/>寮<anchor xml:id="app3810550102e"/></orgName>裹諸陵幣物葉薦等、侍官符到、与諸司共出充、自余出給亦准此、
+      </p>
+</div>
+<div ana="掃部" corresp="engishiki_v38_en.xml#article381056 engishiki_v38_ja.xml#article381056" n="38.56" type="条" xml:id="article381056">
+<head ana="庁座"/>
+<p ana="項" corresp="engishiki_v38_en.xml#item38105601 engishiki_v38_ja.xml#item38105601" xml:id="item38105601">
+       凡庁座者、親王及中納言已上倚子、五位已上漆床子、自余白木床子、 </p>
+</div>
+<div ana="掃部" corresp="engishiki_v38_en.xml#article381057 engishiki_v38_ja.xml#article381057" n="38.57" type="条" xml:id="article381057">
+<head ana="朝堂院"/>
+<p ana="項" corresp="engishiki_v38_en.xml#item38105701 engishiki_v38_ja.xml#item38105701" xml:id="item38105701">
+        凡朝堂院昌福・含章・延<anchor xml:id="app3810570101"/>休<anchor xml:id="app3810570101e"/>等堂、并<orgName corresp="#太政官">太政官</orgName>曹司、及庁座者、<anchor xml:id="app3810570102"/>並以儲<anchor xml:id="app3810570102e"/>料鋪之、〈朝堂座起三月至十一月、曹司座年中、〉 </p>
+</div>
+<div ana="掃部" corresp="engishiki_v38_en.xml#article381058 engishiki_v38_ja.xml#article381058" n="38.58" type="条" xml:id="article381058">
+<head ana="暉章堂"/>
+<p ana="項" corresp="engishiki_v38_en.xml#item38105801 engishiki_v38_ja.xml#item38105801" xml:id="item38105801">
+       凡暉章堂告朔諸司五位已上座者、毎朔日旦以<anchor xml:id="app3810580101"/>儲<anchor xml:id="app3810580101e"/>料鋪之、〈曹司庁准此、〉但皇帝臨軒不須、 </p>
+</div>
+<div ana="掃部" corresp="engishiki_v38_en.xml#article381059 engishiki_v38_ja.xml#article381059" n="38.59" type="条" xml:id="article381059">
+<head ana="諸司座"/>
+<p ana="項" corresp="engishiki_v38_en.xml#item38105901 engishiki_v38_ja.xml#item38105901" xml:id="item38105901"> 凡<orgName corresp="#太政官">太政官</orgName>聴<anchor xml:id="app3810590101"/>政庁<anchor xml:id="app3810590101e"/>、并侍従所及<orgName corresp="#大蔵省">大蔵省</orgName>出納官物諸司座、並日別鋪之、其参議已上座、従穢造替、
+      </p>
+</div>
+<div ana="掃部" corresp="engishiki_v38_en.xml#article381060 engishiki_v38_ja.xml#article381060" n="38.60" type="条" xml:id="article381060">
+<head ana="考選文"/>
+<p ana="項" corresp="engishiki_v38_en.xml#item38106001 engishiki_v38_ja.xml#item38106001" xml:id="item38106001">
+        凡弁官収諸司考選文之日、設五位已上座、<orgName corresp="#式部省">式</orgName>・<orgName corresp="#兵部省">兵</orgName>二省収番上考選文亦同、 </p>
+</div>
+<div ana="掃部" corresp="engishiki_v38_en.xml#article381061 engishiki_v38_ja.xml#article381061" n="38.61" type="条" xml:id="article381061">
+<head ana="諸祭席薦"/>
+<p ana="項" corresp="engishiki_v38_en.xml#item38106101 engishiki_v38_ja.xml#item38106101" xml:id="item38106101">
+        凡諸祭及<anchor xml:id="app3810610101"/>節<anchor xml:id="app3810610101e"/>会所須席・薦、預前具数申<orgName corresp="#宮内省">省</orgName>請受、事畢返上、 </p>
+</div>
+<div ana="掃部" corresp="engishiki_v38_en.xml#article381062 engishiki_v38_ja.xml#article381062" n="38.62" type="条" xml:id="article381062">
+<head ana="行幸神泉苑"/>
+<p ana="項" corresp="engishiki_v38_en.xml#item38106201 engishiki_v38_ja.xml#item38106201" xml:id="item38106201">
+       凡行幸神泉苑之日、設参議已上座於西門、<anchor xml:id="app3810620101"/>孟<anchor xml:id="app3810620101e"/>月告朔設御座、如朝賀儀、〈不設少納言位氈、并執屏<anchor xml:id="app3810620102"/>繖<anchor xml:id="app3810620102e"/>女孺等座、但皇太子及大臣座設東廊下、〉蕃客朝拝設御座、同元日儀、〈但不設少納言位氈、〉行幸之処、設座如内<anchor xml:id="app3810620103"/>裏<anchor xml:id="app3810620103e"/>儀、
+       但内侍司座、臨時設之、 </p>
+</div>
+<div ana="掃部" corresp="engishiki_v38_en.xml#article381063 engishiki_v38_ja.xml#article381063" n="38.63" type="条" xml:id="article381063">
+<head ana="諸司座茵"/>
+<p ana="項" corresp="engishiki_v38_en.xml#item38106301 engishiki_v38_ja.xml#item38106301" xml:id="item38106301">
+       凡諸司座者、随官人員三年一<anchor xml:id="app3810630101"/>充<anchor xml:id="app3810630101e"/>、五位以上黄帛端茵、六位以下主典以上紺布端茵、史生不裹端茵、其朝堂有座者、朝堂并曹司座並充、無朝座者、唯<anchor xml:id="app3810630102"/>充<anchor xml:id="app3810630102e"/>曹司、 </p>
+</div>
+<div ana="掃部" corresp="engishiki_v38_en.xml#article381064 engishiki_v38_ja.xml#article381064" n="38.64" type="条" xml:id="article381064">
+<head ana="立幄"/>
+<p ana="項" corresp="engishiki_v38_en.xml#item38106401 engishiki_v38_ja.xml#item38106401" xml:id="item38106401">
+       凡諸<anchor xml:id="app3810640101"/>処<anchor xml:id="app3810640101e"/>立幄、随事設座、其臨時所須、依官処分、 </p>
+</div>
+<div ana="掃部" corresp="engishiki_v38_en.xml#article381065 engishiki_v38_ja.xml#article381065" n="38.65" type="条" xml:id="article381065">
+<head ana="年料鋪設"/>
+<p ana="項" corresp="engishiki_v38_en.xml#item38106501 engishiki_v38_ja.xml#item38106501" xml:id="item38106501"> 年料鋪設
+       <lb/>六月神今食〈十二月神今食、十一月<anchor xml:id="app3810650101"/>新<anchor xml:id="app3810650101e"/>嘗祭亦同、〉御料、黄帛端短帖一枚、〈方四尺、〉<anchor xml:id="app3810650102"/>白<anchor xml:id="app3810650102e"/>布端帖二枚、〈各長一丈二尺五寸、広四尺、〉白布端帖二枚、〈各長九尺、広四尺五寸、一枚無裏布、〉
+       <lb/>白布端帖二枚、〈各長九尺、広四尺、〉白布端帖一枚、〈長八尺、広四尺、〉白布端帖四枚、〈各長六尺、広<anchor xml:id="app3810650103"/>四尺、二枚<anchor xml:id="app3810650103e"/>無裏布、〉折薦帖一枚、〈長八尺、広四尺、〉折薦帖八枚、
+        <lb/>白布端坂枕一枚、〈長三尺、広四尺、〉褥席二枚、葉薦八<anchor xml:id="app3810650104"/>枚<anchor xml:id="app3810650104e"/>、<anchor xml:id="app3810650105"/>折薦八枚<anchor xml:id="app3810650105e"/>、<anchor xml:id="app3810650106"/>蒋食薦<anchor xml:id="app3810650106e"/>八枚、<placeName corresp="#山城国">山城</placeName>食薦八枚、簀八枚、床一脚、〈湯殿<anchor xml:id="app3810650107"/>料、〉
+       <lb/>打払<anchor xml:id="app3810650107e"/>布二条、〈各長一丈三尺、〉柳<anchor xml:id="app3810650108"/>筥<anchor xml:id="app3810650108e"/>二合、〈<anchor xml:id="app3810650109"/>納<anchor xml:id="app3810650109e"/>払布料、〉但中宮白布端帖四枚、〈各長八<anchor xml:id="app3810650110"/>尺<anchor xml:id="app3810650110e"/>、広四尺、〉折薦帖一枚、白布端<anchor xml:id="app3810650111"/>坂<anchor xml:id="app3810650111e"/>枕一枚、褥席二枚、
+        <lb/>右、預前儲備、事畢即充<orgName corresp="#神祇官">神祇官</orgName>、
+       <lb/>供御、白地錦端帖四枚、〈夏冬各二枚、長一丈、広五尺、〉<anchor xml:id="app3810650112"/>緷<anchor xml:id="app3810650112e"/>繝端帖十枚、〈夏八枚、長八尺、広五尺、冬二枚、長広<anchor xml:id="app3810650113"/>各<anchor xml:id="app3810650113e"/>同上、〉同端帖四枚、〈夏冬各二枚、長六尺、広四尺、〉
+       <lb/>同端短帖六枚、〈夏冬各三枚、長四尺五寸、広四尺、〉両面端帖十六枚、〈南殿御帳下敷、長八尺、広四尺、〉褥席七十二枚、〈<anchor xml:id="app3810650114"/>月<anchor xml:id="app3810650114e"/>別六枚、〉張席十具、
+       <lb/>其中宮御料亦同、但加下敷両面端帖六十四枚、〈夏冬各卅二枚、長八尺、広四尺、〉 <lb/><anchor xml:id="app3810650115"/>右、依前<anchor xml:id="app3810650115e"/>件預前儲之、夏薄冬厚、
+       <lb/>雑給、両面端帖十六枚、〈厚薄各八枚、女<anchor xml:id="app3810650116"/>御<anchor xml:id="app3810650116e"/>已上料、〉<anchor xml:id="app3810650117"/>緑<anchor xml:id="app3810650117e"/>端帖七十枚、〈厚薄各<anchor xml:id="app3810650118"/>卅五<anchor xml:id="app3810650118e"/>枚、〉黄端帖三百十三枚、〈厚一百五十八枚、薄一百五十五枚、〉紺布端帖一百枚、〈厚薄各五十枚、〉
+       <lb/>折薦帖九十二枚、〈並長八尺、〉張席五具、簀十五枚、中<anchor xml:id="app3810650119"/>宮<anchor xml:id="app3810650119e"/>雑給、黄端帖廿枚、〈夏冬各十枚、〉同端茵四枚、〈夏冬各二枚、〉紺布端帖卅六枚、〈夏冬各十八枚、〉</p>
+</div>
+<div ana="掃部" corresp="engishiki_v38_en.xml#article381066 engishiki_v38_ja.xml#article381066" n="38.66" type="条" xml:id="article381066">
+<head ana="諸司年料"/>
+<p ana="項" corresp="engishiki_v38_en.xml#item38106601 engishiki_v38_ja.xml#item38106601" xml:id="item38106601"> 諸司年料
+        <lb/><orgName corresp="#神祇官"><anchor xml:id="app3810660101"/>神祇官<anchor xml:id="app3810660101e"/></orgName>諸祭料、狭席五十八枚、〈鳴雷神春秋祭料十二枚、御<anchor xml:id="app3810660102"/>巫<anchor xml:id="app3810660102e"/>等奉斎神<anchor xml:id="app3810660103"/>祭<anchor xml:id="app3810660103e"/>十枚、四面御門神春秋祭料八枚、六月・十二月御卜<anchor xml:id="app3810660104"/>所<anchor xml:id="app3810660104e"/>廿枚、同所短帖料三枚、御川水神春秋祭料四枚、六月・十二月大祓祝詞座短帖料一枚、〉
+       <lb/><anchor xml:id="app3810660105"/>折<anchor xml:id="app3810660105e"/>薦卌四枚、〈御并東宮鎮魂料<anchor xml:id="app3810660106"/>二枚、御巫等<anchor xml:id="app3810660106e"/>奉斎神祭料十二枚、四面御門神春秋祭料八枚、六月・十二月御卜所料十八枚、道饗祭料四枚、〉葉薦十六枚、〈鎮花祭料四枚、春秋大忌・風神二<anchor xml:id="app3810660107"/>祭<anchor xml:id="app3810660107e"/>十枚、御并東宮鎮魂<anchor xml:id="app3810660108"/>祭料<anchor xml:id="app3810660108e"/>二枚、〉
+       <lb/>食薦一百八十<anchor xml:id="app3810660109"/>五<anchor xml:id="app3810660109e"/>枚、〈平野・春日・大原野春秋祭料各廿四枚、鳴<anchor xml:id="app3810660110"/>雷<anchor xml:id="app3810660110e"/>神春秋祭料十二枚、御<anchor xml:id="app3810660111"/>巫<anchor xml:id="app3810660111e"/>等奉斎神祭料卅一枚、四面御門神春秋祭料卅二枚、六月・十二月御卜所料四枚、毎月晦御贖料廿四枚、御川水神春秋祭料十枚、〉簀十六枚、〈御<anchor xml:id="app3810660112"/>巫<anchor xml:id="app3810660112e"/>等奉斎神祭料十二枚、六月・十二月御卜所料四枚、〉
+        <lb/><orgName corresp="#図書寮">図書寮</orgName>写年料仁<anchor xml:id="app3810660113"/>王<anchor xml:id="app3810660113e"/>経所、狭席十二枚、折薦廿四枚、造年料墨所、席一枚、食薦二枚、 <orgName corresp="#縫殿寮">縫殿寮</orgName>縫正月斎会講読師等法服所、狭席四枚、縫新嘗会御服所、黄端短帖一枚、
+        <lb/>折薦帖四枚、席二枚、〈通用十二月神今食、〉六月・十二月晦裹御<anchor xml:id="app3810660114"/>贖<anchor xml:id="app3810660114e"/>物料、葉薦二枚、〈中宮・東宮亦同、〉<orgName corresp="#内蔵寮">内蔵寮</orgName>年料藍染所、<anchor xml:id="app3810660115"/>席十枚<anchor xml:id="app3810660115e"/>、折薦十五枚、 <lb/>年料供御并雑給<anchor xml:id="app3810660116"/>履屜<anchor xml:id="app3810660116e"/>料、小町席、〈其数<anchor xml:id="app3810660117"/>臨時定之<anchor xml:id="app3810660117e"/>、〉 <orgName corresp="#陰陽寮">陰陽寮</orgName>十二月晦日饗儺料、食薦五枚、<orgName corresp="#典薬寮">典薬寮</orgName>造﨟月御薬所、長席四枚、折薦四枚、苫二枚、造年料白粉所、
+        <lb/>席<anchor xml:id="app3810660118"/>一<anchor xml:id="app3810660118e"/>枚、簀<anchor xml:id="app3810660119"/>一<anchor xml:id="app3810660119e"/>枚、<orgName corresp="#織部司">織部司</orgName>織女祭所、席二枚、食薦二枚、<orgName corresp="#大膳職">大膳職</orgName>食薦一千九十枚、〈御并東宮鎮魂料十枚、平野春秋祭料一百六十枚、春日・大原野春秋<anchor xml:id="app3810660120"/>祭<anchor xml:id="app3810660120e"/>料各一百五十六枚、<anchor xml:id="app3810660121"/>御膳<anchor xml:id="app3810660121e"/>神春秋祭料八枚、<anchor xml:id="app3810660122"/>最勝王経<anchor xml:id="app3810660122e"/>御<anchor xml:id="app3810660123"/>斎会<anchor xml:id="app3810660123e"/>所<anchor xml:id="app3810660124"/>一百枚、雑用料五百<anchor xml:id="app3810660124e"/>枚<anchor xml:id="app3810660125"/>、〉<anchor xml:id="app3810660125e"/>
+<lb/>狭席六枚、〈<anchor xml:id="app3810660126"/>年料供御<anchor xml:id="app3810660126e"/>四枚、<anchor xml:id="app3810660127"/>造索餅所<anchor xml:id="app3810660127e"/>二枚、〉長席八枚、〈干供御年料糒所二枚、<anchor xml:id="app3810660128"/>暴<anchor xml:id="app3810660128e"/><anchor xml:id="app3810660129"/>醤<anchor xml:id="app3810660129e"/><anchor xml:id="app3810660130"/>并<anchor xml:id="app3810660130e"/><anchor xml:id="app3810660131"/>未<anchor xml:id="app3810660131e"/>醤大豆所六枚、〉折薦十枚、〈供御年料四枚、造供御年料索餅所二枚、干供御年料大棗所四枚、〉
+        <lb/>苫十枚、<orgName corresp="#内膳司">内膳司</orgName>狭席十六枚、折薦十六枚、〈並供御料、〉<orgName corresp="#造酒司">造酒司</orgName>食薦廿四枚、〈供御四枚、雑用廿枚、〉
+        <orgName corresp="#隼人司">隼人司</orgName>造油絹所席一枚、簀一枚、大歌所食薦十五枚、内教坊食薦廿枚、
+       <lb/>右、年中所<anchor xml:id="app3810660132"/>充<anchor xml:id="app3810660132e"/>、並依前件、若有増減者、臨時処分、〈余条准此、〉</p>
+</div>
+<div ana="掃部" corresp="engishiki_v38_en.xml#article381067 engishiki_v38_ja.xml#article381067" n="38.67" type="条" xml:id="article381067">
+<head ana="延暦寺年分度"/>
+<p ana="項" corresp="engishiki_v38_en.xml#item38106701 engishiki_v38_ja.xml#item38106701" xml:id="item38106701">
+       試延暦寺年分度者座料、黄端茵二枚、黄端帖二枚、<anchor xml:id="app3810670101"/>葛野席帖<anchor xml:id="app3810670101e"/>三枚、席四枚、六年一<anchor xml:id="app3810670102"/>充<anchor xml:id="app3810670102e"/>、 </p>
+</div>
+<div ana="掃部" corresp="engishiki_v38_en.xml#article381068 engishiki_v38_ja.xml#article381068" n="38.68" type="条" xml:id="article381068">
+<head ana="供御粉熟料"/>
+<p ana="項" corresp="engishiki_v38_en.xml#item38106801 engishiki_v38_ja.xml#item38106801" xml:id="item38106801">
+<orgName corresp="#内膳司">内膳司</orgName>造供御粉熟料、席二枚、簀二枚、三年一<anchor xml:id="app3810680101"/>充<anchor xml:id="app3810680101e"/>、 </p>
+</div>
+<div ana="掃部" corresp="engishiki_v38_en.xml#article381069 engishiki_v38_ja.xml#article381069" n="38.69" type="条" xml:id="article381069">
+<head ana="大射"/>
+<p ana="項" corresp="engishiki_v38_en.xml#item38106901 engishiki_v38_ja.xml#item38106901" xml:id="item38106901">
+        供奉大射節五位已上調習之間座料、両面端茵三枚、緑端茵三枚、黄端帖八枚、席六枚、長席四枚、五年一<anchor xml:id="app3810690101"/>充<anchor xml:id="app3810690101e"/><orgName corresp="#兵部省">兵部省</orgName>、 </p>
+</div>
+<div ana="掃部" corresp="engishiki_v38_en.xml#article381070 engishiki_v38_ja.xml#article381070" n="38.70" type="条" xml:id="article381070">
+<head ana="学生食座料"/>
+<p ana="項" corresp="engishiki_v38_en.xml#item38107001 engishiki_v38_ja.xml#item38107001" xml:id="item38107001">
+<anchor xml:id="app3810700101"/>凡<anchor xml:id="app3810700101e"/><orgName corresp="#大学寮">大学</orgName>諸堂学生食座料、長畳十枚、隔三年行之、 </p>
+</div>
+<div ana="掃部" corresp="engishiki_v38_en.xml#article381071 engishiki_v38_ja.xml#article381071" n="38.71" type="条" xml:id="article381071">
+<head ana="主鈴典鑰座料"/>
+<p ana="項" corresp="engishiki_v38_en.xml#item38107101 engishiki_v38_ja.xml#item38107101" xml:id="item38107101">
+<anchor xml:id="app3810710101"/>凡<anchor xml:id="app3810710101e"/>主鈴・典鑰等座料、以古弊畳六枚、毎年終<anchor xml:id="app3810710102"/>充<anchor xml:id="app3810710102e"/>之、 </p>
+</div>
+<div ana="掃部" corresp="engishiki_v38_en.xml#article381072 engishiki_v38_ja.xml#article381072" n="38.72" type="条" xml:id="article381072">
+<head ana="東西悲田"/>
+<p ana="項" corresp="engishiki_v38_en.xml#item38107201 engishiki_v38_ja.xml#item38107201" xml:id="item38107201">
+<anchor xml:id="app3810720101"/>凡<anchor xml:id="app3810720101e"/>東西悲田、毎年冬季所給古弊畳<anchor xml:id="app3810720102"/>卌<anchor xml:id="app3810720102e"/>枚者、下行施薬院、<anchor xml:id="app3810720103"/>摠<anchor xml:id="app3810720103e"/>計彼院及<anchor xml:id="app3810720104"/>両<anchor xml:id="app3810720104e"/>悲田、当時所養病者・孤児定数、均令分給、
+      </p>
+</div>
+<div ana="掃部" corresp="engishiki_v38_en.xml#article381073 engishiki_v38_ja.xml#article381073" n="38.73" type="条" xml:id="article381073">
+<head ana="儲料"/>
+<p ana="項" corresp="engishiki_v38_en.xml#item38107301 engishiki_v38_ja.xml#item38107301" xml:id="item38107301">
+       儲料<anchor xml:id="app3810730101"/>両<anchor xml:id="app3810730101e"/>面端茵十枚、<anchor xml:id="app3810730102"/>緑<anchor xml:id="app3810730102e"/>端茵四枚、黄端茵六枚、黄端帖十枚、折薦帖百六十枚、長帖五十枚、
+        <lb/>右、諸祭及斎会・節会等<anchor xml:id="app3810730103"/>座<anchor xml:id="app3810730103e"/>、以件儲料鋪之、貯収<orgName corresp="#掃部寮">寮</orgName>家、随事出用、随損料度、 申<orgName corresp="#宮内省">省</orgName>造<anchor xml:id="app3810730104"/>換<anchor xml:id="app3810730104e"/>、</p>
+</div>
+<div ana="掃部" corresp="engishiki_v38_en.xml#article381074 engishiki_v38_ja.xml#article381074" n="38.74" type="条" xml:id="article381074">
+<head ana="倚子床子"/>
+<p ana="項" corresp="engishiki_v38_en.xml#item38107401 engishiki_v38_ja.xml#item38107401" xml:id="item38107401">
+        倚子・床子随損申<orgName corresp="#宮内省">省</orgName>、令<orgName corresp="#木工寮">木工寮</orgName>修理、 </p>
+</div>
+<div ana="掃部" corresp="engishiki_v38_en.xml#article381075 engishiki_v38_ja.xml#article381075" n="38.75" type="条" xml:id="article381075">
+<head ana="供奉仕丁"/>
+<p ana="項" corresp="engishiki_v38_en.xml#item38107501 engishiki_v38_ja.xml#item38107501" xml:id="item38107501">
+       諸節并行幸供奉仕丁卌一人装束、<anchor xml:id="app3810750101"/>各<anchor xml:id="app3810750101e"/>給紺布衫一領、〈一丈八尺、〉袴一腰、〈白布七尺、〉<anchor xml:id="app3810750102"/>布帯<anchor xml:id="app3810750102e"/>、〈五尺、〉随損請替、 </p>
+</div>
+<div ana="掃部" corresp="engishiki_v38_en.xml#article381076 engishiki_v38_ja.xml#article381076" n="38.76" type="条" xml:id="article381076">
+<head ana="打掃布"/>
+<p ana="項" corresp="engishiki_v38_en.xml#item38107601 engishiki_v38_ja.xml#item38107601" xml:id="item38107601">
+        打掃布四条、〈各長一丈二尺、〉盛筥二合、〈各長<anchor xml:id="app3810760101"/>一<anchor xml:id="app3810760101e"/>尺六寸、広<anchor xml:id="app3810760102"/>四<anchor xml:id="app3810760102e"/>尺四寸、〉砥一顆、並毎年所<anchor xml:id="app3810760103"/>請<anchor xml:id="app3810760103e"/>、陶由加一口、槽一隻、張席料檜棹百<anchor xml:id="app3810760104"/>枝<anchor xml:id="app3810760104e"/>、〈<orgName corresp="#木工寮">木工寮</orgName>造進、〉三年一請、 </p>
+</div>
+<div ana="掃部" corresp="engishiki_v38_en.xml#article381077 engishiki_v38_ja.xml#article381077" n="38.77" type="条" xml:id="article381077">
+<head ana="藺田"/>
+<p ana="項" corresp="engishiki_v38_en.xml#item38107701 engishiki_v38_ja.xml#item38107701" xml:id="item38107701">
+        殖藺田一町、〈在<placeName corresp="#山城国">山城国</placeName>、〉耕殖<anchor xml:id="app3810770101"/>卌<anchor xml:id="app3810770101e"/>一人、〈以当国正税雇<anchor xml:id="app3810770102"/>充<anchor xml:id="app3810770102e"/>、〉刈得藺三百八十囲、〈<orgName corresp="#掃部寮">寮</orgName>家仕丁刈運、〉蒋<anchor xml:id="app3810770103"/>沼<anchor xml:id="app3810770103e"/>一百九十町、〈在<placeName corresp="#河内国">河内国</placeName>茨田郡、〉刈得蒋一千囲、菅二百囲、〈並刈運夫以当国正税雇役、〉 莞五百囲、〈<placeName corresp="#摂津国">摂津国</placeName>徭夫刈運、〉 <lb/>造鋪設功程</p>
+</div>
+<div ana="掃部" corresp="engishiki_v38_en.xml#article381078 engishiki_v38_ja.xml#article381078" n="38.78" type="条" xml:id="article381078">
+<head ana="神事料功程"/>
+<p ana="項" corresp="engishiki_v38_en.xml#item38107801 engishiki_v38_ja.xml#item38107801" xml:id="item38107801"> 神事料
+       <lb/>白端狭帖一枚、〈長九尺、広四尺五寸、〉端料暴布二条、〈各長九尺五寸、広六寸、〉裏料暴布一丈八尺、麻八両一分、木綿二両二分、織席一枚、編薦二枚、細縄十五丈、長功日一人半、中功日二人、短功日二人半、
+       <lb/>狭帖一枚、〈長八尺、広四尺、〉端料暴布二条、〈各長八尺五寸、広六寸、〉裏料暴布二条、〈一条広二尺四寸、一条広一尺六寸、長別八尺、〉麻八両、木綿二両、織席一枚、編薦二枚、細縄十三丈、長功一人、中功一人半、短功二人、
+       <lb/>狭帖一枚、〈長一丈二尺五寸、広四尺、〉端料暴布二条、〈各長一丈三尺、広六寸、〉<anchor xml:id="app3810780101"/><anchor xml:id="app3810780101e"/>麻<anchor xml:id="app3810780102"/>五両一分、木綿二分、黒山席一枚半、編薦二枚、細縄十五丈、長功一人半、中功二人、短功二人半、
+       <lb/>狭帖一枚、〈長六尺、広四尺、〉端料曝布二条、〈各長六尺五寸、広六寸、〉<anchor xml:id="app3810780102e"/>裏料暴布二<anchor xml:id="app3810780103"/>条<anchor xml:id="app3810780103e"/>、〈一条広二尺四寸、一条一尺六寸、長<anchor xml:id="app3810780104"/>各<anchor xml:id="app3810780104e"/>別六尺、〉麻六両、木綿二両、織席一枚、細縄十丈、編薦一枚、長功一人、中功一人半、短功二人、
+       <lb/>折薦帖一枚、〈長八尺、広四尺、厚五寸、〉料、調折薦六枚、黒山席一枚<anchor xml:id="app3810780105"/>半<anchor xml:id="app3810780105e"/>、席料木綿二両一分、細縄十丈、
+       <lb/>御坂枕一枚〈長三尺、広四尺、〉料、編薦一枚、織席一枚、端料曝布一尺七寸五分、麻二両、木綿一両三分、長功一人<anchor xml:id="app3810780106"/>小半、中功一人<anchor xml:id="app3810780106e"/>大半、短功二人、
+       <lb/>打払布三条、〈各長一丈三尺、〉筥<anchor xml:id="app3810780107"/>三<anchor xml:id="app3810780107e"/>合、〈各長一尺六寸、広一尺四寸、〉 <lb/>新嘗会葺蔀酒殿料、苫八枚、〈殿別四枚、〉薦八枚、〈殿別四枚、 事訖給<orgName corresp="#神祇官">神祇官</orgName>、其下形并押桙<orgName corresp="#木工寮">木工寮</orgName><anchor xml:id="app3810780108"/>弁<anchor xml:id="app3810780108e"/>備<anchor xml:id="app3810780109"/>之<anchor xml:id="app3810780109e"/>、〉
+       <lb/>右、六月・十二月神今食、新嘗祭供御料、</p>
+</div>
+<div ana="掃部" corresp="engishiki_v38_en.xml#article381079 engishiki_v38_ja.xml#article381079" n="38.79" type="条" xml:id="article381079">
+<head ana="供御料功程"/>
+<p ana="項" corresp="engishiki_v38_en.xml#item38107901 engishiki_v38_ja.xml#item38107901" xml:id="item38107901"> 供御料
+       <lb/>狭帖一枚〈長八<anchor xml:id="app3810790101"/>尺<anchor xml:id="app3810790101e"/>、広五尺、〉料、織席一枚、葉薦四枚、端料錦・生絁各五条、〈一条長九尺、四条各長八尺五寸、広並三寸、〉帖裏料<anchor xml:id="app3810790102"/>曝<anchor xml:id="app3810790102e"/>布一丈六尺、
+       <lb/>又一条、〈長八尺、広三寸、〉紫糸一分、苧大五両、紫革一条、〈方七寸、〉細縄十五丈、長功日二人、中功日二人半、短<anchor xml:id="app3810790103"/>功日<anchor xml:id="app3810790103e"/>三人、 <lb/>狭帖一枚〈長八尺、広四尺、〉料、<placeName corresp="#出雲国">出雲</placeName>席一枚、葉薦四枚、端料両面・生絁各五条、〈一条長九尺、四条各長八尺五寸、広並三寸、〉著裏料<anchor xml:id="app3810790104"/>暴布<anchor xml:id="app3810790104e"/>二条、〈一条長八尺、広二尺四寸、一条長八尺、<anchor xml:id="app3810790105"/>広一尺六寸<anchor xml:id="app3810790105e"/>、〉<anchor xml:id="app3810790106"/>緑糸<anchor xml:id="app3810790106e"/>一分、紫革一条、〈方六寸、〉苧大四両、細縄十五丈、長功一人半、中功二人、短功二人半、
+       <lb/>狭帖一枚〈長六尺、広四尺、〉料、織席一枚、葉薦四枚、端料暈繝・生絁各五条、〈一条長七尺、四条各長六尺五寸、広並三寸、〉著裏料暴布二条、〈各長六尺、一条広二尺四寸、一条広一尺六寸、〉紫糸一分、紫革一条、〈方六寸、〉苧四両、細縄十丈、長功一人半、中功二人、短功二人半、
+       <lb/><anchor xml:id="app3810790107"/>短帖一枚〈長四尺五寸、広四寸、〉<anchor xml:id="app3810790107e"/>料、織席一枚、葉薦二枚、端料暈繝・生絁各五条、〈一条長<anchor xml:id="app3810790108"/>五尺<anchor xml:id="app3810790108e"/>五寸、四条各長五尺、広並三寸、〉暴布四尺五寸、又一条、〈長四尺五寸、広一尺六寸、〉紫糸<anchor xml:id="app3810790109"/>三<anchor xml:id="app3810790109e"/>銖、紫<anchor xml:id="app3810790110"/>革<anchor xml:id="app3810790110e"/>一条、〈方四寸、〉苧三両、細縄七丈、長功一人、中功一人半、短功二人、</p>
+</div>
+<div ana="掃部" corresp="engishiki_v38_en.xml#article381080 engishiki_v38_ja.xml#article381080" n="38.80" type="条" xml:id="article381080">
+<head ana="雑給料功程"/>
+<p ana="項" corresp="engishiki_v38_en.xml#item38108001 engishiki_v38_ja.xml#item38108001" xml:id="item38108001"> 雑給料
+       <lb/>狭帖一枚〈長八尺、広三尺六寸、〉料、調席一枚、調折薦三枚、端料綵帛五条、〈一条長九尺、四条各長八尺五寸、広並三寸、〉色糸一分、緋革一条、〈方五寸、〉
+       <lb/>裏料庸布二条、〈各長八尺、一条広二尺四寸、一条広一尺二寸、〉熟麻八両、細縄十三丈、長功一人半、中功二人、短功二人半、
+       <lb/>短帖一枚〈長三尺五寸、広三尺二寸、〉料、織席一枚、調折薦一枚、端料綵帛五条、〈一条長四尺五寸、四条<anchor xml:id="app3810800101"/>長<anchor xml:id="app3810800101e"/>四尺、広<anchor xml:id="app3810800102"/>三<anchor xml:id="app3810800102e"/>寸、〉庸布二条、〈各長三<anchor xml:id="app3810800103"/>尺<anchor xml:id="app3810800103e"/>五寸、一条広二尺四寸、一条広八寸、〉
+       <lb/>色糸三銖、緋<anchor xml:id="app3810800104"/>革<anchor xml:id="app3810800104e"/>一条、〈方四寸、〉熟麻四両、細縄五丈、長功一人、中功一人半、短功二人、
+       <lb/>右、厚帖用度具依<anchor xml:id="app3810800105"/>前件<anchor xml:id="app3810800105e"/>、其薄帖料綵帛并葉薦各減半、〈短帖減<anchor xml:id="app3810800106"/>少<anchor xml:id="app3810800106e"/>半、〉功程毎色減半人、〈短<anchor xml:id="app3810800107"/>帖<anchor xml:id="app3810800107e"/>減少半人、〉余皆同厚、
+       <lb/>狭帖一枚〈長八尺、広三尺六寸、〉料、調席一枚、調折薦二枚、端料紺布二条、〈別長八尺五寸、広四寸、〉熟麻八両、木綿二両、細縄十丈、長功一人半、中功二人、短功二人半、
+       <lb/>狭帖一枚〈長二丈、広三尺六寸、〉料、長席一枚、調折<anchor xml:id="app3810800108"/>薦<anchor xml:id="app3810800108e"/>四枚、端料紺布二条、〈各長二丈五寸、広四寸、〉<anchor xml:id="app3810800109"/>熟麻<anchor xml:id="app3810800109e"/>十<anchor xml:id="app3810800110"/>二<anchor xml:id="app3810800110e"/>両、木綿五両、細縄廿丈、長功三人大半、中功五人、短功六人、
+       <lb/>切貫雑色革、長<anchor xml:id="app3810800111"/>功<anchor xml:id="app3810800111e"/>一人<anchor xml:id="app3810800112"/>一<anchor xml:id="app3810800112e"/>百廿条、中功一百条、短功八十条、 <lb/>坂枕一枚〈長二尺五寸、広三尺、〉料、編薦一枚、生糸一両、長功一人少半、中功一人大半、短功二人、
+       <lb/>軾一枚〈長二尺五寸、広一尺、〉料、編薦一枚、生糸一両、苧二両、長功一人、中功一人少半、短<anchor xml:id="app3810800113"/>功<anchor xml:id="app3810800113e"/>一人大半、
+       <lb/>張席一具〈長二<anchor xml:id="app3810800114"/>丈<anchor xml:id="app3810800114e"/>、広七尺二寸、〉料、長席二枚、曝布一端、生糸六両一分二銖、麻一斤九両、〈縫績料十三両、縄料十二両、〉縫<anchor xml:id="app3810800115"/>宮<anchor xml:id="app3810800115e"/>人単六人、
+       <lb/>織席一枚〈長九尺、広五尺、〉料、択藺<anchor xml:id="app3810800116"/>一囲<anchor xml:id="app3810800116e"/>、苧十五両、長功十人、〈五人織手、五人<anchor xml:id="app3810800117"/>刻<anchor xml:id="app3810800117e"/>藺手、〉中功十二人、短功十四人、
+       <lb/>織席一枚〈長九尺、広四尺、〉料、択藺二尺八寸、苧十三両、長功<anchor xml:id="app3810800118"/>十一<anchor xml:id="app3810800118e"/>人、<anchor xml:id="app3810800119"/>中功十一人<anchor xml:id="app3810800119e"/>、短功十二人、
+       <lb/>織席一枚〈長九尺、広三尺六寸、〉料、択藺二尺四寸、苧四両、長功八人、中功十人、短功十二人、 <lb/>織席一枚〈長九尺、広<anchor xml:id="app3810800120"/>三<anchor xml:id="app3810800120e"/>尺二寸、〉料、択藺二尺四寸、麻十三両、長功八人、中功十人、短功十二人、
+       <lb/>編食薦一枚〈長六尺、広三尺、〉料、択藺一尺五寸、生糸五銖、長功一人、中功一人<anchor xml:id="app3810800121"/>小<anchor xml:id="app3810800121e"/>半、短功一人大半、
+       <lb/><anchor xml:id="app3810800122"/>穉蒋<anchor xml:id="app3810800122e"/>食薦一枚〈長六尺、広三尺、〉料、穉蒋二尺、麻十三両、長功半人、中功大半人、短功一人、
+       <lb/>薦一枚、〈長二丈四尺、広四尺、〉長功<anchor xml:id="app3810800123"/>一<anchor xml:id="app3810800123e"/>人、中功一人少半、短功一人大半、 
+       <lb/><anchor xml:id="app3810800124"/>薦一枚、〈長三<anchor xml:id="app3810800124e"/>尺<anchor xml:id="app3810800125"/>、広三尺、〉長功一人、中功一人少半、短功一人大半、<anchor xml:id="app3810800125e"/>
+<lb/>草墪一枚〈高一尺三寸、<anchor xml:id="app3810800126"/>径<anchor xml:id="app3810800126e"/>一尺六寸、〉料、蒋二囲、苧八両、〈大、〉長功一人大半、中功二人、短功二人半、 <lb/>草墪一枚〈高八寸、径一尺六寸、〉料、蒋<anchor xml:id="app3810800127"/>一<anchor xml:id="app3810800127e"/>
+       囲大半、苧七両、〈大、〉長功一人少半、中功一人大半、短功二人、縫裏<anchor xml:id="app3810800128"/>功<anchor xml:id="app3810800128e"/>程臨時量定、
+       <lb/>倚子茵一枚〈長二尺、広一尺八寸、厚二寸、〉料、小町席一条、〈長二尺四寸、広<anchor xml:id="app3810800129"/>一<anchor xml:id="app3810800129e"/>尺九寸、〉葉薦七尺、黄帛一条、〈長八尺、広七寸五分、〉調布一条、〈長二尺一寸、広一尺九寸、〉
+       <lb/>黄糸二銖、苧一両、緋<anchor xml:id="app3810800130"/>革<anchor xml:id="app3810800130e"/>一条、〈長四寸、広二寸、〉細縄二丈、長功二枚、中功一枚大半、短功一枚<anchor xml:id="app3810800131"/>小<anchor xml:id="app3810800131e"/>半、
+       <lb/>三位已上床子茵一枚〈長二尺、広一尺五寸、厚二寸、〉料、小町席一条、〈長二尺四寸、広一尺六寸、〉葉薦七尺、黄帛一条、〈長七尺二寸、広七寸五分、〉
+       <lb/>調布一条、〈長<anchor xml:id="app3810800132"/>二<anchor xml:id="app3810800132e"/>尺一寸、広一尺六寸、〉黄糸二銖、苧一両、緋革一条、〈長四寸、広二寸、〉細縄二丈、長功三枚、中功二枚半、短功二枚、
+       <lb/>五位已上床子茵一枚〈長四尺、広一尺四寸、厚<anchor xml:id="app3810800133"/>一寸五分<anchor xml:id="app3810800133e"/>、〉料、席一条、〈長五尺、広一尺四寸、〉折薦六尺、黄布一条、〈長四尺四寸、広四寸、〉苧大二分、細縄二丈、長功十枚、中功八枚、短功六枚、
+       <lb/>主典已上床子茵一枚〈長四尺、広一尺四寸、厚一寸五分、〉料、席一条、〈長五尺、広一尺四寸、〉折薦一丈、紺布一条、〈長四尺四寸、広八寸、〉苧大一両、細縄二丈、功程同上、
+       <lb/>史生床子茵一枚〈長四尺、広一尺四寸、厚一寸五分、〉<anchor xml:id="app3810800134"/>料、席一条、〈長五尺、広一尺四寸、〉<anchor xml:id="app3810800134e"/><anchor xml:id="app3810800135"/>折薦一丈、細縄三丈<anchor xml:id="app3810800135e"/>、功程同上、
+       <lb/>一位短帖一枚、〈長六尺、広四尺、〉二位短帖一枚、〈長五尺、広四尺、〉並料、黒山席一枚、葉薦四枚、端料黄帛二尺三寸一分、裏料調布一丈、
+       <lb/>黄糸一分、黄<anchor xml:id="app3810800136"/>革<anchor xml:id="app3810800136e"/>一条、〈方四寸、〉苧四両、細縄六丈、長功一枚半、中功一枚四分之一、短功一枚、
+       <lb/>三位短帖一枚〈長四尺六寸、広四尺、一重、不著裏布、〉料、黒山席六尺六寸、葉薦三枚、席端料黄帛一尺四寸、<anchor xml:id="app3810800137"/>薦<anchor xml:id="app3810800137e"/>端料黄調布二尺三分、黄糸一分、
+       <lb/>黄革一条、〈方四寸、〉苧四両、細縄六丈、長功二枚、中功一枚大半、短功一枚小半、
+       <lb/>五位已上短<anchor xml:id="app3810800138"/>帖<anchor xml:id="app3810800138e"/>一枚〈長四尺、広三尺六寸、〉料、調席五尺、葉薦二枚、端料黄調布一尺五寸、苧二両、細縄二丈、長功五枚、中功四枚、短功三枚小半、
+       <lb/>六位以下短帖一枚〈長広同五位、〉料、<anchor xml:id="app3810800139"/>凡<anchor xml:id="app3810800139e"/>席五尺、折薦一枚、細縄二丈、長功廿枚、中功十七枚、短功十三枚、
+       <lb/>長帖一枚〈長一丈九尺、広三尺六寸、〉料、長席一枚、折薦三枚、細縄十丈、長功六枚、中功五枚、短功四枚、 <lb/>狭帖一枚〈長八尺、広三尺六寸、〉料、短席一枚、折薦二枚、細縄四丈、長功十枚、中功八枚小半、短功六枚半、
+       <lb/>藺円座一枚〈径三尺、〉料、藺、〈以一囲作八枚、〉長功<anchor xml:id="app3810800140"/>一人、中功<anchor xml:id="app3810800140e"/>一人半、短功二人、
+       <lb/><anchor xml:id="app3810800141"/>菅<anchor xml:id="app3810800141e"/>円座一枚、〈径三尺、厚一寸、〉長功一枚半、中功一枚四<anchor xml:id="app3810800142"/>分<anchor xml:id="app3810800142e"/>之一、短功一枚、 <lb/>蒋円座一枚、〈径二尺五寸、厚五分、〉長功十五枚、中功十二枚半、短功十枚、
+       <lb/>細縄、長功百五十丈、中功百丈、短功七十五丈、 <lb/>造鋪設所須高棚二枚、〈随破請換、〉刀子二枚、長針四枚、 <lb/><anchor xml:id="app3810800143"/>宮<anchor xml:id="app3810800143e"/>人日績麻八両、
+       <lb/>右、依前<anchor xml:id="app3810800144"/>件<anchor xml:id="app3810800144e"/>、其縫席端并績麻<anchor xml:id="app3810800145"/>宮<anchor xml:id="app3810800145e"/>人者、内侍充之、造作之間並給間食、人<anchor xml:id="app3810800146"/>別<anchor xml:id="app3810800146e"/>日白米八合、塩八撮、滓醤一合、 四月一日申<orgName corresp="#宮内省">省</orgName>受之、</p>
+</div>
+<div ana="掃部" corresp="engishiki_v38_en.xml#article381081 engishiki_v38_ja.xml#article381081" n="38.81" type="条" xml:id="article381081">
+<head ana="作手"/>
+<p ana="項" corresp="engishiki_v38_en.xml#item38108101 engishiki_v38_ja.xml#item38108101" xml:id="item38108101"> 
+       作手八人、<anchor xml:id="app3810810101"/>各日黒米一升六合<anchor xml:id="app3810810101e"/>、 </p>
+</div>
+</div>
+<div type="尾題" xml:id="bidai38">
+<p xml:id="bidai3801"> 延喜式巻第卅八 </p>
+</div>
+<div type="本奥書" xml:id="okugaki38">
+<p xml:id="okugaki3801"/>
+</div>
+</div>
+</body>
+</text>
+</TEI>
