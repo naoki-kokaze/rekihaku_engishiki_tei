@@ -8,9 +8,9 @@
         <title>延喜式ファイル</title>
         <author>国立歴史民俗博物館</author>
         <respStmt>
-          <resp>プロジェクトリーダー</resp>
-          <persName ref="http://viaf.org/viaf/113471616">三上喜孝</persName>
-          <note>「延喜式のデジタル技術による汎用化」（2022～）の責任者（2025～）</note>
+          <resp>校訂・現代語訳・プロジェクトリーダー</resp>
+          <persName ref="http://viaf.org/viaf/15166714142126882954">神戸航介</persName>
+          <note>「延喜式のデジタル技術による汎用化」（2022～）の代表代理（2025）・責任者（2026～）・『延喜式』テクスト本文の校訂（巻11「太政官」巻22「民部省上」巻23「民部省下」巻25「主計寮下」巻27「主税寮下」）および現代語訳（巻11「太政官」巻22「民部省上」）</note>
         </respStmt>
         <respStmt>
           <resp>プロジェクト副リーダー・システム管理</resp>
@@ -50,7 +50,12 @@
         <respStmt>
           <resp>プロジェクト旧リーダー・校訂・現代語訳</resp>
           <persName ref="http://viaf.org/viaf/14726824">小倉慈司</persName>
-          <note>「古代の百科全書『延喜式』の多分野協働研究」（2016～2021）・「延喜式のデジタル技術による汎用化」（2022～）の責任者（2022～2024）、『延喜式』の書誌学的情報の検討、『延喜式』テクスト本文の校訂（巻5「斎宮寮」巻9「神名上」巻10「神名下」巻17「内匠寮」）、『延喜式』テクストの現代語訳（巻9「神名上」巻10「神名下」）</note>
+          <note>「古代の百科全書『延喜式』の多分野協働研究」（2016～2021）・「延喜式のデジタル技術による汎用化」（2022～）の責任者（2022～2024）、『延喜式』の書誌学的情報の検討、『延喜式』テクスト本文の校訂（巻5「斎宮寮」巻8「祝詞」巻9「神名上」巻10「神名下」巻17「内匠寮」）、『延喜式』テクストの現代語訳（巻9「神名上」巻10「神名下」）</note>
+        </respStmt>
+        <respStmt>
+          <resp>プロジェクト旧リーダー</resp>
+          <persName ref="http://viaf.org/viaf/113471616">三上喜孝</persName>
+          <note>「延喜式のデジタル技術による汎用化」（2022～）の責任者（2025）</note>
         </respStmt>
         <respStmt>
           <resp>校訂</resp>
@@ -70,14 +75,14 @@
           <note>『延喜式』テクストの英訳（巻39「正親司」）</note>
         </respStmt>
         <respStmt>
-          <resp>校訂・現代語訳・プロジェクト代表代理</resp>
-          <persName ref="http://viaf.org/viaf/15166714142126882954">神戸航介</persName>
-          <note>「延喜式のデジタル技術による汎用化」（2022～）の代表代理（2025～）・『延喜式』テクスト本文の校訂（巻11「太政官」巻22「民部省上」巻23「民部省下」巻25「主計寮下」巻27「主税寮下」）および現代語訳（巻11「太政官」巻22「民部省上」）</note>
-        </respStmt>
-        <respStmt>
           <resp>校訂・現代語訳・語彙解説</resp>
           <persName ref="http://viaf.org/viaf/33161816291427721819">清武雄二</persName>
           <note>『延喜式』の書誌学的情報の検討、『延喜式』テクスト本文の校訂（巻24「主計寮上」）および現代語訳（巻24「主計寮上」巻32「大膳職上」巻39「内膳司」）・語彙解説の執筆</note>
+        </respStmt>
+        <respStmt>
+          <resp>校訂</resp>
+          <persName>小山大貴</persName>
+          <note>『延喜式』テクスト本文の校訂（巻36「主殿寮」）</note>
         </respStmt>
         <respStmt>
           <resp>校訂・現代語訳</resp>
@@ -456,7 +461,7 @@
             <biblStruct>
               <analytic>
                 <author>相曽貴志</author>
-                <title>延喜式板本の再検討: 改刻の変遷を中心に</title>
+                <title>延喜式版本の再検討: 改刻の変遷を中心に</title>
               </analytic>
               <monogr>
                 <title>『国立歴史民俗博物館研究報告』</title>
@@ -823,15 +828,16 @@
             <witness xml:id="泉亭本"><abbr>泉亭本</abbr>：賀茂三手文庫所蔵泉亭本（制度/加） </witness>
           </listWit>
           <listWit xml:id="版本">
-            <head>版本：慶安版本も含めた流布版本</head>
+            <head>版本</head>
             <witness xml:id="鈴鹿本"><abbr>鈴鹿本</abbr>：大和文華館所蔵鈴鹿連胤旧蔵版本（1/741～790） <listRef>
-                <ref xml:id="鈴鹿本傍訓">鈴鹿本傍訓</ref>
                 <ref xml:id="鈴鹿本書入">鈴鹿本書入</ref>
                 <ref xml:id="鈴鹿本書入傍書">鈴鹿本書入傍書</ref>
                 <ref xml:id="鈴鹿本書入朱傍書">鈴鹿本書入朱傍書</ref>
                 <ref xml:id="鈴鹿本書入朱補書">鈴鹿本書入朱補書</ref>
               </listRef></witness>
-            <witness xml:id="慶安版本"><abbr>慶安版本</abbr>：宮内庁書陵部図書寮文庫書蔵松岡家旧蔵版本（459-1）等 </witness>
+            <witness xml:id="慶安版本"><abbr>慶安版本</abbr>：宮内庁書陵部図書寮文庫書蔵松岡家旧蔵版本（459-1）等 <listRef>
+                <ref xml:id="慶安版本傍訓">慶安版本傍訓</ref>
+              </listRef></witness>
             <witness xml:id="明暦版本"><abbr>明暦版本</abbr>：明暦修訂版本　国立公文書館所蔵紅葉山文庫旧蔵版本（特26-1）等 <listRef>
                 <ref xml:id="明暦版本訂正書">明暦版本訂正書</ref>
                 <ref xml:id="明暦版本傍訓">明暦版本傍訓</ref>
@@ -1533,8 +1539,11 @@
         </unitDef>
       </unitDecl>
     </encodingDesc>
-    <revisionDesc ana="個別">
-      <change/>
+    <revisionDesc>
+      <listChange xml:id="凡例">
+        <change when="2026-10-08"><date> 2026年10月08日
+          </date>主要写本・版本・刊本等略称・底本一覧、これまで鈴鹿本を慶安版本として扱ってきましたが、相曽貴志「延喜式版本の再検討」（『国立歴史民俗博物館研究報告』244、2024年）により慶安以前の古い版本である可能性が指摘されたことを受け、表記を改めました。これに伴い慶安版本・勢多本の表記を修正しました。</change>
+      </listChange>
     </revisionDesc>
   </teiHeader>
   <text>
