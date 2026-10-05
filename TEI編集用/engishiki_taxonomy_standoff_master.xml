@@ -31065,6 +31065,41 @@
   </teiHeader>
   <standOff>
     <listPlace>
+      <place xml:id="京">
+        <bloc>京</bloc>
+        <desc>
+          <label>解説準備中</label>
+          <listNym>
+            <nym>
+              <form>
+                <orth type="漢字">京</orth>
+                <orth type="漢字">左京</orth>
+                <orth type="漢字">右京</orth>
+                <orth type="漢字">左右京</orth>
+                <orth type="ひらがな">きょう</orth>
+                <orth type="ひらがな">さきょう</orth>
+                <orth type="カタカナ">うきょう</orth>
+                <orth type="カタカナ">さゆうきょう</orth>
+              </form>
+            </nym>
+          </listNym>
+          <listNym>
+            <nym>
+              <form>
+                <orth type="校訂文">京</orth>
+                <orth type="校訂文">左京</orth>
+                <orth type="校訂文">右京</orth>
+                <orth type="校訂文">左右京</orth>
+                <orth type="現代語訳">京</orth>
+                <orth type="現代語訳">左京</orth>
+                <orth type="現代語訳">右京</orth>
+                <orth type="現代語訳">左右京</orth>
+                <orth type="英訳">the Left Capital</orth>
+              </form>
+            </nym>
+          </listNym>
+        </desc>
+      </place>
       <place xml:id="畿内">
         <bloc>畿内</bloc>
         <desc>
@@ -51324,7 +51359,8 @@
                 <orth type="現代語訳">左近衛府</orth>
                 <orth type="現代語訳">左近衛</orth>
                 <orth type="英訳">Headquarters of the Bodyguards</orth>
-                <orth type="英訳">Headquarters of the Outer Palace Guards of the Left and of the Right</orth>
+                <orth type="英訳">Headquarters of the Outer Palace Guards of the Left and of the
+                  Right</orth>
                 <orth type="英訳">Inner Palace Guards</orth>
               </form>
             </nym>
@@ -51430,7 +51466,8 @@
                 <orth type="現代語訳">左右兵衛府</orth>
                 <orth type="現代語訳">兵衛</orth>
                 <orth type="英訳">Headquarters of the Palace Guards</orth>
-                <orth type="英訳">Headquarters of the Palace Guards of the Left and of the Right</orth>
+                <orth type="英訳">Headquarters of the Palace Guards of the Left and of the
+                  Right</orth>
               </form>
             </nym>
           </listNym>
@@ -51760,15 +51797,20 @@
             <relation name="contains" active="#七道" passive="#東海道 #東山道 #北陸道 #山陰道 #山陽道 #南海道 #西海道"/>
             <relation name="contains" active="#東海道"
               passive="#伊賀国 #伊勢国 #志摩国 #尾張国 #参河国 #遠江国 #駿河国 #伊豆国 #甲斐国 #相摸国 #武蔵国 #安房国 #上総国 #下総国 #常陸国"/>
-            <relation name="contains" active="#東山道" passive="#近江国 #美濃国 #飛騨国 #信濃国 #上野国 #下野国 #陸奥国 #出羽国"/>
+            <relation name="contains" active="#東山道"
+              passive="#近江国 #美濃国 #飛騨国 #信濃国 #上野国 #下野国 #陸奥国 #出羽国"/>
             <relation name="contains" active="#北陸道" passive="#若狭国 #越前国 #加賀国 #能登国 #越中国 #越後国 #佐渡国"/>
-            <relation name="contains" active="#山陰道" passive="#丹波国 #丹後国 #但馬国 #因幡国 #伯耆国 #出雲国 #石見国 #隠伎国"/>
-            <relation name="contains" active="#山陽道" passive="#播磨国 #美作国 #備前国 #備中国 #備後国 #安芸国 #周防国 #長門国"/>
+            <relation name="contains" active="#山陰道"
+              passive="#丹波国 #丹後国 #但馬国 #因幡国 #伯耆国 #出雲国 #石見国 #隠伎国"/>
+            <relation name="contains" active="#山陽道"
+              passive="#播磨国 #美作国 #備前国 #備中国 #備後国 #安芸国 #周防国 #長門国"/>
             <relation name="contains" active="#南海道" passive="#紀伊国 #淡路国 #阿波国 #讃岐国 #伊予国 #土佐国"/>
-            <relation name="contains" active="#西海道" passive="#筑前国 #筑後国 #豊前国 #豊後国 #肥前国 #肥後国 #日向国 #大隅国 #薩摩国 #壱伎島 #対馬島"/>
+            <relation name="contains" active="#西海道"
+              passive="#筑前国 #筑後国 #豊前国 #豊後国 #肥前国 #肥後国 #日向国 #大隅国 #薩摩国 #壱伎島 #対馬島"/>
           </listRelation>
           <listRelation type="国">
-            <relation name="contains" active="#山城国" passive="#乙訓郡 #葛野郡 #愛宕郡 #紀伊郡 #宇治郡 #久世郡 #綴喜郡 #相楽郡"/>
+            <relation name="contains" active="#山城国"
+              passive="#乙訓郡 #葛野郡 #愛宕郡 #紀伊郡 #宇治郡 #久世郡 #綴喜郡 #相楽郡"/>
             <relation name="contains" active="#大和国"
               passive="#添上郡 #添下郡 #平群郡_大和 #広瀬郡 #葛上郡 #葛下郡 #忍海郡 #宇智郡 #吉野郡 #宇陀郡 #城上郡 #城下郡 #山辺郡_大和 #十市郡 #高市郡"/>
             <relation name="contains" active="#河内国"
@@ -51777,32 +51819,44 @@
             <relation name="contains" active="#摂津国"
               passive="#住吉郡 #百済郡 #東生郡 #西成郡 #島上郡 #島下郡 #豊島郡_摂津 #河辺郡_摂津 #武庫郡 #兎原郡 #八部郡 #有馬郡 #能勢郡"/>
             <relation name="contains" active="#伊賀国" passive="#阿拝郡 #山田郡_伊賀 #伊賀郡 #名張郡"/>
-            <relation name="contains" active="#伊勢国" passive="#桑名郡 #員弁郡 #朝明郡 #三重郡 #河曲郡 #鈴鹿郡 #奄芸郡 #安濃郡_伊勢 #壱志郡 #飯高郡 #飯野郡 #多気郡 #度会郡"/>
+            <relation name="contains" active="#伊勢国"
+              passive="#桑名郡 #員弁郡 #朝明郡 #三重郡 #河曲郡 #鈴鹿郡 #奄芸郡 #安濃郡_伊勢 #壱志郡 #飯高郡 #飯野郡 #多気郡 #度会郡"/>
             <relation name="contains" active="#志摩国" passive="#答志郡 #英虞郡"/>
-            <relation name="contains" active="#尾張国" passive="#海部郡_尾張 #中島郡 #葉栗郡 #丹羽郡 #春部郡 #山田郡_尾張 #愛智郡_尾張 #知多郡"/>
-            <relation name="contains" active="#参河国" passive="#碧海郡 #賀茂郡_参河 #額田郡 #幡豆郡 #宝飫郡 #設楽郡 #八名郡 #渥美郡"/>
-            <relation name="contains" active="#遠江国" passive="#浜名郡 #敷智郡 #引佐郡 #麁玉郡 #長上郡 #長下郡 #磐田郡 #山香郡 #周智郡 #山名郡 #佐野郡 #城飼郡 #蓁原郡"/>
+            <relation name="contains" active="#尾張国"
+              passive="#海部郡_尾張 #中島郡 #葉栗郡 #丹羽郡 #春部郡 #山田郡_尾張 #愛智郡_尾張 #知多郡"/>
+            <relation name="contains" active="#参河国"
+              passive="#碧海郡 #賀茂郡_参河 #額田郡 #幡豆郡 #宝飫郡 #設楽郡 #八名郡 #渥美郡"/>
+            <relation name="contains" active="#遠江国"
+              passive="#浜名郡 #敷智郡 #引佐郡 #麁玉郡 #長上郡 #長下郡 #磐田郡 #山香郡 #周智郡 #山名郡 #佐野郡 #城飼郡 #蓁原郡"/>
             <relation name="contains" active="#駿河国" passive="#志太郡_駿河 #益頭郡 #有度郡 #安倍郡 #廬原郡 #富士郡 #駿河郡"/>
             <relation name="contains" active="#伊豆国" passive="#田方郡 #那賀郡_伊豆 #賀茂郡_伊豆"/>
             <relation name="contains" active="#甲斐国" passive="#山梨郡 #八代郡_甲斐 #巨麻郡 #都留郡"/>
-            <relation name="contains" active="#相摸国" passive="#足上郡 #足下郡 #余綾郡 #大住郡 #愛甲郡 #高座郡 #鎌倉郡 #御浦郡"/>
+            <relation name="contains" active="#相摸国"
+              passive="#足上郡 #足下郡 #余綾郡 #大住郡 #愛甲郡 #高座郡 #鎌倉郡 #御浦郡"/>
             <relation name="contains" active="#武蔵国"
               passive="#久良郡 #都筑郡 #多麻郡 #橘樹郡 #荏原郡 #豊島郡_武蔵 #足立郡 #新座郡 #入間郡 #高麗郡 #比企郡 #横見郡 #埼玉郡 #大里郡 #男衾郡 #幡羅郡 #榛沢郡 #那珂郡_武蔵 #児玉郡 #賀美郡_武蔵 #秩父郡"/>
             <relation name="contains" active="#安房国" passive="#平群郡_安房 #安房郡 #朝夷郡 #長狭郡"/>
-            <relation name="contains" active="#上総国" passive="#市原郡 #海上郡_上総 #畦蒜郡 #望陀郡 #周准郡 #天羽郡 #夷灊郡 #埴生郡_上総 #長柄郡 #山辺郡_上総 #武射郡"/>
-            <relation name="contains" active="#下総国" passive="#葛飾郡 #千葉郡 #印播郡 #匝瑳郡 #海上郡_下総 #香取郡 #埴生郡_下総 #相馬郡 #猿島郡 #結城郡 #豊田郡"/>
-            <relation name="contains" active="#常陸国" passive="#新治郡 #真壁郡 #筑波郡 #河内郡_常陸 #信太郡 #茨城郡 #行方郡_常陸 #鹿島郡 #那珂郡_常陸 #久慈郡 #多珂郡"/>
-            <relation name="contains" active="#近江国" passive="#滋賀郡 #栗太郡 #甲賀郡 #野洲郡 #蒲生郡 #神崎郡 #愛智郡_近江 #犬上郡 #坂田郡 #浅井郡 #伊香郡 #高島郡"/>
+            <relation name="contains" active="#上総国"
+              passive="#市原郡 #海上郡_上総 #畦蒜郡 #望陀郡 #周准郡 #天羽郡 #夷灊郡 #埴生郡_上総 #長柄郡 #山辺郡_上総 #武射郡"/>
+            <relation name="contains" active="#下総国"
+              passive="#葛飾郡 #千葉郡 #印播郡 #匝瑳郡 #海上郡_下総 #香取郡 #埴生郡_下総 #相馬郡 #猿島郡 #結城郡 #豊田郡"/>
+            <relation name="contains" active="#常陸国"
+              passive="#新治郡 #真壁郡 #筑波郡 #河内郡_常陸 #信太郡 #茨城郡 #行方郡_常陸 #鹿島郡 #那珂郡_常陸 #久慈郡 #多珂郡"/>
+            <relation name="contains" active="#近江国"
+              passive="#滋賀郡 #栗太郡 #甲賀郡 #野洲郡 #蒲生郡 #神崎郡 #愛智郡_近江 #犬上郡 #坂田郡 #浅井郡 #伊香郡 #高島郡"/>
             <relation name="contains" active="#美濃国"
               passive="#多芸郡 #石津郡 #不破郡 #安八郡 #池田郡 #大野郡_美濃 #本巣郡 #席田郡_美濃 #方県郡 #厚見郡 #各務郡 #山県郡_美濃 #武義郡 #郡上郡 #賀茂郡_美濃 #可児郡 #土岐郡 #恵奈郡"/>
             <relation name="contains" active="#飛騨国" passive="#大野郡_飛騨 #益田郡 #荒城郡"/>
-            <relation name="contains" active="#信濃国" passive="#伊那郡 #諏方郡 #筑摩郡 #安曇郡 #更級郡 #水内郡 #高井郡 #埴科郡 #小県郡 #佐久郡"/>
+            <relation name="contains" active="#信濃国"
+              passive="#伊那郡 #諏方郡 #筑摩郡 #安曇郡 #更級郡 #水内郡 #高井郡 #埴科郡 #小県郡 #佐久郡"/>
             <relation name="contains" active="#上野国"
               passive="#碓氷郡 #片岡郡 #甘楽郡 #多胡郡 #緑野郡 #那波郡 #群馬郡 #吾妻郡 #利根郡 #勢多郡 #佐位郡 #新田郡_上野 #山田郡_上野 #邑楽郡"/>
-            <relation name="contains" active="#下野国" passive="#足利郡 #梁田郡 #安蘇郡 #都賀郡 #寒川郡_下野 #河内郡_下野 #芳賀郡 #塩屋郡 #那須郡"/>
+            <relation name="contains" active="#下野国"
+              passive="#足利郡 #梁田郡 #安蘇郡 #都賀郡 #寒川郡_下野 #河内郡_下野 #芳賀郡 #塩屋郡 #那須郡"/>
             <relation name="contains" active="#陸奥国"
               passive="#白河郡 #磐瀬郡 #会津郡 #耶麻郡 #安積郡 #安達郡 #信夫郡 #刈田郡_陸奥 #柴田郡 #名取郡 #菊多郡 #磐城郡 #標葉郡 #行方郡_陸奥 #宇多郡 #伊具郡 #曰理郡 #宮城郡 #黒川郡 #賀美郡_陸奥 #色麻郡 #玉造郡 #志太郡_陸奥 #栗原郡 #磐井郡 #江刺郡 #胆沢郡 #長岡郡_陸奥 #新田郡_陸奥 #小田郡_陸奥 #遠田郡 #登米郡 #桃生郡 #気仙郡 #牡鹿郡"/>
-            <relation name="contains" active="#出羽国" passive="#最上郡 #村山郡 #置賜郡 #雄勝郡 #平鹿郡 #山本郡_出羽 #飽海郡 #河辺郡_出羽 #田川郡 #出羽郡 #秋田郡"/>
+            <relation name="contains" active="#出羽国"
+              passive="#最上郡 #村山郡 #置賜郡 #雄勝郡 #平鹿郡 #山本郡_出羽 #飽海郡 #河辺郡_出羽 #田川郡 #出羽郡 #秋田郡"/>
             <relation name="contains" active="#若狭国" passive="#遠敷郡 #大飯郡 #三方郡"/>
             <relation name="contains" active="#越前国" passive="#敦賀郡 #丹生郡 #今立郡 #足羽郡 #大野郡_越前 #坂井郡"/>
             <relation name="contains" active="#加賀国" passive="#江沼郡 #能美郡 #加賀郡 #石川郡_加賀"/>
@@ -51812,66 +51866,88 @@
             <relation name="contains" active="#佐渡国" passive="#羽茂郡 #雑太郡 #賀茂郡_佐渡"/>
             <relation name="contains" active="#丹波国" passive="#桑田郡 #船井郡 #多紀郡 #氷上郡 #天田郡 #何鹿郡"/>
             <relation name="contains" active="#丹後国" passive="#加佐郡 #与謝郡 #丹波郡 #竹野郡_丹後 #熊野郡"/>
-            <relation name="contains" active="#但馬国" passive="#朝来郡 #養父郡_但馬 #出石郡 #気多郡_但馬 #城埼郡 #美含郡 #二方郡 #七美郡"/>
+            <relation name="contains" active="#但馬国"
+              passive="#朝来郡 #養父郡_但馬 #出石郡 #気多郡_但馬 #城埼郡 #美含郡 #二方郡 #七美郡"/>
             <relation name="contains" active="#因幡国" passive="#巨濃郡 #法美郡 #八上郡 #智頭郡 #邑美郡 #高草郡 #気多郡_因幡"/>
             <relation name="contains" active="#伯耆国" passive="#河村郡 #久米郡_伯耆 #八橋郡 #汗入郡 #会見郡 #日野郡"/>
-            <relation name="contains" active="#出雲国" passive="#意宇郡 #能義郡 #島根郡 #秋鹿郡 #楯縫郡 #出雲郡 #神門郡 #飯石郡 #仁多郡 #大原郡"/>
+            <relation name="contains" active="#出雲国"
+              passive="#意宇郡 #能義郡 #島根郡 #秋鹿郡 #楯縫郡 #出雲郡 #神門郡 #飯石郡 #仁多郡 #大原郡"/>
             <relation name="contains" active="#石見国" passive="#安濃郡_石見 #邇摩郡 #那賀郡_石見 #邑知郡 #美濃郡 #鹿足郡"/>
             <relation name="contains" active="#隠伎国" passive="#知夫郡 #海部郡_隠伎 #周吉郡 #穏地郡"/>
-            <relation name="contains" active="#播磨国" passive="#明石郡 #賀古郡 #印南郡 #飾磨郡 #揖保郡 #赤穂郡 #佐用郡 #宍粟郡 #神埼郡_播磨 #多可郡 #賀茂郡_播磨 #美嚢郡"/>
+            <relation name="contains" active="#播磨国"
+              passive="#明石郡 #賀古郡 #印南郡 #飾磨郡 #揖保郡 #赤穂郡 #佐用郡 #宍粟郡 #神埼郡_播磨 #多可郡 #賀茂郡_播磨 #美嚢郡"/>
             <relation name="contains" active="#美作国" passive="#英多郡 #勝田郡 #苫東郡 #苫西郡 #久米郡_美作 #大庭郡 #真島郡"/>
-            <relation name="contains" active="#備前国" passive="#和気郡_備前 #磐梨郡 #邑入郡 #赤坂郡 #上道郡 #御野郡 #津高郡 #児島郡"/>
-            <relation name="contains" active="#備中国" passive="#都宇郡 #窪屋郡 #賀夜郡 #下道郡 #浅口郡 #小田郡_備中 #後月郡 #哲多郡 #英賀郡"/>
+            <relation name="contains" active="#備前国"
+              passive="#和気郡_備前 #磐梨郡 #邑入郡 #赤坂郡 #上道郡 #御野郡 #津高郡 #児島郡"/>
+            <relation name="contains" active="#備中国"
+              passive="#都宇郡 #窪屋郡 #賀夜郡 #下道郡 #浅口郡 #小田郡_備中 #後月郡 #哲多郡 #英賀郡"/>
             <relation name="contains" active="#備後国"
               passive="#安那郡 #深津郡 #神石郡 #奴可郡 #沼隈郡 #品治郡 #葦田郡 #甲奴郡 #三上郡 #恵蘇郡 #御調郡 #世羅郡 #三谿郡 #三次郡"/>
-            <relation name="contains" active="#安芸国" passive="#沼田郡 #賀茂郡_安芸 #安芸郡_安芸 #佐伯郡 #山県郡_安芸 #高宮郡 #高田郡 #沙田郡"/>
+            <relation name="contains" active="#安芸国"
+              passive="#沼田郡 #賀茂郡_安芸 #安芸郡_安芸 #佐伯郡 #山県郡_安芸 #高宮郡 #高田郡 #沙田郡"/>
             <relation name="contains" active="#周防国" passive="#大島郡 #玖珂郡 #熊毛郡_周防 #都濃郡 #佐波郡 #吉敷郡"/>
             <relation name="contains" active="#長門国" passive="#厚狭郡 #豊浦郡 #美禰郡 #大津郡 #阿武郡"/>
-            <relation name="contains" active="#紀伊国" passive="#伊都郡 #那賀郡_紀伊 #名草郡 #海部郡_紀伊 #在田郡 #日高郡 #牟婁郡"/>
+            <relation name="contains" active="#紀伊国"
+              passive="#伊都郡 #那賀郡_紀伊 #名草郡 #海部郡_紀伊 #在田郡 #日高郡 #牟婁郡"/>
             <relation name="contains" active="#淡路国" passive="#津名郡 #三原郡"/>
-            <relation name="contains" active="#阿波国" passive="#板野郡 #阿波郡 #美馬郡 #三好郡 #麻殖郡 #名東郡 #名西郡 #勝浦郡 #那賀郡_阿波"/>
-            <relation name="contains" active="#讃岐国" passive="#大内郡 #寒川郡_讃岐 #三木郡 #山田郡_讃岐 #香川郡 #阿野郡 #鵜足郡 #那珂郡_讃岐 #多度郡 #三野郡 #刈田郡_讃岐"/>
+            <relation name="contains" active="#阿波国"
+              passive="#板野郡 #阿波郡 #美馬郡 #三好郡 #麻殖郡 #名東郡 #名西郡 #勝浦郡 #那賀郡_阿波"/>
+            <relation name="contains" active="#讃岐国"
+              passive="#大内郡 #寒川郡_讃岐 #三木郡 #山田郡_讃岐 #香川郡 #阿野郡 #鵜足郡 #那珂郡_讃岐 #多度郡 #三野郡 #刈田郡_讃岐"/>
             <relation name="contains" active="#伊予国"
               passive="#宇麻郡 #新居郡 #周敷郡 #桑村郡 #越智郡 #野間郡 #風早郡 #和気郡_伊予 #温泉郡 #久米郡_伊予 #浮穴郡 #伊予郡 #喜多郡 #宇和郡"/>
-            <relation name="contains" active="#土佐国" passive="#安芸郡_土佐 #香美郡 #長岡郡_土佐 #土佐郡 #吾川郡 #高岡郡 #播多郡"/>
+            <relation name="contains" active="#土佐国"
+              passive="#安芸郡_土佐 #香美郡 #長岡郡_土佐 #土佐郡 #吾川郡 #高岡郡 #播多郡"/>
             <relation name="contains" active="#筑前国"
               passive="#怡土郡 #志麻郡 #早良郡 #那珂郡_筑前 #席田郡_筑前 #糟屋郡 #宗像郡 #遠賀郡 #鞍手郡 #嘉麻郡 #穂波郡 #夜須郡 #下座郡 #上座郡 #御笠郡"/>
-            <relation name="contains" active="#筑後国" passive="#御原郡 #生葉郡 #竹野郡_筑後 #山本郡_筑後 #御井郡 #三瀦郡 #上妻郡 #下妻郡 #山門郡 #三毛郡"/>
-            <relation name="contains" active="#豊前国" passive="#田河郡 #企救郡 #京都郡 #仲津郡 #築城郡 #上毛郡 #下毛郡 #宇佐郡"/>
-            <relation name="contains" active="#豊後国" passive="#日田郡 #球珠郡 #直入郡 #大野郡_豊後 #海部郡_豊後 #大分郡 #速見郡 #国埼郡"/>
-            <relation name="contains" active="#肥前国" passive="#基肄郡 #養父郡_肥前 #三根郡 #神埼郡_肥前 #佐嘉郡 #小城郡 #松浦郡 #杵島郡 #藤津郡 #彼杵郡 #高来郡"/>
+            <relation name="contains" active="#筑後国"
+              passive="#御原郡 #生葉郡 #竹野郡_筑後 #山本郡_筑後 #御井郡 #三瀦郡 #上妻郡 #下妻郡 #山門郡 #三毛郡"/>
+            <relation name="contains" active="#豊前国"
+              passive="#田河郡 #企救郡 #京都郡 #仲津郡 #築城郡 #上毛郡 #下毛郡 #宇佐郡"/>
+            <relation name="contains" active="#豊後国"
+              passive="#日田郡 #球珠郡 #直入郡 #大野郡_豊後 #海部郡_豊後 #大分郡 #速見郡 #国埼郡"/>
+            <relation name="contains" active="#肥前国"
+              passive="#基肄郡 #養父郡_肥前 #三根郡 #神埼郡_肥前 #佐嘉郡 #小城郡 #松浦郡 #杵島郡 #藤津郡 #彼杵郡 #高来郡"/>
             <relation name="contains" active="#肥後国"
               passive="#玉名郡 #山鹿郡 #菊池郡 #阿蘇郡 #合志郡 #山本郡_肥後 #飽田郡 #託麻郡 #益城郡 #宇土郡 #八代郡_肥後 #天草郡 #葦北郡 #球磨郡"/>
             <relation name="contains" active="#日向国" passive="#臼杵郡 #児湯郡 #那珂郡_日向 #宮埼郡 #諸県郡"/>
-            <relation name="contains" active="#大隅国" passive="#菱苅郡 #桑原郡 #贈於郡 #大隅郡 #姶羅郡 #肝属郡 #馭謨郡 #熊毛郡_大隅"/>
-            <relation name="contains" active="#薩摩国" passive="#出水郡 #高城郡 #薩摩郡 #甑島郡 #日置郡 #伊作郡 #阿多郡 #河辺郡_薩摩 #穎娃郡 #揖宿郡 #給黎郡 #谿山郡 #麑島郡"/>
+            <relation name="contains" active="#大隅国"
+              passive="#菱苅郡 #桑原郡 #贈於郡 #大隅郡 #姶羅郡 #肝属郡 #馭謨郡 #熊毛郡_大隅"/>
+            <relation name="contains" active="#薩摩国"
+              passive="#出水郡 #高城郡 #薩摩郡 #甑島郡 #日置郡 #伊作郡 #阿多郡 #河辺郡_薩摩 #穎娃郡 #揖宿郡 #給黎郡 #谿山郡 #麑島郡"/>
             <relation name="contains" active="#壱伎島" passive="#壱伎郡 #石田郡"/>
             <relation name="contains" active="#対馬島" passive="#上県郡 #下県郡"/>
             <relation name="contains" active="#諸国"/>
           </listRelation>
         </listRelation>
         <listRelation type="国等級">
-          <relation name="contains" active="#大国_国力" passive="#大和国 #河内国 #伊勢国 #武蔵国 #上総国 #下総国 #常陸国 #近江国 #上野国 #陸奥国 #越前国 #播磨国 #肥後国"/>
+          <relation name="contains" active="#大国_国力"
+            passive="#大和国 #河内国 #伊勢国 #武蔵国 #上総国 #下総国 #常陸国 #近江国 #上野国 #陸奥国 #越前国 #播磨国 #肥後国"/>
           <relation name="contains" active="#上国_国力"
             passive="#山城国 #摂津国 #尾張国 #参河国 #遠江国 #駿河国 #甲斐国 #相摸国 #美濃国 #信濃国 #下野国 #出羽国 #加賀国 #越中国 #越後国 #丹波国 #但馬国 #因幡国 #伯耆国 #出雲国 #美作国 #備前国 #備中国 #備後国 #安芸国 #周防国 #紀伊国 #阿波国 #讃岐国 #伊予国 #筑前国 #筑後国 #豊前国 #豊後国 #肥前国"/>
-          <relation name="contains" active="#中国_国力" passive="#安房国 #若狭国 #能登国 #佐渡国 #丹後国 #石見国 #隠伎国 #長門国 #土佐国 #日向国 #大隅国 #薩摩国"/>
-          <relation name="contains" active="#下国_国力" passive="#和泉国 #伊賀国 #志摩国 #伊豆国 #飛騨国 #淡路国 #壱伎島 #対馬島"/>
+          <relation name="contains" active="#中国_国力"
+            passive="#安房国 #若狭国 #能登国 #佐渡国 #丹後国 #石見国 #隠伎国 #長門国 #土佐国 #日向国 #大隅国 #薩摩国"/>
+          <relation name="contains" active="#下国_国力"
+            passive="#和泉国 #伊賀国 #志摩国 #伊豆国 #飛騨国 #淡路国 #壱伎島 #対馬島"/>
           <relation name="contains" active="#近国_距離"
             passive="#伊賀国 #伊勢国 #志摩国 #尾張国 #参河国 #近江国 #美濃国 #若狭国 #丹波国 #丹後国 #但馬国 #因幡国 #播磨国 #美作国 #備前国 #紀伊国 #淡路国"/>
           <relation name="contains" active="#中国_距離"
             passive="#遠江国 #駿河国 #伊豆国 #甲斐国 #飛騨国 #信濃国 #越前国 #加賀国 #能登国 #越中国 #伯耆国 #出雲国 #備中国 #備後国 #阿波国 #讃岐国"/>
           <relation name="contains" active="#遠国_距離"
             passive="#相摸国 #武蔵国 #安房国 #上総国 #下総国 #常陸国 #上野国 #下野国 #陸奥国 #出羽国 #越後国 #佐渡国 #石見国 #隠伎国 #安芸国 #周防国 #長門国 #伊予国 #土佐国 #筑前国 #筑後国 #豊前国 #豊後国 #肥前国 #肥後国 #日向国 #大隅国 #薩摩国 #壱伎島 #対馬島"/>
-          <relation name="contains" active="#上糸国" passive="#伊勢国 #参河国 #近江国 #美濃国 #但馬国 #美作国 #備前国 #備中国 #備後国 #安芸国 #紀伊国 #阿波国"/>
+          <relation name="contains" active="#上糸国"
+            passive="#伊勢国 #参河国 #近江国 #美濃国 #但馬国 #美作国 #備前国 #備中国 #備後国 #安芸国 #紀伊国 #阿波国"/>
           <relation name="contains" active="#中糸国"
             passive="#伊賀国 #尾張国 #遠江国 #若狭国 #越前国 #加賀国 #能登国 #越後国 #丹波国 #丹後国 #因幡国 #伯耆国 #出雲国 #播磨国 #長門国 #讃岐国 #伊予国 #土佐国 #筑前国 #筑後国 #肥前国 #肥後国 #豊前国 #豊後国 #日向国"/>
-          <relation name="contains" active="#麁糸国" passive="#駿河国 #伊豆国 #甲斐国 #相摸国 #武蔵国 #上総国 #下総国 #常陸国 #信濃国 #上野国 #下野国"/>
+          <relation name="contains" active="#麁糸国"
+            passive="#駿河国 #伊豆国 #甲斐国 #相摸国 #武蔵国 #上総国 #下総国 #常陸国 #信濃国 #上野国 #下野国"/>
         </listRelation>
       </listRelation>
       <listRelation type="官司名">
         <listRelation type="被官関係">
           <relation name="supervises" active="#神祇官"/>
-          <relation name="supervises" active="#太政官" passive="#中務省 #式部省 #治部省 #民部省 #兵部省 #刑部省 #大蔵省 #宮内省 #弾正台 #近衛府 #衛門府 #兵衛府 #馬寮 #修理職"/>
+          <relation name="supervises" active="#太政官"
+            passive="#中務省 #式部省 #治部省 #民部省 #兵部省 #刑部省 #大蔵省 #宮内省 #弾正台 #近衛府 #衛門府 #兵衛府 #馬寮 #修理職"/>
           <relation name="supervises" active="#中務省" passive="#中宮職 #大舎人寮 #図書寮 #縫殿寮 #内蔵寮 #内匠寮 #陰陽寮"/>
           <relation name="supervises" active="#式部省" passive="#大学寮"/>
           <relation name="supervises" active="#治部省" passive="#雅楽寮 #玄蕃寮 #諸陵寮"/>
@@ -51879,7 +51955,8 @@
           <relation name="supervises" active="#兵部省" passive="#兵庫寮 #隼人司"/>
           <relation name="supervises" active="#刑部省" passive="#囚獄司"/>
           <relation name="supervises" active="#大蔵省" passive="#織部司"/>
-          <relation name="supervises" active="#宮内省" passive="#大膳職 #木工寮 #大炊寮 #主殿寮 #典薬寮 #掃部寮 #正親司 #内膳司 #造酒司 #采女司 #主水司"/>
+          <relation name="supervises" active="#宮内省"
+            passive="#大膳職 #木工寮 #大炊寮 #主殿寮 #典薬寮 #掃部寮 #正親司 #内膳司 #造酒司 #采女司 #主水司"/>
           <relation name="supervises" active="#京職" passive="#市司"/>
           <relation name="supervises" active="#大宰府"/>
         </listRelation>
@@ -51894,7 +51971,8 @@
         /不要か -->
       </listRelation>
       <listRelation type="noun">
-        <relation name="contains" active="#noun01000000" passive="#noun01010000 #noun01020000 #noun01030000"/>
+        <relation name="contains" active="#noun01000000"
+          passive="#noun01010000 #noun01020000 #noun01030000"/>
         <!-- 水産品：魚 貝・甲殻類など 海草 -->
         <relation name="contains" active="#noun02000000"
           passive="#noun02010000 #noun02020000 #noun02030000 #noun06000000 #noun02040000 #noun04000000 #noun07000000 #noun08000000 #noun09000000 #noun10000000 #noun11000000"/>
@@ -51939,7 +52017,8 @@
         <relation name="contains" active="#noun10000000"
           passive="#noun10000001 #noun10000002 #noun10000003 #noun10000004 #noun10000005 #noun10000006 #noun10000007 #noun10010001 #noun10010002 #noun10010003 #noun10010004 #noun10010005 #noun10020001 #noun10030001 #noun10030002 #noun10040001 #noun10050001 #noun10060001 #noun10070001 #noun10080001"/>
         <!-- 皮革：緋革 膠 洗皮 皺文革 鮓皮 腐革 洗革 大鹿皮 小鹿皮 鹿皮 鹿革 鹿子皮 熊皮 牛皮 牧牛皮 猪皮 独犴皮 狸皮 馬革 葦鹿皮 -->
-        <relation name="contains" active="#noun11000000" passive="#noun11000001 #noun11010000 #noun11020000 #noun11030000"/>
+        <relation name="contains" active="#noun11000000"
+          passive="#noun11000001 #noun11010000 #noun11020000 #noun11030000"/>
         <!-- 骨角甲等：白玉 骨 角 甲 -->
         <relation name="contains" active="#noun03000000"
           passive="#noun03010000 #noun03020000 #noun03030000 #noun03040000 #noun03040202 #noun03040301 #noun03040401 #noun03040501 #noun03040601 #noun03050000 #noun03060000 #noun03070101 #noun03070201 #noun03070301 #noun03070401 #noun03070501 #noun03070601 #noun03070701 #noun03070801 #noun03070901 #noun03071001 #noun03071201 #noun03071301 #noun03071401 #noun03071501 #noun03071601 #noun03071701"/>
@@ -51953,7 +52032,8 @@
         <relation name="contains" active="#noun15000000"
           passive="#noun05000009 #noun05000010 #noun06000004 #noun06000005 #noun06000006 #noun06000007 #noun06000008 #noun07000001"/>
         <!-- 染料：黄蘗皮 黄蘗 乾藍 紅花 茜 紫草 刈安草 赤土 -->
-        <relation name="contains" active="#noun16000000" passive="#noun08020002 #noun08030001 #noun08050001 #noun09000001"/>
+        <relation name="contains" active="#noun16000000"
+          passive="#noun08020002 #noun08030001 #noun08050001 #noun09000001"/>
         <!-- 顔料：朱砂 緑青 胡粉 丹 -->
         <relation name="contains" active="#noun01010201" passive="#noun01010202"/>
         <!-- 鰺：干鰺 -->
@@ -51982,7 +52062,8 @@
         <!-- 平魚：雑平魚 平魚楚割 -->
         <relation name="contains" active="#noun01011501" passive="#noun01011502 #noun01011507"/>
         <!-- 鰭：鰭狭物 鰭広物 -->
-        <relation name="contains" active="#noun01011701" passive="#noun01011702 #noun01011703 #noun01011704"/>
+        <relation name="contains" active="#noun01011701"
+          passive="#noun01011702 #noun01011703 #noun01011704"/>
         <!-- 与理刀魚：与理度魚腊 与治魚刺 与理度魚脂 -->
         <relation name="contains" active="#noun01011801" passive="#noun01011802"/>
         <!-- 阿米魚：阿米魚鮨 -->
@@ -52001,13 +52082,16 @@
         <!-- 鰒：東鰒 鰒羹 味漬鰒 阿波鰒 安房雑鰒 出雲鰒 薄鰒 凡鰒 隠伎鰒 蔭鰒 雑鰒 串鰒 串貫羽割 葛貫鰒 腐耳鰒 佐渡鰒 島鰒 鰒汁漬 鰒鮨 甘鮨鰒 鰒甘鮨 玉貫 耽羅鰒 筑紫鰒 都都伎鰒 鳥子鰒 長鰒 長門鰒 夏鰒 生鰒 鮮鰒 縄貫鰒 羽割鰒 醤鰒 細割鰒 火焼鰒 短鰒 御取鰒 著耳鰒 放耳鰒 海松纏鰒 蒸鰒 鞭鰒 横串鰒 鰒腸漬 腸漬小鰒 -->
         <relation name="contains" active="#noun01020401" passive="#noun01020402 #noun03040305"/>
         <!-- 貽貝：貽貝鮨 貽貝富耶交鮨 -->
-        <relation name="contains" active="#noun01020601" passive="#noun01020602 #noun01020603 #noun01020604"/>
+        <relation name="contains" active="#noun01020601"
+          passive="#noun01020602 #noun01020603 #noun01020604"/>
         <!-- 蠣：礒蠣 蠣腊 石花 -->
         <relation name="contains" active="#noun01020801" passive="#noun01020802"/>
         <!-- 甲蠃：棘甲蠃 -->
-        <relation name="contains" active="#noun01021101" passive="#noun01021102 #noun01021103 #noun01021104 #noun01021105"/>
+        <relation name="contains" active="#noun01021101"
+          passive="#noun01021102 #noun01021103 #noun01021104 #noun01021105"/>
         <!-- 螺：螺貝焼塩 生螺 鮮螺 乾螺 -->
-        <relation name="contains" active="#noun01021301" passive="#noun01021302 #noun01021303 #noun01021304"/>
+        <relation name="contains" active="#noun01021301"
+          passive="#noun01021302 #noun01021303 #noun01021304"/>
         <!-- 鮹：貝鮹鮨 鮹腊 干鮹 -->
         <relation name="contains" active="#noun01021401" passive="#noun01021402 #noun01021403"/>
         <!-- 海鼠：熬海鼠 海鼠腸 -->
@@ -52015,9 +52099,11 @@
         <!-- 保夜：貽貝富耶交鮨 -->
         <relation name="contains" active="#noun01030201" passive="#noun01030202 #noun01030203"/>
         <!-- 荒布：滑海藻 雑滑海藻 -->
-        <relation name="contains" active="#noun01030501" passive="#noun01030502 #noun01030503 #noun01030504 #noun01030505"/>
+        <relation name="contains" active="#noun01030501"
+          passive="#noun01030502 #noun01030503 #noun01030504 #noun01030505"/>
         <!-- 於期菜：於胡菜 意期菜 於期 於己 -->
-        <relation name="contains" active="#noun01031201" passive="#noun01031202 #noun01031203 #noun01031204"/>
+        <relation name="contains" active="#noun01031201"
+          passive="#noun01031202 #noun01031203 #noun01031204"/>
         <!-- 凝海菜：大凝菜 大小凝菜 凝菜 -->
         <relation name="contains" active="#noun01031601" passive="#noun01031602"/>
         <!-- 角俣菜：角俣 -->
@@ -52027,13 +52113,16 @@
         <!-- 那乃利曾：名乗曾 -->
         <relation name="contains" active="#noun01032001" passive="#noun01032002"/>
         <!-- 紫菜：紫苔 -->
-        <relation name="contains" active="#noun01032101" passive="#noun01032102 #noun01032103 #noun01032104 #noun01032105"/>
+        <relation name="contains" active="#noun01032101"
+          passive="#noun01032102 #noun01032103 #noun01032104 #noun01032105"/>
         <!-- 昆布：広昆布 細昆布 索昆布 縒昆布 -->
         <relation name="contains" active="#noun01032201" passive="#noun01032202"/>
         <!-- 鹿角菜：布乃利 -->
-        <relation name="contains" active="#noun01032401" passive="#noun01032402 #noun01032403 #noun01032404"/>
+        <relation name="contains" active="#noun01032401"
+          passive="#noun01032402 #noun01032403 #noun01032404"/>
         <!-- 海松：長海松 深海松 干海松 -->
-        <relation name="contains" active="#noun01032501" passive="#noun01032502 #noun01032503 #noun01032504 #noun01032505"/>
+        <relation name="contains" active="#noun01032501"
+          passive="#noun01032502 #noun01032503 #noun01032504 #noun01032505"/>
         <!-- 海藻：海藻羹 海藻汁漬 雑海藻 和布 -->
         <relation name="contains" active="#noun01032701"
           passive="#noun01032702 #noun01032703 #noun01032704 #noun01032710 #noun01032711"/>
@@ -52058,13 +52147,15 @@
         <!-- 宍：雑宍 宍醢 猪宍 三牲宍 鹿宍 -->
         <relation name="contains" active="#noun02011101" passive="#noun02011102"/>
         <!-- 鳥：鳥腊 -->
-        <relation name="contains" active="#noun02011201" passive="#noun02011202 #noun02011203 #noun02011204"/>
+        <relation name="contains" active="#noun02011201"
+          passive="#noun02011202 #noun02011203 #noun02011204"/>
         <!-- 鶏：雞 鶏卵 白鶏 -->
         <relation name="contains" active="#noun02011401" passive="#noun02011402"/>
         <!-- 羊：羊脯 -->
         <relation name="contains" active="#noun10020000" passive="#noun10020001"/>
         <!-- 熊：熊皮 -->
-        <relation name="contains" active="#noun10030000" passive="#noun10030001 #noun10030002 #noun11020003 #noun03071101"/>
+        <relation name="contains" active="#noun10030000"
+          passive="#noun10030001 #noun10030002 #noun11020003 #noun03071101"/>
         <!-- 牛：牛皮 牧牛皮 牛角 乳 -->
         <relation name="contains" active="#noun10050000" passive="#noun10050001"/>
         <!-- 独犴：独犴皮 -->
@@ -52085,18 +52176,21 @@
         <!-- 甘葛：甘葛煎 甘葛汁 -->
         <relation name="contains" active="#noun02020601" passive="#noun02020602 #noun02020603"/>
         <!-- 蘭：蘭葅 干蘭 -->
-        <relation name="contains" active="#noun02021001" passive="#noun02021002 #noun02021003 #noun02021004"/>
+        <relation name="contains" active="#noun02021001"
+          passive="#noun02021002 #noun02021003 #noun02021004"/>
         <!-- 芋：芋子 芋茎 蹲鴟 -->
         <relation name="contains" active="#noun02021101"
           passive="#noun02021102 #noun02021103 #noun02021104 #noun02021105 #noun02021106 #noun02021107 #noun02021108 #noun02021109 #noun02021110"/>
         <!-- 瓜：青瓜 晩瓜 生瓜 早瓜 瓜味漬 糟漬瓜 醤瓜 醤漬瓜 味醤漬瓜 -->
-        <relation name="contains" active="#noun02021201" passive="#noun02021202 #noun02021203 #noun02021204 #noun03020202"/>
+        <relation name="contains" active="#noun02021201"
+          passive="#noun02021202 #noun02021203 #noun02021204 #noun03020202"/>
         <!-- 荏：荏裹 荏子 干荏 荏油 -->
         <relation name="contains" active="#noun02021301" passive="#noun02021302 #noun02021303"/>
         <!-- 蘿菔根：蘿菔 蘿蔔 -->
         <relation name="contains" active="#noun02021501" passive="#noun03020203 #noun03020204"/>
         <!-- 麻子：麻油 麻子油 -->
-        <relation name="contains" active="#noun02021701" passive="#noun02021702 #noun02021703 #noun02021704"/>
+        <relation name="contains" active="#noun02021701"
+          passive="#noun02021702 #noun02021703 #noun02021704"/>
         <!-- 菁：菁須須保利漬 菁葅 熬菁 -->
         <relation name="contains" active="#noun02021801"
           passive="#noun02021802 #noun02021803 #noun02021804 #noun02021805 #noun02021806 #noun02021807 #noun02021808"/>
@@ -52106,7 +52200,8 @@
         <!-- 冬瓜：糟漬冬瓜 漬糟冬瓜 醤漬冬瓜 未醤冬瓜 未醤漬冬瓜 -->
         <relation name="contains" active="#noun02022301" passive="#noun02022302"/>
         <!-- 鬱萌草：鬱萌草搗 -->
-        <relation name="contains" active="#noun02022501" passive="#noun02022502 #noun02022503 #noun02022504"/>
+        <relation name="contains" active="#noun02022501"
+          passive="#noun02022502 #noun02022503 #noun02022504"/>
         <!-- 竜葵子：竜葵子漬 竜葵葅 竜葵味葅 -->
         <relation name="contains" active="#noun02022701" passive="#noun02022702 #noun03020208"/>
         <!-- 胡麻：胡麻子 胡麻油 -->
@@ -52132,7 +52227,8 @@
         <relation name="contains" active="#noun02024301"
           passive="#noun02024302 #noun02024303 #noun02024304 #noun02024305 #noun02024306 #noun02024307 #noun02024308 #noun02024309 #noun02024310"/>
         <!-- 茄：茄子 糟茄子 糟漬茄子 醤茄子 醤漬茄子 干茄子 未醤茄子 未醤漬茄子 茄子中子 -->
-        <relation name="contains" active="#noun02024401" passive="#noun02024402 #noun02024403 #noun02024404"/>
+        <relation name="contains" active="#noun02024401"
+          passive="#noun02024402 #noun02024403 #noun02024404"/>
         <!-- 蜀椒：蜀椒子 漬蜀椒子 漬椒子 -->
         <relation name="contains" active="#noun02024801"
           passive="#noun02024802 #noun02024803 #noun02024804 #noun02024805 #noun02024806 #noun02024807 #noun02024808 #noun02024809"/>
@@ -52158,14 +52254,17 @@
         <relation name="contains" active="#noun02030201"
           passive="#noun02030202 #noun02030203 #noun02030204 #noun02030205 #noun02030206"/>
         <!-- 柿：柿子 熟柿 熟柿子 干柿 干柿子 -->
-        <relation name="contains" active="#noun02030303" passive="#noun02030301 #noun02030302 #noun02030304"/>
+        <relation name="contains" active="#noun02030303"
+          passive="#noun02030301 #noun02030302 #noun02030304"/>
         <!-- 柑：柑子 甘子 小柑 -->
-        <relation name="contains" active="#noun02030401" passive="#noun02030402 #noun02030403 #noun02030404 #noun02030405"/>
+        <relation name="contains" active="#noun02030401"
+          passive="#noun02030402 #noun02030403 #noun02030404 #noun02030405"/>
         <!-- 菓：菓子 菓餅 菓物餅 雑菓子 -->
         <relation name="contains" active="#noun02030601"
           passive="#noun02030602 #noun02030603 #noun02030604 #noun02030605 #noun02030606 #noun02030607 #noun02030608 #noun02030609 #noun02030610 #noun02030611 #noun02030612"/>
         <!-- 栗：栗子 甘栗子 削栗子 搗栗 搗栗子 生栗 生栗子 平栗子 干栗子 煠栗子 栗黄 -->
-        <relation name="contains" active="#noun02030701" passive="#noun02030702 #noun02030704 #noun03020206"/>
+        <relation name="contains" active="#noun02030701"
+          passive="#noun02030702 #noun02030704 #noun03020206"/>
         <!-- 胡桃：胡桃子 姫胡桃子 胡桃油 -->
         <relation name="contains" active="#noun02031006"
           passive="#noun02031001 #noun02031002 #noun02031003 #noun02031004 #noun02031005"/>
@@ -52189,14 +52288,16 @@
         <!-- 黒葛：曝黒葛 -->
         <relation name="contains" active="#noun05000004" passive="#noun05000001 #noun05000006"/>
         <!-- 斐皮：斐紙麻 斐麻 -->
-        <relation name="contains" active="#noun05020000" passive="#noun05020001 #noun05020002 #noun05020003"/>
+        <relation name="contains" active="#noun05020000"
+          passive="#noun05020001 #noun05020002 #noun05020003"/>
         <!-- 漆：金漆 赤漆 黒漆 -->
         <relation name="contains" active="#noun05010000"
           passive="#noun05010101 #noun05010201 #noun05010301 #noun05010401 #noun05010501 #noun05010601 #noun05010701 #noun05010801 #noun05010901 #noun05011001 #noun05011101 #noun05011201"/>
         <!-- 木器：櫃 筥 笥 箕 匏 籠 樽 櫑子 槽 蓑 杵 木器臼 -->
         <relation name="contains" active="#noun06010000" passive="#noun06010001"/>
         <!-- 熟麻：白暴熟麻 -->
-        <relation name="contains" active="#noun02040301" passive="#noun02040302 #noun02040304 #noun02040305 #noun02040306"/>
+        <relation name="contains" active="#noun02040301"
+          passive="#noun02040302 #noun02040304 #noun02040305 #noun02040306"/>
         <!-- 粟：粟子 粟穀 粟糒 粟子糒 -->
         <relation name="contains" active="#noun02040401" passive="#noun02040402 #noun02040403"/>
         <!-- 粱：粱飯 粱米 -->
@@ -52210,7 +52311,8 @@
         <!-- 黍：黍子 黍子糒 黍飯 黍米 黒黍 -->
         <relation name="contains" active="#noun02040901" passive="#noun02040902"/>
         <!-- 麹：三種麹 -->
-        <relation name="contains" active="#noun02041101" passive="#noun02041102 #noun02041103 #noun02041104"/>
+        <relation name="contains" active="#noun02041101"
+          passive="#noun02041102 #noun02041103 #noun02041104"/>
         <!-- 穀：五穀 五穀物 雑穀 -->
         <relation name="contains" active="#noun02041201" passive="#noun02041202"/>
         <!-- 大角豆：生大角豆 -->
@@ -52229,7 +52331,8 @@
         <relation name="contains" active="#noun02041901"
           passive="#noun02041902 #noun02041903 #noun02041904 #noun02041905 #noun02041906 #noun02041909 #noun02041912 #noun02041913 #noun02041914 #noun02041915 #noun02041916 #noun02041918 #noun02041919 #noun02041920 #noun02041921 #noun02041924 #noun02041925 #noun02041926 #noun02041927 #noun02041928 #noun02041929 #noun02041930 #noun02041931 #noun02041932 #noun02041933 #noun02041934 #noun02041936 #noun02041939 #noun02041940 #noun02041941 #noun02041942 #noun02041943"/>
         <!-- 米：粟米 稷米 一稃二米 稲米 粳米 粥米 竈杵米 黍米 秬𥝣 雑米 黒米 米粉 粉米 酒米 御酒米 散米 黒米散米 白米散米 食米 地子米 糈米 舂米 舂得米 粱米 精粱米 白米 多明米 秫米 焼米 庸米 粮米 月粮米 -->
-        <relation name="contains" active="#noun04010000" passive="#noun04010001 #noun04010002 #noun04010003"/>
+        <relation name="contains" active="#noun04010000"
+          passive="#noun04010001 #noun04010002 #noun04010003"/>
         <!-- 紙：薄紙 斐紙 麻紙 -->
         <relation name="contains" active="#noun04020000" passive="#noun04020001"/>
         <!-- 木綿：東木綿 -->
@@ -52247,11 +52350,13 @@
         <!-- 土器：由加 瓺 瓼 缶 杯 筥杯 椀 鋺形 多志羅加 【瓦+嬰】 瓫 𤭯 盤 瓶 壺 等呂須伎 蓋 鉢 臼 垂 盞 鍋 平鍋 餺餅器 竃 竃子 甑 甕 研 戸 𡊖 須恵器 土師器 -->
         <relation name="contains" active="#noun08010000" passive="#noun08010001 #noun08010002"/>
         <!-- 金：練金 砂金 -->
-        <relation name="contains" active="#noun08020000" passive="#noun08020001 #noun08020002 #noun09000001"/>
+        <relation name="contains" active="#noun08020000"
+          passive="#noun08020001 #noun08020002 #noun09000001"/>
         <!-- 銀：水銀 朱砂 丹 -->
         <relation name="contains" active="#noun08030000" passive="#noun08030001"/>
         <!-- 銅：緑青 -->
-        <relation name="contains" active="#noun08040000" passive="#noun08040001 #noun08040002 #noun08040003"/>
+        <relation name="contains" active="#noun08040000"
+          passive="#noun08040001 #noun08040002 #noun08040003"/>
         <!-- 鉄：鍬 鉄鎧 小平釘 -->
         <relation name="contains" active="#noun08050000" passive="#noun08050001 #noun09000001"/>
         <!-- 鉛：胡粉 丹 -->
@@ -52259,7 +52364,8 @@
         <!-- 銭：丹 朴消 -->
         <relation name="contains" active="#noun09010000" passive="#noun09010001"/>
         <!-- 砥：青砥 -->
-        <relation name="contains" active="#noun11020000" passive="#noun11020001 #noun11020003 #noun11020002"/>
+        <relation name="contains" active="#noun11020000"
+          passive="#noun11020001 #noun11020003 #noun11020002"/>
         <!-- 角：鹿角 牛角 零羊角 -->
         <relation name="contains" active="#noun11030000" passive="#noun11030001"/>
         <!-- 甲：亀甲 -->
@@ -52272,7 +52378,8 @@
         <relation name="contains" active="#noun03030000"
           passive="#noun03030101 #noun03030102 #noun03030103 #noun03030104 #noun03030105 #noun03030106 #noun03030107 #noun03030108 #noun03030109 #noun03030110 #noun03030111 #noun03030112 #noun03030113 #noun03030114 #noun03030115 #noun03030116 #noun03030117 #noun03030118 #noun03030119 #noun03030120 #noun03030121 #noun03030122 #noun03030123 #noun03030124 #noun03030125 #noun03030126 #noun03030127 #noun03030128 #noun03030129 #noun03030130 #noun03030131 #noun03030132 #noun03030133 #noun03030134 #noun03030135 #noun03030136 #noun03030137 #noun03030138 #noun03030139 #noun03030140 #noun03030141 #noun03030142 #noun03030143 #noun03030144 #noun03030145 #noun03030146 #noun03030147 #noun03030148 #noun03030149 #noun03030150 #noun03030151 #noun03030152 #noun03030153"/>
         <!-- 酒類：酒 韲酒 赤丹穂 温酒 飾酒 柏酒 酒糟 糟 御糟 搗糟 擣糟 三種糟 汁糟 菊酒 黒酒 黒貴 黒白二酒 玄酒 県醸酒 御酒 粉酒 三事酒 社醸酒 熟酒 酒食 酒饌 醇酒 白酒 白貴 白貴黒貴酒 白黒二酒 清酒 醠斉 盎斉 醴斉 醞 造酒 多明酒 醸酒 殿醸酒 屠蘇 頓酒 濁酒 白散御酒 福 福酒 御井酒 神酒 醴 醴酒 御醴酒 甘醴 韲甘醴 -->
-        <relation name="contains" active="#noun03040000" passive="#noun03040101 #noun03040801 #noun03040701 #noun03040901"/>
+        <relation name="contains" active="#noun03040000"
+          passive="#noun03040101 #noun03040801 #noun03040701 #noun03040901"/>
         <!-- 乾肉：腊 脯 䐹 干物 -->
         <relation name="contains" active="#noun03040202" passive="#noun03040201"/>
         <!-- 醯醢：醢 -->
@@ -52293,13 +52400,15 @@
         <!-- 穀類で作った食物：飴 飯 熬菓 粰【米+㐬】 粥 唐菓子 粉 漿 餛飩 粽 糒 麩 捻頭 麺 索餅 餅 乱糸 -->
         <relation name="contains" active="#noun03060000" passive="#noun03060101 #noun03060201"/>
         <!-- 羹・汁：羹 汁 -->
-        <relation name="contains" active="#noun03070101" passive="#noun03070102 #noun03070103 #noun03070104"/>
+        <relation name="contains" active="#noun03070101"
+          passive="#noun03070102 #noun03070103 #noun03070104"/>
         <!-- 韲：韲物 雑韲 雑韲物 -->
         <relation name="contains" active="#noun03070201" passive="#noun03070202 #noun03070203"/>
         <!-- 味物：雑味物 雑鮮味物 -->
         <relation name="contains" active="#noun03070301" passive="#noun03070302"/>
         <!-- 甘物：甜物 -->
-        <relation name="contains" active="#noun03070601" passive="#noun03070602 #noun03070603 #noun03070604 #noun03070605"/>
+        <relation name="contains" active="#noun03070601"
+          passive="#noun03070602 #noun03070603 #noun03070604 #noun03070605"/>
         <!-- 肴：肴物 御肴 雑肴 酒肴 -->
         <relation name="contains" active="#noun03070701" passive="#noun01011212"/>
         <!-- 白干：鯛白干 -->
@@ -52319,15 +52428,19 @@
         <!-- 墨：掃墨 -->
         <relation name="contains" active="#noun12030000" passive="#noun12030001"/>
         <!-- 船：鎌垣船 -->
-        <relation name="contains" active="#noun12040000" passive="#noun12040001 #noun12040002 #noun12040003 #noun12040004"/>
+        <relation name="contains" active="#noun12040000"
+          passive="#noun12040001 #noun12040002 #noun12040003 #noun12040004"/>
         <!-- 馬具：鞍橋 鞦 鑣 黒漆鞍 -->
         <relation name="contains" active="#noun12050000" passive="#noun08040001"/>
         <!-- 農具：鍬 -->
-        <relation name="contains" active="#noun03071101" passive="#noun03071102 #noun03071103 #noun03071104 #noun03071105"/>
+        <relation name="contains" active="#noun03071101"
+          passive="#noun03071102 #noun03071103 #noun03071104 #noun03071105"/>
         <!-- 乳：供御乳 牛乳 蘇 蘇蜜 -->
-        <relation name="contains" active="#noun05010101" passive="#noun05010102 #noun05010103 #noun05010107"/>
+        <relation name="contains" active="#noun05010101"
+          passive="#noun05010102 #noun05010103 #noun05010107"/>
         <!-- 櫃：折櫃 韓櫃 明櫃 -->
-        <relation name="contains" active="#noun05010201" passive="#noun05010202 #noun05010203 #noun05010204 #noun05010205"/>
+        <relation name="contains" active="#noun05010201"
+          passive="#noun05010202 #noun05010203 #noun05010204 #noun05010205"/>
         <!-- 筥：柳筥 荒筥 編筥 織筥 -->
         <relation name="contains" active="#noun05010301"
           passive="#noun05010302 #noun05010303 #noun05010304 #noun05010305 #noun05010306"/>
@@ -52363,9 +52476,11 @@
         <relation name="contains" active="#noun04040401"
           passive="#noun04040402 #noun04040403 #noun04040404 #noun04040405 #noun04040406 #noun04040407 #noun04040408 #noun04040409 #noun04040410 #noun04040411 #noun04040412 #noun04040413 #noun04040416 #noun04040417 #noun04040418 #noun04040419 #noun04040420 #noun04040421 #noun04040422 #noun04040423 #noun04040426 #noun04040427"/>
         <!-- 綾：三色綾 一窠綾 二窠綾 三窠綾 七窠綾 小花綾 小鸚鵡綾 薔薇綾 二花綾 莱花綾 続花綾 瓜核綾 野草綾 大結花綾 連水綾 小車牙綾 散花単綾 小蓮花綾 小結綾 呉服綾 二色綾 白綾 -->
-        <relation name="contains" active="#noun04040501" passive="#noun04040502 #noun04040503 #noun04040504 #noun04040505"/>
+        <relation name="contains" active="#noun04040501"
+          passive="#noun04040502 #noun04040503 #noun04040504 #noun04040505"/>
         <!-- 絹：広絹 長絹 白絹 赤絹 -->
-        <relation name="contains" active="#noun04040601" passive="#noun04040602 #noun04040603 #noun04040604"/>
+        <relation name="contains" active="#noun04040601"
+          passive="#noun04040602 #noun04040603 #noun04040604"/>
         <!-- 絁：長幡部絁 緋纈絁 広絁 -->
         <relation name="contains" active="#noun04040701"
           passive="#noun04040702 #noun04040703 #noun04040704 #noun04040705 #noun04040706 #noun04040707"/>
@@ -52383,12 +52498,14 @@
         <!-- 白糸：上糸白糸 上糸犬頭白糸 -->
         <relation name="contains" active="#noun04050017" passive="#noun04050005"/>
         <!-- 犬頭糸：上糸犬頭白糸 -->
-        <relation name="contains" active="#noun07010101" passive="#noun07010102 #noun07010103 #noun07010104"/>
+        <relation name="contains" active="#noun07010101"
+          passive="#noun07010102 #noun07010103 #noun07010104"/>
         <!-- 由加：池由加 小由加 中由加 -->
         <relation name="contains" active="#noun07010501"
           passive="#noun07010504 #noun07010505 #noun07010506 #noun07010507 #noun07010508 #noun07010509 #noun07010510 #noun07010511 #noun07010512 #noun07010513 #noun07010514 #noun07010515 #noun07010516 #noun07010517 #noun07010521 #noun07010522 #noun07010523 #noun07010524 #noun07010525 #noun07010526 #noun07010528 #noun07010529"/>
         <!-- 杯：短女杯 小杯 韲杯 深杯 菜杯 脚短杯 凡杯 凡片杯 雑坏 清坏 足下坏 油坏 斐坏 酒坏 玉手土師間杯 玉手土師杯 贄土師汁漬杯 贄土師中片杯 贄土師片杯 杯作土師中片杯 須恵器御取杯 須恵器片杯 -->
-        <relation name="contains" active="#noun07010601" passive="#noun07010602 #noun07010603 #noun07010604"/>
+        <relation name="contains" active="#noun07010601"
+          passive="#noun07010602 #noun07010603 #noun07010604"/>
         <!-- 筥杯：大筥杯 小筥杯 様筥杯 -->
         <relation name="contains" active="#noun07010701"
           passive="#noun07010704 #noun07010705 #noun07010706 #noun07010707 #noun07010709 #noun07010710 #noun07010712 #noun07010713"/>
@@ -52418,7 +52535,8 @@
         <!-- 臼：須恵器臼 -->
         <relation name="contains" active="#noun07012001" passive="#noun07012002"/>
         <!-- 垂：酒垂 -->
-        <relation name="contains" active="#noun07012101" passive="#noun07012102 #noun07012103 #noun07012104"/>
+        <relation name="contains" active="#noun07012101"
+          passive="#noun07012102 #noun07012103 #noun07012104"/>
         <!-- 盞：燈盞 贄土師酒盞 杯作土師酒盞 -->
         <relation name="contains" active="#noun07012201" passive="#noun07012202"/>
         <!-- 鍋：贄土師鍋 -->
@@ -52467,7 +52585,8 @@
         <relation name="contains" active="#noun03040901"
           passive="#noun01010120 #noun01010202 #noun01010308 #noun01010810 #noun01011209 #noun01011211 #noun01011212 #noun01011909 #noun01021105 #noun01021304 #noun02020603 #noun02023102 #noun02023103 #noun02023703 #noun02024102 #noun02024307 #noun02024806 #noun02026302 #noun02026303 #noun02030205 #noun02030206 #noun02031304 #noun02031305 #noun02031306 #noun02031307 #noun02031308"/>
         <!-- 干物：乾魚 干鰺 乾鰯 干鮭 鯛枚乾 干鯛 鯛白干 火干年魚 乾螺 干鮹 干蘭 干羊蹄 乾羊蹄 干蓼 干水䓗実 干茄子 干薑 干鱉 乾鱉 干柿 干柿子 干棗 干棗子 乾棗 乾棗子 乾大棗 -->
-        <relation name="contains" active="#noun03040201" passive="#noun01010107 #noun02010302 #noun02010903"/>
+        <relation name="contains" active="#noun03040201"
+          passive="#noun01010107 #noun02010302 #noun02010903"/>
         <!-- 醢：魚醢 兎醢 鹿醢 -->
         <relation name="contains" active="#noun03040502"
           passive="#noun02021107 #noun02021804 #noun02021902 #noun02021903 #noun02024103 #noun02024303 #noun02024304"/>
@@ -52506,9 +52625,11 @@
         <relation name="contains" active="#noun03060101"
           passive="#noun03060102 #noun03060103 #noun03060104 #noun01020103 #noun01032502"/>
         <!-- 羹：大羹 雑羹 肉羹 鰒羹 海藻羹 -->
-        <relation name="contains" active="#noun03060201" passive="#noun03060202 #noun03060203 #noun01010305"/>
+        <relation name="contains" active="#noun03060201"
+          passive="#noun03060202 #noun03060203 #noun01010305"/>
         <!-- 汁：雑物汁 汁物 鰯魚汁 -->
-        <relation name="contains" active="#noun05010103" passive="#noun05010104 #noun05010105 #noun05010106"/>
+        <relation name="contains" active="#noun05010103"
+          passive="#noun05010104 #noun05010105 #noun05010106"/>
         <!-- 韓櫃：白木韓櫃 塗漆韓櫃 塗漆着鎖韓櫃 -->
         <relation name="contains" active="#noun05010107" passive="#noun05010108 #noun05010109"/>
         <!-- 明櫃：大明櫃 小明櫃 -->
@@ -52523,17 +52644,20 @@
         <relation name="contains" active="#noun04040802"
           passive="#noun04040803 #noun04040804 #noun04040805 #noun04040806 #noun04040807"/>
         <!-- 貲布：望陀貲布 細貲布 貲細布 小堅貲布 薄貲布 -->
-        <relation name="contains" active="#noun04040808" passive="#noun04040809 #noun04040810 #noun04040803"/>
+        <relation name="contains" active="#noun04040808"
+          passive="#noun04040809 #noun04040810 #noun04040803"/>
         <!-- 望陀布：紺望陀布 縹望陀布 望陀貲布 -->
         <relation name="contains" active="#noun07010506" passive="#noun07010532"/>
         <!-- 韲杯：韲杯有蓋 -->
-        <relation name="contains" active="#noun07010509" passive="#noun07010502 #noun07010503 #noun07010520 #noun07010527"/>
+        <relation name="contains" active="#noun07010509"
+          passive="#noun07010502 #noun07010503 #noun07010520 #noun07010527"/>
         <!-- 脚短杯：脚短杯有蓋 脚短杯無蓋 様足短坏 須恵器様短脚杯 -->
         <relation name="contains" active="#noun07010513" passive="#noun07010530"/>
         <!-- 清坏：須恵器清杯 -->
         <relation name="contains" active="#noun07010516" passive="#noun07010531"/>
         <!-- 斐坏：須恵器斐杯 -->
-        <relation name="contains" active="#noun07010705" passive="#noun07010702 #noun07010703 #noun07010708"/>
+        <relation name="contains" active="#noun07010705"
+          passive="#noun07010702 #noun07010703 #noun07010708"/>
         <!-- 水椀：水椀有蓋 水椀無蓋 贄土師水椀 -->
         <relation name="contains" active="#noun07011304" passive="#noun07011311"/>
         <!-- 片盤：贄土師片盤 -->
@@ -52541,12 +52665,14 @@
         <!-- 大高盤：贄土師大高盤 -->
         <relation name="contains" active="#noun07011413" passive="#noun07011409 #noun07011418"/>
         <!-- 酢瓶：有柄酢瓶 無柄酢瓶 -->
-        <relation name="contains" active="#noun07013302" passive="#noun07010521 #noun07010522 #noun07011802"/>
+        <relation name="contains" active="#noun07013302"
+          passive="#noun07010521 #noun07010522 #noun07011802"/>
         <!-- 玉手土師：玉手土師間杯 玉手土師杯 玉手土師鉢 -->
         <relation name="contains" active="#noun07013303"
           passive="#noun07010523 #noun07010524 #noun07010525 #noun07010708 #noun07010802 #noun07011107 #noun07011108 #noun07011311 #noun07011312 #noun07011313 #noun07011314 #noun07011315 #noun07011316 #noun07012103 #noun07012202 #noun07012402 #noun07012502 #noun07012602 #noun07012702"/>
         <!-- 贄土師：贄土師汁漬杯 贄土師中片杯 贄土師片杯 贄土師水椀 贄土師鋺形 贄土師手湯瓫 贄土師瓫 贄土師片盤 贄土師手洗盤 贄土師大高盤 贄土師粥前下盤 贄土師粥盤 贄土師吐盤 贄土師酒盞 贄土師鍋 贄土師餺餅器 贄土師竃 贄土師竃子 贄土師甑 -->
-        <relation name="contains" active="#noun07013304" passive="#noun07010526 #noun07011317 #noun07012104"/>
+        <relation name="contains" active="#noun07013304"
+          passive="#noun07010526 #noun07011317 #noun07012104"/>
         <!-- 杯作土師：杯作土師中片杯 杯作土師小高盤 杯作土師酒盞 -->
         <relation name="contains" active="#noun02041918" passive="#noun03050702 #noun03050704"/>
         <!-- 米粉：黒米粉 白米粉 -->
