@@ -1,0 +1,49 @@
+# TEI編集用/ の XML を検証する（詳しくは schema/README.md）
+# PR では変更されたファイルだけ、main への push と手動実行では全ファイルを見る。
+name: validate TEI
+on:
+  pull_request:
+    paths: ["TEI編集用/**", "schema/**", ".github/workflows/validate.yml"]
+  push:
+    branches: [main]
+    paths: ["TEI編集用/**", "schema/**", ".github/workflows/validate.yml"]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+env:
+  TEI_VERSION: "4.12.0"
+  TEI_ALL_SHA256: b0f115095ead2ccc6933aa3365c6f4a82cba3b2ec7eee7f76bb616d7a63b7e48
+  JING_VERSION: "20241231"
+  JING_SHA256: ea5e9026244d977e607d8b52212d6871498ece51939f9c49d0e7a77aad91133a
+  SCHXSLT_VERSION: "1.10.1"
+  SCHXSLT_SHA256: cefb6c45441252675270bacc67a1ec4421ed1133f7fb8fee8f314ecfa6a0171a
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5 # v4.3.1
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065 # v5.6.0
+        with:
+          python-version: "3.12"
+      - run: pip install lxml==5.4.0
+      - name: Download validators (checksum pinned)
+        run: |
+          mkdir -p "$RUNNER_TEMP/v" && cd "$RUNNER_TEMP/v"
+          curl -sfL -o tei_all.rng "https://www.tei-c.org/Vault/P5/${TEI_VERSION}/xml/tei/custom/schema/relaxng/tei_all.rng"
+          curl -sfL -o jing.jar "https://repo1.maven.org/maven2/org/relaxng/jing/${JING_VERSION}/jing-${JING_VERSION}.jar"
+          curl -sfL -o schxslt.jar "https://repo1.maven.org/maven2/name/dmaus/schxslt/cli/${SCHXSLT_VERSION}/cli-${SCHXSLT_VERSION}.jar"
+          printf '%s  %s\n' "$TEI_ALL_SHA256" tei_all.rng "$JING_SHA256" jing.jar "$SCHXSLT_SHA256" schxslt.jar | sha256sum -c -
+          echo "TEI_ALL_RNG=$PWD/tei_all.rng" >> "$GITHUB_ENV"
+          echo "JING_JAR=$PWD/jing.jar" >> "$GITHUB_ENV"
+          echo "SCHXSLT_JAR=$PWD/schxslt.jar" >> "$GITHUB_ENV"
+      - name: Validate changed files (PR)
+        if: github.event_name == 'pull_request'
+        run: python3 schema/validate.py --changed-from "${{ github.event.pull_request.base.sha }}"
+      - name: Validate all files
+        if: github.event_name != 'pull_request'
+        run: python3 schema/validate.py
