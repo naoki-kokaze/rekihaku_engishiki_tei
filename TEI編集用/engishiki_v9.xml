@@ -124,7 +124,6 @@
           <licence target="https://creativecommons.org/licenses/by/4.0/">この作品はクリエイティブ・コモンズ 表示 4.0 国際 ライセンス（CC BY
             4.0）の下に提供されています。</licence>
         </availability>
-        <!--下記dateはデジタル延喜式の公開日のままでよいでしょうか？ -->
         <date when="2020-03-31">31 March 2020</date>
       </publicationStmt>
       <notesStmt>
@@ -761,8 +760,7 @@
                 <ref xml:id="九冊本傍書">九冊本傍書</ref>
                 <ref xml:id="九冊本傍訓">九冊本傍訓</ref>
               </listRef></witness>
-            <witness xml:id="永本"
-              ><abbr>永本</abbr>：國學院大學図書館所蔵卜部兼永筆本（巻8、091.2/322.135/1）、鈴鹿義鯨旧蔵卜部兼永筆本（巻9・10、現蔵不明、神宮文庫写真帳1門16974を閲覧） <listRef>
+            <witness xml:id="永本"><abbr>永本</abbr>：國學院大學図書館所蔵卜部兼永筆本（巻8、091.2/322.135/1）、鈴鹿義鯨旧蔵卜部兼永筆本（巻9・10、現蔵不明、神宮文庫写真帳1門16974を閲覧） <listRef>
                 <ref xml:id="永本傍書">永本傍書</ref>
                 <ref xml:id="永本左傍書">永本左傍書</ref>
                 <ref xml:id="永本左朱傍書">永本左朱傍書</ref>
@@ -887,8 +885,8 @@
                 は、史料中の物品名を語彙項目として整理し、表記の統合を図るためのものである。各項目は、解説（<gi>label</gi>）に加え、文字種（漢字・かな等）およびデータ種（校訂文・現代語訳・英訳）ごとの表記情報を、<gi>listNym</gi>
               および <gi>nym</gi> を用いて構造的に保持している。また、語句間の関係性は、<gi>taxonomy</gi> の階層構造ではなく <gi>standOff</gi> 内の <gi>relation</gi>
               によって記述する。 </item>
-            <item>【レイアウトの再現と <gi>table</gi>】 本文中の神名列記など、特定の視覚的段落表現を保持するため、<gi>table</gi> をレイアウト制御の手段として利用している。これは、空の
-                <gi>cell</gi> や幅指定（<att>rendition</att>）を組み合わせることで、史料が持つ空間的な配置情報をデジタル文脈で表現するためのものである。</item>
+            <item>【レイアウトの再現と <gi>table</gi>】 本文中の神名列記など、特定の視覚的段落表現を保持するため、<gi>table</gi> をレイアウト制御の手段として利用している。これは、空の <gi>cell</gi>
+                や幅指定（<att>rendition</att>）を組み合わせることで、史料が持つ空間的な配置情報をデジタル文脈で表現するためのものである。</item>
             <item> 【データの統一性に関する注記】 日本史料への TEI
               適用において先行事例が乏しいため、実験的なマークアップを含んでいる。巻次や史料の記述形式により、タグの適用範囲や属性の粒度に差異が生じている箇所があるが、これらについては各巻の個別凡例にて補足、あるいは将来的な一括処理を見据えた暫定的な記述としている。
             </item>
@@ -896,18 +894,16 @@
           <list>
             <head>校訂文のXMLファイル</head>
             <item> 【校異の記述と校訂根拠】諸本の異同は <gi>app</gi> 内の <gi>lem</gi> および <gi>rdg</gi> で示し、<att>wit</att>
-                によって校訂根拠となる写本・版本情報を提示する。<att>wit</att> の対象は原則として写本・版本等に限定し、注釈書や他の歴史史料による知見は <gi>note</gi>
-                内に記述している。また、<gi>lem</gi> に示すべき写本が存在しない場合は <att>cause</att> を用い、校訂の根拠を明示する。 </item>
+                によって校訂根拠となる写本・版本情報を提示する。<att>wit</att> の対象は原則として写本・版本等に限定し、注釈書や他の歴史史料による知見は <gi>note</gi> 内に記述している。また、<gi>lem</gi>
+              に示すべき写本が存在しない場合は <att>cause</att> を用い、校訂の根拠を明示する。 </item>
             <item>
               【採録範囲と個別凡例】本プロジェクトにおける校異の採録は諸本の網羅を目的とせず、校訂に実質的に資する写本・版本および傍書類に対象を限定している。採用する写本の種類や範囲は巻ごとに異なるため、詳細は各巻の個別凡例を参照されたい。 </item>
             <item>【傍書の扱い】傍書・傍訓・朱書・頭注といった文字周辺の注記情報は、<gi>note</gi> と <att>place</att> を組み合わせて記述するほか、独立した witness としても識別し、必要に応じて
                 <att>wit</att> から参照可能としている。 </item>
             <item> 【標注の扱い】標注を提示する際には、<gi>app</gi> をその記述単位として利用し、<att>type</att>="標注" を付与することで情報の性質を明示している。 </item>
             <item> 【非文字単位・広範囲の注記】文字の配列や条文全体に関する注記など、文字単位の異同として処理できない情報については、<gi>app</gi> の構造を維持しつつ、<gi>note</gi>
-              を用いて内容を記述する。校異の該当範囲が広範にわたる場合は、冒頭語句に <gi>anchor</gi> を配置し、<gi>note</gi>
-              内で「冒頭語句……末尾語句」と範囲を明記した上で、注記本文を記述する手法を採用している。 </item>
-            <item> 【物品情報の構造化（<gi>measure</gi>
-                等）】物品の数量・寸法を記述するため、<gi>measure</gi>、<gi>measureGrp</gi>、<gi>unit</gi>、<gi>note</gi>
+              を用いて内容を記述する。校異の該当範囲が広範にわたる場合は、冒頭語句に <gi>anchor</gi> を配置し、<gi>note</gi> 内で「冒頭語句……末尾語句」と範囲を明記した上で、注記本文を記述する手法を採用している。 </item>
+            <item> 【物品情報の構造化（<gi>measure</gi> 等）】物品の数量・寸法を記述するため、<gi>measure</gi>、<gi>measureGrp</gi>、<gi>unit</gi>、<gi>note</gi>
                 等を使用している。<att>ana</att>（納税物区分）、<att>commodity</att>（品目の種類）、<att>quantity</att>（数量）、<att>type</att>（貢納量の規定か実数かの別）といった属性により、計量情報を厳密に定義している。品目名と総量を括る階層構造や、複数の単位を合算する
                 <gi>measureGrp</gi> により、史料の計量記述を論理的に再現している。また、単位（<gi>unit</gi>）については <att>unitRef</att> を用い、<gi>unitDecl</gi>
               で体系的に定義された単位情報と紐付けている。なお、現段階での詳細な実装は巻24のデータに限定される。 </item>
@@ -1072,8 +1068,7 @@
         </p>
         <p ana="個別"> 校訂文凡例 <lb/><seg rendition="#hanging-1">・校訂に使用した写本とその略称は以下のとおりです。</seg>
           <lb/><seg rendition="#indent2_hanging-5">土本　　　国立歴史民俗博物館所蔵土御門家旧蔵本（H-743-74）</seg>
-          <lb/><seg rendition="#indent2_hanging-5"
-            >永本　　　鈴鹿義鯨旧蔵卜部兼永筆本（巻9・10、現蔵不明、神宮文庫写真帳1門16974を閲覧）。神宮文庫所蔵写本（1門12187）も参照した。</seg>
+          <lb/><seg rendition="#indent2_hanging-5">永本　　　鈴鹿義鯨旧蔵卜部兼永筆本（巻9・10、現蔵不明、神宮文庫写真帳1門16974を閲覧）。神宮文庫所蔵写本（1門12187）も参照した。</seg>
           <lb/><seg rendition="#indent2_hanging-5">九本　　　東京国立博物館所蔵九条家旧蔵巻子本（B-2370）</seg>
           <lb/><seg rendition="#indent2_hanging-5">剛本　　　天野山金剛寺所蔵本</seg>
           <lb/><seg rendition="#indent2_hanging-5">吉本　　　天理大学附属天理図書館所蔵吉田家旧蔵本巻9・10（328.1-ｲ17（『天理図書館稀書目録　和漢書之部　第三』1219）</seg>
@@ -1118,22 +1113,14 @@
         <rendition xml:id="hanging-1">display: block; margin: 0; padding-inline-start: 1em; text-indent: -1em;</rendition>
         <rendition xml:id="hanging-2">display: block; margin: 0; padding-inline-start: 2em; text-indent: -2em;</rendition>
         <rendition xml:id="hanging-3">display: block; margin: 0; padding-inline-start: 3em; text-indent: -3em;</rendition>
-        <rendition xml:id="indent1_hanging-6">display: block; margin: 0; padding-inline-start: 7em; text-indent:
-          -6em;</rendition>
-        <rendition xml:id="indent2_hanging-1">display: block; margin: 0; padding-inline-start: 3em; text-indent:
-          -1em;</rendition>
-        <rendition xml:id="indent2_hanging-3">display: block; margin: 0; padding-inline-start: 5em; text-indent:
-          -3em;</rendition>
-        <rendition xml:id="indent2_hanging-4">display: block; margin: 0; padding-inline-start: 6em; text-indent:
-          -4em;</rendition>
-        <rendition xml:id="indent2_hanging-5">display: block; margin: 0; padding-inline-start: 7em; text-indent:
-          -5em;</rendition>
-        <rendition xml:id="indent2_hanging-7">display: block; margin: 0; padding-inline-start: 9em; text-indent:
-          -7em;</rendition>
-        <rendition xml:id="indent3_hanging-5">display: block; margin: 0; padding-inline-start: 8em; text-indent:
-          -5em;</rendition>
-        <rendition xml:id="indent4_hanging-5">display: block; margin: 0; padding-inline-start: 9em; text-indent:
-          -5em;</rendition>
+        <rendition xml:id="indent1_hanging-6">display: block; margin: 0; padding-inline-start: 7em; text-indent: -6em;</rendition>
+        <rendition xml:id="indent2_hanging-1">display: block; margin: 0; padding-inline-start: 3em; text-indent: -1em;</rendition>
+        <rendition xml:id="indent2_hanging-3">display: block; margin: 0; padding-inline-start: 5em; text-indent: -3em;</rendition>
+        <rendition xml:id="indent2_hanging-4">display: block; margin: 0; padding-inline-start: 6em; text-indent: -4em;</rendition>
+        <rendition xml:id="indent2_hanging-5">display: block; margin: 0; padding-inline-start: 7em; text-indent: -5em;</rendition>
+        <rendition xml:id="indent2_hanging-7">display: block; margin: 0; padding-inline-start: 9em; text-indent: -7em;</rendition>
+        <rendition xml:id="indent3_hanging-5">display: block; margin: 0; padding-inline-start: 8em; text-indent: -5em;</rendition>
+        <rendition xml:id="indent4_hanging-5">display: block; margin: 0; padding-inline-start: 9em; text-indent: -5em;</rendition>
         <rendition xml:id="indent4_hanging-6">display: block; margin: 0; padding-inline-start: 10em; text-indent:
           -6em;</rendition>
         <rendition xml:id="indent5_hanging-5">display: block; margin: 0; padding-inline-start: 10em; text-indent:
@@ -1352,8 +1339,12 @@
         </unitDef>
       </unitDecl>
     </encodingDesc>
-    <revisionDesc ana="個別">
-      <listChange>
+    <revisionDesc>
+      <listChange xml:id="凡例">
+        <change when="2026-10-08"><date> 2026年10月8日
+          </date>主要写本・版本・刊本等略称・底本一覧、これまで鈴鹿本を慶安版本として扱ってきましたが、相曽貴志「延喜式版本の再検討」（『国立歴史民俗博物館研究報告』244、2024年）により慶安以前の古い版本である可能性が指摘されたことを受け、表記を改めました。これに伴い慶安版本・勢多本の表記を修正しました。</change>
+      </listChange>
+      <listChange xml:id="校訂文">
         <change when="2024-08-23"><date> 2024年8月23日 </date>
           システムの都合上表示されていなかった、第11伊賀国条（5名張郡）「宇流富志弥神社」を表示されるように改めました。それに伴い校異注を調整いたしました。 </change>
         <change when="2024-08-23"><date> 2024年8月23日 </date>
@@ -1404,7 +1395,8 @@
               <lb/>
               <seg rendition="#indent"> 一百八十八座〈並預祈年国幣、〉 </seg>
               <lb/> 小二千六百卌座 <lb/>
-              <pb facs="https://iiif.rekihaku.ac.jp/fcgi-bin/iipsrv.fcgi?IIIF=engishiki/H-743-74-9/00003.tif/full/max/0/default.jpg"/>
+              <pb
+                facs="https://iiif.rekihaku.ac.jp/fcgi-bin/iipsrv.fcgi?IIIF=engishiki/H-743-74-9/00003.tif/full/max/0/default.jpg"/>
               <seg rendition="#indent"> 四百卅三座〈並預祈年案下官幣、〉 </seg>
               <lb/>
               <seg rendition="#indent"><anchor xml:id="app0910010102"/> 二千二百七座〈並預祈年国幣、〉 <anchor xml:id="app0910010102e"/>
@@ -1424,8 +1416,7 @@
           <div ana="神名上" corresp="engishiki_v9_en.xml#article091002 engishiki_v9_ja.xml#article091002" n="9.2" type="条"
             xml:id="article091002">
             <head ana="宮中"/>
-            <p ana="項" corresp="engishiki_v9_en.xml#item09100201 engishiki_v9_ja.xml#item09100201" xml:id="item09100201">
-              宮中神卅六座 <lb/>
+            <p ana="項" corresp="engishiki_v9_en.xml#item09100201 engishiki_v9_ja.xml#item09100201" xml:id="item09100201"> 宮中神卅六座 <lb/>
               <orgName corresp="#神祇官"> 神祇官 </orgName> 西院坐御巫等祭神廿三座〈並大、月次、新嘗、〉 <lb/>
               <seg rendition="#indent"><anchor xml:id="app0910020101"/> 御巫祭神 <anchor xml:id="app0910020101e"/>
                 八座〈並大、月次・新嘗、中宮・東宮御巫亦同、〉 </seg>
@@ -1485,11 +1476,9 @@
               <seg rendition="#indent"><anchor xml:id="app0910020116"/> 御門巫祭神 <anchor xml:id="app0910020116e"/> 八座〈並大、月次、新嘗、〉 </seg>
               <table>
                 <row>
-                  <cell rendition="#width300"><anchor xml:id="app0910020117"/> 櫛石窓神 <anchor xml:id="app0910020117e"/>
-                    〈四面門各一座、〉 </cell>
+                  <cell rendition="#width300"><anchor xml:id="app0910020117"/> 櫛石窓神 <anchor xml:id="app0910020117e"/> 〈四面門各一座、〉 </cell>
                   <cell rendition="#width50"/>
-                  <cell rendition="#width300"><anchor xml:id="app0910020118"/> 豊石窓神 <anchor xml:id="app0910020118e"/>
-                    〈四面門各一座、〉 </cell>
+                  <cell rendition="#width300"><anchor xml:id="app0910020118"/> 豊石窓神 <anchor xml:id="app0910020118e"/> 〈四面門各一座、〉 </cell>
                   <cell rendition="#width50"/>
                   <cell rendition="#width300"/>
                 </row>
@@ -1539,17 +1528,15 @@
                 <row>
                   <cell rendition="#width300"> 酒殿神社二座〈並小、〉 </cell>
                   <cell rendition="#width50"/>
-                  <cell rendition="#width300"><anchor xml:id="app0910020129"/> 酒弥豆男神、酒弥豆女神 <anchor xml:id="app0910020129e"/>
-                    、 </cell>
+                  <cell rendition="#width300"><anchor xml:id="app0910020129"/> 酒弥豆男神、酒弥豆女神 <anchor xml:id="app0910020129e"/> 、 </cell>
                   <cell rendition="#width50"/>
                   <cell rendition="#width300"/>
                 </row>
               </table>
               <table>
                 <row>
-                  <cell rendition="#width300"><orgName corresp="#主水司"> 主水司 </orgName> 坐 <anchor xml:id="app0910020130"/> 神
-                      <anchor xml:id="app0910020130e"/> 一座 <anchor xml:id="app0910020131"/> 〈小、〉 <anchor
-                      xml:id="app0910020131e"/>
+                  <cell rendition="#width300"><orgName corresp="#主水司"> 主水司 </orgName> 坐 <anchor xml:id="app0910020130"/> 神 <anchor
+                      xml:id="app0910020130e"/> 一座 <anchor xml:id="app0910020131"/> 〈小、〉 <anchor xml:id="app0910020131e"/>
                   </cell>
                   <cell rendition="#width50"/>
                   <cell rendition="#width300"> 鳴雷神社 </cell>
@@ -1711,8 +1698,8 @@
           <div ana="神名上" corresp="engishiki_v9_en.xml#article091003 engishiki_v9_ja.xml#article091003" n="9.3" type="条"
             xml:id="article091003">
             <head ana="京中"/>
-            <p ana="項" corresp="engishiki_v9_en.xml#item09100301 engishiki_v9_ja.xml#item09100301" xml:id="item09100301">
-              京中坐神三座〈並 <anchor xml:id="app0910030101"/> 大 <anchor xml:id="app0910030101e"/> 、〉 <lb/>
+            <p ana="項" corresp="engishiki_v9_en.xml#item09100301 engishiki_v9_ja.xml#item09100301" xml:id="item09100301"> 京中坐神三座〈並
+                <anchor xml:id="app0910030101"/> 大 <anchor xml:id="app0910030101e"/> 、〉 <lb/>
               <seg rendition="#indent"> 左京二条坐 <anchor xml:id="app0910030102"/> 神 <anchor xml:id="app0910030102e"/>
                 <anchor xml:id="app0910030103"/> 社 <anchor xml:id="app0910030103e"/> 二座〈並月次・相嘗・新嘗、〉 </seg>
               <table>
@@ -1728,8 +1715,8 @@
               </table>
               <table rendition="#indent">
                 <row>
-                  <cell rendition="#width300"><anchor xml:id="app0910030106"/><anchor xml:id="app0910030106e"/> 同京四条坐神一座〈
-                      <anchor xml:id="app0910030107"/> 月次、新嘗 <anchor xml:id="app0910030107e"/> 、〉 </cell>
+                  <cell rendition="#width300"><anchor xml:id="app0910030106"/><anchor xml:id="app0910030106e"/> 同京四条坐神一座〈 <anchor
+                      xml:id="app0910030107"/> 月次、新嘗 <anchor xml:id="app0910030107e"/> 、〉 </cell>
                   <cell rendition="#width50"/>
                   <cell rendition="#width300"><anchor xml:id="app0910030108"/> 隼神社 <anchor xml:id="app0910030108e"/>
                   </cell>
@@ -1789,8 +1776,8 @@
             <p ana="項" corresp="engishiki_v9_en.xml#item09100501 engishiki_v9_ja.xml#item09100501" xml:id="item09100501"
                 ><placeName corresp="#山城国"> 山城国 </placeName> 一百廿二座 <lb/>
               <seg rendition="#indent"> 大五十三座〈並月次・新嘗、就中十一座預相嘗祭、〉 <pb
-                  facs="https://iiif.rekihaku.ac.jp/fcgi-bin/iipsrv.fcgi?IIIF=engishiki/H-743-74-9/00005.tif/full/max/0/default.jpg"/>
-                小六十 <anchor xml:id="app0910050101"/> 九 <anchor xml:id="app0910050101e"/> 座〈 <anchor xml:id="app0910050102"/>
+                  facs="https://iiif.rekihaku.ac.jp/fcgi-bin/iipsrv.fcgi?IIIF=engishiki/H-743-74-9/00005.tif/full/max/0/default.jpg"
+                /> 小六十 <anchor xml:id="app0910050101"/> 九 <anchor xml:id="app0910050101e"/> 座〈 <anchor xml:id="app0910050102"/>
                 並官幣 <anchor xml:id="app0910050102e"/> 、〉 </seg>
             </p>
             <app from="#app0910050101" to="#app0910050101e">
@@ -1845,8 +1832,7 @@
                 <row>
                   <cell rendition="#width300"><anchor xml:id="app0910050202"/><anchor xml:id="app0910050202e"/> 簀原神社 </cell>
                   <cell rendition="#width50"/>
-                  <cell rendition="#width300"> 小倉神社〈 <anchor xml:id="app0910050203"/> 大、月次、新嘗 <anchor xml:id="app0910050203e"
-                    /> 、〉 </cell>
+                  <cell rendition="#width300"> 小倉神社〈 <anchor xml:id="app0910050203"/> 大、月次、新嘗 <anchor xml:id="app0910050203e"/> 、〉 </cell>
                   <cell rendition="#width50"/>
                   <cell rendition="#width300"> 入野神社 </cell>
                 </row>
@@ -1911,8 +1897,8 @@
                   <cell rendition="#width50"/>
                   <cell rendition="#width300"> 阿刀神社 </cell>
                   <cell rendition="#width50"/>
-                  <cell rendition="#width300"> 松尾神社二座〈並名神大、月次、 <anchor xml:id="app0910050305"/> 相嘗 <anchor
-                      xml:id="app0910050305e"/> 、新嘗、〉 </cell>
+                  <cell rendition="#width300"> 松尾神社二座〈並名神大、月次、 <anchor xml:id="app0910050305"/> 相嘗 <anchor xml:id="app0910050305e"
+                    /> 、新嘗、〉 </cell>
                 </row>
                 <row>
                   <cell rendition="#width300"><anchor xml:id="app0910050306"/><anchor xml:id="app0910050306e"/> 深川神社 </cell>
@@ -1924,8 +1910,8 @@
                 </row>
                 <row>
                   <cell rendition="#width300"><anchor xml:id="app0910050308"/><anchor xml:id="app0910050308e"/><anchor
-                      xml:id="app0910050309"/> 平野祭神 <anchor xml:id="app0910050309e"/> 四 <anchor xml:id="app0910050310"/> 社
-                      <anchor xml:id="app0910050310e"/> 〈並名神大、月次、新嘗、〉 </cell>
+                      xml:id="app0910050309"/> 平野祭神 <anchor xml:id="app0910050309e"/> 四 <anchor xml:id="app0910050310"/> 社 <anchor
+                      xml:id="app0910050310e"/> 〈並名神大、月次、新嘗、〉 </cell>
                   <cell rendition="#width50"/>
                   <cell rendition="#width300"> 梅宮坐神四 <anchor xml:id="app0910050311"/> 社 <anchor xml:id="app0910050311e"/>
                     〈並名神大、月次、新嘗、〉 </cell>
@@ -1939,8 +1925,7 @@
                   <cell rendition="#width300"><anchor xml:id="app0910050314"/><anchor xml:id="app0910050314e"/><anchor
                       xml:id="app0910050315"/> 伴氏神社 <anchor xml:id="app0910050315e"/> 〈大、月次、新嘗、〉 </cell>
                   <cell rendition="#width50"/>
-                  <cell rendition="#width300"> 大酒神社〈元名大 <anchor xml:id="app0910050316"/> 辟 <anchor xml:id="app0910050316e"/>
-                    神、〉 </cell>
+                  <cell rendition="#width300"> 大酒神社〈元名大 <anchor xml:id="app0910050316"/> 辟 <anchor xml:id="app0910050316e"/> 神、〉 </cell>
                   <cell rendition="#width50"/>
                   <cell rendition="#width300"/>
                 </row>
@@ -2037,12 +2022,12 @@
               <seg rendition="#indent"> 愛宕郡廿一座〈大八座、小十三座、〉 </seg>
               <table>
                 <row>
-                  <cell rendition="#width300"><anchor xml:id="app0910050401"/> 賀茂別雷神社 <anchor xml:id="app0910050401e"/> 〈
-                      <anchor xml:id="app0910050402"/> 亦若 <anchor xml:id="app0910050402e"/> 雷、 <anchor xml:id="app0910050403"
-                    /> 名 <anchor xml:id="app0910050403e"/> 神大、月次、相嘗、新嘗、〉 </cell>
+                  <cell rendition="#width300"><anchor xml:id="app0910050401"/> 賀茂別雷神社 <anchor xml:id="app0910050401e"/> 〈 <anchor
+                      xml:id="app0910050402"/> 亦若 <anchor xml:id="app0910050402e"/> 雷、 <anchor xml:id="app0910050403"/> 名 <anchor
+                      xml:id="app0910050403e"/> 神大、月次、相嘗、新嘗、〉 </cell>
                   <cell rendition="#width50"/>
-                  <cell rendition="#width300"><anchor xml:id="app0910050404"/> 出雲井於神社 <anchor xml:id="app0910050404e"/>
-                    〈大、月次、 <anchor xml:id="app0910050405"/> 相嘗 <anchor xml:id="app0910050405e"/> 、新嘗、〉 </cell>
+                  <cell rendition="#width300"><anchor xml:id="app0910050404"/> 出雲井於神社 <anchor xml:id="app0910050404e"/> 〈大、月次、
+                      <anchor xml:id="app0910050405"/> 相嘗 <anchor xml:id="app0910050405e"/> 、新嘗、〉 </cell>
                   <cell rendition="#width50"/>
                   <cell rendition="#width300"/>
                 </row>
@@ -2090,11 +2075,10 @@
                   <cell rendition="#width300"><anchor xml:id="app0910050414"/> 大田神社 <anchor xml:id="app0910050414e"/>
                   </cell>
                   <cell rendition="#width50"/>
-                  <cell rendition="#width300"><anchor xml:id="app0910050415"/> 三井神社 <anchor xml:id="app0910050415e"/>
-                    〈名神大、月次、新 <anchor xml:id="app0910050416"/> 嘗 <anchor xml:id="app0910050416e"/> 、〉 </cell>
+                  <cell rendition="#width300"><anchor xml:id="app0910050415"/> 三井神社 <anchor xml:id="app0910050415e"/> 〈名神大、月次、新
+                      <anchor xml:id="app0910050416"/> 嘗 <anchor xml:id="app0910050416e"/> 、〉 </cell>
                   <cell rendition="#width50"/>
-                  <cell rendition="#width300"> 大 <anchor xml:id="app0910050417"/> 柴 <anchor xml:id="app0910050417e"/> 神社
-                  </cell>
+                  <cell rendition="#width300"> 大 <anchor xml:id="app0910050417"/> 柴 <anchor xml:id="app0910050417e"/> 神社 </cell>
                 </row>
                 <row>
                   <cell rendition="#width300"><anchor xml:id="app0910050418"/><anchor xml:id="app0910050418e"/> 高橋神社 </cell>
@@ -2239,20 +2223,18 @@
               <seg rendition="#indent"> 宇治郡十座〈大五座、小五座、〉 </seg>
               <table>
                 <row>
-                  <cell rendition="#width300"> 宇治神社二座〈 <anchor xml:id="app0910050601"/> 鍬、靫 <anchor xml:id="app0910050601e"/>
-                    、〉 </cell>
+                  <cell rendition="#width300"> 宇治神社二座〈 <anchor xml:id="app0910050601"/> 鍬、靫 <anchor xml:id="app0910050601e"/> 、〉 </cell>
                   <cell rendition="#width50"/>
                   <cell rendition="#width300"> 日向神社 </cell>
                   <cell rendition="#width50"/>
                   <cell rendition="#width300"><anchor xml:id="app0910050602"/> 許波多神社 <anchor xml:id="app0910050602e"/>
-                    <anchor xml:id="app0910050603"/> 三 <anchor xml:id="app0910050603e"/> 座〈並 <anchor xml:id="app0910050604"/>
-                    名神 <anchor xml:id="app0910050604e"/> 大、月次、新嘗、〉 </cell>
+                    <anchor xml:id="app0910050603"/> 三 <anchor xml:id="app0910050603e"/> 座〈並 <anchor xml:id="app0910050604"/> 名神
+                      <anchor xml:id="app0910050604e"/> 大、月次、新嘗、〉 </cell>
                 </row>
                 <row>
                   <cell rendition="#width300"><anchor xml:id="app0910050605"/><anchor xml:id="app0910050605e"/> 天穂日命神社 </cell>
                   <cell rendition="#width50"/>
-                  <cell rendition="#width300"> 宇治彼方神社〈 <anchor xml:id="app0910050606"/> 鍬、靫 <anchor xml:id="app0910050606e"/>
-                    、〉 </cell>
+                  <cell rendition="#width300"> 宇治彼方神社〈 <anchor xml:id="app0910050606"/> 鍬、靫 <anchor xml:id="app0910050606e"/> 、〉 </cell>
                   <cell rendition="#width50"/>
                   <cell rendition="#width300"> 山科神社二座〈並 <anchor xml:id="app0910050607"/> 名神 <anchor xml:id="app0910050607e"/>
                     大、月次、新嘗、〉 </cell>
@@ -2294,16 +2276,14 @@
               <note> 名神　永本・吉本・京博本・土本無し。剛本あり。 </note>
             </app>
             <p ana="項" corresp="engishiki_v9_en.xml#item09100507 engishiki_v9_ja.xml#item09100507" xml:id="item09100507">
-              <seg rendition="#indent"> 久世郡廿四座〈 <anchor xml:id="app0910050701"/> 大十一座、小十三座 <anchor xml:id="app0910050701e"/>
-                、〉 </seg>
+              <seg rendition="#indent"> 久世郡廿四座〈 <anchor xml:id="app0910050701"/> 大十一座、小十三座 <anchor xml:id="app0910050701e"/> 、〉 </seg>
               <table>
                 <row>
-                  <cell rendition="#width300"> 石田神社〈 <anchor xml:id="app0910050702"/> 大、月次、新嘗 <anchor xml:id="app0910050702e"
-                    /> 、〉 </cell>
+                  <cell rendition="#width300"> 石田神社〈 <anchor xml:id="app0910050702"/> 大、月次、新嘗 <anchor xml:id="app0910050702e"/> 、〉 </cell>
                   <cell rendition="#width50"/>
                   <cell rendition="#width300"> 水主神社十座〈並大、月次、新嘗、就中同水主坐天照御魂神・ <anchor xml:id="app0910050703"/> 三伴託 <anchor
-                      xml:id="app0910050703e"/> 山背大国魂命神二座預相嘗 <anchor xml:id="app0910050704"/> 祭 <anchor
-                      xml:id="app0910050704e"/> 、〉 </cell>
+                      xml:id="app0910050703e"/> 山背大国魂命神二座預相嘗 <anchor xml:id="app0910050704"/> 祭 <anchor xml:id="app0910050704e"/>
+                    、〉 </cell>
                   <cell rendition="#width50"/>
                   <cell rendition="#width300"/>
                 </row>
@@ -2312,14 +2292,13 @@
                   <cell rendition="#width50"/>
                   <cell rendition="#width300"><anchor xml:id="app0910050705"/> 双栗神社 <anchor xml:id="app0910050705e"/> 三座 </cell>
                   <cell rendition="#width50"/>
-                  <cell rendition="#width300"><anchor xml:id="app0910050706"/> 水度神社 <anchor xml:id="app0910050706e"/>
-                    三座〈鍬、靫、〉 </cell>
+                  <cell rendition="#width300"><anchor xml:id="app0910050706"/> 水度神社 <anchor xml:id="app0910050706e"/> 三座〈鍬、靫、〉
+                  </cell>
                 </row>
                 <row>
                   <cell rendition="#width300"> 旦椋神社 </cell>
                   <cell rendition="#width50"/>
-                  <cell rendition="#width300"> 伊勢田神社三座〈 <anchor xml:id="app0910050707"/> 鍬、靫 <anchor xml:id="app0910050707e"
-                    /> 、〉 </cell>
+                  <cell rendition="#width300"> 伊勢田神社三座〈 <anchor xml:id="app0910050707"/> 鍬、靫 <anchor xml:id="app0910050707e"/> 、〉 </cell>
                   <cell rendition="#width50"/>
                   <cell rendition="#width300"> 巨椋神社 </cell>
                 </row>
@@ -2367,12 +2346,10 @@
               <note> 鍬、靫　土本なし、永本・剛本・吉本・京博本あり。 </note>
             </app>
             <p ana="項" corresp="engishiki_v9_en.xml#item09100508 engishiki_v9_ja.xml#item09100508" xml:id="item09100508">
-              <seg rendition="#indent"> 綴 <anchor xml:id="app0910050801"/> 憙 <anchor xml:id="app0910050801e"/>
-                郡十四座〈大三座、小十一座、〉 </seg>
+              <seg rendition="#indent"> 綴 <anchor xml:id="app0910050801"/> 憙 <anchor xml:id="app0910050801e"/> 郡十四座〈大三座、小十一座、〉 </seg>
               <table>
                 <row>
-                  <cell rendition="#width300"><anchor xml:id="app0910050802"/> 樺井月神社 <anchor xml:id="app0910050802e"/>
-                    〈大、月次、新嘗、〉 </cell>
+                  <cell rendition="#width300"><anchor xml:id="app0910050802"/> 樺井月神社 <anchor xml:id="app0910050802e"/> 〈大、月次、新嘗、〉 </cell>
                   <cell rendition="#width50"/>
                   <cell rendition="#width300"> 朱智神社 </cell>
                   <cell rendition="#width50"/>
@@ -2401,7 +2378,8 @@
                   <cell rendition="#width50"/>
                   <cell rendition="#width300"> 天神社 </cell>
                 </row>
-                <pb facs="https://iiif.rekihaku.ac.jp/fcgi-bin/iipsrv.fcgi?IIIF=engishiki/H-743-74-9/00008.tif/full/max/0/default.jpg"/>
+                <pb
+                  facs="https://iiif.rekihaku.ac.jp/fcgi-bin/iipsrv.fcgi?IIIF=engishiki/H-743-74-9/00008.tif/full/max/0/default.jpg"/>
                 <row>
                   <cell rendition="#width300"> 地祇神社 </cell>
                   <cell rendition="#width50"/>
@@ -2450,8 +2428,7 @@
                 <row>
                   <cell rendition="#width300"> 岡田鴨神社〈大、月次、新嘗、〉 </cell>
                   <cell rendition="#width50"/>
-                  <cell rendition="#width300"><anchor xml:id="app0910050902"/> 岡田国神社 <anchor xml:id="app0910050902e"/>
-                    〈大、月次、新嘗、〉 </cell>
+                  <cell rendition="#width300"><anchor xml:id="app0910050902"/> 岡田国神社 <anchor xml:id="app0910050902e"/> 〈大、月次、新嘗、〉 </cell>
                   <cell rendition="#width50"/>
                   <cell rendition="#width300"/>
                 </row>
@@ -2493,11 +2470,9 @@
               <seg rendition="#indent"> 添上郡卅七座〈大九座、小廿八座、〉 </seg>
               <table>
                 <row>
-                  <cell rendition="#width300"> 鳴雷神社〈 <anchor xml:id="app0910060201"/> 大、月次、新嘗 <anchor xml:id="app0910060201e"
-                    /> 、〉 </cell>
+                  <cell rendition="#width300"> 鳴雷神社〈 <anchor xml:id="app0910060201"/> 大、月次、新嘗 <anchor xml:id="app0910060201e"/> 、〉 </cell>
                   <cell rendition="#width50"/>
-                  <cell rendition="#width300"><anchor xml:id="app0910060202"/> 率川坐大神神御子神社 <anchor xml:id="app0910060202e"/>
-                    三座 </cell>
+                  <cell rendition="#width300"><anchor xml:id="app0910060202"/> 率川坐大神神御子神社 <anchor xml:id="app0910060202e"/> 三座 </cell>
                   <cell rendition="#width50"/>
                   <cell rendition="#width300"/>
                 </row>
@@ -2524,8 +2499,7 @@
                   <cell rendition="#width300"> 高橋神社 </cell>
                 </row>
                 <row>
-                  <cell rendition="#width300"><anchor xml:id="app0910060206"/> 太 <anchor xml:id="app0910060206e"/>
-                    祝詞神社〈大、月次、新嘗、〉 </cell>
+                  <cell rendition="#width300"><anchor xml:id="app0910060206"/> 太 <anchor xml:id="app0910060206e"/> 祝詞神社〈大、月次、新嘗、〉 </cell>
                   <cell rendition="#width50"/>
                   <cell rendition="#width300"> 宅布世神社 </cell>
                   <cell rendition="#width50"/>
@@ -2536,8 +2510,7 @@
                   <cell rendition="#width50"/>
                   <cell rendition="#width300"> 春日神社 </cell>
                   <cell rendition="#width50"/>
-                  <cell rendition="#width300"> 売 <anchor xml:id="app0910060207"/> 太 <anchor xml:id="app0910060207e"/> 神社
-                  </cell>
+                  <cell rendition="#width300"> 売 <anchor xml:id="app0910060207"/> 太 <anchor xml:id="app0910060207e"/> 神社 </cell>
                 </row>
                 <row>
                   <cell rendition="#width300"><anchor xml:id="app0910060208"/> 春日祭 <anchor xml:id="app0910060209"/> 神 <anchor
@@ -2681,9 +2654,8 @@
                   <cell rendition="#width300"/>
                 </row>
                 <row>
-                  <cell rendition="#width300"><anchor xml:id="app0910060403"/> 往馬坐伊古麻 <anchor xml:id="app0910060404"/> 都
-                      <anchor xml:id="app0910060404e"/> 比古神 <anchor xml:id="app0910060405"/> 社 <anchor
-                      xml:id="app0910060405e"/>
+                  <cell rendition="#width300"><anchor xml:id="app0910060403"/> 往馬坐伊古麻 <anchor xml:id="app0910060404"/> 都 <anchor
+                      xml:id="app0910060404e"/> 比古神 <anchor xml:id="app0910060405"/> 社 <anchor xml:id="app0910060405e"/>
                     <anchor xml:id="app0910060403e"/> 二座〈並大、月次、新嘗、〉 </cell>
                   <cell rendition="#width50"/>
                   <cell rendition="#width300"> 平 <anchor xml:id="app0910060406"/> 群 <anchor xml:id="app0910060406e"/>
@@ -2801,10 +2773,10 @@
               <table>
                 <row>
                   <cell rendition="#width300"><anchor xml:id="app0910060601"/><anchor xml:id="app0910060601e"/><anchor
-                      xml:id="app0910060602"/> 鴨都波八重事代主命 <anchor xml:id="app0910060603"/> 神 <anchor xml:id="app0910060603e"/>
-                    社 <anchor xml:id="app0910060602e"/>
-                    <anchor xml:id="app0910060604"/> 二座 <anchor xml:id="app0910060604e"/> 〈 <anchor xml:id="app0910060605"/>
-                    名 <anchor xml:id="app0910060605e"/> 神大、月次、相嘗、新嘗、〉 </cell>
+                      xml:id="app0910060602"/> 鴨都波八重事代主命 <anchor xml:id="app0910060603"/> 神 <anchor xml:id="app0910060603e"/> 社
+                      <anchor xml:id="app0910060602e"/>
+                    <anchor xml:id="app0910060604"/> 二座 <anchor xml:id="app0910060604e"/> 〈 <anchor xml:id="app0910060605"/> 名
+                      <anchor xml:id="app0910060605e"/> 神大、月次、相嘗、新嘗、〉 </cell>
                   <cell rendition="#width50"/>
                   <cell rendition="#width300"><anchor xml:id="app0910060606"/> 葛木御歳神社 <anchor xml:id="app0910060606e"/>
                     〈名神大、月次、新嘗、〉 </cell>
@@ -2815,8 +2787,7 @@
                   <cell rendition="#width300"> 葛木坐 <anchor xml:id="app0910060607"/> 一言主 <anchor xml:id="app0910060607e"/>
                     神社〈名神大、月次、 <anchor xml:id="app0910060608"/> 新 <anchor xml:id="app0910060608e"/> 嘗、〉 </cell>
                   <cell rendition="#width50"/>
-                  <cell rendition="#width300"> 多太神社〈 <anchor xml:id="app0910060609"/> 鍬、靫 <anchor xml:id="app0910060609e"/>
-                    、〉 </cell>
+                  <cell rendition="#width300"> 多太神社〈 <anchor xml:id="app0910060609"/> 鍬、靫 <anchor xml:id="app0910060609e"/> 、〉 </cell>
                   <cell rendition="#width50"/>
                   <cell rendition="#width300"><anchor xml:id="app0910060610"/> 長柄神社 <anchor xml:id="app0910060610e"/> 〈鍬、靫、〉
                   </cell>
@@ -2827,8 +2798,8 @@
                   <cell rendition="#width300"><anchor xml:id="app0910060611"/> 葛木水分神社 <anchor xml:id="app0910060611e"/>
                     〈名神大、月次、新嘗、〉 </cell>
                   <cell rendition="#width50"/>
-                  <cell rendition="#width300"><anchor xml:id="app0910060612"/> 鴨山口神社 <anchor xml:id="app0910060612e"/>
-                    〈大、月次、新嘗、〉 </cell>
+                  <cell rendition="#width300"><anchor xml:id="app0910060612"/> 鴨山口神社 <anchor xml:id="app0910060612e"/> 〈大、月次、新嘗、〉
+                  </cell>
                 </row>
                 <row>
                   <cell rendition="#width300"> 高天彦神社〈名神大、月次、相嘗、新嘗、〉 </cell>
@@ -2944,8 +2915,8 @@
                 <row>
                   <cell rendition="#width300"> 葛木倭文坐天羽雷命神社〈大、月次、新嘗、〉 </cell>
                   <cell rendition="#width50"/>
-                  <cell rendition="#width300"> 片岡坐神社〈名神大、 <anchor xml:id="app0910060701"/> 月 <anchor xml:id="app0910060701e"
-                    /> 次、新嘗、〉 </cell>
+                  <cell rendition="#width300"> 片岡坐神社〈名神大、 <anchor xml:id="app0910060701"/> 月 <anchor xml:id="app0910060701e"/>
+                    次、新嘗、〉 </cell>
                   <cell rendition="#width50"/>
                   <cell rendition="#width300"/>
                 </row>
@@ -2970,8 +2941,8 @@
                 <row>
                   <cell rendition="#width300"> 深溝神社 </cell>
                   <cell rendition="#width50"/>
-                  <cell rendition="#width300"> 火幡神社〈 <anchor xml:id="app0910060705"/> 名神大、月次、新嘗 <anchor
-                      xml:id="app0910060705e"/> 、〉 </cell>
+                  <cell rendition="#width300"> 火幡神社〈 <anchor xml:id="app0910060705"/> 名神大、月次、新嘗 <anchor xml:id="app0910060705e"/>
+                    、〉 </cell>
                   <cell rendition="#width50"/>
                   <cell rendition="#width300"> 志都美神 <anchor xml:id="app0910060706"/> 社 <anchor xml:id="app0910060706e"/>
                   </cell>
@@ -2981,8 +2952,8 @@
                   <cell rendition="#width50"/>
                   <cell rendition="#width300"> 当麻都比古神社二座 </cell>
                   <cell rendition="#width50"/>
-                  <cell rendition="#width300"> 当麻山口神社〈 <anchor xml:id="app0910060707"/> 大、月次、新嘗 <anchor
-                      xml:id="app0910060707e"/> 、〉 </cell>
+                  <cell rendition="#width300"> 当麻山口神社〈 <anchor xml:id="app0910060707"/> 大、月次、新嘗 <anchor xml:id="app0910060707e"/>
+                    、〉 </cell>
                 </row>
                 <row>
                   <cell rendition="#width300"> 大坂山口神社〈大、月次、新嘗、〉 </cell>
@@ -3067,8 +3038,7 @@
                   </cell>
                 </row>
                 <row>
-                  <cell rendition="#width300"> 高天山佐 <anchor xml:id="app0910060906"/> 太 <anchor xml:id="app0910060906e"/>
-                    雄神社〈鍬、〉 </cell>
+                  <cell rendition="#width300"> 高天山佐 <anchor xml:id="app0910060906"/> 太 <anchor xml:id="app0910060906e"/> 雄神社〈鍬、〉 </cell>
                   <cell rendition="#width50"/>
                   <cell rendition="#width300"> 一尾背神社 </cell>
                   <cell rendition="#width50"/>
@@ -3124,13 +3094,12 @@
               <seg rendition="#indent"><anchor xml:id="app0910061001"/> 吉野郡十座 <anchor xml:id="app0910061001e"/> 〈大五座、小五座、〉 </seg>
               <table>
                 <row>
-                  <cell rendition="#width300"><anchor xml:id="app0910061002"/><anchor xml:id="app0910061002e"/>
-                    吉野水分神社〈大、月次、新嘗、〉 </cell>
+                  <cell rendition="#width300"><anchor xml:id="app0910061002"/><anchor xml:id="app0910061002e"/> 吉野水分神社〈大、月次、新嘗、〉 </cell>
                   <cell rendition="#width50"/>
                   <cell rendition="#width300"> 吉野山口神社〈大、月次、新嘗、〉 </cell>
                   <cell rendition="#width50"/>
-                  <cell rendition="#width300"><anchor xml:id="app0910061003"/> 大名持神社 <anchor xml:id="app0910061003e"/>
-                    〈名神大、月次、 <anchor xml:id="app0910061004"/> 相嘗 <anchor xml:id="app0910061004e"/> 、新嘗、〉 </cell>
+                  <cell rendition="#width300"><anchor xml:id="app0910061003"/> 大名持神社 <anchor xml:id="app0910061003e"/> 〈名神大、月次、
+                      <anchor xml:id="app0910061004"/> 相嘗 <anchor xml:id="app0910061004e"/> 、新嘗、〉 </cell>
                 </row>
                 <row>
                   <cell rendition="#width300"><anchor xml:id="app0910061005"/><anchor xml:id="app0910061005e"/><anchor
@@ -3141,19 +3110,20 @@
                   <cell rendition="#width300"> 高桙神社〈 <anchor xml:id="app0910061007"/> 鍬 <anchor xml:id="app0910061007e"/> 、〉
                   </cell>
                 </row>
-                <pb facs="https://iiif.rekihaku.ac.jp/fcgi-bin/iipsrv.fcgi?IIIF=engishiki/H-743-74-9/00012.tif/full/max/0/default.jpg"/>
+                <pb
+                  facs="https://iiif.rekihaku.ac.jp/fcgi-bin/iipsrv.fcgi?IIIF=engishiki/H-743-74-9/00012.tif/full/max/0/default.jpg"/>
                 <row>
                   <cell rendition="#width300"> 川上鹿塩神社 <anchor xml:id="app0910061008"/> 〈鍬、〉 <anchor xml:id="app0910061008e"/>
                   </cell>
                   <cell rendition="#width50"/>
                   <cell rendition="#width300"> 伊波多神社 </cell>
                   <cell rendition="#width50"/>
-                  <cell rendition="#width300"><anchor xml:id="app0910061009"/> 波宝神社 <anchor xml:id="app0910061009e"/> 〈
-                      <anchor xml:id="app0910061010"/> 鍬 <anchor xml:id="app0910061010e"/> 、〉 </cell>
+                  <cell rendition="#width300"><anchor xml:id="app0910061009"/> 波宝神社 <anchor xml:id="app0910061009e"/> 〈 <anchor
+                      xml:id="app0910061010"/> 鍬 <anchor xml:id="app0910061010e"/> 、〉 </cell>
                 </row>
                 <row>
-                  <cell rendition="#width300"><anchor xml:id="app0910061011"/> 波比売神 <anchor xml:id="app0910061012"/> 社
-                      <anchor xml:id="app0910061012e"/>
+                  <cell rendition="#width300"><anchor xml:id="app0910061011"/> 波比売神 <anchor xml:id="app0910061012"/> 社 <anchor
+                      xml:id="app0910061012e"/>
                     <anchor xml:id="app0910061011e"/>
                   </cell>
                   <cell rendition="#width50"/>
@@ -3230,26 +3200,22 @@
                 <row>
                   <cell rendition="#width300"> 宇太水分神社〈大、月次、新嘗、〉 </cell>
                   <cell rendition="#width50"/>
-                  <cell rendition="#width300"> 阿紀神社〈 <anchor xml:id="app0910061101"/> 鍬、靫 <anchor xml:id="app0910061101e"/>
-                    、〉 </cell>
+                  <cell rendition="#width300"> 阿紀神社〈 <anchor xml:id="app0910061101"/> 鍬、靫 <anchor xml:id="app0910061101e"/> 、〉 </cell>
                   <cell rendition="#width50"/>
                   <cell rendition="#width300"> 門僕神社〈鍬、靫、〉 </cell>
                 </row>
                 <row>
-                  <cell rendition="#width300"> 丹生神社〈 <anchor xml:id="app0910061102"/> 鍬、靫 <anchor xml:id="app0910061102e"/>
-                    、〉 </cell>
+                  <cell rendition="#width300"> 丹生神社〈 <anchor xml:id="app0910061102"/> 鍬、靫 <anchor xml:id="app0910061102e"/> 、〉 </cell>
                   <cell rendition="#width50"/>
                   <cell rendition="#width300"> 御杖神社 </cell>
                   <cell rendition="#width50"/>
-                  <cell rendition="#width300"><anchor xml:id="app0910061103"/> 椋 <anchor xml:id="app0910061103e"/> 下神社〈
-                      <anchor xml:id="app0910061104"/> 靫 <anchor xml:id="app0910061104e"/> 、〉 </cell>
+                  <cell rendition="#width300"><anchor xml:id="app0910061103"/> 椋 <anchor xml:id="app0910061103e"/> 下神社〈 <anchor
+                      xml:id="app0910061104"/> 靫 <anchor xml:id="app0910061104e"/> 、〉 </cell>
                 </row>
                 <row>
-                  <cell rendition="#width300"> 高角神社二座〈 <anchor xml:id="app0910061105"/> 鍬 <anchor xml:id="app0910061105e"/>
-                    、〉 </cell>
+                  <cell rendition="#width300"> 高角神社二座〈 <anchor xml:id="app0910061105"/> 鍬 <anchor xml:id="app0910061105e"/> 、〉 </cell>
                   <cell rendition="#width50"/>
-                  <cell rendition="#width300"> 八咫烏神社〈 <anchor xml:id="app0910061106"/> 鍬、靫 <anchor xml:id="app0910061106e"/>
-                    、〉 </cell>
+                  <cell rendition="#width300"> 八咫烏神社〈 <anchor xml:id="app0910061106"/> 鍬、靫 <anchor xml:id="app0910061106e"/> 、〉 </cell>
                   <cell rendition="#width50"/>
                   <cell rendition="#width300"> 味坂比売命神社 </cell>
                 </row>
@@ -3258,8 +3224,8 @@
                   <cell rendition="#width50"/>
                   <cell rendition="#width300"> 岡田小秦命神社 </cell>
                   <cell rendition="#width50"/>
-                  <cell rendition="#width300"> 神御子美牟須比 <anchor xml:id="app0910061107"/> 女 <anchor xml:id="app0910061107e"/>
-                    命神社 </cell>
+                  <cell rendition="#width300"> 神御子美牟須比 <anchor xml:id="app0910061107"/> 女 <anchor xml:id="app0910061107e"/> 命神社
+                  </cell>
                 </row>
                 <row>
                   <cell rendition="#width300"><anchor xml:id="app0910061108"/><anchor xml:id="app0910061108e"/> 桜実神社 </cell>
@@ -3342,8 +3308,8 @@
                   <cell rendition="#width300"> 巻向坐若御魂 <anchor xml:id="app0910061204"/> 神 <anchor xml:id="app0910061204e"/>
                     社〈大、月次、相嘗、新嘗、〉 </cell>
                   <cell rendition="#width50"/>
-                  <cell rendition="#width300"><anchor xml:id="app0910061205"/> 他 <anchor xml:id="app0910061205e"/>
-                    田坐天照御魂神社〈大、月次、 <anchor xml:id="app0910061206"/> 新嘗 <anchor xml:id="app0910061206e"/> 、〉 </cell>
+                  <cell rendition="#width300"><anchor xml:id="app0910061205"/> 他 <anchor xml:id="app0910061205e"/> 田坐天照御魂神社〈大、月次、
+                      <anchor xml:id="app0910061206"/> 新嘗 <anchor xml:id="app0910061206e"/> 、〉 </cell>
                   <cell rendition="#width50"/>
                   <cell rendition="#width300"> 志貴御 <anchor xml:id="app0910061207"/> 県 <anchor xml:id="app0910061207e"/>
                     坐神社〈大、月次、新嘗、〉 </cell>
@@ -3377,16 +3343,14 @@
                   <cell rendition="#width50"/>
                   <cell rendition="#width300"> 宇太依田神社 </cell>
                   <cell rendition="#width50"/>
-                  <cell rendition="#width300"> 玉 <anchor xml:id="app0910061209"/> 烈 <anchor xml:id="app0910061209e"/> 神社
-                  </cell>
+                  <cell rendition="#width300"> 玉 <anchor xml:id="app0910061209"/> 烈 <anchor xml:id="app0910061209e"/> 神社 </cell>
                 </row>
                 <row>
                   <cell rendition="#width300"> 伊射奈岐神社 </cell>
                   <cell rendition="#width50"/>
                   <cell rendition="#width300"> 綱越神社 </cell>
                   <cell rendition="#width50"/>
-                  <cell rendition="#width300"><anchor xml:id="app0910061210"/> 稔 <anchor xml:id="app0910061210e"/> 代神社
-                  </cell>
+                  <cell rendition="#width300"><anchor xml:id="app0910061210"/> 稔 <anchor xml:id="app0910061210e"/> 代神社 </cell>
                 </row>
                 <row>
                   <cell rendition="#width300"> 穴師大兵主神社 </cell>
@@ -3398,8 +3362,8 @@
                 </row>
                 <row>
                   <cell rendition="#width300"><anchor xml:id="app0910061213"/><anchor xml:id="app0910061213e"/><anchor
-                      xml:id="app0910061214"/> 高屋安倍神社 <anchor xml:id="app0910061214e"/> 三座〈並 <anchor xml:id="app0910061215"/>
-                    大 <anchor xml:id="app0910061215e"/> 、月次、新嘗、〉 </cell>
+                      xml:id="app0910061214"/> 高屋安倍神社 <anchor xml:id="app0910061214e"/> 三座〈並 <anchor xml:id="app0910061215"/> 大
+                      <anchor xml:id="app0910061215e"/> 、月次、新嘗、〉 </cell>
                   <cell rendition="#width50"/>
                   <cell rendition="#width300"> 宗像神社 <anchor xml:id="app0910061216"/> 三 <anchor xml:id="app0910061216e"/> 座〈並
                       <anchor xml:id="app0910061217"/> 大、月次、新嘗 <anchor xml:id="app0910061217e"/> 、〉 </cell>
@@ -3512,23 +3476,20 @@
                 <row>
                   <cell rendition="#width300"> 千代神社 </cell>
                   <cell rendition="#width50"/>
-                  <cell rendition="#width300"> 岐多志太神社二座〈 <anchor xml:id="app0910061304"/> 鍬、靫 <anchor xml:id="app0910061304e"
-                    /> 、〉 </cell>
+                  <cell rendition="#width300"> 岐多志太神社二座〈 <anchor xml:id="app0910061304"/> 鍬、靫 <anchor xml:id="app0910061304e"/> 、〉 </cell>
                   <cell rendition="#width50"/>
                   <cell rendition="#width300"> 倭恩智神社〈鍬、靫、〉 </cell>
                 </row>
                 <row>
-                  <cell rendition="#width300"> 比売久波神社〈 <anchor xml:id="app0910061305"/> 鍬、靫 <anchor xml:id="app0910061305e"/>
-                    、〉 </cell>
+                  <cell rendition="#width300"> 比売久波神社〈 <anchor xml:id="app0910061305"/> 鍬、靫 <anchor xml:id="app0910061305e"/> 、〉 </cell>
                   <cell rendition="#width50"/>
-                  <cell rendition="#width300"> 服部神社二座〈鍬、 <anchor xml:id="app0910061306"/> 靫 <anchor xml:id="app0910061306e"/>
-                    、〉 </cell>
+                  <cell rendition="#width300"> 服部神社二座〈鍬、 <anchor xml:id="app0910061306"/> 靫 <anchor xml:id="app0910061306e"/> 、〉 </cell>
                   <cell rendition="#width50"/>
                   <cell rendition="#width300"> 富都神社〈鍬、靫、〉 </cell>
                 </row>
                 <row>
-                  <cell rendition="#width300"><anchor xml:id="app0910061307"/> 糸 <anchor xml:id="app0910061307e"/> 井神社〈
-                      <anchor xml:id="app0910061308"/> 靫 <anchor xml:id="app0910061308e"/> 、〉 </cell>
+                  <cell rendition="#width300"><anchor xml:id="app0910061307"/> 糸 <anchor xml:id="app0910061307e"/> 井神社〈 <anchor
+                      xml:id="app0910061308"/> 靫 <anchor xml:id="app0910061308e"/> 、〉 </cell>
                   <cell rendition="#width50"/>
                   <cell rendition="#width300"> 村屋神社二座 </cell>
                   <cell rendition="#width50"/>
@@ -3588,12 +3549,13 @@
             </app>
             <p ana="項" corresp="engishiki_v9_en.xml#item09100614 engishiki_v9_ja.xml#item09100614" xml:id="item09100614">
               <seg rendition="#indent"><anchor xml:id="app0910061401"/><anchor xml:id="app0910061401e"/> 高市郡五十四座〈大卅三座、小廿一座、〉 </seg>
-              <pb facs="https://iiif.rekihaku.ac.jp/fcgi-bin/iipsrv.fcgi?IIIF=engishiki/H-743-74-9/00014.tif/full/max/0/default.jpg"/>
+              <pb
+                facs="https://iiif.rekihaku.ac.jp/fcgi-bin/iipsrv.fcgi?IIIF=engishiki/H-743-74-9/00014.tif/full/max/0/default.jpg"/>
               <table>
                 <row>
                   <cell rendition="#width300"> 高市御 <anchor xml:id="app0910061402"/> 県 <anchor xml:id="app0910061402e"/> 坐鴨事代
-                      <anchor xml:id="app0910061403"/> 主 <anchor xml:id="app0910061403e"/> 神 <anchor xml:id="app0910061404"/>
-                    社 <anchor xml:id="app0910061404e"/> 〈大、月次、新嘗、〉 </cell>
+                      <anchor xml:id="app0910061403"/> 主 <anchor xml:id="app0910061403e"/> 神 <anchor xml:id="app0910061404"/> 社
+                      <anchor xml:id="app0910061404e"/> 〈大、月次、新嘗、〉 </cell>
                   <cell rendition="#width50"/>
                   <cell rendition="#width300"> 飛鳥坐神社四座〈並名神大、月次、相嘗、新 <anchor xml:id="app0910061405"/> 嘗 <anchor
                       xml:id="app0910061405e"/> 、〉 </cell>
@@ -3609,9 +3571,9 @@
                   <cell rendition="#width300"/>
                 </row>
                 <row>
-                  <cell rendition="#width300"><anchor xml:id="app0910061407"/> 甘樫坐神社 <anchor xml:id="app0910061407e"/>
-                    四座〈並大、月次、 <anchor xml:id="app0910061408"/> 相嘗 <anchor xml:id="app0910061408e"/> 、 <anchor
-                      xml:id="app0910061409"/> 新嘗 <anchor xml:id="app0910061409e"/> 、〉 </cell>
+                  <cell rendition="#width300"><anchor xml:id="app0910061407"/> 甘樫坐神社 <anchor xml:id="app0910061407e"/> 四座〈並大、月次、
+                      <anchor xml:id="app0910061408"/> 相嘗 <anchor xml:id="app0910061408e"/> 、 <anchor xml:id="app0910061409"/> 新嘗
+                      <anchor xml:id="app0910061409e"/> 、〉 </cell>
                   <cell rendition="#width50"/>
                   <cell rendition="#width300"><anchor xml:id="app0910061410"/> 稌 <anchor xml:id="app0910061410e"/> 代坐神社〈大、月次、
                       <anchor xml:id="app0910061411"/> 新 <anchor xml:id="app0910061411e"/> 嘗、〉 </cell>
@@ -3619,8 +3581,8 @@
                   <cell rendition="#width300"> 牟佐坐神社〈大、月次、新嘗、〉 </cell>
                 </row>
                 <row>
-                  <cell rendition="#width300"> 畝 <anchor xml:id="app0910061412"/> 火 <anchor xml:id="app0910061412e"/> 山口
-                      <anchor xml:id="app0910061413"/> 坐 <anchor xml:id="app0910061413e"/> 神社〈大、月次、新嘗、〉 </cell>
+                  <cell rendition="#width300"> 畝 <anchor xml:id="app0910061412"/> 火 <anchor xml:id="app0910061412e"/> 山口 <anchor
+                      xml:id="app0910061413"/> 坐 <anchor xml:id="app0910061413e"/> 神社〈大、月次、新嘗、〉 </cell>
                   <cell rendition="#width50"/>
                   <cell rendition="#width300"> 高市御県神社〈名神大、月次、新嘗、〉 </cell>
                   <cell rendition="#width50"/>
@@ -3848,8 +3810,8 @@
                   <cell rendition="#width50"/>
                   <cell rendition="#width300"> 子部神社二座〈並大、月次、新嘗、〉 </cell>
                   <cell rendition="#width50"/>
-                  <cell rendition="#width300"> 畝尾都多本神社〈 <anchor xml:id="app0910061506"/> 鍬、靫 <anchor xml:id="app0910061506e"
-                    /> 、〉 </cell>
+                  <cell rendition="#width300"> 畝尾都多本神社〈 <anchor xml:id="app0910061506"/> 鍬、靫 <anchor xml:id="app0910061506e"/> 、〉
+                  </cell>
                 </row>
                 <row>
                   <cell rendition="#width300"><anchor xml:id="app0910061507"/> 天香山坐櫛真命神社 <anchor xml:id="app0910061507e"/>
@@ -3951,7 +3913,8 @@
                   <cell rendition="#width50"/>
                   <cell rendition="#width300"> 祝田神社 </cell>
                 </row>
-                <pb facs="https://iiif.rekihaku.ac.jp/fcgi-bin/iipsrv.fcgi?IIIF=engishiki/H-743-74-9/00016.tif/full/max/0/default.jpg"/>
+                <pb
+                  facs="https://iiif.rekihaku.ac.jp/fcgi-bin/iipsrv.fcgi?IIIF=engishiki/H-743-74-9/00016.tif/full/max/0/default.jpg"/>
                 <row>
                   <cell rendition="#width300"><anchor xml:id="app0910061605"/><anchor xml:id="app0910061605e"/> 石上市神社 </cell>
                   <cell rendition="#width50"/>
@@ -4055,8 +4018,8 @@
                   <cell rendition="#width300"><anchor xml:id="app0910070401"/><anchor xml:id="app0910070401e"/><anchor
                       xml:id="app0910070402"/> 杜 <anchor xml:id="app0910070402e"/> 本神社二座〈並名神大、月次、新嘗、〉 </cell>
                   <cell rendition="#width50"/>
-                  <cell rendition="#width300"> 飛鳥戸神社〈 <anchor xml:id="app0910070403"/> 名神大、月次、新嘗 <anchor
-                      xml:id="app0910070403e"/> 、〉 </cell>
+                  <cell rendition="#width300"> 飛鳥戸神社〈 <anchor xml:id="app0910070403"/> 名神大、月次、新嘗 <anchor xml:id="app0910070403e"/>
+                    、〉 </cell>
                   <cell rendition="#width50"/>
                   <cell rendition="#width300"> 伯太彦神社〈鍬、〉 </cell>
                 </row>
@@ -4113,8 +4076,7 @@
                 <row>
                   <cell rendition="#width300"><anchor xml:id="app0910070503"/><anchor xml:id="app0910070503e"/> 大狛神社 </cell>
                   <cell rendition="#width50"/>
-                  <cell rendition="#width300"> 若倭彦命神社〈 <anchor xml:id="app0910070504"/> 鍬 <anchor xml:id="app0910070504e"/>
-                    、〉 </cell>
+                  <cell rendition="#width300"> 若倭彦命神社〈 <anchor xml:id="app0910070504"/> 鍬 <anchor xml:id="app0910070504e"/> 、〉 </cell>
                   <cell rendition="#width50"/>
                   <cell rendition="#width300"> 若倭姫命神社〈鍬、〉 </cell>
                 </row>
@@ -4152,13 +4114,13 @@
               <seg rendition="#indent"> 高安郡十座〈大四座、小六座、〉 </seg>
               <table>
                 <row>
-                  <cell rendition="#width300"><anchor xml:id="app0910070601"/> 恩智神社 <anchor xml:id="app0910070601e"/>
-                    二座〈並名神大、月次、 <anchor xml:id="app0910070602"/> 相嘗 <anchor xml:id="app0910070602e"/> 、新嘗、〉 </cell>
+                  <cell rendition="#width300"><anchor xml:id="app0910070601"/> 恩智神社 <anchor xml:id="app0910070601e"/> 二座〈並名神大、月次、
+                      <anchor xml:id="app0910070602"/> 相嘗 <anchor xml:id="app0910070602e"/> 、新嘗、〉 </cell>
                   <cell rendition="#width50"/>
                   <cell rendition="#width300"> 都夫久美神社 </cell>
                   <cell rendition="#width50"/>
-                  <cell rendition="#width300"> 天照 <anchor xml:id="app0910070603"/> 太 <anchor xml:id="app0910070603e"/>
-                    神高座神社二座〈 <anchor xml:id="app0910070604"/> 並大、月次、新嘗、元名春日戸神 <anchor xml:id="app0910070604e"/> 、〉 </cell>
+                  <cell rendition="#width300"> 天照 <anchor xml:id="app0910070603"/> 太 <anchor xml:id="app0910070603e"/> 神高座神社二座〈
+                      <anchor xml:id="app0910070604"/> 並大、月次、新嘗、元名春日戸神 <anchor xml:id="app0910070604e"/> 、〉 </cell>
                 </row>
                 <row>
                   <cell rendition="#width300"> 玉祖神社 </cell>
@@ -4205,8 +4167,8 @@
               <seg rendition="#indent"> 河内郡十座〈大四座、小六座、〉 </seg>
               <table>
                 <row>
-                  <cell rendition="#width300"><anchor xml:id="app0910070701"/> 枚岡神四座 <anchor xml:id="app0910070701e"/> 〈
-                      <anchor xml:id="app0910070702"/> 名 <anchor xml:id="app0910070702e"/> 神大、月次、相嘗、新嘗、〉 </cell>
+                  <cell rendition="#width300"><anchor xml:id="app0910070701"/> 枚岡神四座 <anchor xml:id="app0910070701e"/> 〈 <anchor
+                      xml:id="app0910070702"/> 名 <anchor xml:id="app0910070702e"/> 神大、月次、相嘗、新嘗、〉 </cell>
                   <cell rendition="#width50"/>
                   <cell rendition="#width300"> 津原神社 </cell>
                   <cell rendition="#width50"/>
@@ -4395,8 +4357,7 @@
                   <cell rendition="#width50"/>
                   <cell rendition="#width300"> 許麻神社 </cell>
                   <cell rendition="#width50"/>
-                  <cell rendition="#width300"> 都留 <anchor xml:id="app0910071202"/> 弥 <anchor xml:id="app0910071202e"/> 神社
-                  </cell>
+                  <cell rendition="#width300"> 都留 <anchor xml:id="app0910071202"/> 弥 <anchor xml:id="app0910071202e"/> 神社 </cell>
                 </row>
               </table>
             </p>
@@ -4476,22 +4437,19 @@
                 <row>
                   <cell rendition="#width300"> 丹比神社〈鍬、靫、〉 </cell>
                   <cell rendition="#width50"/>
-                  <cell rendition="#width300"> 阿麻美許曾神社〈 <anchor xml:id="app0910071401"/> 鍬、靫 <anchor xml:id="app0910071401e"
-                    /> 、〉 </cell>
+                  <cell rendition="#width300"> 阿麻美許曾神社〈 <anchor xml:id="app0910071401"/> 鍬、靫 <anchor xml:id="app0910071401e"/> 、〉 </cell>
                   <cell rendition="#width50"/>
                   <cell rendition="#width300"> 狭山堤神社〈大、月次、新嘗、〉 </cell>
                 </row>
                 <row>
                   <cell rendition="#width300"> 大津神社三座〈鍬、靫、〉 </cell>
                   <cell rendition="#width50"/>
-                  <cell rendition="#width300"> 狭山神社〈大、月次、 <anchor xml:id="app0910071402"/> 新 <anchor xml:id="app0910071402e"
-                    /> 嘗、〉 </cell>
+                  <cell rendition="#width300"> 狭山神社〈大、月次、 <anchor xml:id="app0910071402"/> 新 <anchor xml:id="app0910071402e"/> 嘗、〉 </cell>
                   <cell rendition="#width50"/>
                   <cell rendition="#width300"> 菅生神社〈大、月次、新嘗、〉 </cell>
                 </row>
                 <row>
-                  <cell rendition="#width300"> 酒屋神社〈 <anchor xml:id="app0910071403"/> 鍬、靫 <anchor xml:id="app0910071403e"/>
-                    、〉 </cell>
+                  <cell rendition="#width300"> 酒屋神社〈 <anchor xml:id="app0910071403"/> 鍬、靫 <anchor xml:id="app0910071403e"/> 、〉 </cell>
                   <cell rendition="#width50"/>
                   <cell rendition="#width300"><anchor xml:id="app0910071404"/> 櫟 <anchor xml:id="app0910071404e"/> 本神社〈鍬、靫、〉 </cell>
                   <cell rendition="#width50"/>
@@ -4536,7 +4494,8 @@
                 ><placeName corresp="#和泉国"> 和泉国 </placeName> 六十二座 <lb/>
               <seg rendition="#indent"> 大一 <anchor xml:id="app0910080101"/> 座 <anchor xml:id="app0910080101e"/>
               </seg>
-              <pb facs="https://iiif.rekihaku.ac.jp/fcgi-bin/iipsrv.fcgi?IIIF=engishiki/H-743-74-9/00020.tif/full/max/0/default.jpg"/>
+              <pb
+                facs="https://iiif.rekihaku.ac.jp/fcgi-bin/iipsrv.fcgi?IIIF=engishiki/H-743-74-9/00020.tif/full/max/0/default.jpg"/>
               <lb/>
               <seg rendition="#indent"> 小六十一 <anchor xml:id="app0910080102"/> 座 <anchor xml:id="app0910080102e"/>
               </seg>
@@ -4564,23 +4523,22 @@
                   <cell rendition="#width50"/>
                   <cell rendition="#width300"> 押別神社 </cell>
                   <cell rendition="#width50"/>
-                  <cell rendition="#width300"> 生国神社〈 <anchor xml:id="app0910080201"/> 鍬、靫 <anchor xml:id="app0910080201e"/>
-                    、〉 </cell>
+                  <cell rendition="#width300"> 生国神社〈 <anchor xml:id="app0910080201"/> 鍬、靫 <anchor xml:id="app0910080201e"/> 、〉
+                  </cell>
                 </row>
                 <row>
-                  <cell rendition="#width300"><anchor xml:id="app0910080202"/> 大電 <anchor xml:id="app0910080202e"/> 神社〈
-                      <anchor xml:id="app0910080203"/> 鍬 <anchor xml:id="app0910080203e"/> 、〉 </cell>
+                  <cell rendition="#width300"><anchor xml:id="app0910080202"/> 大電 <anchor xml:id="app0910080202e"/> 神社〈 <anchor
+                      xml:id="app0910080203"/> 鍬 <anchor xml:id="app0910080203e"/> 、〉 </cell>
                   <cell rendition="#width50"/>
                   <cell rendition="#width300"> 石津 <anchor xml:id="app0910080204"/> 太 <anchor xml:id="app0910080204e"/> 社神社 </cell>
                   <cell rendition="#width50"/>
-                  <cell rendition="#width300"> 等乃伎神社〈 <anchor xml:id="app0910080205"/> 鍬、靫 <anchor xml:id="app0910080205e"/>
-                    、〉 </cell>
+                  <cell rendition="#width300"> 等乃伎神社〈 <anchor xml:id="app0910080205"/> 鍬、靫 <anchor xml:id="app0910080205e"/> 、〉
+                  </cell>
                 </row>
                 <row>
                   <cell rendition="#width300"> 蜂田神社〈鍬、〉 </cell>
                   <cell rendition="#width50"/>
-                  <cell rendition="#width300"> 陶荒 <anchor xml:id="app0910080206"/> 田 <anchor xml:id="app0910080206e"/>
-                    神社二座〈鍬、〉 </cell>
+                  <cell rendition="#width300"> 陶荒 <anchor xml:id="app0910080206"/> 田 <anchor xml:id="app0910080206e"/> 神社二座〈鍬、〉 </cell>
                   <cell rendition="#width50"/>
                   <cell rendition="#width300"> 国神社 </cell>
                 </row>
@@ -4690,7 +4648,8 @@
                   <cell rendition="#width50"/>
                   <cell rendition="#width300"> 粟神社 </cell>
                 </row>
-                <pb facs="https://iiif.rekihaku.ac.jp/fcgi-bin/iipsrv.fcgi?IIIF=engishiki/H-743-74-9/00021.tif/full/max/0/default.jpg"/>
+                <pb
+                  facs="https://iiif.rekihaku.ac.jp/fcgi-bin/iipsrv.fcgi?IIIF=engishiki/H-743-74-9/00021.tif/full/max/0/default.jpg"/>
                 <row>
                   <cell rendition="#width300"> 曾 <anchor xml:id="app0910080303"/> 禰 <anchor xml:id="app0910080303e"/> 神社 </cell>
                   <cell rendition="#width50"/>
@@ -4717,8 +4676,8 @@
                   <cell rendition="#width50"/>
                   <cell rendition="#width300"> 波多神社 </cell>
                   <cell rendition="#width50"/>
-                  <cell rendition="#width300"> 積川神社五座〈 <anchor xml:id="app0910080306"/> 鍬 <anchor xml:id="app0910080306e"/>
-                    、〉 </cell>
+                  <cell rendition="#width300"> 積川神社五座〈 <anchor xml:id="app0910080306"/> 鍬 <anchor xml:id="app0910080306e"/> 、〉
+                  </cell>
                 </row>
                 <row>
                   <cell rendition="#width300"> 丸笠神社 </cell>
@@ -4795,8 +4754,7 @@
                 ><placeName corresp="#摂津国"> 摂津国 </placeName> 七十五座 <lb/>
               <seg rendition="#indent"> 大廿六座〈並月次・新嘗、就中十五座預相嘗祭、〉 </seg>
               <lb/>
-              <seg rendition="#indent"> 小卌九座〈 <anchor xml:id="app0910090101"/> 並官幣 <anchor xml:id="app0910090101e"/> 、〉
-              </seg>
+              <seg rendition="#indent"> 小卌九座〈 <anchor xml:id="app0910090101"/> 並官幣 <anchor xml:id="app0910090101e"/> 、〉 </seg>
             </p>
             <app from="#app0910090101" to="#app0910090101e">
               <lem wit="#永本 #九本 #剛本 #吉本 #京博本"> 並官幣 </lem>
@@ -4805,7 +4763,8 @@
             </app>
             <p ana="項" corresp="engishiki_v9_en.xml#item09100902 engishiki_v9_ja.xml#item09100902" xml:id="item09100902">
               <seg rendition="#indent"> 住吉郡廿二座〈大十座、小十二座、〉 </seg>
-              <pb facs="https://iiif.rekihaku.ac.jp/fcgi-bin/iipsrv.fcgi?IIIF=engishiki/H-743-74-9/00022.tif/full/max/0/default.jpg"/>
+              <pb
+                facs="https://iiif.rekihaku.ac.jp/fcgi-bin/iipsrv.fcgi?IIIF=engishiki/H-743-74-9/00022.tif/full/max/0/default.jpg"/>
               <table>
                 <row>
                   <cell rendition="#width300"><anchor xml:id="app0910090201"/> 住吉坐神社 <anchor xml:id="app0910090201e"/>
@@ -4817,12 +4776,10 @@
                   <cell rendition="#width300"> 草津大歳神社〈鍬、靫、〉 </cell>
                 </row>
                 <row>
-                  <cell rendition="#width300"><anchor xml:id="app0910090203"/> 中臣須牟地神社〈大、月次、新嘗、〉 <anchor
-                      xml:id="app0910090203e"/>
+                  <cell rendition="#width300"><anchor xml:id="app0910090203"/> 中臣須牟地神社〈大、月次、新嘗、〉 <anchor xml:id="app0910090203e"/>
                   </cell>
                   <cell rendition="#width50"/>
-                  <cell rendition="#width300"> 神須牟地神社〈 <anchor xml:id="app0910090204"/> 鍬、靫 <anchor xml:id="app0910090204e"/>
-                    、〉 </cell>
+                  <cell rendition="#width300"> 神須牟地神社〈 <anchor xml:id="app0910090204"/> 鍬、靫 <anchor xml:id="app0910090204e"/> 、〉 </cell>
                   <cell rendition="#width50"/>
                   <cell rendition="#width300"> 楯原神社 </cell>
                 </row>
@@ -4887,8 +4844,8 @@
               <seg rendition="#indent"> 東生郡四座〈大三座、小一座、〉 </seg>
               <table>
                 <row>
-                  <cell rendition="#width300"> 難破坐生国咲国魂神社二座〈並 <anchor xml:id="app0910090301"/> 名神大 <anchor
-                      xml:id="app0910090301e"/> 、月次、相嘗、新嘗、〉 </cell>
+                  <cell rendition="#width300"> 難破坐生国咲国魂神社二座〈並 <anchor xml:id="app0910090301"/> 名神大 <anchor xml:id="app0910090301e"
+                    /> 、月次、相嘗、新嘗、〉 </cell>
                   <cell rendition="#width50"/>
                   <cell rendition="#width300"><anchor xml:id="app0910090302"/> 比売許曾神社 <anchor xml:id="app0910090302e"/>
                     〈名神大、月次、相嘗、新嘗、〉 </cell>
@@ -4944,9 +4901,9 @@
               </table>
             </p>
             <p ana="項" corresp="engishiki_v9_en.xml#item09100906 engishiki_v9_ja.xml#item09100906" xml:id="item09100906">
-              <seg rendition="#indent"> 島下 <anchor xml:id="app0910090601"/> 郡 <anchor xml:id="app0910090601e"/>
-                十七座〈大五座、小十二座、〉 </seg>
-              <pb facs="https://iiif.rekihaku.ac.jp/fcgi-bin/iipsrv.fcgi?IIIF=engishiki/H-743-74-9/00023.tif/full/max/0/default.jpg"/>
+              <seg rendition="#indent"> 島下 <anchor xml:id="app0910090601"/> 郡 <anchor xml:id="app0910090601e"/> 十七座〈大五座、小十二座、〉 </seg>
+              <pb
+                facs="https://iiif.rekihaku.ac.jp/fcgi-bin/iipsrv.fcgi?IIIF=engishiki/H-743-74-9/00023.tif/full/max/0/default.jpg"/>
               <table>
                 <row>
                   <cell rendition="#width300"> 新屋坐天照御魂神社三座〈並名神大、月次、新嘗、就中天照御魂神一座預相嘗 <anchor xml:id="app0910090602"/> 祭 <anchor
@@ -5070,8 +5027,7 @@
                   <cell rendition="#width300"><anchor xml:id="app0910090901"/> 広田神社 <anchor xml:id="app0910090901e"/>
                     〈名神大、月次、相嘗、新嘗、〉 </cell>
                   <cell rendition="#width50"/>
-                  <cell rendition="#width300"> 名次神社〈 <anchor xml:id="app0910090902"/> 鍬、靫 <anchor xml:id="app0910090902e"/>
-                    、〉 </cell>
+                  <cell rendition="#width300"> 名次神社〈 <anchor xml:id="app0910090902"/> 鍬、靫 <anchor xml:id="app0910090902e"/> 、〉 </cell>
                   <cell rendition="#width50"/>
                   <cell rendition="#width300"> 伊和志豆神社〈大、月次、新嘗、〉 </cell>
                 </row>
@@ -5185,8 +5141,7 @@
             <head ana="東海道"/>
             <p ana="項" corresp="engishiki_v9_en.xml#item09101001 engishiki_v9_ja.xml#item09101001" xml:id="item09101001"
                 ><placeName corresp="#東海道"> 東海道 </placeName> 神七百卅一座 <lb/>
-              <seg rendition="#indent"> 大五十 <anchor xml:id="app0910100101"/> 一 <anchor xml:id="app0910100101e"/>
-                座〈就中十九座預月次・新嘗等祭、〉 </seg>
+              <seg rendition="#indent"> 大五十 <anchor xml:id="app0910100101"/> 一 <anchor xml:id="app0910100101e"/> 座〈就中十九座預月次・新嘗等祭、〉 </seg>
               <lb/>
               <seg rendition="#indent"> 小六百 <anchor xml:id="app0910100102"/> 八十 <anchor xml:id="app0910100102e"/> 座 </seg>
             </p>
@@ -5297,8 +5252,7 @@
                   <cell rendition="#width50"/>
                   <cell rendition="#width300"> 猪田神社 </cell>
                   <cell rendition="#width50"/>
-                  <cell rendition="#width300"> 乎美 <anchor xml:id="app0910110402"/> 弥 <anchor xml:id="app0910110402e"/> 神社
-                  </cell>
+                  <cell rendition="#width300"> 乎美 <anchor xml:id="app0910110402"/> 弥 <anchor xml:id="app0910110402e"/> 神社 </cell>
                 </row>
                 <row>
                   <cell rendition="#width300"> 高瀬神社 </cell>
@@ -5352,9 +5306,9 @@
             <head ana="伊勢国"/>
             <p ana="項" corresp="engishiki_v9_en.xml#item09101201 engishiki_v9_ja.xml#item09101201" xml:id="item09101201"
                 ><placeName corresp="#伊勢国"> 伊勢国 </placeName> 二百五十三座 <lb/>
-              <seg rendition="#indent"> 大十八座〈就中十四座預月次・新嘗等 <anchor xml:id="app0910120101"/> 祭 <anchor xml:id="app0910120101e"
-                /> 、〉 </seg>
-              <pb facs="https://iiif.rekihaku.ac.jp/fcgi-bin/iipsrv.fcgi?IIIF=engishiki/H-743-74-9/00026.tif/full/max/0/default.jpg"/>
+              <seg rendition="#indent"> 大十八座〈就中十四座預月次・新嘗等 <anchor xml:id="app0910120101"/> 祭 <anchor xml:id="app0910120101e"/> 、〉 </seg>
+              <pb
+                facs="https://iiif.rekihaku.ac.jp/fcgi-bin/iipsrv.fcgi?IIIF=engishiki/H-743-74-9/00026.tif/full/max/0/default.jpg"/>
               <lb/>
               <seg rendition="#indent"> 小二百卅五座 </seg>
             </p>
@@ -5376,8 +5330,8 @@
                 <row>
                   <cell rendition="#width300"> 滝原宮〈大、月次、新嘗、〉 </cell>
                   <cell rendition="#width50"/>
-                  <cell rendition="#width300"> 伊佐奈岐宮二座〈伊佐奈 <anchor xml:id="app0910120201"/> 弥 <anchor xml:id="app0910120201e"
-                    /> 命一座、並大、月次、新嘗、〉 </cell>
+                  <cell rendition="#width300"> 伊佐奈岐宮二座〈伊佐奈 <anchor xml:id="app0910120201"/> 弥 <anchor xml:id="app0910120201e"/>
+                    命一座、並大、月次、新嘗、〉 </cell>
                   <cell rendition="#width50"/>
                   <cell rendition="#width300"/>
                 </row>
@@ -5411,8 +5365,7 @@
                   <cell rendition="#width50"/>
                   <cell rendition="#width300"> 礒神社 </cell>
                   <cell rendition="#width50"/>
-                  <cell rendition="#width300"> 多 <anchor xml:id="app0910120206"/> 伎 <anchor xml:id="app0910120206e"/> 原神社
-                  </cell>
+                  <cell rendition="#width300"> 多 <anchor xml:id="app0910120206"/> 伎 <anchor xml:id="app0910120206e"/> 原神社 </cell>
                 </row>
                 <row>
                   <cell rendition="#width300"> 月夜見神社 </cell>
@@ -5444,7 +5397,8 @@
                   <cell rendition="#width50"/>
                   <cell rendition="#width300"> 粟皇子神社 </cell>
                 </row>
-                <pb facs="https://iiif.rekihaku.ac.jp/fcgi-bin/iipsrv.fcgi?IIIF=engishiki/H-743-74-9/00027.tif/full/max/0/default.jpg"/>
+                <pb
+                  facs="https://iiif.rekihaku.ac.jp/fcgi-bin/iipsrv.fcgi?IIIF=engishiki/H-743-74-9/00027.tif/full/max/0/default.jpg"/>
                 <row>
                   <cell rendition="#width300"> 久久都比売神社 </cell>
                   <cell rendition="#width50"/>
@@ -5480,8 +5434,7 @@
                   <cell rendition="#width50"/>
                   <cell rendition="#width300"> 大川内神社 </cell>
                   <cell rendition="#width50"/>
-                  <cell rendition="#width300"><anchor xml:id="app0910120214"/> 捧 <anchor xml:id="app0910120214e"/> 原神社
-                  </cell>
+                  <cell rendition="#width300"><anchor xml:id="app0910120214"/> 捧 <anchor xml:id="app0910120214e"/> 原神社 </cell>
                 </row>
                 <row>
                   <cell rendition="#width300"> 川原 <anchor xml:id="app0910120215"/> 大神社 <anchor xml:id="app0910120215e"/>
@@ -5784,8 +5737,7 @@
                   <cell rendition="#width50"/>
                   <cell rendition="#width300"> 石前神社 </cell>
                   <cell rendition="#width50"/>
-                  <cell rendition="#width300"> 神 <anchor xml:id="app0910120401"/> 垣 <anchor xml:id="app0910120401e"/> 神社
-                  </cell>
+                  <cell rendition="#width300"> 神 <anchor xml:id="app0910120401"/> 垣 <anchor xml:id="app0910120401e"/> 神社 </cell>
                 </row>
               </table>
             </p>
@@ -5841,13 +5793,11 @@
                   </cell>
                 </row>
                 <row>
-                  <cell rendition="#width300"><anchor xml:id="app0910120602"/><anchor xml:id="app0910120602e"/>
-                    阿射加神社三座〈並名神大、〉 </cell>
+                  <cell rendition="#width300"><anchor xml:id="app0910120602"/><anchor xml:id="app0910120602e"/> 阿射加神社三座〈並名神大、〉 </cell>
                   <cell rendition="#width50"/>
                   <cell rendition="#width300"> 波氐神社 </cell>
                   <cell rendition="#width50"/>
-                  <cell rendition="#width300"><anchor xml:id="app0910120603"/> 小 <anchor xml:id="app0910120603e"/> 川神社
-                  </cell>
+                  <cell rendition="#width300"><anchor xml:id="app0910120603"/> 小 <anchor xml:id="app0910120603e"/> 川神社 </cell>
                 </row>
                 <row>
                   <cell rendition="#width300"> 礼山神社 </cell>
@@ -5934,8 +5884,7 @@
                   <cell rendition="#width50"/>
                   <cell rendition="#width300"> 事忌神社 </cell>
                   <cell rendition="#width50"/>
-                  <cell rendition="#width300"><anchor xml:id="app0910120802"/> 酒 <anchor xml:id="app0910120802e"/> 井神社
-                  </cell>
+                  <cell rendition="#width300"><anchor xml:id="app0910120802"/> 酒 <anchor xml:id="app0910120802e"/> 井神社 </cell>
                 </row>
                 <row>
                   <cell rendition="#width300"> 尾前神社 </cell>
@@ -6001,7 +5950,8 @@
                   <cell rendition="#width50"/>
                   <cell rendition="#width300"> 江神社 </cell>
                 </row>
-                <pb facs="https://iiif.rekihaku.ac.jp/fcgi-bin/iipsrv.fcgi?IIIF=engishiki/H-743-74-9/00031.tif/full/max/0/default.jpg"/>
+                <pb
+                  facs="https://iiif.rekihaku.ac.jp/fcgi-bin/iipsrv.fcgi?IIIF=engishiki/H-743-74-9/00031.tif/full/max/0/default.jpg"/>
                 <row>
                   <cell rendition="#width300"> 布気神社 </cell>
                   <cell rendition="#width50"/>
@@ -6040,8 +5990,7 @@
                   <cell rendition="#width50"/>
                   <cell rendition="#width300"> 川神社 </cell>
                   <cell rendition="#width50"/>
-                  <cell rendition="#width300"> 矢 <anchor xml:id="app0910121004"/> 椅 <anchor xml:id="app0910121004e"/> 神社
-                  </cell>
+                  <cell rendition="#width300"> 矢 <anchor xml:id="app0910121004"/> 椅 <anchor xml:id="app0910121004e"/> 神社 </cell>
                 </row>
                 <row>
                   <cell rendition="#width300"> 岡太神社 </cell>
@@ -6235,8 +6184,7 @@
                   <cell rendition="#width50"/>
                   <cell rendition="#width300"> 石神社 </cell>
                   <cell rendition="#width50"/>
-                  <cell rendition="#width300"> 平 <anchor xml:id="app0910121301"/> 群 <anchor xml:id="app0910121301e"/> 神社
-                  </cell>
+                  <cell rendition="#width300"> 平 <anchor xml:id="app0910121301"/> 群 <anchor xml:id="app0910121301e"/> 神社 </cell>
                 </row>
                 <row>
                   <cell rendition="#width300"> 多奈閉神社 </cell>
@@ -6326,8 +6274,8 @@
               <table>
                 <row>
                   <cell rendition="#width300"><anchor xml:id="app0910130201"/><anchor xml:id="app0910130201e"/><anchor
-                      xml:id="app0910130202"/> 粟島坐伊射波神社 <anchor xml:id="app0910130202e"/> 二座〈 <anchor xml:id="app0910130203"
-                    /> 並大 <anchor xml:id="app0910130203e"/> 、〉 </cell>
+                      xml:id="app0910130202"/> 粟島坐伊射波神社 <anchor xml:id="app0910130202e"/> 二座〈 <anchor xml:id="app0910130203"/> 並大
+                      <anchor xml:id="app0910130203e"/> 、〉 </cell>
                   <cell rendition="#width50"/>
                   <cell rendition="#width300"> 同島坐神乎多乃御子神社 </cell>
                   <cell rendition="#width50"/>
@@ -6373,7 +6321,8 @@
                   <cell rendition="#width50"/>
                   <cell rendition="#width300"> 由乃伎神社 </cell>
                 </row>
-                <pb facs="https://iiif.rekihaku.ac.jp/fcgi-bin/iipsrv.fcgi?IIIF=engishiki/H-743-74-9/00034.tif/full/max/0/default.jpg"/>
+                <pb
+                  facs="https://iiif.rekihaku.ac.jp/fcgi-bin/iipsrv.fcgi?IIIF=engishiki/H-743-74-9/00034.tif/full/max/0/default.jpg"/>
                 <row>
                   <cell rendition="#width300"> 伊久波神社 </cell>
                   <cell rendition="#width50"/>
@@ -6443,8 +6392,7 @@
                 <row>
                   <cell rendition="#width300"><anchor xml:id="app0910140305"/><anchor xml:id="app0910140305e"/> 売夫神社 </cell>
                   <cell rendition="#width50"/>
-                  <cell rendition="#width300"> 真 <anchor xml:id="app0910140306"/> 黒 <anchor xml:id="app0910140306e"/>
-                    田神社〈名神大、〉 </cell>
+                  <cell rendition="#width300"> 真 <anchor xml:id="app0910140306"/> 黒 <anchor xml:id="app0910140306e"/> 田神社〈名神大、〉 </cell>
                   <cell rendition="#width50"/>
                   <cell rendition="#width300"> 川曲神社 </cell>
                 </row>
@@ -6539,7 +6487,8 @@
             </app>
             <p ana="項" corresp="engishiki_v9_en.xml#item09101404 engishiki_v9_ja.xml#item09101404" xml:id="item09101404">
               <seg rendition="#indent"> 葉栗郡十座〈並小、〉 </seg>
-              <pb facs="https://iiif.rekihaku.ac.jp/fcgi-bin/iipsrv.fcgi?IIIF=engishiki/H-743-74-9/00035.tif/full/max/0/default.jpg"/>
+              <pb
+                facs="https://iiif.rekihaku.ac.jp/fcgi-bin/iipsrv.fcgi?IIIF=engishiki/H-743-74-9/00035.tif/full/max/0/default.jpg"/>
               <table>
                 <row>
                   <cell rendition="#width300"><anchor xml:id="app0910140401"/> 穴太部神社 <anchor xml:id="app0910140401e"/>
@@ -6547,8 +6496,7 @@
                   <cell rendition="#width50"/>
                   <cell rendition="#width300"> 阿遅加神社 </cell>
                   <cell rendition="#width50"/>
-                  <cell rendition="#width300"> 若 <anchor xml:id="app0910140402"/> 栗 <anchor xml:id="app0910140402e"/> 神社
-                  </cell>
+                  <cell rendition="#width300"> 若 <anchor xml:id="app0910140402"/> 栗 <anchor xml:id="app0910140402e"/> 神社 </cell>
                 </row>
                 <row>
                   <cell rendition="#width300"> 黒田神社 </cell>
@@ -6583,8 +6531,7 @@
               <note> 栗　永本「粟」。土本・九本・吉本・京博本・西本「栗」。永本傍訓「クリ」。 </note>
             </app>
             <p ana="項" corresp="engishiki_v9_en.xml#item09101405 engishiki_v9_ja.xml#item09101405" xml:id="item09101405">
-              <seg rendition="#indent"> 丹羽郡廿二座〈大一座、 <anchor xml:id="app0910140501"/> 小廿一座 <anchor xml:id="app0910140501e"/>
-                、〉 </seg>
+              <seg rendition="#indent"> 丹羽郡廿二座〈大一座、 <anchor xml:id="app0910140501"/> 小廿一座 <anchor xml:id="app0910140501e"/> 、〉 </seg>
               <table>
                 <row>
                   <cell rendition="#width300"> 阿豆良神社 </cell>
@@ -6605,8 +6552,7 @@
                   <cell rendition="#width50"/>
                   <cell rendition="#width300"> 前利神社 </cell>
                   <cell rendition="#width50"/>
-                  <cell rendition="#width300"> 諸 <anchor xml:id="app0910140503"/> 鑺 <anchor xml:id="app0910140503e"/> 神社
-                  </cell>
+                  <cell rendition="#width300"> 諸 <anchor xml:id="app0910140503"/> 鑺 <anchor xml:id="app0910140503e"/> 神社 </cell>
                 </row>
                 <row>
                   <cell rendition="#width300"> 阿具麻神社 </cell>
@@ -6662,7 +6608,8 @@
             </app>
             <p ana="項" corresp="engishiki_v9_en.xml#item09101406 engishiki_v9_ja.xml#item09101406" xml:id="item09101406">
               <seg rendition="#indent"> 春部郡十二座〈並小、〉 </seg>
-              <pb facs="https://iiif.rekihaku.ac.jp/fcgi-bin/iipsrv.fcgi?IIIF=engishiki/H-743-74-9/00036.tif/full/max/0/default.jpg"/>
+              <pb
+                facs="https://iiif.rekihaku.ac.jp/fcgi-bin/iipsrv.fcgi?IIIF=engishiki/H-743-74-9/00036.tif/full/max/0/default.jpg"/>
               <table>
                 <row>
                   <cell rendition="#width300"> 非多神社 </cell>
@@ -6779,7 +6726,8 @@
             </app>
             <p ana="項" corresp="engishiki_v9_en.xml#item09101408 engishiki_v9_ja.xml#item09101408" xml:id="item09101408">
               <seg rendition="#indent"> 愛智郡十七座〈大四座、小十三座、〉 </seg>
-              <pb facs="https://iiif.rekihaku.ac.jp/fcgi-bin/iipsrv.fcgi?IIIF=engishiki/H-743-74-9/00037.tif/full/max/0/default.jpg"/>
+              <pb
+                facs="https://iiif.rekihaku.ac.jp/fcgi-bin/iipsrv.fcgi?IIIF=engishiki/H-743-74-9/00037.tif/full/max/0/default.jpg"/>
               <table>
                 <row>
                   <cell rendition="#width300"> 日置神社 </cell>
@@ -6807,15 +6755,13 @@
                   <cell rendition="#width50"/>
                   <cell rendition="#width300"> 物部神社 </cell>
                   <cell rendition="#width50"/>
-                  <cell rendition="#width300"><anchor xml:id="app0910140802"/> 日割御子神社 <anchor xml:id="app0910140802e"/> 〈
-                      <anchor xml:id="app0910140803"/> 名神大 <anchor xml:id="app0910140803e"/> 、〉 </cell>
+                  <cell rendition="#width300"><anchor xml:id="app0910140802"/> 日割御子神社 <anchor xml:id="app0910140802e"/> 〈 <anchor
+                      xml:id="app0910140803"/> 名神大 <anchor xml:id="app0910140803e"/> 、〉 </cell>
                 </row>
                 <row>
-                  <cell rendition="#width300"><anchor xml:id="app0910140804"/> 孫若御子神社 <anchor xml:id="app0910140804e"/>
-                    〈名神大、〉 </cell>
+                  <cell rendition="#width300"><anchor xml:id="app0910140804"/> 孫若御子神社 <anchor xml:id="app0910140804e"/> 〈名神大、〉 </cell>
                   <cell rendition="#width50"/>
-                  <cell rendition="#width300"><anchor xml:id="app0910140805"/> 高座結御子神社 <anchor xml:id="app0910140805e"/>
-                    〈名神大、〉 </cell>
+                  <cell rendition="#width300"><anchor xml:id="app0910140805"/> 高座結御子神社 <anchor xml:id="app0910140805e"/> 〈名神大、〉 </cell>
                   <cell rendition="#width50"/>
                   <cell rendition="#width300"> 八剣神社 </cell>
                 </row>
@@ -7030,7 +6976,8 @@
             </app>
             <p ana="項" corresp="engishiki_v9_en.xml#item09101602 engishiki_v9_ja.xml#item09101602" xml:id="item09101602">
               <seg rendition="#indent"> 浜名郡五座〈大一座、小四座、〉 </seg>
-              <pb facs="https://iiif.rekihaku.ac.jp/fcgi-bin/iipsrv.fcgi?IIIF=engishiki/H-743-74-9/00039.tif/full/max/0/default.jpg"/>
+              <pb
+                facs="https://iiif.rekihaku.ac.jp/fcgi-bin/iipsrv.fcgi?IIIF=engishiki/H-743-74-9/00039.tif/full/max/0/default.jpg"/>
               <table>
                 <row>
                   <cell rendition="#width300"><anchor xml:id="app0910160201"/> 弥 <anchor xml:id="app0910160201e"/> 和山神社 </cell>
@@ -7066,8 +7013,7 @@
                   <cell rendition="#width50"/>
                   <cell rendition="#width300"> 許部神社 </cell>
                   <cell rendition="#width50"/>
-                  <cell rendition="#width300"> 津毛 <anchor xml:id="app0910160301"/> 利神 <anchor xml:id="app0910160301e"/> 社
-                  </cell>
+                  <cell rendition="#width300"> 津毛 <anchor xml:id="app0910160301"/> 利神 <anchor xml:id="app0910160301e"/> 社 </cell>
                 </row>
                 <row>
                   <cell rendition="#width300"> 息神社 </cell>
@@ -7152,7 +7098,8 @@
             </p>
             <p ana="項" corresp="engishiki_v9_en.xml#item09101607 engishiki_v9_ja.xml#item09101607" xml:id="item09101607">
               <seg rendition="#indent"> 長上郡五座〈並小、〉 </seg>
-              <pb facs="https://iiif.rekihaku.ac.jp/fcgi-bin/iipsrv.fcgi?IIIF=engishiki/H-743-74-9/00040.tif/full/max/0/default.jpg"/>
+              <pb
+                facs="https://iiif.rekihaku.ac.jp/fcgi-bin/iipsrv.fcgi?IIIF=engishiki/H-743-74-9/00040.tif/full/max/0/default.jpg"/>
               <table>
                 <row>
                   <cell rendition="#width300"> 大歳神社 </cell>
@@ -7367,7 +7314,8 @@
                   <cell rendition="#width50"/>
                   <cell rendition="#width300"> 白沢神社 </cell>
                 </row>
-                <pb facs="https://iiif.rekihaku.ac.jp/fcgi-bin/iipsrv.fcgi?IIIF=engishiki/H-743-74-9/00042.tif/full/max/0/default.jpg"/>
+                <pb
+                  facs="https://iiif.rekihaku.ac.jp/fcgi-bin/iipsrv.fcgi?IIIF=engishiki/H-743-74-9/00042.tif/full/max/0/default.jpg"/>
                 <row>
                   <cell rendition="#width300"> 大歳御祖神社 </cell>
                   <cell rendition="#width50"/>
@@ -7436,14 +7384,13 @@
               <note> 大五座、小八十七座　土本無し、永本・九本・吉本・京博本あり。 </note>
             </app>
             <p ana="項" corresp="engishiki_v9_en.xml#item09101802 engishiki_v9_ja.xml#item09101802" xml:id="item09101802">
-              <seg rendition="#indent"> 賀茂郡卌六座〈 <anchor xml:id="app0910180201"/> 大四座、小卌二座 <anchor xml:id="app0910180201e"/>
-                、〉 </seg>
+              <seg rendition="#indent"> 賀茂郡卌六座〈 <anchor xml:id="app0910180201"/> 大四座、小卌二座 <anchor xml:id="app0910180201e"/> 、〉 </seg>
               <table>
                 <row>
-                  <cell rendition="#width300"><anchor xml:id="app0910180202"/> 伊豆三島 <anchor xml:id="app0910180203"/> 神社
-                      <anchor xml:id="app0910180203e"/>
-                    <anchor xml:id="app0910180202e"/> 〈 <anchor xml:id="app0910180204"/> 名神大、月次、新嘗 <anchor
-                      xml:id="app0910180204e"/> 、〉 </cell>
+                  <cell rendition="#width300"><anchor xml:id="app0910180202"/> 伊豆三島 <anchor xml:id="app0910180203"/> 神社 <anchor
+                      xml:id="app0910180203e"/>
+                    <anchor xml:id="app0910180202e"/> 〈 <anchor xml:id="app0910180204"/> 名神大、月次、新嘗 <anchor xml:id="app0910180204e"
+                    /> 、〉 </cell>
                   <cell rendition="#width50"/>
                   <cell rendition="#width300"> 波布比売 <anchor xml:id="app0910180205"/> 命 <anchor xml:id="app0910180205e"/> 神社 </cell>
                   <cell rendition="#width50"/>
@@ -7506,8 +7453,8 @@
                   <cell rendition="#width50"/>
                   <cell rendition="#width300"><anchor xml:id="app0910180210"/> 枌 <anchor xml:id="app0910180210e"/> 桙別命神社 </cell>
                   <cell rendition="#width50"/>
-                  <cell rendition="#width300"> 多祁富許都久和 <anchor xml:id="app0910180211"/> 気 <anchor xml:id="app0910180211e"/>
-                    命神社 </cell>
+                  <cell rendition="#width300"> 多祁富許都久和 <anchor xml:id="app0910180211"/> 気 <anchor xml:id="app0910180211e"/> 命神社
+                  </cell>
                 </row>
                 <row>
                   <cell rendition="#width300"> 伊波久良和気命神社 </cell>
@@ -7521,8 +7468,7 @@
                 <row>
                   <cell rendition="#width300"> 伊波比咩命神社 </cell>
                   <cell rendition="#width50"/>
-                  <cell rendition="#width300"> 阿波神社〈 <anchor xml:id="app0910180214"/> 名神大 <anchor xml:id="app0910180214e"/>
-                    、〉 </cell>
+                  <cell rendition="#width300"> 阿波神社〈 <anchor xml:id="app0910180214"/> 名神大 <anchor xml:id="app0910180214e"/> 、〉 </cell>
                   <cell rendition="#width50"/>
                   <cell rendition="#width300"> 志理太宜神社 </cell>
                 </row>
@@ -7673,8 +7619,7 @@
                 <row>
                   <cell rendition="#width300"> 玉作水神社 </cell>
                   <cell rendition="#width50"/>
-                  <cell rendition="#width300"> 楊原神社〈 <anchor xml:id="app0910180303"/> 名神大 <anchor xml:id="app0910180303e"/>
-                    、〉 </cell>
+                  <cell rendition="#width300"> 楊原神社〈 <anchor xml:id="app0910180303"/> 名神大 <anchor xml:id="app0910180303e"/> 、〉 </cell>
                   <cell rendition="#width50"/>
                   <cell rendition="#width300"> 加理波夜須多祁比波預命神社 </cell>
                 </row>
@@ -7683,12 +7628,11 @@
                   <cell rendition="#width50"/>
                   <cell rendition="#width300"><anchor xml:id="app0910180305"/> 火 <anchor xml:id="app0910180305e"/> 牟須比命神社 </cell>
                   <cell rendition="#width50"/>
-                  <cell rendition="#width300"> 白浪之弥奈阿 <anchor xml:id="app0910180306"/> 和 <anchor xml:id="app0910180306e"/>
-                    命神社 </cell>
+                  <cell rendition="#width300"> 白浪之弥奈阿 <anchor xml:id="app0910180306"/> 和 <anchor xml:id="app0910180306e"/> 命神社
+                  </cell>
                 </row>
                 <row>
-                  <cell rendition="#width300"> 金村五百君 <anchor xml:id="app0910180307"/> 和 <anchor xml:id="app0910180307e"/>
-                    気命神社 </cell>
+                  <cell rendition="#width300"> 金村五百君 <anchor xml:id="app0910180307"/> 和 <anchor xml:id="app0910180307e"/> 気命神社 </cell>
                   <cell rendition="#width50"/>
                   <cell rendition="#width300"> 引手力命神社 </cell>
                   <cell rendition="#width50"/>
@@ -7769,8 +7713,7 @@
                   <cell rendition="#width50"/>
                   <cell rendition="#width300"> 多爾夜神社 </cell>
                   <cell rendition="#width50"/>
-                  <cell rendition="#width300"><anchor xml:id="app0910180402"/> 哆 <anchor xml:id="app0910180402e"/> 胡神社
-                  </cell>
+                  <cell rendition="#width300"><anchor xml:id="app0910180402"/> 哆 <anchor xml:id="app0910180402e"/> 胡神社 </cell>
                 </row>
                 <row>
                   <cell rendition="#width300"> 宇久須神社 </cell>
@@ -7779,10 +7722,11 @@
                   <cell rendition="#width50"/>
                   <cell rendition="#width300"> 佐波神社二座 </cell>
                 </row>
-                <pb facs="https://iiif.rekihaku.ac.jp/fcgi-bin/iipsrv.fcgi?IIIF=engishiki/H-743-74-9/00045.tif/full/max/0/default.jpg"/>
+                <pb
+                  facs="https://iiif.rekihaku.ac.jp/fcgi-bin/iipsrv.fcgi?IIIF=engishiki/H-743-74-9/00045.tif/full/max/0/default.jpg"/>
                 <row>
-                  <cell rendition="#width300"> 布刀主 <anchor xml:id="app0910180403"/> 若 <anchor xml:id="app0910180403e"/> 玉命
-                      <anchor xml:id="app0910180404"/> 神 <anchor xml:id="app0910180404e"/> 社 </cell>
+                  <cell rendition="#width300"> 布刀主 <anchor xml:id="app0910180403"/> 若 <anchor xml:id="app0910180403e"/> 玉命 <anchor
+                      xml:id="app0910180404"/> 神 <anchor xml:id="app0910180404e"/> 社 </cell>
                   <cell rendition="#width50"/>
                   <cell rendition="#width300"> 国柱命神社 </cell>
                   <cell rendition="#width50"/>
@@ -8020,7 +7964,8 @@
             </app>
             <p ana="項" corresp="engishiki_v9_en.xml#item09102102 engishiki_v9_ja.xml#item09102102" xml:id="item09102102">
               <seg rendition="#indent"> 荏原郡二座〈並小、〉 </seg>
-              <pb facs="https://iiif.rekihaku.ac.jp/fcgi-bin/iipsrv.fcgi?IIIF=engishiki/H-743-74-9/00047.tif/full/max/0/default.jpg"/>
+              <pb
+                facs="https://iiif.rekihaku.ac.jp/fcgi-bin/iipsrv.fcgi?IIIF=engishiki/H-743-74-9/00047.tif/full/max/0/default.jpg"/>
               <table>
                 <row>
                   <cell rendition="#width300"><anchor xml:id="app0910210201"/> 薭田 <anchor xml:id="app0910210201e"/> 神社 </cell>
@@ -8088,8 +8033,7 @@
                 <row>
                   <cell rendition="#width300"> 足立神社 </cell>
                   <cell rendition="#width50"/>
-                  <cell rendition="#width300"><anchor xml:id="app0910210501"/> 氷川神社 <anchor xml:id="app0910210501e"/>
-                    〈名神大、月次、新嘗、〉 </cell>
+                  <cell rendition="#width300"><anchor xml:id="app0910210501"/> 氷川神社 <anchor xml:id="app0910210501e"/> 〈名神大、月次、新嘗、〉 </cell>
                   <cell rendition="#width50"/>
                   <cell rendition="#width300"> 調神社 </cell>
                 </row>
@@ -8140,7 +8084,8 @@
             </p>
             <p ana="項" corresp="engishiki_v9_en.xml#item09102108 engishiki_v9_ja.xml#item09102108" xml:id="item09102108">
               <seg rendition="#indent"> 埼玉郡四座〈並小、〉 </seg>
-              <pb facs="https://iiif.rekihaku.ac.jp/fcgi-bin/iipsrv.fcgi?IIIF=engishiki/H-743-74-9/00048.tif/full/max/0/default.jpg"/>
+              <pb
+                facs="https://iiif.rekihaku.ac.jp/fcgi-bin/iipsrv.fcgi?IIIF=engishiki/H-743-74-9/00048.tif/full/max/0/default.jpg"/>
               <table>
                 <row>
                   <cell rendition="#width300"> 前玉神 <anchor xml:id="app0910210801"/> 社 <anchor xml:id="app0910210801e"/> 二座 </cell>
@@ -8195,12 +8140,11 @@
                   <cell rendition="#width50"/>
                   <cell rendition="#width300"> 今城青八坂稲実神社 </cell>
                   <cell rendition="#width50"/>
-                  <cell rendition="#width300"> 今木青 <anchor xml:id="app0910211102"/> 坂 <anchor xml:id="app0910211102e"/>
-                    稲実荒御魂神社 </cell>
+                  <cell rendition="#width300"> 今木青 <anchor xml:id="app0910211102"/> 坂 <anchor xml:id="app0910211102e"/> 稲実荒御魂神社
+                  </cell>
                 </row>
                 <row>
-                  <cell rendition="#width300"> 今城青 <anchor xml:id="app0910211103"/> 坂 <anchor xml:id="app0910211103e"/>
-                    稲実池上神社 </cell>
+                  <cell rendition="#width300"> 今城青 <anchor xml:id="app0910211103"/> 坂 <anchor xml:id="app0910211103e"/> 稲実池上神社 </cell>
                   <cell rendition="#width50"/>
                   <cell rendition="#width300"/>
                   <cell rendition="#width50"/>
@@ -8248,8 +8192,7 @@
                 <row>
                   <cell rendition="#width300"> 児 <anchor xml:id="app0910211301"/> 玉 <anchor xml:id="app0910211301e"/> 郡一座〈大、〉 </cell>
                   <cell rendition="#width50"/>
-                  <cell rendition="#width300"> 金佐奈神社〈 <anchor xml:id="app0910211302"/> 名神大 <anchor xml:id="app0910211302e"/>
-                    、〉 </cell>
+                  <cell rendition="#width300"> 金佐奈神社〈 <anchor xml:id="app0910211302"/> 名神大 <anchor xml:id="app0910211302e"/> 、〉 </cell>
                   <cell rendition="#width50"/>
                   <cell rendition="#width300"/>
                 </row>
@@ -8287,8 +8230,7 @@
                 <row>
                   <cell rendition="#width300"> 比企郡一座〈小、〉 </cell>
                   <cell rendition="#width50"/>
-                  <cell rendition="#width300"> 伊 <anchor xml:id="app0910211501"/> 古 <anchor xml:id="app0910211501e"/>
-                    乃速御玉比売神社 </cell>
+                  <cell rendition="#width300"> 伊 <anchor xml:id="app0910211501"/> 古 <anchor xml:id="app0910211501e"/> 乃速御玉比売神社 </cell>
                   <cell rendition="#width50"/>
                   <cell rendition="#width300"/>
                 </row>
@@ -8570,8 +8512,8 @@
                 <row>
                   <cell rendition="#width300"> 鹿島神宮〈名神大、月次、新嘗、〉 </cell>
                   <cell rendition="#width50"/>
-                  <cell rendition="#width300"> 大洗礒前薬師菩薩明神 <anchor xml:id="app0910250202"/> 社 <anchor xml:id="app0910250202e"
-                    /> 〈名神大、〉 </cell>
+                  <cell rendition="#width300"> 大洗礒前薬師菩薩明神 <anchor xml:id="app0910250202"/> 社 <anchor xml:id="app0910250202e"/>
+                    〈名神大、〉 </cell>
                   <cell rendition="#width50"/>
                   <cell rendition="#width300"/>
                 </row>
@@ -8664,8 +8606,8 @@
                 <row>
                   <cell rendition="#width300"> 筑波郡二座〈大一座、小一座、〉 </cell>
                   <cell rendition="#width50"/>
-                  <cell rendition="#width300"> 筑波山神社二座〈一名神大、一 <anchor xml:id="app0910250601"/> 小 <anchor
-                      xml:id="app0910250601e"/> 、〉 </cell>
+                  <cell rendition="#width300"> 筑波山神社二座〈一名神大、一 <anchor xml:id="app0910250601"/> 小 <anchor xml:id="app0910250601e"/>
+                    、〉 </cell>
                   <cell rendition="#width50"/>
                   <cell rendition="#width300"/>
                 </row>
@@ -8694,7 +8636,8 @@
                   <cell rendition="#width50"/>
                   <cell rendition="#width300"/>
                 </row>
-                <pb facs="https://iiif.rekihaku.ac.jp/fcgi-bin/iipsrv.fcgi?IIIF=engishiki/H-743-74-9/00052.tif/full/max/0/default.jpg"/>
+                <pb
+                  facs="https://iiif.rekihaku.ac.jp/fcgi-bin/iipsrv.fcgi?IIIF=engishiki/H-743-74-9/00052.tif/full/max/0/default.jpg"/>
                 <row>
                   <cell rendition="#width300"> 藤内神社 </cell>
                   <cell rendition="#width50"/>
@@ -8715,8 +8658,7 @@
                   xml:id="app0910250802"/> 大一座、小二座 <anchor xml:id="app0910250802e"/> 、〉 </seg>
               <table>
                 <row>
-                  <cell rendition="#width300"> 稲田神社〈 <anchor xml:id="app0910250803"/> 名神大 <anchor xml:id="app0910250803e"/>
-                    、〉 </cell>
+                  <cell rendition="#width300"> 稲田神社〈 <anchor xml:id="app0910250803"/> 名神大 <anchor xml:id="app0910250803e"/> 、〉 </cell>
                   <cell rendition="#width50"/>
                   <cell rendition="#width300"> 佐志能神社 </cell>
                   <cell rendition="#width50"/>
@@ -8785,16 +8727,16 @@
               <row>
                 <cell><anchor xml:id="app0999990101"/> 延長 <anchor xml:id="app0999990101e"/> 五年十二月廿六日 </cell>
                 <cell> 外従五位下 <anchor xml:id="app0999990102"/> 行 <anchor xml:id="app0999990102e"/>
-                  <anchor xml:id="app0999990103"/> 左 <anchor xml:id="app0999990103e"/> 大史臣阿 <anchor xml:id="app0999990104"/>
-                  刀 <anchor xml:id="app0999990104e"/> 宿禰忠行 </cell>
+                  <anchor xml:id="app0999990103"/> 左 <anchor xml:id="app0999990103e"/> 大史臣阿 <anchor xml:id="app0999990104"/> 刀
+                    <anchor xml:id="app0999990104e"/> 宿禰忠行 </cell>
               </row>
               <row>
                 <cell/>
                 <cell> 従五位 <anchor xml:id="app0999990105"/> 上 <anchor xml:id="app0999990105e"/> 行勘解由次官兼大外記 <anchor
                     xml:id="app0999990106"/>
                   <placeName corresp="#紀伊国"> 紀伊 </placeName>
-                  <anchor xml:id="app0999990106e"/> 権介 <anchor xml:id="app0999990107"/> 臣 <anchor xml:id="app0999990107e"/>
-                  伴宿禰久永 </cell>
+                  <anchor xml:id="app0999990106e"/> 権介 <anchor xml:id="app0999990107"/> 臣 <anchor xml:id="app0999990107e"/> 伴宿禰久永
+                </cell>
               </row>
               <row>
                 <cell/>
