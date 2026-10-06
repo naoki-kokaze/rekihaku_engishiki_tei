@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
@@ -130,6 +130,7 @@
                               <licence target="https://creativecommons.org/licenses/by/4.0/"> この作品はクリエイティブ・コモンズ 表示 4.0 国際 ライセンス（CC
                                     BY 4.0）の下に提供されています。 </licence>
                         </availability>
+                        <!--下記dateはデジタル延喜式の公開日のままでよいでしょうか？ -->
                         <date when="2020-03-31"> 31 March 2020 </date>
                   </publicationStmt>
                   <notesStmt>
@@ -1172,34 +1173,10 @@
                                     </row>
                               </table>
                         </p>
-                        <p ana="個別"> 校訂文凡例 <lb/>
-                              <s rendition="#hanging-1">・校訂に使用した写本とその略称は以下のとおりです。</s>
-                              <lb/>
-                              <lb/><s rendition="#indent1_hanging-4">土本　　国立歴史民俗博物館所蔵土御門家旧蔵本</s>
-                              <lb/><s rendition="#indent1_hanging-4">永本　　國學院大學図書館所蔵卜部兼永筆本</s>
-                              <lb/><s rendition="#indent1_hanging-4">右本　　國學院大學図書館所蔵吉田兼右筆本</s>
-                              <lb/><s rendition="#indent1_hanging-4">九本　　東京国立博物館所蔵九条家旧蔵巻子本</s>
-                              <lb/>
-                              <lb/><s rendition="#hanging-1"
-                                    >・土本を底本としますが、土本の祖本は永本であるため、永本の文字を尊重します。諸本との校異のうち、時慶本は抄出本であるため、特に示す必要がある場合に限って校異を記すこととします。九本への言及がない場合は、その箇所が欠損していることを意味します。</s>
-                              <lb/><s rendition="#hanging-1">・条文番号・条文名称は原則として虎尾俊哉編『訳注日本史料　延喜式』中〔集英社、二〇〇七年、「訳注本」と略称〕に従います。</s>
-                              <lb/><s rendition="#indent">また、一条文が長文にわたる場合には、適宜（1）（2）等の項目番号を私に付し、分割して表示します。</s>
-                              <lb/><s rendition="#hanging-1">・校訂文中の細字・割書は、〈　〉で括って表現することとしました。</s>
-                              <lb/><s rendition="#hanging-1"
-                                    >・校訂文の文字に訳注本および粕谷興紀注解『延喜式祝詞』（和泉書院、二〇一三年、「粕谷本」と略称）と異同がある場合には示すこととします。ただし「島」と「嶋」や「無」と「无」、「陀」と「陁」などの字体（異体字も含む）の異同、また訳注本が「𤭖」を「𤭖」とすることについては原則として省略します。校訂について言及する際に挙げた写本・版本・注釈書の略称は以下の通りです。</s>
-                              <lb/><s rendition="#indent1_hanging-4">鈴鹿本　大和文華館所蔵鈴鹿連胤旧蔵版本</s>
-                              <lb/><s rendition="#indent1_hanigng-3">雲本　松江藩文政11年(1828)刊本（雲州本）</s>
-                              <lb/><s rendition="#indent1_hanging-4">祝詞考　賀茂真淵『祝詞考』</s>
-                              <lb/><s rendition="#indent1_hanging-5">神寿後釈　本居宣長『出雲国造神寿後釈』</s>
-                              <lb/><s rendition="#indent1_hanging-5">祝詞新講　次田潤『祝詞新講』（明治書院、一九二七年）</s>
-                              <lb/><s rendition="#indent"
-                                    >また必要に応じて青木紀元編『［新版］祝詞』（アーツアンドクラフツ社、二〇二二年、桜楓社一九七五年刊『祝詞』の復刻）に言及する場合があります（「青木本」と略称）。</s>
-                              <lb/>
-                              <lb/><s rendition="#hanging-1">・明らかに誤字・脱字が推測される場合でも、補うべき字あるいは改めるべき字の根拠が充分でない場合には、注で示すにとどめます。</s>
-                              <lb/><s rendition="#hanging-1">・同じ字が連続する場合、写本では踊り字が用いられている場合もありますが、巻八においてはもとの字に置き換えます。</s>
-                              <lb/><s rendition="#hanging-1">・原則として常用漢字体を使用します。</s>
-                              <lb/><s rendition="#hanging-1"
-                                    >・木偏と手偏、木偏と牛偏等、容易に判定される誤字や誤用・通用については、校異を省略して適宜置き換えた場合があります。ただし「大」と「太」については区別することとしました。</s>
+                        <p ana="個別">
+                              <lb/><seg rendition="#hanging-1">底本には土本を使用し、九本・近本・京博本・慶長本・梵本によって対校しました。</seg>
+                              <lb/><seg rendition="#hanging-1">・集英社刊訳注本の校訂と異なる場合は、その旨明記しました。</seg>
+                              <lb/><seg rendition="#hanging-1">・「斛」を「解」字のごとく筆写したものについては、容易に誤りと判定できる限りにおいて断りなく改めました。</seg>
                         </p>
                   </editorialDecl>
                   <variantEncoding location="external" method="location-referenced"/>
@@ -1222,12 +1199,6 @@
                         <rendition xml:id="hanging-1"> display: block; margin: 0; padding-inline-start: 1em; text-indent: -1em; </rendition>
                         <rendition xml:id="hanging-2"> display: block; margin: 0; padding-inline-start: 2em; text-indent: -2em; </rendition>
                         <rendition xml:id="hanging-3"> display: block; margin: 0; padding-inline-start: 3em; text-indent: -3em; </rendition>
-                        <rendition xml:id="indent1_hanging-3"> display: block; margin: 0; padding-inline-start: 4em; text-indent:
-                              -3em; </rendition>
-                        <rendition xml:id="indent1_hanging-4"> display: block; margin: 0; padding-inline-start: 5em; text-indent:
-                              -4em; </rendition>
-                        <rendition xml:id="indent1_hanging-5"> display: block; margin: 0; padding-inline-start: 6em; text-indent:
-                              -5em; </rendition>
                         <rendition xml:id="indent1_hanging-6"> display: block; margin: 0; padding-inline-start: 7em; text-indent:
                               -6em; </rendition>
                         <rendition xml:id="indent2_hanging-1"> display: block; margin: 0; padding-inline-start: 3em; text-indent:
@@ -1474,7 +1445,7 @@
                         <change when="2026-10-08"><date> 2026年10月8日
                               </date>主要写本・版本・刊本等略称・底本一覧、これまで鈴鹿本を慶安版本として扱ってきましたが、相曽貴志「延喜式版本の再検討」（『国立歴史民俗博物館研究報告』244、2024年）により慶安以前の古い版本である可能性が指摘されたことを受け、表記を改めました。これに伴い慶安版本・勢多本の表記を修正しました。</change>
                   </listChange>
-                  <listChange>
+                  <listChange xml:id="校訂文">
                         <change/>
                   </listChange>
             </revisionDesc>

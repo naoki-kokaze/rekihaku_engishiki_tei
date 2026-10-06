@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
@@ -124,7 +124,6 @@
           <licence target="https://creativecommons.org/licenses/by/4.0/">この作品はクリエイティブ・コモンズ 表示 4.0 国際 ライセンス（CC BY
             4.0）の下に提供されています。</licence>
         </availability>
-        <!--下記dateはデジタル延喜式の公開日のままでよいでしょうか？ -->
         <date when="2020-03-31">31 March 2020</date>
       </publicationStmt>
       <notesStmt>
@@ -761,8 +760,7 @@
                 <ref xml:id="九冊本傍書">九冊本傍書</ref>
                 <ref xml:id="九冊本傍訓">九冊本傍訓</ref>
               </listRef></witness>
-            <witness xml:id="永本"
-              ><abbr>永本</abbr>：國學院大學図書館所蔵卜部兼永筆本（巻8、091.2/322.135/1）、鈴鹿義鯨旧蔵卜部兼永筆本（巻9・10、現蔵不明、神宮文庫写真帳1門16974を閲覧） <listRef>
+            <witness xml:id="永本"><abbr>永本</abbr>：國學院大學図書館所蔵卜部兼永筆本（巻8、091.2/322.135/1）、鈴鹿義鯨旧蔵卜部兼永筆本（巻9・10、現蔵不明、神宮文庫写真帳1門16974を閲覧） <listRef>
                 <ref xml:id="永本傍書">永本傍書</ref>
                 <ref xml:id="永本左傍書">永本左傍書</ref>
                 <ref xml:id="永本左朱傍書">永本左朱傍書</ref>
@@ -887,8 +885,8 @@
                 は、史料中の物品名を語彙項目として整理し、表記の統合を図るためのものである。各項目は、解説（<gi>label</gi>）に加え、文字種（漢字・かな等）およびデータ種（校訂文・現代語訳・英訳）ごとの表記情報を、<gi>listNym</gi>
               および <gi>nym</gi> を用いて構造的に保持している。また、語句間の関係性は、<gi>taxonomy</gi> の階層構造ではなく <gi>standOff</gi> 内の <gi>relation</gi>
               によって記述する。 </item>
-            <item>【レイアウトの再現と <gi>table</gi>】 本文中の神名列記など、特定の視覚的段落表現を保持するため、<gi>table</gi> をレイアウト制御の手段として利用している。これは、空の
-                <gi>cell</gi> や幅指定（<att>rendition</att>）を組み合わせることで、史料が持つ空間的な配置情報をデジタル文脈で表現するためのものである。</item>
+            <item>【レイアウトの再現と <gi>table</gi>】 本文中の神名列記など、特定の視覚的段落表現を保持するため、<gi>table</gi> をレイアウト制御の手段として利用している。これは、空の <gi>cell</gi>
+                や幅指定（<att>rendition</att>）を組み合わせることで、史料が持つ空間的な配置情報をデジタル文脈で表現するためのものである。</item>
             <item> 【データの統一性に関する注記】 日本史料への TEI
               適用において先行事例が乏しいため、実験的なマークアップを含んでいる。巻次や史料の記述形式により、タグの適用範囲や属性の粒度に差異が生じている箇所があるが、これらについては各巻の個別凡例にて補足、あるいは将来的な一括処理を見据えた暫定的な記述としている。
             </item>
@@ -896,18 +894,16 @@
           <list>
             <head>校訂文のXMLファイル</head>
             <item> 【校異の記述と校訂根拠】諸本の異同は <gi>app</gi> 内の <gi>lem</gi> および <gi>rdg</gi> で示し、<att>wit</att>
-                によって校訂根拠となる写本・版本情報を提示する。<att>wit</att> の対象は原則として写本・版本等に限定し、注釈書や他の歴史史料による知見は <gi>note</gi>
-                内に記述している。また、<gi>lem</gi> に示すべき写本が存在しない場合は <att>cause</att> を用い、校訂の根拠を明示する。 </item>
+                によって校訂根拠となる写本・版本情報を提示する。<att>wit</att> の対象は原則として写本・版本等に限定し、注釈書や他の歴史史料による知見は <gi>note</gi> 内に記述している。また、<gi>lem</gi>
+              に示すべき写本が存在しない場合は <att>cause</att> を用い、校訂の根拠を明示する。 </item>
             <item>
               【採録範囲と個別凡例】本プロジェクトにおける校異の採録は諸本の網羅を目的とせず、校訂に実質的に資する写本・版本および傍書類に対象を限定している。採用する写本の種類や範囲は巻ごとに異なるため、詳細は各巻の個別凡例を参照されたい。 </item>
             <item>【傍書の扱い】傍書・傍訓・朱書・頭注といった文字周辺の注記情報は、<gi>note</gi> と <att>place</att> を組み合わせて記述するほか、独立した witness としても識別し、必要に応じて
                 <att>wit</att> から参照可能としている。 </item>
             <item> 【標注の扱い】標注を提示する際には、<gi>app</gi> をその記述単位として利用し、<att>type</att>="標注" を付与することで情報の性質を明示している。 </item>
             <item> 【非文字単位・広範囲の注記】文字の配列や条文全体に関する注記など、文字単位の異同として処理できない情報については、<gi>app</gi> の構造を維持しつつ、<gi>note</gi>
-              を用いて内容を記述する。校異の該当範囲が広範にわたる場合は、冒頭語句に <gi>anchor</gi> を配置し、<gi>note</gi>
-              内で「冒頭語句……末尾語句」と範囲を明記した上で、注記本文を記述する手法を採用している。 </item>
-            <item> 【物品情報の構造化（<gi>measure</gi>
-                等）】物品の数量・寸法を記述するため、<gi>measure</gi>、<gi>measureGrp</gi>、<gi>unit</gi>、<gi>note</gi>
+              を用いて内容を記述する。校異の該当範囲が広範にわたる場合は、冒頭語句に <gi>anchor</gi> を配置し、<gi>note</gi> 内で「冒頭語句……末尾語句」と範囲を明記した上で、注記本文を記述する手法を採用している。 </item>
+            <item> 【物品情報の構造化（<gi>measure</gi> 等）】物品の数量・寸法を記述するため、<gi>measure</gi>、<gi>measureGrp</gi>、<gi>unit</gi>、<gi>note</gi>
                 等を使用している。<att>ana</att>（納税物区分）、<att>commodity</att>（品目の種類）、<att>quantity</att>（数量）、<att>type</att>（貢納量の規定か実数かの別）といった属性により、計量情報を厳密に定義している。品目名と総量を括る階層構造や、複数の単位を合算する
                 <gi>measureGrp</gi> により、史料の計量記述を論理的に再現している。また、単位（<gi>unit</gi>）については <att>unitRef</att> を用い、<gi>unitDecl</gi>
               で体系的に定義された単位情報と紐付けている。なお、現段階での詳細な実装は巻24のデータに限定される。 </item>
@@ -1097,22 +1093,14 @@
         <rendition xml:id="hanging-1">display: block; margin: 0; padding-inline-start: 1em; text-indent: -1em;</rendition>
         <rendition xml:id="hanging-2">display: block; margin: 0; padding-inline-start: 2em; text-indent: -2em;</rendition>
         <rendition xml:id="hanging-3">display: block; margin: 0; padding-inline-start: 3em; text-indent: -3em;</rendition>
-        <rendition xml:id="indent1_hanging-6">display: block; margin: 0; padding-inline-start: 7em; text-indent:
-          -6em;</rendition>
-        <rendition xml:id="indent2_hanging-1">display: block; margin: 0; padding-inline-start: 3em; text-indent:
-          -1em;</rendition>
-        <rendition xml:id="indent2_hanging-3">display: block; margin: 0; padding-inline-start: 5em; text-indent:
-          -3em;</rendition>
-        <rendition xml:id="indent2_hanging-4">display: block; margin: 0; padding-inline-start: 6em; text-indent:
-          -4em;</rendition>
-        <rendition xml:id="indent2_hanging-5">display: block; margin: 0; padding-inline-start: 7em; text-indent:
-          -5em;</rendition>
-        <rendition xml:id="indent2_hanging-7">display: block; margin: 0; padding-inline-start: 9em; text-indent:
-          -7em;</rendition>
-        <rendition xml:id="indent3_hanging-5">display: block; margin: 0; padding-inline-start: 8em; text-indent:
-          -5em;</rendition>
-        <rendition xml:id="indent4_hanging-5">display: block; margin: 0; padding-inline-start: 9em; text-indent:
-          -5em;</rendition>
+        <rendition xml:id="indent1_hanging-6">display: block; margin: 0; padding-inline-start: 7em; text-indent: -6em;</rendition>
+        <rendition xml:id="indent2_hanging-1">display: block; margin: 0; padding-inline-start: 3em; text-indent: -1em;</rendition>
+        <rendition xml:id="indent2_hanging-3">display: block; margin: 0; padding-inline-start: 5em; text-indent: -3em;</rendition>
+        <rendition xml:id="indent2_hanging-4">display: block; margin: 0; padding-inline-start: 6em; text-indent: -4em;</rendition>
+        <rendition xml:id="indent2_hanging-5">display: block; margin: 0; padding-inline-start: 7em; text-indent: -5em;</rendition>
+        <rendition xml:id="indent2_hanging-7">display: block; margin: 0; padding-inline-start: 9em; text-indent: -7em;</rendition>
+        <rendition xml:id="indent3_hanging-5">display: block; margin: 0; padding-inline-start: 8em; text-indent: -5em;</rendition>
+        <rendition xml:id="indent4_hanging-5">display: block; margin: 0; padding-inline-start: 9em; text-indent: -5em;</rendition>
         <rendition xml:id="indent4_hanging-6">display: block; margin: 0; padding-inline-start: 10em; text-indent:
           -6em;</rendition>
         <rendition xml:id="indent5_hanging-5">display: block; margin: 0; padding-inline-start: 10em; text-indent:
@@ -1331,8 +1319,12 @@
         </unitDef>
       </unitDecl>
     </encodingDesc>
-    <revisionDesc ana="個別">
-      <listChange>
+    <revisionDesc>
+      <listChange xml:id="凡例">
+        <change when="2026-10-08"><date> 2026年10月8日
+          </date>主要写本・版本・刊本等略称・底本一覧、これまで鈴鹿本を慶安版本として扱ってきましたが、相曽貴志「延喜式版本の再検討」（『国立歴史民俗博物館研究報告』244、2024年）により慶安以前の古い版本である可能性が指摘されたことを受け、表記を改めました。これに伴い慶安版本・勢多本の表記を修正しました。</change>
+      </listChange>
+      <listChange xml:id="校訂文">
         <change/>
       </listChange>
     </revisionDesc>
@@ -1357,7 +1349,8 @@
               <lb/><seg rendition="#indent3">不動若干石</seg>
               <lb/><seg rendition="#indent3">動用若干石</seg>
               <lb/><seg rendition="#indent2">粟穀若干石</seg>
-              <pb facs="https://iiif.rekihaku.ac.jp/fcgi-bin/iipsrv.fcgi?IIIF=engishiki/H-743-74-27/00003.tif/full/max/0/default.jpg"/>
+              <pb
+                facs="https://iiif.rekihaku.ac.jp/fcgi-bin/iipsrv.fcgi?IIIF=engishiki/H-743-74-27/00003.tif/full/max/0/default.jpg"/>
               <lb/><seg rendition="#indent3">不動若干石</seg>
               <lb/><seg rendition="#indent3">動用若干石</seg>
               <lb/><seg rendition="#indent2"><anchor xml:id="app2710010101"/>穎<anchor xml:id="app2710010101e"/>稲若干束</seg>
@@ -1377,7 +1370,8 @@
               <lb/><seg rendition="#indent3">新任国司四分之一料若干束</seg>
               <lb/><seg rendition="#indent4">某官位姓名若干束</seg>
               <lb/><seg rendition="#indent3">書生料若干束</seg>
-              <pb facs="https://iiif.rekihaku.ac.jp/fcgi-bin/iipsrv.fcgi?IIIF=engishiki/H-743-74-27/00004.tif/full/max/0/default.jpg"/>
+              <pb
+                facs="https://iiif.rekihaku.ac.jp/fcgi-bin/iipsrv.fcgi?IIIF=engishiki/H-743-74-27/00004.tif/full/max/0/default.jpg"/>
               <lb/><seg rendition="#indent">塡納勘出若干束</seg>
               <lb/><seg rendition="#indent2">依<orgName corresp="#太政官">太政官</orgName><anchor xml:id="app2710010104"/>其<anchor
                   xml:id="app2710010104e"/>年月日符塡納若干束</seg>
@@ -1398,11 +1392,11 @@
               <lb/><seg rendition="#indent3">死馬皮若干張〈張別若干尺、〉</seg>
               <lb/><seg rendition="#indent4">価若干束〈張別若干束、〉</seg>
               <lb/><seg rendition="#indent2">牧馬牛皮若干<anchor xml:id="app2710010107"/>張<anchor xml:id="app2710010107e"/></seg>
-              <pb facs="https://iiif.rekihaku.ac.jp/fcgi-bin/iipsrv.fcgi?IIIF=engishiki/H-743-74-27/00005.tif/full/max/0/default.jpg"/>
+              <pb
+                facs="https://iiif.rekihaku.ac.jp/fcgi-bin/iipsrv.fcgi?IIIF=engishiki/H-743-74-27/00005.tif/full/max/0/default.jpg"/>
               <lb/><seg rendition="#indent3">馬皮若干張〈張別若干尺、〉</seg>
               <lb/><seg rendition="#indent4">価若干束〈張別若干束、〉</seg>
-              <lb/><seg rendition="#indent3">牛皮若干張〈張別若干<anchor xml:id="app2710010108"/>尺<anchor xml:id="app2710010108e"
-                />、〉</seg>
+              <lb/><seg rendition="#indent3">牛皮若干張〈張別若干<anchor xml:id="app2710010108"/>尺<anchor xml:id="app2710010108e"/>、〉</seg>
               <lb/><seg rendition="#indent4">価若干束〈張別若干束、〉</seg>
               <lb/><seg rendition="#indent">当年田租穀穎若干束</seg>
               <lb/><seg rendition="#indent2">雑散若干束</seg>
@@ -1417,7 +1411,8 @@
               <lb/><seg rendition="#indent3">不動若干石</seg>
               <lb/><seg rendition="#indent3">動用若<anchor xml:id="app2710010109"/>干<anchor xml:id="app2710010109e"/>石</seg>
               <lb/><seg rendition="#indent2">穎若干束</seg>
-              <pb facs="https://iiif.rekihaku.ac.jp/fcgi-bin/iipsrv.fcgi?IIIF=engishiki/H-743-74-27/00006.tif/full/max/0/default.jpg"/>
+              <pb
+                facs="https://iiif.rekihaku.ac.jp/fcgi-bin/iipsrv.fcgi?IIIF=engishiki/H-743-74-27/00006.tif/full/max/0/default.jpg"/>
               <lb/><seg rendition="#indent3">不動穀倉底敷若干束</seg>
               <lb/><seg rendition="#indent3">定若干束</seg>
               <lb/><seg rendition="#indent2">糒若干石</seg>
@@ -1438,8 +1433,8 @@
               <lb/><seg rendition="#indent4">僧<pb
                   facs="https://iiif.rekihaku.ac.jp/fcgi-bin/iipsrv.fcgi?IIIF=engishiki/H-743-74-27/00007.tif/full/max/0/default.jpg"
                 />若干口尼若干口布施</seg>
-              <lb/><seg rendition="#indent5">絹若干疋〈口別若干疋、〉価若干束〈疋別若干<anchor xml:id="app2710010113"/>束<anchor
-                  xml:id="app2710010113e"/>、〉</seg>
+              <lb/><seg rendition="#indent5">絹若干疋〈口別若干疋、〉価若干束〈疋別若干<anchor xml:id="app2710010113"/>束<anchor xml:id="app2710010113e"
+                />、〉</seg>
               <lb/><seg rendition="#indent5">綿若干屯〈口別若干屯、〉価若干束〈屯別若干束、〉</seg>
               <lb/><seg rendition="#indent4">沙弥若干口布施</seg>
               <lb/><seg rendition="#indent5">調布若干端〈口別若干端、〉価若干束〈端別若干束、〉</seg>
@@ -1456,7 +1451,8 @@
               <lb/><seg rendition="#indent4">甲若干具　料若干束</seg>
               <lb/><seg rendition="#indent5">牛皮若干張〈具別若干張、〉</seg>
               <lb/><seg rendition="#indent6">価若干束〈張別若干束、諸色准此、各為一項、〉</seg>
-              <pb facs="https://iiif.rekihaku.ac.jp/fcgi-bin/iipsrv.fcgi?IIIF=engishiki/H-743-74-27/00008.tif/full/max/0/default.jpg"/>
+              <pb
+                facs="https://iiif.rekihaku.ac.jp/fcgi-bin/iipsrv.fcgi?IIIF=engishiki/H-743-74-27/00008.tif/full/max/0/default.jpg"/>
               <lb/><seg rendition="#indent4">横刀若干口　料若干束</seg>
               <lb/><seg rendition="#indent5">鞘料鹿皮若干張〈張別若干尺、〉</seg>
               <lb/><seg rendition="#indent6">価若干束〈張別若干束、諸色准此、各為一項、〉</seg>
@@ -1475,7 +1471,8 @@
               <lb/><seg rendition="#indent5">某物若干枚価若干束〈枚別若干束、諸色准此、各為一項、〉</seg>
               <lb/><seg rendition="#indent3">年料進上雑米料若干束</seg>
               <lb/><seg rendition="#indent4">勅旨米若干石料若干束〈諸色准此、各為一項、〉</seg>
-              <pb facs="https://iiif.rekihaku.ac.jp/fcgi-bin/iipsrv.fcgi?IIIF=engishiki/H-743-74-27/00009.tif/full/max/0/default.jpg"/>
+              <pb
+                facs="https://iiif.rekihaku.ac.jp/fcgi-bin/iipsrv.fcgi?IIIF=engishiki/H-743-74-27/00009.tif/full/max/0/default.jpg"/>
               <lb/><seg rendition="#indent4">運賃料若干束</seg>
               <lb/><seg rendition="#indent5">海路行程若干箇日〈向京若干日、還郷若干日、〉</seg>
               <lb/><seg rendition="#indent5">海船若干艘〈勝載若干石、〉従某津迄某津賃若干束〈石別若干束、〉</seg>
@@ -1483,8 +1480,8 @@
                 />船若干艘従某津迄某津賃米若干石〈石別若干升、〉料若干束</seg>
               <lb/><seg rendition="#indent5">雇車若干両従<anchor xml:id="app2710010118"/>某<anchor xml:id="app2710010118e"
                 />津迄某処賃米若干石〈両別若干升、〉料若干束</seg>
-              <lb/><seg rendition="#indent5">水脚若干人〈挟杪若干人、水手若干人、人別<anchor xml:id="app2710010119"/>漕<anchor
-                  xml:id="app2710010119e"/>若干石、〉</seg>
+              <lb/><seg rendition="#indent5">水脚若干人〈挟杪若干人、水手若干人、人別<anchor xml:id="app2710010119"/>漕<anchor xml:id="app2710010119e"
+                />若干石、〉</seg>
               <lb/><seg rendition="#indent6">功若干束〈挟杪各若干束、水手各若干束、〉</seg>
               <lb/><seg rendition="#indent6">程粮若干束〈向京日別若干把、還郷日別若干把、〉</seg>
               <lb/><seg rendition="#indent5">綱丁若干人</seg>
@@ -1496,7 +1493,8 @@
               <lb/><seg rendition="#indent3">貢上御馬若干疋</seg>
               <lb/><seg rendition="#indent4">飼秣若干束〈疋別若干束、諸色准此、各為一項、〉</seg>
               <lb/><seg rendition="#indent3"><anchor xml:id="app2710010122"/>駅<anchor xml:id="app2710010122e"/>馬若干疋</seg>
-              <pb facs="https://iiif.rekihaku.ac.jp/fcgi-bin/iipsrv.fcgi?IIIF=engishiki/H-743-74-27/00010.tif/full/max/0/default.jpg"/>
+              <pb
+                facs="https://iiif.rekihaku.ac.jp/fcgi-bin/iipsrv.fcgi?IIIF=engishiki/H-743-74-27/00010.tif/full/max/0/default.jpg"/>
               <lb/><seg rendition="#indent4">飼秣若干束〈疋別若干束、〉</seg>
               <lb/><seg rendition="#indent3">買立駅馬若干疋価若干束</seg>
               <lb/><seg rendition="#indent4">上馬若干疋〈疋別若干束、中・下馬准此、各為一項、〉</seg>
@@ -1506,24 +1504,24 @@
               <lb/><seg rendition="#indent4">羅機若干具</seg>
               <lb/><seg rendition="#indent5">綜料糸若干絇価若干束〈絇別若干束、諸色准此、各為一項、〉</seg>
               <lb/><seg rendition="#indent4">羅若干疋〈疋別織若干日、〉織単若干人</seg>
-              <lb/><seg rendition="#indent5">粮料若干束〈人別若干束、諸色准此、各<anchor xml:id="app2710010124"/>為<anchor
-                  xml:id="app2710010124e"/>一項、〉</seg>
+              <lb/><seg rendition="#indent5">粮料若干束〈人別若干束、諸色准此、各<anchor xml:id="app2710010124"/>為<anchor xml:id="app2710010124e"
+                />一項、〉</seg>
               <lb/><seg rendition="#indent4">替綜若干具〈経若干年替、〉料若干束</seg>
-              <lb/><seg rendition="#indent5">某羅・綾<anchor xml:id="app2710010125"/>綜<anchor xml:id="app2710010125e"
-                />若干具料糸若干絇</seg>
+              <lb/><seg rendition="#indent5">某羅・綾<anchor xml:id="app2710010125"/>綜<anchor xml:id="app2710010125e"/>若干具料糸若干絇</seg>
               <lb/><seg rendition="#indent6">価若干束〈絇別若干束、〉</seg>
               <lb/><seg rendition="#indent5">作単若干日粮料若干束〈日若干把、〉</seg>
               <lb/><seg rendition="#indent6">纏紡単若干日</seg>
               <lb/><seg rendition="#indent6">作綜単若干日</seg>
               <lb/><seg rendition="#indent3">駅使幷将従単若干人〈主典已上若干人、史生若干人、<anchor xml:id="app2710010126"/>従<anchor
                   xml:id="app2710010126e"/>若干人、〉</seg>
-              <pb facs="https://iiif.rekihaku.ac.jp/fcgi-bin/iipsrv.fcgi?IIIF=engishiki/H-743-74-27/00011.tif/full/max/0/default.jpg"/>
+              <pb
+                facs="https://iiif.rekihaku.ac.jp/fcgi-bin/iipsrv.fcgi?IIIF=engishiki/H-743-74-27/00011.tif/full/max/0/default.jpg"/>
               <lb/><seg rendition="#indent4">食料若干束</seg>
               <lb/><seg rendition="#indent5">飯料若干束〈史生已上日若干把、従日若干把、〉</seg>
               <lb/><seg rendition="#indent4">塩若干斗〈史生已上日若干夕、従日若干夕、〉</seg>
               <lb/><seg rendition="#indent4">酒若干石〈主典已上日若干升、史生日若干合、〉</seg>
-              <lb/><seg rendition="#indent3"><anchor xml:id="app2710010127"/>三<anchor xml:id="app2710010127e"
-                  />度使単若干人〈目已上若<anchor xml:id="app2710010128"/>干<anchor xml:id="app2710010128e"/>人、史生若干人、従若干人、雑掌若干人、〉</seg>
+              <lb/><seg rendition="#indent3"><anchor xml:id="app2710010127"/>三<anchor xml:id="app2710010127e"/>度使単若干人〈目已上若<anchor
+                  xml:id="app2710010128"/>干<anchor xml:id="app2710010128e"/>人、史生若干人、従若干人、雑掌若干人、〉</seg>
               <lb/><seg rendition="#indent4"><anchor xml:id="app2710010129"/>朝集使<anchor xml:id="app2710010129e"
                 />単若干人〈目已上若干人、史生若干人、従若干人、雑掌若干人、余使准此、各為一項、〉</seg>
               <lb/><seg rendition="#indent4"><anchor xml:id="app2710010130"/>其<anchor xml:id="app2710010130e"
@@ -1555,13 +1553,14 @@
               <lb/><seg rendition="#indent3">巡行国司単若干人〈目已上若干人、史生若干人、従<anchor xml:id="app2710010134"/>若<anchor
                   xml:id="app2710010134e"/>干人、〉</seg>
               <lb/><seg rendition="#indent4">食料若干束</seg>
-              <pb facs="https://iiif.rekihaku.ac.jp/fcgi-bin/iipsrv.fcgi?IIIF=engishiki/H-743-74-27/00013.tif/full/max/0/default.jpg"/>
+              <pb
+                facs="https://iiif.rekihaku.ac.jp/fcgi-bin/iipsrv.fcgi?IIIF=engishiki/H-743-74-27/00013.tif/full/max/0/default.jpg"/>
               <lb/><seg rendition="#indent5">飯料若干束〈目已上日若干升、史生日若干合、〉</seg>
               <lb/><seg rendition="#indent4">塩若干斗〈目已上日若干升、史生日若干合、〉</seg>
               <lb/><seg rendition="#indent4">酒若干<anchor xml:id="app2710010135"/>斗<anchor xml:id="app2710010135e"
                 />〈目已上日若干升、史生日若干合、〉</seg>
-              <lb/><seg rendition="#indent3">春夏出挙使単若干人〈目已上若干人、史生<anchor xml:id="app2710010136"/>若<anchor
-                  xml:id="app2710010136e"/>干人、従若干人、諸色准此、各為一項、〉</seg>
+              <lb/><seg rendition="#indent3">春夏出挙使単若干人〈目已上若干人、史生<anchor xml:id="app2710010136"/>若<anchor xml:id="app2710010136e"
+                />干人、従若干人、諸色准此、各為一項、〉</seg>
               <lb/><seg rendition="#indent4">一度〈守若干人、介若干人、掾若干人、目若干人、史生<anchor xml:id="app2710010137"/>若<anchor
                   xml:id="app2710010137e"/>干人、従若干人、〉</seg>
               <lb/><seg rendition="#indent4">単若干人〈目已上若干人、史生若干人、従若干人、〉</seg>
@@ -1574,12 +1573,12 @@
               <lb/><seg rendition="#indent3">依<orgName corresp="#太政官">太政官</orgName>符用若干束</seg>
               <lb/><seg rendition="#indent4">依某年月日符給某官位姓名禄料若干束</seg>
               <lb/><seg rendition="#indent5">絹若干疋価若干束〈疋別若干束、〉</seg>
-              <pb facs="https://iiif.rekihaku.ac.jp/fcgi-bin/iipsrv.fcgi?IIIF=engishiki/H-743-74-27/00014.tif/full/max/0/default.jpg"/>
+              <pb
+                facs="https://iiif.rekihaku.ac.jp/fcgi-bin/iipsrv.fcgi?IIIF=engishiki/H-743-74-27/00014.tif/full/max/0/default.jpg"/>
               <lb/><seg rendition="#indent5">綿若干屯価若干束〈屯別若干束、〉</seg>
               <lb/><seg rendition="#indent5">調布若干端価若干束〈端別若干束、〉</seg>
               <lb/><seg rendition="#indent5">鍬若干口価若干束〈口別若干束、〉</seg>
-              <lb/><seg rendition="#indent4">依某年月日符交易進<anchor xml:id="app2710010139"/>上<anchor xml:id="app2710010139e"
-                />絹若干疋</seg>
+              <lb/><seg rendition="#indent4">依某年月日符交易進<anchor xml:id="app2710010139"/>上<anchor xml:id="app2710010139e"/>絹若干疋</seg>
               <lb/><seg rendition="#indent5">価若干束〈疋別若干束、〉</seg>
               <lb/><seg rendition="#indent5">担夫若干人功粮若干束</seg>
               <lb/><seg rendition="#indent6">功若干束〈人別若干束、〉</seg>
@@ -1594,7 +1593,8 @@
               <lb/><seg rendition="#indent2">穎若干束</seg>
               <lb/><seg rendition="#indent3">不動倉底敷若干束</seg>
               <lb/><seg rendition="#indent3">定若干束</seg>
-              <pb facs="https://iiif.rekihaku.ac.jp/fcgi-bin/iipsrv.fcgi?IIIF=engishiki/H-743-74-27/00015.tif/full/max/0/default.jpg"/>
+              <pb
+                facs="https://iiif.rekihaku.ac.jp/fcgi-bin/iipsrv.fcgi?IIIF=engishiki/H-743-74-27/00015.tif/full/max/0/default.jpg"/>
               <lb/><seg rendition="#indent2">糒若干石</seg>
               <lb/><seg rendition="#indent2">塩若干石〈<anchor xml:id="app2710010140"/>諸色准此、各為一項<anchor xml:id="app2710010140e"
                 />、〉</seg>
@@ -1612,13 +1612,12 @@
                   xml:id="app2710010141e"/>倉若干、穀屋若干、〉</seg>
               <lb/><seg rendition="#indent3">動用若干宇〈穀倉若干、粟倉若干、<anchor xml:id="app2710010142"/>糒<anchor xml:id="app2710010142e"
                 />倉若干、穎倉若干、穎屋若干、〉</seg>
-              <lb/><seg rendition="#indent3">空若干宇〈倉若<anchor xml:id="app2710010143"/>干<anchor xml:id="app2710010143e"
-                />、屋若干、〉</seg>
+              <lb/><seg rendition="#indent3">空若干宇〈倉若<anchor xml:id="app2710010143"/>干<anchor xml:id="app2710010143e"/>、屋若干、〉</seg>
               <lb/><seg rendition="#indent">不動倉鑰若干勾〈鑰若干勾、匙若干隻、〉</seg>
-              <pb facs="https://iiif.rekihaku.ac.jp/fcgi-bin/iipsrv.fcgi?IIIF=engishiki/H-743-74-27/00016.tif/full/max/0/default.jpg"/>
+              <pb
+                facs="https://iiif.rekihaku.ac.jp/fcgi-bin/iipsrv.fcgi?IIIF=engishiki/H-743-74-27/00016.tif/full/max/0/default.jpg"/>
               <lb/><seg rendition="#indent">動用鑰若干勾</seg>
-              <lb/><seg rendition="#indent">倉印若干面〈已上郡<anchor xml:id="app2710010144"/>亦<anchor xml:id="app2710010144e"
-                />准此、〉</seg>
+              <lb/><seg rendition="#indent">倉印若干面〈已上郡<anchor xml:id="app2710010144"/>亦<anchor xml:id="app2710010144e"/>准此、〉</seg>
               <lb/>某郡 <lb/><seg rendition="#indent">第一板倉基〈長若干丈尺、広若干丈尺、高若干丈尺、〉　末〈長若干丈尺、広若干丈尺、〉</seg>
               <lb/><seg rendition="#indent2">塞基〈長若干丈尺、広若干丈尺、高若干丈尺、〉　末〈長若干丈尺、広若干丈尺、〉</seg>
               <lb/><seg rendition="#indent3">収納正税若干束</seg>
@@ -1842,7 +1841,8 @@
               <lb/><seg rendition="#indent">定田若干町</seg>
               <lb/><seg rendition="#indent2">応輸租田若干町</seg>
               <lb/><seg rendition="#indent3">郡司職田若干町〈余雑色田准此、各為一項、〉</seg>
-              <pb facs="https://iiif.rekihaku.ac.jp/fcgi-bin/iipsrv.fcgi?IIIF=engishiki/H-743-74-27/00017.tif/full/max/0/default.jpg"/>
+              <pb
+                facs="https://iiif.rekihaku.ac.jp/fcgi-bin/iipsrv.fcgi?IIIF=engishiki/H-743-74-27/00017.tif/full/max/0/default.jpg"/>
               <lb/><seg rendition="#indent3">口分田若干町</seg>
               <lb/><seg rendition="#indent4">某国百姓若干町</seg>
               <lb/><seg rendition="#indent4">当土百姓若干町</seg>
@@ -1862,7 +1862,8 @@
               <lb/><seg rendition="#indent3">口分田若干町</seg>
               <lb/><seg rendition="#indent3"><anchor xml:id="app2710020103"/>墾<anchor xml:id="app2710020103e"
                 />田若干町〈余雑色田准此、各為一項、〉</seg>
-              <pb facs="https://iiif.rekihaku.ac.jp/fcgi-bin/iipsrv.fcgi?IIIF=engishiki/H-743-74-27/00018.tif/full/max/0/default.jpg"/>
+              <pb
+                facs="https://iiif.rekihaku.ac.jp/fcgi-bin/iipsrv.fcgi?IIIF=engishiki/H-743-74-27/00018.tif/full/max/0/default.jpg"/>
               <lb/><seg rendition="#indent2">応輸地子田若干町</seg>
               <lb/><seg rendition="#indent3">乗田若干町〈余雑色田准此、各為一項、〉</seg>
               <lb/><seg rendition="#indent2">応輸租田若干町</seg>
@@ -1881,7 +1882,8 @@
               <lb/><seg rendition="#indent6">神封戸若干烟</seg>
               <lb/><seg rendition="#indent8">租若干束</seg>
               <lb/><seg rendition="#indent7">某神封戸若干烟</seg>
-              <pb facs="https://iiif.rekihaku.ac.jp/fcgi-bin/iipsrv.fcgi?IIIF=engishiki/H-743-74-27/00019.tif/full/max/0/default.jpg"/>
+              <pb
+                facs="https://iiif.rekihaku.ac.jp/fcgi-bin/iipsrv.fcgi?IIIF=engishiki/H-743-74-27/00019.tif/full/max/0/default.jpg"/>
               <lb/><seg rendition="#indent8">租若干束</seg>
               <lb/><seg rendition="#indent6">寺家封戸若干烟</seg>
               <lb/><seg rendition="#indent8">租若干束</seg>
@@ -1900,7 +1902,8 @@
               <lb/><seg rendition="#indent2">損若干町</seg>
               <lb/><seg rendition="#indent4">乗田若干町〈余雑色田准此、各為一項、〉</seg>
               <lb/><seg rendition="#indent2">得若干町</seg>
-              <pb facs="https://iiif.rekihaku.ac.jp/fcgi-bin/iipsrv.fcgi?IIIF=engishiki/H-743-74-27/00020.tif/full/max/0/default.jpg"/>
+              <pb
+                facs="https://iiif.rekihaku.ac.jp/fcgi-bin/iipsrv.fcgi?IIIF=engishiki/H-743-74-27/00020.tif/full/max/0/default.jpg"/>
               <lb/><seg rendition="#indent4">闕郡司職田若干町</seg>
               <lb/><seg rendition="#indent4">乗田若干町〈余雑色田准此、各為一項、〉</seg>
               <lb/><seg rendition="#indent3">輸地子稲若干束</seg>
@@ -1971,7 +1974,8 @@
               <lb/><seg rendition="#indent4">神田若干</seg>
               <lb/><seg rendition="#indent7">毎色可録、</seg>
               <lb/><seg rendition="#indent3">定田若干</seg>
-              <pb facs="https://iiif.rekihaku.ac.jp/fcgi-bin/iipsrv.fcgi?IIIF=engishiki/H-743-74-27/00022.tif/full/max/0/default.jpg"/>
+              <pb
+                facs="https://iiif.rekihaku.ac.jp/fcgi-bin/iipsrv.fcgi?IIIF=engishiki/H-743-74-27/00022.tif/full/max/0/default.jpg"/>
               <lb/><seg rendition="#indent4">応輸租田若干</seg>
               <lb/><seg rendition="#indent5">口分田若干</seg>
               <lb/><seg rendition="#indent7">毎色可録、</seg>
@@ -1990,7 +1994,8 @@
               <lb/><seg rendition="#indent7">毎色可録、</seg>
               <lb/><seg rendition="#indent2">某郷戸主姓名戸田若干</seg>
               <lb/><seg rendition="#indent3">売口分田若干</seg>
-              <pb facs="https://iiif.rekihaku.ac.jp/fcgi-bin/iipsrv.fcgi?IIIF=engishiki/H-743-74-27/00023.tif/full/max/0/default.jpg"/>
+              <pb
+                facs="https://iiif.rekihaku.ac.jp/fcgi-bin/iipsrv.fcgi?IIIF=engishiki/H-743-74-27/00023.tif/full/max/0/default.jpg"/>
               <lb/><seg rendition="#indent4">某里某坪</seg>
               <lb/><seg rendition="#indent5">買人姓名</seg>
               <lb/><seg rendition="#indent3">見営田若干</seg>
@@ -2009,7 +2014,8 @@
               <lb/><seg rendition="#indent7">毎色可録、</seg>
               <lb/><seg rendition="#indent2">浪人姓名営田若干</seg>
               <lb/><seg rendition="#indent4">口分<anchor xml:id="app2710030102"/>田<anchor xml:id="app2710030102e"/>若干</seg>
-              <pb facs="https://iiif.rekihaku.ac.jp/fcgi-bin/iipsrv.fcgi?IIIF=engishiki/H-743-74-27/00024.tif/full/max/0/default.jpg"/>
+              <pb
+                facs="https://iiif.rekihaku.ac.jp/fcgi-bin/iipsrv.fcgi?IIIF=engishiki/H-743-74-27/00024.tif/full/max/0/default.jpg"/>
               <lb/><seg rendition="#indent5">某里某坪</seg>
               <lb/><seg rendition="#indent6">姓名戸田</seg>
               <lb/><seg rendition="#indent7">毎色可録、</seg>
@@ -2045,10 +2051,11 @@
               <lb/><seg rendition="#indent3">租田若干</seg>
               <lb/><seg rendition="#indent4">不堪佃田若干</seg>
               <lb/><seg rendition="#indent4">堪佃田若干</seg>
-              <pb facs="https://iiif.rekihaku.ac.jp/fcgi-bin/iipsrv.fcgi?IIIF=engishiki/H-743-74-27/00025.tif/full/max/0/default.jpg"/>
+              <pb
+                facs="https://iiif.rekihaku.ac.jp/fcgi-bin/iipsrv.fcgi?IIIF=engishiki/H-743-74-27/00025.tif/full/max/0/default.jpg"/>
               <lb/><seg rendition="#indent4">地子田<anchor xml:id="app2710040101"/>若<anchor xml:id="app2710040101e"/>干</seg>
-              <lb/>右得管諸郡司解偁、云<anchor xml:id="app2710040102"/>云<anchor xml:id="app2710040102e"/>、国司巡検、仍注不堪佃田幷堪佃田申上如件、謹解、
-                <lb/><seg rendition="#indent5">年月日</seg>
+              <lb/>右得管諸郡司解偁、云<anchor xml:id="app2710040102"/>云<anchor xml:id="app2710040102e"/>、国司巡検、仍注不堪佃田幷堪佃田申上如件、謹解、 <lb/><seg
+                rendition="#indent5">年月日</seg>
             </p>
             <app from="#app2710040101" to="#app2710040101e">
               <lem wit="#九本">若</lem>
@@ -2078,7 +2085,8 @@
               <lb/><seg rendition="#indent3">見損田若干</seg>
               <lb/><seg rendition="#indent3">五分已上損戸得田若干</seg>
               <lb/><seg rendition="#indent2">得田若干</seg>
-              <pb facs="https://iiif.rekihaku.ac.jp/fcgi-bin/iipsrv.fcgi?IIIF=engishiki/H-743-74-27/00026.tif/full/max/0/default.jpg"/>
+              <pb
+                facs="https://iiif.rekihaku.ac.jp/fcgi-bin/iipsrv.fcgi?IIIF=engishiki/H-743-74-27/00026.tif/full/max/0/default.jpg"/>
               <lb/><seg rendition="#indent3">租田若干</seg>
               <lb/><seg rendition="#indent3">地子田若干</seg>
               <lb/><seg rendition="#indent">八分已上戸若干烟</seg>
@@ -2147,88 +2155,116 @@
   </text>
   <facsimile source="https://iiif.rekihaku.ac.jp/api/manifests/shiryo/H-743-74-27">
     <surface source="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-27/page4762" xml:id="page4762">
-      <graphic url="https://iiif.rekihaku.ac.jp/fcgi-bin/iipsrv.fcgi?IIIF=engishiki/H-743-74-27/00001.tif/full/max/0/default.jpg"/>
+      <graphic url="https://iiif.rekihaku.ac.jp/fcgi-bin/iipsrv.fcgi?IIIF=engishiki/H-743-74-27/00001.tif/full/max/0/default.jpg"
+      />
     </surface>
     <surface source="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-27/page4763" xml:id="page4763">
-      <graphic url="https://iiif.rekihaku.ac.jp/fcgi-bin/iipsrv.fcgi?IIIF=engishiki/H-743-74-27/00002.tif/full/max/0/default.jpg"/>
+      <graphic url="https://iiif.rekihaku.ac.jp/fcgi-bin/iipsrv.fcgi?IIIF=engishiki/H-743-74-27/00002.tif/full/max/0/default.jpg"
+      />
     </surface>
     <surface source="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-27/page4764" xml:id="page4764">
-      <graphic url="https://iiif.rekihaku.ac.jp/fcgi-bin/iipsrv.fcgi?IIIF=engishiki/H-743-74-27/00003.tif/full/max/0/default.jpg"/>
+      <graphic url="https://iiif.rekihaku.ac.jp/fcgi-bin/iipsrv.fcgi?IIIF=engishiki/H-743-74-27/00003.tif/full/max/0/default.jpg"
+      />
     </surface>
     <surface source="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-27/page4765" xml:id="page4765">
-      <graphic url="https://iiif.rekihaku.ac.jp/fcgi-bin/iipsrv.fcgi?IIIF=engishiki/H-743-74-27/00004.tif/full/max/0/default.jpg"/>
+      <graphic url="https://iiif.rekihaku.ac.jp/fcgi-bin/iipsrv.fcgi?IIIF=engishiki/H-743-74-27/00004.tif/full/max/0/default.jpg"
+      />
     </surface>
     <surface source="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-27/page4766" xml:id="page4766">
-      <graphic url="https://iiif.rekihaku.ac.jp/fcgi-bin/iipsrv.fcgi?IIIF=engishiki/H-743-74-27/00005.tif/full/max/0/default.jpg"/>
+      <graphic url="https://iiif.rekihaku.ac.jp/fcgi-bin/iipsrv.fcgi?IIIF=engishiki/H-743-74-27/00005.tif/full/max/0/default.jpg"
+      />
     </surface>
     <surface source="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-27/page4767" xml:id="page4767">
-      <graphic url="https://iiif.rekihaku.ac.jp/fcgi-bin/iipsrv.fcgi?IIIF=engishiki/H-743-74-27/00006.tif/full/max/0/default.jpg"/>
+      <graphic url="https://iiif.rekihaku.ac.jp/fcgi-bin/iipsrv.fcgi?IIIF=engishiki/H-743-74-27/00006.tif/full/max/0/default.jpg"
+      />
     </surface>
     <surface source="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-27/page4768" xml:id="page4768">
-      <graphic url="https://iiif.rekihaku.ac.jp/fcgi-bin/iipsrv.fcgi?IIIF=engishiki/H-743-74-27/00007.tif/full/max/0/default.jpg"/>
+      <graphic url="https://iiif.rekihaku.ac.jp/fcgi-bin/iipsrv.fcgi?IIIF=engishiki/H-743-74-27/00007.tif/full/max/0/default.jpg"
+      />
     </surface>
     <surface source="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-27/page4769" xml:id="page4769">
-      <graphic url="https://iiif.rekihaku.ac.jp/fcgi-bin/iipsrv.fcgi?IIIF=engishiki/H-743-74-27/00008.tif/full/max/0/default.jpg"/>
+      <graphic url="https://iiif.rekihaku.ac.jp/fcgi-bin/iipsrv.fcgi?IIIF=engishiki/H-743-74-27/00008.tif/full/max/0/default.jpg"
+      />
     </surface>
     <surface source="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-27/page4770" xml:id="page4770">
-      <graphic url="https://iiif.rekihaku.ac.jp/fcgi-bin/iipsrv.fcgi?IIIF=engishiki/H-743-74-27/00009.tif/full/max/0/default.jpg"/>
+      <graphic url="https://iiif.rekihaku.ac.jp/fcgi-bin/iipsrv.fcgi?IIIF=engishiki/H-743-74-27/00009.tif/full/max/0/default.jpg"
+      />
     </surface>
     <surface source="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-27/page4771" xml:id="page4771">
-      <graphic url="https://iiif.rekihaku.ac.jp/fcgi-bin/iipsrv.fcgi?IIIF=engishiki/H-743-74-27/00010.tif/full/max/0/default.jpg"/>
+      <graphic url="https://iiif.rekihaku.ac.jp/fcgi-bin/iipsrv.fcgi?IIIF=engishiki/H-743-74-27/00010.tif/full/max/0/default.jpg"
+      />
     </surface>
     <surface source="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-27/page4772" xml:id="page4772">
-      <graphic url="https://iiif.rekihaku.ac.jp/fcgi-bin/iipsrv.fcgi?IIIF=engishiki/H-743-74-27/00011.tif/full/max/0/default.jpg"/>
+      <graphic url="https://iiif.rekihaku.ac.jp/fcgi-bin/iipsrv.fcgi?IIIF=engishiki/H-743-74-27/00011.tif/full/max/0/default.jpg"
+      />
     </surface>
     <surface source="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-27/page4773" xml:id="page4773">
-      <graphic url="https://iiif.rekihaku.ac.jp/fcgi-bin/iipsrv.fcgi?IIIF=engishiki/H-743-74-27/00012.tif/full/max/0/default.jpg"/>
+      <graphic url="https://iiif.rekihaku.ac.jp/fcgi-bin/iipsrv.fcgi?IIIF=engishiki/H-743-74-27/00012.tif/full/max/0/default.jpg"
+      />
     </surface>
     <surface source="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-27/page4774" xml:id="page4774">
-      <graphic url="https://iiif.rekihaku.ac.jp/fcgi-bin/iipsrv.fcgi?IIIF=engishiki/H-743-74-27/00013.tif/full/max/0/default.jpg"/>
+      <graphic url="https://iiif.rekihaku.ac.jp/fcgi-bin/iipsrv.fcgi?IIIF=engishiki/H-743-74-27/00013.tif/full/max/0/default.jpg"
+      />
     </surface>
     <surface source="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-27/page4775" xml:id="page4775">
-      <graphic url="https://iiif.rekihaku.ac.jp/fcgi-bin/iipsrv.fcgi?IIIF=engishiki/H-743-74-27/00014.tif/full/max/0/default.jpg"/>
+      <graphic url="https://iiif.rekihaku.ac.jp/fcgi-bin/iipsrv.fcgi?IIIF=engishiki/H-743-74-27/00014.tif/full/max/0/default.jpg"
+      />
     </surface>
     <surface source="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-27/page4776" xml:id="page4776">
-      <graphic url="https://iiif.rekihaku.ac.jp/fcgi-bin/iipsrv.fcgi?IIIF=engishiki/H-743-74-27/00015.tif/full/max/0/default.jpg"/>
+      <graphic url="https://iiif.rekihaku.ac.jp/fcgi-bin/iipsrv.fcgi?IIIF=engishiki/H-743-74-27/00015.tif/full/max/0/default.jpg"
+      />
     </surface>
     <surface source="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-27/page4777" xml:id="page4777">
-      <graphic url="https://iiif.rekihaku.ac.jp/fcgi-bin/iipsrv.fcgi?IIIF=engishiki/H-743-74-27/00016.tif/full/max/0/default.jpg"/>
+      <graphic url="https://iiif.rekihaku.ac.jp/fcgi-bin/iipsrv.fcgi?IIIF=engishiki/H-743-74-27/00016.tif/full/max/0/default.jpg"
+      />
     </surface>
     <surface source="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-27/page4778" xml:id="page4778">
-      <graphic url="https://iiif.rekihaku.ac.jp/fcgi-bin/iipsrv.fcgi?IIIF=engishiki/H-743-74-27/00017.tif/full/max/0/default.jpg"/>
+      <graphic url="https://iiif.rekihaku.ac.jp/fcgi-bin/iipsrv.fcgi?IIIF=engishiki/H-743-74-27/00017.tif/full/max/0/default.jpg"
+      />
     </surface>
     <surface source="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-27/page4779" xml:id="page4779">
-      <graphic url="https://iiif.rekihaku.ac.jp/fcgi-bin/iipsrv.fcgi?IIIF=engishiki/H-743-74-27/00018.tif/full/max/0/default.jpg"/>
+      <graphic url="https://iiif.rekihaku.ac.jp/fcgi-bin/iipsrv.fcgi?IIIF=engishiki/H-743-74-27/00018.tif/full/max/0/default.jpg"
+      />
     </surface>
     <surface source="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-27/page4780" xml:id="page4780">
-      <graphic url="https://iiif.rekihaku.ac.jp/fcgi-bin/iipsrv.fcgi?IIIF=engishiki/H-743-74-27/00019.tif/full/max/0/default.jpg"/>
+      <graphic url="https://iiif.rekihaku.ac.jp/fcgi-bin/iipsrv.fcgi?IIIF=engishiki/H-743-74-27/00019.tif/full/max/0/default.jpg"
+      />
     </surface>
     <surface source="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-27/page4781" xml:id="page4781">
-      <graphic url="https://iiif.rekihaku.ac.jp/fcgi-bin/iipsrv.fcgi?IIIF=engishiki/H-743-74-27/00020.tif/full/max/0/default.jpg"/>
+      <graphic url="https://iiif.rekihaku.ac.jp/fcgi-bin/iipsrv.fcgi?IIIF=engishiki/H-743-74-27/00020.tif/full/max/0/default.jpg"
+      />
     </surface>
     <surface source="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-27/page4782" xml:id="page4782">
-      <graphic url="https://iiif.rekihaku.ac.jp/fcgi-bin/iipsrv.fcgi?IIIF=engishiki/H-743-74-27/00021.tif/full/max/0/default.jpg"/>
+      <graphic url="https://iiif.rekihaku.ac.jp/fcgi-bin/iipsrv.fcgi?IIIF=engishiki/H-743-74-27/00021.tif/full/max/0/default.jpg"
+      />
     </surface>
     <surface source="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-27/page4783" xml:id="page4783">
-      <graphic url="https://iiif.rekihaku.ac.jp/fcgi-bin/iipsrv.fcgi?IIIF=engishiki/H-743-74-27/00022.tif/full/max/0/default.jpg"/>
+      <graphic url="https://iiif.rekihaku.ac.jp/fcgi-bin/iipsrv.fcgi?IIIF=engishiki/H-743-74-27/00022.tif/full/max/0/default.jpg"
+      />
     </surface>
     <surface source="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-27/page4784" xml:id="page4784">
-      <graphic url="https://iiif.rekihaku.ac.jp/fcgi-bin/iipsrv.fcgi?IIIF=engishiki/H-743-74-27/00023.tif/full/max/0/default.jpg"/>
+      <graphic url="https://iiif.rekihaku.ac.jp/fcgi-bin/iipsrv.fcgi?IIIF=engishiki/H-743-74-27/00023.tif/full/max/0/default.jpg"
+      />
     </surface>
     <surface source="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-27/page4785" xml:id="page4785">
-      <graphic url="https://iiif.rekihaku.ac.jp/fcgi-bin/iipsrv.fcgi?IIIF=engishiki/H-743-74-27/00024.tif/full/max/0/default.jpg"/>
+      <graphic url="https://iiif.rekihaku.ac.jp/fcgi-bin/iipsrv.fcgi?IIIF=engishiki/H-743-74-27/00024.tif/full/max/0/default.jpg"
+      />
     </surface>
     <surface source="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-27/page4786" xml:id="page4786">
-      <graphic url="https://iiif.rekihaku.ac.jp/fcgi-bin/iipsrv.fcgi?IIIF=engishiki/H-743-74-27/00025.tif/full/max/0/default.jpg"/>
+      <graphic url="https://iiif.rekihaku.ac.jp/fcgi-bin/iipsrv.fcgi?IIIF=engishiki/H-743-74-27/00025.tif/full/max/0/default.jpg"
+      />
     </surface>
     <surface source="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-27/page4787" xml:id="page4787">
-      <graphic url="https://iiif.rekihaku.ac.jp/fcgi-bin/iipsrv.fcgi?IIIF=engishiki/H-743-74-27/00026.tif/full/max/0/default.jpg"/>
+      <graphic url="https://iiif.rekihaku.ac.jp/fcgi-bin/iipsrv.fcgi?IIIF=engishiki/H-743-74-27/00026.tif/full/max/0/default.jpg"
+      />
     </surface>
     <surface source="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-27/page4788" xml:id="page4788">
-      <graphic url="https://iiif.rekihaku.ac.jp/fcgi-bin/iipsrv.fcgi?IIIF=engishiki/H-743-74-27/00027.tif/full/max/0/default.jpg"/>
+      <graphic url="https://iiif.rekihaku.ac.jp/fcgi-bin/iipsrv.fcgi?IIIF=engishiki/H-743-74-27/00027.tif/full/max/0/default.jpg"
+      />
     </surface>
     <surface source="https://khirin-a.rekihaku.ac.jp/iiif/2/engishiki%2FH-743-74-27/page4789" xml:id="page4789">
-      <graphic url="https://iiif.rekihaku.ac.jp/fcgi-bin/iipsrv.fcgi?IIIF=engishiki/H-743-74-27/00028.tif/full/max/0/default.jpg"/>
+      <graphic url="https://iiif.rekihaku.ac.jp/fcgi-bin/iipsrv.fcgi?IIIF=engishiki/H-743-74-27/00028.tif/full/max/0/default.jpg"
+      />
     </surface>
   </facsimile>
 </TEI>
