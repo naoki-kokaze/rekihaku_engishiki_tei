@@ -87,49 +87,6 @@ def file_kind(filename: str) -> str:
     """
     engishiki 系 XML ファイルの役割（性格）を、
     ファイル名の命名規則に基づいて分類する。
-
-    本関数は「処理対象かどうか」を判断せず、
-    あくまでファイルの種類（世界観）を一意に返すための
-    判定専用ユーティリティである。
-
-    戻り値は以下のいずれか：
-
-    - "body":
-        巻番号を持つ本文ファイル。
-        処理①・処理③の対象。
-        例：
-          engishiki_v1.xml
-          engishiki_v1_ja.xml
-          engishiki_v1_en.xml
-
-    - "body_header":
-        巻番号を持つ header 専用ファイル。
-        処理①・処理②の対象。
-        例：
-          engishiki_v1_header.xml
-
-    - "header":
-        巻番号を持たない通常の header ファイル。
-        処理①の対象。
-        例：
-          engishiki_header.xml
-          engishiki_header_ja.xml
-          engishiki_header_en.xml
-
-    - "header_all":
-        すべての header / 本文に反映される
-        唯一の絶対基準 header ファイル。
-        本ファイル自体は処理対象としない。
-        例：
-          engishiki_header_all.xml
-
-    - "other":
-        上記いずれにも該当しないファイル。
-        想定外、または処理対象外。
-
-    注意：
-    - 巻番号は v1 ～ v99 を想定している。
-    - v01 などのゼロ埋め表記は現時点では想定しない。
     """
 
     # ① 絶対基準 header（最優先）
@@ -159,7 +116,7 @@ def extract_volume(filename: str):
 
 
 # =========================================================
-# 処理① 本文・header 凡例／共通部 更新
+# 処理① 本文・header 凡例／共通部／凡例修正履歴 更新
 # =========================================================
 def update_files():
     clear_log()
@@ -168,9 +125,11 @@ def update_files():
     selected_ja = check_ja.get()
     selected_en = check_en.get()
     selected_xml = check_xml.get()
+    selected_listchange = check_listchange.get()
 
     if not (
         selected_plain or selected_ja or selected_en or selected_xml
+        or selected_listchange
         or check_filedesc.get()
         or check_tagsdecl.get()
         or check_unitdecl.get()
@@ -217,6 +176,15 @@ def update_files():
         tag = source_soup.find("unitDecl")
         if tag:
             common_templates["unitDecl"] = copy.deepcopy(tag)
+
+    # --- 凡例修正履歴 (listChange xml:id="凡例") テンプレ ---
+    listchange_template = None
+    if selected_listchange:
+        lc_tag = source_soup.find("listChange", {"xml:id": "凡例"})
+        if lc_tag:
+            listchange_template = copy.deepcopy(lc_tag)
+        else:
+            log("【警告】基準ファイルに <listChange xml:id='凡例'> が見つかりません。")
 
     os.makedirs(OUTPUT_FOLDER, exist_ok=True)
 
@@ -299,6 +267,22 @@ def update_files():
                 updated = True
             else:
                 log(f"{filename}: <{tag_name}> が存在しません")
+
+        # --- 凡例修正履歴 (listChange) 置換 / 挿入 ---
+        if selected_listchange and listchange_template:
+            rev_desc = soup.find("revisionDesc")
+            if rev_desc:
+                old_lc = rev_desc.find("listChange", {"xml:id": "凡例"})
+                if old_lc:
+                    # 既に存在する場合は置換
+                    old_lc.replace_with(copy.deepcopy(listchange_template))
+                    updated = True
+                else:
+                    # 存在しない場合は <revisionDesc> 内の先頭に挿入
+                    rev_desc.insert(0, copy.deepcopy(listchange_template))
+                    updated = True
+            else:
+                log(f"{filename}: <revisionDesc> が存在しないため凡例修正履歴を追加できませんでした")
 
         # --- 保存 ---
         if updated:
@@ -491,6 +475,7 @@ check_plain = tk.BooleanVar()
 check_ja = tk.BooleanVar()
 check_en = tk.BooleanVar()
 check_xml = tk.BooleanVar()
+check_listchange = tk.BooleanVar()
 check_filedesc = tk.BooleanVar()
 check_tagsdecl = tk.BooleanVar()
 check_unitdecl = tk.BooleanVar()
@@ -517,6 +502,7 @@ ttk.Checkbutton(frame, text="校訂文凡例", variable=check_plain).pack(side="
 ttk.Checkbutton(frame, text="現代語訳凡例", variable=check_ja).pack(side="left")
 ttk.Checkbutton(frame, text="英訳凡例", variable=check_en).pack(side="left")
 ttk.Checkbutton(frame, text="XML凡例", variable=check_xml).pack(side="left")
+ttk.Checkbutton(frame, text="凡例修正履歴", variable=check_listchange).pack(side="left")
 ttk.Checkbutton(frame, text="fileDesc", variable=check_filedesc).pack(side="left")
 ttk.Checkbutton(frame, text="tagsDecl", variable=check_tagsdecl).pack(side="left")
 ttk.Checkbutton(frame, text="unitDecl", variable=check_unitdecl).pack(side="left")
