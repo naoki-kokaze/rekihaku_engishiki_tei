@@ -3,250 +3,1063 @@
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
  <teiHeader>
-  <fileDesc>
-   <titleStmt>
-    <title> 延喜式ファイル </title>
-   </titleStmt>
-   <publicationStmt>
-    <publisher> 国立歴史民俗博物館メタ資料学研究センター </publisher>
-    <idno type="PID"> o:depcha.engi_shiki.1 </idno>
-    <availability>
-     <p/>
-    </availability>
-    <date when="2020-03-31"> 31 March 2020 </date>
-   </publicationStmt>
-   <sourceDesc>
-    <msDesc>
-     <msIdentifier>
-      <settlement> 千葉県佐倉市 </settlement>
-      <repository> 国立歴史民俗博物館 </repository>
-      <collection> 集英社版延喜式 </collection>
-     </msIdentifier>
-     <msContents>
-      <msItem>
-       <author> 藤原時平・藤原忠平 </author>
-       <title> 延喜式 </title>
-       <note>
-        <p> ここに史料の説明が入る。 </p>
-       </note>
-      </msItem>
-     </msContents>
-    </msDesc>
-    <listWit>
-     <listWit xml:id="写本">
-      <head> 写本 </head>
-      <witness xml:id="土本">
-       <abbr> 土本 </abbr> ：国立歴史民俗博物館所蔵土御門家旧蔵本（H-743-74） </witness>
-      <witness xml:id="近本">
-       <abbr> 近本 </abbr> ：京都大学附属図書館所蔵近衛文庫本（2-03/エ/1貴） </witness>
-      <witness xml:id="壬本">
-       <abbr> 壬本 </abbr> ：宮内庁書陵部図書寮文庫所蔵壬生家旧蔵本（F10-287） </witness>
-      <witness xml:id="京博本">
-       <abbr> 京博本 </abbr> ：京都国立博物館所蔵旧京都博物館本 </witness>
-      <witness xml:id="慶長本">
-       <abbr> 慶長本 </abbr> ：国立公文書館所蔵慶長写本（特102-8） </witness>
-      <witness xml:id="梵本">
-       <abbr> 梵本 </abbr> ：天理大学附属天理図書館所蔵吉田文庫梵舜等筆本（吉16-8。巻8は173-ｲ5（Ⅲ524)もあり） </witness>
-      <witness xml:id="九本">
-       <abbr> 九本 </abbr> ：東京国立博物館所蔵九条家旧蔵巻子本（B-2370） </witness>
-      <witness xml:id="剛本">
-       <abbr> 剛本 </abbr> ：天野山金剛寺所蔵本 </witness>
-      <witness xml:id="条本">
-       <abbr> 条本 </abbr> ：一条家旧蔵巻子本（巻1～3は無窮会専門図書館所蔵模写本、巻4・5は神宮司庁刊影印本） </witness>
-      <witness xml:id="花本">
-       <abbr> 花本 </abbr> ：武田祐吉旧蔵花山院通雅筆本（神宮皇学館刊影印本による） </witness>
-      <witness xml:id="九冊本">
-       <abbr> 九冊本 </abbr> ：國學院大學所蔵九条家・西田長男旧蔵冊子本（巻5は西田長男刊影印本による） </witness>
-      <witness xml:id="永本">
-       <abbr> 永本 </abbr>
-       ：國學院大學図書館所蔵卜部兼永筆本（巻8、091.2/322.135/1）、鈴鹿義鯨旧蔵卜部兼永筆本（巻9・10、現蔵不明、神宮文庫写真帳1門16974を閲覧） </witness>
-      <witness xml:id="右本">
-       <abbr> 右本 </abbr> ：巻8は國學院大學図書館所蔵（貴62） </witness>
-      <witness xml:id="吉本">
-       <abbr> 吉本 </abbr> ：天理大学附属天理図書館所蔵吉田家旧蔵本巻9・10（328.1-ｲ17（『天理図書館稀書目録　和漢書之部　第三』1219） </witness>
-      <witness xml:id="三条本">
-       <abbr> 三条本 </abbr> ：天理大学附属天理図書館所蔵三条家旧蔵本（328.1-ｲ11(Ⅲ1218)） </witness>
-      <witness xml:id="西本">
-       <abbr> 西本 </abbr>
-       ：國學院大學図書館所蔵三条西家旧蔵本（巻9・10、貴107～108）、国立歴史民俗博物館所蔵三条西家旧蔵本（巻50、H-1588）。抄出本は國學院大學所蔵（木村大樹「〔西田長男旧蔵〕三条西実隆筆『延喜式』(抄)の翻刻・紹介」『國學院大學研究開発推進機構紀要』14、2022年） </witness>
-      <witness xml:id="時慶本">
-       <abbr> 時慶本 </abbr> ：静嘉堂文庫所蔵西洞院時慶写本（延喜格式表18352、延喜式序18353） </witness>
-      <witness xml:id="藤波本">
-       <abbr> 藤波本 </abbr> ：宮内庁書陵部図書寮文庫所蔵藤波家旧蔵本（217-473） </witness>
-      <witness xml:id="島原本">
-       <abbr> 島原本 </abbr> ：東京大学史料編纂所所蔵松平忠房・和学講談所・水野忠央旧蔵本（貴45-2） </witness>
-      <witness xml:id="貞享本">
-       <abbr> 貞享本 </abbr> ：宮内庁書陵部図書寮文庫所蔵和学講談所旧蔵坊城俊方貞享五年写本（457-116） </witness>
-      <witness xml:id="玄梁本">
-       <abbr> 玄梁本 </abbr> ：無窮会専門図書館所蔵神習文庫玄梁記名本（神習3666） </witness>
-      <witness xml:id="尾張本">
-       <abbr> 尾張本 </abbr> ：東京大学総合図書館所蔵尾張家旧蔵本（巻13）（A00-6122） </witness>
-      <witness xml:id="泉亭本">
-       <abbr> 泉亭本 </abbr> ：賀茂三手文庫所蔵泉亭本（制度/加） </witness>
-     </listWit>
-     <listWit xml:id="版本">
-      <head> 版本：慶安版本も含めた流布版本 </head>
-      <witness xml:id="慶安版本">
-       <abbr> 慶安版本 </abbr> ：大和文華館所蔵鈴鹿連胤旧蔵版本（1/741～790） </witness>
-      <witness xml:id="明暦版本">
-       <abbr> 明暦版本 </abbr> ：明暦修訂版本　国立公文書館所蔵紅葉山文庫旧蔵版本（特26-1）等 </witness>
-      <witness xml:id="明暦以降版本">
-       <abbr> 明暦以降版本 </abbr> ：明暦修訂本以降の版本 </witness>
-      <witness xml:id="寛文版本">
-       <abbr> 寛文版本 </abbr> ：寛文修訂版本　筑波大学附属図書館所蔵版本20冊本（ム212-7）等 </witness>
-      <witness xml:id="享保版本">
-       <abbr> 享保版本 </abbr> ：享保修訂版本　筑波大学附属図書館所蔵版本50冊本（ム212-6）等 </witness>
-      <witness xml:id="雲本">
-       <abbr> 雲本 </abbr> ：松江藩文政11年(1828)刊本（雲州本）　早稲田大学図書館所蔵本（ワ03-01594）等 </witness>
-      <witness xml:id="考異">
-       <abbr> 考異 </abbr> ：雲州本附録『延喜式考異』　早稲田大学図書館所蔵本（ワ03-01594）等 </witness>
-      <witness xml:id="鈴鹿本">
-       <abbr> 鈴鹿本 </abbr> ：大和文華館所蔵鈴鹿連胤旧蔵慶安版本（1/741～790）書入 </witness>
-      <witness xml:id="勢多本">
-       <abbr> 勢多本 </abbr> ：宮内庁書陵部図書寮文庫所蔵勢多家旧蔵明暦等版本（172-123）書入 </witness>
-      <witness xml:id="筑波寛文本">
-       <abbr> 筑波寛文本 </abbr> ：筑波大学附属図書館所蔵寛文版本20冊本（ム212-7）書入 </witness>
-     </listWit>
-     <listWit xml:id="刊本">
-      <head> 刊本 </head>
-      <witness xml:id="旧大系本">
-       <abbr> 旧大系本 </abbr> ：旧輯国史大系第13巻（経済雑誌社　1900年刊） </witness>
-      <witness xml:id="叢書本">
-       <abbr> 叢書本 </abbr> ：新註皇学叢書第3巻（広文庫刊行会　1927年刊） </witness>
-      <witness xml:id="全集本">
-       <abbr> 全集本 </abbr> ：日本古典全集『延喜式』（日本古典全集刊行会　1927～1929年刊） </witness>
-      <witness xml:id="皇典本">
-       <abbr> 皇典本 </abbr> ：『校訂延喜式』（皇典講究所・全国神職会　1929～1932年刊） </witness>
-      <witness xml:id="国史大系本">
-       <abbr> 国史大系本 </abbr> ：新訂増補国史大系第26巻（吉川弘文館　1937年刊） </witness>
-      <witness xml:id="神道大系本">
-       <abbr> 神道大系本 </abbr> ：神道大系古典編11・12『延喜式』（神道大系編纂会、1991・1993年刊） </witness>
-      <witness xml:id="訳注本">
-       <abbr> 訳注本 </abbr> ：訳注日本史料『延喜式』上～下（集英社、2000～2017年刊） </witness>
-     </listWit>
-     <listWit xml:id="その他">
-      <head> その他 </head>
-      <witness xml:id="本朝月令">
-       <abbr> 本朝月令 </abbr> ：清水潔編『新校本朝月令』（皇學館大學神道研究所　2002年刊） </witness>
-      <witness xml:id="儀式">
-       <abbr> 儀式 </abbr> ：神道大系朝儀祭祀編1『儀式・内裏式』（神道大系編纂会　1980年刊） </witness>
-      <witness xml:id="皇太神宮儀式帳">
-       <abbr> 皇太神宮儀式帳 </abbr> ：佐野真人「『皇太神宮儀式帳』校訂試案」（『皇學館大学研究開発推進センター紀要』2　2016年） </witness>
-      <witness xml:id="止由気宮儀式帳">
-       <abbr> 止由気宮儀式帳 </abbr> ：佐野真人「『止由気宮儀式帳』校訂試案」（『皇學館大学研究開発推進センター紀要』3　2017年） </witness>
-      <witness xml:id="新撰年中行事">
-       <abbr> 新撰年中行事 </abbr> ：西本昌弘編『新撰年中行事』（八木書店　2010年刊） </witness>
-      <witness xml:id="小野宮年中行事">
-       <abbr> 小野宮年中行事 </abbr> ：群書類従第6輯 律令部 公事部（続群書類従完成会　1932年刊） </witness>
-      <witness xml:id="小野宮年中行事裏書">
-       <abbr> 小野宮年中行事裏書 </abbr> ：国立歴史民俗博物館所蔵本（H-1762） </witness>
-      <witness xml:id="勘例">
-       <abbr> 勘例（陽明文庫所蔵） </abbr> ：大日本古記録『勘例』上・下（岩波書店　2018・2023年刊） </witness>
-      <witness xml:id="政事要略">
-       <abbr> 政事要略 </abbr> ：新訂増補国史大系第28巻（吉川弘文館　1935年刊。適宜、写本を参照） </witness>
-      <witness xml:id="法曹至要抄">
-       <abbr> 法曹至要抄 </abbr> ：中世法制史料集（岩波書店　2005年刊） </witness>
-      <witness xml:id="本草和名">
-       <abbr> 本草和名 </abbr> ：丸山裕美子・武倩編著『本草和名』（汲古書院　2021年刊） </witness>
-     </listWit>
-    </listWit>
-   </sourceDesc>
-  </fileDesc>
-  <encodingDesc>
-   <variantEncoding location="external" method="location-referenced"/>
-   <tagsDecl>
-    <rendition xml:id="indent"> margin-top: 1em; </rendition>
-    <rendition xml:id="indent2"> margin-top: 2em; </rendition>
-    <rendition xml:id="indent3"> margin-top: 3em; </rendition>
-    <rendition xml:id="indent4"> margin-top: 4em; </rendition>
-    <rendition xml:id="indent5"> margin-top: 5em; </rendition>
-    <rendition xml:id="indent6"> margin-top: 6em; </rendition>
-    <rendition xml:id="indent7"> margin-top: 7em; </rendition>
-    <rendition xml:id="indent10"> margin-top: 10em; </rendition>
-    <rendition xml:id="indent12"> margin-top: 12em; </rendition>
-    <rendition xml:id="indent13"> margin-top: 13em; </rendition>
-    <rendition xml:id="indent14"> margin-top: 14em; </rendition>
-    <rendition xml:id="indent18"> margin-top: 18em; </rendition>
-    <rendition xml:id="width50"> width: 50px; </rendition>
-    <rendition xml:id="width80"> width: 80px; </rendition>
-    <rendition xml:id="width100"> width: 100px; </rendition>
-    <rendition xml:id="width150"> width: 150px; </rendition>
-    <rendition xml:id="width170"> width: 170px; </rendition>
-    <rendition xml:id="width200"> width: 200px; </rendition>
-    <rendition xml:id="width300"> width: 300px; </rendition>
-   </tagsDecl>
-   <editorialDecl ana="現代語訳凡例">
-    <p ana="全体">
-     <table>
-      <row>
-       <cell> ・ </cell>
-       <cell> 校訂文に基づいて現代語訳を作成しました。条文番号・条文名称および項番号等は校訂文に従っています。原文の細字・割書を〈　〉で括って示すことも校訂文と同様です。 </cell>
-      </row>
-      <row>
-       <cell> ・ </cell>
-       <cell> 各条条文番号・条文名にポインターを当てると、条文内容の把握の一助として条文概要がポップアップ表示されます。 </cell>
-      </row>
-      <row>
-       <cell> ・ </cell>
-       <cell> 本文のみで簡便に読み進めていける訳文を目指しました。訳出が困難な語句は原文（校訂文）のまま表示して適宜ルビを付し、補足的な説明を加えましたが、意訳で対応した場合もあります。
+<fileDesc>
+<titleStmt>
+<title>延喜式ファイル</title>
+<author>国立歴史民俗博物館</author>
+<respStmt>
+<resp>校訂・現代語訳・プロジェクトリーダー</resp>
+<persName ref="http://viaf.org/viaf/15166714142126882954">神戸航介</persName>
+<note>「延喜式のデジタル技術による汎用化」（2022～）の代表代理（2025）・責任者（2026～）・『延喜式』テクスト本文の校訂（巻11「太政官」巻22「民部省上」巻23「民部省下」巻25「主計寮下」巻27「主税寮下」）および現代語訳（巻11「太政官」巻22「民部省上」）</note>
+</respStmt>
+<respStmt>
+<resp>プロジェクト副リーダー・システム管理</resp>
+<persName ref="http://viaf.org/viaf/159687464">後藤真</persName>
+<note>プロジェクトマネジメント・史料閲覧ビューアのシステム管理</note>
+</respStmt>
+<respStmt>
+<resp>TEI構造化・データ管理</resp>
+<persName ref="http://viaf.org/viaf/3162902777677782216">小風尚樹</persName>
+<note>テクストマークアップのモデル考察・共同作業のデータ管理</note>
+</respStmt>
+<respStmt>
+<resp>閲覧ビューアの開発</resp>
+<persName ref="http://viaf.org/viaf/31159697771003312807">中村覚</persName>
+<note>TEIおよびIIIF準拠の史料閲覧ビューアの開発</note>
+</respStmt>
+<respStmt>
+<resp>マークアップ・データ管理・システム検証</resp>
+<persName>渡辺美紗子</persName>
+<note>校訂文テクスト基礎データの整理・TEIマークアップデータの作成（公開中の校訂文・現代語訳・英訳のデータ全般）</note>
+</respStmt>
+<respStmt>
+<resp>マークアップ・データ処理自動化・データ管理・システム検証</resp>
+<persName>戸村美月</persName>
+<note>校訂文テクスト基礎データの整理・TEIマークアップデータの作成（公開中の校訂文・現代語訳・英訳のデータ全般）</note>
+</respStmt>
+<respStmt>
+<resp>マークアップ・データ処理自動化</resp>
+<persName ref="http://viaf.org/viaf/19166357045306640277">小風綾乃</persName>
+<note>TEIファイルとIIIF画像の紐づけ作業・Pythonによる各種データ作成作業の自動化</note>
+</respStmt>
+<respStmt>
+<resp>モデル設計・講習会実施</resp>
+<persName ref="http://viaf.org/viaf/252742522">永崎研宣</persName>
+<note>TEIマークアップのモデル検討・TEI講習会の実施</note>
+</respStmt>
+<respStmt>
+<resp>プロジェクト旧リーダー・校訂・現代語訳</resp>
+<persName ref="http://viaf.org/viaf/14726824">小倉慈司</persName>
+<note>「古代の百科全書『延喜式』の多分野協働研究」（2016～2021）・「延喜式のデジタル技術による汎用化」（2022～）の責任者（2022～2024）、『延喜式』の書誌学的情報の検討、『延喜式』テクスト本文の校訂（巻5「斎宮寮」巻8「祝詞」巻9「神名上」巻10「神名下」巻17「内匠寮」）、『延喜式』テクストの現代語訳（巻9「神名上」巻10「神名下」）</note>
+</respStmt>
+<respStmt>
+<resp>プロジェクト旧リーダー</resp>
+<persName ref="http://viaf.org/viaf/113471616">三上喜孝</persName>
+<note>「延喜式のデジタル技術による汎用化」（2022～）の責任者（2025）</note>
+</respStmt>
+<respStmt>
+<resp>校訂</resp>
+<persName ref="http://viaf.org/viaf/29168734579865262687 http://viaf.org/viaf/20165392564921252049">井上正望</persName>
+<note>『延喜式』テクスト本文の校訂（巻29「刑部省・判事・囚獄司」巻41「弾正台」巻42「左右京職・東西市司」）</note>
+</respStmt>
+<respStmt>
+<resp>校訂・現代語訳</resp>
+<persName>小川宏和</persName>
+<note>『延喜式』テクスト本文の校訂（巻32「大膳職上」巻39「正親司・内膳司」）および現代語訳（巻39「内膳司」）</note>
+</respStmt>
+<respStmt>
+<resp>英訳</resp>
+<persName>河合佐知子</persName>
+<note>『延喜式』テクストの英訳（巻39「正親司」）</note>
+</respStmt>
+<respStmt>
+<resp>校訂・現代語訳・語彙解説</resp>
+<persName ref="http://viaf.org/viaf/33161816291427721819">清武雄二</persName>
+<note>『延喜式』の書誌学的情報の検討、『延喜式』テクスト本文の校訂（巻24「主計寮上」）および現代語訳（巻24「主計寮上」巻32「大膳職上」巻39「内膳司」）・語彙解説の執筆</note>
+</respStmt>
+<respStmt>
+<resp>校訂</resp>
+<persName>小山大貴</persName>
+<note>『延喜式』テクスト本文の校訂（巻36「主殿寮」）</note>
+</respStmt>
+<respStmt>
+<resp>校訂・現代語訳</resp>
+<persName>古田一史</persName>
+<note>『延喜式』テクスト本文の校訂（巻37「典薬寮」）および現代語訳（巻17「内匠寮」巻39「正親司」）</note>
+</respStmt>
+<respStmt>
+<resp>現代語訳</resp>
+<persName>堀部猛</persName>
+<note>『延喜式』テクストの現代語訳（巻17「内匠寮」）</note>
+</respStmt>
+<respStmt>
+<resp>校訂・校訂管理・データ整理・システム検証</resp>
+<persName ref="http://viaf.org/viaf/249148933791454302260">三輪仁美</persName>
+<note>『延喜式』テクスト本文の校訂（巻14「縫殿寮」巻21「治部省・雅楽寮・玄蕃寮・諸陵寮」）</note>
+</respStmt>
+<respStmt>
+<resp>英訳</resp>
+<persName ref="http://viaf.org/viaf/186152636097020050077">山口えり</persName>
+<note>『延喜式』テクストの英訳</note>
+</respStmt>
+<respStmt>
+<resp>英訳</resp>
+<persName>Alessandro Poletto</persName>
+<note>『延喜式』テクストの英訳（巻37「典薬寮」）</note>
+</respStmt>
+<respStmt>
+<resp>英訳</resp>
+<persName>Emily Warren</persName>
+<note>『延喜式』テクストの英訳（巻39「内膳司」）</note>
+</respStmt>
+<funder> 人間文化研究機構広領域連携型基幹研究プロジェクト「異分野融合による「総合書物学」の構築」歴博ユニット「古代の百科全書『延喜式』の多分野協働研究」（研究代表：小倉慈司） </funder>
+<funder>
+          人間文化研究機構広領域連携型基幹研究プロジェクト「異分野融合による総合書物学の拡張的研究」歴博ユニット「延喜式のデジタル技術による汎用化」（研究代表：小倉慈司（2022～2024）、三上喜孝（2025～）） </funder>
+<funder> 科研費基盤研究（B）「史料学的検討を重視した『延喜式』の基礎的研究」（研究代表：小倉慈司） </funder>
+<funder> 科研費基盤研究（B）「格・式研究を踏まえた日本古代社会像の再構築」（研究代表：小倉慈司） </funder>
+<funder> 学術変革領域研究（A）「歴史情報学の創成」（領域代表）内 計画研究「TEIを中心とした高度な歴史テキスト構築」（研究代表：小風尚樹） </funder>
+<principal>後藤真</principal>
+</titleStmt>
+<publicationStmt>
+<authority> 国立歴史民俗博物館 </authority>
+<distributor> 国立歴史民俗博物館メタ資料学研究センター </distributor>
+<publisher> 国立歴史民俗博物館メタ資料学研究センター </publisher>
+<idno type="PID"/>
+<availability status="free">
+<p>本データは国立歴史民俗博物館の利用規定に基づき公開されています。</p>
+<licence target="https://creativecommons.org/licenses/by/4.0/">この作品はクリエイティブ・コモンズ 表示 4.0 国際
+            ライセンス（CC BY 4.0）の下に提供されています。</licence>
+</availability>
+<date when="2020-03-31">31 March 2020</date>
+</publicationStmt>
+<notesStmt>
+<note>本データの底本は影印本『国立歴史民俗博物館貴重典籍叢書』歴史篇12～18（臨川書店、2000～2001年）として刊行されている。また虎尾俊哉編『訳注日本史料
+          延喜式』にて底本として使用される。</note>
+<relatedItem>
+<listBibl>
+<biblStruct>
+<analytic>
+<author>虎尾俊哉</author>
+<title>解題</title>
+</analytic>
+<monogr>
+<title>虎尾俊哉校注『延喜式』</title>
+<imprint>
+<biblScope unit="issue">上</biblScope>
+<publisher>神道大系編纂会</publisher>
+<date>1991</date>
+</imprint>
+</monogr>
+</biblStruct>
+<biblStruct>
+<analytic>
+<author>田島公</author>
+<title>土御門本『延喜式』覚書</title>
+</analytic>
+<monogr>
+<editor>門脇禎二</editor>
+<title>『日本古代国家の展開』</title>
+<imprint>
+<biblScope unit="issue">下</biblScope>
+<publisher>思文閣出版</publisher>
+<date>1995</date>
+</imprint>
+</monogr>
+</biblStruct>
+<biblStruct>
+<analytic>
+<author>虎尾俊哉</author>
+<title>延喜式写本についての覚書</title>
+</analytic>
+<monogr>
+<title>『延喜式研究』</title>
+<imprint>
+<biblScope unit="vol">14</biblScope>
+<date>1998</date>
+</imprint>
+</monogr>
+</biblStruct>
+<biblStruct>
+<monogr>
+<editor>虎尾俊哉</editor>
+<title>『訳注日本史料 延喜式』</title>
+<imprint>
+<biblScope unit="issue">上</biblScope>
+<publisher>集英社</publisher>
+<date>2000</date>
+</imprint>
+</monogr>
+</biblStruct>
+<biblStruct>
+<monogr>
+<editor>虎尾俊哉</editor>
+<title>『訳注日本史料 延喜式』</title>
+<imprint>
+<biblScope unit="issue">中</biblScope>
+<publisher>集英社</publisher>
+<date>2007</date>
+</imprint>
+</monogr>
+</biblStruct>
+<biblStruct>
+<monogr>
+<editor>虎尾俊哉</editor>
+<title>『訳注日本史料 延喜式』</title>
+<imprint>
+<biblScope unit="issue">下</biblScope>
+<publisher>集英社</publisher>
+<date>2017</date>
+</imprint>
+</monogr>
+</biblStruct>
+<biblStruct>
+<analytic>
+<author>虎尾俊哉</author>
+<title>延喜式 土御門本 解題</title>
+</analytic>
+<monogr>
+<title>『国立歴史民俗博物館貴重典籍叢書』</title>
+<imprint>
+<biblScope unit="issue">歴史篇18</biblScope>
+<publisher>臨川書店</publisher>
+<date>2001</date>
+</imprint>
+</monogr>
+</biblStruct>
+<biblStruct>
+<analytic>
+<author>田島公</author>
+<title>『延喜式』諸写本の伝来と書写に関する覚書</title>
+<date>2005</date>
+</analytic>
+<monogr>
+<editor>田島公</editor>
+<title>『禁裏・公家文庫研究』</title>
+<imprint>
+<biblScope unit="issue">5</biblScope>
+<publisher>思文閣出版</publisher>
+<date>2015</date>
+</imprint>
+</monogr>
+</biblStruct>
+<biblStruct>
+<analytic>
+<author>小倉慈司</author>
+<title>『延喜式』土御門本と近衛本の検討―巻五を中心に</title>
+</analytic>
+<monogr>
+<editor>佐藤信</editor>
+<title>『史料・史跡と古代社会』</title>
+<imprint>
+<publisher>吉川弘文館</publisher>
+<date>2018</date>
+</imprint>
+</monogr>
+</biblStruct>
+<biblStruct>
+<analytic>
+<author>小倉慈司</author>
+<title>『延喜式』写本系統の基礎的研究－巻五を中心に</title>
+</analytic>
+<monogr>
+<editor>新川登亀男</editor>
+<title>『日本古代史の方法と意義』</title>
+<imprint>
+<publisher>勉誠出版</publisher>
+<date>2018</date>
+</imprint>
+</monogr>
+</biblStruct>
+<biblStruct>
+<analytic>
+<author>小倉慈司</author>
+<title>『延喜式』巻17の写本系統と本文校訂</title>
+</analytic>
+<monogr>
+<title>『国立歴史民俗博物館研究報告』</title>
+<imprint>
+<biblScope unit="vol">218</biblScope>
+<date>2019</date>
+</imprint>
+</monogr>
+</biblStruct>
+<biblStruct>
+<analytic>
+<author>小風尚樹</author>
+<author>後藤真</author>
+<title>『延喜式』へのTEI適用と日本史資料のテクストデータ共有・流通</title>
+</analytic>
+<monogr>
+<title>『国立歴史民俗博物館研究報告』</title>
+<imprint>
+<biblScope unit="vol">218</biblScope>
+<date>2019</date>
+</imprint>
+</monogr>
+</biblStruct>
+<biblStruct>
+<analytic>
+<author>小倉慈司</author>
+<title>『延喜式』巻五校訂(稿) </title>
+</analytic>
+<monogr>
+<title>『国立歴史民俗博物館研究報告』</title>
+<imprint>
+<biblScope unit="vol">218</biblScope>
+<date>2019</date>
+</imprint>
+</monogr>
+</biblStruct>
+<biblStruct>
+<analytic>
+<author>三輪仁美</author>
+<title>『延喜式』の写本系統に関する試論－巻十四を事例として </title>
+</analytic>
+<monogr>
+<title>『国立歴史民俗博物館研究報告』</title>
+<imprint>
+<biblScope unit="vol">218</biblScope>
+<date>2019</date>
+</imprint>
+</monogr>
+</biblStruct>
+<biblStruct>
+<analytic>
+<author>清武雄二</author>
+<author>神戸航介</author>
+<author>堀部猛</author>
+<author>古田一史</author>
+<title>『延喜式』巻一七「内匠寮」現代語訳(稿)</title>
+</analytic>
+<monogr>
+<title>『国立歴史民俗博物館研究報告』</title>
+<imprint>
+<biblScope unit="vol">218</biblScope>
+<date>2019</date>
+</imprint>
+</monogr>
+</biblStruct>
+<biblStruct>
+<analytic>
+<author>三輪仁美</author>
+<title>『延喜式』巻十四校訂(稿)</title>
+</analytic>
+<monogr>
+<title>『国立歴史民俗博物館研究報告』</title>
+<imprint>
+<biblScope unit="vol">228</biblScope>
+<date>2021</date>
+</imprint>
+</monogr>
+</biblStruct>
+<biblStruct>
+<analytic>
+<author>神戸航介</author>
+<title>『延喜式』巻十一「太政官」校訂(稿)</title>
+</analytic>
+<monogr>
+<title>『国立歴史民俗博物館研究報告』</title>
+<imprint>
+<biblScope unit="vol">228</biblScope>
+<date>2021</date>
+</imprint>
+</monogr>
+</biblStruct>
+<biblStruct>
+<analytic>
+<author>神戸航介</author>
+<title>『延喜式』巻十一「太政官」現代語訳(稿)</title>
+</analytic>
+<monogr>
+<title>『国立歴史民俗博物館研究報告』</title>
+<imprint>
+<biblScope unit="vol">228</biblScope>
+<date>2021</date>
+</imprint>
+</monogr>
+</biblStruct>
+<biblStruct>
+<analytic>
+<author>小川宏和</author>
+<title>『延喜式』巻三九「正親司」校訂(稿)</title>
+</analytic>
+<monogr>
+<title>『国立歴史民俗博物館研究報告』</title>
+<imprint>
+<biblScope unit="vol">228</biblScope>
+<date>2021</date>
+</imprint>
+</monogr>
+</biblStruct>
+<biblStruct>
+<analytic>
+<author>古田一史</author>
+<title>『延喜式』巻三九「正親司」現代語訳(稿)</title>
+</analytic>
+<monogr>
+<title>『国立歴史民俗博物館研究報告』</title>
+<imprint>
+<biblScope unit="vol">228</biblScope>
+<date>2021</date>
+</imprint>
+</monogr>
+</biblStruct>
+<biblStruct>
+<analytic>
+<author>Alessandro Poletto</author>
+<title>典薬寮と『延喜式』巻三七について</title>
+</analytic>
+<monogr>
+<title>『国立歴史民俗博物館研究報告』</title>
+<imprint>
+<biblScope unit="vol">228</biblScope>
+<date>2021</date>
+</imprint>
+</monogr>
+</biblStruct>
+<biblStruct>
+<analytic>
+<author>河合佐知子</author>
+<title>『延喜式』第39巻「正親司」の史料的価値を英語圏に伝えるために－ジェンダー的視点を取り入れて</title>
+</analytic>
+<monogr>
+<title>『国立歴史民俗博物館研究報告』</title>
+<imprint>
+<biblScope unit="vol">228</biblScope>
+<date>2021</date>
+</imprint>
+</monogr>
+</biblStruct>
+<biblStruct>
+<analytic>
+<author>小倉慈司</author>
+<title>『延喜式』巻九・一〇の写本系統</title>
+</analytic>
+<monogr>
+<editor>小口雅史</editor>
+<title>『古代東アジア史料論』</title>
+<imprint>
+<publisher>同成社</publisher>
+<date>2020</date>
+</imprint>
+</monogr>
+</biblStruct>
+<biblStruct>
+<analytic>
+<author>小川宏和</author>
+<title>『延喜式』巻三九の写本系統と「内膳司」本文校訂（稿）</title>
+</analytic>
+<monogr>
+<title>『国立歴史民俗博物館研究報告』</title>
+<imprint>
+<biblScope unit="vol">234</biblScope>
+</imprint>
+</monogr>
+</biblStruct>
+<biblStruct>
+<analytic>
+<author>相曽貴志</author>
+<title>延喜式版本の再検討: 改刻の変遷を中心に</title>
+</analytic>
+<monogr>
+<title>『国立歴史民俗博物館研究報告』</title>
+<imprint>
+<biblScope unit="vol">244</biblScope>
+<date>2024</date>
+</imprint>
+</monogr>
+</biblStruct>
+<biblStruct>
+<analytic>
+<author>早川万年</author>
+<title>延喜式巻三（臨時祭）の校訂をめぐって</title>
+</analytic>
+<monogr>
+<title>『国立歴史民俗博物館研究報告』</title>
+<imprint>
+<biblScope unit="vol">244</biblScope>
+<date>2024</date>
+</imprint>
+</monogr>
+</biblStruct>
+<biblStruct>
+<analytic>
+<author>小倉慈司</author>
+<title>『延喜式』巻九・一〇の校訂</title>
+</analytic>
+<monogr>
+<title>『国立歴史民俗博物館研究報告』</title>
+<imprint>
+<biblScope unit="vol">244</biblScope>
+<date>2024</date>
+</imprint>
+</monogr>
+</biblStruct>
+<biblStruct>
+<analytic>
+<author>三輪仁美</author>
+<title>『延喜式』巻二一校訂（稿）</title>
+</analytic>
+<monogr>
+<title>『国立歴史民俗博物館研究報告』</title>
+<imprint>
+<biblScope unit="vol">244</biblScope>
+<date>2024</date>
+</imprint>
+</monogr>
+</biblStruct>
+<biblStruct>
+<analytic>
+<author>清武雄二</author>
+<title>『延喜式覆奏短尺草写』祖本の形態と伝来</title>
+</analytic>
+<monogr>
+<title>『国立歴史民俗博物館研究報告』</title>
+<imprint>
+<biblScope unit="vol">244</biblScope>
+<date>2024</date>
+</imprint>
+</monogr>
+</biblStruct>
+<biblStruct>
+<analytic>
+<author>Emily Warren</author>
+<title>『延喜式』の「内膳司」式英訳の紹介</title>
+</analytic>
+<monogr>
+<title>『国立歴史民俗博物館研究報告』</title>
+<imprint>
+<biblScope unit="vol">244</biblScope>
+<date>2024</date>
+</imprint>
+</monogr>
+</biblStruct>
+<biblStruct>
+<analytic>
+<author>Alessandro Poletto</author>
+<title>『延喜式』巻37「典薬寮」英訳・注釈付</title>
+</analytic>
+<monogr>
+<title>『国立歴史民俗博物館研究報告』</title>
+<imprint>
+<biblScope unit="vol">244</biblScope>
+<date>2024</date>
+</imprint>
+</monogr>
+</biblStruct>
+<biblStruct>
+<analytic>
+<author>小風尚樹</author>
+<author>中村 覚</author>
+<author>渡辺美紗子</author>
+<author>戸村美月</author>
+<author>小風綾乃</author>
+<author>後藤 真</author>
+<title>相互運用可能な歴史資料情報の構築に向けて : 『延喜式』TEI と IIIF を事例として</title>
+</analytic>
+<monogr>
+<title>『国立歴史民俗博物館研究報告』</title>
+<imprint>
+<biblScope unit="vol">244</biblScope>
+<date>2024</date>
+</imprint>
+</monogr>
+</biblStruct>
+<biblStruct>
+<analytic>
+<author>渡邉美紗子</author>
+<author>戸村美月</author>
+<author>三輪仁美</author>
+<author>後藤真</author>
+<author>三上喜孝</author>
+<author>永崎研宣</author>
+<title>歴史資料のTEIマークアップ:『延喜式』の校異注記述と固有名詞の一括処理</title>
+</analytic>
+<monogr>
+<title>『情報処理学会研究報告 : 人文科学とコンピュータ研究会報告』</title>
+<imprint>
+<biblScope unit="vol">2025-CH-138 </biblScope>
+<date>2025</date>
+</imprint>
+</monogr>
+</biblStruct>
+<biblStruct>
+<analytic>
+<author>前野智哉</author>
+<title>『延喜式』巻一の標注―「弘仁式」「貞観式」の神祇祭祀規定に関する新史料―</title>
+</analytic>
+<monogr>
+<title>『古代文化』</title>
+<imprint>
+<biblScope unit="vol">77-3</biblScope>
+<date>2025</date>
+</imprint>
+</monogr>
+</biblStruct>
+</listBibl>
+</relatedItem>
+<relatedItem type="search">
+<bibl>
+<title>延喜式関係論文目録</title>
+<publisher>国立歴史民俗博物館</publisher>
+<ref target="https://www.rekihaku.ac.jp/up-cgi/login.pl?p=param/boed/db_param">その他の研究文献については、本データベースを参照のこと</ref></bibl>
+</relatedItem>
+</notesStmt>
+<sourceDesc>
+<msDesc>
+<msIdentifier>
+<settlement>千葉県佐倉市</settlement>
+<institution>人間文化研究機構</institution>
+<repository>国立歴史民俗博物館</repository>
+<collection>田中穣氏旧蔵典籍古文書</collection>
+<idno>H-743-74</idno>
+<msName>田中本『延喜式』</msName>
+</msIdentifier>
+<msContents>
+<msItemStruct>
+<author> 土御門泰重（書写主宰） </author>
+<title> 土御門本『延喜式』 </title>
+<colophon> 書写奥書は無し。巻九・十に文亀三年（1503）の吉田兼倶本奥書あり。 </colophon>
+<filiation>
+<p>本写本は、『延喜式』諸本の中でも全巻が揃う数少ない新写本の一本であり、善本として知られる。</p>
+<p>系統としては一条家本を親本としたと推測されるが、本写本の書写段階で欠落していた巻十三については版本によって補填されている。巻十三は九条家旧蔵巻子本が現存諸本の祖本となる。</p>
+<p>なお、『延喜式』の原本は現存せず、古写本として東京国立博物館所蔵九条家旧蔵巻子本、天野山金剛寺所蔵本等が現存するが、全巻すべてが揃うものはない。</p>
+<p>本写本以外の主要写本には、京都国立博物館所蔵本（京都博物館本）・京都大学附属図書館所蔵近衛家旧蔵本・天理大学附属天理図書館所蔵本（梵舜本・梵舜別本）・宮内庁書陵部所蔵本（
+                  壬生家旧蔵本・藤波家旧蔵本）・国立公文書館所蔵本（紅葉山文庫旧蔵慶長写本・林家旧蔵本）等がある。</p>
+</filiation>
+</msItemStruct>
+</msContents>
+<history>
+<summary> 土御門家旧蔵→田中教忠氏が収集→孫の田中穣氏が『田中教忠蔵書目録』を私家版として発行→国に譲渡→歴博に移管 </summary>
+<origin>
+              土御門泰重が元和3年（1617）から4年頃に、一条家所蔵の写本（現存せず）を借用して転写させたものである。泰重の孫泰福が、巻五十の末尾に泰重真筆である旨の識語を記す（実際には泰重の筆はごく一部にとどまる）。また、巻五十後表紙見返しに田中教忠による貼紙がある。 </origin>
+<provenance> 幕末ないし明治初年に田中教忠が入手する。教忠孫の田中穣が1988～1989年に他の教忠収集コレクションとともに国に譲渡。 </provenance>
+</history>
+<physDesc>
+<objectDesc>
+<supportDesc>
+<support> 楮紙 </support>
+<extent> 縦27.3～27.4cm × 横 19.8～19.9cm </extent>
+<foliation> 丁の表裏（cf. folioのrecto, versoと同じ） </foliation>
+<collation> 袋綴じ、より正確には四ツ目綴じの和装本 </collation>
+<condition> 全巻揃っている。とくに致命的な落丁や虫損は、土御門本自体には基本的に見られない。 </condition>
+</supportDesc>
+</objectDesc>
+<bindingDesc>
+<binding>
+<p>渋染栗皮色の表紙。まず左下に墨書で巻数、左上に胡粉で延喜式と直書きされており、そして左下に胡粉で巻数が上書きされている。右上には、巻の内容を表す式名やその略称が胡粉で直書きされている。表紙の心紙には楮紙でできた反故紙が使用されている。巻十三以外に押し八双あり。</p>
+</binding>
+</bindingDesc>
+</physDesc>
+</msDesc>
+<listWit>
+<listWit xml:id="写本">
+<head>写本</head>
+<witness xml:id="土本"><abbr>土本</abbr>：国立歴史民俗博物館所蔵土御門家旧蔵本（H-743-74） <listRef>
+<ref xml:id="土本傍書">土本傍書</ref>
+<ref xml:id="土本傍訓">土本傍訓</ref>
+<ref xml:id="土本左朱傍書">土本左朱傍書</ref>
+<ref xml:id="土本抹消">土本抹消</ref>
+<ref xml:id="土本朱傍書">土本朱傍書</ref>
+<ref xml:id="土本朱補書">土本朱補書</ref>
+<ref xml:id="土本朱訂正書">土本朱訂正書</ref>
+<ref xml:id="土本補書">土本補書</ref>
+<ref xml:id="土本訂正書">土本訂正書</ref>
+<ref xml:id="土本挿入書">土本挿入書</ref>
+<ref xml:id="土本転倒符">土本転倒符</ref>
+<ref xml:id="土本左傍書">土本左傍書</ref>
+<ref xml:id="土本朱抹消">土本朱抹消</ref>
+</listRef>
+</witness>
+<witness xml:id="近本"><abbr>近本</abbr>：京都大学附属図書館所蔵近衛文庫本（2-03/エ/1貴） <listRef>
+<ref xml:id="近本傍書">近本傍書</ref>
+<ref xml:id="近本左傍書">近本左傍書</ref>
+<ref xml:id="近本抹消">近本抹消</ref>
+<ref xml:id="近本挿入書">近本挿入書</ref>
+<ref xml:id="近本書入">近本書入</ref>
+<ref xml:id="近本朱傍書">近本朱傍書</ref>
+<ref xml:id="近本朱補書">近本朱補書</ref>
+<ref xml:id="近本朱訂正">近本朱訂正</ref>
+<ref xml:id="近本補書">近本補書</ref>
+<ref xml:id="近本訂正">近本訂正</ref>
+<ref xml:id="近本訂正書">近本訂正書</ref>
+<ref xml:id="近本重書">近本重書</ref>
+<ref xml:id="近本脚書">近本脚書</ref>
+</listRef></witness>
+<witness xml:id="壬本"><abbr>壬本</abbr>：宮内庁書陵部図書寮文庫所蔵壬生家旧蔵本（F10-287） <listRef>
+<ref xml:id="壬本傍書">壬本傍書</ref>
+<ref xml:id="壬本左傍書">壬本左傍書</ref>
+<ref xml:id="壬本抹消">壬本抹消</ref>
+<ref xml:id="壬本書入">壬本書入</ref>
+<ref xml:id="壬本朱傍書">壬本朱傍書</ref>
+<ref xml:id="壬本朱補書">壬本朱補書</ref>
+<ref xml:id="壬本補書">壬本補書</ref>
+<ref xml:id="壬本訂正書">壬本訂正書</ref>
+</listRef>
+</witness>
+<witness xml:id="京博本"><abbr>京博本</abbr>：京都国立博物館所蔵旧京都博物館本 <listRef>
+<ref xml:id="京博本傍書">京博本傍書</ref>
+<ref xml:id="京博本左傍書">京博本左傍書</ref>
+<ref xml:id="京博本傍訓">京博本傍訓</ref>
+<ref xml:id="京博本墨傍書">京博本墨傍書</ref>
+<ref xml:id="京博本左朱傍書">京博本左朱傍書</ref>
+<ref xml:id="京博本抹消">京博本抹消</ref>
+<ref xml:id="京博本書入">京博本書入</ref>
+<ref xml:id="京博本朱傍書">京博本朱傍書</ref>
+<ref xml:id="京博本朱抹消">京博本朱抹消</ref>
+<ref xml:id="京博本朱書">京博本朱書</ref>
+<ref xml:id="京博本朱補書">京博本朱補書</ref>
+<ref xml:id="京博本朱訂正">京博本朱訂正</ref>
+<ref xml:id="京博本朱訂正書">京博本朱訂正書</ref>
+<ref xml:id="京博本補書">京博本補書</ref>
+<ref xml:id="京博本訂正書">京博本訂正書</ref>
+<ref xml:id="京博本朱挿入書">京博本朱挿入書</ref>
+<ref xml:id="京博本朱脚書">京博本朱脚書</ref>
+<ref xml:id="京博本左朱訂正書">京博本左朱訂正書</ref>
+</listRef>
+</witness>
+<witness xml:id="慶長本"><abbr>慶長本</abbr>：国立公文書館所蔵慶長写本（特102-8） <listRef>
+<ref xml:id="慶長本傍書">慶長本傍書</ref>
+<ref xml:id="慶長本左補書">慶長本左補書</ref>
+<ref xml:id="慶長本抹消">慶長本抹消</ref>
+<ref xml:id="慶長本朱傍書">慶長本朱傍書</ref>
+<ref xml:id="慶長本朱補書">慶長本朱補書</ref>
+<ref xml:id="慶長本脚書">慶長本脚書</ref>
+<ref xml:id="慶長本補書">慶長本補書</ref>
+<ref xml:id="慶長本訂正書">慶長本訂正書</ref>
+<ref xml:id="慶長本挿入書">慶長本挿入書</ref>
+<ref xml:id="慶長本朱抹消">慶長本朱抹消</ref>
+<ref xml:id="慶長本左傍書">慶長本左傍書</ref>
+</listRef>
+</witness>
+<witness xml:id="梵本"><abbr>梵本</abbr>：天理大学附属天理図書館所蔵吉田文庫梵舜等筆本（吉16-8。巻8は173-ｲ5（Ⅲ524)もあり） <listRef>
+<ref xml:id="梵本傍書">梵本傍書</ref>
+<ref xml:id="梵本抹消">梵本抹消</ref>
+<ref xml:id="梵本朱傍書">梵本朱傍書</ref>
+<ref xml:id="梵本朱補書">梵本朱補書</ref>
+<ref xml:id="梵本補書">梵本補書</ref>
+<ref xml:id="梵本訂正書">梵本訂正書</ref>
+</listRef></witness>
+<witness xml:id="九本"><abbr>九本</abbr>：東京国立博物館所蔵九条家旧蔵巻子本（B-2370） <listRef>
+<ref xml:id="九本傍書">九本傍書</ref>
+<ref xml:id="九本抹消">九本抹消</ref>
+<ref xml:id="九本残画">九本残画</ref>
+<ref xml:id="九本訂正書">九本訂正書</ref>
+<ref xml:id="九本重書">九本重書</ref>
+<ref xml:id="九本挿入書">九本挿入書</ref>
+<ref xml:id="九本補書">九本補書</ref>
+</listRef></witness>
+<witness xml:id="剛本"><abbr>剛本</abbr>：天野山金剛寺所蔵本 <listRef>
+<ref xml:id="剛本朱傍書">剛本朱傍書</ref>
+<ref xml:id="剛本朱書">剛本朱書</ref>
+<ref xml:id="剛本補書">剛本補書</ref>
+<ref xml:id="剛本訂正書">剛本訂正書</ref>
+</listRef>
+</witness>
+<witness xml:id="条本"><abbr>条本</abbr>：一条家旧蔵巻子本（巻1～3は無窮会専門図書館所蔵模写本、巻4・5は神宮司庁刊影印本） <listRef>
+<ref xml:id="条本傍書">条本傍書</ref>
+<ref xml:id="条本傍訓">条本傍訓</ref>
+<ref xml:id="条本朱傍書">条本朱傍書</ref>
+<ref xml:id="条本朱補書">条本朱補書</ref>
+<ref xml:id="条本補書">条本補書</ref>
+<ref xml:id="条本転倒符">条本転倒符</ref>
+<ref xml:id="条本訂正書">条本訂正書</ref>
+<ref xml:id="条本朱訂正書">条本朱訂正書</ref>
+<ref xml:id="条本脚書">条本脚書</ref>
+<ref xml:id="条本朱脚書">条本朱脚書</ref>
+<ref xml:id="条本抹消">条本抹消</ref>
+<ref xml:id="条本左傍書">条本左傍書</ref>
+</listRef></witness>
+<witness xml:id="花本"><abbr>花本</abbr>：武田祐吉旧蔵花山院通雅筆本（神宮皇学館刊影印本による） <listRef>
+<ref xml:id="花本朱訂正">花本朱訂正</ref>
+<ref xml:id="花本重書">花本重書</ref>
+</listRef></witness>
+<witness xml:id="九冊本"><abbr>九冊本</abbr>：國學院大學所蔵九条家・西田長男旧蔵冊子本（巻5は西田長男刊影印本による） <listRef>
+<ref xml:id="九冊本傍書">九冊本傍書</ref>
+<ref xml:id="九冊本傍訓">九冊本傍訓</ref>
+</listRef></witness>
+<witness xml:id="永本"><abbr>永本</abbr>：國學院大學図書館所蔵卜部兼永筆本（巻8、091.2/322.135/1）、鈴鹿義鯨旧蔵卜部兼永筆本（巻9・10、現蔵不明、神宮文庫写真帳1門16974を閲覧） <listRef>
+<ref xml:id="永本傍書">永本傍書</ref>
+<ref xml:id="永本左傍書">永本左傍書</ref>
+<ref xml:id="永本左朱傍書">永本左朱傍書</ref>
+<ref xml:id="永本重書">永本重書</ref>
+<ref xml:id="永本頭注">永本頭注</ref>
+<ref xml:id="永本挿入書">永本挿入書</ref>
+<ref xml:id="永本補書">永本補書</ref>
+<ref xml:id="永本朱補書">永本朱補書</ref>
+</listRef></witness>
+<witness xml:id="右本"><abbr>右本</abbr>：巻8は國學院大學図書館所蔵（貴62） <listRef>
+<ref xml:id="右本挿入書">右本挿入書</ref>
+</listRef>
+</witness>
+<witness xml:id="吉本"><abbr>吉本</abbr>：天理大学附属天理図書館所蔵吉田家旧蔵本巻9・10（328.1-ｲ17（『天理図書館稀書目録　和漢書之部　第三』1219） <listRef>
+<ref xml:id="吉本傍書">吉本傍書</ref>
+<ref xml:id="吉本左傍書">吉本左傍書</ref>
+<ref xml:id="吉本左朱傍書">吉本左朱傍書</ref>
+<ref xml:id="吉本朱傍書">吉本朱傍書</ref>
+<ref xml:id="吉本朱補書">吉本朱補書</ref>
+<ref xml:id="吉本頭注">吉本頭注</ref>
+</listRef></witness>
+<witness xml:id="三条本"><abbr>三条本</abbr>：天理大学附属天理図書館所蔵三条家旧蔵本（328.1-ｲ11(Ⅲ1218)）</witness>
+<witness xml:id="西本"><abbr>西本</abbr>：國學院大學図書館所蔵三条西家旧蔵本（巻9・10、貴107～108）、国立歴史民俗博物館所蔵三条西家旧蔵本（巻50、H-1588）。抄出本は國學院大學所蔵（木村大樹「〔西田長男旧蔵〕三条西実隆筆『延喜式』(抄)の翻刻・紹介」『國學院大學研究開発推進機構紀要』14、2022年） </witness>
+<witness xml:id="時慶本"><abbr>時慶本</abbr>：静嘉堂文庫所蔵西洞院時慶写本（延喜格式表18352、延喜式序18353）</witness>
+<witness xml:id="藤波本"><abbr>藤波本</abbr>：宮内庁書陵部図書寮文庫所蔵藤波家旧蔵本（217-473） <listRef>
+<ref xml:id="藤波本傍書">藤波本傍書</ref>
+<ref xml:id="藤波本朱傍書">藤波本朱傍書</ref>
+<ref xml:id="藤波本朱補書">藤波本朱補書</ref>
+</listRef></witness>
+<witness xml:id="島原本"><abbr>島原本</abbr>：東京大学史料編纂所所蔵松平忠房・和学講談所・水野忠央旧蔵本（貴45-2） <listRef>
+<ref xml:id="島原本書入">島原本書入</ref>
+<ref xml:id="島原本朱補書">島原本朱補書</ref>
+</listRef></witness>
+<witness xml:id="貞享本"><abbr>貞享本</abbr>：宮内庁書陵部図書寮文庫所蔵和学講談所旧蔵坊城俊方貞享五年写本（457-116） <listRef>
+<ref xml:id="貞享本傍書">貞享本傍書</ref>
+</listRef></witness>
+<witness xml:id="玄梁本"><abbr>玄梁本</abbr>：無窮会専門図書館所蔵神習文庫玄梁記名本（神習3666） <listRef>
+<ref xml:id="玄梁本訂正書">玄梁本訂正書</ref>
+</listRef></witness>
+<witness xml:id="尾張本"><abbr>尾張本</abbr>：東京大学総合図書館所蔵尾張家旧蔵本（巻13）（A00-6122）</witness>
+<witness xml:id="泉亭本"><abbr>泉亭本</abbr>：賀茂三手文庫所蔵泉亭本（制度/加） </witness>
+</listWit>
+<listWit xml:id="版本">
+<head>版本</head>
+<witness xml:id="鈴鹿本"><abbr>鈴鹿本</abbr>：大和文華館所蔵鈴鹿連胤旧蔵版本（1/741～790） <listRef>
+<ref xml:id="鈴鹿本書入">鈴鹿本書入</ref>
+<ref xml:id="鈴鹿本書入傍書">鈴鹿本書入傍書</ref>
+<ref xml:id="鈴鹿本書入朱傍書">鈴鹿本書入朱傍書</ref>
+<ref xml:id="鈴鹿本書入朱補書">鈴鹿本書入朱補書</ref>
+</listRef></witness>
+<witness xml:id="慶安版本"><abbr>慶安版本</abbr>：宮内庁書陵部図書寮文庫書蔵松岡家旧蔵版本（459-1）等 <listRef>
+<ref xml:id="慶安版本傍訓">慶安版本傍訓</ref>
+</listRef></witness>
+<witness xml:id="明暦版本"><abbr>明暦版本</abbr>：明暦修訂版本　国立公文書館所蔵紅葉山文庫旧蔵版本（特26-1）等 <listRef>
+<ref xml:id="明暦版本訂正書">明暦版本訂正書</ref>
+<ref xml:id="明暦版本傍訓">明暦版本傍訓</ref>
+</listRef></witness>
+<witness xml:id="明暦以降版本"><abbr>明暦以降版本</abbr>：明暦修訂本以降の版本 </witness>
+<witness xml:id="寛文版本"><abbr>寛文版本</abbr>：寛文修訂版本　筑波大学附属図書館所蔵版本20冊本（ム212-7）等 <listRef>
+<ref xml:id="寛文版本傍訓">寛文版本傍訓</ref>
+</listRef></witness>
+<witness xml:id="享保版本"><abbr>享保版本</abbr>：享保修訂版本　筑波大学附属図書館所蔵版本50冊本（ム212-6）等 <listRef>
+<ref xml:id="享保版本朱補書">享保版本朱補書</ref>
+<ref xml:id="享保版本傍訓">享保版本傍訓</ref>
+</listRef></witness>
+<witness xml:id="雲本"><abbr>雲本</abbr>：松江藩文政11年(1828)刊本（雲州本）　早稲田大学図書館所蔵本（ワ03-01594）等 <listRef>
+<ref xml:id="雲本傍書">雲本傍書</ref>
+</listRef></witness>
+<witness xml:id="考異"><abbr>考異</abbr>：雲州本附録『延喜式考異』　早稲田大学図書館所蔵本（ワ03-01594）等</witness>
+<witness xml:id="勢多本"><abbr>勢多本</abbr>：宮内庁書陵部図書寮文庫所蔵勢多家旧蔵本（172-123）書入 <listRef>
+<ref xml:id="勢多本傍書">勢多本傍書</ref>
+<ref xml:id="勢多本書入">勢多本書入</ref>
+<ref xml:id="勢多本朱書">勢多本朱書</ref>
+</listRef></witness>
+<witness xml:id="筑波寛文本"><abbr>筑波寛文本</abbr>：筑波大学附属図書館所蔵寛文版本20冊本（ム212-7）書入 <listRef>
+<ref xml:id="筑波寛文本朱傍書">筑波寛文本朱傍書</ref>
+<ref xml:id="筑波寛文本朱補書">筑波寛文本朱補書</ref>
+<ref xml:id="筑波寛文本朱重書">筑波寛文本朱重書</ref>
+<ref xml:id="筑波寛文本訂正書">筑波寛文本訂正書</ref>
+</listRef></witness>
+</listWit>
+<listWit xml:id="刊本">
+<head>刊本</head>
+<witness xml:id="旧大系本"><abbr>旧大系本</abbr>：旧輯国史大系第13巻（経済雑誌社　1900年刊）</witness>
+<witness xml:id="叢書本"><abbr>叢書本</abbr>：新註皇学叢書第3巻（広文庫刊行会　1927年刊）</witness>
+<witness xml:id="全集本"><abbr>全集本</abbr>：日本古典全集『延喜式』（日本古典全集刊行会　1927～1929年刊）</witness>
+<witness xml:id="皇典本"><abbr>皇典本</abbr>：『校訂延喜式』（皇典講究所・全国神職会　1929～1932年刊）</witness>
+<witness xml:id="国史大系本"><abbr>国史大系本</abbr>：新訂増補国史大系第26巻（吉川弘文館　1937年刊）</witness>
+<witness xml:id="神道大系本"><abbr>神道大系本</abbr>：神道大系古典編11・12『延喜式』（神道大系編纂会、1991・1993年刊）</witness>
+<witness xml:id="訳注本"><abbr>訳注本</abbr>：訳注日本史料『延喜式』上～下（集英社、2000～2017年刊）</witness>
+</listWit>
+<listWit xml:id="その他">
+<head>その他</head>
+<witness xml:id="本朝月令"><abbr>本朝月令</abbr>：清水潔編『新校本朝月令』（皇學館大學神道研究所　2002年刊）</witness>
+<witness xml:id="儀式"><abbr>儀式</abbr>：神道大系朝儀祭祀編1『儀式・内裏式』（神道大系編纂会　1980年刊）</witness>
+<witness xml:id="皇太神宮儀式帳"><abbr>皇太神宮儀式帳</abbr>：佐野真人「『皇太神宮儀式帳』校訂試案」（『皇學館大学研究開発推進センター紀要』2　2016年）</witness>
+<witness xml:id="止由気宮儀式帳"><abbr>止由気宮儀式帳</abbr>：佐野真人「『止由気宮儀式帳』校訂試案」（『皇學館大学研究開発推進センター紀要』3　2017年）</witness>
+<witness xml:id="新撰年中行事"><abbr>新撰年中行事</abbr>：西本昌弘編『新撰年中行事』（八木書店　2010年刊）</witness>
+<witness xml:id="小野宮年中行事"><abbr>小野宮年中行事</abbr>：群書類従第6輯 律令部
+              公事部（続群書類従完成会　1932年刊）</witness>
+<witness xml:id="小野宮年中行事裏書"><abbr>小野宮年中行事裏書</abbr>：国立歴史民俗博物館所蔵本（H-1762）</witness>
+<witness xml:id="勘例"><abbr>勘例（陽明文庫所蔵）</abbr>：大日本古記録『勘例』上・下（岩波書店　2018・2023年刊）</witness>
+<witness xml:id="政事要略"><abbr>政事要略</abbr>：新訂増補国史大系第28巻（吉川弘文館　1935年刊。適宜、写本を参照）</witness>
+<witness xml:id="法曹至要抄"><abbr>法曹至要抄</abbr>：中世法制史料集（岩波書店　2005年刊）</witness>
+<witness xml:id="本草和名"><abbr>本草和名</abbr>：丸山裕美子・武倩編著『本草和名』（汲古書院　2021年刊）</witness>
+</listWit>
+</listWit>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<variantEncoding location="external" method="location-referenced"/>
+<tagsDecl>
+<rendition xml:id="shu">color: red;</rendition>
+<rendition xml:id="italic">font-style: italic;</rendition>
+<rendition xml:id="indent">display: block; margin: 0; padding-inline-start: 1em;</rendition>
+<rendition xml:id="indent2">display: block; margin: 0; padding-inline-start:
+          2em;</rendition>
+<rendition xml:id="indent3">display: block; margin: 0; padding-inline-start:
+          3em;</rendition>
+<rendition xml:id="indent3_5">display: block; margin: 0; padding-inline-start:
+          3.5em;</rendition>
+<rendition xml:id="indent4">display: block; margin: 0; padding-inline-start:
+          4em;</rendition>
+<rendition xml:id="indent5">display: block; margin: 0; padding-inline-start:
+          5em;</rendition>
+<rendition xml:id="indent6">display: block; margin: 0; padding-inline-start:
+          6em;</rendition>
+<rendition xml:id="indent7">display: block; margin: 0; padding-inline-start:
+          7em;</rendition>
+<rendition xml:id="indent8">display: block; margin: 0; padding-inline-start:
+          8em;</rendition>
+<rendition xml:id="indent10">display: block; margin: 0; padding-inline-start:
+          10em;</rendition>
+<rendition xml:id="indent11">display: block; margin: 0; padding-inline-start:
+          11em;</rendition>
+<rendition xml:id="indent12">display: block; margin: 0; padding-inline-start:
+          12em;</rendition>
+<rendition xml:id="indent13">display: block; margin: 0; padding-inline-start:
+          13em;</rendition>
+<rendition xml:id="indent14">display: block; margin: 0; padding-inline-start:
+          14em;</rendition>
+<rendition xml:id="indent18">display: block; margin: 0; padding-inline-start:
+          18em;</rendition>
+<rendition xml:id="hanging-1">display: block; margin: 0; padding-inline-start: 1em;
+          text-indent: -1em;</rendition>
+<rendition xml:id="hanging-2">display: block; margin: 0; padding-inline-start: 2em;
+          text-indent: -2em;</rendition>
+<rendition xml:id="hanging-3">display: block; margin: 0; padding-inline-start: 3em;
+          text-indent: -3em;</rendition>
+<rendition xml:id="indent1_hanging-3"> display: block; margin: 0; padding-inline-start: 4em;
+          text-indent: -3em; </rendition>
+<rendition xml:id="indent1_hanging-4"> display: block; margin: 0; padding-inline-start: 5em;
+          text-indent: -4em; </rendition>
+<rendition xml:id="indent1_hanging-5"> display: block; margin: 0; padding-inline-start: 6em;
+          text-indent: -5em; </rendition>
+<rendition xml:id="indent1_hanging-6"> display: block; margin: 0; padding-inline-start: 7em;
+          text-indent: -6em;</rendition>
+<rendition xml:id="indent2_hanging-1">display: block; margin: 0; padding-inline-start: 3em;
+          text-indent: -1em;</rendition>
+<rendition xml:id="indent2_hanging-3">display: block; margin: 0; padding-inline-start: 5em;
+          text-indent: -3em;</rendition>
+<rendition xml:id="indent2_hanging-4">display: block; margin: 0; padding-inline-start: 6em;
+          text-indent: -4em;</rendition>
+<rendition xml:id="indent2_hanging-5">display: block; margin: 0; padding-inline-start: 7em;
+          text-indent: -5em;</rendition>
+<rendition xml:id="indent2_hanging-6">display: block; margin: 0; padding-inline-start: 8em;
+          text-indent: -6em;</rendition>
+<rendition xml:id="indent2_hanging-7">display: block; margin: 0; padding-inline-start: 9em;
+          text-indent: -7em;</rendition>
+<rendition xml:id="indent3_hanging-4">display: block; margin: 0; padding-inline-start: 7em;
+          text-indent: -4em;</rendition>
+<rendition xml:id="indent3_hanging-5">display: block; margin: 0; padding-inline-start: 8em;
+          text-indent: -5em;</rendition>
+<rendition xml:id="indent4_hanging-5">display: block; margin: 0; padding-inline-start: 9em;
+          text-indent: -5em;</rendition>
+<rendition xml:id="indent4_hanging-6">display: block; margin: 0; padding-inline-start: 10em;
+          text-indent: -6em;</rendition>
+<rendition xml:id="indent5_hanging-5">display: block; margin: 0; padding-inline-start: 10em;
+          text-indent: -5em;</rendition>
+<rendition xml:id="width50">width: 50px;</rendition>
+<rendition xml:id="width80">width: 80px;</rendition>
+<rendition xml:id="width100">width: 100px;</rendition>
+<rendition xml:id="width150">width: 150px;</rendition>
+<rendition xml:id="width170">width: 170px;</rendition>
+<rendition xml:id="width200">width: 200px;</rendition>
+<rendition xml:id="width300">width: 300px;</rendition>
+<rendition xml:id="width400">width: 400px;</rendition>
+<rendition xml:id="width500">width: 500px;</rendition>
+<namespace name="http://www.tei-c.org/ns/1.0">
+<tagUsage gi="lb">行構成を保持。定型的な書式を持つ延喜式の記述構造を解析するために必須とする。</tagUsage>
+<tagUsage gi="table">史料上の多段（段落）表現や、項目間の水平方向の配置を再現するために使用。各 <gi>cell</gi> に付与した
+              <att>rendition</att> （#width 等）により、視覚的な間隔や幅を制御する。</tagUsage>
+<tagUsage gi="seg">史料上の書式（<att>rendition</att>="#indent"等）および朱書き表現（<att>rendition</att>="#shu"）、英訳の音表記（<att>rendition</att>="#italic"）、および英訳注の対象範囲の特定（<att>xml:id</att>）など、複数の視覚・論理表現を属性で制御する。</tagUsage>
+<tagUsage gi="ruby">現代語訳において、漢字の読みを示すために使用。</tagUsage>
+<tagUsage gi="anchor">校異注の該当範囲（始点・終点）を指定するための空要素。<gi>app</gi> 要素の <att>from</att> および
+              <att>to</att> から参照され、校注範囲を確定させるために使用する。</tagUsage>
+<tagUsage gi="note">校異の詳細説明（<gi>app</gi> 内）、史料上の割注（<gi>measure</gi>
+              内）、条文要約（<att>type</att>="summary"）、訳者注（<att>type</att>="translatorsNotes"）、換算ルール（<att>type</att>="calculationRule"）、および典拠データ（<gi>standOff</gi>）における制度上の地域区分（<gi>trait</gi>
+              内）に使用。これらは、情報の性質や参照先、出現位置に応じて、<att>place</att>、<att>type</att>、<att>target</att>、<att>ana</att>、<att>corresp</att>
+            の各属性により区別される。</tagUsage>
+<tagUsage gi="measure">物品の数量・寸法等の計量情報を記述するために使用。<gi>measure</gi>を入れ子構造にすることで、物品と数量・単位等の対応関係を階層的に記述する。<att>ana</att>（納税物区分）、<att>commodity</att>（物品ID）、<att>corresp</att>（該当する国・地域）、<att>quantity</att>（数量）等の属性を用いて計量情報を詳細に記述する。また、<att>type</att>には、<val>standard</val>（貢納量の規定）、<val>actual</val>（実数）、<val>conditional</val>（隔年・条件付き等の数量記載）、<val>supplement</val>（寸法・補足的数量情報）を指定する。</tagUsage>
+<tagUsage gi="measureGrp">関連する複数の <gi>measure</gi>
+            をグループ化するために使用する。物品に関する法量情報の集合を表現する場合や、複数の単位によって表される数量表現する場合に用いる。</tagUsage>
+<tagUsage gi="unit">数量の単位（枚、丈、斤、両など）を示す。<att>unitRef</att>
+              を通じてヘッダー内の単位定義（<gi>unitDecl</gi>）と連動させる。</tagUsage>
+<tagUsage gi="placeName">歴史地名。<gi>standOff</gi> 内の典拠情報とリンクし、空間情報の同定を行う。</tagUsage>
+<tagUsage gi="orgName">官司・官職名。<gi>standOff</gi> 内の典拠情報とリンクし、組織構造の同定を行う。</tagUsage>
+</namespace>
+</tagsDecl>
+<editorialDecl ana="現代語訳凡例">
+<p ana="全体">
+<table>
+<row>
+<cell> ・ </cell>
+<cell> 校訂文に基づいて現代語訳を作成しました。条文番号・条文名称および項番号等は校訂文に従っています。原文の細字・割書を〈　〉で括って示すことも校訂文と同様です。 </cell>
+</row>
+<row>
+<cell> ・ </cell>
+<cell> 各条条文番号・条文名にポインターを当てると、条文内容の把握の一助として条文概要がポップアップ表示されます。 </cell>
+</row>
+<row>
+<cell> ・ </cell>
+<cell> 本文のみで簡便に読み進めていける訳文を目指しました。訳出が困難な語句は原文（校訂文）のまま表示して適宜ルビを付し、補足的な説明を加えましたが、意訳で対応した場合もあります。
        </cell>
-      </row>
-      <row>
-       <cell> ・ </cell>
-       <cell> 校訂文の標注は現代文では省略しています。 </cell>
-      </row>
-      <row>
-       <cell> ・ </cell>
-       <cell> 度量衡はそのまま表記しています。 </cell>
-      </row>
-     </table>
-     <table rendition="#indent1">
-      <row>
-       <cell rendition="#width100"> （参考） </cell>
-       <cell> 『延喜式』の度量衡（訳注本掲載の正倉院伝来容器計測結果等に基づく） </cell>
-      </row>
-     </table>
-     <table rendition="#indent2">
-      <row>
-       <cell rendition="#width100"> 長さ </cell>
-       <cell> 1尺＝約29.7㎝　（1丈＝10尺、1尺＝10寸） </cell>
-      </row>
-      <row>
-       <cell rendition="#width100"> 距離 </cell>
-       <cell> 1里＝300歩＝約534ｍ　（1歩＝6尺） </cell>
-      </row>
-      <row>
-       <cell rendition="#width100"> 面積 </cell>
-       <cell> 1町＝約1.2ha　（1町＝10段、1段＝360歩） </cell>
-      </row>
-      <row>
-       <cell rendition="#width100"> 容積 </cell>
-       <cell> 1升＝約800mℓ＝約0.8ℓ　（1斛＝10斗＝100升、1升＝10合＝100夕） </cell>
-      </row>
-      <row>
-       <cell rendition="#width100"> 重さ </cell>
-       <cell> 大1斤＝約674グラム　（1斤＝16両、1両＝4分、1分＝6銖） </cell>
-      </row>
-      <row>
-       <cell rendition="#width100"/>
-       <cell> 大1斤＝小3斤 </cell>
-      </row>
-      <row>
-       <cell rendition="#width100"> ほか </cell>
-       <cell> 稲1束＝10把＝100分＝1000毛＝10000厘 <lb/> 調綿1屯＝大4両 <lb/> 細屯綿1屯＝大3両1分2銖＝小10両 <lb/>
+</row>
+<row>
+<cell> ・ </cell>
+<cell> 校訂文の標注は現代文では省略しています。 </cell>
+</row>
+<row>
+<cell> ・ </cell>
+<cell> 度量衡はそのまま表記しています。 </cell>
+</row>
+</table>
+<table rendition="#indent1">
+<row>
+<cell rendition="#width100"> （参考） </cell>
+<cell> 『延喜式』の度量衡（訳注本掲載の正倉院伝来容器計測結果等に基づく） </cell>
+</row>
+</table>
+<table rendition="#indent2">
+<row>
+<cell rendition="#width100"> 長さ </cell>
+<cell> 1尺＝約29.7㎝　（1丈＝10尺、1尺＝10寸） </cell>
+</row>
+<row>
+<cell rendition="#width100"> 距離 </cell>
+<cell> 1里＝300歩＝約534ｍ　（1歩＝6尺） </cell>
+</row>
+<row>
+<cell rendition="#width100"> 面積 </cell>
+<cell> 1町＝約1.2ha　（1町＝10段、1段＝360歩） </cell>
+</row>
+<row>
+<cell rendition="#width100"> 容積 </cell>
+<cell> 1升＝約800mℓ＝約0.8ℓ　（1斛＝10斗＝100升、1升＝10合＝100夕） </cell>
+</row>
+<row>
+<cell rendition="#width100"> 重さ </cell>
+<cell> 大1斤＝約674グラム　（1斤＝16両、1両＝4分、1分＝6銖） </cell>
+</row>
+<row>
+<cell rendition="#width100"/>
+<cell> 大1斤＝小3斤 </cell>
+</row>
+<row>
+<cell rendition="#width100"> ほか </cell>
+<cell> 稲1束＝10把＝100分＝1000毛＝10000厘 <lb/> 調綿1屯＝大4両 <lb/> 細屯綿1屯＝大3両1分2銖＝小10両 <lb/>
         庸綿1屯＝大5両2分＝小1斤2分 <lb/> 糸1絇＝上糸大4両、中糸大5両、麁糸大7両 <lb/> 鉄1廷＝大3斤5両 <lb/> 銭1貫＝1000文 </cell>
-      </row>
-     </table>
-    </p>
-    <p ana="個別"/>
-   </editorialDecl>
-  </encodingDesc>
-  <revisionDesc ana="個別">
-   <listChange>
-    <change/>
-   </listChange>
-  </revisionDesc>
- </teiHeader>
+</row>
+</table>
+</p>
+<p ana="個別"/>
+</editorialDecl>
+</encodingDesc>
+<revisionDesc ana="個別">
+<listChange>
+<change/>
+</listChange>
+</revisionDesc>
+</teiHeader>
  <text>
   <body>
    <div ana="典薬" n="37" type="巻" xml:id="volume37">

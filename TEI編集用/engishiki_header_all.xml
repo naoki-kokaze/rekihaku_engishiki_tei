@@ -947,10 +947,12 @@
                 等を使用している。<att>ana</att>（納税物区分）、<att>commodity</att>（物品ID）、<att>quantity</att>（数量）、<att>corresp</att>（該当する国・地域）、<att>type</att>（貢納量における規定か実数かの別等）といった属性により、計量情報を定義している。物品名と総量を括る階層構造や、複数の単位を合算する
                 <gi>measureGrp</gi> により、史料の計量記述を論理的に再現している。また、単位（<gi>unit</gi>）については
                 <att>unitRef</att> を用い、<gi>unitDecl</gi>
-              で体系的に定義された単位情報と紐付けている。なお、現段階での詳細な実装は巻24のデータに限定される。 </item>
-            <item>【物品数量の換算ルール構造化】物品数量を丁数へ換算するための条件および計算式は、<att>type</att>="calculationRule" を指定した
-                <gi>note</gi>により構造化する。これらの換算ルールは、巻24の1・2条の規定に基づいて定義し、本文テクストから独立した形で巻24のデータ内に記述する。<att>ana</att>（納税物区分）、<att>target</att>（物品ID）、<att>corresp</att>
-                （該当する国・地域）、<gi>formula</gi>（計算式）、<gi>unit</gi> （単位）を記述する。</item>
+              で体系的に定義された単位情報と紐付けている。なお、現段階での詳細な実装は巻24と巻23の一部に限定される。 </item>
+            <item>【物品数量の換算ルール構造化】巻24に関して、各国からの貢納量を分担人数（丁数）に換算するための換算ルールを構造化した。この換算ルールは1・2条の規定に基づいて定義し、本文テクスト中の物品数量とは独立した情報として<att>type</att>="calculationRule"
+              を指定した <gi>note</gi> を用いて巻24データ内に記述している。記述内容は<att>ana</att>
+                （納税物区分）、<att>target</att>（物品ID）、<att>corresp</att> （該当する国・地域）、<gi>formula</gi>
+                （計算式）、<gi>unit</gi>
+              （単位）である。これらの情報を用いることで、物品ID・地域・単位に基づいて各国の貢納量と換算ルールを対応付け、計算式を適用して丁数を算出することが可能である。詳細な処理手順および実装についてはGithub（https://github.com/reki-kodai/engishiki-quantity-conversion）を参照されたい。</item>
           </list>
           <list>
             <head>現代語訳のXMLファイル</head>
