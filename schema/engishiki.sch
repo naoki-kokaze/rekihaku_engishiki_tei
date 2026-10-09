@@ -79,4 +79,22 @@
     </rule>
   </pattern>
 
+  <pattern id="manifest">
+    <title>facsimile にその巻の IIIF マニフェストが書かれているか</title>
+    <!-- サイトの画像ビューアは facsimile/@source のマニフェストを読む。
+         無いと、その巻の画像が一枚も表示されない（巻8・36 で発生） -->
+    <rule context="tei:facsimile">
+      <let name="n" value="replace(base-uri(/), '^.*/engishiki_v(\d+)\.xml$', '$1')"/>
+      <let name="expected" value="concat('https://iiif.rekihaku.ac.jp/api/manifests/shiryo/H-743-74-', $n)"/>
+      <assert test="@source" role="error">
+        facsimile に source（IIIF マニフェストの URL）がありません。
+        画像が表示されなくなります。例: &lt;facsimile source="<value-of select="$expected"/>"&gt;
+      </assert>
+      <assert test="not(@source) or not(matches(base-uri(/), 'engishiki_v\d+\.xml$')) or @source = $expected" role="error">
+        facsimile の source が巻の番号と合っていません（<value-of select="@source"/>）。
+        この巻では <value-of select="$expected"/> のはずです。
+      </assert>
+    </rule>
+  </pattern>
+
 </schema>
