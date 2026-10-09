@@ -14,6 +14,12 @@
    - 画像の URL（`graphic/@url`、`pb/@facs`）が `https://iiif.rekihaku.ac.jp/` で始まっているか
    - `facsimile` に、その巻の IIIF マニフェスト（`source="https://iiif.rekihaku.ac.jp/api/manifests/shiryo/H-743-74-<巻>"`）が書かれているか。
      無いと、サイトでその巻の画像が一枚も表示されません
+   - `facsimile` に、その巻の IIIF マニフェスト（`source`）が書かれているか
+   - 物品（`commodity`）が taxonomy の ID（`#noun…`）で書かれていて、その ID が taxonomy にあるか。
+     統合・削除した ID を使い続けている巻も、ここで分かります
+   - taxonomy に、名前も読み（ひらがな）も同じ物品が二つ以上ないか。
+     名前が同じでも読みが違うもの（粱米・麩など）は、別の物品として扱うので対象外です
+   - `relation` の `active` `passive` `mutual` の `#…` が、実在する `xml:id` を指しているか（**警告のみ**）
    - `ana` の `#…` が定義されているか（扱いが決まっていないため、**警告のみ**。✗ にはなりません）
 
 PR では、その PR で変更したファイルだけをチェックします。
