@@ -12,6 +12,8 @@
      `engishiki_header_all.xml` です。`_en` / `_ja` のファイルでは、同じ巻の本文ファイルも探します。
    - 本文（`text`）の中で、standOff などと同じ `xml:id` を使っていないか
    - 画像の URL（`graphic/@url`、`pb/@facs`）が `https://iiif.rekihaku.ac.jp/` で始まっているか
+   - `facsimile` に、その巻の IIIF マニフェスト（`source="https://iiif.rekihaku.ac.jp/api/manifests/shiryo/H-743-74-<巻>"`）が書かれているか。
+     無いと、サイトでその巻の画像が一枚も表示されません
    - `ana` の `#…` が定義されているか（扱いが決まっていないため、**警告のみ**。✗ にはなりません）
 
 PR では、その PR で変更したファイルだけをチェックします。
