@@ -59,7 +59,9 @@
         </respStmt>
         <respStmt>
           <resp>校訂</resp>
-          <persName ref="http://viaf.org/viaf/29168734579865262687 http://viaf.org/viaf/20165392564921252049">井上正望</persName>
+          <persName
+            ref="http://viaf.org/viaf/29168734579865262687 http://viaf.org/viaf/20165392564921252049"
+            >井上正望</persName>
           <note>『延喜式』テクスト本文の校訂（巻29「刑部省・判事・囚獄司」巻41「弾正台」巻42「左右京職・東西市司」）</note>
         </respStmt>
         <respStmt>
@@ -113,7 +115,8 @@
           <note>『延喜式』テクストの英訳（巻39「内膳司」）</note>
         </respStmt>
         <funder> 人間文化研究機構広領域連携型基幹研究プロジェクト「異分野融合による「総合書物学」の構築」歴博ユニット「古代の百科全書『延喜式』の多分野協働研究」（研究代表：小倉慈司） </funder>
-        <funder> 人間文化研究機構広領域連携型基幹研究プロジェクト「異分野融合による総合書物学の拡張的研究」歴博ユニット「延喜式のデジタル技術による汎用化」（研究代表：小倉慈司（2022～2024）、三上喜孝（2025～）） </funder>
+        <funder>
+          人間文化研究機構広領域連携型基幹研究プロジェクト「異分野融合による総合書物学の拡張的研究」歴博ユニット「延喜式のデジタル技術による汎用化」（研究代表：小倉慈司（2022～2024）、三上喜孝（2025）、神戸航介（2026～）） </funder>
         <funder> 科研費基盤研究（B）「史料学的検討を重視した『延喜式』の基礎的研究」（研究代表：小倉慈司） </funder>
         <funder> 科研費基盤研究（B）「格・式研究を踏まえた日本古代社会像の再構築」（研究代表：小倉慈司） </funder>
         <funder> 学術変革領域研究（A）「歴史情報学の創成」（領域代表）内 計画研究「TEIを中心とした高度な歴史テキスト構築」（研究代表：小風尚樹） </funder>
@@ -126,13 +129,14 @@
         <idno type="PID"/>
         <availability status="free">
           <p>本データは国立歴史民俗博物館の利用規定に基づき公開されています。</p>
-          <licence target="https://creativecommons.org/licenses/by/4.0/">この作品はクリエイティブ・コモンズ 表示 4.0 国際 ライセンス（CC BY
-            4.0）の下に提供されています。</licence>
+          <licence target="https://creativecommons.org/licenses/by/4.0/">この作品はクリエイティブ・コモンズ 表示 4.0 国際
+            ライセンス（CC BY 4.0）の下に提供されています。</licence>
         </availability>
         <date when="2020-03-31">31 March 2020</date>
       </publicationStmt>
       <notesStmt>
-        <note>本データの底本は影印本『国立歴史民俗博物館貴重典籍叢書』歴史篇12～18（臨川書店、2000～2001年）として刊行されている。また虎尾俊哉編『訳注日本史料 延喜式』にて底本として使用される。</note>
+        <note>本データの底本は影印本『国立歴史民俗博物館貴重典籍叢書』歴史篇12～18（臨川書店、2000～2001年）として刊行されている。また虎尾俊哉編『訳注日本史料
+          延喜式』にて底本として使用される。</note>
         <relatedItem>
           <listBibl>
             <biblStruct>
@@ -601,7 +605,7 @@
             <title>延喜式関係論文目録</title>
             <publisher>国立歴史民俗博物館</publisher>
             <ref target="https://www.rekihaku.ac.jp/up-cgi/login.pl?p=param/boed/db_param"
-            >その他の研究文献については、本データベースを参照のこと</ref></bibl>
+              >その他の研究文献については、本データベースを参照のこと</ref></bibl>
         </relatedItem>
       </notesStmt>
       <sourceDesc>
@@ -777,7 +781,8 @@
                 <ref xml:id="九冊本傍書">九冊本傍書</ref>
                 <ref xml:id="九冊本傍訓">九冊本傍訓</ref>
               </listRef></witness>
-            <witness xml:id="永本"><abbr>永本</abbr>：國學院大學図書館所蔵卜部兼永筆本（巻8、091.2/322.135/1）、鈴鹿義鯨旧蔵卜部兼永筆本（巻9・10、現蔵不明、神宮文庫写真帳1門16974を閲覧） <listRef>
+            <witness xml:id="永本"
+              ><abbr>永本</abbr>：國學院大學図書館所蔵卜部兼永筆本（巻8、091.2/322.135/1）、鈴鹿義鯨旧蔵卜部兼永筆本（巻9・10、現蔵不明、神宮文庫写真帳1門16974を閲覧） <listRef>
                 <ref xml:id="永本傍書">永本傍書</ref>
                 <ref xml:id="永本左傍書">永本左傍書</ref>
                 <ref xml:id="永本左朱傍書">永本左朱傍書</ref>
@@ -791,7 +796,8 @@
                 <ref xml:id="右本挿入書">右本挿入書</ref>
               </listRef>
             </witness>
-            <witness xml:id="吉本"><abbr>吉本</abbr>：天理大学附属天理図書館所蔵吉田家旧蔵本巻9・10（328.1-ｲ17（『天理図書館稀書目録　和漢書之部　第三』1219） <listRef>
+            <witness xml:id="吉本"
+              ><abbr>吉本</abbr>：天理大学附属天理図書館所蔵吉田家旧蔵本巻9・10（328.1-ｲ17（『天理図書館稀書目録　和漢書之部　第三』1219） <listRef>
                 <ref xml:id="吉本傍書">吉本傍書</ref>
                 <ref xml:id="吉本左傍書">吉本左傍書</ref>
                 <ref xml:id="吉本左朱傍書">吉本左朱傍書</ref>
@@ -867,17 +873,21 @@
             <witness xml:id="全集本"><abbr>全集本</abbr>：日本古典全集『延喜式』（日本古典全集刊行会　1927～1929年刊）</witness>
             <witness xml:id="皇典本"><abbr>皇典本</abbr>：『校訂延喜式』（皇典講究所・全国神職会　1929～1932年刊）</witness>
             <witness xml:id="国史大系本"><abbr>国史大系本</abbr>：新訂増補国史大系第26巻（吉川弘文館　1937年刊）</witness>
-            <witness xml:id="神道大系本"><abbr>神道大系本</abbr>：神道大系古典編11・12『延喜式』（神道大系編纂会、1991・1993年刊）</witness>
+            <witness xml:id="神道大系本"
+              ><abbr>神道大系本</abbr>：神道大系古典編11・12『延喜式』（神道大系編纂会、1991・1993年刊）</witness>
             <witness xml:id="訳注本"><abbr>訳注本</abbr>：訳注日本史料『延喜式』上～下（集英社、2000～2017年刊）</witness>
           </listWit>
           <listWit xml:id="その他">
             <head>その他</head>
             <witness xml:id="本朝月令"><abbr>本朝月令</abbr>：清水潔編『新校本朝月令』（皇學館大學神道研究所　2002年刊）</witness>
             <witness xml:id="儀式"><abbr>儀式</abbr>：神道大系朝儀祭祀編1『儀式・内裏式』（神道大系編纂会　1980年刊）</witness>
-            <witness xml:id="皇太神宮儀式帳"><abbr>皇太神宮儀式帳</abbr>：佐野真人「『皇太神宮儀式帳』校訂試案」（『皇學館大学研究開発推進センター紀要』2　2016年）</witness>
-            <witness xml:id="止由気宮儀式帳"><abbr>止由気宮儀式帳</abbr>：佐野真人「『止由気宮儀式帳』校訂試案」（『皇學館大学研究開発推進センター紀要』3　2017年）</witness>
+            <witness xml:id="皇太神宮儀式帳"
+              ><abbr>皇太神宮儀式帳</abbr>：佐野真人「『皇太神宮儀式帳』校訂試案」（『皇學館大学研究開発推進センター紀要』2　2016年）</witness>
+            <witness xml:id="止由気宮儀式帳"
+              ><abbr>止由気宮儀式帳</abbr>：佐野真人「『止由気宮儀式帳』校訂試案」（『皇學館大学研究開発推進センター紀要』3　2017年）</witness>
             <witness xml:id="新撰年中行事"><abbr>新撰年中行事</abbr>：西本昌弘編『新撰年中行事』（八木書店　2010年刊）</witness>
-            <witness xml:id="小野宮年中行事"><abbr>小野宮年中行事</abbr>：群書類従第6輯 律令部 公事部（続群書類従完成会　1932年刊）</witness>
+            <witness xml:id="小野宮年中行事"><abbr>小野宮年中行事</abbr>：群書類従第6輯 律令部
+              公事部（続群書類従完成会　1932年刊）</witness>
             <witness xml:id="小野宮年中行事裏書"><abbr>小野宮年中行事裏書</abbr>：国立歴史民俗博物館所蔵本（H-1762）</witness>
             <witness xml:id="勘例"><abbr>勘例（陽明文庫所蔵）</abbr>：大日本古記録『勘例』上・下（岩波書店　2018・2023年刊）</witness>
             <witness xml:id="政事要略"><abbr>政事要略</abbr>：新訂増補国史大系第28巻（吉川弘文館　1935年刊。適宜、写本を参照）</witness>
@@ -892,8 +902,8 @@
         <p>本プロジェクトは、日本古代の法制書『延喜式』の国際的流通と、研究における高度な利活用を目的としている。作成されたデータは学術基盤として広く共有されることを前提としており、国際標準であるTEI
           P5ガイドラインに準拠することで、国内外の多様な研究プラットフォームとの連携およびデータ流通に対応する。
           <lb/>データ作成の経緯として、基幹研究プロジェクト「異分野融合による総合書物学の構築」（2016～2021）段階においてTEI/XML基盤の設計を行い、校訂文、現代語訳、英訳の三種を中核とするデータ構築を進めた。これらのデータは、Web閲覧システム「デジタル延喜式」の基盤としても活用されており、年次計画に基づき各巻のデータを順次公開している。
-            <lb/>現在の基幹研究プロジェクト「延喜式のデジタル技術による汎用化」（2022～）の段階では、基本データの整備を継続しつつ、新たな活用モデルを試験的に構築している。具体的には、<gi>taxonomy</gi> や
-            <gi>standOff</gi> 等による多角的な情報活用モデルの構築と、<gi>measure</gi>
+            <lb/>現在の基幹研究プロジェクト「延喜式のデジタル技術による汎用化」（2022～）の段階では、基本データの整備を継続しつつ、新たな活用モデルを試験的に構築している。具体的には、<gi>taxonomy</gi>
+          や <gi>standOff</gi> 等による多角的な情報活用モデルの構築と、<gi>measure</gi>
           や属性情報を基盤とした物品情報の可視化を実現する試みである。これらを通じ、本データが次世代の学術資源として持ち得る可能性を検討・実装している。
           <lb/>複雑な史料構造をTEIへ変換する過程で対応しきれなかった事項は多々あるものの、日本史資料のマークアップにおける先行事例が少ない現状に鑑み、現時点での到達点を提示している。今後の史料マークアップにおける参照モデルの一つとなり、次世代の史料デジタル化への寄与を目指している。</p>
       </projectDesc>
@@ -901,38 +911,47 @@
         <p ana="全体">
           <list>
             <head>XMLファイル全体</head>
-            <item>本データでは、校訂文・現代語訳・英訳のそれぞれを 個別の XML ファイルとして管理・公開している。各ファイルは、巻次およびデータ種別を明示したファイル名（例：校訂文 engishiki_v39、現代語訳
+            <item>本データでは、校訂文・現代語訳・英訳のそれぞれを 個別の XML
+              ファイルとして管理・公開している。各ファイルは、巻次およびデータ種別を明示したファイル名（例：校訂文 engishiki_v39、現代語訳
               engishiki_v39_ja、英訳 engishiki_v39_en）によって構成されており、これによって各テクスト間の対応関係を識別することが可能である。 </item>
             <item>本テクストは、「デジタル『延喜式』」における共通方針ならびに各巻の個別凡例に準拠する。</item>
             <item> 【語彙管理と情報の集積】<gi>taxonomy</gi>
                 は、史料中の物品名を語彙項目として整理し、異表記等を集約するためのものである。各項目には、一意の物品ID（<att>xml:id</att>）を付与し、物品名を便宜的に示す表記（<gi>name</gi>）に加え、解説（<gi>label</gi>）、文字種（漢字・かな等）およびデータ種（校訂文・現代語訳・英訳）ごとの表記情報を、<gi>listNym</gi>
-              と <gi>nym</gi> を用いて構造的に保持している。また、語句間の関係性は、<gi>taxonomy</gi> の階層構造ではなく <gi>standOff</gi> 内の <gi>relation</gi>
+              と <gi>nym</gi> を用いて構造的に保持している。また、語句間の関係性は、<gi>taxonomy</gi> の階層構造ではなく
+                <gi>standOff</gi> 内の <gi>relation</gi>
               によって記述する。なお、これらの語彙情報や関係情報は、公開対象の拡充や内容の見直しに応じて継続的に追加・調整される管理データである。 </item>
-            <item>【レイアウトの再現と <gi>table</gi>】 本文中の神名列記など、特定の視覚的段落表現を保持するため、<gi>table</gi> をレイアウト制御の手段として利用している。これは、空の <gi>cell</gi>
-                や幅指定（<att>rendition</att>）を組み合わせることで、史料が持つ空間的な配置情報をデジタル文脈で表現するためのものである。</item>
+            <item>【レイアウトの再現と <gi>table</gi>】 本文中の神名列記など、特定の視覚的段落表現を保持するため、<gi>table</gi>
+              をレイアウト制御の手段として利用している。これは、空の <gi>cell</gi>
+              や幅指定（<att>rendition</att>）を組み合わせることで、史料が持つ空間的な配置情報をデジタル文脈で表現するためのものである。</item>
             <item> 【データの統一性に関する注記】 日本史料への TEI
               適用において先行事例が乏しいため、実験的なマークアップを含んでいる。巻次や史料の記述形式により、タグの適用範囲や属性の粒度に差異が生じている箇所があるが、これらについては各巻の個別凡例にて補足、あるいは将来的な一括処理を見据えた暫定的な記述としている。
             </item>
           </list>
           <list>
             <head>校訂文のXMLファイル</head>
-            <item> 【校異の記述と校訂根拠】諸本の異同は <gi>app</gi> 内の <gi>lem</gi> および <gi>rdg</gi> で示し、<att>wit</att>
-                によって校訂根拠となる写本・版本情報を提示する。<att>wit</att> の対象は原則として写本・版本等に限定し、注釈書や他の歴史史料による知見は <gi>note</gi> 内に記述している。また、<gi>lem</gi>
+            <item> 【校異の記述と校訂根拠】諸本の異同は <gi>app</gi> 内の <gi>lem</gi> および <gi>rdg</gi>
+                で示し、<att>wit</att> によって校訂根拠となる写本・版本情報を提示する。<att>wit</att>
+              の対象は原則として写本・版本等に限定し、注釈書や他の歴史史料による知見は <gi>note</gi> 内に記述している。また、<gi>lem</gi>
               に示すべき写本が存在しない場合は <att>cause</att> を用い、校訂の根拠を明示する。 </item>
             <item>
               【採録範囲と個別凡例】本プロジェクトにおける校異の採録は諸本の網羅を目的とせず、校訂に実質的に資する写本・版本および傍書類に対象を限定している。採用する写本の種類や範囲は巻ごとに異なるため、詳細は各巻の個別凡例を参照されたい。 </item>
-            <item>【傍書の扱い】傍書・傍訓・朱書・頭注といった文字周辺の注記情報は、<gi>note</gi> と <att>place</att> を組み合わせて記述するほか、独立した witness としても識別し、必要に応じて
-                <att>wit</att> から参照可能としている。 </item>
-            <item> 【標注の扱い】標注を提示する際には、<gi>app</gi> をその記述単位として利用し、<att>type</att>="標注" を付与することで情報の性質を明示している。 </item>
-            <item> 【非文字単位・広範囲の注記】文字の配列や条文全体に関する注記など、文字単位の異同として処理できない情報については、<gi>app</gi> の構造を維持しつつ、<gi>note</gi>
-              を用いて内容を記述する。校異の該当範囲が広範にわたる場合は、冒頭語句に <gi>anchor</gi> を配置し、<gi>note</gi> 内で「冒頭語句……末尾語句」と範囲を明記した上で、注記本文を記述する手法を採用している。 </item>
-            <item> 【物品情報の構造化（<gi>measure</gi> 等）】物品の数量・寸法を記述するため、<gi>measure</gi>、<gi>measureGrp</gi>、<gi>unit</gi>、<gi>note</gi>
+            <item>【傍書の扱い】傍書・傍訓・朱書・頭注といった文字周辺の注記情報は、<gi>note</gi> と <att>place</att>
+              を組み合わせて記述するほか、独立した witness としても識別し、必要に応じて <att>wit</att> から参照可能としている。 </item>
+            <item> 【標注の扱い】標注を提示する際には、<gi>app</gi> をその記述単位として利用し、<att>type</att>="標注"
+              を付与することで情報の性質を明示している。 </item>
+            <item> 【非文字単位・広範囲の注記】文字の配列や条文全体に関する注記など、文字単位の異同として処理できない情報については、<gi>app</gi>
+                の構造を維持しつつ、<gi>note</gi> を用いて内容を記述する。校異の該当範囲が広範にわたる場合は、冒頭語句に <gi>anchor</gi>
+                を配置し、<gi>note</gi> 内で「冒頭語句……末尾語句」と範囲を明記した上で、注記本文を記述する手法を採用している。 </item>
+            <item> 【物品情報の構造化（<gi>measure</gi>
+                等）】物品の数量・寸法を記述するため、<gi>measure</gi>、<gi>measureGrp</gi>、<gi>unit</gi>、<gi>note</gi>
                 等を使用している。<att>ana</att>（納税物区分）、<att>commodity</att>（物品ID）、<att>quantity</att>（数量）、<att>corresp</att>（該当する国・地域）、<att>type</att>（貢納量における規定か実数かの別等）といった属性により、計量情報を定義している。物品名と総量を括る階層構造や、複数の単位を合算する
-                <gi>measureGrp</gi> により、史料の計量記述を論理的に再現している。また、単位（<gi>unit</gi>）については <att>unitRef</att> を用い、<gi>unitDecl</gi>
+                <gi>measureGrp</gi> により、史料の計量記述を論理的に再現している。また、単位（<gi>unit</gi>）については
+                <att>unitRef</att> を用い、<gi>unitDecl</gi>
               で体系的に定義された単位情報と紐付けている。なお、現段階での詳細な実装は巻24と巻23の一部に限定される。 </item>
             <item>【物品数量の換算ルール構造化】巻24に関して、各国からの貢納量を分担人数（丁数）に換算するための換算ルールを構造化した。この換算ルールは1・2条の規定に基づいて定義し、本文テクスト中の物品数量とは独立した情報として<att>type</att>="calculationRule"
-              を指定した <gi>note</gi> を用いて巻24データ内に記述している。記述内容は<att>ana</att> （納税物区分）、<att>target</att>（物品ID）、<att>corresp</att>
-                （該当する国・地域）、<gi>formula</gi> （計算式）、<gi>unit</gi>
+              を指定した <gi>note</gi> を用いて巻24データ内に記述している。記述内容は<att>ana</att>
+                （納税物区分）、<att>target</att>（物品ID）、<att>corresp</att> （該当する国・地域）、<gi>formula</gi>
+                （計算式）、<gi>unit</gi>
               （単位）である。これらの情報を用いることで、物品ID・地域・単位に基づいて各国の貢納量と換算ルールを対応付け、計算式を適用して丁数を算出することが可能である。詳細な処理手順および実装についてはGithub（https://github.com/reki-kodai/engishiki-quantity-conversion）を参照されたい。</item>
           </list>
           <list>
@@ -953,8 +972,10 @@
       </editorialDecl>
       <editorialDecl ana="現代語訳凡例">
         <p ana="全体">
-          <lb/><seg rendition="#hanging-1">・校訂文に基づいて現代語訳を作成しました。条文番号・条文名称および項番号等は校訂文に従っています。原文の細字・割書を〈　〉で括って示すことも校訂文と同様です。</seg>
-          <lb/><seg rendition="#hanging-1">・各条条文番号・条文名にポインターを当てると、条文内容の把握の一助として条文概要がポップアップ表示されます。</seg>
+          <lb/><seg rendition="#hanging-1"
+            >・校訂文に基づいて現代語訳を作成しました。条文番号・条文名称および項番号等は校訂文に従っています。原文の細字・割書を〈　〉で括って示すことも校訂文と同様です。</seg>
+          <lb/><seg rendition="#hanging-1"
+            >・各条条文番号・条文名にポインターを当てると、条文内容の把握の一助として条文概要がポップアップ表示されます。</seg>
           <lb/><seg rendition="#hanging-1"
             >・本文のみで簡便に読み進めていける訳文を目指しました。訳出が困難な語句は原文（校訂文）のまま表示して適宜ルビを付し、補足的な説明を加えましたが、意訳で対応した場合もあります。</seg>
           <lb/><seg rendition="#hanging-1">・校訂文の標注は現代文では省略しています。</seg>
@@ -963,7 +984,8 @@
           <lb/><seg rendition="#indent2_hanging-4">長さ　　1尺＝約29.7㎝　（1丈＝10尺、1尺＝10寸）</seg>
           <lb/><seg rendition="#indent2_hanging-4">距離　　1里＝300歩＝約534ｍ　（1歩＝6尺）</seg>
           <lb/><seg rendition="#indent2_hanging-4">面積　　1町＝約1.2ha　（1町＝10段、1段＝360歩）</seg>
-          <lb/><seg rendition="#indent2_hanging-4">容積　　1升＝約800mℓ＝約0.8ℓ　（1斛＝10斗＝100升、1升＝10合＝100夕）</seg>
+          <lb/><seg rendition="#indent2_hanging-4"
+            >容積　　1升＝約800mℓ＝約0.8ℓ　（1斛＝10斗＝100升、1升＝10合＝100夕）</seg>
           <lb/><seg rendition="#indent2_hanging-4">重さ　　大1斤＝約674グラム　（1斤＝16両、1両＝4分、1分＝6銖）</seg>
           <lb/><seg rendition="#indent6">大1斤＝小3斤</seg>
           <lb/><seg rendition="#indent2_hanging-4">ほか　　稲1束＝10把＝100分＝1000毛＝10000厘</seg>
@@ -981,41 +1003,70 @@
         <rendition xml:id="shu">color: red;</rendition>
         <rendition xml:id="italic">font-style: italic;</rendition>
         <rendition xml:id="indent">display: block; margin: 0; padding-inline-start: 1em;</rendition>
-        <rendition xml:id="indent2">display: block; margin: 0; padding-inline-start: 2em;</rendition>
-        <rendition xml:id="indent3">display: block; margin: 0; padding-inline-start: 3em;</rendition>
-        <rendition xml:id="indent3_5">display: block; margin: 0; padding-inline-start: 3.5em;</rendition>
-        <rendition xml:id="indent4">display: block; margin: 0; padding-inline-start: 4em;</rendition>
-        <rendition xml:id="indent5">display: block; margin: 0; padding-inline-start: 5em;</rendition>
-        <rendition xml:id="indent6">display: block; margin: 0; padding-inline-start: 6em;</rendition>
-        <rendition xml:id="indent7">display: block; margin: 0; padding-inline-start: 7em;</rendition>
-        <rendition xml:id="indent8">display: block; margin: 0; padding-inline-start: 8em;</rendition>
-        <rendition xml:id="indent10">display: block; margin: 0; padding-inline-start: 10em;</rendition>
-        <rendition xml:id="indent11">display: block; margin: 0; padding-inline-start: 11em;</rendition>
-        <rendition xml:id="indent12">display: block; margin: 0; padding-inline-start: 12em;</rendition>
-        <rendition xml:id="indent13">display: block; margin: 0; padding-inline-start: 13em;</rendition>
-        <rendition xml:id="indent14">display: block; margin: 0; padding-inline-start: 14em;</rendition>
-        <rendition xml:id="indent18">display: block; margin: 0; padding-inline-start: 18em;</rendition>
-        <rendition xml:id="hanging-1">display: block; margin: 0; padding-inline-start: 1em; text-indent: -1em;</rendition>
-        <rendition xml:id="hanging-2">display: block; margin: 0; padding-inline-start: 2em; text-indent: -2em;</rendition>
-        <rendition xml:id="hanging-3">display: block; margin: 0; padding-inline-start: 3em; text-indent: -3em;</rendition>
-        <rendition xml:id="indent1_hanging-3"> display: block; margin: 0; padding-inline-start: 4em; text-indent: -3em; </rendition>
-        <rendition xml:id="indent1_hanging-4"> display: block; margin: 0; padding-inline-start: 5em; text-indent: -4em; </rendition>
-        <rendition xml:id="indent1_hanging-5"> display: block; margin: 0; padding-inline-start: 6em; text-indent: -5em; </rendition>
-        <rendition xml:id="indent1_hanging-6"> display: block; margin: 0; padding-inline-start: 7em; text-indent:
-          -6em;</rendition>
-        <rendition xml:id="indent2_hanging-1">display: block; margin: 0; padding-inline-start: 3em; text-indent: -1em;</rendition>
-        <rendition xml:id="indent2_hanging-3">display: block; margin: 0; padding-inline-start: 5em; text-indent: -3em;</rendition>
-        <rendition xml:id="indent2_hanging-4">display: block; margin: 0; padding-inline-start: 6em; text-indent: -4em;</rendition>
-        <rendition xml:id="indent2_hanging-5">display: block; margin: 0; padding-inline-start: 7em; text-indent: -5em;</rendition>
-        <rendition xml:id="indent2_hanging-6">display: block; margin: 0; padding-inline-start: 8em; text-indent: -6em;</rendition>
-        <rendition xml:id="indent2_hanging-7">display: block; margin: 0; padding-inline-start: 9em; text-indent: -7em;</rendition>
-        <rendition xml:id="indent3_hanging-4">display: block; margin: 0; padding-inline-start: 7em; text-indent: -4em;</rendition>
-        <rendition xml:id="indent3_hanging-5">display: block; margin: 0; padding-inline-start: 8em; text-indent: -5em;</rendition>
-        <rendition xml:id="indent4_hanging-5">display: block; margin: 0; padding-inline-start: 9em; text-indent: -5em;</rendition>
-        <rendition xml:id="indent4_hanging-6">display: block; margin: 0; padding-inline-start: 10em; text-indent:
-          -6em;</rendition>
-        <rendition xml:id="indent5_hanging-5">display: block; margin: 0; padding-inline-start: 10em; text-indent:
-          -5em;</rendition>
+        <rendition xml:id="indent2">display: block; margin: 0; padding-inline-start:
+          2em;</rendition>
+        <rendition xml:id="indent3">display: block; margin: 0; padding-inline-start:
+          3em;</rendition>
+        <rendition xml:id="indent3_5">display: block; margin: 0; padding-inline-start:
+          3.5em;</rendition>
+        <rendition xml:id="indent4">display: block; margin: 0; padding-inline-start:
+          4em;</rendition>
+        <rendition xml:id="indent5">display: block; margin: 0; padding-inline-start:
+          5em;</rendition>
+        <rendition xml:id="indent6">display: block; margin: 0; padding-inline-start:
+          6em;</rendition>
+        <rendition xml:id="indent7">display: block; margin: 0; padding-inline-start:
+          7em;</rendition>
+        <rendition xml:id="indent8">display: block; margin: 0; padding-inline-start:
+          8em;</rendition>
+        <rendition xml:id="indent10">display: block; margin: 0; padding-inline-start:
+          10em;</rendition>
+        <rendition xml:id="indent11">display: block; margin: 0; padding-inline-start:
+          11em;</rendition>
+        <rendition xml:id="indent12">display: block; margin: 0; padding-inline-start:
+          12em;</rendition>
+        <rendition xml:id="indent13">display: block; margin: 0; padding-inline-start:
+          13em;</rendition>
+        <rendition xml:id="indent14">display: block; margin: 0; padding-inline-start:
+          14em;</rendition>
+        <rendition xml:id="indent18">display: block; margin: 0; padding-inline-start:
+          18em;</rendition>
+        <rendition xml:id="hanging-1">display: block; margin: 0; padding-inline-start: 1em;
+          text-indent: -1em;</rendition>
+        <rendition xml:id="hanging-2">display: block; margin: 0; padding-inline-start: 2em;
+          text-indent: -2em;</rendition>
+        <rendition xml:id="hanging-3">display: block; margin: 0; padding-inline-start: 3em;
+          text-indent: -3em;</rendition>
+        <rendition xml:id="indent1_hanging-3"> display: block; margin: 0; padding-inline-start: 4em;
+          text-indent: -3em; </rendition>
+        <rendition xml:id="indent1_hanging-4"> display: block; margin: 0; padding-inline-start: 5em;
+          text-indent: -4em; </rendition>
+        <rendition xml:id="indent1_hanging-5"> display: block; margin: 0; padding-inline-start: 6em;
+          text-indent: -5em; </rendition>
+        <rendition xml:id="indent1_hanging-6"> display: block; margin: 0; padding-inline-start: 7em;
+          text-indent: -6em;</rendition>
+        <rendition xml:id="indent2_hanging-1">display: block; margin: 0; padding-inline-start: 3em;
+          text-indent: -1em;</rendition>
+        <rendition xml:id="indent2_hanging-3">display: block; margin: 0; padding-inline-start: 5em;
+          text-indent: -3em;</rendition>
+        <rendition xml:id="indent2_hanging-4">display: block; margin: 0; padding-inline-start: 6em;
+          text-indent: -4em;</rendition>
+        <rendition xml:id="indent2_hanging-5">display: block; margin: 0; padding-inline-start: 7em;
+          text-indent: -5em;</rendition>
+        <rendition xml:id="indent2_hanging-6">display: block; margin: 0; padding-inline-start: 8em;
+          text-indent: -6em;</rendition>
+        <rendition xml:id="indent2_hanging-7">display: block; margin: 0; padding-inline-start: 9em;
+          text-indent: -7em;</rendition>
+        <rendition xml:id="indent3_hanging-4">display: block; margin: 0; padding-inline-start: 7em;
+          text-indent: -4em;</rendition>
+        <rendition xml:id="indent3_hanging-5">display: block; margin: 0; padding-inline-start: 8em;
+          text-indent: -5em;</rendition>
+        <rendition xml:id="indent4_hanging-5">display: block; margin: 0; padding-inline-start: 9em;
+          text-indent: -5em;</rendition>
+        <rendition xml:id="indent4_hanging-6">display: block; margin: 0; padding-inline-start: 10em;
+          text-indent: -6em;</rendition>
+        <rendition xml:id="indent5_hanging-5">display: block; margin: 0; padding-inline-start: 10em;
+          text-indent: -5em;</rendition>
         <rendition xml:id="width50">width: 50px;</rendition>
         <rendition xml:id="width80">width: 80px;</rendition>
         <rendition xml:id="width100">width: 100px;</rendition>
@@ -1027,13 +1078,13 @@
         <rendition xml:id="width500">width: 500px;</rendition>
         <namespace name="http://www.tei-c.org/ns/1.0">
           <tagUsage gi="lb">行構成を保持。定型的な書式を持つ延喜式の記述構造を解析するために必須とする。</tagUsage>
-          <tagUsage gi="table">史料上の多段（段落）表現や、項目間の水平方向の配置を再現するために使用。各 <gi>cell</gi> に付与した <att>rendition</att> （#width
-            等）により、視覚的な間隔や幅を制御する。</tagUsage>
+          <tagUsage gi="table">史料上の多段（段落）表現や、項目間の水平方向の配置を再現するために使用。各 <gi>cell</gi> に付与した
+              <att>rendition</att> （#width 等）により、視覚的な間隔や幅を制御する。</tagUsage>
           <tagUsage gi="seg"
               >史料上の書式（<att>rendition</att>="#indent"等）および朱書き表現（<att>rendition</att>="#shu"）、英訳の音表記（<att>rendition</att>="#italic"）、および英訳注の対象範囲の特定（<att>xml:id</att>）など、複数の視覚・論理表現を属性で制御する。</tagUsage>
           <tagUsage gi="ruby">現代語訳において、漢字の読みを示すために使用。</tagUsage>
-          <tagUsage gi="anchor">校異注の該当範囲（始点・終点）を指定するための空要素。<gi>app</gi> 要素の <att>from</att> および <att>to</att>
-            から参照され、校注範囲を確定させるために使用する。</tagUsage>
+          <tagUsage gi="anchor">校異注の該当範囲（始点・終点）を指定するための空要素。<gi>app</gi> 要素の <att>from</att> および
+              <att>to</att> から参照され、校注範囲を確定させるために使用する。</tagUsage>
           <tagUsage gi="note">校異の詳細説明（<gi>app</gi> 内）、史料上の割注（<gi>measure</gi>
               内）、条文要約（<att>type</att>="summary"）、訳者注（<att>type</att>="translatorsNotes"）、換算ルール（<att>type</att>="calculationRule"）、および典拠データ（<gi>standOff</gi>）における制度上の地域区分（<gi>trait</gi>
               内）に使用。これらは、情報の性質や参照先、出現位置に応じて、<att>place</att>、<att>type</att>、<att>target</att>、<att>ana</att>、<att>corresp</att>
@@ -1042,7 +1093,8 @@
               >物品の数量・寸法等の計量情報を記述するために使用。<gi>measure</gi>を入れ子構造にすることで、物品と数量・単位等の対応関係を階層的に記述する。<att>ana</att>（納税物区分）、<att>commodity</att>（物品ID）、<att>corresp</att>（該当する国・地域）、<att>quantity</att>（数量）等の属性を用いて計量情報を詳細に記述する。また、<att>type</att>には、<val>standard</val>（貢納量の規定）、<val>actual</val>（実数）、<val>conditional</val>（隔年・条件付き等の数量記載）、<val>supplement</val>（寸法・補足的数量情報）を指定する。</tagUsage>
           <tagUsage gi="measureGrp">関連する複数の <gi>measure</gi>
             をグループ化するために使用する。物品に関する法量情報の集合を表現する場合や、複数の単位によって表される数量表現する場合に用いる。</tagUsage>
-          <tagUsage gi="unit">数量の単位（枚、丈、斤、両など）を示す。<att>unitRef</att> を通じてヘッダー内の単位定義（<gi>unitDecl</gi>）と連動させる。</tagUsage>
+          <tagUsage gi="unit">数量の単位（枚、丈、斤、両など）を示す。<att>unitRef</att>
+              を通じてヘッダー内の単位定義（<gi>unitDecl</gi>）と連動させる。</tagUsage>
           <tagUsage gi="placeName">歴史地名。<gi>standOff</gi> 内の典拠情報とリンクし、空間情報の同定を行う。</tagUsage>
           <tagUsage gi="orgName">官司・官職名。<gi>standOff</gi> 内の典拠情報とリンクし、組織構造の同定を行う。</tagUsage>
         </namespace>
@@ -1147,17 +1199,20 @@
         <unitDef type="Cloth_chōfu" xml:id="端_調布">
           <label xml:lang="ja"> 端 </label>
           <label xml:lang="ja-Latn"> tan </label>
-          <desc> 1 tan 端 of chōfu 調布 = (length) 4 jō 丈 2 shaku 尺 × (width) 2 shaku 尺 4 sun 寸 (約 12.5 m × 72 cm) </desc>
+          <desc> 1 tan 端 of chōfu 調布 = (length) 4 jō 丈 2 shaku 尺 × (width) 2 shaku 尺 4 sun 寸 (約 12.5
+            m × 72 cm) </desc>
         </unitDef>
         <unitDef type="Cloth_chōfu" xml:id="段_調布">
           <label xml:lang="ja"> 段 </label>
           <label xml:lang="ja-Latn"> tan </label>
-          <desc> 1 tan 段 of chōfu 調布 = (length) 4 jō 丈 2 shaku 尺 × (width) 2 shaku 尺 4 sun 寸 (約 12.5 m × 72 cm) </desc>
+          <desc> 1 tan 段 of chōfu 調布 = (length) 4 jō 丈 2 shaku 尺 × (width) 2 shaku 尺 4 sun 寸 (約 12.5
+            m × 72 cm) </desc>
         </unitDef>
         <unitDef type="Cloth_yōfu" xml:id="段_庸布">
           <label xml:lang="ja"> 段 </label>
           <label xml:lang="ja-Latn"> tan </label>
-          <desc> 1 tan 段 of yōfu 庸布 = (length) 2 jō 丈 8 shaku 尺 × (width) 2 shaku 尺 4 sun 寸 (約 8.3 m × 72 cm) </desc>
+          <desc> 1 tan 段 of yōfu 庸布 = (length) 2 jō 丈 8 shaku 尺 × (width) 2 shaku 尺 4 sun 寸 (約 8.3 m
+            × 72 cm) </desc>
         </unitDef>
         <unitDef type="Cloth_shōfu" xml:id="段_商布">
           <label xml:lang="ja"> 段 </label>
@@ -1331,16 +1386,18 @@
         <div type="首題" xml:id="shudai32">
           <p xml:id="shudai3201"> 延喜式巻第三二 </p>
         </div>
-        <div ana="大膳上" corresp="engishiki_v32.xml#protocol321 engishiki_v32_en.xml#protocol321" n="32" type="式"
-          xml:id="protocol321">
+        <div ana="大膳上" corresp="engishiki_v32.xml#protocol321 engishiki_v32_en.xml#protocol321"
+          n="32" type="式" xml:id="protocol321">
           <div type="式題" xml:id="shikidai321">
             <p xml:id="shikidai32101"> 大膳上 </p>
           </div>
-          <div ana="大膳上" corresp="engishiki_v32.xml#article321001 engishiki_v32_en.xml#article321001" n="32.1" type="条"
-            xml:id="article321001">
+          <div ana="大膳上"
+            corresp="engishiki_v32.xml#article321001 engishiki_v32_en.xml#article321001" n="32.1"
+            type="条" xml:id="article321001">
             <head ana="四祭春料"/>
             <note type="summary"> 大膳職の祭祀で用意する物品・食材 </note>
-            <p ana="項" corresp="engishiki_v32.xml#item32100101 engishiki_v32_en.xml#item32100101" xml:id="item32100101"><ruby>
+            <p ana="項" corresp="engishiki_v32.xml#item32100101 engishiki_v32_en.xml#item32100101"
+              xml:id="item32100101"><ruby>
                 <rb> 御膳神 </rb>
                 <rt place="right"> みけつかみ </rt>
               </ruby> 八座 <lb/> 青・赤・黄・白・黒の五色の <ruby>
@@ -1390,7 +1447,8 @@
               </ruby> 五尺〈 <ruby>
                 <rb> 蓋 </rb>
                 <rt place="right"> きぬがさ </rt>
-              </ruby> の材料〉、鍬一口、白米三斗、モチ米一斗、大豆・小豆それぞれ三升、酒一斗、塩六升、種々のアワビ二斤、カツオ・干しナマコ・丸干しの品それぞれ六斤、種々のなれ鮨一六斤、塩煮のアユ一二斤、ワカメ四斤、祝史の着衣に用いる <ruby>
+              </ruby>
+              の材料〉、鍬一口、白米三斗、モチ米一斗、大豆・小豆それぞれ三升、酒一斗、塩六升、種々のアワビ二斤、カツオ・干しナマコ・丸干しの品それぞれ六斤、種々のなれ鮨一六斤、塩煮のアユ一二斤、ワカメ四斤、祝史の着衣に用いる <ruby>
                 <rb> 商布 </rb>
                 <rt place="right"> しょうふ </rt>
               </ruby> 二段。 <lb/>
@@ -1410,11 +1468,13 @@
                 </ruby> の日に祭れ。 </seg>
             </p>
           </div>
-          <div ana="大膳上" corresp="engishiki_v32.xml#article321002 engishiki_v32_en.xml#article321002" n="32.2" type="条"
-            xml:id="article321002">
+          <div ana="大膳上"
+            corresp="engishiki_v32.xml#article321002 engishiki_v32_en.xml#article321002" n="32.2"
+            type="条" xml:id="article321002">
             <head ana="神今食"/>
             <note type="summary"> 神今食で用意する物品・食材 </note>
-            <p ana="項" corresp="engishiki_v32.xml#item32100201 engishiki_v32_en.xml#item32100201" xml:id="item32100201"> 六月の <ruby>
+            <p ana="項" corresp="engishiki_v32.xml#item32100201 engishiki_v32_en.xml#item32100201"
+              xml:id="item32100201"> 六月の <ruby>
                 <rb> 神今食 </rb>
                 <rt place="right"> かんいまけ </rt>
               </ruby> 。十二月もこれに準じよ。 <lb/>
@@ -1452,11 +1512,13 @@
               九両、サバ三両、ワカメ二両、野菜の漬け物二合。六位以下一人あたりに醤五夕、塩五夕、東アワビ二両、カツオ一両、干しナマコ二両、サバ一両、なれ鮨七両、ワカメ二両、野菜の漬け物二合〈皇后宮の小斎のうち六位官人以下で采女以上となる総計六八人の食事の規定もこれに準じる〉。カシワの葉三俵、箸用の竹八〇株。
             </p>
           </div>
-          <div ana="大膳上" corresp="engishiki_v32.xml#article321003 engishiki_v32_en.xml#article321003" n="32.3" type="条"
-            xml:id="article321003">
+          <div ana="大膳上"
+            corresp="engishiki_v32.xml#article321003 engishiki_v32_en.xml#article321003" n="32.3"
+            type="条" xml:id="article321003">
             <head ana="鎮魂"/>
             <note type="summary"> 鎮魂祭で用意する物品・食材 </note>
-            <p ana="項" corresp="engishiki_v32.xml#item32100301 engishiki_v32_en.xml#item32100301" xml:id="item32100301"><ruby>
+            <p ana="項" corresp="engishiki_v32.xml#item32100301 engishiki_v32_en.xml#item32100301"
+              xml:id="item32100301"><ruby>
                 <rb> 鎮魂祭 </rb>
                 <rt place="right"> ちんこんさい </rt>
               </ruby> 〈皇后宮・ <ruby>
@@ -1517,12 +1579,13 @@
                 </ruby> が用意し、神祇官とともに供えよ。 </seg>
             </p>
           </div>
-          <div ana="大膳上" corresp="engishiki_v32.xml#article321004 engishiki_v32_en.xml#article321004" n="32.4" type="条"
-            xml:id="article321004">
+          <div ana="大膳上"
+            corresp="engishiki_v32.xml#article321004 engishiki_v32_en.xml#article321004" n="32.4"
+            type="条" xml:id="article321004">
             <head ana="雑給料"/>
             <note type="summary"> 鎮魂祭で官人に支給する食事に用いる食材等 </note>
-            <p ana="項" corresp="engishiki_v32.xml#item32100401 engishiki_v32_en.xml#item32100401" xml:id="item32100401">
-              官人に支給する食事に用いる食材・物品 <lb/> 参議以上 <lb/> 一人あたりにモチ米一升四合、大豆一合八夕七撮、 <ruby>
+            <p ana="項" corresp="engishiki_v32.xml#item32100401 engishiki_v32_en.xml#item32100401"
+              xml:id="item32100401"> 官人に支給する食事に用いる食材・物品 <lb/> 参議以上 <lb/> 一人あたりにモチ米一升四合、大豆一合八夕七撮、 <ruby>
                 <rb> 小豆 </rb>
                 <rt place="right "> あずき </rt>
               </ruby> 二合八夕、料理酒一合、酢四夕、 <ruby>
@@ -1562,15 +1625,16 @@
                 <rb> 橘 </rb>
                 <rt place="right"> たちばな </rt>
               </ruby> の実三三顆、コウゾの紐二分四銖。 </p>
-            <p ana="項" corresp="engishiki_v32.xml#item32100402 engishiki_v32_en.xml#item32100402" xml:id="item32100402"> 五位以上三〇人
-              <lb/>
+            <p ana="項" corresp="engishiki_v32.xml#item32100402 engishiki_v32_en.xml#item32100402"
+              xml:id="item32100402"> 五位以上三〇人 <lb/>
               一人あたりにモチ米七合五夕、大豆七夕、小豆一合五夕、料理酒三夕、酢一合、醤二合、塩二合九夕、東アワビ一両二分、隠岐のアワビ四両二分、カツオ二両一分二銖、イカ二両、干しナマコ三両二分、サヨリ五両、サケ半尾、種々の魚の細割きの干物三両、カツオの <ruby>
                 <rb> 煎汁 </rb>
                 <rt place="right"> いろり </rt>
               </ruby>
               一両一分、なれ鮨二斤四両、丸干しの品一〇両、紫菜・海松それぞれ三分、ワカメ二両、野菜の漬け物二合、蒜房の漬け物・蒜英の漬け物・ニラの搗漬けそれぞれ二合、滓醤二合、生栗五合、干してむき身にした搗ち栗二合五夕、干し柿一合五夕、橘の実一五顆、コウゾの紐二分四銖。 </p>
-            <p ana="項" corresp="engishiki_v32.xml#item32100403 engishiki_v32_en.xml#item32100403" xml:id="item32100403"> 六位以下二六〇人
-              <lb/> 一人あたりにモチ米六合七夕、大豆四夕七撮、小豆六夕、醤五夕、塩一合七夕、東アワビ二両、カツオ二両一分二銖、なれ鮨二両、サバ三両二分、ワカメ二両、野菜の漬け物二合、生栗三合、橘の実五顆。 <ruby>
+            <p ana="項" corresp="engishiki_v32.xml#item32100403 engishiki_v32_en.xml#item32100403"
+              xml:id="item32100403"> 六位以下二六〇人 <lb/>
+              一人あたりにモチ米六合七夕、大豆四夕七撮、小豆六夕、醤五夕、塩一合七夕、東アワビ二両、カツオ二両一分二銖、なれ鮨二両、サバ三両二分、ワカメ二両、野菜の漬け物二合、生栗三合、橘の実五顆。 <ruby>
                 <rb> 麁筥 </rb>
                 <rt place="right"> あらはこ </rt>
               </ruby> 一五合〈食事をいれる筥九合、果物・菓子をいれる筥四合、 <ruby>
@@ -1595,7 +1659,8 @@
                 <rb> 筥坏 </rb>
                 <rt place="right"> はこつき </rt>
               </ruby> 二三〇口〈参議以上は一人あたり八口、五位以上は一人あたり五口〉。 </p>
-            <p ana="項" corresp="engishiki_v32.xml#item32100404 engishiki_v32_en.xml#item32100404" xml:id="item32100404">
+            <p ana="項" corresp="engishiki_v32.xml#item32100404 engishiki_v32_en.xml#item32100404"
+              xml:id="item32100404">
               <seg rendition="#indent"> 以上、 <ruby>
                   <rb> 鎮魂祭 </rb>
                   <rt place="right"> ちんこんさい </rt>
@@ -1608,11 +1673,13 @@
                 </ruby> が用意する〉。 </seg>
             </p>
           </div>
-          <div ana="大膳上" corresp="engishiki_v32.xml#article321005 engishiki_v32_en.xml#article321005" n="32.5" type="条"
-            xml:id="article321005">
+          <div ana="大膳上"
+            corresp="engishiki_v32.xml#article321005 engishiki_v32_en.xml#article321005" n="32.5"
+            type="条" xml:id="article321005">
             <head ana="新嘗祭"/>
             <note type="summary"> 新嘗祭の神事で用意する物品・食材 </note>
-            <p ana="項" corresp="engishiki_v32.xml#item32100501 engishiki_v32_en.xml#item32100501" xml:id="item32100501"><ruby>
+            <p ana="項" corresp="engishiki_v32.xml#item32100501 engishiki_v32_en.xml#item32100501"
+              xml:id="item32100501"><ruby>
                 <rb> 新嘗祭 </rb>
                 <rt place="right"> なめにいさい </rt>
               </ruby><lb/><ruby>
@@ -1654,7 +1721,8 @@
               </ruby> の漬け物それぞれ二合、野菜の漬け物一合、ニラの <ruby>
                 <rb> 搗漬 </rb>
                 <rt place="right"> かちづ </rt>
-              </ruby> け二合。 <lb/> 六位以下は一人あたりに、醤五夕、塩五夕、東アワビ七両、干しナマコ・丸干しの品それぞれ五両、ワカメ四両、なれ鮨六両、ニラの搗漬け五夕、野菜の漬け物一合。 <lb/>
+              </ruby> け二合。 <lb/>
+              六位以下は一人あたりに、醤五夕、塩五夕、東アワビ七両、干しナマコ・丸干しの品それぞれ五両、ワカメ四両、なれ鮨六両、ニラの搗漬け五夕、野菜の漬け物一合。 <lb/>
               <seg rendition="#indent"> 以上、新嘗祭の神事で用意する物品・食材は前記の通りとせよ。男官は <ruby>
                   <rb> 辰 </rb>
                   <rt place="right"> たつ </rt>
@@ -1664,11 +1732,13 @@
                 </ruby> の日の夕方と辰の日の朝方に支給せよ。 </seg>
             </p>
           </div>
-          <div ana="大膳上" corresp="engishiki_v32.xml#article321006 engishiki_v32_en.xml#article321006" n="32.6" type="条"
-            xml:id="article321006">
+          <div ana="大膳上"
+            corresp="engishiki_v32.xml#article321006 engishiki_v32_en.xml#article321006" n="32.6"
+            type="条" xml:id="article321006">
             <head ana="新嘗小斎解斎"/>
             <note type="summary"> 新嘗祭の斎戒を解く宴会で小斎に支給する食材 </note>
-            <p ana="項" corresp="engishiki_v32.xml#item32100601 engishiki_v32_en.xml#item32100601" xml:id="item32100601"> 同じく <ruby>
+            <p ana="項" corresp="engishiki_v32.xml#item32100601 engishiki_v32_en.xml#item32100601"
+              xml:id="item32100601"> 同じく <ruby>
                 <rb> 新嘗祭 </rb>
                 <rt place="right"> にいなめさい </rt>
               </ruby> の神事の後に供奉していた <ruby>
@@ -1708,11 +1778,13 @@
                 </ruby> の庁舎にて支給せよ。 </seg>
             </p>
           </div>
-          <div ana="大膳上" corresp="engishiki_v32.xml#article321007 engishiki_v32_en.xml#article321007" n="32.7" type="条"
-            xml:id="article321007">
+          <div ana="大膳上"
+            corresp="engishiki_v32.xml#article321007 engishiki_v32_en.xml#article321007" n="32.7"
+            type="条" xml:id="article321007">
             <head ana="皇后宮新嘗祭"/>
             <note type="summary"> 皇后宮の新嘗祭の小斎に支給する食材 </note>
-            <p ana="項" corresp="engishiki_v32.xml#item32100701 engishiki_v32_en.xml#item32100701" xml:id="item32100701"> 同じく <ruby>
+            <p ana="項" corresp="engishiki_v32.xml#item32100701 engishiki_v32_en.xml#item32100701"
+              xml:id="item32100701"> 同じく <ruby>
                 <rb> 新嘗祭 </rb>
                 <rt place="right"> にいなめさい </rt>
               </ruby> に供奉する皇后宮の <ruby>
@@ -1772,13 +1844,16 @@
               </ruby> 以上四六人〉。 <lb/> 五位一人に、醤五夕、塩一合二夕、東アワビ二両二分、干しナマコ四両、イカ一斤八両、 <ruby>
                 <rb> 隠v </rb>
                 <rt place="right"> おき </rt>
-              </ruby> のアワビ四両、魚の細割きの干物五両、ワカメ一一両。 <lb/> 六位以下は一人あたりに、醤五夕、塩一合二夕、東アワビ二両三分、サバ三両二分、ワカメ一一両。 </p>
+              </ruby> のアワビ四両、魚の細割きの干物五両、ワカメ一一両。 <lb/> 六位以下は一人あたりに、醤五夕、塩一合二夕、東アワビ二両三分、サバ三両二分、ワカメ一一両。
+            </p>
           </div>
-          <div ana="大膳上" corresp="engishiki_v32.xml#article321008 engishiki_v32_en.xml#article321008" n="32.8" type="条"
-            xml:id="article321008">
+          <div ana="大膳上"
+            corresp="engishiki_v32.xml#article321008 engishiki_v32_en.xml#article321008" n="32.8"
+            type="条" xml:id="article321008">
             <head ana="宴会雑給"/>
             <note type="summary"> 豊明節会等の節会の宴会で親王以下に支給する食材・物品 </note>
-            <p ana="項" corresp="engishiki_v32.xml#item32100801 engishiki_v32_en.xml#item32100801" xml:id="item32100801"> 宴会で親王以下の <ruby>
+            <p ana="項" corresp="engishiki_v32.xml#item32100801 engishiki_v32_en.xml#item32100801"
+              xml:id="item32100801"> 宴会で親王以下の <ruby>
                 <rb> 節会 </rb>
                 <rt place="right"> せちえ </rt>
               </ruby> 参加者に支給する食材・物品 <lb/> 親王以下三位以上ならびに四位の参議 <lb/> 一人あたりの菓子の材料は <ruby>
@@ -1830,13 +1905,15 @@
                 <rb> 橘 </rb>
                 <rt place="right"> たちばな </rt>
               </ruby> の実一〇個。 </p>
-            <p ana="項" corresp="engishiki_v32.xml#item32100802 engishiki_v32_en.xml#item32100802" xml:id="item32100802"> 四位・五位ならびに <ruby>
+            <p ana="項" corresp="engishiki_v32.xml#item32100802 engishiki_v32_en.xml#item32100802"
+              xml:id="item32100802"> 四位・五位ならびに <ruby>
                 <rb> 命婦 </rb>
                 <rt place="right"> みょうぶ </rt>
               </ruby>
               <lb/>
               一人あたりの菓子の材料は粳米・モチ米それぞれ四合、モチ米の糒一合、糖一合五夕、小麦二合、大豆・小豆それぞれ一合、ゴマ一合、油一合、料理酒・酢それぞれ四夕、醤一合。塩二合、豉一夕、東アワビ・隠岐のアワビ・カツオ・イカ・干しナマコそれぞれ一両、縄貫アワビ一両、押アユ二両、サヨリ二両二分、種々の魚の切り身の干物・細割きの干物それぞれ三両一分、種々の魚・なれ鮨それぞれ四両、紫菜一分、ワカメ二両、サケ六分の一尾、丸干しの品一斤、生栗五合、干してむき身にした搗ち栗・椎の実それぞれ二合、橘の実五個。 </p>
-            <p ana="項" corresp="engishiki_v32.xml#item32100803 engishiki_v32_en.xml#item32100803" xml:id="item32100803"><ruby>
+            <p ana="項" corresp="engishiki_v32.xml#item32100803 engishiki_v32_en.xml#item32100803"
+              xml:id="item32100803"><ruby>
                 <rb> 大歌 </rb>
                 <rt place="right"> おおうた </rt>
               </ruby> ・ <ruby>
@@ -1847,7 +1924,8 @@
                 <rb> 主典 </rb>
                 <rt place="right"> さかん </rt>
               </ruby> 以上の食事の規定もこれに準じる〉。 </p>
-            <p ana="項" corresp="engishiki_v32.xml#item32100804 engishiki_v32_en.xml#item32100804" xml:id="item32100804"><ruby>
+            <p ana="項" corresp="engishiki_v32.xml#item32100804 engishiki_v32_en.xml#item32100804"
+              xml:id="item32100804"><ruby>
                 <rb> 国栖 </rb>
                 <rt place="right"> くず </rt>
               </ruby> ・ <ruby>
@@ -1894,7 +1972,8 @@
                 <rb> 料理所 </rb>
                 <rt place="right"> つくりどころ </rt>
               </ruby> の灯明油四升。 </p>
-            <p ana="項" corresp="engishiki_v32.xml#item32100805 engishiki_v32_en.xml#item32100805" xml:id="item32100805">
+            <p ana="項" corresp="engishiki_v32.xml#item32100805 engishiki_v32_en.xml#item32100805"
+              xml:id="item32100805">
               <seg rendition="#indent"> 以上、 <ruby>
                   <rb> 豊明節会 </rb>
                   <rt place="right"> とよあかりのせちえ </rt>
@@ -1904,11 +1983,13 @@
                 </ruby> 。 </seg>
             </p>
           </div>
-          <div ana="大膳上" corresp="engishiki_v32.xml#article321009 engishiki_v32_en.xml#article321009" n="32.9" type="条"
-            xml:id="article321009">
+          <div ana="大膳上"
+            corresp="engishiki_v32.xml#article321009 engishiki_v32_en.xml#article321009" n="32.9"
+            type="条" xml:id="article321009">
             <head ana="園韓神雑給料"/>
             <note type="summary"> 園・韓神祭で官人に支給する食材・物品 </note>
-            <p ana="項" corresp="engishiki_v32.xml#item32100901 engishiki_v32_en.xml#item32100901" xml:id="item32100901"><ruby>
+            <p ana="項" corresp="engishiki_v32.xml#item32100901 engishiki_v32_en.xml#item32100901"
+              xml:id="item32100901"><ruby>
                 <rb> 園 </rb>
                 <rt place="right"> その </rt>
               </ruby> ・ <ruby>
@@ -1945,8 +2026,8 @@
                 <rb> 煎汁 </rb>
                 <rt place="right"> いろり </rt>
               </ruby> 一升四合、ワカメ二三斤、カラシ一升四合。 </p>
-            <p ana="項" corresp="engishiki_v32.xml#item32100902 engishiki_v32_en.xml#item32100902" xml:id="item32100902">
-              食膳台六脚、覆い布・敷き布に用いる麻のさらし一二枚〈覆い布は長さそれぞれ六尺、敷き布は長さそれぞれ五尺〉、曲げ物 <ruby>
+            <p ana="項" corresp="engishiki_v32.xml#item32100902 engishiki_v32_en.xml#item32100902"
+              xml:id="item32100902"> 食膳台六脚、覆い布・敷き布に用いる麻のさらし一二枚〈覆い布は長さそれぞれ六尺、敷き布は長さそれぞれ五尺〉、曲げ物 <ruby>
                 <rb> 櫃 </rb>
                 <rt place="right"> ひつ </rt>
               </ruby> 六〇合、敷き布に用いる <ruby>
@@ -1980,7 +2061,8 @@
                 <rb> 食薦 </rb>
                 <rt place="right"> すごも </rt>
               </ruby> 五〇枚、ユズリハ五担。 </p>
-            <p ana="項" corresp="engishiki_v32.xml#item32100903 engishiki_v32_en.xml#item32100903" xml:id="item32100903"><ruby>
+            <p ana="項" corresp="engishiki_v32.xml#item32100903 engishiki_v32_en.xml#item32100903"
+              xml:id="item32100903"><ruby>
                 <rb> 蒜 </rb>
                 <rt place="right"> ひる </rt>
               </ruby> 一斗、ネギ二斗、ダイコン五〇把、 <ruby>
@@ -2007,7 +2089,8 @@
               </ruby> が貢進する〉。竹四〇株〈 <ruby>
                 <rb> 山城国 </rb>
                 <rt place="right"> やましろのくに </rt>
-              </ruby> が貢進する〉。鮮魚は代価を充てて購入せよ〈鮮魚・果物や菓子の代価は布六端。その他の諸祭の同じ品に購入代価の布の数量を注記していない場合はすべてこれにならう〉。 <ruby>
+              </ruby>
+              が貢進する〉。鮮魚は代価を充てて購入せよ〈鮮魚・果物や菓子の代価は布六端。その他の諸祭の同じ品に購入代価の布の数量を注記していない場合はすべてこれにならう〉。 <ruby>
                 <rb> 糖 </rb>
                 <rt place="right"> あめ </rt>
               </ruby> 八升、 <ruby>
@@ -2021,11 +2104,13 @@
                 <rt place="right"> さどぬの </rt>
               </ruby> は一人あたり二丈一尺。 </p>
           </div>
-          <div ana="大膳上" corresp="engishiki_v32.xml#article321010 engishiki_v32_en.xml#article321010" n="32.10" type="条"
-            xml:id="article321010">
+          <div ana="大膳上"
+            corresp="engishiki_v32.xml#article321010 engishiki_v32_en.xml#article321010" n="32.10"
+            type="条" xml:id="article321010">
             <head ana="平野雑給料"/>
             <note type="summary"> 平野の夏の祭で官人に支給する食材・物品と労働力 </note>
-            <p ana="項" corresp="engishiki_v32.xml#item32101001 engishiki_v32_en.xml#item32101001" xml:id="item32101001"><ruby>
+            <p ana="項" corresp="engishiki_v32.xml#item32101001 engishiki_v32_en.xml#item32101001"
+              xml:id="item32101001"><ruby>
                 <rb> 平野 </rb>
                 <rt place="right"> ひらの </rt>
               </ruby> の夏の祭で官人に支給する食材・物品 <lb/> 白米一斛三斗四升〈冬は五斗八升を加える〉、モチ米一斛二斗八升〈冬は四斗二升を加える〉、モチ米の <ruby>
@@ -2037,11 +2122,13 @@
               </ruby> それぞれ一斗四升〈冬はそれぞれ三升を加える〉、小麦二斗六升〈冬は八升を加える〉、大豆二斗三升〈冬は七升を加える〉、 <ruby>
                 <rb> 小豆 </rb>
                 <rt place="right"> あずき </rt>
-              </ruby> 二斗六升〈冬は八升を加える〉、ゴマ二斗二升四合〈冬は七升六合を加える〉、ゴマ油二斗二升〈冬は一斗二升を加える〉、料理酒四斗〈冬も同じ〉、酢一斗三升四合〈冬は六升一合を加える〉、 <ruby>
+              </ruby>
+              二斗六升〈冬は八升を加える〉、ゴマ二斗二升四合〈冬は七升六合を加える〉、ゴマ油二斗二升〈冬は一斗二升を加える〉、料理酒四斗〈冬も同じ〉、酢一斗三升四合〈冬は六升一合を加える〉、 <ruby>
                 <rb> 醤 </rb>
                 <rt place="right"> ひしお </rt>
               </ruby> 三斗〈冬は九升減らす〉、塩四斗八升〈冬は一斗七升を加える〉。 </p>
-            <p ana="項" corresp="engishiki_v32.xml#item32101002 engishiki_v32_en.xml#item32101002" xml:id="item32101002"><ruby>
+            <p ana="項" corresp="engishiki_v32.xml#item32101002 engishiki_v32_en.xml#item32101002"
+              xml:id="item32101002"><ruby>
                 <rb> 東 </rb>
                 <rt place="right"> あずま </rt>
               </ruby> アワビ六〇斤一二両〈冬は四三斤一四両を加える〉、 <ruby>
@@ -2060,8 +2147,10 @@
               </ruby> 二六〇斤〈冬は四〇斤を加える〉、カツオの <ruby>
                 <rb> 煎汁 </rb>
                 <rt place="right"> いろり </rt>
-              </ruby> 七瓶〈一瓶あたり五合。冬は三瓶を加える〉、ワカメ四八斤六両〈冬は一二斤を加える〉、カラシ二升〈冬は五合を加える〉、生野菜三斛〈冬も同じ〉、サンショウの漬け物一斗〈冬も同じ〉。 </p>
-            <p ana="項" corresp="engishiki_v32.xml#item32101003 engishiki_v32_en.xml#item32101003" xml:id="item32101003">
+              </ruby>
+              七瓶〈一瓶あたり五合。冬は三瓶を加える〉、ワカメ四八斤六両〈冬は一二斤を加える〉、カラシ二升〈冬は五合を加える〉、生野菜三斛〈冬も同じ〉、サンショウの漬け物一斗〈冬も同じ〉。 </p>
+            <p ana="項" corresp="engishiki_v32.xml#item32101003 engishiki_v32_en.xml#item32101003"
+              xml:id="item32101003">
               食膳台一〇脚〈冬は五脚を加える〉、覆い布・敷き布に用いる麻のさらし二〇枚〈覆い布は長さそれぞれ六尺、敷き布は長さそれぞれ五尺〉、上・中の曲げ物 <ruby>
                 <rb> 櫃 </rb>
                 <rt place="right"> ひつ </rt>
@@ -2113,13 +2202,16 @@
               </ruby> ・ <ruby>
                 <rb> 襅 </rb>
                 <rt place="right"> ちはや </rt>
-              </ruby> に用いる商布は一人あたり九尺〈冬は八人分を加える〉、労役に従事する雇用人延べ五〇人に支給する玄米は一人あたり一日に二升、塩二夕、賃金〈その時々の適正額に随う〉。 </p>
+              </ruby>
+              に用いる商布は一人あたり九尺〈冬は八人分を加える〉、労役に従事する雇用人延べ五〇人に支給する玄米は一人あたり一日に二升、塩二夕、賃金〈その時々の適正額に随う〉。 </p>
           </div>
-          <div ana="大膳上" corresp="engishiki_v32.xml#article321011 engishiki_v32_en.xml#article321011" n="32.11" type="条"
-            xml:id="article321011">
+          <div ana="大膳上"
+            corresp="engishiki_v32.xml#article321011 engishiki_v32_en.xml#article321011" n="32.11"
+            type="条" xml:id="article321011">
             <head ana="斎院給食料"/>
             <note type="summary"> 賀茂祭で斎院に近侍する官人に支給する食材・物品と労働力 </note>
-            <p ana="項" corresp="engishiki_v32.xml#item32101101 engishiki_v32_en.xml#item32101101" xml:id="item32101101"><ruby>
+            <p ana="項" corresp="engishiki_v32.xml#item32101101 engishiki_v32_en.xml#item32101101"
+              xml:id="item32101101"><ruby>
                 <rb> 賀茂祭 </rb>
                 <rt place="right"> かもさい </rt>
               </ruby> で斎王に近侍する官人等に支給する食材 <lb/>
@@ -2179,11 +2271,13 @@
                 <rt place="right"> きょうしき </rt>
               </ruby> が動員する〉、玄米一斗八升〈雑務従事者の食事用〉。 </p>
           </div>
-          <div ana="大膳上" corresp="engishiki_v32.xml#article321012 engishiki_v32_en.xml#article321012" n="32.12" type="条"
-            xml:id="article321012">
+          <div ana="大膳上"
+            corresp="engishiki_v32.xml#article321012 engishiki_v32_en.xml#article321012" n="32.12"
+            type="条" xml:id="article321012">
             <head ana="斎院別当以下"/>
             <note type="summary"> 賀茂祭で斎院司別当以下の四人に支給する食材・物品と労働力 </note>
-            <p ana="項" corresp="engishiki_v32.xml#item32101201 engishiki_v32_en.xml#item32101201" xml:id="item32101201"><ruby>
+            <p ana="項" corresp="engishiki_v32.xml#item32101201 engishiki_v32_en.xml#item32101201"
+              xml:id="item32101201"><ruby>
                 <rb> 賀茂祭 </rb>
                 <rt place="right"> かもさい </rt>
               </ruby> で <ruby>
@@ -2229,12 +2323,13 @@
                 <rt place="right"> きょうしき </rt>
               </ruby> が動員する〉、玄米四升八合、塩四夕八撮、醤の絞り滓四合〈すべて雑務従事者の食事用〉。 </p>
           </div>
-          <div ana="大膳上" corresp="engishiki_v32.xml#article321013 engishiki_v32_en.xml#article321013" n="32.13" type="条"
-            xml:id="article321013">
+          <div ana="大膳上"
+            corresp="engishiki_v32.xml#article321013 engishiki_v32_en.xml#article321013" n="32.13"
+            type="条" xml:id="article321013">
             <head ana="春日雑給料"/>
             <note type="summary"> 春日祭で官人に支給する食材・物品 </note>
-            <p ana="項" corresp="engishiki_v32.xml#item32101301 engishiki_v32_en.xml#item32101301" xml:id="item32101301">
-              春日祭で官人に支給する食材・物品〈春・冬すべて同じ〉 <lb/> 白米二斛〈五斗は <ruby>
+            <p ana="項" corresp="engishiki_v32.xml#item32101301 engishiki_v32_en.xml#item32101301"
+              xml:id="item32101301"> 春日祭で官人に支給する食材・物品〈春・冬すべて同じ〉 <lb/> 白米二斛〈五斗は <ruby>
                 <rb> 贄 </rb>
                 <rt place="right"> にえ </rt>
               </ruby> を届ける使者の食事に用いる、一斛は調理を担当する <ruby>
@@ -2323,11 +2418,13 @@
                 <rt place="right"> しょうふ </rt>
               </ruby> 六段。 </p>
           </div>
-          <div ana="大膳上" corresp="engishiki_v32.xml#article321014 engishiki_v32_en.xml#article321014" n="32.14" type="条"
-            xml:id="article321014">
+          <div ana="大膳上"
+            corresp="engishiki_v32.xml#article321014 engishiki_v32_en.xml#article321014" n="32.14"
+            type="条" xml:id="article321014">
             <head ana="大原野雑給料"/>
             <note type="summary"> 大原野祭で官人に支給する食材・物品 </note>
-            <p ana="項" corresp="engishiki_v32.xml#item32101401 engishiki_v32_en.xml#item32101401" xml:id="item32101401"><ruby>
+            <p ana="項" corresp="engishiki_v32.xml#item32101401 engishiki_v32_en.xml#item32101401"
+              xml:id="item32101401"><ruby>
                 <rb> 大原野祭 </rb>
                 <rt place="right"> おおはらのさい </rt>
               </ruby> で官人に支給する食材・物品 <lb/>
@@ -2352,11 +2449,13 @@
                 </ruby> 五一四口、炭三斛、薪三六〇斤を加えよ。 </seg>
             </p>
           </div>
-          <div ana="大膳上" corresp="engishiki_v32.xml#article321015 engishiki_v32_en.xml#article321015" n="32.15" type="条"
-            xml:id="article321015">
+          <div ana="大膳上"
+            corresp="engishiki_v32.xml#article321015 engishiki_v32_en.xml#article321015" n="32.15"
+            type="条" xml:id="article321015">
             <head ana="松尾雑給料"/>
             <note type="summary"> 松尾祭で官人に支給する物品・食材 </note>
-            <p ana="項" corresp="engishiki_v32.xml#item32101501 engishiki_v32_en.xml#item32101501" xml:id="item32101501"><ruby>
+            <p ana="項" corresp="engishiki_v32.xml#item32101501 engishiki_v32_en.xml#item32101501"
+              xml:id="item32101501"><ruby>
                 <rb> 松尾祭 </rb>
                 <rt place="right"> まつのおさい </rt>
               </ruby> で官人に支給する物品・食材 <lb/> 曲げ物 <ruby>
@@ -2416,7 +2515,8 @@
               </ruby> 二〇四口〈机ごとに六口、曲げ物櫃ごとに四口〉、 <ruby>
                 <rb> 平坏 </rb>
                 <rt place="right"> ひらつき </rt>
-              </ruby> 三〇〇口〈曲げ物櫃ごとに八口〉、箸用の竹五〇株、調布三端〈生鮮品と種々の菓子に用いる〉、モチ米四斗二升〈机ごとに一升、曲げ物櫃ごとに八合〉、白米二斗六升一合〈菓子の材料。机ごとに六合、曲げ物櫃ごとに五合〉、大豆・ <ruby>
+              </ruby>
+              三〇〇口〈曲げ物櫃ごとに八口〉、箸用の竹五〇株、調布三端〈生鮮品と種々の菓子に用いる〉、モチ米四斗二升〈机ごとに一升、曲げ物櫃ごとに八合〉、白米二斗六升一合〈菓子の材料。机ごとに六合、曲げ物櫃ごとに五合〉、大豆・ <ruby>
                 <rb> 小豆 </rb>
                 <rt place="right"> あずき </rt>
               </ruby> それぞれ一斗、ゴマ一斗、小麦六升、モチ米の <ruby>
@@ -2439,11 +2539,13 @@
                 <rt place="right"> おおけ </rt>
               </ruby> 四三合、カシワ葉で包んだご飯一二〇口、および臨時支給の特別食に用いる〉。 </p>
           </div>
-          <div ana="大膳上" corresp="engishiki_v32.xml#article321016 engishiki_v32_en.xml#article321016" n="32.16" type="条"
-            xml:id="article321016">
+          <div ana="大膳上"
+            corresp="engishiki_v32.xml#article321016 engishiki_v32_en.xml#article321016" n="32.16"
+            type="条" xml:id="article321016">
             <head ana="釈奠料"/>
             <note type="summary"> 釈奠の供物 </note>
-            <p ana="項" corresp="engishiki_v32.xml#item32101601 engishiki_v32_en.xml#item32101601" xml:id="item32101601"><ruby>
+            <p ana="項" corresp="engishiki_v32.xml#item32101601 engishiki_v32_en.xml#item32101601"
+              xml:id="item32101601"><ruby>
                 <rb> 釈奠 </rb>
                 <rt place="right"> せきてん </rt>
               </ruby> の祭の供物 <lb/> 固形の塩一〇果、干し魚二升、鹿の干し肉三〇斤、鹿肉の塩辛一升、魚の塩辛一升、 <ruby>
@@ -2475,11 +2577,13 @@
                 <rt place="right"> ひしお </rt>
               </ruby> 三升、大鹿・豚・小鹿の三牲の肉それぞれ一頭、鹿一斗五升〈味のついていない熱い肉の汁物の材料〉、鹿一斗〈塩辛の材料〉。 </p>
           </div>
-          <div ana="大膳上" corresp="engishiki_v32.xml#article321017 engishiki_v32_en.xml#article321017" n="32.17" type="条"
-            xml:id="article321017">
+          <div ana="大膳上"
+            corresp="engishiki_v32.xml#article321017 engishiki_v32_en.xml#article321017" n="32.17"
+            type="条" xml:id="article321017">
             <head ana="釈奠別供料"/>
             <note type="summary"> 釈奠の供物とは別にお供えする食品・物品 </note>
-            <p ana="項" corresp="engishiki_v32.xml#item32101701 engishiki_v32_en.xml#item32101701" xml:id="item32101701"><ruby>
+            <p ana="項" corresp="engishiki_v32.xml#item32101701 engishiki_v32_en.xml#item32101701"
+              xml:id="item32101701"><ruby>
                 <rb> 釈奠 </rb>
                 <rt place="right"> せきてん </rt>
               </ruby> の祭の供物とは別にお供えする食品・物品 <lb/>
@@ -2515,11 +2619,13 @@
                 <rt place="right"> のり </rt>
               </ruby> 六斤、コウゾの紐二斤八両。 </p>
           </div>
-          <div ana="大膳上" corresp="engishiki_v32.xml#article321018 engishiki_v32_en.xml#article321018" n="32.18" type="条"
-            xml:id="article321018">
+          <div ana="大膳上"
+            corresp="engishiki_v32.xml#article321018 engishiki_v32_en.xml#article321018" n="32.18"
+            type="条" xml:id="article321018">
             <head ana="釈奠雑給料"/>
             <note type="summary"> 釈奠に奉斎する官人のための食品・物品 </note>
-            <p ana="項" corresp="engishiki_v32.xml#item32101801 engishiki_v32_en.xml#item32101801" xml:id="item32101801"> 同じく <ruby>
+            <p ana="項" corresp="engishiki_v32.xml#item32101801 engishiki_v32_en.xml#item32101801"
+              xml:id="item32101801"> 同じく <ruby>
                 <rb> 釈奠 </rb>
                 <rt place="right"> せきてん </rt>
               </ruby> の祭に奉斎する官人のための食品・物品 <lb/> アワビ・カツオ〈奉斎の官は五位二人、六位以下九八人、人ごとに二両〉、 <ruby>
@@ -2531,7 +2637,8 @@
               </ruby> 〈奉斎の官一〇〇人、人ごとに二合。学生三五〇人、人ごとに四合〉、ワカメ〈奉斎の官一〇〇人、人ごとに二両〉、 <ruby>
                 <rb> 醤 </rb>
                 <rt place="right"> ひしお </rt>
-              </ruby> 〈五位二人は人ごとに一合、六位以下九八人は人ごとに五夕〉、酢〈五位二人は人ごとに二夕、六位以下九八人は人ごとに一夕〉、塩〈五位二人は人ごとに四夕、六位以下九八人は人ごとに二夕、学生三五〇人は人ごとに一夕五撮〉、 <ruby>
+              </ruby>
+              〈五位二人は人ごとに一合、六位以下九八人は人ごとに五夕〉、酢〈五位二人は人ごとに二夕、六位以下九八人は人ごとに一夕〉、塩〈五位二人は人ごとに四夕、六位以下九八人は人ごとに二夕、学生三五〇人は人ごとに一夕五撮〉、 <ruby>
                 <rb> 蒜房 </rb>
                 <rt place="right"> ひるふさ </rt>
               </ruby> の漬け物・ <ruby>
@@ -2558,11 +2665,13 @@
               <seg rendition="#indent2"> 以上、春の祭に使う品は前記の通りにせよ。秋の祭もまたこれに準じよ。 </seg>
             </p>
           </div>
-          <div ana="大膳上" corresp="engishiki_v32.xml#article321019 engishiki_v32_en.xml#article321019" n="32.19" type="条"
-            xml:id="article321019">
+          <div ana="大膳上"
+            corresp="engishiki_v32.xml#article321019 engishiki_v32_en.xml#article321019" n="32.19"
+            type="条" xml:id="article321019">
             <head ana="六衛府輪転"/>
             <note type="summary"> 六衛府が順番に釈奠の供物のウサギを貢進する規定 </note>
-            <p ana="項" corresp="engishiki_v32.xml#item32101901 engishiki_v32_en.xml#item32101901" xml:id="item32101901"><ruby>
+            <p ana="項" corresp="engishiki_v32.xml#item32101901 engishiki_v32_en.xml#item32101901"
+              xml:id="item32101901"><ruby>
                 <rb> 六衛府 </rb>
                 <rt place="right"> ろくえふ </rt>
               </ruby> が順番に貢進する <ruby>

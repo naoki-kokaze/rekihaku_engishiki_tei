@@ -59,7 +59,9 @@
         </respStmt>
         <respStmt>
           <resp>校訂</resp>
-          <persName ref="http://viaf.org/viaf/29168734579865262687 http://viaf.org/viaf/20165392564921252049">井上正望</persName>
+          <persName
+            ref="http://viaf.org/viaf/29168734579865262687 http://viaf.org/viaf/20165392564921252049"
+            >井上正望</persName>
           <note>『延喜式』テクスト本文の校訂（巻29「刑部省・判事・囚獄司」巻41「弾正台」巻42「左右京職・東西市司」）</note>
         </respStmt>
         <respStmt>
@@ -113,7 +115,8 @@
           <note>『延喜式』テクストの英訳（巻39「内膳司」）</note>
         </respStmt>
         <funder> 人間文化研究機構広領域連携型基幹研究プロジェクト「異分野融合による「総合書物学」の構築」歴博ユニット「古代の百科全書『延喜式』の多分野協働研究」（研究代表：小倉慈司） </funder>
-        <funder> 人間文化研究機構広領域連携型基幹研究プロジェクト「異分野融合による総合書物学の拡張的研究」歴博ユニット「延喜式のデジタル技術による汎用化」（研究代表：小倉慈司（2022～2024）、三上喜孝（2025～）） </funder>
+        <funder>
+          人間文化研究機構広領域連携型基幹研究プロジェクト「異分野融合による総合書物学の拡張的研究」歴博ユニット「延喜式のデジタル技術による汎用化」（研究代表：小倉慈司（2022～2024）、三上喜孝（2025）、神戸航介（2026～）） </funder>
         <funder> 科研費基盤研究（B）「史料学的検討を重視した『延喜式』の基礎的研究」（研究代表：小倉慈司） </funder>
         <funder> 科研費基盤研究（B）「格・式研究を踏まえた日本古代社会像の再構築」（研究代表：小倉慈司） </funder>
         <funder> 学術変革領域研究（A）「歴史情報学の創成」（領域代表）内 計画研究「TEIを中心とした高度な歴史テキスト構築」（研究代表：小風尚樹） </funder>
@@ -126,13 +129,14 @@
         <idno type="PID"/>
         <availability status="free">
           <p>本データは国立歴史民俗博物館の利用規定に基づき公開されています。</p>
-          <licence target="https://creativecommons.org/licenses/by/4.0/">この作品はクリエイティブ・コモンズ 表示 4.0 国際 ライセンス（CC BY
-            4.0）の下に提供されています。</licence>
+          <licence target="https://creativecommons.org/licenses/by/4.0/">この作品はクリエイティブ・コモンズ 表示 4.0 国際
+            ライセンス（CC BY 4.0）の下に提供されています。</licence>
         </availability>
         <date when="2020-03-31">31 March 2020</date>
       </publicationStmt>
       <notesStmt>
-        <note>本データの底本は影印本『国立歴史民俗博物館貴重典籍叢書』歴史篇12～18（臨川書店、2000～2001年）として刊行されている。また虎尾俊哉編『訳注日本史料 延喜式』にて底本として使用される。</note>
+        <note>本データの底本は影印本『国立歴史民俗博物館貴重典籍叢書』歴史篇12～18（臨川書店、2000～2001年）として刊行されている。また虎尾俊哉編『訳注日本史料
+          延喜式』にて底本として使用される。</note>
         <relatedItem>
           <listBibl>
             <biblStruct>
@@ -601,7 +605,7 @@
             <title>延喜式関係論文目録</title>
             <publisher>国立歴史民俗博物館</publisher>
             <ref target="https://www.rekihaku.ac.jp/up-cgi/login.pl?p=param/boed/db_param"
-            >その他の研究文献については、本データベースを参照のこと</ref></bibl>
+              >その他の研究文献については、本データベースを参照のこと</ref></bibl>
         </relatedItem>
       </notesStmt>
       <sourceDesc>
@@ -777,7 +781,8 @@
                 <ref xml:id="九冊本傍書">九冊本傍書</ref>
                 <ref xml:id="九冊本傍訓">九冊本傍訓</ref>
               </listRef></witness>
-            <witness xml:id="永本"><abbr>永本</abbr>：國學院大學図書館所蔵卜部兼永筆本（巻8、091.2/322.135/1）、鈴鹿義鯨旧蔵卜部兼永筆本（巻9・10、現蔵不明、神宮文庫写真帳1門16974を閲覧） <listRef>
+            <witness xml:id="永本"
+              ><abbr>永本</abbr>：國學院大學図書館所蔵卜部兼永筆本（巻8、091.2/322.135/1）、鈴鹿義鯨旧蔵卜部兼永筆本（巻9・10、現蔵不明、神宮文庫写真帳1門16974を閲覧） <listRef>
                 <ref xml:id="永本傍書">永本傍書</ref>
                 <ref xml:id="永本左傍書">永本左傍書</ref>
                 <ref xml:id="永本左朱傍書">永本左朱傍書</ref>
@@ -791,7 +796,8 @@
                 <ref xml:id="右本挿入書">右本挿入書</ref>
               </listRef>
             </witness>
-            <witness xml:id="吉本"><abbr>吉本</abbr>：天理大学附属天理図書館所蔵吉田家旧蔵本巻9・10（328.1-ｲ17（『天理図書館稀書目録　和漢書之部　第三』1219） <listRef>
+            <witness xml:id="吉本"
+              ><abbr>吉本</abbr>：天理大学附属天理図書館所蔵吉田家旧蔵本巻9・10（328.1-ｲ17（『天理図書館稀書目録　和漢書之部　第三』1219） <listRef>
                 <ref xml:id="吉本傍書">吉本傍書</ref>
                 <ref xml:id="吉本左傍書">吉本左傍書</ref>
                 <ref xml:id="吉本左朱傍書">吉本左朱傍書</ref>
@@ -867,17 +873,21 @@
             <witness xml:id="全集本"><abbr>全集本</abbr>：日本古典全集『延喜式』（日本古典全集刊行会　1927～1929年刊）</witness>
             <witness xml:id="皇典本"><abbr>皇典本</abbr>：『校訂延喜式』（皇典講究所・全国神職会　1929～1932年刊）</witness>
             <witness xml:id="国史大系本"><abbr>国史大系本</abbr>：新訂増補国史大系第26巻（吉川弘文館　1937年刊）</witness>
-            <witness xml:id="神道大系本"><abbr>神道大系本</abbr>：神道大系古典編11・12『延喜式』（神道大系編纂会、1991・1993年刊）</witness>
+            <witness xml:id="神道大系本"
+              ><abbr>神道大系本</abbr>：神道大系古典編11・12『延喜式』（神道大系編纂会、1991・1993年刊）</witness>
             <witness xml:id="訳注本"><abbr>訳注本</abbr>：訳注日本史料『延喜式』上～下（集英社、2000～2017年刊）</witness>
           </listWit>
           <listWit xml:id="その他">
             <head>その他</head>
             <witness xml:id="本朝月令"><abbr>本朝月令</abbr>：清水潔編『新校本朝月令』（皇學館大學神道研究所　2002年刊）</witness>
             <witness xml:id="儀式"><abbr>儀式</abbr>：神道大系朝儀祭祀編1『儀式・内裏式』（神道大系編纂会　1980年刊）</witness>
-            <witness xml:id="皇太神宮儀式帳"><abbr>皇太神宮儀式帳</abbr>：佐野真人「『皇太神宮儀式帳』校訂試案」（『皇學館大学研究開発推進センター紀要』2　2016年）</witness>
-            <witness xml:id="止由気宮儀式帳"><abbr>止由気宮儀式帳</abbr>：佐野真人「『止由気宮儀式帳』校訂試案」（『皇學館大学研究開発推進センター紀要』3　2017年）</witness>
+            <witness xml:id="皇太神宮儀式帳"
+              ><abbr>皇太神宮儀式帳</abbr>：佐野真人「『皇太神宮儀式帳』校訂試案」（『皇學館大学研究開発推進センター紀要』2　2016年）</witness>
+            <witness xml:id="止由気宮儀式帳"
+              ><abbr>止由気宮儀式帳</abbr>：佐野真人「『止由気宮儀式帳』校訂試案」（『皇學館大学研究開発推進センター紀要』3　2017年）</witness>
             <witness xml:id="新撰年中行事"><abbr>新撰年中行事</abbr>：西本昌弘編『新撰年中行事』（八木書店　2010年刊）</witness>
-            <witness xml:id="小野宮年中行事"><abbr>小野宮年中行事</abbr>：群書類従第6輯 律令部 公事部（続群書類従完成会　1932年刊）</witness>
+            <witness xml:id="小野宮年中行事"><abbr>小野宮年中行事</abbr>：群書類従第6輯 律令部
+              公事部（続群書類従完成会　1932年刊）</witness>
             <witness xml:id="小野宮年中行事裏書"><abbr>小野宮年中行事裏書</abbr>：国立歴史民俗博物館所蔵本（H-1762）</witness>
             <witness xml:id="勘例"><abbr>勘例（陽明文庫所蔵）</abbr>：大日本古記録『勘例』上・下（岩波書店　2018・2023年刊）</witness>
             <witness xml:id="政事要略"><abbr>政事要略</abbr>：新訂増補国史大系第28巻（吉川弘文館　1935年刊。適宜、写本を参照）</witness>
@@ -893,41 +903,70 @@
         <rendition xml:id="shu">color: red;</rendition>
         <rendition xml:id="italic">font-style: italic;</rendition>
         <rendition xml:id="indent">display: block; margin: 0; padding-inline-start: 1em;</rendition>
-        <rendition xml:id="indent2">display: block; margin: 0; padding-inline-start: 2em;</rendition>
-        <rendition xml:id="indent3">display: block; margin: 0; padding-inline-start: 3em;</rendition>
-        <rendition xml:id="indent3_5">display: block; margin: 0; padding-inline-start: 3.5em;</rendition>
-        <rendition xml:id="indent4">display: block; margin: 0; padding-inline-start: 4em;</rendition>
-        <rendition xml:id="indent5">display: block; margin: 0; padding-inline-start: 5em;</rendition>
-        <rendition xml:id="indent6">display: block; margin: 0; padding-inline-start: 6em;</rendition>
-        <rendition xml:id="indent7">display: block; margin: 0; padding-inline-start: 7em;</rendition>
-        <rendition xml:id="indent8">display: block; margin: 0; padding-inline-start: 8em;</rendition>
-        <rendition xml:id="indent10">display: block; margin: 0; padding-inline-start: 10em;</rendition>
-        <rendition xml:id="indent11">display: block; margin: 0; padding-inline-start: 11em;</rendition>
-        <rendition xml:id="indent12">display: block; margin: 0; padding-inline-start: 12em;</rendition>
-        <rendition xml:id="indent13">display: block; margin: 0; padding-inline-start: 13em;</rendition>
-        <rendition xml:id="indent14">display: block; margin: 0; padding-inline-start: 14em;</rendition>
-        <rendition xml:id="indent18">display: block; margin: 0; padding-inline-start: 18em;</rendition>
-        <rendition xml:id="hanging-1">display: block; margin: 0; padding-inline-start: 1em; text-indent: -1em;</rendition>
-        <rendition xml:id="hanging-2">display: block; margin: 0; padding-inline-start: 2em; text-indent: -2em;</rendition>
-        <rendition xml:id="hanging-3">display: block; margin: 0; padding-inline-start: 3em; text-indent: -3em;</rendition>
-        <rendition xml:id="indent1_hanging-3"> display: block; margin: 0; padding-inline-start: 4em; text-indent: -3em; </rendition>
-        <rendition xml:id="indent1_hanging-4"> display: block; margin: 0; padding-inline-start: 5em; text-indent: -4em; </rendition>
-        <rendition xml:id="indent1_hanging-5"> display: block; margin: 0; padding-inline-start: 6em; text-indent: -5em; </rendition>
-        <rendition xml:id="indent1_hanging-6"> display: block; margin: 0; padding-inline-start: 7em; text-indent:
-          -6em;</rendition>
-        <rendition xml:id="indent2_hanging-1">display: block; margin: 0; padding-inline-start: 3em; text-indent: -1em;</rendition>
-        <rendition xml:id="indent2_hanging-3">display: block; margin: 0; padding-inline-start: 5em; text-indent: -3em;</rendition>
-        <rendition xml:id="indent2_hanging-4">display: block; margin: 0; padding-inline-start: 6em; text-indent: -4em;</rendition>
-        <rendition xml:id="indent2_hanging-5">display: block; margin: 0; padding-inline-start: 7em; text-indent: -5em;</rendition>
-        <rendition xml:id="indent2_hanging-6">display: block; margin: 0; padding-inline-start: 8em; text-indent: -6em;</rendition>
-        <rendition xml:id="indent2_hanging-7">display: block; margin: 0; padding-inline-start: 9em; text-indent: -7em;</rendition>
-        <rendition xml:id="indent3_hanging-4">display: block; margin: 0; padding-inline-start: 7em; text-indent: -4em;</rendition>
-        <rendition xml:id="indent3_hanging-5">display: block; margin: 0; padding-inline-start: 8em; text-indent: -5em;</rendition>
-        <rendition xml:id="indent4_hanging-5">display: block; margin: 0; padding-inline-start: 9em; text-indent: -5em;</rendition>
-        <rendition xml:id="indent4_hanging-6">display: block; margin: 0; padding-inline-start: 10em; text-indent:
-          -6em;</rendition>
-        <rendition xml:id="indent5_hanging-5">display: block; margin: 0; padding-inline-start: 10em; text-indent:
-          -5em;</rendition>
+        <rendition xml:id="indent2">display: block; margin: 0; padding-inline-start:
+          2em;</rendition>
+        <rendition xml:id="indent3">display: block; margin: 0; padding-inline-start:
+          3em;</rendition>
+        <rendition xml:id="indent3_5">display: block; margin: 0; padding-inline-start:
+          3.5em;</rendition>
+        <rendition xml:id="indent4">display: block; margin: 0; padding-inline-start:
+          4em;</rendition>
+        <rendition xml:id="indent5">display: block; margin: 0; padding-inline-start:
+          5em;</rendition>
+        <rendition xml:id="indent6">display: block; margin: 0; padding-inline-start:
+          6em;</rendition>
+        <rendition xml:id="indent7">display: block; margin: 0; padding-inline-start:
+          7em;</rendition>
+        <rendition xml:id="indent8">display: block; margin: 0; padding-inline-start:
+          8em;</rendition>
+        <rendition xml:id="indent10">display: block; margin: 0; padding-inline-start:
+          10em;</rendition>
+        <rendition xml:id="indent11">display: block; margin: 0; padding-inline-start:
+          11em;</rendition>
+        <rendition xml:id="indent12">display: block; margin: 0; padding-inline-start:
+          12em;</rendition>
+        <rendition xml:id="indent13">display: block; margin: 0; padding-inline-start:
+          13em;</rendition>
+        <rendition xml:id="indent14">display: block; margin: 0; padding-inline-start:
+          14em;</rendition>
+        <rendition xml:id="indent18">display: block; margin: 0; padding-inline-start:
+          18em;</rendition>
+        <rendition xml:id="hanging-1">display: block; margin: 0; padding-inline-start: 1em;
+          text-indent: -1em;</rendition>
+        <rendition xml:id="hanging-2">display: block; margin: 0; padding-inline-start: 2em;
+          text-indent: -2em;</rendition>
+        <rendition xml:id="hanging-3">display: block; margin: 0; padding-inline-start: 3em;
+          text-indent: -3em;</rendition>
+        <rendition xml:id="indent1_hanging-3"> display: block; margin: 0; padding-inline-start: 4em;
+          text-indent: -3em; </rendition>
+        <rendition xml:id="indent1_hanging-4"> display: block; margin: 0; padding-inline-start: 5em;
+          text-indent: -4em; </rendition>
+        <rendition xml:id="indent1_hanging-5"> display: block; margin: 0; padding-inline-start: 6em;
+          text-indent: -5em; </rendition>
+        <rendition xml:id="indent1_hanging-6"> display: block; margin: 0; padding-inline-start: 7em;
+          text-indent: -6em;</rendition>
+        <rendition xml:id="indent2_hanging-1">display: block; margin: 0; padding-inline-start: 3em;
+          text-indent: -1em;</rendition>
+        <rendition xml:id="indent2_hanging-3">display: block; margin: 0; padding-inline-start: 5em;
+          text-indent: -3em;</rendition>
+        <rendition xml:id="indent2_hanging-4">display: block; margin: 0; padding-inline-start: 6em;
+          text-indent: -4em;</rendition>
+        <rendition xml:id="indent2_hanging-5">display: block; margin: 0; padding-inline-start: 7em;
+          text-indent: -5em;</rendition>
+        <rendition xml:id="indent2_hanging-6">display: block; margin: 0; padding-inline-start: 8em;
+          text-indent: -6em;</rendition>
+        <rendition xml:id="indent2_hanging-7">display: block; margin: 0; padding-inline-start: 9em;
+          text-indent: -7em;</rendition>
+        <rendition xml:id="indent3_hanging-4">display: block; margin: 0; padding-inline-start: 7em;
+          text-indent: -4em;</rendition>
+        <rendition xml:id="indent3_hanging-5">display: block; margin: 0; padding-inline-start: 8em;
+          text-indent: -5em;</rendition>
+        <rendition xml:id="indent4_hanging-5">display: block; margin: 0; padding-inline-start: 9em;
+          text-indent: -5em;</rendition>
+        <rendition xml:id="indent4_hanging-6">display: block; margin: 0; padding-inline-start: 10em;
+          text-indent: -6em;</rendition>
+        <rendition xml:id="indent5_hanging-5">display: block; margin: 0; padding-inline-start: 10em;
+          text-indent: -5em;</rendition>
         <rendition xml:id="width50">width: 50px;</rendition>
         <rendition xml:id="width80">width: 80px;</rendition>
         <rendition xml:id="width100">width: 100px;</rendition>
@@ -939,13 +978,13 @@
         <rendition xml:id="width500">width: 500px;</rendition>
         <namespace name="http://www.tei-c.org/ns/1.0">
           <tagUsage gi="lb">行構成を保持。定型的な書式を持つ延喜式の記述構造を解析するために必須とする。</tagUsage>
-          <tagUsage gi="table">史料上の多段（段落）表現や、項目間の水平方向の配置を再現するために使用。各 <gi>cell</gi> に付与した <att>rendition</att> （#width
-            等）により、視覚的な間隔や幅を制御する。</tagUsage>
+          <tagUsage gi="table">史料上の多段（段落）表現や、項目間の水平方向の配置を再現するために使用。各 <gi>cell</gi> に付与した
+              <att>rendition</att> （#width 等）により、視覚的な間隔や幅を制御する。</tagUsage>
           <tagUsage gi="seg"
               >史料上の書式（<att>rendition</att>="#indent"等）および朱書き表現（<att>rendition</att>="#shu"）、英訳の音表記（<att>rendition</att>="#italic"）、および英訳注の対象範囲の特定（<att>xml:id</att>）など、複数の視覚・論理表現を属性で制御する。</tagUsage>
           <tagUsage gi="ruby">現代語訳において、漢字の読みを示すために使用。</tagUsage>
-          <tagUsage gi="anchor">校異注の該当範囲（始点・終点）を指定するための空要素。<gi>app</gi> 要素の <att>from</att> および <att>to</att>
-            から参照され、校注範囲を確定させるために使用する。</tagUsage>
+          <tagUsage gi="anchor">校異注の該当範囲（始点・終点）を指定するための空要素。<gi>app</gi> 要素の <att>from</att> および
+              <att>to</att> から参照され、校注範囲を確定させるために使用する。</tagUsage>
           <tagUsage gi="note">校異の詳細説明（<gi>app</gi> 内）、史料上の割注（<gi>measure</gi>
               内）、条文要約（<att>type</att>="summary"）、訳者注（<att>type</att>="translatorsNotes"）、換算ルール（<att>type</att>="calculationRule"）、および典拠データ（<gi>standOff</gi>）における制度上の地域区分（<gi>trait</gi>
               内）に使用。これらは、情報の性質や参照先、出現位置に応じて、<att>place</att>、<att>type</att>、<att>target</att>、<att>ana</att>、<att>corresp</att>
@@ -954,7 +993,8 @@
               >物品の数量・寸法等の計量情報を記述するために使用。<gi>measure</gi>を入れ子構造にすることで、物品と数量・単位等の対応関係を階層的に記述する。<att>ana</att>（納税物区分）、<att>commodity</att>（物品ID）、<att>corresp</att>（該当する国・地域）、<att>quantity</att>（数量）等の属性を用いて計量情報を詳細に記述する。また、<att>type</att>には、<val>standard</val>（貢納量の規定）、<val>actual</val>（実数）、<val>conditional</val>（隔年・条件付き等の数量記載）、<val>supplement</val>（寸法・補足的数量情報）を指定する。</tagUsage>
           <tagUsage gi="measureGrp">関連する複数の <gi>measure</gi>
             をグループ化するために使用する。物品に関する法量情報の集合を表現する場合や、複数の単位によって表される数量表現する場合に用いる。</tagUsage>
-          <tagUsage gi="unit">数量の単位（枚、丈、斤、両など）を示す。<att>unitRef</att> を通じてヘッダー内の単位定義（<gi>unitDecl</gi>）と連動させる。</tagUsage>
+          <tagUsage gi="unit">数量の単位（枚、丈、斤、両など）を示す。<att>unitRef</att>
+              を通じてヘッダー内の単位定義（<gi>unitDecl</gi>）と連動させる。</tagUsage>
           <tagUsage gi="placeName">歴史地名。<gi>standOff</gi> 内の典拠情報とリンクし、空間情報の同定を行う。</tagUsage>
           <tagUsage gi="orgName">官司・官職名。<gi>standOff</gi> 内の典拠情報とリンクし、組織構造の同定を行う。</tagUsage>
         </namespace>
@@ -964,7 +1004,8 @@
           <table>
             <row>
               <cell> ・ </cell>
-              <cell> 校訂文に基づいて現代語訳を作成しました。条文番号・条文名称および項番号等は校訂文に従っています。原文の細字・割書を〈　〉で括って示すことも校訂文と同様です。 </cell>
+              <cell> 校訂文に基づいて現代語訳を作成しました。条文番号・条文名称および項番号等は校訂文に従っています。原文の細字・割書を〈　〉で括って示すことも校訂文と同様です。
+              </cell>
             </row>
             <row>
               <cell> ・ </cell>
@@ -972,7 +1013,9 @@
             </row>
             <row>
               <cell> ・ </cell>
-              <cell> 本文のみで簡便に読み進めていける訳文を目指しました。訳出が困難な語句は原文（校訂文）のまま表示して適宜ルビを付し、補足的な説明を加えましたが、意訳で対応した場合もあります。 </cell>
+              <cell>
+                本文のみで簡便に読み進めていける訳文を目指しました。訳出が困難な語句は原文（校訂文）のまま表示して適宜ルビを付し、補足的な説明を加えましたが、意訳で対応した場合もあります。
+              </cell>
             </row>
             <row>
               <cell> ・ </cell>
@@ -1016,8 +1059,8 @@
             </row>
             <row>
               <cell rendition="#width100"> ほか </cell>
-              <cell> 稲1束＝10把＝100分＝1000毛＝10000厘 <lb/> 調綿1屯＝大4両 <lb/> 細屯綿1屯＝大3両1分2銖＝小10両 <lb/> 庸綿1屯＝大5両2分＝小1斤2分 <lb/>
-                糸1絇＝上糸大4両、中糸大5両、麁糸大7両 <lb/> 鉄1廷＝大3斤5両 <lb/> 銭1貫＝1000文 </cell>
+              <cell> 稲1束＝10把＝100分＝1000毛＝10000厘 <lb/> 調綿1屯＝大4両 <lb/> 細屯綿1屯＝大3両1分2銖＝小10両 <lb/>
+                庸綿1屯＝大5両2分＝小1斤2分 <lb/> 糸1絇＝上糸大4両、中糸大5両、麁糸大7両 <lb/> 鉄1廷＝大3斤5両 <lb/> 銭1貫＝1000文 </cell>
             </row>
           </table>
         </p>
@@ -1036,619 +1079,738 @@
         <div type="首題" xml:id="shudai37">
           <p xml:id="shudai3701"> 首題 </p>
         </div>
-        <div ana="典薬" corresp="engishiki_v37.xml#protocol371 engishiki_v37_en.xml#protocol371" n="37" type="式"
-          xml:id="protocol371">
+        <div ana="典薬" corresp="engishiki_v37.xml#protocol371 engishiki_v37_en.xml#protocol371"
+          n="37" type="式" xml:id="protocol371">
           <div type="式題" xml:id="shikidai371">
             <p xml:id="shikidai37101"> 式題 </p>
           </div>
-          <div ana="典薬" corresp="engishiki_v37.xml#article371001 engishiki_v37_en.xml#article371001" n="37.1" type="条"
-            xml:id="article371001">
+          <div ana="典薬" corresp="engishiki_v37.xml#article371001 engishiki_v37_en.xml#article371001"
+            n="37.1" type="条" xml:id="article371001">
             <head ana="元日御薬"/>
             <note type="summary"> 条文概要 </note>
-            <p ana="項" corresp="engishiki_v37.xml#item37100101 engishiki_v37_en.xml#item37100101" xml:id="item37100101"> 本文 </p>
-            <p ana="項" corresp="engishiki_v37.xml#item37100102 engishiki_v37_en.xml#item37100102" xml:id="item37100102"> 本文 </p>
-            <p ana="項" corresp="engishiki_v37.xml#item37100103 engishiki_v37_en.xml#item37100103" xml:id="item37100103"> 本文 </p>
-            <p ana="項" corresp="engishiki_v37.xml#item37100104 engishiki_v37_en.xml#item37100104" xml:id="item37100104"> 本文 </p>
-            <p ana="項" corresp="engishiki_v37.xml#item37100105 engishiki_v37_en.xml#item37100105" xml:id="item37100105"> 本文 </p>
+            <p ana="項" corresp="engishiki_v37.xml#item37100101 engishiki_v37_en.xml#item37100101"
+              xml:id="item37100101"> 本文 </p>
+            <p ana="項" corresp="engishiki_v37.xml#item37100102 engishiki_v37_en.xml#item37100102"
+              xml:id="item37100102"> 本文 </p>
+            <p ana="項" corresp="engishiki_v37.xml#item37100103 engishiki_v37_en.xml#item37100103"
+              xml:id="item37100103"> 本文 </p>
+            <p ana="項" corresp="engishiki_v37.xml#item37100104 engishiki_v37_en.xml#item37100104"
+              xml:id="item37100104"> 本文 </p>
+            <p ana="項" corresp="engishiki_v37.xml#item37100105 engishiki_v37_en.xml#item37100105"
+              xml:id="item37100105"> 本文 </p>
           </div>
-          <div ana="典薬" corresp="engishiki_v37.xml#article371002 engishiki_v37_en.xml#article371002" n="37.2" type="条"
-            xml:id="article371002">
+          <div ana="典薬" corresp="engishiki_v37.xml#article371002 engishiki_v37_en.xml#article371002"
+            n="37.2" type="条" xml:id="article371002">
             <head ana="臘月御薬"/>
             <note type="summary"> 条文概要 </note>
-            <p ana="項" corresp="engishiki_v37.xml#item37100201 engishiki_v37_en.xml#item37100201" xml:id="item37100201"> 本文 </p>
-            <p ana="項" corresp="engishiki_v37.xml#item37100202 engishiki_v37_en.xml#item37100202" xml:id="item37100202"> 本文 </p>
-            <p ana="項" corresp="engishiki_v37.xml#item37100203 engishiki_v37_en.xml#item37100203" xml:id="item37100203"> 本文 </p>
-            <p ana="項" corresp="engishiki_v37.xml#item37100204 engishiki_v37_en.xml#item37100204" xml:id="item37100204"> 本文 </p>
-            <p ana="項" corresp="engishiki_v37.xml#item37100205 engishiki_v37_en.xml#item37100205" xml:id="item37100205"> 本文 </p>
+            <p ana="項" corresp="engishiki_v37.xml#item37100201 engishiki_v37_en.xml#item37100201"
+              xml:id="item37100201"> 本文 </p>
+            <p ana="項" corresp="engishiki_v37.xml#item37100202 engishiki_v37_en.xml#item37100202"
+              xml:id="item37100202"> 本文 </p>
+            <p ana="項" corresp="engishiki_v37.xml#item37100203 engishiki_v37_en.xml#item37100203"
+              xml:id="item37100203"> 本文 </p>
+            <p ana="項" corresp="engishiki_v37.xml#item37100204 engishiki_v37_en.xml#item37100204"
+              xml:id="item37100204"> 本文 </p>
+            <p ana="項" corresp="engishiki_v37.xml#item37100205 engishiki_v37_en.xml#item37100205"
+              xml:id="item37100205"> 本文 </p>
           </div>
-          <div ana="典薬" corresp="engishiki_v37.xml#article371003 engishiki_v37_en.xml#article371003" n="37.3" type="条"
-            xml:id="article371003">
+          <div ana="典薬" corresp="engishiki_v37.xml#article371003 engishiki_v37_en.xml#article371003"
+            n="37.3" type="条" xml:id="article371003">
             <head ana="中宮臘月御薬"/>
             <note type="summary"> 条文概要 </note>
-            <p ana="項" corresp="engishiki_v37.xml#item37100301 engishiki_v37_en.xml#item37100301" xml:id="item37100301"> 本文 </p>
-            <p ana="項" corresp="engishiki_v37.xml#item37100302 engishiki_v37_en.xml#item37100302" xml:id="item37100302"> 本文 </p>
-            <p ana="項" corresp="engishiki_v37.xml#item37100303 engishiki_v37_en.xml#item37100303" xml:id="item37100303"> 本文 </p>
+            <p ana="項" corresp="engishiki_v37.xml#item37100301 engishiki_v37_en.xml#item37100301"
+              xml:id="item37100301"> 本文 </p>
+            <p ana="項" corresp="engishiki_v37.xml#item37100302 engishiki_v37_en.xml#item37100302"
+              xml:id="item37100302"> 本文 </p>
+            <p ana="項" corresp="engishiki_v37.xml#item37100303 engishiki_v37_en.xml#item37100303"
+              xml:id="item37100303"> 本文 </p>
           </div>
-          <div ana="典薬" corresp="engishiki_v37.xml#article371004 engishiki_v37_en.xml#article371004" n="37.4" type="条"
-            xml:id="article371004">
+          <div ana="典薬" corresp="engishiki_v37.xml#article371004 engishiki_v37_en.xml#article371004"
+            n="37.4" type="条" xml:id="article371004">
             <head ana="東宮御薬"/>
             <note type="summary"> 条文概要 </note>
-            <p ana="項" corresp="engishiki_v37.xml#item37100401 engishiki_v37_en.xml#item37100401" xml:id="item37100401"> 本文 </p>
-            <p ana="項" corresp="engishiki_v37.xml#item37100402 engishiki_v37_en.xml#item37100402" xml:id="item37100402"> 本文 </p>
-            <p ana="項" corresp="engishiki_v37.xml#item37100403 engishiki_v37_en.xml#item37100403" xml:id="item37100403"> 本文 </p>
+            <p ana="項" corresp="engishiki_v37.xml#item37100401 engishiki_v37_en.xml#item37100401"
+              xml:id="item37100401"> 本文 </p>
+            <p ana="項" corresp="engishiki_v37.xml#item37100402 engishiki_v37_en.xml#item37100402"
+              xml:id="item37100402"> 本文 </p>
+            <p ana="項" corresp="engishiki_v37.xml#item37100403 engishiki_v37_en.xml#item37100403"
+              xml:id="item37100403"> 本文 </p>
           </div>
-          <div ana="典薬" corresp="engishiki_v37.xml#article371005 engishiki_v37_en.xml#article371005" n="37.5" type="条"
-            xml:id="article371005">
+          <div ana="典薬" corresp="engishiki_v37.xml#article371005 engishiki_v37_en.xml#article371005"
+            n="37.5" type="条" xml:id="article371005">
             <head ana="白散"/>
             <note type="summary"> 条文概要 </note>
-            <p ana="項" corresp="engishiki_v37.xml#item37100501 engishiki_v37_en.xml#item37100501" xml:id="item37100501"> 本文 </p>
-            <p ana="項" corresp="engishiki_v37.xml#item37100502 engishiki_v37_en.xml#item37100502" xml:id="item37100502"> 本文 </p>
-            <p ana="項" corresp="engishiki_v37.xml#item37100503 engishiki_v37_en.xml#item37100503" xml:id="item37100503"> 本文 </p>
+            <p ana="項" corresp="engishiki_v37.xml#item37100501 engishiki_v37_en.xml#item37100501"
+              xml:id="item37100501"> 本文 </p>
+            <p ana="項" corresp="engishiki_v37.xml#item37100502 engishiki_v37_en.xml#item37100502"
+              xml:id="item37100502"> 本文 </p>
+            <p ana="項" corresp="engishiki_v37.xml#item37100503 engishiki_v37_en.xml#item37100503"
+              xml:id="item37100503"> 本文 </p>
           </div>
-          <div ana="典薬" corresp="engishiki_v37.xml#article371006 engishiki_v37_en.xml#article371006" n="37.6" type="条"
-            xml:id="article371006">
+          <div ana="典薬" corresp="engishiki_v37.xml#article371006 engishiki_v37_en.xml#article371006"
+            n="37.6" type="条" xml:id="article371006">
             <head ana="雑給料"/>
             <note type="summary"> 条文概要 </note>
-            <p ana="項" corresp="engishiki_v37.xml#item37100601 engishiki_v37_en.xml#item37100601" xml:id="item37100601"> 本文 </p>
-            <p ana="項" corresp="engishiki_v37.xml#item37100602 engishiki_v37_en.xml#item37100602" xml:id="item37100602"> 本文 </p>
-            <p ana="項" corresp="engishiki_v37.xml#item37100603 engishiki_v37_en.xml#item37100603" xml:id="item37100603"> 本文 </p>
-            <p ana="項" corresp="engishiki_v37.xml#item37100604 engishiki_v37_en.xml#item37100604" xml:id="item37100604"> 本文 </p>
+            <p ana="項" corresp="engishiki_v37.xml#item37100601 engishiki_v37_en.xml#item37100601"
+              xml:id="item37100601"> 本文 </p>
+            <p ana="項" corresp="engishiki_v37.xml#item37100602 engishiki_v37_en.xml#item37100602"
+              xml:id="item37100602"> 本文 </p>
+            <p ana="項" corresp="engishiki_v37.xml#item37100603 engishiki_v37_en.xml#item37100603"
+              xml:id="item37100603"> 本文 </p>
+            <p ana="項" corresp="engishiki_v37.xml#item37100604 engishiki_v37_en.xml#item37100604"
+              xml:id="item37100604"> 本文 </p>
           </div>
-          <div ana="典薬" corresp="engishiki_v37.xml#article371007 engishiki_v37_en.xml#article371007" n="37.7" type="条"
-            xml:id="article371007">
+          <div ana="典薬" corresp="engishiki_v37.xml#article371007 engishiki_v37_en.xml#article371007"
+            n="37.7" type="条" xml:id="article371007">
             <head ana="地黄煎料"/>
             <note type="summary"> 条文概要 </note>
-            <p ana="項" corresp="engishiki_v37.xml#item37100701 engishiki_v37_en.xml#item37100701" xml:id="item37100701"> 本文 </p>
-            <p ana="項" corresp="engishiki_v37.xml#item37100702 engishiki_v37_en.xml#item37100702" xml:id="item37100702"> 本文 </p>
-            <p ana="項" corresp="engishiki_v37.xml#item37100703 engishiki_v37_en.xml#item37100703" xml:id="item37100703"> 本文 </p>
+            <p ana="項" corresp="engishiki_v37.xml#item37100701 engishiki_v37_en.xml#item37100701"
+              xml:id="item37100701"> 本文 </p>
+            <p ana="項" corresp="engishiki_v37.xml#item37100702 engishiki_v37_en.xml#item37100702"
+              xml:id="item37100702"> 本文 </p>
+            <p ana="項" corresp="engishiki_v37.xml#item37100703 engishiki_v37_en.xml#item37100703"
+              xml:id="item37100703"> 本文 </p>
           </div>
-          <div ana="典薬" corresp="engishiki_v37.xml#article371008 engishiki_v37_en.xml#article371008" n="37.8" type="条"
-            xml:id="article371008">
+          <div ana="典薬" corresp="engishiki_v37.xml#article371008 engishiki_v37_en.xml#article371008"
+            n="37.8" type="条" xml:id="article371008">
             <head ana="五月五日"/>
             <note type="summary"> 条文概要 </note>
-            <p ana="項" corresp="engishiki_v37.xml#item37100801 engishiki_v37_en.xml#item37100801" xml:id="item37100801"> 本文 </p>
+            <p ana="項" corresp="engishiki_v37.xml#item37100801 engishiki_v37_en.xml#item37100801"
+              xml:id="item37100801"> 本文 </p>
           </div>
-          <div ana="典薬" corresp="engishiki_v37.xml#article371009 engishiki_v37_en.xml#article371009" n="37.9" type="条"
-            xml:id="article371009">
+          <div ana="典薬" corresp="engishiki_v37.xml#article371009 engishiki_v37_en.xml#article371009"
+            n="37.9" type="条" xml:id="article371009">
             <head ana="合薬麴料"/>
             <note type="summary"> 条文概要 </note>
-            <p ana="項" corresp="engishiki_v37.xml#item37100901 engishiki_v37_en.xml#item37100901" xml:id="item37100901"> 本文 </p>
+            <p ana="項" corresp="engishiki_v37.xml#item37100901 engishiki_v37_en.xml#item37100901"
+              xml:id="item37100901"> 本文 </p>
           </div>
-          <div ana="典薬" corresp="engishiki_v37.xml#article371010 engishiki_v37_en.xml#article371010" n="37.10" type="条"
-            xml:id="article371010">
+          <div ana="典薬" corresp="engishiki_v37.xml#article371010 engishiki_v37_en.xml#article371010"
+            n="37.10" type="条" xml:id="article371010">
             <head ana="九月九日"/>
             <note type="summary"> 条文概要 </note>
-            <p ana="項" corresp="engishiki_v37.xml#item37101001 engishiki_v37_en.xml#item37101001" xml:id="item37101001"> 本文 </p>
+            <p ana="項" corresp="engishiki_v37.xml#item37101001 engishiki_v37_en.xml#item37101001"
+              xml:id="item37101001"> 本文 </p>
           </div>
-          <div ana="典薬" corresp="engishiki_v37.xml#article371011 engishiki_v37_en.xml#article371011" n="37.11" type="条"
-            xml:id="article371011">
+          <div ana="典薬" corresp="engishiki_v37.xml#article371011 engishiki_v37_en.xml#article371011"
+            n="37.11" type="条" xml:id="article371011">
             <head ana="供御乳"/>
             <note type="summary"> 条文概要 </note>
-            <p ana="項" corresp="engishiki_v37.xml#item37101101 engishiki_v37_en.xml#item37101101" xml:id="item37101101"> 本文 </p>
+            <p ana="項" corresp="engishiki_v37.xml#item37101101 engishiki_v37_en.xml#item37101101"
+              xml:id="item37101101"> 本文 </p>
           </div>
-          <div ana="典薬" corresp="engishiki_v37.xml#article371012 engishiki_v37_en.xml#article371012" n="37.12" type="条"
-            xml:id="article371012">
+          <div ana="典薬" corresp="engishiki_v37.xml#article371012 engishiki_v37_en.xml#article371012"
+            n="37.12" type="条" xml:id="article371012">
             <head ana="乳牛"/>
             <note type="summary"> 条文概要 </note>
-            <p ana="項" corresp="engishiki_v37.xml#item37101201 engishiki_v37_en.xml#item37101201" xml:id="item37101201"> 本文 </p>
+            <p ana="項" corresp="engishiki_v37.xml#item37101201 engishiki_v37_en.xml#item37101201"
+              xml:id="item37101201"> 本文 </p>
           </div>
-          <div ana="典薬" corresp="engishiki_v37.xml#article371013 engishiki_v37_en.xml#article371013" n="37.13" type="条"
-            xml:id="article371013">
+          <div ana="典薬" corresp="engishiki_v37.xml#article371013 engishiki_v37_en.xml#article371013"
+            n="37.13" type="条" xml:id="article371013">
             <head ana="造儲御薬料"/>
             <note type="summary"> 条文概要 </note>
-            <p ana="項" corresp="engishiki_v37.xml#item37101301 engishiki_v37_en.xml#item37101301" xml:id="item37101301"> 本文 </p>
+            <p ana="項" corresp="engishiki_v37.xml#item37101301 engishiki_v37_en.xml#item37101301"
+              xml:id="item37101301"> 本文 </p>
           </div>
-          <div ana="典薬" corresp="engishiki_v37.xml#article371014 engishiki_v37_en.xml#article371014" n="37.14" type="条"
-            xml:id="article371014">
+          <div ana="典薬" corresp="engishiki_v37.xml#article371014 engishiki_v37_en.xml#article371014"
+            n="37.14" type="条" xml:id="article371014">
             <head ana="造供御白粉料"/>
             <note type="summary"> 条文概要 </note>
-            <p ana="項" corresp="engishiki_v37.xml#item37101401 engishiki_v37_en.xml#item37101401" xml:id="item37101401"> 本文 </p>
+            <p ana="項" corresp="engishiki_v37.xml#item37101401 engishiki_v37_en.xml#item37101401"
+              xml:id="item37101401"> 本文 </p>
           </div>
-          <div ana="典薬" corresp="engishiki_v37.xml#article371015 engishiki_v37_en.xml#article371015" n="37.15" type="条"
-            xml:id="article371015">
+          <div ana="典薬" corresp="engishiki_v37.xml#article371015 engishiki_v37_en.xml#article371015"
+            n="37.15" type="条" xml:id="article371015">
             <head ana="行幸"/>
             <note type="summary"> 条文概要 </note>
-            <p ana="項" corresp="engishiki_v37.xml#item37101501 engishiki_v37_en.xml#item37101501" xml:id="item37101501"> 本文 </p>
+            <p ana="項" corresp="engishiki_v37.xml#item37101501 engishiki_v37_en.xml#item37101501"
+              xml:id="item37101501"> 本文 </p>
           </div>
-          <div ana="典薬" corresp="engishiki_v37.xml#article371016 engishiki_v37_en.xml#article371016" n="37.16" type="条"
-            xml:id="article371016">
+          <div ana="典薬" corresp="engishiki_v37.xml#article371016 engishiki_v37_en.xml#article371016"
+            n="37.16" type="条" xml:id="article371016">
             <head ana="大嘗会陪従"/>
             <note type="summary"> 条文概要 </note>
-            <p ana="項" corresp="engishiki_v37.xml#item37101601 engishiki_v37_en.xml#item37101601" xml:id="item37101601"> 本文 </p>
+            <p ana="項" corresp="engishiki_v37.xml#item37101601 engishiki_v37_en.xml#item37101601"
+              xml:id="item37101601"> 本文 </p>
           </div>
-          <div ana="典薬" corresp="engishiki_v37.xml#article371017 engishiki_v37_en.xml#article371017" n="37.17" type="条"
-            xml:id="article371017">
+          <div ana="典薬" corresp="engishiki_v37.xml#article371017 engishiki_v37_en.xml#article371017"
+            n="37.17" type="条" xml:id="article371017">
             <head ana="斎内親王"/>
             <note type="summary"> 条文概要 </note>
-            <p ana="項" corresp="engishiki_v37.xml#item37101701 engishiki_v37_en.xml#item37101701" xml:id="item37101701"> 本文 </p>
+            <p ana="項" corresp="engishiki_v37.xml#item37101701 engishiki_v37_en.xml#item37101701"
+              xml:id="item37101701"> 本文 </p>
           </div>
-          <div ana="典薬" corresp="engishiki_v37.xml#article371018 engishiki_v37_en.xml#article371018" n="37.18" type="条"
-            xml:id="article371018">
+          <div ana="典薬" corresp="engishiki_v37.xml#article371018 engishiki_v37_en.xml#article371018"
+            n="37.18" type="条" xml:id="article371018">
             <head ana="斎宮寮雑薬"/>
             <note type="summary"> 条文概要 </note>
-            <p ana="項" corresp="engishiki_v37.xml#item37101801 engishiki_v37_en.xml#item37101801" xml:id="item37101801"> 本文 </p>
+            <p ana="項" corresp="engishiki_v37.xml#item37101801 engishiki_v37_en.xml#item37101801"
+              xml:id="item37101801"> 本文 </p>
           </div>
-          <div ana="典薬" corresp="engishiki_v37.xml#article371019 engishiki_v37_en.xml#article371019" n="37.19" type="条"
-            xml:id="article371019">
+          <div ana="典薬" corresp="engishiki_v37.xml#article371019 engishiki_v37_en.xml#article371019"
+            n="37.19" type="条" xml:id="article371019">
             <head ana="内匠寮雑薬"/>
             <note type="summary"> 条文概要 </note>
-            <p ana="項" corresp="engishiki_v37.xml#item37101901 engishiki_v37_en.xml#item37101901" xml:id="item37101901"> 本文 </p>
+            <p ana="項" corresp="engishiki_v37.xml#item37101901 engishiki_v37_en.xml#item37101901"
+              xml:id="item37101901"> 本文 </p>
           </div>
-          <div ana="典薬" corresp="engishiki_v37.xml#article371020 engishiki_v37_en.xml#article371020" n="37.20" type="条"
-            xml:id="article371020">
+          <div ana="典薬" corresp="engishiki_v37.xml#article371020 engishiki_v37_en.xml#article371020"
+            n="37.20" type="条" xml:id="article371020">
             <head ana="木工寮雑薬"/>
             <note type="summary"> 条文概要 </note>
-            <p ana="項" corresp="engishiki_v37.xml#item37102001 engishiki_v37_en.xml#item37102001" xml:id="item37102001"> 本文 </p>
+            <p ana="項" corresp="engishiki_v37.xml#item37102001 engishiki_v37_en.xml#item37102001"
+              xml:id="item37102001"> 本文 </p>
           </div>
-          <div ana="典薬" corresp="engishiki_v37.xml#article371021 engishiki_v37_en.xml#article371021" n="37.21" type="条"
-            xml:id="article371021">
+          <div ana="典薬" corresp="engishiki_v37.xml#article371021 engishiki_v37_en.xml#article371021"
+            n="37.21" type="条" xml:id="article371021">
             <head ana="近衛府雑薬"/>
             <note type="summary"> 条文概要 </note>
-            <p ana="項" corresp="engishiki_v37.xml#item37102101 engishiki_v37_en.xml#item37102101" xml:id="item37102101"> 本文 </p>
+            <p ana="項" corresp="engishiki_v37.xml#item37102101 engishiki_v37_en.xml#item37102101"
+              xml:id="item37102101"> 本文 </p>
           </div>
-          <div ana="典薬" corresp="engishiki_v37.xml#article371022 engishiki_v37_en.xml#article371022" n="37.22" type="条"
-            xml:id="article371022">
+          <div ana="典薬" corresp="engishiki_v37.xml#article371022 engishiki_v37_en.xml#article371022"
+            n="37.22" type="条" xml:id="article371022">
             <head ana="衛門府雑薬"/>
             <note type="summary"> 条文概要 </note>
-            <p ana="項" corresp="engishiki_v37.xml#item37102201 engishiki_v37_en.xml#item37102201" xml:id="item37102201"> 本文 </p>
+            <p ana="項" corresp="engishiki_v37.xml#item37102201 engishiki_v37_en.xml#item37102201"
+              xml:id="item37102201"> 本文 </p>
           </div>
-          <div ana="典薬" corresp="engishiki_v37.xml#article371023 engishiki_v37_en.xml#article371023" n="37.23" type="条"
-            xml:id="article371023">
+          <div ana="典薬" corresp="engishiki_v37.xml#article371023 engishiki_v37_en.xml#article371023"
+            n="37.23" type="条" xml:id="article371023">
             <head ana="兵衛府雑薬"/>
             <note type="summary"> 条文概要 </note>
-            <p ana="項" corresp="engishiki_v37.xml#item37102301 engishiki_v37_en.xml#item37102301" xml:id="item37102301"> 本文 </p>
+            <p ana="項" corresp="engishiki_v37.xml#item37102301 engishiki_v37_en.xml#item37102301"
+              xml:id="item37102301"> 本文 </p>
           </div>
-          <div ana="典薬" corresp="engishiki_v37.xml#article371024 engishiki_v37_en.xml#article371024" n="37.24" type="条"
-            xml:id="article371024">
+          <div ana="典薬" corresp="engishiki_v37.xml#article371024 engishiki_v37_en.xml#article371024"
+            n="37.24" type="条" xml:id="article371024">
             <head ana="馬寮雑薬"/>
             <note type="summary"> 条文概要 </note>
-            <p ana="項" corresp="engishiki_v37.xml#item37102401 engishiki_v37_en.xml#item37102401" xml:id="item37102401"> 本文 </p>
+            <p ana="項" corresp="engishiki_v37.xml#item37102401 engishiki_v37_en.xml#item37102401"
+              xml:id="item37102401"> 本文 </p>
           </div>
-          <div ana="典薬" corresp="engishiki_v37.xml#article371025 engishiki_v37_en.xml#article371025" n="37.25" type="条"
-            xml:id="article371025">
+          <div ana="典薬" corresp="engishiki_v37.xml#article371025 engishiki_v37_en.xml#article371025"
+            n="37.25" type="条" xml:id="article371025">
             <head ana="兵庫寮雑薬"/>
             <note type="summary"> 条文概要 </note>
-            <p ana="項" corresp="engishiki_v37.xml#item37102501 engishiki_v37_en.xml#item37102501" xml:id="item37102501"> 本文 </p>
+            <p ana="項" corresp="engishiki_v37.xml#item37102501 engishiki_v37_en.xml#item37102501"
+              xml:id="item37102501"> 本文 </p>
           </div>
-          <div ana="典薬" corresp="engishiki_v37.xml#article371026 engishiki_v37_en.xml#article371026" n="37.26" type="条"
-            xml:id="article371026">
+          <div ana="典薬" corresp="engishiki_v37.xml#article371026 engishiki_v37_en.xml#article371026"
+            n="37.26" type="条" xml:id="article371026">
             <head ana="唐使雑薬"/>
             <note type="summary"> 条文概要 </note>
-            <p ana="項" corresp="engishiki_v37.xml#item37102601 engishiki_v37_en.xml#item37102601" xml:id="item37102601"> 本文 </p>
+            <p ana="項" corresp="engishiki_v37.xml#item37102601 engishiki_v37_en.xml#item37102601"
+              xml:id="item37102601"> 本文 </p>
           </div>
-          <div ana="典薬" corresp="engishiki_v37.xml#article371027 engishiki_v37_en.xml#article371027" n="37.27" type="条"
-            xml:id="article371027">
+          <div ana="典薬" corresp="engishiki_v37.xml#article371027 engishiki_v37_en.xml#article371027"
+            n="37.27" type="条" xml:id="article371027">
             <head ana="唐使草薬"/>
             <note type="summary"> 条文概要 </note>
-            <p ana="項" corresp="engishiki_v37.xml#item37102701 engishiki_v37_en.xml#item37102701" xml:id="item37102701"> 本文 </p>
+            <p ana="項" corresp="engishiki_v37.xml#item37102701 engishiki_v37_en.xml#item37102701"
+              xml:id="item37102701"> 本文 </p>
           </div>
-          <div ana="典薬" corresp="engishiki_v37.xml#article371028 engishiki_v37_en.xml#article371028" n="37.28" type="条"
-            xml:id="article371028">
+          <div ana="典薬" corresp="engishiki_v37.xml#article371028 engishiki_v37_en.xml#article371028"
+            n="37.28" type="条" xml:id="article371028">
             <head ana="渤海使雑薬"/>
             <note type="summary"> 条文概要 </note>
-            <p ana="項" corresp="engishiki_v37.xml#item37102801 engishiki_v37_en.xml#item37102801" xml:id="item37102801"> 本文 </p>
+            <p ana="項" corresp="engishiki_v37.xml#item37102801 engishiki_v37_en.xml#item37102801"
+              xml:id="item37102801"> 本文 </p>
           </div>
-          <div ana="典薬" corresp="engishiki_v37.xml#article371029 engishiki_v37_en.xml#article371029" n="37.29" type="条"
-            xml:id="article371029">
+          <div ana="典薬" corresp="engishiki_v37.xml#article371029 engishiki_v37_en.xml#article371029"
+            n="37.29" type="条" xml:id="article371029">
             <head ana="渤海使草薬"/>
             <note type="summary"> 条文概要 </note>
-            <p ana="項" corresp="engishiki_v37.xml#item37102901 engishiki_v37_en.xml#item37102901" xml:id="item37102901"> 本文 </p>
+            <p ana="項" corresp="engishiki_v37.xml#item37102901 engishiki_v37_en.xml#item37102901"
+              xml:id="item37102901"> 本文 </p>
           </div>
-          <div ana="典薬" corresp="engishiki_v37.xml#article371030 engishiki_v37_en.xml#article371030" n="37.30" type="条"
-            xml:id="article371030">
+          <div ana="典薬" corresp="engishiki_v37.xml#article371030 engishiki_v37_en.xml#article371030"
+            n="37.30" type="条" xml:id="article371030">
             <head ana="新羅使雑薬"/>
             <note type="summary"> 条文概要 </note>
-            <p ana="項" corresp="engishiki_v37.xml#item37103001 engishiki_v37_en.xml#item37103001" xml:id="item37103001"> 本文 </p>
+            <p ana="項" corresp="engishiki_v37.xml#item37103001 engishiki_v37_en.xml#item37103001"
+              xml:id="item37103001"> 本文 </p>
           </div>
-          <div ana="典薬" corresp="engishiki_v37.xml#article371031 engishiki_v37_en.xml#article371031" n="37.31" type="条"
-            xml:id="article371031">
+          <div ana="典薬" corresp="engishiki_v37.xml#article371031 engishiki_v37_en.xml#article371031"
+            n="37.31" type="条" xml:id="article371031">
             <head ana="新羅使草薬"/>
             <note type="summary"> 条文概要 </note>
-            <p ana="項" corresp="engishiki_v37.xml#item37103101 engishiki_v37_en.xml#item37103101" xml:id="item37103101"> 本文 </p>
-            <p ana="項" corresp="engishiki_v37.xml#item37103102 engishiki_v37_en.xml#item37103102" xml:id="item37103102"> 本文 </p>
+            <p ana="項" corresp="engishiki_v37.xml#item37103101 engishiki_v37_en.xml#item37103101"
+              xml:id="item37103101"> 本文 </p>
+            <p ana="項" corresp="engishiki_v37.xml#item37103102 engishiki_v37_en.xml#item37103102"
+              xml:id="item37103102"> 本文 </p>
           </div>
-          <div ana="典薬" corresp="engishiki_v37.xml#article371032 engishiki_v37_en.xml#article371032" n="37.32" type="条"
-            xml:id="article371032">
+          <div ana="典薬" corresp="engishiki_v37.xml#article371032 engishiki_v37_en.xml#article371032"
+            n="37.32" type="条" xml:id="article371032">
             <head ana="読医経"/>
             <note type="summary"> 条文概要 </note>
-            <p ana="項" corresp="engishiki_v37.xml#item37103201 engishiki_v37_en.xml#item37103201" xml:id="item37103201"> 本文 </p>
+            <p ana="項" corresp="engishiki_v37.xml#item37103201 engishiki_v37_en.xml#item37103201"
+              xml:id="item37103201"> 本文 </p>
           </div>
-          <div ana="典薬" corresp="engishiki_v37.xml#article371033 engishiki_v37_en.xml#article371033" n="37.33" type="条"
-            xml:id="article371033">
+          <div ana="典薬" corresp="engishiki_v37.xml#article371033 engishiki_v37_en.xml#article371033"
+            n="37.33" type="条" xml:id="article371033">
             <head ana="大素経"/>
             <note type="summary"> 条文概要 </note>
-            <p ana="項" corresp="engishiki_v37.xml#item37103301 engishiki_v37_en.xml#item37103301" xml:id="item37103301"> 本文 </p>
+            <p ana="項" corresp="engishiki_v37.xml#item37103301 engishiki_v37_en.xml#item37103301"
+              xml:id="item37103301"> 本文 </p>
           </div>
-          <div ana="典薬" corresp="engishiki_v37.xml#article371034 engishiki_v37_en.xml#article371034" n="37.34" type="条"
-            xml:id="article371034">
+          <div ana="典薬" corresp="engishiki_v37.xml#article371034 engishiki_v37_en.xml#article371034"
+            n="37.34" type="条" xml:id="article371034">
             <head ana="講書座料"/>
             <note type="summary"> 条文概要 </note>
-            <p ana="項" corresp="engishiki_v37.xml#item37103401 engishiki_v37_en.xml#item37103401" xml:id="item37103401"> 本文 </p>
+            <p ana="項" corresp="engishiki_v37.xml#item37103401 engishiki_v37_en.xml#item37103401"
+              xml:id="item37103401"> 本文 </p>
           </div>
-          <div ana="典薬" corresp="engishiki_v37.xml#article371035 engishiki_v37_en.xml#article371035" n="37.35" type="条"
-            xml:id="article371035">
+          <div ana="典薬" corresp="engishiki_v37.xml#article371035 engishiki_v37_en.xml#article371035"
+            n="37.35" type="条" xml:id="article371035">
             <head ana="得業生"/>
             <note type="summary"> 条文概要 </note>
-            <p ana="項" corresp="engishiki_v37.xml#item37103501 engishiki_v37_en.xml#item37103501" xml:id="item37103501"> 本文 </p>
+            <p ana="項" corresp="engishiki_v37.xml#item37103501 engishiki_v37_en.xml#item37103501"
+              xml:id="item37103501"> 本文 </p>
           </div>
-          <div ana="典薬" corresp="engishiki_v37.xml#article371036 engishiki_v37_en.xml#article371036" n="37.36" type="条"
-            xml:id="article371036">
+          <div ana="典薬" corresp="engishiki_v37.xml#article371036 engishiki_v37_en.xml#article371036"
+            n="37.36" type="条" xml:id="article371036">
             <head ana="医師公廨"/>
             <note type="summary"> 条文概要 </note>
-            <p ana="項" corresp="engishiki_v37.xml#item37103601 engishiki_v37_en.xml#item37103601" xml:id="item37103601"> 本文 </p>
+            <p ana="項" corresp="engishiki_v37.xml#item37103601 engishiki_v37_en.xml#item37103601"
+              xml:id="item37103601"> 本文 </p>
           </div>
-          <div ana="典薬" corresp="engishiki_v37.xml#article371037 engishiki_v37_en.xml#article371037" n="37.37" type="条"
-            xml:id="article371037">
+          <div ana="典薬" corresp="engishiki_v37.xml#article371037 engishiki_v37_en.xml#article371037"
+            n="37.37" type="条" xml:id="article371037">
             <head ana="授業師料物"/>
             <note type="summary"> 条文概要 </note>
-            <p ana="項" corresp="engishiki_v37.xml#item37103701 engishiki_v37_en.xml#item37103701" xml:id="item37103701"> 本文 </p>
+            <p ana="項" corresp="engishiki_v37.xml#item37103701 engishiki_v37_en.xml#item37103701"
+              xml:id="item37103701"> 本文 </p>
           </div>
-          <div ana="典薬" corresp="engishiki_v37.xml#article371038 engishiki_v37_en.xml#article371038" n="37.38" type="条"
-            xml:id="article371038">
+          <div ana="典薬" corresp="engishiki_v37.xml#article371038 engishiki_v37_en.xml#article371038"
+            n="37.38" type="条" xml:id="article371038">
             <head ana="五位以上草薬"/>
             <note type="summary"> 条文概要 </note>
-            <p ana="項" corresp="engishiki_v37.xml#item37103801 engishiki_v37_en.xml#item37103801" xml:id="item37103801"> 本文 </p>
+            <p ana="項" corresp="engishiki_v37.xml#item37103801 engishiki_v37_en.xml#item37103801"
+              xml:id="item37103801"> 本文 </p>
           </div>
-          <div ana="典薬" corresp="engishiki_v37.xml#article371039 engishiki_v37_en.xml#article371039" n="37.39" type="条"
-            xml:id="article371039">
+          <div ana="典薬" corresp="engishiki_v37.xml#article371039 engishiki_v37_en.xml#article371039"
+            n="37.39" type="条" xml:id="article371039">
             <head ana="年料雑物"/>
             <note type="summary"> 条文概要 </note>
-            <p ana="項" corresp="engishiki_v37.xml#item37103901 engishiki_v37_en.xml#item37103901" xml:id="item37103901"> 本文 </p>
+            <p ana="項" corresp="engishiki_v37.xml#item37103901 engishiki_v37_en.xml#item37103901"
+              xml:id="item37103901"> 本文 </p>
           </div>
-          <div ana="典薬" corresp="engishiki_v37.xml#article371040 engishiki_v37_en.xml#article371040" n="37.40" type="条"
-            xml:id="article371040">
+          <div ana="典薬" corresp="engishiki_v37.xml#article371040 engishiki_v37_en.xml#article371040"
+            n="37.40" type="条" xml:id="article371040">
             <head ana="寮家儲物"/>
             <note type="summary"> 条文概要 </note>
-            <p ana="項" corresp="engishiki_v37.xml#item37104001 engishiki_v37_en.xml#item37104001" xml:id="item37104001"> 本文 </p>
+            <p ana="項" corresp="engishiki_v37.xml#item37104001 engishiki_v37_en.xml#item37104001"
+              xml:id="item37104001"> 本文 </p>
           </div>
-          <div ana="典薬" corresp="engishiki_v37.xml#article371041 engishiki_v37_en.xml#article371041" n="37.41" type="条"
-            xml:id="article371041">
+          <div ana="典薬" corresp="engishiki_v37.xml#article371041 engishiki_v37_en.xml#article371041"
+            n="37.41" type="条" xml:id="article371041">
             <head ana="味原牧"/>
             <note type="summary"> 条文概要 </note>
-            <p ana="項" corresp="engishiki_v37.xml#item37104101 engishiki_v37_en.xml#item37104101" xml:id="item37104101"> 本文 </p>
+            <p ana="項" corresp="engishiki_v37.xml#item37104101 engishiki_v37_en.xml#item37104101"
+              xml:id="item37104101"> 本文 </p>
           </div>
-          <div ana="典薬" corresp="engishiki_v37.xml#article371042 engishiki_v37_en.xml#article371042" n="37.42" type="条"
-            xml:id="article371042">
+          <div ana="典薬" corresp="engishiki_v37.xml#article371042 engishiki_v37_en.xml#article371042"
+            n="37.42" type="条" xml:id="article371042">
             <head ana="味原死牛"/>
             <note type="summary"> 条文概要 </note>
-            <p ana="項" corresp="engishiki_v37.xml#item37104201 engishiki_v37_en.xml#item37104201" xml:id="item37104201"> 本文 </p>
+            <p ana="項" corresp="engishiki_v37.xml#item37104201 engishiki_v37_en.xml#item37104201"
+              xml:id="item37104201"> 本文 </p>
           </div>
-          <div ana="典薬" corresp="engishiki_v37.xml#article371043 engishiki_v37_en.xml#article371043" n="37.43" type="条"
-            xml:id="article371043">
+          <div ana="典薬" corresp="engishiki_v37.xml#article371043 engishiki_v37_en.xml#article371043"
+            n="37.43" type="条" xml:id="article371043">
             <head ana="地黄地"/>
             <note type="summary"> 条文概要 </note>
-            <p ana="項" corresp="engishiki_v37.xml#item37104301 engishiki_v37_en.xml#item37104301" xml:id="item37104301"> 本文 </p>
+            <p ana="項" corresp="engishiki_v37.xml#item37104301 engishiki_v37_en.xml#item37104301"
+              xml:id="item37104301"> 本文 </p>
           </div>
-          <div ana="典薬" corresp="engishiki_v37.xml#article371044 engishiki_v37_en.xml#article371044" n="37.44" type="条"
-            xml:id="article371044">
+          <div ana="典薬" corresp="engishiki_v37.xml#article371044 engishiki_v37_en.xml#article371044"
+            n="37.44" type="条" xml:id="article371044">
             <head ana="勧学田"/>
             <note type="summary"> 条文概要 </note>
-            <p ana="項" corresp="engishiki_v37.xml#item37104401 engishiki_v37_en.xml#item37104401" xml:id="item37104401"> 本文 </p>
+            <p ana="項" corresp="engishiki_v37.xml#item37104401 engishiki_v37_en.xml#item37104401"
+              xml:id="item37104401"> 本文 </p>
           </div>
-          <div ana="典薬" corresp="engishiki_v37.xml#article371045 engishiki_v37_en.xml#article371045" n="37.45" type="条"
-            xml:id="article371045">
+          <div ana="典薬" corresp="engishiki_v37.xml#article371045 engishiki_v37_en.xml#article371045"
+            n="37.45" type="条" xml:id="article371045">
             <head ana="山城年料雑薬"/>
             <note type="summary"> 条文概要 </note>
-            <p ana="項" corresp="engishiki_v37.xml#item37104501 engishiki_v37_en.xml#item37104501" xml:id="item37104501"> 本文 </p>
+            <p ana="項" corresp="engishiki_v37.xml#item37104501 engishiki_v37_en.xml#item37104501"
+              xml:id="item37104501"> 本文 </p>
           </div>
-          <div ana="典薬" corresp="engishiki_v37.xml#article371046 engishiki_v37_en.xml#article371046" n="37.46" type="条"
-            xml:id="article371046">
+          <div ana="典薬" corresp="engishiki_v37.xml#article371046 engishiki_v37_en.xml#article371046"
+            n="37.46" type="条" xml:id="article371046">
             <head ana="大和年料雑薬"/>
             <note type="summary"> 条文概要 </note>
-            <p ana="項" corresp="engishiki_v37.xml#item37104601 engishiki_v37_en.xml#item37104601" xml:id="item37104601"> 本文 </p>
+            <p ana="項" corresp="engishiki_v37.xml#item37104601 engishiki_v37_en.xml#item37104601"
+              xml:id="item37104601"> 本文 </p>
           </div>
-          <div ana="典薬" corresp="engishiki_v37.xml#article371047 engishiki_v37_en.xml#article371047" n="37.47" type="条"
-            xml:id="article371047">
+          <div ana="典薬" corresp="engishiki_v37.xml#article371047 engishiki_v37_en.xml#article371047"
+            n="37.47" type="条" xml:id="article371047">
             <head ana="摂津年料雑薬"/>
             <note type="summary"> 条文概要 </note>
-            <p ana="項" corresp="engishiki_v37.xml#item37104701 engishiki_v37_en.xml#item37104701" xml:id="item37104701"> 本文 </p>
+            <p ana="項" corresp="engishiki_v37.xml#item37104701 engishiki_v37_en.xml#item37104701"
+              xml:id="item37104701"> 本文 </p>
           </div>
-          <div ana="典薬" corresp="engishiki_v37.xml#article371048 engishiki_v37_en.xml#article371048" n="37.48" type="条"
-            xml:id="article371048">
+          <div ana="典薬" corresp="engishiki_v37.xml#article371048 engishiki_v37_en.xml#article371048"
+            n="37.48" type="条" xml:id="article371048">
             <head ana="河内年料雑薬"/>
             <note type="summary"> 条文概要 </note>
-            <p ana="項" corresp="engishiki_v37.xml#item37104801 engishiki_v37_en.xml#item37104801" xml:id="item37104801"> 本文 </p>
+            <p ana="項" corresp="engishiki_v37.xml#item37104801 engishiki_v37_en.xml#item37104801"
+              xml:id="item37104801"> 本文 </p>
           </div>
-          <div ana="典薬" corresp="engishiki_v37.xml#article371049 engishiki_v37_en.xml#article371049" n="37.49" type="条"
-            xml:id="article371049">
+          <div ana="典薬" corresp="engishiki_v37.xml#article371049 engishiki_v37_en.xml#article371049"
+            n="37.49" type="条" xml:id="article371049">
             <head ana="伊賀年料雑薬"/>
             <note type="summary"> 条文概要 </note>
-            <p ana="項" corresp="engishiki_v37.xml#item37104901 engishiki_v37_en.xml#item37104901" xml:id="item37104901"> 本文 </p>
+            <p ana="項" corresp="engishiki_v37.xml#item37104901 engishiki_v37_en.xml#item37104901"
+              xml:id="item37104901"> 本文 </p>
           </div>
-          <div ana="典薬" corresp="engishiki_v37.xml#article371050 engishiki_v37_en.xml#article371050" n="37.50" type="条"
-            xml:id="article371050">
+          <div ana="典薬" corresp="engishiki_v37.xml#article371050 engishiki_v37_en.xml#article371050"
+            n="37.50" type="条" xml:id="article371050">
             <head ana="伊勢年料雑薬"/>
             <note type="summary"> 条文概要 </note>
-            <p ana="項" corresp="engishiki_v37.xml#item37105001 engishiki_v37_en.xml#item37105001" xml:id="item37105001"> 本文 </p>
+            <p ana="項" corresp="engishiki_v37.xml#item37105001 engishiki_v37_en.xml#item37105001"
+              xml:id="item37105001"> 本文 </p>
           </div>
-          <div ana="典薬" corresp="engishiki_v37.xml#article371051 engishiki_v37_en.xml#article371051" n="37.51" type="条"
-            xml:id="article371051">
+          <div ana="典薬" corresp="engishiki_v37.xml#article371051 engishiki_v37_en.xml#article371051"
+            n="37.51" type="条" xml:id="article371051">
             <head ana="尾張年料雑薬"/>
             <note type="summary"> 条文概要 </note>
-            <p ana="項" corresp="engishiki_v37.xml#item37105101 engishiki_v37_en.xml#item37105101" xml:id="item37105101"> 本文 </p>
+            <p ana="項" corresp="engishiki_v37.xml#item37105101 engishiki_v37_en.xml#item37105101"
+              xml:id="item37105101"> 本文 </p>
           </div>
-          <div ana="典薬" corresp="engishiki_v37.xml#article371052 engishiki_v37_en.xml#article371052" n="37.52" type="条"
-            xml:id="article371052">
+          <div ana="典薬" corresp="engishiki_v37.xml#article371052 engishiki_v37_en.xml#article371052"
+            n="37.52" type="条" xml:id="article371052">
             <head ana="参河年料雑薬"/>
             <note type="summary"> 条文概要 </note>
-            <p ana="項" corresp="engishiki_v37.xml#item37105201 engishiki_v37_en.xml#item37105201" xml:id="item37105201"> 本文 </p>
+            <p ana="項" corresp="engishiki_v37.xml#item37105201 engishiki_v37_en.xml#item37105201"
+              xml:id="item37105201"> 本文 </p>
           </div>
-          <div ana="典薬" corresp="engishiki_v37.xml#article371053 engishiki_v37_en.xml#article371053" n="37.53" type="条"
-            xml:id="article371053">
+          <div ana="典薬" corresp="engishiki_v37.xml#article371053 engishiki_v37_en.xml#article371053"
+            n="37.53" type="条" xml:id="article371053">
             <head ana="遠江年料雑薬"/>
             <note type="summary"> 条文概要 </note>
-            <p ana="項" corresp="engishiki_v37.xml#item37105301 engishiki_v37_en.xml#item37105301" xml:id="item37105301"> 本文 </p>
+            <p ana="項" corresp="engishiki_v37.xml#item37105301 engishiki_v37_en.xml#item37105301"
+              xml:id="item37105301"> 本文 </p>
           </div>
-          <div ana="典薬" corresp="engishiki_v37.xml#article371054 engishiki_v37_en.xml#article371054" n="37.54" type="条"
-            xml:id="article371054">
+          <div ana="典薬" corresp="engishiki_v37.xml#article371054 engishiki_v37_en.xml#article371054"
+            n="37.54" type="条" xml:id="article371054">
             <head ana="駿河年料雑薬"/>
             <note type="summary"> 条文概要 </note>
-            <p ana="項" corresp="engishiki_v37.xml#item37105401 engishiki_v37_en.xml#item37105401" xml:id="item37105401"> 本文 </p>
+            <p ana="項" corresp="engishiki_v37.xml#item37105401 engishiki_v37_en.xml#item37105401"
+              xml:id="item37105401"> 本文 </p>
           </div>
-          <div ana="典薬" corresp="engishiki_v37.xml#article371055 engishiki_v37_en.xml#article371055" n="37.55" type="条"
-            xml:id="article371055">
+          <div ana="典薬" corresp="engishiki_v37.xml#article371055 engishiki_v37_en.xml#article371055"
+            n="37.55" type="条" xml:id="article371055">
             <head ana="伊豆年料雑薬"/>
             <note type="summary"> 条文概要 </note>
-            <p ana="項" corresp="engishiki_v37.xml#item37105501 engishiki_v37_en.xml#item37105501" xml:id="item37105501"> 本文 </p>
+            <p ana="項" corresp="engishiki_v37.xml#item37105501 engishiki_v37_en.xml#item37105501"
+              xml:id="item37105501"> 本文 </p>
           </div>
-          <div ana="典薬" corresp="engishiki_v37.xml#article371056 engishiki_v37_en.xml#article371056" n="37.56" type="条"
-            xml:id="article371056">
+          <div ana="典薬" corresp="engishiki_v37.xml#article371056 engishiki_v37_en.xml#article371056"
+            n="37.56" type="条" xml:id="article371056">
             <head ana="甲斐年料雑薬"/>
             <note type="summary"> 条文概要 </note>
-            <p ana="項" corresp="engishiki_v37.xml#item37105601 engishiki_v37_en.xml#item37105601" xml:id="item37105601"> 本文 </p>
+            <p ana="項" corresp="engishiki_v37.xml#item37105601 engishiki_v37_en.xml#item37105601"
+              xml:id="item37105601"> 本文 </p>
           </div>
-          <div ana="典薬" corresp="engishiki_v37.xml#article371057 engishiki_v37_en.xml#article371057" n="37.57" type="条"
-            xml:id="article371057">
+          <div ana="典薬" corresp="engishiki_v37.xml#article371057 engishiki_v37_en.xml#article371057"
+            n="37.57" type="条" xml:id="article371057">
             <head ana="相摸年料雑薬"/>
             <note type="summary"> 条文概要 </note>
-            <p ana="項" corresp="engishiki_v37.xml#item37105701 engishiki_v37_en.xml#item37105701" xml:id="item37105701"> 本文 </p>
+            <p ana="項" corresp="engishiki_v37.xml#item37105701 engishiki_v37_en.xml#item37105701"
+              xml:id="item37105701"> 本文 </p>
           </div>
-          <div ana="典薬" corresp="engishiki_v37.xml#article371058 engishiki_v37_en.xml#article371058" n="37.58" type="条"
-            xml:id="article371058">
+          <div ana="典薬" corresp="engishiki_v37.xml#article371058 engishiki_v37_en.xml#article371058"
+            n="37.58" type="条" xml:id="article371058">
             <head ana="武蔵年料雑薬"/>
             <note type="summary"> 条文概要 </note>
-            <p ana="項" corresp="engishiki_v37.xml#item37105801 engishiki_v37_en.xml#item37105801" xml:id="item37105801"> 本文 </p>
+            <p ana="項" corresp="engishiki_v37.xml#item37105801 engishiki_v37_en.xml#item37105801"
+              xml:id="item37105801"> 本文 </p>
           </div>
-          <div ana="典薬" corresp="engishiki_v37.xml#article371059 engishiki_v37_en.xml#article371059" n="37.59" type="条"
-            xml:id="article371059">
+          <div ana="典薬" corresp="engishiki_v37.xml#article371059 engishiki_v37_en.xml#article371059"
+            n="37.59" type="条" xml:id="article371059">
             <head ana="安房年料雑薬"/>
             <note type="summary"> 条文概要 </note>
-            <p ana="項" corresp="engishiki_v37.xml#item37105901 engishiki_v37_en.xml#item37105901" xml:id="item37105901"> 本文 </p>
+            <p ana="項" corresp="engishiki_v37.xml#item37105901 engishiki_v37_en.xml#item37105901"
+              xml:id="item37105901"> 本文 </p>
           </div>
-          <div ana="典薬" corresp="engishiki_v37.xml#article371060 engishiki_v37_en.xml#article371060" n="37.60" type="条"
-            xml:id="article371060">
+          <div ana="典薬" corresp="engishiki_v37.xml#article371060 engishiki_v37_en.xml#article371060"
+            n="37.60" type="条" xml:id="article371060">
             <head ana="上総年料雑薬"/>
             <note type="summary"> 条文概要 </note>
-            <p ana="項" corresp="engishiki_v37.xml#item37106001 engishiki_v37_en.xml#item37106001" xml:id="item37106001"> 本文 </p>
+            <p ana="項" corresp="engishiki_v37.xml#item37106001 engishiki_v37_en.xml#item37106001"
+              xml:id="item37106001"> 本文 </p>
           </div>
-          <div ana="典薬" corresp="engishiki_v37.xml#article371061 engishiki_v37_en.xml#article371061" n="37.61" type="条"
-            xml:id="article371061">
+          <div ana="典薬" corresp="engishiki_v37.xml#article371061 engishiki_v37_en.xml#article371061"
+            n="37.61" type="条" xml:id="article371061">
             <head ana="下総年料雑薬"/>
             <note type="summary"> 条文概要 </note>
-            <p ana="項" corresp="engishiki_v37.xml#item37106101 engishiki_v37_en.xml#item37106101" xml:id="item37106101"> 本文 </p>
+            <p ana="項" corresp="engishiki_v37.xml#item37106101 engishiki_v37_en.xml#item37106101"
+              xml:id="item37106101"> 本文 </p>
           </div>
-          <div ana="典薬" corresp="engishiki_v37.xml#article371062 engishiki_v37_en.xml#article371062" n="37.62" type="条"
-            xml:id="article371062">
+          <div ana="典薬" corresp="engishiki_v37.xml#article371062 engishiki_v37_en.xml#article371062"
+            n="37.62" type="条" xml:id="article371062">
             <head ana="常陸年料雑薬"/>
             <note type="summary"> 条文概要 </note>
-            <p ana="項" corresp="engishiki_v37.xml#item37106201 engishiki_v37_en.xml#item37106201" xml:id="item37106201"> 本文 </p>
+            <p ana="項" corresp="engishiki_v37.xml#item37106201 engishiki_v37_en.xml#item37106201"
+              xml:id="item37106201"> 本文 </p>
           </div>
-          <div ana="典薬" corresp="engishiki_v37.xml#article371063 engishiki_v37_en.xml#article371063" n="37.63" type="条"
-            xml:id="article371063">
+          <div ana="典薬" corresp="engishiki_v37.xml#article371063 engishiki_v37_en.xml#article371063"
+            n="37.63" type="条" xml:id="article371063">
             <head ana="近江年料雑薬"/>
             <note type="summary"> 条文概要 </note>
-            <p ana="項" corresp="engishiki_v37.xml#item37106301 engishiki_v37_en.xml#item37106301" xml:id="item37106301"> 本文 </p>
+            <p ana="項" corresp="engishiki_v37.xml#item37106301 engishiki_v37_en.xml#item37106301"
+              xml:id="item37106301"> 本文 </p>
           </div>
-          <div ana="典薬" corresp="engishiki_v37.xml#article371064 engishiki_v37_en.xml#article371064" n="37.64" type="条"
-            xml:id="article371064">
+          <div ana="典薬" corresp="engishiki_v37.xml#article371064 engishiki_v37_en.xml#article371064"
+            n="37.64" type="条" xml:id="article371064">
             <head ana="美濃年料雑薬"/>
             <note type="summary"> 条文概要 </note>
-            <p ana="項" corresp="engishiki_v37.xml#item37106401 engishiki_v37_en.xml#item37106401" xml:id="item37106401"> 本文 </p>
+            <p ana="項" corresp="engishiki_v37.xml#item37106401 engishiki_v37_en.xml#item37106401"
+              xml:id="item37106401"> 本文 </p>
           </div>
-          <div ana="典薬" corresp="engishiki_v37.xml#article371065 engishiki_v37_en.xml#article371065" n="37.65" type="条"
-            xml:id="article371065">
+          <div ana="典薬" corresp="engishiki_v37.xml#article371065 engishiki_v37_en.xml#article371065"
+            n="37.65" type="条" xml:id="article371065">
             <head ana="飛騨年料雑薬"/>
             <note type="summary"> 条文概要 </note>
-            <p ana="項" corresp="engishiki_v37.xml#item37106501 engishiki_v37_en.xml#item37106501" xml:id="item37106501"> 本文 </p>
+            <p ana="項" corresp="engishiki_v37.xml#item37106501 engishiki_v37_en.xml#item37106501"
+              xml:id="item37106501"> 本文 </p>
           </div>
-          <div ana="典薬" corresp="engishiki_v37.xml#article371066 engishiki_v37_en.xml#article371066" n="37.66" type="条"
-            xml:id="article371066">
+          <div ana="典薬" corresp="engishiki_v37.xml#article371066 engishiki_v37_en.xml#article371066"
+            n="37.66" type="条" xml:id="article371066">
             <head ana="信濃年料雑薬"/>
             <note type="summary"> 条文概要 </note>
-            <p ana="項" corresp="engishiki_v37.xml#item37106601 engishiki_v37_en.xml#item37106601" xml:id="item37106601"> 本文 </p>
+            <p ana="項" corresp="engishiki_v37.xml#item37106601 engishiki_v37_en.xml#item37106601"
+              xml:id="item37106601"> 本文 </p>
           </div>
-          <div ana="典薬" corresp="engishiki_v37.xml#article371067 engishiki_v37_en.xml#article371067" n="37.67" type="条"
-            xml:id="article371067">
+          <div ana="典薬" corresp="engishiki_v37.xml#article371067 engishiki_v37_en.xml#article371067"
+            n="37.67" type="条" xml:id="article371067">
             <head ana="上野年料雑薬"/>
             <note type="summary"> 条文概要 </note>
-            <p ana="項" corresp="engishiki_v37.xml#item37106701 engishiki_v37_en.xml#item37106701" xml:id="item37106701"> 本文 </p>
+            <p ana="項" corresp="engishiki_v37.xml#item37106701 engishiki_v37_en.xml#item37106701"
+              xml:id="item37106701"> 本文 </p>
           </div>
-          <div ana="典薬" corresp="engishiki_v37.xml#article371068 engishiki_v37_en.xml#article371068" n="37.68" type="条"
-            xml:id="article371068">
+          <div ana="典薬" corresp="engishiki_v37.xml#article371068 engishiki_v37_en.xml#article371068"
+            n="37.68" type="条" xml:id="article371068">
             <head ana="下野年料雑薬"/>
             <note type="summary"> 条文概要 </note>
-            <p ana="項" corresp="engishiki_v37.xml#item37106801 engishiki_v37_en.xml#item37106801" xml:id="item37106801"> 本文 </p>
+            <p ana="項" corresp="engishiki_v37.xml#item37106801 engishiki_v37_en.xml#item37106801"
+              xml:id="item37106801"> 本文 </p>
           </div>
-          <div ana="典薬" corresp="engishiki_v37.xml#article371069 engishiki_v37_en.xml#article371069" n="37.69" type="条"
-            xml:id="article371069">
+          <div ana="典薬" corresp="engishiki_v37.xml#article371069 engishiki_v37_en.xml#article371069"
+            n="37.69" type="条" xml:id="article371069">
             <head ana="陸奥年料雑薬"/>
             <note type="summary"> 条文概要 </note>
-            <p ana="項" corresp="engishiki_v37.xml#item37106901 engishiki_v37_en.xml#item37106901" xml:id="item37106901"> 本文 </p>
+            <p ana="項" corresp="engishiki_v37.xml#item37106901 engishiki_v37_en.xml#item37106901"
+              xml:id="item37106901"> 本文 </p>
           </div>
-          <div ana="典薬" corresp="engishiki_v37.xml#article371070 engishiki_v37_en.xml#article371070" n="37.70" type="条"
-            xml:id="article371070">
+          <div ana="典薬" corresp="engishiki_v37.xml#article371070 engishiki_v37_en.xml#article371070"
+            n="37.70" type="条" xml:id="article371070">
             <head ana="出羽年料雑薬"/>
             <note type="summary"> 条文概要 </note>
-            <p ana="項" corresp="engishiki_v37.xml#item37107001 engishiki_v37_en.xml#item37107001" xml:id="item37107001"> 本文 </p>
+            <p ana="項" corresp="engishiki_v37.xml#item37107001 engishiki_v37_en.xml#item37107001"
+              xml:id="item37107001"> 本文 </p>
           </div>
-          <div ana="典薬" corresp="engishiki_v37.xml#article371071 engishiki_v37_en.xml#article371071" n="37.71" type="条"
-            xml:id="article371071">
+          <div ana="典薬" corresp="engishiki_v37.xml#article371071 engishiki_v37_en.xml#article371071"
+            n="37.71" type="条" xml:id="article371071">
             <head ana="若狭年料雑薬"/>
             <note type="summary"> 条文概要 </note>
-            <p ana="項" corresp="engishiki_v37.xml#item37107101 engishiki_v37_en.xml#item37107101" xml:id="item37107101"> 本文 </p>
+            <p ana="項" corresp="engishiki_v37.xml#item37107101 engishiki_v37_en.xml#item37107101"
+              xml:id="item37107101"> 本文 </p>
           </div>
-          <div ana="典薬" corresp="engishiki_v37.xml#article371072 engishiki_v37_en.xml#article371072" n="37.72" type="条"
-            xml:id="article371072">
+          <div ana="典薬" corresp="engishiki_v37.xml#article371072 engishiki_v37_en.xml#article371072"
+            n="37.72" type="条" xml:id="article371072">
             <head ana="越前年料雑薬"/>
             <note type="summary"> 条文概要 </note>
-            <p ana="項" corresp="engishiki_v37.xml#item37107201 engishiki_v37_en.xml#item37107201" xml:id="item37107201"> 本文 </p>
+            <p ana="項" corresp="engishiki_v37.xml#item37107201 engishiki_v37_en.xml#item37107201"
+              xml:id="item37107201"> 本文 </p>
           </div>
-          <div ana="典薬" corresp="engishiki_v37.xml#article371073 engishiki_v37_en.xml#article371073" n="37.73" type="条"
-            xml:id="article371073">
+          <div ana="典薬" corresp="engishiki_v37.xml#article371073 engishiki_v37_en.xml#article371073"
+            n="37.73" type="条" xml:id="article371073">
             <head ana="加賀年料雑薬"/>
             <note type="summary"> 条文概要 </note>
-            <p ana="項" corresp="engishiki_v37.xml#item37107301 engishiki_v37_en.xml#item37107301" xml:id="item37107301"> 本文 </p>
+            <p ana="項" corresp="engishiki_v37.xml#item37107301 engishiki_v37_en.xml#item37107301"
+              xml:id="item37107301"> 本文 </p>
           </div>
-          <div ana="典薬" corresp="engishiki_v37.xml#article371074 engishiki_v37_en.xml#article371074" n="37.74" type="条"
-            xml:id="article371074">
+          <div ana="典薬" corresp="engishiki_v37.xml#article371074 engishiki_v37_en.xml#article371074"
+            n="37.74" type="条" xml:id="article371074">
             <head ana="能登年料雑薬"/>
             <note type="summary"> 条文概要 </note>
-            <p ana="項" corresp="engishiki_v37.xml#item37107401 engishiki_v37_en.xml#item37107401" xml:id="item37107401"> 本文 </p>
+            <p ana="項" corresp="engishiki_v37.xml#item37107401 engishiki_v37_en.xml#item37107401"
+              xml:id="item37107401"> 本文 </p>
           </div>
-          <div ana="典薬" corresp="engishiki_v37.xml#article371075 engishiki_v37_en.xml#article371075" n="37.75" type="条"
-            xml:id="article371075">
+          <div ana="典薬" corresp="engishiki_v37.xml#article371075 engishiki_v37_en.xml#article371075"
+            n="37.75" type="条" xml:id="article371075">
             <head ana="越中年料雑薬"/>
             <note type="summary"> 条文概要 </note>
-            <p ana="項" corresp="engishiki_v37.xml#item37107501 engishiki_v37_en.xml#item37107501" xml:id="item37107501"> 本文 </p>
+            <p ana="項" corresp="engishiki_v37.xml#item37107501 engishiki_v37_en.xml#item37107501"
+              xml:id="item37107501"> 本文 </p>
           </div>
-          <div ana="典薬" corresp="engishiki_v37.xml#article371076 engishiki_v37_en.xml#article371076" n="37.76" type="条"
-            xml:id="article371076">
+          <div ana="典薬" corresp="engishiki_v37.xml#article371076 engishiki_v37_en.xml#article371076"
+            n="37.76" type="条" xml:id="article371076">
             <head ana="越後年料雑薬"/>
             <note type="summary"> 条文概要 </note>
-            <p ana="項" corresp="engishiki_v37.xml#item37107601 engishiki_v37_en.xml#item37107601" xml:id="item37107601"> 本文 </p>
+            <p ana="項" corresp="engishiki_v37.xml#item37107601 engishiki_v37_en.xml#item37107601"
+              xml:id="item37107601"> 本文 </p>
           </div>
-          <div ana="典薬" corresp="engishiki_v37.xml#article371077 engishiki_v37_en.xml#article371077" n="37.77" type="条"
-            xml:id="article371077">
+          <div ana="典薬" corresp="engishiki_v37.xml#article371077 engishiki_v37_en.xml#article371077"
+            n="37.77" type="条" xml:id="article371077">
             <head ana="佐渡年料雑薬"/>
             <note type="summary"> 条文概要 </note>
-            <p ana="項" corresp="engishiki_v37.xml#item37107701 engishiki_v37_en.xml#item37107701" xml:id="item37107701"> 本文 </p>
+            <p ana="項" corresp="engishiki_v37.xml#item37107701 engishiki_v37_en.xml#item37107701"
+              xml:id="item37107701"> 本文 </p>
           </div>
-          <div ana="典薬" corresp="engishiki_v37.xml#article371078 engishiki_v37_en.xml#article371078" n="37.78" type="条"
-            xml:id="article371078">
+          <div ana="典薬" corresp="engishiki_v37.xml#article371078 engishiki_v37_en.xml#article371078"
+            n="37.78" type="条" xml:id="article371078">
             <head ana="丹波年料雑薬"/>
             <note type="summary"> 条文概要 </note>
-            <p ana="項" corresp="engishiki_v37.xml#item37107801 engishiki_v37_en.xml#item37107801" xml:id="item37107801"> 本文 </p>
+            <p ana="項" corresp="engishiki_v37.xml#item37107801 engishiki_v37_en.xml#item37107801"
+              xml:id="item37107801"> 本文 </p>
           </div>
-          <div ana="典薬" corresp="engishiki_v37.xml#article371079 engishiki_v37_en.xml#article371079" n="37.79" type="条"
-            xml:id="article371079">
+          <div ana="典薬" corresp="engishiki_v37.xml#article371079 engishiki_v37_en.xml#article371079"
+            n="37.79" type="条" xml:id="article371079">
             <head ana="丹後年料雑薬"/>
             <note type="summary"> 条文概要 </note>
-            <p ana="項" corresp="engishiki_v37.xml#item37107901 engishiki_v37_en.xml#item37107901" xml:id="item37107901"> 本文 </p>
+            <p ana="項" corresp="engishiki_v37.xml#item37107901 engishiki_v37_en.xml#item37107901"
+              xml:id="item37107901"> 本文 </p>
           </div>
-          <div ana="典薬" corresp="engishiki_v37.xml#article371080 engishiki_v37_en.xml#article371080" n="37.80" type="条"
-            xml:id="article371080">
+          <div ana="典薬" corresp="engishiki_v37.xml#article371080 engishiki_v37_en.xml#article371080"
+            n="37.80" type="条" xml:id="article371080">
             <head ana="但馬年料雑薬"/>
             <note type="summary"> 条文概要 </note>
-            <p ana="項" corresp="engishiki_v37.xml#item37108001 engishiki_v37_en.xml#item37108001" xml:id="item37108001"> 本文 </p>
+            <p ana="項" corresp="engishiki_v37.xml#item37108001 engishiki_v37_en.xml#item37108001"
+              xml:id="item37108001"> 本文 </p>
           </div>
-          <div ana="典薬" corresp="engishiki_v37.xml#article371081 engishiki_v37_en.xml#article371081" n="37.81" type="条"
-            xml:id="article371081">
+          <div ana="典薬" corresp="engishiki_v37.xml#article371081 engishiki_v37_en.xml#article371081"
+            n="37.81" type="条" xml:id="article371081">
             <head ana="因幡年料雑薬"/>
             <note type="summary"> 条文概要 </note>
-            <p ana="項" corresp="engishiki_v37.xml#item37108101 engishiki_v37_en.xml#item37108101" xml:id="item37108101"> 本文 </p>
+            <p ana="項" corresp="engishiki_v37.xml#item37108101 engishiki_v37_en.xml#item37108101"
+              xml:id="item37108101"> 本文 </p>
           </div>
-          <div ana="典薬" corresp="engishiki_v37.xml#article371082 engishiki_v37_en.xml#article371082" n="37.82" type="条"
-            xml:id="article371082">
+          <div ana="典薬" corresp="engishiki_v37.xml#article371082 engishiki_v37_en.xml#article371082"
+            n="37.82" type="条" xml:id="article371082">
             <head ana="伯耆年料雑薬"/>
             <note type="summary"> 条文概要 </note>
-            <p ana="項" corresp="engishiki_v37.xml#item37108201 engishiki_v37_en.xml#item37108201" xml:id="item37108201"> 本文 </p>
+            <p ana="項" corresp="engishiki_v37.xml#item37108201 engishiki_v37_en.xml#item37108201"
+              xml:id="item37108201"> 本文 </p>
           </div>
-          <div ana="典薬" corresp="engishiki_v37.xml#article371083 engishiki_v37_en.xml#article371083" n="37.83" type="条"
-            xml:id="article371083">
+          <div ana="典薬" corresp="engishiki_v37.xml#article371083 engishiki_v37_en.xml#article371083"
+            n="37.83" type="条" xml:id="article371083">
             <head ana="出雲年料雑薬"/>
             <note type="summary"> 条文概要 </note>
-            <p ana="項" corresp="engishiki_v37.xml#item37108301 engishiki_v37_en.xml#item37108301" xml:id="item37108301"> 本文 </p>
+            <p ana="項" corresp="engishiki_v37.xml#item37108301 engishiki_v37_en.xml#item37108301"
+              xml:id="item37108301"> 本文 </p>
           </div>
-          <div ana="典薬" corresp="engishiki_v37.xml#article371084 engishiki_v37_en.xml#article371084" n="37.84" type="条"
-            xml:id="article371084">
+          <div ana="典薬" corresp="engishiki_v37.xml#article371084 engishiki_v37_en.xml#article371084"
+            n="37.84" type="条" xml:id="article371084">
             <head ana="石見年料雑薬"/>
             <note type="summary"> 条文概要 </note>
-            <p ana="項" corresp="engishiki_v37.xml#item37108401 engishiki_v37_en.xml#item37108401" xml:id="item37108401"> 本文 </p>
+            <p ana="項" corresp="engishiki_v37.xml#item37108401 engishiki_v37_en.xml#item37108401"
+              xml:id="item37108401"> 本文 </p>
           </div>
-          <div ana="典薬" corresp="engishiki_v37.xml#article371085 engishiki_v37_en.xml#article371085" n="37.85" type="条"
-            xml:id="article371085">
+          <div ana="典薬" corresp="engishiki_v37.xml#article371085 engishiki_v37_en.xml#article371085"
+            n="37.85" type="条" xml:id="article371085">
             <head ana="播磨年料雑薬"/>
             <note type="summary"> 条文概要 </note>
-            <p ana="項" corresp="engishiki_v37.xml#item37108501 engishiki_v37_en.xml#item37108501" xml:id="item37108501"> 本文 </p>
+            <p ana="項" corresp="engishiki_v37.xml#item37108501 engishiki_v37_en.xml#item37108501"
+              xml:id="item37108501"> 本文 </p>
           </div>
-          <div ana="典薬" corresp="engishiki_v37.xml#article371086 engishiki_v37_en.xml#article371086" n="37.86" type="条"
-            xml:id="article371086">
+          <div ana="典薬" corresp="engishiki_v37.xml#article371086 engishiki_v37_en.xml#article371086"
+            n="37.86" type="条" xml:id="article371086">
             <head ana="美作年料雑薬"/>
             <note type="summary"> 条文概要 </note>
-            <p ana="項" corresp="engishiki_v37.xml#item37108601 engishiki_v37_en.xml#item37108601" xml:id="item37108601"> 本文 </p>
+            <p ana="項" corresp="engishiki_v37.xml#item37108601 engishiki_v37_en.xml#item37108601"
+              xml:id="item37108601"> 本文 </p>
           </div>
-          <div ana="典薬" corresp="engishiki_v37.xml#article371087 engishiki_v37_en.xml#article371087" n="37.87" type="条"
-            xml:id="article371087">
+          <div ana="典薬" corresp="engishiki_v37.xml#article371087 engishiki_v37_en.xml#article371087"
+            n="37.87" type="条" xml:id="article371087">
             <head ana="備前年料雑薬"/>
             <note type="summary"> 条文概要 </note>
-            <p ana="項" corresp="engishiki_v37.xml#item37108701 engishiki_v37_en.xml#item37108701" xml:id="item37108701"> 本文 </p>
+            <p ana="項" corresp="engishiki_v37.xml#item37108701 engishiki_v37_en.xml#item37108701"
+              xml:id="item37108701"> 本文 </p>
           </div>
-          <div ana="典薬" corresp="engishiki_v37.xml#article371088 engishiki_v37_en.xml#article371088" n="37.88" type="条"
-            xml:id="article371088">
+          <div ana="典薬" corresp="engishiki_v37.xml#article371088 engishiki_v37_en.xml#article371088"
+            n="37.88" type="条" xml:id="article371088">
             <head ana="備中年料雑薬"/>
             <note type="summary"> 条文概要 </note>
-            <p ana="項" corresp="engishiki_v37.xml#item37108801 engishiki_v37_en.xml#item37108801" xml:id="item37108801"> 本文 </p>
+            <p ana="項" corresp="engishiki_v37.xml#item37108801 engishiki_v37_en.xml#item37108801"
+              xml:id="item37108801"> 本文 </p>
           </div>
-          <div ana="典薬" corresp="engishiki_v37.xml#article371089 engishiki_v37_en.xml#article371089" n="37.89" type="条"
-            xml:id="article371089">
+          <div ana="典薬" corresp="engishiki_v37.xml#article371089 engishiki_v37_en.xml#article371089"
+            n="37.89" type="条" xml:id="article371089">
             <head ana="備後年料雑薬"/>
             <note type="summary"> 条文概要 </note>
-            <p ana="項" corresp="engishiki_v37.xml#item37108901 engishiki_v37_en.xml#item37108901" xml:id="item37108901"> 本文 </p>
+            <p ana="項" corresp="engishiki_v37.xml#item37108901 engishiki_v37_en.xml#item37108901"
+              xml:id="item37108901"> 本文 </p>
           </div>
-          <div ana="典薬" corresp="engishiki_v37.xml#article371090 engishiki_v37_en.xml#article371090" n="37.90" type="条"
-            xml:id="article371090">
+          <div ana="典薬" corresp="engishiki_v37.xml#article371090 engishiki_v37_en.xml#article371090"
+            n="37.90" type="条" xml:id="article371090">
             <head ana="安芸年料雑薬"/>
             <note type="summary"> 条文概要 </note>
-            <p ana="項" corresp="engishiki_v37.xml#item37109001 engishiki_v37_en.xml#item37109001" xml:id="item37109001"> 本文 </p>
+            <p ana="項" corresp="engishiki_v37.xml#item37109001 engishiki_v37_en.xml#item37109001"
+              xml:id="item37109001"> 本文 </p>
           </div>
-          <div ana="典薬" corresp="engishiki_v37.xml#article371091 engishiki_v37_en.xml#article371091" n="37.91" type="条"
-            xml:id="article371091">
+          <div ana="典薬" corresp="engishiki_v37.xml#article371091 engishiki_v37_en.xml#article371091"
+            n="37.91" type="条" xml:id="article371091">
             <head ana="周防年料雑薬"/>
             <note type="summary"> 条文概要 </note>
-            <p ana="項" corresp="engishiki_v37.xml#item37109101 engishiki_v37_en.xml#item37109101" xml:id="item37109101"> 本文 </p>
+            <p ana="項" corresp="engishiki_v37.xml#item37109101 engishiki_v37_en.xml#item37109101"
+              xml:id="item37109101"> 本文 </p>
           </div>
-          <div ana="典薬" corresp="engishiki_v37.xml#article371092 engishiki_v37_en.xml#article371092" n="37.92" type="条"
-            xml:id="article371092">
+          <div ana="典薬" corresp="engishiki_v37.xml#article371092 engishiki_v37_en.xml#article371092"
+            n="37.92" type="条" xml:id="article371092">
             <head ana="長門年料雑薬"/>
             <note type="summary"> 条文概要 </note>
-            <p ana="項" corresp="engishiki_v37.xml#item37109201 engishiki_v37_en.xml#item37109201" xml:id="item37109201"> 本文 </p>
+            <p ana="項" corresp="engishiki_v37.xml#item37109201 engishiki_v37_en.xml#item37109201"
+              xml:id="item37109201"> 本文 </p>
           </div>
-          <div ana="典薬" corresp="engishiki_v37.xml#article371093 engishiki_v37_en.xml#article371093" n="37.93" type="条"
-            xml:id="article371093">
+          <div ana="典薬" corresp="engishiki_v37.xml#article371093 engishiki_v37_en.xml#article371093"
+            n="37.93" type="条" xml:id="article371093">
             <head ana="紀伊年料雑薬"/>
             <note type="summary"> 条文概要 </note>
-            <p ana="項" corresp="engishiki_v37.xml#item37109301 engishiki_v37_en.xml#item37109301" xml:id="item37109301"> 本文 </p>
+            <p ana="項" corresp="engishiki_v37.xml#item37109301 engishiki_v37_en.xml#item37109301"
+              xml:id="item37109301"> 本文 </p>
           </div>
-          <div ana="典薬" corresp="engishiki_v37.xml#article371094 engishiki_v37_en.xml#article371094" n="37.94" type="条"
-            xml:id="article371094">
+          <div ana="典薬" corresp="engishiki_v37.xml#article371094 engishiki_v37_en.xml#article371094"
+            n="37.94" type="条" xml:id="article371094">
             <head ana="阿波年料雑薬"/>
             <note type="summary"> 条文概要 </note>
-            <p ana="項" corresp="engishiki_v37.xml#item37109401 engishiki_v37_en.xml#item37109401" xml:id="item37109401"> 本文 </p>
+            <p ana="項" corresp="engishiki_v37.xml#item37109401 engishiki_v37_en.xml#item37109401"
+              xml:id="item37109401"> 本文 </p>
           </div>
-          <div ana="典薬" corresp="engishiki_v37.xml#article371095 engishiki_v37_en.xml#article371095" n="37.95" type="条"
-            xml:id="article371095">
+          <div ana="典薬" corresp="engishiki_v37.xml#article371095 engishiki_v37_en.xml#article371095"
+            n="37.95" type="条" xml:id="article371095">
             <head ana="讃岐年料雑薬"/>
             <note type="summary"> 条文概要 </note>
-            <p ana="項" corresp="engishiki_v37.xml#item37109501 engishiki_v37_en.xml#item37109501" xml:id="item37109501"> 本文 </p>
+            <p ana="項" corresp="engishiki_v37.xml#item37109501 engishiki_v37_en.xml#item37109501"
+              xml:id="item37109501"> 本文 </p>
           </div>
-          <div ana="典薬" corresp="engishiki_v37.xml#article371096 engishiki_v37_en.xml#article371096" n="37.96" type="条"
-            xml:id="article371096">
+          <div ana="典薬" corresp="engishiki_v37.xml#article371096 engishiki_v37_en.xml#article371096"
+            n="37.96" type="条" xml:id="article371096">
             <head ana="伊予年料雑薬"/>
             <note type="summary"> 条文概要 </note>
-            <p ana="項" corresp="engishiki_v37.xml#item37109601 engishiki_v37_en.xml#item37109601" xml:id="item37109601"> 本文 </p>
+            <p ana="項" corresp="engishiki_v37.xml#item37109601 engishiki_v37_en.xml#item37109601"
+              xml:id="item37109601"> 本文 </p>
           </div>
-          <div ana="典薬" corresp="engishiki_v37.xml#article371097 engishiki_v37_en.xml#article371097" n="37.97" type="条"
-            xml:id="article371097">
+          <div ana="典薬" corresp="engishiki_v37.xml#article371097 engishiki_v37_en.xml#article371097"
+            n="37.97" type="条" xml:id="article371097">
             <head ana="土左年料雑薬"/>
             <note type="summary"> 条文概要 </note>
-            <p ana="項" corresp="engishiki_v37.xml#item37109701 engishiki_v37_en.xml#item37109701" xml:id="item37109701"> 本文 </p>
+            <p ana="項" corresp="engishiki_v37.xml#item37109701 engishiki_v37_en.xml#item37109701"
+              xml:id="item37109701"> 本文 </p>
           </div>
-          <div ana="典薬" corresp="engishiki_v37.xml#article371098 engishiki_v37_en.xml#article371098" n="37.98" type="条"
-            xml:id="article371098">
+          <div ana="典薬" corresp="engishiki_v37.xml#article371098 engishiki_v37_en.xml#article371098"
+            n="37.98" type="条" xml:id="article371098">
             <head ana="大宰年料雑薬"/>
             <note type="summary"> 条文概要 </note>
-            <p ana="項" corresp="engishiki_v37.xml#item37109801 engishiki_v37_en.xml#item37109801" xml:id="item37109801"> 本文 </p>
-            <p ana="項" corresp="engishiki_v37.xml#item37109802 engishiki_v37_en.xml#item37109802" xml:id="item37109802"> 本文 </p>
+            <p ana="項" corresp="engishiki_v37.xml#item37109801 engishiki_v37_en.xml#item37109801"
+              xml:id="item37109801"> 本文 </p>
+            <p ana="項" corresp="engishiki_v37.xml#item37109802 engishiki_v37_en.xml#item37109802"
+              xml:id="item37109802"> 本文 </p>
           </div>
         </div>
         <div type="尾題" xml:id="bidai37">
